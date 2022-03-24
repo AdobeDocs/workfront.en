@@ -56,13 +56,18 @@ You must have the following access to perform the steps in this article:
 1. At the top of the proofing viewer, click **Add comment**.
 1. (Conditional) If this is a video proof, play the video proof, then click**Add comment** at the point in the video where you want the comment using the playheads
 
-   ``` ```**Tips: **``````
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   1. For ease of use, pause the video, click in the time line where you want the comment.
+   >   1. For better precision, you can click the values above the playheads and type new values.  
 
-  1. For ease of use, pause the video, click in the time line where you want the comment.
-  1. For better precision, you can click the values above the playheads and type new values.  
-
-  1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
-  1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
+   >   1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
+   >   1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
+   >   
+   >
 
 1. To draw attention to a specific location on the proof, click the markup tool you want in the toolbar, then mark the area of the proof that you want to comment on:
 
@@ -119,8 +124,8 @@ You must have the following access to perform the steps in this article:
 1. (Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;For more information, see [Tag users to share a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Optional) To attach&nbsp;a file to a comment, do either of the following:
 
-  * Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.
-  * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
+   * Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.
+   * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
 1. Click **Post**.
 

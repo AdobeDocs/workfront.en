@@ -31,13 +31,13 @@ For example, you could do the following to customize what users see in Home and 
 
 * Add a custom field, hide a default field, and reorder the fields that display in the Details area
 
-  * In Home:
+   * In Home:
 
-    ![](assets/home-details-350x187.jpg)
+     ![](assets/home-details-350x187.jpg)
 
-  * And in Summary:
+   * And in Summary:
 
-    ![](assets/summary-details-350x219.jpg)
+     ![](assets/summary-details-350x219.jpg)
 
 * Show or hide the Documents section
 

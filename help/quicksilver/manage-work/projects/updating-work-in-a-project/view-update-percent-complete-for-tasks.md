@@ -26,6 +26,7 @@ You can update the percent complete for a task&nbsp;in any of the following ways
   >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
   >
 
-* **In the task header**: You can update the percent complete of a task in the task header. 
-* ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+* **In the task header**: You can update the percent complete of a task in the task header.
+
+  ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 

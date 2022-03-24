@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **View** drop-down menu, then click **Milestone**.  
    Or   
    If you are viewing a list of projects inside a Portfolio or a Program, select&nbsp;the **Milestone** subtab.   
-  
+   ![milestone_view_in_portfolio.png](assets/milestone-view-in-portfolio-350x246.png)  
    The list or report displays in a Milestone view.
 
    For information about the milestone view, see the section [Milestone view overview](#understanding-the-milestone-view) in this article.
@@ -137,6 +137,7 @@ To configure whether project status icons and completion percentage of projects 
 1. Go to the list of projects or to the project report&nbsp;that contains the milestones you want to view.
 1. Click the **View** drop-down menu, then click **Milestone**.  
    If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  
+   ![](assets/milestone-view-in-portfolio-350x246.png)
 
 1. Click **Options**&nbsp;in the upper-right corner of the Milestone view.  
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)

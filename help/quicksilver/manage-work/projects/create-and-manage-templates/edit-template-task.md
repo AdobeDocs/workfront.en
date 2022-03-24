@@ -62,22 +62,24 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. Click the name of a template task in the list to open the template task.
 1. (Conditional) To edit limited information about the template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
 1. (Optional)&nbsp;Click the **Collapse all** icon ![](assets/collapse-all-icon.png) to collapse all areas. 
+1.
 
-1. 
    To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), ```then select from any of the areas below, or click **Edit all** to edit information in all areas```:
 
-  * Overview
-  * Custom&nbsp;Forms
+   * Overview
+   * Custom&nbsp;Forms
 
-    Names of customs forms display only if there are custom forms attached to the object.
-  
-  * Finance
+     Names of customs forms display only if there are custom forms attached to the object.
+   
+   * Finance
 
    >[!TIP]
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template Task box below.
 
-1. (Conditional) To edit all information about the template task, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template task, then click **Edit**. The **Edit Template Task** box displays.
+1. (Conditional) To edit all information about the template task, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template task, then click **Edit**.
+
+   The **Edit Template Task** box displays.
 
    >[!TIP]
    >
@@ -87,12 +89,12 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 1. Consider specifying information in any of the following sections:
 
-  * [Overview](#overview)
-  * [Finance](#finance)
-  * [Settings](#settings)
-  * [Assignments](#assignments)
-  * [Custom Forms](#custom-forms)
-  * [Comment](#comment)
+   * [Overview](#overview)
+   * [Finance](#finance)
+   * [Settings](#settings)
+   * [Assignments](#assignments)
+   * [Custom Forms](#custom-forms)
+   * [Comment](#comment)
 
 ### Overview
 

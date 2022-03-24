@@ -106,13 +106,16 @@ There are some differences when using agile views on a project versus working in
 
 * Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board.   
   For example, these tasks appear as follows in the project list view:   
-  
-  These tasks appear as follows in the project agile view:
+  ![Agile project list - tasks with no parent or subtasks](assets/agile-project-single-list-350x103.png)  
+  These tasks appear as follows in the project agile view:   
+  ![Project agile view - tasks with no parent or subtasks](assets/agile-project-singlecard-350x95.png)  
 
 * Parent tasks that have subtasks are always displayed in the **Stories** column of the story board. Subtasks are displayed in the swimlane of the parent task.   
-  For example, these tasks appear as follows in the project list view:
-
-  These tasks appear as follows in the project agile view:
+  For example, these tasks appear as follows in the project list view:   
+  ![Agile project list - tasks with parents and subtasks](assets/agile-project-parent-list-350x103.png)  
+  
+  These tasks appear as follows in the project agile view:   
+  ![Agile project view - tasks with parents and subtasks](assets/agile-project-parent-350x95.png)  
 
 * Second-level subtasks (subtasks of subtasks) are displayed as a hanging gray card off the immediate parent task.
 * Third-level subtasks (subtasks of subtasks of subtasks) are never displayed on the story board.
@@ -154,13 +157,14 @@ For information about how to customize an agile view, see&nbsp; [Create or custo
 
 1. Go to the project you want to view in an agile view.
 1. Click the **Agile** icon.  
-  
+   ![](assets/agile-icon.png)  
    The project is displayed in the default agile view.   
    If you previously viewed the project in a custom agile view, the project is displayed in that&nbsp;view rather than in the default agile view.  
+   ![agile_project.png](assets/agile-project-350x295.png)
 
 1. (Optional) If you have&nbsp;created a custom&nbsp;agile view, or if another user has created a custom&nbsp;agile view and shared it with you, you can view&nbsp;it instead of the default agile view.   
    Click the **View** drop-down menu, then click&nbsp;the custom agile view you want to view.  
-  
+   ![](assets/agile-custom.png)  
    The custom agile view is used the next time you click the **Agile** icon.  
    For information about how to create a new agile view, see [Create and customize Agile views](#creating-a-new-agile-view).  
    The project is displayed in the custom&nbsp;agile view.

@@ -66,10 +66,13 @@ You can request initial access to objects that you do not currently have access 
 
 If you do not already have access to an object&nbsp;and you navigate to that object from a link,&nbsp;a screen is displayed informing you that you do not&nbsp;have access to view the information. &nbsp;
 
+![](assets/permission-request-initial1-350x98.png)
+
 To request initial access to an object:
 
 1. Click **Request Access**.  
    The **Request Access** dialog box is displayed.  
+   ![](assets/permission-request-additional-350x330.png)
 
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.&nbsp;
 1. Select the user from the drop-down list who you want to receive your access request.  
@@ -90,13 +93,13 @@ For example,&nbsp;if you do not&nbsp;have portfolio&nbsp;access, but you were&nb
 
 To request additional access to an object that you already have limited access to:
 
-1. Go to the object for which you want to request additional access.
+1. Go to the object for which you want to request additional access.  
+   ![](assets/permission-request-additional1-350x100.png)  
 
-1. Request More Access
-1. 
-1. Request Access
-1. 
-1. 
+1. Click **Request More Access** in the upper-right corner of the page.  
+   The **Request Access** dialog box is displayed.  
+   ![](assets/permission-request-additional-350x330.png)
+
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.
 1. Select the user from the drop-down list who you want to receive your access request.  
    Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.  

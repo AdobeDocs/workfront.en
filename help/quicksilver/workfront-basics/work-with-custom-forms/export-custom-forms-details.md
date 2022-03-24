@@ -76,18 +76,24 @@ Exporting information from the Details section of an object is identical for all
 
    ![](assets/export-custom-form-button-menu.png)
 
-   ``` ```**Tips: **``````  The following scenarios may exist:
-
-  * When your group or Workfront administrator deselects all fields in the Overview area and the object has custom forms attached, the Overview section does not display.
-  * When your group or Workfront administrator deselects all fields in the Overview area and the object has no custom forms attached, the Export drop-down menu is not visible.
-  * When the object has no custom forms attached, you can export only the Overview area.
-  * Custom fields that are behind logic and are not visible on the form do not export. For information about adding logic to a custom form, see [Display logic and skip logic on a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+   >[!NOTE]
+   >
+   >The following scenarios may exist:
+   >
+   >   
+   >   
+   >   * When your group or Workfront administrator deselects all fields in the Overview area and the object has custom forms attached, the Overview section does not display.
+   >   * When your group or Workfront administrator deselects all fields in the Overview area and the object has no custom forms attached, the Export drop-down menu is not visible.
+   >   * When the object has no custom forms attached, you can export only the Overview area.
+   >   * Custom fields that are behind logic and are not visible on the form do not export. For information about adding logic to a custom form, see [Display logic and skip logic on a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+   >   
+   >
 
    A PDF file is produced and downloaded to your computer. The PDF file contains the following information:
 
-  * The name of the object the form is attached to
-  * The name of the user who exported the PDF
-  * The date and time when the PDF was produced
-  * The name of the forms you exported
-  * Information from the fields completed on the form
+   * The name of the object the form is attached to
+   * The name of the user who exported the PDF
+   * The date and time when the PDF was produced
+   * The name of the forms you exported
+   * Information from the fields completed on the form
 

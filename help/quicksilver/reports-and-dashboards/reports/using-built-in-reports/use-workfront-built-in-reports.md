@@ -344,9 +344,8 @@ The following reports come with the Workfront package. The reports are available
 
 ## Access built-in reports
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
-
-1. Click **Reports**. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click **Reports**.
 1. Click **All Reports**.
 1. Expand the **Filter** drop-down menu, and select**New Filter**.
 
@@ -356,6 +355,7 @@ The following reports come with the Workfront package. The reports are available
 1. Under the **Report** object, select **Global ID**.
 
 1. In the filter modifier drop-down menu, select **Is Not Blank**.  
+   ![](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Click **Save Filter**.  
    The reports list displays only built-in reports.  

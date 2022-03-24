@@ -60,9 +60,11 @@ Consider the following information about configuring an unlocked timesheet or ho
 
 ## Configure an unlocked timesheet or hour preference for a group
 
-``` ```**Note: **`````` If you are a group administrator, you can configure an unlocked timesheet or hour preference for your group only in the new Adobe Workfront experience.
-
-Or you can ask a Workfront administrator to configure the preference for your group from the main Timesheets & Hours Preferences area in Setup, as explained in the Tip box above step 1. This can be done in Workfront Classic.
+>[!NOTE]
+>
+>If you are a group administrator, you can configure an unlocked timesheet or hour preference for your group only in the new Adobe Workfront experience. 
+>
+>Or you can ask a Workfront administrator to configure the preference for your group from the main Timesheets & Hours Preferences area in Setup, as explained in the Tip box above step 1. This can be done in Workfront Classic.
 
 >[!TIP]
 >

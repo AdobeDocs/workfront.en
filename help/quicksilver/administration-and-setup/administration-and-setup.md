@@ -20,7 +20,7 @@ This section contains the following subsections:
 * [Manage Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md) 
 * [Manage groups](../administration-and-setup/manage-groups/manage-groups.md) 
 * [Configure integrations](../administration-and-setup/configure-integrations/workfront-integrations.md) 
-* Blueprints
+* [Blueprints](../administration-and-setup/blueprints/blueprints.md) 
 * [Administrator FAQs](../administration-and-setup/administrator-faqs/adminstrator-faqs.md) 
 * [Tips, tricks, and troubleshooting for administration and setup](../administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
 

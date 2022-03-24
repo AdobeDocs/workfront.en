@@ -60,15 +60,15 @@ When you restore a project, task, or issue, the following associated information
 * Statuses
 * Financial Information:
 
-  * Billing records
-  * Billing rates
-  * Expenses
+   * Billing records
+   * Billing rates
+   * Expenses
 
 * Timeline information:
 
-  * Predecessors
-  * Task constraints
-  * Duration type
+   * Predecessors
+   * Task constraints
+   * Duration type
 
 * Baselines
 
@@ -90,12 +90,12 @@ When you restore a project, task, or issue, the following associated information
 
   Consider the following when restoring documents and document versions:
 
-  * Documents that were deleted individually can be restored individually.
+   * Documents that were deleted individually can be restored individually.
 
-    Documents that were deleted along with their parent project, task, or issue are recovered when you restore the parent, but you cannot restore them individually. 
-  
-  * All versions of a document or a document proof are restored when the document is restored.  
-    Individual versions of a document or document proof that were deleted individually cannot be recovered.
+     Documents that were deleted along with their parent project, task, or issue are recovered when you restore the parent, but you cannot restore them individually. 
+   
+   * All versions of a document or a document proof are restored when the document is restored.  
+     Individual versions of a document or document proof that were deleted individually cannot be recovered.
 
 ## Information that is not recovered when you restore a project, task, or issue
 
@@ -144,11 +144,11 @@ When you restore a project, task, or issue, the following associated information
 
 * After you restore an item:
 
-  * A message displays to lets you know whether you were successful.
+   * A message displays to lets you know whether you were successful.
 
-    You also receive an email notification. If you restored multiple items, the email lists them.
-  
-  * A comment displays in the Updates area of the project, task, or issue and in that of the parent object.
+     You also receive an email notification. If you restored multiple items, the email lists them.
+   
+   * A comment displays in the Updates area of the project, task, or issue and in that of the parent object.
 
-    This does not happen when you restore a document.
+     This does not happen when you restore a document.
 

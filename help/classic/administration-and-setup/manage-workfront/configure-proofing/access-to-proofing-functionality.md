@@ -40,6 +40,8 @@ For information about granting and revoking a user's access to create and view p
 * Configure when proofs with an automated workflow are visible to users who are associated with a given stage. For more information, see&nbsp; [Configure proof visibility based on workflow stage activity](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md#configuring-proof-visibility-based-on-workflow-stage-activity)&nbsp;in&nbsp; [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
 * Seamless access to Workfront Proof directly from the Workfront Global Navigation Bar (no extra login required). For more information, see [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
+  ![](assets/proof-access-proofhq-350x39.png)
+
 >[!NOTE]
 >
 >There are some capabilities included in Workfront Proof standalone that are not included in Proofing in Workfront. To learn more, see [Standalone Workfront Proof to Integrated Proofing in Workfront overview](../../../administration-and-setup/manage-workfront/configure-proofing/move-to-proofing-in-workfront.md)

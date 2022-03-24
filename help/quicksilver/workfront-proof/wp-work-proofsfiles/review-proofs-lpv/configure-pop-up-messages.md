@@ -27,8 +27,8 @@ If you are a Workfront Proof administrator (Administrator or Billing Administrat
 
    If you leave the text blank, the pop-up is not displayed.
 
-  * **On load**:&nbsp;The On Load pop-up message appears when the proof first opens in the Proof Viewer.&nbsp;
-  * **On decision**:&nbsp;The On Decision pop-up message appears when the person has made a decision on the proof.
+   * **On load**:&nbsp;The On Load pop-up message appears when the proof first opens in the Proof Viewer.&nbsp;
+   * **On decision**:&nbsp;The On Decision pop-up message appears when the person has made a decision on the proof.
 
 1. Define the text for the button.   
    If you leave the text blank, an OK button displays.

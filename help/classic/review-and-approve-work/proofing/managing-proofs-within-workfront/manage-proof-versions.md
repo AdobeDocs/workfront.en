@@ -45,7 +45,14 @@ You must have the following access to perform the steps in this article:
 1. Go to the Document list, and select the proof.
 1. On the **Details** tab in the right panel, view the **Versions** section.
 
-Preview a previous proof version  ```<li value="1">Go to the document list, and select a proof.</li>``` ```<li value="2"> <p> On the <strong>Details</strong> tab in the panel to the right, click the version, then click <strong>Preview</strong> in the drop-down list that appears.</p> <p> <img src="assets/version-hover-329x690.png" alt="" style="width: 329;height: 690;"> </p> </li>``` Files that cannot be previewed (such as XLSX and DOC) are&nbsp;downloaded.
+## Preview a previous proof version
+
+1. Go to the document list, and select a proof.
+1. On the **Details** tab in the panel to the right, click the version, then click **Preview** in the drop-down list that appears.
+
+   ![](assets/version-hover-329x690.png)
+
+1. Files that cannot be previewed (such as XLSX and DOC) are&nbsp;downloaded.
 
 1. In a document list, hover over the row containing the proof, then click **Document Details**.
 1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.

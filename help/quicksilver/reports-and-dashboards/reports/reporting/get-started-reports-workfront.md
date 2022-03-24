@@ -108,6 +108,8 @@ For information on copying reports, see the article [Create a copy of a report](
 
 You can see who owns a report by checking the **Entered By** field.
 
+![](assets/nwe-entered-by-350x218.png)
+
 ### Create reports in the builder interface
 
 We recommend that you use the report building interface first to build a new report. The interface offers a streamlined set of tools that walk you through putting elements together to create the report you want. You have objects and fields that you can select from lists and add to all your reporting elements.  

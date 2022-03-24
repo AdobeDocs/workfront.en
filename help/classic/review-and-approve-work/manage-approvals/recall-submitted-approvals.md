@@ -58,7 +58,7 @@ If you recall an approval that is associated with the beginning status of the pr
 
 To recall a project approval you submitted:
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
 1. Select a **Project** approval.
@@ -79,7 +79,7 @@ If you recall an approval that is associated with the beginning status of the ta
 
 To recall a task approval you submitted:
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
 1. Select a **Task** approval.
@@ -98,7 +98,7 @@ If you recall an approval that is associated with the beginning status of the is
 >
 >You can associate the first status of an issue with an approval process by using a template. For more information about creating a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
 1. Select an **Issue** approval.  
@@ -110,7 +110,7 @@ If you recall an approval that is associated with the beginning status of the is
 
 When you recall a timesheet approval, the timesheet returns to the status it was in before it was submitted for approval.
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
 1. Select a **Timesheet** approval.  
@@ -122,7 +122,7 @@ When you recall a timesheet approval, the timesheet returns to the status it was
 
 To recall a document approval, you must manually remove one or all users from the approval.
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
 1. Select a **Document** approval.
@@ -136,7 +136,7 @@ To recall a document approval, you must manually remove one or all users from th
 
 ## Access Requests
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
 1. Select an **Access Request** approval.  

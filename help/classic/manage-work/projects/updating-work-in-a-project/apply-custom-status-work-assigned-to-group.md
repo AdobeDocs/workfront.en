@@ -49,7 +49,8 @@ When you update the Group for a project, the options available for the Status ch
 
 1. Go to a project, or create a new project, as described in [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 1. Click **Edit Project**.
-1. ![](assets/screenshot-2016-05-10-12.34.25-adobe-branding-350x158.png)
+
+   ![](assets/screenshot-2016-05-10-12.34.25-adobe-branding-350x158.png)
 
 1. In the **Edit Project** box that displays, near the bottom of the **Overview** section, select the group in the **Group** drop-down menu.
 

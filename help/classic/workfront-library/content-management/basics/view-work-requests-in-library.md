@@ -13,7 +13,7 @@ You can view all the work requests you've submitted. For information on submitti
 
 Users with Manager or higher access to Workfront Library can view requests other users have submitted.
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **Requests**>**Requests I've Submitted**.
 

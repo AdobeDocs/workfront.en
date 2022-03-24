@@ -71,15 +71,25 @@ You can manage resources in the following predefined areas in Workfront:
 
 For multiple projects:
 
-* In the Workload Balancer section in the People area. It is the default setting.  You can make resourcing assignments and adjust allocations across multiple projects that you have permissions to edit.
+* In the Workload Balancer section in the People area. It is the default setting.
+
+  You can make resourcing assignments and adjust allocations across multiple projects that you have permissions to edit.
+
+  ![](assets/classic-balancer-global-350x215.png)
 
 For a team:
 
-* From the Working On tab of a team. It is the default setting.  You can adjust allocations and review or assign work from multiple projects to individual team members.
+* From the Working On tab of a team. It is the default setting.
+
+  You can adjust allocations and review or assign work from multiple projects to individual team members.
+
+  ![](assets/classic-balancer-team-350x224.png)
 
 For a project:
 
-* From the Scheduling subtab of the Staffing tab of a project. It is the default setting.  You can do the following when you use the&nbsp;Workload Balancer within a project:
+* From the Scheduling subtab of the Staffing tab of a project. It is the default setting.
+
+  You can do the following when you use the&nbsp;Workload Balancer within a project:
 
    * Assign work on the project to users already assigned other work on the project.
    * Assign work to any user that might not be on the project.
@@ -87,7 +97,11 @@ For a project:
    * View additional work that users are assigned to on other projects.
    * Adjust user allocations to work items.
 
-Add the Workload Balancer to a custom tab You can add the Workload Balancer to any custom  tab .
+  ![](assets/classic-balancer-project-350x177.png)
+
+## Add the Workload Balancer to a custom tab
+
+You can add the Workload Balancer to any custom  tab .
 
 1. Access the Workload Balancer by going to any of the following areas:
 

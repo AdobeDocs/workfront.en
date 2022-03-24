@@ -147,9 +147,9 @@ For information about the task and issue preference, see [Configure system-wide 
 >
 >* If you change the group that is associated with an existing project template, the template's settings remain the same.
 >* If you move an existing template task to another template, the following settings remain unchanged in the template task, regardless of the group associated with the new template:>
->  * Duration Type
->  * Revenue Type
->  * Cost Type
+>   * Duration Type
+>   * Revenue Type
+>   * Cost Type
 >
 >  However, the template task is affected by the setting "When someone is assigned to a task" on the new template. For more information, see the section [Access](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) in the article [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md). 
 >

@@ -106,8 +106,8 @@ To copy a filter without copying modules, you can use Google Chrome for the foll
 
 1. Click **Copy Filter**, then configure the **Copy Filter** tool in the right side panel:
 
-  1. Set the **Source Module** as the module right after the filter you want to copy.
-  1. Set the **Target Module** as the module right before the filter you want to copy.
+   1. Set the **Source Module** as the module right after the filter you want to copy.
+   1. Set the **Target Module** as the module right before the filter you want to copy.
 
 1. Click **Run**.
 

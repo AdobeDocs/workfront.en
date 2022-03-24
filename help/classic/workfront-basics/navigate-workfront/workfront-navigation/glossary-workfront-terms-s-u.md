@@ -44,9 +44,11 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td>Schedule Exemption</td> 
    <td>Also knows as a Modified Shift. Days scheduled in contrast to the regular weekly work times as defined by the schedule. For example, a Saturday scheduled to work, when the Schedule is set up to only Work Monday Through Friday, would be a Schedule Exemption.</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Scheduled Hours</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>This field displays in a Resource Estimate report which uses data from Legacy Resource Management Flash-based tools. These tools are currently deprecated and will soon be removed from Workfront. Workfront calculates Scheduled Hours by taking the Planned Hours from each task assigned to job roles in the Legacy Resource Pool, then divides those by the Duration of the task to get the hours per day. Then, it aggregates those from all tasks of the project specific to the timeframe to get the Scheduled Hours per project. The shortest timeframe is a week. </p> </td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td>Scheduled Hours</td> 
+   <td> <p>This field displays in a Resource Estimate report which uses data from Legacy Resource Management Flash-based tools. These tools are currently deprecated and will soon be removed from Workfront. Workfront calculates Scheduled Hours by taking the Planned Hours from each task assigned to job roles in the Legacy Resource Pool, then divides those by the Duration of the task to get the hours per day. Then, it aggregates those from all tasks of the project specific to the timeframe to get the Scheduled Hours per project. The shortest timeframe is a week. </p> </td> 
+  </tr> 
   <tr> 
    <td> <p>Scheduled Report</p> </td> 
    <td> <p>When you build a report of reports, you can display&nbsp;information about the schedules of the report, if the report is scheduled for delivery using the Scheduled Report field. This field shows multiple values, one for each schedule of each report, in a bulleted list. For more information about scheduling reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Report delivery overview</a>.</p> <p>Because this field shows multiple values, it cannot be used in a grouping. You can access it only in a filter or a view.&nbsp;</p> </td> 

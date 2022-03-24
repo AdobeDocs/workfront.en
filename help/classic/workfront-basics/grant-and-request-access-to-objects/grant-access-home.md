@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 ## Grant access to objects in the Home area
 
-1. Home
+1. &nbsp;Go to **Home** in the Global Navigation Bar.
 1. In the **Work List**, select the access request you want to manage.  
    ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
 
 You can configure whether you receive email notifications for access requests. Your Workfront administrator can disable this functionality (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. My Settings
+1. Click your avatar in the upper-right corner of the Global Navigation bar, then click **My Settings**.
 1. Click **Preferences**, or scroll to the Preferences section.
 1. In the **Email Me When** drop-down list, select or deselect **Someone requests access from me**, depending on whether you want to receive email notifications when another user requests access from you or not.
 

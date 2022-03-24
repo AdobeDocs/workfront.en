@@ -2,8 +2,9 @@
 
 # View and manage a group’s details
 
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta. 
-You can view and edit the Group Details page for a group or subgroup that you manage. This page includes a description of the group, the names of the Business Leader and group administrators, and an option that allows you to make the group and all of its subgroups public or private. 
+The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
+
+You can view and edit the Group Details page for a group or subgroup that you manage. This page includes a description of the group, the names of the Business Leader and group administrators, and an option that allows you to make the group and all of its subgroups public or private.
 
 For information about other ways you can manage a group, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
@@ -38,7 +39,51 @@ You must have the following to perform the steps in this article:
 
 1. Click the name of the top-level group that you want to edit.
 1. In the left menu, click **Group Details**, then do any of the following:
-1. ```<col>``` ```<col>``` ```<tbody>  <tr>   <td role="rowheader">Description</td>   <td> <p>You can type up to 512 characters.</p> <p>If the field is blank, click <strong>Add</strong> to type a description.</p> </td>  </tr> <!--  <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">    <td role="rowheader"><span class="preview">Is Active</span> </td>    <td>     <div class="preview"> <!--      <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in</p>     -->      <p>(Enabled by default) Makes the group active in your Workfront instance.</p>      <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p>      <p> <img src="assets/group-type-aheads.jpg"> </p>      <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p>      <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p>     </div> <p class="preview">For information about inactive groups, see <a href="#inactive" class="MCXref xref">Inactive groups</a> in this article.</p> </td>   </tr> -->  <tr>   <td role="rowheader">Group accessibility</td>   <td> <p>(Available only if you are viewing Details for a group, not a subgroup.) Enable or disable the option <strong>Make this group and subgroups private</strong>.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> </td>  </tr>  <tr>   <td role="rowheader">Group stakeholders</td>   <td>    <ul>     <li><strong>Group Administrators</strong>: Add or remove users with a Planner license as group administrators for the group. Begin typing the name of a user, then click the name when it appears in the drop-down menu.</li>     <li><strong>Business Leader</strong>: Do one of the following:     <ul>      <li>If you have not yet assigned a Business Leader for the group, click <strong>Add</strong>, start typing the name of the user you want to assign, then click the person’s name when it appears.</li>      <li>If the group already has a Business Leader and you want to change it, double-click the name of the existing Business Leader. Delete the name, start typing the name of the user you want to assign, then click the person’s name when it appears.</li>     </ul></li>    </ul> </td>  </tr>  <tr>   <td role="rowheader">Add custom form</td>   <td>If your access level allows you to manage custom forms, add a custom form to the group. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Custom forms</a>.</td>  </tr> </tbody>```
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td> <p>You can type up to 512 characters.</p> <p>If the field is blank, click <strong>Add</strong> to type a description.</p> </td> 
+     </tr> <!--
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader"><span class="preview">Is Active</span> </td> 
+       <td> 
+        <div class="preview"> <!--
+          <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in</p>
+         --> 
+         <p>(Enabled by default) Makes the group active in your Workfront instance.</p> 
+         <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> 
+         <p> <img src="assets/group-type-aheads.jpg"> </p> 
+         <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> 
+         <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> 
+        </div> <p class="preview">For information about inactive groups, see <a href="#inactive" class="MCXref xref">Inactive groups</a> in this article.</p> </td> 
+      </tr>
+     --> 
+     <tr> 
+      <td role="rowheader">Group accessibility</td> 
+      <td> <p>(Available only if you are viewing Details for a group, not a subgroup.) Enable or disable the option <strong>Make this group and subgroups private</strong>.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Group stakeholders</td> 
+      <td> 
+       <ul> 
+        <li><strong>Group Administrators</strong>: Add or remove users with a Planner license as group administrators for the group. Begin typing the name of a user, then click the name when it appears in the drop-down menu.</li> 
+        <li><strong>Business Leader</strong>: Do one of the following:
+         <ul>
+          <li>If you have not yet assigned a Business Leader for the group, click <strong>Add</strong>, start typing the name of the user you want to assign, then click the person’s name when it appears.</li>
+          <li>If the group already has a Business Leader and you want to change it, double-click the name of the existing Business Leader. Delete the name, start typing the name of the user you want to assign, then click the person’s name when it appears.</li>
+         </ul></li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Add custom form</td> 
+      <td>If your access level allows you to manage custom forms, add a custom form to the group. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Custom forms</a>.</td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -61,61 +61,61 @@ You must have the following access to perform the steps in this article:
 
 1. Add a stage to the Automated Worfklow:
 
-  1. Click **New stage** near the upper-right corner.
-  1. In the box that appears, type a&nbsp;**Name** for the stage.
-  1. (Optional) Set a deadline for the stage. 
-  1. In the **Activate stage** section, choose how you want the stage to activate:
+   1. Click **New stage** near the upper-right corner.
+   1. In the box that appears, type a&nbsp;**Name** for the stage.
+   1. (Optional) Set a deadline for the stage. 
+   1. In the **Activate stage** section, choose how you want the stage to activate:
 
-     | On proof creation |The stage becomes active automatically because the proof has already been created.  |
-     |---|---|
-     | **When previous stage deadline passes** |Click the previous stage in the **Parent stage** drop-down list . |
-     | **On a specific date & time** |Click the **On** box to select the date, then click the box to the right to select the time. |
-     | **All decisions are Approved or Approved with changes on parent stage** |Click the parent stage in the **Parent stage** drop-down list. |
-     | **All decisions are Approved on parent stage** |Click the parent stage in the **Parent stage** drop-down list. |
-     | All decisions are made |Click the parent stage in the **Parent stage** drop-down list. |
+      | On proof creation |The stage becomes active automatically because the proof has already been created.  |
+      |---|---|
+      | **When previous stage deadline passes** |Click the previous stage in the **Parent stage** drop-down list . |
+      | **On a specific date & time** |Click the **On** box to select the date, then click the box to the right to select the time. |
+      | **All decisions are Approved or Approved with changes on parent stage** |Click the parent stage in the **Parent stage** drop-down list. |
+      | **All decisions are Approved on parent stage** |Click the parent stage in the **Parent stage** drop-down list. |
+      | All decisions are made |Click the parent stage in the **Parent stage** drop-down list. |
 
-  1. Enter a contact name or email address, and configure settings for reviewers for the stage.
+   1. Enter a contact name or email address, and configure settings for reviewers for the stage.
 
-     For information about adding reviewers, see [About adding reviewers to a stage](#about) in this article.
-  
-  1. Use any of the following options to further configure the stage:
+      For information about adding reviewers, see [About adding reviewers to a stage](#about) in this article.
+   
+   1. Use any of the following options to further configure the stage:
 
-     <table cellspacing="0">
-      <col>
-      <col>
-      <tbody>
-       <tr>
-        <td role="rowheader"><strong>Deadline options</strong> </td>
-        <td><p>To set a deadline for the stage, click an option in the <strong>Deadline options</strong> drop-down list. Then, under <strong>Deadline</strong>, do one of the following:</p>
-         <ul>
-          <li>If you chose <strong>Set specific date</strong>: Select the deadline date and time you want.</li>
-          <li>If you chose <strong>Calculate from stage activation date</strong>: Select the number of business days you want to add to the stage activation date to determine the deadline.</li>
-         </ul></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Lock stage</td>
-        <td>Specify when the stage can be locked. </td>
-       </tr>
-       <tr>
-        <td role="rowheader">Primary decision maker</td>
-        <td><p>Select the Primary decision maker on the stage (available only after you add&nbsp;at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <strong>Only one decision required</strong> option is disabled on this stage.</p></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Only one decision required</td>
-        <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<strong>Primary decision maker</strong>drop-down menu.</p></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Private stage</td>
-        <td>Allows only the following people to view comments and decisions made during this stage: Supervisors, Adobe Workfront administrators, and Workfront Proof administrators</td>
-       </tr>
-       <tr>
-        <td role="rowheader">Notify people by email</td>
-        <td>Alerts reviewers with an email notification when it's their turn to work on the proof.</td>
-       </tr>
-      </tbody>
-     </table>
+      <table cellspacing="0">
+       <col>
+       <col>
+       <tbody>
+        <tr>
+         <td role="rowheader"><strong>Deadline options</strong> </td>
+         <td><p>To set a deadline for the stage, click an option in the <strong>Deadline options</strong> drop-down list. Then, under <strong>Deadline</strong>, do one of the following:</p>
+          <ul>
+           <li>If you chose <strong>Set specific date</strong>: Select the deadline date and time you want.</li>
+           <li>If you chose <strong>Calculate from stage activation date</strong>: Select the number of business days you want to add to the stage activation date to determine the deadline.</li>
+          </ul></td>
+        </tr>
+        <tr>
+         <td role="rowheader">Lock stage</td>
+         <td>Specify when the stage can be locked. </td>
+        </tr>
+        <tr>
+         <td role="rowheader">Primary decision maker</td>
+         <td><p>Select the Primary decision maker on the stage (available only after you add&nbsp;at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <strong>Only one decision required</strong> option is disabled on this stage.</p></td>
+        </tr>
+        <tr>
+         <td role="rowheader">Only one decision required</td>
+         <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<strong>Primary decision maker</strong>drop-down menu.</p></td>
+        </tr>
+        <tr>
+         <td role="rowheader">Private stage</td>
+         <td>Allows only the following people to view comments and decisions made during this stage: Supervisors, Adobe Workfront administrators, and Workfront Proof administrators</td>
+        </tr>
+        <tr>
+         <td role="rowheader">Notify people by email</td>
+         <td>Alerts reviewers with an email notification when it's their turn to work on the proof.</td>
+        </tr>
+       </tbody>
+      </table>
 
-  1. Click **Add stage**.
+   1. Click **Add stage**.
 
 1. Repeat the previous step as needed to add more stages.
 

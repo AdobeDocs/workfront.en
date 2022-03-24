@@ -83,17 +83,17 @@ Before you can access your favorites and recent items from Slack, you must
 1. (Optional) Click the name of the project to open it in Workfront in a new browser tab.&nbsp;
 1. Consider reviewing the&nbsp;following additional information about the project:&nbsp;
 
-  * **Status:** For more information about project status, see [Access the list of system project statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
-  
-  * **Planned Completion**Date: For more information about the Planned Completion Date, see [Set the project Planned Completion Date](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
-  
-  * **Portfolio**Name: For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
-  
-  * **Condition**: For more information about Project Condition, see [Overview of Project Condition and Condition Type](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
-  
-  * **Percent Complete**: For more information about the Percent Complete value of a project, see [Project Percent Complete overview](../../manage-work/tasks/task-information/project-percent-complete.md).
-  
-  * **Reference Number**: For more information about object reference numbers, see [Use the reference number of objects](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
+   * **Status:** For more information about project status, see [Access the list of system project statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+   
+   * **Planned Completion**Date: For more information about the Planned Completion Date, see [Set the project Planned Completion Date](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+   
+   * **Portfolio**Name: For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   
+   * **Condition**: For more information about Project Condition, see [Overview of Project Condition and Condition Type](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+   
+   * **Percent Complete**: For more information about the Percent Complete value of a project, see [Project Percent Complete overview](../../manage-work/tasks/task-information/project-percent-complete.md).
+   
+   * **Reference Number**: For more information about object reference numbers, see [Use the reference number of objects](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
 
 1. (Optional) Click **Subscribe** to subscribe to the project.
 
@@ -114,18 +114,18 @@ Before you can access your favorites and recent items from Slack, you must
 1. (Optional) Click the name of the task to open it in Workfront in a new browser tab.&nbsp;
 1. Consider reviewing the&nbsp;following additional information about the task:
 
-  * **Status**
+   * **Status**
 
-    For more information about task statuses, see [Access the list of system task statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md).
-  
-  * **Percent Complete**
-  * **Assigned To**Name 
-  * **Planned Completion**Date 
-  * **Project**Name or **Parent Task** Name 
-  
-  * **Reference Number**
+     For more information about task statuses, see [Access the list of system task statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md).
+   
+   * **Percent Complete**
+   * **Assigned To**Name 
+   * **Planned Completion**Date 
+   * **Project**Name or **Parent Task** Name 
+   
+   * **Reference Number**
 
-    For more information about object reference numbers, see [Use the reference number of objects](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
+     For more information about object reference numbers, see [Use the reference number of objects](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
 
 1. (Optional) Click **Subscribe** to subscribe to the task.
 
@@ -151,12 +151,12 @@ Before you can access your favorites and recent items from Slack, you must
 1. (Optional) Click the name of the issue to open it in Workfront in a new browser tab.&nbsp;
 1. Consider reviewing the&nbsp;following additional information about the task:
 
-  * **Status**: For more information about task statuses, see [Access the list of system issue statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
-  
-  * **Assigned To**Name 
-  * **Planned Completion**Date 
-  * **Project**Name 
-  * **Reference Number**: For more information about object reference numbers, see [Use the reference number of objects](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
+   * **Status**: For more information about task statuses, see [Access the list of system issue statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+   
+   * **Assigned To**Name 
+   * **Planned Completion**Date 
+   * **Project**Name 
+   * **Reference Number**: For more information about object reference numbers, see [Use the reference number of objects](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
 
 1. (Optional) Click **Subscribe** to subscribe to the issue.
 
@@ -186,15 +186,15 @@ Before you can access your favorites and recent items from Slack, you must
 1. (Optional) Click the name of the portfolio to open it in Workfront in a new browser tab.&nbsp;
 1. Consider reviewing the&nbsp;following additional information about the portfolio:
 
-  * Portfolio**Manager**Name
-  * **On Time**
-  * **ROI**
-  * **Net Value**
-  * **Status**
-  * **On Budget**
-  * **Aligned**
+   * Portfolio**Manager**Name
+   * **On Time**
+   * **ROI**
+   * **Net Value**
+   * **Status**
+   * **On Budget**
+   * **Aligned**
 
-    For more information about portfolio metrics, including ROI, Net Value, Alignment, and On Time and On Budget values, see [Understanding the Portfolio Optimizer.](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+     For more information about portfolio metrics, including ROI, Net Value, Alignment, and On Time and On Budget values, see [Understanding the Portfolio Optimizer.](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## Access programs from Slack
 
@@ -215,11 +215,11 @@ Before you can access your favorites and recent items from Slack, you must
 1. (Optional) Click the name of the program to open it in Workfront in a new browser tab.&nbsp;
 1. Consider reviewing the&nbsp;following additional information about the program:
 
-  * **Description**
-  * **Portfolio**Name
-  * Program**Manager**Name
+   * **Description**
+   * **Portfolio**Name
+   * Program**Manager**Name
 
-    For more information about programs, see [Create and manage Programs.](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+     For more information about programs, see [Create and manage Programs.](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
 
 ## Access reports from Slack
 

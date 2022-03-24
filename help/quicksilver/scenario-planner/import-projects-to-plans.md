@@ -139,12 +139,12 @@ When you import a project into a plan some project information is also imported 
 
    Notice the following:
 
-  * A project icon ![](assets/project-icon-sp.png) displays to the right of the initiative name.
-  * If the project timeline exceeds the duration of the plan, the bar of the initiative ends with a pointed margin to the left (when the Start Date is earlier than the plan's date) or to the right (when the End Date is later than the plan's date).
+   * A project icon ![](assets/project-icon-sp.png) displays to the right of the initiative name.
+   * If the project timeline exceeds the duration of the plan, the bar of the initiative ends with a pointed margin to the left (when the Start Date is earlier than the plan's date) or to the right (when the End Date is later than the plan's date).
 
-    ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
-  * The number of months and job roles have been updated to match those of the project.
+   * The number of months and job roles have been updated to match those of the project.
 
    >[!TIP]
    >
@@ -178,10 +178,10 @@ When you import a project into a plan some project information is also imported 
 1. Edit the name of the initiative. By default, it matches the name of the project. 
 1. (Optional) Do one of the following:
 
-  * Update job roles in the **Required Job Roles** section
-  * Update the **Fixed Costs** in the **Costs** section
-  
-  * Click **Update available job roles** or **Update available budget** to resolve conflicts between the new initiative and other initiatives on the plan.
+   * Update job roles in the **Required Job Roles** section
+   * Update the **Fixed Costs** in the **Costs** section
+   
+   * Click **Update available job roles** or **Update available budget** to resolve conflicts between the new initiative and other initiatives on the plan.
 
 1. (Conditional) Click **Apply** to save changes to your initiative. 
 1. Click&nbsp;**Save Plan** to save the changes to your plan. 

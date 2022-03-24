@@ -63,6 +63,7 @@ You can use folders to organize the reports that you create. You cannot organize
 1. Click **Reporting** in the Global Navigation Bar, then click the **Reports** tab. 
 
 1. Click the **New Folder** icon.  
+   ![](assets/1-350x315.png)
 
 1. Specify a name for the new folder, then press Enter.
 1. From the **My Reports** folder, add reports to the new folder.  
@@ -85,4 +86,6 @@ You can use folders to organize the reports that you create. You cannot organize
    >[!NOTE]
    >
    >You can only move reports from the **My Reports** folder to other folders nested under **My Reports**. You cannot move reports from or to the **Shared with Me** or **All Reports** folder to or from other folders.
+
+   ![](assets/2-350x186.png)
 

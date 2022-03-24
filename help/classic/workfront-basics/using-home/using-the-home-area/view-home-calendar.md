@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 ## View the Workfront Home Calendar
 
-1. Home
+1. Click **Home** in the upper-left corner of Workfront. 
 1. Click **Work List** in the upper-left corner of Home, then click&nbsp;**Calendar** in the drop-down menu.
 
    ![](assets/selectcalendar-qs-350x212.png)

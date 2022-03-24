@@ -64,8 +64,8 @@ You must have the following access to perform the steps in this article:
 1. Click **Add New** > **Version**&nbsp;> **Proof**.
 1. In the **New Proof Version** page that appears, you can
 
-  * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) 
-  * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+   * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) 
+   * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 ## Use drag-and-drop to generate a&nbsp;simple proof for a new version
 

@@ -95,18 +95,24 @@ Consider the following when assigning multiple resources to a work item:
 ## Assign a single task
 
 1. Go to a task that you want to assign.
-1. Click **Assign this to ...** in the right panel Or  Click **Edit assignment** if the task is already assigned.   ![](assets/classic-assign-this-to-button-on-task-card-350x405.png)
+1. Click **Assign this to ...** in the right panel
+
+   Or
+
+   Click **Edit assignment** if the task is already assigned.
+
+   ![](assets/classic-assign-this-to-button-on-task-card-350x405.png)
 
 1. Do one of the following:
 
    * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
-   * Here are a few recommendations
-   * Smart assignments overview
+   * (Conditional) Click one of the names in the **Here are a few recommendations** list, if this list displays. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
+   
    * Click **make Advanced Assignments**
-   * For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. Click **Assign** or click **Save Changes**, if you clicked **make Advanced Assignments**. 
+     For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
+1. Click **Assign** or click **Save Changes**, if you clicked **make Advanced Assignments**.
 1. (Optional) Click the **X icon** next to the name of the assignment in the right panel of the task to remove an assignment.
 
 ## Assign a task in a list
@@ -123,11 +129,12 @@ Depending on which field is visible in the view, you can assign the following en
 To assign tasks in a list:
 
 1. Go to a list of tasks that has the Assigned To, Assigned, or Assignments fields in the view.
-1. (Optional)&nbsp;Click the **Autosave** drop-down menu and select from the following options:  
+1. (Optional)&nbsp;Click the **Autosave** drop-down menu and select from the following options: 
 
    | Autosave |Changes you make to the tasks are automatically saved and you cannot revert them |
    |---|---|
    | Manual save |You must manually save your changes. You can revert your changes before you save them.  |
+   | Timeline Planning |You must manually save your changes.&nbsp;You can revert your changes before you save them.&nbsp;Saving your changes and all the project dependencies is faster than when selecting Manual save.  |
 
    For more information about saving tasks as you edit them in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
@@ -138,8 +145,12 @@ To assign tasks in a list:
 
 1. (Conditional) When visible in the **Assignments** field, click the **People** icon in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
 
-1. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md). 
-1. You cannot make advanced assignments from the Assigned To or Assigned fields.
+   For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+   >[!TIP]
+   >
+   >You cannot make advanced assignments from the Assigned To or Assigned fields.
+
 1. After adding your assignees to the task, press Enter or click anywhere on the page to save your changes if you selected Autosave. Otherwise, click**Save**.
 
 ## Assign multiple tasks to a user
@@ -152,7 +163,9 @@ To assign tasks in a list:
    >You cannot edit tasks in bulk when saving tasks manually on a project.
 
 1. Select several tasks in the tasks list. 
-1. Click **Edit**. The **Edit Tasks** dialog box opens.
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
 
 1. In the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the tasks.
 

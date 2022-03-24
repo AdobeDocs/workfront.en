@@ -47,12 +47,12 @@ Consider the following when deleting initiatives:
 * Deleting an initiative that was created by importing a project does not delete the project associated with the initiative.
 * ```Deleting an initiative that has been published to a project at least once results in the following:```
 
-  * ```The initiative is deleted from the scenario but the Scenario Planner area remains in the Project Details section.``` 
-  * If the initiative you delete is the only published initiative on the scenario, the indicator that the plan has been published is also removed.
+   * ```The initiative is deleted from the scenario but the Scenario Planner area remains in the Project Details section.``` 
+   * If the initiative you delete is the only published initiative on the scenario, the indicator that the plan has been published is also removed.
 
-    For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
+     For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
 
-    For information about creating initiatives by importing projects, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md) .
+     For information about creating initiatives by importing projects, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md) .
 
 You can delete one initiative at a time, ```or you can delete multiple initiatives in bulk.```
 
@@ -68,9 +68,9 @@ You can delete one initiative at a time, ```or you can delete multiple initiativ
 1. Click the name of a plan to open it, then locate the initiative you want to delete.
 1. Do one of the following:
 
-  * Click the **More menu** ![](assets/more-menu.png) to the right of the initiative name, then click **Delete** > **Yes, delete it**.
+   * Click the **More menu** ![](assets/more-menu.png) to the right of the initiative name, then click **Delete** > **Yes, delete it**.
 
-  * Select the box to the left of the initiative, then click **Delete** on the floating menu that appears at the bottom of the plan, then click **Yes, delete it**.
+   * Select the box to the left of the initiative, then click **Delete** on the floating menu that appears at the bottom of the plan, then click **Yes, delete it**.
 
    The initiative and its job role and cost information are deleted from the plan.
 

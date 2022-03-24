@@ -129,8 +129,10 @@ If your rates change during the life of a project and you want your cost and rev
 >You can prevent revenue values from updating to reflect the new rates when you manually recalculate finance by following the steps in the section [Preserve financial data for tasks with existing hours](#preserving-financial-data-for-tasks-with-existing-hours) of this article. Cost values are always updated to reflect the new rates when you manually recalculate the finances on a project.
 
 1. Go to the project where you want to recalculate finances. 
-1. Click **Project Actions**, then click **Recalculate Finance.** All planned costs and revenue on the project are recalculated with any new information.  
-  
+1. Click **Project Actions**, then click **Recalculate Finance.**
+
+   All planned costs and revenue on the project are recalculated with any new information.  
+   ![](assets/rf-350x228.png)  
    You should receive a confirmation at the top of the browser that the finances of the project have been recalculated successfully.  
    Existing cost values and some revenue values which have not been locked update to reflect the new rates.
 
@@ -162,4 +164,4 @@ The following actions trigger the financial recalculation of projects in Workfro
 >
 >When you change the project status, only the planned values are being recalculated.
 
-You can also recalculate finances manually under **Project Actions** by clicking **Recalculate Finance**.  
+You can also recalculate finances manually under **Project Actions** by clicking **Recalculate Finance**.

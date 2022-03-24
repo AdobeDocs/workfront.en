@@ -312,31 +312,31 @@ Each row of the sheet corresponds to a unique object.
 
 1. Complete the cell in the **isNew** column:
 
-  * If the object you are importing is new, type **TRUE** to import the data in the row.
-  * If the object is already in Workfront, type **FALSE** to ignore the row.
+   * If the object you are importing is new, type **TRUE** to import the data in the row.
+   * If the object is already in Workfront, type **FALSE** to ignore the row.
 
 1. Complete the cell in the **ID** column in one of the following ways:
 
-  * If the object you are importing is new (and you typed**TRUE** in the **isNew** column), specify any number for the ID. This number must be unique in the spreadsheet.
-  
-  * If the object you are importing already exists in the Workfront system (and you typed**FALSE** in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
-  
-    ``` ```**Example: **`````` For a project, the value displayed in the **setGroupID** column must one of the following:
+   * If the object you are importing is new (and you typed**TRUE** in the **isNew** column), specify any number for the ID. This number must be unique in the spreadsheet.
+   
+   * If the object you are importing already exists in the Workfront system (and you typed**FALSE** in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+   
+     ``` ```**Example: **`````` For a project, the value displayed in the **setGroupID** column must one of the following:
 
-    * The GUID for an existing Group in your Workfront instance
-    * The value (number) in the ID column on the **GROUP Group** sheet if you are creating a new Group during the import
+      * The GUID for an existing Group in your Workfront instance
+      * The value (number) in the ID column on the **GROUP Group** sheet if you are creating a new Group during the import
 
-      ![](assets/verysimplekickstartprojectimport-350x31.png)
+        ![](assets/verysimplekickstartprojectimport-350x31.png)
 
 1. Input values for the required fields and any other fields you want to populate during the import.
 1. (Optional) To add custom data:
 
-  * Create a new column for each custom field that you want to include in the import process. 
-  * Name each new column for its corresponding custom field as follows: **DE:[Name of Custom Field as Appears in Workfront]**.
-  * In the column **setCategoryID**, type the GUID of the existing custom form on which this custom field resides. This field is required when importing custom data.
-  * If you need to add multiple data values in the custom field, (such as radio buttons, check boxes, or lists) use the vertical bar custom data delimiter "|" listed in the Preferences tab to separate the values.
+   * Create a new column for each custom field that you want to include in the import process. 
+   * Name each new column for its corresponding custom field as follows: **DE:[Name of Custom Field as Appears in Workfront]**.
+   * In the column **setCategoryID**, type the GUID of the existing custom form on which this custom field resides. This field is required when importing custom data.
+   * If you need to add multiple data values in the custom field, (such as radio buttons, check boxes, or lists) use the vertical bar custom data delimiter "|" listed in the Preferences tab to separate the values.
 
-    ``` ```**Example: **``````Type A|D under the DE: Departments column to populate department A and department D in your custom form.
+     ``` ```**Example: **``````Type A|D under the DE: Departments column to populate department A and department D in your custom form.
 
 ### Include dates
 
@@ -422,13 +422,13 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
   Here is how you can use both methods on the same import file:
 
-  * Add a column in the spreadsheet to the left of the **setRoleID** column.
-  * Name the new column **#setRoleID ROLE name**.
-  * For role assignments to existing records, input the role names in the **#setRoleID ROLE name** column.
+   * Add a column in the spreadsheet to the left of the **setRoleID** column.
+   * Name the new column **#setRoleID ROLE name**.
+   * For role assignments to existing records, input the role names in the **#setRoleID ROLE name** column.
 
-    For role assignments to new role records, input the ID you assigned on the ROLE Role sheet in the setRoleID.
+     For role assignments to new role records, input the ID you assigned on the ROLE Role sheet in the setRoleID.
 
-    ![](assets/setroleid-350x66.png)
+     ![](assets/setroleid-350x66.png)
 
 ## Import the spreadsheet data into Workfront
 

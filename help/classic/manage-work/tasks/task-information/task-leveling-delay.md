@@ -46,8 +46,9 @@ You must have the following access to perform the steps in this article:
 ## Add a Leveling Delay to a task
 
 1. Go to a task for which you want to add a Leveling Delay.
-1. Click **Edit Task**.  
+1. Click **Edit Task**. 
 1. Click **Settings**.  
+   ![leveling_delay_on_a_task.png](assets/leveling-delay-on-a-task-350x244.png)
 
 1. Specify the **Leveling Delay**, in hours, then choose a unit of time.  
    This is the time that the resource will be delayed starting the task due to resource conflicts.

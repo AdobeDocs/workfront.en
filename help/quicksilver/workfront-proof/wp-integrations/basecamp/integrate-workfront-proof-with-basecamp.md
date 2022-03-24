@@ -51,8 +51,8 @@ As a [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp
 
 1. In Basecamp, collect the following information:
 
-  * The URL for your Basecamp account
-  * The URL found in the "My info" section
+   * The URL for your Basecamp account
+   * The URL found in the "My info" section
 
 1. Log out of Basecamp.
 1. Click **Account settings** near the upper-right corner.
@@ -95,14 +95,14 @@ After you set up [Account settings](https://support.workfront.com/hc/en-us/secti
 
 1. (Optional) When your personal integration is active (3), you can switch easily between your Basecamp accounts.
 
-  1. Clicking **Switch Basecamp account** (4).  
-     ![Basecamp_switching_accounts__1_.png](assets/basecamp-switching-accounts--1--350x179.png)  
-     The Switch Basecamp Account takes you to the Personal Settings page, where you can choose which of your Basecamp accounts you want to integrate with your Workfront Proof account.
-  
-  1. Click **Re-Integrate with Basecamp** (5) before choosing the Basecamp account  
-     This refreshes the Personal Settings page and shows your most up-to-date list of Basecamp accounts.
-  
-  1. Click **Integrate with this account** to connect it with Workfront Proof.  
-     ![Basecamp_switching_accounts_2.png](assets/basecamp-switching-accounts-2-350x138.png)  
-     You can now add proofs to Basecamp projects.
+   1. Clicking **Switch Basecamp account** (4).  
+      ![Basecamp_switching_accounts__1_.png](assets/basecamp-switching-accounts--1--350x179.png)  
+      The Switch Basecamp Account takes you to the Personal Settings page, where you can choose which of your Basecamp accounts you want to integrate with your Workfront Proof account.
+   
+   1. Click **Re-Integrate with Basecamp** (5) before choosing the Basecamp account  
+      This refreshes the Personal Settings page and shows your most up-to-date list of Basecamp accounts.
+   
+   1. Click **Integrate with this account** to connect it with Workfront Proof.  
+      ![Basecamp_switching_accounts_2.png](assets/basecamp-switching-accounts-2-350x138.png)  
+      You can now add proofs to Basecamp projects.
 

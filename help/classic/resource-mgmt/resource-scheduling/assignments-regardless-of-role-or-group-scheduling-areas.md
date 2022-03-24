@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
    * **For an individual project**: Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the**Scheduling** tab is selected and click **Switch back to Scheduling**.
    * **For a team**: Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
-   *
+   * ![](assets/resource-scheduling-schedulingtab-350x282.png)
 
 1. Click the **Settings** icon on the scheduling timeline.
 1. Disable the option **Limit Assignments to Users with Matching Role**.
@@ -79,7 +79,8 @@ You can configure Workfront to allow tasks and issues to be assigned to any user
    * **For an individual project**: Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the**Scheduling** tab is selected and click **Switch back to Scheduling**.
    * **For a team**: Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
-   *
+   * 
+     ![](assets/resource-scheduling-schedulingtab-350x282.png)
 
 1. Click the **Settings** icon on the scheduling timeline.
 1. Disable the option **Limit Assignments to the Group Associated with the Project**.

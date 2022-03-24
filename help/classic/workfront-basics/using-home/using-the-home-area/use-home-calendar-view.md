@@ -195,7 +195,8 @@ To update the integrated calendar events in your Home Calendar:
 
 1. To group and sort your list of work, click the **Sort by** drop-down menu, then select the criteria you want to use.
 
-   The items are listed on the left side of the calendar according to the criteria and in the order that you specify.
+   The items are listed on the left side of the calendar according to the criteria and in the order that you specify.   
+   ![](assets/home-calendar-sort-group-classic-350x265.png)
 
    Choose from the following options:
 

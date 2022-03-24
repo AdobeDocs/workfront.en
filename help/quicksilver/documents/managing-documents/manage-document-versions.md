@@ -49,7 +49,7 @@ You must have the following:
 
 1. In the Summary, scroll to the view the **All Versions** section. Here you can view all of the versions of the document.
 
-View and manage details for a previous document version
+## View and manage details for a previous document version
 
 1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
 
@@ -65,9 +65,9 @@ View and manage details for a previous document version
 
 ## Download all versions of a document
 
-1. Document Details
-1. All Versions
-1. Download All
+1. Click **Document Details**, then select **All Versions** in the left panel.
+
+1. Click **Download All** at the top of the list.
 
 ## Delete a document version
 
@@ -93,4 +93,6 @@ To delete a document version:
 1. In the **Version** area in the Summary, click the version, then click **Delete** in the drop-down list that appears. The **Delete** option is visible only if there are at least two versions.
 
    If the document is linked to an outside source, that link is deleted and the document is no longer accessible through Workfront.
+
+   ![](assets/more-versions-350x143.png)
 

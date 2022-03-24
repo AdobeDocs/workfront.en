@@ -50,6 +50,8 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Make Decision** at the top-center of the proofing viewer.
 
+   ![](assets/mceclip0-350x74.png)
+
 1. In the **Proof decision** box that appears, click one of the following decisions:
 
    <table cellspacing="0"> 

@@ -44,20 +44,20 @@ There are several size limits that affect how reports display in Workfront and h
 
   These limits apply to:
 
-  * A manual export of a report.
-  * A scheduled report.
-  * An export through an API integration.&nbsp;
-  * Data exported through a kick-start.
+   * A manual export of a report.
+   * A scheduled report.
+   * An export through an API integration.&nbsp;
+   * Data exported through a kick-start.
 
-    For more information about exporting data via kick-starts, see the article [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     For more information about exporting data via kick-starts, see the article [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-    >[!NOTE]
-    >
-    >You can export 50,000 rows in a kick-start file, but only to an Excel format file.&nbsp;
+     >[!NOTE]
+     >
+     >You can export 50,000 rows in a kick-start file, but only to an Excel format file.&nbsp;
 
-  * Exporting utilization information for a project.
+   * Exporting utilization information for a project.
 
-    For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+     For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * **65,530 hyperlinks:**&nbsp;This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;
 * **256 columns**:&nbsp;This is a limit imposed by Excel on documents that contain more than 256 columns. These documents cannot be exported manually, or sent in a delivered report. This limit exists on Excel files only, not on the other supported formats.&nbsp;
@@ -168,7 +168,7 @@ You can see whether a report has been configured to be delivered by creating the
 
 * **A Filter** for the Report object:&nbsp;Create a filter on a list of reports or in a report on reports with the following statement: *Scheduled Report ID Is Not Blank*.  
   This will display only reports that have been scheduled in your list or report.  
-  
+  ![](assets/qs-scheduled-report-filter-350x101.png)  
   For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). For information on creating a report on reports, see [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--

@@ -48,6 +48,11 @@ You must have the following to perform the steps in this article:
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
 1. Click the name of the group that contains the subgroup you want to work on.
+
+   Or
+
+   If you are moving one or more subgroups, click the name of the destination group (you will specify which subgroups you want to move in a later step).
+
 1. In the left menu, click **Subgroups**.
 
 1. Do any of the following:
@@ -58,21 +63,23 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Create a new subgroup</td> 
-      <td> If you want to create the new subgroup one level down from the group you are viewing, click <strong>Add subgroup</strong>. Or, if you want to create the new subgroup beneath another subgroup in the list, select that subgroup, then click <strong>Add s</strong><strong>ubgroup</strong>. <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Move a subgroup </td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>You can move existing subgroups under another group you administer.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> 
-      <ol> 
-       <li value="1"> <p>(Optional) Select a subgroup to make it the destination group.</p> <p>If you skip this step, the group you selected in step 3 is the destination group.</p> </li> 
-       <li value="2">Click <strong>Add Subgroup</strong> &gt; <strong>Existing Group</strong>.</li> 
-       <li value="3"> <p>In the <strong>Existing Group</strong> box that appears, start typing the name of a subgroup you want to move.</p> <p>The results that display do not contain groups above the destination group.</p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> </li> 
-       <li value="4"> <p>Click the name of the subgroup you want to move when you see it display in the list.</p> </li> 
-       <li value="5"> <p>Repeat Steps c-d for any other subgroups you want to move to the destination group</p> </li> 
-       <li value="6">Click <strong>Save</strong>.</li> 
-      </ol> </td>  
+      <td> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">If you want to create the new subgroup one level down from the group you are viewing, click <strong>Add subgroup</strong>.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Or, if you want to create the new subgroup beneath another subgroup in the list, select that subgroup, then click <strong>Add s</strong><strong>ubgroup</strong>.</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">Move a subgroup </td> 
+      <td> <p>You can move existing subgroups under another group you administer.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> 
+       <ol> 
+        <li value="1"> <p>(Optional) Select a subgroup to make it the destination group.</p> <p>If you skip this step, the group you selected in step 3 is the destination group.</p> </li> 
+        <li value="2">Click <strong>Add Subgroup</strong> &gt; <strong>Existing Group</strong>.</li> 
+        <li value="3"> <p>In the <strong>Existing Group</strong> box that appears, start typing the name of a subgroup you want to move.</p> <p>The results that display do not contain groups above the destination group.</p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> </li> 
+        <li value="4"> <p>Click the name of the subgroup you want to move when you see it display in the list.</p> </li> 
+        <li value="5"> <p>Repeat Steps c-d for any other subgroups you want to move to the destination group</p> </li> 
+        <li value="6">Click <strong>Save</strong>.</li> 
+       </ol> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Edit a subgroup</td> 
-      <td> <p>Select the subgroup you want to edit, then click the Edit icon .</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a>.</p> </td> 
+      <td> <p>Select the subgroup you want to edit, then click the Edit icon <img src="assets/edit-icon.png" data-mc-conditions="QuicksilverOrClassic.Quicksilver">.</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Export one or more subgroups</td> 
@@ -119,10 +126,12 @@ You can also use the Top Parent Name field to identify data associated with a to
 You can make a subgroup a top-level group by removing it from its parent group.
 
 <!--
+<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
 <span class="autonumber"><span><b>Tip: </b></span></span>
 <div class="preview">
 <p>When you deactivate a group that has subgroups below it, those subgroups also become inactive. If you want one of them to be active, you can use these instructions to remove it from its parent group, then reactivate it.</p>
 <p>For instructions on deactivating and reactivating groups, see the sections <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view" class="MCXref xref">View and manage a group’s details</a> and <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive" class="MCXref xref">Inactive groups</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md" class="MCXref xref">View and manage a group’s details</a>.</p>
+</div>
 </div>
 -->
 

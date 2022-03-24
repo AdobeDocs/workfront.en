@@ -52,9 +52,10 @@ View the following video to learn how to edit existing groupings.
 1. Select the grouping that you want to customize.
 1. Click the **Grouping** drop-down menu, then click **Customize Grouping**.
 
-1. ![](assets/customize-grouping-285x427.png)
+   ![](assets/customize-grouping-285x427.png)
 
-1. The interface builder for customizing the grouping opens.
+   The interface builder for customizing the grouping opens.
+
 1. In the **Grouping Preview** section, click **Add Grouping** to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
 
 1. Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.
@@ -67,7 +68,7 @@ View the following video to learn how to edit existing groupings.
 
 See also:
 
-* Learning Path for reports and dashboards
+* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ) 
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) 
 * [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)

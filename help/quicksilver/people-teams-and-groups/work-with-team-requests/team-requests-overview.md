@@ -5,8 +5,7 @@
 ## Understand team requests
 
 <!--
-Team requests are found in the Teams area in the Main Menu. Click on the Team Requests icon
-<img src="assets/request-icon.png"> in the left panel to view team requests.
+<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">Team requests are found in the Teams area in the Main Menu. Click on the Team Requests icon<img src="assets/request-icon.png"> in the left panel to view team requests.</p>
 -->
 
 >[!NOTE]
@@ -24,7 +23,7 @@ A team request represents a pending work item that is not assigned to a specific
 ## Understand&nbsp;the Ready to Start and All options
 
 <!--
-There are two options at the top of the Team Requests section: Ready to Start&nbsp;and All.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">There are two options at the top of the Team Requests section: Ready to Start&nbsp;and All.</p>
 -->
 
 The Ready to Start option shows only tasks and issues that meet all of the following criteria:

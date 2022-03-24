@@ -34,10 +34,10 @@ To create a custom list view:
 
 1. Do any of the following:
 
-  * Filter for the items you want to display. For more information, see [Filter content displayed in Workfront Library](../../workfront-library/content-management/basics/filter-content-displayed.md).
-  * Select the columns you want to display by clicking the **Toggle Columns** icon ![](assets/columns-icon.png) and selecting your columns from the drop-down list. The available columns are based on the metadata available for your assets. The columns will appear in the order they are in the list, and the order cannot be changed.
-  
-  * Modify the column width by moving your mouse to the header row, hovering over the border of the column you want to resize, and dragging the border to resize the column.
+   * Filter for the items you want to display. For more information, see [Filter content displayed in Workfront Library](../../workfront-library/content-management/basics/filter-content-displayed.md).
+   * Select the columns you want to display by clicking the **Toggle Columns** icon ![](assets/columns-icon.png) and selecting your columns from the drop-down list. The available columns are based on the metadata available for your assets. The columns will appear in the order they are in the list, and the order cannot be changed.
+   
+   * Modify the column width by moving your mouse to the header row, hovering over the border of the column you want to resize, and dragging the border to resize the column.
 
 1. To save this view, click the **Saved views** icon ![](assets/saved-views-icon.png), type a name into the **New view name** field in the drop-down menu, and click **Saved view**.
 

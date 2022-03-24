@@ -74,10 +74,8 @@ You must have the following to perform the steps in this article:
 
 ``` ```**Tip: **`````` To find a user's ID:
 
-1. Main Menu
-1. 
-1. Users
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+
 1. Select the user.
 
    The user's profile page opens and their user ID displays in the URL.

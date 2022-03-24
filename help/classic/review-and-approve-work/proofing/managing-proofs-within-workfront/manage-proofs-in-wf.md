@@ -32,7 +32,7 @@ This section contains the following articles:
 * [View Automated Workflow stages on a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md) 
 * [View active stages on a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md) 
 * [View activity on a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md) 
-* View all files contained in a combined proof
+* [View all files contained in a combined proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-all-files-contained-in-combined-proof.md) 
 * [Print a proof summary within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md) 
 * [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) 
 * [Delete a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md) 

@@ -357,11 +357,11 @@ Set the values for the following task fields:&nbsp;
 
   In the case of this scenario, the easiest way to build out the tasks for the other projects you are importing is to copy the tasks you just defined and paste them below, starting on row 12. Then you will:
 
-  1. Renumber the values in the ID column.
-  1. Update the setProjectID column to the value you set for the next project.
-  1. Update the setParentID and setPredecessorString values to reflect the new IDs assigned to this project's tasks.
-  1. Update task assignments and percent complete.
-  1. Repeat these steps for the next project's tasks.
+   1. Renumber the values in the ID column.
+   1. Update the setProjectID column to the value you set for the next project.
+   1. Update the setParentID and setPredecessorString values to reflect the new IDs assigned to this project's tasks.
+   1. Update task assignments and percent complete.
+   1. Repeat these steps for the next project's tasks.
 
 * **Import the Excel File**
 

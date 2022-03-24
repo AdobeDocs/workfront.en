@@ -98,9 +98,9 @@ To create a filter in the Resource Planner:
 
 1. Go to the **People** area in the Global Navigation Bar. 
 1. Click the **Planning** tab. 
-1. Resource Planner
-1. By default, the first time you access the Resource Planner, the **Default Filter** is applied.  
-   For more information about the Default filter, see the [Overview of the Default Filter in the Resource Planner](#understanding-default-filter) section in this article. 
+1. Click the **Resource Planner** sub-tab.
+
+   ```<font size="2">By default, the first time you access the Resource Planner, the <strong>Default Filter</strong> is applied.<br>For more information about the Default filter, see the <a href="#understanding-default-filter" class="MCXref xref">Overview of the Default Filter in the Resource Planner</a> section in this article. </font>```
 
 1. In the upper-left corner of the Resource Planner, click the **Filter** icon.  
    ![filter_icon.png](assets/filter-icon.png)  

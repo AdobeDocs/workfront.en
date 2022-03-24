@@ -757,17 +757,17 @@ Use the Search Rows (Advanced) module & use this formula to get the columns whic
 
 1. Insert the following code:
 
-  * The name of the function must correspond to the name you specified in step 9.
-  * Replace the URL   
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  
-    https://hook.workfrontfusion.com/xxx...xxx URL  
-    </MadCap:conditionalText>  
-    -->  
-  
-    with the webhook's URL you copied in step 2.
-    <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+   * The name of the function must correspond to the name you specified in step 9.
+   * Replace the URL    
+   
+     <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     https://hook.workfrontfusion.com/xxx...xxx URL   
+     </MadCap:conditionalText>   
+     -->   
+   
+     with the webhook's URL you copied in step 2.
+     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
 
 1. Press **Ctrl+S** to save the script file, enter a project name and click **OK**.
 

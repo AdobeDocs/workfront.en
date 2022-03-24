@@ -53,10 +53,12 @@ Consider the following when editing projects:
 * You can attach documents or templates to a project that has a status of Complete, Dead, or is in Pending Approval only if your Workfront administrator or a group administrator enabled this functionality in the Project Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md). 
 * You can only edit the following information on a project in a Dead or Complete status:
 
-  * Modify existing expenses.
-  * Add, remove, or edit custom forms.
+   * Modify existing expenses.
+   * Add, remove, or edit custom forms.
 
-Edit a project  Editing a project allows you to modify information and settings for the project, as well as tasks and issues on the project.
+## Edit a project
+
+Editing a project allows you to modify information and settings for the project, as well as tasks and issues on the project.
 
 Some settings mentioned in this article might be modified from their default status for the template from which the project was created. For information about editing templates, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
@@ -82,25 +84,25 @@ Some settings mentioned in this article might be modified from their default sta
 
    To edit information in the Details section, do the following:
 
-  1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
-  1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
-  1. For more information about editing information in the Project Details tab, see the following articles:
+   1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
+   1. For more information about editing information in the Project Details tab, see the following articles:
 
-    * [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) 
-    * [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+      * [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) 
+      * [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
-  1. (Optional) To attach a custom form, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click **Save Changes**.
-  1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
+   1. (Optional) To attach a custom form, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click **Save Changes**.
+   1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
 
-    * Select all (displays only when there is at least one custom form attached)
-    * Overview
-    * The name of one or multiple custom forms
+      * Select all (displays only when there is at least one custom form attached)
+      * Overview
+      * The name of one or multiple custom forms
 
-     The PDF file downloads to your computer.
+      The PDF file downloads to your computer.
 
-     ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-     For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    For information about the fields visible in the Project Details section, continue with editing the project in the Edit Project box as described below.
 1. To edit all information about the project, click the **More** menu ![](assets/qs-more-menu.png) next to the name of the project, then click **Edit**.
@@ -123,14 +125,14 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. (Conditional) If you clicked the **More** menu and then **Edit**, consider specifying information in any of the following areas listed in the left panel:
 
-  * [Project Name](#project) 
-  * [Overview](#overview) 
-  * [Custom Forms](#custom) 
-  * [Finance](#finance) 
-  * [Project Settings](#project2) 
-  * [Task Settings](#task) 
-  * [Issue Settings](#issue) 
-  * [Access](#access2)
+   * [Project Name](#project) 
+   * [Overview](#overview) 
+   * [Custom Forms](#custom) 
+   * [Finance](#finance) 
+   * [Project Settings](#project2) 
+   * [Task Settings](#task) 
+   * [Issue Settings](#issue) 
+   * [Access](#access2)
 
    >[!NOTE]
    >
@@ -485,8 +487,8 @@ For information about how these settings affect creating new tasks, see the sect
 
    When bulk-editing projects, the following scenarios exist:
 
-  * When you select multiple projects from the same group, both system-level and group-specific task approval processes display in this field.
-  * When you select multiple projects from different groups, only system-level task approval processes display in this field.
+   * When you select multiple projects from the same group, both system-level and group-specific task approval processes display in this field.
+   * When you select multiple projects from different groups, only system-level task approval processes display in this field.
 
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to the project. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can associate up to ten custom forms with a task.
 1. (Optional) Select **Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours.
@@ -529,8 +531,8 @@ For information about how these settings affect creating new tasks, see the sect
 
    When deselecting this option, users with permissions to add issues to the project or the tasks can do so in the following ways:
 
-  * Click New Issue at the top of the list of issues in the Issues section of the project or of the tasks. 
-  * When the project is configured as a request queue, they can enter a new request in the Requests area.
+   * Click New Issue at the top of the list of issues in the Issues section of the project or of the tasks. 
+   * When the project is configured as a request queue, they can enter a new request in the Requests area.
 
    >[!NOTE]
    >
@@ -633,33 +635,41 @@ To edit projects in bulk:
 
 1. Specify the information on all selected projects in the following sections:
 
-  * Overview
-    For information, see the [Overview](#overview) section in this article. 
-  
-  * Finance 
-    For information, see the [Finance](#finance) section in this article. 
-  
-  * Portfolio
-    For information, see the "Project association" section in the [Overview](#overview) section in this article. 
-  
-  * Settings
-    For information, see the [Project Settings](#project2) section in this article. 
-  
-  * Access
-    For information, see the [Access](#access2) section in this article. 
-  
-  * Custom Forms
+   * Overview
 
-    For information, continue with step 7 below. 
-  
-  * Tasks
-    For information, see the [Task Settings](#task) section in this article. 
-  
-  * ```Issues``` 
-  * For information, see the ``` ``` [Issue Settings](#issue)``` section in this article.```
-  * Comment
+     For information, see the [Overview](#overview) section in this article.
+   
+   * Finance
 
-    For information, continue with step 9 below.
+     For information, see the [Finance](#finance) section in this article.
+   
+   * Portfolio
+
+     For information, see the "Project association" section in the [Overview](#overview) section in this article.
+   
+   * Settings
+
+     For information, see the [Project Settings](#project2) section in this article.
+   
+   * Access
+
+     For information, see the [Access](#access2) section in this article.
+   
+   * Custom Forms
+
+     For information, continue with step 7 below. 
+   
+   * Tasks
+
+     For information, see the [Task Settings](#task) section in this article.
+   
+   * ```Issues```
+
+     For information, see the ``` ``` [Issue Settings](#issue)``` section in this article.```
+   
+   * Comment
+
+     For information, continue with step 9 below.
 
    >[!NOTE]
    >
@@ -667,9 +677,9 @@ To edit projects in bulk:
 
 1. (Optional) In the Settings area, select any of the following options:
 
-  * **Recalculate Costs and Revenues**: Select this option to recalculate Costs and Revenues on all projects selected.
-  * **Recalculate Timelines**: Select this option to recalculate the Timelines of all projects selected.
-  * **Recalculate Scorecards**: Select this option to recalculate the Scorecard values for all projects selected.
+   * **Recalculate Costs and Revenues**: Select this option to recalculate Costs and Revenues on all projects selected.
+   * **Recalculate Timelines**: Select this option to recalculate the Timelines of all projects selected.
+   * **Recalculate Scorecards**: Select this option to recalculate the Scorecard values for all projects selected.
 
    ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
 
@@ -687,8 +697,8 @@ To edit projects in bulk:
 
 1. (Optional) Click **Comment**, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
 
-  * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
-  * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+   * Click the **People** icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+   * Click the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
 
    This comment is visible for everyone with View access to the project and with access to view Notes.
 

@@ -41,19 +41,28 @@ You must have the following access to perform the steps in this article:
 
 ## View issues based on&nbsp;Status
 
-Issues are grouped in subtabs by their status on the projects, tasks, and iterations in which they appear.&nbsp; To view issues on a project, task, or iteration:&nbsp;
+Issues are grouped in subtabs by their status on the projects, tasks, and iterations in which they appear.&nbsp;
+
+To view issues on a project, task, or iteration:&nbsp;
 
 1. Open&nbsp;a project, task, or iteration that contains issues, then click&nbsp;the **Issues**&nbsp;tab.```<MadCap:conditionalText data-mc-conditions=""> The number of open issues that you have access to view is displayed in parenthesis on the  <strong>Issues</strong>tab</MadCap:conditionalText>```.   
 
 1. Click one of the subtabs listed below:&nbsp;
+
    The number of issues in&nbsp;each category that you have access to view&nbsp;is displayed in parenthesis next to each heading.
 
-   * **Open Issues:** Displays issues that are open. This includes those associated with a Resolving Object and those in a Closed -&nbsp;Pending Approval status.  
-   
+   * **Open Issues:** Displays issues that are open. This includes those associated with a Resolving Object and those in a Closed -&nbsp;Pending Approval status.
+
+     ![](assets/im1-350x74.png)
+
    * For information about Resolving Objects, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
    * **Completed** **Issues****:**&nbsp;Displays&nbsp;all issues that have an Actual&nbsp;Completion Date.&nbsp;
 
+     ![](assets/im2-350x48.png)
+
    * **All** **Issues** **:**&nbsp;Displays&nbsp;all issues.
+
+     ![](assets/projects-issues-all-350x74.png)
 
 ## Understand information about issues
 
@@ -131,13 +140,25 @@ You can add icons in the view of a project or task report or list to show whethe
 
 To add icons that display whether a project has issues :
 
-1. Go to the **Reporting**area in your Global Navigation Bar, then click **New Report**, and select **Project Report** to build a project report. Or Go to the **Projects** area in your Global Navigation Bar, and select **New View** from the **View** drop-down menu to build a project view.  
+1. Go to the **Reporting**area in your Global Navigation Bar, then click **New Report**, and select **Project Report** to build a project report.
 
-1. On the **Columns (View)** tab of the report, if you are creating a project report. Or In the **New View** dialog box if you are creating a project view, click **Add Column.** 
+   Or
+
+   Go to the **Projects** area in your Global Navigation Bar, and select **New View** from the **View** drop-down menu to build a project view.
+
+1. On the **Columns (View)** tab of the report, if you are creating a project report.
+
+   Or
+
+   In the **New View** dialog box if you are creating a project view, click **Add Column.**
 
 1. In the **Show in this column** field, start typing **Status Icons**, then select it when it appears in the list.
 
-1. Click **Save View** if you are building a project view. Or Click **Save + Close** if you are building a project report.
+1. Click **Save View** if you are building a project view.
+
+   Or
+
+   Click **Save + Close** if you are building a project report.
 
    The issue icons display on the projects that have issues in the **Status Icons** column.
 

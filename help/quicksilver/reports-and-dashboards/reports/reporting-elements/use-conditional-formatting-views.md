@@ -147,8 +147,8 @@ For information on creating a report, see [Create a report](../../../reports-and
    Rules are applied in the order that they were created.  
    For example, you can first create a rule that states when the Project Status is Building, the&nbsp;text color is purple and bold. You then create a second rule that states when the Task Name is not blank, the text color is red and italicized, and the background color is green. In this example, the following occurs:
 
-  * Tasks whose Project Status is Building are displayed in purple and bold text. If the task name is not blank, tasks also have a green background.
-  * Tasks whose Project Status is anything other than Building (and the Task Name is not blank)&nbsp;are displayed in a red and italicized text&nbsp;with a green background.
+   * Tasks whose Project Status is Building are displayed in purple and bold text. If the task name is not blank, tasks also have a green background.
+   * Tasks whose Project Status is anything other than Building (and the Task Name is not blank)&nbsp;are displayed in a red and italicized text&nbsp;with a green background.
 
 1. Click **Done**.
 1. Click **Save + Close**.  

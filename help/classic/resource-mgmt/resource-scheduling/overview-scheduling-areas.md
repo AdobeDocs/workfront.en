@@ -25,13 +25,16 @@ You can schedule resources in the following areas in Workfront:
 
 * **For any projects for which you are the resource manager (from the Scheduling** **tab****)** 
   The Scheduling area in Workfront enables resource managers to make resourcing assignments across multiple projects.  
+  ![resource_scheduling_schedulingtab.png](assets/resource-scheduling-schedulingtab-350x282.png)
 
 * **For an individual project when you are a member of the project team (from the Staffing ** tab** of a project)**:
 
-  The Scheduling subtab under the Staffing tab within a project enables members of the project team to assign work from the project to users on the project team.
+  The Scheduling subtab under the Staffing tab within a project enables members of the project team to assign work from the project to users on the project team.  
+  ![scheduling_team_scheduling.png](assets/scheduling-team-scheduling-350x163.png)
 
 * **For an individual team you are a member of (from the Working On tab in the team)** 
-  The Working On tab in a team enables team members to assign work already assigned to the team from multiple projects to individual team members.
+  The Working On tab in a team enables team members to assign work already assigned to the team from multiple projects to individual team members.  
+  ![resource_scheduling_workingontab.png](assets/resource-scheduling-workingontab-350x231.png)
 
 ## Functionality available in the Scheduling area
 

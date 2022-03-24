@@ -18,11 +18,11 @@ After retrieving an initial set of all the current hours in the system, you can 
 
 * **changeType:** The type of change being made to the object:
 
-  * **A:** Add  
-  
-  * **E:** Edit  
-  
-  * **D:** Delete
+   * **A:** Add  
+   
+   * **E:** Edit  
+   
+   * **D:** Delete
 
 * **aux2:** The name of the user the hour record is for.  
 

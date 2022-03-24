@@ -17,6 +17,10 @@ Depending on the Task Constraint, you might not be able to edit the Planned Star
 
 For more information, see [Overview of the project Planned Start Date](../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
+![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+
+![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+
 ## Planned Completion Date
 
 The Planned Completion Date or the Due On date is the date when a project, task, or issue is planned to complete.
@@ -31,11 +35,17 @@ For more information, see the following articles:
 * [Set the project Planned Completion Date](../../manage-work/projects/planning-a-project/project-planned-completion-date.md) 
 * [Overview of the issue Planned Completion Date](../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
+![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+
+![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+
 ## Entry Date
 
 The Entry Date is the date when a project, task, or issue was created in&nbsp;Workfront.
 
 The Entry Date does not influence the timeline of projects, tasks, or issues, but it is important for tracking and reporting purposes.
+
+![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
 
 ## Actual Start Date
 
@@ -52,6 +62,10 @@ For more information, see [Overview of the project Actual Start Date](../../mana
 >[!NOTE]
 >
 >The Must Start On task or the Fixed Dates constraints affect the Planned Start Date of a task, not the Actual Start Date. This updates the Planned Start Date to a date you specify. The Actual Start Date is updated independently of the Planned Start&nbsp;Date, as described above.
+
+![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+
+![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## Actual Completion Date
 
@@ -70,6 +84,8 @@ The Actual Completion Date of a project coincides with the date when the first t
 
 For more information, see [Overview of the project Actual Completion Date](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
+![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+
 ## Commit Date
 
 The Commit Date is the date by which an user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date, as it is a more realistic estimate of the completion date given only by the user in charge of the work. For more information, see [Commit Date overview](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
@@ -77,6 +93,10 @@ The Commit Date is the date by which an user assigned to task or an issue commit
 >[!NOTE]
 >
 >Changing the Commit Date affects the Projected Completion Date but not the Planned Completion Date of a task or an issue. The project manager can use the changes an assignee makes on the Commit Date to update the Planned Completion Date of a task or an issue.
+
+![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
+
+![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
 
 ## Projected Start Date
 
@@ -92,6 +112,8 @@ For a task, a Projected Start Date may also differ from its Planned Start Date w
 
 For more information, see [Overview of the project Projected Start Date](../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
+![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+
 ## Projected Completion Date
 
 The Projected Completion Date is a real-time, calculated indicator of when the project, task, or issue will be completed. When&nbsp;the project, task, or issue is marked as Completed, the Projected Completion Date changes to&nbsp;the date of the&nbsp;Actual Completion Date.
@@ -99,6 +121,8 @@ The Projected Completion Date is a real-time, calculated indicator of when the p
 If everything goes smoothly and as planned the Projected Completion date should match the Planned Completion Date.&nbsp;Otherwise due to the delays on the predecessor tasks the Projected Completion Date might become different from the Planned Completion Date.
 
 For more information, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+
+![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## Log Time
 
@@ -111,4 +135,8 @@ Use the Log Time option for projects, tasks, and issues to indicate how much act
 The date when you log the time is the same as the Hour Entry Date field on the hour entry. You can log time in the project, task, or issue Updates section or in the Hours section . When logging time in the Hours section , you can manually specify the Hour Entry Date and the user the hours belong to.
 
 For more information, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+
+![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+
+![](assets/log-time-in-update-stream-task-nwe-350x185.png)
 

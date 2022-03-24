@@ -152,8 +152,8 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
 
 1. (Optional) To delete a scheduled delivery:
 
-  1. In the **Repeating Deliveries** panel, click the scheduled delivery, then click **Delete**.
-  1. Click **Delete** to confirm.
+   1. In the **Repeating Deliveries** panel, click the scheduled delivery, then click **Delete**.
+   1. Click **Delete** to confirm.
 
 ## Video walk-through
 
@@ -172,6 +172,8 @@ View the following video to learn how to schedule a report delivery. This video 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Learning Path for reports and dashboards</a> </li>
   -->
+
+* 
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p>

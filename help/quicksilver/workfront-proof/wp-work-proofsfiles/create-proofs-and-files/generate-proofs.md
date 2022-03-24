@@ -19,18 +19,18 @@ Workfront Proof enables you to create proofs from documents or websites, and sha
 
 1. Do any of the following to begin creating a new proof and display the New Proof page:
 
-  * Click the green **New proof** button in the upper-left corner of any&nbsp;page.
-  * In the **Dashboard** area, in the **Overview** tab, click the **New proof** link.
-  
-  * Submit via Dropzone (Enterprise feature).
-  * The **New Proof** page displays.
+   * Click the green **New proof** button in the upper-left corner of any&nbsp;page.
+   * In the **Dashboard** area, in the **Overview** tab, click the **New proof** link.
+   
+   * Submit via Dropzone (Enterprise feature).
+   * The **New Proof** page displays.
 
 1. To proof one or more documents, add documents to be proofed in either of the following ways (repeat this process to add multiple documents to be proofed):
 
-  * Drag a document from you file system into the drag-and-drop area in the **Add Files** area.
-  * Click in the drag-and-drop area in the&nbsp;**Add Files**&nbsp;area, then browse to find and select the document you want to upload from the file system on your workstation.
+   * Drag a document from you file system into the drag-and-drop area in the **Add Files** area.
+   * Click in the drag-and-drop area in the&nbsp;**Add Files**&nbsp;area, then browse to find and select the document you want to upload from the file system on your workstation.
 
-    ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
+     ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
 
 1. To proof one or more websites, specify the URL of the website you want to proof in the&nbsp;**Add Files**&nbsp;area, then press **Enter**.  
 
@@ -42,47 +42,47 @@ Workfront Proof enables you to create proofs from documents or websites, and sha
 
 1. (Optional) Modify the file names of any uploaded files:
 
-  1. Mouse over the document name you want to modify in the document list in the **Add Files** area, then click&nbsp;the **Edit** icon.&nbsp;
+   1. Mouse over the document name you want to modify in the document list in the **Add Files** area, then click&nbsp;the **Edit** icon.&nbsp;
 
-     ![proof_edit.png](assets/proof-edit-350x53.png)
+      ![proof_edit.png](assets/proof-edit-350x53.png)
 
-  1. In the **Proof name** field, specify a new name, then click **Done**.
-  
-  1. (Optional) To delete any files from being uploaded, mouse over the document you want to delete in the document list in the&nbsp;**Add Files**&nbsp;area, then&nbsp;click&nbsp;the **Delete**&nbsp;icon.&nbsp;
+   1. In the **Proof name** field, specify a new name, then click **Done**.
+   
+   1. (Optional) To delete any files from being uploaded, mouse over the document you want to delete in the document list in the&nbsp;**Add Files**&nbsp;area, then&nbsp;click&nbsp;the **Delete**&nbsp;icon.&nbsp;
 
-     ![proof_delete.png](assets/proof-delete-350x53.png)
+      ![proof_delete.png](assets/proof-delete-350x53.png)
 
-  1. (Optional) Enable the option, **Combine all compatible files into single proof**.
+   1. (Optional) Enable the option, **Combine all compatible files into single proof**.
 
-     **When this option is enabled:** All static files and websites are available in a single proof, and you can upload up to 50 files at a given time.
+      **When this option is enabled:** All static files and websites are available in a single proof, and you can upload up to 50 files at a given time.
 
-     >[!NOTE]
-     >
-     >Interactive files, including videos and interactive websites, cannot be combined into a single proof.
+      >[!NOTE]
+      >
+      >Interactive files, including videos and interactive websites, cannot be combined into a single proof.
 
-     **When this option is disabled:** All documents and websites are generated as individual proofs, and you can upload up to 20 files at a given time.
+      **When this option is disabled:** All documents and websites are generated as individual proofs, and you can upload up to 20 files at a given time.
 
-     To combine all uploaded files and websites into a single proof:
+      To combine all uploaded files and websites into a single proof:
 
-    1. Enable the option, **Combine all compatible files into single proof**.
-    1. In the **Proof name** field, specify a new name for the combined proof.
-    1. In the **Add Files** area, reorder the included&nbsp;files by dragging a file to the desired order. The order of the files is&nbsp;the page order of the combined&nbsp;proof. For more information about creating combined proofs, see [Create a multi-page proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+      1. Enable the option, **Combine all compatible files into single proof**.
+      1. In the **Proof name** field, specify a new name for the combined proof.
+      1. In the **Add Files** area, reorder the included&nbsp;files by dragging a file to the desired order. The order of the files is&nbsp;the page order of the combined&nbsp;proof. For more information about creating combined proofs, see [Create a multi-page proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 1. (Optional) If you want to use an automated workflow that includes multiple stages, in the **Workflow** section, select from the following options:
 
-  * **Basic:** Select this option to designate users who you want to have access to the proof immediately after it is created. You can share the proof with multiple users.
+   * **Basic:** Select this option to designate users who you want to have access to the proof immediately after it is created. You can share the proof with multiple users.
 
-    For more information about sharing a proof, see "Adding Users to a Proof" in&nbsp; [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-  
-  * **Automated:**&nbsp;Select this option to manage content review and approval when you have complex review processes, or if you send content for review to the same groups of people regularly. With automated workflow, the proof&nbsp;moves from stage to stage&nbsp;until final approval. The relevant users are notified any time they are required to make an approval.
+     For more information about sharing a proof, see "Adding Users to a Proof" in&nbsp; [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   
+   * **Automated:**&nbsp;Select this option to manage content review and approval when you have complex review processes, or if you send content for review to the same groups of people regularly. With automated workflow, the proof&nbsp;moves from stage to stage&nbsp;until final approval. The relevant users are notified any time they are required to make an approval.
 
-    For more information about creating an Automated Workflow, see [Set up a proof with an Automated Workflow in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
+     For more information about creating an Automated Workflow, see [Set up a proof with an Automated Workflow in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md#create2).
 
 1. Select whether to send email notifications and a custom message to&nbsp;the users you selected in the previous step:
 
-  * **Notify recipients about this proof:** Select this option to send an email notification to users. When **Basic sharing** is selected in the **Workflow** section, an email notification sends when the proof is created. When **Automated workflow** is selected in the **Workflow** section, an email notification sends when the proof enters the stage of the automated workflow that the user is associated with.
-  
-  * **Add custom message:** Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks.
+   * **Notify recipients about this proof:** Select this option to send an email notification to users. When **Basic sharing** is selected in the **Workflow** section, an email notification sends when the proof is created. When **Automated workflow** is selected in the **Workflow** section, an email notification sends when the proof enters the stage of the automated workflow that the user is associated with.
+   
+   * **Add custom message:** Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks.
 
 1. Select any of the following proof settings:
 
@@ -154,17 +154,17 @@ To generate a proof for a URL:
 
 1. Do any of the following to begin creating a new proof and display the New Proof page:
 
-  * Click the green **New proof** button in the upper-left corner of any&nbsp;page.
-  * In the **Dashboard** area, in the **Overview** tab, click the **New proof** link.
-  
-  * Submit via Dropzone (Enterprise feature).
+   * Click the green **New proof** button in the upper-left corner of any&nbsp;page.
+   * In the **Dashboard** area, in the **Overview** tab, click the **New proof** link.
+   
+   * Submit via Dropzone (Enterprise feature).
 
 1. (Conditional) In the **New proof** page that appears, to create a new version of an existing proof:
 
-  1. Select the URL proof&nbsp;where you want to add a new version.
-  1. Click&nbsp;the **New Version** button at the top of the page.
+   1. Select the URL proof&nbsp;where you want to add a new version.
+   1. Click&nbsp;the **New Version** button at the top of the page.
 
-     ![Screenshot_2018-05-15_10-59-56.png](assets/screenshot-2018-05-15-10-59-56-350x80.png)
+      ![Screenshot_2018-05-15_10-59-56.png](assets/screenshot-2018-05-15-10-59-56-350x80.png)
 
 1. In the New proof version page that displays, specify the URL of the website you want to proof in the&nbsp;**Add Files**&nbsp;area, then press **Enter**.
 
@@ -207,9 +207,9 @@ To generate a proof for a URL:
 
 1. (Optional) Configure any advanced proofing options, such as sharing the proof, adding an Automated Workflow, or setting up access and subscription settings. For more details about these options, see the following articles:
 
-  * [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 
-  * [Set up a proof with an Automated Workflow in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md) 
-  * [Configure access and subscription settings for a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 
+   * [Set up a proof with an Automated Workflow in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md) 
+   * [Configure access and subscription settings for a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. Click **Done**.
 
@@ -238,19 +238,19 @@ For more information about Interactive content, see [Interactive content proofs 
 
 1. Do any of the following to begin creating a new proof and display the New Proof page:
 
-  * Click the green **New proof** button in the upper-left corner of any&nbsp;page.
-  * In the **Dashboard** area, in the **Overview** tab, click the **New proof** link.
-  
-  * Submit via Dropzone (Enterprise feature).
+   * Click the green **New proof** button in the upper-left corner of any&nbsp;page.
+   * In the **Dashboard** area, in the **Overview** tab, click the **New proof** link.
+   
+   * Submit via Dropzone (Enterprise feature).
 
 1. In the **New proof** page that appears, drag and drop your interactive .zip bundle into the&nbsp;**Add files**area.
 
 1. (Optional) Configure any advanced proofing options, such as sharing the proof, adding an automated workflow, or setting up access and subscription settings. For more details about these options, see the following articles:
 
-  * [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 
-  * [Create an Automated Workflow for the proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow)
-  
-  * [Configure access and subscription settings for a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 
+   * [Create an Automated Workflow for the proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow)
+   
+   * [Configure access and subscription settings for a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. Click&nbsp;**Create Proof**.
 

@@ -74,8 +74,8 @@ You must have the following to perform the steps in this article:
 
 ``` ```**Tip: **`````` To find a user's ID:
 
-1. People
-1. People
+1. Go to the **People** area in the Global Navigation Bar.
+1. Select the **People** tab.
 1. Select the user.
 
    The user's profile page opens and their user ID displays in the URL.

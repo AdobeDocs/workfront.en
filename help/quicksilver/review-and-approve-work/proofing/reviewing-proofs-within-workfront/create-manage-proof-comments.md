@@ -117,8 +117,8 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) To attach&nbsp;a file to a comment, do either of the following:
 
-  * Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.
-  * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
+   * Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.
+   * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
 1. Click **Post**.
 1. Adobe Workfront drops a pin in the center of the area you marked for the comment. In the screenshot below, the markup (red box) was drawn with the Box tool and the pin marked number 2 in the center identifies the markup.  
@@ -139,14 +139,14 @@ You must have the following access to perform the steps in this article:
 
 1. Each comment displays the following information:
 
-  * Name of the user who made the comment
-  * The page number where the comment was made (in static proofs containing more than one page)
-  * The frame number or range of footage where the comment was made (in video proofs)
+   * Name of the user who made the comment
+   * The page number where the comment was made (in static proofs containing more than one page)
+   * The frame number or range of footage where the comment was made (in video proofs)
 
-    If the comment you are viewing was applied to a range of video footage, you can click the Play button to review the range.
-  
-  * Text included with the comment
-  * Any attachments that were uploaded to the comment
+     If the comment you are viewing was applied to a range of video footage, you can click the Play button to review the range.
+   
+   * Text included with the comment
+   * Any attachments that were uploaded to the comment
 
 1. (Optional) To adjust the size of the comment list, hover over the left edge of the comment area (not on the comment that is currently open) until the mouse pointer changes for horizontal resizing, then drag the edge where you want it.
 1. ![resize_comment_area-mouse.png](assets/resize-comment-area-mouse.png)
@@ -160,9 +160,8 @@ In Workfront, you can view proof comments without launching your proofing viewer
 >This feature is not available in Workfront Proof.
 
 1. On the **Documents** tab of a work item, locate the document you want to view.
-1. Summary
-1. 
-1.
+1. Click the row containing the document, then click the **Summary** icon ![](assets/summary-panel-icon.png) on the right-side of the page.  
+   The comments display in the Updates section of the Document Summary.
 
 ## Reply to comments
 
@@ -174,8 +173,8 @@ In Workfront, you can view proof comments without launching your proofing viewer
 
 1. (Optional) To add a file to a comment, do either of the following:
 
-  * Click the paper clip icon, then browse to and select the file you want to upload.
-  * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
+   * Click the paper clip icon, then browse to and select the file you want to upload.
+   * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
 1. Click **Reply**.
 
@@ -189,8 +188,8 @@ You can also reply to a proof comment from the Updates area for the document.
 
 1. Begin typing either of the following:
 
-  * The text you want to search for. The comment list filters as you type, beginning with the first character&nbsp;you enter.
-  * The number of the comment you want to display.
+   * The text you want to search for. The comment list filters as you type, beginning with the first character&nbsp;you enter.
+   * The number of the comment you want to display.
 
 1. (Optional) Click the comment to display a line connecting the comment to the related area on the proof.
 1. When you are finished searching and you want to display all the comments, click the X at the end of the search box.
@@ -336,9 +335,7 @@ If you have the Author or Moderator role on a proof, you can resolve a comment a
    A green check mark appears in the upper-left corner of the comment and a "Thread resolved" label and message appear below it. The user who submitted the comment receives a notification that the comment was resolved.
 
    <!--
-   A "Thread resolved" label also appears above the
-   <strong>Updates</strong> comment in the Summary. For information about the Summary, see
-   <a href="../../../documents/managing-documents/summary-for-documents.md" class="MCXref xref">Summary for documents overview</a>.
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">A "Thread resolved" label also appears above the <strong>Updates</strong> comment in the Summary. For information about the Summary, see <a href="../../../documents/managing-documents/summary-for-documents.md" class="MCXref xref">Summary for documents overview</a>.</p>
    -->
 
 ## Reopen a resolved comment
@@ -352,9 +349,7 @@ If you have the Author or Moderator role on a proof, you can re-open a comment t
    The check mark in the upper-left corner of the comment disappears and a "Thread reopened" label and message appear below it. The user who submitted the comment receives a notification that the comment was reopened.
 
    <!--
-   Also, the "Thread resolved" label above the
-   <strong>Updates</strong> comment in the Summary is removed. For information about the Summary, see
-   <a href="../../../documents/managing-documents/summary-for-documents.md" class="MCXref xref">Summary for documents overview</a>.
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Also, the "Thread resolved" label above the <strong>Updates</strong> comment in the Summary is removed. For information about the Summary, see <a href="../../../documents/managing-documents/summary-for-documents.md" class="MCXref xref">Summary for documents overview</a>.</p>
    -->
 
 ## About applying an action to a comment

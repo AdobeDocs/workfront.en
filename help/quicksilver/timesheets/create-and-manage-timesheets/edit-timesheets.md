@@ -40,6 +40,7 @@ You must have the following to perform the steps in this article:
 ## Edit timesheets
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Timesheets**.
+
 1. 
 
    <!--
@@ -50,10 +51,15 @@ You must have the following to perform the steps in this article:
 
    Click **All Timesheets** in the left panel.
 
-1. The timesheet filter is prepopulated with the teams you belong to. 
-1. ![](assets/all-timesheets-page-with-preselected-teams-default-old-nwe-350x255.png)
+   The timesheet filter is prepopulated with the teams you belong to.
 
-1. ```<li> <!--  <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the Preview environment, the <strong>All</strong> filter is selected by default. </p> --> </li>```
+   ![](assets/all-timesheets-page-with-preselected-teams-default-old-nwe-350x255.png)
+
+   * 
+   
+     <!--   
+     <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the Preview environment, the <strong>All</strong> filter is selected by default. </p>   
+     -->
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/timesheet-list-one-timesheet-selected-nwe-350x70.png" style="width: 350;height: 70;"> </img> </p>
@@ -62,73 +68,73 @@ You must have the following to perform the steps in this article:
 1. 
 
    <!--
-   (Conditional and optional) In the Production environment, do the following to modify the filter in the list of timesheets:
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(Conditional and optional) In the Production environment, do the following to modify the filter in the list of timesheets:</p>
    -->
 
    (Optional) To modify the filter in the list of timesheets, do the following:
 
-  1. Click **Filter** to apply the default filter and display timesheets for people in your teams.
+   1. Click **Filter** to apply the default filter and display timesheets for people in your teams.
 
-     Or
+      Or
 
-     Click **Reset Filter** to clear the filter selection and add new filtering criteria. 
-  
-  1. Select from the following filtering options:
+      Click **Reset Filter** to clear the filter selection and add new filtering criteria. 
+   
+   1. Select from the following filtering options:
 
-     | Belonging to |Displays timesheets associated with the users you specify or the users associated with the roles or teams that you specify. |
-     |---|---|
-     | Approver |Displays timesheets associated with the approvers that you specify. |
-     | Status |Displays timesheets associated with the status that you specify. |
-     | Time Period |Displays timesheets that include the time period you select. |
+      | Belonging to |Displays timesheets associated with the users you specify or the users associated with the roles or teams that you specify. |
+      |---|---|
+      | Approver |Displays timesheets associated with the approvers that you specify. |
+      | Status |Displays timesheets associated with the status that you specify. |
+      | Time Period |Displays timesheets that include the time period you select. |
 
-  1. Click&nbsp;**Filter** after defining your filter criteria.
+   1. Click&nbsp;**Filter** after defining your filter criteria.
 
-     >[!TIP]
-     >
-     >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
+      >[!TIP]
+      >
+      >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
 
    <!--
-   <p>(Conditional and optional) In the Preview environment, do one of the following to update the filter in the list of timesheets:</p>
+   <li class="preview" value="4" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>(Conditional and optional) In the Preview environment, do one of the following to update the filter in the list of timesheets:</p>
    <ul>
    <li> <p>Select <strong>My Timesheet Approvals</strong> in the upper-right corner of the page to view only timesheets that you approve</p> <p>Or</p> <p>Select <strong>My Timesheets</strong> to view only your timesheets. </p> <p>This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.</p> <p> <img src="assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png" style="width: 350;height: 58;"> </img> </p> </li>
    <li> <p>Click the Filter icon <img src="assets/filter-nwepng.png"> to apply a different filter, or create a new one.</p> </li>
-   </ul>
+   </ul> </li>
    -->
 
 1. (Optional)&nbsp;Click 
 
    <!--
-   the
+   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">the </span>
    -->
 
    **View**
 
    <!--
-
+   <img src="assets/view-icon.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    -->
 
    or **Grouping **
 
    <!--
-
+   <img src="assets/grouping.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    -->
 
    <!--
-   icons
+   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">icons</span>
    -->
 
    to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
-  * [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
-  * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
-  * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+   * [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
+   * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
+   * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Select one or several timesheets, then click 
 
    <!--
-   the
+   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">the</span>
    -->
 
    **Edit** ``````
@@ -174,7 +180,7 @@ You must have the following to perform the steps in this article:
 1. Click **Save Changes** 
 
    <!--
-   Save
+   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Save</span>
    -->
 
    .

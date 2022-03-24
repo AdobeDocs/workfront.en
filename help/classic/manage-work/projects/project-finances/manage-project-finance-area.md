@@ -38,7 +38,10 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Overview of the Finance subtab Consider the following when viewing or editing information in the Finance subtab :
+
+## Overview of the Finance subtab
+
+Consider the following when viewing or editing information in the Finance subtab :
 
 * The financial information you can find on the Finance subtab of a projectrepresents values that roll up to the project level from tasks, as well as information entered directly on the project. Some financial information can be managed at the project as well as the task level. 
 * You must have View permissions on the project as well as access to Financial Data from your access level in order to be able to view the Finance subtab on a project. 
@@ -47,8 +50,10 @@ Overview of the Finance subtab Consider the following when viewing or editing in
 ## View Finance information on a project
 
 1. Go to a project.
-1. Select the **Project Details** tab.  
-1. Click the **Finance** subtab. 
+1. Select the **Project Details** tab. 
+1. Click the **Finance** subtab.
+
+   ![project_finance_tab_view_mode.png](assets/project-finance-tab-view-mode-350x344.png)
 
 1. View the following fields in the Finance subtab of the project:
 
@@ -116,6 +121,8 @@ Overview of the Finance subtab Consider the following when viewing or editing in
     </tbody> 
    </table>
 
+   ![](assets/pfs-350x193.png)
+
 ## Edit financial information on a project
 
 As a Project Owner, you can edit the information on the Finance subtab of a project.
@@ -128,9 +135,11 @@ To edit information on the Project Finance subtab:
    >
    >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project.
 
-1. Select the **Project Details** tab. 
-1. Click the **Finance** subtab. 
-1. Click **Edit Finance**.  Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
+1. Select the **Project Details** tab.
+1. Click the **Finance** subtab.
+1. Click **Edit Finance**.
+
+   Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 
    >[!TIP]
    >
@@ -175,11 +184,15 @@ To edit information on the Project Finance subtab:
      <tr> 
       <td role="rowheader">Project Currency</td> 
       <td> <p>Specify a currency for this project, if it is different from the default currency in your system. The default currency in your system is defined by your Workfront administrator. For more information about setting up exchange rates in Workfront, see the article <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> </td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"> Allow company-level billing rates to override project-level billing rates</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">When a company is associated with a project, changes made to the company-level billing rates override the billing rate set on the project. This override occurs when a user manually recalculates finances on the project. Historical job role rates are also overridden unless they are marked as billed.&nbsp;For more information, see <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Override Project-Level Billing Rates with Company-Level Billing Rates</a>. </td>   
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Require time to be approved for this project</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Select this option if you want the Project Owner to approve hours entered on the project, before they can be added to a billing record. </p> </td>  
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader"> Allow company-level billing rates to override project-level billing rates</td> 
+      <td>When a company is associated with a project, changes made to the company-level billing rates override the billing rate set on the project. This override occurs when a user manually recalculates finances on the project. Historical job role rates are also overridden unless they are marked as billed.&nbsp;For more information, see <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Override Project-Level Billing Rates with Company-Level Billing Rates</a>. </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader">Require time to be approved for this project</td> 
+      <td> <p>Select this option if you want the Project Owner to approve hours entered on the project, before they can be added to a billing record. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">&nbsp;</td> 
       <td>&nbsp;</td> 

@@ -43,7 +43,13 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the object to which you want to add a reply.
 1. On the **Updates** tab for the object, find the update or reply to which you want to reply.
-   To view an image in the update:  ```<li> <p>Click the&nbsp;<strong>Preview</strong> icon <img src="assets/previewimageicon-31x31.png" style="vertical-align: text-bottom;width: 31;height: 31;"> on the image thumbnail to open the full-size image in a new browser tab.</p> </li>``` ```<li> <p>Click the&nbsp;<strong>Download</strong> icon <img src="assets/downloadimageicon.png" style="vertical-align: text-bottom;"> on the image thumbnail to download the image.</p> </li>```  In addition to seeing the users who are actively engaged in the conversation, you can see who is tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   To view an image in the update:
+
+   * Click the&nbsp;**Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the&nbsp;**Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
+
+   In addition to seeing the users who are actively engaged in the conversation, you can see who is tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
 

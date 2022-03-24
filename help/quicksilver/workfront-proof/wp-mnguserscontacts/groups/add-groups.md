@@ -19,12 +19,12 @@ For information about how to create a group, see [Create Proofing Groups using W
 
 1. Start creating a proof using one of the following methods:
 
-  * Create a standard proof.  
-    For more information, see [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
-  
-  * Create a new proof version.  
-    For more information, see .
-  * ```<font size="2">Make a copy of a proof.<br></font>``````<font size="2">For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Copying Proofs in Workfront Proof</a>.</font>```
+   * Create a standard proof.  
+     For more information, see [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+   
+   * Create a new proof version.  
+     For more information, see .
+   * ```<font size="2">Make a copy of a proof.<br></font>``````<font size="2">For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Copying Proofs in Workfront Proof</a>.</font>```
 
 1. ```<font size="2">In the&nbsp;<strong>Workflow</strong>section, begin typing the group name in the&nbsp;<strong>Type contact name or email address to add a recipient</strong>field.<br><img src="assets/typegroupname.png" alt="Screenshot_2018-04-06_15-05-20.png"></font>``` 
 1. ```<font size="2">Select the group name.<br></font>``````<font size="2">Members of the group now display.<br><img src="assets/membersofthegroupdisplay-350x117.png" alt="Screenshot_2018-04-06_15-07-06.png" style="width: 350;height: 117;"><br></font>``` 

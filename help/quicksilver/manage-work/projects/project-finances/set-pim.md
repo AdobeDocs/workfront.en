@@ -59,9 +59,8 @@ You must have the following access to perform the steps in this article:
    >
    >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance area of the project.
 
-1. Click **Project Details** in the left panel, then go to the **Finance** area. 
-
-1. Double-click the value in the **Performance Index Method** field to edit it. 
+1. Click **Project Details** in the left panel, then go to the **Finance** area.
+1. Double-click the value in the **Performance Index Method** field to edit it.
 1. Select from the following options in the **Performance Index Method** field:
 
    | Hour-Based |Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours.  |

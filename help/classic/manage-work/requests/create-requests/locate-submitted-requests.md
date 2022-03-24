@@ -51,7 +51,7 @@ You must have the following to perform the steps in this article:
 
 To locate requests that you or other users have submitted:
 
-1. Go to the **Requests** area in the Global Navigation Bar. 
+1. Go to the **Requests** area in the Global Navigation Bar.
 1. Click&nbsp;**Requests I've Submitted** to view all the requests that you have submitted.
 
    Or  

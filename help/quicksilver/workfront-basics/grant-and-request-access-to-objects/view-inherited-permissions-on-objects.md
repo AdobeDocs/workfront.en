@@ -58,6 +58,8 @@ To view inherited permissions for a project:
 
    This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project.
 
+   ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
+
 1. (Optional) To remove inherited permissions from an object, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    >[!NOTE]

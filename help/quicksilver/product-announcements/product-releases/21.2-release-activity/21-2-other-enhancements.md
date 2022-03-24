@@ -62,7 +62,7 @@ Previously, there was no icon and a badge with the object name appeared to the r
 
 The page headers of areas in the new Workfront experience—such as Enhanced analytics, Resource Management, and others—also have this updated look and feel.
 
-To learn more about the new object headers in the new Workfront experience, see New object headers.
+To learn more about the new object headers in the new Workfront experience, see [New object headers](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 ![](assets/product-announcement-object-header-350x179.png)
 

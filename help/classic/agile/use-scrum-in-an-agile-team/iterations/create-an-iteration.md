@@ -37,14 +37,13 @@ You must have the following access to perform the steps in this article:
 
 Use the Plan Iteration feature to create an iteration using tasks on your backlog.
 
-1. People
-1. Teams
-1. 
-1. Create an agile team
-1. Backlog
-1. Plan Iteration
-1. 
-1. 
+1. Go to the **People** area in the Global Navigation Bar.
+1. Ensure that the **Teams** tab is selected, then select the agile team from the drop-down menu.  
+   If you do not have an agile team, you can create one, as described in [Create an agile team](../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+
+1. Click the **Backlog**&nbsp;tab,&nbsp;then click **Plan Iteration**.  
+   ![agile_iteration_plan.png](assets/agile-iteration-plan-350x189.png)
+
 1. Specify the following information:  
 
    <table cellspacing="0"> 
@@ -98,5 +97,12 @@ When you add a task as a story to an iteration, the Must Finish On task constrai
 Iteration End Date minus (-) Task Duration equals (=) Task Planned Start Date
 
 The Project End Date is used instead of the Iteration End Date if&nbsp;the&nbsp;project start date is after the iteration start date, and the project end date is after the iteration end date.
-Understand how iterations are referenced in the My Work area If a work item in the My Work area is a story on an iteration, the iteration name is displayed on the list instead&nbsp;of the project name. For more information about using the My Work area, see [My Work](../../../workfront-basics/using-home/my-work/my-work.md)  ![](assets/iteration-mywork-350x179.png)
+
+## Understand how iterations are referenced in the My Work area
+
+If a work item in the My Work area is a story on an iteration, the iteration name is displayed on the list instead&nbsp;of the project name.
+
+For more information about using the My Work area, see [My Work](../../../workfront-basics/using-home/my-work/my-work.md)
+
+![](assets/iteration-mywork-350x179.png)
 

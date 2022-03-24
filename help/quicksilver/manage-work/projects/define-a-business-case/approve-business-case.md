@@ -87,27 +87,27 @@ To build a report for projects which are pending approval of their Business Case
 
    For example, you can use the following filter statements:&nbsp;
 
-  * 
-  
-    ```  
-    Project Sponsor ID Equals $$USER.ID
-    ```  
-  
-    to display projects where you are designated as the Project Sponsor
-  * 
-  
-    ```  
-    Project Owner ID Equals $$USER.ID
-    ```  
-  
-    to display projects where you are designated as the Project owner
-  * 
-  
-    ```  
-    Project Portfolio Owner ID Equals $$USER. ID
-    ```  
-  
-    to display where you are designated as the Portfolio Manager.&nbsp;
+   * 
+   
+     ```   
+     Project Sponsor ID Equals $$USER.ID
+     ```   
+   
+     to display projects where you are designated as the Project Sponsor
+   * 
+   
+     ```   
+     Project Owner ID Equals $$USER.ID
+     ```   
+   
+     to display projects where you are designated as the Project owner
+   * 
+   
+     ```   
+     Project Portfolio Owner ID Equals $$USER. ID
+     ```   
+   
+     to display where you are designated as the Portfolio Manager.&nbsp;
 
 1. Click **Save+Close**.
 

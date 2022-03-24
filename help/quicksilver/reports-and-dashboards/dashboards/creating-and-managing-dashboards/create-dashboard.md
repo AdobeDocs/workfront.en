@@ -93,6 +93,8 @@ You must create any of the following objects before you can add them to a dashbo
    >
    >When searching for an item, the search returns any of the 2,000 most recently created reports. Report names that include unicode characters are not returned in search results. As a best practice, avoid including unicode characters when naming objects in Workfront by typing names rather than copying and pasting names from another source.
 
+   ![](assets/qs-new-dashboard-ui-350x143.png)
+
 1. (Optional) Click **Add External Page** to add an External Page to the dashboard.   
    For more information about creating external pages and embedding them into dashboards, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 

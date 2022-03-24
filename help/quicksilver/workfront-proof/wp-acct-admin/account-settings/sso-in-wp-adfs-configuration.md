@@ -58,20 +58,20 @@ If you are a Workfront Proof administrator, you can configure Single Sign-On on 
    The following is an example of a Logout URL:  
    https://*<adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 
-  1. Go to your AD FS manager >&nbsp;Trust Relationships >&nbsp;Relying Party Trusts - ProofHQ&nbsp;properties.
-  1. Under the Endpoints, click Add and entry with the following details:
+   1. Go to your AD FS manager >&nbsp;Trust Relationships >&nbsp;Relying Party Trusts - ProofHQ&nbsp;properties.
+   1. Under the Endpoints, click Add and entry with the following details:
 
-    * Endpoint Type = SAML Logout
-    * Binding = POST
-    * URL = https://*<adfs.your-company.com*>/adfs/ls/?wa=wsignout1.0
-    * This step can be completed after configuring the Relying Party Trust (see below) in your AD FS.
+      * Endpoint Type = SAML Logout
+      * Binding = POST
+      * URL = https://*<adfs.your-company.com*>/adfs/ls/?wa=wsignout1.0
+      * This step can be completed after configuring the Relying Party Trust (see below) in your AD FS.
 
-  1. In the **Certificate fingerprint** box, enter the data from your certificate.
-  1. Go to your&nbsp;ADFS 2.0 snap-in&nbsp;navigate to Service > Certificates > Token-signing.
-  1. Right-click on this entry to view the certificate.
-  1. From the Certificate Details tab copy the Thumbprint, and paste it in the **Workfront Proof Single Sign-On** configuration tab.  
-  
-  1. &nbsp;The fingerprint characters can be separated with colons or spaces, but we do recommend removing these. If you have any troubles with your Single Sign-On configuration, please contact the Customer Support team.
+   1. In the **Certificate fingerprint** box, enter the data from your certificate.
+   1. Go to your&nbsp;ADFS 2.0 snap-in&nbsp;navigate to Service > Certificates > Token-signing.
+   1. Right-click on this entry to view the certificate.
+   1. From the Certificate Details tab copy the Thumbprint, and paste it in the **Workfront Proof Single Sign-On** configuration tab.  
+   
+   1. &nbsp;The fingerprint characters can be separated with colons or spaces, but we do recommend removing these. If you have any troubles with your Single Sign-On configuration, please contact the Customer Support team.
 
 ## Adding a Relying Party Trust
 
@@ -87,11 +87,11 @@ Once configuration is complete, you need to work in the&nbsp;Relying Party Trust
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * If you're having any troubles with establishing the connection from the URL, save the metadata as a file and choose to import data from a file.
-   >  * When you have a full Custom domain (e.g., www.your-proofing.com) configured on your ProofHQ account replace the whole "{yoursubdomain}.proofhq.com" part with your own domain to create your ProofHQ metadata link.
-   >  
+   >   
+   >   
+   >   * If you're having any troubles with establishing the connection from the URL, save the metadata as a file and choose to import data from a file.
+   >   * When you have a full Custom domain (e.g., www.your-proofing.com) configured on your ProofHQ account replace the whole "{yoursubdomain}.proofhq.com" part with your own domain to create your ProofHQ metadata link.
+   >   
    >
 
 ## Configuring Claim Rules
@@ -104,6 +104,6 @@ Once your Relying Party Trust configuration is complete, you are ready to config
 
 1. Click **Add Rule** (2) to open the claim configuration window.
 
-  * E-mail (Send LDAP Attributes as Claims rule template)
-  * NameID (Transform an Incoming Claim rule template)
+   * E-mail (Send LDAP Attributes as Claims rule template)
+   * NameID (Transform an Incoming Claim rule template)
 

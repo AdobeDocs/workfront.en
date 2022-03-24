@@ -16,14 +16,14 @@ Your access to review and approve proofs is the same as in Adobe Workfront. For 
 
 1. Open the proof approval task:
 
-  * Select the proof approval task in the Approvals area of My Work.
+   * Select the proof approval task in the Approvals area of My Work.
 
-    ![My Work Approvals section](assets/mobile-mywork-approvals-338x482.png)   
-    Or
-  
-  * Select **Show all Approvals** in the Approvals area of My Work. Then select the proof approval task in the list of all approvals.
+     ![My Work Approvals section](assets/mobile-mywork-approvals-338x482.png)   
+     Or
+   
+   * Select **Show all Approvals** in the Approvals area of My Work. Then select the proof approval task in the list of all approvals.
 
-    For information about My&nbsp;Work in the mobile app, see [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+     For information about My&nbsp;Work in the mobile app, see [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. On the Details page, select **Go to Proof**.
 
@@ -36,9 +36,9 @@ Your access to review and approve proofs is the same as in Adobe Workfront. For 
 
 1. (Optional) Go to a specific page using the scroll indicator on the right:
 
-  1. Tap the scroll indicator.
-  1. Type the page number in the Go To Page box and select **OK**.
-  1. ![Go To Page](assets/mobile-gotopage-350x224.png)
+   1. Tap the scroll indicator.
+   1. Type the page number in the Go To Page box and select **OK**.
+   1. ![Go To Page](assets/mobile-gotopage-350x224.png)
 
 1. Select the arrow on the top left of the document to go back to the Details page.
 1. (Optional) On the Details page, select **Updates** to see all updates for the proof, such as when it was created and when it was sent for approval.
@@ -67,8 +67,8 @@ In the comment list, you can perform different actions such as resolving a comme
 
 1. Select comments:
 
-  * Press and hold an individual comment to select it.
-  * Choose **Select** on the top right to display a check box next to each comment. Then, tap the comment check boxes or choose **Select All** on the top left.
+   * Press and hold an individual comment to select it.
+   * Choose **Select** on the top right to display a check box next to each comment. Then, tap the comment check boxes or choose **Select All** on the top left.
 
 1. To resolve the selected comment, select ![Resolve comment icon](assets/mobile-resolvecomment-icon-30x30.png) in the bottom toolbar.
 

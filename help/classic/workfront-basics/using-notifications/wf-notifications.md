@@ -148,7 +148,7 @@ The following emails can only be configured at the user profile level. They cann
 <li> <p>A Pro or higher <a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>. </p> </li>
 <li> <p>An Adobe Workfront Goals license in addition to a Workfront license.</p> <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience. </p> </li>
 </ul>
-<p>For additional information about access to Workfront Goals, see Access needed to use Workfront Goals.</p>
+<p>For additional information about access to Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content/Workfront_Align/Goal_management/access-needed-for-wf-align.htm" data-mc-conditions="QuicksilverOrClassic.Classic">Access needed to use Workfront Goals</a>.</p>
 </div>
 <p>If you are a Workfront Goals user, you can configure notifications for yourself to receive communication about events happening in that area. For information, see Enable Adobe Workfront Goals notifications.</p>
 </div>

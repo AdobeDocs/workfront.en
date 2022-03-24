@@ -50,16 +50,16 @@ Some of the following scenarios might be responsible:
 * Long-running calculations or timeline calculations on large projects could be causing a delay in the publication of messages to Event Subscriptions to consume.
 * The subscription might have been disabled.
 
-  * After a 100-message grace period, if a particular URL—which could be associated with one or more subscriptions—fails more than 70% of the time or if the URL&nbsp;fails to deliver after 2000 consecutive attempts, all messages matching subscriptions with that same URL are not attempted for delivery. Instead, those messages are immediately queued for a retry.
+   * After a 100-message grace period, if a particular URL—which could be associated with one or more subscriptions—fails more than 70% of the time or if the URL&nbsp;fails to deliver after 2000 consecutive attempts, all messages matching subscriptions with that same URL are not attempted for delivery. Instead, those messages are immediately queued for a retry.
 
-    Every 10 minutes after a URL is disabled, we attempt to deliver the next message that comes through for processing. If that message succeeds, then we re-enable that URL and subsequently any matching subscriptions. If that message fails to send, then that 10-minute timer resets and we try again after it expires.
+     Every 10 minutes after a URL is disabled, we attempt to deliver the next message that comes through for processing. If that message succeeds, then we re-enable that URL and subsequently any matching subscriptions. If that message fails to send, then that 10-minute timer resets and we try again after it expires.
 
-    This behavior can be perceived as inconsistent or delayed deliveries, but it simply follows our policies for how Event Subscription messages are handled.
-  
-  * An Event Subscription URL&nbsp;will be hard disabled if either of the following conditions are met:
+     This behavior can be perceived as inconsistent or delayed deliveries, but it simply follows our policies for how Event Subscription messages are handled.
+   
+   * An Event Subscription URL&nbsp;will be hard disabled if either of the following conditions are met:
 
-    * The Subscription URL has failed to deliver for 7 days and has failed at least 2000 consecutive delivery attempts in the last 72 hours.
-    * The Subscription URL failed to deliver 50,000 consecutive attempts.
+      * The Subscription URL has failed to deliver for 7 days and has failed at least 2000 consecutive delivery attempts in the last 72 hours.
+      * The Subscription URL failed to deliver 50,000 consecutive attempts.
 
 ## What should I&nbsp;do if I'm receiving a 500 response status when I attempt to call the Event Subscription API?
 

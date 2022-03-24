@@ -55,74 +55,74 @@ Your changes save automatically as you go.
 
 1. Click the Edit visualization icon ![](assets/edit-icon.png) in the upper-right corner of the visualization, then do any of the following.
 
-  1. On the **Settings** tab:
+   1. On the **Settings** tab:
 
-     <table cellspacing="0">
-      <col>
-      <col>
-      <tbody>
-       <tr>
-        <td role="rowheader">Visualization type</td>
-        <td><p>Switch to a different type of visualization. If you do this, the subsequent options on the menu might change.</p></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Vertical axis</td>
-        <td>Select the values that you want to include on the left edge (Y axis). <!--
-          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-           The values come from the view of the report Also, specify how you want the information to be aggregated/summarized.
-          </MadCap:conditionalText>
-         --></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Horizontal axis</td>
-        <td><p>Select the values that you want to include along the bottom (X axis). <!--
+      <table cellspacing="0">
+       <col>
+       <col>
+       <tbody>
+        <tr>
+         <td role="rowheader">Visualization type</td>
+         <td><p>Switch to a different type of visualization. If you do this, the subsequent options on the menu might change.</p></td>
+        </tr>
+        <tr>
+         <td role="rowheader">Vertical axis</td>
+         <td>Select the values that you want to include on the left edge (Y axis). <!--
            <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-            The values come from the view of the report. Also, specify how you want the information to be aggregated/summarized.
+            The values come from the view of the report Also, specify how you want the information to be aggregated/summarized.
            </MadCap:conditionalText>
-          --> </p><p>Important: Ensure that you have at least one column that is aggregated for this field to be active. For more information about summarizing the information in a report column, see <a href="../../reports-and-dashboards/new-reporting-experience/modify-columns-table.md" class="MCXref xref">Modify table columns in Reporting Canvas</a>.</p></td>
-       </tr>
-      </tbody>
-     </table>
+          --></td>
+        </tr>
+        <tr>
+         <td role="rowheader">Horizontal axis</td>
+         <td><p>Select the values that you want to include along the bottom (X axis). <!--
+            <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+             The values come from the view of the report. Also, specify how you want the information to be aggregated/summarized.
+            </MadCap:conditionalText>
+           --> </p><p>Important: Ensure that you have at least one column that is aggregated for this field to be active. For more information about summarizing the information in a report column, see <a href="../../reports-and-dashboards/new-reporting-experience/modify-columns-table.md" class="MCXref xref">Modify table columns in Reporting Canvas</a>.</p></td>
+        </tr>
+       </tbody>
+      </table>
 
-     <!--  
-     <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Data source</b> tab:</p>  
-     <table cellspacing="0">  
-     <col>  
-     <col>  
-     <tbody>  
-     <tr>  
-     <td role="rowheader">Data source (drop-down menu)</td>  
-     <td>Change the data source for the visualization to another table on the report canvas</td>  
-     </tr>  
-     <tr>  
-     <td role="rowheader">Show Data Source</td>  
-     <td>On the report canvas, show (enable) or hide (disable) the table that powers the visualization</td>  
-     </tr>  
-     </tbody>  
-     </table></li>  
-     -->
+      <!--   
+      <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Data source</b> tab:</p>   
+      <table cellspacing="0">   
+      <col>   
+      <col>   
+      <tbody>   
+      <tr>   
+      <td role="rowheader">Data source (drop-down menu)</td>   
+      <td>Change the data source for the visualization to another table on the report canvas</td>   
+      </tr>   
+      <tr>   
+      <td role="rowheader">Show Data Source</td>   
+      <td>On the report canvas, show (enable) or hide (disable) the table that powers the visualization</td>   
+      </tr>   
+      </tbody>   
+      </table></li>   
+      -->
 
-     <!--  
-     <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>  
-     <table cellspacing="0">  
-     <col>  
-     <col>  
-     <tbody>  
-     <tr>  
-     <td role="rowheader">&nbsp;</td>  
-     <td>&nbsp;</td>  
-     </tr>  
-     <tr>  
-     <td role="rowheader">&nbsp;</td>  
-     <td>&nbsp;</td>  
-     </tr>  
-     <tr>  
-     <td role="rowheader">&nbsp;</td>  
-     <td>&nbsp;</td>  
-     </tr>  
-     </tbody>  
-     </table></li>  
-     -->
+      <!--   
+      <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>   
+      <table cellspacing="0">   
+      <col>   
+      <col>   
+      <tbody>   
+      <tr>   
+      <td role="rowheader">&nbsp;</td>   
+      <td>&nbsp;</td>   
+      </tr>   
+      <tr>   
+      <td role="rowheader">&nbsp;</td>   
+      <td>&nbsp;</td>   
+      </tr>   
+      <tr>   
+      <td role="rowheader">&nbsp;</td>   
+      <td>&nbsp;</td>   
+      </tr>   
+      </tbody>   
+      </table></li>   
+      -->
 
 1. Click anywhere outside the menu of visualizations settings to close it.
 

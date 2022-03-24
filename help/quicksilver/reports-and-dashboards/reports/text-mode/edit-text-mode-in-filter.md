@@ -63,8 +63,10 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Do one of the following:
 
-  1. To access the filter from a report, go to the report, then click&nbsp;**Report Actions** > **Edit** > **Filters** tab.
-  1. To access the filter from a list, go to the list and from the **Filter** drop-down menu, mouse over the filter that you want to modify and click the&nbsp;**Edit** icon ![](assets/edit-icon.png). The filter builder opens.
+   1. To access the filter from a report, go to the report, then click&nbsp;**Report Actions** > **Edit** > **Filters** tab.
+   1. To access the filter from a list, go to the list and from the **Filter** drop-down menu, mouse over the filter that you want to modify and click the&nbsp;**Edit** icon ![](assets/edit-icon.png).
+
+      The filter builder opens.
 
 1. Click&nbsp;**Add a Filter Rule** to start adding the conditions of your filter, then click&nbsp;**Switch to Text Mode** in the upper-right corner of the builder.
 1. Add filter statements using text mode. Each filter statement may contain the following lines and additional information:
@@ -98,14 +100,11 @@ For information about creating a report, see [Create a custom report](../../../r
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Statement operator. By default, each filter statement is connected by the "AND" operator. This does not display in the text mode interface. You can also add an "OR" operator between two statements to indicate that you want to filter for objects that can fulfill one or the other of two conditions.</p> <p>Filter operators are required only for filters that have more than one statement.</p> 
-       <div class="tips" data-mc-autonum="<b>Tips: </b>">
-        <span class="autonumber"><span><b>Tips: </b></span></span> 
+      <td> <p>Statement operator. By default, each filter statement is connected by the "AND" operator. This does not display in the text mode interface. You can also add an "OR" operator between two statements to indicate that you want to filter for objects that can fulfill one or the other of two conditions.</p> <p>Filter operators are required only for filters that have more than one statement.</p> <p>Tips:  
         <ul> 
          <li> <p>"OR" is case sensitive and must always be capitalized.</p> </li> 
          <li> <p>When you change your operator from&nbsp;AND&nbsp;to OR, the number of list items may increase.</p> </li> 
-        </ul> 
-       </div> </td> 
+        </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>">
         <span class="autonumber"><span><b>Example: </b></span></span> 
@@ -117,12 +116,7 @@ For information about creating a report, see [Create a custom report](../../../r
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>A wildcard which allows you to generalize the information in a filter and reference the current time or the user who is logged in.</p> <p>Wildcards are optional.</p> 
-       <div class="tips" data-mc-autonum="<b>Tips: </b>">
-        <span class="autonumber"><span><b>Tips: </b></span></span> 
-        <p>We recommend using wildcards whenever possible to make your filters more dynamic and not duplicate the same filters for each user or similar time frames.</p> 
-        <p>For information about filter wildcards, see <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a>.</p> 
-       </div> </td> 
+      <td> <p>A wildcard which allows you to generalize the information in a filter and reference the current time or the user who is logged in.</p> <p>Wildcards are optional.</p> <p>Tips:  <p>We recommend using wildcards whenever possible to make your filters more dynamic and not duplicate the same filters for each user or similar time frames.</p> <p>For information about filter wildcards, see <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>">
         <span class="autonumber"><span><b>Example: </b></span></span> 
@@ -136,21 +130,21 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. To add a filter statement connected by the "OR" operator, do the following:
 
-  1. Add a new line of code and type OR:1: followed by the object or attribute you wan to filter by and the value you want to compare it with. To reference tasks that are in any status except New, use the following line:
+   1. Add a new line of code and type OR:1: followed by the object or attribute you wan to filter by and the value you want to compare it with. To reference tasks that are in any status except New, use the following line:
 
-     ```  
-     OR:1:status=NEW
-     ```
+      ```   
+      OR:1:status=NEW
+      ```
 
-  1. Add a second line and type OR:1: followed by the object, the modifier, and the modifier code. To define the modifier for the line of code referencing all task statuses except for New, use the following modifier line:
+   1. Add a second line and type OR:1: followed by the object, the modifier, and the modifier code. To define the modifier for the line of code referencing all task statuses except for New, use the following modifier line:
 
-     ```  
-     OR:1:status_Mod=notin
-     ```
+      ```   
+      OR:1:status_Mod=notin
+      ```
 
-     Each line of the new statement must be preceded by "OR:<number>:".
+      Each line of the new statement must be preceded by "OR:<number>:".
 
-     For information about creating "OR" statements in a filter, see [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+      For information about creating "OR" statements in a filter, see [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
    >[!NOTE]
    >

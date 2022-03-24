@@ -44,10 +44,12 @@ You must have the following:
 ## Create a Routing Rule
 
 1. Go to the project which you want to add the routing rules for your requests. 
-1. More
-1. Queue Setup.
-1. Click the&nbsp;**Routing Rules**&nbsp;subtab.&nbsp; 
-1. Click **New Routing Rules**&nbsp;to add the new rule.&nbsp; ![](assets/7-350x75.png)
+1. Click **More**, then select **Queue Setup.**
+
+1. Click the&nbsp;**Routing Rules**&nbsp;subtab.&nbsp;
+1. Click **New Routing Rules**&nbsp;to add the new rule.&nbsp;
+
+   ![](assets/7-350x75.png)
 
 1. Specify the following information for the Routing Rule:
 

@@ -14,6 +14,8 @@ description: The project Condition is a visual representation of how the project
 
 The project Condition is a visual representation of how the project is progressing. It is a reportable variable determined by the relationship between the planned, projected, and estimated dates of the project.
 
+![](assets/project-header-with-new-condition-icon-350x37.png)
+
 ## Project Condition overview
 
 Consider the following in understanding the Condition of a project:
@@ -47,10 +49,10 @@ Consider the following in understanding the Condition of a project:
 <h2><a name="Set"></a>Set the Condition Type for a project</h2>
 <ol>
 <li value="1">Go to the project for which you want to update the Condition Type. </li>
-<li value="2"> <p>  Click <strong>Edit Project</strong>.  <br>  </p> </li>
+<li value="2"> <p>  Click <strong>Edit Project</strong>.  <br> <img src="assets/screen-shot-2013-05-07-at-12.12.32-pm-350x239.png" alt="" style="width: 350;height: 239;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="3">In the <strong>Condition Type</strong> field, choose one of the following:
 <ul>
-<li><p><strong>Manual:</strong> The project owner sets the Condition on the project manually.</p>In this case, the project owner can update the&nbsp;Condition of the project in the Project Details tab.</li>
+<li><p><strong>Manual:</strong> The project owner sets the Condition on the project manually.</p><p data-mc-conditions="QuicksilverOrClassic.Classic">In this case, the project owner can update the&nbsp;Condition of the project in the Project Details tab.</p></li>
 <li><p><strong>Progress Status:</strong> Workfront sets the Condition based on the Progress Status of the project. <br></p></li>
 </ul></li>
 <li value="4">Click <strong>Save Changes</strong>. </li>

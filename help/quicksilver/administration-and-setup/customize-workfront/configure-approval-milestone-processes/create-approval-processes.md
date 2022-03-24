@@ -61,7 +61,7 @@ You must have the following:
 1. (Conditional) If you are creating a system-level approval process, click **Processes** > **Approvals** 
 
    <!--
-   and Reviews
+   <span class="preview" style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">and Reviews</span>
    -->
 
    in the left panel.
@@ -70,10 +70,10 @@ You must have the following:
 
    If you are creating a group-level approval process, do the following:
 
-  1. In the left panel, click **Groups** ![](assets/groups-icon.png).
-  
-  1. Click the name of the group for which you want to list or manage group approval processes.
-  1. In the left panel, click **Approvals**. You might need to click&nbsp;**Show More** first.
+   1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+   
+   1. Click the name of the group for which you want to list or manage group approval processes.
+   1. In the left panel, click **Approvals**. You might need to click&nbsp;**Show More** first.
 
 1. Click the **Project Approvals**, **Task Approvals**, or **Issue Approvals** tab, depending on the type of approval process you want to create.
 
@@ -150,9 +150,9 @@ You must have the following:
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader"><strong>If Rejected</strong><!--
-         (in the Production environment)
+         <span style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(in the Production environment)</span>
         --> </p> <!--
-        <span style="font-weight: normal;"><span class="preview">or <strong>Choose what happens when the approval is rejected</strong> (in the Preview environment)</span></span> 
+        <p role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><span style="font-weight: normal;"><span class="preview">or <strong>Choose what happens when the approval is rejected</strong> (in the Preview environment)</span></span> </p>
        --> </td> 
       <td> <p>Select the action you want to take if the work item is rejected at any stage of the path:</p> 
        <ul> 
@@ -179,9 +179,9 @@ You must have the following:
 1. Click **Save**.
 1. Now that the approval process is created, continue with any of the following:
 
-  * Associate the approval process with specific projects, tasks, or issues throughout your system, as described in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-  * Outside of Workfront, notify users that the approval process is available for them to associate with their projects, tasks, or issues, as described in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-  * Create another approval process that is triggered if this approval process is rejected and the item takes on another status. This gives you a way to link approval processes together.
+   * Associate the approval process with specific projects, tasks, or issues throughout your system, as described in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Outside of Workfront, notify users that the approval process is available for them to associate with their projects, tasks, or issues, as described in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+   * Create another approval process that is triggered if this approval process is rejected and the item takes on another status. This gives you a way to link approval processes together.
 
 For information about editing an approval process, see [Edit an approval process](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 

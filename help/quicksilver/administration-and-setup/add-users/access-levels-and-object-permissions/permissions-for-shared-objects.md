@@ -1,10 +1,19 @@
-
+---
+filename: permissions-for-shared-objects
+user-type: administrator
+content-type: reference
+product-area: system-administration
+navigation-topic: access-levels
+title: Permissions for shared objects
+description: Anyone who can view an item in Adobe Workfront can grant other users permissions to that item when they share it, as described in Share a project in Adobe Workfront. Sharing permissions are specific to one item in Workfront and define what actions the recipient user or users can take on the item.
+hidefromtoc: true
+---
 
 # Permissions for shared objects
 
 Anyone who can view an item in Adobe Workfront can grant other users permissions to that item when they share it, as described in [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md). Sharing permissions are specific to one item in Workfront and define what actions the recipient user or users can take on the item.
 
-![](assets/permissions-drop-down-nwe-350x456.png)  
+![](assets/permissions-drop-down-nwe-350x456.png)
 
 ##  
 
@@ -37,7 +46,7 @@ The task of sharing an object is identical for all objects, as explained in [Ove
 * **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
 
 * **Programs** 
-* **Plans**: For information, see [Share a plan in the Adobe Workfront Scenario Planner](../../../scenario-planner/share-a-plan.md).
+* ```**Plans**: For information, see [Share a plan in the Adobe Workfront Scenario Planner](../../../scenario-planner/share-a-plan.md).```
 
 The following table illustrates the permission settings you can select from when sharing an object. Not all objects have all these settings available.
 
@@ -409,23 +418,25 @@ For more information about requesting permissions, see [Request access to object
 <td> <!--
 <p class="wysiwyg-text-align-center" data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
 --> </td>
-</tr>  <!--
-<th scope="row" style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>Plans*</span> </th>
+</tr>
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <!--
+<th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>Plans*</span> </th>
 --> <!--
-<td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>✓</span> </td>
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>✓</span> </td>
 --> <!--
-<td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
 --> <!--
-<td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
 --> <!--
-<td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
 --> <!--
-<td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
 --> <!--
-<td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
 --> <!--
-<td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
--->  
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
+-->
+</tr>
 </tbody>
 </table>
 -->

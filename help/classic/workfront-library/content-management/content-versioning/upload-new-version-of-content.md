@@ -13,7 +13,7 @@ If you have Manage permissions to content, you can upload new versions. For info
 
 You cannot upload new versions of content in bulk. Each version must be uploaded individually.
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the active (or current) version is located.
 

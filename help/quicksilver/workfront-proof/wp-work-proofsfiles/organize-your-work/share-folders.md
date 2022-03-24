@@ -34,9 +34,9 @@ You can also share items within a folder (rather than the folder itself). For mo
 1. Click **Share folder**.
 1. On the page that appears, do any of the following:
 
-  * Add users to the folder by typing in their email address (1).
-  * If you are sharing a private folder with a Manager, you can decide if you want them to be able to create, edit, and delete folder items by clicking an option under **Allow on folder**.
-  * If you change your mind, you can remove a user by hovering over the person's email address and clicking **Remove person** (the trash can icon that appears to the far right). You can remove all of the people you just added by hovering over their names, then clicking **Remove all people** (the top trash icon).
+   * Add users to the folder by typing in their email address (1).
+   * If you are sharing a private folder with a Manager, you can decide if you want them to be able to create, edit, and delete folder items by clicking an option under **Allow on folder**.
+   * If you change your mind, you can remove a user by hovering over the person's email address and clicking **Remove person** (the trash can icon that appears to the far right). You can remove all of the people you just added by hovering over their names, then clicking **Remove all people** (the top trash icon).
 
 1. When you are ready, click **Share folder**.  
 
@@ -55,9 +55,9 @@ You can also share items within a folder (rather than the folder itself). For mo
 
 1. On the page that appears, do any of the following:
 
-  * Add users to the folder by typing in their email address.
-  * If you are sharing a private folder with a Manager, you can decide if you want them to be able to create, edit, and delete folder items by clicking an option under **Allow on folder**.
-  * If you change your mind, you can remove a user by hovering over the person's email address and clicking **Remove person** (the trash can icon that appears to the far right). You can remove all of the people you just added by hovering over their names, then clicking **Remove all people** (the top trash icon).
+   * Add users to the folder by typing in their email address.
+   * If you are sharing a private folder with a Manager, you can decide if you want them to be able to create, edit, and delete folder items by clicking an option under **Allow on folder**.
+   * If you change your mind, you can remove a user by hovering over the person's email address and clicking **Remove person** (the trash can icon that appears to the far right). You can remove all of the people you just added by hovering over their names, then clicking **Remove all people** (the top trash icon).
 
 1. When you are ready, click **Share folder**.
 

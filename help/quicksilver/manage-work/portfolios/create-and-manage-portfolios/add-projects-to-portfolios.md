@@ -48,7 +48,9 @@ You must have the following access to perform the steps in this article:
 
 1. <![CDATA[ ]]>Go to a portfolio, then click **Projects** in the left panel.
 
-1. Click **New Project** and select a method for adding a project. 
+   ![](assets/qs-portfolio-with-projects-350x64.png)
+
+1. Click **New Project** and select a method for adding a project.
 
    >[!TIP]
    >

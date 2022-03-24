@@ -97,6 +97,8 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    * To edit all information about the task, either click the name of a task in the list, then click **Edit Task.**
 
+   ![](assets/et1-350x471.png)
+
    Or
 
    Select the task that you want to edit in the task list, then click **Edit.**
@@ -182,7 +184,8 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
          <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
          <p>Important: Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
          <p>To indicate the Duration of the task and the unit of time do the following:</p> 
-         <ul>  Type the length of time followed by the abbreviation for the unit of time.  
+         <ul> 
+          <li data-mc-conditions="QuicksilverOrClassic.Classic"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Type the length of time followed by the abbreviation for the unit of time.</p> </li> 
          </ul> 
          <p> You can choose from the regular time or elapsed time options in the following table: </p> 
          <table cellspacing="3"> 
@@ -401,7 +404,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
        <ul> 
         <li> <p>Only active approval processes display in the list. </p> </li> 
         <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list. </p> <p>Important:  If the group of the project changes, the group-specific approval process previously attached becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-        <li>  If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field.  </li> 
+        <li> <p data-mc-conditions="QuicksilverOrClassic.Classic"> If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. </p> </li> 
         <li> <p>You can define default approval processes to be automatically attached to tasks when the tasks are added to a project. For information about setting up the project to include default task approval processes, see the "Tasks" section in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. </p> </li> 
         <li> <p>When bulk-editing tasks, the following scenarios exist: </p> 
          <ul> 

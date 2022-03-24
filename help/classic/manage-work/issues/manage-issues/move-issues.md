@@ -64,9 +64,13 @@ You can move one or multiple issues from a list of issues or from an issue repor
 
    Go to an issue report.
 
-1. Issues
-1. 
+1. If you selected a project, click the **Issues** tab, then select the issue or issues you want to move in the list of issues.
+
+   ![](assets/ci1-350x154.png)
+
 1. Click the **More**&nbsp;drop-down menu at the top of the issue list, then click **Move** **to**.
+
+   ![](assets/mi2-350x175.png)
 
 1. The **Move Issue** or **Move Issues** box displays. 
 
@@ -84,7 +88,9 @@ You can move one or multiple issues from a list of issues or from an issue repor
 
 You can move one issue when viewing it.
 
-1. Go to an issue that you want to move, then click **Issue Actions** in the upper-right corner of the page, then click **Move**.  The **Move Issue** box displays. 
+1. Go to an issue that you want to move, then click **Issue Actions** in the upper-right corner of the page, then click **Move**.
+
+   The **Move Issue** box displays. 
 
 1. Specify&nbsp;the name of the project where you want to move the issues in the **Select Destination Project** section. The name of the current project displays by default.
 

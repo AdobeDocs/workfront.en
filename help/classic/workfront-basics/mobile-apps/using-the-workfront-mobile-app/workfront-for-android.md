@@ -72,9 +72,11 @@ The Projects area allows you to interact with and manage projects you own and pr
  </tbody> 
 </table>
 
-``` ```**Note: **`````` Users with a Worker license type can’t see Projects in the Mobile app.
-
-This limitation does not apply in the new Workfront experience. You can fully customize access for the mobile app per license type with the Layout Template.
+>[!NOTE]
+>
+>Users with a Worker license type can’t see Projects in the Mobile app.
+>
+>This limitation does not apply in the new Workfront experience. You can fully customize access for the mobile app per license type with the Layout Template.
 
 ![](assets/mobile-projects-adobe-346x615.png)
 

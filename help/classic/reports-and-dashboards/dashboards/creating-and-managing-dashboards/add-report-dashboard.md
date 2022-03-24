@@ -51,7 +51,7 @@ For information on creating a report, see [Create a report](../../../reports-and
 1. Click the **Report Actions** drop-down menu.
 1. Click **Add to Dashboard**. A maximum of 10 recently modified dashboards—owned by the logged-in user—appear in order of newest to oldest.
 1. Select the dashboard that you want to add your report to.  
-  
+   ![](assets/add-report-to-dashboard-350x271.png)  
    After you select the dashboard, you can add the report as if you are editing that dashboard.
 
 ## Add a report to a new dashboard

@@ -96,13 +96,13 @@ You can create personal tasks in Adobe Workfront from Microsoft Teams if the fol
    </MadCap:conditionalText>
    -->
 
-  * Click **What can I do?**, then **Log in** or **Lot out** of Workfront, create a **New task** (personal task) in Workfront, or get **Help** by listing available commands.
-  
-  * Access Workfront directly by typing a command in the **Type your questions here** field.
+   * Click **What can I do?**, then **Log in** or **Lot out** of Workfront, create a **New task** (personal task) in Workfront, or get **Help** by listing available commands.
+   
+   * Access Workfront directly by typing a command in the **Type your questions here** field.
 
-    Commands are not case sensitive.
+     Commands are not case sensitive.
 
-    The Workfront bot responds with your request in the Workfront bot chat channel.
+     The Workfront bot responds with your request in the Workfront bot chat channel.
 
 ## Access Workfront from a team channel
 
@@ -117,15 +117,15 @@ You can create personal tasks in Adobe Workfront from Microsoft Teams if the fol
 1. Type any of the following commands to perform these actions in Workfront.   
    Commands are not case sensitive:
 
-  * **Log in** to log in to Workfront
-  * **Log out** to log out of Workfront
-  * **New task** to create a new personal task
+   * **Log in** to log in to Workfront
+   * **Log out** to log out of Workfront
+   * **New task** to create a new personal task
 
-    For information about creating new tasks from Microsoft Teams, see [Create Adobe Workfront tasks from Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
-  
-  * **Help** to view a list of all available commands.
+     For information about creating new tasks from Microsoft Teams, see [Create Adobe Workfront tasks from Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+   
+   * **Help** to view a list of all available commands.
 
-    The Workfront bot responds with your request in the Workfront bot chat channel.
+     The Workfront bot responds with your request in the Workfront bot chat channel.
 
 1. Go to the Workfront bot chat channel to access Workfront and complete your request.
 

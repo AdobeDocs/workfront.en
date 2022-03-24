@@ -82,13 +82,13 @@ To apply this view:
 1. Type a name for the view, then click **Save View**.
 1. (Optional) To ensure you display only documents with proofs, add a filter by doing the following:
 
-  1. Click the **Filter** drop-down menu, then click **New Filter**.
-  1. Click **Add a Filter Rule** and start typing Current Version, then select **Current Version Proof ID** when it displays in the list.
-  1. Select **Is Not Blank** for the filter modifier.
+   1. Click the **Filter** drop-down menu, then click **New Filter**.
+   1. Click **Add a Filter Rule** and start typing Current Version, then select **Current Version Proof ID** when it displays in the list.
+   1. Select **Is Not Blank** for the filter modifier.
 
-     ![](assets/filter-current-version-proof-id-not-blank-350x67.png)
+      ![](assets/filter-current-version-proof-id-not-blank-350x67.png)
 
-  1. Click **Save Filter**, type the name of the filter, then click&nbsp;**Save Filter**.
+   1. Click **Save Filter**, type the name of the filter, then click&nbsp;**Save Filter**.
 
 1. Click the link in the Proof Link column to access the proof of the last version of the document.
 

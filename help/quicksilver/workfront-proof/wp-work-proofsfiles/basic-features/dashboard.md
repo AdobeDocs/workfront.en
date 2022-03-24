@@ -83,12 +83,12 @@ To open the New menu,
 
    The **New** menu has the following options:
 
-  * New Proof (8) 
-  * Upload file (9) 
-  * New folder (10) 
-  * New guest (11) 
-  * New user (12) 
-  * New group (13)
+   * New Proof (8) 
+   * Upload file (9) 
+   * New folder (10) 
+   * New guest (11) 
+   * New user (12) 
+   * New group (13)
 
 ![](assets/new-proof-350x256.png)
 

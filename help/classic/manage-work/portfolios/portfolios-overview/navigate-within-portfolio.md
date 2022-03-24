@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
    * **All** **Portfolios** : Includes all portfolios for which you have at least access to View.  
      For more information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).  
      For more information about permissions to Portfolios, see&nbsp; [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).  
-  
+     ![portfolio_list.png](assets/portfolio-list-350x193.png)  
      To add new portfolios, see [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 1. Click the name of a portfolio to access it.  
@@ -62,7 +62,8 @@ You must have the following access to perform the steps in this article:
    * Whether the portfolio is On Budget
    * The Return on Investment (ROI)
    * The portfolio Alignment
-   * The portfolio Net Value
+   * The portfolio Net Value  
+     ![portfolio_details_info.png](assets/portfolio-details-info-350x105.png)
 
 1. (Optional) Select the **Projects** tab to view projects associated with the selected portfolio, then select any of the following sub-tabs:&nbsp;
 

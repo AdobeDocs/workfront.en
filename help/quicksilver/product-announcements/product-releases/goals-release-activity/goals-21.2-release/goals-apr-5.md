@@ -27,15 +27,15 @@ You can now do the following to see goal information in reports:
 
 * Create a Goal report. This is a new reporting object in the Reports area. You can now display various information about the goal on the Goal report (for example: name, owner, dates, progress, etc) which includes the following:
 
-  * Goal Hierarchy: displays all parent goals and how they connect to each other.
-  * Is Company Goal: indicates whether your organization is designated as the Owner of a goal
-  * Owner Type: indicates whether the Owner of a goal is a user, team, or group.
+   * Goal Hierarchy: displays all parent goals and how they connect to each other.
+   * Is Company Goal: indicates whether your organization is designated as the Owner of a goal
+   * Owner Type: indicates whether the Owner of a goal is a user, team, or group.
 
 * Create a Project report that displays goal information, including the following:
 
-  * Goal Hierarchy
-  * Goals: this is a collection field that displays all goals that are associated with a project.
-  * Number of linked goals: the number of goals associated with the project.
+   * Goal Hierarchy
+   * Goals: this is a collection field that displays all goals that are associated with a project.
+   * Number of linked goals: the number of goals associated with the project.
 
 For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 

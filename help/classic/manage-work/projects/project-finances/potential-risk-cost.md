@@ -32,6 +32,8 @@ You can find the Risks for a project and their Potential Cost in the following a
 * In the Business Case Summary.  
   For more information about the Business Case of a project, see the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
+  ![](assets/prc-350x161.png)
+
 * In a project report when you add the Planned Risk Cost field to the columns of the report.  
   For more information about building reports in Workfront, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

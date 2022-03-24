@@ -36,4 +36,4 @@ This section contains the following articles:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</li>
   -->
 
-For in-depth training on reports, see Learning Path for reports and dashboards.
+For in-depth training on reports, see [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).

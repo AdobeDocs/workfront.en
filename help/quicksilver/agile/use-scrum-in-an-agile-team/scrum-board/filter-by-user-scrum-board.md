@@ -39,11 +39,10 @@ You must have the following access to perform the steps in this article:
 
 ## Filter by user on the scrum board
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+
 1. Navigate to an active iteration.
 1. Click the Filter drop-down menu on the right side of the scrum board.
 1. Select the name of the user or **Unassigned**.
@@ -51,4 +50,6 @@ You must have the following access to perform the steps in this article:
 >[!NOTE]
 >
 >The column totals do not change based on the filtered results. Column totals display the totals for all work items on the board.
+
+![Filter by user](assets/filter-by-user-agile-nwe.png)
 

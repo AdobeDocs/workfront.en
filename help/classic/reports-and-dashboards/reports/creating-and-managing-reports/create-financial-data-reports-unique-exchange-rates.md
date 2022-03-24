@@ -67,6 +67,8 @@ To convert financial values between currencies when working with reports:
 
    Using this option allows you to quickly convert financial values in a report between rate values.
 
+   ![](assets/project-list-with-currecy-view-changer-350x134.png)
+
    <!--
    <note type="tip">
    You can also select the Change Currency option to convert financial values in other lists.
@@ -87,6 +89,8 @@ When you customize the currency at the project level and you want to display inf
 To display two projects with custom currencies in a report:
 
 1. Create two projects with different currencies applied.
+
+   ![](assets/project-currency-350x290.png)
 
 1. Log hours on both projects.
 
@@ -110,7 +114,11 @@ To display two projects with custom currencies in a report:
 
    The total of the **Actual Cost** is displayed in the Grouping using the system default currency, regardless of the currency of the projects in the report.
 
+   ![](assets/screenshot-2016-06-14-12.19.08-350x184.png)
+
    If the two projects have different currencies from one another, the system default currency also displays in the Grouping of the report.
+
+   ![multiple_currency_projects.png](assets/multiple-currency-projects-350x93.png)
 
 ## Display the Project Currency in a report at the project level
 
@@ -132,6 +140,8 @@ If a grouping is applied on a task or hour list within a project, the sums in th
 1. Expand the **Grouping** drop-down menu and select **New Grouping**.
 1. Add **Actual Completion Date** in the new grouping as a new field, then click **Save Grouping**.
 
+   ![](assets/screenshot-2016-06-14-11.43.16-350x228.png)
+
    The **Actual Cost** column summarizes in the new Grouping and displays the total in the currency of the project.
 
 ## Edit reports with unique currencies
@@ -150,6 +160,8 @@ To in-line edit a financial field in a report:
 1. Click **Report Actions**, then select **Edit**.
 1. Click **Report Settings**.
 1. Click the **Default Currency** drop-down, then select **Project's Original Currency**.
+
+   ![](assets/screenshot-2016-06-14-14.07.54-350x332.png)
 
 1. Click **Done**.
 

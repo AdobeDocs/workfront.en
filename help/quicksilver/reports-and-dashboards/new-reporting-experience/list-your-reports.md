@@ -70,15 +70,15 @@ For more information, see [link to Beta enrollment info].
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Add info and steps here about how to use the 2 levels of tags:</p>
    -->
 
-  * 
-  
-    <!--  
-    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Personal tags that are visible only to an individual users </p>  
-    -->  
-  
-  * 
-  
-    <!--  
-    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Admin tags that everyone can see and use</p>  
-    -->
+   * 
+   
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Personal tags that are visible only to an individual users </p>   
+     -->   
+   
+   * 
+   
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Admin tags that everyone can see and use</p>   
+     -->
 

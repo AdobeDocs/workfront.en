@@ -30,7 +30,7 @@ You can view the recent activity for a given proof.&nbsp;This includes all activ
 1. For information about proof progress, see&nbsp; [View the Progress and Status of a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 1. Click&nbsp;**Proof activity**to view the following information:
 
-  * **Date**:&nbsp;The time and date the action took place.
-  * **Action**:&nbsp;The action that occurred on the proof.&nbsp;
-  * **Details**:&nbsp;The user who performed the action.
+   * **Date**:&nbsp;The time and date the action took place.
+   * **Action**:&nbsp;The action that occurred on the proof.&nbsp;
+   * **Details**:&nbsp;The user who performed the action.
 

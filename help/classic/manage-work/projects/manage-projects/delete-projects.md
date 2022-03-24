@@ -104,8 +104,11 @@ You can delete projects from a list of projects.
 
 1. Go to a list of projects or a project report.
 1. Select the project you want to delete, then click **Delete** at the top of the list.  
+   ![project_delete.png](assets/project-delete-350x184.png)
 
 1. Click **Yes, Delete It** to confirm the deletion.&nbsp;
+
+   ![project_delete_confirmation.png](assets/project-delete-confirmation-350x179.png)
 
    The project is deleted and stored in the Recycle Bin for 30 days. Your Workfront administrator can restore it from the Recycle Bin during this time.
 
@@ -115,7 +118,11 @@ You can delete projects from a list of projects.
 1. Click **Project Actions**.&nbsp;
 1. Click&nbsp;**Delete** **Project****.**
 
+   ![](assets/screen-shot-2013-09-10-at-9.27.56-am-350x290.png)
+
 1. Click **Yes,****Delete it**. &nbsp;
+
+   ![Screen_Shot_2017-05-03_at_10.27.51_AM.png](assets/screen-shot-2017-05-03-at-10.27.51-am-350x209.png)
 
    The project is deleted and stored in the Recycle Bin for 30 days. Your Workfront administrator can restore it from the Recycle Bin during this time.
 

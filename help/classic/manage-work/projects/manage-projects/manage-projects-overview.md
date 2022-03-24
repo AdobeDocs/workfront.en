@@ -23,7 +23,7 @@ This section contains the following articles:
 * [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md) 
 * [Require time to be approved for a project](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md) 
 * [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) 
-* Overview of the Portfolio subtab of a Project
+* [Overview of the Portfolio subtab of a Project](../../../manage-work/projects/manage-projects/the-portfolio-subtab-of-a-project.md) 
 * [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) 
 * [Set the Condition Type of a project](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md) 
 * [Remove users from projects](../../../manage-work/projects/manage-projects/remove-users-from-projects.md) 
@@ -33,7 +33,7 @@ This section contains the following articles:
 * [Project limits overview](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-maximums.md)
 
   <!--
-  <a href="../../../manage-work/projects/manage-projects/work-in-legacy-team-builder.md" class="MCXref xref" xrefformat="{para}">Work in the Legacy Team Builder</a>
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/manage-projects/work-in-legacy-team-builder.md" class="MCXref xref" xrefformat="{para}">Work in the Legacy Team Builder</a> </li>
   -->
 
 * Overview of project metrics

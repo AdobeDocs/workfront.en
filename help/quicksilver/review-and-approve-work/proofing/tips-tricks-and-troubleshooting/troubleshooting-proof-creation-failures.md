@@ -40,11 +40,11 @@ The proof creation process includes both importing and proof generation. Occasio
 
 * When proofing PDF files, reasons for proof generation failure include:
 
-  * Fonts and images are&nbsp;linked from outside sources (such as from your local file system)
+   * Fonts and images are&nbsp;linked from outside sources (such as from your local file system)
 
-    Fonts and images must be embedded in the PDF file in order to display on another computer&nbsp;or within Workfront Proof.
-  
-  * Your PDF file contains empty layers or transparent or overlapping fields.
+     Fonts and images must be embedded in the PDF file in order to display on another computer&nbsp;or within Workfront Proof.
+   
+   * Your PDF file contains empty layers or transparent or overlapping fields.
 
-    If you're not able to determine which layer or object causes this, export the design/document as an optimized PDF (this removes all the unwanted elements).
+     If you're not able to determine which layer or object causes this, export the design/document as an optimized PDF (this removes all the unwanted elements).
 

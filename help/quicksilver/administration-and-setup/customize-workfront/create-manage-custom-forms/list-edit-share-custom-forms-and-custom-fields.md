@@ -39,10 +39,10 @@ You must have the following to perform the steps in this article:
 
    For information about what you can do when you select a custom form in the list, see the following articles:
 
-  * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 
-  * [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) 
-  * [Copy a custom form to create a new one](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md) 
-  * [Delete or deactivate a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+   * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 
+   * [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) 
+   * [Copy a custom form to create a new one](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md) 
+   * [Delete or deactivate a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. Click the **Fields** tab.
 
@@ -50,10 +50,10 @@ You must have the following to perform the steps in this article:
 
    The list contains only fields that meet at least one of the following criteria:
 
-  * Editable system-wide
-  * Visible system-wide
-  * Created by you
-  * Shared with you, with either View or Manage access
+   * Editable system-wide
+   * Visible system-wide
+   * Created by you
+   * Shared with you, with either View or Manage access
 
    >[!NOTE]
    >
@@ -61,9 +61,9 @@ You must have the following to perform the steps in this article:
 
    For information about what you can do when you select a custom field in the list, see the following articles:
 
-  * [Edit a custom field or image widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) 
-  * [Configure sharing for a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md) 
-  * [Delete a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+   * [Edit a custom field or image widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) 
+   * [Configure sharing for a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md) 
+   * [Delete a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. Select the **Sections** tab.
 

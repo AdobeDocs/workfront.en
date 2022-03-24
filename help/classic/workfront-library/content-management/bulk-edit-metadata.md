@@ -17,7 +17,7 @@ To bulk edit metadata:
 
    ![](assets/workfront-library-icon-350x186.jpg)
 
-   In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+   In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. Select the area where the asset is located:

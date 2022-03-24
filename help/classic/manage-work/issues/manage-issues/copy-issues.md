@@ -68,9 +68,13 @@ You can copy one or multiple issues from a list of issues or from an issue repor
 
    Go to an issue report.
 
-1. Issues
-1. 
+1. If you selected a project, click the **Issues** tab, then select the issue or issues you want to copy.
+
+   ![](assets/ci1-350x154.png)
+
 1. Click the **More**&nbsp;drop-down menu at the top of the issue list, then click **Copy** **to**.
+
+   ![](assets/ci2-350x143.png)
 
    The **Copy Issue** or **Copy Issues** box displays. 
 
@@ -80,13 +84,17 @@ You can copy one or multiple issues from a list of issues or from an issue repor
    >
    >Only 50 projects display in the list.
 
+   ![](assets/ci3-350x203.png)
+
 1. Continue copying the issue as described in the section [Copy a single issue](#copy5) in this article, starting with Step 3.
 
 ## Copy a single issue
 
 You can copy one issue when viewing it.
 
-1. Go to an issue that you want to copy, then click **Issue Actions** in the upper-right corner of the page, then click **Copy**.  The **Copy Issue** box displays. 
+1. Go to an issue that you want to copy, then click **Issue Actions** in the upper-right corner of the page, then click **Copy**.
+
+   The **Copy Issue** box displays. 
 
 1. Specify&nbsp;the name of the project where you want to copy&nbsp;the issues in the **Select Destination Project** section. The name of the current project displays by default. 
 1. Click **Next Step**.
@@ -111,6 +119,8 @@ You can copy one issue when viewing it.
    Or
 
    Click**Finish and Copy Issues** when you copy multiple issues in a list.
+
+   ![](assets/ci1-350x154.png)
 
    The copied issue is added to the specified project.&nbsp;
 

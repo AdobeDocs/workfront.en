@@ -5,7 +5,7 @@
 In a custom form, if you need to limit access to custom fields
 
 <!--
-or image widgets
+<span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> or image widgets</span>
 -->
 
 for certain users, you can place them under a section break, and then grant only certain users access to the section.
@@ -90,16 +90,16 @@ You must have the following to perform the steps in this article:
           <!--
            <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Use if production/ifpreview structure when stories release</span>
           --><b>In order to VIEW this section, people must have permission to</b><!--
-           Users with the following access to the object can view the section
+           <span class="preview" style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Users with the following access to the object can view the section</span>
           --> </p> 
          <ul> 
           <li><strong>View</strong>: The user needs View permissions to the object in order to view the section.</li> 
           <li><b>Contribute
             <!--
-             Limited Edit
+             <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Limited Edit</span>
             --></b>: (Available only if the object is a project, task, issue, or user) The user needs Contribute permissions to the object in order to view the section.</li> 
           <li><strong>Manage</strong><!--
-            Edit
+            <b class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">Edit</b>
            -->: The user needs Manage permissions to the object to be able to view this section.</li> 
           <li> <p><strong>Admin only</strong>: Only Workfront administrators can see this section.</p> <p>Note: Users without the permissions you specify here can't see the values of the fields<!--
               and image widgets 
@@ -109,22 +109,21 @@ You must have the following to perform the steps in this article:
           <!--
            <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Use if production/ifpreview structure when stories release</span>
           --><b>In order to EDIT this section, people must have permission to</b><!--
-           Users with the following access to the object can edit field values in the section
+           <span class="preview" style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">Users with the following access to the object can edit field values in the section</span>
           --> </p> 
          <ul> 
           <li><b>Contribute
             <!--
-             Limited Edit
+             <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Limited Edit</span>
             --></b>: (Available only if the object is a project, task, issue, or user) The user needs Contribute permissions to the object in order to edit field values in the section.</li> 
           <li><![CDATA[
        ]]><b><strong>Manage</strong>
             <!--
-             Edit
+             <b class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">Edit</b>
             --></b>: The user needs Manage permissions to the object to be able to edit field values in this section. </li> 
           <li><b>Admin only</b>: Only Workfront administrators can edit field values in this section. </li> 
          </ul> </li> <!--
-         Associating multiple object types with your form can impact the viewing and editing permissions you configure for a section in the form. For more information, see 
-         <a href="#section" class="MCXref xref">How multiple object types can affect a form's section breaks</a> in this article.
+         <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Associating multiple object types with your form can impact the viewing and editing permissions you configure for a section in the form. For more information, see <a href="#section" class="MCXref xref">How multiple object types can affect a form's section breaks</a> in this article.</p>
         --> 
        </ul> </td> 
      </tr> 
@@ -149,24 +148,25 @@ You must have the following to perform the steps in this article:
 
 1. If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-  * [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2) 
-  * [Reuse an existing custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
+   * [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2) 
+   * [Reuse an existing custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
 
-    <!--  
-    <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a>  
-    -->  
-  
-  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-  * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
-  * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-  * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a> </li>   
+     -->   
+   
+   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
+   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
 
 <!--
+<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
 <h2>Limit access to custom fields<!--
-and image widgets
+<span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> and image widgets</span>
 --> that are not placed under a section break</h2>
 <p>If you want to limit access for certain users on all fields<!--
-and image widgets
+<span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> and image widgets</span>
 --> that are not placed under a section break, you can do so on the Form Settings tab. </p>
 <ol>
 <li value="1">Begin creating or editing a custom form, as described in <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li>
@@ -219,7 +219,7 @@ You can click
 <ul>
 <li><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2" class="MCXref xref">Add a custom field to a custom form</a> </li>
 <li><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md" class="MCXref xref">Reuse an existing custom field</a> </li> <!--
-<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a>
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a> </li>
 -->
 <li><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md" class="MCXref xref">Position fields and widgets in a custom form</a> </li>
 <li><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Add calculated data to a custom form</a> </li>
@@ -227,9 +227,11 @@ You can click
 <li><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Display logic and skip logic on a custom form</a> </li>
 </ul> </li>
 </ol>
+</div>
 -->
 
 <!--
+<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
 <h2><a name="Section"></a>How multiple object types can affect a form's section breaks</h2>
 <p>Some section break access settings are available only for certain object types. If you add an object type to a custom form that contains a section break, you might be prompted to switch to an access setting for the section break that is compatible with the new object type you are adding as well as the existing object types on the form. </p>
 <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span>
@@ -237,6 +239,7 @@ You can click
 <p>Imagine a custom form associated with the Project object type, with Limited Edit selected for a section break in the form. </p>
 <p>If you were to add the Portfolio object type to the form, the Limited Edit permission option would no longer be available for the section break in the form. </p>
 <p>An on-screen message would prompt you to choose the Edit option instead, because it is the most similar option to Limited Edit and it is compatible with both the Project object type and the Portfolio object type. </p>
+</div>
 </div>
 -->
 

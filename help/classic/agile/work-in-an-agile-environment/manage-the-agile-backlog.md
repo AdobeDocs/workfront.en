@@ -107,11 +107,11 @@ When you create a story from the backlog, the story is created as a task or issu
 
 To create a story from the backlog:
 
-1. People
-1. Teams
-1. Backlog
-1. 
-1. 
+1. Click **People**&nbsp;in the Global Navigation bar.
+1. Click the **Teams**&nbsp;tab, then select the agile team from the drop-down list for which you want to view the backlog.
+1. Click the **Backlog** tab.  
+   ![backlog_list.png](assets/backlog-list-350x149.png)
+
 1. Do either of the following, depending on whether you want to create a task or an issue:
 
    * **To create a task:** Click the **Stories** tab.

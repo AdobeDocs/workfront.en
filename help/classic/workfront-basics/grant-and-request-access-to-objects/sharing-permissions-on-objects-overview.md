@@ -126,21 +126,18 @@ The following table illustrates the level of permissions that you can select whe
 <li value="1">Go to the object you want to share. <p>For information about which objects can be shared, see the <a href="#sharing" class="MCXref xref">Share limitations</a> section this article. </p></li>
 <li value="2">Do either&nbsp;of the following, depending on the type of object you are sharing:<br>
 <ul>
-<span>When sharing a project, task, issue, report, dashboard, </span>or<span> calendar, </span>click the <strong>Actions</strong> menu, then click&nbsp;<strong>Sharing.</strong>
-<br>For example, if you are sharing a project, click <strong>Project Actions</strong>, then<strong>Sharing.</strong>
-<br>
-<img src="assets/screen-shot-2013-12-04-at-1.07.49-pm.png" alt="">
+<li data-mc-conditions="QuicksilverOrClassic.Classic"><span>When sharing a project, task, issue, report, dashboard, </span>or<span> calendar, </span>click the <strong>Actions</strong> menu, then click&nbsp;<strong>Sharing.</strong><br>For example, if you are sharing a project, click <strong>Project Actions</strong>, then<strong>Sharing.</strong><br><img src="assets/screen-shot-2013-12-04-at-1.07.49-pm.png" alt=""></li>
 <li><span>When sharing a document that does not contain a proof,</span> select the document that you want to share, then click <strong>Share</strong>&nbsp;> <strong>Document</strong>.<br><note type="tip">
 You can share multiple documents at the same time by holding the Shift key to select multiple documents, then clicking
 <strong>Share</strong>.
-</note><br></li>
+</note><br><img src="assets/sharing-document-350x193.png" alt="" style="width: 350;height: 193;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
 <li><span>When sharing a proof link, </span>select the document that contains the proof, then click <strong>Share</strong> > <strong>Proof Link</strong>.<br>For more information about sharing a proof (either by sharing a link or by adding users to a proof), see <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md" class="MCXref xref">Share a proof within Adobe Workfront</a>.</li>
 </ul></li>
 <li value="3"> <p>In the <strong>Give <Object Name> access to</strong>&nbsp;field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list. </p> <p>For example, if you are sharing a project, use the <strong>Give project access to</strong>&nbsp;field.<br>If you have multiple entities named similarly, they should all be listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random. Select the one with which you want to share the project.&nbsp;</p> <note type="tip">
 You can share an object only with active users, teams,
 <span>roles,</span> or companies.
 </note> </li>
-<li value="4"> <p>(Optional) Repeat step 3 for each user, team, role, or group who you want to grant access to the object. </p>  <img src="assets/screen-shot-2013-12-04-at-1.08.37-pm-350x395.png" alt="" style="width: 350;height: 395;">  </li>
+<li value="4"> <p>(Optional) Repeat step 3 for each user, team, role, or group who you want to grant access to the object. </p> <p data-mc-conditions="QuicksilverOrClassic.Classic"> <img src="assets/screen-shot-2013-12-04-at-1.08.37-pm-350x395.png" alt="" style="width: 350;height: 395;"> </p> </li>
 <li value="5">Specify the permissions for each user, team, role,&nbsp;group, or company that you added in Step 3 by clicking&nbsp;the drop-down menu, then selecting the permission level that you want to grant. <p>The following options are available:</p>
 <ul>
 <li><p><strong>View:</strong>&nbsp;Users can&nbsp;review and share&nbsp;the item.&nbsp;</p></li>
@@ -162,7 +159,7 @@ You can share an object only with active users, teams,
 </note></p><p>&nbsp;</p><p><img src="assets/screen-shot-2013-12-04-at-1.13.11-pm.png" alt=""></p><p>&nbsp;</p></li>
 </ul></li>
 <li value="6">(Optional) Click <strong>Advanced Options</strong>&nbsp;to configure specific permissions&nbsp;on the object. <p>View, Manage and Contribute have different advanced options depending on the the object and permission selected.<br>For more information about the permissions levels, see the <a href="#sharing" class="MCXref xref">Share limitations</a> section in this article. </p><p><img src="assets/screen-shot-2013-12-04-at-1.14.11-pm.png" alt=""></p></li>
-<li value="7">(Optional)&nbsp;To make this object available to all users in the system, click the <strong>Gear</strong> icon<img src="assets/gear-icon-settings-with-dn-arrow.jpg"> , then in the drop-down menu click <strong>Make this visible system-wide</strong>. <p>All users can&nbsp;see the object based on the permissions that you set.</p></li>
+<li value="7">(Optional)&nbsp;To make this object available to all users in the system, click the <strong>Gear</strong> icon<img src="assets/gear-icon-settings-with-dn-arrow.jpg"> , then in the drop-down menu click <strong>Make this visible system-wide</strong>. <p>All users can&nbsp;see the object based on the permissions that you set.</p><img src="assets/sharing-systemwide-350x170.png" alt="" style="width: 350;height: 170;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
 <li value="8">(Optional) When sharing a project, click the <strong>Gear</strong> icon <img src="assets/gear-icon-settings-with-dn-arrow.jpg">, then in the drop-down menu click <strong>Set as my project access template</strong>&nbsp;to set the permissions as a template.<br>After you have defined permissions on one project, these same permissions are automatically applied the next time you create a project from scratch.<br><note type="note">
 The project access template overrides the sharing defaults granted to you by the Workfront administrator in your Access Level.
 <br>For more information about specifying sharing defaults for projects in the Access Level, see
@@ -236,7 +233,7 @@ If you want to grant lower permissions to a user who is already part of an organ
 <ol>
 <li value="1">Navigate to an object on which you want to modify the permissions.</li>
 <li value="2">Click the <strong>Actions</strong> menu, then click <strong>Sharing</strong>.<br>For example, on a project, click <strong>Project Actions</strong>, then <strong>Sharing</strong>.&nbsp;</li>
-<li value="3">Click the <strong>x</strong> next to the name of a user, team, group, company, job role to remove them.<br></li>
+<li value="3">Click the <strong>x</strong> next to the name of a user, team, group, company, job role to remove them.<br><img src="assets/screen-shot-2014-05-29-at-3.52.44-pm-350x370.png" alt="" style="width: 350;height: 370;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
 <li value="4">In the <strong><User Name>'s Workfront access will be removed from this</strong> drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.<br>The following scenarios exist:
 <ul>
 <li>If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they are granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;</li>
@@ -250,7 +247,7 @@ If you want to grant lower permissions to a user who is already part of an organ
 <ol>
 <li value="1">Navigate to an object to which you have Manage permissions. <br>For example, navigate to a task.</li>
 <li value="2">Go to the sharing list as described in the <a href="#share" class="MCXref xref"></a> section in this article. </li>
-<li value="3">Select the <strong>X</strong>&nbsp;mark next to <strong>Inherited Permission</strong>&nbsp;on the sharing box to remove&nbsp;anyone listed there.<br><br>This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list&nbsp; individual entities in the sharing list of the task to grant permissions on the task.<br><note type="note">
+<li value="3">Select the <strong>X</strong>&nbsp;mark next to <strong>Inherited Permission</strong>&nbsp;on the sharing box to remove&nbsp;anyone listed there.<br><img src="assets/inherited-permissions-350x380.png" alt="" style="width: 350;height: 380;" data-mc-conditions="QuicksilverOrClassic.Classic"><br>This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list&nbsp; individual entities in the sharing list of the task to grant permissions on the task.<br><note type="note">
 You cannot remove individual entities from the Inherited Permissions list. You can only disable the Inherited Permissions for all entities listed.
 </note></li>
 <li value="4">Click <strong>Save</strong>.&nbsp;</li>
@@ -261,7 +258,7 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 <p>To make an object private:</p>
 <ol>
 <li value="1">Go to the object you want to make private.<br>For example, navigate to a report.</li>
-<li value="2">Click <strong>Report Actions</strong>, then <strong>Sharing</strong>.<br><br></li>
+<li value="2">Click <strong>Report Actions</strong>, then <strong>Sharing</strong>.<br><img src="assets/make-report-private-2-350x368.png" alt="make_report_private_2.png" style="width: 350;height: 368;" data-mc-conditions="QuicksilverOrClassic.Classic"><br></li>
 <li value="3">Click <strong>Remove public access</strong> to remove the access of external users to viewing the report.</li>
 <li value="4">Click <strong>Remove system-wide access</strong> to stop sharing it with all Workfront users.&nbsp;</li>
 <li value="5">Click <strong>Save</strong>.</li>

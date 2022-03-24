@@ -51,9 +51,9 @@ You can search the comment list for text contained in the comment itself, commen
 
 1. Begin typing either of the following:
 
-  * The text you want to search for. The comment list filters as you type, beginning with the first character&nbsp;you enter.
-  * The number of the comment you want to display.
-  * The user who made the comment.
+   * The text you want to search for. The comment list filters as you type, beginning with the first character&nbsp;you enter.
+   * The number of the comment you want to display.
+   * The user who made the comment.
 
 1. (Optional) Click the comment to display a line connecting the comment to the related area on the proof.
 1. When you are finished searching and you want to display all the comments, click the X at the end of the search box.

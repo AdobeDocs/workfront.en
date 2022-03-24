@@ -90,6 +90,8 @@ In addition to creating and editing risks in the Business Case, you can do so us
 1. Go to the project you want to create risks for.
 1. Select the **Risks** tab.
 
+   ![](assets/crp2-350x87.png)
+
 1. Click **Start Adding Risks** and create risks by in-line editing their information.
 
    Or
@@ -141,6 +143,8 @@ To edit risks:
    >You are applying the same information to all the risks selected, when you edit multiple risks at the same time. The information associated with each risk prior to your changes is overwritten in a bulk edit.
 
 1. If you have clicked **Edit**, the **Edit Risk** dialog box opens.
+
+   ![edit_risks.png](assets/edit-risks-350x486.png)
 
    Consider editing the following fields:
 

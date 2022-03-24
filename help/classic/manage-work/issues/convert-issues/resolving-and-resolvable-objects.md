@@ -85,7 +85,7 @@ For more information about converting issues to tasks and projects, see [Overvie
 <ol>
 <li value="1">Navigate to an issue whose resolution you want to tie to a task or a project.</li>
 <li value="2"> <p> Select the <strong>Issue Details</strong> tab. </p> </li>
-<li value="3"> Click <strong>Edit Overview</strong>. </li>
+<li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Edit Overview</strong>.</p> </li>
 <li value="4">At the bottom of the form, in the <strong>Resolved By</strong> field, select from the following types of resolving objects:
 <ul>
 <li><strong>Project</strong></li>

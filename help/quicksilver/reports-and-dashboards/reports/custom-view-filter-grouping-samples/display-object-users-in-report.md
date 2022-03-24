@@ -66,6 +66,8 @@ You can filter by the users, job roles, or teams assigned to tasks by referencin
 * Assignment Roles
 * Team
 
+![](assets/assignment-users-roles-task-filter-350x334.png)
+
 ## Display all users, job roles, or teams assigned to an issue
 
 You can display all users, roles, or teams assigned to an issue in the view of an issue list or report by adding the Assignments field to the view.

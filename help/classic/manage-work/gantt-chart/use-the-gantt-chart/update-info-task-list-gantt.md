@@ -54,10 +54,11 @@ You must have the following to follow the steps in this article:
 ## Modify Task Duration
 
 1. Go to the project you want to modify.
-1. On the **Tasks** tab, click the **Gantt chart** icon. All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
+1. On the **Tasks** tab, click the **Gantt chart** icon.
 
-1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually. 
+   All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
 
+1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually.
 1. Hover over the timeline of a task and drag the time line indicator to a different date.
 1. Drop the indicator when you have reached the correct new Completion Date for the task. 
 1. (Optional and conditional) If you have selected to manually save your changes, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes. 
@@ -74,9 +75,9 @@ You must have the following to follow the steps in this article:
 1. Go to the project you want to modify.
 1. On the **Tasks** tab, click the **Gantt chart** icon .
 
-1. The **Autosave** option is selected by default, in which case all changes are saved automatically. 
-1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually. 
+   The **Autosave** option is selected by default, in which case all changes are saved automatically. 
 
+1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually.
 1. 
 1. To create a predecessor relationship, click the start point of a task and drag it to the end point of task. 
 1. To delete a predecessor relationship, c lick a predecessor line that connects two tasks to select it, then press **Delete** on your keyboard.  
@@ -96,9 +97,9 @@ You must have the following to follow the steps in this article:
 1. Go to the project you want to modify. 
 1. On the **Tasks** tab, click the **Gantt chart** icon.
 
-1. All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
-1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually. 
+   All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
 
+1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually.
 1. Hover over the center of the task and locate the multi-directional arrow.
 1. Click and drag the task to the desired date.
 
@@ -132,9 +133,13 @@ You must have the following to follow the steps in this article:
 ## Update Percent Complete
 
 1. Go to the project you want to modify.
-1. On the **Tasks** tab, click the **Gantt chart** icon. All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default.  
+1. On the **Tasks** tab, click the **Gantt chart** icon.
 
-1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually.  ![](assets/manual-save-setting-enabled-classic-task-list-350x188.png)
+   All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
+
+1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually.
+
+   ![](assets/manual-save-setting-enabled-classic-task-list-350x188.png)
 
 1. Double-click the percent number inside of the task and enter the number.
 
@@ -162,9 +167,10 @@ You can use the Task List Gantt Chart to level your resources. For information o
 1. Go to the project you want to level.
 1. On the **Tasks** tab, click the **Gantt chart** icon.
 
-1. All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
+   All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
+
 1. 
-   (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually.  
+   (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually.
 1. Click the **Level Resources** drop-down menu.
 
    ![Level_resouces.png](assets/level-resouces.png)

@@ -41,11 +41,10 @@ You must have the following access to perform the steps in this article:
 
 ## Change story order in an iteration
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+
 1. Go to the iteration or project that contains the stories that you want to reorder.  
 1. Drag a story card or a swimlane to the desired vertical location within a status column on the story board.
 

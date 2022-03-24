@@ -149,7 +149,7 @@ You can display the CPI of a project or a task in a project or task list or repo
 
 1. Click **Finance**.
 
-   The CPI displays in the **CPI/ SPI/ CSI** field. 
+   The CPI displays in the **CPI/ SPI/ CSI** field.
 
    ![](assets/cpi.png)
 

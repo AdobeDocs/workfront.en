@@ -35,9 +35,8 @@ You must have the following access to perform the steps in this article:
 
 ## Locate a user's organizational chart
 
-1. Main Menu
-1. 
-1. Org Chart
-1. 
-1.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.
+
+1. In the left panel, click **Org Chart**.  
+   ![](assets/org-chart-350x214.png)
 

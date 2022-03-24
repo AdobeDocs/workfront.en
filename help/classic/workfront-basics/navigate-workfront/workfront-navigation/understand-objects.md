@@ -153,22 +153,42 @@ The following is a list of objects and their corresponding icons in Workfront.
 
 | **Object** |**Icon** |**Customizable object ame** |
 |---|---|---|
-| Company |   |  |
-| Dashboard |   |  |
-| Group |   |  |
-| Issue |   |✔ |
+| Company | ![company_icon.png](assets/company-icon-63x53.png)
+
+|  |
+| Dashboard | ![dashboard_icon.png](assets/dashboard-icon.png)
+
+|  |
+| Group | ![group_icon.png](assets/group-icon-53x39.png)
+
+|  |
+| Issue | ![issue_icon.png](assets/issue-icon-43x49.png)
+
+|✔ |
 | Job Role | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png)
 
 |  |
-| Portfolio |   |✔ |
-| Program |   |✔ |
-| Project |   |✔ |
-| Report |   |  |
-| Task |   |✔ |
-| Team | , ![](assets/team-icon-nwe-color.png)
+| Portfolio | ![portfolio_icon.png](assets/portfolio-icon-50x50.png)
+
+|✔ |
+| Program | ![program_icon.png](assets/program-icon-51x50.png)
+
+|✔ |
+| Project | ![project_icon.png](assets/project-icon-49x46.png)
+
+|✔ |
+| Report | ![report_icon.png](assets/report-icon-51x47.png)
 
 |  |
-| Template |   |  |
+| Task | ![task_icon.png](assets/task-icon-57x59.png)
+
+|✔ |
+| Team | ![team_icon_old.png](assets/team-icon-old-49x46.png), ![](assets/team-icon-nwe-color.png)
+
+|  |
+| Template | ![Screen_Shot_2017-01-27_at_3.00.12_PM.png](assets/screen-shot-2017-01-27-at-3.00.12-pm-47x42.png)
+
+|  |
 
 ## Reference Numbers of objects
 

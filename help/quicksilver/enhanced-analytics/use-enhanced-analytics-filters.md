@@ -140,11 +140,11 @@ To add a project field filter:
 
    ``` ```**Tip: **``````To see data for more than the 50 projects that display by default, you can:
 
-  * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
-    ![](assets/pagination-350x118.png)  
-  
-  * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
-    ![](assets/sort-by-menu-350x247.png)
+   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
+     ![](assets/pagination-350x118.png)  
+   
+   * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
+     ![](assets/sort-by-menu-350x247.png)
 
    To adjust the date range, see [Change the date range filter](#change).
 
@@ -166,17 +166,17 @@ To add a Custom Form filter:
    >
    >Not all Custom Form field types can be added to a filter. Currently, Enhanced analytics supports only the field types listed above.
 
-  * **Checkbox**, **drop-down**, or **radio button**: Select each value in the selected field that you want to include in your filter or click the **Select All** checkbox.  
-    ![](assets/custom-form-filter-checkbox-350x255.png)  
-  
-  * **Date**: Use the arrows to navigate to a specific month, then select the date in the selected field that you want to include in your filter.  
-    ![](assets/custom-form-filter-date-350x348.png)  
-  
-  * **Text**: Enter the text within the selected field that you want to include in your filter.  
-    ![](assets/custom-form-filter-text-350x90.png)
+   * **Checkbox**, **drop-down**, or **radio button**: Select each value in the selected field that you want to include in your filter or click the **Select All** checkbox.  
+     ![](assets/custom-form-filter-checkbox-350x255.png)  
+   
+   * **Date**: Use the arrows to navigate to a specific month, then select the date in the selected field that you want to include in your filter.  
+     ![](assets/custom-form-filter-date-350x348.png)  
+   
+   * **Text**: Enter the text within the selected field that you want to include in your filter.  
+     ![](assets/custom-form-filter-text-350x90.png)
 
-  * **Number**: Enter the number within the selected field that you want to include in your filter.  
-    ![](assets/custom-form-filter-number-350x93.png)
+   * **Number**: Enter the number within the selected field that you want to include in your filter.  
+     ![](assets/custom-form-filter-number-350x93.png)
 
 1. After you enter or select the values you want to filter for, click **Apply Filter**.
 
@@ -188,11 +188,11 @@ To add a Custom Form filter:
 
    ``` ```**Tip: **``````To see data for more than the 50 projects that display by default, you can:
 
-  * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
-    ![](assets/pagination-350x118.png)  
-  
-  * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
-    ![](assets/sort-by-menu-350x247.png)
+   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
+     ![](assets/pagination-350x118.png)  
+   
+   * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
+     ![](assets/sort-by-menu-350x247.png)
 
    To adjust the date range, see [Change the date range filter](#change).
 
@@ -215,15 +215,17 @@ To add a Custom Form filter:
    To adjust the date range, see [Change the date range filter](#change).
 
 <!--
-<a name="Add2"></a>Add a Job roles filter
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a name="Add2"></a>Add a Job roles filter</h3>
 -->
 
 <!--
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
 <li value="1"> <p> Click the Main Menu icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then select <b>Analytics</b>.</p> </li>
-<li value="2"> <p>In the left panel, click <b>People</b>.</p>  <img src="assets/people-area-cropped-qs-350x276.png" style="width: 350;height: 276;">  </li>
+<li value="2"> <p>In the left panel, click <b>People</b>.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/people-area-cropped-qs-350x276.png" style="width: 350;height: 276;"> </p> </li>
 <li value="3"> <p>In the top-left corner of the screen, click <b>Add Filter</b>, then select the <b>Job roles</b> filter.</p> </li>
 <li value="4"> <p style="font-weight: normal;">Locate the job roles you want to see data for by entering at least 3 characters of text in the <b>Search</b> field, then select each job role you want to include in the filter. To select all job roles, click <b>Select All</b>.</p> <p><b>[Insert image here]</b> </p> </li>
 <li value="5"> <p>After you select all desired teams, click <b>Apply Filter</b>.</p> <p>As you add filters, data displays in the visualizations below.</p> <p>To adjust the date range, see <a href="#change" class="MCXref xref">Change the date range filter</a>.</p> </li>
+</ol>
 -->
 
 ## Remove a filter

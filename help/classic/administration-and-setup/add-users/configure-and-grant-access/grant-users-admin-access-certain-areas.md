@@ -103,7 +103,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. When you are finished, click Save Changes.
+1. When you are finished, click **Save Changes**.
 1. Assign the new access level to a user, as described in [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
    >[!NOTE]

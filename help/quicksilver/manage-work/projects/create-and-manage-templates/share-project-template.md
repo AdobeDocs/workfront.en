@@ -74,15 +74,15 @@ To share a template:
 
 1. From the drop-down menu for each entity with which you are sharing, select from the following:
 
-  * **View**: Users with these permissions are able to view the template and create a project using it, or attach it to an existing project.
+   * **View**: Users with these permissions are able to view the template and create a project using it, or attach it to an existing project.
 
-    >[!TIP]
-    >
-    >Your Workfront administrator must give you Edit access to projects to be able to create projects.
+     >[!TIP]
+     >
+     >Your Workfront administrator must give you Edit access to projects to be able to create projects.
 
-  * **Manage**: Users with these permissions are able to edit or delete the template.
+   * **Manage**: Users with these permissions are able to edit or delete the template.
 
-    For information about the Advanced Settings ![](assets/gear-icon-in-access-levels.png) available here, see the section [Advanced Settings for template sharing](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in the article [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     For information about the Advanced Settings ![](assets/gear-icon-in-access-levels.png) available here, see the section [Advanced Settings for template sharing](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in the article [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Click **Save**.
 
@@ -93,7 +93,7 @@ With template Project Sharing, you can define who has permissions on the project
 To share future projects created from a template with users:
 
 1. Do one of the following:  
-   Click the name of a template to open it, then click the **More** menu ![](assets/qs-more-icon-on-an-object.png), then **Template Sharing**. 
+   Click the name of a template to open it, then click the **More** menu ![](assets/qs-more-icon-on-an-object.png), then **Template Sharing**.
 
    ![Share project from template](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -109,11 +109,11 @@ To share future projects created from a template with users:
 
 1. From the drop-down menu for each entity, select from the following:
 
-  * **No access**: You can specify which users will not have any access to the template.  
-    This option is available only when bulk sharing projects from templates.&nbsp;
-  * **View**: Users with these permissions can view projects created from the template.
-  * **Contribute**: Users with these permissions can contribute to projects created from the template&nbsp;
-  * **Manage**: Users with these permissions can manage or delete projects created from this template.
+   * **No access**: You can specify which users will not have any access to the template.  
+     This option is available only when bulk sharing projects from templates.&nbsp;
+   * **View**: Users with these permissions can view projects created from the template.
+   * **Contribute**: Users with these permissions can contribute to projects created from the template&nbsp;
+   * **Manage**: Users with these permissions can manage or delete projects created from this template.
 
 1. (Optional) Click the **Options** icon to make the projects available system-wide.
 1. Click **Save**.
@@ -140,7 +140,7 @@ You can share multiple templates as well as projects from multiple templates at 
 >When you select multiple templates, you cannot view who already has permissions to the individual templates.
 
 1. Go to a list of templates.
-1. Select multiple templates, then click .
+1. Select multiple templates, then click ![Share](assets/share-icon.png).
 
    ![Share templates or projects in bulk](assets/share-templates-projects-in-bulk-link-in-toolbar-nwe-2022.png)
 
@@ -156,6 +156,6 @@ You can share multiple templates as well as projects from multiple templates at 
 
 1. Continue sharing the templates or the projects, as described in the following sections in this article:
 
-  * [Share a template](#share) 
-  * [Share a project from a template](#project-sharing)
+   * [Share a template](#share) 
+   * [Share a project from a template](#project-sharing)
 

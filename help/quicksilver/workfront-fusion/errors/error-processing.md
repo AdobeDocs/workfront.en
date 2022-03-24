@@ -61,8 +61,8 @@ You must have the following access to use the functionality in this article:
 * If the error occurs on the first module, the execution of the scenario is terminated with a warning message. Workfront Fusion then repeatedly attempts to rerun the scenario at increasing time intervals (these are explained below). If all attempts fail, Workfront Fusion deactivates the scenario.
 * If the connection error occurs on another module than the first one, the subsequent steps depend on the [Allow storing incomplete executions](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) option in the scenario advanced settings:
 
-  * If this option is enabled, the execution of the scenario is moved to the Incomplete executions folder where Workfront Fusion repeatedly attempts to rerun the scenario at increasing time intervals. If all attempts fail, the execution will remain in the [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder awaiting manual resolution by the user.
-  * If the option is disabled, the execution of the scenario ends with an error followed by a rollback phase. Workfront Fusion then repeatedly attempts to rerun the scenario at increasing time intervals. If all attempts fail, Workfront Fusion deactivates the scenario.
+   * If this option is enabled, the execution of the scenario is moved to the Incomplete executions folder where Workfront Fusion repeatedly attempts to rerun the scenario at increasing time intervals. If all attempts fail, the execution will remain in the [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder awaiting manual resolution by the user.
+   * If the option is disabled, the execution of the scenario ends with an error followed by a rollback phase. Workfront Fusion then repeatedly attempts to rerun the scenario at increasing time intervals. If all attempts fail, Workfront Fusion deactivates the scenario.
 
 ### Increasing time intervals
 

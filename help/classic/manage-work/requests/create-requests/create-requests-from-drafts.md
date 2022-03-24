@@ -45,8 +45,10 @@ You must do the following before you can create a request from a draft:&nbsp;
 
 ## Create requests from drafts
 
-1. Go to the **Requests** area in the Global Navigation Bar. 
-1. Click **Drafts**. A draft for each queue topic of each request queue displays in this list. 
+1. Go to the **Requests** area in the Global Navigation Bar.
+1. Click **Drafts**.
+
+   A draft for each queue topic of each request queue displays in this list. 
 
 1. Review the information about each draft in the following columns of the Drafts list:
 

@@ -41,6 +41,6 @@ You must have the following access to perform the steps in this article:
 
 ## View activity on a proof within Adobe Workfront
 
-1. Document details
-1. Proofing Activities
+1. Hover over the Document that contains the proof, then select **Document details**.
+1. In the left navigation menu, select **Proofing Activities**.
 

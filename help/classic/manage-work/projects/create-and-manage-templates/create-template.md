@@ -53,18 +53,20 @@ You must have the following:
 ## Create a template
 
 1. Go to the **Projects** area in the Global Navigation Bar. 
-1. Projects
-1. 
-1. 
-1. Templates
-1. 
-1. 
+1. Select the **Projects** tab.  
+   ![](assets/cmt-350x82.png)
+
+1. Select the **Templates** sub-tab.  
+   ![](assets/cmt2-350x167.png)
+
 1. Click **New Template**.
 
    The template is untitled.
 
+   ![](assets/cmt3-350x143.png)
+
 1. Specify a name for the new template in the template header, then press **Enter.**
-1. Click the **Template Tasks** tab.  
+1. Click the **Template Tasks** tab. 
 1. Click**Start Adding Template Tasks**.
 
    Or

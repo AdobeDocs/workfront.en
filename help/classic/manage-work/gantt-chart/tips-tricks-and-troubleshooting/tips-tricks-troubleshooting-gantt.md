@@ -10,5 +10,5 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* Legacy Gantt chart does not display Custom Field data
+* [Legacy Gantt chart does not display Custom Field data](../../../manage-work/gantt-chart/tips-tricks-and-troubleshooting/legacy-gantt-does-not-display-custom-info.md)
 

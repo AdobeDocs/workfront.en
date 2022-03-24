@@ -29,11 +29,11 @@ You can download the original files from active, locked, and archived proofs to 
    You can also select the proof in the list, click the **More** button above the list, then click **Download**.  
    You can also download files:
 
-  * While viewing the Proof Details page for the proof.  
-    ![Download_btn_in_Proof_Details.png](assets/download-btn-in-proof-details-350x32.png)
+   * While viewing the Proof Details page for the proof.  
+     ![Download_btn_in_Proof_Details.png](assets/download-btn-in-proof-details-350x32.png)
 
-  * While viewing the proof in the proofing viewer (see&nbsp;. [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md))  
-    ![download_proof_btn_in_viewer.png](assets/download-proof-btn-in-viewer.png)
+   * While viewing the proof in the proofing viewer (see&nbsp;. [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md))  
+     ![download_proof_btn_in_viewer.png](assets/download-proof-btn-in-viewer.png)
 
 ## Downloading Files From Multiple Proofs
 

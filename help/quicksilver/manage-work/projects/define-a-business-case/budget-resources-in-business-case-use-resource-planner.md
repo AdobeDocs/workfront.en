@@ -17,7 +17,7 @@ For more information about creating a business case, see [Create a Business Case
 >
 >The information you enter in the project-level&nbsp;Resource Planner is also visible in the system-level Resource Planner. The reverse is also true. For information about the Resource Planner, see [Resource Planner overview](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-You can also budget resources in the business case using the Adobe Workfront Scenario Planner. For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).  
+You can also budget resources in the business case using the Adobe Workfront Scenario Planner. For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Access requirements
 
@@ -76,14 +76,26 @@ Before you begin, you must do the following:
 To apply Resource Pools and budget project resources in the Business Case for a project with no Resource Pool:
 
 1. Go to the project for which you want to budget resources. 
-1. Click **Business Case** in the left panel.  
+1. Click **Business Case** in the left panel. 
 1. (Conditional) If your company does not have a license for the&nbsp;Workfront Scenario Planner, click **Edit Resource Budgeting** in the **Resource Budgeting** section, then continue with step 5. 
 1. (Optional and conditional) If the project information has been published from an initiative on the Scenario Planner, do one of the following:
-1. ```<li> <p>Select Resource Planner in the <strong>Choose which hours to use to calculate the Budgeted Labor Cost of the project</strong> field, then click&nbsp;<strong>Choose > Edit Resource Budgeting</strong>. </p> <p> <img src="assets/business-case-rp-selected-with-choose-button-350x120.png" style="width: 350;height: 120;"> </p> </li>``` ```<li> <p>If the Scenario Planner was selected for budgeting resources for the project, click <strong>Change</strong> > <strong>Edit Resource Budgeting</strong>. </p> <p> <img src="assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png" style="width: 350;height: 88;"> </p> </li>``` 
 
-1. This uses the Budgeted Hours of the project to calculate the Budgeted Labor Cost for the project.
-1. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). 
-1. We recommend that you make the decision whether to use the&nbsp;Resource Planner or the&nbsp;Scenario Planner when you begin working on a project. Frequently switching between the two during the life of the project may create inconsistencies in the way you budget your resources for the project. 
+   * Select Resource Planner in the **Choose which hours to use to calculate the Budgeted Labor Cost of the project** field, then click&nbsp;**Choose > Edit Resource Budgeting**.
+
+     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+
+   * If the Scenario Planner was selected for budgeting resources for the project, click **Change** > **Edit Resource Budgeting**.
+
+     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+
+   This uses the Budgeted Hours of the project to calculate the Budgeted Labor Cost for the project.
+
+   This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+
+   >[!NOTE]
+   >
+   >We recommend that you make the decision whether to use the&nbsp;Resource Planner or the&nbsp;Scenario Planner when you begin working on a project. Frequently switching between the two during the life of the project may create inconsistencies in the way you budget your resources for the project.
+
 1. In the **Select Resource Pool** field, specify one or several **Resource Pools**.
 
    You must specify only Resource Pools that are populated with active users.
@@ -108,12 +120,12 @@ To apply Resource Pools and budget project resources in the Business Case for a 
    >
    >Active users are displayed under the job roles associated with them only if they meet the following criteria:
    >
-   >  
-   >  
-   >  * They belong to one of the Resource Pools of the project. 
-   >  * They have Budgeted Hours assigned to them. 
-   >  * They are associated with one of the job roles of the project. 
-   >  
+   >   
+   >   
+   >   * They belong to one of the Resource Pools of the project. 
+   >   * They have Budgeted Hours assigned to them. 
+   >   * They are associated with one of the job roles of the project. 
+   >   
    >
 
    &nbsp;
@@ -132,11 +144,11 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
 1. Update the **BDG** (Budgeted Hours) field with Hour, FTE, or Cost values for the users, roles, or the project by doing one of the following:
 
-  * Manually estimate the amount of Hours, FTE, or Cost values for roles, users, or the project.
+   * Manually estimate the amount of Hours, FTE, or Cost values for roles, users, or the project.
 
-    Or 
-  
-  * Click the **Options** icon for the project or the job roles and select an option to automatically budget the hours for roles, users, or the project.
+     Or 
+   
+   * Click the **Options** icon for the project or the job roles and select an option to automatically budget the hours for roles, users, or the project.
 
    For more information about budgeting in the Project View of the Resource Planner, see [Budget resources in the Resource Planner using the Project and Role views](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 

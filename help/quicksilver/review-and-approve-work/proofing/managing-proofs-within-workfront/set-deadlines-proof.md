@@ -62,7 +62,12 @@ You must be the proof owner or creator to set deadlines.
 
 1. Hover over the proof, then click **Proofing workflow** to open the Workflow page.
 1. Find the stage you want to manage, do one of the following:
-1. ```<tbody>  <tr>   <td role="rowheader">Add a deadline to the stage</td>   <td>Double-click <strong>No deadline</strong>, then&nbsp;specify a date and time for the deadline.</td>  </tr>  <tr>   <td role="rowheader">Edit an existing deadline</td>   <td>Double-click the date and time in the upper-right corner of the stage,&nbsp;then&nbsp;specify a date and time for the deadline.</td>  </tr>  <tr>   <td role="rowheader">Delete an existing deadline</td>   <td>Double-click the date and time in the upper-right corner of the stage,&nbsp;then click <strong>Clear</strong> at the bottom of the Calendar box that appears.</td>  </tr> </tbody>``` 
+
+   | Add a deadline to the stage |Double-click **No deadline**, then&nbsp;specify a date and time for the deadline. |
+   |---|---|
+   | Edit an existing deadline |Double-click the date and time in the upper-right corner of the stage,&nbsp;then&nbsp;specify a date and time for the deadline. |
+   | Delete an existing deadline |Double-click the date and time in the upper-right corner of the stage,&nbsp;then click **Clear** at the bottom of the Calendar box that appears. |
+
 1. To save your change, click outside the deadline box.
 1. In the prompt that appears, specify whether you want to send an email alert to reviewers.&nbsp;
 
@@ -74,9 +79,13 @@ To create a stage and add a deadline for an individual reviewer:
 
 1. Hover over the proof, then click **Proofing workflow** to open the Workflow page.
 1. In the top-right corner, click **New stage**
-1. ![New_Stage_button.png](assets/new-stage-button.png)
 
-1. If you do not see the new stage option, you must covert the workflow to an automated workflow first. 
+   ![New_Stage_button.png](assets/new-stage-button.png)
+
+   >[!NOTE]
+   >
+   >If you do not see the new stage option, you must covert the workflow to an automated workflow first.
+
 1. Add information for the stage,&nbsp;particularly the reviewer's name and the deadline you want for the reviewer.
 1. Repeat the two previous steps as needed to add any other reviewers who need their own deadline.
 

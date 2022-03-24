@@ -62,7 +62,7 @@ Consider the following when copying issues that contain documents or are associa
 
 ## Copy issues in a list
 
-You can copy one or multiple issues from a list of issues or from an issue report. 
+You can copy one or multiple issues from a list of issues or from an issue report.
 
 Copying issues differs depending on what environment you use.
 
@@ -77,9 +77,13 @@ Copying issues differs depending on what environment you use.
 
    Go to an issue report.
 
-1. If you selected to go to a project, click the **Issues** section, then select the issue or issues you want to copy.   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+1. If you selected to go to a project, click the **Issues** section, then select the issue or issues you want to copy.
 
-1. Click the **More**&nbsp;drop-down menu  at the top of the issue list, then click **Copy** **to**. ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+
+1. Click the **More**&nbsp;drop-down menu ![](assets/more-icon.png) at the top of the issue list, then click **Copy** **to**.
+
+   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
    The **Copy Issue** or **Copy Issues** box displays. 
 
@@ -88,6 +92,8 @@ Copying issues differs depending on what environment you use.
    >[!TIP]
    >
    >Only 50 projects display in the list.
+
+   ![](assets/qs-copy-issues-ui-350x215.png)
 
 1. Continue copying the issue as described in the section [Copy a single issue](#copy5) in this article, starting with Step 3.
 
@@ -108,7 +114,7 @@ Copying issues differs depending on what environment you use.
 
 ## Copy a single issue
 
-You can copy one issue when viewing it. 
+You can copy one issue when viewing it.
 
 Copying issues differs depending on what environment you use.
 
@@ -117,7 +123,9 @@ Copying issues differs depending on what environment you use.
 
 ### Copy a single issue in the Production&nbsp;environment
 
-1. Go to an issue that you want to copy, then click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then **Copy** ```to```.  ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+1. Go to an issue that you want to copy, then click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then **Copy** ```to```.
+
+   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    The **Copy Issue** box displays. 
 
@@ -129,14 +137,14 @@ Copying issues differs depending on what environment you use.
    >
    >This impacts&nbsp;only the copied issues not the original issues.
 
-  * **Clear Progress**
-  * **Clear Documents**:  ```Removes everything in the documents tab, including document versions, linked documents, and folders.```  
-    By default, document proofs and approvals cannot be copied to another issue.
-  
-  * **Clear Assignments**
-  * **Clear Updates**: This is checked by default.&nbsp;
-  * **Clear Permissions**
-  * **Clear Custom Data**:&nbsp;This will remove the information from the custom form on the issue, as well as the information on the custom forms&nbsp;associated&nbsp;with Documents attached to the issue, if those are also copied with the issue. The custom forms will remain attached to the issues&nbsp;and documents, but the information on the forms will not carry over to the new issue.&nbsp;
+   * **Clear Progress**
+   * **Clear Documents**:  ```Removes everything in the documents tab, including document versions, linked documents, and folders.```  
+     By default, document proofs and approvals cannot be copied to another issue.
+   
+   * **Clear Assignments**
+   * **Clear Updates**: This is checked by default.&nbsp;
+   * **Clear Permissions**
+   * **Clear Custom Data**:&nbsp;This will remove the information from the custom form on the issue, as well as the information on the custom forms&nbsp;associated&nbsp;with Documents attached to the issue, if those are also copied with the issue. The custom forms will remain attached to the issues&nbsp;and documents, but the information on the forms will not carry over to the new issue.&nbsp;
 
 1. (Optional)&nbsp;Click **Go back a step** to go back to the previous screen in the Copy&nbsp;Issue box. 
 1. Click **Finish and Copy**&nbsp;**Issue**.

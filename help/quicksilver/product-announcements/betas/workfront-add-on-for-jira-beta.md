@@ -66,32 +66,32 @@ To join our beta testing and experience the new features:&nbsp;
 1. Select the **Triggers** tab to configure the automatic creation of Jira items as new Workfront items are created.&nbsp;Creating an item in Workfront and assigning it to a specific entity can automatically create an item in Jira. The two items become linked.  
    Specify the following:
 
-  * **Workfront team/user/role**: Specify which team, user, or role the item in Workfront must be assigned to in order to trigger the automatic creation of a Jira item.
-  * The **Jira project** on which you want to add the new item in Jira.
-  * The **Issue type** of the newly created item in Jira.&nbsp;
+   * **Workfront team/user/role**: Specify which team, user, or role the item in Workfront must be assigned to in order to trigger the automatic creation of a Jira item.
+   * The **Jira project** on which you want to add the new item in Jira.
+   * The **Issue type** of the newly created item in Jira.&nbsp;
 
 1. Click **Save**.
 1. Select the **Setup** tab to configure which fields to synchronize between the linked Jira and Workfront items.  
    Consider specifying the following:
 
-  * **Synchronize from Workfront to Jira**:
+   * **Synchronize from Workfront to Jira**:
 
-    * **Name**
-    * **Description**
-    * **Documents**
-    * **Planned Completion Date**
+      * **Name**
+      * **Description**
+      * **Documents**
+      * **Planned Completion Date**
 
-  * **Synchronize from Jira to Workfront**:
+   * **Synchronize from Jira to Workfront**:
 
-    * **Status**
-    * **Assignee**: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new user in Workfront. This user does not occupy a Workfront license.
-    * **Attachments**
+      * **Status**
+      * **Assignee**: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new user in Workfront. This user does not occupy a Workfront license.
+      * **Attachments**
 
-  * **Other**: Specify how you want the updates of the following fields to be recorded in the two applications:
+   * **Other**: Specify how you want the updates of the following fields to be recorded in the two applications:
 
-    * Custom Data
-    * Priority
-    * Due Date changes
+      * Custom Data
+      * Priority
+      * Due Date changes
 
 1. Click **Save**.&nbsp;
 1. (Optional) View the **Activity Log** tab for any errors that might occur as you are working with the integrated features.&nbsp;
@@ -126,10 +126,10 @@ We would like you to answer the following questions as you are testing the new f
 * Use cases: Why would you want to create Jira issues when you are creating Workfront tasks or issues and link them? Outline your main scenarios when being able to have this type of link can really help you.  
   Consider the following:&nbsp;
 
-  * Triggers: Are assignment-based triggers enough, or would you like to have more trigger types, for example, triggers based on status changes in Workfront?
-  * Working with documents: Attach files both to Workfront and Jira items which are linked, and notice how the synchronization of documents occurs between Workfront and Jira.
-  * Comments: Are you satisfied with how Jira comments are displayed in Workfront, and how Workfront comments are displayed in Jira? What would you like to see improved?
-  * Logging time: Does logging hours from the right panel work as expected? Is it intuitive enough? How can we improve the time tracking?
+   * Triggers: Are assignment-based triggers enough, or would you like to have more trigger types, for example, triggers based on status changes in Workfront?
+   * Working with documents: Attach files both to Workfront and Jira items which are linked, and notice how the synchronization of documents occurs between Workfront and Jira.
+   * Comments: Are you satisfied with how Jira comments are displayed in Workfront, and how Workfront comments are displayed in Jira? What would you like to see improved?
+   * Logging time: Does logging hours from the right panel work as expected? Is it intuitive enough? How can we improve the time tracking?
 
 * Relevancy: Is the ability to link items between the two application relevant to you and the workflows in your organization? Is the Workfront information shown in Jira sufficient? What else would you like to synchronize between the two platforms?
 * Convenience: Is the new ability to have work items linked between Jira and Workfront convenient for your developers and project managers?

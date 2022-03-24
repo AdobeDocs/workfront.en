@@ -62,6 +62,8 @@ To access the Planner section in the Resourcing area:
 
 1. Click **Resourcing**. The Planner displays by default.  For information about budgeting resources in the Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
+   ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+
 1. Hover over the left panel, and click **Resource Pools**.   
    For information about creating resource pools, see [Create resource pools in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
@@ -70,7 +72,7 @@ To access the Planner section in the Resourcing area:
 When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project.
 
 1. Go to a project you want to budget resources for.
-1. Click **Business Case** in the left panel. 
+1. Click **Business Case** in the left panel.
 1. Scroll to the **Resource Budgeting** section of the Business Case.
 1. Click **Edit Resource Budgeting** to add resource pools to your project and start budgeting your resources.
 

@@ -45,7 +45,7 @@ If your Workfront account is integrated with a Workfront Proof Premium account, 
 ## Configure whether proofs are&nbsp;automatically generated for a single user
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
-1. Select a user with proofing access, then click **Edit**. 
+1. Select a user with proofing access, then click **Edit**.
 1. In the **Preferences**&nbsp;section, enable or disable the **Automatically generate proofs when uploading documents** checkbox.
 
    ![](assets/autogenerate-proofs-350x216.png)
@@ -56,7 +56,11 @@ If your Workfront account is integrated with a Workfront Proof Premium account, 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 1. Select users with proofing access, then click **Edit**.
-1. If all users do not have proofing access, the Automatically generate proofs when uploading documents option does not appear.
+
+   >[!IMPORTANT]
+   >
+   >If all users do not have proofing access, the Automatically generate proofs when uploading documents option does not appear.
+
 1. In the **Preferences**&nbsp;section, enable **Automatically generate proofs when uploading documents** checkbox, then select **Yes** or **No**.
 
    ![](assets/autogenerate-proofs-bulk-350x285.png)

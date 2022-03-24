@@ -67,11 +67,10 @@ The following table is a list of commonly used objects and fields that you can d
 <p>For a Budgeted Hour report:</p>
 <ul>
 <li>Build this report when trying to understand the amount of Budgeted Hours that is allocated to your resources or to your projects in the Resource Planner.</li>
-<li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p>
-<div class="tips" data-mc-autonum="<b>Tips: </b>"> <span class="autonumber"><span><b>Tips: </b></span></span>
+<li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> <note type="tips">  
 <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p>
 <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p>
-</div> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> </li>
+</note> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> </li>
 </ul>
 </div> <p> &nbsp; </p> </td>
 </tr>
@@ -293,13 +292,19 @@ The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently depr
 <tr>
 <td> <p>Last Viewed Date</p> </td>
 <td> <p>In a report list, it displays the date on which the report was displayed last.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.</p> </td>
-</tr>  
-<td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Legacy Budgeted Cost</p> </td>
-<td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>See the Budgeted Cost field. </p> </td>
-<td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Legacy Budgeted Hours</p> </td>
-<td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p> Number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. <br>If there&nbsp;are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.&nbsp;</p> </td>
-<td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Legacy Budgeted Labor Cost</p> </td>
-<td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p>In a project report, it shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.&nbsp;</p> <p>The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p> <p>For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> </td>  
+</tr>
+<tr data-mc-conditions="QuicksilverOrClassic.Classic">
+<td> <p>Legacy Budgeted Cost</p> </td>
+<td> <p>See the Budgeted Cost field. </p> </td>
+</tr>
+<tr data-mc-conditions="QuicksilverOrClassic.Classic">
+<td> <p>Legacy Budgeted Hours</p> </td>
+<td> <p> Number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. <br>If there&nbsp;are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.&nbsp;</p> </td>
+</tr>
+<tr data-mc-conditions="QuicksilverOrClassic.Classic">
+<td> <p>Legacy Budgeted Labor Cost</p> </td>
+<td> <p>In a project report, it shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.&nbsp;</p> <p>The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p> <p>For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> </td>
+</tr>
 <tr>
 <td> <p>Legacy Resource Pool</p> </td>
 <td>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. For more information about Legacy Resource Planning, see the article <a href="../../../resource-mgmt/resource-planning/resource-planning-overview.md">Resource Planning</a>. This is a deprecated field. </td>

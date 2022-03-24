@@ -49,8 +49,8 @@ You must have the following access to perform the steps in this article:
 * If there is one user or role assignment to a task, the amount of hours allocated to the user or role matches the Planned Hours of the task.
 * In the case of multiple assignments, each user or job role is assigned an equal amount of hours to work on the task, by default, if the task Duration Type is Simple. For more information, see the following articles:
 
-  * [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) 
-  * [Duration Type overview: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
+   * [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) 
+   * [Duration Type overview: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
 
 * When the task has a Simple Duration&nbsp;Type, you can manually change the amount of allocated hours for each user or job role to indicate that some of the task assignees might have more time to work on a task than others. 
 * You cannot modify the amount of hours allocated to teams assigned to tasks.
@@ -60,11 +60,14 @@ You must have the following access to perform the steps in this article:
 ## Modify the allocation hours for a task
 
 1. Go to a task for whose assignments you want to change the allocation hours.
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the task, then click **Edit**, then **Assignments**. Or Click the **Assignments** area in the task header, then click&nbsp;**Advanced**. 
+1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the task, then click **Edit**, then **Assignments**.
 
-1. Ensure that the **Duration Type** of the task is **Simple**. 
+   Or
 
-1. Modify the **Allocations** for each task assignee. These are overall allocations for each assignment to this task, for the entire duration of the task. This might also update the overall Planned Hours of the task. 
+   Click the **Assignments** area in the task header, then click&nbsp;**Advanced**.
+
+1. Ensure that the **Duration Type** of the task is **Simple**.
+1. Modify the **Allocations** for each task assignee. These are overall allocations for each assignment to this task, for the entire duration of the task. This might also update the overall Planned Hours of the task.
 
    ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 

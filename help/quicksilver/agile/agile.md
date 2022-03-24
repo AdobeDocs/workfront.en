@@ -14,14 +14,14 @@ This section contains the following subsections:
 * [Agile overview](../agile/agile-overview.md)
 
   <!--
-  <a href="../agile/boards-overview.md" class="MCXref xref" xrefformat="{para}">Boards overview</a>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../agile/boards-overview.md" class="MCXref xref" xrefformat="{para}">Boards overview</a> </li>
   -->
 
 * [Agile in projects](../agile/agile-in-projects/agile-in-projects.md) 
 * [Get started with agile in Adobe Workfront](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 
   <!--
-  <a href="../agile/get-started-with-boards/get-started-with-boards.md" class="MCXref xref" xrefformat="{para}">Get started with boards in Adobe Workfront</a>
+  <li data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../agile/get-started-with-boards/get-started-with-boards.md" class="MCXref xref" xrefformat="{para}">Get started with boards in Adobe Workfront</a> </li>
   -->
 
 * [Kanban in an agile team](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md) 

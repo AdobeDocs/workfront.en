@@ -58,9 +58,13 @@ You must have the following:
 
    The user receives an email notification if this preference is enabled, as well as an in-app notification. For more information on email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
+   ![](assets/document-request-notification-350x162.png)
+
    You can click the link found in the email notification, and then upload the document. Or you can click the in-app notification. Each option routes you to the user profile page where you can upload the requested document.
 
    You can also reply directly to the email and attach the requested documents (if you are configured to support email responses). To configure email responses, see .
+
+   ![](assets/document-request-upload-350x88.png)
 
 1. After you upload the document, the person who requested it can access the document in their personal **Documents**&nbsp;area.
 

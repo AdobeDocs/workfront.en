@@ -50,7 +50,7 @@ You must be the proof owner or creator, or you must have the Author or Moderator
 1. Hover over the proof and select **Proof Details**.
 1. Open the **More sharing options** section, then disable the **Proof URL** checkbox.
 
-1. ![](assets/proof-details-settings-proof-urls-350x272.png)
+   ![](assets/proof-details-settings-proof-urls-350x272.png)
 
 1. Click **Done**.
 
@@ -60,7 +60,8 @@ You can disable the Public proof setting for individual users in your Workfront 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Proofing**.
 1. In the Global Navigation Bar, click the **Proofing** icon.
-1. ![](assets/proofing-icon-350x40.png)
+
+   ![](assets/proofing-icon-350x40.png)
 
 1. Click **Account Settings** near the top-right corner.
 1. Click the **Users** tab, then click on the name of a user.

@@ -48,6 +48,8 @@ You must have the following access to perform the steps in this article:
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  select the **Template Details** tab, then go to the subtabs listed to edit the information under each subtab.
 
+   ![](assets/edit-template-overview-tab-under-template-details-350x253.png)
+
 1. Click **Edit <the name of the subtab>** to edit information in each subtab. For example, click **Edit Overview** to edit information in the Overview subtab. Click any of the following subtabs to edit it:
 
    * Overview
@@ -62,7 +64,9 @@ You must have the following access to perform the steps in this article:
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional)&nbsp;To edit all information about the template, click **Edit Template** in the upper-right corner of the template page.  The **Edit Template** box opens. The sections in this box contain the same fields available in  the subtabs of the **Template Details** tab  .
+1. (Conditional)&nbsp;To edit all information about the template, click **Edit Template** in the upper-right corner of the template page.
+
+   The **Edit Template** box opens. The sections in this box contain the same fields available in  the subtabs of the **Template Details** tab  .
 
 1. Consider editing information in any of the following sections:
 

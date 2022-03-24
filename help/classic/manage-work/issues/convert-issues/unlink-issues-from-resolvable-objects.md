@@ -56,9 +56,10 @@ You must have the following access to perform the steps in this article:
 1. Go to the issue that is linked to a project, task, or issue.
 1. Select the **Issue Details** tab, then the **Overview** sub-tab. 
 
-1. Click **Edit Overview**. 
+1. Click **Edit Overview**.
 1. In the **Resolved By** field, remove the resolvable object type.   
-   An issue can be resolved by a project, task or issue.
+   An issue can be resolved by a project, task or issue.  
+   ![unlink_issue_from_resolvable.png](assets/unlink-issue-from-resolvable-350x488.png)
 
    This removes the resolving object from the issue. 
 

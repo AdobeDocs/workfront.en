@@ -34,10 +34,10 @@ This article explains the following about the Dropzone:
 1. Any reviewers added to the proof will only receive their notification email upon activation of the proof (see below).
 1. &nbsp;Your proof goes through the following states after you submit it to the Dropzone:
 
-  * When you first upload a file to the Dropzone, the proof shows there as a Draft.&nbsp;
-  * Once you complete the submission, the proof shows in your Dropzone as Submitted.
-  * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
-  * If the proof is locked, it shows in your Dropzone as Locked.
+   * When you first upload a file to the Dropzone, the proof shows there as a Draft.&nbsp;
+   * Once you complete the submission, the proof shows in your Dropzone as Submitted.
+   * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
+   * If the proof is locked, it shows in your Dropzone as Locked.
 
 ## Submitting a New Version of an Existing Proof via the Dropzone URL
 
@@ -65,10 +65,10 @@ This article explains the following about the Dropzone:
 
    Your proof goes through the following states after you submit it to the Dropzone:
 
-  * When you first upload a file to the Dropzone, the proof shows there as a Draft.&nbsp;
-  * Once you complete the submission, the proof shows in your Dropzone as Submitted.
-  * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
-  * If the proof is locked, it shows in your Dropzone as Locked.
+   * When you first upload a file to the Dropzone, the proof shows there as a Draft.&nbsp;
+   * Once you complete the submission, the proof shows in your Dropzone as Submitted.
+   * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
+   * If the proof is locked, it shows in your Dropzone as Locked.
 
 ## Emailing a Proof to the Dropzone
 
@@ -98,10 +98,10 @@ To activate the proof:
 1. Go to the drop down menu to the right of the proof and click **Activate.** 
 1. &nbsp;Once the proof has been activated/unlocked:
 
-  * The proof status changes to Active.
-  * Any people that were added to the proof will receive a notification email to advise that they have a new proof to review. (No email is sent until the proof has been activated/unlocked.)
-  * The proof can be worked on as normal  
-  * &nbsp;If the submitter also adds themselves explicitly to the proof, they will not receive a New proof email. For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+   * The proof status changes to Active.
+   * Any people that were added to the proof will receive a notification email to advise that they have a new proof to review. (No email is sent until the proof has been activated/unlocked.)
+   * The proof can be worked on as normal  
+   * &nbsp;If the submitter also adds themselves explicitly to the proof, they will not receive a New proof email. For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 ## Managing Your Dropzone
 

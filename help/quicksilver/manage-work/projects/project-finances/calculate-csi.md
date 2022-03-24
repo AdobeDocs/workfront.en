@@ -51,8 +51,8 @@ CSI has the following three possible values:
 
 You can locate CSI in the following areas of Workfront:
 
-* Finance area in the Project Details section.  
-* Finance area in the Task Details section.  
+* Finance area in the Project Details section. 
+* Finance area in the Task Details section. 
 * A project or task view
 * A project or task report
 

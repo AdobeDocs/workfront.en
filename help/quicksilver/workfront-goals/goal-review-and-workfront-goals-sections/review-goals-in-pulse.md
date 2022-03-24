@@ -118,9 +118,9 @@ You must have the following before you can start:
 
    The following information displays in the Pulse section under each goal:
 
-  * Results names and owners. For information about results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-  * Activity names and owners. For information about activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-  * Results and activities progress bars and progress statuses. For information about how Workfront Goals calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Results names and owners. For information about results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   * Activity names and owners. For information about activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * Results and activities progress bars and progress statuses. For information about how Workfront Goals calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 1. Click **Add a comment** to add a comment for the goal, then click **Post**. The comment is visible in the Check-in area, as well as the Updates tab of the Goal Details panel. We recommend that you use the Pulse section to comment on goals that have not been updated in a while and ask the goal owner for an update. 
 
@@ -130,9 +130,9 @@ You must have the following before you can start:
 
 1. (Optional) Expand the **Goals per page** drop-down menu and select from the following options to display additional goals:
 
-  * 20.&nbsp;This is the default selection. 
-  * 50
-  * 100
+   * 20.&nbsp;This is the default selection. 
+   * 50
+   * 100
 
 &nbsp;
 

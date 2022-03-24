@@ -59,11 +59,12 @@ To find the predecessors of a task do one of the following:
 
    1. Find the task for which you want to find the predecessors and click the task.
    1. Click the **Predecessors** tab. You might have to click **More**, then **Predecessors**. 
-   
-   1. The predecessors that are on the same project as the task are listed on the **Predecessor** sub-tab.The predecessors that are on a different project than the task are listed on the **Cross-Predecessors** sub-tab.
+   1. The predecessors that are on the same project as the task are listed on the **Predecessor** sub-tab.
 
-      The number in the **#** column shows the predecessor task number. For example "6" means the sixth task in the project. 
-   
+      The predecessors that are on a different project than the task are listed on the **Cross-Predecessors** sub-tab.
+
+      The number in the **#** column shows the predecessor task number. For example "6" means the sixth task in the project.
+
       ![](assets/up-350x119.png)
 
   &nbsp;
@@ -104,7 +105,10 @@ When you view predecessors in a list of tasks, you might see any of the followin
 
 You can view predecessor information in the following areas of Workfront. This includes information about cross-project predecessors:
 
-* At the task level, in the Predecessors tab. For information about viewing predecessor information in the Predecessors  tab , see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
+* At the task level, in the Predecessors tab.
+
+  For information about viewing predecessor information in the Predecessors  tab , see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
+
 * In the Gantt chart.
 
   For information about displaying predecessors in the Gantt chart, see [Configure how information displays on the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
@@ -121,6 +125,7 @@ You can view predecessor information in the following areas of Workfront. This i
 
      For more information about building a customized view for tasks with predecessor information, see [View: predecessor details](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
 
-* In the task Details area when accessing a task. 
-* ![](assets/classic-predecessor-info-on-baseball-card-350x506.png)
+* In the task Details area when accessing a task.
+
+  ![](assets/classic-predecessor-info-on-baseball-card-350x506.png)
 

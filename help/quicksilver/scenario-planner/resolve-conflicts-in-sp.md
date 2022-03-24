@@ -53,8 +53,8 @@ You must have the following:
 * A conflict is also understood as an overallocation of the job roles or the budget of a scenario. 
 * When&nbsp;Workfront detects a conflict, the bar corresponding to the conflicting month during the initiative's duration displays in red. This can happen in any of the following cases:
 
-  * The number of job roles required monthly for an initiative is larger than the number of roles budgeted for the plan after all previous initiatives have used the resources budgeted for the plan.
-  * The monthly costs of the initiative are larger than the budget available for the plan after all previous initiatives have used the plan's budget to cover their costs.
+   * The number of job roles required monthly for an initiative is larger than the number of roles budgeted for the plan after all previous initiatives have used the resources budgeted for the plan.
+   * The monthly costs of the initiative are larger than the budget available for the plan after all previous initiatives have used the plan's budget to cover their costs.
 
 ``` ```**Tip: **`````` By default, the Scenario Planner assumes that you have budgeted for 0 job roles and $0 or the equivalent of $0 in your system's currency for a scenario, unless you specified otherwise. The number of job roles indicates the number of FTEs (Full Time Equivalents) ```or hours``` budgeted for the job role .
 
@@ -64,8 +64,8 @@ For information about updating the available roles for a plan and a budget see [
 
 * You can resolve a conflict by doing one of the following:
 
-  * Adding the missing required resources automatically from the initiatives on the scenario. This article describes how to resolve conflicts using this option. 
-  * Adjusting the job role and budget resources for the scenario, by editing the plan. For more information, see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md).
+   * Adding the missing required resources automatically from the initiatives on the scenario. This article describes how to resolve conflicts using this option. 
+   * Adjusting the job role and budget resources for the scenario, by editing the plan. For more information, see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 
 ## Resolve conflicts between initiatives
 
@@ -95,80 +95,80 @@ For information about updating the available roles for a plan and a budget see [
 
 1. Do one of the following to understand more about the conflicts that might exist:
 
-  * Hover over the warning icon next to the initiative name to understand whether you have a job role or a budget conflict.
+   * Hover over the warning icon next to the initiative name to understand whether you have a job role or a budget conflict.
 
-    ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
-    Depending on whether you overallocated job roles or overestimated costs for your initiative you might see one of the following options when hovering over the warning icon:
+     Depending on whether you overallocated job roles or overestimated costs for your initiative you might see one of the following options when hovering over the warning icon:
 
-    * Show job role conflict details
-    * Show budget conflict details
-    * Show job role and budget details
+      * Show job role conflict details
+      * Show budget conflict details
+      * Show job role and budget details
 
-  * When viewing the plan by month, hover over a month in the plan's timeline to view the required resources for that month and whether the conflicts for the month are people or cost-related.
+   * When viewing the plan by month, hover over a month in the plan's timeline to view the required resources for that month and whether the conflicts for the month are people or cost-related.
 
-    ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
-    Review the following monthly information at the plan-level:
+     Review the following monthly information at the plan-level:
 
-    * The number of available, required, and overallocated job roles for the month for all initiatives planned for that month
-    * The available, required, and overallocated costs for the month for all the initiatives planned for that month
+      * The number of available, required, and overallocated job roles for the month for all initiatives planned for that month
+      * The available, required, and overallocated costs for the month for all the initiatives planned for that month
 
-      >[!TIP]
-      >
-      >The Available costs are the scenario's budget for that month.
+        >[!TIP]
+        >
+        >The Available costs are the scenario's budget for that month.
 
-  * Hover over an initiative's red bar for a month to display the additional information box about the conflict that occurs that month.&nbsp;
+   * Hover over an initiative's red bar for a month to display the additional information box about the conflict that occurs that month.&nbsp;
 
-    ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
-    Review the following fields in the additional information box at the initiative's level:
+     Review the following fields in the additional information box at the initiative's level:
 
-    <table cellspacing="0"> 
-     <col> 
-     <col> 
-     <tbody> 
-      <tr> 
-       <td role="rowheader">Month when the conflict occurs</td> 
-       <td>Displays in the title of the additional information box.</td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">The initiative name</td> 
-       <td>Displays in the title of the additional information box.</td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Job&nbsp;Roles</td> 
-       <td> <p>The job roles associated with this initiative that are overallocated for the selected month. The following columns display information for each job role that is required for the selected month and that conflicts with the number of job roles available for that month:</p> 
-        <ul> 
-         <li> <p><strong>Available</strong>: The number of each job role available from the scenario for the selected month.</p> </li> 
-         <li> <p><strong>Required</strong>: The number of each job role required for the initiative for the selected month.</p> </li> 
-         <li> <p style="font-weight: normal;"><strong>Overallocated:</strong>The difference between the number required on the initiative and the number available from the scenario. </p> </li> 
-        </ul> <p>Tip: Sometimes, the number of Available roles matches or is higher than the number of Required roles, but the Scenario Planner still shows an overallocation.&nbsp;This means that there are higher-ranking initiatives that already used the job roles available on the plan for the same month. </p> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Costs</td> 
-       <td> <p>The costs of the initiative for the month selected. The following columns display information for the costs needed and the budget available of the selected month:</p> 
-        <ul> 
-         <li> <p><strong>Available</strong>: The budget available from the plan for the selected month .</p> </li> 
-         <li> <p><strong>Required</strong>: The costs associated with this initiative for the selected month.</p> </li> 
-         <li> <p style="font-weight: normal;"><strong>Overallocated:</strong>The difference between the costs of the initiative and the budget available from the plan. </p> </li> 
-        </ul> <p>Tip: Sometimes, the Available costs match or are higher than the Required cost of the initiative for the selected month and the Scenario Planner still shows an overallocation of cost.&nbsp;This means that there are higher-ranking initiatives that already use the available budget on the plan for the same month. </p> </td> 
-      </tr> 
-     </tbody> 
-    </table>
+     <table cellspacing="0"> 
+      <col> 
+      <col> 
+      <tbody> 
+       <tr> 
+        <td role="rowheader">Month when the conflict occurs</td> 
+        <td>Displays in the title of the additional information box.</td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">The initiative name</td> 
+        <td>Displays in the title of the additional information box.</td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">Job&nbsp;Roles</td> 
+        <td> <p>The job roles associated with this initiative that are overallocated for the selected month. The following columns display information for each job role that is required for the selected month and that conflicts with the number of job roles available for that month:</p> 
+         <ul> 
+          <li> <p><strong>Available</strong>: The number of each job role available from the scenario for the selected month.</p> </li> 
+          <li> <p><strong>Required</strong>: The number of each job role required for the initiative for the selected month.</p> </li> 
+          <li> <p style="font-weight: normal;"><strong>Overallocated:</strong>The difference between the number required on the initiative and the number available from the scenario. </p> </li> 
+         </ul> <p>Tip: Sometimes, the number of Available roles matches or is higher than the number of Required roles, but the Scenario Planner still shows an overallocation.&nbsp;This means that there are higher-ranking initiatives that already used the job roles available on the plan for the same month. </p> </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">Costs</td> 
+        <td> <p>The costs of the initiative for the month selected. The following columns display information for the costs needed and the budget available of the selected month:</p> 
+         <ul> 
+          <li> <p><strong>Available</strong>: The budget available from the plan for the selected month .</p> </li> 
+          <li> <p><strong>Required</strong>: The costs associated with this initiative for the selected month.</p> </li> 
+          <li> <p style="font-weight: normal;"><strong>Overallocated:</strong>The difference between the costs of the initiative and the budget available from the plan. </p> </li> 
+         </ul> <p>Tip: Sometimes, the Available costs match or are higher than the Required cost of the initiative for the selected month and the Scenario Planner still shows an overallocation of cost.&nbsp;This means that there are higher-ranking initiatives that already use the available budget on the plan for the same month. </p> </td> 
+       </tr> 
+      </tbody> 
+     </table>
 
 1. Do one of the following to open the initiative details panel and view more information about where the conflicts occur and to resolve them:
 
-  * Click the warning icon next to the initiative's name.
-  * Click the bar of an initiative.
-  * Click the **More** icon ![](assets/more-icon.png) to the right of the initiative’s name, then click **Edit**.
+   * Click the warning icon next to the initiative's name.
+   * Click the bar of an initiative.
+   * Click the **More** icon ![](assets/more-icon.png) to the right of the initiative’s name, then click **Edit**.
 
-    The initiative details panel displays on the right.
+     The initiative details panel displays on the right.
 
-    When you do not have enough people or budget available for your initiative, a red warning icon displays next to following sections: 
-  
-  * Required Job&nbsp;Roles
-  * Costs
+     When you do not have enough people or budget available for your initiative, a red warning icon displays next to following sections: 
+   
+   * Required Job&nbsp;Roles
+   * Costs
 
 1. (Conditional) For initiatives that have job role conflicts, go to the **Required Job Roles** section to view all job roles required for your initiative. Identify which job roles might be overallocated. Review the number of FTE ```or hours``` needed for each job role for each month of the initiative. The box with the FTE ```or hours``` number for months that have overallocations displays in a red outline.
 
@@ -209,19 +209,19 @@ For information about updating the available roles for a plan and a budget see [
 
 1. Do one of the following to resolve job role conflicts:
 
-  * Manually adjust the number of job roles for each month of the initiative to a lower number.
-  * Hover over the name of the job role and click the **delete icon** ![](assets/delete.png) to remove the job role from the initiative. 
-  * Select **Add roles to the scenario's available resources**, then click **Apply**.
+   * Manually adjust the number of job roles for each month of the initiative to a lower number.
+   * Hover over the name of the job role and click the **delete icon** ![](assets/delete.png) to remove the job role from the initiative. 
+   * Select **Add roles to the scenario's available resources**, then click **Apply**.
 
-    This adds the missing number of job role FTEs ```or hours``` to the scenario's Available field.
+     This adds the missing number of job role FTEs ```or hours``` to the scenario's Available field.
 
-    >[!NOTE]
-    >
-    >The roles you add to resolve the conflicts modify the Available job roles for the selected scenario and not for all the scenarios in the plan.
+     >[!NOTE]
+     >
+     >The roles you add to resolve the conflicts modify the Available job roles for the selected scenario and not for all the scenarios in the plan.
 
-    An upward-pointing green arrow ![](assets/upward-green-arrow.png) displays for the month in the timeline of the plan to indicate that more resources were added to the plan that month. You must select the Month view to see this indicator. 
-  
-  * (Conditional) Close the details panel and give the initiative a higher priority to receive budget resources from the plan first, if possible. For information about updating initiative priority, see [Update initiative priorities in the Adobe Workfront Scenario Planner](../scenario-planner/prioritize-initiatives.md).
+     An upward-pointing green arrow ![](assets/upward-green-arrow.png) displays for the month in the timeline of the plan to indicate that more resources were added to the plan that month. You must select the Month view to see this indicator. 
+   
+   * (Conditional) Close the details panel and give the initiative a higher priority to receive budget resources from the plan first, if possible. For information about updating initiative priority, see [Update initiative priorities in the Adobe Workfront Scenario Planner](../scenario-planner/prioritize-initiatives.md).
 
 1. (Optional) Click **Hide details** to close the additional details box, then click&nbsp;**Apply** to save the changes you make to job roles. 
 
@@ -263,22 +263,22 @@ For information about updating the available roles for a plan and a budget see [
 
 1. Do one of the following to resolve costs conflicts:
 
-  * Manually adjust the number of Fixed Costs for each month of the initiative to a lower number.
-  * In the **Required Job Roles** section, manually adjust the number of job roles for the month with a People Costs budget, if possible. This reduces the number of People Costs.
+   * Manually adjust the number of Fixed Costs for each month of the initiative to a lower number.
+   * In the **Required Job Roles** section, manually adjust the number of job roles for the month with a People Costs budget, if possible. This reduces the number of People Costs.
 
-    >[!TIP]
-    >
-    >You cannot manually adjust People Costs.
+     >[!TIP]
+     >
+     >You cannot manually adjust People Costs.
 
-  * Select **Add amount to the scenario's budget**, then click **Apply**.
+   * Select **Add amount to the scenario's budget**, then click **Apply**.
 
-    This adds the insufficient amount to the scenario's budget for the months where it was missing which also updates the overall scenario budget.
+     This adds the insufficient amount to the scenario's budget for the months where it was missing which also updates the overall scenario budget.
 
-    >[!NOTE]
-    >
-    >The amount you add to resolve the cost conflicts modify the Budget for the selected scenario and not for all the scenarios in the plan.
+     >[!NOTE]
+     >
+     >The amount you add to resolve the cost conflicts modify the Budget for the selected scenario and not for all the scenarios in the plan.
 
-  * (Conditional) Close the details panel and give the initiative a higher priority to receive budget resources from the plan first, if possible. For information about updating initiative priority, see [Update initiative priorities in the Adobe Workfront Scenario Planner](../scenario-planner/prioritize-initiatives.md).
+   * (Conditional) Close the details panel and give the initiative a higher priority to receive budget resources from the plan first, if possible. For information about updating initiative priority, see [Update initiative priorities in the Adobe Workfront Scenario Planner](../scenario-planner/prioritize-initiatives.md).
 
 1. Click **Apply**when you make any changes to the Costs section. 
 1. Click **Save plan** to save your changes.

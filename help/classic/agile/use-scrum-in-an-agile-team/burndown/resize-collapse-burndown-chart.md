@@ -60,5 +60,6 @@ You must have the following access to perform the steps in this article:
    -->
 
    that contains the burndown chart you want to collapse.
-1. Click the arrow icon in the left of the Percent Complete status bar.
+1. Click the arrow icon in the left of the Percent Complete status bar.  
+   ![](assets/burndown-collapse-350x135.png)
 

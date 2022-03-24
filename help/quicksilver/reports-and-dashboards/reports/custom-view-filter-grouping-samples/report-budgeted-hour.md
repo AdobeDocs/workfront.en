@@ -77,9 +77,9 @@ You must have the following access to perform the steps in this article:
 
    Click the **Groupings** tab, then do one or several of the following:
 
-  1. Click&nbsp;**Add Grouping** and start typing "Project&nbsp;Name", then select it when it appears in the list.
-  1. Click **Add Grouping** and start typing "Job&nbsp;Role Name", then select it when it appears in the list.
-  1. Click **Add Grouping** and start typing **Allocation Date**, select it when it appears in the list, and then select the timeframe you want to group by from the **Group Dates by** field.
+   1. Click&nbsp;**Add Grouping** and start typing "Project&nbsp;Name", then select it when it appears in the list.
+   1. Click **Add Grouping** and start typing "Job&nbsp;Role Name", then select it when it appears in the list.
+   1. Click **Add Grouping** and start typing **Allocation Date**, select it when it appears in the list, and then select the timeframe you want to group by from the **Group Dates by** field.
 
 1. (Optional) Click&nbsp;**Filters** to add filters to the report.
 1. (Optional)&nbsp;Click&nbsp;**Chart** to add a chart to the report.

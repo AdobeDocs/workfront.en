@@ -44,17 +44,14 @@ You must have the following access to perform the steps in this article:
 When a user creates a project, their Home group is automatically assigned to the project. Users can change this group in the Project Details section at any time. You need to know what group is on a specific project to modify the default status for the issue Done button. To find the group associated with the project
 
 1. Go to a project.
-1. Project Details
-1. Project association
-1. Group
-1.
+1. On the left side of the page, click **Project Details**.
+1. Locate the **Project association** section, then find **Group**.  
+   This is the group name you need to use to change the status in the Setup area. See the following section for instructions on how to update the default status for a specific group.
 
 ## Update the default status for a specific group
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. In the left panel, click **Project Preferences**, then **Statuses**.
 
 1. Click **Requests**, then type the name of the group in the **System Statuses** search box located on the right.

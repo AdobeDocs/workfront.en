@@ -21,10 +21,8 @@ Contact your Adobe Workfront administrator.
 
 System administrators&nbsp;can update this setting as follows:
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. Expand **Timesheets & Hours**, then click&nbsp;**Preferences**.
 
 1. In the **General Preferences** section, select the **Log hours for future dates**.&nbsp;

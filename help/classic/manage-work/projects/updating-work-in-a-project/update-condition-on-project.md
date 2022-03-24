@@ -60,6 +60,8 @@ If you set your project's Condition Type to&nbsp;Manual instead of Progress Stat
 1. Go to the project for which you want to update the Condition. 
 1. Click the **Project Details** tab, then click&nbsp;**Edit Overview** on the **Overview** subtab.
 
+   ![](assets/project-details-edit-overview-enabled-with-condition-shot-classic-350x362.png)
+
 1. Ensure that the **Condition Type** field is set to **Manual**. 
 
 1. In the **Condition** field, select from the following options the one that matches your understanding of whether the work associated with it is going smoothly or whether there are any delays:

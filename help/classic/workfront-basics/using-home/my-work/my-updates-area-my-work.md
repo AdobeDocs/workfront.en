@@ -32,3 +32,5 @@ To access the My Updates area:
 
 1. In the Global Navigation Bar, click **My Updates**.
 
+   ![myupdates_Adobe.png](assets/myupdates-adobe-350x107.png)
+

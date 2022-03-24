@@ -43,10 +43,10 @@ You can view the ROI value for a project in the following areas in Workfront:
 
 * In the Project&nbsp;ROI field in the following lists and reports:&nbsp;
 
-  * Project
-  * Task
-  * Issue
-  * Project (Financial&nbsp;Data)
+   * Project
+   * Task
+   * Issue
+   * Project (Financial&nbsp;Data)
 
   For more information about building reports in Workfront, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

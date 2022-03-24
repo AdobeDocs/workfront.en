@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 
 ## Reset your password in Adobe Workfront
 
-1. Click your profile picture in the upper-right corner of Adobe Workfront. 
+1. Click your profile picture in the upper-right corner of Adobe Workfront.
 
    ![](assets/log-out-and-my-settings-links-350x155.png)
 

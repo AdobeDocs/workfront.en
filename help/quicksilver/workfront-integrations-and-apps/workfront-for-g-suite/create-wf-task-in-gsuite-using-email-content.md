@@ -127,12 +127,12 @@ Before you can create a Workfront task in G Suite, you must
 
 1. (Optional) Continue to work with the task in the Workfront for G Suite panel by doing any of the following:
 
-  * To add an update on the **Updates** tab, click **Start a new update** and type the update. 
-  
-  * To reply to an update on the **Updates** tab, click **Reply** and type your reply.
+   * To add an update on the **Updates** tab, click **Start a new update** and type the update. 
+   
+   * To reply to an update on the **Updates** tab, click **Reply** and type your reply.
 
-    For both of the above actions, you can notify particular users about your comment. Click&nbsp;**Notify**, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click **Post**.
-  
-  * Click the **Documents** tab to see any documents saved with the task.
+     For both of the above actions, you can notify particular users about your comment. Click&nbsp;**Notify**, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click **Post**.
+   
+   * Click the **Documents** tab to see any documents saved with the task.
 
 You can repeat these steps to convert the same email to multiple tasks. When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the Workfront for G Suite panel.

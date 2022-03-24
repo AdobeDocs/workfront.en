@@ -55,8 +55,7 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the issue that is linked to a project, task, or issue.
 1. Click the **Issue Details** section.
-1. Go to the **Overview** area of the **Issue Details** section.  
-
+1. Go to the **Overview** area of the **Issue Details** section. 
 1. In the **Resolved By** field, remove the resolvable object type.   
    An issue can be resolved by a project, task or issue.
 

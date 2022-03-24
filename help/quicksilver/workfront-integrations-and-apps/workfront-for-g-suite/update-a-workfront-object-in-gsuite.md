@@ -76,10 +76,10 @@ Before you can update a Workfront object in G Suite, you must
 
 1. (Optional) To tag users or teams:
 
-  1. Click **Notify**.
-  1. Click **Search for a user or team**, type the name of the user or team, then click the name when you see it in the list that appears below. 
-  1. Click **Save**.
-  1. Repeat these three steps for any other users or teams you want to notify.
+   1. Click **Notify**.
+   1. Click **Search for a user or team**, type the name of the user or team, then click the name when you see it in the list that appears below. 
+   1. Click **Save**.
+   1. Repeat these three steps for any other users or teams you want to notify.
 
 1. Click **Post**.
 

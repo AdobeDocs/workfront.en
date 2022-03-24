@@ -64,16 +64,16 @@ To grant financial permissions to an object:
 
 1. If a drop-down menu appears to the right of the name you selected, click one of the following options that is available:
 
-  * **View it**
-  * **Contribute to it**
-  * **Manage it**
+   * **View it**
+   * **Contribute to it**
+   * **Manage it**
 
-    ![](assets/12.png)&nbsp; &nbsp; &nbsp; ![](assets/13.png) ![](assets/14.png)
+     ![](assets/12.png)&nbsp; &nbsp; &nbsp; ![](assets/13.png) ![](assets/14.png)
 
 1. In the same drop-down menu, click **Advanced Settings**, then do one of the following:
 
-  * If you selected one of the three options in the previous step, make sure **View Finance** is selected.
-  * If you selected **Manage Finance** in the previous step, make sure **Manage Finance** is selected.
+   * If you selected one of the three options in the previous step, make sure **View Finance** is selected.
+   * If you selected **Manage Finance** in the previous step, make sure **Manage Finance** is selected.
 
 1. Click **Save**.
 

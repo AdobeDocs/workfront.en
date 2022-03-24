@@ -144,7 +144,9 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
    >[!NOTE]
    >
-   >To export a Dashboard report, you must have a Plan license.
+   >To export a Dashboard report, you must have a Plan license.  
+   >![](assets/classic-dashboard-export-note-350x297.png)   >
+   >
 
    The options available to you for PDF export depend on the locale settings in your Workfront user settings:
 

@@ -34,7 +34,7 @@ To match the modern look of other areas in the new Workfront experience, the sty
 * A new Restricted Access icon
 * Other minor design changes
 
-For more information on assignments in lists, see Assign tasks or Assign issues.
+For more information on assignments in lists, see [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md) or [Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
@@ -54,7 +54,7 @@ To match the modern look of other areas in the new Workfront experience, the sty
 * When you click a typeahead field, the suggestions menu now displays before you enter text. 
 * The suggestions menu is more responsive to the length of values and these values are now truncated at the end when the character limit is met instead of in the middle of the value.
 
-For information on updated lists, see the The difference between the updated and the legacy lists section in the article Get started with lists in&nbsp;Adobe Workfront.
+For information on updated lists, see the [The difference between the updated and the legacy lists](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) section in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)
 

@@ -93,11 +93,11 @@ Cloning a scenario creates a copy of the scenario, which you can then edit.
 
 1. Open the scenario detail page:
 
-  1. Click the **Scenario** tab in the left panel, then click a scenario you would like details on.
+   1. Click the **Scenario** tab in the left panel, then click a scenario you would like details on.
 
-     Or
+      Or
 
-     If you are working on the scenario in the [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
+      If you are working on the scenario in the [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
 1. Right click **Options** at the upper-right of the page.
 1. Select **Clone**.

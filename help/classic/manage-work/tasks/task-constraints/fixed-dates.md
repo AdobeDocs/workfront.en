@@ -19,6 +19,8 @@ Consider the following when using the Fixed Dates constraint:
 * The Duration field of the task is not editable when using the FIXT constraint. Duration is calculated as the difference between the Planned Start and Planned Completion Dates of the task. 
 * If the Duration Type of the task is Effort Driven, the number of assignees on the task also affect the Duration of the task.
 
+  ![fixed_dates_constraint.png](assets/fixed-dates-constraint-350x48.png)
+
 * When you move or copy a task with a FIXT constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
 
    * When the destination project is scheduled From Start:
@@ -43,7 +45,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <p>To update the Task Constraint to Finish No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> Click <strong>Edit Task</strong>. </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Edit Task</strong>.</p> </li>
 <li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
 <li value="4"> <p>Select <strong>Fixed Dates</strong>.</p> </li>
 <li value="5"> <p>Specify a <strong>Planned Start Date</strong>.</p> <p>The task must start on this date. </p> </li>

@@ -76,17 +76,19 @@ To manually set the Condition of a task or an issue:
 
 1. Change the Condition of the issue or task as follows:
 
-  * If you are assigned to the task or issue and have Manage permissions to it, on the **Updates** tab, click **Start a new update**, select the **Condition** that best reflects how the task is going, type your reason for changing the Condition in the **Start a new update** area (optional) , then click **Update**.
+   * If you are assigned to the task or issue and have Manage permissions to it, on the **Updates** tab, click **Start a new update**, select the **Condition** that best reflects how the task is going, type your reason for changing the Condition in the **Start a new update** area (optional) , then click **Update**.
 
-  * If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the **Condition** column to any view you use in a task or issue list, then set the **Condition** in inline edit and press Enter.
+     ![](assets/change-condition-update-comment-350x141.png)
 
-    ![](assets/change-condition-in-list-view-350x142.png)
+   * If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the **Condition** column to any view you use in a task or issue list, then set the **Condition** in inline edit and press Enter.
 
-    For information about adding a column to a view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+     ![](assets/change-condition-in-list-view-350x142.png)
 
-    >[!NOTE]
-    >
-    >```Conditions can be customized for your environment, so you``` ```may``` ``` find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).```
+     For information about adding a column to a view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-    For information about the additional functionality that is available when updating a work item, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     >[!NOTE]
+     >
+     >```Conditions can be customized for your environment, so you``` ```may``` ``` find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).```
+
+     For information about the additional functionality that is available when updating a work item, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

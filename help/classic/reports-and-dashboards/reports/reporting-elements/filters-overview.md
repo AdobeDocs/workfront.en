@@ -331,7 +331,7 @@ When changing your AND statements to OR statements, the number of the items in y
 <h3><a name="Customizing_an_Existing_Filter"></a><strong>Customize an existing filter</strong> </h3>
 <ol>
 <li value="1">Go to the report or list that contains the Filter that you want to customize. </li>
-<li value="2">Click the <strong>Filter</strong> drop-down list.<br></li>
+<li value="2">Click the <strong>Filter</strong> drop-down list.<br><img src="assets/screen-shot-2013-09-05-at-9.55.17-am-350x481.png" alt="" style="width: 350;height: 481;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
 <li value="3">Select the <strong>Filter</strong> that you want to customize, then click <strong>Customize Filter</strong>.</li>
 <li value="4">The interface builder for customizing the Filter is launched.</li>
 <li value="5">Do any of the following:<br>

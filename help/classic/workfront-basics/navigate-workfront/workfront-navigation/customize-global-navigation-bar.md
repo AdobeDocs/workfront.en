@@ -43,5 +43,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) In the **When I log in, show:** field, select the default landing page for your Workfront web application.
 1. Click the **In the Global Nav bar, show:** drop-down list, then select the areas that you want to show in the Global Navigation Bar.
 
+   ![planner_preferences_in_my_settings.png](assets/planner-preferences-in-my-settings-350x282.png)
+
 1. Click **Save Changes**.
 

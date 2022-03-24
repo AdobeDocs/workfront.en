@@ -428,7 +428,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Goals enhancements
 
-Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see  Workfront Goals with the 21.2 release.
+Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see [Workfront Goals with the 21.2 release](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FProduct_Announcements%2FProduct_releases%2FGoals_release_activity%2FGoals_21.2_release%2Fgoals-release-21-2.htm).
 
 ## Workfront Scenario Planner enhancements
 
@@ -436,7 +436,7 @@ Most new features coming to Workfront Goals release with the 21.2 release. For i
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.</p>
 -->
 
-New features coming to Workfront Scenario Planner release with the 21.2 release. For information about these new features now available in Preview, see Workfront Scenario Planner with the 21.2 release.
+New features coming to Workfront Scenario Planner release with the 21.2 release. For information about these new features now available in Preview, see [Workfront Scenario Planner with the 21.2 release](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FProduct_Announcements%2FProduct_releases%2FScenario_Planner_release_activity%2Fsp-release-21-2.htm).
 
 ## Workfront Fusion enhancements
 

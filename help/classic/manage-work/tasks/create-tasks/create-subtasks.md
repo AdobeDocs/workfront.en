@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 ### Create subtasks from the task list
 
 1. Go to the&nbsp;project where you want to create&nbsp;subtasks.
-1. Tasks
+1. Click the **Tasks**&nbsp;tab.
 1. (Conditional) If the task that you want to make the child task is not already located directly beneath the task that you want make the parent, drag it to the appropriate location in the task list.
 1. Select the&nbsp;task that you want to make a subtask and do one of the following:
 
@@ -64,12 +64,14 @@ You must have the following access to perform the steps in this article:
    >
    >You can&nbsp;indent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.&nbsp;
 
-Create subtasks from the task Subtasks tab
+### Create subtasks from the task Subtasks tab
 
 1. Go to the&nbsp;project where you want to create&nbsp;subtasks.
-1. Tasks
+1. Click the **Tasks**&nbsp;tab.
 1. Click the name of the task where you want to create a subtask.
-1. Click the **Subtasks**&nbsp;tab. 
+1. Click the **Subtasks**&nbsp;tab.
+
+   ![](assets/cs2-350x100.png)
 
 1. Click **New Task.**
 
@@ -80,7 +82,7 @@ Create subtasks from the task Subtasks tab
 ## Make a subtask a main task
 
 1. Go to the&nbsp;project where you want to make a subtask a main task.
-1. Tasks
+1. Click the **Tasks** tab.
 1. Select the subtask that you want to make a main task.
 1. Click the **Outdent** icon to make the subtask a main task.
 

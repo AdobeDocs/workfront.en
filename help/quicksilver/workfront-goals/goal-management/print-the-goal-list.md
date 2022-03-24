@@ -77,10 +77,10 @@ You must have the following before you can start:
 1. Click&nbsp;**Print**. The Print box displays. 
 1. (Conditional) Depending on the browser you are using and other applications you have installed on your computer, you can select from the following destinations:
 
-  * Print to a printer
-  * Print to PDF
-  * Save the list of goals to a local or online drive (for example, Google Drive)
-  * Send the list of goals to another application (for example, One Note)
+   * Print to a printer
+   * Print to PDF
+   * Save the list of goals to a local or online drive (for example, Google Drive)
+   * Send the list of goals to another application (for example, One Note)
 
 1. (Optional) Adjust your printing options. 
 1. Click&nbsp;**Print**.

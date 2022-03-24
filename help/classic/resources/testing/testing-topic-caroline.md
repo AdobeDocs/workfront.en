@@ -47,27 +47,45 @@
   <tr> 
    <td>Projects</td> 
    <td>(All)</td> 
-   <td> Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab. </td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</p> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td>In a portfolio</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> <li value="2">Click the name of the portfolio, then open the <strong>Projects</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> 
+     <li value="2">Click the name of the portfolio, then open the <strong>Projects</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td>In a program</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> <li value="2">Click the name of a portfolio, then open the <strong>Programs</strong>tab.</li> <li value="3">Click the name of a program.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> 
+     <li value="2">Click the name of a portfolio, then open the <strong>Programs</strong>tab.</li> 
+     <li value="3">Click the name of a program.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Tasks</td> 
    <td> In a project</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project, then open the tasks tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project, then open the tasks tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td> In a task (these tasks are subtasks)</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project, then open the <strong>Tasks</strong>tab.</li> <li value="3">Click the name of a task, then open the <strong>Subtasks</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project, then open the <strong>Tasks</strong>tab.</li> 
+     <li value="3">Click the name of a task, then open the <strong>Subtasks</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Predecessor tasks*</td> 
@@ -77,126 +95,212 @@
   <tr> 
    <td>Issues</td> 
    <td>In a project</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project, then open the <strong>Issues</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project, then open the <strong>Issues</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td>In a task</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project, then open the <strong>Tasks</strong>tab.</li> <li value="3">Click the name of a task, then open the <strong>Issues</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project, then open the <strong>Tasks</strong>tab.</li> 
+     <li value="3">Click the name of a task, then open the <strong>Issues</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Portfolios</td> 
    <td>(All)</td> 
-   <td> Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab. </td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Programs</td> 
    <td>In a portfolio</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> <li value="2">Click the name of a portfolio, then open the <strong>Programs</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> 
+     <li value="2">Click the name of a portfolio, then open the <strong>Programs</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Reports</td> 
    <td>(All)</td> 
-   <td> Click <strong>Reporting</strong>on the global menu, then open the <strong>Reports</strong>tab. </td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Reporting</strong>on the global menu, then open the <strong>Reports</strong>tab.</p> </td> 
   </tr> 
   <tr> 
    <td>Dashboards</td> 
    <td>(All)</td> 
-   <td> Click <strong>Reporting</strong>on the global menu, then open the <strong>Dashboards</strong>tab. </td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Reporting</strong>on the global menu, then open the <strong>Dashboards</strong>tab.</p> </td> 
   </tr> 
   <tr> 
    <td>Users</td> 
    <td>(All)</td> 
-   <td>  <li value="1">Click <strong>People</strong>on the global menu.</li> <li value="2">Open the <strong>People</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>People</strong>on the global menu.</li> 
+     <li value="2">Open the <strong>People</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Timesheets*</td> 
    <td>(All)</td> 
-   <td> Click <strong>Timesheets</strong>on the global menu. </td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Timesheets</strong>on the global menu.</p> </td> 
   </tr> 
   <tr> 
    <td>Baselines</td> 
    <td> In a project</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of the project.</li> <li value="3">Click <strong>More</strong>&gt; <strong>Baselines</strong>.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of the project.</li> 
+     <li value="3">Click <strong>More</strong>&gt; <strong>Baselines</strong>.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Billing rates*</td> 
    <td>In a project</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project.</li> <li value="3">Click <strong>More</strong>&gt; <strong>Billing Rates</strong>.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project.</li> 
+     <li value="3">Click <strong>More</strong>&gt; <strong>Billing Rates</strong>.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Billing records</td> 
    <td>In a project</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project.</li> <li value="3">Click <strong>More</strong>&gt; <strong>Billing Records</strong>.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project.</li> 
+     <li value="3">Click <strong>More</strong>&gt; <strong>Billing Records</strong>.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Risks</td> 
    <td> In a project</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project, then open the <strong>Risks</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project, then open the <strong>Risks</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Expenses</td> 
    <td> In a project</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project, then click <strong>More</strong>&gt; <strong>Expenses</strong>.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project, then click <strong>More</strong>&gt; <strong>Expenses</strong>.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td>In a task</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project.</li> <li value="3">Click the name of a task, then click <strong>More</strong>&gt; <strong>Expenses</strong>.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project.</li> 
+     <li value="3">Click the name of a task, then click <strong>More</strong>&gt; <strong>Expenses</strong>.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Hour entries</td> 
    <td>In a project</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project, then click <strong>More</strong>&gt; <strong>Expenses</strong>.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project, then click <strong>More</strong>&gt; <strong>Expenses</strong>.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td>In a task</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project.</li> <li value="3">Click the name of a task, then open the <strong>Hours</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project.</li> 
+     <li value="3">Click the name of a task, then open the <strong>Hours</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td> In an issue</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project.</li> <li value="3">Click the name of a task, then open the <strong>Issues</strong>tab.</li> <li value="4">Click the name of an issue, then open the <strong>Hours</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project.</li> 
+     <li value="3">Click the name of a task, then open the <strong>Issues</strong>tab.</li> 
+     <li value="4">Click the name of an issue, then open the <strong>Hours</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>Documents</td> 
    <td>(All)</td> 
-   <td> Click <strong>Documents</strong>on the global menu </td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Documents</strong>on the global menu</p> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td> in a project</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project, then open the <strong>Documents</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project, then open the <strong>Documents</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td> In a task</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project.</li> <li value="3">Click the name of a task, then open the <strong>Documents</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project.</li> 
+     <li value="3">Click the name of a task, then open the <strong>Documents</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td> In an issue</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> <li value="2">Click the name of a project.</li> <li value="3">Click the name of a task, then open the <strong>Issues</strong>tab.</li> <li value="4">Click the name of an issue, then open the <strong>Documents</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Projects</strong>tab.</li> 
+     <li value="2">Click the name of a project.</li> 
+     <li value="3">Click the name of a task, then open the <strong>Issues</strong>tab.</li> 
+     <li value="4">Click the name of an issue, then open the <strong>Documents</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td>In a portfolio</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> <li value="2">Click the name of a portfolio, then open the <strong>Documents</strong>tab.</li>  </td> 
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> 
+     <li value="2">Click the name of a portfolio, then open the <strong>Documents</strong>tab.</li> 
+    </ol> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td>In a program</td> 
-   <td>  <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> <li value="2">Click the name of a portfolio, then open the <strong>Programs</strong>tab.</li> <li value="3">Click the name of a program, then open the <strong>Documents</strong>tab.</li>  </td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">Associated with a user</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> 
-   <ol> 
-    <li value="1">Click <strong>People</strong>on the global menu.</li> 
-    <li value="2">Open the <strong>People</strong>tab.</li> 
-    <li value="3">Click the name of the user (not the email address), then open the <strong>Documents</strong>tab.</li> 
-   </ol> </td>  
+   <td> 
+    <ol data-mc-conditions="QuicksilverOrClassic.Classic"> 
+     <li value="1">Click <strong>Projects</strong>on the global menu, then open the <strong>Portfolios</strong>tab.</li> 
+     <li value="2">Click the name of a portfolio, then open the <strong>Programs</strong>tab.</li> 
+     <li value="3">Click the name of a program, then open the <strong>Documents</strong>tab.</li> 
+    </ol> </td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td>&nbsp;</td> 
+   <td>Associated with a user</td> 
+   <td> 
+    <ol> 
+     <li value="1">Click <strong>People</strong>on the global menu.</li> 
+     <li value="2">Open the <strong>People</strong>tab.</li> 
+     <li value="3">Click the name of the user (not the email address), then open the <strong>Documents</strong>tab.</li> 
+    </ol> </td> 
+  </tr> 
  </tbody> 
 </table>
 

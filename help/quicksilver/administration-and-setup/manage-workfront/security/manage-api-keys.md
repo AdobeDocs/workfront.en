@@ -87,14 +87,14 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
 
-  1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).&nbsp;&nbsp;
-  
-  1. Expand **System**, then click **Single Sign-on (SSO)**.  
-     ![](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).&nbsp;&nbsp;
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.  
+      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)  
 
-  1. Disable the checkbox requiring SSO authentication.
+   1. Disable the checkbox requiring SSO authentication.
 
-     For example, if your organization uses SAML 2.0, disable **Only Allow SAML 2.0 Authentication**.
+      For example, if your organization uses SAML 2.0, disable **Only Allow SAML 2.0 Authentication**.
 
 1. In the address bar of a browser, enter the following API call:
 
@@ -104,12 +104,12 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
-  1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).&nbsp;
-  
-  1. Expand **System**, then click **Single Sign-on (SSO)**.
-  
-  1. Select your SSO method in the **Type** drop down menu.
-  1. Check the checkbox requiring SSO authentication.
+   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).&nbsp;
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.
+   
+   1. Select your SSO method in the **Type** drop down menu.
+   1. Check the checkbox requiring SSO authentication.
 
 ## Configure when API keys expire
 
@@ -180,15 +180,15 @@ After you have obtained the X.509 certificate from your Certificate Authority, y
 1. On your workstation, browse to and select the X.509 certificate that you previously downloaded.
 1. (Optional) Click **View Details**&nbsp;next to the certificate name to view the following details about the certificate:
 
-  * Subject Common Name
-  * Subject Organization
-  * Subject Organization Unit
-  * Issuer Common Name
-  * Issuer Organization
-  * Issuer Organization Unit
-  * Serial Number
-  * Issue Date
-  * Expiration Date
+   * Subject Common Name
+   * Subject Organization
+   * Subject Organization Unit
+   * Issuer Common Name
+   * Issuer Organization
+   * Issuer Organization Unit
+   * Serial Number
+   * Issue Date
+   * Expiration Date
 
 1. Click **Save**.&nbsp;
 

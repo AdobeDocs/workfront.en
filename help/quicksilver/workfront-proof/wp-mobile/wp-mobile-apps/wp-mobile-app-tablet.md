@@ -43,15 +43,15 @@ The Workfront Proof tablet&nbsp;app gives you access to the dashboard with the p
 
 1. Do one of the following:
 
-  * Log in using your Workfront Proof credentials.
+   * Log in using your Workfront Proof credentials.
 
-    If you get a proof invitation email and open in on your mobile device, the link will take you to the proof in the app. You don’t have to be a user to be able to review proofs; however, you do have to have the app installed on your device to be able to view them.
-  
-  * If Single Sign-On is enabled in your account, tap that option on the login screen.
+     If you get a proof invitation email and open in on your mobile device, the link will take you to the proof in the app. You don’t have to be a user to be able to review proofs; however, you do have to have the app installed on your device to be able to view them.
+   
+   * If Single Sign-On is enabled in your account, tap that option on the login screen.
 
-    You will be taken to the login page that will ask you for your email address. After typing your email address, you will be redirected to your Identity Provider’s page where you will be able to log in using your password.
+     You will be taken to the login page that will ask you for your email address. After typing your email address, you will be redirected to your Identity Provider’s page where you will be able to log in using your password.
 
-    ![Login_screen.png](assets/login-screen-350x261.png)
+     ![Login_screen.png](assets/login-screen-350x261.png)
 
 ## The Dashboard
 
@@ -100,15 +100,15 @@ Another view that you may find useful is the *Recent* view - it shows you the pr
 
 1. Navigate in your proof:
 
-  * To jump to a specific page of the proof, swipe sideways or use the thumbnails list.
+   * To jump to a specific page of the proof, swipe sideways or use the thumbnails list.
 
-    You can also use the arrows at the bottom of the page or put in a specific page number.
-  
-  * To go to a different version of the proof, use the version drop-down menu at the top of the page.
-  * To zoom in, pinch the screen.
-  * To pan, press and hold and move the image around until you find the right position.
+     You can also use the arrows at the bottom of the page or put in a specific page number.
+   
+   * To go to a different version of the proof, use the version drop-down menu at the top of the page.
+   * To zoom in, pinch the screen.
+   * To pan, press and hold and move the image around until you find the right position.
 
-    Reviewing proofs in the mobile app is as simple as reviewing proofs using the Workfront Proof Viewer. Below we will take a closer look at adding comments and markups, managing feedback and making decisions. We will also discuss different options available in the sidebar of the app.
+     Reviewing proofs in the mobile app is as simple as reviewing proofs using the Workfront Proof Viewer. Below we will take a closer look at adding comments and markups, managing feedback and making decisions. We will also discuss different options available in the sidebar of the app.
 
 ## Comment in the app
 

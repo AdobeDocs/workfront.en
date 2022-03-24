@@ -73,12 +73,12 @@ You must have the following access to use the functionality in this article:
 
    The following details are listed for every execution of the scenario:
 
-  * Date when the run was **Started**
-  * **Status** (success or failed)
-  * Run **Duration**
-  * Number of **Operations** 
-  * Size of **Data Transfer**
-  * Link to **Details**
+   * Date when the run was **Started**
+   * **Status** (success or failed)
+   * Run **Duration**
+   * Number of **Operations** 
+   * Size of **Data Transfer**
+   * Link to **Details**
 
 ### View scenario execution history on the History tab
 

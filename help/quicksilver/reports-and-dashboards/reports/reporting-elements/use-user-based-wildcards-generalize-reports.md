@@ -54,7 +54,8 @@ For instructions on creating reports, see [Create a report](../../../reports-and
 ## Walk-through
 
 View the following video to learn how you can generalize the information in your reports and adapt them to the user who runs the report by using user-based wildcards.
-This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience. 
+
+This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience.
 
 [ ![](assets/video-user-based-wildcards-front-350x201.png)](https://workfront-video.wistia.com/medias/jfn0iczd8m)
 

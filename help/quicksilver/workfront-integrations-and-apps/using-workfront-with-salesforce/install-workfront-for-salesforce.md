@@ -66,8 +66,8 @@ You must have the following access to use the functionality described in this ar
 * You must have a Workfront instance with access to a system administrator account in order to configure the integration.
 * Salesforce users must have a Workfront account in order to be able to
 
-  * Create Workfront requests from Salesforce or
-  * View Workfront requests or projects in Salesforce.
+   * Create Workfront requests from Salesforce or
+   * View Workfront requests or projects in Salesforce.
 
 ## Installing Workfront for Salesforce
 

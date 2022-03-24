@@ -51,15 +51,16 @@ You must have the following access to perform the steps in this article:
 ## Export a project from Workfront to Microsoft Project
 
 <!--
-You can export a project from&nbsp;Workfront from the project page
-<span class="preview">or from a project list or report</span>.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can export a project from&nbsp;Workfront from the project page <span class="preview">or from a project list or report</span>.</p>
 -->
 
 1. Go to the project you want to export.
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
    <p>Or</p>
    <p>Go to a project list or report and select a project. </p>
+   </div>
    -->
 
 1. Click the **More** icon ![](assets/qs-more-menu.png), then click&nbsp;**Export MS Project**.    

@@ -49,7 +49,9 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
 
 ## How-to steps
 
-1. Start creating a report by going to the **Main menu** > **Reports**, then select the object of your report. Or
+1. Start creating a report by going to the **Main menu** > **Reports**, then select the object of your report.
+
+   Or
 
    Open an existing report, then click **Report Actions** > **Edit**.
 

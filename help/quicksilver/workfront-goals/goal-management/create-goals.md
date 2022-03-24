@@ -92,21 +92,26 @@ You can create a new goal in one of the following ways:
 
    Select from the following predefined options:
 
-  * The current year
-  * The quarters of the current year
-  * The next two years
-  * The quarters of the next two years
+   * The current year
+   * The quarters of the current year
+   * The next two years
+   * The quarters of the next two years
 
    Or
 
    Click **Define custom dates** to select a custom time frame. 
 
-1. (Conditional) Select a **Start date** and an **End date** for your goal, if you clicked **Define custom dates**. 
+1. (Conditional) Select a **Start date** and an **End date** for your goal, if you clicked **Define custom dates**.
 
-   ``` ```**Tips: **``````
-
-  * You can create a goal with dates in any time period, including up to 2 years in the past. 
-  * When defining custom dates, they are constrained by the initial date you selected. So if you select quarter and then custom dates, you can't go beyond that quarter.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * You can create a goal with dates in any time period, including up to 2 years in the past. 
+   >   * When defining custom dates, they are constrained by the initial date you selected. So if you select quarter and then custom dates, you can't go beyond that quarter.
+   >   
+   >
 
 1. (Optional) Click **Reset custom dates** to return to the predefined options.
 
@@ -128,24 +133,24 @@ You can create a new goal in one of the following ways:
    >
    >Do at least one of the following to be able to activate a goal: 
    >
-   >  
-   >  
-   >  * Add a Result
-   >  
-   >  
-   >    For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   >  
-   >  * Add an Activity
-   >  
-   >  
-   >    For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 
-   >  
-   >  * Align another goal to it
-   >  
-   >  
-   >    For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
-   >  
-   >  
+   >   
+   >   
+   >   * Add a Result
+   >   
+   >   
+   >     For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   >   
+   >   * Add an Activity
+   >   
+   >   
+   >     For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 
+   >   
+   >   * Align another goal to it
+   >   
+   >   
+   >     For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+   >   
+   >   
    >
 
 1. Click the **X** icon in the upper-right of the Goal Details panel to close it.

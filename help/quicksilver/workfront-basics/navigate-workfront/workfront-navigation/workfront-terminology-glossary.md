@@ -43,11 +43,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>An incomplete task in a current project that is not prevented from being worked on by a predecessor task and does not have a task constraint with a future planned start date. In other words, it can be worked on today.</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Activity</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">In Workfront Goals, an activity is a progress indicator for a goal. It can be a progress bar that you update manually, or a project that is associated with the goal. You cannot display activities in a report and you cannot access them through the Workfront API. For information about activities, see <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Get started with results and activities in Adobe Workfront Goals</a>.</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td>Activity</td> 
+   <td>In Workfront Goals, an activity is a progress indicator for a goal. It can be a progress bar that you update manually, or a project that is associated with the goal. You cannot display activities in a report and you cannot access them through the Workfront API. For information about activities, see <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Get started with results and activities in Adobe Workfront Goals</a>.</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td>Actual&nbsp;Cost</td> 
    <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all Actual&nbsp;Costs from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a></p> <p>.</p> </td> 
@@ -144,11 +146,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>For a Budgeted Hour report:</p> 
      <ul> 
       <li>Build this report when trying to understand the amount of Budgeted Hours that is allocated to your resources or to your projects in the Resource Planner.</li> 
-      <li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> 
-       <div class="tips" data-mc-autonum="<b>Tips: </b>"> <span class="autonumber"><span><b>Tips: </b></span></span> 
-        <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> 
-        <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p> 
-       </div> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> <p>For information about building a Budgeted Hour report, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>. </p> </li> 
+      <li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> <p>Tips:   <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p> </p> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> <p>For information about building a Budgeted Hour report, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>. </p> </li> 
      </ul> 
     </div> </td> 
    <td>&nbsp;</td> 
@@ -310,7 +308,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Breadcrumbs</td> 
-   <td> <p>The area at the top of the page that shows the hierarchical location of where the user is in the application.</p> For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>. </td> 
+   <td> <p>The area at the top of the page that shows the hierarchical location of where the user is in the application.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
@@ -479,9 +477,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Budgeted Labor Cost</td> 
    <td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field  may refer to the following:</p> 
     <ul> 
-     <li> <p>Labor costs displayed in the Resource Budgeting area of the Business Case or in the Resource Planner that are associated with the cost of job roles on a project. For information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;.&nbsp;</p> </li>  
-     <p>Labor costs displayed in the Resource Budgeted area of the Business Case that reflect the People Costs estimated in an initiative linked to the project from the Scenario Planner when you use the Scenario Planner to budget your project resources. For information about initiatives, see <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>. </p> 
-     <p>Note:  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p>  
+     <li> <p>Labor costs displayed in the Resource Budgeting area of the Business Case or in the Resource Planner that are associated with the cost of job roles on a project. For information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;.&nbsp;</p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Labor costs displayed in the Resource Budgeted area of the Business Case that reflect the People Costs estimated in an initiative linked to the project from the Scenario Planner when you use the Scenario Planner to budget your project resources. For information about initiatives, see <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>. </p> <p>Note:  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </li> 
      <li> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
       --> <!--
@@ -977,11 +974,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>This field displays the same information as the Duration field in minutes instead of days. </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Duration per Occurrence</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>This displays in the Task&nbsp;Details and the Edit Task boxes of a parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p>Note: <span>Durations modified in individual recurring tasks do not display the value indicated in this field. </span> </p> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td>  
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc,QuicksilverOrClassic.Quicksilver"> 
+   <td>Duration per Occurrence</td> 
+   <td> <p>This displays in the Task&nbsp;Details and the Edit Task boxes of a parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p>Note: <span>Durations modified in individual recurring tasks do not display the value indicated in this field. </span> </p> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Duration Type</td> 
    <td> <p>A task field that indicates how the work required to complete the task is allocated to the assignees across the task duration. It represents the relationship between the Duration of the task, the Work Required, and the amount of time, or Allocation, the assigned resources should spend on the task to complete it. </p> <p>This field appears on the Details tab of a task. </p> <p>Option are:</p> 
@@ -1114,11 +1113,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Folders are used to organize documents or reports associated with an object.</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> <!-- 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Form Types</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">If you create a report or list containing all of your custom forms, you can use this field as a view or filter to see which object types are associated with each form. </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> 
+    <td>Form Types</td> 
+    <td>If you create a report or list containing all of your custom forms, you can use this field as a view or filter to see which object types are associated with each form. </td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+   </tr>
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
     <td>FTE</td> 
@@ -1409,7 +1410,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Last Note</td> 
-   <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.</p> <span class="autonumber"><span><b>Note: </b></span></span>When this field is added to a Task report, any updates left on child objects—such as issues, subtasks, documents, etc.—of the task do not display in this column. </td> 
+   <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.</p> <p>Note: When this field is added to a Task report, any updates left on child objects—such as issues, subtasks, documents, etc.—of the task do not display in this column.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
@@ -1822,11 +1823,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td> <p>This is a full license type in the Workfront system. Users must have this to access all of the features in Workfront.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Plan (in the Scenario Planner)</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>A plan is the main object when working with the Workfront Scenario Planner. You can outline the strategy for your company's near and long-term future and identify each high-level outcome and add it as a plan to the Workfront Scenario Planner. </p> <p>You cannot display Scenario Planner plans in a report and you cannot access them through the Workfront API. </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td>Plan (in the Scenario Planner)</td> 
+   <td> <p>A plan is the main object when working with the Workfront Scenario Planner. You can outline the strategy for your company's near and long-term future and identify each high-level outcome and add it as a plan to the Workfront Scenario Planner. </p> <p>You cannot display Scenario Planner plans in a report and you cannot access them through the Workfront API. </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td>Planned</td> 
    <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in&nbsp;Workfront, you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p> <!--
@@ -2187,11 +2190,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td> <p>This field on a task report indicates whether&nbsp;an Agile task has been marked as Ready on the backlog. This flag only applies to Agile tasks, which are tasks assigned to an Agile team.&nbsp;</p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Recurrence Frequency</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>A field that displays in the Task Details or the Edit Task box of a parent of recurring tasks. It is the frequency with which the tasks in the recurrence occur. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td>Recurrence Frequency</td> 
+   <td> <p>A field that displays in the Task Details or the Edit Task box of a parent of recurring tasks. It is the frequency with which the tasks in the recurrence occur. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td>Reference Number</td> 
    <td> <p>Projects, tasks, and issues are automatically associated with a unique reference number as they are created. You can view the Reference Number in the Details page of projects, tasks, or issues, or in a list or report. </p> <p>Tip: You can defer to reference numbers when two items have the same name, as reference numbers are always unique. </p> <p>Workfront automatically generates sequential reference number at the system level. Each project, task, or issue gets the next available number in the sequence. <br></p> <p>For example, if User A creates a task, Workfront might automatically assign the task the Reference Number of 100. If User B creates an issue right after this, Workfront assigns the issue the Reference Number of 101. You cannot manually edit Reference Numbers. </p> </td> 
@@ -2332,11 +2337,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>A Report displaying the number of hours available during a certain time period and the number of hours scheduled for each user in the report. This is also calculated into Average Hours Per Day and an allocation percentage.</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Result</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">In Workfront Goals, a result is a progress indicator for a goal. It can be a number, a percentage value, or a currency amount that you update manually. You cannot display results in a report and you cannot access them through the Workfront API. For information about activities, see <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Get started with results and activities in Adobe Workfront Goals</a>.</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td>Result</td> 
+   <td>In Workfront Goals, a result is a progress indicator for a goal. It can be a number, a percentage value, or a currency amount that you update manually. You cannot display results in a report and you cannot access them through the Workfront API. For information about activities, see <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Get started with results and activities in Adobe Workfront Goals</a>.</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>Revenue</td> 
    <td>A billable amount for the task or project. The amount can be hourly, fixed, or a combination of both.</td> 
@@ -2432,11 +2439,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td> <p>A scenario is comprised of a series of steps (modules) that indicate how data should be transferred and transformed between apps/ services.</p> <p>For information about scenarios in Workfront Fusion, see <a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">Adobe Workfront Fusion scenario overview</a>.</p> </td> 
    <td>Optimized</td> 
    <td>&nbsp;</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Scenario (in the Workfront Scenario Planner) </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>In the Scenario Planner, a scenario is a copy of a plan. </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <p>For information, see <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md" class="MCXref xref">Create and compare plan scenarios in the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td>Scenario (in the Workfront Scenario Planner) </td> 
+   <td> <p>In the Scenario Planner, a scenario is a copy of a plan. </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <p>For information, see <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md" class="MCXref xref">Create and compare plan scenarios in the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td>Schedule</td> 
    <td>The weekly work schedule, including working times, combined with Days off (such as Holidays) and exception days (such as a Saturday work day). Schedules can be applied to Projects and Users.</td> 

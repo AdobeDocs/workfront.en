@@ -20,7 +20,7 @@ For information on setting up a portal, see [Set up a portal in Workfront Librar
 
 ## Add users to a portal
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. In the left panel, click **Portals**.
 
@@ -68,7 +68,7 @@ When you add a user grouping, all members of that grouping are given access to t
 
 Any user grouping that you add to the portal must first exist and be populated with users in Workfront.
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. In the left panel, click **Portals**.
 

@@ -20,9 +20,9 @@ For a list of all changes available with the 20.3 release, see [20.3 release ove
 
 Now, when the system administrator creates custom forms fields that are configured for formatting, you can format text in those fields where you use them the most: in lists throughout Workfront. Instead of going into the Details area to format text in the custom form, you can click a field in a list and apply Bold, Italics, and Underline to text there.
 
-Note that this functionality is available only in the updated lists. For more information about updated lists, see View items in a list.
+Note that this functionality is available only in the updated lists. For more information about updated lists, see [View items in a list](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html).
 
-For information about how a Workfront administrator creates text fields with formatting, see Create a Custom Form.
+For information about how a Workfront administrator creates text fields with formatting, see [Create a Custom Form](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
 ```<iframe class="vimeo-player_0" src="assets/434818101?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -60,7 +60,7 @@ In addition to an updated look and feel, the following improvements are availabl
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see “New Edit Object box” (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-For information about the new Edit Project box, see Edit projects.
+For information about the new Edit Project box, see [Edit projects](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FProjects%2FManage_projects%2Fedit-projects.html).
 
 ```<iframe class="vimeo-player_0" src="assets/430814318?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -76,7 +76,7 @@ The new Summary panel to the right of the documents list is now available with a
 
 Some actions are currently unavailable but will be added in a future release. These actions include the proofing workflow.
 
-For more information, see Summary for documents overview.
+For more information, see [Summary for documents overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FManaging_Documents%2Fsummary-for-documents.htm).
 
 ```<iframe class="vimeo-player_0" src="assets/434793918?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -95,7 +95,7 @@ Look for the following improvements in the Document Details page:
 * Larger preview thumbnail, allowing you to easily identify the document
 * Global Edit icon added, giving you the ability to edit multiple fields at once.
 
-For more information, see Document Details overview.
+For more information, see [Document Details overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FManaging_Documents%2Fdocument-details-overview.htm).
 
 ```<iframe class="vimeo-player_0" src="assets/434794293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

@@ -428,7 +428,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Goals enhancements
 
-Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see Adobe Workfront Goals with the 21.2 release.
+Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see [Adobe Workfront Goals with the 21.2 release](../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
 ## Workfront Scenario Planner enhancements
 
@@ -436,7 +436,7 @@ Most new features coming to Workfront Goals release with the 21.2 release. For i
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.</p>
 -->
 
-New features coming to Workfront Scenario Planner release with the 21.2 release. For information about these new features now available in Preview, see Adobe Workfront Scenario Planner with the 21.2 release.
+New features coming to Workfront Scenario Planner release with the 21.2 release. For information about these new features now available in Preview, see [Adobe Workfront Scenario Planner with the 21.2 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md).
 
 ## Workfront Fusion enhancements
 

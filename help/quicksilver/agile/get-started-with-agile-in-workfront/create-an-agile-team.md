@@ -79,7 +79,6 @@ The following functionality supports this methodology:
 ## Create a new agile team
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
-
 1. Click the **Switch Teams** icon ![Switch team icon](assets/switch-team-icon.png), then click **Create New Team**.
 
    ![Select Create new team.](assets/create-new-team-350x198.png)
@@ -97,9 +96,11 @@ The following functionality supports this methodology:
      <tr> 
       <td role="rowheader"><strong>This is an Agile Team</strong> </td> 
       <td>Select this option to configure this new team to be an agile team.</td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><strong>Group</strong> </td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Begin typing the name of a group to add to the team, then select the name when it appears in the drop-down list.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td>  
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><strong>Group</strong> </td> 
+      <td> <p>Begin typing the name of a group to add to the team, then select the name when it appears in the drop-down list.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Team Members</strong> </td> 
       <td>Begin typing the name of a user to be on the team, then select the name when it appears in the drop-down list.<br>Repeat this process to add multiple users to the team.<br>Because users can be on more than one team, they can be on both agile and non-agile teams.</td> 
@@ -115,23 +116,21 @@ The following functionality supports this methodology:
 
    For information on configuring an Agile team, see the following articles:
 
-  * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 
-  * [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
+   * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 
+   * [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
 ## Convert an existing team into an agile team
 
 You can&nbsp;convert an existing team to be&nbsp;an agile team:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Switch team
-1. 
 1. Select the team that you want to convert to an agile team.
-1. More
-1. Edit
-1. 
-1. 
-1. 
+1. Click the **More** menu, then select **Edit**.  
+   Only team members with either a Plan or Work license see this option.  
+   ![](assets/edit-team-settings-350x205.png)
+
 1. In the **Agile**&nbsp;section, select&nbsp;**This is an Agile Team**.
 
 1. In the **Methodology** section, select whether the team will be using a&nbsp;**Scrum**&nbsp;or&nbsp;**Kanban**&nbsp;agile methodology.  
@@ -140,6 +139,6 @@ You can&nbsp;convert an existing team to be&nbsp;an agile team:
 
    For information on configuring an Agile team, see the following articles:
 
-  * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 
-  * [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
+   * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 
+   * [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 

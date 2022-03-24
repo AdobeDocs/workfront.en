@@ -35,16 +35,17 @@ To budget time for your resources for the projects you plan to assign them to, y
   >
   >The Resource Budgeting area of a project is the Resource Planner at the project level. When you budget resources in the Business Case of a project, the information is also reflected in the system-level Resource Planner.
 
-* For managing resources at a high-level, across multiple initiatives, and align your work with your organization's strategy, use the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md). 
-* You can use the Scenario Planner both at the system-level, across multiple initiatives, as well as to budget resources for a single project in the Resource Budgeting area of the business case. &nbsp;For more information about budgeting resources for a project in the business case, see [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+* For managing resources at a high-level, across multiple initiatives, and align your work with your organization's strategy, use the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+
+  You can use the Scenario Planner both at the system-level, across multiple initiatives, as well as to budget resources for a single project in the Resource Budgeting area of the business case. &nbsp;For more information about budgeting resources for a project in the business case, see [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ## The purpose of the resource planning tools
 
 * Using the Resource Planner you can do the following:
 
-  * Prioritize your projects to decide which projects should receive resources first. (Only in the Resource Planner)
-  * Understand the availability of your resources based on the schedule of your users.
-  * Budget hour, FTE, or cost allocations for your resources (users and job roles) for the projects to which they are assigned.
+   * Prioritize your projects to decide which projects should receive resources first. (Only in the Resource Planner)
+   * Understand the availability of your resources based on the schedule of your users.
+   * Budget hour, FTE, or cost allocations for your resources (users and job roles) for the projects to which they are assigned.
 
   For information about working in the Resource Planner, see the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -123,27 +124,27 @@ The following prerequisites are required only when viewing the Resource Planner 
   >-->  >
   >
   >
-  >  
-  >  
-  >  
-  >  
-  >    <!--  >  
-  >    <li style="font-style: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The users do not appear in the Resource Planner although they might be assigned to tasks on the projects. </li>  >  
-  >    -->  >  
-  >  
-  >  
-  >  
-  >    <!--  >  
-  >    <li style="font-style: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks. </li>  >  
-  >    -->  >  
-  >  
-  >  
-  >  
-  >    <!--  >  
-  >    <li style="font-style: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted. </li>  >  
-  >    -->  >  
-  >  
-  >  
+  >   
+  >   
+  >   
+  >   
+  >     <!--  >   
+  >     <li style="font-style: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The users do not appear in the Resource Planner although they might be assigned to tasks on the projects. </li>  >   
+  >     -->  >   
+  >   
+  >   
+  >   
+  >     <!--  >   
+  >     <li style="font-style: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks. </li>  >   
+  >     -->  >   
+  >   
+  >   
+  >   
+  >     <!--  >   
+  >     <li style="font-style: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted. </li>  >   
+  >     -->  >   
+  >   
+  >   
   >
 
 * 

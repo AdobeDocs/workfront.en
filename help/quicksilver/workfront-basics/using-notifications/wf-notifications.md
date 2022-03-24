@@ -54,7 +54,7 @@ For a complete list of what email notifications have been enabled for a daily di
 
 >[!NOTE]
 >
->Workfront does not send any Daily digest notifications for the Miscellaneous and Goals categories of events. You cannot disable the Daily notifications for these categories.
+>Workfront does not send any Daily digest notifications for the Miscellaneous ```and Goals categories``` of events. You cannot disable the Daily notifications for ```these categories```.
 
 There are several things to be aware of when receiving daily digest notifications:
 
@@ -148,7 +148,7 @@ The following emails can only be configured at the user profile level. They cann
 <li> <p>A Pro or higher <a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>. </p> </li>
 <li> <p>An Adobe Workfront Goals license in addition to a Workfront license.</p> <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience. </p> </li>
 </ul>
-<p>For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.</p>
+<p>For additional information about access to Workfront Goals, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Requirements to use Adobe Workfront Goals</a>.</p>
 </div>
 <p>If you are a Workfront Goals user, you can configure notifications for yourself to receive communication about events happening in that area. For information, see <a href="../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md" class="MCXref xref" xrefformat="{para}">Enable Adobe Workfront Goals notifications</a>.</p>
 </div>

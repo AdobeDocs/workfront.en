@@ -35,19 +35,19 @@ The reviewers that were on the original proof automatically appear in the Share 
 1. (Optional) To rename your copy proof, type a new&nbsp;**Proof name**.
 1. (Optional) In the **Share** section, do any of the following:
 
-  * Add reviewers to the proof. See [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) for more information. For information about adding groups to a proof, see&nbsp; [Add Groups to a Proof](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).
-  
-  * Assign a proof Role to a reviewer. For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
-  * Set email alerts for reviewers. For more information, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
-  * Set a deadline. 
-  * Specify whether you want to send a notification email.&nbsp;For more information, see [Proof Notifications and Reminders.](https://support.workfront.com/hc/en-us/sections/115000920788-Proof-notifications-and-reminders)
-  * Include a custom subject and message in the notification email.
+   * Add reviewers to the proof. See [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) for more information. For information about adding groups to a proof, see&nbsp; [Add Groups to a Proof](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).
+   
+   * Assign a proof Role to a reviewer. For more information, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   * Set email alerts for reviewers. For more information, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   * Set a deadline. 
+   * Specify whether you want to send a notification email.&nbsp;For more information, see [Proof Notifications and Reminders.](https://support.workfront.com/hc/en-us/sections/115000920788-Proof-notifications-and-reminders)
+   * Include a custom subject and message in the notification email.
 
 1. In the **Organize** section, do any of the following:
 
-  * Add the proof to a folder. For more information, see [Create Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
-  * If the folder is shared, check the list of people the folder is shared with. For more information, see [Share Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
-  * Apply one or more tags to the proof. For more information, see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
+   * Add the proof to a folder. For more information, see [Create Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+   * If the folder is shared, check the list of people the folder is shared with. For more information, see [Share Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
+   * Apply one or more tags to the proof. For more information, see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).
 
 1. In the **More** settings section, select the&nbsp; [Configure Proof Settings in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)&nbsp;you want. For more information, see [Configure Proof Settings in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)The selections made in this section display in the Proof details page (where some fields can be edited). For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 

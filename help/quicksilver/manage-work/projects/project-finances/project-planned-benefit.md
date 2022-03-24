@@ -61,7 +61,7 @@ You can view or update the Planned Benefit of a project in the following areas i
 ## Update the Planned Benefit of a project
 
 1. Go to a project for which you wish to update the Planned Benefit.
-1. Click **Business Case** in the left panel. 
+1. Click **Business Case** in the left panel.
 1. Click **Edit Project Info** and specify the planned benefit amount in the **Planned Benefit** field.
 
 1. Click **Save**.

@@ -34,8 +34,8 @@ You must have the following to perform the steps in this article:
 
 ## Filter timesheets
 
-1. Timesheet
-1. All Timesheets
+1. Go to **Timesheet** in the Global Navigation bar.
+1. Click the **All Timesheets** tab.
 1. Configure the filter options.
 
    These include **Belonging To**, **Approver**, **Status**, and **Time Period**.
@@ -61,8 +61,8 @@ You must have the following to perform the steps in this article:
 
 ## Update user timesheets
 
-1. Timesheet
-1. All Timesheets
+1. Go to **Timesheet** in the Global Navigation bar.
+1. Click the **All Timesheets** tab.
 1. Set the filter options.
 
    For more information, see the [Filter timesheets](#filtering-timesheets) section in this article.

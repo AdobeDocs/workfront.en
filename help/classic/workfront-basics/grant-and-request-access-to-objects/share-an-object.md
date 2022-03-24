@@ -74,17 +74,22 @@ You must have the following to share objects:
 1. Go to the object you want to share.
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. 
-1. ```<li><span>When sharing a project, task, issue, portfolio, or program, </span>click the <strong>Actions</strong> menu, then click&nbsp;<strong>Sharing.</strong><br>For example, if you are sharing a project, click <strong>Project Actions</strong>, then<strong>Sharing.</strong><br><img src="assets/screen-shot-2013-12-04-at-1.07.49-pm.png" alt=""></li>```When sharing a document, click&nbsp;**Sharing**.
+1. Do either&nbsp;of the following, depending on the type of object you are sharing:
 
-   ![](assets/sharing-document-link-highlighted-classic-350x257.png)
+   * ```When sharing a project, task, issue, portfolio, or program,```click the **Actions** menu, then click&nbsp;**Sharing.** 
+     For example, if you are sharing a project, click **Project Actions**, then**Sharing.** 
+     ![](assets/screen-shot-2013-12-04-at-1.07.49-pm.png)
 
-   <!--
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>When sharing a document that does not contain a proof,</span> select the document that you want to share, then click <strong>Share</strong>&nbsp;> <strong>Document</strong>.<br><note type="tip">
-   You can share multiple documents at the same time by holding the Shift key to select multiple documents, then clicking
-   <strong>Share</strong>.
-   </note><br></li>
-   -->
+   * When sharing a document, click&nbsp;**Sharing**.
+
+     ![](assets/sharing-document-link-highlighted-classic-350x257.png)
+
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>When sharing a document that does not contain a proof,</span> select the document that you want to share, then click <strong>Share</strong>&nbsp;> <strong>Document</strong>.<br><note type="tip">   
+     You can share multiple documents at the same time by holding the Shift key to select multiple documents, then clicking   
+     <strong>Share</strong>.   
+     </note><br><img src="assets/sharing-document-350x193.png" alt="" style="width: 350;height: 193;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>   
+     -->
 
 1. In the **Give <Object Name> access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
@@ -93,6 +98,8 @@ You must have the following to share objects:
    >[!TIP]
    >
    >You can share an object only with active users, teams, ```roles,``` or companies.
+
+   ![](assets/screen-shot-2013-12-04-at-1.08.37-pm-350x395.png)
 
    ``` ```**Tip: **`````` If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
 
@@ -132,6 +139,8 @@ You must have the following to share objects:
 1. (Optional)&nbsp;To make this object available to all users in the system, click the **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) , then in the drop-down menu click **Make this visible system-wide**.
 
    All users can&nbsp;see the object based on the permissions that you set.
+
+   ![](assets/sharing-systemwide-350x170.png)
 
 1. (Optional and conditional) When sharing a project, click the **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg), then in the drop-down menu click **Set as my project access template**&nbsp;to set the permissions as a template.  
    After you have defined permissions on one project, these same permissions are automatically applied the next time you create a project from scratch.
@@ -178,6 +187,8 @@ To share objects in bulk:
 1. In the **Edit <Object Name> access for** field, start typing the name of a user, team, group, job role, or company to which you want to grant permissions.
 
    For example, if you are sharing a project, use the **Give project access for**&nbsp;field.
+
+   ![](assets/screen-shot-2014-05-29-at-2.54.51-pm-350x405.png)
 
 1. Continue sharing the selected objects as described in steps 4-9 in the section [Share a single object](#share) in this article. 
 1. Click **Save**.

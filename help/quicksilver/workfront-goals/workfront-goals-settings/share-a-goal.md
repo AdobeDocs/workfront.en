@@ -80,8 +80,8 @@ Before you begin, you must have the following:
 
 * You can share the following types of goals with others:
 
-  * A goal you created 
-  * A goal created by someone else to which you were given permissions to Manage.
+   * A goal you created 
+   * A goal created by someone else to which you were given permissions to Manage.
 
 * If you have Manage permissions to a goal, you can change the permissions on the goal for the goal creator. By default, they have&nbsp;Manage permissions when they create the goal, but you can change them to View.
 
@@ -107,12 +107,12 @@ Before you begin, you must have the following:
 
 1. Do one of the following:
 
-  * Select the **Manage system-wide** setting to give Manage permissions to everyone in the system who has Edit access to Goals in their access level. This is deselected by default for all new goals. 
-  * Start typing the name of a user that you want to give Manage permissions to in the **Give Manage access to** box. Select the name when it appears in the list.
+   * Select the **Manage system-wide** setting to give Manage permissions to everyone in the system who has Edit access to Goals in their access level. This is deselected by default for all new goals. 
+   * Start typing the name of a user that you want to give Manage permissions to in the **Give Manage access to** box. Select the name when it appears in the list.
 
-    >[!TIP]
-    >
-    >You can only share a goal with other users. You cannot share goals with groups, teams, or companies.
+     >[!TIP]
+     >
+     >You can only share a goal with other users. You cannot share goals with groups, teams, or companies.
 
 1. Click **Share**.
 

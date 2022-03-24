@@ -11,18 +11,17 @@ description: As a Workfront Library administrator, you can set up your organizat
 
 As a Workfront Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **Setup** > **Taxonomy**.
 1. Click **Add Field**, then select the type of field you want to add to your taxonomy.
 
    You can choose from the following field types:
 
-  * Custom
-  * Attribute
-  * EXIF
-  * XMP
+   * Custom
+   * Attribute
+   * EXIF
+   * XMP
 
 ### Custom
 
@@ -60,10 +59,10 @@ The metadata for attribute fields is derived from the device or application used
 
    You can choose from the following attributes:
 
-  * File Extension
-  * Size
-  * Modified Date
-  * Created Date
+   * File Extension
+   * Size
+   * Modified Date
+   * Created Date
 
 1. Click **Save**.
 

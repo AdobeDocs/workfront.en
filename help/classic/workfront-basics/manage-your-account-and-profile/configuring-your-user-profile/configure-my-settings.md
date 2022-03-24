@@ -185,10 +185,9 @@ The following grid shows what sections in the My Settings area are visible&nbsp;
 
 ## Configuring the My Settings area
 
-1. My Settings
-1. 
-1. 
-1. 
+1. Click your profile picture in the upper-right corner of the Global Navigation Bar, then click **My Settings**.  
+   ![](assets/log-out-and-my-settings-links-350x155.png)  
+
 1. Depending on your access level, you can update&nbsp;the following sections:
 
    * [Personal Info](#personal-info) 
@@ -483,7 +482,7 @@ Your Workfront administrator must configure custom forms for the user object in 
 
 ### Comment
 
-You can record&nbsp;a comment on your user profile which is stored on the Updates tab of your user.&nbsp; 
+You can record&nbsp;a comment on your user profile which is stored on the Updates tab of your user.&nbsp;
 
 ![](assets/make-comments-on-user-profile-350x152.png)
 

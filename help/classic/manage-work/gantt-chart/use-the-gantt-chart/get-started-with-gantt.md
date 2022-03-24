@@ -35,7 +35,7 @@ The task list Gantt Chart is accessible in the following areas:
 
 To access the task list Gantt Chart, navigate to any of the areas mentioned above and click the Gantt Chart icon.
 
-![Gantt_icon.png](assets/gantt-icon-350x170.png)  
+![Gantt_icon.png](assets/gantt-icon-350x170.png)
 
 ### Project list Gantt Chart
 
@@ -43,9 +43,16 @@ The project list Gantt Chart is accessible in the following areas:
 
 * Within the Projects tab
 
+   * Projects I Own
+   * Projects I'm On
+   * All Projects
+
 * Within a Portfolio
 
-   * Projects tab
+   * Projects tab 
+   * Active Projects
+   * Requested Projects
+   * All Projects
 
 * Within a Project Report
 
@@ -53,7 +60,12 @@ The project list Gantt Chart is accessible in the following areas:
 
 * Within a Program
 
+   * Active Projects
+   * All Projects
+
 To access the project list Gantt Chart, navigate to any of the areas mentioned above and click the Gantt Chart icon.
+
+![Screen_Shot_2018-05-04_at_10.08.57_AM.png](assets/screen-shot-2018-05-04-at-10.08.57-am-350x88.png)
 
 ## Configure how information displays on the Gantt Chart
 

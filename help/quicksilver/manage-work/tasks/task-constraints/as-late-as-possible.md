@@ -27,7 +27,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <p>To update the Task Constraint to As Late As Possible:&nbsp;</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click&nbsp;<strong>Edit</strong>. </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click&nbsp;<strong>Edit</strong>.</p> </li>
 <li value="3"> <p>In the&nbsp;<strong>Overview</strong>&nbsp;section, expand the&nbsp;<strong>Task Constraint</strong>&nbsp;drop-down menu.</p> </li>
 <li value="4"> <p>Select&nbsp;<strong>As Late As Possible</strong>.</p> </li>
 <li value="5">Click <strong>Save Changes</strong>.&nbsp;</li>

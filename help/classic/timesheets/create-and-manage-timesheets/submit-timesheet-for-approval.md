@@ -75,9 +75,13 @@ Without these notifications, you can learn about the status of your submitted ti
 
 To view the status of a timesheet:
 
-1. Timesheet
-1. Back to Timesheets.
-1. Click the **My Timesheets** tab. A list of all your timesheets displays. The status of the timesheet displays under the timesheet time frame.   ![](assets/my-timesheets-list-various-statuses-classic-350x179.png)
+1. Go to the **Timesheet** area in your Global Navigation Bar.&nbsp;
+1. Click **Back to Timesheets.**
+1. Click the **My Timesheets** tab.
+
+   A list of all your timesheets displays. The status of the timesheet displays under the timesheet time frame.
+
+   ![](assets/my-timesheets-list-various-statuses-classic-350x179.png)
 
    Timesheets may have the following statuses:
 
@@ -114,7 +118,7 @@ You can recall a timesheet that has already been submitted for approval. Only ti
 
 To recall a timesheet:
 
-1. Timesheets
+1. Go to **Timesheets** in the Global Navigation Bar.
 1. Select a timesheet with a status of Submitted.
 1. Click **Recall**.
 

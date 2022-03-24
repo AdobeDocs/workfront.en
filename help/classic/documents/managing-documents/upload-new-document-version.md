@@ -67,7 +67,7 @@ You must have the following:
 1. Select the document where you want to add a new version. 
 1. Click **Add New** ```>``` **Version** ```.```
 
-   ![](assets/classic-new-version-350x183.png)   
+   ![](assets/classic-new-version-350x183.png)
 
 1. Select the type of document you want to upload, then follow the prompts.
 

@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 ## View a calendar report
 
-1. Go to **Reporting** in the Global&nbsp;Navigation Bar. 
+1. Go to **Reporting** in the Global&nbsp;Navigation Bar.
 1. Click the **Calendars**&nbsp;tab, then select the calendar you want to view.
 
    Depending on your access level, you might see the following calendars listed:

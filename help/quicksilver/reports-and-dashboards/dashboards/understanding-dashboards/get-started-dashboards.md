@@ -69,7 +69,8 @@ You can share a dashboard with users in the following ways:
   For more information on creating custom sections, see [Simplified left navigation in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
 * Place the dashboards on layout templates which you can share with users.  
-  For more information about sharing dashboards through layout templates, see Customize the left panel using a layout template.
+  For more information about sharing dashboards through layout templates, see [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+
 * Print a hard copy of them to share with users.  
   For more information about printing dashboards, see [Print a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
@@ -93,25 +94,25 @@ You can display a dashboard in the following ways:
 
 ## Access a dashboard
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Dashboards**. 
-
+1. Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Dashboards**.
 1. Hover over the left sidebar, then select any of the following:
 
-  * **My Dashboards**: Dashboards you have built are listed here.
+   * **My Dashboards**: Dashboards you have built are listed here.
 
-    >[!TIP]
-    >
-    >If you don't have Edit access to&nbsp;Reports,&nbsp;Dashboards, and Calendars in your access level, you cannot create dashboards. In this case, the My Dashboards list is empty.
+     >[!TIP]
+     >
+     >If you don't have Edit access to&nbsp;Reports,&nbsp;Dashboards, and Calendars in your access level, you cannot create dashboards. In this case, the My Dashboards list is empty.
 
-  * **Shared Dashboards**: Dashboards that are created by other users and shared with you are listed here.
-  * **All Dashboards**: Both your and other users' dashboards that are shared with you are listed here.
+   * **Shared Dashboards**: Dashboards that are created by other users and shared with you are listed here.
+   * **All Dashboards**: Both your and other users' dashboards that are shared with you are listed here.
 
    ![](assets/nwe-dashboards-area-350x490.png)
 
 1. Click the name of a dashboard to display it.  
    The dashboard displays the information included in the reports, calendars, or external pages that populate it.
 1. (Optional and conditional) Click the **Reload** icon in the upper right of the dashboard to refresh the information on the dashboard.  
-   The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.
+   The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.  
+   ![](assets/qs-reload-icon-350x150.png)
 
 ## Delete dashboards
 

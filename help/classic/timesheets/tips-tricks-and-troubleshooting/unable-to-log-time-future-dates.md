@@ -21,7 +21,7 @@ Contact your Adobe Workfront administrator.
 
 System administrators&nbsp;can update this setting as follows:
 
-1. Setup
+1. Click **Setup**&nbsp;in the Global Navigation Bar.
 1. Expand **Timesheets & Hours**, then click&nbsp;**Preferences**.
 
 1. In the **General Preferences** section, select the **Log hours for future dates**.&nbsp;

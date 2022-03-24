@@ -69,16 +69,16 @@ You must have the following to perform the steps in this article:
 
    When it is unlocked, you and other group administrators can configure it separately for your own groups. Also, you can lock it for your group and any subgroups below your group.
 
-  * [New Task Defaults](#new-task-defaults) 
-  * [Issues](#issues) 
-  * [Deletion](#deletion) 
-  * [Actual Dates](#actual-dates)
+   * [New Task Defaults](#new-task-defaults) 
+   * [Issues](#issues) 
+   * [Deletion](#deletion) 
+   * [Actual Dates](#actual-dates)
 
-    <!--  
-    <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work" class="MCXref xref">Work On It</a> </li>  
-    -->  
-  
-  * [Access](#access)
+     <!--   
+     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work" class="MCXref xref">Work On It</a> </li>   
+     -->   
+   
+   * [Access](#access)
 
    ### New Task Defaults
 
@@ -151,10 +151,11 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Allow users to delete tasks &amp; issues with logged hours</td> 
       <td> <p> Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <div> <span class="autonumber"><span><b>Tip: </b></span></span><span>This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.</span>  
+       <div> 
+        <p>Tip: <span>This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.</span> </p> 
         <p>Consider the following:</p> 
         <ul> 
-         <li> <p>When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet &amp; Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet &amp; Hours Preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>. </p> <span class="autonumber"><span><b>Tip: </b></span></span><span>When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet &amp; Hours Preferences area of Setup</span>.  </li> 
+         <li> <p>When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet &amp; Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet &amp; Hours Preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>. </p> <p>Tip: <span>When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet &amp; Hours Preferences area of Setup</span>. </p> </li> 
          <li><span>When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours</span> <span>, or when you delete a project with hours logged for its tasks or issues</span> <span>.</span> The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues<span>, or projects that have hours logged for tasks and issues</span> cannot be deleted. </li> 
         </ul> 
        </div> </td> 

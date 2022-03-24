@@ -21,6 +21,8 @@ If you try to make Task 1 a predecessor to Task 2, you get a dependency loop err
 
 ![](assets/dependency-loop-error-message-350x209.png)
 
+![Screen_Shot_2018-06-25_at_10.59.19_AM.png](assets/screen-shot-2018-06-25-at-10.59.19-am-350x146.png)
+
 ## Considerations about dependency loops
 
 * Dependency loops can involve more than two tasks. Sometimes any number of parents of the tasks you are connecting with a predecessor relationship are the ones creating the dependency loop. 

@@ -72,21 +72,21 @@ For information about installing Workfront for Microsoft Teams and logging in to
 
 1. To open a **New task** card:
 
-  * If you are in the Workfront bot chat channel, type **New task**in the conversation field to create a new task.&nbsp;
-  * If you are in a chat channel other than the Workfront bot chat channel:
+   * If you are in the Workfront bot chat channel, type **New task**in the conversation field to create a new task.&nbsp;
+   * If you are in a chat channel other than the Workfront bot chat channel:
 
-    1. Start typing **@workfront**in the conversation field, then select the Workfront bot channel you want.
-    1. Continue typing&nbsp;**New task**in the conversation field to create a new task.
+      1. Start typing **@workfront**in the conversation field, then select the Workfront bot channel you want.
+      1. Continue typing&nbsp;**New task**in the conversation field to create a new task.
 
-       The New task card displays in the Workfront bot channel.
+         The New task card displays in the Workfront bot channel.
 
-       ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
+         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
 1. In the Workfront bot channel, specify the following information on the New task card:
 
-  * Task name in the **Write the task's title** field.
-  * Task description in the **Write the tasks's description** field.
-  * The take the task must be completed by, in the **Due Date** field.
+   * Task name in the **Write the task's title** field.
+   * Task description in the **Write the tasks's description** field.
+   * The take the task must be completed by, in the **Due Date** field.
 
 1. Click **Save.**&nbsp;
 

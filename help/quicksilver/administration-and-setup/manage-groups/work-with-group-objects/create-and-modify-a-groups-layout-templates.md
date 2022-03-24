@@ -48,20 +48,20 @@ You must have the following to perform the steps in this article:
 
 1. Do any of the following:
 
-  * To create a new template for the group, click **New Layout Template**.
+   * To create a new template for the group, click **New Layout Template**.
 
-    Or
+     Or
 
-    To create a new template for the group that is based on an existing one, select the existing template, then click **Copy**.
+     To create a new template for the group that is based on an existing one, select the existing template, then click **Copy**.
 
-    For information on creating a Layout Template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+     For information on creating a Layout Template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-    For information about copying a layout template to create a new one, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
-  
-  * To edit an existing group layout template, select it, then click **Edit**.
+     For information about copying a layout template to create a new one, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+   
+   * To edit an existing group layout template, select it, then click **Edit**.
 
-    For information on editing a layout template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-  
-  * To delete one or more layout templates, select them, then click **Delete**. 
-  * **Export** the list of layout templates.
+     For information on editing a layout template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+   
+   * To delete one or more layout templates, select them, then click **Delete**. 
+   * **Export** the list of layout templates.
 

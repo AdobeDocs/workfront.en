@@ -41,9 +41,7 @@ You must have the following access to perform the steps in this article:
 1. <![CDATA[]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
    <!--
-   In the left panel, click
-   <strong>Proofs</strong> >
-   <strong>Proof roles</strong>.
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the left panel, click <strong>Proofs</strong> > <strong>Proof roles</strong>.</li>
    -->
 
 1. Click **Review and Approval** near the bottom of the list that appears on the left. 
@@ -54,12 +52,12 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * This setting applies only to users who are created in the Workfront system after the role is set; not to existing users.
-   >  * The person adding users to the proof can adjust this role, as described in [Add users to a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-   >  
-   >  
+   >   
+   >   
+   >   * This setting applies only to users who are created in the Workfront system after the role is set; not to existing users.
+   >   * The person adding users to the proof can adjust this role, as described in [Add users to a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   >   
+   >   
    >
 
 1. In the **Roles for non-recipients that open a document proof** section, select the default role for users and guest users who can access a proof, but are not added to the proof's workflow.
@@ -68,8 +66,8 @@ You must have the following access to perform the steps in this article:
 
    ``` ```**Examples: **``````Here are examples of how you could use this setting:
 
-  * You select **Read only** to limit all proof activity such as adding comments and making decisions to those who have been asked to do it.
-  * You select **Reviewer** because you want any member of the team to be able to add markups and comments on a proof.
+   * You select **Read only** to limit all proof activity such as adding comments and making decisions to those who have been asked to do it.
+   * You select **Reviewer** because you want any member of the team to be able to add markups and comments on a proof.
 
 1. Click **Save**.
 

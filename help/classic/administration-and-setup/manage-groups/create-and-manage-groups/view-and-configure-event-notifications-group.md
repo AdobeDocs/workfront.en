@@ -13,15 +13,17 @@ description: As an group administrator, you can view the event notifications tha
 As an group administrator, you can view the event notifications that are activated for a group you manage.
 
 Also, if a Adobe Workfront administrator unlocks an event notification, you can configure it for a top-level group that you manage. Configuration of an event notification consists of activating or deactivating it.
-``` ```**Note: **``````
 
-* Configuring unlocked event notifications for a group is available only in the new Adobe Workfront experience. If you are using Adobe Workfront Classic, you can switch to the new Adobe Workfront experience to configure unlocked event notifications for a group, then switch back to Adobe Workfront Classic to see your changes in effect.
-
-  For instructions, click **Currently viewing Workfront Classic** at the top of this article, just under the article title, then click **The new Workfront experience** in the drop-down menu that displays.
-
-  If you need instructions on switching between Adobe Workfront Classic and the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
-
-* If you are Workfront administrator, you don’t need to switch to the new Adobe Workfront experience to configure an unlocked event configuration for a group. For more information, see [For Workfront administrators only: Configure an unlocked event notification for a group](#for) in this article.
+>[!NOTE]
+>
+>* Configuring unlocked event notifications for a group is available only in the new Adobe Workfront experience. If you are using Adobe Workfront Classic, you can switch to the new Adobe Workfront experience to configure unlocked event notifications for a group, then switch back to Adobe Workfront Classic to see your changes in effect. 
+>
+>  For instructions, click **Currently viewing Workfront Classic** at the top of this article, just under the article title, then click **The new Workfront experience** in the drop-down menu that displays.
+>
+>  If you need instructions on switching between Adobe Workfront Classic and the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
+>
+>* If you are Workfront administrator, you don’t need to switch to the new Adobe Workfront experience to configure an unlocked event configuration for a group. For more information, see [For Workfront administrators only: Configure an unlocked event notification for a group](#for) in this article.
+>
 
 Configuring an event notification for a group affects users for whom that group, or one of its subgroups, is their Home Group. In their user profiles, these users see the event notifications that are activated for their Home Group instead of the event notifications that are activated system-wide.
 
@@ -54,7 +56,8 @@ You must have the following to perform the steps in this article:
 
 1. Click **Setup** > **Email** > **Notifications**, then search for the group’s name in the box at the top of the page.
 
-1. In the list that displays, the **Active** column on the left shows which notifications are active (blue) and inactive (grey) for the group.
+   In the list that displays, the **Active** column on the left shows which notifications are active (blue) and inactive (grey) for the group.
+
 1. Do any of the following:
 
    <table cellspacing="0"> 
@@ -63,7 +66,7 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Activate or deactivate an unlocked event notification</td> 
-      <td> <p>Click the button in the <strong>Active</strong> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.</p> <p>For example, you could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> &nbsp; 
+      <td> <p>Click the button in the <strong>Active</strong> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.</p> <p>For example, you could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> <p data-mc-conditions="QuicksilverOrClassic.Classic">&nbsp;</p> 
        <ul> 
         <li>If a button in the <strong>Active</strong> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can’t activate it<!--
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -125,7 +128,7 @@ If you have System Administrator access, you can configure an unlocked event not
     <tbody> 
      <tr> 
       <td role="rowheader">Activate or deactivate an unlocked event notification</td> 
-      <td> <p>Click the button in the <strong>Active</strong> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.</p> <p>For example, you could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> &nbsp; 
+      <td> <p>Click the button in the <strong>Active</strong> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.</p> <p>For example, you could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p> <p data-mc-conditions="QuicksilverOrClassic.Classic">&nbsp;</p> 
        <ul> 
         <li>If a button in the <strong>Active</strong> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can’t activate it<!--
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

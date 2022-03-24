@@ -90,17 +90,17 @@ As a team owner in Microsoft Teams, you can install the Workfront for Microsoft 
 1. When the install completes,&nbsp;a notification that the install was successful appears in the General channel of the team you selected. All members of the team can see this notification.
 1. (Optional) Pin your Workfront app for easier access:
 
-  1. Click the **More** icon under the****message&nbsp;field in the General channel.
-  
-  1. Mouse over the Workfront app in the list, then click the **More** icon to the right of it.
+   1. Click the **More** icon under the****message&nbsp;field in the General channel.
+   
+   1. Mouse over the Workfront app in the list, then click the **More** icon to the right of it.
 
-     ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
+      ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
-  1. Click **Pin**.
+   1. Click **Pin**.
 
-     This adds a Workfront icon under the chat field. You can quickly access the Search area from here.
+      This adds a Workfront icon under the chat field. You can quickly access the Search area from here.
 
-     For information about searching for Workfront items, see [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+      For information about searching for Workfront items, see [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
 1. Click**Log in to Workfront** to access Workfront from Microsoft Teams.
 
@@ -169,11 +169,11 @@ To log in to Workfront from Microsoft Teams:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >  * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
-   >  
+   >   
+   >   
+   >   * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >   * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
+   >   
    >
 
 1. Close the browser tab you used to log in and return to Microsoft Teams.

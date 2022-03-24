@@ -42,7 +42,7 @@ You must have the following:
 ## Export the Business Case
 
 1. Go to the project that you want to export the Business Case from.
-1. Click **Business Case** in the left panel.  
+1. Click **Business Case** in the left panel. 
 1. In the upper-right**Business Case Summary** area, click **Export**.
 
    ![](assets/bc-summary--350x587.png)   

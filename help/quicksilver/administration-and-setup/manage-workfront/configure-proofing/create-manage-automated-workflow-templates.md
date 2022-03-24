@@ -186,9 +186,11 @@ As a Workfront Proof administrator, you can modify an Automated Workflow templat
      <tr> 
       <td role="rowheader">Template group</td> 
       <td> <p> If your organization's Automated Workflows are organized into groups, you can select the name of the group. See <a href="#group" class="MCXref xref">Create Automated Workflow template groups</a> later in this article for more information.</p> </td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Template timezone </td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>The default timezone for the template is the one you are working in. If the timezone of the proof creators and reviewers who will be using the template is different, you can change it here to ensure that stage deadlines are set at the right times for those users. </p> </td>  
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">Template timezone </td> 
+      <td> <p>The default timezone for the template is the one you are working in. If the timezone of the proof creators and reviewers who will be using the template is different, you can change it here to ensure that stage deadlines are set at the right times for those users. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Allow</td> 
       <td> <p>Select the stage activities you want available to those who create proofs using the template. </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof.<br></p> </td> 
@@ -265,9 +267,9 @@ You can move the templates between groups by dragging and dropping.
 1. In the left panel in Workfront Proof, click **Workflows**.
 1. On the **Workflows** page that appears, do any of the following:
 
-  * Add a new template
-  * Add a new template group 
-  * Delete one or more template groups
-  * Access a template's details
-  * Drag a template to a different template group
+   * Add a new template
+   * Add a new template group 
+   * Delete one or more template groups
+   * Access a template's details
+   * Drag a template to a different template group
 

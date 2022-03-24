@@ -47,51 +47,54 @@ You can track time in Workfront by accessing timesheets from the following locat
 
   &nbsp;
 
-  ![](assets/my-timesheets-list-various-statuses-old-nwe-350x194.png)  
+  ![](assets/my-timesheets-list-various-statuses-old-nwe-350x194.png)
 
   <!--
+  <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
   <p>Depending on where you access timesheets from:</p>
   <ul>
   <li> <p>In the Production environment, in the My Timesheets section: </p> <p> <img src="assets/my-timesheets-list-various-statuses-old-nwe-350x194.png" style="width: 350;height: 194;"> </p> </li>
   </ul>
+  </div>
   -->
 
-    <!--  
-    <p>In the Preview environment, when selecting the My&nbsp;Timesheets filter: </p>  
-    <p> <img src="assets/my-timesheets-list-various-statuses-nwe-350x60.png" style="width: 350;height: 60;"> </p>  
-    -->
+     <!--   
+     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>In the Preview environment, when selecting the My&nbsp;Timesheets filter: </p> <p> <img src="assets/my-timesheets-list-various-statuses-nwe-350x60.png" style="width: 350;height: 60;"> </p> </li>   
+     -->
 
 * The Timesheets I Approve section in the Timesheets area
 
-  ![](assets/timesheets-i-approve-section-old-nwe-350x80.png)  
+  ![](assets/timesheets-i-approve-section-old-nwe-350x80.png)
 
   <!--
+  <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
   <p>Depending on where you access timesheets from:</p>
   <ul>
   <li> <p>In the Production environment, in the Timesheets I Approve section: </p> <p> <img src="assets/timesheets-i-approve-section-old-nwe-350x80.png" style="width: 350;height: 80;"> </p> </li>
   </ul>
+  </div>
   -->
 
-    <!--  
-    <p>In the Preview environment, when selecting the My&nbsp;Timesheet Approvals filter: </p>  
-    <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p>  
-    -->
+     <!--   
+     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>In the Preview environment, when selecting the My&nbsp;Timesheet Approvals filter: </p> <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p> </li>   
+     -->
 
 * The All&nbsp;Timesheets section in the Timesheets area
 
-  ![](assets/all-timesheets-list-old-nwe-350x134.png)  
+  ![](assets/all-timesheets-list-old-nwe-350x134.png)
 
   <!--
+  <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
   <p>Depending on where you access timesheets from:</p>
   <ul>
   <li> <p>In the Production environment, in the Timesheets I Approve section: </p> <p> <img src="assets/all-timesheets-list-old-nwe-350x134.png" style="width: 350;height: 134;"> </p> </li>
   </ul>
+  </div>
   -->
 
-    <!--  
-    <p>In the Preview environment, when selecting the My&nbsp;Timesheet Approvals filter: </p>  
-    <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p>  
-    -->
+     <!--   
+     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>In the Preview environment, when selecting the My&nbsp;Timesheet Approvals filter: </p> <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p> </li>   
+     -->
 
 ``` ```**Tip: **`````` By default, timesheets in the **All Timesheets** tab are not displayed. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to display all timesheets associated with the teams that you are part of. Do one of the following to display timesheets:
 

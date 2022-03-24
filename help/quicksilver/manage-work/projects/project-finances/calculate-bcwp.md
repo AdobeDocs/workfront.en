@@ -64,7 +64,9 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
 
    Go to a project and expand **Project Details** in the left panel. 
 
-1. In the **Finance** area, locate the **Performance Index Method** field and double click to edit it.   ![](assets/pim-options-hour-cost-based-350x144.png)
+1. In the **Finance** area, locate the **Performance Index Method** field and double click to edit it.
+
+   ![](assets/pim-options-hour-cost-based-350x144.png)
 
 1. Select from the following options:
 
@@ -72,7 +74,9 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
    |---|---|
    | Cost-Based |Workfront calculates the BCWP using the Planned Cost of the tasks. |
 
-1. Click&nbsp;**Save Changes**. The BCWP of the tasks on the project is calculated using hours or costs.
+1. Click&nbsp;**Save Changes**.
+
+   The BCWP of the tasks on the project is calculated using hours or costs.
 
 ## Calculate BCWP
 

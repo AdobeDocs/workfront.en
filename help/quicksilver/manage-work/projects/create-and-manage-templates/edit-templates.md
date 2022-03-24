@@ -49,30 +49,32 @@ You must have the following access to perform the steps in this article:
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
 1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), ```then select from any of the areas below, or click **Edit all** to edit information in all areas```:
 
-  * Overview
-  * Custom Forms
+   * Overview
+   * Custom Forms
 
-    Names of customs forms display only if there are custom forms attached to the object.
-  
-  * Finance
+     Names of customs forms display only if there are custom forms attached to the object.
+   
+   * Finance
 
    >[!TIP]
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**. The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
+1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+
+   The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
 1. Consider editing information in any of the following sections:
 
-  * [Overview](#overview) 
-  * [Finance](#finance) 
-  * [Portfolio](#portfolio) 
-  * [Settings](#settings) 
-  * [Access](#access) 
-  * [Custom Forms](#custom-forms) 
-  * [Tasks](#tasks) 
-  * Issues
-  * [Comment](#comment)
+   * [Overview](#overview) 
+   * [Finance](#finance) 
+   * [Portfolio](#portfolio) 
+   * [Settings](#settings) 
+   * [Access](#access) 
+   * [Custom Forms](#custom-forms) 
+   * [Tasks](#tasks) 
+   * [Issues](#issues) 
+   * [Comment](#comment)
 
 ### Overview
 
@@ -97,7 +99,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Is Active</strong></td> 
-      <td><p>Select this checkbox if you want the template to be active. Other users can find this template and attach it to projects when creating projects. Deselect this checkbox if you want to deactivate templates that are no longer used. Deactivated templates cannot be attached to projects. This is enabled by default. </p><span class="autonumber"><span><b>Tip: </b></span></span>You can deactivate a template from the template header by clicking the <strong>More</strong> menu <img src="assets/qs-more-icon-on-an-object.png">, then <strong>Deactivate Template</strong>.</td> 
+      <td><p>Select this checkbox if you want the template to be active. Other users can find this template and attach it to projects when creating projects. Deselect this checkbox if you want to deactivate templates that are no longer used. Deactivated templates cannot be attached to projects. This is enabled by default. </p><p>Tip: You can deactivate a template from the template header by clicking the <strong>More</strong> menu <img src="assets/qs-more-icon-on-an-object.png">, then <strong>Deactivate Template</strong>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>URL</strong></td> 
@@ -146,14 +148,16 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader"><strong>Resource Manager</strong></td> 
       <td><p>The specified users are automatically given manage permissions to the future projects and can assign resources to the tasks and issues of the projects. You can specify more than one Resource Manager. </p></td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Group</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"><p>In the drop-down list, select the group that you want to be associated with projects created from the template. It can be a group of any level. </p><p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p>Note:   
-       <ul> 
-        <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p></li> 
-        <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
-        <li>Though this field is available in templates only in the new Adobe Workfront experience, you can see it in lists and reports both there and in Adobe Workfront Classic. </li> 
-       </ul> </p></td>  
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">Group</td> 
+      <td><p>In the drop-down list, select the group that you want to be associated with projects created from the template. It can be a group of any level. </p><p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p>Note:   
+        <ul> 
+         <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p></li> 
+         <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
+         <li>Though this field is available in templates only in the new Adobe Workfront experience, you can see it in lists and reports both there and in Adobe Workfront Classic. </li> 
+        </ul> </p></td> 
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Company</strong></td> 
       <td><p>Specify the Company that you want to associate with the template. Only active companies display in the list.</p></td> 
@@ -218,7 +222,7 @@ You must have the following access to perform the steps in this article:
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
 
-   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)   
+   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
 
 1. Update the following fields:
 
@@ -252,7 +256,7 @@ You must have the following access to perform the steps in this article:
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
 
-   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)   
+   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
 
 1. Update the following fields: 
 

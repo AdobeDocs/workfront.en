@@ -33,11 +33,11 @@ Two main characteristics distinguish the Desktop Proofing Viewer from the Web Pr
   >[!NOTE]
   >
   >
-  >  
-  >  
-  >  * If your organization cannot use the Desktop Proofing Viewer app for security reasons, your Workfront administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer.
-  >  * Proof management tasks such as creating and browsing through proofs occur in Workfront or Workfront Proof. The Desktop Proofing Viewer is only for reviewing proofs.
-  >  
+  >   
+  >   
+  >   * If your organization cannot use the Desktop Proofing Viewer app for security reasons, your Workfront administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer.
+  >   * Proof management tasks such as creating and browsing through proofs occur in Workfront or Workfront Proof. The Desktop Proofing Viewer is only for reviewing proofs.
+  >   
   >
 
 For more information about the capabilities of the various proofing viewers,&nbsp;see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)

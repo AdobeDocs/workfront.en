@@ -17,10 +17,10 @@ Your Adobe Workfront administrator or your Group administrator must ensure all o
 
 * Assign you any of the following types of Workfront licenses:
 
-  * Plan
-  * Work
-  * Review
-  * Request
+   * Plan
+   * Work
+   * Review
+   * Request
 
   >[!NOTE]
   >

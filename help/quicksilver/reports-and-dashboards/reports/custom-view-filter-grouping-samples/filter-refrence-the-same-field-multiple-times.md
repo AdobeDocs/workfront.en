@@ -57,19 +57,31 @@ You must have the following access to perform the steps in this article:
 1. Hover over the text mode area, and click **Click to edit text**.
 1. In the Set Filter Rules for your Report area, add the following code: 
    <pre>name=green<br>name_Mod=cicontains<br>AND:1:name=red<br>AND:1:name_Mod=cinotcontains</pre>
-   ``` ```**Tips: **`````` To build similar filters, build the first statement first.&nbsp;For example:
 
-   ```
-   name=green<br>name_Mod=cicontains
-   ```
+   >[!NOTE]
+   >
+   >To build similar filters, build the first statement first.&nbsp;For example: 
+   >
+   >
+   >
+   >
+   >```   >
+   >name=green<br>name_Mod=cicontains
+   >```   >
+   >
 
-   Copy and paste the statement as many times as needed. You can then add as many statements as you need to reference the same field (in our case "name") and make the following modifications to the additional statements:
-
-  1. Precede the two copied lines with "AND:1:", "AND:2:", "AND:3:", etc for each new field possible value. 
-  1. Replace the field line with the new field value (after the "=" sign). 
-  1. Replace the modifier line (_Mod) with the new modifier.
-
-   These statements are case-sensitive.
+   >
+   >
+   >Copy and paste the statement as many times as needed. You can then add as many statements as you need to reference the same field (in our case "name") and make the following modifications to the additional statements: 
+   >
+   >   
+   >   
+   >   1. Precede the two copied lines with "AND:1:", "AND:2:", "AND:3:", etc for each new field possible value. 
+   >   1. Replace the field line with the new field value (after the "=" sign). 
+   >   1. Replace the modifier line (_Mod) with the new modifier. 
+   >   
+   >   
+   >These statements are case-sensitive.
 
 1. Click **Done**, then **Save Filter**.
 

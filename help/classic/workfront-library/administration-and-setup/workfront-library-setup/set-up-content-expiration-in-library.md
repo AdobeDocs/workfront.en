@@ -33,7 +33,7 @@ Expired items migrated from Workfront DAM to Workfront Library remain expired.
 
 ## Setup content expiration
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **Setup**> **Content expiration**.
 

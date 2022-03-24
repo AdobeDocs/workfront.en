@@ -10,7 +10,7 @@ description: You can connect projects with initiatives to ensure your strategic 
 
 >[!IMPORTANT]
 >
->Your organization must purchase an additional license for the Adobe Workfront Scenario Planner so that you can view initiative information on a project. For information about obtaining the Workfront Scenario Planner, see Access needed to use the Adobe Workfront Scenario Planner.
+>Your organization must purchase an additional license for the Adobe Workfront Scenario Planner so that you can view initiative information on a project. For information about obtaining the Workfront Scenario Planner, see [Access needed to use the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content/Scenario_Planner/access-needed-to-use-sp.htm).
 
 You can connect projects with initiatives to ensure your strategic plans and the actual work are in sync. As you outline your strategic plans and initiatives in the Scenario Planner and you plan the actual work in a project, you can ensure your resources on both the project and the initiatives match, so you won't either overallocate or underutilize them.
 
@@ -39,7 +39,7 @@ You can connect projects with initiatives by doing one of the following:
 
 * Publish initiatives to projects
 
-  For more information, see Publish initiatives to create and update projects in the Adobe Workfront Scenario Planner.
+  For more information, see [Publish initiatives to create and update projects in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content/Scenario_Planner/publish-scenarios-update-projects.htm).
 
 Both processes create a connection between the projects and their corresponding initiatives. After connecting them, you can manage their resource allocations by comparing them and ensuring that they match.
 

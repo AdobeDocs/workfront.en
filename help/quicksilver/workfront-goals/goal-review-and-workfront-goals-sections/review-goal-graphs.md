@@ -102,8 +102,8 @@ The following charts are available in the Graphs section or Workfront Goals:
 
    By default, the goals displayed in the Graphs section are limited by the following criteria:&nbsp;
 
-  * The filters applied to the Graphs area. 
-  * Goals that are in a status of Active and Draft.
+   * The filters applied to the Graphs area. 
+   * Goals that are in a status of Active and Draft.
 
 1. (Optional) Select the type of information you want to display by updating the filters in the upper-right corner of the Graphs section.
 
@@ -143,9 +143,9 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 1. Hover a week node in the goal progress chart and review the following:
 
-  * **Week date**: The month, day, and year of the selected week.
-  * **Progress**:&nbsp;An average of the actual percent complete of all goals for the selected week.
-  * **Baseline**: An average of the expected percent complete of all goals for the selected week.
+   * **Week date**: The month, day, and year of the selected week.
+   * **Progress**:&nbsp;An average of the actual percent complete of all goals for the selected week.
+   * **Baseline**: An average of the expected percent complete of all goals for the selected week.
 
 1. (Optional)&nbsp;Click **Progress** at the bottom of the progress chart to remove the actual overall progress line
 

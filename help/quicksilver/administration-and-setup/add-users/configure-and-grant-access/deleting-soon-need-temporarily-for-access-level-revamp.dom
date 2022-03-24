@@ -275,7 +275,7 @@
      When granting access to Workfront Goals, you must also enroll the users with this access to the new Adobe Workfront experience. Workfront Goals is not available in Adobe Workfront Classic. For information about enrolling users in the new Adobe Workfront experience, see 
      <a href="../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md" class="MCXref xref" aemmigrated="true">Enroll users in the new Adobe Workfront experience</a>.
     </note> 
-    <p aemmigrated="true">For general information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.</p> 
+    <p aemmigrated="true">For general information about access to Workfront Goals, see <a href="../../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver" aemmigrated="true">Requirements to use Adobe Workfront Goals</a>.</p> 
    </div> 
   </div>
  </body>

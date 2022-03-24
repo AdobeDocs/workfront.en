@@ -56,6 +56,8 @@ You must have the following access to perform the steps in this article:
 
 1. Click&nbsp;**Request Project**.
 
+   ![](assets/request-project-option-in-drop-down-350x276.png)
+
 1. Do one of the following:
 
    * Follow the same steps as for creating a project while defining a Business Case. (recommended)

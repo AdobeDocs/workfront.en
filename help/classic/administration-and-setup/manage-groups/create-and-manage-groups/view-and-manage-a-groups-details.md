@@ -2,7 +2,9 @@
 
 # View and manage a group’s details
 
-You can view and manage the main details for a group you administer. These include the group’s name, description, Business Leader, and group administrators. You can also make the group and all of its subgroups public or private. For information about other ways you can manage a group, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+You can view and manage the main details for a group you administer. These include the group’s name, description, Business Leader, and group administrators. You can also make the group and all of its subgroups public or private.
+
+For information about other ways you can manage a group, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ## Access requirements
 
@@ -34,7 +36,49 @@ You must have the following to perform the steps in this article:
 
 1. Click the name of the top-level group that you want to edit.
 1. In the box that displays, make any of the following changes:
-1. ```<col>``` ```<col>``` ```<tbody>  <tr>   <td role="rowheader">Group Name</td>   <td>Change the name of the group.</td>  </tr>  <tr>   <td role="rowheader">Description</td>   <td>Type a description for the group. You can type up to 512 characters.</td>  </tr>  <tr>   <td role="rowheader">Make this group and its subgroups public</td>   <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the group with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <note type="note">     <ul>      <li>You can’t make a subgroup public by itself, but you can make it’s top-level parent group public, which also makes all of the parent’s subgroups public.</li>      <li>A subgroup that belongs to a public group is public by default, so any user with edit-user access can add the subgroup to other users, as well.</li>     </ul>    </note> <p>If you need information about the access needed to edit users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>. For information about editing users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td>  </tr>  <tr>   <td role="rowheader">Business Leader </td>   <td> <p>You can assign one user as a Business Leader for a group that you manage. A Business Leader is someone who makes business decisions for the group. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Business Leader overview</a><span>.</span></p> <p>If the person is not already a member of the group, adding their name to this field also adds them to the group.</p> <note type="note">     <ul>      <li>Before you can remove the Business Leader from a group, you must remove their name from the Business Leader field.</li>      <li>If you remove the name from the Business Leader field, that user remains a member of the group unless you remove them from it. For instructions on removing someone from a group, see the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Manage a group’s memberships</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Manage a group</a>.</li>     </ul>    </note> <p>For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Business Leader overview</a>.</p> </td>  </tr>  <tr>   <td role="rowheader">Group Members and Group Administrators</td>   <td>    <ul>     <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li>     <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li>    </ul> </td>  </tr>  <tr>   <td role="rowheader">Search people and groups in the list</td>   <td> If you need to find a user or group already assigned to this group, you can type their name here and select it when it appears.</td>  </tr> </tbody>```
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Group Name</td> 
+      <td>Change the name of the group.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Type a description for the group. You can type up to 512 characters.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Make this group and its subgroups public</td> 
+      <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the group with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <p>Note:  
+        <ul> 
+         <li>You can’t make a subgroup public by itself, but you can make it’s top-level parent group public, which also makes all of the parent’s subgroups public.</li> 
+         <li>A subgroup that belongs to a public group is public by default, so any user with edit-user access can add the subgroup to other users, as well.</li> 
+        </ul> </p> <p>If you need information about the access needed to edit users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>. For information about editing users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Business Leader </td> 
+      <td> <p>You can assign one user as a Business Leader for a group that you manage. A Business Leader is someone who makes business decisions for the group. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Business Leader overview</a><span>.</span></p> <p>If the person is not already a member of the group, adding their name to this field also adds them to the group.</p> <p>Note:  
+        <ul> 
+         <li>Before you can remove the Business Leader from a group, you must remove their name from the Business Leader field.</li> 
+         <li>If you remove the name from the Business Leader field, that user remains a member of the group unless you remove them from it. For instructions on removing someone from a group, see the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Manage a group’s memberships</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Manage a group</a>.</li> 
+        </ul> </p> <p>For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Business Leader overview</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Group Members and Group Administrators</td> 
+      <td> 
+       <ul> 
+        <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
+        <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Search people and groups in the list</td> 
+      <td> If you need to find a user or group already assigned to this group, you can type their name here and select it when it appears.</td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">

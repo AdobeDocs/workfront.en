@@ -23,7 +23,7 @@ Budgeted Cost = Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the
 
   You can track the Budgeted Labor Cost of a project in the following area of Workfront:
 
-  * Resource Budgeting area of the Business Case or the Resource Planner
+   * Resource Budgeting area of the Business Case or the Resource Planner
 
   For information about Budgeted Labor Costs, see the article [Understand Budgeted Labor Cost and Budgeted Hours for projects](../../../manage-work/projects/project-finances/budgeted-labor-cost.md). 
 

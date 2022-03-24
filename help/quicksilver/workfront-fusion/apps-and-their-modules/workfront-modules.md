@@ -83,15 +83,15 @@ You can create a connection to your Workfront account directly from inside a Wor
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * If you do not see a SAML log in button, your organization has not enabled Single Sign-On (SSO). You can log in with your Username and Password.
-   >  
-   >  
-   >    For more information on SSO, see [Overview of single sign-on in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-   >  
-   >  * OAuth 2.0 connections to the Workfront API no longer rely on API keys. 
-   >  
+   >   
+   >   
+   >   * If you do not see a SAML log in button, your organization has not enabled Single Sign-On (SSO). You can log in with your Username and Password.
+   >   
+   >   
+   >     For more information on SSO, see [Overview of single sign-on in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+   >   
+   >   * OAuth 2.0 connections to the Workfront API no longer rely on API keys. 
+   >   
    >
 
 ## Workfront modules and their fields

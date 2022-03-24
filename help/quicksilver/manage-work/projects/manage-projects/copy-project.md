@@ -54,8 +54,10 @@ project
 1. Go to the project that you want to copy.
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
    <p>Or</p>
    <p>Go to a project list or report and select a project. </p>
+   </div>
    -->
 
 1. Click the **More** icon ![](assets/qs-more-menu.png) , then click **Copy**.
@@ -65,7 +67,7 @@ project
    By default, the new name is **Copy of <Original project name>.**
 
    <!--
-   <img src="assets/copy-project-box-nwe-350x276.png" style="width: 350;height: 276;">
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/copy-project-box-nwe-350x276.png" style="width: 350;height: 276;"> </p>
    -->
 
 1. Select the **Status** of your new project.
@@ -75,11 +77,11 @@ project
 1. 
 
    <!--
-   Depending on the environment that you use for copying the project, do one of the following:
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Depending on the environment that you use for copying the project, do one of the following:</p>
    -->
 
    <!--
-   In the Production environment:
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the Production environment: </p>
    -->
 
    (Optional) Select any of the following options to remove the items from the new project.
@@ -89,72 +91,73 @@ project
    >The following items are never copied from an existing project to a new one:   
 
    >
-   >  
-   >  
-   >  * Issues  
-   >  * Billing Rates
-   >  * Billing Records  
-   >  * Notes  
-   >  * Hours
-   >  * Cross-project predecessors
-   >  
-   >  
+   >   
+   >   
+   >   * Issues  
+   >   * Billing Rates
+   >   * Billing Records  
+   >   * Notes  
+   >   * Hours
+   >   * Cross-project predecessors
+   >   
+   >   
    >The following items are always copied from an existing project to a new one:
    >
-   >  
-   >  
-   >  * Tasks
-   >  * Template
-   >  * Risks
-   >  * Queue Setup information
-   >  * Portfolio and Program
-   >  * Scorecard
-   >  * Task Default information (Task Default Approval Process, Task Default Custom Forms)
-   >  
+   >   
+   >   
+   >   * Tasks
+   >   * Template
+   >   * Risks
+   >   * Queue Setup information
+   >   * Portfolio and Program
+   >   * Scorecard
+   >   * Task Default information (Task Default Approval Process, Task Default Custom Forms)
+   >   
    >
 
    If you leave any of the following items unselected, they transfer to the copied project by default:
 
-  * **Clear Assignments**: Removes all the project and task assignments
-  * **Clear Progress**: Removes the progress on all the tasks.
-  * **Clear Custom Data**: Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items:
+   * **Clear Assignments**: Removes all the project and task assignments
+   * **Clear Progress**: Removes the progress on all the tasks.
+   * **Clear Custom Data**: Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items:
 
-    * Tasks
-    * Expenses
-    * Documents
+      * Tasks
+      * Expenses
+      * Documents
 
-    The custom forms will remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. 
-  
-  * **Clear Documents**: Removes everything in the documents tab, including document versions, linked documents, and folders.
+     The custom forms will remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. 
+   
+   * **Clear Documents**: Removes everything in the documents tab, including document versions, linked documents, and folders.
 
-    By default, document proofs and approvals cannot be copied to another project. 
-  
-  * **Clear All Predecessors**: Removes all predecessor relationships between the tasks on the project.
+     By default, document proofs and approvals cannot be copied to another project. 
+   
+   * **Clear All Predecessors**: Removes all predecessor relationships between the tasks on the project.
 
-    >[!TIP]
-    >
-    >Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not.
+     >[!TIP]
+     >
+     >Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not.
 
-  * **Clear Financial Information**: Removes the information in the following areas:
+   * **Clear Financial Information**: Removes the information in the following areas:
 
-    * Finance sub-tab of the project
-    * Planned Benefit in the Business Case
-    * Financial information from all tasks
+      * Finance sub-tab of the project
+      * Planned Benefit in the Business Case
+      * Financial information from all tasks
 
-    For more information about the project Finance sub-tab, see [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+     For more information about the project Finance sub-tab, see [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
-  * **Clear Approval Process**: Removes all approvals associated with the tasks or the project. 
-  * **Clear Reminder Notifications**: Removes the Reminder Notifications associated with the tasks or the project. 
-  * **Clear Expenses**: Removes expenses associated with the tasks or the project. 
-  * **Clear Permissions**: Removes permissions to all the users on the tasks or the project.
+   * **Clear Approval Process**: Removes all approvals associated with the tasks or the project. 
+   * **Clear Reminder Notifications**: Removes the Reminder Notifications associated with the tasks or the project. 
+   * **Clear Expenses**: Removes expenses associated with the tasks or the project. 
+   * **Clear Permissions**: Removes permissions to all the users on the tasks or the project.
 
-    >[!NOTE]
-    >
-    >Permissions are removed from users who are assigned to the copied tasks, even if **Clear Assignments** is not selected.
+     >[!NOTE]
+     >
+     >Permissions are removed from users who are assigned to the copied tasks, even if **Clear Assignments** is not selected.
 
-  * **Select all**: Select this option to select all the options above and clear all the fields and objects listed from the new project.
+   * **Select all**: Select this option to select all the options above and clear all the fields and objects listed from the new project.
 
    <!--
+   <ul class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    <li> <p>In the Preview environment, deselect the items that you don't want to copy to the new project:</p>
    <table cellspacing="0">
    <col>
@@ -219,6 +222,7 @@ project
    Deselecting
    <strong>Select all</strong> deselects all items.
    </note> </li>
+   </ul>
    -->
 
 1. Click **Copy** to create a copy of the project.

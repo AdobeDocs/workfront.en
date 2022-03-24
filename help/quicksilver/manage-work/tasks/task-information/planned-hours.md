@@ -105,14 +105,13 @@ Whether issues are included in the calculation for Planned Hours depends on the 
 * **Project Details** **section** **:** Only the Planned Hours for the tasks on the project are taken into account. The Planned Hours for the issues on the project are not taken into account when viewing the total number of Planned Hours for the project in the Project Details  section .
 
 * **Utilization section :** The Planned Hours for tasks and the issues on the project are taken into account when viewing the total number of Planned Hours for the project in the Utilization  section .
-* Role Allocation panel
-* View project Planned Hours in the Role Allocation panel
+* **Role Allocation panel** in the task list : The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role are taken into account in this area. For more information, see [View project Planned Hours in the Role Allocation panel](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 
 ## Locate Planned Hours
 
 You can find the Planned Hours information on tasks, issues, or projects in the following locations:
 
-* [Planned Hours in the Details section](#planned2)  
+* [Planned Hours in the Details section](#planned2) 
 * [Planned Hours when editing a task or issue](#plan-hours-on-edit-task-or-issue) 
 * [Planned Hours in reports](#reports) 
 * [Planned Hours in Resource Management tools](#resource-grid)
@@ -145,13 +144,18 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Planned Hours in the Details section Finding the Planned Hours in the Details  section is identical for tasks, issues, and projects.
+
+### Planned Hours in the Details section
+
+Finding the Planned Hours in the Details  section is identical for tasks, issues, and projects.
 
 To locate the Planned Hours value on the Details  section  of a task:
 
 1. Go to a task for which you want to review the Planned Hours.
-1. Click **Task Details** in the left panel.  
-1. Click the **Overview** area and notice the Planned Hours value. This value represents the time it would take the user assigned to the task to complete it.
+1. Click **Task Details** in the left panel. 
+1. Click the **Overview** area and notice the Planned Hours value.
+
+   This value represents the time it would take the user assigned to the task to complete it.
 
 ### Planned Hours when editing a task or issue
 
@@ -164,7 +168,9 @@ Finding the Planned Hours while editing a task or an issue is identical.
 To locate the value of Planned Hours while editing a task:
 
 1. Go to the task or issue you want to view Planned Hours for.
-1. Click the **More** icon ![](assets/qs-more-icon-on-an-object.png) next to the task name, then click **Edit**. The Planned Hours are located in the **Overview** section.
+1. Click the **More** icon ![](assets/qs-more-icon-on-an-object.png) next to the task name, then click **Edit**.
+
+   The Planned Hours are located in the **Overview** section.
 
 ### Planned Hours in reports
 
@@ -174,8 +180,7 @@ Adding the Planned Hours column to a project view is similar to building a view 
 
 To show Planned Hours in a project report:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**.  
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
 1. Click **New Report**, then choose **Project** as your object.
 
 1. Click **Add Column**, and start typing **Planned Hours** when the **Show in this column** drop-down field is displayed. Select the field when it appears in the list.
@@ -196,11 +201,12 @@ You can see the value of Planned Hours for your tasks, issues, or projects when 
 
   For information about the utilization report, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* The following sections:
+* 
+  The following sections:
 
-  * Scheduling or Workload Balancer sections in the Resourcing area
-  * Scheduling section at the project level
-  * Schedule section at the team level
+   * Scheduling or Workload Balancer sections in the Resourcing area
+   * Scheduling section at the project level
+   * Schedule section at the team level
 
   For information about scheduling resources, see [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 

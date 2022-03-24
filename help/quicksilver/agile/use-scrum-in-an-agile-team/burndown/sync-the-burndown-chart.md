@@ -43,11 +43,10 @@ project or
 
 iteration
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+
 1. Go to the
 
    <!--
@@ -62,5 +61,5 @@ iteration
    <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Conditional) On a project, ensure that you are viewing the project in an agile view, as described in <a href="../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md" class="MCXref xref">Manage a project in the Agile View</a>.</li>
    -->
 
-1.
+1. Click the synchronize icon ![Sync icon](assets/agile-syncicon.png) next to the iteration name.
 

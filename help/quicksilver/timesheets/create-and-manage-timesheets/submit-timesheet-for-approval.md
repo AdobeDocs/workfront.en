@@ -62,8 +62,8 @@ To submit a timesheet for approval:
 
    When your timesheet is submitted for approval, the approver sees the timesheet listed in the **Approvals**&nbsp;area on the **Home** page. The following things might occur:
 
-  * If they approve it, the **Recall** button changes to **Re-Open** and the timesheet status updates to **Closed**. 
-  * If they reject it, **Save for Later** and **Submit for Approval** buttons replace the **Recall** button and the timesheet status updates to **Rejected**.
+   * If they approve it, the **Recall** button changes to **Re-Open** and the timesheet status updates to **Closed**. 
+   * If they reject it, **Save for Later** and **Submit for Approval** buttons replace the **Recall** button and the timesheet status updates to **Rejected**.
 
 1. (Optional)&nbsp;Click&nbsp;**Recall** if you need to reopen the timesheet and update your time. For information, see [Recall a timesheet](#recalling-a-timesheet).
 
@@ -78,9 +78,8 @@ Without these notifications, you can learn about the status of your submitted ti
 To view the status of a timesheet:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-
 1. Click **Timesheets**.
-1. 
+1.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -138,10 +137,10 @@ You can recall a timesheet that has already been submitted for approval. Only ti
 
 To recall a timesheet:
 
-1. Main Menu
-1. 
-1. Timesheets
-1. My Timesheets
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Timesheets**.
+1. In the left panel, click **My Timesheets**.
 1. Select a timesheet with a status of Submitted.
 1. Click **Recall**.
 

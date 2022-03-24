@@ -55,14 +55,14 @@ You must have the following access to perform the steps in this article:
 1. Verify that the folders correctly display the folder’s title.
 1. Verify that the assets correctly display:
 
-  1. Title
-  1. Thumbnail
-  1. Size
+   1. Title
+   1. Thumbnail
+   1. Size
 
 1. Check the json response if possible (ngrok?)
 
-  1. If option “Access DAM through API endpoints” in Advanced tab of the cloud services configuration is unchecked, then viewLink should look like: [https://6c8828a8b3bd.ngrok.io/content/dam/workfront/broadcast_audio_projects/2020_example_program/2020/activities/test_0609-2/background-blur-test-asset.jpg](https://6c8828a8b3bd.ngrok.io/content/dam/workfront/broadcast_audio_projects/2020_example_program/2020/activities/test_0609-2/background-blur-test-asset.jpg) and downloadLink should look like: [https://6c8828a8b3bd.ngrok.io/content/dam/workfront/broadcast_audio_projects/2020_example_program/2020/activities/test_0609-2/background-blur-test-asset.jpg/jcr:content/renditions/original](https://6c8828a8b3bd.ngrok.io/content/dam/workfront/broadcast_audio_projects/2020_example_program/2020/activities/test_0609-2/background-blur-test-asset.jpg/jcr:content/renditions/original)
-  1. If option “Access DAM through API endpoints” in Advanced tab of the cloud services configuration is checked, then viewLink and downloadLink should both look like: [https://6c8828a8b3bd.ngrok.io/bin/workfront-tools/view?id=d2b498a7-485c-4128-a06f-f73c893a9371](https://6c8828a8b3bd.ngrok.io/bin/workfront-tools/view?id=d2b498a7-485c-4128-a06f-f73c893a9371)
+   1. If option “Access DAM through API endpoints” in Advanced tab of the cloud services configuration is unchecked, then viewLink should look like: [https://6c8828a8b3bd.ngrok.io/content/dam/workfront/broadcast_audio_projects/2020_example_program/2020/activities/test_0609-2/background-blur-test-asset.jpg](https://6c8828a8b3bd.ngrok.io/content/dam/workfront/broadcast_audio_projects/2020_example_program/2020/activities/test_0609-2/background-blur-test-asset.jpg) and downloadLink should look like: [https://6c8828a8b3bd.ngrok.io/content/dam/workfront/broadcast_audio_projects/2020_example_program/2020/activities/test_0609-2/background-blur-test-asset.jpg/jcr:content/renditions/original](https://6c8828a8b3bd.ngrok.io/content/dam/workfront/broadcast_audio_projects/2020_example_program/2020/activities/test_0609-2/background-blur-test-asset.jpg/jcr:content/renditions/original)
+   1. If option “Access DAM through API endpoints” in Advanced tab of the cloud services configuration is checked, then viewLink and downloadLink should both look like: [https://6c8828a8b3bd.ngrok.io/bin/workfront-tools/view?id=d2b498a7-485c-4128-a06f-f73c893a9371](https://6c8828a8b3bd.ngrok.io/bin/workfront-tools/view?id=d2b498a7-485c-4128-a06f-f73c893a9371)
 
 1. Verify that ```View``` and ```Download``` options work correctly with and without option ```Access DAM through API endpoints``` checked.
 
@@ -101,36 +101,36 @@ NOT IMPLEMENTED.
 
 1. Send a document from the Documentsarea:
 
-  1. Upload an image to Workfront ```Documents```tab in the main navigation.
-  1. Attach ```Workfront Tools Document``` custom form and fill in all fields.
-  1. Select the document and click on ```More → Send to → <your AEM instance>```. Select a folder that has ```Workfront Tools``` metadata schema applied and click ```Save```.
-  1. Verify that the asset together with the document metadata have been sent correctly.
+   1. Upload an image to Workfront ```Documents```tab in the main navigation.
+   1. Attach ```Workfront Tools Document``` custom form and fill in all fields.
+   1. Select the document and click on ```More → Send to → <your AEM instance>```. Select a folder that has ```Workfront Tools``` metadata schema applied and click ```Save```.
+   1. Verify that the asset together with the document metadata have been sent correctly.
 
 1. Send a document from a Project:
 
-  1. Upload an image to the ```Documents```tab of a Workfront Project.
-  1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
-  1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
-  1. Drag and drop the document into the Project’s linked folder.
-  1. Verify that the asset together with the document and project metadata have been sent correctly.
+   1. Upload an image to the ```Documents```tab of a Workfront Project.
+   1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
+   1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
+   1. Drag and drop the document into the Project’s linked folder.
+   1. Verify that the asset together with the document and project metadata have been sent correctly.
 
 1. Send a document from a Task:
 
-  1. Upload an image to the ```Documents```tab of a Workfront Task.
-  1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
-  1. Attach ```Workfront Tools Task``` custom form to the document and fill in all fields.
-  1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
-  1. Select the document and click on ```More → Send to → <your AEM instance>```. Select a folder that has ```Workfront Tools``` metadata schema applied and click ```Save```.
-  1. Verify that the asset together with the document, task and project metadata have been sent correctly.
+   1. Upload an image to the ```Documents```tab of a Workfront Task.
+   1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
+   1. Attach ```Workfront Tools Task``` custom form to the document and fill in all fields.
+   1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
+   1. Select the document and click on ```More → Send to → <your AEM instance>```. Select a folder that has ```Workfront Tools``` metadata schema applied and click ```Save```.
+   1. Verify that the asset together with the document, task and project metadata have been sent correctly.
 
 1. Send a document from an Issue:
 
-  1. Upload an image to the ```Documents``` tab of a Workfront Issue.
-  1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
-  1. Attach ```Workfront Tools Issue``` custom form to the document and fill in all fields.
-  1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
-  1. Drag and drop the document into the Issue’s linked folder.
-  1. Verify that the asset together with the document, issue and project metadata have been sent correctly.
+   1. Upload an image to the ```Documents``` tab of a Workfront Issue.
+   1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
+   1. Attach ```Workfront Tools Issue``` custom form to the document and fill in all fields.
+   1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
+   1. Drag and drop the document into the Issue’s linked folder.
+   1. Verify that the asset together with the document, issue and project metadata have been sent correctly.
 
 ## Service Info Webhook
 

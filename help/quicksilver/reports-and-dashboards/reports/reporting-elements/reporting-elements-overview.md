@@ -62,7 +62,7 @@ This section contains the following articles:
 * [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 
   <!--
-  <a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref" xrefformat="{para}">Delete filters</a>
+  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref" xrefformat="{para}">Delete filters</a> </li>
   -->
 
 * [Use the Milestone view](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) 

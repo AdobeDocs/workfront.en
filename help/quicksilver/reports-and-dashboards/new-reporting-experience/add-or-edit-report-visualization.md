@@ -94,12 +94,12 @@ For more information, see [link to Beta enrollment info].
 
 1. Continue on to configure your visualization:
 
-  * **Bar** visualization: For instructions, see [Configure a bar visualization in the Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-bar-visualization.md#bar).
-  * **Column** visualization: For instructions, see [Configure a column visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-column-visualization.md).
-  * **Line** visualization: For instructions, see [Configure a line visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-line-visualization.md).
-  * **Pie** visualization: For instructions, see [Configure pie visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-pie-visualization.md).
-  * **Bubble** visualization: For instructions, see [Configure a bubble visualization in the Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-bubble-visualization.md) .
-  * **KPI** visualization: For instructions, see [Configure a KPI visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-kpi-visualization.md).
+   * **Bar** visualization: For instructions, see [Configure a bar visualization in the Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-bar-visualization.md#bar).
+   * **Column** visualization: For instructions, see [Configure a column visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-column-visualization.md).
+   * **Line** visualization: For instructions, see [Configure a line visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-line-visualization.md).
+   * **Pie** visualization: For instructions, see [Configure pie visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-pie-visualization.md).
+   * **Bubble** visualization: For instructions, see [Configure a bubble visualization in the Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-bubble-visualization.md) .
+   * **KPI** visualization: For instructions, see [Configure a KPI visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-kpi-visualization.md).
 
 ###  
 

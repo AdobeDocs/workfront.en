@@ -44,8 +44,8 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Approvals
-1. Add Approver
+1. Scroll down to the **Approvals** section in the Summary, and begin typing in the **Add Approver** text box. You can add Workfront users by name or external users by email.
+
 1. If your Adobe Workfront administrator has enabled the capability to collaborate with people who don't use Workfront, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), you can type their email addresses to include them.
 
    You cannot request approval from teams or groups.
@@ -61,7 +61,7 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the ```More```icon, then click ```Resubmit```.
 
-1.
+   ![](assets/nwe-resubmit-approval-350x149.png)
 
 ## Delete a document approval request
 
@@ -79,5 +79,7 @@ You can send a message to remind document an approver that you're waiting for th
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Scroll down to the **Approvals** section in the Summary, then click the **More** menu inline with the approver's name and select **Remind**. The approver receives a notification informing them the approval is still pending. They may also receive an email reminder if they have that enabled.
+1. Scroll down to the **Approvals** section in the Summary, then click the **More** menu inline with the approver's name and select **Remind**.
+
+   The approver receives a notification informing them the approval is still pending. They may also receive an email reminder if they have that enabled.
 

@@ -37,11 +37,11 @@ You can adjust the resolution of a proof through any of the following ways:
    ![phq_resolution_drag.png](assets/phq-resolution-drag-350x434.png)  
    The updated resolution is displayed in the following locations:
 
-  * In the lower-right corner of the viewer  
-    ![phq_resolution_custom.png](assets/phq-resolution-custom.png)
+   * In the lower-right corner of the viewer  
+     ![phq_resolution_custom.png](assets/phq-resolution-custom.png)
 
-  * On each comment made on the proof&nbsp;(this ensures other users are aware what resolution the comment is associated with)  
-    ![phq_resolution_comment.png](assets/phq-resolution-comment.png)
+   * On each comment made on the proof&nbsp;(this ensures other users are aware what resolution the comment is associated with)  
+     ![phq_resolution_comment.png](assets/phq-resolution-comment.png)
 
 ## Viewing a Preset Resolution
 

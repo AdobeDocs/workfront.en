@@ -50,51 +50,51 @@ You must have the following to perform the steps in this article:
 
    In the Main Menu box that appears, you can see the items that are currently active in the Main Menu for the template, as well as the items that are available to add. The following are all the possible items that can be added:
 
-  * Home
+   * Home
 
-    >[!TIP]
-    >
-    >```By default, Home displays as My Updates ![](assets/my-updates-area-in-main-menu-reviewer-only-nwe.png) for Review-license users unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu.```
+     >[!TIP]
+     >
+     >```By default, Home displays as My Updates ![](assets/my-updates-area-in-main-menu-reviewer-only-nwe.png) for Review-license users unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu.```
 
-  * Portfolios
-  * Programs
-  * Projects
-  * Reports
-  * Dashboards
-  * Calendars
-  * Resourcing
-  * Scenarios
+   * Portfolios
+   * Programs
+   * Projects
+   * Reports
+   * Dashboards
+   * Calendars
+   * Resourcing
+   * Scenarios
 
-    >[!NOTE]
-    >
-    >This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     >[!NOTE]
+     >
+     >This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
-  * Teams
-  * Users
+   * Teams
+   * Users
 
-    >[!NOTE]
-    >
-    >Only users with a Plan license can see Users ![](assets/users-icon-in-main-menu.png) in the Main Menu.
+     >[!NOTE]
+     >
+     >Only users with a Plan license can see Users ![](assets/users-icon-in-main-menu.png) in the Main Menu.
 
-  * Requests
-  * Timesheets
-  * Documents
-  * Templates
-  * Analytics
-  * Proofing
-  * Goals
+   * Requests
+   * Timesheets
+   * Documents
+   * Templates
+   * Analytics
+   * Proofing
+   * Goals
 
-    >[!NOTE]
-    >
-    >This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >[!NOTE]
+     >
+     >This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-  * My&nbsp;Updates
+   * My&nbsp;Updates
 
 1. Do any of the following:
 
-  * Hide ![](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display and show ![](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.
-  
-  * Drag ![](assets/move-icon---dots.png) **Active items** to change their display order on the Main Menu.
+   * Hide ![](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display and show ![](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.
+   
+   * Drag ![](assets/move-icon---dots.png) **Active items** to change their display order on the Main Menu.
 
 1. Click **Done**.
 

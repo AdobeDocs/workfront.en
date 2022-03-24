@@ -48,16 +48,16 @@ As an Adobe Workfront administrator, you can configure when&nbsp;Workfront autom
 
 1. In the **Timelines** section, enable or disable one or both of the settings below. By default, both settings are enabled.
 
-  * **Every night:** Workfront​​​ recalculates timelines at night only for projects where both of the following conditions are met:
+   * **Every night:** Workfront​​​ recalculates timelines at night only for projects where both of the following conditions are met:
 
-    * Have a status of Current
-    * Have had an update in the past three months
+      * Have a status of Current
+      * Have had an update in the past three months
 
-    In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic or Automatic and On Change. 
-  
-  * **When a project's scope changes**: For information about what constitutes a project scope change, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+     In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic or Automatic and On Change. 
+   
+   * **When a project's scope changes**: For information about what constitutes a project scope change, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-    In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic and On&nbsp;Change or On Change Only.
+     In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic and On&nbsp;Change or On Change Only.
 
    For information about project Update Types, see [Project Update Type overview](../../../manage-work/projects/planning-a-project/project-update-type-overview.md). 
 

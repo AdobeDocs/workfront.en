@@ -67,10 +67,10 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
 
 1. Click one of the following options:
 
-  * **About:** View information about the Workfront add-in, including the current version, what's new, and a link to how-to information on the Workfront Help site.
-  * **Web Version:** Launch the full Workfront application in a new browser window.
-  * **Submit Feedback:** Submit feedback to Workfront regarding the Workfront Add-In.
-  * **Logout:** Log out of the Workfront add-in.
+   * **About:** View information about the Workfront add-in, including the current version, what's new, and a link to how-to information on the Workfront Help site.
+   * **Web Version:** Launch the full Workfront application in a new browser window.
+   * **Submit Feedback:** Submit feedback to Workfront regarding the Workfront Add-In.
+   * **Logout:** Log out of the Workfront add-in.
 
-    This option&nbsp;does not log you out of&nbsp;Outlook.
+     This option&nbsp;does not log you out of&nbsp;Outlook.
 

@@ -48,7 +48,7 @@ You must have the following to perform the steps in this article:
 
    To edit an existing condition, hover over the condition you want to edit, then click the **Edit** icon that appears to the far right.
 
-   ![](assets/custom-condition-edit-350x118.png)   
+   ![](assets/custom-condition-edit-350x118.png)
 
 1. Configure your custom condition using the following options:
 

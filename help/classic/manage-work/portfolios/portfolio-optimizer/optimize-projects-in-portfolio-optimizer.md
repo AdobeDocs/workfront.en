@@ -41,10 +41,12 @@ You must have the following access to perform the steps in this article:
 
 ## Optimize projects in the Portfolio Optimizer
 
+1. Go to the Portfolio Optimizer.
 1. Click the **Optimize** icon .
 
    ![](assets/optimize-icon-portfolio-optimizer.png)   
-   The categories by which a project can be scored display to the left of the Optimize icon.
+   The categories by which a project can be scored display to the left of the Optimize icon.  
+   ![optimizing_in_the_new_optimizer.png](assets/optimizing-in-the-new-optimizer-350x154.png)
 
 1. Using the sliding circle, modify the optimization of any of the following categories:
 

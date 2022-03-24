@@ -50,6 +50,6 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the project you want to export.
 1. Click the **Project Actions** menu, then click&nbsp;**Export MS Project**.    
-  
+   ![](assets/screen-shot-2013-09-05-at-12.41.53-pm.png)   
    The project is downloaded as an XML file to your computer and it is ready to be imported into Microsoft Project.&nbsp;
 

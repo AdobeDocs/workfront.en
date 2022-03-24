@@ -40,7 +40,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Edit programs
+
+## Edit programs
 
 1. Go to the **Projects** area in the Global Navigation Bar. 
 1. Select the **Portfolios** tab, click the name of a portfolio, then  click the **Programs** tab. 
@@ -122,6 +123,7 @@ Edit programs
    For more information, see [Add a project to a program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 <!--
+<div data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
 <h2>Edit programs in a list</h2>
 <ol>
 <li value="1"> <p>Go to a list of programs and select one or more programs that you want to edit, then click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> at the top of the list. </p> <p>The <strong>Edit Program</strong>dialog box displays.</p> <p>All program fields are available in the Edit Program box and are grouped by the areas listed in the left panel. </p> </li>
@@ -183,6 +185,7 @@ Depending on how your Workfront administrator set the permissions for the sectio
 <li value="4"> <p>(Optional) Click the <strong>People</strong> icon to add a user or a team to the comment. </p> </li>
 <li value="5"> <p>(Optional)&nbsp;Click the <strong>Lock</strong> icon to lock the comment and make it private to only users in your company. </p> </li>
 </ol>
+</div>
 -->
 
 ###  

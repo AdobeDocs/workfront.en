@@ -29,9 +29,11 @@ You can link documents and folders to Adobe Workfront from the following sources
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
    <td>You can make proofs that were originally created within Workfront Proof available within Workfront. A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans</a>.</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Experience Manager Assets Essentials </td> 
-  <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">You can link documents to Workfront from Experience Manager Assets Essentials. For more information, see <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront for Experience Manager Assets Essentials</a>.</td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader">Experience Manager Assets Essentials </td> 
+   <td>You can link documents to Workfront from Experience Manager Assets Essentials. For more information, see <a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref"> Adobe Workfront for Experience Manager Assets Essentials</a>.</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Workfront DAM </td> 
    <td>This requires an additional purchase. </td> 
@@ -235,6 +237,7 @@ Users without Workfront access can see the document in the external application 
 
 1. Select a document that is uploaded in Workfront.
 1. Click **More** >**Send to**, then select the cloud provider that you want to store the linked document.
+
    You can also use the More menu ![](assets/more-icon.png) on the Document Details page to do this.  
 
 1. Select the folder in the provider's application where you want to store the document.
@@ -318,11 +321,11 @@ You can create a new folder inside an existing linked folder. You can also drag 
    >
    >The following limitations apply when dragging an existing Workfront&nbsp;folder into a linked&nbsp;folder:
    >
-   >  
-   >  
-   >  * The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.
-   >  * The folder (including its contents)&nbsp;that you are dragging can't exceed 50 MB.
-   >  
+   >   
+   >   
+   >   * The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.
+   >   * The folder (including its contents)&nbsp;that you are dragging can't exceed 50 MB.
+   >   
    >
 
 ## Add a document to a linked folder
@@ -332,8 +335,7 @@ When you add a document to a linked&nbsp;folder via Workfront, it is automatical
 1. In the **Documents** area where you want the document, drag the document into a linked&nbsp;folder.
 
    <!--
-   <img src="assets/documents-linked-document-move-nwe-350x126.png" style="width: 350;height: 126;">Selection box is wonky on the left
-   <br>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/documents-linked-document-move-nwe-350x126.png" style="width: 350;height: 126;">Selection box is wonky on the left<br></p>
    -->
 
    Or

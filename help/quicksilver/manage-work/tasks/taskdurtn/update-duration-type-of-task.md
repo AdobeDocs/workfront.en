@@ -48,10 +48,11 @@ In addition to updating the Duration&nbsp;Type of a task as described in this ar
 
 To update the Duration&nbsp;Type of a task:
 
-1. Click **Main Menu** >&nbsp;**Projects**, then click a project to access it. 
-
+1. Click **Main Menu** >&nbsp;**Projects**, then click a project to access it.
 1. Click the **Tasks** section in the left panel . 
-1. Click **Task Details** in the left panel, then in the Overview area click **Duration Type**.   ![](assets/duration-type-all-options-on-overview-350x155.png)
+1. Click **Task Details** in the left panel, then in the Overview area click **Duration Type**.
+
+   ![](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Select from the following options
 

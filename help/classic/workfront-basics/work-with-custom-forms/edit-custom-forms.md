@@ -90,7 +90,9 @@ Editing information on a custom form attached to an object is identical for all 
    >
    >You must complete all required fields on the form before you can save the form.&nbsp; The name of a required field displays in bold.
 
-   When someone changes data in another object that is referenced by calculated custom fields in your object, all fields on your object recalculate automatically. You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalcul3) in this article.
+   When someone changes data in another object that is referenced by calculated custom fields in your object, all fields on your object recalculate automatically.
+
+   You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalcul3) in this article.
 
 ## Recalculate all calculated custom fields for multiple objects in a list when editing the objects
 
@@ -99,7 +101,7 @@ You can manually recalculate the custom fields of several objects by editing the
 1. Go to a list of objects that contain custom forms with calculated fields.
 1. Select the objects whose calculated custom fields you want to update.
 1. Click **Edit**.
-1. Click **Custom Forms** in the left menu, then select **Recalculate Custom Expressions**. 
+1. Click **Custom Forms** in the left menu, then select **Recalculate Custom Expressions**.
 
    ![](assets/recalculate-custom-expressions-350x259.png)
 

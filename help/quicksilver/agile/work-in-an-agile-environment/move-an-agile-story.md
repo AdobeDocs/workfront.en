@@ -71,7 +71,10 @@ You can move a story to a different iteration for your Scrum team.
    ![](assets/iteration-story-move-350x143.png)
 
 1. Select **Another Iteration**,&nbsp;then in the drop-down menu, select the iteration where you want to move the story.
-   ``` ```**Note: **``````The work item Planned Start Date and Planned Completion Date are affected by a setting on the Edit Team page. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).  
+
+   >[!NOTE]
+   >
+   >The work item Planned Start Date and Planned Completion Date are affected by a setting on the Edit Team page. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Click **Move Story**.
 

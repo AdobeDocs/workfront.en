@@ -57,12 +57,10 @@ You must have the following to perform the steps in this article:
 
 ## Deactivate a user immediately
 
-1. Main Menu
-1. 
-1. Users
-1. 
-1. 
-1. Deactivate
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+
+1. Select a user, click the More icon ![](assets/more-icon.png), then click **Deactivate**.
+
 1. Click **Deactivate** in the box that appears.
 
 ## Schedule users for deactivation
@@ -73,10 +71,8 @@ Workfront administrators and Plan license users can see the deactivation date in
 
 To schedule a user for deactivation:
 
-1. Main Menu
-1. 
-1. Users
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+
 1. Select the user's name.
 
    Or
@@ -91,11 +87,11 @@ To schedule a user for deactivation:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * In the time box, you can select only whole hour increments, not minutes.
-   >  * If you select a time for the current day which has passed, Workfront will schedule the deactivation for the following day at 12:00 AM. The time selected matches the computer timezone of the user who is scheduling the deactivation.
-   >  
+   >   
+   >   
+   >   * In the time box, you can select only whole hour increments, not minutes.
+   >   * If you select a time for the current day which has passed, Workfront will schedule the deactivation for the following day at 12:00 AM. The time selected matches the computer timezone of the user who is scheduling the deactivation.
+   >   
    >
 
 1. Click **Save Changes**.

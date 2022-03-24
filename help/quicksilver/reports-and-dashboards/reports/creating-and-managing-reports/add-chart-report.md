@@ -56,24 +56,31 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Groupings** tab and add a grouping.
 
-   ``` ```**Tips: **``````
-
-  * You can only add a chart to a report when the report results are grouped. 
-  * Text-mode groupings are not supported in charts. For more information about text-mode groupings, see [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md). 
-  * If you add a single grouping that represents one metric, all charts but a pie chart display each result in the grouping as the same color.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * You can only add a chart to a report when the report results are grouped. 
+   >   * Text-mode groupings are not supported in charts. For more information about text-mode groupings, see [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md). 
+   >   * If you add a single grouping that represents one metric, all charts but a pie chart display each result in the grouping as the same color. 
+   >   
+   >
 
    For more information about groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Select the **Chart** tab.
 1. Click a chart type to select it.  
+   ![](assets/qs-report-builder-chart-350x265.png)
+
 1. You can add the following types of charts to a Adobe Workfront report:
 
-  * [Column chart](#column-chart) 
-  * [Bar chart](#bar-chart) 
-  * [Pie chart](#pie-chart) 
-  * [Line chart](#line-chart) 
-  * [Gauge chart](#gauge-chart) 
-  * [Bubble chart](#bubble-chart)
+   * [Column chart](#column-chart) 
+   * [Bar chart](#bar-chart) 
+   * [Pie chart](#pie-chart) 
+   * [Line chart](#line-chart) 
+   * [Gauge chart](#gauge-chart) 
+   * [Bubble chart](#bubble-chart)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -91,20 +98,21 @@ To add a **Column** chart to your report:
 1. (Optional) **Group Columns**: Select this option to define how you want the columns to be grouped.  
    Select from the following options:
 
-  * Click one of the following options to select how the grouped columns are going to display:  
-    **- Side by side** 
-    **- Stacked** 
-    **- Stacked to 100%**
-  
-  * Select the Grouping that you want to include in the chart.
-  * (Optional) Select **Custom Colors** to customize the colors of the columns.  
-    For more information about customizing chart colors, see [Customize chart colors](#using-custom-colors).
+   * Click one of the following options to select how the grouped columns are going to display:  
+     **- Side by side** 
+     **- Stacked** 
+     **- Stacked to 100%**
+   
+   * Select the Grouping that you want to include in the chart.
+   * (Optional) Select **Custom Colors** to customize the colors of the columns.  
+     For more information about customizing chart colors, see [Customize chart colors](#using-custom-colors).
 
 1. (Optional) Select **Combination Chart** to include an additional value in the chart, as well as how you want the information to be summarized.  
    Consider the following options:
 
-  * **Plot on Secondary Axis**: Select this option to plot the data on the right-hand side of the chart.
-  * **Chart Type**: Select whether you want this additional value to be displayed as a line or a third column.
+   * **Plot on Secondary Axis**: Select this option to plot the data on the right-hand side of the chart.
+   * **Chart Type**: Select whether you want this additional value to be displayed as a line or a third column.  
+     ![](assets/qs-column-chart-350x163.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -122,16 +130,17 @@ To add a **Bar** chart to your report:
 1. (Optional)**Group Bars**: Select this option to define how you want the bars to be grouped.  
    Select from the following options:
 
-  * Click one of the following options to select how the grouped bars are going to display:  
-    **- Side by side** 
-    **- Stacked** 
-    **- Stacked to 100%**
-  
-  * Select the Grouping that you want to include in the chart.
-  * (Optional) Select **Custom Colors** to customize the colors of your columns.  
-    For more information about customizing chart colors, see [Customize chart colors](#using-custom-colors).
+   * Click one of the following options to select how the grouped bars are going to display:  
+     **- Side by side** 
+     **- Stacked** 
+     **- Stacked to 100%**
+   
+   * Select the Grouping that you want to include in the chart.
+   * (Optional) Select **Custom Colors** to customize the colors of your columns.  
+     For more information about customizing chart colors, see [Customize chart colors](#using-custom-colors).
 
 1. (Optional) Select **Combination Chart** to include an additional value in the chart, as well as how you want the information to be summarized.  
+   ![](assets/qs-bar-chart-350x167.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -149,8 +158,9 @@ To add a **Pie** chart to your report:
 1. (Optional) Select **Show in 3D** to display the chart in a 3-dimensional view.
 1. In the **Show Results As** field, select how you want the results to display in the chart. Consider the following options:
 
-  * **Percentage**: The chart results display as a percentage.
-  * **Numbers**: The chart results display as a number.
+   * **Percentage**: The chart results display as a percentage.
+   * **Numbers**: The chart results display as a number.  
+     ![](assets/qs-pie-chart-350x171.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -169,8 +179,9 @@ To add a **Line** chart to your report:
 1. (Optional) Select **Combination Chart** to combine your lines by an additional value.  
    Consider from the following options:
 
-  * Select the value that you want to include in the chart, as well as how you want the information to be summarized.  
-  * Select the **Plot on Secondary Axis**field to plot the data on the right-hand side of the chart.
+   * Select the value that you want to include in the chart, as well as how you want the information to be summarized.  
+   * Select the **Plot on Secondary Axis**field to plot the data on the right-hand side of the chart.  
+     ![](assets/qs-line-chart-350x172.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -190,6 +201,7 @@ To add a **Gauge** chart to your report:
 
 1. In the **Value Range** field, specify the range of values and the color to represent those values to display on the Gauge chart.
 1. (Optional) Click **Add Another Value Range** to add additional value ranges to the chart.  
+   ![](assets/qs-gauge-chart-350x181.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -217,6 +229,7 @@ To add a **Bubble** chart to your report:
 
 1. In the **Bubbles** field, select the Grouping that you want to include in the chart. The Grouping is represented by the placement of the bubbles on the chart.
 1. In the **Bubble Color** field, select the field that you want to be represented by the colors of the bubbles. The **Bubble Color** can be a Grouping you define in the report, but it can only be fields from the object you selected as **Bubbles**. For example, if you selected Task Name, you can add Task Status, but not Project Status as a **Bubble Color**.  
+   ![](assets/qs-bubble-chart-350x103.png)
 
 1. Click **Save + Close** to save the changes to the interface builder.
 
@@ -232,10 +245,10 @@ To export a chart:
 1. Open the .pdf file.  
    The exported file includes the following information:
 
-  * An image of the chart.
-  * A title which is the name of the report.
-  * A unique file name which is the name of the report.
-  * A footer with the date and time the report was exported and the page number.
+   * An image of the chart.
+   * A title which is the name of the report.
+   * A unique file name which is the name of the report.
+   * A footer with the date and time the report was exported and the page number.
 
 ## Customize chart colors
 
@@ -263,23 +276,23 @@ To customize chart colors:
 
 1. Consider selecting any of the following options:
 
-  * **Use one color**: All the elements of the chart will display in the selected color.
+   * **Use one color**: All the elements of the chart will display in the selected color.
 
-    1. Start typing the name of a option of the field selected, then select a color. This option displays in the selected color on the chart.
-    1. (Optional) Specify a hexadecimal color value for your color, instead of selecting one from the color samples available  
-       Or  
-       Click the color picker that displays after clicking the hexadecimal code, and select another color.
+      1. Start typing the name of a option of the field selected, then select a color. This option displays in the selected color on the chart.
+      1. (Optional) Specify a hexadecimal color value for your color, instead of selecting one from the color samples available  
+         Or  
+         Click the color picker that displays after clicking the hexadecimal code, and select another color.
 
-  * **Add Color**: Continue to add custom colors for all other possible options of the field selected.
-  * **Remove All**: Select this option to remove all colors and options of the field selected above.
-  * **Advanced Options**: Select from the following choices:
+   * **Add Color**: Continue to add custom colors for all other possible options of the field selected.
+   * **Remove All**: Select this option to remove all colors and options of the field selected above.
+   * **Advanced Options**: Select from the following choices:
 
-    * **No Value**: Select this field and a custom color to display the column of the chart that groups "no value" items. These are items that cannot be grouped by any of the options of the field selected in your grouping.
-    * **All Other Values**: Select this field and a custom color to display all other chart elements whose options are not selected above.
+      * **No Value**: Select this field and a custom color to display the column of the chart that groups "no value" items. These are items that cannot be grouped by any of the options of the field selected in your grouping.
+      * **All Other Values**: Select this field and a custom color to display all other chart elements whose options are not selected above.
 
-      >[!NOTE]
-      >
-      >The colors you have used most recently display at the top of the Custom Colors dialog box. When you mouse over a color that has been used recently, the name of the field associated with it displays.
+        >[!NOTE]
+        >
+        >The colors you have used most recently display at the top of the Custom Colors dialog box. When you mouse over a color that has been used recently, the name of the field associated with it displays.
 
 1. Click the "x" in the upper-right corner of the Custom Colors to close the Custom Colors dialog box. The colors you have selected are automatically saved.
 1. Click **Save + Close** to save the chart and run the report.
@@ -301,8 +314,8 @@ Be aware of the following limitations as you are working with charts:
 
 * Some chart elements are not editable:
 
-  * You cannot change the font type, nor size on the values of each element.
-  * You cannot change the names of your axes in the chart.
+   * You cannot change the font type, nor size on the values of each element.
+   * You cannot change the names of your axes in the chart.
 
 * You cannot edit the legend of the chart.
 * When using calculated fields for your groupings, you cannot click the chart elements.

@@ -20,8 +20,8 @@ Work automation requires rapid processing, so Adobe Workfront Fusion is designed
 
   App modules that create or update data with large numbers of fields can cause very large blueprints.
 
-  * When using the Workfront app, be sure to only select fields needed for your create or update use cases. 
-  * When using other apps, use custom API modules to interact with any record type that has a large number of fields.
+   * When using the Workfront app, be sure to only select fields needed for your create or update use cases. 
+   * When using other apps, use custom API modules to interact with any record type that has a large number of fields.
 
 * While there is no cap for the number of modules in a scenario, scenarios with more than 150 modules negatively impact the performance of your Workfront Fusion system. For this reason, we do not recommend creating scenarios with over 150 modules.
 

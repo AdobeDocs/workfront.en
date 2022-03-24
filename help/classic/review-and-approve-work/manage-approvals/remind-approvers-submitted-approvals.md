@@ -59,7 +59,7 @@ You can request additional access for the following objects:
 
 To remind another user to approve your access request for an object:
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
 1. Select an **Access Request** approval.  
@@ -69,7 +69,7 @@ To remind another user to approve your access request for an object:
 
 ## Documents
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
 1. Select a **Document** approval.  

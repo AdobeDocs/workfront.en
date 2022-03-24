@@ -133,10 +133,16 @@ You must have the following to perform the steps in this article:
 ### Deletion
 
 **Allow users to delete tasks & issues with logged hours**: Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.
-``` ```**Tip: **`````` ```This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.```
 
-* When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet & Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet & Hours Preferences, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). 
-  ``` ```**Tip: **`````` ```When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet & Hours Preferences area of Setup. The warning message does not display when deleting a project```.  
+>[!TIP]
+>
+>```This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.```
+
+* When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet & Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet & Hours Preferences, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  >[!TIP]
+  >
+  >```When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet & Hours Preferences area of Setup. The warning message does not display when deleting a project```.
 
 * ```When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours``` ``` ```, or when you delete a project with hours logged for its tasks or``` ```issues`````` ```.``` The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues ```, or projects that have hours logged for tasks and issues``` cannot be deleted.
 
@@ -242,12 +248,12 @@ To lock or unlock a task or issue preference so that groups can configure it
 
 1. Do any of the following:
 
-  * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
-  * If you want your group and all groups below it to use your configuration for a preference, make sure that it is locked (this is the default).
+   * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
+   * If you want your group and all groups below it to use your configuration for a preference, make sure that it is locked (this is the default).
 
-    >[!IMPORTANT]
-    >
-    >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
+     >[!IMPORTANT]
+     >
+     >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
 1. Click **Save**.
 

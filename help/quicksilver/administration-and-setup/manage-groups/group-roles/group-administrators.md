@@ -38,9 +38,9 @@ If you are a Workfront administrator, we recommend that you do the following bef
 * Determine whether you want group administrators to be able to log in as other users, or to reset passwords for users in the groups you administer. Additional access is needed to perform these tasks, as explained in [Access needed for group administrators](#access).
 * For better user management, consider assigning groups or subgroups instead of users to the following objects:
 
-  * Layout Templates
-  * Schedules
-  * Timesheet Profiles
+   * Layout Templates
+   * Schedules
+   * Timesheet Profiles
 
 ## Access needed for group administrators
 
@@ -97,8 +97,8 @@ As a group administrator, you can carry out the tasks below to manage the groups
 
 * When a project preference, task or issue preference, or timesheets and hours preference is unlocked for groups throughout the system, edit that preference for groups you manage. These preferences impact project, task, and issue behavior. For more information, see the following:
 
-  * [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 
-  * [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+   * [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) 
+   * [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
 * Create and edit group statuses for groups you manage. For more information, see [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 * Configure an event notification for groups you manage. You can do this only after a Workfront administrator unlocks the ability to configure event notifications for groups through out the system. For more information, see [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

@@ -75,7 +75,7 @@ You can view the tasks that belong to the Critical Path in the following areas o
 To view tasks on the Critical Path in the Gantt chart:
 
 1. Go to a project for which you want to view the Critical Path.
-1. Click the **Tasks** tab.  
+1. Click the **Tasks** tab. 
 1. Click the **Gantt Chart** icon in the upper-right corner of the task list.
 
    ![gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
@@ -91,7 +91,7 @@ To view tasks on the Critical Path in the Gantt chart:
 To view which tasks are on the critical path in a list of tasks:
 
 1. Go to a project for which you want to view the Critical Path.
-1. Click the **Tasks** tab. 
+1. Click the **Tasks** tab.
 1. From the **View** drop-down menu, select **Status**.
 
    The tasks that are on the Critical Path have a **Critical Path** flag in the **Flags** column of the list.

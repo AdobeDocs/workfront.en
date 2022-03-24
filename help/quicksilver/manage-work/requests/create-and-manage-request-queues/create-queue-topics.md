@@ -46,9 +46,9 @@ You must have the following:
 1. Create a Routing Rule, a Topic Group, and a custom form, if you plan to associate them with your Queue Topic.   
    For more information on how to create Routing Rules, Topic Groups or custom forms, refer to the following articles:
 
-  * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) 
-  * [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) 
-  * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) 
+   * [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) 
+   * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Go to the project you chose to enable as a Help Request Queue and where you want to create a new queue topic.  
    For more information on how to designate a project as a Help Request Queue, refer to the following article:  
@@ -59,8 +59,7 @@ You must have the following:
 
    For information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Click **Queue Topics** in the left panel. You might need to click **Show More**, then **Queue Topics**.  
-
+1. Click **Queue Topics** in the left panel. You might need to click **Show More**, then **Queue Topics**. 
 1. Click **New Queue Topic**.
 1. On the **New Queue Topic** form, specify the following:
 1. 

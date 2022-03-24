@@ -89,7 +89,7 @@ Previously, you had to click the ellipsis to display any truncated objects in a 
 
 To view all items in the breadcrumb, click "more" at the beginning of the breadcrumb to expand the items. Once expanded, you can click "Less" to collapse the items again.
 
-To learn more, see Breadcrumbs overview in the new Adobe Workfront experience.
+To learn more, see [Breadcrumbs overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md).
 
 ```<iframe class="vimeo-player_0" src="assets/498066614?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -104,7 +104,7 @@ To help users to better identify where they are in Workfront and more easily nav
 * Keyboard navigation and screen reader navigation are now available for the breadcrumbs.
 * Additional minor styling changes
 
-To learn more about the breadcrumb navigation, see Breadcrumbs overview in the new Adobe Workfront experience.
+To learn more about the breadcrumb navigation, see [Breadcrumbs overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md).
 
 ```<iframe class="vimeo-player_0" src="assets/489471468?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create the report about existing reports
 
-1. Click **Reports** on the Global Navigation Bar. 
+1. Click **Reports** on the Global Navigation Bar.
 1. Click the **Reports** tab, then **New Report**.
 1. In the **New Report** drop-down men, select **Report** to create a report on existing reports.
 

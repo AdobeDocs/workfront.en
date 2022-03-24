@@ -62,5 +62,9 @@ You must have the following access to perform the steps in this article:
    If you want to unlock or lock multiple notifications all at once, select them, then click the Unlock ![](assets/unlock-icon-toolbar.png) or Lock ![](assets/lock-icon-locked-qs.png) button that displays in the toolbar above the list.
 
 1. Click **Save**.
-1. Delete **System Event Notifications** in the box near the upper-right corner.Start typing the name of the group in the box, then click it’s name when it appears.In the list that displays, configure the unlocked notifications, as explained in [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+1. (Optional) If you want to configure the event notification for a top-level group instead of leaving this task to the group’s administrator, do the following:
+
+   1. Delete **System Event Notifications** in the box near the upper-right corner.
+   1. Start typing the name of the group in the box, then click it’s name when it appears.
+   1. In the list that displays, configure the unlocked notifications, as explained in [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 

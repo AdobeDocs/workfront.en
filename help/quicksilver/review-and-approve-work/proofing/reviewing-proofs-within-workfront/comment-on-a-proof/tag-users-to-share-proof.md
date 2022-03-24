@@ -80,7 +80,7 @@ To tag someone and share a proof in a comment:
 
    Anyone you tag receives a notification email about your proof comment, regardless of the proof email alert settings they are using:
 
-  * If the user&nbsp;receives a daily summary or hourly summary email, Workfront sends the notification separately and includes information about your proof comment in the summary email.
-  * If the user receives alerts for all activity, or for replies made to their comments, the notification replaces the notifications about these comments and replies.
+   * If the user&nbsp;receives a daily summary or hourly summary email, Workfront sends the notification separately and includes information about your proof comment in the summary email.
+   * If the user receives alerts for all activity, or for replies made to their comments, the notification replaces the notifications about these comments and replies.
 
 For information about other ways to add users to a proof, see [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).

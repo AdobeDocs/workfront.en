@@ -53,13 +53,14 @@ You must have the following access to perform the steps in this article:
 ## Create a cross-project predecessor
 
 1. Go to the task that will be your successor. 
-1. Click the **Predecessors** tab when viewing the task. (The **Predecessors** tab is usually in the **More** drop-down list.) 
+1. Click the **Predecessors** tab when viewing the task. (The **Predecessors** tab is usually in the **More** drop-down list.)
+1. Click **Cross-Project Predecessors.**
 
-1. Click **Cross-Project Predecessors.** ![](assets/cpp1-350x62.png)
+   ![](assets/cpp1-350x62.png)
 
 1. Click **Add Predecessor.**
 
-   ![](assets/cpp2-350x312.png)   
+   ![](assets/cpp2-350x312.png)
 
 1. In the **Parent Project** field, begin typing the name of the project that contains the task that you want to be dependent to your current task.
 1. Click the name when it appears in the drop-down list.
@@ -76,6 +77,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Save.**
 
+   ![](assets/cpp3-350x125.png)   
    Tasks that have a cross-project predecessor display the reference number of the project the predecessor belongs to and the number of the task, separated by a colon in the Predecessors column on a task list.
 
    ![](assets/cross-project-predecessors-in-inline-edit.png)
@@ -83,4 +85,6 @@ You must have the following access to perform the steps in this article:
    The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
 
    Mouse over this value, to get more information on the predecessor, the project, and the dates.
+
+   ![](assets/cross-project-predecessor-in-task-view-350x165.png)
 

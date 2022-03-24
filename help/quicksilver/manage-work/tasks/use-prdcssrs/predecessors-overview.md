@@ -57,30 +57,29 @@ To find the predecessors of a task do one of the following:
 
 * Go to the project you are working on and do the following:
 
-  1. Find the task for which you want to find the predecessors and click the task.
-  1. Click **Predecessors** in the left panel. You might need to click **Show More**, then **Predecessors**. 
-  
-  1. The name of the project that the predecessor is on shows in the **Project** column.
+   1. Find the task for which you want to find the predecessors and click the task.
+   1. Click **Predecessors** in the left panel. You might need to click **Show More**, then **Predecessors**. 
+   1. The name of the project that the predecessor is on shows in the **Project** column.
 
-     The number in the **#** column shows the predecessor task number. For example "6" means the sixth task in the project. 
-  
-     ![](assets/nwe-predecessors-tab-with-task-header-350x56.png)
+      The number in the **#** column shows the predecessor task number. For example "6" means the sixth task in the project.
+
+      ![](assets/nwe-predecessors-tab-with-task-header-350x56.png)
 
   &nbsp;
 
 * Go to the project you are working on and do the following:
 
-  1. Click the **Tasks** tab.
-  1. Choose the **Standard View** at the top of the task list.
-  1. The **Predecessors** column shows the predecessor task numbers.
+   1. Click the **Tasks** tab.
+   1. Choose the **Standard View** at the top of the task list.
+   1. The **Predecessors** column shows the predecessor task numbers.
 
-     For a cross-project predecessor, the Predecessors column shows the reference number of the project the predecessor belongs to and the number of the task, separated by a colon.
+      For a cross-project predecessor, the Predecessors column shows the reference number of the project the predecessor belongs to and the number of the task, separated by a colon.
 
-     The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
+      The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
 
-     Hover over this value to get more information on the predecessor, the project and the dates.
+      Hover over this value to get more information on the predecessor, the project and the dates.
 
-     ![](assets/cross-project-predecessor-in-task-view-350x165.png)
+      ![](assets/cross-project-predecessor-in-task-view-350x165.png)
 
 ## Examples of predecessor values in a task list
 
@@ -104,7 +103,10 @@ When you view predecessors in a list of tasks, you might see any of the followin
 
 You can view predecessor information in the following areas of Workfront. This includes information about cross-project predecessors:
 
-* At the task level, in the Predecessors section.  For information about viewing predecessor information in the Predecessors  section , see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
+* At the task level, in the Predecessors section.
+
+  For information about viewing predecessor information in the Predecessors  section , see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
+
 * In the Gantt chart.
 
   For information about displaying predecessors in the Gantt chart, see [Configure how information displays on the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
@@ -113,14 +115,15 @@ You can view predecessor information in the following areas of Workfront. This i
 
   To view information about the predecessors of your tasks in a task list you can do one of the following:
 
-  * Apply the built-in Standard view in a list of tasks.
+   * Apply the built-in Standard view in a list of tasks.
 
-    For information about viewing predecessor information in the Standard view, see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
-  
-  * Build a task view or report and add the Predecessors column to that view.
+     For information about viewing predecessor information in the Standard view, see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
+   
+   * Build a task view or report and add the Predecessors column to that view.
 
-    For more information about building a customized view for tasks with predecessor information, see [View: predecessor details](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
+     For more information about building a customized view for tasks with predecessor information, see [View: predecessor details](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
 
 * In the task header when accessing the task.
-* ![](assets/qs-predecessor-info-in-task-header-350x141.png)
+
+  ![](assets/qs-predecessor-info-in-task-header-350x141.png)
 

@@ -34,9 +34,9 @@ You must have the following access to perform the steps in this article:
 1. Start submitting a request as described in [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. Do one of the following:
 
-  * Select a request queue in the Request&nbsp;Type field
-  * Select a request queue and up to 10 Topic Groups
-  * Select a request queue, a Topic group, and a Queue&nbsp;Topic
+   * Select a request queue in the Request&nbsp;Type field
+   * Select a request queue and up to 10 Topic Groups
+   * Select a request queue, a Topic group, and a Queue&nbsp;Topic
 
 1. Before you submit the request, click&nbsp;**Share Path** in the upper-right corner of the page.
 
@@ -44,10 +44,10 @@ You must have the following access to perform the steps in this article:
 
 1. Do one of the following:
 
-  * Share the copied link with others
-  * Embed it on a dashboard as an external page
+   * Share the copied link with others
+   * Embed it on a dashboard as an external page
 
-    For information about embedding a request queue in a dashboard, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+     For information about embedding a request queue in a dashboard, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
    Using the shared link, other users are able to navigate directly to the request queue, topic group, or queue topic you selected. They are able to do this even if the request is not submitted and it is saved as a draft.
 

@@ -145,8 +145,9 @@ This information can be used to help with auditing and to illustrate how well yo
 >To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
-
 1. Click **New Report**, then select **Journal Entry**.
+
+   ![](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -220,6 +221,8 @@ This information can be used to help with auditing and to illustrate how well yo
 
 1. In the **Filters** tab, click **Add filter rule**, then add the filter rule **Field Name** > **Equal** > **status**.
 
+   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+
    >[!TIP]
    >
    >To report on condition changes, you can instead add the filter rule **Field Name** > **Equal** > **Condition**.
@@ -256,8 +259,9 @@ You can set up the Journal Entry report to show:
 To see when a task or issue was deleted:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
-
 1. Click **New Report**, then select **Journal Entry**.
+
+   ![](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -300,10 +304,10 @@ To see when a task or issue was deleted:
 
 1. In the **Filters** tab, click **Add filter rule**, then add the following:
 
-  * **Change Type** > **Equal** > **Delete**
-  * **Project ID** > **Equal** > **<project>**
+   * **Change Type** > **Equal** > **Delete**
+   * **Project ID** > **Equal** > **<project>**
 
-    [](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
+     [ ![](assets/qs-task-or-issue-deleted-350x94.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
 
    For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -338,8 +342,9 @@ You can track important field changes over the course of the project. To do this
 To see how custom fields changed over the course of a project's life cycle:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
-
 1. Click **New Report**, then select **Journal Entry**.
+
+   ![](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -402,13 +407,15 @@ To see how custom fields changed over the course of a project's life cycle:
 
 1. In the **Filters** tab, click **Add filter rule**, then add the following:
 
-  * **Journal Entry Field Name** > **Contains** > **DE**
+   * **Journal Entry Field Name** > **Contains** > **DE**
 
-    >[!TIP]
-    >
-    >To limit this report to specific custom fields, add the filter rule **Journal Entry Field Name** > **Equal** > **<custom field>**.
+     >[!TIP]
+     >
+     >To limit this report to specific custom fields, add the filter rule **Journal Entry Field Name** > **Equal** > **<custom field>**.
 
-  * **Project ID** > **Equal** > **<project>**
+   * **Project ID** > **Equal** > **<project>**
+
+     ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -437,8 +444,9 @@ To see how custom fields changed over the course of a project's life cycle:
 You can set up the Journal Entry report to show how often the Planned Completion Date changes over the course of a project’s life.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
-
 1. Click **New Report**, then select **Journal Entry**.
+
+   ![](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -505,8 +513,10 @@ You can set up the Journal Entry report to show how often the Planned Completion
 
 1. In the **Filters** tab, click **Add filter rule**, then add the following:
 
-  * **Field Name** > **Equal** > **Date**
-  * **Project ID** > **Equal** > **<project>**
+   * **Field Name** > **Equal** > **Date**
+   * **Project ID** > **Equal** > **<project>**
+
+   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -535,8 +545,9 @@ You can set up the Journal Entry report to show how often the Planned Completion
 You can set up the Journal Entry report to show how many times the project owner—or project manager—changes over the course of a project's life.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
-
 1. Click **New Report**, then select **Journal Entry**.
+
+   ![](assets/nwe-select-journal-entry-350x273.png)
 
    The report builder loads.
 
@@ -591,8 +602,10 @@ You can set up the Journal Entry report to show how many times the project owner
 
 1. In the **Filters** tab, click **Add filter rule**, then add the following:
 
-  * **Field Name** > **Equal** > **ownerID**
-  * **Project ID** > **Equal** > **<project name>**
+   * **Field Name** > **Equal** > **ownerID**
+   * **Project ID** > **Equal** > **<project name>**
+
+     ![](assets/qs-owner-changes-filter-350x94.png)
 
    For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

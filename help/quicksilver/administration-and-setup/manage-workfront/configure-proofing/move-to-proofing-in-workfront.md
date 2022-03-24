@@ -38,28 +38,28 @@ If your organization changes from the standalone version of Workfront Proof to t
 * Ability to connect between the new integrated account and the Workfront Proof account.&nbsp;
 * Ability to run Workfront Proof reports:
 
-  * Recently Accessed Items
-  * Proofs I Manage with On Time, At Risk & Late Status
-  * Proofs Awaiting My Decision with On Time, At Risk & Late Status
-  * Proofs I Need to Review
-  * Active Proofs
-  * Archived Proofs
-  * Locked Proofs
-  * Go to Proof Directly from Report
-  * Go to Proof Details Directly from Report
-  * Share Proof Directly from Report
-  * Message Proof Directly from Report
-  * Copy Proof from Report
-  * Download Original from Report
-  * Delegate Ownership from Report
-  * Share Proof Links from Report
-  * Print Comments from Report
-  * Export Excel From Report
-  * Lock Proofs in Bulk
-  * Detailed Summary Along with Workflow Progress Matrix
-  * Activate Proofs in Bulk
-  * Archive Proofs in Bulk
-  * Unarchive Proofs in Bulk
-  * Change Owner in Bulk
-  * Delegate Ownership in Bulk
+   * Recently Accessed Items
+   * Proofs I Manage with On Time, At Risk & Late Status
+   * Proofs Awaiting My Decision with On Time, At Risk & Late Status
+   * Proofs I Need to Review
+   * Active Proofs
+   * Archived Proofs
+   * Locked Proofs
+   * Go to Proof Directly from Report
+   * Go to Proof Details Directly from Report
+   * Share Proof Directly from Report
+   * Message Proof Directly from Report
+   * Copy Proof from Report
+   * Download Original from Report
+   * Delegate Ownership from Report
+   * Share Proof Links from Report
+   * Print Comments from Report
+   * Export Excel From Report
+   * Lock Proofs in Bulk
+   * Detailed Summary Along with Workflow Progress Matrix
+   * Activate Proofs in Bulk
+   * Archive Proofs in Bulk
+   * Unarchive Proofs in Bulk
+   * Change Owner in Bulk
+   * Delegate Ownership in Bulk
 

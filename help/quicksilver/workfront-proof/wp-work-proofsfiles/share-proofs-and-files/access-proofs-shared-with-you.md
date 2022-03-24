@@ -25,9 +25,9 @@ Consider the following about shared proofs:
 * When someone shares a proof URL with you, you can access the proof as described in [Share the Public URL in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
 * You can search for any proof that has been shared with you based on the following criteria:
 
-  * Proof name
-  * Description (message associated with a proof)
-  * Tag name (see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
+   * Proof name
+   * Description (message associated with a proof)
+   * Tag name (see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md))
 
 To open a proof from an email you have received:
 

@@ -56,10 +56,11 @@ You must have the following:
 Sharing filters, views, or groupings in Workfront is identical.
 
 1. Go to a list of objects or a report.
-1. Click the **Filter**, **View**, or **Grouping** drop-down menu, then select the filter, view, or grouping you want to share. 
-
+1. Click the **Filter**, **View**, or **Grouping** drop-down menu, then select the filter, view, or grouping you want to share.
 1. Click the **Filter**, **View**, or **Grouping** drop-down menu again, then click **Share Filter**, **Share View**, or **Share Grouping**.  
    The **Filter Access**, **View Access**, or **Grouping Access** dialog box displays.
+
+   ![](assets/share-grouping-user-list-350x360.png)
 
 1. Complete either of the following, depending on who you want to share with:
 
@@ -70,6 +71,8 @@ Sharing filters, views, or groupings in Workfront is identical.
    Your administrator must select the Share System-wide option for this option to be available. For more information, see the articles [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) and [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.
+
+   ![](assets/share-grouping-with-team-view-access-in-list-350x364.png)
 
    You can select from the following options:
 

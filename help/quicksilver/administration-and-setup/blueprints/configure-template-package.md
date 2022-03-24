@@ -46,11 +46,11 @@ You must have the following access to perform the steps in this article:
 
 1. Continue with the following sections:
 
-  * [Template preferences](#template2) 
-  * [Role mapping](#role) 
-  * [Team mapping](#team) 
-  * [Company mapping](#company) 
-  * [Group mapping](#group)
+   * [Template preferences](#template2) 
+   * [Role mapping](#role) 
+   * [Team mapping](#team) 
+   * [Company mapping](#company) 
+   * [Group mapping](#group)
 
 ## Template preferences
 
@@ -101,11 +101,16 @@ You can also designate template ownership before you install the blueprint. You 
 
    ![Issue routed to job role](assets/blueprints-projectshowsissueassignment-350x71.png)
 
-   ``` ```**Tips: **``````
-
-  * Using the issue preferences helps create consistency in the way that new issues or requests are captured on your projects.
-  * Setting these preferences does not automatically make the projects created from the template into request queues. For information about setting up a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-  * Not all blueprints contain new issue preferences.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * Using the issue preferences helps create consistency in the way that new issues or requests are captured on your projects.
+   >   * Setting these preferences does not automatically make the projects created from the template into request queues. For information about setting up a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >   * Not all blueprints contain new issue preferences.
+   >   
+   >
 
 ## Role mapping
 
@@ -121,16 +126,16 @@ The blueprint searches by the role name to see if any existing roles match. The 
 
 1. If a role exists, you can choose one of the following options:
 
-  1. ```Create a new role with a different name```, then type the name in the text box.
-  1. ```Use existing role```, then select a role in the selection box.
-  1. ```Do not use mapped role```. This option is not recommended because some tasks will not have roles assigned.
+   1. ```Create a new role with a different name```, then type the name in the text box.
+   1. ```Use existing role```, then select a role in the selection box.
+   1. ```Do not use mapped role```. This option is not recommended because some tasks will not have roles assigned.
 
 1. If a role does not exist, you can choose one of the following options:
 
-  1. ```Create a new role```. This option creates the role the blueprint recommends.
-  1. ```Create a new role with a different name```, then type the name in the text box.
-  1. ```Use existing role```, then select a role in the selection box.
-  1. ```Do not use mapped role```. This option is not recommended because some tasks will not have roles assigned.
+   1. ```Create a new role```. This option creates the role the blueprint recommends.
+   1. ```Create a new role with a different name```, then type the name in the text box.
+   1. ```Use existing role```, then select a role in the selection box.
+   1. ```Do not use mapped role```. This option is not recommended because some tasks will not have roles assigned.
 
 >[!NOTE]
 >
@@ -152,16 +157,16 @@ The blueprint searches by the team name to see if any existing teams match. The 
 
 1. If a team exists, you can choose one of the following options:
 
-  1. ```Create a new team with a different name```, then type the name in the text box.
-  1. ```Use existing team```, then select a team in the selection box.
-  1. ```Do not use mapped team```. This option is not recommended because some tasks will not have teams assigned.
+   1. ```Create a new team with a different name```, then type the name in the text box.
+   1. ```Use existing team```, then select a team in the selection box.
+   1. ```Do not use mapped team```. This option is not recommended because some tasks will not have teams assigned.
 
 1. If a team does not exist, you can choose one of the following options:
 
-  1. ```Create a new team```. This option creates the team the blueprint recommends.
-  1. ```Create a new team with a different name```, then type the name in the text box.
-  1. ```Use existing team```, then select a team in the selection box.
-  1. ```Do not use mapped team```. This option is not recommended because some tasks will not have teams assigned.
+   1. ```Create a new team```. This option creates the team the blueprint recommends.
+   1. ```Create a new team with a different name```, then type the name in the text box.
+   1. ```Use existing team```, then select a team in the selection box.
+   1. ```Do not use mapped team```. This option is not recommended because some tasks will not have teams assigned.
 
 >[!NOTE]
 >
@@ -183,17 +188,17 @@ The blueprint searches by the company name to see if any existing companies matc
 
 1. If a company exists, you can choose one of the following options:
 
-  1. ```Create a new company with a different name```, then type the name in the text box.
-  1. ```Use existing company```, then select a company in the selection box.  
-     The primary company in the blueprint is mapped to the primary company in your environment, even if they do not have the same name.
-  1. ```Do not use mapped company```. This option is not recommended, because the company references in other objects will be empty.
+   1. ```Create a new company with a different name```, then type the name in the text box.
+   1. ```Use existing company```, then select a company in the selection box.  
+      The primary company in the blueprint is mapped to the primary company in your environment, even if they do not have the same name.
+   1. ```Do not use mapped company```. This option is not recommended, because the company references in other objects will be empty.
 
 1. If a company does not exist, you can choose one of the following options:
 
-  1. ```Create a new company```. This option creates the company the blueprint recommends.
-  1. ```Create a new company with a different name```, then type the name in the text box.
-  1. ```Use existing company```, then select a company in the selection box.
-  1. ```Do not use mapped company```. This option is not recommended, because the company references in other objects will be empty.
+   1. ```Create a new company```. This option creates the company the blueprint recommends.
+   1. ```Create a new company with a different name```, then type the name in the text box.
+   1. ```Use existing company```, then select a company in the selection box.
+   1. ```Do not use mapped company```. This option is not recommended, because the company references in other objects will be empty.
 
 >[!NOTE]
 >
@@ -217,18 +222,18 @@ The blueprint searches by the group name to see if any existing groups match. Th
 
 1. If a group exists, you can select **Remap Group** and choose one of the following options:
 
-  1. **Create a new group with a different name**, then type the name to assign to this group. References to the group in the blueprint definition will be associated to this new group instead.
-  1. **Replace with an existing group**, then search for and select a group in the selection box.
+   1. **Create a new group with a different name**, then type the name to assign to this group. References to the group in the blueprint definition will be associated to this new group instead.
+   1. **Replace with an existing group**, then search for and select a group in the selection box.
 
-     >[!NOTE]
-     >
-     >You cannot rename an existing group.
+      >[!NOTE]
+      >
+      >You cannot rename an existing group.
 
 1. If a group does not exist, you can:
 
-  1. Change the suggested group name by typing it in the text box.
-  1. Select **Remap Group** and choose ```Replace with an existing group```, then search for and select a group in the selection box.
-  1. Select **Remap Group** and choose **Insert under an existing group**, then search for and select a group in the selection box. This option creates a new subgroup under the existing group.
+   1. Change the suggested group name by typing it in the text box.
+   1. Select **Remap Group** and choose ```Replace with an existing group```, then search for and select a group in the selection box.
+   1. Select **Remap Group** and choose **Insert under an existing group**, then search for and select a group in the selection box. This option creates a new subgroup under the existing group.
 
 >[!NOTE]
 >

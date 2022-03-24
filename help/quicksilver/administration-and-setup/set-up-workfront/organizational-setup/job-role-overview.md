@@ -26,24 +26,24 @@ You can use job roles for the following purposes:
 
   For example, we recommend that you associate tasks with job roles when creating templates, when it's not yet clear which user might be later assigned to the actual work. For information, see the following articles:
 
-  * [Create a project template](../../../manage-work/projects/create-and-manage-templates/create-template.md) 
-  * [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 
-  * [Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md)
+   * [Create a project template](../../../manage-work/projects/create-and-manage-templates/create-template.md) 
+   * [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md) 
+   * [Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md)
 
 * You can associate job roles with project, task, or issue approval processes and any of the users who can fulfill the job role can make a decision on the approval. For more information, see [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 * You can share the following objects with job roles:
 
-  * Projects
-  * Tasks
-  * Issues
-  * Portfolios
-  * Programs
-  * Templates
-  * Template tasks
-  * Reports
-  * Dashboards
+   * Projects
+   * Tasks
+   * Issues
+   * Portfolios
+   * Programs
+   * Templates
+   * Template tasks
+   * Reports
+   * Dashboards
 
-    For information about sharing objects, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+     For information about sharing objects, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 * You can associate job roles with routing rules when building request queues.&nbsp;For information, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md). 
 * You can assign layout templates to job roles. Anyone that has the assigned job role as their Primary Role can view Workfront according to the assigned layout template.

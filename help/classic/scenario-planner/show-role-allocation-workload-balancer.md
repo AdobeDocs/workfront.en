@@ -67,7 +67,9 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
    >If you make changes to resources on the initiative, you must re-publish the scenario that the initiative belongs to in order for the latest resource information from the initiative to update on the project.
 
 1. Go to the project where you want to review the allocation of job roles for the project as well as for the associated initiative. 
-1. Click **Staffing** > Workload Balancer.  You might have to click **Scheduling**, then **Switch to Workload Balancer**. 
+1. Click **Staffing** > Workload Balancer.
+
+   You might have to click **Scheduling**, then **Switch to Workload Balancer**. 
 
 1. Do one of the following:
 

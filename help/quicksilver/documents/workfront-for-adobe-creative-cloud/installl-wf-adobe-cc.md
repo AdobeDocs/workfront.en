@@ -68,9 +68,9 @@ You must have the following access to perform the steps in this article:
 
 1. Open one of the following supported applications on your computer:
 
-  * Adobe Illustrator
-  * Adobe InDesign
-  * Adobe Photoshop
+   * Adobe Illustrator
+   * Adobe InDesign
+   * Adobe Photoshop
 
 1. Click **Window** > **Extensions** > Workfront.
 

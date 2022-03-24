@@ -59,9 +59,11 @@ You must have the following access to perform the steps in this article:
    >
    >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project.
 
-1. Select the **Project Details** tab. 
-1. Finance
-1. Click **Edit Finance**.  ![project_finance_tab.png](assets/project-finance-tab-350x437.png)
+1. Select the **Project Details** tab.
+1. Click the **Finance** subtab.
+1. Click **Edit Finance**.
+
+   ![project_finance_tab.png](assets/project-finance-tab-350x437.png)
 
 1. Select from the following options in the **Performance Index Method** field:
 

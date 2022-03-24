@@ -117,7 +117,10 @@ As a Workfront administrator, you can set maximum license counts for the Home Gr
 As a Workfront administrator, you can set maximum license counts for the top-level Home Groups in your system. This allows you to prevent a business unit from using Workfront licenses purchased for other business units within your organization.
 
 By default, the max license count is set to N/A, which means there is no limit.
-group administrators can view the number of licenses allocated and used in a Home Group they manage. For more information, see [View the number of licenses allocated and used in a group in the new Adobe Workfront experience](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md). To set the maximum license count for a Home group:
+
+group administrators can view the number of licenses allocated and used in a Home Group they manage. For more information, see [View the number of licenses allocated and used in a group in the new Adobe Workfront experience](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+
+To set the maximum license count for a Home group:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

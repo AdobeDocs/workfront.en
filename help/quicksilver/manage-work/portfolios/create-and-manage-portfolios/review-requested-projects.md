@@ -68,21 +68,21 @@ For more information about approving project requests by building a project repo
 1. Click **Project Details** in the left panel. 
 1. Do either one of the following:
 
-  * Click&nbsp;**Business Case**, then click&nbsp;**Approve** or&nbsp;**Reject** in the Business Case Summary area to approve or reject the Business Case.
+   * Click&nbsp;**Business Case**, then click&nbsp;**Approve** or&nbsp;**Reject** in the Business Case Summary area to approve or reject the Business Case.
 
-    ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
+     ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 
-    The project status is changed to **Approved** if the Business Case is approved.
+     The project status is changed to **Approved** if the Business Case is approved.
 
-    The project status is changed to **Rejected** if the Business case is rejected.
+     The project status is changed to **Rejected** if the Business case is rejected.
 
-    >[!NOTE]
-    >
-    >There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.&nbsp;
+     >[!NOTE]
+     >
+     >There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.&nbsp;
 
-    Or
-  
-  * Change the status of the project to any other status in the **Status** drop-down menu.
+     Or
+   
+   * Change the status of the project to any other status in the **Status** drop-down menu.
 
    &nbsp;
 

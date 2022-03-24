@@ -52,12 +52,14 @@ You can indicate lag types on tasks when you define their predecessor relationsh
 ### Indicate Lag Types in the Predecessors tab of a task
 
 1. Go to a task for which you want to define the predecessor and the Lag Type. 
-1. Select the **Predecessors** tab.  Depending on your configuration, the **Predecessors** tab might be listed under the **More** drop-down menu. 
+1. Select the **Predecessors** tab.
 
-1. Cross-Project Predecessors
+   Depending on your configuration, the **Predecessors** tab might be listed under the **More** drop-down menu.
+
+1. (Optional) If you want to add a cross-project predecessor, click **Cross-Project Predecessors**.
 1. Click **Add Predecessor**.
 
-   ![add_predecessor_with_negative_lag__1_.png](assets/add-predecessor-with-negative-lag--1--350x311.png)   
+   ![add_predecessor_with_negative_lag__1_.png](assets/add-predecessor-with-negative-lag--1--350x311.png)
 
 1. Start typing the name of the predecessor task, then select it when it appears in the list. 
 1. Select the **Dependency Type**.

@@ -59,7 +59,8 @@ You must have the following access to perform the steps in this article:
 1. Select the **Portfolios** tab. 
 1. Click the name of a portfolio to open it. 
 1. Select the **Portfolio Optimization** tab. 
-1. In the **Project Prioritization** section,&nbsp;alter the priority of your projects by clicking the gray area next to the number of the project and dragging it to the desired display position.
+1. In the **Project Prioritization** section,&nbsp;alter the priority of your projects by clicking the gray area next to the number of the project and dragging it to the desired display position.  
+   ![new_portfolio_optimizer.png](assets/new-portfolio-optimizer-350x157.png)
 
    Click the **Set Priority** button in the Optimizer tools area when you finish re-arranging your projects. The projects will receive a new number&nbsp;based on the new order.
 

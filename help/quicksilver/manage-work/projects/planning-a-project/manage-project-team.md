@@ -73,9 +73,10 @@ You can manually add users to a project team by using the Team Scheduling tab.
 >
 >You can add to the Project Team only users that belong to the Group associated with the project.
 
-1. Go to the project where you want to add users to the project team, then click **Scheduling** in the left panel. The Scheduling section might be located under **Show More**. 
+1. Go to the project where you want to add users to the project team, then click **Scheduling** in the left panel. The Scheduling section might be located under **Show More**.
+1. Click **Add Users**.
 
-1. Click **Add Users**.  The Add Users to Project Team dialog box displays.
+   The Add Users to Project Team dialog box displays.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 

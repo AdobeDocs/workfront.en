@@ -46,28 +46,28 @@ Consider the following when copying initiatives:
 * Copying an initiative places the copy on the same plan as the original initiative. 
 * Copying an initiative copies and adds the following information from the original initiative to the new initiative:
 
-  * Duration
-  * Job roles
-  * People and Fixed Costs
-  * Planned Benefit
+   * Duration
+   * Job roles
+   * People and Fixed Costs
+   * Planned Benefit
 
 * Copying an initiative can modify the following information for the plan, if the information exists on the original initiative:
 
-  * Required amount of job roles 
-  * Costs
-  * Plan Utilization
-  * Job role utilization
-  * Net Value
+   * Required amount of job roles 
+   * Costs
+   * Plan Utilization
+   * Job role utilization
+   * Net Value
 
 * Copying an initiative that was created by importing a project or has been published to a project at least once has the following implications:
 
-  * It does not duplicate the project associated with the initiative.
-  * It does not connect the copied initiative to the project. 
-  * It does not modify the Scenario Planner section on the project, for projects that have been published at least once.
+   * It does not duplicate the project associated with the initiative.
+   * It does not connect the copied initiative to the project. 
+   * It does not modify the Scenario Planner section on the project, for projects that have been published at least once.
 
-    For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
+     For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
 
-    For information about creating initiatives by importing projects, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md) .
+     For information about creating initiatives by importing projects, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md) .
 
 ## Copy initiatives
 

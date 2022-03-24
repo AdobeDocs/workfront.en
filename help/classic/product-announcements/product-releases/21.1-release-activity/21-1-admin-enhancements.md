@@ -37,7 +37,7 @@ This feature is now included in the [Administrator Fundamentals in the new Workf
 
 On the Details page for an object, when you are filling in a multi-select drop-down field on a Custom Form, you can click Select All if you need to select all of the available options.
 
-For information about editing data on a Custom Form, see Edit information on Custom Forms.
+For information about editing data on a Custom Form, see [Edit information on Custom Forms](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FWork_with_Custom_Forms%2Fedit-custom-forms.htm&_LANG=en).
 
 ```<iframe class="vimeo-player_0" src="assets/500509190?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -51,7 +51,7 @@ This is especially useful after someone edits data in another object that is ref
 
 Previously, users had to use workarounds to ensure that all data in calculated custom fields was current. For example, they edited the object along with other objects to use the recalculation option that is available for bulk editing.
 
-For more information, see Edit information on Custom Forms.
+For more information, see [Edit information on Custom Forms](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FWork_with_Custom_Forms%2Fedit-custom-forms.htm).
 
 ```<iframe class="vimeo-player_0" src="assets/486601498?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -65,7 +65,7 @@ For more information, see Edit information on Custom Forms.
 
 Adobe Workfront administrators can now give Group Administrators more autonomy by unlocking individual task and issue preferences. When a preference is unlocked, Group Administrators can configure it for their groups to serve each group’s unique needs and internal processes.
 
-For more information, see Configure task and issue preferences for a group.
+For more information, see [Configure task and issue preferences for a group](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2Fconfigure-task-issue-preferences-group.htm).
 
 ```<iframe class="vimeo-player_0" src="assets/486598651?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -99,7 +99,7 @@ On the Details page for an object, when you are filling in a Custom Form field c
 
 This option displays only if the field contains more than 2 checkboxes.
 
-For more information, see Edit information on Custom Forms.
+For more information, see [Edit information on Custom Forms](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FWork_with_Custom_Forms%2Fedit-custom-forms.htm&_LANG=en).
 
 ```<iframe class="vimeo-player_0" src="assets/486602711?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

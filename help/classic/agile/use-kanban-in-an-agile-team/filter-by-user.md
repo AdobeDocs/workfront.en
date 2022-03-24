@@ -53,3 +53,5 @@ To filter a Kanban board:
    >   
    >
 
+   ![](assets/filters-with-totals---kanban-350x212.png)
+

@@ -52,9 +52,8 @@ You must have the following to perform the steps in this article:
 ## Edit a user profile
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+1. Select the user, then click the Edit icon ![](assets/edit-icon.png).  
 
-1. 
-1. 
 1. In the **Edit User** box that displays, change any of the following information, then click **Save Changes**: 
 
    <table cellspacing="0"> 
@@ -66,7 +65,7 @@ You must have the following to perform the steps in this article:
       <td> 
        <ul> 
         <li><strong>First Name</strong>,<strong>Last Name</strong></li> 
-        <li> <p><strong>Email Address:</strong> The email address for a user is also their username in Workfront. This field is case-sensitive and must be unique. If any user attempts to add a non-unique email address 3 times within a 10-minute window, a reCAPTCHA response appears.</p> If you use the email allowlist and enter an email domain not on the list, the user will not receive email notifications. For more information about the allowlist, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configure your email allowlist</a>. </li> 
+        <li> <p><strong>Email Address:</strong> The email address for a user is also their username in Workfront. This field is case-sensitive and must be unique. If any user attempts to add a non-unique email address 3 times within a 10-minute window, a reCAPTCHA response appears.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">If you use the email allowlist and enter an email domain not on the list, the user will not receive email notifications. For more information about the allowlist, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configure your email allowlist</a>.</p> </li> 
         <li> <p><strong>Reset Password</strong>: Click this link to reset the user's password. You are asked for your own password before you can reset a user's password.</p> <p>To reset another user's password, you must be a Workfront administrator, or a group administrator.</p> <p>Note:  
           <ul> 
            <li> <p>If you are a group administrator, you can reset passwords only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level:</p> <p> <img src="assets/group-admin-user-350x165.png" style="width: 350;height: 165;"> </p> <p>This setting is disabled by default. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 

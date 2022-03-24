@@ -52,7 +52,7 @@ You must have the following to perform the steps in this article:
 1. In the left panel, click **Schedules**.
 1. Do any of the following:
 
-  * Click **New Schedule** to create a new schedule
-  * Select a schedule, then use the controls on the toolbar to **Edit**, **Copy**, or **Delete** it. 
-  * **Export** the list of schedules for the group.
+   * Click **New Schedule** to create a new schedule
+   * Select a schedule, then use the controls on the toolbar to **Edit**, **Copy**, or **Delete** it. 
+   * **Export** the list of schedules for the group.
 

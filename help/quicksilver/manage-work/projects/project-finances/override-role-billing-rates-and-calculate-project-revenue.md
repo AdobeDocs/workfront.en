@@ -106,8 +106,7 @@ You can override the billing rate of a job role on a project in the following wa
 To override a billing rate for a project:
 
 1. Go to the project you want to override billing rates for.
-1. Click **Billing Rates** in the left panel. You might have to first click **Show More**.  
-
+1. Click **Billing Rates** in the left panel. You might have to first click **Show More**. 
 1. Click **Add Billing Rate**.
 1. Click **New Billing Rate**.
 1. In the **Job Role** field, select the job role you want to change the billing rate for.  
@@ -134,7 +133,9 @@ To override a billing rate for a project:
 
 1. Click **Save**.
 
-Overview of the Billing Rates section of a project After you have specified the override billing rates for the job roles associated with the project, you can see all the job roles and their overrides in the **Billing Rates** tab of the project.
+## Overview of the Billing Rates section of a project
+
+After you have specified the override billing rates for the job roles associated with the project, you can see all the job roles and their overrides in the **Billing Rates** tab of the project.
 
 Notice the following information in the list of **Billing Rates**:
 

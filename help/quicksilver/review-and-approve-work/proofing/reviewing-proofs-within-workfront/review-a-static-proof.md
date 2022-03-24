@@ -200,17 +200,17 @@ Alternatively, you can use the thumbnail area to zoom and pan within the proof, 
 
 1. Do any of the following to adjust the zoom percentage of the proof:
 
-  * Click the **Zoom** icon, then either click on the proof to view the proof at a higher zoom level, or drag across an area of the proof to view only that area.
+   * Click the **Zoom** icon, then either click on the proof to view the proof at a higher zoom level, or drag across an area of the proof to view only that area.
 
-    ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
-  * Click the current zoom percentage, the click a new zoom percentage or click&nbsp;**Fit to width**, **Fit to height**, or **Fit to page**.
+   * Click the current zoom percentage, the click a new zoom percentage or click&nbsp;**Fit to width**, **Fit to height**, or **Fit to page**.
 
-    ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-  * Click the **Plus** or **Minus** icons to increase or decrease the zoom percentage.
+   * Click the **Plus** or **Minus** icons to increase or decrease the zoom percentage.
 
-    ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
 1. If you need to pan to a certain area on the video proof, click the **Pan** icon, then drag the proof as needed.
 

@@ -57,9 +57,9 @@ When you remove a user from the project, the user is also removed from the proje
 
 You can remove users from a project from the People sectionof the project.
 
-* Remove users from a project from the People area
+* [Remove users from a project from the People area](#remove)
 
-Remove users from a project from the People area
+### Remove users from a project from the People area
 
 1. Go to the project where you want to remove the users.
 1. Click **People** in the left panel,&nbsp;then select the users you want to remove. This might be located under the **Show More** area.   

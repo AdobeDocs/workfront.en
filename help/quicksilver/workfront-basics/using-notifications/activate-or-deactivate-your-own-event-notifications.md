@@ -47,13 +47,12 @@ You must have the following access to perform the steps in this article:
 
 ## View and modify your email notification settings
 
-1. Main Menu
-1. 
-1. More
-1. 
-1. Edit
-1. Edit Person
-1. Notifications
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.
+
+1. Click the **More** icon ![](assets/more-icon.png) , then click **Edit**.
+
+1. In the **Edit Person** box that displays, go to the **Notifications** section.
+
 1. Click a category to view the notification settings related to that category.
 
    ![](assets/my-profile-notifications-350x212.png)

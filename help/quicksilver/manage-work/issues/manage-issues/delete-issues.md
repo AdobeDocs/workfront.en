@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 * Your Workfront administrator or a group administrator must enable deleting issues in a project that has a status of Complete in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).   
 
-* If the issue has logged hours, the Workfront administrator or a group administrator must allow the deletion of these issues by configuring the Task & Issue Preferences in your Workfront instance. This also applies when you try to delete projects that have issues with hours logged on them.
+* If the issue has logged hours, the Workfront administrator or a group administrator must allow the deletion of these issues by configuring the Task & Issue Preferences in your Workfront instance. ```This also applies when you try to delete projects that have issues with hours logged on them.```
 
   For more information about enabling the deletion of issues where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -68,7 +68,8 @@ Depending on how your Workfront or group administrator configures the Project, T
 
 * Move to the project and will not be restored on the issue, if the issue is later restored.
 * Be deleted and will be restored on the issue, if the issue is later restored.
-  This also applies when you try to delete projects that have tasks with hours logged on them. 
+
+  This also applies when you try to delete projects that have tasks with hours logged on them.
 
   For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -86,8 +87,8 @@ Depending on how your Workfront or group administrator configures the Project, T
 1. Click **Projects**.  
 1. Click the project name that contains the issues you want to delete.
 1. Click **Issues** in the left panel. 
-1. Delete
-1. 
+1. Select an issue, then click the **Delete** icon ![](assets/delete.png) at the top of the list. 
+
 1. If the deletion is allowed, click **Yes, Delete it**.  
    Your Workfront administrator might not allow the deletion of issues where hours are logged.  
    For more information about the access and permissions needed to delete an issue, see [Delete issues](#access-and-permissions-needed).
@@ -99,8 +100,12 @@ Depending on how your Workfront or group administrator configures the Project, T
 1. Click the project name that contains the issue you want to delete.
 1. Click the **Issues** icon.
 
+   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+
 1. Click the name of the issue you want to delete.
 1. Click the **More** menu.
+
+   ![](assets/qs-issue-more-menu-highlighted-350x225.png)
 
 1. Click **Delete**. 
 1. If the deletion is allowed, click **Yes, Delete it**.  

@@ -47,3 +47,5 @@ You must have the following access to perform the steps in this article:
 >
 >The column totals do not change based on the filtered results. Column totals display the totals for all work items on the board.
 
+![](assets/filter-with-totals---scrum-350x256.png)
+

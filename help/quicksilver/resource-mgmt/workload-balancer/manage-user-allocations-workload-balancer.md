@@ -92,8 +92,8 @@ Consider the following when locating daily, weekly ```or monthly``` allocations 
 
   For example, the following scenarios might exist:
 
-  * For a task with a Duration of 2 Days and with 10 Planned Hours assigned to one user, the daily allocation for the user is 5 hours for each day by default. 
-  * For a task with a Duration of 2 days and with 10 Planned Hours assigned to two users, the daily allocation for each user is 2.5 hours for each day by default.
+   * For a task with a Duration of 2 Days and with 10 Planned Hours assigned to one user, the daily allocation for the user is 5 hours for each day by default. 
+   * For a task with a Duration of 2 days and with 10 Planned Hours assigned to two users, the daily allocation for each user is 2.5 hours for each day by default.
 
 * If a task or issue completed before the Planned Completion Date, the number of allocated hours for the remaining days is struck through and does not count towards the user's overall allocation. This displays only when both the Show allocations icon and the Show Projected Dates setting are enabled. For more information about enabling settings in the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -171,18 +171,16 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
 1. (Optional)&nbsp;Click the **Settings** icon ![](assets/gear-icon-settings.png) and select any of the following options:
 
-  1. **Include hours from issues**.&nbsp;This allows you to manage issue allocations in addition to task allocations. 
-  1. **Show completed work** . This displays items that have been completed and are scheduled during the timeline you manage allocations for. 
-  1. **Show remaining time** option. The total number of hours for each user (in the user line) changes. With this setting enabled, the Workload Balancer displays the hours that each user has available for work instead of the number of hours they are allocated for.
+   1. **Include hours from issues**.&nbsp;This allows you to manage issue allocations in addition to task allocations. 
+   1. **Show completed work** . This displays items that have been completed and are scheduled during the timeline you manage allocations for. 
+   1. **Show remaining time** option. The total number of hours for each user (in the user line) changes. With this setting enabled, the Workload Balancer displays the hours that each user has available for work instead of the number of hours they are allocated for.
 
-     >[!TIP]
-     >
-     >Modifying allocations when this setting is enabled makes the total number in the user line decrease.
+      >[!TIP]
+      >
+      >Modifying allocations when this setting is enabled makes the total number in the user line decrease.
 
-  1. **Project** in the **Select color theme** section. This displays each project and its respective work items in unique colors and makes it easier to understand which items belong to which project. 
-  
-  1. Percentage
-  1. Display user allocation in
+   1. **Project** in the **Select color theme** section. This displays each project and its respective work items in unique colors and makes it easier to understand which items belong to which project. 
+   1. **Percentage** in the **Display user allocation in** section.&nbsp;This displays allocations as a percentage value. The user's capacity according to their schedule is considered to be 100%. For example, if a user is associated with a schedule of 8 hours per day, 8 hours equals 100% capacity. If you want to allocate the user to work 4 hours in a day, you would update his allocation to 50%.
 
 1. Click the **More** menu ![](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
 
@@ -210,14 +208,14 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
    The following scenarios exist:
 
-  * For tasks with Duration Types that are not Simple ```or for ```issues``````, the total of the allocations must match the task Planned Hours before you can click the check mark icon. 
-  * For tasks with a Simple Duration Type the total of the allocations can be higher or lower than the Planned Hours and you can click the check mark icon even if they don't match. This also updates the amount of Planned Hours for the task. You must have the correct permissions and access to update Planned Hours on tasks from the Workload Balancer.
+   * For tasks with Duration Types that are not Simple ```or for ```issues``````, the total of the allocations must match the task Planned Hours before you can click the check mark icon. 
+   * For tasks with a Simple Duration Type the total of the allocations can be higher or lower than the Planned Hours and you can click the check mark icon even if they don't match. This also updates the amount of Planned Hours for the task. You must have the correct permissions and access to update Planned Hours on tasks from the Workload Balancer.
 
-    >[!TIP]
-    >
-    >```A lock icon displays to the right of the task name as you start adjusting your allocations to indicate that the task has a Simple Duration Type.```
+     >[!TIP]
+     >
+     >```A lock icon displays to the right of the task name as you start adjusting your allocations to indicate that the task has a Simple Duration Type.```
 
-    ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
 
    For more information about the conditions that need to be met to update Planned Hours in the Workload Balancer, see the following section in this article: [Update task Planned Hours when managing user allocations](#update). For information about task Duration Types, see [Overview of Task Duration and Duration Type](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -241,8 +239,8 @@ This is possible when the following conditions exist:
 
 * You have the correct permissions and access to manage Planned Hours from the Workload Balancer. These include the following:
 
-  * Manage permissions to the tasks.
-  * Update Planned Hours in the Workload Balancer access in the Resource Management area of your Access Level.
+   * Manage permissions to the tasks.
+   * Update Planned Hours in the Workload Balancer access in the Resource Management area of your Access Level.
 
   For more information about the access needed to use the Workload Balancer, see the following section in this article: [Access requirements](#access2) . 
 

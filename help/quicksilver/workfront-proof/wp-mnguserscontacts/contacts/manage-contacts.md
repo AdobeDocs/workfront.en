@@ -48,20 +48,20 @@ You can manage your colleagues, members, and guests on the Contacts page.
 1. Select the checkbox for one or more contact.
 1. Do any of the following:
 
-  * Click **Add to Group** to add the selected contacts to a Group.  
-    ![Add_to_Group_btn.png](assets/add-to-group-btn.png)
+   * Click **Add to Group** to add the selected contacts to a Group.  
+     ![Add_to_Group_btn.png](assets/add-to-group-btn.png)
 
-  * Click **Remove**, then click an option in the drop-down menu to remove the contact from proofs or groups.
-  * Click **More**>&nbsp;**Send reminder on late proofs** to send a reminder email to the selected contacts about any late proofs.
-  
-  * Click **More** > **Export contacts to CSV** to export the selected contacts to a CSV file.
-  
-  * Click **Delete contacts** to remove the selected contacts from your list.  
-    ![Trash_button.png](assets/trash-button.png)  
-    Deleting a contact does not mean that a user is removed from your account; however if an Administrator or Billing Administrator deletes someone from the contacts list, that person will be deleted from your organization's account altogether.
-  
-  * Click the **More** icon at the end of a contact's row and use any of the options in the drop-down menu that appears.  
-    These options are different for for different types of contacts. See [Understand Users, Members, and Guests in Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) for more information.
+   * Click **Remove**, then click an option in the drop-down menu to remove the contact from proofs or groups.
+   * Click **More**>&nbsp;**Send reminder on late proofs** to send a reminder email to the selected contacts about any late proofs.
+   
+   * Click **More** > **Export contacts to CSV** to export the selected contacts to a CSV file.
+   
+   * Click **Delete contacts** to remove the selected contacts from your list.  
+     ![Trash_button.png](assets/trash-button.png)  
+     Deleting a contact does not mean that a user is removed from your account; however if an Administrator or Billing Administrator deletes someone from the contacts list, that person will be deleted from your organization's account altogether.
+   
+   * Click the **More** icon at the end of a contact's row and use any of the options in the drop-down menu that appears.  
+     These options are different for for different types of contacts. See [Understand Users, Members, and Guests in Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) for more information.
 
 ## Importing Contacts
 
@@ -75,7 +75,7 @@ You can import contacts from a CSV file.
 1. Click **Save**.
 1.
 
-  * The CSV file must have at least one column called "Email" (containing the email addresses).
-  * You can also include additional columns for "Name," "Company," "Telephone" and "Mobile."
-  * Instead of "Name" you may use two columns for "First Name" and "Last Name". If separate first and last name columns are used, you must ensure you do not also include a "Name" column.
+   * The CSV file must have at least one column called "Email" (containing the email addresses).
+   * You can also include additional columns for "Name," "Company," "Telephone" and "Mobile."
+   * Instead of "Name" you may use two columns for "First Name" and "Last Name". If separate first and last name columns are used, you must ensure you do not also include a "Name" column.
 

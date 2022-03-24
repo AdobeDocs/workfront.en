@@ -53,20 +53,23 @@ You must have the following access to perform the steps in this article:
 
 ## Add a subtask to an existing story on the Scrum board
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+
 1. Go to the agile iteration or project that contains the story&nbsp;where&nbsp;you want to add a subtask. For information about how to navigate to an iteration, see [View an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Go to the story tile on the story board where you want to add a subtask.
 1. Click **Add Subtask** on the main story card&nbsp;to create a subtask to the story.
+
+   ![](assets/agile-story-addsubtask-nwe-350x138.png)
 
    Or
 
    Click **Add Subtask**&nbsp;on a subtask tile to create a subtask to the subtask.
 
    Workfront supports infinite levels of subtasks, but only two levels (subtasks of subtasks)&nbsp;are displayed on the agile story board.
+
+   ![](assets/agile-story-addsubtask2-nwe-350x209.png)
 
    When adding a subtask to a story that currently does not have a swimlane, the parent task is promoted to the Parent Story column and the subtask moves inside&nbsp;the swimlane.
 

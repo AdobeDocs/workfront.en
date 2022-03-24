@@ -68,10 +68,11 @@ Consider the following when using task priorities:
 ## Modify the Priority of a task
 
 1. Go to the task whose priority you want to modify. 
-1. Click the **Task Details** tab.  
-1. Select the **Overview** sub-tab, then **Edit Overview**.  
+1. Click the **Task Details** tab. 
+1. Select the **Overview** sub-tab, then **Edit Overview**. 
+1. Select a value for the **Priority** field.
 
-1. Select a value for the **Priority** field.   
+   ![](assets/task-details-tab-with-priority-field-350x247.png)
 
 1. Click **Save**.
 

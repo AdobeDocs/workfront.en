@@ -73,13 +73,13 @@ You must have the following:
 
    Documents with the native or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets Essentials:
 
-  1. In the **Workfront Source Field** column, choose a native or custom Workfront field.
-  1. In the **Experience Manager Target Field**, choose an Experience Manager Assets Essentials field. 
-  1. Repeat steps a. and b. as needed.
+   1. In the **Workfront Source Field** column, choose a native or custom Workfront field.
+   1. In the **Experience Manager Target Field**, choose an Experience Manager Assets Essentials field. 
+   1. Repeat steps a. and b. as needed.
 
-     >[!NOTE]
-     >
-     >You can map metadata only in one direction: from Workfront to Assets Essentials. Metadata for documents linked to Workfront from Assets Essentials cannot be transferred to Workfront.
+      >[!NOTE]
+      >
+      >You can map metadata only in one direction: from Workfront to Assets Essentials. Metadata for documents linked to Workfront from Assets Essentials cannot be transferred to Workfront.
 
 1. Select **Save**.
 

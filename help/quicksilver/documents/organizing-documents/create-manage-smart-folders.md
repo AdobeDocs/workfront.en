@@ -68,7 +68,6 @@ You can display folders in thumbnail, standard, or list view. To change the view
 
 1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to edit.
 1. In the **Folders** column, click the **More** icon ![](assets/more-icon.png) next to the smart folder that you want to edit.
-
 1. Click **Edit**.
 
    The **Edit Smart Folder**&nbsp;dialog box is displayed.  
@@ -85,7 +84,7 @@ You can display folders in thumbnail, standard, or list view. To change the view
 ## Copy a Smart Folder
 
 1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to copy.
-1. Folders
+1. In the **Folders** column, click the drop-down arrow next to the smart folder that you want to copy.
 1. Click **Copy**.
 
    The **Edit Smart Folder**dialog box is displayed. The **Folder Name**&nbsp;field contains the original name of the folder, with the word Copy&nbsp;in parenthesis.

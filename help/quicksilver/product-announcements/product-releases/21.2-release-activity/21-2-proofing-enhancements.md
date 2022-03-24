@@ -23,7 +23,7 @@ With this enhancement, you can easily see all proofs that have an overall decisi
 
 Previously, you were required to go to the document details and proof workflow in order to view the overall proof decision, which required multiple clicks.
 
-For more information about proof decisions, see The Documents area.
+For more information about proof decisions, see [The Documents area](../../../documents/managing-documents/documents-area.md).
 
 This feature is now included in the [Manage proofs and versions in the new Workfront experience](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) learning path on Workfront One.
 

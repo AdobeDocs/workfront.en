@@ -37,11 +37,14 @@ You must have the following access to perform the steps in this article:
 
 ## Edit team settings
 
-1. People
-1. Teams
+1. Click **People** in the Global Navigation Bar.
+1. Click the **Teams** tab, then in the drop-down list,&nbsp;select the team that you want to edit.
 1. Click **Team Settings** in the upper-right corner.
-1. Only team members with either a Plan or Work license see this option.  
-1. 
+
+   Only team members with either a Plan or Work license see this option.
+
+   ![team_settings_highlight.png](assets/team-settings-highlight-350x102.png)
+
 1. In team settings, you can make the following kinds of changes:
 
    * Modify the team name
@@ -59,6 +62,7 @@ You must have the following access to perform the steps in this article:
 
      For more information on applying a custom layout template to a team, see the "Applying a Custom Template to a Team" section in [Change the My Work and Work Requests areas with Layout Templates](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md).
    
+   * Decide which calendar should display when you access the team
    * Decide if this team is an agile team, by selecting the **This is an Agile Team** option.
 
      For more information on agile teams and how to manage work inside an agile team, see [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).

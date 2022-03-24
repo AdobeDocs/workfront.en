@@ -74,8 +74,8 @@ In the Project and Role Views, users could appear listed under the following typ
 * Their primary job role
 * Their secondary job role, in the following scenarios:
 
-  * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
-  * If the user is assigned to tasks in those roles.
+   * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
+   * If the user is assigned to tasks in those roles.
 
 For more information about the **Percentage of FTE Availability** for a job role, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 

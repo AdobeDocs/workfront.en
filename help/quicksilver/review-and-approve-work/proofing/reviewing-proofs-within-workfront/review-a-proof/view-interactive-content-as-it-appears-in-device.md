@@ -86,8 +86,8 @@ Your Adobe Workfront administrator has configured your system so that you review
 
    The custom resolution displays in the following locations:
 
-  * In the&nbsp;**Resolution**panel at the bottom-center of the viewer.   
-    ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
+   * In the&nbsp;**Resolution**panel at the bottom-center of the viewer.   
+     ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
-  * In any comments reviewers add to the proof. Each comment includes the screen resolution that was selected when the reviewer created the comment.
+   * In any comments reviewers add to the proof. Each comment includes the screen resolution that was selected when the reviewer created the comment.
 

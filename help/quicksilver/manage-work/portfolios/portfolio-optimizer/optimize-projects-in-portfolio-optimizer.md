@@ -42,7 +42,9 @@ You must have the following access to perform the steps in this article:
 ## Optimize projects in the Portfolio Optimizer
 
 1. Open a Portfolio, then click **Portfolio Optimization** in the left panel.
-1. The Portfolio Optimizer displays.
+
+   The Portfolio Optimizer displays.
+
 1. Click the **Optimize** icon .
 
    ![](assets/optimize-icon-portfolio-optimizer.png)   
@@ -50,11 +52,11 @@ You must have the following access to perform the steps in this article:
 
 1. Using the sliding circle, modify the optimization of any of the following categories:
 
-  * **Low Cost**: Move the slider to the right to view projects with the lowest Planned Cost.
-  * **High Alignment**: Move the slider to the right to view projects with the highest alignment based on the Scorecard.
-  * **High Value**: Move the slider to the right to view projects with a higher Net Value score.
-  * **Low Risk to Benefit**: Move the slider to the right to view projects with the lowest risk to benefit ratio.
-  * **High ROI**: Move the slider to the right to view projects with a higher return on investment (ROI).
+   * **Low Cost**: Move the slider to the right to view projects with the lowest Planned Cost.
+   * **High Alignment**: Move the slider to the right to view projects with the highest alignment based on the Scorecard.
+   * **High Value**: Move the slider to the right to view projects with a higher Net Value score.
+   * **Low Risk to Benefit**: Move the slider to the right to view projects with the lowest risk to benefit ratio.
+   * **High ROI**: Move the slider to the right to view projects with a higher return on investment (ROI).
 
 1. Click the **x icon** to close the optimization categories.
 

@@ -21,7 +21,7 @@ If your firewall or mail server is configured to allow access to only certain ve
 * Using document webhooks when configuring custom document integrations
 * Using Workfront Event Subscriptions
 
-  For more information, see Event Subscription API.
+  For more information, see [Event Subscription API](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 You also need to open certain ports in order for email messages to be encrypted when they are delivered.
 

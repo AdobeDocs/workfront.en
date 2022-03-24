@@ -26,15 +26,15 @@ In addition to the considerations below, also see [Overview of sharing permissio
 * You can share projects individually, or you can share several of them at a time. Sharing projects is identical to sharing other objects. For more information about sharing items in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md). 
 * You can grant the following permissions to a project:&nbsp;
 
-  * View
-  * Manage
-  * Contribute
+   * View
+   * Manage
+   * Contribute
 
-    ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * When you share a project, all the tasks, issues, and documents inherit the same permissions, unless otherwise specified.
 
-  For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the  section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
+  For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the [](../../manage-work/projects/manage-projects/edit-projects.md#access) section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
   The Workfront administrator can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -46,32 +46,32 @@ You can share a project in the following ways:
 
 * Manually by doing one of the following:
 
-  * Adding users to the project team. When you add users to the project team, they automatically obtain View permissions to the project.   
-    For more information about adding users to a project team, see the "Adding Users to a Project Team" section in [Project Team overview](../../manage-work/projects/planning-a-project/project-team-overview.md). 
-  * Individually or bulk-sharing the projects when using the **Sharing** option.
+   * Adding users to the project team. When you add users to the project team, they automatically obtain View permissions to the project.   
+     For more information about adding users to a project team, see the "Adding Users to a Project Team" section in [Project Team overview](../../manage-work/projects/planning-a-project/project-team-overview.md). 
+   * Individually or bulk-sharing the projects when using the **Sharing** option.
 
-    Sharing a project is similar to sharing all other objects in Adobe Workfront.
+     Sharing a project is similar to sharing all other objects in Adobe Workfront.
 
-    For information about sharing objects in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     For information about sharing objects in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Automatically, by doing one of the following:
 
-  * Place a project in a **Portfolio** or **Program** that is already shared with others. Users gain the same permissions to the project that they have for the portfolio or program.   
-    For information about adding a project to a **Portfolio**, see [Add projects to a portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).  
-    For information about adding a project to a **Program**, see [Add a project to a program](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   * Place a project in a **Portfolio** or **Program** that is already shared with others. Users gain the same permissions to the project that they have for the portfolio or program.   
+     For information about adding a project to a **Portfolio**, see [Add projects to a portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).  
+     For information about adding a project to a **Program**, see [Add a project to a program](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-    For information about viewing inherited permissions on an object, see [View inherited permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     For information about viewing inherited permissions on an object, see [View inherited permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-  * Add entities to Project Sharing on a template used to create the project. For information about sharing projects from templates, see [Sharing a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md). 
-  * Define the project access template.
+   * Add entities to Project Sharing on a template used to create the project. For information about sharing projects from templates, see [Sharing a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md). 
+   * Define the project access template.
 
-    To define the project access template, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     To define the project access template, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-    >[!TIP]
-    >
-    >When attaching or saving a template, you can clear the Template Project Sharing rules.
+     >[!TIP]
+     >
+     >When attaching or saving a template, you can clear the Template Project Sharing rules.
 
-  * Edit a project and defining the **When someone is given access to this project** setting.&nbsp;For more information, see [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Edit a project and defining the **When someone is given access to this project** setting.&nbsp;For more information, see [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -107,7 +107,7 @@ You can share a project in the following ways:
 <p>To configure the default permissions that are included with each access level:</p>
 <ol>
 <li value="1">Go to the project where you want to set the default permissions.</li>
-<li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p>  <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;">  </li>
+<li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;"> </p> </li>
 <li value="3">Click <strong>Access</strong> in the list on the left.</li>
 <li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#understanding-project-permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
 The

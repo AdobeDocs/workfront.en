@@ -37,8 +37,8 @@ The difference between Projected and Estimated Dates is:
 
 * Projected Dates are affected by a user making the following updates on the task:
 
-  * Add a Constraint Date by adding a fixed Task Constraint 
-  * Add a Commit Date
+   * Add a Constraint Date by adding a fixed Task Constraint 
+   * Add a Commit Date
 
 * Estimated Dates only take into account the real progress on a task in a given point in time.
 

@@ -41,8 +41,10 @@ You must have the following access to perform the steps in this article:
 
 ## View activity on a proof within Adobe Workfront
 
-1. On the **Details** tab, under&nbsp;**Proofing**, click **Details**.  ![View_activity_on_proof-click_Details.png](assets/view-activity-on-proof-click-details-350x217.png)
+1. Select the document that contains the proof.
+1. On the **Details** tab, under&nbsp;**Proofing**, click **Details**.
 
-1. Proofing Details
-1. Activity
+   ![View_activity_on_proof-click_Details.png](assets/view-activity-on-proof-click-details-350x217.png)
+
+1. In the **Proofing Details** box that appears, expand the **Activity**&nbsp;section to display all activity that has occurred on the proof.
 

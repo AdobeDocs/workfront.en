@@ -26,8 +26,8 @@ When granting a user Manager permissions, the following troubleshooting informat
 * **PROBLEM:** Users with Manager permissions cannot add proof versions to the proofs created by other users (they could potentially submit a proof in the documents set, but the versions would NOT be connected to the original set created by another user).  
   **SOLUTION:** Users with Manager permissions can submit the versions to another user's proof only if the user with Manager permissions when both of the following :
 
-  * Explicitly added to the proofs
-  * Set as Authors (proof role) on the proofs
+   * Explicitly added to the proofs
+   * Set as Authors (proof role) on the proofs
 
 * **PROBLEM:** Users with Manager permissions cannot edit comments of other users on a proof they do not own or they did not create.  
   **SOLUTION:** If users with Manager permissions do not own the proofs, but they should be able to edit comments, add them as Authors (or Moderators).  

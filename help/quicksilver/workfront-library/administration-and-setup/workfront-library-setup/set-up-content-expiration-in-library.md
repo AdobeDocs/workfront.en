@@ -33,8 +33,7 @@ Expired items migrated from Workfront DAM to Workfront Library remain expired.
 
 ## Setup content expiration
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **Setup**> **Content expiration**.
 
@@ -60,17 +59,17 @@ Expired items migrated from Workfront DAM to Workfront Library remain expired.
 
 1. In the **Visibility** section, specify who can view expired content by choosing one of the following options:
 
-  * **Everyone:** All users with permissions to the expired content can view the content and can also see it in search results.
+   * **Everyone:** All users with permissions to the expired content can view the content and can also see it in search results.
 
-    * Users with View permission to the expired content can see it in their personal collections.
-    * Users with Manage permission to the expired content can see it in their Shared With Me or My Library areas and in any collections to which they have access.
+      * Users with View permission to the expired content can see it in their personal collections.
+      * Users with Manage permission to the expired content can see it in their Shared With Me or My Library areas and in any collections to which they have access.
 
-  * **Admins and Managers only:** Only users with Admin access to Workfront Library or Manage permission to the expired content can view the content and see it in search results.
+   * **Admins and Managers only:** Only users with Admin access to Workfront Library or Manage permission to the expired content can view the content and see it in search results.
 
-    * Users with View permission to the expired content cannot view it in Workfront Library once it expires.
-    * Users with Manage permission to the expired content can view it in their Shared With Me or My Library areas and in any collections to which they have access.
+      * Users with View permission to the expired content cannot view it in Workfront Library once it expires.
+      * Users with Manage permission to the expired content can view it in their Shared With Me or My Library areas and in any collections to which they have access.
 
-    For more information on content permissions, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
+     For more information on content permissions, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
 
 1. (Conditional) If you selected **Everyone** in Step 6 and you want to prevent users from downloading or sharing expired content to which they have View permission, select **Prevent Viewer download**.  
    When this option is enabled, all&nbsp;public links to expired content become disabled.

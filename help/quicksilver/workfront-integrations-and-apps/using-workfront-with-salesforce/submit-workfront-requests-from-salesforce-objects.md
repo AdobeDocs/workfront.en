@@ -111,14 +111,14 @@ To submit a Workfront request from a Salesforce Opportunity or Account ensure th
 
    You can view the following information about the submitted requests:
 
-  * Requests Name (in the Subject&nbsp;column)
-  * Reference Number
-  * Request&nbsp;Type
-  * Status
-  * Submitted on&nbsp;Date
-  * Requested by Name
-  * Assigned to Name  
-    When this information is updated in Workfront, it is also updated in this list.&nbsp;
+   * Requests Name (in the Subject&nbsp;column)
+   * Reference Number
+   * Request&nbsp;Type
+   * Status
+   * Submitted on&nbsp;Date
+   * Requested by Name
+   * Assigned to Name  
+     When this information is updated in Workfront, it is also updated in this list.&nbsp;
 
 1. (Optional) Click the name of the request to open it in Workfront.&nbsp;
 

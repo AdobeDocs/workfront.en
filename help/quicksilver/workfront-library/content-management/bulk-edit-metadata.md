@@ -17,14 +17,14 @@ To bulk edit metadata:
 
    ![](assets/workfront-library-icon-350x186.jpg)
 
-   In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
+   In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. Select the area where the asset is located:
 
-  * **Library** 
-  * **My Content** 
-  * **Collections**
+   * **Library** 
+   * **My Content** 
+   * **Collections**
 
 1. On your keyboard, hold the **CTRL** key—or **COMMAND** key for Mac users—and click on each thumbnail of the asset you would like to edit metadata for.
 1. After selecting all assets, click the **Details Slideout** icon ![](assets/details-icon.png)in the upper-right corner to display the metadata details for the selected assets.
@@ -38,13 +38,13 @@ To bulk edit metadata:
    >[!NOTE]
    >
    >Depending on the type of field you're updating, you make changes differently.    >
-   >  
-   >  
-   >  * **Date**: To change a date, click the field and select a date from the pop-up that appears.
-   >  * **Multi-select**: To add a new option, click the field, then select each desired option from the drop-down menu. To remove already selected options, click the X. The selected options for an asset display in the field with the number of assets these options apply to.
-   >  * **Single-select**: To add a new option, click the field, then select the desired option.
-   >  * **Text Field**: To add a new option, enter text in the field.
-   >  
+   >   
+   >   
+   >   * **Date**: To change a date, click the field and select a date from the pop-up that appears.
+   >   * **Multi-select**: To add a new option, click the field, then select each desired option from the drop-down menu. To remove already selected options, click the X. The selected options for an asset display in the field with the number of assets these options apply to.
+   >   * **Single-select**: To add a new option, click the field, then select the desired option.
+   >   * **Text Field**: To add a new option, enter text in the field.
+   >   
    >
 
 1. In the **Keywords** area, the keywords for all selected assets display. Click the drop-down to select or deselect keywords for all selected assets.

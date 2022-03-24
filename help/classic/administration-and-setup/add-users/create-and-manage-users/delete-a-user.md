@@ -107,9 +107,9 @@ You can permanently delete users one at a time, or you can permanently delete mu
 
 ## Delete one or more users
 
-1. People
-1. More
-1. Delete
+1. Click **People** in the Global Navigation Bar.
+1. Select at least one user that you want to delete, then click **More** > **Delete**.
+
 1. In the box that appears, click **Delete Anyway** to confirm the deletion.
 
    The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.

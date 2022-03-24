@@ -38,10 +38,8 @@ You must have the following to perform the steps in this article:
 
 ## Set timesheet and hour preferences
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. Click **Timesheet & Hours** > **Preferences**.
 
 1. On the page that displays, in the **General Preferences** section, configure any of the following options:
@@ -165,12 +163,12 @@ To unlock a project preference so that groups can configure it:
 
 1. Do any of the following:
 
-  * If you want group administrators to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
-  * If you want all groups to use your configuration for a preference, make sure that it is locked (this is the default).  
-  
-    >[!IMPORTANT]
-    >
-    >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
+   * If you want group administrators to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
+   * If you want all groups to use your configuration for a preference, make sure that it is locked (this is the default).   
+   
+     >[!IMPORTANT]
+     >
+     >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
 1. Click **Save**.
 

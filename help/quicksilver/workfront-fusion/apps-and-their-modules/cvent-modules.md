@@ -78,9 +78,9 @@ You can create a connection to your Cvent account directly from inside a Cvent m
 1. In any Cvent module, click **Add**next to the Connection field.
 1. Select the region that you want to connect to.
 
-  * North America
-  * Europe
-  * Sandbox
+   * North America
+   * Europe
+   * Sandbox
 
 1. Click **Continue**to create the connection and go back to the module.
 

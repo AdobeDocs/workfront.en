@@ -55,7 +55,7 @@ For information about how to synchronize users to your Workfront site via LDAP, 
 
 ## Use a spreadsheet import file to import users
 
-1. People
+1. Go to the **People** area.
 1. Click the **People** tab.
 1. Click the **New PersonUser** drop-down arrow, then click **Import PeopleUsers**.
 

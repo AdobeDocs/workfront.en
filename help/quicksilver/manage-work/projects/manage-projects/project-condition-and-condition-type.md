@@ -20,8 +20,8 @@ Consider the following in understanding the Condition of a project:
 
 * As the project owner, you can decide whether the Condition of a project is set manually or automatically. The Condition of a project can be set in the following ways:
 
-  * Manually, by users who have access to Manage the project and when the Condition Type of the project is set to Manual.
-  * Automatically, by Adobe Workfront, when the Condition Type of the project is set to Progress Status. The Progress Status of the project is determined by the progress of the tasks on the project. For information about the Progress Status of the project, see [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * Manually, by users who have access to Manage the project and when the Condition Type of the project is set to Manual.
+   * Automatically, by Adobe Workfront, when the Condition Type of the project is set to Progress Status. The Progress Status of the project is determined by the progress of the tasks on the project. For information about the Progress Status of the project, see [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
   For information about how to update the Condition Type of the project, see [Set the Condition Type of a project](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
 
@@ -33,13 +33,13 @@ Consider the following in understanding the Condition of a project:
   >Projects that are in any of the following statuses are always marked as On Target, no matter what the dates of the tasks and their progress are:  
 
   >
-  >  
-  >  
-  >  * Idea
-  >  * Requested
-  >  * Approved
-  >  * Rejected 
-  >  
+  >   
+  >   
+  >   * Idea
+  >   * Requested
+  >   * Approved
+  >   * Rejected 
+  >   
   >
 
 <!--
@@ -50,7 +50,7 @@ Consider the following in understanding the Condition of a project:
 <li value="2"> <p>  Click the <strong>More</strong> menu <img src="assets/qs-more-menu.png"> to the right of the project name, then click <strong>Edit</strong>.  <br> </p> </li>
 <li value="3">In the <strong>Condition Type</strong> field, choose one of the following:
 <ul>
-<li><p><strong>Manual:</strong> The project owner sets the Condition on the project manually.</p>In this case, the project owner can update the Condition of the project in the project header, or the Project Details section. </li>
+<li><p><strong>Manual:</strong> The project owner sets the Condition on the project manually.</p><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In this case, the project owner can update the Condition of the project in the project header, or the Project Details section. </p></li>
 <li><p><strong>Progress Status:</strong> Workfront sets the Condition based on the Progress Status of the project. <br></p></li>
 </ul></li>
 <li value="4">Click <strong>Save Changes</strong>. </li>

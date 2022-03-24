@@ -62,6 +62,8 @@ You can create a project from the Projects area in the Global Navigation Bar, or
 1. Choose the **Import MS Project** option. 
 1. Click **Select File**, then browse for the .xml file on your computer which you exported from Microsoft Project.
 
+   ![](assets/screen-shot-2013-09-09-at-9.48.49-am-350x224.png)
+
 1. Import the selected file.
 
    Workfront begins the import process and creates a new project based on the file exported from Microsoft Project.

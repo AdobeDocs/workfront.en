@@ -21,8 +21,8 @@ The Planned Completion Dates of tasks on a project determine the Planned Complet
 >
 >* The&nbsp;Commit Date is the date by which the person assigned to the task manually estimates that they will have completed the task. For more information see the following articles:
 >
->  * [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) 
->  * [Interactions between the Commit Date and the Planned Completion Date](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
+>   * [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) 
+>   * [Interactions between the Commit Date and the Planned Completion Date](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
 >
 >* The Projected Completion Date is a date calculated by Workfront and takes into account task delays, timelines of the task or their predecessors , and other factors to determine a real-life date for when the task can be realistically completed. For more information, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 >
@@ -38,7 +38,7 @@ You can manually set the Planned Completion Date&nbsp;in the following areas of 
 * In the Edit Task box, when creating or editing a task.&nbsp;For information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * In the Task&nbsp;Details area. For information, see [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
 * In the Home area if the Planned Completion Date displays when viewing a task. For information, see [Update or edit a work item in the Home area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
-* In the task header. For information, see [New object headers](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md). 
+* In the task header. For information, see [New object headers](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In a task list or report when the Planned Completion Date field displays in the view.
 
   For information, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).

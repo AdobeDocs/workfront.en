@@ -56,9 +56,11 @@ You must have the following to perform the steps in this article:
 
 ## Lock or unlock a group timesheet and hour preference
 
-``` ```**Note: **`````` If you are a group administrator, you can lock a group timesheet or hour preference only in the new Adobe Workfront experience.
-
-Or you can ask a Workfront administrator to lock the group preference for you from the main Timesheets & Hours Preferences area in Setup, as explained in the Tip below. This can be done in Workfront Classic.
+>[!NOTE]
+>
+>If you are a group administrator, you can lock a group timesheet or hour preference only in the new Adobe Workfront experience. 
+>
+>Or you can ask a Workfront administrator to lock the group preference for you from the main Timesheets & Hours Preferences area in Setup, as explained in the Tip below. This can be done in Workfront Classic.
 
 >[!TIP]
 >

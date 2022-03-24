@@ -52,8 +52,8 @@ Below are some types of object lists that you can find in Workfront and some of 
    <td>List of programs</td> 
    <td> 
     <ul> 
-     <li> <p>Portfolios &gt; select a portfolio &gt; Programs</p> </li>  
-     <p>Programs</p>  
+     <li> <p>Portfolios &gt; select a portfolio &gt; Programs</p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Programs</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -209,6 +209,8 @@ The following are the elements of a list:
 </table>
 
 These elements display at the top of every list by default. They are sticky and do not move as you scroll through the list. Mouse over the icon for each element to identify them.
+
+![](assets/nwe-list-elements.png)
 
 You can can customize list elements in the following areas and share them with other users:
 
@@ -406,9 +408,11 @@ You can complete the following actions in a list:
   <tr> 
    <td><strong>Inline edit</strong> </td> 
    <td> <p>Edit objects and their information directly in the list.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Inline edit items in a list in&nbsp;Adobe Workfront</a>.</p> </td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><strong>Update with the Summary</strong> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>Update tasks and issues at the project level using the Summary panel.</p> <p>Tip: The Summary is not available for all objects and it is not available in Task or Issue reports.</p> <p>For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview in the new Adobe Workfront experience</a>.</p> </td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td><strong>Update with the Summary</strong> </td> 
+   <td> <p>Update tasks and issues at the project level using the Summary panel.</p> <p>Tip: The Summary is not available for all objects and it is not available in Task or Issue reports.</p> <p>For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview in the new Adobe Workfront experience</a>.</p> </td> 
+  </tr> 
   <tr> 
    <td><strong>Customize list display</strong> </td> 
    <td> <p>Customize the look and feel of a list, column arrangement, sorting order of items, or number of items that display.</p> <p>Note: Changes you make to the number of items to display on a page are reverted when you log out of Workfront or close your browser. Changes might also be reverted after a period of 8 hours.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modify how a list displays</a>.</p> </td> 

@@ -13,7 +13,7 @@ hidefromtoc: true
 
 Anyone who can view an item in Adobe Workfront can grant other users permissions to that item when they share it, as described in [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md). Sharing permissions are specific to one item in Workfront and define what actions the recipient user or users can take on the item.
 
-![](assets/screen-shot-2014-01-20-at-1.10.15-pm-350x404.png)  
+![](assets/screen-shot-2014-01-20-at-1.10.15-pm-350x404.png)
 
 ##  
 

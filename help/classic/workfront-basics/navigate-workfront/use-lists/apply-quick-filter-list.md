@@ -15,10 +15,14 @@ You can use the quick filter in a list of objects to help you locate only items 
 
 If you want to save a quick filter, we recommend that you build a permanent filter for your list instead.  
 For information about how to build filters in Adobe Workfront, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
 You can use temporary quick filters in the following lists:
 
+* Projects
+* Tasks
 * Hours
-* You cannot create and apply quick filters to reports.
+
+  You cannot create and apply quick filters to reports.
 
 Consider the following when applying quick filters to a list:
 
@@ -61,7 +65,10 @@ You must have the following access to perform the steps in this article:
 
 ## Apply a quick filter to a list
 
-1. Go to a list that supports quick filters, then click the **Quick Filter icon** in the upper-right corner of the list.  ![quick_filter_with_button_highlight__1_.png](assets/quick-filter-with-button-highlight--1--350x51.png)  
+1. Go to a list that supports quick filters, then click the **Quick Filter icon** in the upper-right corner of the list.
+
+   ![quick_filter_with_button_highlight__1_.png](assets/quick-filter-with-button-highlight--1--350x51.png)
+
    Or
 
    Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of commands to launch the quick filter:

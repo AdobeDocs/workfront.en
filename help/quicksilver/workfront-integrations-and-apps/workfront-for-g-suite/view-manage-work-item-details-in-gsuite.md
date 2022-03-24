@@ -72,29 +72,29 @@ Before you can view and manage work item details in G Suite, you must
 
    You can do various tasks on this tab without leaving G Suite, including the following:
 
-  * View the object's **Description** and other details, such as the users assigned to the object, the **Priority**, the requester, the **Planned completion date**, and any custom fields and forms attached to the object.
+   * View the object's **Description** and other details, such as the users assigned to the object, the **Priority**, the requester, the **Planned completion date**, and any custom fields and forms attached to the object.
 
-    Custom forms display only fields where information has been added.
-  
-  * Click the **Parent project** area to view the details of the parent object.
+     Custom forms display only fields where information has been added.
+   
+   * Click the **Parent project** area to view the details of the parent object.
 
-    >[!TIP]
-    >
-    >This can be helpful when you have tasks and issues with the same name and you need to differentiate them.
+     >[!TIP]
+     >
+     >This can be helpful when you have tasks and issues with the same name and you need to differentiate them.
 
-  * Accept work assigned to you by clicking **Work on it**.
-  * Edit various options, such as **Done** option, the **Status**, and the **Percent complete**.
+   * Accept work assigned to you by clicking **Work on it**.
+   * Edit various options, such as **Done** option, the **Status**, and the **Percent complete**.
 
-    Under **Percent complete**, type numbers and (optionally) the percentage sign % to indicate your progress on an item.
+     Under **Percent complete**, type numbers and (optionally) the percentage sign % to indicate your progress on an item.
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Log time</strong> on a work item.</li>  
-    -->  
-  
-  * View information about an approval request, including the owner, size, and any attachments. 
-  * **Approve** or **Reject** approval requests and documents.
-  
-  * **Grant** or **Ignore** access requests.
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Log time</strong> on a work item.</li>   
+     -->   
+   
+   * View information about an approval request, including the owner, size, and any attachments. 
+   * **Approve** or **Reject** approval requests and documents.
+   
+   * **Grant** or **Ignore** access requests.
 
 1. (Optional) Click **View in Workfront** to go to the current work item in Workfront.
 

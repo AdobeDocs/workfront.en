@@ -98,25 +98,25 @@ You must have the following before you begin:
 
 1. To approve or reject an item or suggest changes to a document before approving do the following:
 
-  1. (Optional) Click the **drop-down** icon ![](assets/down-arrow-blue.png) next to your approval decision (**Approve**, **Changes**,**Reject**) and add a comment, then click&nbsp;**Add**.
+   1. (Optional) Click the **drop-down** icon ![](assets/down-arrow-blue.png) next to your approval decision (**Approve**, **Changes**,**Reject**) and add a comment, then click&nbsp;**Add**.
 
-     Or
+      Or
 
-     Click&nbsp;**Skip** if you do not want to enter a comment.
+      Click&nbsp;**Skip** if you do not want to enter a comment.
 
-     ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
-     >[!NOTE]
-     >
-     >The Changes option displays only for document approvals.
+      >[!NOTE]
+      >
+      >The Changes option displays only for document approvals.
 
-     Depending on which drop-down icon you selected, the item is approved, rejected, or, in the case of a document approval, approved with a request to make additional changes. 
-  
-     ``` ```**Tip: **`````` If you do not want to add a comment to your decision, you can click the **Approve**, **Reject**, or **Changes** button and the approval decision is granted immediately.
+      Depending on which drop-down icon you selected, the item is approved, rejected, or, in the case of a document approval, approved with a request to make additional changes. 
+   
+      ``` ```**Tip: **`````` If you do not want to add a comment to your decision, you can click the **Approve**, **Reject**, or **Changes** button and the approval decision is granted immediately.
 
-     ![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      ![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
 
-     For more information about approving work, see [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
+      For more information about approving work, see [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 1. Click **Grant access** to grant the access request submitted to you
 

@@ -13,7 +13,7 @@ description: The default layout is the arrangement of the Global Navigation area
 
 The default layout is the arrangement of the Global Navigation areas and of all the tabs, views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
 
-For information about how a Workfront administrator can modify a user's default layout by assigning the user a layout template, see Create and manage layout templates.
+For information about how a Workfront administrator can modify a user's default layout by assigning the user a layout template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 >[!NOTE]
 >
@@ -46,36 +46,44 @@ The following table shows what tabs are displayed for each access level, by defa
    <th>External User</th> 
   </tr> 
  </thead> 
- <tbody>  
-  <td rowspan="4" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><strong>My Work</strong> (Renamed to <strong>My Updates</strong> for users with a Reviewer license)</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><strong>Recent Updates</strong> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> ✔</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> ✔(Default Landing Tab)</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔(Default Landing Tab) </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td>   
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><strong>Working On</strong> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✔</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✔ </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><span style="font-weight: 400;"> ✔</span> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td>   
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><strong>Work Requests</strong> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔ </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔ </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td>   
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><strong>Approvals</strong> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✔</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><span style="font-weight: 400;"> ✔</span> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><span style="font-weight: 400;"> ✔</span> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✔ </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td>  
+ <tbody> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td rowspan="4"><strong>My Work</strong> (Renamed to <strong>My Updates</strong> for users with a Reviewer license)</td> 
+   <td><strong>Recent Updates</strong> </td> 
+   <td>✔</td> 
+   <td> ✔</td> 
+   <td> ✔(Default Landing Tab)</td> 
+   <td>✔(Default Landing Tab) </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td><strong>Working On</strong> </td> 
+   <td>✔</td> 
+   <td>✔ </td> 
+   <td><span style="font-weight: 400;"> ✔</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td><strong>Work Requests</strong> </td> 
+   <td>✔ </td> 
+   <td>✔</td> 
+   <td>✔ </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td><strong>Approvals</strong> </td> 
+   <td>✔</td> 
+   <td><span style="font-weight: 400;"> ✔</span> </td> 
+   <td><span style="font-weight: 400;"> ✔</span> </td> 
+   <td>✔ </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td rowspan="2"><strong>Projects</strong> </td> 
    <td><strong>Projects</strong> </td> 

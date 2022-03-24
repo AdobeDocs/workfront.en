@@ -125,6 +125,8 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 1. Click the name of the task you want to delete.
 1. Click **Task Actions**.
 
+   ![delete_task.png](assets/delete-task-350x503.png)
+
 1. Click **Delete Task**.
 1. If the deletion is allowed, click **Yes, Delete it**.
 

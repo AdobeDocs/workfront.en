@@ -45,13 +45,20 @@ When a task or issue assignee selects a Commit Date that is different than the P
 >Changes made to the Commit Date do not automatically change the planned dates, and changes made to the planned dates do not automatically change the Commit Date.&nbsp;
 
 Setting the Commit Date for a task or issue triggers the following changes:
-```<li>  <ul>   <li> <p>The Commit Date populates in the Update Stream of the task or issue.</p> <p>  </p> <note type="tip">    The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see     <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md" class="MCXref xref">System-tracked updates</a>.   </note> </li>  </ul> </li>```
+```<li>  <ul>   <li> <p>The Commit Date populates in the Update Stream of the task or issue.</p> <p> <img src="assets/task-commit-date-update-stream-outlined-350x156.png" style="width: 350;height: 156;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> <note type="tip">    The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see     <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md" class="MCXref xref">System-tracked updates</a>.   </note> </li>  </ul> </li>```
 
-* The Due on date (or Planned Completion Date) no longer displays on the Details tab of the task or issue. Instead, the This will be done by (or Commit Date) displays on the Details tab. This indicates that the Commit Date has now been set for the task or issue. 
+* The Due on date (or Planned Completion Date) no longer displays on the Details tab of the task or issue. Instead, the This will be done by (or Commit Date) displays on the Details tab. This indicates that the Commit Date has now been set for the task or issue.
+
+  ![](assets/task-commit-date-card-outlined-350x638.png)
+
 * The Projected Completion Date of the task or issue is set to the same date because the task now has a more accurate indication of when it is likely to be completed.  
   For more information about the Projected Completion Date, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
+  ![](assets/task-projected-completion-on-details-outlined-350x362.png)
+
 * The Project Owner is notified in the notifications area and in the Updates tab of the task whether this change will impact the project timeline.
+
+  ![](assets/commit-date-change-notification-350x211.png)
 
   >[!TIP]
   >
@@ -66,6 +73,8 @@ Setting the Commit Date for a task or issue triggers the following changes:
   >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the Gantt Chart where you can evaluate the date changes.
   >
   >
+  >![](assets/task-commit-change-with-planned-date-change-button-in-update-stream-350x191.png)  >
+  >
 
 For information about the additional functionality that is available when updating a work item, see&nbsp; [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).&nbsp;
 
@@ -77,11 +86,12 @@ For information about updating Commit Dates for tasks and issues, see [Update Co
 <p>Updating the Commit Date is identical for tasks and issues.</p>
 <ol>
 <li value="1"> <p>Go to a task or issue that you are assigned to as the <strong>Task Owner</strong>.</p> <p>For more information about finding out who the Task Owner for an issue or task is, see the section <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments" class="MCXref xref">Assignments</a> in the article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref">Edit tasks</a>.</p> </li>
-<li value="2"> <p>Click <strong>Work On It</strong> on the task or issue details panel </p> <p>Or</p> <p>Click <strong>Start Task</strong> or <strong>Start Issue</strong> if the <strong>Work On It</strong> button has been customized in your environment to indicate that you are now working on the work item. </p> The <strong>Due on</strong> date on the Details panel is replaced by the <strong>This will be done by</strong> or Commit Date. <p>At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.</p> </li>
-<li value="3"> (Optional)&nbsp;If you clicked Start Task or Start Issue in the details panel, click the <strong>Actually, I'm not ready to start</strong>.&nbsp;The This will be done by is replaced by the Due on date on the details panel to indicate that the work item does not have a Commit Date. The work item only has a Planned Completion Date.  <p>For information about replacing the Work On&nbsp;It button with a Start button, see <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> <note type="tip">
-The option to undo your selection to start your work is not available when you click Work On It.
+<li value="2"> <p>Click <strong>Work On It</strong> on the task or issue details panel </p> <p>Or</p> <p>Click <strong>Start Task</strong> or <strong>Start Issue</strong> if the <strong>Work On It</strong> button has been customized in your environment to indicate that you are now working on the work item. </p> <p data-mc-conditions="QuicksilverOrClassic.Classic">The <strong>Due on</strong> date on the Details panel is replaced by the <strong>This will be done by</strong> or Commit Date.</p> <p>At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.</p> </li>
+<li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Classic">(Optional)&nbsp;If you clicked Start Task or Start Issue in the details panel, click the <strong>Actually, I'm not ready to start</strong>.&nbsp;The This will be done by is replaced by the Due on date on the details panel to indicate that the work item does not have a Commit Date. The work item only has a Planned Completion Date. </p> <p>For information about replacing the Work On&nbsp;It button with a Start button, see <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> <note type="tip">
+The option to undo your selection to start your work is not available when you click
+<span data-mc-conditions="QuicksilverOrClassic.Classic">Work On It</span>.
 </note> </li>
-<li value="4"> <p> Expand the <strong>This will be done by</strong> date picker, and select a new Commit Date.</p> <p>  </p>
+<li value="4"> <p> Expand the <strong>This will be done by</strong> date picker, and select a new Commit Date.</p> <p> <img src="assets/commit-date-select-another.png" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
 <div>
 <p>The Commit Date and the Planned Completion date are no longer the same.</p>
 <p>Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.</p>

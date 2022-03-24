@@ -20,6 +20,8 @@ Consider the following when scheduling a task with a Must Start On constraint:
 * Predecessor relationships do not force this task to reschedule. Workfront essentially ignores any predecessor relationships of the task with this constraint.
 * The task does show **At Risk** if predecessors begin to run behind or late.
 
+![](assets/mso3-350x20.png)
+
 * When you move or copy a task with a MSO constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
 
    * When the destination project is scheduled From Start:
@@ -44,9 +46,9 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <p>To update the Task Constraint to Must Start On:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> Click <strong>Edit Task</strong>. </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Edit Task</strong>.</p> </li>
 <li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
-<li value="4"> <p>Select <strong>Must Start On</strong>.</p> <p>  </p> </li>
+<li value="4"> <p>Select <strong>Must Start On</strong>.</p> <p> <img src="assets/mso1-350x173.png" alt="" style="width: 350;height: 173;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="5"> <p>Specify a <strong>Planned Start Date</strong>.</p> <p>The task must start by this date, and no later than this date.</p> </li>
 <li value="6">Click <strong>Save Changes</strong>. </li>
 </ol>

@@ -131,23 +131,25 @@ If your rates change during the life of a project and you want your cost and rev
 >You can prevent revenue values from updating to reflect the new rates when you manually recalculate finance by following the steps in the section [Preserve financial data for tasks with existing hours](#preserving-financial-data-for-tasks-with-existing-hours) of this article. Cost values are always updated to reflect the new rates when you manually recalculate the finances on a project.
 
 <!--
-You can recalculate the finances of projects in Workfront from&nbsp;the project page
-<span class="preview">or from a project list or report</span>.
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can recalculate the finances of projects in Workfront from&nbsp;the project page <span class="preview">or from a project list or report</span>.</p>
 -->
 
 <!--
-You can recalculate the finances while editing them in bulk. For information, see the
-<a href="#recalculate-finances-in-bulk" class="MCXref xref">Manually recalculate finances in bulk in the Edit Projects box</a> section in this article.
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can recalculate the finances while editing them in bulk. For information, see the <a href="#recalculate-finances-in-bulk" class="MCXref xref">Manually recalculate finances in bulk in the Edit Projects box</a> section in this article.</p>
 -->
 
 1. Go to the project where you want to recalculate finances.
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
    <p>Or</p>
    <p>Go to a project list or report and select one or several projects. </p>
+   </div>
    -->
 
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the project, then click **Recalculate Finance**.  All planned costs and revenue on the project are recalculated with any new information.  
+1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the project, then click **Recalculate Finance**.
+
+   All planned costs and revenue on the project are recalculated with any new information.  
   
    You should receive a confirmation at the top of the browser that the finances of the project have been recalculated successfully.  
    Existing cost values and some revenue values which have not been locked update to reflect the new rates.

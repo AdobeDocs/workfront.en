@@ -34,7 +34,6 @@ You must have the following:
 ## Check document storage
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
-
 1. In the left panel, click **System** > **Customer Info**.
 1. In the **Basic Info** section, find **Storage Quota**. Here, you can view how much storage you're currently using as well as the total amount storage your Workfront Plan includes.
 

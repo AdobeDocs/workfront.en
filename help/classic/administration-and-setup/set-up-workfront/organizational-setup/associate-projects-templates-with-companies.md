@@ -55,9 +55,9 @@ You must have the following in order to manage companies in Workfront:
 
 We recommend that you associate your project templates with your companies, so you can have designated templates that are specific for each company's projects. For more information about creating projects using a template, see [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-1. Projects
-1. Projects
-1. Templates
+1. Go to the **Projects** area of the Global Navigation Bar.
+1. Click the **Projects** tab, then click **Templates**.
+
 1. Select the template you want to associate with a company, then click **Edit**.
 1. In the **Overview** section of the **Edit Template**&nbsp;form, select a **Company** in the drop-down menu.
 
@@ -65,7 +65,7 @@ We recommend that you associate your project templates with your companies, so y
 
 ## Associate a project with a company
 
-1. Projects
+1. Go to the **Projects** area of the Global Navigation Bar.
 1. Select the project you want to associate with a company, then click **Edit**
 1. In the **Overview** section of the **Edit Project** box, select a **Company** in the drop-down menu.
 

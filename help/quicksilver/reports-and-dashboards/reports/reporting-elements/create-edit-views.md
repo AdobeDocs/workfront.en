@@ -60,70 +60,70 @@ You can create a new standard view, or you can customize an existing standard vi
 
 1. In the **Column Preview** section, do any of the following:
 
-  * Modify the value of any column by clicking the column title and then selecting a new field.
-  * Add a column by clicking **Add Column**, begin typing the name of the column that you want to add, then click it when it appears in the drop-down list.
-  * Adjust the order that columns appear by dragging the column title to a new location.
+   * Modify the value of any column by clicking the column title and then selecting a new field.
+   * Add a column by clicking **Add Column**, begin typing the name of the column that you want to add, then click it when it appears in the drop-down list.
+   * Adjust the order that columns appear by dragging the column title to a new location.
 
-    * (Optional) In the **Column Settings** area, click the **Summarize this column by** drop-down list, then select one of the available options for summarizing the information. When you choose this option, the information in your column is aggregated in the groupings of the report.  
-      For date fields, you can summarize the values by the following options:
+      * (Optional) In the **Column Settings** area, click the **Summarize this column by** drop-down list, then select one of the available options for summarizing the information. When you choose this option, the information in your column is aggregated in the groupings of the report.  
+        For date fields, you can summarize the values by the following options:
 
-      * Maximum
-      * Minimum
+         * Maximum
+         * Minimum
 
-      For number and currency fields, you can summarize the values by the following options:
+        For number and currency fields, you can summarize the values by the following options:
 
-      * Count
-      * Sum
-      * Average
-      * Maximum
-      * Minimum
+         * Count
+         * Sum
+         * Average
+         * Maximum
+         * Minimum
 
-      >[!NOTE]
-      >
-      >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
-      >
-      >  
-      >  
-      >  * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
-      >  * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
-      >  * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
-      >  
-      >
+        >[!NOTE]
+        >
+        >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+        >
+        >   
+        >   
+        >   * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+        >   * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+        >   * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+        >   
+        >
 
-      For more information about using groupings in a report, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-    
-    * (Optional) Click **Advanced Options** to specify the following information for the column:
+        For more information about using groupings in a report, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+      
+      * (Optional) Click **Advanced Options** to specify the following information for the column:
 
-      <table cellspacing="0"> 
-       <col> 
-       <col> 
-       <thead> 
-        <tr> 
-         <th> </th> 
-         <th> </th> 
-        </tr> 
-       </thead> 
-       <tbody> 
-        <tr> 
-         <td role="rowheader"><strong>Custom Column Label</strong></td> 
-         <td><p>Specify a custom label for the column. This label replaces the default label.</p></td> 
-        </tr> 
-        <tr> 
-         <td role="rowheader"><strong>Field Format</strong></td> 
-         <td>Select the format in which you want the values to be displayed for fields in the column.</td> 
-        </tr> 
-        <tr> 
-         <td role="rowheader"><strong>Show this column when on a Dashboard</strong></td> 
-         <td><p>Select this option to show this column on a dashboard, when the report is displayed side by side with another report. When this option is unselected, this column is not displayed when viewing the report on a dashboard where reports are displayed side by side.</p></td> 
-        </tr> 
-        <tr> 
-         <td role="rowheader"><strong>Column Rules</strong></td> 
-         <td><p>Click <strong>Add a Rule for this Column</strong> to define a rule for the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule.</p></td> 
-        </tr> 
-       </tbody> 
-      </table>
+        <table cellspacing="0"> 
+         <col> 
+         <col> 
+         <thead> 
+          <tr> 
+           <th> </th> 
+           <th> </th> 
+          </tr> 
+         </thead> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>Custom Column Label</strong></td> 
+           <td><p>Specify a custom label for the column. This label replaces the default label.</p></td> 
+          </tr> 
+          <tr> 
+           <td role="rowheader"><strong>Field Format</strong></td> 
+           <td>Select the format in which you want the values to be displayed for fields in the column.</td> 
+          </tr> 
+          <tr> 
+           <td role="rowheader"><strong>Show this column when on a Dashboard</strong></td> 
+           <td><p>Select this option to show this column on a dashboard, when the report is displayed side by side with another report. When this option is unselected, this column is not displayed when viewing the report on a dashboard where reports are displayed side by side.</p></td> 
+          </tr> 
+          <tr> 
+           <td role="rowheader"><strong>Column Rules</strong></td> 
+           <td><p>Click <strong>Add a Rule for this Column</strong> to define a rule for the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule.</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-      For more information about conditionally formatting views in reports, see the article [Use conditional formatting in Text Mode](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+        For more information about conditionally formatting views in reports, see the article [Use conditional formatting in Text Mode](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Conditional) If you clicked **Advanced Options**, click **Done**.
 
@@ -154,11 +154,11 @@ To create or customize an Agile view:
 
 1. (Conditional) To customize an existing Agile view:
 
-  1. Click the **View** drop-down menu, then select the Agile View you want to customize.  
-     You cannot customize the default Agile view.
-  
-  1. Click the **View** drop-down menu again, then click **Customize View**.  
-     ![](assets/view-agile-customize.png)
+   1. Click the **View** drop-down menu, then select the Agile View you want to customize.  
+      You cannot customize the default Agile view.
+   
+   1. Click the **View** drop-down menu again, then click **Customize View**.  
+      ![](assets/view-agile-customize.png)
 
 1. (Conditional) To create a new Agile view, click **New View**.  
    The **Customize Agile View** dialog box displays.  
@@ -241,13 +241,13 @@ To create or customize an Agile view:
 
    By default, the following types of data is displayed on the story card:
 
-  * Story name with a link directly to the task
-  * The project name with a link directly to the project  
-    This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
-  * The task description
-  * Current commitment
-  * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
-  * Assigned Users
+   * Story name with a link directly to the task
+   * The project name with a link directly to the project  
+     This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+   * The task description
+   * Current commitment
+   * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
+   * Assigned Users
 
    You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.
 

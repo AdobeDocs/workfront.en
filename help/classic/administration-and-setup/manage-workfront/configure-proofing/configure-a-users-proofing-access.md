@@ -54,9 +54,8 @@ When you enable proofing for a user, Workfront enables the option for the user's
 
 Though you can enable a user as a proofing user, he or she must have Administrator permissions in order to navigate directly to the Workfront Proof interface from the Workfront Global Navigation Bar. For information about how you can enable this option for all proofing users in your Workfront system, see [Configure Workfront Proof access via Workfront Global Navigation Bar for all users](#configuring-whether-all-users-can-access-proofhq-directly-from-the-workfront-global-nav).
 
-1. People
-1. People
-1. Edit
+1. Go to the **People** tab in the **People** area, select the user or users&nbsp;whose proofing access you want to modify, then click **Edit**.
+
 1. In the **Access** section, select or deselect **User can generate proofs**.
 
 ## Configure a user's proof permission profile
@@ -64,7 +63,7 @@ Though you can enable a user as a proofing user, he or she must have Administrat
 The permission profile you select is granted to the users for each proof that exists within your organization.
 
 1. Click **People** on the Global Navigation Bar at the top of the window, then click the **People** tab.
-1. Select one or more users, then click **Edit**. 
+1. Select one or more users, then click **Edit**.
 1. In the **Access** section, click one of the following Workfront Proof permission options in the **Proof Permission Profile**&nbsp;drop-down menu:
 
    >[!NOTE]

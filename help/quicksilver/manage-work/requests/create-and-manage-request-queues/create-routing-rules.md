@@ -44,8 +44,7 @@ You must have the following:
 ## Create a Routing Rule
 
 1. Go to the project which you want to add the routing rules for your requests. 
-1. Click **Routing Rules** in the left panel. You might need to click **Show More**, then&nbsp;**Routing Rules**. 
-
+1. Click **Routing Rules** in the left panel. You might need to click **Show More**, then&nbsp;**Routing Rules**.
 1. Click **New Routing Rules**&nbsp;to add the new rule.&nbsp; 
 1. Specify the following information for the Routing Rule:
 

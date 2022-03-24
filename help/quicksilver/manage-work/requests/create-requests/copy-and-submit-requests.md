@@ -46,21 +46,21 @@ You must have a request that you or someone in your organization previously subm
 
   For more information, see the following articles:
 
-  * [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) 
-  * [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md)
+   * [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md) 
+   * [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md)
 
 * You can update the copy of the original request before resubmitting it as a new request.
 * If the following changes occur after the original request is submitted, you can no longer copy it and resubmit it:
 
-  * The request queue was deleted.
-  * The queue topic was deleted.
+   * The request queue was deleted.
+   * The queue topic was deleted.
 
-    >[!TIP]
-    >
-    >If the queue topic was the only one in the request queue, you can still copy and submit the request and it will be saved under the request queue itself.
+     >[!TIP]
+     >
+     >If the queue topic was the only one in the request queue, you can still copy and submit the request and it will be saved under the request queue itself.
 
-  * The request queue is no longer published as a Help Request Queue. For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-  * The Status of the project associated with the request queue is no longer Current.
+   * The request queue is no longer published as a Help Request Queue. For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * The Status of the project associated with the request queue is no longer Current.
 
 * You can copy and submit a copy of a converted request if the request was preserved in the conversion process. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -74,27 +74,27 @@ You must have a request that you or someone in your organization previously subm
 1. (Conditional) If the Submitted section does not display by default, click **Submitted** in the left panel.
 1. Locate the request that you want to copy and submit as new, and do one of the following:
 
-  * Select it, then click the **Copy and submit as new** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.
-  * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click&nbsp;**Copy and submit as new**
+   * Select it, then click the **Copy and submit as new** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.
+   * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click&nbsp;**Copy and submit as new**
 
-    Or
+     Or
 
-    Right-click on the selected request, then click **Copy and submit as new**.
+     Right-click on the selected request, then click **Copy and submit as new**.
 
-    ![](assets/request-selected-more-menu-options-nwe-350x191.png)
+     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
-    >[!TIP]
-    >
-    >```When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.```
+     >[!TIP]
+     >
+     >```When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.```
 
 1. (Optional) Update the following information, if needed:
 
-  * **Request Type**: the request queue where the copied request is saved. By default, the copied request is saved to the request queue of the original request.
-  * **Topic Groups** and **Queue&nbsp;Topics**, if they are selected. The names or topic groups and queue topics are customized for your environment. By default, the copied request is saved to the topic groups and the queue topics of the original request.
+   * **Request Type**: the request queue where the copied request is saved. By default, the copied request is saved to the request queue of the original request.
+   * **Topic Groups** and **Queue&nbsp;Topics**, if they are selected. The names or topic groups and queue topics are customized for your environment. By default, the copied request is saved to the topic groups and the queue topics of the original request.
 
-    >[!TIP]
-    >
-    >If the path changes from the path of the original request, then the creator of the request queue modified the queue.
+     >[!TIP]
+     >
+     >If the path changes from the path of the original request, then the creator of the request queue modified the queue.
 
 1. (Optional) Update any information from the copied request. Depending on what fields the request queue creator enabled in the **New Issue Fields** section of the **Queue Details**&nbsp;subtab on the project, you might find&nbsp;any of the following fields:
 
@@ -176,10 +176,15 @@ You must have a request that you or someone in your organization previously subm
 
 1. (Optional) Update any information in the custom forms attached, if needed.
 
-   ``` ```**Tips: **``````
-
-  * All custom forms attached to the original request and the values included in the custom fields transfer to the copied request. This includes fields that contain logic.
-  * You cannot remove custom forms from the copied request.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * All custom forms attached to the original request and the values included in the custom fields transfer to the copied request. This includes fields that contain logic.
+   >   * You cannot remove custom forms from the copied request.
+   >   
+   >
 
 1. Click&nbsp;**Submit**.
 

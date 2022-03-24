@@ -86,15 +86,18 @@ You must have the following access to perform the steps in this article:
 ## Enable using Work Effort instead of Planned Hours
 
 1. Go to a project and click the **More** menu ![](assets/more-icon.png), then click&nbsp;**Edit**.  
-1. Click **Task Settings**, then select the option**Use Work Effort to automatically calculate task Planned hours**. This is deselected by default. 
+1. Click **Task Settings**, then select the option**Use Work Effort to automatically calculate task Planned hours**. This is deselected by default.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
 
    For more information about enabling the use of Work Effort on a project, see the "Tasks Settings" section in the [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) article. 
 
 1. Click **Tasks** on the left panel , then click the name of a task to access it. 
-1. Click the **More** menu ![](assets/more-icon.png), then click&nbsp;**Edit**. Ensure the task has a Simple Duration Type. 
-   ``` ```**Tip: **``````You can update the Work Effort for a task in the Task Details section as well.  
+1. Click the **More** menu ![](assets/more-icon.png), then click&nbsp;**Edit**. Ensure the task has a Simple Duration Type.
+
+   >[!TIP]
+   >
+   >You can update the Work Effort for a task in the Task Details section as well.
 
 1. In the **Overview** area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task.
 
@@ -102,8 +105,8 @@ You must have the following access to perform the steps in this article:
 
    For more information about updating the Work Effort field on a task, see the following articles:
 
-  * The "Overview" section in the [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md) article
-  * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+   * The "Overview" section in the [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md) article
+   * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Levels of Work Effort
 
@@ -194,6 +197,6 @@ You can locate the Work Effort section on a project in the following area:
 You can locate the Work Effort field for a task in the following areas:
 
 * The Overview area in the Edit Task box
-* The Overview area of the Task Details section, in the Working time area 
+* The Overview area of the Task Details section, in the Working time area
 * A task list or report
 

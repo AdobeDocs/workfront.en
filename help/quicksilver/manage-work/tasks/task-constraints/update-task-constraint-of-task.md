@@ -41,10 +41,11 @@ You must have the following to change the Task Constraint of a task:
 
 ## Update the Task&nbsp;Constraint of a task
 
-1. Click **Main Menu** >&nbsp;**Projects**, then click a project to access it. 
-
+1. Click **Main Menu** >&nbsp;**Projects**, then click a project to access it.
 1. Click the **Tasks** section in the left panel. 
-1. Click **Task Details** in the left panel, then in the Overview area click **Task Constraint**.   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+1. Click **Task Details** in the left panel, then in the Overview area click **Task Constraint**.
+
+   ![](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Select from the following options
 

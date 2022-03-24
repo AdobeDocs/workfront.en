@@ -53,10 +53,10 @@ You can find the Net Value for a project in the following areas in Workfront:
 
 * In the Project Net&nbsp;Value field of the following lists and reports:
 
-  * Project
-  * Task
-  * Issue
-  * Project (Financial Data)
+   * Project
+   * Task
+   * Issue
+   * Project (Financial Data)
 
   For more information about creating a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

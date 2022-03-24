@@ -22,7 +22,7 @@ The Adobe Workfront administrator restricted the user to viewing only Companies,
 As a Workfront administrator, do the following:
 
 1. Find the user and click to access it.
-1. Click**Edit <User's First Name>'s Info**. 
+1. Click**Edit <User's First Name>'s Info**.
 1. Click **Access** and make note of the name of the **Access Level** assigned to this user.
 
 1. Go to **Setup > Access Levels.**

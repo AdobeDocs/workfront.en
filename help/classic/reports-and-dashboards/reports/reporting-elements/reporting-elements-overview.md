@@ -23,7 +23,7 @@ For information about creating a chart in a report, see [Add a chart to a report
 
 This section contains the following articles:
 
-* Learning Path for reports and dashboards
+* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ) 
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
   <!--

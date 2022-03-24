@@ -43,9 +43,9 @@ You must have the following access to perform the steps in this article:
 
 1. Do either of the following, depending on your objective and your access level in the system:
 
-  * **Planner user configuring time logging for yourself:** Click the Main Menu icon. Click your user avatar, then click the **More** icon next to your name and select **Edit**.
-  
-  * **System administrator configuring time logging for others:** Begin editing one or more user accounts, as described in [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   * **Planner user configuring time logging for yourself:** Click the Main Menu icon. Click your user avatar, then click the **More** icon next to your name and select **Edit**.
+   
+   * **System administrator configuring time logging for others:** Begin editing one or more user accounts, as described in [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. In the resulting dialog box, in the **Resource Planning** section, locate the **Log Time in** option.
 
@@ -62,8 +62,8 @@ You must have the following access to perform the steps in this article:
 
    Consider the following when configuring this setting:
 
-  * This option is not available when configuring to log time in hours.
-  * This option is used only for the purpose of logging time. This option is not related to the **Schedule** option that is also available when editing a user. The **Schedule** option is used when calculating timelines and in other areas of Workfront. (For more information about using the **Schedule** option, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)&nbsp;
+   * This option is not available when configuring to log time in hours.
+   * This option is used only for the purpose of logging time. This option is not related to the **Schedule** option that is also available when editing a user. The **Schedule** option is used when calculating timelines and in other areas of Workfront. (For more information about using the **Schedule** option, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)&nbsp;
 
 1. Click **Save Changes**.
 

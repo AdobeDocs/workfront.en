@@ -18,11 +18,15 @@ Depending what area of Workfront you access your task or issue from, the Work On
 
 * When the task or issue is first assigned to you and the status is New, the button displays as Work On&nbsp;It .
 
+  ![](assets/classic-work-on-it-button-350x145.png)
+
   >[!TIP]
   >
   >```You can replace the Work On It button with a Start button. For information about replacing the Work On It button with a Start button, see``` ``` [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)``` ```.```
 
 * After you have clicked Work On It accept, the button changes to I'm Done or Done, depending on where in&nbsp;Workfront you access the task or the issue from. For information about where you can access the Work On It button, see the section [Locate the Work On It and Done button](#locate) in this article.
+
+  ![](assets/classic-done-button.png)
 
 * ```If you are not the only one assigned to the task or issue and you are accessing your work item from the Work List in the Home area, the button changes to Done with my part.```
 
@@ -34,7 +38,9 @@ You can locate the Work On&nbsp;it and Done button in the following areas of Wor
 
 * The Home area, both in the Work List or the details panel
 
-  For information about marking an item as Done in the Home area, see [Mark an item as Done in the Home area](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
+  For information about marking an item as Done in the Home area, see [Mark an item as Done in the Home area](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md). 
+
+* In the right panel of the task or issue.
 
 ## Overview of fields that automatically update when you click the Work On It and Done button
 
@@ -75,8 +81,11 @@ In addition to the fields that update when you click the Work On&nbsp;It button,
 
 >[!NOTE]
 >
->```Clicking the Actually, I'm not ready to start button returns the work item to the original status and deletes the Actual Start Date.```  The Actually I'm not ready to start button is not available in the following areas:
+>```Clicking the Actually, I'm not ready to start button returns the work item to the original status and deletes the Actual Start Date.``` 
 >
+>The Actually I'm not ready to start button is not available in the following areas:
+>
+>* Home
 >* Team requests
 >
 

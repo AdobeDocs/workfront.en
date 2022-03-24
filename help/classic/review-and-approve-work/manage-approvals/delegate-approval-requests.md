@@ -82,7 +82,7 @@ Consider the following when delegating approvals:
 
 To delegate approvals to another user:
 
-1. Home
+1. Go to&nbsp;**Home**&nbsp;in the Global Navigation Bar.
 1. Click the **Filter** drop-down menu, then click **Approvals**.
 
 1. Click **Delegate My Approvals**.  
@@ -101,7 +101,7 @@ To delegate approvals to another user:
 
 ### Update or stop an approval delegation
 
-1. Home
+1. Go to&nbsp;**Home**&nbsp;in the Global Navigation Bar.
 1. Click the **Filter** drop-down menu, then click **Approvals**.
 
 1. Click **Edit delegation**.
@@ -122,36 +122,83 @@ You can view only the following types of approval delegations in the Work List:
 
 To view delegated approvals:
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. Click the&nbsp;**Filter**&nbsp;drop-down menu, then click&nbsp;**Approvals**.  
    All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.  
    ![Approvals delegated to me](assets/delegated-to-me-350x246.png)
 
-Delegate approval requests in the My Work area
+## Delegate approval requests in the My Work area
 
-* Delegate your approvals to another user
-* Update or Stop an approval delegation
-* View delegated approvals
+* [Delegate your approvals to another user](#delegating-your-approvals-to-another-user-mywork) 
+* [Update or Stop an approval delegation](#updating-or-stopping-an-approval-delegation-mywork) 
+* [View delegated approvals](#viewing-delegated-approvals-mywork)
 
-Delegate your approvals to another user You can delegate the following types of approvals, regardless of how&nbsp;the approval was assigned to you (whether assigned directly to you, to a team you are a member of, or to your job role):
+### Delegate your approvals to another user
 
-You cannot delegate timesheet and document approvals.&nbsp; Consider the following when delegating approvals:  ```<li>When you delegate approvals, all your approvals are delegated. You cannot delegate individual approval requests.</li>``` ```<li>You can delegate approvals to only one user; you cannot delegate approvals to multiple users at the same time.<br>All approvals for all projects, tasks, and issues are delegated to the user who you designate.</li>``` ```<li>A maximum of 5 users can delegate approvals to the same user at the same time. In other words, a single user cannot be designated as a temporary approver for more than 5 users at the same time.</li>``` ```<li>Activity regarding approvals displays on the Updates tab. Both the user delegating the approval and the user to whom approvals are being delegated receive an email notification regarding approval activity.</li>```  To delegate approvals to another user:  ```<li value="1">Go to <strong>My Work</strong> in the Global Navigation Bar.</li>``` ```<li value="2">Click the <strong>Approvals</strong> > <strong>My</strong> <strong>Approvals</strong>.<br>(If you have only a Review license, click <strong>My Updates</strong>&nbsp;in the Global Navigation Bar, then click&nbsp;<strong>Approvals</strong> > <strong>My Approvals</strong>.)</li>``` ```<li value="3">In the <strong>Approvals</strong> tab, click <strong>Delegate My Approvals</strong>.<br><img src="assets/delegate-approvals-in-mywork-350x202.png" alt="delegate_approvals_in_mywork.png" style="width: 350;height: 202;"></li>``` ```<li value="4">Specify the following information:<br><strong>Delegate My Approvals To:</strong> Begin typing the name of the user who you want to forward approvals to, then click the name when it appears in the drop-down menu.<br><strong>Start Date:</strong> Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.<br>The Start Date must be the current date or a future date.<br><strong>End:</strong>Do one of the following:<br>  <ul>   <li>Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.</li>   <li>Select&nbsp;<strong>No end date</strong>&nbsp;to configure Workfront to forward approvals indefinitely.</li>  </ul></li>``` ```<li value="5">Click <strong>Save</strong>.</li>```  Update or Stop an approval delegation
+You can delegate the following types of approvals, regardless of how&nbsp;the approval was assigned to you (whether assigned directly to you, to a team you are a member of, or to your job role):
 
-1. My Work
-1. Approvals
-1. My
-1. Approvals
-1. 
-1. My Updates
-1. Approvals
-1. My Approvals
-1. Approvals
-1. Your approvals are delegated to...
-1. 
-1. 
-1. **To update the existing approval delegation:** Change the information displayed, then click **Save**. **To stop the existing delegation:** Click **Stop Delegation**, then click **Stop Delegation** again to confirm that you want the delegation to stop and to recall all existing delegations.  
-   ![Stop_delegation_-_my_work.png](assets/stop-delegation---my-work-350x238.png)
+* Project approvals
+* Task approvals
+* Issue approvals
 
-View delegated approvals You can view only the following types of approvals:
+You cannot delegate timesheet and document approvals.&nbsp;
 
-To view delegated approvals:  ```<li value="1">Go to <strong>My Work</strong> in the Global Navigation Bar.</li>``` ```<li value="2">Click the <strong>Approvals</strong> > <strong>My</strong> <strong>Approvals</strong>.<br>(If you have only a Review license, click <strong>My Updates</strong>&nbsp;in the Global Navigation Bar, then click&nbsp;<strong>Approvals</strong> > <strong>My Approvals</strong>.)<br>All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.</li>``` 
+Consider the following when delegating approvals:
+
+* When you delegate approvals, all your approvals are delegated. You cannot delegate individual approval requests.
+* You can delegate approvals to only one user; you cannot delegate approvals to multiple users at the same time.  
+  All approvals for all projects, tasks, and issues are delegated to the user who you designate.
+* A maximum of 5 users can delegate approvals to the same user at the same time. In other words, a single user cannot be designated as a temporary approver for more than 5 users at the same time.
+* Activity regarding approvals displays on the Updates tab. Both the user delegating the approval and the user to whom approvals are being delegated receive an email notification regarding approval activity.
+
+To delegate approvals to another user:
+
+1. Go to **My Work** in the Global Navigation Bar.
+1. Click the **Approvals** > **My** **Approvals**.  
+   (If you have only a Review license, click **My Updates**&nbsp;in the Global Navigation Bar, then click&nbsp;**Approvals** > **My Approvals**.)
+
+1. In the **Approvals** tab, click **Delegate My Approvals**.  
+   ![delegate_approvals_in_mywork.png](assets/delegate-approvals-in-mywork-350x202.png)
+
+1. Specify the following information:  
+   **Delegate My Approvals To:** Begin typing the name of the user who you want to forward approvals to, then click the name when it appears in the drop-down menu.  
+   **Start Date:** Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.  
+   The Start Date must be the current date or a future date.  
+   **End:**Do one of the following:
+
+   * Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.
+   * Select&nbsp;**No end date**&nbsp;to configure Workfront to forward approvals indefinitely.
+
+1. Click **Save**.
+
+### Update or Stop an approval delegation
+
+1. Go to **My Work** in the Global Navigation Bar.
+1. Click the **Approvals** > **My** **Approvals**.  
+   (If you have only a Review license, click **My Updates**&nbsp;in the Global Navigation Bar, then click&nbsp;**Approvals** > **My Approvals**.)
+
+1. In the **Approvals** tab, click the **Your approvals are delegated to...** link.  
+   ![delegated_approvals_link_mywork.png](assets/delegated-approvals-link-mywork-350x151.png)
+
+1. Do either of the following:
+
+   * **To update the existing approval delegation:** Change the information displayed, then click **Save**.
+   
+   * **To stop the existing delegation:** Click **Stop Delegation**, then click **Stop Delegation** again to confirm that you want the delegation to stop and to recall all existing delegations.  
+     ![Stop_delegation_-_my_work.png](assets/stop-delegation---my-work-350x238.png)
+
+### View delegated approvals
+
+You can view only the following types of approvals:
+
+* Project approvals
+* Task approvals
+* Issue approvals
+
+To view delegated approvals:
+
+1. Go to **My Work** in the Global Navigation Bar.
+1. Click the **Approvals** > **My** **Approvals**.  
+   (If you have only a Review license, click **My Updates**&nbsp;in the Global Navigation Bar, then click&nbsp;**Approvals** > **My Approvals**.)  
+   All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.
+

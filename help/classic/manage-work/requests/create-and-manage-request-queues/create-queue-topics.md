@@ -59,8 +59,8 @@ You must have the following:
 
    For information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Click the **Queue Setup** tab.  
-1. Click the **Queue Topics** subtab.  
+1. Click the **Queue Setup** tab. 
+1. Click the **Queue Topics** subtab. 
 1. Click **New Queue Topic**.
 1. On the **New Queue Topic** form, specify the following:
 1. 

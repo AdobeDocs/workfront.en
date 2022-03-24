@@ -67,6 +67,7 @@ For example, to subscribe to an issue:
 1. Go to the issue you want to subscribe to.
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
    <span class="autonumber"><span><b>Tip: </b></span></span>
    <p>To subscribe to projects, you can do one of the following:</p>
@@ -74,13 +75,16 @@ For example, to subscribe to an issue:
    <li value="1"> <p>Go to the project you want to subscribe to</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
    </ol>
    </div>
+   </div>
    -->
 
 1. Click **More** ![](assets/more-icon.png), then click **Subscribe**.
 
    ![](assets/subscribe-to-a-work-item-350x258.png)
 
-   A checkmark appears on the bell and the number next to it updates to add you to the count of subscribed users. You are now subscribed to the issue. The Update Status for the issue records that you have subscribed to the issue.
+   A checkmark appears on the bell and the number next to it updates to add you to the count of subscribed users.
+
+   You are now subscribed to the issue. The Update Status for the issue records that you have subscribed to the issue.
 
    Every time someone comments on the issue, you receive an in-app notification. Depending on the features&nbsp;you have enabled, you may also receive email notifications and mobile app push notifications.
 
@@ -99,6 +103,7 @@ For example, to unsubscribe from&nbsp;an issue:
 1. Go to the issue you want to unsubscribe from.
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
    <span class="autonumber"><span><b>Tip: </b></span></span>
    <p>To unsubscribe to projects, you can do one of the following:</p>
@@ -106,11 +111,12 @@ For example, to unsubscribe from&nbsp;an issue:
    <li value="1"> <p>Go to the project you want to unsubscribe from</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
    </ol>
    </div>
+   </div>
    -->
 
 1. Click **More** ![](assets/more-icon.png), then click **Unsubscribe**.
 
-1. ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. You can also unsubscribe from an item you are subscribed to by clicking the Unsubscribe link in the subscription email.
 
@@ -132,6 +138,7 @@ All subscribers are given View permission to the subscribed item. If the new sub
 1. Go to the item to which you want to subscribe another user.
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
    <span class="autonumber"><span><b>Tip: </b></span></span>
    <p>To subscribe another user to projects, you can do one of the following:</p>
@@ -139,10 +146,10 @@ All subscribers are given View permission to the subscribed item. If the new sub
    <li value="1"> <p>Go to the project you want to subscribe others from</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
    </ol>
    </div>
+   </div>
    -->
 
-1. Click **More** ![](assets/more-icon.png). 
-
+1. Click **More** ![](assets/more-icon.png).
 1. Click the number bubble next to the **Subscribe** link.
 1. In the box that appears, begin typing the name of the user&nbsp;in the **Subscribe others**&nbsp;box, then select&nbsp;the user from the options displayed.&nbsp;  
 
@@ -158,6 +165,7 @@ When someone adds a comment to the Updates tab of the item, the subscriber recei
 1. Go to the item from which you want to unsubscribe another user.
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
    <span class="autonumber"><span><b>Tip: </b></span></span>
    <p>To unsubscribe another user to projects, you can do one of the following:</p>
@@ -165,10 +173,10 @@ When someone adds a comment to the Updates tab of the item, the subscriber recei
    <li value="1"> <p>Go to the project you want to unsubscribe others from</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
    </ol>
    </div>
+   </div>
    -->
 
-1. Click **More** ![](assets/more-icon.png). 
-
+1. Click **More** ![](assets/more-icon.png).
 1. Click the number bubble next to the&nbsp;or **Subscribe**or**Unsubscribe** link.
 1. On the **Subscribers** page that appears, click the "X" next to the name of the user you want to unsubscribe.
 
@@ -211,8 +219,7 @@ To see who is&nbsp;subscribing to an item:
    If there are any subscribers to the item, the number of subscribers displays next to the bell. You can mouse over the number to display a list of users who subscribe to the item.&nbsp;The first 25 subscribers display&nbsp;in alphabetical order.
 
    <!--
-   <img src="assets/bell-hover-for-list-qs.png">reshoot when header changes
-   <br>
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/bell-hover-for-list-qs.png">reshoot when header changes<br></p>
    -->
 
    You can also view a list of subscribers by adding a&nbsp;Subscriber field as a column on a&nbsp;report or view for the subscribed item. For more information, see [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

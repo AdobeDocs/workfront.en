@@ -14,44 +14,43 @@ You can estimate and budget the allocation of your resources to the projects the
 For a general overview of resource planning in Adobe Workfront, see the article [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 <!--
-Currently, there are two sets of Resource Planning tools in Workfront. The Resource Planning tools are going to replace the previous and now deprecated Legacy Resource Planning tools.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Currently, there are two sets of Resource Planning tools in Workfront. The Resource Planning tools are going to replace the previous and now deprecated Legacy Resource Planning tools.</p>
 -->
 
 <!--
-For more information about Legacy Resource Planning tools, see the section
-<a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md" class="MCXref xref">Legacy Resource Planning</a>.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> For more information about Legacy Resource Planning tools, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md" class="MCXref xref">Legacy Resource Planning</a>. </p>
 -->
 
 <!--
-The two sets of tools do not communicate to one another, and work independently.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> The two sets of tools do not communicate to one another, and work independently. </p>
 -->
 
 <!--
-<span class="autonumber"><span><b>Note: </b></span></span> The legacy functionality is currently deprecated and it will soon be removed from Workfront.
+<note type="note">
+The legacy functionality is currently deprecated and it will soon be removed from Workfront.
+</note>
 -->
 
 <!--
-For more information about the difference between Legacy Resource Planning and the new Resource Planning, see the article
-<a href="../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md" class="MCXref xref">Difference between Legacy Resource Planning and Planning</a>.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> For more information about the difference between Legacy Resource Planning and the new Resource Planning, see the article <a href="../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md" class="MCXref xref">Difference between Legacy Resource Planning and Planning</a>.</p>
 -->
 
 <!--
-We recommend using the following updated Resource Planning tools to manage your resources in Workfront:
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">We recommend using the following updated Resource Planning tools to manage your resources in Workfront: </p>
 -->
 
   <!--
-  The Resource Planner, to budget resources for multiple projects.
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">The Resource Planner, to budget resources for multiple projects.</li>
   -->
 
 * 
 
   <!--
-  The Resource Budgeting area of the Business Case, to budged resources for one project.
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">The Resource Budgeting area of the Business Case, to budged resources for one project.</p>
   -->
 
   <!--
-  For information about budgeting resources for one project, see the article
-  <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For information about budgeting resources for one project, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</p>
   -->
 
 ## Resource Planner overview
@@ -237,15 +236,15 @@ For information about locating the Resource Planner, see [Locate the Resource Pl
 <p>To access the Resource Planner subtab in the People area: </p>
 <ol>
 <li value="1"> Go to the <strong>People</strong> area in the Global Navigation Bar. </li>
-<li value="2"> <p> Click <strong>Planning</strong>, then click <strong>Resource Planner</strong>. For information about budgeting resources in the Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p>  <br> <img src="assets/resource-planner-global-classic-350x134.png" alt="resource_planner__Nov_2017.png" style="width: 350;height: 134;"> <br>  </li>
-<li value="3"> Click <strong>Resource Pools</strong> to review existing resource pools and create new ones. <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</li> Click <strong>Resource Planner</strong> to open the Resource Planner and review the budgeting of your resources.
-<br>For information about budgeting in the Resource Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.
+<li value="2"> <p> Click <strong>Planning</strong>, then click <strong>Resource Planner</strong>. For information about budgeting resources in the Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> <p data-mc-conditions="QuicksilverOrClassic.Classic"> <br> <img src="assets/resource-planner-global-classic-350x134.png" alt="resource_planner__Nov_2017.png" style="width: 350;height: 134;"> <br> </p> </li>
+<li value="3"> Click <strong>Resource Pools</strong> to review existing resource pools and create new ones. <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</li>
+<li value="4" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Resource Planner</strong> to open the Resource Planner and review the budgeting of your resources.<br>For information about budgeting in the Resource Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</li>
 </ol>
 <h3><a name="Access2"></a>Use the Resource Planner for one project</h3>
 <p>When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project. </p>
 <ol>
 <li value="1"> <p>Go to a project you want to budget resources for.</p> </li>
-<li value="2"> Click <strong>Project Details</strong> > <strong>Business Case</strong>. </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Project Details</strong> > <strong>Business Case</strong>.</p> </li>
 <li value="3"> <p>Scroll to the <strong>Resource Budgeting</strong> section of the Business Case.</p> </li>
 <li value="4"> <p>Click <strong>Edit Resource Budgeting</strong> to add resource pools to your project and start budgeting your resources. </p> <note type="tip">
 You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a resource pool, the users in the pool and their job roles display in the Resource Budgeting area by default.

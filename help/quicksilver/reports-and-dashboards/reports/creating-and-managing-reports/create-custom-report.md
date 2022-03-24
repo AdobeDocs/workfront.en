@@ -45,13 +45,14 @@ You must have the following access to perform the steps in this article:
 
 To watch a video of how to create a report, see this [Video walk-through](#walk-thr) below.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Reports**. 
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Reports**.
 1. Click **New Report**, then select the object type that you want for the report.
 
    The report builder loads.
 
    For specific information about available object reports, see the section [Report on objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
+   ![](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
@@ -109,6 +110,8 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 
    For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
+   ![](assets/nwe-add-column-typeahead-350x459.png)
+
 1. (Optional) In the **Column Settings** area, select **Sort by this column** to sort the values in the column either in ascending on descending alphabetical order, then indicate whether the list should use this column as its first sort.
 
    You can have multiple levels of sorts in a report view if you want to sort by the value in one column first, the value in a second column secondly, etc.
@@ -133,12 +136,12 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
    >
    >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
    >
-   >  
-   >  
-   >  * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
-   >  * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
-   >  * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. 
-   >  
+   >   
+   >   
+   >   * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
+   >   * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
+   >   * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. 
+   >   
    >
 
    For more information about using groupings in a report, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
@@ -182,17 +185,26 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 
    Choose **Apply an Existing Grouping** to select an existing grouping
 
+   ![](assets/nwe-add-grouping-350x230.png)
+
 1. Start typing the field that you want to add as a grouping. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that grouping.
 1. (Optional) You can choose to build a grouping in text mode, by clicking **Switch to Text Mode**. For more information about using text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
    For more information about creating new groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. (Optional) Select **Collapse this grouping by default** if you want the results in this grouping to display collapsed rather than expanded.
-1. This setting is disabled by default and the results of the grouping always display in an expanded list.
-1. ``` ```**Tips: **``````
 
-  * When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
-  * The results of a grouping always display expanded after accessing them from a chart element.
+   This setting is disabled by default and the results of the grouping always display in an expanded list.
+
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >   * The results of a grouping always display expanded after accessing them from a chart element.
+   >   
+   >
 
 1. (Optional) You can choose to build a matrix grouping, to show your results in a grid format.
 
@@ -209,6 +221,8 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 1. Click **Add a Filter Rule** to add a custom filter.  
    Or  
    Choose **Apply an Existing Filter** to use an existing filter.
+
+   ![](assets/nwe-add-a-filter-350x93.png)
 
 1. If you clicked **Add a Filter Rule**, start typing the field that you want to add as a filter. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that filter.  
    Use filter modifiers to build your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -228,6 +242,8 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 1. Start creating a report as described in the [Create a report](#how-to) section in this article.
 1. In the report builder, select the **Chart** tab, then select the type of chart you want to add.
 
+   ![](assets/nwe-add-a-chart-350x247.png)
+
    For more information about building a chart in a report, see [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. Click **Apply** to apply your changes so far and continue editing the report with the following options.
@@ -245,8 +261,8 @@ View the following video to learn how to create a report. This video was recorde
 -->
 
 <!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">  
-<p><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p>  
+<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p> </li>
 <li><a href="../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Get started with reports in Adobe Workfront</a> </li>
 <li><a href="../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md" class="MCXref xref">Use Adobe Workfront built-in reports</a> </li>
 <li><![CDATA[

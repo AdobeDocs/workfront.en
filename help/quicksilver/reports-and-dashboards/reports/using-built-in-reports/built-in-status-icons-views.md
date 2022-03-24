@@ -68,25 +68,25 @@ To add the Status Icons field to a custom view that you build from scratch:
 
 1. Go to a list of any of the following objects:
 
-  * Tasks
-  * Issues
-  * Projects
-  * Template Tasks
-  * Templates
-  * Expenses
-  * Documents
-  * Users  
-    Only these objects have the **Status Icons** field available.  
-    For information on object lists, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   * Tasks
+   * Issues
+   * Projects
+   * Template Tasks
+   * Templates
+   * Expenses
+   * Documents
+   * Users  
+     Only these objects have the **Status Icons** field available.  
+     For information on object lists, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. From the **View** drop-down menu, select **New View**.
 
 1. Click **Add Column**.
 1. In the **Show in this column** box, start typing any of the following field names, then select it when it appears in the list:
 
-  * *Status Icons*
-  * *Flags*
-  * *View Icons *(only in Document views).
+   * *Status Icons*
+   * *Flags*
+   * *View Icons *(only in Document views).
 
    The built-in icons are listed under any of these names.  
    A Template view contains both the **Status Icons** and the **Flags** fields. In this case, the two columns contain identical icons.   

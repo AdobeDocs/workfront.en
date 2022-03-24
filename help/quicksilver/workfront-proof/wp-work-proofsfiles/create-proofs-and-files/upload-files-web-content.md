@@ -35,12 +35,12 @@ To upload a file to Workfront Proof:
 1. The **New File** page appears.
 1. Do one of the following to upload or add the content you need to proof:
 
-  * Drag and drop the file or files into the **Drop files here** box. Or&nbsp;click **Select files**, then find and&nbsp;select them. 
-  
-  * You can repeat this step to add as many files as you want. The files you upload will appear as individual files in your account, rather than one merged file.
+   * Drag and drop the file or files into the **Drop files here** box. Or&nbsp;click **Select files**, then find and&nbsp;select them. 
+   
+   * You can repeat this step to add as many files as you want. The files you upload will appear as individual files in your account, rather than one merged file.
 
-  * If you are creating a file from a URL, type the URL in the box containing&nbsp;**www.yoursite.com**. When you are finished,&nbsp;press **Enter** or click the green arrow button at the end of the box.  
-    You can create multiple files all at once by typing multiple URLs separated by spaces.
+   * If you are creating a file from a URL, type the URL in the box containing&nbsp;**www.yoursite.com**. When you are finished,&nbsp;press **Enter** or click the green arrow button at the end of the box.  
+     You can create multiple files all at once by typing multiple URLs separated by spaces.
 
 1. Type the email address of the reviewers who need to proof the files in the box below **Share**.  
    When you complete these steps, these recipients will receive an email containing the download links for the files.  

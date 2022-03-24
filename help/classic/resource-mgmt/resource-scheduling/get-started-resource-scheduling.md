@@ -61,7 +61,7 @@ By default, assignments can be made only to users who have a role defined on the
 -->
 
 <!--
-<img src="assets/use-new-scheduling-area-in-project-scheduling-350x61.png" alt="Use_New_Scheduling_Area_in_project_scheduling.png" style="width: 350;height: 61;">
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <img src="assets/use-new-scheduling-area-in-project-scheduling-350x61.png" alt="Use_New_Scheduling_Area_in_project_scheduling.png" style="width: 350;height: 61;"> </p>
 -->
 
 * *
@@ -106,7 +106,7 @@ In order to be most effective when using the resource scheduling tools in Workfr
 Depending on where you want to schedule resources, you can access the Scheduling timeline in the following areas of Workfront:
 
 * For multiple projects, in the Scheduling area
-* For a project, in the Staffing tab and the Scheduling subtab 
+* For a project, in the Staffing tab and the Scheduling subtab
 * For a team, in the Working On tab
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
@@ -114,6 +114,8 @@ Depending on where you want to schedule resources, you can access the Scheduling
    * **For multiple projects**:&nbsp; Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**.  
    * **For an individual project**:  Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected and click **Switch back to Scheduling**. 
    * **For a team**:  Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
+
+   ![](assets/resource-scheduling-schedulingtab-350x282.png)
 
 1. (Optional) Click the **Full-Screen** icon, located in the upper-right corner of the scheduling timeline.  
    ![scheduling_fullscreen_enter.png](assets/scheduling-fullscreen-enter.png)  
@@ -133,6 +135,8 @@ You can view the current resourcing assignments and other details about individu
    * **For multiple projects**:&nbsp; Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**.  
    * **For an individual project**:  Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected and click **Switch back to Scheduling**. 
    * **For a team**:  Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
+
+   ![](assets/resource-scheduling-schedulingtab-350x282.png)
 
 1. (Optional) To customize what content dispalys on the scheduling timeline, create a filter, as described in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 1. Expand a task or issue to view the following information:  

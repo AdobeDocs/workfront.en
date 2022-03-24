@@ -282,11 +282,11 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ## Workfront Scenario Planner enhancements
 
-Most new features coming to Workfront Scenario Planner release with the 20.4 release. For information about these new features now available in Preview, see  Workfront Scenario Planner with the 20.4 release.
+Most new features coming to Workfront Scenario Planner release with the 20.4 release. For information about these new features now available in Preview, see [Workfront Scenario Planner with the 20.4 release](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FProduct_Announcements%2FProduct_releases%2FScenario_Planner_release_activity%2Fsp-release-20.4.htm).
 
 ## Workfront Goals enhancements
 
-Most new features coming to Workfront Goals release with the 20.4 release. For information about these new features now available in Preview, see  Workfront Goals with the 20.4 release.
+Most new features coming to Workfront Goals release with the 20.4 release. For information about these new features now available in Preview, see [Workfront Goals with the 20.4 release](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FProduct_Announcements%2FProduct_releases%2FGoals_release_activity%2Fgoals-release-20.3.htm).
 
 ## Workfront Fusion enhancements
 
@@ -302,7 +302,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-For information about what's new and updated, see What's new in API version 12.
+For information about what's new and updated, see [What's new in API version 12](../../../wf-api/api/new-api-version-12.md).
 
 For more information about API versions, see [API versioning and support schedule](../../../wf-api/api/api-version-support-schedule.md)
 

@@ -109,7 +109,8 @@ To associate an existing global approval process with a project, task, issue, te
 1. Go to the work item where you want to associate an approval process.
 1. Click the **Approvals** tab. You might need to click **More** > **Approvals**.
 
-   The **Approvals** tab might be located in the **More** drop-down menu.  
+   The **Approvals** tab might be located in the **More** drop-down menu.
+
    ![](assets/approvals-associate-350x108.png)
 
 1. In the **Use an existing approval process** drop-down menu, select the global or group-level approval process you want to associate with the work item.
@@ -147,7 +148,7 @@ To modify an existing global approval process:
    >
    >Ensure that you click **Save** when adding the approval.
 
-1. After the global approval process is added, click **Edit Approval Process**. This action turns the global or group-level approval process into a single-use approval process. 
+1. After the global approval process is added, click **Edit Approval Process**. This action turns the global or group-level approval process into a single-use approval process.
 
    ![](assets/approval-edit-existing-350x225.png)
 
@@ -180,6 +181,7 @@ To create a single-use approval process:
    ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
 1. Complete the steps beginning with step 6 in the section "Create a system-level or group-level global approval process for work items" in the article [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). 
+
    ``` ```**Tip: **`````` After you attach the single-use approval process, it displays as "<Custom>" in the Approval Process field inside the Edit box of projects, tasks, issues, templates, and template tasks. For information about editing objects, see the following articles:
 
    * [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md) 

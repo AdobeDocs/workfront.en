@@ -46,7 +46,11 @@ You must have the following access to perform the steps in this article:
 1. Go to the **Issues** tab on a project.  
 1. Click the issue you want to convert to go to the issue's landing page.
 
+   ![](assets/ci6-350x97.png)
+
 1. From the **Issue Actions** menu, select **Convert to Task.**
+
+   ![](assets/ci7-350x444.png)
 
    ``` ```**Tip: **`````` If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the Convert to Project box to notify you that the approval will be removed or the resolving object will be overwritten during the conversion. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -100,7 +104,8 @@ You must have the following access to perform the steps in this article:
 
    For more information about transferring information from the custom form of the issue to that of the new task, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
-1. 
+1. ![](assets/ci8-350x202.png)
+
 1. Click **Save Changes** when all task settings are set.
 
    The issue is now a task on the designated project, if you decided to delete the original issue.
@@ -112,6 +117,8 @@ You must have the following access to perform the steps in this article:
    Some issue fields transfer to the task. For information, see the [View original issue information on projects and tasks](#viewing-original-issue-information) section in this article.
 
 1. (Optional) Continue editing the task (assignments, dates) as necessary.
+
+   ![](assets/ci9-350x135.png)
 
 ## View original issue information on projects and tasks
 

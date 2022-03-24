@@ -58,8 +58,11 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Click the **Issues** tab. 
 1. Do one of the following:
 
-   * To edit a limited number of fields for the issue, click the name of an issue, then select the **Issue Details** tab and edit the fields under the **Overview** and **Custom Forms** sub-tabs. 
-     ``` ```**Important: **``````You must have Manage permissions on the issue to edit information in the Issue Details tab.
+   * To edit a limited number of fields for the issue, click the name of an issue, then select the **Issue Details** tab and edit the fields under the **Overview** and **Custom Forms** sub-tabs.
+
+     >[!IMPORTANT]
+     >
+     >You must have Manage permissions on the issue to edit information in the Issue Details tab.
 
    * To edit all the fields of an issue, click the name of an issue in a list, then click **Edit Issue.**
 
@@ -70,6 +73,8 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      >You must have Manage permissions to the issue in order to see the Edit Issue option.
 
      All issue fields are available in the Edit Issue box and are grouped by the areas listed in the left panel
+
+     ![edit_issue_box.png](assets/edit-issue-box-350x361.png)
 
 1. Consider specifying information in any of the following sections:
 
@@ -203,7 +208,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
         <ul> 
          <li>Only active approval processes display in the list. </li> 
          <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>Important: If the group of the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-         <li>  If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field.  </li> 
+         <li> <p data-mc-conditions="QuicksilverOrClassic.Classic"> If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. </p> </li> 
          <li> <p>You can define default approval processes to be automatically attached to issues when creating request queues or Queue Topics. For information about updating Queue Details, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. For information about creating Queue Topics, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>. </p> </li> 
          <li>When bulk-editing issues, the following scenarios exist:
           <ul>

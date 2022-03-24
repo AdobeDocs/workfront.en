@@ -51,9 +51,9 @@ You must have the following to perform the steps in this article:
 
 ## Edit a user profile
 
-1. People
-1. People
-1. Edit
+1. Click **People** on the Global Navigation Bar at the top of the window, then click the **People** tab.
+
+1. Select the user, then click **Edit**.
 1. In the **Edit User** box that displays, change any of the following information, then click **Save Changes**: 
 
    <table cellspacing="0"> 
@@ -147,8 +147,7 @@ You must have the following to perform the steps in this article:
         <li><strong>Available Hour Types</strong>: Select the hour types that should be available to the user. These hour types are visible everywhere in Workfront where the user can log time. A user can only see the hour types that are enabled at the project level as well as the user level. For more information about what hour types are available to users, see <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Define hour types and availability for timesheets</a>.</li> 
         <li><strong>Log Time in:</strong> Select whether the user should log time on work items in hours or days. For more information, see <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">Configure whether time is logged in hours or days</a>.</li> 
         <li> <!--
-          <strong>Legacy Resource Pool</strong>: Associate the user with a Legacy Resource Pool. For information about Legacy Resource Pools, see 
-          <a href="../../../resource-mgmt/legacy-res-planning/work-with-legacy-resource-pools.md" class="MCXref xref">Work with Legacy Resource Pools</a>.
+          <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><strong>Legacy Resource Pool</strong>: Associate the user with a Legacy Resource Pool. For information about Legacy Resource Pools, see <a href="../../../resource-mgmt/legacy-res-planning/work-with-legacy-resource-pools.md" class="MCXref xref">Work with Legacy Resource Pools</a>.</p>
          --> </li> 
         <li> <p><strong>FTE</strong>: The system uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to <strong>The Default Schedule</strong>. The value must be <i>0</i> or between <i>.1</i> and <i>1</i>.<br></p> <p>For example, if the FTE value is 0.5 and the Default Schedule is 40 hours, the user is available to work for 20 hours a week.<br>If the Resource Management Preferences at the system level are set to <strong>The User's Schedule</strong>, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. In this case, the FTE of the user for the Resource Planner is calculated by the following formula:<br></p> <p><em>User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours<br></em> </p> <p>For more information about calculating user FTE, see <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.<br>For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.<br>For more information about configuring Resource Management Preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.</p> </li> 
         <li><strong>Resource Pools</strong>: Associate the user with Resource Pools. For more information, see <a href="../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">Associate resource pools with users in Adobe Workfront</a>.</li> 

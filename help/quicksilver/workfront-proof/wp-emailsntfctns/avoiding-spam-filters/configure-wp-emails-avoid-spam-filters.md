@@ -56,9 +56,9 @@ To add Workfront Proof "from" addresses to your email client's filter:
 1. Copy the general Workfront Proof support "from" email address (support@proofhq.com) and paste it into the field indicated for your email client.
 1. Copy the appropriate one of the following Workfront Proof "from" email addresses and paste it SEPARATELY into the field indicated for your email client:
 
-  * notification@support.proofhq.com if you do NOT have a customized subdomain or a white label domain
-  * notification@yoursubdomain.proofhq.com if you have a customized subdomain; substitute your subdomain name in this address
-  * notification@yoursubdomain.yourdomain.com if you have a white label domain; substitute your subdomain name and domain name in this address
+   * notification@support.proofhq.com if you do NOT have a customized subdomain or a white label domain
+   * notification@yoursubdomain.proofhq.com if you have a customized subdomain; substitute your subdomain name in this address
+   * notification@yoursubdomain.yourdomain.com if you have a white label domain; substitute your subdomain name and domain name in this address
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">See the relevant section below for your email client to find out where to paste in these two Workfront Proof "from" addresses.</p>

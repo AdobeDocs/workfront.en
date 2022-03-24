@@ -16,6 +16,6 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* Tips, tricks, and troubleshooting for the Workfront Proof mobile app
-* Workfront Proof mobile apps
+* [Tips, tricks, and troubleshooting for the Workfront Proof mobile app](../../workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md) 
+* [Workfront Proof mobile apps](../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
 

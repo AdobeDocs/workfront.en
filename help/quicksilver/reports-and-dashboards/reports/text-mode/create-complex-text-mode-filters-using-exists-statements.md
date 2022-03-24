@@ -44,22 +44,22 @@ Consider the following when creating filters that span multiple levels in the ob
 * You must create complex filters when you want to reference objects not directly connected to the filter object.
 * You must use an EXISTS statement to do the following:
 
-  * Create filters that span multiple levels.
-  * Create filters that look for objects that are missing.  
-    For example, when building a user report, you can filter for users who have not logged time for a certain period of time.
+   * Create filters that span multiple levels.
+   * Create filters that look for objects that are missing.  
+     For example, when building a user report, you can filter for users who have not logged time for a certain period of time.
 
 Consider the following rules when using EXISTS statements in a filter:
 
 * There are three objects that you could reference in an EXISTS filter:
 
-  * The object of the filter (Original Object).
-  * The object whose field you want to reference (Target Object).
-  * The object that connects the Original and the Target Objects, in case they are not directly connected to one another (Linking Object).
+   * The object of the filter (Original Object).
+   * The object whose field you want to reference (Target Object).
+   * The object that connects the Original and the Target Objects, in case they are not directly connected to one another (Linking Object).
 
 * Filters that use EXISTS contain two separate statements linked by an equal sign:
 
-  * The statement before the equal sign refers to the object you are referring to (the Linking or the Target Object).
-  * The statement after the equal sign refers to the object you are referring from (the Original Object).
+   * The statement before the equal sign refers to the object you are referring to (the Linking or the Target Object).
+   * The statement after the equal sign refers to the object you are referring from (the Original Object).
 
 * You must use the object code of the Linking Object to connect your statements.  
   You can find the object code of all objects in the API Explorer.  
@@ -207,15 +207,15 @@ To filter issues by the Portfolio Owner Name:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * The Original Object is the object of the report: Issue
-   >  * The Target Object is Portfolio.
-   >  * The Linking Object is Project.
-   >  * The Target Field and the Linking Field to the Target Object referenced from the Linking Object is ownerID.
-   >  * The Object code of the Linking Object here is PROJ.
-   >  * The Linking Field displayed on the Original Object is projectID and the Linking Field is ID.
-   >  
+   >   
+   >   
+   >   * The Original Object is the object of the report: Issue
+   >   * The Target Object is Portfolio.
+   >   * The Linking Object is Project.
+   >   * The Target Field and the Linking Field to the Target Object referenced from the Linking Object is ownerID.
+   >   * The Object code of the Linking Object here is PROJ.
+   >   * The Linking Field displayed on the Original Object is projectID and the Linking Field is ID.
+   >   
    >
 
 1. Replace the value of the Target Field (ownerID) in the last statement with a User ID from your environment.
@@ -251,15 +251,15 @@ To filter for Custom Fields that are not associated with a Custom Form:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * The Original Object is the object of the report: Parameter.
-   >  * The Target Object is Category.
-   >  * The Linking Object is Category Parameter.
-   >  * The Object code of the Linking Object is CTGYPA.
-   >  * The Linking Field to the Target Object is parameterID because parameterID exists in both the Linking Object Table and Target Object Table.
-   >  * The Linking Field displayed on the Original Object is ID (of the Category Parameter).
-   >  
+   >   
+   >   
+   >   * The Original Object is the object of the report: Parameter.
+   >   * The Target Object is Category.
+   >   * The Linking Object is Category Parameter.
+   >   * The Object code of the Linking Object is CTGYPA.
+   >   * The Linking Field to the Target Object is parameterID because parameterID exists in both the Linking Object Table and Target Object Table.
+   >   * The Linking Field displayed on the Original Object is ID (of the Category Parameter).
+   >   
    >
 
 1. Click **Save Filter**.
@@ -293,17 +293,17 @@ To filter for users who did not log time during last week:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * The Original Object is the object of the report: User.
-   >  * The Target Object is Hour.
-   >  * You do not need a Linking Object in this example because Users and Hours are directly connected in the Workfront database.
-   >  * Because there is no Linking Object, you must use the Object Code of the Target Object: HOUR.
-   >  * The Linking Field to the Target Object is ownerID (which displays on the Original Object; the Linking Object is missing).
-   >  * The Linking Field displayed on the Original Object is ID (of the Hour) (which displays on the Target Object; the Linking Object is missing.)
-   >  * The EXISTS:A:entryDate statement refers to fields that define the Target Object (Hour) and uses the same syntax as in a regular filter statement. This ensures that you display only those users who did not log time for a specific period of time, in this case, the previous week.
-   >  * The NOTEXISTS modifier indicates that we are looking for items (Hours) that do not exist for the object of the report (Users).
-   >  
+   >   
+   >   
+   >   * The Original Object is the object of the report: User.
+   >   * The Target Object is Hour.
+   >   * You do not need a Linking Object in this example because Users and Hours are directly connected in the Workfront database.
+   >   * Because there is no Linking Object, you must use the Object Code of the Target Object: HOUR.
+   >   * The Linking Field to the Target Object is ownerID (which displays on the Original Object; the Linking Object is missing).
+   >   * The Linking Field displayed on the Original Object is ID (of the Hour) (which displays on the Target Object; the Linking Object is missing.)
+   >   * The EXISTS:A:entryDate statement refers to fields that define the Target Object (Hour) and uses the same syntax as in a regular filter statement. This ensures that you display only those users who did not log time for a specific period of time, in this case, the previous week.
+   >   * The NOTEXISTS modifier indicates that we are looking for items (Hours) that do not exist for the object of the report (Users).
+   >   
    >
 
 1. Click **Save Filter**.
@@ -329,18 +329,18 @@ To filter tasks by the Portfolio Owner Name and Portfolio Alignment Scorecard ID
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * The Original Object is the object of the filter: Task.
-   >  * The Target Object is Portfolio.
-   >  * The first Target Field is ownerID.
-   >  * The second Target Field is Alignment Scorecard ID.
-   >  * The Linking Object is Project.
-   >  * The Object Code of the Linking Object is PROJ.
-   >  * The Linking Field to the Target Object is the ID (of the Portfolio).
-   >  * The Linking Field displayed on the Original Object is projectID.
-   >  * Replace the ownerID with a User ID from your environment.
-   >  
+   >   
+   >   
+   >   * The Original Object is the object of the filter: Task.
+   >   * The Target Object is Portfolio.
+   >   * The first Target Field is ownerID.
+   >   * The second Target Field is Alignment Scorecard ID.
+   >   * The Linking Object is Project.
+   >   * The Object Code of the Linking Object is PROJ.
+   >   * The Linking Field to the Target Object is the ID (of the Portfolio).
+   >   * The Linking Field displayed on the Original Object is projectID.
+   >   * Replace the ownerID with a User ID from your environment.
+   >   
    >
 
 1. Click **Save Filter**.

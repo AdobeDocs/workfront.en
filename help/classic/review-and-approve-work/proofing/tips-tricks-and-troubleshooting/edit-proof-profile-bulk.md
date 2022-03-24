@@ -40,8 +40,7 @@ You must have the following access to perform the steps in this article:
 
 ## Edit the Proof Permission Profile field in Bulk
 
-1. Click **People** on the Global Navigation Bar at the top of the window, then click the **People** tab. 
-
+1. Click **People** on the Global Navigation Bar at the top of the window, then click the **People** tab.
 1. Sort your users by **Access Level**. We recommend batch editing by Access Level to ensure the **Proof Permission Profile** field appears. 
 
 1. Click the checkbox next to the users you want to select within the same access level. The Proof Permission Profile field is available only for Worker access levels and above.

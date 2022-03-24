@@ -90,6 +90,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. In the left panel, select **People**.
 
+   ![](assets/people-area-cropped-qs-350x276.png)
+
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
    ![](assets/filters-select-date-range-350x344.png)
@@ -114,8 +116,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 1. Click a home team name to see more information in the Team capacity visualization.
 

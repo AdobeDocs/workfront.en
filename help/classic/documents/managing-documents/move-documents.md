@@ -52,7 +52,9 @@ You must have the following:
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Click **More**,****then click **Move**.  ![](assets/move-document-button-350x203.png)
+1. Click **More**,****then click **Move**.
+
+   ![](assets/move-document-button-350x203.png)
 
 1. From the drop-down menu in the box that appears, click **Issue**, **Project** or **Task** to indicate the type of object where you want to move the document.&nbsp;
 

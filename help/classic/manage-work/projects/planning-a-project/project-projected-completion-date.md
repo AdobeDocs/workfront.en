@@ -84,14 +84,18 @@ You can view the Projected Completion Date of projects, tasks, and issues in rep
 ### View the Projected Completion Date of a&nbsp;project
 
 1. Go to the project where you want to view the Projected Completion Date.
-1. Click the **Project Details** tab. 
-1. On the **Overview** tab, locate the **Projected Completion Date** field.  ![project_projected_completion_date.png](assets/project-projected-completion-date-350x364.png)
+1. Click the **Project Details** tab.
+1. On the **Overview** tab, locate the **Projected Completion Date** field.
+
+   ![project_projected_completion_date.png](assets/project-projected-completion-date-350x364.png)
 
 ### View the Projected Completion Date of a&nbsp;task
 
 1. Go to the task where you want to view the Projected Completion Date.
-1. Click the **Task Details** tab.&nbsp; 
-1. On the **Overview** tab, locate the **Projected Completion Date** field.  ![projected_task.png](assets/projected-task-350x351.png)
+1. Click the **Task Details** tab.&nbsp;
+1. On the **Overview** tab, locate the **Projected Completion Date** field.
+
+   ![projected_task.png](assets/projected-task-350x351.png)
 
 ### View the Projected Completion Date of an&nbsp;issue
 

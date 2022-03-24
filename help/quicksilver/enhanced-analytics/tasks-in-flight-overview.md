@@ -93,12 +93,12 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >
    >To learn more about these other visualizations, see:
    >
-   >  
-   >  
-   >  * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
-   >  * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
-   >  * [View the Burndown visualization in Enhanced analytics](../enhanced-analytics/burndown-overview.md) 
-   >  
+   >   
+   >   
+   >   * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
+   >   * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
+   >   * [View the Burndown visualization in Enhanced analytics](../enhanced-analytics/burndown-overview.md) 
+   >   
    >
 
 1. (Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.
@@ -109,9 +109,9 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To change how the tasks are sorted, click the **Sort by** menu, then select a new sorting option:
 
-  * **Completion date** 
-  * **Alphabetically A-Z** 
-  * **Work breakdown structure** (This option matches the order that the tasks appear in the project.)
+   * **Completion date** 
+   * **Alphabetically A-Z** 
+   * **Work breakdown structure** (This option matches the order that the tasks appear in the project.)
 
    All other visualizations on the page update to match your sorting selection.
 
@@ -120,10 +120,13 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    ![](assets/tasks-in-flight-task-details-350x242.png)
 
 1. Click a task to open the task Details on the right side of the screen, where you can see more information about the task, view or enter updates, or make changes to the task.
+
+   ![](assets/task-details-qs-350x675.png)
+
 1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 ## Video walk-through
 

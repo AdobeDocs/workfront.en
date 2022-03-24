@@ -67,21 +67,21 @@ You must have the following to perform the steps in this article:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * If you are a group administrator, you can log in only as users in the groups you manage. Also, the User Admin (Group Users) permission must be enabled in your access level:
-   >  
-   >  
-   >    ![](assets/group-admin-user-350x165.png)   >  
-   >  
+   >   
+   >   
+   >   * If you are a group administrator, you can log in only as users in the groups you manage. Also, the User Admin (Group Users) permission must be enabled in your access level:
+   >   
+   >   
+   >     ![](assets/group-admin-user-350x165.png)   >   
+   >   
 
-   >  
-   >  
-   >    This setting is disabled by default. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-   >  
-   >  * You cannot reset the password of a Workfront administrator.  
+   >   
+   >   
+   >     This setting is disabled by default. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >   
+   >   * You cannot reset the password of a Workfront administrator.  
 
-   >  
+   >   
    >
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
@@ -148,7 +148,7 @@ For example, if you comment on an item while logged in as another user, a statem
 
 1. (Optional) You can filter the results that are displayed in the audit trail in the following ways:
 
-  * By user who has logged in
-  * By user who has been logged in as
-  * By date
+   * By user who has logged in
+   * By user who has been logged in as
+   * By date
 

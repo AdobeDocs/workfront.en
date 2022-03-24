@@ -21,17 +21,17 @@ For information about converting issues to projects, see [Convert an issue to a 
 * Workfront overwrites the Resolving Object of the issue when you convert it to a task or an project. The new task or issue becomes the new Resolving Object of the issue after conversion. 
 * Consider the following:
 
-  * During conversion, you might be asked whether you want to keep the issue and its resolution tied to the project or task you are creating.
-  * If you keep the issue, the status and percent complete of the project or task automatically update the status and the percent complete of the issue when any changes occur on the project, task, or the issue or when the Workfront recalculates the timeline.
+   * During conversion, you might be asked whether you want to keep the issue and its resolution tied to the project or task you are creating.
+   * If you keep the issue, the status and percent complete of the project or task automatically update the status and the percent complete of the issue when any changes occur on the project, task, or the issue or when the Workfront recalculates the timeline.
 
 * When converting an issue to a project using a template, most information from the template transfers to the new project. However, some information from the issue can also transfer to the new project.&nbsp;For more information, see the [Overview of project fields when converting an issue to a project using a template](#overview) section in this article. 
 * While converting an issue, not all documents or their information are moved to the new object that the issue is converted to. The following items are included when you convert an issue that has documents or document links attached:
 
-  * Document
-  * Document links to third-party services, such as Google Drive or SharePoint.
-  * Versions
-  * Proofs are included only when the option **Keep the original issue and tie its resolution to this task** is unselected.
-  * Document approvals are not included when you convert an issue that has documents and document links attached.
+   * Document
+   * Document links to third-party services, such as Google Drive or SharePoint.
+   * Versions
+   * Proofs are included only when the option **Keep the original issue and tie its resolution to this task** is unselected.
+   * Document approvals are not included when you convert an issue that has documents and document links attached.
 
 * If you decided to keep the issue in the conversion and it has documents attached, the document and its versions are copied to the project or the task. The proofs and the document approvals are not copied to the project or the task.  
 * If you decided to not keep the issue in the conversion, and it has documents attached, the document, its versions, and the proofs transfer to the project or the task. The document approvals will not transfer to the project or the task.  
@@ -140,9 +140,9 @@ The following table lists project information and whether it transfers from the 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="convert-to-project"></a>Convert an issue to a project</h2>
 <ol>
-<li value="1"> Click the <strong>Issues</strong> icon on a project.  <img src="assets/qs-issues-icon-highlighted-on-project.png">  </li>
+<li value="1"> Click the <strong>Issues</strong> icon on a project. <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-issues-icon-highlighted-on-project.png"> </p> </li>
 <li value="2"> <p>Click the issue to be converted to access the issue.</p> </li>
-<li value="3"> <p> Click the <strong>More</strong> menu, then click <strong>Convert to Project</strong>. </p> <p>  </p> </li>
+<li value="3"> <p> Click the <strong>More</strong> menu, then click <strong>Convert to Project</strong>. </p> <p> <img src="assets/qs-issue-more-menu-highlighted-350x430.png" style="width: 350;height: 430;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="4"> <p>In the submenu that displays, do one of the following:</p>
 <ul>
 <li>Click <strong>New Project</strong></li>
@@ -167,7 +167,7 @@ The following table lists project information and whether it transfers from the 
 </div>
 </note> </li>
 <li value="8">(Optional) In the <strong>Custom Forms</strong> section, attach any custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new project, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>.</li>
-<li value="9"> <p>Click <strong>Save Changes.</strong></p> <p>  </p> <p>The issue is now a project, if you decided to delete the original issue.<br>Or<br>The issue is now linked to the new project and it will complete when the project completes, if you decided to keep the original issue. </p> <p>Some issue fields transfer to the project. For information, see the <a href="#viewing-original-issue-information" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. </p> </li>
+<li value="9"> <p>Click <strong>Save Changes.</strong></p> <p> <img src="assets/qs-issue-convert-to-project-before-saving-ui-350x206.png" style="width: 350;height: 206;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>The issue is now a project, if you decided to delete the original issue.<br>Or<br>The issue is now linked to the new project and it will complete when the project completes, if you decided to keep the original issue. </p> <p>Some issue fields transfer to the project. For information, see the <a href="#viewing-original-issue-information" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. </p> </li>
 <li value="10"> <p>(Optional) Set any further project details ​(project owner, project dates) and tasks as necessary.</p> </li>
 </ol>
 </div>
@@ -179,7 +179,7 @@ The following table lists project information and whether it transfers from the 
 <ol>
 <li value="1"> Click the Issues icon on a project.  </li>
 <li value="2"> <p>Click the issue you want to convert to go to the issue's landing page. </p> </li>
-<li value="3"> <p> Click the <strong>More</strong> menu on the issue, then <strong>Convert to Task</strong>.  </p> <p>  </p> </li>
+<li value="3"> <p> Click the <strong>More</strong> menu on the issue, then <strong>Convert to Task</strong>.  </p> <p> <img src="assets/qs-issue-more-menu-highlighted-350x430.png" style="width: 350;height: 430;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="4"> <p>Name the task.</p> </li>
 <li value="5"> <p>Identify the project where the task will reside. </p> <p>You can select a different project from the project that the issue is on.</p> </li>
 <li value="6"> <p>In the <strong>Project</strong> box, start typing the name of the project where you want to put the new task, then press <strong>Enter</strong> when it appears.</p> <p>By default, this box the name of the project containing the issue that you are converting.</p> </li>
@@ -200,7 +200,7 @@ The following table lists project information and whether it transfers from the 
 <p>Or, if the top-level groups in your organization configured them separately, the options that display here depend on which group is associated with the project you selected in step 6. For more information, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md" class="MCXref xref">Configure task and issue preferences for a group</a>.</p>
 </div>
 </note> </li>
-<li value="8">(Optional) Attach custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new task, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>.<br><p></p></li>
+<li value="8">(Optional) Attach custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new task, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>.<br><p><img src="assets/qs-issue-convert-to-task-before-saving-ui-350x206.png" style="width: 350;height: 206;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></p></li>
 <li value="9"> <p>Click <strong>Save Changes</strong> when all task settings are set.</p> <p>The issue is now a task on the designated project, if you decided to delete the original issue.</p> <p>Or</p> <p>The issue is now linked to the new task on the project you chose, and it will complete once the task completes, if you decided to keep the original issue.</p> <p>Some issue fields transfer to the task. For information, see the <a href="#viewing-original-issue-information" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. <br></p> </li>
 <li value="10"> <p>(Optional) Continue editing the task (assignments, dates) as necessary. </p> </li>
 </ol>

@@ -344,8 +344,8 @@ The following reports come with the Workfront package. The reports are available
 
 ## Access built-in reports
 
-1. Go to the **Reporting** area in your Global Navigation Bar. 
-1. Select the **Reports** tab. 
+1. Go to the **Reporting** area in your Global Navigation Bar.
+1. Select the **Reports** tab.
 1. Click **All Reports**.
 1. Expand the **Filter** drop-down menu, and select**New Filter**.
 
@@ -355,6 +355,7 @@ The following reports come with the Workfront package. The reports are available
 1. Under the **Report** object, select **Global ID**.
 
 1. In the filter modifier drop-down menu, select **Is Not Blank**.  
+   ![global_ID_filter_for_system_reports.png](assets/global-id-filter-for-system-reports-350x151.png)
 
 1. Click **Save Filter**.  
    The reports list displays only built-in reports.  

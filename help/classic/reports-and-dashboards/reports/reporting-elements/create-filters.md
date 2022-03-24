@@ -56,14 +56,16 @@ View the following video to learn how to create a filter.
 ## How-to steps
 
 1. Go to a list or a report that contains the filter that you want to customize.
-1. Click the **Filter** drop-down list. 
+1. Click the **Filter** drop-down list.
 
-1. Click **New Filter** at the bottom of the list of filters
+   ![](assets/screen-shot-2013-09-05-at-9.55.17-am-350x481.png)
+
+1. 
+   Click **New Filter** at the bottom of the list of filters
 
    Or
 
    Select the filter that you want to customize, then click on the drop-down list again and click **Customize Filter**.
-
    The interface builder for customizing the Filter launches.
 
 1. Do any of the following:
@@ -97,6 +99,8 @@ View the following video to learn how to create a filter.
 1. Click **Save Filter** to replace the current Filter with your changes.
 1. (Optional) If you no longer want to display a filter in the **Filter** drop-down menu, click **Remove Filter**.
 
+   ![](assets/filter-remove.png)
+
    The My Filters dialog box is displayed.
 
    All filters that you have rights to remove are available to remove. Other filters are displayed as dimmed.
@@ -107,7 +111,7 @@ View the following video to learn how to create a filter.
 
 See also:
 
-* Learning Path for reports and dashboards
+* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ) 
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
 * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
 * [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md) 
@@ -165,10 +169,15 @@ If you still don't have access, ask your Workfront administrator if they set add
 <p>Regardless of the method you use to create filters, creating a filter from scratch or from an existing filter is similar. </p>
 <ol>
 <li value="1"> <p>Go to a list or a report where you want to create a filter or that contains the filter that you want to customize.</p> </li>
-<li value="2"> Click the <strong>Filter</strong> drop-down list. <note type="tip">
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click the <strong>Filter</strong> drop-down list.</p> <note type="tip">
 The report creator must allow for filters to be edited in order to view the&nbsp;Filter drop-down list on a report. The Report Default filter is applied to a report by default. The Report Default filter can be customized only when you edit the report.
-</note> <p>  </p> </li>
-<li value="3">  <p>Click <strong>New Filter</strong> at the bottom of the list of filters</p> <p>Or</p> <p>Select the filter that you want to customize, then click on the drop-down list again and click <strong>Customize Filter</strong>.</p>  <p>The builder for customizing the filter opens. </p> </li>
+</note> <p> <img src="assets/screen-shot-2013-09-05-at-9.55.17-am-350x481.png" alt="" style="width: 350;height: 481;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
+<li value="3">
+<div data-mc-conditions="QuicksilverOrClassic.Classic">
+<p>Click <strong>New Filter</strong> at the bottom of the list of filters</p>
+<p>Or</p>
+<p>Select the filter that you want to customize, then click on the drop-down list again and click <strong>Customize Filter</strong>.</p>
+</div> <p>The builder for customizing the filter opens. </p> </li>
 <li value="4">Do any of the following:<br>
 <ul>
 <li><p>Modify existing filter rules by clicking the existing rule and selecting a new option.</p></li>

@@ -54,13 +54,19 @@ You must have the following to follow the steps in this article:
 ## Modify Task Duration
 
 1. Go to the project you want to modify.
-1. Click **Tasks** in the left panel.  ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x390.png)
+1. Click **Tasks** in the left panel.
 
-1. Click the **Gantt chart** icon.  ![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
+   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x390.png)
+
+1. Click the **Gantt chart** icon.
+
+   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
 
    All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
 
-1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.  ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.
+
+   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Hover over the timeline of a task and drag the time line indicator to a different date.
 1. Drop the indicator when you have reached the correct new Completion Date for the task. 
@@ -68,8 +74,8 @@ You must have the following to follow the steps in this article:
 
    ``` ```**Tip: **`````` You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
 
-  * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-  * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
 
 1. Click **Save** in the upper-right corner of the Gantt chart.
 
@@ -78,10 +84,13 @@ You must have the following to follow the steps in this article:
 1. Go to the project you want to modify.
 1. In the **Tasks** area, click the **Gantt chart** icon.
 
-1. The **Autosave** option is selected by default, in which case all changes are saved automatically. 
-1. ![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
+   The **Autosave** option is selected by default, in which case all changes are saved automatically.
 
-1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.  ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
+
+1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.
+
+   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 
 1. To create a predecessor relationship, click the start point of a task and drag it to the end point of task. 
@@ -92,19 +101,23 @@ You must have the following to follow the steps in this article:
 
    ``` ```**Tip: **`````` You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
 
-  * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-  * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
 
 1. Click **Save** .
 
 ## Change Task Start and End Dates
 
 1. Go to the project you want to modify. 
-1. In the **Tasks** area, click the **Gantt chart** icon. 
+1. In the **Tasks** area, click the **Gantt chart** icon.
 
-1. All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
-1. 
-1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.  ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default.
+
+   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
+
+1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.
+
+   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Hover over the center of the task and locate the multi-directional arrow.
 1. Click and drag the task to the desired date.
@@ -117,32 +130,35 @@ You must have the following to follow the steps in this article:
    >
    >If the task has one of the following constraints, the system updates the Task Constraint to Start No Earlier Than if the project is scheduled from the Start Date or Finish No Later Than if the project is scheduled from the Completion Date:
    >
-   >  
-   >  
-   >  * As Soon As Possible
-   >  * As Late As Possible
-   >  * Earliest Available Time
-   >  * Latest Available Time
-   >  
-   >  
+   >   
+   >   
+   >   * As Soon As Possible
+   >   * As Late As Possible
+   >   * Earliest Available Time
+   >   * Latest Available Time
+   >   
+   >   
    >In some cases, the predecessor relationships might prevent the tasks from starting earlier, and the task move is not allowed.
 
 1. (Optional and conditional) If you have selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes. 
 
    ``` ```**Tip: **`````` You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
 
-  * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-  * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
 
 1. Click **Save**.
 
 ## Update Percent Complete
 
 1. Go to the project you want to modify.
-1. In the **Tasks** area, click the **Gantt chart** icon.  ![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)  All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default.  
+1. In the **Tasks** area, click the **Gantt chart** icon.
 
-1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually. 
+   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
 
+   All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
+
+1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.
 1. Double-click the percent number inside of the task and enter the number.
 
    >[!IMPORTANT]
@@ -157,8 +173,8 @@ You must have the following to follow the steps in this article:
 
    ``` ```**Tip: **`````` You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
 
-  * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-  * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
 
 1. Click **Save** in the upper-right corner of the Gantt chart.
 
@@ -167,10 +183,14 @@ You must have the following to follow the steps in this article:
 You can use the Task List Gantt Chart to level your resources. For information on about leveling resources in the Gantt chart, see [Level Resources in the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
 1. Go to the project you want to level.
-1. In the **Tasks** area, click the **Gantt chart** icon. All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default.  
+1. In the **Tasks** area, click the **Gantt chart** icon.
+
+   All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
 
 1. 
-   (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.  ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.
+
+   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Click the **Level Resources** drop-down menu.
 
@@ -178,8 +198,8 @@ You can use the Task List Gantt Chart to level your resources. For information o
 
 1. Select one of following options:
 
-  * **Level Now**: Applies resource leveling to the selected task.
-  * **Clear Leveling**: Removes all resource leveling from the selected task.
+   * **Level Now**: Applies resource leveling to the selected task.
+   * **Clear Leveling**: Removes all resource leveling from the selected task.
 
 1. (Optional and conditional) If you have disabled the Autosave option, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes.
 
@@ -187,11 +207,11 @@ You can use the Task List Gantt Chart to level your resources. For information o
    >
    >You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
    >
-   >  
-   >  
-   >  * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-   >  * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
-   >  
+   >   
+   >   
+   >   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   >   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   >   
    >
 
 1. Click **Save** in the upper-right corner of the Gantt chart.
@@ -256,6 +276,8 @@ When making changes affecting the timeline (such as dates and durations), the sy
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">All changes are saved automatically when the <strong>Autosave</strong> option is enabled. It is enabled by default. </p>
    -->
 
+1. 
+
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Tasks</strong> area, click the Gantt chart icon in the upper-right corner.</p>
    -->
@@ -305,13 +327,13 @@ When making changes affecting the timeline (such as dates and durations), the sy
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:</p>
    -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Mac: Use Command + Z to undo and Command + Shift + Z to redo.</li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Mac: Use Command + Z to undo and Command + Shift + Z to redo.</li>   
+     -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.<br></li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.<br></li>   
+     -->
 
    <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">To commit the changes to the project, click <strong>Save</strong>.<br>Or<br>To discard the changes, click the <strong>Cancel</strong> icon. </li>
@@ -396,13 +418,13 @@ When making changes affecting the timeline (such as dates and durations), the sy
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:</p>
    -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Mac: Use Command + Z to undo and Command + Shift + Z to redo.</li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Mac: Use Command + Z to undo and Command + Shift + Z to redo.</li>   
+     -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.<br></li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.<br></li>   
+     -->
 
    <!--
    <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode"> To officially commit the changes to the project, click <strong>Save</strong>.<br>Or<br>To discard the changes, click the <strong>Cancel</strong> icon. <br><img src="assets/save--1--350x89.png" alt="save__1_.png" style="width: 350;height: 89;"></li>

@@ -86,7 +86,7 @@ You must have the following access to perform the steps in this article:
 ## Enable using Work Effort instead of Planned Hours
 
 1. Go to a project and click **Edit Project**. 
-1. Click **Settings**, then select the option**Use Work Effort to automatically calculate task Planned hours**. This is deselected by default. 
+1. Click **Settings**, then select the option**Use Work Effort to automatically calculate task Planned hours**. This is deselected by default.
 
    ![](assets/classic-work-effort-on-projects-350x80.png)
 
@@ -192,6 +192,6 @@ You can locate the Work Effort section on a project in the following area:
 You can locate the Work Effort field for a task in the following areas:
 
 * The Overview area in the Edit Task box
-* The Overview subtab of the Task Details tab 
+* The Overview subtab of the Task Details tab
 * A task list or report
 

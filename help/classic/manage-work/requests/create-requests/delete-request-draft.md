@@ -52,8 +52,10 @@ You must do the following before you can delete&nbsp;a request draft:
 
 ## Delete a request draft
 
-1. Go to the **Requests** area in the Global Navigation Bar. 
-1. Click **Drafts**. All drafts for all request queues display in this list. 
+1. Go to the **Requests** area in the Global Navigation Bar.
+1. Click **Drafts**.
+
+   All drafts for all request queues display in this list. 
 
 1. (Optional) Click **Filter by request type** in the upper-right corner of the list of drafts, then select the request queue that contains the drafts you want to display. 
 1. Select a draft in the list, then click **Delete** at the top of the list.

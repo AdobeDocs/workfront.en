@@ -77,19 +77,19 @@ or edit its properties in a custom form
 1. Begin working on a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. With the **Add a field** tab open, do one of the following:
 
-  * If you are adding a new image widget, select **Embedded image** in the list of field types to add it to the form, or drag it where you want it on the form:
+   * If you are adding a new image widget, select **Embedded image** in the list of field types to add it to the form, or drag it where you want it on the form:
 
-    ![](assets/embedded-image-350x228.jpg)
+     ![](assets/embedded-image-350x228.jpg)
 
-  * If you are editing an image  
-  
-    <!--  
-    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  
-    widget  
-    </MadCap:conditionalText>  
-    -->  
-  
-    already added to the custom form, select the widget.
+   * If you are editing an image   
+   
+     <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     widget   
+     </MadCap:conditionalText>   
+     -->   
+   
+     already added to the custom form, select the widget.
 
 1. Type or edit any of the following properties for the image
 
@@ -203,53 +203,53 @@ or edit its properties in a custom form
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * You can use the **Preview** button in the lower-right corner to get an idea of how the image   >  
-   >  
-   >    <!--   >  
-   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
-   >    widget   >  
-   >    </MadCap:conditionalText>   >  
-   >    -->   >  
-   >  
-   >    s and fields will display in the form.
-   >  
-   >  * When a user is viewing the form, the amount of screen space they are using for the form can affect how image   >  
-   >  
-   >    <!--   >  
-   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
-   >    widget   >  
-   >    </MadCap:conditionalText>   >  
-   >    -->   >  
-   >  
-   >    s and fields display. For example, the third image   >  
-   >  
-   >    <!--   >  
-   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
-   >    <!--   >  
-   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
-   >    widget   >  
-   >    </MadCap:conditionalText>   >  
-   >    -->s   >  
-   >    </MadCap:conditionalText>   >  
-   >    -->   >  
-   >  
-   >    in a row of image   >  
-   >  
-   >    <!--   >  
-   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
-   >    <!--   >  
-   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
-   >    widget   >  
-   >    </MadCap:conditionalText>   >  
-   >    -->   >  
-   >    </MadCap:conditionalText>   >  
-   >    -->   >  
-   >  
-   >    s and fields may wrap to the next row if horizontal space is limited.
-   >  
-   >  
+   >   
+   >   
+   >   * You can use the **Preview** button in the lower-right corner to get an idea of how the image   >   
+   >   
+   >     <!--   >   
+   >     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >   
+   >     widget   >   
+   >     </MadCap:conditionalText>   >   
+   >     -->   >   
+   >   
+   >     s and fields will display in the form.
+   >   
+   >   * When a user is viewing the form, the amount of screen space they are using for the form can affect how image   >   
+   >   
+   >     <!--   >   
+   >     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >   
+   >     widget   >   
+   >     </MadCap:conditionalText>   >   
+   >     -->   >   
+   >   
+   >     s and fields display. For example, the third image   >   
+   >   
+   >     <!--   >   
+   >     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >   
+   >     <!--   >   
+   >     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >   
+   >     widget   >   
+   >     </MadCap:conditionalText>   >   
+   >     -->s   >   
+   >     </MadCap:conditionalText>   >   
+   >     -->   >   
+   >   
+   >     in a row of image   >   
+   >   
+   >     <!--   >   
+   >     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >   
+   >     <!--   >   
+   >     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >   
+   >     widget   >   
+   >     </MadCap:conditionalText>   >   
+   >     -->   >   
+   >     </MadCap:conditionalText>   >   
+   >     -->   >   
+   >   
+   >     s and fields may wrap to the next row if horizontal space is limited.
+   >   
+   >   
    >
 
 1. If you want to add custom fields to your custom form, continue on to [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2).
@@ -258,11 +258,11 @@ or edit its properties in a custom form
 
    If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-  * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
-  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-  * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-  * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
-  * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
+   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 ## Reuse an existing image widget
 
@@ -349,9 +349,9 @@ or edit its properties in a custom form
 
    If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-  * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-  * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
-  * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
-  * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
+   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 

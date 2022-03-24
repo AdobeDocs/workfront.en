@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the project that contains the tasks that you want to chain. 
 1. Select the **Tasks** tab. 
-1. (Conditional) Select **Autosave** in the upper-right corner of the task list, then select the tasks that you want to chain. 
+1. (Conditional) Select **Autosave** in the upper-right corner of the task list, then select the tasks that you want to chain.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
    >
    >Chaining tasks in a task list is not possible when you manually save changes to tasks or use the Timeline Planning mode for saving tasks.
 
-1. Right-click the selected tasks, then click **Chain**.
+1. Right-click the selected tasks, then click **Chain**. 
 
    Or
 

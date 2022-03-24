@@ -88,9 +88,9 @@ In order to display accurate information in the Resource Planner, you must meet 
 
 1. In the**View by** drop-down menu, select one of the following views:
 
-  * [View by Project](#view-by-project-subsection)
-  * [View by Role](#view)
-  * [View by User](#view-by-user-subsection)
+   * [View by Project](#view-by-project-subsection)
+   * [View by Role](#view)
+   * [View by User](#view-by-user-subsection)
 
 ### View by Project
 
@@ -115,13 +115,13 @@ Consider the following when selecting the Project View in the Resource Planner:
 
 * You can view the following hour, FTE, or Cost information in the Project view:
 
-  * Available
-  * Planned
-  * Budgeted
-  * Variance 
-  * Net
+   * Available
+   * Planned
+   * Budgeted
+   * Variance 
+   * Net
 
-    For more information, see [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+     For more information, see [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ###
 
@@ -140,13 +140,13 @@ Consider the following when selecting the Role View in the Resource Planner:
 
 * You can view the following hour, FTE, or Cost information in the Role view:
 
-  * Available
-  * Planned
-  * Budgeted
-  * Variance 
-  * Net
+   * Available
+   * Planned
+   * Budgeted
+   * Variance 
+   * Net
 
-    For more information, see [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+     For more information, see [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### View by User
 
@@ -181,25 +181,25 @@ Consider the following when selecting the User View in the Resource Planner:
 * Your permissions to projects and tasks determine what is displayed under the names of the users you see in the User View.   
   The following scenarios exist:
 
-  * When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the **Inaccessible Items** sections. The **Inaccessible Items** sections replace the Project or Task sections in this case.
-  
-  * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
-  * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the **Inaccessible Items** section.  
-    For more information about permissions in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   * When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the **Inaccessible Items** sections. The **Inaccessible Items** sections replace the Project or Task sections in this case.
+   
+   * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
+   * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the **Inaccessible Items** section.  
+     For more information about permissions in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-    ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
   &nbsp;
 
 * You can view the following hour and FTE information in the User view:
 
-  * Available
-  * Planned
-  * Actual 
-  * Difference between Planned and Actual
-  * Percentage of Planned allocation
+   * Available
+   * Planned
+   * Actual 
+   * Difference between Planned and Actual
+   * Percentage of Planned allocation
 
-    For more information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+     For more information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 
 ##
 
@@ -261,8 +261,8 @@ In the Project and Role Views, users could appear listed under the following typ
 * Their primary job role
 * Their secondary job role, in the following scenarios:
 
-  * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
-  * If the user is assigned to tasks in those roles.
+   * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
+   * If the user is assigned to tasks in those roles.
 
 For more information about the **Percentage of FTE Availability** for a job role, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
@@ -315,12 +315,12 @@ To enable settings in the Resource Planner:
 
    Consider the following when you enable this setting:
 
-  * The name of the user assigned to the issues is displayed under the job role associated with them on the issue and you can specify Budgeted Hours for the user and the job role the in the Project and Role views. 
-  * The issues the users are assigned to are listed under the names of the job roles in the User view.
+   * The name of the user assigned to the issues is displayed under the job role associated with them on the issue and you can specify Budgeted Hours for the user and the job role the in the Project and Role views. 
+   * The issues the users are assigned to are listed under the names of the job roles in the User view.
 
-    >[!IMPORTANT]
-    >
-    >```When the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.```
+     >[!IMPORTANT]
+     >
+     >```When the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.```
 
 1. (Conditional and optional) If you selected the Project view, enable the Display Portfolio Priorities setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.
 

@@ -45,7 +45,7 @@ The following are types of views that you can apply in lists or reports in&nbsp;
 <ol>
 <li value="1">Click the<strong>View</strong> drop-down menu on any list where you want to create or customize a view.</li>
 <li value="2">(Optional) To customize an existing view, select the standard View you want to customize.<br>Standard Views are available on any type of list in Workfront, such as a report, project list, or task list.</li>
-<li value="3">Click the <strong>View</strong> drop-down menu, then click <strong>Customize View</strong> or<strong>New View</strong>.<br>The <strong>Customize View</strong> dialog box displays.<br></li>
+<li value="3">Click the <strong>View</strong> drop-down menu, then click <strong>Customize View</strong> or<strong>New View</strong>.<br>The <strong>Customize View</strong> dialog box displays.<br><img src="assets/view-customize-350x327.png" alt="" style="width: 350;height: 327;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
 <li value="4"> <p>In the <strong>Column Preview</strong> section, do any of the following:</p>
 <ul>
 <li>Modify the value of any column by clicking the column title and then selecting a new field.</li>
@@ -116,13 +116,13 @@ Agile views are available only when viewing a project.
 <p>To create or customize an Agile view:</p>
 <ol>
 <li value="1">Go to the list of tasks on a project.</li>
-<li value="2">Click the <strong>Agile</strong> icon .<br></li>
+<li value="2">Click the <strong>Agile</strong> icon <img src="assets/agile-icon-42x41.png" alt="" style="width: 42;height: 41;" data-mc-conditions="QuicksilverOrClassic.Classic">.<br></li>
 <li value="3">(Conditional) To customize an existing Agile view:
 <ol>
 <li value="1">Click the <strong>View</strong> drop-down menu, then select the Agile View you want to customize.<br>You cannot customize the default Agile view.</li>
 <li value="2">Click the <strong>View</strong> drop-down menu again, then click <strong>Customize View</strong>.<br><img src="assets/view-agile-customize.png" alt=""></li>
 </ol></li>  
-<li value="4">(Conditional) To create a new Agile view, click <strong>New View</strong>.<br>The <strong>Customize Agile View</strong> dialog box displays.<br></li>
+<li value="4">(Conditional) To create a new Agile view, click <strong>New View</strong>.<br>The <strong>Customize Agile View</strong> dialog box displays.<br><img src="assets/agile-project-customize-350x436.png" alt="" style="width: 350;height: 436;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
 <li value="5">In the <strong>Customize Agile View</strong> dialog box, specify a name for the Agile view.<br>We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.<br>This name is displayed in the <strong>View</strong> drop-down menu when selecting a view.</li>
 <li value="6"> <p>Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <p>Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.</p> <p>Users can move stories among these status columns on the Agile story board.<br>When defining status columns, you can do the following:</p> <p>
 <table cellspacing="0">
@@ -216,7 +216,7 @@ For more information, see [Remove filters, views, and groupings](../../../report
 <p>To remove a view:</p>
 <ol>
 <li value="1">To remove a standard view, ensure that you are currently viewing a standard view.<br>Or<br>To remove an Agile view, ensure that you are currently viewing an agile view.</li>
-<li value="2"> <p>Go to a list of objects, and in the <strong>View</strong> drop-down menu, click <strong>Remove View</strong>.<br>The <strong>My Views</strong> dialog box displays.<br><br>If you are deleting a standard view, all standard views that you have rights to remove are available to remove.</p> <p>If you are deleting an Agile view, all Agile views that you have rights to remove are available to remove.</p> <p>Standard views or Agile views that you do not have rights to remove display as dimmed.<br></p> </li>
+<li value="2"> <p>Go to a list of objects, and in the <strong>View</strong> drop-down menu, click <strong>Remove View</strong>.<br>The <strong>My Views</strong> dialog box displays.<br><img src="assets/view-remove.png" alt="" data-mc-conditions="QuicksilverOrClassic.Classic"><br>If you are deleting a standard view, all standard views that you have rights to remove are available to remove.</p> <p>If you are deleting an Agile view, all Agile views that you have rights to remove are available to remove.</p> <p>Standard views or Agile views that you do not have rights to remove display as dimmed.<br></p> </li>
 <li value="3">Click the <strong>x</strong> icon next to any views you want to remove, then click <strong>Done</strong>.</li>
 </ol>
 </div>

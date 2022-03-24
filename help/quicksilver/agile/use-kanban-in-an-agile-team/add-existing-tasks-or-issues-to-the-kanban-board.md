@@ -42,11 +42,10 @@ You must have the following access to perform the steps in this article:
 
 To add a task or issue to a Kanban board:
 
-1. Main Menu
-1. 
-1. Projects
-1. Reporting
-1. Dashboards
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Choose one of the following: **Projects**, **Reporting**, or **Dashboards**.
+
 1. Go to the project, report, or dashboard that contains the task or issue you want to add to the Kanban board.
 1. Select one or more tasks or issues.
 1. Click **More** > **Add to** > **Kanban Board**.

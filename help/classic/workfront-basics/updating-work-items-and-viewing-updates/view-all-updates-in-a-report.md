@@ -65,7 +65,9 @@ For example, to create a Note report for all the notes on a project:
 1. (Optional) Click **Filters,**then&nbsp;**Add a Filter Rule**to filter for just one project, or specific projects.
 
 1. (Conditional and optional) Set the **Project Name** as&nbsp;**Equal** to the project name of the project you want to view updates for.&nbsp;&nbsp;  
+   ![note_report_for_project.png](assets/note-report-for-project-350x79.png)
 
 1. Click **Save + Close**.  
-   All the updates entered on the project by all users with permissions to at least View the project are displayed in the report.
+   All the updates entered on the project by all users with permissions to at least View the project are displayed in the report.  
+   ![note_report.png](assets/note-report-350x138.png)
 

@@ -109,11 +109,11 @@ For more information, see [link to Beta enrollment info].
    >
    >Consider the following for your exported file:
    >
-   >  
-   >  
-   >  * If you export a report that contains multiple tables to an XLSX format, the exported file has a separate sheet for each table.
-   >  * If you export a report that contains multiple tables to a CSV format, the exported file is a zipped file that contains a separate file for each table.
-   >  * If you export a table that contains grouped rows to a CSV format, the CSV file includes all of the rows, but they are not displayed in groups.
-   >  
+   >   
+   >   
+   >   * If you export a report that contains multiple tables to an XLSX format, the exported file has a separate sheet for each table.
+   >   * If you export a report that contains multiple tables to a CSV format, the exported file is a zipped file that contains a separate file for each table.
+   >   * If you export a table that contains grouped rows to a CSV format, the CSV file includes all of the rows, but they are not displayed in groups.
+   >   
    >
 

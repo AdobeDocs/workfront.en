@@ -105,11 +105,11 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 1. Hover over the application and click the **Edit** icon when it appears on the far right.
 1. View details in the Client Secret area:
 
-  * Created date
-  * Last used date
-  * Notes
+   * Created date
+   * Last used date
+   * Notes
 
-    To add notes to a Client Secret, see [Add or edit notes for Client Secret](#add).
+     To add notes to a Client Secret, see [Add or edit notes for Client Secret](#add).
 
 ### Add or edit notes for Client Secret
 

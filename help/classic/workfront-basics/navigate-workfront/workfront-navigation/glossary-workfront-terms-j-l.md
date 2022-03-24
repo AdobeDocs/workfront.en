@@ -88,13 +88,19 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td>Layout Type</td> 
    <td>In conjunction with Custom Views, the Layout Type specifies the type of Custom View. Currently, only List is available. In the future, Detail (the Detail view of an object) may become available.</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Legacy Budgeted Cost</p> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>See <i>Budgeted Cost</i>. </p> </td>   
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Legacy Budgeted Hours</p> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p> This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. <br>If there&nbsp;are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.&nbsp;</p> </td>   
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Legacy Budgeted Labor Cost</p> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.&nbsp;</p> <p>The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p> <p>For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;&nbsp;</p> </td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td> <p>Legacy Budgeted Cost</p> </td> 
+   <td> <p>See <i>Budgeted Cost</i>. </p> </td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td> <p>Legacy Budgeted Hours</p> </td> 
+   <td> <p> This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. <br>If there&nbsp;are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.&nbsp;</p> </td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td> <p>Legacy Budgeted Labor Cost</p> </td> 
+   <td> <p>In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.&nbsp;</p> <p>The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p> <p>For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;&nbsp;</p> </td> 
+  </tr> 
   <tr> 
    <td> <p>Legacy Resource Pool</p> </td> 
    <td> <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p> </td> 

@@ -11,7 +11,7 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* Learning Path for reports and dashboards
+* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ) 
 * [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 
 * [Error message on calendar: "This calendar has the view rights of a deactivated user."](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md) 
 * [Error message when running a report: "You are not currently logged in."](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md) 

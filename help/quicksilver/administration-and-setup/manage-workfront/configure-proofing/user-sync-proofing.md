@@ -32,8 +32,8 @@ Depending on whether a user with the same email address exists in Workfront Proo
 
 * **If no user with a matching email exists in Workfront Proof and ... :**&nbsp;
 
-  * **Proofing is enabled for the user:** The user is created as a User in Workfront Proof.
-  * **Proofing is not enabled for the user:** The user is created as a Contact in Workfront Proof.
+   * **Proofing is enabled for the user:** The user is created as a User in Workfront Proof.
+   * **Proofing is not enabled for the user:** The user is created as a Contact in Workfront Proof.
 
 * **If a user with a matching email exists in Workfront Proof:** Proofing is enabled for that user in Workfront (if it was not already enabled) and information is&nbsp;synchronized between the two users.
 

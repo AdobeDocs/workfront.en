@@ -73,49 +73,49 @@ You must have the following access to use the functionality in this article:
 
 1. Create an OAuth client in the target service with which you want Adobe Workfront Fusion to communicate. This option is most likely found in the Developer section of the given service.
 
-  1. When creating a client, enter the appropriate URL in the   
-  
-     ```  
-     Redirect URL
-     ```  
-  
-     or   
-  
-     ```  
-     Callback URL
-     ```  
-  
-     field:
+   1. When creating a client, enter the appropriate URL in the    
+   
+      ```   
+      Redirect URL
+      ```   
+   
+      or    
+   
+      ```   
+      Callback URL
+      ```   
+   
+      field:
 
-     | Americas / APAC |https://app.workfrontfusion.com/oauth/cb/oauth2 |
-     |---|---|
-     | EMEA  |https://app-eu.workfrontfusion.com/oauth/cb/oauth2 |
+      | Americas / APAC |https://app.workfrontfusion.com/oauth/cb/oauth2 |
+      |---|---|
+      | EMEA  |https://app-eu.workfrontfusion.com/oauth/cb/oauth2 |
 
-  1. After you create the client, the given service displays 2 keys:   
-  
-     ```  
-     Client ID
-     ```  
-  
-     and   
-  
-     ```  
-     Client Secret
-     ```  
-  
-     . Some services call these   
-  
-     ```  
-     App Key
-     ```  
-  
-     and   
-  
-     ```  
-     App Secret
-     ```  
-  
-     . Save the key and secret in a secure location, so you can provide them when creating the connection in Workfront Fusion.
+   1. After you create the client, the given service displays 2 keys:    
+   
+      ```   
+      Client ID
+      ```   
+   
+      and    
+   
+      ```   
+      Client Secret
+      ```   
+   
+      . Some services call these    
+   
+      ```   
+      App Key
+      ```   
+   
+      and    
+   
+      ```   
+      App Secret
+      ```   
+   
+      . Save the key and secret in a secure location, so you can provide them when creating the connection in Workfront Fusion.
 
 1. Find the 
 
@@ -143,17 +143,17 @@ You must have the following access to use the functionality in this article:
 
    ``` ```**Example: **`````` Yahoo addresses:
 
-  * Authorize URI:   
-  
-    ```  
-    https://api.login.yahoo.com/oauth2/request_auth
-    ```  
-  
-  * Token URI:   
-  
-    ```  
-    https://api.login.yahoo.com/oauth2/get_token
-    ```
+   * Authorize URI:    
+   
+     ```   
+     https://api.login.yahoo.com/oauth2/request_auth
+     ```   
+   
+   * Token URI:    
+   
+     ```   
+     https://api.login.yahoo.com/oauth2/get_token
+     ```
 
 1. (Conditional) If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, Workfront Fusion fails to create the connection, and you receive an invalid scope error.
 1. After you complete the steps above, you can start to create the OAuth connection in Workfront Fusion. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario.

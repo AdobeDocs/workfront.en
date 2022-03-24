@@ -38,7 +38,7 @@ You must have the following:
 
 ## Delete a job role
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click**Job Roles.**
 1. Select the job role that you want to delete, then click **Delete.**
 1. If there are any objects (users, tasks, issues) that&nbsp;are assigned to the job role, do one of the following:

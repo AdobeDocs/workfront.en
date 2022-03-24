@@ -47,27 +47,43 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Create tasks in a project
 
-1. Tasks
-1. (Conditional) If you are currently viewing the task list in an agile view, click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) in the upper-right corner to display the task list.  
+## Create tasks in a project
 
-1. (Optional) Enable either the**Manual Save** or **Timeline Planning** mode for the task list. The **Autosave** option is enabled by default.   ![](assets/autosave-icon-off-highlighted-350x63.png)  ``` ```**Tip: **``````You can reverse your changes when you select Manual Save or Timeline Planning.  
+1. Go to the project where you want to create a task.
+1. Click **Tasks**. 
+1. (Conditional) If you are currently viewing the task list in an agile view, click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) in the upper-right corner to display the task list. 
+1. (Optional) Enable either the**Manual Save** or **Timeline Planning** mode for the task list. The **Autosave** option is enabled by default.
+
+   ![](assets/autosave-icon-off-highlighted-350x63.png)
+
+   >[!TIP]
+   >
+   >You can reverse your changes when you select Manual Save or Timeline Planning.
 
 1. Create a new task by doing one of the following:
 
-   * Click **New Task** at the top of the task list 
+   * Click **New Task** at the top of the task list
    * Click **Add More Tasks** at the bottom of the task list
 
 1. (Conditional)&nbsp;If you clicked **New Task** in step 5, do the following:
 
-   1. Specify the fields in the New Task dialog box.  For more information about editing a task including how to assign it, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md). 
-   1. Recurrence Frequency
-   1. Create recurring tasks
-   1. Attach Document
-   1. Add Documents
+   1. Specify the fields in the New Task dialog box.
 
-1. (Conditional) If you clicked **Add More Tasks** in step 5, start entering the task information using in-line editing. This option provides the greatest convenience, especially when adding multiple tasks to the list.   ![](assets/ctp4-350x26.png)
+      For more information about editing a task including how to assign it, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+      ![](assets/ctp3-350x203.png)
+
+   1. (Conditional and optional) If you want the task to be recurring, update the **Recurrence Frequency** field. For more information about creating recurring tasks, see [Create recurring tasks](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md). 
+   
+   1. (Optional) Click **Attach Document** in the left panel to attach a document to the new task. 
+   1. (Conditional)&nbsp;If you selected to attach a document, click the **Add Documents** drop-down menu and select a service where the document resides, or paste an image you previously copied to your clipboard.
+
+1. (Conditional) If you clicked **Add More Tasks** in step 5, start entering the task information using in-line editing.
+
+   This option provides the greatest convenience, especially when adding multiple tasks to the list.
+
+   ![](assets/ctp4-350x26.png)
 
 1. (Conditional) Do one of the following:
 
@@ -75,14 +91,18 @@ Create tasks in a project
 
    * If you clicked **Add More Tasks** in step 5, do the following:
 
-      1. Click anywhere in the browser to submit your changes, or press Enter. 
-      1. (Optional) In a task list, select the newly created task, then click **Indent**.  This makes the new task a child or subtask of the previous task. For more information about children tasks, see [Tasks overview](../../../manage-work/tasks/task-information/tasks-overview.md). 
+      1. Click anywhere in the browser to submit your changes, or press Enter.
+      1. (Optional) In a task list, select the newly created task, then click **Indent**.
+
+         This makes the new task a child or subtask of the previous task.
+
+         For more information about children tasks, see [Tasks overview](../../../manage-work/tasks/task-information/tasks-overview.md).
       
       1. ```(Conditional) If you disabled the **Autosave** option, do the following:```
 
-         * Undo
-         * Cancel
-         * Undo
-         * Redo
-         * Save
+         * Click **Undo** at any time to reverse your last change, or **Cancel** to reverse all the changes you made to the task list. 
+         
+         * If you previously clicked **Undo**, click **Redo** to re-apply the last change you canceled.
+         
+         * Click **Save** to save your changes to the task list.
 

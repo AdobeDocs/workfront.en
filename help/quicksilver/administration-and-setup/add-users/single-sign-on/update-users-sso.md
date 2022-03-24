@@ -98,11 +98,11 @@ You can start preparing your import file by building a report of all users in Wo
 
    The file you are using for updating your Workfront users with the SSO usernames must contain just 2 columns, in this order:
 
-  * The first column should display the Workfront user ID (the user GUID as found in Workfront).
-  * The second column should contain the SSO Username, as it displays in your SSO system.
-  * The columns should have no headers, and there should not be any empty rows at the top of the list of names.
+   * The first column should display the Workfront user ID (the user GUID as found in Workfront).
+   * The second column should contain the SSO Username, as it displays in your SSO system.
+   * The columns should have no headers, and there should not be any empty rows at the top of the list of names.
 
-    ![](assets/update-users-for-sso-csv-file-for-import-350x47.png)
+     ![](assets/update-users-for-sso-csv-file-for-import-350x47.png)
 
 1. Save the report as a CSV or TSV file on your computer.
 

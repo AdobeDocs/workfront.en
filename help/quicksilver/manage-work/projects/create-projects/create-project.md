@@ -83,24 +83,31 @@ You can create a project in Workfront by using one of the following methods:
 
 1. Do one of the following:
 
-  * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**. 
-  * Go to a portfolio, then expand **New Project**.
+   * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**. 
+   * Go to a portfolio, then expand **New Project**.
 
-    >[!TIP]
-    >
-    >When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified.
+     >[!TIP]
+     >
+     >When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified.
 
-  * Go to a program, then expand **New Project**.
+   * Go to a program, then expand **New Project**.
 
-    >[!TIP]
-    >
-    >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
+     >[!TIP]
+     >
+     >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
 
-  * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](view-manage-projects-groups-area.md).
-  * When you create a project using a template from a group, the group you create the project from displays in the Group field of the new project only when the Group field of the template is not specified. If the template Group field is specified, the Group field of the new project is that of the template.
+   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](view-manage-projects-groups-area.md).
+
+     >[!TIP]
+     >
+     >When you create a project using a template from a group, the group you create the project from displays in the Group field of the new project only when the Group field of the template is not specified. If the template Group field is specified, the Group field of the new project is that of the template.
+
+   ![](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Click **New Project** if you want to create a project from scratch.
 1. Enter a name for your project. Press Enter to save the name.
+
+   ![](assets/untitled-project-rename-new-project-nwe-350x127.png)
 
    The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
 

@@ -99,15 +99,15 @@ Discover the key features that are available only in the new Adobe Workfront exp
   </tr> 
   <tr> 
    <td>Scenario Planner </td> 
-   <td>The new Adobe Workfront experience <p>You can use the Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.</p> <p>For more information, see The Adobe Workfront Scenario Planner overview.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
+   <td>The new Adobe Workfront experience <p>You can use the Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.</p> <p>For more information, see <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Adobe Workfront Scenario Planner overview</a>.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
   </tr> 
   <tr> 
    <td>Workfront Goals </td> 
-   <td>The new Adobe Workfront experience <p>Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.</p> <p>For more information, see Adobe Workfront Goals overview.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
+   <td>The new Adobe Workfront experience <p>Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.</p> <p>For more information, see <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Adobe Workfront Goals overview</a>.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Project Metrics</strong> </td> 
-   <td>The new Adobe Workfront experience <p>Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project.</p> <p>For more information, see Overview of project metrics.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
+   <td>The new Adobe Workfront experience <p>Project metrics give you a visualization of what is happening in a project, allowing you quickly assess the needs and status of a project.</p> <p>For more information, see <a href="../../manage-work/projects/manage-projects/project-metrics.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Overview of project metrics</a>.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Mobile app</strong> </p> <p>The new design and features correlate with the new Workfront experience, making it a natural fit to make approvals or see updates on the go.</p> </td> 

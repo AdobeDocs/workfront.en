@@ -77,33 +77,38 @@ For more information about activities, see [Get started with results and activit
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
 
-  1. If you selected Manual progress bar:
+   1. If you selected Manual progress bar:
 
-    1. Start typing a name for your activity in the **Activity** field. 
-    1. (Optional) If you want to set the activity owner as someone other than yourself, click your name in the **Owner** field and begin typing the name of the user that you want to assign as the activity owner, then click it when it appears in the drop-down list.
+      1. Start typing a name for your activity in the **Activity** field. 
+      1. (Optional) If you want to set the activity owner as someone other than yourself, click your name in the **Owner** field and begin typing the name of the user that you want to assign as the activity owner, then click it when it appears in the drop-down list.
 
-       >[!NOTE]
-       >
-       >You cannot assign a team or group as an activity owner.
+         >[!NOTE]
+         >
+         >You cannot assign a team or group as an activity owner.
 
-       When you update the progress of an activity, the progress of the goal automatically updates.
+         When you update the progress of an activity, the progress of the goal automatically updates.
 
-  1. If you selected **Project**:
+   1. If you selected **Project**:
 
-    1. &nbsp;Click the **Connect projects** field.
+      1. &nbsp;Click the **Connect projects** field.
 
-       Existing projects that you have access to View display in the Connect projects list. Projects that are in a status of Dead do not display in the list. 
-    
-    1. &nbsp;Click the name of a project to add it as an activity to the goal. You can select several projects at one time.
+         Existing projects that you have access to View display in the Connect projects list. Projects that are in a status of Dead do not display in the list. 
+      
+      1. &nbsp;Click the name of a project to add it as an activity to the goal. You can select several projects at one time.
 
-       Workfront uses the project percent complete of all the attached projects to calculate the progress of the goal.
+         Workfront uses the project percent complete of all the attached projects to calculate the progress of the goal.
 
-       For more information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-    
-       ``` ```**Tips: **``````
+         For more information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-      * The owner of the project becomes the owner of this activity. If the project has no owner, then the activity has no owner. 
-      * You cannot manually update the progress of a project. Workfront calculates the progress of the project based on the project percent complete. When the project percent complete updates in&nbsp;Workfront this also updates the connected project in&nbsp;Workfront Goals including the percent complete of the goal.
+         >[!NOTE]
+         >
+         >
+         >   
+         >   
+         >   * The owner of the project becomes the owner of this activity. If the project has no owner, then the activity has no owner. 
+         >   * You cannot manually update the progress of a project. Workfront calculates the progress of the project based on the project percent complete. When the project percent complete updates in&nbsp;Workfront this also updates the connected project in&nbsp;Workfront Goals including the percent complete of the goal. 
+         >   
+         >
 
 1. Click **Save**.
 

@@ -55,10 +55,59 @@ You must have the following access to perform the steps in this article:
 
 ## Create a project from a template in the Projects area
 
-You can create a project from the Projects area in the Global Navigation Bar, or from the Projects area of a portfolio or a program. 
-```<li value="1"> <p>Do one of the following:</p>  <ul>   <li> <p> Go to the <strong>Projects</strong> area in the Global Navigation Bar and select the <strong>Projects</strong> tab, then expand <strong>New Project</strong>. </p> </li>   <li> <p> Go to a portfolio, then expand <strong>Add Projects</strong>. </p> <note type="tip">    When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified.    </note> </li>   <li> <p> Go to a program, then expand <strong>Add Projects</strong>. </p> <note type="tip">    When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.    </note> </li>  </ul> <p>  </p> </li>``` ```<li value="2"> <p>Select a template from the choices under <strong>New from Template</strong> area in the drop-down list. </p> <p>The <strong>Create Project From Template</strong> box that displays contains all of the pre-populated details from the settings configured in the template.</p> <p>  </p> </li>``` ```<li value="3"> <p>Specify a <strong>Name</strong> for the project, then review each section and make any necessary changes needed for the project. </p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li>``` ```<li value="4"> <p>Click <strong>Save Changes.</strong></p> <p>All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step. </p> <p>  </p> </li>```  
+You can create a project from the Projects area in the Global Navigation Bar, or from the Projects area of a portfolio or a program.
+
+1. Do one of the following:
+
+   * Go to the **Projects** area in the Global Navigation Bar and select the **Projects** tab, then expand **New Project**. 
+   * Go to a portfolio, then expand **Add Projects**.
+
+     >[!TIP]
+     >
+     >When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified.
+
+   * Go to a program, then expand **Add Projects**.
+
+     >[!TIP]
+     >
+     >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
+
+   ![new_project_from_template.png](assets/new-project-from-template-350x128.png)
+
+1. Select a template from the choices under **New from Template** area in the drop-down list.
+
+   The **Create Project From Template** box that displays contains all of the pre-populated details from the settings configured in the template.
+
+   ![create_project_from_template_box.png](assets/create-project-from-template-box-350x337.png)
+
+1. Specify a **Name** for the project, then review each section and make any necessary changes needed for the project.
+
+   For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+1. Click **Save Changes.**
+
+   All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.
+
+   ![new_marketing_project.png](assets/new-marketing-project-350x217.png)
 
 ## Create a project from a template in the Templates area
 
 Instead of starting in the Projects subtab of the Projects area, you can create a project from a template by starting with the template.
-```<li value="1"> Go to the <strong>Projects</strong> area in the Global Navigation Bar and select the <strong>Projects</strong> subtab. </li>``` ```<li value="2"> Click <strong>Templates.</strong> </li>``` ```<li value="3">Click the name of a template you want to use.</li>``` ```<li value="4"> <p> Click <strong>Template Actions</strong>, then <strong>Create Project</strong>. </p> <p>  </p> </li>``` ```<li value="5"> <p>In the <strong>Create a Project from Template</strong> box that opens, specify a name for the project, then review each section and make any necessary changes. </p> <p>If a field is already populated in the template, the field is pre-populated in the <strong>Create Project from Template</strong> dialog box. You can edit the pre-populated values to better match your project. For more information, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li>``` ```<li value="6"> <p>Click <strong>Save Changes.</strong></p> <p>All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step. </p> </li>```  &nbsp;
+
+1. Go to the **Projects** area in the Global Navigation Bar and select the **Projects** subtab. 
+
+1. Click **Templates.** 
+1. Click the name of a template you want to use.
+1. Click **Template Actions**, then **Create Project**.
+
+   ![create_project_from_template_level.png](assets/create-project-from-template-level-350x350.png)
+
+1. In the **Create a Project from Template** box that opens, specify a name for the project, then review each section and make any necessary changes.
+
+   If a field is already populated in the template, the field is pre-populated in the **Create Project from Template** dialog box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+1. Click **Save Changes.**
+
+   All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.
+
+&nbsp;

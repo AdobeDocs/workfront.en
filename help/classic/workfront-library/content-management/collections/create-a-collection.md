@@ -19,7 +19,7 @@ For information on changing the cover image, see [Change the cover image on an i
 
 You&nbsp;can create an unlimited number of collections.&nbsp;
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Click **Collections** in the left panel.
 

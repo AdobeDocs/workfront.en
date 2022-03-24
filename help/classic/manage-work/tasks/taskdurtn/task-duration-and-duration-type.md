@@ -60,6 +60,8 @@ When updating the Duration of tasks in a list,Task&nbsp;Details tab, or in the E
 
 ``` ```**Example: **`````` If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list , Task Details tab, or when editing durations in the Edit Task box. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
+![](assets/duration-elapsed-days-tasks-classic-350x200.png)
+
 Consider the following when indicating the Duration of a task:
 
 * Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 

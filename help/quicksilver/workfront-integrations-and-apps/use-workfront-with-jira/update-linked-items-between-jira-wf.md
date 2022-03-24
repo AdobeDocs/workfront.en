@@ -199,9 +199,9 @@ To log time for an item in Jira and have it recorded both in Jira and Workfront:
 
 1. In the **Time Spent** field, specify the amount of time spent working on this issue. You must specify the time using the following time periods:
 
-  * Weeks (w)
-  * Days (d)
-  * Hours (h)
+   * Weeks (w)
+   * Days (d)
+   * Hours (h)
 
 1. Continue adding information to your time entry, including a **Work Description**, then click **Log**.  
    The time is added to the **Work log** tab of the Jira item, as well as to the Workfront item linked to it.  
@@ -245,7 +245,7 @@ To comment from Jira to a Workfront item:
 
    The comment is added to the following:
 
-  * The **Workfront** tab of the Jira issue.
-  * The **Comments** tab of the Jira issue.
-  * The **Updates** tab of the linked item in Workfront.
+   * The **Workfront** tab of the Jira issue.
+   * The **Comments** tab of the Jira issue.
+   * The **Updates** tab of the linked item in Workfront.
 

@@ -11,7 +11,7 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* Learning Path for reports and dashboards
+* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ) 
 * [Access and organize reports](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md) 
 * [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md) 
 * [Understand how to organize reports on a dashboard](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md) 

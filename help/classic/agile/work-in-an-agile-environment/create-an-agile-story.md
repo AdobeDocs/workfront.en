@@ -49,11 +49,11 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the agile iteration where you want to create the story:
 
-   1. People
-   1. Teams
-   1. Iterations
-   1. All Iterations.
-   1. 
+   1. Click **People**&nbsp;in the Global Navigation Bar.
+   1. Click the **Teams**&nbsp;tab, then use the drop-down menu to&nbsp;select the team whose iterations you want to view.
+   1. Click the **Iterations**&nbsp;tab, then click **All Iterations.** 
+      By default, iterations are grouped by&nbsp;Current, Future, and Past. 
+   
    1. Click the name of the specific iteration where you want to create a story.
 
 1. Click the **Work Items** tab then **Stories**.  

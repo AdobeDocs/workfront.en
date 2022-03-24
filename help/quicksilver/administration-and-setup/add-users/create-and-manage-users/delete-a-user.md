@@ -62,17 +62,17 @@ Deactivating a user causes the following things to happen:
 * Objects can no longer be shared with the user.
 * Their association with the following objects remains intact:
 
-  * Tasks, issues, projects, portfolios
-  * Dashboards
+   * Tasks, issues, projects, portfolios
+   * Dashboards
 
-    >[!NOTE]
-    >
-    >If you deactivate a user and can no longer view the reports or dashboards associated with a user, you may need to update the **Run this report with the Access Rights of:** field.  
-    >To learn more, see the [Why can't I access a report owned by a deactivated user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+     >[!NOTE]
+     >
+     >If you deactivate a user and can no longer view the reports or dashboards associated with a user, you may need to update the **Run this report with the Access Rights of:** field.  
+     >To learn more, see the [Why can't I access a report owned by a deactivated user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-  * Documents
-  * Updates
-  * Hours
+   * Documents
+   * Updates
+   * Hours
 
 * If the user has checked-out documents, the documents remain checked out when you deactivate them. Only a Workfront administrator can check them back in.For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
@@ -85,20 +85,20 @@ Deleting a user causes the following things to happen:
 * Objects can no longer be shared with the user.
 * Deletes the association of that user with the following objects:
 
-  * Tasks, issues, projects, portfolio
-  * Dashboards
+   * Tasks, issues, projects, portfolio
+   * Dashboards
 
-    >[!NOTE]
-    >
-    >You also lose access to custom sections that contained dashboards associated to the deleted user.  
-    >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+     >[!NOTE]
+     >
+     >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+     >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
-  * Updates
-  * Hours
+   * Updates
+   * Hours
 
-    >[!NOTE]
-    >
-    >These objects remain in Workfront but the owner of the object is now blank.
+     >[!NOTE]
+     >
+     >These objects remain in Workfront but the owner of the object is now blank.
 
 * If the user uploaded any documents under the Documents area in the Global Navigation Bar, the documents are also deleted.
 * If the user has checked out documents that they own and the documents are uploaded in the main Documents area (accessed from the Main Menu), the documents are deleted with the user. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
@@ -109,9 +109,9 @@ You can permanently delete users one at a time, or you can permanently delete mu
 
 ## Delete one or more users
 
-1. Main Menu
-1. 
-1. Users
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Users**.
 1. 
 
    <!--
@@ -132,7 +132,7 @@ You can permanently delete users one at a time, or you can permanently delete mu
 1. In the box that appears, click **Delete Anyway**
 
    <!--
-   Delete
+   <b class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Delete</b>
    -->
 
    to confirm the deletion.

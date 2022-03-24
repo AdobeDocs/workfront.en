@@ -45,14 +45,16 @@ Smart assignments are available in most locations where you can make assignments
 
 1. Go to an issue or a task and click one of the following fields to edit them: &nbsp;&nbsp;
 
-  * A task or issue list or report 
-  * A task or issue header
-  * The task or issue Summary panel
-  * The Assignments field for an item listed in the Home area
-  * Resource Scheduling
-  * Workload Balancer
+   * A task or issue list or report 
+   * A task or issue header
+   * The task or issue Summary panel
+   * The Assignments field for an item listed in the Home area
+   * Resource Scheduling
+   * Workload Balancer
 
 1. Place your cursor in the assignment field, and wait for two seconds. The ******Suggestions** or **Suggested Assignments** list displays.
+
+   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
    Users displayed in this list are the smart assignment suggestions for the task or the issue.
 

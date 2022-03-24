@@ -48,21 +48,21 @@ To access the Customer Info page:
 
    The sections available in the Customer Info area are:
 
-  * **Basic Info**
+   * **Basic Info**
 
-    For information&nbsp;about configuring basic information in Workfront, see [Configure Basic Info](#configuring-basic-info).
-  
-  * **API Key Settings**
+     For information&nbsp;about configuring basic information in Workfront, see [Configure Basic Info](#configuring-basic-info).
+   
+   * **API Key Settings**
 
-    For information about API key settings, see [Manage API keys](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
-  
-  * **IP Allowlist**
+     For information about API key settings, see [Manage API keys](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+   
+   * **IP Allowlist**
 
-    For information about adding the IP addresses to your allowlist for where your users can access Workfront, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-  
-  * **License**
+     For information about adding the IP addresses to your allowlist for where your users can access Workfront, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+   
+   * **License**
 
-    For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Configure Basic Info
 

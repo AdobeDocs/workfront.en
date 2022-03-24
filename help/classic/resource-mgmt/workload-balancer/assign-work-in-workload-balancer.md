@@ -142,7 +142,9 @@ Consider the following when assigning multiple resources to a work item:
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> Assign work in the Workload Balancer You can assign work items that have not yet been assigned to a user or reassign items that have been assigned to users in the Workload Balancer.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2 data-mc-conditions="QuicksilverOrClassic.Classic">Assign work in the Workload Balancer</h2>
+<p data-mc-conditions="QuicksilverOrClassic.Classic">You can assign work items that have not yet been assigned to a user or reassign items that have been assigned to users in the Workload Balancer.</p>
 <ol>
 <li value="1">Go to the Workload Balancer.</li>
 <li value="2"> <p>Go to the <strong>Unassigned Work</strong> area and apply a filter to view work items</p> <p>Or</p> <p>Go to the <strong>Assigned Work</strong> area and expand the name of a user to view the work items assigned to them.</p> <note type="important">

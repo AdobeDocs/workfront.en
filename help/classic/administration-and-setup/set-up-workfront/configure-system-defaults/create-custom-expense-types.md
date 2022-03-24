@@ -51,7 +51,8 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
 
 ## Create custom expense types
 
-1. Go to the **Setup** area in the Global Navigation Bar.  
+1. Go to the **Setup** area in the Global Navigation Bar.
+
    ![](assets/setup-link-in-global-bar-classic-350x50.png)
 
 1. Click **Expense Types**.
@@ -102,7 +103,9 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
 
 ## Modify custom Expense Types
 
-1. Go to the **Setup** area in the Global Navigation Bar.  ![](assets/setup-link-in-global-bar-classic-350x50.png)   
+1. Go to the **Setup** area in the Global Navigation Bar.
+
+   ![](assets/setup-link-in-global-bar-classic-350x50.png)
 
 1. Click **Expense Types**.
 1. Select the expense type that you want to modify, then click **Edit**.

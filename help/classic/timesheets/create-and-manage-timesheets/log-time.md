@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article and log 
 You can log time in the following areas in Workfront:
 
 * [Timesheet](#timesheet) 
-* My Work
+* [My Work](#mywork) 
 * [Home](#home) 
 * [Project, task, or issue](#project,-task,-issue) 
 * [Mobile app](#mobile-app)
@@ -173,15 +173,21 @@ You can log general hours or project-specific hours on a timesheet.
    * **Re-Open**: This option is available for timesheets that you have already closed and which have no approvers, or timesheets that have already been approved. Reopen the timesheet to modify hour entries. 
    * **Recall**: This option is available for timesheets that have been submitted for approval but have not been approved or rejected yet. Click&nbsp;**Recall** to reopen the timesheet and modify hour entries.
 
-My Work You can log project-specific hours in My Work.
+### My Work
 
-1. My Work
-1. Working On
-1. In the **Enter Hours** drop-down menu, select the appropriate hour type. Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md). 
+You can log project-specific hours in My Work.
+
+1. Click **My Work** in the Global Navigation Bar. 
+1. On the **Working On** tab, select the work item where you want to log time. 
+1. In the **Enter Hours** drop-down menu, select the appropriate hour type.
+
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
 1. (Conditional) If your Workfront administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specify the number of hours you want to log for that work item on any given day. 
 1. Click **Log Time**.
-1. ![](assets/6-350x94.png)
+
+   ![](assets/6-350x94.png)
 
 ### Home
 
@@ -191,10 +197,13 @@ For general information about using the Home area, see [Use the Home area](../..
 
 To log time on a work item from the Home area:
 
-1. Home
-1. Try the Home area
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
+
 1. In the **Work List** area, select the item where you want to log time.
-1. In the right panel, click **Log Time**.
+1. In the right panel, click **Log Time**.  
+   ![](assets/getting-started-log-time-350x226.png)
 
 1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
    Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
@@ -238,11 +247,10 @@ Or you must have all of the following:
 To log time on a project, task, or issue:
 
 1. Navigate to a project, task, or issue.
-1. Hours
-1. More
-1. 
-1. 
-1. 
+1. Click the **Hours** tab. (Click **More** to locate the Hours tab if it is not a default tab.)  
+   All Hours logged on the project, a task, or an issue for the project are displayed.  
+   ![Screen_Shot_2013-09-11_at_2.55.29_PM.png](assets/screen-shot-2013-09-11-at-2.55.29-pm-350x165.png)
+
 1. Click **Log Time**.
 
    The Log Hours dialog box displays.

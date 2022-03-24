@@ -133,23 +133,23 @@ You can interact with the charts in the Metrics area to look at different aspect
 
 1. (Optional) To look more closely at tasks or issues for any metric on the page, do the following:
 
-  1. Click the element—such as tasks assigned to a specific user, issues with a high priority, or all overdue tasks—that you want to see details for.
+   1. Click the element—such as tasks assigned to a specific user, issues with a high priority, or all overdue tasks—that you want to see details for.
 
-     A list of tasks or issues displays.
+      A list of tasks or issues displays.
 
-     ![](assets/completed-tasks-dialog-350x75.png)
+      ![](assets/completed-tasks-dialog-350x75.png)
 
-  1. Use the arrows at the bottom of the list to locate the task or issue you want to look at.
+   1. Use the arrows at the bottom of the list to locate the task or issue you want to look at.
 
-     Or
+      Or
 
-     Select a specific number to display tasks or issues on a specific page.
+      Select a specific number to display tasks or issues on a specific page.
 
-     ![](assets/pagination-300x152.png)
+      ![](assets/pagination-300x152.png)
 
-  1. Select a task or issue to view more details.
+   1. Select a task or issue to view more details.
 
-     The task or issue opens in a new tab.
+      The task or issue opens in a new tab.
 
 1. (Optional) To export the project metrics dashboard to a .png file, click the **Export** icon ![](assets/export.png), then select **Export as PNG** from the drop-down menu.
 

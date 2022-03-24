@@ -58,19 +58,19 @@ You must have the following access to perform the steps in this article:
 
    The Document details page opens in a new browser tab. On this page, you can:
 
-  * Access the proof's associated Workfront object.
+   * Access the proof's associated Workfront object.
 
-    For example, in this screenshot of the upper-left corner of the Document details page, the breadcrumb link **Back to August 18 issue** indicates that the proof is associated with the "August 18" Workfront object, which is an issue:
+     For example, in this screenshot of the upper-left corner of the Document details page, the breadcrumb link **Back to August 18 issue** indicates that the proof is associated with the "August 18" Workfront object, which is an issue:
 
-    ![](assets/document-details-page---breadcrumb-to-associated-object-350x157.png)
+     ![](assets/document-details-page---breadcrumb-to-associated-object-350x157.png)
 
-    You can click the breadcrumb to view the updates, documents, and other information on the issue.
+     You can click the breadcrumb to view the updates, documents, and other information on the issue.
 
-    The same is true if the proof is associated with other types of objects. For example, if the object is a task, the task name displays in the breadcrumb and you can click the breadcrumb to view information about the task.
-  
-  * Go to the Proof details page for the proof by clicking **Details** in the panel on the right:
+     The same is true if the proof is associated with other types of objects. For example, if the object is a task, the task name displays in the breadcrumb and you can click the breadcrumb to view information about the task.
+   
+   * Go to the Proof details page for the proof by clicking **Details** in the panel on the right:
 
-    ![](assets/proof-details-link-on-doc-details-page-350x438.png)
+     ![](assets/proof-details-link-on-doc-details-page-350x438.png)
 
-    For more information about the Proof details page, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+     For more information about the Proof details page, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 

@@ -11,6 +11,8 @@ You can easily locate items in Adobe Workfront by searching for them when you ca
 
 You can see the Search box in the upper-right corner of any page within Workfront.
 
+![](assets/1-350x47.png)
+
 You must have permissions to View an object before you can find it in a search. For this reason, search results vary from user to user.
 
 ## Access requirements
@@ -182,7 +184,7 @@ To perform a basic search:
 1. (Optional) To search for a specific object, click the magnifying glass and select an object—**Projects**, for example—from the drop-down menu.
 1. In the **Search** box, start typing the information you are searching for.  
    For information about what fields are searched in Workfront, see [Understand Search](#understanding-search).  
-  
+   ![](assets/project-basic-search-350x135.png)  
    As you begin typing in the search bar, Workfront makes recommendations based on your viewing history and it highlights the keyword you are searching for in orange.
 
 1. If the item you are looking for displays in the typeahead menu, click it.
@@ -190,7 +192,8 @@ To perform a basic search:
    Or
 
    Press **Enter** to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.
-   The Search Results page displays. 
+
+   The Search Results page displays.
 
    If you chose the magnifying glass, for a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in [Understand Search](#understanding-search). The objects that match your search display in a list, with the keyword you typed highlighted in orange in the name.
 
@@ -215,6 +218,7 @@ To refine a search:
 1. Click inside any of the fields available to shorten the list of results.  
    The selections you make are highlighted in orange and the field values that you do not select are hidden.  
    After you select each new value, the results to the right update dynamically.  
+   ![](assets/screen-shot-2016-09-22-at-10.54.20-am-350x140.png)
 
 1. (Optional) Click the selected values to deselect them and display all values for each field again.
 
@@ -227,7 +231,7 @@ Advanced Search allows you to search using fields and filters not available to b
 >To perform an Advanced Search, you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
 
 * [Use Advanced Search](#using-advanced-search) 
-* Select new filters for Advanced Search
+* [Select new filters for Advanced Search](#filtering-search-results)
 
 #### Use Advanced Search
 
@@ -239,11 +243,13 @@ To perform an advanced search:
 1. In the upper-right corner of any page in Workfront, locate and click the drop-down arrow in the **Search** box.  
 
 1. At the bottom of the Search menu, click **Advanced Search**.  
-  
+   ![](assets/search-advanced-(2)-350x386.png)  
    The Advanced Search page displays.  
 
 1. Select the type of object you are searching for.  
    **Projects** is selected by default.
+
+   ![](assets/advanced-search-298x533.png)
 
 1. (Optional) Type a keyword in the field at the top of the list.  
 1. (Optional) Click **Filter your results** to filter your search results based on specific field types, then select a field from the list. If necessary, also select a value for the field.  
@@ -254,16 +260,21 @@ To perform an advanced search:
 1. Click **Search**.  
    A list of items that match your search displays to the right of the Advanced Search toolbar.
 
-Select new filters for Advanced Search After performing an advanced search—as described in [Use Advanced Search](#using-advanced-search)—you can change your filters to update your search results. To update your filters:
+#### Select new filters for Advanced Search
 
-1. Filter your results
-1. 
-1. 
-1. 
-1. 
-1. Add a Filter
-1. 
-1. Update Results
-1. 
-1.
+After performing an advanced search—as described in [Use Advanced Search](#using-advanced-search)—you can change your filters to update your search results.
+
+To update your filters:
+
+1. Click **Filter your results**.  
+   A short list of previously searched fields for that object is shown.  
+   The search remembers the 5 most recent fields you have used, and they display the next time you perform a search for the same object.  
+   Or  
+   Click **Add a Filter**.  
+   This expands the list of fields you can associate with the object you selected.
+
+1. Select a field from the list. If necessary, also select a value for the field.
+1. Click **Update Results**.  
+   ![](assets/screen-shot-2013-08-12-at-2.45.41-pm-350x348.png)  
+   Your updated list of results shows to the right of the Advanced Search toolbar.
 

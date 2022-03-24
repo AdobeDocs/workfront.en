@@ -50,7 +50,9 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the object where you want to attach the reminder notification.
 1. Click the Edit option near the upper-right corner of Workfront.
-1. The name of this option reflects the type of object you are viewing. For example, if it's a task, the option name is **Edit Task**.
+
+   The name of this option reflects the type of object you are viewing. For example, if it's a task, the option name is **Edit Task**.
+
 1. In the left panel of the **Edit** box that appears, click **Settings**.
 
 1. Under **Reminder Notification**, select the notifications that you want to attach to the object.

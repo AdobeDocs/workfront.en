@@ -52,7 +52,10 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Create a filter in the Schedule section (for Teams) Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Working On tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
+
+## Create a filter in the Schedule section (for Teams)
+
+Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Working On tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
 
 >[!NOTE]
 >
@@ -81,14 +84,18 @@ To create a filter for the scheduling timeline on the Working On tab for teams:
 
 1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-Create and modify filters in the Scheduling section (for multiple projects) You can create a new filter, apply a filter that you previously created, modify a filter that you previously created, or delete a filter. You cannot share filters you create with other users.
+## Create and modify filters in the Scheduling section (for multiple projects)
 
-* [Create a filter in the Scheduling section (for projects)](#create4)  
+You can create a new filter, apply a filter that you previously created, modify a filter that you previously created, or delete a filter. You cannot share filters you create with other users.
+
+* [Create a filter in the Scheduling section (for projects)](#create4) 
 * [Apply a saved filter](#applying-a-saved-filter) 
 * [Modify a saved filter](#modifying-an-existing-filter) 
 * [Delete a saved filter](#deleting-a-filter)
 
-Create a filter in the Scheduling section (for projects) Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Scheduling tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
+### Create a filter in the Scheduling section (for projects)
+
+Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Scheduling tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
 
 To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for multiple projects:
 
@@ -179,7 +186,9 @@ You can delete a filter that you previously created.
 1. Click **Filter**.
 1. In the **Saved Filters** field, in the drop-down list, click the (x) next to the filter you want to delete.&nbsp;
 
-Create and modify filters in the Scheduling section (for a single project) Tasks and issues from the users, teams, and roles you define in the filter are displayed on the scheduling timeline on the Staffing&nbsp;tab. Use the options in the filter to determine which users, teams, and roles are represented on the scheduling timeline.
+## Create and modify filters in the Scheduling section (for a single project)
+
+Tasks and issues from the users, teams, and roles you define in the filter are displayed on the scheduling timeline on the Staffing&nbsp;tab. Use the options in the filter to determine which users, teams, and roles are represented on the scheduling timeline.
 
 >[!NOTE]
 >

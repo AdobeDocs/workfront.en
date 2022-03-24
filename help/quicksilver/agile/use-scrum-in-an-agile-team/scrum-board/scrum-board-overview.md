@@ -14,7 +14,11 @@ The Scrum agile story board displays together&nbsp;with the completion status an
 * On agile iterations. For more details about using the agile story board, burndown chart, and completion status in a pure agile environment (with backlogs and an iteration), see [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 * When viewing a project in an agile view. For information about how you can leverage the agile story board, burndown chart, and completion status&nbsp;within an existing project, see [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
+![](assets/agile-iteration-with-callouts-350x257.png)
+
 ## Story Board Layout and Functions
+
+![](assets/agile-storyboard-callouts-350x164.png)
 
 The story board consists of the following elements:
 
@@ -22,10 +26,12 @@ The story board consists of the following elements:
 
   In an iteration, this column appears on the story board only when one or more stories on the story board contains at least one&nbsp;subtask&nbsp;that meets the following requirements:
 
-  * Assigned to the same agile team as the parent task
-  * Belongs to the iteration
+   * Assigned to the same agile team as the parent task
+   * Belongs to the iteration
 
-    In a project, this column appears any time a task has at least one subtask.
+     In a project, this column appears any time a task has at least one subtask.
+
+     ![](assets/agile-parentstory-swimlane-350x66.png)
 
 * **Task Statuses:** Indicate how a story is progressing through the iteration or project based on which status column the story is in.
 
@@ -37,8 +43,8 @@ The story board consists of the following elements:
 
   In an iteration, swim lanes appear on the story board only when a story&nbsp;on the story board contains at least one&nbsp;subtask&nbsp;that meets the following requirements:
 
-  * Assigned to the same agile team as the parent task
-  * Belongs to the iteration
+   * Assigned to the same agile team as the parent task
+   * Belongs to the iteration
 
   In a project, swim lanes&nbsp;appear any time a task has at least one subtask or one parent task.
 

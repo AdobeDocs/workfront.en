@@ -21,6 +21,8 @@ For information about permissions to Portfolios, see [Share a portfolio in Adobe
 
 For information about using Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
+![portfolio_with_program_and_project_brakdown.png](assets/portfolio-with-program-and-project-brakdown-350x111.png)
+
 ## Adobe Workfront portfolio methodology
 
 In Workfront, you can add projects to portfolios to create and organize your portfolios.
@@ -52,4 +54,6 @@ Portfolios are usually configured to correspond with Resource Pools. The Program
 Portfolio Managers can track financial performance inside the portfolio using the Portfolio dashboard. This dashboard is displayed in the header of the Portfolio.
 
 For information about the financial fields of a Portfolio, see the [Understanding the Financial Fields in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md#financial-fieds-subsection) section in [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+
+![](assets/up2-350x51.png)
 

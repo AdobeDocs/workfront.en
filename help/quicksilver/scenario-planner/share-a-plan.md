@@ -95,12 +95,17 @@ For more information about access to the Scenario Planner for various license ty
 
    Or
 
-   If you selected several plans to share them in bulk, click the **Share** icon ![](assets/share-icon-26x26.png) at the top of the list of plans to open the Plan access box. 
+   If you selected several plans to share them in bulk, click the **Share** icon ![](assets/share-icon-26x26.png) at the top of the list of plans to open the Plan access box.
 
-   ``` ```**Tips: **``````
-
-  * Users that have permissions to all the plans you select display in the Plan access box. 
-  * Any additional users are added to and do not replace the existing users on all the plans selected.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * Users that have permissions to all the plans you select display in the Plan access box. 
+   >   * Any additional users are added to and do not replace the existing users on all the plans selected. 
+   >   
+   >
 
 1. In the **Give plan access to** field, start typing the name of the users that you want to share the plan with, then select them when they appear in the list. 
 1. From the permissions drop-down menu to the right of the user name, select the level of permission you want to grant them to the plan. 

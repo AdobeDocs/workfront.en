@@ -57,13 +57,20 @@ For information about creating a system-level approval process or a group-level 
 * An approval process is always associated with two essential things:
 
    * Each approval process corresponds to a certain work item status in the Workfront system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.
-   
-     ``` ```**Tips: **``````
 
-      * You can associate a group-level approval with a global or a group-level status. 
-      * You cannot change the status of an item using an approval process to a status other than the one associated with the approval process.
-
-        ``` ```**Example: **``````For example, if you have a task approval associated with the status of In&nbsp;Progress, the task automatically changes its status to In&nbsp;Progress when the approval is granted. It cannot automatically change its status to Completed or any other status that is not associated with the approval.
+     >[!NOTE]
+     >
+     >
+     >   
+     >   
+     >   * You can associate a group-level approval with a global or a group-level status. 
+     >   * You cannot change the status of an item using an approval process to a status other than the one associated with the approval process. 
+     >   
+     >   
+     >     For example, if you have a task approval associated with the status of In&nbsp;Progress, the task automatically changes its status to In&nbsp;Progress when the approval is granted. It cannot automatically change its status to Completed or any other status that is not associated with the approval. 
+     >   
+     >   
+     >
 
    * The entities associated with an approval process can be users, job roles, or teams. They are responsible for accepting and rejecting the approval.
 

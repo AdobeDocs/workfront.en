@@ -75,19 +75,19 @@ Budgeting resources means that you define (or budget) a certain number of hours 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Groupings</strong> tab, then do one or several of the following:</p>
    -->
 
-     <!--  
-     <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing "Project Name", then select it when it appears in the list.</li>  
-     -->
+      <!--   
+      <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing "Project Name", then select it when it appears in the list.</li>   
+      -->
 
-     <!--  
-     <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing "Job Role Name", then select it when it appears in the list.</li>  
-     -->  
-  
-  1. 
-  
-     <!--  
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing <strong>Allocation Date</strong>, select it when it appears in the list, and then select the timeframe you want to group by from the <strong>Group Dates by</strong> field. </p>  
-     -->
+      <!--   
+      <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing "Job Role Name", then select it when it appears in the list.</li>   
+      -->   
+   
+   1. 
+   
+      <!--   
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing <strong>Allocation Date</strong>, select it when it appears in the list, and then select the timeframe you want to group by from the <strong>Group Dates by</strong> field. </p>   
+      -->
 
    <!--
    <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Click <strong>Filters</strong> to add filters to the report.</li>

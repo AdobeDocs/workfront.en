@@ -107,12 +107,17 @@ There are some differences when using agile views on a project versus working in
 * Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board.   
   For example, these tasks appear as follows in the project list view:   
   
-  These tasks appear as follows in the project agile view:
+  ![Agile project list - tasks with no parent or subtasks](assets/agile-project-single-list-nwe.png) These tasks appear as follows in the project agile view:   
+  
+  ![Project agile view - tasks with no parent or subtasks](assets/agile-project-singlecard-nwe.png)
 
 * Parent tasks that have subtasks are always displayed in the **Stories** column of the story board. Subtasks are displayed in the swimlane of the parent task.   
-  For example, these tasks appear as follows in the project list view:
-
-  These tasks appear as follows in the project agile view:
+  For example, these tasks appear as follows in the project list view:   
+  
+  ![Agile project list - tasks with parents and subtasks](assets/agile-project-parent-list-nwe.png)  
+  These tasks appear as follows in the project agile view:   
+  
+  ![Agile project view - tasks with parents and subtasks](assets/agile-project-parent-nwe.png)
 
 * Second-level subtasks (subtasks of subtasks) are displayed as a hanging gray card off the immediate parent task.
 * Third-level subtasks (subtasks of subtasks of subtasks) are never displayed on the story board.
@@ -154,7 +159,7 @@ For information about how to customize an agile view, see&nbsp; [Create or custo
 
 1. Go to the project you want to view in an agile view.
 1. Click the **Agile** icon.  
-  
+   ![Agile icon](assets/agile-icon-nwe.png)  
    The project is displayed in the default agile view.   
    If you previously viewed the project in a custom agile view, the project is displayed in that&nbsp;view rather than in the default agile view.  
 

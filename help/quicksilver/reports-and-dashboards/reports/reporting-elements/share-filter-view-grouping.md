@@ -58,6 +58,7 @@ You must have the following:
 Sharing filters, views, or groupings in Workfront is identical.
 
 <!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
 <p>You can share filters in select lists using the following interfaces:</p>
 <ul>
 <li> <p>Standard interface</p> </li>
@@ -67,25 +68,28 @@ Sharing filters, views, or groupings in Workfront is identical.
 <p>You can share views and groupings only in the standard interface.</p>
 <ul>
 <li> <!--
-<a href="#sharing" class="MCXref xref">Sharing filters, views, and groupings using the standard interface</a>
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="#sharing" class="MCXref xref">Sharing filters, views, and groupings using the standard interface</a> </p>
 --> </li>
 <li> <!--
-<a href="#sharing2" class="MCXref xref">Sharing filters and groupings using the beta builder interface</a>
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="#sharing2" class="MCXref xref">Sharing filters and groupings using the beta builder interface</a> </p>
 --> </li>
-</ul>
-<!--
-<a name="Sharing"></a>Sharing filters, views, and groupings using the standard interface
+</ul> <!--
+<h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a name="Sharing"></a>Sharing filters, views, and groupings using the standard interface</h3>
+--> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">Sharing filters, views, and groupings in the standard interface is identical.</p>
 -->
-<!--
-Sharing filters, views, and groupings in the standard interface is identical.
--->
+</div>
 -->
 
 1. Go to a list of objects or a report.
-1. (Conditional)&nbsp;From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to share, click the **More** icon ![](assets/more-icon.png), then **Share**. From a report, click the **Filter**, **View**, or **Grouping** drop-down menu, then select the filter, view, or grouping you want to share. 
+1. (Conditional)&nbsp;From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to share, click the **More** icon ![](assets/more-icon.png), then **Share**.
+
+   From a report, click the **Filter**, **View**, or **Grouping** drop-down menu, then select the filter, view, or grouping you want to share.
 
 1. (Conditional) If sharing from a report, click the **Filter**, **View**, or **Grouping** drop-down menu again, then click **Share Filter**, **Share View**, or **Share Grouping**.  
    The **Filter Access**, **View Access**, or **Grouping Access** dialog box displays.
+
+   ![](assets/share-filter-people-box-nwe-350x458.png)
 
 1. Complete either of the following, depending on who you want to share with:
 
@@ -123,6 +127,7 @@ Sharing filters, views, and groupings in the standard interface is identical.
    Users with whom you shared the filter, view, or grouping can access it by clicking the **Filter**, **View**, or **Grouping** drop-down menu or icon and scrolling down to the **Shared with me** section.
 
 <!--
+<div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
 <h3><a name="Sharing2"></a>Sharing filters and groupings using the beta builder interface</h3>
 <p>When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.</p>
 <p>The beta builder interface is not available for any other objects in&nbsp;Workfront.</p>
@@ -164,6 +169,7 @@ Users cannot receive a higher permission than their access level. If they don't 
 </note> </li>
 <li value="8"> <p>Click <strong>Share</strong>. The filter or grouping is shared with the entities you specified.</p> <p>The filters or groupings you shared display in the <strong>Shared with me</strong> section of the filter or grouping panel for those entities.</p> <p> <img src="assets/new-filters-shared-with-me-area-wb-350x236.png" style="width: 350;height: 236;"> </p> </li>
 </ol>
+</div>
 -->
 
 ## Video walk-through
@@ -278,17 +284,17 @@ This video was recorded in Workfront Classic. However, the content also applies 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can select from the following options:</p>
    -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</li>   
+     -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</li>   
+     -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li>   
+     -->
 
 1. 
 

@@ -65,12 +65,12 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Details** icon ![](assets/details.png) in the navigation bar to view:
 
-  * Description
-  * Planned Completion Date
-  * Status 
-  * Assigned to
-  * Project Owner (Projects only)
-  * Custom form data
+   * Description
+   * Planned Completion Date
+   * Status 
+   * Assigned to
+   * Project Owner (Projects only)
+   * Custom form data
 
 ## View Document Details
 
@@ -86,12 +86,12 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Document** icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
 
-  * Description
-  * File Type
-  * Proof Status (only available for proofs)
-  * Version
-  * Size
-  * Custom Form data
+   * Description
+   * File Type
+   * Proof Status (only available for proofs)
+   * Version
+   * Size
+   * Custom Form data
 
 ## View subtasks and issues
 
@@ -109,8 +109,8 @@ You must have the following access to perform the steps in this article:
 
 1. Select the task or issue, then click the **Details** icon ![](assets/details.png) in the navigation bar to view:
 
-  * Planned Completion Date
-  * Status 
-  * Assigned to
-  * Custom Form data
+   * Planned Completion Date
+   * Status 
+   * Assigned to
+   * Custom Form data
 

@@ -54,6 +54,8 @@ If you want to make a copy of a report that you are the owner of, do the followi
    >If the report is a default report, the Copy option does not appear in the Report Actions menu.  
    >For information on how to create a copy of a default report, see [Create a new version of a report](#saving-default-reports-as-new-reports).
 
+   ![](assets/classic-select-copy.png)
+
    A copy of the original report is created with the default name of *Copy of [Name of the original report]*. For example, the report "Q4 Completed Tasks" would have "Copy of Q4 Completed Tasks" as the name.
 
 1. (Optional) To rename the report, start typing a new name.
@@ -87,6 +89,8 @@ If you want to create a copy of a default report, do the following:
 1. Click the name of a default report to open it.
 1. Click **Report Actions**, then **Edit**.
 
+   ![](assets/nwe-select-edit-350x224.png)
+
 1. Make any modifications you need to in the following tabs of the report:
 
    * **Columns (View)**: For more information about customizing views, see the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
@@ -98,6 +102,8 @@ If you want to create a copy of a default report, do the following:
 1. In the **Report Title** field, give the report a new name.
 1. Click **Done**.
 1. Click **Save as New Report**.
+
+   ![](assets/classic-save-as-new-report-350x255.png)
 
 1. (Optional) To share the new version of the report with other users, click **Report Actions**, then **Sharing**.
 

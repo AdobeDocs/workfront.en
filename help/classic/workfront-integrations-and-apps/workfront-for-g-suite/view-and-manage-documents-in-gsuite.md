@@ -86,6 +86,7 @@ Before you can view or manage Workfront documents in G Suite, you must
    If the document is saved on a cloud drive, click the **Open** icon ![](assets/open-icon.png) .
 
 1. Click **View in Workfront**&nbsp;to go to the Document Details page for the document in Workfront.
+
    For information about this page, see [View Document Details](../../documents/managing-documents/view-document-details.md).
 
 You can also view and manage documents (and other details) associated with a Workfront object in G Suite when you receive a Workfront notification email about the object. For more information, see [Manage Adobe Workfront notification details from G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).

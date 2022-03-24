@@ -64,14 +64,14 @@ You can access a proof from a Basecamp Classic message.&nbsp;
 1. To view the proof in full-screen mode in Workfront proof, click the URL listed above the proof (4).
 1. (Conditional) If you are not logged into your Workfront Proof account in one of your browser windows, log to review the proof:
 
-  1. Click **Sign In**&nbsp;(5) above the proof.
-  1. Type your email address (6).  
-     You must use the same email address that was used when you were added to the proof.
-  1. Click **Next**.
-  1. Type your Workfront Proof password (7).  
-     Or  
-     If you do not have a Workfront Proof account, type a public name to display.   
-     You can select "remember me" so you only have to input your details once.
+   1. Click **Sign In**&nbsp;(5) above the proof.
+   1. Type your email address (6).  
+      You must use the same email address that was used when you were added to the proof.
+   1. Click **Next**.
+   1. Type your Workfront Proof password (7).  
+      Or  
+      If you do not have a Workfront Proof account, type a public name to display.   
+      You can select "remember me" so you only have to input your details once.
 
 1. To review the proof, continue with [Reviewing a Proof in Basecamp](#reviewing-your-proof-in-basecamp).
 

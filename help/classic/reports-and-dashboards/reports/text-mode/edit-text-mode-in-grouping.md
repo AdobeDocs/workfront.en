@@ -68,7 +68,9 @@ For information about creating a report, see [Create a custom report](../../../r
 1. Do one of the following:
 
    1. To access the grouping from a report, go to the report, then click&nbsp;**Report Actions** > **Edit** > **Groupings** tab.
-   1. To access the grouping from a list, go to the list and from the **Grouping** drop-down menu, click&nbsp;**Customize Grouping** to customize the grouping that is currently applied to the list. The grouping builder opens.
+   1. To access the grouping from a list, go to the list and from the **Grouping** drop-down menu, click&nbsp;**Customize Grouping** to customize the grouping that is currently applied to the list.
+
+      The grouping builder opens.
 
 1. Click&nbsp;**Add Grouping** to add the groupings, then click&nbsp;**Switch to Text Mode** in the upper-right corner of the builder.
 

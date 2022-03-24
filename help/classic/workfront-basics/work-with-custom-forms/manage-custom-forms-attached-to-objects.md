@@ -52,7 +52,9 @@ You must have the following access to perform the actions described in this arti
 
    ``` ```**Example: **``````For example, to manage the custom forms of a project, go to the project, then click **Edit Project**.
 
-1. In the **Custom Forms** section of the box that appears, click **Manage Forms**. This option displays only if at least one custom form is attached to the object. 
+1. In the **Custom Forms** section of the box that appears, click **Manage Forms**.
+
+   This option displays only if at least one custom form is attached to the object.
 
 1. Drag a form ![](assets/move-icon---dots.png) to a new location in the list.
 1. Click **I'm done managing**.
@@ -69,9 +71,13 @@ You must have the following access to perform the actions described in this arti
    For example, go to a project, then click **Edit Project**.
 
 1. Click **Custom Forms**.
-1. Click **Manage Forms**, then click the **X** icon to the right of a form to remove it from the object.  ![manage_forms_on_a_project.png](assets/manage-forms-on-a-project-350x224.png)  The **Manage Forms** option displays only if at least one custom form is attached to the object.  
+1. Click **Manage Forms**, then click the **X** icon to the right of a form to remove it from the object.
 
-1. I'm done managing.
+   ![manage_forms_on_a_project.png](assets/manage-forms-on-a-project-350x224.png)
+
+   The **Manage Forms** option displays only if at least one custom form is attached to the object.
+
+1. Click **I'm done managing.**
 1. Click **Save****Changes**.
 
 ## Manage multiple custom forms that contain the same custom fields

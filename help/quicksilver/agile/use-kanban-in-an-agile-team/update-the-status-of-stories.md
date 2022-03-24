@@ -41,11 +41,10 @@ You must have the following access to perform the steps in this article:
 
 ## Update the status of stories on the Kanban board
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
+
 1. Go to the Kanban board where you want to update the status of a story.
 1. Drag a story from one status column on the Kanban&nbsp;board and into another column.  
    A story remains in the Complete column for two weeks after it is added.  

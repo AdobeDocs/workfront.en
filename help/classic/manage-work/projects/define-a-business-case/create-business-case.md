@@ -59,6 +59,8 @@ Consider the following when requesting a project through a Business Case:
 
    ``` ```**Warning: **``````If the Idea status has been deleted in your Workfront instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
+   ![idea_project.png](assets/idea-project-350x168.png)
+
 1. Specify a name for your project, then press Enter. 
 1. (Optional) Click **Project Actions**, then **Attach Template**, to create the Work Breakdown Structure of your project.<![CDATA[ ]]>
 
@@ -82,10 +84,7 @@ Consider the following when requesting a project through a Business Case:
    For more information about editing the Expenses section of the Business Case, see the section [Expenses](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
    <!--
-   (Optional) Click
-   <strong>Edit Legacy Resource Estimates</strong>. For more information about editing the Legacy Resource Estimates section of the Business Case, see the section
-   <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#resource-estimates" class="MCXref xref">Legacy Resource Estimates</a> in the article
-   <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.  The ability to edit information in this area might have been removed in your environment.
+   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <p data-mc-conditions="QuicksilverOrClassic.Classic">(Optional) Click <strong>Edit Legacy Resource Estimates</strong>.</p> <p data-mc-conditions="QuicksilverOrClassic.Classic">For more information about editing the Legacy Resource Estimates section of the Business Case, see the section <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#resource-estimates" class="MCXref xref">Legacy Resource Estimates</a> in the article <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>. </p> <p data-mc-conditions="QuicksilverOrClassic.Classic">The ability to edit information in this area might have been removed in your environment.</p> </li>
    -->
 
 1. (Optional) Use the Resource Budgeting area to budget your resources and obtain the Budgeted Labor Cost associated with the job roles on the project. For more information, see [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

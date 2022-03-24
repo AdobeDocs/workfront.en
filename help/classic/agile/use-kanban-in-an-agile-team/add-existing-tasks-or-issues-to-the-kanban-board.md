@@ -46,6 +46,8 @@ To add a task or issue to a Kanban board:
 1. Select one or more tasks or issues.
 1. Click **More** > **Add to** > **Kanban Board**.
 
+   ![](assets/add-to-kanban-and-scrum-350x207.png)
+
 1. In the Add Stories dialog box, type the name of the Kanban team.
 1. If you are adding tasks, click **Add Stories**.  
    Or  

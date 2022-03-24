@@ -48,10 +48,9 @@ In addition to updating the Duration&nbsp;Type of a task as described in this ar
 
 To update the Duration&nbsp;Type of a task:
 
-1. Click **Projects** in the Global Navigation Bar, then click a project to access it. 
+1. Click **Projects** in the Global Navigation Bar, then click a project to access it.
 1. Click the **Tasks** tab . 
-1. On the **Task Details** tab, click **Overview** > **Edit Overview** > **Duration Type**. 
-
+1. On the **Task Details** tab, click **Overview** > **Edit Overview** > **Duration Type**.
 1. Select from the following options
 
    | Calculated Work |For information, see [Duration Type overview: Calculated Work](../../../manage-work/tasks/taskdurtn/calculated-work.md).  |

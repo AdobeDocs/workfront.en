@@ -51,9 +51,10 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the task where you want to configure the Cost Type. 
 1. Click the **Task Details** tab, then click **Finance.** 
-
 1. Click **Edit Finance.**
 1. In the **Cost Type** drop-down list, select the cost type that you want to apply to the task.
+
+   ![](assets/tc-350x240.png)
 
    Select from the following options:
 

@@ -35,7 +35,7 @@ For information about changing the Duration Type of a task, see [Update the Dura
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <li value="1">Go to a task for which you want to change the Duration Type.</li>
-<li value="2"> Click <strong>Task Details</strong> in the left panel, then in the Overview area double click <strong>Duration Type</strong>.  </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Task Details</strong> in the left panel, then in the Overview area double click <strong>Duration Type</strong>. </p> </li>
 <li value="3"> <p>Select <strong>Simple</strong> from the drop-down menu.</p> </li>
 <li value="4">Click <strong>Save</strong> <strong>Changes</strong><strong>.</strong></li>
 </ol>

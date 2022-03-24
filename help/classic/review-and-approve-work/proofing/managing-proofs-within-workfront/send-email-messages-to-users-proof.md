@@ -50,17 +50,43 @@ You must have the following access to perform the steps in this article:
 1. Select the document for the proof that contains the users you want to message.
 1. In the **Details**&nbsp;tab, locate&nbsp;the **Proofing**&nbsp;section.
 
-1. 
+   ![](assets/proof-details-350x242.png)
+
 1. Click **Details.**
-1. The proofing viewer box appears.
+
+   The proofing viewer box appears.
+
 1. (Conditional) To send a message to multiple&nbsp;users in a stage:
-1. In the **Workflow** section, in the stage that contains the users that you want to message, do one of the following (depending on whether the proof for which you are messaging users has or does not have&nbsp;Advanced Workflow enabled):
-1. ```<li> <p>If you are sending messages to users on a proof that has Advanced Workflow enabled:&nbsp;Click <strong>More,</strong>&nbsp;then click <strong>Message all</strong>.</p> <p> <img src="assets/proof-details-email-350x248.png" alt="" style="width: 350;height: 248;"> </p> </li>``` ```<li> <p>If you are sending messages to&nbsp;users on a proof without Advanced Workflow:&nbsp;Click the <strong>More Options</strong> icon, then click <strong>Message all</strong>.</p> <p> <img src="assets/proof-details-email-basic-350x247.png" alt="" style="width: 350;height: 247;"> </p> <p>The Message box appears.</p> <p> <img src="assets/proof-email-350x307.png" alt="" style="width: 350;height: 307;"> </p> </li>``` 
 
-1. Workflow
-1. ```<li><p>If you are sending messages to a user&nbsp;on a proof that has Advanced Workflow enabled:&nbsp;Click <strong>More,</strong>then click&nbsp;<strong>Message</strong>.</p><p><img src="assets/proof-details-email-user-350x247.png" alt="" style="width: 350;height: 247;"></p></li>``````<li><p>If you are sending messages to a user on a proof without Advanced Workflow:&nbsp;Click the <strong>More Options</strong> icon, then click <strong>Message.</strong></p><p><img src="assets/proof-details-email-user-basic-350x247.png" alt="" style="width: 350;height: 247;"></p><p>The <strong>Message</strong> box appears.</p><p><img src="assets/proof-email-350x307.png" alt="" style="width: 350;height: 307;"></p></li>```
+   In the **Workflow** section, in the stage that contains the users that you want to message, do one of the following (depending on whether the proof for which you are messaging users has or does not have&nbsp;Advanced Workflow enabled):
 
-1. Send to
+   * If you are sending messages to users on a proof that has Advanced Workflow enabled:&nbsp;Click **More,**&nbsp;then click **Message all**.
+
+     ![](assets/proof-details-email-350x248.png)
+
+   * If you are sending messages to&nbsp;users on a proof without Advanced Workflow:&nbsp;Click the **More Options** icon, then click **Message all**.
+
+     ![](assets/proof-details-email-basic-350x247.png)
+
+     The Message box appears.
+
+     ![](assets/proof-email-350x307.png)
+
+1. (Conditional) To send a message to an individual user, in the **Workflow**&nbsp;section, in the stage that contains the users that you want to message, do one of the following (depending on whether the proof for which you are messaging users has or does not have&nbsp;Advanced Workflow enabled):
+
+   * If you are sending messages to a user&nbsp;on a proof that has Advanced Workflow enabled:&nbsp;Click **More,**then click&nbsp;**Message**.
+
+     ![](assets/proof-details-email-user-350x247.png)
+
+   * If you are sending messages to a user on a proof without Advanced Workflow:&nbsp;Click the **More Options** icon, then click **Message.**
+
+     ![](assets/proof-details-email-user-basic-350x247.png)
+
+     The **Message** box appears.
+
+     ![](assets/proof-email-350x307.png)
+
+1. In the**Send to**&nbsp;section, deselect any users who you do not want to receive the message. All selected users will receive the email message.
 1. In the **Message details** section, specify the following information:
 
    <table cellspacing="0"> 

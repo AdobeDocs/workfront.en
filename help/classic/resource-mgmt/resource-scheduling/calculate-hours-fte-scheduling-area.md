@@ -67,8 +67,8 @@ If you still don't have access, ask your Workfront administrator if they set add
 <ol>
 <li value="1">Log in to Workfront as an administrator. </li>
 <li value="2"><![CDATA[
-]]> Go to the&nbsp; <strong>Setup</strong>&nbsp;area in your Global Navigation Bar. <br></li>
-<li value="3"> <p> Click&nbsp;<strong>Resource Management</strong>.<br></p> <p> <br> </p> </li>
+]]> Go to the&nbsp; <strong>Setup</strong>&nbsp;area in your Global Navigation Bar. <br><img src="assets/short-setup-with-avatar---jackie-simms-copy-350x45.png" alt="Short_setup_with_avatar_-_Jackie_Simms_copy.png" style="width: 350;height: 45;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
+<li value="3"> <p> Click&nbsp;<strong>Resource Management</strong>.<br><img src="assets/res-management-user-s-schedule--1--350x129.png" alt="Res_management_user_s_schedule__1_.png" style="width: 350;height: 129;" data-mc-conditions="QuicksilverOrClassic.Classic"></p> <p> <br> </p> </li>
 <li value="4"> Select to calculate the availability of users in Workfront using&nbsp;one of the following methods:
 <ul>
 <li><strong>The Default Schedule</strong>:&nbsp;The Default Schedule of the system and the user FTE are used to determine the Available Hours and FTE value for the user when scheduling resources. The Schedule of the user is ignored. In this case:&nbsp;

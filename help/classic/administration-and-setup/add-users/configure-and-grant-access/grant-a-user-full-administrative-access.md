@@ -71,12 +71,14 @@ You must have the following to perform the steps in this article:
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Remove this entire section for IMS</p>
 -->
 
-1. People
+1. Click **People** in the Global Navigation bar at the top of the Workfront screen.
 1. Click the **People** tab.
 1. Click the name of the user to whom you want to grant administrator rights.
 1. Near the upper-right corner, click**Edit [User's] Info.**
-1. For example, if the user's name is Olivia, click **Edit Olivia's Info.**
-1. ![](assets/access-people2-adobe-350x114.png)
+
+   For example, if the user's name is Olivia, click **Edit Olivia's Info.**
+
+   ![](assets/access-people2-adobe-350x114.png)
 
 1. On the user's info page that appears, click **Access**.
 1. In the **Access Level** drop-down list, select the **System Administrator**&nbsp;access level.

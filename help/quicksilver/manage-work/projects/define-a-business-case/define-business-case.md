@@ -17,7 +17,7 @@ This section contains the following articles:
 * [Create Business Case goals](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md) 
 * [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md) 
 * [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md) 
-* Budget resources in the Business Case using the Adobe Workfront Scenario Planner
+* [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) 
 * [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) 
 * [Attach a Custom Form to a Business Case](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md) 
 * [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md) 

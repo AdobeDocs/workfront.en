@@ -1,4 +1,14 @@
-
+---
+filename: list-access-levels-and-licenses-for-your-users
+title: How access levels and permissions work together
+user-type: administrator
+content-type: reference
+product-area: system-administration
+keywords: access,level,license
+navigation-topic: access-levels
+title: List your users’ access levels and licenses
+description: You can see which access level and license is assigned to each user in a user list or report.
+---
 
 # List your users’ access levels and licenses
 

@@ -47,26 +47,26 @@ To schedule resources to actual work (tasks and issues), use the following area:
 * ```**Configuration**: As a Resource Manager or Project Owner, you or your Workfront administrator must configure certain fields and objects in your Workfront instance before managing your resources. ```   
   ```You must configure the following items in Workfront:```
 
-  * ```Users```   
-    ```For more information about creating users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).``` 
-  
-  * ```Job Roles```   
-    ```For more information about creating job roles, see [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).``` 
-  
-  * ```Schedules```   
-    ```For more information about creating schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).``` 
-  
-  * ```Project Preferences```   
-    ```  
-  
-    >[!TIP]
-    >
-    >Only a system administrator can modify Project Preferences.
+   * ```Users```   
+     ```For more information about creating users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).``` 
+   
+   * ```Job Roles```   
+     ```For more information about creating job roles, see [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).``` 
+   
+   * ```Schedules```   
+     ```For more information about creating schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).``` 
+   
+   * ```Project Preferences```   
+     ```   
+   
+     >[!TIP]
+     >
+     >Only a system administrator can modify Project Preferences.
 
-    For more information about defining Project Preferences, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).``` 
-  
-  * ```Resource Pools```   
-    ```For more information about creating Resource Pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).```
+     For more information about defining Project Preferences, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).``` 
+   
+   * ```Resource Pools```   
+     ```For more information about creating Resource Pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).```
 
 * ```**Resource Allocation**: As a Resource Manager, or a Project Owner, you can assign work and define allocation of resources to work tasks and issues. For this step, a Resource Manager manages the allocation of their resources at the project level using the Resource Planner. Then, they assign work items (tasks and issues) to users based on their job roles using the Resource Scheduling tools. ```   
   ```For more information about Resource Planning, see the [Resource Planning](../../resource-mgmt/resource-planning/resource-planning-overview.md) section.```   
@@ -140,8 +140,8 @@ To manage your resources in Workfront:
 1. Decide how your organization budgets resources.  
    You can budget by:
 
-  * Spreading a bulk number of hours across all the job roles in the system.  
-  * Spreading a bulk number of hours across all the projects in the system
+   * Spreading a bulk number of hours across all the job roles in the system.  
+   * Spreading a bulk number of hours across all the projects in the system
 
 1. (Conditional) If you want to budget a total number of hours or cost for all roles in the system, Go to the **People** area, then **Planning** and**Resource Planner** and select the **View by Role**.  
    For information about budgeting resources by role, see [Budget resources by role in the Resource Planner](../../resource-mgmt/resource-planning/budget-by-role-resource-planner-d.md).  

@@ -51,9 +51,9 @@ You must have the following:
 
 1. Select the view for the Planner. You can select one of the following options:
 
-  * View by User 
-  * View by Project 
-  * View by Role
+   * View by User 
+   * View by Project 
+   * View by Role
 
 1. Click **Export**. 
    The Export Options dialog box displays. ```  
@@ -67,35 +67,35 @@ You must have the following:
    **Type**: The type of time periods by which you want to display the information in the exported file (weeks, months, or quarters.)   
    The following are the maximum time periods that you can export:
 
-  * 52 weeks 
-  * 36 months 
-  * 12 quarters
+   * 52 weeks 
+   * 36 months 
+   * 12 quarters
 
    **Select to Export**: Depending on which view you selected, you can select to export the availability and budgeting information for either all the objects listed on the screen or for specific ones.
    You can select to export the following information:
 
-  * In the Project View, select to export:
+   * In the Project View, select to export:
 
-    * Projects
-    * Projects and Roles
-    * Everything (this is the default option)
+      * Projects
+      * Projects and Roles
+      * Everything (this is the default option)
 
-  * In the User View, select to export:
+   * In the User View, select to export:
 
-    * Users
-    * Users and Projects
-    * Everything (this is the default option)
+      * Users
+      * Users and Projects
+      * Everything (this is the default option)
 
-  * In the Role View, select to export:
+   * In the Role View, select to export:
 
-    * Roles
-    * Roles and Projects
-    * Everything (this is the default option)
+      * Roles
+      * Roles and Projects
+      * Everything (this is the default option)
 
    **Data Formatting**: Depending on how you want your Excel file to be displayed, select the following options:
 
-  * **Raw**: Select to display the availability and allocation information ungrouped by the objects it belongs to in the Excel file. (this is the default option)
-  * **Grouped**: Select to display the availability and allocation information grouped by the objects it belongs to. This displays the exported information as it appears on the screen.
+   * **Raw**: Select to display the availability and allocation information ungrouped by the objects it belongs to in the Excel file. (this is the default option)
+   * **Grouped**: Select to display the availability and allocation information grouped by the objects it belongs to. This displays the exported information as it appears on the screen.
 
    A sample of how the information looks in the exported file is shown in the Export Options dialog box.
 

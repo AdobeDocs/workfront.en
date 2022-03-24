@@ -821,43 +821,43 @@ You can trigger a scenario a specified time before an event with the help of sta
 
 1. Create a new scenario starting with the Webhooks > Custom mailhook module.
 
-  1. Copy the mailhook's email address.
-  1. Save the scenario and execute it.
+   1. Copy the mailhook's email address.
+   1. Save the scenario and execute it.
 
 1. In Gmail, redirect the Google Calendar email reminders to the mailhook's email address:
 
-  1. Open your **Gmail settings**.
-  1. Open the **Forwarding and POP/IMAP** tab.
-  1. Click **Add a forwarding address.**
-  1. Paste the copied mailhooks's email address, click**Next**, confirm by pressing **Proceed** in the popup window, then click **OK**.
-  
-  1. In Workfront Fusion, switch to the new scenario that should finish its execution by receiving the confirmation email.
-  1. Click the bubble above the module to inspect the module's output.
-  1. Expand the   
-  
-     ```  
-     Text
-     ```  
-  
-     item and copy the Confirmation code:
+   1. Open your **Gmail settings**.
+   1. Open the **Forwarding and POP/IMAP** tab.
+   1. Click **Add a forwarding address.**
+   1. Paste the copied mailhooks's email address, click**Next**, confirm by pressing **Proceed** in the popup window, then click **OK**.
+   
+   1. In Workfront Fusion, switch to the new scenario that should finish its execution by receiving the confirmation email.
+   1. Click the bubble above the module to inspect the module's output.
+   1. Expand the    
+   
+      ```   
+      Text
+      ```   
+   
+      item and copy the Confirmation code:
 
-     ![](assets/confirmation-code-350x252.png)
+      ![](assets/confirmation-code-350x252.png)
 
-  1. In Gmail, paste the Confirmation code in the edit box and click**Verify**:
+   1. In Gmail, paste the Confirmation code in the edit box and click**Verify**:
 
-     ![](assets/paste-code-350x46.png)
+      ![](assets/paste-code-350x46.png)
 
-  1. Open the **Filters and Blocked Addresses** tab.
-  1. Click **Create a new filter**.
-  1. Setup a filter for all emails coming from   
-  
-     ```  
-     calendar-notification@google.com
-     ```  
-  
-     and click**Create a filter**:
-  1. Select **Forward it to** and choose the mailhooks's email address from the list.
-  1. Click **Create filter** to create the filter.
+   1. Open the **Filters and Blocked Addresses** tab.
+   1. Click **Create a new filter**.
+   1. Setup a filter for all emails coming from    
+   
+      ```   
+      calendar-notification@google.com
+      ```   
+   
+      and click**Create a filter**:
+   1. Select **Forward it to** and choose the mailhooks's email address from the list.
+   1. Click **Create filter** to create the filter.
 
 1. (Optional) In Workfront Fusion, add the Text parser > Match pattern module after the Webhooks > Custom mailhook module to parse the email's HTML code to obtain any information you need.
 

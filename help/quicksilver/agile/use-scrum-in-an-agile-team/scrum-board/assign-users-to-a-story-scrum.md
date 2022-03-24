@@ -37,14 +37,17 @@ You must have the following access to perform the steps in this article:
 
 ## Assign users to a story on the Scrum board
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+
 1. Go to the agile iteration or project that contains the story board where&nbsp;you want to assign users. For information about how to navigate to an iteration, see [View an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Go to the story tile on the story board where you want to add a user.
 1. Click the team avatar on the story tile (or a user avatar if one is already assigned), begin typing the name of the user you want to assign to the story, then click the name when it appears. You can also choose a suggested user.
-1. You can also assign a job role to a story. You can only assign active users and ```active roles```. 
-1. ![Add assignment to story card](assets/addassignmenttostorycard-350x472.png)
+
+   >[!TIP]
+   >
+   >You can also assign a job role to a story. You can only assign active users and ```active roles```.
+
+   ![Add assignment to story card](assets/addassignmenttostorycard-350x472.png)
 

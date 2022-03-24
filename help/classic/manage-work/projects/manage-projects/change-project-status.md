@@ -49,6 +49,8 @@ You must have the following access to perform the steps in this article:
 1. Go to the project whose status you want to update.
 1. In the project header, click the name of the status in the **Status** field, then select a new status.
 
+   ![](assets/status-project-modify-350x263.png)
+
    Or
 
    Click **Edit Project** and select a new status in the **Status** field, then click **Save****Changes**.

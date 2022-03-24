@@ -39,11 +39,15 @@ You must have the following access to perform the steps in this article:
 
 ## Locate the Portfolio Optimizer
 
-1. From the **Main Menu**, click **Portfolios**. 
-   The portfolios you own display by default. 
+1. From the **Main Menu**, click **Portfolios**.
+
+   The portfolios you own display by default.
+
 1. (Optional) From the **Filter** drop-down menu, select to view a different set of portfolios.  
 1. Click the name of a portfolio to access it. 
 1. Click **Portfolio Optimization** in the left panel.
 
    The Portfolio Optimizer displays.
+
+   ![](assets/nwe-portfolio-optimizer-350x83.png)
 

@@ -50,17 +50,22 @@ You must have the following access to perform the steps in this article:
 
 1. Upload an image to a web site or server external of Adobe Workfront. You must be able to access the image using your web browser.
 
-   ``` ```**Tips: **``````
-
-  * Every browser type is different but all are capable of displaying URLs.
-  * Avoid using images that are uploaded to Workfront. Because images stored in Workfront are not publicly available and have an access key that expires after a period of time, these images stop displaying in the view over time.
-  * An image saved on your computer does not have an inherent URL. Find a site that provides image hosting and host your image there. Your organization might already have such a site.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * Every browser type is different but all are capable of displaying URLs.
+   >   * Avoid using images that are uploaded to Workfront. Because images stored in Workfront are not publicly available and have an access key that expires after a period of time, these images stop displaying in the view over time.
+   >   * An image saved on your computer does not have an inherent URL. Find a site that provides image hosting and host your image there. Your organization might already have such a site.
+   >   
+   >
 
 1. Using your web browser, go to the image that you saved.
 1. Obtain the image's URL by doing the following:
 
-  1. Right-click and select **Copy image location**, or **Get link**, depending on your browser. You now have the URL for that specific image and can paste it from your clipboard.
-  1. Ensure that everyone with that link has permissions to view the image by just going to the link and they don't need a login to access it.
+   1. Right-click and select **Copy image location**, or **Get link**, depending on your browser. You now have the URL for that specific image and can paste it from your clipboard.
+   1. Ensure that everyone with that link has permissions to view the image by just going to the link and they don't need a login to access it.
 
 1. Go to a project, click the **More** menu ![](assets/more-icon-45x33.png) next to the name of the project, then click **Edit**. 
 

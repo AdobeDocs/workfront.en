@@ -49,8 +49,7 @@ You must have the following to perform the steps in this article:
 
 1. In the list of forms, make note of the object type of the filter which displays in the **Type** column. For example, "Issue."
 1. On each Custom Form you found in Step 1, create a new Checkbox custom field with a single default value of Yes. For example, Field 1 on Form 1 = Yes, Field 2 on Form 2 = Yes, Field 3 on Form 3 = Yes. This means "The Calculated Custom&nbsp;Field exists on Form 1," or "The Calculated Custom Field exists on Form 2," etc. 
-1. Go to the **Search box** in the upper-right corner of the screen and click the **drop-down menu**, then click&nbsp;**Advanced Search**.  
-
+1. Go to the **Search box** in the upper-right corner of the screen and click the **drop-down menu**, then click&nbsp;**Advanced Search**. 
 1. Click the object of your custom form (for example, Issue), then click&nbsp;**Filter your results**, then click **Add a filter**. 
 1. Start typing the name of a Checkbox field in the **Start typing field name ...** and click it when it displays in the list, then select **Equal** and type "Yes" (without quotation marks) in the following box. For example: Field 1 Equal (Case Sensitive)&nbsp;Yes. 
 1. Click **Add a Filter** and add all Checkbox fields to your Advanced&nbsp;Search.

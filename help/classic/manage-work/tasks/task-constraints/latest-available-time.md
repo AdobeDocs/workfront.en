@@ -24,9 +24,9 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <p>To update the Task Constraint to Latest Available Time:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> Click <strong>Edit Task</strong>. </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Edit Task</strong>.</p> </li>
 <li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
-<li value="4"> <p>Select <strong>Latest Available Time</strong>.</p> <p>  </p> </li>
+<li value="4"> <p>Select <strong>Latest Available Time</strong>.</p> <p> <img src="assets/lat-350x176.png" alt="" style="width: 350;height: 176;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="5">Click <strong>Save Changes</strong>.</li>
 </ol>
 </div>

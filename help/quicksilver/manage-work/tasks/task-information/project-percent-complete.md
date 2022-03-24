@@ -19,7 +19,7 @@ Similarly, the Percent Complete of a project is based on the planned durations o
 >
 >Main tasks are not indented in a project plan.
 
-![](assets/nwe-project-header-with-percent-complete-350x82.png)  
+![](assets/nwe-project-header-with-percent-complete-350x82.png)
 
 ## How Workfront calculates Percent Complete
 

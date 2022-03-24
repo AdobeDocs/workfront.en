@@ -1,4 +1,13 @@
-
+---
+filename: functionality-available-for-each-object-type
+user-type: administrator
+content-type: reference
+product-area: system-administration
+keywords: access,model,funnel,diagram,levels,permissions
+navigation-topic: access-levels
+title: Functionality available for each object type
+description: The following tables lists the functionality available for each object type in the various access levels.
+---
 
 # Functionality available for each object type
 

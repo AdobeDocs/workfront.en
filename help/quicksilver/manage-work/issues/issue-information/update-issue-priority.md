@@ -90,12 +90,17 @@ Refer to the following table to understand each&nbsp;default priority label and 
 ## Update the Priority of an issue
 
 1. Go to the issue whose priority you want to modify.
-1. Click&nbsp;**Issue Details** in the left panel.  ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
+1. Click&nbsp;**Issue Details** in the left panel.
+
+   ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
 
    The **Overview** section should display by default.  
 
-1. 
-   Click the **Priority** field in the **Basic information** area.   ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+1.
+
+   Click the **Priority** field in the **Basic information** area.
+
+   ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
 1. Select a value for the **Priority** field.
 

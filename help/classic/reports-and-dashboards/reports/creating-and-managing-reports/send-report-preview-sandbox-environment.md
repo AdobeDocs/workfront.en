@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 ## Schedule reports in the Preview environment
 
 * [Schedule reports in the Preview environment](#schedule3) 
-* View stored&nbsp;reports in the Preview environment
+* [View stored reports in the Preview environment](#view)
 
 ### Schedule reports in the Preview environment
 
@@ -74,10 +74,18 @@ When you schedule a report for delivery in the Preview environment, the followin
 * When **Receive emails from this test environment** is enabled for the user who is receiving the report, the file that is produced when scheduling the report for delivery is added in the Documents tab of the user.  
   For information about the reports stored in the Preview Sandbox when they are scheduled for delivery see [View stored reports in the Preview environment](#view).
 
-View stored&nbsp;reports in the Preview environment When you enable **Receive emails from this test environment** in the profile of a user in the Preview environment and you schedule a report to be delivered to them, the report is stored on the Documents tab found on the user's profile page. To locate stored reports:
+### View stored&nbsp;reports in the Preview environment
 
-1. Documents
+When you enable **Receive emails from this test environment** in the profile of a user in the Preview environment and you schedule a report to be delivered to them, the report is stored on the Documents tab found on the user's profile page.
+
+To locate stored reports:
+
+1. Click your profile picture in the upper-right corner of the interface.
+1. Select your name from the drop-down menu.
+1. Click the **Documents** tab.
 1. Click the Workfront** Delivered Reports** folder to access your delivered reports.
+
+   ![](assets/classic-workfront-report-folder-in-preview-350x201.png)
 
 ## Schedule reports in the Custom&nbsp;Refresh Sandbox environment
 

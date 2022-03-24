@@ -113,13 +113,13 @@ You can create an interactive proof for your art boards with the Workfront for A
 1. Open your art board, then click **Share** in the top-left area of the screen.
 1. Specify the link settings:
 
-  1. Name the link.
-  1. Choose a view setting.
-  1. In the **Link Access** section, ensure **Anyone with this link** is selected.
+   1. Name the link.
+   1. Choose a view setting.
+   1. In the **Link Access** section, ensure **Anyone with this link** is selected.
 
-     You must enable this type of access in order to generate an interactive proof. 
-  
-  1. Click **Create Link**.
+      You must enable this type of access in order to generate an interactive proof. 
+   
+   1. Click **Create Link**.
 
 1. Click back to **Design** in the top-left area of the screen. Continue to the [Upload an interactive proof](#upload) section below.
 

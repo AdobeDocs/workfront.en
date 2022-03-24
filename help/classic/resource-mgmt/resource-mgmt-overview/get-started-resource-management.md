@@ -25,43 +25,19 @@ Workfront has several sets of tools used to manage resources. Although some of t
 * 
 
   <!--
-  <strong>Legacy Resource Planning</strong>: Refers to organizing your job roles in Legacy Resource Pools which can be managed in the Resource Budget Manager.
-  <br>
-  <note type="important">
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><strong>Legacy Resource Planning</strong>: Refers to organizing your job roles in Legacy Resource Pools which can be managed in the Resource Budget Manager.<br><note type="important">
   The tools associated with Legacy Resource Planning are deprecated. We recommend that you use the tools associated with Resource Planning for your resource management needs.
-  </note>After you have added your job roles to your Legacy Resource Pools, you can then assign one Legacy Resource Pool to your projects and you can configure the availability of job roles per project in the Resource Estimates section of the Business Case. After you have defined the Resource Estimates of a project, you can manage them system-wide in the Capacity Planner of the Legacy Resource Pool.
-  <br>For more information about Legacy Resource Planning, see the section
-  <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md">Legacy Resource Planning</a>.
-  <br>As a
-  <strong></strong> subset of Legacy Resource Planning, you can manage your user allocations by using the
-  <strong>User Utilization</strong> report and the
-  <strong>Resource Grid</strong> within Legacy Resource Planning.
-  <br>For more information about managing user resources, see the section
-  <a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}">Overview of the User Utilization report in the Legacy Resource Management area</a>.
-  <br>
-  <note type="important">
+  </note>After you have added your job roles to your Legacy Resource Pools, you can then assign one Legacy Resource Pool to your projects and you can configure the availability of job roles per project in the Resource Estimates section of the Business Case. After you have defined the Resource Estimates of a project, you can manage them system-wide in the Capacity Planner of the Legacy Resource Pool.<br>For more information about Legacy Resource Planning, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md">Legacy Resource Planning</a>.<br>As a<strong></strong> subset of Legacy Resource Planning, you can manage your user allocations by using the <strong>User Utilization</strong> report and the <strong>Resource Grid</strong> within Legacy Resource Planning.<br>For more information about managing user resources, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}">Overview of the User Utilization report in the Legacy Resource Management area</a>. <br><note type="important">
   Legacy Resource Planning and Resource Planning are two completely separate areas of functionality and must be configured separately. They do not communicate with one another. We recommend that you use the Resource Planning tools for your future resource management needs. The Legacy Resource Planning tools are currently deprecated.
-  </note>
+  </note></p>
   -->
 
   <!--
-  <strong>Legacy Resource Planning</strong>: Refers to organizing your job roles in Legacy Resource Pools which can be managed in the Resource Budget Manager.
-  <br>
-  <note type="important">
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><strong>Legacy Resource Planning</strong>: Refers to organizing your job roles in Legacy Resource Pools which can be managed in the Resource Budget Manager.<br><note type="important">
   The tools associated with Legacy Resource Planning are deprecated. We recommend that you use the tools associated with Resource Planning for your resource management needs.
-  </note>After you have added your job roles to your Legacy Resource Pools, you can then assign one Legacy Resource Pool to your projects and you can configure the availability of job roles per project in the Resource Estimates section of the Business Case. After you have defined the Resource Estimates of a project, you can manage them system-wide in the Capacity Planner of the Legacy Resource Pool.
-  <br>For more information about Legacy Resource Planning, see the section
-  <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md">Legacy Resource Planning</a>.
-  <br>As a
-  <strong></strong> subset of Legacy Resource Planning, you can manage your user allocations by using the
-  <strong>User Utilization</strong> report and the
-  <strong>Resource Grid</strong> within Legacy Resource Planning.
-  <br>For more information about managing user resources, see the section
-  <a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}">Overview of the User Utilization report in the Legacy Resource Management area</a>.
-  <br>
-  <note type="important">
+  </note>After you have added your job roles to your Legacy Resource Pools, you can then assign one Legacy Resource Pool to your projects and you can configure the availability of job roles per project in the Resource Estimates section of the Business Case. After you have defined the Resource Estimates of a project, you can manage them system-wide in the Capacity Planner of the Legacy Resource Pool.<br>For more information about Legacy Resource Planning, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md">Legacy Resource Planning</a>.<br>As a<strong></strong> subset of Legacy Resource Planning, you can manage your user allocations by using the <strong>User Utilization</strong> report and the <strong>Resource Grid</strong> within Legacy Resource Planning.<br>For more information about managing user resources, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}">Overview of the User Utilization report in the Legacy Resource Management area</a>. <br><note type="important">
   Legacy Resource Planning and Resource Planning are two completely separate areas of functionality and must be configured separately. They do not communicate with one another. We recommend that you use the Resource Planning tools for your future resource management needs. The Legacy Resource Planning tools are currently deprecated.
-  </note>
+  </note></li>
   -->
 
 * To schedule or assign resources to actual work (tasks and issues), use the following tools:
@@ -188,9 +164,7 @@ Although you can assign work to a Reviewer or a Requestor, they cannot complete 
 <li> <p>Your must designate a Resource Manager on your projects and they must have the correct access to budget resources when using the Scheduling tools. </p> <p>For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref" xrefformat="{para}">Access needed to budget resources</a>.</p> </li>
 <li> <p>You must assign the tasks and issues in your system to job roles, teams, or users.</p> </li>
 <li>You must specify a valid value for Planned Hours and Duration for all tasks in your system.<br>For information about Planned Hours, see the article <a href="../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref" xrefformat="{para}">Planned Hours overview</a>.<br>For information about Duration, see the article <a href="../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref" xrefformat="{para}">Overview of Task Duration and Duration Type</a>.</li> <!--
-When using the Legacy Resource Planning tools, your projects must include Resource Estimates in the Business Case.
-<br>For information about using Resource Estimates in the Business Case, see the article
-<a href="../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref" xrefformat="{para}">Estimate project resources by applying Legacy Resource Pools to the Business Case </a>
+<li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">When using the Legacy Resource Planning tools, your projects must include Resource Estimates in the Business Case.<br>For information about using Resource Estimates in the Business Case, see the article <a href="../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref" xrefformat="{para}">Estimate project resources by applying Legacy Resource Pools to the Business Case </a></li>
 -->
 </ul>
 </div>

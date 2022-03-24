@@ -162,7 +162,7 @@ This page provides information about functionality for both Adobe Workfront Clas
      <li>Work that is complete, incomplete, overdue, and upcoming</li> 
      <li>Task and issue amounts grouped by status or priority</li> 
      <li>Work effort assigned to each user</li> 
-    </ul> <p>You can make selections on the charts to see different aspects of the tasks and issues in a project and click certain elements to display task information.</p> <p>To learn more, see Overview of project metrics.</p> </td> 
+    </ul> <p>You can make selections on the charts to see different aspects of the tasks and issues in a project and click certain elements to display task information.</p> <p>To learn more, see <a href="../../../manage-work/projects/manage-projects/project-metrics.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Overview of project metrics</a>.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;October 23, 2020</p> <p>Production release:&nbsp;With the 20.4 release</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -282,11 +282,11 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ## Workfront Scenario Planner enhancements
 
-Most new features coming to Workfront Scenario Planner release with the 20.4 release. For information about these new features now available in Preview, see Workfront Scenario Planner with the 20.4 release - October 14, 2020.
+Most new features coming to Workfront Scenario Planner release with the 20.4 release. For information about these new features now available in Preview, see [Workfront Scenario Planner with the 20.4 release - October 14, 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md).
 
 ## Workfront Goals enhancements
 
-Most new features coming to Workfront Goals release with the 20.4 release. For information about these new features now available in Preview, see Workfront Goals with the 20.4 release.
+Most new features coming to Workfront Goals release with the 20.4 release. For information about these new features now available in Preview, see [Workfront Goals with the 20.4 release](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md).
 
 ## Workfront Fusion enhancements
 
@@ -302,7 +302,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-For information about what's new and updated, see What's new in API version 12.
+For information about what's new and updated, see [What's new in API version 12](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm).
 
 For more information about API versions, see [API versioning and support schedule](../../../wf-api/api/api-version-support-schedule.md)
 

@@ -43,15 +43,18 @@ You can configure stories to be estimated either using points or hours.
 
 To configure how stories are estimated for your agile team:
 
-1. People
-1. Teams
+1. Go to the&nbsp;**People**&nbsp;area, then click the&nbsp;**Teams**&nbsp;tab.
+
 1. Select the agile&nbsp;team that you want to manage.
 1. Click the&nbsp;**Team Settings**&nbsp;link in the top-right corner.
-1. ![](assets/team-settings-350x56.png)   
+
+   ![](assets/team-settings-350x56.png)
 
 1. In the&nbsp;**Agile**&nbsp;section, in the&nbsp;**Estimate Stories** in&nbsp;area,&nbsp;select whether you want to use points or hours for estimating the size (work load) of stories. If you select&nbsp;Points,&nbsp;specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
 
    ``` ```**Example: **``````If you have selected to estimate stories in points and 1 point equals 8 hours, and&nbsp;a story is estimated at 3 points, 24 Planned Hours are added to the story.
+
+   ![](assets/schedule-in-team-settings-350x221.png)
 
 1. Click&nbsp;**Save Changes**.
 
@@ -68,18 +71,21 @@ You can define the statuses that exist on the story board for the agile team. Th
 
 To define the statuses that are available for the story board associated with&nbsp;the agile team:
 
-1. People
-1. Teams
+1. Go to the **People**&nbsp;area, then click the **Teams**&nbsp;tab.
+
 1. Select the agile&nbsp;team that you want to manage.
 1. Click on the **Team Settings**&nbsp;link in the top-right corner.
-1. ![](assets/team-settings-350x56.png)
+
+   ![](assets/team-settings-350x56.png)
 
 1. In the **Agile**&nbsp;section, locate the **Story Board**&nbsp;area.
 
 1. (Optional) Click **Add Column** to add an additional status column to the story board.
 1. (Optional) Drag any status column using the drag-and-drop indicator to reorder the status columns on the story board. The first column can't be moved, and you cannot drag another column in front of the first column.
 
-1. Edit
+   ![](assets/agile-card-drag.png)
+
+1. Click the **Edit** icon for the status column you want to configure.
 
 1. Select both task and issue statuses.&nbsp;Task statuses are displayed as the column title for each column on the story board. The issue statuses you select map to the task statuses. This means that when you move an issue to another column of the story board, the issue status changes to the issue statuses shown here, and not to the name of the column on the story board (which reflects the task status).
 
@@ -88,6 +94,8 @@ To define the statuses that are available for the story board associated with&nb
    >Only locked system-wide statuses are available to select; you cannot select group-specific statuses. Also, the status of the first column always corresponds to **New**.
 
    You can add custom statuses if your Workfront administrator has configured them; custom statuses can be configured as described in [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+
+   ![](assets/scrum-350x118.png)
 
    >[!NOTE]
    >
@@ -117,11 +125,12 @@ You can display additional data (including custom data) on story cards.&nbsp;You
 
 To configure story cards that are assigned to the agile team to display additional fields:
 
-1. People
-1. Teams
+1. Navigate to the&nbsp;**People**&nbsp;area, then click the&nbsp;**Teams**&nbsp;tab.
+
 1. Select the agile&nbsp;team that you want to manage.
 1. Click on the&nbsp;**Team Setting**s&nbsp;link in the top-right corner.
-1. ![](assets/team-settings-350x56.png)
+
+   ![](assets/team-settings-350x56.png)
 
 1. In the **Agile** section, click **Add Field**.
 
@@ -137,9 +146,11 @@ By default, story board tiles in an agile iteration are color-coded according to
 
 To change the behavior of how colors are assigned to stories for an agile team:
 
+1. Navigate to the&nbsp;People&nbsp;area, then click the&nbsp;Teams&nbsp;tab.
 1. Select the agile&nbsp;team that you want to manage.
 1. Click the&nbsp;Team Settings&nbsp;link in the upper-right corner.
-1. ![](assets/team-settings-350x56.png)
+
+   ![](assets/team-settings-350x56.png)
 
 1. In the&nbsp;Agile&nbsp;section, in the&nbsp;Associate Card Color to&nbsp;area, select from the following options:
 

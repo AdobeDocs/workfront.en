@@ -14,5 +14,5 @@ The highlighted information on this page refers to functionality not yet general
 
 * [Create a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) 
 * [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) 
-* View and manage subgroup members
+* [View and manage subgroup members](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
 

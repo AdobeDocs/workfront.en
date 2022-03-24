@@ -60,24 +60,38 @@ You can view the task information for a project directly from a list of projects
 
 * Within the Projects tab
 
-* Within a Portfolio
-
-* Within a Program
-
-To view tasks in a project from a list of projects:
-
-1. Go to one of the areas mentioned above.
-   For example, go to the **Projects** area in the Global Navigation Bar, then click the **Projects** tab and select one of the following subtabs:
-
    * Projects I Own
    * Projects I'm On
    * All Projects
 
+* Within a Portfolio
+
+   * Projects tab
+   * Active Projects
+   * Requested Projects
+   * All Projects
+
+* Within a Program
+
+   * Active Projects
+   * All Projects
+
+To view tasks in a project from a list of projects:
+
+1. Go to one of the areas mentioned above.
+
+   For example, go to the **Projects** area in the Global Navigation Bar, then click the **Projects** tab and select one of the following subtabs:
+
+   * **Projects I Own** 
+   * **Projects I'm On** 
+   * **All Projects**
+
    A list of projects displays. 
 
-1. Click the **Gantt chart** icon  in the upper-right corner of the screen.  
+1. Click the **Gantt chart** icon ![](assets/gantt-icon-classic.png) in the upper-right corner of the screen.  
 
 1. Click the **Show Task List** icon.  
+   ![Show_task_list_not_enabled.png](assets/show-task-list-not-enabled-350x141.png)
 
 1. In the project list to the left, click the drop-down arrow next to the name of the project to display any tasks under that project.  
    This displays task information on the Gantt chart.  

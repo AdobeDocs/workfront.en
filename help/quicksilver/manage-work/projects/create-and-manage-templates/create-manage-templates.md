@@ -18,7 +18,7 @@ You can use project templates to capture most of the repeatable processes, infor
 * [Create project templates from examples](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
 
   <!--
-  <a href="../../../administration-and-setup/blueprints/browse-catalog.md" class="MCXref xref" xrefformat="{para}">Browse the blueprints catalog and request installation of blueprints</a>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/blueprints/browse-catalog.md" class="MCXref xref" xrefformat="{para}">Browse the blueprints catalog and request installation of blueprints</a> </li>
   -->
 
 * [Copy a project template](../../../manage-work/projects/create-and-manage-templates/copy-template.md) 

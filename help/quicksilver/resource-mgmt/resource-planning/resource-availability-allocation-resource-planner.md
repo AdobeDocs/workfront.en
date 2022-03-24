@@ -61,28 +61,32 @@ Consider the following when changing your view to the Resource Planner:
 
 * When you apply the **View by Project** or**View by Role** views, you can see the following columns:
 
-  * Available Hours, FTE, or Cost
-  * Planned Hours, FTE, or Cost
-  * Budgeted Hours, FTE, or Cost
-  * Hours, FTE, or Cost Variance
-  * Net Hours, FTE, or Cost
+   * Available Hours, FTE, or Cost
+   * Planned Hours, FTE, or Cost
+   * Budgeted Hours, FTE, or Cost
+   * Hours, FTE, or Cost Variance
+   * Net Hours, FTE, or Cost
 
 * When you apply the **View by User** view, you can see the following columns:
 
-  * Available Hours or FTE 
-  * Planned Hours or FTE 
-  * Hour or FTE Difference 
-  * Planned Hours Allocation Percentage
+   * Available Hours or FTE 
+   * Planned Hours or FTE 
+   * Hour or FTE Difference 
+   * Planned Hours Allocation Percentage
 
-``` ```**Tips: **``````  The information is not available as Cost when applying the **View by User** view to the Resource Planner.
+>[!NOTE]
+>
+>The information is not available as Cost when applying the **View by User** view to the Resource Planner.
+>
+>For more information about what each column displays, mouse over the name of the column in which the number is displayed.  
+>![Net_hours_res_planner_mouse_over.png](assets/net-hours-res-planner-mouse-over-350x95.png)  
 
-For more information about what each column displays, mouse over the name of the column in which the number is displayed.  
-![Net_hours_res_planner_mouse_over.png](assets/net-hours-res-planner-mouse-over-350x95.png)
-
-For more information about the data displayed in each column, see the following articles:
-
-* [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md) 
-* [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+>
+>For more information about the data displayed in each column, see the following articles:
+>
+>* [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md) 
+>* [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) 
+>
 
 ## View information by Hour, FTE, or Cost
 
@@ -124,9 +128,9 @@ For more information about the data displayed in each column, see the following 
 
 1. In the **View type** column on the left, select one of the following views:
 
-  * Project 
-  * Role
-  * User
+   * Project 
+   * Role
+   * User
 
 1. In the **Display selected items** section, select the type of information you want to display in the columns of the selected view.&nbsp;The following table shows what options are available in each view:
 

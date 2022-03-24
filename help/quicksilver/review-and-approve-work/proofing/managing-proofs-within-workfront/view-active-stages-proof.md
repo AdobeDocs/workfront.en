@@ -41,5 +41,5 @@ You must have the following access to perform the steps in this article:
 
 ## View active stages on a proof
 
-1. Proofing Workflow
+1. Hover over the document that contains the proof you want to view, then select **Proofing Workflow** to view the proof stages.
 

@@ -133,7 +133,7 @@ After you add the connector to your existing project structure and configure the
    >
    >Workfront recommends creating a Workfront administrator dedicated solely to your AEM integration. For more information about assigning the Workfront administrator access level to a user, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-1. Setup.
+1. Go to the Setup area in the Global Navigation Bar, click&nbsp;**Setup.**
 1. Click&nbsp;**Documents**>&nbsp;**Custom Integration.**
 
 1. Click **Add Custom Integration**.

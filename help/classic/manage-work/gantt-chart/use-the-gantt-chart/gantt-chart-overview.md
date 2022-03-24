@@ -14,7 +14,7 @@ This section contains the following articles:
 * 
 
   <!--
-  <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/gantt-feature-availability.md" class="MCXref xref" xrefformat="{para}">Gantt Chart feature availability </a>
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/gantt-chart/use-the-gantt-chart/gantt-feature-availability.md" class="MCXref xref" xrefformat="{para}">Gantt Chart feature availability </a> </p>
   -->
 
 * [Configure how information displays on the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md) 

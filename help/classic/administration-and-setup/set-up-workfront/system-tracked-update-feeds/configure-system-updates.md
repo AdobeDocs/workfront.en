@@ -64,7 +64,7 @@ You can add fields you want Workfront to track for a particular type of object t
 >
 >You can track up to 300 built-in and custom fields in the update feeds. If you are tracking the maximum number of fields and want to track additional fields that are not displayed in the All Fields Sub-tab, you must first remove some of the tracked fields in order to track new fields. For more information about removing fields from the update fields, see see [Remove fields that you don't want tracked](#removing-fields-from-the-update-feeds).
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the panel on the left, click **Interface** > **Update Feeds**.  
 
 1. ​Click **Add Fields**, then click the object that you want to be tracked.  
@@ -87,7 +87,7 @@ You can add fields you want Workfront to track for a particular type of object t
 
 You can remove fields you do not want the system to track for a particular type of object throughout the Workfront interface.
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Interface** > **Update Feeds**.  
 
 1. On the **Tracked Fields** tab, select the **All Fields** sub-tab.
@@ -173,7 +173,7 @@ For example, you can have Workfront record an update every time a user changes a
 
 To configure which actions you want Workfront to track:
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Interface** > **Update Feeds**.  
 
 1. Click the **Actions** tab.  

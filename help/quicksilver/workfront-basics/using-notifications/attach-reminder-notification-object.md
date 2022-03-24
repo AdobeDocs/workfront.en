@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 ## Attach reminder notifications to an object
 
 1. Go to the object where you want to attach the reminder notification.
-1. 
+1. Click the Edit icon ![](assets/edit-icon.png).
 1. In the left panel of the **Edit** box that appears, click **Settings**.
 
 1. Under **Reminder Notification**, select the notifications that you want to attach to the object.

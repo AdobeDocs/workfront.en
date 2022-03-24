@@ -26,6 +26,8 @@ The Actual Completion&nbsp;Date of a project is set in the following ways:
 >
 >The Workfront administrator or a group administrator determines whether Workfront uses today's date or the Planned Completion Date of a task or an issue when these are set to Complete or Closed. For information about setting task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
+![](assets/acd-350x196.png)
+
 The value for the Actual Completion Date is always what is considered the current date and time.
 
 >[!NOTE]

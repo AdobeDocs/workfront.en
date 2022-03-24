@@ -61,18 +61,30 @@ You must have the following access to perform the steps in this article:
 1. Hover over the text mode area, and click **Click to edit text**.
 1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
    <pre>displayname=Task Name<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
-   ``` ```**Tips: **``````  You can use similar code for other objects by doing adjusting the following:
 
-   * Replace the **valuefield** line of the code with **valueexpression** and keep the same name included in curly brackets after the equal sign.
-
-   * Eliminate all the lines that start with    
-   
-     ```   
-     link.
-     ```   
-   
-     from the original text of the column. For example, eliminate all the following lines:
-     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
+   >[!NOTE]
+   >
+   >You can use similar code for other objects by doing adjusting the following:
+   >
+   >   
+   >   
+   >   * Replace the **valuefield** line of the code with **valueexpression** and keep the same name included in curly brackets after the equal sign.
+   >   
+   >   
+   >
+   >   
+   >   
+   >   * Eliminate all the lines that start with    >   
+   >   
+   >     ```   >   
+   >     link.
+   >     ```   >   
+   >   
+   >     from the original text of the column. For example, eliminate all the following lines:
+   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
+   >   
+   >   
+   >
 
 1. Click **Save**, then **Save View**.
 

@@ -38,7 +38,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Edit task finances on the Task Details tab
+
+## Edit task finances on the Task Details tab
 
 1. Go to a project where you want to view a task.
 
@@ -46,11 +47,11 @@ Edit task finances on the Task Details tab
    >
    >To find a task, you can also search for it, and click the name to access the task. For more information on searching for objects in Workfront, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
-1. Click the **Tasks** tab. 
+1. Click the **Tasks** tab.
 1. Click the name of a task that you want to view.
 1. Click **Task Details**.
-1. Click the **Finance** subtab to access the task financial information. 
-1. Review or click&nbsp;**Edit Finance** to edit information in the Finance subtab.  
+1. Click the **Finance** subtab to access the task financial information.
+1. Review or click&nbsp;**Edit Finance** to edit information in the Finance subtab. 
 1. Review or edit the following information in the **Finance** subtab : 
 
    <table cellspacing="0"> 

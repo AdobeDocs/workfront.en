@@ -55,16 +55,23 @@ Updating the Commit Date is identical for tasks and issues.
 
    Or
 
-   Click **Start Task** or **Start Issue** if the **Work On It** button has been customized in your environment to indicate that you are now working on the work item. 
-   The **Due on** date on the Details panel is replaced by the **This will be done by** or Commit Date. At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.
+   Click **Start Task** or **Start Issue** if the **Work On It** button has been customized in your environment to indicate that you are now working on the work item.
 
-1. (Optional)&nbsp;If you clicked Start Task or Start Issue in the details panel, click the **Actually, I'm not ready to start**.&nbsp;The This will be done by is replaced by the Due on date on the details panel to indicate that the work item does not have a Commit Date. The work item only has a Planned Completion Date.  For information about replacing the Work On It button with a Start button, see ``` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)```.
+   The **Due on** date on the Details panel is replaced by the **This will be done by** or Commit Date.
+
+   At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.
+
+1. (Optional)&nbsp;If you clicked Start Task or Start Issue in the details panel, click the **Actually, I'm not ready to start**.&nbsp;The This will be done by is replaced by the Due on date on the details panel to indicate that the work item does not have a Commit Date. The work item only has a Planned Completion Date.
+
+   For information about replacing the Work On It button with a Start button, see ``` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)```.
 
    >[!TIP]
    >
-   >The option to undo your selection to start your work is not available when you click Work On It.
+   >The option to undo your selection to start your work is not available when you click ```Work On It```.
 
-1. Expand the **This will be done by** date picker, and select a new Commit Date. 
+1. Expand the **This will be done by** date picker, and select a new Commit Date.
+
+   ![](assets/commit-date-select-another.png)
 
    The following things happen after making this change:&nbsp;
 

@@ -34,7 +34,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * When you share a project, all the tasks, issues, and documents inherit the same permissions, unless otherwise specified.
 
-  For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the Access section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
+  For information about managing the access to tasks and issues on the project based on a user's permissions to the project, see the [Access](../../manage-work/projects/manage-projects/edit-projects.md#access) section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
   The Workfront administrator can specify whether documents should inherit permissions from higher objects in the user's access level. For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -107,7 +107,7 @@ You can share a project in the following ways:
 <p>To configure the default permissions that are included with each access level:</p>
 <ol>
 <li value="1">Go to the project where you want to set the default permissions.</li>
-<li value="2"> <p>Click <strong>Edit Project</strong></p>  <img src="assets/screen-shot-2013-09-24-at-3.15.25-pm-350x70.png" alt="" style="width: 350;height: 70;">  </li>
+<li value="2"> <p>Click <strong>Edit Project</strong></p> <p data-mc-conditions="QuicksilverOrClassic.Classic"> <img src="assets/screen-shot-2013-09-24-at-3.15.25-pm-350x70.png" alt="" style="width: 350;height: 70;"> </p> </li>
 <li value="3">Click <strong>Access</strong> in the list on the left.</li>
 <li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#understanding-project-permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
 The

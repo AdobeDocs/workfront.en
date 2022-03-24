@@ -110,13 +110,15 @@ Consider the following when viewing the Resource Budgeting section of the Busine
 
 * You can budget resource information here using the following tools:
 
-  * The Resource Planner
+   * The Resource Planner
 
-    For information, see [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md). 
-  
-  * The Scenario Planner , if your company has purchased an additional license for Adobe Scenario Planner 
-  * For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md). 
-  * This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     For information, see [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md). 
+   
+   * The Scenario Planner , if your company has purchased an additional license for Adobe Scenario Planner
+
+     For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+
+     This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
 * The information displayed here also displays in the system-level Resource Planner ```or  Scenario Planner```.&nbsp;  
 

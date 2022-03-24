@@ -62,9 +62,11 @@ Keep the following in mind when enabling email queue settings:
 * Workfront allows one unique email per request queue across all clusters. If you choose to disable your request queue, you'll retain the email address you created as long as it is still in the Intake Email Address box. If you choose to discontinue use of the intake email, you must delete it from the Intake Email Field so it can be available for future use.
 
 1. Go to the project that you want to enable to receive issues via email.
-1. Click the **More** drop-down list, then click **Queue Setup**.  ![](assets/email-project-350x220.png)
+1. Click the **More** drop-down list, then click **Queue Setup**.
 
-1. Select the **Queue Details** sub-tab. 
+   ![](assets/email-project-350x220.png)
+
+1. Select the **Queue Details** sub-tab.
 1. In the **Queue Type** area, select **Publish as Help Request Queue**.
 
 1. Scroll down to the **Email Queue Settings** area, then select **Enable Request intake via email**.

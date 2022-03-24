@@ -116,13 +116,13 @@ You can grant the following permissions:
 
 1. In the **Profile Details**section:
 
-  1. In the **Name**field, specify a name for the custom profile.&nbsp;
-  1. Select&nbsp;**Enable profile.** ![Screenshot_2018-04-06_12-25-09.png](assets/screenshot-2018-04-06-12-25-09.png)
+   1. In the **Name**field, specify a name for the custom profile.&nbsp;
+   1. Select&nbsp;**Enable profile.** ![Screenshot_2018-04-06_12-25-09.png](assets/screenshot-2018-04-06-12-25-09.png)
 
 1. In the&nbsp;**Module permissions**section:
 
-  1. Select permissions for&nbsp;**Basic access.**
-  1. &nbsp;**Data administration.**For more information, see&nbsp; [Module Permissions](#module-permissions)
+   1. Select permissions for&nbsp;**Basic access.**
+   1. &nbsp;**Data administration.**For more information, see&nbsp; [Module Permissions](#module-permissions)
 
 1. In the&nbsp;**Administrative permissions**section, select permissions for administrative functions.
 
@@ -145,14 +145,14 @@ You can grant the following permissions:
 
 1. Click the **More**drop-down menu, then click either of the following options, depending on whether you want to enable or disable the profile:&nbsp;&nbsp;
 
-  * **Enable profiles:**The profile becomes active and visible in the Workfront Proof menus.
-  * **Disable profiles:** A&nbsp;confirmation box appears. Select&nbsp;**Yes**to confirm. The profile becomes inactive and is removed from the Workfront Proof menus.
+   * **Enable profiles:**The profile becomes active and visible in the Workfront Proof menus.
+   * **Disable profiles:** A&nbsp;confirmation box appears. Select&nbsp;**Yes**to confirm. The profile becomes inactive and is removed from the Workfront Proof menus.
 
-    >[!NOTE]
-    >
-    >A disabled profile can no longer be assigned to users in the account. If users with that profile exist in the account, select a different profile for them before the profile is disabled.
+     >[!NOTE]
+     >
+     >A disabled profile can no longer be assigned to users in the account. If users with that profile exist in the account, select a different profile for them before the profile is disabled.
 
-    ![Screenshot_2018-04-06_12-30-07.png](assets/screenshot-2018-04-06-12-30-07.png)
+     ![Screenshot_2018-04-06_12-30-07.png](assets/screenshot-2018-04-06-12-30-07.png)
 
 ## Copying a Profile
 

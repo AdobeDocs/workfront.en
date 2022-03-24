@@ -42,13 +42,13 @@ You must have the following:
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li>  
-     <p>Filters, Views, and Groupings</p>  
-    </ul> <span>Edit access to Filters, Views, and Groupings when building or editing filters</span>  <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+     <li> <p>Issues</p> </li> 
+     <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filters, Views, and Groupings</p> </li> 
+    </ul> <p xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Edit access to Filters, Views, and Groupings when building or editing filters</span> </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, issues,<span data-mc-edit-date="2021-08-31T17:08:19.1487558-04:00" data-mc-editor="alinaw" data-mc-comment="drafted, yellow" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2021-08-31T17:08:16.2246621-04:00">filters</span></p> Manage permissions to the filters you want to edit or delete <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects, tasks, issues<span xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">,<span data-mc-edit-date="2021-08-31T17:08:19.1487558-04:00" data-mc-editor="alinaw" data-mc-comment="drafted, yellow" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2021-08-31T17:08:16.2246621-04:00">filters</span></span></p> <p xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Manage permissions to the filters you want to edit or delete</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -146,29 +146,29 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
 1. Click **New filter**, then do the following:
 
-  1. Select a field name in the first drop-down menu or click **Search All Fields** to start typing the name of a field that does not display by default and select it.
+   1. Select a field name in the first drop-down menu or click **Search All Fields** to start typing the name of a field that does not display by default and select it.
 
-     >[!IMPORTANT]
-     >
-     >When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see ``` [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)``` ```.```
+      >[!IMPORTANT]
+      >
+      >When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see ``` [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)``` ```.```
 
-  1. (Conditional) If you clicked **Search All Fields**, type the name of a field in the **Search** field and select it when it displays in the list.
+   1. (Conditional) If you clicked **Search All Fields**, type the name of a field in the **Search** field and select it when it displays in the list.
 
-     ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
+      ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
-     ``` ```**Tip: **`````` You can select a field from the following sections:
+      ``` ```**Tip: **`````` You can select a field from the following sections:
 
-    * **Suggested fields**: the fields most commonly used.
-    * **Recent selections**: the fields you have recently filtered for.
+      * **Suggested fields**: the fields most commonly used.
+      * **Recent selections**: the fields you have recently filtered for.
 
-  1. Select a modifier from the second drop-down menu.
-  1. Select or type a value for the field you are filtering for. 
-  
-     ``` ```**Example: **`````` When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio:&nbsp;name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
+   1. Select a modifier from the second drop-down menu.
+   1. Select or type a value for the field you are filtering for. 
+   
+      ``` ```**Example: **`````` When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio:&nbsp;name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
 
-     ![](assets/portfolio-name-filter-statement-wb-350x262.png)
+      ![](assets/portfolio-name-filter-statement-wb-350x262.png)
 
-  1. (Optional)&nbsp;Click the **Delete** icon ![](assets/delete.png) to remove a filter criteria.
+   1. (Optional)&nbsp;Click the **Delete** icon ![](assets/delete.png) to remove a filter criteria.
 
 1. (Optional) Click **Add filter** to add another filter criteria, then repeat the actions from step 4. 
 1. Click&nbsp;**Apply** to apply the results of the filter to the selected Workload Balancer area without saving it.
@@ -225,13 +225,13 @@ You can duplicate and edit a filter to create a new one.
 
 1. Edit the following information for the duplicated filter:
 
-  * Name
+   * Name
 
-    By default, the new filter name is "<Original filter name> Copy."
-  
-  * Icon
-  * Description
-  * Any of the fields, modifiers, or values.
+     By default, the new filter name is "<Original filter name> Copy."
+   
+   * Icon
+   * Description
+   * Any of the fields, modifiers, or values.
 
 1. (Optional)&nbsp;Click&nbsp;**Add filter** to add more statements to the duplicated filter. 
 1. Click **Save** to save the duplicated filter in the **My filters** area.
@@ -261,9 +261,9 @@ You can edit a saved filter in the Workload Balancer.
 
 1. Do one of the following:
 
-  * Modify any of the filter statements
-  * Click&nbsp;**Add filter** to add new filter statements
-  * Click the **Delete** icon ![](assets/delete.png) to remove existing filter statements.
+   * Modify any of the filter statements
+   * Click&nbsp;**Add filter** to add new filter statements
+   * Click the **Delete** icon ![](assets/delete.png) to remove existing filter statements.
 
 1. (Optional)&nbsp;Click&nbsp;**Apply**.
 
@@ -282,6 +282,7 @@ Consider the following before deleting a filter:
 * You cannot recover deleted filters.
 * You cannot delete predefined filters. 
 * You cannot delete an unsaved filter. They are removed automatically after logging out and logging back in to Workfront. 
+* When you delete a shared filter, it is also deleted for all users that it is shared with. 
 * After you delete all saved filters, the Workload Balancer displays according to the original defaults.&nbsp;
 
 >[!NOTE]
@@ -337,9 +338,9 @@ To share a filter:
 
 1. (Optional) Enable or disable the additional permissions for an entity by doing one of the following:
 
-  1. Click **View** and disable the **Share** option. It is enabled by default.
-  
-  1. Click **Manage** and disable either the **Share** or the **Delete** option. They are enabled by default.
+   1. Click **View** and disable the **Share** option. It is enabled by default.
+   
+   1. Click **Manage** and disable either the **Share** or the **Delete** option. They are enabled by default.
 
    >[!TIP]
    >

@@ -19,7 +19,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.
+For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 >[!IMPORTANT]
 >
@@ -40,13 +40,13 @@ To this purpose, you can connect projects as activities (outputs or executed wor
 
 * You can add a project that meets the following criteria to a goal:
 
-  * You must have at least permissions to&nbsp;View it.
+   * You must have at least permissions to&nbsp;View it.
 
-    >[!NOTE]
-    >
-    >If you lose your permissions to view the project after you have attached the project to the goal, you can still see project information on the goal, but you can no longer access the project.
+     >[!NOTE]
+     >
+     >If you lose your permissions to view the project after you have attached the project to the goal, you can still see project information on the goal, but you can no longer access the project.
 
-  * The project must not be in a status of Dead.
+   * The project must not be in a status of Dead.
 
 * You can associate multiple projects with a goal.
 * You can associate the same project with multiple goals. 

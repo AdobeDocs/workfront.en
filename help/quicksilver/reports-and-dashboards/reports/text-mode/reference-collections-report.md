@@ -128,8 +128,7 @@ The view displays task or issue information in a list format, with every line of
 
 To add a collection column in a report view:
 
-1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**. 
-
+1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**.
 1. Click **New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.  
@@ -184,26 +183,26 @@ To add a collection column in a report view:
 
    Do one of the following:
 
-  * Use the following code to build your column:
+   * Use the following code to build your column:
 
-    ```  
-    valueformat=HTML<br>textmode=true<br>type=iterate<br>listdelimiter=<p><br>displayname=Project Tasks Names<br>listmethod=nested(tasks).lists<br>valuefield=name
-    ```
+     ```   
+     valueformat=HTML<br>textmode=true<br>type=iterate<br>listdelimiter=<p><br>displayname=Project Tasks Names<br>listmethod=nested(tasks).lists<br>valuefield=name
+     ```
 
-  * Use the following code to display a list of issues in the report:
+   * Use the following code to display a list of issues in the report:
 
-    ```  
-    displayname=Project Issues Names<br> listdelimiter=<p><br>listmethod=nested(issues).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML
-    ```  
-  
-    Notice that in a collection you must use **issues** for the&nbsp;**listmethod** line, instead of **opTasks** which is the database name for Issues. For information about when to use **issue** and when to use **opTask** when referring to issues, see [Use "opTask" and "issue" when referencing issues](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
-  
-  * If you&nbsp;want to display a list of the tasks in a project report along with their primary assignee, you would use a&nbsp;**valueexpression**&nbsp;line for referencing the names of the tasks adjacent to the names of their primary assignees instead of **valuefield**.  
-    Use the following code to build your column:
+     ```   
+     displayname=Project Issues Names<br> listdelimiter=<p><br>listmethod=nested(issues).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML
+     ```   
+   
+     Notice that in a collection you must use **issues** for the&nbsp;**listmethod** line, instead of **opTasks** which is the database name for Issues. For information about when to use **issue** and when to use **opTask** when referring to issues, see [Use "opTask" and "issue" when referencing issues](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+   
+   * If you&nbsp;want to display a list of the tasks in a project report along with their primary assignee, you would use a&nbsp;**valueexpression**&nbsp;line for referencing the names of the tasks adjacent to the names of their primary assignees instead of **valuefield**.  
+     Use the following code to build your column:
 
-    ```  
-    valueformat=HTML<br>textmode=true<br>type=iterate<br>listdelimiter=<p><br>displayname=Tasks Names - Primary Assignee<br>listmethod=nested(tasks).lists<br>valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
-    ```
+     ```   
+     valueformat=HTML<br>textmode=true<br>type=iterate<br>listdelimiter=<p><br>displayname=Tasks Names - Primary Assignee<br>listmethod=nested(tasks).lists<br>valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
+     ```
 
 1. The following column displays in the project report, listing all tasks in each project alongside their primary assignees:
 
@@ -283,8 +282,7 @@ For example, you can filter for task or issue information in a project report by
 
 To add a reference to a collection&nbsp;in a report filter:
 
-1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**. 
-
+1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**.
 1. Click&nbsp;**New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.  
@@ -340,8 +338,7 @@ For more information about building a filter statement with a collection referen
 
 To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
 
-1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**. 
-
+1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**.
 1. Click&nbsp;**New Report**.
 1. Select the object of your report.
 1. Build a filter with a collection reference as described in&nbsp;the section [Reference a collection in the Filter of a report](#referencing-a-collection-in-a-filter) in this article.

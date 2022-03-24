@@ -45,18 +45,18 @@ You must have the following to perform the steps in this article:
 * You cannot add skip logic to a section break.
 * You can add both display logic and skip logic to a field if the field is:
 
-  * A multiple choice field
-  * Preceded by a multiple choice field
-  * Followed by another field
+   * A multiple choice field
+   * Preceded by a multiple choice field
+   * Followed by another field
 
 * When copying forms with display logic or skip logic, the logic is copied to the new custom form.
 * Keep the following in mind when you create a display rule for a custom form
 
-  * Fields not included in a display logic statement show on a custom form, by default. 
-  * Display logic can be applied to section breaks, as well as custom fields. 
-  * Skip logic can be applied only to custom fields. 
-  * You can create multi-field display logic statements. 
-  * You can apply display rules to existing custom forms.
+   * Fields not included in a display logic statement show on a custom form, by default. 
+   * Display logic can be applied to section breaks, as well as custom fields. 
+   * Skip logic can be applied only to custom fields. 
+   * You can create multi-field display logic statements. 
+   * You can apply display rules to existing custom forms.
 
 ## Create a sample custom form that has display logic
 
@@ -66,14 +66,14 @@ You must have the following to perform the steps in this article:
 
 1. Create the sample custom form:
 
-  1. Click **New Custom Form**, then click **Project** in the drop-down list.
-  
-  1. In the **Form Title** box, type **Sample custom form - Learning display logic and skip logic**.
-  
-  1. Click **Add a Field** in the upper left corner.
-  1. Add a dropdown field called "Issue Field" by clicking **Dropdown**, then typing **Issue field** in the **Label** box.
-  
-  1. Click **Save + Close** in the lower left corner.
+   1. Click **New Custom Form**, then click **Project** in the drop-down list.
+   
+   1. In the **Form Title** box, type **Sample custom form - Learning display logic and skip logic**.
+   
+   1. Click **Add a Field** in the upper left corner.
+   1. Add a dropdown field called "Issue Field" by clicking **Dropdown**, then typing **Issue field** in the **Label** box.
+   
+   1. Click **Save + Close** in the lower left corner.
 
 1. Select the new **Sample custom form - Learning display logic and skip logic** custom form, then click **Edit**. 
 

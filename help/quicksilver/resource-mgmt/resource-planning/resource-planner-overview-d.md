@@ -73,9 +73,9 @@ In order to display accurate information in the Resource Planner, you must meet 
 
 1. In the**View by**&nbsp;drop-down menu, select one of the following views:
 
-  * [View by Project](#view-by-project-subsection)
-  * [View by Role](#view-by-role-subsection)
-  * [View by User](#view-by-user-subsection)
+   * [View by Project](#view-by-project-subsection)
+   * [View by Role](#view-by-role-subsection)
+   * [View by User](#view-by-user-subsection)
 
    By default, the Resource Planner displays in the User view.
 
@@ -139,11 +139,11 @@ Consider the following when selecting the User view in the Resource Planner:&nbs
 * Your permissions to projects and tasks determine what is displayed under the names of the users you see in the User view.   
   The following scenarios exist:&nbsp;
 
-  * When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the **Inaccessible Items** sections. The **Inaccessible Items** sections replace the Project or Task sections in this case.
-  
-  * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
-  * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the **Inaccessible Items** section.  
-    For more information about permissions in Adobe Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   * When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the **Inaccessible Items** sections. The **Inaccessible Items** sections replace the Project or Task sections in this case.
+   
+   * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
+   * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the **Inaccessible Items** section.  
+     For more information about permissions in Adobe Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Unique URL for the User View
 
@@ -156,18 +156,18 @@ Consider the following when generating a unique URL for the User view of the Res
   They must have access to view other users in order to view them in the User view of the Resource Planner.&nbsp;
 * The following information is saved when you share the URL with other users:
 
-  * The type of time periods (week, month, quarter).
-  * The filters that you apply.
-  * The type of display (Hours or FTE).&nbsp;
+   * The type of time periods (week, month, quarter).
+   * The filters that you apply.
+   * The type of display (Hours or FTE).&nbsp;
 
 To obtain a unique URL in the User view of the Resource Planner and share it with other users:
 
 1. Go to the Resource Planner and select**View By User**.
 1. (Optional) Select the timeframe by which you want to view the information in the Resource Planner. Select from the following:
 
-  * **Week**
-  * **Month**
-  * **Quarter**
+   * **Week**
+   * **Month**
+   * **Quarter**
 
 1. (Optional) Select whether you want to view the information by **FTE** or **Hours**.  
    ![](assets/rp-hours-or-fte-in-user-view.png)
@@ -183,11 +183,11 @@ To obtain a unique URL in the User view of the Resource Planner and share it wit
 
 1. (Optional) Do the following:
 
-  1. Go to **Reporting**>**Dashboards**>**New Dashboard**>**Add External Page.**
-  
-  1. Paste the link you copied to your clipboard in the **URL** field.
-  1. Click **Save**, then&nbsp;**Save + Close**.   
-     This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
+   1. Go to **Reporting**>**Dashboards**>**New Dashboard**>**Add External Page.**
+   
+   1. Paste the link you copied to your clipboard in the **URL** field.
+   1. Click **Save**, then&nbsp;**Save + Close**.   
+      This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
 
    Or  
    Paste the URL into another application to send it to another user.  
@@ -371,8 +371,8 @@ In the Project and Role views, users could appear listed under the following typ
 * Their primary job role
 * Their secondary job role, in the following scenarios:
 
-  * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
-  * If the user is assigned to tasks in those roles.
+   * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
+   * If the user is assigned to tasks in those roles.
 
 For more information about the&nbsp;**Percentage of FTE Availability**&nbsp;for a job role, see&nbsp; [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -403,22 +403,22 @@ These columns change depending on which view you apply to the Resource Planner:
 
 * When you apply the **View by Project** or**View by Role** views, you can see the following columns:
 
-  * Available&nbsp;Hours, FTE, or Cost
-  * Planned&nbsp;Hours, FTE, or Cost
-  * Budgeted&nbsp;Hours, FTE, or Cost
-  * Hours, FTE, or Cost Variance
-  * Net&nbsp;Hours, FTE, or Cost
+   * Available&nbsp;Hours, FTE, or Cost
+   * Planned&nbsp;Hours, FTE, or Cost
+   * Budgeted&nbsp;Hours, FTE, or Cost
+   * Hours, FTE, or Cost Variance
+   * Net&nbsp;Hours, FTE, or Cost
 
 * When you apply the **View by User** view, you can see the following columns:
 
-  * Available Hours or FTE 
-  * Planned Hours or FTE 
-  * Hour or FTE Difference 
-  * Planned Hours Allocation Percentage&nbsp;
+   * Available Hours or FTE 
+   * Planned Hours or FTE 
+   * Hour or FTE Difference 
+   * Planned Hours Allocation Percentage&nbsp;
 
-    >[!TIP]
-    >
-    >The information is not available as Cost when applying the **View by User** view to the Resource Planner.
+     >[!TIP]
+     >
+     >The information is not available as Cost when applying the **View by User** view to the Resource Planner.
 
 The hours for each column are distributed for the Duration of the tasks on the project.
 
@@ -526,22 +526,22 @@ To display the allocation of users in a chart in the Resource Planner:
    ![RP_user_allocation_chart.png](assets/rp-user-allocation-chart.png)  
    The following information is displayed:
 
-  * **Availability % with no overallocation for all users**: this is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time.&nbsp;
-  * **Overallocation % for all users**: this is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.
+   * **Availability % with no overallocation for all users**: this is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time.&nbsp;
+   * **Overallocation % for all users**: this is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.
 
-    >[!TIP]
-    >
-    >An overallocation happens when the Planned Hours are higher than the Available Hours.&nbsp;
+     >[!TIP]
+     >
+     >An overallocation happens when the Planned Hours are higher than the Available Hours.&nbsp;
 
-  * **Underutilization % for all users**: this is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.
+   * **Underutilization % for all users**: this is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.
 
-    >[!TIP]
-    >
-    >Underutilization happens when the Planned Hours are lower than the Available Hours.&nbsp;
+     >[!TIP]
+     >
+     >Underutilization happens when the Planned Hours are lower than the Available Hours.&nbsp;
 
-  * **There is an overallocation for at least one user during this time period**: this indicates that there is an overallocation for at least one user in a time period, although the total amount of time of all users is not overallocated for the time period.  
-    You must scroll through the list of users and the hours for the user who is overallocated are highlighted in red.  
-    ![RP__user_allocation_chart_Dec._7__2017.png](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
+   * **There is an overallocation for at least one user during this time period**: this indicates that there is an overallocation for at least one user in a time period, although the total amount of time of all users is not overallocated for the time period.  
+     You must scroll through the list of users and the hours for the user who is overallocated are highlighted in red.  
+     ![RP__user_allocation_chart_Dec._7__2017.png](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
 
 1. (Optional) Click the **Overallocation % for all users** area in the chart.  
    All users that are overallocated are highlighted in red.
@@ -572,9 +572,9 @@ To export the information in the Resource Planner:
 
 1. ```Specify the following:```
 
-  * ```**Start Date**: Indicates the start date of your export. The exported file contains allocation and availability information starting with the date specified here. ``` 
-  * ```**Number of Periods**: Indicates how many time periods you want to include in your report. The default is four periods, which is also the maximum number of time periods that you can include in an export. ``` 
-  * ```**Type**: Indicates whether you are exporting information displayed by weeks, months, or quarters. ```
+   * ```**Start Date**: Indicates the start date of your export. The exported file contains allocation and availability information starting with the date specified here. ``` 
+   * ```**Number of Periods**: Indicates how many time periods you want to include in your report. The default is four periods, which is also the maximum number of time periods that you can include in an export. ``` 
+   * ```**Type**: Indicates whether you are exporting information displayed by weeks, months, or quarters. ```
 
 1. ```Click **Export**to downloads an Excel (.xlsx) file to your computer. ```   
    ```Or```   

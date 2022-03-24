@@ -58,21 +58,22 @@ To convert financial values between currencies when working with reports:
 1. Go to the report where you want to convert financial values to a different currency.
 1. Click the **View** drop-down list, click **Change Currency**, then select one of the following currencies that you want to display financial values in:
 
-  * Project's Original&nbsp;Currency
-  * Any of the other currencies
+   * Project's Original&nbsp;Currency
+   * Any of the other currencies
 
-    >[!TIP]
-    >
-    >You can choose only currencies previously selected in Setup.
+     >[!TIP]
+     >
+     >You can choose only currencies previously selected in Setup.
 
    Using this option allows you to quickly convert financial values in a report between rate values.
 
-   ![Change currency](assets/qs-change-currency-2022-350x257.png)  
+   ![Change currency](assets/qs-change-currency-2022-350x257.png)
 
    <!--
    <note type="tip">
    You can also select the Change Currency option to convert financial values in other lists.
    <br>
+   <img src="assets/nwe-change-currency-new-lists-350x219.png" style="width: 350;height: 219;" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
    <br>
    <br>
    </note>
@@ -89,6 +90,8 @@ When you customize the currency at the project level and you want to display inf
 To display two projects with custom currencies in a report:
 
 1. Create two projects with different currencies applied.
+
+   ![](assets/qs-currency-350x217.png)
 
 1. Log hours on both projects.
 
@@ -154,6 +157,8 @@ To in-line edit a financial field in a report:
 1. Click **Report Actions**, then select **Edit**.
 1. Click **Report Settings**.
 1. Click the **Default Currency** drop-down, then select **Project's Original Currency**.
+
+   ![](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Click **Done**.
 

@@ -83,10 +83,10 @@ To create a Workfront Request from Outlook:
 1. Specify the following information:  
    Depending on how the request queue was set up, available fields might vary. For a complete list and description of possible fields, see [Create and submit Adobe Workfront requests](../../manage-work/requests/create-requests/create-submit-requests.md) article.
 
-  * **Subject:** Specify a subject for the request. By default, the email subject is used.
-  * **Description:** Specify a description for the request. By default, the email body is used.
-  * **Documents:** Attach any documents that you want to include in the request. You can attach documents via drag and drop, or by clicking **Select File** and browsing to and selecting the document.  
-    By default, any documents attached to the email are included in the request.
+   * **Subject:** Specify a subject for the request. By default, the email subject is used.
+   * **Description:** Specify a description for the request. By default, the email body is used.
+   * **Documents:** Attach any documents that you want to include in the request. You can attach documents via drag and drop, or by clicking **Select File** and browsing to and selecting the document.  
+     By default, any documents attached to the email are included in the request.
 
 1. Click **Submit Request**.  
    The Request is submitted to Workfront, in the specified request queue.&nbsp;

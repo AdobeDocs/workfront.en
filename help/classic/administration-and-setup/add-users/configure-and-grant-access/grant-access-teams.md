@@ -96,7 +96,7 @@ You must have the following to perform the steps in this article:
 
 1. Click the X to close the **Fine-tune your settings** box.
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. When you are finished, click Save Changes.
+1. When you are finished, click **Save Changes**.
 
 >[!NOTE]
 >

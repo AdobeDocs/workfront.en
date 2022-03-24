@@ -33,8 +33,7 @@ You cannot upload a file using third-party applications such as Google Drive and
 
 ## Upload content to Workfront Library
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select **My Content** in the left panel.
 1. (Optional) To upload content to a folder, navigate to and open the desired folder. 
@@ -46,13 +45,13 @@ You cannot upload a file using third-party applications such as Google Drive and
 
 1. Select the files you want to upload.
 
-  * To drag and drop files located on your workstation, select the file or files you want to upload, then drag and drop the files into the file uploading area.
+   * To drag and drop files located on your workstation, select the file or files you want to upload, then drag and drop the files into the file uploading area.
 
-    >[!NOTE]
-    >
-    >If you are using Internet Explorer as your browser application, you cannot use the drag-and-drop functionality.
+     >[!NOTE]
+     >
+     >If you are using Internet Explorer as your browser application, you cannot use the drag-and-drop functionality.
 
-  * To browse for files, click the **Browse** link, browse to and select the file or files you want to upload, then click **Open**.
+   * To browse for files, click the **Browse** link, browse to and select the file or files you want to upload, then click **Open**.
 
    The Upload new asset area opens
 
@@ -62,10 +61,10 @@ You cannot upload a file using third-party applications such as Google Drive and
 
 1. Add metadata to the processed files.
 
-  * To add metadata to an individual file: Select the file to which you want to add metadata, then add the metadata information to the fields in the Metadata panel.
-  * To bulk-add metadata to multiple files: Select the files to which you want to add metadata, then add metadata information to the fields in the Metadata panel.
+   * To add metadata to an individual file: Select the file to which you want to add metadata, then add the metadata information to the fields in the Metadata panel.
+   * To bulk-add metadata to multiple files: Select the files to which you want to add metadata, then add metadata information to the fields in the Metadata panel.
 
-    The metadata is added to the selected files.
+     The metadata is added to the selected files.
 
    >[!NOTE]
    >

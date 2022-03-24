@@ -39,11 +39,11 @@ To edit a user's Proof Permission Profile:
    >
    >Administrators cannot assign the Billing Administrator profile. You can find a list of Profile changes in the following logs:
    >
-   >  
-   >  
-   >  * The Account activity logs
-   >  * The User's profile log (accessible only to that User) 
-   >  
+   >   
+   >   
+   >   * The Account activity logs
+   >   * The User's profile log (accessible only to that User) 
+   >   
    >
 
 For more information on activity logs, see [Understanding the Workfront Proof Activity Audit Trail](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

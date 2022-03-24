@@ -57,9 +57,9 @@ You must have the following access to perform the steps in this article:
 
    Your password must be at least 8 characters and contain two of the following types of characters:
 
-  * Letters
-  * Numbers
-  * Special characters (i.e. ! @ # $ % etc.)
+   * Letters
+   * Numbers
+   * Special characters (i.e. ! @ # $ % etc.)
 
    Password rules might be more strict than this, depending on configuration settings set by your Workfront administrator.
 

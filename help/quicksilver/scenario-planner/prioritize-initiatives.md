@@ -67,21 +67,21 @@ To update initiative priority:
 1. 
    Click the box to the left of one or more of the initiatives' name and do one of the following:
 
-  * Click the handle to the left of one of the selected initiatives' names, then drag it up or down in the list to change the initiative's priority.
+   * Click the handle to the left of one of the selected initiatives' names, then drag it up or down in the list to change the initiative's priority.
 
-    Workfront displays the number of selected initiatives.
+     Workfront displays the number of selected initiatives.
 
-    ![](assets/multi-select-initiative-number.png)
+     ![](assets/multi-select-initiative-number.png)
 
-  * Click the **Prioritize** box at the bottom of the plan, then choose from the following options:
+   * Click the **Prioritize** box at the bottom of the plan, then choose from the following options:
 
-    * **Top**: Moves the selected initiatives to the top of the initiative list.&nbsp;The selected initiatives are listed first on the plan.
-    * **Bottom**:&nbsp;Moves the selected initiatives to the bottom of the initiative list.&nbsp;The selected initiatives are listed last on the plan.
-    * **Select a number**: Moves the selected initiatives after the initiative you indicate here.
+      * **Top**: Moves the selected initiatives to the top of the initiative list.&nbsp;The selected initiatives are listed first on the plan.
+      * **Bottom**:&nbsp;Moves the selected initiatives to the bottom of the initiative list.&nbsp;The selected initiatives are listed last on the plan.
+      * **Select a number**: Moves the selected initiatives after the initiative you indicate here.
 
-      ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
-    Workfront immediately places the selected initiatives where you indicate and the numbers of all initiatives update accordingly.
+     Workfront immediately places the selected initiatives where you indicate and the numbers of all initiatives update accordingly.
 
 1. Click **Save Plan** to save your changes.
 

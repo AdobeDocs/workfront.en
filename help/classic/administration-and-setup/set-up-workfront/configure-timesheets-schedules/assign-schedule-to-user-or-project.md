@@ -23,8 +23,8 @@ hidefromtoc: true
 
 ## Assign a schedule to projects
 
-1. Projects
-1. Projects
+1. Go to the **Projects** area on the Global Navigation Bar.
+1. Click the **Projects** tab.
 1. Select the project you want to associate with a schedule.
 1. Click **Edit**.
 1. Click **Settings**.

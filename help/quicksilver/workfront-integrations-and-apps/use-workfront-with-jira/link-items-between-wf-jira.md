@@ -144,13 +144,13 @@ To manually link Jira issues to Workfront items:
 
    The following Workfront fields are visible in Jira, by default, in the Workfront right panel:
 
-  * The **Name** of the item: You can access the Workfront item by clicking the name in the panel.&nbsp;
-  * **Project Name** 
-  * The **Status** of the item
-  * The **Priority** of the item
-  * The date on which it was created in Workfront
-  * The **Planned Hours** of the item
-  * The **Reference Number**: You can access the Workfront item by clicking the Reference Number in the panel.
+   * The **Name** of the item: You can access the Workfront item by clicking the name in the panel.&nbsp;
+   * **Project Name** 
+   * The **Status** of the item
+   * The **Priority** of the item
+   * The date on which it was created in Workfront
+   * The **Planned Hours** of the item
+   * The **Reference Number**: You can access the Workfront item by clicking the Reference Number in the panel.
 
 For more information about enabling additional fields to display in the right panel, see [Configure field synchronization between Jira and Workfront Items](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) section in [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). A comment from the Workfront administrator associated with the integration is posted in the **Workfront** tab of the Jira issue to confirm that a new Jira item has been created. The comment contains a link to the Jira issue.
 

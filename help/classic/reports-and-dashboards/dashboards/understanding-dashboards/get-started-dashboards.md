@@ -69,7 +69,8 @@ You can share a dashboard with users in the following ways:
   For more information about creating custom tabs, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
 * Place the dashboards on layout templates which you can share with users.  
-  For more information about sharing dashboards through layout templates, see Create and manage layout templates.
+  For more information about sharing dashboards through layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
 * Print a hard copy of them to share with users.  
   For more information about printing dashboards, see [Print a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
@@ -93,9 +94,8 @@ You can display a dashboard in the following ways:
 
 ## Access a dashboard
 
-1. Go to the **Reporting** area in the **Global Navigation Bar**. 
-
-1. Dashboards
+1. Go to the **Reporting** area in the **Global Navigation Bar**.
+1. Select the **Dashboards** tab.
 1. Select any of the following:
 
    * **My Dashboards**: Dashboards you have built are listed here.
@@ -110,7 +110,8 @@ You can display a dashboard in the following ways:
 1. Click the name of a dashboard to display it.  
    The dashboard displays the information included in the reports, calendars, or external pages that populate it.
 1. (Optional and conditional) Click the **Reload** icon in the upper right of the dashboard to refresh the information on the dashboard.  
-   The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.
+   The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.  
+   ![Screen_Shot_2018-07-17_at_9.52.56_AM.png](assets/screen-shot-2018-07-17-at-9.52.56-am-350x142.png)
 
 ## Delete dashboards
 

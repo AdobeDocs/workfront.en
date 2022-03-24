@@ -92,17 +92,17 @@ You must have the following to perform the steps in this article:
 
    This changes the order in which conditions display in projects, tasks and issues:
 
-  * When a user is editing a project
+   * When a user is editing a project
 
-    ![](assets/change-condition-edit-project-350x96.png)
+     ![](assets/change-condition-edit-project-350x96.png)
 
-  * When a user is changing the condition for a task or issue on the Updates tab:
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-    ![](assets/change-condition-update-comment-350x141.png)
+     ![](assets/change-condition-update-comment-350x141.png)
 
-  * When a user is changing the condition for a task or issue in a list view:
+   * When a user is changing the condition for a task or issue in a list view:
 
-    ![](assets/change-conditions-list-drop-down-only-350x172.png)
+     ![](assets/change-conditions-list-drop-down-only-350x172.png)
 
 1. Click **Save**.
 

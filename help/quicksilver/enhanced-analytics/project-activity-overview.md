@@ -103,10 +103,10 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To change how the projects are sorted, click the **Sort by** menu, then select a new sorting option:
 
-  * **A - Z** 
-  * **Z - A** 
-  * **Planned completion date** 
-  * **Planned start date**
+   * **A - Z** 
+   * **Z - A** 
+   * **Planned completion date** 
+   * **Planned start date**
 
    All other visualizations on the page update to match your sorting selection.
 
@@ -126,8 +126,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 ## Video walk-through
 

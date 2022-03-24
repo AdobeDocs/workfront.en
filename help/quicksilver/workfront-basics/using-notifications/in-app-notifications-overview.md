@@ -49,88 +49,120 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 
 ### **Approvals**
 
-* 
-* 
-* 
-* 
-* 
-*
+* ![](assets/prjneedsapprvl.png)
+
+  Project needs your approval - [sender's name] 
+* ![](assets/icon-taskassngdtoyou.png) Task needs your approval - [sender's name]
+* ![](assets/issue.png) Issue needs your approval - [sender's name]
+* ![](assets/document.png)
+
+  Document needs your approval - [sender's name]
+* ![](assets/proof.png)
+
+  Proof needs your approval - [sender's name]
+* ![](assets/timesheet.png) Timesheet needs your approval - [sender's name]
 
   <!--
-  <img src="assets/portfolio.png"> You need to approve a portfolio
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/portfolio.png"> You need to approve a portfolio</li>
   -->
 
 * [Object name] needs your access approval - [sender's name]
-* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.  
 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-*
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
+
+* ![](assets/timesheet.png) Timesheet approved - [approver's name]
+* ![](assets/timesheet.png) Timesheet rejected - [approver's name]
+* ![](assets/timesheet.png) Timesheet reopened - [opener's name]
+* ![](assets/timesheet.png) Timesheet comment - [commenter's name]
+* ![](assets/document.png)
+
+  Document approval completed - [sender's name]
+* ![](assets/document.png)
+
+  Document approved - [sender's name]
+* ![](assets/document.png)
+
+  Document approved with changes - [sender's name]
+* ![](assets/document.png)
+
+  Document rejected - [sender's name]
+* ![](assets/document.png)
+
+  Document approval request cancelled - [sender's name]
 
 ### **Requests**
 
-* 
-* 
-* 
-* 
+* ![](assets/document.png)
+
+  [user icon] Asked you to upload a document - [requester's name]
+* ![](assets/document.png)
+
+  Document upload request fulfilled - [fulfiller's name]
+* ![](assets/user.png) Request comment - Sender name
+* ![](assets/document.png)
+
+  Document upload request canceled - [sender's name]
 * [Object name] access requested - [sender's name]
-* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
+
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
 
 ### **Assignments**
 
-* 
-* 
-* 
-* 
+* ![](assets/icon-taskassngdtoyou.png) Task assigned to you - [assigner's name]
+* ![](assets/issue.png) Issue assigned to you - [assigner's name]
+* ![](assets/issue.png) Issue assigned to [team name] - [assigner's name]
+* ![](assets/icon-taskassngdtoyou.png) Task assigned to [team name] - [assigner's name]
 *
 
-  * Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).
-  * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
-  * If you assign work to yourself or a team you belong to, you will not receive a notification.
+   * Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).
+   * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
+   * If you assign work to yourself or a team you belong to, you will not receive a notification.
 
 ### **Comments**
 
 * ![](assets/user.png) [Object name] comment - [commenter's name]
-* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.  
+
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
 
 * [Object name] update - [updater's name]
-* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.  
+
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
 
 * [Object name] update - [updater's name]
-* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.  
 
-* 
-* 
-* 
-*
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
+
+* ![](assets/user.png) Liked your comment - [liker's name]
+* ![](assets/timesheet.png) Timesheet comment - [commenter's name]
+* Comment - [commenter's name]
+* ![](assets/user.png) Comment - Commenter name
+* ![](assets/timesheet.png) Timesheet comment - Commenter name
 
 ### **Updates**
 
-* 
-* 
-*
+* ![](assets/user.png) Tagged you in a comment - [tagger's name]
+* ![](assets/user.png) Tagged your team in a comment - [tagger's name]
+* ![](assets/user.png) Tagged your team in a comment - [tagger's name]
 
 ### **Date changes**
 
-* 
-* 
-* 
-*
+* ![](assets/issue.png) Issue due date changed - [changer's name]
+* ![](assets/icon-taskassngdtoyou.png) Task due date changed - [changer's name]
+* ![](assets/issue.png) Issue commit date changed - [changer's name]
+* ![](assets/icon-taskassngdtoyou.png) Task commit date changed - [changer's name]
 
 ### **Share**
 
-* 
-* 
-*
+* ![](assets/document.png)
+
+  Document shared with you - [sharer's name]
+* ![](assets/document.png)
+
+  Document shared with [team name] - [sharer's name]
+* ![](assets/proof.png) Proof shared with you - [sharer's name]
 
 ### **Other**
 
-* 
-*
+* ![](assets/error.png) An error needs your attention
+* ![](assets/announcement.png) Announcement - [Workfront administrator's name]
 

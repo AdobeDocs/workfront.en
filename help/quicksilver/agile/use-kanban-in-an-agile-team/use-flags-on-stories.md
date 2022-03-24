@@ -46,11 +46,10 @@ You must have the following access to perform the steps in this article:
 
 To change a flag on a story:
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
+
 1. Go to the Kanban board where you want to change a flag on a story.
 1. Expand the story tile to view the&nbsp;flag.  
    The flag is set to **On Track** for each story by default.  
@@ -58,13 +57,13 @@ To change a flag on a story:
 
 1. Click the current flag, then select from the&nbsp;following flag options:
 
-  * **On Track:**&nbsp;The story is in the appropriate status and no action needs to be taken at this time.  
-    This is the default flag for each story on the Kanban board.  
-    ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
+   * **On Track:**&nbsp;The story is in the appropriate status and no action needs to be taken at this time.  
+     This is the default flag for each story on the Kanban board.  
+     ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-  * **Is Blocked:**&nbsp;The story cannot proceed to the next status. When this flag is set on a story, the story does not count toward the WIP limit. (For more information about WIP limits, see&nbsp;the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).  
-    ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
+   * **Is Blocked:**&nbsp;The story cannot proceed to the next status. When this flag is set on a story, the story does not count toward the WIP limit. (For more information about WIP limits, see&nbsp;the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).  
+     ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-  * **Ready to Pull:**&nbsp;The story is ready to be moved to the next status by another member of the team.  
-    ![kanban_flag_ready.png](assets/kanban-flag-ready.png)
+   * **Ready to Pull:**&nbsp;The story is ready to be moved to the next status by another member of the team.  
+     ![kanban_flag_ready.png](assets/kanban-flag-ready.png)
 

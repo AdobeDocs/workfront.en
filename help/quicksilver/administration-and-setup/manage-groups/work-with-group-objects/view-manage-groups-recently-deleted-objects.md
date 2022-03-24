@@ -56,11 +56,11 @@ You must have the following to perform the steps in this article:
 1. In the left panel, click **Recently Deleted**.
 1. Open one of the following tabs where you want to view and manage the group's recently deleted items:
 
-  * Projects
-  * Tasks
-  * Issues
-  * Documents
-  * Templates
+   * Projects
+   * Tasks
+   * Issues
+   * Documents
+   * Templates
 
    Each tab lists items of the corresponding object type that belong to the current group or its subgroups and that were deleted within the past 30 days.
 

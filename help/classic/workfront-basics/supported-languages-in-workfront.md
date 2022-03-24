@@ -132,9 +132,10 @@ When changing your User Locale, you modify the language, date, and number format
 To change your User Locale:
 
 1. Click your user profile avatar on the upper right corner of the Workfront interface.
-1. ![my_settings.png](assets/my-settings-350x115.png)
 
-1. My Settings
+   ![my_settings.png](assets/my-settings-350x115.png)
+
+1. Click **My Settings**.
 1. In the **Preferences** section, click the **Locale** drop-down list to select the language that you want Workfront emails to display in.
 
 1. Click **Save Changes**.

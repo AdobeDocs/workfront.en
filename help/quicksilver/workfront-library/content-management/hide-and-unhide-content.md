@@ -39,8 +39,7 @@ When you unhide content, it becomes visible to all users who had access to it pr
 
 ## Hide content
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where item you want to hide is located.
 
@@ -56,9 +55,8 @@ When you unhide content, it becomes visible to all users who had access to it pr
 
 ## Unhide hidden content
 
-1. Main Menu
-1. 
-1. Library
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
+
 1. (Conditional) If you haven't enabled the Show Hidden filter, click the **Filter** icon ![](assets/library-filter-icon.png)in the upper-right corner, then enable the **Show Hidden** toggle at the bottom of the filter list.
 
    >[!TIP]

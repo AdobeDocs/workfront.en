@@ -8,13 +8,31 @@ description: The information you see in the Workfront web application is often d
 
 # Create custom tabs or sections
 
-Adobe Workfront tabs The information you see in the Workfront web application is often displayed in tabs  by default. Each tab contains different information about a Workfront area or object.  
+## Adobe Workfront tabs
+
+The information you see in the Workfront web application is often displayed in tabs  by default. Each tab contains different information about a Workfront area or object.  
 For more information about the default tabs of Workfront, see the article [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 In addition to the tabs that come with Workfront by default, you can create custom tabs on which you can display information relevant to your workflow. You cannot add custom tabs to all areas and objects.
 
 The following table lists all the Workfront areas and objects that contain tabs and which of them can be customized:
-```<col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 549px;">``` ```<col class="TableStyle-TableStyle-HeaderRow-Column-Column1" style="width: 358px;">``` ```<col class="TableStyle-TableStyle-HeaderRow-Column-Column1">``` ```<thead>  <tr class="TableStyle-TableStyle-HeaderRow-Head-Header1">   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"><strong>Workfront area or object</strong> </th>   <th class="TableStyle-TableStyle-HeaderRow-HeadE-Column1-Header1"><strong>Default system tabs</strong> </th>   <th class="TableStyle-TableStyle-HeaderRow-HeadD-Column1-Header1"><strong>Custom tabs</strong> </th>  </tr> </thead>``` ```<tbody>  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Projects</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">✓</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Reporting</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">People</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">&nbsp;</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Requests</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Timesheet</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">&nbsp;</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Portfolios</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Programs</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">✓</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Projects</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">✓</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Tasks</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">&nbsp;✓</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Issues</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="text-align: center;">&nbsp;✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray" style="text-align: center;">&nbsp;✓</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Users</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="text-align: center;">&nbsp;✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray" style="text-align: center;">&nbsp;✓</td>  </tr>  <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">Documents</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="text-align: center;">&nbsp;✓</td>   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray" style="text-align: center;">&nbsp;</td>  </tr> </tbody>```  &nbsp;
+
+| **Workfront area or object** |**Default system tabs** |**Custom tabs** |
+|---|---|---|
+| Projects |✓ |✓ |
+| Reporting |✓ |✓ |
+| People |✓ |&nbsp; |
+| Requests |✓ |✓ |
+| Timesheet |✓ |&nbsp; |
+| Portfolios |✓ |✓ |
+| Programs |✓ |✓ |
+| Projects |✓ |✓ |
+| Tasks |✓ |&nbsp;✓ |
+| Issues |&nbsp;✓ |&nbsp;✓ |
+| Users |&nbsp;✓ |&nbsp;✓ |
+| Documents |&nbsp;✓ |&nbsp; |
+
+&nbsp;
 
 ## Access requirements
 
@@ -46,7 +64,10 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
-Add a custom tab to a Workfront area or object Before you can create a custom tab, you must build a dashboard with all the information you want to display on the tab. You may also build an external page.  
+
+## Add a custom tab to a Workfront area or object
+
+Before you can create a custom tab, you must build a dashboard with all the information you want to display on the tab. You may also build an external page.  
 For more information about building dashboards, see the article [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).  
 For more information about building external pages, see the article [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
@@ -57,26 +78,32 @@ To add a custom tab:
 1. Go to one of the Workfront areas or objects where you can add a custom tab .  
    Or
 1. Go to an object where you can add a custom tab .  
-   For more information about what areas and objects you can add custom tabs  to, see Adobe Workfront tabs .
-1. Click **More**, then **Customize Tabs**.  
+   For more information about what areas and objects you can add custom tabs  to, see [Adobe Workfront tabs](#understa) .
+1. Click **More**, then **Customize Tabs**. 
+1. Click **Add Custom Tab**.  
+   ![customize_tabs.png](assets/customize-tabs-350x247.png)
 
-1. Add Custom Tab
-1. 
-1. 
 1. Specify the name of the tab in the **Tab Label** field.
 
    This is visible only to you.&nbsp;
 
 1. In the **Add a Dashboard****or External Page** field, start typing the name of the dashboard or external page you want to add and click it when it appears in the list.&nbsp;
 
-1. Click**Add Tab.**&nbsp; 
+1. Click**Add Tab.**&nbsp;
 1. (Optional) Drag and drop the tabs in the order in which you would like to display them.
-   You can only display six tabs at a time in one area or within one object. If you have more than six tabs, the rest of the tabs are listed under the&nbsp;**More** drop-down menu. The far left tab is the default tab for the page. 
+
+   You can only display six tabs at a time in one area or within one object.
+
+   If you have more than six tabs, the rest of the tabs are listed under the&nbsp;**More** drop-down menu.
+
+   The far left tab is the default tab for the page.
 
 1. Click **Save Changes**.  
    The tabs you created for objects display when you access all objects of the same type and are available only to you.&nbsp;
 
-Display custom tabs under an object For more information about adding a custom tab under an object, see the section [Add a custom tab to a Workfront area or object](#adding-a-custom-tab) in this article.
+## Display custom tabs under an object
+
+For more information about adding a custom tab under an object, see the section [Add a custom tab to a Workfront area or object](#adding-a-custom-tab) in this article.
 
 When you add a dashboard to a custom tab under an object, the object acts as a filter for the dashboard. For example, if you add a task report on a dashboard and you add the dashboard to a project, the custom tab that contains the dashboard on the project displays only tasks on the project you are viewing.&nbsp;
 
@@ -90,7 +117,11 @@ The following objects are filtered for the object under which they display, if t
 * Document
 
 For more information about the hierarchy and interdependency of objects, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-Customize tabs in a Layout Template When you add custom tabs to your Workfront instance, they are only visible to you.&nbsp;
+
+## Customize tabs in a Layout Template
+
+When you add custom tabs to your Workfront instance, they are only visible to you.&nbsp;
 
 You can customize the tabs in Workfront and share the new layout with several users by using Layout Templates. Only a system or a group administrator can share them with other users by using Layout Templates.&nbsp;
-For more information about customizing tabs using a Layout Template, see the section "Customizing Tabs" in the article [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).  
+
+For more information about customizing tabs using a Layout Template, see the section "Customizing Tabs" in the article [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

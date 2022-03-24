@@ -37,7 +37,7 @@ This feature is now included in the [Administrator Fundamentals in the new Workf
 
 On the Details page for an object, when you are filling in a multi-select drop-down field on a Custom Form, you can click Select All if you need to select all of the available options.
 
-For information about editing data on a Custom Form, see Edit information in custom form fields in Adobe Workfront.
+For information about editing data on a Custom Form, see [Edit information in custom form fields in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ```<iframe class="vimeo-player_0" src="assets/500509190?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -51,7 +51,7 @@ This is especially useful after someone edits data in another object that is ref
 
 Previously, users had to use workarounds to ensure that all data in calculated custom fields was current. For example, they edited the object along with other objects to use the recalculation option that is available for bulk editing.
 
-For more information, see Edit information in custom form fields in Adobe Workfront.
+For more information, see [Edit information in custom form fields in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ```<iframe class="vimeo-player_0" src="assets/486601498?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -65,7 +65,7 @@ For more information, see Edit information in custom form fields in Adobe Workfr
 
 Adobe Workfront administrators can now give Group Administrators more autonomy by unlocking individual task and issue preferences. When a preference is unlocked, Group Administrators can configure it for their groups to serve each group’s unique needs and internal processes.
 
-For more information, see Configure task and issue preferences for a group.
+For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ```<iframe class="vimeo-player_0" src="assets/486598651?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -99,7 +99,7 @@ On the Details page for an object, when you are filling in a Custom Form field c
 
 This option displays only if the field contains more than 2 checkboxes.
 
-For more information, see Edit information in custom form fields in Adobe Workfront.
+For more information, see [Edit information in custom form fields in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ```<iframe class="vimeo-player_0" src="assets/486602711?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -163,7 +163,7 @@ If you are a Group Administrator, it’s easy to view and work with your group�
 
 * Click Projects in the left menu to see the group’s projects and create new ones for the group. If a selected project has been shared with you, you can use the buttons in the toolbar to edit, export, copy, or delete it.
 
-  For more information, see Create and modify a group’s projects.
+  For more information, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 * Click Approvals in the left menu to see and manage all of the approval processes associated with the group.
 
@@ -181,7 +181,7 @@ To determine how well your licenses are distributed, you can now view the number
 
 If you manage a top-level group, you can view both the number of licenses that are used in a group (and its subgroups) and the maximum number of licenses allocated for the group.
 
-For more information, see View the number of licenses allocated and used in a group in the new Adobe Workfront experience.
+For more information, see [View the number of licenses allocated and used in a group in the new Adobe Workfront experience](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
 ```<iframe class="vimeo-player_0" src="assets/481775659?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

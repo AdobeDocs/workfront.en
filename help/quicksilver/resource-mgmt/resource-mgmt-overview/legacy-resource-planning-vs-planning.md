@@ -78,10 +78,10 @@ You can manage your resources in the following ways by using the tools in the Le
 
 * If you assign job roles to work items, you can:
 
-  1. Place&nbsp;job roles that are associated with users in Legacy Resource Pools which are attached to projects. 
-  1. Manage the job role availability&nbsp;to each Legacy Resource Pool in the Resource Budget Manager.  
-     For more information about budgeting Legacy Resource Pools, see Work with Legacy Resource Pools and &nbsp;Budget Legacy Resource Pools in the Resource Budget Manager .
-  1. Manage the job role allocation to projects&nbsp;in the Capacity Planner of the Legacy Resource Pool.Budget Legacy Resource Pools in the Resource Budget Manager For more information about managing resources in the Capacity Planner, see Plan resources in the Capacity Planner and Allocate resources in the Capacity Planner The budgeting information defined in this area also reflects in the Legacy Resource Estimates area of the Business Case, at the project level.&nbsp;
+   1. Place&nbsp;job roles that are associated with users in Legacy Resource Pools which are attached to projects. 
+   1. Manage the job role availability&nbsp;to each Legacy Resource Pool in the Resource Budget Manager.  
+      For more information about budgeting Legacy Resource Pools, see Work with Legacy Resource Pools and &nbsp;Budget Legacy Resource Pools in the Resource Budget Manager .
+   1. Manage the job role allocation to projects&nbsp;in the Capacity Planner of the Legacy Resource Pool.Budget Legacy Resource Pools in the Resource Budget Manager For more information about managing resources in the Capacity Planner, see Plan resources in the Capacity Planner and Allocate resources in the Capacity Planner The budgeting information defined in this area also reflects in the Legacy Resource Estimates area of the Business Case, at the project level.&nbsp;
 
 * If you assign users to work items, you can use&nbsp;the User Utilization report and the Resource Grid to manage the allocation and availability of your users.  
   For more information about user utilization and the User Resource Grid, see Overview of the User Utilization report in the Legacy Resource Management area and Overview of the Resource Grid .

@@ -10,7 +10,9 @@ hidefromtoc: true
 
 # Overview of the Queue Details tab in a project
 
-Overview of the Queue Setup&nbsp;tab You can set up a Request Queue where users can enter occasional&nbsp;requests that are not planned work on a project.
+## Overview of the Queue Setup&nbsp;tab
+
+You can set up a Request Queue where users can enter occasional&nbsp;requests that are not planned work on a project.
 
 For more information about how to create a Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -24,12 +26,14 @@ When adding or modifying features in the Queue Setup area, you&nbsp;impact all f
 
 To customize the Queue Setup tab of a project, you can edit the following subtabs :
 
-* Queue Details. For more information about understanding the information included in the Queue Details, see the section Overview of the Queue Details subtab in this article.
+* Queue Details. For more information about understanding the information included in the Queue Details, see the section [Overview of the Queue Details subtab](#understanding-queue-details-tab) in this article.
 * Routing Rules. For more information about setting up Routing Rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 * Queue Topics. For more information about setting up Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 * Topic Groups. For more information about setting up Topics Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-Overview of the Queue Details subtab You can use Queue Details to configure a project as a Request Queue. Use this&nbsp;tab to manage what kind of information you collect from users on a request form and determine who can access that information.
+## Overview of the Queue Details subtab
+
+You can use Queue Details to configure a project as a Request Queue. Use this&nbsp;tab to manage what kind of information you collect from users on a request form and determine who can access that information.
 
 When configuring the Queue Details &nbsp;tab  in a project, consider the following areas:
 

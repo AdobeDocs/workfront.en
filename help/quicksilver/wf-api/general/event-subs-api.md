@@ -113,105 +113,105 @@ The subscription resource&nbsp;contains the following fields.
 
 * objId (optional)
 
-  * **String** - The ID of the object of the specified objCode for which events are fired. If this field is not specified, the user receives events for all objects of the specified type.
+   * **String** - The ID of the object of the specified objCode for which events are fired. If this field is not specified, the user receives events for all objects of the specified type.
 
 * objCode (required)
 
-  * **String** - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.
+   * **String** - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.
 
-    <table cellspacing="15"> 
-     <col> 
-     <col> 
-     <thead> 
-      <tr> 
-       <th><p>Object</p></th> 
-       <th><p>objCode</p></th> 
-      </tr> 
-     </thead> 
-     <tbody> 
-      <tr> 
-       <td scope="col">Assignment</td> 
-       <td scope="col"><p>ASSGN</p></td> 
-      </tr> 
-      <tr> 
-       <td scope="col">Company&nbsp;</td> 
-       <td scope="col"><p>CMPY</p></td> 
-      </tr> 
-      <tr> 
-       <td scope="col">Dashboard</td> 
-       <td scope="col">PTLTAB</td> 
-      </tr> 
-      <tr> 
-       <td scope="col"><p>Document</p></td> 
-       <td scope="col">DOCU&nbsp;</td> 
-      </tr> 
-      <tr> 
-       <td scope="col"><p>Expense</p></td> 
-       <td scope="col">EXPNS</td> 
-      </tr> 
-      <tr> 
-       <td scope="col"><p>Hour</p></td> 
-       <td scope="col">HOUR</td> 
-      </tr> 
-      <tr> 
-       <td scope="col">Issue</td> 
-       <td scope="col"><p>OPTASK</p></td> 
-      </tr> 
-      <tr> 
-       <td scope="col">Note</td> 
-       <td scope="col">NOTE</td> 
-      </tr> 
-      <tr> 
-       <td scope="col"><p>Portfolio</p></td> 
-       <td scope="col"><p>PORT</p></td> 
-      </tr> 
-      <tr> 
-       <td scope="col"><p>Program</p></td> 
-       <td scope="col"><p>PRGM</p></td> 
-      </tr> 
-      <tr> 
-       <td scope="col"><p>Project</p></td> 
-       <td scope="col"><p>PROJ</p></td> 
-      </tr> 
-      <tr> 
-       <td scope="col"><p>Report</p></td> 
-       <td scope="col"><p>PTLSEC</p></td> 
-      </tr> 
-      <tr> 
-       <td scope="col"><p>Task</p></td> 
-       <td scope="col"><p>TASK</p></td> 
-      </tr> 
-      <tr> 
-       <td scope="col"><p>Template</p></td> 
-       <td scope="col"><p>TMPL</p></td> 
-      </tr> 
-      <tr> 
-       <td scope="col">Timesheet</td> 
-       <td scope="col">TSHET</td> 
-      </tr> 
-      <tr> 
-       <td scope="col">User</td> 
-       <td scope="col">USER</td> 
-      </tr> 
-     </tbody> 
-    </table>
+     <table cellspacing="15"> 
+      <col> 
+      <col> 
+      <thead> 
+       <tr> 
+        <th><p>Object</p></th> 
+        <th><p>objCode</p></th> 
+       </tr> 
+      </thead> 
+      <tbody> 
+       <tr> 
+        <td scope="col">Assignment</td> 
+        <td scope="col"><p>ASSGN</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Company&nbsp;</td> 
+        <td scope="col"><p>CMPY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Dashboard</td> 
+        <td scope="col">PTLTAB</td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Document</p></td> 
+        <td scope="col">DOCU&nbsp;</td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Expense</p></td> 
+        <td scope="col">EXPNS</td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Hour</p></td> 
+        <td scope="col">HOUR</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Issue</td> 
+        <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Note</td> 
+        <td scope="col">NOTE</td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Portfolio</p></td> 
+        <td scope="col"><p>PORT</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Program</p></td> 
+        <td scope="col"><p>PRGM</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Project</p></td> 
+        <td scope="col"><p>PROJ</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Report</p></td> 
+        <td scope="col"><p>PTLSEC</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Task</p></td> 
+        <td scope="col"><p>TASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Template</p></td> 
+        <td scope="col"><p>TMPL</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Timesheet</td> 
+        <td scope="col">TSHET</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">User</td> 
+        <td scope="col">USER</td> 
+       </tr> 
+      </tbody> 
+     </table>
 
 * eventType (required)
 
-  * **String** - A value that represents the type of event to which the object is subscribed. The available event types include:
+   * **String** - A value that represents the type of event to which the object is subscribed. The available event types include:
 
-    * CREATE
-    * DELETE&nbsp;
-    * UPDATE
-    * SHARE
+      * CREATE
+      * DELETE&nbsp;
+      * UPDATE
+      * SHARE
 
 * url (required)
 
-  * **String** - The URL of the endpoint to which subscription event payloads are sent via HTTP.
+   * **String** - The URL of the endpoint to which subscription event payloads are sent via HTTP.
 
 * authToken (required)
 
-  * **String** - The OAuth2 bearer token used to authenticate with the URL specified in the “URL” field.&nbsp;
+   * **String** - The OAuth2 bearer token used to authenticate with the URL specified in the “URL” field.&nbsp;
 
 ## Creating Event Subscription API&nbsp;Requests
 

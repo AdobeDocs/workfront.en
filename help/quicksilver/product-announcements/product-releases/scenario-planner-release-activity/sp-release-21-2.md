@@ -43,8 +43,8 @@ To help you with the strategic planning of your projects and ensure they align w
 
 For information, see the following articles:
 
-* Overview of reconciling resource allocations between projects and initiatives .
-* Navigate the Workload Balancer
+* [Overview of reconciling resource allocations between projects and initiatives](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+* [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 For information, see [Overview of reconciling resource allocations between projects and initiatives](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 

@@ -72,4 +72,36 @@ To set up access and subscription settings for a proof while you are creating it
 
 1. Continue creating your proof.
 
-Configure access and subscription settings for an existing proof To set up access and subscription settings&nbsp;for a proof&nbsp;that already exists in Workfront:  ```<li value="1">Generate the proof (if you have not already done so) as described in the <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md" class="MCXref xref">Generate a proof</a> articles.</li>``` ```<li value="2">In the Documents area, select the document that contains the proof you want to configure settings for,&nbsp;then click <strong>Document Details</strong>.</li>``` ```<li value="3">In the left panel, click <strong>Proofing Viewer Settings</strong>.</li>``` ```<li value="4"> <p>Configure the following settings:<br></p>  <table cellspacing="0">   <col>   <col>   <tbody>    <tr>     <td role="rowheader"><strong>Allow sharing proof via public URL or embed code</strong><strong>e</strong> </td>     <td>When this option is selected, the proof can be shared via a public URL or embed code.</td>    </tr>    <tr>     <td role="rowheader"><strong>Allow subscribing to proof via public URL or embed code</strong> </td>     <td>When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings:     <ul>      <li><p><strong>Subscriber role:</strong>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</p><note type="important">        If         <strong>Allow Sharing With</strong> is set to anything other than         <strong>Everyone</strong> in the Workfront Proof settings, the subscription works only for people within the organization. For more information, see         <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configure Proof Settings in Workfront Proof</a>.       </note></li>      <li><strong>Email alert settings for subscribers:</strong>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>     </ul><p>      <ul>       <li><strong>Proof access via email link required for:</strong>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <strong>No email</strong> (email link is not required to access the proof), <strong>Proof notification email only</strong> (subscriber receives a link to the proof via email without any verification), or <strong>Validation and proof notification emails</strong> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>      </ul><note type="note">       &nbsp;If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.       <br>      </note></p></td>    </tr>   </tbody>  </table> </li>``` ```<li value="5">Click <strong>Save</strong>.</li>``` 
+## Configure access and subscription settings for an existing proof
+
+To set up access and subscription settings&nbsp;for a proof&nbsp;that already exists in Workfront:
+
+1. Generate the proof (if you have not already done so) as described in the [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md) articles.
+1. In the Documents area, select the document that contains the proof you want to configure settings for,&nbsp;then click **Document Details**.
+1. In the left panel, click **Proofing Viewer Settings**.
+1. Configure the following settings:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Allow sharing proof via public URL or embed code</strong><strong>e</strong> </td> 
+      <td>When this option is selected, the proof can be shared via a public URL or embed code.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Allow subscribing to proof via public URL or embed code</strong> </td> 
+      <td>When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings:
+       <ul>
+        <li><p><strong>Subscriber role:</strong>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</p><p>Important: If <strong>Allow Sharing With</strong> is set to anything other than <strong>Everyone</strong> in the Workfront Proof settings, the subscription works only for people within the organization. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configure Proof Settings in Workfront Proof</a>.</p></li>
+        <li><strong>Email alert settings for subscribers:</strong>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
+       </ul><p>
+        <ul>
+         <li><strong>Proof access via email link required for:</strong>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <strong>No email</strong> (email link is not required to access the proof), <strong>Proof notification email only</strong> (subscriber receives a link to the proof via email without any verification), or <strong>Validation and proof notification emails</strong> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
+        </ul><p>Note: &nbsp;If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.<br></p></p></td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Save**.
+

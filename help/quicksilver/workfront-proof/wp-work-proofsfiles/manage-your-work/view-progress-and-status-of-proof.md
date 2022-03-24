@@ -129,11 +129,11 @@ In the summary, you can view and edit&nbsp;the following details of your proof:
 * Deadline set for the stage (3)
 * Reviewer details:
 
-  * Number of comments and replies made by each reviewer (4)
-  * Each reviewer's progress (5)
-  * Decision (if a decision has included an electronic-signatures, an icon will be shown next to the decision indicating this.) (6)
-  * Role on the proof (7)
-  * Email alert settings (8)
+   * Number of comments and replies made by each reviewer (4)
+   * Each reviewer's progress (5)
+   * Decision (if a decision has included an electronic-signatures, an icon will be shown next to the decision indicating this.) (6)
+   * Role on the proof (7)
+   * Email alert settings (8)
 
 >[!NOTE]
 >

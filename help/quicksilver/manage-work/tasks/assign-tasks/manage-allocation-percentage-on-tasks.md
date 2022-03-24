@@ -56,30 +56,47 @@ You must have the following access to perform the steps in this article:
 ## Modify the percent allocation for a task
 
 1. Go to a task for whose resources you are changing the percent allocation.
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the task, then click **Edit**. Or Click the **Assignments** area in the task header, then click&nbsp;**Advanced**. 
+1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the task, then click **Edit**.
+
+   Or
+
+   Click the **Assignments** area in the task header, then click&nbsp;**Advanced**.
 
 1. Ensure that the **Duration Type** of the task is one of the following:
 
-  * Calculated Work
-  * Effort Driven
+   * Calculated Work
+   * Effort Driven
 
-   ``` ```**Tips: **``````
-
-  * For the Calculated Assignment Duration Type, Workfront uses the following formula to calculate the allocation percentage of each assignee:
-
-    ```  
-    Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day
-    ```  
-  
-    /   
-  
-    ```  
-    Number of assignees
-    ```  
-  
-    .
-
-  * For the Simple Duration Type, you can estimate the hours assigned to each resource, not the allocation percentage.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * For the Calculated Assignment Duration Type, Workfront uses the following formula to calculate the allocation percentage of each assignee: 
+   >   
+   >   
+   >   
+   >   
+   >     ```   >   
+   >     Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day
+   >     ```   >   
+   >   
+   >     /    >   
+   >   
+   >     ```   >   
+   >     Number of assignees
+   >     ```   >   
+   >   
+   >     .
+   >   
+   >   
+   >   
+   >
+   >   
+   >   
+   >   * For the Simple Duration Type, you can estimate the hours assigned to each resource, not the allocation percentage. 
+   >   
+   >
 
 1. Click **Assignments**, then modify the **Allocations** for each task assignee.
 

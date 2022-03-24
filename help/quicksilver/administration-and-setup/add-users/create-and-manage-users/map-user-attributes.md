@@ -72,18 +72,18 @@ Keep the following in mind when mapping attributes:
    >[!IMPORTANT]
    >
    >
-   >  
-   >  
-   >  * The following attributes are required for each user:    >  
-   >    
-   >    
-   >    * First Name
-   >    * Last Name
-   >    * Email Address
-   >    
-   >    
-   >  * We do not recommend mapping Access Levels in the Attribute Mappings. If you do, be careful when you are setting the default value to make sure that you don't remove Admin Access inadvertently.
-   >  
+   >   
+   >   
+   >   * The following attributes are required for each user:    >   
+   >      
+   >      
+   >      * First Name
+   >      * Last Name
+   >      * Email Address
+   >      
+   >      
+   >   * We do not recommend mapping Access Levels in the Attribute Mappings. If you do, be careful when you are setting the default value to make sure that you don't remove Admin Access inadvertently.
+   >   
    >
 
    The following table explains the fields you can use to map attributes:
@@ -115,10 +115,10 @@ Keep the following in mind when mapping attributes:
 
 1. (Optional) Click **Rules** to add a rule to the attribute.
 
-  1. In the drop-down, choose the attribute modifier you want to use.
-  1. In the 2 fields to the right, type the directory attribute value and the value you want to replace it with.
+   1. In the drop-down, choose the attribute modifier you want to use.
+   1. In the 2 fields to the right, type the directory attribute value and the value you want to replace it with.
 
-     ![](assets/rule-fields-350x64.png)
+      ![](assets/rule-fields-350x64.png)
 
    You can click **Add Rule** to add more rules to the attribute.
 

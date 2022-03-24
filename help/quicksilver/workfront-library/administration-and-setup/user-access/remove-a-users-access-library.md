@@ -34,8 +34,7 @@ Removing a user's individual access to Workfront Library does not affect any oth
 
 To remove individual access:
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 
    >[!NOTE]
@@ -57,9 +56,9 @@ To remove individual access:
 
 1. (Optional) If the user owns assets and doesn't have access through a user grouping, you must select what you would like to do with the assets:
 
-  * Transfer the assets to a different user
-  * Delete the assets
-  * Keep the assets without transfering them to a new owner
+   * Transfer the assets to a different user
+   * Delete the assets
+   * Keep the assets without transfering them to a new owner
 
    >[!NOTE]
    >
@@ -97,8 +96,7 @@ Users who are members of the removed user grouping lose their access to Workfron
 
 To remove access for a user grouping in Workfront Library:
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 
    >[!NOTE]
@@ -107,10 +105,10 @@ To remove access for a user grouping in Workfront Library:
 
 1. In the left panel, click **Setup**, then select the type of user grouping you want to remove access for:
 
-  * **Job role** 
-  * **Team** 
-  * **Group** 
-  * **Company**
+   * **Job role** 
+   * **Team** 
+   * **Group** 
+   * **Company**
 
    A list of the user groupings for the selected type displays in Workfront Library.
 

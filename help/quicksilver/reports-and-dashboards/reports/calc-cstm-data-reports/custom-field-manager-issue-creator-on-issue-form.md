@@ -52,8 +52,8 @@ The following steps show how you can create a calculated field for an issue cust
 
    For information about creating a custom form and adding calculated fields to it, see the following articles:
 
-  * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 
-  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 
+   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
 
 1. Copy the following text mode code and paste it in the **Calculation** field of the custom form:
 

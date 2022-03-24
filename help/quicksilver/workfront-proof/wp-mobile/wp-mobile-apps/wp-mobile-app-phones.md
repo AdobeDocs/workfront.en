@@ -101,22 +101,22 @@ When you open a proof in the mobile&nbsp;app, you can do the following:
 
 1. Do any of the following:
 
-  * To reply to a comment, tap the **Reply** button (3).
-  * To go back to the proof image, tap the callout icon.
-  * To view the full comment and its replies, tap on the comment itself.
+   * To reply to a comment, tap the **Reply** button (3).
+   * To go back to the proof image, tap the callout icon.
+   * To view the full comment and its replies, tap on the comment itself.
 
-    ![reply_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
+     ![reply_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
 
-  * To apply an action on a comment:
+   * To apply an action on a comment:
 
-    1. Open a comment.
-    1. Tap **Reply**.
-    1. Open the actions menu on the right side of the text field (1).
-    1. Tap **Add action** (2).
+      1. Open a comment.
+      1. Tap **Reply**.
+      1. Open the actions menu on the right side of the text field (1).
+      1. Tap **Add action** (2).
 
-       ![actions_on_comments.png](assets/actions-on-comments-350x543.png)
+         ![actions_on_comments.png](assets/actions-on-comments-350x543.png)
 
-       For more information about actions, see [Use actions on proof comments](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).&nbsp;
+         For more information about actions, see [Use actions on proof comments](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).&nbsp;
 
 ## Add markups
 
@@ -156,12 +156,12 @@ You can&nbsp;add a markup (such as a box highlighting an area on the proof) and 
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * If an on decision pop-up message is set on the account in which the proof was created, it will also appear in the iOS app when a decision is made on a proof.*&nbsp;*
-   >  * If you set up decision reasons, they will display on the Submit your decision screen for you to choose.* 
-   >    *
-   >  
+   >   
+   >   
+   >   * If an on decision pop-up message is set on the account in which the proof was created, it will also appear in the iOS app when a decision is made on a proof.*&nbsp;*
+   >   * If you set up decision reasons, they will display on the Submit your decision screen for you to choose.* 
+   >     *
+   >   
    >
 
    If you have already submitted a decision and you want to change it or remove it, you can easily do so. After sumitting a decision, a new option,&nbsp;**Remove my decision** (6), appears on the Submit your decision screen.

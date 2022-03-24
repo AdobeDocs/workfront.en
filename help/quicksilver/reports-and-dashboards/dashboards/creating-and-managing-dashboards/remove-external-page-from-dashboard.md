@@ -48,6 +48,8 @@ You must have the following access to perform the steps in this article:
 
    .
 
+   ![Select the Edit icon.](assets/nwe-editdashboard2021-350x188.png)
+
 1. On the right side of the screen, locate the external page you want to remove and click the **Delete** icon ![](assets/delete.png).
 
    ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)

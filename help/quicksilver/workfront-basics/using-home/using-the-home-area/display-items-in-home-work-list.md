@@ -51,12 +51,11 @@ You can filter items in the Work List to see only specific types of items. For e
 >
 >The filter options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the selected filters do not change. If you switch browsers or computers then the filters revert to the default option which is with all filters deselected.
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**.  
-
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. Click the **Filter** 
 
    <!--
-
+   <img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    -->
 
    drop-down menu.
@@ -133,14 +132,20 @@ You can filter items in the Work List to see only specific types of items. For e
 
    ![](assets/displaying-work-items-filter-350x348.png)
 
-   ``` ```**Tips: **``````
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * Some options are based on objects (Tasks, Issues, Approvals, and Personal tasks), and others are based on the state of the work items (Working On, Ready to Start, Not Ready, and Completed). If no state is selected, all selected objects of any state display. 
+   >   * Similarly, if no object is selected, all objects of any selected states display. If you select an object that is not in the selected state (for example, Approvals cannot be in a Ready to Start or Working On state), then nothing displays.  
 
-  * Some options are based on objects (Tasks, Issues, Approvals, and Personal tasks), and others are based on the state of the work items (Working On, Ready to Start, Not Ready, and Completed). If no state is selected, all selected objects of any state display. 
-  * Similarly, if no object is selected, all objects of any selected states display. If you select an object that is not in the selected state (for example, Approvals cannot be in a Ready to Start or Working On state), then nothing displays.  
-
-  * Note that open items in Team Requests and Approvals I've Submitted always display.
+   >   * Note that open items in Team Requests and Approvals I've Submitted always display.
+   >   
+   >
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    <p>In the Preview environment, select from the following filter options:</p>
    <table cellspacing="0">
    <col>
@@ -211,9 +216,7 @@ You can filter items in the Work List to see only specific types of items. For e
    </tr>
    </tbody>
    </table>
-   <p> <img src="assets/displaying-work-items-filters-nwe-350x401.png" style="width: 350;height: 401;"> </p>
-   <div class="tips" data-mc-autonum="<b>Tips: </b>">
-   <span class="autonumber"><span><b>Tips: </b></span></span>
+   <p> <img src="assets/displaying-work-items-filters-nwe-350x401.png" style="width: 350;height: 401;"> </p> <note type="tips">
    <ul>
    <li> <p> Filter options are based on objects (Tasks, Issues, Approvals, Personal tasks). </p> </li>
    <li> <p>Tasks and issues are further filtered by their state in relationship with our readiness to work on them (Working On, Ready to Start, Not Ready for tasks, and Working On and Requested for issues). You can select to display tasks or issues in a specific state or click&nbsp;Tasks or Issues to select and display all states. </p> </li>
@@ -221,6 +224,7 @@ You can filter items in the Work List to see only specific types of items. For e
    <li> <p>You can select only one state at a time.</p> <p>For example, you can display only Working On tasks and only Requested issues. <br></p> </li>
    <li> <p>You cannot apply filters for items assigned to one of your teams and they are not included in the items that are assigned directly to you. </p> </li>
    </ul>
+   </note>
    </div>
    -->
 
@@ -230,9 +234,10 @@ You can filter items in the Work List to see only specific types of items. For e
 
 You can group and sort the Work List by Planned Completion Date, Commit Date, Project, or My Priority. The option you choose determines how items are grouped in the Work List.
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**.  
-
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. Click the **Group by** drop-down menu.
+
+   ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x332.png)
 
 1. Select from the following options:
 
@@ -252,16 +257,18 @@ You can group and sort the Work List by Planned Completion Date, Commit Date, Pr
         <li> <p>Planned, followed by various Planned Completion Dates (multiple groupings)</p> </li> 
         <li> <p>Complete</p> </li> 
        </ul> </td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Planned Start</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Items display in the following groupings in the Work List, depending on their Planned Start&nbsp;Date (the number of items contained within each grouping displays in parenthesis next to the heading title): </p> 
-      <ul> 
-       <li> <p>Late</p> </li> 
-       <li> <p>This Week </p> </li> 
-       <li> <p>This grouping is expanded by default.</p> </li> 
-       <li> <p>Next Week</p> </li> 
-       <li> <p>Planned, followed by various Planned Start Dates (multiple groupings)</p> </li> 
-      </ul> </td>  
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">Planned Start</td> 
+      <td> <p>Items display in the following groupings in the Work List, depending on their Planned Start&nbsp;Date (the number of items contained within each grouping displays in parenthesis next to the heading title): </p> 
+       <ul> 
+        <li> <p>Late</p> </li> 
+        <li> <p>This Week </p> </li> 
+        <li> <p>This grouping is expanded by default.</p> </li> 
+        <li> <p>Next Week</p> </li> 
+        <li> <p>Planned, followed by various Planned Start Dates (multiple groupings)</p> </li> 
+       </ul> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Commit Date</td> 
       <td> <p>Items display in the following groupings in the Work List (the number of items contained within each grouping displays in parenthesis next to the heading title): </p> 
@@ -283,7 +290,7 @@ You can group and sort the Work List by Planned Completion Date, Commit Date, Pr
 
 >[!NOTE]
 >
->The default sorting is ascending. . If you change the sorting to descending , the selected sorting options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the sorting does not change, but if you switch browsers or computers then the sorting changes to the default sorting.
+>```The default sorting is ascending.```. If you change the sorting to ```descending``` , the selected sorting options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the sorting does not change, but if you switch browsers or computers then the sorting changes to the default sorting.
 
 ## View late items
 
@@ -304,8 +311,7 @@ In addition, only the names of the work items are searched (information within t
 
 To search the Work List:
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**.  
-
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. (Optional) Filter the Work List, as described in [Filter the Work List](#filtering-by-item-type) and [Group and sort by Date, Project, and Priority](#sorting-by-date-and-project).
 
 1. (Optional) If you are searching for a work item that is already complete, you must configure the Work List to display completed items before searching.
@@ -313,7 +319,7 @@ To search the Work List:
    ![](assets/displaying-work-items-search-350x224.png)
 
    <!--
-   <img src="assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png" style="width: 350;height: 238;">
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png" style="width: 350;height: 238;"> </p>
    -->
 
 1. Begin typing the name of the item name you are searching for.   
@@ -323,8 +329,7 @@ To search the Work List:
 
 You can change the size of the Work List so that it consumes anywhere between about a quarter of the Home area to about half of the Home area.
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**.  
-
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. Mouse over the right edge of the Work List, then drag left or right until the Work List is the desired size.
 
 ## Collapse and expand groupings
@@ -334,14 +339,13 @@ Items in the Work List are displayed within groupings. You can collapse and expa
 You can collapse and expand groupings within the Work List to better control what information is visible.  
 By default, the This Week grouping is expanded and all other groupings are collapsed.&nbsp;Any changes you make are remembered the next time you access the Home area.&nbsp;
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**.  
-
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. Click the **Expand** or **Collapse** arrow next to any grouping you want to expand or collapse.
 
    ![](assets/displaying-work-items-grouping-350x349.png)
 
    <!--
-   <img src="assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png" style="width: 350;height: 268;">
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png" style="width: 350;height: 268;"> </p>
    -->
 
    Or  

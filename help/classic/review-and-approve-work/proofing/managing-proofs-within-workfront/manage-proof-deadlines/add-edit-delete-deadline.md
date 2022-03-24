@@ -42,7 +42,11 @@ You must have the following access to perform the steps in this article:
 1. Hover over the proof, then click **Proof details** to open the Proof details page.
 1. On the **Proof details** page, under **Workflow**, in the stage where you want a deadline, do one of the following:
 
-1. ```<tbody>  <tr>   <td role="rowheader">Add a deadline to the stage</td>   <td>Double-click <strong>No deadline</strong>, then&nbsp;specify a date and time for the deadline.</td>  </tr>  <tr>   <td role="rowheader">Edit an existing deadline</td>   <td>Double-click the date and time in the upper-right corner of the stage,&nbsp;then&nbsp;specify a date and time for the deadline.</td>  </tr>  <tr>   <td role="rowheader">Delete an existing deadline</td>   <td>Double-click the date and time in the upper-right corner of the stage,&nbsp;then click <strong>Clear</strong> at the bottom of the Calendar box that appears.</td>  </tr> </tbody>``` 
+   | Add a deadline to the stage |Double-click **No deadline**, then&nbsp;specify a date and time for the deadline. |
+   |---|---|
+   | Edit an existing deadline |Double-click the date and time in the upper-right corner of the stage,&nbsp;then&nbsp;specify a date and time for the deadline. |
+   | Delete an existing deadline |Double-click the date and time in the upper-right corner of the stage,&nbsp;then click **Clear** at the bottom of the Calendar box that appears. |
+
 1. To save your change, click outside the deadline box.
 1. In the prompt that appears, specify whether you want to send an email alert to reviewers.&nbsp;
 

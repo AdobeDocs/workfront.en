@@ -11,11 +11,12 @@ description: You might want to hide information in the column of a view. You can
 
 You might want to hide information in the column of a view. You can do this by modifying the text mode of the column.
 
-``` ```**Tips: **``````
-
-* You can use hidden columns to sort by a certain object that you do not want to display in the view.  
-  For example, you can sort by Task Number in a task view and hide the Task Number information from the view. In this case, the object referenced in the column helps sorting the view, but the information of that object does not display in the view.
-* When you hide a column, note that the information in the column is hidden, but the column still exists in the view.
+>[!NOTE]
+>
+>* You can use hidden columns to sort by a certain object that you do not want to display in the view.  
+>  For example, you can sort by Task Number in a task view and hide the Task Number information from the view. In this case, the object referenced in the column helps sorting the view, but the information of that object does not display in the view.
+>* When you hide a column, note that the information in the column is hidden, but the column still exists in the view.
+>
 
 ## Access requirements
 
@@ -58,28 +59,28 @@ You must have the following access to perform the steps in this article:
 1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
    <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueformat=int<br><strong>width=0</strong></pre>The important changes in this code which make the column hidden are:
 
-  * 
-  
-    ```  
-    displayname
-    ```  
-  
-    : This line must be blank.
-  * 
-  
-    ```  
-    valuefield
-    ```  
-  
-    : This has been replaced by *value*, and must be blank.
-  
-  * 
-  
-    ```  
-    width
-    ```  
-  
-    : Depending on the field, this must have a value of *0* or *1*.
+   * 
+   
+     ```   
+     displayname
+     ```   
+   
+     : This line must be blank.
+   * 
+   
+     ```   
+     valuefield
+     ```   
+   
+     : This has been replaced by *value*, and must be blank.
+   
+   * 
+   
+     ```   
+     width
+     ```   
+   
+     : Depending on the field, this must have a value of *0* or *1*.
 
 1. Click **Save**, then **Save View**.
 

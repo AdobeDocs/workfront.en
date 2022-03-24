@@ -29,9 +29,9 @@ You can view information in the Resource Planner using three separate views. You
 
 * To view the following information using the User view:
 
-  * the availability of your users according to their schedule
-  * the planned amount of time needed to complete the work according to the project plan. 
-  * the amount of time that users have already logged on actual work items.
+   * the availability of your users according to their schedule
+   * the planned amount of time needed to complete the work according to the project plan. 
+   * the amount of time that users have already logged on actual work items.
 
   For more information about viewing Available, Planned, and Actual Hours or FTE for users in the Resource Planner, see the article [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
@@ -51,8 +51,8 @@ You can view information in the Resource Planner using three separate views. You
 
   For information about parent tasks, see the following articles:
 
-  * [Tasks overview](../../manage-work/tasks/task-information/tasks-overview.md) 
-  * [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md)
+   * [Tasks overview](../../manage-work/tasks/task-information/tasks-overview.md) 
+   * [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
   >[!TIP]
   >
@@ -104,12 +104,12 @@ Ensure the following user setup exists before starting using the Resource Planne
   >
   >When users are not added to resource pools, the following scenarios may exist: 
   >
-  >  
-  >  
-  >  * The users do not appear in the Resource Planner although they might be assigned to tasks on the projects. 
-  >  * If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks. 
-  >  * If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted. 
-  >  
+  >   
+  >   
+  >   * The users do not appear in the Resource Planner although they might be assigned to tasks on the projects. 
+  >   * If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks. 
+  >   * If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted. 
+  >   
   >
 
 * Users who are assigned to work and resource pools must have Schedules and Job Roles associated with their profile.
@@ -152,8 +152,8 @@ Ensure the following task and issue setup exists before starting budgeting resou
 
 * The tasks or issues on the projects for which you are budgeting resources are assigned to one of these entities:
 
-  * Users in the resource pools of the project who are also associated with Job Roles
-  * Job Roles
+   * Users in the resource pools of the project who are also associated with Job Roles
+   * Job Roles
 
   >[!NOTE]
   >
@@ -196,14 +196,14 @@ For information about locating the Resource Planner, see [Locate the Resource Pl
 <p>To access the Planner section in the Resourcing area: </p>
 <ol>
 <li value="1">  Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront. </li>
-<li value="2"> <p> Click <strong>Resourcing</strong>. The Planner displays by default.  For information about budgeting resources in the Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> <p>  </p> </li>
+<li value="2"> <p> Click <strong>Resourcing</strong>. The Planner displays by default.  For information about budgeting resources in the Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> <p> <img src="assets/qs-resource-management-area-with-planner-as-default-350x152.png" style="width: 350;height: 152;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3"> Hover over the left panel, and click <strong>Resource Pools</strong>. <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</li>
 </ol>
 <h3><a name="Access2"></a>Use the Resource Planner for one project</h3>
 <p>When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project. </p>
 <ol>
 <li value="1"> <p>Go to a project you want to budget resources for.</p> </li>
-<li value="2"> Click <strong>Business Case</strong> in the left panel. </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Business Case</strong> in the left panel.</p> </li>
 <li value="3"> <p>Scroll to the <strong>Resource Budgeting</strong> section of the Business Case.</p> </li>
 <li value="4"> <p>Click <strong>Edit Resource Budgeting</strong> to add resource pools to your project and start budgeting your resources. </p> <note type="tip">
 You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a resource pool, the users in the pool and their job roles display in the Resource Budgeting area by default.

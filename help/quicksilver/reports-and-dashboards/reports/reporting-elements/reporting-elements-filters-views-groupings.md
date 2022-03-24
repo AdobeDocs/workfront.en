@@ -37,6 +37,8 @@ Some attributes of filters are:
 * You can customize filters that you own or manage.  
   For more information about filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
+![](assets/projects-list-with-filter-drop-down-highlighted-nwe-350x99.png)
+
 ## Views
 
 By defining the view of a report, you define what information you include in the report. Like all reporting elements, views are based on one object type.  

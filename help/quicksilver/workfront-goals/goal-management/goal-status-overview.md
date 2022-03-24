@@ -18,7 +18,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.
+For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 Goal statuses indicate whether a goal is active and currently recording progress, or if it is inactive, drafted, or already achieved.
 
 ## Consideration when updating goal statuses in Workfront Goals
@@ -36,10 +36,10 @@ Goal statuses indicate whether a goal is active and currently recording progress
 * Opening a closed goal also updates the goal's progress. 
 * Certain actions you perform on a goal also update its status.&nbsp;For information about how you can update goal statuses, see the following articles:
 
-  * [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md) 
-  * [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
-  * [Delete and deactivate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md) 
-  * [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+   * [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md) 
+   * [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
+   * [Delete and deactivate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md) 
+   * [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Overview of goal statuses in&nbsp;Workfront Goals
 
@@ -63,10 +63,10 @@ Goals can have one of the following statuses in Workfront Goals:
 * Drafted goals do not contribute to the progress calculation of other goals, and they are not taken into account in graphs. 
 * Drafted goals display in the following areas of Workfront Goals:
 
-  * Goal List
-  * Check-in section (only as an aligned goal)
-  * Goal Alignment section (only as an aligned goal)
-  * Pulse section
+   * Goal List
+   * Check-in section (only as an aligned goal)
+   * Goal Alignment section (only as an aligned goal)
+   * Pulse section
 
 >[!IMPORTANT]
 >
@@ -79,11 +79,11 @@ Goals can have one of the following statuses in Workfront Goals:
 * Active goals contribute to the progress calculation of other goals, and they are taken into account in graphs. 
 * Active goals display in the following areas of Workfront Goals:
 
-  * Goal List
-  * Check-in section
-  * Goal Alignment section
-  * Pulse section
-  * The progress of active goals displays in graphs
+   * Goal List
+   * Check-in section
+   * Goal Alignment section
+   * Pulse section
+   * The progress of active goals displays in graphs
 
 * You can re-activate a Closed or Inactive goal.
 
@@ -101,9 +101,9 @@ Goals can have one of the following statuses in Workfront Goals:
 * Inactive goals have a progress history because they were once active, unlike drafted goals. 
 * Inactive goals display in the following areas of Workfront Goals:
 
-  * Goal List
-  * Goal Alignment section (only as aligned goals)
-  * Pulse
+   * Goal List
+   * Goal Alignment section (only as aligned goals)
+   * Pulse
 
 ### Closed
 
@@ -119,9 +119,9 @@ Goals can have one of the following statuses in Workfront Goals:
 * You cannot check in on closed goals. 
 * Closed goals display in the following area of Workfront Goals:
 
-  * Goal List
-  * Check-in section (only as aligned goals)
-  * Goal Alignment section (only as aligned goals)
-  * Pulse
-  * Information from closed goals is also taken into account in the Graphs section.
+   * Goal List
+   * Check-in section (only as aligned goals)
+   * Goal Alignment section (only as aligned goals)
+   * Pulse
+   * Information from closed goals is also taken into account in the Graphs section.
 

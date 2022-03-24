@@ -76,8 +76,12 @@ You can locate the Actual&nbsp;Start&nbsp;Date of a project in the following are
 
 To locate the Actual Start&nbsp;Date on the Details tab of the project:
 
-1. Go to the&nbsp;**Projects** are in the Global Navigation Bar. 
+1. Go to the&nbsp;**Projects** are in the Global Navigation Bar.
 1. Click the project you want to view the Actual Start Date for.
-1. Click the&nbsp;**Project Details** tab, then click&nbsp;**Overview**. The Actual Start Date displays along other project dates .
+1. Click the&nbsp;**Project Details** tab, then click&nbsp;**Overview**.
+
+   The Actual Start Date displays along other project dates .
+
+   ![Screen_Shot_2018-06-26_at_3.47.43_PM.png](assets/screen-shot-2018-06-26-at-3.47.43-pm-350x232.png)
 
 &nbsp;

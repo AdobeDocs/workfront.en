@@ -46,66 +46,67 @@ You must have the following to perform the steps in this article:
 >
 >Because this is a global setting, this selection affects all the calculations for the entire system, for all users, in all the resource management tools, and for all Resource Pools.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup** ![](assets/gear-icon-settings.png). 
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. Click **Resource Management**. 
 1. Select one of the following methods to calculate the availability of users in Workfront:
 
-  * **The Default Schedule**: Workfront uses the Default Schedule of the system and the individual FTE of the user to calculate the Available Hours of the user in resource management tools.   
-    For more information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   * **The Default Schedule**: Workfront uses the Default Schedule of the system and the individual FTE of the user to calculate the Available Hours of the user in resource management tools.   
+     For more information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-    For more information about the value of the user FTE, see&nbsp; [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+     For more information about the value of the user FTE, see&nbsp; [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-    <!--  
-    <div data-mc-conditions="QuicksilverOrClassic.Draft mode">  
-    <p>Workfront calculates the Available Hours of a user differently depending on which environment you choose. The following formulas are used to calculate user availability or capacity when the Workfront administrator chooses The Default Schedule: </p>  
-    <ul>  
-    <li><p>In the Production environment:</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p></li>  
-    <li class="preview"><p>In the Preview environment:</p><p><code>User Available Hours = (Default Schedule Hours - Exceptions) *&nbsp;FTE - Time off hours</code></p><!--  
-    <span class="autonumber"><span><b>Example: </b></span></span>  
-    <div class="preview">  
-    <p>For example, if the Default Schedule is 40 hours a week and the FTE in the profile of the user is 0.5, the user is available to work for 20 hours a week.</p>  
-    <p>If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:</p>  
-    <p><code>User Daily Available Hours = (40 * 0.5) - 1 = 19 hours</code><br></p>  
-    </div>  
-    --></li>  
-    </ul>  
-    </div>  
-    -->
+     <!--   
+     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     <p>Workfront calculates the Available Hours of a user differently depending on which environment you choose. The following formulas are used to calculate user availability or capacity when the Workfront administrator chooses The Default Schedule: </p>   
+     <ul>   
+     <li><p>In the Production environment:</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p></li>   
+     <li class="preview"><p>In the Preview environment:</p><p><code>User Available Hours = (Default Schedule Hours - Exceptions) *&nbsp;FTE - Time off hours</code></p><!--   
+     <div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">   
+     <span class="autonumber"><span><b>Example: </b></span></span>   
+     <div class="preview">   
+     <p>For example, if the Default Schedule is 40 hours a week and the FTE in the profile of the user is 0.5, the user is available to work for 20 hours a week.</p>   
+     <p>If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:</p>   
+     <p><code>User Daily Available Hours = (40 * 0.5) - 1 = 19 hours</code><br></p>   
+     </div>   
+     </div>   
+     --></li>   
+     </ul>   
+     </div>   
+     -->
 
-    The Available Hours for the user are calculated by the following formula:
+     The Available Hours for the user are calculated by the following formula:
 
-    ```  
-    User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value
-    ```
+     ```   
+     User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value
+     ```
 
-    ``` ```**Example: **``````For example, if the Default Schedule is 40 hours a week and the FTE in the profile of the user is 0.5, the user is available to work for 20 hours a week.
+     ``` ```**Example: **``````For example, if the Default Schedule is 40 hours a week and the FTE in the profile of the user is 0.5, the user is available to work for 20 hours a week.
 
-    If the user has 1 hour of Time off one day during the week, their Available Hours will be calculated as follows:
+     If the user has 1 hour of Time off one day during the week, their Available Hours will be calculated as follows:
 
-    ```  
-    User Daily Available Hours = (40-1) * 0.5 = 19.5 hours
-    ```
+     ```   
+     User Daily Available Hours = (40-1) * 0.5 = 19.5 hours
+     ```
 
-  * **The User's Schedule**: Workfront uses the user's schedule as well as the Default Schedule of the system to calculate the Available FTE value of the user in resource management tools. The Available Hours are calculated according only to the user's schedule. The value of the FTE of the user is ignored. This is the default setting.
+   * **The User's Schedule**: Workfront uses the user's schedule as well as the Default Schedule of the system to calculate the Available FTE value of the user in resource management tools. The Available Hours are calculated according only to the user's schedule. The value of the FTE of the user is ignored. This is the default setting.
 
-    >[!NOTE]
-    >
-    >If the user is not associated with a schedule, the Available Hours for the user are calculated using the Default Schedule.
+     >[!NOTE]
+     >
+     >If the user is not associated with a schedule, the Available Hours for the user are calculated using the Default Schedule.
 
-    The Available FTE for the user is calculated by the following formula:
+     The Available FTE for the user is calculated by the following formula:
 
-    ```  
-    User Available FTE = (Hours from the Schedule of the User - Time off hours) / Default Schedule Hours
-    ```
+     ```   
+     User Available FTE = (Hours from the Schedule of the User - Time off hours) / Default Schedule Hours
+     ```
 
-    ``` ```**Example: **``````For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week,&nbsp;the FTE of the user is 0.75.&nbsp;
+     ``` ```**Example: **``````For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week,&nbsp;the FTE of the user is 0.75.&nbsp;
 
-    If the user has 2 hours of Time off one day, their Weekly Available FTE will be calculated as follows:
+     If the user has 2 hours of Time off one day, their Weekly Available FTE will be calculated as follows:
 
-    ```  
-    User Weekly Available FTE = (30-2) / 40 = 0.70
-    ```
+     ```   
+     User Weekly Available FTE = (30-2) / 40 = 0.70
+     ```
 
 1. Click **Save**.
 

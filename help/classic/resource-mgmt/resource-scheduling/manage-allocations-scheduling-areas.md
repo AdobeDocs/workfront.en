@@ -22,8 +22,8 @@ This article describes how to update daily hourly allocations for users assigned
 
 You can display user allocations in the following areas of Adobe Workfront:
 
-* On the Scheduling tab of the People area (when scheduling resources for multiple projects). 
-* On the Staffing tab of a project (when scheduling resources for a single project). 
+* On the Scheduling tab of the People area (when scheduling resources for multiple projects).
+* On the Staffing tab of a project (when scheduling resources for a single project).
 * On the Working On tab of a team (when scheduling resources for a team).
 
 ## Access requirements
@@ -105,6 +105,8 @@ You can modify the user allocations for a task or issue from the following locat
   >[!IMPORTANT]
   >
   >When modifying user allocations from an Edit Task or Issue dialog box, allocations you previously configured in the Scheduling timeline are overwritten. In addition, any change you make to allocations in the Scheduling timeline are not reflected on an Edit Task or Issue dialog box.
+
+  ![](assets/allocations-task-details-350x135.png)
 
 We recommend managing user allocations from the Scheduling timeline rather than from the Edit Task or Issue to benefit from the following advantages:
 
@@ -188,6 +190,8 @@ To enable user allocations on the Scheduling timeline:
    * **For multiple projects**:&nbsp;Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**. 
    * **For an individual project**: Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the**Scheduling** tab is selected and click **Switch back to Scheduling**.
    * **For a team**: Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
+
+   ![scheduling_contours_none.png](assets/scheduling-contours-none-350x154.png)
 
 1. Click the **Settings** icon on the Scheduling timeline.  
    ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)  

@@ -34,10 +34,10 @@ You must have the following to perform the steps in this article:
 
 ## Filter timesheets
 
-1. 
-1. Timesheets
-1. All Timesheets
-1. 
+1. Click the Main Menu ![](assets/main-menu-icon.png), then click **Timesheets**.
+
+1. Click **All Timesheets** ![](assets/all-timesheets-icon.png) in the left panel.
+
 1. Configure the filter options.
 
    These include **Belonging To**, **Approver**, **Status**, and **Time Period**.
@@ -63,10 +63,10 @@ You must have the following to perform the steps in this article:
 
 ## Update user timesheets
 
-1. 
-1. Timesheets
-1. All Timesheets
-1. 
+1. Click the Main Menu ![](assets/main-menu-icon.png), then click **Timesheets**.
+
+1. Click **All Timesheets** ![](assets/all-timesheets-icon.png) in the left panel.
+
 1. Set the filter options.
 
    For more information, see the [Filter timesheets](#filtering-timesheets) section in this article.

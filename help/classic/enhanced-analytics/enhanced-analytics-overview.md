@@ -25,7 +25,11 @@ To see use cases or learn more about managing current work and planning for futu
 
 ## Walk-through
 
-``` ```**Note: **``````Enhanced analytics is available for both Adobe Workfront Classic and the new Adobe Workfront experience, but the video below was recorded in the new Adobe Workfront experience. View the following video to learn more about Enhanced analytics:
+>[!NOTE]
+>
+>Enhanced analytics is available for both Adobe Workfront Classic and the new Adobe Workfront experience, but the video below was recorded in the new Adobe Workfront experience.
+
+View the following video to learn more about Enhanced analytics:
 
 ```<iframe class="vimeo-player_0" src="assets/448606544?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

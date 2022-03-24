@@ -44,11 +44,11 @@ We have made the following improvements in the Subgroups area in Setup.
 
 * To give you a quick way to reorganize the groups you manage, we have added an “Add subgroups” toolbar button that allows you to create new subgroups and move existing ones.
 
-  For more information, see Manage a subgroup.
+  For more information, see [Manage a subgroup](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2FCreate_and_manage_subgroups%2Fmanage-subgroups.htm).
 
 * The toolbar in the Subgroups area now makes lists consistent with other modernized lists in the new Workfront experience. When you select groups, icons represent available functions in the toolbar.
 
-  For information about the modernized toolbars in the new Workfront experience, see New toolbar for lists.
+  For information about the modernized toolbars in the new Workfront experience, see [New toolbar for lists](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FThe_new_Workfront_Experience%2Fnew-toolbar-for-lists.htm).
 
 ```<iframe class="vimeo-player_0" src="assets/539859377?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -79,11 +79,11 @@ Two improvements in the Groups area in Setup make lists consistent with other mo
 * When you select groups, icons represent available functions in the toolbar.
 * In the list of groups, columns, sorting, and hierarchy have the newer look and feel you are used to in other lists. Also, by default, lists display up to 2,000 items on a single page instead of 100.
 
-For information about the modernized toolbars in the new Workfront experience, see New toolbar for lists.
+For information about the modernized toolbars in the new Workfront experience, see [New toolbar for lists](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FThe_new_Workfront_Experience%2Fnew-toolbar-for-lists.htm&_LANG=en).
 
-For information about the modernized lists throughout Workfront, see Modify how a list displays.
+For information about the modernized lists throughout Workfront, see [Modify how a list displays](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FUse_lists%2Fmodify-list-display.htm).
 
-For information about the Groups area, see Manage groups.
+For information about the Groups area, see [Manage groups](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2F_manage-groups.htm).
 
 ```<iframe class="vimeo-player_0" src="assets/534946023?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -97,7 +97,7 @@ For information about the Groups area, see Manage groups.
 
 We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group’s programs from the Groups area in Setup. This saves you from having to go to the Programs area to manage your group’s programs. And it keeps the list of group programs you’re working with separate from the other programs in the system.
 
-For more information, see Create and modify a group's programs.
+For more information, see [Create and modify a group's programs](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2FWork_with_group_objects%2Fcreate-and-modify-a-groups-programs.htm&_LANG=en).
 
 ```<iframe class="vimeo-player_0" src="assets/534956912?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -115,7 +115,7 @@ To better orient administrators in the Setup area and to maintain consistency Ad
 
   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
-For more information about the Setup area, see Administration and setup.
+For more information about the Setup area, see [Administration and setup](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2F_administration-and-setup.htm).
 
 ## For group administrators: View and manage more group objects from the Groups page
 
@@ -127,9 +127,9 @@ We are continuing to make it easier to manage your groups and their associated o
 
 For more information, see the following articles:
 
-* Create and modify a group's companies in the new Adobe Workfront experience 
-* Create and modify a group's portfolios 
-* Create and modify a group's teams
+* [Create and modify a group's companies in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2FWork_with_a_group%27s_objects%2Fcreate-and-modify-a-groups-companies.htm&_LANG=en) 
+* [Create and modify a group's portfolios](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2FWork_with_a_group%27s_objects%2Fcreate-and-modify-a-groups-portfolios.htm&_LANG=en) 
+* [Create and modify a group's teams](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2FWork_with_a_group%27s_objects%2Fcreate-and-modify-a-groups-teams.htm&_LANG=en)
 
 ```<iframe class="vimeo-player_0" src="assets/528565760?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -157,7 +157,7 @@ For example, instead of leaving the Filter list control set to All, you can chan
 
 Previously, these defaults couldn’t be customized, so they were always set as All for Filters, Standard for Views, and Nothing for Groupings. One added bonus of the new functionality is that you can hide these three settings from your users if they don’t need them.
 
-For more information, see Customize Filters, Views, and Groupings using a layout template in the new Adobe Workfront experience.
+For more information, see [Customize Filters, Views, and Groupings using a layout template in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FUse_Layout_Templates%2Fcustomize-fvg-list-controls-layout-template.htm&_LANG=en).
 
 ```<iframe class="vimeo-player_0" src="assets/522039391?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -195,10 +195,10 @@ Also, you can view and work with your group’s layout templates, schedules, tim
 
 For more information, see the following articles:
 
-* Create and modify a group's Layout Templates in the new Adobe Workfront experience 
-* Create and modify a group's schedules in the new Adobe Workfront experience 
-* Create and modify a group's timesheet profiles in the new Adobe Workfront experience 
-* View and manage subgroup members in the new Adobe Workfront experience
+* [Create and modify a group's Layout Templates in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2FWork_with_a_group%27s_objects%2Fcreate-and-modify-a-groups-layout-templates.htm&_LANG=en) 
+* [Create and modify a group's schedules in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2FWork_with_a_group%27s_objects%2Fview-and-manage-a-groups-schedules.htm&_LANG=en) 
+* [Create and modify a group's timesheet profiles in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2FWork_with_a_group%27s_objects%2Fview-and-manage-group-timesheet-profiles.htm&_LANG=en) 
+* [View and manage subgroup members in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2FWork_with_a_group%27s_objects%2Fview-and-manage-subgroup-members.htm&_LANG=en)
 
 ```<iframe class="vimeo-player_0" src="assets/513509456?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

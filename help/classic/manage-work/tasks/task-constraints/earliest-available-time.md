@@ -44,7 +44,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">  </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/eat-350x175.png" alt="" style="width: 350;height: 175;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
    -->
 
    <!--

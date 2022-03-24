@@ -8,8 +8,11 @@ description: You can use actions to keep track of what needs to happen on each c
 
 # Use actions on proof comments
 
-You can use actions to keep track of what needs to happen on each comment thread on a proof. An action is a word or phrase such as "To do," "Done," or "In progress" that your Adobe Workfront administrator configures in the system for your organization. Reviewers can add an action to a comment to provide information about what has been done or what still needs to be done in response to the comment. 
-Actions you apply to a comment in the proofing viewer also appear in the Updates area for the document. For information about this area, see [Add an update to a document](../../../../documents/managing-documents/add-update-documents.md). For information about how your Workfront administrator enables and configures actions, see&nbsp; [Configure proof settings for your organization](../../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+You can use actions to keep track of what needs to happen on each comment thread on a proof. An action is a word or phrase such as "To do," "Done," or "In progress" that your Adobe Workfront administrator configures in the system for your organization. Reviewers can add an action to a comment to provide information about what has been done or what still needs to be done in response to the comment.
+
+Actions you apply to a comment in the proofing viewer also appear in the Updates area for the document. For information about this area, see [Add an update to a document](../../../../documents/managing-documents/add-update-documents.md).
+
+For information about how your Workfront administrator enables and configures actions, see&nbsp; [Configure proof settings for your organization](../../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## Access requirements
 

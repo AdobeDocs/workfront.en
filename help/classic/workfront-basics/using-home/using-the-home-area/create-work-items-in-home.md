@@ -43,7 +43,9 @@ You must have the following access to perform the steps in this article:
 
 You can create a personal task that is available only to you in the Home area:
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. Click **New Task** >&nbsp;**Personal**.  
   
@@ -62,7 +64,9 @@ You can request work from another user directly from the Home area. When you req
 
 To request work from another user from the Home area:
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. Click **New Task**, then select **Request**.  
    ![](assets/creating-work-items-new-task-request-350x289.png)
@@ -78,7 +82,9 @@ To request work from another user from the Home area:
 
 You can add a task or issue to an existing project directly from the Home area:
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. Click **New Task**, then select **Project Task**.  
    ![](assets/creating-work-items-new-task-personal-350x228.png)

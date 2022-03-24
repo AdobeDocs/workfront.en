@@ -15,7 +15,7 @@ For example, if your organization has a web-based document repository, wiki, or 
 >[!IMPORTANT]
 >
 >For security reasons, some websites do not allow you to embed web pages as an iframe. If the web page you want to embed in a dashboard does not allow this, the page does not display in the dashboard. However, you can still access the external page by clicking the name of the dashboard.  
-  
+>![empty_external_page_report.png](assets/empty-external-page-report-350x79.png)  
 >To allow embedding for a website you own, work with your web administrator to adjust the **X-Frame-Options** setting. For more information, see [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 
 ## Access requirements
@@ -74,6 +74,8 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 1. Click **Add External Page**.
 
+   ![](assets/2-350x235.png)
+
 1. Specify a **Name** for the external page.
 1. Specify a **Description**.
 1. Paste the URL you copied earlier into the **URL** field.  
@@ -81,7 +83,8 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
    * An https (encrypted) URL to a web page.  
      Only https (encrypted) pages load with the URL.  
-   
+     ![external_page.png](assets/external-page-350x240.png)
+
    * A template URL that contains session information for a specific website.  
      For example: *https://localhost/?session={!$$SESSION}* 
      You must be logged into the specified website to display the External Page.  
@@ -101,6 +104,8 @@ To update the information for an external page used in a dashboard:
 1. Click the **Dashboard** tab. 
 1. Select the dashboard that you want to update, then click **Edit** .
 
+   ![](assets/classic-select-external-page-dashboard-350x235.png)
+
 1. On the right side of the screen, locate the external page you want to update and click the **Edit** icon.  
 
 1. In the **Edit External Page** dialog, update the fields you want to change, then click **Save**.
@@ -111,8 +116,7 @@ To update the information for an external page used in a dashboard:
 
 You can view all external pages in Workfront in an External Page report.
 
-1. Go to **Reporting** in the Global Navigation Bar > **Reports**. 
-
+1. Go to **Reporting** in the Global Navigation Bar > **Reports**.
 1. Click **New Report** > select **External Page**.
 1. (Optional) Update the View, Filters, or Groupings tabs of the report.
 

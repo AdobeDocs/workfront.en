@@ -64,17 +64,17 @@ You must have the following before you can start:
 
   You can edit the following information for a past goal:&nbsp;
 
-  * Name
-  * Time period
-  * Status
+   * Name
+   * Time period
+   * Status
 
-    >[!TIP]
-    >
-    >If the goal is Closed, reopening it recalculates the Progress percent complete
+     >[!TIP]
+     >
+     >If the goal is Closed, reopening it recalculates the Progress percent complete
 
-  * Owner
-  * Description
-  * Results and activities
+   * Owner
+   * Description
+   * Results and activities
 
 ## Edit goals
 
@@ -90,10 +90,10 @@ You must have the following before you can start:
 
    Select from the following predefined options:
 
-  * The current year
-  * The quarters of the current year
-  * The next two years
-  * The quarters of the next two years
+   * The current year
+   * The quarters of the current year
+   * The next two years
+   * The quarters of the next two years
 
    Or
 

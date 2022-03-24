@@ -19,6 +19,8 @@ Similarly, the Percent Complete of a project is based on the planned durations o
 >
 >Main tasks are not indented in a project plan.
 
+![](assets/mceclip0-350x125.png)
+
 ## How Workfront calculates Percent Complete
 
 * [Update the Percent Complete on a task](#percent-complete-on-task) 
@@ -30,6 +32,8 @@ Similarly, the Percent Complete of a project is based on the planned durations o
 You can modify the percent complete of a task manually. This is not a calculation.
 
 Workfront uses the percent complete of an individual task to calculate the percent complete of its parent task or the percent complete of the project.
+
+![percent_complete_on_single_task.png](assets/percent-complete-on-single-task-350x89.png)
 
 For information about updating the percent complete of a task, see [View and update Percent Complete for tasks](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
@@ -78,6 +82,8 @@ Depending on what your Workfront administrator selected in the Project Preferenc
 ## Example of Percent Complete on a project using Duration
 
 When using the Planned Duration of the tasks to calculate the percent complete of a project, consider the following example:
+
+![percent_complete_on_project_example.png](assets/percent-complete-on-project-example-350x137.png)
 
 Only the parent task (Task 1) and the standalone task (Task 8) are used to calculate the percent complete of the project.
 

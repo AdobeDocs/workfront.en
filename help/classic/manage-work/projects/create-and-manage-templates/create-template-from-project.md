@@ -44,7 +44,9 @@ You must have the following access to perform the steps in this article:
 ## Create template from project
 
 1. Go to the project that you want to save as a template. 
-1. Click **Project Actions,** then click **Save as Template.** 
+1. Click **Project Actions,** then click **Save as Template.**
+
+   ![](assets/save-as-template.png)
 
 1. Specify the following information for the template:
 

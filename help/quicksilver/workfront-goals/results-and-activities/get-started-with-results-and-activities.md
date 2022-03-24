@@ -18,7 +18,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.
+For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 When you create a goal, the goal has a status of Draft. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 In order to start recording progress on a goal, you must activate it. To activate your goal and change its status to Active you must first add the following to it:
@@ -48,9 +48,9 @@ Consider the following when working with results:
 * They answer the question, “How will I know when my goal is complete?” 
 * They are metric indicators. You can select from the following options to indicate a progress for your result:
 
-  * Currency
-  * Number
-  * Percentage
+   * Currency
+   * Number
+   * Percentage
 
 For more information about results, see the list of similarities between results and activities in the [Similarities between results, activities, and projects](#similarities) section in this article.
 

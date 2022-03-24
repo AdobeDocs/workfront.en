@@ -18,7 +18,7 @@ Timesheet and Hour Preferences control what appears on a timesheet. This provide
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <img src="assets/timesheets-overview-adobe-350x269.png" alt="timesheets_overview_Adobe.png" style="width: 350;height: 269;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
 -->
 
 ## Title

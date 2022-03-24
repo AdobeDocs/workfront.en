@@ -49,10 +49,8 @@ You must have the following to perform the steps in this article:
 
 ## Configure your system security preferences
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. In the left panel, click **System** > **Preferences**.  
 
 1. In the **Security** section, select any of the following fields to establish the security settings for your organization:

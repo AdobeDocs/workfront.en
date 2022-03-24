@@ -244,11 +244,15 @@ The following table describes the default for what happens to project fields whe
    <td>Work&nbsp;Effort</td> 
    <td>Project information is preserved</td> 
    <td>&nbsp;</td> 
-  </tr>  
-  <td class="TableStyle-Standard-BodyD-Column1-MediumGray" style="font-weight: normal;" colspan="3"><span style="font-weight: bold;">Issue Settings fields</span> </td>   
-  <td class="TableStyle-Standard-BodyE-Column1-LightGray" style="font-weight: normal;"><span>Allow users to add issues inline</span> </td> 
-  <td class="TableStyle-Standard-BodyE-Column1-LightGray"><span>Project information is preserved</span> </td> 
-  <td class="TableStyle-Standard-BodyD-Column1-LightGray">&nbsp;</td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td colspan="3"><span style="font-weight: bold;">Issue Settings fields</span> </td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td><span>Allow users to add issues inline</span> </td> 
+   <td><span>Project information is preserved</span> </td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td colspan="3">Access section </td> 
   </tr> 
@@ -395,8 +399,8 @@ Attaching a template to a project is not the same as creating a project from a t
 <li> <p style="font-weight: bold;">Milestone Path</p> </li>
 <li> <p><b>Completion Mode</b> </p> </li>
 <li> <p style="font-weight: bold;">Resource Pool</p> </li>
-<li> <p style="font-weight: bold;">Tasks Settings fields</p> </li>  
-<p style="font-weight: bold;">Issue Settings fields</p>  
+<li> <p style="font-weight: bold;">Tasks Settings fields</p> </li>
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p style="font-weight: bold;">Issue Settings fields</p> </li>
 </ul>
 </div>
 <p>&nbsp;</p>

@@ -49,7 +49,7 @@ You must have the following:
    >The Request or External license type do not allow View or Edit access to Scenario Planner.
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. When you are finished, click Save.
+1. When you are finished, click **Save**.
 
 ## Access to Scenario Planner by license type
 

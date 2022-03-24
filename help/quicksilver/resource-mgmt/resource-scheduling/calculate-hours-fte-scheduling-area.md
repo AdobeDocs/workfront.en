@@ -69,7 +69,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <li value="2"><![CDATA[
 ]]> Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront. <br></li>
 <li value="3">  Click&nbsp; <strong>Setup</strong>.  </li>
-<li value="4"> <p> Click&nbsp;<strong>Resource Management</strong>.<br></p> <p>  <br> </p> </li>
+<li value="4"> <p> Click&nbsp;<strong>Resource Management</strong>.<br></p> <p> <img src="assets/nwe-resource-management-system-setting-user's-schedule-350x157.png" style="width: 350;height: 157;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <br> </p> </li>
 <li value="5"> Select to calculate the availability of users in Workfront using&nbsp;one of the following methods:
 <ul>
 <li><strong>The Default Schedule</strong>:&nbsp;The Default Schedule of the system and the user FTE are used to determine the Available Hours and FTE value for the user when scheduling resources. The Schedule of the user is ignored. In this case:&nbsp;

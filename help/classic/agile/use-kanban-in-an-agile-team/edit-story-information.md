@@ -94,7 +94,8 @@ You must have the following access to perform the steps in this article:
 ## View and edit information on a story tile
 
 1. Go to the Kanban&nbsp;board.
-1. Expand the story tile to view all fields associated with the story.
+1. Expand the story tile to view all fields associated with the story.  
+   ![Story_expanded_on_Kanban_board.png](assets/story-expanded-on-kanban-board-350x313.png)  
 
 1. (Optional) To edit a field, click the field, then make any changes.  
    You must have Edit rights to the task or issue in order to edit the story tile.  

@@ -55,12 +55,14 @@ You can create a project from the Projects area in theMain Menu, or from the Pro
 1. Log in to Workfront. 
 1. Do one of the following:
 
-  * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**.  
-  * Go to a portfolio, then expand **New Project**. 
-  * Go to a program, then expand **New Project**. 
-  * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](view-manage-projects-groups-area.md).
+   * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**.  
+   * Go to a portfolio, then expand **New Project**. 
+   * Go to a program, then expand **New Project**. 
+   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](view-manage-projects-groups-area.md).
 
 1. Choose the **Import MS Project** option.
+
+   ![](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Click **Select File**, then browse for the .xml file on your computer which you exported from Microsoft Project. 
 1. Import the selected file.

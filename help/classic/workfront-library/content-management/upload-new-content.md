@@ -33,7 +33,7 @@ You cannot upload a file using third-party applications such as Google Drive and
 
 ## Upload content to Workfront Library
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select **My Content** in the left panel.
 1. (Optional) To upload content to a folder, navigate to and open the desired folder. 

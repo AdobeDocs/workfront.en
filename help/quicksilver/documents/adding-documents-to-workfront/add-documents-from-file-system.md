@@ -83,7 +83,7 @@ You can add new documents to Workfront from the file system on your workstation.
         <li value="1">From the <strong>Add New</strong> drop-down menu, select&nbsp;<strong>Request a Document</strong>.</li> 
         <li value="2">In the <strong>Who are you requesting it from</strong> box, type the name of the user from whom you are requesting the document.</li> 
         <li value="3">In the <strong>Tell them what you're requesting</strong> box, type the name of the document.</li> 
-        <li value="4"> <p>Click <strong>Send Request</strong>.</p> <p>Your request displays on your Documents tab.</p> <p>  </p> <p>For more information about requesting documents, see <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Request a Document</a>.</p> </li> 
+        <li value="4"> <p>Click <strong>Send Request</strong>.</p> <p>Your request displays on your Documents tab.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>For more information about requesting documents, see <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Request a Document</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 

@@ -17,7 +17,7 @@ For a list of all changes available with the 21.1 release, see [21.1 release ove
 
 To more easily share the status and progress of a project, you can now export the entire dashboard in the Metrics section of a project to a .png file.
 
-For more information, see Overview of project metrics.
+For more information, see [Overview of project metrics](../../../manage-work/projects/manage-projects/project-metrics.md).
 
 This feature is now included in the [Planner Fundamentals for the new Workfront experience, Part 3: Manage a Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) learning path on Workfront One.
 
@@ -25,7 +25,7 @@ This feature is now included in the [Planner Fundamentals for the new Workfront 
 
 We have updated the way the percent complete of issues works for issues that have been converted to projects or tasks. With the new functionality, when an issue is converted to a task or a project, the percent complete of the issue updates in sync with the percent complete of the resolving task or project when the "Automatically update Resolvable Issue status when the status of the Resolving Object changes" setting is enabled from setup.
 
-For information about converting issues, see Overview of Resolving and Resolvable Objects .
+For information about converting issues, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ```<iframe class="vimeo-player_0" src="assets/500719034?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -35,7 +35,7 @@ For information about converting issues, see Overview of Resolving and Resolvabl
 
 To allow you to manage your Submitted Requests in an easier, more consistent way, we have removed the Requests Iâ€™ve Submitted and All Requests sections in the Requests area and replaced them with a new Submitted list. The list has a familiar look and feel that matches all other lists in the system, allowing you to filter for different categories of submitted requests and quick search for a request that might be hard to find.
 
-For information about how to locate submitted requests, see Locate submitted requests.
+For information about how to locate submitted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ```<iframe class="vimeo-player_0" src="assets/486869995?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -65,7 +65,7 @@ The following New Issue Fields display only when creating an issue from the proj
 
 We have replaced the Assigned To, Job Role, and Team fields with the new Assignments field on the New Request page, to efficiently designate a user, job role, or team in a common field as you submit a new request.
 
-For information about defining New Issue Fields for a project, see Create a Request Queue.
+For information about defining New Issue Fields for a project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ```<iframe class="vimeo-player_0" src="assets/500720751?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -85,7 +85,7 @@ To bring consistency with the new Workfront experience and create efficiencies f
 
 Ability to share a link to the request queue, topic group, or queue topic as you enter the request.
 
-For information about submitting requests, see Create and submit Workfront requests.
+For information about submitting requests, see [Create and submit Workfront requests](create-submit-requests.md).
 
 ```<iframe class="vimeo-player_0" src="assets/500718803?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -101,7 +101,7 @@ We have now made it possible to share a link to a request queue, topic group, or
 
 Before you submit a new request, you can copy a link to the request queue, topic group, or queue topic of the request and share it with other users, or embed it in a dashboard.
 
-For information about sharing a link to a request queue when submitting a request, see Share a link to a request queue.
+For information about sharing a link to a request queue when submitting a request, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ```<iframe class="vimeo-player_0" src="assets/500718523?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -117,7 +117,7 @@ Depending on the details configured for the group, you might also see the groupâ
 
 With this information, you can be assured that you are selecting the right group to assign to the project.
 
-For more information, see Manage information in the project Overview area.
+For more information, see [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
 ```<iframe class="vimeo-player_0" src="assets/492153020?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

@@ -14,6 +14,6 @@ description: This section contains the following articles:
 This section contains the following articles:
 
 * [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md) 
-* Create and manage layout templates
+* [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) 
 * [ [Migrate your layout templates to the new Adobe Workfront experience](../../../administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md)](../../../administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md)
 

@@ -20,8 +20,7 @@ For information on setting up a portal, see [Set up a portal in Workfront Librar
 
 ## Add users to a portal
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. In the left panel, click **Portals**.
 
@@ -40,13 +39,13 @@ For information on setting up a portal, see [Set up a portal in Workfront Librar
 
 1. (Optional) Assign a different access level to the users.
 
-  1. Select the user or users for whom you want to change access, then click **Edit**.
+   1. Select the user or users for whom you want to change access, then click **Edit**.
 
-     The Edit Access dialog box opens.
+      The Edit Access dialog box opens.
 
-     ![](assets/editaccess-324x214.png)
+      ![](assets/editaccess-324x214.png)
 
-  1. In the **Access Level** drop-down menu, select the desired access level.
+   1. In the **Access Level** drop-down menu, select the desired access level.
 
 1. Click **Save.**
 
@@ -69,8 +68,7 @@ When you add a user grouping, all members of that grouping are given access to t
 
 Any user grouping that you add to the portal must first exist and be populated with users in Workfront.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. In the left panel, click **Portals**.
 
@@ -88,9 +86,9 @@ Any user grouping that you add to the portal must first exist and be populated w
 
 1. (Optional) Assign a different access level to the user grouping.
 
-  1. Select the user grouping that you want to change access to, then click **Edit**.
-  1. In the **Access Level** dropdown menu, select the desired access level.
-  1. Click **Save**.
+   1. Select the user grouping that you want to change access to, then click **Edit**.
+   1. In the **Access Level** dropdown menu, select the desired access level.
+   1. Click **Save**.
 
 1. (Optional) To view who is in a user grouping, select the desired grouping, then click the arrow next to the grouping's name.
 

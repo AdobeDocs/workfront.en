@@ -63,7 +63,8 @@ To group by a multi-select custom field in a report:
    For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Select the **Groupings** tab.
-1. Click **Switch to Text Mode**.
+1. Click **Switch to Text Mode**.  
+   ![](assets/switch-to-text-mode-link-350x41.png)  
 
 1. Select the text in the **Group your Report** box and replace it with the following code:  
    <pre>group.0.displayname=Multi-select Custom Field Name<br>group.0.valueexpression={DE:Multi-select Custom Field Name}<br>group.0.valueformat=HTML<br>textmode=true</pre>

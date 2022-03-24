@@ -69,10 +69,10 @@ Before you begin, you must
 
    Select from the following types:
 
-  * Bug Report
-  * Change Order
-  * Issue
-  * Request
+   * Bug Report
+   * Change Order
+   * Issue
+   * Request
 
    >[!TIP]
    >

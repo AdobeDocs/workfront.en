@@ -50,7 +50,7 @@ You must be the proof owner or creator, or you must have the Author or Moderator
 1. Hover over the proof and select **Document Details** .
 1. In the left panel, click **Proofing Viewer Settings**, then disable the **Allow sharing proof via public URL or embed code** checkbox.
 
-1. ![](assets/proofing-viewer-settings-350x200.png)
+   ![](assets/proofing-viewer-settings-350x200.png)
 
 1. Click **Save**.
 

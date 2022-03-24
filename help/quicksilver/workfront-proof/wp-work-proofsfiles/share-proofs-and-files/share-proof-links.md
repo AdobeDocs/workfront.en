@@ -34,9 +34,9 @@ To share proof links:
 
 1. In the **Share proof links** box that appears, do any of the following:
 
-  * Specify whether you want to share the Proof URL&nbsp;or the Download URL.
-  * Add people that you would like to share the links with by typing their email address.
-  * (Optional) Add a custom message to the email.
+   * Specify whether you want to share the Proof URL&nbsp;or the Download URL.
+   * Add people that you would like to share the links with by typing their email address.
+   * (Optional) Add a custom message to the email.
 
 1. Click **Submit**.
 

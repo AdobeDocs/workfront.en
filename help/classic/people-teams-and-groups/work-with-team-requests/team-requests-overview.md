@@ -4,7 +4,7 @@
 
 ## Understand team requests
 
-Team requests are found in the People area in the Team Requests tab.  
+Team requests are found in the People area in the Team Requests tab.
 
 >[!NOTE]
 >
@@ -18,9 +18,13 @@ A team request represents a pending work item that is not assigned to a specific
 >
 >A&nbsp;team request should not be used for collaborative task assignments. If you need to assign multiple users to work together on a task, do this through Advanced Assignments and not through Team requests. For more information, see [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
+![](assets/team-requests-adobe-350x158.png)
+
 ## Understand&nbsp;the Ready to Start and All subtabs
 
-There are two subtabs&nbsp;on the Team Requests tab: Ready to Start&nbsp;and All. The Ready to Start subtab&nbsp;shows only tasks and issues that meet all of the following criteria:
+There are two subtabs&nbsp;on the Team Requests tab: Ready to Start&nbsp;and All.
+
+The Ready to Start subtab&nbsp;shows only tasks and issues that meet all of the following criteria:
 
 * All predecessors have met the&nbsp;conditions for their&nbsp;predecessor dependency types.  
   For example, if the type of predecessor relationship is&nbsp;Finish-Start (predecessor task must finish before the dependent task can start), the predecessor must be&nbsp;marked as Complete. (For more information about predecessor dependency types, see [Overview of task dependency types](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)

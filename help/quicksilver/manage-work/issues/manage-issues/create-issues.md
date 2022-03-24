@@ -70,22 +70,26 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
+   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+
 1. Click **New Issue**.
+
+   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. They should have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).  
    ![](assets/new-issue-form--topic--queue--default-fields-only-350x533.png)
 
-  * If there is only one Queue Topic set on the project, it is displayed automatically.
-  * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
+   * If there is only one Queue Topic set on the project, it is displayed automatically.
+   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
 
 1. (Conditional) If the project creator allowed for the **Issue Type** field to display on the New Issue form, select the type of your issue from the following options:
 
-  * Bug Report
-  * Change Order
-  * Issue
-  * Request  
-    Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you.
+   * Bug Report
+   * Change Order
+   * Issue
+   * Request  
+     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you.
 
 1. Specify any of the fields available in the **New Issue** form. For more information about defining fields as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
@@ -108,7 +112,11 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 
 ## Create issues on a task or project inline
 
-``` ```**Important: **`````` ```The project owner must enable **Allow users to add issues inline** when defining issue settings for the project before you can add issues inline to the project or tasks. For information about configuring issue settings on a project, see``` [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).  When you want to add several issues quickly, you can create issues for a task or a project inline, by adding them to a list of issues.
+>[!IMPORTANT]
+>
+>```The project owner must enable **Allow users to add issues inline** when defining issue settings for the project before you can add issues inline to the project or tasks. For information about configuring issue settings on a project, see``` [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+When you want to add several issues quickly, you can create issues for a task or a project inline, by adding them to a list of issues.
 
 >[!NOTE]
 >
@@ -121,19 +129,34 @@ To create issues inline:
 1. Click the **Issues** section.  
 1. Click **Add More Issues**.
 
-   A new line is created in the list of issues on the Issues section. 
-   ``` ```**Tip: **`````` ```This option is dimmed if the Allow users to add issues inline setting is deselected in the Edit Project box. For information, see``` [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).   ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   A new line is created in the list of issues on the Issues section.
 
-1. Start typing the name of the issue in the Name field, then continue adding more information about the issue inline. 
+   >[!TIP]
+   >
+   >```This option is dimmed if the Allow users to add issues inline setting is deselected in the Edit Project box. For information, see``` [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   ``` ```**Tips: **``````
+   ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
-  * The fields that are available to edit inline are made available by the view you apply to your issue list. 
-  * You might not be able to inline edit the following type of fields:
+1. Start typing the name of the issue in the Name field, then continue adding more information about the issue inline.
 
-    * Fields that belong to another object
-    * Fields that you don't have access to edit them
-    * Fields that are calculations and which are automatically updated by Workfront.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * The fields that are available to edit inline are made available by the view you apply to your issue list. 
+   >   * You might not be able to inline edit the following type of fields: 
+   >   
+   >      
+   >      
+   >      * Fields that belong to another object
+   >      * Fields that you don't have access to edit them
+   >      * Fields that are calculations and which are automatically updated by Workfront. 
+   >      
+   >      
+   >   
+   >   
+   >
 
 1. Click Enter to finish inline editing, and add the issue to the project or task.
 

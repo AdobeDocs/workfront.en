@@ -86,11 +86,11 @@ For more information, see [link to Beta enrollment info].
 
 1. In the right panel, locate the field that you want to filter by.
 
-  1. (Optional) Enter text in the **Search** box.  
-     Up to X fields display.
-  
-  1. (Conditional) If you don't see the field that you want, click **more fields** to display more options.  
-     **[insert screenshot here]**
+   1. (Optional) Enter text in the **Search** box.  
+      Up to X fields display.
+   
+   1. (Conditional) If you don't see the field that you want, click **more fields** to display more options.  
+      **[insert screenshot here]**
 
 1. Select the field, then drag it to the Filter section.
 
@@ -158,13 +158,13 @@ For more information, see [link to Beta enrollment info].
 1. (Optional) To add another filter rule, drag the field to the **Drop to add another rule** drop area in the Filters section, then repeat Steps 5-6.
 1. (Conditional) If you want to add a filter rule set, do the following:
 
-  1. Drag the field that you want to add to the **Add a rule set** drop area.
+   1. Drag the field that you want to add to the **Add a rule set** drop area.
 
-     &nbsp;
-  
-  1. Drag the next field for your filter rule set to the **Drop to add another rule** drop area.
+      &nbsp;
+   
+   1. Drag the next field for your filter rule set to the **Drop to add another rule** drop area.
 
-     &nbsp;
+      &nbsp;
 
 1. (Conditional) If you have filter rule sets or multiple filter rules, select the operator drop-down, then select **AND** or **OR**.
 

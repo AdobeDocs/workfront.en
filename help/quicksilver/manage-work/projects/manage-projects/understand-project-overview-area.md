@@ -44,7 +44,8 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the project whose Overview section you want to view.
 1. Click **Project Details** in the left panel. 
-1. The **Overview** section should display first as part of the Project&nbsp;Details and should be expanded by default
+1. 
+   The **Overview** section should display first as part of the Project&nbsp;Details and should be expanded by default
 
    Or
 
@@ -60,13 +61,99 @@ You must have the following access to perform the steps in this article:
 
 1. Edit or review the fields in the table below that display in the **Overview** section.   
    To edit any field that is available for editing, click the field or click **+Add** to add information to an empty field.
-   ``` ```**Note: **`````` Depending on how your Workfront administrator configured your Layout Template, all fields might not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).  ```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">``` ```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">``` ```<tbody>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Description</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Describe the purpose of this project. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">URL</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Insert any URL in this field. It can be a Workfront URL or any other. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Priority</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Serves as the designated&nbsp;priority or importance of the project.</td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Status</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>The project&nbsp;Status. </p> <note type="tip">    You cannot complete a project unless all tasks and issues have also completed. If the Completion&nbsp;Mode of the Project is set to Automatic, you cannot manually complete a project.    </note> </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Condition&nbsp;Type</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Determines if the manager sets the Condition&nbsp;of the project or if Workfront does.&nbsp;For information about Project&nbsp;Condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Schedule Mode</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Sets how the project is scheduled.&nbsp;For example, whether the project is scheduled from Start Date or from the Completion Date.&nbsp;</td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Planned Start Date and Time</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> When the project is planned to start. This is manually set by the project manager when the project is scheduled from Start&nbsp;Date. Workfront automatically sets this date when the project is scheduled from&nbsp;Completion&nbsp;Date, based on the duration of the tasks in the project.</td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Planned Completion Date and Time</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> When the project is planned to complete. This is manually set by the project manager when the project is scheduled from Completion Date. Workfront automatically sets this date when the project is scheduled from&nbsp;Start Date, based on the duration of the tasks in the project. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Portfolio</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">The portfolio associated with the project. You must create the portfolio before you can add it to a project. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Program</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The program associated with the portfolio of the project. You must create the program before you can add it to a project. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Group</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>The Group associated with the project.</p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <note type="note">     <p>By default, one of the following groups is automatically associated <span data-mc-edit-date="2020-12-02T17:06:08.1586452-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted, only in QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-12-02T17:06:00.8315301-05:00">with</span> a project when it is created, unless you specify a different group: </p>     <ul>      <li> <p><span>When the project is created from the Projects area, project creator’s Home Group is associated with the project.</span> </p> </li>      <li> <p><span>When the project is created from a group’s main page in the Setup area, that group is automatically associated with the project.</span> </p> </li>     </ul>    </note> </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Company</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The Company associated with the project. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Project Owner </td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">This is the owner of the project. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Project Sponsor</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>This is the primary stakeholder for the project. This is usually an executive overseeing and championing the project, or it is the person with budgetary responsibility.</p> </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Resource Manager</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>This is the person who can manage user resources in the project. </p> <p>For information about Resource Managers, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td>  </tr> </tbody>```  
+
+   >[!NOTE]
+   >
+   >Depending on how your Workfront administrator configured your Layout Template, all fields might not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+
+   <table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Describe the purpose of this project. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">URL</td> 
+      <td>Insert any URL in this field. It can be a Workfront URL or any other. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Priority</td> 
+      <td>Serves as the designated&nbsp;priority or importance of the project.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Status</td> 
+      <td> <p>The project&nbsp;Status. </p> <p>Tip: You cannot complete a project unless all tasks and issues have also completed. If the Completion&nbsp;Mode of the Project is set to Automatic, you cannot manually complete a project. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Condition&nbsp;Type</td> 
+      <td>Determines if the manager sets the Condition&nbsp;of the project or if Workfront does.&nbsp;For information about Project&nbsp;Condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Schedule Mode</td> 
+      <td>Sets how the project is scheduled.&nbsp;For example, whether the project is scheduled from Start Date or from the Completion Date.&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Planned Start Date and Time</td> 
+      <td> When the project is planned to start. This is manually set by the project manager when the project is scheduled from Start&nbsp;Date. Workfront automatically sets this date when the project is scheduled from&nbsp;Completion&nbsp;Date, based on the duration of the tasks in the project.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Planned Completion Date and Time</td> 
+      <td> When the project is planned to complete. This is manually set by the project manager when the project is scheduled from Completion Date. Workfront automatically sets this date when the project is scheduled from&nbsp;Start Date, based on the duration of the tasks in the project. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Portfolio</td> 
+      <td>The portfolio associated with the project. You must create the portfolio before you can add it to a project. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Program</td> 
+      <td>The program associated with the portfolio of the project. You must create the program before you can add it to a project. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Group</td> 
+      <td> <p>The Group associated with the project.</p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Note:  <p>By default, one of the following groups is automatically associated <span data-mc-edit-date="2020-12-02T17:06:08.1586452-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted, only in QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-12-02T17:06:00.8315301-05:00">with</span> a project when it is created, unless you specify a different group: </p> 
+        <ul> 
+         <li> <p><span>When the project is created from the Projects area, project creator’s Home Group is associated with the project.</span> </p> </li> 
+         <li> <p><span>When the project is created from a group’s main page in the Setup area, that group is automatically associated with the project.</span> </p> </li> 
+        </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Company</td> 
+      <td>The Company associated with the project. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Project Owner </td> 
+      <td>This is the owner of the project. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Project Sponsor</td> 
+      <td> <p>This is the primary stakeholder for the project. This is usually an executive overseeing and championing the project, or it is the person with budgetary responsibility.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Resource Manager</td> 
+      <td> <p>This is the person who can manage user resources in the project. </p> <p>For information about Resource Managers, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. Review the following fields in the Overview section.&nbsp;You cannot edit the following fields: 
-1. ```<col>``` ```<col>``` ```<tbody>  <tr>   <td role="rowheader">Reference Number</td>   <td>This is an automatically generated field and it always has a unique value for each project. </td>  </tr>  <tr>   <td role="rowheader">Projected Start Date</td>   <td>This is a 'real time' date of when work is going to start based on completed work and remaining work.</td>  </tr>  <tr>   <td role="rowheader">Projected Completion Date</td>   <td>This is a ‘real time’ date of when the project is going to be completed based on the progress of completed tasks&nbsp;and based on the progress updates on the tasks that are either New or In Progress status.</td>  </tr>  <tr>   <td role="rowheader">Planned Hours</td>   <td>Hours planned on the project. These hours are a total of Planned Hours for each task. </td>  </tr>  <tr>   <td role="rowheader">Actual Hours</td>   <td>Hours logged on the project. These hours are a total of the logged hours on the project, the tasks, or the issues of the project. </td>  </tr>  <tr>   <td role="rowheader">Planned Duration</td>   <td>Amount of time the project will span, based on the time frame between the earliest Planned Start Date of a task and the latest Planned Completion Date of a task on the project. </td>  </tr>  <tr>   <td role="rowheader">Actual Duration</td>   <td>Amount of time the project will actually span, based on the timeframe between the earliest Actual Start Date of a task and the latest Actual Completion Date of a task on the project. </td>  </tr>  <tr>   <td role="rowheader">Entry Date</td>   <td>The date and time when the project is created. </td>  </tr>  <tr>   <td role="rowheader">Entered By</td>   <td>The name of the user who created the project. </td>  </tr>  <tr>   <td role="rowheader">Last Update Date</td>   <td>The date and time when the project was last updated. </td>  </tr>  <tr>   <td role="rowheader">Last Updated By</td>   <td>The name of the user who last updated the project. </td>  </tr>  <tr>   <td role="rowheader">Template</td>   <td>&nbsp;</td>  </tr> </tbody>``` 
+
+   | Reference Number |This is an automatically generated field and it always has a unique value for each project.  |
+   |---|---|
+   | Projected Start Date |This is a 'real time' date of when work is going to start based on completed work and remaining work. |
+   | Projected Completion Date |This is a ‘real time’ date of when the project is going to be completed based on the progress of completed tasks&nbsp;and based on the progress updates on the tasks that are either New or In Progress status. |
+   | Planned Hours |Hours planned on the project. These hours are a total of Planned Hours for each task.  |
+   | Actual Hours |Hours logged on the project. These hours are a total of the logged hours on the project, the tasks, or the issues of the project.  |
+   | Planned Duration |Amount of time the project will span, based on the time frame between the earliest Planned Start Date of a task and the latest Planned Completion Date of a task on the project.  |
+   | Actual Duration |Amount of time the project will actually span, based on the timeframe between the earliest Actual Start Date of a task and the latest Actual Completion Date of a task on the project.  |
+   | Entry Date |The date and time when the project is created.  |
+   | Entered By |The name of the user who created the project.  |
+   | Last Update Date |The date and time when the project was last updated.  |
+   | Last Updated By |The name of the user who last updated the project.  |
+   | Template |&nbsp; |
 
 1. If your company has purchased an additional license for the Adobe Workfront Scenario Planner, and the project has information published from a linked initiative, review the following initiative information in the Scenario Planner area:
-1. 
 
    <table cellspacing="0"> 
     <col> 
@@ -100,6 +187,7 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. For information about linking projects with initiatives, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+   For information about linking projects with initiatives, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+
 1. Click **Save Changes**.
 

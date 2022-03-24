@@ -19,8 +19,8 @@ For more information about Progress Status of tasks, see [Task Progress Status o
 <p>To set the tracking mode:</p>
 <ol>
 <li value="1">Go to the task you want to set the tracking mode for.</li>
-<li value="2"> Click&nbsp;<strong>Edit Task</strong> in the upper-right corner.  <p>The Edit Task dialog box opens. </p> </li>
-<li value="3"> <p>In the&nbsp;<strong>Settings</strong> section, use the&nbsp;<strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref">Tracking Mode options</a> section in this article. </p> <p>  </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click&nbsp;<strong>Edit Task</strong> in the upper-right corner. </p> <p>The Edit Task dialog box opens. </p> </li>
+<li value="3"> <p>In the&nbsp;<strong>Settings</strong> section, use the&nbsp;<strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref">Tracking Mode options</a> section in this article. </p> <p> <img src="assets/utmt-350x197.png" alt="utmt.png" style="width: 350;height: 197;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="4">Click&nbsp;<strong>Save Changes.</strong></li>
 </ol>
 </div>

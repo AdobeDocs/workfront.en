@@ -74,13 +74,13 @@ You must have the following before you can start:
   >
   >If the following project information updates at the project level, Workfront Goals automatically updates it at the goal level:
   >
-  >  
-  >  
-  >  * Project owner
-  >  * Project name
-  >  * Project percent complete
-  >  
-  >  
+  >   
+  >   
+  >   * Project owner
+  >   * Project name
+  >   * Project percent complete
+  >   
+  >   
   >For information about connecting projects to goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * You can delete results and activities from goals when they are not longer relevant to the goal progress. Deleted results and activities cannot be recovered. For information about deleting results and activities, see [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).

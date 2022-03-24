@@ -102,14 +102,14 @@ In order to be most effective when using the resource scheduling tools in Workfr
 Depending on where you want to schedule resources, you can access the Scheduling timeline in the following areas of Workfront:
 
 * For multiple projects, in the Scheduling area
-* For a project in the Scheduling section 
+* For a project in the Scheduling section
 * For a team, in the Schedule section
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. (Optional) Click the **Full-Screen** icon, located in the upper-right corner of the scheduling timeline.  
    ![scheduling_fullscreen_enter.png](assets/scheduling-fullscreen-enter.png)  
@@ -117,8 +117,8 @@ Depending on where you want to schedule resources, you can access the Scheduling
 
 1. (Optional) To exit full-screen mode, do either of the following:
 
-  * Click the **Full-Screen** icon.
-  * Press the Esc key.
+   * Click the **Full-Screen** icon.
+   * Press the Esc key.
 
 ### View resource assignments and details
 
@@ -126,9 +126,9 @@ You can view the current resourcing assignments and other details about individu
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. (Optional) To customize what content dispalys on the scheduling timeline, create a filter, as described in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 1. Expand a task or issue to view the following information:  
@@ -176,15 +176,15 @@ On the scheduling timeline, you can minimize tasks and issues that are displayed
    ![scheduling_minimize_user.png](assets/scheduling-minimize-user-350x137.png)  
    The way tasks and issue display depends on the following settings:
 
-  * If you enable the **Show Totals for Daily Planned Hours** the following conditions apply:
+   * If you enable the **Show Totals for Daily Planned Hours** the following conditions apply:
 
-    * Only Planned Hours for the user display
-    * Tasks and issues are hidden
+      * Only Planned Hours for the user display
+      * Tasks and issues are hidden
 
 1.
 
-  * If you enable the **Show Totals for Daily Planned Hours** tasks and issues for the user are minimized.  
-    ![RS_user_collapsed__1_.png](assets/rs-user-collapsed--1--350x152.png)
+   * If you enable the **Show Totals for Daily Planned Hours** tasks and issues for the user are minimized.  
+     ![RS_user_collapsed__1_.png](assets/rs-user-collapsed--1--350x152.png)
 
 #### Minimize tasks and issues for a job role
 
@@ -216,9 +216,9 @@ Use any of the following options to modify the date range for which data idispla
 * **Date Range Options:** Click the current date range, then select the number of weeks to display on the timeline. You can display Day (single day), 1 week (7 days), 2 weeks (14 days), 3 weeks (21 days), 4 weeks (28 days), or 6 weeks (42 days).  
   Consider the following when adjusting the date range of the scheduling timeline:
 
-  * The date range options you select are preserved the next time you visit the scheduling timeline. 
-  * When viewing the scheduling timeline in the Day view, user allocations are not displayed.  
-    ![resource_daterange_zoom.png](assets/resource-daterange-zoom-350x227.png)
+   * The date range options you select are preserved the next time you visit the scheduling timeline. 
+   * When viewing the scheduling timeline in the Day view, user allocations are not displayed.  
+     ![resource_daterange_zoom.png](assets/resource-daterange-zoom-350x227.png)
 
 * **Calendar:** Click the current date range, then click the day prior to or after the current day. The time between the current day and the selected day is the new range.  
   ![resource_daterange.png](assets/resource-daterange-350x227.png)  

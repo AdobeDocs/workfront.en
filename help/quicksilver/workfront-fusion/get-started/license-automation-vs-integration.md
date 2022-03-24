@@ -41,15 +41,15 @@ With the Workfront Fusion for Automation license, you have access to the followi
 * Webhooks
 * Tools and transformer modules such as:
 
-  * PDF tools 
-  * Archive 
-  * CSV 
-  * Data Stores
-  * Image
-  * JSON
-  * Math
-  * MIME
-  * XML
+   * PDF tools 
+   * Archive 
+   * CSV 
+   * Data Stores
+   * Image
+   * JSON
+   * Math
+   * MIME
+   * XML
 
 ### Example of Workfront Fusion for Work Automation
 

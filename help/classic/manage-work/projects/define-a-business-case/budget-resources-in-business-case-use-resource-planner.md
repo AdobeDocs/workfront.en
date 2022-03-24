@@ -72,8 +72,8 @@ Before you begin, you must do the following:
 To apply Resource Pools and budget project resources in the Business Case for a project with no Resource Pool:
 
 1. Go to the project for which you want to budget resources. 
-1. Project Details
-1. Select the **Business Case** sub-tab.  
+1. Select the **Project Details** tab. 
+1. Select the **Business Case** sub-tab. 
 1. Click **Edit Resource Budgeting** in the **Resource Budgeting** section. 
 1. In the **Select Resource Pool** field, specify one or several **Resource Pools**.
 

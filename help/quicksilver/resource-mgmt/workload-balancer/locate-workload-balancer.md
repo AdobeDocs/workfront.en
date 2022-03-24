@@ -71,29 +71,43 @@ You can manage resources in the following predefined areas in Workfront:
 
 For multiple projects:
 
-* In the Workload Balancer section the Resourcing area. The Workload Balancer is the default setting.  You can make resourcing assignments and adjust allocations across multiple projects that you have permissions to edit.
+* In the Workload Balancer section the Resourcing area. The Workload Balancer is the default setting.
+
+  You can make resourcing assignments and adjust allocations across multiple projects that you have permissions to edit.
+
+  ![](assets/nwe-balancer-global-350x154.png)
 
 For a team:
 
-* From the Workload Balancer section of a team.  You can adjust allocations and review or assign work from multiple projects to individual team members.
+* From the Workload Balancer section of a team.
+
+  You can adjust allocations and review or assign work from multiple projects to individual team members.
+
+  ![](assets/nwe-balancer-team-350x172.png)
 
 For a project:
 
-* In the Workload Balancer section of a project. The Workload Balancer is the default setting.  You can do the following when you use the&nbsp;Workload Balancer within a project:
+* In the Workload Balancer section of a project. The Workload Balancer is the default setting.
 
-  * Assign work on the project to users already assigned other work on the project.
-  * Assign work to any user that might not be on the project.
+  You can do the following when you use the&nbsp;Workload Balancer within a project:
 
-  * View additional work that users are assigned to on other projects.
-  * Adjust user allocations to work items.
+   * Assign work on the project to users already assigned other work on the project.
+   * Assign work to any user that might not be on the project.
 
-Add the&nbsp;Workload Balancer to a custom section You can add the Workload Balancer to any custom  section .
+   * View additional work that users are assigned to on other projects.
+   * Adjust user allocations to work items.
+
+  ![](assets/nwe-balancer-project-350x152.png)
+
+## Add the&nbsp;Workload Balancer to a custom section
+
+You can add the Workload Balancer to any custom  section .
 
 1. Access the Workload Balancer by going to any of the following areas:
 
-  * The  Resourcing area
-  * A team 
-  * A project
+   * The  Resourcing area
+   * A team 
+   * A project
 
 1. Obtain a shareable link and copy it to your clipboard as described in [Share the Workload Balancer with a link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
 1. Create a dashboard with an external page as described in [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Use the shareable link you obtained in Step 2 for the external page. 

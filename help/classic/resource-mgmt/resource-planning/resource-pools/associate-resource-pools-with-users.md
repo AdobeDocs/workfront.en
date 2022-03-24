@@ -82,6 +82,8 @@ To associate resource pools with several users in bulk:
    >
    >Only the resource pools that are common to all the users selected appear in this field. If the users selected have no shared resource pools, this field is empty. If this field is empty, the resource pools you specify here will overwrite their individual resource pools.
 
+   ![resource_pools_to_users_in_bulk.png](assets/resource-pools-to-users-in-bulk-350x374.png)  
+
 1. Click **Save Changes**.
 
 For more information about how to edit users in bulk, see [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md). 

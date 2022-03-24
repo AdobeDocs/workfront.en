@@ -63,8 +63,7 @@ When you deactivate a portfolio, you can still access it from the Portfolios are
 
 1. Click **Portfolios** .
 1. Click the name of the portfolio.
-1. 
-1. Deactivate Portfolio
+1. Click the More menu ![](assets/more-icon.png) to the right of the portfolio name, then click **Deactivate Portfolio**.
 
 ## Delete a portfolio
 

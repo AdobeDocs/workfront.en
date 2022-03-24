@@ -56,6 +56,8 @@ You must have the following access to perform the steps in this article:
 
 1. Click&nbsp;**Save**.
 
+![](assets/project-owner-350x79.png)
+
 ## Update the Project Sponsor of a project
 
 1. Go to the Project you want to update.

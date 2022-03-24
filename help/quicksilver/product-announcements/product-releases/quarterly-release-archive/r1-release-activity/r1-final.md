@@ -135,10 +135,10 @@ You can now include the following additional information&nbsp;in custom views:
 
 * New default report types:
 
-  * Proof turnaround time
-  * Late approval percentage
-  * Proof first activity time
-  * Number of comments and replies
+   * Proof turnaround time
+   * Late approval percentage
+   * Proof first activity time
+   * Number of comments and replies
 
 * Print reports
 * Updated look and feel

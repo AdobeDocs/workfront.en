@@ -48,7 +48,7 @@ For information about how to create an email template, see [Configure email temp
 
 ## Create&nbsp;a reminder notification
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Email** > **Notifications**.
 
 1. Click the **Reminder Notifications**&nbsp;tab, then click **New Reminder Notification**.
@@ -119,7 +119,7 @@ For instance, if a reminder is set to trigger an hour after the Planned Completi
 
 To cause a reminder notification to trigger manually:
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click&nbsp;**System** > **Diagnostics** in the lower left corner of Workfront. 
 
 1. Click **Send Reminder Notifications** and wait for the confirmation at the top of the screen that they have been sent.

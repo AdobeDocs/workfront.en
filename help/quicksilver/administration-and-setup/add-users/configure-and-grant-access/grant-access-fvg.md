@@ -1,4 +1,12 @@
-
+---
+filename: grant-access-fvg
+title: Grant access to filters, views, and groupings
+user-type: administrator
+product-area: system-administration
+navigation-topic: configure-access-to-workfront
+title: Grant access to filters, views, and groupings
+description: As an Adobe Workfront administrator, you can use an access level to define a user's access to the filter, view, and grouping controls for lists and reports, as explained in Access levels overview.
+---
 
 # Grant access to filters, views, and groupings
 
@@ -45,7 +53,7 @@ You must have the following to perform the steps in this article:
    -->
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. When you are finished, click Save.
+1. When you are finished, click **Save**.
 
    After the access level is created, you can assign it to a user. For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

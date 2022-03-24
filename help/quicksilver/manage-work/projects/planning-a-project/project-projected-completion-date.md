@@ -51,14 +51,14 @@ The criteria used to determine&nbsp;the Projected Completion Date differs, depen
 * **Projects:** The Projected Completion Date for projects equates with the Projected Completion Date of the latest task on the project.
 * **Tasks:**&nbsp;The Projected Completion Date for tasks is determined based on the following criteria:
 
-  * **Progress updates made on the task by the task assignee:**&nbsp;Progress updates include changes to percent complete and changes of task status.
-  * **Commit Date:** If the task assignee specifies a Commit Date, the Projected Completion Date changes to match the Commit Date.
+   * **Progress updates made on the task by the task assignee:**&nbsp;Progress updates include changes to percent complete and changes of task status.
+   * **Commit Date:** If the task assignee specifies a Commit Date, the Projected Completion Date changes to match the Commit Date.
 
-    For more information about Commit Dates, see&nbsp;the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
-  
-  * **Predecessors:** If there are no delays on the predecessor tasks, the Projected Completion Date should match the&nbsp;Planned Completion Date. As delays occur, dependent tasks show a Projected Completion Date greater than the Planned Completion Date.
+     For more information about Commit Dates, see&nbsp;the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+   
+   * **Predecessors:** If there are no delays on the predecessor tasks, the Projected Completion Date should match the&nbsp;Planned Completion Date. As delays occur, dependent tasks show a Projected Completion Date greater than the Planned Completion Date.
 
-    For more information about the Planned Completion Date of tasks, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+     For more information about the Planned Completion Date of tasks, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
@@ -84,13 +84,13 @@ You can view the Projected Completion Date of projects, tasks, and issues in rep
 ### View the Projected Completion Date of a&nbsp;project
 
 1. Go to the project where you want to view the Projected Completion Date.
-1. Click **Project Details** in the left panel.  
+1. Click **Project Details** in the left panel. 
 1. Locate the **Projected Completion Date** field in the **Overview** section.
 
 ### View the Projected Completion Date of a&nbsp;task
 
 1. Go to the task where you want to view the Projected Completion Date.
-1. Click **Task Details** in the left panel. 
+1. Click **Task Details** in the left panel.
 1. Locate the **Projected Completion Date** field in the **Overview** section.
 
 ### View the Projected Completion Date of an&nbsp;issue

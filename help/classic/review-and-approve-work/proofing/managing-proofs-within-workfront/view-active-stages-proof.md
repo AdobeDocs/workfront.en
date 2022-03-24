@@ -42,10 +42,14 @@ You must have the following access to perform the steps in this article:
 ## View active stages on a proof
 
 1. In the document list that contains the proof, select the row where the name of the proof displays.
-1. 
+
+   ![](assets/select-row-in-doc-list-classic-350x148.png)
+
 1. On the **Details** tab, locate the **Stages** section.
 
-1. The first current active stages are displayed (up to five). This section is displayed only if the proof contains an Automated Workflow.
-1. 
-1. See All
+   The first current active stages are displayed (up to five). This section is displayed only if the proof contains an Automated Workflow.
+
+   ![proof_stages_view.png](assets/proof-stages-view-350x266.png)
+
+1. (Optional) Click **See All** to view all active stages.
 

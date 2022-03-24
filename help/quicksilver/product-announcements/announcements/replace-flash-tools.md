@@ -43,11 +43,11 @@ For information about replacement tools, see [Legacy Flash-based tools and their
 
 * The Legacy Resource Planning tab in the People area and all the tools contained in the tab, which includes the following:
 
-  * Resource Budget Manager
-  * Capacity Planner
-  * Resource Estimates
-  * Resource Grid  
-    For more information, see [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+   * Resource Budget Manager
+   * Capacity Planner
+   * Resource Estimates
+   * Resource Grid  
+     For more information, see [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * The Legacy Resource Estimates area in the Business Case of a project
 
@@ -76,14 +76,14 @@ The following reporting features and reports have been removed:
 
 * Removed reporting features:
 
-  * The Resource Grid option in a user report
-  * The Legacy Gantt option in a project or task report  
-    For more information, see [View information in the Gantt Chart](../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+   * The Resource Grid option in a user report
+   * The Legacy Gantt option in a project or task report  
+     For more information, see [View information in the Gantt Chart](../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 * Removed reports:
 
-  * The Legacy Resource Pool report
-  * The Resource Estimates report
+   * The Legacy Resource Pool report
+   * The Resource Estimates report
 
   >[!NOTE]
   >

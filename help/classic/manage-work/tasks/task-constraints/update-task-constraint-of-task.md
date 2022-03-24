@@ -41,10 +41,9 @@ You must have the following to change the Task Constraint of a task:
 
 ## Update the Task&nbsp;Constraint of a task
 
-1. Click **Projects** in the Global Navigation Bar, then click a project to access it. 
+1. Click **Projects** in the Global Navigation Bar, then click a project to access it.
 1. Click the **Tasks** tab . 
-1. On the **Task Details** tab, click **Overview** > **Edit Overview** > **Task Constraint**. 
-
+1. On the **Task Details** tab, click **Overview** > **Edit Overview** > **Task Constraint**.
 1. Select from the following options
 
    | Fixed Dates |For information, see [Task Constraint overview: Fixed Dates](../../../manage-work/tasks/task-constraints/fixed-dates.md).  |

@@ -44,6 +44,7 @@ You must have the following access to perform the steps in this article:
 
 You can attach Custom Forms to a project in the following areas:
 
+* When editing a project, in the Project Details tab, in the Custom Form subtab.
 * When editing a project, in the Edit Project box.
 * When editing multiple projects in bulk, from a list of projects.
 

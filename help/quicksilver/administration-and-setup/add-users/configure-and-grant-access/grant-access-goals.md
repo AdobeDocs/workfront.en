@@ -1,4 +1,12 @@
-
+---
+filename: grant-access-goals
+title: Grant access to documents
+user-type: administrator
+product-area: system-administration;documents
+navigation-topic: configure-access-to-workfront
+title: Grant access to Adobe Workfront Goals
+description: As an Adobe Workfront administrator, you can use an access level to define a user’s access to Adobe Workfront Goals, as explained in Access levels overview.
+---
 
 # Grant access to Adobe Workfront Goals
 
@@ -33,7 +41,7 @@ You must have the following to grant users access to Workfront Goals:
 
 &#42;To find out what plan, license type, or access level you have, contact your Workfront administrator.
 
-For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.
+For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 ## Grant user access to Workfront Goals using a custom access level
 
@@ -47,7 +55,7 @@ For additional information about access to Workfront Goals, see Requirements to 
    >The External license type does not allow View or Edit access to Workfront Goals.
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. When you are finished, click Save.
+1. When you are finished, click **Save**.
 
 ## Access to Workfront Goals by license type
 

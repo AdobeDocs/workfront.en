@@ -79,10 +79,10 @@ The following information is not included in the printed or exported dashboard f
 1. Go to the dashboard that you want to print.
 1. Do either of the following:
 
-  * Click **Dashboard Actions** > **Print**
-  
-  * Press **Ctrl+P** (on Windows) or **Command+P** (on Mac)  
-    The keyboard shortcut option is not available when using the Internet Explorer browser.
+   * Click **Dashboard Actions** > **Print**
+   
+   * Press **Ctrl+P** (on Windows) or **Command+P** (on Mac)  
+     The keyboard shortcut option is not available when using the Internet Explorer browser.
 
 1. In the **Destination** field, select from the various printing options available.  
    The printing options vary depending on the browser and browser version you use.

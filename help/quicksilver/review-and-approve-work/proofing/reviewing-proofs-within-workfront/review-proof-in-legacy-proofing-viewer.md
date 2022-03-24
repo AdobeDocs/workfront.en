@@ -64,16 +64,16 @@ When proofing interactive URLs:
 
    Options include (in order, from the left):
 
-  * Panning or moving the image
-  * Zooming in
-  * Scaling the document to fit the screen
-  * Select percentage of zoom
-  * Fit to page
-  * Fit to width
-  * Zoom to 100%&nbsp;
-  * Zoom to 100%
-  * Rotate the document&nbsp;
-  * Measure a specific area
+   * Panning or moving the image
+   * Zooming in
+   * Scaling the document to fit the screen
+   * Select percentage of zoom
+   * Fit to page
+   * Fit to width
+   * Zoom to 100%&nbsp;
+   * Zoom to 100%
+   * Rotate the document&nbsp;
+   * Measure a specific area
 
 Any comments made on the document appear in the stream of your Workfront instance, on the Details tab of the document. Proof Comments&nbsp;are&nbsp;marked to distinguish them from document updates.
 

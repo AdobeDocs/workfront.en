@@ -67,7 +67,7 @@ You must have the following:
 
 You can configure whether you receive email notifications for access requests. Your Workfront administrator can disable this functionality (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. My Settings
+1. Click your avatar in the upper-right corner of the Global Navigation bar, then click **My Settings**.
 1. Click **Preferences**, or scroll to the Preferences section.
 1. In the **Email Me When** drop-down list, select or deselect **Someone requests access from me**, depending on whether you want to receive email notifications when another user requests access from you or not.
 

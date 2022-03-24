@@ -38,7 +38,7 @@ You must have the following to perform the steps in this article:
 
 ## Set timesheet and hour preferences
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Timesheet & Hours** > **Preferences**.
 
 1. On the page that displays, in the **General Preferences** section, configure any of the following options:

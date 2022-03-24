@@ -30,8 +30,8 @@ We have introduced a new design for the Edit Object box to match the new Adobe W
 * Synchronicity with the Details page that allows the Adobe Workfront administrator to customize your Layout Template once and to reflect those customizations in both the Details page and the&nbsp;Edit Object box. For information about customizing the Details page using a Layout Template, see [Customize the Details view using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
 * The Edit Object page has been divided into two distinct areas based on the similarity of the fields that they contain:
 
-  * Details:&nbsp;Contains general information about the object, like name, description, custom data.
-  * Setup:&nbsp;Contains information that reflects the specific setup of the object, like approval process or permissions.
+   * Details:&nbsp;Contains general information about the object, like name, description, custom data.
+   * Setup:&nbsp;Contains information that reflects the specific setup of the object, like approval process or permissions.
 
 ## Access requirements
 
@@ -82,14 +82,14 @@ Accessing the Edit Object box is similar for all objects where this functionalit
 
    Notice the following in the Details and Setup sections:
 
-  * Each section contains multiple links that take you directly to areas in the Edit box where you can update fields related to the object. 
-  * Depending on how your Workfront administrator sets up our Layout Template, the fields in the Edit box might display different fields in your environment. For information, see [Customize the Details view using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   * Each section contains multiple links that take you directly to areas in the Edit box where you can update fields related to the object. 
+   * Depending on how your Workfront administrator sets up our Layout Template, the fields in the Edit box might display different fields in your environment. For information, see [Customize the Details view using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. To edit information, click any editable field that you have permissions to edit, and specify the information about the object, then click&nbsp;**Save**.
 
    For more information about editing different objects, see the following articles:
 
-  * [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md) 
-  * [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md) 
-  * [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md)
+   * [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md) 
+   * [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md) 
+   * [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md)
 

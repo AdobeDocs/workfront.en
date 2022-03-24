@@ -43,8 +43,7 @@ You must have the following access to perform the steps in this article:
 
 You can create a personal task that is available only to you in the Home area:
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**.  
-
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. Click **New Task** >&nbsp;**Personal**.  
   
    ![](assets/creating-work-items-new-task-personal-350x228.png)
@@ -56,8 +55,10 @@ You can create a personal task that is available only to you in the Home area:
 1. Click **Create**&nbsp;to save the task.  
    The task is assigned to you and is available in the Home area.
 
-``` ```**Note: **``````When you create a personal task, it is stored in a "hidden" project that is not searchable in Workfront. You can only access this project when you delete a task on it (from the task itself, not from the Home area).  
-![Project for personal tasks](assets/createworkitems-personal--project-350x105.png) 
+>[!NOTE]
+>
+>When you create a personal task, it is stored in a "hidden" project that is not searchable in Workfront. You can only access this project when you delete a task on it (from the task itself, not from the Home area).  
+>![Project for personal tasks](assets/createworkitems-personal--project-350x105.png)>
 
 ## Request work from another user
 
@@ -65,8 +66,7 @@ You can request work from another user directly from the Home area. When you req
 
 To request work from another user from the Home area:
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**.  
-
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. Click **New Task**, then select **Request**.  
    ![](assets/creating-work-items-new-task-request-350x289.png)
 
@@ -81,8 +81,7 @@ To request work from another user from the Home area:
 
 You can add a task or issue to an existing project directly from the Home area:
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**.  
-
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. Click **New Task**, then select **Project Task**.  
    ![](assets/creating-work-items-new-task-personal-350x228.png)
 

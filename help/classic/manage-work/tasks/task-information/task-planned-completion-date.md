@@ -39,7 +39,7 @@ You can manually set the Planned Completion Date&nbsp;in the following areas of 
 * In the Task&nbsp;Details area. For information, see [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
 * In the Home area if the Planned Completion Date displays when viewing a task. For information, see [Update or edit a work item in the Home area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * In the My Work area if the Planned Completion Date displays when viewing tasks. You must use a Layout Template to add the Planned Completion Date in the My Work area. For information, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-* On the task page, in the details section to the right of the task.  
+* On the task page, in the details section to the right of the task. 
 * In a task list or report when the Planned Completion Date field displays in the view.
 
   For information, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).

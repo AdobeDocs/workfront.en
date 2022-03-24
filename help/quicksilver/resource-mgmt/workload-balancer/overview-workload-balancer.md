@@ -37,21 +37,21 @@ You can assign work items to users in the following areas of Adobe Workfront:
 
   You can use the following tools:
 
-  * The Workload Balancer in the Scheduling section.
+   * The Workload Balancer in the Scheduling section.
 
-    For information about using the Workload Balancer, continue reading this article and all articles in this section. 
-  
-  * The existing resource scheduler in the Scheduling section
+     For information about using the Workload Balancer, continue reading this article and all articles in this section. 
+   
+   * The existing resource scheduler in the Scheduling section
 
 * At the project level, in the following areas of Workfront:
 
-  * The Workload Balancer in the Scheduling section of a project. The Scheduling section becomes the Workload Balancer section.
-  * The existing resource scheduler in the  Scheduling section of a project
+   * The Workload Balancer in the Scheduling section of a project. The Scheduling section becomes the Workload Balancer section.
+   * The existing resource scheduler in the  Scheduling section of a project
 
 * At the team level, in the following areas of Workfront:
 
-  * The Workload Balancer in the Schedule section of a team. The Schedule section becomes the Workload Balancer section. 
-  * The existing resource scheduler in the  Schedule section ```<MadCap:conditionalText data-mc-conditions="">  of a team. </MadCap:conditionalText>```
+   * The Workload Balancer in the Schedule section of a team. The Schedule section becomes the Workload Balancer section. 
+   * The existing resource scheduler in the  Schedule section ```<MadCap:conditionalText data-mc-conditions="">  of a team. </MadCap:conditionalText>```
 
 For information about scheduling resources at the project, team level, or at the system level when using the existing resource scheduling tools see the articles in the section [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
 
@@ -107,14 +107,14 @@ For information about creating and using filters in the Workload Balancer, see [
 
 * The users whose workload you want to manage need to meet the following criteria so that the information about their availability and skills is accurate:
 
-  * Have Schedules and Job Roles associated with their profile.
-  * For more information about associating Schedules and Job Roles with users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
-  * If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of resource management. 
-  * Have Schedule Exceptions updated in their schedules.  
-    For more information about creating schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
-  
-  * Have their Time Off calendar updated in their profile.   
-    For information about updating a user's Time Off calendar, see [Configure personal time off in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   * Have Schedules and Job Roles associated with their profile.
+   * For more information about associating Schedules and Job Roles with users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+   * If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of resource management. 
+   * Have Schedule Exceptions updated in their schedules.  
+     For more information about creating schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+   
+   * Have their Time Off calendar updated in their profile.   
+     For information about updating a user's Time Off calendar, see [Configure personal time off in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * The Workfront administrator must determine how Workfront calculates user availability.&nbsp;They can decide whether Workfront uses either the System Default Schedule, or the user's schedule to calculate the time that the user is available to work. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

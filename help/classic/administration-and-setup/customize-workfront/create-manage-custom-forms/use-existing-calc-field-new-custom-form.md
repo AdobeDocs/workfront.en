@@ -25,6 +25,7 @@ You can also have a different calculation for the same field, on the new form. K
 >
 >Calculated custom fields can become outdated over time. To ensure that you always view the up-to-date calculation in these fields, do one of the following:
 >
+>* Save the objects where the custom forms with Calculated Custom Fields are attached when you are editing them.
 >* Select the Recalculate Custom Expressions option when editing objects in bulk.
 >* Select the Update previous calculations option when editing a Calculated Custom Field on a custom form.
 >

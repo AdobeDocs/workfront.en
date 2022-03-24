@@ -43,17 +43,18 @@ You must have the following access to perform the steps in this article:
 
 ## Grant access to objects in the Home area
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. 
+   Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
-   >  
-   >  
-   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-   >  
+   >   
+   >   
+   >   * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >   * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >   
    >
 
 1. In the **Work List**, select the access request you want to manage.  
@@ -73,10 +74,8 @@ You must have the following access to perform the steps in this article:
 
 You can configure whether you receive email notifications for access requests. Your Workfront administrator can disable this functionality (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. Click **Preferences**, or scroll to the Preferences section.
 1. In the **Email Me When** drop-down list, select or deselect **Someone requests access from me**, depending on whether you want to receive email notifications when another user requests access from you or not.
 

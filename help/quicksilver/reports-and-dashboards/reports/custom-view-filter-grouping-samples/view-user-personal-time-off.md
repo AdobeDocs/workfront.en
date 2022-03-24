@@ -56,10 +56,10 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Finish creating the report by editing any of the following tabs:
 
-  * Columns (View)
-  * Groupings
-  * Filters
-  * Chart
+   * Columns (View)
+   * Groupings
+   * Filters
+   * Chart
 
    For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

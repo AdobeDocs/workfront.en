@@ -92,17 +92,17 @@ EAC = EAC Labor + EAC Expense
 
   For information about the total Budgeted Cost Work Performed (BCWP), see [Calculate Budgeted Cost Work Performed (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
-  * **For a non-parent task:**
+   * **For a non-parent task:**
 
-    ```  
-    Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
-    ```
+     ```   
+     Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
+     ```
 
-  * **For a parent task:** 
-    Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all direct child tasks.
-  
-  * **For a project:** 
-    Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all top level tasks (parents and standalone tasks).&nbsp;
+   * **For a parent task:** 
+     Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all direct child tasks.
+   
+   * **For a project:** 
+     Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all top level tasks (parents and standalone tasks).&nbsp;
 
 * EAC&nbsp;Expense = the result of adding the Incurred Actual Expense Cost to the Not Incurred Planned Expense Cost. It is calculated by the following formula:
 
@@ -110,8 +110,8 @@ EAC = EAC Labor + EAC Expense
   EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
   ```
 
-  * Incurred Actual Expense Cost =&nbsp;The sum of the Planned Amount field for all expenses where the Actual Amount field > 0. For example, if you create an expense for Task 1 and enter $500.00 in the Planned Amount field and an amount > 0 in the Actual Amount field (i.e. $600.00), the Incurred Planned Expense Cost for this task is $500.00.
-  * Not Incurred Planned Expense =&nbsp;The sum of the Planned Amount field for all expenses where the Actual Amount field = 0. For example, if you create two expenses for Task 1 where for the first expense the value in the Planned Amount field is $500.00 and the value in the Actual Amount is $600.00 and for the second expense, the value in the Planned Amount field is $300.00 and the value of the Actual Amount field is $0.00, the value of the Not Incurred Planned Expense for this task is $300.00.&nbsp;
+   * Incurred Actual Expense Cost =&nbsp;The sum of the Planned Amount field for all expenses where the Actual Amount field > 0. For example, if you create an expense for Task 1 and enter $500.00 in the Planned Amount field and an amount > 0 in the Actual Amount field (i.e. $600.00), the Incurred Planned Expense Cost for this task is $500.00.
+   * Not Incurred Planned Expense =&nbsp;The sum of the Planned Amount field for all expenses where the Actual Amount field = 0. For example, if you create two expenses for Task 1 where for the first expense the value in the Planned Amount field is $500.00 and the value in the Actual Amount is $600.00 and for the second expense, the value in the Planned Amount field is $300.00 and the value of the Actual Amount field is $0.00, the value of the Not Incurred Planned Expense for this task is $300.00.&nbsp;
 
 ## Locate the EAC in a project or a task
 

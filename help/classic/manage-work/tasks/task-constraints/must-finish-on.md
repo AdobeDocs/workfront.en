@@ -19,6 +19,8 @@ Consider the following when scheduling a task with a Must Finish On constraint:
 
 * Predecessor relationships do not force the task to be rescheduled. Adobe Workfront essentially ignores the predecessor relationships.
 
+  ![](assets/mfo2-350x48.png)
+
 * The task shows as **At Risk** if the predecessors begin to run behind or are late.
 
 * When you move or copy a task with a MFO constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
@@ -45,9 +47,9 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <p>To update the Task Constraint to Must Finish On:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> Click <strong>Edit Task</strong>. </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Edit Task</strong>.</p> </li>
 <li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
-<li value="4"> <p>Select <strong>Must Finish On</strong>.</p> <p>  </p> </li>
+<li value="4"> <p>Select <strong>Must Finish On</strong>.</p> <p> <img src="assets/must-finish-on-constraint-350x255.png" alt="must_finish_on_constraint.png" style="width: 350;height: 255;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="5"> <p>Specify a <strong>Planned Completion Date</strong>.</p> <p>The task must complete by this date, and no later than this date. </p> </li>
 <li value="6">Click <strong>Save Changes</strong>. </li>
 </ol>

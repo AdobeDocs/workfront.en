@@ -28,6 +28,6 @@ This section contains the following articles:
 * [Reference collections in a report](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md) 
 * [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md) 
 * [Create complex Text Mode filters using EXISTS statements](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md) 
-* Link tabs from lists and reports
-* Learning Path for reports and dashboards
+* [Link tabs from lists and reports](../../../reports-and-dashboards/reports/text-mode/linking-tabs-lists-reports.md) 
+* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ)
 

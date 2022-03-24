@@ -5,7 +5,10 @@
 As an Adobe Workfront administrator, you can use an access level to define a user’s access to Scenario Planner, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
 In addition to access to Scenario Planner, a user with a non-System Administrator access level must also have access to financial data in order to see any financial information contained in a plan, such as budgets, costs, and job role rates. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-``` ```**Important: **``````When granting access to Scenario Planner you must also enroll the users with this access to the new Adobe Workfront experience. Scenario Planner is not available in Adobe Workfront Classic. 
+
+>[!IMPORTANT]
+>
+>When granting access to Scenario Planner you must also enroll the users with this access to the new Adobe Workfront experience. Scenario Planner is not available in Adobe Workfront Classic.
 
 ## Configure user access to Scenario Planner using a custom access level
 
@@ -17,7 +20,7 @@ In addition to access to Scenario Planner, a user with a non-System Administrato
    >The Request or External license type do not allow View or Edit access to Scenario Planner.
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. When you are finished, click Save Changes.
+1. When you are finished, click **Save Changes**.
 
 ## Access to Scenario Planner by license type
 

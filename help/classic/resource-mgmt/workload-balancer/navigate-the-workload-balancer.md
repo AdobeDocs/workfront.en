@@ -101,7 +101,7 @@ The two areas of the Workload Balancer display the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Assigned Work</td> 
-   <td> The <span>Default filter is applied by default and users who are members of any of your teams and their work items display here.</span>  <p>Both tasks and issues display in the Assigned Work area. </p> <p>Projects display when the Group by Project setting is enabled.</p> <p>The work items that the users are assigned to display under their names. </p> <p>If a work item is assigned to multiple users, the item displays under each assigned user. </p> </td> 
+   <td> <p data-mc-conditions="QuicksilverOrClassic.Classic">The <span>Default filter is applied by default and users who are members of any of your teams and their work items display here.</span> </p> <p>Both tasks and issues display in the Assigned Work area. </p> <p>Projects display when the Group by Project setting is enabled.</p> <p>The work items that the users are assigned to display under their names. </p> <p>If a work item is assigned to multiple users, the item displays under each assigned user. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -116,7 +116,7 @@ You can update the view in the Workload Balancer to display exactly the informat
 
 After selecting the settings you want to apply to your view, the Workload Balancer remembers these settings every time you access it from any browser or device.
 
-1. Click **People** in the Global Navigation Bar. 
+1. Click **People** in the Global Navigation Bar.
 1. ```Click the Workload Balancer tab.```
 
    You might need to click **Scheduling**, then select Workload Balancer in the upper-left corner. 
@@ -151,10 +151,15 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    ![](assets/calendar-date-picker-balancer-350x208.png)
 
-   ``` ```**Tips: **``````
-
-   * When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
-   * A dual calendar displays only when you select to view 12 weeks at a time.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
+   >   * A dual calendar displays only when you select to view 12 weeks at a time. 
+   >   
+   >
 
 1. Click one of the following options in the toolbar to display information by different time frames:
 
@@ -194,7 +199,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Click the **Change color theme icon** ![](assets/change-color-theme-icon.png), then select one of the options below. 
 
-1. Select from the following:
+   Select from the following:
 
    * **Default**: The bars for all projects and their work items display in blue.
 
@@ -204,18 +209,61 @@ After selecting the settings you want to apply to your view, the Workload Balanc
      >
      >The project status is that associated with the Group of the project. If the Group does not have group-specific statuses, the color of the work item bars is that of the system-level project status. Both system as well as custom statuses display. For information about group statuses, see [Create or edit a group status](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. &nbsp;
+   &nbsp;
+
 1. Click the **Settings** icon ![](assets/settings-gear-icon.png).
 
-1. ![](assets/settings-box-options-global-wb-350x303.png)
+   ![](assets/settings-box-options-global-wb-350x303.png)
 
-1. Select from the options listed below to update the information you view in the Workload Balancer, then click&nbsp;**Save.**
-1. ```<li> <p><strong>Group by Project</strong>: When this is selected, the items in the Unassigned and Assigned Work areas are grouped by project. This is selected by default. </p> <p> <img src="assets/group-by-project-350x530.png" style="width: 350;height: 530;"> </img> </p> </li>``` ```<li> <p><strong>Include hours from issues</strong>: When this is selected, issues assigned to users display under the user's name in the Assigned Work area and the Planned Hours from the issues also display for the issues, the project, and the user. </p> <p> <img src="assets/issue-on-workload-balancer-350x20.png" style="width: 350;height: 20;"> </img> </p> <note type="tip">  Issues don't display in the Unassigned Work area of the Workload Balancer. </note> </li>``` ```<li> <p><strong>Show Projected Dates</strong>: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:</p>  <ul>   <li>The projected timeline of tasks and projects displays in light blue bars with a line underneath. </li>   <li>The projected timeline of issues displays in light maroon bars with a line underneath. </li>   <li>The projected timeline for the items that you have no access to view displays in light gray with a line underneath.</li>   <li>When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled. </li>  </ul> <p> <img src="assets/task-issue-projected-timelines-350x91.png" style="width: 350;height: 91;"> </p> <note type="tip">  Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the timeframe selected.  </note> </li>``` ```<li> <p><strong>Show completed work</strong>:&nbsp;When this is enabled, tasks and issues that are completed display in the Assigned Work area. This is enabled by default. </p> <p>A green checkmark icon <img src="assets/green-checkmark-icon.png"> displays to the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed. </p> </li>``` 
+   Select from the options listed below to update the information you view in the Workload Balancer, then click&nbsp;**Save.**
+
+   * **Group by Project**: When this is selected, the items in the Unassigned and Assigned Work areas are grouped by project. This is selected by default.
+
+     ![](assets/group-by-project-350x530.png)
+
+   * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area and the Planned Hours from the issues also display for the issues, the project, and the user.
+
+     ![](assets/issue-on-workload-balancer-350x20.png)
+
+     >[!TIP]
+     >
+     >Issues don't display in the Unassigned Work area of the Workload Balancer.
+
+   * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
+
+      * The projected timeline of tasks and projects displays in light blue bars with a line underneath. 
+      * The projected timeline of issues displays in light maroon bars with a line underneath. 
+      * The projected timeline for the items that you have no access to view displays in light gray with a line underneath.
+      * When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled.
+
+     ![](assets/task-issue-projected-timelines-350x91.png)
+
+     >[!TIP]
+     >
+     >Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the timeframe selected.
+
+   * **Show completed work**:&nbsp;When this is enabled, tasks and issues that are completed display in the Assigned Work area. This is enabled by default.
+
+     A green checkmark icon ![](assets/green-checkmark-icon.png) displays to the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed.
 
 1. ```Click the **Hours** or**Percentage icon** then select from the following```:
-1. ```<col>``` ```<col>``` ```<tbody>  <tr>   <td role="rowheader"><span>Hours</span> </td>   <td><span>Displays allocated time as hours. This is the default.</span> </td>  </tr>  <tr>   <td role="rowheader"><span>Percentage</span> </td>   <td> <p><span>Displays allocated time as a percentage of the total available time.</span> </p> <note type="note">    <span class="preview">When converting information from hours to percentages, Workfront rounds up the percentage value to a 2-digit precision and moves any remaining percentage to the last day in the duration of the task.</span>    </note> </td>  </tr> </tbody>``` 
 
-1. ![](assets/hours-percentage-setting-workload-balancer-350x259.png)
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span>Hours</span> </td> 
+      <td><span>Displays allocated time as hours. This is the default.</span> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span>Percentage</span> </td> 
+      <td> <p><span>Displays allocated time as a percentage of the total available time.</span> </p> <p>Note: <span class="preview">When converting information from hours to percentages, Workfront rounds up the percentage value to a 2-digit precision and moves any remaining percentage to the last day in the duration of the task.</span> </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   ![](assets/hours-percentage-setting-workload-balancer-350x259.png)
 
 1. (Optional) Enable the **Show remaining time** setting to display the difference between the daily time for which the user is available to work based on their schedules and the hours for which they are allocated in the Assigned Work area for the users. This is disabled by default and allocated time displays by default.
 1. Click the **Chart icon** ![](assets/user-allocation-chart-icon.png) to display the user allocation in a chart format. Days where the user is overallocated display as red blocks, and days where the user is underallocated or at capacity display as blue blocks. The size of the blocks indicates the amount of the allocation: the larger the box, the more time the user is allocated to work items for that day or week.

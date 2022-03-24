@@ -23,8 +23,8 @@ This does this following:&nbsp;
 * Limits the *Instructions Edit History* field to the most recent 2000 characters to stay within the Workfront database limit. 
 * Checks if the current value of the *Instructions* field matches the front of the *Instructions Edit History* value; it assumes it is blank and if it is not, it does the following:&nbsp;
 
-  * If they match, it leaves the *Instructions Edit History* as is; 
-  * If they do not match, it replaces the *Instructions Edit History* with the latest value in the *Instructions* field, followed by the current date in parentheses, a vertical bar, and the previous *Instructions Edit History*, which preserves the previous value(s) and the date(s) when they were entered.
+   * If they match, it leaves the *Instructions Edit History* as is; 
+   * If they do not match, it replaces the *Instructions Edit History* with the latest value in the *Instructions* field, followed by the current date in parentheses, a vertical bar, and the previous *Instructions Edit History*, which preserves the previous value(s) and the date(s) when they were entered.
 
 ## Access requirements
 
@@ -75,11 +75,11 @@ To add a calculated field that displays a field's edit history to a custom form,
 
 1. To create the single-line text custom field, for example, do the following:
 
-  1. Click&nbsp;**Single Line Text Field**.
-  1. Specify a **Label** for the custom field, for example: *Instructions*.
-  1. (Optional) Click the **Name** field to update it. The Name of the field matches the Label you just entered by default. 
-  1. For this example, select&nbsp;**Text** in the **Format** field to format the custom field as text. This is the default. 
-  1. Click&nbsp;**Done**, then **Save + Close**.
+   1. Click&nbsp;**Single Line Text Field**.
+   1. Specify a **Label** for the custom field, for example: *Instructions*.
+   1. (Optional) Click the **Name** field to update it. The Name of the field matches the Label you just entered by default. 
+   1. For this example, select&nbsp;**Text** in the **Format** field to format the custom field as text. This is the default. 
+   1. Click&nbsp;**Done**, then **Save + Close**.
 
 1. Click the name of the form you added the *Instructions* field to. 
 1. Click **Calculated** to add a calculated custom field to the form.  

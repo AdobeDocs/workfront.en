@@ -48,18 +48,21 @@ You must have the following access to perform the steps in this article:
 1. Go to the project for which you want to update the Condition Type. 
 1. Do one of the following:&nbsp;
 
-  * Click the **More** menu ![](assets/qs-more-menu.png) to the right of the project name, then click **Edit**. 
-  
-  * Click **Project Details** in the left panel.
+   * Click the **More** menu ![](assets/qs-more-menu.png) to the right of the project name, then click **Edit**.  
+   * Click **Project Details** in the left panel.
 
    ![](assets/update-condition-type-nwe-350x108.png)
 
 1. In the **Condition Type** field, choose one of the following:
 
-  * **Manual:** The project owner sets the Condition on the project manually.
-    In this case, the project owner can update the Condition of the project in the project header, or the Project Details section. 
-  * **Progress Status:** Workfront sets the Condition based on the Progress Status of the project. For information about how the Progress Status is calculated, see [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * **Manual:** The project owner sets the Condition on the project manually.
 
-1. Click&nbsp;**Save** when you modify the&nbsp;Condition&nbsp;Type in the Edit Project box. Click&nbsp;**Save Changes** when you modify the Condition&nbsp;Type in the Project Details section.
+     In this case, the project owner can update the Condition of the project in the project header, or the Project Details section. 
+   
+   * **Progress Status:** Workfront sets the Condition based on the Progress Status of the project. For information about how the Progress Status is calculated, see [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+
+1. Click&nbsp;**Save** when you modify the&nbsp;Condition&nbsp;Type in the Edit Project box.
+
+   Click&nbsp;**Save Changes** when you modify the Condition&nbsp;Type in the Project Details section.
 
 &nbsp;

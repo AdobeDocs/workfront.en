@@ -116,7 +116,7 @@ Users with the Reviewer access level:
 
 * Cannot be assigned work items or approve time sheets
 * Can access requests and documents in the  Global Navigation Bar .
-* My Updates area
+* See the My Updates page instead of the Home or My Work page. For more information, see [My Updates area](../../../workfront-basics/using-home/my-work/my-updates-area-my-work.md).
 * Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Reviewer built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.

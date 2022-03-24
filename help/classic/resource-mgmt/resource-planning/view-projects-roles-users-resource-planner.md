@@ -14,6 +14,8 @@ You can view or manage the allocation of your resources in the Resource Planner 
 
 There is a hierarchy of how these objects display in the Resource Planner, and this changes with the type of view that you select. For information about changing the view in the Resource Planner, see the [ [Project/ Role/ User view selection](../../resource-mgmt/resource-planning/resource-planner-navigation.md#project-role-view-selection)](../../resource-mgmt/resource-planning/resource-planner-navigation.md#project-role-view-selection) section in the [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md) article.
 
+![](assets/rp-planner-project-view-expanded-levels-with-no-role-no-user-350x287.png)
+
 You can view the following levels of information in the Resource Planner:
 
 * Project Name

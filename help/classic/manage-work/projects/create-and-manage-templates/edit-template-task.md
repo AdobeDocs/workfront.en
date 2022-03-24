@@ -73,7 +73,9 @@ You can edit a template task using the Edit Template Task or Template Task Detai
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template Task box below.
 
-1. (Conditional)&nbsp;To edit all information about the template, click **Edit Template Task** in the upper-right corner of the template page.  The **Edit Template Task** box displays.
+1. (Conditional)&nbsp;To edit all information about the template, click **Edit Template Task** in the upper-right corner of the template page.
+
+   The **Edit Template Task** box displays.
 
    >[!TIP]
    >

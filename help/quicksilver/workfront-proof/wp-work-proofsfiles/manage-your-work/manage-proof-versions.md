@@ -71,8 +71,8 @@ You can unlink the proof you're currently viewing from its parent proof (previou
 
 1.
 
-  * Only the last version can be unlinked (disconnected) from the whole set of versions. It will then become a single proof. 
-  * If you need to insert a version in between two existing versions, you can unlink all versions of the same proof and re-link them in the correct order.
+   * Only the last version can be unlinked (disconnected) from the whole set of versions. It will then become a single proof. 
+   * If you need to insert a version in between two existing versions, you can unlink all versions of the same proof and re-link them in the correct order.
 
 ## About Version Sets and Proof Limits
 

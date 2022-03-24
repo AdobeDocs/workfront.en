@@ -37,7 +37,7 @@ You must have the following:
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Processes** > **Approvals** .  
 
-1. Click **Settings** in the upper-right corner of the Approvals page. 
+1. Click **Settings** in the upper-right corner of the Approvals page.
 1. In the **Approval Settings** box that appears, specify the following information:
 
    <table cellspacing="0"> 

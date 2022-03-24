@@ -70,6 +70,8 @@ There are several ways to upload a new proof version in Workfront. Default proof
 
    Select the row where the proof is listed, click **Add new** > **Version**, then click the option you want to use to add the new version of the proof.
 
+   ![](assets/add-new-version-350x185.png)
+
 ## Create a new version of a proof from the proofing viewer (Workfront Proof only)
 
 If you are using the standalone Workfront Proof, you can create a new version of a proof containing a single file or web capture.&nbsp;
@@ -99,45 +101,45 @@ To create a new version of a proof in Workfront Proof:
 
    Reviewers from the previous version are replaced by the reviewers you add.
 
-  * Change the **Owner** of the version to another user in your account.  
-    For information about owner permissions, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
-  
-  * Using the **Type contact name or email address to add a recipient box**, add reviewers to the version. You can specify a **Proof role** and an **Email alerts** type for each recipient.
+   * Change the **Owner** of the version to another user in your account.  
+     For information about owner permissions, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   
+   * Using the **Type contact name or email address to add a recipient box**, add reviewers to the version. You can specify a **Proof role** and an **Email alerts** type for each recipient.
 
-    For information about adding groups to the proof, see&nbsp; [Add Groups to a Proof](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).&nbsp;For information about roles, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+     For information about adding groups to the proof, see&nbsp; [Add Groups to a Proof](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).&nbsp;For information about roles, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-    >[!NOTE]
-    >
-    >If the creator or owner of&nbsp;&nbsp;the proof has [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) disabled by default (in their personal settings), they won't receive any Proof made or New proof emails even if the Notify people by email box is checked on the New proof page. For information about email notifications, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).&nbsp;See also [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) and [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+     >[!NOTE]
+     >
+     >If the creator or owner of&nbsp;&nbsp;the proof has [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) disabled by default (in their personal settings), they won't receive any Proof made or New proof emails even if the Notify people by email box is checked on the New proof page. For information about email notifications, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).&nbsp;See also [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) and [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-  * Set a proof deadline for the version.  
-  * Hover over a reviewer's name to see any decisions he or she made on a previous version.
+   * Set a proof deadline for the version.  
+   * Hover over a reviewer's name to see any decisions he or she made on a previous version.
 
 1. Under **Email notification**, do any of the following:
 
-  * Specify whether you want to notify the reviewers of the new version.  
-    Your selection will be logged in the Activity section of the Proof details page. For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-  
-  * Add a custom subject and message.
+   * Specify whether you want to notify the reviewers of the new version.  
+     Your selection will be logged in the Activity section of the Proof details page. For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   
+   * Add a custom subject and message.
 
 1. In the **Organization** section, do any of the following:&nbsp;
 
-  * Apply one or more tags to the proof. For more information, see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).  
-    Note that tags are inherited from the previous version of the proof, as well. If you add a new tag&nbsp;to the new version, previous versions are also tagged.
-  
-  * Add the version to a folder. See [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) for more information.****The folder&nbsp;will be copied from the previous version of the proof. If you select a different folder, the whole proof (all versions) will be moved.
-  
-  * Billing administrators and Administrators can make the folder field mandatory across the whole account on the Settings tab. See [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) for more information.
+   * Apply one or more tags to the proof. For more information, see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).  
+     Note that tags are inherited from the previous version of the proof, as well. If you add a new tag&nbsp;to the new version, previous versions are also tagged.
+   
+   * Add the version to a folder. See [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) for more information.****The folder&nbsp;will be copied from the previous version of the proof. If you select a different folder, the whole proof (all versions) will be moved.
+   
+   * Billing administrators and Administrators can make the folder field mandatory across the whole account on the Settings tab. See [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) for more information.
 
 1. Under Proof settings, make any of the changes below:
 
-  * Require login on the proof
-  * Require electronic signatures on the proof (Enterprise plan only)
-  * Lock the proof when all decisions are made
-  * Allow or block download of original file
-  * Public sharing of the proof,&nbsp;including public sharing settings
-  * Subscription to the proof  
-    The selections made in this section will be shown in the Proof details page (where some fields can be edited). For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * Require login on the proof
+   * Require electronic signatures on the proof (Enterprise plan only)
+   * Lock the proof when all decisions are made
+   * Allow or block download of original file
+   * Public sharing of the proof,&nbsp;including public sharing settings
+   * Subscription to the proof  
+     The selections made in this section will be shown in the Proof details page (where some fields can be edited). For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating"></a>Create a new version of a proof from the proofing viewer</h2>

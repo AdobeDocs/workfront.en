@@ -47,21 +47,21 @@ To accessWorkfront Library folders and single items from the Workfront extension
 
 1. Do one of the following:
 
-  1. Using the **Search here** box:
+   1. Using the **Search here** box:
 
-    1. Type in the name of an item or folder that you want to navigate to, then press enter.
+      1. Type in the name of an item or folder that you want to navigate to, then press enter.
 
-       The item displays in the **Search results** area.
+         The item displays in the **Search results** area.
 
-  1. Click the **More** icon.
+   1. Click the **More** icon.
 
-     ![](assets/adobe-cc-library-more-menu-350x117.png)
+      ![](assets/adobe-cc-library-more-menu-350x117.png)
 
-    1. Select from the following options:
+      1. Select from the following options:
 
-    * Click **Library** to access the content you have access to view in the Workfront Library.
-    * Click **My Content** to access the content that you have uploaded in the Workfront Library.
-    * Click **Collections** to access a Workfront Library Collection.
+      * Click **Library** to access the content you have access to view in the Workfront Library.
+      * Click **My Content** to access the content that you have uploaded in the Workfront Library.
+      * Click **Collections** to access a Workfront Library Collection.
 
 1. (Optional) To decrease the amount of items that you display in the Workfront extension, click the **Options** icon.
 

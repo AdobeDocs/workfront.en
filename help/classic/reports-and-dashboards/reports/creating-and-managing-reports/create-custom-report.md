@@ -45,13 +45,14 @@ You must have the following access to perform the steps in this article:
 
 To watch a video of how to create a report, see this [Video walk-through](#walk-thr) below.
 
-1. Go to the **Reporting** area in the Global Navigation Bar, then select the **Reports** tab. 
-
+1. Go to the **Reporting** area in the Global Navigation Bar, then select the **Reports** tab.
 1. Click **New Report**, then select the object type that you want for the report.
 
    The report builder loads.
 
    For specific information about available object reports, see the section [Report on objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
+   ![](assets/screen-shot-2014-01-08-at-3.03.27-pm.png)
 
    >[!TIP]
    >
@@ -108,6 +109,8 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 1. Begin typing the field that you want to add. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to the column.
 
    For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+
+   ![](assets/classic-add-column-350x358.png)
 
 1. (Optional) In the **Column Settings** area, select **Sort by this column** to sort the values in the column either in ascending on descending alphabetical order, then indicate whether the list should use this column as its first sort.
 
@@ -180,6 +183,8 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 
    Choose **Apply an Existing Grouping** to select an existing grouping
 
+   ![](assets/classic-add-grouping-350x250.png)
+
 1. Start typing the field that you want to add as a grouping. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that grouping.
 1. (Optional) You can choose to build a grouping in text mode, by clicking **Switch to Text Mode**. For more information about using text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
@@ -201,6 +206,8 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
    Or  
    Choose **Apply an Existing Filter** to use an existing filter.
 
+   ![](assets/classic-add-a-filter-350x95.png)
+
 1. If you clicked **Add a Filter Rule**, start typing the field that you want to add as a filter. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that filter.  
    Use filter modifiers to build your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -219,6 +226,8 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 1. Start creating a report as described in the [Create a report](#how-to) section in this article.
 1. In the report builder, select the **Chart** tab, then select the type of chart you want to add.
 
+   ![report_chart_tab_in_report_builder.png](assets/classic-add-a-chart-350x229.png)
+
    For more information about building a chart in a report, see [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. Click **Apply** to apply your changes so far and continue editing the report with the following options.
@@ -236,7 +245,8 @@ View the following video to learn how to create a report. This video was recorde
 -->
 
 <!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> <a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Learning Path for reports and dashboards</a>  
+<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li data-mc-conditions="QuicksilverOrClassic.Classic"><a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Learning Path for reports and dashboards</a> </li>
 <li><a href="../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Get started with reports in Adobe Workfront</a> </li>
 <li><a href="../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md" class="MCXref xref">Use Adobe Workfront built-in reports</a> </li>
 <li><![CDATA[

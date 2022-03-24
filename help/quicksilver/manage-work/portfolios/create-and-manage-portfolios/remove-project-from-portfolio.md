@@ -46,6 +46,8 @@ You must have the following access to perform the steps in this article:
 1. Go to a Portfolio and click **Projects** in the left panel. 
 1. Select the project to be removed.&nbsp;
 
+   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+
 1. Click&nbsp;**Remove Projects**.
 1. Click either **Delete** to delete the project from Workfront, or **Remove** **from Portfolio** to remove it from the selected Portfolio.  
 

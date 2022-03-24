@@ -52,6 +52,8 @@ There are some limitations that might prevent you from editing issues.
 
 You can edit an issue using the Edit Issue or Issue Details areas. The following steps describe editing an issue in the Edit issue box.
 
+###
+
 1. Go to the **Main Menu**.
 1. Click **Projects**, then click the name of a project to open the project.
 1. (Optional)&nbsp;Click **Tasks** , then click the name of a task to open the task. 
@@ -69,20 +71,20 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    To edit information in the Details section, do the following:
 
-  1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
-  1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
-  1. (Optional) To attach a custom form, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click&nbsp;**Save Changes**. 
-  1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
+   1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
+   1. (Optional) To attach a custom form, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click&nbsp;**Save Changes**. 
+   1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
 
-    * Select all (displays only when there is at least one custom form attached)
-    * Overview
-    * The name of one or multiple custom forms
+      * Select all (displays only when there is at least one custom form attached)
+      * Overview
+      * The name of one or multiple custom forms
 
-     The PDF file downloads to your computer.
+      The PDF file downloads to your computer.
 
-     ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-     For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    For information about the fields visible in the Issue Details section, continue with editing the issue in the Edit issue box as described below. 
 
@@ -102,11 +104,11 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Consider specifying information in any of the following sections:
 
-  * [Issue Name](#issue)
-  * [Overview](#overview)
-  * [Assignments](#assignme)
-  * [Custom Forms](#custom%c2%a0f)
-  * [Settings](#settings)
+   * [Issue Name](#issue)
+   * [Overview](#overview)
+   * [Assignments](#assignme)
+   * [Custom Forms](#custom%c2%a0f)
+   * [Settings](#settings)
 
    >[!NOTE]
    >
@@ -246,8 +248,8 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
 
-  * ```Reassign the work item to active resources.``` 
-  * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+   * ```Reassign the work item to active resources.``` 
+   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
 
 1. (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. 
 1. Update the following fields: 

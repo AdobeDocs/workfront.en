@@ -108,12 +108,12 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >
    >To learn more about these other visualizations, see:
    >
-   >  
-   >  
-   >  * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
-   >  * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
-   >  * [View the Tasks in flight visualization in Enhanced analytics](../enhanced-analytics/tasks-in-flight-overview.md) 
-   >  
+   >   
+   >   
+   >   * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
+   >   * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
+   >   * [View the Tasks in flight visualization in Enhanced analytics](../enhanced-analytics/tasks-in-flight-overview.md) 
+   >   
    >
 
 1. (Optional) Change the view from ```planned hours``` to **duration**.
@@ -139,8 +139,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To export the visualization data, click the **Export** icon ![](assets/export.png)in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 1. (Optional) To see details about the progress of tasks in the selected project, look at the Tasks in flight visualization that appears below the Burndown visualization.
 

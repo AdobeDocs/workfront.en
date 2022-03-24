@@ -57,7 +57,7 @@ Before you begin, you must:
 
 1. Navigate to an issue whose resolution you want to tie to the resolution of another issue or a task or project.
 1. Click the **Issue Details** tab. 
-1. Click **Edit Overview**. 
+1. Click **Edit Overview**.
 1. At the bottom of the form, click in the **Resolved By** field, and select from the following types of resolving objects: &nbsp;
 
    * **Project**

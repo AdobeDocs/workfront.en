@@ -70,8 +70,7 @@ You must have the following to perform the steps described in this article:
 ## Attach a template to an existing project
 
 <!--
-You can attach a template to a project in Workfront from the project page
-<span class="preview">or from a project list or report</span>.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can attach a template to a project in Workfront from the project page <span class="preview">or from a project list or report</span>.</p>
 -->
 
 ###
@@ -79,8 +78,10 @@ You can attach a template to a project in Workfront from the project page
 1. Go to the project where you want to attach a template.
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
    <p>Or</p>
    <p>Go to a project list or report and select a project. </p>
+   </div>
    -->
 
 1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png), then click **Attach Template**.
@@ -95,11 +96,11 @@ You can attach a template to a project in Workfront from the project page
 
    A preview of the template displays to the right that contains the following information about the template:
 
-  * Duration
-  * Owner
-  * The number of top-level tasks (includes a list of the first three top-level tasks)
-  * Total number of tasks 
-  * Names of attached custom forms
+   * Duration
+   * Owner
+   * The number of top-level tasks (includes a list of the first three top-level tasks)
+   * Total number of tasks 
+   * Names of attached custom forms
 
    ![](assets/attach-template-box-template-preview-area-nwe-350x281.png)
 
@@ -154,8 +155,8 @@ You can attach a template to a project in Workfront from the project page
 
    ``` ```**Tip: **``````
 
-  * This step is mandatory when the custom forms on the template contain required fields that are empty. 
-  * If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template.
+   * This step is mandatory when the custom forms on the template contain required fields that are empty. 
+   * If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template.
 
 1. Click **Attach Template.**
 1. Click&nbsp;**Cancel attachment** to stop attaching the template.
@@ -187,6 +188,8 @@ To understand what template is applied to a project:
 1. Navigate to a project which has a template attached.
 1. Click **Project Details** in the left panel.
 1. Find the name of the template attached to the project in the **Template** field at the bottom of the **Overview** section under **Project relationships** .
+
+   ![](assets/nwe-template-info-on-project-350x356.png)
 
 &nbsp;
 

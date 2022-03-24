@@ -96,7 +96,8 @@ You must have the following access to perform the steps in this article:
 ## View and edit information on a story tile
 
 1. Go to the Scrum agile story board.
-1. Expand the story tile to view all fields associated with the story.
+1. Expand the story tile to view all fields associated with the story.  
+   ![Expanded_Agile_Card.png](assets/expanded-agile-card-350x270.png)  
 
 1. (Optional) To edit a field, click the field, then make any changes.
 

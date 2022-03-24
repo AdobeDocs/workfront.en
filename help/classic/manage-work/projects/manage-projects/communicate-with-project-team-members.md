@@ -46,8 +46,8 @@ You must have the following access to perform the steps in this article:
 ## Send an email to a Project Team member
 
 1. Go to a project whose members of the project team you want to send an email to. 
-1. More
-1. Staffing
+1. Click **More**, then click the **Staffing** tab.
+
 1. Click the **People** subtab on the **Staffing** tab. To update all members of the project team, click **Update All** in the upper-left corner of the list of project team members.
 
    Or
@@ -83,9 +83,10 @@ You can send project updates to team members and to other users that might not b
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <ol>
-<li value="1"> <p>Go to a project whose members of the project team you want to send an email to. </p> </li> Click <strong>More</strong>, then click the <strong>Staffing</strong> tab.
+<li value="1"> <p>Go to a project whose members of the project team you want to send an email to. </p> </li>
+<li value="2" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>More</strong>, then click the <strong>Staffing</strong> tab.</li>
 <li value="3"> Click the <strong>People</strong> subtab on the <strong>Staffing</strong> tab. </li>
-<li value="4"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> <p>  </p> </li>
+<li value="4"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> <p> <img src="assets/commuserproj-3-350x88.png" alt="CommUserProj_3.png" style="width: 350;height: 88;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="5">Type your update in the <strong>Post an update to this project</strong> field.</li>
 <li value="6"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>
 <li value="7"> <p>(Optional) Add a user who is not&nbsp;part of the Project&nbsp;Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>

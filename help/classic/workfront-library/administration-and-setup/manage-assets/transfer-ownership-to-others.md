@@ -15,7 +15,7 @@ As a Workfront Library administrator, you can transfer all of the asset in a use
 
 To transfer all of a user's content:
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. In the left panel, click **Setup** > **Users**.
 
@@ -38,7 +38,7 @@ To transfer all of a user's content:
 
 To transfer a single asset:
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select **All Content** from the left menu.
 1. (Optional) Filter to find the assets you want to transfer. To filter by Owner, see the [Filter by owner](../../../workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md#filter) section in [Manage assets for other users](../../../workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md). To filter by other facets, see [Filter content displayed in Workfront Library](../../../workfront-library/content-management/basics/filter-content-displayed.md).

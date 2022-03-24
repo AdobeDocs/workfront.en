@@ -61,7 +61,9 @@ Currently in beta, our CSV import feature allows users to bulk upload OKRs to At
 
 Please contact your Customer Support Manager or send us a message at ```support@atiim.com```&nbsp;if you wish to bulk upload your objectives every quarter. We will provide you with the required CSV and walk you through the steps to upload into Atiim.
 
-``` ```**Tips: **``````**Keep in mind**: streamlined focus and bottom-up OKR creation are crucial for OKR success. Before bulk uploading, consider whether you can reduce the number of OKR's you are working on.  
+>[!NOTE]
+>
+>**Keep in mind**: streamlined focus and bottom-up OKR creation are crucial for OKR success. Before bulk uploading, consider whether you can reduce the number of OKR's you are working on.
 
 ## Can I complete a check-in after the deadline?
 

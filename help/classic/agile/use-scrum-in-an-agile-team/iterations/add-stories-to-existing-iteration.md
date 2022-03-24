@@ -92,7 +92,9 @@ You can add any task or issue to any iteration if&nbsp;you have Manage access to
 1. Select one or more tasks or issues.
 1. Click **More** > **Add to**> **Iteration**.
 
-1. You cannot assign tasks or issues assigned to non-agile teams.  
+   You cannot assign tasks or issues assigned to non-agile teams.  
+   ![](assets/add-to-kanban-or-scrum-(1)-350x207.png)
+
 1. In the **Add Stories** box, type the name of the iteration.
 
    >[!NOTE]
@@ -103,11 +105,22 @@ You can add any task or issue to any iteration if&nbsp;you have Manage access to
    Or  
    If you are adding issues, click **Add Issues**.
 
-**From a task or issue** You can add tasks only to iterations your team is assigned.&nbsp;
+### **From a task or issue**
 
-1. Click **Task Actions**, then click **Add to Iteration**. Or Click **Issue Actions**, then click **Add to Iteration**. 
+You can add tasks only to iterations your team is assigned.&nbsp;
 
-1. Move Story
-1. Select Iteration
-1. Move Story
+1. Go to the task or issue that you want to add to an agile iteration.
+1. Ensure that the task or issue is assigned to the agile team.
+1. Click the name of the task or issue.&nbsp;
+1. Click **Task Actions**, then click **Add to Iteration**.
+
+   Or
+
+   Click **Issue Actions**, then click **Add to Iteration**.
+
+   ![](assets/agile-iteration-addtaskissue-350x232.png)
+
+1. In the **Move Story** dialog box, in the&nbsp;**Select Iteration** field, select the iteration where you want to move the task or issue.
+
+1. Click **Move Story**.
 

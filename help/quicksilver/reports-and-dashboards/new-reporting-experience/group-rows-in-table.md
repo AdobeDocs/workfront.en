@@ -111,12 +111,12 @@ For more information, see [link to Beta enrollment info].
 
 1. Do any of the following:
 
-  * To add another group, drag it from the side panel.
-  * To have rows in a group collapsed by default, click the **More menu** icon ![](assets/more-icon.png) next to the group, then select **Collapse group**.
+   * To add another group, drag it from the side panel.
+   * To have rows in a group collapsed by default, click the **More menu** icon ![](assets/more-icon.png) next to the group, then select **Collapse group**.
 
-    Each group can be set individually to display with rows collapsed or expanded. By default, all grouped rows are collapsed.
-  
-  * To display a count in the group row, click the **More menu** icon ![](assets/more-icon-27x15.png) next to the group, then select **Display count**.
-  * To remove a group, click the **More menu** icon ![](assets/more-icon.png) next to the group, then select **Remove group**.
-  * To rearrange multiple groups you have created, drag them ![](assets/move-icon---dots.png)into a new order.
+     Each group can be set individually to display with rows collapsed or expanded. By default, all grouped rows are collapsed.
+   
+   * To display a count in the group row, click the **More menu** icon ![](assets/more-icon-27x15.png) next to the group, then select **Display count**.
+   * To remove a group, click the **More menu** icon ![](assets/more-icon.png) next to the group, then select **Remove group**.
+   * To rearrange multiple groups you have created, drag them ![](assets/move-icon---dots.png)into a new order.
 

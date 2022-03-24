@@ -45,3 +45,5 @@ You must have the following access to perform the steps in this article:
 
    The Portfolio Optimizer displays.
 
+   ![Old_PO_Heading.png](assets/old-po-heading-350x169.png)
+

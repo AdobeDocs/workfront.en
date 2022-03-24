@@ -86,7 +86,8 @@ When using the legacy calendar in the My Work area, only work you have committed
 To configure Workfront to display the new&nbsp;calendar in the My Work area when a layout template is applied, configure the layout template to show the Planned Completion&nbsp;Date on&nbsp;tasks and issues, then assign that layout template to the appropriate users.
 
 For more information about configuring the layout template, see [Customize My Work](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Create and manage layout templates](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-For information about using the new calendar in the My Work area,&nbsp;see&nbsp; [View assigned work on the My Work calendar](../../../../workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md) 
+
+For information about using the new calendar in the My Work area,&nbsp;see&nbsp; [View assigned work on the My Work calendar](../../../../workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md)
 
 ## Outlook 365 Beta
 

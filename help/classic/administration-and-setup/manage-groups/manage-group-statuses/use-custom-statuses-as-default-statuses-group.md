@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Project Preferences** > **Statuses**. 
-1. System Statuses
+1. In the box in the upper-right corner, delete **System Statuses**, start typing the name of the group, then click the name when it appears.
 1. Click **Set Default Statuses** near the upper-right corner.
 1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want to set.
 1. Click **Save**.

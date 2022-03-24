@@ -61,7 +61,9 @@ You must have the following access to perform the steps in this article:
 You can configure whether the BCWS is calculated in hours or costs by configuring how the Performance Index Method (PIM) of the project is calculated.
 
 1. Go to a project and click the **Project Details** tab. 
-1. Click **Finance**, then **Edit Finance** and locate the **Performance Index Method** field.  ![](assets/pim-options-hour-cost-based-350x144.png)
+1. Click **Finance**, then **Edit Finance** and locate the **Performance Index Method** field.
+
+   ![](assets/pim-options-hour-cost-based-350x144.png)
 
 1. Select from the following options:
 
@@ -69,7 +71,9 @@ You can configure whether the BCWS is calculated in hours or costs by configurin
    |---|---|
    | Cost-Based |Workfront calculates the BCWS using the Planned Cost of the tasks. |
 
-1. Click **Save**. The BCWS of the tasks on the project is calculated using hours or costs.
+1. Click **Save**.
+
+   The BCWS of the tasks on the project is calculated using hours or costs.
 
 ## Calculate BCWS
 

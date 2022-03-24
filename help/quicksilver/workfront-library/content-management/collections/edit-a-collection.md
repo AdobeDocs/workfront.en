@@ -15,7 +15,7 @@ You can make the following changes to a collection that you have Manage access t
 * Description
 * Cover image
 
-```<li> In Workfront, click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png">, then select <strong>Library</strong> to open Workfront Library in a new browser tab. </li>``` For information on changing a collection's cover image, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
+```<li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">In Workfront, click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png">, then select <strong>Library</strong> to open Workfront Library in a new browser tab.</p> </li>``` For information on changing a collection's cover image, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
 
 When you edit a collection that is shared with other users in Workfront Library, the collection's name is automatically updated in all the shared instances. Users are not notified of edits made to a collection.
 

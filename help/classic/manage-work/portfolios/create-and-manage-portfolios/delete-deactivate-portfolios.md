@@ -62,10 +62,9 @@ When you deactivate a portfolio, you can still access it from the Portfolios are
 1. Go to the **Projects** area in the Global Navigation Bar. 
 1. Click the**Portfolios** tab.
 1. Click the name of the portfolio.
-1. Portfolio Details
-1. Edit Overview
-1. Is Active
-1. Save
+1. On the page that appears, click the **Portfolio Details** tab, then click **Edit Overview**.
+
+1. Deselect the **Is Active** box, then click **Save**.
 
 ## Delete a portfolio
 

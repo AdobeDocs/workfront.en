@@ -57,10 +57,10 @@ You must have the following to perform the steps in this article:
 
 ## Deactivate a user immediately
 
-1. People
-1. People
-1. More
-1. Deactivate
+1. Click **People** on the Global Navigation Bar at the top of the window, then click the **People** tab.
+
+1. Select a user, then click **More** > **Deactivate**.
+
 1. Click **Deactivate** in the box that appears.
 
 ## Schedule users for deactivation
@@ -71,8 +71,8 @@ Workfront administrators and Plan license users can see the deactivation date in
 
 To schedule a user for deactivation:
 
-1. People
-1. People
+1. Click **People** on the Global Navigation Bar at the top of the window, then click the **People** tab.
+
 1. Select the user's name.
 
    Or

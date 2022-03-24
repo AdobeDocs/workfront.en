@@ -53,9 +53,9 @@ You can view or manage approvals from the following areas:
 
 * In the Home area
 
-  * All projects, tasks,&nbsp;issues, timesheets,&nbsp;documents, and access awaiting your approval are displayed in the Home area when you select to view All or Approvals.
-  * Approvals that you submitted yourself also display in the Home area, in the Approvals I've Submitted section of the Work List. For more information, see the [Review work you submit for approval in the Home area](#review) section in this article.
-  * Approvals&nbsp;are removed from the Home area when the associated&nbsp;project, task, or issue&nbsp;is marked&nbsp;Resolved, On Hold, Closed, or Canceled.
+   * All projects, tasks,&nbsp;issues, timesheets,&nbsp;documents, and access awaiting your approval are displayed in the Home area when you select to view All or Approvals.
+   * Approvals that you submitted yourself also display in the Home area, in the Approvals I've Submitted section of the Work List. For more information, see the [Review work you submit for approval in the Home area](#review) section in this article.
+   * Approvals&nbsp;are removed from the Home area when the associated&nbsp;project, task, or issue&nbsp;is marked&nbsp;Resolved, On Hold, Closed, or Canceled.
 
   For information about using Home, see [Get started with Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md). 
 
@@ -80,17 +80,17 @@ You can view or manage approvals from the following areas:
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
-   >  
-   >  
-   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-   >  
+   >   
+   >   
+   >   * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >   * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >   
    >
 
 1. Select **Work List**, then click the **Filter** drop-down menu 
 
    <!--
-
+   <img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
    -->
 
    and select **Approvals**.
@@ -99,7 +99,7 @@ You can view or manage approvals from the following areas:
    ![](assets/approvals-i've-submitted-section-in-home-350x532.png)
 
    <!--
-   <img src="assets/approvals-i've-submitted-section-in-home-nwe-350x401.png" style="width: 350;height: 401;">
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/approvals-i've-submitted-section-in-home-nwe-350x401.png" style="width: 350;height: 401;"> </p>
    -->
 
 ##
@@ -149,7 +149,8 @@ You can gain visibility into where a task or issue that you are working on curre
 To see the current state of where a task or issue is in the approval process:
 
 1. Go to the project, task, or issue that the approval is associated with.
-1. In the left panel, click **Approvals**. You might need to first click **Show More**.
+1. 
+   In the left panel, click **Approvals**. You might need to first click **Show More**.
 
    The Approvals tab displays&nbsp;the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user.
 

@@ -51,7 +51,7 @@ You can configure the following integrations for managing documents:
 * 
 
   <!--
-  Experience Manager Assets Essentials
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Experience Manager Assets Essentials </p>
   -->
 
 * Workfront DAM   
@@ -66,16 +66,16 @@ You can configure the following integrations for managing documents:
 
 * Third party cloud document providers:
 
-  * Box
-  * Dropbox
-  * Dropbox Business 
-  * WebDAM
-  * Microsoft OneDrive
-  * Google Drive
+   * Box
+   * Dropbox
+   * Dropbox Business 
+   * WebDAM
+   * Microsoft OneDrive
+   * Google Drive
 
-    <!--  
-    <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">Quip</li>  
-    -->
+     <!--   
+     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">Quip</li>   
+     -->
 
   >[!TIP]
   >

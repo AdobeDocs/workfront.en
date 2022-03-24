@@ -38,9 +38,14 @@ The following are some of the most commonly used objects in Workfront and their 
 | Users |Groups, Teams, Companies |Job Roles |
 | Companies |  |Users |
 | Documents |Tasks, Issues, Projects, Portfolios, Programs, Users |  |
+| Plans&#42;  |&nbsp; |Initiatives |
+| Goals&#42; |&nbsp; |Results,&nbsp;Activities |
 
 For a complete list of objects in Workfront, see the [API Explorer](../../../wf-api/general/api-explorer.md).
-&#42; Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). &#42;&nbsp;Goals are the objects of Workfront Goals.&nbsp;For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).  
+
+&#42; Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+
+&#42;&nbsp;Goals are the objects of Workfront Goals.&nbsp;For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Customize object names
 
@@ -71,8 +76,11 @@ As a Workfront administrator, you can customize the names of the following objec
 * Project
 * Task
 * Issue
+* Goal&#42;
+* Result&#42;
 * Activity&#42;
-* &#42;Goals, results, and activities are only available if your company purchased Workfront Goals.&nbsp;For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+
+  &#42;Goals, results, and activities are only available if your company purchased Workfront Goals.&nbsp;For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 For example, if the larger amount of work in your organization is known as a 'Campaign', you can replace the name 'Project' with 'Campaign'. Your Workfront interface shows 'Campaign' instead of 'Project' everywhere where the name 'Project' would appear.
 
@@ -156,40 +164,46 @@ The following is a list of objects and their corresponding icons in Workfront.
 
 | **Object** |**Icon** |**Customizable object ame** |
 |---|---|---|
-| Company |  , ![](assets/nwe-company-icon-54x54.png)
+| Company | ![](assets/company-icon-nwe.png) , ![](assets/nwe-company-icon-54x54.png)
 
 |  |
-| Dashboard |  , ![](assets/nwe-dashboards-icon.png)
+| Dashboard | ![](assets/dashboard-icon-nwe.png) , ![](assets/nwe-dashboards-icon.png)
 
 |  |
-| Group |  , ![](assets/nwe-group-icon.png)
+| Goal | ![](assets/nwe-goal-icon.png)
+
+|✔ |
+| Group | ![](assets/groups-icon-nwe.png) , ![](assets/nwe-group-icon.png)
 
 |  |
-| Issue |  , ![](assets/nwe-issues-icon.png)
+| Issue | ![](assets/issue-icon-nwe.png) , ![](assets/nwe-issues-icon.png)
 
 |✔ |
 | Job Role | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png)
 
 |  |
-| Portfolio |  , ![](assets/nwe-portfolios-icon.png)
+| Plan | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png)
+
+|&nbsp; |
+| Portfolio | ![](assets/portfolio-icon-nwe.png) , ![](assets/nwe-portfolios-icon.png)
 
 |✔ |
-| Program |  , ![](assets/nwe-programs-icon.png)
+| Program | ![](assets/program-icon-nwe.png) , ![](assets/nwe-programs-icon.png)
 
 |✔ |
-| Project |  , ![](assets/nwe-projects-icon.png)
+| Project | ![](assets/project-icon-nwe.png) , ![](assets/nwe-projects-icon.png)
 
 |✔ |
-| Report | , ![](assets/nwe-reports-icon.png)
+| Report | ![](assets/report-icon-nwe.png) ```, ![](assets/nwe-reports-icon.png)
+
+```  |  |
+| Task | ![](assets/task-icon-new.png) , ![](assets/nwe-tasks-icon.png)
+
+|✔ |
+| Team | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png), ![](assets/nwe-teams-icon.png)
 
 |  |
-| Task |  , ![](assets/nwe-tasks-icon.png)
-
-|✔ |
-| Team | , ![](assets/team-icon-nwe-color.png), ![](assets/nwe-teams-icon.png)
-
-|  |
-| Template |  , ![](assets/nwe-templates-icon.png)
+| Template | ![](assets/template-icon-nwe.png) , ![](assets/nwe-templates-icon.png)
 
 |  |
 

@@ -127,15 +127,16 @@ As a project owner, you can manually recalculate the timelines for individual pr
 ### Recalculate timelines for individual projects
 
 <!--
-You can recalculate the timeline of a project in Workfront from&nbsp;the project page
-<span class="preview">or from a project list or report</span>.
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can recalculate the timeline of a project in Workfront from&nbsp;the project page <span class="preview">or from a project list or report</span>.</p>
 -->
 
 1. Go to the project for which you want to recalculate the timeline.
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
    <p>Or</p>
    <p>Go to a project list or report and select one or several projects. </p>
+   </div>
    -->
 
 1. Click the **More** icon ![](assets/qs-more-menu.png) , then click **Recalculate Timeline**.

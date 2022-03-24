@@ -86,8 +86,8 @@ Before you add a user, gather the information about the user listed below and de
 
 ## Create a user from scratch
 
-1. People
-1. People
+1. Click **People** on the Global Navigation Bar at the top of the window, then click the **People** tab.
+
 1. Click **New Person**.
 1. In the **New User** box that appears, click **Show Advanced Options**, then configure the available options to enter the person's information,
 
@@ -115,17 +115,18 @@ You can create a user by copying an existing user.
 >* The information in the Personal Info section.
 >* When I log in, show: The default landing tab for the access level is selected in this box.
 >* In the Global Nav bar show: The default tabs for the access level are selected in this box.  
->* For more information about how the default landing tab is based on the access level of the user, see the [Default layouts for each access level](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md#default-layouts-for-access-levels) section in&nbsp; [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+
+>
+>  For more information about how the default landing tab is based on the access level of the user, see the [Default layouts for each access level](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md#default-layouts-for-access-levels) section in&nbsp; [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 >
 >* Direct Reports
 >
 
 To create new user by copying an existing one:
 
-1. People
-1. People
-1. Select the user that you want to copy, click the **New Person** drop-down arrow, then click **New from Selected Person**.
+1. Click **People** on the Global Navigation Bar at the top of the window, then click the **People** tab.
 
+1. Select the user that you want to copy, click the **New Person** drop-down arrow, then click **New from Selected Person**.
 1. In the **New User** box that displays, edit the fields available for the new user.
 
    For information about all fields associated with a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

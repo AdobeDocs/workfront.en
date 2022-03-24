@@ -9,7 +9,11 @@ description: Note: The information on this page refers to functionality not yet 
 
 # Format your CSV file for metadata import in Workfront Library
 
-``` ```**Note: **``````The information on this page refers to functionality not yet generally available. It is available only to a limited number of environments. Workfront Library can consume a CSV file with up to 100,000 rows of data. While a larger file can take longer to import, Workfront recommends importing one file—if possible—because Workfront Library only processes one metadata import at a time. If you need to import multiple files, you must wait until the first file has finished before you can start another import.
+>[!NOTE]
+>
+>The information on this page refers to functionality not yet generally available. It is available only to a limited number of environments.
+
+Workfront Library can consume a CSV file with up to 100,000 rows of data. While a larger file can take longer to import, Workfront recommends importing one file—if possible—because Workfront Library only processes one metadata import at a time. If you need to import multiple files, you must wait until the first file has finished before you can start another import.
 
 >[!NOTE]
 >

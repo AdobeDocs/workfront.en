@@ -69,12 +69,11 @@ To manually assign a request to a team from the team page:
 
 You can reassign requests that have been assigned to your team:
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
-1. Team Requests
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**.
+
+1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
+
+1. In the left navigation panel, select **Team Requests**.
 1. Click the **Reassign**&nbsp;icon.  
 
 1. Begin typing the name of the user, group, or team who you want to reassign the request to, then click **Assign**.  

@@ -43,11 +43,10 @@ You must have the following access to perform the steps in this article:
 
 ## Edit an existing calendar report
 
-1. Reporting
-1. Calendars
-1. 
-1. 
-1. 
+1. Go to the **Reporting** area.
+1. Click the **Calendars**&nbsp;tab, then select the calendar report you want to modify.  
+   ![](assets/calendar-tab-with-calendar-selected-350x72.png)  
+
 1. (Optional) To change the name of the calendar report, click the calendar name field, then make the desired changes.  
    ![TitleChange.png](assets/titlechange-250x230.png)  
    If you have shared the calendar report with other users or teams, the modified calendar name is automatically updated in their calendar view.

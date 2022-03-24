@@ -25,7 +25,7 @@ When you rename an asset, Workfront Library changes the file name of the asset a
 
 You can rename only the active (or current) version of an asset in Workfront Library. Older versions of the asset cannot be edited.
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the content you want to rename is located.
 
@@ -40,7 +40,7 @@ You can rename only the active (or current) version of an asset in Workfront Lib
 
 ## Rename a folder
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the folder you want to rename is located.
 

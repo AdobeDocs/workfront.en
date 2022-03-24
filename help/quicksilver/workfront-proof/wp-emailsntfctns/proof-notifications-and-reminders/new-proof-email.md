@@ -34,21 +34,21 @@ The New proof email contains:
 * Thumbnail of the proof image
 * The following proof details:
 
-  * Proof name
-  * Version number
+   * Proof name
+   * Version number
 
-    For more information, see .
-  
-  * List of the reviewers and their progress on the proof
-  * A link to share the proof with someone else
+     For more information, see .
+   
+   * List of the reviewers and their progress on the proof
+   * A link to share the proof with someone else
 
-    This allows you to share the proof URL and/or the download link for the original file. This does not allow you to explicitly add reviewers to the proof, you will only be sharing the public proof URL, and the recipient will receive read only access to the proof.
+     This allows you to share the proof URL and/or the download link for the original file. This does not allow you to explicitly add reviewers to the proof, you will only be sharing the public proof URL, and the recipient will receive read only access to the proof.
 
-    See [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) for more information.
+     See [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) for more information.
 
-    If you don't want this link to appear on your recipient's email, you can disable the Public Sharing settings on the proof
+     If you don't want this link to appear on your recipient's email, you can disable the Public Sharing settings on the proof
 
-    (Download original file and Public URL). See [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) for more information.
+     (Download original file and Public URL). See [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) for more information.
 
 ## The Activity Log
 

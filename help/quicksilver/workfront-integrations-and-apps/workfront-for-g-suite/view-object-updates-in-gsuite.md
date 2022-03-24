@@ -67,8 +67,8 @@ Before you can view object updates in G Suite, you must
 1. Click the **Updates** tab.
 1. Use the option that appears, which is determined by the updates already added to the object:
 
-  * If the update has comments, click **Show Comments** to view the comments thread.
-  * If you want to add the first reply to the update, click **Reply**, then type your comment.
+   * If the update has comments, click **Show Comments** to view the comments thread.
+   * If you want to add the first reply to the update, click **Reply**, then type your comment.
 
 1. To return to the **Updates** tab, click **View All Updates**.
 

@@ -55,33 +55,31 @@ For information about how to synchronize users to your Workfront site via LDAP, 
 
 ## Use a spreadsheet import file to import users
 
-1. Main Menu
-1. 
-1. Users
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+
 1. Click the **New PersonUser** drop-down arrow, then click **Import PeopleUsers**.
 
 1. In the **Import PeopleUsers** box that displays, download the sample file, then update the sample file to include your own user's personal information.
 
    Each row includes the following fields:
 
-  * **First Name** 
-  * **Last Name** 
-  * **Email Address**
+   * **First Name** 
+   * **Last Name** 
+   * **Email Address**
 
-    Email addresses must be unique.
+     Email addresses must be unique.
 
-  * **Access Level**
+   * **Access Level**
 
-    Access Levels are case sensitive.
+     Access Levels are case sensitive.
 
-  * **SSO Login ID**
+   * **SSO Login ID**
 
-    This field is included only if SSO is enabled in your system. You must add the Federation ID in this field for each user. When you create a user from the People tab, you can set up a password for the user if you want to allow users to log in without SSO. However, the import feature does not allow you to leave the SSO LOGIN ID blank.
+     This field is included only if SSO is enabled in your system. You must add the Federation ID in this field for each user. When you create a user from the People tab, you can set up a password for the user if you want to allow users to log in without SSO. However, the import feature does not allow you to leave the SSO LOGIN ID blank.
 
-  * Ensure that no extra spaces exist before or after a user's email address.
+   * Ensure that no extra spaces exist before or after a user's email address.
 
-    ![importing-new-users.png](assets/importing-new-users-350x211.png)
+     ![importing-new-users.png](assets/importing-new-users-350x211.png)
 
 1. Save the file to a location on your workstation.
 1. Click **Choose File** in the **Import PeopleUsers** box.

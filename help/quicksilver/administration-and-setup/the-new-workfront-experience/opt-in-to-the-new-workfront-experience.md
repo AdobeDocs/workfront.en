@@ -12,5 +12,5 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* Discover the features available only with the new Adobe Workfront experience
+* [Discover the features available only with the new Adobe Workfront experience](../../administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md)
 

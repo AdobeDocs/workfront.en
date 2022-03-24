@@ -65,11 +65,14 @@ You can view the task information for a project directly from a list of projects
 To view tasks in a project from a list of projects:
 
 1. Go to one of the areas mentioned above.
-   For example, from the main menu, click **Projects**.   ![](assets/qs-main-menu-expanded-with-menu-highlight-350x481.png)
+
+   For example, from the main menu, click **Projects**.
+
+   ![](assets/qs-main-menu-expanded-with-menu-highlight-350x481.png)
 
    A list of projects displays. 
 
-1. Click the **Gantt chart** icon  in the upper-right corner of the screen.  
+1. Click the **Gantt chart** icon ![](assets/gantt-icon-nwe.png) in the upper-right corner of the screen.  
 
 1. Click the **Show Task List** icon.  
 
@@ -103,13 +106,13 @@ You can adjust the time period shown on the Gantt chart to display information o
 
 1. Select a time frame from the following available options:
 
-  * **Fit All**: This option displays the time line of the entire project.
-  * **All Projects**: This option is available only in the Project List Gantt chart.
-  * **Year**
-  * **Quarter**
-  * **Month**
-  * **Week**
-  * **Day**
+   * **Fit All**: This option displays the time line of the entire project.
+   * **All Projects**: This option is available only in the Project List Gantt chart.
+   * **Year**
+   * **Quarter**
+   * **Month**
+   * **Week**
+   * **Day**
 
 1. (Optional) Select a more granular time frame, such as Week or Day, and click and drag the horizontal scroll bar at the bottom of the Gantt chart to move left to right on the time line of the project.  
    A timeline snapshot of the Gantt displays to show the entire project.

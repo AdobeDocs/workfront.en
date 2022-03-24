@@ -64,8 +64,8 @@ To&nbsp;create a multi-page proof:
 
 1. Once all of your files are uploaded, you must decide if you want to configure a basic proof or an automated proof:
 
-  * With a basic proof, you can add as many reviewers as you want to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it. To configure a basic proof, see [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
-  * With an automated proof, the proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. to configure an automated proof, see [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+   * With a basic proof, you can add as many reviewers as you want to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it. To configure a basic proof, see [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
+   * With an automated proof, the proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. to configure an automated proof, see [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## Considerations
 

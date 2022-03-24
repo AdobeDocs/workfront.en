@@ -79,11 +79,11 @@ After you have published a template, you can share it.
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Once the template is approved, it becomes public. Public templates are visible for all Workfront Fusionusers, regardless of the organization or the team, in the Public templates tab. 
-   >  * Your administrator is not notified about receiving the template to review by email. If the approval is urgent, contact the administrator directly.
-   >  
+   >   
+   >   
+   >   * Once the template is approved, it becomes public. Public templates are visible for all Workfront Fusionusers, regardless of the organization or the team, in the Public templates tab. 
+   >   * Your administrator is not notified about receiving the template to review by email. If the approval is urgent, contact the administrator directly.
+   >   
    >
 
 ## Template statuses

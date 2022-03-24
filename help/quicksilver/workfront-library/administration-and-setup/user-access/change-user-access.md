@@ -15,8 +15,7 @@ As a Workfront Library administrator, you can change a user's access level in or
 
 When you change a user's individual access to Workfront Library, any access that the user has through a user grouping is not affected.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. In the left panel, click **Setup** > **Users**.
 1. Hover over a user's row, click the More menu next to the user's name, and select **Change access level** from the drop-down list that appears.
@@ -29,15 +28,14 @@ When you change a user's individual access to Workfront Library, any access that
 
 When you change the access level of a user grouping, you change the access of the users who are members of the grouping.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of , clickWorkfront Library the **Menu** icon.
 1. In the left panel, click **Setup**, then in the **Access** section, select the type of user grouping that you want to change access for:
 
-  * Job Roles
-  * Teams
-  * Groups
-  * Companies
+   * Job Roles
+   * Teams
+   * Groups
+   * Companies
 
    A list of the user groupings in Workfront Library displays.
 

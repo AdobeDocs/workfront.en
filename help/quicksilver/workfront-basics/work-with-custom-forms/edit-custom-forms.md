@@ -80,11 +80,11 @@ Editing information on a custom form attached to an object is identical for all 
 
    Depending on the type of field you are working in, consider the following:
 
-  * You can select only one option for radio-button fields.
-  * You can select one or multiple options in a checkbox field, depending on how the form creator configured the field.
-  * You can select one or multiple options in a multi-select drop-down field, depending on how the form creator configured the field.
-  * You can format text fields (bold, italicize, or underline) only if the user who created the form set them up as a Text Field with Formatting field type. Single Line Text Fields and Paragraph Text Fields cannot be formatted.
-  * You can update the time of the day in a Date field type only if the user who created the form has included it when creating the field.
+   * You can select only one option for radio-button fields.
+   * You can select one or multiple options in a checkbox field, depending on how the form creator configured the field.
+   * You can select one or multiple options in a multi-select drop-down field, depending on how the form creator configured the field.
+   * You can format text fields (bold, italicize, or underline) only if the user who created the form set them up as a Text Field with Formatting field type. Single Line Text Fields and Paragraph Text Fields cannot be formatted.
+   * You can update the time of the day in a Date field type only if the user who created the form has included it when creating the field.
 
    For information about all of the field types, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
@@ -94,10 +94,13 @@ Editing information on a custom form attached to an object is identical for all 
    >
    >You must complete all required fields on the form before you can save the form.&nbsp;The name of a required field is followed by an asterisk. 
    >
+   >
    >![](assets/nwe-required-custom-field.png)   >
    >
 
-   When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see [Recalculate all calculated custom fields for an object](#recalcul2) in this article. You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalcul3) in this article.
+   When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see [Recalculate all calculated custom fields for an object](#recalcul2) in this article.
+
+   You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalcul3) in this article.
 
 ## Recalculate all calculated custom fields for an object
 

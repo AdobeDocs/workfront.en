@@ -190,12 +190,12 @@ Workfront has the following limits:
 * MKV
 * Input audio codecs (part of video)
 
-  * MP3
-  * AAC/AAC-HE
-  * Windows Media
-  * PCM/WAV/AIFF
-  * AMR
-  * Ogg Vorbis
+   * MP3
+   * AAC/AAC-HE
+   * Windows Media
+   * PCM/WAV/AIFF
+   * AMR
+   * Ogg Vorbis
 
 ## Audio files
 

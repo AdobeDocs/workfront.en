@@ -23,7 +23,8 @@ For information about what objects are in Workfront and about their hierarchy an
 
 When building filters, you can reference other objects that are connected to the object of the filter within up to 2 levels of relationship using the standard reporting interface.
 
-For example, you can reference the Portfolio ID in an issue filter to display only issues on projects associated with a certain portfolio using the standard interface. In this case, the portfolio is 2 levels away from issues.
+For example, you can reference the Portfolio ID in an issue filter to display only issues on projects associated with a certain portfolio using the standard interface. In this case, the portfolio is 2 levels away from issues.  
+![portfolio_id_on_issue_filter.PNG](assets/portfolio-id-on-issue-filter-350x94.png)
 
 However, you cannot reference the Portfolio Owner in an issue filter using the standard interface to display only issues from projects associated with portfolios where the owner is a specific user. You must use text mode to access the Portfolio Owner Name field which is three levels away from issues.
 

@@ -11,7 +11,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see Access needed to use Workfront Goals.
+For additional information about access to Workfront Goals, see [Access needed to use Workfront Goals](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content/Workfront_Align/Goal_management/access-needed-for-wf-align.htm).
 
 To guarantee that your organization moves forward fastest, you must ensure that work execution is aligned with company strategy. Workfront Goals provides the tools necessary to do this successfully.
 

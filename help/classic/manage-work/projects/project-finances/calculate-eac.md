@@ -122,3 +122,5 @@ EAC = EAC Labor + EAC Expense
 
    The EAC value displays in the **Estimate at Completion** field.
 
+   ![](assets/eac.png)
+

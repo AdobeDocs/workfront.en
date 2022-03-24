@@ -49,7 +49,9 @@ You can filter items in the Work List to see only specific types of items. For e
 >
 >The filter options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the selected filters do not change. If you switch browsers or computers then the filters revert to the default option which is with all filters deselected.
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. Click the **Filter** drop-down menu.
 1. Select from the various filter options to specify the types of items you want to display.
@@ -125,12 +127,17 @@ You can filter items in the Work List to see only specific types of items. For e
 
    ![](assets/displaying-work-items-filter-350x348.png)
 
-   ``` ```**Tips: **``````
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * Some options are based on objects (Tasks, Issues, Approvals, and Personal tasks), and others are based on the state of the work items (Working On, Ready to Start, Not Ready, and Completed). If no state is selected, all selected objects of any state display. 
+   >   * Similarly, if no object is selected, all objects of any selected states display. If you select an object that is not in the selected state (for example, Approvals cannot be in a Ready to Start or Working On state), then nothing displays.  
 
-   * Some options are based on objects (Tasks, Issues, Approvals, and Personal tasks), and others are based on the state of the work items (Working On, Ready to Start, Not Ready, and Completed). If no state is selected, all selected objects of any state display. 
-   * Similarly, if no object is selected, all objects of any selected states display. If you select an object that is not in the selected state (for example, Approvals cannot be in a Ready to Start or Working On state), then nothing displays.  
-
-   * Note that open items in Team Requests and Approvals I've Submitted always display.
+   >   * Note that open items in Team Requests and Approvals I've Submitted always display.
+   >   
+   >
 
 1. (Optional) Further organize the Work List, as described in the section [Group and sort by Date, Project, and Priority](#sorting-by-date-and-project). in this article.
 
@@ -138,9 +145,12 @@ You can filter items in the Work List to see only specific types of items. For e
 
 You can group and sort the Work List by Planned Completion Date, Commit Date, Project, or My Priority. The option you choose determines how items are grouped in the Work List.
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. Click the **Sort by** drop-down menu.  
+   ![](assets/displaying-work-items-sort-by-350x240.png)
 
 1. Select from the following options:
 
@@ -203,7 +213,9 @@ In addition, only the names of the work items are searched (information within t
 
 To search the Work List:
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. (Optional) Filter the Work List, as described in [Filter the Work List](#filtering-by-item-type) and [Group and sort by Date, Project, and Priority](#sorting-by-date-and-project).
 
@@ -218,7 +230,9 @@ To search the Work List:
 
 You can change the size of the Work List so that it consumes anywhere between about a quarter of the Home area to about half of the Home area.
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. Mouse over the right edge of the Work List, then drag left or right until the Work List is the desired size.
 
@@ -229,7 +243,9 @@ Items in the Work List are displayed within groupings. You can collapse and expa
 You can collapse and expand groupings within the Work List to better control what information is visible.  
 By default, the This Week grouping is expanded and all other groupings are collapsed.&nbsp;Any changes you make are remembered the next time you access the Home area.&nbsp;
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. Click the **Expand** or **Collapse** arrow next to any grouping you want to expand or collapse.
 

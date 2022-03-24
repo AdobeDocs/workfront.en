@@ -44,15 +44,19 @@ You can share the following objects in&nbsp;Workfront with other users:
 
 * **Reports, dashboards, and calendars**: For information, see [Share reports, dashboards, and calendars in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).&nbsp;Additionally, see the following articles:
 
-  * [Share a report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-  * [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-  * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+   * [Share a report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+   * [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+   * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
 
-* ```**Plans**: For information, see [Share a plan in the Adobe Workfront Scenario Planner](../../scenario-planner/share-a-plan.md).``` 
-* ```This requires an additional license.``` 
-* **Goals**: For information, see [Share a goal in Adobe Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md).  This requires an additional license.
+* ```**Plans**: For information, see [Share a plan in the Adobe Workfront Scenario Planner](../../scenario-planner/share-a-plan.md).```
+
+  ```This requires an additional license.``` 
+
+* **Goals**: For information, see [Share a goal in Adobe Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+
+  This requires an additional license.
 
 ## Considerations about sharing objects
 
@@ -63,12 +67,20 @@ You can share the following objects in&nbsp;Workfront with other users:
 * You cannot share an object with a permission level higher than the access level of a user.&nbsp;For example, if a user has View access to Projects in their access level, you cannot give them Manage permissions on a project. 
 * A user with permissions to at least View an object can share that object with someone else.
 * You can share objects with active users, job roles, teams, groups, or companies.
-  ``` ```**Note: **``````  ```You can share a plan or a goal only with other active users``` ```.``` ```This requires additional licenses.```
 
-  ```For more information see:```
-
-  * [Share a plan in the Adobe Workfront Scenario Planner](../../scenario-planner/share-a-plan.md) 
-  * [Share a goal in Adobe Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+  >[!NOTE]
+  >
+  >```You can share a plan or a goal only with other active users``` ```.``` ```This requires additional licenses.```
+  >
+  >
+  >```For more information see:``` 
+  >
+  >   
+  >   
+  >   * [Share a plan in the Adobe Workfront Scenario Planner](../../scenario-planner/share-a-plan.md) 
+  >   * [Share a goal in Adobe Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md) 
+  >   
+  >
 
 ## Share limitations
 
@@ -134,28 +146,27 @@ The following table illustrates the level of permissions that you can select whe
 <h2><a name="Share"></a> </h2>
 <h2>Share an object</h2>
 <p>Sharing objects is identical for all the objects that can be shared, except for plans in the Workfront Scenario Planner and goals in Workfront Goals. </p>
-<p> <span>For more information about sharing plans and goals, see:</span>  </p>  
+<p> <span>For more information about sharing plans and goals, see:</span>  </p>
+<ul data-mc-conditions="QuicksilverOrClassic.Quicksilver">
 <li><a href="../../scenario-planner/share-a-plan.md" class="MCXref xref">Share a plan in the Adobe Workfront Scenario Planner</a> </li>
-<li><a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a> </li>  
+<li><a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a> </li>
+</ul>
 <ol>
 <li value="1">Go to the object you want to share. <p>For information about which objects can be shared, see the <a href="#sharing" class="MCXref xref">Share limitations</a> section this article. </p></li>
 <li value="2">Do either&nbsp;of the following, depending on the type of object you are sharing:<br>
 <ul>
-<span>When sharing a project, task, issue, portfolio, program, template, report, dashboard, </span>or<span> calendar, </span>click the <strong>More</strong> icon
-<img src="assets/more-icon.png">, then click&nbsp;<strong>Sharing.</strong>
-<br>
-<img src="assets/sharing-a-task-350x157.png" style="width: 350;height: 157;">
+<li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>When sharing a project, task, issue, portfolio, program, template, report, dashboard, </span>or<span> calendar, </span>click the <strong>More</strong> icon<img src="assets/more-icon.png">, then click&nbsp;<strong>Sharing.</strong><br><img src="assets/sharing-a-task-350x157.png" style="width: 350;height: 157;"></li>
 <li><span>When sharing a document that does not contain a proof,</span> select the document that you want to share, then click <strong>Share</strong>&nbsp;> <strong>Document</strong>.<br><note type="tip">
 You can share multiple documents at the same time by holding the Shift key to select multiple documents, then clicking
 <strong>Share</strong>.
-</note><br></li>
+</note><br><img src="assets/share-a-document-350x160.png" style="width: 350;height: 160;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"></li>
 <li><span>When sharing a proof link, </span>select the document that contains the proof, then click <strong>Share</strong> > <strong>Proof Link</strong>.<br>For more information about sharing a proof (either by sharing a link or by adding users to a proof), see <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md" class="MCXref xref">Share a proof within Adobe Workfront</a>.</li>
 </ul></li>
 <li value="3"> <p>In the <strong>Give <Object Name> access to</strong>&nbsp;field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list. </p> <p>For example, if you are sharing a project, use the <strong>Give project access to</strong>&nbsp;field.<br>If you have multiple entities named similarly, they should all be listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random. Select the one with which you want to share the project.&nbsp;</p> <note type="tip">
 You can share an object only with active users, teams,
 <span>roles,</span> or companies.
 </note> </li>
-<li value="4"> <p>(Optional) Repeat step 3 for each user, team, role, or group who you want to grant access to the object. </p>  <img src="assets/nwe-project-sharing-modal-350x456.png" style="width: 350;height: 456;">  </li>
+<li value="4"> <p>(Optional) Repeat step 3 for each user, team, role, or group who you want to grant access to the object. </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-project-sharing-modal-350x456.png" style="width: 350;height: 456;"> </p> </li>
 <li value="5">Specify the permissions for each user, team, role,&nbsp;group, or company that you added in Step 3 by clicking&nbsp;the drop-down menu, then selecting the permission level that you want to grant. <p>The following options are available:</p>
 <ul>
 <li><p><strong>View:</strong>&nbsp;Users can&nbsp;review and share&nbsp;the item.&nbsp;</p></li>

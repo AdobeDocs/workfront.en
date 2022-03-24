@@ -46,9 +46,13 @@ You must have the following access to perform the steps in this article:
 To set the tracking mode:
 
 1. Go to the task you want to set the tracking mode for.
-1. Click&nbsp;**Edit Task** in the upper-right corner.  The Edit Task dialog box opens. 
+1. Click&nbsp;**Edit Task** in the upper-right corner.
+
+   The Edit Task dialog box opens. 
 
 1. In the&nbsp;**Settings** section, use the&nbsp;**Tracking Mode** drop-down menu to select the Tracking Mode for the task.
+
+   ![utmt.png](assets/utmt-350x197.png)
 
 1. Select from the following options:
 

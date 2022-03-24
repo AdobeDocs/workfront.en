@@ -213,8 +213,8 @@ Further configuration and use of the created OAuth2 application requires some te
 
    endpoint:
 
-  * The authorization code sent to ClientApp in step 3. This identifies the specific instance of user permission.
-  * The Client Secret that was generated when you set up the ClientApp OAuth2 app in Workfront. This allows Workfront to know that the request is coming from ClientApp.
+   * The authorization code sent to ClientApp in step 3. This identifies the specific instance of user permission.
+   * The Client Secret that was generated when you set up the ClientApp OAuth2 app in Workfront. This allows Workfront to know that the request is coming from ClientApp.
 
 1. If the authorization code and the client secret are correct, Workfront sends an access token to ClientApp. This access token is sent directly from Workfront to ClientApp, and cannot be viewed, copied, or used by any other user or client application. 
 1. ClientApp sends the access token to Workfront along with the specific request for information.

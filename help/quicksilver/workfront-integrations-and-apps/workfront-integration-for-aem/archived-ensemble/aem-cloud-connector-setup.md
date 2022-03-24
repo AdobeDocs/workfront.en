@@ -74,30 +74,30 @@ In order for the Workfront Connector to connect to a Workfront environment, it m
 
 1. The following describes each attribute and how to configure them:
 
-  1. **workfront.folder.path**: The assets path where Workfront files are stored. This path must be within /content/dam. If changed, the new path must already exist..
-  1. <![CDATA[  ]]>**workfront.api.key**: Retrieved from Customer Info section of the Workfront setup screen. This must be a Workfront admin user's API Key.
-  1. **workfront.url workfront.url**: The URL of the Workfront instance being linked to. Example: https://[account].my.workfront.com
-  1. The following keys and tokens can be created using the following URL to generate a unique guid for each: [UUID Generator](https://www.uuidgenerator.net/).&nbsp;
+   1. **workfront.folder.path**: The assets path where Workfront files are stored. This path must be within /content/dam. If changed, the new path must already exist..
+   1. <![CDATA[  ]]>**workfront.api.key**: Retrieved from Customer Info section of the Workfront setup screen. This must be a Workfront admin user's API Key.
+   1. **workfront.url workfront.url**: The URL of the Workfront instance being linked to. Example: https://[account].my.workfront.com
+   1. The following keys and tokens can be created using the following URL to generate a unique guid for each: [UUID Generator](https://www.uuidgenerator.net/).&nbsp;
 
-    1. **webhooks.api.key**:&nbsp;REQUIRED This will act as the AEM API key stored in the Workfront Custom configuration for the Workfront Connector.&nbsp;
-    1. **document.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to automatically create new proof versions of a document in Workfront when the file content is updated in AEM. If left empty, this feature will be disabled.
-    1. **comment.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to synchronize comments on a linked document. If left empty, this feature will be disabled.
-    1. **metadata.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to synchronize metadata on a linked document. If left empty, this feature will be disabled.
-    1. **request.whitelist**: Restrict access to only those requests originating from the IP list specified.
+      1. **webhooks.api.key**:&nbsp;REQUIRED This will act as the AEM API key stored in the Workfront Custom configuration for the Workfront Connector.&nbsp;
+      1. **document.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to automatically create new proof versions of a document in Workfront when the file content is updated in AEM. If left empty, this feature will be disabled.
+      1. **comment.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to synchronize comments on a linked document. If left empty, this feature will be disabled.
+      1. **metadata.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to synchronize metadata on a linked document. If left empty, this feature will be disabled.
+      1. **request.whitelist**: Restrict access to only those requests originating from the IP list specified.
 
-      1. Input a comma separated list of whitelisted IP Addresses. Ex: [1.1.1.1,0.0.0.0]
+         1. Input a comma separated list of whitelisted IP Addresses. Ex: [1.1.1.1,0.0.0.0]
 
-       ```<li><strong>ignore.domain</strong>: If enabled, the email address domain name will be ignored when mapping users from Workfront to AEM. i.e. @example.com  <ol>   <li value="1">Options: {Boolean}false or {Boolean}true</li>  </ol></li>``````<li><strong>use.sso.username</strong>: If enabled, the connector will use the Workfront user's Federated ID when mapping users to AEM.</li>```
+         ```<li><strong>ignore.domain</strong>: If enabled, the email address domain name will be ignored when mapping users from Workfront to AEM. i.e. @example.com  <ol>   <li value="1">Options: {Boolean}false or {Boolean}true</li>  </ol></li>``````<li><strong>use.sso.username</strong>: If enabled, the connector will use the Workfront user's Federated ID when mapping users to AEM.</li>```
 
-      1. Options: {Boolean}false or {Boolean}true
+         1. Options: {Boolean}false or {Boolean}true
 
-    1. **show.collections**: This option enables Workfront users to see AEM Asset Collections and link them in the Workfront Documents UI. Linked Collections cannot have documents added to them.
+      1. **show.collections**: This option enables Workfront users to see AEM Asset Collections and link them in the Workfront Documents UI. Linked Collections cannot have documents added to them.
 
-      1. Options: {Boolean}false or {Boolean}true
+         1. Options: {Boolean}false or {Boolean}true
 
-    1. **version.enabled**: This option enables Workfront users to leverage AEM Versioning when the assets already exist in DAM.
+      1. **version.enabled**: This option enables Workfront users to leverage AEM Versioning when the assets already exist in DAM.
 
-      1. Options: {Boolean}false or {Boolean}true
+         1. Options: {Boolean}false or {Boolean}true
 
 ## Section 3: Add service user to ACLs
 
@@ -133,10 +133,8 @@ After you add the connector to your existing project structure and configure the
    >
    >Workfront recommends creating a Workfront administrator dedicated solely to your AEM integration. For more information about assigning the Workfront administrator access level to a user, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. Click&nbsp;**Documents**>&nbsp;**Custom Integration.**
 
 1. Click **Add Custom Integration**.

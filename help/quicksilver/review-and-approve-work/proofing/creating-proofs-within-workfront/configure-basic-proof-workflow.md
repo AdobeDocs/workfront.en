@@ -329,5 +329,7 @@ You must have the following access to perform the steps in this article:
 
 1. After&nbsp;the proof is generated, click&nbsp;**Open proof**&nbsp;to launch the proofing viewer.
 
+   ![](assets/open-proof-350x132.png)
+
    Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
 

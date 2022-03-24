@@ -67,7 +67,9 @@ To require project manager approval for hours on the project:
 1. Click **Edit Project**.   
    The Edit Project dialog box displays.
 
-1. In the **Finance** section, select **Require time to be approved for this project**. 
+1. In the **Finance** section, select **Require time to be approved for this project**.
+
+   ![](assets/project-require-approval-350x202.png)
 
 1. Click **Save****Changes**.  
    Now when&nbsp;time is logged and approved, those hours become locked and cannot be altered by the user who entered them on the project or the timesheet. Only a Workfront administrator can adjust the time recorded.

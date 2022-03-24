@@ -113,6 +113,7 @@ Quip users without Workfront access can see the document in Quip.
 
 1. Select a document that is uploaded in Workfront.
 1. Click **More** >**Send to** > **Quip**.
+
    You can also use the More menu ![](assets/more-icon.png) on the Document Details page to do this.  
 
 1. Select the Quip folder where you want to store the document.
@@ -155,7 +156,8 @@ Also, when users without access to Workfront add, remove, and modify Quip files 
 
 1. (Optional) To rename the folder so that the folder name in Workfront is different from the folder name in Quip, select the folder in the **Folders** section, click the  More menu ![](assets/more-icon.png)  that displays next to the folder name, then click **Rename**.
 
-   ![](assets/quip-folderlink-rename-nwe-350x191.png)   
+   ![](assets/quip-folderlink-rename-nwe-350x191.png)
+
    This does not rename the folder in Quip.
 
 ### Add subfolders to a linked&nbsp;folder
@@ -172,11 +174,11 @@ You can create a new folder inside an existing linked folder. You can also drag 
    >
    >The following limitations apply when dragging an existing Workfront folder into a linked&nbsp;folder:
    >
-   >  
-   >  
-   >  * The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.
-   >  * The folder (including its contents) that you are dragging can't exceed 50 MB.
-   >  
+   >   
+   >   
+   >   * The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.
+   >   * The folder (including its contents) that you are dragging can't exceed 50 MB.
+   >   
    >
 
 ### Folder access rights

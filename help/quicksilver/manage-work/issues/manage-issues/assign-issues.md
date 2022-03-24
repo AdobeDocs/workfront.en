@@ -71,9 +71,9 @@ Consider the following when assigning multiple resources to a work item:
 * Tasks or issues are usually first assigned to one or multiple job roles or to a team. When projects are ready to start, they might need to also be assigned to users.   
   If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any)&nbsp;according to the following rules:
 
-  * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
-  * If there are multiple roles assigned and at least one of the roles matches the user's secondary roles, then the task or issue is assigned to the user fulfilling one of their Other Roles — which Workfront selects at random if there are multiple matches — as well as any additional roles that are assigned.
-  * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both&nbsp;the role or roles as well as to the user.
+   * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
+   * If there are multiple roles assigned and at least one of the roles matches the user's secondary roles, then the task or issue is assigned to the user fulfilling one of their Other Roles — which Workfront selects at random if there are multiple matches — as well as any additional roles that are assigned.
+   * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both&nbsp;the role or roles as well as to the user.
 
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
@@ -94,18 +94,27 @@ Consider the following when assigning multiple resources to a work item:
 ## Assign a single issue
 
 1. Go to an issue that you want to assign.
-1. Click **Assign to** in the upper-right corner of the issue header, in the **Assignments** area Or Click the name of the current assignments, if the issue is already assigned.   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+1. Click **Assign to** in the upper-right corner of the issue header, in the **Assignments** area
+
+   Or
+
+   Click the name of the current assignments, if the issue is already assigned.
+
+   ![](assets/nwe-assign-to-button-in-header-350x77.png)
 
 1. Do one of the following:
 
-  * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
+   * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
 
-  * Suggested Assignments
-  * Assign to me
-  * Click **Advanced** 
-  * Creating advanced assignments is similar for tasks and issues. For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
-1. Click **Save** to complete assigning the issue.  
+   * (Conditional) Click one of the names in the **Suggested Assignments** list 
+   * Click&nbsp;**Assign to me** to assign it to yourself
+   * Click **Advanced**
+
+     Creating advanced assignments is similar for tasks and issues. For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+1. Click **Save** to complete assigning the issue. 
 1. (Optional)&nbsp;Click the **X icon** next to the name of the assignments in the Assignments area on the header of the issue to remove an assignment.
 
 ## Assign an issue in a list
@@ -124,15 +133,17 @@ To assign issues in a list:
 1. Go to a list of issues that has the Assigned To, Assigned, or Assignments fields in the view.
 1. To assign issues do one of the following:
 
-  * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the issue, then click it when it displays in the list.
-  
-    ![](assets/assigned-to-field-task-list-nwe.png)
+   * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the issue, then click it when it displays in the list.
 
-  * Click inside the **Assignments** field and start typing the name of an ```active``` user, ```job role```, or ```active``` team that you want to assign to the issue, then click it when it displays in the list.
-  
-    ![](assets/assignments-field-task-list-nwe.png)
+     ![](assets/assigned-to-field-task-list-nwe.png)
 
-1. (Conditional) When visible in the Assignments field, click the **People icon** `````` in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+   * Click inside the **Assignments** field and start typing the name of an ```active``` user, ```job role```, or ```active``` team that you want to assign to the issue, then click it when it displays in the list.
+
+     ![](assets/assignments-field-task-list-nwe.png)
+
+1. (Conditional) When visible in the Assignments field, click the **People icon** ``` ![](assets/teams.png)
+
+   ``` in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -144,7 +155,9 @@ To assign issues in a list:
 
 1. Go to a list of issues that you want to assign in bulk. 
 1. Select several issues in the list. 
-1. Click the **Edit icon** ![](assets/qs-edit-icon.png).  The **Edit Issues** dialog box opens.
+1. Click the **Edit icon** ![](assets/qs-edit-icon.png).
+
+   The **Edit Issues** dialog box opens.
 
 1. In the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the issues.
 
@@ -157,8 +170,8 @@ To assign issues in a list:
 
 1. (Optional) If you want to remove existing assignees from all issues do one of the following:
 
-  1. Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click **Remove Assignee** to add additional assignees to remove. 
-  1. Click&nbsp;**Remove All Existing Assignees** to remove all assignees from all selected issues.
+   1. Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click **Remove Assignee** to add additional assignees to remove. 
+   1. Click&nbsp;**Remove All Existing Assignees** to remove all assignees from all selected issues.
 
 1. Click&nbsp;**Save Changes**.
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.

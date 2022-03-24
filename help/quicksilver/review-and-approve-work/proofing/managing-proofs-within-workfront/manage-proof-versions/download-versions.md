@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 ## Download all versions of a proof
 
 1. In the document list, click on the proof.
-1. Document Details
-1. All Versions
-1. Download All
+1. Click **Document Details**, then select **All Versions** in the left panel.
+
+1. Click **Download All** at the top of the list.
 

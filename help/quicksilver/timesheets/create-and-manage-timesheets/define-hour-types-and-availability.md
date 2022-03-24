@@ -61,8 +61,8 @@ The system administrator determines which project-specific hour types are made a
 The project owner determines whether all hour types defined at the system level are available on the project (and tasks and issues within the project), or whether only a subset of those hour types are available.&nbsp;
 
 1. Go to the project where you want to determine the&nbsp;availability of&nbsp;hour types.
-1. More
-1. Edit
+1. Click the **More** menu next to the task name, then click **Edit**.
+
 1. Click **Edit Project**.
 1. In the **Settings** section, locate the **Filter Hour Types** option.  
 
@@ -86,18 +86,19 @@ If you make an hour type available at the user level as described in this sectio
 
 To define the hour types that are available to a user:
 
-1. Main Menu
-1. 
-1. More
-1. Edit
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click your user avatar in the upper-left corner.
+1. Click the **More** menu next to the user name, then click **Edit**.
+
 1. Only a system administrator can edit other users. If you have a Plan license, you can edit the hour types on your own profile.
 1. In the **Resource Planning** section, in the **Available Hour Types** drop-down menu, do either of the following, depending on which hour types you want to make available when logging time on a project, task, or issue:
 
-  * **To make all hour types available for the user:**&nbsp;Select all the hour types.  
-    If you leave all hour types unselected, this is technically the same as selecting all hour types. However, in this case, all hour type are available for the user only on projects, tasks, and&nbsp;issues where&nbsp;**No** is selected in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#defining-availability-at-the-project-level).
-  * **To make only a subset of the hour types available for the user:** Select only the hour types you want to make available.
+   * **To make all hour types available for the user:**&nbsp;Select all the hour types.  
+     If you leave all hour types unselected, this is technically the same as selecting all hour types. However, in this case, all hour type are available for the user only on projects, tasks, and&nbsp;issues where&nbsp;**No** is selected in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#defining-availability-at-the-project-level).
+   * **To make only a subset of the hour types available for the user:** Select only the hour types you want to make available.
 
-    In order for the hour types you select at the user level to be available on projects, tasks, and issues, these same hour types must also be selected&nbsp;in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#defining-availability-at-the-project-level).
+     In order for the hour types you select at the user level to be available on projects, tasks, and issues, these same hour types must also be selected&nbsp;in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#defining-availability-at-the-project-level).
 
 1. Click **Save Changes**.
 

@@ -94,15 +94,15 @@ Single Sign-On is a Select and Premium feature so Single Sign-On can only be ena
    >
    >At this time, when Single Sign-On is enabled on your Workfront Proof account, you will not&nbsp;be able to log in to the iPhone app with those credentials.
 
-  1. **Manual** (default): SSO with a different configuration (for example, pointing to another Identity Provider).
+   1. **Manual** (default): SSO with a different configuration (for example, pointing to another Identity Provider).
 
-     >[!NOTE]
-     >
-     >If the satellite account is inheriting the SSO configuration from the hub account, the login screen will be that of the hub account. When the satellite account user enters their SSO login details on this page, they will be re-directed back to the satellite account.
+      >[!NOTE]
+      >
+      >If the satellite account is inheriting the SSO configuration from the hub account, the login screen will be that of the hub account. When the satellite account user enters their SSO login details on this page, they will be re-directed back to the satellite account.
 
-     ![Enabling_SSO_-_Satellite_Account_2.png](assets/enabling-sso---satellite-account-2-350x224.png)
+      ![Enabling_SSO_-_Satellite_Account_2.png](assets/enabling-sso---satellite-account-2-350x224.png)
 
-  1. Click **Save** (6).
+   1. Click **Save** (6).
 
 ## SSO Settings Inherited from a Hub Account
 

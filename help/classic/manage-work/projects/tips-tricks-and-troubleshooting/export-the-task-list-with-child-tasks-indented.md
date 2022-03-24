@@ -22,6 +22,7 @@ You can maintain the distinction of parent - child relationships in an exported 
 
 1. Name the filter in the top-left corner of the screen.
 1. Click in the **Task Name** column header.  
+   ![task-name-column-header.png](assets/task-name-column-header-350x236.png)
 
 1. Select&nbsp;**Switch to Text Mode** in the top-right corner.
 1. Click anywhere in the textbox to edit text, and remove all existing text.

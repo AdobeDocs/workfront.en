@@ -35,9 +35,9 @@ Reference numbers are displayed by default for tasks and issues. You can also ea
 
 ### View reference numbers for tasks and issues
 
-Reference numbers are displayed by default when viewing a task or issue. To see the reference number of a task or issue, open the task or issue and find the Reference Number field in the right panel. 
+Reference numbers are displayed by default when viewing a task or issue. To see the reference number of a task or issue, open the task or issue and find the Reference Number field in the right panel.
 
-![](assets/reference-number1-350x362.png)  
+![](assets/reference-number1-350x362.png)
 
 ### View reference numbers for other objects
 

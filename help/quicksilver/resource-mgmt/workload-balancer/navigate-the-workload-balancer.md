@@ -118,30 +118,33 @@ You can update the view in the Workload Balancer to display exactly the informat
 
 After selecting the settings you want to apply to your view, the Workload Balancer remembers these settings every time you access it from any browser or device.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**. 
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
 1. ```Click Workload Balancer in the left panel.```
 
    You might need to click **Scheduling**, then select Workload Balancer in the upper-left corner. 
 
    The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. ```By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.```
-   ``` ```**Tip: **``````You can change the color of the bars for projects and tasks when you select your color scheme to match the project. For more information, continue reading this procedure.  
+
+   >[!TIP]
+   >
+   >You can change the color of the bars for projects and tasks when you select your color scheme to match the project. For more information, continue reading this procedure.
+
    The work items that display under the name of users in the Workload Balancer are sorted by the following criteria, in this order:
 
-  1. Planned Start Date (oldest first)
-  1. Planned Completion Date (oldest first)
-  1. Alphabetical by project (only when the first two criteria are identical for multiple work items)
+   1. Planned Start Date (oldest first)
+   1. Planned Completion Date (oldest first)
+   1. Alphabetical by project (only when the first two criteria are identical for multiple work items)
 
 1. 
 
    <!--
-   <span class="preview">Click the right-pointing arrow to the left of the Unassigned or Assigned areas to expand all items under the project names (in the Unassigned area) and under the user names (in the Assigned area). </span>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><span class="preview">Click the right-pointing arrow to the left of the Unassigned or Assigned areas to expand all items under the project names (in the Unassigned area) and under the user names (in the Assigned area). </span> </p>
    -->
 
 1. 
 
    <!--
-   <span class="preview">Click the down-pointing arrow to the left of the Unassigned or Assigned areas to collapse all items under the project names (in the Unassigned area) and under the user names (in the Assigned area). </span>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><span class="preview">Click the down-pointing arrow to the left of the Unassigned or Assigned areas to collapse all items under the project names (in the Unassigned area) and under the user names (in the Assigned area). </span> </p>
    -->
 
 1. Use the horizontal scroll to navigate the timelines of work items that extends beyond the limits of the screen. 
@@ -149,8 +152,10 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 1. 
 
    <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    <p>Drag and drop the separation line between the left panel and the timeline areas to adjust the size of the left panel. </p>
    <p> <img src="assets/separation-line-between-left-panel-and-timeline-highlighted-nwe-350x174.png" style="width: 350;height: 174;"> </p>
+   </div>
    -->
 
 1. Click the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or the **Assigned Work** areas to select the type of information to display in the Workload Balancer.
@@ -173,10 +178,15 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    ![](assets/calendar-date-picker-balancer-350x208.png)
 
-   ``` ```**Tips: **``````
-
-  * When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
-  * A dual calendar displays only when you select to view 12 weeks at a time.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
+   >   * A dual calendar displays only when you select to view 12 weeks at a time. 
+   >   
+   >
 
 1. Click one of the following options in the toolbar to display information by different time frames:
 
@@ -201,20 +211,21 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Select the number of weeks you want to display at one time in the Workload Balancer from the following options:
 
-  * 2 weeks
-  * 4 weeks.&nbsp;This is the default setting.
-  * 6 weeks
-  * 12 weeks
-  
-    ``` ```**Tip: **``````
+   * 2 weeks
+   * 4 weeks.&nbsp;This is the default setting.
+   * 6 weeks
+   * 12 weeks
+   
+     ``` ```**Tip: **``````
 
-    * ```When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.```
+      * ```When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.```
 
-      ![](assets/3-months-12-weeks-drop-down-wb-350x140.png)
+        ![](assets/3-months-12-weeks-drop-down-wb-350x140.png)
 
-    * ```When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.```
+      * ```When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.```
 
-1. Click the **Settings** icon ![](assets/settings-gear-icon.png).
+1. 
+   Click the **Settings** icon ![](assets/settings-gear-icon.png).
 
    The Settings panel displays.
 
@@ -222,53 +233,54 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    Select from the options listed below to update the information you view in the Workload Balancer, then click the **X icon** in the upper-right of the Settings box to close it.
 
-  * **Group by Project**: When this is selected, the items in the Unassigned and Assigned Work areas are grouped by project. This is selected by default.
+   * **Group by Project**: When this is selected, the items in the Unassigned and Assigned Work areas are grouped by project. This is selected by default.
 
-    ![](assets/group-by-project-350x530.png)
+     ![](assets/group-by-project-350x530.png)
 
-  * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area and the Planned Hours from the issues also display for the issues, the project, and the user.
+   * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area and the Planned Hours from the issues also display for the issues, the project, and the user.
 
-    ![](assets/issue-on-workload-balancer-350x20.png)
+     ![](assets/issue-on-workload-balancer-350x20.png)
 
-    >[!TIP]
-    >
-    >Issues don't display in the Unassigned Work area of the Workload Balancer.
+     >[!TIP]
+     >
+     >Issues don't display in the Unassigned Work area of the Workload Balancer.
 
-  * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
+   * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
 
-    * The projected timeline of tasks and projects displays in light blue bars with a line underneath. 
-    * The projected timeline of issues displays in light maroon bars with a line underneath. 
-    * The projected timeline for the items that you have no access to view displays in light gray with a line underneath.
-    * When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled.
+      * The projected timeline of tasks and projects displays in light blue bars with a line underneath. 
+      * The projected timeline of issues displays in light maroon bars with a line underneath. 
+      * The projected timeline for the items that you have no access to view displays in light gray with a line underneath.
+      * When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled.
 
-    ![](assets/task-issue-projected-timelines-350x91.png)
+     ![](assets/task-issue-projected-timelines-350x91.png)
 
-    >[!TIP]
-    >
-    >Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the timeframe selected.
+     >[!TIP]
+     >
+     >Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the timeframe selected.
 
-  * **Show completed work**:&nbsp;When this is enabled, tasks and issues that are completed display in the Assigned Work area. This is enabled by default.
+   * **Show completed work**:&nbsp;When this is enabled, tasks and issues that are completed display in the Assigned Work area. This is enabled by default.
 
-    A green checkmark icon ![](assets/green-checkmark-icon.png) displays to the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed. 
-  
-  * **Show remaining time**: When this is enabled, Workfront displays the difference between the daily time for which the user is available to work based on their schedules and the hours for which they are allocated in the Assigned Work area for the users. This is disabled by default and allocated time displays by default.
-  * In the **Select color theme section**, select from the following:
+     A green checkmark icon ![](assets/green-checkmark-icon.png) displays to the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed. 
+   
+   * **Show remaining time**: When this is enabled, Workfront displays the difference between the daily time for which the user is available to work based on their schedules and the hours for which they are allocated in the Assigned Work area for the users. This is disabled by default and allocated time displays by default.
+   * In the **Select color theme section**, select from the following:
 
-    * **Default**: The bars for all projects and their work items display in blue. 
-    * **Project**: The bars associated with each project and its work items change according to the name of the project. All tasks that belong to the project display in bars that match the color of the project.
-    * **Project Status**: The bars associated with each project and its work items change to the color of the status of the project.
+      * **Default**: The bars for all projects and their work items display in blue. 
+      * **Project**: The bars associated with each project and its work items change according to the name of the project. All tasks that belong to the project display in bars that match the color of the project.
+      * **Project Status**: The bars associated with each project and its work items change to the color of the status of the project.
 
-      >[!TIP]
-      >
-      >The project status is that associated with the Group of the project. If the Group does not have group-specific statuses, the color of the work item bars is that of the system-level project status. Both system as well as custom statuses display. For information about group statuses, see [Create or edit a group status](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+        >[!TIP]
+        >
+        >The project status is that associated with the Group of the project. If the Group does not have group-specific statuses, the color of the work item bars is that of the system-level project status. Both system as well as custom statuses display. For information about group statuses, see [Create or edit a group status](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-  * In the **Display user allocation in** section, select from the following:
+   * In the **Display user allocation in** section, select from the following:
 
-    * **Hours**: Displays allocated time as hours. This is the default. 
-    * **Percentage**: Displays allocated time as a percentage of the total available time
+      * **Hours**: Displays allocated time as hours. This is the default. 
+      * **Percentage**: Displays allocated time as a percentage of the total available time
 
-1. (Optional and conditional) If you changed the color theme to Project&nbsp;Status, hover over the name of a project on the left to view the status of the project. 
-1. ![](assets/hover-over-project-status-tooltip-350x115.png)
+1. (Optional and conditional) If you changed the color theme to Project&nbsp;Status, hover over the name of a project on the left to view the status of the project.
+
+   ![](assets/hover-over-project-status-tooltip-350x115.png)
 
 1. Click the **Chart icon** ![](assets/user-allocation-chart-icon.png) to display the user allocation in a chart format. Days where the user is overallocated display as red blocks, and days where the user is underallocated or at capacity display as blue blocks. The size of the blocks indicates the amount of the allocation: the larger the box, the more time the user is allocated to work items for that day or week.
 
@@ -280,9 +292,9 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    ``` ```**Tip: **``````
 
-  * The Show allocations setting only affects what displays for projects, tasks, ```issues``` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
-  * You must enable the Group by Project setting to display daily Planned Hours for projects. 
-  * When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours.
+   * The Show allocations setting only affects what displays for projects, tasks, ```issues``` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
+   * You must enable the Group by Project setting to display daily Planned Hours for projects. 
+   * When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours.
 
    Days that show overallocations display in red. 
 
@@ -293,27 +305,33 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 1. (Optional)&nbsp;Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks in the bars of the work items. 
 1. ```Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name,``` then click one of the following:
 
-  * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to.
+   * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to.
 
-    ![](assets/more-menu-right-of-task-350x104.png)
+     ![](assets/more-menu-right-of-task-350x104.png)
 
-    ``` ```**Tip: **`````````You can also use the following shortcuts to assign tasks or issues:```
+     ``` ```**Tip: **`````````You can also use the following shortcuts to assign tasks or issues:```
 
-    * ```In Windows: CTRL+click the task or issue bar.```
-    * ```In Mac: CMD+click the task or issue bar.```
+      * ```In Windows: CTRL+click the task or issue bar.```
+      * ```In Mac: CMD+click the task or issue bar.```
 
-    For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
-  
-  * **Edit allocations**, then edit the daily or weekly allocations for the user. For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+     For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
+   
+   * **Edit allocations**, then edit the daily or weekly allocations for the user. For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-1. ```Click the **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel.``` 
-1. For information about updating task information in the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
-1. This option is available for tasks in the Unassigned Work area and for tasks and ```issues``` in the Assigned Work area. This is not available for projects or users. 
-1. Click **Bulk Assignments** to assign work items in bulk. 
-1. For more information, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+1. ```Click the **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel.```
+
+   For information about updating task information in the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+
+   >[!TIP]
+   >
+   >This option is available for tasks in the Unassigned Work area and for tasks and ```issues``` in the Assigned Work area. This is not available for projects or users.
+
+1. Click **Bulk Assignments** to assign work items in bulk.
+
+   For more information, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
    <!--
-   <p><span class="preview">Click the <strong>Full screen</strong> icon <img src="assets/full-screen.png"> to display the Workload Balancer in full screen, then click the <strong>Exit full screen</strong> icon <img src="assets/exit-full-screen.png"> to return to the default screen.</span> </p>
+   <li value="24" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p><span class="preview">Click the <strong>Full screen</strong> icon <img src="assets/full-screen.png"> to display the Workload Balancer in full screen, then click the <strong>Exit full screen</strong> icon <img src="assets/exit-full-screen.png"> to return to the default screen.</span> </p> </li>
    -->
 
 1. (Optional) Double-click a daily or weekly allocation for a user inside the bar of a work item to edit the number of allocated hours, then click the **Save** icon ![](assets/save-allocations-wb.png)to save the allocations or the **Cancel** icon ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.

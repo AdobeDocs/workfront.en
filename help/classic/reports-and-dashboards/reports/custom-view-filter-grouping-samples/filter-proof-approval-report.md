@@ -47,7 +47,8 @@ You must have the following access to perform the steps in this article:
 1. If you already have a Proof Approval report, open it.
 
    Or
-   To create your own Proof Approval report, click&nbsp;**Reporting**. On the **Reports** tab, click&nbsp;**New Report** > **Proof Approval**. Click **Save + Close**, type a **Report Name** (optional), then click **Save Report**. 
+
+   To create your own Proof Approval report, click&nbsp;**Reporting**. On the **Reports** tab, click&nbsp;**New Report** > **Proof Approval**. Click **Save + Close**, type a **Report Name** (optional), then click **Save Report**.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To create your own Proof Approval report, click the Main Menu <img src="assets/main-menu-icon.png">, then click <strong>Reports</strong> <img src="assets/reports-in-main-menu.png">. Click&nbsp;<strong>New Report</strong>. In the list that appears, scroll to and click <strong>Proof Approval</strong>. Click <strong>Save + Close</strong>, type a <strong>Report Name</strong> (optional), then click <strong>Save Report</strong>.</p>

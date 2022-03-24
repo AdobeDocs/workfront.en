@@ -57,16 +57,16 @@ Workfront uses a proprietary algorithm to determine assignment proposals. To fac
 
 * Task and issue information, including:
 
-  * Role assignments   
-    No proposal is made for tasks and issues that are not assigned to a role.
-  * Planned Hours  
-    If a task or issue currently has no planned hours, Workfront assumes 4 planned hours per workday when automatically assigning work. These hours are not automatically assigned to the work item; they are used only to ensure more realistic assignment distributions.
-  * Planned Start Dates and Planned Completion Dates
+   * Role assignments   
+     No proposal is made for tasks and issues that are not assigned to a role.
+   * Planned Hours  
+     If a task or issue currently has no planned hours, Workfront assumes 4 planned hours per workday when automatically assigning work. These hours are not automatically assigned to the work item; they are used only to ensure more realistic assignment distributions.
+   * Planned Start Dates and Planned Completion Dates
 
 * User information, including:
 
-  * Primary and secondary role assignments on the user profile
-  * Project team information
+   * Primary and secondary role assignments on the user profile
+   * Project team information
 
 ## Configure role limits
 
@@ -87,8 +87,8 @@ To set limits for job role assignments:
 
 1. Go to the scheduling timeline for multiple projects or for an individual project:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. Click the **Settings** icon.  
    ![Automode_settings.png](assets/automode-settings.png)
@@ -113,16 +113,16 @@ To allow Workfront to automatically propose assignments for tasks and issues in 
 
 1. Go to the scheduling timeline for multiple projects or for an individual project:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. (Optional) Create a filter to customize what content is displayed in the Unassigned area on the scheduling timeline.  
    For more information about creating a filter, see [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md#creating-and-modifying-filters-on-the-scheduling-tab-for-projects) in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md) [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
 
    ``` ```**Tip: **`````` To ensure that Workfront assigns work to the most eligible users:
 
-  * Filter only information that affects which tasks are displayed in the Unassigned area (such as Portfolios, Programs, an Projects). 
-  * We recommend that you do not filter information that affects which users are available to assign on the scheduling timeline. Doing so limits Workfront from viewing all potential assignees, which can result in less satisfactory assignments.
+   * Filter only information that affects which tasks are displayed in the Unassigned area (such as Portfolios, Programs, an Projects). 
+   * We recommend that you do not filter information that affects which users are available to assign on the scheduling timeline. Doing so limits Workfront from viewing all potential assignees, which can result in less satisfactory assignments.
 
 1. (Optional) Modify the date range that is displayed on the scheduling timeline, as described in [Adjust the date range of the Scheduling areas](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#adjusting-the-date-range-for-which-data-is-displayed) in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Workfront makes assignments only for tasks and issues within the visible date range on the scheduling timeline.
 
@@ -149,24 +149,24 @@ To allow Workfront to automatically propose assignments for tasks and issues in 
    >
    >If you modify an existing assignment, it changes to a proposed state.
 
-  * To assign an item to a different user:
+   * To assign an item to a different user:
 
-    * Drag the task or issue from the proposed user to the row of a different user you want to assign.  
-      A maximum of 10 tasks per day are displayed for a given user. You can expand the list to view all tasks currently assigned to that user. (After making assignments on the scheduling timeline, more than 10 tasks might be temporarily displayed.)  
-      As you drag an item, the following information is displayed prior to releasing the task or issue and completing the assignment:
+      * Drag the task or issue from the proposed user to the row of a different user you want to assign.  
+        A maximum of 10 tasks per day are displayed for a given user. You can expand the list to view all tasks currently assigned to that user. (After making assignments on the scheduling timeline, more than 10 tasks might be temporarily displayed.)  
+        As you drag an item, the following information is displayed prior to releasing the task or issue and completing the assignment:
 
-      * A drop indicator is displayed in the row of the user. This enables you to see where an item is being assigned prior to making the assignment.
-      * If user allocations are enabled on the scheduling timeline, the red overallocation indicators are displayed if completing the assignment will result in the user being overallocated.  
-        For more information about overallocation indicators, see [Allocation indicators](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md#understanding-allocation-indicators).
+         * A drop indicator is displayed in the row of the user. This enables you to see where an item is being assigned prior to making the assignment.
+         * If user allocations are enabled on the scheduling timeline, the red overallocation indicators are displayed if completing the assignment will result in the user being overallocated.  
+           For more information about overallocation indicators, see [Allocation indicators](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md#understanding-allocation-indicators).
+         
+         * Users who are not eligible to receive the assignment are dimmed.
+
+      * ```Expand the task or issue you want to assign, click the drop-down arrow in the **Assignments** field, begin typing the name of the user you want to assign, then click the user's name in the drop-down list.  
+        ![schedule_task_expanded.png](assets/schedule-task-expanded-350x170.png)      
       
-      * Users who are not eligible to receive the assignment are dimmed.
+        ```
 
-    * ```Expand the task or issue you want to assign, click the drop-down arrow in the **Assignments** field, begin typing the name of the user you want to assign, then click the user's name in the drop-down list.  
-      ![schedule_task_expanded.png](assets/schedule-task-expanded-350x170.png)    
-    
-      ```
-
-  * ```To postpone making an assignment, drag any task or issue that you are not yet ready to assign back to the **Unassigned** area.```
+   * ```To postpone making an assignment, drag any task or issue that you are not yet ready to assign back to the **Unassigned** area.```
 
 1. Click the **Make Assignments** button at the top of the scheduling timeline to finalize any proposed assignments.  
    Or  

@@ -127,11 +127,11 @@ Before you can update a Workfront item using email content from G Suite, you mus
 
 1. (Optional) Continue to work with the update in the Workfront add-on panel by doing any of the following:
 
-  * To add another update on the **Updates** tab, click **Start a new update** and type the information. 
-  
-  * To reply to an update on the **Updates** tab, click **Reply** and type your reply.
+   * To add another update on the **Updates** tab, click **Start a new update** and type the information. 
+   
+   * To reply to an update on the **Updates** tab, click **Reply** and type your reply.
 
-    For both of the options above, you can click **Notify** to specify recipients for the reply as in step 5. When you are ready, click **Post** to add the update or reply. 
-  
-  * Click the **Details** tab to view the details for the new project, task, or issue.
+     For both of the options above, you can click **Notify** to specify recipients for the reply as in step 5. When you are ready, click **Post** to add the update or reply. 
+   
+   * Click the **Details** tab to view the details for the new project, task, or issue.
 

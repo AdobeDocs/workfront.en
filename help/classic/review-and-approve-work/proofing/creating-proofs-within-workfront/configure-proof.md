@@ -417,6 +417,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
    Workfront&nbsp;begins generating a proof of the selected documents or websites.&nbsp;Depending on the file size and type, the lag time on a document upload can vary. Be patient as bigger files take longer to generate. You can navigate away from the page and Workfront&nbsp;continues to generate your file.&nbsp;The maximum file upload size is 4GB.
 
 1. After&nbsp;the proof is generated, click&nbsp;**Open proof**&nbsp;to launch the proofing viewer.
+
    &nbsp; ![](assets/click-open-proof-350x148.png)
 
    Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

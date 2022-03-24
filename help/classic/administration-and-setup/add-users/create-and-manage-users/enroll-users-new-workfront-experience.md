@@ -73,6 +73,8 @@ To see the New Experience screen, you must meet the following conditions:
 
 1. In the left panel, click **New Experience**.
 
+   ![](assets/classic-enroll.png)
+
 1. In the **All Users** section, begin typing the name of the user, team, or group you want to enroll in to the new experience, then click the name when it appears.
 
    >[!TIP]
@@ -105,6 +107,8 @@ To see the New Experience screen, you must meet the following conditions:
    * If your personal Workfront environment is in Adobe Workfront Classic, click **Setup** ![](assets/gear-icon-settings.png) in the Global Navigation Bar.
 
 1. Click **New Experience**.
+
+   ![](assets/classic-enroll.png)
 
 1. In the **Enrolled Users** section, begin typing the name of the user, team, or group you want to remove from the new experience, then click the name when it appears.
 

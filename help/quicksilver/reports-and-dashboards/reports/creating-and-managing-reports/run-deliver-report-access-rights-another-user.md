@@ -63,7 +63,8 @@ To run a report with the access rights of another user:
 
 1. Click **Report Settings**.  
 
-1. In the **Run this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.
+1. In the **Run this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.  
+   ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
    >
@@ -91,7 +92,8 @@ To deliver a report with the access rights of another user:
 1. Click **Report Actions**.
 1. Click **Send Report**.  
 
-1. In the **Deliver this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.
+1. In the **Deliver this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.  
+   ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
    >
@@ -99,11 +101,11 @@ To deliver a report with the access rights of another user:
 
 1. Select the **Format** you want the report to display in the email:
 
-  * HTML
-  * PDF
-  * MS Excel
-  * MS Excel (.xlsx)
-  * TSV
+   * HTML
+   * PDF
+   * MS Excel
+   * MS Excel (.xlsx)
+   * TSV
 
 1. Click **Send Now** to send it immediately.  
    Or  

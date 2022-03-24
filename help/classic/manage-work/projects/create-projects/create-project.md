@@ -77,7 +77,7 @@ You can create a project in Workfront by using one of the following methods:
 
   For information about importing projects using kick-starts, see [Kick-Starts scenario: simple project and task import preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
 
-* Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner.
+* Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fpublish-scenarios-update-projects.htm&_LANG=en).
 
 ## Create a project from scratch
 
@@ -96,8 +96,12 @@ You can create a project in Workfront by using one of the following methods:
      >
      >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
 
+   ![new_project_button.png](assets/new-project-button-350x264.png)
+
 1. Click **New Project** if you want to create a project from scratch.
 1. Enter a name for your project. Press Enter to save the name.
+
+   ![project_from_scratch_Untitled.png](assets/project-from-scratch-untitled-350x82.png)
 
    The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
 

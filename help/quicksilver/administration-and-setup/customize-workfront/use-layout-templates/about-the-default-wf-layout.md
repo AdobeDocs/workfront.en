@@ -13,7 +13,7 @@ description: The default layout is the arrangement of the Main Menu , the left p
 
 The default layout is the arrangement of the Main Menu ![](assets/main-menu-icon.png), the left panel, and the views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
 
-For information about how a Workfront administrator can modify a user's default layout by assigning the user a layout template, see Assign users to a layout template.
+For information about how a Workfront administrator can modify a user's default layout by assigning the user a layout template, see [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >

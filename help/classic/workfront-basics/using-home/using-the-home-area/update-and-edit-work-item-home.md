@@ -45,18 +45,23 @@ You must have the following access to perform the steps in this article:
 
 You can view updates on any work item in the Work List:
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. In the **Work List** area, select the item where you want to view updates.  
    Updates are displayed in the right panel.
 
-1. (Optional) To filter system updates so only user updates are displayed, toggle&nbsp;**Show System Updates**to Off.
+1. (Optional) To filter system updates so only user updates are displayed, toggle&nbsp;**Show System Updates**to Off.  
+   ![](assets/updating-a-work-item-show-system-updates-350x164.png)
 
 ## Provide updates on a work item
 
 You can provide updates on any work item in the Work List:
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. In the **Work List** area, select the item where you want to provide an update.
 1. In the right panel, click **Update** to display a text field.
@@ -78,13 +83,16 @@ You can provide updates on any work item in the Work List:
 
 You can edit any field on any work item that you have access to edit.
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. In the **Work List** area, select the item you want to edit.  
    All fields you have access to view are displayed in the right panel.
 
 1. In the right panel, hover over the field you want to edit.  
-   If you have rights to edit the field, the field is highlighted as you hover over it.
+   If you have rights to edit the field, the field is highlighted as you hover over it.  
+   ![](assets/updating-a-work-item-editing-a-work-item-350x164.png)
 
 1. Click the field you want to edit, then make your desired update.  
 1. Click away from the field to save your changes.

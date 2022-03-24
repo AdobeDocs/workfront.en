@@ -19,7 +19,7 @@ You must associate job roles with the project before you can budget the resource
 
   For more information, see [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md). 
 
-* Use the Scenario Planner to create initiatives with required job roles and link them to the project. For more information, see Budget resources in the Business Case using the&nbsp;Adobe WorkfrontScenario Planner.
+* Use the Scenario Planner to create initiatives with required job roles and link them to the project. For more information, see [Budget resources in the Business Case using the Adobe WorkfrontScenario Planner](https://one.workfront.com/s/csh?context=2368&pubname=the-new-workfront-experience).
 
   >[!NOTE]
   >

@@ -73,10 +73,10 @@ The&nbsp;look and feel of the following pages in the System menu of the Setup ar
 * Diagnostics
 * Single Sign-On (SSO) which includes:
 
-  * Active Directory
-  * LDAP
-  * SAML 1.1
-  * SAML 2.0
+   * Active Directory
+   * LDAP
+   * SAML 1.1
+   * SAML 2.0
 
 * Update Users for SSO
 
@@ -195,12 +195,12 @@ The following changes were added to support the future Resource Planning functio
   >[!NOTE]
   >
   >
-  >  
-  >  
-  >  * If you are currently running reports on the existing Legacy Resource Pools, the existing reports will not change. 
-  >  * If you want to create a new report for the existing (job role-based) Legacy Resource Pools, you will need to select “Legacy Resource Pools” as your object for the report. 
-  >  * If you want to create a new report for the new (user-based) Resource Pools, you will need to select “Resource Pools” as your object for the report.
-  >  
+  >   
+  >   
+  >   * If you are currently running reports on the existing Legacy Resource Pools, the existing reports will not change. 
+  >   * If you want to create a new report for the existing (job role-based) Legacy Resource Pools, you will need to select “Legacy Resource Pools” as your object for the report. 
+  >   * If you want to create a new report for the new (user-based) Resource Pools, you will need to select “Resource Pools” as your object for the report.
+  >   
   >
 
 ```<iframe class="mt-media" src="assets/206628847?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>``` 

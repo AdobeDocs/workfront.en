@@ -57,9 +57,11 @@ You must have the following access to perform the steps in this article:
    For more information about prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).  
    The contents of the report display with a timestamp in the upper-right corner of the report that includes the date, time, and time zone when the report was run from the context of the user who ran the report.
 
-1. (Optional) Click the **Reload icon** to refresh the results in a report if the report has been displayed in your browser for a while.  
+1. (Optional) Click the **Reload icon** ![report_refresh_icon.png](assets/report-refresh-icon-59x59.png) to refresh the results in a report if the report has been displayed in your browser for a while.  
 
 1. (Conditional) If the report uses filters or prompts, click **Show Filters and Prompts** to display a list of filters and prompts that are being used on the report you are viewing. If the report contains only filters or only prompts, **Show Filters** or **Show Prompts** appears instead.
+
+   ![](assets/reports-showfiltersandprompts-350x69.png)
 
    Information displays below the report name on the left side of the page. For prompts, this is information about the prompt selections made at the time the report was run, as described in Step 4.
 

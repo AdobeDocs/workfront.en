@@ -13,8 +13,7 @@ As a user with Manager or higher access to Workfront Library, you can enable a f
 
 This filter affects only your instance of Workfront Library and does not make hidden items visible for other users.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. Click the **Filter** icon.  
    ![](assets/filter-icon-location-350x102.png)
 

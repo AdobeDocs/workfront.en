@@ -38,7 +38,10 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Overview of the Finance area Consider the following when viewing or editing information in the Finance area:
+
+## Overview of the Finance area
+
+Consider the following when viewing or editing information in the Finance area:
 
 * The financial information you can find on the Finance area of Project Detailsrepresents values that roll up to the project level from tasks, as well as information entered directly on the project. Some financial information can be managed at the project as well as the task level. 
 * You must have View permissions on the project as well as access to Financial Data from your access level in order to be able to view the Finance area on a project. 
@@ -47,9 +50,14 @@ Overview of the Finance area Consider the following when viewing or editing info
 ## View Finance information on a project
 
 1. Go to a project.
-1. Click **Project Details** in the left panel. 
-1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**. 
-   ``` ```**Note: **``````Depending on how your Workfront administrator configured your Layout Template, the Overview section might not be listed first, in which case it is collapsed. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).  
+1. Click **Project Details** in the left panel.
+1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**.
+
+   ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
+
+   >[!NOTE]
+   >
+   >Depending on how your Workfront administrator configured your Layout Template, the Overview section might not be listed first, in which case it is collapsed. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 1. View the following fields in the Finance area of the project:
 
@@ -129,9 +137,8 @@ To edit information on the Project Finance subtab:
    >
    >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project.
 
-1. Click **Project Details** in the left panel. 
-1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance** . This opens the Finance area for editing. 
-
+1. Click **Project Details** in the left panel.
+1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance** . This opens the Finance area for editing.
 1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 
    >[!TIP]
@@ -140,8 +147,11 @@ To edit information on the Project Finance subtab:
 
    ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
-1. Update any of the fields below. 
-   ``` ```**Note: **``````Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project&nbsp;Details section might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+1. Update any of the fields below.
+
+   >[!NOTE]
+   >
+   >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project&nbsp;Details section might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table cellspacing="0"> 
     <col> 

@@ -44,8 +44,8 @@ To delete a document:
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Delete
-1. 
+1. Click the **Delete** icon ![](assets/delete.png) above the Documents area.
+
 1. In the box that appears, click **Yes, Delete it**&nbsp;to confirm.
 
 A system or group administrator can restore a document within 30 days of being deleted, as described in [Restore deleted items](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

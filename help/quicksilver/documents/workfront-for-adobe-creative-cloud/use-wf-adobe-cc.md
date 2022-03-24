@@ -65,12 +65,12 @@ When you log in to Workfront from one of the supported Adobe applications, you a
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
-   >  * When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.  
+   >   
+   >   
+   >   * Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
+   >   * When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.  
 
-   >  
+   >   
    >
 
    A&nbsp;list of work items assigned to you displays if the project a current status. If a list does not display, log in to Workfront.
@@ -262,11 +262,11 @@ To request an approval on a document from an Adobe application:
 1. Click the **Approval** tab.
 1. To add an approver, in the **Start typing a name box** do one of the following:
 
-  * Type the name of an approver, then select it when it displays in the list.
+   * Type the name of an approver, then select it when it displays in the list.
 
-    ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
-  * Type the email address of an external user.
+   * Type the email address of an external user.
 
 1. Click **Request Approval**.
 
@@ -301,13 +301,13 @@ If your organization uses Automated Workflow templates, you can generate a proof
 
    Your Workfront administrator sets up Automated Workflow templates, as described in [Create and manage Automated Workflow templates](../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). See the administrator if you have questions.
 
-  1. Add at least one **New recipient** to every stage in the Workflow Template.
+   1. Add at least one **New recipient** to every stage in the Workflow Template.
 
-     You can start typing a name and select it when you see it in the drop-down list that appears.
-  
-  1. Specify the **Proof role** and frequency of **Email alerts** for each recipient you add.
+      You can start typing a name and select it when you see it in the drop-down list that appears.
+   
+   1. Specify the **Proof role** and frequency of **Email alerts** for each recipient you add.
 
-  1. (Optional) In the **Email notification** section, select whether to send an email notification with an optional custom message about the proof to&nbsp;all the proof recipients you added.
+   1. (Optional) In the **Email notification** section, select whether to send an email notification with an optional custom message about the proof to&nbsp;all the proof recipients you added.
 
 1. Click **Create proof**.
 
@@ -323,12 +323,12 @@ If your organization uses Automated Workflow templates, you can generate a proof
 
    Your Workfront administrator sets up Automated Workflow templates, as described in [Create and manage Automated Workflow templates](../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). See the administrator if you have questions.
 
-  1. Add at least one **New recipient** to every stage in the Workflow Template.
+   1. Add at least one **New recipient** to every stage in the Workflow Template.
 
-     You can start typing a name and select it when you see it in the drop-down list that appears.
-  
-  1. Specify the **Proof role** and frequency of **Email alerts** for each recipient you add. 
-  1. (Optional) In the **Email notification** section, select whether to send an email notification with an optional custom message about the proof to&nbsp;all the proof recipients you added.
+      You can start typing a name and select it when you see it in the drop-down list that appears.
+   
+   1. Specify the **Proof role** and frequency of **Email alerts** for each recipient you add. 
+   1. (Optional) In the **Email notification** section, select whether to send an email notification with an optional custom message about the proof to&nbsp;all the proof recipients you added.
 
 1. Click **Create new proof version**.
 

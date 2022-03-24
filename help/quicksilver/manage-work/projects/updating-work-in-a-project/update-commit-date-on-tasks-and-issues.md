@@ -59,26 +59,34 @@ Updating the Commit Date is identical for tasks and issues.
 
    At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.
 
-1. (Optional) If you clicked Start Task or Start Issue, click **Undo** in the lower-left corner of the screen. The Commit Date is removed.  For information about replacing the Work On It button with a Start button, see ``` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)```.
+1. (Optional) If you clicked Start Task or Start Issue, click **Undo** in the lower-left corner of the screen. The Commit Date is removed.
+
+   For information about replacing the Work On It button with a Start button, see ``` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)```.
 
    >[!TIP]
    >
-   >The option to undo your selection to start your work is not available when you click Work on it.
+   >The option to undo your selection to start your work is not available when you click ```Work on it```.
 
-1. Click **Updates** in the left panel, then click the **Start a new update** >**Commit Date**
+1. 
+   Click **Updates** in the left panel, then click the **Start a new update** >**Commit Date**
 
    Or
 
-   Click **Task Details** or **Issue Details** in the left panel, then double click&nbsp;**Commit Date** and select a new date from calendar, then click&nbsp;**Save Changes**.
+   Click **Task Details** or **Issue Details** in the left panel, then double click&nbsp;**Commit Date** and select a new date from calendar, then click&nbsp;**Save Changes**. 
+   ![](assets/commit-date-calendar-picker-in-updates-stream-nwe-350x452.png)
 
    The following things happen after making this change:&nbsp;
 
-  * The Commit Date and the Planned Completion date are no longer the same.
+   * The Commit Date and the Planned Completion date are no longer the same.
 
-    Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.
+     Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.
 
-  * The changes are saved automatically when you select a new date from the Updates area.
-  * The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested.
+     ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-    For information about the notifications and updates that are triggered by this change, see the section [Notifications and updates triggered by changing the Commit Date](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) in the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+   * The changes are saved automatically when you select a new date from the Updates area.
+   * The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested.
+
+     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
+
+     For information about the notifications and updates that are triggered by this change, see the section [Notifications and updates triggered by changing the Commit Date](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) in the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

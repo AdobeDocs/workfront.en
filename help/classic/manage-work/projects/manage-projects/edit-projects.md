@@ -56,25 +56,34 @@ Consider the following when editing projects:
    * Modify existing expenses.
    * Add, remove, or edit custom forms.
 
-Edit a project Editing a project allows you to modify information and settings for the project, as well as tasks and issues on the project.  Some settings mentioned in this article might be modified from their default status for the template from which the project was created. For information about editing templates, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+## Edit a project
+
+Editing a project allows you to modify information and settings for the project, as well as tasks and issues on the project.
+
+Some settings mentioned in this article might be modified from their default status for the template from which the project was created. For information about editing templates, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 1. Go to the project you want to edit.
 1. Do either of the following:
 
-   * Project Details
-   * 
-   * [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md) [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md)  
-     &nbsp;Select from the following subtabs:
+   * To edit limited information about the project, select the **Project Details** tab, then go to the subtabs listed to edit the information under each subtab.   
+     For information about the Project Details tab, see the following articles:
 
-      * Overview
-      * Custom Forms
-      * Finance
-      * Portfolio
-      * Business Case
+      * [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
+      * [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md)  
+        &nbsp;Select from the following subtabs:
 
-        ![](assets/screen-shot-2013-09-24-at-3.13.42-pm-350x160.png)
+         * Overview
+         * Custom Forms
+         * Finance
+         * Portfolio
+         * Business Case
 
-   * For information about all fields that display in the Details area, continue with editing all fields using the Edit Project box below. 
+           ![](assets/screen-shot-2013-09-24-at-3.13.42-pm-350x160.png)
+
+     >[!TIP]
+     >
+     >For information about all fields that display in the Details area, continue with editing all fields using the Edit Project box below.
+
    * Or
    * To edit all information about the project, click **Edit Project** .
 
@@ -356,9 +365,11 @@ Edit a project Editing a project allows you to modify information and settings f
      <tr> 
       <td role="rowheader"><strong>Risk</strong> </td> 
       <td> <p> <p>Define the level of risk of your project. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.</p> <p> <p>Consider selecting from the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate here cannot be customized.</p> <p>Note: These are not related to the potential Risks that could occur during the life of a project and which you should record in the Risks tab of the project, or in the Business Case. For information about potential project Risks, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types </a>. </p> </p> </p> </td> 
-     </tr> <!-- 
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><strong>Legacy Resource Pool</strong> </td> 
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p> <p>Specify the Legacy Resource Pool associated with the project. Legacy Resource Pools allow you to manage your job role allocations for the tasks in the project, according to the timeline of the project. You can also select a Legacy Resource Pool in the Resource Estimates section of the Business Case, as you are planning the project. For more information about Legacy Resource Pools on the Business case, see <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md">Applying Legacy Resource Pools to the Business Case.</a></p> </p> </td> 
+     </tr> <!--
+      <tr data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader"><strong>Legacy Resource Pool</strong> </td> 
+       <td> <p> <p>Specify the Legacy Resource Pool associated with the project. Legacy Resource Pools allow you to manage your job role allocations for the tasks in the project, according to the timeline of the project. You can also select a Legacy Resource Pool in the Resource Estimates section of the Business Case, as you are planning the project. For more information about Legacy Resource Pools on the Business case, see <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md">Applying Legacy Resource Pools to the Business Case.</a></p> </p> </td> 
+      </tr>
      --> 
      <tr> 
       <td role="rowheader"><strong>Resource Pools</strong> </td> 
@@ -370,7 +381,7 @@ Edit a project Editing a project allows you to modify information and settings f
        <ul> 
         <li>Only active approval processes display in the list. </li> 
         <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>Important: If the group associated with the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-        <li> If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field.  </li> 
+        <li> <p data-mc-conditions="QuicksilverOrClassic.Classic">If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. </p> </li> 
         <li> <p>When bulk-editing projects, the following scenarios exist:</p> 
          <ul> 
           <li> <p>When you select projects from the same group, both system-level and group-level approval processes display in this field.</p> </li> 
@@ -547,26 +558,32 @@ To edit projects in bulk:
 1. Specify the information on all selected projects in the following sections:
 
    * Overview
-     For information, see the [Overview](#overview) section in this article. 
+
+     For information, see the [Overview](#overview) section in this article.
    
-   * Finance 
-     For information, see the [Finance](#finance) section in this article. 
+   * Finance
+
+     For information, see the [Finance](#finance) section in this article.
    
    * Portfolio
-     For information, see the [Portfolio](#portfolio) section in this article. 
+
+     For information, see the [Portfolio](#portfolio) section in this article.
    
    * Settings
-     For information, see the [Settings](#settings) section in this article. 
+
+     For information, see the [Settings](#settings) section in this article.
    
    * Access
-     For information, see the [Access](#access) section in this article. 
+
+     For information, see the [Access](#access) section in this article.
    
    * Custom Forms
 
      For information, continue with step 7 below. 
    
    * Tasks
-     For information, see the [Tasks](#tasks) section in this article. 
+
+     For information, see the [Tasks](#tasks) section in this article.
    
    * Comment
 

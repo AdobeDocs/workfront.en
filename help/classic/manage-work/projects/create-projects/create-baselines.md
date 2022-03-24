@@ -65,11 +65,19 @@ You can create a baseline in the following ways:
 * Manually: You can create new baselines for the project as needed as the project progresses. You can then compare baselines to see how the project progressed over time.
 
 1. Navigate to a project. 
-1. Click the **Baselines** tab Or  Click **More**, then **Baselines**.  
+1. Click the **Baselines** tab
+
+   Or
+
+   Click **More**, then **Baselines**.
+
+   ![](assets/screen-shot-2013-09-23-at-9.58.30-am-350x96.png)
 
 1. Click **New Baseline.**
 1. Specify the name for the baseline.
 1. (Optional) If this is the first baseline, you may want to choose it as the default.
+
+   ![](assets/screen-shot-2013-09-23-at-9.58.42-am-350x184.png)
 
 1. Click **Save**.
 

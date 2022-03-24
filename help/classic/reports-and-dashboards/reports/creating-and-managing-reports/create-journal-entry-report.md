@@ -154,6 +154,8 @@ This information can be used to help with auditing and to illustrate how well yo
 1. In the Global Navigation Bar, click **Reporting**.
 1. Click **New Report**, then select **Journal Entry**.
 
+   ![](assets/classic-select-journal-entry-350x343.png)
+
    The report builder loads.
 
 1. In the **Columns (View)** tab, add the following columns:
@@ -226,6 +228,8 @@ This information can be used to help with auditing and to illustrate how well yo
 
 1. In the **Filters** tab, click **Add filter rule**, then add the filter rule **Field Name** > **Equal** > **status**.
 
+   ![](assets/classic-status-filter-rule-350x77.png)
+
    >[!TIP]
    >
    >To report on condition changes, you can instead add the filter rule **Field Name** > **Equal** > **Condition**.
@@ -263,6 +267,8 @@ To see when a task or issue was deleted:
 
 1. In the Global Navigation Bar, click **Reporting**.
 1. Click **New Report**, then select **Journal Entry**.
+
+   ![](assets/classic-select-journal-entry-350x343.png)
 
    The report builder loads.
 
@@ -308,7 +314,7 @@ To see when a task or issue was deleted:
    * **Change Type** > **Equal** > **Delete**
    * **Project ID** > **Equal** > **<project>**
 
-     [](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
+     [ ![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
 
    For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -344,6 +350,8 @@ To see how custom fields changed over the course of a project's life cycle:
 
 1. In the Global Navigation Bar, click **Reporting**.
 1. Click **New Report**, then select **Journal Entry**.
+
+   ![](assets/classic-select-journal-entry-350x343.png)
 
    The report builder loads.
 
@@ -414,6 +422,8 @@ To see how custom fields changed over the course of a project's life cycle:
 
    * **Project ID** > **Equal** > **<project>**
 
+     ![](assets/classic-custom-form-changes-350x95.png)
+
    For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
@@ -442,6 +452,8 @@ You can set up the Journal Entry report to show how often the Planned Completion
 
 1. In the Global Navigation Bar, click **Reporting**.
 1. Click **New Report**, then select **Journal Entry**.
+
+   ![](assets/classic-select-journal-entry-350x343.png)
 
    The report builder loads.
 
@@ -511,6 +523,8 @@ You can set up the Journal Entry report to show how often the Planned Completion
    * **Field Name** > **Equal** > **Date**
    * **Project ID** > **Equal** > **<project>**
 
+   ![](assets/classic-planned-completion-date-changes-350x88.png)
+
    For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
@@ -539,6 +553,8 @@ You can set up the Journal Entry report to show how many times the project owner
 
 1. In the Global Navigation Bar, click **Reporting**.
 1. Click **New Report**, then select **Journal Entry**.
+
+   ![](assets/classic-select-journal-entry-350x343.png)
 
    The report builder loads.
 
@@ -595,6 +611,8 @@ You can set up the Journal Entry report to show how many times the project owner
 
    * **Field Name** > **Equal** > **ownerID**
    * **Project ID** > **Equal** > **<project name>**
+
+     ![](assets/classic---owner-changes-350x97.png)
 
    For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

@@ -48,7 +48,7 @@ When you manually generate timesheets:
 
 You can manually generate system-level or group-level timesheets from the Timesheets area in Setup.
 
-1. Setup
+1. As a Workfront administrator or group administrator, click **Setup** in the Global Navigation Bar.
 1. If you are generating timesheets in use throughout the system, click **Timesheets & Hours.**
 
    Or

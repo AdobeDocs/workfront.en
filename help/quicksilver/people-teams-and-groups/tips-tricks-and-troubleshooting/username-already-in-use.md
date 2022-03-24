@@ -55,14 +55,14 @@ Ensure that the username and email address is unique in the current Workfront in
 1. In the list of people, look in the **Email** column to ensure there are no duplicate emails.
 1. Add a column for username to the view.
 
-  1. In the **View** drop-down menu, click&nbsp;**Customize View**.
-  
-  1. Click&nbsp;**Add Column**.
-  1. In the search field, type *username*.
-  1. Select **User** > **Username**.
-  
-  1. Save the view.  
-     This results&nbsp;in a view to display the usernames where you can look for the duplicate.
+   1. In the **View** drop-down menu, click&nbsp;**Customize View**.
+   
+   1. Click&nbsp;**Add Column**.
+   1. In the search field, type *username*.
+   1. Select **User** > **Username**.
+   
+   1. Save the view.  
+      This results&nbsp;in a view to display the usernames where you can look for the duplicate.
 
 1. In the list of people, look in the **Username** column to ensure there are no duplicate usernames.
 

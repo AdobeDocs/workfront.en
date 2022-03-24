@@ -22,7 +22,7 @@ If a project's Completion Mode is set to Manual, then the project status can be 
 To update a project's completion mode to Manual:
 
 1. Go to the project you want to update.
-1. Click **Edit Project** on the upper-right side of the screen. 
+1. Click **Edit Project** on the upper-right side of the screen.
 1. Click **Settings**.
 1. Locate the **Completion Mode** drop-down menu, and select **Manual**.
 

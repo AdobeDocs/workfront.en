@@ -11,5 +11,5 @@ description: This section contains the following subsections:
 This section contains the following subsections:
 
 * [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md) 
-* My Work
+* [My Work](../../workfront-basics/using-home/my-work/my-work.md)
 

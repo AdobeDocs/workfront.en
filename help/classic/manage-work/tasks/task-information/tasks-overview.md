@@ -30,6 +30,8 @@ Depending on what the Summary Completion Mode is on the project, you maybe be ab
 
 For more information about the Summary Completion Mode of projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
+![parent_tasks.png](assets/parent-tasks-350x234.png)
+
 ## Overview of Subtasks or children tasks
 
 Subtasks or children tasks are tasks listed under a parent task. They typically influence the update and the resolution of the parent task.
@@ -37,6 +39,8 @@ Subtasks or children tasks are tasks listed under a parent task. They typically 
 For more information about parent tasks, see [Overview of Parent tasks](#parent-tasks).
 
 For more information about creating a child task, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+![children_tasks.png](assets/children-tasks-350x227.png)
 
 ## Overview of top-level tasks
 
@@ -49,6 +53,8 @@ Working tasks are tasks that do not have children or subtasks of their own, or t
 This is an important distinction because it is possible for children tasks to have children tasks of their own.
 
 You can update and complete working tasks without influencing the update or resolution of other tasks.
+
+![working_tasks.png](assets/working-tasks-350x223.png)
 
 ## Recurring tasks
 

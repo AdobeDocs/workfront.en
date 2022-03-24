@@ -31,11 +31,11 @@ To search the Workfront Proof site:
 1. Type the text you want to search for, then press **Enter**.  
    Note the following about search results:
 
-  * The search tool finds items that contains all of the keywords you type. In order to minimize search results and maximize search accuracy, ensure that you spell the keywords correctly and add spaces between them.
-  * Search results are sorted by relevance.
-  * You can reduce the search results by adding more keywords into the search field (separated by a space), then searching again. The new search is carried out only on the items already displayed in the search results.
-  * If you enter the name of a previous proof version into the search field, the most recent version of that proof appears in the search results.
-  * Parent folders and subfolders are listed separately.
+   * The search tool finds items that contains all of the keywords you type. In order to minimize search results and maximize search accuracy, ensure that you spell the keywords correctly and add spaces between them.
+   * Search results are sorted by relevance.
+   * You can reduce the search results by adding more keywords into the search field (separated by a space), then searching again. The new search is carried out only on the items already displayed in the search results.
+   * If you enter the name of a previous proof version into the search field, the most recent version of that proof appears in the search results.
+   * Parent folders and subfolders are listed separately.
 
 1. (Optional) In the Search results that appear, sort by column by clicking the header at the top of a column. (Optional) Add filtering to your results results by clicking the search icon at the end of the header row. ![Search_filter_in_Search_results.png](assets/search-filter-in-search-results-350x90.png) This adds dropdown menus in which you can select filters to narrow your search.
 1. ![Search_filter_boxes_appear_in_Search_results.png](assets/search-filter-boxes-appear-in-search-results-350x154.png)

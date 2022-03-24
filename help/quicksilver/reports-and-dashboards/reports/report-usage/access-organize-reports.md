@@ -47,9 +47,9 @@ To access reports that you have created or that have been shared with you or sha
 
 1. Click one of the following options, depending on the report that you want to view:
 
-  * Click **My Reports** to view reports that you have created.
-  * Click **Shared with Me** to view reports that others have shared with you.
-  * Click **All Reports** to view both reports that you have created and those that have been shared with you or shared publicly.
+   * Click **My Reports** to view reports that you have created.
+   * Click **Shared with Me** to view reports that others have shared with you.
+   * Click **All Reports** to view both reports that you have created and those that have been shared with you or shared publicly.
 
 ## Organize reports that you create
 
@@ -63,6 +63,7 @@ You can use folders to organize the reports that you create. You cannot organize
 1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Reports**. 
 
 1. Click the **New Folder** icon.  
+   ![](assets/nwe-new-folder-350x346.png)
 
 1. Specify a name for the new folder, then press Enter.
 1. From the **My Reports** folder, add reports to the new folder.  
@@ -85,4 +86,6 @@ You can use folders to organize the reports that you create. You cannot organize
    >[!NOTE]
    >
    >You can only move reports from the **My Reports** folder to other folders nested under **My Reports**. You cannot move reports from or to the **Shared with Me** or **All Reports** folder to or from other folders.
+
+   ![](assets/nwe-drag-report-to-folder-350x292.png)
 

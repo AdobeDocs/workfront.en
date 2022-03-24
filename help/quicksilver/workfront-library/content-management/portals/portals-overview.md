@@ -31,13 +31,13 @@ Consider the following example:
 
 * Joan Harris has Viewer access to Workfront Library.
 
-  * She has View permissions to the Ranger_Print-Ad2 file in Workfront Library.
+   * She has View permissions to the Ranger_Print-Ad2 file in Workfront Library.
 
 * She has Manager access to the Ranger portal.
 
-  * She has Manage permissions to the Ranger_Print-Ad2 file in the portal.
-  * She renames the Ranger_Print-Ad2 file in the portal to Campaign_Cover.
-  * The Ranger_Print-Ad2 file in Workfront Library is updated with file name Joan applied in the portal.
+   * She has Manage permissions to the Ranger_Print-Ad2 file in the portal.
+   * She renames the Ranger_Print-Ad2 file in the portal to Campaign_Cover.
+   * The Ranger_Print-Ad2 file in Workfront Library is updated with file name Joan applied in the portal.
 
 Although Joan has only View permissions to the file in Workfront Library, she is able to edit the file in the portal using her portal Manage permissions.
 

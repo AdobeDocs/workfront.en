@@ -45,36 +45,36 @@ You must have the following access to perform the steps in this article:
 
 1. Event Subscriptions configuration
 
-  1. Go to the ```Event Subscriptions``` tab in the cloud services.
-  1. Select the ```custom integration``` you created in Workfront.
-  1. Click ```Enable Workfront Event Subscriptions```.
+   1. Go to the ```Event Subscriptions``` tab in the cloud services.
+   1. Select the ```custom integration``` you created in Workfront.
+   1. Click ```Enable Workfront Event Subscriptions```.
 
 1. Linked folder structure configuration
 
-  1. Go to the ```Project Linked Folders``` tab in the cloud services.
-  1. Linked folder parent path: Select a folder in the DAM where you wish to create the linked folders. If left empty, it will default to /content/dam. Make sure that the ```Workfront Tools```metadata schema and ```Workfront Linked Folder``` folder metadata schema have been applied to the selected folder.
-  1. Linked folder structure: Enter comma-separated values. Each value should be DE:<some-project-custom-form-field>, Portfolio, Program, Year, Name, or some "Literal String Value" (this last one with quotation marks). It is currently set to  
-  
-     ```  
-     Portfolio,Program,Year,DE:Project Type,Name
-     ```  
-  
-     .
-  1. ```Build linked folder title in Workfront using the folder structure names``` checkbox should be checked if the title of the folder in Workfront should include all folders in the structure. Otherwise, it will be the title of the last folder.
-  1. Sub-folders multifield allows specifying a list of folders that should be created as a child folder of the linked folder.
-  1. Project status: Select the status the project has to be set to in order to create the linked folder.
-  1. Create a linked folder in projects with portfolio: List of Portfolios that the project has to belong to in order to create the linked folder. Leave this list empty to create the linked folder for all project portfolio.
-  1. Create a linked folder in projects with custom form field: Custom form field and its corresponding value that the project has to have in order to create the linked folder. This configuration will be ignored if left empty. Select ```CUSTOM FORMS: Create DAM Linked Folder```” for the field and type ```Yes```for the value.
-  1. Click on ```Enable automatic creation of linked folders```. If you go back to the ```Event Subscriptions``` tab, you'll see there is now one ```create```event.
+   1. Go to the ```Project Linked Folders``` tab in the cloud services.
+   1. Linked folder parent path: Select a folder in the DAM where you wish to create the linked folders. If left empty, it will default to /content/dam. Make sure that the ```Workfront Tools```metadata schema and ```Workfront Linked Folder``` folder metadata schema have been applied to the selected folder.
+   1. Linked folder structure: Enter comma-separated values. Each value should be DE:<some-project-custom-form-field>, Portfolio, Program, Year, Name, or some "Literal String Value" (this last one with quotation marks). It is currently set to   
+   
+      ```   
+      Portfolio,Program,Year,DE:Project Type,Name
+      ```   
+   
+      .
+   1. ```Build linked folder title in Workfront using the folder structure names``` checkbox should be checked if the title of the folder in Workfront should include all folders in the structure. Otherwise, it will be the title of the last folder.
+   1. Sub-folders multifield allows specifying a list of folders that should be created as a child folder of the linked folder.
+   1. Project status: Select the status the project has to be set to in order to create the linked folder.
+   1. Create a linked folder in projects with portfolio: List of Portfolios that the project has to belong to in order to create the linked folder. Leave this list empty to create the linked folder for all project portfolio.
+   1. Create a linked folder in projects with custom form field: Custom form field and its corresponding value that the project has to have in order to create the linked folder. This configuration will be ignored if left empty. Select ```CUSTOM FORMS: Create DAM Linked Folder```” for the field and type ```Yes```for the value.
+   1. Click on ```Enable automatic creation of linked folders```. If you go back to the ```Event Subscriptions``` tab, you'll see there is now one ```create```event.
 
 ## Linked folder creation
 
 1. Go to ```Projects```in Workfront and click on ```+ New Project```. Enter a name for your project.
 1. At this point, if you reload the cloud services page, you'll see that there are now 3 active subscriptions:
 
-  1. For the creation of new projects.
-  1. For updates in the project that you just created.
-  1. For the case where you delete the project that you just created.
+   1. For the creation of new projects.
+   1. For updates in the project that you just created.
+   1. For the case where you delete the project that you just created.
 
 1. Go to ```Project Details``` tab of the new project and to ```Custom Forms``` sub-tab.
 1. Select ```Workfront Tools Project``` form.

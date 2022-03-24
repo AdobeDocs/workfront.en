@@ -47,6 +47,8 @@ You must have the following access to perform the steps in this article:
 1. Click the **Dashboard** tab.  
 1. Select the dashboard from which you want to remove the external page, then click **Edit** .
 
+   ![](assets/classic-select-external-page-dashboard-350x235.png)
+
 1. On the right side of the screen, locate the external page you want to remove and click the **Delete** icon ![](assets/delete.png).
 
    ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)

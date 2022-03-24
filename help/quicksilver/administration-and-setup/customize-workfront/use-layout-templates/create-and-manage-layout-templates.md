@@ -77,19 +77,19 @@ For more information about layout templates, see [Layout templates](../../../adm
 
 1. Customize areas of the user interface, as described in the following articles:
 
-  * [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 
-  * [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) 
-  * [Customize pinned pages using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) 
-  * [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) 
-  * [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
-  * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
-  * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-  * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
+   * [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 
+   * [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) 
+   * [Customize pinned pages using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) 
+   * [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) 
+   * [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
+   * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
+   * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
+   * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
 1. Continue on to test your layout template and make it available to users, as described in the articles below:
 
-  * [Testing a new layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) 
-  * [Grant administrative access for a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md) 
-  * [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
+   * [Testing a new layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) 
+   * [Grant administrative access for a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md) 
+   * [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
 You can also create a new layout template by copying it and changing the copy. For more information, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).

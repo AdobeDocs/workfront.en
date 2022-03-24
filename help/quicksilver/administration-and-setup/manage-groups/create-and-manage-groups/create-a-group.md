@@ -69,18 +69,20 @@ You must be a Workfront administrator to create a top-level group.
      <tr> 
       <td role="rowheader">Description</td> 
       <td>Type a description for the group. You can type up to 512 characters.</td> 
-     </tr> <!-- 
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="preview">Is Active</span> </td> 
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
-       <div class="preview"> <!--
-         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in</p>
-        --> 
-        <p>(Enabled by default) Makes the group active in your Workfront instance.</p> 
-        <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> 
-        <p> <img src="assets/group-type-aheads.jpg"> </p> 
-        <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> 
-        <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> 
-       </div> </td> 
+     </tr> <!--
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> 
+       <td role="rowheader"><span class="preview">Is Active</span> </td> 
+       <td> 
+        <div class="preview"> <!--
+          <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in</p>
+         --> 
+         <p>(Enabled by default) Makes the group active in your Workfront instance.</p> 
+         <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> 
+         <p> <img src="assets/group-type-aheads.jpg"> </p> 
+         <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> 
+         <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> 
+        </div> </td> 
+      </tr>
      --> 
      <tr> 
       <td role="rowheader">Make this group and its subgroups public</td> 
@@ -148,18 +150,20 @@ To create a new top-level group by copying a group or subgroup:
      <tr> 
       <td role="rowheader">Description</td> 
       <td>Type a description for the group. You can type up to 512 characters.</td> 
-     </tr> <!-- 
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="preview">Is Active</span> </td> 
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
-       <div class="preview"> <!--
-         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in</p>
-        --> 
-        <p>(Enabled by default) Makes the group active in your Workfront instance.</p> 
-        <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> 
-        <p> <img src="assets/group-type-aheads.jpg"> </p> 
-        <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> 
-        <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Reporting elements: filters, views, and groupings</a>.</p> 
-       </div>  </td> 
+     </tr> <!--
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> 
+       <td role="rowheader"><span class="preview">Is Active</span> </td> 
+       <td> 
+        <div class="preview"> <!--
+          <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in</p>
+         --> 
+         <p>(Enabled by default) Makes the group active in your Workfront instance.</p> 
+         <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> 
+         <p> <img src="assets/group-type-aheads.jpg"> </p> 
+         <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> 
+         <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Reporting elements: filters, views, and groupings</a>.</p> 
+        </div>  </td> 
+      </tr>
      --> 
      <tr> 
       <td role="rowheader">Make this group and its subgroups public</td> 
@@ -197,11 +201,11 @@ To create a new top-level group by copying a group or subgroup:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)".
-   >  * You can eliminate any user or subgroup from the original group by clicking the X to the right of the user’s or subgroup’s name.
-   >  
+   >   
+   >   
+   >   * If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)".
+   >   * You can eliminate any user or subgroup from the original group by clicking the X to the right of the user’s or subgroup’s name.
+   >   
    >
 
 1. Click **Create Group**.

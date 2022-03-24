@@ -131,17 +131,17 @@ To associate an existing global approval process with a project, task, issue, te
 
    The approval process selected displays.
 
-   ![](assets/existing-approval-attached-to-task-nwe-350x356.png)  
+   ![](assets/existing-approval-attached-to-task-nwe-350x356.png)
 
    <!--
-   <p>In the Preview environment, expand the <strong>Use existing</strong> drop-down menu and select an existing approval process. </p>
-   <!--
-   <img src="assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png" style="width: 350;height: 115;">
-   -->
-   <!--
-   The approval process selected displays.
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
+   <p>In the Preview environment, expand the <strong>Use existing</strong> drop-down menu and select an existing approval process. </p> <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png" style="width: 350;height: 115;"> </p>
+   --> <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">The approval process selected displays. </p>
    -->
    <p> <img src="assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png" style="width: 350;height: 355;"> </p>
+   </div>
    -->
 
 1. Click **Save**.
@@ -171,7 +171,7 @@ To modify an existing global approval process:
    >
    >Ensure that you click **Save** when adding the approval.
 
-1. After the global approval process is added, click **Edit Approval Process**. This action turns the global or group-level approval process into a single-use approval process. 
+1. After the global approval process is added, click **Edit Approval Process**. This action turns the global or group-level approval process into a single-use approval process.
 
    ![](assets/edit-approval-process-button-on-task-highlighted-nwe-350x189.png)
 
@@ -204,7 +204,7 @@ To create a single-use approval process:
 1. 
 
    <!--
-   Associating a single-use approval process differs depending on which environment you choose.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Associating a single-use approval process differs depending on which environment you choose. </p>
    -->
 
    <!--
@@ -216,19 +216,19 @@ To create a single-use approval process:
    ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    <!--
-   In the Preview environment, click
-   <strong>Create single-use</strong>.
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">In the Preview environment, click <strong>Create single-use</strong>.</p>
    -->
 
    <!--
-   <img src="assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png" style="width: 350;height: 115;">
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png" style="width: 350;height: 115;"> </p>
    -->
 
 1. Complete the steps beginning with step 6 in the section "Create a system-level or group-level global approval process for work items" in the article [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). 
+
    ``` ```**Tip: **`````` After you attach the single-use approval process, it displays as "<Custom>" in the Approval Process field inside the Edit box of templates and template tasks. For information about editing templates or template tasks, see the following articles:
 
-  * [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md) 
-  * [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+   * [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md) 
+   * [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
 
 ## Automatically associate an approval process with work items
 

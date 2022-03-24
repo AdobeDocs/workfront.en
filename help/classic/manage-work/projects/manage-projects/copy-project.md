@@ -52,9 +52,13 @@ project
 1. Go to the project that you want to copy.
 1. Click **Project Actions**, then click **Copy**.
 
+   ![copy_project_NEW.png](assets/copy-project-new-350x280.png)
+
 1. Specify a name for the project.
 
    By default, the new name is **Copy of <Original project name>.**
+
+   ![Copy_project_from_storm.png](assets/copy-project-from-storm-350x337.png)
 
 1. Select the **Status** of your new project.
 

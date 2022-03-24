@@ -140,11 +140,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>For a Budgeted Hour report:</p> 
      <ul> 
       <li>Build this report when trying to understand the amount of Budgeted Hours that is allocated to your resources or to your projects in the Resource Planner.</li> 
-      <li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> 
-       <div class="tips" data-mc-autonum="<b>Tips: </b>"> <span class="autonumber"><span><b>Tips: </b></span></span> 
-        <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> 
-        <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p> 
-       </div> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> <p>For information about building a Budgeted Hour report, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>. </p> </li> 
+      <li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> <p>Tips:   <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p> </p> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> <p>For information about building a Budgeted Hour report, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>. </p> </li> 
      </ul> 
     </div> </td> 
    <td>&nbsp;</td> 
@@ -1453,11 +1449,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
     --> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> <!-- 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Legacy&nbsp;Resource Estimates</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>This is a read-only area in the Business Case of a project that captures information from a tool that has been removed from&nbsp;Workfront. The information is preserved for historical purposes, but it cannot be updated. Although not recommended, you may update the information in this report using the API.</p> <p> For information about how you estimate resources for projects, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>. </p> <p>Tip: Only projects whose resources have been budgeted before the tool was removed display this area in the Business Case. </p> </td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
+    <td>Legacy&nbsp;Resource Estimates</td> 
+    <td> <p>This is a read-only area in the Business Case of a project that captures information from a tool that has been removed from&nbsp;Workfront. The information is preserved for historical purposes, but it cannot be updated. Although not recommended, you may update the information in this report using the API.</p> <p> For information about how you estimate resources for projects, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>. </p> <p>Tip: Only projects whose resources have been budgeted before the tool was removed display this area in the Business Case. </p> </td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+   </tr>
   --> 
   <tr> 
    <td>Legacy Resource Pool</td> 
@@ -2308,11 +2306,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
     --> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">Resource Scope</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>A task-level field that is applicable only when using a Task Constraint of Fixed Dates. For more information about the Fixed Dates Task Constraint, see the article <a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Task Constraint overview: Fixed Dates</a>. The value of the Resource Scope on a task is intended to prevent other tasks from being assigned to the same user during the time frame of the task. For more information about Resource Scope, see the article <a href="../../../manage-work/tasks/task-information/resource-scope.md" class="MCXref xref">Resource Scope overview</a>.</p> </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+   <td>Resource Scope</td> 
+   <td> <p>A task-level field that is applicable only when using a Task Constraint of Fixed Dates. For more information about the Fixed Dates Task Constraint, see the article <a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Task Constraint overview: Fixed Dates</a>. The value of the Resource Scope on a task is intended to prevent other tasks from being assigned to the same user during the time frame of the task. For more information about Resource Scope, see the article <a href="../../../manage-work/tasks/task-information/resource-scope.md" class="MCXref xref">Resource Scope overview</a>.</p> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td>Resource Utilization</td> 
    <td>A Report displaying the number of hours available during a certain time period and the number of hours scheduled for each user in the report. This is also calculated into Average Hours Per Day and an allocation percentage.</td> 

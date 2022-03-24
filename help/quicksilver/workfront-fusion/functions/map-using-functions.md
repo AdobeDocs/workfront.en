@@ -71,8 +71,8 @@ The other tabs contain the following types of functions:
 
 * **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
 
-  * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-  * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+   * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+   * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
 * **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions](../../workfront-fusion/functions/array-functions.md) for more information.
 
@@ -106,12 +106,12 @@ If Workfront Fusion does not feature a function you want to use, but it is featu
 
 1. Configure the module:
 
-  1. Choose the newly created spreadsheet in the **Spreadsheet** field.
-  1. Insert your formula containing the Google Sheets function(s) into the **Value** field.
+   1. Choose the newly created spreadsheet in the **Spreadsheet** field.
+   1. Insert your formula containing the Google Sheets function(s) into the **Value** field.
 
-     You can use the output of preceding modules as usual.
+      You can use the output of preceding modules as usual.
 
-     ![](assets/exploit-google-sheet-functions-350x218.png)
+      ![](assets/exploit-google-sheet-functions-350x218.png)
 
 1. Insert the **Google Sheets > Get a cell** module to obtain the calculated result.
 1. Configure the module, using the same Cell ID that you used in step 4.

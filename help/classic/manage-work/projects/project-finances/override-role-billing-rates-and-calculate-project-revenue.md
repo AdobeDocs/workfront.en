@@ -106,8 +106,7 @@ You can override the billing rate of a job role on a project in the following wa
 To override a billing rate for a project:
 
 1. Go to the project you want to override billing rates for.
-1. Click the **Billing Rates** tab. This tab might be located under **More**. 
-
+1. Click the **Billing Rates** tab. This tab might be located under **More**.
 1. Click **Add Billing Rate**.
 1. Click **New Billing Rate**.
 1. In the **Job Role** field, select the job role you want to change the billing rate for.  
@@ -134,7 +133,11 @@ To override a billing rate for a project:
 
 1. Click **Save**.
 
-Overview of the Billing Rates tab of a project After you have specified the override billing rates for the job roles associated with the project, you can see all the job roles and their overrides in the **Billing Rates** tab of the project.
+## Overview of the Billing Rates tab of a project
+
+After you have specified the override billing rates for the job roles associated with the project, you can see all the job roles and their overrides in the **Billing Rates** tab of the project.
+
+![billing_rates_tab.png](assets/billing-rates-tab-350x207.png)
 
 Notice the following information in the list of **Billing Rates**:
 
@@ -230,9 +233,7 @@ Consider the following when understanding the distribution of Planned Hours acro
 * By default, Workfront distributes the Planned Hours evenly across the Duration of a task, allocating an equal number of Planned Hours for each day of the task, based on the availability of the project schedule.
 
   <!--
-  To see what amount of Planned Hours is applied to each day during the Duration of a task, you can access the
-  <strong>Resource Grid</strong> inside the
-  <strong>Legacy Gantt</strong> of a project. However, this functionality is deprecated and it will soon be removed from Workfront.
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">To see what amount of Planned Hours is applied to each day during the Duration of a task, you can access the <strong>Resource Grid</strong> inside the <strong>Legacy Gantt</strong> of a project. However, this functionality is deprecated and it will soon be removed from Workfront. </p>
   -->
 
   For more information about understanding the distribution of Planned Hours across the Duration of a task, see the "Understanding the Distribution of Planned Hours Across the Duration of a Task" section in the article [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).

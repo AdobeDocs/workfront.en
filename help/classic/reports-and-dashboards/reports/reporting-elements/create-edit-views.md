@@ -57,6 +57,7 @@ You can create a new standard view, or you can customize an existing standard vi
    Standard Views are available on any type of list in Workfront, such as a report, project list, or task list.
 1. Click the **View** drop-down menu, then click **Customize View** or**New View**.  
    The **Customize View** dialog box displays.  
+   ![](assets/view-customize-350x327.png)
 
 1. In the **Column Preview** section, do any of the following:
 
@@ -150,7 +151,7 @@ For more information about Agile views, see the article [Manage a project in the
 To create or customize an Agile view:
 
 1. Go to the list of tasks on a project.
-1. Click the **Agile** icon .  
+1. Click the **Agile** icon ![](assets/agile-icon-42x41.png).  
 
 1. (Conditional) To customize an existing Agile view:
 
@@ -162,6 +163,7 @@ To create or customize an Agile view:
 
 1. (Conditional) To create a new Agile view, click **New View**.  
    The **Customize Agile View** dialog box displays.  
+   ![](assets/agile-project-customize-350x436.png)
 
 1. In the **Customize Agile View** dialog box, specify a name for the Agile view.  
    We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  

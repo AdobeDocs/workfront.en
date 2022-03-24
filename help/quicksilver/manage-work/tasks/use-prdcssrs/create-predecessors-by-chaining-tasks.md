@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the project that contains the tasks that you want to chain. 
 1. Click **Tasks** in the left panel.
-1. (Conditional) Select **Autosave** in the upper-right corner of the task list, then select the tasks that you want to chain. 
+1. (Conditional) Select **Autosave** in the upper-right corner of the task list, then select the tasks that you want to chain.
 
    ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
@@ -58,10 +58,10 @@ You must have the following access to perform the steps in this article:
 1. Right-click the selected tasks, then click **Chain**. 
 1. Select from the following dependency types:
 
-  * **Finish-Start**
-  * **Finish-Finish**
-  * **Start-Start**
-  * **Start-Finish**
+   * **Finish-Start**
+   * **Finish-Finish**
+   * **Start-Start**
+   * **Start-Finish**
 
    For more information about predecessor dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 

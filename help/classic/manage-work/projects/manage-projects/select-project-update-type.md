@@ -54,6 +54,7 @@ When the tasks update, their parent objects (parent tasks or the project) update
 1. Go to the project whose Update Type you want to specify.
 1. Click **Edit Project** .
 1. Click **Settings**.  
+   ![](assets/screen-shot-2013-09-18-at-10.36.16-am.png)
 
 1. In the **Update Type** field, select whether you want Workfront to calculate the timeline of the project automatically daily, when there is a change, or if you want the project manager to calculate it manually.
 

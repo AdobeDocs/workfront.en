@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Add an Expense.** 
    The **Add an Expense**&nbsp;dialog box is displayed.
 
-   ![](assets/me2-350x181.png)   
+   ![](assets/me2-350x181.png)
 
 1. Specify the following information:
 

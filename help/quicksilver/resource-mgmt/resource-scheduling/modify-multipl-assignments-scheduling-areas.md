@@ -80,34 +80,34 @@ For example:
 
 1. Go to the scheduling timeline for multiple projects or for an individual project:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. Click **Actions**.  
    ![resource_scheduling.png](assets/resource-scheduling.png)
 
 1. In the **Select Project** field, depending on whether you are viewing the scheduling timeline for multiple projects (from the Scheduling tab) or for an individual project (from the Staffing tab), do either of the following:
 
-  * **For multiple projects:** Begin typing the name of the project where you want to make assignment changes, then click the name when it appears in the drop-down list. Or, click the drop-down arrow to choose from a list of projects. Repeat this process to make assignment changes across multiple projects.  
-    Leave this field blank to make assignment changes on all projects for which you are the resource manager.
+   * **For multiple projects:** Begin typing the name of the project where you want to make assignment changes, then click the name when it appears in the drop-down list. Or, click the drop-down arrow to choose from a list of projects. Repeat this process to make assignment changes across multiple projects.  
+     Leave this field blank to make assignment changes on all projects for which you are the resource manager.
 
-    >[!NOTE]
-    >
-    >Projects are available to select only if:
-    >
-    >  
-    >  
-    >  * You are designated as the resource manager on the project  
-    >    For more information, see [Designate Resource Managers for a project or template](../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md).
-    >  
-    >  * The project is in one of the following statuses (or a status that equates with one of these statuses): Planning, Current, or Approved  
-    >    For more information about project statuses, see [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-    >  
-    >  * You are a user with a Plan license.
-    >  
-    >
+     >[!NOTE]
+     >
+     >Projects are available to select only if:
+     >
+     >   
+     >   
+     >   * You are designated as the resource manager on the project  
+     >     For more information, see [Designate Resource Managers for a project or template](../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md).
+     >   
+     >   * The project is in one of the following statuses (or a status that equates with one of these statuses): Planning, Current, or Approved  
+     >     For more information about project statuses, see [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+     >   
+     >   * You are a user with a Plan license.
+     >   
+     >
 
-  * **For an individual project:** The **Select Project** field cannot be modified. The **Select Project** field always contains the name of the project you are viewing.
+   * **For an individual project:** The **Select Project** field cannot be modified. The **Select Project** field always contains the name of the project you are viewing.
 
 1. (Optional) Click **Specify tasks** to modify assignment changes on individual tasks. When you specify individual tasks, any projects you selected in the **Select Project** field are ignored.   
    In the **Select Tasks** field, begin typing the name of the task where you want to make assignment changes. Repeat this step to make assignment changes on additional tasks.  
@@ -116,9 +116,9 @@ For example:
 
 1. Continue with any of the following sections:
 
-  * [Assign a user](#assigning-a-user)
-  * [Swap a user](#swapping-a-user)
-  * [Unassign a user](#unassigning-a-user)
+   * [Assign a user](#assigning-a-user)
+   * [Swap a user](#swapping-a-user)
+   * [Unassign a user](#unassigning-a-user)
 
 ### Assign a user
 

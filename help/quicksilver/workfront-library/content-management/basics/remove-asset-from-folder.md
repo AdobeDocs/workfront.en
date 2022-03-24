@@ -12,8 +12,7 @@ hidefromtoc: true
 
 If you have manage access to an asset, you can remove it from a folder.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In either the **Library** or **My Content** area, find the folder and double click to open it.
 
 1. Find the asset you want to remove, then right click and select **Remove from folder**.  

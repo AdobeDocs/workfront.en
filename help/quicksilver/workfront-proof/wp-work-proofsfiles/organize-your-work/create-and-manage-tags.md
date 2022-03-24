@@ -36,11 +36,11 @@ For more information about these profiles and permissions, see&nbsp; [Proof Perm
 1. Open the **Tags** tab at the top of the **Personal settings** page.  
    Do one of the following:
 
-  * To create a tag, click **New tag**, type a name for the tag, then press **Enter**.  
-    Tag names must include at least one alphanumeric character and no more than than 30 characters.  
-    To edit an existing tag, click the name of the tag, type new text, then press **Enter**.
-  
-  * To delete a tag, click the trash can icon at the end of the row where the tag is listed.
+   * To create a tag, click **New tag**, type a name for the tag, then press **Enter**.  
+     Tag names must include at least one alphanumeric character and no more than than 30 characters.  
+     To edit an existing tag, click the name of the tag, type new text, then press **Enter**.
+   
+   * To delete a tag, click the trash can icon at the end of the row where the tag is listed.
 
 ## Viewing Information About Your Tags
 
@@ -49,9 +49,9 @@ For more information about these profiles and permissions, see&nbsp; [Proof Perm
 1. Open the **Tags** tab at the top of the **Personal settings** page.  
    The **Tags** tab gives you the following information about your tags:
 
-  * **Name**
-  * **Total items** which the tag has been applied to
-  * **Items that you have permission to see** to which the tag has been applied
+   * **Name**
+   * **Total items** which the tag has been applied to
+   * **Items that you have permission to see** to which the tag has been applied
 
 1. (Optional) If you want to view all the items which have had a particular tag applied to them,&nbsp;click on the number next to that tag under **Items that you have permission to see**.  
    The Search results page that appears lists&nbsp;all items you are allowed to see to which the tag is applied.

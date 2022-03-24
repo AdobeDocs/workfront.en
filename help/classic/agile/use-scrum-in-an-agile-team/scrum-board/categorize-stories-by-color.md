@@ -47,7 +47,9 @@ You must have the following access to perform the steps in this article:
 
 If the agile team settings have&nbsp;been configured so the Associate Card Color to&nbsp;option is set to Free Form, users can manually change the color of individual story tiles. This can be useful to communicate other types of&nbsp;information that is important to the team or the organization:
 
-1. Hover over the colored banner at the top of the story tile.
+1. Hover over the colored banner at the top of the story tile.  
+   ![agile_story_color1.png](assets/agile-story-color1-350x225.png)  
 
-1. Click **Change color**, then select the desired color.
+1. Click **Change color**, then select the desired color.  
+   ![agile_story_color2.png](assets/agile-story-color2-350x221.png)
 

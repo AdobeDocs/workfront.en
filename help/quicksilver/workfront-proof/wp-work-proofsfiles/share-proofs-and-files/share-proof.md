@@ -51,14 +51,14 @@ You can add reviewers to a proof when you are creating a new proof or uploading 
 1. In the **Share this version** page that appears, add reviewers by adding their email addresses.  
    You can also do any of the following:
 
-  * Remove all reviewers with one click (4).
-  * Remove each reviewer individually (5).
-  * Set the email alert for every reviewer (6).
-  * Set the proof role for every reviewer (7).
-  * Set a deadline for the reviewers (8).
-  * Decide if you would like your reviewers to receive the New proof email (9).
-  * Include or discard a custom message (10).
-  * Add text to the body and the subject line of the custom message (11).
+   * Remove all reviewers with one click (4).
+   * Remove each reviewer individually (5).
+   * Set the email alert for every reviewer (6).
+   * Set the proof role for every reviewer (7).
+   * Set a deadline for the reviewers (8).
+   * Decide if you would like your reviewers to receive the New proof email (9).
+   * Include or discard a custom message (10).
+   * Add text to the body and the subject line of the custom message (11).
 
 1. Click **Share.**
 1. ![Share_this_version_page.png](assets/share-this-version-page-350x330.png)

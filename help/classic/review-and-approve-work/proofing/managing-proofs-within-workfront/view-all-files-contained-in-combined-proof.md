@@ -47,5 +47,7 @@ You must have the following access to perform the steps in this article:
 
    The first five files are displayed. This section is displayed only if the proof is a combined proof.
 
+   ![proof_combined_view.png](assets/proof-combined-view-350x217.png)
+
 1. (Optional) Click **See All** to view all files.
 

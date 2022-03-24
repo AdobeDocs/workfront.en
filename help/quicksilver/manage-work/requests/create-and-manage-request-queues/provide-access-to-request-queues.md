@@ -52,23 +52,25 @@ Before the request queue is available for users in the Requests area, you must c
 
 ## Provide access to a Request Queue
 
-1. Go to the project where you want to provide access to the request queues. 
-   ``` ```**Note: **``````Only projects with a status of Current are visible in the Requests area.  
+1. Go to the project where you want to provide access to the request queues.
 
-1. Click&nbsp;**Queue Details** in the left panel. You might need to click&nbsp;**Show More**, then **Queue Details**.  
+   >[!NOTE]
+   >
+   >Only projects with a status of Current are visible in the Requests area.
 
+1. Click&nbsp;**Queue Details** in the left panel. You might need to click&nbsp;**Show More**, then **Queue Details**. 
 1. Select **Publish as Help Request Queue**&nbsp;to designate the project as a Request Queue.
 1. Select from the following options:
 
-  * **Anyone**: Any user can view and add requests to the request queue.
-  * **People with view access to this project**:&nbsp;Users that have View permissions to the project can view and add requests to the request queue.&nbsp;
-  * **People in this project's company**:&nbsp;Users associated with the project's Company&nbsp;can view and add requests. The Company associated with the project is listed in parentheses next to this option.&nbsp;
-  * **People in this project's group**:Users associated with the project's Group can view and add requests. The Group&nbsp;associated with the project is listed in parentheses next to this option.
+   * **Anyone**: Any user can view and add requests to the request queue.
+   * **People with view access to this project**:&nbsp;Users that have View permissions to the project can view and add requests to the request queue.&nbsp;
+   * **People in this project's company**:&nbsp;Users associated with the project's Company&nbsp;can view and add requests. The Company associated with the project is listed in parentheses next to this option.&nbsp;
+   * **People in this project's group**:Users associated with the project's Group can view and add requests. The Group&nbsp;associated with the project is listed in parentheses next to this option.
 
-    Group queues are useful when several departments share a Workfront account to achieve unique organizational goals. Each department may have its own queues that members of other groups should not be able to see.
+     Group queues are useful when several departments share a Workfront account to achieve unique organizational goals. Each department may have its own queues that members of other groups should not be able to see.
 
-    For information about who has permissions on a project see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).  
-    Groups and companies can be associated with the project when editing the project. For more information about editing projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+     For information about who has permissions on a project see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).  
+     Groups and companies can be associated with the project when editing the project. For more information about editing projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Click **Save**.
 

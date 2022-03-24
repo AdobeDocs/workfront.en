@@ -49,14 +49,16 @@ You must have the following access to perform the steps in this article:
 
 You can change which status is applied to the work item with the Done button. You can also set multiple statuses and allow the user to choose which status is appropriate.
 
-1. People
-1. 
-1. 
-1. Teams
-1. Team Settings
+1. Go to the&nbsp;**People**&nbsp;area on the Global Navigation Bar.  
+   ![](assets/teams-under-people-tab-adobe.png)
+
+1. Click the **Teams** tab.&nbsp;
+1. Choose the team in&nbsp;the upper-left corner.
+1. Click **Team Settings** in the upper-right corner.
 1. Find the **Done Button** section at the bottom of the **Team Settings** page.
 
-1. Select one status or more than one status for each work item type.
+1. Select one status or more than one status for each work item type.  
+   ![](assets/done-button-multiple-statuses-on-teams-page-350x129.png)
 
    >[!NOTE]
    >
@@ -93,9 +95,10 @@ To make the changes to the Done button functionality visible to users, you can m
 
 To associate users with a Home Team:
 
-1. People
-1. People
-1. Edit
+1. Go to the&nbsp;**People**&nbsp;area on your Global Navigation Bar.
+1. Click the **People** tab.
+1. Select the user or users that you want to associate with the Home Team.
+1. Click **Edit**.
 1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
 
 1. Click **Save Changes**.  
@@ -113,16 +116,15 @@ When a user creates a project, their Home Group is automatically assigned to the
 To find the group associated with the project:
 
 1. Go to a Project.
-1. Project Details
-1. Group
-1. 
-1.
+1. Click **Project Details** at the top of the page.
+1. On the Overview subtab, locate the **Group** field.  
+   This is the group name you need to use to check the status in the Setup area. See the following section for instructions on how to update the default status for a specific group.
 
 ### Update the default status for a specific group
 
 As a Workfront administrator, you can update the status for a specific group:
 
-1. Setup
+1. Click **Setup** in the Global Navigation Bar.
 1. In the left panel, click **Project Preferences**, then **Statuses**.
 
 1. Click **Issues**, then type the name of the group in the **System Statuses** search box located on the right.

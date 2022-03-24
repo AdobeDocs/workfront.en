@@ -140,9 +140,9 @@ The following table lists project information and whether it transfers from the 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="convert-to-project"></a>Convert an issue to a project</h2>
 <ol>
-<li value="1"> Go to the <strong>Issues</strong> tab on a project. <p>  </p> </li>
-<li value="2"> <p>Click the issue to be converted to access the issue.</p> <p>  </p> </li>
-<li value="3"> <p> From the <strong>Issue Actions</strong> menu, select <strong>Convert to Project.</strong> </p> <p>  </p> </li>
+<li value="1"> Go to the <strong>Issues</strong> tab on a project. <p> <img src="assets/ci1-350x135.png" alt="" style="width: 350;height: 135;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
+<li value="2"> <p>Click the issue to be converted to access the issue.</p> <p> <img src="assets/ci2-350x173.png" alt="" style="width: 350;height: 173;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
+<li value="3"> <p> From the <strong>Issue Actions</strong> menu, select <strong>Convert to Project.</strong> </p> <p> <img src="assets/ci3-350x168.png" alt="" style="width: 350;height: 168;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="4"> <p>In the submenu that displays, do one of the following:</p>
 <ul>
 <li>Click <strong>New Project</strong></li>
@@ -167,8 +167,8 @@ The following table lists project information and whether it transfers from the 
 </div>
 </note> </li>
 <li value="8">(Optional) In the <strong>Custom Forms</strong> section, attach any custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new project, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>.</li>
-<li value="9"> <p>Click <strong>Save Changes.</strong></p> <p>  </p> <p>The issue is now a project, if you decided to delete the original issue.<br>Or<br>The issue is now linked to the new project and it will complete when the project completes, if you decided to keep the original issue. </p> <p>Some issue fields transfer to the project. For information, see the <a href="#viewing-original-issue-information" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. </p> </li>
-<li value="10"> <p>(Optional) Set any further project details ​(project owner, project dates) and tasks as necessary.</p> <p>  </p> </li>
+<li value="9"> <p>Click <strong>Save Changes.</strong></p> <p> <img src="assets/ci4-350x206.png" alt="" style="width: 350;height: 206;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> <p>The issue is now a project, if you decided to delete the original issue.<br>Or<br>The issue is now linked to the new project and it will complete when the project completes, if you decided to keep the original issue. </p> <p>Some issue fields transfer to the project. For information, see the <a href="#viewing-original-issue-information" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. </p> </li>
+<li value="10"> <p>(Optional) Set any further project details ​(project owner, project dates) and tasks as necessary.</p> <p> <img src="assets/ci5-350x118.png" alt="" style="width: 350;height: 118;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 </ol>
 </div>
 -->
@@ -178,8 +178,8 @@ The following table lists project information and whether it transfers from the 
 <h2><a name="convert-to-task"></a>Convert an issue to a task</h2>
 <ol>
 <li value="1"> Go to the <strong>Issues</strong> tab on a project. </li>
-<li value="2"> <p>Click the issue you want to convert to go to the issue's landing page. </p> <p>  </p> </li>
-<li value="3"> <p> From the <strong>Issue Actions</strong> menu, select <strong>Convert to Task.</strong> </p> <p>  </p> </li>
+<li value="2"> <p>Click the issue you want to convert to go to the issue's landing page. </p> <p> <img src="assets/ci6-350x97.png" alt="" style="width: 350;height: 97;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
+<li value="3"> <p> From the <strong>Issue Actions</strong> menu, select <strong>Convert to Task.</strong> </p> <p> <img src="assets/ci7-350x444.png" alt="" style="width: 350;height: 444;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="4"> <p>Name the task.</p> </li>
 <li value="5"> <p>Identify the project where the task will reside. </p> <p>You can select a different project from the project that the issue is on.</p> </li>
 <li value="6"> <p>In the <strong>Project</strong> box, start typing the name of the project where you want to put the new task, then press <strong>Enter</strong> when it appears.</p> <p>By default, this box the name of the project containing the issue that you are converting.</p> </li>
@@ -200,9 +200,9 @@ The following table lists project information and whether it transfers from the 
 <p>Or, if the top-level groups in your organization configured them separately, the options that display here depend on which group is associated with the project you selected in step 6. For more information, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md" class="MCXref xref">Configure task and issue preferences for a group</a>.</p>
 </div>
 </note> </li>
-<li value="8">(Optional) Attach custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new task, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>.<br><p></p></li>
+<li value="8">(Optional) Attach custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new task, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>.<br><p><img src="assets/ci8-350x202.png" alt="" style="width: 350;height: 202;" data-mc-conditions="QuicksilverOrClassic.Classic"></p></li>
 <li value="9"> <p>Click <strong>Save Changes</strong> when all task settings are set.</p> <p>The issue is now a task on the designated project, if you decided to delete the original issue.</p> <p>Or</p> <p>The issue is now linked to the new task on the project you chose, and it will complete once the task completes, if you decided to keep the original issue.</p> <p>Some issue fields transfer to the task. For information, see the <a href="#viewing-original-issue-information" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. <br></p> </li>
-<li value="10"> <p>(Optional) Continue editing the task (assignments, dates) as necessary. </p> <p>  </p> </li>
+<li value="10"> <p>(Optional) Continue editing the task (assignments, dates) as necessary. </p> <p> <img src="assets/ci9-350x135.png" alt="" style="width: 350;height: 135;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 </ol>
 </div>
 -->

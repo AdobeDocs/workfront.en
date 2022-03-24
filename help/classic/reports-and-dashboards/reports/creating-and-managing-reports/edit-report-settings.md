@@ -49,7 +49,9 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
 
 ## How-to steps
 
-1. Start creating a report by going to **Reporting** > **Reports** > **New Report**, then select the object of your report. Or
+1. Start creating a report by going to **Reporting** > **Reports** > **New Report**, then select the object of your report.
+
+   Or
 
    Open an existing report, then click **Report Actions** > **Edit**.
 
@@ -92,9 +94,11 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
      <tr> 
       <td role="rowheader">Show a special view on the Details tab</td> 
       <td>(Project Report Only) Specify the type of view users will see when they access this information on the Details tab. For example, you can select a Milestone or Gantt view.</td> 
-     </tr> <!-- 
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Show the Legacy Gantt view on the Details tab</td> 
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>(Task Report Only) Select this option to display the Legacy Gantt chart on the Details tab of the report. The Legacy Gantt chart is a visual representation of the tasks in the report.</p> <p>For information about using the Legacy Gantt chart, see the article <a href="../../../manage-work/gantt-chart/using-the-legacy-gantt-chart/navigate-legacy-gantt.md" class="MCXref xref">Navigate the Legacy Gantt Chart</a>.</p> </td> 
+     </tr> <!--
+      <tr data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader">Show the Legacy Gantt view on the Details tab</td> 
+       <td> <p>(Task Report Only) Select this option to display the Legacy Gantt chart on the Details tab of the report. The Legacy Gantt chart is a visual representation of the tasks in the report.</p> <p>For information about using the Legacy Gantt chart, see the article <a href="../../../manage-work/gantt-chart/using-the-legacy-gantt-chart/navigate-legacy-gantt.md" class="MCXref xref">Navigate the Legacy Gantt Chart</a>.</p> </td> 
+      </tr>
      --> 
      <tr> 
       <td role="rowheader">Show this report in a Gantt view by default</td> 
@@ -124,7 +128,7 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
 
 See also:
 
-* Learning Path for reports and dashboards
+* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ) 
 * [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) 
 * [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md) 
 * [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

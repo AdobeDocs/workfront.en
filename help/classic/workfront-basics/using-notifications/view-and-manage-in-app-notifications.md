@@ -49,24 +49,35 @@ The numbered icon in the upper-right corner of Workfront displays the number of 
 >You can view all in-app notifications both from the web application and the mobile&nbsp;application. Only some of these notifications are sent as push notifications in the mobile application. For more information about notifications in the mobile app, see [Adobe Workfront for iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) or [Adobe Workfront for Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
-   Depending on the types of messages available, the color of this number varies: 
 
-   Blue indicates that you have unread announcement messages.
+   Depending on the types of messages available, the color of this number varies:
 
-   You might also have other unread&nbsp;work notifications in addition to unread announcement messages.
-   Orange indicates that there are no announcement messages but you have other unread notifications.  
-   Gray indicates that there&nbsp;are no announcement messages or notifications.
+   * Blue indicates that you have unread announcement messages.
 
-   When you click the numbered icon, your most recent unread notifications appear below it, with the most recent at the top.  ![](assets/notifications-list-350x467.png)  Up to 50 notifications display. You can do the following to view more:  ```<li>Scroll to the bottom of the list and click <strong>Show More</strong>.You can view up to 2,000 notifications here. They are automatically deleted after 30 days.</li>``` ```<li> <p>To view all of your notifications, click the <strong>Notifications</strong>&nbsp;heading, or click <strong>View All Notifications</strong>.</p> <p> <img src="assets/notification-dropdown-350x342.png" alt="" style="width: 350;height: 342;"> </p> </li>```  
+     You might also have other unread&nbsp;work notifications in addition to unread announcement messages.
+   
+   * Orange indicates that there are no announcement messages but you have other unread notifications.  
+   * Gray indicates that there&nbsp;are no announcement messages or notifications.
+
+   When you click the numbered icon, your most recent unread notifications appear below it, with the most recent at the top.
+
+   ![](assets/notifications-list-350x467.png)
+
+   Up to 50 notifications display. You can do the following to view more:
+
+   * Scroll to the bottom of the list and click **Show More**.You can view up to 2,000 notifications here. They are automatically deleted after 30 days.
+   * To view all of your notifications, click the **Notifications**&nbsp;heading, or click **View All Notifications**.
+
+     ![](assets/notification-dropdown-350x342.png)
 
 1. Click the notification that you want to view:
 
    * If the notification you click is about a work item, the associated Workfront object opens, showing the full message on the **Updates** tab.&nbsp;You can **Start a new update area** or type a **Reply**.
-   
+
      ![](assets/object-opens-click-work-ntfctn-350x156.png)
 
    * If the notification you click is for an announcement, the **Announcements** page appears, listing all of your announcements. The announcement you clicked is selected on the left and the message is displayed on the right.
-   
+
      ![](assets/announcements-page-350x163.png)
 
 1. (Optional) Download any attachments included in the notification message, or download all attachments as a ZIP file.
@@ -94,18 +105,21 @@ To acknowledge a notification&nbsp;and clear it&nbsp;from the Notifications list
    * Click the blue dot in the upper-left corner of the notification.
    * If the notification is for a work item (rather than for an announcement), click the notification to go to the item.
    * If the notification is for an announcement, click the notification to open the **Announcements** page.
-   * Mark all as seen
+   * Click **Mark all as seen**
 
 ### **View acknowledged notifications**
 
 To view notifications that you have already acknowledged:
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
-1. Notifications
-1. or  
-1. Click **View All Notifications**&nbsp;in the lower-right of the Notifications list.  
+1. Click **Notifications**&nbsp;in the upper-left of the Notifications list.
 
-1. The Notifications page is displayed.
+   or
+
+   Click **View All Notifications**&nbsp;in the lower-right of the Notifications list.
+
+   The Notifications page is displayed.
+
 1. On the **Notifications** page that appears, scroll down to view your past notifications.
 1. (Optional) To bring an acknowledged notification back to your list of notifications, click the blue circle next to the notification.
 

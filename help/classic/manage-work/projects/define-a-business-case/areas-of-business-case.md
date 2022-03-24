@@ -23,7 +23,7 @@ The following are areas in the Business Case of a project:
 * Expenses
 
   <!--
-  Legacy Resource Estimates&nbsp;
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Legacy Resource Estimates&nbsp;</li>
   -->
 
 * Resource Budgeting
@@ -86,13 +86,13 @@ Expenses affect the following fields on the project:
 * Budgeted Cost
 
   <!--
-  Legacy Budgeted Cost
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Legacy Budgeted Cost</li>
   -->
 
 * Net Value
 
   <!--
-  Legacy Net Value
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> Legacy Net Value</li>
   -->
 
 For more information about the Budgeted Costs and Net Values, see [Overview of Business Case financial fields](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
@@ -104,20 +104,21 @@ Your Workfront administrator can set up custom Expense Types.
 For more information about&nbsp;creating custom Expense Types, see [Create custom expense types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).&nbsp;
 
 <!--
-<a name="resource-estimates"></a>Legacy Resource Estimates
+<h2 data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a name="resource-estimates"></a>Legacy Resource Estimates</h2>
 -->
 
 <!--
-This is a read-only area that captures information from a tool that has been removed from&nbsp;Workfront. The information is preserved for historic purposes, but it cannot be updated. Although not recommended, you may update the information in this report using the Workfront API.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">This is a read-only area that captures information from a tool that has been removed from&nbsp;Workfront. The information is preserved for historic purposes, but it cannot be updated. Although not recommended, you may update the information in this report using the Workfront API.</p>
 -->
 
 <!--
-<span class="autonumber"><span><b>Tip: </b></span></span>Only projects whose resources have been budgeted before the tool was removed display this area in the Business Case.
+<note type="tip">
+Only projects whose resources have been budgeted before the tool was removed display this area in the Business Case.
+</note>
 -->
 
 <!--
-For information about how you estimate resources for projects, see
-<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> For information about how you estimate resources for projects, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>. </p>
 -->
 
 <!--
@@ -224,20 +225,20 @@ For more information about applying a custom form, see [Attach a Custom Form to 
 You can see a summary of the main project finances and whether a project is aligned or not with a Scorecard in the Business Case Summary panel, in the upper-right corner of the Business Case .
 
 You cannot edit the Business Case Summary. This is only a quick view of the state of&nbsp;the project as it relates to financial fields and the Scorecard.&nbsp;  
-&nbsp;
+![BC_summary_.png](assets/bc-summary--238x399.png)&nbsp;
 
 The following fields display in the Business Case Summary:
 
 * The Project Net Value
 
   <!--
-  The Project Legacy Net Value
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">The Project Legacy Net Value</li>
   -->
 
 * The Project Budgeted Cost
 
   <!--
-  The Project Legacy Budgeted Cost
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">The Project Legacy Budgeted Cost</li>
   -->
 
 * The Potential Risk Cost

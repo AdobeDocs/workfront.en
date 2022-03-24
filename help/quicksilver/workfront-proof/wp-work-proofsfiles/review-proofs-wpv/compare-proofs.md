@@ -20,7 +20,8 @@ You can view side-by-side comparisons of two proofs. These can be two versions o
 1. Open the proof that has multiple versions you want to compare.
 1. In the upper-left corner of the proofing viewer that displays, click the name of the proof. Then, in the list of versions that appears, click the **Compare** icon next to the version you want to open and compare.
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)   
+   ![](assets/compare-proofs-choose-version-350x115.jpg)
+
    The proofs display side by side, with the newer version on the left side.
 
    <!--
@@ -88,8 +89,8 @@ To auto-compare two proofs:
 
 1. Begin comparing proofs in either of the following ways:
 
-  * Compare two versions of the same proof (see [Compare proof versions](#comparing-proof-versions) in this article).
-  * Compare two separate proofs (see [Compare separate proofs](#comparing-separate-proofs) in this article).
+   * Compare two versions of the same proof (see [Compare proof versions](#comparing-proof-versions) in this article).
+   * Compare two separate proofs (see [Compare separate proofs](#comparing-separate-proofs) in this article).
 
 1. Click the **Autocompare** icon.
 
@@ -117,8 +118,8 @@ To enable overlay comparison:
 
 1. Begin comparing proofs in either of the following ways:
 
-  * Compare two versions of the same proof (see [Compare proof versions](#comparing-proof-versions) in this article).
-  * Compare two separate proofs (see [Compare separate proofs](#comparing-separate-proofs) in this article).
+   * Compare two versions of the same proof (see [Compare proof versions](#comparing-proof-versions) in this article).
+   * Compare two separate proofs (see [Compare separate proofs](#comparing-separate-proofs) in this article).
 
 1. Click the **Overlay** icon.
 
@@ -128,8 +129,8 @@ To enable overlay comparison:
 
 1. Do either of the following:
 
-  * Pan the proof across the vertical divider. As you pan, you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.&nbsp;
-  * Move the vertical divider to the left and right. As you move the divider,&nbsp;you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.&nbsp;
+   * Pan the proof across the vertical divider. As you pan, you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.&nbsp;
+   * Move the vertical divider to the left and right. As you move the divider,&nbsp;you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.&nbsp;
 
 ### Simultaneous navigation comparison
 
@@ -143,8 +144,8 @@ To enable simultaneous navigation if it is not already enabled:
 
 1. Begin comparing proofs in either of the following ways:
 
-  * Compare two versions of the same proof (see [Compare proof versions](#comparing-proof-versions) in this article).
-  * Compare two separate proofs (see [Compare separate proofs](#comparing-separate-proofs) in this article).
+   * Compare two versions of the same proof (see [Compare proof versions](#comparing-proof-versions) in this article).
+   * Compare two separate proofs (see [Compare separate proofs](#comparing-separate-proofs) in this article).
 
 1. Click the **Simultaneous Navigation** icon.
 

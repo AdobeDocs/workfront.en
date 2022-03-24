@@ -16,6 +16,6 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* Tips, tricks, and troubleshooting
-* Workfront Proof Mobile Apps
+* [Tips, tricks, and troubleshooting](https://experience.workfront.com/s/article/Tips-tricks-and-troubleshooting-1369688232) 
+* [Workfront Proof Mobile Apps](https://experience.workfront.com/s/article/Workfront-Proof-mobile-app-1302522751)
 

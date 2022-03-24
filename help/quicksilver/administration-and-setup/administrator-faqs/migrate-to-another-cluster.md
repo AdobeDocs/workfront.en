@@ -30,11 +30,11 @@ Workfront established very specific business reasons for which you can request y
 
   If your company needs to allow specific IP addresses on your firewall configuration, ensure that the IP addresses we recommend to be accessible through your firewall are added to the allowlist in order to continue successfully using the following features after the migration:
 
-  * emails, including POP emails 
-  * SSO 
-  * Document Webhooks
+   * emails, including POP emails 
+   * SSO 
+   * Document Webhooks
 
-    For a complete list of IP addresses that need to be added to the allowlist, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     For a complete list of IP addresses that need to be added to the allowlist, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
@@ -55,9 +55,9 @@ Workfront established very specific business reasons for which you can request y
 * Ensure that your users are able to log in. 
 * Test all important workflows. We recommend that you should test the following:
 
-  * All day-to-day workflows for your company, including reports and dashboards 
-  * Email communication from Workfront (which includes event notifications, reminder notifications, automatic reminders, if they are enabled). 
-  * Any API integrations, if you have any.
+   * All day-to-day workflows for your company, including reports and dashboards 
+   * Email communication from Workfront (which includes event notifications, reminder notifications, automatic reminders, if they are enabled). 
+   * Any API integrations, if you have any.
 
 * Search functionality will take some time to work properly. You should expect full search capabilities within a few hours of the migration. 
 * If you find any abnormalities in your data after 24 hours from when the maintenance window closed, contact our Support Team. Documents not stored in S3 typically take the longest to sync. 

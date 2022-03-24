@@ -63,6 +63,8 @@ Sharing a proof link grants Workfront users viewing access. Users can comment on
 
 1. Click **Share** > **Proof Link**.
 
+   ![](assets/proof-sharelink-workfront-350x216.png)
+
 1. In the **Proof link** box that appears, do either of the following:
 
    * To copy the link to your clipboard, click **Copy link**.
@@ -130,7 +132,9 @@ You can add any Workfront user to the proof if you have Edit rights on the proof
 ### Add users to an existing proof from the Documents tab
 
 1. Select the document that contains the proof that you want to add users to.
-1. On the **Details** tab, under **Proofing**, click **Details** to open the **Proofing Details** box. 
+1. On the **Details** tab, under **Proofing**, click **Details** to open the **Proofing Details** box.
+
+   ![](assets/adding-user-to-proof-click-details-350x255.png)
 
 1. If the proof does not have an automated workflow (stages), click the **More** icon in the upper-right corner of the Stage 1 section, then click **Share** in the drop-down menu.
 

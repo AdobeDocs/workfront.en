@@ -52,15 +52,17 @@ Consider the following when copying a task:
 
 You can copy a task in the following areas of the Adobe Workfront web application:
 
-* At the task level, from the **More icon** ![](assets/qs-more-menu-19x7.png) to the left of the task name.  For information, see the [Copy a task at the task level](#copy) section in this article.
+* At the task level, from the **More icon** ![](assets/qs-more-menu-19x7.png) to the left of the task name.
+
+  For information, see the [Copy a task at the task level](#copy) section in this article.
 
 * In a task list, by doing one of the following:
 
-  * Right-click the name of a task.
-  * Select the task (or tasks) and expand the **More** icon ![](assets/more-icon-task-list.png) at the top of the task list.
-  * Select a task and expanding the **More** icon ![](assets/more-icon-task-list.png) next to the task name.
+   * Right-click the name of a task.
+   * Select the task (or tasks) and expand the **More** icon ![](assets/more-icon-task-list.png) at the top of the task list.
+   * Select a task and expanding the **More** icon ![](assets/more-icon-task-list.png) next to the task name.
 
-    This option is not available when selecting multiple tasks.
+     This option is not available when selecting multiple tasks.
 
   For information, see the [Copy tasks in a list](#copy2) section in this article.
 
@@ -72,14 +74,20 @@ You can copy a task in the following areas of the Adobe Workfront web applicatio
 
    Go to a task report. 
 
-1. Click **Tasks** in the left panel.  
-1. Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , then **Autosave**. 
+1. Click **Tasks** in the left panel. 
+1. Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , then **Autosave**.
 
    >[!IMPORTANT]
    >
    >You can copy tasks in a list only when automatically saving your changes. For information about saving options when editing tasks, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-1. Select the task or tasks that you want to copy and do one of the following:  ```<li> <p>Click the <strong>More menu</strong> at the top of the task list, then click <strong>Copy to</strong>. </p> </li>``` ```<li> <p>Right click the selected tasks, then click <strong>Copy to</strong>.</p> </li>``` ```<li> <p>When selecting one task, click the <strong>More</strong> menu <img src="assets/more-icon-task-list.png"> next to the task name in the list, then click&nbsp;<strong>Copy to</strong>. </p> </li>```   ![](assets/copy-task-in-list-nwe-350x131.png)
+1. Select the task or tasks that you want to copy and do one of the following:
+
+   * Click the **More menu** at the top of the task list, then click **Copy to**. 
+   * Right click the selected tasks, then click **Copy to**.
+   * When selecting one task, click the **More** menu ![](assets/more-icon-task-list.png) next to the task name in the list, then click&nbsp;**Copy to**.
+
+   ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Continue with copying the task, as described in the section [Copy a task at the task level](#copy) starting with Step 4.
 
@@ -91,6 +99,8 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 1. Click the name of the task to open it.&nbsp;
 1. Click the **More** drop-down menu ![](assets/qs-more-menu.png) next to the name of the task, then click **Copy** **to**.
 
+   ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
+
    The Copy Task box displays. 
 
 1. (Optional) Update the **Task Name**. 
@@ -101,11 +111,16 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
 1. Type the name of the **Destination Project**&nbsp;where you want to copy the task in the **Select Destination Project** field.&nbsp;
 
-   ``` ```**Tips: **``````
-
-  * The name of the project is case sensitive. 
-  * You can also start typing the Reference Number or enter the ID of the project. This might help you distinguish between projects with identical names. 
-  * Only 100 projects display in the list.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * The name of the project is case sensitive. 
+   >   * You can also start typing the Reference Number or enter the ID of the project. This might help you distinguish between projects with identical names. 
+   >   * Only 100 projects display in the list.
+   >   
+   >
 
    The current project name displays by default. If you want to copy the task within the same project, leave this field unchanged. 
 
@@ -188,8 +203,8 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
    Select a parent by doing one of the following:
 
-  * In the task list, select one of the parents in the project plan.
-  * Click the search icon ![Search icon](assets/search-icon.png) and search for a parent task by name.
+   * In the task list, select one of the parents in the project plan.
+   * Click the search icon ![Search icon](assets/search-icon.png) and search for a parent task by name.
 
    The task should appear in the list.
 
@@ -222,12 +237,12 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 * You cannot select what information is duplicated to the new task. Almost all the information from the original task will be transferred to the duplicated task, including parent relationship, by default. 
 * The following items are not transferred to the new task:
 
-  * Logged hours
-  * Notes
-  * Issues
-  * Only the predecessors which are in the same group of copied tasks are also copied with their successor tasks.
+   * Logged hours
+   * Notes
+   * Issues
+   * Only the predecessors which are in the same group of copied tasks are also copied with their successor tasks.
 
-    ``` ```**Example: **``````For example, if you copy Task 2 and its predecessor, Task 1, at the same time, then you have a copy of Task 2 and a copy of Task 1. The copy of Task 1 will be the predecessor of the copy of Task 2. But if you copy just Task 2 without copying its predecessor, then its copy will have no predecessor.
+     ``` ```**Example: **``````For example, if you copy Task 2 and its predecessor, Task 1, at the same time, then you have a copy of Task 2 and a copy of Task 1. The copy of Task 1 will be the predecessor of the copy of Task 2. But if you copy just Task 2 without copying its predecessor, then its copy will have no predecessor.
 
 * When you duplicate a parent task, all children tasks are also duplicated, even when the children tasks are not selected. 
 * You can duplicate multiple tasks as the same time.
@@ -239,19 +254,21 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 ### Duplicate tasks
 
 1. Go to the project that contains the task or tasks that you want to duplicate.
-1. Click **Tasks** in the left panel. 
+1. Click **Tasks** in the left panel.
 1. 
    Do one of the following:
 
-  * ```(Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autosave**, select the tasks you want to duplicate, then click the **More menu** ![](assets/qs-more-menu-29x11.png) > **Duplicate**.```   ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
+   * ```(Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autosave**, select the tasks you want to duplicate, then click the **More menu** ![](assets/qs-more-menu-29x11.png) > **Duplicate**.```
 
-  * ```(Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:```
+     ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-    1. Select the task or tasks you want to duplicate, and click **Duplicate**. 
-    1. (Optional) Click **Undo** to reverse your changes and not duplicate the tasks.
-    1. (Optional and conditional) Click **Redo** if you had previously clicked **Undo**, to keep the changes and duplicate the tasks.
-    
-    1. Click **Save** to save your changes.
+   * ``` ```(Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:``````
 
-  1. Edit tasks in a list
+      1. Select the task or tasks you want to duplicate, and click **Duplicate**. 
+      1. (Optional) Click **Undo** to reverse your changes and not duplicate the tasks.
+      1. (Optional and conditional) Click **Redo** if you had previously clicked **Undo**, to keep the changes and duplicate the tasks.
+      
+      1. Click **Save** to save your changes.
+
+   1. Edit tasks in a list
 

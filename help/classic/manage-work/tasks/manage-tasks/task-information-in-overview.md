@@ -46,12 +46,12 @@ You must have the following:
  </tbody> 
 </table>
 
-Edit task information in the Task Details Overview tab
+## Edit task information in the Task Details Overview tab
 
 1. Go to a task that you want to view or edit.
 1. Click **Task Details** .
-1. Click the **Overview** subtab to view more information about the task. 
-1. Click **Edit Overview.** 
+1. Click the **Overview** subtab to view more information about the task.
+1. Click **Edit Overview.**
 
    >[!TIP]
    >
@@ -65,9 +65,11 @@ Edit task information in the Task Details Overview tab
    <table cellspacing="0"> 
     <col> 
     <col> 
-    <tbody>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Name</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Name of the task</td>  
+    <tbody> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader">Name</td> 
+      <td>Name of the task</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
       <td> <p>Additional information about the task</p> </td> 
@@ -114,7 +116,8 @@ Edit task information in the Task Details Overview tab
          <p>This is the amount of time that you allow a task to remain open before it is completed. </p> 
          <p>Important: Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
          <p>To indicate the Duration of the task and the unit of time do the following:</p> 
-         <ul>  Type the length of time followed by the abbreviation for the unit of time.  
+         <ul> 
+          <li data-mc-conditions="QuicksilverOrClassic.Classic"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Type the length of time followed by the abbreviation for the unit of time.</p> </li> 
          </ul> 
          <p> You can choose from the regular time or elapsed time options in the following table: </p> 
          <table cellspacing="3"> 

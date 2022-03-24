@@ -23,7 +23,21 @@ For information about uploading documents to Workfront, see [Add documents to Ad
 
 ##  Summary panel
 
-When you select a document in the documents area, you can use the Summary on the right to view document Details, manage document updates and approvals, view versions of the document, and add and edit Custom Forms for the document.  If proofing is set up for the document, the Details section includes information such as the proofing due date and current proofing progress. You can click the Details heading to go to the full Document Details area when you need all of the information about a document.  ![](assets/documents-area-v2-350x199.png)  For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md). Proof decision Once a proof decision is made, it appears in the Document list.  ![](assets/proof-decision---doc-list-350x168.png)
+When you select a document in the documents area, you can use the Summary on the right to view document Details, manage document updates and approvals, view versions of the document, and add and edit Custom Forms for the document.
+
+If proofing is set up for the document, the Details section includes information such as the proofing due date and current proofing progress.
+
+You can click the Details heading to go to the full Document Details area when you need all of the information about a document.
+
+![](assets/documents-area-v2-350x199.png)
+
+For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
+
+## Proof decision
+
+Once a proof decision is made, it appears in the Document list.
+
+![](assets/proof-decision---doc-list-350x168.png)
 
 ## Folders
 

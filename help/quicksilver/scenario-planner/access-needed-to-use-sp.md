@@ -31,9 +31,9 @@ You must ensure that the following conditions are all met before you can access 
 * Your organization must purchase a Workfront Scenario Planner license, in addition to a Workfront license.&nbsp;Contact your Workfront Account Representative to learn about Workfront Scenario Planner licenses. 
 * Your Workfront administrator must assign you a license of any of the following Workfront types:
 
-  * Plan
-  * Work
-  * Review
+   * Plan
+   * Work
+   * Review
 
   >[!NOTE]
   >

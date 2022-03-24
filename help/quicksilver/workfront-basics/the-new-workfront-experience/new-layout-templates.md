@@ -39,21 +39,21 @@ Your older Layout Templates created in Adobe Workfront Classic have been automat
 
 * You can drag to rearrange items throughout Workfront:
 
-  * Left panel items
-  * Areas in the Details view
-  * Fields in Home and Summary
-  * Main Menu items
+   * Left panel items
+   * Areas in the Details view
+   * Fields in Home and Summary
+   * Main Menu items
 
-    ![](assets/rearrange-main-menu-items-350x246.png)
+     ![](assets/rearrange-main-menu-items-350x246.png)
 
 * With a click, you can hide or show items throughout Workfront:
 
-  * Left panel items.
-  * Fields in Home and Summary.
-  * Controls in list filters, views, and groupings.
-  * Fields in the Details view, including native fields that your users don't need.
+   * Left panel items.
+   * Fields in Home and Summary.
+   * Controls in list filters, views, and groupings.
+   * Fields in the Details view, including native fields that your users don't need.
 
-    ![](assets/hide-and-show-350x224.png)
+     ![](assets/hide-and-show-350x224.png)
 
 * You can easily access the general customization controls for Layout Templates, always available in the upper-right corner of the screen.
 

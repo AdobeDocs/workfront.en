@@ -30,9 +30,9 @@ These tasks can minimize the impact of merge and split requests both to our cust
 
 1. The AE liaises with the client to do the following:
 
-  * Confirm that the client's license plan eligibility to make sure that it accommodates licenses for the users and data being moved from the origin account.
+   * Confirm that the client's license plan eligibility to make sure that it accommodates licenses for the users and data being moved from the origin account.
 
-  * Make sure that plan renewal or upgrade is in place before the merge is completed.
+   * Make sure that plan renewal or upgrade is in place before the merge is completed.
 
 1. The __________ works with the client using the information in this article under [Information to analyze with the client](#informat)
 1. Once all information from step 4 is confirmed, the __________ sets the Merge date and arranges Development Team support.

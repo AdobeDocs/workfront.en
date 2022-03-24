@@ -51,8 +51,7 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
 
 ## Create custom expense types
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Click **Expense Types**.
 1. Click **New Expense Type**.  
    The **New Expense Type** dialog box is displayed.
@@ -96,8 +95,7 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
 
 ## Modify custom Expense Types
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Click **Expense Types**.
 1. Select the expense type that you want to modify, then click **Edit**.
 

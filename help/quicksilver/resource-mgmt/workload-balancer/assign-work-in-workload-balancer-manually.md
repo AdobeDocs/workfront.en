@@ -73,16 +73,16 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    ``` ```**Tip: **`````` ```You can also use the following shortcuts to assign tasks or issues:```
 
-  * ```In Windows: CTRL+click the task or issue bar.``` 
-  * ```In Mac: CMD+click the task or issue bar.```
+   * ```In Windows: CTRL+click the task or issue bar.``` 
+   * ```In Mac: CMD+click the task or issue bar.```
 
 1. 
 
    <!--
-   Do one of the following:
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Do one of the following:</p>
    -->
 
-  * Start typing the name of a user, job role, or team that you want to assign to the item in the **Search people, role or teams** field, select it when it displays in the list, then click&nbsp;**Save**.
+   * Start typing the name of a user, job role, or team that you want to assign to the item in the **Search people, role or teams** field, select it when it displays in the list, then click&nbsp;**Save**.
 
    ![](assets/assignments-box-wb.png)
 
@@ -94,13 +94,12 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
 
-  * ```Reassign the work item to active resources.``` 
-  * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+   * ```Reassign the work item to active resources.``` 
+   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
 
-    <!--  
-    <p>Click <strong>Advanced</strong> to access Advance Assignments. </p>  
-    <p>For more information about making Advanced Assignments, see <a href="../../manage-work/tasks/assign-tasks/create-advanced-assignments.md" class="MCXref xref">Create advanced assignments</a>. </p>  
-    -->
+     <!--   
+     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <p>Click <strong>Advanced</strong> to access Advance Assignments. </p> <p>For more information about making Advanced Assignments, see <a href="../../manage-work/tasks/assign-tasks/create-advanced-assignments.md" class="MCXref xref">Create advanced assignments</a>. </p> </li>   
+     -->
 
 1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**.
 

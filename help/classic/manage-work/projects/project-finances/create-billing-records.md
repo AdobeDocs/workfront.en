@@ -58,7 +58,9 @@ Consider the following when planning to use billing records:
 ## Create a billing record
 
 1. Navigate to a project.
-1. Go to **Billing Records** tab.  Depending on how your Workfront administrator designed your layout, this tab might be located under the **More** tab.  
+1. Go to **Billing Records** tab.
+
+   Depending on how your Workfront administrator designed your layout, this tab might be located under the **More** tab.  
    ![](assets/cbr2-350x94.png)
 
 1. With **Billing Record Details** selected in the left panel, click **New Billing Record**.
@@ -148,11 +150,13 @@ You can add hours to a billing record when the following conditions are met:
 To add billable hours to a billing record:
 
 1. Go to the project with the billing records.
-1. Click the **Billing Records** tab.  Depending on how your Adobe Workfront administrator designed your layout, this tab might be located under the **More** tab. 
+1. Click the **Billing Records** tab.
+
+   Depending on how your Adobe Workfront administrator designed your layout, this tab might be located under the **More** tab.
 
 1. Click the **Description** of a billing record to open the **Billing Record Details** tab.
 
-1. Select the **Billable Hours** tab.  
+1. Select the **Billable Hours** tab. 
 1. If there are hours that could be included in a billing record, click **Add Hours**.  
    The **Add Billable Hours** box opens.
 
@@ -172,11 +176,13 @@ If you are adding Billable Expenses to the billing record, ensure the expenses o
 To add billable expenses to a billing record:
 
 1. Go to the project with the billing records.
-1. Select the **Billing Records** tab. Depending on how your Workfront administrator designed your layout, this tab might be located under the **More** tab. 
+1. Select the **Billing Records** tab.
+
+   Depending on how your Workfront administrator designed your layout, this tab might be located under the **More** tab.
 
 1. Click the **Description** of a billing record to open the **Billing Record Details** tab.
 
-1. Select the **Billable Expenses** tab. 
+1. Select the **Billable Expenses** tab.
 1. (Conditional) If you have added expenses to your tasks or the project and have marked them as Billable, click **Add Expenses**.
 
    >[!NOTE]
@@ -195,7 +201,9 @@ You can add Fixed Revenues to your billing records if you have tasks that have F
 To add fixed revenues to a billing record:
 
 1. Go to the project with the billing records.
-1. Select the **Billing Records** tab. Depending on how your Workfront administrator designed your layout, this tab might be located under the **More** tab. 
+1. Select the **Billing Records** tab.
+
+   Depending on how your Workfront administrator designed your layout, this tab might be located under the **More** tab.
 
 1. Click the **Description** of a billing record to open the **Billing Record Details** tab.
 
@@ -216,9 +224,10 @@ To add fixed revenues to a billing record:
 After creating a billing record and including hours, expenses and revenues in the billing record, you can edit some information on the existing record, before it is marked as Billed.
 
 1. Go to the billing record.
-   The **Billing Record Details** tab is open by default. 
 
-1. Edit Billing Record Details.
+   The **Billing Record Details** tab is open by default.
+
+1. Click **Edit Billing Record Details.**
 1. Edit information in any available fields.
 
    These fields are available for editing:

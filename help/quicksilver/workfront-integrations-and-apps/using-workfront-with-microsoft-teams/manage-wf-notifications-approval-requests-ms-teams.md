@@ -113,11 +113,11 @@ To manage the Workfront notifications that you can receive in Microsoft Teams:
    This channel is for your personal chat with the Workfront bot. All Workfront notifications display here.&nbsp;
 1. Depending on what type of notification you receive, proceed&nbsp;to the relevant section:
 
-  * [Approval notifications](#approval) 
-  * [Assignment notifications](#assignme) 
-  * [Comment notifications](#comment) 
-  * [Update notifications](#update) 
-  * [Date Change notifications](#date)
+   * [Approval notifications](#approval) 
+   * [Assignment notifications](#assignme) 
+   * [Comment notifications](#comment) 
+   * [Update notifications](#update) 
+   * [Date Change notifications](#date)
 
 ### Approval notifications
 

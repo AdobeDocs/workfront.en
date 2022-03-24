@@ -65,8 +65,8 @@ Email invitations are generated in the following scenarios:
 
 To manually generate email invitations to existing unregistered users:
 
-1. People
-1. People
+1. Go to the **People** area of the Global Navigation Bar.
+1. Click the **People** tab.
 1. Select the user who shows the **Unregistered** label below their name.
 
    ![unregistered_users__email_invitations.png](assets/unregistered-users--email-invitations-350x129.png)
@@ -79,7 +79,7 @@ To manually generate email invitations to existing unregistered users:
 
 As a Workfront administrator, you can configure the message you include with the email invitations for new users.
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the list on the left, click **Email** > **Invitations**.
 
 1. In the **General Options** section, make any of the following modifications:
@@ -101,7 +101,7 @@ As a Workfront administrator, you can configure the message you include with the
         <li><strong>Include a message and/or term of service for helpdesk users</strong>:&nbsp;Select this option if you want to modify the email invitation for all new users added to Workfront&nbsp;that have a Requestor license.</li> 
         <li><strong>Message</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the email body.</li> 
         <li><strong>Terms and Conditions</strong>: If you select to modify the email invitation for all new users with a Requestor license, specify&nbsp;the text that you want to include in your email invitations as the terms and conditions.<br></li> 
-        <li> <p>In the <strong>Invitation Preview</strong> section, you can see a preview of your email invitation. If you selected to include a customized message in your email invitation, the customized message shows in this area.</p>  <img src="assets/email-invitation-for-all-users-preview-350x262.png" alt="Email_invitation_for_all_users_preview.png" style="width: 350;height: 262;">  </li> 
+        <li> <p>In the <strong>Invitation Preview</strong> section, you can see a preview of your email invitation. If you selected to include a customized message in your email invitation, the customized message shows in this area.</p> <p data-mc-conditions="QuicksilverOrClassic.Classic"> <img src="assets/email-invitation-for-all-users-preview-350x262.png" alt="Email_invitation_for_all_users_preview.png" style="width: 350;height: 262;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

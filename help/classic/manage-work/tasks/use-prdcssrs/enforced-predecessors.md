@@ -58,11 +58,13 @@ You must have the following access to perform the steps in this article:
 ## Enforce a predecessor at the task level
 
 1. Go to the successor task whose predecessor you want to enforce.
-1. Click **More**, then click **Predecessors**. The **Predecessors** tab displays. 
+1. Click **More**, then click **Predecessors**.
 
-1. Cross-Project Predecessors
-1. Add Predecessor
-1. Parent Project
+   The **Predecessors** tab displays.
+
+1. (Optional) Click **Cross-Project Predecessors** if you want to designate a predecessor in another project.
+1. Click **Add Predecessor**.
+1. (Conditional) If you are adding a cross-project predecessor, type the name of the project of the predecessor in the **Parent Project** field. 
 1. Specify the name of the predecessor task or tasks in the **Tasks** field. 
 1. Specify the **Dependency Type** between these two tasks.
 

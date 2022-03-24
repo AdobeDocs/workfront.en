@@ -49,8 +49,8 @@ You must have the following access to perform the steps in this article:
 
 You can choose how you want the group of items to display on your calendar.
 
-1. Reporting
-1. Calendars
+1. In the Global Navigation Bar, click **Reporting** then **Calendars**.
+
 1. Select the calendar you want to add a new group of items to.   
    Or  
    Click **+ New Calendar** and enter the calendar name.

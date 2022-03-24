@@ -75,11 +75,12 @@ When you set up a project as a Request Queue, the project status must be Current
 To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
-1. (Optional) Click **Project Details**>**Edit Overview** and add a **Description** to the project. This information displays on all new requests.  
+1. (Optional) Click **Project Details**>**Edit Overview** and add a **Description** to the project. This information displays on all new requests. 
+1. Click **More**, then **Queue Setup.**
 
-1. Click **More**, then **Queue Setup.** ![](assets/project-requestqueue-350x151.png)
+   ![](assets/project-requestqueue-350x151.png)
 
-   This opens the Queue Details  tab . 
+   This opens the Queue Details  tab .
 
    ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
 
@@ -104,8 +105,8 @@ To create a Request Queue:
      >
      >Users must first log in to Workfront before gaining access to the request queue when they access the Request Queue page from another application.
 
-      * **Direct Access URL:** When a user accesses this URL from a browser, the user is taken directly to the New Request  tab in the Requests area and this request is selected by default for them. 
-      
+      * **Direct Access URL:** When a user accesses this URL from a browser, the user is taken directly to the New Request  tab in the Requests area and this request is selected by default for them.
+
         ![](assets/new-request-by-default-350x226.png)
 
         >[!NOTE]

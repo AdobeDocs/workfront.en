@@ -42,8 +42,8 @@ You must have the following to perform the steps in this article:
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to assign a group administrator.
-1. Edit Group
-1. Group Administrator
+1. In the **Edit Group** box that displays, click the drop-down list to the right of the user’s name, then click **Group Administrator**.
+
 1. Repeat the previous step to add any other users as group administrators for the group.
 1. Click **Save**.
 

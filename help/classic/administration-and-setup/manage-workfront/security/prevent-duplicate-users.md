@@ -52,8 +52,8 @@ To fix duplicate email addresses within a Workfront instance:
 
 1. &nbsp;Examine any duplicate users and decide which user is no longer needed.
 
-   1. People
-   1. People
+   1. Go to the **People** area in the global navigation bar, then click the **People** tab.
+   
    1. In the **Filter** menu, select **All**.
    
    1. In the **View** menu, select **User Login**.

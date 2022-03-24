@@ -55,8 +55,8 @@ You can share your templates with other users using Template Sharing. This actio
 
 To share a template:
 
-1. Projects
-1. Projects
+1. Go to the **Projects** area in the Global Navigation Bar.
+1. Select the **Projects** tab.
 1. Select the **Templates** subtab. 
 1. Do one of the following:  
    Click the name of a template to open it, then click **Template Actions**, then **Template Sharing**.
@@ -71,7 +71,11 @@ To share a template:
 
 1. In the **Template Access** box, select the people, teams, roles, groups, or companies you want to share the template with.
 
+   ![](assets/srot1-350x221.png)
+
    You can also click the **Options** icon to make the template available system-wide:
+
+   ![template_share_system_wide.png](assets/template-share-system-wide-350x102.png)
 
 1. From the drop-down menu for each entity with which you are sharing, select from the following:
 
@@ -83,6 +87,8 @@ To share a template:
 
    * **Manage**: Users with these permissions are able to edit or delete the template.
 
+     ![template_permissions.png](assets/template-permissions-350x197.png)
+
      For information about the Advanced Settings ![](assets/gear-icon-in-access-levels.png) available here, see the section [Advanced Settings for template sharing](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in the article [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Click **Save**.
@@ -93,11 +99,11 @@ With template Project Sharing, you can define who has permissions on the project
 
 To share future projects created from a template with users:
 
-1. Projects
-1. Projects
-1. Templates
+1. Go to the **Projects** area in the Global Navigation Bar.
+1. Select the **Projects** tab.
+1. Select the **Templates** subtab. 
 1. Do one of the following:  
-   Click the name of a template, then click **Template Actions**, then **Project Sharing**. 
+   Click the name of a template, then click **Template Actions**, then **Project Sharing**.
 
    ![](assets/project-sharing-on-template-classic-350x108.png)
 
@@ -119,7 +125,11 @@ To share future projects created from a template with users:
    * **Contribute**: Users with these permissions can contribute to projects created from the template&nbsp;
    * **Manage**: Users with these permissions can manage or delete projects created from this template.
 
+     ![share_project_from_template.png](assets/share-project-from-template-350x268.png)
+
 1. (Optional) Click the **Options** icon to make the projects available system-wide.
+
+   ![project_share_system_wide_through_template.png](assets/project-share-system-wide-through-template-350x101.png)
 
 1. Click **Save**.
 

@@ -38,7 +38,7 @@ You must have the following:
 
 ## Create a job role
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left panel, click**Job Roles.**
 1. Click **New Job Role.**
 
@@ -117,7 +117,8 @@ You must have the following:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="deleting-a-job-role"></a>Delete a job role</h2>
-<ol data-mc-continue="false"> Click <strong>Setup</strong> near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+<ol data-mc-continue="false">
+<li value="1" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Setup</strong> near the upper-right corner of Adobe Workfront on the Global Navigation Bar.</li>
 <li value="2">Click<strong>Job Roles.</strong></li>
 <li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
 <li value="4">If there are any objects (users, tasks, issues) that&nbsp;are assigned to the job role, do one of the following:<br>

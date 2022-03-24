@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
 ## Customize email subject lines for event notifications
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 
 1. In the left panel, click **Email** > **Notifications**.
 

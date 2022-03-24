@@ -75,9 +75,9 @@ You can create a connection to your Intacct account directly from inside a Intac
 1. In any Intacct module, click **Add**next to the Connection field.
 1. Enter your Intacct credentials
 
-  * Company ID
-  * User ID
-  * Password
+   * Company ID
+   * User ID
+   * Password
 
 1. Click **Continue**to create the connection and go back to the module.
 

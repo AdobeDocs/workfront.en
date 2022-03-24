@@ -90,6 +90,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 1. In the Global Navigation Bar, select **Analytics**.
 1. In the left panel, select **People**.
 
+   ![](assets/people-area-classic-350x167.png)
+
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
    ![](assets/filters-select-date-range-350x344.png)

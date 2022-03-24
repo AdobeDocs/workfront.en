@@ -29,7 +29,7 @@ For information about locating the Portfolio Optimizer, see [Locate the Portfoli
 <ol>
 <li value="1"> <p> Go to the <strong>Projects</strong> area in the Global Navigation Bar. </p> </li>
 <li value="2"> Click the <strong>Portfolios</strong> tab and click the portfolio you want to view. </li>
-<li value="3"> <p> Click the <strong>Portfolio Optimization</strong> tab. </p> <p>The Portfolio Optimizer displays.</p> <p>  </p> </li>
+<li value="3"> <p> Click the <strong>Portfolio Optimization</strong> tab. </p> <p>The Portfolio Optimizer displays.</p> <p> <img src="assets/old-po-heading-350x169.png" alt="Old_PO_Heading.png" style="width: 350;height: 169;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 </ol>
 </div>
 -->
@@ -56,7 +56,8 @@ You can view financial information in the following areas of the Portfolio Optim
 
 * **Portfolio Header**: This area displays financial information gathered from all the projects in the portfolio. It displays on every tab of the Portfolio object. 
 * **Portfolio Finances for Selected Projects**: This area displays financial information gathered from the projects which are selected in the Portfolio Optimizer. You can add or remove projects and understand how this will affect the finances of the portfolio by viewing the information in this area. 
-* **Projects Finances**: This area displays the financial information of each project listed in the Portfolio Optimizer.
+* **Projects Finances**: This area displays the financial information of each project listed in the Portfolio Optimizer.  
+  ![New_Optimizer_with_Financial_Callouts.png](assets/new-optimizer-with-financial-callouts-350x141.png)
 
 ### The financial fields in the Portfolio Optimizer
 
@@ -91,9 +92,11 @@ Adobe Workfront calculates the financial fields in the portfolio header using in
   <tr> 
    <td>ROI (for portfolio)</td> 
    <td> <p>The Return on Investment (ROI) for the portfolio is calculated by taking into account the total Benefit of the Portfolio and the total of the Budgeted Costs of the projects. This is visible from any tab inside a Portfolio.</p> <p>The Portfolio ROI value is calculated by using the following formula:</p> <p><em>Portfolio ROI = (Total Benefit - Total Budgeted Cost)/ Total Cost * 100</em> </p> <p>For more information about how the ROI is calculated for a project, see the article <a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Calculate Return On Investment (ROI)</a> .</p> </td> 
-  </tr> <!-- 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> Legacy ROI (for portfolio)</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>The Legacy Return on Investment (ROI) for the portfolio is calculated by taking into account the Total Benefit of the portfolio and the Total of the Legacy budgeted costs of the projects. This is visible from any tab inside a portfolio.<br></p> <p>You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments. <br></p> <p>The portfolio Legacy ROI value is calculated by using the following formula:</p> <p><em>Portfolio Legacy ROI = [(Total Benefit - Total Legacy Budgeted Cost)/ Total Cost] * 100</em> </p> <p>For more information about how the ROI is calculated for a project, see the article<a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Calculate Return On Investment (ROI)</a>.</p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
+    <td> Legacy ROI (for portfolio)</td> 
+    <td> <p>The Legacy Return on Investment (ROI) for the portfolio is calculated by taking into account the Total Benefit of the portfolio and the Total of the Legacy budgeted costs of the projects. This is visible from any tab inside a portfolio.<br></p> <p>You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments. <br></p> <p>The portfolio Legacy ROI value is calculated by using the following formula:</p> <p><em>Portfolio Legacy ROI = [(Total Benefit - Total Legacy Budgeted Cost)/ Total Cost] * 100</em> </p> <p>For more information about how the ROI is calculated for a project, see the article<a href="../../../manage-work/projects/project-finances/calculate-roi.md" class="MCXref xref">Calculate Return On Investment (ROI)</a>.</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td>Aligned or Alignment Score </td> 
@@ -102,9 +105,11 @@ Adobe Workfront calculates the financial fields in the portfolio header using in
   <tr> 
    <td>Net Value</td> 
    <td> <p>The sum of all the Net Values of all the projects in the portfolio. This is visible from any tab inside a portfolio.</p> <p>For more information about how Net Value is calculated for a project, see the article <a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">Calculate Net Value</a>.</p> </td> 
-  </tr> <!-- 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-LightGray"> Legacy Net Value</td> 
-   <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-LightGray"> <p>The sum of all the Legacy Net Values of all the projects in the portfolio. This is visible from any tab inside a portfolio.<br></p> <p>You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments. <br></p> <p>For more information about how Net Value is calculated for a project, see the article <a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">Calculate Net Value</a>.</p> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
+    <td> Legacy Net Value</td> 
+    <td> <p>The sum of all the Legacy Net Values of all the projects in the portfolio. This is visible from any tab inside a portfolio.<br></p> <p>You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments. <br></p> <p>For more information about how Net Value is calculated for a project, see the article <a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">Calculate Net Value</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -137,9 +142,9 @@ Adobe Workfront calculates the financial fields in the portfolio header using in
   <tr> 
    <td>Remaining</td> 
    <td> <p>The remaining budget after all the Budgeted Costs on all the projects inside the portfolio have been subtracted from the Budget of the portfolio.</p> <p>The Remaining Portfolio Budget is calculated using the following formula:</p> <p><em>Remaining Portfolio Budget = Total Portfolio Budget - Total Budgeted Cost of All Portfolio Projects</em> </p> <!--
-     If you are using the Legacy Portfolio Optimizer, the Remaining Portfolio Budget is calculated by using the following formula:
+     <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">If you are using the Legacy Portfolio Optimizer, the Remaining Portfolio Budget is calculated by using the following formula:</p>
     --> <!--
-     <em>Remaining Portfolio Budget = Total Portfolio Budget - Total Legacy Budgeted Cost of All Portfolio Projects</em> 
+     <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><em>Remaining Portfolio Budget = Total Portfolio Budget - Total Legacy Budgeted Cost of All Portfolio Projects</em> </p>
     --> <p>The overall Budgeted Cost of all the projects in the portfolio is represented in the indicator bar under the Budget field. <!--
       If you are using the Legacy Portfolio Optimizer, the Legacy Budgeted Cost of each project is listed in the Cost column.
      --></p> <p>For more information about tracking costs on a project, see the article<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
@@ -169,39 +174,41 @@ You can customize only the project list area of the Portfolio Optimizer by using
 
 The following icons and options are available for the Portfolio Optimizer:
 
-<table cellspacing="15"> <!---->  
+<table cellspacing="15"> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
+ --> 
+ <col data-mc-conditions="QuicksilverOrClassic.Classic"> 
  <col> 
  <col> 
  <thead> 
   <tr> <!--
-    <strong>Icon in the Legacy Portfolio Optimizer</strong> 
+    <th data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"><strong>Icon in the Legacy Portfolio Optimizer</strong> </th>
    --> <!--
-    <strong>Icon in the</strong>
-    <strong>Portfolio Optimizer</strong> 
+    <th data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"><strong>Icon in the</strong><strong>Portfolio Optimizer</strong> </th>
    --> <!--
-    <strong>Name</strong> 
+    <th data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"><strong>Name</strong> </th>
    --> <!--
-    <strong>Function</strong> 
+    <th data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"><strong>Function</strong> </th>
    --> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr> <!-- 
-    <img src="assets/optimizer-set-priority.png" alt="optimizer_set_priority.png"> 
-   --> <!-- 
-    <img src="assets/set-priority-icon-portfolio-optimizer.png" alt="set_priority_icon_portfolio_optimizer.png"> 
+  <tr> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/optimizer-set-priority.png" alt="optimizer_set_priority.png"> </td>
    --> <!--
-    Set project priority
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/set-priority-icon-portfolio-optimizer.png" alt="set_priority_icon_portfolio_optimizer.png"> </td>
    --> <!--
-    Use this icon when you want to save the project order, based on their priority. 
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Set project priority</td>
+   --> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Use this icon when you want to save the project order, based on their priority. </td>
    --> 
   </tr> 
-  <tr> <!-- 
-    <img src="assets/optimizer-optimize-icon.png" alt="optimizer_optimize_icon.png"> 
-   --> <!-- 
-    <img src="assets/optimize-icon-portfolio-optimizer.png" alt="optimize_icon_portfolio_optimizer.png"> 
+  <tr> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/optimizer-optimize-icon.png" alt="optimizer_optimize_icon.png"> </td>
    --> <!--
-    Optimize portfolio
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/optimize-icon-portfolio-optimizer.png" alt="optimize_icon_portfolio_optimizer.png"> </td>
+   --> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Optimize portfolio</td>
    --> 
    <td>Use this icon to optimize the portfolio based on the following financial values of the projects:
     <ul>
@@ -212,36 +219,34 @@ The following icons and options are available for the Portfolio Optimizer:
      <li>ROI</li>
     </ul><p>For more information about optimizing your portfolio, see the article <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">Optimize projects in the Portfolio Optimizer </a> .</p></td> 
   </tr> 
-  <tr> <!-- 
-    <img src="assets/optimizer-undo-and-redo.png" alt="optimizer_undo_and_redo.png"> 
-   --> <!-- 
-    <img src="assets/undo-redo-icons-portfolio-optimizer.png" alt="undo_redo_icons_portfolio_optimizer.png"> 
+  <tr> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/optimizer-undo-and-redo.png" alt="optimizer_undo_and_redo.png"> </td>
    --> <!--
-    Undo/ Redo icons
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/undo-redo-icons-portfolio-optimizer.png" alt="undo_redo_icons_portfolio_optimizer.png"> </td>
    --> <!--
-    Use these icons to cancel or redo the changes you made to the Portfolio Optimizer before saving.
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Undo/ Redo icons</td>
+   --> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Use these icons to cancel or redo the changes you made to the Portfolio Optimizer before saving.</td>
    --> 
   </tr> 
-  <tr> <!-- 
-    <img src="assets/optimizer-show-unchecked.png" alt="optimizer_show_unchecked.png"> 
-    <img src="assets/optimizer-hide-unchecked.png" alt="optimizer_hide_unchecked.png">
-   --> <!-- 
-    <img src="assets/hide-show-unselected-portfolio-optimizer-142x74.png" alt="hide_show_unselected_portfolio_optimizer.png" style="width: 142;height: 74;"> 
+  <tr> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/optimizer-show-unchecked.png" alt="optimizer_show_unchecked.png"> <img src="assets/optimizer-hide-unchecked.png" alt="optimizer_hide_unchecked.png"></td>
    --> <!--
-    Show/ Hide unchecked projects
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/hide-show-unselected-portfolio-optimizer-142x74.png" alt="hide_show_unselected_portfolio_optimizer.png" style="width: 142;height: 74;"> </td>
    --> <!--
-    Use these icons to display or hide the projects in the portfolio that you have unchecked. 
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Show/ Hide unchecked projects</td>
+   --> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Use these icons to display or hide the projects in the portfolio that you have unchecked. </td>
    --> 
   </tr> 
-  <tr> <!-- 
-    <img src="assets/old-portfolio-optimizer-export-icon-170x140.png" alt="old_portfolio_optimizer_export_icon.png" style="width: 170;height: 140;"> 
-   --> <!-- 
-    <img src="assets/export-portfolio-optimizer-140x129.png" alt="export_portfolio_optimizer.png" style="width: 140;height: 129;"> 
-    <br> 
-    <!-- 
-    --> 
+  <tr> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/old-portfolio-optimizer-export-icon-170x140.png" alt="old_portfolio_optimizer_export_icon.png" style="width: 170;height: 140;"> </td>
    --> <!--
-    Export
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/export-portfolio-optimizer-140x129.png" alt="export_portfolio_optimizer.png" style="width: 140;height: 129;"> <br> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> </p>
+     --> </td>
+   --> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Export</td>
    --> 
    <td> <p>Use this icon to export the data in the Project Prioritization area of the Portfolio Optimizer. You can export it to the following formats:</p> 
     <ul> 
@@ -250,35 +255,30 @@ The following icons and options are available for the Portfolio Optimizer:
      <li>Tab Delimited</li> 
     </ul> </td> 
   </tr> 
-  <tr> <!-- 
-    <img src="assets/optimizer-settings-icon.png" alt="optimizer_settings_icon.png"> 
-   --> <!-- 
-    <img src="assets/preferences-portfolio-optimizer.png" alt="preferences_portfolio_optimizer.png"> 
+  <tr> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/optimizer-settings-icon.png" alt="optimizer_settings_icon.png"> </td>
    --> <!--
-    Preferences
-   --> <!-- 
-    <p>Use this icon to modify the project fields displayed in the columns of the Portfolio Optimizer, or to modify what projects you display in the Optimizer, based on their statuses. </p> 
-    <div class="tips" data-mc-autonum="<b>Tips: </b>">
-     <span class="autonumber"><span><b>Tips: </b></span></span> 
-     <ul> 
-      <li> <p>Not all&nbsp;Workfront standard fields are available to add in the columns. </p> </li> 
-     </ul> 
-     <ul> 
-      <li> <p>You can add only the custom fields that have a value other than zero in any of the projects in the portfolio.</p> </li> 
-     </ul> 
-    </div> 
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/preferences-portfolio-optimizer.png" alt="preferences_portfolio_optimizer.png"> </td>
+   --> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Preferences</td>
+   --> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <p>Use this icon to modify the project fields displayed in the columns of the Portfolio Optimizer, or to modify what projects you display in the Optimizer, based on their statuses. </p> <p>Tips:  
+      <ul> 
+       <li> <p>Not all&nbsp;Workfront standard fields are available to add in the columns. </p> </li> 
+      </ul> 
+      <ul> 
+       <li> <p>You can add only the custom fields that have a value other than zero in any of the projects in the portfolio.</p> </li> 
+      </ul> </p> </td>
    --> 
   </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!-- 
-     <img src="assets/optimizere-full-screen.png" alt="optimizere_full_screen.png"> 
-    --> <!-- 
-     <img src="assets/optimizere-full-screen.png" alt="optimizere_full_screen.png"> 
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+     <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/optimizere-full-screen.png" alt="optimizere_full_screen.png"> </td>
     --> <!--
-     Full screen
+     <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <img src="assets/optimizere-full-screen.png" alt="optimizere_full_screen.png"> </td>
     --> <!--
-     Use this icon to display the Portfolio Optimizer in full-screen mode, or to end the full-screen mode and return to the default view.
-     <br>
-     <p>Note:  This view is not supported in the new Portfolio Optimizer.</p>
+     <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Full screen</td>
+    --> <!--
+     <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Use this icon to display the Portfolio Optimizer in full-screen mode, or to end the full-screen mode and return to the default view.<br><p>Note:  This view is not supported in the new Portfolio Optimizer.</p></td>
     --> 
    </tr>
   --> 

@@ -52,22 +52,19 @@ You must have the following to perform the steps in this article:
    The object type that you select is the only type that you can associate with the form.
 
    <!--
-   <p>Click <b>New Custom Form</b>, then do one of the following:<!--
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <p>Click <b>New Custom Form</b>, then do one of the following:<!--
    <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [MAKE&nbsp;PREVIOUS STEP CLASSIC ONLY AND UNDRAFT THIS ONE AS NWE-ONLY WHEN THE STORY GOES TO PREVIEW. Later, on Prod release day, delete the first bullet.]</span>
    --></p>
    <ul>
    <li> <p>If you are using the Production environment, click the object type in the drop-down list that you want to associate with the custom form.</p> <p>The object type that you select is the only type that you can associate with the form.</p> </li>
    <li class="preview"> <p>If you are using the Preview environment, select at least one object type that you want to associate with the custom form, then click <b>Continue</b>.</p> <p> <img src="assets/choose-object-type-350x186.jpg" style="width: 350;height: 186;"> </p> </li>
-   </ul>
+   </ul> </li>
    -->
 
 1. On the **Form Settings** tab that opens, type a **Form Title** and (optional) a **Description** for the custom form.
 
    <!--
-   <p>(Optional) If you want to associate more object types with the form, click the plus sign after <b>Object Types</b>, then select the object type you want in the menu that displays.</p>
-   <p>You can also click the X on an object type to delete it from the form.</p>
-   <p> <img src="assets/add-remove-object-types-350x186.jpg" style="width: 350;height: 186;"> </p>
-   <p>For information about deleting object types from an existing (already saved) custom form, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md" class="MCXref xref">Delete object types on a custom form</a>.<br></p>
+   <li class="preview" value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <p>(Optional) If you want to associate more object types with the form, click the plus sign after <b>Object Types</b>, then select the object type you want in the menu that displays.</p> <p>You can also click the X on an object type to delete it from the form.</p> <p> <img src="assets/add-remove-object-types-350x186.jpg" style="width: 350;height: 186;"> </p> <p>For information about deleting object types from an existing (already saved) custom form, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md" class="MCXref xref">Delete object types on a custom form</a>.<br></p> </li>
    -->
 
 1. Click **Done**.
@@ -82,15 +79,15 @@ You must have the following to perform the steps in this article:
 
    If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-    <!--  
-    <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a>  
-    -->  
-  
-  * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
-  * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
-  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-  * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-  * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a> </li>   
+     -->   
+   
+   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
+   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
+   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
 
 ## Start editing a custom form
 
@@ -121,15 +118,15 @@ In general, we recommend minimizing the number of times you edit a custom form t
 
    If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-    <!--  
-    <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a>  
-    -->  
-  
-  * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
-  * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
-  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-  * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-  * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a> </li>   
+     -->   
+   
+   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
+   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
+   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
 
 ##  
 

@@ -58,16 +58,14 @@ If you have a Plan license, you can configure the Start button for a team in the
 
 To configure the Start button:
 
-1. Main Menu
-1. 
-1. Teams
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
 1. In the **Teams** drop-down menu, select a team.  
    or  
    Click **Create Team**.
 
-1. More
-1. 
-1. Edit
+1. Click the **More** icon ![](assets/more-icon.png), then click **Edit**. 
+
 1. Find the **Work On It** button section near the bottom of the Edit Teams page.
 1. Select the **Change the Work On It button to a Start button to automatically update the status of an item** check box.
 1. Select one or more statuses for each work item type. If you select more than one status, a drop-down menu appears when you click Start where you can choose the desired status.
@@ -81,13 +79,12 @@ To configure the Start button:
 
 To associate users with a Home Team:
 
-1. Main Menu
-1. 
-1. Users
-1. More
-1. Edit
-1. 
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Users**, then select the user or users you want to associate with a Home Team.
+1. Click the **More** menu, then select **Edit**.  
+   ![](assets/user-settings-nwe-350x291.png)
+
 1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
 
 1. Click **Save Changes**.  

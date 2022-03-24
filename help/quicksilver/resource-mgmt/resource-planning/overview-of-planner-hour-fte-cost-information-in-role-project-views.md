@@ -38,11 +38,11 @@ Consider the following when budgeting resources using the Resource Planner:
 
 * Budgeting allocations for your resources in the Resource Planner is done in the following ways:
 
-  * Manually
+   * Manually
 
-    Or
-  
-  * Automatically, by using the project and role options in the **View by Project** and **View by Role** views.
+     Or
+   
+   * Automatically, by using the project and role options in the **View by Project** and **View by Role** views.
 
   For more information, see [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md). 
 

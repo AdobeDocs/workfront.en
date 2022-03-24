@@ -20,9 +20,9 @@ For a list of all changes available with the 20.3 release, see [20.3 release ove
 
 Now, when the system administrator creates custom forms fields that are configured for formatting, you can format text in those fields where you use them the most: in lists throughout Workfront. Instead of going into the Details area to format text in the custom form, you can click a field in a list and apply Bold, Italics, and Underline to text there.
 
-Note that this functionality is available only in the updated lists. For more information about updated lists, see Get started with lists in&nbsp;Adobe Workfront.
+Note that this functionality is available only in the updated lists. For more information about updated lists, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-For information about how a Workfront administrator creates text fields with formatting, see Create or edit a custom form.
+For information about how a Workfront administrator creates text fields with formatting, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ```<iframe class="vimeo-player_0" src="assets/434818101?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -60,7 +60,7 @@ In addition to an updated look and feel, the following improvements are availabl
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see “New Edit Object box” (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-For information about the new Edit Project box, see Edit projects.
+For information about the new Edit Project box, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ```<iframe class="vimeo-player_0" src="assets/430814318?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -76,7 +76,7 @@ The new Summary panel to the right of the documents list is now available with a
 
 Some actions are currently unavailable but will be added in a future release. These actions include the proofing workflow.
 
-For more information, see Summary for documents overview.
+For more information, see [Summary for documents overview](../../../documents/managing-documents/summary-for-documents.md).
 
 ```<iframe class="vimeo-player_0" src="assets/434793918?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -95,7 +95,7 @@ Look for the following improvements in the Document Details page:
 * Larger preview thumbnail, allowing you to easily identify the document
 * Global Edit icon added, giving you the ability to edit multiple fields at once.
 
-For more information, see Document Details overview.
+For more information, see [Document Details overview](../../../documents/managing-documents/document-details-overview.md).
 
 ```<iframe class="vimeo-player_0" src="assets/434794293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

@@ -103,6 +103,8 @@ You must have the following access to perform the steps in this article:
    * **Last Viewed Date**: Displays the date when the report was viewed last
 
 1. Select a modifier for your field, then specify a value, when prompted.  
+   ![report_usage_filter_Statistics.png](assets/report-usage-filter-statistics-350x130.png)
+
 1. Click **Save Filter**.  
    This displays a list of reports that meet the usage information you have defined.  
    You can also build a report for the report object and use this filter in the report.  

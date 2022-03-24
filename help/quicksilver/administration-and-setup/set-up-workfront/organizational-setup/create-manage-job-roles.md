@@ -38,15 +38,13 @@ You must have the following:
 
 ## Create a job role
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. In the left panel, click**Job Roles.**
 1. Click **New Job Role.**
 
    <!--
-   <img src="assets/new-job-role-box-nwe-350x309.png" style="width: 350;height: 309;">
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/new-job-role-box-nwe-350x309.png" style="width: 350;height: 309;"> </p>
    -->
 
    ![](assets/new-job-role-box-with-currency-override-nwe-350x312.png)
@@ -124,9 +122,8 @@ You must have the following:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="deleting-a-job-role"></a>Delete a job role</h2>
-<ol data-mc-continue="false"> Click the <strong>Main Menu</strong> icon
-<img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong>
-<img src="assets/gear-icon-settings.png">.
+<ol data-mc-continue="false">
+<li value="1" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.</li>
 <li value="2">Click<strong>Job Roles.</strong></li>
 <li value="3">Select the job role that you want to delete, then click <strong>Delete.</strong></li>
 <li value="4">If there are any objects (users, tasks, issues) that&nbsp;are assigned to the job role, do one of the following:<br>

@@ -50,11 +50,16 @@ You must have the following access to perform the steps in this article:
 
 1. Upload an image to a web site or server external of Adobe Workfront. You must be able to access the image using your web browser.
 
-   ``` ```**Tips: **``````
-
-   * Every browser type is different but all are capable of displaying URLs.
-   * Avoid using images that are uploaded to Workfront. Because images stored in Workfront are not publicly available and have an access key that expires after a period of time, these images stop displaying in the view over time.
-   * An image saved on your computer does not have an inherent URL. Find a site that provides image hosting and host your image there. Your organization might already have such a site.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * Every browser type is different but all are capable of displaying URLs.
+   >   * Avoid using images that are uploaded to Workfront. Because images stored in Workfront are not publicly available and have an access key that expires after a period of time, these images stop displaying in the view over time.
+   >   * An image saved on your computer does not have an inherent URL. Find a site that provides image hosting and host your image there. Your organization might already have such a site.
+   >   
+   >
 
 1. Using your web browser, go to the image that you saved.
 1. Obtain the image's URL by doing the following:

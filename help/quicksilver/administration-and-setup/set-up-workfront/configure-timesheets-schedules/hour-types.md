@@ -20,9 +20,9 @@ There are two sets of hour types:
 
   The following default project-specific hour types are always available:
 
-  * Project Time
-  * Task Time
-  * Issue Time
+   * Project Time
+   * Task Time
+   * Issue Time
 
   The Workfront administrator determines which project-specific hour types are made available, as described in [Define hour types and availability for timesheets](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 

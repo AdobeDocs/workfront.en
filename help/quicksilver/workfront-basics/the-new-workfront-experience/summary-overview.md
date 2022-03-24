@@ -126,17 +126,17 @@ You must have the following access to perform the steps in this article:
 1. 
    (Optional)&nbsp;To close the Summary panel, do one of the following:
 
-  * In a task or issue list, click the **Open Summary** icon ![](assets/summary-panel-icon.png)
+   * In a task or issue list, click the **Open Summary** icon ![](assets/summary-panel-icon.png)
 
-    Or
+     Or
 
-    Click the **X** icon in the upper-right corner of the Summary panel. 
-  
-  * In the Submitted section of the Requests area, click the **Close Summary** icon ![](assets/close-summary-with-text-nwe.png)
+     Click the **X** icon in the upper-right corner of the Summary panel. 
+   
+   * In the Submitted section of the Requests area, click the **Close Summary** icon ![](assets/close-summary-with-text-nwe.png)
 
-    Or
+     Or
 
-    Click the **X** icon in the upper-right corner of the Summary panel.
+     Click the **X** icon in the upper-right corner of the Summary panel.
 
 ## Percent Complete
 

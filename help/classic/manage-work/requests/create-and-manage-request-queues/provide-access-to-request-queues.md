@@ -52,12 +52,14 @@ Before the request queue is available for users in the Requests area, you must c
 
 ## Provide access to a Request Queue
 
-1. Go to the project where you want to provide access to the request queues. 
-   ``` ```**Note: **`````` Only projects with a status of Current are visible in the Requests area of the Global Navigation bar. 
+1. Go to the project where you want to provide access to the request queues.
 
-1. Click **More**, and then **Queue Setup**. 
+   >[!NOTE]
+   >
+   >Only projects with a status of Current are visible in the Requests area of the Global Navigation bar.
 
-1. Select the **Queue Details** sub-tab. 
+1. Click **More**, and then **Queue Setup**.
+1. Select the **Queue Details** sub-tab.
 1. Select **Publish as Help Request Queue**&nbsp;to designate the project as a Request Queue.
 
    ![](assets/screen-shot-2013-09-19-at-10.54.37-am-350x123.png)

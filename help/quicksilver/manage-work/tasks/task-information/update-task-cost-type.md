@@ -50,16 +50,17 @@ You must have the following access to perform the steps in this article:
 ## Configure the Cost Type of an individual task
 
 1. Go to the task where you want to configure the Cost Type. 
-1. Click **Task Details** in the left panel, then expand the **Finance** area.  
-
+1. Click **Task Details** in the left panel, then expand the **Finance** area. 
 1. Double click **Cost Type** and select the cost type that you want to apply to the task.
+
+   ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
    Select from the following options:
 
-  * No Cost
-  * Fixed Hourly
-  * User Hourly
-  * Role Hourly
+   * No Cost
+   * Fixed Hourly
+   * User Hourly
+   * Role Hourly
 
    For more information about each task cost type, see [Track costs](../../../manage-work/projects/project-finances/track-costs.md).
 

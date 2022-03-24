@@ -46,8 +46,7 @@ You must have the following access to perform the steps in this article:
    You can do either of the following to navigate to a user's home page:
 
    * Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas of the Workfront interface, such as in a comment made by the user.
-   * People,
-   * People
+   * In the Global Navigation Bar, click **People,**&nbsp;then click the **People**&nbsp;tab to view a complete list of users.
 
 1. On the **Updates**&nbsp;tab, click in the text box field.
 

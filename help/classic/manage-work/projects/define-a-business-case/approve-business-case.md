@@ -113,6 +113,8 @@ To build a report for projects which are pending approval of their Business Case
 
    Notice that all projects in the report are in the status of **Requested**.
 
+   ![requested_projects_report.png](assets/requested-projects-report-350x78.png)
+
 1. Click the name of a project in the report to open it.
 1. Select the **Project Details** tab.  
 1. Select the **Business Case** subtab. 

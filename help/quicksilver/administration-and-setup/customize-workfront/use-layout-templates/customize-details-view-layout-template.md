@@ -82,12 +82,12 @@ You must have the following to perform the steps in this article:
 
 1. In the **Details** section, do any of the following to customize what users see in the Details view:
 
-  * Drag any section headers ![](assets/move-icon---dots.png) to change their order.
-  * Enable or disable options under **Overview** and **Custom Forms** to show or hide them.
+   * Drag any section headers ![](assets/move-icon---dots.png) to change their order.
+   * Enable or disable options under **Overview** and **Custom Forms** to show or hide them.
 
-    If you hide all fields in one of these sections, the entire section is hidden.
+     If you hide all fields in one of these sections, the entire section is hidden.
 
-    All of the fields are enabled by default.
+     All of the fields are enabled by default.
 
 1. Continue customizing the layout template.
 

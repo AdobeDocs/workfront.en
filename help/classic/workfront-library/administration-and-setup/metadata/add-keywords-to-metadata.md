@@ -13,7 +13,7 @@ Keyword metadata consists of terms that describe the attributes and content of a
 
 As a Workfront Library administrator, you can keep your organization's keyword metadata consistent by configuring a keyword picklist.
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **Setup**> **Keywords**.
 1. Click **Type to add main keyword,**type the term you want to add, then press **Enter**.

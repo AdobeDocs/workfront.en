@@ -134,12 +134,12 @@ You must have the following before you can start:
 
    Notice the following changes in the alignment chart:
 
-  * Connected goals previously eliminated by the filter now display in the alignment chart. 
-  * The filter in the upper-right corner is outlined in yellow to indicate that it is currently not applied.
+   * Connected goals previously eliminated by the filter now display in the alignment chart. 
+   * The filter in the upper-right corner is outlined in yellow to indicate that it is currently not applied.
 
-    ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
-    A Reapply filter link displays to the left of the filter name.
+     A Reapply filter link displays to the left of the filter name.
 
 1. (Optional)&nbsp;Click **Reapply filter** to return to the original results and display the goal hierarchy.
 1. (Optional) Hover over the progress indicator to understand where the goal progress should be for the current day.

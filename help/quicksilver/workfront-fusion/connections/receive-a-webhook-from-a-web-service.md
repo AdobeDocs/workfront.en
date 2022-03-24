@@ -60,9 +60,9 @@ You must have the following access to use the functionality in this article:
 
 1. Log in to the web service and do the following there:
 
-  1. In the Settings area for the web service, create a webhook.
-  1. Paste the address you copied to your clipboard in step 3 .
-  1. Select the event that will trigger the webhook.
+   1. In the Settings area for the web service, create a webhook.
+   1. Paste the address you copied to your clipboard in step 3 .
+   1. Select the event that will trigger the webhook.
 
 1. In the Workfront Fusion scenario, specify the event or events that you want to trigger the Custom webhook module.
 1. Run the scenario.

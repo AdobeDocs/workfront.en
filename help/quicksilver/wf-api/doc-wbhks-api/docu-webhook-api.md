@@ -761,9 +761,9 @@ Problems may arise when processing API requests. This should handled in a consis
 
 * Include an error code in the response header. Error codes include:
 
-  * 403 - Forbidden. Indicates that either the request tokens are missing or invalid, or that credentials associated with the tokens don’t have access to the specified resource. For OAuth-based webhook providers, Workfront will attempt to retrieve new access tokens.
-  * 404 - Not found. Indicates that the specified file or folder doesn’t exist.
-  * 500 - Internal Server Error. Any other type of error.
+   * 403 - Forbidden. Indicates that either the request tokens are missing or invalid, or that credentials associated with the tokens don’t have access to the specified resource. For OAuth-based webhook providers, Workfront will attempt to retrieve new access tokens.
+   * 404 - Not found. Indicates that the specified file or folder doesn’t exist.
+   * 500 - Internal Server Error. Any other type of error.
 
 * Describe the error in the response body using the following format:
 
@@ -879,21 +879,21 @@ Tests the following endpoints: Token Endpoint URL
 
 * Version 1.0 (Release Date - May, 2015)
 
-  * Initial Specification
+   * Initial Specification
 
 * Version 1.1 (Release Date - June, 2015)
 
-  * Updated /uploadInit - Added documentId and documentVersionId
+   * Updated /uploadInit - Added documentId and documentVersionId
 
 * Version 1.2 (Release Date - October, 2015)
 
-  * Added /createFolder
+   * Added /createFolder
 
 * Upcoming versions (Release Date - TBD)
 
-  * Added /delete
-  * Added /rename
-  * Added /serviceInfo
-  * Added /customAction
-  * Add pagination and parentId to /search
+   * Added /delete
+   * Added /rename
+   * Added /serviceInfo
+   * Added /customAction
+   * Add pagination and parentId to /search
 

@@ -11,8 +11,7 @@ description: When you no longer want an item in a folder or in your My Content a
 
 When you no longer want an item in a folder or in your My Content area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the item you want to remove is located.
 

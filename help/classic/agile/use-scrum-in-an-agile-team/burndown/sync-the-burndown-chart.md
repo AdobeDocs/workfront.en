@@ -57,6 +57,8 @@ iteration
    <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Conditional) On a project, ensure that you are viewing the project in an agile view, as described in <a href="../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md" class="MCXref xref">Manage a project in the Agile View</a>.</li>
    -->
 
+1. 
+
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    On a project, click
@@ -66,6 +68,7 @@ iteration
    </MadCap:conditionalText>
    -->
 
-1. Iteration Actions
-1. Synchronize Burndown Data
+   Click **Iteration Actions**.
+
+1. Click **Synchronize Burndown Data**.
 

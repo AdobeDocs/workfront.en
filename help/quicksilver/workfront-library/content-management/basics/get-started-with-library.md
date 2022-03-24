@@ -41,7 +41,10 @@ If you have Manager or higher access to Workfront Library, you can upload conten
 ## Tour of Workfront Library
 
 Once you have your assigned access level, you can open Workfront Library from Workfront. Click the **Workfront Library** icon in the upper-right corner of the Global Navigation Bar.
-In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.  ![](assets/library-left-panel---new-350x217.png)
+
+In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
+
+![](assets/library-left-panel---new-350x217.png)
 
 Depending on your access level, you can access the following areas of Workfront Library:
 

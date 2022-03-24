@@ -77,10 +77,10 @@ Consider the following as you configure your Home Calendar with your Microsoft O
 
 1. (Optional) Under each Microsoft account you have added in the previous step, select **View** or **Sync**:
 
-  * **View**: This is a read-only option that displays Microsoft calendar events on your Home Calendar.
-  * **Sync**: This option allows a two-way sync between your Microsoft and Home calendars. In other words,&nbsp;Workfront Home Calendar items export to your Microsoft calendar and Microsoft calendar items import to your Workfront Home Calendar in real time.
+   * **View**: This is a read-only option that displays Microsoft calendar events on your Home Calendar.
+   * **Sync**: This option allows a two-way sync between your Microsoft and Home calendars. In other words,&nbsp;Workfront Home Calendar items export to your Microsoft calendar and Microsoft calendar items import to your Workfront Home Calendar in real time.
 
-    ![](assets/view-sync-checkboxes-qs.png)
+     ![](assets/view-sync-checkboxes-qs.png)
 
 1. (Optional) Under your Workfront account or an integrated account, select the associated calendars you want&nbsp;to view on your Home Calendar (such as your PTO, Birthdays, or Holidays calendar) then click your browser's Refresh or Reload button to see your changes.  
 
@@ -88,9 +88,9 @@ Consider the following as you configure your Home Calendar with your Microsoft O
 
 1. Configure&nbsp;the following options:
 
-  * **My Work Days:**&nbsp;Select the days you work.
-  * **My Usual Start Time:**&nbsp;Select the time you start your work day.
-  * **My Usual End Time:**&nbsp;Select the time you end your work day.
+   * **My Work Days:**&nbsp;Select the days you work.
+   * **My Usual Start Time:**&nbsp;Select the time you start your work day.
+   * **My Usual End Time:**&nbsp;Select the time you end your work day.
 
    Workfront uses these three settings to calculate the number of hours you work in a week. This number affects the Allocation bar, which helps you track your workload against your available work hours.&nbsp;For more information, see [Allocation bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#understanding-the-allocation-of-time) in&nbsp;the article [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 

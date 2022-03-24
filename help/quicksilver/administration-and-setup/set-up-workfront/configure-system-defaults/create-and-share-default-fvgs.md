@@ -42,11 +42,11 @@ You must have the following to perform the steps in this article:
 
 1. Do any of the following, depending on whether you are creating or editing a filter, view, or grouping:
 
-  * Click **Interface** > **Filters**.
-  
-  * Click **Interface >** **Views**.
-  
-  * Click **Interface** > **Groupings**.
+   * Click **Interface** > **Filters**.
+   
+   * Click **Interface >** **Views**.
+   
+   * Click **Interface** > **Groupings**.
 
 1. If you’re creating a filter, view, or grouping, click **New Filter**, **New View**, or **New Grouping,** then select the object type you want to associate the new filter, view, or grouping with.
 
@@ -58,9 +58,9 @@ You must have the following to perform the steps in this article:
 
    For information about available options, see one of the following articles:
 
-  * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
-  * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
-  * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+   * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
+   * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
 1. Click the **Save** option near the lower-left corner.
 
@@ -97,16 +97,16 @@ These steps explain how to make filters, views, and groupings available from the
 
 1. Do any of the following, depending on whether you are deleting a filter, view, or grouping:
 
-  * Click **Interface** > **Filters**
-  
-  * Click **Interface >****Views**
-  
-  * Click **Interface** > **Groupings**
+   * Click **Interface** > **Filters**
+   
+   * Click **Interface >****Views**
+   
+   * Click **Interface** > **Groupings**
 
 1. Select one or more items in the list, then click **Delete**.
 1. See one of the following sections for detailed information about configuring a filter, view, or grouping.
 
-  * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
-  * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
-  * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+   * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
+   * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 

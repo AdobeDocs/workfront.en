@@ -29,7 +29,9 @@ If you cannot access Workfront Proof&nbsp;as discussed in this section, contact 
 
 By default, only users with administrative rights within Workfront can access Workfront Proof as described in this section.&nbsp;
 
-1. Click Proofing ![](assets/proofing-main-menu.png)in the Main Menu ![](assets/main-menu-icon.png). You are automatically logged in to your Workfront Proof Premium account.
+1. Click Proofing ![](assets/proofing-main-menu.png)in the Main Menu ![](assets/main-menu-icon.png).
+
+   You are automatically logged in to your Workfront Proof Premium account.
 
 For information about functionality available after you are logged in to your Workfront Proof Premium account, see the [Workfront Help Site](https://support.workfront.com).
 

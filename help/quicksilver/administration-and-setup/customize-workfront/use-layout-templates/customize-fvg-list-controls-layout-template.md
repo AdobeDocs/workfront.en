@@ -56,35 +56,35 @@ You must have the following to perform the steps in this article:
    >
    >If you select Projects as the list to customize, then disable Projects I'm On or Projects I Own in the Filter section, users will no longer see or be able to use that filter:
    >
-   >  
-   >  
-   >  * In the list of filters that displays when they click the filter icon ![](assets/filter-nwepng.png) above a list:
-   >  
-   >  
-   >    ![](assets/disable-filters-projects-im-on-or-own-350x249.png)   >  
-   >  
+   >   
+   >   
+   >   * In the list of filters that displays when they click the filter icon ![](assets/filter-nwepng.png) above a list:
+   >   
+   >   
+   >     ![](assets/disable-filters-projects-im-on-or-own-350x249.png)   >   
+   >   
 
-   >  
-   >  * In the header on the Projects area header:
-   >  
-   >  
-   >    ![](assets/disable-filter-pills-350x115.png)   >  
-   >  
+   >   
+   >   * In the header on the Projects area header:
+   >   
+   >   
+   >     ![](assets/disable-filter-pills-350x115.png)   >   
+   >   
 
-   >  
-   >  
-   >    For more information about these filters in the Projects area header, see the section [Project lists under a Portfolio](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md#project) in the article [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
-   >  
-   >  
+   >   
+   >   
+   >     For more information about these filters in the Projects area header, see the section [Project lists under a Portfolio](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md#project) in the article [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
+   >   
+   >   
    >
 
 1. (Optional) If you want to change the default filter, view, or grouping for the layout template, hover over the filter, view, or grouping, then click **Set as default**.
 
    The defaults you choose determine which Filter, View, and Grouping users will see in lists throughout Workfront when the layout template is assigned to them. If you don’t change these defaults, users see all lists as follows:
 
-  * **Filters**: All
-  * **View**: Standard (where applicable; some lists do not have this view)
-  * **Grouping**: Nothing
+   * **Filters**: All
+   * **View**: Standard (where applicable; some lists do not have this view)
+   * **Grouping**: Nothing
 
    You can hide the options All, Standard, and Nothing after selecting different defaults (see Step 5), but they can’t be deleted.
 

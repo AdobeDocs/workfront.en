@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the document list, and select a proof.
 1. On the **Details** tab in the panel to the right, click the version, then click **Preview** in the drop-down list that appears.
 
-1. ![](assets/version-hover-329x690.png)
+   ![](assets/version-hover-329x690.png)
 
 ## View a previous proof version
 
@@ -55,5 +55,5 @@ Any user in Workfront with View access to the document can view past versions of
 1. Find the proof you need.
 1. On the **Details** tab in the panel to the right, click the version, then click **View****Proof**.
 
-1. ![document_version_proof_view_.png](assets/document-version-proof-view-.png)
+   ![document_version_proof_view_.png](assets/document-version-proof-view-.png)
 

@@ -24,7 +24,7 @@ You can make the following modifications to a taxonomy field:
 
 Any changes you make to the taxonomy are applied to the metadata of all new assets uploaded. The changes do not apply to assets already in Workfront Library. However, when a user opens an asset that was in Workfront library prior to the changes you made to the taxonomy, the modified taxonomy is applied to the asset's Detail panel.
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **Setup >****Taxonomy**.
 1. Hover over the field you want to edit, then click **Edit**.

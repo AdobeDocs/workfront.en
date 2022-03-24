@@ -31,8 +31,8 @@ In addition to the considerations below, also see [Overview of sharing permissio
 * Sharing a document is similar to sharing any other object in Workfront. For information about how to share documents in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * You can grant the following permissions to documents:
 
-  * View
-  * Manage
+   * View
+   * Manage
 
 * You can also share a document publicly or system-wide.
 

@@ -49,7 +49,9 @@ You can select filters that display items that are ready for you to work on, or 
 
 This article describes how to use the filters in the Home area to view items that you are currently working on or might consider starting to work on.&nbsp;For information about all filters in the Home area, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. Click the **Filter** drop-down menu.
 
@@ -73,48 +75,59 @@ This article describes how to use the filters in the Home area to view items tha
 
 You can access a request assigned to your team directly from the Home area. For more information about team requests, see [Team requests overview](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. In the **Work List**area, click to expand the&nbsp;**Team Requests**grouping.
 
    If there are no requests assigned to your team, the grouping does not display.
+
+   ![](assets/getting-started-team-request-350x236.png)
 
 1. Click the team name.  
    The **Team Requests** tab displays and shows all requests assigned to your team. For more information about working with team requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 ## Reassign a request
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. In the **Work List** area, select the request you want to reassign.  
 
 1. Click the **More** icon, then click **Reassign**.
 
-1. The work item must be in the Ready to Start or Not Ready state. If a work item has been started, click **Convert to work request** in the **More** menu to change it back to Ready to Start or Not Ready.  
+   >[!TIP]
+   >
+   >The work item must be in the Ready to Start or Not Ready state. If a work item has been started, click **Convert to work request** in the **More** menu to change it back to Ready to Start or Not Ready.
 
-1. Reassign this work request to
-1. Reassign
+1. In the **Reassign this work request to** field, begin typing the name of the user you want to assign, then click the name when it appears in the drop-down menu.
+1. Click **Reassign**.
 1. If a task's status is changed to New or In Progress after it was completed, you must unassign the user, save the task, then reassign the user in order for the task to reappear in their Home Work List.
 
 ## Reply to a request
 
 You can reply to a request to further clarify the request or to propose a new date. If you reply to a request, you cannot reply again or reassign the request until you receive a response.
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. In the **Work List** area, select the request you want to reply to.
-1. More
-1. Reply
-1. 
-1. Reply to request
-1. Propose new date
-1. Reply
+1. Click the **More** icon, then click **Reply**.  
+
+1. In the **Reply to request** box, specify your reply.
+1. (Optional) Click **Propose new date**, then&nbsp;select a date when you commit to complete the work item.
+1. Click **Reply**.
 
 ## Work on a request
 
 When you click the Work On It button, you are indicating to the user who submitted the request and to any other user who might be assigned to the request that you are going to start working on the request. For more information about working on requests, see&nbsp; [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. In the **Work List** area, select the request you want to work on, then click **Work On It**.  
    Information about the issue is displayed in the right panel.
@@ -123,12 +136,14 @@ When you click the Work On It button, you are indicating to the user who submitt
 
 If you decide that you should not be working on the request, you can either convert the task or issue back to a request or remove it from your list.
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. In the **Work List**, point to the item waiting to be worked on.
-1. More
-1. 
-1. 
+1. Click the **More** menu icon.  
+   ![](assets/managing-work-request-reassign-350x179.png)
+
 1. Select from the following options:
 
    * **Convert to work request:**&nbsp;Select this option to convert the work item back to a work request.   

@@ -45,5 +45,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) In the **When I log in, show:** field, select the default landing page for your Workfront web application.
 1. Click the **In the Global Nav bar, show:** drop-down list, then select the areas that you want to show in the Main Menu.
 
+   ![](assets/edit-person-preferences-qs-350x407.png)
+
 1. Click **Save Changes**.
 

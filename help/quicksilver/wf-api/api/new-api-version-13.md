@@ -80,7 +80,8 @@ For more information on access levels, see [How access levels work](../../admini
 ### BreadCrumb
 
 A BreadCrumb object represents an element in the parent/child hierarchy of a Workfront work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
-For more information on breadcrumbs, see [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md) 
+
+For more information on breadcrumbs, see [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table cellspacing="15"> 
  <col data-mc-conditions=""> 

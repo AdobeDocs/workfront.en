@@ -347,9 +347,9 @@ Administrators and Billing Administrators can edit the permission profiles of al
 
 1. To find the user to edit, do one of the following:&nbsp;
 
-  * Navigate to&nbsp;**Account Settings,**then click the&nbsp;**Users**tab.
-  
-  * Go to the&nbsp;**Contacts**page.
+   * Navigate to&nbsp;**Account Settings,**then click the&nbsp;**Users**tab.
+   
+   * Go to the&nbsp;**Contacts**page.
 
 1. Click the user's name whose permissions you want to edit.**** ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 

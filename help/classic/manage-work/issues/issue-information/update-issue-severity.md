@@ -58,8 +58,10 @@ To update the severity of an issue in the Issue Details tab:
 
 1. Go to the issue whose severity you want to update.
 1. Select the **Issue Details** tab.  
-1. Select the **Overview** sub-tab.  
-1. Click **Edit Overview**.&nbsp;  ![](assets/s1.png)
+1. Select the **Overview** sub-tab. 
+1. Click **Edit Overview**.&nbsp;
+
+   ![](assets/s1.png)
 
 1. Select the appropriate **Severity** from the drop-down menu.
 

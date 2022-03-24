@@ -48,14 +48,14 @@ As a reviewer, you can work with multiple proofs in a folder without leaving the
 
 1. (Optional) Do any of the following with the proofs in the folder while you are using the proofing viewer:
 
-  * To search the folder for the proof you want, click the **Search** box in the upper-right corner above the list and start typing part of the name of the proof, then click the proof when it appears.
-  * To sort the proofs by contents of a column, click **Name**, **Created**, **Status**, or&nbsp;**Owner** above the list.&nbsp;
-  
-  * To compare two proofs in the folder, open one proof, then select the other one in the folder list and click the Compare button on the far right of that proof (see [Compare proofs in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)&nbsp;if you need more information about comparing two proofs).
+   * To search the folder for the proof you want, click the **Search** box in the upper-right corner above the list and start typing part of the name of the proof, then click the proof when it appears.
+   * To sort the proofs by contents of a column, click **Name**, **Created**, **Status**, or&nbsp;**Owner** above the list.&nbsp;
+   
+   * To compare two proofs in the folder, open one proof, then select the other one in the folder list and click the Compare button on the far right of that proof (see [Compare proofs in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)&nbsp;if you need more information about comparing two proofs).
 
-    ![Compare_button_in_folder_list_in_proofing_viewer.png](assets/compare-button-350x67.png)
+     ![Compare_button_in_folder_list_in_proofing_viewer.png](assets/compare-button-350x67.png)
 
-    While you are comparing proofs, if you want to switch to a new proof, either on the left or right side of the proofing viewer, click the Compare button above the proof.
+     While you are comparing proofs, if you want to switch to a new proof, either on the left or right side of the proofing viewer, click the Compare button above the proof.
 
-    ![](assets/mceclip0-350x126.png)
+     ![](assets/mceclip0-350x126.png)
 

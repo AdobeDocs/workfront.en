@@ -67,8 +67,8 @@ You can add a new column in the People view to view which users can generate pro
 1. Click the **People** tab.
 1. In the **View** drop-down menu, do either of the following:
 
-  * To add this information to an existing view, select the view you want to customize,&nbsp;then click **Customize View**.
-  * To add this information to a new view, click **New View**.
+   * To add this information to an existing view, select the view you want to customize,&nbsp;then click **Customize View**.
+   * To add this information to a new view, click **New View**.
 
 1. Click **Add Column**.
 1. In the available field, expand **User**, then click **Has Proof License**.

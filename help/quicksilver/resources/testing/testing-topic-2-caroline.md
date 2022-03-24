@@ -61,8 +61,8 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 
 1. Continue on to one of the following sections in this article:
 
-  * [Create users in Workfront](#create) 
-  * [Create system administrators in Workfront](#create2)
+   * [Create users in Workfront](#create) 
+   * [Create system administrators in Workfront](#create2)
 
 ## Create users in Workfront
 

@@ -54,12 +54,12 @@ If you are logged in as an Authorized Support Contact, you can contact Workfront
 
 1. (Optional) Attach a file, such as an image or video file.
 
-  1. At the bottom of the form, click **Upload File**.
-  1. Click **Upload File**, then browse for and select the desired file.
+   1. At the bottom of the form, click **Upload File**.
+   1. Click **Upload File**, then browse for and select the desired file.
 
-     ![](assets/supportselectfile-350x368.png)
+      ![](assets/supportselectfile-350x368.png)
 
-  1. Click **Done** to upload the file to the case.
+   1. Click **Done** to upload the file to the case.
 
 1. Click **Submit** to submit the case to Workfront Customer Support.
 

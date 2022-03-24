@@ -33,7 +33,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
    * View
    * Manage
-   
+
      ![](assets/screen-shot-2014-08-18-at-9.15.55-am.png) ![](assets/screen-shot-2014-08-18-at-9.16.04-am.png)
 
 * You can also share a document publicly or system-wide.

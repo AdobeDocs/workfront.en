@@ -66,8 +66,8 @@ Any work assigned to the team prior to deactivation remains assigned. We recomme
 
 When using request queues, if you deactivate a team assigned as the default team in a routing rule, the team remains and requests are still routed to the deactivated team. We recommend updating routing rules with active teams before you deactivate the team.
 
-1. People
-1. Teams
+1. Click ```People``` in the Global Navigation Bar.
+1. Click the ```Teams``` tab, then in the drop-down list,&nbsp;select the team that you want to edit.
 1. Uncheck the ```Is Active``` box.
 1. Click ```Save changes```.
 

@@ -10,7 +10,7 @@ description: You can connect projects with initiatives to ensure your strategic 
 
 >[!IMPORTANT]
 >
->Your organization must purchase an additional license for the Adobe Workfront Scenario Planner so that you can view initiative information on a project. For information about obtaining the Workfront Scenario Planner, see Access needed to use the Adobe Workfront Scenario Planner .
+>Your organization must purchase an additional license for the Adobe Workfront Scenario Planner so that you can view initiative information on a project. For information about obtaining the Workfront Scenario Planner, see [Access needed to use the Adobe Workfront Scenario Planner](../scenario-planner/access-needed-to-use-sp.md) .
 
 You can connect projects with initiatives to ensure your strategic plans and the actual work are in sync. As you outline your strategic plans and initiatives in the Scenario Planner and you plan the actual work in a project, you can ensure your resources on both the project and the initiatives match, so you won't either overallocate or underutilize them.
 
@@ -22,8 +22,8 @@ Before you begin, you must have the following:
 * Required job role allocations for the initiative. 
 * Tasks or issues on the project that have Planned Hours and are assigned to one of the following:
 
-  * Job roles
-  * Users associated with job roles
+   * Job roles
+   * Users associated with job roles
 
 ## Connect projects and initiatives
 
@@ -35,7 +35,7 @@ You can connect projects with initiatives by doing one of the following:
 
 * Import projects into a plan, as new initiatives
 
-  For more information, see Import projects to plans in the Adobe Workfront Scenario Planner.
+  For more information, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md).
 
 * Publish initiatives to projects
 
@@ -57,22 +57,28 @@ Both processes create a connection between the projects and their corresponding 
 
 * You can view initiative job role allocation on a linked project in the following areas of the project:
 
-  * Scenario Planner section of the Project&nbsp;Details area on a project. For more information, see the following articles:
-  * ```<li> <p><a href="../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref" xrefformat="{para}">Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner</a> </p> </li>``` ```<li> <p><a href="../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref" xrefformat="{para}">Manage information in the project Overview area</a> </p> </li>``` 
-  
-  * You cannot see job role information from the project and the initiative side-by-side in the Scenario Planner section of the Project Details.
-  * The Role Allocation panel in the following areas:
+   * Scenario Planner section of the Project&nbsp;Details area on a project. For more information, see the following articles:
 
-    * Workload Balancer of the project
+      * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md) 
+      * [Manage information in the project Overview area](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
-      For information about how to view and reconcile the allocations of roles between the initiative and the linked project in the Workload Balancer, see [Show role allocation for projects and initiatives in the Workload Balancer](../scenario-planner/show-role-allocation-workload-balancer.md). 
-    
-    * Tasks section 
-    * For information about how to reconcile the allocations of roles between the initiative and the linked project in the Tasks section, see [Show role allocation for projects and initiatives in the task list](../scenario-planner/show-role-allocation-task-list-nwe.md).
+     >[!TIP]
+     >
+     >You cannot see job role information from the project and the initiative side-by-side in the Scenario Planner section of the Project Details.
 
-    >[!TIP]
-    >
-    >You can see job role information from the project and the initiative side-by-side in Role Allocation panel.
+   * The Role Allocation panel in the following areas:
+
+      * Workload Balancer of the project
+
+        For information about how to view and reconcile the allocations of roles between the initiative and the linked project in the Workload Balancer, see [Show role allocation for projects and initiatives in the Workload Balancer](../scenario-planner/show-role-allocation-workload-balancer.md). 
+      
+      * Tasks section
+
+        For information about how to reconcile the allocations of roles between the initiative and the linked project in the Tasks section, see [Show role allocation for projects and initiatives in the task list](../scenario-planner/show-role-allocation-task-list-nwe.md).
+
+     >[!TIP]
+     >
+     >You can see job role information from the project and the initiative side-by-side in Role Allocation panel.
 
 * You cannot view job role allocation for a project on a linked initiative. For more information, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md).
 

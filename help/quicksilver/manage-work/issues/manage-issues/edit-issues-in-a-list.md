@@ -50,8 +50,8 @@ Consider the following when editing issues in a list:
 * You can edit any issue field that displays in the list and that you have permissions to update.
 * You can edit an issue in the following lists:
 
-  * The Issues section of a project or of a task 
-  * An issue report
+   * The Issues section of a project or of a task
+   * An issue report
 
 To inline edit an issue:
 
@@ -68,16 +68,36 @@ To inline edit an issue:
 
 1. Go to a list of issues in a project or task. 
 1. Do one of the following
-1. ```<li> <p>Select the issue in the list, then click Edit icon <img src="assets/qs-edit-icon.png"> in the toolbar. </p> </li>``` ```<li> <p>Click the <strong>More menu</strong> <img src="assets/more-icon-task-list.png"> to the right of the issue name, then click <strong>Open in a new tab</strong>. This opens the issue page in a new tab. Click&nbsp;<strong>More</strong> > <strong>Edit</strong> from the issue page. </p> </li>``` ```<li> <p>Click the <strong>More menu</strong> <img src="assets/more-icon-task-list.png"> to the right of the issue name, then click <strong>Edit</strong>. </p> <p><span>Any of these actions opens the Edit Issue box.</span> </p> <p>For information about editing issues in the Edit Issue box, see <a href="../../../manage-work/issues/manage-issues/edit-issues.md" class="MCXref xref">Edit issues</a>.</p> </li>```
 
-Edit issues using the Summary You can edit an issue in a list using the Summary.
+   * Select the issue in the list, then click Edit icon ![](assets/qs-edit-icon.png) in the toolbar. 
+   * Click the **More menu** ![](assets/more-icon-task-list.png) to the right of the issue name, then click **Open in a new tab**. This opens the issue page in a new tab. Click&nbsp;**More** > **Edit** from the issue page. 
+   * Click the **More menu** ![](assets/more-icon-task-list.png) to the right of the issue name, then click **Edit**.
 
-1. Click **Issues** in the left panel.  The list of issues on the project displays.  
-1. Select an issue that you want to edit, then click the **Open Summary** icon ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in the upper-right corner of the issue list. 
+     ```Any of these actions opens the Edit Issue box.```
 
-1. The **Summary** opens.
-1. Updates
-1. Click any of the following icons or areas to go to the issue and edit information at the issue level:  ```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">``` ```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">``` ```<tbody>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> <span style="font-weight: bold;">Documents</span>  Click <strong>Click here to add</strong> to add documents to the issue.  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> <span style="font-weight: bold;">Details</span>  Click to update information about the issue.  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> <span style="font-weight: bold;">Hours</span>  Click to log hours.  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> <span style="font-weight: bold;">Approvals</span>  Click to add issue approvals.   </tr> </tbody>```  
+     For information about editing issues in the Edit Issue box, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
+
+## Edit issues using the Summary
+
+You can edit an issue in a list using the Summary.
+
+1. Go to the project whose issues you want to edit.
+1. Click **Issues** in the left panel.
+
+   The list of issues on the project displays. 
+
+1. Select an issue that you want to edit, then click the **Open Summary** icon ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in the upper-right corner of the issue list.
+
+   The **Summary** opens.
+
+1. (Optional) Start typing an update for the issue in the **Updates** area. 
+1. Click any of the following icons or areas to go to the issue and edit information at the issue level:
+
+   | ```Documents```  |Click **Click here to add** to add documents to the issue. |
+   |---|---|
+   | ```Details```  |Click to update information about the issue. |
+   | ```Hours```  |Click to log hours. |
+   | ```Approvals```  |Click to add issue approvals.  |
 
 1. (Optional) Click the **Open Summary** icon again, or the **X icon** in the upper-right of the Summary to close the panel and edit the issue inline.
 
@@ -100,10 +120,10 @@ To edit issues in bulk:
 
    Editing the information on all issues is identical to editing information on one issue when editing the following areas:
 
-  * Overview
-  * Settings
-  * Assignments
-  * Comment
+   * Overview
+   * Settings
+   * Assignments
+   * Comment
 
    For more information about editing an issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 

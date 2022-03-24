@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 ## Create a predecessor
 
 1. Go to a project. 
-1. Click **Tasks** in the left panel.  
+1. Click **Tasks** in the left panel. 
 1. Ensure that your current view displays the **Predecessor** column.
 
    If the view doesn't display the Predecessors column, change to a view that does, or add the column to your view. 

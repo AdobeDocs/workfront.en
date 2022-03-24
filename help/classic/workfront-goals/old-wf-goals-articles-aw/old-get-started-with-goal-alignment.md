@@ -11,7 +11,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see Access needed to use Workfront Goals.
+For additional information about access to Workfront Goals, see [Access needed to use Workfront Goals](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content/Workfront_Align/Goal_management/access-needed-for-wf-align.htm).
 Goal alignment is an important element of goal management.
 
 You can ensure everyone in your organization is on the same page about what must be achieved to drive strategy forward by aligning their goals with each other and with the organizational goals of teams, groups, and the company.

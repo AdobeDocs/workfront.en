@@ -14,10 +14,10 @@ You can view role allocation for all job roles assigned to work items in a proje
 >
 >This article refers to viewing the job roles associated with tasks and issues on a project and their allocated Planned Hours in the Role Allocation panel of a project.&nbsp;For information about reconciling Planned Hours with initiatives hours using the Role Allocation Panel when using the Adobe Workfront Scenario Planner, see the following:
 >
->* [Show role allocation for projects and initiatives in the task list](../../../scenario-planner/show-role-allocation-task-list-nwe.md)  
+>* [Show role allocation for projects and initiatives in the task list](../../../scenario-planner/show-role-allocation-task-list-nwe.md) 
 >* [Show role allocation for projects and initiatives in the Workload Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md) 
 >
->  You must have a Scenario Planner license in order to see initiative hours in the Role Allocation panel.&nbsp;For information about the Scenario Planner, see Get started with the Adobe Workfront Scenario Planner . 
+>  You must have a Scenario Planner license in order to see initiative hours in the Role Allocation panel.&nbsp;For information about the Scenario Planner, see [Get started with the Adobe Workfront Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md) . 
 >
 
 ## Access requirements
@@ -63,13 +63,14 @@ You must have the following:
 
 ## View project Planned Hours in the Role Allocation panel
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**. 
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**.
 1. Click the name of a project to access it.&nbsp;This opens the Project page. 
 1. Click one of the following in the left panel:
 
-  * **Tasks** 
-  * Workload Balancer  You might need to click&nbsp;**Scheduling** > **Switch to Workload Balancer**.
+   * **Tasks** 
+   * Workload Balancer
+
+     You might need to click&nbsp;**Scheduling** > **Switch to Workload Balancer**.
 
 1. Click the **Show role allocation** icon ![](assets/show-role-allocation-icon.png).
 

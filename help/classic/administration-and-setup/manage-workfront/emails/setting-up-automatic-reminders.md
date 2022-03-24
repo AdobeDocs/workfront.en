@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 ## Set up automatic reminders
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Email** >**Automatic Reminders**.
 
 1. In the **Send a late notification to** area, select any of the following options:

@@ -68,6 +68,8 @@ To move a task displayed in a task list:
 
 1. (Conditional) If you want to have access to more options for editing the tasks as you are moving them, including moving them to another project, click the **More** &nbsp;drop-down menu at the top of the task list, then click **Move to**.
 
+   ![](assets/mt2-350x142.png)
+
    The Move Task box displays
 
 1. Continue with moving the task, as described in the section [Move a task at the task level](#moving-one-task) starting with Step 4.
@@ -75,4 +77,65 @@ To move a task displayed in a task list:
 ## Move a task&nbsp;at the task level
 
 In addition to moving tasks from a list of tasks, you can also move a task at the task level, after you have opened it.&nbsp;
-This is helpful for ad hoc tasks, which are not located on a task list of a project. For more information on ad hoc tasks, see [Create ad hoc work items](../../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md).  ```<li value="1">Find a task in your Workfront system by searching for it.</li>``` ```<li value="2">Click the name of the task to open it.&nbsp;</li>``` ```<li value="3"> <p> In the upper-right corner of the task, click <strong>Task Actions</strong>, then click&nbsp;<strong>Move</strong>. </p> <p>The Move Task box displays. </p> <p> <img src="assets/mt3-350x208.png" alt="" style="width: 350;height: 208;"> </p> </li>``` ```<li value="4"> <p>Type the name of the project where you want the task to move in the <strong>Select Destination Project</strong> section.&nbsp;</p> <note type="tip">  Only 50 projects display in the list. </note> <p>If you want to move the task within the same project, type the name of the current project in the <strong>Select Destination Project</strong> section.</p> </li>``` ```<li value="5">(Optional) Click&nbsp;<strong>Next Step</strong>&nbsp;to clear any of the following options from the task:&nbsp;<br> <ul>  <li><p>Constraints</p><note type="note">    When moving or copying a task with date-specific constraints to another project and the constraint dates of the task are outside the dates of the new project, either the Task&nbsp;Constraint changes to As Soon as Possible or As Late as Possible or the Planned Start or Planned Completion dates of the projects are adjusted. Some examples of date-specific constraints are Must Start On, Must&nbsp;Finish On, Start No Earlier Than, Start No Later Than, etc. For information about task constraints and how task constraints or project dates can be affected, see     <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a> and look for a specific constraint.   </note></li>  <li>Assignments</li>  <li>Approval Processes</li>  <li>Progress</li>  <li>All Predecessors</li>  <li>Financial information</li>  <li><p>Documents</p><p>This includes versions, proofs, and linked documents.&nbsp;</p><p>This does not include document approvals. Document approvals can never be moved when a task is moved.</p></li>  <li>Reminder Notifications</li>  <li>Expenses</li>  <li>Permissions</li> </ul></li>``` ```<li value="6">(Optional) Click <strong>Go back a Step</strong> to move to the previous step.</li>``` ```<li value="7"> <p>(Optional) Click&nbsp;<strong>Next Step.</strong></p> <p>Or</p> <p>Click <strong>Select Parent</strong> if you want to choose a parent for the tasks moved to the new project.</p> <p>If you do not select a parent task, the tasks are moved&nbsp;as main tasks rather than subtasks and they&nbsp;will be placed at the end of the task list on the specified&nbsp;project.&nbsp;</p> </li>``` ```<li value="8">(Optional) Select a parent by doing one of the following:<br>In the task list, select one of the parents in the project plan.<br>Or<br>Using the <strong>Search</strong> field, search for a parent task by name. The task should appear in the list.</li>``` ```<li value="9">Select the radio button for the parent, after you have found it.&nbsp;</li>``` ```<li value="10">(Optional) Click <strong>Go back a Step</strong> to move to the previous step</li>``` ```<li value="11"> <p>Click <strong>Finish and Move Task.</strong></p> <p>The moved&nbsp;task now resides&nbsp;on the specified project and&nbsp;is either a subtask to a parent task, or the last task on the project.</p> </li>``` 
+
+This is helpful for ad hoc tasks, which are not located on a task list of a project. For more information on ad hoc tasks, see [Create ad hoc work items](../../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md).
+
+1. Find a task in your Workfront system by searching for it.
+1. Click the name of the task to open it.&nbsp;
+1. In the upper-right corner of the task, click **Task Actions**, then click&nbsp;**Move**.
+
+   The Move Task box displays.
+
+   ![](assets/mt3-350x208.png)
+
+1. Type the name of the project where you want the task to move in the **Select Destination Project** section.&nbsp;
+
+   >[!TIP]
+   >
+   >Only 50 projects display in the list.
+
+   If you want to move the task within the same project, type the name of the current project in the **Select Destination Project** section.
+
+1. (Optional) Click&nbsp;**Next Step**&nbsp;to clear any of the following options from the task:&nbsp;
+
+   * Constraints
+
+     >[!NOTE]
+     >
+     >When moving or copying a task with date-specific constraints to another project and the constraint dates of the task are outside the dates of the new project, either the Task&nbsp;Constraint changes to As Soon as Possible or As Late as Possible or the Planned Start or Planned Completion dates of the projects are adjusted. Some examples of date-specific constraints are Must Start On, Must&nbsp;Finish On, Start No Earlier Than, Start No Later Than, etc. For information about task constraints and how task constraints or project dates can be affected, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) and look for a specific constraint.
+
+   * Assignments
+   * Approval Processes
+   * Progress
+   * All Predecessors
+   * Financial information
+   * Documents
+
+     This includes versions, proofs, and linked documents.&nbsp;
+
+     This does not include document approvals. Document approvals can never be moved when a task is moved.
+   
+   * Reminder Notifications
+   * Expenses
+   * Permissions
+
+1. (Optional) Click **Go back a Step** to move to the previous step.
+1. (Optional) Click&nbsp;**Next Step.**
+
+   Or
+
+   Click **Select Parent** if you want to choose a parent for the tasks moved to the new project.
+
+   If you do not select a parent task, the tasks are moved&nbsp;as main tasks rather than subtasks and they&nbsp;will be placed at the end of the task list on the specified&nbsp;project.&nbsp;
+
+1. (Optional) Select a parent by doing one of the following:  
+   In the task list, select one of the parents in the project plan.  
+   Or  
+   Using the **Search** field, search for a parent task by name. The task should appear in the list.
+
+1. Select the radio button for the parent, after you have found it.&nbsp;
+1. (Optional) Click **Go back a Step** to move to the previous step
+1. Click **Finish and Move Task.**
+
+   The moved&nbsp;task now resides&nbsp;on the specified project and&nbsp;is either a subtask to a parent task, or the last task on the project.
+

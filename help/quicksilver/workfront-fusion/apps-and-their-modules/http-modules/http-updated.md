@@ -101,17 +101,17 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
 
    Examples of Yahoo addresses:
 
-  * Authorize URI:   
-  
-    ```  
-    https://api.login.yahoo.com/oauth2/request_auth
-    ```  
-  
-  * Token URI:   
-  
-    ```  
-    https://api.login.yahoo.com/oauth2/get_token
-    ```
+   * Authorize URI:    
+   
+     ```   
+     https://api.login.yahoo.com/oauth2/request_auth
+     ```   
+   
+   * Token URI:    
+   
+     ```   
+     https://api.login.yahoo.com/oauth2/get_token
+     ```
 
 1. If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, Workfront Fusion will fail to create the connection and you will receive an invalid scope error.
 1. Once you have completed the steps above, you can start to create the OAuth connection in Workfront Fusion. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario and in the Connection section click on the Add button.

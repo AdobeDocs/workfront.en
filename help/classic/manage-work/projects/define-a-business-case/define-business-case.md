@@ -19,7 +19,7 @@ This section contains the following articles:
 * [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
 
   <!--
-  <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref" xrefformat="{para}">Estimate project resources by applying Legacy Resource Pools to the Business Case </a>
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref" xrefformat="{para}">Estimate project resources by applying Legacy Resource Pools to the Business Case </a> </li>
   -->
 
 * [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) 

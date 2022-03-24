@@ -23,7 +23,7 @@ The following improvements are available in the documents area:
 * When a proof comment displays in the Update tab, a new Reply in Proof button appears allowing you to go into the proofing viewer to reply.
 * When a proof comment is tagged with an action inside the proofing viewer, the action displays in the Update tab.
 
-For more information, see Add an update to a document.
+For more information, see [Add an update to a document](../../../documents/managing-documents/add-update-documents.md).
 
 ## Update proofing custom fields in Document Details
 
@@ -35,7 +35,7 @@ To streamline the proofing process, you can now see and edit custom fields set u
 
 Previously, you could only view custom fields in the proofing viewer.
 
-For more information, see Document Details overview.
+For more information, see [Document Details overview](../../../documents/managing-documents/document-details-overview.md).
 
 ## New look for the Document toolbar
 
@@ -53,7 +53,7 @@ To make it easier to set up a workflow when turning an existing document in a pr
 
 Previously, you had to generate the proof, then go into the Proofing Workflow area to set up the workflow.
 
-For more information, see Create a proof for a document.
+For more information, see [Create a proof for a document](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
 
 ```<iframe class="vimeo-player_0" src="assets/434797920?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

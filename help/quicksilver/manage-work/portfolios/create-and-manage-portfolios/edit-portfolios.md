@@ -41,6 +41,8 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
+###
+
 ## Edit portfolios
 
 1. Go to the **Main Menu**.
@@ -55,26 +57,26 @@ You must have the following access to perform the steps in this article:
 
    To edit information in the Details section, do the following:
 
-  1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
-  1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
-  1. For information about the fields visible in the Portfolio Details section, continue with editing the portfolio in the Edit Portfolio box as described below. 
-  1. (Optional) If there are no custom forms attached to the portfolio, start typing the name of a form in the **Add custom form** field, select it when it displays in the list, then click&nbsp;**Save Changes**. 
-  1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
+   1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
+   1. For information about the fields visible in the Portfolio Details section, continue with editing the portfolio in the Edit Portfolio box as described below. 
+   1. (Optional) If there are no custom forms attached to the portfolio, start typing the name of a form in the **Add custom form** field, select it when it displays in the list, then click&nbsp;**Save Changes**. 
+   1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
 
-    * Select all (displays only when there is at least one custom form attached)
-    * Overview
-    * The name of one or multiple custom forms
+      * Select all (displays only when there is at least one custom form attached)
+      * Overview
+      * The name of one or multiple custom forms
 
-     The PDF file downloads to your computer.
+      The PDF file downloads to your computer.
 
-     ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-     For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 1. To edit all information about one or more portfolios do one of the following:
 
-  * Click the **More** menu next to the portfolio name, then **Edit.**
-  * Go to a list of portfolios and select one or more portfolio that you want to edit, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
+   * Click the **More** menu next to the portfolio name, then **Edit.**
+   * Go to a list of portfolios and select one or more portfolio that you want to edit, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
 
    The **Edit Portfolio** dialog box displays.
 
@@ -84,9 +86,9 @@ You must have the following access to perform the steps in this article:
 
 1. Consider specifying information in any of the following sections:
 
-  * [Overview](#issue)
-  * [Custom Forms](#custom%c2%a0f)
-  * [Comment](#comment)
+   * [Overview](#issue)
+   * [Custom Forms](#custom%c2%a0f)
+   * [Comment](#comment)
 
 ### Overview
 
@@ -122,8 +124,8 @@ You must have the following access to perform the steps in this article:
        <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
         <span class="autonumber"><span><b>Tip: </b></span></span> 
         <p>When accessing the Group field from the Portfolio Details page, do the following: </p> 
-        <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p>  
-        <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;">  
+        <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> 
+        <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> 
         <p>This option is not available in the Edit Portfolio box. </p> 
        </div> </td> 
      </tr> 

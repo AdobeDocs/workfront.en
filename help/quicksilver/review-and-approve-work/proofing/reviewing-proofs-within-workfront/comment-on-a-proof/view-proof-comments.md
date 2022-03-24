@@ -103,8 +103,8 @@ As a reviewer of a proof, you can quickly mark all comments as Read.
 1. (Optional) To notify another reviewer&nbsp;about your reply, type @ in the comment box, then type the user's name or email address. For more information, see [Tag users to share a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Optional) To add a file to a comment, do either of the following:
 
-  * Click the paper clip icon, then browse to and select the file you want to upload.
-  * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
+   * Click the paper clip icon, then browse to and select the file you want to upload.
+   * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
 1. Click **Reply**.
 

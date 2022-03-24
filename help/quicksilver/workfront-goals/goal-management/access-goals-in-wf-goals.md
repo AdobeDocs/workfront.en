@@ -106,9 +106,9 @@ To access an individual goal in Workfront Goals:
 
    Click one of the following options in the left panel:
 
-  * Goal Alignment
-  * Check-in 
-  * Pulse
+   * Goal Alignment
+   * Check-in 
+   * Pulse
 
    >[!NOTE]
    >

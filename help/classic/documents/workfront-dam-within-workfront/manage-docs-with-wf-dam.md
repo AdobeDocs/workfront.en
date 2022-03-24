@@ -29,10 +29,9 @@ You can save documents from Workfront to Workfront&nbsp;DAM.
 1. Go to the&nbsp;**Documents**&nbsp;tab for any object within Workfront, select the file that you want to save to Workfront DAM, then click **More**.
 
 1. Go to the Document tab for any object within Workfront, and select the fire you want to save to Workfront DAM.
-1. Send
-1. To.
-1. 
-1. 
+1. From the drop-down list, click&nbsp;**Send** **To.** 
+   ![DocMoreIcon.png](assets/docmoreicon-350x101.png)
+
 1. Click&nbsp;**Workfront DAM,** then click the location where you want to save the document.
 
 For information on automatically including document metadata when saving documents from Workfront to Workfront&nbsp;DAM, see "Configuring Workfront to Send Metadata to Workfront DAM" in&nbsp; [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
@@ -42,7 +41,8 @@ For information on automatically including document metadata when saving documen
 Workfront DAM provides a dedicated storage area where your DAM assets are stored. This allows you to add documents to Workfront from Workfront DAM without impacting your&nbsp;Workfront storage space.&nbsp;
 
 1. Go to the **Documents** tab of the object to which you want to link documents from Workfront DAM.
-1. Click&nbsp;**Add New**.
+1. Click&nbsp;**Add New**.  
+   ![DocAddNew.png](assets/docaddnew-350x144.png)
 
 1. From the drop-down list, click&nbsp;**From Workfront DAM**.
 1. Browse to and select the assets that you want to&nbsp;link in Workfront.

@@ -54,25 +54,25 @@ By default, when you add an existing task to an iteration, the task's Planned St
 
 * The task uses the iteration's Start Date when:
 
-  * The project does not have a Planned Start Date set.
-  * The project's Planned Start Date is *before* or *on* the iteration's start date.
+   * The project does not have a Planned Start Date set.
+   * The project's Planned Start Date is *before* or *on* the iteration's start date.
 
 * The task uses the project's Planned Start Date when:
 
-  * The project's Planned Start Date is *after* the iteration's start date.
+   * The project's Planned Start Date is *after* the iteration's start date.
 
 ### **Task Planned Completion Date**
 
 * The task uses the iteration's End Date when:
 
-  * The project does not have a Planned Completion Date set.
-  * The project's Planned Start Date is *before or on&nbsp;*the iteration's Start Date or the Project's Planned Completion Date is *before or on*&nbsp;the iteration's End Date.
+   * The project does not have a Planned Completion Date set.
+   * The project's Planned Start Date is *before or on&nbsp;*the iteration's Start Date or the Project's Planned Completion Date is *before or on*&nbsp;the iteration's End Date.
 
 * The task uses the project's Planned Completion Date when:
 
-  * The project's Planned Start Date is&nbsp;*after*&nbsp;the iteration's Start Date&nbsp;and&nbsp;the project's Planned Completion Date is&nbsp;*after*&nbsp;the iteration's End Date.
+   * The project's Planned Start Date is&nbsp;*after*&nbsp;the iteration's Start Date&nbsp;and&nbsp;the project's Planned Completion Date is&nbsp;*after*&nbsp;the iteration's End Date.
 
-You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).  
+You can configure individual Scrum teams to use the project dates by default, rather than the iteration dates. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Add a story to an existing iteration
 
@@ -92,10 +92,9 @@ You can add any task or issue to any iteration if&nbsp;you have Manage access to
 
 1. Go to the project, report, or dashboard that contains the task or issue you want to add to an iteration.
 1. Select one or more tasks or issues.
-1. More
-1. 
-1. Add to Iteration
-1. 
+1. Click **More** ![](assets/more-icon.png) > **Add to Iteration**.  
+   You cannot assign tasks or issues assigned to non-agile teams.
+
 1. In the **Add Stories** box, type the name of the iteration.
 
    >[!NOTE]

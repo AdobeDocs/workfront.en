@@ -100,9 +100,9 @@ Days off are reflected in the burndown chart only if:
 
   When work is logged on a day off:
 
-  * Any work logged is not included when calculating&nbsp;the ideal burndown because the team is not scheduled to do any work.
-  * The ideal burndown lines (the solid blue line and dashed blue line) are displayed as flat in the burndown chart for any day when work was done or on the day you are viewing the burndown chart (if you are viewing on a day off).
-  * Work logged is included when calculating other burndown statistics such as the&nbsp;estimated completion and the average points or hours per day.
+   * Any work logged is not included when calculating&nbsp;the ideal burndown because the team is not scheduled to do any work.
+   * The ideal burndown lines (the solid blue line and dashed blue line) are displayed as flat in the burndown chart for any day when work was done or on the day you are viewing the burndown chart (if you are viewing on a day off).
+   * Work logged is included when calculating other burndown statistics such as the&nbsp;estimated completion and the average points or hours per day.
 
 * You are viewing the burndown chart on a day off. (The day that you are viewing is shown on the burndown chart.)
 * You complete the total remaining work for the iteration 

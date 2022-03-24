@@ -52,6 +52,8 @@ For information on creating dashboards, see [Create a dashboard](../../../report
    Open the dashboard that you want to copy, then click **Dashboard Actions** > **Copy**.  
    The Dashboard Copy dialog box displays. All items on the original dashboard display.
 
+   ![](assets/copy-dashboard-350x348.png)
+
 1. In the **Dashboard Name** field, specify a new name for the dashboard.
 1. To select all the items on the existing dashboard and copy them to the copied dashboard, leave **Select All** selected. By default, the reports, calendars, or lists on the existing dashboard are going to be copied to the new dashboard.  
    Or  

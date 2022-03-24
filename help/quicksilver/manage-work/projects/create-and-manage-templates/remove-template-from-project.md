@@ -60,21 +60,21 @@ To remove template information that was added to the project, you can do one of 
 1. Go to the **Tasks** section of the project.
 1. Do one of the following:
 
-  * Create a filter for the task list to display only tasks that were created from a template using the following statement:
+   * Create a filter for the task list to display only tasks that were created from a template using the following statement:
 
-    ```  
-    Task >> Template Task ID >>Is Not Blank
-    ```
+     ```   
+     Task >> Template Task ID >>Is Not Blank
+     ```
 
-    For information about creating a filter, see [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+     For information about creating a filter, see [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-    When you apply the filter, only tasks associated with a Template Task ID display in the list. 
-  
-  * Create a view for the task list to display the **Template Task ID** or **Template Task Name** fields in a column.
+     When you apply the filter, only tasks associated with a Template Task ID display in the list. 
+   
+   * Create a view for the task list to display the **Template Task ID** or **Template Task Name** fields in a column.
 
-    When you apply the view, the tasks that contain information in the Template Task ID or Template Task name column were created using a template.
+     When you apply the view, the tasks that contain information in the Template Task ID or Template Task name column were created using a template.
 
-    For information about creating a view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+     For information about creating a view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 1. Select all the tasks identified in Step 2 as created from a template, then click&nbsp;**the Delete icon****> Yes, Delete it**. For more information, see [Delete tasks](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
 

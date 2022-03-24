@@ -24,7 +24,9 @@ For instructions, see [View and manage a group’s memberships](../../../adminis
 
 ## Manage a group’s details
 
-You can view and manage the main details for a group you administer. These include the group’s name, description, Business Leader, and group administrators. If you are viewing a top-level group, you can also make the group and all of its subgroups public or private. For instructions, see [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+You can view and manage the main details for a group you administer. These include the group’s name, description, Business Leader, and group administrators. If you are viewing a top-level group, you can also make the group and all of its subgroups public or private.
+
+For instructions, see [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
 ## Edit, copy, or delete a group
 

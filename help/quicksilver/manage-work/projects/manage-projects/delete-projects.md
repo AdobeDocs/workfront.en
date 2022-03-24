@@ -54,7 +54,9 @@ You can delete a project in a project list or at the project level.
 
   For more information about restoring objects, see&nbsp;the article [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-* ```If the project has tasks or issues with logged hours, the Workfront ```or group administrator``` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance for you to be able to delete the project that contains the tasks.```  ```For more information about enabling the deletion of tasks, issues```, or projects ```where hours are logged, see the "Deletion" section in``` [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* ```If the project has tasks or issues with logged hours, the Workfront ```or group administrator``` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance for you to be able to delete the project that contains the tasks.```
+
+  ```For more information about enabling the deletion of tasks, issues``` ```, or projects``` ```where hours are logged, see the "Deletion" section in``` [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### The impact of deleting projects
 
@@ -62,43 +64,43 @@ You can delete a project in a project list or at the project level.
 
   The following objects attached to a project are also deleted when you delete a project:
 
-  * Documents
+   * Documents
 
-    You cannot delete a project that has an attached document which has been checked out. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
-  
-  * Tasks 
-  * Subtasks
-  * Issues
-  * Notes
-  * Approvals
-  * Expenses
+     You cannot delete a project that has an attached document which has been checked out. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
+   
+   * Tasks 
+   * Subtasks
+   * Issues
+   * Notes
+   * Approvals
+   * Expenses
 
 * Depending on how your Workfront administrator configures the Project, Task, or Issue Deletion Preferences in the Timesheet & Hour Preferences of your Workfront instance, hours logged for the tasks, issues, or the project are handled in one of the following ways when deleting the project:
 
-  * The hours stay on the timesheet as general time. 
-  * The hours are deleted and will be restored if the project is ever restored.
+   * The hours stay on the timesheet as general time. 
+   * The hours are deleted and will be restored if the project is ever restored.
 
   For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * If the project you delete is linked to an initiative in the Workfront Scenario Planner:
 
-  * The initiative remains on the plan, but the link to the project is removed. 
-  * If the project you delete is linked to the only published initiative from a plan, the indication that the plan has been published is also removed. 
-  * If you recover a deleted project, the project is recovered, but its link to the initiative is not restored and the Scenario Planner area no longer displays in Project&nbsp;Details.
+   * The initiative remains on the plan, but the link to the project is removed. 
+   * If the project you delete is linked to the only published initiative from a plan, the indication that the plan has been published is also removed. 
+   * If you recover a deleted project, the project is recovered, but its link to the initiative is not restored and the Scenario Planner area no longer displays in Project&nbsp;Details.
 
-    This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
-    For information about projects linked to initiatives in the Scenario Planner, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+     For information about projects linked to initiatives in the Scenario Planner, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 * If the project is also an activity for a goal in Workfront Goals:
 
-  * The project is deleted from the goal. The progress indicated on the goal by the project is also removed.
+   * The project is deleted from the goal. The progress indicated on the goal by the project is also removed.
 
-  * If you recover the deleted project, the project is also restored as the goal's activity.
+   * If you recover the deleted project, the project is also restored as the goal's activity.
 
-    This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-    For information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     For information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Delete a project in a list
 

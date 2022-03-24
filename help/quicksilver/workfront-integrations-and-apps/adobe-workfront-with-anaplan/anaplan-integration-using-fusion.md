@@ -65,19 +65,19 @@ This example provides all the lists, modules, and actions that are needed to int
 
 1. Campaigns - this list can roll up to a brand or a geography hierarchy
 
-  1. Create as a numbered list
-  1. Add a text property called Display Name and set this as the Display Name
-  1. Choose
+   1. Create as a numbered list
+   1. Add a text property called Display Name and set this as the Display Name
+   1. Choose
 
 1. Campaign Expenses - This list will roll up to Campaigns and will hold the expense elements from Workfront
 
-  1. Create as a numbered list
-  1. Add a text property called Display Name and set this as the Display Name
-  1. Choose Campaigns as list parent
+   1. Create as a numbered list
+   1. Add a text property called Display Name and set this as the Display Name
+   1. Choose Campaigns as list parent
 
 1. Roles - flat list of roles. This is used to collect hours information from Workfront by specific role
 
-  1. Set Top Level Item as All Roles
+   1. Set Top Level Item as All Roles
 
 >[!NOTE]
 >

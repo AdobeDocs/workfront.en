@@ -57,10 +57,10 @@ You must have the following access to perform the steps in this article:
 
 ## Create a user delegation report
 
-1. Main Menu
-1. 
-1. Reports
-1. Click **New Report**, then select **User Delegation**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
+
+1. Click **New Report**, then select **User Delegation**.  
+   ![](assets/classic-new-report-user-delegation-350x644.png)
 
    The following fields display in this report by default:
 
@@ -73,10 +73,10 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) In the report builder, modify the following:
 
-  * Columns
-  * Groupings
-  * Filters
-  * Chart
+   * Columns
+   * Groupings
+   * Filters
+   * Chart
 
    To learn more about these features, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

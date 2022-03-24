@@ -108,9 +108,9 @@ You must have the following access to use the functionality described in this ar
 
 1. To achieve an optimal display, specify the following properties for the Workfront Visualforce page:
 
-  * **Width (in pixels or %)**: 100%
-  * **Height (in pixels)**: 600
-  * Select **Show scrollbars**.
+   * **Width (in pixels or %)**: 100%
+   * **Height (in pixels)**: 600
+   * Select **Show scrollbars**.
 
 1. Click **OK**.&nbsp;
 1. Click **Save** to save your layout.

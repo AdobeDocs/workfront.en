@@ -119,8 +119,8 @@ Below are some types of object lists that you can find in Workfront and some of 
      <li> <p>  Projects &gt; Portfolios &gt;&nbsp;select a portfolio &gt; Programs &gt; select a program &gt; Documents</p> </li> 
      <li> <p>Projects &gt; select a project &gt; Documents</p> </li> 
      <li> <p>Projects &gt; select a project &gt; Tasks &gt; select a task &gt;&nbsp;Documents</p> </li> 
-     <li> <p>Projects &gt;&nbsp;select a project &gt;&nbsp;Issues &gt; select an issue &gt;&nbsp;Documents</p> </li>  
-     <p>People &gt;&nbsp;People &gt; select a user &gt; Documents</p>  
+     <li> <p>Projects &gt;&nbsp;select a project &gt;&nbsp;Issues &gt; select an issue &gt;&nbsp;Documents</p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Classic"> <p>People &gt;&nbsp;People &gt; select a user &gt; Documents</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -210,6 +210,8 @@ The following are the elements of a list:
 
 These elements display at the top of every list by default. They are sticky and do not move as you scroll through the list.
 
+![](assets/list-elements-350x69.png)
+
 You can can customize list elements in the following areas and share them with other users:
 
 * Any system default list found in the section [Get started with lists in Adobe Workfront](#default-workfront-lists) in this article
@@ -240,7 +242,6 @@ The following lists and reports in Adobe Workfront Classic are updated lists:
 * Hours
 
 All other lists and reports in Adobe Workfront Classic display the legacy lists.
-
 The following table shows some of the differences between the legacy and updated lists in Workfront:
 
 <table cellspacing="15"> 
@@ -261,7 +262,11 @@ The following table shows some of the differences between the legacy and updated
   </tr> 
   <tr> 
    <td> <p>Display <strong>100</strong> items by default</p> </td> 
-   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p>  <span class="autonumber"><span><b>Tip: </b></span></span> <p>For the best performance in large lists where objects contain formatted text fields, limit the number of shown objects to 250 in the lower right corner of the window.</p> <p> <img src="assets/limit-list-objects-250-350x154.png" style="width: 350;height: 154;"> </p>  </td> 
+   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> 
+    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Classic"> <span class="autonumber"><span><b>Tip: </b></span></span> 
+     <p>For the best performance in large lists where objects contain formatted text fields, limit the number of shown objects to 250 in the lower right corner of the window.</p> 
+     <p> <img src="assets/limit-list-objects-250-350x154.png" style="width: 350;height: 154;"> </p> 
+    </div> </td> 
   </tr> 
   <tr> 
    <td> <p>Use CTRL+F to find items in a list</p> </td> 

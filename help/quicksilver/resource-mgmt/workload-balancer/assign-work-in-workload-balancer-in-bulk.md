@@ -53,9 +53,9 @@ You must have the following access to perform the steps in this article:
 * You cannot assign resources to work items that are completed, or to items that are on a completed project. 
 * You can do the following when assigning users in bulk:
 
-  * Assign a user to all work items currently assigned to a job role.
-  * Replace user assignments between users.
-  * Unassign a user from all their work items.
+   * Assign a user to all work items currently assigned to a job role.
+   * Replace user assignments between users.
+   * Unassign a user from all their work items.
 
 ``` ```**Examples: **``````
 
@@ -110,9 +110,9 @@ You must have the following access to perform the steps in this article:
 
 1. Select one of the following options and continue with the steps described below:
 
-  * [Assign user](#assigning-a-user) 
-  * [Replace user](#swapping-a-user) 
-  * [Unassign user](#unassigning-a-user)
+   * [Assign user](#assigning-a-user) 
+   * [Replace user](#swapping-a-user) 
+   * [Unassign user](#unassigning-a-user)
 
    >[!TIP]
    >
@@ -125,8 +125,8 @@ When you assign a user using Bulk Assignments in the Workload Balancer, the foll
 * A user is assigned to all work items currently assigned to a specified role within the selected projects.
 * The user is not assigned to the following types of work items:
 
-  * Items that are already assigned to a user.
-  * Completed items.
+   * Items that are already assigned to a user.
+   * Completed items.
 
 * If the user you selected is not associated with the specified role, the role is replaced by the user in the user's Primary Role.
 

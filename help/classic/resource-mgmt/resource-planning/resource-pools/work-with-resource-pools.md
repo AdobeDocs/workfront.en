@@ -180,7 +180,7 @@ There is no limit to how many users you can have in a Resource Pool. However, we
 <li value="4">Click <strong>Resource Planning</strong>.</li>
 <li value="5">Start typing the name of a Resource Pool that you want to associate with the users in the <strong>Resource Pools</strong> field, then select it from the list, when it appears.<br>You can associate multiple Resource Pools with multiple users.<br><note type="note">
 Only the Resource Pools that are common to all the users selected appear in this field. If the users selected have no shared Resource Pools, this field is empty. If this field is empty, the Resource Pools you specify here will overwrite their individual Resource Pools.
-</note> <br><br></li>
+</note> <br><img src="assets/resource-pools-to-users-in-bulk-350x374.png" alt="resource_pools_to_users_in_bulk.png" style="width: 350;height: 374;" data-mc-conditions="QuicksilverOrClassic.Classic"><br></li>
 <li value="6">Click <strong>Save Changes</strong>.</li>
 </ol>
 <p>For more information about how to edit users in bulk, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">Edit user profiles in bulk</a>. </p>
@@ -224,7 +224,7 @@ Only the Resource Pools that are common to all the users selected appear in this
 <li value="3">Click <strong>Settings</strong>.</li>
 <li value="4"> <p>Start typing the name of a Resource Pool in the <strong>Resource Pools</strong> field, then select it from the list when it appears.<br>You can associate multiple Resource Pools with the projects or templates. </p> <note type="note">
 When you edit projects or templates in bulk, only the Resource Pools that are common to all the projects or templates selected appear in this field. If the projects selected have no shared Resource Pools, this field will be empty. The Resource Pools you specify here will overwrite the individual Resource Pools of the projects or templates.
-</note> <p>  </p> </li>
+</note> <p> <img src="assets/add-resource-pools-to-multiple-projects-350x485.png" alt="add_resource_pools_to_multiple_projects.png" style="width: 350;height: 485;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="5">Click <strong>Save Changes</strong>. <br>When your Resource Pools are associated with your projects or your templates, you can budget user allocations for your projects inside the Resource Planner. <br>For more information about the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</li>
 </ol>
 <p> For more information about how to edit projects in bulk, see the "Edit projects in bulk" section in <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p>

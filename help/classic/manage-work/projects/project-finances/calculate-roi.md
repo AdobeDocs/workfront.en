@@ -30,12 +30,11 @@ The following fields affect the ROI of a project:
   For more information, see [Calculate Budgeted Cost](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
   <!--
-  There are two different Budgeted Cost values depending on which Budgeted Labor Cost is used for their calculation:
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">There are two different Budgeted Cost values depending on which Budgeted Labor Cost is used for their calculation:
   <ul> <!--
-  <p>The <strong>Legacy Budgeted Cost</strong> uses the&nbsp;<strong>Legacy Budgeted Labor Cost</strong> value which&nbsp;is calculated in the Legacy Resource Estimates area of the Business Case and it takes into account the hours estimated for your job roles in the Capacity Planner and the Cost per Hour rate of each job role. <br>The Legacy Budgeted Cost affects the <strong>Legacy Net Value</strong> of the project.<br>For more information about how the Budgeted Cost is calculated, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a></p>
-  <p>You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments.<br></p>
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <p>The <strong>Legacy Budgeted Cost</strong> uses the&nbsp;<strong>Legacy Budgeted Labor Cost</strong> value which&nbsp;is calculated in the Legacy Resource Estimates area of the Business Case and it takes into account the hours estimated for your job roles in the Capacity Planner and the Cost per Hour rate of each job role. <br>The Legacy Budgeted Cost affects the <strong>Legacy Net Value</strong> of the project.<br>For more information about how the Budgeted Cost is calculated, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a></p> <p>You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments.<br></p> </li>
   -->
-  </ul>
+  </ul></li>
   -->
 
 ## Locate the project Return on Investment (ROI)
@@ -49,6 +48,7 @@ You can view the ROI value for a project in the following areas in Workfront:
   >The total of all project ROI values is the ROI of the portfolio.
 
   For information about the Portfolio Optimizer, see the article [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).   
+  ![](assets/new-po---roi-highlight-350x98.png)
 
 * In the Project&nbsp;ROI field in the following lists and reports:&nbsp;
 

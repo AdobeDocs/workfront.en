@@ -33,11 +33,14 @@ See the following articles for information on how to set a user up for role-base
 * [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
   <!--
-  <a href="../../../manage-work/projects/manage-projects/work-in-legacy-team-builder.md" class="MCXref xref" xrefformat="{para}">Work in the Legacy Team Builder</a>
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/manage-projects/work-in-legacy-team-builder.md" class="MCXref xref" xrefformat="{para}">Work in the Legacy Team Builder</a> </li>
   -->
 
 If you don't want to require the user to be on the project team for role-based approvals, you can control this in approval settings. For more information, see [Configure global approval settings](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
-Projects I'm On tab If a user is listed on the Staffing tab of a project, that project appears on the Projects I'm On tab in the Projects area.
+
+## Projects I'm On tab
+
+If a user is listed on the Staffing tab of a project, that project appears on the Projects I'm On tab in the Projects area.
 
 >[!NOTE]
 >

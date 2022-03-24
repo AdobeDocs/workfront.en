@@ -55,6 +55,8 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 1. Go to the dashboard you want to export.
 1. Click **Dashboard actions**, then select **Print**.
 
+   ![](assets/dashboard-actions-print-350x254.png)
+
    The Print dialog opens.
 
 1. Depending on your web browser, select the appropriate print options to complete the .pdf. file export:

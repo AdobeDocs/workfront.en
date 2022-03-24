@@ -100,12 +100,17 @@ Consider the following when copying goals:
    | Owner |The owner of the goal. It can be a user, team, group, or a company. The default is the owner of the original goal.  |
    | Description |Additional information about the goal.  |
 
-1. (Conditional) Select **Copy results** if the original goal had results added to it and you want to copy them to the new goal. This duplicates the original results to the new goal. The results of the copied goal have the same owner, names and measured values as the results of the original goal. 
+1. (Conditional) Select **Copy results** if the original goal had results added to it and you want to copy them to the new goal. This duplicates the original results to the new goal. The results of the copied goal have the same owner, names and measured values as the results of the original goal.
 
-   ``` ```**Tips: **``````
-
-  * The progress of the original result does not transfer to the copied goal. 
-  * If the original owner was deleted or deactivated from&nbsp;Workfront, the new result is assigned to the logged in user.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * The progress of the original result does not transfer to the copied goal. 
+   >   * If the original owner was deleted or deactivated from&nbsp;Workfront, the new result is assigned to the logged in user.
+   >   
+   >
 
 1. Click **Save**.
 
@@ -118,24 +123,24 @@ Consider the following when copying goals:
    >
    >Do at least one of the following to be able to activate a goal: 
    >
-   >  
-   >  
-   >  * Add a Result
-   >  
-   >  
-   >    For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   >  
-   >  * Add an Activity
-   >  
-   >  
-   >    For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 
-   >  
-   >  * Align another goal to it
-   >  
-   >  
-   >    For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
-   >  
-   >  
+   >   
+   >   
+   >   * Add a Result
+   >   
+   >   
+   >     For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   >   
+   >   * Add an Activity
+   >   
+   >   
+   >     For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 
+   >   
+   >   * Align another goal to it
+   >   
+   >   
+   >     For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+   >   
+   >   
    >
 
 1. Click&nbsp;**Activate**. The goal status updates to Active. 
@@ -143,14 +148,14 @@ Consider the following when copying goals:
 
    The new goal displays in the following sections:
 
-  * Goal List 
-  * Check-in (after it is activated)
-  * Goal Alignment section (after it is activated) 
-  * Pulse
+   * Goal List 
+   * Check-in (after it is activated)
+   * Goal Alignment section (after it is activated) 
+   * Pulse
 
 1. (Optional and conditional) If you have copied a goal that was not achieved in a previous time period to continue working on it in the following time period, do the following:
 
-  1. Go to the original goal in the Goal List, Check-in page, or Pulse section and comment on the goal, to indicate that this goal was copied to another, more current goal. For information about commenting on a goal, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
-  1. Close the original goal, to preserve the progress in its original time period. For information about closing goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md). 
-  1. Update the ```the **Initial** value``` of the new Result to match the **End At** value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.
+   1. Go to the original goal in the Goal List, Check-in page, or Pulse section and comment on the goal, to indicate that this goal was copied to another, more current goal. For information about commenting on a goal, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+   1. Close the original goal, to preserve the progress in its original time period. For information about closing goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md). 
+   1. Update the ```the **Initial** value``` of the new Result to match the **End At** value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.
 

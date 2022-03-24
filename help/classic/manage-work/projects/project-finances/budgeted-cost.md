@@ -22,13 +22,11 @@ Budgeted Cost = Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the
 * The **Budgeted Labor Cost** in the calculation above is the cost associated with the job roles in the project.
 
   <!--
-  When budgeting for resources, you must make a decision whether you are using the legacy or the new resource management tools.
-  <br>For more information about the resource management tools in Workfront, see the article
-  <a href="../../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md" class="MCXref xref">Difference between Legacy Resource Planning and Planning</a>.
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">When budgeting for resources, you must make a decision whether you are using the legacy or the new resource management tools.<br>For more information about the resource management tools in Workfront, see the article <a href="../../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md" class="MCXref xref">Difference between Legacy Resource Planning and Planning</a>. </p>
   -->
 
   <!--
-  Depending which resource planning tools you are using to budget your resources, you can track Budgeted Labor Cost in the following areas of Workfront:
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Depending which resource planning tools you are using to budget your resources, you can track Budgeted Labor Cost in the following areas of Workfront:</p>
   -->
 
   You can track the Budgeted Labor Cost of a project in the following area of Workfront:
@@ -36,13 +34,15 @@ Budgeted Cost = Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the
    * Resource Budgeting area of the Business Case or the Resource Planner
 
      <!--   
-     Legacy Resource Estimates area of the Business Case or the Capacity Planner   
+     <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Legacy Resource Estimates area of the Business Case or the Capacity Planner</li>   
      -->
 
   For information about Budgeted Labor Costs, see the article [Understand Budgeted Labor Cost and Budgeted Hours for projects](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
   <!--
-  <span class="autonumber"><span><b>Important: </b></span></span>Legacy resource planning tools are currently deprecated and will be removed from Workfront in the near future. You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments.
+  <note type="important">
+  Legacy resource planning tools are currently deprecated and will be removed from Workfront in the near future. You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments.
+  </note>
   -->
 
 * The **Budgeted Expenses Cost** in the calculation above is the Planned Cost associated with the expenses on the project, as they are calculated in the Expenses area of the Business Case or the Expenses tab of the project.  
@@ -89,7 +89,7 @@ You can view the following Budgeted Cost information in Workfront:
   </table>
 
   <!--
-  <p>The Budgeted Cost as reflected in the Resource Estimates area of the Business Case or the Capacity Planner displays in the following areas of Workfront under the following names: </p>
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <p>The Budgeted Cost as reflected in the Resource Estimates area of the Business Case or the Capacity Planner displays in the following areas of Workfront under the following names: </p>
   <table cellspacing="15">
   <col>
   <col>
@@ -103,6 +103,6 @@ You can view the following Budgeted Cost information in Workfront:
   <td> <p>Resource Estimates report</p> <p>Project report</p> <p>Project (Financial Data) report</p> <p>Task report</p> <p>Issue report</p> <p>Budgeted Hour report</p> <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td>
   </tr>
   </tbody>
-  </table>
+  </table> </li>
   -->
 

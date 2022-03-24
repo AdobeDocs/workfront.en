@@ -51,11 +51,11 @@ First, you need to set up the Custom Field section to which you will add custom 
 
 1. Make any further changes to the settings for the field:
 
-  * Hide or unhide the custom field section by clicking the **More**&nbsp;(three dot) menu to the right of the custom field section name, then clicking **Hide section** or **Unhide section**.
-  
-  * Hide or unhide the custom field by clicking the **More**&nbsp;(three dot) menu to the right of the custom field section name, then clicking **Hide custom field** or **Unhide custom field**.
-  
-  * Change the order of the fields using the up/down arrows that display to the right of their names (if you have added multiple fields in a section).
+   * Hide or unhide the custom field section by clicking the **More**&nbsp;(three dot) menu to the right of the custom field section name, then clicking **Hide section** or **Unhide section**.
+   
+   * Hide or unhide the custom field by clicking the **More**&nbsp;(three dot) menu to the right of the custom field section name, then clicking **Hide custom field** or **Unhide custom field**.
+   
+   * Change the order of the fields using the up/down arrows that display to the right of their names (if you have added multiple fields in a section).
 
 1. Open the **Visibility rules** tab.  
    Visibility rules allow you to dictate which additional fields are shown, based on the completion of the initial Custom field. For example, if the dependent field is A and the Controlling field is X, this means that Field A will only be visible if field X is completed.
@@ -64,8 +64,8 @@ First, you need to set up the Custom Field section to which you will add custom 
 
    To add a visibility rule:
 
-  1. Click **New visibility rule**&nbsp;for the module where you want to add the rule.
-  1. Select the settings you want for the rule, then click **Save**.
+   1. Click **New visibility rule**&nbsp;for the module where you want to add the rule.
+   1. Select the settings you want for the rule, then click **Save**.
 
 1. Open the **Dependency rules** tab.
 
@@ -77,8 +77,8 @@ First, you need to set up the Custom Field section to which you will add custom 
 
    To add a dependency rule:
 
-  1. Click **New dependency rule** for the module you want to add the rule.
-  1. Select the settings you want for the dependency, then click **Save**.
+   1. Click **New dependency rule** for the module you want to add the rule.
+   1. Select the settings you want for the dependency, then click **Save**.
 
 ## Manage your custom fields
 
@@ -89,19 +89,19 @@ You can view and edit the details of your Custom field section or individual Cus
 1. Click the name of the custom field section or individual custom field.&nbsp;
 1. (Conditional) If you are managing a custom field section, make any of the following changes in the **Custom field section** page:
 
-  * Edit the name of the section.
-  * Move it to a different module.
-  * Hide/show the section.
+   * Edit the name of the section.
+   * Move it to a different module.
+   * Hide/show the section.
 
 1. (Conditional) If you are managing a custom field, make any of the of the following changes on the **Custom field**&nbsp;page:
 
-  * Move the field to a different section.
-  * Edit the name of the field.
-  * Input help text (a question mark icon will appear next to the field section and the text will appear on hover over).
-  * Enable/disable the **Mandatory** setting on the field.
-  * Enable/disable the **Searchable** setting on the field.
-  * Hide/unhide the field.
-  * Edit the field type.
-  * Set/edit a default value for the field.
-  * Set up visibility and dependency rules (as described above in steps 11 and 12).
+   * Move the field to a different section.
+   * Edit the name of the field.
+   * Input help text (a question mark icon will appear next to the field section and the text will appear on hover over).
+   * Enable/disable the **Mandatory** setting on the field.
+   * Enable/disable the **Searchable** setting on the field.
+   * Hide/unhide the field.
+   * Edit the field type.
+   * Set/edit a default value for the field.
+   * Set up visibility and dependency rules (as described above in steps 11 and 12).
 

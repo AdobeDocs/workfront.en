@@ -46,13 +46,14 @@ You must have the following access to perform the steps in this article:
 
 ## Configure personal time off in Workfront
 
-1. 
-1. 
-1. More
-1. Time-off
-1. Time-off
-1. 
-1. 
+1. Click your avatar in the Global Navigation Bar.  
+   ![](assets/short-setup-with-avatar---jackie-simms-350x45.png)
+
+1. Click your name.
+1. Click the **More** tab.
+1. Click the **Time-off** tab. This displays your personal**Time-off**calendar.  
+   ![](assets/time-off-tab-350x135.png)
+
 1. Select the desired date for your personal time off. 
 1. Select&nbsp;**All day**, if you are taking a full day off.  
    Leave it unselected&nbsp;if you are taking less than a full day off and indicate the start and end times of your time off. 

@@ -47,7 +47,8 @@ You must have the following access to perform the steps in this article:
 
 ## Remove a project from a Program
 
-1. Go to a program and select the **Projects** tab.
+1. Go to a program and select the **Projects** tab.    
+   ![](assets/rpp1-350x119.png)
 
 1. Select the project you want to remove
 1. Click the **Remove Projects**&nbsp;drop-down menu.
@@ -55,7 +56,8 @@ You must have the following access to perform the steps in this article:
 
    or
 
-   Click **Remove** **from Program** to remove it from the selected program.
+   Click **Remove** **from Program** to remove it from the selected program.  
+   ![](assets/rpp2-350x157.png)
 
    If you clicked Remove from Program, the project is no longer associated with the selected program.
 

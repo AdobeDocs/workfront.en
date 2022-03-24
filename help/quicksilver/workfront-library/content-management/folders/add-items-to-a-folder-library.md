@@ -11,8 +11,7 @@ description: You can add folders and content to any folder that you create or to
 
 You can add folders and content to any folder that you create or to a folder that has been shared with you. When you use the Add To feature to add items to a folder, you don't actually add the item to the folder. Instead, you add a link to the item. The item remains in its original location.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the item you want to add is located.
 

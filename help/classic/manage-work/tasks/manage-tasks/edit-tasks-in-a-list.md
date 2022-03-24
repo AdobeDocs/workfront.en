@@ -110,7 +110,8 @@ Consider the following when saving your task list changes automatically:
 To edit tasks in a list and save changes automatically:
 
 1. Go to the project, then click the **Tasks** tab .
-1. Ensure that **Autosave** is selected in the upper-right corner of the task list. This is the default.
+1. 
+   Ensure that **Autosave** is selected in the upper-right corner of the task list. This is the default.
 
    ![](assets/autosave-setting-enabled-classic-task-list-350x196.png)
 
@@ -179,12 +180,13 @@ To edit tasks in a list and save changes automatically:
 
 ### Edit tasks in a list and manually save changes
 
-You can manually save changes you make to tasks in a list. When you save changes this way, you have the flexibility to reverse them before saving. 
+You can manually save changes you make to tasks in a list. When you save changes this way, you have the flexibility to reverse them before saving.
 
-``` ```**Tips: **``````
-
-* You cannot reverse changes you make to tasks in a list when you are editing them in the Subtasks  tab  or in a task report.
-* There are no limitations on how many changes you can reverse. You can reverse all of them one by one until you reach the original state of the tasks.
+>[!NOTE]
+>
+>* You cannot reverse changes you make to tasks in a list when you are editing them in the Subtasks  tab  or in a task report.
+>* There are no limitations on how many changes you can reverse. You can reverse all of them one by one until you reach the original state of the tasks. 
+>
 
 Consider the following when saving changes in a task list manually:
 
@@ -195,10 +197,10 @@ Consider the following when saving changes in a task list manually:
 
 There are two ways to manually save changes to tasks in a list. These two ways are described below.
 
-* [Save changes in a task list manually when you select the Manual save option](#save2)  
-* Save changes in a task list manually when you select the Timeline Planning option
+* [Save changes in a task list manually when you select the Manual save option](#save2) 
+* [Save changes in a task list manually when you select the Timeline Planning option](#save4)
 
-Save changes in a task list manually when you select the Manual save option 
+#### Save changes in a task list manually when you select the Manual save option
 
 >[!TIP]
 >
@@ -212,7 +214,8 @@ Consider the following when updating tasks in a list after selecting the Manual 
 To edit tasks in a list when selecting the Manual save option:
 
 1. Go to a project, then click the **Tasks** tab .
-1. Select **Manual save** in the upper-right corner of the task list.
+1. 
+   Select **Manual save** in the upper-right corner of the task list.
 
    >[!NOTE]
    >
@@ -278,7 +281,9 @@ To edit tasks in a list when selecting the Manual save option:
 1. Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
 1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
-Save changes in a task list manually when you select the Timeline Planning option Saving your changes and all the project dependencies is faster. This is not available for projects with more than 2000 tasks.
+#### Save changes in a task list manually when you select the Timeline Planning option
+
+Saving your changes and all the project dependencies is faster. This is not available for projects with more than 2000 tasks.
 
 >[!IMPORTANT]
 >
@@ -294,7 +299,8 @@ Consider the following when using the Timeline Planning option in a task list:
 To edit tasks in a list when using the Timeline Planning option:
 
 1. Go to a project, then click the **Tasks** tab . 
-1. Select **Timeline Planning** in the upper-right corner of the task list.
+1. 
+   Select **Timeline Planning** in the upper-right corner of the task list.
 
    This option is dimmed for projects with more than 2000 tasks.
 
@@ -393,7 +399,9 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
    For more information about ways of saving changes to tasks in a list, see the section [Considerations about editing tasks in a list](#editing) in this article. 
 
 1. Select several tasks in the tasks list. 
-1. Click **Edit**. The **Edit Tasks** dialog box opens.
+1. Click **Edit**.
+
+   The **Edit Tasks** dialog box opens.
 
 1. Specify the information you want to change for all the tasks you selected.
 

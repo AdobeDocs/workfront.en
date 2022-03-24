@@ -50,24 +50,24 @@ You must have the following access to perform the steps in this article:
 
 1. Do one of the following:
 
-  * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**.  
-  * Go to a portfolio, then expand **New Project**. 
-  * Go to a program, then expand **New Project**. 
-  * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](view-manage-projects-groups-area.md).
+   * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**.  
+   * Go to a portfolio, then expand **New Project**. 
+   * Go to a program, then expand **New Project**. 
+   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](view-manage-projects-groups-area.md).
 
-1. Click&nbsp;**Request Project**. 
+1. Click&nbsp;**Request Project**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Do one of the following:
 
-  * Follow the same steps as for creating a project while defining a Business Case. (recommended)
+   * Follow the same steps as for creating a project while defining a Business Case. (recommended)
 
-    For information about defining a Business Case and requesting a project, see [Creating a Business Case](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     For information about defining a Business Case and requesting a project, see [Creating a Business Case](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-  * Create a project from scratch or using a template and change the status to&nbsp;**Requested**.
+   * Create a project from scratch or using a template and change the status to&nbsp;**Requested**.
 
-    For information about creating a project, see [Creating a Project](../../../manage-work/projects/create-projects/create-project.md) or [Creating a Project Using a Template](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     For information about creating a project, see [Creating a Project](../../../manage-work/projects/create-projects/create-project.md) or [Creating a Project Using a Template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
    The project you request has a status of&nbsp;**Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio. A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.
 

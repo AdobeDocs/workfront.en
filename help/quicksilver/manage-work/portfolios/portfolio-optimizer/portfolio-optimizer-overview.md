@@ -27,10 +27,10 @@ For information about locating the Portfolio Optimizer, see [Locate the Portfoli
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Locate the Portfolio Optimizer</h2>
 <ol>
-<li value="1"> <p> From the <strong>Main Menu</strong>, click <strong>Portfolios</strong>. </p> The portfolios you own display by default. </li>
+<li value="1"> <p> From the <strong>Main Menu</strong>, click <strong>Portfolios</strong>. </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The portfolios you own display by default.</p> </li>
 <li value="2"> (Optional) From the <strong>Filter</strong> drop-down menu, select to view a different set of portfolios.  </li>
 <li value="3"> Click the name of a portfolio to access it. </li>
-<li value="4"> <p> Click <strong>Portfolio Optimization</strong> in the left panel.</p> <p>The Portfolio Optimizer displays.</p> <p>  </p> </li>
+<li value="4"> <p> Click <strong>Portfolio Optimization</strong> in the left panel.</p> <p>The Portfolio Optimizer displays.</p> <p> <img src="assets/nwe-portfolio-optimizer-350x83.png" style="width: 350;height: 83;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 </ol>
 </div>
 -->
@@ -58,6 +58,8 @@ You can view financial information in the following areas of the Portfolio Optim
 * **Portfolio Header**: This area displays financial information gathered from all the projects in the portfolio. It displays on every tab of the Portfolio object. 
 * **Portfolio Finances for Selected Projects**: This area displays financial information gathered from the projects which are selected in the Portfolio Optimizer. You can add or remove projects and understand how this will affect the finances of the portfolio by viewing the information in this area. 
 * **Projects Finances**: This area displays the financial information of each project listed in the Portfolio Optimizer.
+
+  ![](assets/qs-portfolio-optimizer-with-highlighted-areas-350x172.png)
 
 ### The financial fields in the Portfolio Optimizer
 
@@ -158,29 +160,30 @@ You can customize only the project list area of the Portfolio Optimizer by using
 
 The following icons and options are available for the Portfolio Optimizer:
 
-<table cellspacing="15">  
+<table cellspacing="15"> 
+ <col data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
    <th>Icon in the Portfolio Optimizer</th> <!--
-    <strong>Name</strong> 
+    <th data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"><strong>Name</strong> </th>
    --> <!--
-    <strong>Function</strong> 
+    <th data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"><strong>Function</strong> </th>
    --> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> <!--
-    Set project priority
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Set project priority</td>
    --> <!--
-    Use this icon when you want to save the project order, based on their priority. 
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Use this icon when you want to save the project order, based on their priority. </td>
    --> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> <!--
-    Optimize portfolio
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Optimize portfolio</td>
    --> 
    <td>Use this icon to optimize the portfolio based on the following financial values of the projects:
     <ul>
@@ -193,21 +196,21 @@ The following icons and options are available for the Portfolio Optimizer:
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-undo-redo-icons-optimizer.png"> </td> <!--
-    Undo/ Redo icons
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Undo/ Redo icons</td>
    --> <!--
-    Use these icons to cancel or redo the changes you made to the Portfolio Optimizer before saving.
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Use these icons to cancel or redo the changes you made to the Portfolio Optimizer before saving.</td>
    --> 
   </tr> 
   <tr> 
    <td> <img src="assets/hide-show-unselected-portfolio-optimizer-142x74.png" alt="hide_show_unselected_portfolio_optimizer.png" style="width: 142;height: 74;"> </td> <!--
-    Show/ Hide unchecked projects
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Show/ Hide unchecked projects</td>
    --> <!--
-    Use these icons to display or hide the projects in the portfolio that you have unchecked. 
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Use these icons to display or hide the projects in the portfolio that you have unchecked. </td>
    --> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-export-optimizer-icon-350x173.png" style="width: 350;height: 173;"> </td> <!--
-    Export
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Export</td>
    --> 
    <td> <p>Use this icon to export the data in the Project Prioritization area of the Portfolio Optimizer. You can export it to the following formats:</p> 
     <ul> 
@@ -218,27 +221,22 @@ The following icons and options are available for the Portfolio Optimizer:
   </tr> 
   <tr> 
    <td> <img src="assets/preferences-portfolio-optimizer.png" alt="preferences_portfolio_optimizer.png"> </td> <!--
-    Preferences
-   --> <!-- 
-    <p>Use this icon to modify the project fields displayed in the columns of the Portfolio Optimizer, or to modify what projects you display in the Optimizer, based on their statuses. </p> 
-    <div class="tips" data-mc-autonum="<b>Tips: </b>">
-     <span class="autonumber"><span><b>Tips: </b></span></span> 
-     <ul> 
-      <li> <p>Not all&nbsp;Workfront standard fields are available to add in the columns. </p> </li> 
-     </ul> 
-     <ul> 
-      <li> <p>You can add only the custom fields that have a value other than zero in any of the projects in the portfolio.</p> </li> 
-     </ul> 
-    </div> 
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Preferences</td>
+   --> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"> <p>Use this icon to modify the project fields displayed in the columns of the Portfolio Optimizer, or to modify what projects you display in the Optimizer, based on their statuses. </p> <p>Tips:  
+      <ul> 
+       <li> <p>Not all&nbsp;Workfront standard fields are available to add in the columns. </p> </li> 
+      </ul> 
+      <ul> 
+       <li> <p>You can add only the custom fields that have a value other than zero in any of the projects in the portfolio.</p> </li> 
+      </ul> </p> </td>
    --> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>&nbsp;</td> <!--
-     Full screen
+     <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Full screen</td>
     --> <!--
-     Use this icon to display the Portfolio Optimizer in full-screen mode, or to end the full-screen mode and return to the default view.
-     <br>
-     <p>Note:  This view is not supported in the new Portfolio Optimizer.</p>
+     <td data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">Use this icon to display the Portfolio Optimizer in full-screen mode, or to end the full-screen mode and return to the default view.<br><p>Note:  This view is not supported in the new Portfolio Optimizer.</p></td>
     --> 
    </tr>
   --> 

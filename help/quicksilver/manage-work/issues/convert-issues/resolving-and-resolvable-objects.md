@@ -32,7 +32,7 @@ For information about setting up preferences for handling Resolvable Objects, se
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
 <ol>
 <li value="1">Log in to Workfront as a Workfront administrator <span>or group administrator.</span></li>
-<li value="2"> <p> From the main menu, click <strong>Setup</strong>. </p> <p>  </p> </li>
+<li value="2"> <p> From the main menu, click <strong>Setup</strong>. </p> <p> <img src="assets/qs-main-menu-expanded-with-menu-highlight-350x628.png" style="width: 350;height: 628;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3">Expand <strong>Project Preferences</strong>.</li>
 <li value="4">Click <strong>Tasks & Issues</strong>.</li>
 <li value="5">Go to the <strong>Issues</strong> area of the setup.<br><img src="assets/qs-setup-project-preferences-issues-area-350x214.png" style="width: 350;height: 214;"><br>Consider editing any of the following settings:
@@ -84,8 +84,8 @@ For more information about converting issues to tasks and projects, see [Overvie
 <p>To tie the resolution of an issue to the resolution of a project, task, or issue:</p>
 <ol>
 <li value="1">Navigate to an issue whose resolution you want to tie to a task or a project.</li>
-<li value="2"> <p> Click the <strong>Issue Details</strong> > <strong>Overview</strong> area.</p> <p>  </p> </li>
-<li value="3"> Click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Issue Details section.  </li>
+<li value="2"> <p> Click the <strong>Issue Details</strong> > <strong>Overview</strong> area.</p> <p> <img src="assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png" style="width: 350;height: 462;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> in the upper-right corner of the Issue Details section. </p> </li>
 <li value="4">At the bottom of the form, click in the <strong>Resolved By</strong> field, and select from the following types of resolving objects:
 <ul>
 <li><strong>Project</strong></li>
@@ -175,6 +175,8 @@ Locating the resolving object is identical for tasks and projects.
 
 1. Navigate to a project or a task which you created by converting an issue to the project or the task.
 1. Click the **Project Details** or the **Task Details** icon and click to expand it.
+
+   ![](assets/qs-details-icon-applies-to-all-objects.png)
 
 1. Click **Overview**. 
 1. At the bottom of the tab, locate to **This Resolves** field: the issue which is the Resolvable Object of the project or the task is listed in this field.

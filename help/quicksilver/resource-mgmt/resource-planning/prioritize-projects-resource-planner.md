@@ -113,9 +113,9 @@ To edit the Project Planning Priority:
 
    If you have projects that belong to more than one portfolio, you could see multiple projects with the same portfolio priority in the Resource Planner. In this case, the projects with the same portfolio priority are listed by the following criteria, in this order:
 
-  1. Alignment Score
-  1. Planned Start Date
-  1. Project Name
+   1. Alignment Score
+   1. Planned Start Date
+   1. Project Name
 
    ![](assets/rp-portfolio-priority-ordered-350x225.png)
 

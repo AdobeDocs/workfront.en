@@ -56,15 +56,15 @@ You must have the following in order to manage companies in Workfront:
 * As a project manager, you can identify available resources within the same company.
 * You can keep information private between companies by choosing one or all of the following settings:
 
-  * Users from the same company can see each others’ requests.
+   * Users from the same company can see each others’ requests.
 
-    For more information about how a Workfront administrator can give similar access to requests based on users' company, see the section [Configure task and issues preferences for everyone in Workfront](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) in the article [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+     For more information about how a Workfront administrator can give similar access to requests based on users' company, see the section [Configure task and issues preferences for everyone in Workfront](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) in the article [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-    For more information about how a group administrator can give similar access to requests based on users' company, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
-  
-  * Users can see only request queues that are associated with their companies. For more information about restricting visibility of a request queue, see [Provide access to request queues](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
-  * You can restrict users to only see users in their company or their company and the primary company. For information about the primary company functionality regarding user privacy, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-  * Users can restrict updates they make on items to be visible by their company users only. For more information about making an update private to a company, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     For more information about how a group administrator can give similar access to requests based on users' company, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+   
+   * Users can see only request queues that are associated with their companies. For more information about restricting visibility of a request queue, see [Provide access to request queues](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
+   * You can restrict users to only see users in their company or their company and the primary company. For information about the primary company functionality regarding user privacy, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   * Users can restrict updates they make on items to be visible by their company users only. For more information about making an update private to a company, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Create or edit a company in Workfront
 

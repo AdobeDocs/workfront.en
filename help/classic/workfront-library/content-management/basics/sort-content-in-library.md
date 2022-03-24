@@ -13,7 +13,7 @@ You can sort the items that display in an area in Workfront Library. You can sor
 
 When you sort items in Workfront Library, you sort only your instance of Workfront Library.
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area you want to sort.
 
@@ -21,7 +21,9 @@ When you sort items in Workfront Library, you sort only your instance of Workfro
    * Users with Viewer access can sort their Library and Collections areas.
 
 1. Click the **Sort** drop-down arrow icon ![](assets/sort-icon.png).
-   Depending on the last sort you completed, the Sort drop-down menu is called either Name or Last Modified. 
+
+   Depending on the last sort you completed, the Sort drop-down menu is called either Name or Last Modified.
+
 1. Select the sort criterion.
 
    You can choose from the following criteria:

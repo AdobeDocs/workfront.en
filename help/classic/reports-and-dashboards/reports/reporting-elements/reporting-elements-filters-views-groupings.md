@@ -37,10 +37,16 @@ Some attributes of filters are:
 * You can customize filters that you own or manage.  
   For more information about filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
+![](assets/screen-shot-2013-09-03-at-8.17.40-am-350x136.png)
+
 ## Views
 
 By defining the view of a report, you define what information you include in the report. Like all reporting elements, views are based on one object type.  
 For example, a view for a task report could show Due Dates, include key financial details such as Cost, or be used to show Assignments and Delivery Date details. Views can be used to deliver a variety of details about the data in the report.
+
+![](assets/screen-shot-2014-02-11-at-4.37.25-pm-350x104.png)
+
+![](assets/screen-shot-2014-02-11-at-4.37.06-pm-350x101.png)
 
 Some attributes of views are:
 
@@ -60,11 +66,15 @@ Some attributes of groupings are:
 
 * Groupings are a mandatory reporting element if you want to later add a chart to your report.
 * Groupings display an aggregate value in the results.​  
+  ![](assets/screen-shot-2013-09-03-at-8.08.53-am-350x129.png)
+
 * Groupings determine the axis in charts.
 * Groupings determine the header identification in matrix reports.  
   For more information about matrix reports, see the article [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 * Groupings help build the Summary tab of a report, providing the aggregated values of the report.
+
+  ![](assets/6-350x106.png)
 
 * Workfront provides a number of groupings for different objects by default.
 * You can customize groupings that you own or manage.

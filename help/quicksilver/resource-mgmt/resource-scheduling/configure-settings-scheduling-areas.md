@@ -54,9 +54,9 @@ When scheduling resources  in the Scheduling section for a team , issues are dis
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. Click the **Settings** icon on the scheduling timeline.  
 
@@ -71,9 +71,9 @@ You can configure the scheduling timeline to display work that has already been 
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. Click the **Settings** icon on the scheduling timeline.  
 
@@ -95,8 +95,8 @@ To display project names on tasks and issues on the scheduling timeline:
 
 1. Go to the scheduling timeline for multiple projects or for a team:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. Click the **Settings** icon on the scheduling timeline.  
 
@@ -127,9 +127,9 @@ To configure the scheduling timeline to display tasks and issues according to Pr
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. Click the&nbsp;**Settings**&nbsp;icon on the scheduling timeline.  
 
@@ -226,18 +226,18 @@ To configure the scheduling timeline to display the daily totals for the Planned
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. Click the **Settings** icon on the scheduling timeline.  
 
 1. In the Settings dialog box, enable the following options:
 
-  * &nbsp;**Show Totals for Daily Planned Hours**: Shows the total of the daily Planned Hours for each user.
-  * **Show Resource Allocation Highlighting**: Highlights the allocation of the user for tasks and issues, as well as highlights the days when the users are overallocated.  
-    These options are disabled by default.  
-    ![RS_all_settings__1_.png](assets/rs-all-settings--1--350x358.png)
+   * &nbsp;**Show Totals for Daily Planned Hours**: Shows the total of the daily Planned Hours for each user.
+   * **Show Resource Allocation Highlighting**: Highlights the allocation of the user for tasks and issues, as well as highlights the days when the users are overallocated.  
+     These options are disabled by default.  
+     ![RS_all_settings__1_.png](assets/rs-all-settings--1--350x358.png)
 
 1. Click **Return to Scheduling**.  
    The total of Planned Hours allocated to the user display for each day.  

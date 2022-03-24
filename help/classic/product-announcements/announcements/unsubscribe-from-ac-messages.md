@@ -19,12 +19,11 @@ Announcement Center messages are messages that are sent from Adobe Workfront to 
 To unsubscribe from receiving Announcement Center messages:
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
-1. Announcements
-1. View All Announcements
-1. 
+1. Click the **Announcements**&nbsp;heading or click **View All Announcements** at the bottom of the list.  
+
 1. The **Announcements** page appears, listing all of your announcements.
 
-   ![](assets/4-350x163.png)   
+   ![](assets/4-350x163.png)
 
 1. Click **Settings** in the upper-right corner of the Announcements page, then select **New Releases** or Training, depending on the type of announcements you no longer want to receive.
 

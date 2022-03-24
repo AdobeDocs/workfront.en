@@ -85,25 +85,29 @@ For information about creating requests from existing drafts, see [Create reques
 
 To create a request in the Workfront web app:&nbsp;
 
-1. Go to the **Requests** area in the Global Navigation Bar. 
-1. Click **New Request**. 
+1. Go to the **Requests** area in the Global Navigation Bar.
+1. Click **New Request**.
 1. From the **Select a Request Type** drop-down menu, do one of the following:
-1.
 
    * (Conditional) Select an available draft from the **Recent Drafts** section.  
      The three most recent drafts from three different queue topics display by default. This area displays only if you have saved drafts before without submitting them.
 
      ![](assets/new-requests-with-drafts-drop-down-350x142.png)
 
-   * Choose or search for a request queue for your request from the **New Request** tab, then click it when it displays in the list. 
-   
-     ``` ```**Tips: **``````
+   * Choose or search for a request queue for your request from the **New Request** tab, then click it when it displays in the list.
 
-      * The first 200 requests queues display by default, in alphabetical order. 
-      * The name of the request queue is the name of the project which has been published as a Help Request Queue. 
-      * Hovering over the information icon ![](assets/information-icon-classic.png) next to the name of the selected request queue displays the description of the project configured as a request queue.
+     >[!NOTE]
+     >
+     >
+     >   
+     >   
+     >   * The first 200 requests queues display by default, in alphabetical order. 
+     >   * The name of the request queue is the name of the project which has been published as a Help Request Queue. 
+     >   * Hovering over the information icon ![](assets/information-icon-classic.png) next to the name of the selected request queue displays the description of the project configured as a request queue. 
+     >   
+     >   
+     >For more information about how to publish a project as a Help&nbsp;Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-     For more information about how to publish a project as a Help&nbsp;Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
      If you have started a request for this request type before and you did not submit it when you first created it, a notification displays under the request type you selected to let you know that a draft of your request is saved in the Drafts area. The first two drafts are listed by default.&nbsp;Click **See all <number> drafts** to see a list of all available drafts for the request type you selected, then click the one you want to continue editing when you see it in the list.
 
      ![](assets/multiple-drafts-warning-350x199.png)
@@ -164,13 +168,19 @@ To create a request in the Workfront web app:&nbsp;
      <tr> 
       <td role="rowheader"><strong>Primary Contact</strong> </td> 
       <td>The Primary Contact of a request defaults to you, as you are the point person to address any questions pertaining to the request. However, you can change this to any other Workfront user.</td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><strong>Assigned To*</strong> </td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Specify the name of an active user who this request should be assigned to. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate users. You can specify only one user. </p> </td>   
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><strong>Job Role*</strong> </td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Specify the name of an active job role that the request should be assigned to.&nbsp;We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate job roles. You can specify only one role. </p> </td>   
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><strong>Team*</strong> </td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Specify the name of an active team that the request should be assigned to.&nbsp;We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate teams. You can specify only one team. </p> </td>  
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader"><strong>Assigned To*</strong> </td> 
+      <td> <p>Specify the name of an active user who this request should be assigned to. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate users. You can specify only one user. </p> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader"><strong>Job Role*</strong> </td> 
+      <td> <p>Specify the name of an active job role that the request should be assigned to.&nbsp;We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate job roles. You can specify only one role. </p> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader"><strong>Team*</strong> </td> 
+      <td> <p>Specify the name of an active team that the request should be assigned to.&nbsp;We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate teams. You can specify only one team. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p>Note:  <p style="font-weight: normal;">* Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
         <ul> 

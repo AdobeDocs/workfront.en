@@ -9,7 +9,7 @@ description: In the Documents area, you can organize, manage, and view metadata 
 
 # The Documents area
 
-In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront. 
+In the Documents area, you can organize, manage, and view metadata for documents uploaded to Adobe Workfront.
 
 ![](assets/document-details-350x210.png)
 
@@ -23,7 +23,9 @@ For information about uploading documents to Workfront, see [Add documents to Ad
 
 ##  Right panel
 
-While you select a document in the documents area, you can use the right panel to view document **Details**, manage document **Updates** and approvals, and add and edit **Custom Forms**. You can click the double arrow ![](assets/double-arrow-icon-collaps-rt-panel.png) at the top left of this panel to collapse it when you don't need it.  ![](assets/documents-area-right-panel-350x211.png)  
+While you select a document in the documents area, you can use the right panel to view document **Details**, manage document **Updates** and approvals, and add and edit **Custom Forms**. You can click the double arrow ![](assets/double-arrow-icon-collaps-rt-panel.png) at the top left of this panel to collapse it when you don't need it.
+
+![](assets/documents-area-right-panel-350x211.png)
 
 ## Folders
 

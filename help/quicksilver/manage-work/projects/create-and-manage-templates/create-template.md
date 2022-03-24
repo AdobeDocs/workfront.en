@@ -37,7 +37,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> System administrator for importing templates from Blueprints </td> 
+   <td> <p>Plan </p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">System administrator for importing templates from Blueprints</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -63,7 +63,7 @@ You must have the following:
    ![New template](assets/create-template-nwe-2022-350x186.png)
 
 1. Specify a name for the new template in the template header, then press **Enter.**
-1. Click the **Template Tasks** section in the left panel.  
+1. Click the **Template Tasks** section in the left panel. 
 1. Click**Start Adding Template Tasks**.
 
    Or

@@ -66,8 +66,8 @@ To request permissions:
 
 1. In the **Request access to** drop-down menu, indicate what level of permissions you wish to be granted.&nbsp;Select from the following:
 
-  * View
-  * Manage
+   * View
+   * Manage
 
    You cannot request a permission that is higher than your access level to the Scenario Planner. For example, you cannot request Manage permissions if you have View access to the Scenario Planner.
 
@@ -79,14 +79,14 @@ To request permissions:
 
    The following happens:&nbsp;
 
-  * Workfront sends an email notification to the plan owner where they can grant the permissions requested.  
-    ![](assets/request-access-to-plan-email-350x156.png)
+   * Workfront sends an email notification to the plan owner where they can grant the permissions requested.  
+     ![](assets/request-access-to-plan-email-350x156.png)
 
-  * After the plan owner grants the permissions requested, you receive an email that the permissions have been granted if your Workfront administrator has the Object share to user notification enabled in your system and you enable the Someone shares an object with me email notification in your profile.
+   * After the plan owner grants the permissions requested, you receive an email that the permissions have been granted if your Workfront administrator has the Object share to user notification enabled in your system and you enable the Someone shares an object with me email notification in your profile.
 
-    ![](assets/access-granted-to-plan-email-350x172.png)
+     ![](assets/access-granted-to-plan-email-350x172.png)
 
-  * You can also grant permissions to plans from the Home area and from the Workfront mobile app.
+   * You can also grant permissions to plans from the Home area and from the Workfront mobile app.
 
    For information about enabling system notifications, see [Configure event notifications for everyone in the system](../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 

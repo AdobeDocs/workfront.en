@@ -53,6 +53,7 @@ For more information on creating reports, see [Create a report](../../../reports
 
 1. Select the **Filters** tab.
 1. Click **Add a Filter Rule**, then select **Hour Entry Date**.  
+   ![](assets/filtering-hour-report-by-timeframe-350x272.png)
 
 1. In the following drop-down menu, select any of the following options:
 

@@ -15,6 +15,8 @@ For information about understanding objects and how they can be reported on in t
 
 ## Report elements
 
+![report_elements.png](assets/classic-reporting-elements-350x188.png)
+
 Reports are a combination of the following 3 elements in Workfront:
 
 <table cellspacing="0"> 
@@ -108,6 +110,8 @@ For information on copying reports, see the article [Create a copy of a report](
 
 You can see who owns a report by checking the **Entered By** field.
 
+![](assets/classic-entered-by-350x221.png)
+
 ### Create reports in the builder interface
 
 We recommend that you use the report building interface first to build a new report. The interface offers a streamlined set of tools that walk you through putting elements together to create the report you want. You have objects and fields that you can select from lists and add to all your reporting elements.  
@@ -186,13 +190,16 @@ The Details tab of a report displays the object of the reports and the attribute
 >Information in the Details tab may display differently from the Chart tab based on your time zone.  
 >For example, a user in California completed a task at 9:30 pm PST on February 12. When a user in New York views a report that includes this task completion, the Actual Completion Date displays as February 13 in both the Details tab because it was completed at 12:30 am EST on February 13. However, in the chart, it is included in the February 12 grouping until you expand the chart element.
 
+![report_Details_tab.png](assets/report-details-tab-350x112.png)
+
 ### Summary tab
 
 Reports that include a Grouping have a Summary tab.
 
 The same information displayed in list format on the Details tab is summarized and aggregated according to the groupings in the report on the Summary tab.
 
-For information about Groupings, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+For information about Groupings, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).  
+![report_summary_tab.png](assets/report-summary-tab-350x164.png)
 
 ### Matrix tab
 
@@ -202,7 +209,8 @@ The same information displayed in list format on the Details tab is displayed in
 
 When you add a Matrix grouping to a report, the Summary tab is replaced by the Matrix tab.
 
-For information about building a Matrix Grouping, see the article [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+For information about building a Matrix Grouping, see the article [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).  
+![report_matrix_tab.png](assets/report-matrix-tab-350x156.png)
 
 ### Chart tab
 
@@ -215,7 +223,8 @@ Consider including a chart in your reports for impactful dashboards for your exe
 >When you click a chart element, the expanded information may display differently from the chart based on your time zone.  
 >For example, a user in California completed a task at 9:30 pm PST on February 12. When a user in New York views a report that includes this task completion, the Actual Completion Date displays as February 13 in both the Details tab and the Chart details because it was completed at 12:30 am EST on February 13. However, in the chart, it is included in the February 12 grouping until you expand the chart element.
 
-For information about building a report with a chart, see the article [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+For information about building a report with a chart, see the article [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).  
+![report_chart_tab.png](assets/report-chart-tab-350x149.png)
 
 ### Prompts tab
 
@@ -223,7 +232,8 @@ Reports that include a prompt have a Prompts tab.
 
 A prompt allows you to add a filter to a report every time you run the report. When you add a prompt to the report, the Prompts tab becomes the default tab of the report automatically. This cannot be changed to another tab.
 
-For information about building a prompt for a report, see the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+For information about building a prompt for a report, see the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).  
+![report_prompt_tab.png](assets/report-prompt-tab-350x174.png)
 
 ## Share reports
 

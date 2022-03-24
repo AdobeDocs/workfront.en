@@ -47,29 +47,29 @@ Consider the following when editing tasks in a list:
 
 * Unlike needing Manage permissions to the task when editing it in the Edit Box, you can edit a task in a list only with Contribute permissions to the task. This allows you to edit the following limited information for the task:
 
-  * Description
-  * Status
-  * Percent Complete
-  * Custom&nbsp;Form information
+   * Description
+   * Status
+   * Percent Complete
+   * Custom&nbsp;Form information
 
-    >[!NOTE]
-    >
-    >You can edit a task custom field in a list only if you have permissions to update the field.
+     >[!NOTE]
+     >
+     >You can edit a task custom field in a list only if you have permissions to update the field.
 
-  * Log hours
-  * Modify Assignments
-  * View finance information 
-  * Add expenses, tasks, or issues
+   * Log hours
+   * Modify Assignments
+   * View finance information 
+   * Add expenses, tasks, or issues
 
 * You can edit a task in the following lists:
 
-  * The Tasks  section  of the project
-  * The Subtasks  section  of the project
-  * A task report
+   * The Tasks  section  of the project
+   * The Subtasks  section  of the project
+   * A task report
 
-    >[!NOTE]
-    >
-    >By default, Workfront automatically saves your changes to tasks in the Subtasks  section or in a task report.
+     >[!NOTE]
+     >
+     >By default, Workfront automatically saves your changes to tasks in the Subtasks  section or in a task report.
 
 * You can control when Workfront saves the changes you make to the tasks in a list. Your changes can be saved automatically or you can manually save them.
 
@@ -110,7 +110,8 @@ Consider the following when saving your task list changes automatically:
 To edit tasks in a list and save changes automatically:
 
 1. Go to the project, then click the **Tasks** section .
-1. Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and make sure that the **Autosave** option is selected.
+1. 
+   Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and make sure that the **Autosave** option is selected.
 
    ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -179,27 +180,33 @@ To edit tasks in a list and save changes automatically:
 
 ### Edit tasks in a list and manually save changes
 
-You can manually save changes you make to tasks in a list. When you save changes this way, you have the flexibility to reverse them before saving. 
+You can manually save changes you make to tasks in a list. When you save changes this way, you have the flexibility to reverse them before saving.
 
-``` ```**Tips: **``````
-
-* You cannot reverse changes you make to tasks in a list when you are editing them in the Subtasks  section  or in a task report.
-* There are no limitations on how many changes you can reverse. You can reverse all of them one by one until you reach the original state of the tasks.
+>[!NOTE]
+>
+>* You cannot reverse changes you make to tasks in a list when you are editing them in the Subtasks  section  or in a task report.
+>* There are no limitations on how many changes you can reverse. You can reverse all of them one by one until you reach the original state of the tasks. 
+>
 
 Consider the following when saving changes in a task list manually:
 
 * In order to save task list changes manually, you need permissions to Manage both the tasks and the project. 
 * You cannot edit the project. The option to edit the project is disabled. 
-* Subscribe to the project. Add the project to your list of favorites.  Open a task by clicking the its name in the list. 
+* You cannot update information in the header of the project. You can only do the following when manually saving the changes in the task list:
+
+   * Subscribe to the project.
+   * Add the project to your list of favorites. 
+   * Open a task by clicking the its name in the list.
+
 * dit the tasks in bulk. The Edit icon is disabled when selecting multiple tasks. 
 * Workfront triggers notifications about the changes you make to the tasks only after you save your changes.
 
 There are two ways to manually save changes to tasks in a list. These two ways are described below.
 
-* [Save changes in a task list manually when you select the Manual save Standard option](#save3)  
-* Save changes in a task list manually when you select the Manual save Timeline Planning option
+* [Save changes in a task list manually when you select the Manual save Standard option](#save3) 
+* [Save changes in a task list manually when you select the Manual save Timeline Planning option](#save5)
 
-Save changes in a task list manually when you select the Manual save Standard option 
+#### Save changes in a task list manually when you select the Manual save Standard option
 
 >[!TIP]
 >
@@ -213,7 +220,8 @@ Consider the following when updating tasks in a list after selecting the Manual 
 To edit tasks in a list when selecting the Manual save Standard option:
 
 1. Go to a project, then click the **Tasks** section .
-1. Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Standard** > **Apply**.
+1. 
+   Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Standard** > **Apply**.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -275,7 +283,9 @@ To edit tasks in a list when selecting the Manual save Standard option:
 1. Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
 1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
-Save changes in a task list manually when you select the Manual save Timeline Planning option Saving your changes and all the project dependencies is faster. This is not available for projects with more than 2000 tasks.
+#### Save changes in a task list manually when you select the Manual save Timeline Planning option
+
+Saving your changes and all the project dependencies is faster. This is not available for projects with more than 2000 tasks.
 
 >[!IMPORTANT]
 >
@@ -291,7 +301,8 @@ Consider the following when using the Manual save Timeline Planning option in a 
 To edit tasks in a list when using the Manual save Timeline Planning option:
 
 1. Go to a project, then click the **Tasks** section . 
-1. Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Timeline Planning**> **Apply**.
+1. 
+   Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Timeline Planning**> **Apply**.
 
    This option is dimmed for projects with more than 2000 tasks.
 
@@ -303,23 +314,23 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
    Notice the following changes in the list:
 
-  * The View, Grouping, and Filter drop-down menus are removed and the view is replaced by the following fields:
+   * The View, Grouping, and Filter drop-down menus are removed and the view is replaced by the following fields:
 
-    * Task Number
-    * Task Name
-    * Constraint Type
-    * Duration
-    * Planned Start Date
-    * Planned Completion Date
-    * Predecessors
-    * Assignments
-    * Status
-    * Percent Complete
+      * Task Number
+      * Task Name
+      * Constraint Type
+      * Duration
+      * Planned Start Date
+      * Planned Completion Date
+      * Predecessors
+      * Assignments
+      * Status
+      * Percent Complete
 
-  * The Agile view icon is removed. 
-  * A toolbar setting displays with options to undo, redo, and save your changes.
+   * The Agile view icon is removed. 
+   * A toolbar setting displays with options to undo, redo, and save your changes.
 
-    ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Edit any field that you have permissions to update manually.
 
@@ -375,15 +386,36 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 1. Workfront updates all in-project and cross-project dependencies when you change the timeline of a task. 
 1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
-Edit a task in a list using the Summary
+## Edit a task in a list using the Summary
 
-1. Click**Tasks** in the left panel.  The list of tasks on the project displays.  
-1. Click the More menu ![](assets/more-icon-task-list.png) after the task name, then click **Open Summary**. Select the task you want to ```edit,``` then click the **Open Summary icon** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in the upper-right corner of the list. The **Summary** opens.  ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
+1. Go to the project containing tasks you want to edit.
+1. Click**Tasks** in the left panel.
 
-1. (Optional) Click the **X icon** in the upper-right of the Summary to close the panel and edit the tasks inline.  Follow the steps about editing a task in a list to inline edit the task.  For information about editing the task in a list, see [Considerations about editing tasks in a list](#editing) in this article.  
+   The list of tasks on the project displays. 
 
-1. Updates
-1. Click any of the following icons or areas to go to the task and edit information at the task level:  ```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">``` ```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">``` ```<tbody>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> <span style="font-weight: bold;">Documents</span>  Click <strong>Click here to add</strong> to add documents to the task.  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> <span style="font-weight: bold;">Details</span>  Click to update information about the task.  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> <span style="font-weight: bold;">Custom Forms</span>  Click to add or remove Custom Forms or update information on the forms.   </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> <span style="font-weight: bold;">Hours</span>  Click to log hours.  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> <span style="font-weight: bold;">Approvals</span>  Click to add task approvals.   </tr> </tbody>```
+1. Click the More menu ![](assets/more-icon-task-list.png) after the task name, then click **Open Summary**. Select the task you want to ```edit,``` then click the **Open Summary icon** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in the upper-right corner of the list.
+
+   The **Summary** opens.
+
+   ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
+
+1. (Optional) Click the **X icon** in the upper-right of the Summary to close the panel and edit the tasks inline.
+
+   Follow the steps about editing a task in a list to inline edit the task.
+
+   For information about editing the task in a list, see [Considerations about editing tasks in a list](#editing) in this article. 
+
+1. (Optional) Type an update for the task in the **Updates** area. 
+1. Click any of the following icons or areas to go to the task and edit information at the task level:
+
+   | ```Documents```  |Click **Click here to add** to add documents to the task. |
+   |---|---|
+   | ```Details```  |Click to update information about the task. |
+   | ```Custom Forms```  |Click to add or remove Custom Forms or update information on the forms.  |
+   | ```Hours```  |Click to log hours. |
+   | ```Approvals```  |Click to add task approvals.  |
+
+1. Click the back button on your browser to return to the task list when you finish updating the task.
 
 ## Edit tasks in bulk
 
@@ -400,7 +432,9 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
    For more information about ways of saving changes to tasks in a list, see the section [Considerations about editing tasks in a list](#editing) in this article. 
 
 1. Select several tasks in the tasks list. 
-1. Click the **Edit icon** ![](assets/qs-edit-icon.png).  The **Edit Tasks** dialog box opens.
+1. Click the **Edit icon** ![](assets/qs-edit-icon.png).
+
+   The **Edit Tasks** dialog box opens.
 
 1. Specify the information you want to change for all the tasks you selected.
 

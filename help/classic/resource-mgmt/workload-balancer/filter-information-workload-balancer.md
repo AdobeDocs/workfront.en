@@ -120,15 +120,114 @@ Depending on where you access the Workload Balancer from, the Unassigned and&nbs
 
 The process for creating filters for the Unassigned Work and Assigned Work areas in the Workload Balancer is identical, regardless of where you access the Workload Balancer from. For information about locating the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-You can create a filter from scratch or edit one of the predefined filters. For information about existing filters that you can edit, see the [Edit an existing filter in the Workload Balancer](#edit2) section in this article. 
-```<li value="1"> <p>Go to the Workload Balancer.</p> <p>For information about accessing the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a>.</p> </li>``` ```<li value="2"> <p>Click the <strong>Filter</strong> icon <img src="assets/filter-icon.png"> in the upper-right corner of either the <strong>Unassigned Work</strong> or the <strong>Assigned Work</strong> areas.</p> <p>The list of filters and filter builder box displays on the right. </p> <p>The filter builder box displays on the right. The name of the area you create the filter for displays in the header of the box.</p> <p> <img src="assets/filter-list-empty-state-wb-classic-350x240.png" style="width: 350;height: 240;"> </p> </li>``` ```<li value="3"> <p>(Optional and conditional) If you access the Workload Balancer in the People area, the predefined Default filter might already be applied to the Assigned Work area. You can edit and save a copy of this filter. </p> <note type="tip">  The Default filter displays users that belong to any of your teams and their work items. You can edit a copy of this filter.  </note> <p>If you access the Workload Balancer from a project, select one of the following predefined filters in the Assigned Work area:</p>  <ul>   <li> <p><strong>All work items</strong>: Displays work items assigned to users in this project and their work items in other projects. This is the filter selected by default. You cannot edit this filter.</p> </li>   <li> <p><strong>This project's work items</strong>: Displays only work items assigned to users in this project. You can edit and save a copy of this filter. </p> </li>  </ul> </li>``` ```<li value="4"> <p>Click <strong>New Filter</strong> to create a new filter. </p> <p>The filter builder replaces the list of filters on the right. </p> </li>``` ```<li value="5"> <p>Select a field, then a value that matches what information you want to filter by. </p> <note type="important">  When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see   <span href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>  <span>.</span> </note>  <div>   <p>When you select more than one field, the filter assumes that all conditions must apply simultaneously. </p>   <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you want to filter for items that belong to the Marketing portfolio and are assigned to the Job Role of Designer, the work items must be on projects associated with the Marketing portfolio as well as be assigned to Designers at the same time to display in the Workload Balancer.</p>  </div> </li>``` ```<li value="6"> <p>(Optional) Click <strong>Reset</strong> to clear all the fields you have selected and start building the filter from scratch. </p> </li>``` ```<li value="7"> <p>(Optional) Click <strong>Apply</strong> to apply the filter without saving. </p> <p>The filter displays in the <strong>Unsaved</strong> area of the filter builder as <strong>New Filter</strong>. </p>  <div class="tips" data-mc-autonum="<b>Tips: </b>">  <span class="autonumber"><span><b>Tips: </b></span></span>   <ul>    <li> <p>You cannot rename an unsaved filter. </p> </li>    <li> <p>Unsaved filters are removed from the Workload Balancer next time you log out of Workfront and log back in.</p> </li>    <li> <p>You can have only one unsaved filter at one time. </p> </li>   </ul>  </div> </li>``` ```<li value="8"> <p>Click <strong>Save</strong> to save the filter to use it later, then add a name for the filter in the <strong>Add filter name</strong> field and click <strong>Done</strong>. </p> <p>This saves the filter in the <strong>Saved</strong> section of the filter builder. You can use this filter in the future. </p> <p>The last saved and applied filter displays by default next time you log back in to Workfront.</p> <note type="note">  You can view filters only in the areas of Workfront where you build them.&nbsp;For example, if you save a filter in the People area, it is not available when you access the Workload Balancer of a project or of a team. The filters you create are only visible you and cannot be shared with other users.  </note> </li>``` ```<li value="9"> <p>(Optional) Click the <strong>left-pointing arrow</strong> next to <strong>New Filter</strong> to exit the filter builder and return to the list of filters. </p> </li>``` ```<li value="10"> <p>Click the <strong>X icon</strong> in the upper-right corner of the filter builder to close the filter builder.</p> </li>``` ```<li value="11"> <p>(Conditional) Hover over the <strong>Filter icon</strong> <img src="assets/filter-icon.png"> in the upper-right corner of the <strong>Unassigned Work</strong> or the <strong>Assigned Work</strong> areas to display the name of the filter that is currently applied. A blue dot indicator appears when a filter has already been applied to the list. </p> <p> <img src="assets/wb-filter-with-blue-dot-and-filter-name-350x57.png" style="width: 350;height: 57;"> </img> </p> </li>```  
+You can create a filter from scratch or edit one of the predefined filters. For information about existing filters that you can edit, see the [Edit an existing filter in the Workload Balancer](#edit2) section in this article.
+
+1. Go to the Workload Balancer.
+
+   For information about accessing the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+
+1. Click the **Filter** icon ![](assets/filter-icon.png) in the upper-right corner of either the **Unassigned Work** or the **Assigned Work** areas.
+
+   The list of filters and filter builder box displays on the right.
+
+   The filter builder box displays on the right. The name of the area you create the filter for displays in the header of the box.
+
+   ![](assets/filter-list-empty-state-wb-classic-350x240.png)
+
+1. (Optional and conditional) If you access the Workload Balancer in the People area, the predefined Default filter might already be applied to the Assigned Work area. You can edit and save a copy of this filter.
+
+   >[!TIP]
+   >
+   >The Default filter displays users that belong to any of your teams and their work items. You can edit a copy of this filter.
+
+   If you access the Workload Balancer from a project, select one of the following predefined filters in the Assigned Work area:
+
+   * **All work items**: Displays work items assigned to users in this project and their work items in other projects. This is the filter selected by default. You cannot edit this filter.
+   * **This project's work items**: Displays only work items assigned to users in this project. You can edit and save a copy of this filter.
+
+1. Click **New Filter** to create a new filter.
+
+   The filter builder replaces the list of filters on the right. 
+
+1. Select a field, then a value that matches what information you want to filter by.
+
+   >[!IMPORTANT]
+   >
+   >When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see ``` [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)``` ```.```
+
+   When you select more than one field, the filter assumes that all conditions must apply simultaneously.
+
+   ``` ```**Example: **``````If you want to filter for items that belong to the Marketing portfolio and are assigned to the Job Role of Designer, the work items must be on projects associated with the Marketing portfolio as well as be assigned to Designers at the same time to display in the Workload Balancer.
+
+1. (Optional) Click **Reset** to clear all the fields you have selected and start building the filter from scratch. 
+1. (Optional) Click **Apply** to apply the filter without saving.
+
+   The filter displays in the **Unsaved** area of the filter builder as **New Filter**.
+
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * You cannot rename an unsaved filter. 
+   >   * Unsaved filters are removed from the Workload Balancer next time you log out of Workfront and log back in.
+   >   * You can have only one unsaved filter at one time. 
+   >   
+   >
+
+1. Click **Save** to save the filter to use it later, then add a name for the filter in the **Add filter name** field and click **Done**.
+
+   This saves the filter in the **Saved** section of the filter builder. You can use this filter in the future.
+
+   The last saved and applied filter displays by default next time you log back in to Workfront.
+
+   >[!NOTE]
+   >
+   >You can view filters only in the areas of Workfront where you build them.&nbsp;For example, if you save a filter in the People area, it is not available when you access the Workload Balancer of a project or of a team. The filters you create are only visible you and cannot be shared with other users.
+
+1. (Optional) Click the **left-pointing arrow** next to **New Filter** to exit the filter builder and return to the list of filters. 
+1. Click the **X icon** in the upper-right corner of the filter builder to close the filter builder.
+1. (Conditional) Hover over the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or the **Assigned Work** areas to display the name of the filter that is currently applied. A blue dot indicator appears when a filter has already been applied to the list.
+
+   ![](assets/wb-filter-with-blue-dot-and-filter-name-350x57.png)
 
 ##
 
 ## Edit an existing filter in the Workload Balancer
 
-You can edit a saved filter in the Workload Balancer. 
-```<li value="1"> <p>Go to the Workload Balancer.</p> <p>For information about accessing the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a>.</p> </li>``` ```<li value="2">Click the <strong>Filter icon</strong> <img src="assets/filter-icon.png"> in the upper-right corner of the <strong>Unassigned</strong> or <strong>Assigned Work</strong> areas. <br>The filter builder displays on the right. </li>``` ```<li value="3"> <p>Expand the <strong>Saved</strong> area in the filter builder, then mouse over the filter you want to edit.</p> <p>Or</p> <p>Expand the <strong>Unsaved</strong> area in the filter builder, then mouse over <strong>New Filter</strong>, then click the <strong>Edit icon</strong> <img src="assets/wb-edit-filter-icon.png">. </p> </li>``` ```<li value="4"> <p>(Conditional) If you selected to edit a saved filter, edit the name of the filter. </p> <p> <img src="assets/wb-editing-filter-name-inline-350x251.png" style="width: 350;height: 251;"> </img> </p> <p>Unsaved filters cannot be renamed. An asterisk displays next to the name of a saved filter when you edited the filter but you have not saved the changes. </p> <p> <img src="assets/edited-filter-with-asterisk.png"> </img> </p> </li>``` ```<li value="5">Update the filter criteria to edit the existing filter and create a new one. For information about creating a filter, see the <a href="#create" class="MCXref xref">Manage filters in the Workload Balancer</a> section in this article. </li>``` ```<li value="6"> <p>(Optional and conditional) Click <strong>Apply</strong> to apply your changes temporarily without saving them. </p> <note type="important">  Unsaved changes to a previously saved filter are deleted when you navigate away from the Workload Balancer.  </note> </li>``` ```<li value="7">Click <strong>Save</strong> to save the changes you made to the existing filter. </li>``` ```<li value="8">(Optional) Click the <strong>left-pointing arrow</strong> next to the name of the filter to exit the filter builder and return to the list of filters. </li>``` ```<li value="9">Click the <strong>X icon</strong> in the upper-right corner of the filter builder to close the filter builder.</li>``` 
+You can edit a saved filter in the Workload Balancer.
+
+1. Go to the Workload Balancer.
+
+   For information about accessing the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+
+1. Click the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned** or **Assigned Work** areas.   
+   The filter builder displays on the right. 
+
+1. Expand the **Saved** area in the filter builder, then mouse over the filter you want to edit.
+
+   Or
+
+   Expand the **Unsaved** area in the filter builder, then mouse over **New Filter**, then click the **Edit icon** ![](assets/wb-edit-filter-icon.png). 
+
+1. (Conditional) If you selected to edit a saved filter, edit the name of the filter.
+
+   ![](assets/wb-editing-filter-name-inline-350x251.png)
+
+   Unsaved filters cannot be renamed. An asterisk displays next to the name of a saved filter when you edited the filter but you have not saved the changes.
+
+   ![](assets/edited-filter-with-asterisk.png)
+
+1. Update the filter criteria to edit the existing filter and create a new one. For information about creating a filter, see the [Manage filters in the Workload Balancer](#create) section in this article. 
+1. (Optional and conditional) Click **Apply** to apply your changes temporarily without saving them.
+
+   >[!IMPORTANT]
+   >
+   >Unsaved changes to a previously saved filter are deleted when you navigate away from the Workload Balancer.
+
+1. Click **Save** to save the changes you made to the existing filter. 
+1. (Optional) Click the **left-pointing arrow** next to the name of the filter to exit the filter builder and return to the list of filters. 
+1. Click the **X icon** in the upper-right corner of the filter builder to close the filter builder.
 
 ##
 

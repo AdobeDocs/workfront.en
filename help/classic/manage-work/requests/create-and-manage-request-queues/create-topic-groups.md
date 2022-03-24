@@ -45,11 +45,12 @@ For example, if you have a Request Queue for Marketing Requests, you can have a 
 
 For more information about how to create Request Queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-``` ```**Tips: **``````
-
-* You can create up to 10 tiers of Topic Groups within a Request Queue.
-* There is no limit to the number of Queue Topics that can be associated with a topic group. 
-* Topic groups are a reportable object.
+>[!NOTE]
+>
+>* You can create up to 10 tiers of Topic Groups within a Request Queue.
+>* There is no limit to the number of Queue Topics that can be associated with a topic group. 
+>* Topic groups are a reportable object.
+>
 
 ## Create Topic Groups
 
@@ -60,9 +61,8 @@ To create a Topic Group:
 1. Go to the project that you published as a Help Request Queue.  
    For more information about publishing a project as a Help Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Click **More**, then select the **Queue Setup** tab.  
-
-1. Click the **Topic Groups** subtab.  
+1. Click **More**, then select the **Queue Setup** tab. 
+1. Click the **Topic Groups** subtab. 
 1. Click **New Topic Group**.  
    ![](assets/10-350x170.png)
 

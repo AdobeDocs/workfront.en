@@ -43,6 +43,8 @@ You must have the following:
 
 ## Preview a document
 
-1. Details
-1. ```<li>If you have not prepared the document for review, it displays in a new browser tab.</li>``````<li>If you have prepared the document for review, the proofing viewer opens to display it.</li>```
+1. In the right panel, on the **Details** tab, click the document's thumbnail image.
+
+   * If you have not prepared the document for review, it displays in a new browser tab.
+   * If you have prepared the document for review, the proofing viewer opens to display it.
 

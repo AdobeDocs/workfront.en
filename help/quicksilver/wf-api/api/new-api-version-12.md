@@ -20,7 +20,8 @@ The following resources are new in Workfront API version 12.
 ### BreadCrumb
 
 A BreadCrumb object represents an element in the parent/child hierarchy of an Adobe Workfront work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
-For more information on Breadcrumbs in Workfront, see [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md) 
+
+For more information on Breadcrumbs in Workfront, see [Breadcrumbs overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table cellspacing="15"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -898,7 +899,7 @@ For more information on Timesheets, see [Timesheets overview](../../timesheets/t
       <ul> 
        <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
        <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
-      </ul> For more information on initiatives, see <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>. </li> 
+      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information on initiatives, see <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

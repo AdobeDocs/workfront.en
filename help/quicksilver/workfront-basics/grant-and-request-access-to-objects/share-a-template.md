@@ -27,23 +27,23 @@ Permissions are specific to one item in Workfront and define what actions one ca
 * The creator of a template, as well as the Template Owner have Manage permissions to the template, by default. For information about designating a user as the Template Owner, see [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * You can share the following when sharing a template:
 
-  * The template
+   * The template
 
-    For more information about how to share a template, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     For more information about how to share a template, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-    You can grant the following permissions to a template:
+     You can grant the following permissions to a template:
 
-    * View
+      * View
 
-      ![](assets/view-on-template-262x221.png)
+        ![](assets/view-on-template-262x221.png)
 
-    * Manage
+      * Manage
 
-      ![](assets/manage-on-template-225x280.png)
+        ![](assets/manage-on-template-225x280.png)
 
-  * The future projects which are created using the template. You can give the same levels of permissions to projects created from a template as you would an individual project.&nbsp;
+   * The future projects which are created using the template. You can give the same levels of permissions to projects created from a template as you would an individual project.&nbsp;
 
-    For information about how to share a project from a template at the template level, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     For information about how to share a project from a template at the template level, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * When you share a template or a project which is created from the template, users inherit the same permissions to all the children objects associated with the template or the project, by default.
 

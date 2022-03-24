@@ -69,16 +69,16 @@ Consider the following when checking in on your goals:
 
   See also the following articles:&nbsp;
 
-  * For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-  * For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md). 
-  * For information about how Workfront Goals calculates the progress on a goal, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md). 
+   * For information about how Workfront Goals calculates the progress on a goal, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * You must create goals and activate them before you can check in on them.
 
   See also the following articles:&nbsp;
 
-  * For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
-  * For information about activating goals, see the [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+   * For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+   * For information about activating goals, see the [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
@@ -107,9 +107,9 @@ For information about how to update additional information about results and act
 
 1. (Optional)&nbsp;Click any of the following sections in the left panel to access a list of goals:
 
-  * Goal Alignment 
-  * Pulse 
-  * Check-in
+   * Goal Alignment 
+   * Pulse 
+   * Check-in
 
    Or
 
@@ -127,9 +127,9 @@ For information about how to update additional information about results and act
 
 1. Update the current progress on each of the results. Depending on what type of result you selected, you can do one of the following:
 
-  * Update the quantity 
-  * Update the currency amount
-  * Update the percent complete
+   * Update the quantity 
+   * Update the currency amount
+   * Update the percent complete
 
 1. Update the percent complete on the Manual progress bar activity.
 
@@ -179,9 +179,9 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 1. Update the current progress on each of the results assigned to you. Depending on what type of result you selected, you can do one of the following:
 
-  * Update the quantity 
-  * Update the currency amount
-  * Update the percent complete
+   * Update the quantity 
+   * Update the currency amount
+   * Update the percent complete
 
    The result and the goal progress updated automatically and you receive a confirmation of your changes.
 

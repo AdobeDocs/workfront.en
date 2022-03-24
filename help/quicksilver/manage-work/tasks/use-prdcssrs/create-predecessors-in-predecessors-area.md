@@ -53,12 +53,18 @@ You must have the following access to perform the steps in this article:
 
 ## Create a predecessor for a task
 
-1. Go to a task that you want to designate as a dependent task, then click **Predecessors** in the left panel.  You might need to click **Show More**, then **Predecessors**.  
+1. Go to a task that you want to designate as a dependent task, then click **Predecessors** in the left panel.
+
+   You might need to click **Show More**, then **Predecessors**. 
 
 1. Click **+Add Predecessor**. 
-1. (Optional) To add a cross-project predecessor, replace the name of the project in the **Parent Project** field with another project, then type the name of the task or tasks that you want as the predecessors.  For information about adding cross-project predecessors, see [Create cross-project predecessors](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+1. (Optional) To add a cross-project predecessor, replace the name of the project in the **Parent Project** field with another project, then type the name of the task or tasks that you want as the predecessors.
+
+   For information about adding cross-project predecessors, see [Create cross-project predecessors](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
 1. Type in the name of the task or tasks that you want to designate as the predecessors.
+
+   ![](assets/add-predecessor-box-nwe-350x465.png)
 
 1. Select a **Dependency Type**.
 

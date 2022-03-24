@@ -58,7 +58,8 @@ You must have the following access to perform the steps in this article:
 ## Create a user delegation report
 
 1. In the Global Navigation Bar, click **Reporting**.
-1. Click **New Report**, then select **User Delegation**.
+1. Click **New Report**, then select **User Delegation**.  
+   ![](assets/nwe-new-report-user-delegation-350x522.png)
 
    The following fields display in this report by default:
 

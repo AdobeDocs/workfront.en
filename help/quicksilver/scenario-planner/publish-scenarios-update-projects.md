@@ -177,100 +177,100 @@ Before you begin:
 
 1. (Conditional) Do one of the following:
 
-  * If you published one initiative, click **See associated project** to open the project created or updated from the initiative. 
-  * If you published more than one initiative, click&nbsp;**See associated projects** to open a list of projects published from initiatives. Workfront applies the Scenario Planner Projects filter to the list of projects by default. The projects published most recently display at the top of the list.
+   * If you published one initiative, click **See associated project** to open the project created or updated from the initiative. 
+   * If you published more than one initiative, click&nbsp;**See associated projects** to open a list of projects published from initiatives. Workfront applies the Scenario Planner Projects filter to the list of projects by default. The projects published most recently display at the top of the list.
 
-    ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Go to the following areas to view initiative information on the project:
 
-  * **The Updates section**: An update publishes to indicate that the project was created or updated from the initiative. The update contains the name of the initiative that created or updated the project and the linked name of the plan that contains the initiative. You can click the name of the plan in the update to open the plan in the Scenario Planner.
+   * **The Updates section**: An update publishes to indicate that the project was created or updated from the initiative. The update contains the name of the initiative that created or updated the project and the linked name of the plan that contains the initiative. You can click the name of the plan in the update to open the plan in the Scenario Planner.
 
-    ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
-  * **The Overview area of the Project Details section**: A new Scenario Planner section is created in this area that contains information from the linked initiative.
+   * **The Overview area of the Project Details section**: A new Scenario Planner section is created in this area that contains information from the linked initiative.
 
-    >[!TIP]
-    >
-    >This information is visible only when viewing Project&nbsp;Details in the new Adobe Workfront experience.
+     >[!TIP]
+     >
+     >This information is visible only when viewing Project&nbsp;Details in the new Adobe Workfront experience.
 
-    ![](assets/scenario-planner-on-project-details-350x135.png)
+     ![](assets/scenario-planner-on-project-details-350x135.png)
 
-    The following initiative information is published in the Scenario Planner area of the Project&nbsp;Details section:
+     The following initiative information is published in the Scenario Planner area of the Project&nbsp;Details section:
 
-    <table cellspacing="0"> 
-     <col> 
-     <col> 
-     <tbody> 
-      <tr> 
-       <td role="rowheader"><span>Initiative Duration*</span> </td> 
-       <td><span>The duration of the corresponding initiative when the project is linked to an initiative. This field is not editable.</span> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader"><span>Last Published Date*</span> </td> 
-       <td><span>The date when the project was last published from a corresponding initiative.</span> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader"><span>Initiative Start Date*</span> </td> 
-       <td><span>The first day of the start month of the initiative, when the project is linked to an initiative.</span> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader"><span>Initiative End Date*</span> </td> 
-       <td><span>The last day of the end month of the initiative, when the project is linked to an initiative.&nbsp;</span> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader"><span>Initiative Job&nbsp;Roles in FTEs and Hours*</span> </td> 
-       <td> <p>Information about the associated job roles and their time allocations for the initiative.&nbsp;This includes:</p> 
-        <ul> 
-         <li>Job&nbsp;Role name</li> 
-         <li>Number of FTEs</li> 
-         <li> <p>Number of Hours for all&nbsp;FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs.&nbsp;</p> <p>For more information, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> </li> 
-        </ul> <p>Tip: <span>If the number of job role is different for each month in the initiative, this field displays the maximum amount of roles needed for the initiative. For example, if you need 1 Consultant for January and 2 for February, the column displays 2FTE and the corresponding amount of hours for 2 FTEs for all months.</span> </p> </td> 
-      </tr> 
-     </tbody> 
-    </table>
+     <table cellspacing="0"> 
+      <col> 
+      <col> 
+      <tbody> 
+       <tr> 
+        <td role="rowheader"><span>Initiative Duration*</span> </td> 
+        <td><span>The duration of the corresponding initiative when the project is linked to an initiative. This field is not editable.</span> </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader"><span>Last Published Date*</span> </td> 
+        <td><span>The date when the project was last published from a corresponding initiative.</span> </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader"><span>Initiative Start Date*</span> </td> 
+        <td><span>The first day of the start month of the initiative, when the project is linked to an initiative.</span> </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader"><span>Initiative End Date*</span> </td> 
+        <td><span>The last day of the end month of the initiative, when the project is linked to an initiative.&nbsp;</span> </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader"><span>Initiative Job&nbsp;Roles in FTEs and Hours*</span> </td> 
+        <td> <p>Information about the associated job roles and their time allocations for the initiative.&nbsp;This includes:</p> 
+         <ul> 
+          <li>Job&nbsp;Role name</li> 
+          <li>Number of FTEs</li> 
+          <li> <p>Number of Hours for all&nbsp;FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs.&nbsp;</p> <p>For more information, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> </li> 
+         </ul> <p>Tip: <span>If the number of job role is different for each month in the initiative, this field displays the maximum amount of roles needed for the initiative. For example, if you need 1 Consultant for January and 2 for February, the column displays 2FTE and the corresponding amount of hours for 2 FTEs for all months.</span> </p> </td> 
+       </tr> 
+      </tbody> 
+     </table>
 
-    >[!NOTE]
-    >
-    >All users with View access to the project can see the Scenario Planner section in the Overview area. You can control whether this area displays in the Details section by using a layout template. If users do not have a layout template associated with them, this area displays by default. 
-    >
-    >  
-    >  
-    >  * For information about adding or removing areas in the Details section using a layout template, see [Customize the Details view using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
-    >  * For more information about viewing information in the Overview area of the Project&nbsp;Details, see [Manage information in the project Overview area](../manage-work/projects/manage-projects/understand-project-overview-area.md).
-    >  
-    >
+     >[!NOTE]
+     >
+     >All users with View access to the project can see the Scenario Planner section in the Overview area. You can control whether this area displays in the Details section by using a layout template. If users do not have a layout template associated with them, this area displays by default. 
+     >
+     >   
+     >   
+     >   * For information about adding or removing areas in the Details section using a layout template, see [Customize the Details view using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+     >   * For more information about viewing information in the Overview area of the Project&nbsp;Details, see [Manage information in the project Overview area](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >   
+     >
 
-  * **The Role Allocation panel in the**Workload Balancer** or the task list of the project**: Information about role allocation on the initiative populates in this area, in addition to role allocations on the project.
+   * **The Role Allocation panel in the**Workload Balancer** or the task list of the project**: Information about role allocation on the initiative populates in this area, in addition to role allocations on the project.
 
-    For more information, see [Overview of reconciling resource allocations between projects and initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+     For more information, see [Overview of reconciling resource allocations between projects and initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-    ![](assets/role-allocation-panel-350x174.png)
+     ![](assets/role-allocation-panel-350x174.png)
 
-    Any changes to the dates or resources of the project do not affect the corresponding initiative or any of the areas on the project that contain initiative information. 
-  
-  * **The Resource Budgeting area of the Business Case of the project**: A new option for managing project resources using Scenario Planner information is added in the Resource Budgeting area of the Business Case of the project.
+     Any changes to the dates or resources of the project do not affect the corresponding initiative or any of the areas on the project that contain initiative information. 
+   
+   * **The Resource Budgeting area of the Business Case of the project**: A new option for managing project resources using Scenario Planner information is added in the Resource Budgeting area of the Business Case of the project.
 
-    For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-    ![](assets/sp-in-business-case-selected-350x110.png)
+     ![](assets/sp-in-business-case-selected-350x110.png)
 
 1. (Optional) Review the following information in the Scenario Planner after you published a scenario:
 
-  * The published scenario becomes the first scenario after you publish initiatives from it. 
-  * You cannot publish from any other scenario after you have published a scenario at least once. 
-  * The Go to Publish option is removed from all other scenarios after at least one initiative has been published from a scenario. 
-  * A green indicator displays next to the published initiatives' project icons in the plan.
+   * The published scenario becomes the first scenario after you publish initiatives from it. 
+   * You cannot publish from any other scenario after you have published a scenario at least once. 
+   * The Go to Publish option is removed from all other scenarios after at least one initiative has been published from a scenario. 
+   * A green indicator displays next to the published initiatives' project icons in the plan.
 
-    ![](assets/indicator-for-published-initiative-icon-350x119.png)
+     ![](assets/indicator-for-published-initiative-icon-350x119.png)
 
-  * A green "Published"&nbsp;indicator displays at the top of the scenario and on the scenario card and the Published field is populated on the scenario card indicating the number of initiatives in the scenario that have been published.
+   * A green "Published"&nbsp;indicator displays at the top of the scenario and on the scenario card and the Published field is populated on the scenario card indicating the number of initiatives in the scenario that have been published.
 
-    ![](assets/published-scenario-highlighted-350x632.png)
+     ![](assets/published-scenario-highlighted-350x632.png)
 
-    >[!TIP]
-    >
-    >If all the projects published from the scenario's initiatives are deleted, the indication that the scenario has been published is removed. For information, see [Delete projects](../manage-work/projects/manage-projects/delete-projects.md).
+     >[!TIP]
+     >
+     >If all the projects published from the scenario's initiatives are deleted, the indication that the scenario has been published is removed. For information, see [Delete projects](../manage-work/projects/manage-projects/delete-projects.md).
 
 1. (Optional) Update information on the initiative and repeat the process described above to republish the initiative and update initiative information on the linked project.
 

@@ -63,18 +63,19 @@ You must have the following access to perform the steps in this article:
 
 ## Apply a quick filter to a list
 
-1. Go to a list or report that supports quick filters, then click the **Quick Filter icon** ![](assets/qs-quick-filter-icon.png) in the toolbar. 
+1. Go to a list or report that supports quick filters, then click the **Quick Filter icon** ![](assets/qs-quick-filter-icon.png) in the toolbar.
+
    Or
 
    Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of commands to launch the quick filter:
 
-  * ALT+F for Windows computers
-  * ALT+Shift+F for Internet Explorer on Windows computers
-  * ALT/ Option+F for Mac computers
+   * ALT+F for Windows computers
+   * ALT+Shift+F for Internet Explorer on Windows computers
+   * ALT/ Option+F for Mac computers
 
-    >[!TIP]
-    >
-    >If you press CTRL+F or CMD+F, a tooltip displays next to the quick filter to remind you about these commands. The commands also display inside the quick filter search box.
+     >[!TIP]
+     >
+     >If you press CTRL+F or CMD+F, a tooltip displays next to the quick filter to remind you about these commands. The commands also display inside the quick filter search box.
 
 1. In the **Filter page** box, enter the keyword that you want to filter by.
 
@@ -88,8 +89,8 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) To bulk edit the items found by the quick filter:
 
-  1. Select all or several of the items in the list, then click **Edit** to bulk edit the items.
-  1. After you complete your edits, click **Save Changes**.
+   1. Select all or several of the items in the list, then click **Edit** to bulk edit the items.
+   1. After you complete your edits, click **Save Changes**.
 
 1. (Optional) To export the items found by the quick filter, select all or several of the items in the list, then click **Export**.
 

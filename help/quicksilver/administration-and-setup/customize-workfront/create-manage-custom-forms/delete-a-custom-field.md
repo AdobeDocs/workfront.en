@@ -61,8 +61,8 @@ You must have the following to perform the steps in this article:
 
 1. Create a new custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-  1. Add the fields to the new form that you want to remove from the original custom form.
-  1. Save the new custom form that includes all of the fields that you are going to remove from the original custom form.
+   1. Add the fields to the new form that you want to remove from the original custom form.
+   1. Save the new custom form that includes all of the fields that you are going to remove from the original custom form.
 
 1. Limit access to the custom form to only users with&nbsp;administrative access.&nbsp;
 1. Apply the new custom form to the object where the original custom form is already applied, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

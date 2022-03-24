@@ -210,8 +210,8 @@ The following table describes the available task Cost Types in&nbsp;Workfront:
 <p>To configure the Cost Type of an individual task:</p>
 <ol>
 <li value="1">Go to the task where you want to configure the Cost Type. </li>
-<li value="2"> Click <strong>Task Details</strong> in the left panel, then expand the <strong>Finance</strong> area.  </li>
-<li value="3"> Double click <strong>Cost Type</strong> and select the cost type that you want to apply to the task.  </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Task Details</strong> in the left panel, then expand the <strong>Finance</strong> area. </p> </li>
+<li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Double click <strong>Cost Type</strong> and select the cost type that you want to apply to the task. </p> </li>
 <li value="4">Click <strong>Save.</strong></li>
 </ol>
 </div>

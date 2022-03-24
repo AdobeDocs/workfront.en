@@ -47,13 +47,13 @@ Once you add interactive content in a ZIP file to a proof, Adobe Workfront&nbsp;
 
    The ZIP file must meet the following requirements:
 
-  * All assets, such as CSS, JavaScript, videos, sounds, and images should be included in the bundle file.
-  * Make sure the main file (such as index.html, index.htm) is in the root folder and that it is the only .html/.htm file stored there.
+   * All assets, such as CSS, JavaScript, videos, sounds, and images should be included in the bundle file.
+   * Make sure the main file (such as index.html, index.htm) is in the root folder and that it is the only .html/.htm file stored there.
 
-    If the main file is not placed in the root folder, Workfront searches the folder to find the main file.
-  
-  * Maximum bundle size is 500 MB.
-  * In the case of ZIP files created in iOS, the tool automatically identifies the right folder where the content is placed.
+     If the main file is not placed in the root folder, Workfront searches the folder to find the main file.
+   
+   * Maximum bundle size is 500 MB.
+   * In the case of ZIP files created in iOS, the tool automatically identifies the right folder where the content is placed.
 
 1. Go to the project, task, or issue where you want to upload the ZIP file.
 1. Click **Documents**&nbsp;in the left panel .
@@ -63,6 +63,6 @@ Once you add interactive content in a ZIP file to a proof, Adobe Workfront&nbsp;
    or  
    Continue by configuring an advanced proof:
 
-  * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
-  * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+   * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 

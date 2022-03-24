@@ -161,11 +161,11 @@ To budget your resources in the new Resource Management tools, do either of the 
 
 1. Go to the **Business Case** of each project, and compare all of the following fields between the Legacy Resource Estimates and the Resource Budgeting sections and ensure they match:
 
-  1. The **Hours** column (for each Job Role) in the Legacy Resource Estimates section must match the **Hours** column in the Resource Budgeting section. 
-  
-  1. The **Legacy Resource Estimates** (currency field) column must match the **Budgeted Labor Cost** column for each Job Role. 
-  
-  1. The overall cost for the **Legacy Budgeted Cost** (next to the **Legacy Resource Estimates** section) and the overall cost for the **Budgeted Labor Cost** (next to the **Resource Budgeting** section) must match.
+   1. The **Hours** column (for each Job Role) in the Legacy Resource Estimates section must match the **Hours** column in the Resource Budgeting section. 
+   
+   1. The **Legacy Resource Estimates** (currency field) column must match the **Budgeted Labor Cost** column for each Job Role. 
+   
+   1. The overall cost for the **Legacy Budgeted Cost** (next to the **Legacy Resource Estimates** section) and the overall cost for the **Budgeted Labor Cost** (next to the **Resource Budgeting** section) must match.
 
 1. If all the fields in step #1 match, your**Legacy Resource Estimates**&nbsp;information is now duplicated in the **Resource Budgeting** section of the Business Case. 
 

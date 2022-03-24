@@ -49,9 +49,8 @@ You must have the following access to perform the steps in this article:
 
 You can choose how you want the group of items to display on your calendar.
 
-1. Main Menu
-1. 
-1. Calendars
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Calendars**.
+
 1. Select the calendar you want to add a new group of items to.   
    Or  
    Click **+ New Calendar** and enter the calendar name.
@@ -112,9 +111,9 @@ After you set up how you want items to display, you need to add the objects you 
 
 1. In the **What would you like to add to the calendar?** section, select
 
-  * **Tasks**
-  * **Projects**
-  * **Issues**
+   * **Tasks**
+   * **Projects**
+   * **Issues**
 
 1. Click **Add Tasks**, **Add Projects**, or **Add Issues**, depending on the object type you are adding to the calendar.  
    ![FieldName.png](assets/fieldname-350x144.png)

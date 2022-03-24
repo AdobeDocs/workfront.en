@@ -61,6 +61,8 @@ You must have the following access to perform the steps in this article:
 
    The Business Case is displayed.
 
+   ![](assets/g-350x153.png)
+
 1. In the **Goals** section, click&nbsp;**Edit Goals**.
 
 1. Specify your goals.

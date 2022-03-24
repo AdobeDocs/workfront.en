@@ -65,7 +65,13 @@ You can create a baseline in the following ways:
 * Manually: You can create new baselines for the project as needed as the project progresses. You can then compare baselines to see how the project progressed over time.
 
 1. Navigate to a project. 
-1. In the left panel, click **Baselines**.  Or Click **Show More**, then click **Baselines**.  
+1. In the left panel, click **Baselines**.
+
+   Or
+
+   Click **Show More**, then click **Baselines**.
+
+   ![](assets/nwe-baselines-section-on-project-with-header-350x78.png)
 
 1. Click **New Baseline.**
 1. Specify the name for the baseline.
@@ -74,17 +80,17 @@ You can create a baseline in the following ways:
 
    By default, the following information displays about the baseline you created:
 
-  * Baseline name
-  * Baseline Entry Date
-  * Planned Start Date of the project when the baseline was created
-  * Projected Start Date of the project when the baseline was created
-  * Actual Duration of the project when the baseline was created
-  * % Complete of the project when the baseline was created
-  * Default Baseline indicator that shows whether a baseline is the Default baseline of the project
+   * Baseline name
+   * Baseline Entry Date
+   * Planned Start Date of the project when the baseline was created
+   * Projected Start Date of the project when the baseline was created
+   * Actual Duration of the project when the baseline was created
+   * % Complete of the project when the baseline was created
+   * Default Baseline indicator that shows whether a baseline is the Default baseline of the project
 
-    >[!TIP]
-    >
-    >You cannot view information from any two baselines at the same time in the same view or report. You can only view information from a given baseline and the Default baseline in the same report. You can modify which baseline you consider to be the Default baseline any time during the life of the project.
+     >[!TIP]
+     >
+     >You cannot view information from any two baselines at the same time in the same view or report. You can only view information from a given baseline and the Default baseline in the same report. You can modify which baseline you consider to be the Default baseline any time during the life of the project.
 
 1. (Optional) Click the drop-down arrow next to the View, then **Customize View** to add fields to your view and compare additional information between baselines.
 

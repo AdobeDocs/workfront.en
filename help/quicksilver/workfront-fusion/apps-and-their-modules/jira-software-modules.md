@@ -84,9 +84,9 @@ To connect Jira Software to Workfront Fusion, you must create an API token and i
 1. In Workfront Fusion, add a Jira module to a scenario to open the **Create a connection** box.
 1. Specify the following information:
 
-  * **Service URL:**
-  * **Username:**
-  * **API token:**&nbsp;This is the API token you created in the [Create an API token in Jira](#create3) section of this article.
+   * **Service URL:**
+   * **Username:**
+   * **API token:**&nbsp;This is the API token you created in the [Create an API token in Jira](#create3) section of this article.
 
 1. Click Continue to create the connection and return to the module.
 
@@ -110,65 +110,65 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 
    commands.
 
-  * <pre>openssl genrsa -out jira_privatekey.pem 1024</pre>This command generates a 1024 bit private key.
-  
-  * <pre>openssl req -newkey rsa:1024 -x509 -key jira_privatekey.pem -out jira_publickey.cer -days 365</pre>This command creates an X509 certificate.
-  
-  * <pre>openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8</pre>This command extracts the private key (PKCS8 format) to the   
-  
-    ```  
-    jira_privatekey.pcks8
-    ```  
-  
-    file.
-  
-  * <pre>openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem</pre>This command extracts the public key from the certificate to the  
-  
-    ```  
-    jira_publickey.pem
-    ```  
-  
-    file.
+   * <pre>openssl genrsa -out jira_privatekey.pem 1024</pre>This command generates a 1024 bit private key.
+   
+   * <pre>openssl req -newkey rsa:1024 -x509 -key jira_privatekey.pem -out jira_publickey.cer -days 365</pre>This command creates an X509 certificate.
+   
+   * <pre>openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8</pre>This command extracts the private key (PKCS8 format) to the    
+   
+     ```   
+     jira_privatekey.pcks8
+     ```   
+   
+     file.
+   
+   * <pre>openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem</pre>This command extracts the public key from the certificate to the   
+   
+     ```   
+     jira_publickey.pem
+     ```   
+   
+     file.
 
-    >[!NOTE]
-    >
-    >If you are using Windows, you might need to save the public key to the     >
-    >
-    >```    >
-    >jira_publickey.pem
-    >```    >
-    >
-    >file manually:
-    >
-    >  
-    >  
-    >  1. In your terminal, run the following command:
-    >  
-    >  
-    >     openssl x509 -pubkey -noout -in jira_publickey.cer 
-    >  
-    >  1. Copy the terminal output (including     >  
-    >  
-    >     ```    >  
-    >     -------BEGIN PUBLIC KEY--------
-    >     ```    >  
-    >  
-    >     and     >  
-    >  
-    >     ```    >  
-    >     -------END PUBLIC KEY--------
-    >     ```    >  
-    >  
-    >  
-    >  1. Paste the terminal output into a file named     >  
-    >  
-    >     ```    >  
-    >     jira_publickey.pem
-    >     ```    >  
-    >  
-    >     .
-    >  
-    >
+     >[!NOTE]
+     >
+     >If you are using Windows, you might need to save the public key to the      >
+     >
+     >```     >
+     >jira_publickey.pem
+     >```     >
+     >
+     >file manually:
+     >
+     >   
+     >   
+     >   1. In your terminal, run the following command:
+     >   
+     >   
+     >      openssl x509 -pubkey -noout -in jira_publickey.cer 
+     >   
+     >   1. Copy the terminal output (including      >   
+     >   
+     >      ```     >   
+     >      -------BEGIN PUBLIC KEY--------
+     >      ```     >   
+     >   
+     >      and      >   
+     >   
+     >      ```     >   
+     >      -------END PUBLIC KEY--------
+     >      ```     >   
+     >   
+     >   
+     >   1. Paste the terminal output into a file named      >   
+     >   
+     >      ```     >   
+     >      jira_publickey.pem
+     >      ```     >   
+     >   
+     >      .
+     >   
+     >
 
 1. Continue to [Configure the client app as a consumer in Jira](#configur)
 

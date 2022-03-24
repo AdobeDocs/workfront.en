@@ -55,9 +55,9 @@ You must have the following access to perform the steps in this article:
 
   The following exceptions exist:
 
-  * When viewing information in Workfront, the formatting of the first column is kept and the formatting for all other columns is ignored if the columns that make up a merged column have different formatting from one another,. 
-  * When exporting the view to a PDF file, conditional formatting applies to the first column in a merged column. 
-  * When exporting the view to an Excel file, merged columns display as separate columns. The individual columns also display their respective conditional formatting rules.
+   * When viewing information in Workfront, the formatting of the first column is kept and the formatting for all other columns is ignored if the columns that make up a merged column have different formatting from one another,. 
+   * When exporting the view to a PDF file, conditional formatting applies to the first column in a merged column. 
+   * When exporting the view to an Excel file, merged columns display as separate columns. The individual columns also display their respective conditional formatting rules.
 
 * Columns with the **viewalias** attribute can limit the amount of columns that you can merge. To avoid these limits, avoid using the **viewalias** attribute. If you must include the **viewalias** attribute in a column, make sure that it is the last item listed in the column.
 
@@ -148,8 +148,8 @@ Do the following to merge the data from multiple columns to display it in one co
 
    ``` ```**Tip: **``````
 
-  * The columns you want to merge must be adjacent to each other.
-  * You must click the first column that you want to merge.
+   * The columns you want to merge must be adjacent to each other.
+   * You must click the first column that you want to merge.
 
 1. Click **Switch to Text Mode** and add the following code in the middle column that you added in step 1:
 

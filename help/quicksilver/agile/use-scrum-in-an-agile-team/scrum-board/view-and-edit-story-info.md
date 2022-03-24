@@ -95,15 +95,16 @@ You must have the following access to perform the steps in this article:
 
 ## View and edit information on a story tile
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
-1. Iterations
-1. Current Iteration
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+
+1. In the left panel, select **Iterations** to choose a specific iteration, or select **Current Iteration**.
+
 1. Go to the Scrum agile story board.
-1. Expand the story tile to view all fields associated with the story.
+1. Expand the story tile to view all fields associated with the story.  
+  
+   ![](assets/agile-storycard-scrum-2021-350x333.png)
 
 1. (Optional) To edit a field, click the field, then make any changes.
 

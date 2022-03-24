@@ -49,7 +49,8 @@ To lock a proof:
 1. Hover over the document, then click the **Open proof** link that appears.
 
    Or
-   If you want to open a proof for an earlier version of the document, click the More icon ![](assets/more-icon.png) for that version in the panel on the right, then click **View proof**. 
+
+   If you want to open a proof for an earlier version of the document, click the More icon ![](assets/more-icon.png) for that version in the panel on the right, then click **View proof**.
 
 1. In the In the left panel, click the **Lock** icon ![](assets/unlock-proof-icon.png).
 
@@ -64,7 +65,8 @@ To unlock a proof:
 1. Hover over the document, then click the **Open proof** link that appears.
 
    Or
-   If you want to open a proof for an earlier version of the document, click the More icon ![](assets/more-icon.png) for that version in the panel on the right, then click **View proof**. 
+
+   If you want to open a proof for an earlier version of the document, click the More icon ![](assets/more-icon.png) for that version in the panel on the right, then click **View proof**.
 
 1. In the left panel, click the **Unlock** icon ![](assets/unlock-proof-icon.png), then click **Yes, unlock**.
 

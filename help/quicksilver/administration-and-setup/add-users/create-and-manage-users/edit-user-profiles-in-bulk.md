@@ -54,12 +54,11 @@ You must have the following to perform the steps in this article:
 
 ## Edit user accounts in bulk
 
-1. Main Menu
-1. 
-1. Users
-1. 
-1. Select more than one user, then click the Edit icon .
-1. In the Edit User box that appears, change any of the following options:
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+
+1. Select more than one user, then click the Edit icon ![](assets/edit-icon.png).
+
+1. In the **Edit User** box that appears, change any of the following options:
 
    <table cellspacing="0"> 
     <col> 

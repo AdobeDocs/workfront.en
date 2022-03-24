@@ -27,14 +27,14 @@ This article explains the following:
 1. Open the **Decisions** tab.
 1. Make any of the following changes:
 
-  * To hide a decision, click **Hide** to the right of the decision you do not need.
-  * To rename a decision, click the decision name, edit it, then click outside of the box (or press Enter). Workfront Proof updates the name of the decision on all existing proofs in your system.
+   * To hide a decision, click **Hide** to the right of the decision you do not need.
+   * To rename a decision, click the decision name, edit it, then click outside of the box (or press Enter). Workfront Proof updates the name of the decision on all existing proofs in your system.
 
-    >[!IMPORTANT]
-    >
-    >Retain the logic for a decision when you rename it. For example, the default decision "Rejected" could be changed to "New version required," but it should not be changed to "Send to Printers").
+     >[!IMPORTANT]
+     >
+     >Retain the logic for a decision when you rename it. For example, the default decision "Rejected" could be changed to "New version required," but it should not be changed to "Send to Printers").
 
-    If you would like to go back to the Workfront Proof defaults, you can click Restore default decisions.
+     If you would like to go back to the Workfront Proof defaults, you can click Restore default decisions.
 
 >[!NOTE]
 >

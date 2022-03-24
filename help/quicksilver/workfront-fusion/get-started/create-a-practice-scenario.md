@@ -248,8 +248,8 @@ We chose to have 1 row from the spreadsheet processed to create a project in Wor
 
    You can learn more about how to read scenario execution information in the following articles:
 
-  * For general information, see [Scenario execution flow](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-  * For information about processed bundles, see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * For general information, see [Scenario execution flow](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   * For information about processed bundles, see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 1. Go to Workfront and search for "soho downtown loft" to see the project that the scenario created. This was the last row in the spreadsheet.
 1. In Workfront Fusion, click **Save** ![](assets/save-icon.png) near the lower-left corner to save your progress on the scenario.

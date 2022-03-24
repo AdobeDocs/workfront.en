@@ -95,10 +95,10 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To change how the projects are sorted, click the **Sort by** menu in the upper-right corner of the Project treemap visualization, then select a new sorting option:
 
-  * **A - Z** 
-  * **Z - A** 
-  * **Planned completion date** 
-  * **Planned start date**
+   * **A - Z** 
+   * **Z - A** 
+   * **Planned completion date** 
+   * **Planned start date**
 
    All other visualizations on the page update to match your sorting selection.
 
@@ -120,12 +120,12 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >
    >If you selected the **duration** view, you'll see the following duration details:
    >
-   >  
-   >  
-   >  * **Planned Timeframe**: The number of days planned to complete the project.
-   >  * **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
-   >  
-   >  
+   >   
+   >   
+   >   * **Planned Timeframe**: The number of days planned to complete the project.
+   >   * **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
+   >   
+   >   
    >![](assets/duration-treemap-350x159.png)   >
    >
 
@@ -135,8 +135,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 1. Click a project to open the Burndown and Tasks in flight visualizations to gain a deeper insight of how tasks and hours—or days—contributed to the size of a project.
 

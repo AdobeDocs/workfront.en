@@ -44,9 +44,9 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <p>To update the Task Constraint to Start No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
-<li value="2"> Click <strong>Edit Task</strong>. </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Edit Task</strong>.</p> </li>
 <li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
-<li value="4"> <p>Select <strong>Start No Earlier Than</strong>.</p> <p>  </p> </li>
+<li value="4"> <p>Select <strong>Start No Earlier Than</strong>.</p> <p> <img src="assets/snet-350x359.png" alt="SNET.png" style="width: 350;height: 359;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="5"> <p>Specify a <strong>Planned Start Date</strong>.</p> <p>This is the date by which the task must start, and not earlier than this date. </p> </li>
 <li value="6">Click <strong>Save Changes</strong>.</li>
 </ol>

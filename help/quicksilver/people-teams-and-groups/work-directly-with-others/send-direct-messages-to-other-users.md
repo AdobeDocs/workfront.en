@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the home page of the user you want to send a message to.  
    You can do the following to navigate to a user's home page:
 
-  * Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas of the Workfront interface, such as in a comment made by the user.
+   * Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas of the Workfront interface, such as in a comment made by the user.
 
 1. On the **Updates**&nbsp;tab, click in the text box field.
 

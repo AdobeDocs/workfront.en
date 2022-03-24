@@ -41,10 +41,11 @@ You must have the following access to perform the steps in this article:
 
 ## Add additional approvers to submitted document approvals
 
-1. Home
+1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
 1. Select a **Document** approval.  
+   ![](assets/document-350x335.png)
 
 1. Click **Manage Approvals**&nbsp;in the upper-right corner of the right panel.
 1. In the **Have someone approve this document** box, type the name of the approver.

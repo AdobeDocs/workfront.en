@@ -31,8 +31,8 @@ To help you with the strategic planning of your projects and ensure they align w
 
 For information, see the following articles:
 
-* Reconcile resource allocation between projects and initiatives using the Role Allocation panel.
-* Navigate the Workload Balancer
+* [Reconcile resource allocation between projects and initiatives using the Role Allocation panel](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Freconcile-resources-role-allocation-area-on-projects.htm&_LANG=en).
+* [Navigate the Workload Balancer](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FResource_Mgmt%2FWorkload_Balancer%2Fnavigate-the-workload-balancer.htm&_LANG=en)
 
 >[!IMPORTANT]
 >

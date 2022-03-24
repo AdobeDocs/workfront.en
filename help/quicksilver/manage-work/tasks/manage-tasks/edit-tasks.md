@@ -53,7 +53,7 @@ There are some limitations that might prevent you from editing tasks.
 Consider the following when editing tasks:
 
 * Updating tasks triggers notifications for projects that are a Current status. To avoid confusion for users who are assigned to the tasks, limit editing tasks as much as possible when the project is in the Current status. 
-* You cannot edit tasks that are in an Approval Process. You can only log time or update the Status for a task in an approval process. 
+* You cannot edit tasks that are in an Approval Process. You can only log time or update the Status for a task in an approval process.
 
   ![](assets/edit-task-in-approval-process-nwe-350x148.png)
 
@@ -61,16 +61,19 @@ Consider the following when editing tasks:
 
 * You can always edit the following information on a task when the project has been marked Complete, Dead, or is in an Approval Process:
 
-  * Log time
-  * Edit existing expenses
-  * Attach a custom form
+   * Log time
+   * Edit existing expenses
+   * Attach a custom form
 
 ## Edit a task in a list
 
 You can edit task information in a list of tasks, by inline editing fields displayed in the view of the list.
 
 For information about editing tasks in lists, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
-Edit a task in a list using the Summary You can edit a task in a list using the Summary panel. For information about editing a task in the Summary panel, see the "Edit a task in the Summary" section in the [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) article.  
+
+## Edit a task in a list using the Summary
+
+You can edit a task in a list using the Summary panel. For information about editing a task in the Summary panel, see the "Edit a task in the Summary" section in the [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) article.
 
 ## Edit a task in the Edit Task box
 
@@ -88,15 +91,15 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    Consider editing information in the following areas in the Task Details section:
 
-  * **Overview**
+   * **Overview**
 
-    This area is expanded by default.
-  
-  * **Custom Forms**
+     This area is expanded by default.
+   
+   * **Custom Forms**
 
-    Names of customs forms display only if there are custom forms attached to the object.
-  
-  * **Finance**
+     Names of customs forms display only if there are custom forms attached to the object.
+   
+   * **Finance**
 
    >[!NOTE]
    >
@@ -108,25 +111,25 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    To edit information in the Details section, do the following:
 
-  1. (Optional) Click the **Collapse All** icon ![](assets/collapse-all-icon.png) in the upper-right corner to collapse all areas. 
-  1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
-  1. For more information about editing information in the Task Details tab, see the following articles:
+   1. (Optional) Click the **Collapse All** icon ![](assets/collapse-all-icon.png) in the upper-right corner to collapse all areas. 
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
+   1. For more information about editing information in the Task Details tab, see the following articles:
 
-    * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md) 
-    * [Manage task finances in the Task Details section](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+      * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md) 
+      * [Manage task finances in the Task Details section](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
-  1. (Optional) If there are no custom forms attached to the task, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click **Save Changes**.
-  1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
+   1. (Optional) If there are no custom forms attached to the task, start typing the name of a form in the **Add custom form** field, then select it when it displays in the list, then click **Save Changes**.
+   1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
 
-    * Select all (displays only when there is at least one custom form attached)
-    * Overview
-    * The name of one or multiple custom forms
+      * Select all (displays only when there is at least one custom form attached)
+      * Overview
+      * The name of one or multiple custom forms
 
-     The PDF file downloads to your computer.
+      The PDF file downloads to your computer.
 
-     ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-     For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 1. To edit all information about the task, click the **More** menu ![](assets/more-icon.png) next to the name of the task, then click **Edit**.
 
@@ -148,12 +151,12 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    Consider specifying information in any of the following sections:
 
-  * [Task Name](#task) 
-  * [Overview](#overview) 
-  * [Assignments](#assignme) 
-  * [Custom Forms](#custom%c2%a0f) 
-  * [Finance](#finance) 
-  * [Settings](#settings)
+   * [Task Name](#task) 
+   * [Overview](#overview) 
+   * [Assignments](#assignme) 
+   * [Custom Forms](#custom%c2%a0f) 
+   * [Finance](#finance) 
+   * [Settings](#settings)
 
    >[!NOTE]
    >
@@ -312,8 +315,8 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
 
-  * ```Reassign the work item to active resources.``` 
-  * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+   * ```Reassign the work item to active resources.``` 
+   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
 
 1. (Optional) Indicate whether an assignee is the primary assignee on the task, by selecting the **Owner** radio button next to their name. A team cannot be the primary assignee of a task. 
 1. (Conditional and optional) Update the following fields: 
@@ -336,9 +339,11 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
         <li> <p>Effort Driven </p> </li> 
         <li> <p>Simple</p> </li> 
        </ul> </td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Duration per Occurrence</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p>Note: Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td>  
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader">Duration per Occurrence</td> 
+      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p>Note: Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Duration</td> 
       <td> 
@@ -348,7 +353,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
          <p>Important: Because the task duration is typically the amount of time between the Planned Start and the Planned Completion Dates, it affects the timeline of the project.</p> 
          <p>To indicate the Duration of the task and the unit of time do the following:</p> 
          <ul> 
-          <li> Type the length of time and select from the units of time available in the drop-down menu. <span class="autonumber"><span><b>Tip: </b></span></span>When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time.  </li> 
+          <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Type the length of time and select from the units of time available in the drop-down menu.</p> <p>Tip: When you update the Duration of tasks in a task list, you can use the abbreviation for the unit of time. </p> </li> 
          </ul> 
          <p> You can choose from the regular time or elapsed time options in the following table: </p> 
          <table cellspacing="3"> 

@@ -41,6 +41,8 @@ The following areas are included in the default layout of a Worker:
 * **Timesheet**: You can access your current, future, or old timesheets here.
 * **Documents**: You can upload documents, or review documents shared with you, here.
 
+![](assets/classic-worker-ui-with-home-350x178.png)
+
 ## Customize your default  Global Navigation Bar
 
 You can customize the areas that you see in your Global Navigation Bar  by removing or adding areas.

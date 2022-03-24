@@ -18,7 +18,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.
+For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 After your Workfront administrator has granted you access to Workfront Goals, you can view goals that you or anyone else in your organization created in the Workfront Goals area.
 
 You can access lists of goals or individual goals and manage them from several sections of Workfront Goals. Which section you use depends on the purpose you want to achieve as you are working with goals.

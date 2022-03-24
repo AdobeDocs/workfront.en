@@ -66,8 +66,8 @@ If this is not the case, you can follow the steps below.
 
 1. Do one of the following to download the app:
 
-  * If you are using the Production environment, click&nbsp; [Mac Production Download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.pkg)
-  * If you are using the Preview environment, click&nbsp; [Mac Preview Download for the Desktop Proofing Viewer.](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.pkg)
+   * If you are using the Production environment, click&nbsp; [Mac Production Download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.pkg)
+   * If you are using the Preview environment, click&nbsp; [Mac Preview Download for the Desktop Proofing Viewer.](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.pkg)
 
 1. Open the file you have just downloaded to start the installation.
 1. On the installation box that appears, click **Continue**, then click **Install**.
@@ -94,8 +94,8 @@ If your Workfront or Workfront Proof administrator has downloaded the app on you
 
 1. Do one of the following to download the app:
 
-  * In the Production environment, click&nbsp; [Windows Production download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.exe)
-  * In the Preview environment, click&nbsp; [Windows Preview download for the Desktop Proofing Viewer](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.exe).
+   * In the Production environment, click&nbsp; [Windows Production download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.exe)
+   * In the Preview environment, click&nbsp; [Windows Preview download for the Desktop Proofing Viewer](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.exe).
 
 1. Open the file you have just downloaded to start the installation.
 1. In the installation box that appears, open the file you have just downloaded to start the installation.

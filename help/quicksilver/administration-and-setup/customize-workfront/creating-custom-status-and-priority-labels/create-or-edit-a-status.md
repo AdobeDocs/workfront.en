@@ -85,7 +85,7 @@ When you create a custom status for the entire organization, you can configure i
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
-      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p>  <img src="assets/status-color-350x211.png" style="width: 350;height: 211;">  </td> 
+      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/status-color-350x211.png" style="width: 350;height: 211;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Equates With</td> 

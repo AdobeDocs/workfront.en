@@ -27,9 +27,9 @@ You can use text mode when you want to achieve the following in&nbsp;Workfront:
   For more information about calculated custom fields, see the [Use Text Mode in calculated custom fields](#calculated-custom-fields) section in this article.
 * Enhance filters, views, and groupings beyond what is possible in the report builder. For information about using text mode for filters, views, and groupings, see the following sections in this article:
 
-  * [Use Text Mode in views](#using-text-mode-in-views) 
-  * [Use Text Mode in filters](#using-text-mode-in-filters) 
-  * [Use Text Mode in groupings](#using-text-mode-in-groupings)
+   * [Use Text Mode in views](#using-text-mode-in-views) 
+   * [Use Text Mode in filters](#using-text-mode-in-filters) 
+   * [Use Text Mode in groupings](#using-text-mode-in-groupings)
 
 * Create custom prompts. You can only create custom prompts using Text&nbsp;Mode.
 
@@ -343,7 +343,8 @@ For examples of the most common reasons for using text mode in a grouping, see t
 <ul>
 <li><a href="#grouping-by-calculated-value" class="MCXref xref">Group results by a calculated value common to all objects in the grouping</a> </li>
 <li><a href="#add-fourth-grouping" class="MCXref xref">Add a fourth grouping in a standard report</a> </li>
-<li><a href="#rename-grouping" class="MCXref xref">Rename a Grouping</a> </li> <a href="#indicate" class="MCXref xref">Indicate whether the results in a Grouping should be collapsed or expanded</a>  
+<li><a href="#rename-grouping" class="MCXref xref">Rename a Grouping</a> </li>
+<li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="#indicate" class="MCXref xref">Indicate whether the results in a Grouping should be collapsed or expanded</a> </li>
 </ul>
 <h3><a name="grouping-by-calculated-value"></a>Group results by a calculated value common to all objects in the grouping</h3>
 <p>For example, you might want to view your tasks grouped by Percent Complete in ranges of 0-25, 26-50, 51-75, 75-99, and 100. Doing so would require using text mode for your grouping.<br>The grouping that you want to use for this example is:</p>
@@ -357,20 +358,21 @@ For examples of the most common reasons for using text mode in a grouping, see t
 <li value="1">When customizing a grouping, click <strong>Switch to Text Mode</strong>.</li>
 <li value="2">Remove all the lines in the text mode interface of the grouping that have the word "name" in them, then add the line: <pre>group.0.name=Your Value</pre> You can also leave the <code>group.0.name</code> line blank, in which case the grouping shows the name of the value you are grouping by.<br>Or</li>
 <li value="3">Add the following line to the existing text mode code in a Grouping:<br><pre>group.0.displayname=Your Value</pre></li>
-</ol>  
+</ol>
+<div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
 <h3><a name="Indicate"></a>Indicate whether the results in a Grouping should be collapsed or expanded</h3>
 <p>You can indicate whether the results in a grouping should display collapsed or expanded in a list or report. The results in a grouping display expanded, by default. For information about creating a grouping, see <a href="../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md" class="MCXref xref">Create groupings in Adobe Workfront</a>.</p>
 <ol>
 <li value="1">When customizing a grouping, click <strong>Switch to Text Mode</strong>.</li>
 <li value="2"> <p>Add the code for your custom grouping, then add the following line for a first-level grouping:</p> <p><code>group.0.iscollapsed=true</code> to display the grouping collapsed</p> <p>Or</p> <p><code>group.0.iscollapsed=false</code> to display the grouping expanded.</p> </li>
 <li value="3"> <p>Click <strong>Done</strong>, then <strong>Save Grouping</strong> when you modify the grouping in a list.</p> <p>Or </p> <p>Click <strong>Done</strong>, then <strong>Save + Close</strong> when you modify the grouping in a report.</p> </li>
-</ol>
-<div class="tips" data-mc-autonum="<b>Tips: </b>"> <span class="autonumber"><span><b>Tips: </b></span></span>
+</ol> <note type="tips">  
 <ul>
 <li>When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.</li>
 <li>The results of a grouping always display expanded after accessing them from a chart element.</li>
 </ul>
-</div>  
+</note>
+</div>
 </div>
 -->
 

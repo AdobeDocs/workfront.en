@@ -97,16 +97,15 @@ The following table lists the available search operators.
 
 ## Search for items in Workfront Library
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where you want to search.
 
    Depending on your access level to Workfront Library, you might be able to search from the following areas:
 
-  * **Library**: Search for items shared with you
-  * **My Content**: Search for items that you uploaded to Workfront Library
-  * **Collections**: Search for items in collections that you created or that were shared with you
+   * **Library**: Search for items shared with you
+   * **My Content**: Search for items that you uploaded to Workfront Library
+   * **Collections**: Search for items in collections that you created or that were shared with you
 
    Workfront searches through all the files, folders, and sub-folders in the area you select for the search.
 
@@ -125,17 +124,17 @@ The following table lists the available search operators.
 
 1. (Optional) Filter the search results.
 
-  1. Click the **Filter** icon in the upper-right area of the screen.
+   1. Click the **Filter** icon in the upper-right area of the screen.
 
-     ![](assets/filter-icon-location-350x102.png)
+      ![](assets/filter-icon-location-350x102.png)
 
-     The Filter panel opens and displays facets and keywords that allow you to filter the search results based metadata applied to the content.
-  
-  1. In the Filter panel, select the filters and keywords you want to apply.
+      The Filter panel opens and displays facets and keywords that allow you to filter the search results based metadata applied to the content.
+   
+   1. In the Filter panel, select the filters and keywords you want to apply.
 
-     ![](assets/search-results-library-350x157.png)
+      ![](assets/search-results-library-350x157.png)
 
-     The filtered results display.
+      The filtered results display.
 
 1. (Optional) To close the Filter panel, click the **X** at the upper-right corner of the panel.
 
@@ -149,11 +148,11 @@ The following table lists the available search operators.
 
 1. (Optional) To filter the search results:
 
-  1. Click the **Filter** icon in the upper-left corner of the results area.
+   1. Click the **Filter** icon in the upper-left corner of the results area.
 
-     The Filter panel opens and displays facets and keywords that allow you to filter the search results based metadata applied to the content.
-  
-  1. Select the filters and keywords you want to apply.
+      The Filter panel opens and displays facets and keywords that allow you to filter the search results based metadata applied to the content.
+   
+   1. Select the filters and keywords you want to apply.
 
 1. (Optional) To close the Filter panel, click the **X** at the upper-right corner of the panel.
 

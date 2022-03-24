@@ -103,7 +103,12 @@ You must have the following access to perform the steps in this article:
 1. Click **Projects** in the Global Navigation Bar.  
 1. Click the **Projects** tab.
 
-1. Click&nbsp;**Templates**. 
+   ![](assets/cmt-350x82.png)
+
+1. Click&nbsp;**Templates**.
+
+   ![](assets/cmt2-350x167.png)
+
 1. Do any of the following:
 
    * To add Resource Managers to a single template, click the name of the template where you want to designate one or more Resource Managers, then click the **Edit Template.** 

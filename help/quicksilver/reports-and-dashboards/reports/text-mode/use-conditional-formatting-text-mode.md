@@ -496,9 +496,9 @@ Consider the following when adding aggregators to a column in Text Mode:
 
 * The values in the column must have a format that can be summarized.&nbsp;For example, they must have one of the following formats:
 
-  * Number
-  * Date
-  * Currency
+   * Number
+   * Date
+   * Currency
 
 * You can add an aggregator to a column that displays a calculation. The aggregated value displays in the grouping of the view or report. For more information, see [Grouping: display the result of aggregating multiple calculated values in a grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * The lines of code for the definition of the column must be identical to the lines of code introducing the aggregator and preceded by "aggregator."&nbsp;For example, if you have a column where you display Planned Hours on a project, the text mode of the main lines of the column is:

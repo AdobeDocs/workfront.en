@@ -576,21 +576,21 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p>
    -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
+     -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
+     -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
+     -->
 
-    <!--  
-    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
+     -->
 
    <!--
    <note type="note">
@@ -606,17 +606,41 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about the key lines in text mode in a view or grouping, see the section <a href="#editing" class="MCXref xref">Edit text mode in a view</a> in this article. </p>
    -->
 
+1. 
+
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Add one of the following lines of code to any grouping to indicate whether the results in the grouping should display in an expanded or collapsed list. By default, groupings display expanded:</p>
    -->
 
-1. 
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>group.0.iscollapsed=true </code>if you want the grouping to display with the results collapsed</li>   
+     -->   
+   
+   * 
+   
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>group.0.iscollapsed=false</code> if you want the grouping to display with the results expanded </p>   
+     -->
 
-   <!--
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>group.0.iscollapsed=true </code>if you want the grouping to display with the results collapsed</li>
-   -->
-
-   ```<li> <!--  <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>group.0.iscollapsed=false</code> if you want the grouping to display with the results expanded </p> -->  <div class="tips" data-mc-autonum="<b>Tips: </b>">  <span class="autonumber"><span><b>Tips: </b></span></span>   <ul> <!--    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.</li>   --> <!--    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The results of a grouping always display expanded after accessing them from a chart element. </li>   -->   </ul>  </div> </li>```
+     >[!NOTE]
+     >
+     >
+     >   
+     >   
+     >   
+     >   
+     >     <!--     >   
+     >     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.</li>     >   
+     >     -->     >   
+     >   
+     >   
+     >   
+     >     <!--     >   
+     >     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The results of a grouping always display expanded after accessing them from a chart element. </li>     >   
+     >     -->     >   
+     >   
+     >   
+     >
 
    <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>

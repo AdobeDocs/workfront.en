@@ -41,6 +41,8 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
+###
+
 ## Edit programs
 
 1. Go to the **Main Menu**.
@@ -64,26 +66,26 @@ You must have the following access to perform the steps in this article:
 
    To edit information in the Details section, do the following:
 
-  1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
-  1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
-  1. For information about the fields visible in the Program Details section, continue with editing the program in the Edit Program box as described below.
-  1. (Optional) If there are no custom forms attached to the program, start typing the name of a form in the **Add custom form** field, select it when it displays in the list, then click&nbsp;**Save Changes**. 
-  1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
+   1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
+   1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
+   1. For information about the fields visible in the Program Details section, continue with editing the program in the Edit Program box as described below.
+   1. (Optional) If there are no custom forms attached to the program, start typing the name of a form in the **Add custom form** field, select it when it displays in the list, then click&nbsp;**Save Changes**. 
+   1. (Optional) Click the **Export** icon ![](assets/export.png) to export the Overview and custom forms information to a PDF file, then click **Export**. Select from the following:
 
-    * Select all (displays only when there is at least one custom form attached)
-    * Overview
-    * The name of one or multiple custom forms
+      * Select all (displays only when there is at least one custom form attached)
+      * Overview
+      * The name of one or multiple custom forms
 
-     The PDF file downloads to your computer.
+      The PDF file downloads to your computer.
 
-     ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-     For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 1. To edit all information about one or more programs do one of the following:
 
-  * Click the **More** menu ![](assets/more-icon.png) next to the program name, then**Edit.**
-  * Go to a list of programs and select one or more program that you want to edit, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
+   * Click the **More** menu ![](assets/more-icon.png) next to the program name, then**Edit.**
+   * Go to a list of programs and select one or more program that you want to edit, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
 
    The **Edit Program** dialog box displays.
 
@@ -93,9 +95,9 @@ You must have the following access to perform the steps in this article:
 
 1. Consider specifying information in any of the following sections:
 
-  * [Overview](#issue)
-  * [Custom Forms](#custom%c2%a0f)
-  * [Comment](#comment)
+   * [Overview](#issue)
+   * [Custom Forms](#custom%c2%a0f)
+   * [Comment](#comment)
 
 ### Overview
 

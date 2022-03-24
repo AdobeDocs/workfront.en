@@ -46,7 +46,7 @@ When a company is associated with a project and this option is enabled, changes 
 When a user manually recalculates finances on the project, any changes to the company-level billing rates are applied. Historical revenue calculations are also overridden unless they are marked as billed.
 
 1. Go to a project. 
-1. Click **Edit Project.** 
+1. Click **Edit Project.**
 1. In the **Finance** section, enable the **Allow company-level billing rates to override project-level billing rates**.
 
    ``` ```**Warning: **``````Enabling this option overrides historical revenue calculations unless they are marked as billed. You can preserve the historical revenue calculations by creating a billing record. For more information, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md)
@@ -61,10 +61,10 @@ After you have enabled the company-level billing rates override option on a proj
 >
 >Users must have access to Companies in their access level to update company-level billing rates.
 
-1. Go to **Setup** in the Global Navigation Bar. 
+1. Go to **Setup** in the Global Navigation Bar.
 1. Click **Companies**. 
 1. Click the name of the company that is associated with the project for which you enabled company-level billing rates override.
-1. Click the **Billing Rates** subtab. 
+1. Click the **Billing Rates** subtab.
 1. Enter the new billing rate for an existing job role in the **Company Billing Rate** field, then press Enter. 
 1. To update company rates for one or more projects, do one of the following:
 

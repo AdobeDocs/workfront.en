@@ -117,10 +117,10 @@ Although you cannot view task information in the Resource Planner, the Planned C
 * The type of assignment on the task.  
   You can leave a task unassigned, or assign the following entities to a task:
 
-  * A User (with or without a Job Role)
-  * A Role
-  * A Team  
-    A task assigned to a Team is considered unassigned, from the perspective of the Resource Planner.
+   * A User (with or without a Job Role)
+   * A Role
+   * A Team  
+     A task assigned to a Team is considered unassigned, from the perspective of the Resource Planner.
 
 * The **Cost Type** of the tasks on the project.  
   For more information about the Cost Type of a task, see [Track costs](../../manage-work/projects/project-finances/track-costs.md).

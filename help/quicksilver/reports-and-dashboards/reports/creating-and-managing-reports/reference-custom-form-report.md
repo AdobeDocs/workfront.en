@@ -60,6 +60,8 @@ When creating the report, simply use the object type of the form as the field so
 
 For example, you might have a custom form applied to all projects that includes the custom field **Consultant**. To create a report that lists all of the projects where Olivia Kim is the consultant, use the **Project** object type as the field source, and use **Consultant** as the field name. Set the filter qualifier to **Equal**, then type Olivia Kim.
 
+![](assets/qs-consultant-filter-example-350x126.png)
+
 For more information about creating a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Reference information about custom forms
@@ -86,12 +88,14 @@ To display all custom forms associated with an object:
 
 1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. On the **Columns** tab, expand the object type that the custom form that you want to reference is applied to, then click **Category Name**.  
-   For example, to display all custom forms associated with a task, expand the **Task** field source, then click the **Category Name** field name.
+   For example, to display all custom forms associated with a task, expand the **Task** field source, then click the **Category Name** field name.  
+   ![](assets/qs-category-name-column-350x267.png)
 
 To display only the primary custom form associated with the object:
 
 1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. On the **Columns** tab, expand the **Category** field source, then click the **Name** field name.
+1. On the **Columns** tab, expand the **Category** field source, then click the **Name** field name.  
+   ![](assets/qs-category-name-column-2-350x248.png)
 
 ### Reference custom forms in a report Filter
 
@@ -99,15 +103,16 @@ To filter on all custom forms associated with the object type:
 
 1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. On the **Filters** tab, expand **Categories**, then click **Name**.  
+   ![](assets/qs-categories-name-filter-350x311.png)
 
 1. Select the condition qualifier that you want to use:
 
-  * Is Blank
-  * Is Not Blank
-  * Contains
-  * Does Not Contain
-  * Equal
-  * Not Equal
+   * Is Blank
+   * Is Not Blank
+   * Contains
+   * Does Not Contain
+   * Equal
+   * Not Equal
 
    For more information about each qualifier, see the article [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -122,16 +127,17 @@ To filter on all custom forms associated with the object type:
 To filter only on the primary custom form associated with the object type:
 
 1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. On the **Filters** tab, expand the **Category** field source, then click the **Name** field name.
+1. On the **Filters** tab, expand the **Category** field source, then click the **Name** field name.  
+   ![](assets/qs-category-name-filter-350x437.png)  
 
 1. Select the condition qualifier that you want to use:
 
-  * Is Blank
-  * Is Not Blank
-  * Contains
-  * Does Not Contain
-  * Equal
-  * Not Equal
+   * Is Blank
+   * Is Not Blank
+   * Contains
+   * Does Not Contain
+   * Equal
+   * Not Equal
 
    For more information about each qualifier, see the article [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -146,5 +152,6 @@ To filter only on the primary custom form associated with the object type:
 >You can group items only by the primary custom form that is associated with the object; you cannot group items by all forms that are associated with the object.
 
 1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. On the **Groupings** tab, expand **Category**, then click **Name**.
+1. On the **Groupings** tab, expand **Category**, then click **Name**.  
+   ![](assets/qs-category-name-grouping-350x373.png)
 

@@ -47,7 +47,9 @@ For instructions, see [View and manage a group’s memberships](../../../adminis
 
 ## Manage a group’s details
 
-You can view and edit the Group Details page for a group or subgroup that you manage. This page includes a description of the group, the names of the Business Leader and group administrators, and an option that allows you to make the group and all of its subgroups public or private. And, if your access level allows you to manage custom forms, you can attach a custom form to a group. For instructions, see [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
+You can view and edit the Group Details page for a group or subgroup that you manage. This page includes a description of the group, the names of the Business Leader and group administrators, and an option that allows you to make the group and all of its subgroups public or private. And, if your access level allows you to manage custom forms, you can attach a custom form to a group.
+
+For instructions, see [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
 ## Edit, copy, or delete a group
 
@@ -63,11 +65,11 @@ Without leaving the main page of a group you are viewing, you can quickly edit, 
 
    If you need information about using the box that displays, see one of the following:
 
-  * **Edit**: [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
-  
-  * **Copy**: [Create a top-level group by copying an existing group or subgroup](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
-  
-  * **Delete**: [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+   * **Edit**: [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+   
+   * **Copy**: [Create a top-level group by copying an existing group or subgroup](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   
+   * **Delete**: [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
 ## Configure project, task, and issue preferences for a group
 

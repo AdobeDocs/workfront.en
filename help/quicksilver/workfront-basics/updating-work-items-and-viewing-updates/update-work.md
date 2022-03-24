@@ -86,13 +86,13 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Formatting also displays in any email notification users receive containing your update.
-   >  * Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.  
-   >    If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
-   >  * Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >  
+   >   
+   >   
+   >   * Formatting also displays in any email notification users receive containing your update.
+   >   * Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.  
+   >     If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
+   >   * Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
+   >   
    >
 
 1. (Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-(small).png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting.
@@ -104,26 +104,26 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Workfront does not replace punctuation emoticons such as :) with emojis.
-   >  * Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >  * The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
-   >  * An unsupported emoji is represented by a black or white box.
-   >  * Windows 7 supports only black and white emojis.  
-   >  * Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
-   >  
+   >   
+   >   
+   >   * Workfront does not replace punctuation emoticons such as :) with emojis.
+   >   * Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
+   >   * The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
+   >   * An unsupported emoji is represented by a black or white box.
+   >   * Windows 7 supports only black and white emojis.  
+   >   * Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
+   >   
    >
 
 1. (Optional) To add a URL link to additional information sources:
 
-  1. Click in your update where you want to insert a link.
-  1. On the **Rich Text** toolbar, click the **Hyperlink**icon. ![](assets/link-icon.png)  
+   1. Click in your update where you want to insert a link.
+   1. On the **Rich Text** toolbar, click the **Hyperlink**icon. ![](assets/link-icon.png)  
 
-  1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
-  
-  1. Under **Text to display**, type or paste the link text.
-  1. Click **Save**.
+   1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
+   
+   1. Under **Text to display**, type or paste the link text.
+   1. Click **Save**.
 
 1. (Optional) To insert a Zoom meeting URL in your update, click the **Zoom** icon ![](assets/zoom-icon-updates.png).
 
@@ -132,24 +132,29 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * The Zoom integration is available only if your Workfront administrator enabled it, as explained in [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).
-   >  * The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to Workfront. You need to do this only once.
-   >  * Although the integration uses your Zoom account, the Zoom meeting ID that you add to your update is a unique meeting URL, not your personal Zoom meeting room URL.
-   >  
+   >   
+   >   
+   >   * The Zoom integration is available only if your Workfront administrator enabled it, as explained in [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).
+   >   * The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to Workfront. You need to do this only once.
+   >   * Although the integration uses your Zoom account, the Zoom meeting ID that you add to your update is a unique meeting URL, not your personal Zoom meeting room URL.
+   >   
    >
 
 1. (Optional) To attach an image to your update, click the **Image** icon ![](assets/addimageicon-35x32.png)&nbsp;and browse to the image on your computer.  
    Or  
    Drag the image into the update area.
 
-1.
-
-  * Your Workfront administrator must enable adding images before you can see the Image icon.
-  * The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
-  * Images are accessible only from the Updates tab on an object, and they are not available on the Documents tab.
-  * You can send an update with an image and no text.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * Your Workfront administrator must enable adding images before you can see the Image icon.
+   >   * The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
+   >   * Images are accessible only from the Updates tab on an object, and they are not available on the Documents tab.
+   >   * You can send an update with an image and no text.
+   >   
+   >
 
 1. (Optional) Specify any of the following items:
 
@@ -191,8 +196,7 @@ You must have the following access to perform the steps in this article:
    >
    >
    ><!--   >
-   >A small pop-up window will appear for seven seconds after clicking   >
-   ><strong>Update</strong>, allowing you to undo the update and return to the editing pane before the update is posted. The update will be posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page.   >
+   ><span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">A small pop-up window will appear for seven seconds after clicking <strong>Update</strong>, allowing you to undo the update and return to the editing pane before the update is posted. The update will be posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page.</span>   >
    >-->   >
    >
 
@@ -246,7 +250,9 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
 1. In the message that appears, click **Confirm**.
 
-``` ```**Note: **``````Deleting an update with an attached image deletes both the comment and the image.  
+>[!NOTE]
+>
+>Deleting an update with an attached image deletes both the comment and the image.
 
 ## Add an update on a Timesheet
 
@@ -290,6 +296,7 @@ To enable or disable system updates:
 1. Click the **Updates** tab on an&nbsp;object.
 1. Click **Show System Updates** to slide the switch left (disabled) or right (enabled).
 
-   ![](assets/show-system-updates-qs-350x55.png)   
+   ![](assets/show-system-updates-qs-350x55.png)
+
    This option&nbsp;is persistent across all objects throughout Workfront and remains in the position you select, even if you log out of Workfront.
 

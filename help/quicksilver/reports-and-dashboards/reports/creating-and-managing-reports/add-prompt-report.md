@@ -70,6 +70,7 @@ For instructions on creating a report, see [Create a report](../../../reports-an
 
 1. Click **Report Settings**.
 1. In the **Report Prompts** area, click **Add a Prompt**.  
+   ![](assets/qs-add-a-prompt-350x216.png)
 
 1. (Conditional) Select the field that you want the prompt to be based on. Start typing the name of the field, and click to select it when it appears in the list.  
    The options available to users running the report will differ depending on the field you select.  
@@ -83,25 +84,25 @@ For instructions on creating a report, see [Create a report](../../../reports-an
 
    Specify the following information for the custom prompt: The condition of a custom prompt can only be edited using text mode. This allows for multiple conditions to be applied in a single field.
 
-  * **Field name:** This is the name of the prompt, as you see it before you run the report.
-  * **Label:** This is the name of one of the options inside the prompt as you see it before you run the report.
-  * **Condition:** Enter a condition that defines the prompt.
+   * **Field name:** This is the name of the prompt, as you see it before you run the report.
+   * **Label:** This is the name of one of the options inside the prompt as you see it before you run the report.
+   * **Condition:** Enter a condition that defines the prompt.
 
    Use the same syntax that you would use when entering a text mode filter, and join your statements by "&". For more information about editing a filter in text mode, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
    For example, the **Condition** field of the custom prompt for the following scenarios could look like this:
 
-  * all tasks on future projects where the project status is Idea, Requested, Planned and Current:
+   * all tasks on future projects where the project status is Idea, Requested, Planned and Current:
 
-    ```  
-    project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
-    ```
+     ```   
+     project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
+     ```
 
-  * all tasks in completed (past) projects where the project status is Completed or Dead:
+   * all tasks in completed (past) projects where the project status is Completed or Dead:
 
-    ```  
-    project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
-    ```
+     ```   
+     project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
+     ```
 
    For more information about text mode modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -119,6 +120,8 @@ When you have a prompt added to a report, the default tab of the report is alway
 To run a report with a prompt:
 
 1. Go to the report with the prompt.
+
+   ![](assets/qs-prompt-drop-downs-350x229.png)
 
 1. Choose a condition for one or all the prompts displayed on the **Prompts** tab.  
    (Optional) You can leave the prompts blank and not filter the report by the prompt conditions.

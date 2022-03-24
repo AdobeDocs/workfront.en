@@ -10,7 +10,9 @@ hidefromtoc: true
 
 # Overview of the Queue Details tab in a project
 
-Overview of the Queue Setup section You can set up a Request Queue where users can enter occasional&nbsp;requests that are not planned work on a project.
+## Overview of the Queue Setup section
+
+You can set up a Request Queue where users can enter occasional&nbsp;requests that are not planned work on a project.
 
 For more information about how to create a Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -29,7 +31,9 @@ To customize the Queue Setup section of a project, you can edit the following se
 * Queue Topics. For more information about setting up Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 * Topic Groups. For more information about setting up Topics Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-Overview of the Queue Details section You can use Queue Details to configure a project as a Request Queue. Use this&nbsp;section to manage what kind of information you collect from users on a request form and determine who can access that information.
+## Overview of the Queue Details section
+
+You can use Queue Details to configure a project as a Request Queue. Use this&nbsp;section to manage what kind of information you collect from users on a request form and determine who can access that information.
 
 When configuring the Queue Details &nbsp;section in a project, consider the following areas:
 
@@ -182,11 +186,11 @@ To set up the email account associated with a Request Queue, specify the followi
   >[!IMPORTANT]
   >
   >
-  >  
-  >  
-  >  * Do not use your personal email address as the POP username. Instead, create a new email address dedicated for only this purpose - to allow users to email issues to this account.&nbsp; 
-  >  * It is very important that you are using a POP email account. No other email protocol is supported&nbsp;for this setup.
-  >  
+  >   
+  >   
+  >   * Do not use your personal email address as the POP username. Instead, create a new email address dedicated for only this purpose - to allow users to email issues to this account.&nbsp; 
+  >   * It is very important that you are using a POP email account. No other email protocol is supported&nbsp;for this setup.
+  >   
   >
 
 * **POP password:** The password that corresponds with the user name that&nbsp;you created.

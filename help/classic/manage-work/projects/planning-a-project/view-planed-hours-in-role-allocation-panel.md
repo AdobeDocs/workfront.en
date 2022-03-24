@@ -16,7 +16,7 @@ You can view role allocation for all job roles assigned to work items in a proje
 >
 >* [Show role allocation for projects and initiatives in the Workload Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md) 
 >
->  You must have a Scenario Planner license in order to see initiative hours in the Role Allocation panel.&nbsp;For information about the Scenario Planner, see Get started with the Adobe Workfront Scenario Planner. 
+>  You must have a Scenario Planner license in order to see initiative hours in the Role Allocation panel.&nbsp;For information about the Scenario Planner, see [Get started with the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fget-started-with-scenario-planning.htm&_LANG=en). 
 >
 
 ## Access requirements
@@ -62,9 +62,11 @@ You must have the following:
 
 ## View project Planned Hours in the Role Allocation panel
 
-1. Click **Projects** in the Global Navigation Bar.  
+1. Click **Projects** in the Global Navigation Bar. 
 1. Click the name of a project to access it.&nbsp;This opens the Project page. 
-1. Click **Staffing** > Workload Balancer. You might need to click **Scheduling** > **Switch to Workload Balancer**.  
+1. Click **Staffing** > Workload Balancer.
+
+   You might need to click **Scheduling** > **Switch to Workload Balancer**. 
 
 1. Click the **Show role allocation** icon ![](assets/show-role-allocation-icon.png).
 

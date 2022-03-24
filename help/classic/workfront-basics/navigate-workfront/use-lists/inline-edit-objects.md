@@ -70,6 +70,8 @@ You must have the following access to perform the steps in this article:
 
    If the field can be edited, this turns the field and all other fields displayed in the list into editable cells.
 
+   ![](assets/in1-350x101.png)
+
 1. Edit the information inside this cell, then press Enter.
 
    >[!NOTE]

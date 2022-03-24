@@ -124,6 +124,8 @@ The following table illustrates how the Planned Duration changes with adding res
 
 In the following example, 3 assignees are 100% allocated to the Effort Driven task:
 
+![](assets/effort1-350x99.png)
+
 ## Change the Duration Type of a task to Effort Driven
 
 For information about changing the Duration Type of a task, see [Update the Duration Type of a task](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
@@ -131,8 +133,8 @@ For information about changing the Duration Type of a task, see [Update the Dura
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <li value="1">Go to a task for which you want to change the Duration Type.</li>
-<li value="2"> On the <strong>Task Details</strong> tab, click <strong>Overview</strong>><strong>Edit Overview</strong>> <strong>Duration Type</strong>. </li>
-<li value="3"> <p>Select <strong>Effort Driven</strong> from the drop-down menu.</p> <p>  </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">On the <strong>Task Details</strong> tab, click <strong>Overview</strong>><strong>Edit Overview</strong>> <strong>Duration Type</strong>.</p> </li>
+<li value="3"> <p>Select <strong>Effort Driven</strong> from the drop-down menu.</p> <p> <img src="assets/effort2-350x291.png" alt="" style="width: 350;height: 291;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="4">Click <strong>Save</strong>.</li>
 </ol>
 -->

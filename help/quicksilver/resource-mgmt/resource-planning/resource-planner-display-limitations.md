@@ -68,9 +68,9 @@ Consider the following when applying the User view to the Resource Planner:
 
 * You can display all users that meet the following criteria:
 
-  * You have access to view
-  * Are active
-  * Have logged in at least once.
+   * You have access to view
+   * Are active
+   * Have logged in at least once.
 
 * You can expand each user to display the projects associated with it, and each project to display roles associated with it.  
   The first 50 projects and roles display by default, and you can use the Load More option to display additional projects or roles.

@@ -211,9 +211,9 @@ To learn what sections are available for specific areas, see [Default sections i
 
 1. (Conditional) If you selected an area that contains a list of objects—such as **Projects** or **Portfolios**—you must do the following to access the left panel navigation:
 
-  1. Click an object in the list.
-  1. (Optional) In the left panel navigation, you can select another object—such as **Tasks** or **Issues** within a project—in the left panel to access a list of objects, then click the name of the specific object.  
-     The object page displays.
+   1. Click an object in the list.
+   1. (Optional) In the left panel navigation, you can select another object—such as **Tasks** or **Issues** within a project—in the left panel to access a list of objects, then click the name of the specific object.  
+      The object page displays.
 
 1. From the object page, click any of the sections in the left panel to view or edit the information in that section.
 
@@ -229,16 +229,16 @@ To learn what sections are available for specific areas, see [Default sections i
 
 1. (Optional) At the bottom of the left panel, click **Add Custom Section** to add a custom section, then do the following:
 
-  1. Type a name for the custom section in the **Custom Section Title** field.
-  1. Start typing the name of an existing dashboard in the **Add a Dashboard** field, then click the dashboard when it displays in the list.
+   1. Type a name for the custom section in the **Custom Section Title** field.
+   1. Start typing the name of an existing dashboard in the **Add a Dashboard** field, then click the dashboard when it displays in the list.
 
-     >[!TIP]
-     >
-     >You must build the dashboard before it appears in the list.
+      >[!TIP]
+      >
+      >You must build the dashboard before it appears in the list.
 
-  1. Click **Add new section**.
+   1. Click **Add new section**.
 
-     The custom section appears at the bottom of the left panel.
+      The custom section appears at the bottom of the left panel.
 
 1. (Optional) To change the order of a section in the left panel, click the **Drag** icon ![](assets/drag-icon.png) to the left of a section and drag it up or down.
 

@@ -51,66 +51,66 @@ Your changes save automatically as you go.
 
 1. Click the Edit visualization icon ![](assets/edit-icon.png) in the upper-right corner of the visualization, then do any of the following.
 
-  1. On the **Settings** tab:
+   1. On the **Settings** tab:
 
-     <table cellspacing="0">
-      <col>
-      <col>
-      <tbody>
-       <tr>
-        <td role="rowheader">Visualization type</td>
-        <td><p>Switch to a different type of visualization. If you do this, the subsequent options on the menu might change.</p><p>The same data is entered automatically for the Vertical axis so that _____.</p></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Vertical axis</td>
-        <td>Select the data that you want to depict along the vertical left edge, as well as how you want it summarized.</td>
-       </tr>
-       <tr>
-        <td role="rowheader">Horizontal axis</td>
-        <td>Select the data that you want to depict along the horizontal bottom edge.</td>
-       </tr>
-      </tbody>
-     </table>
+      <table cellspacing="0">
+       <col>
+       <col>
+       <tbody>
+        <tr>
+         <td role="rowheader">Visualization type</td>
+         <td><p>Switch to a different type of visualization. If you do this, the subsequent options on the menu might change.</p><p>The same data is entered automatically for the Vertical axis so that _____.</p></td>
+        </tr>
+        <tr>
+         <td role="rowheader">Vertical axis</td>
+         <td>Select the data that you want to depict along the vertical left edge, as well as how you want it summarized.</td>
+        </tr>
+        <tr>
+         <td role="rowheader">Horizontal axis</td>
+         <td>Select the data that you want to depict along the horizontal bottom edge.</td>
+        </tr>
+       </tbody>
+      </table>
 
-     <!--  
-     <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Data source</b> tab:</p>  
-     <table cellspacing="0">  
-     <col>  
-     <col>  
-     <tbody>  
-     <tr>  
-     <td role="rowheader">Data source (drop-down menu)</td>  
-     <td>Change the data source for the visualization to another table on the report canvas</td>  
-     </tr>  
-     <tr>  
-     <td role="rowheader">Show Data Source</td>  
-     <td>On the report canvas, show (enable) or hide (disable) the table that powers the visualization</td>  
-     </tr>  
-     </tbody>  
-     </table></li>  
-     -->
+      <!--   
+      <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Data source</b> tab:</p>   
+      <table cellspacing="0">   
+      <col>   
+      <col>   
+      <tbody>   
+      <tr>   
+      <td role="rowheader">Data source (drop-down menu)</td>   
+      <td>Change the data source for the visualization to another table on the report canvas</td>   
+      </tr>   
+      <tr>   
+      <td role="rowheader">Show Data Source</td>   
+      <td>On the report canvas, show (enable) or hide (disable) the table that powers the visualization</td>   
+      </tr>   
+      </tbody>   
+      </table></li>   
+      -->
 
-     <!--  
-     <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>  
-     <table cellspacing="0">  
-     <col>  
-     <col>  
-     <tbody>  
-     <tr>  
-     <td role="rowheader">&nbsp;</td>  
-     <td>&nbsp;</td>  
-     </tr>  
-     <tr>  
-     <td role="rowheader">&nbsp;</td>  
-     <td>&nbsp;</td>  
-     </tr>  
-     <tr>  
-     <td role="rowheader">&nbsp;</td>  
-     <td>&nbsp;</td>  
-     </tr>  
-     </tbody>  
-     </table></li>  
-     -->
+      <!--   
+      <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>   
+      <table cellspacing="0">   
+      <col>   
+      <col>   
+      <tbody>   
+      <tr>   
+      <td role="rowheader">&nbsp;</td>   
+      <td>&nbsp;</td>   
+      </tr>   
+      <tr>   
+      <td role="rowheader">&nbsp;</td>   
+      <td>&nbsp;</td>   
+      </tr>   
+      <tr>   
+      <td role="rowheader">&nbsp;</td>   
+      <td>&nbsp;</td>   
+      </tr>   
+      </tbody>   
+      </table></li>   
+      -->
 
 1. Click anywhere outside the menu of visualizations settings to close it.
 

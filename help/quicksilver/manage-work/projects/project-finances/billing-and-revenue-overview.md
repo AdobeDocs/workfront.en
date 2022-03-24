@@ -57,6 +57,8 @@ As an Adobe Workfront administrator, when you create a job role, you can associa
 You can define the value of a job role billing rate using the Base Currency of your Workfront system ```or using another custom currency```.   
 For more information about creating job roles ```and overriding their currency```, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
 
+![](assets/billing-rate-for-role-1-350x294.png)
+
 ### Fixed Billing Rates for projects or tasks
 
 In addition to user and job role hourly rates, you can also have the following fixed billing rates:

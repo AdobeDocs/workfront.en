@@ -89,20 +89,20 @@ You can activate goals you created or a goal that you have Manage permissions to
 
 1. Do one or several of the following:
 
-  * Click **Add Result**.
+   * Click **Add Result**.
 
-    For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-  
-  * Click **Add Activity**.
+     For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+   
+   * Click **Add Activity**.
 
-    For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-  
-  * Go to another goal and align it to the current goal.
+     For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   
+   * Go to another goal and align it to the current goal.
 
-    For information about aligning goals, see the following articles:
+     For information about aligning goals, see the following articles:
 
-    * [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) 
-    * [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+      * [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) 
+      * [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 1. Click **Activate**.
 

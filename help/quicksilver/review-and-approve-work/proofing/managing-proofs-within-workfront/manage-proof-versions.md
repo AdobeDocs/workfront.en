@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the Document list, and select the proof.
 1. In the Summary, scroll to the view the **All Versions** section. Here you can view all of the versions of the proof .
 
-View and manage details for a previous proof version
+## View and manage details for a previous proof version
 
 1. In a document list, hover over the row containing the proof, then click **Document Details**.
 1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
@@ -64,9 +64,9 @@ View and manage details for a previous proof version
 ## Download all versions of a proof
 
 1. In the document list, click on the proof.
-1. Document Details
-1. All Versions
-1. Download All
+1. Click **Document Details**, then select **All Versions** in the left panel.
+
+1. Click **Download All** at the top of the list.
 
 ## Delete a proof version
 
@@ -90,6 +90,8 @@ To delete a proof version:
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.Find the document you need.
 1. In the **Version** area in the Summary, click the version, then click **Delete** in the drop-down list that appears. The **Delete** option is visible only if there are at least two versions.
+
+   ![](assets/more-versions-350x143.png)
 
 ## View a previous proof version
 
@@ -115,10 +117,10 @@ Users must have a proofing license in order to view the proof details of a past 
 
 1. On the Document Details page, click **Proofing Workflow** in the left panel to do any of the following:
 
-  * Add an automated workflow. For more information, see the section [Create an Automated Workflow for the proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow).
-  * Share the proof's public URL. For more information, see [Share a proof link](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-  * View all activity that has occurred on the proof.
-  * Send reminder messages to reviewers on the proof.
+   * Add an automated workflow. For more information, see the section [Create an Automated Workflow for the proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow).
+   * Share the proof's public URL. For more information, see [Share a proof link](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   * View all activity that has occurred on the proof.
+   * Send reminder messages to reviewers on the proof.
 
 1. Click **Done**.
 

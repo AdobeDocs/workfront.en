@@ -59,12 +59,14 @@ To add an image or screenshot&nbsp;to Workfront via the clipboard:
    For example, right-click on a browser image and select **Copy Image**, or copy an image from an image application such as Photoshop or SnagIt.
 
 1. In Workfront, Go to the **Documents**&nbsp;area where you want to add the image.
-1. Click **Add New**&nbsp;> **Paste from Clipboard**. If you are using the Internet Explorer or Safari browser, Paste from Clipboard is not supported, and displays as dimmed in the Add Document drop-down menu.
+1. Click **Add New**&nbsp;> **Paste from Clipboard**.
+
+   If you are using the Internet Explorer or Safari browser, Paste from Clipboard is not supported, and displays as dimmed in the Add Document drop-down menu.
 
 1. In the **Paste from Clipboard** box that appears, do either of the following, depending on your operating system:
 
-  * **Windows:** Press&nbsp;CTRL+V.
-  * **Mac:**&nbsp;Press Command+V
+   * **Windows:** Press&nbsp;CTRL+V.
+   * **Mac:**&nbsp;Press Command+V
 
 1. To add additional images, repeat step 1 to copy another image, then paste the image to the Paste from Clipboard dialog box as described in Step 4.
 

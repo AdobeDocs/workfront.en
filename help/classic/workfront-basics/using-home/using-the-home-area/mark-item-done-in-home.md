@@ -45,7 +45,9 @@ You must have the following access to perform the steps in this article:
 
 Only the user assigned to the task or issue can mark it as Done.
 
-1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+1. Click **Home** in the Global Navigation Bar.
+
+   For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. In the **Work List**, locate any of the items waiting to be worked on.
 1. Do either of the following:
@@ -69,7 +71,8 @@ Depending on how many statuses are associated with the Done button or how many r
 
 ### Done button associated with one status
 
-When the Done button is associated with one status and the work item is assigned to you only, the button reads,&nbsp;**Done**. When you click it,&nbsp;the status of the task or the issue is changed to the status associated with the Done button.
+When the Done button is associated with one status and the work item is assigned to you only, the button reads,&nbsp;**Done**. When you click it,&nbsp;the status of the task or the issue is changed to the status associated with the Done button.  
+![](assets/marking-an-item-done-done-350x191.png)
 
 To understand which status is associated with the Done button, check the Team Settings of your Home Team for the Done Button section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 

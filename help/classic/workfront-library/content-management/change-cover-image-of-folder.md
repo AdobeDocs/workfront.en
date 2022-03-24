@@ -13,7 +13,7 @@ If you have Manage permissions to a folder or a collection, you can change the i
 
 When you change the cover image, it is changed for all users who have access to the folder or collection.
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. Navigate to the folder or collection that you want to change, hover over it and click the **More** icon in the upper-right corner.
 1. Select **Select cover image** in the drop-down menu.

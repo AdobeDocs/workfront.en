@@ -185,22 +185,20 @@ The following grid shows what sections in the My Settings area are visible&nbsp;
 
 ## Configuring the My Settings area
 
-1. Main Menu
-1. 
-1. More
-1. 
-1. Edit
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.
+
+1. Click the **More** menu ![](assets/more-icon.png), then click **Edit**.  
+
 1. Depending on your access level, you can update&nbsp;the following sections:
 
-  * [Personal Info](#personal-info) 
-  * [Preferences](#preferences) 
-  * [Notifications](#notifications) 
-  * [Access](#access) 
-  * [Organization](#organization) 
-  * [Resource Planning](#resource-planning) 
-  * [Custom Form](#custom-forms) 
-  * [Comment](#comment)
+   * [Personal Info](#personal-info) 
+   * [Preferences](#preferences) 
+   * [Notifications](#notifications) 
+   * [Access](#access) 
+   * [Organization](#organization) 
+   * [Resource Planning](#resource-planning) 
+   * [Custom Form](#custom-forms) 
+   * [Comment](#comment)
 
 1. Click **Save**.
 

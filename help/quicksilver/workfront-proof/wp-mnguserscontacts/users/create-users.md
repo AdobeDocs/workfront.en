@@ -27,12 +27,12 @@ You can create a user from scratch or you can convert a Guest to a licensed user
 
 1. Do any of the following to begin creating a user:
 
-  * Click the drop-down menu arrow next to&nbsp;**New proof**,&nbsp;then click&nbsp;**New user**.
-  
-  * Click **Settings** > **Account Settings**, then click **+New User**.
-  
-  * Click&nbsp;**Contacts**in the left navigation menu,&nbsp;click**+**&nbsp;**New**, then click&nbsp;**New user**.* 
-    *The New User dialog box displays.
+   * Click the drop-down menu arrow next to&nbsp;**New proof**,&nbsp;then click&nbsp;**New user**.
+   
+   * Click **Settings** > **Account Settings**, then click **+New User**.
+   
+   * Click&nbsp;**Contacts**in the left navigation menu,&nbsp;click**+**&nbsp;**New**, then click&nbsp;**New user**.* 
+     *The New User dialog box displays.
 
 1. In the **New User** box that appears, type the person's information and set configuration options as described in&nbsp; [Configure User Information using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
 

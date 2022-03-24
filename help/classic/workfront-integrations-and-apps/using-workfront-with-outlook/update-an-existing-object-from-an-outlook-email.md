@@ -73,9 +73,9 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
    * **Type**: Select the type of object you are updating. You can select **Project**, **Task**, or **Issue**. The object you select determines the results that display in the **Name** field below. If you are unsure of the type of object, select **All** to search for projects, tasks, and issues simultaneously.
    
    * **Name**: Begin&nbsp;typing the name of the project, task, or issue that you want to update. Click the name when it appears in the drop-down list.
-   * ```**Note: **```
-   * 
-   * Create ad hoc work items
+   * When entering names of tasks, ad hoc personal tasks are excluded from this list.  
+     For more information about ad hoc personal tasks, see [Create ad hoc work items](../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md).&nbsp;
+   
    * **Update**: By default, the update is the same as the email Body. You can modify the update as desired.  
      This update is displayed as the update status in Workfront.
    

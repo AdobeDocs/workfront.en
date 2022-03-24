@@ -46,8 +46,7 @@ When a company is associated with a project and this option is enabled, changes 
 When a user manually recalculates finances on the project, any changes to the company-level billing rates are applied. Historical revenue calculations are also overridden unless they are marked as billed.
 
 1. Go to a project. 
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the project in the header, then click **Edit**.  
-
+1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the project in the header, then click **Edit**. 
 1. In the **Finance** section, enable the **Allow company-level billing rates to override project-level billing rates**.
 
    ``` ```**Warning: **``````Enabling this option overrides historical revenue calculations unless they are marked as billed. You can preserve the historical revenue calculations by creating a billing record. For more information, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md)
@@ -62,24 +61,23 @@ After you have enabled the company-level billing rates override option on a proj
 >
 >Users must have access to Companies in their access level to update company-level billing rates.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup**.  
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup**. 
 1. Click **Companies**. 
 1. Click the name of the company that is associated with the project for which you enabled company-level billing rates override.
-1. Click **Billing Rates** in the left panel. 
+1. Click **Billing Rates** in the left panel.
 1. Enter the new billing rate for an existing job role in the **Company Billing Rate** field, then press Enter. 
 1. To update company rates for one or more projects, do one of the following:
 
-  * Multiple projects:
+   * Multiple projects:
 
-  1. Go to a list of projects. 
-  1. Select the checkbox in line with the projects you want to update.
-  1. Click **Edit**.
-  1. In the Settings section, enable the **Recalculate Costs And Revenues** option. 
-  1. Click **Save Changes**.
+   1. Go to a list of projects. 
+   1. Select the checkbox in line with the projects you want to update.
+   1. Click **Edit**.
+   1. In the Settings section, enable the **Recalculate Costs And Revenues** option. 
+   1. Click **Save Changes**.
 
-  * Single project:
+   * Single project:
 
-    1. Go to the project for which you enabled company-level billing rates override.
-    1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the project name in the header, then click **Recalculate Finance**.
+      1. Go to the project for which you enabled company-level billing rates override.
+      1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the project name in the header, then click **Recalculate Finance**.
 

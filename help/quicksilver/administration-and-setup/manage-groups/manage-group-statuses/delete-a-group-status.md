@@ -38,7 +38,7 @@ You must have the following to perform the steps in this article:
 
 1. In the left panel, click **Groups**.
 1. Click the name of the top-level group.
-1. Statuses
+1. In the left panel click **Statuses**.
 1. In the list of statuses that displays, hover over the status you want to delete, then click **Delete** when it appears to the far right.
 
    ![](assets/hover-click-delete-350x141.jpg)
@@ -49,21 +49,21 @@ You must have the following to perform the steps in this article:
 
    Also, the statuses that display depend on whether the status you are deleting is unlocked or locked:
 
-  * **If it's unlocked**: Non-hidden locked and unlocked statuses are available.
+   * **If it's unlocked**: Non-hidden locked and unlocked statuses are available.
 
-    Along with the statuses that were created for the subgroup, statuses inherited from system-level and upper level groups are included.
-  
-  * **If it's locked**: One of the following is true:
+     Along with the statuses that were created for the subgroup, statuses inherited from system-level and upper level groups are included.
+   
+   * **If it's locked**: One of the following is true:
 
-    * If there are other locked, non-hidden statuses, only those are available.
-    * If there is no locked non-hidden status, the default Workfront status is available, even if it’s hidden or unlocked.
+      * If there are other locked, non-hidden statuses, only those are available.
+      * If there is no locked non-hidden status, the default Workfront status is available, even if it’s hidden or unlocked.
 
-      For information about the default Workfront statuses, see [Access the list of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Access the list of system task statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md), and the information about the 4 required issue statuses in [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+        For information about the default Workfront statuses, see [Access the list of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Access the list of system task statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md), and the information about the 4 required issue statuses in [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
 1. Click **Delete Status**.
 
-  * If the deleted status was the default status for that type in the group, the replacement status takes its place.
-  * If the deleted status was set as the default project status in project preferences, the preference is now set to the replacement status.
+   * If the deleted status was the default status for that type in the group, the replacement status takes its place.
+   * If the deleted status was set as the default project status in project preferences, the preference is now set to the replacement status.
 
 ## When a group is deleted
 

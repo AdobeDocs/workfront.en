@@ -177,9 +177,12 @@ As part of assigning work to users, you can modify user allocations in the Workl
       >
       >Modifying allocations when this setting is enabled makes the total number in the user line decrease.
 
-1. (Optional)&nbsp;Expand the **Clock icon** ![](assets/clock-icon.png) and select **Percentage** to view allocations as a percentage value. The user's capacity according to their schedule is considered to be 100%. For example, if a user is associated with a schedule of 8 hours per day, 8 hours equals 100% capacity. If you want to allocate the user to work 4 hours in a day, you would update his allocation to 50%. 
+1. (Optional)&nbsp;Expand the **Clock icon** ![](assets/clock-icon.png) and select **Percentage** to view allocations as a percentage value. The user's capacity according to their schedule is considered to be 100%. For example, if a user is associated with a schedule of 8 hours per day, 8 hours equals 100% capacity. If you want to allocate the user to work 4 hours in a day, you would update his allocation to 50%.
 
-1. ```When converting information from hours to percentages, Workfront rounds up the percentage value to a 2-digit precision and moves any remaining percentage to the last day in the duration of the task.``` 
+   >[!NOTE]
+   >
+   >```When converting information from hours to percentages, Workfront rounds up the percentage value to a 2-digit precision and moves any remaining percentage to the last day in the duration of the task.```
+
 1. Click the **More** menu ![](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
 
    Or

@@ -69,15 +69,15 @@ You must have the following access to perform the steps in this article:
 1. Specify your goals.
    &nbsp;In the&nbsp;**Importance** drop-down menu, select the level of importance:
 
-  * Highest
-  * High
-  * Medium
-  * Low
-  * Lowest
+   * Highest
+   * High
+   * Medium
+   * Low
+   * Lowest
 
-    ![](assets/g1-350x76.png)
+     ![](assets/g1-350x76.png)
 
-    You cannot customize the Importance levels of goals.
+     You cannot customize the Importance levels of goals.
 
 1. (Optional) To add another goal, click&nbsp;**Add Another Goal**and repeat Step 5 and Step 6.
 1. Click&nbsp;**Save**.

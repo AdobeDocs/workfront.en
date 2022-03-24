@@ -87,19 +87,17 @@ We recommend that you do the following before deactivating an unused job role:
 
   For information about creating approval processes and routing rules, see the following articles:
 
-  * [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) 
-  * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) 
+   * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## Deactivate a job role
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. In the left panel, click**Job Roles.**
 1. (Optional) In the **Filter** drop-down menu, select **Active** to display only active job roles. 
 1. Click the name of the job role that you want to deactivate.
-1. In the **Is Active** drop-down menu, select **No**. 
+1. In the **Is Active** drop-down menu, select **No**.
 
    ![](assets/deactivate-job-role-edit-role-box-nwe-350x291.png)
 

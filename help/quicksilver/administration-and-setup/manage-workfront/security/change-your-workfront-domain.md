@@ -59,8 +59,8 @@ If your company utilizes SSO, the following steps are required after you have yo
 1. Click **Download SAML 2.0 Metadata**.
 1. After the file is downloaded, open it and make sure of the following:
 
-  1. **entityID** is pointing to the new domain.
-  1. All locations within **<md:AssertionConsumerService>** point to the new domain.
+   1. **entityID** is pointing to the new domain.
+   1. All locations within **<md:AssertionConsumerService>** point to the new domain.
 
 1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
 1. Make sure the domain is updated for all Workfront integrations used by your organization.

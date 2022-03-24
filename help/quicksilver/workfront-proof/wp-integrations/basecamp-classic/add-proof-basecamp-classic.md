@@ -55,16 +55,16 @@ For more information, see [Review a Proof in Basecamp Classic](../../../workfron
 1. Click&nbsp;**Add proof to a Basecamp project**.
 1. In the Add to Basecamp box that appears, do the following:
 
-  1. Click **Refresh the data** to synchronize with Basecamp Classic before proceeding.
-  1. Specify whether you want this proof to be Private in Basecamp (option not available in New Basecamp).
-  1. Select your Basecamp Classic project.
-  1. Select your Basecamp Classic Message Category.
-  1. Under **People on the project**, select the check boxes for the reviewers in your Basecamp Classic account that you want to add to the proof. 
-  1. Reviewers appear in their default role/email alert. The selected reviewers receive a message in Basecamp for this proof and also an email notification from Workfront Proof.
+   1. Click **Refresh the data** to synchronize with Basecamp Classic before proceeding.
+   1. Specify whether you want this proof to be Private in Basecamp (option not available in New Basecamp).
+   1. Select your Basecamp Classic project.
+   1. Select your Basecamp Classic Message Category.
+   1. Under **People on the project**, select the check boxes for the reviewers in your Basecamp Classic account that you want to add to the proof. 
+   1. Reviewers appear in their default role/email alert. The selected reviewers receive a message in Basecamp for this proof and also an email notification from Workfront Proof.
 
-     >[!NOTE]
-     >
-     >&nbsp;If reviewer defaults have been changed, you must refresh the Basecamp data before the new defaults will be used. To refresh the Basecamp data click the "refresh" link on the Basecamp popup in Workfront Proof. Include your own name if you also want to receive the message in Basecamp.
+      >[!NOTE]
+      >
+      >&nbsp;If reviewer defaults have been changed, you must refresh the Basecamp data before the new defaults will be used. To refresh the Basecamp data click the "refresh" link on the Basecamp popup in Workfront Proof. Include your own name if you also want to receive the message in Basecamp.
 
 1. Click **OK**.
 

@@ -125,10 +125,13 @@ As a project owner, you can manually recalculate the timelines for individual pr
 ### Recalculate timelines for individual projects
 
 1. Go to the project for which you want to recalculate the timeline.
-1. Click **Project Actions**, then click **Recalculate Timeline**.
-
+1. Click **Project Actions**, then click **Recalculate Timeline**.    
+   ![](assets/screen-shot-2013-09-10-at-1.07.04-pm-350x270.png)  
+  
    After the timeline is recalculated, you see a message indicating that the recalculation was successful.  
    Before the timeline recalculation is finished, some planned or projected dates might display as dimmed. This means that the recalculation is not yet finished, and the dates are subject to change.
+
+   ![](assets/screen-shot-2013-09-10-at-1.07.10-pm-350x126.png)
 
 ### Manually recalculate timelines in bulk in the Edit Projects box
 

@@ -14,7 +14,7 @@ This section contains the following articles:
 
 * [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 
 * [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md) 
-* Enhanced Authentication 1.0
+* [Enhanced Authentication 1.0](../../../administration-and-setup/manage-workfront/security/enhanced-authentication-1.0.md) 
 * [Configure password policies for authentication](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md) 
 * [Removal of various single sign-on options](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md) 
 * [Renew the Adobe Workfront SAML 2.0 metadata certificate](../../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md) 

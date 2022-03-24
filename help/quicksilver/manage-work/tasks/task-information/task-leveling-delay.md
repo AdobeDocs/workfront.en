@@ -46,25 +46,29 @@ You must have the following access to perform the steps in this article:
 ## Add a Leveling Delay to a task
 
 1. Go to a task for which you want to add a Leveling Delay.
-1. Click the **More icon** to the right of the task name, then click **Edit**.  
+1. Click the **More icon** to the right of the task name, then click **Edit**.
+
+   ![](assets/qs-task-edit-icon-highlighted-350x154.png)
 
 1. Click **Settings**.
+
+   ![](assets/leveling-delay-edit-task-nwe-350x345.png)
 
 1. Specify the **Leveling Delay**, in hours, then choose a unit of time.  
    This is the time that the resource will be delayed starting the task due to resource conflicts.
 
    Select from the following options for units of time:
 
-  * Minutes
-  * Hours.&nbsp;This is the default.
-  * Days
-  * Weeks
-  * Months
-  * Elapsed Minutes
-  * Elapsed Hours
-  * Elapsed Days
-  * Elapsed Weeks
-  * Elapsed Months
+   * Minutes
+   * Hours.&nbsp;This is the default.
+   * Days
+   * Weeks
+   * Months
+   * Elapsed Minutes
+   * Elapsed Hours
+   * Elapsed Days
+   * Elapsed Weeks
+   * Elapsed Months
 
    >[!TIP]
    >

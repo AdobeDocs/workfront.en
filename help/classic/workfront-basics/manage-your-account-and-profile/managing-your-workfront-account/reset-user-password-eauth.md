@@ -37,7 +37,8 @@ You must have the following access to perform the steps in this article:
 
 1. Select the **People** heading from the **Global Navigation Bar**. 
 
-1. 
+1. ![](assets/classicglobalnavpeople-adobe-350x30.png)
+
 1. Click the **People tab** and select the **User** that requires a password reset. 
 
 1. ![](assets/100520classicnweselectuser-350x105.png)

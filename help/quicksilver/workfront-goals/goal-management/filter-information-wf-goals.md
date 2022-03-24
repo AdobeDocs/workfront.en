@@ -86,8 +86,8 @@ Consider the following when working with filters in Workfront Goals:
 
   The following scenarios exist:
 
-  * When you save a filter, it becomes the default filter for you every time you log in to Workfront Goals. 
-  * When you apply a filter without saving it, you can revert to the original lists by refreshing your page.
+   * When you save a filter, it becomes the default filter for you every time you log in to Workfront Goals. 
+   * When you apply a filter without saving it, you can revert to the original lists by refreshing your page.
 
 * You can only view and apply filters you created. Filters created by other users display only for those users. 
 * You cannot share filters you created with other users.
@@ -116,82 +116,82 @@ You can create a filter from scratch or edit one of the built-in filters.
 
 1. Do one of the following:
 
-  * Click any of the following predefined filters to display goals only for the following owners:
+   * Click any of the following predefined filters to display goals only for the following owners:
 
-    <table cellspacing="0"> 
-     <col> 
-     <col> 
-     <tbody> 
-      <tr> 
-       <td role="rowheader">All</td> 
-       <td>All goals in your system, regardless of who created them, what the time period for them is, or who the owner is. This is the default filter and you cannot edit it. </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Personal</td> 
-       <td>The goals for which you are the owner.</td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">My teams</td> 
-       <td> <p>The goals for which any of your teams is selected as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">My groups</td> 
-       <td>The goals for which any of your groups is selected as the owner. </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Company</td> 
-       <td> <p>The goals associated with your organization. </p> 
-        <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-         <span class="autonumber"><span><b>Tip: </b></span></span> 
-         <p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p> 
-         <p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p> 
-        </div> </td> 
-      </tr> 
-     </tbody> 
-    </table>
+     <table cellspacing="0"> 
+      <col> 
+      <col> 
+      <tbody> 
+       <tr> 
+        <td role="rowheader">All</td> 
+        <td>All goals in your system, regardless of who created them, what the time period for them is, or who the owner is. This is the default filter and you cannot edit it. </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">Personal</td> 
+        <td>The goals for which you are the owner.</td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">My teams</td> 
+        <td> <p>The goals for which any of your teams is selected as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">My groups</td> 
+        <td>The goals for which any of your groups is selected as the owner. </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">Company</td> 
+        <td> <p>The goals associated with your organization. </p> 
+         <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
+          <span class="autonumber"><span><b>Tip: </b></span></span> 
+          <p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p> 
+          <p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p> 
+         </div> </td> 
+       </tr> 
+      </tbody> 
+     </table>
 
-  * Hover over the name of a filter, then click the **Edit** icon ![](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list.
+   * Hover over the name of a filter, then click the **Edit** icon ![](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list.
 
-  * Click **New Filter** to create a new filter, then select from the following options to customize the new filter:
+   * Click **New Filter** to create a new filter, then select from the following options to customize the new filter:
 
-    <table cellspacing="0"> 
-     <col> 
-     <col> 
-     <tbody> 
-      <tr> 
-       <td role="rowheader">Period</td> 
-       <td>Select a time period in the drop-down menu. You can select multiple time periods. </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Status</td> 
-       <td> <p>Select a status in the drop-down menu from the following options:</p> 
-        <ul> 
-         <li> <p>Active</p> </li> 
-         <li> <p>Draft</p> </li> 
-         <li> <p>Inactive</p> </li> 
-         <li> <p>Closed</p> </li> 
-        </ul> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Progress</td> 
-       <td> <p>Select a progress in the drop-down menu from the following options: </p> 
-        <ul> 
-         <li> <p>In Trouble</p> </li> 
-         <li> <p>At Risk</p> </li> 
-         <li> <p>On Target</p> </li> 
-        </ul> </td> 
-      </tr> 
-      <tr> 
-       <td role="rowheader">Owner</td> 
-       <td> <p>Start typing the name of an owner, then select it when it appears in the list. </p> <p>You can type the names of users, teams, groups, or the name of your organization or you can select from predefined options. </p> <p>The following predefined filter options always refer to the user who is currently logged in: </p> 
-        <ul> 
-         <li> <p><strong>Me</strong>: Displays goals where you are the owner.</p> </li> 
-         <li> <p><strong>My Home Team</strong> and <strong>All My Teams</strong>: Displays goals where either your Home Team or any of your teams are designated as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </li> 
-         <li> <p><strong>My Home Group</strong> and <strong>All My Groups</strong>: Displays goals where either your Home Group or any of your groups are designated as the owner.</p> </li> 
-        </ul> </td> 
-      </tr> 
-     </tbody> 
-    </table>
+     <table cellspacing="0"> 
+      <col> 
+      <col> 
+      <tbody> 
+       <tr> 
+        <td role="rowheader">Period</td> 
+        <td>Select a time period in the drop-down menu. You can select multiple time periods. </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">Status</td> 
+        <td> <p>Select a status in the drop-down menu from the following options:</p> 
+         <ul> 
+          <li> <p>Active</p> </li> 
+          <li> <p>Draft</p> </li> 
+          <li> <p>Inactive</p> </li> 
+          <li> <p>Closed</p> </li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">Progress</td> 
+        <td> <p>Select a progress in the drop-down menu from the following options: </p> 
+         <ul> 
+          <li> <p>In Trouble</p> </li> 
+          <li> <p>At Risk</p> </li> 
+          <li> <p>On Target</p> </li> 
+         </ul> </td> 
+       </tr> 
+       <tr> 
+        <td role="rowheader">Owner</td> 
+        <td> <p>Start typing the name of an owner, then select it when it appears in the list. </p> <p>You can type the names of users, teams, groups, or the name of your organization or you can select from predefined options. </p> <p>The following predefined filter options always refer to the user who is currently logged in: </p> 
+         <ul> 
+          <li> <p><strong>Me</strong>: Displays goals where you are the owner.</p> </li> 
+          <li> <p><strong>My Home Team</strong> and <strong>All My Teams</strong>: Displays goals where either your Home Team or any of your teams are designated as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </li> 
+          <li> <p><strong>My Home Group</strong> and <strong>All My Groups</strong>: Displays goals where either your Home Group or any of your groups are designated as the owner.</p> </li> 
+         </ul> </td> 
+       </tr> 
+      </tbody> 
+     </table>
 
 1. (Optional) Click **Reset** to clear out all the fields you have selected and start building the filter from scratch. 
 1. (Optional) Click **Apply** to apply the filter without saving.

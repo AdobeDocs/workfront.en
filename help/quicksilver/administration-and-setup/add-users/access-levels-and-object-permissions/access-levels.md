@@ -1,4 +1,12 @@
-
+---
+filename: _access-levels
+title: Access levels
+content-type: administrator
+product-area: system-administration
+navigation-topic: add-users-to-workfront
+title: How access levels work
+description: As an Adobe Workfront administrator, you can grant users access to view or edit objects by assigning them an access level. The articles below explain how access levels work.
+---
 
 # How access levels work
 

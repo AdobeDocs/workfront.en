@@ -18,10 +18,10 @@ As a Worker, your main responsibility is to complete work. The areas in the  Mai
 The following areas are included in the default layout of a Worker:
 
 * **Home**: Tasks and issues assigned to you display here. This is the default landing page for a Worker , however, it doesn't appear in the Main Menu unless a Workfront administrator adds it in the layout template .
-* Projects
+* **Projects**: Projects that are shared with you display here.
 * **Report** s : Reports that are shared with you display here.
-* Dashboards
-* Calendars
+* **Dashboards**:&nbsp;Dashboards that are shared with you display here.
+* **Calendars**: Calendars that are shared with you display here.
 * **Teams**: Tasks and issues assigned to your teams display in this area. As a Worker, you are the only Workfront user who sees the Teams area by default.
 
   <!--
@@ -42,8 +42,9 @@ The following areas are included in the default layout of a Worker:
 * **Requests**: You can submit requests and review requests you or your team members have submitted here.
 * **Timesheet** s : You can access your current, future, or old timesheets here.
 * **Documents**: You can upload documents, or review documents shared with you, here.
-* Resourcing
-*
+* **Resourcing**: You can view resource allocation in the Resource Planning tools and view Resource Pools here.
+
+![](assets/worker-main-menu-350x427.png)
 
 ## Customize your default  Main Menu
 

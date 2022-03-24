@@ -92,7 +92,7 @@ We recommend that you do the following before deactivating an unused job role:
 
 ## Deactivate a job role
 
-1. Setup
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left panel, click**Job Roles.**
 1. (Optional) In the **Filter** drop-down menu, select **Active** to display only active job roles. 
 1. Click the name of the job role that you want to deactivate.
@@ -104,4 +104,7 @@ We recommend that you do the following before deactivating an unused job role:
 ## Known limitations
 
 Deactivated job roles still display in the following area of Workfront:
-```<li> <p>The Assignments field in Home</p> </li>```  &nbsp;
+
+* The Assignments field in Home
+
+&nbsp;

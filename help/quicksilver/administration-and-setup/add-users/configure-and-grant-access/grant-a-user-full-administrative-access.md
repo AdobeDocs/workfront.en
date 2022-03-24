@@ -71,15 +71,11 @@ You must have the following to perform the steps in this article:
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Remove this entire section for IMS</p>
 -->
 
-1. Main Menu
-1. 
-1. Users
-1. 
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png).   
+
 1. Click the name of the user to whom you want to grant administrator rights.
-1. 
-1. Edit
-1. 
+1. Click the More menu ![](assets/more-icon.png), then click **Edit**.  
+
 1. On the **Edit Person** box that appears, click **Access**.
 
 1. In the **Access Level** drop-down list, select the **System Administrator**&nbsp;access level.

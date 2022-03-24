@@ -78,13 +78,12 @@ The following functionality supports this methodology:
 
 ## Create a new agile team
 
-1. People
-1. Teams
-1. 
-1. 
-1. Create New Team
-1. 
-1. 
+1. Go to the **People**&nbsp;area, then click the **Teams**&nbsp;tab.  
+   ![](assets/agile-teams-settings-adobe-350x149.png)
+
+1. Click the drop-down arrow next to the team name that is currently selected, then click **Create New Team**&nbsp;at the bottom of the drop-down list.  
+   ![](assets/teams-new-agile-350x388.png)
+
 1. Specify the following information on the New Team dialog:
 
    <table cellspacing="0"> 
@@ -121,16 +120,17 @@ The following functionality supports this methodology:
 
 You can&nbsp;convert an existing team to be&nbsp;an agile team:
 
-1. People
-1. Teams
-1. 
-1. 
+1. Go to the **People**area, then click the **Teams**&nbsp;tab.  
+   ![](assets/agile-teams-settings-adobe-350x149.png)
+
+1. Click the drop-down arrow next to the team name that is currently selected.
 1. Select the team that you want to convert to an agile team.
-1. Team Settings
-1. Teams
+1. Click the **Team Settings**&nbsp;link in the upper-right corner of the **Teams**&nbsp;tab.​&nbsp;
+
 1. In the **Agile**&nbsp;section, select&nbsp;**This is an Agile Team**.
 
 1. In the **Methodology** section, select whether the team will be using a&nbsp;**Scrum**&nbsp;or&nbsp;**Kanban**&nbsp;agile methodology.  
+   ![](assets/agile-team-settings-350x334.png)
 
 1. Click&nbsp;**Save Changes.**
 

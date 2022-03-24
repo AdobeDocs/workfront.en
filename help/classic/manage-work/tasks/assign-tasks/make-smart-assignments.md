@@ -53,6 +53,8 @@ Smart assignments are available in most locations where you can make assignments
 
 1. Place your cursor in the assignment field, and wait for two seconds. The **Here are a few recommendations****** list displays.
 
+   ![](assets/sa2-350x259.png)
+
    Users displayed in this list are the smart assignment suggestions for the task or the issue.
 
    For more information about where the smart assignments display, see the "Locate smart assignment suggestions" section in the article [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md) . 

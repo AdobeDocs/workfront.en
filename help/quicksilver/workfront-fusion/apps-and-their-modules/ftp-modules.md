@@ -286,11 +286,11 @@ There are two FTP modes: active and passive. As the Workfront Fusion FTP app req
 
    in response. The response specifies:
 
-  * The IP address (h1, h2, h3, h4) the Workfront Fusion server should connect to. When the FTP server is behind a NAT, the FTP server needs to provide its external IP address. It is common that the FTP server is not configured properly and provides its internal IP address instead that cannot be connected to from the Workfront Fusion server, e.g.:
+   * The IP address (h1, h2, h3, h4) the Workfront Fusion server should connect to. When the FTP server is behind a NAT, the FTP server needs to provide its external IP address. It is common that the FTP server is not configured properly and provides its internal IP address instead that cannot be connected to from the Workfront Fusion server, e.g.:
 
-    Screenshot
-  
-  * A random, high-numbered (ephemeral) port (p1, p2) that the Workfront Fusion server can connect to. This port must be open on the FTP server's firewall.
+     Screenshot
+   
+   * A random, high-numbered (ephemeral) port (p1, p2) that the Workfront Fusion server can connect to. This port must be open on the FTP server's firewall.
 
 1. The Workfront Fusion server initiates a connection to the IP address and port specified in the response.
 1. The FTP server responds with an 

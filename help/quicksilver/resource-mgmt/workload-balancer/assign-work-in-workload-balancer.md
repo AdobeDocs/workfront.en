@@ -31,10 +31,10 @@ Workfront uses the following information to calculate the capacity of the user i
 
 * The Resource Management Preferences. The Workfront administrator determines how the available time is calculated for the system by selecting to use one of the following in the Resource Management area in&nbsp;Setup:
 
-  * The Default Schedule of the system and the user's FTE. 
-  * The user's schedule.&nbsp;
+   * The Default Schedule of the system and the user's FTE. 
+   * The user's schedule.&nbsp;
 
-    This calculates the user's daily and weekly availability. Any schedule exceptions on the schedule selected are reflected in the user's capacity in the Workload Balancer.
+     This calculates the user's daily and weekly availability. Any schedule exceptions on the schedule selected are reflected in the user's capacity in the Workload Balancer.
 
   For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
@@ -51,15 +51,18 @@ You can assign work in the Workload Balancer in the following ways:
 * One item at a time by manually assigning each item.
 
   <!--
-  You can make Advanced Assignments when assigning items manually, one at time.
+  <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can make Advanced Assignments when assigning items manually, one at time. </p>
   -->
 
   For more information, see [Assign work manually using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
-* One item at a time, by dragging and dropping work items to the user who needs to be assigned. 
-* For more information, see [Assign work in the Adobe Workfront Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
-* Multiple items at a time, by using the Bulk Assignments option to define rules by which items are assigned to multiple users at a time. 
-* For more information, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+* One item at a time, by dragging and dropping work items to the user who needs to be assigned.
+
+  For more information, see [Assign work in the Adobe Workfront Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+
+* Multiple items at a time, by using the Bulk Assignments option to define rules by which items are assigned to multiple users at a time.
+
+  For more information, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 For information about unassigning work, see [Unassign work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
@@ -146,14 +149,15 @@ Consider the following when assigning multiple resources to a work item:
 * Tasks or issues are usually first assigned to one or multiple job roles or to a team. When projects are ready to start, they might need to also be assigned to users.   
   If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any)&nbsp;according to the following rules:
 
-  * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
-  * If there are multiple roles assigned and at least one of the roles matches the user's secondary roles, then the task or issue is assigned to the user fulfilling one of their Other Roles — which Workfront selects at random if there are multiple matches — as well as any additional roles that are assigned.
-  * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both&nbsp;the role or roles as well as to the user.
+   * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
+   * If there are multiple roles assigned and at least one of the roles matches the user's secondary roles, then the task or issue is assigned to the user fulfilling one of their Other Roles — which Workfront selects at random if there are multiple matches — as well as any additional roles that are assigned.
+   * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both&nbsp;the role or roles as well as to the user.
 
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">  Manually assign one item at a time
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Manually assign one item at a time</h2>
 <ol>
 <li value="1">Go to the Workload Balancer.</li>
 <li value="2"> <p>Go to the <strong>Unassigned Work</strong> area and apply a filter to view work items</p> <p>Or</p> <p>Go to the <strong>Assigned Work</strong> area and expand the name of a user to view the work items assigned to them.</p> <note type="important">
@@ -180,7 +184,8 @@ Consider the following when assigning multiple resources to a work item:
 </ul>
 </div> </li>
 <li value="5"> <p>(Optional) Click the <strong>Show allocations icon</strong> <img src="assets/show-allocations-icon-small.png">, then click the <strong>More menu</strong> <img src="assets/qs-more-menu.png"> > <strong>Edit allocations</strong>.</p> <p>Or</p> <p>Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.</p> <p>For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li>
-</ol>  
+</ol>
+<div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
 <h2>Assign an item by dragging and dropping</h2>
 <p>You can assign an item from the Unassigned Work area to a user, or you can reassign an already assigned item to another user in the Assigned Work area.</p>
 <ol>
@@ -203,7 +208,8 @@ The Planned Hours for the user you're hovering over update in real time with the
 <h2>Assign items in bulk</h2>
 </div>
 -->
-<p>&nbsp;</p>  
+<p>&nbsp;</p>
+</div>
 </div>
 -->
 

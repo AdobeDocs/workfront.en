@@ -56,15 +56,22 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Groupings** tab and add a grouping.
 
-   ``` ```**Tips: **``````
-
-   * You can only add a chart to a report when the report results are grouped.
-   * Text-mode groupings are not supported in charts. For more information about text-mode groupings, see [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * You can only add a chart to a report when the report results are grouped.
+   >   * Text-mode groupings are not supported in charts. For more information about text-mode groupings, see [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md). 
+   >   
+   >
 
    For more information about groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Select the **Chart** tab.
 1. Click a chart type to select it.  
+   ![](assets/report-builder-chart-350x214.png)
+
 1. You can add the following types of charts to a Adobe Workfront report:
 
    * [Column chart](#column-chart) 
@@ -103,7 +110,8 @@ To add a **Column** chart to your report:
    Consider the following options:
 
    * **Plot on Secondary Axis**: Select this option to plot the data on the right-hand side of the chart.
-   * **Chart Type**: Select whether you want this additional value to be displayed as a line or a third column.
+   * **Chart Type**: Select whether you want this additional value to be displayed as a line or a third column.  
+     ![column_chart.png](assets/column-chart-350x127.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -131,6 +139,7 @@ To add a **Bar** chart to your report:
      For more information about customizing chart colors, see [Customize chart colors](#using-custom-colors).
 
 1. (Optional) Select **Combination Chart** to include an additional value in the chart, as well as how you want the information to be summarized.  
+   ![bar_chart.png](assets/bar-chart-350x129.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -149,7 +158,8 @@ To add a **Pie** chart to your report:
 1. In the **Show Results As** field, select how you want the results to display in the chart. Consider the following options:
 
    * **Percentage**: The chart results display as a percentage.
-   * **Numbers**: The chart results display as a number.
+   * **Numbers**: The chart results display as a number.  
+     ![pie_chart.png](assets/pie-chart-350x129.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -169,7 +179,8 @@ To add a **Line** chart to your report:
    Consider from the following options:
 
    * Select the value that you want to include in the chart, as well as how you want the information to be summarized.  
-   * Select the **Plot on Secondary Axis**field to plot the data on the right-hand side of the chart.
+   * Select the **Plot on Secondary Axis**field to plot the data on the right-hand side of the chart.  
+     ![line_chart.png](assets/line-chart-350x129.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -189,6 +200,7 @@ To add a **Gauge** chart to your report:
 
 1. In the **Value Range** field, specify the range of values and the color to represent those values to display on the Gauge chart.
 1. (Optional) Click **Add Another Value Range** to add additional value ranges to the chart.  
+   ![gauge_chart_.png](assets/gauge-chart--350x132.png)
 
 1. Click **Save + Close** to save the chart and the report.
 
@@ -216,6 +228,7 @@ To add a **Bubble** chart to your report:
 
 1. In the **Bubbles** field, select the Grouping that you want to include in the chart. The Grouping is represented by the placement of the bubbles on the chart.
 1. In the **Bubble Color** field, select the field that you want to be represented by the colors of the bubbles. The **Bubble Color** can be a Grouping you define in the report, but it can only be fields from the object you selected as **Bubbles**. For example, if you selected Task Name, you can add Task Status, but not Project Status as a **Bubble Color**.  
+   ![bubble_chart_with_custom_colors.png](assets/bubble-chart-with-custom-colors-350x154.png)
 
 1. Click **Save + Close** to save the changes to the interface builder.
 

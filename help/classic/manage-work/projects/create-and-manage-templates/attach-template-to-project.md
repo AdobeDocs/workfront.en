@@ -70,9 +70,12 @@ You must have the following to perform the steps described in this article:
 1. Go to the project where you want to attach a template. 
 1. Click **Project Actions,** then click**Attach Template.**
 
-   The Attach Template box displays.
+   The Attach Template box displays.   
+   ![](assets/atp1-350x128.png)
 
 1. Begin typing the name of the template that you want to attach, then select it from the drop-down list when it displays.
+
+   ![](assets/atp2-350x205.png)
 
 1. Click **Next Step** to navigate through the numbered options, as follows (or, select **Finish and Attach Template** at any time):
 
@@ -128,6 +131,8 @@ To understand what template is applied to a project:
 1. Select the **Project Details** tab, then the **Overview** sub-tab. .
 
 1. Find the name of the template attached to the project in the **Template** field .
+
+   ![template_info_on_project.png](assets/template-info-on-project-350x575.png)
 
 &nbsp;
 

@@ -58,7 +58,10 @@ When scheduling resources  on the team Working On calendar  , issues are display
    * **For an individual project**:  Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected and click **Switch back to Scheduling**. 
    * **For a team**:  Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
+   ![](assets/resource-scheduling-schedulingtab-350x282.png)
+
 1. Click the **Settings** icon on the scheduling timeline.  
+   ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)
 
 1. On the Resource Scheduling Settings dialog box, enable the&nbsp;**Show Issues**&nbsp;option.  
    ![RS_scheduling_tab_all_settings__1_.png](assets/rs-scheduling-tab-all-settings--1--350x417.png)
@@ -75,13 +78,17 @@ You can configure the scheduling timeline to display work that has already been 
    * **For an individual project**:  Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected and click **Switch back to Scheduling**. 
    * **For a team**:  Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
+   ![](assets/resource-scheduling-schedulingtab-350x282.png)
+
 1. Click the **Settings** icon on the scheduling timeline.  
+   ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)
 
 1. On the Resource Scheduling Settings dialog box, enable the **Show Completed Work**&nbsp;option.  
    ![RSS_show_completed_work_disabled__1_.png](assets/rss-show-completed-work-disabled--1--350x336.png)
 
 1. Click **Return to Scheduling**.  
-   Completed work is displayed with a checkmark in the upper-right corner of the work item.
+   Completed work is displayed with a checkmark in the upper-right corner of the work item.  
+   ![scheduling_work_complete.png](assets/scheduling-work-complete-350x254.png)
 
 ## Configure Project Names to display on the scheduling timeline&nbsp;
 
@@ -98,7 +105,10 @@ To display project names on tasks and issues on the scheduling timeline:
    * **For multiple projects**:&nbsp; Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**.  
    * **For a team**:  Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
+   ![](assets/resource-scheduling-schedulingtab-350x282.png)
+
 1. Click the **Settings** icon on the scheduling timeline.  
+   ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)
 
 1. On the Resource Scheduling Settings dialog box, enable the option,&nbsp;**Show Project Names**.  
    ![RS_scheduling_tab_all_settings__2_.png](assets/rs-scheduling-tab-all-settings--2--350x348.png)
@@ -131,7 +141,10 @@ To configure the scheduling timeline to display tasks and issues according to Pr
    * **For an individual project**:  Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected and click **Switch back to Scheduling**. 
    * **For a team**:  Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
+   ![](assets/resource-scheduling-schedulingtab-350x282.png)
+
 1. Click the&nbsp;**Settings**&nbsp;icon on the scheduling timeline.  
+   ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)
 
 1. On the Resource Scheduling Settings dialog box, disable&nbsp;the&nbsp;**Use Planned instead of Projected Dates**&nbsp;option.
 1. Click **Return to Scheduling**.
@@ -147,6 +160,7 @@ When scheduling resources for a team, you can configure users to be displayed on
 1. Click the **Teams** tab, then click the **Working On** subtab.  
 
 1. Click the **Settings** icon on the scheduling timeline.  
+   ![resource_scheduling_workingontab.png](assets/resource-scheduling-workingontab-350x231.png)
 
 1. On the Settings dialog box,&nbsp;select&nbsp;whether to enable the **Group by Role** option.   
    When this option is disabled, users are displayed in alphabetical order, and roles are not shown on the scheduling timeline.  
@@ -190,10 +204,11 @@ You can manually configure the Show Parent Tasks setting in the Scheduling  tab 
 To configure the Show Parent Tasks setting:&nbsp;
 
 1. Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**.  
-1. Scheduling
-1. 
-1. 
+1. Click the **Scheduling** tab.  
+   ![](assets/resource-scheduling-schedulingtab-350x282.png)
+
 1. Click the **Settings** icon on the scheduling timeline.  
+   ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)
 
 1. In the Resource Scheduling Settings dialog box, select whether to enable the option,&nbsp;**Show Parent Tasks.** 
    When this option is enabled, parent tasks from all projects are displayed according to the Summary Completion Mode and the Completion Mode settings of the projects, as outlined in the above table. This option is enabled by default.  
@@ -233,7 +248,10 @@ To configure the scheduling timeline to display the daily totals for the Planned
    * **For an individual project**:  Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected and click **Switch back to Scheduling**. 
    * **For a team**:  Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
+   ![](assets/resource-scheduling-schedulingtab-350x282.png)
+
 1. Click the **Settings** icon on the scheduling timeline.  
+   ![scheduling_settings_icon__1___1_.png](assets/scheduling-settings-icon--1---1--350x182.png)
 
 1. In the Settings dialog box, enable the following options:
 
@@ -245,7 +263,8 @@ To configure the scheduling timeline to display the daily totals for the Planned
 1. Click **Return to Scheduling**.  
    The total of Planned Hours allocated to the user display for each day.  
    The Planned Hours for the days when the user is overallocated are highlighted in red.  
-   For more information about user allocations, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+   For more information about user allocations, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).  
+   ![RS_planned_hour_totals_highlighted.png](assets/rs-planned-hour-totals-highlighted-350x102.png)
 
 ## Configure whether all&nbsp;user tasks are displayed on the scheduling timeline
 
@@ -259,6 +278,7 @@ To configure whether all tasks assigned to each user (not just the tasks associa
 1. 
    Click the&nbsp; **Staffing** tab&nbsp;(the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected, then click **Switch back to Scheduling**.  
 1. Click the **Settings** icon on the scheduling timeline.  
+   ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)
 
 1. In the Settings area, select whether to enable the option,&nbsp;**Show All User Tasks**.  
    When this option is enabled, all tasks assigned to each user are displayed on the scheduling timeline, regardless of the project where the tasks are located.  

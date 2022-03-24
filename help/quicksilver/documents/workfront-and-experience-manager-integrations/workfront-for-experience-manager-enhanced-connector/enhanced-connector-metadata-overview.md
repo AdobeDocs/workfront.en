@@ -17,31 +17,31 @@ Workfront for Experience Manager enhanced connector is capable of mapping all cu
 
 * Project details
 
-  * Project name
-  * Project ID or reference number
-  * Project description
-  * Project start and end date
-  * Stakeholder
-  * Sponsoring department
+   * Project name
+   * Project ID or reference number
+   * Project description
+   * Project start and end date
+   * Stakeholder
+   * Sponsoring department
 
 * Document details
 
-  * Document name
-  * Document ID or reference number
-  * Document description
+   * Document name
+   * Document ID or reference number
+   * Document description
 
 * Task details
 
-  * Task name
-  * Task ID or reference number
-  * Task description
-  * Assignee
-  * Total logged hours
+   * Task name
+   * Task ID or reference number
+   * Task description
+   * Assignee
+   * Total logged hours
 
 * Issue details
 
-  * Issue name
-  * Issue ID or reference number
-  * Issue description
-  * Assignee
+   * Issue name
+   * Issue ID or reference number
+   * Issue description
+   * Assignee
 

@@ -64,15 +64,15 @@ When you share a link to a specific queue topic with other users, the request fo
 
 Users can change the request type or choose another topic if they need to. The navigation of the Requests area also displays.
 
-1. Click the **Main Menu** > **Requests** >&nbsp;**New Request**.  
-
+1. Click the **Main Menu** > **Requests** >&nbsp;**New Request**. 
 1. Continue selecting topic groups and queue topics until you reach the queue you want to share on the dashboard, if you want to share specific queue. For information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    >[!TIP]
    >
    >Selecting topic groups and queue topics is optional.
 
-1. Click&nbsp;**Share path** in the upper-right corner of the New Request area.
+1. 
+   Click&nbsp;**Share path** in the upper-right corner of the New Request area.
 
    This copies the link to the request queue or the queue topic as you display it on the screen. Users can update the Request Type or any of the topic groups and queue topics available.
 
@@ -86,7 +86,7 @@ When you share a link to a request type, the request type is selected for the us
 
    For information about creating a request queue from a project, go to [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). 
 
-1. Go to **Queue Details**. 
+1. Go to **Queue Details**.
 1. Copy the code that you find in the **Direct Access URL** field.
 
    The code should look similar to the following:
@@ -95,7 +95,7 @@ When you share a link to a request type, the request type is selected for the us
 
    This is the link to the request queue associated with the selected project.The Request Type is preselected.
 
-   Users can select any topic group or queue topic they need, or they can choose another request type. 
+   Users can select any topic group or queue topic they need, or they can choose another request type.
 
    ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
@@ -107,7 +107,7 @@ When you share a link to a preselected request type, the request type is selecte
 
    For information about creating a request queue from a project, go to [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). 
 
-1. Go to **Queue Details**. 
+1. Go to **Queue Details**.
 1. Copy the code that you find in the **Embedded Code** field.
 
    The code should look similar to the following:
@@ -124,7 +124,7 @@ When you share a link to a preselected request type, the request type is selecte
 
    This is the link to the request queue associated with the selected project. The Request Type is preselected and cannot be changed.
 
-   Users can select any topic group or queue topic they need for the selected request type. Users cannot select another request type. 
+   Users can select any topic group or queue topic they need for the selected request type. Users cannot select another request type.
 
    ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
@@ -133,8 +133,7 @@ When you share a link to a preselected request type, the request type is selecte
 You can embed a link to the requests queue or to a queue topic nested under a request queue into a dashboard to give users direct access to entering requests.
 
 1. Obtain a request queue&nbsp;URL using one of the methods described in the [Obtain the URL of the request queue](#obtain) section of this article. 
-1. Click the **Main Menu** >&nbsp;**Dashboards** > **New Dashboard**. 
-
+1. Click the **Main Menu** >&nbsp;**Dashboards** > **New Dashboard**.
 1. Type a **Name** for the dashboard. This is a required field.
 1. Click **Add External Page**.
 
@@ -142,17 +141,17 @@ You can embed a link to the requests queue or to a queue topic nested under a re
 
 1. In the **Add External Page** box, edit the following fields:
 
-  * **Name**: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
+   * **Name**: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
 
-  * **Description**: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;
-  * **URL**:```<MadCap:conditionalText data-mc-conditions="">  paste the URL you obtained using one of the methods described in Step 1.</MadCap:conditionalText>```
-  
-  * **Height**: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.&nbsp;
+   * **Description**: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;
+   * **URL**:```<MadCap:conditionalText data-mc-conditions="">  paste the URL you obtained using one of the methods described in Step 1.</MadCap:conditionalText>```
+   
+   * **Height**: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.&nbsp;
 
 1. Click **Save**. 
 1. Click **Save + Close**.&nbsp;
 
-   The request queue displays in the dashboard as a separate dashboard component.&nbsp; 
+   The request queue displays in the dashboard as a separate dashboard component.&nbsp;
 
    ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
 
@@ -165,12 +164,11 @@ You can embed a link to the requests queue or to a queue topic nested under a re
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1"> Click the <strong>Main Menu</strong> > Requests >&nbsp;<strong>New Request</strong>.  </li>  
-<p>Continue entering the request.&nbsp;For information about submitting requests, see <a href="../../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>. </p>  
+<li value="1"> <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Main Menu</strong> > Requests >&nbsp;<strong>New Request</strong>. </p> </li>
+<li class="preview" value="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Continue entering the request.&nbsp;For information about submitting requests, see <a href="../../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>. </p> </li>
 <li value="3"> <p>Select the <strong>Request Type</strong> for the queue you would like added to the dashboard.</p> </li>
-<li value="4"> <p>(Optional) Select a Queue Topic and a Topic Group. Depending on how the project manager set up the request queue, the names of these fields are different in each Workfront instance.</p> </li>  
-<p>Click <strong>Share path</strong> to obtain a shared link from the request queue you want to embed on a dashboard.</p>
-<p>For information about sharing a request queue, see <a href="../../../manage-work/requests/create-requests/share-link-to-request-queue.md" class="MCXref xref">Share a link to a request queue</a></p>  
+<li value="4"> <p>(Optional) Select a Queue Topic and a Topic Group. Depending on how the project manager set up the request queue, the names of these fields are different in each Workfront instance.</p> </li>
+<li class="preview" value="5" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Click <strong>Share path</strong> to obtain a shared link from the request queue you want to embed on a dashboard.</p> <p>For information about sharing a request queue, see <a href="../../../manage-work/requests/create-requests/share-link-to-request-queue.md" class="MCXref xref">Share a link to a request queue</a></p> </li>
 <li value="6"> <p>For example, enter a URL similar to one of the following: </p> </li>
 </ol>
 -->

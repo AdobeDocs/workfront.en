@@ -9,7 +9,11 @@ description: Note: The information on this page refers to functionality not yet 
 
 # Use Workfront Library's import tool to add metadata to content
 
-``` ```**Note: **``````The information on this page refers to functionality not yet generally available. It is available only to a limited number of environments. If you're new to Workfront Library and have just uploaded hundreds or thousands of assets, there's no need to manually add metadata to each asset individually. A Workfront Library Administrator can easily import metadata to these assets using a CSV file. To learn more about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
+>[!NOTE]
+>
+>The information on this page refers to functionality not yet generally available. It is available only to a limited number of environments.
+
+If you're new to Workfront Library and have just uploaded hundreds or thousands of assets, there's no need to manually add metadata to each asset individually. A Workfront Library Administrator can easily import metadata to these assets using a CSV file. To learn more about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
 >[!NOTE]
 >

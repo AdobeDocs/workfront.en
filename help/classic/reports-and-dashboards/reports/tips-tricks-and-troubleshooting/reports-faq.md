@@ -60,9 +60,11 @@ The correct calculation is:
 
 ### Answer
 
-If you have more than 50 chart elements in a report chart, the value of each element does not display in the chart.
+If you have more than 50 chart elements in a report chart, the value of each element does not display in the chart.  
+![value_not_showing_in_chart.png](assets/value-not-showing-in-chart-350x183.png)
 
-When you have less than 50 elements in a chart, the value of each element displays in the chart. Consider adding a filter or modifying the groupings in the report to limit the amount of items you display in each element of the chart.
+When you have less than 50 elements in a chart, the value of each element displays in the chart. Consider adding a filter or modifying the groupings in the report to limit the amount of items you display in each element of the chart.  
+![value_showing__less_than_50_items.png](assets/value-showing--less-than-50-items-350x158.png)
 
 ## Why is my report returning too many results to display the chart?
 
@@ -78,7 +80,8 @@ For information on modifying filters and groupings, see the articles [Filters ov
 
 ### Answer
 
-The report or calendar might have a wildcard filter variable which points to the user who is logged in. In this case, the report shows information based on the user who is logged in. Adjust the filter to remove the wildcard that points to the logged-in user.
+The report or calendar might have a wildcard filter variable which points to the user who is logged in. In this case, the report shows information based on the user who is logged in. Adjust the filter to remove the wildcard that points to the logged-in user.  
+![__USER.ID_filter_variable.png](assets/--user.id-filter-variable-350x28.png)
 
 For a complete list of user-based wildcard filter variables, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -110,6 +113,7 @@ To see all tasks or issues assigned to you, whether you are the Owner (or Primar
 1. Select the **Equal** modifier.
 1. Start typing *$$USER.ID* in the textbox and select it from the drop-down list that appears.  
    This ensures that you see all tasks and issues that are assigned to the logged in user. You can replace the wildcard with a specific user name.  
+   ![tasks_assigned_to_me_assignment_users_name_filter.png](assets/tasks-assigned-to-me-assignment-users-name-filter-350x53.png)
 
 1. Click **Save + Close**.
 
@@ -129,6 +133,8 @@ However, there are a few things that may prevent these links from displaying:
 
 * If you have a **View** applied to these lists that has a currency selected other than the default currency for the project, the links do not display. Change the **View** to **Project's Original Currency** and the links should display so you can add issues and tasks to your projects.  
   For more information on changing the currency in your View, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+
+![](assets/classic-project-original-currency-350x330.png)
 
 ## Does the information in my report or dashboard refresh automatically?
 

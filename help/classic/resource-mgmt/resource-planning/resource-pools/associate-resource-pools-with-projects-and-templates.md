@@ -54,7 +54,8 @@ You can associate resource pools with a template in the same manner you associat
 1. <![CDATA[				]]>Go to a project, and click **Edit Project**.<![CDATA[			]]>
 1. Click **Settings**. 
 1. Start typing the name of a resource pool in the **Resource Pools** field, then select it from the list when it appears.  
-   You can associate multiple resource pools with one project or template.
+   You can associate multiple resource pools with one project or template.  
+   ![resource_pool_to_project.png](assets/resource-pool-to-project-350x316.png)
 
 1. Click **Save** **Changes**.
 

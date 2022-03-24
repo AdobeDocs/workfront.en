@@ -69,9 +69,9 @@ To customize an issue type:
 1. Click the **Issues** tab.
 1. Do any of the following:
 
-  * Hover over the issue type you want to customize, click the Edit icon ![](assets/edit-icon.png) that appears to the far right, then type a new name for the issue type.
+   * Hover over the issue type you want to customize, click the Edit icon ![](assets/edit-icon.png) that appears to the far right, then type a new name for the issue type.
 
-    ![](assets/customize-issue-type-350x187.png)
+     ![](assets/customize-issue-type-350x187.png)
 
-  * Click an issue type to list its associated statuses, then drag the handles that appear when you hover over them and and drop them in the order you want them to appear in your users' issue **Status** drop-down menu.
+   * Click an issue type to list its associated statuses, then drag the handles that appear when you hover over them and and drop them in the order you want them to appear in your users' issue **Status** drop-down menu.
 

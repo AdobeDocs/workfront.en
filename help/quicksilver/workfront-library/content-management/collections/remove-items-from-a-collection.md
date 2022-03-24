@@ -11,8 +11,7 @@ description: You can remove assets and folders from any collection to which you 
 
 You can remove assets and folders from any collection to which you have Manage permissions.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Click **Collections**, then open the collection from which you want to remove an item.
 

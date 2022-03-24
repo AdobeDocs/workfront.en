@@ -51,11 +51,11 @@ You must have the following access to perform the steps in this article:
 1. Click **Save.**
 1. (Optional) To modify an ad-hoc event:
 
-  1. Click the event on the calendar to open the details page for the event.
-  1. Click the edit icon (pencil), edit the event, then click **Save.**
+   1. Click the event on the calendar to open the details page for the event.
+   1. Click the edit icon (pencil), edit the event, then click **Save.**
 
 1. (Optional) To delete an ad-hoc event:
 
-  1. Click the event on the calendar to open the details page for the event.
-  1. Click the trash can icon, then click **Yes, Delete it.**
+   1. Click the event on the calendar to open the details page for the event.
+   1. Click the trash can icon, then click **Yes, Delete it.**
 

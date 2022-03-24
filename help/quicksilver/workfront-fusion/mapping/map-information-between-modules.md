@@ -134,8 +134,8 @@ The other tabs contain the following types of functions:
 
 * **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
 
-  * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-  * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+   * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+   * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
 * **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions](../../workfront-fusion/functions/array-functions.md) for more information.
 

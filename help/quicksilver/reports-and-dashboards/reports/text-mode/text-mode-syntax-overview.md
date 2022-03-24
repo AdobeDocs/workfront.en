@@ -27,8 +27,8 @@ The following are common guidelines when building any reporting or list element 
 * Always use camel case when referencing objects or attributes in the Workfront database.
 * Keep in mind the hierarchy of objects in Workfront. The following differences exist between views, filters and groupings:
 
-  * You can display an object that is three objects away from the report or list object in a view.
-  * You cannot reference objects that are more than 2 objects away from the main object in a grouping, filter, or custom prompt.
+   * You can display an object that is three objects away from the report or list object in a view.
+   * You cannot reference objects that are more than 2 objects away from the main object in a grouping, filter, or custom prompt.
 
   ``` ```**Example: **`````` You can display the name or GUID of the Portfolio Owner in a task view:
 
@@ -46,8 +46,8 @@ The following are common guidelines when building any reporting or list element 
 
   For information about the hierarchy of objects in Workfront, see:
 
-  * [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 
-  * [API Explorer](../../../wf-api/general/api-explorer.md)
+   * [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 
+   * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Use wildcards whenever possible to make your reports and lists more dynamic and avoid duplicating them for different users and similar timelines.
 
@@ -85,15 +85,15 @@ The following similarities exist between the syntax of the sets of reporting ele
 
   For information about the key lines of codes for views and groupings when building them in text mode, see:
 
-  * [Edit a view using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md) 
-  * [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Edit a view using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md) 
+   * [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * The lines of code and syntax are similar for filters and custom prompts.
 
   For more information, see:
 
-  * [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md) 
-  * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+   * [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md) 
+   * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Syntax for views and groupings
 
@@ -246,26 +246,26 @@ line:
 
   ``` ```**Example: **`````` To display the name of a project concatenated with the name of the task in a task report, use the following lines:
 
-  * In a view:   
-  
-    ```  
-    valueexpression=CONCAT({project}.{name},' - ',{name})
-    ```
+   * In a view:    
+   
+     ```   
+     valueexpression=CONCAT({project}.{name},' - ',{name})
+     ```
 
-  * In a grouping:   
-  
-    ```  
-    group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
-    ```
+   * In a grouping:    
+   
+     ```   
+     group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
+     ```
 
   For information about how objects are referencing one another in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * When referencing a custom field, use following rules:
 
-  * Use the name of the field exactly as it appears in the interface.
-  * Precede the name of the field with "DE:".
-  * Enclose the field in curly brackets.
-  * Separate the fields related to the object by periods.
+   * Use the name of the field exactly as it appears in the interface.
+   * Precede the name of the field with "DE:".
+   * Enclose the field in curly brackets.
+   * Separate the fields related to the object by periods.
 
   ``` ```**Example: **`````` To display the Additional&nbsp;Details project custom field in a task view in a valueexpression line, use the following line:
 
@@ -353,15 +353,15 @@ You can use the following elements to build filters and custom prompts in text m
 
 * A statement connector that connects multiple filter statements:
 
-  * AND
+   * AND
 
-    This is the default connector between filter statements.
-  
-  * OR
+     This is the default connector between filter statements.
+   
+   * OR
 
-    >[!TIP]
-    >
-    >Statement connectors are case sensitive and always uppercase. "AND" can be omitted in text mode.
+     >[!TIP]
+     >
+     >Statement connectors are case sensitive and always uppercase. "AND" can be omitted in text mode.
 
 * Wildcards to make filters more dynamic and customize them for the current time or the user who is logged in. For information about wildcards, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

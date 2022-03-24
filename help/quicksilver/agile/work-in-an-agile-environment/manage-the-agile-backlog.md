@@ -107,17 +107,16 @@ When you create a story from the backlog, the story is created as a task or issu
 
 To create a story from the backlog:
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
-1. Backlog
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+
+1. Select **Backlog** from the left panel.
 1. Do either of the following, depending on whether you want to create a task or an issue:
 
-  * **To create a task:** Click the **Stories** tab.
-  
-  * **To Create an issue:** Click the **Issues** tab.
+   * **To create a task:** Click the **Stories** tab.
+   
+   * **To Create an issue:** Click the **Issues** tab.
 
 1. Click **New Story** or **New Issue**.
 
@@ -189,9 +188,9 @@ To assign a task or issue to an agile team:
 
 1. Do either of the following:
 
-  * **For Scrum teams:** In the **Select Iteration** field, select the iteration where you want to move the stories.
-  
-  * **For Kanban teams:** In the **Select Kanban Board** field, select your team Kanban board. (Kanban teams can have only one Kanban board.)
+   * **For Scrum teams:** In the **Select Iteration** field, select the iteration where you want to move the stories.
+   
+   * **For Kanban teams:** In the **Select Kanban Board** field, select your team Kanban board. (Kanban teams can have only one Kanban board.)
 
 1. Click **Move Story**.
 

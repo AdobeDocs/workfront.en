@@ -66,10 +66,10 @@ Before you add a user, gather the information about the user listed below and de
 
 * What is the user's personal information? At a minimum you need the following:
 
-  * Full name
-  * A user name
-  * Default password
-  * Email address
+   * Full name
+   * A user name
+   * Default password
+   * Email address
 
   >[!NOTE]
   >
@@ -86,22 +86,24 @@ Before you add a user, gather the information about the user listed below and de
 
 ## Create a user from scratch
 
-1. Main Menu
-1. 
-1. Users
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+
 1. Click **New User > New User** to add a user who has not yet been added to Workfront.
-1. Or
-1. Click **New User > Import Users** to add users by uploading a spreadsheet import file.
-1. If you are importing users, you don't need to continue these steps. For more information, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
+   Or
+
+   Click **New User > Import Users** to add users by uploading a spreadsheet import file.
+
+   If you are importing users, you don't need to continue these steps. For more information, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+
 1. In the **New User** box that appears, click **Show Advanced Options**, then configure the available options to enter the person's information,
 
    For information about these options, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. Do one of the following:
 
-  * Leave **Send an invite email to this person** enabled. If you do this, the user receives an email where they can follow a link to create their own password for Workfront. Users who do not accept the email invitation and create a Workfront password are listed as Unregistered in Workfront.
-  * Disable **Send an invite email to this person**, then type a **Password** for the person and confirm it in the **Confirm Password** box. You will need to share this password with the user outside of Workfront.
+   * Leave **Send an invite email to this person** enabled. If you do this, the user receives an email where they can follow a link to create their own password for Workfront. Users who do not accept the email invitation and create a Workfront password are listed as Unregistered in Workfront.
+   * Disable **Send an invite email to this person**, then type a **Password** for the person and confirm it in the **Confirm Password** box. You will need to share this password with the user outside of Workfront.
 
 1. y Click **Add This User**.
 
@@ -125,8 +127,7 @@ You can create a user by copying an existing user.
 To create new user by copying an existing one:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
-
-1. 
+1. Select the user that you want to copy, then click the Copy icon ![](assets/copy-icon.png).
 1. In the **New User** box that displays, edit the fields available for the new user.
 
    For information about all fields associated with a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

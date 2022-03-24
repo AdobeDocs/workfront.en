@@ -62,7 +62,8 @@ To run a report with the access rights of another user:
 
 1. Click **Report Settings**.  
 
-1. In the **Run this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.
+1. In the **Run this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.  
+   ![](assets/screen-shot-2013-09-19-at-10.17.05-am-350x274.png)
 
    >[!NOTE]
    >
@@ -89,7 +90,8 @@ To deliver a report with the access rights of another user:
 1. Click **Report Actions**.
 1. Click **Send Report**.  
 
-1. In the **Deliver this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.
+1. In the **Deliver this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.  
+   ![](assets/send-report-ui-350x359.png)
 
    >[!NOTE]
    >

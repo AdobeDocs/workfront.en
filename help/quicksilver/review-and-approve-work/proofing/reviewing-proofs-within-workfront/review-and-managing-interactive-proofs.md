@@ -53,13 +53,13 @@ You must have the following access to perform the steps in this article:
 
 1. Do any of the following:
 
-  * Comment on the proof.
+   * Comment on the proof.
 
-    >[!NOTE]
-    >
-    >The Desktop Proofing Viewer, takes a static screenshot of your content every time you click **Add comment** so users can see what part of the content you are commenting on. This screenshot is where you can add comments with markups.
+     >[!NOTE]
+     >
+     >The Desktop Proofing Viewer, takes a static screenshot of your content every time you click **Add comment** so users can see what part of the content you are commenting on. This screenshot is where you can add comments with markups.
 
-  * Use proofing viewer functionality described in the remaining sections below.
+   * Use proofing viewer functionality described in the remaining sections below.
 
 For information about creating a proof, see [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md#generating-a-proof-on-a-document).
 

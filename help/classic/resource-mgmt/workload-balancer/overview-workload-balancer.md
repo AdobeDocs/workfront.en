@@ -76,7 +76,9 @@ Consider the following benefits when using the Workload Balancer:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>Watch the following video for an overview of the Workload Balancer. </p> <span class="autonumber"><span><b>Note: </b></span></span>The Workload Balancer is available in both Adobe Workfront Classic and the new Adobe Workfront experience. The video displays the Workload Balancer in the new Adobe Workfront experience.  
+<p>Watch the following video for an overview of the Workload Balancer. </p> <note type="note">
+The Workload Balancer is available in both Adobe Workfront Classic and the new Adobe Workfront experience. The video displays the Workload Balancer in the new Adobe Workfront experience.
+</note>
 <p><a href="https://one.workfront.com/s/managed-content-videos/workload-balancer-overview-20Y0z000000bmGLEAY" target="_blank"><img src="assets/workload-balancer-video-front-350x195.png" style="width: 350;height: 195;"></a> </p>
 </div>
 -->

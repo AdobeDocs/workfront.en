@@ -49,12 +49,10 @@ You must have the following access to perform the steps in this article:
 
 You can change which status is applied to the work item with the Done button. You can also set multiple statuses and allow the user to choose which status is appropriate.
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. Click the **More** menu, then click **Edit**. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
 
+1. Click the **Switch team** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
+1. Click the **More** menu, then click **Edit**.
 1. Find the **Done Button** section at the bottom of the **Team Settings** page.
 
 1. Select one status or more than one status for each work item type.
@@ -64,23 +62,23 @@ You can change which status is applied to the work item with the Done button. Yo
    >Consider the following when selecting statuses:  
 
    >
-   >  
-   >  
-   >  * When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their&nbsp;item.&nbsp;If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
-   >  * You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
-   >  * Issue types are customizable and they might have different names than listed below in your environment.  
-   >    Following&nbsp;are the default tasks and issue types:   >  
-   >    
-   >    
-   >    * Tasks
-   >    * Issue
-   >    * Request
-   >    * Change Order
-   >    * Bug Report
-   >    
-   >    
-   >  
-   >  
+   >   
+   >   
+   >   * When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their&nbsp;item.&nbsp;If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
+   >   * You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
+   >   * Issue types are customizable and they might have different names than listed below in your environment.  
+   >     Following&nbsp;are the default tasks and issue types:   >   
+   >      
+   >      
+   >      * Tasks
+   >      * Issue
+   >      * Request
+   >      * Change Order
+   >      * Bug Report
+   >      
+   >      
+   >   
+   >   
    >
 
    If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
@@ -93,13 +91,12 @@ To make the changes to the Done button functionality visible to users, you can m
 
 To associate users with a Home Team:
 
-1. Main Menu
-1. 
-1. Users
-1. More
-1. Edit
-1. 
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Users**, then select the user or users you want to associate with a Home Team.
+1. Click the **More** menu, then select **Edit**.  
+   ![](assets/user-settings-nwe-350x291.png)
+
 1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
 
 1. Click **Save Changes**.  
@@ -117,17 +114,15 @@ When a user creates a project, their Home Group is automatically assigned to the
 To find the group associated with the project:
 
 1. Go to a Project.
-1. Project Details
-1. Project association
-1. Group
-1.
+1. On the left side of the page, click **Project Details**.
+1. Locate the **Project association** section, then find **Group**.  
+   This is the group name you need to use to check the status in the Setup area. See the following section for instructions on how to update the default status for a specific group.
 
 ### Update the default status for a specific group
 
 As a Workfront administrator, you can update the status for a specific group:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
-
 1. In the left panel, click **Project Preferences**, then **Statuses**.
 
 1. Click **Issues**, then type the name of the group in the **System Statuses** search box located on the right.

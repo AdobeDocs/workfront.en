@@ -93,9 +93,9 @@ The complete scenario:
 1. The error handler route (transparent bubbles) contains a router to filter the errors
 1. The first route is for a specified type of error called Data Error as we know of it already:
 
-  1. If a Data Error takes place and the error details pass through the filter, the Dropbox > List all files/subfolders in a folder module lists all folders in Dropbox
-  1. The subsequent filter matches the folder names
-  1. The Resume directive specifies the folder ID and folder path of the existing folder and the scenario execution resumes from the Dropbox > Create a folder module but instead of trying to create a new folder, this time it uses the values from the Resume directive to move to the next module and upload the file in the existing folder
+   1. If a Data Error takes place and the error details pass through the filter, the Dropbox > List all files/subfolders in a folder module lists all folders in Dropbox
+   1. The subsequent filter matches the folder names
+   1. The Resume directive specifies the folder ID and folder path of the existing folder and the scenario execution resumes from the Dropbox > Create a folder module but instead of trying to create a new folder, this time it uses the values from the Resume directive to move to the next module and upload the file in the existing folder
 
 1. The second route is for all other errors and ends with the Rollback directive which results in stopping the scenario immediately
 

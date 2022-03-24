@@ -62,6 +62,8 @@ For more information about approving project requests by building a project repo
 
    &nbsp;In addition to having a Status of **Requested**, projects must be associated with the selected Portfolio to&nbsp;display in this list.
 
+   ![](assets/rp1-350x142.png)
+
 1. Click the name of a project in the list to open it.
 1. Select the **Project Details** tab. 
 1. Do either one of the following:
@@ -81,6 +83,8 @@ For more information about approving project requests by building a project repo
      Or
    
    * Change the status of the project to any other status in the **Status** drop-down menu.
+
+     ![](assets/project-status-change-from-drop-down-in-header-350x248.png)
 
    &nbsp;
 

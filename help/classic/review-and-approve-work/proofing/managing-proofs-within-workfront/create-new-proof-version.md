@@ -66,9 +66,13 @@ There are several ways to upload a new proof version in Workfront. Default proof
 1. Open the document list that contains the proof.
 1. From your computer's file system, drag and drop a new file over the proof.
 
+   ![](assets/drag-drop-new-version-350x189.png)
+
    Or
 
    Select the row where the proof is listed, click **Add new** > **Version**, then click the option you want to use to add the new version of the proof.
+
+   ![](assets/classic-new-version-350x183.png)
 
 ## Create a new version of a proof from the proofing viewer (Workfront Proof only)
 

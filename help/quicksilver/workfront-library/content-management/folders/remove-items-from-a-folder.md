@@ -12,8 +12,7 @@ hidefromtoc: true
 
 You can remove content and folders from any folder to which you have Manage permissions. Users with View permissions to a folder cannot remove items from the folder.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 
    ![](assets/menuicon.png)

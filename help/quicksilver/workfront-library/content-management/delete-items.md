@@ -21,8 +21,7 @@ Users with permissions to an item that is deleted do not receive notification of
 
 Currently, you cannot restore a deleted item.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 1. Select the area where the item you want to delete is located.
 1. Navigate to the item.

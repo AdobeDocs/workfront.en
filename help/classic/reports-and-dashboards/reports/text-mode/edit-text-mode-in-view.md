@@ -64,7 +64,9 @@ For information about creating a report, see [Create a custom report](../../../r
 1. Do one of the following:
 
    1. To access the view from a report, go to the report, then click&nbsp;**Report Actions** > **Edit** > **Columns (View)** tab.
-   1. To access the view from a list, go to the list and from the **View** drop-down menu, click&nbsp;**Customize View** to customize the view that is currently applied to the list. The view builder opens.
+   1. To access the view from a list, go to the list and from the **View** drop-down menu, click&nbsp;**Customize View** to customize the view that is currently applied to the list.
+
+      The view builder opens.
 
 1. Select a column in the view.
 
@@ -87,6 +89,8 @@ For information about creating a report, see [Create a custom report](../../../r
    >```   >
    >
    >line of code to the column. This indicates that the column is modified in text mode.
+
+   ![view_switch_to_text_mode.png](assets/view-switch-to-text-mode-350x175.png)
 
    The following table outlines the key lines in a text mode view:
 

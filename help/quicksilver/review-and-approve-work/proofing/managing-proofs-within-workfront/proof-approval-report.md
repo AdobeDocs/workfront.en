@@ -42,8 +42,9 @@ You must have the following:
 ## Use the proof approval report
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**. 
-
 1. Click **New Report**, then scroll to select **Proof Approval**.
+
+   ![](assets/proof-approval-report.png)
 
 1. (Optional) Add any additional fields. 
 1. Click **Save + Close**.
@@ -57,9 +58,9 @@ You can add the following fields to the proof approval report:
 * **Workflow Template**: Displays any workflow templates attached to the proof. If there is no template attached, the column is blank.
 * **Awaiting decision**: Displays true to signal a decision has not been met when the following are true:
 
-  * The proof has not been archived
-  * The stage the approver is on is active
-  * The proof is pending approval
+   * The proof has not been archived
+   * The stage the approver is on is active
+   * The proof is pending approval
 
 * **Proof deadline**: Displays the deadline of the proof. Every stage must have a deadline assigned in order for this field to populate. The field displays the deadline for the most recently activated stage.
 

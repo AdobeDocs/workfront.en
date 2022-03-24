@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 >
 >Because this is a global setting, this selection affects all the calculations for the entire system, for all users, in all the resource management tools, and for all Resource Pools.
 
-1. Click **Setup** near the upper-right corner of Workfront on the Global Navigation Bar. 
+1. Click **Setup** near the upper-right corner of Workfront on the Global Navigation Bar.
 1. Click **Resource Management**. 
 1. Select one of the following methods to calculate the availability of users in Workfront:
 

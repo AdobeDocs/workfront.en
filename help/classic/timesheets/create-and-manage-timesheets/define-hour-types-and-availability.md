@@ -63,6 +63,7 @@ The project owner determines whether all hour types defined at the system level 
 1. Go to the project where you want to determine the&nbsp;availability of&nbsp;hour types.
 1. Click **Edit Project**.
 1. In the **Settings** section, locate the **Filter Hour Types** option.  
+   ![](assets/hour-types-project-350x233.png)
 
 1. Select **No**&nbsp;to make all project-specific hour types available on the project.
 
@@ -84,8 +85,9 @@ If you make an hour type available at the user level as described in this sectio
 
 To define the hour types that are available to a user:
 
-1. My Settings
-1. 
+1. Click your user avatar in the upper-right corner of the Workfront interface, then click **My Settings**.  
+   The My Settings dialog box is displayed.
+
 1. Only a system administrator can edit other users. If you have a Plan license, you can edit the hour types on your own profile.
 1. In the **Resource Planning** section, in the **Available Hour Types** drop-down menu, do either of the following, depending on which hour types you want to make available when logging time on a project, task, or issue:
 
@@ -94,6 +96,8 @@ To define the hour types that are available to a user:
    * **To make only a subset of the hour types available for the user:** Select only the hour types you want to make available.
 
      In order for the hour types you select at the user level to be available on projects, tasks, and issues, these same hour types must also be selected&nbsp;in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#defining-availability-at-the-project-level).
+
+     ![hour_types_user.png](assets/hour-types-user-350x184.png)
 
 1. Click **Save Changes**.
 

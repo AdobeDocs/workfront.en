@@ -14,7 +14,11 @@ The Scrum agile story board displays together&nbsp;with the completion status an
 * On agile iterations. For more details about using the agile story board, burndown chart, and completion status in a pure agile environment (with backlogs and an iteration), see [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 * When viewing a project in an agile view. For information about how you can leverage the agile story board, burndown chart, and completion status&nbsp;within an existing project, see [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
+![agile_iteration_callout.png](assets/agile-iteration-callout-350x317.png)
+
 ## Story Board Layout and Functions
+
+![agile_storyboard_overview.png](assets/agile-storyboard-overview-350x219.png)
 
 The story board consists of the following elements:
 
@@ -26,6 +30,8 @@ The story board consists of the following elements:
    * Belongs to the iteration
 
      In a project, this column appears any time a task has at least one subtask.
+
+     ![agile_story_swimlane.png](assets/agile-story-swimlane-350x212.png)
 
 * **Task Statuses:** Indicate how a story is progressing through the iteration or project based on which status column the story is in.
 

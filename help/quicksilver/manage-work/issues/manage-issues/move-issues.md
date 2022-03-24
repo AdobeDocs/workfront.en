@@ -58,7 +58,7 @@ Consider the following when moving&nbsp;issues that contain documents or are ass
 
 ## Move issues in a list
 
-You can move one or multiple issues from a list of issues or from an issue report. 
+You can move one or multiple issues from a list of issues or from an issue report.
 
 Moving issues differs depending on what environment you use.
 
@@ -73,9 +73,13 @@ Moving issues differs depending on what environment you use.
 
    Go to an issue report.
 
-1. If you selected a project, click the **Issues** section, then select the issue or issues you want to move in the list of issues.   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+1. If you selected a project, click the **Issues** section, then select the issue or issues you want to move in the list of issues.
 
-1. Click the **More**&nbsp;drop-down menu  at the top of the issue list, then click **Move** **to**.
+   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+
+1. Click the **More**&nbsp;drop-down menu ![](assets/more-icon.png) at the top of the issue list, then click **Move** **to**.
+
+   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. The **Move Issue** or **Move Issues** box displays. 
 
@@ -100,11 +104,13 @@ Moving issues differs depending on what environment you use.
 1. If you selected to go to a project, click **Issues** in the left panel. 
 1. Select the issue or issues that you want to move and click the **More menu** at the top of the issue list, then click **Move to**.
 
+   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+
 1. Continue with moving the issue, as described in the section [Move a single issue in the Preview environment](#copy6) starting with Step 2.
 
 ## Move a single issue
 
-You can move one issue when viewing it. 
+You can move one issue when viewing it.
 
 Moving issues differs depending on what environment you use.
 
@@ -113,7 +119,9 @@ Moving issues differs depending on what environment you use.
 
 ### Move a single issue in the Production&nbsp;environment
 
-1. Go to an issue that you want to move, then click the **More** menu ![](assets/more-icon.png) to the right of the issue name, then **Move** ```to```.  ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+1. Go to an issue that you want to move, then click the **More** menu ![](assets/more-icon.png) to the right of the issue name, then **Move** ```to```.
+
+   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    The **Move Issue** box displays. 
 

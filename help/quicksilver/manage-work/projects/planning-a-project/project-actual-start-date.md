@@ -55,15 +55,15 @@ You must have the following access to perform the steps in this article:
 
 * Workfront automatically sets the Actual&nbsp;Date of a project when any of the following occur:
 
-  * A task assignee changes the status of a task from *New* to any other status that does not equate *New*.
-  
-  * A task assignee changes the Percent Complete of a task.
+   * A task assignee changes the status of a task from *New* to any other status that does not equate *New*.
+   
+   * A task assignee changes the Percent Complete of a task.
 
-    >[!IMPORTANT]
-    >
-    >The Project&nbsp;Actual Start&nbsp;Date does not populate when the project is marked as Current.&nbsp;Actual work must start on the tasks of the project before the Actual&nbsp;Start&nbsp;Date of the project populates.
+     >[!IMPORTANT]
+     >
+     >The Project&nbsp;Actual Start&nbsp;Date does not populate when the project is marked as Current.&nbsp;Actual work must start on the tasks of the project before the Actual&nbsp;Start&nbsp;Date of the project populates.
 
-    In these cases, the Actual Start Date of the project is set to the date and time when these actions occurred for the earliest task on the project. This indicates that the project actually started on this date and time.
+     In these cases, the Actual Start Date of the project is set to the date and time when these actions occurred for the earliest task on the project. This indicates that the project actually started on this date and time.
 
 ## Locate the Actual Start&nbsp;Date of a project
 
@@ -76,9 +76,12 @@ You can locate the Actual&nbsp;Start&nbsp;Date of a project in the following are
 
 To locate the Actual Start&nbsp;Date in the Details section of the project:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Projects**.  
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Projects**. 
 1. Click the project you want to view the Actual Start Date for.
-1. Click&nbsp;**Project Details** in the left panel, then go to the **Overview** section.  The Actual Start Date displays along other project dates .
+1. Click&nbsp;**Project Details** in the left panel, then go to the **Overview** section.
+
+   The Actual Start Date displays along other project dates .
+
+   ![](assets/nwe-project-actual-start-date--highlighted-350x367.png)
 
 &nbsp;

@@ -160,8 +160,8 @@ In Workfront, you can view proof comments without launching your proofing viewer
 >This feature is not available in Workfront Proof.
 
 1. On the **Documents** tab of a work item, locate the document you want to view.
-1. Updates
-1.
+1. Click the row containing the document, then open the **Updates** tab in the right panel.  
+   The comments display on the Updates tab next to your list of documents.
 
 ## Reply to comments
 

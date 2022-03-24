@@ -60,16 +60,16 @@ To create or edit a risk in the Business Case:
 1. In the **Risks** section, click **Edit Risks**.
 1. Enter or edit the following information:
 
-  * **Description:** describe the risk.  
-  
-  * **Potential Cost**: indicate the estimated cost if the risk should occur.  
-  
-  * **Probability**: indicate the probability of the risk occurring as a percentage value.   
-  
-  * **Type:** indicate what category the risk falls under.
-  * **Mitigation Plan**: update the description of the plan to mitigate the risk.  
-  
-  * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
+   * **Description:** describe the risk.  
+   
+   * **Potential Cost**: indicate the estimated cost if the risk should occur.  
+   
+   * **Probability**: indicate the probability of the risk occurring as a percentage value.   
+   
+   * **Type:** indicate what category the risk falls under.
+   * **Mitigation Plan**: update the description of the plan to mitigate the risk.  
+   
+   * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
 
    ![](assets/crp1-350x117.png)
 
@@ -97,15 +97,15 @@ In addition to creating and editing risks in the Business Case, you can do so us
 
 1. Enter the following information:
 
-  * **Description**: describe the risk.
-  * **Risk Type**: indicate what category the risk falls under.  
-    Your Workfront administrator defines the Risk Types available in your environment. For information about defining Risk Types, see the article [Edit and create risk types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).  
-  
-  * **Probability**: indicate the probability of the risk occurring as a percentage value.
-  * **Potential Cost**: indicate the estimated cost if the risk should occur.
-  * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
-  * **Actual Cost**: indicate the actual cost of the risk if the risk occurred.
-  * **Mitigation Plan**: update the description of the plan to mitigate the risk.
+   * **Description**: describe the risk.
+   * **Risk Type**: indicate what category the risk falls under.  
+     Your Workfront administrator defines the Risk Types available in your environment. For information about defining Risk Types, see the article [Edit and create risk types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).  
+   
+   * **Probability**: indicate the probability of the risk occurring as a percentage value.
+   * **Potential Cost**: indicate the estimated cost if the risk should occur.
+   * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
+   * **Actual Cost**: indicate the actual cost of the risk if the risk occurred.
+   * **Mitigation Plan**: update the description of the plan to mitigate the risk.
 
 1. (Conditional) Click **Enter** if you are creating the risk in-line.
 
@@ -141,13 +141,13 @@ To edit risks:
 
    Consider editing the following fields:
 
-  * **Description**: edit the description of the risk.
-  * **Risk Type**: indicate what category the risk falls under. 
-  * **Probability**: indicate the probability of the risk occurring as a percentage value.
-  * **Potential Cost**: indicate the estimated cost if the risk should occur.
-  * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
-  * **Actual Cost**: indicate the actual cost of the risk if the risk occurred.
-  * **Mitigation Plan**: update the description of the plan to mitigate the risk.
+   * **Description**: edit the description of the risk.
+   * **Risk Type**: indicate what category the risk falls under. 
+   * **Probability**: indicate the probability of the risk occurring as a percentage value.
+   * **Potential Cost**: indicate the estimated cost if the risk should occur.
+   * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
+   * **Actual Cost**: indicate the actual cost of the risk if the risk occurred.
+   * **Mitigation Plan**: update the description of the plan to mitigate the risk.
 
 1. Click **Save Changes**.
 1. (Optional) Edit the **Status** for a risk, in the **Status** drop-down menu, when applying the **Standard** view for the list of risks.

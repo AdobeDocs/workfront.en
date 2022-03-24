@@ -68,6 +68,8 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 1. Go to the dashboard that you want to edit.
 1. Click **Dashboard Actions**, then click **Edit**.
 
+   ![dashboard_actions_menu.png](assets/dashboard-actions-menu-350x399.png)
+
    >[!TIP]
    >
    >To learn how to delete a dashboard, see [Delete a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).

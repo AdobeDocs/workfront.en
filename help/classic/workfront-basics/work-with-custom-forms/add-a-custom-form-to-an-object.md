@@ -68,7 +68,7 @@ You can add a custom form to an object in two ways:
 ### Add a custom form to an object by editing the object
 
 1. Go to the object where you want to add the custom form.
-1. Click **Edit <Object type>** in the upper-right corner of the page (for example, the **Edit Project** or **Edit Issue** option, depending on the type of object you are attaching the custom form to). 
+1. Click **Edit <Object type>** in the upper-right corner of the page (for example, the **Edit Project** or **Edit Issue** option, depending on the type of object you are attaching the custom form to).
 
    ![](assets/2-350x87.png)
 
@@ -80,11 +80,9 @@ You can add a custom form to an object in two ways:
 ### Add a custom form to an object from the Details area
 
 1. Go to the object where you want to add the custom form.
-1. Click the **<Object type> Details** tab &nbsp;For example, click **Project Details** to add custom forms to a project or **Issue Details** to add custom forms to an issue.  
-
-1. Click **Custom Forms** > **Make a selection**, then select up to 10 custom forms from the drop-down menu.  
-
-1. (Optional) Click **Edit Custom Form** for each form you want to edit and update the information in the editable custom fields, then click **Save**. 
+1. Click the **<Object type> Details** tab &nbsp;For example, click **Project Details** to add custom forms to a project or **Issue Details** to add custom forms to an issue. 
+1. Click **Custom Forms** > **Make a selection**, then select up to 10 custom forms from the drop-down menu. 
+1. (Optional) Click **Edit Custom Form** for each form you want to edit and update the information in the editable custom fields, then click **Save**.
 
    >[!IMPORTANT]
    >
@@ -105,7 +103,7 @@ You can add custom forms to multiple objects by selecting them in a list.
 
    ![](assets/bulk-edit-tasks-350x171.png)
 
-1. Click **Edit**. 
+1. Click **Edit**.
 1. Click **Custom Forms** in the left panel.
 1. In the **Make a selection** drop-down menu, select the form you want to associate with all the selected objects.
 

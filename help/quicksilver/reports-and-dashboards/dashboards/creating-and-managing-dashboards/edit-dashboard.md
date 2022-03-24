@@ -68,14 +68,16 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 1. Go to the dashboard that you want to edit.
 1. Click **Dashboard Actions**, then click **Edit**.
 
+   ![](assets/qs-dashboard-actions-menu-350x318.png)
+
    >[!TIP]
    >
    >To learn how to delete a dashboard, see [Delete a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
 
 1. Consider editing the following fields:
 
-  * **Name**: Edit the name of the dashboard.
-  * **Description**: Specify a description for the dashboard.
+   * **Name**: Edit the name of the dashboard.
+   * **Description**: Specify a description for the dashboard.
 
 1. In the **Available Reports & Calendars** section, start typing the name of a report, calendar, or external page in the **Search by name or type ...** field, then drag and drop the report or calendar in the layout pane to the right.
 

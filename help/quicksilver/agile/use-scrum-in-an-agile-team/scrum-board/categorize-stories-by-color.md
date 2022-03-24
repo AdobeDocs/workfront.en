@@ -47,14 +47,16 @@ You must have the following access to perform the steps in this article:
 
 If the agile team settings have&nbsp;been configured so the Associate Card Color to&nbsp;option is set to Free Form, users can manually change the color of individual story tiles. This can be useful to communicate other types of&nbsp;information that is important to the team or the organization:
 
-1. Main Menu
-1. 
-1. Teams
-1. Switch team
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+
 1. In the left panel, select **Iterations** to choose a specific iteration, or select **Current Iteration**.
+1. Hover over the colored banner at the top of the story tile.  
+  
+   ![](assets/agile-story-color1-nwe-350x140.png)
 
-1. Hover over the colored banner at the top of the story tile.
-
-1. Click **Change color**, then select the desired color.
+1. Click **Change color**, then select the desired color.  
+  
+   ![](assets/agile-story-color2-nwe-350x138.png)
 

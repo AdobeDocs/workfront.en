@@ -57,10 +57,10 @@ You must have the following access to perform the steps in this article:
 
 1. Test the Create Note Event
 
-  1. Navigate to a linked document in Workfront and leave a comment in the Updates tab.
-  1. Navigate to the same linked document in AEM. Once the document is selected, navigate to the Timeline menu in the left navigation and select ```Comments```. Here you should see you synced comments from Workfront.
+   1. Navigate to a linked document in Workfront and leave a comment in the Updates tab.
+   1. Navigate to the same linked document in AEM. Once the document is selected, navigate to the Timeline menu in the left navigation and select ```Comments```. Here you should see you synced comments from Workfront.
 
-     ![](assets/update-stream-comment-350x225.png)
+      ![](assets/update-stream-comment-350x225.png)
 
-     ![](assets/699826215-350x225.png)
+      ![](assets/699826215-350x225.png)
 

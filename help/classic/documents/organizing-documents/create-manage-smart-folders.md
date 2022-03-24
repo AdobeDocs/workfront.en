@@ -68,7 +68,8 @@ You can display folders in thumbnail, standard, or list view. To change the view
 
 1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to edit.
 1. In the **Folders** column, click the drop-down arrow next to the smart folder that you want to edit.
-1. ![](assets/smartfolder-edit.png)
+
+   ![](assets/smartfolder-edit.png)
 
 1. Click **Edit**.
 
@@ -80,16 +81,17 @@ You can display folders in thumbnail, standard, or list view. To change the view
 ## Rename a Smart Folder&nbsp;
 
 1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to rename.
-1. Folders
-1. 
-1. 
+1. In the **Folders**&nbsp;column, click the drop-down arrow next to the smart folder that you want to rename.  
+   ![](assets/smartfolder-edit.png)
+
 1. Specify a new name for the folder, then press **Enter**.
 
 ## Copy a Smart Folder
 
 1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to copy.
 1. In the **Folders**&nbsp;column, click the drop-down arrow next to the smart folder that you want to copy.
-1. ![](assets/smartfolder-edit.png)
+
+   ![](assets/smartfolder-edit.png)
 
 1. Click **Copy**.
 
@@ -101,7 +103,8 @@ You can display folders in thumbnail, standard, or list view. To change the view
 
 1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to delete.
 1. In the **Folders** column, click the drop-down arrow next to the smart folder that you want to delete.
-1. ![](assets/smartfolder-edit.png)
+
+   ![](assets/smartfolder-edit.png)
 
 1. Click **Delete**.
 1. Click **Yes, Delete It**.

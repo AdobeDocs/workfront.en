@@ -83,13 +83,19 @@ Consider the following when leveling resources on a project:
 1. Click **Save**.&nbsp;
 
 <!--
-<a name="resource-leveling-in-gantt"></a>Apply Resource Leveling in the Legacy Gantt Chart
-<ol> Navigate to a project. Click <strong>More</strong>, then click <strong>Legacy Gantt</strong>.
-<img src="assets/1-350x173.png" alt="" style="width: 350;height: 173;"> Click&nbsp;the <strong>Resource Leveling</strong> drop-down menu.
-<img src="assets/2-350x89.png" alt="" style="width: 350;height: 89;"> Select <strong>Level Now</strong>.
-<br>Workfront automatically finds the next available time from the schedule of the over-allocated users, and moves over-allocated tasks to another time. By default, Workfront will look at the task ID number to prioritize this adjustment. In general, tasks with lower ID numbers take precedence over tasks with higher ID numbers. (Optional) Select <strong>Clear Leveling</strong>, to remove all resource leveling from the project.
-<br><span class="autonumber"><span><b>Note: </b></span></span> Your resources might be overallocated if they are assigned to multiple tasks which occur during the same time frame. Click <strong>Save</strong>.&nbsp;
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">
+<h2 data-mc-conditions="QuicksilverOrClassic.Classic"><a name="resource-leveling-in-gantt"></a>Apply Resource Leveling in the Legacy Gantt Chart</h2>
+<ol>
+<li value="1" data-mc-conditions="QuicksilverOrClassic.Classic">Navigate to a project.</li>
+<li value="2" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>More</strong>, then click <strong>Legacy Gantt</strong>. <p data-mc-conditions="QuicksilverOrClassic.Classic"><img src="assets/1-350x173.png" alt="" style="width: 350;height: 173;"></p></li>
+<li value="3" data-mc-conditions="QuicksilverOrClassic.Classic">Click&nbsp;the <strong>Resource Leveling</strong> drop-down menu. <p data-mc-conditions="QuicksilverOrClassic.Classic"><img src="assets/2-350x89.png" alt="" style="width: 350;height: 89;"></p></li>
+<li value="4" data-mc-conditions="QuicksilverOrClassic.Classic">Select <strong>Level Now</strong>.<br>Workfront automatically finds the next available time from the schedule of the over-allocated users, and moves over-allocated tasks to another time. By default, Workfront will look at the task ID number to prioritize this adjustment. In general, tasks with lower ID numbers take precedence over tasks with higher ID numbers.</li>
+<li value="5" data-mc-conditions="QuicksilverOrClassic.Classic">(Optional) Select <strong>Clear Leveling</strong>, to remove all resource leveling from the project.<br><note type="note">
+Your resources might be overallocated if they are assigned to multiple tasks which occur during the same time frame.
+</note></li>
+<li value="6" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Save</strong>.&nbsp;</li>
 </ol>
+</div>
 -->
 
 <!--
@@ -100,8 +106,8 @@ Consider the following when leveling resources on a project:
 <p>To manually add a Leveling Delay to a task:</p>
 <ol>
 <li value="1">Navigate to a task for which you want to add a Leveling Delay.</li>
-<li value="2"> Click <strong>Edit Task</strong>.  </li>
-<li value="3">Click <strong>Settings</strong>.<br></li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Edit Task</strong>. </p> </li>
+<li value="3">Click <strong>Settings</strong>.<br><img src="assets/leveling-delay-on-a-task-350x244.png" alt="leveling_delay_on_a_task.png" style="width: 350;height: 244;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
 <li value="4">Specify the <strong>Leveling Delay</strong>, in hours.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</li>
 <li value="5">Click <strong>Save Changes</strong>.&nbsp;</li>
 </ol>

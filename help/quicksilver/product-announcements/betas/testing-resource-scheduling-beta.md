@@ -22,11 +22,11 @@ The following resources are available for you to learn how to use the Resource S
 
 * Help content:
 
-  * [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md) 
-  * [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)&nbsp;(Generally Available)
-  * [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)&nbsp;(Generally Available)
-  * [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)&nbsp;(Available in Early Access)
-  * View Assigned Work on the My Work Calendar&nbsp;(Available in Early Access)
+   * [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md) 
+   * [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)&nbsp;(Generally Available)
+   * [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)&nbsp;(Generally Available)
+   * [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)&nbsp;(Available in Early Access)
+   * View Assigned Work on the My Work Calendar&nbsp;(Available in Early Access)
 
 * Watch the following videos:
 

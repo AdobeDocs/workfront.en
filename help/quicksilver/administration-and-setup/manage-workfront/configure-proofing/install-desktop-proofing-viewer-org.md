@@ -72,8 +72,8 @@ After you install the Desktop Proofing Viewer for your organization, you can set
 
 1. On the user's machine, do one of the following to download the app:
 
-  * If you are using the Production environment, click&nbsp; [Mac Production Download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.pkg)
-  * If you are using the Preview environment, click&nbsp; [Mac Preview Download for the Desktop Proofing Viewer.](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.pkg)
+   * If you are using the Production environment, click&nbsp; [Mac Production Download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.pkg)
+   * If you are using the Preview environment, click&nbsp; [Mac Preview Download for the Desktop Proofing Viewer.](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.pkg)
 
 1. Open the file you have just downloaded to start the installation.
 1. In the installation box that appears, click&nbsp;**Continue**, then click **Install**.
@@ -86,8 +86,8 @@ After you install the Desktop Proofing Viewer for your organization, you can set
 
 1. On the user's machine, do one of the following to download the app:
 
-  * In the Production environment, click&nbsp; [Windows Production download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.exe)
-  * In the Preview environment, click&nbsp; [Windows Preview download for the Desktop Proofing Viewer](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.exe).
+   * In the Production environment, click&nbsp; [Windows Production download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.exe)
+   * In the Preview environment, click&nbsp; [Windows Preview download for the Desktop Proofing Viewer](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.exe).
 
 1. Open the file you have just downloaded to start the installation.&nbsp;
 1. In the security warning box that appears, click&nbsp;**Run**.

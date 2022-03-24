@@ -30,7 +30,7 @@ This section contains the following articles:
 * [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
 
   <!--
-  <a href="../../resource-mgmt/resource-mgmt-overview/current-resource-management-features.md" class="MCXref xref" xrefformat="{para}">Currently Released Resource Management Functionality</a>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"><a href="../../resource-mgmt/resource-mgmt-overview/current-resource-management-features.md" class="MCXref xref" xrefformat="{para}">Currently Released Resource Management Functionality</a> </li>
   -->
 
 * [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)

@@ -48,7 +48,9 @@ You must have the following access to perform the steps in this article:
 
 1. Go to a portfolio and select the **Projects**&nbsp;tab.<![CDATA[ ]]>
 
-1. Click**Add Projects**and select a method for adding a project. 
+   ![](assets/app1-350x140.png)
+
+1. Click**Add Projects**and select a method for adding a project.
 
    >[!TIP]
    >
@@ -83,7 +85,11 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
+   ![](assets/app2-350x142.png)
+
 1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **Add Projects** box, then click them when they appear in the list. You may add several projects at a time.
+
+   ![](assets/app3-350x346.png)
 
 1. Click **Add Projects**.
 

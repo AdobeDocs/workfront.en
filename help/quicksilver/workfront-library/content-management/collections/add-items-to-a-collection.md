@@ -28,15 +28,15 @@ You can add content and folders to a collection that you create or that has been
 
    Depending on the collections you have access to, you might have the following Collection options:
 
-  * **My Collections:** Contains collections that you have created. For information on creating a collection, see [Create a collection in Workfront Library](../../../workfront-library/content-management/collections/create-a-collection.md).
-  
-  * **Collections Shared with Me:** Contains collections that have been share with you by other users. Users with Viewer access to Workfront Library can add items only to collections that they have created. Users with Manager access and with View permissions to a collection shared with them cannot add items to the collection.
+   * **My Collections:** Contains collections that you have created. For information on creating a collection, see [Create a collection in Workfront Library](../../../workfront-library/content-management/collections/create-a-collection.md).
+   
+   * **Collections Shared with Me:** Contains collections that have been share with you by other users. Users with Viewer access to Workfront Library can add items only to collections that they have created. Users with Manager access and with View permissions to a collection shared with them cannot add items to the collection.
 
-    You can hover over a shared collection listed to view your permissions level.
+     You can hover over a shared collection listed to view your permissions level.
 
-    ![](assets/collectionsperms-350x264.png)
+     ![](assets/collectionsperms-350x264.png)
 
-    For information on access levels and permissions, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
+     For information on access levels and permissions, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
 
 1. (Optional) Click **Remove from original location** to remove the item from where you accessed it in Step 3.
 

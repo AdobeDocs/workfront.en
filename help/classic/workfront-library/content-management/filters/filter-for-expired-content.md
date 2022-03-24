@@ -11,7 +11,7 @@ description: Depending on how your Workfront Library administrator setup the Exp
 
 Depending on how your Workfront Library administrator setup the Expiration feature, you might be able to view expired content by enabling the Show Expired filter. For more information on expired content, see [Set up content expiration in Workfront Library](../../../workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md).
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. Click the **Filter** icon.  
    ![](assets/filter-icon-location-350x102.png)
 

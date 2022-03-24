@@ -53,9 +53,13 @@ If the Workfront administrator has&nbsp;enabled the Timesheet Approval to User a
 
 To approve a timesheet:
 
-1. Timesheet
-1. Back to Timesheets.
-1. Click the **Timesheets** **I Approve** tab. A list of all the timesheets waiting your approval displays.   ![](assets/timesheet-approve-adobe-350x99.png)
+1. Go to the **Timesheet** area in your Global Navigation Bar.&nbsp;
+1. Click **Back to Timesheets.**
+1. Click the **Timesheets** **I Approve** tab.
+
+   A list of all the timesheets waiting your approval displays.
+
+   ![](assets/timesheet-approve-adobe-350x99.png)
 
 1. Click the timesheet you want to approve.
 1. Click **Approve**.

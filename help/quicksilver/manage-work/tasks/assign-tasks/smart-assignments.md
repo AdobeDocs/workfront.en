@@ -32,14 +32,19 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * A task or issue list or report
 
+  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+
 * A task or issue header
-* ![](assets/smart-assignments-task-header-nwe-350x302.png)
+
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * The task or issue Summary panel
-* ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+
+  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
 * The Assignments field for an item listed in the Home area
-* ![](assets/smart-assignments-in-home-nwe-350x216.png)
+
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
 * Resource Scheduling
 
@@ -59,12 +64,12 @@ Users are recommended in the smart assignments drop-down list based on a combina
 
   If the work item is assigned to a team or a role, the list of suggested users is filtered further taking into account the existing assignments below. In this case, only the following users display in the list of suggestions:
 
-  * Users whose Home Team is the team assigned to the work item. 
-  * Users whose Primary Role is the role assigned to the work item.
+   * Users whose Home Team is the team assigned to the work item. 
+   * Users whose Primary Role is the role assigned to the work item.
 
-    >[!TIP]
-    >
-    >If you’re not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
+     >[!TIP]
+     >
+     >If you’re not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -101,11 +106,11 @@ You must have a Plan or a Work license and have at least Contribute permissions 
 <ol>
 <li value="1">Navigate to an issue or a task and click one of the following fields to edit them: <br>
 <ul>
-<li>The <strong>Assignments</strong> field in the task or issue header</li>
+<li><p data-mc-conditions="QuicksilverOrClassic.Quicksilver">The <strong>Assignments</strong> field in the task or issue header</p></li>
 <li>The <strong>Assignments</strong> field of a task or issue list using in-line editing in a task or issue list. </li>
 <li>The <strong>Assignee</strong> field after you have clicked <strong>Advanced</strong> from a task or an issue. </li>
 </ul></li>
-<li value="2"> <p>Place your cursor in the assignment field, and wait for two seconds, then the <strong>Suggestions</strong> list is displayed.</p> <p>Users displayed in this list are the smart assignment suggestions for the task or the issue.<br></p> <p>  </p> </li>
+<li value="2"> <p>Place your cursor in the assignment field, and wait for two seconds, then the <strong>Suggestions</strong> list is displayed.</p> <p>Users displayed in this list are the smart assignment suggestions for the task or the issue.<br></p> <p> <img src="assets/nwe-smart-assignment-suggestions-350x160.png" style="width: 350;height: 160;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3"> <p>Select the user in the recommendations list by clicking their name. </p> <p>If there are no suggestions, the suggestion list does not open.</p> </li>
 <li value="4">(Optional) If you do not want to use one of the recommended users from the smart assignments list, start typing the name of the desired user and select the name when it appears in the list.</li>
 <li value="5">Click <strong>Enter</strong> to make the assignment. </li>

@@ -74,7 +74,10 @@ For information on creating a report, see [Create a report](../../../reports-and
    Click&nbsp;**Report Actions**, then click&nbsp;**Edit**.
 
 1. (Conditional) If you edited a report, select an existing column, or create a new column.  
+   ![](assets/task-report-with-column-highlighted-view-350x173.png)
+
 1. Click **Advanced Options**.  
+   ![](assets/advanced-options-tab-in-report-view-350x170.png)
 
 1. Specify the following information:
 
@@ -102,6 +105,8 @@ For information on creating a report, see [Create a report](../../../reports-and
    >[!NOTE]
    >
    >You cannot apply conditional formatting to a User Team ID field.
+
+   ![](assets/column-rules-ui-on-report-view-350x172.png)
 
 1. In the **When the:** section, set a condition statement for the column. For example: when the Task Percent Complete Equals (Case Sensitive) 50.
 1. In the**Show the field like this:**&nbsp;section specify what this field looks like when the condition defined above is met.  
@@ -152,5 +157,6 @@ For information on creating a report, see [Create a report](../../../reports-and
 
 1. Click **Done**.
 1. Click **Save + Close**.  
-   On the report, users see changes to the format if the conditions specified have been met.
+   On the report, users see changes to the format if the conditions specified have been met.  
+   ![](assets/special-formatting-in-report-view-350x113.png)
 

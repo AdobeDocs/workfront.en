@@ -90,8 +90,8 @@ For more information, see [link to Beta enrollment info].
 
    You can type text in the **Search** box to find a field. You can also use the 2 drop-down menus under this box to narrow the list of displayed fields to one or both of the following:
 
-  * The object type associated with the field you want, such as Project or Task
-  * The field type you want, such as Date or Currency
+   * The object type associated with the field you want, such as Project or Task
+   * The field type you want, such as Date or Currency
 
    If you don't see the field you want, click **More fields** to display more.
 

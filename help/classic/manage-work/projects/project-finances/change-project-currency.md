@@ -58,12 +58,11 @@ You must have the following access to perform the steps in this article:
    >
    >Ensure that the project does not already have any financial information. For example, ensure there are no Planned or Actual Costs associated with the project.
 
-1. Click the **Project Details** tab, then select **Finance**. 
+1. Click the **Project Details** tab, then select **Finance**.
+1. Click**Edit Finance**.
+1. In the **Project Currency** drop-down list, select the currency that you want to use as the default currency for the project.  
+   ![](assets/cdccc-350x359.png)
 
-1. Click**Edit Finance**. 
-1. Project Currency
-1. 
-1. 
 1. (Conditional) If you select a currency other than the default currency that is set for your Workfront system, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
 1. Click **Save.**
 

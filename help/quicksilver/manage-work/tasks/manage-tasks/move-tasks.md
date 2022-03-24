@@ -67,7 +67,13 @@ To move a task displayed in a task list:
 
    After you dropped the tasks in the correct place on the project, the changes you made to the task hierarchy are saved immediately. All the information associated with each task is moved with the tasks.
 
-1. (Conditional) Select the task or tasks that you want to move and do one of the following:  ```<li> <p>Click the More menu <img src="assets/qs-more-menu.png"> at the top of the task list, then click <strong>Move to</strong>. </p> </li>``` ```<li> <p>Right click the selected tasks, then click <strong>Move to</strong>.</p> </li>``` ```<li> <p>When selecting one task, click the <strong>More</strong> menu <img src="assets/more-icon-task-list.png"> next to the task name in the list, then click&nbsp;<strong>Move to</strong>. </p> </li>```   ![](assets/move-task-in-list-nwe-350x119.png)
+1. (Conditional) Select the task or tasks that you want to move and do one of the following:
+
+   * Click the More menu ![](assets/qs-more-menu.png) at the top of the task list, then click **Move to**. 
+   * Right click the selected tasks, then click **Move to**.
+   * When selecting one task, click the **More** menu ![](assets/more-icon-task-list.png) next to the task name in the list, then click&nbsp;**Move to**.
+
+   ![](assets/move-task-in-list-nwe-350x119.png)
 
    The Move Task box displays
 
@@ -93,11 +99,16 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    If you want to move the task within the same project, type the name of the current project.
 
-   ``` ```**Tips: **``````
-
-  * The name of the project is case sensitive. 
-  * You can also start typing the Reference Number or enter the ID of the project. This might help you distinguish between projects with identical names. 
-  * Only 100 projects display in the list.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * The name of the project is case sensitive. 
+   >   * You can also start typing the Reference Number or enter the ID of the project. This might help you distinguish between projects with identical names. 
+   >   * Only 100 projects display in the list.
+   >   
+   >
 
 1. (Conditional)&nbsp;Click&nbsp;**request access** to request access to the project, if you don't have access to the selected project. 
 1. 
@@ -183,8 +194,8 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    Select a parent by doing one of the following:
 
-  * In the task list, select one of the parents in the project plan.
-  * Click the search icon ![Search icon](assets/search-icon.png) and search for a parent task by name.
+   * In the task list, select one of the parents in the project plan.
+   * Click the search icon ![Search icon](assets/search-icon.png) and search for a parent task by name.
 
    The task should appear in the list.
 

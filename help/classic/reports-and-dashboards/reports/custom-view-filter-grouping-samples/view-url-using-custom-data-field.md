@@ -56,15 +56,18 @@ If you have access to create a custom form, you can create a calculated custom f
 
 1. Create a calculated custom field.
 1. In the Calculation field, enter the following code:
-   CONCAT(''https://<domain>.my.workfront.com/task/view?ID=",ID,"&activeTab=tabs-task-details-forms'') 
+
+   CONCAT(''https://<domain>.my.workfront.com/task/view?ID=",ID,"&activeTab=tabs-task-details-forms'')
+
 1. Replace "<domain>" with your actual domain name, without the brackets.
+
    The 
 
    ```
    activeTab=tabs-task-details-forms
    ```
 
-   portion of this URL directs the link to the **Overview** sub-tab of the task. This information can be found in the source code of the Overview page. 
+   portion of this URL directs the link to the **Overview** sub-tab of the task. This information can be found in the source code of the Overview page.
 
 1. After creating your **Calculated Custom Field**, attach the **Custom Form** with this field to several tasks in Adobe Workfront that you want display in your new view.
 

@@ -69,7 +69,7 @@ For more information about filters in lists and reports, see the following artic
 * 
 
   <!--
-  <a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref">Delete filters</a>
+  <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref">Delete filters</a> </p>
   -->
 
 ## Workfront filters for special areas
@@ -101,20 +101,36 @@ You can use either built-in filters or build custom filters in the following are
   For information, see [Manage filters in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 * Analytics area
-* For information, see [Apply filters in Enhanced analytics](../../../enhanced-analytics/use-enhanced-analytics-filters.md). 
-* Blueprints area.&nbsp;This area is only available for Workfront administrators.
-* For information, see [Install a blueprint](../../../administration-and-setup/blueprints/blueprints-install.md). 
-* Scenario Planner 
-* This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). 
-* You cannot customize filters in theScenario Planner.
-* You can use built-in filters for plans, initiatives, or projects and you can customize project filters in the Scenario Planner.
-* For information, see the following articles:
-* ```<li> <p><a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a> </p> </li>``` ```<li> <p><a href="../../../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref">Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner</a> </p> </li>``` ```<li> <p><a href="../../../scenario-planner/import-projects-to-plans.md" class="MCXref xref">Import projects to plans in the Adobe Workfront Scenario Planner</a> </p> </li>``` 
 
-* Goals 
-* This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md). 
-* You can use built-in filtering criteria but you cannot build custom filters to reuse for the Goals area. 
-* For information, see [Filter information in Adobe Workfront Goals](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
+  For information, see [Apply filters in Enhanced analytics](../../../enhanced-analytics/use-enhanced-analytics-filters.md). 
+
+* Blueprints area.&nbsp;This area is only available for Workfront administrators.
+
+  For information, see [Install a blueprint](../../../administration-and-setup/blueprints/blueprints-install.md). 
+
+* Scenario Planner
+
+  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+
+  >[!TIP]
+  >
+  >You cannot customize filters in theScenario Planner.
+
+  You can use built-in filters for plans, initiatives, or projects and you can customize project filters in the Scenario Planner.
+
+  For information, see the following articles:
+
+   * [Create and edit plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-plans.md) 
+   * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md) 
+   * [Import projects to plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
+
+* Goals
+
+  This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+
+  You can use built-in filtering criteria but you cannot build custom filters to reuse for the Goals area.
+
+  For information, see [Filter information in Adobe Workfront Goals](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 ## Overview of filters in lists and reports
 
@@ -153,6 +169,8 @@ Consider the following when working with filters in lists or reports:
 ## Elements of a filter
 
 When you build a filter, you connect multiple elements together that make up filter statements. You can have multiple filter statements that define the criteria for your filter.
+
+![](assets/filter-statements-with-or-and-and-nwe-350x204.png)
 
 A filter contains the following elements:
 

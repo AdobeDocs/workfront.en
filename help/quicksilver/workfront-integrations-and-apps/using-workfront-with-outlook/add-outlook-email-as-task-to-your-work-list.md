@@ -72,9 +72,9 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
 1. Deselect the **Add to Project** field.&nbsp;
 1. (Optional) You can update the following information from the email before it is saved as a task:
 
-  * **Task Name:** By default, the task name is the same as the email Subject. You can modify the task name as desired.
-  * **Description:** By default, the description is the same as the email Body. You can modify the description&nbsp;as desired.
-  * **Attachments:** Any email attachments are saved to the Documents area of the task. You can delete any attachments before saving&nbsp;the email as a task.
+   * **Task Name:** By default, the task name is the same as the email Subject. You can modify the task name as desired.
+   * **Description:** By default, the description is the same as the email Body. You can modify the description&nbsp;as desired.
+   * **Attachments:** Any email attachments are saved to the Documents area of the task. You can delete any attachments before saving&nbsp;the email as a task.
 
 1. Click **Add**.  
    The task is added to the Work List in your Home area with no commit date.

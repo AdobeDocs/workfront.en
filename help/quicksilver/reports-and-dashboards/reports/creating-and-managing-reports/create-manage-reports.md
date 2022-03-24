@@ -36,4 +36,4 @@ This section contains the following articles:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</li>
   -->
 
-For in-depth training on reports, see Basic Report Creation Program for the new Workfront experience.
+For in-depth training on reports, see [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).

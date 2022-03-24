@@ -96,15 +96,15 @@ Sharing one report or several reports from a list is identical.
 1. (Optional) Repeat the 2 previous steps to add other names to the list and configure their options.
 1. (Optional) Click the **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper-right corner of the sharing box, then select one of the following options:
 
-  * **Make this public to external users:** Select this option to generate a URL that can be shared with others. Anyone with the URL can access the report, without having an Adobe Workfront license.
+   * **Make this public to external users:** Select this option to generate a URL that can be shared with others. Anyone with the URL can access the report, without having an Adobe Workfront license.
 
-    ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
+     ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
 
-    >[!NOTE]
-    >
-    >If the report has a prompt and you share it publicly, the users running the report must be logged in to Workfront to be able to run the report using the prompt. If they cannot log in to Workfront, they will see the report without the prompt applied to it. For more information about limitations of sharing reports with prompts, see the section [Limitations of sharing prompted reports](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) in the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >[!NOTE]
+     >
+     >If the report has a prompt and you share it publicly, the users running the report must be logged in to Workfront to be able to run the report using the prompt. If they cannot log in to Workfront, they will see the report without the prompt applied to it. For more information about limitations of sharing reports with prompts, see the section [Limitations of sharing prompted reports](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) in the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-  * **Make this visible system-wide:** Select this option so that everyone in Workfront with access to reports can see the report.
+   * **Make this visible system-wide:** Select this option so that everyone in Workfront with access to reports can see the report.
 
 1. Click **Save**.
 

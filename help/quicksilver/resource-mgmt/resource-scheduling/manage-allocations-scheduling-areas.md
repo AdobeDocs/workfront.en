@@ -22,8 +22,8 @@ This article describes how to update daily hourly allocations for users assigned
 
 You can display user allocations in the following areas of Adobe Workfront:
 
-* On the Scheduling section of the Resourcing area.  
-* On the Scheduling section of a project (when scheduling resources for a single project).  
+* On the Scheduling section of the Resourcing area. 
+* On the Scheduling section of a project (when scheduling resources for a single project). 
 * On the Schedule section of a team (when scheduling resources for a team).
 
 ## Access requirements
@@ -92,9 +92,9 @@ You can modify the user allocations for a task or issue from the following locat
 * The Scheduling timeline  
   The Scheduling timeline is located in the following areas:
 
-  * On the Scheduling section of the Resourcing area. 
-  * On the Scheduling section of a project (when scheduling resources for a single project). 
-  * On the Schedule section of a team (when scheduling resources for a team).
+   * On the Scheduling section of the Resourcing area. 
+   * On the Scheduling section of a project (when scheduling resources for a single project). 
+   * On the Schedule section of a team (when scheduling resources for a team).
 
   When you modify user allocations from the Scheduling timeline (as described in the [Modify user allocations](#modifying-user-allocations) section in this article), you can define allocations for each user on the task or issue, as well as for each day within the task or issue duration.  
   ![scheduling_contours.png](assets/scheduling-contours-350x139.png)
@@ -185,9 +185,11 @@ To enable user allocations on the Scheduling timeline:
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp; Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click**Workload Balancer** in the left panel, then select**Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp; Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click**Workload Balancer** in the left panel, then select**Scheduling** from the upper-left drop-down menu.
+
+   ![](assets/scheduling-tab-global-resourcing-area-nwe-350x145.png)
 
 1. Click the **Settings** icon on the Scheduling timeline.  
    ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)  
@@ -228,9 +230,9 @@ To modify user allocations for a task or issue from the Scheduling timeline:
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp; Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
-  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click**Workload Balancer** in the left panel, then select**Scheduling** from the upper-left drop-down menu.
+   * **For multiple projects**:&nbsp; Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click**Workload Balancer** in the left panel, then select**Scheduling** from the upper-left drop-down menu.
 
    ![scheduling_contours.png](assets/scheduling-contours-350x139.png)
 

@@ -61,9 +61,9 @@ To update the severity of an issue in the Issue Details area of an issue:
 
    The **Overview** section should display by default. 
 
-1. Click the **Severity** field in the **Basic information** area. 
+1. Click the **Severity** field in the **Basic information** area.
 
-1. ![](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+   ![](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
 
 1. Select the appropriate **Severity** from the drop-down menu.
 

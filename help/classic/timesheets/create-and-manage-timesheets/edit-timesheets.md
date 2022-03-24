@@ -37,9 +37,13 @@ You must have the following to perform the steps in this article:
 
 ## Edit timesheets
 
-1. Timesheet
-1. Back to Timesheets
-1. Select the **All Timesheets** tab. The timesheet filter is prepopulated with the teams you belong to.   ![](assets/all-timesheets-page-with-preselected-teams-default-classic-350x268.png)
+1. Go to the **Timesheet** area in your Global Navigation Bar.&nbsp;
+1. Click **Back to Timesheets**.
+1. Select the **All Timesheets** tab.
+
+   The timesheet filter is prepopulated with the teams you belong to.
+
+   ![](assets/all-timesheets-page-with-preselected-teams-default-classic-350x268.png)
 
 1. (Optional) To modify the filter in the list of timesheets, do the following:
 

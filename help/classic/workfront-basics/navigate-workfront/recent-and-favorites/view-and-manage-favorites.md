@@ -38,6 +38,7 @@ You must have the following access to perform the steps in this article:
 To view an item that you have previously added as a favorite:
 
 1. Click the **Favorites** icon in the upper-right corner of any Adobe Workfront page.  
+   ![](assets/favorites-overview-350x146.png)
 
 1. In the Favorites list, click the item you want to view.
 
@@ -50,7 +51,10 @@ You can add recent items or the current page to the Favorites menu.
 
 ### Add recent items as a favorite
 
-```<li value="1">Click the <strong>Favorites</strong> icon in the upper-right corner of any Workfront page.</li>``` ```<li value="2">In the <strong>Recent Items</strong> column, hover over the recent item that you want to save as a favorite, then click the star.<br>The recent item displays in the Favorites column.<br></li>```  
+1. Click the **Favorites** icon in the upper-right corner of any Workfront page.
+1. In the **Recent Items** column, hover over the recent item that you want to save as a favorite, then click the star.  
+   The recent item displays in the Favorites column.  
+   ![Adding_Favorites.png](assets/adding-favorites-350x222.png)
 
 ### Add the current item as a favorite
 
@@ -60,7 +64,9 @@ You can add recent items or the current page to the Favorites menu.
    ![](assets/favorites-overview-2-350x146.png)
 
    Or
-   Click the object's **Actions** menu, then click **Add to Favorites**.
+
+   Click the object's **Actions** menu, then click **Add to Favorites**.  
+   ![](assets/screen-shot-2013-10-24-at-10.16.31-am.png)
 
 ## Remove an item from the Favorites menu
 

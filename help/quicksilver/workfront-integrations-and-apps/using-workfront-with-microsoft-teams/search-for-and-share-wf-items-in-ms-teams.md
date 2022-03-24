@@ -89,14 +89,14 @@ To search for a Workfront item from Microsoft Teams and share it with others:
 1. In Microsoft Teams, go to any chat channel and click&nbsp;the **Workfront** icon.
 1. Search for the Workfront item by doing one of the following:
 
-  * Click the Workfront icon under the conversation field.  
-    ![ms_teams_workfront_pinned_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)  
-    Depending on your settings, this icon might display under the **More** icon instead.  
-    ![more_icon.png](assets/more-icon-52x34.png)  
-    The **Search** box appears by default.
-  
-  * Type *@Workfront*&nbsp;from any channel, select Workfront and then select **Search.** 
-    ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
+   * Click the Workfront icon under the conversation field.  
+     ![ms_teams_workfront_pinned_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)  
+     Depending on your settings, this icon might display under the **More** icon instead.  
+     ![more_icon.png](assets/more-icon-52x34.png)  
+     The **Search** box appears by default.
+   
+   * Type *@Workfront*&nbsp;from any channel, select Workfront and then select **Search.** 
+     ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
 1. In the search box provided, start typing the name or reference number of a project, task, or issue and click it when it appears in the list.  
    ![ms_teams_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)  

@@ -101,7 +101,7 @@ Consider the following when temporarily resizing and ordering columns:
 * When reordering columns, the order you choose is maintained only until you navigate away from the list, or you refresh the browser page. After navigating away from the list or refreshing the browser page, columns return to their default order.
 * For optimal performance, the columns you are reordering should not have more than 100 items in the list.
 * When you resize columns, your changes apply only to the view you are currently using and are visible only to you. Sharing a view with another user does not share the column sizes that you have defined.
-* After you resize a column by dragging its border to the right, the width of the neighboring column is preserved only in projects, tasks, and hours lists. 
+* After you resize a column by dragging its border to the right, the width of the neighboring column is preserved only in projects, tasks, and hours lists.
 
   >[!NOTE]
   >

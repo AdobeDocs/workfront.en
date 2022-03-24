@@ -65,6 +65,8 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
 
 1. Select the **Repeating Deliveries** tab.
 
+   ![](assets/report-delivery-schedule-350x169.png)
+
 1. (Conditional) To modify an existing repeating report delivery, select the report delivery in the **Repeating Deliveries** section.
 1. Specify the following information:
 
@@ -152,7 +154,9 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
    For information about size limitations that can affect the delivery of your reports, see the sections [Report delivery limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) and [Export limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export) in the article [Schedule an automatic report delivery](#).
 
 1. (Optional) To manually send the report now, click **Send Now**.
-1. The **Send Now** option displays in the Repeating Deliveries tab only when a report has been scheduled for delivery.
+
+   The **Send Now** option displays in the Repeating Deliveries tab only when a report has been scheduled for delivery.
+
 1. (Optional) To delete a scheduled delivery:
 
    1. In the **Repeating Deliveries** panel, click the scheduled delivery, then click **Delete**.

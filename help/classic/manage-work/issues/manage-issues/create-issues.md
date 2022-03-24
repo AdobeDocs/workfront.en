@@ -71,6 +71,8 @@ To create an issue on a task or a project:
 1. Click the **Issues** tab. 
 1. Click **New Issue**.
 
+   ![project_with_issues_tab.png](assets/project-with-issues-tab-350x103.png)
+
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. They should have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).  
    ![](assets/new-issue-form--topic--queue--default-fields-only-350x533.png)
@@ -122,16 +124,26 @@ To create issues inline:
 
    A new line is created in the list of issues on the Issues tab . 
 
-1. Start typing the name of the issue in the Name field, then continue adding more information about the issue inline. 
+1. Start typing the name of the issue in the Name field, then continue adding more information about the issue inline.
 
-   ``` ```**Tips: **``````
-
-   * The fields that are available to edit inline are made available by the view you apply to your issue list. 
-   * You might not be able to inline edit the following type of fields:
-
-      * Fields that belong to another object
-      * Fields that you don't have access to edit them
-      * Fields that are calculations and which are automatically updated by Workfront.
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * The fields that are available to edit inline are made available by the view you apply to your issue list. 
+   >   * You might not be able to inline edit the following type of fields: 
+   >   
+   >      
+   >      
+   >      * Fields that belong to another object
+   >      * Fields that you don't have access to edit them
+   >      * Fields that are calculations and which are automatically updated by Workfront. 
+   >      
+   >      
+   >   
+   >   
+   >
 
 1. Click Enter to finish inline editing, and add the issue to the project or task.
 

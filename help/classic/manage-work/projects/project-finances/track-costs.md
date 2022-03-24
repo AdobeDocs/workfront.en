@@ -121,19 +121,19 @@ $100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expen
 The Budgeted Cost of a project is the cost associated with the budgeted work (Budgeted Hours) on the project.
 
 <!--
-Depending which resource management tools you are using, you can view the following types of Budgeted Cost:
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Depending which resource management tools you are using, you can view the following types of Budgeted Cost: </p>
 -->
 
 <!--
-<strong>Legacy Budgeted Cost</strong>: If the Planned Hours of the tasks on the project match the Legacy Budgeted Hours (in the Legacy Resource Estimates section of the Business Case), and if the task Billing Type is Role Hourly, the Legacy Budgeted Cost of the project is the same as the Planned Cost of the project.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><strong>Legacy Budgeted Cost</strong>: If the Planned Hours of the tasks on the project match the Legacy Budgeted Hours (in the Legacy Resource Estimates section of the Business Case), and if the task Billing Type is Role Hourly, the Legacy Budgeted Cost of the project is the same as the Planned Cost of the project. </p>
 -->
 
 <!--
-If the Planned Hours of the tasks on the project do not match the Legacy Budgeted Hours (in the Legacy Resource Estimates section of the Business Case or the Capacity Planner), and if the Billing Type of the tasks is Role Hourly, the Budgeted Cost of the project is calculated using the following formula:
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">If the Planned Hours of the tasks on the project do not match the Legacy Budgeted Hours (in the Legacy Resource Estimates section of the Business Case or the Capacity Planner), and if the Billing Type of the tasks is Role Hourly, the Budgeted Cost of the project is calculated using the following formula:</p>
 -->
 
 <!--
-<code style="font-style: normal;">Legacy Budgeted Project Cost = Legacy Budgeted Labor Cost + Budgeted Expense Cost of all tasks + Budgeted Expense Cost of the project</code>
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><code style="font-style: normal;">Legacy Budgeted Project Cost = Legacy Budgeted Labor Cost + Budgeted Expense Cost of all tasks + Budgeted Expense Cost of the project</code> </p>
 -->
 
 The Budgeted Cost of the project is the same as the Planned Cost of the project if the following two conditions are met:
@@ -150,18 +150,14 @@ When the above conditions are met, Workfront calculates the Budgeted Cost of the
 <pre>Budgeted Project Cost = Budgeted Labor Cost + Budgeted Expense Cost of all tasks + Budgeted Expense Cost of the project</pre>
 
 <!--
-<note type="note">  To understand which Budgeted Cost you need to follow, you must make a decision whether you are using the legacy or the new resource management tools.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <note type="note">  To understand which Budgeted Cost you need to follow, you must make a decision whether you are using the legacy or the new resource management tools.
 <br>For more information about the resource management tools in Workfront, see the article
 <a href="../../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md" class="MCXref xref">Difference between Legacy Resource Planning and Planning</a>.
-</note>
+</note> </p>
 -->
 
 <!--
-For more information about Budgeted Cost and Legacy Budgeted Cost, see the article
-<a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a> .For more information about the Business Case of a project, see the article
-<a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.
-<br>For more information about Budgeted Labor Cost, see the article
-<a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For more information about Budgeted Cost and Legacy Budgeted Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a> .For more information about the Business Case of a project, see the article <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.<br>For more information about Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p>
 -->
 
 #### Actual Cost
@@ -241,9 +237,9 @@ The following table describes the available task Cost Types in&nbsp;Workfront:
 <p>To configure the Cost Type of an individual task:</p>
 <ol>
 <li value="1">Go to the task where you want to configure the Cost Type. </li>
-<li value="2">   Click the <strong>Task Details</strong> tab, then click <strong>Finance.</strong>   </li>  
-<p>Click <strong>Edit Finance.</strong></p>  
-<li value="4"> In the <strong>Cost Type</strong> drop-down list, select the cost type that you want to apply to the task. <p>  </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">  Click the <strong>Task Details</strong> tab, then click <strong>Finance.</strong>  </p> </li>
+<li value="3" data-mc-conditions="QuicksilverOrClassic.Classic"> <p>Click <strong>Edit Finance.</strong></p> </li>
+<li value="4"> <p data-mc-conditions="QuicksilverOrClassic.Classic">In the <strong>Cost Type</strong> drop-down list, select the cost type that you want to apply to the task.</p> <p> <img src="assets/tc-350x240.png" alt="" style="width: 350;height: 240;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="5">Click <strong>Save.</strong></li>
 </ol>
 </div>

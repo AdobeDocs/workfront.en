@@ -123,6 +123,7 @@ You must have the following access to perform the steps in this article:
    
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
+
       If you include a URL in your update, the system truncates it to preserve space. Anyone who wants to see the full URL can click the More icon ![](assets/more-icon.png) to the right of the update, then click **Show full URL** in the menu that appears.
 
 1. (Optional) To insert a Zoom meeting URL in your update, click the **Zoom** icon ![](assets/zoom-icon-updates.png).
@@ -258,7 +259,12 @@ The Updates tab for a Workfront object displays two types of information:
   ![](assets/system-updates-cl-350x277.png)
 
 Depending on your Workfront license, system updates might be enabled&nbsp;by default. Workfront administrators can determine what is tracked in system updates,&nbsp;as explained in [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). You can also filter out&nbsp;system updates or activities so that you see&nbsp;only user updates for all objects.
-``` ```**Note: **``````You cannot disable system updates on a user's homepage. To learn more about the user homepage, see [Send direct messages to other users](../../people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md). For more information about the difference between user and system updates, see [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+>[!NOTE]
+>
+>You cannot disable system updates on a user's homepage. To learn more about the user homepage, see [Send direct messages to other users](../../people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md).
+
+For more information about the difference between user and system updates, see [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 To enable or disable system updates:
 

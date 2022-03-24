@@ -50,7 +50,8 @@ View the following video to learn how to create groupings to organize the inform
 ## How-to steps
 
 1. Go to the report or the list where you want to create your custom grouping.
-1. Click the **Grouping** drop-down menu.
+1. Click the **Grouping** drop-down menu.  
+   ![](assets/new-grouping-317x455.png)   
 
 1. Click **New Grouping**.  
    The interface builder for creating the grouping launches.
@@ -67,7 +68,7 @@ View the following video to learn how to create groupings to organize the inform
 
 See also:
 
-* Learning Path for reports and dashboards
+* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) 
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
 * [Edit existing groupings](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
@@ -139,8 +140,13 @@ If you still don't have access, ask your Workfront administrator if they set add
 <p>Regardless of the method you use to create groupings, creating a grouping from scratch or from an existing grouping is similar.</p>
 <ol>
 <li value="1"> <p>Go to a list or a report where you want to create a grouping or that contains the grouping that you want to customize.</p> </li>
-<li value="2"> <p>Click the <strong>Grouping</strong> drop-down menu.</p> <p>  </p> </li>
-<li value="3">  <p>Click <strong>New Grouping</strong> at the bottom of the list of groupings.</p> <p>Or</p> <p>Select the grouping that you want to customize, then click on the drop-down list again and click <strong>Customize Grouping</strong>.</p>  <p>The builder for customizing the grouping opens.</p> </li>
+<li value="2"> <p>Click the <strong>Grouping</strong> drop-down menu.</p> <p> <img src="assets/new-grouping-317x455.png" alt="" style="width: 317;height: 455;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
+<li value="3">
+<div data-mc-conditions="QuicksilverOrClassic.Classic">
+<p>Click <strong>New Grouping</strong> at the bottom of the list of groupings.</p>
+<p>Or</p>
+<p>Select the grouping that you want to customize, then click on the drop-down list again and click <strong>Customize Grouping</strong>.</p>
+</div> <p>The builder for customizing the grouping opens.</p> </li>
 <li value="4"> <p>In the <strong>Grouping Preview</strong> section, click <strong>Add Grouping</strong> to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.</p> </li>
 <li value="5"> <p>Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.</p> </li>
 <li value="6"> <p>Repeat Steps 4 and 5 to define additional groupings.</p> <p>You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li>

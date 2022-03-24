@@ -71,6 +71,8 @@ You must have the following access to perform the steps in this article:
       >
       >If this option is not selected, the information from the column is not displayed correctly in the matrix report.
 
+      ![](assets/report-matrix-summarized-350x172.png)
+
    1. Repeat this process for each column in the Columns (View) tab, then click **Done**.
 
 1. Click the **Groupings** tab.
@@ -82,9 +84,11 @@ You must have the following access to perform the steps in this article:
    1. (Optional) To add an additional row grouping, click **Add secondary Row Grouping**.
    1. In the **Column Groupings** section, identify the column grouping, which establish the vertical groupings of the table.
    1. (Optional) To add an additional column grouping, click **Add secondary Column Grouping**.
-   1. (Conditional) If you add a grouping by date, also specify whether the results are grouped by day, week, month, quarter or year.
-
-   1. (Conditional) If you selected to group by date and to show results by quarter, for example, specify whether you want to show quarters with no data by selecting the **Show quarters with no results** checkbox.
+   1. (Conditional) If you add a grouping by date, also specify whether the results are grouped by day, week, month, quarter or year.  
+      ![geouping_by_date_options_for_matrix_report.png](assets/geouping-by-date-options-for-matrix-report-350x406.png)  
+   
+   1. (Conditional) If you selected to group by date and to show results by quarter, for example, specify whether you want to show quarters with no data by selecting the **Show quarters with no results** checkbox.  
+      ![show_quarters_with_no_results_on_matrix_report.png](assets/show-quarters-with-no-results-on-matrix-report-350x120.png)
 
       >[!NOTE]
       >

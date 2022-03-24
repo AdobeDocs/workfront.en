@@ -148,7 +148,7 @@ We recommend that you build as much of the view as possible in standard mode, th
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">  </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/view-switch-to-text-mode-350x175.png" alt="view_switch_to_text_mode.png" style="width: 350;height: 175;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
    -->
 
    <!--
@@ -406,7 +406,7 @@ We recommend that you build as much of the filter of the report as possible in s
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">  </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/filter-switch-to-text-mode-350x172.png" alt="filter_switch_to_text_mode.png" style="width: 350;height: 172;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
    -->
 
    <!--

@@ -35,11 +35,13 @@ You must have the following access to perform the steps in this article:
 
 ## View iterations assigned to a given team
 
-1. People
-1. Teams
-1. Iterations
-1. All Iterations.
-1. 
+1. Click **People**&nbsp;in the Global Navigation Bar.
+1. Click the **Teams**&nbsp;tab, then use the drop-down menu to&nbsp;select the team whose iterations you want to view.
+1. Click the **Iterations**&nbsp;tab, then click **All Iterations.** 
+   By default, iterations are grouped by&nbsp;Current, Future, and Past.
+
 1. (Optional) Click the name of the specific iteration that you want to view.  
    The iteration stories display.
+
+   ![Screen_Shot_2018-06-04_at_4.24.17_PM.png](assets/screen-shot-2018-06-04-at-4.24.17-pm-350x164.png)
 

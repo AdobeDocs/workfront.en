@@ -96,6 +96,8 @@ Consider the following when selecting a Priority for your projects:
    * High
    * Urgent
 
+   ![project_priority_field.png](assets/project-priority-field-350x446.png)
+
 1. Click **Save**.
 
    You must communicate with other users and have an understanding what each level of priority means for the project.

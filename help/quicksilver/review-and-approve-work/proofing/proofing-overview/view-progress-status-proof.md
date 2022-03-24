@@ -133,6 +133,8 @@ If custom decisions are configured in your account, the status options reflect y
    <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Proofing Details</strong> box that appears, the proof's progress for each stage, then click <strong>Done</strong>.</li>
    -->
 
+1. 
+
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Under the proof's name, click <strong>Proofing Workflow</strong>.</p>
    -->
@@ -146,6 +148,8 @@ If custom decisions are configured in your account, the status options reflect y
    </MadCap:conditionalText>
    --> <br> </p>
    -->
+
+1. 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the Workflow information that appears, scroll down to see the proof's progress for each stage:</p>

@@ -83,35 +83,35 @@ Although installing the Workfront add-on in the two Jira environments is similar
 
   You must also add the following static IP addresses to the allowlist on your firewall for outbound and inbound connections.
 
-  * 
-  
-    ```  
-    35.162.128.73
-    ```
+   * 
+   
+     ```   
+     35.162.128.73
+     ```
 
-  * 
-  
-    ```  
-    34.213.36.118
-    ```
+   * 
+   
+     ```   
+     34.213.36.118
+     ```
 
-  * <![CDATA[ ]]>  
-  
-    ```  
-    35.160.0.242
-    ```
+   * <![CDATA[ ]]>   
+   
+     ```   
+     35.160.0.242
+     ```
 
-  * 
-  
-    ```  
-    3.209.27.146
-    ```
+   * 
+   
+     ```   
+     3.209.27.146
+     ```
 
-  * 
-  
-    ```  
-    18.205.251.4
-    ```
+   * 
+   
+     ```   
+     18.205.251.4
+     ```
 
   For more information about configuring your firewall for optimal functionality with Workfront, see [Configuring Your Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

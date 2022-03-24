@@ -12,5 +12,5 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* Prepare to move your organization to the new Adobe Workfront experience
+* [Prepare to move your organization to the new Adobe Workfront experience](../../administration-and-setup/the-new-workfront-experience/admin-prep-for-nwe.md)
 

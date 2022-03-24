@@ -86,7 +86,9 @@ You must have the following access to perform the steps in this article:
    1. Begin typing the name of the user or role that you want to filter for, then click the name when it appears in the drop-down list.
    1. Click **Save Filter.**
 
-1. Select the issues for which you want to modify&nbsp;assignments, then click **Edit.** The **Edit Issues** displays. The items that are edited display in the upper-left corner of the page.
+1. Select the issues for which you want to modify&nbsp;assignments, then click **Edit.**
+
+   The **Edit Issues** displays. The items that are edited display in the upper-left corner of the page.
 
 1. Go to the **Assignments** section, then select **Assignee**.
 

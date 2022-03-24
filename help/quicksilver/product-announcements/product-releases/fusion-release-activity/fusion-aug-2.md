@@ -47,8 +47,8 @@ Two new functions are now available in the mapping panel.
 
   This function takes two arrays, and returns a new array. You can select the type of new array that the module returns:
 
-  * An array of elements of one array that aren't contained in the other
-  * An array of elements that are contained in one array or the other, but not both.
+   * An array of elements of one array that aren't contained in the other
+   * An array of elements that are contained in one array or the other, but not both.
 
   For more information, see [Array functions](../../../workfront-fusion/functions/array-functions.md).
 

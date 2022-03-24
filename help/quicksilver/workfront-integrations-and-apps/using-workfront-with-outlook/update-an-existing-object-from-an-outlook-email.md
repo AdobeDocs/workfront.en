@@ -70,13 +70,13 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
    ![outlook_Update_in_workfront_menu.png](assets/outlook-update-in-workfront-menu-253x345.png)  
    You can update the following information from the email before it is saved as a task:
 
-  * **Type**: Select the type of object you are updating. You can select **Project**, **Task**, or **Issue**. The object you select determines the results that display in the **Name** field below. If you are unsure of the type of object, select **All** to search for projects, tasks, and issues simultaneously.
-  
-  * **Name**: Begin&nbsp;typing the name of the project, task, or issue that you want to update. Click the name when it appears in the drop-down list.
-  * **Update**: By default, the update is the same as the email Body. You can modify the update as desired.  
-    This update is displayed as the update status in Workfront.
-  
-  * **Attachments**: Any email attachments are saved to the Documents area of the task. You can delete any attachments before submitting the update.
+   * **Type**: Select the type of object you are updating. You can select **Project**, **Task**, or **Issue**. The object you select determines the results that display in the **Name** field below. If you are unsure of the type of object, select **All** to search for projects, tasks, and issues simultaneously.
+   
+   * **Name**: Begin&nbsp;typing the name of the project, task, or issue that you want to update. Click the name when it appears in the drop-down list.
+   * **Update**: By default, the update is the same as the email Body. You can modify the update as desired.  
+     This update is displayed as the update status in Workfront.
+   
+   * **Attachments**: Any email attachments are saved to the Documents area of the task. You can delete any attachments before submitting the update.
 
 1. (Optional) Click&nbsp;**Include Others**, begin typing the name of users who you want to include in the update, then click the name when it appears in the drop-down list.   
    Repeat this process to include additional users, then click **Done**.  
@@ -85,12 +85,12 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
 
 1. (Optional)&nbsp;Click the **Lock** icon to restrict this update to users within your company. When the update is locked, users outside your company cannot see the update.
 
-  * **Unlocked:** Any user with access to the project, task, or issue where the update resides can view the update.  
-    By default, the update is unlocked.  
-    ![o365_addin_unlock.png](assets/o365-addin-unlock.png)
+   * **Unlocked:** Any user with access to the project, task, or issue where the update resides can view the update.  
+     By default, the update is unlocked.  
+     ![o365_addin_unlock.png](assets/o365-addin-unlock.png)
 
-  * **Locked:** Only users within your company can view the update.  
-    ![o365_addin_lock.png](assets/o365-addin-lock.png)
+   * **Locked:** Only users within your company can view the update.  
+     ![o365_addin_lock.png](assets/o365-addin-lock.png)
 
 1. Click **Update**. 
 1. (Optional) Click **View in Workfront** to view the updated item with the Workfront integration within Outlook.

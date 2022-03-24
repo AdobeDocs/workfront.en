@@ -22,8 +22,8 @@ To deactivate a user via the API:
 
 1. Locate the GUID for the user you want to deactivate.
 
-  1. Use the following API request to retrieve the GUID for all users in your system, note that the **isActive** field shows **true** for users that are currently active and **false** for users that have been deactivated:&nbsp;  
-     <pre><strong><domain></strong>.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive</pre>
+   1. Use the following API request to retrieve the GUID for all users in your system, note that the **isActive** field shows **true** for users that are currently active and **false** for users that have been deactivated:&nbsp;  
+      <pre><strong><domain></strong>.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive</pre>
 
 1. Locate the GUID for the user you want to deactivate, use the following **PUT** request to change the user's **isActive** field value to **false**:&nbsp;  
    <pre><strong><domain></strong>.my.workfront.com/attask/api/v7.0/USER/<strong><user's GUID></strong>?updates={"isActive":"false"}&method=put&apiKey=<strong><apiKey></strong>&fields=isActive</pre>

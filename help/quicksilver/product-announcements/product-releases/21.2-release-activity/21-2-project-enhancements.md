@@ -19,7 +19,7 @@ This page describes all project enhancements made with the 21.2 release to the P
 
 As part of the redesign of the New and Edit Task boxes, we have added the ability to make a new task recurring as well as to edit the parent of a recurring task. This functionality was not included in the New and Edit Task box redesign released earlier.
 
-For more information, see Create recurring tasks.
+For more information, see [Create recurring tasks](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
 ```<iframe class="vimeo-player_0" src="assets/539887494?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -35,7 +35,7 @@ This feature is now included in the [Planner Fundamentals for the new Workfront 
 
 To allow you to quickly filter the list of projects on the Projects page, there are two new buttons in the header that allow you to quickly apply the Projects Iâ€™m On or Projects I Own filter.
 
-For more information on these filters, see Subtabs replaced by new main areas or filters in the new Adobe Workfront experience.
+For more information on these filters, see [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/subtabs-removed.md).
 
 ```<iframe class="vimeo-player_0" src="assets/539899695?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -53,7 +53,7 @@ You can now move a story or issue off of your Scrum board by clicking the More i
 
 You also have the option to delete a story or issue directly from your Scrum board by clicking the More icon on a card and selecting Delete. When you delete a story or issue, it is moved to the Recycle Bin for 30 days and can be recovered only by the system administrator.
 
-For more information, see Manage stories and issues on the Scrum board.
+For more information, see [Manage stories and issues on the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
 
 ```<iframe class="vimeo-player_0" src="assets/540320334?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -90,8 +90,8 @@ Prior to this enhancement, these buttons were located in the upper-right corner 
 
 For information about editing projects or tasks, see the following articles:
 
-* Edit projects 
-* Edit tasks
+* [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) 
+* [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
 ![](assets/pasted-image-4-5-2021-0-350x278.png)
 
@@ -103,7 +103,7 @@ For information about editing projects or tasks, see the following articles:
 
 For a better experience when you fill out a custom form, we have improved the way that long custom field labels display. When there is enough horizontal space to show them in their entirety, these labels are no longer truncated.
 
-For information about filling out custom forms, see Edit information in custom form fields in Adobe Workfront.
+For information about filling out custom forms, see [Edit information in custom form fields in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ```<iframe class="vimeo-player_0" src="assets/522396709?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -137,9 +137,9 @@ This is the same functionality that was released recently to help you identify a
 
 For more information, see the following articles:
 
-* Create a portfolio 
-* Create a program 
-* Create a team
+* [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) 
+* [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md) 
+* [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 
 ## Text formatting in custom fields now displays in all Workfront Classic lists and reports
 
@@ -151,9 +151,9 @@ Users can now see text formatting such as bold, bullet lists, and hyperlinks in 
 
 Previously in Workfront Classic, text formatting was visible only in Project, Task, and Hour lists.
 
-For information about formatting text in a custom field, see Create a custom form.
+For information about formatting text in a custom field, see [Create a custom form](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
-For information about displaying information in lists, see Get started with lists.
+For information about displaying information in lists, see [Get started with lists](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&_LANG=en).
 
 ```<iframe class="vimeo-player_0" src="assets/516458707?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -178,7 +178,7 @@ In addition to an updated look and feel, the following changes are also availabl
 * We have added the Duration, Duration Type, and Planned Hours fields to the Assignments section to provide consistency when updating assignments across various duration types and the time or duration they spend on the task.
 * We have removed the commenting functionality from the edit task screen to eliminate redundancy with the Updates section.
 
-For information about the new Edit Task box, see Edit tasks.
+For information about the new Edit Task box, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ```<iframe class="vimeo-player_0" src="assets/532016466?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -202,7 +202,7 @@ In addition to an updated look and feel, the following changes are also availabl
 * You can customize your Layout Template once and reflect those customizations in both the Details page and the New Task box.
 * We have added the Duration, Duration Type, and Planned Hours fields to the Assignments section to provide consistency when updating assignments and the time or duration they spend on the task.
 
-For information about the new New Task box, see Create tasks in a project.
+For information about the new New Task box, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 ```<iframe class="vimeo-player_0" src="assets/532017842?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -232,7 +232,7 @@ To offer you a cohesive experience across all objects, we changed the way the â€
 
 Prior to this change, disabling the setting prevented users just from deleting tasks or issues, not projects.
 
-For more information, see Configure system-wide task and issue preferences.
+For more information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ```<iframe class="vimeo-player_0" src="assets/532018749?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

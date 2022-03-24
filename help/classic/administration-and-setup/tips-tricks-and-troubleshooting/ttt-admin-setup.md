@@ -22,7 +22,7 @@ This section contains the following articles:
   -->
 
 * [Automatic reminders vs. reminder notifications](../../administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md) 
-* Changes to Adobe Workfront URLs 
+* [Changes to Adobe Workfront URLs](../../administration-and-setup/tips-tricks-and-troubleshooting/changes-wf-urls.md) 
 * [Configure POP in Microsoft Exchange](../../administration-and-setup/tips-tricks-and-troubleshooting/configure-pop-ms-exchange.md) 
 * [Error: Active Directory User Cannot Log In](../../administration-and-setup/tips-tricks-and-troubleshooting/error-active-directory-user-cannot-log-in.md) 
 * [Error: Auto-provisioned user can't log in](../../administration-and-setup/tips-tricks-and-troubleshooting/error-auto-provisioned-user-cant-log-in.md) 
@@ -40,7 +40,7 @@ This section contains the following articles:
   -->
 
 * [Login Error: The following fields are invalid: emailAddr cannot be null](../../administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md) 
-* POP accounts are being disabled
+* [POP accounts are being disabled](../../administration-and-setup/tips-tricks-and-troubleshooting/pop-accounts-are-being-disabled.md) 
 * [Prevent spoofing and add Adobe Workfront SPF records](../../administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md) 
 * [Retrieving historical data from Adobe Workfront: pros and cons](../../administration-and-setup/tips-tricks-and-troubleshooting/how-to-get-data-out-of-wf.md) 
 * [Save an email header file](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md) 

@@ -75,9 +75,9 @@ Consider the following when selecting a Priority for your projects:
 
 * You can update the Priority of projects in the following areas of Workfront:
 
-  * In the **Edit Project** dialog box.
-  * In the **Project Details** tab of a project.
-  * In a project list or report.
+   * In the **Edit Project** dialog box.
+   * In the **Project Details** tab of a project.
+   * In a project list or report.
 
 ## Update the project Priority field
 
@@ -87,14 +87,16 @@ Consider the following when selecting a Priority for your projects:
 
 1. In the **Priority** field, select from the following options:
 
-  * None
-  * Low
-  * Normal
+   * None
+   * Low
+   * Normal
 
-    This is the default priority. 
-  
-  * High
-  * Urgent
+     This is the default priority. 
+   
+   * High
+   * Urgent
+
+   ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
 
 1. Click **Save Changes**.
 

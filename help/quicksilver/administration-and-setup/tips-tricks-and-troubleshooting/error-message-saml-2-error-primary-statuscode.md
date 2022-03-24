@@ -89,7 +89,7 @@ Run the following PowerShell Commands replacing domain with their Domain:
 1. In the Powershell window, type:   
    *Set-ADFSRelyingPartyTrust -TargetIdentifier "DOMAIN.my.workfront.com/SAML2" -SigningCertificateRevocationCheck None&nbsp;*
 
-  1. The "DOMAIN.my.workfront.com/SAML2" will be the identifier name of your relying party trust as displayed int he ADFS Management console.
+   1. The "DOMAIN.my.workfront.com/SAML2" will be the identifier name of your relying party trust as displayed int he ADFS Management console.
 
 1. Then run  
    *Set-ADFSRelyingPartyTrust -TargetIdentifier "DOMAIN.my.workfront.com/SAML2" -EncryptionCertificateRevocationCheck None&nbsp;*

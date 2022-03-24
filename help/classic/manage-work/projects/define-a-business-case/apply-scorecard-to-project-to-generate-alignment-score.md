@@ -65,8 +65,8 @@ Your Adobe Workfront administrator ```or group administrator``` must enable the 
 
 To apply a scorecard to a project:
 
-1. Projects
-1. Projects
+1. Go to the **Projects** area of the Global Navigation Bar.
+1. Click the **Projects** tab.
 1. Click the name of the project to which you want to apply a scorecard. 
 1. Click **Project Details**. 
 1. Click **Business Case**.
@@ -148,7 +148,8 @@ You can view the alignment score of a project or of a portfolio in the Portfolio
 For more information about the information displayed in the Portfolio Optimizer, see [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Locate the Alignment Score of the project in the Portfolio Optimizer](#locating-alognment-score-of-the-project) 
-* [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locating-alignment-score-for-portfolio)
+* [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locating-alignment-score-for-portfolio)   
+  ![alignment_score_in_portfolio_optimizer.png](assets/alignment-score-in-portfolio-optimizer-350x188.png)
 
 #### **Locate the Alignment Score of the project in the Portfolio Optimizer**
 

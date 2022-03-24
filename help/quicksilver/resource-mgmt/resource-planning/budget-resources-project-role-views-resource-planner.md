@@ -67,71 +67,71 @@ You must have the following access to perform the steps in this article:
 1. Expand the projects and the job roles to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users do one of the following:
 
-  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the users.  
-  
-  * Click the **More** menu for the job role of the user, then click **Set Users' Planned Hours as Budgeted**.  
-    The Budgeted Hours of each user are calculated using the following formula:
+   * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the users.  
+   
+   * Click the **More** menu for the job role of the user, then click **Set Users' Planned Hours as Budgeted**.  
+     The Budgeted Hours of each user are calculated using the following formula:
 
-    ```  
-    User Budgeted Hours = User Planned Hours
-    ```
+     ```   
+     User Budgeted Hours = User Planned Hours
+     ```
 
 1. To budget allocation for job roles, do one of the following:
 
-  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the job role.
+   * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the job role.
 
-    >[!NOTE]
-    >
-    >The Role Budgeted Hours are added to the Project Budgeted Hours.
+     >[!NOTE]
+     >
+     >The Role Budgeted Hours are added to the Project Budgeted Hours.
 
-  * (Conditional) If you have budgeted hours for users, click the **More** menu for the job role, then click **Total Users' Budgeted Hours for Role**.  
-    The Budgeted Hours for each role are calculated using the following formula:
+   * (Conditional) If you have budgeted hours for users, click the **More** menu for the job role, then click **Total Users' Budgeted Hours for Role**.  
+     The Budgeted Hours for each role are calculated using the following formula:
 
-    ```  
-    Role Budgeted Hours = SUM(User Budgeted Hours)
-    ```
+     ```   
+     Role Budgeted Hours = SUM(User Budgeted Hours)
+     ```
 
-  * Click the **More** menu for the project, then click **Set Roles' Planned Hours as Budgeted**.  
-    The Budgeted Hours for each role are calculated using the following formula:  
-    * 
-  
-    ```  
-    Role Budgeted Hours = Role Planned Hours
-    ```  
-  
-    * 
-  
-    >[!NOTE]
-    >
-    >
-    >  
-    >  
-    >  * The Role Budgeted Hours are added to the Project Budgeted Hours.
-    >  * Users can be budgeted for both Primary and Other (or secondary) Roles. 
-    >  * The **Percentage of FTE Availability** for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% **Percentage of FTE Availability**, the Available Hours value is zero for that job role. In this case, the role might show a negative **Net Value**.  
-    >    For more information about the **Percentage of FTE Availability** for job roles, see the article [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
-    >  
-    >  
-    >
+   * Click the **More** menu for the project, then click **Set Roles' Planned Hours as Budgeted**.  
+     The Budgeted Hours for each role are calculated using the following formula:  
+     * 
+   
+     ```   
+     Role Budgeted Hours = Role Planned Hours
+     ```   
+   
+     * 
+   
+     >[!NOTE]
+     >
+     >
+     >   
+     >   
+     >   * The Role Budgeted Hours are added to the Project Budgeted Hours.
+     >   * Users can be budgeted for both Primary and Other (or secondary) Roles. 
+     >   * The **Percentage of FTE Availability** for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% **Percentage of FTE Availability**, the Available Hours value is zero for that job role. In this case, the role might show a negative **Net Value**.  
+     >     For more information about the **Percentage of FTE Availability** for job roles, see the article [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
+     >   
+     >   
+     >
 
-  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the project. This distributes the number of Project Budgeted Hours to each role under the project. The following scenarios exist:
+   * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the project. This distributes the number of Project Budgeted Hours to each role under the project. The following scenarios exist:
 
-    * If the number of Project Budgeted Hours your specify equals the Project Planned Hours, the Role Budgeted Hours match the Role Planned Hours.
-    * If the number of Project Budgeted Hours you specify does not equal the Project Planned Hours, the Role Budgeted Hours are distributed according to the percentage of Planned Hours needed for each role.  
-      For example, if a project has 20 Planned Hours, and they are distributed between two job roles (Consultant requires 12 Planned Hours and Engineer requires 8 Planned Hours), and you budget 30 hours for the Project, the hours are distributed as follows: the Consultant role receives 18 Budgeted Hours, and the Engineer role receives 12 Budgeted Hours.
+      * If the number of Project Budgeted Hours your specify equals the Project Planned Hours, the Role Budgeted Hours match the Role Planned Hours.
+      * If the number of Project Budgeted Hours you specify does not equal the Project Planned Hours, the Role Budgeted Hours are distributed according to the percentage of Planned Hours needed for each role.  
+        For example, if a project has 20 Planned Hours, and they are distributed between two job roles (Consultant requires 12 Planned Hours and Engineer requires 8 Planned Hours), and you budget 30 hours for the Project, the hours are distributed as follows: the Consultant role receives 18 Budgeted Hours, and the Engineer role receives 12 Budgeted Hours.
 
 1. To budget allocation for the project, do one of the following:
 
-  * Budget the roles under the project, as described in Step 7.  
-    The Project Budgeted Hours is calculated by the following formula:
+   * Budget the roles under the project, as described in Step 7.  
+     The Project Budgeted Hours is calculated by the following formula:
 
-    ```  
-    Project Budgeted Hours = SUM(Role Budgeted Hours)
-    ```
+     ```   
+     Project Budgeted Hours = SUM(Role Budgeted Hours)
+     ```
 
-  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the project.  
-    This updates the Role Budgeted Hours, as described in Step 7.  
-    ![budget_for_project.png](assets/budget-for-project-350x182.png)
+   * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the project.  
+     This updates the Role Budgeted Hours, as described in Step 7.  
+     ![budget_for_project.png](assets/budget-for-project-350x182.png)
 
 1. Click **Save**.  
    After you budget your resources in the Resource Planner, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.  
@@ -155,34 +155,34 @@ To budget allocations in the Resource Planner in the**** Role view:
 1. Expand the job roles and the projects to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users, do one of the following:
 
-  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the users. 
-  * Click the **More** menu for the project, then click **Set Users' Planned Hours as Budgeted**.  
-    The Budgeted Hours of each user are calculated using the following formula:
+   * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the users. 
+   * Click the **More** menu for the project, then click **Set Users' Planned Hours as Budgeted**.  
+     The Budgeted Hours of each user are calculated using the following formula:
 
-    ```  
-    User Budgeted Hours = User Planned Hours
-    ```
+     ```   
+     User Budgeted Hours = User Planned Hours
+     ```
 
 1. To budget allocation for job roles, do one of the following:
 
-  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the job roles.  
-    This distributes the Role Budgeted Hours to the Project Budgeted Hours for the projects that you have access to manage.
-  
-  * Click the **More** menu for the job role, then click **Set Projects' Planned Hours as Budgeted.**The Role Budgeted Hours are calculated using the following formula:  
-    * 
-  
-    ```  
-    Role Budgeted Hours = SUM(Project Budgeted Hours)
-    ```
+   * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the job roles.  
+     This distributes the Role Budgeted Hours to the Project Budgeted Hours for the projects that you have access to manage.
+   
+   * Click the **More** menu for the job role, then click **Set Projects' Planned Hours as Budgeted.**The Role Budgeted Hours are calculated using the following formula:  
+     * 
+   
+     ```   
+     Role Budgeted Hours = SUM(Project Budgeted Hours)
+     ```
 
-    *The Project Budgeted Hours are calculated using the following formula:
+     *The Project Budgeted Hours are calculated using the following formula:
 
-    ```  
-    Project Budgeted Hours = Project Planned Hours
-    ```
+     ```   
+     Project Budgeted Hours = Project Planned Hours
+     ```
 
-  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects listed under the job role.  
-    This adds the number of Project Budgeted Hours to the role.
+   * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects listed under the job role.  
+     This adds the number of Project Budgeted Hours to the role.
 
    >[!NOTE]
    >
@@ -191,26 +191,26 @@ To budget allocations in the Resource Planner in the**** Role view:
 
 1. To budget allocation for the project, do one of the following:
 
-  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects.  
-    This also updates the Budgeted Hours for the roles under which the project is listed. 
-  
-  * Click the **More** menu for the job role, then click **Set Projects' Planned Hours as Budgeted**.  
-    The Project Budgeted Hours are calculated by the following formula:
+   * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects.  
+     This also updates the Budgeted Hours for the roles under which the project is listed. 
+   
+   * Click the **More** menu for the job role, then click **Set Projects' Planned Hours as Budgeted**.  
+     The Project Budgeted Hours are calculated by the following formula:
 
-    ```  
-    Project Budgeted Hours = Project Planned Hours
-    ```
+     ```   
+     Project Budgeted Hours = Project Planned Hours
+     ```
 
-    The Project Budgeted Hours are added to the Role Budgeted Hours. 
-  
-  * (Conditional) If you have budgeted the hours for the users, click the **More** menu for the project, then click **Total Users' Budgeted Hours for Project**.  
-    The Project Budgeted Hours is calculated using the following formula:
+     The Project Budgeted Hours are added to the Role Budgeted Hours. 
+   
+   * (Conditional) If you have budgeted the hours for the users, click the **More** menu for the project, then click **Total Users' Budgeted Hours for Project**.  
+     The Project Budgeted Hours is calculated using the following formula:
 
-    ```  
-    Project Budgeted Hours = SUM(User Budgeted Hours)
-    ```
+     ```   
+     Project Budgeted Hours = SUM(User Budgeted Hours)
+     ```
 
-    ![budget_by_role.png](assets/budget-by-role-350x181.png)
+     ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. Click **Save**.  
    After you budget your resources in the Resource Planner, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.  
@@ -290,12 +290,12 @@ To budget your resources in bulk:
    >For more information about the prerequisites that must be met for accurate budgeting in the Resource Planner, see the "Prerequisites for working in the Resource Planner" section in the [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) article.  
    >For example, some of the options might not display in the following scenarios:
    >
-   >  
-   >  
-   >  * When projects are not associated with Resource Pool
-   >  * When Resource Pools that are associated with projects do not contain users
-   >  * When Resource Pools that are associated with projects contain users with no job role associated with them.
-   >  
+   >   
+   >   
+   >   * When projects are not associated with Resource Pool
+   >   * When Resource Pools that are associated with projects do not contain users
+   >   * When Resource Pools that are associated with projects contain users with no job role associated with them.
+   >   
    >
 
 ##  

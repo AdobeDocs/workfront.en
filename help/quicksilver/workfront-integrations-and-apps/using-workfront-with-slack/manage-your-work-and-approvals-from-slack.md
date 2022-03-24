@@ -59,24 +59,24 @@ Before you can manage your work and approvals from Slack, you must
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Commands are case sensitive. 
-   >  * You can start your command with /   >  
-   >  
-   >    ```   >  
-   >    wf
-   >    ```   >  
-   >  
-   >    instead of    >  
-   >  
-   >    ```   >  
-   >    /workfront
-   >    ```   >  
-   >  
-   >    .
-   >  
-   >  
+   >   
+   >   
+   >   * Commands are case sensitive. 
+   >   * You can start your command with /   >   
+   >   
+   >     ```   >   
+   >     wf
+   >     ```   >   
+   >   
+   >     instead of    >   
+   >   
+   >     ```   >   
+   >     /workfront
+   >     ```   >   
+   >   
+   >     .
+   >   
+   >   
    >
 
    The buttons from which you can access lists of your tasks, issues, and approvals display. Clicking one of the buttons displays the first 20 items of each list in Slack.  
@@ -116,11 +116,11 @@ Before you can manage your work and approvals from Slack, you must
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Commands are case sensitive.
-   >  * You can start your command with '/wf' instead of '/workfront.'
-   >  
+   >   
+   >   
+   >   * Commands are case sensitive.
+   >   * You can start your command with '/wf' instead of '/workfront.'
+   >   
    >
 
    The first 20 tasks on your list display.  
@@ -129,12 +129,12 @@ Before you can manage your work and approvals from Slack, you must
 1. Click **+<remaining number> more**&nbsp;to display additional tasks.
 1. Consider reviewing the following information about your work items:
 
-  * **Name** 
-  * **Project Name** or **Parent Object Name**
-  
-  * **Planned Completion Date** of the work item.
-  * **Assigned By Name**: this is the name of the user who assigned the task to you.
-  * **Status**
+   * **Name** 
+   * **Project Name** or **Parent Object Name**
+   
+   * **Planned Completion Date** of the work item.
+   * **Assigned By Name**: this is the name of the user who assigned the task to you.
+   * **Status**
 
 1. (Optional) Click the name of an item to open it in Workfront in a separate browser tab.
 1. (Optional) In the **Status** field, select a new Status.
@@ -143,11 +143,11 @@ Before you can manage your work and approvals from Slack, you must
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * You can only log hours in increments of a full or half hour, up to 12 hours and 30 minutes.
-   >  * The hours you log have an Entry Date of today. You cannot log time for a passed or future date from Slack.
-   >  
+   >   
+   >   
+   >   * You can only log hours in increments of a full or half hour, up to 12 hours and 30 minutes.
+   >   * The hours you log have an Entry Date of today. You cannot log time for a passed or future date from Slack.
+   >   
    >
 
    You receive a confirmation that the time has been logged.
@@ -195,10 +195,10 @@ Before you can manage your work and approvals from Slack, you must
 1. Click **+ remaining <number> more** to display additional items.
 1. Consider reviewing the following information about your work items:
 
-  * **Name**
-  * **Project** Name or Parent Object Name
-  * **Due on** Date: This is the Planned Completion Date of the work item.
-  * **Requested by** Name: This is the Primary Contact (for issues) or the user who made the assignment (for tasks).&nbsp;
+   * **Name**
+   * **Project** Name or Parent Object Name
+   * **Due on** Date: This is the Planned Completion Date of the work item.
+   * **Requested by** Name: This is the Primary Contact (for issues) or the user who made the assignment (for tasks).&nbsp;
 
 1. (Optional) Click the name of the issue to open it in Workfront in a separate browser tab.
 1. (Optional) Click **Work on it** to start working on issues you have not accepted yet.
@@ -227,24 +227,24 @@ Before you can manage your work and approvals from Slack, you must
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Commands are case sensitive. 
-   >  * You can start your command with    >  
-   >  
-   >    ```   >  
-   >    /wf
-   >    ```   >  
-   >  
-   >    instead of    >  
-   >  
-   >    ```   >  
-   >    /workfront
-   >    ```   >  
-   >  
-   >    . 
-   >  
-   >  
+   >   
+   >   
+   >   * Commands are case sensitive. 
+   >   * You can start your command with    >   
+   >   
+   >     ```   >   
+   >     /wf
+   >     ```   >   
+   >   
+   >     instead of    >   
+   >   
+   >     ```   >   
+   >     /workfront
+   >     ```   >   
+   >   
+   >     . 
+   >   
+   >   
    >
 
    The first 20 items on your **Approvals** list display. Additional information about the items also displays, like the name of the user who requested it or the name of the project the item belongs to.&nbsp;
@@ -260,22 +260,22 @@ Before you can manage your work and approvals from Slack, you must
 
 1. Consider managing approvals for the following objects:&nbsp;
 
-  * **Projects** 
-    Click **Approve** or **Reject** to accept or reject the status change of a project.
-  
-  * **Tasks** 
-    Click **Approve** or **Reject** to accept or reject the status change of a task.
-  
-  * **Issues** 
-    Click **Approve** or **Reject** to accept or reject the status change of an issue.
-  
-  * **Documents** 
-    Click **Approve** to approve a document, **Reject** to reject it, or **Changes** to indicate that you approve it, but that the document needs additional changes.  
-    (Optional) Mouse over the document thumbnail to click the magnifying glass and preview the document.&nbsp;
-  
-  * **Proofs**Click the proof name to open it in Workfront in a separate tab and manage the approval.&nbsp;
-  * **Access Requests** 
-    Click **Grant Access** to give enhanced permissions to the requested object, or **Ignore** to ignore the request for more access.
+   * **Projects** 
+     Click **Approve** or **Reject** to accept or reject the status change of a project.
+   
+   * **Tasks** 
+     Click **Approve** or **Reject** to accept or reject the status change of a task.
+   
+   * **Issues** 
+     Click **Approve** or **Reject** to accept or reject the status change of an issue.
+   
+   * **Documents** 
+     Click **Approve** to approve a document, **Reject** to reject it, or **Changes** to indicate that you approve it, but that the document needs additional changes.  
+     (Optional) Mouse over the document thumbnail to click the magnifying glass and preview the document.&nbsp;
+   
+   * **Proofs**Click the proof name to open it in Workfront in a separate tab and manage the approval.&nbsp;
+   * **Access Requests** 
+     Click **Grant Access** to give enhanced permissions to the requested object, or **Ignore** to ignore the request for more access.
 
 1. (Optional) Click the name of the object submitted for approval to open it in Workfront in a new browser tab.&nbsp;
 

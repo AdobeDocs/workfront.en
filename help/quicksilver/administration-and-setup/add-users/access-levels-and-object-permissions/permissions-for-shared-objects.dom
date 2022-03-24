@@ -6,8 +6,8 @@
   <div class="body-container" aemmigrated="true"> 
    <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
     <h1 aemmigrated="true">Permissions for shared objects</h1> 
-    <p aemmigrated="true">Anyone who can view an item in Adobe Workfront can grant other users permissions to that item when they share it, as described in <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref" aemmigrated="true">Share a project in Adobe Workfront</a>. Sharing permissions are specific to one item in Workfront and define what actions the recipient user or users can take on the item.</p>  
-    <img src="assets/permissions-drop-down-nwe-350x456.png" style="width: 350;height: 456;" aemmigrated="true">  
+    <p aemmigrated="true">Anyone who can view an item in Adobe Workfront can grant other users permissions to that item when they share it, as described in <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref" aemmigrated="true">Share a project in Adobe Workfront</a>. Sharing permissions are specific to one item in Workfront and define what actions the recipient user or users can take on the item.</p> 
+    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver" aemmigrated="true"> <img src="assets/permissions-drop-down-nwe-350x456.png" style="width: 350;height: 456;" aemmigrated="true"> </p> 
     <h2 aemmigrated="true"><a name="permission-levels" aemmigrated="true"></a> </h2> 
     <p aemmigrated="true">The creator of an object has default Manage permissions to it and can share access to it with other users through permissions they grant on it.</p> 
     <h2 aemmigrated="true">Permission levels</h2> 
@@ -24,7 +24,8 @@
      <li aemmigrated="true"><strong aemmigrated="true">Documents</strong>: For information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md" class="MCXref xref" aemmigrated="true">Share a document in Adobe Workfront</a>.</li> 
      <li aemmigrated="true"><strong aemmigrated="true">Reports, dashboards, and calendars</strong>: For information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref" aemmigrated="true">Share reports, dashboards, and calendars in Adobe Workfront</a>.</li> 
      <li aemmigrated="true"><b aemmigrated="true">Filters, views, and groupings</b>: For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref" aemmigrated="true">Share a filter, view, or grouping in Adobe Workfront</a>. </li> 
-     <li aemmigrated="true"><strong aemmigrated="true">Programs</strong> </li> <span aemmigrated="true"><strong aemmigrated="true">Plans</strong>: For information, see <a href="../../../scenario-planner/share-a-plan.md" class="MCXref xref" aemmigrated="true">Share a plan in the Adobe Workfront Scenario Planner</a>.</span>  
+     <li aemmigrated="true"><strong aemmigrated="true">Programs</strong> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver" aemmigrated="true"><span aemmigrated="true"><strong aemmigrated="true">Plans</strong>: For information, see <a href="../../../scenario-planner/share-a-plan.md" class="MCXref xref" aemmigrated="true">Share a plan in the Adobe Workfront Scenario Planner</a>.</span> </li> 
     </ul> 
     <p aemmigrated="true">The following table illustrates the permission settings you can select from when sharing an object. Not all objects have all these settings available.</p> 
     <table cellspacing="0" aemmigrated="true"> 
@@ -387,23 +388,25 @@
         <td aemmigrated="true"> <draft-comment aemmigrated="true">
           <p class="wysiwyg-text-align-center" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">✓</p>
          </draft-comment> </td> 
-       </tr>  <draft-comment aemmigrated="true">
-        <th scope="row" style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true"><span aemmigrated="true">Plans*</span> </th>
-       </draft-comment> <draft-comment aemmigrated="true">
-        <td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true"><span aemmigrated="true">✓</span> </td>
-       </draft-comment> <draft-comment aemmigrated="true">
-        <td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
-       </draft-comment> <draft-comment aemmigrated="true">
-        <td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
-       </draft-comment> <draft-comment aemmigrated="true">
-        <td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
-       </draft-comment> <draft-comment aemmigrated="true">
-        <td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
-       </draft-comment> <draft-comment aemmigrated="true">
-        <td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
-       </draft-comment> <draft-comment aemmigrated="true">
-        <td style="text-align: left;font-weight: normal;" class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
-       </draft-comment>  
+       </tr> 
+       <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver" aemmigrated="true"> <draft-comment aemmigrated="true">
+         <th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true"><span aemmigrated="true">Plans*</span> </th>
+        </draft-comment> <draft-comment aemmigrated="true">
+         <td data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true"><span aemmigrated="true">✓</span> </td>
+        </draft-comment> <draft-comment aemmigrated="true">
+         <td data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
+        </draft-comment> <draft-comment aemmigrated="true">
+         <td data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
+        </draft-comment> <draft-comment aemmigrated="true">
+         <td data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
+        </draft-comment> <draft-comment aemmigrated="true">
+         <td data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
+        </draft-comment> <draft-comment aemmigrated="true">
+         <td data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
+        </draft-comment> <draft-comment aemmigrated="true">
+         <td data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">&nbsp;</td>
+        </draft-comment> 
+       </tr> 
       </tbody> 
      </table>
     </draft-comment> <draft-comment aemmigrated="true">

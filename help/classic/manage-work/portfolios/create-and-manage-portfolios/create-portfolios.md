@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 ## Create a portfolio
 
 1. Go to the **Projects** area in the Global Navigation Bar. 
-1. Select the **Portfolios** tab. 
+1. Select the **Portfolios** tab.
 
    ![](assets/projects-tab-highlighted-classic-350x241.png)
 
@@ -59,9 +59,11 @@ You must have the following access to perform the steps in this article:
    <table cellspacing="0"> 
     <col> 
     <col> 
-    <tbody>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Name</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Specify a name for the Portfolio if you have not already done so.</td>  
+    <tbody> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader">Name</td> 
+      <td>Specify a name for the Portfolio if you have not already done so.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
       <td> <p>Type a description for the Portfolio to indicate what is unique about it. </p> </td> 
@@ -73,11 +75,15 @@ You must have the following access to perform the steps in this article:
      <tr data-mc-conditions=""> 
       <td role="rowheader">Group </td> 
       <td> <p>Add the name of a single group if the group owns the portfolio or has responsibility for completing it. </p> </td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Alignment Scorecard</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Select the alignment scorecard that you want to use from the drop-down list. A scorecard is used to measure how well a project aligns with the established criteria of a Portfolio often reflecting an organization’s mission, values, and strategic goals. For more information, see <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Apply a scorecard to a project and generate an Alignment Score</a> and <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Create a scorecard</a>.</p> </td>   
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Is Active</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p> Select this checkbox if you want the portfolio to be active. Other users can find active portfolios and attach them to projects when creating or editing projects. Inactive portfolios cannot be attached to projects. This is enabled by default.</p> </td>  
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader">Alignment Scorecard</td> 
+      <td> <p>Select the alignment scorecard that you want to use from the drop-down list. A scorecard is used to measure how well a project aligns with the established criteria of a Portfolio often reflecting an organization’s mission, values, and strategic goals. For more information, see <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Apply a scorecard to a project and generate an Alignment Score</a> and <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Create a scorecard</a>.</p> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader">Is Active</td> 
+      <td> <p> Select this checkbox if you want the portfolio to be active. Other users can find active portfolios and attach them to projects when creating or editing projects. Inactive portfolios cannot be attached to projects. This is enabled by default.</p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
@@ -87,8 +93,8 @@ You must have the following access to perform the steps in this article:
    >
    >You must have portfolio custom forms already created before you can attach them to portfolios.
 
-1. Edit Custom Form
-1. Save
+1. (Optional) Click **Edit Custom Form** to update information on the form.
+1. Click **Save**.
 1. (Optional) Select the **Programs** tab and add Programs to the Portfolio.
 
    For more information about creating Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
@@ -104,7 +110,9 @@ You must have the following access to perform the steps in this article:
 <ol>
 <li value="1"> Go to the <strong>Projects</strong> area in the Global Navigation Bar. </li>
 <li value="2">Click the<strong>Portfolios</strong> tab.</li>
-<li value="3"> <p>Click the name of the portfolio.</p> </li> On the page that appears, click the <strong>Portfolio Details</strong> tab, then click <strong>Edit Overview</strong>. Deselect the <strong>Is Active</strong> box, then click <strong>Save</strong>.
+<li value="3"> <p>Click the name of the portfolio.</p> </li>
+<li value="4" data-mc-conditions="QuicksilverOrClassic.Classic">On the page that appears, click the <strong>Portfolio Details</strong> tab, then click <strong>Edit Overview</strong>.</li>
+<li value="5" data-mc-conditions="QuicksilverOrClassic.Classic">Deselect the <strong>Is Active</strong> box, then click <strong>Save</strong>.</li>
 </ol>
 <h2>Delete a portfolio</h2>
 <ol>

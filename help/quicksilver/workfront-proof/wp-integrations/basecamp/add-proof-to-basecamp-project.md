@@ -56,11 +56,11 @@ After adding a proof to a Basecamp project, your reviewers will receive an email
 1. Click&nbsp;**Add proof to a Basecamp project**.
 1. In the Add to Basecamp box that appears, do the following:
 
-  1. Click **Refresh the data** to synchronize with Basecamp Classic before proceeding.
-  1. Select your Basecamp project.&nbsp;
-  1. Under **People on the project**, select the check boxes for the reviewers in your Basecamp Classic account that you want to add to the proof. 
-  1. Reviewers appear in their default role/email alert. The selected reviewers receive a message in Basecamp for this proof and also an email notification from Workfront Proof.
-  1. If reviewer defaults have been changed, you must refresh the Basecamp data before the new defaults will be used. To refresh the Basecamp data click the "refresh" link on the Basecamp pop-up in Workfront Proof. Include your own name if you also want to receive the message in Basecamp&nbsp;
+   1. Click **Refresh the data** to synchronize with Basecamp Classic before proceeding.
+   1. Select your Basecamp project.&nbsp;
+   1. Under **People on the project**, select the check boxes for the reviewers in your Basecamp Classic account that you want to add to the proof. 
+   1. Reviewers appear in their default role/email alert. The selected reviewers receive a message in Basecamp for this proof and also an email notification from Workfront Proof.
+   1. If reviewer defaults have been changed, you must refresh the Basecamp data before the new defaults will be used. To refresh the Basecamp data click the "refresh" link on the Basecamp pop-up in Workfront Proof. Include your own name if you also want to receive the message in Basecamp&nbsp;
 
 1. Click **OK**.&nbsp;
 

@@ -48,12 +48,19 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) To export only specific items in a list, select all items in the list that you want in the exported file.
 
-   ``` ```**Tips: **`````` To locate all of the items that you want to include, you can:
-
-   * **Select to show All or 2000 items in the lists**: For more information, see [Modify how a list displays](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
-   
-   * **Use the quick filter**: For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).  
-     The quick filter applies only to the current page of the list.
+   >[!NOTE]
+   >
+   >To locate all of the items that you want to include, you can:
+   >
+   >   
+   >   
+   >   * **Select to show All or 2000 items in the lists**: For more information, see [Modify how a list displays](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
+   >   
+   >   * **Use the quick filter**: For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).  
+   >     The quick filter applies only to the current page of the list.
+   >   
+   >   
+   >
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

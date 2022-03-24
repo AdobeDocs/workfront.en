@@ -41,9 +41,9 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the **People**&nbsp;area, then click the **Teams** tab.
 
-1. ![](assets/agile-teams-settings-adobe-350x149.png)
+   ![](assets/agile-teams-settings-adobe-350x149.png)
 
-1. Create New Team
+1. Click the drop-down arrow next to the team name that is currently selected, then click **Create New Team** at the bottom of the drop-down list.
 1. In the **New Team** box that displays, specify the following information:
 
    * **Team Name:** Specify a name for the new team.
@@ -65,5 +65,5 @@ You must have the following access to perform the steps in this article:
    
    * **Description:** Specify a description for the team.
 
-1. Create Team.
+1. Click **Create Team.**
 

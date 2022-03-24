@@ -48,10 +48,8 @@ When you manually generate timesheets:
 
 You can manually generate system-level or group-level timesheets from the Timesheets area in Setup.
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. If you are generating timesheets in use throughout the system, click **Timesheets & Hours.**
 
    Or
@@ -67,10 +65,8 @@ You can manually generate system-level or group-level timesheets from the Timesh
 
 You can manually generate system-level timesheets from the Diagnostics area in Setup.
 
-1. Main Menu
-1. 
-1. Setup
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
 1. Expand **System**, then click **Diagnostics**.
 
 1. Click **Conduct Diagnostics**.&nbsp;

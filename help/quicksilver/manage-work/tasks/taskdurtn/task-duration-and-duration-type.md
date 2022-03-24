@@ -27,9 +27,9 @@ The following are two scenarios that exist when calculating duration in&nbsp;Ado
 
 * If the task is assigned to a user Workfront uses one of the following schedules, in this exact order to calculate Duration:
 
-  1. Workfront takes into account the user's schedule. 
-  1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
-  1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+   1. Workfront takes into account the user's schedule. 
+   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
+   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * If the task is assigned to multiple users:
 
@@ -59,6 +59,8 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 | Elapsed Months |ET |
 
 ``` ```**Example: **`````` If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list . You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task&nbsp;Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+![](assets/duration-elapsed-days-tasks-nwe-350x282.png)
 
 Consider the following when indicating the Duration of a task:
 

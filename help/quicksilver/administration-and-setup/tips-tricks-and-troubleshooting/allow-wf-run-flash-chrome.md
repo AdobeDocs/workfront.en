@@ -50,9 +50,9 @@ Chrome has recently changed the way Flash is set up. Unfortunately, this means t
 
 1. Add&nbsp;exceptions for&nbsp;**[&#42;.]workfront.com** and &nbsp;for**[&#42;.]proofhq.com**.
 
-  * You may also want to add exceptions for your sandbox environments:
+   * You may also want to add exceptions for your sandbox environments:
 
-    * Preview:&nbsp;**[&#42;.]preview.workfront.com**
-    * SB01: **[&#42;.]sb01.workfront.com** 
-      ![8-last.png](assets/8-last-350x157.png)
+      * Preview:&nbsp;**[&#42;.]preview.workfront.com**
+      * SB01: **[&#42;.]sb01.workfront.com** 
+        ![8-last.png](assets/8-last-350x157.png)
 

@@ -73,9 +73,9 @@ You can manually add users to a project team by using the Team Scheduling tab.
 >
 >You can add to the Project Team only users that belong to the Group associated with the project.
 
-1. Go to the project where you want to add users to the project team, then click the **Staffing** tab. The Staffing tab might be located under the **More** menu. 
+1. Go to the project where you want to add users to the project team, then click the **Staffing** tab. The Staffing tab might be located under the **More** menu.
 
-   ![project_team.png](assets/project-team-350x130.png)   
+   ![project_team.png](assets/project-team-350x130.png)
 
 1. Click the **Scheduling** tab, then click **Add Users**.
 
@@ -97,7 +97,9 @@ For more information about using the project scheduling area, see the article [G
 
 You can update the role that a user fulfills on the project as you view the Project&nbsp;Team.&nbsp;This is important when approvals on the project are assigned to job roles. Only the users who fulfill the roles specified in the approval process receive the approval notifications. For information about establishing approval settings, see [Configure global approval settings](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-1. Go to a project, then click **Staffing** > **People**. You might need to click **More**, then&nbsp;**Staffing**.  The name of the users who are associated with the project display in a list. 
+1. Go to a project, then click **Staffing** > **People**. You might need to click **More**, then&nbsp;**Staffing**.
+
+   The name of the users who are associated with the project display in a list. 
 
 1. Double-click in the **Job Role** column in the same row as the user whose job role on the project you want to update to change the role that the user fulfills on this project.
 

@@ -46,22 +46,22 @@ You must have the following to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Groups
-1. 
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
+
 1. Click the name of the group where you want to create or customize statuses.
-1. In the left panel, click **Statuses**. 
+1. ```In the left panel, click **Statuses**.``` 
 
    If the group you are viewing is a top-level group, the list that displays includes the following:
 
-  * System-level locked statuses.
-  * Custom statuses already created for the group.
+   * System-level locked statuses.
+   * Custom statuses already created for the group.
 
    In addition, if the group you are viewing is a subgroup, the list also includes:
 
-  * Locked statuses belonging to the groups above the subgroup.
-  * Unlocked statuses that belonged to the groups above the subgroup when it was created.
+   * Locked statuses belonging to the groups above the subgroup.
+   * Unlocked statuses that belonged to the groups above the subgroup when it was created.
 
-    After a subgroup is created, unlocked statuses that are created in the groups above it are not included in the subgroup’s status list. However, if someone locks one of them later, it is then included in the subgroup’s status list. For more information, see [How groups inherit statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
+     After a subgroup is created, unlocked statuses that are created in the groups above it are not included in the subgroup’s status list. However, if someone locks one of them later, it is then included in the subgroup’s status list. For more information, see [How groups inherit statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
 1. Select the tab of the object type (**Project**, **Tasks**, or **Issues**) that you want to associate with the status.
 
@@ -82,24 +82,24 @@ You must have the following to perform the steps in this article:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * You can edit a status for your group only if:   >  
-   >    
-   >    
-   >    * You manage the group that the status was created for
-   >    * A Workfront administrator unlocked the status at the system level
-   >    * A group administrator of a group above your group unlocked the status
-   >    
-   >    
-   >  * When you are editing an existing status, you can change only its name, description, and color.
-   >  * When you edit a locked status, your changes affect all subgroups that inherited the status from your group.
-   >  
-   >  
-   >    Conversely, editing an unlocked status does not affect the subgroups that inherited the status from your group.  
+   >   
+   >   
+   >   * You can edit a status for your group only if:   >   
+   >      
+   >      
+   >      * You manage the group that the status was created for
+   >      * A Workfront administrator unlocked the status at the system level
+   >      * A group administrator of a group above your group unlocked the status
+   >      
+   >      
+   >   * When you are editing an existing status, you can change only its name, description, and color.
+   >   * When you edit a locked status, your changes affect all subgroups that inherited the status from your group.
+   >   
+   >   
+   >     Conversely, editing an unlocked status does not affect the subgroups that inherited the status from your group.  
 
-   >  
-   >  
+   >   
+   >   
    >
 
 1. Specify the following information.
@@ -120,7 +120,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
-      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p>  <img src="assets/status-color-350x211.png" style="width: 350;height: 211;">  </td> 
+      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/status-color-350x211.png" style="width: 350;height: 211;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Equates With</td> 

@@ -94,17 +94,23 @@ Consider the following when assigning multiple resources to a work item:
 ## Assign a single issue
 
 1. Go to an issue that you want to assign.
-1. Click&nbsp;**Assign this to ...** in the right panel Or  Click **Edit assignment** if the issue is already assigned.   ![](assets/classic-assign-this-to-button-on-task-card-350x405.png)
+1. Click&nbsp;**Assign this to ...** in the right panel
+
+   Or
+
+   Click **Edit assignment** if the issue is already assigned.
+
+   ![](assets/classic-assign-this-to-button-on-task-card-350x405.png)
 
 1. Do one of the following:
 
    * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
-   * Here are a few recommendations
+   * (Conditional) Click one of the names in the **Here are a few recommendations** list, if this list displays. 
    * Click **make Advanced Assignments**
-   * Creating advanced assignments is similar for tasks and issues. For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. Click&nbsp;**Assign** or click **Save Changes**, if you clicked **make Advanced Assignments** to complete assigning the issue. 
+     Creating advanced assignments is similar for tasks and issues. For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
+1. Click&nbsp;**Assign** or click **Save Changes**, if you clicked **make Advanced Assignments** to complete assigning the issue.
 1. (Optional)&nbsp;Click the **X icon** next to the name of the assignment in the right panel of the issue to remove an assignment.
 
 ## Assign an issue in a list
@@ -138,7 +144,9 @@ To assign issues in a list:
 
 1. Go to a list of issues that you want to assign in bulk. 
 1. Select several issues in the list. 
-1. Click **Edit**. The **Edit Issues** dialog box opens.
+1. Click **Edit**.
+
+   The **Edit Issues** dialog box opens.
 
 1. In the **Assignments** area, select the **Assignee** box, then start typing the name of a user, job role, or team that you want to assign to all the issues.
 

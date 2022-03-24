@@ -55,11 +55,13 @@ You must have the following access to perform the steps in this article:
 ## Convert a task to a project
 
 1. Go to the task that you want to convert to a project.
-1. Click **Actions**. 
+1. Click **Actions**.
 1. Choose either the following options:
 
    * **New Project** 
    * **New from Template**
+
+     ![](assets/cattap-350x291.png)
 
 1. Click **Continue** on the notification that appears.
 1. In the **Convert to Project** box, specify the following:

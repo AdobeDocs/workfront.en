@@ -61,58 +61,58 @@ You must have the following to perform the steps in this article:
 1. Click **Set Terminology** near the upper-right corner of the page.
 1. Do any of the following:
 
-  * To use an alternative term provided by Workfront, click the down arrow&nbsp; ![](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
+   * To use an alternative term provided by Workfront, click the down arrow&nbsp; ![](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
 
-    >[!NOTE]
-    >
-    >Alternative labels provided in the drop-down lists are supported in versions of Workfront localized for non-English languages.
+     >[!NOTE]
+     >
+     >Alternative labels provided in the drop-down lists are supported in versions of Workfront localized for non-English languages.
 
-  * To provide your own custom alternative for the label displayed for an object, click **Set custom name** to the right of the label, then type the **Singular** and **Plural** forms of the custom term. You can click **Reset** if you change your mind.
+   * To provide your own custom alternative for the label displayed for an object, click **Set custom name** to the right of the label, then type the **Singular** and **Plural** forms of the custom term. You can click **Reset** if you change your mind.
 
-    You can customize the following object names:
+     You can customize the following object names:
 
-    <table cellspacing="0">
-     <col>
-     <col>
-     <col>
-     <tbody>
-      <tr>
-       <td role="rowheader"><p>Workfront objects</p></td>
-       <td>
-        <ul>
-         <li>Portfolio</li>
-         <li>Program</li>
-         <li>Project</li>
-         <li>Task</li>
-         <li>Issue</li>
-         <li>Goal</li>
-         <li>Result</li>
-         <li>Activity</li>
-        </ul></td>
-       <td><p>For more information about these objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p></td>
-      </tr>
-      <tr>
-       <td role="rowheader"><p>Workfront Goals objects</p></td>
-       <td>
-        <ul>
-         <li>Goal</li>
-         <li>Result</li>
-         <li>Activity</li>
-        </ul></td>
-       <td><p>These objects require an additional license. For more information, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>.</p></td>
-      </tr>
-      <tr data-mc-conditions="">
-       <td role="rowheader"><p>Workfront Scenario Planner objects</p></td>
-       <td>
-        <ul>
-         <li>Initiative</li>
-         <li>Scenario</li>
-         <li>Plan </li>
-        </ul></td>
-       <td><p>These objects require an additional license. For information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Get started with the Adobe Workfront Scenario Planner</a>.</p></td>
-      </tr>
-     </tbody>
-    </table>
+     <table cellspacing="0">
+      <col>
+      <col>
+      <col>
+      <tbody>
+       <tr>
+        <td role="rowheader"><p>Workfront objects</p></td>
+        <td>
+         <ul>
+          <li>Portfolio</li>
+          <li>Program</li>
+          <li>Project</li>
+          <li>Task</li>
+          <li>Issue</li>
+          <li>Goal</li>
+          <li>Result</li>
+          <li>Activity</li>
+         </ul></td>
+        <td><p>For more information about these objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p></td>
+       </tr>
+       <tr>
+        <td role="rowheader"><p>Workfront Goals objects</p></td>
+        <td>
+         <ul>
+          <li>Goal</li>
+          <li>Result</li>
+          <li>Activity</li>
+         </ul></td>
+        <td><p>These objects require an additional license. For more information, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>.</p></td>
+       </tr>
+       <tr data-mc-conditions="">
+        <td role="rowheader"><p>Workfront Scenario Planner objects</p></td>
+        <td>
+         <ul>
+          <li>Initiative</li>
+          <li>Scenario</li>
+          <li>Plan </li>
+         </ul></td>
+        <td><p>These objects require an additional license. For information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Get started with the Adobe Workfront Scenario Planner</a>.</p></td>
+       </tr>
+      </tbody>
+     </table>
 
 1. When you are finished, click **Done**.
 
@@ -128,8 +128,8 @@ You must have the following to perform the steps in this article:
 
 1. To see your terminology changes:
 
-  1. Log out and back in to Workfront.
-  1. Close all browser tabs that you have open for your Workfront environment.
+   1. Log out and back in to Workfront.
+   1. Close all browser tabs that you have open for your Workfront environment.
 
    >[!IMPORTANT]
    >

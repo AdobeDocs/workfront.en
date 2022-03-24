@@ -50,14 +50,14 @@ You must have the following to perform the steps in this article:
 
 1. In the drop-down menu that appears, do either of the following:
 
-  * Click a Main Menu item.
+   * Click a Main Menu item.
 
-    >[!IMPORTANT]
-    >
-    >
-    >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en) or for information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     >[!IMPORTANT]
+     >
+     >
+     >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en) or for information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
-  * Click **Add a Dashboard**, then type a descriptive **Custom section title** and add the dashboard.
+   * Click **Add a Dashboard**, then type a descriptive **Custom section title** and add the dashboard.
 
 1. Repeat the previous step to pin any other pages.
 1. Continue customizing the layout template.

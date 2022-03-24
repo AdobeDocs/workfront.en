@@ -94,6 +94,8 @@ When assigning users to work, their availability according to their schedules af
       >
       >Do not use the **Assigned to** field. This finds only the Primary Owner for the task instead of any of the roles that could be assigned to them.
 
+      ![](assets/modifyinguser1-350x217.png)
+
       Or
 
       To filter for a user, expand **Assignment Users,** then click **ID.**
@@ -106,7 +108,9 @@ When assigning users to work, their availability according to their schedules af
    1. Begin typing the name of the user or role that you want to filter for, then click the name when it appears in the drop-down list.
    1. Click **Save Filter.**
 
-1. Select the tasks for which you want to modify assignments, then click **Edit.** 
+1. Select the tasks for which you want to modify assignments, then click **Edit.**
+
+   ![](assets/modifyinguser2-350x120.png)   
    The Edit Tasks page displays. The items that you edit display in the upper-left corner of the page.
 
 1. Go to the **Assignments** section.

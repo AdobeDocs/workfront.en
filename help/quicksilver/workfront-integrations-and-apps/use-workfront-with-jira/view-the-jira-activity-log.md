@@ -66,8 +66,8 @@ Before you can link items between Workfront and Jira, you must
 
    The log includes the following fields:
 
-  * Date of the occurrence
-  * The name of the user in Jira
-  * Jira issue number
-  * A brief description of the error that occurred.
+   * Date of the occurrence
+   * The name of the user in Jira
+   * Jira issue number
+   * A brief description of the error that occurred.
 

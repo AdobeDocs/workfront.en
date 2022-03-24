@@ -22,28 +22,28 @@ For more information about Groups, see [Manage Groups using Workfront Proof](#).
 1. Click **Groups** in the left navigation sidebar.  
    On the Groups page, you can:
 
-  * View all your public and private Groups.
-  * Create a new Group. For more information, see [Create Proofing Groups using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
-  * Export Groups to CSV file.
-  * Filter and sort Groups.
-  * After you select one or more Groups the following additional options are available:
+   * View all your public and private Groups.
+   * Create a new Group. For more information, see [Create Proofing Groups using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
+   * Export Groups to CSV file.
+   * Filter and sort Groups.
+   * After you select one or more Groups the following additional options are available:
 
-    * Add people to the selected Groups.  
-      ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
+      * Add people to the selected Groups.  
+        ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
 
-    * Make the selected Groups private or&nbsp;public, as described in [Make Groups Private using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
-    * Private Groups are&nbsp;visible only to their creators.&nbsp;
-    * Delete the selected Groups.  
-      ![](assets/trash-button.png)
+      * Make the selected Groups private or&nbsp;public, as described in [Make Groups Private using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
+      * Private Groups are&nbsp;visible only to their creators.&nbsp;
+      * Delete the selected Groups.  
+        ![](assets/trash-button.png)
 
-  * You can perform actions on Groups also on each Group separately from their own **More** (three dot) menu:  
-    ![](assets/more-button-small.png)
+   * You can perform actions on Groups also on each Group separately from their own **More** (three dot) menu:  
+     ![](assets/more-button-small.png)
 
-    * View Group details.  
-      You can also view Group details by clicking on the Group name.
-    * Add people.
-    * Make a Group public/private.
-    * Delete a Group.
+      * View Group details.  
+        You can also view Group details by clicking on the Group name.
+      * Add people.
+      * Make a Group public/private.
+      * Delete a Group.
 
 ## Sorting Groups
 
@@ -72,17 +72,17 @@ You can Sort Groups by Group name, privacy status, and description.
 
 1. Do any of the following the edit the Group details:
 
-  * Edit the Group name and **Description**&nbsp;by clicking it and typing. Clicking anywhere outside the field saves your changes.
-  * Click **Privacy** to change the Group privacy setting in the drop-down menu.
-  * Click **Add to group** to add new people to the Group.  
-    ![Add_to_Group_btn.png](assets/add-to-group-btn.png)
+   * Edit the Group name and **Description**&nbsp;by clicking it and typing. Clicking anywhere outside the field saves your changes.
+   * Click **Privacy** to change the Group privacy setting in the drop-down menu.
+   * Click **Add to group** to add new people to the Group.  
+     ![Add_to_Group_btn.png](assets/add-to-group-btn.png)
 
-  * Click **Delete group** in the upper-right corner to delete the group.  
-    ![Trash_button.png](assets/trash-button.png)
+   * Click **Delete group** in the upper-right corner to delete the group.  
+     ![Trash_button.png](assets/trash-button.png)
 
-  * Click the checkbox at the beginning of a Group member's row and use any of the options that appear just above the list.  
-  * Click the **More** icon at the end of a Group member's row and use any of the options in the drop-down menu.  
-    ![More_button_small.png](assets/more-button-small.png)
+   * Click the checkbox at the beginning of a Group member's row and use any of the options that appear just above the list.  
+   * Click the **More** icon at the end of a Group member's row and use any of the options in the drop-down menu.  
+     ![More_button_small.png](assets/more-button-small.png)
 
 ## Adding Contacts to Groups
 
@@ -95,9 +95,9 @@ You can Sort Groups by Group name, privacy status, and description.
 
 1. In the&nbsp;**People**section:
 
-  1. Use the drop-down menus to change a member's&nbsp;**Role**or&nbsp;**Email alerts.**For more information, see&nbsp; [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)&nbsp;and&nbsp; [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
-  
-  1. Use the&nbsp;**Enter a contact name or email address**field to add additional contacts to the group.
+   1. Use the drop-down menus to change a member's&nbsp;**Role**or&nbsp;**Email alerts.**For more information, see&nbsp; [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)&nbsp;and&nbsp; [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+   
+   1. Use the&nbsp;**Enter a contact name or email address**field to add additional contacts to the group.
 
 1. In the&nbsp;**Groups**section, select the group to which you want to add the contact or contacts.
 1. Click&nbsp;**Add to group.**

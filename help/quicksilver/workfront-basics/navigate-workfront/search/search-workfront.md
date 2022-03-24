@@ -11,6 +11,8 @@ You can easily locate items in Adobe Workfront by searching for them when you ca
 
 You can see the Search box in the upper-right corner of any page within Workfront.
 
+![](assets/search-globalnavigationbar-350x91.png)
+
 You must have permissions to View an object before you can find it in a search. For this reason, search results vary from user to user.
 
 ## Access requirements
@@ -74,11 +76,11 @@ The fields available for search are based on the type of search: Basic or Advanc
 
 * **Basic Search**: When searching for objects in a basic search, Workfront looks for text that might contain your keywords in the following fields:
 
-  * Object names
-  * Descriptions
-  * Custom data fields
-  * Updates
-  * Document names (in specific document searches and in a basic search)
+   * Object names
+   * Descriptions
+   * Custom data fields
+   * Updates
+   * Document names (in specific document searches and in a basic search)
 
   For more information about basic searching in Workfront, see [Basic Search](#basic) in this article.
 
@@ -178,13 +180,15 @@ You can do a basic search in either of the following ways:
 
 To perform a basic search:
 
-1. Click the magnifying glass  in the upper-right corner of the page. You can also type **ALT + /** or **Option + /** to open the Search menu.  
+1. Click the magnifying glass ![](assets/search-icon.png) in the upper-right corner of the page. You can also type **ALT + /** or **Option + /** to open the Search menu.   
 
 1. (Optional) To search for a specific object, click the **All** drop-down menu and select the object you want to search for.
 
+   ![](assets/search-objecttype.png)
+
 1. In the **Search** box, start typing the information you are searching for.  
    For information about what fields are searched in Workfront, see [Understand Search](#understanding-search).  
-  
+   ![](assets/qs-search-drop-down-highlighted-350x234.png)  
    As you begin typing in the search bar, Workfront makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.
 
 1. If the item you are looking for displays in the typeahead menu, click it.
@@ -192,7 +196,8 @@ To perform a basic search:
    Or
 
    Press **Enter** to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.
-   The Search Results page slides open from the left and covers most of the previous page. 
+
+   The Search Results page slides open from the left and covers most of the previous page.
 
    If you performed a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in [Understand Search](#understanding-search). The objects that match your search display in a list.
 
@@ -202,9 +207,11 @@ To perform a basic search:
    >For example, searching for "marketing" displays objects that contain either "marketing" or "market" in the name.
 
 1. (Optional) If your search generated too many results, refine your search as described in [Refine a basic search](#refining-a-search).
-1. Close
+1. (Optional) To return to the page you were on prior to the search, click **Close** in the top-right corner.
 
-``` ```**Note: **``````The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page. 
+>[!NOTE]
+>
+>The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page.
 
 #### Refine a basic search
 
@@ -220,6 +227,7 @@ To refine a search:
 1. Click inside any of the fields available to shorten the list of results.  
    The selections you make are highlighted in blue and the field values that you do not select are hidden.  
    After you select each new value, the results to the right update dynamically.  
+   ![](assets/qs-refine-search-350x175.png)
 
 1. (Optional) Click the selected values to deselect them and display all values for each field again.
 
@@ -240,14 +248,16 @@ This type of search is helpful when you cannot remember a keyword associated wit
 
 To perform an advanced search:
 
-1. In the upper-right corner of any page in Workfront, click the **Search** icon . The Search menu displays.  
+1. In the upper-right corner of any page in Workfront, click the **Search** icon ![](assets/search-icon.png). The Search menu displays.  
 
 1. At the bottom of the Search menu, click **Advanced Search**.  
-  
+   ![](assets/qs-advanced-search-350x224.png)  
    The Advanced Search page slides open from the right and covers most of the previous page.  
 
 1. Select the type of object you are searching for.  
    **Projects** is selected by default.
+
+   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. (Optional) Type a keyword in the field at the top of the list.  
 1. (Optional) Click **Filter your results** to filter your search results based on specific field types, then select a field from the list. If necessary, also select a value for the field.  
@@ -257,6 +267,9 @@ To perform an advanced search:
 1. Click **Search**.  
    A list of items that match your search displays to the right of the Advanced Search toolbar.
 
-1. Close
+1. (Optional) To return to the page you were on prior to the search, click **Close** in the the top-right corner.
 
-``` ```**Note: **``````The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page.  
+>[!NOTE]
+>
+>The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page.
+

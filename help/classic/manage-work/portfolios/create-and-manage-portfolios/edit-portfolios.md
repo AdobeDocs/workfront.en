@@ -40,7 +40,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Edit portfolios
+
+## Edit portfolios
 
 1. Go to the **Projects** area in the Global Navigation Bar. 
 1. Select the **Portfolios** tab, then  do one of the following:
@@ -125,6 +126,7 @@ Edit portfolios
    For more information, see [Add projects to a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 
 <!--
+<div data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
 <h2>Edit portfolios in a list</h2>
 <ol>
 <li value="1"> <p>Go to a list of portfolios and select one or more portfolios that you want to edit, then click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> at the top of the list. </p> <p>The <strong>Edit Portfolio</strong> dialog box displays.</p> <p> <img src="assets/edit-portfolio-box-classic-350x224.png" style="width: 350;height: 224;"> </p> <p>All portfolio fields are available in the Edit Portfolio box and are grouped by the areas listed in the left panel. </p> </li>
@@ -192,6 +194,7 @@ Depending on how your Workfront administrator set the permissions for the sectio
 <li value="4"> <p>(Optional) Click the <strong>People</strong> icon to add a user or a team to the comment. </p> </li>
 <li value="5"> <p>(Optional)&nbsp;Click the <strong>Lock</strong> icon to lock the comment and make it private to only users in your company. </p> </li>
 </ol>
+</div>
 -->
 
 ###  

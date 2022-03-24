@@ -58,14 +58,14 @@ To share a calendar inside of Workfront:
 1. (Optional) Repeat step 3 for each user, team, role, or group that you want to grant access to the calendar.
 1. Specify the permissions for each user, team, role,&nbsp;group, or company that you added in Step 3 by clicking&nbsp;the drop-down menu, then select the permission level that you want to grant:
 
-  * **View:**&nbsp;Users can&nbsp;review and share&nbsp;the calendar.&nbsp;
-  * **Manage:**Users&nbsp;have full access to the calendar, minus administrative&nbsp;rights which are granted at the access level, plus all View permissions.
+   * **View:**&nbsp;Users can&nbsp;review and share&nbsp;the calendar.&nbsp;
+   * **Manage:**Users&nbsp;have full access to the calendar, minus administrative&nbsp;rights which are granted at the access level, plus all View permissions.
 
-    >[!NOTE]
-    >
-    >&nbsp;The Workfront administrator and the creator of the calendar have the ability to remove permissions from these entities.
+     >[!NOTE]
+     >
+     >&nbsp;The Workfront administrator and the creator of the calendar have the ability to remove permissions from these entities.
 
-    ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)&nbsp;
+     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)&nbsp;
 
 1. (Optional) Depending on a user's role, you may be able to click **Advanced Options**, then click **Share**to allow the user to share the calendar with other users.
 

@@ -252,7 +252,7 @@ New features in Workfront Proof are now available. For more information, see [Wo
 There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see Adobe Workfront Goals with the 21.2 release.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md" class="MCXref xref" xrefformat="{para}" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Adobe Workfront Goals with the 21.2 release</a>.</p>
 -->
 
 ## Announcements

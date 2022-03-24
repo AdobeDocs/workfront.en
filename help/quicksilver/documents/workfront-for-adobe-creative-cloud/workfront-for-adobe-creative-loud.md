@@ -17,6 +17,6 @@ This section contains the following articles:
 * [Use Adobe Workfront for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
 
   <!--
-  <a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc-wf-library.md" class="MCXref xref" xrefformat="{para}">Use Adobe Workfront for Adobe Creative Cloud with Workfront Library</a>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc-wf-library.md" class="MCXref xref" xrefformat="{para}">Use Adobe Workfront for Adobe Creative Cloud with Workfront Library</a> </li>
   -->
 

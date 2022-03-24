@@ -17,7 +17,7 @@ Timesheet and Hour Preferences control what appears on a timesheet. This provide
 
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![Timesheet layout for the new Workfront experience](assets/timesheet-layout-nwe-350x146.png)  
+![Timesheet layout for the new Workfront experience](assets/timesheet-layout-nwe-350x146.png)
 
 ## Title
 

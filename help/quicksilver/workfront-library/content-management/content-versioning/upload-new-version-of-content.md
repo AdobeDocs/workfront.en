@@ -13,8 +13,7 @@ If you have Manage permissions to content, you can upload new versions. For info
 
 You cannot upload new versions of content in bulk. Each version must be uploaded individually.
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the active (or current) version is located.
 
@@ -30,13 +29,13 @@ You cannot upload new versions of content in bulk. Each version must be uploaded
 
 1. Add the file you want to upload.
 
-  * To drag and drop a file located on your workstation, select the file you want to upload, then drag and drop it into the file uploading area.
+   * To drag and drop a file located on your workstation, select the file you want to upload, then drag and drop it into the file uploading area.
 
-    >[!NOTE]
-    >
-    >If you are using Internet Explorer as your browser application, you cannot use the drag-and-drop functionality.
+     >[!NOTE]
+     >
+     >If you are using Internet Explorer as your browser application, you cannot use the drag-and-drop functionality.
 
-  * To browse for the file, click **Browse** in the file uploading area, browse to and select the file you want to upload, then click **Open.**
+   * To browse for the file, click **Browse** in the file uploading area, browse to and select the file you want to upload, then click **Open.**
 
    Depending on how your taxonomy is configured, the Metadata panel for the file you are uploading might display some pre-filled metadata from the active version along with any applicable EXIF, XMP, and file attributes. For information on content metadata, see [Set up taxonomy metadata for Workfront Library](../../../workfront-library/administration-and-setup/metadata/set-up-taxonomy-metadata.md).
 

@@ -73,9 +73,9 @@ To add a Workfront work item to your calendar:
 
 1. Do any of the following:
 
-  * **To schedule a work item for multiple days:** Repeat step 2 to add the item to each day and time when you want to work on it.
-  * **To modify the duration of a calendar item:**&nbsp;Hover over the bottom edge of the item until the cursor becomes a double arrow, then drag the bottom edge to the ending time you want.
-  * **To delete a calendar item:** Hover over the item, then click the trashcan icon that is displayed.
+   * **To schedule a work item for multiple days:** Repeat step 2 to add the item to each day and time when you want to work on it.
+   * **To modify the duration of a calendar item:**&nbsp;Hover over the bottom edge of the item until the cursor becomes a double arrow, then drag the bottom edge to the ending time you want.
+   * **To delete a calendar item:** Hover over the item, then click the trashcan icon that is displayed.
 
 ## Update a work item on your Home Calendar
 
@@ -85,8 +85,8 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
 
 1. Open the Details panel for the work item you want to update:
 
-  * From the left panel: Select the work item,&nbsp;then click **Details**.
-  * From the calendar: Click the scheduled calendar event.
+   * From the left panel: Select the work item,&nbsp;then click **Details**.
+   * From the calendar: Click the scheduled calendar event.
 
    Details for the work item display in a panel that appears on the right of the window.
 
@@ -94,39 +94,39 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
 
 1. Do any of the following to update the work item:
 
-  * In the&nbsp;**Start a new update**&nbsp;box, type your update, specify any of the following information, then click **Update**.
+   * In the&nbsp;**Start a new update**&nbsp;box, type your update, specify any of the following information, then click **Update**.
 
-    <table cellspacing="0">
-     <col>
-     <col>
-     <tbody>
-      <tr>
-       <td role="rowheader">Notify</td>
-       <td><p> Tag users you want to notify about your update. For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p><p>&nbsp;</p></td>
-      </tr>
-      <tr data-mc-conditions="">
-       <td role="rowheader">Commit Date</td>
-       <td>In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the Commit Date, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td>
-      </tr>
-      <tr data-mc-conditions="">
-       <td role="rowheader">How's this going?</td>
-       <td>Select a new condition for the task or issue. For information about task and issue conditions, see <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td>
-      </tr>
-      <tr>
-       <td role="rowheader">Private to my company</td>
-       <td>Disable to prevent users outside your company from being able to view this update.</td>
-      </tr>
-     </tbody>
-    </table>
+     <table cellspacing="0">
+      <col>
+      <col>
+      <tbody>
+       <tr>
+        <td role="rowheader">Notify</td>
+        <td><p> Tag users you want to notify about your update. For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p><p>&nbsp;</p></td>
+       </tr>
+       <tr data-mc-conditions="">
+        <td role="rowheader">Commit Date</td>
+        <td>In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the Commit Date, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td>
+       </tr>
+       <tr data-mc-conditions="">
+        <td role="rowheader">How's this going?</td>
+        <td>Select a new condition for the task or issue. For information about task and issue conditions, see <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td>
+       </tr>
+       <tr>
+        <td role="rowheader">Private to my company</td>
+        <td>Disable to prevent users outside your company from being able to view this update.</td>
+       </tr>
+      </tbody>
+     </table>
 
-  * Click the current **Status** for the item, then click a new status in the list that appears. For more information, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+   * Click the current **Status** for the item, then click a new status in the list that appears. For more information, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-    >[!NOTE]
-    >
-    >If you mark a work item assigned to you as Complete - Pending Approval, you may notice that it no longer appears on your calendar. This is because no further action is expected of you until the user who is set to approve the item marks it as Approved. When this occurs, you will be able to see the item on your calendar as an Approved item.
+     >[!NOTE]
+     >
+     >If you mark a work item assigned to you as Complete - Pending Approval, you may notice that it no longer appears on your calendar. This is because no further action is expected of you until the user who is set to approve the item marks it as Approved. When this occurs, you will be able to see the item on your calendar as an Approved item.
 
-  * (Optional) To reply to an existing comment or update, click **Reply**, specify any recipients in the **Notify** box, type your reply, then click **Reply**.  
-    If you need information about specifying recipients, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * (Optional) To reply to an existing comment or update, click **Reply**, specify any recipients in the **Notify** box, type your reply, then click **Reply**.  
+     If you need information about specifying recipients, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 1. (Optional) To close the **Details** panel, click anywhere outside it.ok
 
@@ -135,7 +135,10 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
 To update the integrated calendar events in your Home Calendar:
 
 1. Go to the Home Calendar view, as explained in [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
-1. Click **Refresh calendars** in the upper right corner of the Home Calendar. ![](assets/refresh-qs-350x403.png)  
+1. Click **Refresh calendars** in the upper right corner of the Home Calendar.
+
+   ![](assets/refresh-qs-350x403.png)
+
    Integrated calendar events update automatically when you open your Home Calendar view or when you refresh your Home Calendar.
 
 ## Filter and sort work items
@@ -144,7 +147,7 @@ To update the integrated calendar events in your Home Calendar:
 1. Click the **Filter** 
 
    <!--
-
+   <img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
    -->
 
    drop-down menu.
@@ -160,7 +163,7 @@ To update the integrated calendar events in your Home Calendar:
    -->
 
    <!--
-   In the Production environment, select from the following filter options:
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the Production environment, select from the following filter options: </p>
    -->
 
    <table cellspacing="0"> 
@@ -209,24 +212,25 @@ To update the integrated calendar events in your Home Calendar:
    ![](assets/calendar-filters-classic-and-nwe-350x350.png)
 
    <!--
-   In the Preview environment, select from the following filter options:
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the Preview environment, select from the following filter options: </p>
    -->
 
    <!--
-   <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
-   <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+   <table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
+   <col>
+   <col>
    <tbody>
-   <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">All</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"><span class="preview">Displays and selects all items. This includes tasks, </span><span class="preview" data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span class="preview">, approvals, personal tasks and completed tasks and issues.</span> </td>
+   <tr>
+   <td role="rowheader">All</td>
+   <td><span class="preview">Displays and selects all items. This includes tasks, </span><span class="preview" data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span class="preview">, approvals, personal tasks and completed tasks and issues.</span> </td>
    </tr>
-   <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Tasks Working On</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p><span class="preview">Displays only tasks that you are actively working on.&nbsp;These are tasks assigned to you for which you have clicked the Work On&nbsp;It button. </span> </p> </td>
+   <tr>
+   <td role="rowheader">Tasks Working On</td>
+   <td> <p><span class="preview">Displays only tasks that you are actively working on.&nbsp;These are tasks assigned to you for which you have clicked the Work On&nbsp;It button. </span> </p> </td>
    </tr>
-   <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Tasks&nbsp;Ready to Start</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">
+   <tr>
+   <td role="rowheader">Tasks&nbsp;Ready to Start</td>
+   <td>
    <div class="preview">
    <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p>
    <ul style="list-style-type: square;">
@@ -237,9 +241,9 @@ To update the integrated calendar events in your Home Calendar:
    </ul>
    </div> </td>
    </tr>
-   <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Tasks Not Ready</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">
+   <tr>
+   <td role="rowheader">Tasks Not Ready</td>
+   <td>
    <div class="preview">
    <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p>
    <ul>
@@ -248,21 +252,21 @@ To update the integrated calendar events in your Home Calendar:
    </ul>
    </div> </td>
    </tr>
-   <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Issues Working On</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p class="preview">Displays only issues that you are actively working on.&nbsp;These are issues assigned to you for which you have clicked the Work On&nbsp;It button.</p> </td>
+   <tr>
+   <td role="rowheader">Issues Working On</td>
+   <td> <p class="preview">Displays only issues that you are actively working on.&nbsp;These are issues assigned to you for which you have clicked the Work On&nbsp;It button.</p> </td>
    </tr>
-   <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Issues&nbsp;Requested</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"><span class="preview">Displays only issues that you are assigned to but for which you have not clicked the Work On It button.</span> </td>
+   <tr>
+   <td role="rowheader">Issues&nbsp;Requested</td>
+   <td><span class="preview">Displays only issues that you are assigned to but for which you have not clicked the Work On It button.</span> </td>
    </tr>
-   <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Personal&nbsp;</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"><span class="preview">Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task" class="preview">Create a personal task</span><span class="preview"> in the article </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="preview">Create work items from the Home area</span><span class="preview">.</span> </td>
+   <tr>
+   <td role="rowheader">Personal&nbsp;</td>
+   <td><span class="preview">Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task" class="preview">Create a personal task</span><span class="preview"> in the article </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="preview">Create work items from the Home area</span><span class="preview">.</span> </td>
    </tr>
-   <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Approvals</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">
+   <tr>
+   <td role="rowheader">Approvals</td>
+   <td>
    <div class="preview">
    <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p>
    <ul>
@@ -275,26 +279,29 @@ To update the integrated calendar events in your Home Calendar:
    </note>
    </div> </td>
    </tr>
-   <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Completed</td>
-   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"><span class="preview">Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.</span> </td>
+   <tr>
+   <td role="rowheader">Completed</td>
+   <td><span class="preview">Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.</span> </td>
    </tr>
    </tbody>
+   </table>
    -->
 
    <!--
-   <img src="assets/calendar-filters-nwe-350x392.png" style="width: 350;height: 392;">
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/calendar-filters-nwe-350x392.png" style="width: 350;height: 392;"> </p>
    -->
 
 1. To group and sort your list of work, click the Group by drop-down menu, then select the criteria you want to use.
 
    The items are listed on the left side of the calendar according to the criteria and in the order that you specify.
 
-   ![](assets/home-calendar-sort-group-nwe-350x286.png)   
+   ![](assets/home-calendar-sort-group-nwe-350x286.png)
+
    Choose from the following options:
 
    | Planned Completion |Tasks and issues sort in order of the Planned Completion dates. To learn more about Planned Completion dates, see [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md). |
    |---|---|
+   | Planned Start |Tasks and issues sort in order of the Planned Start dates. For more information about task Planned Start&nbsp;Dates, see [Overview of the task Planned Start Date](../../../manage-work/tasks/task-information/task-planned-start-date.md).  |
    | Commit Date |Tasks and issues sort in order of the Commit dates. To learn more about Commit dates, see [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md). |
    | Project |Work items sort by project. |
    | My Priority |Items display&nbsp;in an order you choose. For more information, see [Prioritize work in the Home Area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md). |

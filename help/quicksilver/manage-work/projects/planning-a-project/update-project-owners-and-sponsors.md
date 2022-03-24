@@ -57,6 +57,8 @@ You must have the following access to perform the steps in this article:
 
 1. Click&nbsp;**Save Changes**.
 
+![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+
 ## Update the Project Sponsor of a project
 
 1. Go to the Project you want to update.
@@ -68,4 +70,6 @@ You must have the following access to perform the steps in this article:
    Only active users can be specified as Project Sponsors.
 
 1. Click&nbsp;**Save Changes**.
+
+   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
 

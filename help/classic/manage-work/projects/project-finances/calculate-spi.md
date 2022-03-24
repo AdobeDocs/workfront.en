@@ -72,9 +72,9 @@ For example, if you have a project with 1 task and the task has 10 planned hours
 ## Locate SPI in a project or task
 
 1. Go to the project or task where you want to view SPI.
-1. Click the&nbsp;**Project Details**&nbsp;tab or the&nbsp;**Task Details** tab, depending on whether you are viewing SPI for a project or task. 
+1. Click the&nbsp;**Project Details**&nbsp;tab or the&nbsp;**Task Details** tab, depending on whether you are viewing SPI for a project or task.
+1. Click **Finance**.   
+   ![](assets/spi-350x179.png)
 
-1. Finance
-1. 
 1. Find the **CPI/ SPI/ CSI** field.
 

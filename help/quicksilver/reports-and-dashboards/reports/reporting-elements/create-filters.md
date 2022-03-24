@@ -50,46 +50,46 @@ You must have the following access to perform the steps in this article:
 ## Walk-through
 
 View the following video to learn how to create a filter.
-This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience. 
+
+This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience.
 
 [ ![](assets/video-create-filters-350x198.png)](https://workfront-video.wistia.com/medias/5iz0l6s4o0)
 
 ## How-to steps
 
 1. Go to a list or a report that contains the filter that you want to customize.
-1. Click the **Filter** icon ![](assets/filter-nwepng.png).  
-
-1. Click **New Filter** at the top of the list of filters
+1. Click the **Filter** icon ![](assets/filter-nwepng.png). 
+1. 
+   Click **New Filter** at the top of the list of filters
 
    Or
 
-   Hover over the filter you want to modify and click the **Edit** icon ![](assets/edit-icon.png).
-
+   Hover over the filter you want to modify and click the **Edit** icon ![](assets/edit-icon.png). 
    The interface builder for customizing the Filter launches.
 
 1. Do any of the following:
 
-  * Modify existing filter rules by clicking the existing rule and selecting a new option.
-  * Add a filter rule by clicking **Add another Filter Rule**, begin typing the name of the option for which you want to add a rule in the **Start typing field name** box, then click it when it appears in the drop-down list.
+   * Modify existing filter rules by clicking the existing rule and selecting a new option.
+   * Add a filter rule by clicking **Add another Filter Rule**, begin typing the name of the option for which you want to add a rule in the **Start typing field name** box, then click it when it appears in the drop-down list.
 
-    Fields associated with the object of your filter are listed in the **Start typing field name** box. 
-  
-  * Click **AND** or **OR** when adding a new filter rule.  
-    When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     Fields associated with the object of your filter are listed in the **Start typing field name** box. 
+   
+   * Click **AND** or **OR** when adding a new filter rule.  
+     When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-    >[!NOTE]
-    >
-    >When you connect a group of AND&nbsp;statements by multiple OR statements, you must repeat the fields that are not changing between the OR statements for each group of statements. 
-    >
-    >
-    >![](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-350x163.png)    >
-    >
+     >[!NOTE]
+     >
+     >When you connect a group of AND&nbsp;statements by multiple OR statements, you must repeat the fields that are not changing between the OR statements for each group of statements. 
+     >
+     >
+     >![](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-350x163.png)     >
+     >
 
-    >
-    >When you build a filter for tasks that contain the word "marketing" and are in projects with a status of Current or Planning, you must have the following filter rules:
-    ><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project: Status Equals Current</pre><pre>OR</pre><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project:&nbsp;Status Equal Planning</pre>Although Task: Name Contains "marketing" does not change between the two AND filter groups, it must be repeated in the second group.
+     >
+     >When you build a filter for tasks that contain the word "marketing" and are in projects with a status of Current or Planning, you must have the following filter rules:
+     ><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project: Status Equals Current</pre><pre>OR</pre><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project:&nbsp;Status Equal Planning</pre>Although Task: Name Contains "marketing" does not change between the two AND filter groups, it must be repeated in the second group.
 
-  * Delete an existing filter rule by clicking the 'X' icon.
+   * Delete an existing filter rule by clicking the 'X' icon.
 
 1. (Optional) Click **Switch to Text Mode** to add a filter using the Text Mode interface.
 
@@ -154,7 +154,8 @@ If you still don't have access, ask your Workfront administrator if they set add
 </tr>
 </tbody>
 </table>
-<p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p>  
+<p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p>
+<div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
 <h2>Types of filter-building interfaces</h2>
 <p>You can create filters using the types of filter builders described in the table below: </p>
 <table cellspacing="15">
@@ -193,13 +194,16 @@ If you still don't have access, ask your Workfront administrator if they set add
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Requests area</p>
 -->
 </div> </td>
-</tr>  
-<td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" colspan="2"> <note type="note">
+</tr>
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+<td colspan="2"> <note type="note">
 <span class="preview">Beta builders for filters are not available in reports.</span>
-</note> </td>  
+</note> </td>
+</tr>
 </tbody>
 </table>
-<p>For information about Workfront objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p>  
+<p>For information about Workfront objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p>
+</div>
 <h2><a name="Create"></a>Create or edit a filter  in the standard builder </h2>
 <div>
 <p>You can create filters in lists and reports in the following ways:</p>
@@ -211,10 +215,15 @@ If you still don't have access, ask your Workfront administrator if they set add
 <p>Regardless of the method you use to create filters, creating a filter from scratch or from an existing filter is similar. </p>
 <ol>
 <li value="1"> <p>Go to a list or a report where you want to create a filter or that contains the filter that you want to customize.</p> </li>
-<li value="2"> Click the <strong>Filter</strong> icon <img src="assets/filter-nwepng.png">.  <note type="tip">
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click the <strong>Filter</strong> icon <img src="assets/filter-nwepng.png">. </p> <note type="tip">
 The report creator must allow for filters to be edited in order to view the&nbsp;Filter drop-down list on a report. The Report Default filter is applied to a report by default. The Report Default filter can be customized only when you edit the report.
-</note>  <img src="assets/filter-drop-down-expanded-nwe-350x904.png" style="width: 350;height: 904;">  </li>
-<li value="3">  <p>Click <strong>New Filter</strong> at the top of the list of filters</p> <p>Or</p> <p>Hover over the filter you want to modify and click the <strong>Edit</strong> icon <img src="assets/edit-icon.png">. </p>  <p>The builder for customizing the filter opens. </p> </li>
+</note> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/filter-drop-down-expanded-nwe-350x904.png" style="width: 350;height: 904;"> </p> </li>
+<li value="3">
+<div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
+<p>Click <strong>New Filter</strong> at the top of the list of filters</p>
+<p>Or</p>
+<p>Hover over the filter you want to modify and click the <strong>Edit</strong> icon <img src="assets/edit-icon.png">. </p>
+</div> <p>The builder for customizing the filter opens. </p> </li>
 <li value="4">Do any of the following:<br>
 <ul>
 <li><p>Modify existing filter rules by clicking the existing rule and selecting a new option.</p></li>
@@ -243,7 +252,8 @@ The report creator must allow for filters to be edited in order to view the&nbsp
 <li> <p>Share filters you create with other users, or make them available system-wide. For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping in Adobe Workfront</a>. </p> </li>
 <li> <p>Remove filters you no longer want to display in the list. For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md" class="MCXref xref">Remove filters, views, and groupings</a>. </p> </li>
 </ul> </li>
-</ol>  
+</ol>
+<div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
 <h2><a name="Create2"></a>Create or edit a filter in the beta builder</h2>
 <div>
 <p>Consider the following when creating filters using the different interfaces:</p>
@@ -361,19 +371,19 @@ Clicking
 <strong>Cancel</strong> at any time takes you back to the filter building area.
 </note> </li>
 <li value="19"> <p>Click&nbsp;<strong>Save</strong>. The filter is saved in the My filters list and is applied to the list of items.</p> </li>
-<li value="20"> <p> (Optional) Select another filter to apply it in addition to the new filter you just created. </p>
-<div class="tips" data-mc-autonum="<b>Tips: </b>"> <span class="autonumber"><span><b>Tips: </b></span></span>
+<li value="20"> <p> (Optional) Select another filter to apply it in addition to the new filter you just created. </p> <note type="tips">  
 <ul>
 <li> <p>There is no limit to the number of filters you can select.</p> </li>
 <li> <p>When you select multiple filters all their conditions must be met simultaneously to display matching results.</p> </li>
 </ul>
-</div> <p> <img src="assets/new-filters-apply-multiple-filters-350x335.png" style="width: 350;height: 335;"> </p> <p>The number of filters you selected displays next to the filter icon at the top of the list of items.</p> <p> <img src="assets/new-filters-number-of-filters-selected-wb-nwe.png"> </img> </p> </li>
+</note> <p> <img src="assets/new-filters-apply-multiple-filters-350x335.png" style="width: 350;height: 335;"> </p> <p>The number of filters you selected displays next to the filter icon at the top of the list of items.</p> <p> <img src="assets/new-filters-number-of-filters-selected-wb-nwe.png"> </img> </p> </li>
 <li value="21"> <p>(Optional) Do one of the following:</p>
 <ul>
 <li> <p>Share the filter with others, or make it available system-wide. For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping in Adobe Workfront</a>.</p> </li>
 <li> <p>Delete the filter if it is no longer valid or a duplicate.&nbsp;For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref">Delete filters</a>. </p> </li>
 </ul> </li>
-</ol>  
+</ol>
+</div>
 </div>
 -->
 

@@ -80,9 +80,9 @@ A custom status that you set as a default group status is used in the following 
    >
    >If you are setting the custom status for a group, and you later assign the project to a different group, the project status will reload and could change.
 
-  1. Go to the project where you want to use the custom status.
-  1. Click the More menu ![](assets/more-icon.png), then click **Edit**.  
-  1. In the **Edit Project** box that displays, in the **Group** field under **Project association**, select the group where the status resides.
-  
-  1. Click **Save Changes**.
+   1. Go to the project where you want to use the custom status.
+   1. Click the More menu ![](assets/more-icon.png), then click **Edit**.  
+   1. In the **Edit Project** box that displays, in the **Group** field under **Project association**, select the group where the status resides.
+   
+   1. Click **Save Changes**.
 

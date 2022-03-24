@@ -233,23 +233,23 @@ For example, to manage a filter:
 
 1. In the filter box, do one of the following:
 
-  * Click **New Filter** to add a new filter.
+   * Click **New Filter** to add a new filter.
 
-    The New Filter builder opens. For information about creating filters, see [Filters overview in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-  
-  * Mouse over any of the filters listed and click the **Edit icon** ![](assets/edit-icon.png).
+     The New Filter builder opens. For information about creating filters, see [Filters overview in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   
+   * Mouse over any of the filters listed and click the **Edit icon** ![](assets/edit-icon.png).
 
-    The **Customize Filter** builder opens. Customizing filters is identical to creating them.
-  
-  * Mouse over any of the filters listed and click the **More menu** ![](assets/more-icon.png), then click&nbsp;**Remove**.
+     The **Customize Filter** builder opens. Customizing filters is identical to creating them.
+   
+   * Mouse over any of the filters listed and click the **More menu** ![](assets/more-icon.png), then click&nbsp;**Remove**.
 
-    The filter is removed from the list.
+     The filter is removed from the list.
 
-    or
+     or
 
-    Click **Share** and specify the names of the entities that you want to share the filter with, then click **Save**.
+     Click **Share** and specify the names of the entities that you want to share the filter with, then click **Save**.
 
-    >[!TIP]
-    >
-    >You cannot share or remove native Adobe Workfront filters or filters that you did not create yourself.
+     >[!TIP]
+     >
+     >You cannot share or remove native Adobe Workfront filters or filters that you did not create yourself.
 

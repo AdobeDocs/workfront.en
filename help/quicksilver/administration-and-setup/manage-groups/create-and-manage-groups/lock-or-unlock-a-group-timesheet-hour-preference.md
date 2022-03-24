@@ -68,12 +68,12 @@ You must have the following to perform the steps in this article:
 
 1. On the page that appears, do any of the following:
 
-  * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
-  * If you want all groups below yours to use your configuration for a preference, make sure that it is locked ![](assets/lock-toggle-button.png) (this is the default).
+   * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
+   * If you want all groups below yours to use your configuration for a preference, make sure that it is locked ![](assets/lock-toggle-button.png) (this is the default).
 
-    >[!IMPORTANT]
-    >
-    >It's important to communicate with the administrators and users in groups below yours to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by any subgroups below. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators in lower subgroups might have made.
+     >[!IMPORTANT]
+     >
+     >It's important to communicate with the administrators and users in groups below yours to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by any subgroups below. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators in lower subgroups might have made.
 
 1. Click **Save**.
 

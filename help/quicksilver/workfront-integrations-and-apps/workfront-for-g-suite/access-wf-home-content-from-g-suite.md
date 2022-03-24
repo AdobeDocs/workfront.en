@@ -83,12 +83,12 @@ Before you can access Home content from G Suite, you must
 
    Work items appear as follows:
 
-  * ![](assets/task-icon.png) **Tasks** display the parent project name, task name, and planned completion date.
-  
-  * ![](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
-  
-  * **Approvals** display the requester's name, document name, and submission date.
-  * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
+   * ![](assets/task-icon.png) **Tasks** display the parent project name, task name, and planned completion date.
+   
+   * ![](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
+   
+   * **Approvals** display the requester's name, document name, and submission date.
+   * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 
 1. Click anywhere on a work item to see its details, updates, and documents.
 

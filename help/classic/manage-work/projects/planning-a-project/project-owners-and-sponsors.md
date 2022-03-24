@@ -68,7 +68,7 @@ The following are possible using the Project Owner field:&nbsp;
 <li value="3"> <p>Specify the name of a user for the <strong>Project Owner</strong> field.</p> <p>Only active users can be specified as Project Owners.</p> </li>
 <li value="4"> Click&nbsp;<strong>Save</strong>. </li>
 </ol>
-<p>  </p>
+<p> <img src="assets/project-owner-350x79.png" alt="" style="width: 350;height: 79;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
 </div>
 -->
 

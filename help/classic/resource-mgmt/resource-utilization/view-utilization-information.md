@@ -360,18 +360,16 @@ To track the progress or cost of one or more projects with a Utilization report:
    * To view utilization information for a single project:
 
       1. Go to the project for which you want to view utilization information, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
-      
       1. Utilization information is displayed automatically when viewing an individual project, and applying a filter is not required.   
          If you want to filter the Utilization report, you can apply a filter, then click **Run**.  
          For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.   
          Utilization information is displayed for individual users and roles (users are grouped within their associated role).
-      
+
          ![](assets/utilization-overview-350x204.png)
 
    * To view utilization information for multiple projects:
 
       1. Click **Reporting** in the Global Navigation Bar to go to the Reporting area, click the **Utilization** tab, then click the **Show** drop-down menu and click **Projects**.
-      
       1. Apply a filter to the Utilization report, then click **Run**.   
          You must specify one or more projects in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.  
          Utilization information is displayed for individual roles and projects (roles are grouped within their associated project).
@@ -381,7 +379,6 @@ To track the progress or cost of one or more projects with a Utilization report:
    * To view utilization information for a program:
 
       1. Click **Reporting** in the Global Navigation Bar to go to the Reporting area, click the **Utilization** tab, then click the **Show** drop-down menu and click **Programs**.
-      
       1. Apply a filter to the Utilization report, then click **Run**.   
          You must specify one or more programs in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.   
          Utilization information is displayed for individual projects and programs (projects are grouped within their associated program).
@@ -391,7 +388,6 @@ To track the progress or cost of one or more projects with a Utilization report:
    * To view utilization information for a portfolio:
 
       1. Click **Reporting** in the Global Navigation Bar to go to the Reporting area, click the **Utilization** tab, then click the **Show** drop-down menu and click **Portfolios**.
-      
       1. Apply a filter to the Utilization report, then click **Run**.   
          You must specify one or more portfolios in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.   
          Utilization information is displayed for individual projects, programs, and portfolios (projects are grouped within their associated program, and programs are grouped within their associated portfolio).
@@ -433,8 +429,11 @@ When you create a filter, all Workfront users who have access to the Utilization
 
 To create or modify a filter:
 
-1. To filter utilization information for a single project, go to the project for which you want to filter utilization information, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab). Or
-   To filter utilization information for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab. 
+1. To filter utilization information for a single project, go to the project for which you want to filter utilization information, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
+
+   Or
+
+   To filter utilization information for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.
 
 1. Click the **Filter** icon to display the filter options.
 
@@ -486,15 +485,21 @@ To create or modify a filter:
 
 ### Apply a saved filter
 
-1. To apply an existing filter on the Utilization Report for a single project, go to the project for which you want to apply the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab). Or
-   To apply an existing filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab. 
+1. To apply an existing filter on the Utilization Report for a single project, go to the project for which you want to apply the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
+
+   Or
+
+   To apply an existing filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.
 
 1. Click **Saved Filters**, then select the filter you want to apply from the drop-down menu.
 
 ### Duplicate a filter
 
-1. To duplicate a filter on the Utilization Report for a single project, go to the project for which you want to duplicate the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab). Or
-   To duplicate a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab. 
+1. To duplicate a filter on the Utilization Report for a single project, go to the project for which you want to duplicate the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
+
+   Or
+
+   To duplicate a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.
 
 1. Click **Saved Filters**, mouse over the filter you want to duplicate in the drop-down menu, then click the **Duplicate** icon.
 
@@ -509,8 +514,11 @@ When you rename a filter, all Workfront users who have access to the Utilization
 
 To rename a filter:
 
-1. To rename a filter on the Utilization Report for a single project, go to the project for which you want to rename the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab). Or
-   To rename a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab. 
+1. To rename a filter on the Utilization Report for a single project, go to the project for which you want to rename the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
+
+   Or
+
+   To rename a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.
 
 1. Click **Saved Filters**, mouse over the filter you want to duplicate in the drop-down menu, then click the **Rename** icon.  
    ![](assets/utilization-filter-rename.png)  
@@ -524,8 +532,11 @@ When you delete a filter, the filter is deleted for all Workfront users who have
 
 To delete a filter:
 
-1. To delete a filter on the Utilization Report for a single project, go to the project for which you want to delete the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab). Or
-   To delete a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab. 
+1. To delete a filter on the Utilization Report for a single project, go to the project for which you want to delete the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
+
+   Or
+
+   To delete a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.
 
 1. Click **Saved Filters**, mouse over the filter you want to duplicate in the drop-down menu, then click the **Delete** icon.
 
@@ -537,8 +548,13 @@ To delete a filter:
 
 You can adjust the date range for which utilization information is displayed. You can select a past or future date. Changes you make are visible only to you.
 
-1. To adjust the date range of the Utilization report for a single project, go to the project for which you want to adjust the date range, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab). Or
-   To adjust the date range of the Utilization report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.  ![](assets/utilization-overview-350x204.png)
+1. To adjust the date range of the Utilization report for a single project, go to the project for which you want to adjust the date range, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
+
+   Or
+
+   To adjust the date range of the Utilization report for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.
+
+   ![](assets/utilization-overview-350x204.png)
 
 1. Click the date range next to the **Export** button.
 
@@ -560,8 +576,13 @@ When viewed in Microsoft Excel, negative numbers are displayed in parenthesis.
 
 To export utilization information:
 
-1. To export utilization information for a single project, go to the project for which you want to export utilization information, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab). Or
-   To export utilization information for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.  ![](assets/utilization-overview-350x204.png)
+1. To export utilization information for a single project, go to the project for which you want to export utilization information, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
+
+   Or
+
+   To export utilization information for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.
+
+   ![](assets/utilization-overview-350x204.png)
 
 1. Click **Export**, located in the upper-left corner of the **Utilization** tab.
 
@@ -583,17 +604,20 @@ To export utilization information:
 
 You can visualize the data from the Utilization report in a chart view.
 
-1. To view a Utilization report for a single project in a chart format, go to the project you want to view, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab). Or
-   To view a Utilization report in a chart format for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab. 
+1. To view a Utilization report for a single project in a chart format, go to the project you want to view, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
+
+   Or
+
+   To view a Utilization report in a chart format for multiple projects, for a program, or for a portfolio, click **Reporting** in the Global Navigation Bar to go to the Reporting area, then click the **Utilization** tab.
 
 1. In the upper-right corner of the Utilization report, click the **Chart** icon.  
    ![](assets/utilization-chart.png)  
    The Utilization report is displayed in a chart view. 
 
 1. (Optional) Configure this to show Projects, Programs, or Portfolios by selecting the appropriate option from the **Show** drop-down menu.
-1. (Optional) Mouse over a specific point in time on the report to view data for that point in time. 
+1. (Optional) Mouse over a specific point in time on the report to view data for that point in time.
 
-   ![](assets/utilization-chart-hover-350x180.png)   
+   ![](assets/utilization-chart-hover-350x180.png)
 
 1. (Optional) Adjust the filters to decide what information is displayed in the chart. For information about adjusting the filters, see the section [Filter utilization information](#filtering-utilization-information) in this article. 
 1. (Optional) Configure the timeframe of the chart report, as described in the section [Adjust the date range for which information is displayed](#adjusting-the-date-range-for-which-information-is-displayed) in this article.

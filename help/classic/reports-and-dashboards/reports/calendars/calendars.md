@@ -21,5 +21,5 @@ This section contains the following articles:
 * [Delete a calendar report](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md) 
 * [Copy a calendar report](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md) 
 * [Add ad-hoc events to a calendar report](../../../reports-and-dashboards/reports/calendars/add-ad-hoc-events.md) 
-* Learning Path for reports and dashboards
+* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ)
 

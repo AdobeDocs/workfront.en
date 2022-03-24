@@ -173,13 +173,13 @@ You can adjust the zoom percentage when viewing a video proof. When viewing a pr
 
 1. While viewing a video proof in the proofing viewer, do any of the following to adjust the zoom percentage of the proof (see also the shortcuts for these actions in [Keyboard shortcuts in the Workfront Proof proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)):
 
-  * Click the **Zoom** icon, then either click on the proof to zoom in, or drag across an area of the proof to zoom in only on that area. You can click the proof multiple times to continue zooming in.  
-    ![Video_pan_zoom_percentage_icon.png](assets/video-pan-zoom-percentage-icon-350x203.png)
+   * Click the **Zoom** icon, then either click on the proof to zoom in, or drag across an area of the proof to zoom in only on that area. You can click the proof multiple times to continue zooming in.  
+     ![Video_pan_zoom_percentage_icon.png](assets/video-pan-zoom-percentage-icon-350x203.png)
 
-  * Click the current zoom percentage, the click the zoom percentage or click&nbsp;**Fit to page**.  
-  
-  * Click the **Plus** or **Minus** icons to increase or decrease the zoom percentage.  
-    ![video_pan_zoom_click_percentage_box.png](assets/video-pan-zoom-click-percentage-box-350x213.png)
+   * Click the current zoom percentage, the click the zoom percentage or click&nbsp;**Fit to page**.  
+   
+   * Click the **Plus** or **Minus** icons to increase or decrease the zoom percentage.  
+     ![video_pan_zoom_click_percentage_box.png](assets/video-pan-zoom-click-percentage-box-350x213.png)
 
 1. If you need to pan the proof, click the **Pan** icon, then drag the proof as needed.  
    ![video_pan_zoom_pan_hand.png](assets/video-pan-zoom-pan-hand-350x216.png)

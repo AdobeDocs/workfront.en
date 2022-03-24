@@ -79,11 +79,13 @@ By default, Workfront distributes the Planned Hours evenly across the Duration o
 For example, if a task is set to start at 4 PM and the schedule has one hour left in the first day of the task, Workfront puts one Planned Hour in the first day of the task Duration, then divides the remainder of the Planned Hours equally between the rest of the days in the task Duration.
 
 <!--
-To see what amount of Planned Hours is applied to each day during the Duration of a task, you can access the Resource Grid inside the Legacy Gantt of a project.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">To see what amount of Planned Hours is applied to each day during the Duration of a task, you can access the Resource Grid inside the Legacy Gantt of a project. </p>
 -->
 
 <!--
-<span class="autonumber"><span><b>Tip: </b></span></span>The Legacy Gantt chart of a project is a deprecated feature and we have removed it from most environments.
+<note type="tip">
+The Legacy Gantt chart of a project is a deprecated feature and we have removed it from most environments.
+</note>
 -->
 
 >[!NOTE]
@@ -91,12 +93,14 @@ To see what amount of Planned Hours is applied to each day during the Duration o
 >The Planned Hours per Day is the allocation of Planned Hours for each day during the Duration of the task. If the task has one assignment, then this number represents the Planned Hours per Day per assignment, as well. If the task has multiple assignments, the Planned Hours per Day per assignment is different than the Planned Hours per Day for the task. There is no visual representation in Workfront for the Planned Hours per Day per assignment, for tasks with multiple assignments.
 
 <!--
+<div data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
 <p>To view the Planned Hours per Day for a task using the Legacy Gantt chart:</p>
 <ol>
 <li value="1">Go to the project for which you are calculating your revenue.</li>
 <li value="2">Click <strong>More</strong>, then click <strong>Legacy Gantt</strong>.<br></li>
 <li value="3"> <p> Click the <strong>Resource Grid</strong> icon in the upper-right corner of the Gantt chart.</p> <p>The <strong>Planned Hours</strong> are distributed evenly across the duration of the task, according to the calendar days displayed in the chart.</p> <p> <img src="assets/resource-grid-in-gantt-350x181.png" alt="resource_grid_in_gantt.png" style="width: 350;height: 181;"> </p> </li>
 </ol>
+</div>
 -->
 
 ## Planned Hours on tasks vs. Planned Hours on projects
@@ -127,7 +131,7 @@ Whether issues are included in the calculation for Planned Hours depends on the 
 
 You can find the Planned Hours information on tasks, issues, or projects in the following locations:
 
-* [Planned Hours in the Details tab](#planned)  
+* [Planned Hours in the Details tab](#planned) 
 * [Planned Hours when editing a task or issue](#plan-hours-on-edit-task-or-issue) 
 * [Planned Hours in reports](#reports) 
 * [Planned Hours in Resource Management tools](#resource-grid)
@@ -160,14 +164,21 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Planned Hours in the Details tab Finding the Planned Hours in the Details  tab is identical for tasks, issues, and projects.
+
+### Planned Hours in the Details tab
+
+Finding the Planned Hours in the Details  tab is identical for tasks, issues, and projects.
 
 To locate the Planned Hours value on the Details  tab  of a task:
 
 1. Go to a task for which you want to review the Planned Hours.
-1. Go to the **Task Details** tab. 
+1. Go to the **Task Details** tab.
 
-1. Select the **Overview** subtab and notice the Planned Hours value.  This value represents the time it would take the user assigned to the task to complete it.
+   ![actual_hours_on_task_details_tab.png](assets/actual-hours-on-task-details-tab-350x370.png)
+
+1. Select the **Overview** subtab and notice the Planned Hours value.
+
+   This value represents the time it would take the user assigned to the task to complete it.
 
 ### Planned Hours when editing a task or issue
 
@@ -180,7 +191,11 @@ Finding the Planned Hours while editing a task or an issue is identical.
 To locate the value of Planned Hours while editing a task:
 
 1. Go to the task or issue you want to view Planned Hours for.
-1. Click **Edit Task.** The Planned Hours are located in the **Overview** section.
+1. Click **Edit Task.**
+
+   The Planned Hours are located in the **Overview** section.
+
+![](assets/uph-350x233.png)
 
 ### Planned Hours in reports
 
@@ -190,13 +205,15 @@ Adding the Planned Hours column to a project view is similar to building a view 
 
 To show Planned Hours in a project report:
 
-1. Go to the **Reporting** area in Global Navigation Bar. 
-1. Reports
+1. Go to the **Reporting** area in Global Navigation Bar.
+1. Select the **Reports** tab.
 1. Click **New Report**, then choose **Project** as your object.
 
 1. Click **Add Column**, and start typing **Planned Hours** when the **Show in this column** drop-down field is displayed. Select the field when it appears in the list.
 
 1. Click **Save + Close** to save the report.
+
+   ![planned_hours_for_projects_report.png](assets/planned-hours-for-projects-report-350x123.png)
 
    The Planned Hours column shows the total number of Planned Hours on each project.
 
@@ -207,42 +224,37 @@ You can see the value of Planned Hours for your tasks, issues, or projects when 
 * 
 
   <!--
-  Capacity Planner.
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Capacity Planner. </p>
   -->
 
   <!--
-  For information about the Capacity Planner, see
-  <a href="../../../resource-mgmt/legacy-res-planning/plan-resources-in-capacity-planner.md" class="MCXref xref">Plan resources in the Capacity Planner</a>.
-  -->
-
-* 
-
-  <!--
-  Resource Estimates on the Business Case of a project.
-  -->
-
-  <!--
-  For information about Resource Estimates on the Business Case of a project, see
-  <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref">Estimate project resources by applying Legacy Resource Pools to the Business Case </a>.
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For information about the Capacity Planner, see <a href="../../../resource-mgmt/legacy-res-planning/plan-resources-in-capacity-planner.md" class="MCXref xref">Plan resources in the Capacity Planner</a>.</p>
   -->
 
 * 
 
   <!--
-  User Resource Grid.
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Resource Estimates on the Business Case of a project.</p>
   -->
 
   <!--
-  For information about the Resource Grid, see
-  <a href="../../../resource-mgmt/legacy-res-planning/resource-grid-overview.md" class="MCXref xref">Overview of the Resource Grid </a>.
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For information about Resource Estimates on the Business Case of a project, see <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref">Estimate project resources by applying Legacy Resource Pools to the Business Case </a>.</p>
   -->
 
 * 
 
   <!--
-  Team Builder.
-  <br>For information about using the Team Builder, see
-  <a href="../../../manage-work/projects/manage-projects/work-in-legacy-team-builder.md" class="MCXref xref">Work in the Legacy Team Builder</a>.
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">User Resource Grid.</p>
+  -->
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For information about the Resource Grid, see <a href="../../../resource-mgmt/legacy-res-planning/resource-grid-overview.md" class="MCXref xref">Overview of the Resource Grid </a>. </p>
+  -->
+
+* 
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Team Builder.<br>For information about using the Team Builder, see <a href="../../../manage-work/projects/manage-projects/work-in-legacy-team-builder.md" class="MCXref xref">Work in the Legacy Team Builder</a>.</p>
   -->
 
 * Resource Planner.
@@ -253,7 +265,8 @@ You can see the value of Planned Hours for your tasks, issues, or projects when 
 
   For information about the utilization report, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* The following tabs:
+* 
+  The following tabs:
 
    * Scheduling or Workload Balancer tabs in the People area.
    * Scheduling subtab at the project level

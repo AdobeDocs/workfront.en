@@ -90,32 +90,54 @@ You must have the following to perform the steps in this article:
 1. Start creating the calculated custom field, as explained in the section [Add a calculated field to a custom form](#creating-calculated-custom-fields) in this article.
 1. Click **Maximize** to open the **Calculation Editor** and build your calculation, then click **Minimize** to close it when you are finished.
 
-1. A calculation must start with an expression followed by parentheses containing the fields you want to reference. Using the example in the introduction to this article, you could create a custom field called Profit, containing a calculation that displays the difference between Actual Revenue and Actual Cost: 
-1. 
+   A calculation must start with an expression followed by parentheses containing the fields you want to reference. Using the example in the introduction to this article, you could create a custom field called Profit, containing a calculation that displays the difference between Actual Revenue and Actual Cost:
 
    ```
    SUB(Actual Revenue, Actual Cost)
    ```
 
-1. For information about the expressions that are available, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   For information about the expressions that are available, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    <!--
-   <span class="autonumber"><span><b>Important: </b></span></span>
+   <note type="important">
    <span class="preview">In a multi-object custom form, the fields referenced in all calculated custom fields must be compatible with all of the form's object types. For more information, see </span>
    <a href="#calculat" class="preview MCXref xref xrefpreview">Calculated custom fields in multi-object custom forms</a>
    <span class="preview"> in this article.</span>
+   </note>
    -->
 
-1. To create your calculation, you can do the following in the Calculation Editor:
-1. ```<li>Drag or single-click expressions and fields to add them to your calculation.</li>``` ```<li> <p>Hover over an expression <span>in your calculation to see a description of the expression, an example showing how it can be used, and a "Learn More" link to more information in the article <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Calculated data expressions</a>.</span></p> <p> <img src="assets/hover-expression-help-text-350x272.jpg" style="width: 350;height: 272;"> </p> </li>``` ```<li> <p>Use the color coding to identify the components you have added.</p> <p>Expressions display in blue and fields display in green:</p> <p> <img src="assets/colors-fields-expressions-350x209.jpg" style="width: 350;height: 209;"> </p> </li>``` ```<li>Reference expressions in a long calculation using the line numbers that display on the left.</li>``` ```<li>Start typing an expression or field to display a list of available items, then click the one you need. Each item displays with an "F" for field or an "E" for expression.</li>``` ```<li>Type an opening parenthesis and the closing parenthesis is added automatically.</li>``` 
+   To create your calculation, you can do the following in the Calculation Editor:
 
-   <!--
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Find out immediately what is causing errors in your calculations. Errors are highlighted in red. Hovering over an error displays a brief description of its cause.</p> <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Add screen shot when this is ready</p>
-   --> </li>
-   -->
+   * Drag or single-click expressions and fields to add them to your calculation.
+   * Hover over an expression ```in your calculation to see a description of the expression, an example showing how it can be used, and a "Learn More" link to more information in the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).```
 
-   ```<li> <p>In the area below your calculation, preview the results on an existing Workfront object<!--   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">     or by providing test values:    </MadCap:conditionalText>  --></p> <p> <img src="assets/preview-calc-350x168.jpg" style="width: 350;height: 168;"> </p> </li>``` 
+     ![](assets/hover-expression-help-text-350x272.jpg)
+
+   * Use the color coding to identify the components you have added.
+
+     Expressions display in blue and fields display in green:
+
+     ![](assets/colors-fields-expressions-350x209.jpg)
+
+   * Reference expressions in a long calculation using the line numbers that display on the left.
+   * Start typing an expression or field to display a list of available items, then click the one you need. Each item displays with an "F" for field or an "E" for expression.
+   * Type an opening parenthesis and the closing parenthesis is added automatically.
+
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Find out immediately what is causing errors in your calculations. Errors are highlighted in red. Hovering over an error displays a brief description of its cause.</p> <!--   
+     <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Add screen shot when this is ready</p>   
+     --> </li>   
+     -->   
+   
+   * In the area below your calculation, preview the results on an existing Workfront object   
+   
+     <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     or by providing test values:   
+     </MadCap:conditionalText>   
+     -->
+
+     ![](assets/preview-calc-350x168.jpg)
 
 1. (Optional) Use any of the following options to configure your calculated custom field:
 
@@ -130,9 +152,11 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Update previous calculations</td> 
       <td>When you are editing an existing calculated custom field, you can select this option to trigger an update in the calculation when you save the custom form. This happens only once when you save the custom form. The option returns to its disabled state after you do so.</td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader"><a name="Display_formula_in_instructions"></a>Display formula in instructions</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Leave this option enabled if you want the users who fill out the custom form to see the field's formula when they hover over the field. For more information, see the information about <a href="#instructions" class="MCXref xref">Instructions</a> earlier in this table.</td>  
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+      <td role="rowheader"><a name="Display_formula_in_instructions"></a>Display formula in instructions</td> 
+      <td>Leave this option enabled if you want the users who fill out the custom form to see the field's formula when they hover over the field. For more information, see the information about <a href="#instructions" class="MCXref xref">Instructions</a> earlier in this table.</td> 
+     </tr> 
     </tbody> 
    </table>
 
@@ -145,16 +169,16 @@ You must have the following to perform the steps in this article:
 
 1. If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-  * [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 
-  * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+   * [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 
+   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
 
-    <!--  
-    <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a>  
-    -->  
-  
-  * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-  * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
-  * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a> </li>   
+     -->   
+   
+   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 ## Considerations for building calculated custom fields
 

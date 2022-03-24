@@ -25,8 +25,7 @@ There is no limit on the number of Workfront Library portals your organization c
 
 ## Set up a portal
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **Portals**.
 
@@ -37,9 +36,9 @@ There is no limit on the number of Workfront Library portals your organization c
 
    You can continue with the portal set up in the following ways:
 
-  * [Add your organization's branding to the portal](#add) 
-  * [Select taxonomy for content in the portal](#select) 
-  * [Enable searching for keywords in the portal](#enable)
+   * [Add your organization's branding to the portal](#add) 
+   * [Select taxonomy for content in the portal](#select) 
+   * [Enable searching for keywords in the portal](#enable)
 
 ### Add your organization's branding to the portal
 
@@ -55,9 +54,9 @@ You can brand a portal with your company logo or another image.
 
    The image can be up to a 1,000 x 1,000 pixel image in one of following file formats:
 
-  * JPG
-  * GIF
-  * PNG
+   * JPG
+   * GIF
+   * PNG
 
    >[!TIP]
    >

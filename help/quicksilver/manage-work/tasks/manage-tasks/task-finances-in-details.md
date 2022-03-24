@@ -38,7 +38,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Edit task finances in the Task Details section
+
+## Edit task finances in the Task Details section
 
 1. Go to a project where you want to view a task.
 
@@ -46,16 +47,22 @@ Edit task finances in the Task Details section
    >
    >To find a task, you can also search for it, and click the name to access the task. For more information on searching for objects in Workfront, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
-1. Click **Tasks** in the left panel.  
+1. Click **Tasks** in the left panel. 
 1. Click the name of a task that you want to view.
 1. Click **Task Details**.
-1. (Optional) Click the **Collapse all** icon in the top right of the Task Details page. 
-1. ![](assets/collapse-all-icon-on-details-page.png)   
+1. (Optional) Click the **Collapse all** icon in the top right of the Task Details page.
 
-1. Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
-1. Click **Finance** to expand and view the financial information for the task.  Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance**.  
+   ![](assets/collapse-all-icon-on-details-page.png)
 
-1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field. 
+   >[!NOTE]
+   >
+   >Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+
+1. Click **Finance** to expand and view the financial information for the task.
+
+   Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance**. 
+
+1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 1. Review or edit the following information in the **Finance** area: 
 
    <table cellspacing="0"> 

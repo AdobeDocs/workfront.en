@@ -53,7 +53,7 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Create a new subgroup</td> 
-      <td> Select the group under which you want to create a new subgroup, then click <strong>New Subgroup</strong>. <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
+      <td> <p data-mc-conditions="QuicksilverOrClassic.Classic">Select the group under which you want to create a new subgroup, then click <strong>New Subgroup</strong>.</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Edit a subgroup</td> 

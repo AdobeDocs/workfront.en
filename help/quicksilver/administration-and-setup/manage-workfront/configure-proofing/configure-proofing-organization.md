@@ -58,11 +58,11 @@ You can configure actions for your organization in the following ways:
 
 1. Do either of the following:
 
-  * To create a new action, in the **Actions** section, click&nbsp;**New action**.
+   * To create a new action, in the **Actions** section, click&nbsp;**New action**.
 
-    There is no limit to the number of actions you can set up in your account.
-  
-  * To rename an existing action, click **Setup** next to the action.
+     There is no limit to the number of actions you can set up in your account.
+   
+   * To rename an existing action, click **Setup** next to the action.
 
 1. Type a name for the action, then click **Save**.
 1. Click **Save.**
@@ -168,17 +168,17 @@ To modify the default settings for proofs:
 
 1. Continue with the following sections to learn about each available option in the **Proof Defaults** section:
 
-  * [Deadline (+business days)](#deadline-business-days) 
-  * [Copy owner from original proof](#copy-owner-from-original-proof) 
-  * [Electronic signatures](#electronic-signatures) 
-  * [Proof counter](#proof-counter) 
-  * [Make folder mandatory](#make-folder-mandatory) 
-  * [Disable proof email notifications](#disable-proof-email-notifications) 
-  * [Right-to-left text support in comments](#right-to-left-text-support) 
-  * [Login required](#login-required) 
-  * [Comment deletion](#comment-deletion) 
-  * [Web Proofing Viewer](#web-proofing-viewer) 
-  * [Desktop Proofing Viewer](#desktop-proofing-viewer)
+   * [Deadline (+business days)](#deadline-business-days) 
+   * [Copy owner from original proof](#copy-owner-from-original-proof) 
+   * [Electronic signatures](#electronic-signatures) 
+   * [Proof counter](#proof-counter) 
+   * [Make folder mandatory](#make-folder-mandatory) 
+   * [Disable proof email notifications](#disable-proof-email-notifications) 
+   * [Right-to-left text support in comments](#right-to-left-text-support) 
+   * [Login required](#login-required) 
+   * [Comment deletion](#comment-deletion) 
+   * [Web Proofing Viewer](#web-proofing-viewer) 
+   * [Desktop Proofing Viewer](#desktop-proofing-viewer)
 
 ### Deadline (+business days)
 

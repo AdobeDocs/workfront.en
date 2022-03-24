@@ -23,15 +23,15 @@ The following are some of the benefits of using templates for creating your proj
 * It is helpful when reporting on projects. For example, you can report on projects that share the same template, to compare their progress and find improvements in how they could be completed. 
 * In addition to defining the future project settings, you can add the following information for the future project on a template:
 
-  * Tasks
-  * Documents
-  * Approvals
-  * Queue Details
-  * Queue Topics
-  * Topic&nbsp;Groups
-  * Routing Rules
-  * Custom&nbsp;Forms
-  * Company and Group information
+   * Tasks
+   * Documents
+   * Approvals
+   * Queue Details
+   * Queue Topics
+   * Topic&nbsp;Groups
+   * Routing Rules
+   * Custom&nbsp;Forms
+   * Company and Group information
 
 ## Best practices for creating templates
 
@@ -42,8 +42,8 @@ Consider the following when creating templates:
 
   For information about Duration, see the following articles:
 
-  * [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) 
-  * [Overview of project Duration](../../../manage-work/projects/planning-a-project/project-duration.md)
+   * [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) 
+   * [Overview of project Duration](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   For information about Planned Hours, see [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
 

@@ -40,9 +40,9 @@ The following explanations correspond with the steps depicted in the flowchart:
 
 1. ```URL circuit status is evaluated. One of the following occurs:```
 
-  * If the circuit is open and not allowing deliveries at this time, restart the process at step 5.
-  * If the circuit is half-open, this implies that our circuit is currently open, but enough time has passed to allow testing of the URL to see if the problem with delivering to it has been resolved.
-  * If the message delivery attempt limits have been reached (48 hours of retrying) then the message is dropped
+   * If the circuit is open and not allowing deliveries at this time, restart the process at step 5.
+   * If the circuit is half-open, this implies that our circuit is currently open, but enough time has passed to allow testing of the URL to see if the problem with delivering to it has been resolved.
+   * If the message delivery attempt limits have been reached (48 hours of retrying) then the message is dropped
 
 1. ```If the URL circuit is closed and allowing deliveries, attempt to deliver the message.``` ```If this delivery fails, the message will restart at step 1``` 
 

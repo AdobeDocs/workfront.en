@@ -53,14 +53,14 @@ If you already added the IP addresses to your allowlist for your production envi
 
 1. You must specify what type of SPF record needs to be configured. These are the valid types of SPF records:&nbsp;
 
-  * all (https://dmarcian.com/spf-syntax-table/#all)
-  * ip4 (https://dmarcian.com/spf-syntax-table/#ip4)
-  * ip6 (https://dmarcian.com/spf-syntax-table/#ip6)
-  * a (https://dmarcian.com/spf-syntax-table/#a)
-  * mx&nbsp;(https://dmarcian.com/spf-syntax-table/#mx)
-  * ptr (https://dmarcian.com/spf-syntax-table/#ptr)
-  * exists (https://dmarcian.com/spf-syntax-table/#exists)
-  * include (https://dmarcian.com/spf-syntax-table/#include)
+   * all (https://dmarcian.com/spf-syntax-table/#all)
+   * ip4 (https://dmarcian.com/spf-syntax-table/#ip4)
+   * ip6 (https://dmarcian.com/spf-syntax-table/#ip6)
+   * a (https://dmarcian.com/spf-syntax-table/#a)
+   * mx&nbsp;(https://dmarcian.com/spf-syntax-table/#mx)
+   * ptr (https://dmarcian.com/spf-syntax-table/#ptr)
+   * exists (https://dmarcian.com/spf-syntax-table/#exists)
+   * include (https://dmarcian.com/spf-syntax-table/#include)
 
    For example, “v=spf1 a mx include: [spf.workfront.com](http://spf.workfront.com/)&nbsp;-all”
 

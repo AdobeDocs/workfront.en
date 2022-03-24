@@ -64,19 +64,19 @@ A scenario is a copy of a plan. You can create as many scenarios as you need. Ho
 
 1. Update your new scenario in any of the following ways:
 
-  * Create, update, or delete initiatives
+   * Create, update, or delete initiatives
 
-    >[!TIP]
-    >
-    >When you delete an initiative in a scenario it is removed only from the selected scenario, not from all the scenarios.
+     >[!TIP]
+     >
+     >When you delete an initiative in a scenario it is removed only from the selected scenario, not from all the scenarios.
 
-    For information about creating initiatives, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
-  
-  * Update the priorities of your initiatives
-  * Adjust people or budget information
-  * Review and adjust initiative conflicts in your scenario
+     For information about creating initiatives, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
+   
+   * Update the priorities of your initiatives
+   * Adjust people or budget information
+   * Review and adjust initiative conflicts in your scenario
 
-    For information about resolving conflicts, see [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](../scenario-planner/resolve-conflicts-in-sp.md).
+     For information about resolving conflicts, see [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](../scenario-planner/resolve-conflicts-in-sp.md).
 
 1. Click **Save Plan** to save your changes.
 

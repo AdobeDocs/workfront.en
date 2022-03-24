@@ -71,7 +71,7 @@ To create and configure a Sharepoint Site:
 
    For instructions, visit [Create a site](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) in the Microsoft Documentation.
 
-  * Select the **Team Site** option when creating the site.
+   * Select the **Team Site** option when creating the site.
 
 1. (Conditional) If you created a site in step 1, go to the site you just created.
 
@@ -310,9 +310,9 @@ To see a site collection in Workfront, the following conditions must be met:
 
   To verify this in Workfront:
 
-  1. Go to Setup > Documents > SharePoint Integration.
-  1. Edit the SharePoint Integration instance information.
-  1. Verify that the site collection is listed under Visible Site Collections.
+   1. Go to Setup > Documents > SharePoint Integration.
+   1. Edit the SharePoint Integration instance information.
+   1. Verify that the site collection is listed under Visible Site Collections.
 
 * The user must have view access to the site collection in SharePoint.
 * To verify this in SharePoint, go to SharePoint, and open the site collection > Settings > Site permissions.
@@ -320,11 +320,11 @@ To see a site collection in Workfront, the following conditions must be met:
 
   To verify this in SharePoint:
 
-  1. Go to the site collection > Settings > Site app permissions.
-  1. Ensure that the Site App used by Workfront is listed here.
-  1. (Conditional) If the Site App is not listed, add to the site collection using _layouts/15/appinv.aspx.
+   1. Go to the site collection > Settings > Site app permissions.
+   1. Ensure that the Site App used by Workfront is listed here.
+   1. (Conditional) If the Site App is not listed, add to the site collection using _layouts/15/appinv.aspx.
 
-     For information about adding the site collection, see Granting Write Permissions To The Site App.
+      For information about adding the site collection, see Granting Write Permissions To The Site App.
 
 ### Problem: I cannot access previously linked folders and documents in SharePoint.
 

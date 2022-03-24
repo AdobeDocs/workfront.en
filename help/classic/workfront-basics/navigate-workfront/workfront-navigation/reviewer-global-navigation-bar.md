@@ -22,6 +22,8 @@ The following areas are included in the default layout of a Reviewer:
 
 &nbsp;
 
+![](assets/reviewe-350x100.png)
+
 ## Customize your default Global Navigation Bar
 
 You can customize the areas that you see in your  Global Navigation Bar by removing or adding areas.

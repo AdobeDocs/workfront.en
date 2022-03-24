@@ -69,20 +69,20 @@ Before you can search for Workfront items from Slack, you must
 
 1. In the field that appears, select an object type from the following:
 
-  * Project 
-  * Task&nbsp;
-  * Issue
-  * Report
-  * People
-  * Template
-  * Document
-  * Portfolio
-  * Program
-  * Dashboard
-  * Company
-  * Note&nbsp;  
-    You can only select one object type at a time.  
-    A list of items that match the search criteria displays.
+   * Project 
+   * Task&nbsp;
+   * Issue
+   * Report
+   * People
+   * Template
+   * Document
+   * Portfolio
+   * Program
+   * Dashboard
+   * Company
+   * Note&nbsp;  
+     You can only select one object type at a time.  
+     A list of items that match the search criteria displays.
 
 1. Click the name of an item to open it in Workfront in a new browser tab.
 

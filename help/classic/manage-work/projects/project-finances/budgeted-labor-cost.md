@@ -18,7 +18,7 @@ The Budgeted Labor Cost of a project is a calculation between the cost associate
 >The Budgeted Labor Cost for users does not affect that of the project.
 
 <!--
-Depending on which resource planning tools you are using in Workfront, you might find several fields that contain Budgeted Labor Cost and Budgeted Hours information.
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Depending on which resource planning tools you are using in Workfront, you might find several fields that contain Budgeted Labor Cost and Budgeted Hours information. </p>
 -->
 
 ## Overview of the Budgeted Labor Cost for Job Roles and the Project
@@ -40,13 +40,14 @@ The **Budgeted Hours** in the calculation above refers to the following:
   For more information about budgeting resources in the Resource Budgeting area of the Business Case, see [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
   <!--
-  <p>The hours budgeted for job roles in the Legacy Resource Estimates area of the project or the Capacity Planner. </p>
-  <p>For more information about Resource Estimates, see the "Resource Estimates" section in the article <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.<br>For more information about budgeting hours in the Capacity Planner, see the "Estimating Resources in the Capacity Planner" section in the article <a href="../../../resource-mgmt/legacy-res-planning/plan-resources-in-capacity-planner.md" class="MCXref xref">Plan resources in the Capacity Planner</a>.</p>
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <p>The hours budgeted for job roles in the Legacy Resource Estimates area of the project or the Capacity Planner. </p> <p>For more information about Resource Estimates, see the "Resource Estimates" section in the article <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.<br>For more information about budgeting hours in the Capacity Planner, see the "Estimating Resources in the Capacity Planner" section in the article <a href="../../../resource-mgmt/legacy-res-planning/plan-resources-in-capacity-planner.md" class="MCXref xref">Plan resources in the Capacity Planner</a>.</p> </li>
   -->
 
 <!--
-<span class="autonumber"><span><b>Important: </b></span></span>When budgeting your resources, you must make a decision whether you are using the legacy or the new resource planning tools. For more information about the resource planning tools in Workfront, see the article
+<note type="important">
+When budgeting your resources, you must make a decision whether you are using the legacy or the new resource planning tools. For more information about the resource planning tools in Workfront, see the article
 <a href="../../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md" class="MCXref xref">Difference between Legacy Resource Planning and Planning</a>. Legacy resource planning tools are currently deprecated and will be removed from Workfront in the near future. You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments.
+</note>
 -->
 
 * The **Cost per Hour rate of a job role** in the above calculation refers to the cost associated with each job role on the project.   
@@ -93,7 +94,7 @@ User Budgeted Labor Cost = Budgeted hours for the user on the project * Cost per
 ## Locate the Budgeted Labor Cost of a project
 
 <!--
-Depending on which tools you use to budget your resources, you can view the following Budgeted Labor Cost information in Workfront:
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Depending on which tools you use to budget your resources, you can view the following Budgeted Labor Cost information in Workfront:</p>
 -->
 
 You can view the following Budgeted Labor Cost information in Workfront:
@@ -130,6 +131,7 @@ You can view the following Budgeted Labor Cost information in Workfront:
   </table>
 
 <!--
+<ul data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
 <li> <p>The Budgeted Labor Cost as reflected in the Resource Estimates area of the Business Case or the Capacity Planner displays in the following areas of Workfront under the following names: </p>
 <table cellspacing="15">
 <col>
@@ -149,6 +151,7 @@ You can view the following Budgeted Labor Cost information in Workfront:
 </tr>
 </tbody>
 </table> </li>
+</ul>
 -->
 
 ## Locate the Budgeted Hours of a project
@@ -164,7 +167,7 @@ You can view the Budgeted Hours in Workfront in the fields listed in the table b
 >Any other mention of Budgeted Hours in Adobe Workfront refers to hours budgeted using deprecated features that have been removed from Workfront . These are view-only fields and do not update with current information when you use current resource budgeting tools.
 
 <!--
-Depending on which tools you use to budget your resources, you can view the following Budgeted Hours in Workfront:
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Depending on which tools you use to budget your resources, you can view the following Budgeted Hours in Workfront:</p>
 -->
 
 The hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner display in the following areas of Workfront and under the following names:
@@ -197,6 +200,7 @@ The hours budgeted in the Resource Budgeting area of the Business Case or the Re
 </table>
 
 <!--
+<ul data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
 <li> <p>The hours budgeted in the Legacy Resource Estimates area of the Business Case or the Capacity Planner display in the following areas of Workfront and under the following names: </p>
 <table cellspacing="15">
 <col>
@@ -220,5 +224,6 @@ The hours budgeted in the Resource Budgeting area of the Business Case or the Re
 </tr>
 </tbody>
 </table> </li>
+</ul>
 -->
 

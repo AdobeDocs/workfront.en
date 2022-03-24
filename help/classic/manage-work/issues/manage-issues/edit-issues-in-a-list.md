@@ -50,6 +50,7 @@ Consider the following when editing issues in a list:
 * You can edit any issue field that displays in the list and that you have permissions to update.
 * You can edit an issue in the following lists:
 
+   * The Issues tab of a project or of a task
    * An issue report
 
 To inline edit an issue:
@@ -66,9 +67,7 @@ To inline edit an issue:
 ## Edit issues in a list
 
 1. Go to a list of issues in a project or task. 
-1. Edit
-1. Edit Issue
-1. Edit issues
+1. (Optional) Select the issue in the list, then click **Edit** in the toolbar. This opens the **Edit Issue** box. For information about editing issues in the Edit Issue box, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
 1. (Optional) Click the **Open Summary** icon again, or the **X icon** in the upper-right of the Summary to close the panel and edit the issue inline.
 

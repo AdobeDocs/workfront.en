@@ -67,11 +67,13 @@ To see the New Experience screen, you must meet the following conditions:
 
 1. To access the **Setup** area, do one of the following:
 
-  * If your personal Workfront environment is in the new Adobe Workfront experience, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup**.
-  
-  * If your personal Workfront environment is in Adobe Workfront Classic, click **Setup** ![](assets/gear-icon-settings.png) in the Global Navigation Bar.
+   * If your personal Workfront environment is in the new Adobe Workfront experience, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup**.
+   
+   * If your personal Workfront environment is in Adobe Workfront Classic, click **Setup** ![](assets/gear-icon-settings.png) in the Global Navigation Bar.
 
 1. In the left panel, click **New Experience**.
+
+   ![](assets/nwe-enroll.png)
 
 1. In the **All Users** section, begin typing the name of the user, team, or group you want to enroll in to the new experience, then click the name when it appears.
 
@@ -85,10 +87,10 @@ To see the New Experience screen, you must meet the following conditions:
 
 1. (Optional) Click **User details** inline with a user to see the user's:
 
-  * Name
-  * Job role
-  * Email address
-  * Profile picture
+   * Name
+   * Job role
+   * Email address
+   * Profile picture
 
 1. Select the name of each user that you want to enroll, or click the **Select All** option, then click **Enroll Selected Users**.
 
@@ -100,11 +102,13 @@ To see the New Experience screen, you must meet the following conditions:
 
 1. To access the **Setup** area, do one of the following:
 
-  * If your personal Workfront environment is in the new Adobe Workfront experience, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup**.
-  
-  * If your personal Workfront environment is in Adobe Workfront Classic, click **Setup** ![](assets/gear-icon-settings.png) in the Global Navigation Bar.
+   * If your personal Workfront environment is in the new Adobe Workfront experience, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup**.
+   
+   * If your personal Workfront environment is in Adobe Workfront Classic, click **Setup** ![](assets/gear-icon-settings.png) in the Global Navigation Bar.
 
 1. Click **New Experience**.
+
+   ![](assets/nwe-enroll.png)
 
 1. In the **Enrolled Users** section, begin typing the name of the user, team, or group you want to remove from the new experience, then click the name when it appears.
 
@@ -114,10 +118,10 @@ To see the New Experience screen, you must meet the following conditions:
 
 1. (Optional) Click **User details** inline with a user to see the user's:
 
-  * Name
-  * Job role
-  * Email address
-  * Profile picture
+   * Name
+   * Job role
+   * Email address
+   * Profile picture
 
 1. Select each user that you want to remove from the new experience, or click the **Select All** option, then click **Remove Selected Users**.
 

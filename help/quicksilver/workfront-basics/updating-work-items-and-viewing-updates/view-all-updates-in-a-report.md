@@ -55,9 +55,9 @@ Creating a report for Notes for any object is identical, regardless of the objec
 
 For example, to create a Note report for all the notes on a project:
 
-1. Main Menu
-1. 
-1. Reports
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click&nbsp;**Reports**.
 1. Click **New Report**, then choose&nbsp;**Note**.
 
 1. (Optional) Click **Views**, then **Add Column** to add the **Name** of the **Project** in the view of the report.&nbsp;

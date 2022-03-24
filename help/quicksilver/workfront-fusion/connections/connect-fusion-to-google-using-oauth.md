@@ -187,17 +187,17 @@ You need an existing Google account to make this connection.
 
 1. Under Authorized redirect URIs, click **Add URI** and enter **one** of the following:
 
-  * For Gmail or Google Drive:   
-  
-    ```  
-    https://app.workfrontfusion.com/oauth/cb/google-restricted
-    ```
+   * For Gmail or Google Drive:    
+   
+     ```   
+     https://app.workfrontfusion.com/oauth/cb/google-restricted
+     ```
 
-  * For other Google apps:   
-  
-    ```  
-    https://app.workfrontfusion.com/oauth/cb/google
-    ```
+   * For other Google apps:    
+   
+     ```   
+     https://app.workfrontfusion.com/oauth/cb/google
+     ```
 
 1. Click **Create**.
 

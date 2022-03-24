@@ -18,14 +18,14 @@ Workfront UUM provides the following benefits:
 * Usernames are no longer required to be unique across all instances of Workfront.
 * Users experience a consistent sign-in across the following Workfront products and services:
 
-  * Workfront
-  * ProofHQ
-  * Workfront Customer Support
-  * Workfront Community
-  * Workfront Training (Ascent)
-  * Workfront Idea Exchange
-  * Workfront Mobile App
-  * Workfront Proof Mobile App
+   * Workfront
+   * ProofHQ
+   * Workfront Customer Support
+   * Workfront Community
+   * Workfront Training (Ascent)
+   * Workfront Idea Exchange
+   * Workfront Mobile App
+   * Workfront Proof Mobile App
 
 * Users can access new Workfront products without having to manage a new username and password.
 * Your organization can more effectively support users that do not have credentials from your single sign-on (SSO) provider.

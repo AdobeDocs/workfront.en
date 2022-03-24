@@ -78,10 +78,12 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Layout Template</td> 
-      <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> For more information, see the section <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md#applying" class="MCXref xref">Apply the Layout Template to a team</a> in the article <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md" class="MCXref xref">Change the My Work and Work Requests areas with Layout Templates</a>. </td> 
-     </tr>  
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Calendar</td> 
-     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Designate the calendar that displays when someone accesses the team</p> </td>  
+      <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> <p data-mc-conditions="QuicksilverOrClassic.Classic">For more information, see the section <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md#applying" class="MCXref xref">Apply the Layout Template to a team</a> in the article <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md" class="MCXref xref">Change the My Work and Work Requests areas with Layout Templates</a>.</p> </td> 
+     </tr> 
+     <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
+      <td role="rowheader">Calendar</td> 
+      <td> <p>Designate the calendar that displays when someone accesses the team</p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Agile</td> 
       <td>Specify whether this is an agile team. For information on agile teams and how to manage their work, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 

@@ -49,21 +49,21 @@ Consider the following when generating the unique URL for the User View of the R
   They must have access to view other users in order to view the information in the Resource Planner from the URL that you share with them. 
 * The following information is saved when you share the URL with other users:
 
-  * The type of time periods (week, month, quarter).
-  * The filters that you apply.
-  * The type of display (Hours or FTE).
+   * The type of time periods (week, month, quarter).
+   * The filters that you apply.
+   * The type of display (Hours or FTE).
 
 To obtain a unique URL in the User View of the Resource Planner and share it with other users:
 
-1. Main Menu
-1. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
 1. Click **Resourcing**. 
 1. In the , select **View by User**.
 1. (Optional) Select the timeframe by which you want to view the information in the Resource Planner. Select from the following:
 
-  * Week
-  * Month
-  * Quarter
+   * Week
+   * Month
+   * Quarter
 
 1. (Optional) Select whether you want to view the information by **FTE** or **Hours**.  
    ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
@@ -79,11 +79,11 @@ To obtain a unique URL in the User View of the Resource Planner and share it wit
 
 1. (Optional) Do the following:
 
-  1. Go to **Reporting**>**Dashboards**>**New Dashboard**>**Add External Page.**
-  
-  1. Paste the link you copied to your clipboard in the **URL** field.
-  1. Click **Save**, then **Save + Close**.  
-     This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
+   1. Go to **Reporting**>**Dashboards**>**New Dashboard**>**Add External Page.**
+   
+   1. Paste the link you copied to your clipboard in the **URL** field.
+   1. Click **Save**, then **Save + Close**.  
+      This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
 
    Or  
    Paste the URL into another application to send it to another user.  

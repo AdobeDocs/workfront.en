@@ -124,9 +124,9 @@ For this example, we are not using a trigger module. Instead, this scenario begi
 
    The process for authenticating a connection can vary a bit between apps. The following process is specific to Workfront, but the process is similar to many apps.
 
-  1. Enter your Workfront domain, then click **Continue**. 
-  1. Log into Workfront.
-  1. Examine the access that Workfront Fusion is requesting, then click Allow Access.
+   1. Enter your Workfront domain, then click **Continue**. 
+   1. Log into Workfront.
+   1. Examine the access that Workfront Fusion is requesting, then click Allow Access.
 
    If you need help, see [About connecting Adobe Workfront Fusion to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
@@ -143,9 +143,9 @@ After you connect Workfront Fusion to your Workfront account, you can specify a 
 1. In the **Result Set** box, select **First Matching Record**. This sets the module to return only the first record it finds that meets the criteria. For this example, we need only one record returned. 
 1. In the **Search criteria** area, we'll set up a filter to return the specific project.
 
-  1. In the first box under Search Criteria, select the field that you want to search the values of. For this example, select **Name**.
-  1. For the operator, select Contains (case insensitive). This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
-  1. In the last field under Search Criteria, enter a word or phrase that you know is in the name of the project you are searching for.
+   1. In the first box under Search Criteria, select the field that you want to search the values of. For this example, select **Name**.
+   1. For the operator, select Contains (case insensitive). This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
+   1. In the last field under Search Criteria, enter a word or phrase that you know is in the name of the project you are searching for.
 
 1. In the **Outputs** list, select the fields that you want the issue to output. For this example, select the **ID** and **Name** fields.
 
@@ -217,8 +217,8 @@ We chose to have 1 project returned, as well as the tasks associated with that p
 
    You can learn more about how to read scenario execution information in the following articles:
 
-  * For general information, see [Scenario execution flow](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-  * For information about processed bundles, see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * For general information, see [Scenario execution flow](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   * For information about processed bundles, see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 1. In Workfront Fusion, click **Save** ![](assets/save-icon.png) near the lower-left corner to save your progress on the scenario.
 

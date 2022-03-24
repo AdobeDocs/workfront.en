@@ -128,8 +128,8 @@ The view displays task or issue information in a list format, with every line of
 
 To add a collection column in a report view:
 
-1. Go to the **Reporting** area in the Global Navigation Bar. 
-1. Reports
+1. Go to the **Reporting** area in the Global Navigation Bar.
+1. Select the **Reports** tab.
 1. Click **New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.  
@@ -283,8 +283,8 @@ For example, you can filter for task or issue information in a project report by
 
 To add a reference to a collection&nbsp;in a report filter:
 
-1. Go to the **Reporting** area in the Global Navigation Bar. 
-1. Reports
+1. Go to the **Reporting** area in the Global Navigation Bar.
+1. Select the&nbsp;**Reports**&nbsp;tab.
 1. Click&nbsp;**New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.  
@@ -340,8 +340,8 @@ For more information about building a filter statement with a collection referen
 
 To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
 
-1. Go to the&nbsp;**Reporting**&nbsp;area in the Global Navigation Bar. 
-1. Reports
+1. Go to the&nbsp;**Reporting**&nbsp;area in the Global Navigation Bar.
+1. Select the&nbsp;**Reports**&nbsp;tab.
 1. Click&nbsp;**New Report**.
 1. Select the object of your report.
 1. Build a filter with a collection reference as described in&nbsp;the section [Reference a collection in the Filter of a report](#referencing-a-collection-in-a-filter) in this article.

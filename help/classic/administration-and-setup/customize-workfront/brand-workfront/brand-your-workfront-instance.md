@@ -10,7 +10,9 @@ description: As an Adobe Workfront administrator, you can brand your Workfront i
 
 # Brand your Adobe Workfront instance
 
-As an Adobe Workfront administrator, you can brand your Workfront instance with company-specific logos and images. Branding of the Workfront instance enables you to modify the logo images on the login screen and on the Global Navigation Bar, as well as the background image of the login screen. For more information about customizing the Global Navigation Bar, see the section [Set Details](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#setting-details) in the article [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md). 
+As an Adobe Workfront administrator, you can brand your Workfront instance with company-specific logos and images.
+
+Branding of the Workfront instance enables you to modify the logo images on the login screen and on the Global Navigation Bar, as well as the background image of the login screen. For more information about customizing the Global Navigation Bar, see the section [Set Details](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#setting-details) in the article [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Access requirements
 

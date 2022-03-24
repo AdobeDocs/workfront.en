@@ -12,7 +12,8 @@ There are two ways to view your work in the Home area, either from the Work List
 
 ## Work List
 
-The Work List allows you to view all of your assigned work in one place:
+The Work List allows you to view all of your assigned work in one place:  
+![](assets/getting-started-home-350x182.png)
 
 A. Use the left panel to filter, sort, and select work assigned to you.
 
@@ -58,7 +59,7 @@ The Sort by option allows you to group like items in the Work List. You can sort
 
 For more information on how to use groupings, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-![](assets/sort-by-home-350x273.png)  
+![](assets/sort-by-home-350x273.png)
 
 ### Narrow your focus with filters
 
@@ -89,7 +90,7 @@ The Home area has a permanent grouping dedicated to team requests with a direct 
 
 For more information on accessing team requests, see the article [Manage work and team requests in the Home area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
-![](assets/work-list-home-350x184.png)  
+![](assets/work-list-home-350x184.png)
 
 ### Monitor work that you submitted
 
@@ -100,7 +101,7 @@ Keep track of work that you submitted for approval directly from Work List. You 
 >The Filter and Sort by options do not affect the Approvals I've Submitted grouping. This grouping is visible as long as you have work waiting for approval.
 
 For more information on how to keep track of work you've submitted, see [Managing Approvals.](https://support.workfront.com/hc/en-us/sections/203948437-Managing-Approvals)  
-![](assets/approvals-i-ve-submited-350x339.png) 
+![](assets/approvals-i-ve-submited-350x339.png)
 
 ## Prioritize what's important to you
 
@@ -112,7 +113,7 @@ The Work List allows you to surface and prioritize work that is important to you
 
 For more information on how to use My Priority, see [Prioritize work in the Home Area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
-![](assets/more-menu-home-350x272.png)  
+![](assets/more-menu-home-350x272.png)
 
 ## Get it done
 
@@ -127,6 +128,8 @@ To update any of the fields in this area, simply click on the field.
 >[!NOTE]
 >
 >You can't update the Commit Date in this area.
+
+![](assets/getting-started-right-panel-details-350x185.png)
 
 ### Update coworkers with important information
 
@@ -144,11 +147,13 @@ Communicate quickly and efficiently with coworkers from the Home area. You ask c
 * Reporting on how you feel things are going
 * Updating the percent complete bar
 
-For more information on communicating in the Home area, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+For more information on communicating in the Home area, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).  
+![](assets/getting-started-updates-350x234.png)
 
 ### Log your time
 
 Keep track of the hours you've worked on individual work items. You can choose a general hour type, such as Task Time, or you can choose a project-specific hour type set up by your Workfront administrator.
 
 For more information on how to log time in the Home area, see the section [Home](../../../timesheets/create-and-manage-timesheets/log-time.md#home) in the article [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
+![](assets/getting-started-log-time-350x226.png)
 

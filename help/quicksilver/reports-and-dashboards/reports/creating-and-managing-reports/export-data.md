@@ -101,18 +101,18 @@ There are several limitations around the way reports display in Workfront as wel
 
 * These limits apply to:
 
-  * A manual export of a report.
-  * A scheduled report.
-  * An export through an API integration.
-  * Data exported through a kick-start.  
-    For more information about exporting data via kick-starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)  
-  
-    >[!NOTE]
-    >
-    >You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.&nbsp;
+   * A manual export of a report.
+   * A scheduled report.
+   * An export through an API integration.
+   * Data exported through a kick-start.  
+     For more information about exporting data via kick-starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)   
+   
+     >[!NOTE]
+     >
+     >You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.&nbsp;
 
-  * Exporting utilization information for a project.  
-    For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project) in [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+   * Exporting utilization information for a project.  
+     For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project) in [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * **10MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.
 * **65,530 hyperlinks:** This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;
@@ -144,21 +144,27 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
    >[!NOTE]
    >
-   >To export a Dashboard report, you must have a Plan license.
+   >To export a Dashboard report, you must have a Plan license.  
+   >![](assets/nwe-dashboard-export-note-350x271.png)   >
+   >
 
-   Or Click the **Export** icon , then select a format. The options available to you for PDF export depend on the locale settings in your Workfront user settings:
+   Or
 
-  * North America - letter (default), legal, ledger, A4
+   Click the **Export** icon ![](assets/export-icon-nwe.png), then select a format.
 
-    <!--  
-    <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">  
-    -->
+   The options available to you for PDF export depend on the locale settings in your Workfront user settings:
 
-  * All locations outside of North America - A3, A4 (default), letter, legal, ledger
+   * North America - letter (default), legal, ledger, A4
 
-    <!--  
-    <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">  
-    -->
+     <!--   
+     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     -->
+
+   * All locations outside of North America - A3, A4 (default), letter, legal, ledger
+
+     <!--   
+     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     -->
 
 1. (Conditional) Depending on the operating system you use, you might have the option of opening or saving the file. Either open the file with the associated application or save it to your hard drive.
 1. Continue with [Use the exported document](#using-the-exported-document).
@@ -193,15 +199,15 @@ When you export a list of task or issues, the **File Name** can be one of the fo
 
 * When you export Task and Issue Lists in a Project:
 
-  * *The_project_name_Exported_Tasks*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
-  
-  * *The_project_name_Exported_Issues*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+   * *The_project_name_Exported_Tasks*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+   
+   * *The_project_name_Exported_Issues*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
 * When you export Task and Issue Lists in a Task (subtasks):
 
-  * **The_project_name_the_task_name_Exported_Tasks**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
-  
-  * **The_project_name_the_task_name_Exported_Issues**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+   * **The_project_name_the_task_name_Exported_Tasks**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+   
+   * **The_project_name_the_task_name_Exported_Issues**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
 When you export a list of any other objects from a project to a PDF file, the file name of the exported document indicates the type of objects you exported.  
 For example, the file name may be:

@@ -62,24 +62,24 @@ By default, ADFS is configured to automatically check for updates to all of its 
 1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click**Update from Federation Metadata**.
 1. (Conditional) If this option is dimmed (which means that the relying party trust was previously configured using a metadata file), complete the following.
 
-  1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
-  
-  1. Click **System** > **Single Sign On (SSO)**.
-  
-  1. Click **Edit Settings.** 
-  1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list. 
-  
-  1. Copy the **Metadata URL**, which should be similar to the following:
+   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+   
+   1. Click **System** > **Single Sign On (SSO)**.
+   
+   1. Click **Edit Settings.** 
+   1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list. 
+   
+   1. Copy the **Metadata URL**, which should be similar to the following:
 
-     https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData
-  
-  1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
-  1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
-  
-  1. Check the options to **Monitor relying party** and **Automatically update relying party**.
-  
-  1. Click **OK.**
-  1. Select the relying party trust that you previously configured to be used with Workfront; then, in the right-hand panel, click **Update from Federation Metadata.**
+      https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData
+   
+   1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
+   1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
+   
+   1. Check the options to **Monitor relying party** and **Automatically update relying party**.
+   
+   1. Click **OK.**
+   1. Select the relying party trust that you previously configured to be used with Workfront; then, in the right-hand panel, click **Update from Federation Metadata.**
 
 1. Click **OK** to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
 1. Open **Windows Powershell Modules.**
@@ -120,23 +120,23 @@ To force metadata to be exchanged between Workfront and your SAML 2.0 provider w
 
    (The option is dimmed only when the relying party trust was previously configured using a metadata file.)
 
-  1. In Workfront, in the Setup area, copy the **Metadata URL** from your Workfront Single Sign-On setup screen.
+   1. In Workfront, in the Setup area, copy the **Metadata URL** from your Workfront Single Sign-On setup screen.
 
-     To access the information for the **Metadata URL**:
+      To access the information for the **Metadata URL**:
 
-    1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-    1. Click > **System** > **Single Sign On (SSO)**.
-    1. Click **Edit Settings.**
-    1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list.
-    1. Copy the **Metadata URL**, which should be similar to the following:
+      1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+      1. Click > **System** > **Single Sign On (SSO)**.
+      1. Click **Edit Settings.**
+      1. Click **Edit Configuration**, then select **SAML 2.0** in the **Type** drop-down list.
+      1. Copy the **Metadata URL**, which should be similar to the following:
 
-       *https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData*
+         *https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData*
 
-  1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
-  1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
-  1. Check the options to **Monitor relying party** and **Automatically update relying party**.
-  1. Click **OK**.
-  1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click **Update from Federation Metadata.**
+   1. On the ADFS server, right-click on the relying party trust that you previously configured, then click **Properties.**
+   1. Click the **Monitoring** tab, then paste the URL that you copied from Workfront into the **Relying party's federation metadata URL** field.
+   1. Check the options to **Monitor relying party** and **Automatically update relying party**.
+   1. Click **OK**.
+   1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click **Update from Federation Metadata.**
 
 1. Click **OK** to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
 1. Click **Update** to complete updating your federation metadata.

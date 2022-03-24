@@ -69,14 +69,16 @@ If you have manage permissions to a document, you can check it out to forbid&nbs
 1. Click **More** > **Check Out**.
 
    <![CDATA[ ]]>
+
    ``` ![document_checkout.png](assets/document-checkout-350x187.png)
 
-   ```  
+   ``` 
 
 1. A lock icon ![](assets/lock-icon-locked-qs.png) displays to the right of the document name. The document stays checked out after you log out of Workfront.
-1. Details
-1. Check In/Check out section
-1. 
+1. On the **Details** tab of the right panel, in the **Check In/Check out section**, you can see the name of the user who checked the document out, and the date and the time when they checked it out.
+
+1. ![](assets/document-checked-out-by-and-time-stamp.png)
+
 1. Only the user who checked out&nbsp;the document or the Workfront administrator can check&nbsp;the document in.
 
 ## Manage checked out documents

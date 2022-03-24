@@ -66,7 +66,8 @@ To build a view with dashboard information for a report list:
 1. Under the **Report** object, select **Dashboards**.
 
 1. Click **Save View**.  
-   The dashboards that a report appears on display in the Dashboards column of the report list.
+   The dashboards that a report appears on display in the Dashboards column of the report list.  
+   ![dashboards_in_report_view.png](assets/dashboards-in-report-view-350x297.png)
 
 ## Filter a report list by dashboard information
 
@@ -82,6 +83,7 @@ To filter a list of reports by dashboard information:
 1. Under the **Dashboards** object, select **Name**.
 
 1. Select **Equal** in the modifier drop-down menu, then start typing the name of the dashboard you want to filter by. You can select multiple dashboards for your filter.  
+   ![dashboards_in_report_filters.png](assets/dashboards-in-report-filters-350x80.png)
 
 1. Click **Save + Close**.  
    This displays a list of reports that are listed only on the specified dashboards.  

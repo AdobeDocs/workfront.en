@@ -55,9 +55,9 @@ Consider the following when using filters in the Resource Planner:
 * Applying a filter does not change the allocation and availability data in the Resource Planner for projects, roles, or users. A filter changes only the number of objects that you see in the Resource Planner. 
 * Filtering applies to all the objects that display in the Resource Planner at the same time. For example, if you filter for a specific user, the Resource Planner displays only the following results:
 
-  * Projects where that user is part of the Resource Pool (for the Project and Role views) or has an assignment on the project (for the User view)
-  * Roles associated with the user on those projects  
-    Other roles or users on the projects that the user is associated with do not display.
+   * Projects where that user is part of the Resource Pool (for the Project and Role views) or has an assignment on the project (for the User view)
+   * Roles associated with the user on those projects  
+     Other roles or users on the projects that the user is associated with do not display.
 
 ## Overview of the Default Filter in the Resource Planner
 
@@ -67,9 +67,9 @@ Consider the following when using the Default filter:
 
 * The Default Filter retrieves information only from projects with the following:
 
-  * A Planned Completion Date that occurs after the first date of the current month
-  * A Planned Start Date that occurs before the last day of the fourth month from the current date
-  * A Status of Current or Planning
+   * A Planned Completion Date that occurs after the first date of the current month
+   * A Planned Start Date that occurs before the last day of the fourth month from the current date
+   * A Status of Current or Planning
 
   >[!IMPORTANT]
   >
@@ -102,8 +102,7 @@ To create a filter in the Resource Planner:
 
    The **Planner** displays by default.
 
-   By default, the first time you access the Resource Planner, the **Default Filter** is applied.  
-   For more information about the Default filter, see the [Overview of the Default Filter in the Resource Planner](#understanding-default-filter) section in this article.  
+   ```<font size="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">By default, the first time you access the Resource Planner, the <strong>Default Filter</strong> is applied.<br>For more information about the Default filter, see the <a href="#understanding-default-filter" class="MCXref xref">Overview of the Default Filter in the Resource Planner</a> section in this article. </font>``` 
 
 1. In the upper-left corner of the , click the **Filter** icon.  
    ![filter_icon.png](assets/filter-icon.png)  
@@ -113,14 +112,14 @@ To create a filter in the Resource Planner:
 
 1. To build a filter using the built-in criteria, specify any of the following fields:
 
-  * **Portfolio**: Begin typing the name of the portfolio that contains the information you want to include in the Resource Planner, then click the name when it appears in the list.  
-    Repeat this process to include information from multiple portfolios.
-  
-  * **Project Status**: Expand the Project Status drop-down menu and select one or multiple project statuses available in the list. 
-  * **Team**: Begin typing the name of one or multiple teams associated with the users assigned to tasks in the projects you want to view.
-  * **Job Role**: Begin typing the name of one or multiple job roles associated with the users assigned to tasks in the projects you want to view.
-  * **Pools**: Begin typing the name of one or multiple Resource Pools that are associated with the projects (for the Project View), the users (for the User View), or associated with both the projects and the users (for the Role View) that you want to view. 
-  * **Group**: Begin typing the name of one or multiple groups associated with the users (in the User view) or projects (in the Project and Role views) that you want to view.
+   * **Portfolio**: Begin typing the name of the portfolio that contains the information you want to include in the Resource Planner, then click the name when it appears in the list.  
+     Repeat this process to include information from multiple portfolios.
+   
+   * **Project Status**: Expand the Project Status drop-down menu and select one or multiple project statuses available in the list. 
+   * **Team**: Begin typing the name of one or multiple teams associated with the users assigned to tasks in the projects you want to view.
+   * **Job Role**: Begin typing the name of one or multiple job roles associated with the users assigned to tasks in the projects you want to view.
+   * **Pools**: Begin typing the name of one or multiple Resource Pools that are associated with the projects (for the Project View), the users (for the User View), or associated with both the projects and the users (for the Role View) that you want to view. 
+   * **Group**: Begin typing the name of one or multiple groups associated with the users (in the User view) or projects (in the Project and Role views) that you want to view.
 
 1. Click **Add Filter Rule**, then begin typing the field name that you want to filter by in the **Type to filter items** box. If the field is available, it populates for each object where it can be associated.
 
@@ -152,13 +151,13 @@ To create a filter in the Resource Planner:
    >
    >If your filter name includes special characters, you use only the following characters:
    >
-   >  
-   >  
-   >  * Comma
-   >  * Slash
-   >  * Hyphen
-   >  * Underscore
-   >  
+   >   
+   >   
+   >   * Comma
+   >   * Slash
+   >   * Hyphen
+   >   * Underscore
+   >   
    >
 
 1. Click **Save**.
@@ -298,10 +297,10 @@ For information about duplicating filters, see the [Duplicate a filter](#duplica
 1. In the **Give resource planner filter access to:** box, start typing the names of users, teams, roles, groups, or companies that you want to share the filter with.
 1. Select from the following permissions levels:
 
-  * View 
-  * Manage
+   * View 
+   * Manage
 
-    For information about permissions in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+     For information about permissions in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 1. (Optional) Click **Advanced Setting**s to add permissions for each level by selecting them or remove permissions for each level by deselecting them.
 

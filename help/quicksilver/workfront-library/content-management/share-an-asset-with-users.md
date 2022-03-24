@@ -45,8 +45,7 @@ You cannot give a user permissions to an item that exceeds their Workfront Libra
 
 ## Share a Workfront Library item
 
-1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
-
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the item you want to share is located.
 
@@ -82,9 +81,9 @@ You cannot give a user permissions to an item that exceeds their Workfront Libra
 
 1. (Optional) To share the item with an external user:
 
-  1. Enable **Make this public to external users**.
-  1. Click **Copy Link**.
-  1. Paste the link in a third-party tool such as a chat or email application, then distribute to the user.
+   1. Enable **Make this public to external users**.
+   1. Click **Copy Link**.
+   1. Paste the link in a third-party tool such as a chat or email application, then distribute to the user.
 
 1. Click **Save**.
 

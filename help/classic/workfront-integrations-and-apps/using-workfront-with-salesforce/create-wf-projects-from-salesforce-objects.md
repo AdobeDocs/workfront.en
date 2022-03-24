@@ -223,7 +223,7 @@ To view projects created from an Opportunity or Account:&nbsp;
 1. (Optional) Click the name of a project to open it in Workfront.&nbsp;
 1. (Optional) Go to the **Project Details** tab, in the **Overview** subtab,&nbsp;and notice the indicator that this project originated in Salesforce and is currently linked to an item in Salesforce.
 
-1. ![salesforce_project_in_WF_with_link_back_to_SF.png](assets/salesforce-project-in-wf-with-link-back-to-sf-350x522.png)   
+   ![salesforce_project_in_WF_with_link_back_to_SF.png](assets/salesforce-project-in-wf-with-link-back-to-sf-350x522.png)
 
 1. (Optional) Click **Go to Salesforce** to access the Opportunity or Account where the project originated.
 

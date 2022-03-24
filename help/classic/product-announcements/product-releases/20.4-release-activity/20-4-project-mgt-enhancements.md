@@ -36,7 +36,7 @@ You can now export the custom form information to a .pdf file. You can export cu
 
 In addition to exporting the custom forms of projects, tasks, and issues, you can now also include the Overview area to your exported pdf.
 
-For information about exporting custom forms from an object, see Export custom forms.
+For information about exporting custom forms from an object, see [Export custom forms](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FWork_with_Custom_Forms%2Fexport-custom-forms-details.htm).
 
 ```<iframe class="vimeo-player_0" src="assets/475140925?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -52,7 +52,7 @@ To simplify the experience of creating an iteration, we've added a new button th
 
 You can still create an iteration on the backlog tag as before.
 
-For more information, see Create an iteration.
+For more information, see [Create an iteration](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAgile%2FUse_Scrum_in_an_Agile_Team%2FIterations%2Fcreate-an-iteration.html).
 
 ```<iframe class="vimeo-player_0" src="assets/468254955?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

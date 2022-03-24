@@ -54,11 +54,11 @@ To create a static proof, the website needs to be publicly accessible (not behin
 1. (Conditional) If you are creating a new proof, click&nbsp;**Add New**, then click **Proof** in the menu that appears.
 1. (Conditional) If you are creating a new version of an existing proof:
 
-  1. Mouse over the URL proof&nbsp;for which you want to create a new version, then select it by clicking in the light blue background surrounding it.
+   1. Mouse over the URL proof&nbsp;for which you want to create a new version, then select it by clicking in the light blue background surrounding it.
 
-     ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
-  1. Click **Add new** > **Version** > **Proof**.
+   1. Click **Add new** > **Version** > **Proof**.
 
 1. Type the URL of the website you want to proof in the **Add Files** area, then press **Enter**.
 
@@ -106,6 +106,6 @@ To create a static proof, the website needs to be publicly accessible (not behin
    or  
    Continue by configuring an advanced proof:
 
-  * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
-  * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+   * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 

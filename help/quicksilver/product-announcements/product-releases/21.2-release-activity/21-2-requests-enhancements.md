@@ -25,8 +25,8 @@ There is an indication in the Assignments field about which types of assignments
 
 For more information, see the following articles:
 
-* Create and submit Adobe Workfront requests 
-* Create a Request Queue
+* [Create and submit Adobe Workfront requests](create-submit-requests.md) 
+* [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ```<iframe class="vimeo-player_0" src="assets/534936462?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -44,7 +44,7 @@ As we continue to incorporate your feedback about creating requests in the new W
 * Clearly indicate with an “x” icon that a choice for Request Type, Topic Group, or Queue Topic can be removed after it’s been selected.
 * Provide a Close button when creating a new request to leave the request without losing the draft. In addition to this change, the “Discard” button has been renamed to “Discard draft.”
 
-For information about creating new requests, see Create and submit Adobe Workfront requests.
+For information about creating new requests, see [Create and submit Adobe Workfront requests](create-submit-requests.md).
 
 ```<iframe class="vimeo-player_0" src="assets/534942833?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -60,9 +60,9 @@ This feature is now included in the [Collaborator Fundamentals for the new Workf
 
 As we continue to listen to and incorporate your feedback, we have added several improvements to the new requests workflow to make your interaction with Adobe Workfront easier and more intuitive. These improvements are:
 
-* You can select where to place the Documents section for uploading files when creating a request queue as you are defining the Queue Setup. You can place this section either before or after the custom fields of the request form. For more information, see Create a Request Queue.
-* Sorting the Submitted requests list by one of the columns is now preserved when you navigate away from the page. For more information, see Locate submitted requests.
-* When creating a new request, the Submit and Cancel buttons are now located at the bottom of the New request form. For more information, see Create and submit Workfront requests.
+* You can select where to place the Documents section for uploading files when creating a request queue as you are defining the Queue Setup. You can place this section either before or after the custom fields of the request form. For more information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Sorting the Submitted requests list by one of the columns is now preserved when you navigate away from the page. For more information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+* When creating a new request, the Submit and Cancel buttons are now located at the bottom of the New request form. For more information, see [Create and submit Workfront requests](create-submit-requests.md).
 
 ```<iframe class="vimeo-player_0" src="assets/529398888?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -78,7 +78,7 @@ This feature is now included in the [Collaborator Fundamentals for the new Workf
 
 To make your experience consistent across all areas of Adobe Workfront, we have added the Open Summary icon to the Submitted section of the Requests area. Now, you can open the Summary panel for submitted issues and see more information about the issues, assign them, or add a document or a comment.
 
-For information about the submitted requests, see Locate submitted requests.
+For information about the submitted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ```<iframe class="vimeo-player_0" src="assets/525633302?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -94,7 +94,7 @@ This feature is now included in the [Collaborator Fundamentals for the new Workf
 
 With the redesign of the New Request form that launched with the previous release, we had prevented several fields from the New Issue Fields area of the project Queue Details section to display when submitting a new request. After incorporating your feedback, we have decided to bring the fields back so they can all display on the New Request form.
 
-For information, see Create a Request Queue.
+For information, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## New experience when submitting requests in the Requests area
 
@@ -110,7 +110,7 @@ To bring consistency with the new Workfront experience and create efficiencies f
 
 Ability to share a link to the request queue, topic group, or queue topic as you enter the request.
 
-For information about submitting requests, see Create and submit Workfront requests.
+For information about submitting requests, see [Create and submit Workfront requests](create-submit-requests.md).
 
 ```<iframe class="vimeo-player_0" src="assets/500718803?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -128,7 +128,7 @@ We have now made it possible to share a link to a request queue, topic group, or
 
 Before you submit a new request, you can copy a link to the request queue, topic group, or queue topic of the request and share it with other users, or embed it in a dashboard.
 
-For information about sharing a link to a request queue when submitting a request, see Share a link to a request queue.
+For information about sharing a link to a request queue when submitting a request, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
 ```<iframe class="vimeo-player_0" src="assets/500718523?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

@@ -47,8 +47,8 @@ For information about proof settings the Workfront administrator or Workfront Pr
 1. Click **Default email notification settings** to expand it.
 1. In the drop-down list to the right of the following two settings, select one of the options explained in the table below.
 
-  * **Default email alert**: Affects every proof that is shared with you. This setting can be overridden at the proof level.
-  * **Default email alert for new guest reviewers**: Affects reviewers that did not previously exist as contacts in your account.
+   * **Default email alert**: Affects every proof that is shared with you. This setting can be overridden at the proof level.
+   * **Default email alert for new guest reviewers**: Affects reviewers that did not previously exist as contacts in your account.
 
    >[!NOTE]
    >
@@ -149,8 +149,8 @@ If you are a Workfront Proof administrator, you can set proof defaults for users
 
 1. In the drop-down list to the right of the following two settings, select one of the options explained in the table below:
 
-  * **Default email alert**: Affects every proof that is shared with you. This setting can be overridden at the proof level.
-  * **Default email alert for new guest reviewers**: Affects reviewers that did not previously exist as contacts in your account.
+   * **Default email alert**: Affects every proof that is shared with you. This setting can be overridden at the proof level.
+   * **Default email alert for new guest reviewers**: Affects reviewers that did not previously exist as contacts in your account.
 
    >[!NOTE]
    >

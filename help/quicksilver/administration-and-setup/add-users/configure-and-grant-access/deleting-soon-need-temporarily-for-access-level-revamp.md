@@ -360,4 +360,4 @@ To learn the default configuration of the 3 main access settings for portfolios 
 >
 >When granting access to Workfront Goals, you must also enroll the users with this access to the new Adobe Workfront experience. Workfront Goals is not available in Adobe Workfront Classic. For information about enrolling users in the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 
-For general information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.
+For general information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).

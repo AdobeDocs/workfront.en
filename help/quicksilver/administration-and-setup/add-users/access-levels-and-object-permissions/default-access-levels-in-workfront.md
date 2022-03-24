@@ -1,4 +1,13 @@
-
+---
+filename: default-access-levels-in-workfront
+user-type: administrator
+content-type: reference
+product-area: system-administration
+keywords: access,model,funnel,diagram,levels,permissions
+navigation-topic: access-levels
+title: Built-in access levels in Adobe Workfront
+description: All 6 of the built-in access levels are designed for a particular type of user:
+---
 
 # Built-in access levels in Adobe Workfront
 
@@ -66,6 +75,8 @@ The following are the highest access settings available for objects in the Plann
 | Templates |&nbsp; |&nbsp; |✓ |
 | Financial data |&nbsp; |&nbsp; |✓ |
 | Resource Management |&nbsp; |&nbsp; |✓ |
+| Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| Workfront Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 
 ## Worker access level
 
@@ -100,6 +111,8 @@ The following are the highest access settings available for objects in the Worke
 | Templates |✓ |&nbsp; |&nbsp; |
 | Financial data |&nbsp; |✓ (The default setting is No Access. The View setting allows the user to view only the Finance  area &nbsp; in  Project Details.) |&nbsp; |
 | Resource Management |&nbsp; |✓ |&nbsp; |
+| Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| Workfront Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 
 ## Reviewer access level
 
@@ -204,15 +217,19 @@ More limited for projects and tasks than the Worker access level, the following 
    <td>&nbsp;</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
-  </tr>  
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Scenario Planner </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">✓ (The default setting is No Access.)</td>   
-  <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">Workfront Goals </td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
-  <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray">✓ (The default setting is No Access.)</td>  
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td>Scenario Planner </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓ (The default setting is No Access.)</td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td>Workfront Goals </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓ (The default setting is No Access.)</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -248,6 +265,8 @@ The following are the highest access settings available for objects in the Reque
 | Template |✓ |&nbsp; |&nbsp; |
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
+| Scenario Planner  |✓ |&nbsp; |&nbsp; |
+| Workfront Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 
 ## External User access level
 
@@ -279,4 +298,6 @@ The following are the highest access settings available for objects in the Exter
 | Template |✓ |&nbsp; |&nbsp; |
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
+| Scenario Planner  |✓ |&nbsp; |&nbsp; |
+| Workfront Goals  |✓ |&nbsp; |&nbsp; |
 

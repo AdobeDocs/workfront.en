@@ -29,21 +29,21 @@ To help jumpstart the development of a new webhooks implementation, Workfront pr
 
 * Version 1.0 (Release Date - May, 2015)
 
-  * Initial Specification
+   * Initial Specification
 
 * Version 1.1 (Release Date - June, 2015)
 
-  * Updated /uploadInit - Added documentId and documentVersionId
+   * Updated /uploadInit - Added documentId and documentVersionId
 
 * Version 1.2 (Release Date - October, 2015)
 
-  * Added /createFolder
+   * Added /createFolder
 
 * Upcoming versions (Release Date - TBD)
 
-  * Added /delete
-  * Added /rename
-  * Added /serviceInfo
-  * Added /customAction
-  * Add pagination and parentId to /search
+   * Added /delete
+   * Added /rename
+   * Added /serviceInfo
+   * Added /customAction
+   * Add pagination and parentId to /search
 

@@ -13,7 +13,7 @@ description: You see more than one of the same approval in your Home Work List.
 
 You see more than one of the same approval in your Home Work List.
 
-![](assets/duplicate-info-home-350x204.png)  
+![](assets/duplicate-info-home-350x204.png)
 
 ## Cause
 

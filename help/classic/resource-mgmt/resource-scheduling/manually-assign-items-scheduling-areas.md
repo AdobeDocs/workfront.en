@@ -68,8 +68,8 @@ For more information about the scheduling timeline, see [Get started with Resour
 
 You can assign individual tasks and issues to users on the scheduling timeline from the following areas of Workfront:
 
-* The Scheduling tab (when scheduling resources for multiple projects). 
-* The Staffing tab (when scheduling resources for a single project). 
+* The Scheduling tab (when scheduling resources for multiple projects).
+* The Staffing tab (when scheduling resources for a single project).
 * The Working On tab (when scheduling resources for a team).
 
 The information displayed in the Unassigned area at the top of the scheduling timeline differs depending on the area of Workfront where you are using resource scheduling (either from the Scheduling tab (when scheduling resources for multiple projects), the Staffing tab (when scheduling resources for a single project), or the Working On tab (when scheduling resources for a team). For more information, see the section [Functionality available in the Scheduling area](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md#functionality-available-in-the-scheduling-area) in the article [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
@@ -83,6 +83,8 @@ To assign unassigned tasks or issues to users on the scheduling timeline:
    * **For multiple projects**:&nbsp;Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**. 
    * **For an individual project**: Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the**Scheduling** tab is selected and click **Switch back to Scheduling**.
    * **For a team**: Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
+
+   ![](assets/resource-scheduling-schedulingtab-350x282.png)
 
    ![scheduling_contours.png](assets/scheduling-contours-350x139.png)
 

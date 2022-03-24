@@ -34,7 +34,7 @@ Removing a user's individual access to Workfront Library does not affect any oth
 
 To remove individual access:
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 
    >[!NOTE]
@@ -96,7 +96,7 @@ Users who are members of the removed user grouping lose their access to Workfron
 
 To remove access for a user grouping in Workfront Library:
 
-1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 
    >[!NOTE]

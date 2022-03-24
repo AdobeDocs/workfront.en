@@ -81,10 +81,10 @@ Before you can create tasks and issues from Slack, you must
 
 1. (Optional) Start typing the name of a project with which you want to associate the new task and select it when it appears in the list.  
    You receive a confirmation indicating that the task was added to the selected project.
-1. Add to my work
-1. 
-1. 
-1. Create ad hoc work items
+1. (Optional) Click **Add to my work** to add the task to your Working On list, as an ad-hoc task.  
+   You receive a confirmation indicating that the task was added to your personal project. The task appears in your Working On list.  
+   For more information about adding ad-hoc items to Workfront, see [Create ad hoc work items](../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md).
+
 1. (Optional) Click the name of the task in the confirmation message to open it in Workfront, in a new browser tab.
 
 ## Create issues from Slack

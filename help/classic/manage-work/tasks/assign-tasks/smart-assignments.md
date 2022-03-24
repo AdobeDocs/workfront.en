@@ -32,11 +32,15 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * A task or issue list or report
 
-* A task or issue page
-* ![](assets/sa1-350x304.png)
+  ![](assets/sa2-350x259.png)
 
-* The Advanced Assignments box when making advanced assignments. For information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md). 
-* ![](assets/smart-assignments-advanced-assignments-classic-350x300.png)
+* A task or issue page
+
+  ![](assets/sa1-350x304.png)
+
+* The Advanced Assignments box when making advanced assignments. For information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+  ![](assets/smart-assignments-advanced-assignments-classic-350x300.png)
 
 * Resource Scheduling
 
@@ -98,11 +102,11 @@ You must have a Plan or a Work license and have at least Contribute permissions 
 <ol>
 <li value="1">Navigate to an issue or a task and click one of the following fields to edit them: <br>
 <ul>
-<li>The <strong>Edit Assignment</strong> or <strong>Reassign this to ...</strong> field of a task or an issue</li>
+<li><p data-mc-conditions="QuicksilverOrClassic.Classic">The <strong>Edit Assignment</strong> or <strong>Reassign this to ...</strong> field of a task or an issue</p></li>
 <li>The <strong>Assignments</strong> field of a task or issue list using in-line editing in a task or issue list. </li>
 <li>The <strong>Assignee</strong> field after you have clicked <strong>Advanced Assignments</strong> from a task or an issue. </li>
 </ul></li>
-<li value="2"> <p>Place your cursor in the assignment field, and wait for two seconds, then the <strong>Here are a few recommendations</strong> list is displayed.</p> <p>Users displayed in this list are the smart assignment suggestions for the task or the issue.<br></p> <p>  </p> <p>  </p> <p> </p> </li>
+<li value="2"> <p>Place your cursor in the assignment field, and wait for two seconds, then the <strong>Here are a few recommendations</strong> list is displayed.</p> <p>Users displayed in this list are the smart assignment suggestions for the task or the issue.<br><img src="assets/sa1-350x304.png" alt="" style="width: 350;height: 304;" data-mc-conditions="QuicksilverOrClassic.Classic"></p> <p> <img src="assets/sa2-350x259.png" alt="" style="width: 350;height: 259;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> <p> <img src="assets/smart-assignments-in-advanced-assignment-350x307.png" alt="smart_assignments_in_advanced_assignment.png" style="width: 350;height: 307;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> <p> </p> </li>
 <li value="3"> <p>Select the user in the recommendations list by clicking their name. </p> <p>If there are no suggestions, the suggestion list does not open.</p> </li>
 <li value="4">(Optional) If you do not want to use one of the recommended users from the smart assignments list, start typing the name of the desired user and select the name when it appears in the list.</li>
 <li value="5">Click <strong>Enter</strong> to make the assignment. </li>

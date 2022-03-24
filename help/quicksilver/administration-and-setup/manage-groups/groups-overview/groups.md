@@ -63,7 +63,8 @@ When you are creating or editing one of the following Workfront objects, you can
 
 * **Approval Process**: You can make an approval process available for projects, tasks, and issues belonging to a certain group. For more information, see [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 * **Milestone Path**: You can allow users in certain groups to use a milestone path with their projects. For more information, see [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-* **Layout Template**: You can give a group's administrators permission to modify a Layout Template. For instructions, see Grant administrative access for a layout template.
+* **Layout Template**: You can give a group's administrators permission to modify a Layout Template. For instructions, see [Grant administrative access for a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md).
+
 * **Timesheet Profile**: You can give a group's administrators permission to modify a timesheet profile. For more information, see [Create, edit, and assign timesheet profiles](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Schedules**: You can give a group's administrators permission to modify a schedule. For more information, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).

@@ -49,12 +49,18 @@ You can remove entities (users, job roles, teams, groups, companies) from the sh
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. 
-1. ```<li><span>For a project, task, issue, template, portfolio, or program </span>click the <strong>Actions</strong> menu, then click&nbsp;<strong>Sharing.</strong><br>For example, if you are sharing a project, click <strong>Project Actions</strong>, then<strong>Sharing.</strong><br><img src="assets/screen-shot-2013-12-04-at-1.07.49-pm.png" alt=""></li>```For a document, click&nbsp;**Sharing**.
+1. Do either&nbsp;of the following, depending on the type of object you are removing permissions from:
 
-   ![](assets/sharing-document-link-highlighted-classic-350x257.png)
+   * ```For a project, task, issue, template, portfolio, or program```click the **Actions** menu, then click&nbsp;**Sharing.** 
+     For example, if you are sharing a project, click **Project Actions**, then**Sharing.** 
+     ![](assets/screen-shot-2013-12-04-at-1.07.49-pm.png)
+
+   * For a document, click&nbsp;**Sharing**.
+
+     ![](assets/sharing-document-link-highlighted-classic-350x257.png)
 
 1. Click the **x** next to the name of a user, team, group, company, job role to remove them in the object access box.  
+   ![](assets/screen-shot-2014-05-29-at-3.52.44-pm-350x370.png)
 
 1. In the **<User Name>'s Workfront access will be removed from this** drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.  
    The following scenarios exist:
@@ -110,7 +116,8 @@ To remove inherited permissions:
 
 1. Go to an object to which you have Manage permissions. For example, go to a task.   
 1. Go to the object access box as described in the [Remove entities from the sharing list of an object](#removing) section in this article.
-1. Select the **x**&nbsp;next to **Inherited Permission**&nbsp;on the sharing box to remove&nbsp;anyone listed there.
+1. Select the **x**&nbsp;next to **Inherited Permission**&nbsp;on the sharing box to remove&nbsp;anyone listed there.  
+   ![](assets/inherited-permissions-350x380.png)
 
    This ensures that no one who is granted permissions to the parent object (for example, the project) has permissions to this task by default. You must list&nbsp; individual entities in the sharing list of the task to grant permissions on the task.
 
@@ -130,7 +137,8 @@ To make an object private:
 
 1. Go to the object you want to make private.  
    For example, navigate to a report.
-1. Click **Report Actions**, then **Sharing**.
+1. Click **Report Actions**, then **Sharing**.  
+   ![make_report_private_2.png](assets/make-report-private-2-350x368.png)
 
 1. Click **Remove public access** to remove the access of external users to viewing the report.
 1. Click **Remove system-wide access** to stop sharing it with all Workfront users.&nbsp;
