@@ -58,10 +58,10 @@ You must have the following access to use the functionality in this article:
 
 * [Triggers](#triggers) 
 * [Actions](#actions) 
-* [Aggregators](#aggregat) 
-* [Transformers](#transfor)
+* [Aggregators](#aggregators) 
+* [Transformers](#transformers)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Basic trigger
 
@@ -72,16 +72,16 @@ You can use this module, for example, for contacts or any other list that is sch
 | Bundle |Create custom bundles by adding array items. The array consists of the name - value pairs. |
 |---|---|
 
-### Actions
+### Actions {#actions}
 
-* [Get Multiple Variables](#get) 
-* [Get Variable](#get2) 
-* [Increment function](#incremen) 
-* [Set Multiple Variables](#set) [Set Variable](#set2) 
-* [Set Variable](#set2) 
+* [Get Multiple Variables](#get-multiple-variables) 
+* [Get Variable](#get-variable) 
+* [Increment function](#increment-function) 
+* [Set Multiple Variables](#set-multiple-variables) [Set Variable](#set-variable) 
+* [Set Variable](#set-variable) 
 * [Sleep](#sleep)
 
-#### Get Multiple Variables
+#### Get Multiple Variables {#get-multiple-variables}
 
 This module retrieves values that were previously created by the Set Variable or Set Multiple Variables module.
 
@@ -100,7 +100,7 @@ This module can read variables that were set anywhere in the scenario, even if t
 * To store a calculated value for later use, even in a different route. This is useful in cases when the value is used in multiple modules and the formula to calculate the value is overly complex.
 * To debug a formula. If a formula used in a module does not seemingly provide a correct result, copy the formula and paste it into a Set Variable module that you insert before the relevant module. Disconnect the module(s) after the Set Variable module and execute the scenario. Verify the Set Variable module's output, adjust or simplify the formula, execute the scenario again, and continue to do so until the issue has been resolved.
 
-#### Get Variable
+#### Get Variable {#get-variable}
 
 This module retrieves a value that was previously created by the Set Variable or Set Multiple Variables module.
 
@@ -117,7 +117,7 @@ This module can read variables that were set anywhere in the scenario, even if t
  </tbody> 
 </table>
 
-#### Increment function
+#### Increment function {#increment-function}
 
 This module returns a value incremented by 1 after each module's operation.
 
@@ -169,7 +169,7 @@ The following scenario sends an email to the first recipient after every odd-num
 
 The increment function adds one every time the scenario runs. The filters check the increment and act on its value, ensuring that the emails are evenly distributed.
 
-#### Set Multiple Variables
+#### Set Multiple Variables {#set-multiple-variables}
 
 This module creates variables that can be mapped by other modules in the route. The variable can also be mapped to the Get Variable or Get Multiple Variables modules for any route in the scenario.
 
@@ -200,7 +200,7 @@ This module creates variables that can be mapped by other modules in the route. 
  </tbody> 
 </table>
 
-#### Set Variable
+#### Set Variable {#set-variable}
 
 This module creates a variable that can be mapped by other modules in the route. The variable can also be mapped to the Get Variable or Get Multiple Variables modules for any route in the scenario.
 
@@ -227,7 +227,7 @@ This module creates a variable that can be mapped by other modules in the route.
  </tbody> 
 </table>
 
-#### Sleep
+#### Sleep {#sleep}
 
 This module allows you to delay the scenario flow for up to 300 seconds (5 minutes).
 
@@ -255,13 +255,13 @@ For more information on data stores, see [Data Stores](../../workfront-fusion/mo
 
 For more information on specific data store modules, see [Data store modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
-### Aggregators
+### Aggregators {#aggregators}
 
-* [Numeric aggregator](#numeric) 
-* [Table aggregator](#table) 
-* [Text aggregator](#text)
+* [Numeric aggregator](#numeric-aggregator) 
+* [Table aggregator](#table-aggregator) 
+* [Text aggregator](#text-aggregator)
 
-#### Numeric aggregator
+#### Numeric aggregator {#numeric-aggregator}
 
 This module allows you to retrieve numerical values, then apply one of the selected functions (SUM, AVG, COUNT, MAX, MIN), and return the result in one bundle.
 
@@ -296,7 +296,7 @@ This module allows you to retrieve numerical values, then apply one of the selec
 
 ![](assets/module-sums-up-values-350x186.gif)
 
-#### Table aggregator
+#### Table aggregator {#table-aggregator}
 
 This module merges values from the selected fields of received bundles into a single bundle using a specified column and row separator (which allows you to create a table).
 
@@ -331,7 +331,7 @@ This module merges values from the selected fields of received bundles into a si
  </tbody> 
 </table>
 
-#### Text aggregator
+#### Text aggregator {#text-aggregator}
 
 This module merges values from the selected fields of received bundles into a single bundle.
 
@@ -364,13 +364,13 @@ This module merges values from the selected fields of received bundles into a si
 
 ``` ```**Example: **``````You can use the text aggregator to insert more values (for example, customer names or notes)into a single bundle and send an email containing all the values in the email body or the email subject.
 
-### Transformers
+### Transformers {#transformers}
 
-* [Compose a string](#compose) 
-* [Convert the encoding of the text](#convert) 
+* [Compose a string](#compose-a-string) 
+* [Convert the encoding of the text](#convert-the-encoding-of-the-text) 
 * [Switch](#switch)
 
-#### Compose a string
+#### Compose a string {#compose-a-string}
 
 Converts any value to a string data type (text). It makes the mapping easier when mapping, for example, binary data.
 
@@ -385,7 +385,7 @@ Converts any value to a string data type (text). It makes the mapping easier whe
  </tbody> 
 </table>
 
-#### Convert the encoding of the text
+#### Convert the encoding of the text {#convert-the-encoding-of-the-text}
 
 Converts entered input text (or binary data) to the selected encoding.
 
@@ -408,7 +408,7 @@ Converts entered input text (or binary data) to the selected encoding.
  </tbody> 
 </table>
 
-#### Switch
+#### Switch {#switch}
 
 Checks the input value for a match with the provided list of values. Returns output based on the result.
 

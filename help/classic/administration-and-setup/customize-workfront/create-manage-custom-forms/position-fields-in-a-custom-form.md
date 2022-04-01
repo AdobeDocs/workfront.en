@@ -47,7 +47,7 @@ You must have the following to perform the steps in this article:
 1. (Optional)To position a field above or below another one, drag it above or below until a horizontal blue line appears between the items.
 1. If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-   * [Position fields in a custom form](#add2) 
+   * [Position fields in a custom form](#Add2) 
    * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
    * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 

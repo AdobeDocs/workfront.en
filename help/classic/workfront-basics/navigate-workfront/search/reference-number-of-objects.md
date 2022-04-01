@@ -29,23 +29,23 @@ Reference numbers are useful in distinguishing between two otherwise similar obj
 
 Reference numbers are displayed by default for tasks and issues. You can also easily configure Workfront to display reference numbers for other types of objects.
 
-* [View reference numbers for tasks and issues](#viewing-reference-numbers-for-tasks-and-issues) 
-* [View reference numbers for other objects](#viewing-reference-for-other-objects) 
-* [View reference numbers in reports](#viewing-reference-numbers-in-reports)
+* [View reference numbers for tasks and issues](#view-reference-numbers-for-tasks-and-issues) 
+* [View reference numbers for other objects](#view-reference-numbers-for-other-objects) 
+* [View reference numbers in reports](#view-reference-numbers-in-reports)
 
-### View reference numbers for tasks and issues
+### View reference numbers for tasks and issues {#view-reference-numbers-for-tasks-and-issues}
 
 Reference numbers are displayed by default when viewing a task or issue. To see the reference number of a task or issue, open the task or issue and find the Reference Number field in the right panel.
 
 ![](assets/reference-number1-350x362.png)
 
-### View reference numbers for other objects
+### View reference numbers for other objects  {#view-reference-numbers-for-other-objects}
 
 To view reference numbers for objects, you can create a custom view or modify an existing view and add the Reference Number field to a column in the view. For example, you can modify the Projects view to display the reference number for all your projects.
 
 For information about how to create or modify a View, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-### View reference numbers in reports
+### View reference numbers in reports {#view-reference-numbers-in-reports}
 
 You can display the reference number for objects in reports by adding the Reference Number column to the report.
 

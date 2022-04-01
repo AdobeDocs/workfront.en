@@ -23,7 +23,7 @@ When you subscribe to issues, tasks, or projects, you receive in-app&nbsp;notifi
 >
 >You will not be notified for any other events that happen on the item you subscribe to. You will only be notified when someone posts a comment to the item.&nbsp;
 
-For more information about working with subscriptions, see [About working with subscriptions](#considerations-about-subscriptions).
+For more information about working with subscriptions, see [About working with subscriptions](#about-working-with-subscriptions).
 
 ## Access requirements
 
@@ -107,12 +107,12 @@ For example, to unsubscribe from&nbsp;an issue:
 
 You can manage who subscribes to projects, tasks, and issues to which&nbsp;you have Manage and Share permissions.
 
-* [Subscribe another user to an item](#subscribing-others-to-items) 
-* [Unsubscribe another person from an item](#unsubscribing-others-from-items)
+* [Subscribe another user to an item](#subscribe-another-user-to-an-item) 
+* [Unsubscribe another person from an item](#unsubscribe-another-person-from-an-item)
 
 All subscribers are given View permission to the subscribed item. If the new subscribers already have permissions to the item, their permissions remain intact.
 
-### Subscribe another user to an item
+### Subscribe another user to an item {#subscribe-another-user-to-an-item}
 
 1. Go to the item to which you want to subscribe another user.
 1. Near the upper-right corner of the item, click the number icon next to the **Subscribe** or **Subscribed** link.
@@ -125,7 +125,7 @@ The subscriber is not notified of the subscription, but an entry about the subsc
 
 When someone adds a comment to the Updates tab of the item, the subscriber receives an in-app notification. Depending on the features your&nbsp;Workfront administrator has enabled, the subscriber&nbsp;may also receive email and mobile notifications for the item.
 
-### Unsubscribe another person from&nbsp;an item
+### Unsubscribe another person from&nbsp;an item {#unsubscribe-another-person-from-an-item}
 
 1. Go to the item from which you want to unsubscribe another user.
 1. Click the number bubble next to the&nbsp;**Subscribe**or**Subscribed** or link.
@@ -175,7 +175,7 @@ To see who is&nbsp;subscribing to an item:
 
    You can also view a list of subscribers by adding a&nbsp;Subscriber field as a column on a&nbsp;report or view for the subscribed item. For more information, see [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-## About&nbsp;working with&nbsp;subscriptions
+## About&nbsp;working with&nbsp;subscriptions {#about-working-with-subscriptions}
 
 Consider&nbsp;the following as you are working with subscriptions:
 

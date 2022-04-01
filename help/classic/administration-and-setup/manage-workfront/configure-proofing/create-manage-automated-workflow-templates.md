@@ -70,7 +70,7 @@ You must have the following:
      </tr> 
      <tr> 
       <td role="rowheader">Template group</td> 
-      <td> <p> If your organization's Automated Workflows are organized into groups, you can select the name of the group. See <a href="#group" class="MCXref xref">Create Automated Workflow template groups</a> later in this article for more information.</p> </td> 
+      <td> <p> If your organization's Automated Workflows are organized into groups, you can select the name of the group. See <a href="#create-automated-workflow-template-groups" class="MCXref xref">Create Automated Workflow template groups</a> later in this article for more information.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Template timezone </td> 
@@ -79,7 +79,7 @@ You must have the following:
      <tr> 
       <td role="rowheader">Allow</td> 
       <td> <p>You can select the stage activities you want available to the person creates proofs using the template.</p> <!--
-        <p class="warning" data-mc-autonum="<b>Warning: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="autonumber"><span><b>Warning: </b></span></span>If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
+        <p>Warning: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
           <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
          --><br></p>
        --> </td> 
@@ -185,11 +185,11 @@ As a Workfront Proof administrator, you can modify an Automated Workflow templat
      </tr> 
      <tr> 
       <td role="rowheader">Template group</td> 
-      <td> <p> If your organization's Automated Workflows are organized into groups, you can select the name of the group. See <a href="#group" class="MCXref xref">Create Automated Workflow template groups</a> later in this article for more information.</p> </td> 
+      <td> <p> If your organization's Automated Workflows are organized into groups, you can select the name of the group. See <a href="#create-automated-workflow-template-groups" class="MCXref xref">Create Automated Workflow template groups</a> later in this article for more information.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Allow</td> 
-      <td> <p>Select the stage activities you want available to those who create proofs using the template. </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof.<br></p> </td> 
+      <td> <p>Select the stage activities you want available to those who create proofs using the template. </p> <p>Warning: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -243,7 +243,7 @@ As a Workfront Proof administrator, you can modify an Automated Workflow templat
 
 1. In the **Shared with** section, if you want to delete a user, click the More ![](assets/more-icon.png) button to the right, then click **Remove**.
 
-## Create Automated Workflow template groups
+## Create Automated Workflow template groups {#create-automated-workflow-template-groups}
 
 As a Workfront administrator, you can view and manage all of the Automated Workflow templates in your organization's account. It can be helpful to organize templates into groups.
 

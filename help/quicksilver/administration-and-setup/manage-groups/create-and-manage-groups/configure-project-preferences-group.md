@@ -18,7 +18,7 @@ If there are any groups above the group you manage, their administrators can als
 >
 >* Typically, an unlocked preference remains unlocked indefinitely. If the Workfront administrator re-locks it, the system setting takes effect again and settings for the preference made by the group administrators are lost.
 >* The preferences set for the group that is associated with a project take precedence over the preferences set for the Home Group of the user who creates the project.
->* Some group-level preferences affect project templates that you create for the group. For more information, see the section [View, work with, and create templates for your group from the Groups area](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view,) in the article [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* Some group-level preferences affect project templates that you create for the group. For more information, see the section [View, work with, and create templates for your group from the Groups area](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) in the article [Create and modify a group’s project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
 >* After a Workfront administrator unlocks a preference at the system level, you can configure it and then lock it to ensure that everyone in your group and in its subgroups is using the same configuration. This is parallel to the ability that a Workfront administrator has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
@@ -66,12 +66,12 @@ You must have the following to perform the steps in this article:
    >
    >If you hover over a preference and a tool tip displays to tell you that it is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
 
-* [Project Status](#project) 
+* [Project Status](#project-status) 
 * [Timelines](#timelines) 
 * [Business Cases](#business-cases) 
 * [Life After Death](#life-after-death)
 
-### Project Status
+### Project Status {#project-status}
 
 Configure any of the following preferences for newly created projects associated with the group:
 
@@ -125,7 +125,7 @@ Configure any of the following preferences for newly created projects associated
  </tbody> 
 </table>
 
-### Timelines
+### Timelines {#timelines}
 
 Configure any of the following preferences for newly created projects associated with the group:
 
@@ -196,13 +196,13 @@ Configure any of the following preferences for newly created projects associated
  </tbody> 
 </table>
 
-### Business Cases
+### Business Cases {#business-cases}
 
 You can create a Business Case for newly created projects associated with the group to submit project requests. You can define preferences to determine which areas are visible on the **Business Case** form. We recommend that you enable these options so that other tools, such as the Portfolio Optimizer, update properly. For more information about what each field displays, see [Define a Business Case](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 After the Workfront administrator enables the sections on the Business Case, a Project Owner can then create a Business Case at the project level. For information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-### Life After Death
+### Life After Death  {#life-after-death}
 
 Configure any of the following preferences for newly created projects associated with the group:
 

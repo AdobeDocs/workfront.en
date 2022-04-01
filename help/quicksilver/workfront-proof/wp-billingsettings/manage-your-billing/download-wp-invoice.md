@@ -40,7 +40,7 @@ We issue all our automatic invoices for the subscriptions in USD by default, but
 * [Downloading Your Invoice](#downloading-your-invoice) 
 * [Useful Links](#useful-links)
 
-## Downloading Your Invoice
+## Downloading Your Invoice {#downloading-your-invoice}
 
 1. Click **Settings** > **Billing**.
 
@@ -48,7 +48,7 @@ We issue all our automatic invoices for the subscriptions in USD by default, but
 
 1. Services invoices (for example, for your Success Start program, Custom landing pages) are currently not available on your Billing page. If you need copies of these documents, please contact our Finance team at finance@proofhq.com.
 
-## Useful Links
+## Useful Links {#useful-links}
 
 To change the billing information on your account, go to the Billing contact and address section of the Billing page.&nbsp;See [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 

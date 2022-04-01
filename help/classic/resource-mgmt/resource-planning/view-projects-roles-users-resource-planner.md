@@ -86,14 +86,14 @@ For more information about the **Percentage of FTE Availability** for a job role
 * ["No Role" section](#no-role-section) 
 * ["No User" section](#no-user-section)
 
-### "No Role" section
+### "No Role" section  {#no-role-section}
 
 When a user belongs to a Resource Pool associated with a project, but they do not have a job role associated with them, they appear in the **No Role** section, instead of under a specific job role.
 
 You cannot budget hours for a user in a **No Role** section. The user must have at least one job role associated with them to be budgeted for work.  
 ![no_role_with_user___res_planner.png](assets/no-role-with-user---res-planner-350x165.png)
 
-### "No User" section
+### "No User" section  {#no-user-section}
 
 When you assign a task to a team, or you leave it unassigned, the Planned Hours appear under the **No User** section which appears under the **No Role** section in the Resource Planner. These tasks do not appear in the Resource Planner when using the **View by User** view.
 

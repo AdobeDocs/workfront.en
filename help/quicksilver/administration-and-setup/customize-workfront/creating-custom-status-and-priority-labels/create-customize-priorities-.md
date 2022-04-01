@@ -34,11 +34,11 @@ As a Workfront administrator, you can&nbsp;make the following modifications to t
 * Rename priorities.
 * Reorder the priorities.
 
-  For more information on how to reorder priorities, see [Create a priority for a project task, or issue](#creating-new-priorities).&nbsp;
+  For more information on how to reorder priorities, see [Create a priority for a project task, or issue](#create-a-priority-for-a-project-task-or-issue).&nbsp;
 
 * Change the default priority.
 
-  For more information on the functionality of changing the default priority, see [Create a priority for a project task, or issue](#creating-new-priorities).
+  For more information on the functionality of changing the default priority, see [Create a priority for a project task, or issue](#create-a-priority-for-a-project-task-or-issue).
 
 * Edit the description for the priorities.&nbsp;
 * Set a color for each priority.
@@ -53,7 +53,7 @@ As a Workfront administrator, you can&nbsp;make the following modifications to t
 
 * Hide priorities.
 
-  For more information on the functionality of hiding priorities, see [Create a priority for a project task, or issue](#creating-new-priorities).
+  For more information on the functionality of hiding priorities, see [Create a priority for a project task, or issue](#create-a-priority-for-a-project-task-or-issue).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ The priorities provided by default for each object type (project, task, and issu
 * High
 * Urgent
 
-## Create a priority for a project task, or issue
+## Create a priority for a project task, or issue {#create-a-priority-for-a-project-task-or-issue}
 
 In addition to the default priorities provided in&nbsp;Workfront, you can add your own priorities to reflect the needs of your organization.
 

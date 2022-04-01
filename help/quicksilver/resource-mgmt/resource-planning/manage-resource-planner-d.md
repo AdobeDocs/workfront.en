@@ -70,10 +70,10 @@ hidefromtoc: true
   The Resource Planner has two purposes:&nbsp;
 
    * To help Resource Managers budget the allocation of their job roles for the work that needs to be accomplished. You can use the Project and Role&nbsp;views to accomplish this.  
-     For more information about budgeting in the Resource Planner, see the&nbsp; [Budgeting Resources in the Resource Planner](#budgeting-allocations-in-the-resource-planner)&nbsp;section in this article. 
+     For more information about budgeting in the Resource Planner, see the&nbsp; [Budgeting Resources in the Resource Planner](#budgeting-resources-in-the-resource-planner)&nbsp;section in this article. 
    
    * To help Resource Managers and team managers view their users' availability and planned allocation to projects in the system.  
-     For more information about viewing the difference between the Available and Planned Hours for users in the Resource Planner, see the&nbsp; " [Understanding User Availability in the Resource Planner](#viewing-user-availability-in-the-rp)&nbsp;section in this article.
+     For more information about viewing the difference between the Available and Planned Hours for users in the Resource Planner, see the&nbsp; " [Understanding User Availability in the Resource Planner](#understanding-user-availability-in-the-resource-planner)&nbsp;section in this article.
 
   For more information about what areas display in the Resource Planner and how to configure what information displays in these areas, see [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
@@ -98,7 +98,7 @@ hidefromtoc: true
       Ensure that all prerequisites are met before starting to use the Resource Planner. This way, you ensure that the Resource Planner displays the correct information before you start budgeting your resources.  
       For&nbsp;more information about the prerequisites that must be met before you can start using the Resource Planner, see the [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md) [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md) section in [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-  ## Budgeting&nbsp;Resources in the Resource Planner
+  ## Budgeting&nbsp;Resources in the Resource Planner {#budgeting-resources-in-the-resource-planner}
 
   The main function of the Resource Planner is to budget your resources for the work that needs to be completed on the projects where you are designated as a Resource Manager.&nbsp;
 
@@ -106,10 +106,10 @@ hidefromtoc: true
   >
   >You can budget your resources only if you apply the **View by Project** or **View by Role** views to the Resource Planner.
 
-   * [Understanding the Information in the Resource Planner when Budgeting Resources by Hours, FTE, or Cost](#understanding-numbers-in-the-rp-when-budgeting-resources)
-   * [Budgeting Resources in the Resource Planner](#budgeting-in-the-planner-subsection)
+   * [Understanding the Information in the Resource Planner when Budgeting Resources by Hours, FTE, or Cost](#understanding-the-information-in-the-resource-planner-when-budgeting-resources-by-hours-fte-or-cost)
+   * [Budgeting Resources in the Resource Planner](#budgeting-resources-in-the-resource-planner)
 
-  ### Understanding the Information in the Resource Planner when Budgeting Resources by Hours, FTE, or Cost
+  ### Understanding the Information in the Resource Planner when Budgeting Resources by Hours, FTE, or Cost {#understanding-the-information-in-the-resource-planner-when-budgeting-resources-by-hours-fte-or-cost}
 
   >[!TIP]
   >
@@ -246,7 +246,7 @@ hidefromtoc: true
    </tbody> 
   </table>
 
-  ### Budgeting Resources in the Resource Planner
+  ### Budgeting Resources in the Resource Planner {#budgeting-resources-in-the-resource-planner-1}
 
   You can budget the allocation of your resources by specifying an amount of Hours, FTE, or Cost that your resources can use to complete work on projects. Budgeting by FTE or Cost is identical to budgeting by Hours.&nbsp;
 
@@ -284,9 +284,9 @@ hidefromtoc: true
   >We recommend that you manually budget your&nbsp;Hours, FTE, or Cost&nbsp;for job roles or for users first. You can use the automatic options to budget time for your projects and resources only when you are sure that the amount of Planned Hours, FTE, or Cost should always match your Budgeted Hours, FTE, or Cost   
   >For more information about using the automatic options for budgeting in the Resource Planner, see the "Project and Role Options" section in [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-   * [Budgeting Resources in the Project View](#budgeting-in-the-project-view)
-   * [Budgeting Resources in the Role View](#budgeting-in-the-role-view)
-   * [Adjusting Budgeting Dates](#adjusting-budgeted-dates)
+   * [Budgeting Resources in the Project View](#budgeting-resources-in-the-project-view)
+   * [Budgeting Resources in the Role View](#budgeting-resources-in-the-role-view)
+   * [Adjusting Budgeting Dates](#adjusting-budgeting-dates)
 
   Budgeting FTE or costs is identical with budgeting hours, where Workfront uses the FTE and cost values instead of hours for the resources you budget.&nbsp;
 
@@ -457,7 +457,7 @@ hidefromtoc: true
    1. Click **Save**.&nbsp;* 
    * ```(this will have to be changed when the full functionality is out and they actually click Done to move the hours).```
 
-  ## Understanding User Availability in the Resource Planner
+  ## Understanding User Availability in the Resource Planner {#understanding-user-availability-in-the-resource-planner}
 
   The second function of the Resource Planner is to understand the difference between the Available and Planned Hours or FTE for your resources.
 
@@ -528,7 +528,7 @@ hidefromtoc: true
      <td>The Planned Hours or FTE associated with the task or the issue on the project.</td> 
     </tr> 
     <tr> 
-     <td colspan="2"> For more information about Planned Hours and FTE in the Resource Planner, see "<a style="background-color: #ffffff;" href="#understanding-numbers-in-the-rp-when-budgeting-resources" class="MCXref xref">Understanding the Information in the Resource Planner when Budgeting Resources by Hours, FTE, or Cost</a>."</td> 
+     <td colspan="2"> For more information about Planned Hours and FTE in the Resource Planner, see "<a style="background-color: #ffffff;" href="#understanding-the-information-in-the-resource-planner-when-budgeting-resources-by-hours-fte-or-cost" class="MCXref xref">Understanding the Information in the Resource Planner when Budgeting Resources by Hours, FTE, or Cost</a>."</td> 
     </tr> 
     <tr> 
      <td rowspan="4">DIF <br>(Hour or FTE Difference) <br><br></td> 
@@ -594,7 +594,7 @@ hidefromtoc: true
 
   For more information about how Costs are calculated in the Resource Planner for users and roles, see [Calculate costs in the Resource Planner](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-  ##  Filtering in the Resource Planner
+  ##  Filtering in the Resource Planner  {#filtering-in-the-resource-planner}
 
   You can reduce the number of projects, roles, or users that display in the Resource Planner by creating a filter.   
   For more information, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md)

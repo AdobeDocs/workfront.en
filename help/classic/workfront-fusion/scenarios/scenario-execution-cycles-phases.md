@@ -75,13 +75,13 @@ If the operation phase is successful for all modules, the commit phase begins du
 
 ## Rollback
 
-If an error occurs during the operation or commit phase on any module, the phase is aborted and the rollback phase is started, making all operations during the given cycle void. Some modules do not support rollback and operations performed by these modules cannot be taken back. For more information see the [ACID modules](#acid) section.
+If an error occurs during the operation or commit phase on any module, the phase is aborted and the rollback phase is started, making all operations during the given cycle void. Some modules do not support rollback and operations performed by these modules cannot be taken back. For more information see the [ACID modules](#acid-modules) section.
 
 ## Finalization
 
 During the finalization phase, open connections (for example, FTP connections, database connections, and so on) are closed and the scenario is completed.
 
-## ACID modules
+## ACID modules {#acid-modules}
 
 All Workfront Fusion modules that support rollback (also known as transactionality) are marked with the ACID tag.
 

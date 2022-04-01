@@ -45,7 +45,7 @@ Provide your network administrator with the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Your cluster</td> 
-   <td>To locate your organization's cluster, see <a href="#locate" class="MCXref xref">View your organization's cluster and Workfront plan</a></td> 
+   <td>To locate your organization's cluster, see <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your Workfront Plan</td> 
@@ -55,7 +55,7 @@ Provide your network administrator with the following information:
      <li> <p>Business </p> </li> 
      <li> <p>Pro </p> </li> 
      <li> <p>Team </p> </li> 
-    </ul> <p>To locate your plan, see <a href="#locate" class="MCXref xref">View your organization's cluster and Workfront plan</a></p> </td> 
+    </ul> <p>To locate your plan, see <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your domain</td> 
@@ -95,7 +95,7 @@ Provide your network administrator with the following information:
 >
 >If you add any of these products, integrations, or functionalities at a later date, you must contact your network administrator so they can adjust the allowlist.
 
-### View your organization's cluster and Workfront plan
+### View your organization's cluster and Workfront plan {#view-your-organization-s-cluster-and-workfront-plan}
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **System** in the left panel

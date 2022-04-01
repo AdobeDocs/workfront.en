@@ -6,7 +6,7 @@ title: Edit tasks in a list
 description: You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see Edit tasks.
 ---
 
-# Edit tasks in a list
+# Edit tasks in a list {#edit-tasks-in-a-list}
 
 You can edit task information in a list of tasks by editing the fields displayed in the list. For information about other ways to edit tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Considerations about editing tasks in a list
+## Considerations about editing tasks in a list {#considerations-about-editing-tasks-in-a-list}
 
 Editing tasks in a list is a fast way to make changes to multiple tasks simultaneously, with a clear view of how your changes might affect the project timeline.
 
@@ -73,9 +73,9 @@ Consider the following when editing tasks in a list:
 
 * You can control when Workfront saves the changes you make to the tasks in a list. Your changes can be saved automatically or you can manually save them.
 
-  For information about configuring when Workfront saves changes you make to tasks in a list, see the [Select a save option when editing tasks in a list](#selectin) section in this article.
+  For information about configuring when Workfront saves changes you make to tasks in a list, see the [Select a save option when editing tasks in a list](#select-a-save-option-when-editing-tasks-in-a-list) section in this article.
 
-## Select a save option when editing tasks in a list
+## Select a save option when editing tasks in a list {#select-a-save-option-when-editing-tasks-in-a-list}
 
 You can decide where the changes you make to tasks in a list are saved automatically, as they occur, or if you want to manually save each change.
 
@@ -89,13 +89,13 @@ You can control when Workfront saves the changes you make to the tasks in a list
 
 * You can have Workfront automatically save the changes, after each update.
 
-  For information, see the section [Edit tasks in a list and automatically save changes](#autosave) in this article. 
+  For information, see the section [Edit tasks in a list and automatically save changes](#edit-tasks-in-a-list-and-automatically-save-changes) in this article. 
 
 * You can have control over when you apply multiple changes at a time by manually using a Save button.
 
-  For information, see the section [Edit tasks in a list and manually save changes](#save) in this article.
+  For information, see the section [Edit tasks in a list and manually save changes](#edit-tasks-in-a-list-and-manually-save-changes) in this article.
 
-### Edit tasks in a list and automatically save changes
+### Edit tasks in a list and automatically save changes {#edit-tasks-in-a-list-and-automatically-save-changes}
 
 >[!TIP]
 >
@@ -139,7 +139,7 @@ To edit tasks in a list and save changes automatically:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Edit</strong></td> 
-      <td><p>Opens the <strong>Edit Task</strong> box, where you can edit the task.</p><p>For information about editing a task, see <a href="#top" class="MCXref xref">Edit tasks in a list</a>.</p></td> 
+      <td><p>Opens the <strong>Edit Task</strong> box, where you can edit the task.</p><p>For information about editing a task, see <a href="#edit-tasks-in-a-list" class="MCXref xref">Edit tasks in a list</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Delete</td> 
@@ -178,7 +178,7 @@ To edit tasks in a list and save changes automatically:
 
    Changes are saved automatically and you cannot reverse them.
 
-### Edit tasks in a list and manually save changes
+### Edit tasks in a list and manually save changes {#edit-tasks-in-a-list-and-manually-save-changes}
 
 You can manually save changes you make to tasks in a list. When you save changes this way, you have the flexibility to reverse them before saving.
 
@@ -197,10 +197,10 @@ Consider the following when saving changes in a task list manually:
 
 There are two ways to manually save changes to tasks in a list. These two ways are described below.
 
-* [Save changes in a task list manually when you select the Manual save option](#save2) 
-* [Save changes in a task list manually when you select the Timeline Planning option](#save4)
+* [Save changes in a task list manually when you select the Manual save option](#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-option) 
+* [Save changes in a task list manually when you select the Timeline Planning option](#save-changes-in-a-task-list-manually-when-you-select-the-timeline-planning-option)
 
-#### Save changes in a task list manually when you select the Manual save option
+#### Save changes in a task list manually when you select the Manual save option {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-option}
 
 >[!TIP]
 >
@@ -281,7 +281,7 @@ To edit tasks in a list when selecting the Manual save option:
 1. Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
 1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
-#### Save changes in a task list manually when you select the Timeline Planning option
+#### Save changes in a task list manually when you select the Timeline Planning option {#save-changes-in-a-task-list-manually-when-you-select-the-timeline-planning-option}
 
 Saving your changes and all the project dependencies is faster. This is not available for projects with more than 2000 tasks.
 
@@ -396,7 +396,7 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
    >
    >You cannot edit tasks in bulk when saving tasks manually.
 
-   For more information about ways of saving changes to tasks in a list, see the section [Considerations about editing tasks in a list](#editing) in this article. 
+   For more information about ways of saving changes to tasks in a list, see the section [Considerations about editing tasks in a list](#considerations-about-editing-tasks-in-a-list) in this article. 
 
 1. Select several tasks in the tasks list. 
 1. Click **Edit**.

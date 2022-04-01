@@ -93,9 +93,9 @@ Creating a scenario consists of several main tasks:
    When you begin creating a new scenario, it's a good idea to start by creating a name for it. 
 
 1. Select the **New scenario** placeholder name in the upper-left corner, then type a name such as "Practice scenario 1."
-1. Continue with [Add and configure the first module](#build) below.
+1. Continue with [Add and configure the first module](#add-and-configure-the-first-module) below.
 
-## Add and configure the first module
+## Add and configure the first module {#add-and-configure-the-first-module}
 
 The empty module with a question mark represents the trigger module you need to add. This module will start the scenario each time it runs. The clock icon on the empty module indicates that is a scheduled module.
 
@@ -168,9 +168,9 @@ After you connect Workfront Fusion to your Workfront account, you can specify a 
 
    ![](assets/module-renamed-wf.png)
 
-1. Continue with [Add and configure the second module](#configur).
+1. Continue with [Add and configure the second module](#add-and-configure-the-second-module).
 
-## Add and configure the second module
+## Add and configure the second module {#add-and-configure-the-second-module}
 
 1. Click the partial circle to the right of the of the module to **Add another module**.
 1. Select Workfront from the list of applications, then choose the search module **Read Related Records**.
@@ -194,9 +194,9 @@ After you connect Workfront Fusion to your Workfront account, you can specify a 
 
    Now you have a working scenario.
 
-1. Give the second module a name such as "Return tasks associated with project," then continue with [Test the scenario](#test).
+1. Give the second module a name such as "Return tasks associated with project," then continue with [Test the scenario](#test-the-scenario).
 
-## Test the scenario
+## Test the scenario {#test-the-scenario}
 
 Before you activate your scenario, it's important to test it by running it at least once and viewing the results. This helps you understand how data flows through the scenario and find any errors.
 

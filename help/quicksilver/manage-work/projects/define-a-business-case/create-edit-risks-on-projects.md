@@ -80,10 +80,10 @@ To create or edit a risk in the Business Case:
 
 In addition to creating and editing risks in the Business Case, you can do so using the **Risks** sectionof a project.
 
-* [Create risks in the Risks area](#creating-risks-in-the-risks-tab) 
-* [Edit risks in the Risks area](#editing-risks-in-the-risks-tab)
+* [Create risks in the Risks area](#create-risks-in-the-risks-area) 
+* [Edit risks in the Risks area](#edit-risks-in-the-risks-area)
 
-### Create risks in the Risks area
+### Create risks in the Risks area {#create-risks-in-the-risks-area}
 
 1. Go to the project you want to create risks for.
 1. Click **Risks** in the left panel.
@@ -117,7 +117,7 @@ In addition to creating and editing risks in the Business Case, you can do so us
 
    By default, the Status of a risk is **Identified**.
 
-### Edit risks in the Risks area
+### Edit risks in the Risks area {#edit-risks-in-the-risks-area}
 
 You can edit risks during the life of a project, when changes occur in their probability, potential cost, or their status, for example.
 

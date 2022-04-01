@@ -58,7 +58,7 @@ For general information that relates to reviewing proofs, see [Review proofs wit
 
 If you cannot use a proofing viewer as described in this section, consult your Workfront administrator.
 
-## Change the unit of measurement of the timeline
+## Change the unit of measurement of the timeline {#change-the-unit-of-measurement-of-the-timeline}
 
 You can adjust the unit of measurement that is used in the video timeline. You can view the timeline in Time, Frame, or Timecode.
 
@@ -110,11 +110,11 @@ You can adjust the unit of measurement that is used in the video timeline. You c
 
 ## Control video playback
 
-* [Adjust video playback speed](#adjusting-video-playback-speed) 
-* [View video frame-by-frame](#viewing-video-frame-by-frame) 
-* [Change playback volume](#changing-playback-volume)
+* [Adjust video playback speed](#adjust-video-playback-speed) 
+* [View video frame-by-frame](#view-video-frame-by-frame) 
+* [Change playback volume](#change-playback-volume)
 
-### Adjust video playback speed
+### Adjust video playback speed {#adjust-video-playback-speed}
 
 You can adjust the playback speed of the video proof. You can select to view the video between a quarter speed, to double speed.
 
@@ -125,15 +125,15 @@ You can adjust the playback speed of the video proof. You can select to view the
 1. Click the current speed, then select a new playback speed.  
 1. Click the **Play** button on the video to test the new speed.
 
-### View video frame-by-frame
+### View video frame-by-frame {#view-video-frame-by-frame}
 
 For a more detailed look at the video proof, you can manually review&nbsp;the video frame-by-frame.
 
 1. At the bottom of the proofing viewer, click the **Forward**&nbsp;and **Back** arrows to review the video frame-by-frame.
 
-1. (Optional) Change the timeline to measure by frame, as described in&nbsp; [Change the unit of measurement of the timeline](#changing-the-unit-of-measurement-of-the-timeline).&nbsp;
+1. (Optional) Change the timeline to measure by frame, as described in&nbsp; [Change the unit of measurement of the timeline](#change-the-unit-of-measurement-of-the-timeline).&nbsp;
 
-### Change playback volume
+### Change playback volume {#change-playback-volume}
 
 You can control the volume in the video playback.
 

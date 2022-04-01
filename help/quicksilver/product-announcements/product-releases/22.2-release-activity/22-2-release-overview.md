@@ -56,12 +56,12 @@ For specific release dates and times for each cluster, see the
 
 ## Adobe Workfront enhancements
 
-* [Administrator enhancements](#administ) 
-* [Project enhancements](#project) 
-* [Mobile enhancements](#mobile) 
-* [Other enhancements](#other)
+* [Administrator enhancements](#administrator-enhancements) 
+* [Project enhancements](#project-enhancements) 
+* [Mobile enhancements](#mobile-enhancements) 
+* [Other enhancements](#other-enhancements)
 
-### Administrator enhancements
+### Administrator enhancements {#administrator-enhancements}
 
 <table> 
  <col> 
@@ -86,7 +86,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Project enhancements
+### Project enhancements {#project-enhancements}
 
 <table> 
  <col> 
@@ -133,7 +133,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Mobile enhancements
+### Mobile enhancements {#mobile-enhancements}
 
 <table> 
  <col> 
@@ -155,7 +155,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Other enhancements
+### Other enhancements {#other-enhancements}
 
 <table> 
  <col> 

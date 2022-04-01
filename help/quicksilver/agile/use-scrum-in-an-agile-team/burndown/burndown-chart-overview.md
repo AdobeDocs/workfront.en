@@ -45,11 +45,11 @@ The burndown chart contains the following visual indicators:
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         or project 
       </MadCap:conditionalText>
-     --> began.</p> <p>This line is not displayed if the scope of the iteration never changes (hours or points are never added or removed).</p> <p>This line is displayed as flat when work is done on a day off. For more information, see <a title="Using the Agile Burndown Chart" href="#understanding-how-days-off-affect-the-burndown-chart" class="MCXref xref">How days off affect the burndown chart</a>.</p> </td> 
+     --> began.</p> <p>This line is not displayed if the scope of the iteration never changes (hours or points are never added or removed).</p> <p>This line is displayed as flat when work is done on a day off. For more information, see <a title="Using the Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">How days off affect the burndown chart</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
-   <td> <p>Ideal burndown rate based on current stories or tasks.</p> <p>The current ideal burndown rate (solid blue line) differs from the original ideal burndown rate (dotted blue line) when hours or points are added to or removed from the iteration after the iteration begins.</p> <p>This line is displayed as flat when work is done on a day off.</p> <p>For more information, see <a title="Using the Agile Burndown Chart" href="#understanding-how-days-off-affect-the-burndown-chart" class="MCXref xref">How days off affect the burndown chart</a>.</p> </td> 
+   <td> <p>Ideal burndown rate based on current stories or tasks.</p> <p>The current ideal burndown rate (solid blue line) differs from the original ideal burndown rate (dotted blue line) when hours or points are added to or removed from the iteration after the iteration begins.</p> <p>This line is displayed as flat when work is done on a day off.</p> <p>For more information, see <a title="Using the Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">How days off affect the burndown chart</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
@@ -82,7 +82,7 @@ The burndown chart contains the following visual indicators:
  </tbody> 
 </table>
 
-## How days off affect the burndown chart
+## How days off affect the burndown chart {#how-days-off-affect-the-burndown-chart}
 
 The default schedule defined in Workfront affects the burndown&nbsp;chart&nbsp;by excluding days off (weekends and holidays) from the burndown. The burndown chart uses the&nbsp;default schedule to define working days (as described in&nbsp; [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 

@@ -50,7 +50,7 @@ There are three areas inside the Resource Budget Manager:
 * **Resource Pools**: Shows the Legacy Resource Pools and the job roles associated with each pool. This section is editable and allows you to specify how many of the total available job roles in the system are associated with one specific Legacy Resource Pool.   
   For example, you can have 3 Designers in the system, but you want to assign 1 designer to each Legacy Resource Pool you have. You specify this count in this area of the Resource Budget Manager.  
   This area also allows you to manually add in the Other Roles of the users, which are not counted in the top portion of the Resource Budget Manager.   
-  For more information about budgeting job roles in the Legacy Resource Pools, see [Budget Legacy Resource Pools in the Resource Budget Manager](#budget-resource-pool).
+  For more information about budgeting job roles in the Legacy Resource Pools, see [Budget Legacy Resource Pools in the Resource Budget Manager](#budget-legacy-resource-pools-in-the-resource-budget-manager).
 
 * **Net Remaining Resources**: Shows the difference between the total of job roles in the system (counted in the first section of the Budget Resource Manager) and the number of job roles associated with a Resource Pool (counted in the middle section of the Resource Budget Manager).
 
@@ -58,12 +58,12 @@ There are three areas inside the Resource Budget Manager:
   >
   >If you are manually adding budgeting for secondary job roles in the Resource Pools area, values for some of the job roles might appear in red (negative) in the Net Remaining Resources area.
 
-## Budget Legacy Resource Pools in the Resource Budget Manager
+## Budget Legacy Resource Pools in the Resource Budget Manager {#budget-legacy-resource-pools-in-the-resource-budget-manager}
 
-* [Budget Legacy Resource Pools](#budgeting-legacy-pools-subsection) 
-* [Considerations about budgeting secondary job roles](#considerations-for-secondary-job-roles)
+* [Budget Legacy Resource Pools](#budget-legacy-resource-pools) 
+* [Considerations about budgeting secondary job roles](#considerations-about-budgeting-secondary-job-roles)
 
-### Budget Legacy Resource Pools
+### Budget Legacy Resource Pools {#budget-legacy-resource-pools}
 
 If your company uses all the job roles in all the projects they fulfill, we recommend that you have just one Legacy Resource Pool. If you have resources that never work on the same projects, you can use multiple Legacy Resource Pools.
 
@@ -89,12 +89,12 @@ To budget all Legacy Resource Pools using the Resource Budget Manager:
      ![budget_manager_show_by_drop-down.png](assets/budget-manager-show-by-drop-down-350x198.png)
 
    The total number of available users associated with a specific job role in the entire system is displayed in the **Total Available Resources** area of the **Resource Budget Manager**. You can manually divide that total number between the roles available in each Legacy Resource Pool. The total number of users associated with a specific job role in the system and displayed in the Total Available Resources area is a calculation of all the Primary Roles of all active users in the system. Secondary job roles of users are not displayed in the Total Available Resources area of the Resource Budget Manager.  
-   For more information about budgeting for secondary job roles, see [Considerations about budgeting secondary job roles](#considerations-for-secondary-job-roles).  
+   For more information about budgeting for secondary job roles, see [Considerations about budgeting secondary job roles](#considerations-about-budgeting-secondary-job-roles).  
    When budgeting your job roles in the Resource Pools area of the Resource Budget Manager, you can enter a number for your job role allocation, then drag and drop the green box to extend that number across a date range over several cells in the grid. 
 
 1. (Optional) Mouse over the name of a Legacy Resource Pool and click the hammer icon. Click **Add Roles** to add more roles for the Legacy Resource Pool.  
    You can add roles that you do not see displayed in the **Total Available Resources** area. The roles not displayed in the **Total Available Resources** area are not the Primary Roles of the active users. They can be Other Roles (or secondary roles), or roles that have not yet been assigned to active users.  
-   For more information about budgeting for secondary job roles, see [Considerations about budgeting secondary job roles](#considerations-for-secondary-job-roles).
+   For more information about budgeting for secondary job roles, see [Considerations about budgeting secondary job roles](#considerations-about-budgeting-secondary-job-roles).
 
 1. To quickly manage your resources in the **Resource Pools** area of the **Resource Budget Manager**, mouse over the name of a Legacy Resource Pool and select the hammer icon.  
    The budgeting options are displayed. Individual pools can be budgeted using the hammer icon, or all pools can be budgeted using the same icon, based on where the hammer is selected from.  
@@ -114,7 +114,7 @@ To budget all Legacy Resource Pools using the Resource Budget Manager:
 1. Click **Save**.  
    Changes made in the Resource Budget Manager will be reflected within each individual Legacy Resource Pool.
 
-### Considerations about budgeting secondary job roles
+### Considerations about budgeting secondary job roles {#considerations-about-budgeting-secondary-job-roles}
 
 The **Total Available Resources** area of the Resource Budget Manager shows only available Primary Job Roles assigned to active users. If your users have multiple job roles, their secondary roles are not accounted for in the Resource Budget Manager. You must account for their secondary job roles manually, by editing the **Resource Pools** area of the Resource Budget Manager.
 

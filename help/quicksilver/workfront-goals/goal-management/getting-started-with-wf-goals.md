@@ -26,11 +26,11 @@ Typically, the mission and vision of an organization don’t change on a regular
 
 We have identified the following steps for defining your vision and strategy for your organization:
 
-* [Define and express the end goal](#define) 
-* [Collaborate around enterprise and organizational goals](#collabor) 
-* [Align groups and teams to strategy](#align)
+* [Define and express the end goal](#define-and-express-the-end-goal) 
+* [Collaborate around enterprise and organizational goals](#collaborate-around-enterprise-and-organizational-goals) 
+* [Align groups and teams to strategy](#align-groups-and-teams-to-strategy)
 
-### Define and express the end goal
+### Define and express the end goal {#define-and-express-the-end-goal}
 
 Create a clear statement which sets the strategic pillars of your vision and will establish the highest level of goals to which your teams and their work will align.
 
@@ -53,7 +53,7 @@ For information about creating goals and adding results, see the following artic
 * [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md) 
 * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
-### Collaborate around enterprise and organizational goals
+### Collaborate around enterprise and organizational goals {#collaborate-around-enterprise-and-organizational-goals}
 
 Cascade the high level goals. Building upon the strategic pillars outlined first, mid-senior level management establishes goals that provide segmented guidance of the driving results required to fulfill the vision. For this, we recommend that you do the following:
 
@@ -71,7 +71,7 @@ For information about creating and aligning goals, see the following articles:
 * [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md) 
 * [Goal alignment overview in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 
-### Align groups and teams to strategy
+### Align groups and teams to strategy {#align-groups-and-teams-to-strategy}
 
 Once you have defined your goals and associated results with them, share the strategy and goals with your primary audience. Together, refine the goals and set shorter term ones that can be achieved in a defined time period.
 

@@ -63,7 +63,7 @@ If a module encounters an error during its operation, a new incomplete execution
 
 ![](assets/incomplete-executions-tab-350x102.png)
 
-For more information, see [Errors resulting into incomplete executions](#errors).
+For more information, see [Errors resulting into incomplete executions](#errors-resulting-into-incomplete-executions).
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ The following options in the Scenario settings panel determine if and how the in
 
 For more information about these options, see [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
-## Errors resulting into incomplete executions
+## Errors resulting into incomplete executions {#errors-resulting-into-incomplete-executions}
 
 There are several categories of errors which result into storing of incomplete executions. These may include:
 

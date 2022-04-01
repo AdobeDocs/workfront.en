@@ -48,9 +48,9 @@ Consider the following when budgeting resources using the Resource Planner:
 
 * When a user changes job roles, is deleted, deactivated, or removed from a Resource Pool, the hours budgeted for the role do not change and they get redistributed to the remaining users in the role. If no user is associated with the job role anymore, the Budgeted Hours for the role become zero.
 
-For more information about the project and role options, see the section [Understand the values of Hours, FTE, and Cost in the Resource Planner](#understa) in this article.
+For more information about the project and role options, see the section [Understand the values of Hours, FTE, and Cost in the Resource Planner](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) in this article.
 
-## Understand the values of Hours, FTE, and Cost in the Resource Planner
+## Understand the values of Hours, FTE, and Cost in the Resource Planner {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
 
 Before budgeting your resources, and updating the Budgeted Hours information in the Resource Planner, you must be familiar with the following concepts
 
@@ -163,7 +163,7 @@ The following table shows the allocation and availability information that displ
      </ul> </li> 
     <ul> 
      <li>By default, the Budgeted Hours in the Resource Planner are zero for all resources and for all the projects.</li> 
-     <li>You can manually estimate the Budgeted Hours for users and roles, or you can use one of the links in the Project or Job Role <strong>More</strong> menus to update them according to the number of Planned Hours.<br>For more information about project and role options, see the section <a href="#budget" class="MCXref xref">Overview of hours, FTE, and cost information in the Project and&nbsp;Role views of the Resource Planner</a> in this article.</li> 
+     <li>You can manually estimate the Budgeted Hours for users and roles, or you can use one of the links in the Project or Job Role <strong>More</strong> menus to update them according to the number of Planned Hours.<br>For more information about project and role options, see the section <a href="#Budget" class="MCXref xref">Overview of hours, FTE, and cost information in the Project and&nbsp;Role views of the Resource Planner</a> in this article.</li> 
      <li> The smallest period of time you can budget hours, FTE, or Cost for is a week. You cannot budget hours, FTE, or Cost for a day. </li> 
      <li> Budgeted Hours are equally distributed to each day within the Duration of tasks, for each resource assigned to them. The task Duration is based on the task Planned Start and Completion Dates and includes every calendar day within that period of time. <br>Workfront takes into account the schedule of the user or of the project when distributing Budgeted Hours to users or projects. In this case, Budgeted Hours are equally distributed to each day within the Duration of tasks excluding weekends, but including time-off and schedule exceptions. <br>If you display the Resource Planner by Week, for example, and you have tasks that span multiple weeks, the number of Budgeted Hours per week depends on how many days within that week are part of the task Duration. Weekend days are excluded from this distribution. This works similarly when displaying the Resource Planner by Month or Quarter and when tasks span multiple months or quarters. </li> 
      <li>You can report on Budgeted Hours, by selecting Budgeted Hour as your report object for a new report.<br>For information about what objects you can report on in Workfront, see the section "Report on objects" in the article <a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. <br>For information about building a Budgeted Hour report, see the article <a href="../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>.</li> 

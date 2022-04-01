@@ -24,7 +24,7 @@ Whether reports&nbsp;are available depends on your type of Workfront Proof accou
 * [Account Prerequisites](#account-prerequisites) 
 * [User Prerequisites](#user-prerequisites)
 
-### Account Prerequisites
+### Account Prerequisites {#account-prerequisites}
 
 Reporting&nbsp;information is available only with Premium plans.
 
@@ -34,7 +34,7 @@ Reporting&nbsp;information is available only with Premium plans.
 </MadCap:conditionalText>
 -->
 
-### User Prerequisites
+### User Prerequisites {#user-prerequisites}
 
 Reporting&nbsp;information is available only to users with full access to all proofs on your account (i.e. users with at least [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)).
 
@@ -46,7 +46,7 @@ In this panel you can
 * Check the total number of proofs created in your selected time span
 * Check the average number of versions included in the completed sets of proofs
 
-## Viewing Reports
+## Viewing Reports {#viewing-reports}
 
 1. Go to the **Dashboards** page.
 1. Click the **Reports** tab.  
@@ -67,7 +67,7 @@ In this panel you can
 
 1. (Optional) You can filter the data that is displayed, as described in [Filtering Reports](#filtering-reports).
 
-## Filtering Reports
+## Filtering Reports {#filtering-reports}
 
 By default, data displayed in reports&nbsp;includes all information from your Workfront Proof system. You can use filters to show only information that is relevant to your needs.
 

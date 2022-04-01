@@ -75,9 +75,9 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations for using Work Effort
 
-* When the project tasks have 0 Planned Hours and you enable the Use Work Effort to automatically calculate task Planned Hours setting on the project, the default level of Work Effort associated with them will be Medium. The Planned Hours automatically update for Simple Duration&nbsp;Type tasks. For more information, see the section&nbsp; [Levels of Work Effort](#levels) in this article. 
-* When the project tasks have Planned Hours that are more than 0 and you enable the Use Work Effort to automatically calculate task Planned Hours setting on the project, the level of Work Effort updates according to the amount of Planned Hours without changing the amount of the Planned Hours for Simple Duration Type tasks.&nbsp;For more information, see the section [How Workfront calculates Work Effort based on Planned Hours](#how) in this article. 
-* When the project tasks have 0 Planned Hours and you enable the Use Work Effort to automatically calculate task Planned Hours setting on the project, then update the level of Work Effort from Medium to Small or Large, the Planned Hours also update. For more information, see the section [How Workfront calculates Planned Hours based on Work Effort](#how2) in this article.
+* When the project tasks have 0 Planned Hours and you enable the Use Work Effort to automatically calculate task Planned Hours setting on the project, the default level of Work Effort associated with them will be Medium. The Planned Hours automatically update for Simple Duration&nbsp;Type tasks. For more information, see the section&nbsp; [Levels of Work Effort](#levels-of-work-effort) in this article. 
+* When the project tasks have Planned Hours that are more than 0 and you enable the Use Work Effort to automatically calculate task Planned Hours setting on the project, the level of Work Effort updates according to the amount of Planned Hours without changing the amount of the Planned Hours for Simple Duration Type tasks.&nbsp;For more information, see the section [How Workfront calculates Work Effort based on Planned Hours](#how-workfront-calculates-work-effort-based-on-planned-hours) in this article. 
+* When the project tasks have 0 Planned Hours and you enable the Use Work Effort to automatically calculate task Planned Hours setting on the project, then update the level of Work Effort from Medium to Small or Large, the Planned Hours also update. For more information, see the section [How Workfront calculates Planned Hours based on Work Effort](#how-workfront-calculates-planned-hours-based-on-work-effort) in this article.
 * When you inline edit tasks and modify both the Planned Hours and Work Effort field for task at the same time, the Planned Hours will be updated with the value you specify, whereas the Work Effort value is calculated based on your updated Planned Hours.
 * When you update the Work Effort value of a task, the Duration no longer auto-calculates based on the Planned Hours. For more information about how Duration calculates for Simple Duration tasks, see [Duration Type overview: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 * When you change the Duration&nbsp;Type of a task from&nbsp;Simple to any other type, the Work Effort field is hidden on the task. The Planned Hours remain unchanged. 
@@ -108,7 +108,7 @@ You must have the following access to perform the steps in this article:
    * The "Overview" section in the [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md) article
    * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
-## Levels of Work Effort
+## Levels of Work Effort {#levels-of-work-effort}
 
 As a project manager, you can identify three levels of Work Effort for your projects. Each level of effort equates with a percentage of daily time that users need to complete the task.
 
@@ -145,7 +145,7 @@ As a Workfront administrator, you define the Typical hours per work day in the P
  </tbody> 
 </table>
 
-## How Workfront calculates Planned Hours based on Work Effort
+## How Workfront calculates Planned Hours based on Work Effort {#how-workfront-calculates-planned-hours-based-on-work-effort}
 
 When you enable the Use Work Effort to automatically calculate task Planned Hours setting on a project, Workfront calculates the number of Planned Hours for a task with a Simple Duration&nbsp;Type using the following formula:
 
@@ -165,7 +165,7 @@ where the&nbsp;Typical hours per work day value is 8 hours.
 >
 >When a task is assigned to multiple resources, the Planned Hours are evenly distributed to each resource for each day of the task's duration.
 
-## How Workfront calculates Work Effort based on Planned Hours
+## How Workfront calculates Work Effort based on Planned Hours {#how-workfront-calculates-work-effort-based-on-planned-hours}
 
 When you enable the Use Work Effort to automatically calculate task Planned Hours setting on a project and you already have Planned Hours on the task or you edit the number of Planned Hours on the task, Workfront updates the Work Effort value.
 
@@ -183,16 +183,16 @@ Work Effort level = 20 / 2 / 8 = 125 % = Large
 
 ## Locate Work Effort for tasks and projects
 
-* [Work Effort for projects](#for) 
-* [Work Effort for tasks](#for2)
+* [Work Effort for projects](#work-effort-for-projects) 
+* [Work Effort for tasks](#work-effort-for-tasks)
 
-### Work Effort for projects
+### Work Effort for projects {#work-effort-for-projects}
 
 You can locate the Work Effort section on a project in the following area:
 
 * The Task&nbsp;Settings area in the Edit Project box
 
-### Work Effort for tasks
+### Work Effort for tasks {#work-effort-for-tasks}
 
 You can locate the Work Effort field for a task in the following areas:
 

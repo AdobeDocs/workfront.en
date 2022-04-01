@@ -57,10 +57,10 @@ You must have the following access to use the functionality in this article:
 When you are configuring this module, the following fields display. A bolded title in a module indicates a required field.
 
 * [Resize](#resize) 
-* [Convert a format](#convert) 
-* [Extract metadata](#extract)
+* [Convert a format](#convert-a-format) 
+* [Extract metadata](#extract-metadata)
 
-### Resize
+### Resize {#resize}
 
 This transformer module changes an image's height and width according to criteria you specify.
 
@@ -108,7 +108,7 @@ This transformer module changes an image's height and width according to criteri
  </tbody> 
 </table>
 
-### Convert a format
+### Convert a format {#convert-a-format}
 
 This transformer module changes the format of an image file. This module is compatible the following formats:
 
@@ -142,7 +142,7 @@ Both the source file and the output must be in one of these formats. For example
  </tbody> 
 </table>
 
-### Extract metadata
+### Extract metadata {#extract-metadata}
 
 This transformer module returns basic information about a module.
 

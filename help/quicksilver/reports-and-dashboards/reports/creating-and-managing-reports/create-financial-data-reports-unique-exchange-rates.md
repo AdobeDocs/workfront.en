@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 Before you can view alternate currencies as described in this section, the Workfront administrator must first enable and configure multiple currencies in the Setup area of Workfront. For information, see [Set up exchange rates](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-## Apply financial values to a report
+## Apply financial values to a report {#apply-financial-values-to-a-report}
 
 To convert financial values between currencies when working with reports:
 
@@ -152,7 +152,7 @@ To in-line edit a financial field in a report:
    >[!NOTE]
    >
    >If the default currency does not display for a list in any other area, you can edit the View to display the default currency.  
-   >For information on how to change the currency in a View, see the section in this article [Apply financial values to a report](#applying-financial-values-to-a-report).
+   >For information on how to change the currency in a View, see the section in this article [Apply financial values to a report](#apply-financial-values-to-a-report).
 
 1. Click **Report Actions**, then select **Edit**.
 1. Click **Report Settings**.

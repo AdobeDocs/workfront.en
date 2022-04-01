@@ -58,7 +58,7 @@ You must have the following:
 
 Consider the following when working with filters in the Workload Balancer:
 
-* Depending on where you access the Workload Balancer from, Workfront might already be filtering the information for you.&nbsp;For information about pre-applied filters, see the section [Pre-applied filters in the Workload Balancer](#pre-appl) in this article. 
+* Depending on where you access the Workload Balancer from, Workfront might already be filtering the information for you.&nbsp;For information about pre-applied filters, see the section [Pre-applied filters in the Workload Balancer](#pre-applied-filters-in-the-workload-balancer) in this article. 
 * You can create and apply a filter without saving it, or you can save a filter to reuse at a later time. 
 * When you apply a filter without saving it, you can revert to the original lists by refreshing your page. 
 * You can only view and apply filters you created. Filters created by other users display only for those users. 
@@ -71,7 +71,7 @@ Consider the following when working with filters in the Workload Balancer:
 
 * You can view only the items that match the selected filters that also match the dates within the timeline displayed on the screen of the Workload Balancer.
 
-## Pre-applied filters in the Workload Balancer
+## Pre-applied filters in the Workload Balancer {#pre-applied-filters-in-the-workload-balancer}
 
 The Workload Balancer displays information in two separate areas:
 
@@ -120,7 +120,7 @@ Depending on where you access the Workload Balancer from, the Unassigned and&nbs
 
 The process for creating filters for the Unassigned Work and Assigned Work areas in the Workload Balancer is identical, regardless of where you access the Workload Balancer from. For information about locating the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-You can create a filter from scratch or edit one of the predefined filters. For information about existing filters that you can edit, see the [Edit an existing filter in the Workload Balancer](#edit2) section in this article.
+You can create a filter from scratch or edit one of the predefined filters. For information about existing filters that you can edit, see the [Edit an existing filter in the Workload Balancer](#edit-an-existing-filter-in-the-workload-balancer) section in this article.
 
 1. Go to the Workload Balancer.
 
@@ -193,7 +193,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
 ##
 
-## Edit an existing filter in the Workload Balancer
+## Edit an existing filter in the Workload Balancer {#edit-an-existing-filter-in-the-workload-balancer}
 
 You can edit a saved filter in the Workload Balancer.
 
@@ -218,7 +218,7 @@ You can edit a saved filter in the Workload Balancer.
 
    ![](assets/edited-filter-with-asterisk.png)
 
-1. Update the filter criteria to edit the existing filter and create a new one. For information about creating a filter, see the [Manage filters in the Workload Balancer](#create) section in this article. 
+1. Update the filter criteria to edit the existing filter and create a new one. For information about creating a filter, see the [Manage filters in the Workload Balancer](#Create) section in this article. 
 1. (Optional and conditional) Click **Apply** to apply your changes temporarily without saving them.
 
    >[!IMPORTANT]

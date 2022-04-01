@@ -87,7 +87,7 @@ You must have the following access to use the functionality in this article:
 >
 >Currently the error handling directives cannot be used out of the scope of an error handling route and Workfront Fusion currently does not offer a Throw module that would enable you to easily conditionally generate (throw) errors, though a workaround can be employed to mimic its functionality. For more information, see [Error handler route](../../workfront-fusion/errors/error-handling.md#error) in the article [Error handling](../../workfront-fusion/errors/error-handling.md). Also see [Workaround for Throw](../../workfront-fusion/errors/throw.md#workarou) in the article [Throw](../../workfront-fusion/errors/throw.md).
 
-## Break
+## Break {#break}
 
 When an error is handled by the Break directive, a record is created in the [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder which stores the state of the scenario execution along with data from the prior modules. For each bundle of data that causes the error, a separate record is created.
 

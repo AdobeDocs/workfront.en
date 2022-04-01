@@ -24,10 +24,10 @@ The new Adobe Workfront experience helps you and your users to:
 
 Discover the key features that are available only in the new Adobe Workfront experience, and what’s been removed.
 
-* [New features available with the new Adobe Workfront experience](#feature) 
-* [Functionality removed from the new Adobe Workfront experience](#function)
+* [New features available with the new Adobe Workfront experience](#new-features-available-with-the-new-adobe-workfront-experience) 
+* [Functionality removed from the new Adobe Workfront experience](#functionality-removed-from-the-new-adobe-workfront-experience)
 
-## New features available with the new Adobe Workfront experience
+## New features available with the new Adobe Workfront experience {#new-features-available-with-the-new-adobe-workfront-experience}
 
 <table cellspacing="15"> 
  <col> 
@@ -116,7 +116,7 @@ Discover the key features that are available only in the new Adobe Workfront exp
  </tbody> 
 </table>
 
-## Functionality removed from the new Adobe Workfront experience
+## Functionality removed from the new Adobe Workfront experience {#functionality-removed-from-the-new-adobe-workfront-experience}
 
 ### My Work
 

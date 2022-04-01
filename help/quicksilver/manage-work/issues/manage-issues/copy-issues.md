@@ -66,10 +66,10 @@ You can copy one or multiple issues from a list of issues or from an issue repor
 
 Copying issues differs depending on what environment you use.
 
-* [Copy issues in a list in the Production environment](#copy2) 
-* [Copy issues in a list in the Preview environment](#copy3)
+* [Copy issues in a list in the Production environment](#copy-issues-in-a-list-in-the-production-environment) 
+* [Copy issues in a list in the Preview environment](#copy-issues-in-a-list-in-the-preview-environment)
 
-### Copy issues in a list in the Production&nbsp;environment
+### Copy issues in a list in the Production&nbsp;environment {#copy-issues-in-a-list-in-the-production-environment}
 
 1. Go to a project whose issues you want to copy.
 
@@ -95,9 +95,9 @@ Copying issues differs depending on what environment you use.
 
    ![](assets/qs-copy-issues-ui-350x215.png)
 
-1. Continue copying the issue as described in the section [Copy a single issue](#copy5) in this article, starting with Step 3.
+1. Continue copying the issue as described in the section [Copy a single issue](#copy-a-single-issue) in this article, starting with Step 3.
 
-### Copy issues in a list in the Preview environment
+### Copy issues in a list in the Preview environment {#copy-issues-in-a-list-in-the-preview-environment}
 
 1. Go to the project that contains the issue or issues that you want to copy.
 
@@ -110,18 +110,18 @@ Copying issues differs depending on what environment you use.
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. Continue with copying the issue, as described in the section [Copy a single issue in the Preview environment](#copy6) starting with Step 4.
+1. Continue with copying the issue, as described in the section [Copy a single issue in the Preview environment](#copy-a-single-issue-in-the-preview-environment) starting with Step 4.
 
-## Copy a single issue
+## Copy a single issue {#copy-a-single-issue}
 
 You can copy one issue when viewing it.
 
 Copying issues differs depending on what environment you use.
 
-* [Copy a single issue in the Production environment](#copy4) 
-* [Copy a single issue in the Preview environment](#copy6)
+* [Copy a single issue in the Production environment](#copy-a-single-issue-in-the-production-environment) 
+* [Copy a single issue in the Preview environment](#copy-a-single-issue-in-the-preview-environment)
 
-### Copy a single issue in the Production&nbsp;environment
+### Copy a single issue in the Production&nbsp;environment {#copy-a-single-issue-in-the-production-environment}
 
 1. Go to an issue that you want to copy, then click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then **Copy** ```to```.
 
@@ -155,7 +155,7 @@ Copying issues differs depending on what environment you use.
 
    The copied issue is added to the specified project.&nbsp;
 
-### Copy a single issue in the Preview environment
+### Copy a single issue in the Preview environment {#copy-a-single-issue-in-the-preview-environment}
 
 1. Go to an issue that you want to copy, then click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then **Copy** ```to```.
 

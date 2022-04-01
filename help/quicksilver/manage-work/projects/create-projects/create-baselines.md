@@ -60,7 +60,9 @@ You can create a baseline in the following ways:
 
   For more information about configuring project preferences and setting up automatic baseline creation, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-  ``` ```**Warning: **`````` Enabling this setting automatically creates a baseline for a project every time a project's status changes to Current. The first created baseline is the default one. You must manually create all other baselines during the life of the project .
+  >[!CAUTION]
+  >
+  >Enabling this setting automatically creates a baseline for a project every time a project's status changes to Current. The first created baseline is the default one. You must manually create all other baselines during the life of the project .
 
 * Manually: You can create new baselines for the project as needed as the project progresses. You can then compare baselines to see how the project progressed over time.
 

@@ -49,7 +49,9 @@ When a user manually recalculates finances on the project, any changes to the co
 1. Click **Edit Project.**
 1. In the **Finance** section, enable the **Allow company-level billing rates to override project-level billing rates**.
 
-   ``` ```**Warning: **``````Enabling this option overrides historical revenue calculations unless they are marked as billed. You can preserve the historical revenue calculations by creating a billing record. For more information, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >[!CAUTION]
+   >
+   >Enabling this option overrides historical revenue calculations unless they are marked as billed. You can preserve the historical revenue calculations by creating a billing record. For more information, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md)
 
 1. Click **Save Changes**.
 

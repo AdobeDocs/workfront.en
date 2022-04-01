@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
 To use ServiceNow modules, you must have a ServiceNow account.
 
-## Connect ServiceNow to Workfront Fusion
+## Connect ServiceNow to Workfront Fusion {#connect-servicenow-to-workfront-fusion}
 
 To create a connection for your ServiceNow modules:
 
@@ -105,18 +105,18 @@ If you see the map button above a field or function, you can use it to set varia
 >
 >If there are no custom records, the dropdown will be empty.
 
-* [Watch records](#watch) 
-* [Custom API Call](#custom) 
-* [Read a record](#read) 
-* [Deactivate a User](#deactiva) 
-* [Download an attachment](#download) 
-* [Upload an attachment](#upload) 
-* [Create a record](#create) 
-* [Update a record](#update) 
-* [Delete a record](#delete) 
-* [Search for records](#search)
+* [Watch records](#watch-records) 
+* [Custom API Call](#custom-api-call) 
+* [Read a record](#read-a-record) 
+* [Deactivate a User](#deactivate-a-user) 
+* [Download an attachment](#download-an-attachment) 
+* [Upload an attachment](#upload-an-attachment) 
+* [Create a record](#create-a-record) 
+* [Update a record](#update-a-record) 
+* [Delete a record](#delete-a-record) 
+* [Search for records](#search-for-records)
 
-### Watch records
+### Watch records  {#watch-records}
 
 This trigger module activates a scenario when a record is created or updated.
 
@@ -126,7 +126,7 @@ This trigger module activates a scenario when a record is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table type</td> 
@@ -155,7 +155,7 @@ This trigger module activates a scenario when a record is created or updated.
  </tbody> 
 </table>
 
-### Custom API Call
+### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the ServiceNow API. This way, you can create a data flow automation that can't be accomplished by the other ServiceNow modules.
 
@@ -167,7 +167,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Relative URL</td> 
@@ -195,7 +195,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Read a record
+### Read a record {#read-a-record}
 
 This action module reads a ServiceNow record by using the system ID.
 
@@ -209,7 +209,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record System ID</td> 
@@ -234,7 +234,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Deactivate a User
+### Deactivate a User {#deactivate-a-user}
 
 This action module deactivates a user in ServiceNow by using the system ID.
 
@@ -244,7 +244,7 @@ This action module deactivates a user in ServiceNow by using the system ID.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">User System ID</td> 
@@ -253,7 +253,7 @@ This action module deactivates a user in ServiceNow by using the system ID.
  </tbody> 
 </table>
 
-### Download an attachment
+### Download an attachment {#download-an-attachment}
 
 This action module downloads an attachment in a ServiceNow record.
 
@@ -263,7 +263,7 @@ This action module downloads an attachment in a ServiceNow record.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Attachment System ID</td> 
@@ -272,7 +272,7 @@ This action module downloads an attachment in a ServiceNow record.
  </tbody> 
 </table>
 
-### Upload an attachment
+### Upload an attachment {#upload-an-attachment}
 
 This action module uploads an attachment to a ServiceNow record.
 
@@ -282,7 +282,7 @@ This action module uploads an attachment to a ServiceNow record.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table name</td> 
@@ -303,7 +303,7 @@ This action module uploads an attachment to a ServiceNow record.
  </tbody> 
 </table>
 
-### Create a record
+### Create a record {#create-a-record}
 
 This action module creates a new ServiceNow record.
 
@@ -315,7 +315,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table type</td> 
@@ -328,7 +328,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Update a record
+### Update a record {#update-a-record}
 
 This action module creates a new ServiceNow record.
 
@@ -340,7 +340,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record System ID</td> 
@@ -357,7 +357,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Delete a record
+### Delete a record {#delete-a-record}
 
 This action module deletes an incident or a user.
 
@@ -369,7 +369,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -382,7 +382,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Search for records
+### Search for records {#search-for-records}
 
 This module searches for records using criteria you select.
 
@@ -394,7 +394,7 @@ The module returns any standard fields associated with the record, along with an
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table type</td> 

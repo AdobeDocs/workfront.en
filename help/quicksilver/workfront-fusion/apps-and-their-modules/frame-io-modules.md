@@ -59,7 +59,7 @@ To use Frame.io modules, you must have a Frame.io account
 
 The module dialog fields that are displayed in bold (in the Workfront Fusion scenario, not in this documentation article) are mandatory!
 
-## Connect Frame.io to Adobe Workfront Fusion
+## Connect Frame.io to Adobe Workfront Fusion {#connect-frame-io-to-adobe-workfront-fusion}
 
 To connect your Frame.io account to Workfront Fusionyou need to create an API token in your Frame.io account and insert it to the Workfront Fusion Frame.io Create a connection dialog.
 
@@ -93,7 +93,7 @@ This action module creates a new asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -146,7 +146,7 @@ This action module deletes a specified asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -177,7 +177,7 @@ This action module retrieves asset details.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -210,7 +210,7 @@ This search module retrieves all assets in the specified project's folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -241,7 +241,7 @@ This action module allows you to update an existing asset's name, description, o
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -280,7 +280,7 @@ This trigger module starts a scenario when an asset is deleted.
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -303,7 +303,7 @@ This trigger module starts a scenario when an asset's status is set, changed, or
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -326,7 +326,7 @@ This trigger module starts a scenario when a new asset is created.
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -347,7 +347,7 @@ This action module adds a new comment or reply to the asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type </td> 
@@ -394,7 +394,7 @@ This action module deletes an existing comment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID</td> 
@@ -429,7 +429,7 @@ This action module retrieves details of the specified comment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -464,7 +464,7 @@ This search module retrieves all comments of the specified asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -499,7 +499,7 @@ This action module edits an existing comment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -546,7 +546,7 @@ This trigger module starts a scenario when a comment is edited.
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -569,7 +569,7 @@ This trigger module starts a scenario when a new comment or reply is created.
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -590,7 +590,7 @@ This search module retrieves all projects for the specified team.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -615,7 +615,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 

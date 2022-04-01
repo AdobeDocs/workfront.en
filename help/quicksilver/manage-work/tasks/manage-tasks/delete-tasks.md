@@ -45,10 +45,10 @@ You must have the following access to perform the steps in this article:
 
 ## Understand the process of deleting tasks
 
-* [Limitations for deleting tasks](#access-and-permissions-needed) 
+* [Limitations for deleting tasks](#limitations-for-deleting-tasks) 
 * [The impact of deleting tasks](#the-impact-of-deleting-tasks)
 
-### Limitations for deleting tasks
+### Limitations for deleting tasks  {#limitations-for-deleting-tasks}
 
 * When a project has a status of Complete you can delete tasks only if your Workfront administrator ```or a group administrator``` has allowed this in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
   For more information about enabling the deletion of tasks where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-### The impact of deleting tasks
+### The impact of deleting tasks {#the-impact-of-deleting-tasks}
 
 When you delete a task, you impact other objects linked to the task.
 
@@ -88,10 +88,10 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 
 ## Delete tasks
 
-* [Delete multiple tasks in a project simultaneously](#delete-tasks-in-a-project-task-list) 
-* [Delete a single task](#delete-a-task)
+* [Delete multiple tasks in a project simultaneously](#delete-multiple-tasks-in-a-project-simultaneously) 
+* [Delete a single task](#delete-a-single-task)
 
-### Delete multiple tasks in a project simultaneously
+### Delete multiple tasks in a project simultaneously  {#delete-multiple-tasks-in-a-project-simultaneously}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
@@ -121,7 +121,7 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 
          Tasks are deleted only after you save your changes.
 
-### Delete a single task
+### Delete a single task {#delete-a-single-task}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
@@ -138,7 +138,7 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 
    Your Workfront administrator ```or group administrator``` might not allow the deletion of tasks where hours are logged.
 
-   For more information about the access and permissions needed to delete a task, see the section [Limitations for deleting tasks](#access-and-permissions-needed) in this article.
+   For more information about the access and permissions needed to delete a task, see the section [Limitations for deleting tasks](#limitations-for-deleting-tasks) in this article.
 
 ## Restore deleted tasks
 

@@ -55,11 +55,11 @@ You must have the following access to use the functionality in this article:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>The procedure to add a user to your Fusion organization differs based on whether your organization has been onboarded to the Adobe Business Platform. </p>
 <ul>
-<li> <p><a href="#add" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a> </p> </li>
-<li> <p><a href="#add2" class="MCXref xref">Add a user to an organization that has not been onboarded to the Adobe Business Console</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a> </p> </li>
+<li> <p><a href="#add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console" class="MCXref xref">Add a user to an organization that has not been onboarded to the Adobe Business Console</a> </p> </li>
 </ul>
 <div>
-<h3><a name="Add"></a>Add a user to an organization that has been onboarded to the Adobe Business Platform</h3>
+<h3 id="add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform"><a name="Add"></a>Add a user to an organization that has been onboarded to the Adobe Business Platform</h3>
 <p>If your organization has been onboarded to the Adobe Business Platform, you must perform this action through the Adobe Admin Console.</p>
 <p>For instructions on adding a user in the Adobe Admin Console:</p>
 <ul>
@@ -69,7 +69,7 @@ You must have the following access to use the functionality in this article:
 </ul>
 <p>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see <a href="../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md" class="MCXref xref">Platform-based administration differences (Adobe Workfront/Adobe Business Platform)</a>.</p>
 </div>
-<h3><a name="Add2"></a>Add a user to an organization that has not been onboarded to the Adobe Business Console</h3>
+<h3 id="add-a-user-to-an-organization-that-has-not-been-onboarded-to-the-adobe-business-console"><a name="Add2"></a>Add a user to an organization that has not been onboarded to the Adobe Business Console</h3>
 </div>
 -->
 
@@ -84,7 +84,7 @@ To add a user to the organization:
    <!--
    <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
    <p>If you do not see the Invite a new user button, your organization has been onboarded to the Adobe Business Platform. </p>
-   <p>For instructions on adding a user to an organization that has been onboarded to the Adobe Business Platform, see <a href="#add" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a></p>
+   <p>For instructions on adding a user to an organization that has been onboarded to the Adobe Business Platform, see <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a></p>
    </div>
    -->
 

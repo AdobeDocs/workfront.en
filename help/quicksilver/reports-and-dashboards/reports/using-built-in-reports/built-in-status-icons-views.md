@@ -21,7 +21,7 @@ Most of the indicators in the Status Icons field are quick links to the actual o
 
 If any of the items represented by the icons are missing from the object, the icon representing the missing item appears as an outline in the Status Icons column instead of a complete image.  
 ![task_status_icons.png](assets/task-status-icons.png)  
-For more information, see the [Overview of Status Icons and Flags](#understanding-status-icons) section in this article.  
+For more information, see the [Overview of Status Icons and Flags](#overview-of-status-icons-and-flags) section in this article.  
 In some views, the **Status Icons** field is named **Flags** or **View Icons**.  
 You cannot customize the look and feel of the icons that are included in the Status Icons field.
 
@@ -98,9 +98,9 @@ To add the Status Icons field to a custom view that you build from scratch:
 1. (Optional) Mouse over an icon to understand what it represents.
 1. (Optional) Click an icon to go to the area of the object represented by it.  
    Not all icons are links to objects.  
-   For a complete list of attributes for each icon, see the [Overview of Status Icons and Flags](#understanding-status-icons) section.
+   For a complete list of attributes for each icon, see the [Overview of Status Icons and Flags](#overview-of-status-icons-and-flags) section.
 
-## Overview of Status Icons and Flags
+## Overview of Status Icons and Flags {#overview-of-status-icons-and-flags}
 
 The following table lists all the Status Icons available in Workfront, the type of objects that can be associated with them, as well as what happens when you click them.
 

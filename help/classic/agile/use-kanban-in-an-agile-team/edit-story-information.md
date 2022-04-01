@@ -8,7 +8,7 @@ description: When viewing a story tile on the Kanban board, the information in t
 
 # Edit story information
 
-## Understand what information can be viewed and edited
+## Understand what information can be viewed and edited {#understand-what-information-can-be-viewed-and-edited}
 
 When viewing&nbsp;a story tile on the Kanban board, the information in the following table is available. You can edit most information inline, directly from the story tile.
 
@@ -99,7 +99,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) To edit a field, click the field, then make any changes.  
    You must have Edit rights to the task or issue in order to edit the story tile.  
-   For more information about each field and whether it can be edited, see [Understand what information can be viewed and edited](#understanding-what-information-can-be-viewed-and-edited).
+   For more information about each field and whether it can be edited, see [Understand what information can be viewed and edited](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]
 >

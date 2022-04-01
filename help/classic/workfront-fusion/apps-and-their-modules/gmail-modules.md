@@ -59,16 +59,16 @@ You must have the following access to use the functionality in this article:
 
 To use Gmail modules, you must have a Gmail account.
 
-## Connect Gmail to Workfront Fusion
+## Connect Gmail to Workfront Fusion {#connect-gmail-to-workfront-fusion}
 
-* [Connect Gmail to Workfront Fusion using G Suite](#connect) 
-* [Connect Gmail to Workfront Fusion using gmail.com or googlemail.com](#connect2)
+* [Connect Gmail to Workfront Fusion using G Suite](#connect-gmail-to-workfront-fusion-using-g-suite) 
+* [Connect Gmail to Workfront Fusion using gmail.com or googlemail.com](#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com)
 
-### Connect Gmail to Workfront Fusion using G Suite
+### Connect Gmail to Workfront Fusion using G Suite {#connect-gmail-to-workfront-fusion-using-g-suite}
 
 For instructions about connecting your G Suite account to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-### Connect Gmail to Workfront Fusion using gmail.com or googlemail.com
+### Connect Gmail to Workfront Fusion using gmail.com or googlemail.com {#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com}
 
 If you are @gmail.com or @googlemail.com user you must create an OAuth client on the [Google Cloud Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) in order to obtain a Client ID and Client Secret.
 
@@ -84,9 +84,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Triggers](#triggers) 
 * [Actions](#actions) 
-* [Iterators](#iterator)
+* [Iterators](#iterators)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch emails
 
@@ -102,7 +102,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -143,18 +143,18 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Send an email](#send) 
-* [Create a draft](#create) 
-* [Mark an email as read](#mark) 
-* [Mark an email as unread](#mark2) 
-* [Move an email](#move) 
-* [Copy an email](#copy) 
-* [Delete an email](#delete) 
-* [Modify email labels](#modify)
+* [Send an email](#send-an-email) 
+* [Create a draft](#create-a-draft) 
+* [Mark an email as read](#mark-an-email-as-read) 
+* [Mark an email as unread](#mark-an-email-as-unread) 
+* [Move an email](#move-an-email) 
+* [Copy an email](#copy-an-email) 
+* [Delete an email](#delete-an-email) 
+* [Modify email labels](#modify-email-labels)
 
-#### Send an email
+#### Send an email {#send-an-email}
 
 This action module sends a new email.
 
@@ -170,7 +170,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>From</td> 
@@ -203,7 +203,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Create a draft
+#### Create a draft {#create-a-draft}
 
 This action module creates a new email draft and adds it to a folder you specify.
 
@@ -219,7 +219,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -252,7 +252,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Mark an email as read
+#### Mark an email as read {#mark-an-email-as-read}
 
 This action module marks an email as read.
 
@@ -266,7 +266,7 @@ The module returns the ID of the  email and any associated fields, along with an
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -279,7 +279,7 @@ The module returns the ID of the  email and any associated fields, along with an
  </tbody> 
 </table>
 
-#### Mark an email as unread
+#### Mark an email as unread {#mark-an-email-as-unread}
 
 This action module marks an email or an email draft as unread.
 
@@ -293,7 +293,7 @@ The module returns the ID of the  email and any associated fields, along with an
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -306,7 +306,7 @@ The module returns the ID of the  email and any associated fields, along with an
  </tbody> 
 </table>
 
-#### Move an email
+#### Move an email {#move-an-email}
 
 This action module moves an email or an email draft to a folder you specify.
 
@@ -320,7 +320,7 @@ The module returns the ID of the  email and any associated fields, along with an
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -337,7 +337,7 @@ The module returns the ID of the  email and any associated fields, along with an
  </tbody> 
 </table>
 
-#### Copy an email
+#### Copy an email {#copy-an-email}
 
 This action module copies an email or email draft into a folder you specify.
 
@@ -351,7 +351,7 @@ The module returns the ID of the email and any associated fields, along with any
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -368,7 +368,7 @@ The module returns the ID of the email and any associated fields, along with any
  </tbody> 
 </table>
 
-#### Delete an email
+#### Delete an email {#delete-an-email}
 
 This action module removes an email or an email draft from a folder you specify.
 
@@ -382,7 +382,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Gmail Message ID</p> </td> 
@@ -395,7 +395,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Modify email labels
+#### Modify email labels {#modify-email-labels}
 
 This action module modifies the label on an email message you specify.
 
@@ -409,7 +409,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect3" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions on connecting your Gmail account to Workfront Fusion, see <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref">Connect Gmail to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Gmail Message ID</td> 
@@ -430,7 +430,7 @@ When you are configuring this module, the following fields display.
 >
 >Label to add and Label to remove fields load only user-created labels.
 
-### Iterators
+### Iterators {#iterators}
 
 #### Iterate attachments
 

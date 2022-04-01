@@ -68,13 +68,13 @@ Sharing filters, views, or groupings in Workfront is identical.
 <p>You can share views and groupings only in the standard interface.</p>
 <ul>
 <li> <!--
-<p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="#sharing" class="MCXref xref">Sharing filters, views, and groupings using the standard interface</a> </p>
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="#sharing-filters-views-and-groupings-using-the-standard-interface" class="MCXref xref">Sharing filters, views, and groupings using the standard interface</a> </p>
 --> </li>
 <li> <!--
-<p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="#sharing2" class="MCXref xref">Sharing filters and groupings using the beta builder interface</a> </p>
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="#sharing-filters-and-groupings-using-the-beta-builder-interface" class="MCXref xref">Sharing filters and groupings using the beta builder interface</a> </p>
 --> </li>
 </ul> <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a name="Sharing"></a>Sharing filters, views, and groupings using the standard interface</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode" id="sharing-filters-views-and-groupings-using-the-standard-interface"><a name="Sharing"></a>Sharing filters, views, and groupings using the standard interface</h3>
 --> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">Sharing filters, views, and groupings in the standard interface is identical.</p>
 -->
@@ -128,7 +128,7 @@ Sharing filters, views, or groupings in Workfront is identical.
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-<h3><a name="Sharing2"></a>Sharing filters and groupings using the beta builder interface</h3>
+<h3 id="sharing-filters-and-groupings-using-the-beta-builder-interface"><a name="Sharing2"></a>Sharing filters and groupings using the beta builder interface</h3>
 <p>When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.</p>
 <p>The beta builder interface is not available for any other objects in&nbsp;Workfront.</p>
 <p>You cannot build filters or groupings in the beta builder interface when building reports.</p>
@@ -249,7 +249,7 @@ This video was recorded in Workfront Classic. However, the content also applies 
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="sharing-a-filter-view-or-grouping"></a>Sharing a Filter, View, or Grouping</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sharing-a-filter-view-or-grouping"><a name="sharing-a-filter-view-or-grouping"></a>Sharing a Filter, View, or Grouping</h2>
 -->
 
    <!--

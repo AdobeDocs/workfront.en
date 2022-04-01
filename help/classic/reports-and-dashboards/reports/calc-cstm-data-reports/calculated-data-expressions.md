@@ -84,11 +84,11 @@ For more information about the syntax you must use in a calculated custom column
 
 The lists below define the available expressions you can use when you are building one of the 3 different types of calculated custom fields in Workfront:
 
-* [Date & time calculated custom field](#date) 
-* [Mathematical calculated custom field](#mathemat) 
-* [Text calculated custom field](#text)
+* [Date & time calculated custom field](#date-time-calculated-custom-field) 
+* [Mathematical calculated custom field](#mathematical-calculated-custom-field) 
+* [Text calculated custom field](#text-calculated-custom-field)
 
-### Date & time calculated custom field
+### Date & time calculated custom field {#date-time-calculated-custom-field}
 
 <table cellspacing="15"> 
  <col> 
@@ -187,7 +187,7 @@ The lists below define the available expressions you can use when you are buildi
  </tbody> 
 </table>
 
-### Mathematical calculated custom field
+### Mathematical calculated custom field {#mathematical-calculated-custom-field}
 
 <table cellspacing="15"> 
  <col> 
@@ -274,7 +274,7 @@ The lists below define the available expressions you can use when you are buildi
  </tbody> 
 </table>
 
-### Text calculated custom field
+### Text calculated custom field {#text-calculated-custom-field}
 
 <table cellspacing="15"> 
  <col> 

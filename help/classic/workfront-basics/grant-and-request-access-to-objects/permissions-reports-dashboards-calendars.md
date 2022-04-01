@@ -70,5 +70,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   You cannot share a dashboard publicly, but you can share it system-wide.
 
-  ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
+  >[!CAUTION]
+  >
+  >We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
 

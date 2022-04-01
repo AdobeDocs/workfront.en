@@ -36,7 +36,7 @@ In the Metrics area, you can see the overall health of a project, as well as:
 
 You can also drill in to each chart to look more closely at tasks or issues in a specific category.
 
-To learn more about looking at these tasks or issues, see [View Metrics details](#view).
+To learn more about looking at these tasks or issues, see [View Metrics details](#view-metrics-details).
 
 >[!TIP]
 >
@@ -61,7 +61,7 @@ These KPIs are broken down into the following categories:
 >
 >To display a list of work items for a specific KPI, click that KPI. In that list, you can click a specific work item to view more details in a new tab.  
 >![](assets/completed-tasks-dialog-350x75.png)  
->For more information, see [View Metrics details](#view).
+>For more information, see [View Metrics details](#view-metrics-details).
 
 ## Task or issue bar chart
 
@@ -79,7 +79,7 @@ When priority is selected in this chart, you can view all priorities of tasks or
 >
 >To display a list of work items with a specific status or priority, click a bar in the chart. In that list, you can click a specific work item to view more details in a new tab.  
 >![](assets/completed-tasks-dialog-350x75.png)  
->For more information, see [View Metrics details](#view).
+>For more information, see [View Metrics details](#view-metrics-details).
 
 ## Donut chart
 
@@ -97,7 +97,7 @@ In the drop-down menu above the chart, you can select:
 >
 >To display a list of work items that are completed or incomplete, click that section in the donut chart. In that list, you can click a specific work item to view more details in a new tab.  
 >![](assets/completed-tasks-dialog-350x75.png)  
->For more information, see [View Metrics details](#view).
+>For more information, see [View Metrics details](#view-metrics-details).
 
 ## Assignee bar chart
 
@@ -117,9 +117,9 @@ You can choose to look at task assignments for a project in the following catego
 >
 >To display a list of work items in the selected category that are assigned to a specific user, click the bar next to the user's name in the chart. In that list, you can click a specific work item to view more details in a new tab.  
 >![](assets/completed-tasks-dialog-350x75.png)  
->For more information, see [View Metrics details](#view).
+>For more information, see [View Metrics details](#view-metrics-details).
 
-## View Metrics details
+## View Metrics details {#view-metrics-details}
 
 You can interact with the charts in the Metrics area to look at different aspects of a chart or look more closely at the tasks and issues within a chart.
 

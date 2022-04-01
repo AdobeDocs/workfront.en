@@ -61,12 +61,12 @@ You must have the following access to use the functionality in this article:
 
 To use Bynder modules, you must have a Bynder account.
 
-## Connect Bynder to Workfront Fusion
+## Connect Bynder to Workfront Fusion  {#connect-bynder-to-workfront-fusion}
 
-* [Create a connection to Bynder from Workfront Fusion](#create) 
-* [Generate a Client ID and Client Secret in Bynder (Optional)](#generate)
+* [Create a connection to Bynder from Workfront Fusion](#create-a-connection-to-bynder-from-workfront-fusion) 
+* [Generate a Client ID and Client Secret in Bynder (Optional)](#generate-a-client-id-and-client-secret-in-bynder-optional)
 
-### Create a connection to Bynder from Workfront Fusion
+### Create a connection to Bynder from Workfront Fusion {#create-a-connection-to-bynder-from-workfront-fusion}
 
 You can create a connection from Workfront Fusion to your Bynder account directly from inside a Bynder module.
 
@@ -74,12 +74,12 @@ You can create a connection from Workfront Fusion to your Bynder account directl
 1. Select the Bynder domain that you want to connect to.
 1. (Optional) Click **Advanced settings**, then enter your Client ID and Client Secret.
 
-   For instructions on generating the Client ID and Client Secret, see [Generate a Client ID and Client Secret in Bynder (Optional)](#generate) in this article.
+   For instructions on generating the Client ID and Client Secret, see [Generate a Client ID and Client Secret in Bynder (Optional)](#generate-a-client-id-and-client-secret-in-bynder-optional) in this article.
 
 1. In the login window, enter your username (email address) and password.
 1. Click **Continue** to create the connection and go back to the module.
 
-### Generate a Client ID and Client Secret in Bynder (Optional)
+### Generate a Client ID and Client Secret in Bynder (Optional) {#generate-a-client-id-and-client-secret-in-bynder-optional}
 
 If you want to create a connection using the Client ID and Client Secret, you can generate them from your Bynder account. The Client ID and Client Secret are generated when you create an app in Bynder.
 
@@ -109,19 +109,19 @@ If you see the map button above a field or function, you can use it to set varia
 * [Searches](#searches) 
 * [Triggers](#triggers)
 
-### Actions
+### Actions {#actions}
 
-* [Custom API Call](#custom) 
-* [Read asset metadata](#read) 
-* [Update asset metadata](#update) 
-* [Add assets to a collection](#add) 
-* [Remove assets from collection](#remove) 
-* [Add a tag to assets](#add2) 
-* [Remove a tag from assets](#remove2) 
-* [Download asset](#download) 
-* [Upload asset](#upload)
+* [Custom API Call](#custom-api-call) 
+* [Read asset metadata](#read-asset-metadata) 
+* [Update asset metadata](#update-asset-metadata) 
+* [Add assets to a collection](#add-assets-to-a-collection) 
+* [Remove assets from collection](#remove-assets-from-collection) 
+* [Add a tag to assets](#add-a-tag-to-assets) 
+* [Remove a tag from assets](#remove-a-tag-from-assets) 
+* [Download asset](#download-asset) 
+* [Upload asset](#upload-asset)
 
-#### Custom API&nbsp;Call
+#### Custom API&nbsp;Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Bynder API. This way, you can create a data flow automation that can't be accomplished by the other Bynder modules.
 
@@ -135,7 +135,7 @@ The module returns a status code, along with the headers and body of the API&nbs
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -163,7 +163,7 @@ The module returns a status code, along with the headers and body of the API&nbs
  </tbody> 
 </table>
 
-#### Read asset metadata
+#### Read asset metadata {#read-asset-metadata}
 
 This action module reads the metadata of an asset.
 
@@ -173,7 +173,7 @@ This action module reads the metadata of an asset.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
@@ -186,7 +186,7 @@ This action module reads the metadata of an asset.
  </tbody> 
 </table>
 
-#### Update asset metadata
+#### Update asset metadata {#update-asset-metadata}
 
 This action module updates the metadata of an existing asset.
 
@@ -196,7 +196,7 @@ This action module updates the metadata of an existing asset.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
@@ -213,7 +213,7 @@ This action module updates the metadata of an existing asset.
  </tbody> 
 </table>
 
-#### Add assets to a collection
+#### Add assets to a collection {#add-assets-to-a-collection}
 
 This action module adds one or more assets to a collection.
 
@@ -223,7 +223,7 @@ This action module adds one or more assets to a collection.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collection ID</td> 
@@ -236,7 +236,7 @@ This action module adds one or more assets to a collection.
  </tbody> 
 </table>
 
-#### Remove assets from collection
+#### Remove assets from collection {#remove-assets-from-collection}
 
 This action module removes one or more assets from a collection.
 
@@ -246,7 +246,7 @@ This action module removes one or more assets from a collection.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collection ID</td> 
@@ -259,7 +259,7 @@ This action module removes one or more assets from a collection.
  </tbody> 
 </table>
 
-#### Add a tag to assets
+#### Add a tag to assets {#add-a-tag-to-assets}
 
 Add a tag to one or more assets
 
@@ -269,7 +269,7 @@ Add a tag to one or more assets
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Tag ID</td> 
@@ -282,7 +282,7 @@ Add a tag to one or more assets
  </tbody> 
 </table>
 
-#### Remove a tag from assets
+#### Remove a tag from assets {#remove-a-tag-from-assets}
 
 Remove a tag from one or more assets
 
@@ -292,7 +292,7 @@ Remove a tag from one or more assets
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Tag ID</td> 
@@ -305,7 +305,7 @@ Remove a tag from one or more assets
  </tbody> 
 </table>
 
-#### Download asset
+#### Download asset {#download-asset}
 
 This action module downloads a single asset.
 
@@ -315,7 +315,7 @@ This action module downloads a single asset.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
@@ -328,7 +328,7 @@ This action module downloads a single asset.
  </tbody> 
 </table>
 
-#### Upload asset
+#### Upload asset {#upload-asset}
 
 This action module uploads a single asset.
 
@@ -338,7 +338,7 @@ This action module uploads a single asset.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Save as</td> 
@@ -355,12 +355,12 @@ This action module uploads a single asset.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
-* [List record](#list) 
-* [Search for assets](#search)
+* [List record](#list-record) 
+* [Search for assets](#search-for-assets)
 
-#### List record
+#### List record {#list-record}
 
 This search module retrieves all items of a specific type.
 
@@ -370,7 +370,7 @@ This search module retrieves all items of a specific type.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -392,7 +392,7 @@ This search module retrieves all items of a specific type.
  </tbody> 
 </table>
 
-#### Search for assets
+#### Search for assets {#search-for-assets}
 
 This search module searches for assets base on criteria you supply.
 
@@ -402,7 +402,7 @@ This search module searches for assets base on criteria you supply.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Criteria</td> 
@@ -436,7 +436,7 @@ This search module searches for assets base on criteria you supply.
  </tbody> 
 </table>
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch assets
 
@@ -448,7 +448,7 @@ This trigger module starts a scenario when an asset is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> <!--
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Event type</td>

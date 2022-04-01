@@ -8,11 +8,11 @@ A request represents a pending task or issue assignment. Work requests are made 
 >
 >Agile teams do not have team requests.
 
-* [Organize requests](#organizing-requests) 
-* [Assign a request to a team](#assigning-requests-to-a-team) 
-* [Reply to work requests](#replying-to-work-requests) 
-* [Reassign requests](#reassigning-requests) 
-* [Work on a request](#working-on-a-request)
+* [Organize requests](#organize-requests) 
+* [Assign a request to a team](#assign-a-request-to-a-team) 
+* [Reply to work requests](#reply-to-work-requests) 
+* [Reassign requests](#reassign-requests) 
+* [Work on a request](#work-on-a-request)
 
 ## Access requirements
 
@@ -37,13 +37,13 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Organize&nbsp;requests&nbsp;
+## Organize&nbsp;requests&nbsp; {#organize-requests}
 
 At the top of your Work Requests or the Team Requests lists, there are tools to help you organize your requests. You can sort or group by certain criteria, and you can also filter by a keyword to find a specific request in the list.&nbsp;
 
 For more information on how to organize your Work Requests list, see [Organize work on the My Work page](../../workfront-basics/using-home/my-work/organize-work-my-work.md).
 
-## Assign a request to a team
+## Assign a request to a team {#assign-a-request-to-a-team}
 
 Project managers and issue requestors can&nbsp;assign work to teams when they do not know which resource is right to do the work or when it does not matter who completes the work.
 
@@ -73,7 +73,7 @@ To manually assign a request to a team from the team page:
 1. Click **Send Request**.  
    The team is now assigned a new task which is displayed on the Team Requests tab. This task is not currently associated with a project, but it can be moved, as described in [Move tasks](../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-## Reply to work&nbsp;requests
+## Reply to work&nbsp;requests {#reply-to-work-requests}
 
 Before agreeing to work on a request (by clicking **Work On It**), you&nbsp;can send a message to the user who submitted the request. For example, you might need more information regarding the request or you might want to propose a new date&nbsp;before you agree to work on it.
 
@@ -94,7 +94,7 @@ To reply to a work request:
    ![](assets/requests-pendingreply-350x103.png)  
    After the user responds, the response is displayed in the same location on the **Work Requests** tab.
 
-## Reassign requests
+## Reassign requests {#reassign-requests}
 
 You can reassign requests that have been assigned to you or  your team:
 
@@ -108,7 +108,7 @@ You can reassign requests that have been assigned to you or  your team:
 1. Begin typing the name of the user, group, or team who you want to reassign the request to, then click **Assign**.  
    The request is reassigned.
 
-## Work on a&nbsp;request
+## Work on a&nbsp;request {#work-on-a-request}
 
 Work and team requests remain on the requests lists until a member of the assigned team&nbsp;acknowledges the work and adds it to their Working On list. If an assigned user who is not a member of the team adds the request to their Working On list, the request remains on the team request list.
 

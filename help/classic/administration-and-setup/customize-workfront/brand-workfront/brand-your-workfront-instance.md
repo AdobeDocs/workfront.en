@@ -49,10 +49,10 @@ If you log in to Workfront using SSO and you use a custom SSO portal instead of 
 >
 >![](assets/wf-banner-on-login-screen-adobe-350x228.png)>
 
-* [Add or change your logo on the login screen](#adding-a-logo-to-the-login-screen) 
-* [Add a background color and image to the login screen](#adding-a-background-color-and-image-to-the-login-screen)
+* [Add or change your logo on the login screen](#add-or-change-your-logo-on-the-login-screen) 
+* [Add a background color and image to the login screen](#add-a-background-color-and-image-to-the-login-screen)
 
-###  Add or change your logo on the login screen
+###  Add or change your logo on the login screen {#add-or-change-your-logo-on-the-login-screen}
 
 For the best results, we recommend that the dimensions of the image you upload is larger than 20 x 20 pixels and smaller than 300 x 120 pixels. You can upload images with any of the following formats: PNG, JPG, GIF, and SVG.
 
@@ -67,7 +67,7 @@ For the best results, we recommend that the dimensions of the image you upload i
 
 1. Click **Save**.
 
-### Add a background color and image to the login screen
+### Add a background color and image to the login screen {#add-a-background-color-and-image-to-the-login-screen}
 
 You can include up to 20 background JPG, JPEG, or PNG images. When multiple images are uploaded, images cycle though each time a user refreshes the login page.
 

@@ -53,7 +53,7 @@ You must have the following access to use the functionality in this article:
 
 You need an existing Google account to make this connection.
 
-## Create a project on Google Cloud Platform
+## Create a project on Google Cloud Platform {#create-a-project-on-google-cloud-platform}
 
 >[!NOTE]
 >
@@ -79,9 +79,9 @@ You need an existing Google account to make this connection.
    >You must enable Google Drive API as well as the API of all Google apps you want to use (such as Google Sheets API).
 
 1. On the screen that appears, click **Create credentials** in the upper-right corner.
-1. Continue to the section [Configure OAuth consent settings](#configur) in this article.
+1. Continue to the section [Configure OAuth consent settings](#configure-oauth-consent-settings) in this article.
 
-## Configure OAuth consent settings
+## Configure OAuth consent settings {#configure-oauth-consent-settings}
 
 1. In the left panel, click **OAuth consent screen**. 
 1. Select **External**, then click **Create**.
@@ -156,9 +156,9 @@ You need an existing Google account to make this connection.
    >
    >You don't need to submit your consent screen and application for verification by Google.
 
-1. Continue to [Create OAuth Credentials](#create2).
+1. Continue to [Create OAuth Credentials](#create-oauth-credentials).
 
-## Create OAuth Credentials
+## Create OAuth Credentials {#create-oauth-credentials}
 
 1. In the left panel, click **Credentials**.
 
@@ -204,21 +204,21 @@ You need an existing Google account to make this connection.
    The Client ID and Client Secret display.
 
 1. Copy the Client ID and Client Secret to a secure location. You will use them to make a connection in Workfront Fusion.
-1. Continue to [Connect to Google in Workfront Fusion](#connect).
+1. Continue to [Connect to Google in Workfront Fusion](#connect-to-google-in-workfront-fusion).
 
-## Connect to Google in Workfront Fusion
+## Connect to Google in Workfront Fusion {#connect-to-google-in-workfront-fusion}
 
 The process of creating a connection to Google differs depending on whether you are using a module from a Google service(such as Google Sheets or Google Docs), or if you are connecting to Google via the HTTP > Make an OAuth2.0 request module.
 
-* [Connect to Google in a Google service module](#connect2) 
-* [Connect to Google in the HTTP > Make an OAuth2.0 request module](#connect3)
+* [Connect to Google in a Google service module](#connect-to-google-in-a-google-service-module) 
+* [Connect to Google in the HTTP > Make an OAuth2.0 request module](#connect-to-google-in-the-http-make-an-oauth2-0-request-module)
 
-### Connect to Google in a Google service module
+### Connect to Google in a Google service module {#connect-to-google-in-a-google-service-module}
 
 1. In Workfront Fusion, locate the Google module that you need to create a connection for.
 1. Click **Create a connection**, then click**Show advanced settings**.
 
-1. Enter the Client ID and Client Secret you retrieved in [Create OAuth Credentials](#create2) in the respective fields, then click **Continue**.
+1. Enter the Client ID and Client Secret you retrieved in [Create OAuth Credentials](#create-oauth-credentials) in the respective fields, then click **Continue**.
 
 1. Sign in with your Google account.
 
@@ -231,10 +231,10 @@ The process of creating a connection to Google differs depending on whether you 
 
    The connection to the desired Google service using a custom OAuth client is established.
 
-### Connect to Google in the HTTP > Make an OAuth2.0 request module
+### Connect to Google in the HTTP > Make an OAuth2.0 request module {#connect-to-google-in-the-http-make-an-oauth2-0-request-module}
 
 For instructions on connecting to Google in the HTTP > Make an OAuth2.0 request module, see [Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instruct) in [HTTP > Make an OAuth 2.0 request module](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
 
 ## Possible error message:[403] Access Not Configured
 
-If the [403} Access Not Configured error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [Create a project on Google Cloud Platform](#create) in this article.
+If the [403} Access Not Configured error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [Create a project on Google Cloud Platform](#create-a-project-on-google-cloud-platform) in this article.

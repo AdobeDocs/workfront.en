@@ -1,6 +1,6 @@
 
 
-# ```Workfront Tools for AEM User Guide : Create Issues & Tasks```
+# ```Workfront Tools for AEM User Guide : Create Issues & Tasks```  {#title-heading}
 
 There workflow steps that will allow a user to create an issue or task in a Adobe Workfront Project. The Workfront project both steps affect will be looked up using a relative path from the payload. The issue or task name is determined from the payload’s jcr:title property.
 
@@ -48,11 +48,11 @@ You must have the following access to perform the steps in this article:
 
   For instructions, see [Workfront Tools for AEM User Guide: Installation Guide 1.x.x](../../workfront-integrations-and-apps/workfront-integration-for-aem/installation-guide.md)
 
-## Create Issue
+## Create Issue {#createissues&tasks-createissue}
 
 ![](assets/create-issue-350x312.png)
 
-## Create Task
+## Create Task {#createissues&tasks-createtask}
 
 ![](assets/create-task-350x312.png)
 

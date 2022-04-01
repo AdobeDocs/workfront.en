@@ -98,18 +98,18 @@ Editing information on a custom form attached to an object is identical for all 
    >![](assets/nwe-required-custom-field.png)   >
    >
 
-   When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see [Recalculate all calculated custom fields for an object](#recalcul2) in this article.
+   When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see [Recalculate all calculated custom fields for an object](#recalculate-all-calculated-custom-fields-for-an-object) in this article.
 
-   You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalcul3) in this article.
+   You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in this article.
 
-## Recalculate all calculated custom fields for an object
+## Recalculate all calculated custom fields for an object  {#recalculate-all-calculated-custom-fields-for-an-object}
 
 1. Go to the main page of the object whose custom fields you want to recalculate. 
 1. Click the **More** menu ![](assets/more-icon.png) to the right of the object's name, then click **Recalculate Expressions**.
 
    This recalculates all custom fields on the object's form.
 
-## Recalculate all calculated custom fields for multiple objects in a list when editing the objects
+## Recalculate all calculated custom fields for multiple objects in a list when editing the objects {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
 
 You can manually recalculate the custom fields of several objects by editing them in bulk.
 

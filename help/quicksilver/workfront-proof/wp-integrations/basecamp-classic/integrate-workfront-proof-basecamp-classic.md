@@ -47,7 +47,7 @@ For information on configuring Basecamp Classic, see [Enabling the Basecamp Inte
 
 For information on configuring Basecamp, see [Integrate Workfront Proof with Basecamp](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md).
 
-## Enabling the Basecamp Integration with Workfront Proof
+## Enabling the Basecamp Integration with Workfront Proof {#enabling-the-basecamp-integration-with-workfront-proof}
 
 As a [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) or [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), you can set up Basecamp integration for the whole account in your [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
@@ -67,7 +67,7 @@ As a [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp
 
    &nbsp;If you cannot enable Basecamp integration, your Workfront Proof account ID might not be the same as the account ID you use in Basecamp.
 
-## Configuring Personal Settings
+## Configuring Personal Settings {#configuring-personal-settings}
 
 After you set up [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) for your Organization, each of your authors that creates/submits proofs should set their&nbsp; [personal settings.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
@@ -78,7 +78,7 @@ After you set up [Account settings](https://support.workfront.com/hc/en-us/secti
 * [Retrieving Your Basecamp API Token](#retrieving-your-basecamp-api-token) 
 * [Adding Your Basecamp API token to Your Personal Settings](#adding-your-basecamp-api-token-to-your-personal-settings)
 
-### Retrieving Your Basecamp API Token
+### Retrieving Your Basecamp API Token {#retrieving-your-basecamp-api-token}
 
 To complete integration at the individual level in Workfront Proof, users need their individual authentication token for the Basecamp API.
 
@@ -95,7 +95,7 @@ To retrieve your Basecamp API token:
 1. Paste your Basecamp API token into the Token for feed readers or the Basecamp API box.  
    ![Basecamp_Integration_-_Token2.png](assets/basecamp-integration---token2-350x178.png)
 
-### Adding Your Basecamp API token to Your Personal Settings&nbsp;
+### Adding Your Basecamp API token to Your Personal Settings&nbsp; {#adding-your-basecamp-api-token-to-your-personal-settings}
 
 To paste the Basecamp API token into your Workfront Proof [Personal settings](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings):
 

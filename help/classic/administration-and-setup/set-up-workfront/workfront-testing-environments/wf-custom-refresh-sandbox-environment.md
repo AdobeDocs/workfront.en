@@ -63,13 +63,13 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 </note>
 -->
 
-## Access the Custom Refresh Sandbox from your Production environment
+## Access the Custom Refresh Sandbox from your Production environment {#access-the-custom-refresh-sandbox-from-your-production-environment}
 
 As a Workfront administrator, you can access your Custom Refresh Sandbox from your production environment.
 
 >[!NOTE]
 >
->If your account is on Cluster 4 (EMEA Cluster), you cannot access your Custom Refresh Sandbox from the Production Environment. For more information about how you can access your Custom Refresh Sandbox when you have an account on Cluster 4, see [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#custom-refresh-cluster-4) [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#custom-refresh-cluster-4).
+>If your account is on Cluster 4 (EMEA Cluster), you cannot access your Custom Refresh Sandbox from the Production Environment. For more information about how you can access your Custom Refresh Sandbox when you have an account on Cluster 4, see [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
 
 To access your Custom Refresh Sandbox:
 
@@ -86,14 +86,14 @@ To access your Custom Refresh Sandbox:
 
    The Custom Refresh Sandbox&nbsp;shows the version as well as the last refresh date in the banner at the top of the screen. All information from production is available and ready to work with after a&nbsp;refresh completes.
 
-## Access the Custom Refresh Sandbox using a URL
+## Access the Custom Refresh Sandbox using a URL {#access-the-custom-refresh-sandbox-using-a-url}
 
 Any user can access the Custom Refresh Sandbox by using a URL.
 
-* [Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5](#custom-refresh-1-2-3) 
-* [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#custom-refresh-cluster-4)
+* [Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5](#access-the-custom-refresh-sandbox-for-accounts-on-clusters-1-2-3-and-5) 
+* [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)
 
-### **Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5**
+### **Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5** {#access-the-custom-refresh-sandbox-for-accounts-on-clusters-1-2-3-and-5}
 
 Depending on your Support package, you should have access to one or two Custom Refresh Sandboxes.
 
@@ -110,7 +110,7 @@ To access your Custom Refresh Sandbox using a URL:
 1. On the login screen, log in using your Custom Refresh Sandbox credentials.&nbsp;
 1. Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since your Custom Refresh Sandbox was last refreshed. The logins are synchronized&nbsp;only when a refresh occurs. They do not synchronize automatically.
 
-### **Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)**
+### **Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)** {#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
 If your Workfront account is on Cluster 4 (EMEA cluster), you can access your Custom Refresh Sandbox only using a URL. To&nbsp;find out what cluster your account is on, contact our Customer Support team.&nbsp;
 
@@ -156,7 +156,7 @@ To schedule a refresh of your Customer Refresh Sandbox:
 
 1. Log in to your Custom Refresh Sandbox.
 
-   For more information about accessing your Custom Refresh Sandbox, see [Access the Custom Refresh Sandbox from your Production environment](#accessing-your-custom-refresh-from-production) or [Access the Custom Refresh Sandbox using a URL](#accessing-your-custom-refresh-sandbox-using-a-url).
+   For more information about accessing your Custom Refresh Sandbox, see [Access the Custom Refresh Sandbox from your Production environment](#access-the-custom-refresh-sandbox-from-your-production-environment) or [Access the Custom Refresh Sandbox using a URL](#access-the-custom-refresh-sandbox-using-a-url).
 
 1. Click **Go To Production** in the banner at the top of the screen.
 

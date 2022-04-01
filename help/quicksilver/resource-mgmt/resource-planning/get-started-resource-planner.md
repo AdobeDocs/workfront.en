@@ -25,7 +25,7 @@ You can use the Resource Planner to easily understand the availability of users 
 You can view information in the Resource Planner using three separate views. You can use each view to fulfill one of the following purposes:
 
 * To budget the time or cost of your resources for the work that needs to be accomplished using the Project and Role views. This is the main purpose of the Resource Planner.   
-  For more information about budgeting in the Resource Planner, see the article [Use the Project and Role Views to budget resources](#using2).
+  For more information about budgeting in the Resource Planner, see the article [Use the Project and Role Views to budget resources](#use-the-project-and-role-views-to-budget-resources).
 
 * To view the following information using the User view:
 
@@ -65,7 +65,7 @@ You can view information in the Resource Planner using three separate views. You
 
   For information about how you can budget resources in the Resource Planner for multiple projects at a time, see the section "Budget resources in the Resource Planner" in the article [ [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-## Prerequisites for working in the Resource Planner
+## Prerequisites for working in the Resource Planner {#prerequisites-for-working-in-the-resource-planner}
 
 To successfully use the Resource Planner for budgeting your resources, you must first ensure that you, your projects, and your tasks meet a set of prerequisites. These prerequisites are mandatory to display the correct information in the Resource Planner and to accurately manage your resources.
 
@@ -85,10 +85,10 @@ The following types of prerequisites are required for the correct functionality 
 
 * [User prerequisites](#user-prerequisites) 
 * [Project prerequisites](#project-prerequisites) 
-* [Tasks and issues prerequisites](#tasks-prerequisites) 
-* [System-level prerequisites](#system-l)
+* [Tasks and issues prerequisites](#tasks-and-issues-prerequisites) 
+* [System-level prerequisites](#system-level-prerequisites)
 
-### User prerequisites
+### User prerequisites {#user-prerequisites}
 
 Ensure the following user setup exists before starting using the Resource Planner:
 
@@ -133,7 +133,7 @@ Ensure the following user setup exists before starting using the Resource Planne
   For information about calculating Budgeted Labor Cost, see the article [Understand Budgeted Labor Cost and Budgeted Hours for projects](../../manage-work/projects/project-finances/budgeted-labor-cost.md).  
   For information about calculating Budgeted Cost, see the article [Calculate Budgeted Cost](../../manage-work/projects/project-finances/budgeted-cost.md).
 
-### Project prerequisites
+### Project prerequisites {#project-prerequisites}
 
 Ensure the following project setup exists before starting using the Resource Planner:
 
@@ -144,7 +144,7 @@ Ensure the following project setup exists before starting using the Resource Pla
   >
   >Projects without resource pools do not display Planned Hour or assignments information in the Resource Planner.
 
-### Tasks and issues prerequisites
+### Tasks and issues prerequisites {#tasks-and-issues-prerequisites}
 
 Although you cannot display tasks and issues in the Resource Planner, their information transfers to the projects that display in the Resource Planner .
 
@@ -167,7 +167,7 @@ Ensure the following task and issue setup exists before starting budgeting resou
 * Tasks and issues have a value for their Duration which is greater than zero. 
 * The Planned Dates of the issues are within the timeline of the project.
 
-### System-level prerequisites
+### System-level prerequisites {#system-level-prerequisites}
 
 You must understand how your instance of Workfront calculates user availability according to the Resource Management Preferences in your system. Workfront can calculate user availability using the user's schedule or the Default Schedule of your system.
 
@@ -185,13 +185,13 @@ For information about locating the Resource Planner, see [Locate the Resource Pl
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>Ensure that all prerequisites are met before starting to use the Resource Planner. This way, you ensure that the Resource Planner displays the correct information before you start budgeting your resources.<br>For information about the prerequisites that must be met before you can start using the Resource Planner, see the <a href="#prerequisites" class="MCXref xref">Prerequisites for working in the Resource Planner</a> section in this article. </p>
+<p>Ensure that all prerequisites are met before starting to use the Resource Planner. This way, you ensure that the Resource Planner displays the correct information before you start budgeting your resources.<br>For information about the prerequisites that must be met before you can start using the Resource Planner, see the <a href="#prerequisites-for-working-in-the-resource-planner" class="MCXref xref">Prerequisites for working in the Resource Planner</a> section in this article. </p>
 <p>You can locate the Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.</p>
 <ul>
-<li><a href="#access" class="MCXref xref">Use the Resource Planner for multiple projects</a> </li>
-<li> <p><a href="#access2" class="MCXref xref">Use the Resource Planner for one project</a> </p> </li>
+<li><a href="#use-the-resource-planner-for-multiple-projects" class="MCXref xref">Use the Resource Planner for multiple projects</a> </li>
+<li> <p><a href="#use-the-resource-planner-for-one-project" class="MCXref xref">Use the Resource Planner for one project</a> </p> </li>
 </ul>
-<h3><a name="Access"></a>Use the Resource Planner for multiple projects</h3>
+<h3 id="use-the-resource-planner-for-multiple-projects"><a name="Access"></a>Use the Resource Planner for multiple projects</h3>
 <p>When using the Resource Planner for multiple projects, the allocation numbers for your resources represent numbers across multiple projects. </p>
 <p>To access the Planner section in the Resourcing area: </p>
 <ol>
@@ -199,7 +199,7 @@ For information about locating the Resource Planner, see [Locate the Resource Pl
 <li value="2"> <p> Click <strong>Resourcing</strong>. The Planner displays by default.  For information about budgeting resources in the Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> <p> <img src="assets/qs-resource-management-area-with-planner-as-default-350x152.png" style="width: 350;height: 152;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
 <li value="3"> Hover over the left panel, and click <strong>Resource Pools</strong>. <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</li>
 </ol>
-<h3><a name="Access2"></a>Use the Resource Planner for one project</h3>
+<h3 id="use-the-resource-planner-for-one-project"><a name="Access2"></a>Use the Resource Planner for one project</h3>
 <p>When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project. </p>
 <ol>
 <li value="1"> <p>Go to a project you want to budget resources for.</p> </li>
@@ -262,7 +262,7 @@ For more information about how Costs are calculated in the Resource Planner for 
 <h2><a name="Using"></a>Use the User View to view Available, Planned, and Actual Hours or FTE </h2>
 <p>You can use the User View of the Resource Planner to display information about the Planned, Available, and Actual Hours or FTE values for projects and resources. </p>
 <p>For information about using the Resource Planner to review the Available, Planned, and Actual Hours and FTE for resources, see the article <a href="../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md" class="MCXref xref">View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view</a>.</p>
-<h2><a name="Using2"></a>Use the Project and Role Views to budget resources </h2>
+<h2 id="use-the-project-and-role-views-to-budget-resources"><a name="Using2"></a>Use the Project and Role Views to budget resources </h2>
 <p> The main function of the Resource Planner is to budget your resources for the work that needs to be completed on the projects that you can manage. </p>
 <p> You can budget your resources only if you apply the <strong>View by Project</strong> or <strong>View by Role</strong> views to the Resource Planner.</p>
 <p>For information about budgeting resources using the Project and Role views in the Resource Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md"><a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a></a>.</p>

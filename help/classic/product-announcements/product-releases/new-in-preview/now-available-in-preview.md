@@ -23,13 +23,13 @@ Future availability in the Production environment varies by feature. After a fea
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>November 14, 2019</h2>
 <ul>
-<li><a href="#workfron" class="MCXref xref" xrefformat="{para}">Workfront app for iPad</a> </li>
+<li><a href="#workfront-app-for-ipad" class="MCXref xref" xrefformat="{para}">Workfront app for iPad</a> </li>
 </ul>
 <table>
 <col>
 <tbody>
 <tr>
-<td> <h3><a name="Workfron"></a>Workfront app for iPad</h3> <p>Workfront now provides a new mobile app designed and optimized specifically for iPad. Using Workfront on the iPad gives you full visibility to your work on a single screen, allowing you to easily switch between tasks and keep your work moving forward.</p> <p>For more information about using Workfront on both iPad and iPhone, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
+<td> <h3 id="workfront-app-for-ipad"><a name="Workfron"></a>Workfront app for iPad</h3> <p>Workfront now provides a new mobile app designed and optimized specifically for iPad. Using Workfront on the iPad gives you full visibility to your work on a single screen, allowing you to easily switch between tasks and keep your work moving forward.</p> <p>For more information about using Workfront on both iPad and iPhone, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
 <div class="workfront_plans">
 <p><strong>Available in these environments:</strong> </p>
 <ul>
@@ -56,13 +56,13 @@ Future availability in the Production environment varies by feature. After a fea
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>October 25, 2019</h2>
 <ul>
-<li><a href="#mobile" class="MCXref xref" xrefformat="{para}">Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser</a> </li>
+<li><a href="#navigation-in-android-mobile-app-more-closely-resembles-navigation-when-accessing-workfront-in-a-browser" class="MCXref xref" xrefformat="{para}">Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser</a> </li>
 </ul>
 <table>
 <col>
 <tbody>
 <tr>
-<td> <h3><a name="Mobile"></a>Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser</h3> <p>Previously, this was available only on the iPhone.</p> <p>For more information about the features available when using Workfront on the iPad, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
+<td> <h3 id="navigation-in-android-mobile-app-more-closely-resembles-navigation-when-accessing-workfront-in-a-browser"><a name="Mobile"></a>Navigation in Android mobile app more closely resembles navigation when accessing Workfront in a browser</h3> <p>Previously, this was available only on the iPhone.</p> <p>For more information about the features available when using Workfront on the iPad, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
 <div class="workfront_plans">
 <p><strong>Available in these environments:</strong> </p>
 <ul>
@@ -90,13 +90,13 @@ Future availability in the Production environment varies by feature. After a fea
 
 ## October 24, 2019
 
-* [Resource Planner custom columns](#resource)
+* [Resource Planner custom columns](#resource-planner-custom-columns)
 
 <table> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <h3><a name="Resource"></a>Resource Planner custom columns</h3> <p>Now, you can customize the columns that you display in the Resource Planner to include just the information that most interests you. This functionality is available for all views of the Resource Planner: Project, Role, and User views.</p> <p>For information about customizing your columns in the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref" xrefformat="{para}">Review resource availability and allocation using the Resource Planner</a>.</p> 
+   <td> <h3 id="resource-planner-custom-columns"><a name="Resource"></a>Resource Planner custom columns</h3> <p>Now, you can customize the columns that you display in the Resource Planner to include just the information that most interests you. This functionality is available for all views of the Resource Planner: Project, Role, and User views.</p> <p>For information about customizing your columns in the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref" xrefformat="{para}">Review resource availability and allocation using the Resource Planner</a>.</p> 
     <div class="workfront_plans"> 
      <p><strong>Available in these environments:</strong> </p> 
      <ul> 
@@ -114,16 +114,16 @@ Future availability in the Production environment varies by feature. After a fea
 
 ## October 11, 2019
 
-* [Additional object types available for Typeahead fields in a custom form](#add)
+* [Additional object types available for Typeahead fields in a custom form](#additional-object-types-available-for-typeahead-fields-in-a-custom-form)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#filename" class="MCXref xref" xrefformat="{para}">Filename of new document version displays in Workfront</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#filename-of-new-document-version-displays-in-workfront" class="MCXref xref" xrefformat="{para}">Filename of new document version displays in Workfront</a> </li>
   -->
 
-* [New tooltip added to quick filters](#quick) 
-* [Updated lists in reports](#updated2) 
-* [New design applied to lists for Template tasks, Portfolios, and more](#new4) 
-* [The Workload Balancer beta](#the)
+* [New tooltip added to quick filters](#new-tooltip-added-to-quick-filters) 
+* [Updated lists in reports](#updated-lists-in-reports) 
+* [New design applied to lists for Template tasks, Portfolios, and more](#new-design-applied-to-lists-for-template-tasks-portfolios-and-more) 
+* [The Workload Balancer beta](#the-workload-balancer-beta)
 
 <table> 
  <col> 
@@ -131,7 +131,7 @@ Future availability in the Production environment varies by feature. After a fea
   <tr data-mc-conditions=""> 
    <td> 
     <div> 
-     <h3><a name="Add"></a>Additional object types available for Typeahead fields in a custom form</h3> 
+     <h3 id="additional-object-types-available-for-typeahead-fields-in-a-custom-form"><a name="Add"></a>Additional object types available for Typeahead fields in a custom form</h3> 
      <p>Now, when you are creating a Typeahead custom field, you can associate the following object types with the field: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</p> 
      <p>Previously, you could associate only the User object type with a Typeahead custom field.</p> 
      <p>For more information, see the section <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a>.</p> 
@@ -152,7 +152,7 @@ Future availability in the Production environment varies by feature. After a fea
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> 
      <div> 
-      <h3><a name="Filename"></a>Filename of new document version displays in Workfront</h3> 
+      <h3 id="filename-of-new-document-version-displays-in-workfront"><a name="Filename"></a>Filename of new document version displays in Workfront</h3> 
       <p>Now, when you upload a document version with a different filename than that of the existing version, the new filename displays in Workfront.</p> 
       <p>Previously, when you added a new version with a different filename, the filename of the previous version continued to display in Workfront.</p> 
       <p>For more information, see <a href="../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md" class="MCXref xref" xrefformat="{para}">Add documents to Adobe Workfront from your file system</a>.</p> 
@@ -173,7 +173,7 @@ Future availability in the Production environment varies by feature. After a fea
   <tr> 
    <td> 
     <div> 
-     <h3><a name="Quick"></a>New tooltip added to quick filters</h3> 
+     <h3 id="new-tooltip-added-to-quick-filters"><a name="Quick"></a>New tooltip added to quick filters</h3> 
      <p> Instead of using your browser's native functionality for finding an item in a list, you can use quick filters in all the redesigned lists. To make finding the quick filter easier, a new tooltip now directs you to the quick filter.</p> 
      <p>Now, when you click CTRL+F or CMD+F on your keyboard, a tooltip appears next to the quick filter in a list to indicate that instead of those native commands you can instead use the quick filter to find an item in the list. The shortcuts for launching the quick filter are different than the browser shortcut and they display in the search box of the filter.</p> 
      <p>For information about using quick filters in lists, see the section "Apply quick filters to lists" in the article <a href="../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Get started with lists in&nbsp;Adobe Workfront</a>.</p> 
@@ -190,7 +190,7 @@ Future availability in the Production environment varies by feature. After a fea
      </div> 
      <p><iframe class="vimeo-player_0" src="assets/364129192?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
      <p><a href="https://vimeo.com/364129192/ea5b0625c6" target="_blank">View this video in full-screen mode.</a> </p> 
-     <h3><a name="Updated2"></a>Updated lists in reports</h3> 
+     <h3 id="updated-lists-in-reports"><a name="Updated2"></a>Updated lists in reports</h3> 
      <p>The updated functionality of lists is now available in reports, for the same objects. When the reports display in a dashboard, the new list functionality is also available there.</p> 
      <p>For a complete list of what objects support the new list functionality, see <a href="../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Get started with lists in&nbsp;Adobe Workfront</a>.</p> 
      <div class="workfront_plans"> 
@@ -207,7 +207,7 @@ Future availability in the Production environment varies by feature. After a fea
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <h3><a name="New4"></a>New design applied to lists for Template tasks, Portfolios, and more</h3> <p>The new list design is now available on the following lists:</p> 
+   <td> <h3 id="new-design-applied-to-lists-for-template-tasks-portfolios-and-more"><a name="New4"></a>New design applied to lists for Template tasks, Portfolios, and more</h3> <p>The new list design is now available on the following lists:</p> 
     <ul> 
      <li>Template tasks</li> 
      <li>Portfolios</li> 
@@ -234,7 +234,7 @@ Future availability in the Production environment varies by feature. After a fea
     </div> <p><iframe class="vimeo-player_0" src="assets/356675385?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/356675385/09ba51d717" target="_blank">View this video in full-screen mode.</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <h3><a name="The"></a>The Workload Balancer beta</h3> <p>The Workload Balancer provides a new interface for managing the workload of your resources. This is intended to replace the Resource Scheduler sometime in the future.</p> <p>In addition to benefiting from an improved design, you can now clearly view a person's availability and easily manage work assignments for the people in your teams. You can also update a task from the Workload Balancer using the Summary in the new Workfront experience.</p> <p>For information about the Workload Balancer, see the article Overview of the Workload Balancer.</p> 
+   <td> <h3 id="the-workload-balancer-beta"><a name="The"></a>The Workload Balancer beta</h3> <p>The Workload Balancer provides a new interface for managing the workload of your resources. This is intended to replace the Resource Scheduler sometime in the future.</p> <p>In addition to benefiting from an improved design, you can now clearly view a person's availability and easily manage work assignments for the people in your teams. You can also update a task from the Workload Balancer using the Summary in the new Workfront experience.</p> <p>For information about the Workload Balancer, see the article Overview of the Workload Balancer.</p> 
     <div class="workfront_plans"> 
      <p><strong>Available in these environments:</strong> </p> 
      <ul> 
@@ -252,17 +252,17 @@ Future availability in the Production environment varies by feature. After a fea
 
 ## October 4, 2019
 
-* [Add a filter to a Typeahead field in a custom form](#add2) 
-* [New design applied to lists for Baselines and Billing Rates](#addition) 
-* [Updated look and feel of new lists](#updated) 
-* [Delete objects using the Mobile app on Android](#delete) (Available on October 8)
-* [Convert Tasks, Issues, and Requests to a Project using the mobile app on Android](#convert) (Available on October 8)
+* [Add a filter to a Typeahead field in a custom form](#add-a-filter-to-a-typeahead-field-in-a-custom-form) 
+* [New design applied to lists for Baselines and Billing Rates](#new-design-applied-to-lists-for-baselines-and-billing-rates) 
+* [Updated look and feel of new lists](#updated-look-and-feel-of-new-lists) 
+* [Delete objects using the Mobile app on Android](#delete-objects-using-the-mobile-app-on-android) (Available on October 8)
+* [Convert Tasks, Issues, and Requests to a Project using the mobile app on Android](#convert-tasks-issues-and-requests-to-a-project-using-the-mobile-app-on-android) (Available on October 8)
 
 <table> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <h3><a name="Add2"></a>Add a filter to a Typeahead field in a custom form</h3> <p>Now, when you add a Typeahead field to a custom form, you can add a filter to limit the objects that are available when someone uses the field. For example, you could limit the field so that the user can select only members of the Marketing and Sales teams in your organization.</p> <p>For more information, see the section Create and add a new field in the article Creating Custom Forms.</p> 
+   <td> <h3 id="add-a-filter-to-a-typeahead-field-in-a-custom-form"><a name="Add2"></a>Add a filter to a Typeahead field in a custom form</h3> <p>Now, when you add a Typeahead field to a custom form, you can add a filter to limit the objects that are available when someone uses the field. For example, you could limit the field so that the user can select only members of the Marketing and Sales teams in your organization.</p> <p>For more information, see the section Create and add a new field in the article Creating Custom Forms.</p> 
     <div class="workfront_plans"> 
      <p><strong>Available in these environments:</strong> </p> 
      <ul> 
@@ -278,7 +278,7 @@ Future availability in the Production environment varies by feature. After a fea
   <tr> 
    <td> 
     <div> 
-     <h3><a name="Addition"></a>New design applied to lists for Baselines and Billing Rates</h3> 
+     <h3 id="new-design-applied-to-lists-for-baselines-and-billing-rates"><a name="Addition"></a>New design applied to lists for Baselines and Billing Rates</h3> 
      <p>The new list design is now available on the following lists:</p> 
      <ul> 
       <li>Baselines</li> 
@@ -302,7 +302,7 @@ Future availability in the Production environment varies by feature. After a fea
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <h3><a name="Updated"></a>Updated look and feel of new lists</h3> <p>All new lists now have an updated look and feel. Some of the updates include:</p> 
+   <td> <h3 id="updated-look-and-feel-of-new-lists"><a name="Updated"></a>Updated look and feel of new lists</h3> <p>All new lists now have an updated look and feel. Some of the updates include:</p> 
     <ul> 
      <li>A cleaner, grid-like design</li> 
      <li>Updated colors and fonts</li> 
@@ -324,7 +324,7 @@ Future availability in the Production environment varies by feature. After a fea
   <tr> 
    <td> 
     <div> 
-     <h3><a name="Delete"></a>Delete objects using the Mobile app on Android</h3> 
+     <h3 id="delete-objects-using-the-mobile-app-on-android"><a name="Delete"></a>Delete objects using the Mobile app on Android</h3> 
      <p>Note: This feature will be available in the Android Beta app on October 8, 2019</p> 
      <p>You can now delete objects like tasks, issues, and timesheets in the Android mobile app. You must have the correct permissions on the object to delete it.</p> 
      <p>Previously, this feature was available only in the iOS mobile app.</p> 
@@ -341,7 +341,7 @@ Future availability in the Production environment varies by feature. After a fea
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <h3><a name="Convert"></a>Convert Tasks, Issues, and Requests to a Project using the mobile app on Android</h3> <p>Note: This feature will be available in the Android Beta app on October 8, 2019</p> <p>You can now convert individual Tasks, Issues, and Requests to projects in the Workfront mobile app on Android.</p> <p>Previously, this feature was available only in the iOS mobile app.</p> 
+   <td> <h3 id="convert-tasks-issues-and-requests-to-a-project-using-the-mobile-app-on-android"><a name="Convert"></a>Convert Tasks, Issues, and Requests to a Project using the mobile app on Android</h3> <p>Note: This feature will be available in the Android Beta app on October 8, 2019</p> <p>You can now convert individual Tasks, Issues, and Requests to projects in the Workfront mobile app on Android.</p> <p>Previously, this feature was available only in the iOS mobile app.</p> 
     <div class="workfront_plans"> 
      <p><strong>Available in these environments:</strong> </p> 
      <ul> 
@@ -358,8 +358,8 @@ Future availability in the Production environment varies by feature. After a fea
 
 ## August 30, 2019
 
-* [New design applied to additional lists](#new) 
-* [New shortcuts for quick filters](#new2)
+* [New design applied to additional lists](#new-design-applied-to-additional-lists) 
+* [New shortcuts for quick filters](#new-shortcuts-for-quick-filters)
 
 <table> 
  <col> 
@@ -367,7 +367,7 @@ Future availability in the Production environment varies by feature. After a fea
   <tr> 
    <td> 
     <div> 
-     <h3><a name="New"></a>New design applied to additional lists</h3> 
+     <h3 id="new-design-applied-to-additional-lists"><a name="New"></a>New design applied to additional lists</h3> 
      <p>The new list design is now available on the following lists of objects:</p> 
      <ul> 
       <li>Issues</li> 
@@ -399,7 +399,7 @@ Future availability in the Production environment varies by feature. After a fea
   <tr> 
    <td> 
     <div> 
-     <h3><a name="New2"></a>New shortcuts for quick filters</h3> 
+     <h3 id="new-shortcuts-for-quick-filters"><a name="New2"></a>New shortcuts for quick filters</h3> 
      <p>Keyboard shortcut reminders are now available inside the search box of quick filters in lists to make it easier for you to access the filters. </p> 
      <p>The shortcuts are:</p> 
      <ul> 

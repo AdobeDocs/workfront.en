@@ -93,10 +93,10 @@ After viewing notifications, you can acknowledge them to clear them from the Not
 
 On the Notifications page, you can&nbsp;view current and cleared notifications. You can also bring cleared notifications back to the Notifications list.
 
-* [Acknowledge notifications](#acknowle) 
-* [View acknowledged notifications](#view2)
+* [Acknowledge notifications](#acknowledge-notifications) 
+* [View acknowledged notifications](#view-acknowledged-notifications)
 
-### Acknowledge notifications
+### Acknowledge notifications  {#acknowledge-notifications}
 
 Clicking the numbered icon to open the Notifications list does not automatically acknowledge that you have read all notifications.
 
@@ -110,7 +110,7 @@ To acknowledge a notification&nbsp;and clear it&nbsp;from the Notifications list
    * If the notification is for an announcement, click the notification to open the **Announcements** page.
    * Click **All Notifications** in the lower-right corner of the list of notifications to display the **Notifications** page, then click **Mark all as seen** in the upper-right corner of Workfront.
 
-### **View acknowledged notifications**
+### **View acknowledged notifications** {#view-acknowledged-notifications}
 
 To view notifications that you have already acknowledged:
 
@@ -125,17 +125,17 @@ You cannot delete work item notifications. Workfront deletes all notifications (
 
 However, you can delete an announcement notifications. You can also access an announcement you have deleted within 30 days after deleting it. Workfront does not automatically delete announcements.
 
-* [Delete an announcement](#delete) 
-* [Access and restore an announcement you deleted recently](#access)
+* [Delete an announcement](#delete-an-announcement) 
+* [Access and restore an announcement you deleted recently](#access-and-restore-an-announcement-you-deleted-recently)
 
-### Delete an announcement
+### Delete an announcement {#delete-an-announcement}
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
 1. Click **Announcements**&nbsp;or **View All Announcements**.
 
 1. On the **Announcements** page that appears, click the announcement you want to delete in the list on the left, then click **Delete** in the upper-right corner of the page.
 
-### Access and restore an announcement you deleted recently
+### Access and restore an announcement you deleted recently {#access-and-restore-an-announcement-you-deleted-recently}
 
 You can access a notification that you deleted within the past 30 days.
 

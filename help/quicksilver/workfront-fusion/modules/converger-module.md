@@ -17,7 +17,7 @@ hidefromtoc: true
 >```>
 >PLANNED
 >```>
->- see the [Workarounds](#workarou) section below.
+>- see the [Workarounds](#workarounds) section below.
 
 A converger module is a counterpart of the Router module. It enables you to merge multiple routes into one:
 
@@ -39,7 +39,7 @@ In this case, you could use the converger module to merge the two (or more) rout
 
 ![](assets/converger-merge-routes-350x74.png)
 
-## Workarounds
+## Workarounds {#workarounds}
 
 Until the converger module is released, you may use one of the following workarounds to avoid the duplication of the common sequence.
 

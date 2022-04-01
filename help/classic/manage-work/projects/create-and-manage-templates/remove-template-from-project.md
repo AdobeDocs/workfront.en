@@ -49,13 +49,13 @@ To remove template information that was added to the project, you can do one of 
 
 * Delete the tasks in the project which were added with the template.
 
-  For information, see the [Delete tasks created from a template](#delete) section in this article.
+  For information, see the [Delete tasks created from a template](#delete-tasks-created-from-a-template) section in this article.
 
 * Delete the template from&nbsp;Workfront. Deleting the template from Workfront does not delete the tasks added from the template from projects.
 
   For information, see [Delete project templates](../../../manage-work/projects/create-and-manage-templates/delete-templates.md).
 
-## Delete tasks created from a template
+## Delete tasks created from a template {#delete-tasks-created-from-a-template}
 
 1. Go to the **Tasks** tab of the project.
 1. Do one of the following:

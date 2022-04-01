@@ -16,7 +16,7 @@ As a Workfront administrator or a group administrator, you can create and modify
 
 You can migrate layout templates that you already have in Classic Workfront to the new Workfront experience. For instructions, see [Migrate your layout templates to the new Adobe Workfront experience](../../../administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md).
 
-## Create or modify a layout template
+## Create or modify a layout template {#create-or-modify-a-layout-template}
 
 When you create or modify a layout template, you can do the following things:
 
@@ -46,19 +46,19 @@ To create or modify an existing layout template:
 
 1. Change any of the options in the layout template, as described in the following sections:
 
-   * [Set Details](#setting-details) 
-   * [Customize Tabs](#customizing-tabs) 
-   * [Customize Lists](#customizing-lists) 
-   * [Customize My Work](#customizing-my-work) 
-   * [Customize Home](#customizing-home) 
-   * [Assign people](#assigning-people) 
-   * [Customize Terminology](#terminology)
+   * [Set Details](#set-details) 
+   * [Customize Tabs](#customize-tabs) 
+   * [Customize Lists](#customize-lists) 
+   * [Customize My Work](#customize-my-work) 
+   * [Customize Home](#customize-home) 
+   * [Assign people](#assign-people) 
+   * [Customize Terminology](#customize-terminology)
 
 1. Click **Save Layout Template**.
 
-### Set Details
+### Set Details {#set-details}
 
-1. Begin creating your layout template, as described above, in [Create or modify a layout template](#creating-or-modifying-a-layout-template).
+1. Begin creating your layout template, as described above, in [Create or modify a layout template](#create-or-modify-a-layout-template).
 1. On the **Set Details** tab, supply the following information:
 
    <table cellspacing="0"> 
@@ -75,7 +75,7 @@ To create or modify an existing layout template:
      </tr> 
      <tr> 
       <td role="rowheader">Group with Administration Access</td> 
-      <td> Indicate the single group whose group administrators you want to have the permission to edit this layout template.<p>This does not assign the template to the users in the group.<br></p><p>For more information about assigning layout templates to users, groups, teams, and job roles, see <a href="#assigning-people" class="MCXref xref">Assign people</a>.</p> <p>Important:   <p>When a group administrator creates a layout template, this field is mandatory. A group administrator can create a layout template designated only for a specific administrative group. The layout templates created for a specific administrative group is not visible to users that do not belong to the Group specified here when they attach a layout template to a user when editing the user. For more information about editing users, <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> <p>Workfront admins can create a system-level layout template when they do not associate it with a specific administrative group. The system-level layout templates are visible to select to all users who can edit user accounts. For more information about group administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </p></td> 
+      <td> Indicate the single group whose group administrators you want to have the permission to edit this layout template.<p>This does not assign the template to the users in the group.<br></p><p>For more information about assigning layout templates to users, groups, teams, and job roles, see <a href="#assign-people" class="MCXref xref">Assign people</a>.</p> <p>Important:   <p>When a group administrator creates a layout template, this field is mandatory. A group administrator can create a layout template designated only for a specific administrative group. The layout templates created for a specific administrative group is not visible to users that do not belong to the Group specified here when they attach a layout template to a user when editing the user. For more information about editing users, <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> <p>Workfront admins can create a system-level layout template when they do not associate it with a specific administrative group. The system-level layout templates are visible to select to all users who can edit user accounts. For more information about group administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">On login, show</td> 
@@ -90,7 +90,7 @@ To create or modify an existing layout template:
 
 1. Continue with any of the remaining sections in this article, depending on the area of the interface that you want to customize.
 
-### Customize Tabs
+### Customize Tabs {#customize-tabs}
 
 You can customize the tabs that are available to users who are assigned the layout template.
 
@@ -110,7 +110,7 @@ You can also customize the following Global Navigation areas:
 
 To customize tabs:
 
-1. Begin creating your layout template, as described above, in [Create or modify a layout template](#creating-or-modifying-a-layout-template) and [Set Details](#setting-details).
+1. Begin creating your layout template, as described above, in [Create or modify a layout template](#create-or-modify-a-layout-template) and [Set Details](#set-details).
 
 1. Click the **Customize Tabs** tab.
 1. Click the **When a person with this Template looks at** drop-down list, then select one of the following areas of Workfront to customize:
@@ -176,11 +176,11 @@ To customize tabs:
 
 1. Drag items from one location to any empty tab in the template.
 1. Click **Add Custom Tab** to add a dashboard to the template.
-1. Click the **Assign People** tab and assign users, teams, groups, or job roles to the layout template as described in [Assign people](#assigning-people).
+1. Click the **Assign People** tab and assign users, teams, groups, or job roles to the layout template as described in [Assign people](#assign-people).
 
 1. Click **Save Layout Template**.
 
-### Customize Lists
+### Customize Lists {#customize-lists}
 
 You can customize the Filters, Views, and Groupings (also known as list controls) that are available to users who are assigned the layout template.
 
@@ -188,7 +188,7 @@ You can customize the Filters, Views, and Groupings (also known as list controls
 >
 >You cannot remove all the filters, views, and groupings from the lists. You must have at least one option for filters, one for views, and one for groupings. If you remove all the filters, views, or groupings from a layout template, the default ones are added back in when you save the layout template.
 
-1. Begin creating your layout template, as described above, in [Create or modify a layout template](#creating-or-modifying-a-layout-template) and [Set Details](#setting-details).
+1. Begin creating your layout template, as described above, in [Create or modify a layout template](#create-or-modify-a-layout-template) and [Set Details](#set-details).
 
 1. Click the **Customize Lists** tab.
 1. Click the **When a person with this Template looks at** drop-down list to select an area of Workfront to customize.
@@ -202,15 +202,15 @@ You can customize the Filters, Views, and Groupings (also known as list controls
 
    The views, filters and groupings you see listed on this tab will be visible to all users assigned to this layout template. 
 
-1. Click the **Assign People** tab and assign users, teams, groups, or job roles to the layout template as described in [Assign people](#assigning-people).
+1. Click the **Assign People** tab and assign users, teams, groups, or job roles to the layout template as described in [Assign people](#assign-people).
 
 1. Click **Save Layout Template**.
 
-### Customize My Work
+### Customize My Work {#customize-my-work}
 
 You can create custom views to display on tasks and issues in the Working On and Work Requests tabs in the My Work area.
 
-1. Begin creating your layout template, as described above, in [Create or modify a layout template](#creating-or-modifying-a-layout-template) and [Set Details](#setting-details).
+1. Begin creating your layout template, as described above, in [Create or modify a layout template](#create-or-modify-a-layout-template) and [Set Details](#set-details).
 
 1. Click the **Customize My Work** tab.  
 
@@ -245,30 +245,30 @@ You can create custom views to display on tasks and issues in the Working On and
      >
      >When this option is selected for both Working On: Tasks and Working On: Issues, the new calendar in the My Work area is displayed. For more information about using the new calendar in the My Work area, see [View assigned work on the My Work calendar](../../../workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md).
 
-1. Click the **Assign People** tab and assign users, teams, groups, or job roles to the layout template, as described in [Assign people](#assigning-people).
+1. Click the **Assign People** tab and assign users, teams, groups, or job roles to the layout template, as described in [Assign people](#assign-people).
 
 1. Click **Save Layout Template**.
 
-### Customize Home
+### Customize Home {#customize-home}
 
 The Home area allows you to manage all your work from a single location.
 
 Complete the following sections to determine user visibility to the Home area and to customize it to best fit user needs:
 
-* [Configure user visibility to the Home Area](#configur) 
-* [Customize the Home Area](#customizing-the-home-area)
+* [Configure user visibility to the Home Area](#configure-user-visibility-to-the-home-area) 
+* [Customize the Home Area](#customize-the-home-area)
 
-#### Configure user visibility to the Home Area
+#### Configure user visibility to the Home Area {#configure-user-visibility-to-the-home-area}
 
 You can customize the layout template to determine the visibility users in your organization have to the Home area. Users who are not assigned a layout template see the Home area by default.
 
 You can configure user visibility to the Home area for one of the following scenarios:
 
-* [When users see the Home area by default and can switch to the My Work area](#when) 
-* [When users see the My Work area by default and cannot switch to the Home area](#when2) 
-* [When users see the Home area by default and cannot switch to the My Work area](#when3)
+* [When users see the Home area by default and can switch to the My Work area](#when-users-see-the-home-area-by-default-and-can-switch-to-the-my-work-area) 
+* [When users see the My Work area by default and cannot switch to the Home area](#when-users-see-the-my-work-area-by-default-and-cannot-switch-to-the-home-area) 
+* [When users see the Home area by default and cannot switch to the My Work area](#when-users-see-the-home-area-by-default-and-cannot-switch-to-the-my-work-area)
 
-##### When users see the Home area by default and can switch to the My Work area
+##### When users see the Home area by default and can switch to the My Work area {#when-users-see-the-home-area-by-default-and-can-switch-to-the-my-work-area}
 
 1. Click **Setup** > **Interface** >**Layout Templates**.
 
@@ -282,11 +282,11 @@ You can configure user visibility to the Home area for one of the following scen
 1. Ensure that **Revert users with this template to legacy My Work in place of Home** is disabled.
 1. Ensure users are assigned to the layout template.
 
-   For more information see the section [Assign people](#assigning-people) in this article.
+   For more information see the section [Assign people](#assign-people) in this article.
 
 1. (Conditional) If you had to disable the Revert users setting, click **Save layout template**.
 
-##### When users see the My Work area by default and cannot switch to the Home area
+##### When users see the My Work area by default and cannot switch to the Home area {#when-users-see-the-my-work-area-by-default-and-cannot-switch-to-the-home-area}
 
 1. Go to **Setup** > **Interface** >**layout templates**.
 
@@ -300,11 +300,11 @@ You can configure user visibility to the Home area for one of the following scen
 1. Enable the **Revert users with this template to legacy My Work in place of Home** option.
 1. Ensure users are assigned to the layout template.
 
-   For more information see the section [Assign people](#assigning-people) in this article.
+   For more information see the section [Assign people](#assign-people) in this article.
 
 1. Click **Save layout template**.
 
-##### When users see the Home area by default and cannot switch to the My Work area
+##### When users see the Home area by default and cannot switch to the My Work area {#when-users-see-the-home-area-by-default-and-cannot-switch-to-the-my-work-area}
 
 1. Go to **Setup** > **Interface** >**Layout Templates**.
 
@@ -321,23 +321,23 @@ You can configure user visibility to the Home area for one of the following scen
 
 1. Ensure users are assigned to the layout template.
 
-   For more information see the section [Assign people](#assigning-people) in this article.
+   For more information see the section [Assign people](#assign-people) in this article.
 
 1. Click **Save Layout Template**.
 
-#### Customize the Home Area
+#### Customize the Home Area {#customize-the-home-area}
 
 You can customize the information displayed to users when they view information within the Home area.
 
 To customize the layout template for the Home area:
 
-1. Begin creating your layout template, as described in [Create or modify a layout template](#creating-or-modifying-a-layout-template) and [Set Details](#setting-details).
+1. Begin creating your layout template, as described in [Create or modify a layout template](#create-or-modify-a-layout-template) and [Set Details](#set-details).
 
 1. Click **Customize Home**.  
 
 1. Make sure the option **Revert users with this template to legacy My Work in place of Home** is not enabled.
 
-   For more information, see [Configure user visibility to the Home Area](#configur).
+   For more information, see [Configure user visibility to the Home Area](#configure-user-visibility-to-the-home-area).
 
 1. (Optional) Make sure the option **Show timestamps for date fields** is enabled if you want users to see timestamps for the following date fields in the Work List and Calendar:
 
@@ -396,7 +396,7 @@ To customize the layout template for the Home area:
       | Log time against work |The Log Time option is displayed when the task or issue is selected, allowing users to log time on work items directly from the Home area. |
       | Show updates for work |Any updates made on the task or issue are displayed when the task or issue is selected. This includes both system updates and updates made by a user. When this option is enabled, users can still filter out system updates, as described in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). |
 
-   ```<li>Click the <strong>Assign People</strong> tab and assign users, teams, groups, or job roles to the layout template, as described in <a href="#assigning-people" class="MCXref xref">Assign people</a>.</li>``` ```<li>Click <strong>Save Layout Template</strong>.</li>```
+   ```<li>Click the <strong>Assign People</strong> tab and assign users, teams, groups, or job roles to the layout template, as described in <a href="#assign-people" class="MCXref xref">Assign people</a>.</li>``` ```<li>Click <strong>Save Layout Template</strong>.</li>```
 
 ## Test your layout template
 
@@ -407,7 +407,7 @@ You can test the layout template in either of the following ways:
 * Assign the template to your own user account and verify that it meets all requirements.
 * Log in as a user who is assigned to the layout template. For information about how to log in as another user, see [Log in as another user](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-## Assign people
+## Assign people {#assign-people}
 
 After you create a layout template, you can assign users to it.
 
@@ -419,12 +419,12 @@ For more information about what the default layout is, according to the users' a
 
 Users can also assign a layout template to themselves, as described in [Change the My Work and Work Requests areas with Layout Templates](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md).
 
-* [Layout template assignment priority](#understand-layout-template) 
-* [Assign users to a layout template](#assign-layout-template) 
-* [Limitations and best practices in assigning people to a layout template](#limitations-and-best-practices) 
-* [Customize Terminology](#terminology)
+* [Layout template assignment priority](#layout-template-assignment-priority) 
+* [Assign users to a layout template](#assign-users-to-a-layout-template) 
+* [Limitations and best practices in assigning people to a layout template](#limitations-and-best-practices-in-assigning-people-to-a-layout-template) 
+* [Customize Terminology](#customize-terminology)
 
-### Layout template assignment priority
+### Layout template assignment priority {#layout-template-assignment-priority}
 
 You can assign a layout template to individual users, job roles, teams, and groups.
 
@@ -446,7 +446,7 @@ Where the layout template is assigned determines which layout template is used f
 * **Teams**: When you assign a layout template to a team, all users that have the team assigned to them as their Home Team can see the settings specified in the layout template. layout templates assigned to the Home Team of a user supersedes the layout template assigned to the Home Group of that user. Only the layout template assigned to the Home Team of a user is visible to the user. layout templates assigned to the Other Teams of a user are not visible to that user. If the user has a layout template assigned to themselves or their primary job role, they do not see the layout template assigned to their Home Team. 
 * **Groups**: When you assign a layout template to a group, all users that have the group assigned to them as their Home Group can see the settings specified in the layout template. Only the layout template assigned to the Home Group of a user is visible to the user. layout templates assigned to their Other Groups are not visible to that user. The layout template assigned to a group has the lowest assignment priority. If the user has a layout template assigned to themselves, their primary job role, or their Home Team, they do not see the layout template assigned to their Home Group.
 
-### Assign users to a layout template
+### Assign users to a layout template {#assign-users-to-a-layout-template}
 
 A user with a Plan license and administrative rights to users can modify their own settings and assign themselves an individual layout template.
 
@@ -460,7 +460,7 @@ The same is true if a layout template is applied after a user has adjusted his o
 
 To assign users to the layout template:
 
-1. Begin creating your layout template, as described above, in [Create or modify a layout template](#creating-or-modifying-a-layout-template) and [Set Details](#setting-details).
+1. Begin creating your layout template, as described above, in [Create or modify a layout template](#create-or-modify-a-layout-template) and [Set Details](#set-details).
 
 1. Click the **Assign People** tab.
 1. Begin typing the name of a user, team, group, or job role into the **Add People, Roles, Teams & Groups** field, then click it when it appears in the drop-down list.
@@ -470,7 +470,7 @@ To assign users to the layout template:
    >
    >Users that could not see specific areas in the Global Navigation Bar or the respective tabs within those areas might have to log in and out of the Workfront application, as well as modify their layout preferences to enable the areas that are now shared with them through the layout template. For more information about how to edit your preferences, see the [Preferences](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) section in [Configure My Settings](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-### Limitations and best practices in assigning people to a layout template
+### Limitations and best practices in assigning people to a layout template {#limitations-and-best-practices-in-assigning-people-to-a-layout-template}
 
 You can assign a layout template to users in Workfront, by applying it to their profiles, while editing them. For more information about editing users, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -478,12 +478,12 @@ If you edit a layout template which is assigned to more than 2000 users and make
 
 As a best practice, we recommend that if you have more than 2000 users to assign to a layout template, to organize them in groups or teams, or assign job roles to them and apply the layout template to their Home Group, Home Team or their primary job role.
 
-## Customize Terminology
+## Customize Terminology {#customize-terminology}
 
-* [Customize object names](#customizing-terminology) 
-* [Communicate terminology changes to users](#communic)
+* [Customize object names](#customize-object-names) 
+* [Communicate terminology changes to users](#communicate-terminology-changes-to-users)
 
-### **Customize object names**
+### **Customize object names** {#customize-object-names}
 
 As a system or group administrator, you can customize the names of objects on the Workfront interface using a layout template. Users assigned to the layout template see the customized names instead of the default names.
 
@@ -503,7 +503,7 @@ You can customize the names of the following objects:
 
 For example, to customize the name for **Projects** using the layout template:
 
-1. Begin creating your layout template, as described above, in [Create or modify a layout template](#creating-or-modifying-a-layout-template) and [Set Details](#setting-details).
+1. Begin creating your layout template, as described above, in [Create or modify a layout template](#create-or-modify-a-layout-template) and [Set Details](#set-details).
 
 1. On the **Terminology** tab, select the **Projects** drop-down menu.
 
@@ -569,11 +569,11 @@ For example, to customize the name for **Projects** using the layout template:
    >Only lower case labels are supported in the **Singular** and **Plural** fields. Workfront capitalizes the first letter of the custom name everywhere in the application where it appears.
 
 1. Click **Add**.
-1. Click the **Assign People** tab and assign users, teams, groups, or job roles to the layout template, as described in [Assign people](#assigning-people).
+1. Click the **Assign People** tab and assign users, teams, groups, or job roles to the layout template, as described in [Assign people](#assign-people).
 
 1. Click **Save Layout Template**.
 
-### Communicate terminology changes to users
+### Communicate terminology changes to users {#communicate-terminology-changes-to-users}
 
 The Workfront documentation always refers to the default names of the objects. As a Workfront administrator or group administrator, ensure that you notify users of the changes in object names, so they can understand how to use the Workfront documentation, as well as the areas of the application which do not reflect the changes in the names of the objects.
 

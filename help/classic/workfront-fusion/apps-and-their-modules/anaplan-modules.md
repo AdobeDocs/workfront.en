@@ -64,7 +64,7 @@ Before you can use the Anaplan connector, you must ensure that the following pre
 * You must have an active Anaplan account.
 * You must configure Workspaces, Models, and other Anaplan objects in your Anaplan account before Workfront Fusion can interact with them.
 
-## Connect Anaplan to Workfront Fusion
+## Connect Anaplan to Workfront Fusion {#connect-anaplan-to-workfront-fusion}
 
 To create a connection for your Anaplan modules:
 
@@ -99,7 +99,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Triggers](#triggers) 
 * [Actions](#actions)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch records
 
@@ -111,7 +111,7 @@ This trigger module starts a scenario when a record of the chosen type is create
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Anaplan, see <a href="#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type of object to watch</td> 
@@ -128,22 +128,22 @@ This trigger module starts a scenario when a record of the chosen type is create
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Create a list item](#create) 
-* [Make a custom API Call](#make) 
-* [Delete a record](#delete) 
-* [Export data](#export) 
-* [Get record](#get) 
-* [Import Data](#import) 
-* [Read a record](#read) 
-* [Update a record](#update)
+* [Create a list item](#create-a-list-item) 
+* [Make a custom API Call](#make-a-custom-api-call) 
+* [Delete a record](#delete-a-record) 
+* [Export data](#export-data) 
+* [Get record](#get-record) 
+* [Import Data](#import-data) 
+* [Read a record](#read-a-record) 
+* [Update a record](#update-a-record)
 
-#### Create a list item
+#### Create a list item {#create-a-list-item}
 
 This action module adds a new item to a list in Anaplan.
 
-| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect) in this article. |
+| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect-anaplan-to-workfront-fusion) in this article. |
 |---|---|
 | Workspace ID |Select or map the ID&nbsp;of the Anaplan Workspace that contains the list where you want to add an item. |
 | Model ID |Select or map the ID of the Model that contains the list where you want to add an item. |
@@ -154,7 +154,7 @@ This action module adds a new item to a list in Anaplan.
 | Properties |If the list you want to add an item to has custom properties, select the properties you want to add values for, then add the values. |
 | Subsets |If the list you want to add items to has custom subsets, select the subsets you want to add the item to, then select **Yes** to add the new item to that subset. |
 
-#### Make a custom API Call
+#### Make a custom API Call {#make-a-custom-api-call}
 
 This module allows you to perform a custom API call to the Anaplan API.
 
@@ -164,7 +164,7 @@ This module allows you to perform a custom API call to the Anaplan API.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Anaplan, see <a href="#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -192,7 +192,7 @@ This module allows you to perform a custom API call to the Anaplan API.
  </tbody> 
 </table>
 
-#### Delete a record
+#### Delete a record  {#delete-a-record}
 
 This action module deletes an existing record.
 
@@ -202,7 +202,7 @@ This action module deletes an existing record.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Anaplan, see <a href="#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -224,7 +224,7 @@ This action module deletes an existing record.
  </tbody> 
 </table>
 
-#### Export data
+#### Export data {#export-data}
 
 This action module exports data from Anaplan. You can export into the following file formats:
 
@@ -232,13 +232,13 @@ This action module exports data from Anaplan. You can export into the following 
 * XLSX
 * CSV
 
-| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect) in this article. |
+| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect-anaplan-to-workfront-fusion) in this article. |
 |---|---|
 | Workspace ID |Select or map the ID of the Anaplan Workspace that contains the object you want to export. |
 | Model ID |Enter or map the ID of the Model that contains the object you want to export. |
 | Export ID |Enter or map the ID&nbsp;of the export definition that you want to use. |
 
-#### Get record
+#### Get record {#get-record}
 
 This action module returns all accessible records of the selected type.
 
@@ -248,7 +248,7 @@ This action module returns all accessible records of the selected type.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Anaplan, see <a href="#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record types</td> 
@@ -276,17 +276,17 @@ This action module returns all accessible records of the selected type.
  </tbody> 
 </table>
 
-#### Import Data
+#### Import Data {#import-data}
 
 This action module imports data into Anaplan using the Anaplan API. For example, you can import a file that you have uploaded.
 
-| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect) in this article. |
+| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect-anaplan-to-workfront-fusion) in this article. |
 |---|---|
 | Workspace ID |Select or map the ID of the Anaplan Workspace where you want to import data. |
 | Model ID |Select or map the ID of the Model where you want to import data. |
 | Import ID |Enter or map the ID&nbsp;of the import definition that you want to use. |
 
-#### Read a record
+#### Read a record  {#read-a-record}
 
 This action module reads a single record.
 
@@ -296,7 +296,7 @@ This action module reads a single record.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Anaplan, see <a href="#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -312,7 +312,7 @@ This action module reads a single record.
  </tbody> 
 </table>
 
-#### Update a record
+#### Update a record  {#update-a-record}
 
 This action module updates a single record in Anaplan.
 
@@ -322,7 +322,7 @@ This action module updates a single record in Anaplan.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Anaplan, see <a href="#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -336,7 +336,7 @@ This action module updates a single record in Anaplan.
        <li> <p style="font-weight: bold;">Dimension ID</p> <p>Select or map the dimension that is on the line item.</p> <p>For information on dimensions, search for Dimensions in the Anaplan Anapedia.</p> </li> 
        <li> <p><b>Value</b> </p> <p>Enter or map the new value for the cell.</p> </li> 
       </ul> </li> 
-     <li> <p><b>List item</b> </p> <p>For fields, see <a href="#create" class="MCXref xref">Create a list item</a> in this article.</p> </li> 
+     <li> <p><b>List item</b> </p> <p>For fields, see <a href="#create-a-list-item" class="MCXref xref">Create a list item</a> in this article.</p> </li> 
      <li> <p><b>Model current fiscal year</b> </p> <p>Enter the Workspace ID and Model ID of the Model for which you want to update the fiscal year, then enter or map the new year for the model.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -353,7 +353,7 @@ This action module updates a single record in Anaplan.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td>For instructions on creating a connection to Anaplan, see <a href="#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td>
+<td>For instructions on creating a connection to Anaplan, see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td>
 </tr>
 <tr>
 <td role="rowheader">Workspace ID</td>

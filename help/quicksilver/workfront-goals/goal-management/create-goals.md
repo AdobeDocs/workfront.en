@@ -67,11 +67,11 @@ This article describes how you create a goal in Workfront Goals.
 
 You can create a new goal in one of the following ways:
 
-* [Create a goal from scratch](#create2) 
-* [Copy an existing goal](#copy) 
-* [Convert a result or activity to a goal](#convert)
+* [Create a goal from scratch](#create-a-goal-from-scratch) 
+* [Copy an existing goal](#copy-an-existing-goal) 
+* [Convert a result or activity to a goal](#convert-a-result-or-activity-to-a-goal)
 
-### Create a goal from scratch
+### Create a goal from scratch {#create-a-goal-from-scratch}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
@@ -155,13 +155,13 @@ You can create a new goal in one of the following ways:
 
 1. Click the **X** icon in the upper-right of the Goal Details panel to close it.
 
-### Copy an existing goal
+### Copy an existing goal {#copy-an-existing-goal}
 
 You can create a goal by copying an existing one.
 
 For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).
 
-### Convert a result or activity to a goal
+### Convert a result or activity to a goal {#convert-a-result-or-activity-to-a-goal}
 
 You can create a new goal by converting the result or the activity of an existing goal to a goal. The new goal becomes aligned to the original goal.
 

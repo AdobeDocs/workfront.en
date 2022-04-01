@@ -27,7 +27,7 @@ When you align goals you indicate that they are connected to one another and the
 
 Consider the following concepts when aligning your goals:
 
-* **Alignment**: The process of connecting one goal to another. For information about best practices for alignment, see the [Guidelines for goal alignment](#a) section in this article. 
+* **Alignment**: The process of connecting one goal to another. For information about best practices for alignment, see the [Guidelines for goal alignment](#guidelines-for-goal-alignment) section in this article. 
 
 * **Cascading**: The process of creating goals where teams, groups, or the company are the owner, then connecting them to one another in a hierarchy.&nbsp;For example, a company-owned goal can cascade down to group-level goals. A&nbsp;group-level goal can cascade down to team-level goals which can ultimately cascade down to personal goals. For information about the difference between teams and groups in&nbsp;Workfront, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
@@ -42,7 +42,7 @@ We recommend the following when aligning goals in Workfront Goals:
 * Don't force alignment: Because alignment influences progress, only align goals when it is necessary. A common misconception about aligning goals is that&nbsp;you must align every single one within your organization.&nbsp;Goals of one organizational unit might not need to be aligned to another unit, although all units should, in some way, be aligned to the overall company vision. 
 * Assign personal responsibility: You can create a complex hierarchy when you align goals. Try to assign the last goal in the hierarchy to an individual contributor. True goal hierarchy means that you have individual contributors at the last tier of each branch of goal alignment so they cay update the progress on their own goals. This updates the overarching team or group goal progress which ultimately contributes to the achievement of the top Company goals.
 
-## Guidelines for goal alignment
+## Guidelines for goal alignment {#guidelines-for-goal-alignment}
 
 Remember the following when aligning goals:
 

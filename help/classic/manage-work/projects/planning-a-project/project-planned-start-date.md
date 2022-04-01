@@ -79,10 +79,10 @@ For information about the Planned Start&nbsp;Date of a task, see [Overview of th
 <h2><a name="understanding-planned-completion-of-task"></a>The Planned Start Date of a task</h2>
 <p>You can either specify the Planned Start Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.&nbsp;</p>
 <ul>
-<li><a href="#manually-setting-the-planned-completion-date" class="MCXref xref">Manually set the Planned Start Date of a task</a> </li>
-<li><a href="#understanding-how-the-planned-completion-date-is-calculated" class="MCXref xref">How the Planned Start Date is calculated for a task</a> </li>
+<li><a href="#manually-set-the-planned-start-date-of-a-task" class="MCXref xref">Manually set the Planned Start Date of a task</a> </li>
+<li><a href="#how-the-planned-start-date-is-calculated-for-a-task" class="MCXref xref">How the Planned Start Date is calculated for a task</a> </li>
 </ul>
-<h3><a name="Manually_Setting_the_Planned_Completion_Date"></a>Manually set the Planned Start Date of a task</h3>
+<h3 id="manually-set-the-planned-start-date-of-a-task"><a name="Manually_Setting_the_Planned_Completion_Date"></a>Manually set the Planned Start Date of a task</h3>
 <p>Setting the Planned Start Date of a task depends on the type of Task Constraint you assign to the task.&nbsp;</p>
 <p>You can manually set the Planned Start Date&nbsp;when creating a task, as described in&nbsp;the article <a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref">Create tasks in a project</a>.</p>
 <p>You can manually specify the Planned Start Date when you select any of the following Task Constraints:&nbsp;</p>
@@ -106,7 +106,7 @@ For information about the Planned Start&nbsp;Date of a task, see [Overview of th
 </tr>
 </tbody>
 </table>
-<h3><a name="Understanding_How_the_Planned_Completion_Date_Is_Calculated"></a>How the Planned Start Date is calculated for a task</h3>
+<h3 id="how-the-planned-start-date-is-calculated-for-a-task"><a name="Understanding_How_the_Planned_Completion_Date_Is_Calculated"></a>How the Planned Start Date is calculated for a task</h3>
 <p>When it is calculated automatically by the system, the following can influence the Planned Start Date of a task:</p>
 <ul>
 <li> <p>The Start&nbsp;Date preference setting in the Tasks & Issues area in Setup</p> <p>Your Workfront or group administrator can determine whether a new task starts on the same date as the project's Planned Start&nbsp;Date or on the day you create the task.</p> <p>For information about Tasks &&nbsp;Issues preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</p> </li>

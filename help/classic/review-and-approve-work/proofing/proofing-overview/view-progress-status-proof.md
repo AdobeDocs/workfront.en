@@ -110,15 +110,15 @@ If custom decisions are configured in your account, the status options reflect y
 -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#viewing-proof-progress-and-status-for-an-individual-document" class="MCXref xref">View proof progress and status&nbsp;for a document</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#view-proof-progress-and-status-for-a-document" class="MCXref xref">View proof progress and status&nbsp;for a document</a> </li>
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#viewing-proof-approval-information-for-all-documents-you-submit-for-approval" class="MCXref xref">View proof approval information&nbsp;in Home</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#view-proof-approval-information-in-home" class="MCXref xref">View proof approval information&nbsp;in Home</a> </li>
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="viewing-proof-progress-and-status-for-an-individual-document"></a>View proof progress and status&nbsp;for a document</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="view-proof-progress-and-status-for-a-document"><a name="viewing-proof-progress-and-status-for-an-individual-document"></a>View proof progress and status&nbsp;for a document</h3>
 -->
 
    <!--
@@ -134,7 +134,7 @@ If custom decisions are configured in your account, the status options reflect y
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="viewing-proof-approval-information-for-all-documents-you-submit-for-approval"></a>View proof approval information&nbsp;in Home</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="view-proof-approval-information-in-home"><a name="viewing-proof-approval-information-for-all-documents-you-submit-for-approval"></a>View proof approval information&nbsp;in Home</h3>
 -->
 
 <!--

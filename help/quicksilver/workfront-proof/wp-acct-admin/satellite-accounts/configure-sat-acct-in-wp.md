@@ -21,7 +21,7 @@ Any Billing Administrator can create a Satellite account. For information about 
 >
 >&nbsp;Satellite accounts must be set on one of our Standard or higher plans.
 
-## Creating a Satellite account
+## Creating a Satellite account {#creating-a-satellite-account}
 
 To create a Satellite account:
 
@@ -39,9 +39,9 @@ To create a Satellite account:
 1. Select the new Satellite account from the drop-down menu.
 1. Continue with [Selecting a plan for your Satellite account](#selecting-a-plan-for-your-satellite-account) to upgrade your Satellite account.
 
-## Selecting a plan for your Satellite account
+## Selecting a plan for your Satellite account {#selecting-a-plan-for-your-satellite-account}
 
-After you have set up the Satellite account as described in [Creating a Satellite account](#setting-up-a-satellite-account), you need to upgrade it to the desired plan.
+After you have set up the Satellite account as described in [Creating a Satellite account](#creating-a-satellite-account), you need to upgrade it to the desired plan.
 
 1. Go to the Billing page.  
    For more information about the billing page, see&nbsp; [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).

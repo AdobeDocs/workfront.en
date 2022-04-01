@@ -58,7 +58,7 @@ Your organization should have a well-defined process in place for when and how t
 
 The fields for the new issues on a project are defined in the  Queue Details section of the project where the issues will be logged. For information about configuring the  Queue Details section of the project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-For information about creating issues by submitting them to a request queue, see the [Create issues by entering a new request](#create-issues-as-new-requests) section in this article.
+For information about creating issues by submitting them to a request queue, see the [Create issues by entering a new request](#create-issues-by-entering-a-new-request) section in this article.
 
 ## Create issues on a task or project using the New Issue button
 
@@ -160,7 +160,7 @@ To create issues inline:
 
 1. Click Enter to finish inline editing, and add the issue to the project or task.
 
-## Create issues by entering a new request
+## Create issues by entering a new request {#create-issues-by-entering-a-new-request}
 
 You can designate projects to be receptacles for receiving issues. These type of projects are called Request Queues in Workfront. You can access Request Queues through your Requests area in the Main Menu.
 

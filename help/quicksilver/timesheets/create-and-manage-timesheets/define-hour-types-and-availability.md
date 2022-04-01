@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 The system administrator determines which project-specific hour types are made available system-wide, as described in&nbsp;the [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) section in&nbsp; [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
-## Define availability&nbsp;at the project level
+## Define availability&nbsp;at the project level {#define-availability-at-the-project-level}
 
 The project owner determines whether all hour types defined at the system level are available on the project (and tasks and issues within the project), or whether only a subset of those hour types are available.&nbsp;
 
@@ -82,7 +82,7 @@ The project owner determines whether all hour types defined at the system level 
 
 You can log hours for a given hour type on projects, tasks, and issues only if that hour type has been made available at the system level, at the project level, and at the user level.
 
-If you make an hour type available at the user level as described in this section, but you do not see that hour type when logging time on a project, task, or issue, that hour type has not been made available on the project (as described in [Define availability at the project level](#defining-availability-at-the-project-level)).
+If you make an hour type available at the user level as described in this section, but you do not see that hour type when logging time on a project, task, or issue, that hour type has not been made available on the project (as described in [Define availability at the project level](#define-availability-at-the-project-level)).
 
 To define the hour types that are available to a user:
 
@@ -95,10 +95,10 @@ To define the hour types that are available to a user:
 1. In the **Resource Planning** section, in the **Available Hour Types** drop-down menu, do either of the following, depending on which hour types you want to make available when logging time on a project, task, or issue:
 
    * **To make all hour types available for the user:**&nbsp;Select all the hour types.  
-     If you leave all hour types unselected, this is technically the same as selecting all hour types. However, in this case, all hour type are available for the user only on projects, tasks, and&nbsp;issues where&nbsp;**No** is selected in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#defining-availability-at-the-project-level).
+     If you leave all hour types unselected, this is technically the same as selecting all hour types. However, in this case, all hour type are available for the user only on projects, tasks, and&nbsp;issues where&nbsp;**No** is selected in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#define-availability-at-the-project-level).
    * **To make only a subset of the hour types available for the user:** Select only the hour types you want to make available.
 
-     In order for the hour types you select at the user level to be available on projects, tasks, and issues, these same hour types must also be selected&nbsp;in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#defining-availability-at-the-project-level).
+     In order for the hour types you select at the user level to be available on projects, tasks, and issues, these same hour types must also be selected&nbsp;in the **Filter Hour Types** option when editing the project, as described in [Define availability at the project level](#define-availability-at-the-project-level).
 
 1. Click **Save Changes**.
 

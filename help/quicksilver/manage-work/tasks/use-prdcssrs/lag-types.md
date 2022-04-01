@@ -46,10 +46,10 @@ You must have the following access to perform the steps in this article:
 
 You can indicate lag types on tasks when you define their predecessor relationships.
 
-* [Indicate Lag Types in the Predecessors section of a task](#lag-in-predecessors-tab) 
-* [Indicate Lag Types in a task list](#add-lags-in-task-list)
+* [Indicate Lag Types in the Predecessors section of a task](#indicate-lag-types-in-the-predecessors-section-of-a-task) 
+* [Indicate Lag Types in a task list](#indicate-lag-types-in-a-task-list)
 
-### Indicate Lag Types in the Predecessors section of a task
+### Indicate Lag Types in the Predecessors section of a task {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Go to a task for which you want to define the predecessor and the Lag Type. 
 1. Click **Predecessors** in the left panel. You might have to click **Show More**, and then **Predecessors**. 
@@ -69,11 +69,11 @@ You can indicate lag types on tasks when you define their predecessor relationsh
    * **Day of the Week**
    * **Day of the Week (Non-Zero)**
 
-     For more information about these Lag Types and how they are calculated, see the section [Lag Types overview](#understanding-lag-types) in this article.
+     For more information about these Lag Types and how they are calculated, see the section [Lag Types overview](#lag-types-overview) in this article.
 
 1. Click **Save**.
 
-### Indicate Lag Types in a task list
+### Indicate Lag Types in a task list  {#indicate-lag-types-in-a-task-list}
 
 1. Go to a task list, and select the **Standard** View from the **View** drop-down menu.
 
@@ -90,13 +90,13 @@ You can indicate lag types on tasks when you define their predecessor relationsh
    * the amount of the lag
    * the abbreviation for the Lag Type you want to use.
 
-     For more information about the abbreviations for Lag Types, see the section [Lag Types overview](#understanding-lag-types) in this article.
+     For more information about the abbreviations for Lag Types, see the section [Lag Types overview](#lag-types-overview) in this article.
 
    For example, to indicate that a task has a predecessor and a positive lag of 2 days, you would enter "1fs+2d" in the Predecessors column. 
 
 1. Click Enter on your keyboard to save the changes to your task.
 
-## Lag Types overview
+## Lag Types overview {#lag-types-overview}
 
 An example of a task that would require a lag time might be sawing trees into lumber. If the freshly-cut wood must dry for a time before it can be cut, then there would be a lag time between cutting the trees and sawing them into lumber.
 

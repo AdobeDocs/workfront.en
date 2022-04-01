@@ -78,10 +78,10 @@ You must have the following access to perform the steps in this article:
 
 ## Understand Agile projects
 
-* [Agile functionality in a project](#agile-functionality-available-in-a-project) 
-* [Differences when using the Agile view on a project versus on an iteration](#differen)
+* [Agile functionality in a project](#agile-functionality-in-a-project) 
+* [Differences when using the Agile view on a project versus on an iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
 
-### Agile functionality in a project
+### Agile functionality in a project {#agile-functionality-in-a-project}
 
 The following agile functionality is available when managing a project in an agile view:
 
@@ -91,18 +91,18 @@ The following agile functionality is available when managing a project in an agi
 * Story board  
   For more detailed information about the story board, see the [Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) section.
 
-There are some differences when using agile views on a project versus working in a pure agile environment (with backlogs and iterations). For more information, see [Differences when using the Agile view on a project versus on an iteration](#differen) in this article.
+There are some differences when using agile views on a project versus working in a pure agile environment (with backlogs and iterations). For more information, see [Differences when using the Agile view on a project versus on an iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) in this article.
 
-### Differences when using the Agile view&nbsp;on&nbsp;a project versus on an iteration
+### Differences when using the Agile view&nbsp;on&nbsp;a project versus on an iteration {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [Tasks and subtasks follow different display rules on the Story Board](#tasks-and-subtasks-are-displayed-in-a-more-consistent-way) 
+* [Tasks and subtasks follow different display rules on the Story Board](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board) 
 * [Backlogs and iterations are not used](#backlogs-and-iterations-are-not-used) 
 * [Task order is maintained in the Agile view and cannot be reordered](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered) 
-* [Tasks are measured only in Planned Hours](#tasks-are-measured-only-in-hours) 
+* [Tasks are measured only in Planned Hours](#tasks-are-measured-only-in-planned-hours) 
 * [The Agile Team is not used](#the-agile-team-is-not-used) 
 * [Each user on the project can view the project in a different Agile view](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### **Tasks and subtasks follow different display rules on the Story Board**
+#### **Tasks and subtasks follow different display rules on the Story Board** {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
 * Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board.   
   For example, these tasks appear as follows in the project list view:   
@@ -122,32 +122,32 @@ There are some differences when using agile views on a project versus working in
 * Second-level subtasks (subtasks of subtasks) are displayed as a hanging gray card off the immediate parent task.
 * Third-level subtasks (subtasks of subtasks of subtasks) are never displayed on the story board.
 
-#### **Backlogs and iterations are not used**
+#### **Backlogs and iterations are not used** {#backlogs-and-iterations-are-not-used}
 
 When viewing a project in an agile view, the following agile components are not used:
 
 * **Backlog:** No backlog is used because any tasks in the project are automatically displayed as stories.
 * **Iterations:** Rather than creating iterations to define the dates when work will be accomplished, the days currently designated on the project timeline become the working days.
 
-#### **Task order is maintained in the Agile view and cannot be reordered**
+#### **Task order is maintained in the Agile view and cannot be reordered** {#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered}
 
 The order in which&nbsp;tasks appear in a project is maintained when you view the project in an agile story board.
 
 You cannot reaorder tasks in the project when viewing the project in an agile view. Because modifying the task order can&nbsp;affect other tasks that might have dependencies, you must view the project in a standard&nbsp;view in order to modify task order.
 
-#### **Tasks are measured only in Planned Hours**
+#### **Tasks are measured only in Planned Hours** {#tasks-are-measured-only-in-planned-hours}
 
 Tasks on a project are always measured in Planned Hours.
 
 In an iteration, tasks (stories) can be measured in hours or points.
 
-#### **The Agile Team is not used**
+#### **The Agile Team is not used** {#the-agile-team-is-not-used}
 
 Because agile teams complete the work on iterations that are assigned to them, agile teams are not used when viewing a project in an agile view.
 
 Instead, any users on the project essentially become&nbsp;the agile team for that project.
 
-#### **Each user on the project can view the project in a different Agile view**
+#### **Each user on the project can view the project in a different Agile view** {#each-user-on-the-project-can-view-the-project-in-a-different-agile-view}
 
 Unlike an agile iteration, users on a project can customize the agile view for themselves, while other users use a different agile view.
 
@@ -167,7 +167,7 @@ For information about how to customize an agile view, see&nbsp; [Create or custo
    Click the **View** drop-down menu, then click&nbsp;the custom agile view you want to view.  
   
    The custom agile view is used the next time you click the **Agile** icon.  
-   For information about how to create a new agile view, see [Create and customize Agile views](#creating-a-new-agile-view).  
+   For information about how to create a new agile view, see [Create and customize Agile views](#create-and-customize-agile-views).  
    The project is displayed in the custom&nbsp;agile view.
 
 1. (Conditional) If tasks in your project are using statuses other than "New," "In Progress," or "Complete" (the default statuses for the Agile view), you must add the additional statuses to the agile view for any tasks in those statuses to be displayed.  
@@ -177,7 +177,7 @@ For information about how to customize an agile view, see&nbsp; [Create or custo
 1. (Optional) To return to the list view, click the **List** icon.  
    ![](assets/list-icon.png)
 
-## Create and customize Agile views
+## Create and customize Agile views {#create-and-customize-agile-views}
 
 As with standard views in Workfront, you can customize existing agile Views or create new agile Views from scratch. Unlike standard views, you cannot create new agile Views based on existing agile Views.
 

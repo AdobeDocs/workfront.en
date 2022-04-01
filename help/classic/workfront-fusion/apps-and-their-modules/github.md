@@ -72,15 +72,15 @@ If you see the map button above a field or function, you can use it to set varia
 * [Triggers](#triggers) 
 * [Actions](#actions)
 
-### Triggers
+### Triggers {#triggers}
 
-* [Watch Issues](#watch) 
-* [Watch Repositories](#watch5) 
-* [Watch Forks](#watch2) 
-* [Watch Comments](#watch3) 
-* [Watch Pull Requests](#watch4)
+* [Watch Issues](#watch-issues) 
+* [Watch Repositories](#watch-repositories) 
+* [Watch Forks](#watch-forks) 
+* [Watch Comments](#watch-comments) 
+* [Watch Pull Requests](#watch-pull-requests)
 
-#### Watch Issues
+#### Watch Issues {#watch-issues}
 
 This module triggers when a new issue is added or an existing issue is modified.
 
@@ -130,7 +130,7 @@ This module triggers when a new issue is added or an existing issue is modified.
  </tbody> 
 </table>
 
-#### Watch Repositories
+#### Watch Repositories {#watch-repositories}
 
 This module triggers when a repository is created or modified.
 
@@ -153,7 +153,7 @@ This module triggers when a repository is created or modified.
  </tbody> 
 </table>
 
-#### Watch Forks
+#### Watch Forks {#watch-forks}
 
 This module triggers when a new fork is created.
 
@@ -176,7 +176,7 @@ This module triggers when a new fork is created.
  </tbody> 
 </table>
 
-#### Watch Comments
+#### Watch Comments {#watch-comments}
 
 This module triggers when a new comment is added or an existing comment is modified.
 
@@ -207,7 +207,7 @@ This module triggers when a new comment is added or an existing comment is modif
  </tbody> 
 </table>
 
-#### Watch Pull Requests
+#### Watch Pull Requests {#watch-pull-requests}
 
 This module triggers when a new pull request is added or an existing pull request is modified.
 
@@ -238,20 +238,20 @@ This module triggers when a new pull request is added or an existing pull reques
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Search for an issue](#searchin) 
-* [Create an issue](#create) 
-* [Update an issue](#update) 
-* [Get an issue](#get2) 
-* [Add assignees](#add) 
-* [Remove assignees](#remove) 
-* [Add labels to an issue](#add2) 
-* [Remove a label from an issue](#remove2) 
-* [Create a comment](#create2) 
-* [List comments](#list)
+* [Search for an issue](#search-for-an-issue) 
+* [Create an issue](#create-an-issue) 
+* [Update an issue](#update-an-issue) 
+* [Get an issue](#get-an-issue) 
+* [Add assignees](#add-assignees) 
+* [Remove assignees](#remove-assignees) 
+* [Add labels to an issue](#add-labels-to-an-issue) 
+* [Remove a label from an issue](#remove-a-label-from-an-issue) 
+* [Create a comment](#create-a-comment) 
+* [List comments](#list-comments)
 
-#### Search for an issue
+#### Search for an issue {#search-for-an-issue}
 
 This module searches for issues that match your search criteria.
 
@@ -288,7 +288,7 @@ This module searches for issues that match your search criteria.
  </tbody> 
 </table>
 
-#### Create an issue
+#### Create an issue {#create-an-issue}
 
 This module creates a new issue in the selected repository.
 
@@ -327,7 +327,7 @@ This module creates a new issue in the selected repository.
  </tbody> 
 </table>
 
-#### Update an issue
+#### Update an issue {#update-an-issue}
 
 This module updates an existing GitHub issue.
 
@@ -374,7 +374,7 @@ This module updates an existing GitHub issue.
  </tbody> 
 </table>
 
-#### Get an issue
+#### Get an issue {#get-an-issue}
 
 This module retrieves details about the specified issue
 
@@ -397,7 +397,7 @@ This module retrieves details about the specified issue
  </tbody> 
 </table>
 
-#### Add assignees
+#### Add assignees {#add-assignees}
 
 This module adds assignees to the specified issue
 
@@ -424,7 +424,7 @@ This module adds assignees to the specified issue
  </tbody> 
 </table>
 
-#### Remove assignees
+#### Remove assignees {#remove-assignees}
 
 This module removes assignees from the specified issue.
 
@@ -451,7 +451,7 @@ This module removes assignees from the specified issue.
  </tbody> 
 </table>
 
-#### Add labels to an issue
+#### Add labels to an issue {#add-labels-to-an-issue}
 
 This module adds labels to an issue. Labels are defined on the repository level, and can only be created by someone with write access to the repository.
 
@@ -478,7 +478,7 @@ This module adds labels to an issue. Labels are defined on the repository level,
  </tbody> 
 </table>
 
-#### Remove a label from an issue
+#### Remove a label from an issue {#remove-a-label-from-an-issue}
 
 This module removes a single label from an issue.
 
@@ -505,7 +505,7 @@ This module removes a single label from an issue.
  </tbody> 
 </table>
 
-#### Create a comment
+#### Create a comment {#create-a-comment}
 
 This module creates a comment on the specified issue.
 
@@ -532,7 +532,7 @@ This module creates a comment on the specified issue.
  </tbody> 
 </table>
 
-#### List comments
+#### List comments {#list-comments}
 
 This module lists all comments on the specified issue.
 

@@ -6,7 +6,7 @@ title: Use Adobe Workfront for Adobe Creative Cloud with Workfront Library
 description: You must purchase a Workfront Library license to be able to access Workfront Library from the Workfront for Adobe Creative Cloud extension.
 ---
 
-# Use Adobe Workfront for Adobe Creative Cloud with Workfront Library
+# Use Adobe Workfront for Adobe Creative Cloud with Workfront Library {#use-adobe-workfront-for-adobe-creative-cloud-with-workfront-library}
 
 You must purchase a Workfront Library license to be able to access Workfront Library from the Workfront for Adobe Creative Cloud extension.
 
@@ -22,9 +22,9 @@ After you have purchased a license for Workfront Library, you can access and edi
 
 You can do the following in&nbsp;Workfront Libraryusing the Workfront for Adobe Creative Cloud extension:
 
-* [Access Workfront Library Content from Adobe Creative Cloud applications](#top)
+* [Access Workfront Library Content from Adobe Creative Cloud applications](#use-adobe-workfront-for-adobe-creative-cloud-with-workfront-library)
 
-## Access Workfront Library content from Adobe Creative Cloud applications
+## Access Workfront Library content from Adobe Creative Cloud applications {#access-workfront-library-content-from-adobe-creative-cloud-applications}
 
 Consider the following when accessing Workfront Library content from the Workfront for Adobe Creative Cloud extension:
 
@@ -195,7 +195,7 @@ To accessWorkfront Library folders and single items from the Workfront extension
    -->
 
    <!--
-   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Access the <strong>Library</strong> tab in the Workfront for Adobe Creative Cloud extension.</p> <p>For information about accessing the Library, see <a href="#access">Access Workfront Library assets from Adobe Creative Cloud applications</a>.</p> </li>
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Access the <strong>Library</strong> tab in the Workfront for Adobe Creative Cloud extension.</p> <p>For information about accessing the Library, see <a href="#access-workfront-library-content-from-adobe-creative-cloud-applications">Access Workfront Library assets from Adobe Creative Cloud applications</a>.</p> </li>
    -->
 
    <!--

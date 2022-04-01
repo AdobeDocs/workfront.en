@@ -34,7 +34,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-## Create a scorecard
+## Create a scorecard {#create-a-scorecard}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -114,7 +114,7 @@ You must have the following to perform the steps in this article:
 ## Apply a scorecard to a project
 
 A user with manage permissions to a project can apply a scorecard to a project, after the scorecard has been created by the Workfront administrator.  
-For more information about&nbsp;creating scorecards, see [Create a scorecard](#creating-a-scorecard).  
+For more information about&nbsp;creating scorecards, see [Create a scorecard](#create-a-scorecard).  
 For more information about project permissions, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
 A scorecard is added to a project as part of creating a business case for the project. For more information about&nbsp;adding a scorecard to a project, see [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).

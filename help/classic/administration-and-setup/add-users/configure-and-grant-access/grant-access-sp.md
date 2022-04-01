@@ -30,15 +30,15 @@ For information about what users in each access level can do with the Scenario P
 
 The following information can help you understand how to use the Access level settings to control users' access to information in the Workfront Scenario Planner.
 
-* [No access](#no) 
-* [View access](#view) 
-* [Edit access](#edit)
+* [No access](#no-access) 
+* [View access](#view-access) 
+* [Edit access](#edit-access)
 
-### No access
+### No access {#no-access}
 
 A user with no access to Scenario Planner can neither see the Scenarios icon in the Main Menu when it is added to their layout template, nor view plans and initiatives that are shared with them. If the link to a plan is shared with a user who has no access to Scenario Planner, the user cannot view or edit the plan.
 
-### View access
+### View access {#view-access}
 
 Users with View access to Scenario Planner can do the following:
 
@@ -49,7 +49,7 @@ Users with View access to Scenario Planner can do the following:
 
   It also includes job role rates and cost information on the plan if the recipient user also has access to financial data. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-### Edit access
+### Edit access {#edit-access}
 
 Users with Edit access to Scenario Planner can do the following:
 

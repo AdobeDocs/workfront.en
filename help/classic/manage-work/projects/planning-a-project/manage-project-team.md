@@ -49,10 +49,10 @@ When you add users to the project team, they gain permissions on the project and
 
 You can add users to the project team in the following ways:
 
-* [Automatically add users to a Project Team](#automatically-adding-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-adding-users-to-a-project-team)
+* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
+* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team
+### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
 
 The users that fulfill the following roles on the project are automatically added to the project team and appear on the People subtab when the project is created:
 
@@ -65,7 +65,7 @@ Users are also automatically added to the project team when they are assigned to
 * Users assigned to tasks on the project
 * Users assigned to issues on the project
 
-### Manually add users to a Project Team
+### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
 
 You can manually add users to a project team by using the Team Scheduling tab.
 

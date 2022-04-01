@@ -58,11 +58,11 @@ After the approval delegation stops or is canceled, the user designated as the a
 
 ## Delegate approval requests in the Home area
 
-* [Delegate your approvals to another user](#delegating-your-approvals-to-another-user-home) 
-* [Update or stop an approval delegation](#updating-or-stopping-an-approval-delegation-home) 
-* [View delegated approvals](#viewing-delegated-approvals-home)
+* [Delegate your approvals to another user](#delegate-your-approvals-to-another-user) 
+* [Update or stop an approval delegation](#update-or-stop-an-approval-delegation) 
+* [View delegated approvals](#view-delegated-approvals)
 
-### Delegate your approvals to another user
+### Delegate your approvals to another user {#delegate-your-approvals-to-another-user}
 
 You can delegate the following types of approvals, regardless of how&nbsp;the approval was assigned to you (whether assigned directly to you, to a team you are a member of, or to your job role):
 
@@ -99,7 +99,7 @@ To delegate approvals to another user:
 
 1. Click **Save**.
 
-### Update or stop an approval delegation
+### Update or stop an approval delegation {#update-or-stop-an-approval-delegation}
 
 1. Go to&nbsp;**Home**&nbsp;in the Global Navigation Bar.
 1. Click the **Filter** drop-down menu, then click **Approvals**.
@@ -112,7 +112,7 @@ To delegate approvals to another user:
    * **To stop the existing delegation:** Click **Stop Delegation**, then click **Confirm**.  
      ![Stop Delegation](assets/stop-delegation-350x373.png)
 
-### View delegated approvals
+### View delegated approvals {#view-delegated-approvals}
 
 You can view only the following types of approval delegations in the Work List:
 
@@ -129,11 +129,11 @@ To view delegated approvals:
 
 ## Delegate approval requests in the My Work area
 
-* [Delegate your approvals to another user](#delegating-your-approvals-to-another-user-mywork) 
-* [Update or Stop an approval delegation](#updating-or-stopping-an-approval-delegation-mywork) 
-* [View delegated approvals](#viewing-delegated-approvals-mywork)
+* [Delegate your approvals to another user](#delegate-your-approvals-to-another-user) 
+* [Update or Stop an approval delegation](#update-or-stop-an-approval-delegation) 
+* [View delegated approvals](#view-delegated-approvals)
 
-### Delegate your approvals to another user
+### Delegate your approvals to another user {#delegate-your-approvals-to-another-user-1}
 
 You can delegate the following types of approvals, regardless of how&nbsp;the approval was assigned to you (whether assigned directly to you, to a team you are a member of, or to your job role):
 
@@ -171,7 +171,7 @@ To delegate approvals to another user:
 
 1. Click **Save**.
 
-### Update or Stop an approval delegation
+### Update or Stop an approval delegation {#update-or-stop-an-approval-delegation-1}
 
 1. Go to **My Work** in the Global Navigation Bar.
 1. Click the **Approvals** > **My** **Approvals**.  
@@ -187,7 +187,7 @@ To delegate approvals to another user:
    * **To stop the existing delegation:** Click **Stop Delegation**, then click **Stop Delegation** again to confirm that you want the delegation to stop and to recall all existing delegations.  
      ![Stop_delegation_-_my_work.png](assets/stop-delegation---my-work-350x238.png)
 
-### View delegated approvals
+### View delegated approvals {#view-delegated-approvals-1}
 
 You can view only the following types of approvals:
 

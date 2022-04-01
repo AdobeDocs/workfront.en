@@ -84,7 +84,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    * [Assignments](#assignments)
    * [Comment](#comment)
 
-### Overview
+### Overview {#overview}
 
 1. Begin editing an issue as described above.
 1. Click **Overview**.
@@ -182,7 +182,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Click **Save Changes** or continue editing the following sections.
 
-### Settings
+### Settings {#settings}
 
 1. Begin editing an issue as described above.
 1. Click **Settings**.
@@ -224,7 +224,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Click **Save Changes** or continue editing the following sections.
 
-### Custom Forms
+### Custom Forms {#custom-forms}
 
 1. Begin editing an issue as described above.
 1. Click **Custom Forms**.
@@ -240,7 +240,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Click **Save Changes** or continue editing the following sections.
 
-### Assignments
+### Assignments {#assignments}
 
 1. Begin editing an issue as described above.
 1. Click **Assignments**.
@@ -262,7 +262,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Click **Save Changes** or continue editing the following section.
 
-### Comment
+### Comment {#comment}
 
 1. Begin editing an issue as described above.
 1. Click **Comment**.

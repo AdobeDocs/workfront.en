@@ -37,7 +37,7 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Access to custom forms
+## Access to custom forms {#access-to-custom-forms}
 
 By default, when you create a new custom form and someone attaches it to an object, any user assigned to the object can view and fill out the form. This includes users with Request licenses and external users.
 
@@ -48,7 +48,7 @@ However, on an object where the custom form is not already attached, a user (eve
 
 ## Share a custom form
 
-Rather than leaving a custom form in the default sharing state (described in [Access to custom forms](#access) in this article), you can configure specific levels of access to the form for certain users, job roles, groups, teams, and companies.
+Rather than leaving a custom form in the default sharing state (described in [Access to custom forms](#access-to-custom-forms) in this article), you can configure specific levels of access to the form for certain users, job roles, groups, teams, and companies.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

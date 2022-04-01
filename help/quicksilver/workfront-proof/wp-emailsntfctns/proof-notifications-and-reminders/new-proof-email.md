@@ -69,7 +69,7 @@ You can specify whether you want to send an email alert to the reviewers on a pr
 * [When you create a proof](#when-you-create-a-proof) 
 * [When you add a reviewer to a proof](#when-you-add-a-reviewer-to-a-proof)
 
-### When you create a proof
+### When you create a proof {#when-you-create-a-proof}
 
 When you are creating a new proof in the New proof page, under the **Share** section, you can select whether to send email alerts:
 
@@ -86,7 +86,7 @@ When you are creating a new proof in the New proof page, under the **Share** sec
 
 ![New_Proof_page_2.png](assets/new-proof-page-2-350x283.png)
 
-### When you add a reviewer to a proof
+### When you add a reviewer to a proof {#when-you-add-a-reviewer-to-a-proof}
 
 You can select if a new reviewer added to an existing proof will be notified of the proof (similar to above).
 

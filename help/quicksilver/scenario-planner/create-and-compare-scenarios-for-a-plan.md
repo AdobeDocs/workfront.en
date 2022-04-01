@@ -44,7 +44,7 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Create scenarios
+## Create scenarios {#create-scenarios}
 
 A scenario is a copy of a plan. You can create as many scenarios as you need. However, we recommend that you keep the number of scenarios to a minimum so that you can easily compare them.
 
@@ -121,7 +121,7 @@ After creating your scenarios, you can compare them to find the best one for you
 
 1. Click the name of a scenario to access it and make changes to it.
 
-   For more information, see the [Create scenarios](#create) section in this article.
+   For more information, see the [Create scenarios](#create-scenarios) section in this article.
 
 1. Click **Add description** to add a description for the scenario
 

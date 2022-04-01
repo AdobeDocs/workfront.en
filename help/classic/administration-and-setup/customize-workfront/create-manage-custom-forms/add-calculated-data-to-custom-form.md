@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Add a calculated field to a custom form
+## Add a calculated field to a custom form {#add-a-calculated-field-to-a-custom-form}
 
 >[!IMPORTANT]
 >
@@ -71,7 +71,7 @@ You must have the following to perform the steps in this article:
       <td> <p>By default, the formula you create for the field is stored here. You can add text to provide additional information about the field and the formula in it. This can be useful in 2 ways:</p> 
        <ul> 
         <li> <p>You can use it as a reminder of what the formula is and how it works. This can be especially helpful if you plan to use this calculated custom field on multiple forms.</p> </li> 
-        <li> <p>When users fill out the custom form, they can hover over the field to display the text stored here in a tooltip. You add any text here that you want them to see in the tooltip.</p> <p>Tip: If you don't want them to see the formula in the tooltip, which might be confusing for them, you can hide it. For instructions, see the table row "Display formula in instructions" in the section <a href="#build" class="MCXref xref">Build the calculation for your calculated custom field</a> in this article."</p> </li> 
+        <li> <p>When users fill out the custom form, they can hover over the field to display the text stored here in a tooltip. You add any text here that you want them to see in the tooltip.</p> <p>Tip: If you don't want them to see the formula in the tooltip, which might be confusing for them, you can hide it. For instructions, see the table row "Display formula in instructions" in the section <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">Build the calculation for your calculated custom field</a> in this article."</p> </li> 
        </ul> <p>For information about using the same calculated custom field on a new form, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Using an existing calculated custom field on a new custom form</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -81,11 +81,11 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Continue on to [Build the calculation for your calculated custom field](#build) in this article.
+1. Continue on to [Build the calculation for your calculated custom field](#build-the-calculation-for-your-calculated-custom-field) in this article.
 
-## Build the calculation for your calculated custom field
+## Build the calculation for your calculated custom field {#build-the-calculation-for-your-calculated-custom-field}
 
-1. Start creating the calculated custom field, as explained in the section [Add a calculated field to a custom form](#creating-calculated-custom-fields) in this article.
+1. Start creating the calculated custom field, as explained in the section [Add a calculated field to a custom form](#add-a-calculated-field-to-a-custom-form) in this article.
 1. (Optional) Use any of the following options to configure your calculated custom field:
 
    <table cellspacing="0"> 

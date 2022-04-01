@@ -33,7 +33,7 @@ To successfully use resource scheduling functionality in Workfront, you must fir
 * [Project prerequisites](#project-prerequisites) 
 * [Task and issue prerequisites](#task-and-issue-prerequisites)
 
-### User prerequisites
+### User prerequisites {#user-prerequisites}
 
 You can use the resource scheduling tools available from either the Scheduling tab, from the Staffing tab, or from the Working On tab when each of the following conditions are met:
 
@@ -67,7 +67,7 @@ By default, assignments can be made only to users who have a role defined on the
 * You are a member of the team  
   All members of the team are displayed on the scheduling timeline. Tasks and issues that are assigned to the team and not assigned to a user are displayed in the Unassigned area. Task and issues that are assigned to the team and to a user on the team are displayed in the row of the user to whom they are assigned.
 
-### Project prerequisites
+### Project prerequisites {#project-prerequisites}
 
 The project prerequisites described in this section apply only when scheduling resources as the resource manager from the scheduling timeline.
 
@@ -75,7 +75,7 @@ The projects you are managing must be in one of the following statuses (or a sta
 
 For more information about project statuses, see the article [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-### Task and issue prerequisites
+### Task and issue prerequisites {#task-and-issue-prerequisites}
 
 In order to be most effective when using the resource scheduling tools in Workfront, ensure that tasks and issues in your system have the following criteria defined:
 
@@ -92,12 +92,12 @@ In order to be most effective when using the resource scheduling tools in Workfr
 
 ## View information in the Scheduling areas
 
-* [Locate and view information in the Scheduling areas](#viewing-the-scheduling-timeline-in-full-screen-mode) 
-* [View resource assignments and details](#viewing-resource-assingments-and-detials) 
-* [Minimize tasks and issues on the Scheduling areas](#minimizing-tasks-and-issues-on-the-scheduling-timeline) 
-* [Adjust the date range of the Scheduling areas](#adjusting-the-date-range-for-which-data-is-displayed)
+* [Locate and view information in the Scheduling areas](#locate-and-view-information-in-the-scheduling-areas) 
+* [View resource assignments and details](#view-resource-assignments-and-details) 
+* [Minimize tasks and issues on the Scheduling areas](#minimize-tasks-and-issues-on-the-scheduling-areas) 
+* [Adjust the date range of the Scheduling areas](#adjust-the-date-range-of-the-scheduling-areas)
 
-### Locate and view information in the Scheduling areas
+### Locate and view information in the Scheduling areas {#locate-and-view-information-in-the-scheduling-areas}
 
 Depending on where you want to schedule resources, you can access the Scheduling timeline in the following areas of Workfront:
 
@@ -120,7 +120,7 @@ Depending on where you want to schedule resources, you can access the Scheduling
    * Click the **Full-Screen** icon.
    * Press the Esc key.
 
-### View resource assignments and details
+### View resource assignments and details {#view-resource-assignments-and-details}
 
 You can view the current resourcing assignments and other details about individual tasks and issues on the scheduling timeline.
 
@@ -141,7 +141,7 @@ You can view the current resourcing assignments and other details about individu
    Team assignments are not displayed.  
    If you have Contribute access to the task or issue, you can modify the hours for which users are allocated on each day within the task or issue duration. For more information about modifying user allocations, see the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
-### Minimize tasks and issues on the Scheduling areas
+### Minimize tasks and issues on the Scheduling areas {#minimize-tasks-and-issues-on-the-scheduling-areas}
 
 Minimizing tasks and issues allows you to view user assignments for a large number of users on a single screen.  
 All tasks and issues on the scheduling timeline are minimized by default.
@@ -166,11 +166,11 @@ When you minimize tasks and issues as described in this section, those changes a
 
 On the scheduling timeline, you can minimize tasks and issues that are displayed for individual users, for job roles, or for all users.
 
-* [Minimize tasks and issues for individual users](#minimizing-tasks-and-issues-for-individual-users) 
-* [Minimize tasks and issues for a job role](#minimizing-tasks-and-issues-for-a-job-role) 
-* [Minimize tasks and issues for all users](#minimizing-tasks-and-issues-for-all-users)
+* [Minimize tasks and issues for individual users](#minimize-tasks-and-issues-for-individual-users) 
+* [Minimize tasks and issues for a job role](#minimize-tasks-and-issues-for-a-job-role) 
+* [Minimize tasks and issues for all users](#minimize-tasks-and-issues-for-all-users)
 
-#### Minimize tasks and issues for individual users
+#### Minimize tasks and issues for individual users {#minimize-tasks-and-issues-for-individual-users}
 
 1. Click the caret next to the user on the scheduling timeline whose tasks and issues you want to minimize.  
    ![scheduling_minimize_user.png](assets/scheduling-minimize-user-350x137.png)  
@@ -186,7 +186,7 @@ On the scheduling timeline, you can minimize tasks and issues that are displayed
    * If you enable the **Show Totals for Daily Planned Hours** tasks and issues for the user are minimized.  
      ![RS_user_collapsed__1_.png](assets/rs-user-collapsed--1--350x152.png)
 
-#### Minimize tasks and issues for a job role
+#### Minimize tasks and issues for a job role {#minimize-tasks-and-issues-for-a-job-role}
 
 You can minimize tasks and issues for all users that are associated with a specific job role.
 
@@ -196,7 +196,7 @@ You can minimize tasks and issues for all users that are associated with a speci
    Tasks and issues are hidden and only the Planned Hours for the users display if you enable this setting.  
    ![RS_role_collapsed__1_.png](assets/rs-role-collapsed--1--350x125.png)
 
-#### Minimize tasks and issues for all users
+#### Minimize tasks and issues for all users {#minimize-tasks-and-issues-for-all-users}
 
 1. Click **Collapse All** at the top of the Users and Roles area.  
    ![resourcescheduling_collapseall.png](assets/resourcescheduling-collapseall-350x261.png)  
@@ -207,7 +207,7 @@ You can minimize tasks and issues for all users that are associated with a speci
    If the **Show Totals for Daily Planned Hours** is enabled only the Planned Hours for the users display. Tasks and issues remain minimized for the Unassigned area.   
    ![RS_all_collapsed___1_.png](assets/rs-all-collapsed---1--350x102.png)
 
-### Adjust the date range of the Scheduling areas
+### Adjust the date range of the Scheduling areas {#adjust-the-date-range-of-the-scheduling-areas}
 
 By default, 14 consecutive days (including weekends) are displayed on the scheduling timeline, beginning with the current day.
 
@@ -255,16 +255,16 @@ For more information, see the article [Filter information in the Scheduling area
 
 ## Modify user assignments and allocations
 
-* [Modify user assignments](#modifying-user-assignments) 
-* [Modify user allocations](#modifying-user-allocations-contouring)
+* [Modify user assignments](#modify-user-assignments) 
+* [Modify user allocations](#modify-user-allocations)
 
-### Modify user assignments
+### Modify user assignments {#modify-user-assignments}
 
 You can modify user assignments from the Scheduling tab (when scheduling resources for projects) either by using the swap tool or by modifying tasks and issues directly from the scheduling timeline. You can modify user assignments from the Working On tab (when scheduling resources for teams) by modifying tasks and issues directly from the scheduling timeline.
 
 For more information, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-### Modify user allocations
+### Modify user allocations {#modify-user-allocations}
 
 You can determine how the Planned Hours for a task or issue are allocated to users. Planned Hours can be divided in the following ways:
 

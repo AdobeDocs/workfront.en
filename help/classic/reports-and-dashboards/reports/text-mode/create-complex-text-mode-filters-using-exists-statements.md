@@ -36,9 +36,9 @@ For information about how to navigate the API Explorer and find objects, see [Us
 
 When building filters, you must build complex statements in the text-mode interface to reference these types of objects.
 
-For information about building complex filters, see the [Overview of Complex Text-Mode Filters that Use EXISTS Statements](#exists-filters) section.
+For information about building complex filters, see the [Overview of Complex Text-Mode Filters that Use EXISTS Statements](#overview-of-complex-text-mode-filters-that-use-exists-statements) section.
 
-## Overview of complex text mode filters that use EXISTS statements
+## Overview of complex text mode filters that use EXISTS statements {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
 Consider the following when creating filters that span multiple levels in the object hierarchy or filter for missing objects:
 
@@ -68,7 +68,7 @@ Consider the following rules when using EXISTS statements in a filter:
 
 * When a Linking Object is missing because the Original and the Target Objects are connected to each other directly, you can use the Object Code of the Target Object instead of the Linking Object.  
 * You can refer to multiple fields (Target Fields) on the same object (Target Object) in which case you must connect the lines that are referring to the fields by AND.  
-  For an example of filtering for more than one field that belongs to the Target Object, see the [Example 4: Filter by multiple fields: tasks by Portfolio Owner Name and Portfolio Alignment Scorecard ID](#example-4) section in this article.
+  For an example of filtering for more than one field that belongs to the Target Object, see the [Example 4: Filter by multiple fields: tasks by Portfolio Owner Name and Portfolio Alignment Scorecard ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) section in this article.
 
 * The only modifier supported for an EXISTS statement is NOTEXISTS.
 
@@ -107,7 +107,7 @@ You can build a filter that references objects across multiple levels of the obj
 
 You must always use an EXISTS statement and the text mode interface to build this filter.
 
-For examples of filters, see the [Example 1: Filter for issues by Portfolio Owner Name](#example-1) section in this article.
+For examples of filters, see the [Example 1: Filter for issues by Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) section in this article.
 
 To create a filter that spans over multiple levels in the object hierarchy:
 
@@ -129,7 +129,7 @@ To create a filter that spans over multiple levels in the object hierarchy:
 
 1. Click **Switch to Text Mode**.
 1. Paste the following formula example to the text mode interface of the new filter and replace the suggested text with the correct objects and fields:  
-   <pre>EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field></pre>For an example using the fields we have identified above, see the [Example 1: Filter for issues by Portfolio Owner Name](#example-1) section in this article.
+   <pre>EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field></pre>For an example using the fields we have identified above, see the [Example 1: Filter for issues by Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) section in this article.
 
 1. Click **Save Filter**.
 
@@ -141,8 +141,8 @@ You must always use an *EXISTS* statement and the text mode interface to build t
 
 For examples of filters for missing objects, see the following sections in this article:
 
-* [Example 2: Filter for missing objects: custom fields that do not appear in any custom forms](#example-2) 
-* [Example 3: Filter for missing objects: users who did not log time for a certain period of time](#example-3)
+* [Example 2: Filter for missing objects: custom fields that do not appear in any custom forms](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) 
+* [Example 3: Filter for missing objects: users who did not log time for a certain period of time](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
 
 To create a filter that references missing objects:
 
@@ -171,18 +171,18 @@ To create a filter that references missing objects:
    EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-   For an example of reporting on Custom Fields that are not associated with Custom Forms, see the [Example 2: Filter for missing objects: custom fields that do not appear in any custom forms](#example-2) section in this article.
+   For an example of reporting on Custom Fields that are not associated with Custom Forms, see the [Example 2: Filter for missing objects: custom fields that do not appear in any custom forms](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) section in this article.
 
 1. Click **Save Filter**.
 
 ## Examples of text mode filters that span multiple levels in the object hierarchy
 
-* [Example 1: Filter for issues by Portfolio Owner Name](#example-1) 
-* [Example 2: Filter for missing objects: custom fields that do not appear in any custom forms](#example-2) 
-* [Example 3: Filter for missing objects: users who did not log time for a certain period of time](#example-3) 
-* [Example 4: Filter by multiple fields: tasks by Portfolio Owner Name and Portfolio Alignment Scorecard ID](#example-4)
+* [Example 1: Filter for issues by Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) 
+* [Example 2: Filter for missing objects: custom fields that do not appear in any custom forms](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) 
+* [Example 3: Filter for missing objects: users who did not log time for a certain period of time](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time) 
+* [Example 4: Filter by multiple fields: tasks by Portfolio Owner Name and Portfolio Alignment Scorecard ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
 
-### Example 1: Filter for issues by Portfolio Owner Name
+### Example 1: Filter for issues by Portfolio Owner Name {#example-1-filter-for-issues-by-portfolio-owner-name}
 
 Using the text mode interface, you can build a filter for a list of issues to display only issues that are on projects associated with a portfolio whose owner is a specific user.
 
@@ -222,7 +222,7 @@ To filter issues by the Portfolio Owner Name:
 1. Replace the value of the Target Field (ownerID) in the last statement with a User ID from your environment.
 1. Click **Save Filter**.
 
-### Example 2: Filter for missing objects: custom fields that do not appear in any custom forms
+### Example 2: Filter for missing objects: custom fields that do not appear in any custom forms {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
 Using the text mode interface, you can build a filter to view Custom Fields (Parameters) that are not associated with Custom Forms (Categories). This filter links Parameters to Categories, which are connected through another object, Category Parameter. Because the two fields are not directly connected to one another and because you are filtering for missing information you must use an EXISTS statement.
 
@@ -265,7 +265,7 @@ To filter for Custom Fields that are not associated with a Custom Form:
 
 1. Click **Save Filter**.
 
-### Example 3: Filter for missing objects: users who did not log time for a certain period of time
+### Example 3: Filter for missing objects: users who did not log time for a certain period of time {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
 Using the text mode interface, you can build a filter to view Users who did not log time for a certain time period. This filter links Users to Hours, which are connected to one another directly. However, you must use an EXISTS statement and the text mode interface to be able to filter for missing information.information.
 
@@ -309,7 +309,7 @@ To filter for users who did not log time during last week:
 
 1. Click **Save Filter**.
 
-### Example 4: Filter by multiple fields: tasks by Portfolio Owner Name and Portfolio Alignment Scorecard ID
+### Example 4: Filter by multiple fields: tasks by Portfolio Owner Name and Portfolio Alignment Scorecard ID {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
 Using the text mode interface, you can build a filter that refers to more than one field on the Target Object. In this case, the filter statements that are referring to the Target Fields must be connected by AND.
 

@@ -13,7 +13,7 @@ description: You can create sub-folders in either of the following ways:
 >
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-## Creating a new top-level folder
+## Creating a new top-level folder {#creating-a-new-top-level-folder}
 
 1. In the sidebar, click the drop-down arrow (1) next to the green **New proof** button.
 1. Select **New folder**.&nbsp;(2)  
@@ -22,18 +22,18 @@ description: You can create sub-folders in either of the following ways:
 1. Continue with [Configuring the new folder](#configuring-the-new-folder).  
    ![New_top_folder.png](assets/new-top-folder.png)
 
-## Creating a new sub-folder
+## Creating a new sub-folder {#creating-a-new-sub-folder}
 
 You can create sub-folders in either of the following ways:
 
-* [Creating a sub-folder from the Folder details page](#creating-a-sub-folder-fromm-the-folder-details-page) 
-* [Creating a sub-folder from the Account folders page](#creating-a-sub-folder-fromm-the-account-folders-page)
+* [Creating a sub-folder from the Folder details page](#creating-a-sub-folder-from-the-folder-details-page) 
+* [Creating a sub-folder from the Account folders page](#creating-a-sub-folder-from-the-account-folders-page)
 
 >[!NOTE]
 >
 >When you create a new sub-folder, the share list is inherited from the parent folder.
 
-### Creating a sub-folder from the Folder details page
+### Creating a sub-folder from the Folder details page {#creating-a-sub-folder-from-the-folder-details-page}
 
 For information about the Folder details page, see [Manage Folders and their Contents in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
@@ -55,7 +55,7 @@ To create a sub-folder from the Folder details page:
 
 ![Creating_a_subfolder_2.png](assets/creating-a-subfolder-2-350x164.png)
 
-### Creating a sub-folder from the Account&nbsp;folders page
+### Creating a sub-folder from the Account&nbsp;folders page {#creating-a-sub-folder-from-the-account-folders-page}
 
 1. Click [Your account name] folders in the Sidebar to access the Account&nbsp;folders page (1)  
    ![Subfolder_from_acc_folders_1.png](assets/subfolder-from-acc-folders-1.png)
@@ -67,7 +67,7 @@ To create a sub-folder from the Folder details page:
 
 ![Subfolder_from_acc_folders_2.png](assets/subfolder-from-acc-folders-2-350x177.png) 
 
-## Configuring the new folder
+## Configuring the new folder {#configuring-the-new-folder}
 
 After you begin creating a new folder (as described in either [Creating a new top-level folder](#creating-a-new-top-level-folder) or [Creating a new sub-folder](#creating-a-new-sub-folder)), you can set the configuration options as described in this section.
 
@@ -78,11 +78,11 @@ After you begin creating a new folder (as described in either [Creating a new to
 
 ![New_folder_page_sections.png](assets/new-folder-page-sections-350x389.png)
 
-### Breadcrumb navigation
+### Breadcrumb navigation {#breadcrumb-navigation}
 
 The breadcrumb navigation shows you if you are creating a top-level folder or a sub-folder) (1)
 
-### Folder details
+### Folder details {#folder-details}
 
 In this section you can add (and check) the following information to the folder you are creating:
 
@@ -93,7 +93,7 @@ In this section you can add (and check) the following information to the folder 
 
 ![New_folder_page_-_folder_details.png](assets/new-folder-page---folder-details-350x133.png)
 
-### Client details
+### Client details {#client-details}
 
 In this section you can fill out the details of your client - this will allow you to sort the My folders page by client/project name:
 
@@ -102,7 +102,7 @@ In this section you can fill out the details of your client - this will allow yo
 
 ![New_folder_page_-_client_details.png](assets/new-folder-page---client-details-350x74.png)
 
-### Share
+### Share {#share}
 
 In the Share section you can:
 

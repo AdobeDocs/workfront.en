@@ -84,7 +84,7 @@ in a custom form
    above or below another one, drag it above or below until a horizontal blue line appears between the items.
 1. If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-   * [Position fields and widgets in a custom form](#add2) 
+   * [Position fields and widgets in a custom form](#Add2) 
    * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
 
      <!--   

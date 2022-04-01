@@ -151,10 +151,10 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    Consider specifying information in any of the following sections:
 
-   * [Task Name](#task) 
+   * [Task Name](#task-name) 
    * [Overview](#overview) 
-   * [Assignments](#assignme) 
-   * [Custom Forms](#custom%c2%a0f) 
+   * [Assignments](#assignments) 
+   * [Custom Forms](#Custom%C2%A0F) 
    * [Finance](#finance) 
    * [Settings](#settings)
 
@@ -162,7 +162,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
    >
    >Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Edit Task box might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-### Task Name
+### Task Name {#task-name}
 
 1. Begin editing your task as described above.
 1. Click **Task Name** in the left panel.
@@ -173,7 +173,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
 1. Click&nbsp;**Save** or continue with the following sections.
 
-### Overview
+### Overview {#overview}
 
 1. Begin editing your task as described above.
 1. Click **Overview** in the left panel.
@@ -296,7 +296,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
 1. Click&nbsp;**Save** or continue with the following sections.
 
-### Assignments
+### Assignments {#assignments}
 
 1. Begin editing your task as described above.
 1. Click&nbsp;**Assignments** in the left panel.
@@ -458,9 +458,9 @@ You can define default custom forms to be automatically attached to tasks when t
 
 1. Click&nbsp;**Save** or continue with the following sections.
 
-### Finance
+### Finance {#finance}
 
-1. Begin editing your task as described in the [Edit tasks](#edit2) section&nbsp;in this article.
+1. Begin editing your task as described in the [Edit tasks](#Edit2) section&nbsp;in this article.
 1. Click&nbsp;**Finance** in the left panel.
 
    ![](assets/nwe-finance-section-edit-task-box-350x298.png)
@@ -501,9 +501,9 @@ You can define default custom forms to be automatically attached to tasks when t
 
 1. Click **Save** or continue with the following section.
 
-### Settings
+### Settings {#settings}
 
-1. Begin editing your task as described in the [Edit tasks](#edit2) section&nbsp;in this article. 
+1. Begin editing your task as described in the [Edit tasks](#Edit2) section&nbsp;in this article. 
 1. Click **Settings** in the left panel.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
@@ -568,7 +568,9 @@ You can edit the following fields in the task header:
 * Assignments
 * Planned Completion Date ```and time```
 
-  ``` ```**Warning: **``````Some Task Constraints and other dependencies might prevent you from editing this field. For information about Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >[!CAUTION]
+  >
+  >Some Task Constraints and other dependencies might prevent you from editing this field. For information about Task Constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Make approval decisions if you are set as the approver in a current approval process

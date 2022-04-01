@@ -91,10 +91,10 @@ You can adjust the amount of space the calendar view occupies in the My Work are
 
 Whether your adjustments are maintained the next time you access the My Work area depends&nbsp;on the method you use to make the adjustment:
 
-* [Adjust the calendar view with drag-and-drop](#adjusting-the-calendar-view-with-drag-and-drop) 
-* [Hide or adjust the calendar view in the settings area](#adjusting-the-calendar-view-in-the-settings-area)
+* [Adjust the calendar view with drag-and-drop](#adjust-the-calendar-view-with-drag-and-drop) 
+* [Hide or adjust the calendar view in the settings area](#hide-or-adjust-the-calendar-view-in-the-settings-area)
 
-### Adjust the calendar view with drag-and-drop
+### Adjust the calendar view with drag-and-drop {#adjust-the-calendar-view-with-drag-and-drop}
 
 You can quickly adjust the size of the calendar view&nbsp;to a precise size. The size you select is not retained&nbsp;the next time you access the My Work area.
 
@@ -102,7 +102,7 @@ You can quickly adjust the size of the calendar view&nbsp;to a precise size. The
 1. Drag the border at the bottom of the calendar up or down until the calendar is the desired height.  
    ![](assets/mywork-calendar-adjustsize-drag-350x162.png)
 
-### Hide or adjust the calendar view in the settings area
+### Hide or adjust the calendar view in the settings area {#hide-or-adjust-the-calendar-view-in-the-settings-area}
 
 You can hide or adjust the size of the calendar view by making changes in the Settings area. Any adjustments you make to the calendar view from the Settings area are retained the next time you access your My Work area.
 
@@ -152,10 +152,10 @@ You must have permissions to make assignments on the task or issue in order to m
 
 For more detailed information about user allocations, see the [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) section in [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
-* [Enable user allocation indicators on the calendar](#enabling-user-allocation-indicators-on-the-calendar) 
-* [Modify user allocations for a task or issue](#modifying-user-allocations-for-a-task-or-issue)
+* [Enable user allocation indicators on the calendar](#enable-user-allocation-indicators-on-the-calendar) 
+* [Modify user allocations for a task or issue](#modify-user-allocations-for-a-task-or-issue)
 
-### Enable user allocation indicators on the calendar
+### Enable user allocation indicators on the calendar {#enable-user-allocation-indicators-on-the-calendar}
 
 By default, user allocations are not displayed in the calendar in the My Work area. To enable user allocation indicators in the calendar in the My Work area:&nbsp;
 
@@ -166,7 +166,7 @@ By default, user allocations are not displayed in the calendar in the My Work ar
 
 1. Click **Save**.
 
-### Modify user allocations for a task or issue
+### Modify user allocations for a task or issue {#modify-user-allocations-for-a-task-or-issue}
 
 To make allocations for a task or issue from the calendar in the My Work area:
 

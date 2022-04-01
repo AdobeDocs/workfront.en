@@ -21,7 +21,7 @@ This new functionality has not been generally&nbsp;released yet, but you can par
 >
 >This beta program has only been made available for the Android platform, at this time.
 
-If you would like to be part of this beta program and have this functionality enabled in your Workfront app on your Android phone, see [Signing Up for the Android Beta Program for Submitting Requests](#signing-up-for-the-android-requests-beta).
+If you would like to be part of this beta program and have this functionality enabled in your Workfront app on your Android phone, see [Signing Up for the Android Beta Program for Submitting Requests](#signing-up-for-the-android-beta-program-for-submitting-requests).
 
 ## Submitting Requests&nbsp;on Android
 
@@ -37,7 +37,7 @@ For a demonstration of how to use this feature, watch the following video:
 
 ```<iframe class="mt-media" src="assets/226008768?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
 
-## Signing Up for the Android Beta Program for Submitting Requests
+## Signing Up for the Android Beta Program for Submitting Requests {#signing-up-for-the-android-beta-program-for-submitting-requests}
 
 If you would like to join the beta testing and experience our new features, please download&nbsp;the Workfront Beta app from Google Play and start testing.&nbsp;
 

@@ -54,15 +54,15 @@ For specific release dates and times for each cluster, see the
 
 ## Adobe Workfront enhancements
 
-* [Administrator enhancements](#administ) 
-* [Resource Management enhancements](#resource) 
-* [Project Management enhancements](#project) 
-* [Enhanced analytics improvements](#improve) 
-* [Integration enhancements](#integrat) 
-* [Mobile enhancements](#mobile) 
-* [Other enhancements](#other)
+* [Administrator enhancements](#administrator-enhancements) 
+* [Resource Management enhancements](#resource-management-enhancements) 
+* [Project Management enhancements](#project-management-enhancements) 
+* [Enhanced analytics improvements](#enhanced-analytics-improvements) 
+* [Integration enhancements](#integration-enhancements) 
+* [Mobile enhancements](#mobile-enhancements) 
+* [Other enhancements](#other-enhancements)
 
-### Administrator enhancements
+### Administrator enhancements {#administrator-enhancements}
 
 <table> 
  <col> 
@@ -123,7 +123,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Resource Management enhancements
+### Resource Management enhancements {#resource-management-enhancements}
 
 <table> 
  <col> 
@@ -144,7 +144,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Project Management enhancements
+### Project Management enhancements {#project-management-enhancements}
 
 <table> 
  <col> 
@@ -194,7 +194,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Enhanced analytics improvements
+### Enhanced analytics improvements {#enhanced-analytics-improvements}
 
 <table> 
  <col> 
@@ -219,7 +219,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Integration enhancements
+### Integration enhancements {#integration-enhancements}
 
 <table> 
  <col> 
@@ -236,7 +236,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Mobile enhancements
+### Mobile enhancements {#mobile-enhancements}
 
 <table> 
  <col> 
@@ -261,7 +261,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Other enhancements
+### Other enhancements {#other-enhancements}
 
 <table> 
  <col> 
@@ -344,15 +344,15 @@ For information about the maintenance updates made during the 21.1 release, see 
 
 ## Announcements
 
-* [New IP addresses for Workfront email with the 21.1 release](#new) 
-* [Allowlist of additional IP addresses for Event Subscriptions](#allowlis) 
-* [Allowlist of additional domains required for accessing Workfront](#whitelis) 
-* [Flash deprecation](#flash) 
-* [21.1 Release Webinar](#21.1) 
-* [Change in Preview release cadence](#change) 
-* [Workfront One](#workfron)
+* [New IP addresses for Workfront email with the 21.1 release](#new-ip-addresses-for-workfront-email-with-the-21-1-release) 
+* [Allowlist of additional IP addresses for Event Subscriptions](#allowlist-of-additional-ip-addresses-for-event-subscriptions) 
+* [Allowlist of additional domains required for accessing Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront) 
+* [Flash deprecation](#flash-deprecation) 
+* [21.1 Release Webinar](#21-1-release-webinar) 
+* [Change in Preview release cadence](#change-in-preview-release-cadence) 
+* [Workfront One](#workfront-one)
 
-### New IP addresses for Workfront email with the 21.1 release
+### New IP addresses for Workfront email with the 21.1 release {#new-ip-addresses-for-workfront-email-with-the-21-1-release}
 
 In an effort to increase successful email delivery, we’re adding new IP addresses with the 21.1 Production release for clusters 1, 2, 3, 4, and 5.
 
@@ -360,13 +360,13 @@ For details about which IP addresses you need to add for your cluster, see [New 
 
 To find out which cluster you’re instance is on, go to Setup > System > Customer Info.
 
-### Allowlist of additional IP&nbsp;addresses for Event Subscriptions
+### Allowlist of additional IP&nbsp;addresses for Event Subscriptions {#allowlist-of-additional-ip-addresses-for-event-subscriptions}
 
 In an effort to increase successful Event Subscription delivery, we’re adding 4 new IP addresses with the 21.1 Production release in the first quarter of 2021. You must add these IP addresses to your allowlist before February 2021 to ensure your users continue to receive Event Subscriptions.
 
 Contact your internal IT and/or security department for assistance in adding the new IPs found in the article, [Event Subscription API](../../../wf-api/general/event-subs-api.md).
 
-### Allowlist of additional domains required for accessing Workfront
+### Allowlist of additional domains required for accessing Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
 If your organization uses a firewall, you must add the following additional domains to your allowlist in order to ensure uninterrupted access to Workfront:
 
@@ -375,23 +375,23 @@ If your organization uses a firewall, you must add the following additional doma
 
 For more information, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-### Flash deprecation
+### Flash deprecation {#flash-deprecation}
 
 All Flash-based tools were removed from all products on November 19, 2020.
 
 Find out more about replacement solutions for each specific Flash-based tool in the following article: [Replacement of Flash-based tools in Adobe Workfront](../../../product-announcements/announcements/replace-flash-tools.md).
 
-### 21.1 Release Webinar
+### 21.1 Release Webinar {#21-1-release-webinar}
 
 The Workfront 21.1 Release Webinar will be presented February 3, at 11:00 am EDT / 4:00 pm BST. Register for the webinar [here](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
-### Change in Preview release cadence
+### Change in Preview release cadence {#change-in-preview-release-cadence}
 
 Starting on May 20, 2020, Workfront began to make functionality available in the Preview environment on a weekly basis. Prior to this change, functionality was typically released to the Preview environment every two weeks.
 
 For more information, see [Change in Workfront preview release cadence FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
 
-### Workfront One
+### Workfront One {#workfront-one}
 
 With Workfront One, you’ll discover the most important content, resources, and news from Workfront —all in one place, with one login. We’ve unified the Experience, Community, and Training sites making it easier to find what you’re looking for.
 

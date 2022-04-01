@@ -11,7 +11,7 @@ description: Adobe Workfront is a work management application that helps you man
 
 Adobe Workfront is a work management application that helps you manage the entire lifecycle of work in one place. The integration between Workfront and Experience Manager Assets lets organizations improve content velocity and time-to-market by intrinsically connecting work and digital asset management. Within the context of managing their work in Workfront, users have access to the required documents and the images.
 
-The Workfront for Experience Manager enhanced connector enables enhanced business processes with end-to-end workflows and provides personalized end-to-end client experiences and central storage. For more information on the capabilities and features of the enhanced connector, see [What's new in the enhanced connector](#what's) in this article.
+The Workfront for Experience Manager enhanced connector enables enhanced business processes with end-to-end workflows and provides personalized end-to-end client experiences and central storage. For more information on the capabilities and features of the enhanced connector, see [What's new in the enhanced connector](#what-s-new-in-the-enhanced-connector) in this article.
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ The Workfront for Experience Manager enhanced connector enables enhanced busines
 >
 >Adobe may release updates to Adobe Workfront and Adobe Experience Manager that makes this connector redundant; if this occurs, customers may be required to transition from the use of this connector.
 
-## What's new in the enhanced connector
+## What's new in the enhanced connector {#what-s-new-in-the-enhanced-connector}
 
 Workfront for Experience Manage enhanced connector now enables you to:
 

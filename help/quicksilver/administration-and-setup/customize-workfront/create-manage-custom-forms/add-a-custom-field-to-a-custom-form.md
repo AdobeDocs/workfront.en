@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Add a custom field to a custom form
+## Add a custom field to a custom form {#add-a-custom-field-to-a-custom-form}
 
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Open the **Add a field** tab.
@@ -162,7 +162,7 @@ You must have the following to perform the steps in this article:
         <li>They belong to a group or groups that you specify</li> 
         <li>They are associated with a role or job title you specify</li> 
         <li>They belong to the same group as the person using the field</li> 
-       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For instructions on creating a filter, see <a href="#create" class="MCXref xref">Add a custom field to a custom form</a> in the article <a href="#" class="MCXref xref" xrefformat="{para}">Add a custom field to a custom form</a>. For information about creating a filter using Text Mode, see the section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edit text mode in a filter</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>. </p> <p>Note:   
+       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For instructions on creating a filter, see <a href="#add-a-custom-field-to-a-custom-form" class="MCXref xref">Add a custom field to a custom form</a> in the article <a href="#" class="MCXref xref" xrefformat="{para}">Add a custom field to a custom form</a>. For information about creating a filter using Text Mode, see the section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edit text mode in a filter</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>. </p> <p>Note:   
         <ul> 
          <li>If you are editing an existing custom form, adding a filter to a Typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
          <li>This filter is not available on mobile devices. If you use the filter for a Typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
@@ -228,7 +228,7 @@ You must have the following to perform the steps in this article:
        <ul> 
         <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
         <li><p><strong>Hide Choice</strong>: Hide the choice in the field.</p><p> Hidden choices remain accessible in reports.</p></li> 
-        <li><p><strong>Remove Choice</strong>: Remove the choice from the field.</p><p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span> If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p></li> 
+        <li><p><strong>Remove Choice</strong>: Remove the choice from the field.</p><p>Warning:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p></li> 
        </ul></td> 
      </tr> 
     </tbody> 
@@ -258,7 +258,7 @@ You must have the following to perform the steps in this article:
 
    Or
 
-   Add fields that have already been created for your organization, as explained in [Add a custom field to a custom form](#add).
+   Add fields that have already been created for your organization, as explained in [Add a custom field to a custom form](#Add).
 
    >[!NOTE]
    >

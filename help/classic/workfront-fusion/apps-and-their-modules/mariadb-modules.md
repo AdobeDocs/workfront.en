@@ -52,7 +52,7 @@ You must have the following access to use the functionality in this article:
 
 To use MariaDB modules, you must have a MariaDB account.
 
-## Connect MariaDB to Workfront Fusion
+## Connect MariaDB to Workfront Fusion {#connect-mariadb-to-workfront-fusion}
 
 You can create a connection to your MariaDB account directly from inside a MariaDB module.
 
@@ -110,7 +110,7 @@ This action module retrieves information from your database, based on a query yo
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query</td> 
@@ -129,7 +129,7 @@ This module reads record from your database.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table</td> 

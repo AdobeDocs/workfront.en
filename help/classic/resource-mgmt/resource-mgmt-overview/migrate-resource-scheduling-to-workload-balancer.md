@@ -33,7 +33,7 @@ If you use Adobe Workfront Classic, take the training [Resource Manager Training
 
 If you experience difficulty logging in or accessing the courses, contact our Customer Support.&nbsp;For information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-##  Step 2: Determine the best time to migrate
+##  Step 2: Determine the best time to migrate {#step-2-determine-the-best-time-to-migrate}
 
 Follow the steps below to determine when the best time to migrate is for you:
 
@@ -44,15 +44,15 @@ Follow the steps below to determine when the best time to migrate is for you:
 1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item. For information about managing allocations in the Resource Scheduler, see the “Modify user allocations” section of the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 1. Using the information gathered from Steps 1 and Step 2, decide which version of Step 3 you should continue with based on the needs of your organization.
 
-##  Step 3: Migrate to the Workload Balancer
+##  Step 3: Migrate to the Workload Balancer {#step-3-migrate-to-the-workload-balancer}
 
 We have identified the following versions for this step, depending on your findings in Step 2:
 
-* [Step 3a: You and your teams are waiting for the Workload Balancer to have all the features you need in Production](#step) 
-* [Step 2: Determine the best time to migrate](#step2) 
-* [Step 3: Migrate to the Workload Balancer](#step3)
+* [Step 3a: You and your teams are waiting for the Workload Balancer to have all the features you need in Production](#step-3a-you-and-your-teams-are-waiting-for-the-workload-balancer-to-have-all-the-features-you-need-in-production) 
+* [Step 2: Determine the best time to migrate](#step-2-determine-the-best-time-to-migrate) 
+* [Step 3: Migrate to the Workload Balancer](#step-3-migrate-to-the-workload-balancer)
 
-### Step 3a: You and your teams are waiting for the Workload Balancer to have all the features you need in Production
+### Step 3a: You and your teams are waiting for the Workload Balancer to have all the features you need in Production {#step-3a-you-and-your-teams-are-waiting-for-the-workload-balancer-to-have-all-the-features-you-need-in-production}
 
 Do the following:
 
@@ -72,7 +72,7 @@ Do the following:
 
   >[!TIP]
   >
-  >Give your team 2-4 weeks to get through the training prior to the transition date. For information about which training is right for you, see the section [Migrate from Resource Scheduling to the Workload Balancer](#step4) in this article.
+  >Give your team 2-4 weeks to get through the training prior to the transition date. For information about which training is right for you, see the section [Migrate from Resource Scheduling to the Workload Balancer](#Step4) in this article.
 
 * Follow these guidelines to assist your teams:
 

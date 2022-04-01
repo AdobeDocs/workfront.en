@@ -107,15 +107,15 @@ To view tasks in a project from a list of projects:
 
 You can adjust the time period shown on the Gantt chart to display information on a granular level, or you can&nbsp;quickly navigate to&nbsp;a day, week, month, quarter, or year view:&nbsp;
 
-* [Change the time period on a granular level](#changing-the-time-period-on-a-granular-level) 
-* [View information by Day, Week, Month, Quarter, or Year](#viewing-information-by-day-week)
+* [Change the time period on a granular level](#change-the-time-period-on-a-granular-level) 
+* [View information by Day, Week, Month, Quarter, or Year](#view-information-by-day-week-month-quarter-or-year)
 
-### Change the time period on a granular level
+### Change the time period on a granular level {#change-the-time-period-on-a-granular-level}
 
 1. Hover over the timeline of the Gantt chart, then drag the zoom indicator from left to right to expand or contract the timeline.  
    ![zoom_tool_in_gantt.png](assets/zoom-tool-in-gantt-350x180.png)
 
-### View&nbsp;information by Day, Week, Month, Quarter, or Year
+### View&nbsp;information by Day, Week, Month, Quarter, or Year {#view-information-by-day-week-month-quarter-or-year}
 
 1. In the Gantt chart, click the time frame drop-down menu.
 
@@ -148,7 +148,9 @@ You can adjust the time period shown on the Gantt chart to display information o
 
 The Gantt chart is a visual representation of the information that is currently displayed in the task list. You can apply filters, views, and groupings to&nbsp;the objects listed in both Gantt charts.&nbsp;
 
-``` ```**Warning: **``````You cannot apply filters, views, and groupings when you select Timeline Planning to save changes to your task list.&nbsp;For information about saving changes to tasks in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+>[!CAUTION]
+>
+>You cannot apply filters, views, and groupings when you select Timeline Planning to save changes to your task list.&nbsp;For information about saving changes to tasks in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 Filters and groupings that you apply to the list are reflected on both the Project List and Task List Gantt charts and are also included when the Gantt charts are exported:
 

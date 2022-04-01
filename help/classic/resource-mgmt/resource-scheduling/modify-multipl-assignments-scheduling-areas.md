@@ -116,11 +116,11 @@ For example:
 
 1. Continue with any of the following sections:
 
-   * [Assign a user](#assigning-a-user)
-   * [Swap a user](#swapping-a-user)
-   * [Unassign a user](#unassigning-a-user)
+   * [Assign a user](#assign-a-user)
+   * [Swap a user](#swap-a-user)
+   * [Unassign a user](#unassign-a-user)
 
-### Assign a user
+### Assign a user {#assign-a-user}
 
 You can assign a user to all tasks currently assigned to a specific role within the selected projects.
 
@@ -144,7 +144,7 @@ To assign a user to tasks throughout the selected projects or tasks:
 1. Click **Assign**.  
    You can make a maximum of 1,000 assignments in a single action. If the selections you make will make more than 1,000 assignment changes, you must re-adjust your selections and try again.
 
-### Swap a user
+### Swap a user {#swap-a-user}
 
 You can swap a user's task assignments with the task assignments of another user in the selected projects or for the selected tasks.
 
@@ -171,7 +171,7 @@ To swap a user's task assignments with the task assignments of another user:
 1. Click **Swap**.  
    You can make a maximum of 1,000 assignments in a single action. If the selections you make will make more than 1,000 assignment changes, you must re-adjust your selections and try again.
 
-### Unassign a user
+### Unassign a user {#unassign-a-user}
 
 You can unassign a user from all tasks the user is assigned to in the selected projects or for the selected tasks. When you unassign a user, any tasks that were assigned to that user are reverted to the assignment state before the user was assigned.
 

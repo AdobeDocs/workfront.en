@@ -63,14 +63,14 @@ You can schedule resources to work on tasks and issues for an individual team yo
 
 The following sections describe how to enable and manage user allocations in Workfront:
 
-* [Use the Scheduling areas to assign work](#using-scheduling-timelines-to-assign-work) 
-* [Allocations set on the Edit Task or the Edit Issue boxes vs. in the Scheduling areas](#understanding-allocations-set-on-the-task-or-issue-details-versus-on-the-scheduling-timeline) 
-* [Allocation indicators](#understanding-allocation-indicators) 
-* [Default allocation for Planned Hours](#understanding-the-default-allocation-for-planned-hours) 
-* [Who can view and modify allocations?](#understanding-who-can-view-and-modify-allocations) 
-* [Time zone considerations in the Scheduling areas](#time-zone-considerations-on-the-scheduling-timeline)
+* [Use the Scheduling areas to assign work](#use-the-scheduling-areas-to-assign-work) 
+* [Allocations set on the Edit Task or the Edit Issue boxes vs. in the Scheduling areas](#allocations-set-on-the-edit-task-or-the-edit-issue-boxes-vs-in-the-scheduling-areas) 
+* [Allocation indicators](#allocation-indicators) 
+* [Default allocation for Planned Hours](#default-allocation-for-planned-hours) 
+* [Who can view and modify allocations?](#who-can-view-and-modify-allocations) 
+* [Time zone considerations in the Scheduling areas](#time-zone-considerations-in-the-scheduling-areas)
 
-### Use the Scheduling areas to assign work
+### Use the Scheduling areas to assign work {#use-the-scheduling-areas-to-assign-work}
 
 When assigning new work to users on the Scheduling timeline, you can determine how the Planned Hours for a task or issue are allocated to users.   
 For more information about Planned Hours, see [Planned Hours overview](../../manage-work/tasks/task-information/planned-hours.md).
@@ -85,7 +85,7 @@ Planned Hours can be divided in the following ways:
 >
 >When scheduling resources for multiple projects from the Scheduling areas, not all users and work items are displayed on the Scheduling timeline. For information about what information is displayed on the Scheduling timeline, see [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
-### Allocations set on the Edit Task or the Edit Issue boxes vs. in the Scheduling areas
+### Allocations set on the Edit Task or the Edit Issue boxes vs. in the Scheduling areas {#allocations-set-on-the-edit-task-or-the-edit-issue-boxes-vs-in-the-scheduling-areas}
 
 You can modify the user allocations for a task or issue from the following locations within Workfront:
 
@@ -96,11 +96,11 @@ You can modify the user allocations for a task or issue from the following locat
    * On the Scheduling section of a project (when scheduling resources for a single project). 
    * On the Schedule section of a team (when scheduling resources for a team).
 
-  When you modify user allocations from the Scheduling timeline (as described in the [Modify user allocations](#modifying-user-allocations) section in this article), you can define allocations for each user on the task or issue, as well as for each day within the task or issue duration.  
+  When you modify user allocations from the Scheduling timeline (as described in the [Modify user allocations](#modify-user-allocations) section in this article), you can define allocations for each user on the task or issue, as well as for each day within the task or issue duration.  
   ![scheduling_contours.png](assets/scheduling-contours-350x139.png)
 
 * The Edit Task or Edit Issue dialog box.   
-  When you modify user allocations from a Edit Task or Issue dialog box (as described in [Manage allocation percentage on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)), you can define allocations for the task or issue only as a whole for each user. If you want to manage those allocations on a per-day basis, you must modify the allocations in the Scheduling timeline, as described in the [Modify user allocations](#modifying-user-allocations) section in this article.
+  When you modify user allocations from a Edit Task or Issue dialog box (as described in [Manage allocation percentage on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)), you can define allocations for the task or issue only as a whole for each user. If you want to manage those allocations on a per-day basis, you must modify the allocations in the Scheduling timeline, as described in the [Modify user allocations](#modify-user-allocations) section in this article.
 
   >[!IMPORTANT]
   >
@@ -108,16 +108,16 @@ You can modify the user allocations for a task or issue from the following locat
 
 We recommend managing user allocations from the Scheduling timeline rather than from the Edit Task or Issue to benefit from the following advantages:
 
-* You can clearly see when users are overallocated using allocation indicators, as described in the [Allocation indicators](#understanding-allocation-indicators) section.
+* You can clearly see when users are overallocated using allocation indicators, as described in the [Allocation indicators](#allocation-indicators) section.
 * You can allocate more time for one user over another user.  
-  Allocation indicators provide a visual representation of how allocated a user is compared to other users, as described in the [Allocation indicators](#understanding-allocation-indicators) section. 
+  Allocation indicators provide a visual representation of how allocated a user is compared to other users, as described in the [Allocation indicators](#allocation-indicators) section. 
 
 * You can allocate more time for work on one day over another day.  
-  Allocation indicators provide a visual representation of how allocated users are on a given day, as described in [Allocation indicators](#understanding-allocation-indicators).
+  Allocation indicators provide a visual representation of how allocated users are on a given day, as described in [Allocation indicators](#allocation-indicators).
 
 * You can perform all resourcing responsibilities in one place, on the Scheduling timeline.
 
-### Allocation indicators
+### Allocation indicators {#allocation-indicators}
 
 Various visual indicators are available to provide quick information regarding the level of which a user is allocated to work on a given day.
 
@@ -131,7 +131,7 @@ Your system administrator determines how Workfront calculates user availability 
   Shading is not displayed on tasks in the **Unassigned** area on the Scheduling timeline.  
   ![resource_allocation_expanded.png](assets/resource-allocation-expanded-350x192.png)
 
-* **Daily totals for each day for each user:** You can display the total Planned Hours allocated to a given user on each day. This information is displayed at the top of each user's row on the Scheduling timeline. This information is not displayed by default. You can enable this as described in [Enable user allocations](#enabling-user-allocations). Tasks from projects with any of the following statuses are included when determining daily totals: Current, Planning, or Approved.  
+* **Daily totals for each day for each user:** You can display the total Planned Hours allocated to a given user on each day. This information is displayed at the top of each user's row on the Scheduling timeline. This information is not displayed by default. You can enable this as described in [Enable user allocations](#enable-user-allocations). Tasks from projects with any of the following statuses are included when determining daily totals: Current, Planning, or Approved.  
   ![resource_daily_totals.png](assets/resource-daily-totals-350x55.png)
 
 * **Overallocation indicators** 
@@ -143,7 +143,7 @@ Your system administrator determines how Workfront calculates user availability 
   When you enable the **Show Totals for Daily Planned Hours** and the **Show Resource Allocation Highlighting** options in your settings, the daily total number of Planned Hours displays in red when the user is overallocated. Hours are displayed to the nearest tenth by default (for example, 1.3).  
   ![RS_planned_hours_in_red_with_decimals__1_.png](assets/rs-planned-hours-in-red-with-decimals--1--350x56.png)
 
-### Default allocation for Planned Hours
+### Default allocation for Planned Hours {#default-allocation-for-planned-hours}
 
 Workfront attempts to distribute Planned Hours among the assigned users and days as follows:
 
@@ -157,7 +157,7 @@ Workfront attempts to distribute Planned Hours among the assigned users and days
 Hours are displayed to the nearest hundredth by default (for example, 1.33). You can scroll to the right to see more.   
 ![RS_Planned_Hours_with_two_decimals_in_contour_screen__1___1_.png](assets/rs-planned-hours-with-two-decimals-in-contour-screen--1---1--350x252.png)
 
-### Who can view and modify allocations?
+### Who can view and modify allocations? {#who-can-view-and-modify-allocations}
 
 The following types of users can view or modify user allocations in Workfront:
 
@@ -167,13 +167,13 @@ The following types of users can view or modify user allocations in Workfront:
 * **Plan and Work Users:** You can view allocations for any tasks and issues you are assigned to by using either the new My Work Calendar or the Working On calendar on a team that you are a member of.   
   In addition to viewing allocations, you can modify your allocations if you have Contribute access to the tasks and issues.
 
-### Time zone considerations in the Scheduling areas
+### Time zone considerations in the Scheduling areas  {#time-zone-considerations-in-the-scheduling-areas}
 
 In rare cases, users viewing the Scheduling timeline might see inconsistencies where the Planned Hours of a task do not equal the total allocated hours of individual days. This can occur when the operating system time zone setting of one user is such that the Planned Start Date or Planned Completion Date differs from another user.
 
 For example, if the Planned Completion Date of a task is set to 11:00am on 11/3/18, MST, a user in Australia who views the task would see the Planned Completion Date as 1:00am on 11/4/18, the following day. If the user in Australia allocates hours on 11/4/18, these allocated hours are not visible to the user on MST. However, these hours are always taken into consideration on the Planned Hours of the project.
 
-## Enable user allocations
+## Enable user allocations {#enable-user-allocations}
 
 User allocation functionality is disabled by default on the Scheduling timeline. Before you can use the user allocation functionality described in this section, you must first enable it.
 
@@ -220,11 +220,11 @@ To enable user allocations on the Scheduling timeline:
    User allocations are now displayed on the Scheduling timeline.  
    ![RS_daily_planned_totals_and_allocation_highlighting__1_.png](assets/rs-daily-planned-totals-and-allocation-highlighting--1--350x123.png)
 
-## Modify user allocations
+## Modify user allocations {#modify-user-allocations}
 
-You can modify the user allocations for a task or issue from the Scheduling timeline (as described in this section) or from the Edit Task or Issue dialog box. For more information, see [Allocations set on the Edit Task or the Edit Issue boxes vs. in the Scheduling areas](#understanding-allocations-set-on-the-task-or-issue-details-versus-on-the-scheduling-timeline).
+You can modify the user allocations for a task or issue from the Scheduling timeline (as described in this section) or from the Edit Task or Issue dialog box. For more information, see [Allocations set on the Edit Task or the Edit Issue boxes vs. in the Scheduling areas](#allocations-set-on-the-edit-task-or-the-edit-issue-boxes-vs-in-the-scheduling-areas).
 
-By default, users are allocated to a task or issue evenly among assignees and among days in the duration, as described in [Default allocation for Planned Hours](#understanding-the-default-allocation-for-planned-hours).
+By default, users are allocated to a task or issue evenly among assignees and among days in the duration, as described in [Default allocation for Planned Hours](#default-allocation-for-planned-hours).
 
 To modify user allocations for a task or issue from the Scheduling timeline:
 
@@ -236,9 +236,9 @@ To modify user allocations for a task or issue from the Scheduling timeline:
 
    ![scheduling_contours.png](assets/scheduling-contours-350x139.png)
 
-1. Ensure that user allocations are enabled on the Scheduling timeline, as described in the [Enable user allocations](#enabling-user-allocations) section in this article.
+1. Ensure that user allocations are enabled on the Scheduling timeline, as described in the [Enable user allocations](#enable-user-allocations) section in this article.
 1. Expand the task where you want to manage user allocations.  
-   By default, Planned Hours are divided evenly among the assigned users and days of the task Duration. Hours are not added on weekends (Saturdays and Sundays). For more information, see the [Default allocation for Planned Hours](#understanding-the-default-allocation-for-planned-hours) section in this article.
+   By default, Planned Hours are divided evenly among the assigned users and days of the task Duration. Hours are not added on weekends (Saturdays and Sundays). For more information, see the [Default allocation for Planned Hours](#default-allocation-for-planned-hours) section in this article.
 
 1. Click the field for the user whose hours you want to adjust on a given day.
 

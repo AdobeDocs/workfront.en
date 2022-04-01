@@ -76,10 +76,10 @@ Depending on how your Workfront or group administrator configures the Project, T
 
 ## Delete issues
 
-* [Delete multiple issues in a project simultaneously](#delete-tasks-in-a-project-task-list) 
-* [Delete a single issue](#delete-a-task)
+* [Delete multiple issues in a project simultaneously](#delete-multiple-issues-in-a-project-simultaneously) 
+* [Delete a single issue](#delete-a-single-issue)
 
-### Delete multiple issues in a project simultaneously
+### Delete multiple issues in a project simultaneously  {#delete-multiple-issues-in-a-project-simultaneously}
 
 1. Go to the **Projects** area of your Global Navigation Bar. 
 1. Click the **Projects** tab. 
@@ -94,7 +94,7 @@ Depending on how your Workfront or group administrator configures the Project, T
    Your Workfront administrator might not allow the deletion of issues where hours are logged.  
    For more information about the access and permissions needed to delete an issue, see [Delete issues](#access-and-permissions-needed).
 
-### Delete a single issue
+### Delete a single issue {#delete-a-single-issue}
 
 1. Go to the **Projects** area of your Global Navigation Bar. 
 1. Click the **Projects** tab. 

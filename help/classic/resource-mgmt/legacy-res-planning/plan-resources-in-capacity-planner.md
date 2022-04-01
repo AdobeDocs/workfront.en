@@ -20,7 +20,7 @@ The Capacity Planner is a Workfront tool for planning resources for your project
 
 You must have a Plan license with administrative access to Resource Pools to be able to use the Capacity Planner. For more information about administrative access, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-## Prerequisites for using the Capacity Planner
+## Prerequisites for using the Capacity Planner {#prerequisites-for-using-the-capacity-planner}
 
 You can use the Capacity Planner to prioritize future projects based on resource availability. Within a Legacy Resource Pool, you can use the Capacity Planner to compare actual job role assignments on the project to the allocated availability of each job role for a specific time frame.
 
@@ -45,7 +45,7 @@ Before you can start using the Capacity Planner, the following requirements must
 
   For more information about defining Resource Estimates for a project, see [Estimate project resources by applying Legacy Resource Pools to the Business Case](../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md).
 
-## Access the Capacity Planner
+## Access the Capacity Planner {#access-the-capacity-planner}
 
 1. Go to the **People** area in your Global Navigation Bar.
 1. Select the **Legacy** **Resource Planning** tab.
@@ -62,11 +62,11 @@ Before you can start using the Capacity Planner, the following requirements must
 The Capacity Planner consists of 3 areas:
 
 * [Available Resources](#available-resources) 
-* [Projects](#projects-area) 
+* [Projects](#projects) 
 * [Net Remaining resources](#net-remaining-resources)   
   ![capacity_planner_areas.png](assets/capacity-planner-areas-350x211.png)
 
-### Available Resources
+### Available Resources {#available-resources}
 
 The Available Resources area of the Capacity Planner shows the total number of job role resources available in your Legacy Resource Pool.
 
@@ -75,16 +75,16 @@ For more information about budgeting the availability of job roles in the Resour
 
 >[!NOTE]
 >
->If the Available Resources numbers are zero, you must contact the Resource Manager of your Workfront instance so that they can ensure that all the prerequisites for the Capacity Planner are in place. For more information about the prerequisites needed to use the Capacity Planner, see [Prerequisites for using the Capacity Planner](#prerequisites) [Prerequisites for using the Capacity Planner](#prerequisites).
+>If the Available Resources numbers are zero, you must contact the Resource Manager of your Workfront instance so that they can ensure that all the prerequisites for the Capacity Planner are in place. For more information about the prerequisites needed to use the Capacity Planner, see [Prerequisites for using the Capacity Planner](#prerequisites-for-using-the-capacity-planner) [Prerequisites for using the Capacity Planner](#prerequisites-for-using-the-capacity-planner).
 
-### Projects
+### Projects {#projects}
 
-* [Overview of the Projects area](#understanding-projects-area) 
-* [Add projects to the Capacity Planner](#adding-projects-to-cp) 
-* [Estimate resources in the Capacity Planner](#estimating-resources-in-cp) 
-* [Prioritize projects in the Capacity Planner](#establishing-project-priority)
+* [Overview of the Projects area](#overview-of-the-projects-area) 
+* [Add projects to the Capacity Planner](#add-projects-to-the-capacity-planner) 
+* [Estimate resources in the Capacity Planner](#estimate-resources-in-the-capacity-planner) 
+* [Prioritize projects in the Capacity Planner](#prioritize-projects-in-the-capacity-planner)
 
-#### **Overview of the Projects area**
+#### **Overview of the Projects area** {#overview-of-the-projects-area}
 
 The Projects area of the Capacity Planner displays projects you are currently managing for resource management purposes. The projects which are associated with this Legacy Resource Pool are not automatically added to this area. They will have to be added manually. This area of the Capacity Planner is editable. Projects can manually be added or removed from this section and you can manually adjust the allocation of resources to the projects.
 
@@ -97,14 +97,14 @@ The resource estimates in the Capacity Planner and the Resource Estimates of the
 >The allocation of the resources in the Capacity Planner is different than the Planned Hours of the tasks on the project. You can display the Planned Hours associated with your resources, but this value is not editable in the Capacity Planner. However, the resource estimates (the estimated budgeted time) allocated to resources is manually editable in this area.  
 >![planned_data_on_capacity_planner.png](assets/planned-data-on-capacity-planner-350x50.png)
 
-#### **Add projects to the Capacity Planner**
+#### **Add projects to the Capacity Planner** {#add-projects-to-the-capacity-planner}
 
 You can add projects to the Capacity Planner, even if they are not associated with the Legacy Resource Pool. Adding them to the Capacity Planner in this area will automatically associate them with the Legacy Resource Pool.
 
 To add projects to the Capacity Planner:
 
 1. Access the **Capacity Planner** tab inside a **Legacy** **Resource Pool**.  
-   For more information about accessing the Capacity Planner, see [Access the Capacity Planner](#accessing-cp).
+   For more information about accessing the Capacity Planner, see [Access the Capacity Planner](#access-the-capacity-planner).
 
 1. To add more projects in the **Projects** area of the **Capacity Planner**, click **Add Projects**.  
    ![](assets/add-projects-capacity-planner.png)
@@ -129,14 +129,14 @@ To add projects to the Capacity Planner:
    Your projects are appearing in the **Projects** area of the Capacity Planner now.   
    Each line displays one project.
 
-#### **Estimate resources in the Capacity Planner**
+#### **Estimate resources in the Capacity Planner** {#estimate-resources-in-the-capacity-planner}
 
 When you are modifying the resource allocations of each job role in the Capacity Planner, you are changing the resource estimates values for your job roles for a specific project. The Planned Hours associated with the job roles do not change.
 
 To edit the allocation of resources in the Capacity Planner:
 
 1. Access the **Capacity Planner** tab inside a **Legacy** **Resource Pool**.  
-   For more information about accessing the Capacity Planner, see [Access the Capacity Planner](#accessing-cp).
+   For more information about accessing the Capacity Planner, see [Access the Capacity Planner](#access-the-capacity-planner).
 
 1. In the **Projects** area of the **Capacity Planner**, the projects associated with this Legacy Resource Pool appear after they have been added.
 
@@ -149,7 +149,7 @@ To edit the allocation of resources in the Capacity Planner:
 
 1. Click **Save**.
 
-#### **Prioritize projects in the Capacity Planner**
+#### **Prioritize projects in the Capacity Planner** {#prioritize-projects-in-the-capacity-planner}
 
 Projects located in the **Projects** section of the Capacity Planner receive a priority according to their position in the list.
 
@@ -175,7 +175,7 @@ To view the priority a project has in the Portfolio Optimizer in the Capacity Pl
    You can see the priority given to a project in the Portfolio Optimizer in the Priority column you added to the Capacity Planner.  
    If you click the **Priority** column, you can sort your projects the same way they are displayed in the ```Portfolio Optimizer. This ensures that you prioritize your resource allocation according to the same priority by which the portfolio manager expects the project to be completed.```
 
-### Net Remaining resources
+### Net Remaining resources {#net-remaining-resources}
 
 The Net Remaining Resources area of the Capacity Planner displays the remaining number of resources in the Legacy Resource Pool after allocations have been made to projects.
 

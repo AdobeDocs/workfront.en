@@ -50,7 +50,7 @@ To view license information in your system:
    >
    >Proof licenses are available only to customers who have purchased the paid Workfront Proof add-on in addition to their Workfront license. For information about this add-on, see [Workfront Proof](../../workfront-proof/workfront-proof.md).
 
-1. (Conditional) If you see the message **To set a maximum, you must add a Home Group**, add a Home Groups in your system as explained in the section [Add or remove a Home Group to the Licenses page](#managing-the-group-list) in this article.
+1. (Conditional) If you see the message **To set a maximum, you must add a Home Group**, add a Home Groups in your system as explained in the section [Add or remove a Home Group to the Licenses page](#add-or-remove-a-home-group-to-the-licenses-page) in this article.
 
 ## Viewing information about licenses for Workfront addons
 
@@ -80,7 +80,7 @@ For information about Workfront Goals, see [Adobe Workfront Goals overview](../.
 
 To learn more about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Add or remove a Home Group to the Licenses page
+## Add or remove a Home Group to the Licenses page {#add-or-remove-a-home-group-to-the-licenses-page}
 
 A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
 
@@ -110,9 +110,9 @@ To add or remove a Home Group to the Licenses page:
 
 1. Click **Save**.
 
-As a Workfront administrator, you can set maximum license counts for the Home Groups to prevent a business unit from using Workfront licenses purchased for other business units. For instructions, see [Set the maximum license count for a Home Group](#set) in this article.
+As a Workfront administrator, you can set maximum license counts for the Home Groups to prevent a business unit from using Workfront licenses purchased for other business units. For instructions, see [Set the maximum license count for a Home Group](#set-the-maximum-license-count-for-a-home-group) in this article.
 
-## Set the maximum license count for a Home Group
+## Set the maximum license count for a Home Group {#set-the-maximum-license-count-for-a-home-group}
 
 As a Workfront administrator, you can set maximum license counts for the top-level Home Groups in your system. This allows you to prevent a business unit from using Workfront licenses purchased for other business units within your organization.
 

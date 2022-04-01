@@ -70,11 +70,11 @@ You must have the following access to perform the steps in this article:
 Because this an early access plugin and not yet officially supported on the Marketplace, you must opt to install locally.
 </note> </li>
 <li value="3"> <p>Read the information in the dialog box, then click <strong>OK</strong>.</p> </li>
-<li value="4"> <p>Open Photoshop, and continue to the <a href="#log" class="MCXref xref">Log In to Workfront for Adobe Photoshop</a> section below.</p> </li>
+<li value="4"> <p>Open Photoshop, and continue to the <a href="#log-in-to-workfront-for-adobe-photoshop" class="MCXref xref">Log In to Workfront for Adobe Photoshop</a> section below.</p> </li>
 </ol>
 -->
 
-## Log In to Workfront for Adobe Photoshop
+## Log In to Workfront for Adobe Photoshop {#log-in-to-workfront-for-adobe-photoshop}
 
 1. From the **Plugins**menu at the top of the screen, select **Plugin Panel**.
 1. Select ```Workfront for Adobe Photoshop```.

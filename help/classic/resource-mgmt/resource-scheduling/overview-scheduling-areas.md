@@ -41,23 +41,23 @@ You can schedule resources in the following areas in Workfront:
 The scheduling area displays tasks and issues and current resourcing assignments.  
 ![resource_scheduling_overview.png](assets/resource-scheduling-overview-350x237.png)
 
-* [Filter and Swap tools](#filters-and-swap-tools) 
+* [Filter and Swap tools](#filter-and-swap-tools) 
 * [Date selection](#date-selection) 
 * [Unassigned area](#unassigned-area) 
 * [Users and Roles](#users-and-roles) 
 * [Scheduling timeline](#scheduling-timeline)
 
-### Filter and Swap tools
+### Filter and Swap tools {#filter-and-swap-tools}
 
 **Filter tool:** Enables you to filter the content that is displayed on the scheduling timeline. For more information about using the Filter tool, see [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 
 **Swap tool:** (Available only when scheduling resources for projects from the Scheduling tab or Staffing tab) Enables you to quickly assign, swap, or unassign users to tasks across multiple projects. For more information, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-### Date selection
+### Date selection {#date-selection}
 
 You can adjust the date range for which data is displayed on the scheduling timeline. By default, the date range is 2 weeks (14 consecutive days, including weekends) starting on the current day.
 
-### Unassigned area
+### Unassigned area {#unassigned-area}
 
 **When scheduling resources as the resource manager (from the Scheduling tab):**
 
@@ -85,7 +85,7 @@ The **Unassigned** area at the top of the scheduling timeline displays tasks and
   Tasks that are assigned both to the team and to a user on the team are displayed in the row of the user to whom the tasks are assigned. 
 * Assigned both to the team and to a user who is not a member of the team.
 
-### Users and Roles
+### Users and Roles {#users-and-roles}
 
 **When scheduling resources as the resource manager (from the Scheduling tab):**
 
@@ -119,7 +119,7 @@ Each member of the team is always displayed on the scheduling timeline, regardle
 
 You can see the level in which users are allocated on a given day, as described in [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md). Tasks that you do not have at least Contribute permissions to display as a gray bar on the scheduling timeline.
 
-### Scheduling timeline
+### Scheduling timeline {#scheduling-timeline}
 
 **Default content:** By default, all tasks that meet the requirements defined in the section [Task and issue prerequisites](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#task-and-issue-prerequisites) in the [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md) article on all projects with the status of Current are displayed on the scheduling timeline.
 

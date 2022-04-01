@@ -59,10 +59,10 @@ To filter items in the Working On or Work Requests tabs in the My Work area:
 
 ## Sort work items
 
-* [Sort items that you are working on](#sorting-items-that-you-are-working-on) 
-* [Sort requested items](#sorting-requested-items)
+* [Sort items that you are working on](#sort-items-that-you-are-working-on) 
+* [Sort requested items](#sort-requested-items)
 
-### Sort items that you are working on
+### Sort items that you are working on {#sort-items-that-you-are-working-on}
 
 1. Go to the My Work area, then click the **Working On**tab.
 1. Click the **Sort**&nbsp;drop-down&nbsp;list.  
@@ -84,7 +84,7 @@ To filter items in the Working On or Work Requests tabs in the My Work area:
    Fields that are added by the Workfront administrator that you are able to sort on are always displayed in the middle two columns of each task or issue, as shown in the following example:  
    ![](assets/1c-350x102.png)
 
-### Sort requested items
+### Sort requested items {#sort-requested-items}
 
 1. Go to the My Work area, then click the **Work Requests**tab.  
    Or  
@@ -108,10 +108,10 @@ To filter items in the Working On or Work Requests tabs in the My Work area:
 
 Grouping provides an additional way to organize information.
 
-* [Group items that you are working on](#grouping-items-that-you-are-working-on) 
-* [Group requested items](#grouping-requested-items)
+* [Group items that you are working on](#group-items-that-you-are-working-on) 
+* [Group requested items](#group-requested-items)
 
-### Group items that you are working on
+### Group items that you are working on {#group-items-that-you-are-working-on}
 
 1. Go to the My Work area, then click the **Working On**tab.
 1. Click the **Grouping**&nbsp;drop-down list.  
@@ -134,7 +134,7 @@ Grouping provides an additional way to organize information.
 
 1. (Optional) After you have selected a grouping, you can collapse and expand groupings for easy navigation. The next time you return to the Working On tab, the groupings are displayed in the state that you last left them.
 
-### Group requested items
+### Group requested items {#group-requested-items}
 
 1. Go to the My Work area, then click the **Work Requests**&nbsp;tab.  
    Or  

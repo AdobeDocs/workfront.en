@@ -57,7 +57,7 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Add a template</td> 
-      <td> <p>Click <strong>New Template</strong>, then configure it using the available options. For information about these options, see <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref">Create a project template</a>.</p> <p>The template is automatically associated with the group.</p> <p>For information about how group preferences apply to new templates, see <a href="#how" class="MCXref xref">How preferences apply to templates and template tasks</a> in this article.</p> </td> 
+      <td> <p>Click <strong>New Template</strong>, then configure it using the available options. For information about these options, see <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref">Create a project template</a>.</p> <p>The template is automatically associated with the group.</p> <p>For information about how group preferences apply to new templates, see <a href="#how-preferences-apply-to-templates-and-template-tasks" class="MCXref xref">How preferences apply to templates and template tasks</a> in this article.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Edit one or more templates</td> 
@@ -82,7 +82,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-## How preferences apply to templates and template tasks
+## How preferences apply to templates and template tasks {#how-preferences-apply-to-templates-and-template-tasks}
 
 When you create a project template, the settings listed in the tables below are configured automatically by a correlating project or task preference.
 
@@ -103,10 +103,10 @@ When you create a project template, the settings listed in the tables below are 
 >* You don't specify a group when creating the template using the API
 >
 
-* [Project template settings configured by project and task preferences](#project) 
-* [Template task settings configured by task preferences](#template)
+* [Project template settings configured by project and task preferences](#project-template-settings-configured-by-project-and-task-preferences) 
+* [Template task settings configured by task preferences](#template-task-settings-configured-by-task-preferences)
 
-### Project template settings configured by project and task preferences
+### Project template settings configured by project and task preferences {#project-template-settings-configured-by-project-and-task-preferences}
 
 <table cellspacing="0"> 
  <col> 
@@ -158,7 +158,7 @@ For information about the task and issue preference, see [Configure system-wide 
 >  When an administrator converts a task or issue to a project using a template, all settings for the template are determined by what’s already saved on the template. 
 >
 
-### Template task settings configured by task preferences
+### Template task settings configured by task preferences {#template-task-settings-configured-by-task-preferences}
 
 When you create a template task, some of its settings are configured automatically by a correlating task preference. These settings are listed in the table below. 
 

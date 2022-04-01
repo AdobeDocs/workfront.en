@@ -125,10 +125,10 @@ You must have the following access to use the functionality described in this ar
 
 You can add the Workfront section to the layout of a Salesforce Opportunity or Account in the Salesforce Lightning Experience framework either by accessing the Setup area, or from an Account or Opportunity object.&nbsp;
 
-* [Configure the Workfront section at the Setup level](#lightning-setup-level) 
-* [Configure the Workfront Section at the Opportunity or Account level](#lighting-account-opportunity-level)
+* [Configure the Workfront section at the Setup level](#configure-the-workfront-section-at-the-setup-level) 
+* [Configure the Workfront Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level)
 
-### Configure the Workfront section at the Setup level
+### Configure the Workfront section at the Setup level {#configure-the-workfront-section-at-the-setup-level}
 
 1. Log into Salesforce as a system administrator.&nbsp; 
 1. Click the **Setup** icon, then click **Setup**. 
@@ -148,9 +148,9 @@ You can add the Workfront section to the layout of a Salesforce Opportunity or A
 
    Click **New** to create a new page layout. 
 
-1. Continue with [Configure the Workfront Section at the Opportunity or Account level](#lighting-account-opportunity-level) below.
+1. Continue with [Configure the Workfront Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level) below.
 
-### Configure the Workfront Section at the Opportunity or Account level
+### Configure the Workfront Section at the Opportunity or Account level {#configure-the-workfront-section-at-the-opportunity-or-account-level}
 
 1. Log in to Salesforce as a system administrator.&nbsp; 
 1. Go to an **Opportunity** or **Account**. 

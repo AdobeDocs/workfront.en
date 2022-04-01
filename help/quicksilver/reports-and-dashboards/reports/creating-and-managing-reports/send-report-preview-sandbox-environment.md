@@ -55,9 +55,9 @@ You must have the following access to perform the steps in this article:
 
 ## Schedule reports in the Preview environment
 
-* [Schedule reports in the Preview environment](#schedule3)
+* [Schedule reports in the Preview environment](#schedule-reports-in-the-preview-environment)
 
-### Schedule reports in the Preview environment
+### Schedule reports in the Preview environment {#schedule-reports-in-the-preview-environment}
 
 Whether a delivered report is produced or not in the Preview environment depends on whether **Receive emails from this test environment** is enabled or not.
 

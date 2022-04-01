@@ -10,8 +10,8 @@ description: You can search for Workfront items in any Adobe WorkfrontWorkfront 
 
 You can search for Workfront items in any Adobe WorkfrontWorkfront channel in Microsoft Teams and share these items with members of your teams.&nbsp;
 
-* [Prerequisites for sharing Workfront items in Microsoft Teams](#prerequisites) 
-* [Search for and share Workfront items in Microsoft Teams](#searching-for-and-sharing-workfront-items)
+* [Prerequisites for sharing Workfront items in Microsoft Teams](#prerequisites-for-sharing-workfront-items-in-microsoft-teams) 
+* [Search for and share Workfront items in Microsoft Teams](#search-for-and-share-workfront-items-in-microsoft-teams)
 
 ## Access requirements
 
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Prerequisites for sharing Workfront items in Microsoft Teams
+## Prerequisites for sharing Workfront items in Microsoft Teams {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
 
 You can search for and share Workfront items in Microsoft Teams if the following conditions are met:
 
@@ -69,7 +69,7 @@ For information about installing Workfront for Microsoft Teams and logging in to
 >
 >Microsoft Teams no longer supports Internet Explorer. To use the Adobe Workfront for Microsoft Teams integration, you must use a web browser other than Internet Explorer.
 
-## Search for and share Workfront items in Microsoft Teams
+## Search for and share Workfront items in Microsoft Teams {#search-for-and-share-workfront-items-in-microsoft-teams}
 
 You can search for the following Workfront items from a Microsoft Teams channel:
 

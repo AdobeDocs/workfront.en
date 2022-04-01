@@ -71,9 +71,9 @@ The preview environment is ideal for running trainings, testing out new features
 By default, as a Workfront administrator, you have access to the Preview Sandbox environment. If you cannot access the Preview Sandbox environment as described in this section, contact your Workfront administrator or our Customer Support team.
 
 * [Accessing the Preview Sandbox from the Workfront Interface](#accessing-the-preview-sandbox-from-the-workfront-interface) 
-* [Accessing the Preview Sandbox Using a URL](#accessing-the-preview-sandbox-with-a-url)
+* [Accessing the Preview Sandbox Using a URL](#accessing-the-preview-sandbox-using-a-url)
 
-### Accessing the Preview Sandbox from the Workfront Interface
+### Accessing the Preview Sandbox from the Workfront Interface {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
 As a Workfront administrator, you can access the Preview Sandbox via the Workfront interface.
 
@@ -89,12 +89,12 @@ To access the Preview Sandbox:
 
    These should be the same as your production credentials, unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
-### Accessing the Preview Sandbox Using a URL
+### Accessing the Preview Sandbox Using a URL {#accessing-the-preview-sandbox-using-a-url}
 
-* [Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5](#preview-through-url-on-cluster-1-2-3) 
-* [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#preview-cluster-4)
+* [Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5) 
+* [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
 
-#### **Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5**
+#### **Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5** {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
 Historically, you accessed the Preview Sandbox by going to [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&sa=D&sntz=1&usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
 
@@ -109,13 +109,13 @@ To log into the Preview Sandbox using a URL:
 1. Navigate to this URL: ``` [https://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)  
    ```
 
-   If you are an EMEA customer and your account is on Cluster 4, see the section [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#preview-cluster-4) in this article.
+   If you are an EMEA customer and your account is on Cluster 4, see the section [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) in this article.
 
 1. Log in using your Preview credentials.
 
    Your Preview credentials should be the same as your production credentials, unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
-#### **Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)**
+#### **Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)** {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
 To log into the Preview Sandbox using a URL:
 

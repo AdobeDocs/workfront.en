@@ -56,16 +56,16 @@ To use Jira modules you must have a Jira account.
 
 Your connection method is based on whether you are using Jira Cloud or Jira Server.
 
-* [Connect Jira Cloud to Workfront Fusion](#connect) 
-* [Connect Jira Server to Workfront Fusion](#connect2)
+* [Connect Jira Cloud to Workfront Fusion](#connect-jira-cloud-to-workfront-fusion) 
+* [Connect Jira Server to Workfront Fusion](#connect-jira-server-to-workfront-fusion)
 
-### Connect Jira Cloud to Workfront Fusion
+### Connect Jira Cloud to Workfront Fusion {#connect-jira-cloud-to-workfront-fusion}
 
 Connect Jira Cloud to Workfront Fusion
 
 To connect Jira Software to Workfront Fusion, you must create an API token and insert it together with your Service URL and Username to the Create a connection field in Workfront Fusion.
 
-#### Create an API&nbsp;token in Jira
+#### Create an API&nbsp;token in Jira {#create-an-api-token-in-jira}
 
 1. Go to [https://id.atlassian.com/manage/api-tokens](https://id.atlassian.com/manage/api-tokens) and log in.
 1. Click **Create API token**.
@@ -77,28 +77,28 @@ To connect Jira Software to Workfront Fusion, you must create an API token and i
    >You can't view the token again after closing this dialog.
 
 1. Store the generated token in a safe place.
-1. Continue with [Configure the Jira API token in Workfront Fusion](#configur2).
+1. Continue with [Configure the Jira API token in Workfront Fusion](#configure-the-jira-api-token-in-workfront-fusion).
 
-#### Configure the Jira API token in Workfront Fusion
+#### Configure the Jira API token in Workfront Fusion {#configure-the-jira-api-token-in-workfront-fusion}
 
 1. In Workfront Fusion, add a Jira module to a scenario to open the **Create a connection** box.
 1. Specify the following information:
 
    * **Service URL:**
    * **Username:**
-   * **API token:**&nbsp;This is the API token you created in the [Create an API token in Jira](#create3) section of this article.
+   * **API token:**&nbsp;This is the API token you created in the [Create an API token in Jira](#create-an-api-token-in-jira) section of this article.
 
 1. Click Continue to create the connection and return to the module.
 
-### Connect Jira Server to Workfront Fusion
+### Connect Jira Server to Workfront Fusion {#connect-jira-server-to-workfront-fusion}
 
 To authorize a connection between Workfront Fusion and Jira Server, you need your Consumer Key, Private Key, And Service URL. You might need to contact your Jira administrator for this information.
 
-* [Generate Public and Private keys for your Jira connection](#generate) 
-* [Configure the client app as a consumer in Jira](#configur) 
-* [Create a connection to Jira Server or Jira Data Center in Workfront Fusion](#create2)
+* [Generate Public and Private keys for your Jira connection](#generate-public-and-private-keys-for-your-jira-connection) 
+* [Configure the client app as a consumer in Jira](#configure-the-client-app-as-a-consumer-in-jira) 
+* [Create a connection to Jira Server or Jira Data Center in Workfront Fusion](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
 
-#### Generate Public and Private keys for your Jira connection
+#### Generate Public and Private keys for your Jira connection {#generate-public-and-private-keys-for-your-jira-connection}
 
 To acquire a private key for your Workfront Fusion Jira connection, you need to generate public and private keys.
 
@@ -170,9 +170,9 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
      >   
      >
 
-1. Continue to [Configure the client app as a consumer in Jira](#configur)
+1. Continue to [Configure the client app as a consumer in Jira](#configure-the-client-app-as-a-consumer-in-jira)
 
-#### Configure the client app as a consumer in Jira
+#### Configure the client app as a consumer in Jira {#configure-the-client-app-as-a-consumer-in-jira}
 
 1. Log into your Jira instance.
 1. In the left navigation panel, click **Jira Settings** ![](assets/jira-settings-icon.png) > **Applications**> **Application links**.
@@ -234,9 +234,9 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
    </table>
 
 1. Click **Continue**
-1. Continue to [Create a connection to Jira Server or Jira Data Center in Workfront Fusion](#create2)
+1. Continue to [Create a connection to Jira Server or Jira Data Center in Workfront Fusion](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
 
-#### Create a connection to Jira Server or Jira Data Center in Workfront Fusion
+#### Create a connection to Jira Server or Jira Data Center in Workfront Fusion {#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion}
 
 >[!NOTE]
 >
@@ -255,11 +255,11 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
      </tr> 
      <tr> 
       <td role="rowheader">Consumer Key</td> 
-      <td>Paste in the consumer key that you copied to a secure location in <a href="#configur" class="MCXref xref">Configure the client app as a consumer in Jira</a></td> 
+      <td>Paste in the consumer key that you copied to a secure location in <a href="#configure-the-client-app-as-a-consumer-in-jira" class="MCXref xref">Configure the client app as a consumer in Jira</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Private Key</td> 
-      <td>Paste in the private key from the <code>jira_privatekey.pcks8</code> file you created in <a href="#generate" class="MCXref xref">Generate Public and Private keys for your Jira connection</a>.</td> 
+      <td>Paste in the private key from the <code>jira_privatekey.pcks8</code> file you created in <a href="#generate-public-and-private-keys-for-your-jira-connection" class="MCXref xref">Generate Public and Private keys for your Jira connection</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Service URL</td> 
@@ -282,7 +282,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch for records
 
@@ -298,7 +298,7 @@ This trigger module starts a scenario when a record is added, updated, or delete
     <ol> 
      <li value="1">Click <strong>Add</strong></li> 
      <li value="2">Enter a name for the webhook.</li> 
-     <li value="3"> <p>Select the connection you want to use for your webhook. </p> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </li> 
+     <li value="3"> <p>Select the connection you want to use for your webhook. </p> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </li> 
      <li value="4"> <p>Select the record type that you want the software to watch for:</p> 
       <ul> 
        <li>Comment </li> 
@@ -311,17 +311,17 @@ This trigger module starts a scenario when a record is added, updated, or delete
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Add issue to sprint](#add) 
-* [Custom API Call](#custom) 
-* [Create a Record](#create) 
-* [Delete a record](#delete) 
-* [Download an attachment](#download) 
-* [Read a record](#read) 
-* [Update a record](#update)
+* [Add issue to sprint](#add-issue-to-sprint) 
+* [Custom API Call](#custom-api-call) 
+* [Create a Record](#create-a-record) 
+* [Delete a record](#delete-a-record) 
+* [Download an attachment](#download-an-attachment) 
+* [Read a record](#read-a-record) 
+* [Update a record](#update-a-record)
 
-#### Add issue to sprint
+#### Add issue to sprint {#add-issue-to-sprint}
 
 This action module adds one or more issues to a sprint.
 
@@ -333,7 +333,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sprint ID</td> 
@@ -346,7 +346,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Create a Record
+#### Create a Record {#create-a-record}
 
 This action module creates a new record in Jira.
 
@@ -360,7 +360,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -377,7 +377,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Jira Software API. This way, you can create a data flow automation that can't be accomplished by the other Jira Software modules.
 
@@ -389,7 +389,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -417,7 +417,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Delete a record
+#### Delete a record {#delete-a-record}
 
 This action module deletes a particular record.
 
@@ -433,7 +433,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -453,7 +453,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Download an attachment
+#### Download an attachment {#download-an-attachment}
 
 This action module downloads a particular attachment.
 
@@ -465,7 +465,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
@@ -474,7 +474,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Read a record
+#### Read a record {#read-a-record}
 
 This action module reads data from a single record in Jira Software.
 
@@ -490,7 +490,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -514,7 +514,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Update a record
+#### Update a record {#update-a-record}
 
 This action module updates an existing record, such as an issue or project,.
 
@@ -530,7 +530,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -550,12 +550,12 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
-* [List records](#list) 
-* [Search for records](#search)
+* [List records](#list-records) 
+* [Search for records](#search-for-records)
 
-#### List records
+#### List records {#list-records}
 
 This search module retrieves all items of a specific type that match your search query
 
@@ -569,7 +569,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -594,7 +594,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Search for records
+#### Search for records {#search-for-records}
 
 This search module looks for records in an object in Jira Software that match the search query you specify.
 
@@ -608,7 +608,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 

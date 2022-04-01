@@ -34,10 +34,10 @@ These tasks can minimize the impact of merge and split requests both to our cust
 
    * Make sure that plan renewal or upgrade is in place before the merge is completed.
 
-1. The __________ works with the client using the information in this article under [Information to analyze with the client](#informat)
+1. The __________ works with the client using the information in this article under [Information to analyze with the client](#information-to-analyze-with-the-client)
 1. Once all information from step 4 is confirmed, the __________ sets the Merge date and arranges Development Team support.
-1. The ___________ uses the template under [Merge process template](#merge) in this article to analyze the original and destination accounts.
-1. The ___________ analyzes both the origin and destination accounts using the template under [Merge process template](#merge) later in this article.
+1. The ___________ uses the template under [Merge process template](#merge-process-template) in this article to analyze the original and destination accounts.
+1. The ___________ analyzes both the origin and destination accounts using the template under [Merge process template](#merge-process-template) later in this article.
 1. The Adobe Workfront Support team moves all folders and loose items to the top folder on the original account.
 1. The Workfront developer team scans folder structure on the original account.
 1. The Workfront Support team deactivates email notifications for both accounts on the account level from the Proofing backend.
@@ -57,7 +57,7 @@ These tasks can minimize the impact of merge and split requests both to our cust
 1. The Workfront Support team enables email notifications on the destination account.
 1. __________ confirms the merge with the customer and updates the relevant task in the Hub project.
 
-## Information to analyze with the client
+## Information to analyze with the client {#information-to-analyze-with-the-client}
 
 In step 4 above, the __________ goes over the information below with the client:
 
@@ -99,7 +99,7 @@ During the migration, we move users along with the proofs they own. Proof owners
 * The client must provide a list of users that should be moved and the profile permissions that should be assigned to each one. This will determine what access and visibility levels users will have on the destination account.
 * The client must select a power user on the original account to oversee the folder structure and any outstanding proofs identified during the move.
 
-## Merge process template
+## Merge process template {#merge-process-template}
 
 In step 6 above, the __________ can use the following template to analyze the original and destination accounts:
 

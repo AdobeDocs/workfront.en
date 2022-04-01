@@ -59,16 +59,16 @@ You must have the following access to use the functionality in this article:
 
 The procedure of connecting the service via an API token is similar for most web services.
 
-1. Create an application on the web service's website, as explained in the section [Create a new application and obtain the API token](#create) in this article.
+1. Create an application on the web service's website, as explained in the section [Create a new application and obtain the API token](#create-a-new-application-and-obtain-the-api-token) in this article.
 1. Obtain the API Key or API token.
 1. Add Workfront Fusion's HTTP > Make a Request module to your scenario.
-1. Set up the module according to the web service's API documentation and running the scenario, as explained in the section [Set up the HTTP module](#set) in this article.
+1. Set up the module according to the web service's API documentation and running the scenario, as explained in the section [Set up the HTTP module](#set-up-the-http-module) in this article.
 
 >[!NOTE]
 >
 >We will use the Pushover notification service as an example throughout this article.
 
-## Create a new application and obtain the API token
+## Create a new application and obtain the API token {#create-a-new-application-and-obtain-the-api-token}
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ The procedure of connecting the service via an API token is similar for most web
 1. Fill in the Application Information and click **Create an Application**.
 1. Store the provided API token in a safe place. You will need it for the Workfront Fusion HTTP > Make a Request module to connect to the desired web service (Pushover, in this case).
 
-## Set up the HTTP module
+## Set up the HTTP module {#set-up-the-http-module}
 
 To connect a web service to your Workfront Fusion scenario, you need to use the HTTP > Make a request module in the scenario and set up the module according to the web service's API&nbsp;documentation.
 
@@ -122,12 +122,12 @@ To connect a web service to your Workfront Fusion scenario, you need to use the 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Request Content</p> </td> 
-      <td> <p>Enter the Body request content in the JSON format. You can use the JSON &gt; Create JSON module as explained in <a href="#json" class="MCXref xref">JSON Body Mapped Using the JSON &gt; Create JSON module</a> in this article. Or you can enter the JSON content manually, as explained in <a href="#json2" class="MCXref xref">JSON Body Entered Manually</a> in this article.</p> <p>See the web service's API documentation for the required parameters for that web service.</p> </td> 
+      <td> <p>Enter the Body request content in the JSON format. You can use the JSON &gt; Create JSON module as explained in <a href="#json-body-mapped-using-the-json-create-json-module" class="MCXref xref">JSON Body Mapped Using the JSON &gt; Create JSON module</a> in this article. Or you can enter the JSON content manually, as explained in <a href="#json-body-entered-manually" class="MCXref xref">JSON Body Entered Manually</a> in this article.</p> <p>See the web service's API documentation for the required parameters for that web service.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## JSON Body Entered Manually
+## JSON Body Entered Manually {#json-body-entered-manually}
 
 Specify parameters and values in the JSON format.
 
@@ -162,7 +162,7 @@ Specify parameters and values in the JSON format.
  </tbody> 
 </table>
 
-## JSON Body Mapped Using the JSON > Create JSON module
+## JSON Body Mapped Using the JSON > Create JSON module {#json-body-mapped-using-the-json-create-json-module}
 
 The Create JSON module makes the specifying JSON easier. It also gives you the possibility to define values dynamically.
 

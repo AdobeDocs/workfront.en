@@ -69,9 +69,9 @@ In addition to searching for help documentation, you can also access the followi
 
    >[!NOTE]
    >
-   >The **Setup** area does not have a link to a specific Help article. For more information about areas included in Setup, use the context-sensitive Help icons. For more information about context-sensitive help, see [Access context-sensitive help](#accessing-context-sensitive-help).
+   >The **Setup** area does not have a link to a specific Help article. For more information about areas included in Setup, use the context-sensitive Help icons. For more information about context-sensitive help, see [Access context-sensitive help](#access-context-sensitive-help).
 
-## Access context-sensitive help
+## Access context-sensitive help {#access-context-sensitive-help}
 
 In various locations throughout Workfront, you can click the context-sensitive icon to access related articles on Adobe Workfront One.
 

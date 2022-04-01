@@ -56,18 +56,18 @@ We are working on automating the migration of your existing data, and we will ke
 </note>
 -->
 
-* [Duplicate the Resource Budgeting information in the Business Case](#duplicating-res-budgeting-info-in-the-business-case) 
-* [Budget resources in the new resource management tools](#budgeting-resources-in-the-new-tools) 
-* [Match information between the legacy and the new resource management tools](#matching-res-mgmt-information-between-legacy-and-new-tools) 
-* [Match job roles between Legacy Resource Pools and Resource Pools](#matching-job-roles)
+* [Duplicate the Resource Budgeting information in the Business Case](#duplicate-the-resource-budgeting-information-in-the-business-case) 
+* [Budget resources in the new resource management tools](#budget-resources-in-the-new-resource-management-tools) 
+* [Match information between the legacy and the new resource management tools](#match-information-between-the-legacy-and-the-new-resource-management-tools) 
+* [Match job roles between Legacy Resource Pools and Resource Pools](#match-job-roles-between-legacy-resource-pools-and-resource-pools)
 
-### Duplicate the Resource Budgeting information in the Business Case
+### Duplicate the Resource Budgeting information in the Business Case {#duplicate-the-resource-budgeting-information-in-the-business-case}
 
 You must complete the following steps to manually duplicate the resource budgeting information from the Legacy Resource Estimates section to the new Resource Budgeting section on the Business Case of a project.
 
 When you complete this workflow, you should be ready to use the new Resource Management tools in Workfront going forward:
 
-1. **Align Roles.** Ensure that the roles associated with the Legacy Resource Pools are also associated with the users in the new Resource Pools. &nbsp;For information about comparing the roles between the Legacy Resource Pools and the ones associated with the users in the new Resource Pools see the&nbsp; [Match job roles between Legacy Resource Pools and Resource Pools](#matching-job-roles)&nbsp; section in this article. 
+1. **Align Roles.** Ensure that the roles associated with the Legacy Resource Pools are also associated with the users in the new Resource Pools. &nbsp;For information about comparing the roles between the Legacy Resource Pools and the ones associated with the users in the new Resource Pools see the&nbsp; [Match job roles between Legacy Resource Pools and Resource Pools](#match-job-roles-between-legacy-resource-pools-and-resource-pools)&nbsp; section in this article. 
 
 1. **Verify Users' Role Association.** Ensure that your users are associated with at least one Job Role. If a user is associated with more than one role, ensure that you have a valid percentage for the users’ FTE for each role.  
    For information about associating users with job roles and updating the percentage of FTE for each role, see " [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
@@ -95,7 +95,7 @@ When you complete this workflow, you should be ready to use the new Resource Man
 
 1. **Review Prerequisites.** For a full list of prerequisites that must be met before starting planning your resources in the Resource Budgeting section of the project, or in the Resource Planner, see " [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md)
 
-###  Budget resources in the new resource management tools
+###  Budget resources in the new resource management tools  {#budget-resources-in-the-new-resource-management-tools}
 
 We are going to assume that your resources have been previously budgeted in the Legacy Resource Estimates section of the projects
 
@@ -109,10 +109,10 @@ and that information is up to date.
 
 To budget your resources in the new Resource Management tools, do either of the following:
 
-* [Budget resources at the Project Level](#budget-a-project) 
-* [Budget resources across multiple projects](#budget-across-projects)
+* [Budget resources at the Project Level](#budget-resources-at-the-project-level) 
+* [Budget resources across multiple projects](#budget-resources-across-multiple-projects)
 
-#### **Budget resources at the Project Level**
+#### **Budget resources at the Project Level** {#budget-resources-at-the-project-level}
 
 1. Go to one project on which you want to match the Legacy Resource Estimates section and the Resource Budgeting section in the Business Case. 
 1. Click **Edit Resource Budgeting**, then **Apply** to select the appropriate Resource Pools.
@@ -137,7 +137,7 @@ To budget your resources in the new Resource Management tools, do either of the 
 
 1. Click **Save** .
 
-#### **Budget resources across multiple projects**
+#### **Budget resources across multiple projects** {#budget-resources-across-multiple-projects}
 
 1. Go to the **Resource Planner** . 
 1. Select the **Project View** . 
@@ -157,7 +157,7 @@ To budget your resources in the new Resource Management tools, do either of the 
 
 1. Click **Save** .
 
-### Match information between the legacy and the new resource management tools
+### Match information between the legacy and the new resource management tools {#match-information-between-the-legacy-and-the-new-resource-management-tools}
 
 1. Go to the **Business Case** of each project, and compare all of the following fields between the Legacy Resource Estimates and the Resource Budgeting sections and ensure they match:
 
@@ -174,7 +174,7 @@ To budget your resources in the new Resource Management tools, do either of the 
 1. Repeat the process described in this article for all the projects whose resources you want to budget using the new tools. 
 1. If some of the fields do not match, start the process from the beginning and ensure all your prerequisites are met for managing your resources in the Resource Budgeting section.
 
-### Match job roles between Legacy Resource Pools and Resource Pools
+### Match job roles between Legacy Resource Pools and Resource Pools {#match-job-roles-between-legacy-resource-pools-and-resource-pools}
 
 There are various ways to ensure that the Job Roles in your Legacy Resource Pools will also be associated with the users in your new Resource Pools.
 
@@ -184,11 +184,11 @@ To ensure that the Job Roles that are associated with the Legacy Resource Pools 
 
 Do the following, in the following order:&nbsp;
 
-1. [Build a Resource Estimates report with Budgeting Hours and job role information](#build-project-report-with-legacy-pools-information) 
-1. [Compare the two reports and update the projects with the new Resource Pools](#compare-two-reports-and-update-projects-woth-new-pools) 
-1. [Compare the two reports and update the projects with the new Resource Pools](#compare-two-reports-and-update-projects-woth-new-pools)
+1. [Build a Resource Estimates report with Budgeting Hours and job role information](#build-a-resource-estimates-report-with-budgeting-hours-and-job-role-information) 
+1. [Compare the two reports and update the projects with the new Resource Pools](#compare-the-two-reports-and-update-the-projects-with-the-new-resource-pools) 
+1. [Compare the two reports and update the projects with the new Resource Pools](#compare-the-two-reports-and-update-the-projects-with-the-new-resource-pools)
 
-#### **Build a Resource Estimates report with Budgeting Hours and job role information**
+#### **Build a Resource Estimates report with Budgeting Hours and job role information** {#build-a-resource-estimates-report-with-budgeting-hours-and-job-role-information}
 
 You can build the following Resource Estimates report to identify the Job Roles associated with your projects and what job roles have been budgeted for work in the Legacy Resource Estimates area of the project, or the Capacity Planner. The report also displays the new Resource Pools associated with the projects, if there are any:
 
@@ -249,7 +249,7 @@ To build the report:
 1. (Optional) Select the **Filters** tab and filter for only the Resource Pools that you plan associating with the projects whose resources you want to manage. 
 1. Click **Save + Close** .
 
-#### **Compare the two reports and update the projects with the new Resource Pools**
+#### **Compare the two reports and update the projects with the new Resource Pools** {#compare-the-two-reports-and-update-the-projects-with-the-new-resource-pools}
 
 After building the two reports:
 

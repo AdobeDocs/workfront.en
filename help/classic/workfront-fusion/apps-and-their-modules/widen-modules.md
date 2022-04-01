@@ -52,7 +52,7 @@ You must have the following access to use the functionality in this article:
 
 To use Widen modules, you must have a Widen account.
 
-## Connect Widen to Workfront Fusion
+## Connect Widen to Workfront Fusion  {#connect-widen-to-workfront-fusion}
 
 You can create a connection to your Widen account directly from inside a Widen module.
 
@@ -69,11 +69,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Trigger modules](#trigger) 
-* [Action Modules](#action) 
-* [Search Modules](#search2)
+* [Trigger modules](#trigger-modules) 
+* [Action Modules](#action-modules) 
+* [Search Modules](#search-modules)
 
-### Trigger modules
+### Trigger modules {#trigger-modules}
 
 #### Watch assets
 
@@ -85,7 +85,7 @@ This trigger module starts a scenario when an asset is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Event type</td> 
@@ -106,17 +106,17 @@ This trigger module starts a scenario when an asset is created or updated.
  </tbody> 
 </table>
 
-### Action Modules
+### Action Modules {#action-modules}
 
-* [Custom API Call](#custom) 
-* [Read asset info](#read) 
-* [Add assets to collections](#add) 
-* [Remove assets from collection](#remove) 
-* [Update asset metadata](#update) 
-* [Download File](#download) 
-* [Upload a file](#upload)
+* [Custom API Call](#custom-api-call) 
+* [Read asset info](#read-asset-info) 
+* [Add assets to collections](#add-assets-to-collections) 
+* [Remove assets from collection](#remove-assets-from-collection) 
+* [Update asset metadata](#update-asset-metadata) 
+* [Download File](#download-file) 
+* [Upload a file](#upload-a-file)
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Widen API. This way, you can create a data flow automation that can't be accomplished by the other Widen modules.
 
@@ -128,7 +128,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API&nbsp;Version</td> 
@@ -160,7 +160,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Read asset info
+#### Read asset info {#read-asset-info}
 
 This action module retrieves an individual asset by its unique ID.
 
@@ -170,7 +170,7 @@ This action module retrieves an individual asset by its unique ID.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
@@ -187,7 +187,7 @@ This action module retrieves an individual asset by its unique ID.
  </tbody> 
 </table>
 
-#### Add assets to collections
+#### Add assets to collections {#add-assets-to-collections}
 
 This action module adds one or more assets to collections.
 
@@ -197,7 +197,7 @@ This action module adds one or more assets to collections.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collections ID</td> 
@@ -224,7 +224,7 @@ This action module adds one or more assets to collections.
  </tbody> 
 </table>
 
-#### Remove assets from collection
+#### Remove assets from collection {#remove-assets-from-collection}
 
 This action module removes one or more assets from collections.
 
@@ -234,7 +234,7 @@ This action module removes one or more assets from collections.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collections ID</td> 
@@ -261,7 +261,7 @@ This action module removes one or more assets from collections.
  </tbody> 
 </table>
 
-#### Update asset metadata
+#### Update asset metadata {#update-asset-metadata}
 
 This action module updates the metadata fields of an asset.
 
@@ -271,7 +271,7 @@ This action module updates the metadata fields of an asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
@@ -292,7 +292,7 @@ This action module updates the metadata fields of an asset.
  </tbody> 
 </table>
 
-#### Download File
+#### Download File {#download-file}
 
 This action module downloads an asset from your Widen account.
 
@@ -302,7 +302,7 @@ This action module downloads an asset from your Widen account.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
@@ -311,7 +311,7 @@ This action module downloads an asset from your Widen account.
  </tbody> 
 </table>
 
-#### Upload a file
+#### Upload a file {#upload-a-file}
 
 This action module uploads a file into your Widen account.
 
@@ -321,7 +321,7 @@ This action module uploads a file into your Widen account.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Upload Profile</td> 
@@ -350,12 +350,12 @@ This action module uploads a file into your Widen account.
  </tbody> 
 </table>
 
-### Search Modules
+### Search Modules {#search-modules}
 
-* [Read collection assets](#read2) 
-* [Search assets](#search)
+* [Read collection assets](#read-collection-assets) 
+* [Search assets](#search-assets)
 
-#### Read collection assets
+#### Read collection assets {#read-collection-assets}
 
 This action module retrieves a list of assets within a collection.
 
@@ -365,7 +365,7 @@ This action module retrieves a list of assets within a collection.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collection ID</td> 
@@ -394,7 +394,7 @@ This action module retrieves a list of assets within a collection.
  </tbody> 
 </table>
 
-#### Search assets
+#### Search assets {#search-assets}
 
 This search module retrieves a list of assets that match the specific search criteria.
 
@@ -404,7 +404,7 @@ This search module retrieves a list of assets that match the specific search cri
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Widen account to Workfront Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">Connect Widen to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Search query</td> 

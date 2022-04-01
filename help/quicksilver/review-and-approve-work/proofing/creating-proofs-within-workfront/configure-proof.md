@@ -10,7 +10,7 @@ description: After you generate a proof, as described in the Generate a proof ar
 
 After you generate a proof, as described in the [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md) articles, the New Proof page displays. The following sections of the New proof page let you configure the proof so that it's ready for review.
 
-## Add files
+## Add files {#add-files}
 
 1. Begin creating the proof, as described in the [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md) articles.
 
@@ -29,7 +29,7 @@ After you generate a proof, as described in the [Generate a proof](../../../revi
 
 1. Continue with [Single proof](#single-proof) below.
 
-## Single proof
+## Single proof {#single-proof}
 
 When the **Single proof** is enabled, all static files and websites are available in a single proof, and you can upload up to 500 files at a given time.
 
@@ -43,7 +43,7 @@ When the **Single proof** is enabled, all static files and websites are availabl
 1. (Optional)&nbsp;In the **Add Files** area on the left, drag the files or websites you have specified to change the order in which they appear as pages in the combined proof.&nbsp;
 1. Continue with [Workflow](#workflow) below.
 
-## Workflow
+## Workflow {#workflow}
 
 The workflow is where you add users and specify how you want them to review the proof. You can create either a basic workflow or an Automated Workflow for a proof.
 
@@ -61,21 +61,21 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
 >* You can add an Automated Workflow to a proof when you are uploading the document or after the document is uploaded.
 >
 
-* [Create a basic workflow for the proof](#create) 
-* [Create an Automated Workflow for the proof](#create2) 
-* [Configure settings for users added to the proof](#configuring-share-settings)
+* [Create a basic workflow for the proof](#create-a-basic-workflow-for-the-proof) 
+* [Create an Automated Workflow for the proof](#create-an-automated-workflow-for-the-proof) 
+* [Configure settings for users added to the proof](#configure-settings-for-users-added-to-the-proof)
 
-### Create a basic workflow for the proof
+### Create a basic workflow for the proof {#create-a-basic-workflow-for-the-proof}
 
 1. In the **Workflow** section, click **Basic**.
 
-1. Continue with [Configure settings for users added to the proof](#configuring-share-settings) below.
+1. Continue with [Configure settings for users added to the proof](#configure-settings-for-users-added-to-the-proof) below.
 
 >[!TIP]
 >
 >If you decide later than you would rather use an Automated Workflow for the proof, can do so. For more information, see [Convert a basic workflow to an Automated Workflow on a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
 
-### Create an Automated Workflow for the proof
+### Create an Automated Workflow for the proof {#create-an-automated-workflow-for-the-proof}
 
 1. In the **Workflow** section, click **Automated**. 
 1. (Optional) If you want to use an Automated Workflow template that your Workfront administrator created and shared with you, click **Add template**, select the template in the box that appears, then click **Add template**.
@@ -93,7 +93,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
 
       Consider the following when&nbsp;adding reviewers to a stage:
 
-      * After you add a user to a stage, you can configure settings for that user on the proof, such as the proof role and any additional permissions they should have and the type of email alerts they will receive when people make comments and decisions on the proof.. For more information, see [Configure settings for users added to the proof](#configuring-share-settings) in the article [Configure a proof](#).
+      * After you add a user to a stage, you can configure settings for that user on the proof, such as the proof role and any additional permissions they should have and the type of email alerts they will receive when people make comments and decisions on the proof.. For more information, see [Configure settings for users added to the proof](#configure-settings-for-users-added-to-the-proof) in the article [Configure a proof](#).
       
       * You can drag one or more users from one stage to another. You can drag users directly to another stage, or you can drag users to a stage on the **Stages** diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
 
@@ -168,9 +168,9 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
    ![](assets/stages-diagram-350x213.png)
 
 1. Continue the process of generating a new proof, as described in the [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md) articles.
-1. Continue with [Configure settings for users added to the proof](#configuring-share-settings) below.
+1. Continue with [Configure settings for users added to the proof](#configure-settings-for-users-added-to-the-proof) below.
 
-### Configure settings for users added to the proof
+### Configure settings for users added to the proof {#configure-settings-for-users-added-to-the-proof}
 
 1. In the **Workflow** section, in the row of a user you have added, click the drop-down menu in the **Proof role** column, then click the role you want to assign to the user.
 
@@ -351,7 +351,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
 
 1. Continue with [Email notification](#email-notification) in this article.
 
-## Email notification
+## Email notification {#email-notification}
 
 1. In the **Email notification** section, select whether to send email notifications and a custom message to&nbsp;the users you selected in [Workflow](#workflow) earlier in this article:
 
@@ -361,7 +361,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
 
 1. Continue with [Proof settings](#proof-settings) below.
 
-## Proof settings
+## Proof settings {#proof-settings}
 
 1. In the **Proof settings** section, select any of the following options: 
 

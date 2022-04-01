@@ -33,7 +33,7 @@ As an Adobe Workfront administrator, you can create another Workfront administra
 >This is different from using an access level to grant users administrative access to certain areas of the system. For more information, see the following:
 >
 >* [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) 
->* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#c)in this article
+>* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)in this article
 >
 
 ##
@@ -89,7 +89,7 @@ You must have the following to perform the steps in this article:
 
    The user now has full System Administrator rights in the system.
 
-## Access of a Workfront administrator vs. access of a Plan user with administrative rights
+## Access of a Workfront administrator vs. access of a Plan user with administrative rights  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
 The two tables below show the difference between the access rights of a user with a Workfront administrator access level versus those of a user with a Plan license with some administrative rights.
 
@@ -101,10 +101,10 @@ Users with a Plan license who can edit functionality in one area have full acces
 >
 >Users with a Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
-* [Access to the Setup area](#access)<![CDATA[]]>
-* [Access to objects](#access2)<![CDATA[     ]]>
+* [Access to the Setup area](#access-to-the-setup-area)<![CDATA[]]>
+* [Access to objects](#access-to-objects)<![CDATA[     ]]>
 
-### Access to the Setup area
+### Access to the Setup area {#access-to-the-setup-area}
 
 <table cellspacing="15"> 
  <col> 
@@ -356,7 +356,7 @@ Users with a Plan license who can edit functionality in one area have full acces
  </tbody> 
 </table>
 
-### Access to objects
+### Access to objects {#access-to-objects}
 
 <table cellspacing="15"> 
  <col> 

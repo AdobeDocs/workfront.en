@@ -33,16 +33,16 @@ If you are a Workfront administrator, we recommend that you do the following bef
 * Make note of the number of groups you have in your system.
 * Determine whether you can change the access level of some of the Workfront administrators and designate them as group administrators instead.
 
-  For more information about the capabilities of group administrators, see [Tasks done by group administrators](#capabilities-of-group-owners).
+  For more information about the capabilities of group administrators, see [Tasks done by group administrators](#tasks-done-by-group-administrators).
 
-* Determine whether you want group administrators to be able to log in as other users, or to reset passwords for users in the groups you administer. Additional access is needed to perform these tasks, as explained in [Access needed for group administrators](#access).
+* Determine whether you want group administrators to be able to log in as other users, or to reset passwords for users in the groups you administer. Additional access is needed to perform these tasks, as explained in [Access needed for group administrators](#access-needed-for-group-administrators).
 * For better user management, consider assigning groups or subgroups instead of users to the following objects:
 
    * Layout Templates
    * Schedules
    * Timesheet Profiles
 
-## Access needed for group administrators
+## Access needed for group administrators {#access-needed-for-group-administrators}
 
 Every group administrator is required to have a Plan license.
 
@@ -55,15 +55,15 @@ For instructions on granting this access, see [Create or modify custom access le
 
 For a group administrator who needs to assign timesheet profiles to users in their groups and subgroups, we also recommend Administrative access to timesheets and hours. For instructions on granting this access, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-## Tasks done by group administrators
+## Tasks done by group administrators {#tasks-done-by-group-administrators}
 
 As a group administrator, you can carry out the tasks below to manage the groups that you oversee. Some of these are the same as abilities afforded to a Workfront administrator.
 
-* [Manage group members](#managing) 
-* [Manage group objects](#managing2) 
-* [Manage group preferences and tools](#managing3)
+* [Manage group members](#manage-group-members) 
+* [Manage group objects](#manage-group-objects) 
+* [Manage group preferences and tools](#manage-group-preferences-and-tools)
 
-### Manage group members
+### Manage group members {#manage-group-members}
 
 * Create, edit and delete subgroups within the groups and subgroups you manage. For instructions, see [Create a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 * Add any users for whom you have Edit access to your groups and subgroups. Or add users to groups and subgroups by editing their profiles.
@@ -81,7 +81,7 @@ As a group administrator, you can carry out the tasks below to manage the groups
 * Log in as users that are members of the groups you manage. For more information, see [Log in as another user](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 * View the number of available licenses available for your group and the subgroups below it. For more information, see [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-### Manage group objects
+### Manage group objects {#manage-group-objects}
 
 * Create group-level Layout Templates and associate them with the groups and subgroups you manage. For more information, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 * Create group-level timesheet profiles, associate them with users and groups you manage, and manually generate timesheets. For more information, see [Create, edit, and assign timesheet profiles](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
@@ -93,7 +93,7 @@ As a group administrator, you can carry out the tasks below to manage the groups
 * Manage a team that is assigned to a group you manage, without being a member of the team. Also, create a team report based on the Group field to identify which group a certain team is assigned to. For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 * Restore a project that is associated with a group you manage, along with any tasks, issues, or documents associated with the project. For more information, see [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-### Manage group preferences and tools
+### Manage group preferences and tools {#manage-group-preferences-and-tools}
 
 * When a project preference, task or issue preference, or timesheets and hours preference is unlocked for groups throughout the system, edit that preference for groups you manage. These preferences impact project, task, and issue behavior. For more information, see the following:
 

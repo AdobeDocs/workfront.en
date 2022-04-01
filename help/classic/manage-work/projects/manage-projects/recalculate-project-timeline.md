@@ -53,10 +53,10 @@ By default, project timelines are automatically recalculated daily when the proj
 >
 >If the timeline of a project is longer than 15 years, the automatic recalculation is disabled for that project. You can only select an Update Type of Manual for a project longer than 15 years. If you change the dates on the project to less than 15 years, you must manually recalculate your timeline one time before it is calculated automatically.
 
-* [Automatic recalculation of project timelines](#understanding-automatic-recalculation) 
-* [Actions that trigger an automatic recalculation of project timelines](#actions-that-trigger-automatic-timeline-recalculation)
+* [Automatic recalculation of project timelines](#automatic-recalculation-of-project-timelines) 
+* [Actions that trigger an automatic recalculation of project timelines](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
-### Automatic recalculation of project timelines
+### Automatic recalculation of project timelines {#automatic-recalculation-of-project-timelines}
 
 Adobe Workfront recalculates timelines daily only for projects where all of the following conditions are met:
 
@@ -102,7 +102,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 </div>
 -->
 
-### Actions that trigger an automatic recalculation of project timelines
+### Actions that trigger an automatic recalculation of project timelines {#actions-that-trigger-an-automatic-recalculation-of-project-timelines}
 
 Various scope changes in the life of a project automatically recalculate the project timeline, including the following actions:
 
@@ -114,15 +114,15 @@ Various scope changes in the life of a project automatically recalculate the pro
 * Adding an approval to a task that also adds time to the Planned Completion Date of the task.   
   For more information about approval settings, see [Configure global approval settings](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
-## Manual recalculation
+## Manual recalculation {#manual-recalculation}
 
 As a project owner, you can manually recalculate the timelines for individual projects. The Workfront administrator can manually recalculate all timelines in Workfront.
 
-* [Recalculate timelines for individual projects](#recalculating-timelines-for-individual-projects) 
-* [Manually recalculate timelines in bulk in the Edit Projects box](#recalculate-finances-in-bulk) 
-* [Recalculate timelines for all projects in the system (Workfront administrators only)](#recalculating-timelines-for-the-entire-workfront-site)
+* [Recalculate timelines for individual projects](#recalculate-timelines-for-individual-projects) 
+* [Manually recalculate timelines in bulk in the Edit Projects box](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box) 
+* [Recalculate timelines for all projects in the system (Workfront administrators only)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
-### Recalculate timelines for individual projects
+### Recalculate timelines for individual projects {#recalculate-timelines-for-individual-projects}
 
 1. Go to the project for which you want to recalculate the timeline.
 1. Click **Project Actions**, then click **Recalculate Timeline**.    
@@ -133,7 +133,7 @@ As a project owner, you can manually recalculate the timelines for individual pr
 
    ![](assets/screen-shot-2013-09-10-at-1.07.10-pm-350x126.png)
 
-### Manually recalculate timelines in bulk in the Edit Projects box
+### Manually recalculate timelines in bulk in the Edit Projects box {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
 
 You can manually recalculate the timelines of several projects by editing them in bulk.
 
@@ -143,7 +143,7 @@ You can manually recalculate the timelines of several projects by editing them i
 
 1. Click **Save Changes**.
 
-### Recalculate timelines for all projects in the system (Workfront administrators only)
+### Recalculate timelines for all projects in the system (Workfront administrators only) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
 
 Workfront administrators can run the Recalculate Timeline diagnostic to immediately recalculate all timelines in the Workfront system. This allows all Project Managers to see the influence of external changes immediately on both planned and projected dates.
 

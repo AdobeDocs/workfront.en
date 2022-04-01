@@ -34,10 +34,10 @@ See the following articles for specific request module instructions:
 
 ## Other action modules
 
-* [Get a File](#get) 
-* [Resolve a target URL](#resolve)
+* [Get a File](#get-a-file) 
+* [Resolve a target URL](#resolve-a-target-url)
 
-### Get a File
+### Get a File {#get-a-file}
 
 This action module downloads a file from the specified URL. After the file is downloaded, you can further process the file (map the file data) using other modules in the scenario.
 
@@ -52,7 +52,7 @@ This action module downloads a file from the specified URL. After the file is do
  </tbody> 
 </table>
 
-### Resolve a target URL
+### Resolve a target URL {#resolve-a-target-url}
 
 This action module resolves a chain of HTTP redirects and returns a target URL.
 
@@ -92,18 +92,18 @@ This module returns each header (name and value) from the specified HTTP module 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Advanced"></a>Advanced information</h2>
 <ul>
-<li><a href="#standard" class="MCXref xref">Standard authorization parameters</a> </li>
-<li><a href="#requesti" class="MCXref xref">Requesting Access tokens - standard parameters</a> </li>
-<li><a href="#requesti2" class="MCXref xref">Requesting Refresh tokens - standard parameters</a> </li>
-<li><a href="#authoriz" class="MCXref xref">Authorized request made to a service</a> </li>
+<li><a href="#standard-authorization-parameters" class="MCXref xref">Standard authorization parameters</a> </li>
+<li><a href="#requesting-access-tokens-standard-parameters" class="MCXref xref">Requesting Access tokens - standard parameters</a> </li>
+<li><a href="#requesting-refresh-tokens-standard-parameters" class="MCXref xref">Requesting Refresh tokens - standard parameters</a> </li>
+<li><a href="#authorized-request-made-to-a-service" class="MCXref xref">Authorized request made to a service</a> </li>
 </ul>
-<h3><a name="Standard"></a>Standard authorization parameters</h3>
+<h3 id="standard-authorization-parameters"><a name="Standard"></a>Standard authorization parameters</h3>
 <ul>
 <li>response_type: <code>code</code> for Authorization Code flow and <code>token</code> for Implicit flow</li>
 <li>redirect_uri: <code>https://app.workfrontfusion.com/oauth/cb/oauth2</code></li>
 <li>client_id: The Client ID you entered when creating the account</li>
 </ul>
-<h3><a name="Requesti"></a>Requesting Access tokens - standard parameters</h3>
+<h3 id="requesting-access-tokens-standard-parameters"><a name="Requesti"></a>Requesting Access tokens - standard parameters</h3>
 <ul>
 <li>grant_type: <code>authorization_code</code></li>
 <li>redirect_uri: <code>https://app.workfrontfusion.com/oauth/cb/oauth2</code></li>
@@ -111,33 +111,33 @@ This module returns each header (name and value) from the specified HTTP module 
 <li>client_secret: The Client Secret you entered when creating the account</li>
 <li>code: The code returned by authorization request</li>
 </ul>
-<h3><a name="Requesti2"></a>Requesting Refresh tokens - standard parameters</h3>
+<h3 id="requesting-refresh-tokens-standard-parameters"><a name="Requesti2"></a>Requesting Refresh tokens - standard parameters</h3>
 <ul>
 <li>grant_type: <code>refresh_token</code></li>
 <li>refresh_token: The Refresh token obtained together with the Access token</li>
 <li>client_id: The Client ID you entered when creating the account</li>
 <li>client_secret: The Client Secret you entered when creating the account</li>
 </ul>
-<h3><a name="Authoriz"></a>Authorized request made to a service</h3>
+<h3 id="authorized-request-made-to-a-service"><a name="Authoriz"></a>Authorized request made to a service</h3>
 <p>After the connection is established, the module uses by default the bearer token which is sent in the request header field. The bearer token has the following format: <code>Authorization: Bearer <access token></code></p>
 <p>When creating a connection, it is possible to adjust where the token shall be located, whether in the header in the <code>Authorization</code> parameter or in the URL in the query string.</p>
 <h2><a name="HTTP"></a>HTTP message body type and when to use it.</h2>
 <p>HTTP Message Body is the data bytes transmitted in an HTTP transaction message immediately following the headers if there are any to be used.</p>
 <ul>
 <li><a href="#raw" class="MCXref xref">Raw</a> </li>
-<li><a href="#multipar" class="MCXref xref">Multipart/Form-Data</a> </li>
-<li><a href="#applicat" class="MCXref xref">Application/form-urlencoded</a> </li>
+<li><a href="#multipart-form-data" class="MCXref xref">Multipart/Form-Data</a> </li>
+<li><a href="#application-form-urlencoded" class="MCXref xref">Application/form-urlencoded</a> </li>
 </ul>
-<h3><a name="Raw"></a>Raw</h3>
+<h3 id="raw"><a name="Raw"></a>Raw</h3>
 <p class="PinkDraftNote">Screenshot</p>
 <p>The Raw body type is generally suitable for most HTTP body requests even is situations where developer documentation does not specify data to send, with the following field option of specifying content type as a form of parsing data.</p>
 <p class="PinkDraftNote">Screenshot</p>
 <p>Despite the content type selected, data is entered in any format that is stipulated or required by the developer documentation.</p>
-<h3><a name="Multipar"></a>Multipart/Form-Data</h3>
+<h3 id="multipart-form-data"><a name="Multipar"></a>Multipart/Form-Data</h3>
 <p>Multipart/form-data is an HTTP multipart request that HTTP clients construct to send files and data over to an HTTP module. It is commonly used to upload files to your desired server.</p>
 <p class="PinkDraftNote">Screenshot</p>
 <p>You will notice that when you select application form the input method changes and this entails that from the developer documentation you will have the relevant fields required, same also applies to Multipart/form-data whereby in order to receive files encoded with <code>multipart/form-data</code>, it is necessary to configure a data structure with a <code>collection </code>type field that contains the nested fields <code>name</code>, <code>mime </code>and <code>data</code>. So as you can see the way the information is received is different.</p>
-<h3><a name="Applicat"></a>Application/form-urlencoded</h3>
+<h3 id="application-form-urlencoded"><a name="Applicat"></a>Application/form-urlencoded</h3>
 <p>This body type is to POST data using <code>application/x-www-form-urlencoded</code></p>
 <p class="PinkDraftNote">Screenshot</p>
 <p>For <code>application/x-www-form-urlencoded</code>, the body of the HTTP message sent to the server is essentially one giant query string -- name/value pairs are separated by the ampersand (<code>&</code>), and names are separated by the fields name and value for easy use to you and replacing the equals symbol (=) used in coding. However, after you have configured the above it will look like the example shown below:</p>

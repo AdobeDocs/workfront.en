@@ -53,11 +53,11 @@ You must have the following access to perform the steps in this article:
 
 ## Budget resources in the Resource Planner
 
-* [Budget resources in the Project View](#budgeting-in-the-project-view) 
-* [Budget resources in the Role View](#budgeting-in-the-role-view) 
-* [Budget resources in bulk](#budget)
+* [Budget resources in the Project View](#budget-resources-in-the-project-view) 
+* [Budget resources in the Role View](#budget-resources-in-the-role-view) 
+* [Budget resources in bulk](#budget-resources-in-bulk)
 
-### **Budget resources in the Project View**<![CDATA[   ]]>
+### **Budget resources in the Project View**<![CDATA[   ]]> {#budget-resources-in-the-project-view}
 
 1. <![CDATA[				]]>Go to the **People** area in the Global Navigation Bar. <![CDATA[      ]]>
 1. <![CDATA[				]]>Select the **Planning** tab.<![CDATA[			]]><![CDATA[    ]]>
@@ -138,7 +138,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Select the User view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the User view.
 
-### **Budget resources in the Role View**
+### **Budget resources in the Role View** {#budget-resources-in-the-role-view}
 
 You must have Edit access to Resource Management and Financial Data and Manage Finance permissions on the projects in order to budget resources in the Resource Planner. If you only have View access to at least one project listed under a job role, you cannot budget allocations for the role in the Role view. You can still budget allocation for the projects where you have Manage permissions.
 
@@ -216,7 +216,7 @@ To budget allocations in the Resource Planner in the**** Role view:
 
 1. (Optional) Select the **View by User** view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the View by User view.
 
-### Budget resources in bulk
+### Budget resources in bulk {#budget-resources-in-bulk}
 
 You can budget allocations for your resources in bulk when using quick links. The quick links are available only for the Project and Role Views.
 

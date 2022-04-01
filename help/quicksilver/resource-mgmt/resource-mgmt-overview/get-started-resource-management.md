@@ -56,7 +56,7 @@ Workfront has several sets of tools used to manage resources. Although some of t
 
 The process of managing resources in&nbsp;Workfront includes the following stages:
 
-* **Configuration**: As a resource manager or Project Owner, you or your Workfront administrator must configure certain fields and objects in your Workfront instance before managing your resources. For more information about the prerequisites necessary to start managing resources in Workfront, see the [Prerequisites for accurate resource management](#prerequisites) section in this article.   
+* **Configuration**: As a resource manager or Project Owner, you or your Workfront administrator must configure certain fields and objects in your Workfront instance before managing your resources. For more information about the prerequisites necessary to start managing resources in Workfront, see the [Prerequisites for accurate resource management](#prerequisites-for-accurate-resource-management) section in this article.   
   In addition to having projects with work items, you must configure the following items in Workfront:
 
    * Users  
@@ -115,7 +115,7 @@ For information about the access needed to budget resources, see the article [Ac
 
 For information about the access needed to manage resources in the Workload Balancer, see [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
-##  Prerequisites for accurate resource management
+##  Prerequisites for accurate resource management  {#prerequisites-for-accurate-resource-management}
 
 You must meet a set of requirements before you can efficiently use the resource management tools in Workfront.
 

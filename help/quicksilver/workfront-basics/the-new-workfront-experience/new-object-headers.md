@@ -16,22 +16,22 @@ The headers of the following objects have been redesigned:
 
 | Object type |Section in this article |
 |---|---|
-| Home | [Home header overview](#home)  |
-| Project | [Project header overview](#project)  |
-| Task | [Task header overview](#task)  |
-| Issue | [Issue header overview](#issue)  |
-| Program | [Program header overview](#program)  |
-| Portfolio | [Portfolio header overview](#portfoli)  |
-| Template | [Template header overview](#templat)  |
-| Template Task | [Template Task header overview](#template)  |
-| Billing Record | [Billing Record header overview](#billing)  |
-| User | [User header overview](#user)  |
-| Team | [Team header overview](#team)  |
-| Iteration | [Iteration header overview](#iteratio)  |
-| Group | [Group header overview](#group)  |
-| Document | [Document header overview](#document)  |
-| Company | [Company header overview](#company)  |
-| Plan | [Plan header overview](#plan)  |
+| Home | [Home header overview](#home-header-overview)  |
+| Project | [Project header overview](#project-header-overview)  |
+| Task | [Task header overview](#task-header-overview)  |
+| Issue | [Issue header overview](#issue-header-overview)  |
+| Program | [Program header overview](#program-header-overview)  |
+| Portfolio | [Portfolio header overview](#portfolio-header-overview)  |
+| Template | [Template header overview](#template-header-overview)  |
+| Template Task | [Template Task header overview](#template-task-header-overview)  |
+| Billing Record | [Billing Record header overview](#billing-record-header-overview)  |
+| User | [User header overview](#user-header-overview)  |
+| Team | [Team header overview](#team-header-overview)  |
+| Iteration | [Iteration header overview](#iteration-header-overview)  |
+| Group | [Group header overview](#group-header-overview)  |
+| Document | [Document header overview](#document-header-overview)  |
+| Company | [Company header overview](#company-header-overview)  |
+| Plan | [Plan header overview](#plan-header-overview)  |
 
 For more information on objects, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -58,14 +58,14 @@ For example, to access the header of a project:
 
    ![](assets/project-header-350x18.png)
 
-## Home header overview
+## Home header overview {#home-header-overview}
 
 The following headers are available in Home:
 
-* Task: For more information on how you can use this header, see the [Task header overview](#task) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue) in this article.
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
 
-## Project header overview
+## Project header overview {#project-header-overview}
 
 ![](assets/project-header-350x18.png)
 
@@ -128,7 +128,7 @@ The project header displays the following information:
  </tbody> 
 </table>
 
-## Task header overview
+## Task header overview {#task-header-overview}
 
 ![](assets/task-header-350x18.png)
 
@@ -191,7 +191,7 @@ The task header includes the following information:
  </tbody> 
 </table>
 
-## Issue header overview
+## Issue header overview {#issue-header-overview}
 
 ![](assets/issue-header-350x19.png)
 
@@ -254,7 +254,7 @@ The issue header includes the following information:
  </tbody> 
 </table>
 
-## Program header overview
+## Program header overview {#program-header-overview}
 
 ![](assets/program-header-350x18.png)
 
@@ -313,7 +313,7 @@ The program header displays the following information:
  </tbody> 
 </table>
 
-## Portfolio header overview
+## Portfolio header overview {#portfolio-header-overview}
 
 ![](assets/portfolio-header-350x19.png)
 
@@ -376,7 +376,7 @@ The portfolio header includes the following information:
  </tbody> 
 </table>
 
-##  Template header overview
+##  Template header overview {#template-header-overview}
 
 ![](assets/template-header-350x18.png)
 
@@ -423,7 +423,7 @@ The template header displays the following information:
  </tbody> 
 </table>
 
-## Template Task header overview
+## Template Task header overview {#template-task-header-overview}
 
 ![](assets/template-task-header-350x18.png)
 
@@ -470,7 +470,7 @@ The template task header displays the following information:
  </tbody> 
 </table>
 
-## Billing Record header overview
+## Billing Record header overview {#billing-record-header-overview}
 
 ![](assets/billing-record-header-nwe-350x19.png)
 
@@ -525,7 +525,7 @@ The billing record header displays the following information:
  </tbody> 
 </table>
 
-## User header overview
+## User header overview {#user-header-overview}
 
 ![](assets/user-header-350x20.png)
 
@@ -577,7 +577,7 @@ The user header displays the following information:
  </tbody> 
 </table>
 
-## Team header overview
+## Team header overview {#team-header-overview}
 
 ![](assets/team-header-350x23.png)
 
@@ -620,7 +620,7 @@ The team header displays the following information:
  </tbody> 
 </table>
 
-## Iteration header overview
+## Iteration header overview {#iteration-header-overview}
 
 ![](assets/iteration-header-350x19.png)
 
@@ -667,7 +667,7 @@ The iteration header displays the following information:
  </tbody> 
 </table>
 
-## Group header overview
+## Group header overview {#group-header-overview}
 
 ![](assets/nwe-group-header-350x20.png)
 
@@ -719,7 +719,7 @@ The group header displays the following information:
  </tbody> 
 </table>
 
-## Document header overview
+## Document header overview {#document-header-overview}
 
 ![](assets/document-header-350x19.png)
 
@@ -762,7 +762,7 @@ The document header displays the following information:
  </tbody> 
 </table>
 
-## Company header overview
+## Company header overview {#company-header-overview}
 
 ![](assets/company-header-350x20.png)
 
@@ -801,7 +801,7 @@ The company header displays the following information:
  </tbody> 
 </table>
 
-## Plan header overview
+## Plan header overview {#plan-header-overview}
 
 ![](assets/nwe-plan-header-350x34.png)
 

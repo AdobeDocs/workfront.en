@@ -77,11 +77,11 @@ The criteria used to determine&nbsp;the Projected Completion Date differs, depen
 
 You can view the Projected Completion Date of projects, tasks, and issues in reports. You can view the Projected Completion Date of projects and tasks in other areas of Workfront.&nbsp;
 
-* [View the Projected Completion Date of a project](#viewing-the-projected-completion-date-of-a-project) 
-* [View the Projected Completion Date of a task](#viewing-the-projected-completion-date-of-a-task) 
-* [View the Projected Completion Date of an issue](#viewing-the-projected-completion-date-of-an-issue)
+* [View the Projected Completion Date of a project](#view-the-projected-completion-date-of-a-project) 
+* [View the Projected Completion Date of a task](#view-the-projected-completion-date-of-a-task) 
+* [View the Projected Completion Date of an issue](#view-the-projected-completion-date-of-an-issue)
 
-### View the Projected Completion Date of a&nbsp;project
+### View the Projected Completion Date of a&nbsp;project {#view-the-projected-completion-date-of-a-project}
 
 1. Go to the project where you want to view the Projected Completion Date.
 1. Click the **Project Details** tab.
@@ -89,7 +89,7 @@ You can view the Projected Completion Date of projects, tasks, and issues in rep
 
    ![project_projected_completion_date.png](assets/project-projected-completion-date-350x364.png)
 
-### View the Projected Completion Date of a&nbsp;task
+### View the Projected Completion Date of a&nbsp;task {#view-the-projected-completion-date-of-a-task}
 
 1. Go to the task where you want to view the Projected Completion Date.
 1. Click the **Task Details** tab.&nbsp;
@@ -97,7 +97,7 @@ You can view the Projected Completion Date of projects, tasks, and issues in rep
 
    ![projected_task.png](assets/projected-task-350x351.png)
 
-### View the Projected Completion Date of an&nbsp;issue
+### View the Projected Completion Date of an&nbsp;issue {#view-the-projected-completion-date-of-an-issue}
 
 You can view the Projected Completion Date for issues only in an issue report or list view.&nbsp;Creating a list view is similar to creating the view in a report.
 

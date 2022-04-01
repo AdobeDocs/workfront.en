@@ -15,7 +15,7 @@ description: You can view side-by-side comparisons of two proofs. These can be t
 
 You can view side-by-side comparisons of two proofs. These can be two versions of the same proof, or two completely separate proofs.
 
-## Compare proof versions
+## Compare proof versions {#compare-proof-versions}
 
 1. Open the proof that has multiple versions you want to compare.
 1. In the upper-left corner of the proofing viewer that displays, click the name of the proof. Then, in the list of versions that appears, click the **Compare** icon next to the version you want to open and compare.
@@ -32,20 +32,20 @@ You can view side-by-side comparisons of two proofs. These can be two versions o
    <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/compare-proofs-breadcrumbs-350x148.jpg" style="width: 350;height: 148;"> </p>
    -->
 
-1. Continue with [Use the compare tools](#using-compare-tools).
+1. Continue with [Use the compare tools](#use-the-compare-tools).
 
-## Compare separate proofs
+## Compare separate proofs {#compare-separate-proofs}
 
 You can compare two separate proofs.&nbsp;
 
-* [Compare separate proofs in Workfront](#comparing-separate-proofs-in-workfront) 
-* [Compare separate proofs in Workfront Proof](#comparing-separate-proofs-in-workfront-proof)
+* [Compare separate proofs in Workfront](#compare-separate-proofs-in-workfront) 
+* [Compare separate proofs in Workfront Proof](#compare-separate-proofs-in-workfront-proof)
 
-### Compare separate proofs in Workfront
+### Compare separate proofs in Workfront {#compare-separate-proofs-in-workfront}
 
 For information about comparing separate proofs from the document list within Workfront, see the [Compare two different proofs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md#comparing-two-proofs-from-a-document-list) section in the [Compare proofs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md) article.
 
-### Compare separate proofs in Workfront Proof
+### Compare separate proofs in Workfront Proof {#compare-separate-proofs-in-workfront-proof}
 
 >[!NOTE]
 >
@@ -69,17 +69,17 @@ For information about comparing separate proofs from the document list within Wo
 
    Both proofs appear.
 
-1. Continue with [Use the compare tools](#using-compare-tools).
+1. Continue with [Use the compare tools](#use-the-compare-tools).
 
-## Use the compare tools
+## Use the compare tools {#use-the-compare-tools}
 
 The proofing viewer provides various tools for comparing proofs effectively and efficiently.&nbsp;
 
-* [Auto-compare proofs](#autocomparing-proofs) 
-* [Compare proofs in an overlay](#comparing-proofs-in-an-overlay) 
+* [Auto-compare proofs](#auto-compare-proofs) 
+* [Compare proofs in an overlay](#compare-proofs-in-an-overlay) 
 * [Simultaneous navigation comparison](#simultaneous-navigation-comparison)
 
-### Auto-compare proofs
+### Auto-compare proofs {#auto-compare-proofs}
 
 Auto-compare does a pixel-by-pixel comparison between two static or video proofs. Any differences detected are highlighted in red in the proof on the left.
 
@@ -89,8 +89,8 @@ To auto-compare two proofs:
 
 1. Begin comparing proofs in either of the following ways:
 
-   * Compare two versions of the same proof (see [Compare proof versions](#comparing-proof-versions) in this article).
-   * Compare two separate proofs (see [Compare separate proofs](#comparing-separate-proofs) in this article).
+   * Compare two versions of the same proof (see [Compare proof versions](#compare-proof-versions) in this article).
+   * Compare two separate proofs (see [Compare separate proofs](#compare-separate-proofs) in this article).
 
 1. Click the **Autocompare** icon.
 
@@ -106,7 +106,7 @@ To auto-compare two proofs:
 
    ![proof_compare_color.png](assets/proof-compare-color.png)
 
-### Compare proofs in an overlay
+### Compare proofs in an overlay {#compare-proofs-in-an-overlay}
 
 Overlay comparison enables you to view differences between two static proofs by viewing the two proofs as a single proof, while providing a vertical divider down the center of the proof. As you pan the proof across the vertical divider, the differences are displayed.&nbsp;
 
@@ -118,8 +118,8 @@ To enable overlay comparison:
 
 1. Begin comparing proofs in either of the following ways:
 
-   * Compare two versions of the same proof (see [Compare proof versions](#comparing-proof-versions) in this article).
-   * Compare two separate proofs (see [Compare separate proofs](#comparing-separate-proofs) in this article).
+   * Compare two versions of the same proof (see [Compare proof versions](#compare-proof-versions) in this article).
+   * Compare two separate proofs (see [Compare separate proofs](#compare-separate-proofs) in this article).
 
 1. Click the **Overlay** icon.
 
@@ -132,7 +132,7 @@ To enable overlay comparison:
    * Pan the proof across the vertical divider. As you pan, you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.&nbsp;
    * Move the vertical divider to the left and right. As you move the divider,&nbsp;you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.&nbsp;
 
-### Simultaneous navigation comparison
+### Simultaneous navigation comparison {#simultaneous-navigation-comparison}
 
 Simultaneous navigation is enabled by default when comparing proofs. It is available when comparing a static proof and a static proof, or when comparing a video proof and video proof. It is not available when comparing a static proof and a video proof.
 
@@ -144,8 +144,8 @@ To enable simultaneous navigation if it is not already enabled:
 
 1. Begin comparing proofs in either of the following ways:
 
-   * Compare two versions of the same proof (see [Compare proof versions](#comparing-proof-versions) in this article).
-   * Compare two separate proofs (see [Compare separate proofs](#comparing-separate-proofs) in this article).
+   * Compare two versions of the same proof (see [Compare proof versions](#compare-proof-versions) in this article).
+   * Compare two separate proofs (see [Compare separate proofs](#compare-separate-proofs) in this article).
 
 1. Click the **Simultaneous Navigation** icon.
 

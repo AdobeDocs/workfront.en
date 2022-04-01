@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Create the report about existing reports
+## Create the report about existing reports {#create-the-report-about-existing-reports}
 
 1. Click **Reports** on the Global Navigation Bar.
 1. Click the **Reports** tab, then **New Report**.
@@ -92,5 +92,5 @@ After creating your report, you can update your reports as needed.
    
    * Share a report:&nbsp;For more information, see [Share a report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-1. (Conditional) If you copy the original reports, use the information from the report you created in [Create the report about existing reports](#create) to share the new copies with the same entities as the original reports.
+1. (Conditional) If you copy the original reports, use the information from the report you created in [Create the report about existing reports](#create-the-report-about-existing-reports) to share the new copies with the same entities as the original reports.
 

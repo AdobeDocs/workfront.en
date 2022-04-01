@@ -44,7 +44,7 @@ You must have the following:
 
 If you want to delete a dashboard, you can delete it using the Actions menu.
 
-For information on deleting a dashboard with an external page embedded, see [Delete a dashboard from the Dashboards area](#delete).
+For information on deleting a dashboard with an external page embedded, see [Delete a dashboard from the Dashboards area](#delete-a-dashboard-from-the-dashboards-area).
 
 To delete a dashboard:
 
@@ -56,7 +56,7 @@ To delete a dashboard:
 1. To confirm that you want to delete the dashboard, click **Yes, Delete it.** 
    The dashboard is removed from Workfront.
 
-## Delete a dashboard from the Dashboards area
+## Delete a dashboard from the Dashboards area {#delete-a-dashboard-from-the-dashboards-area}
 
 If you are deleting multiple dashboards, you can delete the dashboards from the Dashboards tab. This is also the only way to delete a dashboard with an external page.
 

@@ -1,6 +1,6 @@
 
 
-# ```Workfront Tools for AEM User Guide : Versioning```
+# ```Workfront Tools for AEM User Guide : Versioning```  {#title-heading}
 
 ## Access requirements
 
@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
 
   For instructions, see [Workfront Tools for AEM User Guide: Installation Guide 1.x.x](../../workfront-integrations-and-apps/workfront-integration-for-aem/installation-guide.md)
 
-## Advanced Settings for Versioning
+## Advanced Settings for Versioning {#versioning-advancedsettingsforversioning}
 
 * Store assets with the same name as versions of the existing asset:
 
@@ -52,7 +52,7 @@ When an asset has been sent from Workfront to AEM the version history of the ass
 
 ![](assets/aem-versions-350x334.png)
 
-## Current Limitations of Versioning
+## Current Limitations of Versioning {#versioning-currentlimitationsofversioning}
 
 * Workfront document versioning is currently unsupported within linked folders.
 

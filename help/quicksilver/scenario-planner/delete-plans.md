@@ -51,10 +51,10 @@ You must have the following:
 
 You can delete a plan or you can delete one scenario in a plan.
 
-* [Delete plans](#delete3) 
-* [Delete scenarios](#delete4)
+* [Delete plans](#delete-plans) 
+* [Delete scenarios](#delete-scenarios)
 
-### Delete plans
+### Delete plans {#delete-plans}
 
 >[!IMPORTANT]
 >
@@ -78,7 +78,7 @@ To delete a plan:
 
    The plan is deleted and you return to the list of plans.
 
-### Delete scenarios
+### Delete scenarios {#delete-scenarios}
 
 >[!IMPORTANT]
 >

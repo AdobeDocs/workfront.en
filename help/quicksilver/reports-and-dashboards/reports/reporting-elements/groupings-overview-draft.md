@@ -56,11 +56,11 @@ Consider the following when working with groupings:
 
 You can further manage report information when using groupings by aggregating the values in each column on the grouping row, as well as sort your information by the field of your grouping. You can also remove a grouping when it is no longer needed.
 
-* [Aggregate values in groupings](#aggregat) 
-* [Sort by a grouping](#sorting-by-a-grouping) 
-* [Remove a grouping](#removing-a-grouping)
+* [Aggregate values in groupings](#aggregate-values-in-groupings) 
+* [Sort by a grouping](#sort-by-a-grouping) 
+* [Remove a grouping](#remove-a-grouping)
 
-### Aggregate values in groupings
+### Aggregate values in groupings {#aggregate-values-in-groupings}
 
 You can aggregate&nbsp;the data displayed in your report in your grouping line by summarizing the values in each column of the report. For more information about summarizing column data in a grouping, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -73,11 +73,11 @@ You can aggregate&nbsp;the data displayed in your report in your grouping line b
 >* Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. 
 >
 
-### Sort by a grouping
+### Sort by a grouping {#sort-by-a-grouping}
 
 Groupings cannot be sorted. Views can be sorted. In order to sort&nbsp;a list by the value captured in the grouping, you must include that same value in one of the columns of the view and apply the sorting in the view. This way, the list sorts by the value in the grouping indirectly (it sorts by the value in the view which is also captured in the grouping). For more information about creating views and sorting by values inside the views, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-### Remove a grouping
+### Remove a grouping {#remove-a-grouping}
 
 How you remove a grouping&nbsp;depends on whether you initially created the grouping,&nbsp;or the grouping&nbsp;was shared with you.&nbsp;You cannot remove&nbsp;a default grouping.
 

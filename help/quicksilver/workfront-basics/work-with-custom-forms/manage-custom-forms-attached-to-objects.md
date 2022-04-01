@@ -46,7 +46,7 @@ You must have the following access to perform the actions described in this arti
 
   For information about how to apply custom forms to an object, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-## Reorder multiple custom forms attached to an object
+## Reorder multiple custom forms attached to an object {#reorder-multiple-custom-forms-attached-to-an-object}
 
 1. Go to the object where you want to change the order of the added custom forms, ,then start to edit the object.
 
@@ -58,7 +58,7 @@ You must have the following access to perform the actions described in this arti
 
    For all other objects, click **I'm done managing** >&nbsp;**Save Changes**.
 
-## Remove a custom form from an object
+## Remove a custom form from an object {#remove-a-custom-form-from-an-object}
 
 >[!IMPORTANT]
 >
@@ -114,11 +114,11 @@ To edit multiple custom forms when editing objects in bulk:
 
 1. (Optional) If you added custom forms to all the objects, but you have not saved the objects yet, you can change the order in which the custom forms appear on the objects.
 
-   For more information about changing the order of the forms, see [Reorder multiple custom forms attached to an object](#reorder) in this article.
+   For more information about changing the order of the forms, see [Reorder multiple custom forms attached to an object](#reorder-multiple-custom-forms-attached-to-an-object) in this article.
 
 1. Click **Remove Form** to remove a custom form from the objects.
 
-   For more information about removing custom forms from objects, see [Remove a custom form from an object](#removing-a-custom-form-from-an-object).
+   For more information about removing custom forms from objects, see [Remove a custom form from an object](#remove-a-custom-form-from-an-object).
 
    Consider the following when removing forms in bulk from several objects:
 

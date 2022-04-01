@@ -69,7 +69,7 @@ You must have the following access to use the functionality in this article:
 1. (Optional) To enter a description of the template, click Set up a template ![](assets/fusion-scenario-settings-icon.png) and enter the description.
 1. Add apps, modules, and tools in the same way as you would do when creating a standard scenario.
 
-   To add contextual help to the modules, see [Set up Wizard functionality](#wizard) in this article.
+   To add contextual help to the modules, see [Set up Wizard functionality](#set-up-wizard-functionality) in this article.
 
    For more information on building a scenario, see [Create a scenario](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -84,7 +84,7 @@ You must have the following access to use the functionality in this article:
 >
 >By saving your template you make it visible for all your team members. If you want your template to be accessible outside of your team you need to publish it and then use a shared link, or ask your administrator to approve and publish the template.
 
-## Set up Wizard functionality
+## Set up Wizard functionality {#set-up-wizard-functionality}
 
 The Workfront Fusion template wizard allows you to provide future users of your template with instructions or information related to the specific fields used in modules.
 

@@ -46,13 +46,13 @@ You must have the following access to perform the steps in this article:
 
 1. Continue with the following sections:
 
-   * [Template preferences](#template2) 
-   * [Role mapping](#role) 
-   * [Team mapping](#team) 
-   * [Company mapping](#company) 
-   * [Group mapping](#group)
+   * [Template preferences](#template-preferences) 
+   * [Role mapping](#role-mapping) 
+   * [Team mapping](#team-mapping) 
+   * [Company mapping](#company-mapping) 
+   * [Group mapping](#group-mapping)
 
-## Template preferences
+## Template preferences {#template-preferences}
 
 Choose how you want to install the template.
 
@@ -112,7 +112,7 @@ You can also designate template ownership before you install the blueprint. You 
    >   
    >
 
-## Role mapping
+## Role mapping {#role-mapping}
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ The blueprint searches by the role name to see if any existing roles match. The 
 
 For more information about job roles in Workfront, see [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-## Team mapping
+## Team mapping {#team-mapping}
 
 >[!NOTE]
 >
@@ -174,7 +174,7 @@ The blueprint searches by the team name to see if any existing teams match. The 
 
 For more information about how teams function in Workfront, see [Create and manage teams](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
-## Company mapping
+## Company mapping {#company-mapping}
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ For information about associating a template with a company, see [Edit project t
 
 For information about how companies function in Workfront, see [Create and edit companies](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-## Group mapping
+## Group mapping {#group-mapping}
 
 >[!NOTE]
 >

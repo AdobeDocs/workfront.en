@@ -31,7 +31,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Receive email invitations
+## Receive email invitations {#receive-email-invitations}
 
 When a Workfront administrator creates a new user and chooses to send the user an email invitation, the new user receives an invitation email, which&nbsp;looks similar to the following:  
 ![](assets/email-invitation-for-all-users-preview-350x262.png)
@@ -52,7 +52,7 @@ To create a password for Workfront using the invitation email:
 
 1. Click **Get Started** in the invitation email from Workfront.
 
-   For more information about receiving an invitation email, see [Receive email invitations](#receiving-email-invitations).
+   For more information about receiving an invitation email, see [Receive email invitations](#receive-email-invitations).
 
    ![New user screen from email invitation](assets/new-user-screen-from-invitation-adobe-350x292.png)
 

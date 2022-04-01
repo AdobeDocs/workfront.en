@@ -110,8 +110,8 @@ As a project manager, you can also change this preference at the project level, 
 
 The Performance Index Method (PIM) for the project controls the method Workfront uses to calculate performance metrics such as [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) and [Calculate Estimate At Completion (EAC)](../../../manage-work/projects/project-finances/calculate-eac.md). Workfront allows you to choose hour-based or cost-based as the PIM of the project.
 
-* [Calculating EAC Using Hour-Based PIM](#hour-based-pim) 
-* [Calculating EAC Using Cost-Based PIM](#cost-based-pim)
+* [Calculating EAC Using Hour-Based PIM](#calculating-eac-using-hour-based-pim) 
+* [Calculating EAC Using Cost-Based PIM](#calculating-eac-using-cost-based-pim)
 
 In Workfront, the calculation for EAC depends on the selected Performance Index Method (PIM) of the project. For more information about calculating PIM, see [Set the Performance Index Method (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
@@ -121,11 +121,11 @@ EAC = Total Planned Hours / CPI&#42;
 
 &#42;If [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Total Planned Hours + Actual Hours. <this occurs when hours have been captured, but project/task is at 0% complete>
 
-### Calculating EAC Using Cost-Based PIM
+### Calculating EAC Using Cost-Based PIM {#calculating-eac-using-cost-based-pim}
 
-[Calculating EAC Using Cost-Based PIM for Labor Costs Only](#pim-for-labor-costs-only)
+[Calculating EAC Using Cost-Based PIM for Labor Costs Only](#calculating-eac-using-cost-based-pim-for-labor-costs-only)
 
-[Calculating EAC Using Cost-Based PIM for Total Costs](#pim-for-total-cost)
+[Calculating EAC Using Cost-Based PIM for Total Costs](#calculating-eac-using-cost-based-pim-for-total-costs)
 
 **Calculating EAC Using Cost-Based PIM for Labor Costs Only**
 

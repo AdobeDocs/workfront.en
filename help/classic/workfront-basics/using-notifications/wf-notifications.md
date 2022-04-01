@@ -22,15 +22,15 @@ Workfront sends out a number of email notifications to alert users about activit
 
 You can receive the following email notifications from Workfront:
 
-* [Event notifications](#understanding-instant-and-daily-digest-notifications) 
-* [Daily digest notifications](#daily) 
-* [Notification of posted comments](#notifica) 
+* [Event notifications](#event-notifications) 
+* [Daily digest notifications](#daily-digest-notifications) 
+* [Notification of posted comments](#notification-of-posted-comments) 
 * [Automatic reminders](#automatic-reminders) 
 * [Reminder notifications](#reminder-notifications) 
-* [Other Workfront emails](#other) 
-* [Email notifications from Workfront Goals](#workfront-align)
+* [Other Workfront emails](#other-workfront-emails) 
+* [Email notifications from Workfront Goals](#email-notifications-from-workfront-goals)
 
-### Event notifications
+### Event notifications {#event-notifications}
 
 Event notifications are predefined in Workfront. They are usually triggered by certain events.
 
@@ -48,7 +48,7 @@ For information about how to choose which event notifications you want to receiv
 >
 >Event notifications are the only notifications that can be configured to be delivered in daily digest updates.
 
-### Daily digest notifications
+### Daily digest notifications {#daily-digest-notifications}
 
 For a complete list of what email notifications have been enabled for a daily digest email delivery as well as information about all the categories for email notifications, see [Event notifications](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
@@ -70,7 +70,7 @@ There are several things to be aware of when receiving daily digest notification
 * The daily digest emails have the name of the section in the subject line, as well as the date on which they are delivered.
 * At least one event must trigger a notification&nbsp;in order for the daily digest to be delivered. Daily digests are not sent if no events marked for daily digest emails are met.
 
-### Notification of posted comments
+### Notification of posted comments {#notification-of-posted-comments}
 
 The notifications in the Communication category alert you to comments that have been posted in the Update stream of a specific item.
 
@@ -86,7 +86,7 @@ To learn more about Communication emails, see [Activate or deactivate your own e
 
 For more information about enabling daily digest notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-### Automatic reminders
+### Automatic reminders {#automatic-reminders}
 
 Automatic reminders are enabled by your Workfront administrator to alert you of tasks and issues that are due, late, or near the planned completion date. For late notifications, the email is sent nightly until the task or issue is completed. After the administrator configures these, you cannot disable them. Also, you cannot change the content or the subject line of an email triggered by an automatic reminder.
 
@@ -111,7 +111,7 @@ Depending which automatic reminder is activated, the following kinds of informat
 
 For information about enabling automatic reminders, see [Set up automatic reminders](../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md).
 
-### Reminder notifications
+### Reminder notifications {#reminder-notifications}
 
 A Workfront administrator (or a user with a Planner access level and administrative access to reminder notifications) can design reminder notifications about approaching deadlines and attach them to projects, tasks, issues, and timesheets. For more information about how you can get the required administrative access, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -123,7 +123,7 @@ Reminder notifications&nbsp;are sent from the email address that the Workfront a
 
 For information about setting up and enabling reminder notifications, see [Set up reminder notifications](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-### Other Workfront emails
+### Other Workfront emails {#other-workfront-emails}
 
 There are other emails you might receive from Workfront which cannot be configured. The following emails are automatically sent by Workfront when these conditions are met:
 
@@ -141,7 +141,7 @@ The following emails can only be configured at the user profile level. They cann
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3><a name="workfront-align"></a>Email notifications from Workfront Goals</h3>
+<h3 id="email-notifications-from-workfront-goals"><a name="workfront-align"></a>Email notifications from Workfront Goals</h3>
 <div class="workfront_plans">
 <p>Your organization must have the following to use the functionality described in this article: </p>
 <ul>

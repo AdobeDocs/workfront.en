@@ -45,11 +45,11 @@ Consider the following when working with groupings:
 
 You can further manage report information when using Groupings by aggregating the values in each column on the Grouping row, as well as sort your information by the field of your Grouping. You can also remove a Grouping when it is no longer needed.
 
-* [Aggregate values in groupings](#aggregat) 
-* [Sort by a grouping](#sorting-by-a-grouping) 
-* [Remove a grouping](#removing-a-grouping)
+* [Aggregate values in groupings](#aggregate-values-in-groupings) 
+* [Sort by a grouping](#sort-by-a-grouping) 
+* [Remove a grouping](#remove-a-grouping)
 
-### Aggregate values in groupings
+### Aggregate values in groupings {#aggregate-values-in-groupings}
 
 You can aggregate the data displayed in your report in your grouping line by summarizing the values in each column of the report. For more information about summarizing column data in a grouping, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -62,11 +62,11 @@ You can aggregate the data displayed in your report in your grouping line by sum
 >* Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
 >
 
-### Sort by a grouping
+### Sort by a grouping {#sort-by-a-grouping}
 
 Groupings cannot be sorted. Views can be sorted. In order to sort a list by the value captured in the grouping, you must include that same value in one of the columns of the view and apply the sorting in the view. This way, the list sorts by the value in the grouping indirectly (it sorts by the value in the view which is also captured in the grouping). For more information about creating views and sorting by values inside the views, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-### Remove a grouping
+### Remove a grouping {#remove-a-grouping}
 
 How you remove a grouping depends on whether you initially created the grouping, or the grouping was shared with you. You cannot remove a default grouping.
 
@@ -96,15 +96,15 @@ For information about removing a grouping, see the article [Remove filters, view
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#sorting-by-a-grouping" class="MCXref xref">Sort by a grouping</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#sort-by-a-grouping" class="MCXref xref">Sort by a grouping</a> </li>
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#removing-a-grouping" class="MCXref xref">Remove a grouping</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#remove-a-grouping" class="MCXref xref">Remove a grouping</a> </li>
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="understanding-groupings"></a>Understanding Groupings</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="understanding-groupings"><a name="understanding-groupings"></a>Understanding Groupings</h2>
 -->
 
 <!--
@@ -152,7 +152,7 @@ For information about removing a grouping, see the article [Remove filters, view
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="creating-or-customizing-a-grouping"></a>Creating or Customizing a Grouping</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-or-customizing-a-grouping"><a name="creating-or-customizing-a-grouping"></a>Creating or Customizing a Grouping</h2>
 -->
 
   <!--
@@ -168,7 +168,7 @@ For information about removing a grouping, see the article [Remove filters, view
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Customizing_an_Existing_Grouping"></a>Customizing an Existing Grouping</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="customizing-an-existing-grouping"><a name="Customizing_an_Existing_Grouping"></a>Customizing an Existing Grouping</h3>
 -->
 
    <!--
@@ -204,7 +204,7 @@ For information about removing a grouping, see the article [Remove filters, view
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating_a_New_Grouping_Based_on_an_Existing_Grouping"></a>Creating a New Grouping Based on an Existing Grouping</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-a-new-grouping-based-on-an-existing-grouping"><a name="Creating_a_New_Grouping_Based_on_an_Existing_Grouping"></a>Creating a New Grouping Based on an Existing Grouping</h3>
 -->
 
    <!--
@@ -240,7 +240,7 @@ For information about removing a grouping, see the article [Remove filters, view
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating_a_New_Grouping_from_Scratch"></a>Creating a New Grouping from Scratch</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="creating-a-new-grouping-from-scratch"><a name="Creating_a_New_Grouping_from_Scratch"></a>Creating a New Grouping from Scratch</h3>
 -->
 
    <!--
@@ -272,7 +272,7 @@ For information about removing a grouping, see the article [Remove filters, view
    -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="aggregating-values-in-groupings"></a>Aggregating Values in Groupings</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="aggregating-values-in-groupings"><a name="aggregating-values-in-groupings"></a>Aggregating Values in Groupings</h2>
 -->
 
 <!--

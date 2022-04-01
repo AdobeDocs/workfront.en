@@ -64,10 +64,10 @@ Fusion licensing determines the number of active scenarios and active apps that 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-dashboard-350x109.png" style="width: 350;height: 109;"> </p>
 -->
 
-* [Organization roles](#organiza) 
-* [Inviting users to an organization](#inviting)
+* [Organization roles](#organization-roles) 
+* [Inviting users to an organization](#inviting-users-to-an-organization)
 
-### Organization roles
+### Organization roles {#organization-roles}
 
 A user has one of the following roles in an organization:
 
@@ -77,7 +77,7 @@ A user has one of the following roles in an organization:
 * **Accountant**: An accountant role only allows users to see license information on the organization dashboard.
 * **App Developer**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
 
-### Inviting users to an organization
+### Inviting users to an organization {#inviting-users-to-an-organization}
 
 By default, an organization owner (or authorized user) can invite another person to join their organization.
 
@@ -89,7 +89,7 @@ To invite a user to join an organization:
    ![](assets/fusion-organization-invite-user-350x199.png)
 
 1. Fill in the user's email address and name. 
-1. Select a role for the user. For more information on roles, see [Organization roles](#organiza) in this document.
+1. Select a role for the user. For more information on roles, see [Organization roles](#organization-roles) in this document.
 1. (Optional) Add a note. This note appears in the invitation email that the user receives.
 1. Click **Save**.
 
@@ -125,10 +125,10 @@ Organizations may have as many teams as they need, and users may belong to one o
 
 Users can select their team from the dropdown list in the left navigation panel. Users only see teams that they are members of. Selecting a team will allow a user to access that team's resources.
 
-* [Team roles](#team2) 
-* [Team Management](#team)
+* [Team roles](#team-roles) 
+* [Team Management](#team-management)
 
-### Team roles
+### Team roles {#team-roles}
 
 A user has one of the following roles in each of their teams:
 
@@ -138,12 +138,12 @@ A user has one of the following roles in each of their teams:
 * **Team Operator**: The operator role allows users to see execution data and change the “Active” status of scenarios.
 * **Team Restricted Member**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
 
-### Team Management
+### Team Management {#team-management}
 
-* [Create a team](#create) 
-* [Set Team Notification Options](#set)
+* [Create a team](#create-a-team) 
+* [Set Team Notification Options](#set-team-notification-options)
 
-#### Create a team
+#### Create a team {#create-a-team}
 
 Organization owners and administrators are able to create teams.
 
@@ -154,7 +154,7 @@ To create a team:
 1. Click **Add a new team** under the list of teams.
 1. Enter a name for the new team, and click **Add**.
 
-#### Set Team Notification Options
+#### Set Team Notification Options {#set-team-notification-options}
 
 Email notification options are set on the team level.
 

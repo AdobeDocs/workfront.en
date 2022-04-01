@@ -68,13 +68,13 @@ To manage the Workfront notifications that you can receive in Microsoft Teams:
    This channel is for your personal chat with the Workfront bot. All Workfront notifications display here.&nbsp;
 1. Depending on what type of notification you receive, proceed&nbsp;to the relevant section:
 
-   * [Approval notifications](#approval) 
-   * [Assignment notifications](#assignme) 
-   * [Comment notifications](#comment) 
-   * [Update notifications](#update) 
-   * [Date Change notifications](#date)
+   * [Approval notifications](#approval-notifications) 
+   * [Assignment notifications](#assignment-notifications) 
+   * [Comment notifications](#comment-notifications) 
+   * [Update notifications](#update-notifications) 
+   * [Date Change notifications](#date-change-notifications)
 
-### Approval notifications
+### Approval notifications {#approval-notifications}
 
 You receive approval notifications when you are asked to approve an object, such as a task, timesheet, or proof. You can still comment on the notification, however.From the approval notification, you can perform the following actions:
 
@@ -215,7 +215,7 @@ You receive approval notifications when you are asked to approve an object, such
  </tbody> 
 </table>
 
-### Assignment notifications
+### Assignment notifications {#assignment-notifications}
 
 You receive assignment notifications when you, or a team you are on, are assigned to a task or issue in Workfront. From the assignment notification, you can perform the following actions:
 
@@ -266,7 +266,7 @@ You receive assignment notifications when you, or a team you are on, are assigne
  </tbody> 
 </table>
 
-### Comment notifications
+### Comment notifications {#comment-notifications}
 
 You receive a communication notification when someone comments on an item you are associated with, or includes you in an update. From the communication notification, you can perform the following actions:
 
@@ -330,7 +330,7 @@ You receive a communication notification when someone comments on an item you ar
  </tbody> 
 </table>
 
-### Update notifications
+### Update notifications {#update-notifications}
 
 You receive an information notification when there is an update to an item you are associated with, but you do not need to take any action on the item. From the information notification, you can perform the following actions:
 
@@ -369,7 +369,7 @@ You receive an information notification when there is an update to an item you a
  </tbody> 
 </table>
 
-### Date Change notifications
+### Date Change notifications {#date-change-notifications}
 
 You receive a date change notification when the date changes on a work item you are assigned to. From the date change notification, you can perform the following actions.
 

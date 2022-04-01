@@ -56,14 +56,14 @@ For specific release dates and times for each cluster, see the
 
 ## Adobe Workfront enhancements
 
-* [Administrator enhancements](#administ) 
-* [Project enhancements](#project) 
-* [Resource Management enhancements](#resource) 
-* [Requests enhancements](#requests) 
-* [Proofing enhancements](#proofing) 
-* [Other enhancements](#other)
+* [Administrator enhancements](#administrator-enhancements) 
+* [Project enhancements](#project-enhancements) 
+* [Resource Management enhancements](#resource-management-enhancements) 
+* [Requests enhancements](#requests-enhancements) 
+* [Proofing enhancements](#proofing-enhancements) 
+* [Other enhancements](#other-enhancements)
 
-### Administrator enhancements
+### Administrator enhancements {#administrator-enhancements}
 
 <table> 
  <col> 
@@ -88,7 +88,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Project enhancements
+### Project enhancements {#project-enhancements}
 
 <table> 
  <col> 
@@ -149,7 +149,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Resource Management enhancements
+### Resource Management enhancements {#resource-management-enhancements}
 
 <table> 
  <col> 
@@ -166,7 +166,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Requests enhancements
+### Requests enhancements {#requests-enhancements}
 
 <table> 
  <col> 
@@ -187,7 +187,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Proofing enhancements
+### Proofing enhancements {#proofing-enhancements}
 
 <table> 
  <col> 
@@ -208,7 +208,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Other enhancements
+### Other enhancements {#other-enhancements}
 
 <table> 
  <col> 

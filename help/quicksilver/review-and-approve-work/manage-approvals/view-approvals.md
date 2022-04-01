@@ -54,7 +54,7 @@ You can view or manage approvals from the following areas:
 * In the Home area
 
    * All projects, tasks,&nbsp;issues, timesheets,&nbsp;documents, and access awaiting your approval are displayed in the Home area when you select to view All or Approvals.
-   * Approvals that you submitted yourself also display in the Home area, in the Approvals I've Submitted section of the Work List. For more information, see the [Review work you submit for approval in the Home area](#review) section in this article.
+   * Approvals that you submitted yourself also display in the Home area, in the Approvals I've Submitted section of the Work List. For more information, see the [Review work you submit for approval in the Home area](#review-work-you-submit-for-approval-in-the-home-area) section in this article.
    * Approvals&nbsp;are removed from the Home area when the associated&nbsp;project, task, or issue&nbsp;is marked&nbsp;Resolved, On Hold, Closed, or Canceled.
 
   For information about using Home, see [Get started with Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md). 
@@ -71,7 +71,7 @@ You can view or manage approvals from the following areas:
 
   For information about creating reports, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Review work you submit for approval in the Home area
+## Review work you submit for approval in the Home area {#review-work-you-submit-for-approval-in-the-home-area}
 
 1. 
    Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
@@ -123,10 +123,10 @@ You can view the approval status of an object in the following sections of the o
  </tbody> 
 </table>
 
-* [Use the Updates area to view an approval status](#using-the-updates-tab-to-view-approval-status) 
-* [Use the Approvals area to view an approval status](#using-the-approvals-tab-to-view-approval-status)
+* [Use the Updates area to view an approval status](#use-the-updates-area-to-view-an-approval-status) 
+* [Use the Approvals area to view an approval status](#use-the-approvals-area-to-view-an-approval-status)
 
-### Use the Updates area to view&nbsp;an approval status
+### Use the Updates area to view&nbsp;an approval status {#use-the-updates-area-to-view-an-approval-status}
 
 When an approval is initiated on a project, task, or issue, a status displays in the **Updates** tab of the object,&nbsp;indicating the approval status. A new status displays&nbsp;any time the object transitions through the approval process. This includes the following events:
 
@@ -138,7 +138,7 @@ When an approval is initiated on a project, task, or issue, a status displays in
 >
 >If an approval is applied to a task, the approval updates are shown on the Updates tab of the task, not on the Updates tab of the project where the task resides.
 
-### Use the Approvals area to view an approval status
+### Use the Approvals area to view an approval status {#use-the-approvals-area-to-view-an-approval-status}
 
 You can gain visibility into where a task or issue that you are working on currently is in&nbsp;the approval&nbsp;process. You can see the following information:
 

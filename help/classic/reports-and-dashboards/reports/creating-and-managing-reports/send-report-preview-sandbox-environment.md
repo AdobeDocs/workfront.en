@@ -55,10 +55,10 @@ You must have the following access to perform the steps in this article:
 
 ## Schedule reports in the Preview environment
 
-* [Schedule reports in the Preview environment](#schedule3) 
-* [View stored reports in the Preview environment](#view)
+* [Schedule reports in the Preview environment](#schedule-reports-in-the-preview-environment) 
+* [View stored reports in the Preview environment](#view-stored-reports-in-the-preview-environment)
 
-### Schedule reports in the Preview environment
+### Schedule reports in the Preview environment {#schedule-reports-in-the-preview-environment}
 
 Whether a delivered report is produced or not in the Preview environment depends on whether **Receive emails from this test environment** is enabled or not.
 
@@ -72,9 +72,9 @@ When you schedule a report for delivery in the Preview environment, the followin
 
 * When **Receive emails from this test environment** is disabled for the user who is receiving the report, no file is produced when scheduling the report for delivery.
 * When **Receive emails from this test environment** is enabled for the user who is receiving the report, the file that is produced when scheduling the report for delivery is added in the Documents tab of the user.  
-  For information about the reports stored in the Preview Sandbox when they are scheduled for delivery see [View stored reports in the Preview environment](#view).
+  For information about the reports stored in the Preview Sandbox when they are scheduled for delivery see [View stored reports in the Preview environment](#view-stored-reports-in-the-preview-environment).
 
-### View stored&nbsp;reports in the Preview environment
+### View stored&nbsp;reports in the Preview environment {#view-stored-reports-in-the-preview-environment}
 
 When you enable **Receive emails from this test environment** in the profile of a user in the Preview environment and you schedule a report to be delivered to them, the report is stored on the Documents tab found on the user's profile page.
 

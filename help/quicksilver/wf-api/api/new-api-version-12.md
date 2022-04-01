@@ -14,10 +14,10 @@ Workfront released API version 12 on November 12, 2020. API version 12 features 
 
 The following resources are new in Workfront API version 12.
 
-* [BreadCrumb](#breadcru) 
-* [RichTextParameterValue](#richtext)
+* [BreadCrumb](#breadcrumb) 
+* [RichTextParameterValue](#richtextparametervalue)
 
-### BreadCrumb
+### BreadCrumb {#breadcrumb}
 
 A BreadCrumb object represents an element in the parent/child hierarchy of an Adobe Workfront work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
 
@@ -39,7 +39,7 @@ For more information on Breadcrumbs in Workfront, see [Breadcrumbs overview in t
  </tbody> 
 </table>
 
-### RichTextParameterValue
+### RichTextParameterValue {#richtextparametervalue}
 
 Rich text fields are now available on more objects. The RichTextParameterValue object was added to Workfront to support this availability.
 
@@ -85,38 +85,38 @@ The following resources were modified for Workfront API version 12.
   <tr> 
    <td role="rowheader"> 
     <ul> 
-     <li> <p><a href="#accessle" class="MCXref xref">AccessLevel</a> </p> </li> 
-     <li> <p><a href="#accessle2" class="MCXref xref">AccessLevelPermissions</a> </p> </li> 
-     <li> <p><a href="#accessre" class="MCXref xref">AccessRequest</a> </p> </li> 
-     <li> <p><a href="#accessru" class="MCXref xref">AccessRule</a> </p> </li> 
-     <li> <p><a href="#activity" class="MCXref xref">ActivityLog</a> </p> </li> 
-     <li> <p><a href="#announce" class="MCXref xref">AnnouncementAttachment</a> </p> </li> 
+     <li> <p><a href="#accesslevel" class="MCXref xref">AccessLevel</a> </p> </li> 
+     <li> <p><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </p> </li> 
+     <li> <p><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </p> </li> 
+     <li> <p><a href="#accessrule" class="MCXref xref">AccessRule</a> </p> </li> 
+     <li> <p><a href="#activitylog" class="MCXref xref">ActivityLog</a> </p> </li> 
+     <li> <p><a href="#announcementattachment" class="MCXref xref">AnnouncementAttachment</a> </p> </li> 
      <li> <p><a href="#approval" class="MCXref xref">Approval</a> </p> </li> 
-     <li> <p><a href="#calendar" class="MCXref xref">CalendarSection</a> </p> </li> 
+     <li> <p><a href="#calendarsection" class="MCXref xref">CalendarSection</a> </p> </li> 
      <li> <p><a href="#company" class="MCXref xref">Company</a> </p> </li> 
      <li> <p><a href="#customer" class="MCXref xref">Customer</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="#customer2" class="MCXref xref">CustomerPreferences</a> </p> </li> 
+     <li> <p><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </p> </li> 
      <li> <p><a href="#document" class="MCXref xref">Document</a> </p> </li> 
-     <li> <p><a href="#document2" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">Group </a> </p> </li> 
-     <li> <p><a href="#linkedfo" class="MCXref xref">LinkedFolder</a> </p> </li> 
+     <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
      <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
-     <li> <p><a href="#paramete" class="MCXref xref">Parameter</a> </p> </li> 
-     <li> <p><a href="#portfoli" class="MCXref xref">Portfolio</a> </p> </li> 
+     <li> <p><a href="#parameter" class="MCXref xref">Parameter</a> </p> </li> 
+     <li> <p><a href="#portfolio" class="MCXref xref">Portfolio</a> </p> </li> 
      <li> <p><a href="#program" class="MCXref xref">Program</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
-     <li> <p><a href="#schedule" class="MCXref xref">ScheduledReport</a> </p> </li> 
-     <li> <p><a href="#scorecar" class="MCXref xref">ScoreCardQuestion</a> </p> </li> 
+     <li> <p><a href="#scheduledreport" class="MCXref xref">ScheduledReport</a> </p> </li> 
+     <li> <p><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">Task</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
-     <li> <p><a href="#template" class="MCXref xref">TemplateTask</a> </p> </li> 
-     <li> <p><a href="#timeshee" class="MCXref xref">Timesheet</a> </p> </li> 
+     <li> <p><a href="#templatetask" class="MCXref xref">TemplateTask</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Timesheet</a> </p> </li> 
      <li> <p><a href="#user" class="MCXref xref">User</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Work </a> </p> </li> 
     </ul> </td> 
@@ -126,7 +126,7 @@ The following resources were modified for Workfront API version 12.
 
 &nbsp;
 
-### AccessLevel
+### AccessLevel {#accesslevel}
 
 An AccessLevel object is associated with users, and describes the set of AccessLevelPermissions that determine what the user can access.
 
@@ -153,7 +153,7 @@ For more information on access levels, see [How access levels work](../../admini
  </tbody> 
 </table>
 
-### AccessLevelPermissions
+### AccessLevelPermissions {#accesslevelpermissions}
 
 An AccessLevelPermissions object represents a specific permission to access, create, or modify a Workfront object. These permissions can then be associated with an Access Level.
 
@@ -224,7 +224,7 @@ An AccessLevelPermissions object represents a specific permission to access, cre
  </tbody> 
 </table>
 
-### AccessRequest
+### AccessRequest {#accessrequest}
 
 If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
 
@@ -247,7 +247,7 @@ If a User does not have access to an object in Workfront that they need, they ca
  </tbody> 
 </table>
 
-### AccessRule
+### AccessRule {#accessrule}
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
 
@@ -282,7 +282,7 @@ An AccessRule object represents a rule set in custom access levels that determin
  </tbody> 
 </table>
 
-### ActivityLog
+### ActivityLog {#activitylog}
 
 An ActivityLog object is a complete list of all activity that has taken place in a given Workfront Proof account.
 
@@ -300,7 +300,7 @@ An ActivityLog object is a complete list of all activity that has taken place in
  </tbody> 
 </table>
 
-### AnnouncementAttachment
+### AnnouncementAttachment {#announcementattachment}
 
 An AnnouncementAttachment object represents a file that has been attached to a Workfront announcement.
 
@@ -325,7 +325,7 @@ For more about announcement attachments, see [Send announcements](../../administ
  </tbody> 
 </table>
 
-### Approval
+### Approval {#approval}
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
@@ -360,7 +360,7 @@ A given work item, such as a task, document, or timesheet, may require that a su
  </tbody> 
 </table>
 
-### CalendarSection
+### CalendarSection {#calendarsection}
 
 A Calendar Section is a calendar report.
 
@@ -383,7 +383,7 @@ For more information on calendar reports, see [Calendar reports overview](../../
  </tbody> 
 </table>
 
-### Company
+### Company {#company}
 
 A Company object represents an organization consisting of a collection of people.
 
@@ -410,7 +410,7 @@ For more information on companies, see [Create and edit companies](../../adminis
  </tbody> 
 </table>
 
-### Customer
+### Customer {#customer}
 
 A Customer object represents an organization that uses an instance of Workfront.
 
@@ -428,7 +428,7 @@ A Customer object represents an organization that uses an instance of Workfront.
  </tbody> 
 </table>
 
-### CustomerPreferences
+### CustomerPreferences {#customerpreferences}
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
@@ -450,7 +450,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
  </tbody> 
 </table>
 
-### Document
+### Document {#document}
 
 A Document object represents a file (such as written material, images, or other forms of information).
 
@@ -468,7 +468,7 @@ A Document object represents a file (such as written material, images, or other 
  </tbody> 
 </table>
 
-### DocumentVersion
+### DocumentVersion {#documentversion}
 
 A DocumentVersion object represents a specific version of a file (such as written material, images, or other forms of information).
 
@@ -507,7 +507,7 @@ For more information about document versions, see [Upload a new version of a doc
  </tbody> 
 </table>
 
-### Group
+### Group  {#group}
 
 A Group object represents a set of users and teams. Groups often represent departmental structure. 
 
@@ -550,7 +550,7 @@ A Group object represents a set of users and teams. Groups often represent depar
  </tbody> 
 </table>
 
-### LinkedFolder
+### LinkedFolder {#linkedfolder}
 
 A LinkedFolder object represents a folder linked from an external document provider, such as Google Drive or Dropbox.
 
@@ -573,7 +573,7 @@ For more information on Linked Folders, see [Link documents from external applic
  </tbody> 
 </table>
 
-### OpTask
+### OpTask {#optask}
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
@@ -604,7 +604,7 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
  </tbody> 
 </table>
 
-### Parameter
+### Parameter {#parameter}
 
 A Parameter object is a custom field.
 
@@ -648,7 +648,7 @@ For more information on custom fields, see [Create or edit a custom form](../../
  </tbody> 
 </table>
 
-### Portfolio
+### Portfolio {#portfolio}
 
 A Portfolio object is a collection of projects that compete for the same resources, typically money or people to complete them.
 
@@ -675,7 +675,7 @@ For more information on portfolios, see [Portfolio overview in Adobe Workfront](
  </tbody> 
 </table>
 
-### Program
+### Program {#program}
 
 A Program object is a subset of projects within a portfolio, where similar projects can be grouped together.
 
@@ -700,7 +700,7 @@ A Program object is a subset of projects within a portfolio, where similar proje
  </tbody> 
 </table>
 
-### QueueDef
+### QueueDef {#queuedef}
 
 A QueueDef object represents a Queue, which is a Project that has been published to the Help Desk area to allow users to submit Issues to it.
 
@@ -730,7 +730,7 @@ For more information on Request Queues, see [Create a Request Queue](../../manag
  </tbody> 
 </table>
 
-### ScheduledReport
+### ScheduledReport {#scheduledreport}
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
 
@@ -753,7 +753,7 @@ A ScheduledReport object represents a report that has been configured to be sche
  </tbody> 
 </table>
 
-### ScoreCardQuestion
+### ScoreCardQuestion {#scorecardquestion}
 
 A ScoreCardQuestion object represents a question that has been added to a Scorecard. These questions are usually determined by the Portfolio manager, and their answers allow the manager to understand how well a project aligns with the goals of the portfolio.
 
@@ -773,7 +773,7 @@ For more information on Scorecard Questions, see [Create a scorecard](../../admi
  </tbody> 
 </table>
 
-### Task
+### Task {#task}
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
@@ -804,7 +804,7 @@ A Task object represents a work item that must be performed as a step toward ach
  </tbody> 
 </table>
 
-### Team
+### Team {#team}
 
 A Team object is a collection of Users that can be assigned to a work item.
 
@@ -840,7 +840,7 @@ A Team object is a collection of Users that can be assigned to a work item.
  </tbody> 
 </table>
 
-### TemplateTask
+### TemplateTask {#templatetask}
 
 A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.
 
@@ -865,7 +865,7 @@ For more information on Template Tasks, see [Edit a template task](../../manage-
  </tbody> 
 </table>
 
-### Timesheet
+### Timesheet {#timesheet}
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
@@ -905,7 +905,7 @@ For more information on Timesheets, see [Timesheets overview](../../timesheets/t
  </tbody> 
 </table>
 
-### User
+### User {#user}
 
 A User object represents a person with an account in Workfront that can log in and interact with the system.
 
@@ -940,7 +940,7 @@ A User object represents a person with an account in Workfront that can log in a
  </tbody> 
 </table>
 
-### Work
+### Work  {#work}
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 

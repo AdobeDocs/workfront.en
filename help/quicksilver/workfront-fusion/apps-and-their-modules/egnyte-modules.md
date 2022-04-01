@@ -16,23 +16,23 @@ In a Adobe Workfront Fusion scenario, you can connect your Egnyte account to mul
 
 ## File system modules
 
-* [Watch Files](#watch) 
-* [List Files/Subfolders in a Folder](#list) 
-* [Get File Info](#get) 
-* [Upload a File](#upload) 
-* [Download File](#download) 
-* [Move File](#move) 
-* [Copy File](#copy) 
-* [Lock a File](#lock) 
-* [Unlock a File](#unlock) 
-* [Delete a File](#delete) 
-* [Get Folder Info](#get2) 
-* [Create a Folder](#create) 
-* [Move Folder](#move2) 
-* [Copy Folder](#copy2) 
-* [Delete a Folder](#delete2)
+* [Watch Files](#watch-files) 
+* [List Files/Subfolders in a Folder](#list-files-subfolders-in-a-folder) 
+* [Get File Info](#get-file-info) 
+* [Upload a File](#upload-a-file) 
+* [Download File](#download-file) 
+* [Move File](#move-file) 
+* [Copy File](#copy-file) 
+* [Lock a File](#lock-a-file) 
+* [Unlock a File](#unlock-a-file) 
+* [Delete a File](#delete-a-file) 
+* [Get Folder Info](#get-folder-info) 
+* [Create a Folder](#create-a-folder) 
+* [Move Folder](#move-folder) 
+* [Copy Folder](#copy-folder) 
+* [Delete a Folder](#delete-a-folder)
 
-### Watch Files
+### Watch Files {#watch-files}
 
 This module retrieves file details when a new file is added to the specified folder or modified in the specified folder.
 
@@ -59,7 +59,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### List Files/Subfolders in a Folder
+### List Files/Subfolders in a Folder {#list-files-subfolders-in-a-folder}
 
 This action module retrieves files and/or subfolders from a folder.
 
@@ -104,7 +104,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Get File Info
+### Get File Info {#get-file-info}
 
 This action module retrieves data about a file.
 
@@ -133,7 +133,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Upload a File
+### Upload a File {#upload-a-file}
 
 This action module creates or overwrites a file.
 
@@ -157,12 +157,12 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>Source file</p> </td> 
-   <td> <p>Map the file from the previous module (for example, Dropbox &gt; Get a File) or enter the file name and file data.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If the file with the entered file name already exists, the file data will be overwritten.</p> </td> 
+   <td> <p>Map the file from the previous module (for example, Dropbox &gt; Get a File) or enter the file name and file data.</p> <p>Warning: If the file with the entered file name already exists, the file data will be overwritten.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Download File
+### Download File {#download-file}
 
 This action module downloads a file from Egnyte.
 
@@ -187,7 +187,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Move File
+### Move File {#move-file}
 
 This action module moves a file to a new location.
 
@@ -224,7 +224,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Copy File
+### Copy File {#copy-file}
 
 This action module allows you to copy a file from the source path to the target location.
 
@@ -261,7 +261,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Lock a File
+### Lock a File {#lock-a-file}
 
 This action module locks a file.
 
@@ -296,7 +296,7 @@ The module returns the ID of the  file and any associated fields, along with any
  </tbody> 
 </table>
 
-### Unlock a File
+### Unlock a File {#unlock-a-file}
 
 This action module unlocks a file.
 
@@ -329,7 +329,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Delete a File
+### Delete a File {#delete-a-file}
 
 This action module deletes a file.
 
@@ -362,7 +362,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Get Folder Info
+### Get Folder Info {#get-folder-info}
 
 This action module retrieves information about a folder.
 
@@ -391,7 +391,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Create a Folder
+### Create a Folder {#create-a-folder}
 
 This action module deletes a file.
 
@@ -420,7 +420,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Move Folder
+### Move Folder {#move-folder}
 
 This action module moves a folder to a different location.
 
@@ -461,7 +461,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Copy Folder
+### Copy Folder {#copy-folder}
 
 This action module copies a folder to a destination.
 
@@ -502,7 +502,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Delete a Folder
+### Delete a Folder {#delete-a-folder}
 
 This action module deletes a folder.
 
@@ -533,13 +533,13 @@ When you are configuring this module, the following fields display.
 
 ## Link modules
 
-* [List Links](#list2) 
-* [Get a Link](#get3) 
-* [Create a File Link](#create2) 
-* [Create a Folder Link](#create3) 
-* [Delete a Link](#delete3)
+* [List Links](#list-links) 
+* [Get a Link](#get-a-link) 
+* [Create a File Link](#create-a-file-link) 
+* [Create a Folder Link](#create-a-folder-link) 
+* [Delete a Link](#delete-a-link)
 
-### List Links
+### List Links {#list-links}
 
 This action module lists links to files or folders.
 
@@ -588,7 +588,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Get a Link
+### Get a Link {#get-a-link}
 
 This action module retrieves details about a link.
 
@@ -613,7 +613,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Create a File Link
+### Create a File Link {#create-a-file-link}
 
 This action module creates a public file link.
 
@@ -670,7 +670,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Create a Folder Link
+### Create a Folder Link {#create-a-folder-link}
 
 This action module creates a public folder link.
 
@@ -715,7 +715,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Delete a Link
+### Delete a Link {#delete-a-link}
 
 This action module deletes a particular link.
 
@@ -742,10 +742,10 @@ When you are configuring this module, the following fields display.
 
 ## Permission modules
 
-* [Get Folder Permission](#get4) 
-* [Set Folder Permissions](#set)
+* [Get Folder Permission](#get-folder-permission) 
+* [Set Folder Permissions](#set-folder-permissions)
 
-### Get Folder Permission
+### Get Folder Permission {#get-folder-permission}
 
 This action module [action].
 
@@ -768,7 +768,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Set Folder Permissions
+### Set Folder Permissions {#set-folder-permissions}
 
 This action module allows you to set user and group permissions for a folder.
 

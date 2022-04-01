@@ -70,10 +70,10 @@ You must have the following access to use the functionality in this article:
 
 ## Create a data store in Workfront Fusion
 
-* [Set up the data store](#set) 
-* [Set up the data structure](#setting)
+* [Set up the data store](#set-up-the-data-store) 
+* [Set up the data structure](#set-up-the-data-structure)
 
-### Set up the data store
+### Set up the data store {#set-up-the-data-store}
 
 Before you can use a data store in a module, you must create the data store in Workfront Fusion.
 
@@ -81,7 +81,7 @@ Before you can use a data store in a module, you must create the data store in W
 >
 >Your organization has a limited number of available data stores. If you attempt to create more data stores than you have available, Workfront returns a Maximum stores reached error.
 >
->For more information, see [Maximum stores reached error](#maximum) in this article.
+>For more information, see [Maximum stores reached error](#maximum-stores-reached-error) in this article.
 
 1. Log in to your Workfront Fusion account.
 1. Click **Data stores** in the left navigation panel.
@@ -103,7 +103,7 @@ Before you can use a data store in a module, you must create the data store in W
       <td> <p>A data structure is a list of the columns for a table. This list indicates the column name and data type.</p> <p>Do one of the following:</p> 
        <ul> 
         <li style="font-weight: bold;">Select a data structure that has been already created</li> 
-        <li> <p style="font-weight: bold;">Add a new data structure</p> <p>Click the <strong>Add</strong> button to create a new data structure.</p> <p>For more information, see the <a href="#setting" class="MCXref xref">Set up the data structure</a> section in this article.</p> </li> 
+        <li> <p style="font-weight: bold;">Add a new data structure</p> <p>Click the <strong>Add</strong> button to create a new data structure.</p> <p>For more information, see the <a href="#set-up-the-data-structure" class="MCXref xref">Set up the data structure</a> section in this article.</p> </li> 
         <li style="font-weight: bold;"> <p>Leave the field empty</p> <p style="font-weight: normal;">If you don't select or add a data structure, the database will only contain the primary key. Such a database type is useful if you want to save keys only and are interested in knowing only whether or not a specific key exists in the database.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -116,7 +116,7 @@ Before you can use a data store in a module, you must create the data store in W
     </tbody> 
    </table>
 
-### Set up the data structure
+### Set up the data structure {#set-up-the-data-structure}
 
 1. When creating or editing a data store, click **Add**.
 1. In the **Add data structure** box that displays, configure the following fields:
@@ -163,10 +163,10 @@ Before you can use a data store in a module, you must create the data store in W
 
 You can edit the properties and contents of an existing Data Store in the Data Store area of Workfront Fusion.
 
-* [Edit the properties of a data store](#edit) 
-* [Edit the contents of a data store](#edit2)
+* [Edit the properties of a data store](#edit-the-properties-of-a-data-store) 
+* [Edit the contents of a data store](#edit-the-contents-of-a-data-store)
 
-### Edit the properties of a data store
+### Edit the properties of a data store {#edit-the-properties-of-a-data-store}
 
 The properties of a data store include the data structure that the data store uses, as well as the data store's size.
 
@@ -176,12 +176,12 @@ The properties of a data store include the data structure that the data store us
 
    Or
 
-   (Optional) If you want to change the data structure used by this data store to an entirely new data structure, see [Set up the data structure](#setting) in this article.
+   (Optional) If you want to change the data structure used by this data store to an entirely new data structure, see [Set up the data structure](#set-up-the-data-structure) in this article.
 
 1. (Optional) Change the size of the data store by entering the new size into the **Data storage size in MB** field.
 1. Click **Save**.
 
-### Edit the contents of a data store
+### Edit the contents of a data store {#edit-the-contents-of-a-data-store}
 
 1. Click the **Data Store** icon ![](assets/data-store-icon.png) in the left navigation panel to open the Data Store area.
 1. Click **Browse** ![](assets/browse-data-store.png) next to the data store that you want to edit.
@@ -192,11 +192,11 @@ The properties of a data store include the data structure that the data store us
 
 ## Troubleshooting
 
-* [Restoring lost data from a data store](#about) 
-* [Out of space error](#out) 
-* [Maximum stores reached error](#maximum)
+* [Restoring lost data from a data store](#restoring-lost-data-from-a-data-store) 
+* [Out of space error](#out-of-space-error) 
+* [Maximum stores reached error](#maximum-stores-reached-error)
 
-### Restoring lost data from a data store
+### Restoring lost data from a data store {#restoring-lost-data-from-a-data-store}
 
 There is currently no tool which can automate restoring lost data.
 
@@ -209,9 +209,9 @@ There is currently no tool which can automate restoring lost data.
 1. Copy the data.
 1. Insert the data into your data store again.
 
-   For information on inserting data into a data store, see [Edit the contents of a data store](#edit2) in this article.
+   For information on inserting data into a data store, see [Edit the contents of a data store](#edit-the-contents-of-a-data-store) in this article.
 
-### Out of space error
+### Out of space error {#out-of-space-error}
 
 An Out of Space error occurs because your previously created data stores have already been assigned your allocated data store storage.
 
@@ -219,13 +219,13 @@ An Out of Space error occurs because your previously created data stores have al
 
 1. Edit any of your existing data stores to use less space. This frees up space for your new data store.
 
-   For more information, see [Edit the properties of a data store](#edit) in this article.
+   For more information, see [Edit the properties of a data store](#edit-the-properties-of-a-data-store) in this article.
 
 >[!NOTE]
 >
 >We recommend that you do not assign all of your space to a single data store unless you are certain you will not require more data stores.
 
-### Maximum stores reached error
+### Maximum stores reached error {#maximum-stores-reached-error}
 
 A Maximum stored reached error occurs because your organization has used all of its available data stores. An organization has a number of available data stores equal to twice the number of available scenarios. Therefore, the total number of available data stores depends on the plan you have purchased.
 

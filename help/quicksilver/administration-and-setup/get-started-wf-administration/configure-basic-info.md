@@ -50,7 +50,7 @@ To access the Customer Info page:
 
    * **Basic Info**
 
-     For information&nbsp;about configuring basic information in Workfront, see [Configure Basic Info](#configuring-basic-info).
+     For information&nbsp;about configuring basic information in Workfront, see [Configure Basic Info](#configure-basic-info).
    
    * **API Key Settings**
 
@@ -64,7 +64,7 @@ To access the Customer Info page:
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-## Configure Basic Info
+## Configure Basic Info {#configure-basic-info}
 
 Inside the Basic Info area of your Customer Info page, some details about your customer are configured by Workfront and they display in a read-only mode. Other details can be configured by you. Any options you can edit in this area have a global effect on all users in Workfront.
 

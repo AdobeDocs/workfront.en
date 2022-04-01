@@ -61,16 +61,16 @@ You must have the following access to use the functionality in this article:
 
 To use SharePoint modules, you must have a SharePoint account.
 
-## Connect SharePoint to Workfront Fusion
+## Connect SharePoint to Workfront Fusion {#connect-sharepoint-to-workfront-fusion}
 
-* [Connect SharePoint to Workfront Fusion using a Microsoft account](#connect2) 
-* [Connect SharePoint to Workfront Fusion using advanced settings](#connect3)
+* [Connect SharePoint to Workfront Fusion using a Microsoft account](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account) 
+* [Connect SharePoint to Workfront Fusion using advanced settings](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
 
-### Connect SharePoint to Workfront Fusion using a Microsoft account
+### Connect SharePoint to Workfront Fusion using a Microsoft account {#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account}
 
 You can use your Microsoft account to create a connection to SharePoint. For instructions about connecting your Sharepoint account to Workfront Fusion, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-### Connect SharePoint to Workfront Fusion using advanced settings
+### Connect SharePoint to Workfront Fusion using advanced settings {#connect-sharepoint-to-workfront-fusion-using-advanced-settings}
 
 To connect SharePoint to Workfront Fusion without a Microsoft account, you need a Client ID, Client Secret, and Tenant ID.
 
@@ -94,20 +94,20 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Item](#item) 
 * [List](#list) 
-* [Page (Beta)](#page) 
+* [Page (Beta)](#page-beta) 
 * [Site](#site) 
 * [Other](#other)
 
-### Item
+### Item {#item}
 
-* [Watch Items](#watch2) 
-* [List Items](#list2) 
-* [Get an Item](#get) 
-* [Create an item](#create3) 
-* [Update an item](#update2) 
-* [Delete an item](#delete2)
+* [Watch Items](#watch-items) 
+* [List Items](#list-items) 
+* [Get an Item](#get-an-item) 
+* [Create an item](#create-an-item) 
+* [Update an item](#update-an-item) 
+* [Delete an item](#delete-an-item)
 
-#### Watch Items
+#### Watch Items {#watch-items}
 
 This trigger module starts a scenario when an item is created or modified.
 
@@ -117,7 +117,7 @@ This trigger module starts a scenario when an item is created or modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch Lists</td> 
@@ -138,7 +138,7 @@ This trigger module starts a scenario when an item is created or modified.
  </tbody> 
 </table>
 
-#### List Items
+#### List Items {#list-items}
 
 This action module retrieves a list of all items in a specified list.
 
@@ -148,7 +148,7 @@ This action module retrieves a list of all items in a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List Items</td> 
@@ -165,7 +165,7 @@ This action module retrieves a list of all items in a specified list.
  </tbody> 
 </table>
 
-#### Get an Item
+#### Get an Item {#get-an-item}
 
 This action module returns the data of a specified item.
 
@@ -175,7 +175,7 @@ This action module returns the data of a specified item.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get an Item</td> 
@@ -188,7 +188,7 @@ This action module returns the data of a specified item.
  </tbody> 
 </table>
 
-#### Create an item
+#### Create an item {#create-an-item}
 
 This action module creates a new item in a SharePoint list.
 
@@ -198,7 +198,7 @@ This action module creates a new item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Create an Item</td> 
@@ -215,7 +215,7 @@ This action module creates a new item in a SharePoint list.
  </tbody> 
 </table>
 
-#### Update an item
+#### Update an item {#update-an-item}
 
 This action module updates an existing item in a SharePoint list.
 
@@ -225,7 +225,7 @@ This action module updates an existing item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Update an Item</td> 
@@ -242,7 +242,7 @@ This action module updates an existing item in a SharePoint list.
  </tbody> 
 </table>
 
-#### Delete an item
+#### Delete an item {#delete-an-item}
 
 This action module deletes an existing item in a SharePoint list.
 
@@ -252,7 +252,7 @@ This action module deletes an existing item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Update an Item</td> 
@@ -265,14 +265,14 @@ This action module deletes an existing item in a SharePoint list.
  </tbody> 
 </table>
 
-### List
+### List {#list}
 
-* [Watch Lists](#watch3) 
-* [List Lists](#list3) 
-* [Get a List](#get2) 
-* [Create a List](#create4)
+* [Watch Lists](#watch-lists) 
+* [List Lists](#list-lists) 
+* [Get a List](#get-a-list) 
+* [Create a List](#create-a-list)
 
-#### Watch Lists
+#### Watch Lists {#watch-lists}
 
 This trigger module starts a scenario when a list is created or modified.
 
@@ -282,7 +282,7 @@ This trigger module starts a scenario when a list is created or modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch Lists</td> 
@@ -303,7 +303,7 @@ This trigger module starts a scenario when a list is created or modified.
  </tbody> 
 </table>
 
-#### List Lists
+#### List Lists {#list-lists}
 
 This action module retrieves a list of all items in a specified list.
 
@@ -313,7 +313,7 @@ This action module retrieves a list of all items in a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List Lists</td> 
@@ -330,7 +330,7 @@ This action module retrieves a list of all items in a specified list.
  </tbody> 
 </table>
 
-#### Get a List
+#### Get a List {#get-a-list}
 
 This action module returns the data of a specified list.
 
@@ -340,7 +340,7 @@ This action module returns the data of a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a List</td> 
@@ -353,7 +353,7 @@ This action module returns the data of a specified list.
  </tbody> 
 </table>
 
-#### Create a List
+#### Create a List {#create-a-list}
 
 This action module creates a new list in SharePoint.
 
@@ -363,7 +363,7 @@ This action module creates a new list in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter a Site ID</td> 
@@ -388,7 +388,7 @@ This action module creates a new list in SharePoint.
  </tbody> 
 </table>
 
-### Page (Beta)
+### Page (Beta) {#page-beta}
 
 >[!NOTE]
 >
@@ -408,7 +408,7 @@ This action module returns the data of a specified page.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a Page</td> 
@@ -421,12 +421,12 @@ This action module returns the data of a specified page.
  </tbody> 
 </table>
 
-### Site
+### Site {#site}
 
-* [Search Sites](#search2) 
-* [Get a Site](#get3)
+* [Search Sites](#search-sites) 
+* [Get a Site](#get-a-site)
 
-#### Search Sites
+#### Search Sites {#search-sites}
 
 This action module searches for sites by a parameter you specify.
 
@@ -436,7 +436,7 @@ This action module searches for sites by a parameter you specify.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Keyword of Display Name</td> 
@@ -449,7 +449,7 @@ This action module searches for sites by a parameter you specify.
  </tbody> 
 </table>
 
-#### Get a Site
+#### Get a Site {#get-a-site}
 
 This action module returns the data of a specified site.
 
@@ -459,7 +459,7 @@ This action module returns the data of a specified site.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a Site</td> 
@@ -472,7 +472,7 @@ This action module returns the data of a specified site.
  </tbody> 
 </table>
 
-### Other
+### Other {#other}
 
 #### Make an API&nbsp;Call
 
@@ -484,7 +484,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -521,18 +521,18 @@ This module allows you to perform a custom API call.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <ul>
-<li><a href="#watch" class="MCXref xref">Watch Records</a> </li>
-<li><a href="#create" class="MCXref xref">Create a folder</a> </li>
-<li><a href="#create2" class="MCXref xref">Create an item</a> </li>
-<li><a href="#delete" class="MCXref xref">Delete an item</a> </li>
-<li><a href="#download" class="MCXref xref">Download a file</a> </li>
-<li><a href="#read" class="MCXref xref">Read a document</a> </li>
-<li><a href="#read2" class="MCXref xref">Read an item</a> </li>
-<li><a href="#update" class="MCXref xref">Update an item</a> </li>
-<li><a href="#upload" class="MCXref xref">Upload a file</a> </li>
-<li><a href="#search" class="MCXref xref">Search Documents</a> </li>
+<li><a href="#watch-records" class="MCXref xref">Watch Records</a> </li>
+<li><a href="#create-a-folder" class="MCXref xref">Create a folder</a> </li>
+<li><a href="#create-an-item" class="MCXref xref">Create an item</a> </li>
+<li><a href="#delete-an-item" class="MCXref xref">Delete an item</a> </li>
+<li><a href="#download-a-file" class="MCXref xref">Download a file</a> </li>
+<li><a href="#read-a-document" class="MCXref xref">Read a document</a> </li>
+<li><a href="#read-an-item" class="MCXref xref">Read an item</a> </li>
+<li><a href="#update-an-item" class="MCXref xref">Update an item</a> </li>
+<li><a href="#upload-a-file" class="MCXref xref">Upload a file</a> </li>
+<li><a href="#search-documents" class="MCXref xref">Search Documents</a> </li>
 </ul>
-<h3><a name="Watch"></a>Watch Records</h3>
+<h3 id="watch-records"><a name="Watch"></a>Watch Records</h3>
 <p>This trigger module executes a scenario when the scheduled poll shows that an object has been added or updated in SharePoint. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map this information in subsequent modules in the scenario.This trigger module executes a scenario when an object is added or updated. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. This is a scheduled trigger module.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -541,7 +541,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Record Type</td>
@@ -561,7 +561,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3><a name="Create"></a>Create a folder</h3>
+<h3 id="create-a-folder"><a name="Create"></a>Create a folder</h3>
 <p>This action module creates a new folder.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -570,7 +570,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Site</td>
@@ -590,7 +590,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3><a name="Create2"></a>Create an item</h3>
+<h3 id="create-an-item"><a name="Create2"></a>Create an item</h3>
 <p>This action module creates a new item in a SharePoint list.</p>
 <p>The module returns the ID of the new item and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
 <p>When you are configuring this module, the following fields display.</p>
@@ -600,7 +600,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Site</td>
@@ -616,7 +616,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3><a name="Delete"></a>Delete an item</h3>
+<h3 id="delete-an-item"><a name="Delete"></a>Delete an item</h3>
 <p>This action module deletes an item that you identify.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -625,7 +625,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Site</td>
@@ -641,7 +641,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3><a name="Download"></a>Download a file</h3>
+<h3 id="download-a-file"><a name="Download"></a>Download a file</h3>
 <p>This action module downloads a file from a SharePoint drive.</p>
 <p>You specify the ID of the file.</p>
 <p>The module returns the file's content, filename, file extension, and file size. You can map this information in subsequent modules in the scenario.</p>
@@ -652,7 +652,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Site</td>
@@ -668,7 +668,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3><a name="Read"></a>Read a document</h3>
+<h3 id="read-a-document"><a name="Read"></a>Read a document</h3>
 <p>This action module reads a single document and returns a bundle of the document's fields.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -677,7 +677,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Site</td>
@@ -693,7 +693,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3><a name="Read2"></a>Read an item</h3>
+<h3 id="read-an-item"><a name="Read2"></a>Read an item</h3>
 <p>This action module reads a single item and returns a bundle of the item's fields.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -702,7 +702,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Site</td>
@@ -718,7 +718,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3><a name="Update"></a>Update an item</h3>
+<h3 id="update-an-item"><a name="Update"></a>Update an item</h3>
 <p>This action module updates an existing item in a SharePoint list.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -727,7 +727,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Site</td>
@@ -743,7 +743,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3><a name="Upload"></a>Upload a file</h3>
+<h3 id="upload-a-file"><a name="Upload"></a>Upload a file</h3>
 <p>This action module uploads a file to SharePoint</p>
 <p>You specify the location for the file, the file you want to upload, and an optional new name for the file.</p>
 <p>The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
@@ -754,7 +754,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Site</td>
@@ -774,7 +774,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3><a name="Search"></a>Search Documents</h3>
+<h3 id="search-documents"><a name="Search"></a>Search Documents</h3>
 <p>This search module searches for a file or folder inside a SharePoint drive.</p>
 <table cellspacing="0">
 <col>
@@ -782,7 +782,7 @@ This module allows you to perform a custom API call.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Site</td>

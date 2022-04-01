@@ -77,20 +77,20 @@ The following sections describe how to view and use utilization information.
 </div>
 -->
 
-## Overview of the Utilization report
+## Overview of the Utilization report {#overview-of-the-utilization-report}
 
 Using the Utilization report you can view the progress, cost, or revenue of a project, program, or portfolio in a single report. You can also compare revenue against cost.
 
 You can view the Utilization report in the Resourcing area to display utilization across multiple projects, or you can view it at the level of one project, to display utilization for the individual resources (job roles and users) associated with that project.
 
-For information about accessing and using the Utilization report, see the [Track progress, cost, and revenue with the Utilization report](#tracking-progress-and-cost-with-a-utilization-report) section in this article.
+For information about accessing and using the Utilization report, see the [Track progress, cost, and revenue with the Utilization report](#track-progress-cost-and-revenue-with-the-utilization-report) section in this article.
 
-* [Track hours (progress)](#tracking-hours) 
-* [Track cost](#tracking-cost) 
-* [Track revenue](#tracking-revenue) 
-* [Compare Revenue against Planned and Actual Costs](#comparing-revenue-against-cost)
+* [Track hours (progress)](#track-hours-progress) 
+* [Track cost](#track-cost) 
+* [Track revenue](#track-revenue) 
+* [Compare Revenue against Planned and Actual Costs](#compare-revenue-against-planned-and-actual-costs)
 
-### Track hours (progress)
+### Track hours (progress) {#track-hours-progress}
 
 You can track progress by viewing how the budgeted and planned hours compare to the actual hours.
 
@@ -149,7 +149,7 @@ The following information is available in the Utilization report when tracking H
   </tr> 
   <tr> 
    <td><strong>Actual Hours</strong> </td> 
-   <td> <p> The total hours logged on the tasks, issues, <span>and on the project</span> for the included projects. You can view the total actual hours for the overall life of the included projects, or you can view the total actual hours only for the specified date range (you can specify an individual week or month). </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>The utilization report includes hours logged to the project, children tasks, issues, and parent tasks that have at least one assignment. It does not include hours logged to parent tasks without assignments. We recommend that you do not use parent tasks as working tasks and assign only children tasks to your resources. </p> <p>Actual Hours appear on the utilization report in any of the following rows:</p> 
+   <td> <p> The total hours logged on the tasks, issues, <span>and on the project</span> for the included projects. You can view the total actual hours for the overall life of the included projects, or you can view the total actual hours only for the specified date range (you can specify an individual week or month). </p> <p>Warning: The utilization report includes hours logged to the project, children tasks, issues, and parent tasks that have at least one assignment. It does not include hours logged to parent tasks without assignments. We recommend that you do not use parent tasks as working tasks and assign only children tasks to your resources. </p> <p>Actual Hours appear on the utilization report in any of the following rows:</p> 
     <ul> 
      <li> Actual Hours are summarized by job role and by individual user in the utilization report of a project, as follows:<br><strong>Individual User:</strong> Actual Hours are displayed in the utilization report in the row of the user who logged the hours. (You can expand the row of the corresponding job role to view a list of users with that job role who have logged hours.)<br><strong>Job Role:</strong> Actual Hours logged by users associated with those roles are summarized in the utilization report in the row of the corresponding job role.<br>Actual Hours appear in a particular job role as a result of any of the following scenarios: 
       <ul> 
@@ -174,7 +174,7 @@ The following information is available in the Utilization report when tracking H
  </tbody> 
 </table>
 
-### Track cost
+### Track cost {#track-cost}
 
 You can track cost by viewing how the Budgeted Cost and Planned Cost compares to the Actual Costs.
 
@@ -222,7 +222,7 @@ The following information is available in the Utilization report when tracking C
  </tbody> 
 </table>
 
-### Track revenue
+### Track revenue {#track-revenue}
 
 You can track revenue by viewing how the budgeted and planned revenue compare to the actual revenue.
 
@@ -300,7 +300,7 @@ For information on the specific fields and how Workfront calculates them, also s
  </tbody> 
 </table>
 
-### Compare Revenue against Planned and Actual Costs
+### Compare Revenue against Planned and Actual Costs {#compare-revenue-against-planned-and-actual-costs}
 
 You can view the Planned or Actual Cost alongside the Planned Revenue. The Margin (%) is also displayed (margin is calculated as Revenue - Cost / Revenue).
 
@@ -322,7 +322,7 @@ The following information is available in the Utilization report when comparing 
   </tr> 
   <tr> 
    <td scope="col"><strong>Planned Revenue</strong> </td> 
-   <td scope="col"> <p>Planned Revenue is the revenue associated with the Planned Hours of the tasks. </p> <p>The way the Utilization report calculates and displays Planned Revenue for the included projects differs depending on the Revenue Type set on the task, as described in the <a href="#tracking-revenue" class="MCXref xref">Track revenue</a> section in this article.</p> </td> 
+   <td scope="col"> <p>Planned Revenue is the revenue associated with the Planned Hours of the tasks. </p> <p>The way the Utilization report calculates and displays Planned Revenue for the included projects differs depending on the Revenue Type set on the task, as described in the <a href="#track-revenue" class="MCXref xref">Track revenue</a> section in this article.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Margin</strong> </td> 
@@ -338,7 +338,7 @@ The following information is available in the Utilization report when comparing 
   </tr> 
   <tr> 
    <td scope="col"><strong>Actual Revenue</strong> </td> 
-   <td> <p>Actual Revenue is the revenue associated with the Actual Hours of the tasks.</p> <p>Actual Revenue is displayed in the Utilization report only after the task is marked as Complete or Done (or a status that equates with Complete).</p> <p>The way that the Utilization report calculates Actual Revenue for the included projects differs depending on the Revenue Type set on the task, as described in the <a href="#tracking-revenue" class="MCXref xref">Track revenue</a> section in this article. </p> </td> 
+   <td> <p>Actual Revenue is the revenue associated with the Actual Hours of the tasks.</p> <p>Actual Revenue is displayed in the Utilization report only after the task is marked as Complete or Done (or a status that equates with Complete).</p> <p>The way that the Utilization report calculates Actual Revenue for the included projects differs depending on the Revenue Type set on the task, as described in the <a href="#track-revenue" class="MCXref xref">Track revenue</a> section in this article. </p> </td> 
   </tr> 
   <tr> 
    <td scope="col"><strong>Margin</strong> </td> 
@@ -347,7 +347,7 @@ The following information is available in the Utilization report when comparing 
  </tbody> 
 </table>
 
-## Track progress, cost, and revenue with the Utilization report
+## Track progress, cost, and revenue with the Utilization report {#track-progress-cost-and-revenue-with-the-utilization-report}
 
 You can track the progress or cost of a project, program, or portfolio.
 
@@ -362,7 +362,7 @@ To track the progress or cost of one or more projects with a Utilization report:
       1. Go to the project for which you want to view utilization information, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
       1. Utilization information is displayed automatically when viewing an individual project, and applying a filter is not required.   
          If you want to filter the Utilization report, you can apply a filter, then click **Run**.  
-         For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.   
+         For information about how to filter the Utilization report, see the section [Filter utilization information](#filter-utilization-information) in this article.   
          Utilization information is displayed for individual users and roles (users are grouped within their associated role).
 
          ![](assets/utilization-overview-350x204.png)
@@ -371,7 +371,7 @@ To track the progress or cost of one or more projects with a Utilization report:
 
       1. Click **Reporting** in the Global Navigation Bar to go to the Reporting area, click the **Utilization** tab, then click the **Show** drop-down menu and click **Projects**.
       1. Apply a filter to the Utilization report, then click **Run**.   
-         You must specify one or more projects in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.  
+         You must specify one or more projects in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filter-utilization-information) in this article.  
          Utilization information is displayed for individual roles and projects (roles are grouped within their associated project).
 
          ![](assets/utilization-projects-350x153.png)
@@ -380,7 +380,7 @@ To track the progress or cost of one or more projects with a Utilization report:
 
       1. Click **Reporting** in the Global Navigation Bar to go to the Reporting area, click the **Utilization** tab, then click the **Show** drop-down menu and click **Programs**.
       1. Apply a filter to the Utilization report, then click **Run**.   
-         You must specify one or more programs in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.   
+         You must specify one or more programs in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filter-utilization-information) in this article.   
          Utilization information is displayed for individual projects and programs (projects are grouped within their associated program).
 
          ![](assets/utilization-programs-350x132.png)
@@ -389,7 +389,7 @@ To track the progress or cost of one or more projects with a Utilization report:
 
       1. Click **Reporting** in the Global Navigation Bar to go to the Reporting area, click the **Utilization** tab, then click the **Show** drop-down menu and click **Portfolios**.
       1. Apply a filter to the Utilization report, then click **Run**.   
-         You must specify one or more portfolios in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.   
+         You must specify one or more portfolios in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filter-utilization-information) in this article.   
          Utilization information is displayed for individual projects, programs, and portfolios (projects are grouped within their associated program, and programs are grouped within their associated portfolio).
 
          ![](assets/utilization-portfolios-350x165.png)
@@ -406,24 +406,24 @@ To track the progress or cost of one or more projects with a Utilization report:
    ![](assets/utilization-view-dropdown.png)
 
 1. (Optional) Select the date range for which utilization information is displayed. You can display information for a given week or month to the left of the **Overall** column. Information for the overall project, program, or portfolio is always displayed in the **Overall** column.  
-   For more information, see the section [Adjust the date range for which information is displayed](#adjusting-the-date-range-for-which-information-is-displayed) in this article. 
+   For more information, see the section [Adjust the date range for which information is displayed](#adjust-the-date-range-for-which-information-is-displayed) in this article. 
 
 1. (Optional) Click any column title to sort the utilization report by the information in that column. Sorting works only when you include multiple items in your report. For example, you can sort the results of your report when you are looking at more than one project (or portfolio or program). You cannot sort the results when you are looking at only one project (or one portfolio or one program) at a time.  
-1. Use the information in the section [Overview of the Utilization report](#understanding-the-utilization-report) in this article to learn about each column in the Utilization report.
+1. Use the information in the section [Overview of the Utilization report](#overview-of-the-utilization-report) in this article to learn about each column in the Utilization report.
 
-## Filter utilization information
+## Filter utilization information {#filter-utilization-information}
 
 You can filter the content displayed in a Utilization report on a project. You can filter on tasks, issues, roles, and custom data. When you apply a filter to the Utilization report, the Utilization report contains information based on the criteria that you select.
 
 You can create a filter, or apply a filter that you previously created.
 
-* [Create or modify a filter](#creating-a-filter) 
-* [Apply a saved filter](#applying-a-saved-filter) 
-* [Duplicate a filter](#duplicating-a-filter) 
-* [Rename a filter](#renaming-a-filter) 
-* [Delete a filter](#deleting-a-filter)
+* [Create or modify a filter](#create-or-modify-a-filter) 
+* [Apply a saved filter](#apply-a-saved-filter) 
+* [Duplicate a filter](#duplicate-a-filter) 
+* [Rename a filter](#rename-a-filter) 
+* [Delete a filter](#delete-a-filter)
 
-### Create or modify a filter
+### Create or modify a filter {#create-or-modify-a-filter}
 
 When you create a filter, all Workfront users who have access to the Utilization report also have access to the filter you create. Similarly, when you modify an existing filter, the filter is modified for all users who have access to the Utilization report.
 
@@ -463,7 +463,7 @@ To create or modify a filter:
    * **Issues:** Begin typing the name of the issue that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.  
      Repeat this process to include information from multiple issues in the Utilization report.  
      If you already designated any portfolios, programs, or projects in the filter, the issue you specify must be from one of the portfolios, programs, or projects already included in the filter. If it is not, data from the issue is not included in the Utilization report.  
-     Cost information for issues is not always included in the Utilization report. For more information about when cost information for issues is included in the Utilization report, see the section [Track progress, cost, and revenue with the Utilization report](#tracking-progress-and-cost-with-a-utilization-report) in this article. 
+     Cost information for issues is not always included in the Utilization report. For more information about when cost information for issues is included in the Utilization report, see the section [Track progress, cost, and revenue with the Utilization report](#track-progress-cost-and-revenue-with-the-utilization-report) in this article. 
    
    * **Roles:** Begin typing the name of the role you want to be represented in the Utilization Report, then click the name when it appears in the drop-down menu. Repeat this process to include additional roles.  
      The Utilization Report contains information only for the roles you specify. For example, a task contains 10 Actual Hours. 6 of those hours are from a Designer role and 4 are from a Developer role. If you filter the Utilization Report by role for Designer, the 4 hours that come from the Developer role are excluded from the report.
@@ -483,7 +483,7 @@ To create or modify a filter:
    In the **Filter Name** field, specify a name for the filter, then click **Save**.  
    The Utilization area is filtered with the information you included in the filter.
 
-### Apply a saved filter
+### Apply a saved filter {#apply-a-saved-filter}
 
 1. To apply an existing filter on the Utilization Report for a single project, go to the project for which you want to apply the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
 
@@ -493,7 +493,7 @@ To create or modify a filter:
 
 1. Click **Saved Filters**, then select the filter you want to apply from the drop-down menu.
 
-### Duplicate a filter
+### Duplicate a filter {#duplicate-a-filter}
 
 1. To duplicate a filter on the Utilization Report for a single project, go to the project for which you want to duplicate the filter, then click the **Utilization** tab (depending on your layout settings, this might be located under the **More** tab).
 
@@ -508,7 +508,7 @@ To create or modify a filter:
 
 1. In the **Filter Name** field, specify a name for the new filter, then click **Save**.
 
-### Rename a filter
+### Rename a filter {#rename-a-filter}
 
 When you rename a filter, all Workfront users who have access to the Utilization report see the new name that you choose.
 
@@ -526,7 +526,7 @@ To rename a filter:
 
 1. In the **Filter Name** field, specify a name for the new filter, then click **Save**.
 
-### Delete a filter
+### Delete a filter {#delete-a-filter}
 
 When you delete a filter, the filter is deleted for all Workfront users who have access to the Utilization report.
 
@@ -544,7 +544,7 @@ To delete a filter:
 
 1. Click **Delete** when prompted whether you want to delete the filter.
 
-## Adjust the date range for which information is displayed
+## Adjust the date range for which information is displayed {#adjust-the-date-range-for-which-information-is-displayed}
 
 You can adjust the date range for which utilization information is displayed. You can select a past or future date. Changes you make are visible only to you.
 
@@ -619,6 +619,6 @@ You can visualize the data from the Utilization report in a chart view.
 
    ![](assets/utilization-chart-hover-350x180.png)
 
-1. (Optional) Adjust the filters to decide what information is displayed in the chart. For information about adjusting the filters, see the section [Filter utilization information](#filtering-utilization-information) in this article. 
-1. (Optional) Configure the timeframe of the chart report, as described in the section [Adjust the date range for which information is displayed](#adjusting-the-date-range-for-which-information-is-displayed) in this article.
+1. (Optional) Adjust the filters to decide what information is displayed in the chart. For information about adjusting the filters, see the section [Filter utilization information](#filter-utilization-information) in this article. 
+1. (Optional) Configure the timeframe of the chart report, as described in the section [Adjust the date range for which information is displayed](#adjust-the-date-range-for-which-information-is-displayed) in this article.
 

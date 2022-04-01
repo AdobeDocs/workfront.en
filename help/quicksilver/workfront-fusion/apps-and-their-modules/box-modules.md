@@ -69,10 +69,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers
 
-* [New event](#new) 
-* [Watch files](#watch)
+* [New event](#new-event) 
+* [Watch files](#watch-files)
 
-#### New event
+#### New event {#new-event}
 
 This instant trigger module starts a scenario when a file is added, moved, copied, deleted, locked, or unlocked.
 
@@ -91,7 +91,7 @@ This instant trigger module starts a scenario when a file is added, moved, copie
  </tbody> 
 </table>
 
-#### Watch files
+#### Watch files {#watch-files}
 
 This trigger module starts a scenario when a new file is added or an existing file is updated in a folder being watched.
 
@@ -120,12 +120,12 @@ This trigger module starts a scenario when a new file is added or an existing fi
 
 ### Actions
 
-* [Upload a file](#upload) 
-* [Update a file](#update) 
-* [Delete a file](#delete) 
-* [Get a file](#get)
+* [Upload a file](#upload-a-file) 
+* [Update a file](#update-a-file) 
+* [Delete a file](#delete-a-file) 
+* [Get a file](#get-a-file)
 
-#### Upload a file
+#### Upload a file {#upload-a-file}
 
 This action module uploads a file.
 
@@ -158,7 +158,7 @@ When you are configuring this module, the following fields display.
 >* Box does not upload more than one files with the same name to a single folder. If the destination folder contains a file with the same name as the file being uploaded, the scenario run terminates with an error. To avoid this, rename the file. If you want to update the file, use the **Update a file** module.
 >
 
-#### Update a file
+#### Update a file {#update-a-file}
 
 This action module updates a file.
 
@@ -187,7 +187,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Delete a file
+#### Delete a file {#delete-a-file}
 
 This action module deletes a file.
 
@@ -212,7 +212,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Get a file
+#### Get a file {#get-a-file}
 
 This action module downloads a file.
 

@@ -104,7 +104,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Upload**.  
    The document appears in the Documents area in the plugin and the desktop app.
 
-## Upload an interactive proof
+## Upload an interactive proof {#upload-an-interactive-proof}
 
 You can create an interactive proof for your art boards with the Workfront for Adobe plugin. It is a 2-step process. First you need to create an interactive link, then you need to upload the proof to a work item.
 
@@ -121,7 +121,7 @@ You can create an interactive proof for your art boards with the Workfront for A
    
    1. Click **Create Link**.
 
-1. Click back to **Design** in the top-left area of the screen. Continue to the [Upload an interactive proof](#upload) section below.
+1. Click back to **Design** in the top-left area of the screen. Continue to the [Upload an interactive proof](#upload-an-interactive-proof) section below.
 
    >[!NOTE]
    >

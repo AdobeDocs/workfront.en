@@ -45,20 +45,20 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Switch to the Milestone view
+## Switch to the Milestone view {#switch-to-the-milestone-view}
 
 1. Go to the list of projects or to the project report&nbsp;that contains the milestones you want to view.
 1. Click the **View** drop-down menu, then click **Milestone**.
 
    The list or report displays in a Milestone view.
 
-   For information about the milestone view, see the section [Milestone view overview](#understanding-the-milestone-view) in this article.
+   For information about the milestone view, see the section [Milestone view overview](#milestone-view-overview) in this article.
 
-## Milestone view overview
+## Milestone view overview {#milestone-view-overview}
 
 The Milestone view is available on project lists and project reports. This view enables you to quickly view all milestones that are associated with tasks within&nbsp;the projects you are viewing.
 
-For information about how to switch to the Milestone view, see the section [Switch to the Milestone view](#switching-to-the-milestone-view) in this article.
+For information about how to switch to the Milestone view, see the section [Switch to the Milestone view](#switch-to-the-milestone-view) in this article.
 
 ![project_with_milestone_view_with___complete.png](assets/project-with-milestone-view-with---complete-350x109.png)
 
@@ -73,8 +73,8 @@ When viewing a project list or project report in the Milestone view, the followi
    * **Task Completion Dates:** You can manually update Completion&nbsp;for tasks directly from the Milestone view.
 
 * **Percent Complete:** Displays the completion percentage of each task and project.  
-  You can disable the completion percentage from being displayed,&nbsp;as described in the section [Configure what information displays in the Milestone view](#configuring-whether-project-status-icons-and-percent-complete-are-displayed) in this article.  
-  You can adjust the completion percentage directly from the Milestone view, as described in the section [Adjust Percent Complete for tasks in the Milestone view](#adjusting-percent-complete-in-the-milestone-view) in this article.
+  You can disable the completion percentage from being displayed,&nbsp;as described in the section [Configure what information displays in the Milestone view](#configure-what-information-displays-in-the-milestone-view) in this article.  
+  You can adjust the completion percentage directly from the Milestone view, as described in the section [Adjust Percent Complete for tasks in the Milestone view](#adjust-percent-complete-for-tasks-in-the-milestone-view) in this article.
 
 * **Task status icons:** A status icon is displayed next to each&nbsp;project and task in the Milestone view.
 
@@ -90,7 +90,7 @@ When viewing a project list or project report in the Milestone view, the followi
    * Late  
      ![](assets/gantt-late.png)
 
-  You can disable these status icons from being displayed, as described in the section [Configure what information displays in the Milestone view](#configuring-whether-project-status-icons-and-percent-complete-are-displayed) in this article.  
+  You can disable these status icons from being displayed, as described in the section [Configure what information displays in the Milestone view](#configure-what-information-displays-in-the-milestone-view) in this article.  
   For more detailed&nbsp;information about each status type, see the article [Task Progress Status overview](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * **Task status shading for completed tasks**: After a task is marked Complete, the background of the task is shaded in the Milestone view to indicate whether the task was completed on time or late:
@@ -119,7 +119,7 @@ When viewing a project list or project report in the Milestone view, the followi
 * **Project name**: The project name is displayed with a link to the project.
 * **Project Condition icon**: An icon is displayed next to the project name, indicating the condition of the project.
 
-## Configure what information displays in the Milestone view
+## Configure what information displays in the Milestone view {#configure-what-information-displays-in-the-milestone-view}
 
 You can configure whether the following elements are displayed in the Milestone view:
 
@@ -156,7 +156,7 @@ To configure whether project status icons and completion percentage of projects 
     </tbody> 
    </table>
 
-## Adjust Percent Complete for tasks in the Milestone view
+## Adjust Percent Complete for tasks in the Milestone view {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
 You can adjust the Percent Complete for tasks in the Milestone view.&nbsp;You cannot adjust the Percent Complete for a parent task (a task that contains subtasks).
 

@@ -69,7 +69,7 @@ You must have the following to share objects:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Share a single object
+## Share a single object {#share-a-single-object}
 
 1. Go to the object you want to share.
 
@@ -161,7 +161,9 @@ You must have the following to share objects:
 1. (Conditional) If you made the object public to external users, click **copy link,**&nbsp;then distribute the link to external users.  
    Any users with the link are able to view the object.
 
-   ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. 
+   >[!CAUTION]
+   >
+   >We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
 
 1. Click **Save**.
 
@@ -190,6 +192,6 @@ To share objects in bulk:
 
    ![](assets/screen-shot-2014-05-29-at-2.54.51-pm-350x405.png)
 
-1. Continue sharing the selected objects as described in steps 4-9 in the section [Share a single object](#share) in this article. 
+1. Continue sharing the selected objects as described in steps 4-9 in the section [Share a single object](#share-a-single-object) in this article. 
 1. Click **Save**.
 

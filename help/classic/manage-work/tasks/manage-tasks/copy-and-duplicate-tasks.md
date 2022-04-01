@@ -52,7 +52,7 @@ You can copy a task in the following areas of the Adobe Workfront web applicatio
 
 * At the task level, from the **Task Actions** menu in the upper-right corner.
 
-  For information, see the [Copy a task at the task level](#copy) section in this article.
+  For information, see the [Copy a task at the task level](#copy-a-task-at-the-task-level) section in this article.
 
 * In a task list, by doing one of the following:
 
@@ -62,9 +62,9 @@ You can copy a task in the following areas of the Adobe Workfront web applicatio
 
      This option is not available when selecting multiple tasks.
 
-  For information, see the [Copy tasks in a list](#copy2) section in this article.
+  For information, see the [Copy tasks in a list](#copy-tasks-in-a-list) section in this article.
 
-## Copy tasks in a list
+## Copy tasks in a list {#copy-tasks-in-a-list}
 
 1. Go to the project that contains the task or tasks that you want to copy.
 
@@ -80,9 +80,9 @@ You can copy a task in the following areas of the Adobe Workfront web applicatio
    >You can copy tasks in a list only when automatically saving your changes. For information about saving options when editing tasks, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 1. Select the task or tasks that you want to copy and click **More** > **Copy To**. 
-1. Continue with copying the task, as described in the section [Copy a task at the task level](#copy) starting with Step 4.
+1. Continue with copying the task, as described in the section [Copy a task at the task level](#copy-a-task-at-the-task-level) starting with Step 4.
 
-## Copy a task&nbsp;at the task level
+## Copy a task&nbsp;at the task level {#copy-a-task-at-the-task-level}
 
 In addition to copying tasks in a list of tasks, you can also copy a task after you have opened it.&nbsp;
 
@@ -162,10 +162,10 @@ This is helpful for ad hoc tasks, which are not located on a task list of a proj
 
 You can quickly duplicate a task in a task list, if you need an identical task on the same project.
 
-* [Considerations for duplicating tasks](#consider) 
-* [Duplicate tasks](#duplicat)
+* [Considerations for duplicating tasks](#considerations-for-duplicating-tasks) 
+* [Duplicate tasks](#duplicate-tasks)
 
-### Considerations for duplicating tasks
+### Considerations for duplicating tasks {#considerations-for-duplicating-tasks}
 
 * You can duplicate a task in a task list only when the list is sorted by task number.
 
@@ -187,7 +187,7 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 
 * Milestones are moved to the new task and removed from the original task.
 
-### Duplicate tasks
+### Duplicate tasks {#duplicate-tasks}
 
 1. Go to the project that contains the task or tasks that you want to duplicate.
 1. Select the **Tasks** tab.

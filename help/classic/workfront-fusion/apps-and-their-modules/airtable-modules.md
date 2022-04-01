@@ -19,7 +19,7 @@ In a Adobe Workfront Fusion scenario, you can connect your Airtable account to m
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial <a href="../../workfront-fusion/tutorials/sync-airtable-google-contacts.md" class="MCXref xref">Sync Airtable and Google contacts</a>.</p>
 -->
 
-## Connect Airtable to Workfront Fusion
+## Connect Airtable to Workfront Fusion {#connect-airtable-to-workfront-fusion}
 
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
@@ -34,14 +34,14 @@ In a Adobe Workfront Fusion scenario, you can connect your Airtable account to m
 
 ### Records
 
-* [Create a Record](#create) 
-* [Delete a Record](#delete) 
-* [Get a record](#get) 
-* [Search Records](#search) 
-* [Update a Record](#update) 
-* [Watch Records](#watch2)
+* [Create a Record](#create-a-record) 
+* [Delete a Record](#delete-a-record) 
+* [Get a record](#get-a-record) 
+* [Search Records](#search-records) 
+* [Update a Record](#update-a-record) 
+* [Watch Records](#watch-records)
 
-#### Create a Record
+#### Create a Record {#create-a-record}
 
 This action module creates a new record.
 
@@ -57,7 +57,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p style="font-weight: bold;">Record</p> </td> 
@@ -93,7 +93,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Delete a Record
+#### Delete a Record {#delete-a-record}
 
 This action module deletes a particular record.
 
@@ -109,7 +109,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -122,7 +122,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Get a record
+#### Get a record {#get-a-record}
 
 This action module retrieves record details.
 
@@ -132,7 +132,7 @@ This action module retrieves record details.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -149,7 +149,7 @@ This action module retrieves record details.
  </tbody> 
 </table>
 
-#### Search Records
+#### Search Records {#search-records}
 
 This search module looks for records in an object in Airtable that match the search query you specify.
 
@@ -163,7 +163,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -188,7 +188,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Update a Record
+#### Update a Record {#update-a-record}
 
 This action module updates a particular record.
 
@@ -204,7 +204,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p style="font-weight: normal;">Establish a connection to your Airtable account. (See <a href="#connecti" class="MCXref xref">Connect Airtable to Workfront Fusion</a>.)</p> </td> 
+   <td> <p style="font-weight: normal;">Establish a connection to your Airtable account. (See <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a>.)</p> </td> 
   </tr> 
   <tr> 
    <td>Record ID </td> 
@@ -246,7 +246,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Watch Records
+#### Watch Records {#watch-records}
 
 This trigger module executes a scenario when a new record is added or updated in the table. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
@@ -260,7 +260,7 @@ This trigger module executes a scenario when a new record is added or updated in
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connecti" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 

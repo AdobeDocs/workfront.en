@@ -114,13 +114,13 @@ You must have the following access to perform the steps in this article:
 
    The issue is now linked to the new task on the project you chose, and it will complete once the task completes, if you decided to keep the original issue.
 
-   Some issue fields transfer to the task. For information, see the [View original issue information on projects and tasks](#viewing-original-issue-information) section in this article.
+   Some issue fields transfer to the task. For information, see the [View original issue information on projects and tasks](#view-original-issue-information-on-projects-and-tasks) section in this article.
 
 1. (Optional) Continue editing the task (assignments, dates) as necessary.
 
    ![](assets/ci9-350x135.png)
 
-## View original issue information on projects and tasks
+## View original issue information on projects and tasks {#view-original-issue-information-on-projects-and-tasks}
 
 You can view the original issue information in project and task lists and reports ```or in the Project Details area```. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -132,4 +132,7 @@ The following table illustrates which&nbsp;issue fields are visible from the con
 | Primary Contact | ```Converted Issue``` Originator Name |✔ | ```✔```  |✔ |&nbsp; |
 | Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
 
-``` ```**Warning: **``````If the Primary&nbsp;Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted. 
+>[!CAUTION]
+>
+>If the Primary&nbsp;Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted.
+

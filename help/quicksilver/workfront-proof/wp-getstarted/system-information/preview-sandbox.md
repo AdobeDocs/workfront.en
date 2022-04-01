@@ -28,16 +28,16 @@ The Preview Sandbox contains your actual production&nbsp;data. Data flows from P
 
 By default, as a system administrator, you have access to the Preview Sandbox environment. If you cannot access the Preview Sandbox environment as described in this section, contact your Workfront administrator or our Support&nbsp;team.
 
-* [Accessing the Preview Sandbox as a Stand-Alone Workfront Proof Customer](#accessing-the-preview-sandbox-as-a-stand-alone-proofhq-customer) 
-* [Accessing the Preview Sandbox as a Workfront+Workfront Proof Customer](#accessing-the-preview-sandbox-as-a-workfront-proofhq-customer)
+* [Accessing the Preview Sandbox as a Stand-Alone Workfront Proof Customer](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer) 
+* [Accessing the Preview Sandbox as a Workfront+Workfront Proof Customer](#accessing-the-preview-sandbox-as-a-workfront-workfront-proof-customer)
 
-### Accessing the Preview Sandbox as a Stand-Alone Workfront Proof&nbsp;Customer
+### Accessing the Preview Sandbox as a Stand-Alone Workfront Proof&nbsp;Customer {#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer}
 
 1. Navigate to this URL:  ```https://preview.proofhq.com```.
 1. Log in using your Preview credentials.  
    Your Preview credentials should be the same as your Production credentials unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs, which takes place every weekend. They do not synchronize automatically.
 
-### Accessing the Preview Sandbox&nbsp;as a Workfront+Workfront Proof Customer
+### Accessing the Preview Sandbox&nbsp;as a Workfront+Workfront Proof Customer {#accessing-the-preview-sandbox-as-a-workfront-workfront-proof-customer}
 
 As a system administrator, you can access the Workfront Proof&nbsp;Preview Sandbox via the Workfront interface.&nbsp;
 

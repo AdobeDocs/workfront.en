@@ -59,10 +59,10 @@ In addition to the considerations below, also see [Share reports, dashboards, an
 
 You can share reports in&nbsp;Workfront in the following way:
 
-* Manually, as described in the [Share a report](#share) section below. 
+* Manually, as described in the [Share a report](#share-a-report) section below. 
 * Automatically, by inheriting View permissions from a dashboard that contains the report which has been shared. For information about viewing inherited permissions on objects, see [View inherited permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-## Share a report
+## Share a report {#share-a-report}
 
 Sharing one report or several reports from a list is identical.
 
@@ -98,7 +98,9 @@ Sharing one report or several reports from a list is identical.
 
    * **Make this public to external users:** Select this option to generate a URL that can be shared with others. Anyone with the URL can access the report, without having an Adobe Workfront license.
 
-     ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
+     >[!CAUTION]
+     >
+     >We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
 
      >[!NOTE]
      >

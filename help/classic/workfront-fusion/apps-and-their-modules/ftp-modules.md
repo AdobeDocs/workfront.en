@@ -15,13 +15,13 @@ FTP modules let you monitor file changes in a selected folder, upload new files 
 
 In order to use [Fusion App] with Workfront Fusion, it is necessary to have an FTP account (such as GoDaddy web hosting).
 
-* [Creating the FTP Connection](#creating) 
+* [Creating the FTP Connection](#creating-the-ftp-connection) 
 * [Triggers](#triggers) 
 * [Actions](#actions) 
-* [Troubleshooting](#troubles) 
+* [Troubleshooting](#troubleshooting) 
 * [Sources](#sources)
 
-## Creating the FTP Connection
+## Creating the FTP Connection {#creating-the-ftp-connection}
 
 <table cellspacing="15"> 
  <col> 
@@ -66,7 +66,7 @@ In order to use [Fusion App] with Workfront Fusion, it is necessary to have an F
  </tbody> 
 </table>
 
-## Triggers
+## Triggers {#triggers}
 
 Watch files is the only trigger module for FTP. It monitors the file content of the selected folder. The trigger is executed when a new file is inserted into the specified folder.
 
@@ -78,7 +78,7 @@ Watch files is the only trigger module for FTP. It monitors the file content of 
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating-the-ftp-connection" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Folder</p> </td> 
@@ -95,15 +95,15 @@ Watch files is the only trigger module for FTP. It monitors the file content of 
  </tbody> 
 </table>
 
-## Actions
+## Actions {#actions}
 
-* [Upload a file](#upload) 
-* [Delete a file](#delete) 
-* [Get files](#get) 
-* [List of files in a folder](#list) 
-* [Get a file](#get2)
+* [Upload a file](#upload-a-file) 
+* [Delete a file](#delete-a-file) 
+* [Get files](#get-files) 
+* [List of files in a folder](#list-of-files-in-a-folder) 
+* [Get a file](#get-a-file)
 
-### Upload a file
+### Upload a file {#upload-a-file}
 
 Uploads a file to the FTP server.
 
@@ -113,7 +113,7 @@ Uploads a file to the FTP server.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</td> 
+   <td>For instructions on establishing a connection to the FTP account, see <a href="#creating-the-ftp-connection" class="MCXref xref">Creating the FTP Connection</a> in this article.</td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -134,7 +134,7 @@ Uploads a file to the FTP server.
  </tbody> 
 </table>
 
-### Delete a file
+### Delete a file {#delete-a-file}
 
 Deletes a file from the specified folder.
 
@@ -144,7 +144,7 @@ Deletes a file from the specified folder.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating-the-ftp-connection" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -157,7 +157,7 @@ Deletes a file from the specified folder.
  </tbody> 
 </table>
 
-### Get files
+### Get files {#get-files}
 
 Retrieves information (id, file name, file size, MIME type, date path) about a searched file.
 
@@ -167,7 +167,7 @@ Retrieves information (id, file name, file size, MIME type, date path) about a s
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating-the-ftp-connection" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -184,7 +184,7 @@ Retrieves information (id, file name, file size, MIME type, date path) about a s
  </tbody> 
 </table>
 
-### List of files in a folder
+### List of files in a folder {#list-of-files-in-a-folder}
 
 Retrieves file and/or folder information.
 
@@ -194,7 +194,7 @@ Retrieves file and/or folder information.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating-the-ftp-connection" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -215,7 +215,7 @@ Retrieves file and/or folder information.
  </tbody> 
 </table>
 
-### Get a file
+### Get a file {#get-a-file}
 
 Retrieves a file from the FTP server which can be further processed, e.g. uploaded to the Dropbox.
 
@@ -225,7 +225,7 @@ Retrieves a file from the FTP server which can be further processed, e.g. upload
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating-the-ftp-connection" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>File path</td> 
@@ -248,7 +248,7 @@ Change permissions
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating-the-ftp-connection" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Change permission settings of</td> 
@@ -265,7 +265,7 @@ Change permissions
  </tbody> 
 </table>
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 If you are experiencing issues with the FTP app either during the connection creation or during a module's operation, try to use one of the popular FTP clients, such as [WinSCP](https://winscp.net/eng/download.php), and try to perform the same action (for example, create a connection or list files in a folder). with the FTP client. If you are experiencing the same issues also with the FTP client, the reason might be a misconfiguration of the FTP server.
 
@@ -301,7 +301,7 @@ There are two FTP modes: active and passive. As the Workfront Fusion FTP app req
 
    . The FTP session has now been established.
 
-## Sources
+## Sources {#sources}
 
 * [https://winscp.net/eng/docs/ftp_modes](https://winscp.net/eng/docs/ftp_modes) 
 * [https://documentation.meraki.com/.../Active_and_Passive_FTP_Overview_and_Configuration](https://documentation.meraki.com/.../Active_and_Passive_FTP_Overview_and_Configuration)

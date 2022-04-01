@@ -49,11 +49,11 @@ Only the user assigned to the task or issue can mark it as Done.&nbsp;
 1. Do either of the following:
 
 * Click&nbsp;**Done**&nbsp;on the work item.  
-  See [Understand the options of the Done button](#options-of-done-button) for more detailed information about how this button might appear.
+  See [Understand the options of the Done button](#understand-the-options-of-the-done-button) for more detailed information about how this button might appear.
 
 * Click&nbsp;**Update Status**&nbsp;and change the status of the item to a Complete or Closed status.&nbsp;
 
-## Understand the options of the Done button
+## Understand the options of the Done button {#understand-the-options-of-the-done-button}
 
 By default, clicking the Done button on a work item changes the status of that item to Complete (for tasks) or Resolved (for issues).&nbsp;
 
@@ -61,20 +61,20 @@ Your Adobe Workfront administrator can customize what statuses are associated wi
 
 Depending on how many statuses are associated with the Done button or how many resources are assigned to the task or the issue, the look of the Done button can change.&nbsp;
 
-* [Done button associated with one status](#one-status) 
-* [Done button associated with multiple statuses](#multiple-statuses) 
-* [Done button for items assigned to multiple resources](#multiple-resources)&nbsp;
+* [Done button associated with one status](#done-button-associated-with-one-status) 
+* [Done button associated with multiple statuses](#done-button-associated-with-multiple-statuses) 
+* [Done button for items assigned to multiple resources](#done-button-for-items-assigned-to-multiple-resources)&nbsp;
 
-### Done button associated with one status
+### Done button associated with one status {#done-button-associated-with-one-status}
 
 When the Done button is associated with one status and the work item is assigned to you only, the words on the button are **I'm Done**. When you click it,&nbsp;the status of the task or the issue is changed to the status associated with the Done button.  
 ![](assets/done-button-for-one-status-i-mdone-350x133.png)
 
 To understand which status is associated with the Done button, check the Team Settings of your Home Team for the Done Button section, as described in .
 
-If you are not assigned to a Home Team,&nbsp;the default status is chosen when clicking Done, as described above in [Understand the options of the Done button](#options-of-done-button).
+If you are not assigned to a Home Team,&nbsp;the default status is chosen when clicking Done, as described above in [Understand the options of the Done button](#understand-the-options-of-the-done-button).
 
-### Done button associated with multiple statuses
+### Done button associated with multiple statuses {#done-button-associated-with-multiple-statuses}
 
 When the Done button is associated with more than one status, the button shows the word&nbsp;**Done** which is followed by a drop-down menu. In this scenario, you cannot simply click Done. You must select a status from the drop-down menu. Select the status that best fits the completion of the work item. By doing this, you are changing the status of the work item.
 
@@ -82,7 +82,7 @@ To understand how you can associate multiple&nbsp;statuses with the Done button,
 
 ![](assets/done-button-with-options-350x218.png)
 
-### Done button for items&nbsp;assigned to multiple resources
+### Done button for items&nbsp;assigned to multiple resources {#done-button-for-items-assigned-to-multiple-resources}
 
 When the task or the issue is assigned to more than one resource,&nbsp;the button shows the word **Done** which is followed by a drop-down menu. In the drop-down menu, you have the option to chose between **Done with my part** (which lets team members know you are complete with your portion of the task), or the status associated with the Done button (which&nbsp;completes the item).  
 If the Done button is&nbsp;associated with multiple statuses, they are&nbsp;listed under **Done with my part**.  

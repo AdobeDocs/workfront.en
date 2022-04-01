@@ -53,16 +53,16 @@ You can determine what information Workfront tracks when users change informatio
 >* You can customize the system update for projects, tasks, issues, portfolios, programs, and users. You cannot customize the system update for templates, documents or timesheets, but Workfront does record system updates for these objects.
 >
 
-* [Add fields you want Workfront to track](#adding-fields-to-the-update-feeds) 
-* [Remove fields that you don't want tracked](#removing-fields-from-the-update-feeds)
+* [Add fields you want Workfront to track](#add-fields-you-want-workfront-to-track) 
+* [Remove fields that you don't want tracked](#remove-fields-that-you-don-t-want-tracked)
 
-### Add fields you want Workfront to track
+### Add fields you want Workfront to track {#add-fields-you-want-workfront-to-track}
 
 You can add fields you want Workfront to track for a particular type of object throughout the Workfront interface. When users change information in that field, Workfront records information about the change as a system update in the Updates area for the object.
 
 >[!NOTE]
 >
->You can track up to 300 built-in and custom fields in the update feeds. If you are tracking the maximum number of fields and want to track additional fields that are not displayed in the All Fields Sub-tab, you must first remove some of the tracked fields in order to track new fields. For more information about removing fields from the update fields, see see [Remove fields that you don't want tracked](#removing-fields-from-the-update-feeds).
+>You can track up to 300 built-in and custom fields in the update feeds. If you are tracking the maximum number of fields and want to track additional fields that are not displayed in the All Fields Sub-tab, you must first remove some of the tracked fields in order to track new fields. For more information about removing fields from the update fields, see see [Remove fields that you don't want tracked](#remove-fields-that-you-don-t-want-tracked).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -84,7 +84,7 @@ You can add fields you want Workfront to track for a particular type of object t
 
    The **All Fields** sub-tab shows both the built-in and the custom fields that are being tracked.
 
-### Remove fields that you don't want tracked
+### Remove fields that you don't want tracked {#remove-fields-that-you-don-t-want-tracked}
 
 You can remove fields you do not want the system to track for a particular type of object throughout the Workfront interface.
 

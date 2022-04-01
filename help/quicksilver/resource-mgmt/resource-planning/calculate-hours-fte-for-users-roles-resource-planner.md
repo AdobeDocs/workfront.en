@@ -17,21 +17,21 @@ For more information about calculating Costs in the Resource Planner, see [Calcu
 The following sets of resource information are calculated differently in the Resource Planner:
 
 * The Available Hours or FTE values are calculated based on the way your System Administrator configures the Resource Management preferences in your system.  
-  For more information about how the Available Hours and FTE values are calculated, see [Calculate Available Hours or FTE for users and job roles in the Resource Planner](#calculating-available-hours).  
+  For more information about how the Available Hours and FTE values are calculated, see [Calculate Available Hours or FTE for users and job roles in the Resource Planner](#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner).  
   For more information about defining the Resource Management preferences for the Adobe Workfront system, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).  
 
 * All other FTE values are calculated based on the System Default schedule.  
-  For more information about how the all other values display in the Resource Planner when using FTE, see [Calculate all other hour and FTE values for users and job roles in the Resource Planner](#calculating-all-other-values).
+  For more information about how the all other values display in the Resource Planner when using FTE, see [Calculate all other hour and FTE values for users and job roles in the Resource Planner](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner).
 
 It is important to understand what the FTE is for each of your users and their job roles to accurately manage your resources as you are assigning them to work.
 
-## Calculate Available Hours or FTE for users and job roles in the Resource Planner
+## Calculate Available Hours or FTE for users and job roles in the Resource Planner {#calculate-available-hours-or-fte-for-users-and-job-roles-in-the-resource-planner}
 
-* [Calculate the Available Hours and FTE for a user in the Resource Planner](#user-availability) 
-* [Calculate the Available Hours and FTE for a job role in the Resource Planner](#job-role-availability) 
-* [Calculate the Available Hours and FTE for a user in the Resource Planner (Example)](#example)
+* [Calculate the Available Hours and FTE for a user in the Resource Planner](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) 
+* [Calculate the Available Hours and FTE for a job role in the Resource Planner](#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner) 
+* [Calculate the Available Hours and FTE for a user in the Resource Planner (Example)](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example)
 
-### Calculate the Available Hours and FTE for a user in the Resource Planner
+### Calculate the Available Hours and FTE for a user in the Resource Planner {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner}
 
 The Workfront administrator determines how the available time for a user is calculated by selecting to use one of the following in the Resource Management area in&nbsp;Setup:
 
@@ -63,7 +63,7 @@ If the user is not associated with a schedule, the Available Hours for the user 
 </div>
 -->
 
-### Calculate the Available Hours and FTE for a job role in the Resource Planner
+### Calculate the Available Hours and FTE for a job role in the Resource Planner {#calculate-the-available-hours-and-fte-for-a-job-role-in-the-resource-planner}
 
 You first have to calculate the user availability, and then you can calculate the availability of each of their job roles.
 
@@ -76,12 +76,12 @@ For example, if the value of Available Hours for a user is 40 and they can fulfi
 
 >[!NOTE]
 >
->The total available time for the user is calculated by one of the two methods described in the [Calculate the Available Hours and FTE for a user in the Resource Planner](#user-availability) section in this article.
+>The total available time for the user is calculated by one of the two methods described in the [Calculate the Available Hours and FTE for a user in the Resource Planner](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) section in this article.
 
 When viewing the Resource Planner in the Role View, the availability of one job role is a total of the availability of all users who can fulfill that job role.  
 For more information about availability of resources in the Resource Planner, see the [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-### Calculate the Available Hours and FTE for a user in the Resource Planner (Example)
+### Calculate the Available Hours and FTE for a user in the Resource Planner (Example) {#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner-example}
 
 The following table illustrates how the Available Hours and Available FTE are calculated for the user in the Resource Planner, depending on which method is used by the system administrator for the FTE calculation in the Resource Management Preferences.
 
@@ -96,7 +96,7 @@ For this example, we are using the following numbers:
 | **The Default Schedule** |Ignored |40 |0.75 |**30** (calculated) |**0.75** |
 | **The User's Schedule** |20 |40 |Ignored |**20** |**0.5** (calculated) |
 
-## Calculate all other hour and FTE values for users and job roles in the Resource Planner
+## Calculate all other hour and FTE values for users and job roles in the Resource Planner {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
 
 In addition to the Available Hours or FTE, the following time information is also displayed in the Resource Planner:
 

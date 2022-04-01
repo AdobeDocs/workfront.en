@@ -187,7 +187,7 @@ Further configuration and use of the created OAuth2 application requires some te
 >
 >For specific instructions on using the OAuth2 application, including specific API calls, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
 
-#### Authorizing with an authorization code and access token
+#### Authorizing with an authorization code and access token {#authorizing-with-an-authorization-code-and-access-token}
 
 1. ClientApp needs some information from Workfront, so it sends a request to the Workfront API 
 
@@ -223,7 +223,7 @@ Further configuration and use of the created OAuth2 application requires some te
 
 For security, access tokens expire after a short amount of time. To get new access tokens without having to enter credentials every time, OAuth2 uses refresh tokens. Refresh tokens are stored by the client.
 
-The process for acquiring a refresh token is the same as the procedure discussed in the section [Authorizing with an authorization code and access token](#authoriz). The request for the authorization code includes the scope 
+The process for acquiring a refresh token is the same as the procedure discussed in the section [Authorizing with an authorization code and access token](#authorizing-with-an-authorization-code-and-access-token). The request for the authorization code includes the scope 
 
 ```
 offline_access

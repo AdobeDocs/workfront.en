@@ -27,7 +27,7 @@ For information integrating your Home Calendar with an outside calendar, see [Co
 
 The remaining sections in this article explain sections and functions of the Home Calendar View in more detail.
 
-## Work list on the Home Calendar
+## Work list on the Home Calendar {#work-list-on-the-home-calendar}
 
 Work items (Tasks, Issues, Requests, and Approvals) assigned to you, your groups, your teams, and your roles display in the work list on the left of the Calendar in the Home area.
 
@@ -79,5 +79,5 @@ The Due bar on your Home Calendar displays the items that are due for the week c
 
 >[!NOTE]
 >
->If you have integrated your Microsoft calendar with your Workfront calendar, items in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your Workfront Calendar. For more information, see the section&nbsp; [Work list on the Home Calendar](#using-the-left-panel-of-the-home-view)&nbsp;above and the article&nbsp; [Configure your Home Calendar view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+>If you have integrated your Microsoft calendar with your Workfront calendar, items in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your Workfront Calendar. For more information, see the section&nbsp; [Work list on the Home Calendar](#work-list-on-the-home-calendar)&nbsp;above and the article&nbsp; [Configure your Home Calendar view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 

@@ -89,17 +89,18 @@ Consider the following benefits when using the Workload Balancer:
 
 We recommend the following best practices for planning projects, configuring users, ```and using filters``` before starting scheduling your resources using the Workload Balancer.
 
-* [Best practices for displaying information in the Workload Balancer](#best2) 
-* [Best practices for setting up users](#user-prerequisites) 
-* [Best practices for setting up tasks and issues](#tasks-prerequisites)
+* [Best practices for displaying information in the Workload Balancer](#best-practices-for-displaying-information-in-the-workload-balancer) 
+* [Best practices for setting up users](#best-practices-for-setting-up-users) 
+* [Best practices for setting up tasks and issues](#best-practices-for-setting-up-tasks-and-issues)
 
-### Best practices for displaying information in the Workload Balancer
+### Best practices for displaying information in the Workload Balancer {#best-practices-for-displaying-information-in-the-workload-balancer}
 
 ```We recommend that you use filters so you can display only the information that is pertinent to you for both unassigned and assigned work items.```
 
 For information about creating and using filters in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-### Best practices for setting up users
+### Best practices for setting up users   
+{#best-practices-for-setting-up-users}
 
 * As the user who schedules work for others, you must have the correct access and permissions to schedule resources for work.
 
@@ -118,7 +119,7 @@ For information about creating and using filters in the Workload Balancer, see [
 
 * The Workfront administrator must determine how Workfront calculates user availability.&nbsp;They can decide whether Workfront uses either the System Default Schedule, or the user's schedule to calculate the time that the user is available to work. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-### Best practices for setting up tasks ```and``` ```issues```
+### Best practices for setting up tasks ```and``` ```issues``` {#best-practices-for-setting-up-tasks-and-issues}
 
 Ensure the following task and ```issue``` setup exists before starting assigning work to users in the Workload Balancer:
 

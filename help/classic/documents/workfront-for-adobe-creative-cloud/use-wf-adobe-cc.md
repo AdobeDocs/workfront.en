@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Log in to Workfront from an Adobe Creative Cloud application&nbsp;
+## Log in to Workfront from an Adobe Creative Cloud application&nbsp; {#log-in-to-workfront-from-an-adobe-creative-cloud-application}
 
 When you log in to Workfront from one of the supported Adobe applications, you are logged in to all supported Adobe applications.
 
@@ -77,7 +77,7 @@ When you log in to Workfront from one of the supported Adobe applications, you a
 
    Personal tasks are listed under **No Project**.
 
-## Upload a file to a Workfront project, task, or issue
+## Upload a file to a Workfront project, task, or issue {#upload-a-file-to-a-workfront-project-task-or-issue}
 
 You can upload a file from your computer file system or export a file currently open in an Adobe Creative Cloud application to a Workfront project, task, or issue.&nbsp;
 
@@ -90,11 +90,11 @@ Consider the following when uploading or exporting a file from Adobe Creative Cl
 
 This section explains the following:
 
-* [Upload a file](#upload) 
-* [Export a file currently open in an Adobe application](#exporting-a-file) 
-* [Upload a new version of a file from an Adobe application](#uploading-a-new-version)
+* [Upload a file](#upload-a-file) 
+* [Export a file currently open in an Adobe application](#export-a-file-currently-open-in-an-adobe-application) 
+* [Upload a new version of a file from an Adobe application](#upload-a-new-version-of-a-file-from-an-adobe-application)
 
-### Upload a file
+### Upload a file {#upload-a-file}
 
 You can upload your files to a project, task, or issue without leaving your Adobe Creative Cloud application.
 
@@ -130,7 +130,7 @@ You can upload your files to a project, task, or issue without leaving your Adob
 
    Workfront opens in a new browser tab.
 
-### Export a file currently open in an Adobe application
+### Export a file currently open in an Adobe application {#export-a-file-currently-open-in-an-adobe-application}
 
 1. In a supported Adobe Creative Cloud application, open a file that you would like to export to Workfront.&nbsp;
 1. If the Workfront extension is not displayed, click **Window** > **Extensions** > Workfront.
@@ -166,7 +166,7 @@ You can upload your files to a project, task, or issue without leaving your Adob
 
    Workfront opens in a new browser tab.
 
-### Upload a new version of a file from an Adobe application
+### Upload a new version of a file from an Adobe application {#upload-a-new-version-of-a-file-from-an-adobe-application}
 
 1. If you want to export a file you are working on in a supported Adobe application as a new version of a file in Workfront, open the file in the Adobe application.&nbsp;
 1. If the Workfront extension is not displayed, click **Window** > **Extensions** > Workfront.
@@ -201,7 +201,7 @@ You can upload your files to a project, task, or issue without leaving your Adob
    >
    >![](assets/doc-name-cant-be-changed.png)
 
-## Comment&nbsp;on a Workfront document from an Adobe application
+## Comment&nbsp;on a Workfront document from an Adobe application {#comment-on-a-workfront-document-from-an-adobe-application}
 
 You can add comments directly to a Workfront document within an Adobe application. In Workfront, your comments display in the document's Updates area and the Updates area for the Workfront item where the document is saved.&nbsp;
 
@@ -243,7 +243,7 @@ You can request an approval on a document from an Adobe application in the follo
 * By attaching an approver to the document.
 * By commenting on a document, notifying the person when you make a comment. and attaching them as an approver to the document.
 
-  For information about requesting an approval when commenting on a document, see [Comment on a Workfront document from an Adobe application](#commenting-on-a-workfront-document) in this article.
+  For information about requesting an approval when commenting on a document, see [Comment on a Workfront document from an Adobe application](#comment-on-a-workfront-document-from-an-adobe-application) in this article.
 
 To request an approval on a document from an Adobe application:
 
@@ -275,7 +275,7 @@ To request an approval on a document from an Adobe application:
 
    For information about notifications in Workfront, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md). For information about receiving email notifications, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
-## Generate a proof from an Adobe application
+## Generate a proof from an Adobe application {#generate-a-proof-from-an-adobe-application}
 
 If your organization uses Automated Workflow templates, you can generate a proof for a document you create in an Adobe application without leaving the application. For information about generating proofs, see [Generate a proof](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md). For information about Automated Workflow templates, see [Automated Workflow templates](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Automated Workflow overview](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
@@ -290,7 +290,7 @@ If your organization uses Automated Workflow templates, you can generate a proof
 
    Or
 
-   Upload an Abobe document to a Workfront object, as described in the section [Upload a file to a Workfront project, task, or issue](#sending-a-file-to-workfront) in this article, then click the name of the document.
+   Upload an Abobe document to a Workfront object, as described in the section [Upload a file to a Workfront project, task, or issue](#upload-a-file-to-a-workfront-project-task-or-issue) in this article, then click the name of the document.
 
 1. In the **Click to select format** drop-down menu, click the format in which you want to save the file in Workfront.
 
@@ -342,15 +342,15 @@ If your organization uses Automated Workflow templates, you can generate a proof
 
 1. (Optional) Click **Feedback** to open a brief survey and send Workfront your feedback about Workfront for Adobe Creative Cloud.&nbsp;
 1. Click **Logout**.  
-   The Login screen displays. For information about logging in, see [Log in to Workfront from an Adobe Creative Cloud application](#logging-in) in this article.
+   The Login screen displays. For information about logging in, see [Log in to Workfront from an Adobe Creative Cloud application](#log-in-to-workfront-from-an-adobe-creative-cloud-application) in this article.
 
-## Supported exported file formats
+## Supported exported file formats {#supported-exported-file-formats}
 
-* [Supported Exported File Formats for Adobe InDesign](#supported-exported-file-formats-indesign) 
-* [Supported exported file formats for Adobe Illustrator](#supported-exported-file-formats-illustrator) 
-* [Supported exported file formats for Adobe Photoshop](#supported-exported-file-formats-photoshop)
+* [Supported Exported File Formats for Adobe InDesign](#supported-exported-file-formats-for-adobe-indesign) 
+* [Supported exported file formats for Adobe Illustrator](#supported-exported-file-formats-for-adobe-illustrator) 
+* [Supported exported file formats for Adobe Photoshop](#supported-exported-file-formats-for-adobe-photoshop)
 
-### Supported Exported File Formats for Adobe InDesign&nbsp;
+### Supported Exported File Formats for Adobe InDesign&nbsp; {#supported-exported-file-formats-for-adobe-indesign}
 
 Workfront supports the following file formats for exporting a file from InDesign to Workfront:
 
@@ -365,9 +365,9 @@ Workfront supports the following file formats for exporting a file from InDesign
 * SWF - Flash Player &#42;
 * XML - Extensible Markup Language &#42;
 
-&#42; This file format is not available when **Upload a new proof** is enabled (for information about this option, see [Generate a proof from an Adobe application](#generate) in this article). If this file format is already selected before you enable **Upload a new proof**, the system changes the file format to PDF. You can select a different format from the list.
+&#42; This file format is not available when **Upload a new proof** is enabled (for information about this option, see [Generate a proof from an Adobe application](#generate-a-proof-from-an-adobe-application) in this article). If this file format is already selected before you enable **Upload a new proof**, the system changes the file format to PDF. You can select a different format from the list.
 
-### Supported exported file formats for Adobe Illustrator&nbsp;
+### Supported exported file formats for Adobe Illustrator&nbsp; {#supported-exported-file-formats-for-adobe-illustrator}
 
 Workfront supports the following file formats for exporting a file from Illustrator to Workfront:
 
@@ -378,9 +378,9 @@ Workfront supports the following file formats for exporting a file from Illustra
 * SWF - Flash Player &#42;
 * TIFF - Tagged Image File Format
 
-&#42; This file format is not available when **Upload a new proof** is enabled (for information about this option, see [Generate a proof from an Adobe application](#generate) in this article). If this file format is already selected before you enable **Upload a new proof**, the system changes the file format to PNG. You can select a different format from the list.
+&#42; This file format is not available when **Upload a new proof** is enabled (for information about this option, see [Generate a proof from an Adobe application](#generate-a-proof-from-an-adobe-application) in this article). If this file format is already selected before you enable **Upload a new proof**, the system changes the file format to PNG. You can select a different format from the list.
 
-### Supported exported file formats for Adobe Photoshop&nbsp;
+### Supported exported file formats for Adobe Photoshop&nbsp; {#supported-exported-file-formats-for-adobe-photoshop}
 
 Workfront supports the following file formats for exporting a file from from Adobe Photoshop&nbsp;to Workfront:&nbsp;
 

@@ -71,10 +71,10 @@ To use Google Sheets modules, you must have a Google account.
 <h2><a name="Connecti2"></a>Connecting Instant Triggers (Perform a Function, Watch Changes) using the Workfront Fusion Google Sheets Add-on</h2>
 <p>In order to use instant triggers, the Workfront Fusion add-on must be installed in your spreadsheet and a connection between the Workfront Fusion module and Google Sheets must be established.</p>
 <ul>
-<li><a href="#add-on" class="MCXref xref">Workfront Fusion Add-on Installation</a> </li>
-<li><a href="#connecti3" class="MCXref xref">Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</a> </li>
+<li><a href="#workfront-fusion-add-on-installation" class="MCXref xref">Workfront Fusion Add-on Installation</a> </li>
+<li><a href="#connecting-the-instant-trigger-module-to-a-google-sheets-spreadsheet" class="MCXref xref">Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</a> </li>
 </ul>
-<h3><a name="Add-on"></a>Workfront Fusion Add-on Installation</h3>
+<h3 id="workfront-fusion-add-on-installation"><a name="Add-on"></a>Workfront Fusion Add-on Installation</h3>
 <ol>
 <li value="1">Open the spreadsheet you want to install the extension to.</li>
 <li value="2">Click the <strong>Add-ons</strong> tab near the top of the screen and select <strong>Get add-ons</strong> from the dropdown menu.</li>
@@ -83,7 +83,7 @@ To use Google Sheets modules, you must have a Google account.
 <li value="5">Click the <strong>Allow</strong> button to grant access rights.</li>
 </ol>
 <p>The Workfront Fusion add-on is now installed.</p>
-<h3><a name="Connecti3"></a>Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</h3>
+<h3 id="connecting-the-instant-trigger-module-to-a-google-sheets-spreadsheet"><a name="Connecti3"></a>Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</h3>
 <p>In Workfront Fusion, open the Google Sheets Watch Changes Module. Make sure that you have webhook established.</p>
 <p>Copy the provided webhook address to the clipboard and click <strong>OK</strong>.</p>
 <p>Open your spreadsheet.</p>
@@ -154,19 +154,19 @@ The module retrieves only new rows that have not been filled in before. The trig
 
 ## Actions
 
-* [Add a Row](#add) 
-* [Update a Row](#update2) 
-* [Clear a Row](#clear2) 
-* [Delete a Row](#delete) 
-* [Get a Cell](#get) 
-* [Update a Cell](#update) 
-* [Clear a Cell](#clear) 
-* [Add a Sheet](#add2) 
-* [Create a Spreadsheet](#create) 
-* [Delete a Sheet](#delete2) 
-* [Make an API Call](#make)
+* [Add a Row](#add-a-row) 
+* [Update a Row](#update-a-row) 
+* [Clear a Row](#clear-a-row) 
+* [Delete a Row](#delete-a-row) 
+* [Get a Cell](#get-a-cell) 
+* [Update a Cell](#update-a-cell) 
+* [Clear a Cell](#clear-a-cell) 
+* [Add a Sheet](#add-a-sheet) 
+* [Create a Spreadsheet](#create-a-spreadsheet) 
+* [Delete a Sheet](#delete-a-sheet) 
+* [Make an API Call](#make-an-api-call)
 
-### Add a Row
+### Add a Row {#add-a-row}
 
 This module appends adds a row to a sheet.
 
@@ -231,7 +231,7 @@ If you see the map button above a field or function, you can use it to set varia
  </tbody> 
 </table>
 
-### Update a Row
+### Update a Row {#update-a-row}
 
 This module allows you to change the cell content in a selected row.
 
@@ -282,7 +282,7 @@ This module allows you to change the cell content in a selected row.
  </tbody> 
 </table>
 
-### Clear a Row
+### Clear a Row {#clear-a-row}
 
 Deletes values from a specified row.
 
@@ -309,7 +309,7 @@ Deletes values from a specified row.
  </tbody> 
 </table>
 
-### Delete a Row
+### Delete a Row {#delete-a-row}
 
 Deletes a specified row.
 
@@ -336,7 +336,7 @@ Deletes a specified row.
  </tbody> 
 </table>
 
-### Get a Cell
+### Get a Cell {#get-a-cell}
 
 Retrieves a value from a selected cell.
 
@@ -371,7 +371,7 @@ Retrieves a value from a selected cell.
  </tbody> 
 </table>
 
-### Update a Cell
+### Update a Cell {#update-a-cell}
 
 <table cellspacing="15"> 
  <col> 
@@ -404,7 +404,7 @@ Retrieves a value from a selected cell.
  </tbody> 
 </table>
 
-### Clear a Cell
+### Clear a Cell {#clear-a-cell}
 
 Deletes a value from a specified cell.
 
@@ -431,7 +431,7 @@ Deletes a value from a specified cell.
  </tbody> 
 </table>
 
-### Add a Sheet
+### Add a Sheet {#add-a-sheet}
 
 Creates a new sheet in a selected spreadsheet.
 
@@ -458,7 +458,7 @@ Creates a new sheet in a selected spreadsheet.
  </tbody> 
 </table>
 
-### Create a Spreadsheet
+### Create a Spreadsheet {#create-a-spreadsheet}
 
 <table cellspacing="15"> 
  <col> 
@@ -500,7 +500,7 @@ Creates a new sheet in a selected spreadsheet.
  </tbody> 
 </table>
 
-### Delete a Sheet
+### Delete a Sheet {#delete-a-sheet}
 
 Deletes a specific sheet.
 
@@ -523,7 +523,7 @@ Deletes a specific sheet.
  </tbody> 
 </table>
 
-### Make an API&nbsp;Call
+### Make an API&nbsp;Call {#make-an-api-call}
 
 This action module allows you to perform a custom API call.
 
@@ -563,12 +563,12 @@ This action module allows you to perform a custom API call.
 
 ## Searches
 
-* [Search Rows](#search) 
-* [Search Rows (Advanced)](#search2) 
-* [Get Range Values](#get2) 
-* [List Sheets](#list)
+* [Search Rows](#search-rows) 
+* [Search Rows (Advanced)](#search-rows-advanced) 
+* [Get Range Values](#get-range-values) 
+* [List Sheets](#list-sheets)
 
-### Search Rows
+### Search Rows {#search-rows}
 
 Searches rows using the filter options.
 
@@ -578,7 +578,7 @@ Searches rows using the filter options.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>Establish a connection to the spreadsheet using your Google account. (See <a href="#connecti" class="MCXref xref">Google Sheets modules</a>.)</p> </td> 
+   <td> <p>Establish a connection to the spreadsheet using your Google account. (See <a href="#Connecti" class="MCXref xref">Google Sheets modules</a>.)</p> </td> 
   </tr> 
   <tr> 
    <td>Spreadsheet </td> 
@@ -623,7 +623,7 @@ Searches rows using the filter options.
  </tbody> 
 </table>
 
-### Search Rows (Advanced)
+### Search Rows (Advanced) {#search-rows-advanced}
 
 Returns results matching the given criteria.
 
@@ -650,7 +650,7 @@ Returns results matching the given criteria.
  </tbody> 
 </table>
 
-### Get Range Values
+### Get Range Values {#get-range-values}
 
 <table cellspacing="15"> 
  <col> 
@@ -691,7 +691,7 @@ Returns results matching the given criteria.
  </tbody> 
 </table>
 
-### List Sheets
+### List Sheets {#list-sheets}
 
 This module returns a list of all sheets in a spreadsheet.
 
@@ -726,15 +726,15 @@ See more details at [developers.google.com/sheets/api/limits](https://developers
 
 ## Tips & Tricks
 
-* [How to get Empty Cells from a Google Sheet](#how) 
-* [Add a button in a sheet to run a scenario](#add3)
+* [How to get Empty Cells from a Google Sheet](#how-to-get-empty-cells-from-a-google-sheet) 
+* [Add a button in a sheet to run a scenario](#add-a-button-in-a-sheet-to-run-a-scenario)
 
-### How to get Empty Cells from a Google Sheet
+### How to get Empty Cells from a Google Sheet {#how-to-get-empty-cells-from-a-google-sheet}
 
 Use the Search Rows (Advanced) module & use this formula to get the columns which are empty.
 <pre>select * where E is null​</pre>Here "E" is the column & "is null" is the condition. You can create a more advanced query using [Google Query Lang.](https://developers.google.com/chart/interactive/docs/querylanguage)
 
-### Add a button in a sheet to run a scenario
+### Add a button in a sheet to run a scenario {#add-a-button-in-a-sheet-to-run-a-scenario}
 
 1. In Workfront Fusion, insert the **Webhook**> **Custom webhooks** module/trigger in the scenario and configure it (see [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
 

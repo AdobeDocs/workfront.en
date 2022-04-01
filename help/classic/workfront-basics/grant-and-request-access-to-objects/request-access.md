@@ -59,10 +59,10 @@ The following standard sharing rules take effect&nbsp;automatically, as they are
 
 You can request initial access to objects that you do not currently have access to, or you can request additional access to objects that you have only limited access to.
 
-* [Request initial access](#requesting-initial-access) 
-* [Request additional access](#requesting-additional-access)
+* [Request initial access](#request-initial-access) 
+* [Request additional access](#request-additional-access)
 
-### Request initial&nbsp;access&nbsp;
+### Request initial&nbsp;access&nbsp; {#request-initial-access}
 
 If you do not already have access to an object&nbsp;and you navigate to that object from a link,&nbsp;a screen is displayed informing you that you do not&nbsp;have access to view the information. &nbsp;
 
@@ -77,7 +77,7 @@ To request initial access to an object:
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.&nbsp;
 1. Select the user from the drop-down list who you want to receive your access request.  
    Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.  
-   For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-more-access-drop-down-menu).
+   For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. From the drop-down list, select the type of access that you are requesting.
 1. (Optional) In the **P.S.** field, specify a note to the user regarding why you need additional access.
@@ -89,7 +89,7 @@ If you do not have access level rights to an object&nbsp;and you try to access t
 For example,&nbsp;if you do not&nbsp;have portfolio&nbsp;access, but you were&nbsp;given a link to a portfolio, you&nbsp;would see the following&nbsp;message:  
 ![](assets/permission-request-initial2-350x156.png)
 
-### Request additional&nbsp;access
+### Request additional&nbsp;access {#request-additional-access}
 
 To request additional access to an object that you already have limited access to:
 
@@ -103,18 +103,18 @@ To request additional access to an object that you already have limited access t
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.
 1. Select the user from the drop-down list who you want to receive your access request.  
    Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.  
-   For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-more-access-drop-down-menu).
+   For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. From the drop-down list, select the level of access that you are requesting.
 1. (Optional) In the **P.S.** field, specify a note regarding why you need additional access.
 1. Click **Request Access**.
 
-## Hierarchy of the "Request Access" and "Request More Access" drop-down menus
+## Hierarchy of the "Request Access" and "Request More Access" drop-down menus {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
-* [Understand the hierarchy of users listed in the Request Access and Request More Access drop-down menus](#understanding-hierarchy-of-users-subsection) 
-* [Understand the owner of an object](#understanding-the-owner-of-an-object)
+* [Understand the hierarchy of users listed in the Request Access and Request More Access drop-down menus](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus) 
+* [Understand the owner of an object](#understand-the-owner-of-an-object)
 
-### Understand the hierarchy of users listed in the Request Access and&nbsp;Request More Access drop-down menus
+### Understand the hierarchy of users listed in the Request Access and&nbsp;Request More Access drop-down menus {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
 
 When populating the "Request Access" or "Request More Access" lists on objects, Workfront selects a&nbsp;list of up to ten users that fulfill various roles in the sharing of the object as described below. These users can grant access to the object to the user requesting it.  
 The resulting list is then is sorted by their name in ascending alphabetical order.   
@@ -122,13 +122,13 @@ Workfront displays up to 10 users in the "Request Access" and the "Request More 
 
 The order of the users in the "Request Access" or "Request More Access" drop-down menus is dictated by the following rules:&nbsp;
 
-* The first user&nbsp;in the list is the object "owner", as described in [Understand the owner of an object](#understanding-the-owner-of-an-object).&nbsp;
+* The first user&nbsp;in the list is the object "owner", as described in [Understand the owner of an object](#understand-the-owner-of-an-object).&nbsp;
 * Then the list is populated with users with whom the object&nbsp;is shared individually. They are listed in alphabetical order.
 * Then the list is further populated with users who get the required access through sharing with their teams, groups, or companies. They are listed in alphabetical order.
 * If the list is empty, the Workfront administrators are added so that there is always someone to request access from. They are listed in alphabetical order.&nbsp;
 * Each of the users in the list must have the requested access to the object and access to share the object.&nbsp;
 
-### Understand the owner of an object
+### Understand the owner of an object {#understand-the-owner-of-an-object}
 
 The owner of an object is defined as follows: 
 

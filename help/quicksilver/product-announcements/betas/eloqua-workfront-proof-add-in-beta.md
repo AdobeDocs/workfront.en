@@ -35,7 +35,7 @@ You can submit feedback on the Oracle Eloqua Workfront Proof&nbsp;Add-In Beta in
 * [Submitting Feedback within the Integration](#submitting-feedback-within-the-integration) 
 * [Submitting Feedback in a Survey](#submitting-feedback-in-a-survey)
 
-### Submitting Feedback within the Integration
+### Submitting Feedback within the Integration {#submitting-feedback-within-the-integration}
 
 1. In Eloqua, click&nbsp;**Assets**, then click&nbsp;**Emails**.
 
@@ -53,7 +53,7 @@ You can submit feedback on the Oracle Eloqua Workfront Proof&nbsp;Add-In Beta in
 1. Click **Submit Feedback**.  
    ![](assets/eloqua-newproof-form-350x483.png)
 
-### Submitting Feedback in a Survey
+### Submitting Feedback in a Survey {#submitting-feedback-in-a-survey}
 
 You can use [this survey](http://survey.qualtrics.com/jfe/form/SV_1GOYsN7XJytpxTT) to submit feedback around the Workfront Proof Eloqua Add-In.
 

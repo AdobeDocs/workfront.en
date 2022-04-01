@@ -64,7 +64,7 @@ By configuring Workfront for Jira you can:
 >[!NOTE]
 >
 >* After you configure Workfront for Jira on your Jira environment, all Jira users see a Workfront right panel on all Jira items. The panel contains information about the items that might be linked from Workfront or specifies that no Workfront items are linked to Jira items.&nbsp;
->* When using the Jira Server installation, only the issues that are associated with projects identified as triggers for the Workfront integration display the Workfront panel.&nbsp;For more information about setting up triggers for the Workfront to Jira workflow, see [Configure triggers for automatically linking items between Jira and Workfront](#configuring-triggers).
+>* When using the Jira Server installation, only the issues that are associated with projects identified as triggers for the Workfront integration display the Workfront panel.&nbsp;For more information about setting up triggers for the Workfront to Jira workflow, see [Configure triggers for automatically linking items between Jira and Workfront](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
 >
 
 To configure Workfront for Jira:
@@ -95,11 +95,11 @@ To configure Workfront for Jira:
 
 1. Select the **Triggers** tab to configure the automatic creation of Jira items as new Workfront items are created.
 
-   For more information about setting up triggers for the Workfront to Jira workflow, see [Configure triggers for automatically linking items between Jira and Workfront](#configuring-triggers).
+   For more information about setting up triggers for the Workfront to Jira workflow, see [Configure triggers for automatically linking items between Jira and Workfront](#configure-triggers-for-automatically-linking-items-between-jira-and-workfront).
 
 1. Select the **Setup** tab to configure the synchronization of fields between linked Jira and Workfront items.
 
-   For more information about setting up the synchronization of fields between Jira and Workfront, see [Configure field synchronization between Jira and Workfront Items](#setting-up-field-synchronization).
+   For more information about setting up the synchronization of fields between Jira and Workfront, see [Configure field synchronization between Jira and Workfront Items](#configure-field-synchronization-between-jira-and-workfront-items).
 
    >[!NOTE]
    >
@@ -109,7 +109,7 @@ To configure Workfront for Jira:
 
    For more information about the Activity Log, see [View the Jira Activity Log](../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md).
 
-## Configure triggers for automatically linking items between Jira and Workfront
+## Configure triggers for automatically linking items between Jira and Workfront {#configure-triggers-for-automatically-linking-items-between-jira-and-workfront}
 
 As the Jira system administrator, you can define triggers that would automatically create issues in Jira when an item in Workfront meets certain criteria.
 
@@ -159,7 +159,7 @@ To configure triggers for automatically creating items in Jira:&nbsp;
 
    With this configuration, every time a Workfront user creates an item that matches the specified triggers, a new issue is created in Jira.
 
-## Configure field synchronization between Jira and Workfront Items
+## Configure field synchronization between Jira and Workfront Items {#configure-field-synchronization-between-jira-and-workfront-items}
 
 As the Jira administrator, you can define what fields should automatically synchronize on items that are linked between Workfront and Jira. Certain fields can synchronize from the Workfront to the Jira item, and others synchronize from Jira to Workfront.&nbsp;
 

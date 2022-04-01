@@ -55,13 +55,13 @@ For more information about OAuth, see [http://oauth.net](http://oauth.net/).
 >
 >To make it easy to copy and paste information between Workfront and SharePoint in these steps, we recommend keeping both applications open in separate tabs.
 
-* [Create and configure a Sharepoint site](#create) 
-* [Grant write permissions to the site app](#grant) 
-* [Create a Workfront SharePoint integration instance](#create2) 
-* [Complete your integration](#complete) 
-* [Add documents](#add2)
+* [Create and configure a Sharepoint site](#create-and-configure-a-sharepoint-site) 
+* [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app) 
+* [Create a Workfront SharePoint integration instance](#create-a-workfront-sharepoint-integration-instance) 
+* [Complete your integration](#complete-your-integration) 
+* [Add documents](#add-documents)
 
-### Create and configure a Sharepoint site
+### Create and configure a Sharepoint site  {#create-and-configure-a-sharepoint-site}
 
 In order for Workfront to authenticate with SharePoint, Workfront ca use a master site where users have the Full Control permission level or specific Manage permissions. This master site acts as an Authentication Entry Point for Workfront..
 
@@ -116,9 +116,9 @@ To create and configure a Sharepoint Site:
    </table>
 
 1. Click **Create**
-1. Continue to [Grant write permissions to the site app](#grant).
+1. Continue to [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app).
 
-### Grant write permissions to the site app
+### Grant write permissions to the site app  {#grant-write-permissions-to-the-site-app}
 
 At this point, you have successfully created a Site App and registered it within Workfront. This site app is also known as an app principal in SharePoint. It resides within your tenant. New site apps do not automatically have access to site collections within the tenant. Permissions must be granted explicitly, for each site collection. The steps below will show you how to grant Write permission to the new Site App a site collection. Repeat these steps for each of the site collections you added under Visible Site Collections in the steps above.
 
@@ -140,7 +140,7 @@ This site app must have Write permission to any site collections that users need
     <tbody> 
      <tr> 
       <td role="rowheader">App ID</td> 
-      <td> <p>Add the Client ID that you created in <a href="#create" class="MCXref xref">Create and configure a Sharepoint site </a>and click <strong>Lookup</strong>.</p> </td> 
+      <td> <p>Add the Client ID that you created in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a Sharepoint site </a>and click <strong>Lookup</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Client / App Domain / Redirect URL</p> </td> 
@@ -161,9 +161,9 @@ This site app must have Write permission to any site collections that users need
 1. Click **Create**. 
 1. In the dialog that appears, click **Trust it**.
 1. Verify that the site app has access to the site collection by clicking the **Site collection app permissions** link in Site Settings.
-1. Repeat the steps above for the remaining site collections, then continue with [Create a Workfront SharePoint integration instance](#create2).
+1. Repeat the steps above for the remaining site collections, then continue with [Create a Workfront SharePoint integration instance](#create-a-workfront-sharepoint-integration-instance).
 
-### Create a Workfront SharePoint integration instance
+### Create a Workfront SharePoint integration instance {#create-a-workfront-sharepoint-integration-instance}
 
 When you have created a site app in SharePoint, you can now copy information from the site app into Workfront. The site app is an app principal and acts as the conduit through which OAuth requests are made to access documents within site collections.
 
@@ -200,18 +200,18 @@ When you have created a site app in SharePoint, you can now copy information fro
      </tr> 
      <tr> 
       <td role="rowheader">SharePoint Client ID</td> 
-      <td>Enter the Client ID&nbsp;that you generated in <a href="#create" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
+      <td>Enter the Client ID&nbsp;that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">SharePoint Client Secret</td> 
-      <td>Enter the Client Secret that you generated in <a href="#create" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
+      <td>Enter the Client Secret that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Visible Site Collections</td> 
       <td> 
        <ul> 
         <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
-        <li> <p><b>If you are using a master site and subsites:</b> </p> <p>Important: Microsoft SharePoint no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p>Note:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p>Important: Microsoft SharePoint no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p>Note:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete-your-integration" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
           <ol> 
            <li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <strong>Setup</strong> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <strong>Documents</strong> &gt; <strong>SharePoint Integration</strong>.</p></li><li><p>Click the SharePoint integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the Visible Site Collections field.</p></li><li><p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
           </ol> </p> </li> 
@@ -221,9 +221,9 @@ When you have created a site app in SharePoint, you can now copy information fro
    </table>
 
 1. Click **Save**
-1. Continue to [Complete your integration](#complete).
+1. Continue to [Complete your integration](#complete-your-integration).
 
-### Complete your integration
+### Complete your integration {#complete-your-integration}
 
 The basic configuration is almost complete.
 
@@ -239,7 +239,7 @@ The basic configuration is almost complete.
 
 1. Click **Trust it**.
 
-### Add documents
+### Add documents {#add-documents}
 
 You can now add documents from your SharePoint site.
 
@@ -252,12 +252,12 @@ For instructions, see [Link an external document to Workfront](../../documents/a
 
 ## Troubleshooting
 
-* [Problem: Users experience authentication-based errors when using the SharePoint integration.](#problem:) 
-* [Problem: As a Workfront user, I am unable to provision a new SharePoint instance. When I attempt to do I see an error.](#problem:2) 
-* [Problem: When attempting to browse SharePoint files in Workfront, I do not see any or all of my site collections.](#problem:3) 
-* [Problem: I cannot access previously linked folders and documents in SharePoint.](#problem:4)
+* [Problem: Users experience authentication-based errors when using the SharePoint integration.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration) 
+* [Problem: As a Workfront user, I am unable to provision a new SharePoint instance. When I attempt to do I see an error.](#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error) 
+* [Problem: When attempting to browse SharePoint files in Workfront, I do not see any or all of my site collections.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections) 
+* [Problem: I cannot access previously linked folders and documents in SharePoint.](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
-### Problem: Users experience authentication-based errors when using the SharePoint integration.
+### Problem: Users experience authentication-based errors when using the SharePoint integration. {#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration}
 
 Solutions:
 
@@ -290,7 +290,7 @@ Users with Full Control access have all necessary permissions for your SharePoin
 
 For instructions on creating and editing permissions levels, see [How to create and edit permission levels](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) in the Microsoft documentation.
 
-### Problem: As a Workfront user, I am unable to provision a new SharePoint instance. When I attempt to do I see an error.
+### Problem: As a Workfront user, I am unable to provision a new SharePoint instance. When I attempt to do I see an error. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
 
 Solutions:
 
@@ -300,7 +300,7 @@ This can be caused by a number of things, originating in either Workfront or Sha
 * The user has Full Control permission to the Site Collection used for authentication.
 * The Site App is listed under Site App Permissions for the Site Collection used for authentication.
 
-### Problem: When attempting to browse SharePoint files in Workfront, I do not see any or all of my site collections.
+### Problem: When attempting to browse SharePoint files in Workfront, I do not see any or all of my site collections. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 Solutions:
 
@@ -326,7 +326,7 @@ To see a site collection in Workfront, the following conditions must be met:
 
       For information about adding the site collection, see Granting Write Permissions To The Site App.
 
-### Problem: I cannot access previously linked folders and documents in SharePoint.
+### Problem: I cannot access previously linked folders and documents in SharePoint. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
 Solution:
 

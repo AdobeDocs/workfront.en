@@ -70,17 +70,17 @@ If you see the map button above a field or function, you can use it to set varia
 ![](assets/map-toggle-350x74.png)
 
 * [Workbook](#workbook) 
-* [Worksheet](#workshee) 
+* [Worksheet](#worksheet) 
 * [Table](#table) 
 * [Other](#other)
 
-### Workbook
+### Workbook {#workbook}
 
-* [Watch Workbooks](#watch2) 
-* [Search Workbooks](#search) 
-* [Download a Workbook](#download)
+* [Watch Workbooks](#watch-workbooks) 
+* [Search Workbooks](#search-workbooks) 
+* [Download a Workbook](#download-a-workbook)
 
-#### Watch Workbooks
+#### Watch Workbooks {#watch-workbooks}
 
 This trigger module starts a scenario when a workbook is created.
 
@@ -107,7 +107,7 @@ This trigger module starts a scenario when a workbook is created.
  </tbody> 
 </table>
 
-#### Search Workbooks
+#### Search Workbooks {#search-workbooks}
 
 This action module searches for Excel workbooks.
 
@@ -134,7 +134,7 @@ This action module searches for Excel workbooks.
  </tbody> 
 </table>
 
-#### Download a Workbook
+#### Download a Workbook {#download-a-workbook}
 
 This action module downloads the content of the specified Excel workbook.
 
@@ -157,17 +157,17 @@ This action module downloads the content of the specified Excel workbook.
  </tbody> 
 </table>
 
-### Worksheet
+### Worksheet {#worksheet}
 
-* [Watch Worksheet Rows](#watch3) 
-* [List Worksheets](#list) 
-* [List Worksheet Rows](#list2) 
-* [Add a Worksheet](#add) 
-* [Add a Worksheet Row](#add2) 
-* [Update a Worksheet Row](#update) 
-* [Delete a Worksheet Row](#delete)
+* [Watch Worksheet Rows](#watch-worksheet-rows) 
+* [List Worksheets](#list-worksheets) 
+* [List Worksheet Rows](#list-worksheet-rows) 
+* [Add a Worksheet](#add-a-worksheet) 
+* [Add a Worksheet Row](#add-a-worksheet-row) 
+* [Update a Worksheet Row](#update-a-worksheet-row) 
+* [Delete a Worksheet Row](#delete-a-worksheet-row)
 
-#### Watch Worksheet Rows
+#### Watch Worksheet Rows {#watch-worksheet-rows}
 
 This trigger module starts a scenario when a new row is added to the sheet.
 
@@ -197,7 +197,7 @@ This trigger module starts a scenario when a new row is added to the sheet.
  </tbody> 
 </table>
 
-#### List Worksheets
+#### List Worksheets {#list-worksheets}
 
 This action module retrieves a list of worksheets in the specified workbook.
 
@@ -222,7 +222,7 @@ This action module retrieves a list of worksheets in the specified workbook.
  </tbody> 
 </table>
 
-#### List Worksheet Rows
+#### List Worksheet Rows {#list-worksheet-rows}
 
 This action module retrieves a list of rows in the specified worksheet.
 
@@ -252,7 +252,7 @@ This action module retrieves a list of rows in the specified worksheet.
  </tbody> 
 </table>
 
-#### Add a Worksheet
+#### Add a Worksheet {#add-a-worksheet}
 
 This action module creates a new worksheet within the selected workbook.
 
@@ -277,7 +277,7 @@ This action module creates a new worksheet within the selected workbook.
  </tbody> 
 </table>
 
-#### Add a Worksheet Row
+#### Add a Worksheet Row {#add-a-worksheet-row}
 
 This action module adds a new row to the selected worksheet.
 
@@ -317,7 +317,7 @@ This action module adds a new row to the selected worksheet.
  </tbody> 
 </table>
 
-#### Update a Worksheet Row
+#### Update a Worksheet Row {#update-a-worksheet-row}
 
 This action module updates an existing worksheet row.
 
@@ -361,7 +361,7 @@ This action module updates an existing worksheet row.
  </tbody> 
 </table>
 
-#### Delete a Worksheet Row
+#### Delete a Worksheet Row {#delete-a-worksheet-row}
 
 This action module deletes a row from a worksheet.
 
@@ -391,18 +391,18 @@ This action module deletes a row from a worksheet.
  </tbody> 
 </table>
 
-### Table
+### Table {#table}
 
-* [Watch table rows](#watch) 
-* [List tables](#list4) 
-* [List table rows](#list3) 
-* [Get a Table](#get) 
-* [Add a table](#add3) 
-* [Add a table row](#add4) 
-* [Update a table](#update2) 
-* [Delete a table](#delete2)
+* [Watch table rows](#watch-table-rows) 
+* [List tables](#list-tables) 
+* [List table rows](#list-table-rows) 
+* [Get a Table](#get-a-table) 
+* [Add a table](#add-a-table) 
+* [Add a table row](#add-a-table-row) 
+* [Update a table](#update-a-table) 
+* [Delete a table](#delete-a-table)
 
-#### Watch table rows
+#### Watch table rows {#watch-table-rows}
 
 This trigger starts a scenario when a new row is added to a table.
 
@@ -441,7 +441,7 @@ This trigger starts a scenario when a new row is added to a table.
  </tbody> 
 </table>
 
-#### List tables
+#### List tables {#list-tables}
 
 This search module retrieves a list of all table objects.
 
@@ -471,7 +471,7 @@ This search module retrieves a list of all table objects.
  </tbody> 
 </table>
 
-#### List table rows
+#### List table rows {#list-table-rows}
 
 This search module retrieves a list of all table rows in a workbook.
 
@@ -506,7 +506,7 @@ This search module retrieves a list of all table rows in a workbook.
  </tbody> 
 </table>
 
-#### Get a Table
+#### Get a Table {#get-a-table}
 
 This action module retrieves metadata for the specified table.
 
@@ -533,7 +533,7 @@ This action module retrieves metadata for the specified table.
  </tbody> 
 </table>
 
-#### Add a table
+#### Add a table {#add-a-table}
 
 This action module creates a table element within the Excel worksheet.
 
@@ -564,7 +564,7 @@ This action module creates a table element within the Excel worksheet.
  </tbody> 
 </table>
 
-#### Add a table row
+#### Add a table row {#add-a-table-row}
 
 This action module modifies an existing table.
 
@@ -604,7 +604,7 @@ This action module modifies an existing table.
  </tbody> 
 </table>
 
-#### Update a table
+#### Update a table {#update-a-table}
 
 This action module updates an existing table.
 
@@ -647,7 +647,7 @@ This action module updates an existing table.
  </tbody> 
 </table>
 
-#### Delete a table
+#### Delete a table {#delete-a-table}
 
 This action module deletes the specified table from an Excel worksheet.
 
@@ -670,12 +670,12 @@ This action module deletes the specified table from an Excel worksheet.
  </tbody> 
 </table>
 
-### Other
+### Other {#other}
 
-* [Retrieve data](#retrieve) 
-* [Make an API Call](#make)
+* [Retrieve data](#retrieve-data) 
+* [Make an API Call](#make-an-api-call)
 
-#### Retrieve data
+#### Retrieve data {#retrieve-data}
 
 This action retrieves data from the defined worksheet range, and returns a bundle for each row.
 
@@ -702,7 +702,7 @@ This action retrieves data from the defined worksheet range, and returns a bundl
  </tbody> 
 </table>
 
-#### Make an API Call
+#### Make an API Call {#make-an-api-call}
 
 This action module allows you to make a custom API call.
 

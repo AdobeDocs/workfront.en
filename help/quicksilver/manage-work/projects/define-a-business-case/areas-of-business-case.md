@@ -172,10 +172,10 @@ For more information about applying a custom form, see [Attach a Custom Form to 
 
 ## Business Case Summary
 
-* [Overview of the Business Case Summary](#understanding-business-case-summary) 
-* [Export the Business Case](#exporting-the-business-case)
+* [Overview of the Business Case Summary](#overview-of-the-business-case-summary) 
+* [Export the Business Case](#export-the-business-case)
 
-### **Overview of the Business Case Summary**
+### **Overview of the Business Case Summary** {#overview-of-the-business-case-summary}
 
 You can see a summary of the main project finances and whether a project is aligned or not with a Scorecard in the Business Case Summary panel, in the upper-right corner of the Business Case .
 
@@ -192,7 +192,7 @@ The following fields display in the Business Case Summary:
 
 For more information about these fields, see [Overview of Business Case financial fields](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-### **Export the Business Case**
+### **Export the Business Case** {#export-the-business-case}
 
 You can export the Business Case to a PDF&nbsp;file, in case you need to print it or attach it to an email in a more condensed format.&nbsp;
 

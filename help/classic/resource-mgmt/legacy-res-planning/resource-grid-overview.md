@@ -87,11 +87,11 @@ You can modify how content is displayed in the Resource Grid, such as whether to
 
 ![](assets/resource-grid1-350x100.png)
 
-* [View Planned or Projected work](#viewing-planned-or-projected-work) 
-* [View work based on resource availability](#viewing-work-based-on-resource-availability) 
-* [View resource allocation](#viewing-resource-allocation)
+* [View Planned or Projected work](#view-planned-or-projected-work) 
+* [View work based on resource availability](#view-work-based-on-resource-availability) 
+* [View resource allocation](#view-resource-allocation)
 
-### View Planned or Projected work
+### View Planned or Projected work {#view-planned-or-projected-work}
 
 Tasks, issues, and projects must have&nbsp;the following to show a timeline and an hour allocation on the Resource Grid:
 
@@ -121,7 +121,7 @@ The 'Available hours in the schedule'&nbsp;comes from the schedule of the assign
 
 If you select to view the hours by the **Projected**&nbsp;allocations, you see hours distributed evenly on the days between the Projected&nbsp;Start and the Projected&nbsp;Completion dates. The start date takes into account the time stamp of the Projected&nbsp;Start Date&nbsp;of the task. For example, if a task is projected&nbsp;to start at 4 PM the day of the Projected&nbsp;Start Date of the task, and the work day of the user ends at 5 PM, according to their schedule, only 1 projected&nbsp;hour is allocated to that task in the first day of the task.   
 The amount of projected hours allocated for each work hour of every day is found by dividing the Planned&nbsp;Duration of the task by&nbsp;the Planned Hours value for the task. Keep in mind that this could be more than 1 hour.   
-To find out how many projected hours are allocated for a day, you want to find out the number of Planned Hours per day allocation first, as described in the [Planned: The estimated amount of work required to complete the tasks. If you select to view the hours by the Planned allocations, you see hours distributed evenly on the days between the Planned Start and the Planned Completion dates. The start date takes into account the time stamp of the Planned Start Date of the task. For example, if a task is scheduled to start at 4 PM the day of the Planned Start Date of the task, and the work day of the user ends at 5 PM, according to their schedule, only 1 planned hour is allocated to that task in the first day of the task. The amount of hours allocated for each hour of every day is found by dividing the Duration of the task (in hours) by the Planned Hours value for the task. Keep in mind that this could be more than 1 hour. For example, if you have 16 Planned Hours for the task, and a 2 day duration, then you see 8 hours for each day of the duration, when you choose Planned in your drop-down menu. If you have 25 Planned Hours for the task, and a Duration of 2 days (16 work hours, based on the schedule), then, the amount of Planned Hours for each day is 12.5 Planned Hours for each day, according to this calculation:](#planned) section above, then, multiply that number by the number of projected hours available to work on each day of the Projected Duration. For example, your Planned Hours might be 25 hours, and the Planned Duration is 2 days (16 hours). The Projected Duration is given by the difference between the&nbsp;Projected Completion&nbsp;and Projected Start&nbsp;dates. If the assignee committed to have the task done two days after the Planned Completion date, this makes the&nbsp;Projected Completion Date&nbsp;have a Projected Duration of 4 days (32 hours).&nbsp;
+To find out how many projected hours are allocated for a day, you want to find out the number of Planned Hours per day allocation first, as described in the [Planned: The estimated amount of work required to complete the tasks. If you select to view the hours by the Planned allocations, you see hours distributed evenly on the days between the Planned Start and the Planned Completion dates. The start date takes into account the time stamp of the Planned Start Date of the task. For example, if a task is scheduled to start at 4 PM the day of the Planned Start Date of the task, and the work day of the user ends at 5 PM, according to their schedule, only 1 planned hour is allocated to that task in the first day of the task. The amount of hours allocated for each hour of every day is found by dividing the Duration of the task (in hours) by the Planned Hours value for the task. Keep in mind that this could be more than 1 hour. For example, if you have 16 Planned Hours for the task, and a 2 day duration, then you see 8 hours for each day of the duration, when you choose Planned in your drop-down menu. If you have 25 Planned Hours for the task, and a Duration of 2 days (16 work hours, based on the schedule), then, the amount of Planned Hours for each day is 12.5 Planned Hours for each day, according to this calculation:](#planned-the-estimated-amount-of-work-required-to-complete-the-tasks-if-you-select-to-view-the-hours-by-the-planned-allocations-you-see-hours-distributed-evenly-on-the-days-between-the-planned-start-and-the-planned-completion-dates-the-start-date-takes-into-account-the-time-stamp-of-the-planned-start-date-of-the-task-for-example-if-a-task-is-scheduled-to-start-at-4-pm-the-day-of-the-planned-start-date-of-the-task-and-the-work-day-of-the-user-ends-at-5-pm-according-to-their-schedule-only-1-planned-hour-is-allocated-to-that-task-in-the-first-day-of-the-task-the-amount-of-hours-allocated-for-each-hour-of-every-day-is-found-by-dividing-the-duration-of-the-task-in-hours-by-the-planned-hours-value-for-the-task-keep-in-mind-that-this-could-be-more-than-1-hour-for-example-if-you-have-16-planned-hours-for-the-task-and-a-2-day-duration-then-you-see-8-hours-for-each-day-of-the-duration-when-you-choose-planned-in-your-drop-down-menu-if-you-have-25-planned-hours-for-the-task-and-a-duration-of-2-days-16-work-hours-based-on-the-schedule-then-the-amount-of-planned-hours-for-each-day-is-12-5-planned-hours-for-each-day-according-to-this-calculation) section above, then, multiply that number by the number of projected hours available to work on each day of the Projected Duration. For example, your Planned Hours might be 25 hours, and the Planned Duration is 2 days (16 hours). The Projected Duration is given by the difference between the&nbsp;Projected Completion&nbsp;and Projected Start&nbsp;dates. If the assignee committed to have the task done two days after the Planned Completion date, this makes the&nbsp;Projected Completion Date&nbsp;have a Projected Duration of 4 days (32 hours).&nbsp;
 
 To calculate the Projected Hours of every day, you follow this calculation:&nbsp;
 
@@ -135,7 +135,7 @@ Average Planned Hours required per day &#42; Amount of days in the Projected Dur
 >
 >The project timeline is based off of the Planned Start and Planned Condition Dates of the tasks. The Projected Dates can affect the Condition and the Progress Status of the tasks and of the project, and they might show as Late, At Risk, or In Trouble.&nbsp;
 
-### View work based on resource availability
+### View work based on resource availability {#view-work-based-on-resource-availability}
 
 When viewing the Resource Grid, select **Used Resources**&nbsp;or **Available Resources**&nbsp;from the drop-down list.
 
@@ -148,7 +148,7 @@ The available time is calculated according to this formula:
 
 The available time has a negative value when a resource is over-allocated.&nbsp;
 
-### View resource allocation
+### View resource allocation {#view-resource-allocation}
 
 When viewing the Resource Grid, select **Hour, FTE,**&nbsp;or **Percent**&nbsp;from the drop-down list.
 
@@ -175,7 +175,7 @@ You can modify the information visible in the Resource Grid further, by using th
 * [Chart Options](#chart-options) 
 * [Data Range](#data-range)
 
-#### **Field Data**
+#### **Field Data** {#field-data}
 
 Editing the **Field Data** tab in the **Resource Grid Preferences** allows you to customize the columns of the **Resource Grid**.&nbsp;
 
@@ -191,7 +191,7 @@ To access the **Field Data** tab in Resource Grid Preferences:
 
 1. Click **OK**. &nbsp;
 
-#### **Chart Options**
+#### **Chart Options** {#chart-options}
 
 Editing the **Chart Options**&nbsp;tab in the **Resource Grid Preferences** allows you to customize&nbsp;what allocation information you are displaying in the Resource Grid.&nbsp;
 
@@ -211,7 +211,7 @@ To access the **Chart Options**&nbsp;tab in the Resource Grid:&nbsp;
 
 1. Click **OK**.&nbsp;
 
-#### **Data Range**
+#### **Data Range** {#data-range}
 
 You can change the date range for the Resource Grid by using the Preferences icon inside the Resource Grid.&nbsp;
 

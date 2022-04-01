@@ -182,7 +182,7 @@ For information about how users can use Workfront Proof, see [Generate a proof](
 
 For information about how users can use third-party&nbsp;document integrations after you have configured them, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### Configure Workfront to send metadata to Workfront DAM
+### Configure Workfront to send metadata to Workfront DAM {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 When sending a document from Workfront to Workfront DAM, you can also send information associated with that document. Information about the document is mapped to Workfront DAM as metadata.
 
@@ -194,7 +194,7 @@ For more information about calculated custom fields, see [Add calculated data to
 
 The mapping affects all the documents uploaded&nbsp;by any user from Workfront to Workfront DAM.
 
-As a Workfront administrator, you must enable Workfront DAM in Workfront before you can map the fields for the metadata mapping process. For more information about how to&nbsp;enable Workfront DAM, see [Configure Workfront to send metadata to Workfront DAM](#configur2). &nbsp;
+As a Workfront administrator, you must enable Workfront DAM in Workfront before you can map the fields for the metadata mapping process. For more information about how to&nbsp;enable Workfront DAM, see [Configure Workfront to send metadata to Workfront DAM](#configure-workfront-to-send-metadata-to-workfront-dam). &nbsp;
 
 To configure Workfront to send metadata to Workfront DAM:
 

@@ -48,12 +48,12 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Understand Search
+## Understand Search {#understand-search}
 
-* [Objects available for search](#objects) 
-* [Fields available for search](#fields)
+* [Objects available for search](#objects-available-for-search) 
+* [Fields available for search](#fields-available-for-search)
 
-### Objects available for search
+### Objects available for search {#objects-available-for-search}
 
 You can search for the following objects in Workfront:
 
@@ -70,7 +70,7 @@ You can search for the following objects in Workfront:
 * Companies
 * Notes
 
-### Fields available for search
+### Fields available for search {#fields-available-for-search}
 
 The fields available for search are based on the type of search: Basic or Advanced Search.
 
@@ -82,11 +82,11 @@ The fields available for search are based on the type of search: Basic or Advanc
    * Updates
    * Document names (in specific document searches and in a basic search)
 
-  For more information about basic searching in Workfront, see [Basic Search](#basic) in this article.
+  For more information about basic searching in Workfront, see [Basic Search](#basic-search) in this article.
 
 * **Advanced Search**: In an Advanced Search, you can set up filters to search fields not available in basic search. Therefore, Advanced Search allows you to search any field in the object.
 
-  For more information about Advanced Search, see [Advanced Search](#advanced) in this article.
+  For more information about Advanced Search, see [Advanced Search](#advanced-search) in this article.
 
 >[!NOTE]
 >
@@ -155,23 +155,23 @@ However, you can do the following in the Search box to adjust the search results
 
 Workfront features two types of searches: Basic and advanced. Use basic search if you want to find keywords in common object fields such as name or description. Use Advanced Search if you want to use filters to search other object fields.
 
-* [Basic Search](#basic) 
-* [Advanced Search](#advanced)
+* [Basic Search](#basic-search) 
+* [Advanced Search](#advanced-search)
 
-### Basic Search
+### Basic Search {#basic-search}
 
 A basic search allows you to search for keywords across all objects in the system or on just one object at a time (such as projects). Workfront then searches for those keywords in a few specific fields. You can then refine your search results based on other object-specific fields selected by Workfront.
 
-For a list of the specific fields searched in basic search, see [Fields available for search](#fields) in this article.
+For a list of the specific fields searched in basic search, see [Fields available for search](#fields-available-for-search) in this article.
 
 >[!NOTE]
 >
 >To perform an Advanced Search, you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
 
-* [Perform a basic search](#using-basic-search) 
-* [Refine a basic search](#refining-a-search)
+* [Perform a basic search](#perform-a-basic-search) 
+* [Refine a basic search](#refine-a-basic-search)
 
-#### Perform a basic search
+#### Perform a basic search {#perform-a-basic-search}
 
 You can do a basic search in either of the following ways:
 
@@ -187,7 +187,7 @@ To perform a basic search:
    ![](assets/search-objecttype.png)
 
 1. In the **Search** box, start typing the information you are searching for.  
-   For information about what fields are searched in Workfront, see [Understand Search](#understanding-search).  
+   For information about what fields are searched in Workfront, see [Understand Search](#understand-search).  
    ![](assets/qs-search-drop-down-highlighted-350x234.png)  
    As you begin typing in the search bar, Workfront makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.
 
@@ -199,23 +199,23 @@ To perform a basic search:
 
    The Search Results page slides open from the left and covers most of the previous page.
 
-   If you performed a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in [Understand Search](#understanding-search). The objects that match your search display in a list.
+   If you performed a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in [Understand Search](#understand-search). The objects that match your search display in a list.
 
    >[!NOTE]
    >
    >Sometimes, variations of a word display in the list of found items.  
    >For example, searching for "marketing" displays objects that contain either "marketing" or "market" in the name.
 
-1. (Optional) If your search generated too many results, refine your search as described in [Refine a basic search](#refining-a-search).
+1. (Optional) If your search generated too many results, refine your search as described in [Refine a basic search](#refine-a-basic-search).
 1. (Optional) To return to the page you were on prior to the search, click **Close** in the top-right corner.
 
 >[!NOTE]
 >
 >The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page.
 
-#### Refine a basic search
+#### Refine a basic search {#refine-a-basic-search}
 
-After performing a basic search—as described in [Perform a basic search](#using-basic-search)—you can refine the search.
+After performing a basic search—as described in [Perform a basic search](#perform-a-basic-search)—you can refine the search.
 
 Use the toolbar to the left of your search results to narrow down the information you are looking for.
 
@@ -231,7 +231,7 @@ To refine a search:
 
 1. (Optional) Click the selected values to deselect them and display all values for each field again.
 
-### Advanced Search
+### Advanced Search {#advanced-search}
 
 Advanced Search allows you to search using fields and filters not available to basic search. For example, you could search for projects with a specific Priority or Document Owner Name.
 
@@ -239,9 +239,9 @@ Advanced Search allows you to search using fields and filters not available to b
 >
 >To perform an Advanced Search, you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
 
-* [Use Advanced Search](#using-advanced-search)
+* [Use Advanced Search](#use-advanced-search)
 
-#### Use Advanced Search
+#### Use Advanced Search {#use-advanced-search}
 
 You can use Advanced Search to filter your search based on specific criteria.  
 This type of search is helpful when you cannot remember a keyword associated with an object but you know some specific information about that object (example: Project Priority, Document Owner Name, etc).

@@ -52,7 +52,7 @@ Consider the following when working with results:
    * Number
    * Percentage
 
-For more information about results, see the list of similarities between results and activities in the [Similarities between results, activities, and projects](#similarities) section in this article.
+For more information about results, see the list of similarities between results and activities in the [Similarities between results, activities, and projects](#similarities-between-results-activities-and-projects) section in this article.
 
 ## Activities overview
 
@@ -80,9 +80,9 @@ Consider the following when associating activities with your goals:
    </tbody> 
   </table>
 
-For more information about results and activities, see the list of similarities between results and activities in the [Similarities between results, activities, and projects](#similarities) section in this article.
+For more information about results and activities, see the list of similarities between results and activities in the [Similarities between results, activities, and projects](#similarities-between-results-activities-and-projects) section in this article.
 
-## Similarities between results, activities, and projects
+## Similarities between results, activities, and projects {#similarities-between-results-activities-and-projects}
 
 Results, activities and projects are goal progress indicators. Although you connect a project to a goal the same way you connect an activity, there are some differences in the way you manage projects versus the way you manage activities. For information about adding projects to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).&nbsp;For information about projects connected to goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 

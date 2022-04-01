@@ -63,13 +63,13 @@ You must have the following access to use the functionality in this article:
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Creating a connection for an OAuth request
+## Creating a connection for an OAuth request {#creating-a-connection-for-an-oauth-request}
 
-* [General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module](#general) 
-* [Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module](#instruct) 
-* [Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module](#instruct2)
+* [General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module](#general-instructions-for-creating-a-connection-in-the-http-make-an-oauth-2-0-request-module) 
+* [Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-2-0-request-module) 
+* [Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module](#instructions-for-connecting-to-microsoft-graph-api-via-the-http-make-an-oauth-2-0-request-module)
 
-### General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module
+### General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module {#general-instructions-for-creating-a-connection-in-the-http-make-an-oauth-2-0-request-module}
 
 1. Create an OAuth client in the target service with which you want Adobe Workfront Fusion to communicate. This option is most likely found in the Developer section of the given service.
 
@@ -182,7 +182,7 @@ You must have the following access to use the functionality in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Scope separator </td> 
-      <td> <p>Select what the scopes entered above should be separated by. You can find this information in the given service's developer (API) documentation.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If the separator is not set correctly, Workfront Fusion fails to create the connection and you receive an invalid scope error.</p> </td> 
+      <td> <p>Select what the scopes entered above should be separated by. You can find this information in the given service's developer (API) documentation.</p> <p>Warning: If the separator is not set correctly, Workfront Fusion fails to create the connection and you receive an invalid scope error.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Client ID </td> 
@@ -270,9 +270,9 @@ You must have the following access to use the functionality in this article:
    </table>
 
 1. Click **Continue**to save connection settings. 
-1. Continue to [OAuth 2.0 request module setup](#oauth).
+1. Continue to [OAuth 2.0 request module setup](#oauth-2-0-request-module-setup).
 
-### Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module
+### Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module  {#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-2-0-request-module}
 
 The following example shows how to use the HTTP > Make an OAuth 2.0 request module to connect to Google.
 
@@ -325,15 +325,15 @@ The following example shows how to use the HTTP > Make an OAuth 2.0 request modu
    </table>
 
 1. Click **Continue**to save connection settings. 
-1. Continue to [OAuth 2.0 request module setup](#oauth).
+1. Continue to [OAuth 2.0 request module setup](#oauth-2-0-request-module-setup).
 
-### Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module
+### Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module {#instructions-for-connecting-to-microsoft-graph-api-via-the-http-make-an-oauth-2-0-request-module}
 
 For instructions regarding Microsoft Graph API, see [Call the MS Graph REST API via the HTTP > Make an OAuth 2.0 request module](../../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
 
-## OAuth 2.0 request module setup
+## OAuth 2.0 request module setup {#oauth-2-0-request-module-setup}
 
-When you have established an Oauth 2.0 connection as described in [Creating a connection for an OAuth request](#creating), continue setting up the module as desired. All authorization tokens are automatically included in this request, and in any other request that uses the same connection.
+When you have established an Oauth 2.0 connection as described in [Creating a connection for an OAuth request](#creating-a-connection-for-an-oauth-request), continue setting up the module as desired. All authorization tokens are automatically included in this request, and in any other request that uses the same connection.
 
 When you configure the HTTP > Make an OAuth 2.0 request module, Workfront Fusion displays the fields listed below. A bolded title in a module indicates a required field.
 
@@ -349,7 +349,7 @@ If you see the map button above a field or function, you can use it to set varia
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For information on setting up a connection, see <a href="#creating" class="MCXref xref">Creating a connection for an OAuth request</a> in this article.</p> </td> 
+   <td> <p>For information on setting up a connection, see <a href="#creating-a-connection-for-an-oauth-request" class="MCXref xref">Creating a connection for an OAuth request</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Evaluate all states as errors (except for 2xx and 3xx ) </td> 

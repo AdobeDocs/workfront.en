@@ -70,20 +70,20 @@ If you see the map button above a field or function, you can use it to set varia
 ![](assets/map-toggle-350x74.png)
 
 * [Message](#message) 
-* [Draft Message](#draft) 
-* [Attachment](#attachme) 
+* [Draft Message](#draft-message) 
+* [Attachment](#attachment) 
 * [Other](#other)
 
-### Message
+### Message {#message}
 
-* [Watch Messages](#watch) 
-* [Search messages](#search) 
-* [Get a message](#get) 
-* [Create and Send a Message](#create) 
-* [Move a Message](#move) 
-* [Delete a Message](#delete)
+* [Watch Messages](#watch-messages) 
+* [Search messages](#search-messages) 
+* [Get a message](#get-a-message) 
+* [Create and Send a Message](#create-and-send-a-message) 
+* [Move a Message](#move-a-message) 
+* [Delete a Message](#delete-a-message)
 
-#### Watch Messages
+#### Watch Messages {#watch-messages}
 
 Triggers when a new email message is sent or received.
 
@@ -119,7 +119,7 @@ Triggers when a new email message is sent or received.
  </tbody> 
 </table>
 
-#### Search messages
+#### Search messages {#search-messages}
 
 Searches for messages based on specific criteria.
 
@@ -156,7 +156,7 @@ Searches for messages based on specific criteria.
  </tbody> 
 </table>
 
-#### Get a message
+#### Get a message {#get-a-message}
 
 Gets the metadata of a specific message
 
@@ -179,7 +179,7 @@ Gets the metadata of a specific message
  </tbody> 
 </table>
 
-#### Create and Send a Message
+#### Create and Send a Message {#create-and-send-a-message}
 
 Creates and sends an email message.
 
@@ -255,7 +255,7 @@ Creates and sends an email message.
  </tbody> 
 </table>
 
-#### Move a Message
+#### Move a Message {#move-a-message}
 
 Moves an email message to a selected folder in the mailbox.
 
@@ -278,7 +278,7 @@ Moves an email message to a selected folder in the mailbox.
  </tbody> 
 </table>
 
-#### Delete a Message
+#### Delete a Message {#delete-a-message}
 
 Deletes an existing email message.
 
@@ -297,13 +297,13 @@ Deletes an existing email message.
  </tbody> 
 </table>
 
-### Draft Message
+### Draft Message {#draft-message}
 
-* [Create a Draft Message](#create2) 
-* [Send a Draft Message](#send) 
-* [Update a Message](#update)
+* [Create a Draft Message](#create-a-draft-message) 
+* [Send a Draft Message](#send-a-draft-message) 
+* [Update a Message](#update-a-message)
 
-#### Create a Draft Message
+#### Create a Draft Message {#create-a-draft-message}
 
 Creates a new email message.
 
@@ -371,7 +371,7 @@ Creates a new email message.
  </tbody> 
 </table>
 
-#### Send a Draft Message
+#### Send a Draft Message {#send-a-draft-message}
 
 Sends an email message that is currently in draft.
 
@@ -390,7 +390,7 @@ Sends an email message that is currently in draft.
  </tbody> 
 </table>
 
-#### Update a Message
+#### Update a Message {#update-a-message}
 
 Updates an existing message.
 
@@ -466,12 +466,12 @@ Updates an existing message.
  </tbody> 
 </table>
 
-### Attachment
+### Attachment {#attachment}
 
-* [List Attachments](#list) 
-* [Download an Attachment](#download)
+* [List Attachments](#list-attachments) 
+* [Download an Attachment](#download-an-attachment)
 
-#### List Attachments
+#### List Attachments {#list-attachments}
 
 This module retrieves a list of attachments belonging to the specified message.
 
@@ -494,7 +494,7 @@ This module retrieves a list of attachments belonging to the specified message.
  </tbody> 
 </table>
 
-#### Download an Attachment
+#### Download an Attachment {#download-an-attachment}
 
 This module downloads the specified attachment.
 
@@ -517,12 +517,12 @@ This module downloads the specified attachment.
  </tbody> 
 </table>
 
-### Other
+### Other {#other}
 
-* [Make an API Call](#make) 
-* [Add an Attachment](#add)
+* [Make an API Call](#make-an-api-call) 
+* [Add an Attachment](#add-an-attachment)
 
-#### Make an API&nbsp;Call
+#### Make an API&nbsp;Call {#make-an-api-call}
 
 This module allows you to perform a custom API call.
 
@@ -560,7 +560,7 @@ This module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-#### Add an Attachment
+#### Add an Attachment {#add-an-attachment}
 
 This module adds a large attachment to a message.
 

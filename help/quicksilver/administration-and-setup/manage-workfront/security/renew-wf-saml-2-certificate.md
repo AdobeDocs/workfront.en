@@ -72,9 +72,12 @@ To review the warning message and acknowledge the update of the SAML 2.0 metadat
 
    This downloads the renewed Workfront certiﬁcate for SAML 2.0, which contains the correct metadata for your server.
 
-   ``` ```**Warning: **`````` Before you upload the Workfront metadata to your Single Sign-On (SSO) provider in Step 5, copy your current Assertion Consumer Service (ACS) URL to a safe place. This URL, also known as the Reply URL, is found on your SSO provider's Workfront configuration page.
-
-   If the ACS URL changes after you upload the Workfront metadata, this means that the metadata might contain an incorrect ACS URL. You must change it back to the one you copied in order to avoid breaking your Single Sign-On connection. Your updated certificate will still be correct after you do this.
+   >[!CAUTION]
+   >
+   >Before you upload the Workfront metadata to your Single Sign-On (SSO) provider in Step 5, copy your current Assertion Consumer Service (ACS) URL to a safe place. This URL, also known as the Reply URL, is found on your SSO provider's Workfront configuration page. 
+   >
+   >
+   >If the ACS URL changes after you upload the Workfront metadata, this means that the metadata might contain an incorrect ACS URL. You must change it back to the one you copied in order to avoid breaking your Single Sign-On connection. Your updated certificate will still be correct after you do this.
 
 1. Go to your identity provider server and update the new certiﬁcate you downloaded from Workfront on that server, as explained in [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 1. In Workfront, on the **Single Sign-on (SSO) page**, make sure that **Admin Exemption** is selected.

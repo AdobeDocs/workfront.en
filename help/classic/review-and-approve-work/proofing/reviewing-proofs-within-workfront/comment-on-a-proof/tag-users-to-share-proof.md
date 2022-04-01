@@ -15,7 +15,7 @@ When tagging users in comments on a proof, the users you are able to tag might d
 * If you are the proof creator, owner, or have specific permissions enabled, you can tag users outside of the proof workflow and share the proof with them.
 * If you were added to the proof as an outside user and you are a member of another environment with a different proof account, you can tag only those users from your original environment. For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)
 
-## Access requirements
+## Access requirements {#access-requirements}
 
 You must have the following access to perform the steps in this article:
 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
 ## Tag users to share a proof
 
-Users with the Proof Permission Profile or Proof role outlined in the [Access requirements](#access) section above can tag users to share a proof by default. You can also tag users to share a proof regardless of Proof Permission Profile or Proof role if you are the proof owner or creator. You can enable users with lower Proof Permission Profile or Proof roles to tag users to share a proof when creating a proof. For more information, see the [Configure the workflow and add reviewers](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) section in the [Create an advanced proof with a Basic workflow](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) article.
+Users with the Proof Permission Profile or Proof role outlined in the [Access requirements](#access-requirements) section above can tag users to share a proof by default. You can also tag users to share a proof regardless of Proof Permission Profile or Proof role if you are the proof owner or creator. You can enable users with lower Proof Permission Profile or Proof roles to tag users to share a proof when creating a proof. For more information, see the [Configure the workflow and add reviewers](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) section in the [Create an advanced proof with a Basic workflow](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) article.
 
 >[!NOTE]
 >

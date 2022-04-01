@@ -113,7 +113,7 @@ The following sections describe each profile and the permissions associated with
 * [Visitor](#visitor) 
 * [Guest](#guest)
 
-### Billing Administrator
+### Billing Administrator {#billing-administrator}
 
 Billing Administrators have access to&nbsp; [Account settings in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)&nbsp;and [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md), and have the following permissions:
 
@@ -151,7 +151,7 @@ For information on Account settings, see [Account settings in Workfront Proof](.
 
 For information on Billing, see [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-### Administrator
+### Administrator {#administrator}
 
 Administrators have access to&nbsp; [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)and have the following permissions:
 
@@ -185,7 +185,7 @@ Administrators have access to&nbsp; [Account settings](https://support.workfront
 
 ![](assets/no2.png)Cannot access the&nbsp;Billing pageor edit the billing details. For more information, see [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-### Supervisor
+### Supervisor {#supervisor}
 
 Supervisors have the following permissions:
 
@@ -217,7 +217,7 @@ Supervisors have the following permissions:
 
 ![](assets/no2.png)Cannot empty the&nbsp;trash. For more information, see [Restore and Empty the Trash in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-### Manager
+### Manager {#manager}
 
 Managers have the following permissions:
 
@@ -247,7 +247,7 @@ Managers have the following permissions:
 
 ![](assets/no2.png)Cannot delete contacts. &nbsp;
 
-### Observer
+### Observer {#observer}
 
 Observers have the following permissions:
 
@@ -285,7 +285,7 @@ Observers have the following permissions:
 >* Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing 
 >
 
-### Visitor
+### Visitor {#visitor}
 
 Visitors have the following permissions:
 
@@ -323,7 +323,7 @@ Visitors have the following permissions:
 >* Visitors do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing 
 >
 
-### Guest
+### Guest {#guest}
 
 The Guest profile is used to give access to proofs for reviewers who do not have their own Workfront Proof account. Guests can access proofs shared with them directly via their personal email notifications.
 

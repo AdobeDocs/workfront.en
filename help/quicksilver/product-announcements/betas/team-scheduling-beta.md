@@ -41,7 +41,7 @@ You can test the Team Scheduling area&nbsp;by invitation only.
 The following areas are ready for testing:
 
 * Add users to the Project Team from the Team Scheduling Area.  
-  For more information, see [Team scheduling beta](#manually-adding-users-to-a-project-team--with-id-115000141154--missing).
+  For more information, see [Team scheduling beta](#manually-adding-users-to-a-project-team__with_id_115000141154__missing).
 
 * Unassign a user from all tasks and issues in the Team Scheduling area. Users remain on the project team until manually removed from the project team.
 * Remove a user from the project team when the user is no longer assigned any tasks or issues.  

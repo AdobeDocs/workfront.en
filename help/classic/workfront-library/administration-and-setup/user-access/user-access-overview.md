@@ -14,7 +14,7 @@ By default, when a system administrator integratesWorkfront with Workfront Libra
 
 As a Workfront Library administrator, you can give Workfront users access to Workfront Library by adding them as users in Workfront Library. For more information on giving users access, see [Give users access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/give-users-access-to-library.md).
 
-## Access sources
+## Access sources {#access-sources}
 
 A user can have access to Workfront Library through the following sources:
 
@@ -35,7 +35,7 @@ A user can have access to Workfront Library through the following sources:
 
 * **Companies**: Includes users within a specific organization or department, or an outside client. For information about companies in Workfront, see [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-## Access levels
+## Access levels {#access-levels}
 
 There are 3 access levels in Workfront Library. Each access level grants specific permissions to users that allow or restrict activities in Workfront Library.
 
@@ -82,11 +82,11 @@ Each column in the table gives you additional options.
   </tr> 
   <tr> 
    <td role="rowheader">Access level</td> 
-   <td>The Access level column displays the access level for each user. To learn more about access levels, see <a href="#access2" class="MCXref xref">Access levels</a>.</td> 
+   <td>The Access level column displays the access level for each user. To learn more about access levels, see <a href="#access-levels" class="MCXref xref">Access levels</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access sources</td> 
-   <td>In the Access sources column, you can see how a user has access to Workfront Library. If a user was explicitly added, "Individual" appears in this column. If the user has access through a user grouping, the name of the grouping appears in the column and you can click the linked name to go to the Job roles, Teams, Groups, or Companies area within Workfront Library. To learn more about access sources in Workfront Library, see <a href="#access" class="MCXref xref">Access sources</a>. To learn more about the user grouping areas, see <a href="#user" class="MCXref xref">User groupings screens</a>.</td> 
+   <td>In the Access sources column, you can see how a user has access to Workfront Library. If a user was explicitly added, "Individual" appears in this column. If the user has access through a user grouping, the name of the grouping appears in the column and you can click the linked name to go to the Job roles, Teams, Groups, or Companies area within Workfront Library. To learn more about access sources in Workfront Library, see <a href="#access-sources" class="MCXref xref">Access sources</a>. To learn more about the user grouping areas, see <a href="#user-groupings-screens" class="MCXref xref">User groupings screens</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"># of assets</td> 
@@ -95,7 +95,7 @@ Each column in the table gives you additional options.
  </tbody> 
 </table>
 
-## User groupings screens
+## User groupings screens {#user-groupings-screens}
 
 You can see information for user groupings by going to the the Main Menu, then selecting Setup > Users:
 
@@ -124,7 +124,7 @@ In the Setup area for each type of user grouping, you can see the following colu
   </tr> 
   <tr> 
    <td>Access level</td> 
-   <td>The Access level column displays the access level for each user grouping. To learn more about access levels, see <a href="#access2" class="MCXref xref">Access levels</a>. After you add a user grouping to Workfront Library, you can assign the grouping a different access level. All members of the user grouping automatically have this access level (unless they have a higher access level through another source) and have permissions to all the content shared with the grouping.</td> 
+   <td>The Access level column displays the access level for each user grouping. To learn more about access levels, see <a href="#access-levels" class="MCXref xref">Access levels</a>. After you add a user grouping to Workfront Library, you can assign the grouping a different access level. All members of the user grouping automatically have this access level (unless they have a higher access level through another source) and have permissions to all the content shared with the grouping.</td> 
   </tr> 
   <tr> 
    <td># of assets</td> 

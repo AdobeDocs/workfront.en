@@ -36,7 +36,7 @@ Workfront Proof enables you to create proofs from documents or websites, and sha
 
 1. (Optional) Repeat this process to add multiple websites to proof.
 
-   For more details about proofing websites, see&nbsp; [Generate a proof for a URL](#generating-a-proof-for-a-url).
+   For more details about proofing websites, see&nbsp; [Generate a proof for a URL](#generate-a-proof-for-a-url).
 
    ![](assets/proof-website-350x65.png)
 
@@ -142,7 +142,7 @@ Workfront Proof enables you to create proofs from documents or websites, and sha
 
    Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof.
 
-## Generate a proof for a URL
+## Generate a proof for a URL {#generate-a-proof-for-a-url}
 
 You can generate a proof for a URL for the first time. Or, you can generate a new version of a URL proof where a proof has previously been generated.
 
@@ -192,7 +192,7 @@ To generate a proof for a URL:
      </tr> 
      <tr> 
       <td role="rowheader">Interactive</td> 
-      <td> <p>Creates a proof that allows reviewers to navigate the site, view HTML5 images, Flash elements, and so forth.</p> <p>In order to create an interactive proof, the website must be hosted with a secure protocol (https). In addition, websites that cannot be embedded in an iframe cannot be generated as an interactive proof (iframe embedding restrictions are controlled by the website you are attempting to embed).</p> <p>After the initial proof is created, this setting cannot be changed when creating subsequent versions.</p> <p>For more information about interactive proofing, see&nbsp;<a href="#generati" class="MCXref xref">Generate a proof for interactive content</a>.</p> </td> 
+      <td> <p>Creates a proof that allows reviewers to navigate the site, view HTML5 images, Flash elements, and so forth.</p> <p>In order to create an interactive proof, the website must be hosted with a secure protocol (https). In addition, websites that cannot be embedded in an iframe cannot be generated as an interactive proof (iframe embedding restrictions are controlled by the website you are attempting to embed).</p> <p>After the initial proof is created, this setting cannot be changed when creating subsequent versions.</p> <p>For more information about interactive proofing, see&nbsp;<a href="#generate-a-proof-for-interactive-content" class="MCXref xref">Generate a proof for interactive content</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Screenshot resolution</td> 
@@ -217,20 +217,20 @@ To generate a proof for a URL:
 
 1. Click **Create Proof**.
 
-## Generate a proof for interactive content
+## Generate a proof for interactive content {#generate-a-proof-for-interactive-content}
 
 A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
 
 For more information about Interactive content, see [Interactive content proofs overview](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-* [Add interactive content as a URL](#uploading-rich-media-content-as-a-url) 
-* [Add interactive content as a ZIP file](#uploading-rich-media-content-as-a-zip-file)
+* [Add interactive content as a URL](#add-interactive-content-as-a-url) 
+* [Add interactive content as a ZIP file](#add-interactive-content-as-a-zip-file)
 
-### **Add interactive content as a URL**
+### **Add interactive content as a URL** {#add-interactive-content-as-a-url}
 
-```For information about how to add an interactive URL proof, see  [Generate a proof for a URL](#generating-a-proof-for-a-url)```.
+```For information about how to add an interactive URL proof, see  [Generate a proof for a URL](#generate-a-proof-for-a-url)```.
 
-### **Add interactive content as a ZIP file**
+### **Add interactive content as a ZIP file** {#add-interactive-content-as-a-zip-file}
 
 1. Prepare your content by creating a .zip bundled file.
 

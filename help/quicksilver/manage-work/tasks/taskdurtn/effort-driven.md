@@ -47,10 +47,10 @@ Workfront assumes that there are 8 working hours in a working day. Your Workfron
 
 Consider the following scenarios:
 
-* [Resources are allocated 100% to the task](#simplified-formula) 
-* [Resources are allocated for various percentages of time to the task](#actual-formula)
+* [Resources are allocated 100% to the task](#resources-are-allocated-100-to-the-task) 
+* [Resources are allocated for various percentages of time to the task](#resources-are-allocated-for-various-percentages-of-time-to-the-task)
 
-### Resources are allocated 100% to the task
+### Resources are allocated 100% to the task {#resources-are-allocated-100-to-the-task}
 
 This formula assumes that all resources are allocated 100% to the task.
 
@@ -60,7 +60,7 @@ Planned Duration = (Planned Hours / Number of Resources) / 8
 
 This calculation assumes that the number of hours in a normal work day is 8. The equation includes this value so the Planned Duration displays in days.
 
-###  Resources are allocated for various percentages of time to the task
+###  Resources are allocated for various percentages of time to the task {#resources-are-allocated-for-various-percentages-of-time-to-the-task}
 
 Because each assigned resource can have a unique level of allocation, the actual formula takes these allocation values into account:
 

@@ -40,7 +40,9 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   ![document_share_public.png](assets/document-share-public.png)
 
-  ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. 
+  >[!CAUTION]
+  >
+  >We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
 
 * You can share a document with someone who does not have a Workfront account, by adding their email address in the Give document access to field.
 * When you share a document, users have the same access to all the document versions and all the document proofs.  

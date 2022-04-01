@@ -38,7 +38,7 @@ When proofing interactive URLs:
 * When&nbsp;proofing HTTP interactive&nbsp;content, make sure that Mixed Content is allowed in your browser.  
   The proofing&nbsp;tool connects over HTTPS. If your external resources load over HTTP, the browser detects this as Mixed Content and might block it,&nbsp;depending on the browser settings.&nbsp;
 
-## Proofing Static Content
+## Proofing Static Content {#proofing-static-content}
 
 1. Go to the document that contains the proof you want to review, then click **Proof**.
 

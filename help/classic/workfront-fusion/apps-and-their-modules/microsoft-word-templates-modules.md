@@ -78,11 +78,11 @@ To create this document:
 
 A Microsoft Word template is a regular Microsoft Word document (.docx file) with special tags in its text that determine where and how to merge or fill in data. There are three types of tags:
 
-* [Simple value tag](#simple) 
-* [Condition tag](#conditio) 
-* [Loop tag](#loop)
+* [Simple value tag](#simple-value-tag) 
+* [Condition tag](#condition-tag) 
+* [Loop tag](#loop-tag)
 
-### Simple value tag
+### Simple value tag {#simple-value-tag}
 
 A simple value tag is simply replaced with a corresponding value. The tag's name corresponds with the Key field's value, which is placed inside double curly braces; for example, 
 
@@ -102,7 +102,7 @@ To do this, you would set up the module as follows:
 
 ![](assets/word-template-simple-value-350x286.png)
 
-### Condition tag
+### Condition tag {#condition-tag}
 
 You can use a condition tag to wrap text that should be rendered only when certain conditions are met. To wrap the text, place it between opening and closing condition tags, such as "hasPhone" if the condition is whether or not the data includes a phone number. The name of an opening tag is prepended with a hash sign #, the name of a closing tag is prepended with a slash /, as shown in the example below.
 
@@ -114,14 +114,14 @@ You can use a condition tag to wrap text that should be rendered only when certa
 In the document, the phone number would appear as follows:
 <pre>> Phone: 4445551234</pre>
 
-### Loop tag
+### Loop tag {#loop-tag}
 
 You can use a loop tag, also known as a section tag, to repeat a section of text. Wrap the text by placing it between the opening and closing loop tags. The name of an opening tag is prepended with a hash sign #; the name of a closing tag is prepended with a slash /.
 
-* [Loop tag with Fill out a document module](#loop2) 
-* [Loop tag with Fill a document with a batch of data module](#loop3)
+* [Loop tag with Fill out a document module](#loop-tag-with-fill-out-a-document-module) 
+* [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)
 
-#### Loop tag with Fill out a document module
+#### Loop tag with Fill out a document module {#loop-tag-with-fill-out-a-document-module}
 
 ``` ```**Example: **`````` To produce a document that lists the name and phone number of each contact in a customer list, you could use a Microsoft Word Template module and create the following template:
 <pre>> {{#contact}}</pre><pre>>     {{name}}, {{phone}}</pre><pre>> {{/contact}}</pre>To do this, you would set up the module as follows:
@@ -131,7 +131,7 @@ You can use a loop tag, also known as a section tag, to repeat a section of text
 The module would create the following document:
 <pre>> Jan Toman, 4445551234</pre><pre>> Eduard Salo, 4445552345</pre>
 
-#### Loop tag with Fill a document with a batch of data module
+#### Loop tag with Fill a document with a batch of data module {#loop-tag-with-fill-a-document-with-a-batch-of-data-module}
 
 ``` ```**Example: **`````` You can export Google contacts into a table that you create using loop tags.
 
@@ -155,10 +155,10 @@ The module would create the following document:
 
 These modules do not require a connection.
 
-* [Fill out a document](#fill) 
-* [Fill a document with a batch of data](#fill2)
+* [Fill out a document](#fill-out-a-document) 
+* [Fill a document with a batch of data](#fill-a-document-with-a-batch-of-data)
 
-### Fill out a document
+### Fill out a document {#fill-out-a-document}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This transformer module lets you fill a document with data you specify. It can be used with simple values tags, conditional tags, or loop tags. </p>
@@ -203,16 +203,16 @@ These modules do not require a connection.
      <li value="3">Select the value type of the entry.</li> 
      <li value="4">Add the name and value. For more information, see the example for the chosen value type in this article. 
       <ul> 
-       <li><a href="#simple" class="MCXref xref">Simple value tag</a></li> 
-       <li><a href="#conditio" class="MCXref xref">Condition tag</a></li> 
-       <li><a href="#loop" class="MCXref xref">Loop tag</a></li> 
+       <li><a href="#simple-value-tag" class="MCXref xref">Simple value tag</a></li> 
+       <li><a href="#condition-tag" class="MCXref xref">Condition tag</a></li> 
+       <li><a href="#loop-tag" class="MCXref xref">Loop tag</a></li> 
       </ul></li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Fill a document with a batch of data
+### Fill a document with a batch of data {#fill-a-document-with-a-batch-of-data}
 
 This aggregator module is useful if your data entries come as separate bundles. With this module, you can easily set up the structure required for the Value field and it map items to each value item. In contrast to the Fill out a document module, the Values field in the Fill a document with a batch of data module allows only a single entry containing variables.
 
@@ -273,9 +273,9 @@ This aggregator module is especially useful for creating lists or reports.
      <li value="3">Select the value type of the entry.</li> 
      <li value="4">Add the name and value. For more information, see the example for the chosen value type in this article. 
       <ul> 
-       <li><a href="#simple" class="MCXref xref">Simple value tag</a></li> 
-       <li><a href="#conditio" class="MCXref xref">Condition tag</a></li> 
-       <li><a href="#loop" class="MCXref xref">Loop tag</a></li> 
+       <li><a href="#simple-value-tag" class="MCXref xref">Simple value tag</a></li> 
+       <li><a href="#condition-tag" class="MCXref xref">Condition tag</a></li> 
+       <li><a href="#loop-tag" class="MCXref xref">Loop tag</a></li> 
       </ul></li> 
     </ol> </td> 
   </tr> 

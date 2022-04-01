@@ -32,7 +32,7 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Filter timesheets
+## Filter timesheets {#filter-timesheets}
 
 1. Go to **Timesheet** in the Global Navigation bar.
 1. Click the **All Timesheets** tab.
@@ -65,7 +65,7 @@ You must have the following to perform the steps in this article:
 1. Click the **All Timesheets** tab.
 1. Set the filter options.
 
-   For more information, see the [Filter timesheets](#filtering-timesheets) section in this article.
+   For more information, see the [Filter timesheets](#filter-timesheets) section in this article.
 
 1. Click **Date Range** to select a timesheet.
 1. Update the information as needed.

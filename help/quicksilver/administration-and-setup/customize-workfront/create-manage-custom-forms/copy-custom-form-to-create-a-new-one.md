@@ -70,7 +70,7 @@ You must have the following to perform the steps in this article:
 1. Select the form that you just copied, then click **Edit**.
 1. Make any changes to the form, as explained in the following articles:
 
-   * [Copy a custom form to create a new one](#add2) 
+   * [Copy a custom form to create a new one](#Add2) 
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
    * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
 

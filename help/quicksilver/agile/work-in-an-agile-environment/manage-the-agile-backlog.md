@@ -48,13 +48,13 @@ You must have the following access to perform the steps in this article:
 
 ## Create and manage stories on the backlog
 
-* [Reorder stories](#reordering-stories) 
-* [Break down stories](#breaking-down-stories) 
-* [Edit stories](#editing-stories) 
-* [Create new stories on the backlog](#creating-new-stories) 
-* [Move stories from the backlog to an iteration or Kanban board](#moving-stories-from-the-backlog)
+* [Reorder stories](#reorder-stories) 
+* [Break down stories](#break-down-stories) 
+* [Edit stories](#edit-stories) 
+* [Create new stories on the backlog](#create-new-stories-on-the-backlog) 
+* [Move stories from the backlog to an iteration or Kanban board](#move-stories-from-the-backlog-to-an-iteration-or-kanban-board)
 
-### Reorder stories
+### Reorder stories {#reorder-stories}
 
 You can reorder stories in the backlog list by using the drag-and-drop method.
 
@@ -68,7 +68,7 @@ You can reorder stories in the backlog list by using the drag-and-drop method.
 1. Select one or more stories, then drag the stories to the order where you want them to appear in the backlog.  
    ![Agile_backlog_drag-and-drop.png_Adobe](assets/agile-backlog-drag-and-drop-adobe-350x160.png)
 
-### Break down stories
+### Break down stories {#break-down-stories}
 
 Because stories in a backlog vary in size, users can break them down into workable sizes&nbsp;for an iteration. Breaking a story down creates subtasks on the task that the story represents, and replaces the original task in the backlog. You can have a parent task or its subtasks assigned to an agile team, but you cannot have both assigned to a team simultaneously.
 
@@ -90,18 +90,18 @@ To break down a story:
 1. Click **Add Story** to create another story from the original story.
 1. Click **Save**.&nbsp;
 
-### Edit stories
+### Edit stories {#edit-stories}
 
 You can edit stories directly from the Stories or Issues tabs on the Backlog as you would edit any tasks or issues within a project in bulk, as described in [Edit tasks in bulk](../../manage-work/tasks/manage-tasks/edit-tasks.md#editing-tasks-in-bulk) in [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md) and&nbsp; [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md#bulk-editing-issues) in [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md).
 
-## Create new stories on the backlog
+## Create new stories on the backlog {#create-new-stories-on-the-backlog}
 
 You can create new stories on the backlog by creating the story&nbsp;directly from the backlog, or by assigning an existing&nbsp;task or issue to an agile team.
 
-* [Create a story from the backlog](#creating-a-story-from-the-backlog) 
-* [Assign a task or issue to an agile team](#assigning-a-task-to-an-agile-team)
+* [Create a story from the backlog](#create-a-story-from-the-backlog) 
+* [Assign a task or issue to an agile team](#assign-a-task-or-issue-to-an-agile-team)
 
-### Create a story from the backlog
+### Create a story from the backlog {#create-a-story-from-the-backlog}
 
 When you create a story from the backlog, the story is created as a task or issue within a project. You cannot create a story from the backlog as an issue.&nbsp;
 
@@ -159,7 +159,7 @@ To create a story from the backlog:
 
 1. Click **Save Story**.
 
-### **Assign a task or issue to an agile team**
+### **Assign a task or issue to an agile team** {#assign-a-task-or-issue-to-an-agile-team}
 
 You can assign a task or issue to an agile team. After it is assigned, the task or issue appears as a new story on the team backlog.
 
@@ -175,10 +175,10 @@ To assign a task or issue to an agile team:
 1. Click **Save Changes**.  
    The task or issue is now available on the team backlog.
 
-## Move stories from the backlog to an iteration or Kanban board
+## Move stories from the backlog to an iteration or Kanban board {#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
-* [Move existing stories to the backlog](#moving-existing-stories) 
-* [Export stories from the backlog](#exporting-stories-from-the-backlog)
+* [Move existing stories to the backlog](#move-existing-stories-to-the-backlog) 
+* [Export stories from the backlog](#export-stories-from-the-backlog)
 
 1. Go to the backlog of the agile team.
 1. Select the stories you want to move to an iteration or Kanban board, then click **More** > **Move to**.  
@@ -194,13 +194,13 @@ To assign a task or issue to an agile team:
 
 1. Click **Move Story**.
 
-### Move existing stories&nbsp;to the backlog
+### Move existing stories&nbsp;to the backlog {#move-existing-stories-to-the-backlog}
 
 If you decide that your team is not yet ready to work on a story, you can&nbsp;move the&nbsp;story to the backlog.
 
 For more information, see [Move an agile story](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
-### Export stories from the backlog
+### Export stories from the backlog {#export-stories-from-the-backlog}
 
 You can export one or more stories (including tasks and issues) directly from the backlog.
 

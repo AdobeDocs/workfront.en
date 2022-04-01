@@ -57,7 +57,7 @@ You must have the following access to use the functionality in this article:
 
 To use AWS S3 modules, you must have an Amazon Web Service account.
 
-## Connect AWS to Workfront Fusion
+## Connect AWS to Workfront Fusion {#connect-aws-to-workfront-fusion}
 
 To connect AWS S3 to Workfront Fusion you must connect your AWS account to Workfront Fusion. To do so, you'll first need to create an API user in AWS IAM.
 
@@ -87,14 +87,14 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Actions
+### Actions {#actions}
 
-* [Create Bucket](#create) 
-* [Get File](#get) 
-* [Upload File](#upload) 
-* [Make an API Call](#make)
+* [Create Bucket](#create-bucket) 
+* [Get File](#get-file) 
+* [Upload File](#upload-file) 
+* [Make an API Call](#make-an-api-call)
 
-#### Create Bucket
+#### Create Bucket {#create-bucket}
 
 <table cellspacing="0"> 
  <col> 
@@ -102,7 +102,7 @@ If you see the map button above a field or function, you can use it to set varia
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name </td> 
@@ -115,7 +115,7 @@ If you see the map button above a field or function, you can use it to set varia
  </tbody> 
 </table>
 
-#### Get File
+#### Get File {#get-file}
 
 Downloads a file from a bucket.
 
@@ -125,7 +125,7 @@ Downloads a file from a bucket.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Region </td> 
@@ -142,7 +142,7 @@ Downloads a file from a bucket.
  </tbody> 
 </table>
 
-#### Upload File
+#### Upload File {#upload-file}
 
 <table cellspacing="0"> 
  <col> 
@@ -150,7 +150,7 @@ Downloads a file from a bucket.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Region </td> 
@@ -171,7 +171,7 @@ Downloads a file from a bucket.
  </tbody> 
 </table>
 
-#### Make an API Call
+#### Make an API Call {#make-an-api-call}
 
 For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduction](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html).
 
@@ -181,7 +181,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Region </td> 
@@ -265,12 +265,12 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
-* [List Files](#list) 
-* [List Folders](#list2)
+* [List Files](#list-files) 
+* [List Folders](#list-folders)
 
-#### List Files
+#### List Files {#list-files}
 
 Returns a list of files from a specified location.
 
@@ -280,7 +280,7 @@ Returns a list of files from a specified location.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Region </td> 
@@ -297,7 +297,7 @@ Returns a list of files from a specified location.
  </tbody> 
 </table>
 
-#### List Folders
+#### List Folders {#list-folders}
 
 Returns a list of folders from a specified location.
 
@@ -307,7 +307,7 @@ Returns a list of folders from a specified location.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting yourAWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Region </td> 

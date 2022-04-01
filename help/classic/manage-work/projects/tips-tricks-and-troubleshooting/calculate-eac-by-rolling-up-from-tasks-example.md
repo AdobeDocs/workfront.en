@@ -11,15 +11,15 @@ description: PIM = Hour-Based
 
 ## EAC method: roll up from tasks or subtasks
 
-* [PIM= Hour-Based](#hour-based-section-3) 
-* [PIM= Cost-Based](#cost-based-section3)
+* [PIM= Hour-Based](#pim-hour-based) 
+* [PIM= Cost-Based](#pim-cost-based)
 
-### PIM= Hour-Based
+### PIM= Hour-Based {#pim-hour-based}
 
-* [Simple example: project has no children tasks](#simple) 
-* [Complicated example: project has children tasks](#complica)
+* [Simple example: project has no children tasks](#simple-example-project-has-no-children-tasks) 
+* [Complicated example: project has children tasks](#complicated-example-project-has-children-tasks)
 
-#### **Simple example: project has no children tasks**
+#### **Simple example: project has no children tasks** {#simple-example-project-has-no-children-tasks}
 
 PIM = Hour-Based
 
@@ -101,7 +101,7 @@ EAC Method = Roll up from tasks/subtasks
    **EAC for Project** = 125 + 83.33 + 62.5  
    **EAC for Project** = 270.83 hrs
 
-#### **Complicated example: project has children tasks**
+#### **Complicated example: project has children tasks** {#complicated-example-project-has-children-tasks}
 
 PIM = Hour-Based
 
@@ -250,11 +250,11 @@ EAC Method = Roll up from tasks/ subtasks
    **EAC for project** = 95 + 16.67  
    **EAC for project** = 111.67 hrs
 
-### PIM= Cost-Based
+### PIM= Cost-Based {#pim-cost-based}
 
-* [Simple example: project has no children tasks](#simple2)
+* [Simple example: project has no children tasks](#simple-example-project-has-no-children-tasks)
 
-#### **Simple example: project has no children tasks**
+#### **Simple example: project has no children tasks** {#simple-example-project-has-no-children-tasks-1}
 
 PIM = Cost-Based
 

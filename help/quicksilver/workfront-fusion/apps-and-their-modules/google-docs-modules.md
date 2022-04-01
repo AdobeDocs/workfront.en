@@ -73,19 +73,19 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Document
 
-* [Watch Documents](#watch) 
-* [List Documents](#list) 
-* [Get Content of a Document](#get) 
-* [Create a Document](#create) 
-* [Create a Document From a Template](#create2) 
-* [Insert a Paragraph to a Document](#insert) 
-* [Insert an Image to a Document](#insert2) 
-* [Replace an Image with a New Image](#replace) 
-* [Replace an Image with a New Image](#replace) 
-* [Download a Document](#download) 
-* [Delete a Document](#delete)
+* [Watch Documents](#watch-documents) 
+* [List Documents](#list-documents) 
+* [Get Content of a Document](#get-content-of-a-document) 
+* [Create a Document](#create-a-document) 
+* [Create a Document From a Template](#create-a-document-from-a-template) 
+* [Insert a Paragraph to a Document](#insert-a-paragraph-to-a-document) 
+* [Insert an Image to a Document](#insert-an-image-to-a-document) 
+* [Replace an Image with a New Image](#replace-an-image-with-a-new-image) 
+* [Replace an Image with a New Image](#replace-an-image-with-a-new-image) 
+* [Download a Document](#download-a-document) 
+* [Delete a Document](#delete-a-document)
 
-#### Watch Documents
+#### Watch Documents {#watch-documents}
 
 This trigger module returns document details when a new document is created or modified in the selected folder.
 
@@ -117,7 +117,7 @@ This trigger module returns document details when a new document is created or m
  </tbody> 
 </table>
 
-#### List Documents
+#### List Documents {#list-documents}
 
 This action module retrieves a list of documents from the selected folder.
 
@@ -145,7 +145,7 @@ This action module retrieves a list of documents from the selected folder.
  </tbody> 
 </table>
 
-#### Get Content of a Document
+#### Get Content of a Document {#get-content-of-a-document}
 
 This action module retrieves a specified document.
 
@@ -184,7 +184,7 @@ You may need to extend your permissions.
  </tbody> 
 </table>
 
-#### Create a Document
+#### Create a Document {#create-a-document}
 
 This action module allows you to create a new document in the selected folder.
 
@@ -224,7 +224,7 @@ This action module allows you to create a new document in the selected folder.
  </tbody> 
 </table>
 
-#### Create a Document From a Template
+#### Create a Document From a Template {#create-a-document-from-a-template}
 
 This action module creates a copy of an existing template document and replaces any tags. This module also allows users to replace images with new images by URL.
 
@@ -286,7 +286,7 @@ This action module creates a copy of an existing template document and replaces 
  </tbody> 
 </table>
 
-#### Insert a Paragraph to a Document
+#### Insert a Paragraph to a Document {#insert-a-paragraph-to-a-document}
 
 This action module appends or inserts a new paragraph to an existing document.
 
@@ -341,7 +341,7 @@ This action module appends or inserts a new paragraph to an existing document.
  </tbody> 
 </table>
 
-#### Insert an Image to a Document
+#### Insert an Image to a Document {#insert-an-image-to-a-document}
 
 This action module inserts an image from the URL to the document.
 
@@ -396,7 +396,7 @@ This action module inserts an image from the URL to the document.
  </tbody> 
 </table>
 
-#### Replace an Image with a New Image
+#### Replace an Image with a New Image {#replace-an-image-with-a-new-image}
 
 This action module replaces an existing image. The aspect ratio of the original image will be maintained.
 
@@ -472,7 +472,7 @@ This action module replaces text in a document.
  </tbody> 
 </table>
 
-#### Download a Document
+#### Download a Document {#download-a-document}
 
 This action module converts and downloads the selected document.
 
@@ -500,7 +500,7 @@ This action module converts and downloads the selected document.
  </tbody> 
 </table>
 
-#### Delete a Document
+#### Delete a Document {#delete-a-document}
 
 This action module deletes a document.
 
@@ -534,10 +534,10 @@ This action module deletes a document.
 
 ### Other
 
-* [Make an API Call](#make2) 
-* [Make All Links in a Document Clickable](#make)
+* [Make an API Call](#make-an-api-call) 
+* [Make All Links in a Document Clickable](#make-all-links-in-a-document-clickable)
 
-#### Make an API Call
+#### Make an API Call {#make-an-api-call}
 
 This action module allows you to perform a custom API call.
 
@@ -591,7 +591,7 @@ Details of the retrieved document can be found in the module's Output under Bund
 
 ![](assets/api-output.png)
 
-#### Make All Links in a Document Clickable
+#### Make All Links in a Document Clickable {#make-all-links-in-a-document-clickable}
 
 This action module finds all links in the document and makes them clickable.
 

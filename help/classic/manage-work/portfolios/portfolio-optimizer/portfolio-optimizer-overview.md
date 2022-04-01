@@ -36,8 +36,8 @@ For information about locating the Portfolio Optimizer, see [Locate the Portfoli
 
 ## Finances in the Portfolio Optimizer
 
-* [The financial areas in the Portfolio Optimizer](#financial-areas) 
-* [The financial fields in the Portfolio Optimizer](#financial-fieds-subsection)
+* [The financial areas in the Portfolio Optimizer](#the-financial-areas-in-the-portfolio-optimizer) 
+* [The financial fields in the Portfolio Optimizer](#the-financial-fields-in-the-portfolio-optimizer)
 
 You can see the financial state of your portfolio at any time during the life of your projects when using the Portfolio Optimizer.
 
@@ -50,7 +50,7 @@ Consider the following when working with finances in the Portfolio Optimizer:
 * The financial calculations for the Portfolio Optimizer use the Budgeted Cost in the Business Case of the project.
 * You can manually prioritize your projects in the Portfolio Optimizer, taking into account all the information about them. This includes financial data, alignment to their scorecards, ROI, for example.
 
-### The financial areas in the Portfolio Optimizer
+### The financial areas in the Portfolio Optimizer {#the-financial-areas-in-the-portfolio-optimizer}
 
 You can view financial information in the following areas of the Portfolio Optimizer:
 
@@ -59,15 +59,15 @@ You can view financial information in the following areas of the Portfolio Optim
 * **Projects Finances**: This area displays the financial information of each project listed in the Portfolio Optimizer.  
   ![New_Optimizer_with_Financial_Callouts.png](assets/new-optimizer-with-financial-callouts-350x141.png)
 
-### The financial fields in the Portfolio Optimizer
+### The financial fields in the Portfolio Optimizer  {#the-financial-fields-in-the-portfolio-optimizer}
 
 The following financial fields display in the Portfolio Optimizer:
 
-* [Portfolio header](#portfoli) 
-* [Portfolio finances for selected projects](#portfoli2)<![CDATA[   ]]>
+* [Portfolio header](#portfolio-header) 
+* [Portfolio finances for selected projects](#portfolio-finances-for-selected-projects)<![CDATA[   ]]>
 *
 
-#### **Portfolio header**
+#### **Portfolio header** {#portfolio-header}
 
 Adobe Workfront calculates the financial fields in the portfolio header using information from projects with statuses that equate only with Approved or Current.
 
@@ -114,7 +114,7 @@ Adobe Workfront calculates the financial fields in the portfolio header using in
  </tbody> 
 </table>
 
-#### Portfolio finances for selected projects
+#### Portfolio finances for selected projects {#portfolio-finances-for-selected-projects}
 
 <table cellspacing="15"> 
  <col> 

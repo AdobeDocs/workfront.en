@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Overview of built-in reports
+## Overview of built-in reports {#overview-of-built-in-reports}
 
 You can customize a built-in report and save it as a new report. For more information about customizing built-in reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -359,5 +359,5 @@ The following reports come with the Workfront package. The reports are available
 
 1. Click **Save Filter**.  
    The reports list displays only built-in reports.  
-   For more information about what built-in reports are available, see [Overview of built-in reports](#understanding-built-in-reports).
+   For more information about what built-in reports are available, see [Overview of built-in reports](#overview-of-built-in-reports).
 

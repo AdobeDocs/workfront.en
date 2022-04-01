@@ -54,7 +54,7 @@ You must have the following access to use the functionality in this article:
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Connection Error
+## Connection Error {#connection-error}
 
 <pre>ConnectionError</pre>Connection error is one of the most common errors usually caused by unavailability of the third-party service for various reasons (overloading, maintenance, outage,and so on). The default handling of this error depends on which module it was encountered on:
 
@@ -122,7 +122,7 @@ If this error occurs, the execution of a scenario is stopped immediately. The re
 RateLimitError
 ```
 
-If a limit set by a given service is exceeded, a rate limit error is generated. If this error happens, Workfront Fusion proceeds in the same way as it does for the Connection Error. For more information, see [Connection Error](#connecti) in the article [Error processing](#).
+If a limit set by a given service is exceeded, a rate limit error is generated. If this error happens, Workfront Fusion proceeds in the same way as it does for the Connection Error. For more information, see [Connection Error](#connection-error) in the article [Error processing](#).
 
 <!--
 <p class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="autonumber"><span><b>Example: </b></span></span>You will encounter this error if you try to send more than 1000 tweets within 24 hours. If this happens, wait until the limitation resets within the time frame.</p>

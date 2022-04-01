@@ -6,18 +6,18 @@ As of March 31, 2022, Workfront will no longer support Adobe Workfront Classic. 
 
 | Goal |Deadline |Details  |
 |---|---|---|
-| Test the new Adobe Workfront experiencein your own account |As soon as possible |See [Test the new Workfront experience in your own account](#test2). |
-| 30% of your organization's users are using the the new Adobe Workfront experience |Mid-January 2022 |See [Aim for 30% adoption by mid-January 2022](#aim). |
+| Test the new Adobe Workfront experiencein your own account |As soon as possible |See [Test the new Workfront experience in your own account](#test-the-new-workfront-experience-in-your-own-account). |
+| 30% of your organization's users are using the the new Adobe Workfront experience |Mid-January 2022 |See [Aim for 30% adoption by mid-January 2022](#aim-for-30-adoption-by-mid-january-2022). |
 | 100% of your organization's users are using the new Adobe Workfront experience |March 31, 2022 |Workfront Classic will not be supported after this date. |
 
 ## Test your organization's readiness for the new Adobe Workfront experience
 
 These tests allow you to identify possible network or configuration issues in your organization that may affect performance in the new Workfront experience.
 
-* [Test the new Workfront experience in your own account](#test2) 
-* [Aim for 30% adoption by mid-January 2022](#aim)
+* [Test the new Workfront experience in your own account](#test-the-new-workfront-experience-in-your-own-account) 
+* [Aim for 30% adoption by mid-January 2022](#aim-for-30-adoption-by-mid-january-2022)
 
-### Test the new Workfront experience in your own account
+### Test the new Workfront experience in your own account {#test-the-new-workfront-experience-in-your-own-account}
 
 As the Workfront administrator, you can test the new Workfront experience in your own account.
 
@@ -56,19 +56,19 @@ To identify possible configuration changes needed for your transition:
    >
    >Log in to Workfront Classic as a different user in another window for easy comparison.
 
-If you notice that some areas load significantly more slowly than in Workfront Classic, continue to [Troubleshoot common connection and performance issues](#troubles).
+If you notice that some areas load significantly more slowly than in Workfront Classic, continue to [Troubleshoot common connection and performance issues](#troubleshoot-common-connection-and-performance-issues).
 
 If the performance is largely the same between Workfront Classic and the new Adobe Workfront experience, then you can begin enrolling users in the new Adobe Workfront experience on a larger scale.
 
-### Aim for 30% adoption by mid-January 2022
+### Aim for 30% adoption by mid-January 2022 {#aim-for-30-adoption-by-mid-january-2022}
 
 Because your own account might not reflect how others in your organization use Workfront, we highly recommend that you enroll at least 30% of your organization's users into the new Workfront experience by the middle of January 2022. These users will be able to identify any issues with your organization's transition early enough that your IT department can address those issues well before March 31, when Workfront Classic is longer supported.
 
-If your users notice that some areas load significantly more slowly than in Workfront Classic, continue to [Troubleshoot common connection and performance issues](#troubles).
+If your users notice that some areas load significantly more slowly than in Workfront Classic, continue to [Troubleshoot common connection and performance issues](#troubleshoot-common-connection-and-performance-issues).
 
 If the performance is largely the same between Workfront Classic and the new Adobe Workfront experience, then you can move the rest of your users to the new experience. All users must be enrolled in the new Workfront experience by March 31, 2022.
 
-## Troubleshoot common connection and performance issues
+## Troubleshoot common connection and performance issues {#troubleshoot-common-connection-and-performance-issues}
 
 Frequently, slower performance in Workfront is caused by issues in your organization's setup that Workfront cannot address. If you are noticing lag or slow loading in Workfront, check for the following issues.
 
@@ -78,35 +78,35 @@ Frequently, slower performance in Workfront is caused by issues in your organiza
 >
 >For information on contacting customer support, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
 
-* [Common connection issues](#common) 
-* [Other performance issues](#other)
+* [Common connection issues](#common-connection-issues) 
+* [Other performance issues](#other-performance-issues)
 
-### Common connection issues
+### Common connection issues {#common-connection-issues}
 
-* [Your local connection](#your) 
+* [Your local connection](#your-local-connection) 
 * [VPN](#vpn) 
-* [Web Proxy](#web) 
+* [Web Proxy](#web-proxy) 
 * [Firewall](#firewall)
 
-#### Your local connection
+#### Your local connection {#your-local-connection}
 
 If you are working from your home or another public location, your internet connection might be unreliable. Running a speed test can help you identify if your internet connection is having difficulties. If your internet speeds are low, consider checking your WIFI setup.
 
 Similarly, if you are working in an office and are experiencing slow performance, try working from home or another location. If performance is better at home, work with your IT&nbsp;department to identify and address the cause of the slow performance in the office.
 
-#### VPN
+#### VPN {#vpn}
 
 Your organization might use a VPN (Virtual Private Network). VPNs allow users to connect to a private network over a public network, that is, from the outside of the private network. For example, if a user is working remotely, they might need to log in to a VPN to access data stored on the organization's private network. A VPN can affect data flow between your organization and Workfront.
 
 Try disabling or logging out of your VPN. If performance improves while the VPN is disabled, work with your IT department to address the issue.
 
-#### Web Proxy
+#### Web Proxy {#web-proxy}
 
 Your organization might use a web proxy, also known as a proxy server. This proxy is a server that stands between your organization and the public web. Your organization communicates with the proxy, and the proxy communicates with the web. Your web proxy can affect data flow between your organization and Workfront.
 
 Your network administrator or IT&nbsp;department can address issues with your web proxy.
 
-#### Firewall
+#### Firewall {#firewall}
 
 Your firewall is a security barrier between your organization's network and the public web. Firewalls maintain network security by only allowing data from trusted sources to pass into or out of the network.
 
@@ -114,7 +114,7 @@ Work with your network administrator or IT department to make sure your firewall
 
 For more information on how firewalls work with Workfront, including instructions for updating your firewall, see [Firewall overview](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
-### Other performance issues
+### Other performance issues {#other-performance-issues}
 
 #### Your organization's Workfront settings
 

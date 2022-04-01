@@ -118,8 +118,8 @@ valueexpression
 
 .
 
-* [Valuefield syntax overview for views and groupings](#valuefie) 
-* [Valueexpression syntax overview for views and groupings](#valueexp)
+* [Valuefield syntax overview for views and groupings](#valuefield-syntax-overview-for-views-and-groupings) 
+* [Valueexpression syntax overview for views and groupings](#valueexpression-syntax-overview-for-views-and-groupings)
 
 ``` ```**Tip: **``````
 
@@ -147,7 +147,7 @@ valueexpression
 Valuefield
 ```
 
-syntax overview for views and groupings
+syntax overview for views and groupings {#valuefield-syntax-overview-for-views-and-groupings}
 
 ```
 Valuefield=
@@ -199,7 +199,7 @@ line:
 Valueexpression
 ```
 
-syntax overview for views and groupings
+syntax overview for views and groupings {#valueexpression-syntax-overview-for-views-and-groupings}
 
 You can replace the 
 

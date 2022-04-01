@@ -48,7 +48,7 @@ You can brand the following areas of Workfront Proof:
 * [Welcome Box](#welcome-box) 
 * [Section Headers](#section-headers)
 
-### Web Application
+### Web Application {#web-application}
 
 ![Web_branding_image.png](assets/web-branding-image-350x181.png)
 
@@ -62,7 +62,7 @@ Branding image - resizes to a maximum size of&nbsp;550x90px. You can use JPGs, G
 
 Account name - taken from your account details and displayed using&nbsp;white font. Your account name can have up to 60 characters (including spaces and punctuation marks).
 
-### Header
+### Header {#header}
 
 In this field (3)&nbsp;you can set the header's background and you can choose a solid color or a background image.
 
@@ -76,12 +76,12 @@ Background image - can be combined together with the Branding image.
 * Header's height is 96px and the uploaded image will not be resized for the No repeat option.
 * Background image is positioned to the top left.
 
-### Header Links
+### Header Links {#header-links}
 
 In this field (4) you can modify the user name color and color of the links in the Header menu visible in the top right corner of your account.  
 ![Header_links.png](assets/header-links-350x140.png)
 
-### Sidebar
+### Sidebar {#sidebar}
 
 Choose colors for the Menu bar (5) and Menu font (6) to customize your Sidebar
 
@@ -93,12 +93,12 @@ Choose colors for the Menu bar (5) and Menu font (6) to customize your Sidebar
 
 The New proof button color cannot be customized.
 
-### Welcome Box
+### Welcome Box {#welcome-box}
 
 In this field (7)&nbsp;you can set the Welcome box color that is displayed on the Dashboard page.  
 ![Welcome_box.png](assets/welcome-box-350x110.png)
 
-### Section Headers
+### Section Headers {#section-headers}
 
 These fields allow you to customize the&nbsp;background (8) and the font color (9) of the section headers on the [Account Settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) pages.  
 ![Section_headers.png](assets/section-headers-350x138.png)

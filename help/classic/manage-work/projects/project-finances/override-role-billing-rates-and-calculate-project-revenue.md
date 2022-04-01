@@ -142,20 +142,20 @@ After you have specified the override billing rates for the job roles associated
 Notice the following information in the list of **Billing Rates**:
 
 * [Job Role Grouping](#job-role-grouping) 
-* [Project Billing Rate value](#project-billing-rate) 
-* [Default Billing Rate value](#default-billing-rate) 
-* [Company Billing Rate value](#company-billing-rate) 
-* [Multiple Billing Rate values and timeframes](#multiple-billing-rates)
+* [Project Billing Rate value](#project-billing-rate-value) 
+* [Default Billing Rate value](#default-billing-rate-value) 
+* [Company Billing Rate value](#company-billing-rate-value) 
+* [Multiple Billing Rate values and timeframes](#multiple-billing-rate-values-and-timeframes)
 
-### Job Role Grouping
+### Job Role Grouping {#job-role-grouping}
 
 Billing rates are grouped in the **Billing Rates** area by their respective job roles.
 
-### Project Billing Rate value
+### Project Billing Rate value {#project-billing-rate-value}
 
 In the grouping line corresponding to a job role, notice the billing rate for that job role at the project level in the **Project Billing Rate** column. If the job role has multiple override rates, the override rate corresponding to the current date is displayed in the grouping line in the **Project Billing Rate** column.
 
-### Default Billing Rate value
+### Default Billing Rate value {#default-billing-rate-value}
 
 In the grouping line of a job role, notice the billing rate for that job role at the system level in the **Default Billing Rate** column.
 
@@ -163,7 +163,7 @@ In the grouping line of a job role, notice the billing rate for that job role at
 >
 >If there are project billing rates for a job role, the **Default Billing Rate** is never applied to calculating Revenue for the project. Only the **Project Billing Rates** are applied to calculate Revenue.
 
-### Company Billing Rate value
+### Company Billing Rate value {#company-billing-rate-value}
 
 In the grouping line of a job role, notice the billing rate for that job role at the company level in the **Company Billing Rate** column. This means that there is a company associated with this project, and this job role has a different billing rate for that company. The billing rate for the company displays, even if it is the same as the project rate.
 
@@ -171,7 +171,7 @@ In the grouping line of a job role, notice the billing rate for that job role at
 >
 >If there are project billing rates for a job role, the **Company Billing Rate** is never applied to calculating revenue for the project. Only the **Project Billing Rates** are applied to calculate revenue.
 
-### Multiple Billing Rate values and timeframes
+### Multiple Billing Rate values and timeframes {#multiple-billing-rate-values-and-timeframes}
 
 If you have multiple override billing rates for a specific job role, they are listed under the grouping for that job role. Using inline editing, you can change the override rates and the **Start** **Date** and **End Date** of the override billing rates on this tab.
 
@@ -183,11 +183,11 @@ If you have multiple override billing rates for a specific job role, they are li
 
 ## Calculate Planned Revenue
 
-* [Calculate Planned Revenue based on a one-time Billing Rate override](#calculate-planned-revenue-for-one-billing-rate-override) 
-* [Calculate Planned Revenue based on multiple Billing Rate overrides](#calculate-planned-revenue-for-multiple-billing-rate-overrides) 
-* [Distribution of Planned Hours across the Duration of a task](#understanding-the-distribution-of-planned-hours-across-the-duration-of-the-task)
+* [Calculate Planned Revenue based on a one-time Billing Rate override](#calculate-planned-revenue-based-on-a-one-time-billing-rate-override) 
+* [Calculate Planned Revenue based on multiple Billing Rate overrides](#calculate-planned-revenue-based-on-multiple-billing-rate-overrides) 
+* [Distribution of Planned Hours across the Duration of a task](#distribution-of-planned-hours-across-the-duration-of-a-task)
 
-### Calculate Planned Revenue based on a one-time Billing Rate override
+### Calculate Planned Revenue based on a one-time Billing Rate override {#calculate-planned-revenue-based-on-a-one-time-billing-rate-override}
 
 Consider the following when calculating Planned Revenue based on a one-time Billing rate override:
 
@@ -202,7 +202,7 @@ Consider the following when calculating Planned Revenue based on a one-time Bill
 
 For more information about which job role is used to calculate Planned Revenue, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-### Calculate Planned Revenue based on multiple Billing Rate overrides
+### Calculate Planned Revenue based on multiple Billing Rate overrides {#calculate-planned-revenue-based-on-multiple-billing-rate-overrides}
 
 Consider the following when calculating Planned Revenue based on multiple Billing Rate overrides:
 
@@ -220,13 +220,13 @@ Consider the following when calculating Planned Revenue based on multiple Billin
   Planned Revenue = (Rate 1) * (Planned Hours for Day 1) + (Rate 1) * (Planned hours for Day 2) + (Rate 2) * (Planned hours for Day 3) + (Rate 2) * (Planned hours for Day 4) + (Rate 2) * (Planned hours for Day 5)
   ```
 
-For more information about finding the Planned Hours per Day amount in Workfront, see the section [Distribution of Planned Hours across the Duration of a task](#understanding-the-distribution-of-planned-hours-across-the-duration-of-the-task) in this article.
+For more information about finding the Planned Hours per Day amount in Workfront, see the section [Distribution of Planned Hours across the Duration of a task](#distribution-of-planned-hours-across-the-duration-of-a-task) in this article.
 
 >[!NOTE]
 >
 >If you have multiple assignees on the task, the amount of Planned Hours is first distributed to each assignee, and then to each day during the duration of the task. In this case, the Planned Revenue will calculate taking into account the amount of daily hours for each assignee and the billing rate of each job role which could change during the duration of the task, in case of multiple billing rates.
 
-### Distribution of Planned Hours across the Duration of a task
+### Distribution of Planned Hours across the Duration of a task {#distribution-of-planned-hours-across-the-duration-of-a-task}
 
 Consider the following when understanding the distribution of Planned Hours across the Duration of a task:
 
@@ -247,10 +247,10 @@ Consider the following when understanding the distribution of Planned Hours acro
 
 ## Calculate Actual Revenue
 
-* [Calculate Actual Revenue based on a one-time Billing Rate override](#calculate-actual-revenue-based-on-one-billing-rate-override) 
-* [Calculate Actual Revenue based on multiple Billing Rate overrides](#calculate-actual-revenue-for-multiple-billing-rate-overrides)
+* [Calculate Actual Revenue based on a one-time Billing Rate override](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override) 
+* [Calculate Actual Revenue based on multiple Billing Rate overrides](#calculate-actual-revenue-based-on-multiple-billing-rate-overrides)
 
-### Calculate Actual Revenue based on a one-time Billing Rate override
+### Calculate Actual Revenue based on a one-time Billing Rate override {#calculate-actual-revenue-based-on-a-one-time-billing-rate-override}
 
 Consider the following when calculating Actual Revenue based on a one-time Billing Rate override:
 
@@ -267,7 +267,7 @@ Consider the following when calculating Actual Revenue based on a one-time Billi
 >If you want to keep the hours that you have already logged on the project before you overrode the original billing rate billed at the original rate, you must include them into a **Billing Record**, and you must mark the **Billing Record** as **Billed**. Otherwise, the **Actual Revenue** from the hours logged before the billing rate was overridden for the project will recalculate using the new rate when the finances of the projects are recalculated.   
 >For more information about including hours in a billing record and marking it as **Billed**, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-### Calculate Actual Revenue based on multiple Billing Rate overrides
+### Calculate Actual Revenue based on multiple Billing Rate overrides {#calculate-actual-revenue-based-on-multiple-billing-rate-overrides}
 
 Consider the following when calculating Actual Revenue based on multiple Billing Rate overrides:
 
@@ -296,10 +296,10 @@ Users can see different Planned Hours per Day from other users, if time zone dif
 
 In these cases, the number of Planned Hours per Day might be different between two users who do not share the same settings for time zones. They will also see different Planned Revenue numbers when using multiple billing rate overrides on a project.
 
-* [Calculate Planned Revenue for users in different Time Zones](#impact-of-timezones-on-planned-revenue) 
-* [Calculate Actual Revenue for users in different Time Zones](#impact-of-timezones-on-actual-revenue)
+* [Calculate Planned Revenue for users in different Time Zones](#calculate-planned-revenue-for-users-in-different-time-zones) 
+* [Calculate Actual Revenue for users in different Time Zones](#calculate-actual-revenue-for-users-in-different-time-zones)
 
-### Calculate Planned Revenue for users in different Time Zones
+### Calculate Planned Revenue for users in different Time Zones {#calculate-planned-revenue-for-users-in-different-time-zones}
 
 >[!NOTE]
 >
@@ -320,7 +320,7 @@ Consider the following when calculating Planned Revenue for users in different T
 * The accurate **Planned Revenue** amount is the one seen by the user who has the same time zone as the Time Zone of your Workfront instance. Your Workfront administrator defines the Workfront Time Zone in the System Customer Info area.  
   For more information about defining the Time Zone for your system, see the article [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-### Calculate Actual Revenue for users in different Time Zones
+### Calculate Actual Revenue for users in different Time Zones {#calculate-actual-revenue-for-users-in-different-time-zones}
 
 Consider the following when calculating Actual Revenue for users in different Time Zones:
 

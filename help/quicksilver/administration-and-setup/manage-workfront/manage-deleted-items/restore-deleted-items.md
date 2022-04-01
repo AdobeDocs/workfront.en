@@ -134,9 +134,9 @@ When you restore a project, task, or issue, the following associated information
 1. Click **Restore** to restore the selected items to their original location.
 1. (Optional) To quickly view the restored item, follow the steps in [View restored items](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-   For more information about what happens after you restore an item, see [What happens after you restore items](#what-happens-after-restoring-items) in this article.
+   For more information about what happens after you restore an item, see [What happens after you restore items](#what-happens-after-you-restore-items) in this article.
 
-## What happens after you restore items
+## What happens after you restore items {#what-happens-after-you-restore-items}
 
 * When you restore tasks and subtasks, they appear in the order they had prior to being deleted.
 

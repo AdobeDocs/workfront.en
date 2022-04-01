@@ -58,9 +58,9 @@ You can still access the legacy Working On Calendar, as described in .
 The scheduling timeline includes the following enhancements:
 
 * [Use the Filter to Control Which Users Are Displayed on the Scheduling Timeline](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline) 
-* [Users Remain on the Timeline after Being Assigned a Task](#users-remain-on-the-scheduling-timeline-after-being-assigned-a-task)
+* [Users Remain on the Timeline after Being Assigned a Task](#users-remain-on-the-timeline-after-being-assigned-a-task)
 
-### Use the Filter to Control Which Users Are Displayed on the Scheduling Timeline
+### Use the Filter to Control Which Users Are Displayed on the Scheduling Timeline {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
 
 The filter can now be used to control which users are displayed on the scheduling timeline, in addition to which tasks and issues are displayed in the Unassigned area. When users are selected in the filter, only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area. All tasks currently assigned to that user are also displayed.
 
@@ -68,7 +68,7 @@ Prior to this change, the filter controlled only which tasks and issues were dis
 
 For more information about using the filter to control what is displayed on the scheduling timeline, see&nbsp; [Filter information in the Scheduling area](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md), and&nbsp; [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-### Users Remain on the Timeline after Being Assigned a Task
+### Users Remain on the Timeline after Being Assigned a Task {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
 Users remain on the scheduling timeline after they are assigned a task or issue, even if there are no remaining tasks or issues that have a matching role assignment. This allows you to make any necessary changes after users&nbsp;are assigned.
 

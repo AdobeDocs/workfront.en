@@ -149,7 +149,7 @@ To approve work directly from a project, task, or issue:
    ![](assets/approval-approve-document-350x215.png)  
    ![](assets/document-approval-350x199.png)  
 
-1. (Optional) If a proof has been generated for the document, you can approve the document within the proofing interface, as described in [Approve a document from a proof](#approving-a-document-from-a-proof).
+1. (Optional) If a proof has been generated for the document, you can approve the document within the proofing interface, as described in [Approve a document from a proof](#approve-a-document-from-a-proof).
 
 ## Approve a document from an approval notification email
 
@@ -169,6 +169,6 @@ Depending on your notification settings, you may receive emails notifying you ab
 
 1. Click a **Decision** option in the  upper right corner  to approve, approve with changes, or reject the document.
 
-## Approve a document from a proof
+## Approve a document from a proof {#approve-a-document-from-a-proof}
 
 You can approve a document within the proofing viewer. For more information, see [Make a decision on a proof in the proofing viewer](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) in the article [Make a decision on a proof in the proofing viewer](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).

@@ -82,9 +82,9 @@ You can move one or multiple issues from a list of issues or from an issue repor
 
    ![](assets/ci3-350x203.png)
 
-1. Continue moving the issue as described in the section [Move a single issue](#copy5) in this article, starting with Step 3.
+1. Continue moving the issue as described in the section [Move a single issue](#move-a-single-issue) in this article, starting with Step 3.
 
-## Move a single issue
+## Move a single issue {#move-a-single-issue}
 
 You can move one issue when viewing it.
 

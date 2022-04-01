@@ -18,7 +18,7 @@ It is important to define your system FTE, as well as the FTE values for your us
 
 For more information about how FTE is calculated in the Resource Planning tools, see [Overview of calculating hours and FTE for users and roles in the Resource Planner](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-## Overview of the system-level FTE
+## Overview of the system-level FTE {#overview-of-the-system-level-fte}
 
 As a System Administrator, you can configure your system FTE. You&nbsp;can define the amount of hours in a day and the amount of days in a week that represents the amount of time dedicated to real work in your organization. This is configured in Project Preferences in Setup.
 
@@ -54,14 +54,14 @@ However, some users might work a part time schedule, in which case, they should&
 
 For more information about defining your Project Preferences, see&nbsp; [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-For more information about the system FTE and how to configure it, see&nbsp; [Overview of the system-level FTE](#system-fte).
+For more information about the system FTE and how to configure it, see&nbsp; [Overview of the system-level FTE](#overview-of-the-system-level-fte).
 
 ## Overview of the FTE of&nbsp;a job role
 
-* [Assign FTE to a job role through the user's Primary Role](#fte-of-a-primary-job-role) 
-* [Assign FTE to a job role using the Resource Budget Manager](#configure-fte-with-resource-budget-manager)
+* [Assign FTE to a job role through the user's Primary Role](#assign-fte-to-a-job-role-through-the-user-s-primary-role) 
+* [Assign FTE to a job role using the Resource Budget Manager](#assign-fte-to-a-job-role-using-the-resource-budget-manager)
 
-### Assign FTE to a job role through the user's Primary Role
+### Assign FTE to a job role through the user's Primary Role {#assign-fte-to-a-job-role-through-the-user-s-primary-role}
 
 The following are two&nbsp;of the pre-requisites of Resource Management:
 
@@ -72,7 +72,7 @@ For more information about associating a user with a job role, see [Edit a user'
 
 When you associate a user with an FTE value and a primary job role, the job role is automatically associated with that FTE of the user in the Resource Management tools (Resource Budget Manager and Capacity Planner).&nbsp;
 
-### Assign FTE to a job role using the Resource Budget Manager
+### Assign FTE to a job role using the Resource Budget Manager {#assign-fte-to-a-job-role-using-the-resource-budget-manager}
 
 If you associate a user with multiple job roles, only their primary job role FTE&nbsp;appears in the Resource Budget Manager by default. If you want their secondary job roles to have FTE values in the Resource Management Tools (Resource Budget Manager and Capacity Planner), you will have to manually configure&nbsp;the allocation for each&nbsp;secondary role using the Resource Budget Manager.
 

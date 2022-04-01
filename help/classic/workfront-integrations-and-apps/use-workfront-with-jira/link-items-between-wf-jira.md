@@ -53,7 +53,7 @@ Before you can link items between Workfront and Jira, you must
 
   For instructions on configuring Workfront for Jira, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
-## Automatically link Workfront items to Jira issues
+## Automatically link Workfront items to Jira issues {#automatically-link-workfront-items-to-jira-issues}
 
 As a Workfront administrator, you can define triggers that can automatically create an issue in Jira every time certain conditions are met on a task or an issue in Workfront. The Workfront and Jira items become linked.
 
@@ -117,7 +117,7 @@ You cannot manually link a Workfront item from Workfront to an existing Jira ite
 >[!NOTE]
 >
 >If the Jira issue is not on a project which is not identified as a trigger in the Workfront Integration you cannot manually link it to a Workfront item when using the integration with Jira On-Premise.&nbsp;&nbsp;  
->For more information about setting up triggers for the Workfront to Jira workflow, see [Automatically link Workfront items to Jira issues](#automatically-linking).
+>For more information about setting up triggers for the Workfront to Jira workflow, see [Automatically link Workfront items to Jira issues](#automatically-link-workfront-items-to-jira-issues).
 
 When Workfront and Jira items are linked, certain fields from one item can be automatically updated on the other.  
 For more information about updating linked items, see [Update linked items between Jira and Adobe Workfront](../../workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md).

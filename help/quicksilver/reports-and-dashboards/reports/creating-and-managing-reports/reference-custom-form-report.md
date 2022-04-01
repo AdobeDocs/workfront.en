@@ -78,11 +78,11 @@ You can reference information about custom forms, such as the name of any custom
 
 You can reference custom forms on Views, Filters, and Groupings:
 
-* [Reference custom forms in a report View (Column)](#referencing-custom-forms-in-a-report-view-(column)) 
-* [Reference custom forms in a report Filter](#referencing-custom-forms-in-a-report-filter) 
-* [Reference custom forms in a report Grouping](#referencing-custom-forms-in-a-report-grouping)
+* [Reference custom forms in a report View (Column)](#reference-custom-forms-in-a-report-view-column) 
+* [Reference custom forms in a report Filter](#reference-custom-forms-in-a-report-filter) 
+* [Reference custom forms in a report Grouping](#reference-custom-forms-in-a-report-grouping)
 
-### Reference custom forms in a report View (Column)
+### Reference custom forms in a report View (Column) {#reference-custom-forms-in-a-report-view-column}
 
 To display all custom forms associated with an object:
 
@@ -97,7 +97,7 @@ To display only the primary custom form associated with the object:
 1. On the **Columns** tab, expand the **Category** field source, then click the **Name** field name.  
    ![](assets/qs-category-name-column-2-350x248.png)
 
-### Reference custom forms in a report Filter
+### Reference custom forms in a report Filter {#reference-custom-forms-in-a-report-filter}
 
 To filter on all custom forms associated with the object type:
 
@@ -145,7 +145,7 @@ To filter only on the primary custom form associated with the object type:
 1. (Optional) Click **Add another Filter Rule**, then repeat steps 2-4 to create additional filter rules.
 1. Click **Save+Close**.
 
-### Reference custom forms in a report Grouping
+### Reference custom forms in a report Grouping {#reference-custom-forms-in-a-report-grouping}
 
 >[!NOTE]
 >

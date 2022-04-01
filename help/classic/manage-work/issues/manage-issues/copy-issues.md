@@ -86,9 +86,9 @@ You can copy one or multiple issues from a list of issues or from an issue repor
 
    ![](assets/ci3-350x203.png)
 
-1. Continue copying the issue as described in the section [Copy a single issue](#copy5) in this article, starting with Step 3.
+1. Continue copying the issue as described in the section [Copy a single issue](#copy-a-single-issue) in this article, starting with Step 3.
 
-## Copy a single issue
+## Copy a single issue {#copy-a-single-issue}
 
 You can copy one issue when viewing it.
 

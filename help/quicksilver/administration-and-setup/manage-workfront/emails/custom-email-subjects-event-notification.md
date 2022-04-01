@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Customize email subject lines for event notifications
+## Customize email subject lines for event notifications {#customize-email-subject-lines-for-event-notifications}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -76,7 +76,7 @@ If a user is included in a conversation on the task, issue, template task, or do
 
 If added to a project conversation&nbsp;an email with the second subject will generate. Here the subject line contains “topReferenceObject:name” and again Workfront identifies which object was referenced and will return that object name instead of “topReferenceObject:name” in the subject. The email subject line would look similar to this: "Comment on Project ABC."
 
-To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customizing-subjects) in this article.
+To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customize-email-subject-lines-for-event-notifications) in this article.
 
 ## Customize email subject lines for multi-action emails
 
@@ -86,5 +86,5 @@ For example, requesting a document to be added to an issue is an event that can 
 
 ![](assets/ev-not-mult-subj-lines-diff-actions---qs-350x161.png)
 
-To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customizing-subjects) in this article.  
+To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customize-email-subject-lines-for-event-notifications) in this article.  
 

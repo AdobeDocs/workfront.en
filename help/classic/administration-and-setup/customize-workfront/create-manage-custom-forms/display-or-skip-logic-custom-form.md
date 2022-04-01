@@ -58,7 +58,7 @@ You must have the following to perform the steps in this article:
    * You can create multi-field display logic statements. 
    * You can apply display rules to existing custom forms.
 
-## Create a sample custom form that has display logic
+## Create a sample custom form that has display logic {#create-a-sample-custom-form-that-has-display-logic}
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
@@ -89,13 +89,13 @@ You must have the following to perform the steps in this article:
 
 1. Click **Preview** to make sure the logic appears the way you want it on the form.
 1. Click **End Preview** when you find that the logic works as expected.
-1. Click **Save + Close** on the **Edit Custom Form** window to save the form, then continue on to [Skip logic on a custom form](#skip-logic)below.
+1. Click **Save + Close** on the **Edit Custom Form** window to save the form, then continue on to [Skip logic on a custom form](#skip-logic-on-a-custom-form)below.
 
-## Skip logic on a custom form
+## Skip logic on a custom form {#skip-logic-on-a-custom-form}
 
 Skip logic allows you determine which fields should be skipped, based on selections in the custom form. It functions similarly to display logic, but acts as the inverse: instead of making specific fields appear based on specific selections, you determine which fields should be skipped, based on selections.
 
-To learn about skip logic on custom forms, continue working on the sample custom form you created in the section [Create a sample custom form that has display logic](#display-logic) above:
+To learn about skip logic on custom forms, continue working on the sample custom form you created in the section [Create a sample custom form that has display logic](#create-a-sample-custom-form-that-has-display-logic) above:
 
 1. <![CDATA[          ]]>Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 

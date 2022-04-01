@@ -50,7 +50,7 @@ You must have the following to perform the steps in this article:
    >
    >Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
 
-1. (Optional) Create and add any new fields you need that have not yet been created for your organization, as explained in [Reuse an existing custom field](#create) in this article.
+1. (Optional) Create and add any new fields you need that have not yet been created for your organization, as explained in [Reuse an existing custom field](#Create) in this article.
 1. (Optional) To position fields on the same row, drag them next to each other until a line appears between them.
 
    When you drop the field where you want it, a gray outline box appears around the two fields, indicating that they share a row. If you drag a field until the blue line appears above or below another field, the fields do not share a row.
@@ -65,7 +65,7 @@ You must have the following to perform the steps in this article:
    >   
    >
 
-1. If you want to add a new custom field to the form, continue on to [Reuse an existing custom field](#create) in this article.
+1. If you want to add a new custom field to the form, continue on to [Reuse an existing custom field](#Create) in this article.
 
    Or
 

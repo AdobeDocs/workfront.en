@@ -43,9 +43,9 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## View comments on a timesheet
+## View comments on a timesheet {#view-comments-on-a-timesheet}
 
-You can configure comments that are made on individual&nbsp;hour entries to be displayed in the timesheet. The option to show and hide comments does not affect comments made on the overall timesheet or comments made on individual items. For more information, see&nbsp; [Make comments on a timesheet](#making-comments-on-a-timesheet).
+You can configure comments that are made on individual&nbsp;hour entries to be displayed in the timesheet. The option to show and hide comments does not affect comments made on the overall timesheet or comments made on individual items. For more information, see&nbsp; [Make comments on a timesheet](#make-comments-on-a-timesheet).
 
 By default, comments are hidden the first time you&nbsp;access a timesheet.
 
@@ -60,13 +60,13 @@ To show comments on a timesheet:
 
    ![timesheet_comment_displayed.png](assets/timesheet-comment-displayed-350x94.png)
 
-## Make comments on a timesheet
+## Make comments on a timesheet {#make-comments-on-a-timesheet}
 
-* [Comment on the overall timesheet](#commenting-on-an-overall-timesheet) 
-* [Comment on an individual hour entry in a timesheet](#commenting-on-an-individual-hour-entry-in-a-timesheet) 
-* [Comment on a work item in a timesheet](#comment)
+* [Comment on the overall timesheet](#comment-on-the-overall-timesheet) 
+* [Comment on an individual hour entry in a timesheet](#comment-on-an-individual-hour-entry-in-a-timesheet) 
+* [Comment on a work item in a timesheet](#comment-on-a-work-item-in-a-timesheet)
 
-### Comment on the overall timesheet
+### Comment on the overall timesheet {#comment-on-the-overall-timesheet}
 
 You can make general comments about the timesheet.
 
@@ -79,7 +79,7 @@ You can make general comments about the timesheet.
 
    Your comment is displayed in the **Recent Updates** area.
 
-### Comment on an individual hour entry in a timesheet
+### Comment on an individual hour entry in a timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
 1. Go to the timesheet where you want to make a comment.
 1. Click in the entry field where you want to make a comment.
@@ -96,9 +96,9 @@ You can make general comments about the timesheet.
 
    ![](assets/15.png)
 
-1. (Optional) To configure comments to be displayed in the timesheet, see [View comments on a timesheet](#viewing-comments-on-a-timesheet).
+1. (Optional) To configure comments to be displayed in the timesheet, see [View comments on a timesheet](#view-comments-on-a-timesheet).
 
-### Comment on a work item in a timesheet
+### Comment on a work item in a timesheet {#comment-on-a-work-item-in-a-timesheet}
 
 You can comment on individual items in the timesheet, update their Actual Start Date or Condition. The update displays in the Updates area of the object associated with the logged time.
 

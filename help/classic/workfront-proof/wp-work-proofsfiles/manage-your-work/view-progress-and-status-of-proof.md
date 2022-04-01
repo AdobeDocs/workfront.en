@@ -17,10 +17,10 @@ description: Proof progress indicates the work done on a proof from the time you
 
 Proof progress indicates the work done on a proof from the time you send the proof to reviewers to the time they make a decision on the proof.
 
-* [Progress Icons](#progress-icon-descriptions) 
+* [Progress Icons](#progress-icons) 
 * [Levels of Proof Progress](#levels-of-proof-progress)
 
-### Progress Icons
+### Progress Icons {#progress-icons}
 
 The progress icons, S, O, C, and D, appear in the progress bar indicate proof progress.
 
@@ -64,7 +64,7 @@ These icons can appear in the following colors to indicate certain information a
 * **Orange**.&nbsp;Not&nbsp;complete and deadline is less than 24 hours. 
 * **Red**. Not&nbsp;complete and past the deadline.
 
-### Levels of Proof Progress
+### Levels of Proof Progress {#levels-of-proof-progress}
 
 Workfront Proof uses the progress icons to track a proof's progress at each of the following levels:
 
@@ -95,16 +95,16 @@ If custom decisions are configured in your account, the status options reflect y
 
 The status of the proof is driven by the “worst case” participant. For example, suppose&nbsp;there are three&nbsp;decisions&nbsp;on the proof: two have the status of **Accepted**&nbsp;and one has the status of **Rejected**. The "worst case" decision of Rejected over-rules the other decisions and the overall status of the proof is shown as **Rejected**.&nbsp;
 
-## Viewing Progress and Status
+## Viewing Progress and Status {#viewing-progress-and-status}
 
 You can view progress and status for proofs, stages, and reviewers on each stage.
 
 * [Proof Summary](#proof-summary) 
 * [Stage Actions Menu](#stage-actions-menu) 
-* [In the Summary section, you can also access the reviewer actions menus, provided you have edit rights on the proof. For more information, see Proof Permissions Profiles in Workfront Proof and Manage Proof Roles in Workfront Proof. The Reviewer actions menu (1) appears when you hover over the Reviewer's details and allows you to:](#reviewer-actions-menu) 
+* [In the Summary section, you can also access the reviewer actions menus, provided you have edit rights on the proof. For more information, see Proof Permissions Profiles in Workfront Proof and Manage Proof Roles in Workfront Proof. The Reviewer actions menu (1) appears when you hover over the Reviewer's details and allows you to:](#in-the-summary-section-you-can-also-access-the-reviewer-actions-menus-provided-you-have-edit-rights-on-the-proof-for-more-information-see-proof-permissions-profiles-in-workfront-proof-and-manage-proof-roles-in-workfront-proof-the-reviewer-actions-menu-1-appears-when-you-hover-over-the-reviewer-s-details-and-allows-you-to) 
 * [Proof Actions Menu](#proof-actions-menu)
 
-### Proof Summary
+### Proof Summary {#proof-summary}
 
 Each proof in the folder has an expandable summary that lets you quickly view and edit the details of the proof.
 
@@ -141,7 +141,7 @@ In the summary, you can view and edit&nbsp;the following details of your proof:
 
 ![summary_details_3.png](assets/summary-details-3-350x160.png) 
 
-### Stage Actions Menu
+### Stage Actions Menu  {#stage-actions-menu}
 
 Every stage of your workflow has a separate menu, allowing you to perform bulk actions related to the reviewers in&nbsp;that stage.
 
@@ -171,7 +171,7 @@ In the Summary section, you can also access the reviewer actions menus, provided
 
 ![Reviewer_actions_menu.png](assets/reviewer-actions-menu-350x135.png) 
 
-### Proof Actions Menu
+### Proof Actions Menu {#proof-actions-menu}
 
 Each proof also has a menu (1) that allows you to perform the below actions:
 
@@ -193,6 +193,6 @@ Each proof also has a menu (1) that allows you to perform the below actions:
 >
 >The availability of these options depends on your rights on the proof (see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-For information about viewing proof progress and status within Workfront, see [Viewing Progress and Status](#viewingprogressandstatus) in [View the Progress and Status of a Proof in Workfront Proof](#).
+For information about viewing proof progress and status within Workfront, see [Viewing Progress and Status](#viewing-progress-and-status) in [View the Progress and Status of a Proof in Workfront Proof](#).
 
 For information about viewing progress and status in the Desktop Proofing Viewer, see [Review a Workflow in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).

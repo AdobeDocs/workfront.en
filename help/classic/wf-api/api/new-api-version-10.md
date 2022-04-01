@@ -12,7 +12,7 @@ description: Updated Resources
 * [Updated Resources](#updated-resources) 
 * [Removed Resources](#removed-resources)
 
-## New Resources
+## New Resources {#new-resources}
 
 ### ActivityLog
 
@@ -290,7 +290,7 @@ The following existing resources have been updated with this release of the Work
 
 ```¹ Type changed from null to boolean```
 
-## Removed Resources
+## Removed Resources {#removed-resources}
 
 ### ResourceBudgetedHour
 

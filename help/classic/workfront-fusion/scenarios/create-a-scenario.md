@@ -69,9 +69,10 @@ You must have the following access to use the functionality in this article:
    Click **Skip** if you want to choose the apps from within the scenario editor.
 
 1. In the screen that appears (the scenario editor), if you are creating a new scenario, click **New scenario** in the upper-left corner and type a name for the scenario.
-1. Continue on to [Add a module in a scenario](#add).
+1. Continue on to [Add a module in a scenario](#add-a-module-in-a-scenario).
 
-## Add a module in a scenario
+## Add a module in a scenario  
+{#add-a-module-in-a-scenario}
 
 1. To add the first module to the scenario, click the question mark icon. ![](assets/question-mark-icon.gif)
 
@@ -95,9 +96,9 @@ You must have the following access to use the functionality in this article:
 
    The two most common types of modules are actions and triggers. For more information, see [Types of modules](../../workfront-fusion/modules/module-types.md).
 
-1. Continue on to [Connect the module's app or web service to Workfront Fusion](#connect).
+1. Continue on to [Connect the module's app or web service to Workfront Fusion](#connect-the-module-s-app-or-web-service-to-workfront-fusion).
 
-## Connect the module's app or web service to Workfront Fusion
+## Connect the module's app or web service to Workfront Fusion {#connect-the-module-s-app-or-web-service-to-workfront-fusion}
 
 Workfront Fusion modules that connect to an app (such as Workfront, Salesforce, or Jira) feature the Connection field. Here, you can specify the connection that you want this module to use to connect to the app. You can select an existing connection from the dropdown, or create a new connection.
 
@@ -119,7 +120,7 @@ To create a connection inside a Workfront Fusion module:
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
 1. (Conditional) If an **Allow** button displays, examine the actions that the connector will be able to take, then click the button to connect the app to Workfront Fusion.
 
-## Configure the module
+## Configure the module {#configure-the-module}
 
 1. In the fields below the Connection field, configure the settings for the module, then click **OK**.
 
@@ -137,15 +138,15 @@ To create a connection inside a Workfront Fusion module:
 
    ![](assets/choose-where-start-350x194.png)
 
-1. Repeat the steps in the sections [Add a module in a scenario](#add) and [Configure the module](#configur) to add other modules to the scenario.
+1. Repeat the steps in the sections [Add a module in a scenario](#add-a-module-in-a-scenario) and [Configure the module](#configure-the-module) to add other modules to the scenario.
 
 1. (Optional) Copy and paste a module or group of modules.
 
    For more information, see [Copy modules or scenarios](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
 
-1. Continue on to [Configure and work with your scenario](#configur2).
+1. Continue on to [Configure and work with your scenario](#configure-and-work-with-your-scenario).
 
-## Configure and work with your scenario
+## Configure and work with your scenario {#configure-and-work-with-your-scenario}
 
 1. Do any of the following to configure your scenario:
 

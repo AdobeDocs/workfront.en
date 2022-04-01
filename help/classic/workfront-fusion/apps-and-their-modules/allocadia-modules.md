@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
 To use Allocadia modules, you must have an Allocadia account.
 
-## Connect Allocadia to Workfront Fusion
+## Connect Allocadia to Workfront Fusion {#connect-allocadia-to-workfront-fusion}
 
 You can create a connection to your Allocadia account directly from inside an Allocadia module.
 
@@ -82,7 +82,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch Record
 
@@ -96,7 +96,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
@@ -117,15 +117,15 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Custom API Call](#custom) 
-* [Read Record](#read) 
-* [Create Record](#create) 
-* [Delete Record](#delete) 
-* [Update Record](#update)
+* [Custom API Call](#custom-api-call) 
+* [Read Record](#read-record) 
+* [Create Record](#create-record) 
+* [Delete Record](#delete-record) 
+* [Update Record](#update-record)
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Allocadia API. This way, you can create a data flow automation that can't be accomplished by the other Allocadia modules.
 
@@ -139,7 +139,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -167,7 +167,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Read Record
+#### Read Record {#read-record}
 
 This action module reads data from a single record in Allocadia.
 
@@ -183,7 +183,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -200,7 +200,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Create Record
+#### Create Record {#create-record}
 
 This action module creates a record.
 
@@ -216,7 +216,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -237,7 +237,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Delete Record
+#### Delete Record {#delete-record}
 
 This action module deletes a particular record.
 
@@ -253,7 +253,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -267,7 +267,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Update Record
+#### Update Record {#update-record}
 
 This action module updates a record, such as a line item, user, or column choice,.
 
@@ -283,7 +283,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -296,7 +296,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
 #### Search Record
 
@@ -314,7 +314,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 

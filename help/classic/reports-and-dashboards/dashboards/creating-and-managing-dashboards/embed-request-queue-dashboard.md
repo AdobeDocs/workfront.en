@@ -50,15 +50,15 @@ Both of the following must be created before you can embed a request queue in a 
 * **The dashboard**: For information on creating dashboards, see [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 * **The request queue**: For information on creating request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
-## Obtain the URL of the request queue
+## Obtain the URL of the request queue {#obtain-the-url-of-the-request-queue}
 
 You can obtain the URL of a request queue in multiple ways, depending on what portion of the request queue you want to expose to the users when they access it from a dashboard.
 
-* [Obtain a link to a specific queue topic with ability to change the request type](#obtain2) 
-* [Obtain a link to a request queue and ability to change the request type](#obtain3) 
-* [Obtain a link to a request queue with no ability to change the request type](#obtain4)
+* [Obtain a link to a specific queue topic with ability to change the request type](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type) 
+* [Obtain a link to a request queue and ability to change the request type](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type) 
+* [Obtain a link to a request queue with no ability to change the request type](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
-### Obtain a link to a specific queue topic with ability to change the request type
+### Obtain a link to a specific queue topic with ability to change the request type {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
 
 When you share a link to a specific queue topic with other users, the request form opens at the exact queue topic that they need to use to submit the request. This is helpful when users might not be sure which queue topic to choose when logging requests for a specific request queue.
 
@@ -77,7 +77,7 @@ Users can change the request type or choose another topic if they need to. The n
 
    ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-classic-350x238.png)
 
-### Obtain a link to a request queue and ability to change the request type
+### Obtain a link to a request queue and ability to change the request type {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
 When you share a link to a request type, the request type is selected for the user. This is helpful when users need to choose from multiple topic groups or queue topics for the same request type. Users can change the request type and choose another one. The navigation of the Requests area also displays.
 
@@ -98,7 +98,7 @@ When you share a link to a request type, the request type is selected for the us
 
    ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-classic-350x256.png)
 
-### Obtain a link to a request queue with no ability to change the request type
+### Obtain a link to a request queue with no ability to change the request type {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
 When you share a link to a preselected request type, the request type is selected for the user and cannot be changed . Users can choose the topic groups or queue topics they need. This is helpful when you do not want users to view and select other request types. The navigation of the Requests area does not display.
 
@@ -131,7 +131,7 @@ When you share a link to a preselected request type, the request type is selecte
 
 You can embed a link to the requests queue or to a queue topic nested under a request queue into a dashboard to give users direct access to entering requests.
 
-1. Obtain a request queue&nbsp;URL using one of the methods described in the [Obtain the URL of the request queue](#obtain) section of this article. 
+1. Obtain a request queue&nbsp;URL using one of the methods described in the [Obtain the URL of the request queue](#obtain-the-url-of-the-request-queue) section of this article. 
 1. Go to **Reporting** in your Global Navigation Bar, then select the **Dashboards** tab.
 1. Click **New Dashboard**.
 1. Type a **Name** for the dashboard. This is a required field.

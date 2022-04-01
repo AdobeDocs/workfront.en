@@ -37,29 +37,29 @@ The following diagram illustrates the high-level overview of the PPM process in 
 * [Project Request](#project-request) 
 * [Project Review](#project-review)
 * [Portfolio Optimization](#portfolio-optimization)
-* [Resource Planning](#capacity-planning)
+* [Resource Planning](#resource-planning)
 * [Project Execution](#project-execution)
 * [Project Postmortem](#project-postmortem)
 
-### Project Request
+### Project Request {#project-request}
 
 Project Portfolio Management starts with a project request. In this phase, a project owner creates a project&nbsp; request and submits it for review to an executive committee or the Portfolio Manager. This is when they complete the Business Case of the project and then submit it for approval.&nbsp;
 
 For more information about creating a business case and a project request, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-### Project Review
+### Project Review {#project-review}
 
 After you submit the project request, the Portfolio Manager or an executive team reviews it, and decides whether to approve them. If they are approved, they will be selected for&nbsp;a company Project Portfolio.
 
 For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)For more information about approving a Business Case, see [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
-### Portfolio Optimization
+### Portfolio Optimization {#portfolio-optimization}
 
 After adding all the projects to the portfolio, the Portfolio Manager optimizes and prioritizes them according to their value, alignment, and benefit to the organization.
 
 For more information about portfolio optimization, see [Optimize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
-### Resource Planning
+### Resource Planning {#resource-planning}
 
 Along with optimizing the performance of the portfolio and prioritizing the project, the Resource Manager ensures that proper resources are allocated to the projects. They assess the availability and allocation of the resources using the Resource Management tools available in Workfront.
 
@@ -67,14 +67,14 @@ Depending on the availability of the resources, the Portfolio Manager might need
 
 For more information about Resource Management, see the [Manage resources](../../../resource-mgmt/manage-resources.md) section.
 
-### Project Execution
+### Project Execution {#project-execution}
 
 After receiving the project approval from the Portfolio Manager and the validation of the resources from the Resource Manager, as the Project Owner, you can place the project in the status of Current and your users can start the work to complete the project. It is recommended to capture a baseline of the project in this phase, to have a reference point for the project, in its original state.
 
 For more information about managing projects in Workfront, see [Manage projects](../../../manage-work/projects/manage-projects/manage-projects-overview.md).  
 For more information about creating baselines on projects, see [Create project baselines](../../../manage-work/projects/create-projects/create-baselines.md).
 
-### Project Postmortem
+### Project Postmortem {#project-postmortem}
 
 After the completion of the projects in the portfolio, you can review the success of each project by creating a baseline and comparing it to the original baseline.&nbsp;
 

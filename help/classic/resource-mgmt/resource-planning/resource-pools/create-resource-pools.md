@@ -40,10 +40,10 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Create a Resource Pool
+## Create a Resource Pool {#create-a-resource-pool}
 
 1. Log in as a user who has access to edit Resource Pools.  
-   For more information, see [Create a Resource Pool](#access-to-edit-resource-pools).
+   For more information, see [Create a Resource Pool](#create-a-resource-pool).
 
 1. Go to the **People** area in the Global Navigation Bar.  
 1. Select the**Planning** tab. 

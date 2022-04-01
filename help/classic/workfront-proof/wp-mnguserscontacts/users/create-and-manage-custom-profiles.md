@@ -17,7 +17,7 @@ Billing Administrators and Administrators can create and manage custom profiles 
 
 This feature is available only on&nbsp;Premium accounts.<![CDATA[        ]]>
 
-## Module Permissions
+## Module Permissions {#module-permissions}
 
 Module permissions let you decide what access you want your users to have over their own items and over items owned by other users in the account.
 
@@ -53,7 +53,7 @@ Both sections allow you to grant rights over the following items in the account:
 
 ![Screenshot_2018-04-06_12-20-27.png](assets/screenshot-2018-04-06-12-20-27-350x223.png)
 
-## Administrative Permissions
+## Administrative Permissions {#administrative-permissions}
 
 In this section you are able to grant Administrative permissions to your users. Some permissions link and, when selected, automatically enable other permissions needed to carry out the task. For example, allowing the user to manage permission profiles automatically enables managing users in the account.
 
@@ -134,7 +134,7 @@ You can grant the following permissions:
 1. (Optional)&nbsp;Assign the new profile to new and existing user accounts.  
    For more information, see " [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-## Enabling and Disabling a Profile
+## Enabling and Disabling a Profile {#enabling-and-disabling-a-profile}
 
 1. Navigate to **Account Settings, then**&nbsp;click on the **Profiles** tab.&nbsp;
 
@@ -165,10 +165,10 @@ Create copies of an existing profile to set up multiple profiles with similar pe
    The copied profile now appears on the profiles list. It has the original profiles name with the word "Copy" before it.  
    ![Screenshot_2018-04-06_12-34-41.png](assets/screenshot-2018-04-06-12-34-41.png)  
    ``` 
-1. (Optional) To enable the copied profile, see [Enabling and Disabling a Profile](#enabling-and-disabling-profiles).
-1. (Optional) To make edits to the copied profile, see [Editing a Profile](#editing-profiles).
+1. (Optional) To enable the copied profile, see [Enabling and Disabling a Profile](#enabling-and-disabling-a-profile).
+1. (Optional) To make edits to the copied profile, see [Editing a Profile](#editing-a-profile).
 
-## Editing a Profile
+## Editing a Profile {#editing-a-profile}
 
 If you edit a profile, updates are applied to all users who this profile is currently assigned to.&nbsp;
 
@@ -199,4 +199,4 @@ If you edit a profile, updates are applied to all users who this profile is curr
 >
 >&nbsp;It is not possible to delete standard profiles from the account. It is possible to disable standard profiles if you don't want to use them in your account.
 
-For more information on disabling profiles, see [Enabling and Disabling a Profile](#enabling-and-disabling-profiles).
+For more information on disabling profiles, see [Enabling and Disabling a Profile](#enabling-and-disabling-a-profile).

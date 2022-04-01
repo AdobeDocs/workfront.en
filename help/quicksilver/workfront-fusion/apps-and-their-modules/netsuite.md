@@ -73,10 +73,10 @@ To use NetSuite modules, you must have a NetSuite account.
 </ul>
 </note>
 <ul>
-<li> <p><a href="#enable" class="MCXref xref">Enable Features</a> </p> </li>
-<li> <p><a href="#assign" class="MCXref xref">Assign permissions</a> </p> </li>
+<li> <p><a href="#enable-features" class="MCXref xref">Enable Features</a> </p> </li>
+<li> <p><a href="#assign-permissions" class="MCXref xref">Assign permissions</a> </p> </li>
 </ul>
-<h4><a name="Enable"></a>Enable Features</h4>
+<h4 id="enable-features"><a name="Enable"></a>Enable Features</h4>
 <p>Enable the following features</p>
 <table cellspacing="0">
 <col>
@@ -109,14 +109,14 @@ To use NetSuite modules, you must have a NetSuite account.
 <p>To access the REST Record Service, REST&nbsp;Query Service, Record Customization, or SuiteScript Workbook API beta features, you must complete the Oracle NetSuite Umbrella Beta Program Recruitment Form. On this form, you must identify an authorized user who can sign to accept the Oracle Cloud Services Beta Trial License Agreement. After this agreement is fully executed by an authorized user through completion of this form, the requested features are available for enablement on this page.</p>
 <p>To locate the Oracle NetSuite Umbrella Beta Program Recruitment Form, search the Oracle NetSuite documentation.</p>
 </note>
-<h4><a name="Assign"></a>Assign permissions</h4>
+<h4 id="assign-permissions"><a name="Assign"></a>Assign permissions</h4>
 <p>Assign the following permissions:</p>
 <ul>
 <li> <p>REST Web Services</p> </li>
 <li> <p>Log in using Access Tokens</p> </li>
 <li> <p>Suite Analytics Workbook</p> </li>
 </ul>
-<h3><a name="Create2"></a>Create a new integration record</h3>
+<h3 id="create-a-new-integration-record"><a name="Create2"></a>Create a new integration record</h3>
 <p>To set up a connection between NetSuite and Workfront Fusion, you need to create a new integration record in Netsuite.</p> <note type="note">
 <p>For instructions on creating a new integration record.</p>
 <ul>
@@ -153,14 +153,16 @@ To use NetSuite modules, you must have a NetSuite account.
 </tbody>
 </table> <p> <img src="assets/netsuite-setup-350x275.png" style="width: 350;height: 275;"> </p> </li>
 <li value="2"> <p><strong>Save</strong>the new integration.</p> <p>A page showing your client credentials appears.</p> </li>
-<li value="3"> <p>Copy and save the client credentials in a secure place. You will need them to create a connection in Workfront Fusion.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>You must copy and save the credentials before you close this window. You will not be able to access them again. </p> </li>
+<li value="3"> <p>Copy and save the client credentials in a secure place. You will need them to create a connection in Workfront Fusion.</p> <note type="warning">
+You must copy and save the credentials before you close this window. You will not be able to access them again.
+</note> </li>
 </ol>
-<h3><a name="Create3"></a>Create a connection to NetSuite in a Workfront Fusion NetSuite module</h3>
+<h3 id="create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module"><a name="Create3"></a>Create a connection to NetSuite in a Workfront Fusion NetSuite module</h3>
 <p>You can create a connection to your NetSuite account directly from inside a NetSuite module.</p>
 <ol>
 <li value="1"> <p>In any NetSuite module, click <strong>Add</strong>next to the Connection field.</p> </li>
 <li value="2"> <p>Enter the Account ID&nbsp;of the Netsuite account you want the module to access.</p> </li>
-<li value="3"> <p>Enter the Client ID and Client Secret that you saved in step 3 in <a href="#create2" class="MCXref xref">Create a new integration record</a> above.</p> <note type="note">
+<li value="3"> <p>Enter the Client ID and Client Secret that you saved in step 3 in <a href="#create-a-new-integration-record" class="MCXref xref">Create a new integration record</a> above.</p> <note type="note">
 For security reasons, the values for Client Credentials are only displayed on the initial setup page. They cannot be retrieved from the system. If you did not save this information, you must reset credentials to obtain new values for your Client Credentials.
 </note> </li>
 <li value="4"> <p>Click <strong>Continue</strong>to create the connection and go back to the module.</p> </li>
@@ -183,7 +185,7 @@ If you see the map button above a field or function, you can use it to set varia
 <li><a href="#actions" class="MCXref xref">Actions</a> </li>
 <li><a href="#searches" class="MCXref xref">Searches</a> </li>
 </ul>
-<h3><a name="Triggers"></a>Triggers</h3>
+<h3 id="triggers"><a name="Triggers"></a>Triggers</h3>
 <h4>Watch records</h4>
 <p>This trigger module activates a scenario when a record is created or updated.</p>
 <table cellspacing="0">
@@ -193,7 +195,7 @@ If you see the map button above a field or function, you can use it to set varia
 <tr> <!--
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
 -->
-<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
 </tr>
 <tr> <!--
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Record type</td>
@@ -220,18 +222,18 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h3><a name="Actions"></a>Actions</h3>
+<h3 id="actions"><a name="Actions"></a>Actions</h3>
 <ul>
-<li> <p><a href="#custom" class="MCXref xref">Custom API Call</a> </p> </li>
-<li> <p><a href="#create" class="MCXref xref">Create a record</a> </p> </li>
-<li> <p><a href="#update" class="MCXref xref">Update a record</a> </p> </li>
-<li> <p><a href="#delete" class="MCXref xref">Delete a Record</a> </p> </li>
-<li> <p><a href="#read" class="MCXref xref">Read a Record</a> </p> </li>
+<li> <p><a href="#custom-api-call" class="MCXref xref">Custom API Call</a> </p> </li>
+<li> <p><a href="#create-a-record" class="MCXref xref">Create a record</a> </p> </li>
+<li> <p><a href="#update-a-record" class="MCXref xref">Update a record</a> </p> </li>
+<li> <p><a href="#delete-a-record" class="MCXref xref">Delete a Record</a> </p> </li>
+<li> <p><a href="#read-a-record" class="MCXref xref">Read a Record</a> </p> </li>
 </ul>
 </div>
 -->
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the NetSuite API. This way, you can create a data flow automation that can't be accomplished by the other NetSuite modules.
 
@@ -245,7 +247,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -275,7 +277,7 @@ When you are configuring this module, the following fields display.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4><a name="Create"></a>Create a record</h4>
+<h4 id="create-a-record"><a name="Create"></a>Create a record</h4>
 <p>This action module creates a new record.</p>
 <p>You specify the type of record and field values for the new record.</p>
 <p>The module returns the ID of the record. You can map this information in subsequent modules in the scenario.</p>
@@ -287,7 +289,7 @@ When you are configuring this module, the following fields display.
 <tr> <!--
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
 -->
-<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
 </tr>
 <tr> <!--
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Record type</td>
@@ -304,7 +306,7 @@ When you are configuring this module, the following fields display.
 </tr>
 </tbody>
 </table>
-<h4><a name="Update"></a>Update a record</h4>
+<h4 id="update-a-record"><a name="Update"></a>Update a record</h4>
 <p>This action module updates an existing record.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -314,7 +316,7 @@ When you are configuring this module, the following fields display.
 <tr> <!--
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
 --> <!--
-<td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
 -->
 </tr>
 <tr> <!--
@@ -337,7 +339,7 @@ When you are configuring this module, the following fields display.
 </tr>
 </tbody>
 </table>
-<h4><a name="Delete"></a>Delete a Record</h4>
+<h4 id="delete-a-record"><a name="Delete"></a>Delete a Record</h4>
 <p>This action module deletes a single record from NetSuite.</p>
 <p>You specify the ID of the record.</p>
 <p>The module returns the internal ID of the deleted record.</p>
@@ -348,7 +350,7 @@ When you are configuring this module, the following fields display.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Record Type</td>
@@ -360,7 +362,7 @@ When you are configuring this module, the following fields display.
 </tr>
 </tbody>
 </table>
-<h4><a name="Read"></a>Read a Record</h4>
+<h4 id="read-a-record"><a name="Read"></a>Read a Record</h4>
 <p>This action module reads data from a single record in NetSuite.</p>
 <p>You specify the ID of the record.</p>
 <p>The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
@@ -371,7 +373,7 @@ When you are configuring this module, the following fields display.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Record Type</td>
@@ -387,7 +389,7 @@ When you are configuring this module, the following fields display.
 </tr>
 </tbody>
 </table>
-<h3><a name="Searches"></a>Searches</h3>
+<h3 id="searches"><a name="Searches"></a>Searches</h3>
 <h4>Search for records</h4>
 <p>This search module searches for records based on custom criteria.</p>
 <table cellspacing="0">
@@ -396,7 +398,7 @@ When you are configuring this module, the following fields display.
 <tbody>
 <tr>
 <td role="rowheader">Connection</td>
-<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
 </tr>
 <tr>
 <td role="rowheader">Record Type</td>

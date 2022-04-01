@@ -48,9 +48,9 @@ The following options allow you to automatically modify the estimates of your re
 * [Set Budget to Schedule](#set-budget-to-schedule) 
 * [Set to Net Remaining](#set-to-net-remaining) 
 * [Set Best Fit](#set-best-fit) 
-* [Move Schedule to Budget](#move-budget-to-schedule)
+* [Move Schedule to Budget](#move-schedule-to-budget)
 
-### Set Budget to Schedule
+### Set Budget to Schedule {#set-budget-to-schedule}
 
 By setting the budget to match the schedule you are estimating that the time needed to complete the work equals the Planned Hours of the tasks on the project. In this case, your Planned Hours are equal to the Budgeted Hours.
 
@@ -58,7 +58,7 @@ This activity should be done only if you know that project planning has been com
 
 ![set_budget_to_schedule.png](assets/set-budget-to-schedule-350x52.png)
 
-### Set to Net Remaining
+### Set to Net Remaining {#set-to-net-remaining}
 
 By setting the budgeted resources to the net remaining, you are estimating that the time needed to complete the work equals the difference between the total availability of each resource and the amount of time already budgeted for other projects. If you are trying to use this option on a resource pool you created previously, this option changes your resource budgets to reflect this information.
 
@@ -69,7 +69,7 @@ By setting the budgeted resources to the net remaining, you are estimating that 
 
 ![set_to_net_remaining.png](assets/set-to-net-remaining-350x55.png)
 
-### Set Best Fit
+### Set Best Fit {#set-best-fit}
 
 By setting the budgeted resources to the **Best Fit**, you are asking Workfront to find the earliest available start time with the fewest over-allocations for each project. This is similar to the **Move Schedule to Budget** setting. This setting calculates the best fit for your projects based on the following criteria:
 
@@ -85,7 +85,7 @@ By setting the budgeted resources to the **Best Fit**, you are asking Workfront 
 
 ![set_to_best_fit.png](assets/set-to-best-fit-350x53.png)
 
-### Move Schedule to Budget
+### Move Schedule to Budget {#move-schedule-to-budget}
 
 By moving the schedule to match your budget, you are asking Workfront to move the project timeline according to the first available time when all resources are available without any over-allocations. This is similar to **Set Best Fit**.
 

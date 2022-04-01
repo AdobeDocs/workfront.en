@@ -348,7 +348,7 @@ To ensure optimum performance the following table shows the limitations placed&n
  </tbody> 
 </table>
 
-### Using Paginated Responses
+### Using Paginated Responses {#using-paginated-responses}
 
 To override the Default Number of Results query limitation and allow 200 results, you can include the $$LIMIT=200 filter in your query, as shown in the following example:
 <pre>GET /attask/api/v9.0/project/search?$$LIMIT=200</pre>In order to ensure reliability and performance for other tenants in the system, the maximum allowed results limit per query is 2000 objects. Attempting to specify a larger limit will result in an IllegalArgumentException error message.&nbsp;

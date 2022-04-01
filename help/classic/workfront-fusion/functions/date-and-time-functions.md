@@ -286,7 +286,7 @@ This function converts a text string to a date, according to the format and time
 
   Returns 2016-12-28T16:03:06.000Z
 
-## addDays (date; number)
+## addDays (date; number) {#adddays-date-number}
 
 Returns a new date as a result of adding a given number of days to a date. To subtract days, enter a negative number.
 
@@ -324,7 +324,7 @@ Returns a new date as a result of adding a given number of days to a date. To su
 
   Returns 2016-12-6T15:55:57.536Z
 
-## addHours (date; number)
+## addHours (date; number) {#addhours-date-number}
 
 Returns a new date as a result of adding a given number of hours to a date. To subtract hours, enter a negative number.
 
@@ -362,7 +362,7 @@ Returns a new date as a result of adding a given number of hours to a date. To s
 
   Returns 2016-12-08T13:55:57.536Z
 
-## addMinutes (date; number)
+## addMinutes (date; number) {#addminutes-date-number}
 
 Returns a new date as a result of adding a given number of minutes to a date. To subtract minutes, enter a negative number.
 
@@ -438,7 +438,7 @@ Returns a new date as a result of adding a given number of months to a date. To 
 
   Returns 2016-06-08T15:55:57.536Z
 
-## addSeconds (date; number)
+## addSeconds (date; number) {#addseconds-date-number}
 
 Returns a new date as a result of adding a given number of seconds to a date. To subtract seconds, enter a negative number.
 
@@ -520,7 +520,7 @@ This function returns a new date with the seconds specified in parameters.
 
 Specify a number from 0 to 59. If the number is outside of that range, the function returns a second from the previous minute (for a negative number) or subsequent minute (for a positive number).
 
-If you need to specify a number outside the range, we recommend that you use addSeconds, as described above in the section [addSeconds (date; number)](#addsecon).
+If you need to specify a number outside the range, we recommend that you use addSeconds, as described above in the section [addSeconds (date; number)](#addseconds-date-number).
 
 ``` ```**Examples: **``````
 
@@ -562,7 +562,7 @@ This function returns a new date with the minutes specified in parameters.
 
 Specify a number from 0 to 59. If the number is outside of that range, the function returns a minute from the previous hour (for a negative number) or subsequent hour (for a positive number).
 
-If you need to specify a number outside the range, we recommend that you use addMinutes, as described above in [addMinutes (date; number)](#addminut). 
+If you need to specify a number outside the range, we recommend that you use addMinutes, as described above in [addMinutes (date; number)](#addminutes-date-number). 
 
 ``` ```**Examples: **``````
 
@@ -604,7 +604,7 @@ This function returns a new date with the hour specified in parameters.
 
 Specify a number from 0 to 23. If the number is outside this range, the function returns an hour from the previous day (for a negative number) or subsequent day (for a positive number).
 
-If you need to specify a number outside the range, we recommend that you use addHours, as described above in [addHours (date; number)](#addhours). 
+If you need to specify a number outside the range, we recommend that you use addHours, as described above in [addHours (date; number)](#addhours-date-number). 
 
 ``` ```**Examples: **``````
 
@@ -646,7 +646,7 @@ This function returns a new date with the day specified in parameters.
 
 You can use this function to set the day of the week, with Sunday as 1 and Saturday as 7. If the you specify a number from 1 to 7, the resulting date is within the current (Sunday-to-Saturday) week. If the number is outside of that range, the function returns a day from the previous week (for a negative number) or subsequent week (for a positive number).
 
-If you need to specify a number outside the range, we recommend that you use addDays, as described above in [addDays (date; number)](#adddays).
+If you need to specify a number outside the range, we recommend that you use addDays, as described above in [addDays (date; number)](#adddays-date-number).
 
 ``` ```**Examples: **``````
 

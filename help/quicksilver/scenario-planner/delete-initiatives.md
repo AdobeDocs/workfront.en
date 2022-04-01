@@ -56,10 +56,10 @@ Consider the following when deleting initiatives:
 
 You can delete one initiative at a time, ```or you can delete multiple initiatives in bulk.```
 
-* [Delete one initiative](#delete) 
-* [Delete initiatives in bulk](#delete3)
+* [Delete one initiative](#delete-one-initiative) 
+* [Delete initiatives in bulk](#delete-initiatives-in-bulk)
 
-### Delete one initiative
+### Delete one initiative {#delete-one-initiative}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
 
@@ -76,7 +76,7 @@ You can delete one initiative at a time, ```or you can delete multiple initiativ
 
 1. Click **Save Plan** to save your changes.
 
-### Delete initiatives in bulk
+### Delete initiatives in bulk {#delete-initiatives-in-bulk}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
 

@@ -55,7 +55,7 @@ You must have the following access to use the functionality in this article:
 
 You must add modules to a scenario before you can copy them.
 
-## Copy a module or a group of modules
+## Copy a module or a group of modules {#copy-a-module-or-a-group-of-modules}
 
 When you copy a module, the copy retains all of the field values and settings of the original module.
 
@@ -109,7 +109,7 @@ Cloning a scenario creates a copy of the scenario, which you can then edit.
 
 Scenario blueprints represent the arrangement, mapping, and field values of a given scenario at a given point in time. You can export a scenario blueprint into a JSON file on your computer, then import it when creating a new scenario. Scenarios imported from a scenario blueprint can be edited.
 
-A scenario blueprint represents the entire scenario. If you want to copy only certain modules from a scenario, see [Copy a module or a group of modules](#copy) in this article.
+A scenario blueprint represents the entire scenario. If you want to copy only certain modules from a scenario, see [Copy a module or a group of modules](#copy-a-module-or-a-group-of-modules) in this article.
 
 >[!NOTE]
 >

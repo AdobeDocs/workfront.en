@@ -47,11 +47,11 @@ You can manage your resources by using the following areas of Workfront:
 
    You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments.
 
-   For more information about the functionality in the **Legacy Resource Planning** tab, see [Overview of the Legacy Resource Planning tab](#legacy-planning).
+   For more information about the functionality in the **Legacy Resource Planning** tab, see [Overview of the Legacy Resource Planning tab](#overview-of-the-legacy-resource-planning-tab).
 
-   For more information about the functionality in the **Planing** tab, see [Overview of the Planning tab](#planning).
+   For more information about the functionality in the **Planing** tab, see [Overview of the Planning tab](#overview-of-the-planning-tab).
 
-## Overview of the Planning tab
+## Overview of the Planning tab {#overview-of-the-planning-tab}
 
 We recommend that you leverage the functionality in the **Planning**&nbsp;tab in the **People** area of Workfront for managing the allocation of your resources to projects.
 
@@ -67,7 +67,7 @@ For more information about budgeting resources in the Business Case, see [Budget
 
 For a complete list of the prerequisites that must be met before you can start using the tools in the Planning tab, see the [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md) section in [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md)For all information about managing your resources in the&nbsp;**Planning** tab, see the&nbsp; [Resource Planning](../../resource-mgmt/resource-planning/resource-planning-overview.md)&nbsp;section.&nbsp;&nbsp;
 
-## Overview of the Legacy Resource Planning tab
+## Overview of the Legacy Resource Planning tab {#overview-of-the-legacy-resource-planning-tab}
 
 >[!IMPORTANT]
 >

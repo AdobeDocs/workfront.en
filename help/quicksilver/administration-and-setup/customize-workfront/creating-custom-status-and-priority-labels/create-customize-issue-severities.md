@@ -62,18 +62,18 @@ Workfront administrators can customize the following information on&nbsp;the def
 
 * Change the default severity
 
-  For more information about default severities, see [Create new issue severities](#creating-new-issue-severities).
+  For more information about default severities, see [Create new issue severities](#create-new-issue-severities).
 
 * Edit the description of the severities
 * Hide a severity
 
-  For more information about&nbsp;hiding a severity, see [Create new issue severities](#creating-new-issue-severities).
+  For more information about&nbsp;hiding a severity, see [Create new issue severities](#create-new-issue-severities).
 
 * Delete a severity
 
   When you delete an existing severity, you must select a replacement one.
 
-## Create new issue severities
+## Create new issue severities {#create-new-issue-severities}
 
 As a Workfront administrator, you can create new issue severities to reflect the needs in your organization.&nbsp;
 

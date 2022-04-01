@@ -13,7 +13,7 @@ Search is coming to the Workfront mobile app! With this new feature, you’ll be
 
 This new functionality has not been widely released yet, but you can participate in our limited beta program to test out this functionality. We have opened a beta testing window for gathering feedback from you about your experience with the Search feature on the mobile app. This beta program has only been made available for the Android platform, at this time.
 
-If you would like to be part of this beta program and have this functionality enabled in your Workfront app on your Android phone, see [Signing Up for Android Search Beta Program](#signing-up-for-the-android-search-beta).
+If you would like to be part of this beta program and have this functionality enabled in your Workfront app on your Android phone, see [Signing Up for Android Search Beta Program](#signing-up-for-android-search-beta-program).
 
 ## Understanding Search on Android
 
@@ -30,7 +30,7 @@ For a demonstration of how to use this feature, watch the following video:
 
 &nbsp;
 
-## Signing Up for Android Search Beta Program
+## Signing Up for Android Search Beta Program {#signing-up-for-android-search-beta-program}
 
 If you would like to join the beta testing and experience our new great features, please sign up [here](https://play.google.com/store/apps/details?id=com.workfront.android.aware.beta).
 

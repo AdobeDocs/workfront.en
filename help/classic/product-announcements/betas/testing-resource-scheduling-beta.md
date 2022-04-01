@@ -16,7 +16,7 @@ The goal of testing the new Resource Scheduling&nbsp;tool in your environment is
 
 Complete the following sections to learn about, test, and provide your valuable feedback&nbsp;on your experience with the new Resource Scheduling tools:
 
-## Overview of the Resource Scheduling tools
+## Overview of the Resource Scheduling tools {#overview-of-the-resource-scheduling-tools}
 
 The following resources are available for you to learn how to use the Resource Scheduling tools:
 
@@ -44,7 +44,7 @@ The following resources are available for you to learn how to use the Resource S
 
 ## Test the Resource Scheduling tools
 
-Explore the following areas while testing Resource Scheduling. To become familiar with the functionality prior to testing, use the resources provided in&nbsp; [Overview of the Resource Scheduling tools](#understanding-the-resource-scheduling-tools).
+Explore the following areas while testing Resource Scheduling. To become familiar with the functionality prior to testing, use the resources provided in&nbsp; [Overview of the Resource Scheduling tools](#overview-of-the-resource-scheduling-tools).
 
 * The Unassigned Task and Issues Section
 * The Assignments Section

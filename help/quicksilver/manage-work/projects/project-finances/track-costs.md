@@ -27,7 +27,7 @@ The following scenarios exist:
 
   For information about associating job roles with cost rates, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-* Workfront calculates only&nbsp;Actual Cost for issues and issues do not have a Cost Type.&nbsp;For more information, see the section [How Workfront tracks costs for issues](#costs-for-issues) in this article.
+* Workfront calculates only&nbsp;Actual Cost for issues and issues do not have a Cost Type.&nbsp;For more information, see the section [How Workfront tracks costs for issues](#how-workfront-tracks-costs-for-issues) in this article.
 
 >[!TIP]
 >
@@ -44,11 +44,11 @@ For more information about calculating cost-performance indexes, see:
 
 ## How Workfront tracks costs for tasks and projects
 
-* [How Workfront tracks costs](#understa) 
-* [How Workfront calculates Planned, Budgeted, and Actual Costs](#understanding-how-planned-and-actual-costs-are-calculated) 
-* [How Workfront calculates Cost Types for tasks](#modifying-cost-types-for-individual-tasks)
+* [How Workfront tracks costs](#how-workfront-tracks-costs) 
+* [How Workfront calculates Planned, Budgeted, and Actual Costs](#how-workfront-calculates-planned-budgeted-and-actual-costs) 
+* [How Workfront calculates Cost Types for tasks](#how-workfront-calculates-cost-types-for-tasks)
 
-### How Workfront tracks costs
+### How Workfront tracks costs  {#how-workfront-tracks-costs}
 
 You can track several types of Costs for tasks and projects in Workfront. Overall Costs are calculated by the following formula:
 
@@ -77,7 +77,7 @@ Costs = Labor Costs + Expense Costs
    </tbody> 
   </table>
 
-  For more information, see the [How Workfront calculates Planned, Budgeted, and Actual Costs](#understanding-how-planned-and-actual-costs-are-calculated) section in this article. 
+  For more information, see the [How Workfront calculates Planned, Budgeted, and Actual Costs](#how-workfront-calculates-planned-budgeted-and-actual-costs) section in this article. 
 
 * **Expense Costs** are associated with Expenses on projects and tasks.  
   When you create a project, you can set planned expenses for the entire project. Additionally, you can associate expenses with new or existing tasks. For information, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md). 
@@ -88,15 +88,15 @@ Costs = Labor Costs + Expense Costs
   >
   >When attaching a template to a project, the Fixed Cost of a template is added to the Fixed Cost of the project. For information, see [Overview of attaching a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
 
-### How Workfront calculates Planned, Budgeted, and Actual Costs
+### How Workfront calculates Planned, Budgeted, and Actual Costs {#how-workfront-calculates-planned-budgeted-and-actual-costs}
 
 Workfront calculates the Planned Cost and the Actual Cost for each individual task in a project. Workfront uses these calculations for individual tasks to calculate the Planned Cost and the Actual Cost for the project.
 
-* [Planned Cost](#planned) 
-* [Budgeted Cost](#budgeted) 
-* [Actual Cost](#actual)
+* [Planned Cost](#planned-cost) 
+* [Budgeted Cost](#budgeted-cost) 
+* [Actual Cost](#actual-cost)
 
-#### Planned Cost
+#### Planned Cost {#planned-cost}
 
 The Planned Cost of a project is the cost associated with the planned work (Planned Hours) on the project.
 
@@ -116,7 +116,7 @@ The Planned Cost of the project is calculated as follows:
 $100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense)+$15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost)= $525
 ```
 
-#### Budgeted Cost
+#### Budgeted Cost {#budgeted-cost}
 
 The Budgeted Cost of a project is the cost associated with the budgeted work (Budgeted Hours) on the project.
 
@@ -133,7 +133,7 @@ The Budgeted Cost of the project is calculated using the formula below if the fo
 When the above conditions are met, Workfront calculates the Budgeted Cost of the project using the following formula: 
 <pre>Budgeted Project Cost = Budgeted Labor Cost + Budgeted Expense Cost of all tasks + Budgeted Expense Cost of the project</pre>
 
-#### Actual Cost
+#### Actual Cost {#actual-cost}
 
 The Actual Cost of a project is the cost associated with the actual work (Hours logged) on the project.
 
@@ -162,7 +162,7 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 >* If your Workfront administrator enabled the **Assign Job Roles to hour entries manually** setting in the Timesheets & Hours Preferences area, and the user logging time on the project selects a different role to associate with this time, the Actual Cost of the project calculates based on the role specified when the hours were logged. For information about enabling logging time for a specific job role, see the article [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 >
 
-### How Workfront calculates Cost Types for tasks
+### How Workfront calculates Cost Types for tasks {#how-workfront-calculates-cost-types-for-tasks}
 
 The Planned and Actual Cost of the tasks and their Labor Costs are determined by the Cost Type of each task.
 
@@ -217,7 +217,7 @@ The following table describes the available task Cost Types in&nbsp;Workfront:
 </div>
 -->
 
-## How Workfront tracks costs for issues
+## How Workfront tracks costs for issues {#how-workfront-tracks-costs-for-issues}
 
 Issues do not have and do not affect the following types of costs on a project:
 

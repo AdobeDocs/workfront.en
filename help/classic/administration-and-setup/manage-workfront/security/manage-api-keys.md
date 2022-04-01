@@ -157,15 +157,15 @@ Third-party applications can communicate with Workfront through the API. To incr
 >
 >This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-* [Obtain the X.509 certificate](#obtaining-the-x509-certificate) 
-* [Upload the certificate to Workfront](#uploading-the-certificate-to-workfront) 
-* [Verify API login calls are restricted](#verify)
+* [Obtain the X.509 certificate](#obtain-the-x-509-certificate) 
+* [Upload the certificate to Workfront](#upload-the-certificate-to-workfront) 
+* [Verify API login calls are restricted](#verify-api-login-calls-are-restricted)
 
-### Obtain the X.509 certificate
+### Obtain the X.509 certificate {#obtain-the-x-509-certificate}
 
 Obtain a valid X.509 certificate from a trusted Certificate Authority (such as Verisign), and place it in a temporary location on your workstation.&nbsp;
 
-### Upload the certificate to Workfront
+### Upload the certificate to Workfront {#upload-the-certificate-to-workfront}
 
 After you have obtained the X.509 certificate from your Certificate Authority, you need to upload it to Workfront.
 
@@ -189,7 +189,7 @@ After you have obtained the X.509 certificate from your Certificate Authority, y
 
 1. Click **Save**.&nbsp;
 
-### Verify API login calls are restricted
+### Verify API login calls are restricted {#verify-api-login-calls-are-restricted}
 
 Prior to configuring your instance of Workfront to require an X.509 certificate, perform an API request to the **/login** endpoint using valid username and password parameters. You will receive a 200 response that contains a sessionID.
 

@@ -14,9 +14,9 @@ You can set the Condition of a task or an issue either automatically or manually
 
 The Adobe Workfront administrator can create custom Conditions for your environment, as described in [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
 
-You can manually update the Condition of a task or issue if you are assigned to it or if you have permissions to it, as described in the [Access requirements](#access) section of this article.
+You can manually update the Condition of a task or issue if you are assigned to it or if you have permissions to it, as described in the [Access requirements](#access-requirements) section of this article.
 
-## Access requirements
+## Access requirements {#access-requirements}
 
 You must have the following access to perform the steps in this article:
 

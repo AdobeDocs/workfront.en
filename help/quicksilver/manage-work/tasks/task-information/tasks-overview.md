@@ -22,7 +22,7 @@ The following are types of tasks in a project:
 * Working tasks
 * Recurring tasks
 
-## Overview of Parent tasks
+## Overview of Parent tasks  {#overview-of-parent-tasks}
 
 You can break down a task that is larger in scope into several smaller tasks that are easier to complete. The smaller tasks become the children tasks or subtasks of the original task. The original task becomes the parent task.
 
@@ -34,7 +34,7 @@ For more information about the Summary Completion Mode of projects, see [Edit pr
 
 Subtasks or children tasks are tasks listed under a parent task. They typically influence the update and the resolution of the parent task.
 
-For more information about parent tasks, see [Overview of Parent tasks](#parent-tasks).
+For more information about parent tasks, see [Overview of Parent tasks](#overview-of-parent-tasks).
 
 For more information about creating a child task, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 

@@ -173,10 +173,10 @@ When scheduling resources for a team, you can configure users to be displayed on
 
 Parent Tasks display differently depending on which scheduling timeline you are accessing.&nbsp;
 
-* [Display parent tasks for multiple projects](#parents-in-scheduling-tab) 
-* [Display parent tasks for a project or a team](#parents-in-staffing-and-teams)
+* [Display parent tasks for multiple projects](#display-parent-tasks-for-multiple-projects) 
+* [Display parent tasks for a project or a team](#display-parent-tasks-for-a-project-or-a-team)
 
-### Display parent tasks for multiple projects
+### Display parent tasks for multiple projects {#display-parent-tasks-for-multiple-projects}
 
 When scheduling resources for multiple projects in the Scheduling  tab , whether parent tasks display or not depends on the following settings:
 
@@ -216,7 +216,7 @@ To configure the Show Parent Tasks setting:&nbsp;
 
 1. Click **Return to Scheduling** in the lower-left corner.
 
-### Display parent tasks for a project or a team
+### Display parent tasks for a project or a team {#display-parent-tasks-for-a-project-or-a-team}
 
 When scheduling resources in the Staffing  tab of a project or in the  Teams Working On tab  , whether Parent Tasks display or not depends on the following settings:
 

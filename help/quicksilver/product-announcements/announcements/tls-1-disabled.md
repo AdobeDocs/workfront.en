@@ -35,12 +35,12 @@ This change will go into effect in the Preview and Sandbox environments on Augus
 * [When accessing Workfront via the browser](#when-accessing-workfront-via-the-browser) 
 * [When connecting to Workfront via the API](#when-connecting-to-workfront-via-the-api)
 
-### When accessing Workfront via the browser
+### When accessing Workfront via the browser {#when-accessing-workfront-via-the-browser}
 
 Ensure that users in your organization are accessing Workfront via a supported browser.&nbsp;(For information about supported browsers, see [Adobe Workfront browser requirements](../../workfront-basics/workfront-browser-requirements.md).)
 
 All browsers supported by Workfront are compatible&nbsp;with TLS 1.2.
 
-### When connecting to Workfront via the API
+### When connecting to Workfront via the API {#when-connecting-to-workfront-via-the-api}
 
 If you are integrating third-party applications to Workfront via the API (either inbound or outbound), ensure that TLS 1.2 (and the TLS 1.2 encryption protocols) are enabled in your integrations.

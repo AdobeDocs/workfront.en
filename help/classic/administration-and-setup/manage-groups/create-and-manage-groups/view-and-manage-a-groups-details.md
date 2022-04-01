@@ -27,7 +27,7 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
-## View and manage a group’s details
+## View and manage a group’s details {#view-and-manage-a-group-s-details}
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Groups**.
@@ -83,9 +83,9 @@ You must have the following to perform the steps in this article:
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Inactive"></a>Inactive groups</h2>
-<p>Consider the following about a group that you deactivate by disabling the Is Active option explained in the section <a href="#view" class="MCXref xref">View and manage a group’s details</a> in this article.</p>
+<p>Consider the following about a group that you deactivate by disabling the Is Active option explained in the section <a href="#view-and-manage-a-group-s-details" class="MCXref xref">View and manage a group’s details</a> in this article.</p>
 <ul>
-<li> <p>Deactivating a group also deactivates all subgroups below it.</p> <p>For information about re-activating a subgroup in this situation, see <a href="#reactiva" class="MCXref xref">About reactivating a subgroup below an inactive parent group</a> in this article.</p> </li>
+<li> <p>Deactivating a group also deactivates all subgroups below it.</p> <p>For information about re-activating a subgroup in this situation, see <a href="#about-reactivating-a-subgroup-below-an-inactive-parent-group" class="MCXref xref">About reactivating a subgroup below an inactive parent group</a> in this article.</p> </li>
 <li> <p>When you go to the Groups area in Setup, you can see only active groups in the list because Active is the default filter <img src="assets/filter-nwepng.png"> for it. If you want to see all of the groups you manage, including the inactive ones, you can use the All filter.</p> <p>For more information about filters in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li>
 <li> <p>Deactivating a group does not change the following:</p>
 <ul>
@@ -94,11 +94,11 @@ You must have the following to perform the steps in this article:
 <li> <p>Your ability, as an administrator, to find the group in filters and reporting.</p> <p>You can also find it in group type-ahead fields where you might want to manage the group's settings in the Setup area. This includes the Preferences, Event Notifications, and System Licenses areas.</p> <p>For example, if you go to Setup > Project Preference > Projects and clear the type-ahead field above the options there, you can still find an inactive group and configure its project preferences.</p> </li>
 </ul> </li>
 </ul>
-<h2><a name="Reactiva"></a>About reactivating a subgroup below an inactive parent group</h2>
+<h2 id="about-reactivating-a-subgroup-below-an-inactive-parent-group"><a name="Reactiva"></a>About reactivating a subgroup below an inactive parent group</h2>
 <p>Deactivating a group also deactivates all subgroups below it. If you need to reactivate one of the subgroups under an inactive group, you can do one of two things:</p>
 <ul>
-<li> <p>Move the subgroup under an active group. Then enable the Is Active option for the moved group, as explained in the section <a href="#view" class="MCXref xref">View and manage a group’s details</a> in this article.</p> <p>For instructions on moving a group, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md" class="MCXref xref">Move a group</a>.</p> </li>
-<li> <p>Remove the subgroup from its parent group (which makes the subgroup a top-level group). Then enable the Is Active option for the moved group, as explained in the section <a href="#view" class="MCXref xref">View and manage a group’s details</a> in this article.</p> <p>For instructions on removing a subgroup from its parent group, see the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make" class="MCXref xref">Remove a subgroup from its parent group and make it a top-level group</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md" class="MCXref xref">Manage a subgroup</a>.</p> </li>
+<li> <p>Move the subgroup under an active group. Then enable the Is Active option for the moved group, as explained in the section <a href="#view-and-manage-a-group-s-details" class="MCXref xref">View and manage a group’s details</a> in this article.</p> <p>For instructions on moving a group, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md" class="MCXref xref">Move a group</a>.</p> </li>
+<li> <p>Remove the subgroup from its parent group (which makes the subgroup a top-level group). Then enable the Is Active option for the moved group, as explained in the section <a href="#view-and-manage-a-group-s-details" class="MCXref xref">View and manage a group’s details</a> in this article.</p> <p>For instructions on removing a subgroup from its parent group, see the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make" class="MCXref xref">Remove a subgroup from its parent group and make it a top-level group</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md" class="MCXref xref">Manage a subgroup</a>.</p> </li>
 </ul>
 </div>
 -->

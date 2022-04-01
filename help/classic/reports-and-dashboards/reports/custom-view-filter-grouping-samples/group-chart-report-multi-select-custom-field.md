@@ -78,10 +78,10 @@ To group by a multi-select custom field in a report:
 
 You cannot build a chart in a report by referencing a multi-select custom field. Instead, you can create a calculated field that records the values of the multi-select custom field on a given object and group by the calculated field.&nbsp;
 
-* [Build a calculated custom field that references a multi-select custom field](#building-calculated-field) 
-* [Build a chart that references a calculated custom field](#building-a-chart)
+* [Build a calculated custom field that references a multi-select custom field](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) 
+* [Build a chart that references a calculated custom field](#build-a-chart-that-references-a-calculated-custom-field)
 
-### Build a calculated custom field that references a multi-select custom field
+### Build a calculated custom field that references a multi-select custom field {#build-a-calculated-custom-field-that-references-a-multi-select-custom-field}
 
 To be able to build a calculated field that references a multi-select custom field, you must have the following prerequisites:
 
@@ -116,7 +116,7 @@ To build the calculated custom field that references the multi-select custom fie
 1. Click **Done**.
 1. Click **Save +Close**.
 
-### Build a chart that references a calculated custom field
+### Build a chart that references a calculated custom field {#build-a-chart-that-references-a-calculated-custom-field}
 
 1. Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. 
 1. (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, select all the objects in your report, then click **Edit**. 

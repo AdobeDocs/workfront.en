@@ -16,7 +16,7 @@ For users that do not have a layout template assigned to them, the default layou
 
 Users can also assign a layout template to themselves, as described in Change the My Work and Work Requests areas with layout templates.
 
-You can assign multiple different layout templates to the same name. For more information about which layout template is in effect for a user, role, group, or team, see [Layout template assignment priority](#layout) later in this article.
+You can assign multiple different layout templates to the same name. For more information about which layout template is in effect for a user, role, group, or team, see [Layout template assignment priority](#layout-template-assignment-priority) later in this article.
 
 For more information about layout templates, see [Layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
@@ -68,7 +68,7 @@ You must have the following to perform the steps in this article:
 
    This step completes the process of creating and assigning a layout template.
 
-## Layout template assignment priority
+## Layout template assignment priority {#layout-template-assignment-priority}
 
 You and other Workfront administrators can assign multiple different layout templates to the same user in these four different ways:
 

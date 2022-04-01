@@ -31,11 +31,11 @@ Users with Administrator or Billing Administrator profiles can also set the proo
 
 For information about profiles, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Configure proof defaults in personal settings (Workfront Proof users only)](#configur2) 
-* [Change email alerts for a recipient](#changing-email-alerts-recipient) 
-* [Configure proof defaults for a user](#configur)
+* [Configure proof defaults in personal settings (Workfront Proof users only)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only) 
+* [Change email alerts for a recipient](#change-email-alerts-for-a-recipient) 
+* [Configure proof defaults for a user](#configure-proof-defaults-for-a-user)
 
-## Configure proof defaults in personal settings (Workfront Proof users only)
+## Configure proof defaults in personal settings (Workfront Proof users only) {#configure-proof-defaults-in-personal-settings-workfront-proof-users-only}
 
 You can configure proof settings for proofs you create.&nbsp;
 
@@ -122,7 +122,7 @@ For information about proof settings the Workfront administrator or Workfront Pr
    |---|---|
    | **Proof message template** |Displays on the New proof page, New version page, Message page, and Remind page. Can be edited before it's sent. |
 
-## Change email alerts for a recipient
+## Change email alerts for a recipient  {#change-email-alerts-for-a-recipient}
 
 You can change email alerts for a particular recipient in a batch action.
 
@@ -135,7 +135,7 @@ You can change email alerts for a particular recipient in a batch action.
 
 1. Change the email alert, then click **Submit**.
 
-## Configure proof defaults for a user
+## Configure proof defaults for a user {#configure-proof-defaults-for-a-user}
 
 If you are a Workfront Proof administrator, you can set proof defaults for users in your account.
 

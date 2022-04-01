@@ -24,7 +24,7 @@ Depending what area of Workfront you access your task or issue from, the Work On
   >
   >```You can replace the Work On It button with a Start button. For information about replacing the Work On It button with a Start button, see``` ``` [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)``` ```.```
 
-* After you have clicked Work On It accept, the button changes to I'm Done or Done, depending on where in&nbsp;Workfront you access the task or the issue from. For information about where you can access the Work On It button, see the section [Locate the Work On It and Done button](#locate) in this article.
+* After you have clicked Work On It accept, the button changes to I'm Done or Done, depending on where in&nbsp;Workfront you access the task or the issue from. For information about where you can access the Work On It button, see the section [Locate the Work On It and Done button](#locate-the-work-on-it-and-done-button) in this article.
 
   ![](assets/classic-done-button.png)
 
@@ -32,7 +32,7 @@ Depending what area of Workfront you access your task or issue from, the Work On
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)
 
-## Locate the Work On&nbsp;It and&nbsp;Done button
+## Locate the Work On&nbsp;It and&nbsp;Done button {#locate-the-work-on-it-and-done-button}
 
 You can locate the Work On&nbsp;it and Done button in the following areas of Workfront:
 
@@ -46,11 +46,11 @@ You can locate the Work On&nbsp;it and Done button in the following areas of Wor
 
 The benefit of using the Work On It and Done buttons is that you can allow Workfront to automatically update information on the work item assigned to you.
 
-* [Work On It button](#work) 
-* [Start button](#start) 
-* [The Done button](#the)
+* [Work On It button](#work-on-it-button) 
+* [Start button](#start-button) 
+* [The Done button](#the-done-button)
 
-### Work On It button
+### Work On It button {#work-on-it-button}
 
 When you click Work On It, the following items also update:
 
@@ -64,7 +64,7 @@ When you click Work On It, the following items also update:
 
   For information about the commit date, see [Commit Date overview](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-### Start button
+### Start button {#start-button}
 
 If you have access to edit teams, you can replace the Work On&nbsp;It button with a Start button for a team. When users with that team as their Home Team click the Start button on items they are assigned to, additional fields on their work items update automatically. For information about replacing the Work On It button with a Start button, see [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
@@ -89,7 +89,7 @@ In addition to the fields that update when you click the Work On&nbsp;It button,
 >* Team requests
 >
 
-### The Done button
+### The Done button {#the-done-button}
 
 If you have access to edit teams, you can configure the&nbsp;Done button for a team to update the task or issue statuses when you mark an item as completed. When users with that team as their Home Team click the Done button on their items the following fields automatically update on a task or issue:
 

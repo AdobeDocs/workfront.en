@@ -58,7 +58,9 @@ To this purpose, you can connect projects as activities (outputs or executed wor
 
 * When you delete a project attached to a goal, the project is also deleted from the goal.
 
-  ``` ```**Warning: **``````If the goal was active and there are no other progress indicators on the goal, the goal remains active but it does not show any progress.
+  >[!CAUTION]
+  >
+  >If the goal was active and there are no other progress indicators on the goal, the goal remains active but it does not show any progress.
 
 ## Locate project information on goals
 

@@ -72,16 +72,16 @@ If you see the map button above a field or function, you can use it to set varia
 
 All Data Store modules are Action type modules.
 
-* [Add/Replace a Record](#add/repl) 
-* [Update a Record](#update) 
-* [Get a Record](#get) 
-* [Check the Existence of a Record](#check) 
-* [Delete a Record](#delete) 
-* [Delete All Records](#delete2) 
-* [Search Records](#search) 
-* [Count Records](#count)
+* [Add/Replace a Record](#add-replace-a-record) 
+* [Update a Record](#update-a-record) 
+* [Get a Record](#get-a-record) 
+* [Check the Existence of a Record](#check-the-existence-of-a-record) 
+* [Delete a Record](#delete-a-record) 
+* [Delete All Records](#delete-all-records) 
+* [Search Records](#search-records) 
+* [Count Records](#count-records)
 
-### Add/Replace a Record
+### Add/Replace a Record {#add-replace-a-record}
 
 This action module adds or replaces a record.
 
@@ -118,7 +118,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Update a Record
+### Update a Record {#update-a-record}
 
 This action module updates a record.
 
@@ -151,7 +151,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Get a Record
+### Get a Record {#get-a-record}
 
 This action module retrieves a record.
 
@@ -174,7 +174,7 @@ The module returns the ID of the record and any associated fields, along with an
  </tbody> 
 </table>
 
-### Check the Existence of a Record
+### Check the Existence of a Record {#check-the-existence-of-a-record}
 
 This action module specifies whether a particular record exists.
 
@@ -199,7 +199,7 @@ You specify the data store and the record's key.
  </tbody> 
 </table>
 
-### Delete a Record
+### Delete a Record {#delete-a-record}
 
 This action module deletes a record.
 
@@ -222,7 +222,7 @@ The module returns the ID of the  record and any associated fields, along with a
  </tbody> 
 </table>
 
-### Delete All Records
+### Delete All Records {#delete-all-records}
 
 This action module deletes all records from a particular data store.
 
@@ -243,7 +243,7 @@ You specify the data store.
  </tbody> 
 </table>
 
-### Search Records
+### Search Records {#search-records}
 
 This search module looks for records in an object in Data Store that match the search query you specify.
 
@@ -280,7 +280,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Count Records
+### Count Records {#count-records}
 
 This action module numbers the records in a data store.
 

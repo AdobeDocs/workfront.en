@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Share a calendar with Workfront users
+## Share a calendar with Workfront users {#share-a-calendar-with-workfront-users}
 
 Sharing a calendar is similar to sharing other objects. For more information about sharing objects in Adobe Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -100,6 +100,6 @@ You can share a private calendar link with Workfront users. Users are required t
 
    >[!NOTE]
    >
-   >Workfront users must have access to the calendar in order to access it with the link. To grant access, see [Share a calendar with Workfront users](#share).  
+   >Workfront users must have access to the calendar in order to access it with the link. To grant access, see [Share a calendar with Workfront users](#share-a-calendar-with-workfront-users).  
    >If users don't have access, they can request it after pasting the link into their browser.
 

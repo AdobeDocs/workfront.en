@@ -57,11 +57,11 @@ After you customize a layout template and you assign it to users, those users se
 >
 >The Workfront documentation always refers to the default names of the objects. As a Workfront administrator, ensure that you notify users of the changes in object names, so they can understand how to use the Workfront documentation, as well as the areas of the applications which do not reflect the changes in the names of the objects.
 
-* [Object names that can be customized using a Layout Template](#objects-that-can-have-customized-names) 
-* [Areas of Workfront that reflect the customized object names](#areas-with-cutomized-object-names) 
-* [Areas of Workfront that do not reflect the customized object names](#areas-without-customized-names)
+* [Object names that can be customized using a Layout Template](#object-names-that-can-be-customized-using-a-layout-template) 
+* [Areas of Workfront that reflect the customized object names](#areas-of-workfront-that-reflect-the-customized-object-names) 
+* [Areas of Workfront that do not reflect the customized object names](#areas-of-workfront-that-do-not-reflect-the-customized-object-names)
 
-### Object names that can be customized using a Layout Template
+### Object names that can be customized using a Layout Template {#object-names-that-can-be-customized-using-a-layout-template}
 
 As a Workfront administrator, you can customize the names of the following objects to match the terminology in your organization:
 
@@ -79,7 +79,7 @@ You cannot customize the names of any other object in Workfront. For a complete 
 
 When you customize the name of an object, the new name for that object appears in most areas of the Workfront application where that object name would appear.
 
-### Areas of Workfront that reflect the customized object names
+### Areas of Workfront that reflect the customized object names {#areas-of-workfront-that-reflect-the-customized-object-names}
 
 The following areas show the updated name of the objects:
 
@@ -93,7 +93,7 @@ The following areas show the updated name of the objects:
 * Emails
 * Mobile Apps
 
-### Areas of Workfront that do not reflect the customized object names
+### Areas of Workfront that do not reflect the customized object names {#areas-of-workfront-that-do-not-reflect-the-customized-object-names}
 
 The following areas do not show the updated name of the objects:
 
@@ -137,17 +137,17 @@ You should be aware of the following when customizing object names in Workfront:
 * When you customize object names using a Layout Template, we recommend that you assign your Layout Templates around your business units (Teams or Groups).  
   We recommend that you use names that are clearly understood by the users of these business units, to avoid confusion.
 * Email notifications and delivered reports always contain object names as defined by the Layout Template of the user who generates the email. Your users should be prepared to see object names in their emails that are not related to their group or team, if they receive email notifications from users in other teams and groups.  
-  As a Workfront administrator, advise users to notice the icons associated with each object. The icons remain consistent between various object names and consistent with the default object, as it appears in the database. For a list of all Workfront icons associated with objects, see [Object icons](#understanding-object-icons).
+  As a Workfront administrator, advise users to notice the icons associated with each object. The icons remain consistent between various object names and consistent with the default object, as it appears in the database. For a list of all Workfront icons associated with objects, see [Object icons](#object-icons).
 
   >[!TIP]
   >
   >For common tasks in your organization, consider creating custom documentation to reflect your terminology.
 
-## Object icons
+## Object icons {#object-icons}
 
 The Workfront documentation always refers to the default names of objects. If your objects have had their names customized, you can rely on the icon associated with them to understand which customized object corresponds to which Workfront default object.
 
-For more information about which objects can have customized names in Workfront, see * [Object names that can be customized using a Layout Template](#objects-that-can-have-customized-names).*
+For more information about which objects can have customized names in Workfront, see * [Object names that can be customized using a Layout Template](#object-names-that-can-be-customized-using-a-layout-template).*
 
 The following is a list of objects and their corresponding icons in Workfront.
 
@@ -233,7 +233,7 @@ You can report on all objects in the database using our open API. For a complete
 
 >[!NOTE]
 >
->If you have customized the names of your objects using a layout template, the names for the object in the report builder have also been customized. Ensure you know what objects have been customized and look for the customized name in the report builder. For more information about which objects can have customized names in Workfront, see * [Object names that can be customized using a Layout Template](#objects-that-can-have-customized-names).* 
+>If you have customized the names of your objects using a layout template, the names for the object in the report builder have also been customized. Ensure you know what objects have been customized and look for the customized name in the report builder. For more information about which objects can have customized names in Workfront, see * [Object names that can be customized using a Layout Template](#object-names-that-can-be-customized-using-a-layout-template).* 
 >When using text mode in your reports, the names of the objects in text mode expressions are the standard names in Workfront, and not the customized object names. For more information about using text mode in reports, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 For more information about building a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).  

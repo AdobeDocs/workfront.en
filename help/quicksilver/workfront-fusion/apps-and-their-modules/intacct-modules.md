@@ -68,7 +68,7 @@ In your Intacct account, navigate to the **Company**tab.
 1. Enter AzuquaMPP as the sender_id.
 1. (Optional) Enter a description for the connection
 
-### Set up a connection in Workfront Fusion
+### Set up a connection in Workfront Fusion {#set-up-a-connection-in-workfront-fusion}
 
 You can create a connection to your Intacct account directly from inside a Intacct module.
 
@@ -99,7 +99,7 @@ This action module lets you make a custom authenticated call to the Intacct API.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Intacct account to Workfront Fusion 2.0, see <a href="#set" class="MCXref xref">Set up a connection in Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Intacct account to Workfront Fusion 2.0, see <a href="#set-up-a-connection-in-workfront-fusion" class="MCXref xref">Set up a connection in Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body XML</td> 
@@ -118,7 +118,7 @@ This search module retrieves a list of records that match specific search criter
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Intacct account to Workfront Fusion 2.0, see <a href="#set" class="MCXref xref">Set up a connection in Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Intacct account to Workfront Fusion 2.0, see <a href="#set-up-a-connection-in-workfront-fusion" class="MCXref xref">Set up a connection in Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 

@@ -56,7 +56,7 @@ You must have the following access to use the functionality in this article:
 
 In order to use SFTP with Workfront Fusion, it is necessary to have an SFTP account (such as GoDaddy web hosting).
 
-## Connect SFTP to Workfront Fusion
+## Connect SFTP to Workfront Fusion {#connect-sftp-to-workfront-fusion}
 
 To connect your SFTP account to Workfront Fusion you need to enter the target Host and the SFTP credentials (user name and password or user name and key) to the module's Create a connection dialog.
 
@@ -109,7 +109,7 @@ Returns files with details when a file is created or changed in a specified fold
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -136,7 +136,7 @@ Returns folders with details when a folder is created or changed in a specified 
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -159,7 +159,7 @@ Returns folders with details when a folder is created or changed in a specified 
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Show </td> 
@@ -202,7 +202,7 @@ This module lists files from a specified folder.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Buffer Size [B]</td> 
@@ -245,7 +245,7 @@ This module retrieves file details, including a file's data.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Buffer Size [B]</td> 
@@ -268,7 +268,7 @@ This module allows you to upload a file to the SFTP server.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -295,7 +295,7 @@ Renames a file.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>File Path</td> 
@@ -316,7 +316,7 @@ Renames a file.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>File Path</td> 
@@ -337,7 +337,7 @@ Renames a file.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>File Path</td> 
@@ -356,7 +356,7 @@ Allows you to change permissions of the file.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>File Path</td> 
@@ -383,7 +383,7 @@ Creates a new folder in the specified location.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -408,7 +408,7 @@ Creates a new folder in the specified location.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your SFTP account to Workfront Fusion, see <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Connect SFTP to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Folder Path</td> 

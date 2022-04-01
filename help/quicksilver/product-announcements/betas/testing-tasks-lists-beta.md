@@ -11,7 +11,7 @@ hidefromtoc: true
 
 Some information on this page refers to functionality not yet generally available. It is available in the Preview Sandbox environment, only by request.&nbsp;
 
-## The task list testing beta program
+## The task list testing beta program {#the-task-list-testing-beta-program}
 
 We are currently working on improving the performance around lists in Workfront. We have already implemented new functionality that improves the performance around a list of dashboards. We are&nbsp;now extending this functionality to a list of tasks.&nbsp;
 
@@ -19,9 +19,9 @@ This feature focuses primarily on improving the performance of large lists of ta
 
 Right now, the new functionality around tasks lists is only available in the Preview Sandbox, and it is visible only to customers who specifically request it. We have opened a beta testing window for gathering feedback from you about working with tasks in a task list.&nbsp;
 
-If you would like to be part of this beta program and have this functionality enabled in your Preview Sandbox, see [Sign up for the task list beta program](#signing-up).
+If you would like to be part of this beta program and have this functionality enabled in your Preview Sandbox, see [Sign up for the task list beta program](#sign-up-for-the-task-list-beta-program).
 
-## Sign up for the task list beta program
+## Sign up for the task list beta program {#sign-up-for-the-task-list-beta-program}
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ If you would like to be part of this beta program and have this functionality en
 
 To sign up for the tasks list beta program, please fill out the [Workfront Task List Beta Testing](https://docs.google.com/forms/d/e/1FAIpQLScPMRQBQDW5YNGFTx5UCYRoT2SPfTOu1s8KocSx_ZYbI6YQEQ/viewform?c=0&w=1) form.
 
-When you volunteer to sign up for the beta program to test the new tasks list functionality, please keep in mind the list of actions we would like you to focus on as you are testing this feature. For more information about the actions we are targeting with this research, see&nbsp; [The task list testing beta program](#task-list-beta-program).
+When you volunteer to sign up for the beta program to test the new tasks list functionality, please keep in mind the list of actions we would like you to focus on as you are testing this feature. For more information about the actions we are targeting with this research, see&nbsp; [The task list testing beta program](#the-task-list-testing-beta-program).
 
 ## Test the task lists
 

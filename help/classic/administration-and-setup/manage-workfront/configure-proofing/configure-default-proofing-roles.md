@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Review and Approval** near the bottom of the list that appears on the left. 
 1. In the **Roles for designated recipients of a document proof** section, select the default role for users and guest users who are added to a proof's workflow.
 
-   See [Rights associated with proofing roles](#rights) below for a list of each proofing role and the rights associated with it.
+   See [Rights associated with proofing roles](#rights-associated-with-proofing-roles) below for a list of each proofing role and the rights associated with it.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Save**.
 
-## Rights associated with proofing roles
+## Rights associated with proofing roles {#rights-associated-with-proofing-roles}
 
 The following table shows each role and the rights associated with it:
 

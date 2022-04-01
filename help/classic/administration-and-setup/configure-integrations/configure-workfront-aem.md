@@ -62,7 +62,7 @@ Before you can install the Workfront connector for AEM Assets, ensure that the f
 
   For information about installing AEM Assets, see the [Adobe Experience Manager documentation](https://docs.adobe.com/docs/en/aem/6-2/deploy.html).
 
-## Install the Workfront for AEM Assets connector package
+## Install the Workfront for AEM Assets connector package {#install-the-workfront-for-aem-assets-connector-package}
 
 To install the Workfront for AEM Assets connector, you must import the connector into AEM&nbsp;as a package using the CRX Package Manager.
 
@@ -94,19 +94,19 @@ To install the Workfront for AEM Assets connector, you must import the connector
 
    The connector is installed and you can now configure AEM Assets to integrate with Workfront.
 
-1. Continue with [Configure AEM Assets to integrate with Workfront](#configur).
+1. Continue with [Configure AEM Assets to integrate with Workfront](#configure-aem-assets-to-integrate-with-workfront).
 
-## Configure AEM Assets to integrate with Workfront
+## Configure AEM Assets to integrate with Workfront {#configure-aem-assets-to-integrate-with-workfront}
 
 After you install the connector, import the connector package to AEM and configure AEM to link with documents in Workfront.
 
-For information on installing the connector, see&nbsp; [Install the Workfront for AEM Assets connector package](#installi).
+For information on installing the connector, see&nbsp; [Install the Workfront for AEM Assets connector package](#install-the-workfront-for-aem-assets-connector-package).
 
-* [Install the connector package on AEM assets version 6.4 (Touch UI)](#installi2) 
-* [Install the connector package on AEM Assets versions 6.3 or older (classic UI)](#installi3) 
-* [Configure the AEM Externalizer](#configur3)
+* [Install the connector package on AEM assets version 6.4 (Touch UI)](#install-the-connector-package-on-aem-assets-version-6-4-touch-ui) 
+* [Install the connector package on AEM Assets versions 6.3 or older (classic UI)](#install-the-connector-package-on-aem-assets-versions-6-3-or-older-classic-ui) 
+* [Configure the AEM Externalizer](#configure-the-aem-externalizer)
 
-### Install the connector package on AEM assets version 6.4 (Touch UI)
+### Install the connector package on AEM assets version 6.4 (Touch UI) {#install-the-connector-package-on-aem-assets-version-6-4-touch-ui}
 
 1. Log in to AEM Assets as a Workfront administrator.
 1. Click **Tools** >**Cloud Services**>**Workfront Integration Configuration** >**Global-Workfront.******
@@ -171,7 +171,7 @@ For information on installing the connector, see&nbsp; [Install the Workfront fo
 
 1. Generate the AEM API Key by clicking **Generate Key,** then copy the AEM API key to your clipboard.
 
-   You will need the AEM API Key later when you configure Workfront to integrate with AEM Assets. For more information, see [Configure Workfront to integrate with AEM assets](#configur2).
+   You will need the AEM API Key later when you configure Workfront to integrate with AEM Assets. For more information, see [Configure Workfront to integrate with AEM assets](#configure-workfront-to-integrate-with-aem-assets).
 
 1. In the upper-right corner, click **Save**.
 
@@ -197,9 +197,9 @@ For information on installing the connector, see&nbsp; [Install the Workfront fo
 
       For information on event subscriptions, see [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-1. Continue with [Configure the AEM Externalizer](#configur3).
+1. Continue with [Configure the AEM Externalizer](#configure-the-aem-externalizer).
 
-### Install the connector package on AEM Assets versions 6.3 or older (classic UI)&nbsp;
+### Install the connector package on AEM Assets versions 6.3 or older (classic UI)&nbsp; {#install-the-connector-package-on-aem-assets-versions-6-3-or-older-classic-ui}
 
 1. Log in to AEM Assets as a Workfront administrator.
 1. Click**Tools** >**Deployment** >**Cloud Services.**
@@ -273,7 +273,7 @@ For information on installing the connector, see&nbsp; [Install the Workfront fo
 
 1. Copy the AEM API key to your clipboard.
 
-   You will need the AEM API Key later when you configure Workfront to integrate with AEM Assets. For more information, see [Configure Workfront to integrate with AEM assets](#configur2).
+   You will need the AEM API Key later when you configure Workfront to integrate with AEM Assets. For more information, see [Configure Workfront to integrate with AEM assets](#configure-workfront-to-integrate-with-aem-assets).
 
 1. (Optional) To enable the synchronization of comments between AEM Assets and Workfront, click **Enable Comment Sync**.
 1. (Optional) To turn off comment synchronization, click **Disable Comment Sync.**
@@ -283,9 +283,9 @@ For information on installing the connector, see&nbsp; [Install the Workfront fo
    Delete the&nbsp;NOTE CREATE event subscription registered to your AEM instance.  
    For information on event subscriptions, see the [Event Subscription API](../../wf-api/general/event-subs-api.md) section in the article [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-1. Continue with [Configure the AEM Externalizer](#configur3).
+1. Continue with [Configure the AEM Externalizer](#configure-the-aem-externalizer).
 
-### Configure the AEM Externalizer
+### Configure the AEM Externalizer {#configure-the-aem-externalizer}
 
 The AEM Externalizer allows AEM to pass URLs in a format that can be used in Workfront. If not properly configured, Workfront cannot make calls to the AEM API, and the URLs linking AEM documents in Workfront will not work.
 
@@ -308,11 +308,11 @@ The AEM Externalizer allows AEM to pass URLs in a format that can be used in Wor
 
    AEM Assets is now configured to link documents with Workfront
 
-1. Continue with [Configure Workfront to integrate with AEM assets](#configur2).
+1. Continue with [Configure Workfront to integrate with AEM assets](#configure-workfront-to-integrate-with-aem-assets).
 
-## Configure Workfront to integrate with AEM assets
+## Configure Workfront to integrate with AEM assets {#configure-workfront-to-integrate-with-aem-assets}
 
-After you install the Workfront for AEM Assets Connector (as described in [Install the Workfront for AEM Assets connector package](#installi))&nbsp;and configure AEM Assets (as described in [Configure AEM Assets to integrate with Workfront](#configur)), you need to configure Workfront to link documents between&nbsp;Workfront and AEM Assets.
+After you install the Workfront for AEM Assets Connector (as described in [Install the Workfront for AEM Assets connector package](#install-the-workfront-for-aem-assets-connector-package))&nbsp;and configure AEM Assets (as described in [Configure AEM Assets to integrate with Workfront](#configure-aem-assets-to-integrate-with-workfront)), you need to configure Workfront to link documents between&nbsp;Workfront and AEM Assets.
 
 1. Log in to Workfront as a Workfront administrator.
 
@@ -343,18 +343,18 @@ After you install the Workfront for AEM Assets Connector (as described in [Insta
 
    Workfront is now configured to work with AEM Assets.
 
-   In order to access assets in AEM, each Workfront user who needs to use the connector must be set up as a user in AEM. For information on creating users, see&nbsp; [Set up users to use the connector](#setting).
+   In order to access assets in AEM, each Workfront user who needs to use the connector must be set up as a user in AEM. For information on creating users, see&nbsp; [Set up users to use the connector](#set-up-users-to-use-the-connector).
 
-## Set up users to use the connector
+## Set up users to use the connector {#set-up-users-to-use-the-connector}
 
 In order for users to access the connector, they must have a user profile in AEM and belong to a Workfront group that has Access levels that include the Create and Delete permissions.
 
 For more information about Workfront permissions, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* [Set up users in AEM assets version 6.4](#setting2) 
-* [Set up users in AEM assets versions 6.3 or older](#setting3)
+* [Set up users in AEM assets version 6.4](#set-up-users-in-aem-assets-version-6-4) 
+* [Set up users in AEM assets versions 6.3 or older](#set-up-users-in-aem-assets-versions-6-3-or-older)
 
-### Set up users in AEM assets version 6.4
+### Set up users in AEM assets version 6.4 {#set-up-users-in-aem-assets-version-6-4}
 
 1. Log in to AEM Assets as a Workfront administrator.
 1. Click&nbsp;**Tools** >******Security** >**Users**.
@@ -394,7 +394,7 @@ For more information about Workfront permissions, see [Create or modify custom a
 
 1. Click **Save.**
 
-### Set up users in AEM assets versions 6.3 or older&nbsp;
+### Set up users in AEM assets versions 6.3 or older&nbsp; {#set-up-users-in-aem-assets-versions-6-3-or-older}
 
 1. Log in to AEM Assets as a Workfront administrator.
 1. Click **Tools** > **Security** >**Users**.

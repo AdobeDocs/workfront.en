@@ -65,7 +65,7 @@ You must have the following to perform the steps described in this article:
 </div>
 -->
 
-## Attach a template to an existing project
+## Attach a template to an existing project {#attach-a-template-to-an-existing-project}
 
 1. Go to the project where you want to attach a template. 
 1. Click **Project Actions,** then click**Attach Template.**
@@ -119,7 +119,7 @@ You must have the following to perform the steps described in this article:
 
 ## Attach multiple templates to an existing project and view template information
 
-You can attach multiple templates (one at a time) to the same project, following the steps described in the section [Attach a template to an existing project](#attaching-a-template) in this article. This adds the tasks and other information from each template to the project.
+You can attach multiple templates (one at a time) to the same project, following the steps described in the section [Attach a template to an existing project](#attach-a-template-to-an-existing-project) in this article. This adds the tasks and other information from each template to the project.
 
 >[!TIP]
 >

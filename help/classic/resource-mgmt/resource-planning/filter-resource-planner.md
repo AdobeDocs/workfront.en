@@ -41,9 +41,9 @@ You must have the following:
 
 ## Overview of Resource Planner filters
 
-To minimize the amount of information displayed in the Resource Planner, Adobe Workfront provides a Default Filter with preconfigured criteria. For information about the Default Filter, see the section [Overview of the Default Filter in the Resource Planner](#understanding-default-filter) in this article.
+To minimize the amount of information displayed in the Resource Planner, Adobe Workfront provides a Default Filter with preconfigured criteria. For information about the Default Filter, see the section [Overview of the Default Filter in the Resource Planner](#overview-of-the-default-filter-in-the-resource-planner) in this article.
 
-You can also build customized filters. For information of customizing filters in the Resource Planner, see the section [Create Resource Planner filters](#creating-custom-filters) in this article.
+You can also build customized filters. For information of customizing filters in the Resource Planner, see the section [Create Resource Planner filters](#create-resource-planner-filters) in this article.
 
 Consider the following when using filters in the Resource Planner:
 
@@ -59,9 +59,9 @@ Consider the following when using filters in the Resource Planner:
    * Roles associated with the user on those projects  
      Other roles or users on the projects that the user is associated with do not display.
 
-## Overview of the Default Filter in the Resource Planner
+## Overview of the Default Filter in the Resource Planner {#overview-of-the-default-filter-in-the-resource-planner}
 
-When you open the Resource Planner for the first time, Workfront applies the Default filter. You can edit the Default filter to filter for only the items you want displayed. For information on modifying a filters, see the section [Edit a filter in the Resource Planner](#editing-a-filter) in this article.
+When you open the Resource Planner for the first time, Workfront applies the Default filter. You can edit the Default filter to filter for only the items you want displayed. For information on modifying a filters, see the section [Edit a filter in the Resource Planner](#edit-a-filter-in-the-resource-planner) in this article.
 
 Consider the following when using the Default filter:
 
@@ -82,7 +82,7 @@ Consider the following when using the Default filter:
 
   ![RP_new_default_fitler_criteria__1_.PNG](assets/rp-new-default-fitler-criteria--1--301x547.png)
 
-## Create Resource Planner filters
+## Create Resource Planner filters {#create-resource-planner-filters}
 
 Creating a filter in the Resource Planner is identical for all the views.
 
@@ -100,7 +100,7 @@ To create a filter in the Resource Planner:
 1. Click the **Planning** tab. 
 1. Click the **Resource Planner** sub-tab.
 
-   ```<font size="2">By default, the first time you access the Resource Planner, the <strong>Default Filter</strong> is applied.<br>For more information about the Default filter, see the <a href="#understanding-default-filter" class="MCXref xref">Overview of the Default Filter in the Resource Planner</a> section in this article. </font>```
+   ```<font size="2">By default, the first time you access the Resource Planner, the <strong>Default Filter</strong> is applied.<br>For more information about the Default filter, see the <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Overview of the Default Filter in the Resource Planner</a> section in this article. </font>```
 
 1. In the upper-left corner of the Resource Planner, click the **Filter** icon.  
    ![filter_icon.png](assets/filter-icon.png)  
@@ -177,17 +177,17 @@ To apply an existing filter:
 1. Select a filter in the drop-down menu. You can see filters that you or other users created in this menu.  
    When you select a filter, it automatically reduces the amount of information that displays in the Resource Planner.
 
-## Edit a filter in the Resource Planner
+## Edit a filter in the Resource Planner {#edit-a-filter-in-the-resource-planner}
 
 You can edit a filter in the Resource Planner by doing one of the following:
 
-* [Rename a filter](#renaming-a-filter) 
-* [Edit the information in a filter](#editing-the-filter-criteria) 
-* [Duplicate a filter](#duplicating-filter)
+* [Rename a filter](#rename-a-filter) 
+* [Edit the information in a filter](#edit-the-information-in-a-filter) 
+* [Duplicate a filter](#duplicate-a-filter)
 
 When you edit a filter, it is updated for all users in the system who have access to the Resource Planner.
 
-### Rename a filter
+### Rename a filter {#rename-a-filter}
 
 You can change the name of a filter without changing its criteria. We recommend letting other users in the system know about this change, as filters are visible to other users. This change affects the lists of filters for everyone who can see the Resource Planner.
 
@@ -201,7 +201,7 @@ You can change the name of a filter without changing its criteria. We recommend 
 1. Click **Save**.  
    The information included in the filter is the same, and the name is updated.
 
-### Edit the information in a filter
+### Edit the information in a filter {#edit-the-information-in-a-filter}
 
 You can change the information you include in a filter without changing its name. We recommend letting other users in the system know about this change, as filters are visible to them. This change affects the lists of filters for everyone who can see the Resource Planner.
 
@@ -211,13 +211,13 @@ You can change the information you include in a filter without changing its name
    ![filter_icon.png](assets/filter-icon.png)
 
 1. Add new fields to the filter.  
-   For information about building filters, see [Create Resource Planner filters](#creating-custom-filters).
+   For information about building filters, see [Create Resource Planner filters](#create-resource-planner-filters).
 
 1. Hover over the existing fields selected for the filter, and click the **Edit** icon to select another field, or the **Delete** icon to delete the field.  
    ![RP_custom_filter_delete_and_edit_icons.png](assets/rp-custom-filter-delete-and-edit-icons-350x169.png)
 
 1. (Optional) Click **Add Filter Rule** to add new fields to the filter.  
-   For more information about defining filter criteria, see [Create Resource Planner filters](#creating-custom-filters).
+   For more information about defining filter criteria, see [Create Resource Planner filters](#create-resource-planner-filters).
 
 1. Click **Apply** to apply the filter without saving it.
 
@@ -226,7 +226,7 @@ You can change the information you include in a filter without changing its name
    Click **Save** to save the filter.  
    The filter is saved with the same name but with new filtering criteria.
 
-### Duplicate a filter
+### Duplicate a filter {#duplicate-a-filter}
 
 You can duplicate an existing filter. The original filtering criteria remain the same in the duplicated filter and you can save the new filter by a new name.
 
@@ -250,7 +250,7 @@ You can duplicate an existing filter. The original filtering criteria remain the
 
 You can delete a filter when it is no longer needed. You cannot delete the Default Filter.
 
-For information about the Default Filter, see the [Overview of the Default Filter in the Resource Planner](#understanding-default-filter) section in this article.
+For information about the Default Filter, see the [Overview of the Default Filter in the Resource Planner](#overview-of-the-default-filter-in-the-resource-planner) section in this article.
 
 When you delete a filter, the filter is deleted for all Workfront users who have access to the Resource Planner. Before removing it, ensure the filter you want to remove is no longer used by anyone else who is working in the Resource Planner. A deleted filter cannot be recovered.
 
@@ -275,9 +275,9 @@ You can share a filter that you built or that you have access to share with othe
 >
 >All users, including Workfront administrators, can access only filters that they have built or that have been shared with them. You can share a filter with specific users to make a filter available to all Resource Planner users.
 
-For information about the Default Filter, see the [Overview of the Default Filter in the Resource Planner](#understanding-default-filter) section in this article.
+For information about the Default Filter, see the [Overview of the Default Filter in the Resource Planner](#overview-of-the-default-filter-in-the-resource-planner) section in this article.
 
-For information about duplicating filters, see the [Duplicate a filter](#duplicating-filter) section in this article.
+For information about duplicating filters, see the [Duplicate a filter](#duplicate-a-filter) section in this article.
 
 1. Go to the Resource Planner.
 1. Expand the **Filter** drop-down menu.

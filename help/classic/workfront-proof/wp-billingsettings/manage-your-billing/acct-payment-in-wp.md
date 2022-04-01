@@ -26,16 +26,16 @@ We accept checks only for USD payments.
 
 Please see the detailed information&nbsp;on the payment methods and invoicing in the sections below. If you have any questions regarding your billings and payments, please get in touch with our Finance team at finance@proofhq.com.
 
-* [Payment by Credit Card](#credit-card) 
-* [Payment Via Bank Transfer](#bank-transfer) 
+* [Payment by Credit Card](#payment-by-credit-card) 
+* [Payment Via Bank Transfer](#payment-via-bank-transfer) 
 * [Changing Payment Method](#changing-payment-method) 
 * [About Invoices](#about-invoices) 
-* [Billing Details](#billingdetails) 
+* [Billing Details](#billing-details) 
 * [Purchase Order Number](#purchase-order-number) 
-* [Value Added Tax (VAT)](#value-added-tax-(vat)) 
-* [W-8 Form](#w8form)
+* [Value Added Tax (VAT)](#value-added-tax-vat) 
+* [W-8 Form](#w-8-form)
 
-## Payment by Credit Card
+## Payment by Credit Card {#payment-by-credit-card}
 
 When Credit Card is selected as a payment method, we collect the payments for your online transactions (such as upgrades and subscription renewals) automatically. Paid invoices are&nbsp;sent to the main Billing Administrator and the Billing CC.
 
@@ -53,10 +53,10 @@ In these cases, please&nbsp;update your credit card details or add a new card to
 
 &nbsp;Once this is completed, please reach out to our [Finance team](mailto:finance@proofhq.com)&nbsp;so they can re-process the payment for you. The paid invoice will be available in the Billing history section right after collecting the payment.
 
-* [Adding a Credit Card to Your Account](#addingcard) 
-* [Updating Your Credit Card](#updating-card)
+* [Adding a Credit Card to Your Account](#adding-a-credit-card-to-your-account) 
+* [Updating Your Credit Card](#updating-your-credit-card)
 
-### Adding a Credit Card to Your Account
+### Adding a Credit Card to Your Account {#adding-a-credit-card-to-your-account}
 
 If your account is not on a paid plan yet, you will be asked to enter your Credit Card details on the Billing page&nbsp;with your first online order.
 
@@ -68,7 +68,7 @@ If your account is on a paid plan, but you were paying by bank transfer, you can
 
 The added card will be used to collect payment for the next transaction.
 
-### Updating Your Credit Card
+### Updating Your Credit Card {#updating-your-credit-card}
 
 You can update your credit card details at any time and a new card will be used for the next transactions. You can do either of the following:
 
@@ -87,7 +87,7 @@ If you have any technical difficulties&nbsp;with updating your Credit Card detai
 
 If you have any questions regarding the particular credit card transactions, please contact our Finance team at finance@proofhq.com.&nbsp;
 
-## Payment Via Bank Transfer
+## Payment Via Bank Transfer {#payment-via-bank-transfer}
 
 When Bank transfer&nbsp;is selected as a payment method, we issue the invoices for your online transactions (such as upgrades and subscription renewals) automatically,&nbsp;and we send these documents&nbsp;to&nbsp;the main Billing Administrator and the Billing CC set on your account. This payment method is available for the annual subscriptions only.
 
@@ -97,11 +97,11 @@ If you have any outstanding invoices on your account and you know that the payme
 
 If you need to set ProofHQ up as a vendor at your end before processing the payments and you need any additional information from our end, please get in touch with&nbsp;our&nbsp;Finance team&nbsp;so they can&nbsp;assist.
 
-* [Payments in USD](#paymentsusd) 
-* [Payments by Mail (USD Only)](#bymail) 
-* [Payments in GBP](#gbp)
+* [Payments in USD](#payments-in-usd) 
+* [Payments by Mail (USD Only)](#payments-by-mail-usd-only) 
+* [Payments in GBP](#payments-in-gbp)
 
-### Payments in USD
+### Payments in USD {#payments-in-usd}
 
 Payment to&nbsp;Workfront, Inc.
 
@@ -111,7 +111,7 @@ Routing & Transit 121140399 Access Proof Shared w You-DRFT| SWIFT SVBKUS6S
 
 Account 3300794570
 
-### ```Payments by Mail (USD Only)```
+### ```Payments by Mail (USD Only)```  {#payments-by-mail-usd-only}
 
 For Credit of: Workfront, Inc.
 
@@ -123,7 +123,7 @@ Palatine, IL 60055-6712
 >
 >&nbsp;The Silicon Valley Bank, as most of the US banks, is not a part of IBAN scheme and for the transfers the SWIFT code should be used. If you have any troubles with making transfers without IBAN&nbsp;please get in touch with your bank - they should be able to advise.
 
-### ```Payments in GBP```
+### ```Payments in GBP```  {#payments-in-gbp}
 
 Payment to&nbsp;Ultimate Beneficiary:&nbsp;Workfront, Inc.
 
@@ -135,16 +135,16 @@ IBAN GB13SVBK62100020109695 | Swift Code SVBKGB2L
 
 If you need to set up ProofHQ as your vendor and your accounts team require any additional information for this, please send a request to our Finance team at finance@proofhq.com.
 
-## Changing Payment Method
+## Changing Payment Method {#changing-payment-method}
 
 You can switch between the available payment methods at any time, and the requested changes will be applied to your next invoices. See the detailed steps on our [Choosing Your Payment Method in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).&nbsp;
 
 If you want to change the payment method for any of your existing invoices, please get in touch with our Finance team at finance@proofhq.com to discuss.
 
-* [Annual Subscriptions](#annualsubscriptions) 
-* [Monthly Subscriptions](#monthlysubscriptions)
+* [Annual Subscriptions](#annual-subscriptions) 
+* [Monthly Subscriptions](#monthly-subscriptions)
 
-### Annual Subscriptions
+### Annual Subscriptions {#annual-subscriptions}
 
 >[!NOTE]
 >
@@ -154,7 +154,7 @@ If you want to switch from an annual to a monthly subscription action, do this s
 
 ![Change_next_payment.png](assets/change-next-payment-350x218.png)
 
-### Monthly Subscriptions
+### Monthly Subscriptions {#monthly-subscriptions}
 
 For this subscription length only Credit Card is available as a payment method. If you want to switch to Bank transfer, you will want to change your next subscription length to annual. This can be done by setting your next payment method on the Billing page. For more information, see [Choosing Your Payment Method in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
@@ -166,21 +166,21 @@ At the next subscription start, the new conditions will be applied and the next 
 
 If you have any additional questions, please contact our Finance team at finance@proofha.com.
 
-## About Invoices
+## About Invoices {#about-invoices}
 
 * [Outstanding Invoices](#outstanding-invoices) 
-* [Services Invoices](#servicesinvoices) 
-* [Invoice Amends](#invoices-amends) 
+* [Services Invoices](#services-invoices) 
+* [Invoice Amends](#invoice-amends) 
 * [Invoice Recipient](#invoice-recipient) 
 * [Invoice Value](#invoice-value)
 
-### Outstanding Invoices
+### Outstanding Invoices {#outstanding-invoices}
 
 All our invoices issued automatically have seven&nbsp;days payment terms set by default. You will find the exact dates included in your unpaid&nbsp;invoices. See [Downloading Your Workfront Proof Invoice](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md) for more information.
 
 If you have any outstanding payments on your account, please contact our Finance team at&nbsp;mailto:finance@proofhq.com as soon as possible to avoid any interruptions to your service. You can check all your subscription invoices in the Billing History section of the Billing page.&nbsp;
 
-### Services Invoices
+### Services Invoices {#services-invoices}
 
 Invoice issues for the additional services (such as custom landing pages and the Success Start program) are currently not visible in&nbsp;your account. If there are any outstanding payments connected to your account, our Finance team will reach out to the main Billing Administrator (or to an appointed Billing contact) directly to&nbsp;make arrangements.&nbsp;
 
@@ -188,11 +188,11 @@ For the services invoices the same payment method is set as for the subscription
 
 If you&nbsp;would like to use a different payment method for the services invoices, please reach out to our&nbsp;Finance team at&nbsp;mailto:finance@proofhq.com.
 
-### ```Invoice Amends```
+### ```Invoice Amends```  {#invoice-amends}
 
 All invoices are issued with the billing details provided by the users, and it is the users' responsibility to ensure that these details are always correct and up-to-date.
 
-### Invoice Recipient
+### Invoice Recipient {#invoice-recipient}
 
 We send all the invoices to the main Billing Administrator and the Billing CC set on your account. If you wish to change these recipients, simply edit these fields on the Billing page.
 
@@ -200,11 +200,11 @@ We send all the invoices to the main Billing Administrator and the Billing CC se
 >
 >&nbsp;Only Billing Administrators are available to choose from in the main Billing contact field. So if a person of your choice is not a Billing Administrator you will want to add them to your account with the right permissions or upgrade their current profile first.
 
-### Invoice Value
+### Invoice Value {#invoice-value}
 
 We take great care to ensure that all the invoices are issued and calculated correctly. However, if you'd like to discuss any invoices&nbsp;values or charges, please get in touch with our&nbsp; [Finance team](mailto:finance@proofhq.com).
 
-### Billing Details
+### Billing Details {#billing-details}
 
 If you activate your subscription/upgrade&nbsp;manually&nbsp;via a&nbsp;Sales Order,&nbsp;your billing details (billing address, VAT ID, invoice recipient)&nbsp;are added to your account by the Support team upon activation. If you activate your subscription online via the Billing page, you are asked to enter or&nbsp;confirm your&nbsp;billing details in an&nbsp;order from.
 
@@ -215,14 +215,14 @@ You can update your billing details at any time, and the new data will be includ
 
 The Finance team will review your request and send you the updated documents.
 
-## Purchase Order Number
+## Purchase Order Number {#purchase-order-number}
 
 Your purchase order can be included in the ProofHQ invoices.
 
 * For future invoices based on the Sales Order, please&nbsp;pass your purchase order number&nbsp;to your Account Executive or Account Manager along with the Signed Sales Order. We will include this data upon&nbsp;issuing your new invoice.
 * For future auto-renewals invoices&nbsp;and all the existing invoices, please send a request with your purchase order number&nbsp;and a ProofHQ invoice number to our Finance team so they could update the documents.
 
-## Value Added Tax (VAT)
+## Value Added Tax (VAT) {#value-added-tax-vat}
 
 ProofHQ is a United Kingdom-based company. As such, ProofHQ must collect Value Added Tax (VAT) from all United Kingdom-based customers.
 
@@ -241,6 +241,6 @@ To add/modify you VAT ID:
 
 Your VAT ID will be visible on the next invoices. If you want to include your VAT number in the existing invoices, please get in touch with our&nbsp;Finance team (mailto:finance@proofhq.com).
 
-## W-8 Form
+## W-8 Form {#w-8-form}
 
 As a United Kingdom-based company, ProofHQ is exempt from withholding taxes in some countries like the United States. If you wish to obtain a copy of our W-8BEN-E form, please contact ourFinance team (mailto:finance@proofhq.com).&nbsp;

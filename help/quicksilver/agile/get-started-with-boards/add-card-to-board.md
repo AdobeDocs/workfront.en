@@ -95,9 +95,9 @@ You can add cards with only a title to quickly populate your board.
 
 1. Continue entering card names to add more cards.
 1. To stop adding cards, click outside of the column.
-1. To add more details, you must edit the card. For information, see [Edit an existing card](#edit) in this article.
+1. To add more details, you must edit the card. For information, see [Edit an existing card](#edit-an-existing-card) in this article.
 
-## Edit an existing card
+## Edit an existing card {#edit-an-existing-card}
 
 1. Access the board.
 1. Click on the card name to edit the name.

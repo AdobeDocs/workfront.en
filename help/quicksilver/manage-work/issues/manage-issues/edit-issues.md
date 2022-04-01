@@ -104,17 +104,17 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Consider specifying information in any of the following sections:
 
-   * [Issue Name](#issue)
+   * [Issue Name](#issue-name)
    * [Overview](#overview)
-   * [Assignments](#assignme)
-   * [Custom Forms](#custom%c2%a0f)
+   * [Assignments](#assignments)
+   * [Custom Forms](#Custom%C2%A0F)
    * [Settings](#settings)
 
    >[!NOTE]
    >
    >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Edit Issue box might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-#### Issue Name
+#### Issue Name {#issue-name}
 
 1. Begin editing an issue as described above.
 1. Click **Issue Name**.
@@ -124,7 +124,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Update the **Issue Name** field. 
 1. Click **Save** or continue editing the following sections.
 
-#### Overview
+#### Overview {#overview}
 
 1. Begin editing an issue as described above.
 1. Click **Overview**.
@@ -229,7 +229,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Click **Save** or continue editing the following sections.
 
-#### Assignments
+#### Assignments {#assignments}
 
 1. Begin editing the issue as described above.
 1. Click&nbsp;**Assignments** in the left panel.
@@ -290,7 +290,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Click **Save** or continue editing the following section.
 
-#### Settings
+#### Settings {#settings}
 
 1. Begin editing an issue as described above.
 1. Click **Settings**.

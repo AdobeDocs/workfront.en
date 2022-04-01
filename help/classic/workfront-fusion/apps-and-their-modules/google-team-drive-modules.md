@@ -132,16 +132,16 @@ Returns file details when a new file is added and/or modified in the specified f
 
 ### Actions
 
-* [Upload a File](#upload) 
-* [Update a File](#update) 
-* [Copy a File](#copy) 
-* [Delete a File](#delete) 
-* [Move a File to Trash](#move) 
-* [Get a File](#get) 
-* [Get a File List](#get2) 
-* [Create a Folder](#create)
+* [Upload a File](#upload-a-file) 
+* [Update a File](#update-a-file) 
+* [Copy a File](#copy-a-file) 
+* [Delete a File](#delete-a-file) 
+* [Move a File to Trash](#move-a-file-to-trash) 
+* [Get a File](#get-a-file) 
+* [Get a File List](#get-a-file-list) 
+* [Create a Folder](#create-a-folder)
 
-#### Upload a File
+#### Upload a File {#upload-a-file}
 
 Uploads a file to the specified shared drive.
 
@@ -176,7 +176,7 @@ Uploads a file to the specified shared drive.
  </tbody> 
 </table>
 
-#### Update a File
+#### Update a File {#update-a-file}
 
 Allows you to change the file name and/or file content.
 
@@ -215,7 +215,7 @@ Allows you to change the file name and/or file content.
  </tbody> 
 </table>
 
-#### Copy a File
+#### Copy a File {#copy-a-file}
 
 Copies a specified file to the selected folder.
 
@@ -246,7 +246,7 @@ Copies a specified file to the selected folder.
  </tbody> 
 </table>
 
-#### Delete a File
+#### Delete a File {#delete-a-file}
 
 Deletes a specified file.
 
@@ -265,7 +265,7 @@ Deletes a specified file.
  </tbody> 
 </table>
 
-#### Move a File to Trash
+#### Move a File to Trash {#move-a-file-to-trash}
 
 Moves a specified file to the trash bin.
 
@@ -284,7 +284,7 @@ Moves a specified file to the trash bin.
  </tbody> 
 </table>
 
-#### Get a File
+#### Get a File {#get-a-file}
 
 Retrieves details about the specified file.
 
@@ -319,7 +319,7 @@ Retrieves details about the specified file.
  </tbody> 
 </table>
 
-#### Get a File List
+#### Get a File List {#get-a-file-list}
 
 Retrieves files and/or folders details based on the search term.
 
@@ -363,7 +363,7 @@ Retrieves files and/or folders details based on the search term.
  </tbody> 
 </table>
 
-#### Create a Folder
+#### Create a Folder {#create-a-folder}
 
 Creates a new folder.
 

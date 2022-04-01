@@ -24,7 +24,7 @@ The following payment options are available:
 
 We do not accept checks
 
-## Changing your payment method and credit&nbsp;card details
+## Changing your payment method and credit&nbsp;card details {#changing-your-payment-method-and-credit-card-details}
 
 >[!NOTE]
 >
@@ -58,6 +58,6 @@ If you have Satellite accounts, you need to update your credit card details and 
 
 1. Open the accounts list drop-down menu. (1)
 1. Choose the satellite account (2) that is associated with the credit card you want to update.
-1. Continue with [Changing your payment method and credit card details](#change-your-payment-method-and-credit-card-details).  
+1. Continue with [Changing your payment method and credit card details](#changing-your-payment-method-and-credit-card-details).  
    ![Satellite_Account_Billing_Page.png](assets/satellite-account-billing-page-350x167.png)
 

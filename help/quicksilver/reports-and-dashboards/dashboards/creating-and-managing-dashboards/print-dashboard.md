@@ -56,7 +56,7 @@ When printing a dashboard or saving it as a PDF file, some information from the 
 * [What is displayed?](#what-is-displayed) 
 * [What is not displayed?](#what-is-not-displayed)
 
-### What is displayed?
+### What is displayed? {#what-is-displayed}
 
 The following information is included in the printed or exported dashboard file:&nbsp;
 
@@ -66,7 +66,7 @@ The following information is included in the printed or exported dashboard file:
 * All objects on the dashboard, including list views, external web pages, reports, and calendars
 * Your company’s logo, if your Workfront administrator has customized it in your Global Navigation Bar. For more information about branding the Workfront site, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
-### What is not displayed?
+### What is not displayed? {#what-is-not-displayed}
 
 The following information is not included in the printed or exported dashboard file:&nbsp;
 

@@ -80,7 +80,7 @@ You must have the following access to use the functionality in this article:
    * Size of **Data Transfer**
    * Link to **Details**
 
-### View scenario execution history on the History tab
+### View scenario execution history on the History tab {#view-scenario-execution-history-on-the-history-tab}
 
 The History tab shows more detail than is available on the Scenario detail page. You can also filter and sort the executions on the History tab.
 
@@ -103,7 +103,7 @@ The History tab shows more detail than is available on the Scenario detail page.
 
 You can filter the execution history to view only executions with the specified values.
 
-1. Open the full-page history for a scenario as described in [View scenario execution history on the History tab](#view2) in this article.
+1. Open the full-page history for a scenario as described in [View scenario execution history on the History tab](#view-scenario-execution-history-on-the-history-tab) in this article.
 1. Click the filter icon ![](assets/fusion-scenario-filter-icon.png) in the header of the column you want to filter by.
 1. In the filter dialog, enter the values that you want to filter by.
 1. Click **Save**.
@@ -114,7 +114,7 @@ The filter icon is orange in columns with a currently active filter.
 
 You can sort the scenario execution history.
 
-1. Open the full-page history for a scenario as described in [View scenario execution history on the History tab](#view2) in this article.
+1. Open the full-page history for a scenario as described in [View scenario execution history on the History tab](#view-scenario-execution-history-on-the-history-tab) in this article.
 1. Click the Sort icon in the header of the column you want to filter by.
 1. Optional: To reverse the order of the sort, click the Sort icon again.
 

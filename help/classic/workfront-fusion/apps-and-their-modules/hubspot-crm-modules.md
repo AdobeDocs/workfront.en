@@ -60,16 +60,16 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [CRM objects](#crm) 
-* [Records (Deals, Contacts, and Companies)](#records) 
+* [CRM objects](#crm-objects) 
+* [Records (Deals, Contacts, and Companies)](#records-deals-contacts-and-companies) 
 * [Contacts](#contacts) 
 * [Deals](#deals) 
-* [Companies](#companie) 
+* [Companies](#companies) 
 * [Files](#files) 
 * [Tickets](#tickets) 
-* [Make an API Call](#make)
+* [Make an API Call](#make-an-api-call)
 
-### CRM objects
+### CRM objects {#crm-objects}
 
 #### Search for CRM Objects
 
@@ -119,16 +119,16 @@ This search module searches for CRM objects by custom properties or by query. To
  </tbody> 
 </table>
 
-### Records (Deals, Contacts, and Companies)
+### Records (Deals, Contacts, and Companies) {#records-deals-contacts-and-companies}
 
-* [Create a Record (Legacy)](#create) 
-* [Get a Record](#get) 
-* [Update a Record](#update) 
-* [Delete a Record](#delete) 
-* [Get a Record Property](#get2) 
-* [Watch Records](#watch)
+* [Create a Record (Legacy)](#create-a-record-legacy) 
+* [Get a Record](#get-a-record) 
+* [Update a Record](#update-a-record) 
+* [Delete a Record](#delete-a-record) 
+* [Get a Record Property](#get-a-record-property) 
+* [Watch Records](#watch-records)
 
-#### Create a Record (Legacy)
+#### Create a Record (Legacy) {#create-a-record-legacy}
 
 This action module creates contact, a company, or a deal.
 
@@ -151,7 +151,7 @@ This action module creates contact, a company, or a deal.
  </tbody> 
 </table>
 
-#### Get a Record
+#### Get a Record {#get-a-record}
 
 This action module gets details of a contact, a company, or a deal.
 
@@ -187,7 +187,7 @@ This action module gets details of a contact, a company, or a deal.
  </tbody> 
 </table>
 
-#### Update a Record
+#### Update a Record {#update-a-record}
 
 This action module updates a contact, a company, or a deal.
 
@@ -226,7 +226,7 @@ This action module updates a contact, a company, or a deal.
  </tbody> 
 </table>
 
-#### Delete a Record
+#### Delete a Record {#delete-a-record}
 
 This action module deletes a contact, a company, or a deal.
 
@@ -249,7 +249,7 @@ This action module deletes a contact, a company, or a deal.
  </tbody> 
 </table>
 
-#### Get a Record Property
+#### Get a Record Property {#get-a-record-property}
 
 This action module gets metadata for a specific record property by its (internal) name.
 
@@ -276,7 +276,7 @@ This action module gets metadata for a specific record property by its (internal
  </tbody> 
 </table>
 
-#### Watch Records
+#### Watch Records  {#watch-records}
 
 This trigger module starts a scenario when a contact, company, or deal has been modified or created within the last 30 days. Output is limited to 10,000 records.
 
@@ -307,18 +307,18 @@ This trigger module starts a scenario when a contact, company, or deal has been 
  </tbody> 
 </table>
 
-### Contacts
+### Contacts {#contacts}
 
-* [Create/Update a Contact (Legacy)](#create/u) 
-* [Create/Update a Group of Contacts](#create/u2) 
-* [Add Contacts to a List](#add) 
-* [Remove a Contact from a List](#remove) 
-* [Merge contacts](#merge) 
-* [Search for Contacts](#search) 
-* [List Contacts](#list) 
-* [List Contacts of a Company](#list2)
+* [Create/Update a Contact (Legacy)](#create-update-a-contact-legacy) 
+* [Create/Update a Group of Contacts](#create-update-a-group-of-contacts) 
+* [Add Contacts to a List](#add-contacts-to-a-list) 
+* [Remove a Contact from a List](#remove-a-contact-from-a-list) 
+* [Merge contacts](#merge-contacts) 
+* [Search for Contacts](#search-for-contacts) 
+* [List Contacts](#list-contacts) 
+* [List Contacts of a Company](#list-contacts-of-a-company)
 
-#### Create/Update a Contact (Legacy)
+#### Create/Update a Contact (Legacy) {#create-update-a-contact-legacy}
 
 Creates a contact if it doesn't exist in a portal already, or updates it with the latest property values if it does exist in a portal.
 
@@ -337,7 +337,7 @@ Creates a contact if it doesn't exist in a portal already, or updates it with th
  </tbody> 
 </table>
 
-#### Create/Update a Group of Contacts
+#### Create/Update a Group of Contacts {#create-update-a-group-of-contacts}
 
 Creates a group of contacts or updates them if they already exist. Performance is best when batch size is limited to 100 contacts or fewer. Changes made through this endpoint are processed asynchronously, so it can take several minutes for changes to be applied to contact records.
 
@@ -364,7 +364,7 @@ Creates a group of contacts or updates them if they already exist. Performance i
  </tbody> 
 </table>
 
-#### Add Contacts to a List
+#### Add Contacts to a List {#add-contacts-to-a-list}
 
 This module adds contact records that have already been created in the system to a contact list.
 
@@ -391,7 +391,7 @@ This module adds contact records that have already been created in the system to
  </tbody> 
 </table>
 
-#### Remove a Contact from a List
+#### Remove a Contact from a List {#remove-a-contact-from-a-list}
 
 Removes a contact from a contact list.
 
@@ -418,7 +418,7 @@ Removes a contact from a contact list.
  </tbody> 
 </table>
 
-#### Merge contacts
+#### Merge contacts {#merge-contacts}
 
 <table cellspacing="0"> 
  <col> 
@@ -439,7 +439,7 @@ Removes a contact from a contact list.
  </tbody> 
 </table>
 
-#### Search for Contacts
+#### Search for Contacts {#search-for-contacts}
 
 Retrieves a list of contacts using the search query.
 
@@ -462,7 +462,7 @@ Retrieves a list of contacts using the search query.
  </tbody> 
 </table>
 
-#### List Contacts
+#### List Contacts {#list-contacts}
 
 Returns all contacts that have been created in the portal. The output is limited to 5000 contacts. To list previous or next contacts, you can use the advanced parameter to offset the list.
 
@@ -490,7 +490,7 @@ Returns all contacts that have been created in the portal. The output is limited
  </tbody> 
 </table>
 
-#### List Contacts of a Company
+#### List Contacts of a Company {#list-contacts-of-a-company}
 
 Retrieves a list of contacts in the company. The output is limited to 5000 contacts. To list previous or next contacts, you can use the advanced parameter to offset the list.
 
@@ -545,12 +545,12 @@ This trigger module starts a scenario when a new contact is added to a list. Thi
  </tbody> 
 </table>
 
-### Deals
+### Deals  {#deals}
 
-* [List Deal/Ticket Pipelines](#list3) 
-* [Get a Deal's CRM Pipeline](#get3)
+* [List Deal/Ticket Pipelines](#list-deal-ticket-pipelines) 
+* [Get a Deal's CRM Pipeline](#get-a-deal-s-crm-pipeline)
 
-#### List Deal/Ticket Pipelines
+#### List Deal/Ticket Pipelines {#list-deal-ticket-pipelines}
 
 Returns all deal and ticket pipelines for a given portal.
 
@@ -569,7 +569,7 @@ Returns all deal and ticket pipelines for a given portal.
  </tbody> 
 </table>
 
-#### Get a Deal's CRM Pipeline
+#### Get a Deal's CRM Pipeline {#get-a-deal-s-crm-pipeline}
 
 Returns a specific deal pipeline..
 
@@ -592,7 +592,7 @@ Returns a specific deal pipeline..
  </tbody> 
 </table>
 
-### Companies
+### Companies  {#companies}
 
 #### Search for Companies by domain
 
@@ -621,13 +621,13 @@ Retrieves a list of companies based on an exact match to the domain property.
  </tbody> 
 </table>
 
-### Files
+### Files {#files}
 
-* [Create a Folder](#create2) 
-* [Delete a Folder](#delete2) 
-* [Move a File](#move)
+* [Create a Folder](#create-a-folder) 
+* [Delete a Folder](#delete-a-folder) 
+* [Move a File](#move-a-file)
 
-#### Create a Folder
+#### Create a Folder {#create-a-folder}
 
 This module creates a folder.
 
@@ -650,7 +650,7 @@ This module creates a folder.
  </tbody> 
 </table>
 
-#### Delete a Folder
+#### Delete a Folder {#delete-a-folder}
 
 Marks a folder as deleted.
 
@@ -669,7 +669,7 @@ Marks a folder as deleted.
  </tbody> 
 </table>
 
-#### Move a File
+#### Move a File {#move-a-file}
 
 Moves a file to a different folder.
 
@@ -696,7 +696,7 @@ Moves a file to a different folder.
  </tbody> 
 </table>
 
-### Tickets
+### Tickets {#tickets}
 
 #### Delete a Ticket
 
@@ -717,7 +717,7 @@ Deletes an existing ticket by its ID.
  </tbody> 
 </table>
 
-### Make an API Call
+### Make an API Call {#make-an-api-call}
 
 Allows you to perform a custom API call.
 

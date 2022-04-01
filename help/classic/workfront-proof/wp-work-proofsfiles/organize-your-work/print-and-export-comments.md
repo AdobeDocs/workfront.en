@@ -17,23 +17,23 @@ description: The Comments summary can be accessed directly from the following ar
 
 The Comments summary can be accessed directly from the following areas:
 
-* [The Proof Viewer](#proof-viewer) 
-* [The Proof Details Page](#proof-details) 
-* [The Proof Actions Menu](#proof-actions-menu)
+* [The Proof Viewer](#the-proof-viewer) 
+* [The Proof Details Page](#the-proof-details-page) 
+* [The Proof Actions Menu](#the-proof-actions-menu)
 
-### The Proof Viewer
+### The Proof Viewer {#the-proof-viewer}
 
 You can print the proof's Comments summary, including the thumbnails or full-view image of the proof, by clicking on the **Print** icon in the Proof Viewer. (1)
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png) 
 
-### The Proof Details Page
+### The Proof Details Page {#the-proof-details-page}
 
 You can print the proof's Comment summary by clicking on the **Print** icon on the Proof details page. (2)
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png) 
 
-### The Proof Actions Menu
+### The Proof Actions Menu {#the-proof-actions-menu}
 
 You can print the proof's Comment summary by clicking on the **Print** icon in the Proof actions menu.
 

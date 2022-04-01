@@ -77,22 +77,22 @@ If you see the map button above a field or function, you can use it to set varia
 * [Lists](#lists) 
 * [Cards](#cards) 
 * [Members](#members) 
-* [Checklists](#checklis) 
+* [Checklists](#checklists) 
 * [Labels](#labels) 
 * [Comments](#comments)
 
-### Boards
+### Boards {#boards}
 
-* [Watch Boards](#watch) 
-* [Create a Board](#create) 
-* [Edit a Board](#edit) 
-* [Get a Board](#get) 
-* [Search for Boards](#search) 
-* [Archive or Unarchive a Board](#archive) 
-* [Assign a Member to a Board](#assign) 
-* [Unassign a Member from a Board](#unassign)
+* [Watch Boards](#watch-boards) 
+* [Create a Board](#create-a-board) 
+* [Edit a Board](#edit-a-board) 
+* [Get a Board](#get-a-board) 
+* [Search for Boards](#search-for-boards) 
+* [Archive or Unarchive a Board](#archive-or-unarchive-a-board) 
+* [Assign a Member to a Board](#assign-a-member-to-a-board) 
+* [Unassign a Member from a Board](#unassign-a-member-from-a-board)
 
-#### Watch Boards
+#### Watch Boards {#watch-boards}
 
 This trigger module begins a scenario when a new board is added.
 
@@ -111,7 +111,7 @@ This trigger module begins a scenario when a new board is added.
  </tbody> 
 </table>
 
-#### Create a Board
+#### Create a Board {#create-a-board}
 
 This action module creates a new board with the selected settings.
 
@@ -203,7 +203,7 @@ This action module creates a new board with the selected settings.
  </tbody> 
 </table>
 
-#### Edit a Board
+#### Edit a Board {#edit-a-board}
 
 This action module edits the settings of an existing board.
 
@@ -307,7 +307,7 @@ This action module edits the settings of an existing board.
  </tbody> 
 </table>
 
-#### Get a Board
+#### Get a Board {#get-a-board}
 
 This action module retrieves a board's details.
 
@@ -326,7 +326,7 @@ This action module retrieves a board's details.
  </tbody> 
 </table>
 
-#### Search for Boards
+#### Search for Boards {#search-for-boards}
 
 This search module retrieves information about a board that you specify .
 
@@ -357,7 +357,7 @@ This search module retrieves information about a board that you specify .
  </tbody> 
 </table>
 
-#### Archive or Unarchive a Board
+#### Archive or Unarchive a Board {#archive-or-unarchive-a-board}
 
 This action module closes or re-opens a board that you specify .
 
@@ -380,7 +380,7 @@ This action module closes or re-opens a board that you specify .
  </tbody> 
 </table>
 
-#### Assign a Member to a Board
+#### Assign a Member to a Board {#assign-a-member-to-a-board}
 
 This action module assigns a member to a board that you specify .
 
@@ -416,7 +416,7 @@ This action module assigns a member to a board that you specify .
  </tbody> 
 </table>
 
-#### Unassign a Member from a Board
+#### Unassign a Member from a Board {#unassign-a-member-from-a-board}
 
 This action module removes a member from a board.
 
@@ -439,14 +439,14 @@ This action module removes a member from a board.
  </tbody> 
 </table>
 
-### Lists
+### Lists {#lists}
 
-* [Watch cards moved to a list](#watch2) 
-* [Create a List](#create2) 
-* [Edit a List](#edit2) 
-* [Get a List](#get2)
+* [Watch cards moved to a list](#watch-cards-moved-to-a-list) 
+* [Create a List](#create-a-list) 
+* [Edit a List](#edit-a-list) 
+* [Get a List](#get-a-list)
 
-#### Watch cards moved to a list
+#### Watch cards moved to a list {#watch-cards-moved-to-a-list}
 
 This trigger module activates when a card is moved to a specific list.
 
@@ -473,7 +473,7 @@ This trigger module activates when a card is moved to a specific list.
  </tbody> 
 </table>
 
-#### Create a List
+#### Create a List {#create-a-list}
 
 This action module creates a list on a board that you specify .
 
@@ -508,7 +508,7 @@ This action module creates a list on a board that you specify .
  </tbody> 
 </table>
 
-#### Edit a List
+#### Edit a List {#edit-a-list}
 
 This action module edits an existing list.
 
@@ -543,7 +543,7 @@ This action module edits an existing list.
  </tbody> 
 </table>
 
-#### Get a List
+#### Get a List {#get-a-list}
 
 This action module retrieves details about a specific list.
 
@@ -562,17 +562,17 @@ This action module retrieves details about a specific list.
  </tbody> 
 </table>
 
-### Cards
+### Cards {#cards}
 
-* [Watch cards](#watch3) 
-* [Create a card](#create3) 
-* [Edit a Card](#edit3) 
-* [Get a Card](#get3) 
-* [Search for Cards](#search2) 
-* [Archive or Unarchive a Card](#archive2) 
-* [Add an Attachment](#add)
+* [Watch cards](#watch-cards) 
+* [Create a card](#create-a-card) 
+* [Edit a Card](#edit-a-card) 
+* [Get a Card](#get-a-card) 
+* [Search for Cards](#search-for-cards) 
+* [Archive or Unarchive a Card](#archive-or-unarchive-a-card) 
+* [Add an Attachment](#add-an-attachment)
 
-#### Watch cards
+#### Watch cards {#watch-cards}
 
 This trigger module activated when a new card is added.
 
@@ -600,7 +600,7 @@ This trigger module activated when a new card is added.
  </tbody> 
 </table>
 
-#### Create a card
+#### Create a card {#create-a-card}
 
 This action module creates a card in a selected list.
 
@@ -671,7 +671,7 @@ This action module creates a card in a selected list.
  </tbody> 
 </table>
 
-#### Edit a Card
+#### Edit a Card {#edit-a-card}
 
 This action module edits an existing card.
 
@@ -738,7 +738,7 @@ This action module edits an existing card.
  </tbody> 
 </table>
 
-#### Get a Card
+#### Get a Card {#get-a-card}
 
 This action module retrieves a selected card's details.
 
@@ -765,7 +765,7 @@ This action module retrieves a selected card's details.
  </tbody> 
 </table>
 
-#### Search for Cards
+#### Search for Cards {#search-for-cards}
 
 This action module returns cards that match the search query.
 
@@ -814,7 +814,7 @@ This action module returns cards that match the search query.
  </tbody> 
 </table>
 
-#### Archive or Unarchive a Card
+#### Archive or Unarchive a Card {#archive-or-unarchive-a-card}
 
 This action module archives or sends a card back to the board.
 
@@ -837,7 +837,7 @@ This action module archives or sends a card back to the board.
  </tbody> 
 </table>
 
-#### Add an Attachment
+#### Add an Attachment {#add-an-attachment}
 
 This action module adds an attachment to the selected card.
 
@@ -868,22 +868,22 @@ This action module adds an attachment to the selected card.
  </tbody> 
 </table>
 
-### Members
+### Members {#members}
 
-* [Assign a Member to a Board](#assign2) 
-* [Unassign a Member from a Board](#unassign2) 
-* [Add a Member to a Card](#add2) 
-* [Search for Members](#search3)
+* [Assign a Member to a Board](#assign-a-member-to-a-board) 
+* [Unassign a Member from a Board](#unassign-a-member-from-a-board) 
+* [Add a Member to a Card](#add-a-member-to-a-card) 
+* [Search for Members](#search-for-members)
 
-#### Assign a Member to a Board
+#### Assign a Member to a Board {#assign-a-member-to-a-board-1}
 
-See [Assign a Member to a Board](#assign) in this article.
+See [Assign a Member to a Board](#assign-a-member-to-a-board) in this article.
 
-#### Unassign a Member from a Board
+#### Unassign a Member from a Board {#unassign-a-member-from-a-board-1}
 
-See [Unassign a Member from a Board](#unassign) in this article.
+See [Unassign a Member from a Board](#unassign-a-member-from-a-board) in this article.
 
-#### Add a Member to a Card
+#### Add a Member to a Card {#add-a-member-to-a-card}
 
 This action module adds the specified member to the specified card.
 
@@ -906,7 +906,7 @@ This action module adds the specified member to the specified card.
  </tbody> 
 </table>
 
-#### Search for Members
+#### Search for Members {#search-for-members}
 
 This action module retrieves information about Trello members.
 
@@ -933,13 +933,13 @@ This action module retrieves information about Trello members.
  </tbody> 
 </table>
 
-### Checklists
+### Checklists {#checklists}
 
-* [Create a Checklist](#create4) 
-* [Create a Checklist Item](#create5) 
-* [Edit a Checklist Item](#edit4)
+* [Create a Checklist](#create-a-checklist) 
+* [Create a Checklist Item](#create-a-checklist-item) 
+* [Edit a Checklist Item](#edit-a-checklist-item)
 
-#### Create a Checklist
+#### Create a Checklist {#create-a-checklist}
 
 This action module creates a checklist on the selected card.
 
@@ -974,7 +974,7 @@ This action module creates a checklist on the selected card.
  </tbody> 
 </table>
 
-#### Create a Checklist Item
+#### Create a Checklist Item {#create-a-checklist-item}
 
 This action module adds an item to a specific checklist.
 
@@ -1009,7 +1009,7 @@ This action module adds an item to a specific checklist.
  </tbody> 
 </table>
 
-#### Edit a Checklist Item
+#### Edit a Checklist Item {#edit-a-checklist-item}
 
 This action module edits an existing checklist.
 
@@ -1048,7 +1048,7 @@ This action module edits an existing checklist.
  </tbody> 
 </table>
 
-### Labels
+### Labels {#labels}
 
 #### Add a Label to a Card
 
@@ -1073,13 +1073,13 @@ This action module adds a label to a selected card.
  </tbody> 
 </table>
 
-### Comments
+### Comments {#comments}
 
-* [Watch Comments](#watch4) 
-* [Create a Comment in a Card](#create6) 
-* [List Comments in a Card](#list)
+* [Watch Comments](#watch-comments) 
+* [Create a Comment in a Card](#create-a-comment-in-a-card) 
+* [List Comments in a Card](#list-comments-in-a-card)
 
-#### Watch Comments
+#### Watch Comments {#watch-comments}
 
 Retrieves comment details when there is a new comment in a specified location.
 
@@ -1109,7 +1109,7 @@ Retrieves comment details when there is a new comment in a specified location.
  </tbody> 
 </table>
 
-#### Create a Comment in a Card
+#### Create a Comment in a Card {#create-a-comment-in-a-card}
 
 This action module adds a comment to a selected card.
 
@@ -1136,7 +1136,7 @@ This action module adds a comment to a selected card.
  </tbody> 
 </table>
 
-#### List Comments in a Card
+#### List Comments in a Card {#list-comments-in-a-card}
 
 <table cellspacing="0"> 
  <col> 
@@ -1171,10 +1171,10 @@ This action module adds a comment to a selected card.
 
 ## Trello Object IDs
 
-* [How to find the ID or the shortlink of a card in Trello](#how) 
-* [How to find IDs of other objects in Trello](#how2)
+* [How to find the ID or the shortlink of a card in Trello](#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello) 
+* [How to find IDs of other objects in Trello](#how-to-find-ids-of-other-objects-in-trello)
 
-### How to find the ID or the shortlink of a card in Trello
+### How to find the ID or the shortlink of a card in Trello {#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello}
 
 If you want to edit a card or create a new comment, you need to know the ID of the card or its shortlink. You can get this information from the output of the New Card trigger. The shortlink for a card can also be obtained by opening the card and clicking on the Share button. The shortlink can be found in the Link to this card box, at the end of the URL after 
 
@@ -1186,6 +1186,6 @@ https://trello.com/c/
 
 ![](assets/share-and-more-350x575.png)
 
-### How to find IDs of other objects in Trello
+### How to find IDs of other objects in Trello {#how-to-find-ids-of-other-objects-in-trello}
 
 Board, list and comment IDs can only be obtained using triggers. The trello.com website does not show these IDs.

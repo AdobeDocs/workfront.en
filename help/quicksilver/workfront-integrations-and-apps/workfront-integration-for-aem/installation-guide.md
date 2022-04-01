@@ -1,6 +1,6 @@
 
 
-# ```Workfront Tools for AEM User Guide: Installation Guide 1.x.x```
+# ```Workfront Tools for AEM User Guide: Installation Guide 1.x.x```  {#title-heading}
 
 ## Access requirements
 
@@ -30,7 +30,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-# 1 - Prerequisites
+# 1 - Prerequisites {#installationguide1-x-x-1-prerequisites}
 
 Prior to installing/configuring the tools you’ll need to complete a few steps:
 
@@ -55,7 +55,7 @@ Prior to installing/configuring the tools you’ll need to complete a few steps:
    * /apps/dam/cfm/models/editor/components/datatypeproperties
    * /apps/settings/dam/cfm/models/formbuilderconfig
 
-# 2 - Installation
+# 2 - Installation {#installationguide1-x-x-2-installation}
 
 ```For AEMaaCS customers start below otherwise skip ahead to step 1```
 
@@ -99,13 +99,13 @@ To complete the setup process you will need to work with Hoodoo Digital to get a
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To arrange an installation session please contact Hoodoo Digital: help@hoodoo.digital or (801) 896-9667.&nbsp;</p>
 -->
 
-# 3 - Externalizer
+# 3 - Externalizer {#installationguide1-x-x-3-externalizer}
 
 Check that ```Day CQ Link Externalizer``` has been set properly. Day CQ Link Externalizer configuration can be found on AEM’s Web Console Configuration (<aem-server>/system/console/configMgr). Check that ```author```domain is set to your AEM’s author instance domain.
 
 ![](assets/externalizer-350x154.png)
 
-# 4 - System User Configuration
+# 4 - System User Configuration {#installationguide1-x-x-4-systemuserconfiguration}
 
 1. Workfront service user creation is added by the connector package using ACS AEM Commons or Apache Sling Repository Initialization (AEMaaCS), you should check that “workfront-tools” service user has been correctly created. Search for “workfront-tools” user on “AEM Security | Permissions” menu (<aem-server>/security/permissions.html/principal/workfront-tools) and check the users’ permissions.
 
@@ -126,7 +126,7 @@ Check that ```Day CQ Link Externalizer``` has been set properly. Day CQ Link Ext
    
    1. Search for ```workfront-tools``` user on ```AEM Security | Permissions``` menu (<aem-server>/security/permissions.html/principal/workfront-tools) and add the permissions described above.
 
-# 5 - Cloud Services - Connection configuration
+# 5 - Cloud Services - Connection configuration {#installationguide1-x-x-5-cloudservices-connectionconfiguration}
 
 To create ```Workfront Tools``` Cloud Services configuration, from ```AEM Start``` page (<aem-server>/aem/start.html), click on ```Tools```, then ```Cloud Services``` on the left panel and click on ```Workfront Tools Configuration```.
 
@@ -142,7 +142,7 @@ If the connection was successful, you will see a ```green success``` message. Co
 
 ![](assets/connection-configurations-350x208.png)
 
-# 6 - Workfront Custom Integration Configuration
+# 6 - Workfront Custom Integration Configuration {#installationguide1-x-x-6-workfrontcustomintegrationconfiguration}
 
 Create a new ```Custom Integration``` on Adobe Workfront. To do so, click on ```Setup```located on the top navigation, select ```Documents```on the left hand panel and click on ```Custom Integration```. Click on ```Add Custom Integration``` and fill in the fields with the information found in the following table:
 

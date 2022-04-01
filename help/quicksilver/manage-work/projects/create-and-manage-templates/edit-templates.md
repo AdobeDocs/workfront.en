@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Edit a template
+## Edit a template {#edit-a-template}
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
    * [Issues](#issues) 
    * [Comment](#comment)
 
-### Overview
+### Overview {#overview}
 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Overview**.
@@ -171,7 +171,7 @@ You must have the following access to perform the steps in this article:
 
    Click **Save Changes**.
 
-### Finance
+### Finance {#finance}
 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
@@ -217,7 +217,7 @@ You must have the following access to perform the steps in this article:
 
    Click **Save Changes**.
 
-### Portfolio
+### Portfolio {#portfolio}
 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
@@ -251,7 +251,7 @@ You must have the following access to perform the steps in this article:
 
    Click **Save Changes**.
 
-### Settings
+### Settings {#settings}
 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
@@ -374,7 +374,7 @@ You must have the following access to perform the steps in this article:
    Or
 1. Click **Save Changes**.
 
-### Access
+### Access {#access}
 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Access**.
@@ -426,7 +426,7 @@ You must have the following access to perform the steps in this article:
 
    Click **Save Changes**.
 
-### Custom Forms
+### Custom Forms {#custom-forms}
 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Custom Forms**.
@@ -447,7 +447,7 @@ You must have the following access to perform the steps in this article:
 
    Click **Save Changes**.
 
-### Tasks
+### Tasks {#tasks}
 
 You can define the defaults that will be associated with all the new tasks when you add them to a project that is created from the template.
 
@@ -476,7 +476,7 @@ For information about how these settings affect creating new tasks, see [Create 
 
    Click **Save Changes**.
 
-### Issues
+### Issues {#issues}
 
 By editing issue settings, you can prevent users from adding issues inline in the future project created from the template.
 
@@ -505,7 +505,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    Click **Save Changes**.
 
-### Comment
+### Comment {#comment}
 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Comment**.
@@ -598,8 +598,8 @@ You can add the following items to the tasks in the template:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Edit"></a>Overview of Start and Completion Days in a template</h2>
 <ul>
-<li><a href="#start%20da" class="MCXref xref">Start Day</a> </li>
-<li><a href="#completi" class="MCXref xref">Completion Day</a> </li>
+<li><a href="#Start%20Da" class="MCXref xref">Start Day</a> </li>
+<li><a href="#completion-day" class="MCXref xref">Completion Day</a> </li>
 </ul>
 <h3><a name="Start Da"></a>Start Day</h3>
 <p>Consider the following when working with templates and template tasks:</p>
@@ -613,7 +613,7 @@ You can add the following items to the tasks in the template:
 <li> <p>Update the Task Constraints</p> <p>When using date-based Task Constraints, you can manually update the Start Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Start No Earlier Than, Start No Later Than, Must Start On. </p> </li>
 <li>Update the template task predecessors</li>
 </ul>
-<h3><a name="Completi"></a>Completion Day</h3>
+<h3 id="completion-day"><a name="Completi"></a>Completion Day</h3>
 <p>The Completion Day of the template is the day when the last template task completes. By default, all template tasks and the template show a Completion Day of 1, because Workfront assumes that any template task has a Duration of 1 Day. The Completion Day of the template tasks can change and this also changes the Completion Day of the template. The Completion Day of the template becomes the Planned Completion Date of the future project and the Completion Days of the template tasks become the Planned Completion Dates of the future project tasks. </p>
 <p>The following are some actions that might change the Completion Day of the template tasks:</p>
 <ul>

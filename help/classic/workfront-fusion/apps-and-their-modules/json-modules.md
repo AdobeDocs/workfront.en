@@ -54,10 +54,10 @@ You must have the following access to use the functionality in this article:
 
 ## Parse JSON
 
-* [Data structure](#data) 
-* [Collection vs. Array](#collecti)
+* [Data structure](#data-structure) 
+* [Collection vs. Array](#collection-vs-array)
 
-### Data structure
+### Data structure {#data-structure}
 
 The Data structure describes how the JSON data is organized and enables the mapping of individual JSON items to other modules in your scenario. If you don't provide the Data structure, you may manually execute the module and Workfront Fusion will build the structure from the provided JSON:
 
@@ -69,7 +69,7 @@ The Data structure describes how the JSON data is organized and enables the mapp
 
 For more information, see [Data structures](../../workfront-fusion/modules/data-structures.md).
 
-### Collection vs. Array
+### Collection vs. Array {#collection-vs-array}
 
 If the JSON string field contains a collection 
 
@@ -129,13 +129,13 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Aggregate to JSON](#aggregat) 
-* [Convert JSON to XML](#convert) 
-* [Parse JSON](#parse) 
-* [Create JSON](#create) 
-* [Transform JSON](#transfor2)
+* [Aggregate to JSON](#aggregate-to-json) 
+* [Convert JSON to XML](#convert-json-to-xml) 
+* [Parse JSON](#parse-json) 
+* [Create JSON](#create-json) 
+* [Transform JSON](#transform-json)
 
-### Aggregate to JSON
+### Aggregate to JSON {#aggregate-to-json}
 
 This aggregator module aggregates output from a previous module into JSON. 
 
@@ -149,7 +149,7 @@ This aggregator module aggregates output from a previous module into JSON.
   </tr> 
   <tr> 
    <td role="rowheader">Data structure</td> 
-   <td> <p>Select the data structure that you want to use to create JSON. The data structure determines what other fields are available in this module. For more information, see <a href="#data" class="MCXref xref">Data structure</a> in this article.</p> </td> 
+   <td> <p>Select the data structure that you want to use to create JSON. The data structure determines what other fields are available in this module. For more information, see <a href="#data-structure" class="MCXref xref">Data structure</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Indentation</td> 
@@ -166,7 +166,7 @@ This aggregator module aggregates output from a previous module into JSON.
  </tbody> 
 </table>
 
-### Convert JSON to XML
+### Convert JSON to XML {#convert-json-to-xml}
 
 This action module converts a JSON string to XML.
 
@@ -181,7 +181,7 @@ This action module converts a JSON string to XML.
  </tbody> 
 </table>
 
-### Parse JSON
+### Parse JSON {#parse-json}
 
 This action module parses a JSON string into a data structure, which allows you to access the data inside the JSON&nbsp;string.
 
@@ -191,7 +191,7 @@ This action module parses a JSON string into a data structure, which allows you 
  <tbody> 
   <tr> 
    <td role="rowheader">Data structure</td> 
-   <td> <p>Select the data structure that you want to use to create JSON. For more information, see <a href="#data" class="MCXref xref">Data structure</a> in this article.</p> </td> 
+   <td> <p>Select the data structure that you want to use to create JSON. For more information, see <a href="#data-structure" class="MCXref xref">Data structure</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">JSON&nbsp;string </td> 
@@ -200,7 +200,7 @@ This action module parses a JSON string into a data structure, which allows you 
  </tbody> 
 </table>
 
-### Create JSON
+### Create JSON {#create-json}
 
 This action module creates JSON from a data structure.
 
@@ -210,12 +210,12 @@ This action module creates JSON from a data structure.
  <tbody> 
   <tr> 
    <td role="rowheader">Data structure</td> 
-   <td> <p>Select the data structure that you want to use to create JSON. For more information, see <a href="#data" class="MCXref xref">Data structure</a> in this article.</p> </td> 
+   <td> <p>Select the data structure that you want to use to create JSON. For more information, see <a href="#data-structure" class="MCXref xref">Data structure</a> in this article.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Transform JSON
+### Transform JSON {#transform-json}
 
 This action module transforms an object into a json string.
 
@@ -230,7 +230,7 @@ This action module transforms an object into a json string.
  </tbody> 
 </table>
 
-## Transforming data records to JSON
+## Transforming data records to JSON {#transforming-data-records-to-json}
 
 ``` ```**Example: **`````` The following example shows how to transform data records from Google Sheets to JSON format:
 
@@ -280,7 +280,7 @@ This action module transforms an object into a json string.
 
 ### Cannot map data from the Parse JSON module
 
-Make sure that the JSON content is properly mapped into the Parse JSON module and that the data structure is correctly defined. For more information, see [Transforming data records to JSON](#transfor) in this article.
+Make sure that the JSON content is properly mapped into the Parse JSON module and that the data structure is correctly defined. For more information, see [Transforming data records to JSON](#transforming-data-records-to-json) in this article.
 
 ### Module fails when using conditional statements in JSON
 

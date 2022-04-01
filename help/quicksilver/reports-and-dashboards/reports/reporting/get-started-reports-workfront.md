@@ -79,12 +79,12 @@ To create a report you can do one of the following:
 
 For information about creating reports, see the article [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-* [Prerequisites for creating reports](#prerequisites) 
+* [Prerequisites for creating reports](#prerequisites-for-creating-reports) 
 * [Report ownership](#report-ownership) 
-* [Create reports in the builder interface](#create-in-builder) 
-* [Create reports in Text Mode](#create-in-text-mode)
+* [Create reports in the builder interface](#create-reports-in-the-builder-interface) 
+* [Create reports in Text Mode](#create-reports-in-text-mode)
 
-### Prerequisites for creating reports
+### Prerequisites for creating reports {#prerequisites-for-creating-reports}
 
 * You must have a Plan license to create your own reports.  
   For information about the Workfront License Types, see the article [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
@@ -98,7 +98,7 @@ For information about creating reports, see the article [Calendar reports overvi
 
 * You must define one object that you want to report on. Reports are object specific in Workfront and you must start with selecting an object type before you can start building the report. You can only report on objects available in the Workfront interface.
 
-### Report ownership
+### Report ownership {#report-ownership}
 
 When you create a report in Workfront, you become the default owner of the report and it displays in your My&nbsp;Reports section. You cannot change the owner of a report.
 
@@ -110,7 +110,7 @@ You can see who owns a report by checking the **Entered By** field.
 
 ![](assets/nwe-entered-by-350x218.png)
 
-### Create reports in the builder interface
+### Create reports in the builder interface {#create-reports-in-the-builder-interface}
 
 We recommend that you use the report building interface first to build a new report. The interface offers a streamlined set of tools that walk you through putting elements together to create the report you want. You have objects and fields that you can select from lists and add to all your reporting elements.  
 For more information about creating reports in the report building interface, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
@@ -119,7 +119,7 @@ For a list of objects that you can report on, see the [Report on objects](../../
 
 For more information on the fields that you can display in reports, see the article [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-### Create reports in Text Mode
+### Create reports in Text Mode {#create-reports-in-text-mode}
 
 At times, you might be not able to find certain fields in the builder interface, but they might be available in the API.  
 For information about what fields are available in the API, see the article [API Explorer](../../../wf-api/general/api-explorer.md).
@@ -132,17 +132,17 @@ For information about how to use the API Explorer, see the article [Using the AP
 
 Text Mode enables you to create more complex views, filters, groupings, and prompts by allowing you to use fields that are not available in the standard mode interface.
 
-* [Text Mode terminology](#terminology) 
-* [Calculated Columns, Conditional Formatting, and other uses of Text Mode](#calculated-columns-conditional-formatting-other-uses) 
-* [Text Mode samples](#samples)
+* [Text Mode terminology](#text-mode-terminology) 
+* [Calculated Columns, Conditional Formatting, and other uses of Text Mode](#calculated-columns-conditional-formatting-and-other-uses-of-text-mode) 
+* [Text Mode samples](#text-mode-samples)
 
-#### **Text Mode terminology**
+#### **Text Mode terminology** {#text-mode-terminology}
 
 You must use a specific syntax to use the Workfront Text Mode interface.
 
 For more details about the Workfront syntax for text mode, see [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-#### **Calculated Columns, Conditional Formatting, and other uses of Text Mode**
+#### **Calculated Columns, Conditional Formatting, and other uses of Text Mode** {#calculated-columns-conditional-formatting-and-other-uses-of-text-mode}
 
 Outside of reporting on fields that are not available in the builder interface, you can use Text Mode to display calculations or comparisons between certain fields.
 
@@ -155,7 +155,7 @@ For information about comparing fields in conditional formatting, see the articl
 You can also refer to collection fields using Text Mode in reports.  
 For information about using Text Mode to display collection information in a report, see the article [Reference collections in a report](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-#### **Text Mode samples**
+#### **Text Mode samples** {#text-mode-samples}
 
 We have a library of samples of the most used Views, Filters, and Groupings you can create with Text Mode.
 
@@ -179,7 +179,7 @@ Depending on what elements you choose in your report, your report can have the f
 * [Chart tab](#chart-tab) 
 * [Prompts tab](#prompts-tab)
 
-### Details tab
+### Details tab {#details-tab}
 
 The Details tab of a report displays the object of the reports and the attributes that you choose for that object in a list form. Every report has a Details tab.
 
@@ -188,7 +188,7 @@ The Details tab of a report displays the object of the reports and the attribute
 >Information in the Details tab may display differently from the Chart tab based on your time zone.  
 >For example, a user in California completed a task at 9:30 pm PST on February 12. When a user in New York views a report that includes this task completion, the Actual Completion Date displays as February 13 in both the Details tab because it was completed at 12:30 am EST on February 13. However, in the chart, it is included in the February 12 grouping until you expand the chart element.
 
-### Summary tab
+### Summary tab {#summary-tab}
 
 Reports that include a Grouping have a Summary tab.
 
@@ -196,7 +196,7 @@ The same information displayed in list format on the Details tab is summarized a
 
 For information about Groupings, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-### Matrix tab
+### Matrix tab {#matrix-tab}
 
 Reports that include a Matrix Grouping have a Matrix tab.
 
@@ -206,7 +206,7 @@ When you add a Matrix grouping to a report, the Summary tab is replaced by the M
 
 For information about building a Matrix Grouping, see the article [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-### Chart tab
+### Chart tab {#chart-tab}
 
 Reports that include a chart have a Chart tab.
 
@@ -219,7 +219,7 @@ Consider including a chart in your reports for impactful dashboards for your exe
 
 For information about building a report with a chart, see the article [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-### Prompts tab
+### Prompts tab {#prompts-tab}
 
 Reports that include a prompt have a Prompts tab.
 
@@ -233,16 +233,16 @@ After you create a report, you can share it with other users.
 
 You can share a report with other users in the following ways:
 
-* [Give sharing permissions to a report](#giving-sharing-permissions) 
-* [Schedule a report delivery](#schedule-report-delivery) 
-* [Export the results of a report](#export-a-report) 
-* [Add a report to a dashboard](#adding-a-report-to-a-dashboard)
+* [Give sharing permissions to a report](#give-sharing-permissions-to-a-report) 
+* [Schedule a report delivery](#schedule-a-report-delivery) 
+* [Export the results of a report](#export-the-results-of-a-report) 
+* [Add a report to a dashboard](#add-a-report-to-a-dashboard)
 
-### Give sharing permissions to a report
+### Give sharing permissions to a report {#give-sharing-permissions-to-a-report}
 
 You can give sharing permissions to another user to View or Manage a report you create. You can give another user a level of permissions equal or lesser than yours. You can also make a report public using sharing permissions. For information about sharing a report, see [Share a report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
-### Schedule a report delivery
+### Schedule a report delivery {#schedule-a-report-delivery}
 
 You can schedule a report for delivery. The users you are sharing the report with receive an email with an attachment of the report results. The attachment can be in the following formats:
 
@@ -253,7 +253,7 @@ You can schedule a report for delivery. The users you are sharing the report wit
 
 For information about scheduling a report delivery, see the article [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-### Export the results of a report
+### Export the results of a report {#export-the-results-of-a-report}
 
 You can export the results of a report to the following file formats
 
@@ -265,7 +265,7 @@ For information about exporting the results of a report, see the article [Export
 
 After the report is exported to one of these formats, you can share it with other users by emailing it as an attachment or printing it.
 
-### Add a report to a dashboard
+### Add a report to a dashboard {#add-a-report-to-a-dashboard}
 
 You can add a report to a dashboard and share the dashboard with other users. For information about adding reports to a dashboard, see the article [Add a report to a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
 

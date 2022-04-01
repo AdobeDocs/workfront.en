@@ -61,14 +61,14 @@ You must have the following access to perform the steps in this article:
 
 You must be a team owner in Microsoft Teams to install Workfront for Microsoft Teams.
 
-## Install Workfront for Microsoft Teams
+## Install Workfront for Microsoft Teams {#install-workfront-for-microsoft-teams}
 
 As a team owner in Microsoft Teams, you can install the Workfront for Microsoft Teams app for each of your teams either from the Microsoft Store or from a file provided by Workfront.
 
-* [Install Workfront for Microsoft Teams from the Microsoft Store](#installing-from-ms-store) 
-* [Install Workfront for Microsoft Team from a private file](#installing-from-a-private-file)
+* [Install Workfront for Microsoft Teams from the Microsoft Store](#install-workfront-for-microsoft-teams-from-the-microsoft-store) 
+* [Install Workfront for Microsoft Team from a private file](#install-workfront-for-microsoft-team-from-a-private-file)
 
-### Install Workfront for Microsoft Teams from the Microsoft Store
+### Install Workfront for Microsoft Teams from the Microsoft Store  {#install-workfront-for-microsoft-teams-from-the-microsoft-store}
 
 1. Log in to Microsoft Teams as a team owner.
 1. Select the team for whom you want to install the Workfront for Microsoft Teams app.&nbsp; 
@@ -104,9 +104,9 @@ As a team owner in Microsoft Teams, you can install the Workfront for Microsoft 
 
 1. Click**Log in to Workfront** to access Workfront from Microsoft Teams.
 
-   For information about logging in to Workfront, see the [Log in to Workfront from Microsoft Teams](#logging-in-to-workfront) section in this article.&nbsp;
+   For information about logging in to Workfront, see the [Log in to Workfront from Microsoft Teams](#log-in-to-workfront-from-microsoft-teams) section in this article.&nbsp;
 
-### Install Workfront for Microsoft Team from a private file
+### Install Workfront for Microsoft Team from a private file {#install-workfront-for-microsoft-team-from-a-private-file}
 
 If your organization restricts the access to downloading apps from the Microsoft Store, you must contact our Support Team and request a private file of the Workfront for Microsoft Teams app to install the app.
 
@@ -136,13 +136,13 @@ To install Workfront for Microsoft Teams from a private file:
    This adds a Workfront icon under the Type your questions here field. You can quickly access the Search area from here.  
    For information about searching for Workfront items, see [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
-## Log in to Workfront from Microsoft Teams
+## Log in to Workfront from Microsoft Teams {#log-in-to-workfront-from-microsoft-teams}
 
 As a Microsoft Teams team owner, you must install the Workfront for Microsoft Teams app for your team before you or anyone on the team can log in to Workfront from Microsoft Teams.
 
 When you are logged in to Workfront from Microsoft Teams, you can receive Workfront notifications in the Workfront bot channel or you can perform certain actions in Workfront from Microsoft Teams.&nbsp;
 
-For information about installing the Workfront app, see the [Install Workfront for Microsoft Teams](#installing-workfront-for-ms-teams) section in this article.
+For information about installing the Workfront app, see the [Install Workfront for Microsoft Teams](#install-workfront-for-microsoft-teams) section in this article.
 
 For information about accessing Workfront from Microsoft Teams to perform certain actions, see [Access Adobe Workfront from Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md).
 

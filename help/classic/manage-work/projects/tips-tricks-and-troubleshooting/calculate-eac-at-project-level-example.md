@@ -11,15 +11,15 @@ description: PIM = Hour-Based
 
 ## EAC method: Calculate at the project level
 
-* [PIM = Hour-Based](#hour-based-section2) 
-* [PIM= Cost-Based](#cost-based-section2)
+* [PIM = Hour-Based](#pim-hour-based) 
+* [PIM= Cost-Based](#pim-cost-based)
 
-### PIM = Hour-Based
+### PIM = Hour-Based {#pim-hour-based}
 
-* [Simple example: project has no children tasks](#simple) 
-* [Complicated example: project has children tasks](#complica)
+* [Simple example: project has no children tasks](#simple-example-project-has-no-children-tasks) 
+* [Complicated example: project has children tasks](#complicated-example-project-has-children-tasks)
 
-#### **Simple example: project has no children tasks**
+#### **Simple example: project has no children tasks** {#simple-example-project-has-no-children-tasks}
 
 PIM = Hour-Based
 
@@ -92,7 +92,7 @@ EAC Method = Calculate at project level ****
    **EAC for Project** = 30 / .13333  
    **EAC for Project** = 225 hrs
 
-#### **Complicated example: project has children tasks**
+#### **Complicated example: project has children tasks** {#complicated-example-project-has-children-tasks}
 
 PIM = Hour-Based
 
@@ -221,12 +221,12 @@ EAC Method = Calculate at project level
    **EAC for Project** = &nbsp;50 / .22272  
    **EAC for Project** = 224.49 hrs
 
-### PIM= Cost-Based
+### PIM= Cost-Based {#pim-cost-based}
 
-* [Simple example: project has no children tasks](#simple2) 
-* [Complicated example: project has children tasks](#complica2)
+* [Simple example: project has no children tasks](#simple-example-project-has-no-children-tasks) 
+* [Complicated example: project has children tasks](#complicated-example-project-has-children-tasks)
 
-#### **Simple example: project has no children tasks**
+#### **Simple example: project has no children tasks** {#simple-example-project-has-no-children-tasks-1}
 
 PIM = Cost-Based
 
@@ -478,7 +478,7 @@ EAC Method = Calculate at project level
    **EAC****Project** &nbsp;= $22,500.00 + $5,700.00  
    **EAC****Project** &nbsp;= $28,200.00
 
-#### **Complicated example: project has children tasks**
+#### **Complicated example: project has children tasks** {#complicated-example-project-has-children-tasks-1}
 
 PIM = Cost-Based
 

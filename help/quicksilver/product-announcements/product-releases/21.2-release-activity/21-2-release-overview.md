@@ -45,18 +45,18 @@ For specific release dates and times for each cluster, see the
 
 ## Adobe Workfront enhancements
 
-* [Branding changes - Adobe Workfront](#branding) 
-* [Administrator enhancements](#administ) 
-* [Project enhancements](#project) 
-* [Requests enhancements](#requests) 
-* [Resource Management enhancements](#resource) 
-* [Reporting enhancements](#reportin) 
-* [Proofing enhancements](#proofing) 
-* [Integration enhancements](#integrat) 
-* [Other enhancements](#other) 
-* [Mobile enhancements](#mobile)
+* [Branding changes - Adobe Workfront](#branding-changes-adobe-workfront) 
+* [Administrator enhancements](#administrator-enhancements) 
+* [Project enhancements](#project-enhancements) 
+* [Requests enhancements](#requests-enhancements) 
+* [Resource Management enhancements](#resource-management-enhancements) 
+* [Reporting enhancements](#reporting-enhancements) 
+* [Proofing enhancements](#proofing-enhancements) 
+* [Integration enhancements](#integration-enhancements) 
+* [Other enhancements](#other-enhancements) 
+* [Mobile enhancements](#mobile-enhancements)
 
-### Branding changes - Adobe Workfront
+### Branding changes - Adobe Workfront {#branding-changes-adobe-workfront}
 
 <table> 
  <col> 
@@ -73,7 +73,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Administrator enhancements
+### Administrator enhancements {#administrator-enhancements}
 
 <table> 
  <col> 
@@ -142,7 +142,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Project enhancements
+### Project enhancements {#project-enhancements}
 
 <table> 
  <col> 
@@ -207,7 +207,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Requests enhancements
+### Requests enhancements {#requests-enhancements}
 
 <table> 
  <col> 
@@ -248,7 +248,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Resource Management enhancements
+### Resource Management enhancements {#resource-management-enhancements}
 
 <table> 
  <col> 
@@ -281,7 +281,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Reporting enhancements
+### Reporting enhancements {#reporting-enhancements}
 
 <table> 
  <col> 
@@ -310,7 +310,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Proofing enhancements
+### Proofing enhancements {#proofing-enhancements}
 
 <table> 
  <col> 
@@ -335,7 +335,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Integration enhancements
+### Integration enhancements {#integration-enhancements}
 
 <table> 
  <col> 
@@ -360,7 +360,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Other enhancements
+### Other enhancements {#other-enhancements}
 
 <table> 
  <col> 
@@ -399,7 +399,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Mobile enhancements
+### Mobile enhancements {#mobile-enhancements}
 
 <table> 
  <col> 

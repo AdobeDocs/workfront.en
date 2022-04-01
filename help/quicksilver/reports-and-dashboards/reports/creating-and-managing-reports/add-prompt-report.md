@@ -136,7 +136,9 @@ To run a report with a prompt:
 
 ## Limitations of sharing prompted reports
 
-``` ```**Warning: **``````When you share a prompted report outside Workfront, the user viewing the report must be logged in to Workfront to run the report using the prompt. If the user viewing the report is not logged in, all the results of the report display without applying the prompt.
+>[!CAUTION]
+>
+>When you share a prompted report outside Workfront, the user viewing the report must be logged in to Workfront to run the report using the prompt. If the user viewing the report is not logged in, all the results of the report display without applying the prompt.
 
 The following are limitations in sharing prompted reports from Workfront:
 

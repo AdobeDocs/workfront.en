@@ -50,12 +50,12 @@ You must have the following to perform the steps in this article:
 
 To enable authentication to the Workfront web application and the Workfront mobile application with SAML 2.0, complete the following sections:
 
-* [Retrieve the Workfront SSO metadata file](#retrieving-workfront-metatdata) 
-* [Configure Relying Party Trusts](#configuring-relying-party-trusts) 
-* [Configure Claim Rules](#configuring-claim-rules) 
-* [Upload the metadata file and test the connection](#uploading-metadata-file)
+* [Retrieve the Workfront SSO metadata file](#retrieve-the-workfront-sso-metadata-file) 
+* [Configure Relying Party Trusts](#configure-relying-party-trusts) 
+* [Configure Claim Rules](#configure-claim-rules) 
+* [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection)
 
-### Retrieve the Workfront SSO metadata file
+### Retrieve the Workfront SSO metadata file {#retrieve-the-workfront-sso-metadata-file}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -64,9 +64,9 @@ To enable authentication to the Workfront web application and the Workfront mobi
 1. In the **Type** drop-down menu, click **SAML 2.0** to display additional information and options.  
 
 1. Copy the URL that displays after **Metadata URL**. 
-1. Continue to the following section, [Configure Relying Party Trusts](#configuring-relying-party-trusts).
+1. Continue to the following section, [Configure Relying Party Trusts](#configure-relying-party-trusts).
 
-### Configure Relying Party Trusts
+### Configure Relying Party Trusts {#configure-relying-party-trusts}
 
 1. Open the **ADFS Manager** using the Windows server 2008 R2 (version may vary).
 1. Go to **Start.**
@@ -97,9 +97,9 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
    This takes you to the **Ready to Add Trust** section.
 
-1. Continue to the following section [Configure Claim Rules](#configuring-claim-rules).
+1. Continue to the following section [Configure Claim Rules](#configure-claim-rules).
 
-### Configure Claim Rules
+### Configure Claim Rules {#configure-claim-rules}
 
 1. ```<li> <p>Click <strong>Next</strong> in the <b>Ready to Add Trust</b> section, then ensure that the <strong>Open the Edit Claim Rules dialog box</strong> option is selected.</p> <p>This will allow you to edit Claim Rules in a future step.<br><img src="assets/screen-shot-2014-10-22-at-2.53.28-pm-350x236.png" alt="" style="width: 350;height: 236;"></p> </li>``` ```<li>Click <strong>Close</strong>.</li>``` ```<li>Click <strong>Add Rule.</strong></li>``` ```<li> <p>Select <strong>Send LDAP Attribute as Claims</strong>.</p> <p> <img src="assets/screen-shot-2014-10-22-at-2.56.29-pm-350x185.png" alt="" style="width: 350;height: 185;"> </p> </li>``` ```<li>Click <strong>Next</strong> to display the <strong>Configure Claim Rule</strong> step.<br><img src="assets/screen-shot-2014-10-22-at-2.57.00-pm-350x224.png" alt="" style="width: 350;height: 224;"></li>``` ```<li> <p>Specify the following minimum requirements to configure the claim rule: (This will go in the <strong>Federation ID</strong> on the user setup and is used to distinguish who is logging in.)</p>  <table cellspacing="0">   <col>   <col>   <tbody>    <tr>     <td role="rowheader"><strong>Claim rule name:</strong> </td>     <td>Specify a name for the claim rule. For example, "Workfront."</td>    </tr>    <tr>     <td role="rowheader">Attribute store</td>     <td>Select <strong>Active Directory</strong> from the drop-down menu.</td>    </tr>    <tr>     <td role="rowheader">LDAP Attribute</td>     <td>This can be any type of attribute. We recommend using <strong>SAM-Account-Name</strong> for this attribute.</td>    </tr>    <tr>     <td role="rowheader">Outgoing Claim Type</td>     <td>You must select <strong>Name ID</strong> as the outgoing claim type</td>    </tr>   </tbody>  </table> </li>``` ```<li> <p> (Optional) In order to establish auto provisioning, add the following additional claims in both the LDAP Attribute and Outgoing Claim Type:</p>  <ul>   <li style="font-weight: normal;"> <strong>Given Name</strong></li>   <li style="font-weight: normal;"><strong>Surname</strong> </li>   <li style="font-weight: normal;"><strong>E-Mail Address</strong> </li>  </ul> </li>``` ```<li>Click <strong>Finish</strong>, then click <strong>OK</strong> on the next screen.</li>``` ```<li> <p>Right-click the new <strong>Relying Party Trust</strong>, then select <strong>Properties</strong>.</p> <p> <img src="assets/screen-shot-2014-10-22-at-3.03.47-pm-350x129.png" alt="" style="width: 350;height: 129;"> </p> </li>``` ```<li>Select the<strong>Advanced Tab</strong>. And under <strong>Secure Hash Algorithm</strong> select SHA-1 or SHA-256.</li>```
 
@@ -109,9 +109,9 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
 ![](assets/screen-shot-2014-10-22-at-3.04.55-pm-350x232.png)
 
-11. Continue to the following section [Upload the metadata file and test the connection](#uploading-metadata-file).
+11. Continue to the following section [Upload the metadata file and test the connection](#upload-the-metadata-file-and-test-the-connection).
 
-### Upload the metadata file and test the connection
+### Upload the metadata file and test the connection {#upload-the-metadata-file-and-test-the-connection}
 
 1. Open a browser and navigate to https://*<yourserver>*/FederationMetadata/2007-06/FederationMetadata.xml.
 

@@ -45,10 +45,10 @@ You must have the following access to perform the steps in this article:
 
 The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or an agile view.
 
-* [Create or customize a standard view](#customizing-a-standard-view) 
-* [Create or customize an Agile view](#customizing-an-agile-view)
+* [Create or customize a standard view](#create-or-customize-a-standard-view) 
+* [Create or customize an Agile view](#create-or-customize-an-agile-view)
 
-### Create or customize a standard view
+### Create or customize a standard view {#create-or-customize-a-standard-view}
 
 You can create a new standard view, or you can customize an existing standard view that you previously created.
 
@@ -137,7 +137,7 @@ You can create a new standard view, or you can customize an existing standard vi
 
    Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
-### Create or customize an Agile view
+### Create or customize an Agile view {#create-or-customize-an-agile-view}
 
 You can create a new Agile view or customize an existing Agile view that you previously created.
 

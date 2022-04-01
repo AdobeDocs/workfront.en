@@ -112,7 +112,7 @@ You must have the following to perform the steps in this article:
 
 1. Click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.
 
-   If you are a group administrator, you can assign the timesheet profile to groups you administer, but not to teams. For more information, see [Limitations for a group administrator assigning a timesheet profile](#possible) in this article.
+   If you are a group administrator, you can assign the timesheet profile to groups you administer, but not to teams. For more information, see [Limitations for a group administrator assigning a timesheet profile](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) in this article.
 
    >[!NOTE]
    >
@@ -129,7 +129,7 @@ You must have the following to perform the steps in this article:
 
    The first time the timesheet profile generates timesheets, 2 timesheets are created for each user. After that, each time it generates new timesheets, onhe timesheet is created per user.
 
-## Limitations for a group administrator assigning a timesheet profile
+## Limitations for a group administrator assigning a timesheet profile {#limitations-for-a-group-administrator-assigning-a-timesheet-profile}
 
 If you are a group administrator and the administrative access option Timesheets & hours is disabled in your access level, you can create timesheet profiles, but you can assign them only to:
 

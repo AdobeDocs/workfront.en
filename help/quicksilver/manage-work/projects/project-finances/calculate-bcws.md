@@ -21,7 +21,7 @@ Consider the following when reviewing the values for the BCWS on a task or proje
 
   You can configure your project to calculate the PIM using hours or cost and the BCWS is also calculated using the same values.
 
-  For information about configuring how the BCWS is calculated, see the section [Configure how BCWS is calculated](#configur) in this article.
+  For information about configuring how the BCWS is calculated, see the section [Configure how BCWS is calculated](#configure-how-bcws-is-calculated) in this article.
 
 * Workfront calculates the BCWS for a project by adding all the BCWS values from all the parent tasks and individual tasks on the project.
 
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Configure how BCWS is calculated
+## Configure how BCWS is calculated {#configure-how-bcws-is-calculated}
 
 You can configure whether the BCWS is calculated in hours or costs by configuring how the Performance Index Method (PIM) of the project is calculated.
 

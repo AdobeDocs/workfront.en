@@ -35,11 +35,11 @@ After you activate a goal, Workfront Goals starts calculating its progress and d
 | Expected percent complete |How much of the goal should be completed so far in order for the goal to complete on time. Workfront Goals calculates this value by looking at the Duration of the goal and the current moment in time. The goal should display this value at the current time, if it were to complete on time.  |
 | Progress  |A label that indicates whether the goal is on target to be completed on time, or if it is at risk or in trouble of not completing.  |
 
-* [Actual percent complete](#actual) 
-* [Expected percent complete](#expected) 
+* [Actual percent complete](#actual-percent-complete) 
+* [Expected percent complete](#expected-percent-complete) 
 * [Progress](#progress)
 
-### Actual percent complete
+### Actual percent complete {#actual-percent-complete}
 
 Workfront Goals automatically calculates the actual percent complete of a goal based on the percent complete average of the goal progress indicators.&nbsp;
 
@@ -65,7 +65,7 @@ The following items are considered progress indicators for goals:
 
   For example, if a goal has a Result that is 20% complete, a Manual Progress Bar that is 30% complete, a project that is 10% complete and a children goal that is 40% complete, the goal percent complete is 25%.
 
-### Expected percent complete
+### Expected percent complete {#expected-percent-complete}
 
 Workfront Goals automatically calculates the expected percent complete of a goal based on the total number of days in the duration of the goal as well as on the number of days that have passed since the goal start date.
 
@@ -77,7 +77,7 @@ Expected percent complete of goal = Number of days since the goal start date * 1
 
 For example, if a goal is due to complete in 90 days, and today is the 45th day of that duration, then the Expected percent complete is 50%.
 
-### Progress
+### Progress  {#progress}
 
 Workfront Goals calculates a progress percentage and assigns a progress label to goals, based on what&nbsp;percentage from the Expected percent complete has been achieved at the current moment in time. The color of the goal percent complete bar changes to indicate the progress of the goal.
 

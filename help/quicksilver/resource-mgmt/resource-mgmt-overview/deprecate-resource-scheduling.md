@@ -20,7 +20,7 @@ We are currently in the process of deprecating all Scheduling tools from Adobe W
 
 ![](assets/resource-scheduler-global-350x127.png)
 
-If you currently use Scheduling tools you may now consider discontinuing them and start using the Workload Balancer. A large part of functionality is already available in the Workload Balancer. For information, see the section [Feature availability](#understanding-legacy-tools-and-their-replacements) in this article.
+If you currently use Scheduling tools you may now consider discontinuing them and start using the Workload Balancer. A large part of functionality is already available in the Workload Balancer. For information, see the section [Feature availability](#feature-availability) in this article.
 
 ![](assets/workload-balancer-pti-350x111.png)
 
@@ -46,45 +46,45 @@ For information about building up a plan to migrate to the Workload Balancer, se
 
 The following is a tentative timeline for the deprecation process of Resource Scheduling tools:
 
-* [2020.4 release (November 2020)](#2020.4) 
-* [2021.4 release (October 2021)](#2021.4) 
-* [Milestone 1 (date to be determined)](#first) 
-* [Milestone 2 (date to be determined)](#second) 
-* [Milestone 3 (date to be determined)](#mileston) 
-* [Milestone 4 (after the first half of 2022)](#end)
+* [2020.4 release (November 2020)](#2020-4-release-november-2020) 
+* [2021.4 release (October 2021)](#2021-4-release-october-2021) 
+* [Milestone 1 (date to be determined)](#milestone-1-date-to-be-determined) 
+* [Milestone 2 (date to be determined)](#milestone-2-date-to-be-determined) 
+* [Milestone 3 (date to be determined)](#milestone-3-date-to-be-determined) 
+* [Milestone 4 (after the first half of 2022)](#milestone-4-after-the-first-half-of-2022)
 
-### 2020.4 release (November 2020)
+### 2020.4 release (November 2020) {#2020-4-release-november-2020}
 
 * New feature functionality is no longer implemented for the Scheduling solution
 * Only High and Critical severity defects will be prioritized for a fix
 * New Workload Balancer capabilities added to Workfront
 
-### 2021.4 release (October 2021)
+### 2021.4 release (October 2021) {#2021-4-release-october-2021}
 
 * Workload Balancer is set as default for any first-time user of Workfront
 * Enhanced filters that can be shared and include additional fields
 
-### Milestone 1 (date to be determined)
+### Milestone 1 (date to be determined) {#milestone-1-date-to-be-determined}
 
 * All Resource Scheduling tools will be disabled for customers that have not used them within 60 days
 * New Workload Balancer capabilities added to&nbsp;Workfront
 
-### Milestone 2 (date to be determined)
+### Milestone 2 (date to be determined) {#milestone-2-date-to-be-determined}
 
 * All Resource Scheduling tools will be disabled for customers that have not used them within 60 days
 * New Workload Balancer capabilities added to Workfront
 
-### Milestone 3 (date to be determined)
+### Milestone 3 (date to be determined) {#milestone-3-date-to-be-determined}
 
 * All Resource Scheduling tools will be disabled for customers that have not used them within 60 days
 * All new Workload Balancer features will be added only to The new Adobe Workfront experience
 
-### Milestone 4 (after the first half of 2022)
+### Milestone 4 (after the first half of 2022) {#milestone-4-after-the-first-half-of-2022}
 
 * All Resource Scheduling tools will be disabled for all customers 
 * The Workload Balancer remains as the only tool to schedule resources in Workfront.
 
-## Feature availability
+## Feature availability {#feature-availability}
 
 Unless otherwise specified, all Resource Scheduling features have been or will be available in the Workload Balancer. For information about the Workload Balancer, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 

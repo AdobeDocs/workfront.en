@@ -12,7 +12,7 @@ Integrating Adobe Workfront with Slack allows you to access Workfront from Slack
 
 You or your Slack administrator must install the Workfront app in your Slack instance before you can use Workfront from Slack. For more information, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## About slash commands
+## About slash commands {#about-slash-commands}
 
 When using Slack, you type messages inside of a message field. When you start your message with a slash, it becomes a command and it behaves differently than a simple message. The command tells Slack to perform an action.
 
@@ -26,12 +26,12 @@ Remember the following when using a slash command in Slack to access Workfront:
   <pre>/workfront</pre> Or&nbsp; <pre>/wf </pre> followed by a space and the name of an action you want to perform in Workfront.  
   This indicates that your command is meant for the Workfront app. The commands for Workfront work only when you have already configured the Workfront app with your Slack instance.
 
-For a list of all the commands you can run from Slack for Workfront, see [Access Workfront from a slash command in Slack](#access-workfront-from-slash-command).
+For a list of all the commands you can run from Slack for Workfront, see [Access Workfront from a slash command in Slack](#access-workfront-from-a-slash-command-in-slack).
 
-## Log in to Workfront from Slack
+## Log in to Workfront from Slack {#log-in-to-workfront-from-slack}
 
 When you type any command in the message field in Slack, you will be asked to log in to Workfront first.   
-For a complete list of Workfront commands from Slack, see&nbsp;the [Access Workfront from a slash command in Slack](#access-workfront-from-slash-command) section in this article.&nbsp;
+For a complete list of Workfront commands from Slack, see&nbsp;the [Access Workfront from a slash command in Slack](#access-workfront-from-a-slash-command-in-slack) section in this article.&nbsp;
 
 To log in to Workfront from Slack:
 
@@ -58,20 +58,20 @@ To log in to Workfront from Slack:
    The configuration page for Workfront notifications in Slack opens.
 
 1. (Optional) Disable any Workfront notifications that you do not want to receive in Slack.  
-   For information about configuring Workfront settings for Slack, see the [Configure settings](#configuring-preferences) section in this article
+   For information about configuring Workfront settings for Slack, see the [Configure settings](#configure-settings) section in this article
 
 1. Navigate back to your Slack channel.  
    You are logged in to Workfront from your Slack instance.&nbsp;
 
 ## Access Workfront from Slack
 
-* [About slash commands](#access-workfront-with-a-slash-command) 
-* [Access Workfront from a shared link in Slack](#access-workfront-from-shared-link)
+* [About slash commands](#about-slash-commands) 
+* [Access Workfront from a shared link in Slack](#access-workfront-from-a-shared-link-in-slack)
 
-## Access Workfront from a slash command in Slack
+## Access Workfront from a slash command in Slack {#access-workfront-from-a-slash-command-in-slack}
 
 1. Log in to your Slack instance and log in to Workfront from Slack.  
-   For more information about logging in to Workfront from Slack, see [Log in to Workfront from Slack](#logging-in-to-workfront)
+   For more information about logging in to Workfront from Slack, see [Log in to Workfront from Slack](#log-in-to-workfront-from-slack)
 
 1. From any channel, start typing the following command in the message field:&nbsp;  
    <pre>/workfront help</pre> Or&nbsp;  
@@ -173,7 +173,7 @@ To log in to Workfront from Slack:
    * <pre>/wf log in</pre> Logs you in to Workfront from Slack.&nbsp; 
    * <pre>/wf log out </pre> Logs you out of Workfront from Slack. You remain logged in to Workfront if you have a separate Workfront instance open in another browser tab on in another application.&nbsp; 
    * <pre>/wf settings</pre> Gives you access to configuring your Workfront settings in Slack.  
-     For information about configuring Workfront settings in Slack, see [Configure settings](#configuring-preferences).
+     For information about configuring Workfront settings in Slack, see [Configure settings](#configure-settings).
    
    * <pre>/wf help</pre> Displays a complete list of commands for Workfront.&nbsp; 
    * * Visit Workfront Help:&nbsp; * Opens the Slack section on the Workfront Help Site in a new browser tab.&nbsp;
@@ -182,13 +182,13 @@ To log in to Workfront from Slack:
 
 1. (Optional and conditional) Click **Delete** to confirm you want to delete this message.&nbsp;
 
-### Access Workfront from a shared link in Slack
+### Access Workfront from a shared link in Slack {#access-workfront-from-a-shared-link-in-slack}
 
 You can access Workfront objects from a link to those objects that is shared with you in Slack.&nbsp;
 
 For more information about accessing Workfront from a shared link, see [Access Adobe Workfront objects from a shared link in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md).
 
-## Configure settings
+## Configure settings {#configure-settings}
 
 1. Inside a Slack message field, type the following command:  
    <pre>/workfront settings</pre> Or  

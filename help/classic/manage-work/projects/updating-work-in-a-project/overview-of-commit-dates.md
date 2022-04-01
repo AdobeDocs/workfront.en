@@ -36,7 +36,7 @@ Consider the following when working with commit dates:
 >
 >For more information about the Task Owner, see the section [Assignments](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in the article [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-## Notifications and updates triggered by changing the Commit Date
+## Notifications and updates triggered by changing the Commit Date {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
 When a task or issue assignee selects a Commit Date that is different than the Planned Completion Date set by the Project Owner, there are a number of notifications and updates that alert the Project Owner and other users of this change.
 
@@ -96,7 +96,7 @@ The option to undo your selection to start your work is not available when you c
 <p>The Commit Date and the Planned Completion date are no longer the same.</p>
 <p>Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.</p>
 <p>The changes are saved automatically.</p>
-<p>The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. For information about the notifications and updates that are triggered by this change, see the section <a href="#notifica" class="MCXref xref">Notifications and updates triggered by changing the Commit Date</a> in this article.</p>
+<p>The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. For information about the notifications and updates that are triggered by this change, see the section <a href="#notifications-and-updates-triggered-by-changing-the-commit-date" class="MCXref xref">Notifications and updates triggered by changing the Commit Date</a> in this article.</p>
 </div> </li>
 </ol>
 </div>

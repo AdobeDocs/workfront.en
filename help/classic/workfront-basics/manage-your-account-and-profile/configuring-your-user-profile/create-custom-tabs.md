@@ -8,7 +8,7 @@ description: The information you see in the Workfront web application is often d
 
 # Create custom tabs or sections
 
-## Adobe Workfront tabs
+## Adobe Workfront tabs {#adobe-workfront-tabs}
 
 The information you see in the Workfront web application is often displayed in tabs  by default. Each tab contains different information about a Workfront area or object.  
 For more information about the default tabs of Workfront, see the article [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Add a custom tab to a Workfront area or object
+## Add a custom tab to a Workfront area or object {#add-a-custom-tab-to-a-workfront-area-or-object}
 
 Before you can create a custom tab, you must build a dashboard with all the information you want to display on the tab. You may also build an external page.  
 For more information about building dashboards, see the article [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).  
@@ -78,7 +78,7 @@ To add a custom tab:
 1. Go to one of the Workfront areas or objects where you can add a custom tab .  
    Or
 1. Go to an object where you can add a custom tab .  
-   For more information about what areas and objects you can add custom tabs  to, see [Adobe Workfront tabs](#understa) .
+   For more information about what areas and objects you can add custom tabs  to, see [Adobe Workfront tabs](#adobe-workfront-tabs) .
 1. Click **More**, then **Customize Tabs**. 
 1. Click **Add Custom Tab**.  
    ![customize_tabs.png](assets/customize-tabs-350x247.png)
@@ -103,7 +103,7 @@ To add a custom tab:
 
 ## Display custom tabs under an object
 
-For more information about adding a custom tab under an object, see the section [Add a custom tab to a Workfront area or object](#adding-a-custom-tab) in this article.
+For more information about adding a custom tab under an object, see the section [Add a custom tab to a Workfront area or object](#add-a-custom-tab-to-a-workfront-area-or-object) in this article.
 
 When you add a dashboard to a custom tab under an object, the object acts as a filter for the dashboard. For example, if you add a task report on a dashboard and you add the dashboard to a project, the custom tab that contains the dashboard on the project displays only tasks on the project you are viewing.&nbsp;
 

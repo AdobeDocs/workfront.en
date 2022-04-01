@@ -73,12 +73,12 @@ You must have the following to perform the steps in this article:
    * [Actual Dates](#actual-dates)
 
      <!--   
-     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work" class="MCXref xref">Work On It</a> </li>   
+     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
      -->   
    
    * [Access](#access)
 
-   ### New Task Defaults
+   ### New Task Defaults {#new-task-defaults}
 
    <table cellspacing="0"> 
     <col> 
@@ -103,7 +103,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-   ### Issues
+   ### Issues {#issues}
 
    <table cellspacing="0"> 
     <col> 
@@ -140,7 +140,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-   ### Deletion
+   ### Deletion {#deletion}
 
    <table cellspacing="0"> 
     <col> 
@@ -160,7 +160,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-   ### Actual Dates
+   ### Actual Dates {#actual-dates}
 
    <table cellspacing="0"> 
     <col> 
@@ -187,7 +187,7 @@ You must have the following to perform the steps in this article:
 
    <!--
    <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <h3><a name="Work"></a>Work On It</h3>
+   <h3 id="work-on-it"><a name="Work"></a>Work On It</h3>
    <p>You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.</p>
    <p>Workfront's default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.</p>
    <p>To switch to the Start button:</p>
@@ -211,7 +211,7 @@ You must have the following to perform the steps in this article:
    </div>
    -->
 
-   ### Access
+   ### Access {#access}
 
    <table cellspacing="0"> 
     <col> 

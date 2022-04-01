@@ -14,10 +14,10 @@ For information about Gantt chart functionality, see the [Get started with the G
 
 The following sections describe when specific Gantt chart functionality will be available:
 
-* [Gantt Chart at the Project level](#gantt) 
-* [Gantt Chart for a List of Projects](#gantt2)
+* [Gantt Chart at the Project level](#gantt-chart-at-the-project-level) 
+* [Gantt Chart for a List of Projects](#gantt-chart-for-a-list-of-projects)
 
-## Gantt Chart at the Project level
+## Gantt Chart at the Project level {#gantt-chart-at-the-project-level}
 
 | **Feature** |**Before Legacy Gantt Is Removed** |**After Legacy Gantt Is Removed** |**Under Consideration&#42;** |**Not Planned** |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ The following sections describe when specific Gantt chart functionality will be 
 
 &#42;The functionality may or may not be added after the Legacy Gantt Chart is removed depending on customer feedback and other product priorities.
 
-## Gantt Chart for a List of Projects
+## Gantt Chart for a List of Projects {#gantt-chart-for-a-list-of-projects}
 
 | **Feature** |**Before Legacy Gantt Is Removed** |**After Legacy Gantt Is Removed** |**Under Consideration** |**Not Planned** |
 |---|---|---|---|---|

@@ -78,10 +78,10 @@ Use the following checklist when creating goals:
 
 ## Recommendations for managing goals based on your role
 
-* [Manager or CEO](#manager) 
-* [Individual contributor](#individu)
+* [Manager or CEO](#manager-or-ceo) 
+* [Individual contributor](#individual-contributor)
 
-### Manager or CEO
+### Manager or CEO {#manager-or-ceo}
 
 If you are a manager, or a CEO, we recommend the following:
 
@@ -96,7 +96,7 @@ If you are a manager, or a CEO, we recommend the following:
 
   For information about managing goals in the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-### Individual contributor
+### Individual contributor {#individual-contributor}
 
 If you are an individual contributor, we recommend the following:
 

@@ -55,7 +55,7 @@ You need to following:
 
 If your company has purchased a Workfront Scenario Planner license, you can reconcile the resource allocations between the initiative and the project linked to it in the Tasks section of the project.
 
-1. (Conditional) Connect a project with an initiative using one of the methods described in the [Show role allocation for projects and initiatives in the task list](#connect) of this article.
+1. (Conditional) Connect a project with an initiative using one of the methods described in the [Show role allocation for projects and initiatives in the task list](#Connect) of this article.
 
    >[!IMPORTANT]
    >

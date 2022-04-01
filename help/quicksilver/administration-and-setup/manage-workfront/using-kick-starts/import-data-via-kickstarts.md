@@ -272,17 +272,17 @@ To export a Kick-Start template:
    </table>
 
 1. Click **Download**.
-1. Continue with [Populate the spreadsheet template with your data](#populating-the-excel-template-with-your-data-and-uploading-to-workfront) to populate the template with your information.
+1. Continue with [Populate the spreadsheet template with your data](#populate-the-spreadsheet-template-with-your-data) to populate the template with your information.
 
-## Populate the spreadsheet template with your data
+## Populate the spreadsheet template with your data {#populate-the-spreadsheet-template-with-your-data}
 
-* [About the tabs (data sheets) included in the spreadsheet](#about) 
-* [Import a record](#importing-a-record) 
-* [Include dates](#including-dates) 
-* [Use wildcards](#using-wildcards) 
-* [Attribute name substitution for IDs](#understanding-attribute-name-substitution)
+* [About the tabs (data sheets) included in the spreadsheet](#about-the-tabs-data-sheets-included-in-the-spreadsheet) 
+* [Import a record](#import-a-record) 
+* [Include dates](#include-dates) 
+* [Use wildcards](#use-wildcards) 
+* [Attribute name substitution for IDs](#attribute-name-substitution-for-ids)
 
-### About the tabs (data sheets) included in the spreadsheet
+### About the tabs (data sheets) included in the spreadsheet {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
 
 >[!TIP]
 >
@@ -306,7 +306,7 @@ When you open one of these tabs, row 2 displays the fields for each object that 
 >  For example, on the **PROJ Project** tab, the **setCondition** and **setConditionType** fields can be left empty, but the **setGroupID** and **setName** columns cannot.
 >
 
-### Import a record
+### Import a record  {#import-a-record}
 
 Each row of the sheet corresponds to a unique object.
 
@@ -338,7 +338,7 @@ Each row of the sheet corresponds to a unique object.
 
      ``` ```**Example: **``````Type A|D under the DE: Departments column to populate department A and department D in your custom form.
 
-### Include dates
+### Include dates  {#include-dates}
 
 Workfront can process most date formats. However, you must ensure that the date column in the spreadsheet is formatted as a date. The import will fail if the column is formatted as general, a number, or text.
 
@@ -361,7 +361,7 @@ If you omit a time in the date, Workfront does one of the following:
 >
 >For example, if your time stamp is 7336899000, you would input 7336899000000 in the cell.
 
-### Use wildcards
+### Use wildcards {#use-wildcards}
 
 You can use the following wildcards when populating your Kick-Start template spreadsheet:
 
@@ -394,7 +394,7 @@ You can use the following wildcards when populating your Kick-Start template spr
  </tbody> 
 </table>
 
-### Attribute name substitution for IDs
+### Attribute name substitution for IDs  {#attribute-name-substitution-for-ids}
 
 Though it is a best practice to use IDs whenever possible, sometimes it's inconvenient to cross-reference IDs from one sheet to another when setting a **setAttributeID** value. You can reference values by name simply by changing the column header.
 

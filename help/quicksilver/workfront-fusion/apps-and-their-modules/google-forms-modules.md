@@ -86,7 +86,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch Responses
 
@@ -132,18 +132,18 @@ Watches the form for new responses.
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Add a Response](#add) 
-* [Update a Response](#update)
+* [Add a Response](#add-a-response) 
+* [Update a Response](#update-a-response)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#select" class="MCXref xref">Select Responses</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#select-responses" class="MCXref xref">Select Responses</a> </li>
   -->
 
-* [Delete a Response](#delete)
+* [Delete a Response](#delete-a-response)
 
-#### Add a Response
+#### Add a Response {#add-a-response}
 
 This module appends a new response to the bottom of the form's spreadsheet.
 
@@ -188,7 +188,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Update a Response
+#### Update a Response {#update-a-response}
 
 This module updates the selected response.
 
@@ -231,7 +231,7 @@ When you are configuring this module, the following fields display.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4><a name="Select"></a>Select Responses</h4>
+<h4 id="select-responses"><a name="Select"></a>Select Responses</h4>
 <p>This module returns response rows that match the criteria specified on a selected worksheet.</p>
 <table cellspacing="0">
 <col data-mc-conditions="">
@@ -281,7 +281,7 @@ When you are configuring this module, the following fields display.
 </div>
 -->
 
-#### Delete a Response
+#### Delete a Response {#delete-a-response}
 
 This module deletes a selected response.
 
@@ -308,12 +308,12 @@ This module deletes a selected response.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
-* [Search Responses](#search) 
-* [Search Responses (Advanced)](#search2)
+* [Search Responses](#search-responses) 
+* [Search Responses (Advanced)](#search-responses-advanced)
 
-#### Search Responses
+#### Search Responses {#search-responses}
 
 This module returns responses matching the given criteria.
 
@@ -378,7 +378,7 @@ This module returns responses matching the given criteria.
  </tbody> 
 </table>
 
-#### Search Responses (Advanced)
+#### Search Responses (Advanced) {#search-responses-advanced}
 
 This module performs a search using the [Google Charts Query Language](https://developers.google.com/chart/interactive/docs/querylanguage). This module does not return a row number.
 

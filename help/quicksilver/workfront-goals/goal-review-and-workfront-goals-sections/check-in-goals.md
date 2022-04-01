@@ -90,10 +90,10 @@ Consider the following when checking in on your goals:
 
 You can check in on goals at the individual goal level, or you can check in on multiple goals from the Check-in section of Workfront Goals.
 
-* [Check in on individual goals](#check) 
-* [Check in on goals in the Check-in section](#update)
+* [Check in on individual goals](#check-in-on-individual-goals) 
+* [Check in on goals in the Check-in section](#check-in-on-goals-in-the-check-in-section)
 
-### Check in on individual goals
+### Check in on individual goals {#check-in-on-individual-goals}
 
 When you check in on a goal at the goal level, you can update the progress of the results and activities that are assigned to you or other users.
 
@@ -143,7 +143,7 @@ For information about how to update additional information about results and act
 
 1. Click the **X icon** in the upper-right corner of the Goal Details panel to close it.
 
-### Check in on goals in the Check-in section
+### Check in on goals in the Check-in section {#check-in-on-goals-in-the-check-in-section}
 
 You can use the Check-in section to check in on goals when you want to quickly provide updates for several goals at the same time. 
 
@@ -175,7 +175,9 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 1. (Optional) Click **Show all results**,&nbsp;**Show all activities**, or **Show all aligned goals** to the far right of the goal name to display all results, activities, and aligned goals of a goal whose progress you want to update.
 
-   ``` ```**Warning: **``````You cannot directly update aligned goals, but you can update their results and activities. 
+   >[!CAUTION]
+   >
+   >You cannot directly update aligned goals, but you can update their results and activities.
 
 1. Update the current progress on each of the results assigned to you. Depending on what type of result you selected, you can do one of the following:
 

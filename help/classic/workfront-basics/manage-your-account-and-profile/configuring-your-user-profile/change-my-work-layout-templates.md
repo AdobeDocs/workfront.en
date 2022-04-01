@@ -50,13 +50,13 @@ You must have the following access to perform the steps in this article:
 By default, the following layouts are used in the My Work area:&nbsp;
 
 * [Default Working On Tab in the My Work Area](#default-working-on-tab-in-the-my-work-area) 
-* [Default Work Requests Tab in the My Work Area](#default-work-request-tab-in-the-my-work-area)
+* [Default Work Requests Tab in the My Work Area](#default-work-requests-tab-in-the-my-work-area)
 
-### Default Working&nbsp;On Tab in the My Work Area
+### Default Working&nbsp;On Tab in the My Work Area {#default-working-on-tab-in-the-my-work-area}
 
 ![](assets/team-requests-default-adobe-350x153.png)
 
-### Default Work Requests Tab in the My Work Area
+### Default Work Requests Tab in the My Work Area {#default-work-requests-tab-in-the-my-work-area}
 
 ![](assets/mywork-workrequests-default-adobe-350x142.png)
 

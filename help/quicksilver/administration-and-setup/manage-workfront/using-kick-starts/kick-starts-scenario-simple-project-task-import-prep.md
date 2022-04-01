@@ -17,9 +17,9 @@ Describes in detail the available settings and controls for a &nbsp;basic Projec
 The implementation team would rather import project and task information for active projects as opposed to manually inputting this data into the system.
 
 * [Projects](#projects) 
-* [Task list](#task)
+* [Task list](#task-list)
 
-### Projects
+### Projects {#projects}
 
 The following table displays four Projects and their basic details that need to be mapped into the Kick Start file formats.
 
@@ -61,7 +61,7 @@ The following table displays four Projects and their basic details that need to 
    | Group |IT |
    | Company |*YourCompany* |
 
-### Task list
+### Task list {#task-list}
 
 The following task list displays overly simplified task lists for the projects. The only difference between projects is the start dates and progress made on each project.&nbsp;
 

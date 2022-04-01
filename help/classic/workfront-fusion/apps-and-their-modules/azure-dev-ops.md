@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
 To use Azure DevOps modules, you must have an Azure DevOps account.
 
-## Connect Azure DevOps to Workfront Fusion
+## Connect Azure DevOps to Workfront Fusion {#connect-azure-devops-to-workfront-fusion}
 
 1. Add an Azure DevOps module to your scenario.
 1. Click **Add**next to the Connection field.
@@ -91,7 +91,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch for work items
 
@@ -112,17 +112,17 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Custom API Call](#custom) 
-* [Read record](#read) 
-* [Create a record](#create) 
-* [Update a work item](#update) 
-* [Upload an attachment](#upload) 
-* [Download an attachment](#download) 
-* [Link work items](#link)
+* [Custom API Call](#custom-api-call) 
+* [Read record](#read-record) 
+* [Create a record](#create-a-record) 
+* [Update a work item](#update-a-work-item) 
+* [Upload an attachment](#upload-an-attachment) 
+* [Download an attachment](#download-an-attachment) 
+* [Link work items](#link-work-items)
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Azure DevOps API. This way, you can create a data flow automation that can't be accomplished by the other Azure DevOps modules.
 
@@ -134,7 +134,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Base URL</td> 
@@ -170,7 +170,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Read record
+#### Read record {#read-record}
 
 This action module reads data from a single record in Azure DevOps.
 
@@ -186,7 +186,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -207,7 +207,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Create a record
+#### Create a record {#create-a-record}
 
 This action module creates a new project or work item.
 
@@ -219,7 +219,7 @@ The module outputs the object ID for the newly created work item, or the URL and
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -244,7 +244,7 @@ The module outputs the object ID for the newly created work item, or the URL and
  </tbody> 
 </table>
 
-#### Update a work item
+#### Update a work item {#update-a-work-item}
 
 This action module updates an existing work item using its ID.
 
@@ -256,7 +256,7 @@ The module returns the ID of the updated work item.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
@@ -277,7 +277,7 @@ The module returns the ID of the updated work item.
  </tbody> 
 </table>
 
-#### Upload an attachment
+#### Upload an attachment {#upload-an-attachment}
 
 This action module uploads a file and attaches it to a work item.
 
@@ -289,7 +289,7 @@ The module returns the attachment ID and a download URL for the attachment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Project </td> 
@@ -310,7 +310,7 @@ The module returns the attachment ID and a download URL for the attachment.
  </tbody> 
 </table>
 
-#### Download an attachment
+#### Download an attachment {#download-an-attachment}
 
 This action module downloads an attachment.
 
@@ -322,7 +322,7 @@ The module returns the file content of the attachment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Attachment URL</td> 
@@ -331,7 +331,7 @@ The module returns the file content of the attachment.
  </tbody> 
 </table>
 
-#### Link work items
+#### Link work items  {#link-work-items}
 
 This action module links two work items and defines the relationship between them.
 
@@ -345,7 +345,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Work item ID</td> 
@@ -366,7 +366,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
 #### List work items
 
@@ -382,7 +382,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Azure DevOps account to Workfront Fusion, see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect Azure DevOps to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 

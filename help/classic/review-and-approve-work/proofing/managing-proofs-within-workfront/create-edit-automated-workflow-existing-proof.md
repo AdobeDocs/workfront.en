@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
 
 1. Conditional)&nbsp;To use an Automated Workflow template that your Adobe Workfront administrator created and shared with you, click **Add template**, select the template in the box that appears, then click **Add template**.
 
-   For more information, see [About using Automated Workflow templates](#adding-additional-template-to-existing-workflow) in this article.
+   For more information, see [About using Automated Workflow templates](#about-using-automated-workflow-templates) in this article.
 
 1. Add a stage to the Automated Worfklow:
 
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
 
    1. Enter a contact name or email address, and configure settings for reviewers for the stage.
 
-      For information about adding reviewers, see [About adding reviewers to a stage](#about) in this article.
+      For information about adding reviewers, see [About adding reviewers to a stage](#about-adding-reviewers-to-a-stage) in this article.
    
    1. Use any of the following options to further configure the stage:
 
@@ -125,7 +125,7 @@ You must have the following access to perform the steps in this article:
 
 1. When you are finished adding stages, click **Done**.
 
-## About using Automated Workflow templates
+## About using Automated Workflow templates {#about-using-automated-workflow-templates}
 
 Consider the following when you use an Automated Workflow template:
 
@@ -133,7 +133,7 @@ Consider the following when you use an Automated Workflow template:
 1. When a person is added to a sage in an Automated Workflow template, but also already present as a reviewer on the proof, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. 
 1. Your ability to modify an Automated Workflow template depends on the template settings configured by the Workfront administrator, as described in [Create and manage Automated Workflow templates](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.
 
-## About adding reviewers to a stage
+## About adding reviewers to a stage {#about-adding-reviewers-to-a-stage}
 
 Consider the following when&nbsp;adding reviewers to a stage:
 

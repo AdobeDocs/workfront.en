@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Copy a custom form
+## Copy a custom form {#copy-a-custom-form}
 
 You can retain custom form data on a task or issue you want to convert. Because the custom form data must be an exact match on the converted item, it is best practice to duplicate the form and attach it to the new object.
 
@@ -73,7 +73,7 @@ To transfer custom form data from an issue to a task as you are converting the i
 
 1. Copy the custom form on the task or issue you are converting.
 
-   For more information, see [Copy a custom form](#copying-a-custom-form).
+   For more information, see [Copy a custom form](#copy-a-custom-form).
 
 1. Go to the issue you want to convert.
 

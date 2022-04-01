@@ -62,10 +62,10 @@ Your Workfront administrator or a user with a Plan license and administrative ac
 
 You can add a custom form to an object in two ways:
 
-* [Add a custom form to an object by editing the object](#apply2) 
-* [Add a custom form to an object from the Details area](#apply3)
+* [Add a custom form to an object by editing the object](#add-a-custom-form-to-an-object-by-editing-the-object) 
+* [Add a custom form to an object from the Details area](#add-a-custom-form-to-an-object-from-the-details-area)
 
-### Add a custom form to an object by editing the object
+### Add a custom form to an object by editing the object {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Go to the object where you want to add the custom form.
 1. Click the **More** menu ![](assets/more-icon.png), then click **Edit** ![](assets/edit-icon.png).  
@@ -74,7 +74,7 @@ You can add a custom form to an object in two ways:
 1. (Optional) Update the information in the editable fields on the custom form.
 1. Click **Save Changes**.
 
-### Add a custom form to an object from the Details area
+### Add a custom form to an object from the Details area {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. Go to the object where you want to add the custom form.
 1. Click the **<Object type> Details** section in the left panel. For example, click **Project Details** to add custom forms to a project or **Issue Details** to add custom forms to an issue. 

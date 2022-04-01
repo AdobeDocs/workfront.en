@@ -62,13 +62,13 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Transformers
 
-* [Get Elements from HTML](#get) 
-* [Get Elements from HTML](#get) 
-* [HTML to Text](#html) 
-* [Match Pattern](#match) 
+* [Get Elements from HTML](#get-elements-from-html) 
+* [Get Elements from HTML](#get-elements-from-html) 
+* [HTML to Text](#html-to-text) 
+* [Match Pattern](#match-pattern) 
 * [Replace](#replace)
 
-#### Get Elements from HTML
+#### Get Elements from HTML {#get-elements-from-html}
 
 Retrieves the desired elements from HTML code.
 
@@ -119,7 +119,7 @@ Parses elements from text based on the given pattern.
  </tbody> 
 </table>
 
-#### HTML to Text
+#### HTML to Text {#html-to-text}
 
 <table cellspacing="15"> 
  <col> 
@@ -140,7 +140,7 @@ Parses elements from text based on the given pattern.
  </tbody> 
 </table>
 
-#### Match Pattern
+#### Match Pattern {#match-pattern}
 
 The Match pattern module enables you to find and extract string elements matching a search pattern from a given text. This module uses regular expressions (also known as regex or regexp). 
 
@@ -187,7 +187,7 @@ A discussion of regular expressions is beyond the scope of this article. We reco
  </tbody> 
 </table>
 
-#### Replace
+#### Replace {#replace}
 
 Searches the entered text for a specified value or regular expression and replaces the result with the new value. 
 
@@ -197,7 +197,7 @@ Searches the entered text for a specified value or regular expression and replac
  <tbody> 
   <tr> 
    <td>Pattern </td> 
-   <td> <p>Enter the search term. You can also use a regular expression. For more details about the regular expression refer to the <a href="#match" class="MCXref xref">Match Pattern</a> module.</p> </td> 
+   <td> <p>Enter the search term. You can also use a regular expression. For more details about the regular expression refer to the <a href="#match-pattern" class="MCXref xref">Match Pattern</a> module.</p> </td> 
   </tr> 
   <tr> 
    <td>New value</td> 

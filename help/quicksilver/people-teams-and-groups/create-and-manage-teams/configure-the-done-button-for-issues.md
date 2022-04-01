@@ -14,9 +14,9 @@ The Done button can automatically set the status of a task or an issue. By defau
 
 &nbsp;Users with certain permissions can configure the Done button to reflect certain statuses in the system. There are 3 different ways the Done button works for issues in Workfront:
 
-* If the user has an assigned Home Team, a Workfront administrator or a user with a Plan license can configure the Done button to reflect certain statuses for team members. See [Configure the Done button for a Team](#configur) in this article.
+* If the user has an assigned Home Team, a Workfront administrator or a user with a Plan license can configure the Done button to reflect certain statuses for team members. See [Configure the Done button for a Team](#configure-the-done-button-for-a-team) in this article.
 * If the user does not have a Home Team assigned, the Done button for issues is tied to a system-generated Resolved status that has the three-letter code RLV. There are no configuration options available in this scenario. The Done button automatically defaults to this status.
-* If the Resolved (RLV) status is deleted and the user marking the issue as Done has no Home Team, the default issue status is tied to whatever is set as the default for Closed for the group assigned to the project the issue belongs to. The Workfront administrator can configure a system-wide default setting for the group. See [Configure the Done button when the Resolved status has been deleted](#configur2) in this article.
+* If the Resolved (RLV) status is deleted and the user marking the issue as Done has no Home Team, the default issue status is tied to whatever is set as the default for Closed for the group assigned to the project the issue belongs to. The Workfront administrator can configure a system-wide default setting for the group. See [Configure the Done button when the Resolved status has been deleted](#configure-the-done-button-when-the-resolved-status-has-been-deleted) in this article.
 
 ## Access requirements
 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Configure the Done button for a Team
+## Configure the Done button for a Team {#configure-the-done-button-for-a-team}
 
 You can change which status is applied to the work item with the Done button. You can also set multiple statuses and allow the user to choose which status is appropriate.
 
@@ -103,7 +103,7 @@ To associate users with a Home Team:
    The&nbsp;users you selected are now associated with a&nbsp;Home Team. &nbsp;  
    Any team settings, including the statuses associated with the Done button are now visible to these users.&nbsp;
 
-## Configure the Done button when the Resolved status has been deleted
+## Configure the Done button when the Resolved status has been deleted {#configure-the-done-button-when-the-resolved-status-has-been-deleted}
 
 If a user does not have a Home Team and the system-wide default for Resolved (RLV) has been deleted, a Workfront administrator can configure the Closed status for the group on to the project. Workfront selects this status for a closed issue when the user clicks the Done button.
 

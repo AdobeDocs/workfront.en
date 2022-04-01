@@ -1,6 +1,6 @@
 
 
-# ```Workfront Tools for AEM User Guide : Comments Sync```
+# ```Workfront Tools for AEM User Guide : Comments Sync```  {#title-heading}
 
 Creates a comment under an asset representing the Adobe Workfront Note object.
 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
   For instructions, see [Workfront Tools for AEM User Guide: Installation Guide 1.x.x](../../workfront-integrations-and-apps/workfront-integration-for-aem/installation-guide.md)
 
-## Create Event Subscriptions for Note Objects
+## Create Event Subscriptions for Note Objects {#commentssync-createeventsubscriptionsfornoteobjects}
 
 1. Navigate to ```Tools → Cloud Services → Workfront Tools Configuration```. Select the configuration and click ```Properties```.  
    ![](assets/properties-config-350x280.png)

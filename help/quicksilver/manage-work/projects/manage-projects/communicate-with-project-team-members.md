@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Send an email to a Project Team member
+## Send an email to a Project Team member {#send-an-email-to-a-project-team-member}
 
 1. Go to a project whose members of the project team you want to send an email to. 
 1. Click **People** in the left panel. You might need to click **Show More** first.
@@ -74,7 +74,7 @@ You can send project updates to team members and to other users that might not b
 
 1. Send an update to the members of the project team, as described in the
 
-   [Send an email to a Project Team member](#sending-an-email-to-a-project-team-member) section in this article.
+   [Send an email to a Project Team member](#send-an-email-to-a-project-team-member) section in this article.
 
    The update and the names of the users included in it display in the Updates tab of the project.
 

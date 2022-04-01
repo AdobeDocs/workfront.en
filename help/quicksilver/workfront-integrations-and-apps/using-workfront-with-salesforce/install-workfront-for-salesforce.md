@@ -8,14 +8,14 @@ description: To install the app before it becomes available in the Salesforce Ap
 
 # Install Adobe Workfront for Salesforce
 
-To install the app before it becomes available in the Salesforce AppExchange, see [Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace](#install-before-available-in-appexchange).
+To install the app before it becomes available in the Salesforce AppExchange, see [Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
 
 As a Salesforce and Adobe Workfront administrator, you can install Workfront for Salesforce to allow your Salesforce users to submit Workfront requests and automatically create projects without ever leaving Salesforce.
 
 For a general understanding about what you can expect by installing Workfront for Salesforce, see [Adobe Workfront for Salesforce overview](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md).
 
-* [Prerequisites for Installing and Using Workfront for Salesforce](#prerequisites) 
-* [Installing Workfront for Salesforce](#installing-the-app)
+* [Prerequisites for Installing and Using Workfront for Salesforce](#prerequisites-for-installing-and-using-workfront-for-salesforce) 
+* [Installing Workfront for Salesforce](#installing-workfront-for-salesforce)
 
 ## Access requirements
 
@@ -60,7 +60,7 @@ You must have the following access to use the functionality described in this ar
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Prerequisites for Installing and Using Workfront for Salesforce
+## Prerequisites for Installing and Using Workfront for Salesforce {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 
 * You must have a Salesforce instance with access to a system administrator account in order to install the app.
 * You must have a Workfront instance with access to a system administrator account in order to configure the integration.
@@ -69,17 +69,17 @@ You must have the following access to use the functionality described in this ar
    * Create Workfront requests from Salesforce or
    * View Workfront requests or projects in Salesforce.
 
-## Installing Workfront for Salesforce
+## Installing Workfront for Salesforce {#installing-workfront-for-salesforce}
 
 You must be a Salesforce and a Workfront system administrator to install and configure Workfront for Salesforce.&nbsp;
 
 The following subsections describe how to install Workfront for your Salesforce Production environment. You can follow the same steps to install Workfront for your Salesforce Sandbox environment.
 
-* [Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace](#install-before-available-in-appexchange) 
-* [Installing Workfront for Salesforce in the Salesforce Classic Framework](#installing-the-app-classic) 
-* [Installing Workfront for Salesforce in the Salesforce Lightning Experience Framework](#installing-the-app-lightning-experience)
+* [Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace](#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace) 
+* [Installing Workfront for Salesforce in the Salesforce Classic Framework](#installing-workfront-for-salesforce-in-the-salesforce-classic-framework) 
+* [Installing Workfront for Salesforce in the Salesforce Lightning Experience Framework](#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework)
 
-### Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace
+### Installing Workfront for Salesforce before It Becomes Available in the AppExchange Marketplace {#installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace}
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This section needs to be removed when our app is accepted by Salesforce and added to their store.</p>
@@ -123,7 +123,7 @@ To install the app before it's available:
    Salesforce users can use the app once you add the Workfront section to their Opportunity or Account page layouts.  
    For information about configuring the Workfront section for users, see [Configure the Adobe Workfront section for Salesforce users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-### Installing Workfront for Salesforce in the Salesforce Classic Framework
+### Installing Workfront for Salesforce in the Salesforce Classic Framework  {#installing-workfront-for-salesforce-in-the-salesforce-classic-framework}
 
 1. Log in to Salesforce as a system administrator.
 1. Go to **Setup.**
@@ -160,7 +160,7 @@ To install the app before it's available:
    Salesforce users cannot yet use the app until you add the Workfront section to their Opportunity or Account page layouts.  
    For information about configuring the Workfront section for users, see [Configure the Adobe Workfront section for Salesforce users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
-### Installing Workfront for Salesforce in the Salesforce Lightning Experience Framework
+### Installing Workfront for Salesforce in the Salesforce Lightning Experience Framework  {#installing-workfront-for-salesforce-in-the-salesforce-lightning-experience-framework}
 
 1. Log in to Salesforce as a system administrator.
 1. Click the&nbsp;**Setup icon**, then click **Setup**.

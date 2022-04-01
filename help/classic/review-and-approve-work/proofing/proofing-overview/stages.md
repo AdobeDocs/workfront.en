@@ -15,10 +15,10 @@ Proof stages are segments of time in which different users review a proof. As th
 
 Stages occur in two different situations:
 
-* [Create a proof with an Automated workflow](#create) 
-* [Assign deadlines for different reviewers on a proof](#assign)
+* [Create a proof with an Automated workflow](#create-a-proof-with-an-automated-workflow) 
+* [Assign deadlines for different reviewers on a proof](#assign-deadlines-for-different-reviewers-on-a-proof)
 
-## Create a proof with an Automated workflow
+## Create a proof with an Automated workflow {#create-a-proof-with-an-automated-workflow}
 
 When you add an automated workflow to a proof, you set up the stages of review work you want to occur.
 
@@ -36,7 +36,7 @@ For instructions on creating stages for a proof with an automated workflow, see 
 >
 >The user who opened the proof is assigned the role specified in Setup > Review and Approval > Roles for non-recipients that open a document proof.
 
-## Assign deadlines for different reviewers on a proof
+## Assign deadlines for different reviewers on a proof {#assign-deadlines-for-different-reviewers-on-a-proof}
 
 When you assign different proofing deadlines to reviewers on a proof, the system creates a stage for each deadline and groups&nbsp;the reviewers for each deadline in the corresponding stage.&nbsp;
 

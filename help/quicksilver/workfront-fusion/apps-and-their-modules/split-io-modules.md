@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
 To use Split.io modules, you must have a Split.io account.
 
-## Connect Split.io to Workfront Fusion
+## Connect Split.io to Workfront Fusion  {#connect-split-io-to-workfront-fusion}
 
 You can create a connection to your Split.io account directly from inside a Split.io module.
 
@@ -84,19 +84,19 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Actions
+### Actions {#actions}
 
-* [Custom API Call](#custom) 
-* [Get Split](#get5) 
-* [Get Split Definition in Environment](#get6) 
-* [Create Split](#create) 
-* [Delete Split](#delete) 
-* [Create Split Definition in Environment](#create2) 
-* [Remove Split Definition from Environment](#remove) 
-* [Partial Update Split Definition in Environment](#partial) 
-* [Associate Tags](#associat)
+* [Custom API Call](#custom-api-call) 
+* [Get Split](#get-split) 
+* [Get Split Definition in Environment](#get-split-definition-in-environment) 
+* [Create Split](#create-split) 
+* [Delete Split](#delete-split) 
+* [Create Split Definition in Environment](#create-split-definition-in-environment) 
+* [Remove Split Definition from Environment](#remove-split-definition-from-environment) 
+* [Partial Update Split Definition in Environment](#partial-update-split-definition-in-environment) 
+* [Associate Tags](#associate-tags)
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the split.io API. This way, you can create a data flow automation that can't be accomplished by the other split.io modules. 
 
@@ -106,7 +106,7 @@ This action module lets you make a custom authenticated call to the split.io API
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -138,7 +138,7 @@ This action module lets you make a custom authenticated call to the split.io API
  </tbody> 
 </table>
 
-#### Get Split
+#### Get Split {#get-split}
 
 This action module retrieves the split.
 
@@ -148,7 +148,7 @@ This action module retrieves the split.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -161,7 +161,7 @@ This action module retrieves the split.
  </tbody> 
 </table>
 
-#### Get Split Definition in Environment
+#### Get Split Definition in Environment {#get-split-definition-in-environment}
 
 This action module retrieves a specific split definition from the designated environment.
 
@@ -171,7 +171,7 @@ This action module retrieves a specific split definition from the designated env
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -188,7 +188,7 @@ This action module retrieves a specific split definition from the designated env
  </tbody> 
 </table>
 
-#### Create Split
+#### Create Split {#create-split}
 
 This action module creates a new split in your organization, given a traffic type.
 
@@ -202,7 +202,7 @@ This action module creates a new split in your organization, given a traffic typ
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -223,7 +223,7 @@ This action module creates a new split in your organization, given a traffic typ
  </tbody> 
 </table>
 
-#### Delete Split
+#### Delete Split {#delete-split}
 
 This action module deletes a split from your organization. This automatically unconfigures the split definition from all environments.
 
@@ -233,7 +233,7 @@ This action module deletes a split from your organization. This automatically un
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -246,7 +246,7 @@ This action module deletes a split from your organization. This automatically un
  </tbody> 
 </table>
 
-#### Create Split Definition in Environment
+#### Create Split Definition in Environment {#create-split-definition-in-environment}
 
 This action module configures a split definition for a specific environment.
 
@@ -256,7 +256,7 @@ This action module configures a split definition for a specific environment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -293,7 +293,7 @@ This action module configures a split definition for a specific environment.
  </tbody> 
 </table>
 
-#### Remove Split Definition from Environment
+#### Remove Split Definition from Environment {#remove-split-definition-from-environment}
 
 This action module unconfigures a split definition for a specific environment.
 
@@ -303,7 +303,7 @@ This action module unconfigures a split definition for a specific environment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -324,7 +324,7 @@ This action module unconfigures a split definition for a specific environment.
  </tbody> 
 </table>
 
-#### Partial Update Split Definition in Environment
+#### Partial Update Split Definition in Environment {#partial-update-split-definition-in-environment}
 
 This action module updates a split definition for a specific environment.
 
@@ -334,7 +334,7 @@ This action module updates a split definition for a specific environment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -359,7 +359,7 @@ This action module updates a split definition for a specific environment.
  </tbody> 
 </table>
 
-#### Associate Tags
+#### Associate Tags {#associate-tags}
 
 This action module adds tags to the specified object. 
 
@@ -369,7 +369,7 @@ This action module adds tags to the specified object.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -390,15 +390,15 @@ This action module adds tags to the specified object.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
-* [Get Workspaces](#get) 
-* [Get Environments](#get2) 
-* [Get Splits](#get3) 
-* [List Split Definitions in an Environment](#list) 
-* [Get Traffic Types](#get4)
+* [Get Workspaces](#get-workspaces) 
+* [Get Environments](#get-environments) 
+* [Get Splits](#get-splits) 
+* [List Split Definitions in an Environment](#list-split-definitions-in-an-environment) 
+* [Get Traffic Types](#get-traffic-types)
 
-#### Get Workspaces
+#### Get Workspaces {#get-workspaces}
 
 This search module retrieves the workspaces for an organization.
 
@@ -408,7 +408,7 @@ This search module retrieves the workspaces for an organization.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
@@ -417,7 +417,7 @@ This search module retrieves the workspaces for an organization.
  </tbody> 
 </table>
 
-#### Get Environments
+#### Get Environments {#get-environments}
 
 This search module retrieves a list of environments.
 
@@ -427,7 +427,7 @@ This search module retrieves a list of environments.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -436,7 +436,7 @@ This search module retrieves a list of environments.
  </tbody> 
 </table>
 
-#### Get Splits
+#### Get Splits {#get-splits}
 
 This search module retrieves a list of splits.
 
@@ -446,7 +446,7 @@ This search module retrieves a list of splits.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -459,7 +459,7 @@ This search module retrieves a list of splits.
  </tbody> 
 </table>
 
-#### List Split Definitions in an Environment
+#### List Split Definitions in an Environment {#list-split-definitions-in-an-environment}
 
 This search module retrieves a list of split definitions in a given environment.
 
@@ -469,7 +469,7 @@ This search module retrieves a list of split definitions in a given environment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -486,7 +486,7 @@ This search module retrieves a list of split definitions in a given environment.
  </tbody> 
 </table>
 
-#### Get Traffic Types
+#### Get Traffic Types {#get-traffic-types}
 
 This search module retrieves a list of traffic types.
 
@@ -496,7 +496,7 @@ This search module retrieves a list of traffic types.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 

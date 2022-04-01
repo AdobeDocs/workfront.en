@@ -88,12 +88,12 @@ To create a filter for the scheduling timeline on the Working On tab for teams:
 
 You can create a new filter, apply a filter that you previously created, modify a filter that you previously created, or delete a filter. You cannot share filters you create with other users.
 
-* [Create a filter in the Scheduling section (for projects)](#create4) 
-* [Apply a saved filter](#applying-a-saved-filter) 
-* [Modify a saved filter](#modifying-an-existing-filter) 
-* [Delete a saved filter](#deleting-a-filter)
+* [Create a filter in the Scheduling section (for projects)](#create-a-filter-in-the-scheduling-section-for-projects) 
+* [Apply a saved filter](#apply-a-saved-filter) 
+* [Modify a saved filter](#modify-a-saved-filter) 
+* [Delete a saved filter](#delete-a-saved-filter)
 
-### Create a filter in the Scheduling section (for projects)
+### Create a filter in the Scheduling section (for projects) {#create-a-filter-in-the-scheduling-section-for-projects}
 
 Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Scheduling tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
 
@@ -138,7 +138,7 @@ To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for mu
 
 1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-### Apply a saved filter
+### Apply a saved filter {#apply-a-saved-filter}
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ To apply a saved filter for multiple projects:
 
 1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-### Modify a&nbsp;saved&nbsp;filter
+### Modify a&nbsp;saved&nbsp;filter {#modify-a-saved-filter}
 
 >[!NOTE]
 >
@@ -174,7 +174,7 @@ To modify&nbsp;a saved filter for multiple projects:
 
 1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-### Delete a saved filter
+### Delete a saved filter {#delete-a-saved-filter}
 
 >[!NOTE]
 >

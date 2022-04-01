@@ -28,12 +28,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Extract an archive](#extract) 
-* [Create an archive](#create) 
+* [Extract an archive](#extract-an-archive) 
+* [Create an archive](#create-an-archive) 
 * [Inflate](#inflate) 
 * [Deflate](#deflate)
 
-## Extract an archive
+## Extract an archive {#extract-an-archive}
 
 This action module extracts a file you identify from an archive.
 
@@ -54,7 +54,7 @@ The module returns the ID of the  file and any associated fields, along with any
 
 ![](assets/example-dropbox-350x134.png)
 
-## Create an archive
+## Create an archive {#create-an-archive}
 
 This aggregator module adds the desired files to a ZIP or TAR archive.
 
@@ -99,7 +99,7 @@ When you are configuring this module, the following fields display.
 
 ![](assets/example-gmail-350x102.png)
 
-## Inflate
+## Inflate {#inflate}
 
 This transformer module decompresses binary data using an inflation algorithm.
 
@@ -114,7 +114,7 @@ This transformer module decompresses binary data using an inflation algorithm.
  </tbody> 
 </table>
 
-## Deflate
+## Deflate {#deflate}
 
 This transformer module compresses binary data using a deflation algorithm.
 

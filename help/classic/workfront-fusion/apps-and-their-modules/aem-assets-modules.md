@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
   For instructions on setting up Server-to-server flow on the Adobe Developer Console, see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
-## Connect Adobe Experience Manager Assets to Workfront Fusion
+## Connect Adobe Experience Manager Assets to Workfront Fusion {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
 To create a connection for your Adobe Experience Manager Assets modules:
 
@@ -132,7 +132,7 @@ This action module creates a folder or an asset comment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object type</td> 
@@ -159,7 +159,7 @@ This action module retrieves a representation of an existing folder and of its c
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -182,7 +182,7 @@ This action module makes a custom API call to the Adobe Experience Manager Asset
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 

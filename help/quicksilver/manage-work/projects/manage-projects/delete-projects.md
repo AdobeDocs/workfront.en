@@ -45,10 +45,10 @@ You can delete a project in a project list or at the project level.
 
 ## Understand the process of deleting projects
 
-* [Limitations for deleting projects](#access-and-permissions-needed) 
-* [The impact of deleting projects](#the-impact-of-deleting-tasks)
+* [Limitations for deleting projects](#limitations-for-deleting-projects) 
+* [The impact of deleting projects](#the-impact-of-deleting-projects)
 
-### Limitations for deleting projects
+### Limitations for deleting projects  {#limitations-for-deleting-projects}
 
 * Deleted items move to the Recycle Bin for 30 days and can be recovered only by the Workfront administrator.
 
@@ -58,7 +58,7 @@ You can delete a project in a project list or at the project level.
 
   ```For more information about enabling the deletion of tasks, issues``` ```, or projects``` ```where hours are logged, see the "Deletion" section in``` [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-### The impact of deleting projects
+### The impact of deleting projects {#the-impact-of-deleting-projects}
 
 * When you delete a project, you impact other objects linked to the project.
 

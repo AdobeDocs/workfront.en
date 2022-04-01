@@ -42,9 +42,11 @@ You must have the following to perform the steps in this article:
 
 You can delete object types from an existing custom form.
 
-``` ```**Warning: **`````` If people have already attached the custom form to objects of the type you want to delete and added data to it, that data is permanently deleted when you delete that object type on the form. The data might include historical information that users will need later.
-
-In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
+>[!CAUTION]
+>
+>If people have already attached the custom form to objects of the type you want to delete and added data to it, that data is permanently deleted when you delete that object type on the form. The data might include historical information that users will need later.
+>
+>In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

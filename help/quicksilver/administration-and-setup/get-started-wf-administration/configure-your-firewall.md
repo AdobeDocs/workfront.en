@@ -45,18 +45,18 @@ The IP addresses that you must add to your allowlist on your firewall depend on 
 >* Workfront for Salesforce 
 >
 
-* [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip5)<![CDATA[                ]]>
-* [IP addresses to allow for Cluster 4](#cluster-4) 
-* [IP addresses to allow for Cluster 6](#ip3) 
-* [IP addresses to allow for a Test Drive](#ip%20addre2) 
-* [IP addresses to allow when implementing event subscriptions](#ip-addresses-to-whitelist-when-implementing-event-subscriptions) 
-* [IP addresses to allow for enhanced authentication](#ip6) 
+* [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)<![CDATA[                ]]>
+* [IP addresses to allow for Cluster 4](#ip-addresses-to-allow-for-cluster-4) 
+* [IP addresses to allow for Cluster 6](#ip-addresses-to-allow-for-cluster-6) 
+* [IP addresses to allow for a Test Drive](#IP%20Addre2) 
+* [IP addresses to allow when implementing event subscriptions](#ip-addresses-to-allow-when-implementing-event-subscriptions) 
+* [IP addresses to allow for enhanced authentication](#ip-addresses-to-allow-for-enhanced-authentication) 
 * [IP addresses to add for accessing Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion) 
-* [IP addresses to add for using Workfront for Jira](#ip) 
-* [IP addresses to add for using Workfront Ascent](#ip2) 
-* [URLs to add for all clusters Workfront](#urls2)
+* [IP addresses to add for using Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira) 
+* [IP addresses to add for using Workfront Ascent](#ip-addresses-to-add-for-using-workfront-ascent) 
+* [URLs to add for all clusters Workfront](#urls-to-add-for-all-clusters-workfront)
 
-### IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9
+### IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
 If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the following IP addresses.
 
@@ -103,7 +103,7 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
  </tbody> 
 </table>
 
-### IP addresses to allow for Cluster 4
+### IP addresses to allow for Cluster 4 {#ip-addresses-to-allow-for-cluster-4}
 
 If your Production environment is on Cluster 4, add the following IP addresses for SSO, document webhook integrations, and to receive email from the Workfront application:
 
@@ -131,7 +131,7 @@ For information about the following IP addresses, see [New IP addresses for Adob
 * 23.251.239.98
 * 23.251.239.99
 
-### IP addresses to allow for Cluster 6
+### IP addresses to allow for Cluster 6 {#ip-addresses-to-allow-for-cluster-6}
 
 If your Production environment is on Cluster 6, add the following IP addresses.
 
@@ -200,7 +200,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
  </tbody> 
 </table>
 
-### IP addresses to allow when implementing event subscriptions
+### IP addresses to allow when implementing event subscriptions  {#ip-addresses-to-allow-when-implementing-event-subscriptions}
 
 For all environments, add the following IP addresses to receive payloads from Workfront event subscriptions.
 
@@ -235,7 +235,7 @@ For all environments, add the following IP addresses to receive payloads from Wo
  </tbody> 
 </table>
 
-### IP addresses to allow for enhanced authentication
+### IP addresses to allow for enhanced authentication {#ip-addresses-to-allow-for-enhanced-authentication}
 
 Add the following IP addresses to use enhanced authentication for Preview or Production.
 
@@ -299,7 +299,7 @@ Add the following IP addresses to use enhanced authentication for Preview or Pro
  </tbody> 
 </table>
 
-### IP addresses to add for accessing Workfront Fusion
+### IP addresses to add for accessing Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
 Add the following IP addresses to your allowlist to enable Workfront Fusion to access your system.
 
@@ -355,7 +355,7 @@ Also, if your organization uses outbound network filtering, add the following do
 >
 >Outbound network filtering is uncommon. Check with your network administrator to see if you need to update your allowlist to accommodate for it.
 
-### IP addresses to add for using Workfront for Jira
+### IP addresses to add for using Workfront for Jira {#ip-addresses-to-add-for-using-workfront-for-jira}
 
 Add the following IP addresses to your allowlist to use the Workfront for Jira integration.
 
@@ -404,7 +404,7 @@ The jira.workfront.com domain must also be accessible from your corporate server
  </tbody> 
 </table>
 
-### IP addresses to add for using Workfront Ascent
+### IP addresses to add for using Workfront Ascent {#ip-addresses-to-add-for-using-workfront-ascent}
 
 <table cellspacing="0"> 
  <col> 
@@ -456,7 +456,7 @@ If your organization uses outbound network filtering, add the following domains 
 * https://app.pendo.io/
 * https://cdn.pendo.io/
 
-## URLs to add for all clusters Workfront
+## URLs to add for all clusters Workfront {#urls-to-add-for-all-clusters-workfront}
 
 <table cellspacing="0"> 
  <col> 
@@ -488,10 +488,10 @@ The highlighted information in this section was announced on October 15, 2021, a
 
 You must add the following IP addresses to your allowlist in order to use various functions.
 
-* [For callbacks and webcapture proofs](#for) 
-* [For outgoing email](#for2)
+* [For callbacks and webcapture proofs](#for-callbacks-and-webcapture-proofs) 
+* [For outgoing email](#for-outgoing-email)
 
-### For callbacks and webcapture proofs
+### For callbacks and webcapture proofs {#for-callbacks-and-webcapture-proofs}
 
 <table cellspacing="0"> 
  <col> 
@@ -544,7 +544,7 @@ You must add the following IP addresses to your allowlist in order to use variou
  </tbody> 
 </table>
 
-### For outgoing email
+### For outgoing email {#for-outgoing-email}
 
 <table cellspacing="0"> 
  <col> 

@@ -126,10 +126,10 @@ To understand the WBS of a project, you want to view the following task elements
 
 Once you complete your WBS, you can view it in a task list at the project level or in a report.
 
-* [View the WBS in a task list](#viewing) 
-* [View the WBS in a task report](#viewing2)
+* [View the WBS in a task list](#view-the-wbs-in-a-task-list) 
+* [View the WBS in a task report](#view-the-wbs-in-a-task-report)
 
-### View the WBS in a task list
+### View the WBS in a task list {#view-the-wbs-in-a-task-list}
 
 You can view the task list at the project level.
 
@@ -145,7 +145,7 @@ You can view the task list at the project level.
 
    ![](assets/wbs-highlighted-(1)-350x79.png)
 
-### View the WBS in a task report
+### View the WBS in a task report {#view-the-wbs-in-a-task-report}
 
 You can build a task report and display the WBS of the tasks by doing one of the following:
 

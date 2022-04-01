@@ -47,10 +47,10 @@ To view an item that you have previously added as a favorite:
 
 You can add recent items or the current page to the Favorites menu.
 
-* [Add recent items as a favorite](#adding-recent-items-as-a-favorite) 
-* [Add the current item as a favorite](#adding-the-current-item-as-a-favorite)
+* [Add recent items as a favorite](#add-recent-items-as-a-favorite) 
+* [Add the current item as a favorite](#add-the-current-item-as-a-favorite)
 
-### Add recent items as a favorite
+### Add recent items as a favorite {#add-recent-items-as-a-favorite}
 
 1. Click the **Favorites** icon in the upper-right corner of any Workfront page, then select **Recents**.
 
@@ -68,7 +68,7 @@ You can add recent items or the current page to the Favorites menu.
    <li class="preview" value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Hover over the recent item that you want to save as a favorite, then click the star.</p> <p>The recent item displays in the Favorites menu.</p> <p>Click the X on the top right to close the list.</p> <p> <img src="assets/favorite-recent-item-2022-350x375.png" alt="Favorite a recent item" style="width: 350;height: 375;"> </p> </li>
    -->
 
-### Add the current item as a favorite
+### Add the current item as a favorite {#add-the-current-item-as-a-favorite}
 
 1. Go to the page that you want to add as a favorite.
 1. Click the **Favorites** icon ![](assets/favorites-icon.png) in the upper-right corner of any Workfront page, then click **Add Current Page**.

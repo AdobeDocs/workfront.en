@@ -12,12 +12,12 @@ We recently made various improvements to Adobe Workfront One. These improvements
 
 ## Search improvements
 
-* [Filter the search results page](#filter) 
-* [Set personalized search defaults](#set) 
-* [A single search result for Workfront Classic and New Workfront Experience articles](#a) 
-* [Categorized results as you type](#categori)
+* [Filter the search results page](#filter-the-search-results-page) 
+* [Set personalized search defaults](#set-personalized-search-defaults) 
+* [A single search result for Workfront Classic and New Workfront Experience articles](#a-single-search-result-for-workfront-classic-and-new-workfront-experience-articles) 
+* [Categorized results as you type](#categorized-results-as-you-type)
 
-### Filter the search results page
+### Filter the search results page {#filter-the-search-results-page}
 
 After you type your search and press Enter, an improved search results page displays.
 
@@ -31,7 +31,7 @@ Or are you only interested in results pertaining to Workfront Fusion? Select tha
 
 ![](assets/searchresults2-350x140.png)
 
-### Set personalized search defaults
+### Set personalized search defaults {#set-personalized-search-defaults}
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Or are you only interested in results pertaining to Workfront Fusion? Select tha
 
    Your changes are saved automatically.
 
-### A single search result for Workfront Classic and New Workfront Experience articles
+### A single search result for Workfront Classic and New Workfront Experience articles {#a-single-search-result-for-workfront-classic-and-new-workfront-experience-articles}
 
 If your organization is using the new Workfront experience, click the article title in the search results area to see the new Adobe Workfront experience version of the article.
 
@@ -63,9 +63,9 @@ If your organization is still using Workfront Classic, click the link that says,
 
 >[!TIP]
 >
->You can also use the filter to display only Workfront Classic or new Workfront experience articles, as described in [Filter the search results page](#filter). Or, you can set your individual search preferences to favor one or the other, as described in [Set personalized search defaults](#set).
+>You can also use the filter to display only Workfront Classic or new Workfront experience articles, as described in [Filter the search results page](#filter-the-search-results-page). Or, you can set your individual search preferences to favor one or the other, as described in [Set personalized search defaults](#set-personalized-search-defaults).
 
-### Categorized results as you type
+### Categorized results as you type {#categorized-results-as-you-type}
 
 Now when you search Workfront One, possible search results are grouped into helpful categories in the drop-down area as soon as you begin typing.
 
@@ -73,23 +73,23 @@ Now when you search Workfront One, possible search results are grouped into help
 
 ## Navigation improvements
 
-* [Documentation hierarchy in left panel](#document) 
-* [Jump to sections within an article](#jump) 
-* [View the next or previous article](#view)
+* [Documentation hierarchy in left panel](#documentation-hierarchy-in-left-panel) 
+* [Jump to sections within an article](#jump-to-sections-within-an-article) 
+* [View the next or previous article](#view-the-next-or-previous-article)
 
-### Documentation hierarchy in left panel
+### Documentation hierarchy in left panel {#documentation-hierarchy-in-left-panel}
 
 When viewing an article, you can now use the new left-panel to see where that article fits within the overall hierarchy, related articles, its parent folder, and so forth. You can even navigate throughout the hierarchy to explore what else is available.
 
 ![](assets/kanban-350x245.png)
 
-### Jump to sections within an article
+### Jump to sections within an article {#jump-to-sections-within-an-article}
 
 When viewing an article, use the **On this page** section to see the main headings within the article and to jump to a specific section.
 
 ![](assets/onthispage-350x229.png)
 
-### View the next or previous article
+### View the next or previous article {#view-the-next-or-previous-article}
 
 At the bottom of each article, use the provided arrows to go to the next or previous article.
 
@@ -104,14 +104,14 @@ At the bottom of each article, use the provided arrows to go to the next or prev
 
 ## Article improvements
 
-* [Switch between Adobe Workfront Classic and the new Adobe Workfront experience articles](#switch) 
-* [Follow articles](#follow) 
-* [Submit feedback about articles](#submit) 
-* [Mark an article as helpful](#mark) 
-* [Create PDFs of articles](#create) 
-* [Share articles](#share)
+* [Switch between Adobe Workfront Classic and the new Adobe Workfront experience articles](#switch-between-adobe-workfront-classic-and-the-new-adobe-workfront-experience-articles) 
+* [Follow articles](#follow-articles) 
+* [Submit feedback about articles](#submit-feedback-about-articles) 
+* [Mark an article as helpful](#mark-an-article-as-helpful) 
+* [Create PDFs of articles](#create-pdfs-of-articles) 
+* [Share articles](#share-articles)
 
-### Switch between Adobe Workfront Classic and the new Adobe Workfront experience articles
+### Switch between Adobe Workfront Classic and the new Adobe Workfront experience articles {#switch-between-adobe-workfront-classic-and-the-new-adobe-workfront-experience-articles}
 
 Now when you're viewing a Adobe Workfront Classic article, you can easily switch to the new Adobe Workfront experience version of the article (or vice-versa).
 
@@ -119,7 +119,7 @@ Now when you're viewing a Adobe Workfront Classic article, you can easily switch
 
    ![](assets/switch-version-350x179.png)
 
-### Follow articles
+### Follow articles {#follow-articles}
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Use the Notification icon next to the article title to subscribe to receive noti
 
 Notifications are emailed to you on a weekly digest.
 
-### Submit feedback about articles
+### Submit feedback about articles {#submit-feedback-about-articles}
 
 >[!NOTE]
 >
@@ -143,19 +143,19 @@ We monitor your feedback daily!
 
 ![](assets/feedback-350x141.png)
 
-### Mark an article as helpful
+### Mark an article as helpful {#mark-an-article-as-helpful}
 
 Use the W**as this helpful** message at the bottom of each article to let us know whether we’re on the right track in helping you answer your questions.
 
 ![](assets/helpful-350x168.png)
 
-### Create PDFs of articles
+### Create PDFs of articles {#create-pdfs-of-articles}
 
 Quickly create a PDF of any documentation article on Workfront One by clicking the PDF icon next to the article title.
 
 ![](assets/pdficon-350x127.png)
 
-### Share articles
+### Share articles {#share-articles}
 
 Share articles via email or social media by using the **Share Page** option in the More (3-dot) menu next to the article title.
 

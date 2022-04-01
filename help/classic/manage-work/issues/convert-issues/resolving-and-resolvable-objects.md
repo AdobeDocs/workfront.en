@@ -15,7 +15,7 @@ When you convert an issue to a task or a project, the issue becomes the Resolvab
 You can also manually link an issue to a Resolving Object, which can be a task, project, or issue.&nbsp;For information, see [Manually tie the resolution of an issue to other issues, tasks, or projects](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).   
 The original issue becomes the Resolvable Object of the task, project, or issue, in this scenario.
 
-## Set up Adobe Workfront to handle Resolvable Objects
+## Set up Adobe Workfront to handle Resolvable Objects {#set-up-adobe-workfront-to-handle-resolvable-objects}
 
 As a Workfront administrator ```or group administrator```, you can decide how you want to handle the Resolvable Objects in your system ```or for your group.```
 
@@ -40,7 +40,7 @@ For information about setting up preferences for handling Resolvable Objects, se
 <li><p><strong>Automatically update Resolvable Issue status when the status of the Resolving Object changes:</strong> Select this option to tie the resolution of the original issue to the resolution of its Resolving Object. In order for this setting to have any effect, the options to <strong>Keep the original issue and tie its resolution to the task</strong> or<strong>project</strong> must be selected.</p>
 <ul>
 <li>When this setting is enabled, you can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a resolvable object) turns into the custom status, the change also reflects on the status of the issue. The status key must be the same for the issue and project or task statuses.</li>
-<li><p>When this setting is disabled, resolving object statuses are automatically set to the default status, instead of the custom ones. For more information about the default statuses, see <a href="#syncrhonize-statuses" class="MCXref xref">Synchronize the Status of the Resolvable Object with that of the Resolving Object</a>.</p><note type="note">
+<li><p>When this setting is disabled, resolving object statuses are automatically set to the default status, instead of the custom ones. For more information about the default statuses, see <a href="#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object" class="MCXref xref">Synchronize the Status of the Resolvable Object with that of the Resolving Object</a>.</p><note type="note">
 The default status of the issue is controlled by the status of the project or task, regardless of whether this option is selected or not.
 </note></li>
 </ul></li>
@@ -79,7 +79,7 @@ For more information about converting issues to tasks and projects, see [Overvie
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="tying-the-resolution-of-an-issue-to-task-project-issue"></a>Tie the resolution of an issue to a project, task or issue</h2>
 <div>
-<p>You can manually tie the resolution of an issue to the resolution of a project, task, or issue without converting the issue. The issue becomes one of the Resolvable Objects of the project, task, or issue you select. When you do this, a change in the status of the project, task, or issue triggers a change in the status of the original issue, so you cannot manually edit the status of the original issue. <br>For more information about how the status of the Resolving Object affects the Resolvable Object, see <a href="#syncrhonize-statuses" class="MCXref xref">Synchronize the Status of the Resolvable Object with that of the Resolving Object</a>.</p>
+<p>You can manually tie the resolution of an issue to the resolution of a project, task, or issue without converting the issue. The issue becomes one of the Resolvable Objects of the project, task, or issue you select. When you do this, a change in the status of the project, task, or issue triggers a change in the status of the original issue, so you cannot manually edit the status of the original issue. <br>For more information about how the status of the Resolving Object affects the Resolvable Object, see <a href="#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object" class="MCXref xref">Synchronize the Status of the Resolvable Object with that of the Resolving Object</a>.</p>
 <p>You must have Manage permissions on the original issue and View permissions on the project, task, or issue to do this. </p>
 <p>To tie the resolution of an issue to the resolution of a project, task, or issue:</p>
 <ol>
@@ -101,23 +101,23 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 </div>
 -->
 
-## Synchronize the Status of the Resolvable Object with that of the Resolving Object
+## Synchronize the Status of the Resolvable Object with that of the Resolving Object {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [Synchronize statuses when the Resolving Object is an issue](#syncrhonizing-statuses-for-issues) 
-* [Synchronize statuses when the Resolving Object is a task or a project](#synchronizing-statuses-for-projects-and-tasks)
+* [Synchronize statuses when the Resolving Object is an issue](#synchronize-statuses-when-the-resolving-object-is-an-issue) 
+* [Synchronize statuses when the Resolving Object is a task or a project](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
-### Synchronize statuses when the Resolving Object is an issue
+### Synchronize statuses when the Resolving Object is an issue {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
 If an issue is manually tied to another issue, the status of the second issue (Resolving Object) triggers a change in the status of the first issue (Resolvable Object). The status of the first issue matches the status that the second issue is changed to. This applies for both default and custom issue statuses.
 
-### Synchronize statuses when the Resolving Object is a task or a project
+### Synchronize statuses when the Resolving Object is a task or a project {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 When an issue is the Resolvable Object of a task or a project, the changes in the status of the tasks and the projects trigger changes in the status of the issue. Default statuses are triggered differently than Custom statuses, in this case.
 
-* [Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object](#syncrhonizing-default-statuses) 
-* [Synchronize the Custom Status of the Resolving Object with the Custom Status of the Resolvable Object](#syncrhonizing-custom-statuses)
+* [Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object) 
+* [Synchronize the Custom Status of the Resolving Object with the Custom Status of the Resolvable Object](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
-#### **Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object**
+#### **Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object** {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
 Regardless of whether the **Automatically set issue statuses to match the resolvable object using the Status keys****** option is selected or not, every time the default status changes on the Resolving Objects (projects or tasks), the status of the Resolvable Object (issues) changes, accordingly. Only default statuses are already mapped to trigger such a change.
 
@@ -147,11 +147,11 @@ The following default statuses for projects trigger the following changes in the
 >
 >After the status of the issue becomes Closed (as a result of closing the task or the project), regardless of what status the task or project changes to after closing them, the issue remains Closed.
 
-#### **Synchronize the Custom Status of the Resolving Object with the Custom Status of the Resolvable Object**
+#### **Synchronize the Custom Status of the Resolving Object with the Custom Status of the Resolvable Object** {#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object}
 
 When you change the status of the task or project to a custom status, the status of the issue changes to a custom issue status only if the following two conditions are met:
 
-* The **Automatically****set issue statuses to match the resolvable object using the Status keys** option is selected. For more information about how to enable this setting, see [Set up Adobe Workfront to handle Resolvable Objects](#system-setup-to-handle-resolving-objects).
+* The **Automatically****set issue statuses to match the resolvable object using the Status keys** option is selected. For more information about how to enable this setting, see [Set up Adobe Workfront to handle Resolvable Objects](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
 * The custom status of the project or task has the same three letter code as the custom status of the issue.
 

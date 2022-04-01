@@ -20,7 +20,7 @@ description: The Workfront Proof administrator can set up personalized branding 
 
 1. Click the login button at the top right.
 1. Enter your email address and password.  
-   If you've forgotten your password, see the section&nbsp; [When You Forget Your Password](#forgot-your-password)&nbsp;later in this article.
+   If you've forgotten your password, see the section&nbsp; [When You Forget Your Password](#when-you-forget-your-password)&nbsp;later in this article.
 
 1. If you'd like to stay logged in (without your session timing-out after 30 minutes of inactivity), select&nbsp;**Keep me logged in**.
 1. Click **Login**.
@@ -35,7 +35,7 @@ For Enterprise and Unlimited plans, we offer Single Sign-On (SSO) capability, wh
    A message appears to confirm that you are logged out. You can click **Back to login page** to log in again if you want.   
    The Workfront Proof administrator can set up personalized branding for this message. See [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). Or, if&nbsp;and you are using an Enterprise or Unlimited edition plan, see&nbsp; [Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-## When You Forget Your Password
+## When You Forget Your Password {#when-you-forget-your-password}
 
 If you forget your password, you can have Workfront Proof email you a reset email message.
 

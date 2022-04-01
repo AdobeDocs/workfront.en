@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Filter the Work List
+## Filter the Work List {#filter-the-work-list}
 
 You can filter items in the Work List to see only specific types of items. For example, you can filter the work list to display only issues or requests.
 
@@ -228,9 +228,9 @@ You can filter items in the Work List to see only specific types of items. For e
    </div>
    -->
 
-1. (Optional) Further organize the Work List, as described in the section [Group and sort by Date, Project, and Priority](#sorting-by-date-and-project). in this article.
+1. (Optional) Further organize the Work List, as described in the section [Group and sort by Date, Project, and Priority](#group-and-sort-by-date-project-and-priority). in this article.
 
-## Group and sort by Date, Project, and Priority
+## Group and sort by Date, Project, and Priority {#group-and-sort-by-date-project-and-priority}
 
 You can group and sort the Work List by Planned Completion Date, Commit Date, Project, or My Priority. The option you choose determines how items are grouped in the Work List.
 
@@ -312,7 +312,7 @@ In addition, only the names of the work items are searched (information within t
 To search the Work List:
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. (Optional) Filter the Work List, as described in [Filter the Work List](#filtering-by-item-type) and [Group and sort by Date, Project, and Priority](#sorting-by-date-and-project).
+1. (Optional) Filter the Work List, as described in [Filter the Work List](#filter-the-work-list) and [Group and sort by Date, Project, and Priority](#group-and-sort-by-date-project-and-priority).
 
 1. (Optional) If you are searching for a work item that is already complete, you must configure the Work List to display completed items before searching.
 1. Click the **Search** icon at the top of the Work List.  

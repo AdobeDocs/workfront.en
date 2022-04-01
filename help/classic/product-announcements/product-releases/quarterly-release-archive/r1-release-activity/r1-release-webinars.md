@@ -28,13 +28,13 @@ For convenience, the webinar is divided into the following topics:
 * [Configuration](#configuration) 
 * [Mobile and Outlook](#mobile-and-outlook)
 
-### Introduction
+### Introduction {#introduction}
 
 This portion of the webinar contains information about the release process, the Preview sandbox environment, and how to find more information about the release.
 
 ```<iframe class="mt-media" src="assets/210676267?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 
-### Projects
+### Projects {#projects}
 
 This portion of the webinar contains the following topics:
 
@@ -52,7 +52,7 @@ This portion of the webinar contains the following topics:
 
 ```<iframe class="mt-media" src="assets/210676363?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 
-### User Management
+### User Management {#user-management}
 
 This portion of the webinar contains the following topics:
 
@@ -67,7 +67,7 @@ This portion of the webinar contains the following topics:
 
 ```<iframe class="mt-media" src="assets/210676485?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 
-### Configuration
+### Configuration {#configuration}
 
 This portion of the webinar contains the following topics:
 
@@ -82,7 +82,7 @@ This portion of the webinar contains the following topics:
 
 ```<iframe class="mt-media" src="assets/210676560?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 
-### Mobile and Outlook
+### Mobile and Outlook {#mobile-and-outlook}
 
 This portion of the webinar contains the following topics:
 

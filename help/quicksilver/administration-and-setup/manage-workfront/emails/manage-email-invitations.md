@@ -24,8 +24,8 @@ All new users see the same email when an email invitation is sent.
 
 For information about receiving email invitations, see [Receive email invitations and create a password for Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
-* [Generate email invitations](#generating-email-invitations) 
-* [Configure email invitations](#configuring-email-invitations)
+* [Generate email invitations](#generate-email-invitations) 
+* [Configure email invitations](#configure-email-invitations)
 
 ## Access requirements
 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Generate email invitations
+## Generate email invitations {#generate-email-invitations}
 
 Email invitations are generated in the following scenarios:
 
@@ -74,7 +74,7 @@ To manually generate email invitations to existing unregistered users:
 
    An email invitation is sent to the new user with a new link they can use to create their Workfront password.
 
-## Configure email invitations
+## Configure email invitations {#configure-email-invitations}
 
 As a Workfront administrator, you can configure the message you include with the email invitations for new users.
 

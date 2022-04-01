@@ -55,10 +55,10 @@ To access reports that you have created or that have been shared with you or sha
 
 You can use folders to organize the reports that you create. You cannot organize reports that have been shared with you, shared publicly, or system reports.
 
-* [Create a new folder for reports](#creating-a-new-folder-for-reports) 
-* [Add reports to a folder](#adding-reports-to-a-folder)
+* [Create a new folder for reports](#create-a-new-folder-for-reports) 
+* [Add reports to a folder](#add-reports-to-a-folder)
 
-### Create a new folder for reports
+### Create a new folder for reports {#create-a-new-folder-for-reports}
 
 1. Click **Reporting** in the Global Navigation Bar, then click the **Reports** tab. 
 
@@ -67,13 +67,13 @@ You can use folders to organize the reports that you create. You cannot organize
 
 1. Specify a name for the new folder, then press Enter.
 1. From the **My Reports** folder, add reports to the new folder.  
-   For information about adding a report to a new folder, see the [Add reports to a folder](#adding-reports-to-a-folder) section in this article.
+   For information about adding a report to a new folder, see the [Add reports to a folder](#add-reports-to-a-folder) section in this article.
 
    >[!NOTE]
    >
    >You can only add new folders to the **My Reports** folder. You cannot add new folders or reports to the **Shared with Me** or **All Reports** folders.
 
-### Add reports to a folder
+### Add reports to a folder {#add-reports-to-a-folder}
 
 1. Click **Reporting** in the Global Navigation Bar, then click the **Reports** tab. 
 

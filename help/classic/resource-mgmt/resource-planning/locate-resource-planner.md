@@ -49,10 +49,10 @@ For information about Resource Planner prerequisites, see [Get started with Reso
 
 You can locate the Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.
 
-* [Use the Resource Planner for multiple projects](#access) 
-* [Use the Resource Planner for one project](#access2)
+* [Use the Resource Planner for multiple projects](#use-the-resource-planner-for-multiple-projects) 
+* [Use the Resource Planner for one project](#use-the-resource-planner-for-one-project)
 
-### Use the Resource Planner for multiple projects
+### Use the Resource Planner for multiple projects {#use-the-resource-planner-for-multiple-projects}
 
 When using the Resource Planner for multiple projects, the allocation numbers for your resources represent numbers across multiple projects.
 
@@ -69,7 +69,7 @@ To access the Resource Planner subtab in the People area:
 1. Click **Resource Planner** to open the Resource Planner and review the budgeting of your resources.  
    For information about budgeting in the Resource Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-### Use the Resource Planner for one project
+### Use the Resource Planner for one project {#use-the-resource-planner-for-one-project}
 
 When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project.
 

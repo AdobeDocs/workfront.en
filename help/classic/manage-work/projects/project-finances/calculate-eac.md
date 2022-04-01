@@ -46,18 +46,18 @@ You must have the following access to perform the steps in this article:
 
 As part of project system preferences, the Adobe Workfront administrator can define how&nbsp;to calculate the EAC. EAC can be calculated in one of the following two ways:
 
-* [Calculate at the project level](#calculate-at-project-level) 
-* [Roll up from tasks and subtasks](#roll-up-from-tasks-subtasks)
+* [Calculate at the project level](#calculate-at-the-project-level) 
+* [Roll up from tasks and subtasks](#roll-up-from-tasks-and-subtasks)
 
 For more information about setting up project preferences in Workfront, including how to calculate the Estimate at Completion, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 As a project manager, you can also change this preference at the project level, in the Finance sub-tab of the project. For more information about editing the Finance sub-tab of a project, see [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
-### Calculate at the project level
+### Calculate at the project level {#calculate-at-the-project-level}
 
 EAC for the parent task and project are determined by entering the actual hours/actual labor cost into the EAC Formulas. This calculation includes Actual Hours/ costs and expenses added directly to the parent task or project.
 
-### Roll up from tasks and subtasks
+### Roll up from tasks and subtasks {#roll-up-from-tasks-and-subtasks}
 
 EAC for the parent task and project are determined by summing up the EAC for each child task. This calculation excludes Actual Hours/ costs and expenses added directly to the parent task or project.
 
@@ -65,10 +65,10 @@ EAC for the parent task and project are determined by summing up the EAC for eac
 
 In Workfront, the calculation for EAC depends on the selected&nbsp;Performance Index Method (PIM)&nbsp;of the project. For more information about setting the PIM for your system or for your project, see [Set the Performance Index Method (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
-* [Calculate EAC using Hour-based PIM](#hour-based-pim) 
-* [Calculate EAC using Cost-based PIM](#cost-based-pim)
+* [Calculate EAC using Hour-based PIM](#calculate-eac-using-hour-based-pim) 
+* [Calculate EAC using Cost-based PIM](#calculate-eac-using-cost-based-pim)
 
-### Calculate EAC using Hour-based PIM
+### Calculate EAC using Hour-based PIM {#calculate-eac-using-hour-based-pim}
 
 ```
 EAC = Total Planned Hours / CPI*
@@ -78,7 +78,7 @@ EAC = Total Planned Hours / CPI*
 
 For more information about calculating CPI, see [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-### Calculate EAC using Cost-based PIM
+### Calculate EAC using Cost-based PIM {#calculate-eac-using-cost-based-pim}
 
 The EAC of a project is calculated using the following formula:
 

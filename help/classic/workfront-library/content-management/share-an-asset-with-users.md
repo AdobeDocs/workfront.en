@@ -15,9 +15,9 @@ If you have Manage permission to a Workfront Library item, you can share it with
 
 You can share the following Workfront Library items:
 
-* [Content](#share) 
+* [Content](#content) 
 * [Folder](#folder) 
-* [Collection](#collecti)
+* [Collection](#collection)
 
 When you share a Workfront Library item with internal users, Workfront informs them of the shared item through an in-app notification.
 
@@ -25,19 +25,19 @@ You can share an item with an external user by emailing them a link to the item,
 
 Items that have been shared with internal users display the Shared icon.
 
-### Content
+### Content {#content}
 
 When you share content that has multiple versions, you share a content package that contains all the versions. Users with View permission to the shared content can view only the active (or current) version of the asset, while users with Manage permission can view and download the active version, as well as older versions of content. For information on content versioning, see [Overview of content versioning in Workfront Library](../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
 
-### Folder
+### Folder {#folder}
 
 When you share a folder with another user, that user automatically inherits access to all the assets and sub-folders within the folder. For example, if you grant a user Manage permission to a folder, then that user has Manage permission to all the items contained within the folder and any of its sub-folders. For more information about folders, see [Overview of folders in Workfront Library](../../workfront-library/content-management/folders/folders-overview-library.md).
 
-### Collection
+### Collection {#collection}
 
 When you share a collection with another user, that user automatically inherits access to all the assets, folders, and sub-folders contained within the collection. For example, if you grant a user Manage permission to a collection, then that user has Manage permission to all the items contained within the collection. For more information on collections, see [Edit a Workfront Library collection](../../workfront-library/content-management/collections/edit-a-collection.md).
 
-## Specify users' permissions for shared items
+## Specify users' permissions for shared items {#specify-users-permissions-for-shared-items}
 
 When you share an item with other users, you give them access and permissions that allow them to use and manage that item. For more information on access and permissions, see [Permissions in Workfront Library](../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
 
@@ -77,7 +77,7 @@ You cannot give a user permissions to an item that exceeds their Workfront Libra
 
    ![](assets/sharechangeaccess-350x118.png)
 
-   If a user with whom you want to share the content does not have an permissions level drop-down menu arrow, then you cannot increase their permissions. For more information on access to shared items, see [Specify users' permissions for shared items](#specifyi).
+   If a user with whom you want to share the content does not have an permissions level drop-down menu arrow, then you cannot increase their permissions. For more information on access to shared items, see [Specify users' permissions for shared items](#specify-users-permissions-for-shared-items).
 
 1. (Optional) To share the item with an external user:
 

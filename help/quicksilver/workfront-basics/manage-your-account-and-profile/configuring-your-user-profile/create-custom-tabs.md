@@ -8,7 +8,7 @@ description: The information you see in the Workfront web application is often d
 
 # Create custom tabs or sections
 
-## Adobe Workfront sections
+## Adobe Workfront sections {#adobe-workfront-sections}
 
 The information you see in the Workfront web application is often displayed in the sections in the left panel by default. Each section contains different information about a Workfront area or object.  
 For more information about the default areas of Workfront, see the article [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Add a custom section in the left panel of a Workfront object or area
+## Add a custom section in the left panel of a Workfront object or area {#add-a-custom-section-in-the-left-panel-of-a-workfront-object-or-area}
 
 Before you can create a custom section, you must build a dashboard with all the information you want to display on the tab. You may also build an external page.  
 For more information about building dashboards, see the article [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).  
@@ -77,7 +77,7 @@ To add a custom tab:
 1. Go to one of the Workfront areas or objects where you can add a custom section in the left panel.  
    Or
 1. Go to an object where you can add a custom section in the left panel.  
-   For more information about what areas and objects you can add custom sections to, see [Adobe Workfront sections](#workfron).
+   For more information about what areas and objects you can add custom sections to, see [Adobe Workfront sections](#adobe-workfront-sections).
 1. Click **Add custom section** in the left panel. 
 1. Specify the name of the section in the **Custom section title** field. This is visible only to you.&nbsp;
 1. In the **Add a Dashboard** field, start typing the name of the dashboard or external page you want to add and click it when it appears in the list.&nbsp;
@@ -90,7 +90,7 @@ To add a custom tab:
 
 ## Display custom sections in the left panel of objects
 
-For more information about adding a custom section under an object, see the section [Add a custom section in the left panel of a Workfront object or area](#add) in this article.
+For more information about adding a custom section under an object, see the section [Add a custom section in the left panel of a Workfront object or area](#add-a-custom-section-in-the-left-panel-of-a-workfront-object-or-area) in this article.
 
 When you add a dashboard to a custom section under an object, the object acts as a filter for the dashboard. For example, if you add a task report on a dashboard and you add the dashboard to a project, the custom section that contains the dashboard on the project displays only tasks on the project you are viewing.&nbsp;
 

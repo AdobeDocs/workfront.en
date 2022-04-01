@@ -12,7 +12,7 @@ You can build intermediary processing components that can help you filter and pr
 
 To learn about event subscriptions, see [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-##  Filtering Event Messages
+##  Filtering Event Messages {#filtering-event-messages}
 
 This section contains code snippets of filtering that you can implement to lessen the load of event subscription messages.  ```To help show the differences in various languages' syntax, these snippets illustrate the same set of filters written in the following languages:```
 
@@ -20,7 +20,7 @@ You can view examples of filtering at [https://github.com/workfront/workfront-ev
 
 The following code snippets are near deployment-ready and can be used as a starting point for helping you write your own, more complex, filters and processing components.
 
-###  Java
+###  Java {#java}
 
 The following example in Java shows how to filter project payloads based on the Group ID of the project, as done in&nbsp; [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
 
@@ -74,7 +74,7 @@ The following example in Java shows how to filter project payloads based on the 
     ... 
 }</span></pre>The AWS SDK is used to invoke another Lambda, which is responsible for delivering the filtered message to our desired endpoint.  
    The purpose of passing off the responsibility of delivering the message to another Lambda is to avoid a timeout of the delivery request coming from the Event Subscription service. Currently, the allowable timeout for delivery is set to five seconds. If the filter takes longer than allowed by&nbsp;the setting, you can process the request, but the Event Subscription service will time out and fall into a retry loop until it receives a 200-level response within the timeout period.   
-   To learn more about managing message delivery, see [Improving Message Delivery While Accommodating Timeouts](#improving-message-deliver-while-accommodating-timeouts).&nbsp; &nbsp;
+   To learn more about managing message delivery, see [Improving Message Delivery While Accommodating Timeouts](#improving-message-delivery-while-accommodating-timeouts).&nbsp; &nbsp;
 
 ### Python
 
@@ -119,7 +119,7 @@ return {
         Payload=event_subscription_message
     )</span></pre> The AWS SDK is used to invoke another Lambda, which is responsible for delivering the filtered message to our desired endpoint.  
    The purpose of passing off the responsibility of delivering the message to another Lambda is to avoid a timeout of the delivery request coming from the Event Subscription service. Currently, the timeout for delivery is set to five seconds. If the filter takes longer than allowed by&nbsp;the setting, you can process the request, but the Event Subscription service will time out and fall into a retry loop until it receives a 200-level response within the timeout period.   
-   To learn more about managing message delivery, see [Improving Message Delivery While Accommodating Timeouts](#improving-message-deliver-while-accommodating-timeouts).
+   To learn more about managing message delivery, see [Improving Message Delivery While Accommodating Timeouts](#improving-message-delivery-while-accommodating-timeouts).
 
 ### Node.js
 
@@ -174,9 +174,9 @@ return {
     });
 }</span></pre> The AWS SDK is used to invoke another Lambda, which is responsible for delivering the filtered message to our desired endpoint.  
    The purpose of passing off the responsibility of delivering the message to another Lambda is to avoid a timeout of the delivery request coming from the Event Subscription service. Currently, the timeout for delivery is set to five seconds. If the filter takes longer than allowed by&nbsp;the setting, you can process the request, but the Event Subscription service will time out and fall into a retry loop until it receives a 200-level response within the timeout period.   
-   To learn about managing message delivery, see&nbsp; [Improving Message Delivery While Accommodating Timeouts](#improving-message-deliver-while-accommodating-timeouts).&nbsp; &nbsp;&nbsp;&nbsp;
+   To learn about managing message delivery, see&nbsp; [Improving Message Delivery While Accommodating Timeouts](#improving-message-delivery-while-accommodating-timeouts).&nbsp; &nbsp;&nbsp;&nbsp;
 
-## Improving Message Delivery While Accommodating Timeouts
+## Improving Message Delivery While Accommodating Timeouts {#improving-message-delivery-while-accommodating-timeouts}
 
 ```The Event Subscription service has a strict timeout of```**five seconds** ```for all delivery requests.``` ```In the event that the delivery of a message exceeds the allowed time, the Event Subscription service begins a retry cycle for that message.```
 

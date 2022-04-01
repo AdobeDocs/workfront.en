@@ -1,6 +1,6 @@
 
 
-# ```Workfront Tools for AEM User Guide : Configure Linked Folders```
+# ```Workfront Tools for AEM User Guide : Configure Linked Folders```  {#title-heading}
 
 ## Access requirements
 
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
    1. Create a linked folder in projects with custom form field: Custom form field and its corresponding value that the project has to have in order to create the linked folder. This configuration will be ignored if left empty. Select ```CUSTOM FORMS: Create DAM Linked Folder```” for the field and type ```Yes```for the value.
    1. Click on ```Enable automatic creation of linked folders```. If you go back to the ```Event Subscriptions``` tab, you'll see there is now one ```create```event.
 
-## Linked folder creation
+## Linked folder creation {#configurelinkedfolders-linkedfoldercreation}
 
 1. Go to ```Projects```in Workfront and click on ```+ New Project```. Enter a name for your project.
 1. At this point, if you reload the cloud services page, you'll see that there are now 3 active subscriptions:

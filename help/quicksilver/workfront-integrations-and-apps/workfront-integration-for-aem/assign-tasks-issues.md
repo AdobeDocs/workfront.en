@@ -1,6 +1,6 @@
 
 
-# ```Workfront Tools for AEM User Guide : Assign Issues & Tasks```
+# ```Workfront Tools for AEM User Guide : Assign Issues & Tasks```  {#title-heading}
 
 This workflow step will allow a user to assign objects in Adobe Workfront. This workflow step can be added to any workflow model. The Workfront artifact this step affects will be looked up using a relative path from the payload.
 
@@ -46,11 +46,11 @@ You must have the following access to perform the steps in this article:
 
   For instructions, see [Workfront Tools for AEM User Guide: Installation Guide 1.x.x](../../workfront-integrations-and-apps/workfront-integration-for-aem/installation-guide.md)
 
-## Assign Issue
+## Assign Issue {#assignissues&tasks-assignissue}
 
 ![](assets/assign-issue-350x312.png)
 
-## Assign Task
+## Assign Task {#assignissues&tasks-assigntask}
 
 ![](assets/assign-task-350x312.png)
 

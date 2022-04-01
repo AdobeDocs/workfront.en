@@ -123,7 +123,7 @@ You must have the following access to perform the steps in this article:
 
 Accessing the new actions area for Workfront objects is similar for all objects, but the options available in the actions area differ depending on the object you are viewing.
 
-For information on what options are available for an object, see [Actions areas for objects in the new Adobe Workfront experience](#examples).
+For information on what options are available for an object, see [Actions areas for objects in the new Adobe Workfront experience](#actions-areas-for-objects-in-the-new-adobe-workfront-experience).
 
 To access the actions area:
 
@@ -137,7 +137,7 @@ To access the actions area:
 
    >[!NOTE]
    >
-   >The options available in the More menu vary by object. For information on what is available for a specific object, see [Actions areas for objects in the new Adobe Workfront experience](#examples) in this article.
+   >The options available in the More menu vary by object. For information on what is available for a specific object, see [Actions areas for objects in the new Adobe Workfront experience](#actions-areas-for-objects-in-the-new-adobe-workfront-experience) in this article.
 
 1. (Optional) Click the **Favorites** icon ![](assets/favorites-icon-small.png) to add an object to your **Favorites** menu.
 
@@ -145,7 +145,7 @@ To access the actions area:
 
 1. (Conditional) If you want to see a different version of a document, click the version drop-down menu ![](assets/nwe-document-version-60x38.png), then select the version that you want to see.
 
-## Actions areas for objects in the new Adobe Workfront experience
+## Actions areas for objects in the new Adobe Workfront experience {#actions-areas-for-objects-in-the-new-adobe-workfront-experience}
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

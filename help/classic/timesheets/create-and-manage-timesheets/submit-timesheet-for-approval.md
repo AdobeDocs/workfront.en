@@ -39,10 +39,10 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Submit a timesheet for approval
+## Submit a timesheet for approval {#submit-a-timesheet-for-approval}
 
-* [Submit a timesheet for approval](#submitting-a-timesheet-for-approval) 
-* [View the status of a submitted timesheet](#viewing-the-status-of-a-submitted-timesheet)
+* [Submit a timesheet for approval](#submit-a-timesheet-for-approval) 
+* [View the status of a submitted timesheet](#view-the-status-of-a-submitted-timesheet)
 
 ### Submit a timesheet for approval
 
@@ -63,9 +63,9 @@ To submit a timesheet for approval:
    * If they approve it, the **Recall** button changes to **Re-Open** and the timesheet status updates to **Closed**. 
    * If they reject it, **Save for Later** and **Submit for Approval** buttons replace the **Recall** button and the timesheet status updates to **Rejected**.
 
-1. (Optional)&nbsp;Click&nbsp;**Recall** if you need to reopen the timesheet and update your time. For information, see [Recall a timesheet](#recalling-a-timesheet).
+1. (Optional)&nbsp;Click&nbsp;**Recall** if you need to reopen the timesheet and update your time. For information, see [Recall a timesheet](#recall-a-timesheet).
 
-### View the status of a submitted timesheet
+### View the status of a submitted timesheet {#view-the-status-of-a-submitted-timesheet}
 
 You can view the status of a timesheet after you submit it.
 
@@ -91,11 +91,11 @@ To view the status of a timesheet:
     <tbody> 
      <tr> 
       <td role="rowheader">Open</td> 
-      <td> <p>Your timesheet is currently open and you may log time. </p> <p>Tip: A recalled timesheet displays with a status of Open. For information, see the <a href="#recalling-a-timesheet" class="MCXref xref">Recall a timesheet</a> section in this article. </p> </td> 
+      <td> <p>Your timesheet is currently open and you may log time. </p> <p>Tip: A recalled timesheet displays with a status of Open. For information, see the <a href="#recall-a-timesheet" class="MCXref xref">Recall a timesheet</a> section in this article. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Submitted</td> 
-      <td>You submitted your timesheet for approval but it has not been approved yet. You may recall a submitted timesheet to continue editing it.&nbsp;For information, see the <a href="#recalling-a-timesheet" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Recall a timesheet</a> section in this article. </td> 
+      <td>You submitted your timesheet for approval but it has not been approved yet. You may recall a submitted timesheet to continue editing it.&nbsp;For information, see the <a href="#recall-a-timesheet" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Recall a timesheet</a> section in this article. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Closed</td> 
@@ -112,7 +112,7 @@ To view the status of a timesheet:
     </tbody> 
    </table>
 
-## Recall a timesheet
+## Recall a timesheet {#recall-a-timesheet}
 
 You can recall a timesheet that has already been submitted for approval. Only timesheets that haven't been approved can be recalled.
 

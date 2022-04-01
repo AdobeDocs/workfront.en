@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Share a template
+## Share a template {#share-a-template}
 
 You can share your templates with other users using Template Sharing. This action defines who has permissions to the template.
 
@@ -93,7 +93,7 @@ To share a template:
 
 1. Click **Save**.
 
-## Share a project from a template
+## Share a project from a template {#share-a-project-from-a-template}
 
 With template Project Sharing, you can define who has permissions on the projects created from the template at the template level.
 
@@ -171,6 +171,6 @@ You can share multiple templates as well as projects from multiple templates at 
 
 1. Continue sharing the templates or the projects, as described in the following sections in this article:
 
-   * [Share a template](#share) 
-   * [Share a project from a template](#project-sharing)
+   * [Share a template](#share-a-template) 
+   * [Share a project from a template](#share-a-project-from-a-template)
 

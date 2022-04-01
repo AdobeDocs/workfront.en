@@ -71,7 +71,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch records (scheduled)
 
@@ -117,13 +117,13 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Read Record](#read2) 
-* [Create Record](#create) 
-* [Custom API Call](#custom)
+* [Read Record](#read-record) 
+* [Create Record](#create-record) 
+* [Custom API Call](#custom-api-call)
 
-#### Read Record
+#### Read Record {#read-record}
 
 This action module reads data from a single record in Azure Active Directory.
 
@@ -158,7 +158,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Create Record
+#### Create Record {#create-record}
 
 This action module creates a new user or group record.
 
@@ -187,7 +187,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Azure Active Directory API. This way, you can create a data flow automation that can't be accomplished by the other Azure Active Directory modules.
 
@@ -227,12 +227,12 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
-* [Search Users](#search) 
-* [Search Users/Groups Delta](#search2)
+* [Search Users](#search-users) 
+* [Search Users/Groups Delta](#search-users-groups-delta)
 
-#### Search Users
+#### Search Users {#search-users}
 
 This search module looks for records in an object in Azure Active Directory that match the search query you specify. You can map this information in subsequent modules in the scenario.
 
@@ -261,7 +261,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Search Users/Groups Delta
+#### Search Users/Groups Delta  {#search-users-groups-delta}
 
 This search module looks for records in Azure AD that have been created, updated, or deleted.You can map this information in subsequent modules in the scenario.
 

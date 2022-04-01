@@ -57,7 +57,9 @@ Consider the following when requesting a project through a Business Case:
 1. Click&nbsp;**New Project** and select&nbsp;**Request Project**.  
    By default, the project is placed in the **Idea** status.
 
-   ``` ```**Warning: **``````If the Idea status has been deleted in your Workfront instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >[!CAUTION]
+   >
+   >If the Idea status has been deleted in your Workfront instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    ![idea_project.png](assets/idea-project-350x168.png)
 

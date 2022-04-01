@@ -306,7 +306,7 @@ Arrays can be converted to a series of bundles using the Iterator module. For mo
 
 For each module, the mapping panel displays all output items, listed by the author of the module. In some cases, this list might be incomplete for various reasons, and some items might be missing. Workfront Fusion can auto-discover the missing output items when you run the module in the scenario editor. The exact procedure differs slightly depending on the module's type:
 
-#### Instant trigger
+#### Instant trigger {#instant-trigger}
 
 1. Right-click the module, then click **Run this module only** in the menu that displays.
 
@@ -320,7 +320,7 @@ For each module, the mapping panel displays all output items, listed by the auth
 
    The mapping panel will contains all the items that were discovered in the module's output.
 
-#### Polling trigger
+#### Polling trigger {#polling-trigger}
 
 1. Right-click the module, then click **Run this module only** in the menu that displays.
 1. If there is no output, click **Choose where to start** and adjust the settings. 
@@ -338,7 +338,7 @@ You may choose to execute:
 
 * The whole scenario (or just the part containing the module)
 
-  If your scenario starts with a trigger, refer to the [Instant trigger](#instant) or [Polling trigger](#polling) section above.
+  If your scenario starts with a trigger, refer to the [Instant trigger](#instant-trigger) or [Polling trigger](#polling-trigger) section above.
 
 * Just the single module
 

@@ -73,23 +73,23 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [File/Folder](#file/fol) 
+* [File/Folder](#file-folder) 
 * [Other](#other)
 
-### File/Folder
+### File/Folder {#file-folder}
 
-* [Watch Files/Folders](#watch) 
-* [Search Files/Folders](#search) 
-* [Get a file](#get) 
-* [Download a file](#download) 
-* [Upload a file](#upload) 
-* [Create a Folder](#create) 
-* [Get a Share Link](#get2) 
-* [Move a File/Folder](#move) 
-* [Copy a File](#copy) 
-* [Delete a File/Folder](#delete)
+* [Watch Files/Folders](#watch-files-folders) 
+* [Search Files/Folders](#search-files-folders) 
+* [Get a file](#get-a-file) 
+* [Download a file](#download-a-file) 
+* [Upload a file](#upload-a-file) 
+* [Create a Folder](#create-a-folder) 
+* [Get a Share Link](#get-a-share-link) 
+* [Move a File/Folder](#move-a-file-folder) 
+* [Copy a File](#copy-a-file) 
+* [Delete a File/Folder](#delete-a-file-folder)
 
-#### Watch Files/Folders
+#### Watch Files/Folders {#watch-files-folders}
 
 This trigger module starts a scenario when a file or folder is created or updated.
 
@@ -138,7 +138,7 @@ This trigger module starts a scenario when a file or folder is created or update
 
 &nbsp;
 
-#### Search Files/Folders
+#### Search Files/Folders {#search-files-folders}
 
 This search module returns files and folders based on criteria you set.
 
@@ -175,7 +175,7 @@ This search module returns files and folders based on criteria you set.
  </tbody> 
 </table>
 
-#### Get a file
+#### Get a file {#get-a-file}
 
 This action module gets the metadata of a specified file.
 
@@ -223,7 +223,7 @@ This action module gets the metadata of a specified file.
  </tbody> 
 </table>
 
-#### Download a file
+#### Download a file {#download-a-file}
 
 This action module downloads the specified file.
 
@@ -311,7 +311,7 @@ This action module downloads the specified file.
  </tbody> 
 </table>
 
-#### Upload a file
+#### Upload a file {#upload-a-file}
 
 This action module uploads a file to the specified folder.
 
@@ -359,7 +359,7 @@ This action module uploads a file to the specified folder.
  </tbody> 
 </table>
 
-#### Create a Folder
+#### Create a Folder {#create-a-folder}
 
 This action module creates a new folder in the specified drive.
 
@@ -403,7 +403,7 @@ This action module creates a new folder in the specified drive.
  </tbody> 
 </table>
 
-#### Get a Share Link
+#### Get a Share Link {#get-a-share-link}
 
 This action module returns a share link for the specified file.
 
@@ -459,7 +459,7 @@ This action module returns a share link for the specified file.
  </tbody> 
 </table>
 
-#### Move a File/Folder
+#### Move a File/Folder {#move-a-file-folder}
 
 This action module moves a file or folder to a new folder location
 
@@ -546,7 +546,7 @@ This action module moves a file or folder to a new folder location
  </tbody> 
 </table>
 
-#### Copy a File
+#### Copy a File {#copy-a-file}
 
 This action module copies a file into a new folder location
 
@@ -633,7 +633,7 @@ This action module copies a file into a new folder location
  </tbody> 
 </table>
 
-#### Delete a File/Folder
+#### Delete a File/Folder {#delete-a-file-folder}
 
 This action module deletes the selected file.
 
@@ -685,7 +685,7 @@ This action module deletes the selected file.
  </tbody> 
 </table>
 
-### Other
+### Other {#other}
 
 #### Make an API Call
 

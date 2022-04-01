@@ -73,16 +73,16 @@ If you see the map button above a field or function, you can use it to set varia
 * [Calendar](#calendar) 
 * [Other](#other)
 
-### Event
+### Event {#event}
 
-* [Watch Events](#watch) 
-* [Search Events](#search) 
-* [Get an Event](#get) 
-* [Create an Event](#create) 
-* [Update an Event](#update) 
-* [Delete an Event](#get2)
+* [Watch Events](#watch-events) 
+* [Search Events](#search-events) 
+* [Get an Event](#get-an-event) 
+* [Create an Event](#create-an-event) 
+* [Update an Event](#update-an-event) 
+* [Delete an Event](#delete-an-event)
 
-#### Watch Events
+#### Watch Events {#watch-events}
 
 This trigger module retrieves details of an event when the event is created, updated, deleted, started, or ended in the selected calendar.
 
@@ -121,7 +121,7 @@ This trigger module retrieves details of an event when the event is created, upd
  </tbody> 
 </table>
 
-#### Search Events
+#### Search Events {#search-events}
 
 This search module retreves details of an event when the event is created, updated, deleted, started, or ended in the selected calendar.
 
@@ -168,7 +168,7 @@ This search module retreves details of an event when the event is created, updat
  </tbody> 
 </table>
 
-#### Get an Event
+#### Get an Event {#get-an-event}
 
 This action module retrieves details of the specified event.
 
@@ -187,7 +187,7 @@ This action module retrieves details of the specified event.
  </tbody> 
 </table>
 
-#### Create an Event
+#### Create an Event {#create-an-event}
 
 This action module creates a new event.
 
@@ -281,7 +281,7 @@ This action module creates a new event.
  </tbody> 
 </table>
 
-#### Update an Event
+#### Update an Event {#update-an-event}
 
 Updates an existing event.
 
@@ -379,7 +379,7 @@ Updates an existing event.
  </tbody> 
 </table>
 
-#### Delete an Event
+#### Delete an Event {#delete-an-event}
 
 Deletes an existing event.
 
@@ -398,15 +398,15 @@ Deletes an existing event.
  </tbody> 
 </table>
 
-### Calendar
+### Calendar {#calendar}
 
-* [List Calendars](#list) 
-* [Get a Calendar](#get3) 
-* [Create a Calendar](#create2) 
-* [Update a Calendar](#update2) 
-* [Delete a Calendar](#delete)
+* [List Calendars](#list-calendars) 
+* [Get a Calendar](#get-a-calendar) 
+* [Create a Calendar](#create-a-calendar) 
+* [Update a Calendar](#update-a-calendar) 
+* [Delete a Calendar](#delete-a-calendar)
 
-#### List Calendars
+#### List Calendars {#list-calendars}
 
 Retrieves a list of all of the authenticated user's calendars.
 
@@ -429,7 +429,7 @@ Retrieves a list of all of the authenticated user's calendars.
  </tbody> 
 </table>
 
-#### Get a Calendar
+#### Get a Calendar {#get-a-calendar}
 
 Deletes an existing event.
 
@@ -448,7 +448,7 @@ Deletes an existing event.
  </tbody> 
 </table>
 
-#### Create a Calendar
+#### Create a Calendar {#create-a-calendar}
 
 Creates a new calendar in your Google account.
 
@@ -467,7 +467,7 @@ Creates a new calendar in your Google account.
  </tbody> 
 </table>
 
-#### Update a Calendar
+#### Update a Calendar {#update-a-calendar}
 
 Edits an existing calendar.
 
@@ -490,7 +490,7 @@ Edits an existing calendar.
  </tbody> 
 </table>
 
-#### Delete a Calendar
+#### Delete a Calendar {#delete-a-calendar}
 
 Deletes an existing calendar.
 
@@ -509,7 +509,7 @@ Deletes an existing calendar.
  </tbody> 
 </table>
 
-### Other
+### Other {#other}
 
 #### Make an API&nbsp;Call
 

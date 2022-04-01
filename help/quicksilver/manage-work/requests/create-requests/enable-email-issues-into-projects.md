@@ -69,11 +69,15 @@ Keep the following in mind when enabling email queue settings:
 
 1. Enter the beginning of the email address in the **Intake Email Address** box. You must create a unique email address. We recommend using your company name as part of your intake email address.
 
-   ``` ```**Warning: **``````
-
-   * This email address cannot be recovered from the recycle bin if the project containing the request queue is deleted.
-   * Because this email address must be unique, it may not be available in the future if deleted.
-   * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
+   >[!CAUTION]
+   >
+   >
+   >
+   >>[!CAUTION]
+   >>
+   >>```<li>This email address cannot be recovered from the recycle bin if the project containing the request queue is deleted.</li>``` ```<li>Because this email address must be unique, it may not be available in the future if deleted.</li>``` ```<li>Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.</li>``` 
+   >
+   >
 
 1. (Optional) Select the **Forward all issues that fail to submit via email**, then enter a forwarding email address in the box below. This email address receives information about emails that failed to submit to the project.
 1. Click **Save**. Now, when users with an active Workfront account send an email to this email address, an issue is created in the Workfront project.

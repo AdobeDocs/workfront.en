@@ -15,10 +15,10 @@ As a Workfront administrator, you can access and manage all of the assets in Wor
 
 The All Content area contains content belonging to all users. You can filter by owner to focus on a single user's content. To do this, the owner facet must first be enabled.
 
-* [Enable the Owner facet](#enable) 
-* [Filter by owner](#filter)
+* [Enable the Owner facet](#enable-the-owner-facet) 
+* [Filter by owner](#filter-by-owner)
 
-### Enable the Owner facet
+### Enable the Owner facet {#enable-the-owner-facet}
 
 1. Click the Menu icon.In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 
@@ -31,7 +31,7 @@ The All Content area contains content belonging to all users. You can filter by 
 1. Click **Save**.
 1. Now that you have the Owner facet enabled, the owner field will now appears under the asset details and in the filter menu. Continue to the following section to Filter by Owner.
 
-### Filter by owner
+### Filter by owner {#filter-by-owner}
 
 1. Click the **Filter** icon ![](assets/library-filter-icon.png) in the upper-right corner of the screen.
 

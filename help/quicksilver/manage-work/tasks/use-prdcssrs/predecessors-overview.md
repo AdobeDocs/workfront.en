@@ -25,7 +25,7 @@ When it comes to predecessors, the project timeline is impacted by the following
 
 * Predecessor dependency
 * Lag value and type  
-  For more information on both dependency and lags, see [Examples of predecessor values in a task list](#understanding-predecessor-relationships).
+  For more information on both dependency and lags, see [Examples of predecessor values in a task list](#examples-of-predecessor-values-in-a-task-list).
 
 For example, if task A is a predecessor to task B in a finish-start relationship, and task B has a task constraint of As Soon As Possible, then Workfront assigns task B a planned start date immediately following the planned completion date of task A, regardless of whether the predecessor is enforced or not.
 
@@ -51,7 +51,7 @@ To create predecessors, see any of the following articles:
 * To establish predecessor relationships by chaining tasks, see [Create predecessor relationships by chaining tasks](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
 * To establish cross-project predecessors, see [Create cross-project predecessors](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
-## Locate the predecessors of a task
+## Locate the predecessors of a task {#locate-the-predecessors-of-a-task}
 
 To find the predecessors of a task do one of the following:
 
@@ -81,7 +81,7 @@ To find the predecessors of a task do one of the following:
 
       ![](assets/cross-project-predecessor-in-task-view-350x165.png)
 
-## Examples of predecessor values in a task list
+## Examples of predecessor values in a task list {#examples-of-predecessor-values-in-a-task-list}
 
 When you view predecessors in a list of tasks, you might see any of the following types of predecessors with their respective Dependency Types and Lag amounts:
 
@@ -105,7 +105,7 @@ You can view predecessor information in the following areas of Workfront. This i
 
 * At the task level, in the Predecessors section.
 
-  For information about viewing predecessor information in the Predecessors  section , see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
+  For information about viewing predecessor information in the Predecessors  section , see the section [Locate the predecessors of a task](#locate-the-predecessors-of-a-task) in this article.
 
 * In the Gantt chart.
 
@@ -117,7 +117,7 @@ You can view predecessor information in the following areas of Workfront. This i
 
    * Apply the built-in Standard view in a list of tasks.
 
-     For information about viewing predecessor information in the Standard view, see the section [Locate the predecessors of a task](#finding-predecessors) in this article.
+     For information about viewing predecessor information in the Standard view, see the section [Locate the predecessors of a task](#locate-the-predecessors-of-a-task) in this article.
    
    * Build a task view or report and add the Predecessors column to that view.
 

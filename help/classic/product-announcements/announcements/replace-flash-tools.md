@@ -43,7 +43,7 @@ The following dates are important for the removal process of all Flash-based too
 
 The tools listed in the following sections have been removed from the Workfront system and replaced with new solutions.
 
-For information about replacement tools, see [Legacy Flash-based tools and their replacements](#understanding-legacy-tools-and-their-replacements) in this article.
+For information about replacement tools, see [Legacy Flash-based tools and their replacements](#legacy-flash-based-tools-and-their-replacements) in this article.
 
 ### Resource Management
 
@@ -129,11 +129,13 @@ For more information, see the following resources:
 </div>
 -->
 
-## Legacy Flash-based tools and their replacements
+## Legacy Flash-based tools and their replacements {#legacy-flash-based-tools-and-their-replacements}
 
 Except where specified otherwise, all Legacy features have been replaced by new ones, as shown in the following table.
 
-``` ```**Warning: **``````The legacy Flash-based tools have been removed from all environments. 
+>[!CAUTION]
+>
+>The legacy Flash-based tools have been removed from all environments.
 
 <table cellspacing="15"> 
  <col> 

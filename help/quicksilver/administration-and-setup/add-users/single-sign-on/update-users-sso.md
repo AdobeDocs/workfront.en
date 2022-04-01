@@ -67,7 +67,7 @@ In order for your users to be able to use their SSO credentials to log in to Wor
 
 As a Workfront administrator, you can bulk update the SSO Username field for your Workfront users by using a list of usernames and importing it in Workfront. This list must contain the Workfront User ID (GUID) as well as the corresponding SSO Username for each user and it must be saved as a CSV or a TSV file. This process either updates existing SSO Usernames in Workfront, or adds a new SSO Username, if one is missing for users.
 
-## Prepare the import file
+## Prepare the import file {#prepare-the-import-file}
 
 You can start preparing your import file by building a report of all users in Workfront that must have their SSO Username fields updated.
 
@@ -106,7 +106,7 @@ You can start preparing your import file by building a report of all users in Wo
 
 1. Save the report as a CSV or TSV file on your computer.
 
-## Update your users for SSO
+## Update your users for SSO {#update-your-users-for-sso}
 
 The process of updating users for SSO either adds the SSO Username field to your Workfront users if one is not present, or updates the value in that field if there is a value already associated with the users.
 
@@ -116,7 +116,7 @@ The process of updating users for SSO either adds the SSO Username field to your
 
 1. Click **Choose File** to browse for the file you prepared.
 
-   For more information about how to prepare this file, see [Prepare the import file](#preparing-the-import-file).
+   For more information about how to prepare this file, see [Prepare the import file](#prepare-the-import-file).
 
 1. Select the file where it is saved on your computer, then click **Open**.
 
@@ -126,7 +126,7 @@ The process of updating users for SSO either adds the SSO Username field to your
 
 ## Verify SSO your users' Workfront usernames
 
-For instructions on building a user report containing SSO Username information, see [Prepare the import file](#preparing-the-import-file).
+For instructions on building a user report containing SSO Username information, see [Prepare the import file](#prepare-the-import-file).
 
 1. Run a user report containing SSO Username information.
 
@@ -137,5 +137,5 @@ For instructions on building a user report containing SSO Username information, 
 
    ![](assets/users-with-sso-field-updated-350x45.png)
 
-   For instructions on updating your users for SSO, see [Update your users for SSO](#updating-users-for-sso).
+   For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).
 

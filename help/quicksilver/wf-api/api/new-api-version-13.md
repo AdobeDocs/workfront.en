@@ -29,35 +29,35 @@ The following resources were modified for API version 13.
   <tr> 
    <td> 
     <ul> 
-     <li> <p><a href="#accessle" class="MCXref xref">AccessLevel</a> </p> </li> 
-     <li> <p><a href="#breadcru" class="MCXref xref">BreadCrumb</a> </p> </li> 
-     <li> <p><a href="#burndown" class="MCXref xref">BurndownEvent</a> </p> </li> 
-     <li> <p><a href="#customer" class="MCXref xref">CustomerPreferences</a> </p> </li> 
-     <li> <p><a href="#document" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#accesslevel" class="MCXref xref">AccessLevel</a> </p> </li> 
+     <li> <p><a href="#breadcrumb" class="MCXref xref">BreadCrumb</a> </p> </li> 
+     <li> <p><a href="#burndownevent" class="MCXref xref">BurndownEvent</a> </p> </li> 
+     <li> <p><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">Group </a> </p> </li> 
-     <li> <p><a href="#journale" class="MCXref xref">JournalEntry</a> </p> </li> 
-     <li> <p><a href="#layoutte" class="MCXref xref">LayoutTemplate</a> </p> </li> 
-     <li> <p><a href="#linkedfo" class="MCXref xref">LinkedFolder</a> </p> </li> 
+     <li> <p><a href="#journalentry" class="MCXref xref">JournalEntry</a> </p> </li> 
+     <li> <p><a href="#layouttemplate" class="MCXref xref">LayoutTemplate</a> </p> </li> 
+     <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
      <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p><a href="#project" class="MCXref xref">Project</a> </p> </li> 
-     <li> <p><a href="#proofapp" class="MCXref xref">ProofApproval</a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </p> </li> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">Task</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
-     <li> <p><a href="#timeshee" class="MCXref xref">Timesheet</a> </p> </li> 
-     <li> <p><a href="#timeshee2" class="MCXref xref">TimesheetProfile</a> </p> </li> 
-     <li> <p><a href="#uitempla" class="MCXref xref">UITemplate</a> </p> </li> 
-     <li> <p><a href="#userdele" class="MCXref xref">UserDelegation</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Timesheet</a> </p> </li> 
+     <li> <p><a href="#timesheetprofile" class="MCXref xref">TimesheetProfile</a> </p> </li> 
+     <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
+     <li> <p><a href="#userdelegation" class="MCXref xref">UserDelegation</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Work </a> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### AccessLevel
+### AccessLevel {#accesslevel}
 
 An AccessLevel object is associated with users, and describes the set of AccessLevelPermissions that determine what the user can access.
 
@@ -77,7 +77,7 @@ For more information on access levels, see [How access levels work](../../admini
  </tbody> 
 </table>
 
-### BreadCrumb
+### BreadCrumb {#breadcrumb}
 
 A BreadCrumb object represents an element in the parent/child hierarchy of a Workfront work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
 
@@ -97,7 +97,7 @@ For more information on breadcrumbs, see [Breadcrumbs overview in the new Adobe 
  </tbody> 
 </table>
 
-### BurndownEvent
+### BurndownEvent {#burndownevent}
 
 A BurndownEvent object represents an object that changes the bundown of an iteration.
 
@@ -118,7 +118,7 @@ For more information on burndown, see [Burndown](../../agile/use-scrum-in-an-agi
  </tbody> 
 </table>
 
-### CustomerPreferences
+### CustomerPreferences {#customerpreferences}
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
@@ -154,7 +154,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
  </tbody> 
 </table>
 
-### DocumentVersion
+### DocumentVersion {#documentversion}
 
 A DocumentVersion object represents a specific version of a file (such as written material, images, or other forms of information).
 
@@ -180,7 +180,7 @@ For more information about document versions, see [Upload a new version of a doc
  </tbody> 
 </table>
 
-### Group
+### Group  {#group}
 
 A Group object represents a set of users and teams. Groups often represent departmental structure.
 
@@ -200,7 +200,7 @@ For more information on groups, see [Groups vs. teams in Adobe Workfront](../../
  </tbody> 
 </table>
 
-### JournalEntry
+### JournalEntry {#journalentry}
 
 The JournalEntry object can be set up to log information about specific object fields any time those fields are modified. When a field is set up to be logged as a part of the Journal Entry object, a corresponding Journal Entry will be created every time that field is modified.
 
@@ -229,11 +229,11 @@ The JournalEntry resource added the flag REPORTABLE.
  </tbody> 
 </table>
 
-### LayoutTemplate
+### LayoutTemplate {#layouttemplate}
 
 Adobe Workfront administrators or group administrators can create templates to customize the layout elements in Adobe Workfront. The LayoutTemplate object is specific to Adobe Workfront Classic.
 
-For the object that represents layout templates in the new Adobe Workfront experience, see [UITemplate](#uitempla)
+For the object that represents layout templates in the new Adobe Workfront experience, see [UITemplate](#uitemplate)
 
 <table cellspacing="15"> 
  <col data-mc-conditions=""> 
@@ -249,7 +249,7 @@ For the object that represents layout templates in the new Adobe Workfront exper
  </tbody> 
 </table>
 
-### LinkedFolder
+### LinkedFolder {#linkedfolder}
 
 A LinkedFolder object represents a folder linked from an external document provider, such as Google Drive or Dropbox.
 
@@ -272,7 +272,7 @@ For more information on Linked Folders, see [Link documents from external applic
  </tbody> 
 </table>
 
-### OpTask
+### OpTask {#optask}
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
@@ -290,7 +290,7 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
  </tbody> 
 </table>
 
-### Project
+### Project {#project}
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
@@ -310,7 +310,7 @@ Projects are work items within Workfront, and are a main building block in the w
  </tbody> 
 </table>
 
-### ProofApproval
+### ProofApproval {#proofapproval}
 
 A ProofApproval object represents an approval that is directly connected to a proof.
 
@@ -330,7 +330,7 @@ A ProofApproval object represents an approval that is directly connected to a pr
  </tbody> 
 </table>
 
-### QueueDef
+### QueueDef {#queuedef}
 
 A QueueDef object represents a Queue, which is a Project that has been published to the Help Desk area to allow users to submit Issues to it.
 
@@ -354,7 +354,7 @@ For more information on Request Queues, see [Create a Request Queue](../../manag
  </tbody> 
 </table>
 
-### Task
+### Task {#task}
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
@@ -372,7 +372,7 @@ A Task object represents a work item that must be performed as a step toward ach
  </tbody> 
 </table>
 
-### Team
+### Team {#team}
 
 A Team object is a collection of Users that can be assigned to a work item.
 
@@ -397,7 +397,7 @@ A Team object is a collection of Users that can be assigned to a work item.
  </tbody> 
 </table>
 
-### Timesheet
+### Timesheet {#timesheet}
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
@@ -422,7 +422,7 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
  </tbody> 
 </table>
 
-### TimesheetProfile
+### TimesheetProfile {#timesheetprofile}
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
@@ -447,11 +447,11 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
  </tbody> 
 </table>
 
-### UITemplate
+### UITemplate {#uitemplate}
 
 Adobe Workfront administrators or group administrators can create templates to customize the layout elements in Adobe Workfront. The LayoutTemplate object is specific to the new Adobe Workfront experience.
 
-For the object that represents layout templates in Adobe Workfront Classic, see [LayoutTemplate](#layoutte).
+For the object that represents layout templates in Adobe Workfront Classic, see [LayoutTemplate](#layouttemplate).
 
 <table cellspacing="0"> 
  <col> 
@@ -475,7 +475,7 @@ For the object that represents layout templates in Adobe Workfront Classic, see 
  </tbody> 
 </table>
 
-### UserDelegation
+### UserDelegation {#userdelegation}
 
 A UserDelegation object represents the act of delegating work from one user to another for a specific period of time.
 
@@ -504,7 +504,7 @@ The UserDelegation object added the flag REPORTABLE.
  </tbody> 
 </table>
 
-### Work
+### Work  {#work}
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 

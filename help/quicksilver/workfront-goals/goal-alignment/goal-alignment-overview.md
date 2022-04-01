@@ -27,7 +27,7 @@ For more information about best practices when aligning goals, see [Get started 
 
 ## Considerations for aligning goals
 
-* A goal cannot contribute to more than one other goal at the same time. Although you can have multiple children goals aligned to the same parent goal, a child goal you can only have one parent. For information about parent and children goals, see the [Understand parent and children goals](#parent) section in this article.
+* A goal cannot contribute to more than one other goal at the same time. Although you can have multiple children goals aligned to the same parent goal, a child goal you can only have one parent. For information about parent and children goals, see the [Understand parent and children goals](#understand-parent-and-children-goals) section in this article.
 * A goal can have several aligned goals, as well as several activities and results. In addition, each child goal can have other activities and results that influence its progress as well as the progress of the parent goal.
 
   >[!TIP]
@@ -45,9 +45,9 @@ There are two approaches for aligning goals:
 
 * **A top-down alignment**: You can convert a result or an activity of a goal into another goal.&nbsp;The new goal becomes the child goal of the original goal which becomes the parent. For information about top-down goal alignment, see [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
-For information about parent and children goals, see the [Understand parent and children goals](#parent) section in this article.
+For information about parent and children goals, see the [Understand parent and children goals](#understand-parent-and-children-goals) section in this article.
 
-## Understand parent and children goals
+## Understand parent and children goals {#understand-parent-and-children-goals}
 
 When you align goals to one another, one goal becomes the parent goal and the other the child goal. The progress of children goals influences the progress of the parent goals. This creates a goal hierarchy.
 

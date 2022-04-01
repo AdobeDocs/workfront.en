@@ -53,12 +53,12 @@ You must have the following access to use the functionality in this article:
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Connect your email to Workfront Fusion
+## Connect your email to Workfront Fusion {#connect-your-email-to-workfront-fusion}
 
-* [Connect to Google](#connecti4) 
-* [Connect to other email services (SMAP)](#connect)
+* [Connect to Google](#connect-to-google) 
+* [Connect to other email services (SMAP)](#connect-to-other-email-services-smap)
 
-### Connect to Google
+### Connect to Google {#connect-to-google}
 
 Use this option to create scenarios with email modules that require a connection to your Google account. This is an account with restricted scopes.
 
@@ -70,7 +70,7 @@ You can create a connection to your Google account directly from inside an Alloc
 1. (Optional) Enter your Google Client ID and Client Secret.
 1. Click **Continue**to create the connection and go back to the module.
 
-### Connect to other email services (SMAP)
+### Connect to other email services (SMAP) {#connect-to-other-email-services-smap}
 
 SMAP connection allows you to access your mailbox remotely and read or manipulate messages in your mailbox. SMAP connection is used by most of the Email modules.
 
@@ -98,9 +98,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Triggers](#triggers) 
 * [Actions](#actions) 
-* [Iterators](#iterator)
+* [Iterators](#iterators)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch Emails
 
@@ -154,19 +154,19 @@ Triggers when a new email is received for processing according to specified crit
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Send an Email](#send) 
-* [Create a Draft](#create) 
-* [Mark an Email as Read](#mark) 
-* [Mark an Email as Unread](#mark2) 
-* [Move an Email](#move) 
-* [Copy an Email](#copy) 
-* [Delete an Email](#delete) 
-* [Get Emails](#get) 
-* [Send me an Email](#send2)
+* [Send an Email](#send-an-email) 
+* [Create a Draft](#create-a-draft) 
+* [Mark an Email as Read](#mark-an-email-as-read) 
+* [Mark an Email as Unread](#mark-an-email-as-unread) 
+* [Move an Email](#move-an-email) 
+* [Copy an Email](#copy-an-email) 
+* [Delete an Email](#delete-an-email) 
+* [Get Emails](#get-emails) 
+* [Send me an Email](#send-me-an-email)
 
-#### Send an Email
+#### Send an Email {#send-an-email}
 
 Sends a new email.
 
@@ -176,7 +176,7 @@ Sends a new email.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Save Message after Sending</td> 
@@ -259,7 +259,7 @@ Sends a new email.
  </tbody> 
 </table>
 
-#### Create a Draft
+#### Create a Draft {#create-a-draft}
 
 Creates and adds a new draft to a selected folder.
 
@@ -269,7 +269,7 @@ Creates and adds a new draft to a selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -352,7 +352,7 @@ Creates and adds a new draft to a selected folder.
  </tbody> 
 </table>
 
-#### Mark an Email as Read
+#### Mark an Email as Read {#mark-an-email-as-read}
 
 Marks an email or a draft in a selected folder as read by setting the Read flag.
 
@@ -362,7 +362,7 @@ Marks an email or a draft in a selected folder as read by setting the Read flag.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -375,7 +375,7 @@ Marks an email or a draft in a selected folder as read by setting the Read flag.
  </tbody> 
 </table>
 
-#### Mark an Email as Unread
+#### Mark an Email as Unread {#mark-an-email-as-unread}
 
 Marks an email or a draft in a selected folder as unread by setting the Unread flag.
 
@@ -385,7 +385,7 @@ Marks an email or a draft in a selected folder as unread by setting the Unread f
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -398,7 +398,7 @@ Marks an email or a draft in a selected folder as unread by setting the Unread f
  </tbody> 
 </table>
 
-#### Move an Email
+#### Move an Email {#move-an-email}
 
 Moves a chosen email or a draft to a selected folder.
 
@@ -408,7 +408,7 @@ Moves a chosen email or a draft to a selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source Folder</td> 
@@ -425,7 +425,7 @@ Moves a chosen email or a draft to a selected folder.
  </tbody> 
 </table>
 
-#### Copy an Email
+#### Copy an Email {#copy-an-email}
 
 Copies an email or a draft into a selected folder.
 
@@ -435,7 +435,7 @@ Copies an email or a draft into a selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source Folder</td> 
@@ -452,7 +452,7 @@ Copies an email or a draft into a selected folder.
  </tbody> 
 </table>
 
-#### Delete an Email
+#### Delete an Email {#delete-an-email}
 
 Removes an email or a draft from the selected folder.
 
@@ -462,7 +462,7 @@ Removes an email or a draft from the selected folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder</td> 
@@ -479,7 +479,7 @@ Removes an email or a draft from the selected folder.
  </tbody> 
 </table>
 
-#### Get Emails
+#### Get Emails {#get-emails}
 
 Returns emails that match the specified criteria.
 
@@ -489,7 +489,7 @@ Returns emails that match the specified criteria.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder </td> 
@@ -547,7 +547,7 @@ Returns emails that match the specified criteria.
  </tbody> 
 </table>
 
-#### Send me an Email
+#### Send me an Email {#send-me-an-email}
 
 Sends a new email to your email address.
 
@@ -566,7 +566,7 @@ Sends a new email to your email address.
  </tbody> 
 </table>
 
-### Iterators
+### Iterators {#iterators}
 
 #### Iterate Attachments
 

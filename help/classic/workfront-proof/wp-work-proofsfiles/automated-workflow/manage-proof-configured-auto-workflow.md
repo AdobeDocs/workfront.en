@@ -19,11 +19,11 @@ You can conveniently track the progress of your Automated Workflow proofs in the
 
 You can view your Automated Workflow in three main ways:
 
-* [View a stage in detail](#viewingdetail) 
-* [View all stages](#viewingallstages) 
-* [View all stages in detail](#viewingallstagesindetail)
+* [View a stage in detail](#view-a-stage-in-detail) 
+* [View all stages](#view-all-stages) 
+* [View all stages in detail](#view-all-stages-in-detail)
 
-### View a stage in detail
+### View a stage in detail {#view-a-stage-in-detail}
 
 1. Click on the button at the top of the section (1).
 
@@ -33,7 +33,7 @@ You can view your Automated Workflow in three main ways:
 
 ![View_a_stage_in_detail.png](assets/view-a-stage-in-detail-350x249.png)
 
-### View all stages
+### View all stages {#view-all-stages}
 
 To view all stages in an Automated Workflow:
 
@@ -45,7 +45,7 @@ To view all stages in an Automated Workflow:
 
 ![View_all_stages.png](assets/view-all-stages-350x212.png)
 
-### View all stages in detail
+### View all stages in detail {#view-all-stages-in-detail}
 
 To view all stages of your Automated Workflow in detail:
 

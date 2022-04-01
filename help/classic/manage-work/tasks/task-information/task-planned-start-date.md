@@ -15,10 +15,10 @@ The Planned Start Date of a task is the date when you, as the task creator, deci
 
 You can either specify the Planned Start Date of a task, or you can leave it up to Adobe Workfront to calculate it depending on certain criteria.&nbsp;
 
-* [Manually set the Planned Start Date of a task](#manually-setting-the-planned-completion-date) 
-* [How the Planned Start Date is calculated for a task](#understanding-how-the-planned-completion-date-is-calculated)
+* [Manually set the Planned Start Date of a task](#manually-set-the-planned-start-date-of-a-task) 
+* [How the Planned Start Date is calculated for a task](#how-the-planned-start-date-is-calculated-for-a-task)
 
-### Manually set the Planned Start Date of a task
+### Manually set the Planned Start Date of a task {#manually-set-the-planned-start-date-of-a-task}
 
 Setting the Planned Start Date of a task depends on the type of Task Constraint you assign to the task.&nbsp;
 
@@ -47,7 +47,7 @@ You can manually specify the Planned Start Date when you select any of the follo
  </tbody> 
 </table>
 
-### How the Planned Start Date is calculated for a task
+### How the Planned Start Date is calculated for a task {#how-the-planned-start-date-is-calculated-for-a-task}
 
 When it is calculated automatically by the system, the following can influence the Planned Start Date of a task:
 

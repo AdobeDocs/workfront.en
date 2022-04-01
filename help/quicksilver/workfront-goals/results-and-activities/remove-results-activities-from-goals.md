@@ -77,7 +77,9 @@ You must have the following before you can start:
 
 * You cannot remove or disconnect a result or an activity from a goal if they are the last progress indicator for the goal.
 
-  ``` ```**Warning: **``````You can delete a project from a goal, even if it is the last progress indicator on the goal.&nbsp;The goal remains Active, but it shows no progress.
+  >[!CAUTION]
+  >
+  >You can delete a project from a goal, even if it is the last progress indicator on the goal.&nbsp;The goal remains Active, but it shows no progress.
 
 ## Delete results and activities from goals
 

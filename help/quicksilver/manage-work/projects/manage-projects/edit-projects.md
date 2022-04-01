@@ -125,20 +125,20 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. (Conditional) If you clicked the **More** menu and then **Edit**, consider specifying information in any of the following areas listed in the left panel:
 
-   * [Project Name](#project) 
+   * [Project Name](#project-name) 
    * [Overview](#overview) 
-   * [Custom Forms](#custom) 
+   * [Custom Forms](#custom-forms) 
    * [Finance](#finance) 
-   * [Project Settings](#project2) 
-   * [Task Settings](#task) 
-   * [Issue Settings](#issue) 
-   * [Access](#access2)
+   * [Project Settings](#project-settings) 
+   * [Task Settings](#task-settings) 
+   * [Issue Settings](#issue-settings) 
+   * [Access](#access)
 
    >[!NOTE]
    >
    >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Edit Project box might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-### Project Name
+### Project Name {#project-name}
 
 1. Begin editing your project as described above.
 1. Click **Project Name** in the left panel.
@@ -147,7 +147,7 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Update the name of the project.
 
-### Overview
+### Overview {#overview}
 
 1. Begin editing your project as described above.
 1. Click **Overview** in the left panel.
@@ -260,7 +260,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save**.
 
-### Custom Forms
+### Custom Forms {#custom-forms}
 
 1. Begin editing your project as described above.
 1. Click **Custom Forms** in the left panel.
@@ -284,7 +284,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save**.
 
-### Finance
+### Finance {#finance}
 
 1. Begin editing your project as described above.
 1. Click **Finance** in the left panel.
@@ -353,7 +353,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save**.
 
-### Project Settings
+### Project Settings {#project-settings}
 
 1. Begin editing your project as described above.
 1. Click **Settings** in the left panel.
@@ -470,7 +470,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save**.
 
-### Task Settings
+### Task Settings {#task-settings}
 
 You can define the defaults that will be associated with all the new tasks when you add them to the project.
 
@@ -514,7 +514,7 @@ For information about how these settings affect creating new tasks, see the sect
 
 ###
 
-### Issue Settings
+### Issue Settings {#issue-settings}
 
 1. Begin editing your project as described above.
 1. Click **Issue Settings** in the left panel.
@@ -544,7 +544,7 @@ For information about how these settings affect creating new tasks, see the sect
 
    Click **Save**.
 
-### Access
+### Access {#access}
 
 1. Begin editing your project as described above.
 1. Click **Access** in the left panel.
@@ -649,11 +649,11 @@ To edit projects in bulk:
    
    * Settings
 
-     For information, see the [Project Settings](#project2) section in this article.
+     For information, see the [Project Settings](#project-settings) section in this article.
    
    * Access
 
-     For information, see the [Access](#access2) section in this article.
+     For information, see the [Access](#access) section in this article.
    
    * Custom Forms
 
@@ -661,11 +661,11 @@ To edit projects in bulk:
    
    * Tasks
 
-     For information, see the [Task Settings](#task) section in this article.
+     For information, see the [Task Settings](#task-settings) section in this article.
    
    * ```Issues```
 
-     For information, see the ``` ``` [Issue Settings](#issue)``` section in this article.```
+     For information, see the ``` ``` [Issue Settings](#issue-settings)``` section in this article.```
    
    * Comment
 

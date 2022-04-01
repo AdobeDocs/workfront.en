@@ -34,17 +34,17 @@ After you have defined the overall scope of the project, you may then determine 
 
 ## Preliminary project planning
 
-* [Define the Start and Completion Date of the project](#define-start-and-completion-dates) 
-* [Define the project Schedule](#define-schedule) 
-* [Manage additional information needed for planning the project](#manage-additional-information)
+* [Define the Start and Completion Date of the project](#define-the-start-and-completion-date-of-the-project) 
+* [Define the project Schedule](#define-the-project-schedule) 
+* [Manage additional information needed for planning the project](#manage-additional-information-needed-for-planning-the-project)
 
-### Define the Start and Completion Date of the project
+### Define the Start and Completion Date of the project {#define-the-start-and-completion-date-of-the-project}
 
 When you plan a project, one of the first things that you need to determine is the timeline: when can the project start and by what time it must complete. Determine whether there a set deadline for when the project must be finished, or whether you should set a starting point and work out from there.&nbsp;
 
 You can schedule a project from a Start Date, or you can schedule it from the Completion Date. You can set this attribute when you initially create the project, and you can change it at any time by editing your project.
 
-### Define the project Schedule
+### Define the project Schedule {#define-the-project-schedule}
 
 You must determine a schedule and associate it with the project, as well as with the users who are responsible for completing the tasks on the project.&nbsp;
 
@@ -60,7 +60,7 @@ You can create multiple project schedules and apply a default schedule to the pr
 
 For more information about Schedules, see the article [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-### Manage additional information needed for planning the project
+### Manage additional information needed for planning the project {#manage-additional-information-needed-for-planning-the-project}
 
 When planning a project, there is additional information that must be set up before you can start working on the project.&nbsp;
 
@@ -104,7 +104,7 @@ Consider the following when building the timeline of the project:
 
 * Define a timeline for each objective. If you work with parent tasks, each child task must have a defined Start and Completion Date. The time between the earliest Start Date of a task and the latest Completion Date of a task on the same project results in the project timeline.&nbsp;
 
-## Define tasks
+## Define tasks {#define-tasks}
 
 As you are defining the objectives of your project and the tasks associated with them you are creating the project timeline.&nbsp;
 

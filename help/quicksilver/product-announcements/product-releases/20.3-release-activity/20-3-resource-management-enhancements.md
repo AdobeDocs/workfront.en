@@ -74,11 +74,11 @@ For information about navigating the Workload Balancer and enabling settings see
 
 ## Workload Balancer features previously communicated as releasing with the 20.2 release
 
-* [Adjust daily and weekly allocation in the Workload Balancer](#adjust) 
-* [Update Task Planned Hours in the Workload Balancer](#update) 
-* [A more convenient way to update allocations in the Workload Balancer](#a)
+* [Adjust daily and weekly allocation in the Workload Balancer](#adjust-daily-and-weekly-allocation-in-the-workload-balancer) 
+* [Update Task Planned Hours in the Workload Balancer](#update-task-planned-hours-in-the-workload-balancer) 
+* [A more convenient way to update allocations in the Workload Balancer](#a-more-convenient-way-to-update-allocations-in-the-workload-balancer)
 
-### Adjust daily and weekly allocation in the Workload Balancer
+### Adjust daily and weekly allocation in the Workload Balancer {#adjust-daily-and-weekly-allocation-in-the-workload-balancer}
 
 To avoid the burnout of your resources, you can now adjust your users' daily and weekly allocation to work using the Workload Balancer.
 
@@ -95,7 +95,7 @@ For information about managing allocations in the Workload Balancer, see [Manage
 
 [View this video in full-screen mode.](https://vimeo.com/405985254/2012ee6036)
 
-### Update Task Planned Hours in the Workload Balancer
+### Update Task Planned Hours in the Workload Balancer {#update-task-planned-hours-in-the-workload-balancer}
 
 >[!NOTE]
 >
@@ -107,7 +107,7 @@ For information about managing allocations in the Workload Balancer, see [Manage
 
 For information about granting access to Resource Management, see [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-### A more convenient way to update allocations in the Workload Balancer
+### A more convenient way to update allocations in the Workload Balancer {#a-more-convenient-way-to-update-allocations-in-the-workload-balancer}
 
 To make it more convenient to manage a user's allocations to a work item in the Workload Balancer, you can now double-click the work item. You can also still use the existing Edit allocations menu option. In addition, you are no longer required to enable displaying allocations to be able to update them.
 

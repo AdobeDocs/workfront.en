@@ -47,7 +47,7 @@ To&nbsp;create a multi-page proof:
 
 1. Go to the project, task, or issue where you want the proof, then click the **Documents** section.
 1. Click **Add new** > **Proof**. 
-1. Drag and drop the files or browse and select them from your file explorer. You can upload up to 50 files at a time. For information on file limits, see the [Considerations](#consider) section in this article.
+1. Drag and drop the files or browse and select them from your file explorer. You can upload up to 50 files at a time. For information on file limits, see the [Considerations](#considerations) section in this article.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ To&nbsp;create a multi-page proof:
    * With a basic proof, you can add as many reviewers as you want to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it. To configure a basic proof, see [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
    * With an automated proof, the proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. to configure an automated proof, see [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-## Considerations
+## Considerations {#considerations}
 
 Consider the following when combining files into a single proof:
 

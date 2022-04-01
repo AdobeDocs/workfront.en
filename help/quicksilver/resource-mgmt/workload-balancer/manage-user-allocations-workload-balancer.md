@@ -12,7 +12,7 @@ The highlighted information on this page refers to functionality not yet general
 
 As a Resource Manager, you can assign work to users and manage their daily, weekly, ```or monthly``` allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
-## Access requirements
+## Access requirements {#access-requirements}
 
 You must have the following:
 
@@ -40,7 +40,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher that include Make Assignments to the tasks <span>and issues</span> that you want to manage allocations for. </p> <p>Or </p> <p>Manage permissions to the tasks what you want to update the Planned Hours for, in addition to updating allocations. For information about updating Planned Hours in the Workload Balancer, see the <a href="#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> section in this article. </p> <p>For information about tasks permissions, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task in&nbsp;Adobe Workfront</a><span> and for information about issue permissions, see</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></span>. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher that include Make Assignments to the tasks <span>and issues</span> that you want to manage allocations for. </p> <p>Or </p> <p>Manage permissions to the tasks what you want to update the Planned Hours for, in addition to updating allocations. For information about updating Planned Hours in the Workload Balancer, see the <a href="#update-task-planned-hours-when-managing-user-allocations" class="MCXref xref">Update task Planned Hours when managing user allocations</a> section in this article. </p> <p>For information about tasks permissions, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task in&nbsp;Adobe Workfront</a><span> and for information about issue permissions, see</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></span>. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,10 +53,10 @@ User allocations are amounts of hours that indicate the time that a user should 
 
 This article describes how to update daily, weekly, or monthly hourly allocations for users assigned to tasks or issues. For information about managing overall allocations for users and job roles to tasks, see [Manage allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
 
-* [User allocation overview](#overview) 
-* [Criteria that reset user allocations](#criteria)
+* [User allocation overview](#user-allocation-overview) 
+* [Criteria that reset user allocations](#criteria-that-reset-user-allocations)
 
-### User allocation overview
+### User allocation overview {#user-allocation-overview}
 
 You can display user allocation as hours ```or as a percentage value``` in the Workload Balancer. You can adjust hours ```or percentages```.
 
@@ -64,7 +64,9 @@ User allocations are included in the number of Planned Hours of a work item. For
 
 The task Planned Hours are distributed equally between all the days within the Duration of the task for the user assigned to the task. For example, if a task has a Duration of 5 days and a total of 10 Planned Hours, the number of daily allocations for the task is 2 hours. The weekly allocation is 10 hours. This means, that a user is allocated to work on the task for 2 hours each day. However, you can manually change the daily allocation for the user using the Workload Balancer.
 
-``` ```**Warning: **``````The Workload Balancer displays only up to 1000 Planned Hours per work item. The allocations in the Workload Balancer display as zero after the 1000 hour limit is reached. We recommend dividing the task in smaller subtasks to accommodate for a larger number of Planned Hours.
+>[!CAUTION]
+>
+>The Workload Balancer displays only up to 1000 Planned Hours per work item. The allocations in the Workload Balancer display as zero after the 1000 hour limit is reached. We recommend dividing the task in smaller subtasks to accommodate for a larger number of Planned Hours.
 
 Consider the following when locating daily, weekly ```or monthly``` allocations for tasks ```or issues``` in the Workload Balancer:
 
@@ -107,7 +109,7 @@ Consider the following when locating daily, weekly ```or monthly``` allocations 
 
 ###
 
-### Criteria that reset user allocations
+### Criteria that reset user allocations {#criteria-that-reset-user-allocations}
 
 Not all task changes trigger the modified allocations to redistribute. However, there are certain actions that could reset the already adjusted allocations on your resources and redistribute them evenly to all the days during the duration of the work item for each of the assignees.
 
@@ -115,18 +117,18 @@ Not all task changes trigger the modified allocations to redistribute. However, 
 >
 >```If you have not modified the automatic distribution of allocations on work items, the hours redistribute evenly among all the assignees when there is a change in the number of assignees, the Duration of a task, or the amount of Planned Hours on the work item.```
 
-* [Actions that reset adjusted allocations](#actions) 
-* [Actions that do not reset adjusted allocations](#actions2)
+* [Actions that reset adjusted allocations](#actions-that-reset-adjusted-allocations) 
+* [Actions that do not reset adjusted allocations](#actions-that-do-not-reset-adjusted-allocations)
 
-#### Actions that reset adjusted allocations
+#### Actions that reset adjusted allocations {#actions-that-reset-adjusted-allocations}
 
-The following actions either reset or modify the daily, weekly ```or monthly``` allocations for users after you have manually adjusted them as described in the [Modify user allocations](#modify) section in this article:
+The following actions either reset or modify the daily, weekly ```or monthly``` allocations for users after you have manually adjusted them as described in the [Modify user allocations](#modify-user-allocations) section in this article:
 
 * When you shorten the length of a work item which shortens the amount of days in its Duration, the adjusted allocated hours from the lost days is added to the allocation amount of the last day of the work item. 
 * When you change the amount of Planned Hours on an assignment or on the work item, the new number of Planned Hours redistributes uniformly for the entire Duration of the work item.
 * When you add or remove an assignee to a work item and this causes the Planned Hours of the task to change, the adjusted values redistribute uniformly.
 
-#### Actions that do not reset adjusted allocations
+#### Actions that do not reset adjusted allocations {#actions-that-do-not-reset-adjusted-allocations}
 
 The following changes to a work item do not trigger the adjusted allocations to reset or modify:
 
@@ -145,9 +147,9 @@ Consider the following when viewing Planned Hours in the Workload Balancer:
 * The total Planned Hours for a project displays next to the Project Name on the left of the Workload Balancer. This represents the total of Planned Hours for all the tasks ```and issues``` listed under the project in the Workload Balancer and not all the Planned Hours of the project. 
 * The amount of time allocated daily or weekly for all task and for all project displays only when you manually enable the Show allocations setting. For information about enabling settings in the Workload Balancer see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Modify user allocations
+## Modify user allocations {#modify-user-allocations}
 
-As part of assigning work to users, you can modify user allocations in the Workload Balancer to ensure that they are never overallocated, or to ensure an accurate balance of hours between your resources. For information about identifying whether a user is overallocated, see the section [User allocation overview](#overview) in this article.
+As part of assigning work to users, you can modify user allocations in the Workload Balancer to ensure that they are never overallocated, or to ensure an accurate balance of hours between your resources. For information about identifying whether a user is overallocated, see the section [User allocation overview](#user-allocation-overview) in this article.
 
 1. Ensure you have tasks ```and issues``` assigned to users. For information about assigning work to users in the Workload Balancer see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 1. Go to the Workload Balancer .
@@ -217,13 +219,13 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
      ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
 
-   For more information about the conditions that need to be met to update Planned Hours in the Workload Balancer, see the following section in this article: [Update task Planned Hours when managing user allocations](#update). For information about task Duration Types, see [Overview of Task Duration and Duration Type](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   For more information about the conditions that need to be met to update Planned Hours in the Workload Balancer, see the following section in this article: [Update task Planned Hours when managing user allocations](#update-task-planned-hours-when-managing-user-allocations). For information about task Duration Types, see [Overview of Task Duration and Duration Type](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Conditional) If the task is assigned to more than one user, repeat these steps for each user assigned to the task to update the allocations for each user.
 
    Anyone that has access to view the Workload Balancer and views the same users and the same projects you managed now views the updated allocation for the users you managed.
 
-## Update task Planned Hours when managing user allocations
+## Update task Planned Hours when managing user allocations {#update-task-planned-hours-when-managing-user-allocations}
 
 You can update the Planned Hours of a task when managing user allocations in the Workload Balancer for the task. This happens when the total of the updated allocated hours does not match the original total of the Planned Hours for a task.
 
@@ -242,7 +244,7 @@ This is possible when the following conditions exist:
    * Manage permissions to the tasks.
    * Update Planned Hours in the Workload Balancer access in the Resource Management area of your Access Level.
 
-  For more information about the access needed to use the Workload Balancer, see the following section in this article: [Access requirements](#access2) . 
+  For more information about the access needed to use the Workload Balancer, see the following section in this article: [Access requirements](#access-requirements) . 
 
 * The task has a Duration Type of Simple.
 

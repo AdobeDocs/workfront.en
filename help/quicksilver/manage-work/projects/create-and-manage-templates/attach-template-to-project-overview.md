@@ -21,9 +21,9 @@ Consider the following when adding templates to projects:
 * You can attach only active templates to projects.
 * You can attach a template to a project when the project is in a status of Complete, Dead, or in Pending Approval, only when your Adobe Workfront administrator ```or a group administrator``` has enabled this functionality in the Project&nbsp;Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Unless you exclude specific template tasks from being added in the attachment process, all template tasks are added to the existing project.
-* Most template settings are added to the project. Some project settings are preserved. For information, see the section [Understand changes to project fields when attaching a template](#understa2) in this article.
+* Most template settings are added to the project. Some project settings are preserved. For information, see the section [Understand changes to project fields when attaching a template](#understand-changes-to-project-fields-when-attaching-a-template) in this article.
 
-## Understand changes to project fields when attaching a template
+## Understand changes to project fields when attaching a template {#understand-changes-to-project-fields-when-attaching-a-template}
 
 >[!IMPORTANT]
 >
@@ -355,15 +355,15 @@ Not all project fields are available to manage in the process of attaching a tem
 </note>
 <p>The following scenarios exist when attaching a template to an existing project: </p>
 <ul>
-<li> <p><a href="#project" class="MCXref xref">Project fields that are empty and the template information updates them</a> </p> </li>
-<li> <p><a href="#project2" class="MCXref xref">Project fields that are populated and the template information overwrites them</a> </p> </li>
-<li> <p><a href="#project3" class="MCXref xref">Project fields that are populated and they remain unchanged after attaching the template</a> </p> </li>
+<li> <p><a href="#project-fields-that-are-empty-and-the-template-information-updates-them" class="MCXref xref">Project fields that are empty and the template information updates them</a> </p> </li>
+<li> <p><a href="#project-fields-that-are-populated-and-the-template-information-overwrites-them" class="MCXref xref">Project fields that are populated and the template information overwrites them</a> </p> </li>
+<li> <p><a href="#project-fields-that-are-populated-and-they-remain-unchanged-after-attaching-the-template" class="MCXref xref">Project fields that are populated and they remain unchanged after attaching the template</a> </p> </li>
 </ul> <note type="important">
 Attaching a template to a project is not the same as creating a project from a template. When you create a project from a template all template fields transfer to the new project. Attaching a template leaves some of the existing project's fields unchanged.
 </note>
-<h3><a name="Project"></a>Project fields that are empty and the template information updates them</h3>
+<h3 id="project-fields-that-are-empty-and-the-template-information-updates-them"><a name="Project"></a>Project fields that are empty and the template information updates them</h3>
 <p>Most project fields that are empty are populated with template information when attaching the template to an existing project. </p>
-<h3><a name="Project2"></a>Project fields that are populated and the template information overwrites them</h3>
+<h3 id="project-fields-that-are-populated-and-the-template-information-overwrites-them"><a name="Project2"></a>Project fields that are populated and the template information overwrites them</h3>
 <p>The following fields always overwrite or update existing project information with template information when you attach a template to the project and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p><b>Resource manager</b>: The template Resource Managers are added to the list of existing resource managers on the project.</p> </li>
@@ -387,7 +387,7 @@ Attaching a template to a project is not the same as creating a project from a t
 <ul>
 <li> <p><b>Start&nbsp;From</b> </p> </li>
 </ul>
-<h3><a name="Project3"></a>Project fields that are populated and they remain unchanged after attaching the template</h3>
+<h3 id="project-fields-that-are-populated-and-they-remain-unchanged-after-attaching-the-template"><a name="Project3"></a>Project fields that are populated and they remain unchanged after attaching the template</h3>
 <p>The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p style="font-weight: bold;">URL</p> </li>

@@ -49,10 +49,10 @@ For a complete list of all our reportable fields, see the [API Explorer](../../.
 >
 >Not all the fields available through the API are available through the text mode interface. If you use the correct field in your text mode code and you do not display the results you expect, then the field might only be reportable through the API.
 
-* [Access reporting elements and edit text mode](#accessin) 
-* [Common reasons to use Text Mode](#common)
+* [Access reporting elements and edit text mode](#access-reporting-elements-and-edit-text-mode) 
+* [Common reasons to use Text Mode](#common-reasons-to-use-text-mode)
 
-## Access reporting elements and edit text mode
+## Access reporting elements and edit text mode {#access-reporting-elements-and-edit-text-mode}
 
 Accessing the text mode interface is similar for views, groupings and filters when accessing them from a report or a list.
 
@@ -71,23 +71,23 @@ For information about accessing the text mode interface for custom prompts, see 
 -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#editing" class="MCXref xref">Edit text mode in a view</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-view" class="MCXref xref">Edit text mode in a view</a> </li>
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#editing2" class="MCXref xref">Edit text mode in a filter</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-filter" class="MCXref xref">Edit text mode in a filter</a> </li>
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#editing3" class="MCXref xref">Edit text mode in a grouping</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-grouping" class="MCXref xref">Edit text mode in a grouping</a> </li>
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#editing-a-custom-prompt" class="MCXref xref">Edit a custom prompt</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-a-custom-prompt" class="MCXref xref">Edit a custom prompt</a> </li>
   -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Editing"></a><strong>Edit text mode in a view</strong> </h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><a name="Editing"></a><strong>Edit text mode in a view</strong> </h4>
 -->
 
 <!--
@@ -346,7 +346,7 @@ We recommend that you build as much of the view as possible in standard mode, th
    -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Editing2"></a><strong>Edit text mode in a filter</strong> </h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-filter"><a name="Editing2"></a><strong>Edit text mode in a filter</strong> </h4>
 -->
 
 <!--
@@ -446,7 +446,7 @@ We recommend that you build as much of the filter of the report as possible in s
    -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Editing3"></a><strong>Edit text mode in a grouping</strong> </h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-grouping"><a name="Editing3"></a><strong>Edit text mode in a grouping</strong> </h4>
 -->
 
 <!--
@@ -603,7 +603,7 @@ We recommend that you build as much of the grouping as possible in standard mode
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about the key lines in text mode in a view or grouping, see the section <a href="#editing" class="MCXref xref">Edit text mode in a view</a> in this article. </p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about the key lines in text mode in a view or grouping, see the section <a href="#edit-text-mode-in-a-view" class="MCXref xref">Edit text mode in a view</a> in this article. </p>
    -->
 
 1. 
@@ -651,7 +651,7 @@ We recommend that you build as much of the grouping as possible in standard mode
    -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="editing-a-custom-prompt"></a>Edit a custom prompt</h4>
+<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-a-custom-prompt"><a name="editing-a-custom-prompt"></a>Edit a custom prompt</h4>
 -->
 
 <!--
@@ -662,7 +662,7 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## Common reasons to use Text Mode
+## Common reasons to use Text Mode {#common-reasons-to-use-text-mode}
 
 Outside of creating custom prompts which can only be configured using text mode, we recommend that you use the report builder to build your views, filters and groupings. However, there are some instances where you can use text mode to enhance your reports and lists.
 

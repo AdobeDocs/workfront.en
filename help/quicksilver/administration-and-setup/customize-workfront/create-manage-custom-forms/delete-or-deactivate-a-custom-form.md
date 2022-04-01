@@ -11,7 +11,9 @@ description: You can delete or deactivate a custom form from the system.
 
 You can delete or deactivate a custom form from the system.
 
-``` ```**Warning: **``````Deleting a custom form also deletes all custom data on the objects associated with the form. The deleted data cannot be recovered. Consider deactivating a custom form instead—when deactivate a custom form you no longer use, you retain all of the associated historical data.
+>[!CAUTION]
+>
+>Deleting a custom form also deletes all custom data on the objects associated with the form. The deleted data cannot be recovered. Consider deactivating a custom form instead—when deactivate a custom form you no longer use, you retain all of the associated historical data.
 
 ## Access requirements
 

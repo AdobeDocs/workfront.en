@@ -27,8 +27,8 @@ Consider the following benefits of removing subtabs:
 
 The tabs and subtabs that we have removed have been replaced by either main areas in the Main Menu or by filters.
 
-* [Tabs moved to the Main Menu](#tabs) 
-* [Tabs and subtabs replaced by filters](#tabs2)
+* [Tabs moved to the Main Menu](#tabs-moved-to-the-main-menu) 
+* [Tabs and subtabs replaced by filters](#tabs-and-subtabs-replaced-by-filters)
 
 ## Access requirements
 
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Tabs moved to the Main Menu
+## Tabs moved to the Main Menu {#tabs-moved-to-the-main-menu}
 
 The areas that you can access from the Main Menu in the new Adobe Workfront experience are dependent on:
 
@@ -71,7 +71,7 @@ To access the new areas in the new Adobe Workfront experience:
 
 1. Click an area to access a list of objects.
 
-## Tabs and subtabs replaced by filters
+## Tabs and subtabs replaced by filters {#tabs-and-subtabs-replaced-by-filters}
 
 Workfront currently displays lists of objects filtered by predefined criteria in subtabs under their parent object or under a specific area.
 
@@ -79,11 +79,11 @@ Because the subtab structure has been replaced in the new Adobe Workfront experi
 
 The information in the following subtabs is now available through filters:
 
-* [Project lists under a Portfolio](#project) 
-* [Portfolio lists under the Portfolio area](#portfoli) 
-* [Issue lists under a project or task](#issue)
+* [Project lists under a Portfolio](#project-lists-under-a-portfolio) 
+* [Portfolio lists under the Portfolio area](#portfolio-lists-under-the-portfolio-area) 
+* [Issue lists under a project or task](#issue-lists-under-a-project-or-task)
 
-### Project lists under a Portfolio
+### Project lists under a Portfolio {#project-lists-under-a-portfolio}
 
 When accessing the Projects area, you can use the filter to display only projects that you own or projects you are part of.
 
@@ -117,7 +117,7 @@ When accessing the Projects area, you can use the filter to display only project
 >You can also quickly apply the filters Projects I'm On or Projects I Own by clicking the respective button in the Projects area header.  
 >![](assets/nwe-project-list-buttons-350x221.png)>
 
-### Portfolio lists under the Portfolio area
+### Portfolio lists under the Portfolio area {#portfolio-lists-under-the-portfolio-area}
 
 When accessing the Portfolio area, you can use the filter to display only portfolios that you own or all portfolios.
 
@@ -131,7 +131,7 @@ When accessing the Portfolio area, you can use the filter to display only portfo
    |---|---|
    | Portfolios I Own |Displays all portfolios where you are designated as the Portfolio Manager.  |
 
-### Issue lists under a project or task
+### Issue lists under a project or task {#issue-lists-under-a-project-or-task}
 
 When accessing the Issues area at the project level, you can use the filter to display only issues that are open, or issues that are closed.
 

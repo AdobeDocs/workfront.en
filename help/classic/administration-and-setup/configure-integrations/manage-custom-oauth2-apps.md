@@ -60,10 +60,10 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ## Manage custom OAuth2 applications
 
-* [View and edit custom OAuth2 applications](#view) 
-* [Delete custom OAuth2 Applications](#delete)
+* [View and edit custom OAuth2 applications](#view-and-edit-custom-oauth2-applications) 
+* [Delete custom OAuth2 Applications](#delete-custom-oauth2-applications)
 
-### View and edit custom OAuth2 applications
+### View and edit custom OAuth2 applications {#view-and-edit-custom-oauth2-applications}
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
@@ -73,7 +73,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
    For fields related to OAuth2 and JWT apps, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
-### Delete custom OAuth2 Applications
+### Delete custom OAuth2 Applications {#delete-custom-oauth2-applications}
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
@@ -82,17 +82,17 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ## Manage Client Secrets in OAuth2 applications
 
-* [View Client Secret details](#view2) 
-* [Add or edit notes for Client Secret](#add) 
-* [Delete Client Secret](#delete2)
+* [View Client Secret details](#view-client-secret-details) 
+* [Add or edit notes for Client Secret](#add-or-edit-notes-for-client-secret) 
+* [Delete Client Secret](#delete-client-secret)
 
-### View Client Secret details
+### View Client Secret details {#view-client-secret-details}
 
 >[!IMPORTANT]
 >
 >You cannot view the Client Secret itself. If you have lost your client secret, you must delete it and create a new one.
 >
->* To delete a Client Secret, see [Delete Client Secret](#delete2) in this article.
+>* To delete a Client Secret, see [Delete Client Secret](#delete-client-secret) in this article.
 >* To create a new Client Secret, see [Create an OAuth2 application](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 >
 
@@ -106,9 +106,9 @@ For more information, see [Create OAuth2 applications for Workfront integrations
    * Last used date
    * Notes
 
-     To add notes to a Client Secret, see [Add or edit notes for Client Secret](#add).
+     To add notes to a Client Secret, see [Add or edit notes for Client Secret](#add-or-edit-notes-for-client-secret).
 
-### Add or edit notes for Client Secret
+### Add or edit notes for Client Secret {#add-or-edit-notes-for-client-secret}
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
@@ -125,7 +125,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 1. Click out of the box or press **Enter** to save the note text.
 
-### Delete Client Secret
+### Delete Client Secret {#delete-client-secret}
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.

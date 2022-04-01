@@ -92,15 +92,15 @@ You must have the following access to perform the steps in this article:
 -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#making-a-workfront-approval-decision-in-a-proof" class="MCXref xref">Make a Workfront approval decision in a proof</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#make-a-workfront-approval-decision-in-a-proof" class="MCXref xref">Make a Workfront approval decision in a proof</a> </li>
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#changing-your-workfront-approval-decision-in-a-proof" class="MCXref xref">Change your Workfront approval decision in a proof</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#change-your-workfront-approval-decision-in-a-proof" class="MCXref xref">Change your Workfront approval decision in a proof</a> </li>
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="making-a-workfront-approval-decision-in-a-proof"></a>Make a Workfront approval decision in a proof</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="make-a-workfront-approval-decision-in-a-proof"><a name="making-a-workfront-approval-decision-in-a-proof"></a>Make a Workfront approval decision in a proof</h3>
 -->
 
 1. 
@@ -114,7 +114,7 @@ You must have the following access to perform the steps in this article:
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="changing-your-workfront-approval-decision-in-a-proof"></a>Change your Workfront approval decision in a proof</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="change-your-workfront-approval-decision-in-a-proof"><a name="changing-your-workfront-approval-decision-in-a-proof"></a>Change your Workfront approval decision in a proof</h3>
 -->
 
 <!--

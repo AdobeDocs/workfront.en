@@ -12,15 +12,15 @@ description: Note: The information in this article refers to functionality that 
 >
 >The information in this article refers to functionality that is currently deprecated and will be removed in the future.
 
-The Legacy Team Builder provides an interface for creating and managing a project&nbsp;team. By default, the new scheduling area is displayed rather than the team builder. You can disable the new scheduling area for your team and access the legacy Team Builder, as described in [Access the Team Builder](#accessing-the-team-builder).
+The Legacy Team Builder provides an interface for creating and managing a project&nbsp;team. By default, the new scheduling area is displayed rather than the team builder. You can disable the new scheduling area for your team and access the legacy Team Builder, as described in [Access the Team Builder](#access-the-team-builder).
 
 ## Overview of the Team Builder
 
-* [Overview of the Team Builder interface](#understanding-the-team-builder-interface) 
-* [Overview of the Team Builder icons](#understanding-team-builder-icons) 
-* [Overview of the Preferences icon](#understanding-the-preferences-icon)
+* [Overview of the Team Builder interface](#overview-of-the-team-builder-interface) 
+* [Overview of the Team Builder icons](#overview-of-the-team-builder-icons) 
+* [Overview of the Preferences icon](#overview-of-the-preferences-icon)
 
-### Overview of the Team Builder interface
+### Overview of the Team Builder interface {#overview-of-the-team-builder-interface}
 
 As a project manager, you can use the Team Builder to assign users to your project. The Team Builder is divided into four major areas:
 
@@ -30,7 +30,7 @@ As a project manager, you can use the Team Builder to assign users to your proje
 * Task schedule in the lower-right panel  
   ![](assets/1-350x259.png)
 
-### Overview of the Team Builder icons
+### Overview of the Team Builder icons {#overview-of-the-team-builder-icons}
 
 <table cellspacing="15"> 
  <col> 
@@ -67,7 +67,7 @@ As a project manager, you can use the Team Builder to assign users to your proje
   <tr> 
    <td scope="col">&nbsp;<img src="assets/preferences.png" alt="preferences.png">&nbsp;</td> 
    <td scope="col"> <p>Preferences</p> </td> 
-   <td scope="col"> <p>Opens the Preferences menu. For more information, see <a href="#understanding-the-preferences-icon" class="MCXref xref">Overview of the Preferences icon</a></p> </td> 
+   <td scope="col"> <p>Opens the Preferences menu. For more information, see <a href="#overview-of-the-preferences-icon" class="MCXref xref">Overview of the Preferences icon</a></p> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;<img src="assets/full-screen.png" alt="full_screen.png"></td> 
@@ -97,7 +97,7 @@ As a project manager, you can use the Team Builder to assign users to your proje
  </tbody> 
 </table>
 
-### Overview of the Preferences icon
+### Overview of the Preferences icon {#overview-of-the-preferences-icon}
 
 The Preferences icon in the Team Builder allows you to customize your view and makes it easier to assign tasks to users. Within preferences, you can set the fields in the User and Task panels, the information displayed in the Gantt chart and identify the matching features.
 
@@ -123,7 +123,7 @@ You can match users with a task based on the following criteria:
 We recommend that use Match on Planned Hours and Match on User Role. However, depending on the needs of your organization, a different option might be preferable.  
 ![](assets/5-350x285.png)
 
-## Access the Team Builder
+## Access the Team Builder {#access-the-team-builder}
 
 1. Click **Projects** in the Global&nbsp;Navigation Bar.
 1. Click the&nbsp;**Staffing** tab&nbsp;which&nbsp;might be located under the&nbsp;**More** tab.
@@ -148,7 +148,7 @@ You can manually add users to the project team by using the Team Builder.
 
 To add users to the project team in the Team Builder:
 
-1. Go to the Team Builder as described in [Access the Team Builder](#accessing-the-team-builder).
+1. Go to the Team Builder as described in [Access the Team Builder](#access-the-team-builder).
 1. Click the&nbsp;**All** tab in the&nbsp;**Users** panel to display all the active users in the system  
    Or  
    Click the&nbsp;**Group** tab in the&nbsp;**Users** panel to display all the users in the group associated with the project.  
@@ -161,11 +161,11 @@ To add users to the project team in the Team Builder:
 
 You can add users to a task at the task level or in the Team Builder. For more information about adding users at the task level, see the section "Manually assign unassigned tasks or issues to users" in the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-Before assigning users to a task using the Team Builder, ensure that matching is enabled. For more information about matching, see [Overview of the Preferences icon](#understanding-the-preferences-icon).
+Before assigning users to a task using the Team Builder, ensure that matching is enabled. For more information about matching, see [Overview of the Preferences icon](#overview-of-the-preferences-icon).
 
 To assign users to a task:
 
-1. Go to the Team Builder as described in [Access the Team Builder](#accessing-the-team-builder).
+1. Go to the Team Builder as described in [Access the Team Builder](#access-the-team-builder).
 1. In the Tasks panel, select a task or issue. Users who are able to perform the task are highlighted in green in the upper-left panel.  
    ![](assets/6-350x155.png)
 
@@ -176,7 +176,7 @@ To assign users to a task:
 
 ## Remove users from a Project Team using the Team Builder
 
-1. Go to the Team Builder as described in [Access the Team Builder](#accessing-the-team-builder).
+1. Go to the Team Builder as described in [Access the Team Builder](#access-the-team-builder).
 1. In the&nbsp;**User** panel, deselect the user that you want to remove. 
 1. Click&nbsp;**Save.** 
    The user is removed from the project team.

@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
 &nbsp;
 
-## Connecting Google Drive to Workfront Fusion
+## Connecting Google Drive to Workfront Fusion {#connecting-google-drive-to-workfront-fusion}
 
 If you are @gmail.com or @googlemail.com user you need to create an OAuth client on the [Google Cloud Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) in order to obtain Client ID and Client Secret.
 
@@ -80,28 +80,28 @@ If you see the map button above a field or function, you can use it to set varia
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <ul>
-<li> <p><a href="#files/fo" class="MCXref xref">Files/Folders</a> </p> </li>
-<li> <p><a href="#google2" class="MCXref xref">Google Shared Drive</a> </p> </li>
+<li> <p><a href="#files-folders" class="MCXref xref">Files/Folders</a> </p> </li>
+<li> <p><a href="#google-shared-drive" class="MCXref xref">Google Shared Drive</a> </p> </li>
 <li> <p><a href="#other" class="MCXref xref">Other</a> </p> </li>
 </ul>
-<h3><a name="Files/Fo"></a>Files/Folders</h3>
+<h3 id="files-folders"><a name="Files/Fo"></a>Files/Folders</h3>
 <ul>
-<li> <p><a href="#watch" class="MCXref xref">Watch Files In Folder</a> </p> </li>
-<li> <p><a href="#watch2" class="MCXref xref">Watch All Files</a> </p> </li>
-<li> <p><a href="#watch5" class="MCXref xref">Watch Folders</a> </p> </li>
-<li> <p><a href="#search3" class="MCXref xref">Search for Files/Folders</a> </p> </li>
-<li> <p><a href="#download" class="MCXref xref">Download a file</a> </p> </li>
-<li> <p><a href="#create2" class="MCXref xref">Create a File from Text</a> </p> </li>
-<li> <p><a href="#create3" class="MCXref xref">Create a Folder</a> </p> </li>
-<li> <p><a href="#upload2" class="MCXref xref">Upload a File</a> </p> </li>
-<li> <p><a href="#update2" class="MCXref xref">Update a File</a> </p> </li>
-<li> <p><a href="#move2" class="MCXref xref">Move a File/Folder to Trash</a> </p> </li>
-<li> <p><a href="#delete2" class="MCXref xref">Delete a File/Folder</a> </p> </li>
-<li> <p><a href="#copy2" class="MCXref xref">Copy a File</a> </p> </li>
-<li> <p><a href="#move3" class="MCXref xref">Move a File/Folder</a> </p> </li>
-<li> <p><a href="#get3" class="MCXref xref">Get a share link</a> </p> </li>
+<li> <p><a href="#watch-files-in-folder" class="MCXref xref">Watch Files In Folder</a> </p> </li>
+<li> <p><a href="#watch-all-files" class="MCXref xref">Watch All Files</a> </p> </li>
+<li> <p><a href="#watch-folders" class="MCXref xref">Watch Folders</a> </p> </li>
+<li> <p><a href="#search-for-files-folders" class="MCXref xref">Search for Files/Folders</a> </p> </li>
+<li> <p><a href="#download-a-file" class="MCXref xref">Download a file</a> </p> </li>
+<li> <p><a href="#create-a-file-from-text" class="MCXref xref">Create a File from Text</a> </p> </li>
+<li> <p><a href="#create-a-folder" class="MCXref xref">Create a Folder</a> </p> </li>
+<li> <p><a href="#upload-a-file" class="MCXref xref">Upload a File</a> </p> </li>
+<li> <p><a href="#update-a-file" class="MCXref xref">Update a File</a> </p> </li>
+<li> <p><a href="#move-a-file-folder-to-trash" class="MCXref xref">Move a File/Folder to Trash</a> </p> </li>
+<li> <p><a href="#delete-a-file-folder" class="MCXref xref">Delete a File/Folder</a> </p> </li>
+<li> <p><a href="#copy-a-file" class="MCXref xref">Copy a File</a> </p> </li>
+<li> <p><a href="#move-a-file-folder" class="MCXref xref">Move a File/Folder</a> </p> </li>
+<li> <p><a href="#get-a-share-link" class="MCXref xref">Get a share link</a> </p> </li>
 </ul>
-<h4><a name="Watch"></a>Watch Files In Folder</h4>
+<h4 id="watch-files-in-folder"><a name="Watch"></a>Watch Files In Folder</h4>
 <p>This trigger module retrieves file details when a file is added or modified in the specified folder.</p>
 <table cellspacing="15">
 <col>
@@ -109,7 +109,7 @@ If you see the map button above a field or function, you can use it to set varia
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Watch Files</td>
@@ -148,7 +148,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4><a name="Watch2"></a>Watch All Files</h4>
+<h4 id="watch-all-files"><a name="Watch2"></a>Watch All Files</h4>
 <p>This trigger module retrieves file details when a file in your Google Drive is added or modified.</p>
 <table cellspacing="15">
 <col>
@@ -156,7 +156,7 @@ If you see the map button above a field or function, you can use it to set varia
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Watch Files</td>
@@ -191,7 +191,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4><a name="Watch5"></a>Watch Folders</h4>
+<h4 id="watch-folders"><a name="Watch5"></a>Watch Folders</h4>
 <p>This trigger module starts a scenario when a folder is created or modified.</p>
 <table cellspacing="15">
 <col>
@@ -199,7 +199,7 @@ If you see the map button above a field or function, you can use it to set varia
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Watch Files</td>
@@ -228,7 +228,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4><a name="Search3"></a>Search for Files/Folders</h4>
+<h4 id="search-for-files-folders"><a name="Search3"></a>Search for Files/Folders</h4>
 <p>This search module searches for files or folders based on search criteria.</p>
 <table cellspacing="15">
 <col>
@@ -236,7 +236,7 @@ If you see the map button above a field or function, you can use it to set varia
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Select the Method</td>
@@ -276,7 +276,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4><a name="Download"></a>Download a file</h4>
+<h4 id="download-a-file"><a name="Download"></a>Download a file</h4>
 <p>This action module downloads a file from your Google Drive.</p>
 <table cellspacing="15">
 <col>
@@ -284,7 +284,7 @@ If you see the map button above a field or function, you can use it to set varia
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Enter a File ID</td>
@@ -312,7 +312,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4><a name="Create2"></a>Create a File from Text</h4>
+<h4 id="create-a-file-from-text"><a name="Create2"></a>Create a File from Text</h4>
 <p>This action module creates a file from plain text.</p>
 <table cellspacing="15">
 <col>
@@ -320,7 +320,7 @@ If you see the map button above a field or function, you can use it to set varia
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Choose a Drive</td>
@@ -349,7 +349,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h4><a name="Create3"></a>Create a Folder</h4>
+<h4 id="create-a-folder"><a name="Create3"></a>Create a Folder</h4>
 <p>This action module creates a folder in the specified location.</p>
 <table cellspacing="15">
 <col>
@@ -357,7 +357,7 @@ If you see the map button above a field or function, you can use it to set varia
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>New Drive Location</td>
@@ -404,7 +404,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4><a name="Upload2"></a>Upload a File</h4>
+<h4 id="upload-a-file"><a name="Upload2"></a>Upload a File</h4>
 <p>This action module uploads a file to your Google Drive.</p>
 <table cellspacing="15">
 <col>
@@ -412,7 +412,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Enter a Folder ID</td>
@@ -436,7 +436,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4><a name="Update2"></a>Update a File</h4>
+<h4 id="update-a-file"><a name="Update2"></a>Update a File</h4>
 <p>This action module updates a file's metadata or content.</p>
 <table cellspacing="15">
 <col>
@@ -444,7 +444,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Enter a File ID</td>
@@ -472,7 +472,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4><a name="Move2"></a>Move a File/Folder to Trash</h4>
+<h4 id="move-a-file-folder-to-trash"><a name="Move2"></a>Move a File/Folder to Trash</h4>
 <p>This action module moves a file or folder to the trash.</p>
 <table cellspacing="15">
 <col>
@@ -480,7 +480,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Enter a File/Folder ID</td>
@@ -492,7 +492,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4><a name="Delete2"></a>Delete a File/Folder</h4>
+<h4 id="delete-a-file-folder"><a name="Delete2"></a>Delete a File/Folder</h4>
 <p>This action module permanently deletes a file or folder.</p>
 <table cellspacing="15">
 <col>
@@ -500,7 +500,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Enter a File/Folder ID</td>
@@ -512,7 +512,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4><a name="Copy2"></a>Copy a File</h4>
+<h4 id="copy-a-file"><a name="Copy2"></a>Copy a File</h4>
 <p>This action module copies a file to the new location on Google Drive.</p>
 <table cellspacing="15">
 <col>
@@ -520,7 +520,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Enter a File/Folder ID</td>
@@ -536,7 +536,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4><a name="Move3"></a>Move a File/Folder</h4>
+<h4 id="move-a-file-folder"><a name="Move3"></a>Move a File/Folder</h4>
 <p>This action module moves a file or folder to a different location on Google Drive.</p>
 <table cellspacing="15">
 <col>
@@ -544,7 +544,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Choose a Drive</td>
@@ -574,7 +574,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h4><a name="Get3"></a>Get a share link</h4>
+<h4 id="get-a-share-link"><a name="Get3"></a>Get a share link</h4>
 <p>This action module retrieves the share link for a file in Google Drive.</p>
 <table cellspacing="15">
 <col>
@@ -582,7 +582,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Choose a Drive</td>
@@ -641,18 +641,18 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h3><a name="Google2"></a>Google Shared Drive</h3> <note type="note">
+<h3 id="google-shared-drive"><a name="Google2"></a>Google Shared Drive</h3> <note type="note">
 Google Shared Drive modules are for G Suite users only.
 </note>
 <ul>
-<li> <p><a href="#watch6" class="MCXref xref">Watch shared drives</a> </p> </li>
-<li> <p><a href="#search4" class="MCXref xref">Search for Shared Drives</a> </p> </li>
-<li> <p><a href="#create4" class="MCXref xref">Create a Shared Drive</a> </p> </li>
-<li> <p><a href="#get4" class="MCXref xref">Get a Shared Drive</a> </p> </li>
-<li> <p><a href="#update3" class="MCXref xref">Update a shared Drive</a> </p> </li>
-<li> <p><a href="#delete3" class="MCXref xref">Delete a Shared Drive</a> </p> </li>
+<li> <p><a href="#watch-shared-drives" class="MCXref xref">Watch shared drives</a> </p> </li>
+<li> <p><a href="#search-for-shared-drives" class="MCXref xref">Search for Shared Drives</a> </p> </li>
+<li> <p><a href="#create-a-shared-drive" class="MCXref xref">Create a Shared Drive</a> </p> </li>
+<li> <p><a href="#get-a-shared-drive" class="MCXref xref">Get a Shared Drive</a> </p> </li>
+<li> <p><a href="#update-a-shared-drive" class="MCXref xref">Update a shared Drive</a> </p> </li>
+<li> <p><a href="#delete-a-shared-drive" class="MCXref xref">Delete a Shared Drive</a> </p> </li>
 </ul>
-<h4><a name="Watch6"></a>Watch shared drives</h4>
+<h4 id="watch-shared-drives"><a name="Watch6"></a>Watch shared drives</h4>
 <p>This trigger module starts a scenario when a shared drive is created.</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -662,7 +662,7 @@ The G Suite administrator privilege is required in order to use this module.
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Search</td>
@@ -682,7 +682,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4><a name="Search4"></a>Search for Shared Drives</h4>
+<h4 id="search-for-shared-drives"><a name="Search4"></a>Search for Shared Drives</h4>
 <p>This search module searches for the Google shared drive</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -692,7 +692,7 @@ The G Suite administrator privilege is required in order to use this module.
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Search</td>
@@ -712,7 +712,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4><a name="Create4"></a>Create a Shared Drive</h4>
+<h4 id="create-a-shared-drive"><a name="Create4"></a>Create a Shared Drive</h4>
 <p>This action module creates a new shared drive</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -722,7 +722,7 @@ The G Suite administrator privilege is required in order to use this module.
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>New Shared Drive's Name</td>
@@ -730,7 +730,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4><a name="Get4"></a>Get a Shared Drive</h4>
+<h4 id="get-a-shared-drive"><a name="Get4"></a>Get a Shared Drive</h4>
 <p>This action module retrieves shared drive details</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -740,7 +740,7 @@ The G Suite administrator privilege is required in order to use this module.
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Shared Drive ID</td>
@@ -748,7 +748,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4><a name="Update3"></a>Update a shared Drive</h4>
+<h4 id="update-a-shared-drive"><a name="Update3"></a>Update a shared Drive</h4>
 <p>This action module updates an existing drive's name or restrictions.</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -758,7 +758,7 @@ The G Suite administrator privilege is required in order to use this module.
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Shared Drive ID</td>
@@ -780,7 +780,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4><a name="Delete3"></a>Delete a Shared Drive</h4>
+<h4 id="delete-a-shared-drive"><a name="Delete3"></a>Delete a Shared Drive</h4>
 <p>This action module deletes a shared drive. The shared drive cannot contain any content.</p> <note type="important">
 The G Suite administrator privilege is required in order to use this module.
 </note>
@@ -790,7 +790,7 @@ The G Suite administrator privilege is required in order to use this module.
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Shared Drive ID</td>
@@ -798,13 +798,13 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h3><a name="Other"></a>Other</h3>
+<h3 id="other"><a name="Other"></a>Other</h3>
 <ul>
-<li> <p><a href="#watch7" class="MCXref xref">Watch Comments</a> </p> </li>
-<li> <p><a href="#get5" class="MCXref xref">Get a Folder ID for a Path</a> </p> </li>
-<li> <p><a href="#make" class="MCXref xref">Make an API&nbsp;Call</a> </p> </li>
+<li> <p><a href="#watch-comments" class="MCXref xref">Watch Comments</a> </p> </li>
+<li> <p><a href="#get-a-folder-id-for-a-path" class="MCXref xref">Get a Folder ID for a Path</a> </p> </li>
+<li> <p><a href="#make-an-api-call" class="MCXref xref">Make an API&nbsp;Call</a> </p> </li>
 </ul>
-<h4><a name="Watch7"></a>Watch Comments</h4>
+<h4 id="watch-comments"><a name="Watch7"></a>Watch Comments</h4>
 <p>This trigger module starts a scenario when a comment is added or modified on the selected file.</p>
 <table cellspacing="15">
 <col>
@@ -812,7 +812,7 @@ The G Suite administrator privilege is required in order to use this module.
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Watch Comments</td>
@@ -841,7 +841,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4><a name="Get5"></a>Get a Folder ID for a Path</h4>
+<h4 id="get-a-folder-id-for-a-path"><a name="Get5"></a>Get a Folder ID for a Path</h4>
 <p>This action module retrieves the Folder ID for a given path.</p>
 <table cellspacing="15">
 <col>
@@ -849,7 +849,7 @@ The G Suite administrator privilege is required in order to use this module.
 <tbody>
 <tr>
 <td>Connection </td>
-<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
+<td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td>
 </tr>
 <tr>
 <td>Folder Path</td>
@@ -857,7 +857,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h4><a name="Make"></a>Make an API&nbsp;Call</h4>
+<h4 id="make-an-api-call"><a name="Make"></a>Make an API&nbsp;Call</h4>
 <p>This action module allows you to perform a custom API call.</p>
 <table cellspacing="0">
 <col>
@@ -900,12 +900,12 @@ The G Suite administrator privilege is required in order to use this module.
 * [Triggers](#triggers) 
 * [Actions](#actions)
 
-### Triggers
+### Triggers {#triggers}
 
-* [Watch Files In Folder](#watch) 
-* [Watch All Files](#watch2) 
-* [Watch shared files](#watch3) 
-* [Watch Comments](#watch4)
+* [Watch Files In Folder](#watch-files-in-folder) 
+* [Watch All Files](#watch-all-files) 
+* [Watch shared files](#watch-shared-files) 
+* [Watch Comments](#watch-comments)
 
 #### Watch Files In Folder
 
@@ -918,7 +918,7 @@ Retrieves file details when a file is added or modified in the specified folder.
   <tr> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
    --> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the folder to be watched</td>
@@ -987,7 +987,7 @@ Retrieves file details when a file in your Google Drive is added or modified.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>What files to watch</td> 
@@ -1027,7 +1027,7 @@ Retrieves file details when a file in your Google Drive is added or modified.
  </tbody> 
 </table>
 
-#### Watch shared files
+#### Watch shared files {#watch-shared-files}
 
 Triggers when a new file is shared to you, or an existing shared file is updated.
 
@@ -1037,7 +1037,7 @@ Triggers when a new file is shared to you, or an existing shared file is updated
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Select the folder to be watched</td> 
@@ -1081,7 +1081,7 @@ Triggers when a new file is shared to you, or an existing shared file is updated
  </tbody> 
 </table>
 
-#### Watch Comments
+#### Watch Comments {#watch-comments}
 
 Triggers when a comment is added or modified on the selected file.
 
@@ -1091,7 +1091,7 @@ Triggers when a comment is added or modified on the selected file.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File</td> 
@@ -1108,19 +1108,19 @@ Triggers when a comment is added or modified on the selected file.
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Upload a File](#upload) 
-* [Update a File](#update) 
-* [Copy a File](#copy) 
-* [Delete a File](#delete) 
-* [Move a File/Folder to Trash](#move) 
-* [Get a file](#get) 
-* [Search for Files/Folders](#search2) 
-* [Create a Folder](#create) 
-* [Get a share link](#get2)
+* [Upload a File](#upload-a-file) 
+* [Update a File](#update-a-file) 
+* [Copy a File](#copy-a-file) 
+* [Delete a File](#delete-a-file) 
+* [Move a File/Folder to Trash](#move-a-file-folder-to-trash) 
+* [Get a file](#get-a-file) 
+* [Search for Files/Folders](#search-for-files-folders) 
+* [Create a Folder](#create-a-folder) 
+* [Get a share link](#get-a-share-link)
 
-#### Upload a File
+#### Upload a File {#upload-a-file}
 
 Uploads a file to your Google Drive.
 
@@ -1130,7 +1130,7 @@ Uploads a file to your Google Drive.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -1167,7 +1167,7 @@ Uploads a file to your Google Drive.
  </tbody> 
 </table>
 
-#### Update a File
+#### Update a File {#update-a-file}
 
 Updates a file's metadata or content.
 
@@ -1177,7 +1177,7 @@ Updates a file's metadata or content.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -1218,7 +1218,7 @@ Updates a file's metadata or content.
  </tbody> 
 </table>
 
-#### Copy a File
+#### Copy a File {#copy-a-file}
 
 Copies a file to the new location.
 
@@ -1228,7 +1228,7 @@ Copies a file to the new location.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -1253,7 +1253,7 @@ Copies a file to the new location.
  </tbody> 
 </table>
 
-#### Delete a File
+#### Delete a File {#delete-a-file}
 
 Permanently deletes a file or folder.
 
@@ -1263,7 +1263,7 @@ Permanently deletes a file or folder.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File ID</td> 
@@ -1272,7 +1272,7 @@ Permanently deletes a file or folder.
  </tbody> 
 </table>
 
-#### Move a File/Folder to Trash
+#### Move a File/Folder to Trash {#move-a-file-folder-to-trash}
 
 Moves a file or folder to the trash.
 
@@ -1282,7 +1282,7 @@ Moves a file or folder to the trash.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File ID</td> 
@@ -1291,7 +1291,7 @@ Moves a file or folder to the trash.
  </tbody> 
 </table>
 
-#### Get a file
+#### Get a file {#get-a-file}
 
 Retrieves the file with the ID specified.
 
@@ -1301,7 +1301,7 @@ Retrieves the file with the ID specified.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Convert Google Documents files to format</td> 
@@ -1326,7 +1326,7 @@ Retrieves the file with the ID specified.
  </tbody> 
 </table>
 
-#### Search for Files/Folders
+#### Search for Files/Folders {#search-for-files-folders}
 
 Searches for files or folders based on search criteria.
 
@@ -1336,7 +1336,7 @@ Searches for files or folders based on search criteria.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -1385,7 +1385,7 @@ Searches for files or folders based on search criteria.
  </tbody> 
 </table>
 
-#### Create a Folder
+#### Create a Folder {#create-a-folder}
 
 Creates a folder in the specified location.
 
@@ -1395,7 +1395,7 @@ Creates a folder in the specified location.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>Destination</td> 
@@ -1420,7 +1420,7 @@ Creates a folder in the specified location.
  </tbody> 
 </table>
 
-#### Get a share link
+#### Get a share link {#get-a-share-link}
 
 Retrieves the share link for a file in Google Drive.
 
@@ -1430,7 +1430,7 @@ Retrieves the share link for a file in Google Drive.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecti" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
+   <td> <p>For instructions about connecting your Google Drive account to Workfront Fusion, see <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Connecting Google Drive to Workfront Fusion</a></p> </td> 
   </tr> 
   <tr> 
    <td>File ID</td> 
@@ -1497,11 +1497,11 @@ not
 .
 
 * [Fields](#fields) 
-* [Value types](#value) 
-* [Operators](#operator) 
+* [Value types](#value-types) 
+* [Operators](#operators) 
 * [Examples](#examples)
 
-### Fields
+### Fields {#fields}
 
 <table cellspacing="15"> 
  <col> 
@@ -1700,7 +1700,7 @@ Consider the following about operators in these fields:
 
   date are currently not comparable to each other, only to constant dates.
 
-### Value types
+### Value types {#value-types}
 
 <table cellspacing="15"> 
  <col> 
@@ -1727,7 +1727,7 @@ Consider the following about operators in these fields:
  </tbody> 
 </table>
 
-### Operators
+### Operators {#operators}
 
 <table cellspacing="15"> 
  <col> 
@@ -1805,7 +1805,7 @@ or
 
 operators are evaluated from left to right, without parentheses, the above example would return only images modified after June 4, 2012, but would return all videos, even those before June 4, 2012.
 
-### Examples
+### Examples {#examples}
 
 All examples on this page show the unencoded ```<q>q</q>``` parameter, where 
 

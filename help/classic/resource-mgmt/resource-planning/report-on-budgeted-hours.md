@@ -26,15 +26,15 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 >-->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#build" class="MCXref xref"> Build a Budgeted Hour report</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#build-a-budgeted-hour-report" class="MCXref xref"> Build a Budgeted Hour report</a> </li>
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#review" class="MCXref xref">Review the Budgeted Hour report</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#review-the-budgeted-hour-report" class="MCXref xref">Review the Budgeted Hour report</a> </li>
   -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Build"></a> Build a Budgeted Hour report</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="build-a-budgeted-hour-report"><a name="Build"></a> Build a Budgeted Hour report</h2>
 -->
 
    <!--
@@ -102,7 +102,7 @@ Budgeting resources means that you define (or budget) a certain number of hours 
    -->
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Review"></a>Review the Budgeted Hour report</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="review-the-budgeted-hour-report"><a name="Review"></a>Review the Budgeted Hour report</h2>
 -->
 
 <!--

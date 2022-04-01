@@ -69,16 +69,16 @@ The updated toolbar is available in the following lists:
 
 The icons you can find in an updated toolbar depend on the type of list that you view. The following are examples of the Adobe Workfront Classic and the new Adobe Workfront experience toolbars in a task list:
 
-* [Task list toolbar in Adobe Workfront Classic](#task2) 
-* [Task list toolbar in the new Adobe Workfront experience](#task3)
+* [Task list toolbar in Adobe Workfront Classic](#task-list-toolbar-in-adobe-workfront-classic) 
+* [Task list toolbar in the new Adobe Workfront experience](#task-list-toolbar-in-the-new-adobe-workfront-experience)
 
-### Task list toolbar in Adobe Workfront Classic
+### Task list toolbar in Adobe Workfront Classic {#task-list-toolbar-in-adobe-workfront-classic}
 
 In Adobe Workfront Classic, a combination of menus, icons, and links existed in the toolbar of a task list:
 
 ![](assets/qs-classic-toolbar-on-task-lists-350x25.png)
 
-### Task list toolbar in the new Adobe Workfront experience
+### Task list toolbar in the new Adobe Workfront experience {#task-list-toolbar-in-the-new-adobe-workfront-experience}
 
 In the new Adobe Workfront experience, most menus and links have been replaced with icons, for a more streamlined and modern look:
 
@@ -171,17 +171,17 @@ The following table lists many of the icons in the new toolbar and indicates wha
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
    <td>Filter drop-down menu</td> 
-   <td> <p>Display a list of filters and additional options to manage filters, including creating one. </p> <p>On a small screen, the Filter name is replaced by the filter icon. A blue dot displays on the Filter icon when you apply any filter other than "All."</p> <p>For information about managing filters in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
+   <td> <p>Display a list of filters and additional options to manage filters, including creating one. </p> <p>On a small screen, the Filter name is replaced by the filter icon. A blue dot displays on the Filter icon when you apply any filter other than "All."</p> <p>For information about managing filters in new toolbar, see the <a href="#manage-filters-views-and-groupings-from-the-new-toolbar" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>View drop-down menu</td> 
-   <td> <p>Display a list of views and additional options to manage views, including creating one. </p> <p>On a small screen, the View name is replaced by the view icon. A blue dot displays on the View icon when you apply any view other than "Standard."</p> <p>For information about managing views in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
+   <td> <p>Display a list of views and additional options to manage views, including creating one. </p> <p>On a small screen, the View name is replaced by the view icon. A blue dot displays on the View icon when you apply any view other than "Standard."</p> <p>For information about managing views in new toolbar, see the <a href="#manage-filters-views-and-groupings-from-the-new-toolbar" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>Grouping drop-down menu</td> 
-   <td> <p>Display a list of groupings and additional options to manage groupings, including creating one. </p> <p>On a small screen, the Grouping name is replaced by the grouping icon. A blue dot displays on the Grouping icon when you apply any grouping other than "Nothing."</p> <p>For information about managing groupings in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
+   <td> <p>Display a list of groupings and additional options to manage groupings, including creating one. </p> <p>On a small screen, the Grouping name is replaced by the grouping icon. A blue dot displays on the Grouping icon when you apply any grouping other than "Nothing."</p> <p>For information about managing groupings in new toolbar, see the <a href="#manage-filters-views-and-groupings-from-the-new-toolbar" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
@@ -206,7 +206,7 @@ The following table lists many of the icons in the new toolbar and indicates wha
  </tbody> 
 </table>
 
-## Manage Filters, Views, and Groupings from the new toolbar
+## Manage Filters, Views, and Groupings from the new toolbar {#manage-filters-views-and-groupings-from-the-new-toolbar}
 
 Managing (creating, editing, or removing) a filter, view, or grouping has been updated in the new toolbar to give you a cohesive experience between these sets of list elements. Sharing or removing a filter, view, or grouping does not require applying it first anymore.
 

@@ -10,7 +10,7 @@ description: You can define a priority for an issue to indicate how important th
 
 You can define a priority for an issue&nbsp; to indicate how important the issue is.
 
-You must have Manage permissions to the issue to modify the Priority of the issue.&nbsp; [Update the Priority of an issue](#modifying-the-priority-of-an-issue).
+You must have Manage permissions to the issue to modify the Priority of the issue.&nbsp; [Update the Priority of an issue](#update-the-priority-of-an-issue).
 
 ## Access requirements
 
@@ -87,7 +87,7 @@ Refer to the following table to understand each&nbsp;default priority label and 
  </tbody> 
 </table>
 
-## Update the Priority of an issue
+## Update the Priority of an issue {#update-the-priority-of-an-issue}
 
 1. Go to the issue whose priority you want to modify.
 1. Click&nbsp;**Issue Details** in the left panel.

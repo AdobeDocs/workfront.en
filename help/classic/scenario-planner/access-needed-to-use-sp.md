@@ -43,7 +43,7 @@ You must ensure that the following conditions are all met before you can access 
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see Customize the Main Menu using a layout template. </p> <p>For information about assigning users to a Layout Template, see Assign users to a layout template.</p> </li>
   -->
 
-* If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it.&nbsp;For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissi) section in this article.
+* If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it.&nbsp;For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
 
 ## Access needed to view plans and initiatives
 
@@ -61,7 +61,7 @@ In addition to your company acquiring the correct license for the Workfront Scen
   >
   >Requestors and External Users do not have access to view the Scenario Planner.
 
-* View permissions to the plan. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissi) section in this article.
+* View permissions to the plan. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
 
 ## Access needed to manage plans and initiatives
 
@@ -83,9 +83,9 @@ Your Workfront administrator must assign you the following access so you can man
 
   For information about the Financial Data access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-* Manage permissions to a plan that you didn't create. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissi) section in this article.
+* Manage permissions to a plan that you didn't create. For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
 
-## Permissions needed to access plans and initiatives
+## Permissions needed to access plans and initiatives {#permissions-needed-to-access-plans-and-initiatives}
 
 Access Levels work together with permissions in&nbsp;Workfront to give you visibility into plans and initiatives that you did not create. In addition to having the correct access level to access the Scenario Planner, you must also have the correct permissions to the plan that you want to view or manage, if you are not the creator of those plans.
 

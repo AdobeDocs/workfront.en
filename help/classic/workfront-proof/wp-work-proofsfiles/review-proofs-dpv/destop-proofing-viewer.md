@@ -23,7 +23,7 @@ Unlike the Web Proofing Viewer, the Desktop Proofing Viewer is an application th
 * [Desktop Proofing Viewer vs. Web Proofing Viewer](#desktop-proofing-viewer-vs-web-proofing-viewer) 
 * [Desktop Proofing Viewer vs. Legacy proofing viewer](#desktop-proofing-viewer-vs-legacy-proofing-viewer)
 
-### Desktop Proofing Viewer vs. Web Proofing Viewer
+### Desktop Proofing Viewer vs. Web Proofing Viewer {#desktop-proofing-viewer-vs-web-proofing-viewer}
 
 Two main characteristics distinguish the Desktop Proofing Viewer from the Web Proofing Viewer:
 
@@ -42,7 +42,7 @@ Two main characteristics distinguish the Desktop Proofing Viewer from the Web Pr
 
 For more information about the capabilities of the various proofing viewers,&nbsp;see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
 
-### Desktop Proofing Viewer vs. Legacy proofing viewer
+### Desktop Proofing Viewer vs. Legacy proofing viewer {#desktop-proofing-viewer-vs-legacy-proofing-viewer}
 
 You might not have access to the Legacy proofing viewer because it is supported by Flash, which has been deprecated in most environments.
 

@@ -90,24 +90,24 @@ You can view a static proof that contains multiple pages in a single view, in a 
 
 The thumbails panel displays on the left side of the proofing viewer. You can use the thumbnails area to navigate throughout the proof. Thumbnails are especially useful when a proof contains multiple pages.
 
-* [Hide and display the thumbnails panel](#hiding-and-displaying-the-thumbnails-panel) 
-* [Zoom and pan in the thumbnail view](#zooming-and-panning-in-the-thumbnails-panel)
+* [Hide and display the thumbnails panel](#hide-and-display-the-thumbnails-panel) 
+* [Zoom and pan in the thumbnail view](#zoom-and-pan-in-the-thumbnail-view)
 
-### Hide and display the thumbnails panel
+### Hide and display the thumbnails panel {#hide-and-display-the-thumbnails-panel}
 
 The thumbnails panel displays by default. You can hide or adjust the size of the panel.
 
-* [Hide the thumbnails panel](#hiding-the-thumbnails-panel) 
-* [Adjust the size of the thumbnails panel](#adjusting-the-size-of-the-thumbnails-panel)
+* [Hide the thumbnails panel](#hide-the-thumbnails-panel) 
+* [Adjust the size of the thumbnails panel](#adjust-the-size-of-the-thumbnails-panel)
 
-#### **Hide the thumbnails panel**
+#### **Hide the thumbnails panel** {#hide-the-thumbnails-panel}
 
 1. Click the **Thumbnail** icon in the upper-left corner of the proofing viewer.  
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
 1. (Optional) Click the Thumbnail icon again to display the thumbnails panel.
 
-#### **Adjust the size of the thumbnails panel**
+#### **Adjust the size of the thumbnails panel** {#adjust-the-size-of-the-thumbnails-panel}
 
 1. Mouse over the right edge of the thumbnails panel until the edge is highlighted and your mouse pointer changes.
 
@@ -115,11 +115,11 @@ The thumbnails panel displays by default. You can hide or adjust the size of the
 
 1. Drag the edge to resize the panel.
 
-### Zoom and pan in the thumbnail view
+### Zoom and pan in the thumbnail view {#zoom-and-pan-in-the-thumbnail-view}
 
 The zoom area in the thumbnails panel displays the area of the proof you are currently viewing. You can adjust the zoom within the thumbnail area or you can pan the area to view a different part of the proof.
 
-You can also zoom and pan in the main area of the proof, as described in [Zoom and pan a proof](#zooming-and-panning-a-proof).
+You can also zoom and pan in the main area of the proof, as described in [Zoom and pan a proof](#zoom-and-pan-a-proof).
 
 To zoom and pan in the thumbnail view:
 
@@ -192,11 +192,11 @@ You can rotate the proof within the proofing viewer. When you rotate a proof tha
 
    The proof is rotated 90 degrees each time you click the **Rotate** icon.
 
-## Zoom and pan a proof
+## Zoom and pan a proof {#zoom-and-pan-a-proof}
 
 You can adjust the zoom percentage when viewing the proof. When viewing a proof at a larger zoom percentage, the Pan option allows you to use the cursor to navigate to different areas of the proof.
 
-Alternatively, you can use the thumbnail area to zoom and pan within the proof, as described in [Zoom and pan a proof](#zooming-and-panning-a-proof).
+Alternatively, you can use the thumbnail area to zoom and pan within the proof, as described in [Zoom and pan a proof](#zoom-and-pan-a-proof).
 
 1. Do any of the following to adjust the zoom percentage of the proof:
 

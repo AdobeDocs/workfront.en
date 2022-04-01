@@ -51,9 +51,11 @@ You must have the following to perform the steps in this article:
 1. Select the custom field, then click **Delete**.
 1. If you are sure you want to permanently delete the custom field and all associated data on objects where it was attached, click **Yes, Delete It**.
 
-## Remove fields without losing data
+## Remove fields without losing data {#remove-fields-without-losing-data}
 
-``` ```**Warning: **`````` Removing fields from a form that has over 500 fields cannot be undone. Avoid this unless you are certain that you won't need to re-add fields to the custom form in the future. Each time you remove a field, another field cannot be added to the custom form until the custom form has fewer than 500 fields.
+>[!CAUTION]
+>
+>Removing fields from a form that has over 500 fields cannot be undone. Avoid this unless you are certain that you won't need to re-add fields to the custom form in the future. Each time you remove a field, another field cannot be added to the custom form until the custom form has fewer than 500 fields.
 
 1. Determine which fields you want to remove from the original custom form.
 
@@ -73,7 +75,7 @@ You must have the following to perform the steps in this article:
 
    Remove only the fields that you previously&nbsp;added to the new form (in Step 2).
 
-   For information about removing fields from a custom form without losing data that users have entered in those fields, see the section [Remove fields without losing data](#remove)a in the article [Delete a custom field](#).
+   For information about removing fields from a custom form without losing data that users have entered in those fields, see the section [Remove fields without losing data](#remove-fields-without-losing-data)a in the article [Delete a custom field](#).
 
    The fields that you removed from the original custom form are now available only on the new custom form that you created. Users are able to see the custom form on the object, but users without administrative access are not able to modify the custom form.
 

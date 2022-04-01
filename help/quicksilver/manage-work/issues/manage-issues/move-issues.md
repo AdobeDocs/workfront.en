@@ -62,10 +62,10 @@ You can move one or multiple issues from a list of issues or from an issue repor
 
 Moving issues differs depending on what environment you use.
 
-* [Move issues in a list in the Production environment](#copy2) 
-* [Move issues in a list in the Preview environment](#copy3)
+* [Move issues in a list in the Production environment](#move-issues-in-a-list-in-the-production-environment) 
+* [Move issues in a list in the Preview environment](#move-issues-in-a-list-in-the-preview-environment)
 
-### Move issues in a list in the Production&nbsp;environment
+### Move issues in a list in the Production&nbsp;environment {#move-issues-in-a-list-in-the-production-environment}
 
 1. Go to a project whose issues you want to move.
 
@@ -91,9 +91,9 @@ Moving issues differs depending on what environment you use.
 
    ![](assets/ci3-350x203.png)
 
-1. Continue moving the issue as described in the section [Move a single issue](#copy5) in this article, starting with Step 3.
+1. Continue moving the issue as described in the section [Move a single issue](#move-a-single-issue) in this article, starting with Step 3.
 
-### Move issues in a list in the Preview environment
+### Move issues in a list in the Preview environment {#move-issues-in-a-list-in-the-preview-environment}
 
 1. Go to the project that contains the issue or issues that you want to move.
 
@@ -106,18 +106,18 @@ Moving issues differs depending on what environment you use.
 
    ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. Continue with moving the issue, as described in the section [Move a single issue in the Preview environment](#copy6) starting with Step 2.
+1. Continue with moving the issue, as described in the section [Move a single issue in the Preview environment](#move-a-single-issue-in-the-preview-environment) starting with Step 2.
 
-## Move a single issue
+## Move a single issue {#move-a-single-issue}
 
 You can move one issue when viewing it.
 
 Moving issues differs depending on what environment you use.
 
-* [Move a single issue in the Production environment](#copy4) 
-* [Move a single issue in the Preview environment](#copy6)
+* [Move a single issue in the Production environment](#move-a-single-issue-in-the-production-environment) 
+* [Move a single issue in the Preview environment](#move-a-single-issue-in-the-preview-environment)
 
-### Move a single issue in the Production&nbsp;environment
+### Move a single issue in the Production&nbsp;environment {#move-a-single-issue-in-the-production-environment}
 
 1. Go to an issue that you want to move, then click the **More** menu ![](assets/more-icon.png) to the right of the issue name, then **Move** ```to```.
 
@@ -148,7 +148,7 @@ Moving issues differs depending on what environment you use.
 
    The copied issue is added to the specified project.&nbsp;
 
-### Move a single issue in the Preview environment
+### Move a single issue in the Preview environment {#move-a-single-issue-in-the-preview-environment}
 
 1. Go to an issue that you want to copy, click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then select **Move** ```to```.
 

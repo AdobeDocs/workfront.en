@@ -15,10 +15,10 @@ Workfront releases new product functionality to all product lines three times a 
 ### WHAT’S NEW IN THE LATEST RELEASE?
 
 * [WORKFRONT ENHANCEMENTS](#workfront-enhancements) 
-* [PROOFHQ ENHANCEMENTS](#proofhq) 
-* [WORKFRONT DAM ENHANCEMENTS](#workfron)
+* [PROOFHQ ENHANCEMENTS](#proofhq-enhancements) 
+* [WORKFRONT DAM ENHANCEMENTS](#workfront-dam-enhancements)
 
-### WORKFRONT ENHANCEMENTS
+### WORKFRONT ENHANCEMENTS {#workfront-enhancements}
 
 ![Outlook_365_Integration_1.png](assets/outlook-365-integration-1-350x212.png)   
 **Manage work right from your email** 
@@ -54,7 +54,7 @@ For more information see:&nbsp; [R1 Preview 1 and 2](../../../../product-announc
 
 ```<iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/kb6wclis7l8?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>```
 
-### PROOFHQ ENHANCEMENTS
+### PROOFHQ ENHANCEMENTS {#proofhq-enhancements}
 
 ![](assets/mceclip4-350x201.png)   
 **Proof Search and Find** 
@@ -73,7 +73,7 @@ ProofHQ now allows you to test new features in a Preview environment before rele
 
 ```<iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/2ul48s6oqoa?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>```
 
-### WORKFRONT DAM ENHANCEMENTS
+### WORKFRONT DAM ENHANCEMENTS {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)   
 **DAM Embedded Links** 

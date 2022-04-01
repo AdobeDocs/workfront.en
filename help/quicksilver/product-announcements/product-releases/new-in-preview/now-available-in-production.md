@@ -39,8 +39,8 @@ For information about what's coming soon, see [Now available in Preview](../../.
 
 ## August 30, 2019
 
-* [Change the display type of a field in a custom form](#change) 
-* [Create time off calendars and reports](#create)
+* [Change the display type of a field in a custom form](#change-the-display-type-of-a-field-in-a-custom-form) 
+* [Create time off calendars and reports](#create-time-off-calendars-and-reports)
 
 <table> 
  <col> 
@@ -48,7 +48,7 @@ For information about what's coming soon, see [Now available in Preview](../../.
   <tr> 
    <td> 
     <div> 
-     <h3><a name="Change"></a>Change the display type of a field in a custom form</h3> 
+     <h3 id="change-the-display-type-of-a-field-in-a-custom-form"><a name="Change"></a>Change the display type of a field in a custom form</h3> 
      <p>Now you can change the display type of a field in a custom form.</p> 
      <p>For example, if you have created a Checkboxes field, you can change it to a Dropdown field or a Radio Buttons field. These three field display types are interchangeable.</p> 
      <p>Or, if you have created a Single Line Text Field, you can change it to a Paragraph Text field. These two field display types are interchangeable.</p> 
@@ -72,7 +72,7 @@ For information about what's coming soon, see [Now available in Preview](../../.
   <tr> 
    <td> 
     <div> 
-     <h3><a name="Create"></a>Create time off calendars and reports</h3> 
+     <h3 id="create-time-off-calendars-and-reports"><a name="Create"></a>Create time off calendars and reports</h3> 
      <p>You can now see user’s time off for better planning and execution. You can also add new time off reports and calendars to your dashboards for a real-time view of user availability.</p> 
      <div class="workfront_plans"> 
       <p><strong>Available in these environments:</strong> </p> 

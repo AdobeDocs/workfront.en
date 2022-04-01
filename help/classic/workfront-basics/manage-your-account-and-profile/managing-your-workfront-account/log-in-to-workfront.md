@@ -11,14 +11,14 @@ description: You need the following information to log in to Adobe Workfront:
 You need the following information to log in to Adobe Workfront:
 
 * **A login URL:** This is your company's unique URL, which should have this format: **yourCompanyDomain.my.workfront.com**.  
-  If you are set up for single sign-on (SSO), your URL might have been changed by your Workfront administrator. For more information about logging in to Workfront with SSO, see [Log in to Workfront with SSO](#logging-in-to-workfront-with-sso) in this article.
+  If you are set up for single sign-on (SSO), your URL might have been changed by your Workfront administrator. For more information about logging in to Workfront with SSO, see [Log in to Workfront with SSO](#log-in-to-workfront-with-sso) in this article.
 
   The domain name for your company is established by Workfront. To change your domain name, contact our Customer Support team. For information about how to contact our Customer Support team, see [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 * **A username:** Your Workfront administrator sets up your user name.
 * **A password:** If your system is not set up for SSO, you set up your Workfront password after receiving an email invitation from the Workfront administrator.
 
-  For more information about logging in to Workfront with SSO, see [Log in to Workfront with SSO](#logging-in-to-workfront-with-sso) in this article.
+  For more information about logging in to Workfront with SSO, see [Log in to Workfront with SSO](#log-in-to-workfront-with-sso) in this article.
 
   For more information about receiving email invitations and creating a Workfront password, see [Receive email invitations and create a password for Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 
@@ -62,7 +62,7 @@ To log into Workfront using your Workfront username and password:
 1. (Conditional) If your organization's Workfront login URL&nbsp;doesn't contain a domain, you must specify your domain in the Domain field.
 1. Click **Login**.
 
-## Log in to Workfront with SSO
+## Log in to Workfront with SSO {#log-in-to-workfront-with-sso}
 
 If your Workfront administrator integrated Workfront with a single sign-on solution, you should contact them for the information needed for your logging in to Workfront. For more information about integrating Workfront with an SSO solution, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 

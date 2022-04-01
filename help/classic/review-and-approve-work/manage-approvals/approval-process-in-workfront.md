@@ -86,10 +86,10 @@ For information about creating a system-level approval process or a group-level 
 
 This section explains the following about approving work items:
 
-* [How approval processes rely on statuses](#how2) 
-* [How a typical workflow uses an approval process](#how)
+* [How approval processes rely on statuses](#how-approval-processes-rely-on-statuses) 
+* [How a typical workflow uses an approval process](#how-a-typical-workflow-uses-an-approval-process)
 
-### How approval processes rely on statuses
+### How approval processes rely on statuses {#how-approval-processes-rely-on-statuses}
 
 Attaching a status to an approval process ensures that the item moves through departments in the right order.
 
@@ -101,7 +101,7 @@ For more information about statuses for work items, see the following articles:
 * [Access the list of system task statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) 
 * [Access the list of system issue statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
-### How a typical workflow uses an approval process
+### How a typical workflow uses an approval process {#how-a-typical-workflow-uses-an-approval-process}
 
 The following scenario illustrates how an approval process helps users approve work as a Workfront object progresses through a workflow of several steps in this order:
 

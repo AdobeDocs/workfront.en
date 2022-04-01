@@ -206,11 +206,11 @@ You must have the following access to perform the steps in this article:
 
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
 
-* [Copy the update](#copy2) 
-* [Copy the thread link](#copy3) 
-* [Copy the update link](#copy4)
+* [Copy the update](#copy-the-update) 
+* [Copy the thread link](#copy-the-thread-link) 
+* [Copy the update link](#copy-the-update-link)
 
-### Copy the update
+### Copy the update {#copy-the-update}
 
 This option copies the text from a specific update to the clipboard.
 
@@ -219,7 +219,7 @@ This option copies the text from a specific update to the clipboard.
 
    ![Select Copy body text](assets/update-stream-copy-body-text-350x152.png)
 
-### Copy the thread link
+### Copy the thread link {#copy-the-thread-link}
 
 This option copies the full thread link to the clipboard so you can share the thread with other users.
 
@@ -228,7 +228,7 @@ This option copies the full thread link to the clipboard so you can share the th
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Copy the update link
+### Copy the update link {#copy-the-update-link}
 
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 

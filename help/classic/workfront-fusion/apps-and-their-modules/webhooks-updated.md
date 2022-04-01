@@ -73,7 +73,7 @@ After you create a webhook, a unique URL displays. This is the address where the
 >
 >Once you create a webhook, you can use it in more than one scenario at a time.
 
-### Configure the webhook's data structure
+### Configure the webhook's data structure {#configure-the-webhook-s-data-structure}
 
 In order to recognize the data structure of the incoming payload, Workfront Fusion parses sample data that you send to the displayed address. You can supply the sample data by making a change in the service or app that will make that service or app call the webhook. For example, you could remove a file.
 
@@ -144,15 +144,15 @@ Workfront Fusion validates all incoming data against the selected data structure
 
 If any part of the data does not pass the validation, Workfront Fusion returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, Workfront Fusion returns a “200 Accepted” status.
 
-* [Query String](#query) 
-* [Form Data](#form) 
+* [Query String](#query-string) 
+* [Form Data](#form-data) 
 * [JSON](#json)
 
-### Query String
+### Query String {#query-string}
 
 <pre>GET https://app.workfrontfusion.com/wh/<yourunique32characterslongstring>?name=<yourname>&job=automate</pre>
 
-### Form Data
+### Form Data {#form-data}
 
 <pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: application/x-www-form-urlencoded</pre><pre>name=<yourname>&job=automate</pre>
 
@@ -228,7 +228,7 @@ type and contains binary data for the file being transferred.
 
 For more information on MIME format, see [MIME modules](../../workfront-fusion/apps-and-their-modules/mime.md).
 
-### JSON
+### JSON {#json}
 
 <pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: application/json</pre><pre>{"name": "Workfront Fusion", "job": "automate"}</pre>
 ``` ```**Tip: **`````` If you want to access the original JSON, enable JSON pass-through when setting up the webhook.
@@ -281,11 +281,11 @@ For further information on obtaining an array's element with a given key, see [M
 
 The default response to a webhook call is the text "Accepted". The response is returned to the app that called the webhook during the execution of the Custom Webhook module.
 
-* [Test the response to a webhook](#test) 
-* [HTML Response example](#html) 
-* [Redirect example](#redirect)
+* [Test the response to a webhook](#test-the-response-to-a-webhook) 
+* [HTML Response example](#html-response-example) 
+* [Redirect example](#redirect-example)
 
-### Test the response to a webhook
+### Test the response to a webhook {#test-the-response-to-a-webhook}
 
 1. Include the **Custom Webhook** module in your scenario.
 1. Add a new webhook to the module.
@@ -360,7 +360,7 @@ The configuration of the module contains two fields: Status and Body.
 
 Timeout for sending a response is 40 seconds. If the response is not available within that period, Workfront Fusion returns a '200 Accepted' status.
 
-### HTML Response example
+### HTML Response example {#html-response-example}
 
 ``` ```**Example: **`````` Configure the Webhook Response module as follows:
 
@@ -393,7 +393,7 @@ This will produce an HTML response that displays like this in a web browser:
 
 ![](assets/html-response-350x70.png)
 
-### Redirect example
+### Redirect example {#redirect-example}
 
 ``` ```**Example: **`````` Configure the Webhook Response module as follows:
 
@@ -426,4 +426,4 @@ If some items are missing in the mapping panel in the setup of the modules follo
 
 ![](assets/redetermine-data-structure-btn-350x195.png)
 
-Then follow the steps described in the section [Configure the webhook's data structure](#determin) in this article.
+Then follow the steps described in the section [Configure the webhook's data structure](#configure-the-webhook-s-data-structure) in this article.

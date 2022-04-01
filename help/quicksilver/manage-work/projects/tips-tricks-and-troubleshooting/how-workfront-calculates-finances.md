@@ -95,23 +95,23 @@ For more information, also see the following articles:
 <h2>Differences between the two EAC methods</h2>
 <p>There are two methods for calculating EAC:</p>
 <ul>
-<li><a href="#calculat" class="MCXref xref">Calculate EAC at project level</a> </li>
-<li><a href="#caculate" class="MCXref xref">Caculate EAC as a roll up from tasks</a> </li>
+<li><a href="#calculate-eac-at-project-level" class="MCXref xref">Calculate EAC at project level</a> </li>
+<li><a href="#caculate-eac-as-a-roll-up-from-tasks" class="MCXref xref">Caculate EAC as a roll up from tasks</a> </li>
 </ul>
-<h3><a name="Calculat"></a>Calculate EAC at project level</h3>
+<h3 id="calculate-eac-at-project-level"><a name="Calculat"></a>Calculate EAC at project level</h3>
 <ul>
 <li> EAC for the parent task and project are determined by entering the actual hours/actual labor cost into the EAC Formulas </li>
 <li><em> Includes </em> Actual Hours/ Costs and expenses added directly to the parent task or project </li>
 </ul>
-<h3><a name="Caculate"></a>Caculate EAC as a roll up from tasks</h3>
+<h3 id="caculate-eac-as-a-roll-up-from-tasks"><a name="Caculate"></a>Caculate EAC as a roll up from tasks</h3>
 <ul>
 <li> EAC for the parent task and project are determined by summing up the EAC for each <em> direct </em> child task </li>
 <li><em> Excludes </em> Actual Hours and expenses added directly to the parent task or project </li>
 </ul>
 <h2><a name="Formulas"></a>Formulas</h2>
 <ul>
-<li><a href="#pim-hour-based" class="MCXref xref">How Adobe Workfront calculates finances </a> </li>
-<li><a href="#pim-cost-based" class="MCXref xref">How Adobe Workfront calculates finances </a> </li>
+<li><a href="#PIM-Hour-Based" class="MCXref xref">How Adobe Workfront calculates finances </a> </li>
+<li><a href="#PIM-Cost-Based" class="MCXref xref">How Adobe Workfront calculates finances </a> </li>
 </ul>
 <h3><a name="PIM-Hour-Based_section-1"></a>PIM= Hour-Based</h3>
 <h4><strong>TotalBudgetedCostWorkPerformed</strong> </h4>

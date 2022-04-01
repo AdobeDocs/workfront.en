@@ -78,7 +78,7 @@ Consider the following:&nbsp;
 * When the report is delivered in an email, the report is delivered with the time stamp and format that matches the User Locale and Time Zone as they are specified in your Workfront profile.   
   For more information about the User Locale and Time Zone in Workfront, see the article [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-## Reports with a special view
+## Reports with a special view {#reports-with-a-special-view}
 
 When you apply a special view to a report, the special view displays in of the Details tab of the report in&nbsp;Workfront.
 
@@ -100,13 +100,13 @@ For more information about how to apply a special view to a report, see the arti
 
 &nbsp;When you send a report from Workfront, the user receives an email with the report in a separate attachment.&nbsp;
 
-* [Subject line, attachment name, and report title](#file-names-and-titles) 
+* [Subject line, attachment name, and report title](#subject-line-attachment-name-and-report-title) 
 * [Timestamps](#timestamps) 
 * [Branding](#branding) 
 * [Formatting](#formatting) 
 * [Links](#links)
 
-### Subject line, attachment name, and report title
+### Subject line, attachment name, and report title {#subject-line-attachment-name-and-report-title}
 
 For more information about the subject line of the delivered report email, see [Schedule an automatic report delivery](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
@@ -122,7 +122,7 @@ Reports scheduled to be delivered in an Excel, Excel (.xlsx), or TSV format do n
 >
 >If the report has a description, it will be included in the exported file, if the file is formatted as a PDF or an HTML file.
 
-### Timestamps
+### Timestamps {#timestamps}
 
 A timestamp is displayed on the attached file only if the format of the file is a .pdf. The timestamp is in the footer of the attached file.
 
@@ -132,7 +132,7 @@ The timestamp includes:
 * Time
 * Time zone when the report was sent
 
-### Branding
+### Branding {#branding}
 
 If your Workfront administrator has added customized branding to your Workfront instance, the reports sent in .pdf format also include your personalized logo.
 
@@ -140,7 +140,7 @@ Reports sent in all other formats cannot be personalized with your logo.
 
 For more information about branding your Workfront instance, see the article [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
-### Formatting
+### Formatting {#formatting}
 
 You always receive the default tab of a report when a report is sent or scheduled for a delivery, unless the report has a special view.
 
@@ -148,10 +148,10 @@ If your report has special formatting in the web application, the report should 
 
 The filter, view, or grouping of the report are not included in the delivered file. The description of the report is included only when you send the report as a PDF file.
 
-For more information about receiving reports with a special view, see the article [Reports with a special view](#sending-reports-with-a-special-view).  
+For more information about receiving reports with a special view, see the article [Reports with a special view](#reports-with-a-special-view).  
 For more information about selecting the default tab of a report and about special formatting, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### Links
+### Links {#links}
 
 When you send a report from Workfront to&nbsp;PDF or Excel format, any working&nbsp;links that exist in the original document remain live in the sent file. Links can point to any object in Workfront that supports linking.
 
@@ -309,7 +309,7 @@ You can see whether a report has been configured to be delivered by creating the
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="sending-a-scheduled-report-now"></a>Sending a Scheduled Report Now</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sending-a-scheduled-report-now"><a name="sending-a-scheduled-report-now"></a>Sending a Scheduled Report Now</h3>
 -->
 
 <!--
@@ -337,7 +337,7 @@ You can see whether a report has been configured to be delivered by creating the
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="sending-a-report-one-time-only"></a>Sending a Report (One Time Only)</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sending-a-report-one-time-only"><a name="sending-a-report-one-time-only"></a>Sending a Report (One Time Only)</h3>
 -->
 
 <!--

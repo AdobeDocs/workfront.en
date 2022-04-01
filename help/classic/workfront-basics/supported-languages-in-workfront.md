@@ -28,7 +28,7 @@ The language used to view Workfront in your browser is controlled by your browse
 
 To display outgoing emails in any of the supported languages, modify your User Locale or Customer Info settings in Workfront.  
 You must be a Workfront administrator to modify the Customer Info settings.  
-For more information about changing the Customer Info and User Locale, see [Change the Workfront and User Locales](#changing-the-locale).
+For more information about changing the Customer Info and User Locale, see [Change the Workfront and User Locales](#change-the-workfront-and-user-locales).
 
 You can contract a third party to have the Workfront interface and the outgoing emails from Workfront translated in other languages. These translations are not supported by Workfront and any language outside of the ones listed above are unsupported.
 
@@ -94,10 +94,10 @@ You can change the language in which you view Workfront and the language of the 
 
 In order to see all available translations for your chosen language, both the Workfront locale and browser locale should be set to the same language.
 
-* [Change the browser language](#changing-browser-language) 
-* [Change the Workfront and User Locales](#changing-the-locale)
+* [Change the browser language](#change-the-browser-language) 
+* [Change the Workfront and User Locales](#change-the-workfront-and-user-locales)
 
-### Change the browser language
+### Change the browser language {#change-the-browser-language}
 
 When you change the browser language, your Workfront interface displays in that language.   
 For more information about what languages are supported by Workfront, see [Supported languages in Adobe Workfront](#supported-languages).
@@ -106,12 +106,12 @@ The browser language must be changed on an individual user basis.
 
 See the "Help" menu for your browser for specific information about how to change the language of your browser.
 
-### Change the Workfront and User Locales
+### Change the Workfront and User Locales {#change-the-workfront-and-user-locales}
 
-* [Change the Workfront Locale](#changing) 
-* [Change the User Locale](#changing-user-locale)
+* [Change the Workfront Locale](#change-the-workfront-locale) 
+* [Change the User Locale](#change-the-user-locale)
 
-### Change the Workfront Locale
+### Change the Workfront Locale {#change-the-workfront-locale}
 
 When changing the Workfront Locale, you modify the language, date, and number format used in outgoing messages for all Workfront users. These settings become the default for every new user you create.
 
@@ -125,7 +125,7 @@ To change the Workfront Locale:
 
 1. Click **Save**.
 
-### Change the User Locale
+### Change the User Locale {#change-the-user-locale}
 
 When changing your User Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.
 

@@ -87,17 +87,17 @@ The following exceptions apply:
 
 You can link&nbsp;existing documents with an external cloud&nbsp;provider. This includes any shared documents.
 
-* [Prerequisites](#prerequi) 
-* [Link an external document to Workfront](#linking-existing-documents) 
-* [Add a new version of a linked document](#add) 
-* [Link Workfront Proof documents](#linking-existing-documents-from-workfront-proof) 
-* [Create a Google document from within Workfront](#creating-new-linked-google-documents)
+* [Prerequisites](#prerequisites) 
+* [Link an external document to Workfront](#link-an-external-document-to-workfront) 
+* [Add a new version of a linked document](#add-a-new-version-of-a-linked-document) 
+* [Link Workfront Proof documents](#link-workfront-proof-documents) 
+* [Create a Google document from within Workfront](#create-a-google-document-from-within-workfront)
 
-### Prerequisites
+### Prerequisites {#prerequisites}
 
 Before you link documents or folders, your Workfront administrator must enable this functionality for each document provider, or for a custom document integration,&nbsp;as described in [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-### Link an external document to Workfront
+### Link an external document to Workfront {#link-an-external-document-to-workfront}
 
 You can link documents to Workfront from an external application such as Google and Microsoft OneDrive.
 
@@ -139,7 +139,7 @@ You can link documents to Workfront from an external application such as Google 
    >
    >For documents that are linked&nbsp;to Box, the link&nbsp;to the document in Box does not display until you refresh the page.
 
-### Add a new version of a linked document
+### Add a new version of a linked document {#add-a-new-version-of-a-linked-document}
 
 You can add a new version of a document linked to Workfront from an external application.
 
@@ -184,7 +184,7 @@ You can add a new version of a document linked to Workfront from an external app
 
 For information about adding new version of a document you have uploaded to Workfront from your file system, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### Link Workfront Proof documents
+### Link Workfront Proof documents {#link-workfront-proof-documents}
 
 You can link proofs to Workfront that originally existed in Workfront Proof. When you link a proof from Workfront Proof, all comments and other metadata associated with the proof are available in Workfront.&nbsp;
 
@@ -209,7 +209,7 @@ You can link only those proofs for which you have View access in Workfront Proof
 
    The most current version of the proof is linked to Workfront. When you open the proof, all versions are available in the proofing viewer.
 
-### Create a Google document from within Workfront
+### Create a Google document from within Workfront {#create-a-google-document-from-within-workfront}
 
 You can create a new Google document from within Workfront. You cannot create new documents from within Workfront for other cloud providers.
 
@@ -250,10 +250,10 @@ Users without Workfront access can see the document in the external application 
 When you link a folder between Workfront and an external cloud&nbsp;provider, the folder and all of its contents are linked. If users without Workfront access add, remove, and modify files from the external&nbsp;document application, their changes are synchronized to Workfront. The following sections describe how to link&nbsp;folders and subfolders:
 
 * [Folder access rights](#folder-access-rights) 
-* [Link one or more external folders](#linking-a-folder) 
-* [Add subfolders to a linked folder](#creating)
+* [Link one or more external folders](#link-one-or-more-external-folders) 
+* [Add subfolders to a linked folder](#add-subfolders-to-a-linked-folder)
 
-### Folder access rights
+### Folder access rights {#folder-access-rights}
 
 When synchronizing folder content from an external document application, Workfront uses the credentials of the user who originally linked the folder. This results in the following user experience:
 
@@ -267,7 +267,7 @@ When synchronizing folder content from an external document application, Workfro
 
 >
 
-### Link one or more external folders
+### Link one or more external folders {#link-one-or-more-external-folders}
 
 1. Go to the area in Workfront where you want the folder, then click  the **Documents** tab .
 1. Click **Add New**, then click the external document provider from which you want to link&nbsp;a folder to Workfront.
@@ -297,7 +297,7 @@ When synchronizing folder content from an external document application, Workfro
 
 This does not rename the folder in the external&nbsp;application.
 
-### Add subfolders to a linked&nbsp;folder
+### Add subfolders to a linked&nbsp;folder  {#add-subfolders-to-a-linked-folder}
 
 You can create a new folder inside an existing linked folder. You can also drag another folder into an existing linked folder.
 

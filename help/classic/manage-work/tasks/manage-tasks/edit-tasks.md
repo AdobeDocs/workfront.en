@@ -122,7 +122,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
    * [Custom Forms](#custom-forms)
    * [Comment](#comment)
 
-### Overview
+### Overview {#overview}
 
 1. Begin editing a task as described above.
 1. Click **Overview**.
@@ -333,7 +333,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    Click **Save Changes**.
 
-### Finance
+### Finance {#finance}
 
 1. Begin editing a task as described above.
 1. Click **Finance**.
@@ -374,7 +374,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    Click **Save Changes**.
 
-### Settings
+### Settings {#settings}
 
 1. Begin editing a task as described above.
 1. Click **Settings**.
@@ -443,7 +443,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    Click **Save Changes**.
 
-### Assignments
+### Assignments {#assignments}
 
 1. Begin editing a task as described above.
 1. Click **Assignments**.
@@ -479,7 +479,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    Click **Save Changes**.
 
-### Custom Forms
+### Custom Forms {#custom-forms}
 
 You can define default custom forms to be automatically attached to tasks when the tasks are added to a project. For information about setting up the project to include default task custom forms , see the "Tasks" section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -501,7 +501,7 @@ You can define default custom forms to be automatically attached to tasks when t
 
    Click **Save Changes**.
 
-### Comment
+### Comment {#comment}
 
 1. Begin editing a task as described above.
 1. Click **Comment**.

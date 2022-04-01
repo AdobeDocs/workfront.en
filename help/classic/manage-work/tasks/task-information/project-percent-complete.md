@@ -23,11 +23,11 @@ Similarly, the Percent Complete of a project is based on the planned durations o
 
 ## How Workfront calculates Percent Complete
 
-* [Update the Percent Complete on a task](#percent-complete-on-task) 
-* [How Workfront calculates Percent Complete on a parent task](#percent-complete-on-parent) 
-* [How Workfront calculates Percent Complete on a project](#percent-complete-on-project)
+* [Update the Percent Complete on a task](#update-the-percent-complete-on-a-task) 
+* [How Workfront calculates Percent Complete on a parent task](#how-workfront-calculates-percent-complete-on-a-parent-task) 
+* [How Workfront calculates Percent Complete on a project](#how-workfront-calculates-percent-complete-on-a-project)
 
-### Update the Percent Complete on a task
+### Update the Percent Complete on a task {#update-the-percent-complete-on-a-task}
 
 You can modify the percent complete of a task manually. This is not a calculation.
 
@@ -37,7 +37,7 @@ Workfront uses the percent complete of an individual task to calculate the perce
 
 For information about updating the percent complete of a task, see [View and update Percent Complete for tasks](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
-### How Workfront calculates Percent Complete on a parent task
+### How Workfront calculates Percent Complete on a parent task {#how-workfront-calculates-percent-complete-on-a-parent-task}
 
 Depending on what your Workfront administrator selected in the Project Preferences at the system level, the percent complete for a parent task is calculated either based on the Planned Duration or the Planned Hours of tasks.
 
@@ -55,7 +55,7 @@ Consider the following scenarios:
   Parent Task Percent Complete = (Task 1 Duration * Task 1 Percent Complete + Task 2 Duration * Task 2 Percent Complete)/ Total Duration of Parent*100
   ```
 
-### How Workfront calculates Percent Complete on a project
+### How Workfront calculates Percent Complete on a project {#how-workfront-calculates-percent-complete-on-a-project}
 
 Depending on what your Workfront administrator selected in the Project Preferences at the system level, the percent complete for a project is calculated either based on the Planned Duration or the Planned Hours of the main tasks on the project.
 

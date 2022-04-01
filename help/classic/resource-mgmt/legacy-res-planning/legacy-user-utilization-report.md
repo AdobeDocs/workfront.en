@@ -31,7 +31,7 @@ The User Allocation report also shows the total number of hours the users are pl
 >
 >The User Utilization Report shows the overall allocation of users, without breaking it down by projects, tasks or issues. If you must see on what specific projects, tasks or issues the allocations occur, you must use the Resource Grid. For more information about using the resource grid, see [Overview of the Resource Grid](../../resource-mgmt/legacy-res-planning/resource-grid-overview.md).
 
-## Access the User Utilization report
+## Access the User Utilization report {#access-the-user-utilization-report}
 
 Only system administrators and users with a Plan license can access the User Utilization report.
 
@@ -52,23 +52,23 @@ You can change what you see in the report by using user or project-specific filt
 
 You can see various types of allocations (Planned, Projected, Actual Allocation) depending on what View you select for the User Utilization report.
 
-* [Update filters in the User Utilization report](#updating-filters) 
-* [Change the view in the User Utilization report](#changing-the-view)
+* [Update filters in the User Utilization report](#update-filters-in-the-user-utilization-report) 
+* [Change the view in the User Utilization report](#change-the-view-in-the-user-utilization-report)
 
-### Update filters in the User Utilization report
+### Update filters in the User Utilization report {#update-filters-in-the-user-utilization-report}
 
 There are two sets of filters you can update to change the information in the User Utilization report.
 
-* [Use project-specific filters in a User Utilization report](#using-project-specific-filters) 
-* [Use user-specific filters in a User Utilization report](#using-user-specific-filters)
+* [Use project-specific filters in a User Utilization report](#use-project-specific-filters-in-a-user-utilization-report) 
+* [Use user-specific filters in a User Utilization report](#use-user-specific-filters-in-a-user-utilization-report)
 
-#### **Use project-specific filters in a User Utilization report**
+#### **Use project-specific filters in a User Utilization report** {#use-project-specific-filters-in-a-user-utilization-report}
 
 You can filter the data you display in the User Utilization report by project-specific information.
 
 To filter the User Utilization report by project-specific information:
 
-1. Go to the **User Utilization** report. For more information about accessing the User Utilization report, see [Access the User Utilization report](#accessing-the-user-utilization-report).
+1. Go to the **User Utilization** report. For more information about accessing the User Utilization report, see [Access the User Utilization report](#access-the-user-utilization-report).
 
 1. On the left-side panel, select from the following options:
 
@@ -92,14 +92,14 @@ To filter the User Utilization report by project-specific information:
 
 ```<li>3. Click <strong>Update Results</strong>.<br> The results of the report should update according to the information you specified in your filters. </li>``` 
 
-#### **Use user-specific filters in a User Utilization report**
+#### **Use user-specific filters in a User Utilization report** {#use-user-specific-filters-in-a-user-utilization-report}
 
 In addition to the project-specific filters you can build to update the information in the User Utilization Report, you can also build a user-specific filter to search for specific users in this report.
 
 To build a user-specific filter for the User Utilization report:
 
 1. Go to the User Utilization report.   
-   For more information about accessing the User Utilization report, see [Access the User Utilization report](#accessing-the-user-utilization-report).
+   For more information about accessing the User Utilization report, see [Access the User Utilization report](#access-the-user-utilization-report).
 
 1. Click to expand the **Filter**.  
    The default filter for this field is **My Home Team**. 
@@ -109,7 +109,7 @@ To build a user-specific filter for the User Utilization report:
 
 1. Apply the custom filter you created and the results in the report should update according to the fields you selected in your filter.
 
-### Change the view in the User Utilization report
+### Change the view in the User Utilization report {#change-the-view-in-the-user-utilization-report}
 
 You can view various types of user allocations (Planned, Projected, or Actual) when you change the View in the User Utilization report.
 
@@ -118,20 +118,20 @@ You cannot modify or create a new View on the User Utilization report. You can o
 To change the view of the User Utilization report:
 
 1. Go to the **User Utilization** report.   
-   For more information about accessing the User Utilization report, see [Access the User Utilization report](#accessing-the-user-utilization-report).
+   For more information about accessing the User Utilization report, see [Access the User Utilization report](#access-the-user-utilization-report).
 
 1. Click to expand the**View**.   
    The default view for this report is **Allocation**.
 
 1. Select from the following options to change the view of the report:
 
-* [Actual Hours view in the User Utilization report](#actual-hours-view) 
-* [All Hours view in the User Utilization report](#all-hours-view) 
-* [Allocation view in the User Utilization report](#allocation-view) 
-* [Planned Hours view in the User Utilization report](#planned-hours-view) 
-* [Projected Hours view in the User Utilization report](#projected-hours-view)
+* [Actual Hours view in the User Utilization report](#actual-hours-view-in-the-user-utilization-report) 
+* [All Hours view in the User Utilization report](#all-hours-view-in-the-user-utilization-report) 
+* [Allocation view in the User Utilization report](#allocation-view-in-the-user-utilization-report) 
+* [Planned Hours view in the User Utilization report](#planned-hours-view-in-the-user-utilization-report) 
+* [Projected Hours view in the User Utilization report](#projected-hours-view-in-the-user-utilization-report)
 
-#### **Actual Hours view in the User Utilization report**
+#### **Actual Hours view in the User Utilization report** {#actual-hours-view-in-the-user-utilization-report}
 
 The Actual Hours view is a preconfigured view which displays information about Actual Hours logged against tasks in relation to the available work hours as defined by the schedule of the user.  
 ![](assets/user-utilization-actual-hours-view-350x58.png)
@@ -149,7 +149,7 @@ The Actual Hours view displays the following utilization information when applie
 
 * **Actual Allocation**: The actual time logged by the user in the time frame selected in the User Utilization report as a percentage of hours from the total hours available to work during the same time frame, as defined by the schedule associated with the user.
 
-#### **All Hours view in the User Utilization report**
+#### **All Hours view in the User Utilization report** {#all-hours-view-in-the-user-utilization-report}
 
 The All Hours View is a preconfigured view which displays information about hour totals for various types of allocations (Actual, Planned, and Projected).  
 ![](assets/user-utilization-all-hours-view-350x59.png)
@@ -164,7 +164,7 @@ The All Hours view displays the following fields when applied to the User Utiliz
 * **Total Projected Hours**: The total number of all Projected Hours associated with the tasks assigned to the user during the time frame selected for the User Utilization report. 
 * **Total Actual Hours**: The total number of hours actually logged by the user against the tasks and the issues assigned to the user, during the time frame selected for the User Utilization report.
 
-#### **Allocation view in the User Utilization report**
+#### **Allocation view in the User Utilization report** {#allocation-view-in-the-user-utilization-report}
 
 The Allocation View is a preconfigured view which is the default view for the User Utilization report. The view displays information about the Planned, Projected and Actual allocation of the user, as a percentage.  
 ![](assets/user-utilization-allocation-view-350x59.png)
@@ -178,7 +178,7 @@ The Allocation view displays the following fields when applied to the User Utili
 * **Projected Allocation**: The Projected Hours of all the tasks and issues assigned to the user as a percentage from the total work time available according to the schedule associated with the user during the time frame selected for the User Utilization report.
 * **Actual Allocation**: The Actual Hours logged by the user against all the tasks and issues assigned to them as a percentage from the total work time available according to the schedule associated with the user during the time frame selected for the User Utilization report.
 
-#### **Planned Hours view in the User Utilization report**
+#### **Planned Hours view in the User Utilization report** {#planned-hours-view-in-the-user-utilization-report}
 
 The Planned Hours view is a preconfigured view which displays information about the Planned Hours on the tasks assigned to the user in relation to the available work hours as defined by the schedule of the user.  
 ![](assets/user-utilization-planned-hours-view-350x58.png)
@@ -197,7 +197,7 @@ The Planned Hours view displays the following fields when applied to the User Ut
 * **Planned Allocation**: The Planned Hours associated with the user in the time frame selected in the User Utilization report as a percentage of hours from the total hours available to work during the same time frame, as defined by the schedule associated with the user.  
   For example, if the user is allocated to 35 Planned Hours and they have 176 of total work hours available in the time frame selected in the User Utilization report, then their Planned Allocation is 19.89%.
 
-#### **Projected Hours view in the User Utilization report**
+#### **Projected Hours view in the User Utilization report** {#projected-hours-view-in-the-user-utilization-report}
 
 The Projected Hours view is a preconfigured view which displays information about the Projected Hours on the tasks assigned to the user in relation to the available work hours as defined by the schedule of the user.  
 ![](assets/user-utilization-projected-hours-view-350x60.png)

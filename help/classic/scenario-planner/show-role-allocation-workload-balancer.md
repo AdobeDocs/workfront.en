@@ -80,7 +80,9 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
 
    ![](assets/role-allocation-panel-months-collapsed-350x319.png)
 
-   ``` ```**Warning: **``````Although you can view the Role Allocation panel even if your organization did not purchase a Workfront Scenario Planner license, you cannot view information about initiatives' job roles. 
+   >[!CAUTION]
+   >
+   >Although you can view the Role Allocation panel even if your organization did not purchase a Workfront Scenario Planner license, you cannot view information about initiatives' job roles.
 
 1. Review the following information in the **Project Totals** area of the Role Allocation panel: 
 

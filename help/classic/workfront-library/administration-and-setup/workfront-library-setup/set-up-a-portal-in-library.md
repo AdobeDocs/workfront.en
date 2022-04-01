@@ -23,7 +23,7 @@ There is no limit on the number of Workfront Library portals your organization c
 >
 >You must contact Customer Success Manager or Workfront Support to create a portal.
 
-## Set up a portal
+## Set up a portal {#set-up-a-portal}
 
 1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
@@ -36,15 +36,15 @@ There is no limit on the number of Workfront Library portals your organization c
 
    You can continue with the portal set up in the following ways:
 
-   * [Add your organization's branding to the portal](#add) 
-   * [Select taxonomy for content in the portal](#select) 
-   * [Enable searching for keywords in the portal](#enable)
+   * [Add your organization's branding to the portal](#add-your-organization-s-branding-to-the-portal) 
+   * [Select taxonomy for content in the portal](#select-taxonomy-for-content-in-the-portal) 
+   * [Enable searching for keywords in the portal](#enable-searching-for-keywords-in-the-portal)
 
-### Add your organization's branding to the portal
+### Add your organization's branding to the portal {#add-your-organization-s-branding-to-the-portal}
 
 You can brand a portal with your company logo or another image.
 
-1. Complete the steps 1-5 in [Set up a portal](#set)
+1. Complete the steps 1-5 in [Set up a portal](#set-up-a-portal)
 1. In the **Setup** panel, click **Branding**.
 
 1. Hover over the **NO LOGO** box, then click **Select new image**.
@@ -66,11 +66,11 @@ You can brand a portal with your company logo or another image.
 
    Refresh the browser page where you have Workfront Library to see the new logo.
 
-### Select taxonomy for content in the portal
+### Select taxonomy for content in the portal {#select-taxonomy-for-content-in-the-portal}
 
 Your portal users might not need to view all the taxonomy you collect on your organization's assets. To give portal users only the metadata they need, you can specify the taxonomy fields that display on content added to the portal.
 
-1. Complete the steps 1-5 in [Set up a portal](#set)
+1. Complete the steps 1-5 in [Set up a portal](#set-up-a-portal)
 1. In the **Setup** panel, click **Taxonomy**.
 
    A list of your organization's taxonomy displays.
@@ -81,11 +81,11 @@ Your portal users might not need to view all the taxonomy you collect on your or
 
    For more information on taxonomy metadata, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-### Enable searching for keywords in the portal
+### Enable searching for keywords in the portal {#enable-searching-for-keywords-in-the-portal}
 
 You can allow keyword metadata to display for content in the portal. This enables users to search for and filter portal content. While in the portal, you cannot add or remove keywords from the keyword picklist. For more information on keyword metadata, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
 
-1. Complete the steps 1-5 in [Set up a portal](#set)
+1. Complete the steps 1-5 in [Set up a portal](#set-up-a-portal)
 1. In the **Setup** panel, click **Keywords**.
 
 1. Enable **Display all keywords in the portal**.  

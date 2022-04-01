@@ -67,10 +67,10 @@ You must have the following access to perform the steps in this article:
 
 You can view the tasks that belong to the Critical Path in the following areas of the Workfront application:
 
-* [View the Critical Path in the Gantt chart](#critical-path-in-gantt) 
-* [View the Critical Path in a task list or report](#critical-path-in-a-view)
+* [View the Critical Path in the Gantt chart](#view-the-critical-path-in-the-gantt-chart) 
+* [View the Critical Path in a task list or report](#view-the-critical-path-in-a-task-list-or-report)
 
-### View the Critical Path in the Gantt chart
+### View the Critical Path in the Gantt chart {#view-the-critical-path-in-the-gantt-chart}
 
 To view tasks on the Critical Path in the Gantt chart:
 
@@ -86,7 +86,7 @@ To view tasks on the Critical Path in the Gantt chart:
 
    ![crtitical_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
-### View the Critical Path in a task list or report
+### View the Critical Path in a task list or report {#view-the-critical-path-in-a-task-list-or-report}
 
 To view which tasks are on the critical path in a list of tasks:
 

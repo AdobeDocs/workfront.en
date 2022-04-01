@@ -10,7 +10,7 @@ description: Adobe Workfront's default configuration includes a Work On It butto
 
 Adobe Workfront's default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to. When you click Work On It on items assigned to you, you signal to other users that you received the work and acknowledge that you'll work on it. However, the Work On It button doesn't update the task or issue status to signal that work has actually started.
 
-You can replace the Work On It button with a Start button for a team you belong to. In this case, you click the Start button instead of Work On It, which automatically updates the status and the Actual Start Date of the work item, signaling that you started work. For information about the setting of which team might affect your changes in the Work On It button, see the section [Configure the Start button](#configur) in this article.
+You can replace the Work On It button with a Start button for a team you belong to. In this case, you click the Start button instead of Work On It, which automatically updates the status and the Actual Start Date of the work item, signaling that you started work. For information about the setting of which team might affect your changes in the Work On It button, see the section [Configure the Start button](#configure-the-start-button) in this article.
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Configure the Start button
+## Configure the Start button {#configure-the-start-button}
 
 If you have a Plan license, you can configure the Start button for a team in the Edit team window. Following is how the button works after it is enabled for a team:
 
@@ -72,9 +72,9 @@ To configure the Start button:
 
    >[!NOTE]
    >
-   >We recommend setting the team as a user's Home Team so the start button appears on all of their assigned work items. See [Associate users with a Home Team](#associat) below.
+   >We recommend setting the team as a user's Home Team so the start button appears on all of their assigned work items. See [Associate users with a Home Team](#associate-users-with-a-home-team) below.
 
-## Associate users with a Home Team
+## Associate users with a Home Team {#associate-users-with-a-home-team}
 
 To associate users with a Home Team:
 

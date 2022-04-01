@@ -124,7 +124,7 @@ You must have the following access to perform the steps in this article:
 1. Adobe Workfront drops a pin in the center of the area you marked for the comment. In the screenshot below, the markup (red box) was drawn with the Box tool and the pin marked number 2 in the center identifies the markup.  
 1. ![pin_for_comment.png](assets/pin-for-comment-350x179.png)
 
-## View comments
+## View comments {#view-comments}
 
 1. Open the proof where you want to view comments.
 1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
@@ -165,7 +165,7 @@ In Workfront, you can view proof comments without launching your proofing viewer
 
 ## Reply to comments
 
-1. View the comment, as described in [View comments](#viewing-comments) in this article.
+1. View the comment, as described in [View comments](#view-comments) in this article.
 1. Type your reply in the **Add a reply** box.
 1. (Optional) To notify another reviewer&nbsp;about your reply, type @ in the comment box, then type the user's name or email address.
 
@@ -324,7 +324,7 @@ To edit a comment:
 
    ![](assets/edited-label-in-minix-qs-350x280.png)
 
-## Resolve a comment
+## Resolve a comment {#resolve-a-comment}
 
 If you have the Author or Moderator role on a proof, you can resolve a comment after it has been addressed.
 
@@ -381,7 +381,7 @@ As a reviewer of a proof, you can quickly mark all comments as Read.
 
 You can delete a comment or a reply to a comment as long as no one has already replied to it.
 
-It is usually better to resolve a&nbsp;comment rather than delete it. For more informaton, see&nbsp; [Resolve a comment](#resolving-a-comment) in this article.
+It is usually better to resolve a&nbsp;comment rather than delete it. For more informaton, see&nbsp; [Resolve a comment](#resolve-a-comment) in this article.
 
 Additionally, the following users can delete comments or replies made by other users:
 

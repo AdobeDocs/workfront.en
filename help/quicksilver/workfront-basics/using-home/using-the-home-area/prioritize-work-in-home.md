@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Add items to My Priority
+## Add items to My Priority {#add-items-to-my-priority}
 
 You can add any item assigned to you in your Work List to&nbsp;My Priority. New items are added at the bottom of the list.
 
@@ -64,7 +64,7 @@ You can add any item assigned to you in your Work List to&nbsp;My Priority. New 
 
 You can prioritize your&nbsp;work in My Priority, placing the most important items at the top of the list. Priorities you set are visible only to you. No one else can prioritize work for you.
 
-You must add work items to My Priority before you can begin prioritizing. For more information, see [Add items to My Priority](#adding-items) in this article.
+You must add work items to My Priority before you can begin prioritizing. For more information, see [Add items to My Priority](#add-items-to-my-priority) in this article.
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. In the left panel, click the **Group by** drop-down menu, then select **My Priority**.

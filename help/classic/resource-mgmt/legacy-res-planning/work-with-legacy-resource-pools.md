@@ -28,7 +28,7 @@ We recommend against creating too many Legacy Resource Pools unless you have sev
 >In order for Legacy Resource Pools to provide value and be an active part of your resource budgeting, ensure that all your users are associated with at least one job role.   
 >For more information about associating users with job roles, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)For more information about all the prerequisites necessary for managing your resources with Legacy Resource Planning, see the [Prerequisites for Using Legacy Resource Planning](../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md#prerequisites-for-resource-planning) section in [Understanding Legacy Resource Planning](../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md).* *
 
-## Create a Legacy Resource Pool
+## Create a Legacy Resource Pool {#create-a-legacy-resource-pool}
 
 1. Go to the **People** area in the Global Navigation Bar.
 1. Select the **Legacy** **Resource Planning** tab.
@@ -48,10 +48,10 @@ We recommend against creating too many Legacy Resource Pools unless you have sev
 
 1. Click **Save**.
 
-## Add job roles to a Legacy Resource Pool
+## Add job roles to a Legacy Resource Pool {#add-job-roles-to-a-legacy-resource-pool}
 
 You can add job roles to a Legacy Resource Pool as you are creating the Legacy Resource Pool.   
-For more information about creating a Resource Pool, see the section [Create a Legacy Resource Pool](#creating-a-resource-pool) in this article.
+For more information about creating a Resource Pool, see the section [Create a Legacy Resource Pool](#create-a-legacy-resource-pool) in this article.
 
 You can also add job roles to a Legacy Resource Pool in the Resource Pools section of the Resource Budget Manager.   
 For more information about the Resource Budget Manager, see [Budget Legacy Resource Pools in the Resource Budget Manager](../../resource-mgmt/legacy-res-planning/budget-legacy-pools-in-budget-manager.md).
@@ -66,7 +66,7 @@ You must have administrative rights to editing users in order to edit or create 
 Associating Legacy Resource Pools with users is done for reporting purposes. You can keep track of what Legacy Resource Pool the job roles of a user should belong to by associating a user with a Legacy Resource Pool.
 
 For managing your resources in the Capacity Planner, you must add job roles (not users) to the Legacy Resource Pools.   
-For more information about adding job roles to Legacy Resource Pools, see [Add job roles to a Legacy Resource Pool](#adding-job-roles-to-a-resource-pool).
+For more information about adding job roles to Legacy Resource Pools, see [Add job roles to a Legacy Resource Pool](#add-job-roles-to-a-legacy-resource-pool).
 
 ## Associate a Legacy Resource Pool with projects
 

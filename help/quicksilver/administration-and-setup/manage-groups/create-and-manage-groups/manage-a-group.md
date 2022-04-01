@@ -154,7 +154,7 @@ For instructions, see [Create and modify a group’s projects](../../../administ
 <h2>Make a group active or inactive</h2>
 <p>You can keep a group in its default active state or make it inactive.</p>
 <p>Deactivating a group can be useful when it is not currently in use because users no longer see it in type-ahead fields when they are searching for a group that they want to associate with another object.</p>
-<p>For instructions on making a group inactive or active, see the sections <a href="#view" class="MCXref xref">Manage a group</a> and <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive" class="MCXref xref">Inactive groups</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md" class="MCXref xref">View and manage a group’s details</a>. </p>
+<p>For instructions on making a group inactive or active, see the sections <a href="#View" class="MCXref xref">Manage a group</a> and <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive" class="MCXref xref">Inactive groups</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md" class="MCXref xref">View and manage a group’s details</a>. </p>
 </div>
 -->
 

@@ -63,7 +63,7 @@ To add a Workfront work item to your calendar:
 
    All the work items assigned to you or your groups, teams, or job roles display in the left panel. You can sort the list and filter it to display only certain items.
 
-   For more information, see [Filter and sort work items](#filtering-and-sorting-work-items)&nbsp;later in this article.
+   For more information, see [Filter and sort work items](#filter-and-sort-work-items)&nbsp;later in this article.
 
 1. From the left panel, drag the work item to the day and time when you want to work on it.
 
@@ -141,7 +141,7 @@ To update the integrated calendar events in your Home Calendar:
 
    Integrated calendar events update automatically when you open your Home Calendar view or when you refresh your Home Calendar.
 
-## Filter and sort work items
+## Filter and sort work items  {#filter-and-sort-work-items}
 
 1. Go to the Home Calendar view, as explained in [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 1. Click the **Filter** 

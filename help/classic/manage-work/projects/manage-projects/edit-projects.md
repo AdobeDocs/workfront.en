@@ -104,7 +104,7 @@ Some settings mentioned in this article might be modified from their default sta
    * [Tasks](#tasks) 
    * [Comment](#comment)
 
-### Overview
+### Overview {#overview}
 
 1. Begin editing your project as described above.
 1. In the **Edit Project** box, click **Overview**.
@@ -194,7 +194,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save Changes**.
 
-### Finance
+### Finance {#finance}
 
 1. Begin editing your project as described above.
 1. In the **Edit Project** box, click **Finance**.
@@ -254,7 +254,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save Changes**.
 
-### Portfolio
+### Portfolio {#portfolio}
 
 1. Begin editing your project as described above.
 1. In the **Edit Project** box, click **Portfolio**.
@@ -292,7 +292,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save Changes**.
 
-### Settings
+### Settings {#settings}
 
 1. Begin editing your project as described above.
 1. In the **Edit Project** box, click **Settings**.
@@ -407,7 +407,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save Changes**.
 
-### Access
+### Access {#access}
 
 1. Begin editing your project as described above.
 1. In the **Edit Project** box, click **Access**.
@@ -463,7 +463,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save Changes**.
 
-### Custom Forms
+### Custom Forms {#custom-forms}
 
 1. Begin editing your project as described above.
 1. In the **Edit Project** box, click **Custom Forms**.
@@ -486,7 +486,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    Click **Save Changes**.
 
-### Tasks
+### Tasks {#tasks}
 
 You can define the defaults that will be associated with all the new tasks when you add them to the project.
 
@@ -522,7 +522,7 @@ For information about how these settings affect creating new tasks, see [Create 
    >
    >When the project Update Type is set to Automatic and you select this setting, the Planned Hours of the tasks update according to the task Duration and the Work Effort percentage, if they are set to zero. For more information about using Work Effort to plan effort for a task, see ``` [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md)```.
 
-### Comment
+### Comment {#comment}
 
 1. Begin editing your project as described above.
 1. In the **Edit Project** box, click **Comment**.

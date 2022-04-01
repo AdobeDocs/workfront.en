@@ -25,10 +25,10 @@ A user might have multiple access levels assigned to them. For example, a user c
 >To determine how a user has access to Workfront Library, you can open the Library menu and go to **Setup** > **Access** > **Users**. In the Users area, you see a list of users and the type of access they have is listed in the Access Sources column.  
 >![](assets/access-sources-column-350x274.png)<![CDATA[		]]>
 
-* [Remove a user's individual access](#remove2) 
-* [Remove access for a user grouping](#remove3)
+* [Remove a user's individual access](#remove-a-user-s-individual-access) 
+* [Remove access for a user grouping](#remove-access-for-a-user-grouping)
 
-## Remove a user's individual access
+## Remove a user's individual access {#remove-a-user-s-individual-access}
 
 Removing a user's individual access to Workfront Library does not affect any other access sources that the user has.
 
@@ -72,7 +72,7 @@ To remove individual access:
    >
    >If you want to restore access for an inactive user, you can locate them by clicking the Filter icon, then selecting **Deactivated users** from the menu. After finding the Deactivated users list, you can select **Restore user access** from the More Menu.
 
-## Remove access for a user grouping
+## Remove access for a user grouping {#remove-access-for-a-user-grouping}
 
 As a Workfront Library administrator, you can remove access to Workfront Library for an entire group of users based on their user groupings:
 

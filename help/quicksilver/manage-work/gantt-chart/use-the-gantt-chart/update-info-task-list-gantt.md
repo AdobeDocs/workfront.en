@@ -255,7 +255,7 @@ When making changes affecting the timeline (such as dates and durations), the sy
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="add-or-remove-tasks"></a>Add or Remove Tasks</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="add-or-remove-tasks"><a name="add-or-remove-tasks"></a>Add or Remove Tasks</h3>
 -->
 
 <!--
@@ -340,7 +340,7 @@ When making changes affecting the timeline (such as dates and durations), the sy
    -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="edit-task-fields"></a>Edit Task Fields</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-task-fields"><a name="edit-task-fields"></a>Edit Task Fields</h3>
 -->
 
 <!--

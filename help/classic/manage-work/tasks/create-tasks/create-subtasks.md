@@ -41,10 +41,10 @@ You must have the following access to perform the steps in this article:
 
 ## Create subtasks
 
-* [Create subtasks from the task list](#creating-subtasks-from-the-task-list) 
-* [Create subtasks from the task Subtasks tab](#creating-subtasks-from-the-task-details-page)
+* [Create subtasks from the task list](#create-subtasks-from-the-task-list) 
+* [Create subtasks from the task Subtasks tab](#create-subtasks-from-the-task-subtasks-tab)
 
-### Create subtasks from the task list
+### Create subtasks from the task list {#create-subtasks-from-the-task-list}
 
 1. Go to the&nbsp;project where you want to create&nbsp;subtasks.
 1. Click the **Tasks**&nbsp;tab.
@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
    >
    >You can&nbsp;indent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.&nbsp;
 
-### Create subtasks from the task Subtasks tab
+### Create subtasks from the task Subtasks tab  {#create-subtasks-from-the-task-subtasks-tab}
 
 1. Go to the&nbsp;project where you want to create&nbsp;subtasks.
 1. Click the **Tasks**&nbsp;tab.

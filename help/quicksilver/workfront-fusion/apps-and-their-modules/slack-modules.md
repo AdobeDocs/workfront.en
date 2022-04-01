@@ -71,31 +71,31 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Messages](#messages) 
 * [Files](#files) 
-* [Channels](#conversa) 
-* [Reactions](#reaction) 
+* [Channels](#channels) 
+* [Reactions](#reactions) 
 * [Stars](#stars) 
-* [Saved Items](#saved) 
+* [Saved Items](#saved-items) 
 * [Pins](#pins) 
 * [Users](#users) 
-* [Reminders](#reminder) 
+* [Reminders](#reminders) 
 * [Events](#events) 
 * [Profile](#profile) 
 * [Other](#other)
 
-### Messages
+### Messages {#messages}
 
-* [Watch Public Channel Messages](#watch) 
-* [Watch Private Channel Messages](#watch2) 
-* [Watch Direct Messages](#watch3) 
-* [Watch Multiparty Direct Messages](#watch4) 
-* [Search for Message](#search2) 
-* [Get a Private Channel Message](#get2) 
-* [Get a Public Channel Message](#get) 
-* [Create a Message](#create) 
-* [Update a Message](#update) 
-* [Delete a Message](#delete)
+* [Watch Public Channel Messages](#watch-public-channel-messages) 
+* [Watch Private Channel Messages](#watch-private-channel-messages) 
+* [Watch Direct Messages](#watch-direct-messages) 
+* [Watch Multiparty Direct Messages](#watch-multiparty-direct-messages) 
+* [Search for Message](#search-for-message) 
+* [Get a Private Channel Message](#get-a-private-channel-message) 
+* [Get a Public Channel Message](#get-a-public-channel-message) 
+* [Create a Message](#create-a-message) 
+* [Update a Message](#update-a-message) 
+* [Delete a Message](#delete-a-message)
 
-#### Watch Public Channel Messages
+#### Watch Public Channel Messages {#watch-public-channel-messages}
 
 This trigger module starts the scenario when a new message is added to a public channel.
 
@@ -118,7 +118,7 @@ This trigger module starts the scenario when a new message is added to a public 
  </tbody> 
 </table>
 
-#### Watch Private Channel Messages
+#### Watch Private Channel Messages {#watch-private-channel-messages}
 
 This trigger module starts the scenario when a new message is added to a private channel (group).
 
@@ -141,7 +141,7 @@ This trigger module starts the scenario when a new message is added to a private
  </tbody> 
 </table>
 
-#### Watch Direct Messages
+#### Watch Direct Messages {#watch-direct-messages}
 
 This trigger module starts the scenario when a new message is added to a direct message.
 
@@ -164,7 +164,7 @@ This trigger module starts the scenario when a new message is added to a direct 
  </tbody> 
 </table>
 
-#### Watch Multiparty Direct Messages
+#### Watch Multiparty Direct Messages {#watch-multiparty-direct-messages}
 
 This trigger module starts the scenario when a new message is added to a multiparty direct message channel.
 
@@ -187,7 +187,7 @@ This trigger module starts the scenario when a new message is added to a multipa
  </tbody> 
 </table>
 
-#### Search for Message
+#### Search for Message {#search-for-message}
 
 This search module returns messages matching a search query.
 
@@ -210,7 +210,7 @@ This search module returns messages matching a search query.
  </tbody> 
 </table>
 
-#### Get a Private Channel Message
+#### Get a Private Channel Message {#get-a-private-channel-message}
 
 This action module retrieves the details of a message from a selected channel.
 
@@ -233,7 +233,7 @@ This action module retrieves the details of a message from a selected channel.
  </tbody> 
 </table>
 
-#### Get a Public Channel Message
+#### Get a Public Channel Message {#get-a-public-channel-message}
 
 This action module returns a message with a given ID from a specified public channel..
 
@@ -283,7 +283,7 @@ This action module retrieves a thread of messages posted to a conversation.
  </tbody> 
 </table>
 
-#### Create a Message
+#### Create a Message {#create-a-message}
 
 This action module creates a new message.
 
@@ -371,7 +371,7 @@ This action module creates a new message.
  </tbody> 
 </table>
 
-#### Update a Message
+#### Update a Message {#update-a-message}
 
 This action module allows you to edit an existing message.
 
@@ -420,7 +420,7 @@ This action module allows you to edit an existing message.
  </tbody> 
 </table>
 
-#### Delete a Message
+#### Delete a Message {#delete-a-message}
 
 This action module deletes a specified message.
 
@@ -448,17 +448,17 @@ This action module deletes a specified message.
  </tbody> 
 </table>
 
-### Files
+### Files {#files}
 
-* [Watch Files](#watch5) 
-* [List Files](#list5) 
-* [Get a File](#get4) 
-* [Download a File](#download) 
-* [Upload a File](#upload) 
-* [Create a Text File](#create3) 
-* [Delete a File](#delete2)
+* [Watch Files](#watch-files) 
+* [List Files](#list-files) 
+* [Get a File](#get-a-file) 
+* [Download a File](#download-a-file) 
+* [Upload a File](#upload-a-file) 
+* [Create a Text File](#create-a-text-file) 
+* [Delete a File](#delete-a-file)
 
-#### Watch Files
+#### Watch Files {#watch-files}
 
 This trigger module starts a scenario when a new file is added.
 
@@ -485,7 +485,7 @@ This trigger module starts a scenario when a new file is added.
  </tbody> 
 </table>
 
-#### List Files
+#### List Files {#list-files}
 
 This action module returns a list of files based on the specified filter.
 
@@ -524,7 +524,7 @@ This action module returns a list of files based on the specified filter.
  </tbody> 
 </table>
 
-#### Get a File
+#### Get a File {#get-a-file}
 
 This action module returns details about the specified file.
 
@@ -543,7 +543,7 @@ This action module returns details about the specified file.
  </tbody> 
 </table>
 
-#### Download a File
+#### Download a File {#download-a-file}
 
 This action module downloads a file from a URL. It must follow the Slack > Get a File module in a scenario.
 
@@ -562,7 +562,7 @@ This action module downloads a file from a URL. It must follow the Slack > Get a
  </tbody> 
 </table>
 
-#### Upload a File
+#### Upload a File {#upload-a-file}
 
 This action module creates or uploads a file to Slack
 
@@ -597,7 +597,7 @@ This action module creates or uploads a file to Slack
  </tbody> 
 </table>
 
-#### Create a Text File
+#### Create a Text File {#create-a-text-file}
 
 This action module creates a text file.
 
@@ -632,7 +632,7 @@ This action module creates a text file.
  </tbody> 
 </table>
 
-#### Delete a File
+#### Delete a File {#delete-a-file}
 
 This action module returns deletes the specified file.
 
@@ -651,20 +651,20 @@ This action module returns deletes the specified file.
  </tbody> 
 </table>
 
-### Channels
+### Channels {#channels}
 
-* [List Channels](#list) 
-* [Get a Channel](#get3) 
-* [List Members in Channel](#list2) 
-* [Set the Topic of a Channel](#set) 
-* [Set the Purpose of a Channel](#set2) 
-* [Join a Channel](#join) 
-* [Leave a Channel](#leave) 
-* [Create a Channel](#create2) 
-* [Archive a Channel](#archive) 
-* [Unarchive a Channel](#unarchiv)
+* [List Channels](#list-channels) 
+* [Get a Channel](#get-a-channel) 
+* [List Members in Channel](#list-members-in-channel) 
+* [Set the Topic of a Channel](#set-the-topic-of-a-channel) 
+* [Set the Purpose of a Channel](#set-the-purpose-of-a-channel) 
+* [Join a Channel](#join-a-channel) 
+* [Leave a Channel](#leave-a-channel) 
+* [Create a Channel](#create-a-channel) 
+* [Archive a Channel](#archive-a-channel) 
+* [Unarchive a Channel](#unarchive-a-channel)
 
-#### List Channels
+#### List Channels {#list-channels}
 
 This search module returns a list of all channels in a workspace.
 
@@ -691,7 +691,7 @@ This search module returns a list of all channels in a workspace.
  </tbody> 
 </table>
 
-#### Get a Channel
+#### Get a Channel {#get-a-channel}
 
 This action module returns information about a workspace channel.
 
@@ -710,7 +710,7 @@ This action module returns information about a workspace channel.
  </tbody> 
 </table>
 
-#### List Members in Channel
+#### List Members in Channel {#list-members-in-channel}
 
 This search module returns a list of users in the selected channel.
 
@@ -746,7 +746,7 @@ This search module returns a list of users in the selected channel.
  </tbody> 
 </table>
 
-#### Set the Topic of a Channel
+#### Set the Topic of a Channel {#set-the-topic-of-a-channel}
 
 This action module changes the topic of a channel
 
@@ -782,7 +782,7 @@ This action module changes the topic of a channel
  </tbody> 
 </table>
 
-#### Set the Purpose of a Channel
+#### Set the Purpose of a Channel {#set-the-purpose-of-a-channel}
 
 This action module changes the purpose of a channel
 
@@ -818,7 +818,7 @@ This action module changes the purpose of a channel
  </tbody> 
 </table>
 
-#### Join a Channel
+#### Join a Channel {#join-a-channel}
 
 This action module joins the user to a channel.
 
@@ -837,7 +837,7 @@ This action module joins the user to a channel.
  </tbody> 
 </table>
 
-#### Leave a Channel
+#### Leave a Channel {#leave-a-channel}
 
 This action module removes the user from a channel.
 
@@ -856,7 +856,7 @@ This action module removes the user from a channel.
  </tbody> 
 </table>
 
-#### Create a Channel
+#### Create a Channel {#create-a-channel}
 
 This action module creates a new channel.
 
@@ -879,7 +879,7 @@ This action module creates a new channel.
  </tbody> 
 </table>
 
-#### Archive a Channel
+#### Archive a Channel {#archive-a-channel}
 
 This action module creates a new channel.
 
@@ -898,7 +898,7 @@ This action module creates a new channel.
  </tbody> 
 </table>
 
-#### Unarchive a Channel
+#### Unarchive a Channel {#unarchive-a-channel}
 
 This action module creates a new channel.
 
@@ -917,13 +917,13 @@ This action module creates a new channel.
  </tbody> 
 </table>
 
-### Reactions
+### Reactions {#reactions}
 
-* [List reactions](#list3) 
-* [Add a reaction](#add) 
-* [Remove a reaction](#remove)
+* [List reactions](#list-reactions) 
+* [Add a reaction](#add-a-reaction) 
+* [Remove a reaction](#remove-a-reaction)
 
-#### List reactions
+#### List reactions {#list-reactions}
 
 This action module returns reactions that a user made.
 
@@ -946,7 +946,7 @@ This action module returns reactions that a user made.
  </tbody> 
 </table>
 
-#### Add a reaction
+#### Add a reaction {#add-a-reaction}
 
 This action module adds a reaction to an item.
 
@@ -977,7 +977,7 @@ This action module adds a reaction to an item.
  </tbody> 
 </table>
 
-#### Remove a reaction
+#### Remove a reaction {#remove-a-reaction}
 
 This action module adds a reaction to an item.
 
@@ -1008,12 +1008,12 @@ This action module adds a reaction to an item.
  </tbody> 
 </table>
 
-### Stars
+### Stars {#stars}
 
-* [Add a star](#add2) 
-* [Remove a star](#remove3)
+* [Add a star](#add-a-star) 
+* [Remove a star](#remove-a-star)
 
-#### Add a star
+#### Add a star {#add-a-star}
 
 This action module makes a channel a starred channel.
 
@@ -1036,7 +1036,7 @@ This action module makes a channel a starred channel.
  </tbody> 
 </table>
 
-#### Remove a star
+#### Remove a star {#remove-a-star}
 
 This action module removed the star from a starred channel.
 
@@ -1059,12 +1059,12 @@ This action module removed the star from a starred channel.
  </tbody> 
 </table>
 
-### Saved Items
+### Saved Items {#saved-items}
 
-* [Save an Item](#save) 
-* [Remove Saved Item](#remove2)
+* [Save an Item](#save-an-item) 
+* [Remove Saved Item](#remove-saved-item)
 
-#### Save an Item
+#### Save an Item {#save-an-item}
 
 This action module adds an item to saved items.
 
@@ -1087,7 +1087,7 @@ This action module adds an item to saved items.
  </tbody> 
 </table>
 
-#### Remove Saved Item
+#### Remove Saved Item {#remove-saved-item}
 
 This action module adds an item to saved items.
 
@@ -1110,12 +1110,12 @@ This action module adds an item to saved items.
  </tbody> 
 </table>
 
-### Pins
+### Pins {#pins}
 
-* [Pin an Item](#pin) 
-* [Unpin an Item](#unpin)
+* [Pin an Item](#pin-an-item) 
+* [Unpin an Item](#unpin-an-item)
 
-#### Pin an Item
+#### Pin an Item {#pin-an-item}
 
 This action module pins an item, such as a file or file comment, to a channel.
 
@@ -1142,7 +1142,7 @@ This action module pins an item, such as a file or file comment, to a channel.
  </tbody> 
 </table>
 
-#### Unpin an Item
+#### Unpin an Item {#unpin-an-item}
 
 This action module unpins an item from a channel. You can unpin files, file comments, channel messages, or group messages.
 
@@ -1169,14 +1169,14 @@ This action module unpins an item from a channel. You can unpin files, file comm
  </tbody> 
 </table>
 
-### Users
+### Users {#users}
 
-* [Watch Multiparty Direct Messages](#watch4) 
-* [Search for User](#search) 
-* [List Users](#list4) 
-* [Get a User](#get5) 
-* [Invite Users](#invite) 
-* [Kick a User](#kick)
+* [Watch Multiparty Direct Messages](#watch-multiparty-direct-messages) 
+* [Search for User](#search-for-user) 
+* [List Users](#list-users) 
+* [Get a User](#get-a-user) 
+* [Invite Users](#invite-users) 
+* [Kick a User](#kick-a-user)
 
 #### Watch Users
 
@@ -1197,7 +1197,7 @@ This trigger module starts the scenario when a new user is added to the Slack wo
  </tbody> 
 </table>
 
-#### Search for User
+#### Search for User {#search-for-user}
 
 This action module retrieves details about a single user, by using their email address.
 
@@ -1216,7 +1216,7 @@ This action module retrieves details about a single user, by using their email a
  </tbody> 
 </table>
 
-#### List Users
+#### List Users {#list-users}
 
 This action module returns a list of all users in a workspace.
 
@@ -1235,7 +1235,7 @@ This action module returns a list of all users in a workspace.
  </tbody> 
 </table>
 
-#### Get a User
+#### Get a User {#get-a-user}
 
 This action module retrieves details about a member of a workspace.
 
@@ -1254,7 +1254,7 @@ This action module retrieves details about a member of a workspace.
  </tbody> 
 </table>
 
-#### Invite Users
+#### Invite Users {#invite-users}
 
 This action module invites 1-30 users to a public or private channel.
 
@@ -1281,7 +1281,7 @@ This action module invites 1-30 users to a public or private channel.
  </tbody> 
 </table>
 
-#### Kick a User
+#### Kick a User {#kick-a-user}
 
 This action module removes a user from a channel.
 
@@ -1308,15 +1308,15 @@ This action module removes a user from a channel.
  </tbody> 
 </table>
 
-### Reminders
+### Reminders {#reminders}
 
-* [List Reminders](#list6) 
-* [Get a Reminder](#get6) 
-* [Create a Reminder](#create4) 
-* [Complete a Reminder](#complete) 
-* [Delete a Reminder](#delete3)
+* [List Reminders](#list-reminders) 
+* [Get a Reminder](#get-a-reminder) 
+* [Create a Reminder](#create-a-reminder) 
+* [Complete a Reminder](#complete-a-reminder) 
+* [Delete a Reminder](#delete-a-reminder)
 
-#### List Reminders
+#### List Reminders {#list-reminders}
 
 This action module returns a list of all reminders created by or given to the currently authenticated user.
 
@@ -1335,7 +1335,7 @@ This action module returns a list of all reminders created by or given to the cu
  </tbody> 
 </table>
 
-#### Get a Reminder
+#### Get a Reminder {#get-a-reminder}
 
 This action module retrieves details about a specific reminder.
 
@@ -1354,7 +1354,7 @@ This action module retrieves details about a specific reminder.
  </tbody> 
 </table>
 
-#### Create a Reminder
+#### Create a Reminder {#create-a-reminder}
 
 This action module creates a reminder.
 
@@ -1386,7 +1386,7 @@ This action module creates a reminder.
  </tbody> 
 </table>
 
-#### Complete a Reminder
+#### Complete a Reminder {#complete-a-reminder}
 
 This action module completes a specific reminder.
 
@@ -1405,7 +1405,7 @@ This action module completes a specific reminder.
  </tbody> 
 </table>
 
-#### Delete a Reminder
+#### Delete a Reminder {#delete-a-reminder}
 
 This action module deletes a specific reminder.
 
@@ -1424,7 +1424,7 @@ This action module deletes a specific reminder.
  </tbody> 
 </table>
 
-### Events
+### Events {#events}
 
 #### New Event
 
@@ -1448,7 +1448,7 @@ This instant trigger starts a scenario when a new message or other event is crea
  </tbody> 
 </table>
 
-### Profile
+### Profile {#profile}
 
 #### Set a status
 
@@ -1482,7 +1482,7 @@ This action module updates a user's current status.
  </tbody> 
 </table>
 
-### Other
+### Other {#other}
 
 #### Make an API Call
 

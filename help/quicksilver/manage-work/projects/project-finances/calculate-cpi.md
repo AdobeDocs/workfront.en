@@ -44,10 +44,10 @@ You must have the following access to perform the steps in this article:
 
 ## Overview of the Cost Performance Index (CPI)
 
-* [The CPI value](#understanding-the-cpi-value) 
-* [How CPI is calculated](#understanding-how-cpi-is-calculated)
+* [The CPI value](#the-cpi-value) 
+* [How CPI is calculated](#how-cpi-is-calculated)
 
-### The CPI value
+### The CPI value {#the-cpi-value}
 
 Project managers understand that a CPI value of 1 means the project is exactly on budget. Values greater than 1 indicate a project is under budget (fewer hours or expenses have been recorded than originally planned), and values less than 1 mean a project is over budget (more hours or expenses have been recorded than originally planned). The further from 1, the greater deviation from the plan.
 
@@ -57,14 +57,14 @@ Project managers understand that a CPI value of 1 means the project is exactly o
 | > 1 (greater than 1) |Under budget |
 | < 1 (less than 1) |Over budget |
 
-### How CPI is calculated
+### How CPI is calculated {#how-cpi-is-calculated}
 
 In Adobe Workfront, the calculation for CPI depends on the Performance Index Method selected for the project. For more information about setting the Performance Index Method, see [Set the Performance Index Method (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 * [CPI calculations when using Hour-based PIM](#cpi-calculations-when-using-hour-based-pim) 
 * [CPI Calculations when using Cost-based PIM](#cpi-calculations-when-using-cost-based-pim)
 
-#### **CPI calculations when using Hour-based PIM**
+#### **CPI calculations when using Hour-based PIM** {#cpi-calculations-when-using-hour-based-pim}
 
 If 
 
@@ -92,7 +92,7 @@ CPI = 1
 
 For information about the total Budgeted Cost Work Performed (BCWP), see [Calculate Budgeted Cost Work Performed (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
-#### **CPI Calculations when using Cost-based PIM**
+#### **CPI Calculations when using Cost-based PIM** {#cpi-calculations-when-using-cost-based-pim}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>CPI = (Planned Cost of Work Performed + Planned Cost of Incurred Expenses) / (Total Actual Cost + Actual Cost of Incurred Expenses)</code> </p>

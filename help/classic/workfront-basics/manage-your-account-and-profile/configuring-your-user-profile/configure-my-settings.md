@@ -18,7 +18,7 @@ Depending on what access level you have in Workfront, you can edit some of this 
 
 Depending on what access level you have, you may or may not be able to edit sections&nbsp;in your My Settings area.
 
-Some fields contained in editable sections cannot be edited, depending on other settings that might or might not be configured in&nbsp;your access level. For more information on additional access needed for editing some of the fields you find in My Settings, see the sections in [Configuring the My Settings area](#configuring-my-settings).
+Some fields contained in editable sections cannot be edited, depending on other settings that might or might not be configured in&nbsp;your access level. For more information on additional access needed for editing some of the fields you find in My Settings, see the sections in [Configuring the My Settings area](#configuring-the-my-settings-area).
 
 To find out what access level you have, contact your Workfront administrator.
 
@@ -183,7 +183,7 @@ The following grid shows what sections in the My Settings area are visible&nbsp;
  </tbody> 
 </table>
 
-## Configuring the My Settings area
+## Configuring the My Settings area {#configuring-the-my-settings-area}
 
 1. Click your profile picture in the upper-right corner of the Global Navigation Bar, then click **My Settings**.  
    ![](assets/log-out-and-my-settings-links-350x155.png)  
@@ -196,12 +196,12 @@ The following grid shows what sections in the My Settings area are visible&nbsp;
    * [Access](#access) 
    * [Organization](#organization) 
    * [Resource Planning](#resource-planning) 
-   * [Custom Form](#custom-forms) 
+   * [Custom Form](#custom-form) 
    * [Comment](#comment)
 
 1. Click **Save Changes**.
 
-### Personal Info
+### Personal Info {#personal-info}
 
 This section&nbsp;includes the following sub-sections:
 
@@ -209,7 +209,7 @@ This section&nbsp;includes the following sub-sections:
 * [Job info](#job-info) 
 * [Contact info](#contact-info)
 
-#### **Basic info**
+#### **Basic info** {#basic-info}
 
 This information should already be configured by your Workfront administrator. All the fields in this sub-section are required fields. &nbsp;
 
@@ -246,7 +246,7 @@ You can change any of the following in this sub-section:
  </tbody> 
 </table>
 
-#### Job info
+#### Job info {#job-info}
 
 You can change any of the following in this sub-section:
 
@@ -254,7 +254,7 @@ You can change any of the following in this sub-section:
 |---|---|
 | Talk to Me About |Specify your professional&nbsp;interests in this field. |
 
-#### Contact info
+#### Contact info {#contact-info}
 
 You can change any of the following in this sub-section:
 
@@ -269,7 +269,7 @@ You can change any of the following in this sub-section:
 | Country |&nbsp; |
 | Profile Picture |Your profile picture becomes your avatar and it is visible throughout the Workfront system, wherever your name is displayed. |
 
-### Preferences
+### Preferences {#preferences}
 
 Specify what you want to display in your Workfront interface in this section.
 
@@ -314,11 +314,11 @@ You can change any of the following in this sub-section:
  </tbody> 
 </table>
 
-### Notifications
+### Notifications {#notifications}
 
 Specify what notifications you would like to receive from Workfront. For more information about configuring notifications, see [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-### Access
+### Access {#access}
 
 Your access and other components associated with it are configured by your Workfront administrator, when your account is set up.&nbsp;
 
@@ -362,7 +362,7 @@ You can change any of the following in this sub-section:
  </tbody> 
 </table>
 
-### Organization
+### Organization {#organization}
 
 This information is usually configured by your Workfront administrator, when they create your Workfront account. You can also update information about your organization or organization structure in this section. Only users with a Plan or System Administrator access level can edit this section.&nbsp;
 
@@ -403,7 +403,7 @@ You can change any of the following in this sub-section:
  </tbody> 
 </table>
 
-### Resource Planning
+### Resource Planning {#resource-planning}
 
 Your resource planning information affects the timeline of work assignments, the time you log, cost, and revenue of the projects you are on. Usually, this area is updated by the Workfront administrator, a project or resource manager, or by your direct manager.
 
@@ -468,7 +468,7 @@ Use any of the following in this section:
  </tbody> 
 </table>
 
-### Custom Form
+### Custom Form {#custom-form}
 
 You can associate a custom form with your user profile. This allows you to store additional information for your user that otherwise cannot be stored in the Workfront native fields described above.  
 You must have either&nbsp;of the following access or permissions in order to attach a custom form to your user:
@@ -480,7 +480,7 @@ All users can see custom forms that have been associated with their users.
 
 Your Workfront administrator must configure custom forms for the user object in order for you to be able to attach a custom form to your user profile. For more information about creating custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-### Comment
+### Comment {#comment}
 
 You can record&nbsp;a comment on your user profile which is stored on the Updates tab of your user.&nbsp;
 

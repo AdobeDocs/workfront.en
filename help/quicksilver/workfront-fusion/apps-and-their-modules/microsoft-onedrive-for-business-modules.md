@@ -74,12 +74,12 @@ If you see the map button above a field or function, you can use it to set varia
 * [Triggers](#triggers) 
 * [Actions](#actions)
 
-### Triggers
+### Triggers {#triggers}
 
-* [Watch files](#watch) 
-* [Watch folders](#watch2)
+* [Watch files](#watch-files) 
+* [Watch folders](#watch-folders)
 
-#### Watch files
+#### Watch files {#watch-files}
 
 This trigger module activates when a new file is added or updated in a folder being watched.
 
@@ -110,7 +110,7 @@ This trigger module activates when a new file is added or updated in a folder be
  </tbody> 
 </table>
 
-#### Watch folders
+#### Watch folders {#watch-folders}
 
 This trigger module activates when a new folder is added to the folder being watched.
 
@@ -141,16 +141,16 @@ This trigger module activates when a new folder is added to the folder being wat
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Upload a file](#upload) 
-* [Delete a file](#delete) 
-* [Get a file](#get) 
-* [Create a folder](#create) 
-* [Delete a folder](#delete2) 
-* [Get a sharing link](#get2)
+* [Upload a file](#upload-a-file) 
+* [Delete a file](#delete-a-file) 
+* [Get a file](#get-a-file) 
+* [Create a folder](#create-a-folder) 
+* [Delete a folder](#delete-a-folder) 
+* [Get a sharing link](#get-a-sharing-link)
 
-#### Upload a file
+#### Upload a file {#upload-a-file}
 
 This action module uploads a binary or text file to a specified folder
 
@@ -192,7 +192,7 @@ This action module uploads a binary or text file to a specified folder
  </tbody> 
 </table>
 
-#### Delete a file
+#### Delete a file {#delete-a-file}
 
 This action module moves the specified file to the recycle bin.
 
@@ -219,7 +219,7 @@ This action module moves the specified file to the recycle bin.
  </tbody> 
 </table>
 
-#### Get a file
+#### Get a file {#get-a-file}
 
 This action module retrieves the file with the given ID.
 
@@ -246,7 +246,7 @@ This action module retrieves the file with the given ID.
  </tbody> 
 </table>
 
-#### Create a folder
+#### Create a folder {#create-a-folder}
 
 Creates a folder inside the specified parent folder.
 
@@ -278,7 +278,7 @@ Creates a folder inside the specified parent folder.
  </tbody> 
 </table>
 
-#### Delete a folder
+#### Delete a folder {#delete-a-folder}
 
 <table cellspacing="15"> 
  <col> 
@@ -303,7 +303,7 @@ Creates a folder inside the specified parent folder.
  </tbody> 
 </table>
 
-#### Get a sharing link
+#### Get a sharing link {#get-a-sharing-link}
 
 This module retrieves a link that you can share to give access to the specified file.
 

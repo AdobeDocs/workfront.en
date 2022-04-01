@@ -23,7 +23,7 @@ For more information about the new experience, see [the new Workfront experience
 * Selecting Switch to the new experience from the user menu in the Global Navigation Bar
 * Selecting Switch to Classic in the Main Menu.
 
-For more information, see [Switch your admin account to Adobe Workfront Classic](#switch) or [Switch your admin account to the new Adobe Workfront experience](#switch2).
+For more information, see [Switch your admin account to Adobe Workfront Classic](#switch-your-admin-account-to-adobe-workfront-classic) or [Switch your admin account to the new Adobe Workfront experience](#switch-your-admin-account-to-the-new-adobe-workfront-experience).
 
 ## Access requirements
 
@@ -129,7 +129,7 @@ To see the New Experience screen, you must meet the following conditions:
 
 1. Instruct users that they must log out and log back in to Workfront in order to see Adobe Workfront Classic.
 
-## Switch your admin account to Adobe Workfront Classic
+## Switch your admin account to Adobe Workfront Classic {#switch-your-admin-account-to-adobe-workfront-classic}
 
 As a Workfront administrator or a group administrator, you can change your own Workfront environment.
 
@@ -140,7 +140,7 @@ As a Workfront administrator or a group administrator, you can change your own W
 
    ![](assets/switch-to-classic-adobe-350x568.png)
 
-## Switch your admin account to the new Adobe Workfront experience
+## Switch your admin account to the new Adobe Workfront experience {#switch-your-admin-account-to-the-new-adobe-workfront-experience}
 
 As a Workfront administrator or a group administrator, you can change your own Workfront environment.
 

@@ -46,11 +46,11 @@ For information about using actions in the proofing viewer, see [Use actions on 
 
 You can configure actions for your organization in the following ways:
 
-* [Add or rename an action](#adding-or-renaming-an-action) 
-* [Deactivate or reactivate an action](#deactivating-or-activating-an-action) 
-* [Reorder actions](#reordering-actions)
+* [Add or rename an action](#add-or-rename-an-action) 
+* [Deactivate or reactivate an action](#deactivate-or-reactivate-an-action) 
+* [Reorder actions](#reorder-actions)
 
-### Add or rename an action
+### Add or rename an action {#add-or-rename-an-action}
 
 1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
 
@@ -67,7 +67,7 @@ You can configure actions for your organization in the following ways:
 1. Type a name for the action, then click **Save**.
 1. Click **Save.**
 
-### Deactivate or reactivate an action
+### Deactivate or reactivate an action {#deactivate-or-reactivate-an-action}
 
 1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
 
@@ -76,7 +76,7 @@ You can configure actions for your organization in the following ways:
 1. Click **Setup** next to the action you want to deactivate or reactivate.
 1. Select **Activate** or **Deactivate**, then click **Save**.
 
-### Reorder actions
+### Reorder actions {#reorder-actions}
 
 1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
 
@@ -174,17 +174,17 @@ To modify the default settings for proofs:
    * [Proof counter](#proof-counter) 
    * [Make folder mandatory](#make-folder-mandatory) 
    * [Disable proof email notifications](#disable-proof-email-notifications) 
-   * [Right-to-left text support in comments](#right-to-left-text-support) 
+   * [Right-to-left text support in comments](#right-to-left-text-support-in-comments) 
    * [Login required](#login-required) 
    * [Comment deletion](#comment-deletion) 
    * [Web Proofing Viewer](#web-proofing-viewer) 
    * [Desktop Proofing Viewer](#desktop-proofing-viewer)
 
-### Deadline (+business days)
+### Deadline (+business days) {#deadline-business-days}
 
 Workfront Proof applies this deadline to all new proofs in your account that do not have an Automated Workflow.
 
-### Copy owner from original proof
+### Copy owner from original proof {#copy-owner-from-original-proof}
 
 This setting is useful if you have different people creating different versions or copies of proofs. By default, it is set to Enabled, which means that the owner of the first version a proof is also the owner of all consecutive versions of the proof, regardless of who creates these versions.
 
@@ -192,7 +192,7 @@ If you disable this setting, the person who creates any new version of a proof b
 
 This setting applies both to creating new proofs and copying proofs.
 
-### Electronic signatures
+### Electronic signatures {#electronic-signatures}
 
 <!--
 <p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans.</a></p>
@@ -204,7 +204,7 @@ The electronic signatures message displays when Workfront Proof prompts reviewer
 
 To learn more about&nbsp;electronic signatures, see [Understanding electronic signatures in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md).
 
-### Proof counter
+### Proof counter {#proof-counter}
 
 <!--
 <p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans.</a></p>
@@ -220,15 +220,15 @@ You can specify the number from which the proof counter should count every time 
 >
 >Once you enable the counter and start creating proofs, you cannot change the start number.
 
-### Make folder mandatory
+### Make folder mandatory {#make-folder-mandatory}
 
 This setting forces users to add their new proofs to folders. A proof creator can save a proof only after selecting the folder where they want to store it. This is helpful in keeping your proofs organized.
 
-### Disable proof email notifications
+### Disable proof email notifications {#disable-proof-email-notifications}
 
 This setting is most commonly used by companies who developed an integration with their own systems using our Public API. If enabled, your account does not send any emails, including the New proof emails and Email alerts. You can still see the&nbsp;Message and Share proof links options in the account, but they do not&nbsp;trigger any emails.
 
-### Right-to-left text support in comments
+### Right-to-left text support in comments {#right-to-left-text-support-in-comments}
 
 >[!IMPORTANT]
 >
@@ -236,7 +236,7 @@ This setting is most commonly used by companies who developed an integration wit
 
 If your reviewers use languages with right-to-left text direction&nbsp;in their comments, you can enable this setting so that they are able change the text direction of a comment.&nbsp;
 
-### Login required
+### Login required {#login-required}
 
 <!--
 <p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans.</a></p>
@@ -244,11 +244,11 @@ If your reviewers use languages with right-to-left text direction&nbsp;in their 
 
 Login required enhances the security of the proofs created in your account.&nbsp;If&nbsp;it&nbsp;is enabled, reviewers are required to log in using their email and password before they are allowed to view proofs created in your organization's account. This means that your users cannot share the proof with Guest reviewers.
 
-### Comment deletion
+### Comment deletion {#comment-deletion}
 
 If you don't want your reviewers to be able to delete their own comments, you can disable this option in your account.
 
-### Web Proofing Viewer
+### Web Proofing Viewer  {#web-proofing-viewer}
 
 The Web Proofing Viewer is available to use for video and static proofs.&nbsp;
 
@@ -275,7 +275,7 @@ To enable the Web Proofing Viewer for users in your system, select from the foll
  </tbody> 
 </table>
 
-### Desktop Proofing Viewer
+### Desktop Proofing Viewer {#desktop-proofing-viewer}
 
 The Desktop Proofing Viewer is the recommended viewer for reviewing proofs containing interactive web content. It can also proof static and video content.
 

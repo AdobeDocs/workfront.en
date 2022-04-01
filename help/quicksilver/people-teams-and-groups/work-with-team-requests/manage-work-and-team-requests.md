@@ -8,8 +8,8 @@ A request represents a pending task or issue assignment. Work requests are made 
 >
 >Agile teams do not have team requests.
 
-* [Assign a request to a team](#assigning-requests-to-a-team) 
-* [Reassign requests](#reassigning-requests)
+* [Assign a request to a team](#assign-a-request-to-a-team) 
+* [Reassign requests](#reassign-requests)
 
 ## Access requirements
 
@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Assign a request to a team
+## Assign a request to a team {#assign-a-request-to-a-team}
 
 Project managers and issue requestors can&nbsp;assign work to teams when they do not know which resource is right to do the work or when it does not matter who completes the work.
 
@@ -65,7 +65,7 @@ To manually assign a request to a team from the team page:
 1. Click **Send Request**.  
    The team is now assigned a new task which is displayed on the Team Requests tab. This task is not currently associated with a project, but it can be moved, as described in [Move tasks](../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-## Reassign requests
+## Reassign requests {#reassign-requests}
 
 You can reassign requests that have been assigned to your team:
 

@@ -59,7 +59,7 @@ You must have the following access to use the functionality in this article:
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Connect Workfront to Workfront Fusion
+## Connect Workfront to Workfront Fusion {#connect-workfront-to-workfront-fusion}
 
 The Workfront connector uses OAuth 2.0 to connect to Workfront.
 
@@ -106,13 +106,13 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers
+### Triggers {#triggers}
 
-* [Watch Events](#watch3) 
-* [Watch Record](#watch) 
-* [Watch Field](#watch2)
+* [Watch Events](#watch-events) 
+* [Watch Record](#watch-record) 
+* [Watch Field](#watch-field)
 
-#### Watch Events
+#### Watch Events {#watch-events}
 
 This trigger module executes a scenario in real time when objects of a specific type are added, updated, or deleted in Workfront
 
@@ -134,7 +134,7 @@ The module returns any standard fields associated with the record, along with an
      </tr> 
      <tr> 
       <td>Connection</td> 
-      <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+      <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
      </tr> 
      <tr> 
       <td>Record Type</td> 
@@ -142,7 +142,7 @@ The module returns any standard fields associated with the record, along with an
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>Events filters</p> </td> 
-      <td> <p>You can set filters to watch for only records that meet criteria you select.</p> <p>For each filter, enter the field you want the filter to evaluate, the operator, and the value that you want the filter to allow. You can use more than one filter by adding AND rules.</p> <p>Note: You cannot edit filters in existing Workfront webhooks. To set up different filters for Workfront event subscriptions, remove the current webhook and create a new one.</p> <p>For more information on event filters, see <a href="#event" class="MCXref xref">Event subscription filters in the Workfront &gt; Watch Events modules</a> in this article.</p> </td> 
+      <td> <p>You can set filters to watch for only records that meet criteria you select.</p> <p>For each filter, enter the field you want the filter to evaluate, the operator, and the value that you want the filter to allow. You can use more than one filter by adding AND rules.</p> <p>Note: You cannot edit filters in existing Workfront webhooks. To set up different filters for Workfront event subscriptions, remove the current webhook and create a new one.</p> <p>For more information on event filters, see <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Event subscription filters in the Workfront &gt; Watch Events modules</a> in this article.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Exclude events made by this connection</td> 
@@ -159,9 +159,9 @@ Once the webhook is created, you should be able to view the address of the endpo
 
 For more information, see the section [Examples of Event Payloads](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) in the Workfront Help article [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module).
 
-#### Watch Field
+#### Watch Field {#watch-field}
 
 This trigger module executes a scenario when a field that you specify is updated. The module returns both the old and the new value of the field you specify. You can map this information in subsequent modules in the scenario.
 
@@ -173,7 +173,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Record Type</td> 
@@ -194,9 +194,9 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module).
 
-#### Watch Record
+#### Watch Record {#watch-record}
 
 This trigger module executes a scenario when objects of a specific type are added, updated, or both. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. In the output, the module indicates whether each record is new or updated.
 
@@ -210,7 +210,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
@@ -235,22 +235,22 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module).
 
-### Actions
+### Actions {#actions}
 
-* [Convert object](#convert) 
-* [Create a record (attaching custom forms)](#create2) 
-* [Create a record (attaching custom forms)](#create2) 
-* [Custom API Call](#custom) 
-* [Delete Record](#delete) 
-* [Download Document](#download) 
-* [Misc Action](#misc) 
-* [Read a Record](#read) 
-* [Update Record](#update2) 
-* [Upload Document](#upload)
+* [Convert object](#convert-object) 
+* [Create a record (attaching custom forms)](#create-a-record-attaching-custom-forms) 
+* [Create a record (attaching custom forms)](#create-a-record-attaching-custom-forms) 
+* [Custom API Call](#custom-api-call) 
+* [Delete Record](#delete-record) 
+* [Download Document](#download-document) 
+* [Misc Action](#misc-action) 
+* [Read a Record](#read-a-record) 
+* [Update Record](#update-record) 
+* [Upload Document](#upload-document)
 
-#### Convert object
+#### Convert object {#convert-object}
 
 This action module makes one of the following conversions:
 
@@ -264,7 +264,7 @@ This action module makes one of the following conversions:
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Object type</td> 
@@ -293,7 +293,7 @@ This action module makes one of the following conversions:
  </tbody> 
 </table>
 
-#### Create a record (attaching custom forms)
+#### Create a record (attaching custom forms) {#create-a-record-attaching-custom-forms}
 
 This action module creates an object, such as a project, task, or issue in Workfront, and allows you to add a custom form to the new object. The module allows you to select which of the object's fields are available in the module.
 
@@ -315,7 +315,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Record Type</td> 
@@ -332,7 +332,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object2).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
 
 >[!NOTE]
 >
@@ -364,7 +364,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Record Type</td> 
@@ -377,7 +377,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object2).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
 
 >[!NOTE]
 >
@@ -387,7 +387,7 @@ See a list of the Workfront objects types for which you can use this module in [
 >  For more information on rich text in updates, see [Add an update to a work item](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Workfront API. This way, you can create a data flow automation that can't be accomplished by the other Workfront modules.
 
@@ -410,7 +410,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -442,9 +442,9 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object2).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
 
-#### Delete Record
+#### Delete Record {#delete-record}
 
 This action module deletes an object, such as a project, task, or issue in Workfront.
 
@@ -460,7 +460,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Force delete</td> 
@@ -479,9 +479,9 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object2).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
 
-#### Download Document
+#### Download Document {#download-document}
 
 This action module downloads a document from Workfront.
 
@@ -497,7 +497,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Document ID</td> 
@@ -506,9 +506,9 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object2).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
 
-#### Misc Action
+#### Misc Action {#misc-action}
 
 This action module lets you perform actions against the API.
 
@@ -520,7 +520,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Record Type</td> 
@@ -545,9 +545,9 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object2).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
 
-#### Read a Record
+#### Read a Record {#read-a-record}
 
 This action module retrieves data from a single record.
 
@@ -566,7 +566,7 @@ When you are configuring this module, the following fields display.
   <tr> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
    --> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Type</td>
@@ -596,9 +596,9 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object2).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
 
-#### Update Record
+#### Update Record {#update-record}
 
 This action module updates an object, such as a project, task, or issue. The module allows you to select which of the object's fields are available in the module.
 
@@ -616,7 +616,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>ID</td> 
@@ -633,7 +633,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object2).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
 
 >[!NOTE]
 >
@@ -643,7 +643,7 @@ See a list of the Workfront objects types for which you can use this module in [
 >  For more information on rich text in updates, see [Add an update to a work item](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
-#### Upload Document
+#### Upload Document {#upload-document}
 
 This action module uploads a document to a Workfront object, such as a project, task, or issue.
 
@@ -659,7 +659,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Related Record ID</td> 
@@ -676,14 +676,14 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object2).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
 
-### Searches
+### Searches {#searches}
 
-* [Read Related Records](#read2) 
-* [Search](#search2)
+* [Read Related Records](#read-related-records) 
+* [Search](#search)
 
-#### Read Related Records
+#### Read Related Records {#read-related-records}
 
 This search module reads records that match the search query you specify, in a particular parent object.
 
@@ -697,11 +697,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Record Type</td> 
-   <td> <p>Select the type of the parent record (Workfront object) whose associated records you want to read.</p> <p>See a list of the Workfront objects types for which you can use this module in <a href="#object3" class="MCXref xref">Object types available for each Workfront search module</a> in this article.</p> </td> 
+   <td> <p>Select the type of the parent record (Workfront object) whose associated records you want to read.</p> <p>See a list of the Workfront objects types for which you can use this module in <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">Object types available for each Workfront search module</a> in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Parent Record ID</td> 
@@ -718,7 +718,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Search
+#### Search {#search}
 
 This search module looks for records in an object in Workfront that match the search query you specify.
 
@@ -732,7 +732,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Record Type</td> 
@@ -765,15 +765,15 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront search module](#object3).
+See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module).
 
 ## Workfront object types available for each Workfront module
 
-* [Object types available for each Workfront trigger module](#object) 
-* [Object types available for each Workfront action module](#object2) 
-* [Object types available for each Workfront search module](#object3)
+* [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module) 
+* [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module) 
+* [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module)
 
-### Object types available for each Workfront trigger module
+### Object types available for each Workfront trigger module {#object-types-available-for-each-workfront-trigger-module}
 
 | &nbsp; |Watch Record |Watch Field |Watch Events |
 |---|---|---|---|
@@ -818,7 +818,7 @@ See a list of the Workfront objects types for which you can use this module in [
 | User |✓ |✓ |✓ |
 | Update |&nbsp; |&nbsp; |&nbsp; |
 
-### Object types available for each Workfront action module
+### Object types available for each Workfront action module {#object-types-available-for-each-workfront-action-module}
 
 >[!NOTE]
 >
@@ -1209,7 +1209,7 @@ See a list of the Workfront objects types for which you can use this module in [
  </tbody> 
 </table>
 
-### Object types available for each Workfront search module
+### Object types available for each Workfront search module {#object-types-available-for-each-workfront-search-module}
 
 | &nbsp; |Search |Read Related Records |
 |---|---|---|
@@ -1252,7 +1252,7 @@ See a list of the Workfront objects types for which you can use this module in [
 
 &#42; We recommend that you double check to ensure this works the way you would expect it to.
 
-## Event subscription filters in the Workfront > Watch Events modules
+## Event subscription filters in the Workfront > Watch Events modules {#event-subscription-filters-in-the-workfront-watch-events-modules}
 
 >[!NOTE]
 >

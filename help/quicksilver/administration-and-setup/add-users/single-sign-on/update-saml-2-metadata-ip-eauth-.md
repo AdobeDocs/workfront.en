@@ -53,10 +53,10 @@ Okta is an example of an identity provider that supports SAML 2.0. This section 
 
 Complete the following sections to configure Okta as your identity provider in Workfront.
 
-* [Create a Workfront app in Okta](#creating-a-workfront-app-in-okta) 
-* [Add your Okta instance as an identity provider in Workfront](#adding-your-okta-instance-as-an-identity-provider-in-workfront)
+* [Create a Workfront app in Okta](#create-a-workfront-app-in-okta) 
+* [Add your Okta instance as an identity provider in Workfront](#add-your-okta-instance-as-an-identity-provider-in-workfront)
 
-### Create a Workfront app in Okta
+### Create a Workfront app in Okta {#create-a-workfront-app-in-okta}
 
 1. Log in to your Okta environment. 
 1. Ensure that **Classic UI** is selected in the upper-left corner of the Okta interface.
@@ -95,7 +95,7 @@ Complete the following sections to configure Okta as your identity provider in W
 1. Click **Next**.
 1. Select, **I'm an Okta customer adding an internal app**, then click **Finish**.
 
-### Add your Okta instance as an identity provider in Workfront
+### Add your Okta instance as an identity provider in Workfront {#add-your-okta-instance-as-an-identity-provider-in-workfront}
 
 This procedure provides essential information for configuring Okta as an identity provider in Workfront. For additional information about other mappings or configuration options, see [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
@@ -105,7 +105,7 @@ This procedure provides essential information for configuring Okta as an identit
    1. Ensure that **Classic UI** is selected in the upper-left corner of the Okta interface.
    1. In the menu, click **Applications** > **Applications**.
    
-   1. Click the Workfront app that you created, as described in the section, [Create a Workfront app in Okta](#creating-a-workfront-app-in-okta)
+   1. Click the Workfront app that you created, as described in the section, [Create a Workfront app in Okta](#create-a-workfront-app-in-okta)
    1. On the **Sign On** tab, click **Identity Provider metadata**.
 
       ![idp_okta_metadata.png](assets/idp-okta-metadata-350x243.png)

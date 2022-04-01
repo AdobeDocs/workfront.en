@@ -83,13 +83,13 @@ For more information about search possibilities, see the Salesforce developer do
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers
+### Triggers {#triggers}
 
-* [Watch for Records](#watch) 
-* [Watch Outbound Messages](#watch2) 
-* [Watch a field](#watch3)
+* [Watch for Records](#watch-for-records) 
+* [Watch Outbound Messages](#watch-outbound-messages) 
+* [Watch a field](#watch-a-field)
 
-#### Watch for Records
+#### Watch for Records {#watch-for-records}
 
 This trigger module executes a scenario when a record in an object is created or updated. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
@@ -122,7 +122,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Watch Outbound Messages
+#### Watch Outbound Messages {#watch-outbound-messages}
 
 This trigger module executes a scenario when someone sends a message. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
@@ -203,7 +203,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Watch a field
+#### Watch a field {#watch-a-field}
 
 This trigger module starts a scenario when a field is updated in Salesforce.
 
@@ -230,28 +230,28 @@ This trigger module starts a scenario when a field is updated in Salesforce.
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#create2" class="MCXref xref">Create a Record (Static Fields)</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#create-a-record-static-fields" class="MCXref xref">Create a Record (Static Fields)</a> </li>
   -->
 
-* [Create a Record](#create) 
-* [Read a Record](#read) 
-* [Delete a Record](#delete2) 
-* [Custom API Call](#make2) 
-* [Upload Attachment/Document](#upload) 
-* [Download Attachment/Document](#download2)
+* [Create a Record](#create-a-record) 
+* [Read a Record](#read-a-record) 
+* [Delete a Record](#delete-a-record) 
+* [Custom API Call](#custom-api-call) 
+* [Upload Attachment/Document](#upload-attachment-document) 
+* [Download Attachment/Document](#download-attachment-document)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#update3" class="MCXref xref">Update a Record (Static Fields)</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#update-a-record-static-fields" class="MCXref xref">Update a Record (Static Fields)</a> </li>
   -->
 
-* [Create a Record](#create)
+* [Create a Record](#create-a-record)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4><a name="Create2"></a>Create a Record (Static Fields)</h4>
+<h4 id="create-a-record-static-fields"><a name="Create2"></a>Create a Record (Static Fields)</h4>
 <p>This action module creates a new record in an object.</p>
 <p>You specify the type of record.</p>
 <p>The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
@@ -273,7 +273,7 @@ This trigger module starts a scenario when a field is updated in Salesforce.
 </div>
 -->
 
-#### Create a Record
+#### Create a Record  {#create-a-record}
 
 This action module creates a new record in an object.
 
@@ -302,7 +302,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Read a Record
+#### Read a Record {#read-a-record}
 
 This action module reads data from a single object in Salesforce.
 
@@ -342,7 +342,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Delete a Record
+#### Delete a Record {#delete-a-record}
 
 This action module deletes an existing record in an object.
 
@@ -371,7 +371,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Salesforce API. This way, you can create a data flow automation that can't be accomplished by the other Salesforce modules.
 
@@ -448,7 +448,7 @@ In our example, 6 users were returned:
 
 ![](assets/matches-of-the-search-350x573.png)
 
-#### Upload Attachment/Document
+#### Upload Attachment/Document {#upload-attachment-document}
 
 This action module uploads a file and attaches it to a record you specify, or uploads a document.
 
@@ -483,7 +483,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Download Attachment/Document
+#### Download Attachment/Document {#download-attachment-document}
 
 This action module downloads a document or attachment from a record.
 
@@ -524,7 +524,7 @@ When you are configuring this module, the following fields display.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4><a name="Update3"></a>Update a Record <!--
+<h4 id="update-a-record-static-fields"><a name="Update3"></a>Update a Record <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (Static Fields)
 </MadCap:conditionalText>
@@ -588,7 +588,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
 #### Search with Query
 

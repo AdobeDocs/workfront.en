@@ -70,7 +70,7 @@ In order to get the best data for your projects, use templates that have accurat
   >[!NOTE]
   >
   >If your teams don't use planned hours, you can still see some data based on project duration.  
-  >For more information, see the section [Duration view](#duration) in this article.
+  >For more information, see the section [Duration view](#duration-view) in this article.
 
 * Project Name
 
@@ -94,7 +94,7 @@ In order to get the best data for your projects, use templates that have accurat
 >
 >It can take up to 24 hours for changes made to tasks and projects to reflect in Enhanced analytics.
 
-## Duration view
+## Duration view {#duration-view}
 
 By default, the Burndown and Project treemap visualizations are based on planned hours. If your teams don't use planned hours, you can look at these visualizations based on project duration.
 

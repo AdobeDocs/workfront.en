@@ -64,9 +64,9 @@ You must have the following to perform the steps in this article:
 
 1. Click the **Save** option near the lower-left corner.
 
-You can make the filter, view, or grouping available to users in your system. For more information about sharing filters, views or groupings with other users, see the section [Make filters, views, or groupings available to users](#making-default-filters-available-to-users) in this article.
+You can make the filter, view, or grouping available to users in your system. For more information about sharing filters, views or groupings with other users, see the section [Make filters, views, or groupings available to users](#make-filters-views-or-groupings-available-to-users) in this article.
 
-## Make filters, views, or groupings available to users
+## Make filters, views, or groupings available to users {#make-filters-views-or-groupings-available-to-users}
 
 These steps explain how to make filters, views, and groupings available from the Interface area in Setup. You can also do this in the List Controls area in Setup. For more information, see [Edit list controls: filters, views, and groupings](../../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md).
 

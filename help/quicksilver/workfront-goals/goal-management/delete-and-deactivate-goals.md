@@ -61,10 +61,10 @@ You must have the following before you can start:
 
 You can deactivate a goal that is no longer relevant and that you might want to reactivate in the future.
 
-* [Considerations when deactivating goals](#consider) 
-* [Deactivate goals](#h3-deactivate-goals)
+* [Considerations when deactivating goals](#considerations-when-deactivating-goals) 
+* [Deactivate goals](#deactivate-goals)
 
-### Considerations when deactivating goals
+### Considerations when deactivating goals {#considerations-when-deactivating-goals}
 
 Remember the following when deactivating goals:
 
@@ -84,7 +84,7 @@ Remember the following when deactivating goals:
 * You can edit information about the goal and its alignment. 
 * You can reactivate a previously deactivated goal.
 
-### Deactivate goals
+### Deactivate goals {#deactivate-goals}
 
 1. Go to the goal that you want to deactivate.
 
@@ -108,17 +108,17 @@ Remember the following when deactivating goals:
 
 You can delete goals that are no longer or might never be relevant.
 
-* [Considerations when deleting goals](#consider2) 
-* [Delete goals](#h3-delete-goals)
+* [Considerations when deleting goals](#considerations-when-deleting-goals) 
+* [Delete goals](#delete-goals)
 
-### Considerations when deleting goals
+### Considerations when deleting goals {#considerations-when-deleting-goals}
 
 * You can delete goals in any status, including closed goals. 
 * You cannot recover deleted goals. 
 * Results and Manual progress bar activities attached to the goal are also deleted. 
 * Projects associated with goals are not deleted, but their association with the goal is removed.
 
-### Delete goals
+### Delete goals  {#delete-goals}
 
 1. Go to the goal that you want to delete.
 

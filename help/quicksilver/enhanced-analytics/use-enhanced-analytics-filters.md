@@ -59,7 +59,7 @@ View the following video to learn more about the filters in the Enhanced analyti
 
 [View this video in full-screen mode.](https://vimeo.com/441153490/8d5303704c)
 
-## Change the date range filter
+## Change the date range filter {#change-the-date-range-filter}
 
 By default, the visualizations in the Enhanced analytics area show data for the last 60 days and the next 15 days. You can select a new date range and apply it to all visualizations in the Enhanced analytics area. If you navigate away from the page, the default date range is applied the next time you navigate back.
 
@@ -92,15 +92,15 @@ You can add filters based on default project fields, Custom Form fields, and hom
 >You can also use keys on your keyboard to navigate to and add a new filter.  
 >For more information, see the [Keyboard shortcuts](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) section in the article [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
-* [Add a project field filter](#add) 
-* [Add a project field filter](#add) 
-* [Add a Team filter](#add2)
+* [Add a project field filter](#add-a-project-field-filter) 
+* [Add a project field filter](#add-a-project-field-filter) 
+* [Add a Team filter](#add-a-team-filter)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Add job roles filter link</li>
   -->
 
-### Add a project field filter
+### Add a project field filter {#add-a-project-field-filter}
 
 Project field filters allow you to filter data for projects and tasks based on the values entered in fields that are included on projects by default.
 
@@ -115,7 +115,7 @@ The following project field filter types are available:
 | **Sponsor** |Displays data for only projects with the selected sponsor(s) |
 | **Project Owner** |Displays data for only projects with the selected project owner(s) |
 
-Custom Form filters work differently. For more information, see [Add a project field filter](#add).
+Custom Form filters work differently. For more information, see [Add a project field filter](#add-a-project-field-filter).
 
 To add a project field filter:
 
@@ -146,7 +146,7 @@ To add a project field filter:
    * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
      ![](assets/sort-by-menu-350x247.png)
 
-   To adjust the date range, see [Change the date range filter](#change).
+   To adjust the date range, see [Change the date range filter](#change-the-date-range-filter).
 
 ### Add a project Custom Form filter
 
@@ -194,9 +194,9 @@ To add a Custom Form filter:
    * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
      ![](assets/sort-by-menu-350x247.png)
 
-   To adjust the date range, see [Change the date range filter](#change).
+   To adjust the date range, see [Change the date range filter](#change-the-date-range-filter).
 
-### Add a Team filter
+### Add a Team filter {#add-a-team-filter}
 
 1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. In the left panel, click **People**.
@@ -212,7 +212,7 @@ To add a Custom Form filter:
 
    As you add filters, data displays in the visualizations below.
 
-   To adjust the date range, see [Change the date range filter](#change).
+   To adjust the date range, see [Change the date range filter](#change-the-date-range-filter).
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a name="Add2"></a>Add a Job roles filter</h3>
@@ -224,7 +224,7 @@ To add a Custom Form filter:
 <li value="2"> <p>In the left panel, click <b>People</b>.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/people-area-cropped-qs-350x276.png" style="width: 350;height: 276;"> </p> </li>
 <li value="3"> <p>In the top-left corner of the screen, click <b>Add Filter</b>, then select the <b>Job roles</b> filter.</p> </li>
 <li value="4"> <p style="font-weight: normal;">Locate the job roles you want to see data for by entering at least 3 characters of text in the <b>Search</b> field, then select each job role you want to include in the filter. To select all job roles, click <b>Select All</b>.</p> <p><b>[Insert image here]</b> </p> </li>
-<li value="5"> <p>After you select all desired teams, click <b>Apply Filter</b>.</p> <p>As you add filters, data displays in the visualizations below.</p> <p>To adjust the date range, see <a href="#change" class="MCXref xref">Change the date range filter</a>.</p> </li>
+<li value="5"> <p>After you select all desired teams, click <b>Apply Filter</b>.</p> <p>As you add filters, data displays in the visualizations below.</p> <p>To adjust the date range, see <a href="#change-the-date-range-filter" class="MCXref xref">Change the date range filter</a>.</p> </li>
 </ol>
 -->
 

@@ -81,7 +81,7 @@ Use the Plan Iteration feature to create an iteration using tasks on your backlo
    You can add both tasks and issues to a single iteration:
 
    * **To add tasks to the iteration:** On the **Backlog** tab, ensure that the **Stories** tab is selected (this tab is selected by default when viewing the backlog). Select the stories you want to add to the iteration.  
-     When you add tasks to an iteration, the start date of the task is calculated as described in&nbsp; [Understand how task start dates are calculated when added to an iteration](#understanding-how-task-start-dates-are-calculated-when-added-to-an-iteration).
+     When you add tasks to an iteration, the start date of the task is calculated as described in&nbsp; [Understand how task start dates are calculated when added to an iteration](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
    
    * **To add issues to the iteration:** On the **Backlog** tab, click the **Issues** tab. Select the issues you want to add to the iteration.
 
@@ -90,7 +90,7 @@ Use the Plan Iteration feature to create an iteration using tasks on your backlo
 
 1. (Optional) To add stories to an existing iteration, see [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
-## Understand how task start dates are calculated when added to an iteration
+## Understand how task start dates are calculated when added to an iteration {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
 When you add a task as a story to an iteration, the Must Finish On task constraint is used for&nbsp;each story. In most cases, the planned start date of the task is calculated based on the following formula:
 

@@ -21,7 +21,7 @@ Consider the following when reviewing the values for the BCWP on a task or proje
 
   You can configure your project to calculate the PMI using hours or cost and the BCWP is also calculated using the same values.
 
-  For information about configuring how the BCWP is calculated, see the section [Configure how BCWP is calculated](#configur) in this article.
+  For information about configuring how the BCWP is calculated, see the section [Configure how BCWP is calculated](#configure-how-bcwp-is-calculated) in this article.
 
 * Workfront calculates the BCWP for a project by adding all the BCWP values from all the parent tasks and individual tasks on the project.
 
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Configure how BCWP is calculated
+## Configure how BCWP is calculated {#configure-how-bcwp-is-calculated}
 
 You can configure whether the BCWP is calculated in hours or costs by configuring how the Performance Index Method (PIM) of the project is calculated.
 

@@ -47,17 +47,17 @@ The Profile Details page allows you to modify the permissions enabled for your c
 
 For more information on the actions you can perform on this page, see " [Create and Manage Custom Profiles using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).&nbsp;
 
-* [Accessing the Profile Details Page](#accessing-profile-details) 
-* [Viewing the List of Users with a Profile Assigned](#list-of-users-with-a-profile-assigned)
+* [Accessing the Profile Details Page](#accessing-the-profile-details-page) 
+* [Viewing the List of Users with a Profile Assigned](#viewing-the-list-of-users-with-a-profile-assigned)
 
-### Accessing the Profile Details Page
+### Accessing the Profile Details Page {#accessing-the-profile-details-page}
 
 To access the profile details:
 
 1. Click on the name of the profile.
 1. ![Screen_Shot_2018-10-02_at_10.24.29_AM.png](assets/screen-shot-2018-10-02-at-10.24.29-am-350x112.png)
 
-### Viewing the List of Users with a Profile Assigned
+### Viewing the List of Users with a Profile Assigned {#viewing-the-list-of-users-with-a-profile-assigned}
 
 To view the list of users who have been assigned a particular profile:
 

@@ -57,12 +57,12 @@ You must have the following access to perform the steps in this article and log 
 You can log time in the following areas in Workfront:
 
 * [Timesheet](#timesheet) 
-* [My Work](#mywork) 
+* [My Work](#my-work) 
 * [Home](#home) 
-* [Project, task, or issue](#project,-task,-issue) 
+* [Project, task, or issue](#project-task-or-issue) 
 * [Mobile app](#mobile-app)
 
-### Timesheet
+### Timesheet {#timesheet}
 
 You can log general hours or project-specific hours on a timesheet.
 
@@ -173,7 +173,7 @@ You can log general hours or project-specific hours on a timesheet.
    * **Re-Open**: This option is available for timesheets that you have already closed and which have no approvers, or timesheets that have already been approved. Reopen the timesheet to modify hour entries. 
    * **Recall**: This option is available for timesheets that have been submitted for approval but have not been approved or rejected yet. Click&nbsp;**Recall** to reopen the timesheet and modify hour entries.
 
-### My Work
+### My Work {#my-work}
 
 You can log project-specific hours in My Work.
 
@@ -189,7 +189,7 @@ You can log project-specific hours in My Work.
 
    ![](assets/6-350x94.png)
 
-### Home
+### Home {#home}
 
 You can log project-specific time in Home.
 
@@ -210,7 +210,7 @@ To log time on a work item from the Home area:
 1. (Conditional) If your Workfront administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Specify the time you want to log, then click **Log Time**.
 
-### Project, task, or issue
+### Project, task, or issue {#project-task-or-issue}
 
 You can log project-specific time on a project, task, or issue.
 
@@ -271,6 +271,6 @@ To log time on a project, task, or issue:
 
 1. Click **Log Hours**.
 
-### Mobile app
+### Mobile app {#mobile-app}
 
 You can log time from the Workfront mobile app.

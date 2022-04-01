@@ -26,7 +26,7 @@ The following proof roles are granted to users for an individual proof at the ti
 * [Read Only](#read-only) 
 * [Reviewer](#reviewer) 
 * [Approver](#approver) 
-* [Reviewer & Approver](#reviewer&approver) 
+* [Reviewer & Approver](#reviewer-approver) 
 * [Author](#author) 
 * [Moderator](#moderator)
 
@@ -46,6 +46,8 @@ For more information, see the following articles:
 
 ### Read Only
 
+{#read-only}
+
 ![cleaner.png](assets/cleaner.png) Can view a proof
 
 ![no.png](assets/no.png) Cannot add markups
@@ -64,7 +66,7 @@ For more information, see the following articles:
 
 For more information, see [Share Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
-### Reviewer
+### Reviewer {#reviewer}
 
 ![cleaner.png](assets/cleaner.png) Can view a proof
 
@@ -80,7 +82,7 @@ For more information, see [Share Folders in Workfront Proof](../../../workfront-
 
 ![no.png](assets/no.png) Does not have edit rights on the proof
 
-### Approver
+### Approver {#approver}
 
 ![cleaner.png](assets/cleaner.png) Can view a proof
 
@@ -94,7 +96,7 @@ For more information, see [Share Folders in Workfront Proof](../../../workfront-
 
 ![no.png](assets/no.png) Does not have edit rights on the proof
 
-### Reviewer & Approver
+### Reviewer & Approver {#reviewer-approver}
 
 ![cleaner.png](assets/cleaner.png) Can view a proof
 
@@ -110,7 +112,7 @@ For more information, see [Share Folders in Workfront Proof](../../../workfront-
 
 ![no.png](assets/no.png) Does not have edit rights on the proof
 
-### Author
+### Author {#author}
 
 ![cleaner.png](assets/cleaner.png) Can add markups
 
@@ -136,7 +138,7 @@ For more information, see [Share Folders in Workfront Proof](../../../workfront-
 >
 >&nbsp;This role can only be assigned to users of Workfront Proof
 
-### Moderator
+### Moderator {#moderator}
 
 ![cleaner.png](assets/cleaner.png) Can add markups
 
@@ -175,13 +177,13 @@ You can assign proof roles when creating new proofs, creating new versions of ex
 * [New Versions](#new-versions) 
 * [Existing Proofs](#existing-proofs)
 
-### New Proofs
+### New Proofs {#new-proofs}
 
 Proof roles can be assigned to reviewers on the New proof page during the proof creation process (1).
 
 ![Proof_roles_-_New_Proof_page.png](assets/proof-roles---new-proof-page-350x184.png)
 
-### New Versions
+### New Versions {#new-versions}
 
 When creating a New version of a proof, the reviewers from the previous version will automatically be shown (with the same role as the previous version).
 
@@ -189,7 +191,7 @@ You can edit the proof roles applied to reviewers when creating the new version 
 
 ![Proof_roles_-_New_Version_page.png](assets/proof-roles---new-version-page-350x164.png)
 
-### Existing Proofs
+### Existing Proofs {#existing-proofs}
 
 If you want to change a person's role on an existing proof, you can do so on the Proof details page by inline editing their role in the workflow section (1):
 
@@ -218,7 +220,7 @@ Creators and Owners have full edit rights on the proof.
 * [Creators](#creators) 
 * [Owners](#owners)
 
-### Creators
+### Creators {#creators}
 
 The proof creator is the person who uploads the proof in the first instance. The proof creator will be shown automatically in the people list for the proof (in their default role).
 
@@ -226,7 +228,7 @@ On the New proof page&nbsp;you can assign a different proof role to the proof cr
 
 The proof creator cannot be changed or removed from a proof.
 
-### Owners
+### Owners {#owners}
 
 By default, the Creator is also the Owner of the proof; however, the Creator can make someone else the proof Owner when initially creating the proof (on the New proof page).
 

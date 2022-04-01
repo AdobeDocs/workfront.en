@@ -61,10 +61,10 @@ Each Slack user must install the Workfront app themselves in order to use Workfr
 
 You can install the app in the following ways:
 
-* [Install the Workfront app outside Slack](#installing-the-workfront-addin-outside-of-the-slack-application) 
-* [Install the Workfront app within Slack](#installing-the-workfront-addin-within-the-slack-application)
+* [Install the Workfront app outside Slack](#install-the-workfront-app-outside-slack) 
+* [Install the Workfront app within Slack](#install-the-workfront-app-within-slack)
 
-### Install the Workfront app outside Slack
+### Install the Workfront app outside Slack {#install-the-workfront-app-outside-slack}
 
 Follow the steps below to run the installation process and authorize Workfront for Slack on your Slack instance.&nbsp;
 
@@ -85,7 +85,7 @@ Follow the steps below to run the installation process and authorize Workfront f
 
 You can now access Workfront from Slack, as described in the [Access Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-### Install the Workfront app within Slack
+### Install the Workfront app within Slack {#install-the-workfront-app-within-slack}
 
 You can install the Workfront app directly from the Slack application:
 

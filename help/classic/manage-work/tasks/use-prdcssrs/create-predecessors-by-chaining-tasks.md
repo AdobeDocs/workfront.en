@@ -74,7 +74,9 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click **Unchain** if some of the tasks have been previously chained.
 
-   ``` ```**Warning: **`````` Only sequential predecessors are removed by using the unchain option when bulk editing tasks.
+   >[!CAUTION]
+   >
+   >Only sequential predecessors are removed by using the unchain option when bulk editing tasks.
 
    Your selected tasks are now linked by predecessor relationships.
 

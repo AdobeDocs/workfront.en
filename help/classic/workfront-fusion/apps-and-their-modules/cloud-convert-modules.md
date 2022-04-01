@@ -5,11 +5,11 @@
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 In a Adobe Workfront Fusion scenario, you can connect your CloudConvert account to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
 
-* [Connect CloudConvert to Workfront Fusion](#connect) 
-* [CloudConvert modules and their fields](#cloudcon) 
-* [Troubleshooting](#troubles)
+* [Connect CloudConvert to Workfront Fusion](#connect-cloudconvert-to-workfront-fusion) 
+* [CloudConvert modules and their fields](#cloudconvert-modules-and-their-fields) 
+* [Troubleshooting](#troubleshooting)
 
-## Connect CloudConvert to Workfront Fusion
+## Connect CloudConvert to Workfront Fusion {#connect-cloudconvert-to-workfront-fusion}
 
 To connect your CloudConvert account to Workfront Fusion, you need to obtain the API Key from your CloudConvert account.
 
@@ -24,7 +24,7 @@ To connect your CloudConvert account to Workfront Fusion, you need to obtain the
 
 1. Enter the token you saved in step 5, then click **Continue** to establish the connection.
 
-## CloudConvert modules and their fields
+## CloudConvert modules and their fields {#cloudconvert-modules-and-their-fields}
 
 When you configure CloudConvert modules, Workfront Fusion displays the fields listed below. Along with these, additional CloudConvert fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
@@ -32,20 +32,20 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [CloudConvert modules](#common2) 
+* [CloudConvert modules](#Common2) 
 * [Jobs](#jobs) 
 * [Tasks](#tasks) 
 * [Other](#other)
 
 ### Common tasks
 
-* [Capture a Website](#capture) 
-* [CloudConvert modules](#convert) 
-* [Create an Archive](#create) 
-* [Merge Files](#merge) 
-* [Optimize a File](#optimize)
+* [Capture a Website](#capture-a-website) 
+* [CloudConvert modules](#Convert) 
+* [Create an Archive](#create-an-archive) 
+* [Merge Files](#merge-files) 
+* [Optimize a File](#optimize-a-file)
 
-#### Capture a Website
+#### Capture a Website {#capture-a-website}
 
 This action module captures a specified website and saves it in PDF, JPG, or PNG format.
 
@@ -59,7 +59,7 @@ The module returns the ID of the file and any associated fields, along with any 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -99,7 +99,7 @@ Converts a file into a selected output format.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Input file</td> 
@@ -146,7 +146,7 @@ Converts a file into a selected output format.
  </tbody> 
 </table>
 
-#### Create an Archive
+#### Create an Archive {#create-an-archive}
 
 Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR.BZ2 archive.
 
@@ -156,7 +156,7 @@ Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Input Files</p> </td> 
@@ -189,7 +189,7 @@ Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR
  </tbody> 
 </table>
 
-#### Merge Files
+#### Merge Files {#merge-files}
 
 Merges at least two files into one PDF. If input files are not PDFs, they are automatically converted to PDF.
 
@@ -199,7 +199,7 @@ Merges at least two files into one PDF. If input files are not PDFs, they are au
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Input Files</p> </td> 
@@ -232,7 +232,7 @@ Merges at least two files into one PDF. If input files are not PDFs, they are au
  </tbody> 
 </table>
 
-#### Optimize a File
+#### Optimize a File {#optimize-a-file}
 
 This action module optimizes and compresses a file in PDF, PNG, or JPG format.
 
@@ -248,7 +248,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Input File</td> 
@@ -323,15 +323,15 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Jobs
+### Jobs {#jobs}
 
-* [Create a Job (advanced)](#create2) 
-* [New Job Event](#new) 
-* [List Jobs](#list) 
-* [Get a Job](#get) 
-* [Delete a Job](#delete)
+* [Create a Job (advanced)](#create-a-job-advanced) 
+* [New Job Event](#new-job-event) 
+* [List Jobs](#list-jobs) 
+* [Get a Job](#get-a-job) 
+* [Delete a Job](#delete-a-job)
 
-#### Create a Job (advanced)
+#### Create a Job (advanced) {#create-a-job-advanced}
 
 This module creates a job. A job can be one or multiple tasks that are identified in the Name field and linked between each other using the Input field.
 
@@ -345,7 +345,7 @@ This module creates a job. A job can be one or multiple tasks that are identifie
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Input Files</td> 
@@ -367,11 +367,11 @@ This module creates a job. A job can be one or multiple tasks that are identifie
    <td role="rowheader"> <p>Tasks</p> </td> 
    <td> <p>Add tasks that will be performed within the job.</p> <p>Please find the descriptions of the operations' fields in the corresponding section.</p> 
     <ul> 
-     <li><a href="#convert" class="MCXref xref">CloudConvert modules</a> </li> 
-     <li><a href="#capture" class="MCXref xref">Capture a Website</a> </li> 
-     <li><a href="#optimize" class="MCXref xref">Optimize a File</a> </li> 
-     <li><a href="#create" class="MCXref xref">Create an Archive</a> </li> 
-     <li><a href="#merge" class="MCXref xref">Merge Files</a> </li> 
+     <li><a href="#Convert" class="MCXref xref">CloudConvert modules</a> </li> 
+     <li><a href="#capture-a-website" class="MCXref xref">Capture a Website</a> </li> 
+     <li><a href="#optimize-a-file" class="MCXref xref">Optimize a File</a> </li> 
+     <li><a href="#create-an-archive" class="MCXref xref">Create an Archive</a> </li> 
+     <li><a href="#merge-files" class="MCXref xref">Merge Files</a> </li> 
     </ul> 
     <ul> 
      <li> <p><strong>Execute a Command</strong> </p> <p>For more information on executing a command, see the <a href="https://cloudconvert.com/api/v2/command#command-tasks">CloudConvert API documentation</a>.</p> </li> 
@@ -385,7 +385,7 @@ This module creates a job. A job can be one or multiple tasks that are identifie
  </tbody> 
 </table>
 
-#### Delete a Job
+#### Delete a Job {#delete-a-job}
 
 This module deletes a job, including all tasks and data.
 
@@ -399,7 +399,7 @@ This module deletes a job, including all tasks and data.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Job ID</td> 
@@ -408,7 +408,7 @@ This module deletes a job, including all tasks and data.
  </tbody> 
 </table>
 
-#### Get a Job
+#### Get a Job {#get-a-job}
 
 This module retrieves job details.
 
@@ -418,7 +418,7 @@ This module retrieves job details.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Job ID</td> 
@@ -427,7 +427,7 @@ This module retrieves job details.
  </tbody> 
 </table>
 
-#### List Jobs
+#### List Jobs {#list-jobs}
 
 This module retrieves all jobs that have been run in your account.
 
@@ -437,7 +437,7 @@ This module retrieves all jobs that have been run in your account.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Status </td> 
@@ -450,7 +450,7 @@ This module retrieves all jobs that have been run in your account.
  </tbody> 
 </table>
 
-#### New Job Event
+#### New Job Event {#new-job-event}
 
 Triggers when a job in your account or task is created, finishes, or fails.
 
@@ -470,7 +470,7 @@ Triggers when a job in your account or task is created, finishes, or fails.
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Format </td> 
@@ -490,16 +490,16 @@ Triggers when a job in your account or task is created, finishes, or fails.
 >
 >  ![](assets/linking-name-across-jobs-350x808.png)>
 
-### Tasks
+### Tasks {#tasks}
 
-* [Get a Task](#get2) 
-* [Download a File](#download) 
-* [List Tasks](#list2) 
-* [Retry a Task](#retry) 
-* [Cancel a Task](#cancel) 
-* [Delete a Task](#delete2)
+* [Get a Task](#get-a-task) 
+* [Download a File](#download-a-file) 
+* [List Tasks](#list-tasks) 
+* [Retry a Task](#retry-a-task) 
+* [Cancel a Task](#cancel-a-task) 
+* [Delete a Task](#delete-a-task)
 
-#### Cancel a Task
+#### Cancel a Task {#cancel-a-task}
 
 This module cancels a task that has a status of waiting or processing.
 
@@ -509,7 +509,7 @@ This module cancels a task that has a status of waiting or processing.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -518,7 +518,7 @@ This module cancels a task that has a status of waiting or processing.
  </tbody> 
 </table>
 
-#### Delete a Task
+#### Delete a Task {#delete-a-task}
 
 Delete a task, including all data.
 
@@ -532,7 +532,7 @@ Delete a task, including all data.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -541,7 +541,7 @@ Delete a task, including all data.
  </tbody> 
 </table>
 
-#### Download a File
+#### Download a File {#download-a-file}
 
 This module retrieves file name and file data from the specified task.
 
@@ -551,7 +551,7 @@ This module retrieves file name and file data from the specified task.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -560,7 +560,7 @@ This module retrieves file name and file data from the specified task.
  </tbody> 
 </table>
 
-#### Get a Task
+#### Get a Task {#get-a-task}
 
 This module retrieves task details.
 
@@ -570,7 +570,7 @@ This module retrieves task details.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -579,7 +579,7 @@ This module retrieves task details.
  </tbody> 
 </table>
 
-#### List Tasks
+#### List Tasks {#list-tasks}
 
 This module retrieves all tasks in your account based on filter settings.
 
@@ -589,7 +589,7 @@ This module retrieves all tasks in your account based on filter settings.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Status </td> 
@@ -610,7 +610,7 @@ This module retrieves all tasks in your account based on filter settings.
  </tbody> 
 </table>
 
-#### Retry a Task
+#### Retry a Task {#retry-a-task}
 
 This module creates a new task, based on the settings (payload) of another task.
 
@@ -620,7 +620,7 @@ This module creates a new task, based on the settings (payload) of another task.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Task ID</td> 
@@ -629,16 +629,16 @@ This module creates a new task, based on the settings (payload) of another task.
  </tbody> 
 </table>
 
-### Other
+### Other {#other}
 
-* [Get My Info](#get3) 
-* [Make an API Call](#make)
+* [Get My Info](#get-my-info) 
+* [Make an API Call](#make-an-api-call)
 
-#### Get My Info
+#### Get My Info {#get-my-info}
 
 Retrieves authenticated account details about the current user.
 
-#### Make an API Call
+#### Make an API Call {#make-an-api-call}
 
 Allows you to perform a custom API call.
 
@@ -687,7 +687,7 @@ In our example, 6 tasks were returned:
 
 ![](assets/cloudconvert-api-example-output.png)
 
-## Troubleshooting
+## Troubleshooting {#troubleshooting}
 
 If the CloudConvert > Convert a File throws one of the following errors:
 

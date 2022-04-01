@@ -54,7 +54,7 @@ Goals can have one of the following statuses in Workfront Goals:
 * [Inactive](#inactive) 
 * [Closed](#closed)
 
-### Draft
+### Draft {#draft}
 
 * This is the default status for a newly created goal. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). 
 * Workfront Goals does not record progress on a drafted goal. 
@@ -72,7 +72,7 @@ Goals can have one of the following statuses in Workfront Goals:
 >
 >After you change the status of a goal to any other status, the goal can never be placed in a Draft status again.
 
-### Active
+### Active {#active}
 
 * You can activate a drafted goal only when you associate it with a result, an activity, or align another goal to it. Activating the goal changes its status to Active. For information about activating goals, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md). 
 * Workfront Goals records progress on active goals. 
@@ -87,7 +87,7 @@ Goals can have one of the following statuses in Workfront Goals:
 
 * You can re-activate a Closed or Inactive goal.
 
-### Inactive
+### Inactive {#inactive}
 
 * You can deactivate an active goal when the owner stopped working on it temporarily or permanently. You can keep it for historical information. This updates the status of the goal to Inactive.
 
@@ -105,7 +105,7 @@ Goals can have one of the following statuses in Workfront Goals:
    * Goal Alignment section (only as aligned goals)
    * Pulse
 
-### Closed
+### Closed {#closed}
 
 * You can close a goal when you want to indicate that you have achieved it or that you are no longer working on it nor will you do so in the future. For information about closing goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md).
 

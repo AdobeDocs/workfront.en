@@ -22,7 +22,7 @@ Also, if a Adobe Workfront administrator unlocks an event notification, you can 
 >
 >  If you need instructions on switching between Adobe Workfront Classic and the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 >
->* If you are Workfront administrator, you don’t need to switch to the new Adobe Workfront experience to configure an unlocked event configuration for a group. For more information, see [For Workfront administrators only: Configure an unlocked event notification for a group](#for) in this article.
+>* If you are Workfront administrator, you don’t need to switch to the new Adobe Workfront experience to configure an unlocked event configuration for a group. For more information, see [For Workfront administrators only: Configure an unlocked event notification for a group](#for-workfront-administrators-only-configure-an-unlocked-event-notification-for-a-group) in this article.
 >
 
 Configuring an event notification for a group affects users for whom that group, or one of its subgroups, is their Home Group. In their user profiles, these users see the event notifications that are activated for their Home Group instead of the event notifications that are activated system-wide.
@@ -104,7 +104,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-## For Workfront administrators only: Configure an unlocked event notification for a group
+## For Workfront administrators only: Configure an unlocked event notification for a group {#for-workfront-administrators-only-configure-an-unlocked-event-notification-for-a-group}
 
 If you have System Administrator access, you can configure an unlocked event notification (activate or inactivate it
 

@@ -19,10 +19,10 @@ Although they look and feel similar, the functionality of each one is different.
 
 The Gantt charts in Workfrontprovide a visual representation of a list of tasks or projects. You can view the task list Gantt Chart directly from the task list on a project or from a task report. You can view the project list Gantt Chart in a project list or a project report.
 
-* [Task list Gantt Chart](#project-gantt-chart-1) 
-* [Project list Gantt Chart](#project-list-gantt-chart-1)
+* [Task list Gantt Chart](#task-list-gantt-chart) 
+* [Project list Gantt Chart](#project-list-gantt-chart)
 
-### Task list Gantt Chart
+### Task list Gantt Chart {#task-list-gantt-chart}
 
 The task list Gantt Chart is accessible in the following areas:
 
@@ -37,7 +37,7 @@ To access the task list Gantt Chart, navigate to any of the areas mentioned abov
 
 ![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
 
-### Project list Gantt Chart
+### Project list Gantt Chart {#project-list-gantt-chart}
 
 The project list Gantt Chart is accessible in the following areas:
 
@@ -63,10 +63,10 @@ To access the project list Gantt Chart, navigate to any of the areas mentioned a
 You can configure what information displays on both the task list Gantt Chart and the project list Gantt Chart.  
 You cannot configure the colors or the fonts in which the Gantt chart information is displayed.
 
-* [Task list Gantt Chart](#project-gantt-chart-2) 
-* [Project list Gantt Chart](#project-list-gantt-chart-2)
+* [Task list Gantt Chart](#task-list-gantt-chart) 
+* [Project list Gantt Chart](#project-list-gantt-chart)
 
-### Task list Gantt Chart
+### Task list Gantt Chart {#task-list-gantt-chart-1}
 
 The following display options are available in the task list Gantt Chart:
 
@@ -84,7 +84,7 @@ The following display options are available in the task list Gantt Chart:
 
 For detailed information about the display options listed above, see [Configure how information displays on the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
-### Project list Gantt Chart
+### Project list Gantt Chart {#project-list-gantt-chart-1}
 
 The following display options are available in the project list Gantt Chart:
 
@@ -102,16 +102,16 @@ For information about the display options listed above, see [Configure how infor
 
 When information is updated from the task list, it is automatically reflected in both the task list Gantt Chart and the project list Gantt Chart.
 
-* [Task list Gantt Chart](#project-gantt-chart-3) 
-* [Project list Gantt Chart](#project-list-gantt-chart-3)
+* [Task list Gantt Chart](#task-list-gantt-chart) 
+* [Project list Gantt Chart](#project-list-gantt-chart)
 
-### Task list Gantt Chart
+### Task list Gantt Chart {#task-list-gantt-chart-2}
 
 In a project, you can update the task list Gantt Chart directly from the Gantt chart or from the task list. For more information, see [Update information in the task list Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 In a template, the task list Gantt Chart reflects updates made in the template's task list. This Gantt chart is not editable.
 
-### Project list Gantt Chart
+### Project list Gantt Chart {#project-list-gantt-chart-2}
 
 The project list Gantt Chart reflects updates made in each project's task list. This Gantt chart is not editable.
 

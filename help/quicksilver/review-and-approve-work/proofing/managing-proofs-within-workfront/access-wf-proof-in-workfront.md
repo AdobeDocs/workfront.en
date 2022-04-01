@@ -21,11 +21,11 @@ You can quickly access your Workfront Proof&nbsp;account directly from the Adobe
 
   You contact Workfront Customer Support and request this access for&nbsp;all proofing users in your system, regardless of what permissions they have.
 
-  For more information, see [Enable all proofing users to access Workfront Proof within Workfront](#enabling-all-proofing-users-to-access-proofhq)&nbsp;in this article.
+  For more information, see [Enable all proofing users to access Workfront Proof within Workfront](#enable-all-proofing-users-to-access-workfront-proof-within-workfront)&nbsp;in this article.
 
 If you cannot access Workfront Proof&nbsp;as discussed in this section, contact your Workfront administrator.
 
-## Access Workfront Proof&nbsp;from Workfront
+## Access Workfront Proof&nbsp;from Workfront {#access-workfront-proof-from-workfront}
 
 By default, only users with administrative rights within Workfront can access Workfront Proof as described in this section.&nbsp;
 
@@ -35,6 +35,6 @@ By default, only users with administrative rights within Workfront can access Wo
 
 For information about functionality available after you are logged in to your Workfront Proof Premium account, see the [Workfront Help Site](https://support.workfront.com).
 
-## Enable all proofing users to access Workfront Proof&nbsp;within Workfront
+## Enable all proofing users to access Workfront Proof&nbsp;within Workfront {#enable-all-proofing-users-to-access-workfront-proof-within-workfront}
 
-By default, only users with administrative rights within Workfront can access Workfront Proof as described in [Access Workfront Proof from Workfront](#accessing-proofhq-within-workfront)
+By default, only users with administrative rights within Workfront can access Workfront Proof as described in [Access Workfront Proof from Workfront](#access-workfront-proof-from-workfront)

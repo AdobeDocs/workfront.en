@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
 To use Cvent modules, you must have a Cvent account.
 
-## Connect Cvent to Adobe Workfront Fusion
+## Connect Cvent to Adobe Workfront Fusion {#connect-cvent-to-adobe-workfront-fusion}
 
 >[!NOTE]
 >
@@ -95,17 +95,17 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Actions
+### Actions {#actions}
 
-* [Custom API Call](#custom) 
-* [Read a record](#read) 
-* [Register Invitee](#register) 
-* [Add Invitee](#add) 
-* [Delete Contact](#delete) 
-* [Update Contact](#update) 
-* [Create meeting request](#create)
+* [Custom API Call](#custom-api-call) 
+* [Read a record](#read-a-record) 
+* [Register Invitee](#register-invitee) 
+* [Add Invitee](#add-invitee) 
+* [Delete Contact](#delete-contact) 
+* [Update Contact](#update-contact) 
+* [Create meeting request](#create-meeting-request)
 
-#### Custom API&nbsp;Call
+#### Custom API&nbsp;Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Cvent API. This way, you can create a data flow automation that can't be accomplished by the other Cvent modules.
 
@@ -119,7 +119,7 @@ The module returns the a status code, along with the headers and body of the API
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Operation</td> 
@@ -132,7 +132,7 @@ The module returns the a status code, along with the headers and body of the API
  </tbody> 
 </table>
 
-#### Read a record
+#### Read a record {#read-a-record}
 
 This action module reads information about a specific record.
 
@@ -142,7 +142,7 @@ This action module reads information about a specific record.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Record type</p> </td> 
@@ -159,7 +159,7 @@ This action module reads information about a specific record.
  </tbody> 
 </table>
 
-#### Register Invitee
+#### Register Invitee {#register-invitee}
 
 This action module registers an invitee for an event.
 
@@ -169,7 +169,7 @@ This action module registers an invitee for an event.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Invitee ID</p> </td> 
@@ -182,7 +182,7 @@ This action module registers an invitee for an event.
  </tbody> 
 </table>
 
-#### Add Invitee
+#### Add Invitee {#add-invitee}
 
 This action module invites a contact to an event.
 
@@ -192,7 +192,7 @@ This action module invites a contact to an event.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Contact ID</p> </td> 
@@ -205,7 +205,7 @@ This action module invites a contact to an event.
  </tbody> 
 </table>
 
-#### Delete Contact
+#### Delete Contact  {#delete-contact}
 
 This action module deletes a single contact in Cvent.
 
@@ -215,7 +215,7 @@ This action module deletes a single contact in Cvent.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Contact ID</td> 
@@ -224,7 +224,7 @@ This action module deletes a single contact in Cvent.
  </tbody> 
 </table>
 
-#### Update Contact
+#### Update Contact {#update-contact}
 
 This action module updates an existing contact using its ID.
 
@@ -234,7 +234,7 @@ This action module updates an existing contact using its ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Contact ID</p> </td> 
@@ -251,7 +251,7 @@ This action module updates an existing contact using its ID.
  </tbody> 
 </table>
 
-#### Create meeting request
+#### Create meeting request {#create-meeting-request}
 
 This action module adds a meeting request to your account.
 
@@ -261,7 +261,7 @@ This action module adds a meeting request to your account.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Form ID</p> </td> 
@@ -282,7 +282,7 @@ This action module adds a meeting request to your account.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
 #### List records
 
@@ -294,7 +294,7 @@ This search module retrieves information about all records of a specific type.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Record type</p> </td> 

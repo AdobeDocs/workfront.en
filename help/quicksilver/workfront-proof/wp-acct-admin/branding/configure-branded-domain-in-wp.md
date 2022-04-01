@@ -54,9 +54,9 @@ To set up your custom domain or branding, you must complete the following steps:
 
    * If you plan to have only one Workfront Proof account, a standard SSL certificate with Single domain should be purchased.
    * If you plan on having multiple Workfront Proof account (e.g., Satellite accounts), a Wildcard SSL certificate should be purchased.  
-     For general information about SSL certificates, see [Understanding Certificate Signing Requests (CSR) and SSL Certificates](#understanding-certificate-signing-requests-and-ssl-certificates).
+     For general information about SSL certificates, see [Understanding Certificate Signing Requests (CSR) and SSL Certificates](#understanding-certificate-signing-requests-csr-and-ssl-certificates).
 
-1. A Certificate Signing Request (CSR) must be created by Workfront Proof. For general information about CSRs, see [Understanding Certificate Signing Requests (CSR) and SSL Certificates](#understanding-certificate-signing-requests-and-ssl-certificates).  
+1. A Certificate Signing Request (CSR) must be created by Workfront Proof. For general information about CSRs, see [Understanding Certificate Signing Requests (CSR) and SSL Certificates](#understanding-certificate-signing-requests-csr-and-ssl-certificates).  
    In order for us to create the CSR, we need the following information:
 
    >[!IMPORTANT]
@@ -76,7 +76,7 @@ To set up your custom domain or branding, you must complete the following steps:
 1. Point the domain to the CNAME URL we provided (see step 3 above).
 1. Send the SSL Certificate and Key chain to Workfront Proof.
 
-## Understanding Certificate Signing Requests (CSR) and SSL Certificates
+## Understanding Certificate Signing Requests (CSR) and SSL Certificates {#understanding-certificate-signing-requests-csr-and-ssl-certificates}
 
 ### A Certificate Signing Request (CSR)
 

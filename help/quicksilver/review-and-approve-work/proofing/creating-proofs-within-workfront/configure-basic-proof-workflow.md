@@ -260,9 +260,9 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Continue with [Configure email settings for the proof](#configur2) below.
+1. Continue with [Configure email settings for the proof](#configure-email-settings-for-the-proof) below.
 
-## Configure email settings for the proof
+## Configure email settings for the proof {#configure-email-settings-for-the-proof}
 
 1. In the **Email notification** section, select whether to send email notifications and a custom message to&nbsp;the users you selected in [Create an advanced proof with a Basic workflow](#workflow) earlier in this article:
 
@@ -270,9 +270,9 @@ You must have the following access to perform the steps in this article:
    |---|---|
    | Add custom message |Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks. |
 
-1. Continue with [Configure proof settings](#configur3) below.
+1. Continue with [Configure proof settings](#configure-proof-settings) below.
 
-## Configure proof settings
+## Configure proof settings {#configure-proof-settings}
 
 1. In the **Proof settings** section, select any of the following options:
 

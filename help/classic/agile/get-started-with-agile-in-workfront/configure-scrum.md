@@ -62,10 +62,10 @@ To configure how stories are estimated for your agile team:
 
 You can configure which columns are displayed on the agile story board for all iterations assigned to your&nbsp;team, or for a given project.
 
-* [Configure status columns for iterations](#configuring-status-columns-for-iterations) 
-* [Configure status columns for projects](#configuring-status-columns-for-projects)
+* [Configure status columns for iterations](#configure-status-columns-for-iterations) 
+* [Configure status columns for projects](#configure-status-columns-for-projects)
 
-### Configure status columns for iterations
+### Configure status columns for iterations {#configure-status-columns-for-iterations}
 
 You can define the statuses that exist on the story board for the agile team. These are the only statuses that display on the story board.
 
@@ -103,7 +103,7 @@ To define the statuses that are available for the story board associated with&nb
 
 1. Click **Save Changes**.
 
-### Configure status columns for projects
+### Configure status columns for projects {#configure-status-columns-for-projects}
 
 For information about how to configure status columns for a project, see the section [Create or customize an Agile view](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) in the article [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 

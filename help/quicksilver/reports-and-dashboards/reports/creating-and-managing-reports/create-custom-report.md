@@ -41,9 +41,9 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Create a report
+## Create a report {#create-a-report}
 
-To watch a video of how to create a report, see this [Video walk-through](#walk-thr) below.
+To watch a video of how to create a report, see this [Video walk-through](#video-walk-through) below.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Reports**.
 1. Click **New Report**, then select the object type that you want for the report.
@@ -72,19 +72,19 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
     <tbody> 
      <tr> 
       <td>Columns (View)</td> 
-      <td> <p>Adding columns to your report determines what information your report contains.</p> <p>To learn how to add a column, see <a href="#add-columns" class="MCXref xref">Add columns (view) to a report</a>.<br></p> </td> 
+      <td> <p>Adding columns to your report determines what information your report contains.</p> <p>To learn how to add a column, see <a href="#add-columns-view-to-a-report" class="MCXref xref">Add columns (view) to a report</a>.<br></p> </td> 
      </tr> 
      <tr> 
       <td>Groupings</td> 
-      <td> <p>Adding groupings to your report determines how your report is organized.</p> <p>To learn how to add a grouping, see <a href="#add-groupings" class="MCXref xref">Add groupings to a report</a>.</p> </td> 
+      <td> <p>Adding groupings to your report determines how your report is organized.</p> <p>To learn how to add a grouping, see <a href="#add-groupings-to-a-report" class="MCXref xref">Add groupings to a report</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Filters</td> 
-      <td> <p>Adding filter rules to your report determines information you see in your report.</p> <p>To learn how to add a filter, see <a href="#add-filters" class="MCXref xref">Add filters to a report</a>.</p> </td> 
+      <td> <p>Adding filter rules to your report determines information you see in your report.</p> <p>To learn how to add a filter, see <a href="#add-filters-to-a-report" class="MCXref xref">Add filters to a report</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Chart</td> 
-      <td> <p>Adding a chart to your report determines how the information in your report is presented visually.</p> <p>To learn how to add a chart, see <a href="#add-a-chart" class="MCXref xref">Add a chart to a report</a>.</p> </td> 
+      <td> <p>Adding a chart to your report determines how the information in your report is presented visually.</p> <p>To learn how to add a chart, see <a href="#add-a-chart-to-a-report" class="MCXref xref">Add a chart to a report</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -92,9 +92,9 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 1. At any point during the report creation process, click **Apply** to save your changes.
 1. After you are finished, click **Save + Close**.
 
-### Add columns (view) to a report
+### Add columns (view) to a report {#add-columns-view-to-a-report}
 
-1. Start creating a report as described in the [Create a report](#how-to) section in this article.
+1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Columns (View)** tab to identify the columns to appear in the report.
 1. (Optional) Click **Apply an Existing View** to use an existing view.
 
@@ -175,9 +175,9 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 
    Click **Save + Close** if you are finished editing the columns in the report and you want to save the report.
 
-### Add groupings to a report
+### Add groupings to a report {#add-groupings-to-a-report}
 
-1. Start creating a report as described in the [Create a report](#how-to) section in this article.
+1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Groupings** tab to identify how you want to group items in the report.
 1. Click **Add Grouping** to add a new grouping.
 
@@ -214,9 +214,9 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 
    Click **Save + Close** if you are finished editing the groupings in the report and you want to save the report.
 
-### Add filters to a report
+### Add filters to a report {#add-filters-to-a-report}
 
-1. Start creating a report as described in the [Create a report](#how-to) section in this article.
+1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Filters** tab to identify the amount of information that you want the report to include.
 1. Click **Add a Filter Rule** to add a custom filter.  
    Or  
@@ -237,9 +237,9 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 
    Click **Save + Close** if the report and you want to save the report.
 
-### Add a chart to a report
+### Add a chart to a report {#add-a-chart-to-a-report}
 
-1. Start creating a report as described in the [Create a report](#how-to) section in this article.
+1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Chart** tab, then select the type of chart you want to add.
 
    ![](assets/nwe-add-a-chart-350x247.png)
@@ -250,7 +250,7 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 
    Click **Save + Close** if you are finished editing the report and you want to save the report.
 
-## Video walk-through
+## Video walk-through {#video-walk-through}
 
 View the following video to learn how to create a report. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 

@@ -127,5 +127,5 @@ The following information is available:
 
   For example, "(+9 days)"&nbsp;indicates that the Estimated Completion date is 9 working days later than the iteration's planned end date.
 
-  For more information, see [Iteration completion status overview](#understanding-how-days-off-affect-the-burndown-chart).
+  For more information, see [Iteration completion status overview](#Understanding-How-Days-Off-Affect-the-Burndown-Chart).
 

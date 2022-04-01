@@ -51,7 +51,7 @@ This article describes how to create a request queue from an existing project. H
  <tbody> 
   <tr> 
    <td role="rowheader">Queue Details</td> 
-   <td> <p>You must set up a project as a request queue in the Queue&nbsp;Details area.&nbsp;This step is mandatory. </p> <p>For more information, see the <a href="#creating-a-request-queue" class="MCXref xref">Create a Request Queue</a> section in this article.</p> </td> 
+   <td> <p>You must set up a project as a request queue in the Queue&nbsp;Details area.&nbsp;This step is mandatory. </p> <p>For more information, see the <a href="#create-a-request-queue" class="MCXref xref">Create a Request Queue</a> section in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Topic Groups</td> 
@@ -68,7 +68,7 @@ This article describes how to create a request queue from an existing project. H
  </tbody> 
 </table>
 
-## Create a Request Queue
+## Create a Request Queue {#create-a-request-queue}
 
 When you set up a project as a Request Queue, the project status must be Current in order to display in the Requests area of Workfront.
 

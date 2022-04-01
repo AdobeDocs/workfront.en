@@ -1,6 +1,6 @@
 
 
-# ```Workfront Tools for AEM User Guide : Auto Publish Assets```
+# ```Workfront Tools for AEM User Guide : Auto Publish Assets```  {#title-heading}
 
 ## Access requirements
 

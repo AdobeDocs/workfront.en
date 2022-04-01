@@ -69,34 +69,34 @@ To add conditional formatting to a view in the text mode interface:
 1. Click **Switch to Text Mode**.
 1. In the **Show in this column:** area, click **Click to edit text**.
 
-1. Add the code samples provided in [Format Views using Text Mode](#formatting-views-in-text-mode) at the bottom of the text in the column you selected.
+1. Add the code samples provided in [Format Views using Text Mode](#format-views-using-text-mode) at the bottom of the text in the column you selected.
 1. Click **Save**, then click **Save View**.
 
-## Format Views using Text Mode
+## Format Views using Text Mode {#format-views-using-text-mode}
 
 You can add the following components to a column in a view to conditionally format it in text mode:
 
 * [Column settings](#column-settings) 
 * [Column rules](#column-rules) 
-* [Conditionally format a valueexpression](#formatting-valueexpression)
+* [Conditionally format a valueexpression](#conditionally-format-a-valueexpression)
 
-### Column settings
+### Column settings {#column-settings}
 
 You must be familiar with the text mode interface before you can add conditional formatting to your views.
 
 You can customize the following elements of a column when using conditional formatting in a view:
 
 * [Column headers](#column-headers) 
-* [Format dates](#formatting-dates) 
-* [Format numbers](#formatting-numbers)
+* [Format dates](#format-dates) 
+* [Format numbers](#format-numbers)
 
-#### Column headers
+#### Column headers {#column-headers}
 
 To change the displayed column header, add&nbsp;the following code to your column:
 <pre>displayname=&nbsp;[Name of column]</pre>For example, to name a column Project Owner, the text code would look like:
 <pre>displayname=Project Owner</pre>
 
-#### Format dates
+#### Format dates {#format-dates}
 
 Dates can be configured to display in a variety of formats.
 
@@ -158,7 +158,7 @@ For more information, see [Format dates in text mode reports](../../../reports-a
 </div>
 -->
 
-#### Format numbers
+#### Format numbers {#format-numbers}
 
 You can format numeric values to display information that best suits your reporting needs.
 
@@ -221,17 +221,17 @@ For more information, see [Format numbers, currency and percentage values in tex
 </div>
 -->
 
-### Column rules
+### Column rules {#column-rules}
 
 Column rules allow for the addition of images, color, formatting, and text overrides within a view. Column rules can be established independently or can contain multiple conditions for a column.
 
 * [Conditional formatting](#conditional-formatting) 
 * [Multiple conditional formats](#multiple-conditional-formats) 
-* [Apply text](#applying-text) 
-* [Apply row formats](#applying-row-formats) 
-* [Apply images](#applying-images)
+* [Apply text](#apply-text) 
+* [Apply row formats](#apply-row-formats) 
+* [Apply images](#apply-images)
 
-#### Conditional formatting
+#### Conditional formatting {#conditional-formatting}
 
 A specific text mode statement must be applied when incorporating color or formatting text.
 
@@ -330,7 +330,7 @@ The following lines must be modified to reflect the corresponding formatting nee
 | Yellow |<pre>feecc8</pre> |
 | White |<pre>ffffff</pre> |
 
-#### Multiple conditional formats
+#### Multiple conditional formats {#multiple-conditional-formats}
 
 You can apply more than one formatting style to a statement. The core statement would remain unchanged and any additional formatting expressions would be added to the statement.
 
@@ -343,7 +343,7 @@ For example, using the earlier statement to include Company Name in green bolded
 
 ![](assets/screen-shot-2013-08-15-at-3.18.45-pm-350x198.png)
 
-#### Apply text
+#### Apply text {#apply-text}
 
 If you want to replace the default values that populate in a column with a value of your choosing, it is possible when applying text&nbsp;to the column.
 
@@ -370,12 +370,12 @@ For example, on a project report, set the Planned Start Date column value to not
 
 ![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png)
 
-#### Apply row formats
+#### Apply row formats {#apply-row-formats}
 
 If you would like to apply a condition to the entire row, use the following code&nbsp;with your column code:
 <pre>styledef.case.0.comparison.icon=false</pre><pre>styledef.case.0.comparison.isrowcase=true</pre><pre>styledef.case.0.comparison.leftmethod= [field name]</pre><pre>styledef.case.0.comparison.lefttext= [field name]</pre><pre>styledef.case.0.comparison.operator= [qualifier]</pre><pre>styledef.case.0.comparison.operatortype= [data type]</pre><pre>styledef.case.0.comparison.righttext= [field value]</pre><pre>styledef.case.0.comparison.trueproperty.0.name= [format option]</pre><pre>styledef.case.0.comparison.trueproperty.0.value= [format style]</pre><pre>styledef.case.0.comparison.truetext=</pre><pre>row.0.styledef.applyallcases=true</pre><pre>row.0.styledef.case.0.comparison.icon=false</pre><pre>row.0.styledef.case.0.comparison.isrowcase=true</pre><pre>row.0.styledef.case.0.comparison.leftmethod= [field name]</pre><pre>row.0.styledef.case.0.comparison.lefttext= [field name]</pre><pre>row.0.styledef.case.0.comparison.operator= [qualifier]</pre><pre>row.0.styledef.case.0.comparison.operatortype= [data type]</pre><pre>row.0.styledef.case.0.comparison.righttext= [field value]</pre><pre>row.0.styledef.case.0.comparison.trueproperty.0.name= [format option]</pre><pre>row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]</pre><pre>row.0.styledef.case.0.comparison.truetext=</pre>
 
-#### Apply images
+#### Apply images {#apply-images}
 
 Similarly to formatting with text, images can be used to display information in reports. Workfront has a number of built-in images to convey visual information in a report setting. To use images in the conditional formatting setting the following statement is needed:
 <pre>image.case.0.comparison.leftmethod= [field name]<br>image.case.0.comparison.lefttext= [field name]<br>image.case.0.comparison.righttext= [field value]<br>image.case.0.comparison.operator= [qualifier]<br>image.case.0.comparison.operatortype= [data type]<br>image.case.0.comparison.icon=true<br>image.case.0.comparison.truetext=</pre>For example, on a project report, you want to build a column where you would show a frown face for every Planned Completion Date that does&nbsp;not equal to today's date. Use the following text mode code to add the icon to your column:
@@ -455,6 +455,8 @@ To use the images available, apply the following code and values:
 ```
 valueexpression
 ```
+
+{#conditionally-format-a-valueexpression}
 
 To display a calculated value in a column, you can replace the 
 

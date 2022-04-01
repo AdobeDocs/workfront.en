@@ -12,20 +12,20 @@ description: Adobe Workfront Fusion offers two different licenses that determine
 
 Adobe Workfront Fusion offers two different licenses that determine the functionality you are able to access. Your organization chose one of these licenses when it purchased Workfront Fusion.
 
-* [Workfront Fusion for Work Automation](#for) 
-* [Workfront Fusion for Work Automation and Integration](#for2)
+* [Workfront Fusion for Work Automation](#workfront-fusion-for-work-automation) 
+* [Workfront Fusion for Work Automation and Integration](#workfront-fusion-for-work-automation-and-integration)
 
 >[!NOTE]
 >
 >To find out what type of Workfront Fusion license your organization has, contact your Workfront Fusion administrator.
 
-## Workfront Fusion for Work Automation
+## Workfront Fusion for Work Automation {#workfront-fusion-for-work-automation}
 
-* [Benefits of Workfront Fusion for Work Automation](#benefits) 
-* [Connectors and modules available for Workfront Fusion for Work Automation](#connecto) 
-* [Example of Workfront Fusion for Work Automation](#example)
+* [Benefits of Workfront Fusion for Work Automation](#benefits-of-workfront-fusion-for-work-automation) 
+* [Connectors and modules available for Workfront Fusion for Work Automation](#connectors-and-modules-available-for-workfront-fusion-for-work-automation) 
+* [Example of Workfront Fusion for Work Automation](#example-of-workfront-fusion-for-work-automation)
 
-### Benefits of Workfront Fusion for Work Automation
+### Benefits of Workfront Fusion for Work Automation {#benefits-of-workfront-fusion-for-work-automation}
 
 A Workfront Fusion for Work Automation license allows you to automate your Workfront workflows. By using Fusion for Work Automation, you can create scenarios to automate your organization's unique work processes. There are many benefits to automating your Workfront processes.
 
@@ -33,7 +33,7 @@ A Workfront Fusion for Work Automation license allows you to automate your Workf
 * Workflows that don't require any decisions, or that have decisions are based on simple logic such as if/then, are good candidates for automation
 * Automation can address specific needs in workflows used by your organization that aren't directly addressed in the Workfront product
 
-### Connectors and modules available for Workfront Fusion for Work Automation
+### Connectors and modules available for Workfront Fusion for Work Automation {#connectors-and-modules-available-for-workfront-fusion-for-work-automation}
 
 With the Workfront Fusion for Automation license, you have access to the following:
 
@@ -51,7 +51,7 @@ With the Workfront Fusion for Automation license, you have access to the followi
    * MIME
    * XML
 
-### Example of Workfront Fusion for Work Automation
+### Example of Workfront Fusion for Work Automation {#example-of-workfront-fusion-for-work-automation}
 
 ``` ```**Example: **`````` The following example shows a workflow that:
 
@@ -61,13 +61,13 @@ With the Workfront Fusion for Automation license, you have access to the followi
 
 ![](assets/fusion-template-example-350x102.png)
 
-## Workfront Fusion for Work Automation and Integration
+## Workfront Fusion for Work Automation and Integration {#workfront-fusion-for-work-automation-and-integration}
 
-* [Benefits of Workfront Fusion for Work Automation and Integration](#benefits2) 
-* [Connectors and modules available for Workfront Fusion for Work Automation and Integration](#connecto2) 
-* [Example of Workfront Fusion for Work Automation and Integration](#example2)
+* [Benefits of Workfront Fusion for Work Automation and Integration](#benefits-of-workfront-fusion-for-work-automation-and-integration) 
+* [Connectors and modules available for Workfront Fusion for Work Automation and Integration](#connectors-and-modules-available-for-workfront-fusion-for-work-automation-and-integration) 
+* [Example of Workfront Fusion for Work Automation and Integration](#example-of-workfront-fusion-for-work-automation-and-integration)
 
-### Benefits of Workfront Fusion for Work Automation and Integration
+### Benefits of Workfront Fusion for Work Automation and Integration {#benefits-of-workfront-fusion-for-work-automation-and-integration}
 
 A Workfront Fusion for Work Automation and Integration license allows you access to all of the functionality of the Workfront Fusion for Automation license. In addition, this license lets you use other apps and services in your scenarios. For example, you can use Workfront Fusion to automate a process that imports Jira jobs, then turns them into tasks in Workfront. You can also use the HTTP or SFTP connectors to connect to almost any web service, even if Workfront Fusion does not have a dedicated connector for it.
 
@@ -77,7 +77,7 @@ Workfront Fusion for Work Automation and Integration offers your organization ma
 * Integration reduces the need to jump into and out of various apps when completing a workflow.
 * Automating data transfer between applications is quicker and less prone to error than manually transferring data
 
-### Connectors and modules available for Workfront Fusion for Work Automation and Integration
+### Connectors and modules available for Workfront Fusion for Work Automation and Integration {#connectors-and-modules-available-for-workfront-fusion-for-work-automation-and-integration}
 
 For a list of available dedicated connectors, see [Apps and their modules](../../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md).
 
@@ -85,7 +85,7 @@ For a list of available dedicated connectors, see [Apps and their modules](../..
 >
 >Workfront Fusion can connect to almost any web service. If the app you want to work with does not have a dedicated connector, you can use the HTTP, SFTP, or JSON connectors to connect directly to the web service.
 
-### Example of Workfront Fusion for Work Automation and Integration
+### Example of Workfront Fusion for Work Automation and Integration {#example-of-workfront-fusion-for-work-automation-and-integration}
 
 ``` ```**Example: **`````` The following example shows a workflow that:
 

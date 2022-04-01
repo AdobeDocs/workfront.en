@@ -28,7 +28,7 @@ For information on how document permissions work, see [Share a document in Adobe
 
 ### Manage document versions and associated proofs
 
-See also [View Document Details](#manage) in this article.
+See also [View Document Details](#Manage) in this article.
 
 For more information about document versions, see&nbsp; [Manage document versions](../../documents/managing-documents/manage-document-versions.md).
 

@@ -93,15 +93,15 @@ You can add new documents to Workfront from the file system on your workstation.
 
 The Workfront site prevents viruses and other malicious content from entering the site via documents&nbsp;in the following ways:
 
-* [How Workfront detects corrupted files](#understanding-how-workfront-detects-corrupted-files) 
-* [File name restrictions](#understanding-file-name-restrictions)
+* [How Workfront detects corrupted files](#how-workfront-detects-corrupted-files) 
+* [File name restrictions](#file-name-restrictions)
 
-### How Workfront detects corrupted files
+### How Workfront detects corrupted files {#how-workfront-detects-corrupted-files}
 
 Workfront scans for viruses when a document is uploaded. If you attempt to upload a corrupted document, Workfront discontinues the upload process and a message appears&nbsp;indicating the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.  
 All corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
 
-### File name restrictions
+### File name restrictions {#file-name-restrictions}
 
 Files that are uploaded to Workfront cannot contain certain&nbsp;characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded:
 <pre>< > { }</pre>

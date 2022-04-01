@@ -92,11 +92,11 @@ The following prerequisites are required only when viewing the Resource Planner 
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#tasks-prerequisites" class="MCXref xref">Tasks and issues prerequisites</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#tasks-and-issues-prerequisites" class="MCXref xref">Tasks and issues prerequisites</a> </li>
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="user-prerequisites"></a>User prerequisites</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="user-prerequisites"><a name="user-prerequisites"></a>User prerequisites</h3>
 -->
 
 <!--
@@ -184,7 +184,7 @@ The following prerequisites are required only when viewing the Resource Planner 
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="project-prerequisites"></a>Project prerequisites</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="project-prerequisites"><a name="project-prerequisites"></a>Project prerequisites</h3>
 -->
 
 <!--
@@ -210,7 +210,7 @@ The following prerequisites are required only when viewing the Resource Planner 
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="tasks-prerequisites"></a>Tasks and issues prerequisites</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="tasks-and-issues-prerequisites"><a name="tasks-prerequisites"></a>Tasks and issues prerequisites</h3>
 -->
 
 <!--

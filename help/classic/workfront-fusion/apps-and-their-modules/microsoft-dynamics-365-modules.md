@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
 To use Microsoft Dynamics 365, you must have a Microsoft Dynamics 365 account.
 
-## Connect Microsoft Dynamics 365 to Workfront Fusion
+## Connect Microsoft Dynamics 365 to Workfront Fusion {#connect-microsoft-dynamics-365-to-workfront-fusion}
 
 You can create a connection to your Microsoft Dynamics 365 account directly from inside an Allocadia module.
 
@@ -95,16 +95,16 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Watch Records (Scheduled)](#watch) 
-* [Watch Records (Real Time)](#watch2) 
-* [Create Record](#create) 
-* [Make an API Call](#make) 
-* [Delete Record](#delete) 
-* [Read Records](#read) 
-* [Update Record](#update) 
-* [Search Records](#search)
+* [Watch Records (Scheduled)](#watch-records-scheduled) 
+* [Watch Records (Real Time)](#watch-records-real-time) 
+* [Create Record](#create-record) 
+* [Make an API Call](#make-an-api-call) 
+* [Delete Record](#delete-record) 
+* [Read Records](#read-records) 
+* [Update Record](#update-record) 
+* [Search Records](#search-records)
 
-### Watch Records (Scheduled)
+### Watch Records (Scheduled) {#watch-records-scheduled}
 
 This scheduled trigger module executes a scenario when a record in the object you specify is created or updated after the last scheduled run in Dynamics 365.
 
@@ -120,7 +120,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Include</td> 
@@ -141,7 +141,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Watch Records (Real Time)
+### Watch Records (Real Time) {#watch-records-real-time}
 
 This instant trigger module executes a scenario when a record (object) you specify is created or updated in Dynamics 365.
 
@@ -157,14 +157,14 @@ A webhook is required in this module.
     <ol> 
      <li value="1"> <p>Click <strong>Add</strong>to the right of the Webhook field</p> </li> 
      <li value="2"> <p>In the <strong>Webhook</strong>name field, type a descriptive name for the webhook.</p> </li> 
-     <li value="3"> <p>In the <strong>Connection</strong>field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
+     <li value="3"> <p>In the <strong>Connection</strong>field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
      <li value="4"> <p>Click <strong>Save</strong>to save your webhook and return to the module.</p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Create Record
+### Create Record {#create-record}
 
 This action module creates an entity, such as an appointment or task,.
 
@@ -180,7 +180,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -193,7 +193,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Make an API Call
+### Make an API Call {#make-an-api-call}
 
 This action module lets you make a custom authenticated call to the Microsoft Dynamics 365 API. This way, you can create a data flow automation that can't be accomplished by the other Microsoft Dynamics 365 modules.
 
@@ -209,7 +209,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -237,7 +237,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Delete Record
+### Delete Record {#delete-record}
 
 This action module deletes an entity.
 
@@ -253,7 +253,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -266,7 +266,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Read Records
+### Read Records {#read-records}
 
 This action module reads data from a single entity in Microsoft Dynamics 365.
 
@@ -282,7 +282,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -299,7 +299,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Update Record
+### Update Record {#update-record}
 
 This action module updates an entity.
 
@@ -315,7 +315,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Entity Type</td> 
@@ -332,7 +332,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Search Records
+### Search Records {#search-records}
 
 This search module looks for records in an object in Microsoft Dynamics 365 that match the search query you specify. You can map this information in subsequent modules in the scenario.
 
@@ -344,7 +344,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
+   <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 

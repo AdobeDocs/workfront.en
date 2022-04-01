@@ -21,10 +21,10 @@ The four states are as follows:
 
 * [Active](#active) 
 * [Locked](#locked) 
-* [Draft (Dropzone only)](#draft) 
-* [Submitted (Dropzone only)](#submitted)
+* [Draft (Dropzone only)](#draft-dropzone-only) 
+* [Submitted (Dropzone only)](#submitted-dropzone-only)
 
-### Active
+### Active {#active}
 
 Proofs that are uploaded to Workfront Proof through the New Proof page&nbsp;or the Dropzone appear as&nbsp;Active****after they are processed. When a proof is active users can review, make comments, and make decisions on the proof.
 
@@ -34,7 +34,7 @@ Proofs that are uploaded to Workfront Proof through the New Proof page&nbsp;or t
 
 For more information about Dropzone settings, see [Configure the dropzone in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-### Locked
+### Locked {#locked}
 
 You can lock a proof when you finish reviewing it. Locking a proof means no more comments or decisions can be made on the proof, but the proof can still be opened.&nbsp;
 
@@ -46,11 +46,11 @@ For more information about rights, see [Proof Permissions Profiles in Workfront 
 >
 >Email notifications no longer send when a proof is locked. For example, if a proof is locked before its deadline, a notification email is not sent when the deadline is reached.
 
-### Draft (Dropzone only)
+### Draft (Dropzone only) {#draft-dropzone-only}
 
 When you submit a proof through the Dropzone, it goes into the&nbsp;Draft****state before the admin activates it. When it is in the draft zone, you cannot take any actions on the proof.&nbsp;
 
-### Submitted (Dropzone only)
+### Submitted (Dropzone only) {#submitted-dropzone-only}
 
 After a draft is activated by the admin, your proof shows as&nbsp;Submitted****in the Dropzone. After it is submitted, you can take actions on the proof.
 

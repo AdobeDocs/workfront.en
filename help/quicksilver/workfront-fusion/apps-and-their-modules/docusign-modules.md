@@ -52,7 +52,7 @@ You must have the following access to use the functionality in this article:
 
 To use DocuSign modules, you must have a DocuSign account.
 
-## Connect DocuSign to Workfront Fusion
+## Connect DocuSign to Workfront Fusion {#connect-docusign-to-workfront-fusion}
 
 To create a connection for your DocuSign modules:
 
@@ -87,7 +87,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Triggers](#triggers) 
 * [Actions](#actions)
 
-### Triggers
+### Triggers {#triggers}
 
 #### Watch envelopes
 
@@ -127,19 +127,19 @@ This trigger module starts a scenario when an envelope is sent, delivered, signe
  </tbody> 
 </table>
 
-### Actions
+### Actions  {#actions}
 
-* [Custom API Call](#custom) 
-* [Download a document](#download) 
-* [Read an envelope](#read) 
-* [Upload a file to an envelope](#upload) 
-* [Create a new envelope](#create) 
-* [Add Recipient to Envelope](#add) 
-* [Add custom field](#add2) 
-* [Modify custom field](#modify) 
-* [Send envelope](#send)
+* [Custom API Call](#custom-api-call) 
+* [Download a document](#download-a-document) 
+* [Read an envelope](#read-an-envelope) 
+* [Upload a file to an envelope](#upload-a-file-to-an-envelope) 
+* [Create a new envelope](#create-a-new-envelope) 
+* [Add Recipient to Envelope](#add-recipient-to-envelope) 
+* [Add custom field](#add-custom-field) 
+* [Modify custom field](#modify-custom-field) 
+* [Send envelope](#send-envelope)
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module allows you to perform a custom API call.
 
@@ -149,7 +149,7 @@ This action module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Account</td> 
@@ -215,7 +215,7 @@ In our example, 6 envelopes were returned:
 
 ![](assets/docusign-example-output-350x677.png)
 
-#### Download a document
+#### Download a document {#download-a-document}
 
 This action module downloads a single document.
 
@@ -225,7 +225,7 @@ This action module downloads a single document.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -266,7 +266,7 @@ This action module downloads a single document.
  </tbody> 
 </table>
 
-#### Read an envelope
+#### Read an envelope {#read-an-envelope}
 
 This action module reads information about an envelope in DocuSign using the envelope ID.
 
@@ -276,7 +276,7 @@ This action module reads information about an envelope in DocuSign using the env
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -293,7 +293,7 @@ This action module reads information about an envelope in DocuSign using the env
  </tbody> 
 </table>
 
-#### Upload a file to an envelope
+#### Upload a file to an envelope {#upload-a-file-to-an-envelope}
 
 This module uploads a specified file to an existing envelope in DocuSign.
 
@@ -303,7 +303,7 @@ This module uploads a specified file to an existing envelope in DocuSign.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -320,7 +320,7 @@ This module uploads a specified file to an existing envelope in DocuSign.
  </tbody> 
 </table>
 
-#### Create a new envelope
+#### Create a new envelope {#create-a-new-envelope}
 
 This action module creates a new envelope from a template. It returns the new envelope's ID, as well as the status of the new envelope.
 
@@ -358,7 +358,7 @@ This action module creates a new envelope from a template. It returns the new en
  </tbody> 
 </table>
 
-#### Add Recipient to Envelope
+#### Add Recipient to Envelope {#add-recipient-to-envelope}
 
 This action module adds one or more recipients to an existing envelope. If the envelope has already been sent, the recipient is sent an email. This module is not valid for envelopes that have already been completed.
 
@@ -440,7 +440,7 @@ This action module adds one or more recipients to an existing envelope. If the e
  </tbody> 
 </table>
 
-#### Add custom field
+#### Add custom field {#add-custom-field}
 
 This action module adds a custom field to the document
 
@@ -450,7 +450,7 @@ This action module adds a custom field to the document
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -479,7 +479,7 @@ This action module adds a custom field to the document
  </tbody> 
 </table>
 
-#### Modify custom field
+#### Modify custom field {#modify-custom-field}
 
 This action module modifies a custom field using the field name.
 
@@ -489,7 +489,7 @@ This action module modifies a custom field using the field name.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -522,7 +522,7 @@ This action module modifies a custom field using the field name.
  </tbody> 
 </table>
 
-#### Send envelope
+#### Send envelope {#send-envelope}
 
 This action module sends a draft envelope to its recipients.
 
@@ -532,7 +532,7 @@ This action module sends a draft envelope to its recipients.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 

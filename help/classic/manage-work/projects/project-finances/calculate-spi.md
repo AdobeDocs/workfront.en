@@ -42,10 +42,10 @@ You must have the following access to perform the steps in this article:
 
 ## Schedule Performance Index (SPI) overview
 
-* [What the SPI value shows](#understanding-the-cpi-value) 
-* [How Workfront calculates SPI](#understanding-how-spi-is-calculated)
+* [What the SPI value shows](#what-the-spi-value-shows) 
+* [How Workfront calculates SPI](#how-workfront-calculates-spi)
 
-### What the SPI&nbsp;value shows
+### What the SPI&nbsp;value shows {#what-the-spi-value-shows}
 
 Project managers understand that a SPI&nbsp;value of 1 means the project is on plan or on schedule. &nbsp;Values greater than 1 indicate a project is ahead of schedule, and values less than 1 mean a project is behind schedule. &nbsp;The further from 1, the greater deviation from the plan.
 
@@ -55,7 +55,7 @@ Project managers understand that a SPI&nbsp;value of 1 means the project is on p
 | > 1 (greater than 1) |Ahead of schedule |
 | < 1 (less than 1) |Behind schedule |
 
-### How Workfront calculates SPI
+### How Workfront calculates SPI  {#how-workfront-calculates-spi}
 
 Workfront calculates SPI by the following formula:
 

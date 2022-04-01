@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Where should I install a blueprint?
+## Where should I install a blueprint? {#where-should-i-install-a-blueprint}
 
 You can install your package in any of the following environments:
 
@@ -62,7 +62,7 @@ You can install your package in any of the following environments:
 1. (Optional) Click **Details** to learn how the blueprint works.
 1. Click **Install**.
 1. Choose to install on your production environment or a sandbox environment.  
-   For more information, see the [Where should I install a blueprint?](#where) section in this article.
+   For more information, see the [Where should I install a blueprint?](#where-should-i-install-a-blueprint) section in this article.
 1. On the Configure page, you can choose to do one of the following:
 
    * Install the blueprint as is and configure later. Click **Install as is**.

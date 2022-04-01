@@ -42,10 +42,10 @@ You must have the following to perform the steps in this article:
 
 You can use the **Announcements** page to communicate with users in your Workfront system by forwarding announcements sent from Workfront and by composing new announcements. You can send announcements to specific users, groups, teams, or companies within your Workfront system.
 
-* [Forward Workfront announcements to users](#forwarding-announcements-to-users) 
-* [Compose new announcements](#composing-new-announcements)
+* [Forward Workfront announcements to users](#forward-workfront-announcements-to-users) 
+* [Compose new announcements](#compose-new-announcements)
 
-### Forward Workfront announcements to users
+### Forward Workfront announcements to users {#forward-workfront-announcements-to-users}
 
 You can easily forward messages that you receive from Workfront to users in your system.
 
@@ -61,9 +61,9 @@ You can easily forward messages that you receive from Workfront to users in your
 
    To forward the announcement to all users in your system, begin typing **Everyone**, then click it when it appears in the drop-down list. 
 
-1. Continue with Step 3 in [Compose new announcements](#composing-new-announcements).
+1. Continue with Step 3 in [Compose new announcements](#compose-new-announcements).
 
-### Compose new announcements
+### Compose new announcements {#compose-new-announcements}
 
 1. Go to the Announcements page by clicking the **Notification** icon in the upper-right corner of the Workfront interface, then click **All Announcements**.
 

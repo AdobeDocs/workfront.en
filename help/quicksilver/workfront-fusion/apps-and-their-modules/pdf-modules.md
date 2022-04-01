@@ -12,16 +12,16 @@ For information on the API used for PDF Services, see [Adobe Document Generation
 
 ## Considerations when using Adobe PDF Services
 
-* [You do not need an Adobe account](#you) 
-* [Workfront Fusion does not store your files](#workfron)
+* [You do not need an Adobe account](#you-do-not-need-an-adobe-account) 
+* [Workfront Fusion does not store your files](#workfront-fusion-does-not-store-your-files)
 
-### You do not need an Adobe account
+### You do not need an Adobe account {#you-do-not-need-an-adobe-account}
 
 Because Workfront Fusion is part of the Adobe product suite, you don't need a separate Adobe account to use these tools. Each tool accesses Adobe PDF&nbsp;functionality without using a connection.
 
 Although Workfront Fusion does not require an Adobe account to use the PDF Services, the modules do require a connection. There are no credentials involved in this connection, and you provide only a name for the connection itself.
 
-### Workfront Fusion does not store your files
+### Workfront Fusion does not store your files {#workfront-fusion-does-not-store-your-files}
 
 The Adobe PDF Services can read, convert, or modify your files, but neither Adobe nor Workfront Fusion store your files or data. This means that :
 
@@ -76,32 +76,32 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Generate document](#generate) 
-* [Extract Text / Table](#extract) 
-* [Combine PDF files](#combine) 
-* [Compress PDF files](#compress) 
-* [Convert document to PDF file](#convert) 
-* [Convert HTML to PDF file](#convert2) 
-* [Convert image to PDF file](#convert3) 
-* [Convert PDF to document](#convert4) 
-* [Convert PDF to image](#convert5) 
-* [Linearize a PDF file](#lineariz) 
-* [OCR for PDF file](#ocr) 
-* [PDF page manipulation](#pdf%c2%a0page) 
-* [PDF file properties](#pdf%c2%a0file) 
-* [Protect PDF file](#protect) 
-* [Remove protection of a PDF file](#remove)
+* [Generate document](#generate-document) 
+* [Extract Text / Table](#extract-text-table) 
+* [Combine PDF files](#combine-pdf-files) 
+* [Compress PDF files](#compress-pdf-files) 
+* [Convert document to PDF file](#convert-document-to-pdf-file) 
+* [Convert HTML to PDF file](#convert-html-to-pdf-file) 
+* [Convert image to PDF file](#convert-image-to-pdf-file) 
+* [Convert PDF to document](#convert-pdf-to-document) 
+* [Convert PDF to image](#convert-pdf-to-image) 
+* [Linearize a PDF file](#linearize-a-pdf-file) 
+* [OCR for PDF file](#ocr-for-pdf-file) 
+* [PDF page manipulation](#PDF%C2%A0page) 
+* [PDF file properties](#PDF%C2%A0file) 
+* [Protect PDF file](#protect-pdf-file) 
+* [Remove protection of a PDF file](#remove-protection-of-a-pdf-file)
 
-### Generate document
+### Generate document {#generate-document}
 
 The Generate document module is a powerful way to create a PDF that contains data you select. You can format it by using a Microsoft Word template, or by providing data in JSON format.
 
 For more information on the Adobe PDF&nbsp;Services Generate document functionality, see the [Overview of Document Generation](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in the Adobe Document Services documentation.
 
-* [Use the Generate document module with a Microsoft Word template](#use) 
-* [Use the Generate document module with JSON](#use2)
+* [Use the Generate document module with a Microsoft Word template](#use-the-generate-document-module-with-a-microsoft-word-template) 
+* [Use the Generate document module with JSON](#use-the-generate-document-module-with-json)
 
-#### Use the Generate document module with a Microsoft Word template
+#### Use the Generate document module with a Microsoft Word template {#use-the-generate-document-module-with-a-microsoft-word-template}
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Fill in the Generate document module fields as follows:
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source File</td> 
@@ -145,7 +145,7 @@ Fill in the Generate document module fields as follows:
  </tbody> 
 </table>
 
-#### Use the Generate document module with JSON
+#### Use the Generate document module with JSON {#use-the-generate-document-module-with-json}
 
 To use the Generate document module with JSON, fill in the fields as follows:
 
@@ -155,7 +155,7 @@ To use the Generate document module with JSON, fill in the fields as follows:
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source File</td> 
@@ -176,7 +176,7 @@ To use the Generate document module with JSON, fill in the fields as follows:
  </tbody> 
 </table>
 
-### Extract Text / Table
+### Extract Text / Table {#extract-text-table}
 
 This action module allows you to extract data from a PDF file. The module outputs individual text elements, such as a paragraph or the text in a single cell of a table.
 
@@ -186,7 +186,7 @@ This action module allows you to extract data from a PDF file. The module output
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -211,7 +211,7 @@ This action module allows you to extract data from a PDF file. The module output
  </tbody> 
 </table>
 
-### Combine PDF&nbsp;files
+### Combine PDF&nbsp;files {#combine-pdf-files}
 
 This action module takes multiple PDF&nbsp;files and combines them into a single PDF&nbsp;file. For example, this module could combine all of the documents in a Workfront project into a single PDF upon completion of the project.
 
@@ -221,7 +221,7 @@ This action module takes multiple PDF&nbsp;files and combines them into a single
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Documents</td> 
@@ -236,7 +236,7 @@ This action module takes multiple PDF&nbsp;files and combines them into a single
  </tbody> 
 </table>
 
-### Compress PDF&nbsp;files
+### Compress PDF&nbsp;files {#compress-pdf-files}
 
 This action module takes a PDF&nbsp;file and compresses it. This can be useful for conserving bandwidth or memory.
 
@@ -248,7 +248,7 @@ This action module takes a PDF&nbsp;file and compresses it. This can be useful f
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -261,7 +261,7 @@ This action module takes a PDF&nbsp;file and compresses it. This can be useful f
  </tbody> 
 </table>
 
-### Convert document to PDF file
+### Convert document to PDF file {#convert-document-to-pdf-file}
 
 This tool converts a document to a PDF file. The source file must be one of the following document formats:
 
@@ -279,7 +279,7 @@ This tool converts a document to a PDF file. The source file must be one of the 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -336,7 +336,7 @@ This tool converts a document to a PDF file. The source file must be one of the 
  </tbody> 
 </table>
 
-### Convert HTML to PDF file
+### Convert HTML to PDF file {#convert-html-to-pdf-file}
 
 This tool converts an HTML&nbsp;file to a PDF file. 
 
@@ -348,7 +348,7 @@ This tool converts an HTML&nbsp;file to a PDF file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -381,7 +381,7 @@ This tool converts an HTML&nbsp;file to a PDF file.
  </tbody> 
 </table>
 
-### Convert image to PDF file
+### Convert image to PDF file {#convert-image-to-pdf-file}
 
 This tool converts an image to a PDF file. 
 
@@ -393,7 +393,7 @@ This tool converts an image to a PDF file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -402,7 +402,7 @@ This tool converts an image to a PDF file.
  </tbody> 
 </table>
 
-### Convert PDF to document
+### Convert PDF to document {#convert-pdf-to-document}
 
 This tool converts a PDF file to a document. You can select one of the following formats for the output file.
 
@@ -420,7 +420,7 @@ This tool converts a PDF file to a document. You can select one of the following
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -440,7 +440,7 @@ This tool converts a PDF file to a document. You can select one of the following
  </tbody> 
 </table>
 
-### Convert PDF to image
+### Convert PDF to image {#convert-pdf-to-image}
 
 This tool converts a PDF to an image in PNG or JPEG format., which is then output as a ZIP. The PDF&nbsp;is converted into one image per page, and each image ends with the page number. The image files are then combined into a ZIP file.
 
@@ -454,7 +454,7 @@ For example, a file called "TestFile" with 8 pages would produce 8 images, named
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -471,7 +471,7 @@ For example, a file called "TestFile" with 8 pages would produce 8 images, named
  </tbody> 
 </table>
 
-### Linearize a PDF&nbsp;file
+### Linearize a PDF&nbsp;file {#linearize-a-pdf-file}
 
 This tool linearizes a PDF document to create a web-optimized PDF document. A linearized PDF document can be viewed page-by-page without needing to download the entire document.
 
@@ -483,7 +483,7 @@ This tool linearizes a PDF document to create a web-optimized PDF document. A li
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -492,7 +492,7 @@ This tool linearizes a PDF document to create a web-optimized PDF document. A li
  </tbody> 
 </table>
 
-### OCR for PDF file
+### OCR for PDF file {#ocr-for-pdf-file}
 
 This tool performs Optical Character Recognition (OCR) on a file and produces a PDF. 
 
@@ -504,7 +504,7 @@ This tool performs Optical Character Recognition (OCR) on a file and produces a 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -537,7 +537,7 @@ This module allows you to selectively rotate or delete pages in a PDF document. 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -584,7 +584,7 @@ This tool extracts basic information about the document, such as:
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -593,7 +593,7 @@ This tool extracts basic information about the document, such as:
  </tbody> 
 </table>
 
-### Protect PDF file
+### Protect PDF file {#protect-pdf-file}
 
 This tool secures a PDF document with a user or owner password. It also sets restrictions on certain features like printing, editing, and copying in the PDF document. You select the type of content to be encrypted and the encryption algorithm.
 
@@ -605,11 +605,11 @@ This tool secures a PDF document with a user or owner password. It also sets res
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For information on creating a PDF&nbsp;Services connection, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>For information on creating a PDF&nbsp;Services connection, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -649,7 +649,7 @@ This tool secures a PDF document with a user or owner password. It also sets res
 
 This tool returns basic information (metadata) about the page.
 
-### Remove protection of a PDF file
+### Remove protection of a PDF file {#remove-protection-of-a-pdf-file}
 
 This tool removes security (password protection) from a PDF document.
 
@@ -661,7 +661,7 @@ This tool removes security (password protection) from a PDF document.
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 

@@ -8,28 +8,28 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 
 # What's new in API version 11
 
-* [Added Resources](#added) 
-* [Removed Resources](#removed) 
-* [Modified Resources](#modified)
+* [Added Resources](#added-resources) 
+* [Removed Resources](#removed-resources) 
+* [Modified Resources](#modified-resources)
 
-## Added Resources
+## Added Resources {#added-resources}
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginasa" class="MCXref xref">LoginAsAccessRule</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginasaccessrule" class="MCXref xref">LoginAsAccessRule</a> </li>
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginasa2" class="MCXref xref">LoginAsAdditionalRule</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginasadditionalrule" class="MCXref xref">LoginAsAdditionalRule</a> </li>
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginass" class="MCXref xref">LoginAsSettings</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginassettings" class="MCXref xref">LoginAsSettings</a> </li>
   -->
 
-* [ReportableBudgetedHour](#reportab)
+* [ReportableBudgetedHour](#reportablebudgetedhour)
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="LoginAsA"></a>LoginAsAccessRule</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule"><a name="LoginAsA"></a>LoginAsAccessRule</h3>
 -->
 
 <table cellspacing="15"> <!--
@@ -70,7 +70,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 </table>
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="LoginAsA2"></a>LoginAsAdditionalRule</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule"><a name="LoginAsA2"></a>LoginAsAdditionalRule</h3>
 -->
 
 <table cellspacing="15"> <!--
@@ -109,7 +109,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 </table>
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="LoginAsS"></a>LoginAsSettings</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings"><a name="LoginAsS"></a>LoginAsSettings</h3>
 -->
 
 <table cellspacing="15"> <!--
@@ -153,7 +153,7 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
  </tbody> 
 </table>
 
-### ReportableBudgetedHour
+### ReportableBudgetedHour {#reportablebudgetedhour}
 
 ReportableBudgedHour has been added to the Adobe Workfront API as a resource for Reporting. It features reference fields, core fields, and default fields that are absent in BudgetedHour. 
 
@@ -212,11 +212,11 @@ ReportableBudgedHour has been added to the Adobe Workfront API as a resource for
  </tbody> 
 </table>
 
-## Removed Resources
+## Removed Resources {#removed-resources}
 
 No resources were removed for API v11.
 
-## Modified Resources
+## Modified Resources {#modified-resources}
 
 <table> 
  <col> 
@@ -226,49 +226,49 @@ No resources were removed for API v11.
   <tr> 
    <td> 
     <ul> 
-     <li><a href="#accessle" class="MCXref xref">AccessLevelPermissions</a> </li> 
-     <li><a href="#accessre" class="MCXref xref">AccessRequest</a> </li> 
-     <li><a href="#accessru" class="MCXref xref">AccessRule</a> </li> 
+     <li><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </li> 
+     <li><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </li> 
+     <li><a href="#accessrule" class="MCXref xref">AccessRule</a> </li> 
      <li><a href="#approval" class="MCXref xref">Approval</a> </li> 
-     <li><a href="#approval2" class="MCXref xref">ApprovalPath</a> </li> 
-     <li><a href="#approval3" class="MCXref xref">ApprovalProcess</a> </li> 
-     <li><a href="#assignme" class="MCXref xref">Assignment</a> </li> 
-     <li><a href="#baseline" class="MCXref xref">BaselineTask</a> </li> 
+     <li><a href="#approvalpath" class="MCXref xref">ApprovalPath</a> </li> 
+     <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
+     <li><a href="#assignment" class="MCXref xref">Assignment</a> </li> 
+     <li><a href="#baselinetask" class="MCXref xref">BaselineTask</a> </li> 
      <li><a href="#category" class="MCXref xref">Category</a> </li> 
      <li><a href="#company" class="MCXref xref">Company</a> </li> 
-     <li><a href="#customen" class="MCXref xref">CustomEnum</a> </li> 
+     <li><a href="#customenum" class="MCXref xref">CustomEnum</a> </li> 
      <li><a href="#customer" class="MCXref xref">Customer</a> </li> 
-     <li><a href="#customer2" class="MCXref xref">CustomerPreferences</a> </li> 
+     <li><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="#docmetal" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
+     <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
      <li><a href="#document" class="MCXref xref">Document</a> </li> 
-     <li><a href="#iteratio" class="MCXref xref">Iteration</a> </li> 
-     <li><a href="#layout" class="MCXref xref">Layout Template</a> </li> 
-     <li><a href="#mileston" class="MCXref xref">MilestonePath</a> </li> 
+     <li><a href="#iteration" class="MCXref xref">Iteration</a> </li> 
+     <li><a href="#layout-template" class="MCXref xref">Layout Template</a> </li> 
+     <li><a href="#milestonepath" class="MCXref xref">MilestonePath</a> </li> 
      <li><a href="#note" class="MCXref xref">Note</a> </li> 
      <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
-     <li><a href="#paramete" class="MCXref xref">Parameter</a> </li> 
-     <li><a href="#portfoli" class="MCXref xref">Portfolio</a> </li> 
+     <li><a href="#parameter" class="MCXref xref">Parameter</a> </li> 
+     <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
      <li><a href="#program" class="MCXref xref">Program</a> </li> 
      <li><a href="#project" class="MCXref xref">Project</a> </li> 
-     <li><a href="#proofapp" class="MCXref xref">ProofApproval</a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </li> 
      <li><a href="#queuedef" class="MCXref xref">QueueDef</a> </li> 
-     <li><a href="#reserved" class="MCXref xref">ReservedTime</a> </li> 
+     <li><a href="#reservedtime" class="MCXref xref">ReservedTime</a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><a href="#resource" class="MCXref xref">ResourcePlannerFilter</a> </li> 
+     <li><a href="#resourceplannerfilter" class="MCXref xref">ResourcePlannerFilter</a> </li> 
      <li><a href="#risk" class="MCXref xref">Risk</a> </li> 
-     <li><a href="#schedule" class="MCXref xref">ScheduledReport</a> </li> 
-     <li><a href="#scorecar" class="MCXref xref">ScoreCardQuestion</a> </li> 
+     <li><a href="#scheduledreport" class="MCXref xref">ScheduledReport</a> </li> 
+     <li><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </li> 
      <li><a href="#task" class="MCXref xref">Task</a> </li> 
      <li><a href="#team" class="MCXref xref">Team</a> </li> 
      <li><a href="#template" class="MCXref xref">Template</a> </li> 
-     <li><a href="#template2" class="MCXref xref">TemplateAssignment</a> </li> 
-     <li><a href="#template3" class="MCXref xref">TemplateTask</a> </li> 
-     <li><a href="#timeshee" class="MCXref xref">Timesheet</a> </li> 
+     <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
+     <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
+     <li><a href="#timesheet" class="MCXref xref">Timesheet</a> </li> 
      <li><a href="#update" class="MCXref xref">Update</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
@@ -281,7 +281,7 @@ No resources were removed for API v11.
 
 &nbsp;
 
-### AccessLevelPermissions
+### AccessLevelPermissions {#accesslevelpermissions}
 
 An AccessLevelPermissions object represents a set of permissions. This set of permissions can then be associated with an Access Level.
 
@@ -301,7 +301,7 @@ An AccessLevelPermissions object represents a set of permissions. This set of pe
  </tbody> 
 </table>
 
-### AccessRequest
+### AccessRequest {#accessrequest}
 
 If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
 
@@ -319,7 +319,7 @@ If a User does not have access to an object in Workfront that they need, they ca
  </tbody> 
 </table>
 
-### AccessRule
+### AccessRule {#accessrule}
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
 
@@ -339,7 +339,7 @@ An AccessRule object represents a rule set in custom access levels that determin
  </tbody> 
 </table>
 
-### Approval
+### Approval {#approval}
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
@@ -393,7 +393,7 @@ A given work item, such as a task, document, or timesheet, may require that a su
  </tbody> 
 </table>
 
-### ApprovalPath
+### ApprovalPath {#approvalpath}
 
 An ApprovalPath object is a branch within an Approval Process. Approval Paths are based on the status of the object that the Approval Process is associated with.
 
@@ -411,7 +411,7 @@ An ApprovalPath object is a branch within an Approval Process. Approval Paths ar
  </tbody> 
 </table>
 
-### ApprovalProcess
+### ApprovalProcess {#approvalprocess}
 
 An ApprovalProcess object is a multi-step Approval that can be associated with a Project, Task, or Issue.
 
@@ -436,7 +436,7 @@ An ApprovalProcess object is a multi-step Approval that can be associated with a
  </tbody> 
 </table>
 
-### Assignment
+### Assignment {#assignment}
 
 An assignment object represents the connection between a work item and the user, team, or group that is assigned to work on it.
 
@@ -454,7 +454,7 @@ An assignment object represents the connection between a work item and the user,
  </tbody> 
 </table>
 
-### BaselineTask
+### BaselineTask {#baselinetask}
 
 Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values. When you create a baseline, the task information is also captured on the baseline tasks of that baseline.
 
@@ -472,7 +472,7 @@ Baselines are snapshots of what the performance of a project looked like at a gi
  </tbody> 
 </table>
 
-### Category
+### Category {#category}
 
 A Category object is a custom form. You can build reports for this object and you can show it in other object reports, as well.
 
@@ -497,7 +497,7 @@ A Category object is a custom form. You can build reports for this object and yo
  </tbody> 
 </table>
 
-### Company
+### Company {#company}
 
 A Company object represents an organization consisting of a collection of people. Companies are associated with a user or a project.
 
@@ -522,7 +522,7 @@ A Company object represents an organization consisting of a collection of people
  </tbody> 
 </table>
 
-### CustomEnum
+### CustomEnum {#customenum}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A CustomEnum object is an enumeration that is created in Workfront to be used in objects and fields throughout Workfront.</p>
@@ -553,7 +553,7 @@ A Company object represents an organization consisting of a collection of people
  </tbody> 
 </table>
 
-### Customer
+### Customer {#customer}
 
 A Customer object represents an organization that uses an instance of Workfront.
 
@@ -592,7 +592,7 @@ A Customer object represents an organization that uses an instance of Workfront.
  </tbody> 
 </table>
 
-### CustomerPreferences
+### CustomerPreferences {#customerpreferences}
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
@@ -621,7 +621,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
  </tbody> 
 </table>
 
-### DocMetadataLinkGroup
+### DocMetadataLinkGroup {#docmetadatalinkgroup}
 
 <table cellspacing="15"> 
  <col data-mc-conditions=""> 
@@ -637,7 +637,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
  </tbody> 
 </table>
 
-### Document
+### Document {#document}
 
 A Document object represents a file (such as written material, images, or other forms of information).
 
@@ -661,7 +661,7 @@ A Document object represents a file (such as written material, images, or other 
  </tbody> 
 </table>
 
-### Iteration
+### Iteration {#iteration}
 
 An Iteration object represents a single Agile Iteration. Iterations are discrete periods of time used to plan and complete Agile stories.
 
@@ -681,7 +681,7 @@ An Iteration object represents a single Agile Iteration. Iterations are discrete
  </tbody> 
 </table>
 
-### Layout Template
+### Layout Template {#layout-template}
 
 A Layout Template object represents a particular arrangement of layout elements, such as the main menu, navigation panel, or the Home area. Layout templates can be assigned to users, teams, groups, or job roles.
 
@@ -706,7 +706,7 @@ A Layout Template object represents a particular arrangement of layout elements,
  </tbody> 
 </table>
 
-### MilestonePath
+### MilestonePath {#milestonepath}
 
 A milestone is a marker on a task indication that it is a key point in the Project. Generally used to denote a significant event such as the completion of a phase of the project or a set of critical activities. A MilestonePath object is a collection of milestones.
 
@@ -731,7 +731,7 @@ A milestone is a marker on a task indication that it is a key point in the Proje
  </tbody> 
 </table>
 
-### Note
+### Note {#note}
 
 A Note object is a comment or update made on a Workfront object.
 
@@ -756,7 +756,7 @@ A Note object is a comment or update made on a Workfront object.
  </tbody> 
 </table>
 
-### OpTask
+### OpTask {#optask}
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
@@ -811,7 +811,7 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
  </tbody> 
 </table>
 
-### Parameter
+### Parameter {#parameter}
 
 A Parameter object is a custom field.
 
@@ -830,7 +830,7 @@ A Parameter object is a custom field.
  </tbody> 
 </table>
 
-### Portfolio
+### Portfolio {#portfolio}
 
 A Portfolio object is a collection of projects that compete for the same resources, typically money or people to complete them.
 
@@ -848,7 +848,7 @@ A Portfolio object is a collection of projects that compete for the same resourc
  </tbody> 
 </table>
 
-### Program
+### Program {#program}
 
 A Program object is a subset within a portfolio, where similar projects can be grouped together.
 
@@ -875,7 +875,7 @@ A Program object is a subset within a portfolio, where similar projects can be g
  </tbody> 
 </table>
 
-### Project
+### Project {#project}
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
@@ -913,7 +913,7 @@ Projects are work items within Workfront, and are a main building block in the w
  </tbody> 
 </table>
 
-### ProofApproval
+### ProofApproval {#proofapproval}
 
 A ProofApproval object represents an approval that is directly connected to a proof.
 
@@ -931,7 +931,7 @@ A ProofApproval object represents an approval that is directly connected to a pr
  </tbody> 
 </table>
 
-### QueueDef
+### QueueDef {#queuedef}
 
 A QueueDef object represents a Queue, which is a Project that has been published to the Help Desk area to allow users to submit Issues to it.
 
@@ -950,7 +950,7 @@ A QueueDef object represents a Queue, which is a Project that has been published
  </tbody> 
 </table>
 
-### ReservedTime
+### ReservedTime {#reservedtime}
 
 A ReservedTime object represents days specified on a User's Personal Time, indicating that the User will not be available for work.
 
@@ -989,13 +989,13 @@ The ReservedTime resource added the flag REPORTABLE.
  </tbody> 
 </table>
 
-### ResourcePlannerFilter
+### ResourcePlannerFilter {#resourceplannerfilter}
 
 A ResourcePlannerFilter object is a set of rules that determine which items will display in the Resource Planner.
 
 The ResourcePlannerFilter resource added the flag SHARABLE. There were no other changes to the object.
 
-### Risk
+### Risk {#risk}
 
 A Risk object represents a possible event that may prevent a project from finishing on time or within budget. Risks are added to projects in the planning phase to identify potential obstacles prior to the approval of any work.
 
@@ -1024,7 +1024,7 @@ A Risk object represents a possible event that may prevent a project from finish
  </tbody> 
 </table>
 
-### ScheduledReport
+### ScheduledReport {#scheduledreport}
 
 A ScheduledReport object represents a report that has been configured to be scheduled for delivery.
 
@@ -1047,7 +1047,7 @@ A ScheduledReport object represents a report that has been configured to be sche
  </tbody> 
 </table>
 
-### ScoreCardQuestion
+### ScoreCardQuestion {#scorecardquestion}
 
 A ScoreCardQuestion object represents a question that has been added to a Scorecard. These questions are usually determined by the Portfolio manager, and their answers allow the manager to understand how well a project aligns with the goals of the portfolio.
 
@@ -1065,7 +1065,7 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
  </tbody> 
 </table>
 
-### Task
+### Task {#task}
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
@@ -1114,7 +1114,7 @@ A Task object represents a work item that must be performed as a step toward ach
  </tbody> 
 </table>
 
-### Team
+### Team {#team}
 
 A Team object is a collection of Users that can be assigned to a work item.
 
@@ -1137,7 +1137,7 @@ A Team object is a collection of Users that can be assigned to a work item.
  </tbody> 
 </table>
 
-### Template
+### Template {#template}
 
 A Template object represents a pattern for a Project. Projects can be created from Templates to save time. A Template contains a Team and Tasks, which will be copied to a Project when the Template is used.
 
@@ -1169,7 +1169,7 @@ A Template object represents a pattern for a Project. Projects can be created fr
  </tbody> 
 </table>
 
-### TemplateAssignment
+### TemplateAssignment {#templateassignment}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A TemplateAssignment object represents the connection between a Template and the User, Team, or Group it is assigned to.</p>
@@ -1189,7 +1189,7 @@ A Template object represents a pattern for a Project. Projects can be created fr
  </tbody> 
 </table>
 
-### TemplateTask
+### TemplateTask {#templatetask}
 
 A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.
 
@@ -1215,7 +1215,7 @@ A TemplateTask object represents a Task that is part of a Template. Template Tas
  </tbody> 
 </table>
 
-### Timesheet
+### Timesheet {#timesheet}
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
@@ -1233,7 +1233,7 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
  </tbody> 
 </table>
 
-### Update
+### Update {#update}
 
 Work Items in Workfront can be updated to keep users informed of the current status. An Update object represents one of these updates. Updates can be entered by users or created by the Workfront system.
 
@@ -1260,7 +1260,7 @@ Work Items in Workfront can be updated to keep users informed of the current sta
 </table>
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="User"></a>User</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="user"><a name="User"></a>User</h3>
 -->
 
 <!--
@@ -1298,7 +1298,7 @@ Work Items in Workfront can be updated to keep users informed of the current sta
  </tbody> 
 </table>
 
-### UserNote
+### UserNote {#usernote}
 
 <table cellspacing="15"> 
  <col data-mc-conditions=""> 
@@ -1322,7 +1322,7 @@ Work Items in Workfront can be updated to keep users informed of the current sta
  </tbody> 
 </table>
 
-### Work
+### Work  {#work}
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 

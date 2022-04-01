@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Install Workfront for Adobe Creative Cloud
+## Install Workfront for Adobe Creative Cloud {#install-workfront-for-adobe-creative-cloud}
 
 1. Open your Adobe Creative Cloud application and make sure that your apps are up to date.
 1. In the preferences for your Adobe Creative Cloud application, make sure that syncing is enabled (this is the default).  
@@ -62,9 +62,9 @@ You must have the following access to perform the steps in this article:
 1. Click **Install**.
 1. When the installation completes, restart your computer and Workfront for Adobe Creative Cloud is added to your list of extensions for the supported applications.
 
-   For information about verifying that the extension is installed, see the [Ensure Workfront for Adobe Creative Cloud installed successfully](#ensuring-the-addon-installed-successfully) section in this article.
+   For information about verifying that the extension is installed, see the [Ensure Workfront for Adobe Creative Cloud installed successfully](#ensure-workfront-for-adobe-creative-cloud-installed-successfully) section in this article.
 
-## Ensure Workfront for Adobe Creative Cloud installed successfully
+## Ensure Workfront for Adobe Creative Cloud installed successfully {#ensure-workfront-for-adobe-creative-cloud-installed-successfully}
 
 1. Open one of the following supported applications on your computer:
 
@@ -84,4 +84,4 @@ You must have the following access to perform the steps in this article:
 
 #### Solution:
 
-You may have an existing, older version of the Workfront extension for Adobe Creative Cloud. Locate and uninstall the existing Workfront extension, then install the new Workfront extension as described in [Install Workfront for Adobe Creative Cloud](#downloading-and-configuring-the-workfront-extension) in this article.
+You may have an existing, older version of the Workfront extension for Adobe Creative Cloud. Locate and uninstall the existing Workfront extension, then install the new Workfront extension as described in [Install Workfront for Adobe Creative Cloud](#install-workfront-for-adobe-creative-cloud) in this article.

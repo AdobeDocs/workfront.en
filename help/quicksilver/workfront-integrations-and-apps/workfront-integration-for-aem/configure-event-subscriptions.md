@@ -1,6 +1,6 @@
 
 
-# ```Workfront Tools for AEM User Guide : Configure Event Subscriptions```
+# ```Workfront Tools for AEM User Guide : Configure Event Subscriptions```  {#title-heading}
 
 Event subscriptions are used to notify AEM of events that take place in Adobe Workfront. There are three Workfront Tools features that need event subscriptions in order to work, these are:
 

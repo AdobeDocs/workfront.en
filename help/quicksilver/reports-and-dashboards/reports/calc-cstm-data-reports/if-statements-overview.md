@@ -62,10 +62,10 @@ You can build "IF" statements in a calculated field either in a custom form, or 
 
 There is a difference in the syntax you use in a calculated custom form vs a calculated custom column. Refer to the following examples:&nbsp;
 
-* [Single "IF" statements](#single) 
-* [Multiple "IF" statements](#multiple)
+* [Single "IF" statements](#single-if-statements) 
+* [Multiple "IF" statements](#multiple-if-statements)
 
-### Single "IF" statements
+### Single "IF" statements {#single-if-statements}
 
 The following are examples of a calculated custom field and its corresponding column using an "IF" statement:&nbsp;
 
@@ -79,7 +79,7 @@ When building a custom field, use the following syntax for an "IF" statement:&nb
 When building a custom column, you should use the following syntax for the "IF" statement in the valueexpression line:
 <pre>valueexpression=IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track","On Track")</pre>
 
-### Multiple "IF" statements
+### Multiple "IF" statements {#multiple-if-statements}
 
 You can put together multiple "IF" statements with the following statement to build a more complex and dynamic expression:&nbsp;  
 

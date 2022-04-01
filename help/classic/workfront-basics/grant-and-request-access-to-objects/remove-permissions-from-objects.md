@@ -41,7 +41,7 @@ You must have the following to share objects:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Remove entities from the sharing list of an object
+## Remove entities from the sharing list of an object {#remove-entities-from-the-sharing-list-of-an-object}
 
 You can remove entities (users, job roles, teams, groups, companies) from the sharing list of an object.&nbsp;This removes their permissions to the object.
 
@@ -115,7 +115,7 @@ Inherited permissions can be removed from objects allowing for owners to specifi
 To remove inherited permissions:
 
 1. Go to an object to which you have Manage permissions. For example, go to a task.   
-1. Go to the object access box as described in the [Remove entities from the sharing list of an object](#removing) section in this article.
+1. Go to the object access box as described in the [Remove entities from the sharing list of an object](#remove-entities-from-the-sharing-list-of-an-object) section in this article.
 1. Select the **x**&nbsp;next to **Inherited Permission**&nbsp;on the sharing box to remove&nbsp;anyone listed there.  
    ![](assets/inherited-permissions-350x380.png)
 

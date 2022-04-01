@@ -120,12 +120,12 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
 
 ## Advanced information
 
-* [Standard authorization parameters](#standard) 
-* [Requesting Access tokens - standard parameters](#requesti) 
-* [Requesting Refresh tokens - standard parameters](#requesti2) 
-* [Authorized request made to a service](#authoriz)
+* [Standard authorization parameters](#standard-authorization-parameters) 
+* [Requesting Access tokens - standard parameters](#requesting-access-tokens-standard-parameters) 
+* [Requesting Refresh tokens - standard parameters](#requesting-refresh-tokens-standard-parameters) 
+* [Authorized request made to a service](#authorized-request-made-to-a-service)
 
-### Standard authorization parameters
+### Standard authorization parameters {#standard-authorization-parameters}
 
 * response_type: 
 
@@ -149,7 +149,7 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
 
 * client_id: The Client ID you entered when creating the account
 
-### Requesting Access tokens - standard parameters
+### Requesting Access tokens - standard parameters {#requesting-access-tokens-standard-parameters}
 
 * grant_type: 
 
@@ -167,7 +167,7 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
 * client_secret: The Client Secret you entered when creating the account
 * code: The code returned by authorization request
 
-### Requesting Refresh tokens - standard parameters
+### Requesting Refresh tokens - standard parameters {#requesting-refresh-tokens-standard-parameters}
 
 * grant_type: 
 
@@ -179,7 +179,7 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
 * client_id: The Client ID you entered when creating the account
 * client_secret: The Client Secret you entered when creating the account
 
-### Authorized request made to a service
+### Authorized request made to a service {#authorized-request-made-to-a-service}
 
 After the connection is established, the module uses by default the bearer token which is sent in the request header field. The bearer token has the following format: 
 
@@ -200,10 +200,10 @@ parameter or in the URL in the query string.
 HTTP Message Body is the data bytes transmitted in an HTTP transaction message immediately following the headers if there are any to be used.
 
 * [Raw](#raw) 
-* [Multipart/Form-Data](#multipar) 
-* [Application/form-urlencoded](#applicat)
+* [Multipart/Form-Data](#multipart-form-data) 
+* [Application/form-urlencoded](#application-form-urlencoded)
 
-### Raw
+### Raw {#raw}
 
 Screenshot
 
@@ -213,7 +213,7 @@ Screenshot
 
 Despite the content type selected, data is entered in any format that is stipulated or required by the developer documentation.
 
-### Multipart/Form-Data
+### Multipart/Form-Data {#multipart-form-data}
 
 Multipart/form-data is an HTTP multipart request that HTTP clients construct to send files and data over to an HTTP module. It is commonly used to upload files to your desired server.
 
@@ -251,7 +251,7 @@ data
 
 . So as you can see the way the information is received is different.
 
-### Application/form-urlencoded
+### Application/form-urlencoded {#application-form-urlencoded}
 
 This body type is to POST data using 
 

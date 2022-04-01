@@ -66,10 +66,10 @@ For more information on creating reports, see [Create a report](../../../reports
 
 ## Export formats and limits
 
-* [Export formats](#understanding-export-formats) 
-* [Export limits](#understanding-export-limits)
+* [Export formats](#export-formats) 
+* [Export limits](#export-limits)
 
-### Export formats
+### Export formats {#export-formats}
 
 Information can be exported in the following formats:
 
@@ -82,7 +82,7 @@ Information can be exported in the following formats:
 >
 >Dashboards can either be printed or exported only to a .pdf file.
 
-### Export limits
+### Export limits {#export-limits}
 
 There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
 
@@ -126,10 +126,10 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
 ## Export data
 
-* [Export data from a report or list](#exporting-data-from-a-report-or-list) 
-* [Export data from a dashboard](#exporting-data-from-a-dashboard)
+* [Export data from a report or list](#export-data-from-a-report-or-list) 
+* [Export data from a dashboard](#export-data-from-a-dashboard)
 
-### Export data from a report or list
+### Export data from a report or list {#export-data-from-a-report-or-list}
 
 1. Go to the report or list you want to export.
 1. Select the items you want to export. (Selecting individual items exports only the items you select.)
@@ -167,31 +167,31 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
      -->
 
 1. (Conditional) Depending on the operating system you use, you might have the option of opening or saving the file. Either open the file with the associated application or save it to your hard drive.
-1. Continue with [Use the exported document](#using-the-exported-document).
+1. Continue with [Use the exported document](#use-the-exported-document).
 
-### Export data from a dashboard
+### Export data from a dashboard {#export-data-from-a-dashboard}
 
 You can print the information from a dashboard, or you can export it as a .pdf file.
 
 For more information about exporting data from a dashboard, see [Export a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
-## Use the exported document
+## Use the exported document {#use-the-exported-document}
 
 * [File names](#file-names) 
-* [Titles](#file-titles) 
+* [Titles](#titles) 
 * [Timestamps](#timestamps) 
 * [Formatting](#formatting) 
 * [Links](#links) 
 * [Branding](#branding)
 
-### File names
+### File names {#file-names}
 
 Whether you export a list of objects or a report, your exported file will have a file name and a title. You can find the exported file on your computer by referring to the file name. The title of the report will give users an indication of what the exported file represents when you share it with them.
 
-* [File names for exported lists](#names-for-exported-lists) 
-* [File names for exported reports](#file-names-for-reports)
+* [File names for exported lists](#file-names-for-exported-lists) 
+* [File names for exported reports](#file-names-for-exported-reports)
 
-#### **File names for exported lists**
+#### **File names for exported lists** {#file-names-for-exported-lists}
 
 When you export a list of objects, the type of the object is displayed on the exported file in the file name and in the title of the list.
 
@@ -216,20 +216,20 @@ For example, the file name may be:
 
 * *Exported_Risks*, when exporting a list of Risks on the project(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
-#### **File names for exported reports**
+#### **File names for exported reports** {#file-names-for-exported-reports}
 
 When you export a report, the file name of the exported report is:
 
 *The_report_name*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
-### Titles
+### Titles {#titles}
 
 When you export a list of objects, only the file in the PDF format will have a title. If you export a list or a report to Excel, Excel (.xlsx), or Tab delimited formats, the file does not have a title.
 
-* [Titles for exported lists](#titles-for-lists) 
-* [Titles for exported reports](#titles-for-reports)
+* [Titles for exported lists](#titles-for-exported-lists) 
+* [Titles for exported reports](#titles-for-exported-reports)
 
-#### **Titles for exported lists**
+#### **Titles for exported lists** {#titles-for-exported-lists}
 
 When you export Task and Issue&nbsp;Lists in a Project to a PDF file, the title of the exported document is one of the following:
 
@@ -247,7 +247,7 @@ For example, the title may be:
 * *Exported Users*, when exporting the People tab on the project.
 * *Exported Risks*, when exporting a list of Risks on the project.
 
-#### **Titles for exported reports**
+#### **Titles for exported reports** {#titles-for-exported-reports}
 
 A report which is exported to a PDF file will have a title.
 
@@ -255,7 +255,7 @@ If the report is exported to Excel, Excel (.xlsx) or Tab delimited formats, the 
 
 If the report has a description, it will be included in the exported file.
 
-### Timestamps
+### Timestamps {#timestamps}
 
 A timestamp is displayed on the exported document from the context of the user who exported the item.
 
@@ -270,7 +270,7 @@ Depending on the type of document you export, timestamps are displayed in variou
 * **PDF:** Timestamps are displayed on the footer of each page and in the file name.
 * **Excel:** Timestamps are displayed in the file name.
 
-### Formatting
+### Formatting {#formatting}
 
 When you export a project to .pdf, any subtasks are displayed as indented to their parent tasks. Exported lists do not collapse any parent tasks.
 
@@ -284,7 +284,7 @@ If your report has special formatting in the web application, the report should 
 
 For more information on how to customize formatting in a report, see [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
-### Links
+### Links {#links}
 
 Links can point to any object in Workfront that supports linking. When you export a list in Workfront to .pdf, any supported links that exist in the original document remain live in the exported document.
 
@@ -303,7 +303,7 @@ Links can point to any object in Workfront that supports linking. When you expor
 
 When you export to an Excel format, only links to objects within Workfront are included in the exported file and they are only supported in places where you can select to allow links in exported Excel documents, such as report deliveries.
 
-## Branding
+## Branding {#branding}
 
 If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported .pdf files also include your personalized logo.
 

@@ -40,33 +40,33 @@ Consider the following when working with billing rates:
 
 * [User Billing Rates](#user-billing-rates) 
 * [Job Role Billing Rates](#job-role-billing-rates) 
-* [Fixed Billing Rates for projects or tasks](#fixed-rates-for-projects-or-tasks) 
-* [Override Billing Rates](#overriding-billing-rates)
+* [Fixed Billing Rates for projects or tasks](#fixed-billing-rates-for-projects-or-tasks) 
+* [Override Billing Rates](#override-billing-rates)
 
-### User Billing Rates
+### User Billing Rates {#user-billing-rates}
 
 As a user administrator, when you create a user, you can associate them with a Billing Rate by specifying a value for the Billing Per Hour field in their profile.   
 For more information about creating users, see the article [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
 
 ![](assets/qs-user-edit-ui-with-rp-and-billing-per-hour-field-1-350x152.png)
 
-### Job Role Billing Rates
+### Job Role Billing Rates {#job-role-billing-rates}
 
 As an Adobe Workfront administrator, when you create a job role, you can associate it with a Billing Rate by specifying a value for the ```Billing/ Hour``` field.
 
 You can define the value of a job role billing rate using the Base Currency of your Workfront system ```or using another custom currency```.   
 For more information about creating job roles ```and overriding their currency```, see the article [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
 
-### Fixed Billing Rates for projects or tasks
+### Fixed Billing Rates for projects or tasks {#fixed-billing-rates-for-projects-or-tasks}
 
 In addition to user and job role hourly rates, you can also have the following fixed billing rates:
 
 * Fixed Amount for Fixed Hourly Revenue Type 
 * Fixed Amount for Fixed Revenue Revenue Type
 
-For more information about how the fixed billing rates are used to calculate revenue, see [Overview of Revenue Types](#types-of-billing-rates-available).
+For more information about how the fixed billing rates are used to calculate revenue, see [Overview of Revenue Types](#overview-of-revenue-types).
 
-### Override Billing Rates
+### Override Billing Rates {#override-billing-rates}
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ There following table shows the types of revenue associated with tasks, issues, 
  </tbody> 
 </table>
 
-&#42; For Actual Hours, the user's rates always refer to the user who logs the hours or to the rates of their job roles. For information about when Workfront uses the rates of the user and when it uses the rates of their job roles, see the [Revenue calculations for projects](#revenue2) section in this article.
+&#42; For Actual Hours, the user's rates always refer to the user who logs the hours or to the rates of their job roles. For information about when Workfront uses the rates of the user and when it uses the rates of their job roles, see the [Revenue calculations for projects](#revenue-calculations-for-projects) section in this article.
 
 For example, if a task with User Hourly Revenue Type is planned to take 2 hours and the user assigned to it has an hourly rate of $30 an hour, then the Planned Revenue of the task is $60. When the task is completed, if the user logs just 1.5 hours as the actual time spent to finish the task, the Actual Revenue amount is $45. If another user who is not assigned to the task logs the time, the Actual Revenue is calculated based on that user's Billing Rates.
 
@@ -121,7 +121,7 @@ You can record revenue in the following ways:
 
 You can also mark your tasks as "Not Billable", in which case there is no Planned or Actual Revenue associated with them.
 
-## Overview of Revenue Types
+## Overview of Revenue Types {#overview-of-revenue-types}
 
 By default, the Revenue Type of all new tasks is set according to the Task & Issue Preferences specified by your Workfront ```or group administrator```.  
 For more information about defining the task and issue preferences for your Workfront instance, see the article [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
@@ -199,10 +199,10 @@ For more information about hour types, see the article [Manage hour types](../..
 
 ## Revenue calculations
 
-* [Revenue calculations for tasks based on User and Role assignments](#understanding-revenue-calculations-for-tasks-based-on-user-and-role-assignments) 
-* [Revenue calculations for projects](#revenue2)
+* [Revenue calculations for tasks based on User and Role assignments](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) 
+* [Revenue calculations for projects](#revenue-calculations-for-projects)
 
-### Revenue calculations for tasks based on User and Role assignments
+### Revenue calculations for tasks based on User and Role assignments {#revenue-calculations-for-tasks-based-on-user-and-role-assignments}
 
 When calculating revenue for a task, consider the following:
 
@@ -258,7 +258,7 @@ The following scenarios exist when calculating task revenue based on the Revenue
  </tbody> 
 </table>
 
-### Revenue calculations for projects
+### Revenue calculations for projects  {#revenue-calculations-for-projects}
 
 You can track the following revenue types for projects:
 
@@ -268,7 +268,7 @@ You can track the following revenue types for projects:
   Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue
   ```
 
-  For information about how task Planned Revenue is calculated, see the [Revenue calculations for tasks based on User and Role assignments](#understanding-revenue-calculations-for-tasks-based-on-user-and-role-assignments) section in this article.
+  For information about how task Planned Revenue is calculated, see the [Revenue calculations for tasks based on User and Role assignments](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) section in this article.
 
 * Actual Revenue for a project is calculated by the following formula:
 
@@ -276,6 +276,6 @@ You can track the following revenue types for projects:
   Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)
   ```
 
-For information about how task Actual Revenue is calculated, see the [Revenue calculations for tasks based on User and Role assignments](#understanding-revenue-calculations-for-tasks-based-on-user-and-role-assignments) section in this article.
+For information about how task Actual Revenue is calculated, see the [Revenue calculations for tasks based on User and Role assignments](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) section in this article.
 
 For the Actual Revenue associated with the hours logged directly to the project or the issues, Workfront uses the Billing Rate of the user who logs the time on the project. If the user has no Billing Rate associated with their profile, Workfront uses the Billing Rate of their Primary Job Role. If both rates are zero, the Actual Revenue associated with the hours logged on the project or the issues is zero. 

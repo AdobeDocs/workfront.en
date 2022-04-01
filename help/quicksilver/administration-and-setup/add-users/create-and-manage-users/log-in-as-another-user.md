@@ -128,16 +128,16 @@ Workfront provides mechanisms for tracking and auditing activity that takes plac
 
 When you log in as another user, the last login date is modified for that user to the date when the system or group administrator logs in as that user.
 
-* [View indicators on items](#vieing-indicators-on-items) 
-* [View audit information](#viewing-audit-information)
+* [View indicators on items](#view-indicators-on-items) 
+* [View audit information](#view-audit-information)
 
-### View indicators on items
+### View indicators on items {#view-indicators-on-items}
 
 When you log in to Workfront as another user and perform an action, Workfront clearly indicates that any action you perform is made by you on behalf of the user who you are logged in as.
 
 For example, if you comment on an item while logged in as another user, a statement indicates that the comment was made by you on behalf of the user.
 
-### View audit information
+### View audit information {#view-audit-information}
 
 1. Log in to Workfront as a Workfront administrator or group administrator.
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).

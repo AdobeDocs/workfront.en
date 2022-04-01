@@ -41,20 +41,20 @@ To subscribe to the Status site or to manage your subscription after you have al
 ## Understand named vulnerabilities
 
 * [What is a named vulnerability?](#what-is-a-named-vulnerability) 
-* [How do I view named vulnerabilities identified by Workfront?](#view-named-vulnerabilities) 
+* [How do I view named vulnerabilities identified by Workfront?](#how-do-i-view-named-vulnerabilities-identified-by-workfront) 
 * [Why is this important?](#why-is-this-important)
 
-### What is a named vulnerability?
+### What is a named vulnerability? {#what-is-a-named-vulnerability}
 
 In&nbsp;computer&nbsp;security, a&nbsp;vulnerability&nbsp;is a weakness which allows an attacker to reduce the stability, the security, or the integrity of a system.
 
 Vulnerability researchers and exploit creators name their projects internally to make it easy to reference them (for example, ShellShock, Heartbleed, POODLE, and WannaCry/Petya). When a vulnerability has wide-spread impact these names become public when the vulnerabilities are disclosed.
 
-### How do I view named vulnerabilities identified by Workfront?
+### How do I view named vulnerabilities identified by Workfront? {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
 1. Go to&nbsp; [status.adobe.com](https://status.adobe.com/), then click **Security**.
 
-## Why is this important?
+## Why is this important? {#why-is-this-important}
 
 Any security-aware network administrators should be familiar with the Status site and the named vulnerabilities identified by Workfront.&nbsp;
 

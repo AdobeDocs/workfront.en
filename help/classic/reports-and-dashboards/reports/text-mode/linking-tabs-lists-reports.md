@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Find the name of the Active Tab for an object
+## Find the name of the Active Tab for an object {#find-the-name-of-the-active-tab-for-an-object}
 
 Adobe Workfront Classic allows you to build custom URLs to indicate specific tabs of an object, such as the Hours tab of a task or the Milestones tab on a project. These tabs are called **Active Tabs**.
 
@@ -56,7 +56,7 @@ To find the name of an **Active Tab**:
 
 1. Save this name for future reference.
 
-## Build a calculated custom field with a direct link to an Active Tab
+## Build a calculated custom field with a direct link to an Active Tab {#build-a-calculated-custom-field-with-a-direct-link-to-an-active-tab}
 
 In Adobe Workfront Classic, you can use a calculated field to concatenate information about your object and an **Active Tab** for the object and create a direct link to that tab.
 
@@ -76,7 +76,7 @@ To build a calculated custom field for the direct link to an Active Tab:
 
    <pre>CONCAT("https://<your domain>.my.workfront.com","/","<strong>task</strong>/view?ID=",ID,"&activeTab=<strong>list-task-hours</strong>")</pre>
 
-   For information about finding the Active Tab on an object tab, see [Find the name of the Active Tab for an object](#finding-active-tab-name).
+   For information about finding the Active Tab on an object tab, see [Find the name of the Active Tab for an object](#find-the-name-of-the-active-tab-for-an-object).
 
    For information about the names of objects in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
@@ -99,7 +99,7 @@ To build a calculated custom field for the direct link to an Active Tab:
 
 You must create a **Calculated Custom Field** with a link to an **Active Tab** before you can include the link in a report in Adobe Workfront Classic.
 
-For more information about creating Calculated Custom Fields with links to an Active Tab, see [Build a calculated custom field with a direct link to an Active Tab](#calculated-custom-field-with-active-tab-link).
+For more information about creating Calculated Custom Fields with links to an Active Tab, see [Build a calculated custom field with a direct link to an Active Tab](#build-a-calculated-custom-field-with-a-direct-link-to-an-active-tab).
 
 For example, we want to build a task report with a direct link to the **Hours** tab of the task:
 
@@ -150,7 +150,7 @@ In Adobe Workfront Classic, you can embed a tab into any dashboard by adding a d
 
 1. Determine what the name of the tab is.
 
-   For information about finding the name of an Active Tab, see the section [Find the name of the Active Tab for an object](#finding-active-tab-name) in this article.
+   For information about finding the name of an Active Tab, see the section [Find the name of the Active Tab for an object](#find-the-name-of-the-active-tab-for-an-object) in this article.
 
    For the Resource Planner tab, the Active Tab name is "resource-planner."
 

@@ -119,13 +119,13 @@ To organize the information in this report, you can use the built-in grouping Pr
 
 To learn how to set up the views, filters, and groupings you want for your report, see the relevant section:
 
-* [See what status changes occurred](#see) 
-* [See when a task or issue was deleted](#see2) 
-* [See how custom fields changed over the course of a project's life cycle](#see3) 
-* [See how the Planned Completion Date changed over the course of a project's life cycle](#see4) 
-* [See if the owner of a project changed](#see6)
+* [See what status changes occurred](#see-what-status-changes-occurred) 
+* [See when a task or issue was deleted](#see-when-a-task-or-issue-was-deleted) 
+* [See how custom fields changed over the course of a project's life cycle](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle) 
+* [See how the Planned Completion Date changed over the course of a project's life cycle](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle) 
+* [See if the owner of a project changed](#see-if-the-owner-of-a-project-changed)
 
-## See what status changes occurred
+## See what status changes occurred {#see-what-status-changes-occurred}
 
 You can set up the Journal Entry report to show:
 
@@ -249,7 +249,7 @@ This information can be used to help with auditing and to illustrate how well yo
 
    Your new report loads.
 
-## See when a task or issue was deleted
+## See when a task or issue was deleted {#see-when-a-task-or-issue-was-deleted}
 
 You can set up the Journal Entry report to show:
 
@@ -331,7 +331,7 @@ To see when a task or issue was deleted:
 
    Your new report loads.
 
-## See how custom fields changed over the course of a project's life cycle
+## See how custom fields changed over the course of a project's life cycle {#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle}
 
 You can track important field changes over the course of the project. To do this, you can set up the Journal Entry to track:
 
@@ -439,7 +439,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
    Your new report loads.
 
-## See how the Planned Completion Date changed over the course of a project's life cycle
+## See how the Planned Completion Date changed over the course of a project's life cycle {#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle}
 
 You can set up the Journal Entry report to show how often the Planned Completion Date changes over the course of a project’s life.
 
@@ -540,7 +540,7 @@ You can set up the Journal Entry report to show how often the Planned Completion
 
    Your new report loads.
 
-## See if the owner of a project changed
+## See if the owner of a project changed {#see-if-the-owner-of-a-project-changed}
 
 You can set up the Journal Entry report to show how many times the project owner—or project manager—changes over the course of a project's life.
 

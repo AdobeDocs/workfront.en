@@ -95,14 +95,14 @@ The Account folders page shows you all folders in your account (including folder
 
 You can delete a folder from the following locations:
 
-* [Deleting a Folder from the Account Folders Page](#delete-from-account-folders) 
-* [Deleting a Folder From the Folder Details Page](#delete-from-details-page)
+* [Deleting a Folder from the Account Folders Page](#deleting-a-folder-from-the-account-folders-page) 
+* [Deleting a Folder From the Folder Details Page](#deleting-a-folder-from-the-folder-details-page)
 
 >[!NOTE]
 >
 >&nbsp;When you delete a parent folder, all sub-folders, proofs and files within the folder move to the&nbsp; [Restore and Empty the Trash in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-### Deleting a Folder from the Account Folders Page
+### Deleting a Folder from the Account Folders Page {#deleting-a-folder-from-the-account-folders-page}
 
 1. Click **[Your account name] folders** in the left navigation sidebar to access the Account folders page.  
    You can also click the folder name in the **My folders** list in the left sidebar to access the **Folder details** page.
@@ -114,7 +114,7 @@ You can delete a folder from the following locations:
    >
    >&nbsp;Deleted items remain in the Trash folder until the Trash is emptied (or the folder is restored).
 
-### Deleting a Folder From the Folder Details Page
+### Deleting a Folder From the Folder Details Page {#deleting-a-folder-from-the-folder-details-page}
 
 1. Click the **More** (three dot) menu to the right of a folder, then click **View folder details**.  
    You can also click the folder name in the **My folders** list in the left sidebar to access the **Folder details** page.

@@ -123,7 +123,7 @@ You must have the following to perform the steps in this article:
             --></b>: The user needs Manage permissions to the object to be able to edit field values in this section. </li> 
           <li><b>Admin only</b>: Only Workfront administrators can edit field values in this section. </li> 
          </ul> </li> <!--
-         <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Associating multiple object types with your form can impact the viewing and editing permissions you configure for a section in the form. For more information, see <a href="#section" class="MCXref xref">How multiple object types can affect a form's section breaks</a> in this article.</p>
+         <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Associating multiple object types with your form can impact the viewing and editing permissions you configure for a section in the form. For more information, see <a href="#how-multiple-object-types-can-affect-a-form-s-section-breaks" class="MCXref xref">How multiple object types can affect a form's section breaks</a> in this article.</p>
         --> 
        </ul> </td> 
      </tr> 
@@ -209,7 +209,7 @@ and image widgets
 </tbody>
 </table> <note type="note">
 Associating multiple object types with your form can impact the viewing and editing permissions you configure for a section in the form. For more information, see
-<a href="#section" class="MCXref xref">How multiple object types can affect a form's section breaks</a> in this article.
+<a href="#how-multiple-object-types-can-affect-a-form-s-section-breaks" class="MCXref xref">How multiple object types can affect a form's section breaks</a> in this article.
 </note> </li>
 <li value="5"> <p>Click <strong>Done</strong>.</p> <note type="tip">
 You can click
@@ -232,7 +232,7 @@ You can click
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-<h2><a name="Section"></a>How multiple object types can affect a form's section breaks</h2>
+<h2 id="how-multiple-object-types-can-affect-a-form-s-section-breaks"><a name="Section"></a>How multiple object types can affect a form's section breaks</h2>
 <p>Some section break access settings are available only for certain object types. If you add an object type to a custom form that contains a section break, you might be prompted to switch to an access setting for the section break that is compatible with the new object type you are adding as well as the existing object types on the form. </p>
 <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span>
 <p>The Limited Edit permission option is available for the Project, Task, Issue, and User object types; but not for the Portfolio, Program, Document, Company, Billing Record, Iteration, Expense, and Group object types. </p>

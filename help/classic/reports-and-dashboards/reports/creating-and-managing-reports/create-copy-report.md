@@ -52,7 +52,7 @@ If you want to make a copy of a report that you are the owner of, do the followi
    >[!TIP]
    >
    >If the report is a default report, the Copy option does not appear in the Report Actions menu.  
-   >For information on how to create a copy of a default report, see [Create a new version of a report](#saving-default-reports-as-new-reports).
+   >For information on how to create a copy of a default report, see [Create a new version of a report](#create-a-new-version-of-a-report).
 
    ![](assets/classic-select-copy.png)
 
@@ -80,7 +80,7 @@ If you want to make a copy of a report that you are the owner of, do the followi
    
    1. Click **Yes, Delete It** to confirm that you want to delete the report.
 
-## Create a new version of a report
+## Create a new version of a report {#create-a-new-version-of-a-report}
 
 If you want to create a copy of a default report, do the following:
 

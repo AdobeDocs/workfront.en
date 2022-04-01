@@ -46,13 +46,13 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Enable and disable proofing for&nbsp;a user (legacy plans only)
+## Enable and disable proofing for&nbsp;a user (legacy plans only) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 If your organization is using a legacy Select or Premium Workfront Plan, as a Workfront administrator, you can enable and disable proofing functionality for the user.
 
 When you enable proofing for a user, Workfront enables the option for the user's proofs to generate automatically. For more information about this option and how to disable it, see [Configure a user's proofing access](#).&nbsp;
 
-Though you can enable a user as a proofing user, he or she must have Administrator permissions in order to navigate directly to the Workfront Proof interface from the Workfront Main Menu. For information about how you can enable this option for all proofing users in your Workfront system, see [Configure Workfront Proof access via Workfront Main Menu for all users](#configuring-whether-all-users-can-access-proofhq-directly-from-the-workfront-global-nav).
+Though you can enable a user as a proofing user, he or she must have Administrator permissions in order to navigate directly to the Workfront Proof interface from the Workfront Main Menu. For information about how you can enable this option for all proofing users in your Workfront system, see [Configure Workfront Proof access via Workfront Main Menu for all users](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users).
 
 1. In the **Main Menu**, select **Users**.
 
@@ -70,7 +70,7 @@ The permission profile you select is granted to the users for each proof that ex
 
    >[!NOTE]
    >
-   >If you are on a legacy Workfront plan, make sure the **User can generate proofs** option is enabled, as explained above in the section [Enable and disable proofing for a user (legacy plans only)](#enabling-and-disabling-proofing-for-a-user).&nbsp;
+   >If you are on a legacy Workfront plan, make sure the **User can generate proofs** option is enabled, as explained above in the section [Enable and disable proofing for a user (legacy plans only)](#enable-and-disable-proofing-for-a-user-legacy-plans-only).&nbsp;
 
    <table cellspacing="0"> 
     <col> 
@@ -114,7 +114,7 @@ Consider the following information when setting permissions:
 
 * When you change the Workfront Access level to System Administrator, the Proof Permission profile changes to Administrator.
 
-## Configure Workfront Proof access via Workfront Main Menu for all users
+## Configure Workfront Proof access via Workfront Main Menu for all users {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
 
 By default, only users with administrative rights within Workfront can access Workfront Proof as described&nbsp; [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
@@ -122,7 +122,7 @@ You can grant all users access to the Workfront Proof button within the Workfron
 
 >[!IMPORTANT]
 >
->&nbsp;If you plan to allow all Workfront users to access Workfront Proof directly from the Workfront Global Navigation Bar,&nbsp;ensure that the permission profile for each user does not provide more access than the user's access level within Workfront. This prevents users from accessing proofs within Workfront Proof that they cannot access within Workfront. For more information, see [Enable and disable proofing for a user (legacy plans only)](#enabling-and-disabling-proofing-for-a-user).
+>&nbsp;If you plan to allow all Workfront users to access Workfront Proof directly from the Workfront Global Navigation Bar,&nbsp;ensure that the permission profile for each user does not provide more access than the user's access level within Workfront. This prevents users from accessing proofs within Workfront Proof that they cannot access within Workfront. For more information, see [Enable and disable proofing for a user (legacy plans only)](#enable-and-disable-proofing-for-a-user-legacy-plans-only).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="configuring-whether-users-can-access-the-html5-proofing-viewer"></a>Configure user access to Web Proofing Viewer</h2>

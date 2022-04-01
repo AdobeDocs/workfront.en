@@ -72,7 +72,7 @@ You must have the following:
 
 For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## View the Burndown visualization by duration
+## View the Burndown visualization by duration {#view-the-burndown-visualization-by-duration}
 
 1. In the Global Navigation Bar, select **Analytics**.
 
@@ -121,5 +121,5 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) Select a project to open the **Burndown** visualization.
 
-   To learn about the duration view for the Burndown visualization, see [View the Burndown visualization by duration](#view).
+   To learn about the duration view for the Burndown visualization, see [View the Burndown visualization by duration](#view-the-burndown-visualization-by-duration).
 

@@ -46,10 +46,10 @@ You must have the following to perform the steps in this article:
 
 You can update your ADFS metadata prior to Adobe Workfront updating the SAML 2.0 certificate or after. If you choose to update the ADFS metadata prior to Workfront updating the SAML 2.0 certificate, additional steps are required.
 
-* [Update your ADFS metadata](#updating-your-adfs-metadata) 
-* [Force your ADFS metadata to update](#forcing-your-adfst-metadata-to-update)
+* [Update your ADFS metadata](#update-your-adfs-metadata) 
+* [Force your ADFS metadata to update](#force-your-adfs-metadata-to-update)
 
-### Update your ADFS metadata
+### Update your ADFS metadata {#update-your-adfs-metadata}
 
 To set your ADFS metadata to update automatically, complete the steps in this section.
 
@@ -100,7 +100,7 @@ By default, ADFS is configured to automatically check for updates to all of its 
 
    **Event ID 156 and 157**
 
-### Force your ADFS metadata to update
+### Force your ADFS metadata to update {#force-your-adfs-metadata-to-update}
 
 To update your ADFS metadata complete the steps in the following section.
 
@@ -147,6 +147,6 @@ Users who are allowed to access Workfront via the native login screen using Work
 
 When using identity providers other than ADFS (such as Ping, Okta, or Centrify), you must re-upload the Workfront metadata to your identity provider.
 
-For more information about how to obtain a new Workfront Metadata URL, see [Update your ADFS metadata](#updating-your-adfs-metadata).
+For more information about how to obtain a new Workfront Metadata URL, see [Update your ADFS metadata](#update-your-adfs-metadata).
 
 For additional information about using Active Directory Federation Services (ADFS) with SAML 2.0 in Workfront, see [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).

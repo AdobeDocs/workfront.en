@@ -91,9 +91,9 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    ![](assets/from-now-on-350x236.png)
 
-1. Continue to [Task 2: Search for Flow Control and add a Router](#search)
+1. Continue to [Task 2: Search for Flow Control and add a Router](#task-2-search-for-flow-control-and-add-a-router)
 
-## Task 2: Search for Flow Control and add a Router
+## Task 2: Search for Flow Control and add a Router {#task-2-search-for-flow-control-and-add-a-router}
 
 1. Add a router after any module to split or duplicate the data before sending it to the next module.
 

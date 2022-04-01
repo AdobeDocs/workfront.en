@@ -45,7 +45,7 @@ You must have the following to perform the actions in this article:
 
 ## Download a template to Workfront from an existing template
 
-1. Download the zipped XML file from the lists below, by clicking the template name that you want to build. See [Available templates](#avaliability).
+1. Download the zipped XML file from the lists below, by clicking the template name that you want to build. See [Available templates](#available-templates).
 1. Unzip the file on your desktop.
 1. Extract the .xml file from the downloaded .zip file and save it somewhere on your computer. 
 1. In Workfront, go to the **Projects** area in the Global Navigation Bar and select the **Projects** tab.  
@@ -70,16 +70,16 @@ You must have the following to perform the actions in this article:
 1. Select the tasks that you want to exclude from the template. The tasks you select here will not be included in the template. 
 1. Click **Finish and Save Template.**
 
-## Available templates
+## Available templates  {#available-templates}
 
 Various project templates are available, depending on the type of project that you are creating. While the templates in the following sections were created with a specific purpose in mind, a templates can be used for other types of projects.
 
-* [Marketing project templates](#marketing-projects) 
-* [IT project templates](#it-projects) 
-* [Other project templates](#other-projects) 
-* [Workfront implementation templates](#impleme)
+* [Marketing project templates](#marketing-project-templates) 
+* [IT project templates](#it-project-templates) 
+* [Other project templates](#other-project-templates) 
+* [Workfront implementation templates](#workfront-implementation-templates)
 
-### Marketing project templates
+### Marketing project templates {#marketing-project-templates}
 
 The templates in this section include direct mail, events, micro-sites, video, and more. While intended for marketing processes, these templates can be used for other types of projects.
 
@@ -95,7 +95,7 @@ Each template provides industry standard workflow guidelines to get you started 
 * [Video Workflow Template](https://cdn.experience.workfront.com/Documentation/Project+template+examples/Marketing+projects+templates/Video_Workflow_Template.zip) 
 * [Video Commercial Template](https://cdn.experience.workfront.com/Documentation/Project+template+examples/Marketing+projects+templates/Video_Commercial_Template.zip)
 
-### IT project templates
+### IT project templates {#it-project-templates}
 
 * [IT: Disaster Recovery](https://cdn.experience.workfront.com/Documentation/Project+template+examples/IT+projects+templates/Disaster_Recovery.zip)   
   This template outlines the activities that an IT team would need to complete as part of a Disaster Recovery project.
@@ -121,7 +121,7 @@ Each template provides industry standard workflow guidelines to get you started 
   This Software Development Lifecycle (SDLC) template was created for a customer who followed a traditional waterfall methodology for their development processes.  
   The template features parent tasks that represent the major phases of the project. The names used to describe their phases are: Initiation, Planning, Construction, Testing, Deploy, and Close.
 
-### Other project templates
+### Other project templates {#other-project-templates}
 
 The templates in this section range from suggested Workfront implementation schedules to software development life cycles to industry-specific workflows across a number of verticals.​
 
@@ -138,7 +138,7 @@ The templates in this section range from suggested Workfront implementation sche
 * [ [Six Sigma: DMAIC Project (Simplified)](https://cdn.experience.workfront.com/Documentation/Project+template+examples/Other+project+templates/Six_Sigma_DMAIC_Project__Simplified_v.1_.xml_.zip)](https://documentation.my.workfront.com/library/a/ccdf54f2-2562-4525-9fc0-8377768b9f21)   
   This is a Simplified version of a Six Sigma DMAIC Project.
 
-### Workfront implementation templates
+### Workfront implementation templates {#workfront-implementation-templates}
 
 The following project plans were developed specifically to assist new Workfront customers in understanding the steps they must follow in order to implement Workfront. Each plan corresponds to the activities Workfront is committed to perform as part of each of our standard implementation programs.
 

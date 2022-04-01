@@ -67,7 +67,9 @@ You must have the following before you can start:
 
 * Closing goals locks in its progress and allows you to rate how well you did in accomplishing it.
 
-  ``` ```**Warning: **``````When closing a goal that has active contributing goals, its progress changes after closing to indicate the progress of the contributing active goals. For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  >[!CAUTION]
+  >
+  >When closing a goal that has active contributing goals, its progress changes after closing to indicate the progress of the contributing active goals. For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 * Closing a goal removes it from your Check-in page, as you will no longer be responsible for updating the progress.
 * Check in on your goal to update its progress indicators before you close the goal to ensure the goal closes with an accurate progress value. If all progress indicators have been achieved then the goal percent complete should be 100% and your goal has been achieved. For information about checking in on your goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).

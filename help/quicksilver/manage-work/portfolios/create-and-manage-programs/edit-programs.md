@@ -95,11 +95,11 @@ You must have the following access to perform the steps in this article:
 
 1. Consider specifying information in any of the following sections:
 
-   * [Overview](#issue)
-   * [Custom Forms](#custom%c2%a0f)
+   * [Overview](#overview)
+   * [Custom Forms](#Custom%C2%A0F)
    * [Comment](#comment)
 
-### Overview
+### Overview {#overview}
 
 1. Begin editing a program as described above.
 1. Click **Overview** and specify the following fields:
@@ -160,7 +160,7 @@ You must have the following access to perform the steps in this article:
 
 1. Update any fields in the custom forms, then click **Save Changes** or continue with the following section.
 
-### Comment
+### Comment {#comment}
 
 1. Begin editing a program as described above.
 1. Click&nbsp;**Comment**.

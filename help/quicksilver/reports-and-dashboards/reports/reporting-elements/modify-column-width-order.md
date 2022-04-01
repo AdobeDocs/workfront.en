@@ -39,7 +39,7 @@ The following are guidelines about how column widths work in Adobe Workfront:
 
 * You can customize the width of the columns in your Workfront lists and reports to match your needs, depending on what kind of information you want to display in columns.
 
-  You can modify the width of columns temporarily, while viewing a list or report, or permanently, by adjusting the width of the column in the view builder. For information about modifying the width of columns temporarily, see the [Considerations when temporarily modifying the width and order of columns](#consider) section in this article.
+  You can modify the width of columns temporarily, while viewing a list or report, or permanently, by adjusting the width of the column in the view builder. For information about modifying the width of columns temporarily, see the [Considerations when temporarily modifying the width and order of columns](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) section in this article.
 
 * Columns that appear in built-in views have widths previously defined by Workfront that are hard coded. To modify these widths, you must manually update the width of these columns using text mode in the view builder.
 
@@ -78,20 +78,20 @@ You must have the following access to perform the steps in this article:
 
 You can modify the width and order of the columns in your reports in the following ways:
 
-* [Modify width and order of columns temporarily](#temporarily-modifying-width-and-order) 
-* [Modify width and order of columns permanently](#permanently-modifying-width-and-order)
+* [Modify width and order of columns temporarily](#modify-width-and-order-of-columns-temporarily) 
+* [Modify width and order of columns permanently](#modify-width-and-order-of-columns-permanently)
 
-### Modify width and order of columns temporarily
+### Modify width and order of columns temporarily {#modify-width-and-order-of-columns-temporarily}
 
 You can drag column borders to resize columns and drag and drop columns to temporarily reorder them in most lists throughout the Workfront site. This includes reports, views, reports on dashboards, and the Gantt view.
 
 For more information about Workfront lists, see the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* [Considerations when temporarily modifying the width and order of columns](#consider) 
-* [Resize columns temporarily](#resizing-columns) 
-* [Reorder columns temporarily](#reordering-columns)
+* [Considerations when temporarily modifying the width and order of columns](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) 
+* [Resize columns temporarily](#resize-columns-temporarily) 
+* [Reorder columns temporarily](#reorder-columns-temporarily)
 
-#### Considerations when temporarily modifying the width and order of columns
+#### Considerations when temporarily modifying the width and order of columns {#considerations-when-temporarily-modifying-the-width-and-order-of-columns}
 
 You can temporarily modify the width and order of columns in a list without editing its view.
 
@@ -116,13 +116,13 @@ Consider the following when temporarily resizing and ordering columns:
 
 For more information about exporting data from lists and reports, see the article [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-#### Resize columns temporarily
+#### Resize columns temporarily {#resize-columns-temporarily}
 
 1. Go to the list that you want to modify.
 1. Drag the border of a column until the column reaches the desired size.  
    ![](assets/column-resize-350x124.png)<![CDATA[      ]]>
 
-#### Reorder columns temporarily
+#### Reorder columns temporarily {#reorder-columns-temporarily}
 
 1. Go to the list you want to modify. 
 1. Click a column you want to move to another location to pick the column. 
@@ -135,7 +135,7 @@ For more information about exporting data from lists and reports, see the articl
 >
 >This is especially useful when viewing the Gantt chart and the list view simultaneously. When viewing the Gantt chart, columns can become hidden. To view a column while the Gantt chart is displayed, simply drag the column that you want to view so that it is displayed on the left side of the page.
 
-### Modify width and order of columns permanently
+### Modify width and order of columns permanently {#modify-width-and-order-of-columns-permanently}
 
 To permanently reorder columns, see the section [Create or customize a standard view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) in the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 

@@ -204,7 +204,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 </table>
 <p>For information about Workfront objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p>
 </div>
-<h2><a name="Create"></a>Create or edit a filter  in the standard builder </h2>
+<h2 id="create-or-edit-a-filter-in-the-standard-builder"><a name="Create"></a>Create or edit a filter  in the standard builder </h2>
 <div>
 <p>You can create filters in lists and reports in the following ways:</p>
 <ul>
@@ -274,7 +274,7 @@ The report creator must allow for filters to be edited in order to view the&nbsp
 <p>The following scenario exists: </p>
 <ol>
 <li value="1"> <p>Use the beta builder to create a filter that has the following syntax:</p> <p><code>(A OR&nbsp;B) AND&nbsp;C</code> </p> </li>
-<li value="2"> <p>Switch back to the standard builder and edit the filter using the syntax of the standard builder as described in the <a href="#create" class="MCXref xref">Create or edit a filter in the standard builder</a> section in this article. The syntax for the standard builder displays the filter statements as follows:</p>
+<li value="2"> <p>Switch back to the standard builder and edit the filter using the syntax of the standard builder as described in the <a href="#create-or-edit-a-filter-in-the-standard-builder" class="MCXref xref">Create or edit a filter in the standard builder</a> section in this article. The syntax for the standard builder displays the filter statements as follows:</p>
 <div>
 <pre>A AND C</pre>
 <pre>OR</pre>
@@ -361,7 +361,9 @@ Depending on what modifier you selected, you can select multiple values.
 <li value="12"> <p>(Optional)&nbsp;Click <strong>Text mode</strong> to continue building the filter using text mode. </p> <p> <img src="assets/text-mode-option-create-filter-nwe-350x253.png" style="width: 350;height: 253;"> </p> <p>The text mode interface opens. </p> <p> <img src="assets/text-mode-interface-for-beta-filters-nwe-350x324.png" style="width: 350;height: 324;"> </p> <note type="tip">
 We recommend building as much of the filter as possible using the beta builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
 </note> <p>For more information about creating a filter using the text mode interface, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>. </p> </li>
-<li value="13"> <p>(Optional) Click <strong>Exit text mode</strong> to return to the beta builder interface. </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>Some text mode statements are not supported in the beta builder or the standard interface. Exiting text mode when you have created these types of statements might generate a warning message. </p> </li>
+<li value="13"> <p>(Optional) Click <strong>Exit text mode</strong> to return to the beta builder interface. </p> <note type="warning">
+Some text mode statements are not supported in the beta builder or the standard interface. Exiting text mode when you have created these types of statements might generate a warning message.
+</note> </li>
 <li value="14"> <p>(Optional)&nbsp;Click <strong>Apply</strong> to apply the filter to the list and see the results.</p> <p>The number of filter statements including filter groups that you selected displays next to the filter icon at the top of the list.</p> <p> <img src="assets/new-filters-number-of-filters-selected-wb-nwe.png"> </p> </li>
 <li value="15"> <p>Click&nbsp;<strong>Save as new</strong> to save the filter for future use. </p> <p> <img src="assets/save-as-untitled-filter-ui-nwe-350x348.png" style="width: 350;height: 348;"> </p> </li>
 <li value="16"> <p>Select <strong>Untitled Filter</strong> and enter the name of the new filter instead. </p> </li>

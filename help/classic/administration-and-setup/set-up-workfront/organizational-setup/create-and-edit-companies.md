@@ -50,7 +50,7 @@ You must have the following in order to manage companies in Workfront:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Benefits of adding users to a company
+## Benefits of adding users to a company {#benefits-of-adding-users-to-a-company}
 
 * You can build a company's organization chart by associating users with direct reports. Only users from the same company can be added as direct reports of another user from that company.
 * As a project manager, you can identify available resources within the same company.
@@ -66,7 +66,7 @@ You must have the following in order to manage companies in Workfront:
    * You can restrict users to only see users in their company or their company and the primary company. For information about the primary company functionality regarding user privacy, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    * Users can restrict updates they make on items to be visible by their company users only. For more information about making an update private to a company, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-## Create or edit a company in Workfront
+## Create or edit a company in Workfront {#create-or-edit-a-company-in-workfront}
 
 There is no limit to the number of companies you can add. However, we recommend that limit the number of companies you use because of problems that can occur with object permissions—too much fragmentation might interfere with users' visibility to work items.
 
@@ -99,7 +99,7 @@ To add or edit a company:
           <li>Only in their primary company</li> 
           <li> <p>In their associated company and the primary company<br></p> <p>For information about the primary company functionality within users' access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p>You can have only one or no company designated as a primary company, but you cannot have multiple companies designated as primary companies. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 
          </ul> </li> 
-        <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> <p>Important: If you don’t associate the group that will be working with this company, administrators for the group can’t access unless they have administrative access to companies in their access level. For information about how this access is granted, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Start typing the name of the group, then press <strong>Enter</strong> when it appears.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">When you assign a group to a company, the group administrators for the group gain Manage access to the company. For more information, see <a href="#access" class="MCXref xref">Group administrators and companies</a> in this article.</p> </li> 
+        <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> <p>Important: If you don’t associate the group that will be working with this company, administrators for the group can’t access unless they have administrative access to companies in their access level. For information about how this access is granted, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Start typing the name of the group, then press <strong>Enter</strong> when it appears.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">When you assign a group to a company, the group administrators for the group gain Manage access to the company. For more information, see <a href="#group-administrators-and-companies" class="MCXref xref">Group administrators and companies</a> in this article.</p> </li> 
         <li> <p><b>Company Members</b>: Add existing users to the company. By doing this, you are associating these users with this company.</p> <p>There is no limit to how many users you associate with one company, but a user cannot be associated with more than one company.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -124,13 +124,13 @@ To add or edit a company:
 
 ## About sharing objects with companies
 
-Certain permissions are available to users who are associated with a company, as explained in the section [Benefits of adding users to a company](#benefits) in the article [Create and edit companies](#). In addition to these permissions, you can allow users permissions to view, contribute, or edit objects in Workfront by sharing the object with their company.
+Certain permissions are available to users who are associated with a company, as explained in the section [Benefits of adding users to a company](#benefits-of-adding-users-to-a-company) in the article [Create and edit companies](#). In addition to these permissions, you can allow users permissions to view, contribute, or edit objects in Workfront by sharing the object with their company.
 
 Rather than sharing an object with one individual user at a time, you can share it with their entire company. Each user in the company has the same permissions on that object.
 
 For more information about sharing objects, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-## Group administrators and companies
+## Group administrators and companies {#group-administrators-and-companies}
 
 When a Workfront administrator assigns a group to a company, the group administrators for the group gain Manage access to the company in Setup. This includes access to the Companies page in Setup, where they can see and manage the company associated with their group.
 
@@ -140,4 +140,4 @@ With this access to the Companies page, a group administrator can assign a group
 
 For information about how users gain administrative access to companies in their access level, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-For information about managing a company in the Setup area, see [Create or edit a company in Workfront](#adding-a-company-to-workfront) in this article.
+For information about managing a company in the Setup area, see [Create or edit a company in Workfront](#create-or-edit-a-company-in-workfront) in this article.

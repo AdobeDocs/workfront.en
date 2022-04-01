@@ -61,9 +61,9 @@ You must have the following access to use the functionality in this article:
 
 To use Datadog modules, you must have a Datadog account.
 
-## Connect Datadog to Workfront Fusion
+## Connect Datadog to Workfront Fusion {#connect-datadog-to-workfront-fusion}
 
-### Retrieve your API key and application key
+### Retrieve your API key and application key {#retrieve-your-api-key-and-application-key}
 
 To connect your Datadog account to Workfront Fusion you need to retrieve an API Key and an application key from your Datadog account.
 
@@ -101,11 +101,11 @@ You can create a connection to your Datadog account directly from inside a Datad
      </tr> 
      <tr> 
       <td role="rowheader">API Key</td> 
-      <td> <p> Enter your Datadog API key. </p> <p>For instructions on retrieving the API key, see <a href="#retrieve" class="MCXref xref">Retrieve your API key and application key</a> in this article.</p> </td> 
+      <td> <p> Enter your Datadog API key. </p> <p>For instructions on retrieving the API key, see <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Retrieve your API key and application key</a> in this article.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Application Key</td> 
-      <td> <p> Enter your Datadog application key. </p> <p>For instructions on retrieving the application key, see <a href="#retrieve" class="MCXref xref">Retrieve your API key and application key</a> in this article.</p> </td> 
+      <td> <p> Enter your Datadog application key. </p> <p>For instructions on retrieving the application key, see <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Retrieve your API key and application key</a> in this article.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -122,10 +122,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
-* [Post Timeseries Points](#post) 
-* [Make an API Call](#make)
+* [Post Timeseries Points](#post-timeseries-points) 
+* [Make an API Call](#make-an-api-call)
 
-#### Post Timeseries Points
+#### Post Timeseries Points {#post-timeseries-points}
 
 The module allows you to post time-series data that can be graphed on Datadog’s dashboards.
 
@@ -137,7 +137,7 @@ The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Series</td> 
@@ -153,7 +153,7 @@ The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (
  </tbody> 
 </table>
 
-#### Make an API Call
+#### Make an API Call {#make-an-api-call}
 
 This action module allows you to perform a custom API call.
 
@@ -163,7 +163,7 @@ This action module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 

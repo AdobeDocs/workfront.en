@@ -341,9 +341,9 @@ or edit its properties in a custom form
    </MadCap:conditionalText>
    -->
 
-   s you need that have not yet been created for your organization, as explained in [Add or edit an image widget in a custom form](#create) in this article.
+   s you need that have not yet been created for your organization, as explained in [Add or edit an image widget in a custom form](#Create) in this article.
 
-1. If you want to add a new custom field to the form, continue on to [Add or edit an image widget in a custom form](#create) in this article.
+1. If you want to add a new custom field to the form, continue on to [Add or edit an image widget in a custom form](#Create) in this article.
 
    Or
 

@@ -26,23 +26,23 @@ When adding or modifying features in the Queue Setup area, you&nbsp;impact all f
 
 To customize the Queue Setup tab of a project, you can edit the following subtabs :
 
-* Queue Details. For more information about understanding the information included in the Queue Details, see the section [Overview of the Queue Details subtab](#understanding-queue-details-tab) in this article.
+* Queue Details. For more information about understanding the information included in the Queue Details, see the section [Overview of the Queue Details subtab](#overview-of-the-queue-details-subtab) in this article.
 * Routing Rules. For more information about setting up Routing Rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 * Queue Topics. For more information about setting up Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 * Topic Groups. For more information about setting up Topics Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-## Overview of the Queue Details subtab
+## Overview of the Queue Details subtab {#overview-of-the-queue-details-subtab}
 
 You can use Queue Details to configure a project as a Request Queue. Use this&nbsp;tab to manage what kind of information you collect from users on a request form and determine who can access that information.
 
 When configuring the Queue Details &nbsp;tab  in a project, consider the following areas:
 
-* [Queue Type](#understanding-queue-type) 
-* [Queue Properties](#understanding-queue-properties) 
-* [New Issue Fields](#understanding-new-issue-fields) 
-* [Email Settings](#understanding-email-settings)
+* [Queue Type](#queue-type) 
+* [Queue Properties](#queue-properties) 
+* [New Issue Fields](#new-issue-fields) 
+* [Email Settings](#email-settings)
 
-### Queue Type
+### Queue Type {#queue-type}
 
 **Publish as Help Request Queue:**
 
@@ -107,7 +107,7 @@ You can adjust various aspects of how the embedded&nbsp;form is displayed, as fo
 
 ![](assets/queue-type-350x246.png)
 
-### Queue Properties
+### Queue Properties {#queue-properties}
 
 Consider the following settings in the Queue&nbsp;Properties area:
 
@@ -145,7 +145,7 @@ When&nbsp;an organization uses approval processes with incoming work, the user c
 It&nbsp;comes from Routing Rules that have already been setup on the project. Use this field to attach a Routing Rule or change the route when necessary. Choosing a Routing Rule here applies the same routing to all the issues submitted on this project. For information about creating Routing Rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).  
 ![](assets/queue-properties-350x315.png)
 
-### New Issue Fields
+### New Issue Fields {#new-issue-fields}
 
 Predefined fields are available on the&nbsp;form. By default, Issue Name shows on all forms.
 
@@ -170,7 +170,7 @@ You can give the following sets of users access to view the fields you selected:
 The drop-down list for the custom&nbsp;forms displays all available custom forms for projects and issues.&nbsp; You must create a custom form before you can select it in this list. If there are no custom forms in Workfront, nothing displays in the drop-down list. To learn how to create custom forms, please refer to [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).  
 ![](assets/queueproperties-details2-350x174.png)
 
-### Email Settings
+### Email Settings {#email-settings}
 
 You&nbsp;can allow issues to be added via email.&nbsp;This enables&nbsp;anyone with a valid Workfront account to send requests using email.
 

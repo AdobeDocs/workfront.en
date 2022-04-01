@@ -11,7 +11,7 @@ description: As an Adobe Workfront administrator, you can configure system-wide 
 
 As an Adobe Workfront administrator, you can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in Workfront.
 
-By default, these preferences are locked and group administrators cannot modify them at the group level unless you unlock them for all groups throughout the system. For more information, see the section [Lock task and issue preferences for groups](#lock) in this article.
+By default, these preferences are locked and group administrators cannot modify them at the group level unless you unlock them for all groups throughout the system. For more information, see the section [Lock task and issue preferences for groups](#lock-task-and-issue-preferences-for-groups) in this article.
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SPLIT&nbsp;OUT&nbsp;BOTTOM SECTION TO NEW ARTICLE?</p>
@@ -55,12 +55,12 @@ You must have the following to perform the steps in this article:
 * [Actual Dates](#actual-dates)
 
   <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work" class="MCXref xref">Work On It</a> </li>
+  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
   -->
 
 * [Access](#access)
 
-### New Task Defaults
+### New Task Defaults {#new-task-defaults}
 
 <table cellspacing="0"> 
  <col> 
@@ -85,7 +85,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-### Issues
+### Issues {#issues}
 
 <table cellspacing="0"> 
  <col> 
@@ -130,7 +130,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-### Deletion
+### Deletion {#deletion}
 
 **Allow users to delete tasks & issues with logged hours**: Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.
 
@@ -146,7 +146,7 @@ You must have the following to perform the steps in this article:
 
 * ```When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours``` ``` ```, or when you delete a project with hours logged for its tasks or``` ```issues`````` ```.``` The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues ```, or projects that have hours logged for tasks and issues``` cannot be deleted.
 
-### Actual Dates
+### Actual Dates {#actual-dates}
 
 <table cellspacing="0"> 
  <col> 
@@ -173,7 +173,7 @@ You must have the following to perform the steps in this article:
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3><a name="Work"></a>Work On It</h3>
+<h3 id="work-on-it"><a name="Work"></a>Work On It</h3>
 <p>You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.</p>
 <p>Workfront's default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.</p>
 <p>To switch to the Start button:</p>
@@ -197,7 +197,7 @@ You must have the following to perform the steps in this article:
 </div>
 -->
 
-### Access
+### Access {#access}
 
 <table cellspacing="0"> 
  <col> 
@@ -230,7 +230,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-## Lock task and issue preferences for groups
+## Lock task and issue preferences for groups {#lock-task-and-issue-preferences-for-groups}
 
 If groups in your organization need a task or issue preference configured differently for their unique workflows, you can unlock the preference for all groups throughout the organization so that they can configure it on their own. When a preference is unlocked and the group administrator modifies it, the tasks or issues associated with the group are affected by the group-level setting for the preference instead of the system-level setting.
 

@@ -41,7 +41,7 @@ You must have the following to perform the steps in this article:
 
 ## Create a top-level group from scratch
 
-These steps explain how to create a new group from scratch. For information about creating a group or subgroup by copying an existing one, see [Create a top-level group by copying an existing group or subgroup](#copying-an-existing-group-and-sub-group) in this article.
+These steps explain how to create a new group from scratch. For information about creating a group or subgroup by copying an existing one, see [Create a top-level group by copying an existing group or subgroup](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in this article.
 
 You must be a Workfront administrator to create a top-level group.
 
@@ -117,7 +117,7 @@ You must be a Workfront administrator to create a top-level group.
 
 1. Click **Create Group**.
 
-## Create a top-level group by copying an existing group or subgroup
+## Create a top-level group by copying an existing group or subgroup {#create-a-top-level-group-by-copying-an-existing-group-or-subgroup}
 
 As a Workfront administrator, you can create a new top-level group by copying an existing group or subgroup.
 

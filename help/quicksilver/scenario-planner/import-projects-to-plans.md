@@ -50,14 +50,14 @@ You must have the following:
 * You can import the same project into multiple plans. 
 * The projects you want to import must have dates included in the time frame of your plan. You cannot import projects with a Planned Completion Date earlier than the start of the plan or a Planned Start Date later than the end of the plan. 
 * You cannot import more than 100 projects at a time. 
-* Some project information is also imported into the plan and becomes initiative information. For information about what project information is imported into the plan and becomes initiative information, see the [Project information imported into the plan](#project) section in this article. 
+* Some project information is also imported into the plan and becomes initiative information. For information about what project information is imported into the plan and becomes initiative information, see the [Project information imported into the plan](#project-information-imported-into-the-plan) section in this article. 
 * Changes that occur on the linked projects do not affect the initiatives on the plan. 
 * Changes that occur on the initiatives on the plan do not automatically affect the linked projects ```Initiative changes affect the linked projects only when you publish the initiative from the plan.``` ```For information about how publishing initiatives affects the linked projects, see``` ``` [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)```. 
 
 * Deleting an initiative that has been created by importing a project does not delete the project. 
 * Deleting a project linked to an initiative does not delete the initiative.
 
-## Project information imported into the plan
+## Project information imported into the plan {#project-information-imported-into-the-plan}
 
 When you import a project into a plan some project information is also imported into the plan and it becomes initiative information. The following table shows what project information becomes initiative information when you import a project into a plan: 
 

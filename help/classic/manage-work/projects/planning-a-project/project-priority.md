@@ -46,7 +46,7 @@ The following are types of priorities you can use to rank projects in Adobe Work
 
 * **The Project Priority field**: You can manually assign a Priority to a project.
 
-  For more information about the Project Priority field, see the section [Considerations about project Priority](#consider) in this article.
+  For more information about the Project Priority field, see the section [Considerations about project Priority](#considerations-about-project-priority) in this article.
 
 * **The priority of a project in the Portfolio Optimizer**, if the project is associated with a portfolio:&nbsp;
 
@@ -58,7 +58,7 @@ The following are types of priorities you can use to rank projects in Adobe Work
 
 ##
 
-## Considerations about project Priority
+## Considerations about project Priority {#considerations-about-project-priority}
 
 You can associate a Priority with projects in Workfront. Tasks and issues also have Priorities.&nbsp;Indicating a priority for the project communicates to everyone in the system how important that project is.
 

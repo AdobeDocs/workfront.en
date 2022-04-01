@@ -12,10 +12,10 @@ This article lists the in-app notifications you can receive. In-app notification
 
 For instructions on how to view and manage these notifications, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-* [Announcement notifications](#announce) 
-* [Work item notifications](#work2)
+* [Announcement notifications](#announcement-notifications) 
+* [Work item notifications](#work-item-notifications)
 
-## Announcement notifications
+## Announcement notifications {#announcement-notifications}
 
 ```<li>Announcements come in one of two ways:</li>```
 
@@ -28,7 +28,7 @@ In both cases, when the administrator or user clicks the numbered icon ![](asset
 
 For information about the Announcements page, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-## Work item notifications
+## Work item notifications {#work-item-notifications}
 
 When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications, the subject line of the work item message displays with an icon and brief description to identify what it's about. The icon and description types are listed below.
 
@@ -38,16 +38,16 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 >
 >In-app notifications for work activities&nbsp;are not tied to email notifications in Workfront. For more information, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
-* [Approvals](#approval) 
+* [Approvals](#approvals) 
 * [Requests](#requests) 
-* [Assignments](#assignme) 
+* [Assignments](#assignments) 
 * [Comments](#comments) 
 * [Updates](#updates) 
-* [Date changes](#date) 
+* [Date changes](#date-changes) 
 * [Share](#share) 
-* [Other](#error)
+* [Other](#other)
 
-### **Approvals**
+### **Approvals** {#approvals}
 
 * ![](assets/prjneedsapprvl.png)
 
@@ -90,7 +90,8 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 
   Document approval request cancelled - [sender's name]
 
-### **Requests**
+### **Requests** 
+{#requests}
 
 * ![](assets/document.png)
 
@@ -106,7 +107,7 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 
   The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
 
-### **Assignments**
+### **Assignments** {#assignments}
 
 * ![](assets/icon-taskassngdtoyou.png) Task assigned to you - [assigner's name]
 * ![](assets/issue.png) Issue assigned to you - [assigner's name]
@@ -118,7 +119,8 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
    * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
    * If you assign work to yourself or a team you belong to, you will not receive a notification.
 
-### **Comments**
+### **Comments** 
+{#comments}
 
 * ![](assets/user.png) [Object name] comment - [commenter's name]
 
@@ -138,20 +140,23 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 * ![](assets/user.png) Comment - Commenter name
 * ![](assets/timesheet.png) Timesheet comment - Commenter name
 
-### **Updates**
+### **Updates** 
+{#updates}
 
 * ![](assets/user.png) Tagged you in a comment - [tagger's name]
 * ![](assets/user.png) Tagged your team in a comment - [tagger's name]
 * ![](assets/user.png) Tagged your team in a comment - [tagger's name]
 
-### **Date changes**
+### **Date changes** 
+{#date-changes}
 
 * ![](assets/issue.png) Issue due date changed - [changer's name]
 * ![](assets/icon-taskassngdtoyou.png) Task due date changed - [changer's name]
 * ![](assets/issue.png) Issue commit date changed - [changer's name]
 * ![](assets/icon-taskassngdtoyou.png) Task commit date changed - [changer's name]
 
-### **Share**
+### **Share** 
+{#share}
 
 * ![](assets/document.png)
 
@@ -161,7 +166,8 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
   Document shared with [team name] - [sharer's name]
 * ![](assets/proof.png) Proof shared with you - [sharer's name]
 
-### **Other**
+### **Other** 
+{#other}
 
 * ![](assets/error.png) An error needs your attention
 * ![](assets/announcement.png) Announcement - [Workfront administrator's name]

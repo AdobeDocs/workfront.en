@@ -75,7 +75,9 @@ You must have the following:
 
 1. Modify a number of fields for the work item, enter an update, or you navigate from here to other areas of Workfront to add documents or other information to the work item.
 
-   ``` ```**Warning: **``````Navigating from the Summary to the Substasks section to add subtasks removes the original task, because parent tasks do not display in the Workload Balancer.
+   >[!CAUTION]
+   >
+   >Navigating from the Summary to the Substasks section to add subtasks removes the original task, because parent tasks do not display in the Workload Balancer.
 
    For more information about updating information using the Summary, see [Summary overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

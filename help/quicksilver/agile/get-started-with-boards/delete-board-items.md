@@ -45,13 +45,13 @@ You must have the following access to perform the steps in this article:
 1. Access the board.
 1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Archive**.
 
-   Archived cards are hidden from the board unless you apply a filter to display them. For more information, see [Filter a board to show archived cards](#filter) in this article.
+   Archived cards are hidden from the board unless you apply a filter to display them. For more information, see [Filter a board to show archived cards](#filter-a-board-to-show-archived-cards) in this article.
 
    An Archive icon ![Archive](assets/archive-icon-spectrum-25x20.png) appears on archived cards. You can't edit an archived card.
 
 1. To restore an archived card, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card and select **Restore**.
 
-## Filter a board to show archived cards
+## Filter a board to show archived cards {#filter-a-board-to-show-archived-cards}
 
 By default, only active cards are displayed on a board. You can filter the board to also display any archived cards.
 

@@ -54,9 +54,9 @@ For example, if you enter the word "map" in a search query, you get the followin
 * Content associated with the keyword "map"
 * Content with the word "map" in its taxonomy
 
-Content with metadata that contain "maps" (plural) are not included in the search results because they are not an exact match. You can use operators to refine your search returns and filters to narrow the results. For more information, see [Use search operators to refine a search](#use).
+Content with metadata that contain "maps" (plural) are not included in the search results because they are not an exact match. You can use operators to refine your search returns and filters to narrow the results. For more information, see [Use search operators to refine a search](#use-search-operators-to-refine-a-search).
 
-## Use search operators to refine a search
+## Use search operators to refine a search {#use-search-operators-to-refine-a-search}
 
 You can expand or refine your search in Workfront Library or in a portal by using search operators.
 

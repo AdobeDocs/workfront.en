@@ -65,7 +65,7 @@ For more information about building a report using the text mode interface, see:
 * [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 * [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 
-## Find collection objects and their fields in the API Explorer
+## Find collection objects and their fields in the API Explorer {#find-collection-objects-and-their-fields-in-the-api-explorer}
 
 Not all collections can be reported on.
 
@@ -105,11 +105,11 @@ You cannot reference objects from a collection in the following reporting elemen
 
 For example, you could reference the task or issue collections from a project report, to show task or issue information&nbsp;at the project level.
 
-* [Reference a collection in the View of a report](#referencing-a-collection-in-the-view) 
-* [Reference a collection in the Filter of a report](#referencing-a-collection-in-a-filter) 
-* [Reference a collection in the custom prompt of a report](#referencing-a-collection-in-the-custom-prompt)
+* [Reference a collection in the View of a report](#reference-a-collection-in-the-view-of-a-report) 
+* [Reference a collection in the Filter of a report](#reference-a-collection-in-the-filter-of-a-report) 
+* [Reference a collection in the custom prompt of a report](#reference-a-collection-in-the-custom-prompt-of-a-report)
 
-### Reference a collection in the View of a report
+### Reference a collection in the View of a report {#reference-a-collection-in-the-view-of-a-report}
 
 You can reference a collection of objects in the view of a report, to show attributes of objects associated with the object of the report.
 
@@ -120,11 +120,11 @@ You can display information about the tasks or issues, like names, dates, primar
 The view displays task or issue information in a list format, with every line of the list representing information about a task or an issue. The list of tasks or issues and their fields appears on the same line as the project the tasks or issues belong to.  
 ![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
 
-* [Add a collection column in a report View](#adding-a-collection-column-in-a-report) 
-* [Understand the lines of a collection View in Text Mode](#understanding-the-lines-of-a-collection-view-in-text-mode) 
+* [Add a collection column in a report View](#add-a-collection-column-in-a-report-view) 
+* [Understand the lines of a collection View in Text Mode](#understand-the-lines-of-a-collection-view-in-text-mode) 
 * [Limitations of a collection View](#limitations-of-a-collection-view)
 
-#### **Add a collection column in a report View**
+#### **Add a collection column in a report View** {#add-a-collection-column-in-a-report-view}
 
 To add a collection column in a report view:
 
@@ -132,11 +132,11 @@ To add a collection column in a report view:
 1. Click **New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.  
-   For more information about selecting the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#finding-collection-objects-and-their-fields-in-the-api) in this article.  
+   For more information about selecting the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
    Make a note of what the name of the object for the collection is.  
 
 1. Using the&nbsp; [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.  
-   For more information about finding the fields of the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#finding-collection-objects-and-their-fields-in-the-api) in this article.  
+   For more information about finding the fields of the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
    Make a note of what the name of the field you want to display in the collection is. 
 
 1. Navigate back to your report, and in the **Columns (View)** tab, click **Add Column**. 
@@ -214,7 +214,7 @@ To add a collection column in a report view:
 
    Click **Save + Close** to save the report.
 
-#### **Understand the lines of a collection View in Text Mode**
+#### **Understand the lines of a collection View in Text Mode** {#understand-the-lines-of-a-collection-view-in-text-mode}
 
 The lines in a text mode view for a collection are outlined in the following table: 
 
@@ -264,7 +264,7 @@ The lines in a text mode view for a collection are outlined in the following tab
  </tbody> 
 </table>
 
-#### **Limitations of a collection View**
+#### **Limitations of a collection View** {#limitations-of-a-collection-view}
 
 Consider the&nbsp;following limitations when you are building a collection view:
 
@@ -274,7 +274,7 @@ Consider the&nbsp;following limitations when you are building a collection view:
 * You cannot build a collection view of another collection.  
   For example, you cannot display all the assignees on each task in a project report. You can only display the primary assignee on each task in a project view.
 
-### Reference a collection in the Filter of a report
+### Reference a collection in the Filter of a report {#reference-a-collection-in-the-filter-of-a-report}
 
 You can reference a collection of objects in the filter&nbsp;of a report, to filter for the&nbsp;attributes of objects associated with the object of the report.
 
@@ -286,11 +286,11 @@ To add a reference to a collection&nbsp;in a report filter:
 1. Click&nbsp;**New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.  
-   For more information about selecting the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#finding-collection-objects-and-their-fields-in-the-api) in this article.  
+   For more information about selecting the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
    Make a note of what the name of the object for the collection is.  
 
 1. Using the&nbsp; [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.  
-   For more information about finding the fields of the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#finding-collection-objects-and-their-fields-in-the-api) in this article.  
+   For more information about finding the fields of the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
    Make a note of the field you want to display in the collection. 
 
 1. Navigate back to your report, and in the **Filters**&nbsp;tab, click&nbsp;**Switch to Text Mode**.
@@ -322,7 +322,7 @@ issues:name_Mod=cicontains</pre>
 
    Click&nbsp;**Save + Close**to save the report.
 
-### Reference a collection in the custom prompt of a report
+### Reference a collection in the custom prompt of a report {#reference-a-collection-in-the-custom-prompt-of-a-report}
 
 You can reference a collection of objects in the custom prompt&nbsp;of a report, to&nbsp;filter the results of the report for the&nbsp;attributes of objects associated with the object of the report.
 
@@ -334,14 +334,14 @@ For example, you can prompt&nbsp;for task information in a project report by usi
 
 A custom prompt is a custom filter where the statements are joined by&nbsp;ampersand symbols. We recommend that you build your statement in a filter, first, then join the lines of the statements with ampersands.
 
-For more information about building a filter statement with a collection reference, see the section [Reference a collection in the Filter of a report](#referencing-a-collection-in-a-filter) in this article.
+For more information about building a filter statement with a collection reference, see the section [Reference a collection in the Filter of a report](#reference-a-collection-in-the-filter-of-a-report) in this article.
 
 To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
 
 1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**.
 1. Click&nbsp;**New Report**.
 1. Select the object of your report.
-1. Build a filter with a collection reference as described in&nbsp;the section [Reference a collection in the Filter of a report](#referencing-a-collection-in-a-filter) in this article.
+1. Build a filter with a collection reference as described in&nbsp;the section [Reference a collection in the Filter of a report](#reference-a-collection-in-the-filter-of-a-report) in this article.
 1. Click **Report Settings**.
 1. Click **Report Prompts**.
 1. Click **Add Prompt**.

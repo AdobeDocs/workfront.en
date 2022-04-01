@@ -40,12 +40,12 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Project scorecards
+## Project scorecards {#project-scorecards}
 
-* [Scorecards overview](#understanding-scorecards) 
-* [Project scorecards](#applying-a-scorecard-to-a-project)
+* [Scorecards overview](#scorecards-overview) 
+* [Project scorecards](#project-scorecards)
 
-### Scorecards overview
+### Scorecards overview {#scorecards-overview}
 
 Typically, a project manager completes the scorecard information to produce an alignment value between 0 and 100 for the project. The value produced is later used when the portfolio manager reviews the projects in the portfolio optimizer to compare them.
 
@@ -83,7 +83,7 @@ To apply a scorecard to a project:
 
    Workfront applies a score to each question answered and calculates an overall project score based on the individual score of every question.
 
-   For more information about generating the project overall alignment score, see [Generate an Alignment Score for a project](#generating-an-alignment-score-for-a-project).
+   For more information about generating the project overall alignment score, see [Generate an Alignment Score for a project](#generate-an-alignment-score-for-a-project).
 
 1. Click **Save** to save the scorecard and score the project.
 
@@ -91,10 +91,10 @@ To apply a scorecard to a project:
 
 ## Generate an Alignment Score
 
-* [Generate an Alignment Score for a project](#generating-an-alignment-score-for-a-project) 
-* [Generate an Alignment Score for a portfolio](#generating-an-alignment-score-for-a-portfolio)
+* [Generate an Alignment Score for a project](#generate-an-alignment-score-for-a-project) 
+* [Generate an Alignment Score for a portfolio](#generate-an-alignment-score-for-a-portfolio)
 
-### Generate an Alignment Score for a project
+### Generate an Alignment Score for a project {#generate-an-alignment-score-for-a-project}
 
 The alignment score is the value produced after completing the scorecard.
 
@@ -108,7 +108,7 @@ Project Alignment Score = The sum of the question points from the scorecard met 
 
 For more information, see [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
-### Generate an Alignment Score for a portfolio
+### Generate an Alignment Score for a portfolio {#generate-an-alignment-score-for-a-portfolio}
 
 The alignment score of the portfolio is an average of the alignment scores of all the projects in the portfolio.
 
@@ -124,8 +124,8 @@ Portfolio Alignment Score = The sum of the percentages of the project alignment 
 
 You can view the alignment score of a project at the project level, or in the Portfolio Optimizer.
 
-* [View the Alignment Score on a project](#view%20the) 
-* [View the Alignment Scores of the project and of the portfolio in the Portfolio Optimizer](#view%20the2)
+* [View the Alignment Score on a project](#View%20the) 
+* [View the Alignment Scores of the project and of the portfolio in the Portfolio Optimizer](#View%20the2)
 
 ### View the Alignment Score on a project
 
@@ -147,11 +147,11 @@ You can view the alignment score of a project or of a portfolio in the Portfolio
 
 For more information about the information displayed in the Portfolio Optimizer, see [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-* [Locate the Alignment Score of the project in the Portfolio Optimizer](#locating-alognment-score-of-the-project) 
-* [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locating-alignment-score-for-portfolio)   
+* [Locate the Alignment Score of the project in the Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer) 
+* [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)   
   ![alignment_score_in_portfolio_optimizer.png](assets/alignment-score-in-portfolio-optimizer-350x188.png)
 
-#### **Locate the Alignment Score of the project in the Portfolio Optimizer**
+#### **Locate the Alignment Score of the project in the Portfolio Optimizer** {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 1. Go to the **Projects** area in the Global Navigation bar. 
 1. Select the **Portfolios** tab. 
@@ -164,7 +164,7 @@ For more information about the information displayed in the Portfolio Optimizer,
 
    This is the alignment score of the project based on the scorecard associated with the project.
 
-####  Locate the Alignment Score of the portfolio in the Portfolio Optimizer
+####  Locate the Alignment Score of the portfolio in the Portfolio Optimizer  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
 1. Go to the **Projects** area in the Global Navigation bar.
 1. Select the **Portfolios** tab.
@@ -174,7 +174,7 @@ For more information about the information displayed in the Portfolio Optimizer,
 
    This is the alignment score of the portfolio.
 
-   For more information about how the alignment score of a portfolio is generated, see [Generate an Alignment Score for a portfolio](#generating-an-alignment-score-for-a-portfolio).
+   For more information about how the alignment score of a portfolio is generated, see [Generate an Alignment Score for a portfolio](#generate-an-alignment-score-for-a-portfolio).
 
 ## Overview of the Portfolio Optimizer Score
 

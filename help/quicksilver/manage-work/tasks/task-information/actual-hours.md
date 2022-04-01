@@ -74,12 +74,12 @@ Finding the value for Actual Hours for an item is identical for tasks, projects,
 
 You can find the Actual Hours information on tasks in the following locations:
 
-* [Actual Hours in the Details section](#actual) 
-* [Actual Hours in the Hours section](#actual2) 
-* [Actual Hours in reports](#reports) 
-* [Actual Hours in Resource Management tools](#resource-grid)
+* [Actual Hours in the Details section](#actual-hours-in-the-details-section) 
+* [Actual Hours in the Hours section](#actual-hours-in-the-hours-section) 
+* [Actual Hours in reports](#actual-hours-in-reports) 
+* [Actual Hours in Resource Management tools](#actual-hours-in-resource-management-tools)
 
-### Actual Hours in the Details section
+### Actual Hours in the Details section {#actual-hours-in-the-details-section}
 
 Finding Actual Hours in the Details section is identical for projects, tasks, and issues.
 
@@ -91,7 +91,7 @@ To locate Actual Hours in Task Details:
 
    This is the total of hours logged on this task.
 
-### Actual Hours in the Hours section
+### Actual Hours in the Hours section {#actual-hours-in-the-hours-section}
 
 Finding Actual Hours in the Hours section is identical for projects, tasks, and issues.
 
@@ -108,7 +108,7 @@ To locate Actual Hours in Hours section :
 
    The number shown in the grouping line for the **Hours** column is the total number of Actual Hours on the task.
 
-### Actual Hours in reports
+### Actual Hours in reports {#actual-hours-in-reports}
 
 When building tasks, issues, or projects reports, you can show the Actual Hours value for each task, issue, or project in the report.
 
@@ -125,7 +125,7 @@ To show Actual Hours in a task report:
 
    The Actual Hours column shows the number of hours logged on each task.
 
-### Actual Hours in Resource Management tools
+### Actual Hours in Resource Management tools {#actual-hours-in-resource-management-tools}
 
 If you want to see the progress of the work your users are doing on their assigned tasks and issues, you can view them in the following Resource Management tools:
 

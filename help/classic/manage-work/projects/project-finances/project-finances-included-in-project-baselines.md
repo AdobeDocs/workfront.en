@@ -23,10 +23,10 @@ In addition to name and date information, baselines and baseline tasks include f
 
 For information about what each field displays, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-* [Financial information included in Baseline reports](#financia2) 
-* [Financial information included in Baseline Task reports](#financia3)
+* [Financial information included in Baseline reports](#financial-information-included-in-baseline-reports) 
+* [Financial information included in Baseline Task reports](#financial-information-included-in-baseline-task-reports)
 
-### Financial information included in Baseline reports
+### Financial information included in Baseline reports {#financial-information-included-in-baseline-reports}
 
 The following project financial information is accessible from the Baseline object in a Baseline report:
 
@@ -48,7 +48,7 @@ The following project financial information is accessible from the Baseline obje
 * Cost Schedule Performance Index (CSI)
 * Schedule Performance Index (CPI)
 
-### Financial information included in Baseline Task reports
+### Financial information included in Baseline Task reports {#financial-information-included-in-baseline-task-reports}
 
 The following task financial information is accessible from the Baseline Task object in a Baseline Task report:
 

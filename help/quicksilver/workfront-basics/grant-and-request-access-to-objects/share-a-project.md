@@ -40,7 +40,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * You can remove inherited permissions from a project so that the children objects will not inherit them.&nbsp;For more information about removing inherited permissions from objects, see&nbsp; [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-## Ways to share a project
+## Ways to share a project {#ways-to-share-a-project}
 
 You can share a project in the following ways:
 
@@ -103,13 +103,13 @@ You can share a project in the following ways:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Configuring_Default_Permissions_for_Access_Levels_in_a_Project"></a>Configure default permissions for a project</h2>
-<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#sharing-a-project" class="MCXref xref">Ways to share a project</a>. </p>
+<p>As a project owner, you can configure the default permissions for View, Manage, and Contribute access that are used when sharing&nbsp;the project with others. When users share a project, the default permissions are used. Users can then adjust the default permissions when sharing the project, as described in <a title="Project Permissions" href="#ways-to-share-a-project" class="MCXref xref">Ways to share a project</a>. </p>
 <p>To configure the default permissions that are included with each access level:</p>
 <ol>
 <li value="1">Go to the project where you want to set the default permissions.</li>
 <li value="2"> <p>Click the More menu <img src="assets/more-icon.png">, then click <strong>Edit</strong>. <img src="assets/edit-icon.png"></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/edit-projnwe-350x155.png" style="width: 350;height: 155;"> </p> </li>
 <li value="3">Click <strong>Access</strong> in the list on the left.</li>
-<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#understanding-project-permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
+<li value="4"> <p>In the <strong>When someone is given access to this PROJECT</strong> section, select permissions that you want to be available when users are given access to the project via sharing.</p> <p>Ensure that any permissions that you want to include in the selected access level are selected and deselect any permissions that you do not want to include in the selected permissions level.</p> <p>To view which permissions are available for each level, see&nbsp;<a title="Project Permissions" href="#Understanding_Project_Permissions" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <note type="note">
 The
 <strong>Delete</strong> access in the
 <strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with

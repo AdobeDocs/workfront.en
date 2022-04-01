@@ -56,17 +56,17 @@ You must have the following:
 Use the Details section to view high-level overview information and interact with custom forms. Click **Details** at the top of the section to go to the full Document Details page.
 
 * [Overview](#overview) 
-* [Custom Forms](#custom2)
+* [Custom Forms](#custom-forms)
 
 ![](assets/copy-of-doc-summary-details-section-350x404.png)
 
-### Overview
+### Overview {#overview}
 
 Expand the Overview section to view or download a image thumbnail, open a proof, update the basic description, check the document out and more.
 
 ![](assets/copy-of-doc-summary-with-overview-350x560.png)
 
-### Custom Forms
+### Custom Forms {#custom-forms}
 
 Use the Custom Forms section to add, edit, or view any custom forms associated with the document. Begin typing the name of the custom form to add it to the document. For more information, see [Add or edit a custom form to a document](../../documents/managing-documents/add-custom-form-documents.md).
 

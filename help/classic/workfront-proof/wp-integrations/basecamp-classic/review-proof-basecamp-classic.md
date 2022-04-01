@@ -47,7 +47,7 @@ To open the proof from the email notification:
    For information on reviewing a proof in Workfront Proof, see [Reviewing a Proof in the Legacy Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proof-in-legacy-proofing-viewer.md).  
    Or  
    To open the proof in Basecamp, click the URL listed in the **Basecamp URL** field.  
-   For information on reviewing a proof in Basecamp Classic, see [Reviewing a Proof in Basecamp](#reviewing-your-proof-in-basecamp) in this article.
+   For information on reviewing a proof in Basecamp Classic, see [Reviewing a Proof in Basecamp](#reviewing-a-proof-in-basecamp) in this article.
 
 ## Viewing the Proof via the Basecamp Classic Message
 
@@ -73,13 +73,13 @@ You can access a proof from a Basecamp Classic message.&nbsp;
       If you do not have a Workfront Proof account, type a public name to display.   
       You can select "remember me" so you only have to input your details once.
 
-1. To review the proof, continue with [Reviewing a Proof in Basecamp](#reviewing-your-proof-in-basecamp).
+1. To review the proof, continue with [Reviewing a Proof in Basecamp](#reviewing-a-proof-in-basecamp).
 
 >[!NOTE]
 >
->&nbsp;The comment box shown below the mini proof on the message page applies only to the message itself. To submit review comments, you must use the comments icon button at the top of the mini proof or the larger Comments button at the top of the full-page proof. For more information, see Reviewing a [Reviewing a Proof in Basecamp](#reviewing-your-proof-in-basecamp).
+>&nbsp;The comment box shown below the mini proof on the message page applies only to the message itself. To submit review comments, you must use the comments icon button at the top of the mini proof or the larger Comments button at the top of the full-page proof. For more information, see Reviewing a [Reviewing a Proof in Basecamp](#reviewing-a-proof-in-basecamp).
 
-## Reviewing a Proof in Basecamp
+## Reviewing a Proof in Basecamp {#reviewing-a-proof-in-basecamp}
 
 The mini proof in Basecamp provides you with the tools you need to add and to make [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) on the proof. All users assigned to the project see your markups and comments and can respond with their own comments in a real time.
 

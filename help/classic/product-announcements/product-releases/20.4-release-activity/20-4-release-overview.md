@@ -28,15 +28,15 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ## Workfront enhancements
 
-* [Administrator enhancements](#administ) 
-* [Resource Management enhancements](#resource) 
-* [Project Management enhancements](#project) 
-* [Enhanced analytics](#-bm) 
-* [Proofing enhancements](#proofing) 
-* [Mobile and integration enhancements](#mobile) 
-* [Other enhancements](#other)
+* [Administrator enhancements](#administrator-enhancements) 
+* [Resource Management enhancements](#resource-management-enhancements) 
+* [Project Management enhancements](#project-management-enhancements) 
+* [Enhanced analytics](#enhanced-analytics) 
+* [Proofing enhancements](#proofing-enhancements) 
+* [Mobile and integration enhancements](#mobile-and-integration-enhancements) 
+* [Other enhancements](#other-enhancements)
 
-### Administrator enhancements
+### Administrator enhancements {#administrator-enhancements}
 
 <table> 
  <col> 
@@ -85,7 +85,7 @@ This page provides information about functionality for both Adobe Workfront Clas
  </tbody> 
 </table>
 
-### Resource Management enhancements
+### Resource Management enhancements {#resource-management-enhancements}
 
 <table> 
  <col> 
@@ -138,7 +138,7 @@ This page provides information about functionality for both Adobe Workfront Clas
  </tbody> 
 </table>
 
-### Project Management enhancements
+### Project Management enhancements {#project-management-enhancements}
 
 <table> 
  <col> 
@@ -184,7 +184,7 @@ This page provides information about functionality for both Adobe Workfront Clas
  </tbody> 
 </table>
 
-### Enhanced analytics
+### Enhanced analytics  {#enhanced-analytics}
 
 <table> 
  <col> 
@@ -201,7 +201,7 @@ This page provides information about functionality for both Adobe Workfront Clas
  </tbody> 
 </table>
 
-### Proofing enhancements
+### Proofing enhancements {#proofing-enhancements}
 
 <table> 
  <col> 
@@ -226,7 +226,7 @@ This page provides information about functionality for both Adobe Workfront Clas
  </tbody> 
 </table>
 
-### Mobile and integration enhancements
+### Mobile and integration enhancements {#mobile-and-integration-enhancements}
 
 <table> 
  <col> 
@@ -251,7 +251,7 @@ This page provides information about functionality for both Adobe Workfront Clas
  </tbody> 
 </table>
 
-### Other enhancements
+### Other enhancements {#other-enhancements}
 
 <table> 
  <col> 
@@ -318,13 +318,13 @@ For information about the maintenance updates made during the 20.3 release, see 
 
 ## Announcements
 
-* [Flash deprecation](#flash) 
-* [20.4 Release Webinar](#2020.1) 
-* [Change in Preview release cadence](#change) 
-* [Allowlist of additional domains required for accessing Workfront](#whitelis) 
-* [Workfront One](#workfron)
+* [Flash deprecation](#flash-deprecation) 
+* [20.4 Release Webinar](#20-4-release-webinar) 
+* [Change in Preview release cadence](#change-in-preview-release-cadence) 
+* [Allowlist of additional domains required for accessing Workfront](#allowlist-of-additional-domains-required-for-accessing-workfront) 
+* [Workfront One](#workfront-one)
 
-### Flash deprecation
+### Flash deprecation {#flash-deprecation}
 
 At the end of 2020, Adobe and all major browsers finalize deprecating Adobe Flash technology, which means these tools will stop functioning.
 
@@ -332,17 +332,17 @@ Workfront aims to assist you with moving to the newer technology by providing a 
 
 All Flash-based tools will be removed from all products on November 19, 2020. We recommend that you start using the new tools and retire the Flash tools before then, to increase the security of your instance. If you would like us to disable the Flash tools before November 19, you can contact Customer Support.
 
-### 20.4 Release Webinar
+### 20.4 Release Webinar {#20-4-release-webinar}
 
 The Workfront 20.4 Release Webinar will be presented Wednesday, October 28, 2020 at 11:00 AM&nbsp;EDT. Register for the webinar [here](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
 
-### Change in Preview release cadence
+### Change in Preview release cadence {#change-in-preview-release-cadence}
 
 Starting on May 20, 2020, Workfront began to make functionality available in the Preview environment on a weekly basis. Prior to this change, functionality was typically released to the Preview environment every two weeks.
 
 For more information, see [Change in Workfront preview release cadence FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
 
-### Allowlist of additional domains required for accessing Workfront
+### Allowlist of additional domains required for accessing Workfront {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
 If your organization uses a firewall, you must add the following additional domains to your allowlist in order to ensure uninterrupted access to Workfront:
 
@@ -351,7 +351,7 @@ If your organization uses a firewall, you must add the following additional doma
 
 For more information, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-### Workfront One
+### Workfront One {#workfront-one}
 
 With Workfront One, you’ll discover the most important content, resources, and news from Workfront —all in one place, with one login. We’ve unified the Experience, Community, and Training sites making it easier to find what you’re looking for.
 

@@ -65,10 +65,10 @@ After you install the Desktop Proofing Viewer for your organization, you can set
 
 ## Installing the Desktop Proofing Viewer for Your Users
 
-* [Installing the Desktop Proofing Viewer on Mac](#installing-on-mac) 
-* [Installing the Desktop Proofing Viewer on Windows](#installing-dpv-windows)
+* [Installing the Desktop Proofing Viewer on Mac](#installing-the-desktop-proofing-viewer-on-mac) 
+* [Installing the Desktop Proofing Viewer on Windows](#installing-the-desktop-proofing-viewer-on-windows)
 
-### Installing the Desktop Proofing Viewer on Mac
+### Installing the Desktop Proofing Viewer on Mac {#installing-the-desktop-proofing-viewer-on-mac}
 
 1. On the user's machine, do one of the following to download the app:
 
@@ -82,7 +82,7 @@ After you install the Desktop Proofing Viewer for your organization, you can set
 
 1. Ensure that each user completes the installation by opening an interactive proof from the Documents area in Workfront.
 
-### Installing the Desktop Proofing Viewer on Windows
+### Installing the Desktop Proofing Viewer on Windows {#installing-the-desktop-proofing-viewer-on-windows}
 
 1. On the user's machine, do one of the following to download the app:
 

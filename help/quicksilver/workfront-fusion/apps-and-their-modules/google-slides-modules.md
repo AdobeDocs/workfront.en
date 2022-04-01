@@ -81,21 +81,21 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Presentation](#presenta) 
+* [Presentation](#presentation) 
 * [Other](#other)
 
-### Presentation
+### Presentation {#presentation}
 
-* [Watch Presentations](#watch) 
-* [List Presentations](#list) 
-* [Get a Presentation](#get) 
-* [Get a Page/Thumbnail](#get2) 
-* [Create a Presentation From a Template](#create) 
-* [Upload an Image To a Presentation](#upload) 
-* [Refresh a Chart](#refresh) 
-* [Add/Delete a Slide](#add/dele)
+* [Watch Presentations](#watch-presentations) 
+* [List Presentations](#list-presentations) 
+* [Get a Presentation](#get-a-presentation) 
+* [Get a Page/Thumbnail](#get-a-page-thumbnail) 
+* [Create a Presentation From a Template](#create-a-presentation-from-a-template) 
+* [Upload an Image To a Presentation](#upload-an-image-to-a-presentation) 
+* [Refresh a Chart](#refresh-a-chart) 
+* [Add/Delete a Slide](#add-delete-a-slide)
 
-#### Watch Presentations
+#### Watch Presentations {#watch-presentations}
 
 Triggers when a new presentation is created or updated.
 
@@ -122,7 +122,7 @@ Triggers when a new presentation is created or updated.
  </tbody> 
 </table>
 
-#### List Presentations
+#### List Presentations {#list-presentations}
 
 Retrieves a list of all presentations.
 
@@ -154,7 +154,7 @@ Retrieves a list of all presentations.
  </tbody> 
 </table>
 
-#### Get a Presentation
+#### Get a Presentation {#get-a-presentation}
 
 Gets the latest version of a specified presentation.
 
@@ -182,7 +182,7 @@ Gets the latest version of a specified presentation.
  </tbody> 
 </table>
 
-#### Get a Page/Thumbnail
+#### Get a Page/Thumbnail {#get-a-page-thumbnail}
 
 Gets the latest version of the specified page or of the thumbnail of a page in the presentation.
 
@@ -209,7 +209,7 @@ Gets the latest version of the specified page or of the thumbnail of a page in t
  </tbody> 
 </table>
 
-#### Create a Presentation From a Template
+#### Create a Presentation From a Template {#create-a-presentation-from-a-template}
 
 Creates a new presentation by replacing all tags like {{Name}}, {{Email}} in a template with provided data.
 
@@ -282,7 +282,7 @@ Creates a new presentation by replacing all tags like {{Name}}, {{Email}} in a t
  </tbody> 
 </table>
 
-#### Upload an Image To a Presentation
+#### Upload an Image To a Presentation {#upload-an-image-to-a-presentation}
 
 Uploads an image with provided data.
 
@@ -326,7 +326,7 @@ Uploads an image with provided data.
  </tbody> 
 </table>
 
-#### Refresh a Chart
+#### Refresh a Chart {#refresh-a-chart}
 
 Refreshes the chart data stored in a presentation specified by ID.
 
@@ -358,7 +358,7 @@ Refreshes the chart data stored in a presentation specified by ID.
  </tbody> 
 </table>
 
-#### Add/Delete a Slide
+#### Add/Delete a Slide  {#add-delete-a-slide}
 
 Creates an empty slide or deletes an existing slide on the specified presentation.
 
@@ -398,12 +398,12 @@ Creates an empty slide or deletes an existing slide on the specified presentatio
  </tbody> 
 </table>
 
-### Other
+### Other {#other}
 
-* [Make an API Call](#make) 
-* [Insert Links in a Presentation](#insert)
+* [Make an API Call](#make-an-api-call) 
+* [Insert Links in a Presentation](#insert-links-in-a-presentation)
 
-#### Make an API Call
+#### Make an API Call {#make-an-api-call}
 
 Performs an arbitrary authorized API call.
 
@@ -455,7 +455,7 @@ In our example, the requested presentation details were returned:
 
 ![](assets/presentation-details-2.png)
 
-#### Insert Links in a Presentation
+#### Insert Links in a Presentation {#insert-links-in-a-presentation}
 
 This module makes all links in a presentation clickable, or inserts a link into all matched input texts.
 

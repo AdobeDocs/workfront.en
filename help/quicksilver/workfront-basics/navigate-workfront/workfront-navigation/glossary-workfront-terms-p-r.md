@@ -23,7 +23,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
 
 [R](#r)
 
-## P
+## P {#p}
 
 <table cellspacing="15"> 
  <col> 
@@ -275,7 +275,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
  </tbody> 
 </table>
 
-## Q
+## Q {#q}
 
 <table cellspacing="15"> 
  <col> 
@@ -312,7 +312,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
  </tbody> 
 </table>
 
-## R
+## R {#r}
 
 <table cellspacing="15"> 
  <col> 

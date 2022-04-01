@@ -13,10 +13,10 @@ This document explains how to include the Workfront Connector as a Maven depende
 
 ## Section 1: Add the connector to existing project structure
 
-* [Generate a local Maven repository](#generate) 
-* [Update the project's POM files](#update)
+* [Generate a local Maven repository](#generate-a-local-maven-repository) 
+* [Update the project's POM files](#update-the-project-s-pom-files)
 
-### Generate a local Maven repository
+### Generate a local Maven repository {#generate-a-local-maven-repository}
 
 Before the Workfront Connector can be included as a Maven dependency in the 'sample-site,' it must be included in a local Maven repository. The below listed steps show how to create the Workfront Connector package and include it in the 'sample-site's' source code as a repository.
 
@@ -33,7 +33,7 @@ Before the Workfront Connector can be included as a Maven dependency in the 'sam
 
 1. Continue to the following section: Update the project's POM&nbsp;files.
 
-### Update the project's POM&nbsp;files
+### Update the project's POM&nbsp;files {#update-the-project-s-pom-files}
 
 The next step for including the Workfront Connector as a Maven dependency is to update the project POM files for the 'sample-site' AEM project. The steps below outline which POM files need to be updated and what information needs to be included.
 
@@ -156,16 +156,16 @@ After you add the connector to your existing project structure and configure the
 
    Workfront is now configured to work with AEM Assets.
 
-   In order to access assets in AEM, each Workfront user who needs to use the connector must be set up as a user in AEM. For information on creating users, see&nbsp; [Set up the AEM cloud connector](#setting).
+   In order to access assets in AEM, each Workfront user who needs to use the connector must be set up as a user in AEM. For information on creating users, see&nbsp; [Set up the AEM cloud connector](#Setting).
 
 ## Section 6: Map metadata
 
 In order to use custom form data from Workfront inside of AEM, you must
 
 1. Set up any custom form fields you want to use in the metadata schema in AEM. Please refer to your AEM administrator for instructions on how to set this up.
-1. Once the metadata schema is in place, you must set up the Workfront Property Mapping as described in the [Set up Workfront Property Mapping](#set) section below.
+1. Once the metadata schema is in place, you must set up the Workfront Property Mapping as described in the [Set up Workfront Property Mapping](#set-up-workfront-property-mapping) section below.
 
-### Set up Workfront Property Mapping
+### Set up Workfront Property Mapping {#set-up-workfront-property-mapping}
 
 1. In AEM, click the tool icon on the left side of the screen.
 1. Click **Assets**, then **Workfront Property Mapping**. 

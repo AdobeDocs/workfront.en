@@ -42,7 +42,7 @@ The CSV file must also include these column headers:
  </tbody> 
 </table>
 
-Although the keywords column header is not required, you must include this column if you want to map keywords to your assets. To learn about requirements for the keywords column, see [Keyword hierarchy](#keywords).
+Although the keywords column header is not required, you must include this column if you want to map keywords to your assets. To learn about requirements for the keywords column, see [Keyword hierarchy](#keyword-hierarchy).
 
 ## Date format
 
@@ -52,13 +52,13 @@ Any dates in the CSV file must be listed in MM/DD/YYYY format. Otherwise, the me
 
 To indicate that you want multiple tags selected from a metadata field, you must add the Pipe character to separate the tags. Adding a space to either side of the Pipe character results in spaces being added to the metadata, which could result in new tags being added to the metadata fields and assets. For example, typing "Fall 2018|Fall 2019" in a cell would select both locations in a multi-select field.
 
-If you enter multiple tags in a column that maps to a single-select field, only the first tag maps correctly to the asset. To learn what happens when you add multiple tags to a single-select field or a multi-select field that aren't currently included as selections, see [How information updates](#new).
+If you enter multiple tags in a column that maps to a single-select field, only the first tag maps correctly to the asset. To learn what happens when you add multiple tags to a single-select field or a multi-select field that aren't currently included as selections, see [How information updates](#how-information-updates).
 
 >[!NOTE]
 >
 >If you were previously using commas to separate multiple tags within a field, you can use the SUBSTITUTE function to quickly replace all commas with the Pipe character.
 
-## Keyword hierarchy
+## Keyword hierarchy {#keyword-hierarchy}
 
 >[!NOTE]
 >
@@ -72,9 +72,9 @@ If an asset has multiple keyword tags, you must separate them with the pipe char
 
 Adding a space to either side of the Pipe character or Greater Than Sign character results in spaces being added to the metadata, which could result in new tags being added to the metadata fields and assets.
 
-To learn what happens when an asset already has keywords selected in Workfront Library and you add different keyword in the CSV file, see [How information updates](#new).
+To learn what happens when an asset already has keywords selected in Workfront Library and you add different keyword in the CSV file, see [How information updates](#how-information-updates).
 
-## How information updates
+## How information updates {#how-information-updates}
 
 If an asset already has metadata information in Workfront Library but the metadata listed in the CSV file is different, the metadata for the asset updates to match the information in the CSV file. The way this works varies for the different types of metadata fields in Workfront Library.
 

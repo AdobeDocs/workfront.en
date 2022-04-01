@@ -103,10 +103,10 @@ You can find out who has inherited access to a field and you can remove access t
 >
 >If a recipient has Manage access to a custom field on the shared custom form, that access is retained for the recipient.
 
-* [Find out who has access to a field because it was on a form that was shared](#find) 
-* [Remove access to a field in a custom form that was shared](#remove)
+* [Find out who has access to a field because it was on a form that was shared](#find-out-who-has-access-to-a-field-because-it-was-on-a-form-that-was-shared) 
+* [Remove access to a field in a custom form that was shared](#remove-access-to-a-field-in-a-custom-form-that-was-shared)
 
-### Find out who has access to a field because it was on a form that was shared
+### Find out who has access to a field because it was on a form that was shared {#find-out-who-has-access-to-a-field-because-it-was-on-a-form-that-was-shared}
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left panel, click **Custom Forms**.
@@ -114,6 +114,6 @@ You can find out who has inherited access to a field and you can remove access t
 1. In the **Custom Field Access** box that displays, click **Inherited Permissions** and view the names that display.
 1. Click **Cancel**.
 
-### Remove access to a field in a custom form that was shared
+### Remove access to a field in a custom form that was shared {#remove-access-to-a-field-in-a-custom-form-that-was-shared}
 
 If you need to remove access to a field in a custom form that was shared, you need to unshare the form. For instructions, see in the section [Remove access to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#unshare) in the article [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).

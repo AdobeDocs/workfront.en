@@ -110,15 +110,15 @@ You must have the following access to perform the steps in this article:
 
 1. Select one of the following options and continue with the steps described below:
 
-   * [Assign user](#assigning-a-user) 
-   * [Replace user](#swapping-a-user) 
-   * [Unassign user](#unassigning-a-user)
+   * [Assign user](#assign-user) 
+   * [Replace user](#replace-user) 
+   * [Unassign user](#unassign-user)
 
    >[!TIP]
    >
    >If no items match the selected filters, these options are dimmed.
 
-### Assign user
+### Assign user {#assign-user}
 
 When you assign a user using Bulk Assignments in the Workload Balancer, the following things occur:
 
@@ -149,7 +149,7 @@ To assign a user to work items previously assigned to job roles:
 
    You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-### Replace user
+### Replace user {#replace-user}
 
 You can replace a user who is already assigned to work items with another user in the selected projects.
 
@@ -179,7 +179,7 @@ To replace a user with another user:
 
    You receive a confirmation about how many work items have had the original user assignment replaced with the selected second user.
 
-### Unassign user
+### Unassign user {#unassign-user}
 
 You can unassign a user from all work items that the user is assigned to in the selected projects.
 

@@ -105,7 +105,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
           Resource Estimates or a 
         </MadCap:conditionalText>
        --> Project (Financial Data) report and add a matrix grouping for Allocation Date, then group the results weekly, monthly, quarterly, or yearly for the most accurate data.<br>For information about building a matrix grouping, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> </li> 
-    </ul> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>Financial information populates in Project (Financial&nbsp;Data) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the Allocation Date for the job role does not populate in the Project (Financial&nbsp;Data) report. </p> 
+    </ul> <p>Warning: Financial information populates in Project (Financial&nbsp;Data) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the Allocation Date for the job role does not populate in the Project (Financial&nbsp;Data) report. </p> 
     <div> 
      <p>For a Budgeted Hour report:</p> 
      <ul> 

@@ -101,7 +101,9 @@ You must have the following before you can start:
 
 1. (Conditional) Select a start and an end date for your goal, if you clicked **Define custom dates**.
 
-   ``` ```**Warning: **``````You cannot create a goal with dates in the past. 
+   >[!CAUTION]
+   >
+   >You cannot create a goal with dates in the past.
 
 1. (Optional) Click **Reset custom dates** to return to the predefined options.
 

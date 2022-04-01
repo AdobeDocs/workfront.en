@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Create a new email template
+## Create a new email template {#create-a-new-email-template}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -71,25 +71,25 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
-      <td> <p>Content that is displayed when the email message is sent.</p> <p>You can use HTML formatting for the email content, as described in <a href="#add" class="MCXref xref">Add HTML formatting to an email template</a> in this article.</p> </td> 
+      <td> <p>Content that is displayed when the email message is sent.</p> <p>You can use HTML formatting for the email content, as described in <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Add HTML formatting to an email template</a> in this article.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Click **Save**.
 
-## Add HTML formatting to an email template
+## Add HTML formatting to an email template {#add-html-formatting-to-an-email-template}
 
 You can add HTML tags to email templates to produce custom ```notifications.   
-Begin creating the email template as described in [Create a new email template](#create).```
+Begin creating the email template as described in [Create a new email template](#create-a-new-email-template).```
 
 ```HTML formatting can enrich your email templates, as shown in the following sections.```
 
-* [Link to Workfront objects](#link2) 
-* [Link to custom fields with HTML](#link) 
-* [HTML email examples](#html-example)
+* [Link to Workfront objects](#link-to-workfront-objects) 
+* [Link to custom fields with HTML](#link-to-custom-fields-with-html) 
+* [HTML email examples](#html-email-examples)
 
-### Link to Workfront objects
+### Link to Workfront objects {#link-to-workfront-objects}
 
 ```You can include links to Workfront fields by using the``` **$$** wildcard to tell the email generator to look for values from the database associated with a specific object.
 
@@ -105,7 +105,7 @@ For example, the body of the email for a notification alerting the assignee of t
 
   The "heading" value can be the name of the object, as you want it to appear in the email body.
 
-### Link to custom fields with HTML
+### Link to custom fields with HTML {#link-to-custom-fields-with-html}
 
 You can include links to users and custom fields by using the **$$**wildcard to tell the email generator to look for values from the database associated with the object. They must be present on either side of the database attribute reference.
 
@@ -122,12 +122,12 @@ Replace *<your domain>* with your company's Workfront domain, without the bracke
 >
 >If the field belongs to a project, replace task with project: $$DE:Project:Delivery Date$$"
 
-### HTML email examples
+### HTML email examples {#html-email-examples}
 
-* [Late Project reminder notification (example)](#late) 
-* [Task or Issue About to Start reminder (example)](#task)
+* [Late Project reminder notification (example)](#late-project-reminder-notification-example) 
+* [Task or Issue About to Start reminder (example)](#task-or-issue-about-to-start-reminder-example)
 
-#### **Late Project reminder notification (example)**
+#### **Late Project reminder notification (example)** {#late-project-reminder-notification-example}
 
 To edit an email template for a late project reminder, consider this information for the Subject and Content fields.
 
@@ -142,7 +142,7 @@ A Project You Manage Has Become Late
 
 ![](assets/screen-shot-2016-09-16-at-3.52.54-pm-350x103.png)
 
-#### **Task or Issue About to Start reminder (example)**
+#### **Task or Issue About to Start reminder (example)** {#task-or-issue-about-to-start-reminder-example}
 
 You might&nbsp;also want to create a reminder notification for an upcoming task or issue.
 

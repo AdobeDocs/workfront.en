@@ -48,9 +48,9 @@ In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then 
 
 Depending on your access level, you can access the following areas of Workfront Library:
 
-* [Library area](#library) 
-* [My Content area](#my) 
-* [Collections area](#collecti)
+* [Library area](#library-area) 
+* [My Content area](#my-content-area) 
+* [Collections area](#collections-area)
 
 Each area displays the content that you have access to. Your Workfront Library access level and the permissions that you have to each item determine what you can do with the content available to you. For more information, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
 
@@ -59,7 +59,7 @@ You can sort and filter the items that display in the area, and you can search f
 * [Search for items in Workfront Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md) 
 * [Sort content in Workfront Library](../../../workfront-library/content-management/basics/sort-content-in-library.md)
 
-### Library area
+### Library area {#library-area}
 
 When you open Workfront Library you land in the Library area, which contains all the content, folders, and collections shared with you.
 
@@ -67,7 +67,7 @@ When you open Workfront Library you land in the Library area, which contains all
 
 Depending on your access level and permissions you have to each item, you might be able manage, share, and download the content in your Library area. Users with Viewer access to Workfront Library can only view and download items in their Library area.
 
-### My Content area
+### My Content area {#my-content-area}
 
 If you have Manager or higher access to Workfront Library, you can open My Content. Any content that you upload or folders that you create display in your My Content area.
 
@@ -75,7 +75,7 @@ If you have Manager or higher access to Workfront Library, you can open My Conte
 
 From your My Content area you can manage, share, and download the content. You can also create folders and upload new content.
 
-### Collections area
+### Collections area {#collections-area}
 
 The Collections area displays the collections that you create and any collections shared with you. A collection consists of related content and folders.
 

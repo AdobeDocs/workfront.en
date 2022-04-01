@@ -9,18 +9,18 @@ The process above can vary a bit from one object type to another. This section e
 * [Projects](#projects) 
 * [Tasks](#tasks) 
 * [Issues](#issues) 
-* [Portfolios](#portfoli) 
-* [Reports, dashboards, and calendars](#reports,) 
-* [Filters, Views, and Groupings](#filters,) 
-* [Documents](#document) 
+* [Portfolios](#portfolios) 
+* [Reports, dashboards, and calendars](#reports-dashboards-and-calendars) 
+* [Filters, Views, and Groupings](#filters-views-and-groupings) 
+* [Documents](#documents) 
 * [Users](#users) 
-* [Templates](#template) 
-* [Financial Data](#financia) 
-* [Resource Management](#resource) 
-* [Scenario Planner area](#scenario) 
-* [Goals area](#align)
+* [Templates](#templates) 
+* [Financial Data](#financial-data) 
+* [Resource Management](#resource-management) 
+* [Scenario Planner area](#scenario-planner-area) 
+* [Goals area](#goals-area)
 
-### Projects
+### Projects {#projects}
 
 As you configure access settings for the projects object type in an access level, be aware of the following:
 
@@ -73,7 +73,7 @@ For information about what a Workfront administrator can allow users to do with 
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Also, go through each section below and consolidate any information that is saying basically the same thing</p>
 -->
 
-### Tasks
+### Tasks {#tasks}
 
 As you configure access settings for the tasks object type in an access level, be aware of the following:
 
@@ -86,7 +86,7 @@ To learn the default configuration of the 3 main access settings for tasks (Edit
 
 For information about what a Workfront administrator can allow users to do with tasks in each of the 6 default access levels, see the section [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#tasks) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Issues
+### Issues {#issues}
 
 As you configure access settings for the issues object type in an access level, be aware of the following:
 
@@ -102,7 +102,7 @@ To learn the default configuration of the 3 main access settings for issues (Edi
 
 For information about what a Workfront administrator can allow users to do with issues in each of the 6 default access levels, see the section [Issues](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#issues) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Portfolios
+### Portfolios {#portfolios}
 
 Not all access levels can be granted access to portfolios. Users with a Planner access level can have full access to portfolios.
 
@@ -118,7 +118,7 @@ To learn the default configuration of the 3 main access settings for portfolios 
 
 For information about what a Workfront administrator can allow users to do with programs in each of the 6 default access levels, see the section [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#programs) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Reports, dashboards, and calendars
+### Reports, dashboards, and calendars {#reports-dashboards-and-calendars}
 
 >[!IMPORTANT]
 >
@@ -144,11 +144,11 @@ To learn the default configuration of the 3 main access settings for reports, da
 
 For information about what a Workfront administrator can allow users to do with portfolios and programs in each of the 6 default access levels, see the section [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#reports) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Filters, Views, and Groupings
+### Filters, Views, and Groupings {#filters-views-and-groupings}
 
 By default, users with any of the default access level except for External have full View and Edit abilities.
 
-### Documents
+### Documents {#documents}
 
 As you configure access settings for the documents object type in an access level, be aware of the following:
 
@@ -161,7 +161,7 @@ To learn the default configuration of the 3 main access settings for reports, da
 
 For information about what a Workfront administrator can allow users to do with portfolios and programs in each of the 6 default access levels, see the section [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#document) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Users
+### Users {#users}
 
 As you configure access settings for the users object type in an access level, be aware of the following:
 
@@ -216,7 +216,7 @@ To learn the default configuration of the 3 main access settings for portfolios 
 
 For information about what a Workfront administrator can allow users to do with portfolios and programs in each of the 6 default access levels, see the section [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#users) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Templates
+### Templates {#templates}
 
 As you configure access settings for the templates object type in an access level, be aware of the following:
 
@@ -227,7 +227,7 @@ To learn the default configuration of the 3 main access settings for portfolios 
 
 For information about what a Workfront administrator can allow users to do with portfolios and programs in each of the 6 default access levels, see the section [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#template) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Financial Data
+### Financial Data {#financial-data}
 
 As you configure access settings for the financial data object type in an access level, be aware of the following:
 
@@ -281,7 +281,7 @@ As you configure access settings for the financial data object type in an access
 
   You also control the resource budgeting and allocation information that the user can see in the Resource Management tools through the user's access level.
 
-  For more information, see [Resource Management](#resource) in this article.
+  For more information, see [Resource Management](#resource-management) in this article.
 
 * Not all access levels include full access to financial data in Workfront. A user with a Planner access level has full access to financial data.
 * A user whose access level doesn't allow access to financial data cannot create a risk for a project. For more information, see [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
@@ -290,7 +290,7 @@ To learn the default configuration of the 3 main access settings for portfolios 
 
 For information about what a Workfront administrator can allow users to do with portfolios and programs in each of the 6 default access levels, see the section [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#financia) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Resource Management
+### Resource Management {#resource-management}
 
 As you configure access settings for the Resource Management object type in an access level, be aware of the following:
 
@@ -326,7 +326,7 @@ To learn the default configuration of the 3 main access settings for portfolios 
 
 For information about what a Workfront administrator can allow users to do with portfolios and programs in each of the 6 default access levels, see the section [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#portfoli) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Scenario Planner area
+### Scenario Planner area {#scenario-planner-area}
 
 As you configure access settings for the Scenario Planner object type in an access level, be aware of the following:
 
@@ -350,7 +350,7 @@ As you configure access settings for the Scenario Planner object type in an acce
 
   For information about what a Workfront administrator can allow users to do with portfolios and programs in each of the 6 default access levels, see the section [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md#scenario) in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-### Goals area
+### Goals area {#goals-area}
 
 All 6 of the default access levels (and all 4 of the license types) have the same access to Workfront Goals. For information about specific View and Edit actions that a Workfront administrator can allow when giving users access to Goals in a custom access level, see the table for Workfront Goals in the article [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 

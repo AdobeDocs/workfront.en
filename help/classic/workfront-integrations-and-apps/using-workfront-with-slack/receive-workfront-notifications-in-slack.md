@@ -47,7 +47,7 @@ Before you can receive Workfront notifications in Slack, you must
 * Configure Workfront for Slack  
   For instructions on configuring Workfront for Slack, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Configure Workfront notifications for Slack
+## Configure Workfront notifications for Slack {#configure-workfront-notifications-for-slack}
 
 1. (Conditional) After Workfront has been added to your Slack instance, log into Workfront from Slack.  
    For information about logging into Workfront from Slack, see [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
@@ -88,7 +88,7 @@ To manage your Workfront notifications for Slack:&nbsp;
    For information about logging in to Workfront from Slack, see the "Logging in to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Ensure that your Workfront notifications for Slack are enabled.  
-   For more information about which Workfront notifications can be configured to also be sent to Slack, see [Configure Workfront notifications for Slack](#configuring-notifications-for-slack).
+   For more information about which Workfront notifications can be configured to also be sent to Slack, see [Configure Workfront notifications for Slack](#configure-workfront-notifications-for-slack).
 
 1. Go to the **Workfront** channel to find your Workfront notifications.&nbsp;
 1. (Conditional and optional) Do any of the following:&nbsp;

@@ -19,21 +19,21 @@ Before you do this, your Workfront administrator must enable this functionality,
 
 You can proof and approve documents linked to Quip the same way you do so with documents uploaded directly to Workfront.
 
-* [Link a Quip document to Workfront](#linking-individual-documents) 
-* [Add a new version of a linked Quip document](#add) 
-* [Download a linked Quip document to your hard drive](#download) 
-* [Upload and link a document from Workfront to Quip](#sending-documents) 
-* [Link folders](#linking-folders) 
-* [Add a Quip document to a linked folder](#adding)
+* [Link a Quip document to Workfront](#link-a-quip-document-to-workfront) 
+* [Add a new version of a linked Quip document](#add-a-new-version-of-a-linked-quip-document) 
+* [Download a linked Quip document to your hard drive](#download-a-linked-quip-document-to-your-hard-drive) 
+* [Upload and link a document from Workfront to Quip](#upload-and-link-a-document-from-workfront-to-quip) 
+* [Link folders](#link-folders) 
+* [Add a Quip document to a linked folder](#add-a-quip-document-to-a-linked-folder)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#synchronizing-changes-made-on-a-linked-document" class="MCXref xref"></a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#" class="MCXref xref"></a> </li>
   -->
 
-* [Delete a linked document or folder](#deleting-a-linked-document-or-folder) 
-* [About renaming linked documents and folders](#renaming-a-linked-document-or-folder)
+* [Delete a linked document or folder](#delete-a-linked-document-or-folder) 
+* [About renaming linked documents and folders](#about-renaming-linked-documents-and-folders)
 
-## Link a Quip document to Workfront
+## Link a Quip document to Workfront {#link-a-quip-document-to-workfront}
 
 You can link existing Quip documents to Workfront. This includes any shared documents. Quip documents that are linked to Workfront are stored in Quip, not within Workfront.
 
@@ -67,7 +67,7 @@ Before you link Quip documents or folders, your Workfront administrator must ena
 
    In Workfront, the Quip icon appears next to the documents.
 
-## Add a new version of a linked Quip document
+## Add a new version of a linked Quip document {#add-a-new-version-of-a-linked-quip-document}
 
 You can add a new version of a Quip document linked to Workfront.
 
@@ -93,7 +93,7 @@ You can add a new version of a Quip document linked to Workfront.
 
 For information about adding new version of a document you have uploaded to Workfront from your file system, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-## Download a linked Quip document to your hard drive
+## Download a linked Quip document to your hard drive {#download-a-linked-quip-document-to-your-hard-drive}
 
 From Workfront, you can download a Quip document already linked to Workfront to your hard drive. For instructions, see [Download Documents](../../documents/managing-documents/download-documents.md).
 
@@ -103,7 +103,7 @@ When you download a Quip document linked in Workfront, it might be converted as 
 * A spreadsheet is converted to a Microsoft Excel file
 * A slide presentation is converted to a PDF file
 
-## Upload and link a document from Workfront to Quip
+## Upload and link a document from Workfront to Quip {#upload-and-link-a-document-from-workfront-to-quip}
 
 You can upload and link a file of any of the following file types from Workfront to Quip: DOC, DOCX, RTF, ODT, XLSX, XLS, CSV, ODS, HTML, HTM, PDF, MD, MKDN, MDOWN, MARKDOWN, PPTX.
 
@@ -124,7 +124,7 @@ Quip users without Workfront access can see the document in Quip.
 
    Quip's logo appears next to the document name to indicate the link.
 
-## Link folders
+## Link folders {#link-folders}
 
 You can link any Quip folders to Workfront, including shared folders.
 
@@ -132,11 +132,11 @@ When you link a folder between Workfront and Quip, the folder and all of its con
 
 Also, when users without access to Workfront add, remove, and modify Quip files in a linked folder, their changes are synchronized to Workfront.
 
-* [Link one or more Quip folders](#linking-a-folder) 
-* [Add subfolders to a linked folder](#creating) 
+* [Link one or more Quip folders](#link-one-or-more-quip-folders) 
+* [Add subfolders to a linked folder](#add-subfolders-to-a-linked-folder) 
 * [Folder access rights](#folder-access-rights)
 
-### Link one or more Quip folders
+### Link one or more Quip folders {#link-one-or-more-quip-folders}
 
 1. Go to the area in Workfront where you want the folder, then click  **Documents** ![](assets/document-icon.png) in the left panel .
 
@@ -160,7 +160,7 @@ Also, when users without access to Workfront add, remove, and modify Quip files 
 
    This does not rename the folder in Quip.
 
-### Add subfolders to a linked&nbsp;folder
+### Add subfolders to a linked&nbsp;folder  {#add-subfolders-to-a-linked-folder}
 
 You can create a new folder inside an existing linked folder. You can also drag another folder into an existing linked folder.
 
@@ -181,7 +181,7 @@ You can create a new folder inside an existing linked folder. You can also drag 
    >   
    >
 
-### Folder access rights
+### Folder access rights {#folder-access-rights}
 
 When synchronizing folder content from Quip, Workfront uses the credentials of the user who originally linked the folder. This results in the following user experience:
 
@@ -189,7 +189,7 @@ When synchronizing folder content from Quip, Workfront uses the credentials of t
 * When someone accesses content in a linked folder in Workfront that was linked to Workfront by another user (such as a subfolder in a linked folder), the content synchronizes to Workfront using the Workfront login credentials of the user who originally linked the folder, not the credentials of the user accessing the content.  
 * If the user who originally linked the folder is removed from the Workfront system, users are no longer able to access&nbsp;content on the linked folder via Workfront. In this case, the folder must be relinked by an active Workfront user who has rights to the folder in Quip.
 
-## Add a Quip document to a linked folder
+## Add a Quip document to a linked folder  {#add-a-quip-document-to-a-linked-folder}
 
 When you add a document to a linked folder via Workfront, it is automatically added as a linked document.
 
@@ -202,10 +202,10 @@ When you add a document to a linked folder via Workfront, it is automatically ad
    A new version of your document is automatically created in Quip and linked into Workfront.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="synchronizing-changes-made-on-a-linked-document"></a> </h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id=""><a name="synchronizing-changes-made-on-a-linked-document"></a> </h2>
 -->
 
-## Delete a linked document or folder
+## Delete a linked document or folder {#delete-a-linked-document-or-folder}
 
 When you delete a linked Quip document or folder, it remains in the Workfront system until you also delete it from Workfront.
 
@@ -214,7 +214,7 @@ When you delete a linked Quip document or folder, it remains in the Workfront sy
 
    The document is unlinked from the Workfront site. It is not affected in Quip.
 
-## About renaming linked documents and folders
+## About renaming linked documents and folders {#about-renaming-linked-documents-and-folders}
 
 When you rename a linked document or folder, the change is visible only in the application where you make it. For example, if you rename a linked document in Workfront, the new name is visible only in Workfront.
 

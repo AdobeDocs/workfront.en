@@ -67,7 +67,7 @@ You must have the following to perform the steps described in this article:
 </div>
 -->
 
-## Attach a template to an existing project
+## Attach a template to an existing project {#attach-a-template-to-an-existing-project}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can attach a template to a project in Workfront from the project page <span class="preview">or from a project list or report</span>.</p>
@@ -171,13 +171,13 @@ You must have the following to perform the steps described in this article:
 
    >[!TIP]
    >
-   >If you attach more than one template to the project, only the template you attached first displays in this field. For information, see the [Attach multiple templates to an existing project and view template information](#attaching-multiple-templates-and-viewing-template-information) section in this article.
+   >If you attach more than one template to the project, only the template you attached first displays in this field. For information, see the [Attach multiple templates to an existing project and view template information](#attach-multiple-templates-to-an-existing-project-and-view-template-information) section in this article.
 
 1. (Optional)&nbsp;Remove template information from the project where you attached the template. For information, see [Remove template information from a project](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md).
 
-## Attach multiple templates to an existing project and view template information
+## Attach multiple templates to an existing project and view template information {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-You can attach multiple templates (one at a time) to the same project, following the steps described in the section [Attach a template to an existing project](#attaching-a-template) in this article. This adds the tasks and other information from each template to the project.
+You can attach multiple templates (one at a time) to the same project, following the steps described in the section [Attach a template to an existing project](#attach-a-template-to-an-existing-project) in this article. This adds the tasks and other information from each template to the project.
 
 >[!TIP]
 >

@@ -18,7 +18,7 @@ Any application that is connected to the Internet and allows the sending of HTTP
 >
 >Once you create a webhook, you can use it in more than one scenario at the same time. Each scenario may contain different modules and have a different schedule. The data is duplicated, that's why the individual scenarios do not influence each other.
 
-## Determine the webhook's data structure
+## Determine the webhook's data structure {#determine-the-webhook-s-data-structure}
 
 Once you create a webhook, you will see a unique URL that Workfront Fusion will listen for. The data sent to this address is first validated and then passed on for processing in the scenario. To enable the option to map items outputted from the webhook, Workfront Fusion needs to determine the data structure of the incoming payload so the other modules know what to expect from the webhook. That's why Workfront Fusion will ask you to send sample data to the displayed address.
 
@@ -81,7 +81,9 @@ To use the second option:
 
 At the moment of delivering a webhook notification, there must be at least one scenario that listens for this webhook data. If the scenario is not active, the data is stored in the queue. Once you activate the scenario, all bundles waiting in the queue will be processed sequentially.
 
-``` ```**Warning: **``````Webhook queues are shared among scenarios that employ the same webhook. If one of the scenarios is disabled, the queue will be filling up with incoming webhooks.
+>[!CAUTION]
+>
+>Webhook queues are shared among scenarios that employ the same webhook. If one of the scenarios is disabled, the queue will be filling up with incoming webhooks.
 
 ## Supported Incoming Data Formats
 
@@ -349,4 +351,4 @@ If some items are missing in the mapping panel in the setup of the modules follo
 
 ![](assets/redetermine-data-structure-btn-350x195.png)
 
-Then follow the steps described in the section [Determine the webhook's data structure](#determin) in this article.
+Then follow the steps described in the section [Determine the webhook's data structure](#determine-the-webhook-s-data-structure) in this article.

@@ -51,7 +51,7 @@ You must have the following access to use the functionality in this article:
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Install the Chrome DevTool extension
+## Install the Chrome DevTool extension {#install-the-chrome-devtool-extension}
 
 To use the Workfront Fusion DevTool, you first need to install it.
 
@@ -73,7 +73,7 @@ To use the Workfront Fusion DevTool, you first need to install it.
 
 ## Locate the Workfront Fusion DevTool
 
-To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool extension to your Chrome browser, as described in [Install the Chrome DevTool extension](#install).
+To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool extension to your Chrome browser, as described in [Install the Chrome DevTool extension](#install-the-chrome-devtool-extension).
 
 1. Open your Workfront Fusion scenario.
 1. Open Chrome Developer Tools:
@@ -103,11 +103,11 @@ To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool e
 
 Workfront Fusion DevTool is divided into 3 main sections. You can find these in the left panel of your DevTool window.
 
-* [Live Stream](#live) 
-* [Scenario Debugger](#scenario) 
+* [Live Stream](#live-stream) 
+* [Scenario Debugger](#scenario-debugger) 
 * [Tools](#tools)
 
-### Live Stream
+### Live Stream {#live-stream}
 
 Live Stream displays what is happening in the background when you click Run once in your scenario.
 
@@ -157,7 +157,7 @@ Live Stream displays what is happening in the background when you click Run once
     </tbody> 
    </table>
 
-### Scenario Debugger
+### Scenario Debugger {#scenario-debugger}
 
 The Scenario Debugger is useful for more complex scenarios. It displays the history of the scenario runs and enables you to search modules by their name or ID.
 
@@ -166,7 +166,7 @@ The Scenario Debugger is useful for more complex scenarios. It displays the hist
 1. Double-click the module's name to open its settings in the scenario editor.
 1. View request details by clicking the desired operation.
 
-### Tools
+### Tools {#tools}
 
 The Workfront Fusion DevTool features tools that make setting up your scenario easier.
 
@@ -177,28 +177,28 @@ The Workfront Fusion DevTool features tools that make setting up your scenario e
 
 Tools and their fields:
 
-* [Focus a Module](#focus) 
-* [Find Modules by Mapping](#find) 
-* [Get App Metadata](#get) 
-* [Copy Mapping](#copy) 
-* [Copy Filter](#copy2) 
-* [Swap Connection](#swap) 
-* [Swap Variable](#swap2) 
-* [Swap App](#swap3) 
-* [Base 64](#base) 
-* [Copy Module Name](#copy3) 
-* [Remap Source](#remap) 
-* [Highlight App](#highligh) 
-* [Migrate GS](#migrate)
+* [Focus a Module](#focus-a-module) 
+* [Find Modules by Mapping](#find-modules-by-mapping) 
+* [Get App Metadata](#get-app-metadata) 
+* [Copy Mapping](#copy-mapping) 
+* [Copy Filter](#copy-filter) 
+* [Swap Connection](#swap-connection) 
+* [Swap Variable](#swap-variable) 
+* [Swap App](#swap-app) 
+* [Base 64](#base-64) 
+* [Copy Module Name](#copy-module-name) 
+* [Remap Source](#remap-source) 
+* [Highlight App](#highlight-app) 
+* [Migrate GS](#migrate-gs)
 
-#### Focus a Module
+#### Focus a Module {#focus-a-module}
 
 Opens settings of the specified module by ID.
 
 | Module ID | Enter the ID of the module for which you want to open settings. |
 |---|---|
 
-#### Find Modules by Mapping
+#### Find Modules by Mapping {#find-modules-by-mapping}
 
 Allows you to search modules' values for a specified term. The output contains IDs of modules that contain the term you have searched for.
 
@@ -217,18 +217,20 @@ Allows you to search modules' values for a specified term. The output contains I
  </tbody> 
 </table>
 
-#### Get App Metadata
+#### Get App Metadata {#get-app-metadata}
 
 Retrieves metadata of the app by the app's module name or ID. This is useful, for example, when you need to know the version of the app used in your scenario.
 
 | Source Module |Select the module for which you want to retrieve metadata. |
 |---|---|
 
-#### Copy Mapping
+#### Copy Mapping {#copy-mapping}
 
 Copies values from the source module to the target module.
 
-``` ```**Warning: **``````Make sure you set the correct source and target modules. If you select a different type of module, values in the target module will be deleted.
+>[!CAUTION]
+>
+>Make sure you set the correct source and target modules. If you select a different type of module, values in the target module will be deleted.
 
 <table cellspacing="0"> 
  <col> 
@@ -245,7 +247,7 @@ Copies values from the source module to the target module.
  </tbody> 
 </table>
 
-#### Copy Filter
+#### Copy Filter {#copy-filter}
 
 Copies the filter settings from the source module to the target module.
 
@@ -272,14 +274,14 @@ Copies the filter settings from the source module to the target module.
  </tbody> 
 </table>
 
-#### Swap Connection
+#### Swap Connection {#swap-connection}
 
 Duplicates a connection from the source module to every module in the scenario of the same app.
 
 | Source Module | Select the module or enter the ID of the module from which you want to duplicate the connection.  |
 |---|---|
 
-#### Swap Variable
+#### Swap Variable {#swap-variable}
 
 Searches for specified variables in the scenario and replaces them with a new variable.
 
@@ -302,7 +304,7 @@ Searches for specified variables in the scenario and replaces them with a new va
  </tbody> 
 </table>
 
-#### Swap App
+#### Swap App {#swap-app}
 
 Replaces the selected app version in your scenario with another app version.
 
@@ -323,7 +325,7 @@ This can be used, for example, to upgrade Gmail and Email apps' modules to the l
  </tbody> 
 </table>
 
-#### Base 64
+#### Base 64 {#base-64}
 
 Allows you to encode the entered data to Base64 or to decode Base64. Some requests are encoded to Base64. This tool can be useful when you want to search for particular data in the encoded request.
 
@@ -342,7 +344,7 @@ Allows you to encode the entered data to Base64 or to decode Base64. Some reques
  </tbody> 
 </table>
 
-#### Copy Module Name
+#### Copy Module Name {#copy-module-name}
 
 Copies the name of the selected module to your clipboard.
 
@@ -357,7 +359,7 @@ Copies the name of the selected module to your clipboard.
  </tbody> 
 </table>
 
-#### Remap Source
+#### Remap Source {#remap-source}
 
 Allows you to change the mapping source from one module to another.
 
@@ -382,7 +384,7 @@ You must first add the module you want to use as a source module to the route in
  </tbody> 
 </table>
 
-#### Highlight App
+#### Highlight App {#highlight-app}
 
 Highlights modules of the specified app in your scenario.
 
@@ -405,7 +407,7 @@ Highlights modules of the specified app in your scenario.
  </tbody> 
 </table>
 
-#### Migrate GS
+#### Migrate GS {#migrate-gs}
 
 This tool is made especially to upgrade Google Sheets (legacy) modules to the latest Google Sheets version. It adds a new version of the module just after the legacy version of the module in the scenario route.
 

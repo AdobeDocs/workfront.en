@@ -24,7 +24,7 @@ In order to understand how extensively reports are used in your system you can v
 
 You can build a view for a list of reports where you can display this information.  
 You can filter a list of reports by some of these fields.  
-For more information about what fields you can filter a report by, see the article [Filter a report list by usage information](#filtering-by-report-usage).
+For more information about what fields you can filter a report by, see the article [Filter a report list by usage information](#filter-a-report-list-by-usage-information).
 
 ## Access requirements
 
@@ -84,7 +84,7 @@ You must have the following access to perform the steps in this article:
    You must have Edit access to Reports in your access level to build a report.  
    For more information about access to reports, see the article [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-## Filter a report list by usage information
+## Filter a report list by usage information {#filter-a-report-list-by-usage-information}
 
 1. Go to the **Reporting** area in the Global Navigation Bar. 
 1. Select the **Reports** tab.<![CDATA[     ]]>

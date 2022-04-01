@@ -132,12 +132,12 @@ You must have the following access to perform the steps in this article:
 <li value="1"> <p>Go to a list of portfolios and select one or more portfolios that you want to edit, then click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> at the top of the list. </p> <p>The <strong>Edit Portfolio</strong> dialog box displays.</p> <p> <img src="assets/edit-portfolio-box-classic-350x224.png" style="width: 350;height: 224;"> </p> <p>All portfolio fields are available in the Edit Portfolio box and are grouped by the areas listed in the left panel. </p> </li>
 <li value="2">Consider specifying information in any of the following sections:
 <ul>
-<li><a href="#issue" class="MCXref xref">Overview</a></li>
-<li><a href="#custom%c2%a0f" class="MCXref xref">Custom&nbsp;Forms</a></li>
+<li><a href="#overview" class="MCXref xref">Overview</a></li>
+<li><a href="#Custom%C2%A0F" class="MCXref xref">Custom&nbsp;Forms</a></li>
 <li><a href="#comment" class="MCXref xref">Comment</a></li>
 </ul></li>
 </ol>
-<h3><a name="Issue"></a>Overview</h3>
+<h3 id="overview"><a name="Issue"></a>Overview</h3>
 <ol>
 <li value="1">Begin editing a portfolio as described above.</li>
 <li value="2"> <p>Click <strong>Overview</strong> and specify the following fields: </p>
@@ -186,7 +186,7 @@ Depending on how your Workfront administrator set the permissions for the sectio
 </note> </li>
 <li value="3"> <p>Update any fields in the custom forms, then click <strong>Save Changes</strong> or continue with the following section. </p> </li>
 </ol>
-<h3><a name="Comment"></a>Comment</h3>
+<h3 id="comment"><a name="Comment"></a>Comment</h3>
 <ol>
 <li value="1"> <p>Begin editing a portfolio as described above.</p> </li>
 <li value="2"> <p>Click&nbsp;<strong>Comment</strong>. </p> <p> <img src="assets/comment-box-edit-portfolio-classic-350x227.png" style="width: 350;height: 227;"> </p> </li>

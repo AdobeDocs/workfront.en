@@ -25,7 +25,7 @@ Consider the following benefits of the new left panel navigation:
 
 * You can easily change the order of the sections in the left navigation without opening additional screens by dragging and dropping them in the order that you desire.
 
-  For more information, see the following section in this article: [Use the new left navigation panel](#examples).
+  For more information, see the following section in this article: [Use the new left navigation panel](#use-the-new-left-navigation-panel).
 
 ## Left navigation panel replaced most tabs
 
@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-## Default sections in the left navigation panel
+## Default sections in the left navigation panel {#default-sections-in-the-left-navigation-panel}
 
 You can access more information about objects or areas from the left panel for various objects or areas in the new Adobe Workfront experience.
 
@@ -83,17 +83,17 @@ The left panel is available for the following objects:
 Depending on the object or the area you've navigated to, the sections that appear in the left panel are different.
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#default2" class="MCXref xref">Default sections for objects</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#default-sections-for-objects" class="MCXref xref">Default sections for objects</a> </li>
   -->
 
-* [Default sections in the Dashboards area](#left7) 
-* [Default sections in the Requests area](#left3) 
-* [Default sections in the Resourcing area](#left4) 
-* [Default sections in the Projects area](#left5) 
-* [Default sections in the Timesheets area](#left6)
+* [Default sections in the Dashboards area](#default-sections-in-the-dashboards-area) 
+* [Default sections in the Requests area](#default-sections-in-the-requests-area) 
+* [Default sections in the Resourcing area](#default-sections-in-the-resourcing-area) 
+* [Default sections in the Projects area](#default-sections-in-the-projects-area) 
+* [Default sections in the Timesheets area](#default-sections-in-the-timesheets-area)
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Default2"></a>Default sections for objects</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="default-sections-for-objects"><a name="Default2"></a>Default sections for objects</h3>
 -->
 
 <!--
@@ -126,10 +126,10 @@ Depending on the object or the area you've navigated to, the sections that appea
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn how to use the left panel for an object, see <a href="#examples" class="MCXref xref">Use the new left navigation panel</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn how to use the left panel for an object, see <a href="#use-the-new-left-navigation-panel" class="MCXref xref">Use the new left navigation panel</a>.</p>
 -->
 
-### Default sections in the Dashboards area
+### Default sections in the Dashboards area {#default-sections-in-the-dashboards-area}
 
 The following sections display in the left panel for the **Dashboards** area:
 
@@ -138,18 +138,18 @@ The following sections display in the left panel for the **Dashboards** area:
 | Shared Dashboards |Displays the dashboards that have been created by other users and shared with you. |
 | All Dashboards |Displays the dashboards that you or other users have created, and which you have permissions to at least View. |
 
-To learn how to use the left panel in the Dashboards area, see [Use the new left navigation panel](#examples).
+To learn how to use the left panel in the Dashboards area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
 
-### Default sections in the Requests area
+### Default sections in the Requests area {#default-sections-in-the-requests-area}
 
 | New |Displays the new request queue area where you can submit new requests. |
 |---|---|
 | Submitted |Displays requests that you or other users have submitted, and which you have permissions to at least View. Use the filters in the upper-right corner of the request list to view your requests or requests others have submitted and you have access to view.  |
 | Drafts |Displays requests that you have started but you have not submitted them yet. Workfront automatically saves any new request in the Drafts folder, after you have selected your queue topic.  |
 
-To learn how to use the left panel in the Requests area, see [Use the new left navigation panel](#examples).
+To learn how to use the left panel in the Requests area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
 
-### Default sections in the Resourcing area
+### Default sections in the Resourcing area {#default-sections-in-the-resourcing-area}
 
 The following sections display in the left panel for the **Resourcing** area:
 
@@ -176,9 +176,9 @@ The following sections display in the left panel for the **Resourcing** area:
  </tbody> 
 </table>
 
-To learn how to use the left panel in the Resourcing area, see [Use the new left navigation panel](#examples).
+To learn how to use the left panel in the Resourcing area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
 
-### Default sections in the Projects area
+### Default sections in the Projects area {#default-sections-in-the-projects-area}
 
 The following sections display in the left panel for the **Projects** area:
 
@@ -186,9 +186,9 @@ The following sections display in the left panel for the **Projects** area:
 |---|---|
 | Custom sections |You can view all the custom sections that your Workfront administrator has added to the left panel for the Projects area in your Layout Template. Custom sections have names that have been customized for your environment. |
 
-To learn how to use the left panel in the Projects area, see [Use the new left navigation panel](#examples).
+To learn how to use the left panel in the Projects area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
 
-### Default sections in the Timesheets area
+### Default sections in the Timesheets area {#default-sections-in-the-timesheets-area}
 
 The following sections display in the left panel for the **Timesheets** area:
 
@@ -197,13 +197,13 @@ The following sections display in the left panel for the **Timesheets** area:
 | Timesheets I Approve |Displays timesheets that have been submitted for your approval, by default. To display active or all timesheets where you are the approver, select Active or App from the Filter drop-down menu. |
 | All Timesheets |Displays all timesheets that you have access to view, based on the filters selected in the left Filter area. |
 
-To learn how to use the left panel in the Timesheets area, see [Use the new left navigation panel](#examples).
+To learn how to use the left panel in the Timesheets area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
 
-## Use the new left navigation panel
+## Use the new left navigation panel {#use-the-new-left-navigation-panel}
 
 Finding and editing information in the left panel is similar for these objects. The options available in the left panel are different depending on what object you access.
 
-To learn what sections are available for specific areas, see [Default sections in the left navigation panel](#default).
+To learn what sections are available for specific areas, see [Default sections in the left navigation panel](#default-sections-in-the-left-navigation-panel).
 
 1. Click the **Main menu** icon ![](assets/main-menu-icon-16x12.png), then click the name of an object to access it.
 

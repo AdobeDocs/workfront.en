@@ -69,12 +69,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Trigger modules](#trigger) 
-* [Modules for getting Dropbox files and folders](#get) 
-* [Modules for creating and editing Dropbox files and folders](#create) 
-* [Other modules](#other)
+* [Trigger modules](#trigger-modules) 
+* [Modules for getting Dropbox files and folders](#modules-for-getting-dropbox-files-and-folders) 
+* [Modules for creating and editing Dropbox files and folders](#modules-for-creating-and-editing-dropbox-files-and-folders) 
+* [Other modules](#other-modules)
 
-### Trigger modules
+### Trigger modules {#trigger-modules}
 
 #### Watch Files
 
@@ -103,15 +103,15 @@ This Trigger type module returns file details when the file in a specified folde
  </tbody> 
 </table>
 
-### Modules for getting Dropbox files and folders
+### Modules for getting Dropbox files and folders {#modules-for-getting-dropbox-files-and-folders}
 
-* [Search Files/Folders](#search) 
-* [Download a File](#get2) 
-* [Get a Folder Metadata](#get3) 
-* [List All Files/Subfolders in a Folder](#list) 
-* [List File Revisions](#list2)
+* [Search Files/Folders](#search-files-folders) 
+* [Download a File](#download-a-file) 
+* [Get a Folder Metadata](#get-a-folder-metadata) 
+* [List All Files/Subfolders in a Folder](#list-all-files-subfolders-in-a-folder) 
+* [List File Revisions](#list-file-revisions)
 
-#### Search Files/Folders
+#### Search Files/Folders {#search-files-folders}
 
 This search module looks for records in an object in Dropbox that match the search query you specify.
 
@@ -152,7 +152,7 @@ You can map this information in subsequent modules in the scenario.
  </tbody> 
 </table>
 
-#### Download a File
+#### Download a File {#download-a-file}
 
 This action module downloads a file from a folder.
 
@@ -185,7 +185,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Get a Folder Metadata
+#### Get a Folder Metadata {#get-a-folder-metadata}
 
 This action module retrieves shared folder details.
 
@@ -210,7 +210,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### List All Files/Subfolders in a Folder
+#### List All Files/Subfolders in a Folder {#list-all-files-subfolders-in-a-folder}
 
 This action module lists files or folders in a particular folder.
 
@@ -247,7 +247,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### List File Revisions
+#### List File Revisions {#list-file-revisions}
 
 This action module retrieves all file revisions (a version history) of a particular file.  
 You specify the ID of the file.
@@ -279,18 +279,18 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Modules for creating and editing Dropbox files and folders
+### Modules for creating and editing Dropbox files and folders {#modules-for-creating-and-editing-dropbox-files-and-folders}
 
-* [Upload a File](#upload) 
-* [Create a Folder](#create2) 
-* [Create/Overwrite a Text File](#create/o) 
-* [Create/Update a Share Link](#create3) 
-* [Restore a File](#restore) 
-* [Move a File/Folder](#move) 
-* [Rename a File/Folder](#rename) 
-* [Delete a File/Folder](#delete)
+* [Upload a File](#upload-a-file) 
+* [Create a Folder](#create-a-folder) 
+* [Create/Overwrite a Text File](#create-overwrite-a-text-file) 
+* [Create/Update a Share Link](#create-update-a-share-link) 
+* [Restore a File](#restore-a-file) 
+* [Move a File/Folder](#move-a-file-folder) 
+* [Rename a File/Folder](#rename-a-file-folder) 
+* [Delete a File/Folder](#delete-a-file-folder)
 
-#### Upload a File
+#### Upload a File {#upload-a-file}
 
 This action module uploads a file to a folder.
 
@@ -323,7 +323,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Create a Folder
+#### Create a Folder {#create-a-folder}
 
 This action module creates a new folder.
 
@@ -356,7 +356,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Create/Overwrite a Text File
+#### Create/Overwrite a Text File {#create-overwrite-a-text-file}
 
 This action module creates a DOC file or overwrites the content of an existing one.
 
@@ -389,7 +389,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Create/Update a Share Link
+#### Create/Update a Share Link {#create-update-a-share-link}
 
 This action module creates a public link to a file.
 
@@ -430,7 +430,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Restore a File
+#### Restore a File {#restore-a-file}
 
 This action module restores a previous version of a file.
 
@@ -463,7 +463,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Move a File/Folder
+#### Move a File/Folder {#move-a-file-folder}
 
 This action module moves a file or folder to a different location.
 
@@ -508,7 +508,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Rename a File/Folder
+#### Rename a File/Folder {#rename-a-file-folder}
 
 This action module renames a file or folder.
 
@@ -541,7 +541,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Delete a File/Folder
+#### Delete a File/Folder {#delete-a-file-folder}
 
 This action module deletes a file or folder.
 
@@ -570,7 +570,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Other modules
+### Other modules {#other-modules}
 
 #### Make an API Call
 
@@ -622,17 +622,17 @@ In our example, 10 tickets were returned:
 
 ## Common problems
 
-* [Unable to upload or update a file](#unable) 
-* [Image referenced via a shared link does not render](#image)
+* [Unable to upload or update a file](#unable-to-upload-or-update-a-file) 
+* [Image referenced via a shared link does not render](#image-referenced-via-a-shared-link-does-not-render)
 
-### Unable to upload or update a file
+### Unable to upload or update a file {#unable-to-upload-or-update-a-file}
 
 There are several situations when uploading or updating a file fails:
 
 * The uploaded file is too big and exceeds the maximum file size allowed for your Dropbox plan, or you have used all of your Dropbox account's storage quota. You must delete existing files from your Dropbox account or upgrade your plan.
 * The previously selected folder, to which the file is being uploaded to, no longer exists. The scenario stops and you must select the target folder again.
 
-### Image referenced via a shared link does not render
+### Image referenced via a shared link does not render {#image-referenced-via-a-shared-link-does-not-render}
 
 The URL returned by the Dropbox > Create a shared link does not link directly to an image, but to a Dropbox page. To force the image to download, replace the trailing 
 

@@ -29,41 +29,41 @@ You will receive a message in the Announcement Center in Workfront if any of the
 
 The feature groupings are as follows:
 
-* [Template Gantt Feature Grouping](#template-toggle) 
-* [Task List Gantt Feature Grouping](#task-list-toggle) 
-* [Resource Grid Feature Grouping](#resource-grid-toggle) 
-* [Legacy Resource Planning Feature Grouping](#legacy-resource-planning-toggle) 
-* [Project List Gantt Feature Grouping](#project-list-toggle) 
-* [Miscellaneous Feature Grouping](#miscellaneous-toggle)
+* [Template Gantt Feature Grouping](#template-gantt-feature-grouping) 
+* [Task List Gantt Feature Grouping](#task-list-gantt-feature-grouping) 
+* [Resource Grid Feature Grouping](#resource-grid-feature-grouping) 
+* [Legacy Resource Planning Feature Grouping](#legacy-resource-planning-feature-grouping) 
+* [Project List Gantt Feature Grouping](#project-list-gantt-feature-grouping) 
+* [Miscellaneous Feature Grouping](#miscellaneous-feature-grouping)
 
-## Template Gantt Feature Grouping
+## Template Gantt Feature Grouping {#template-gantt-feature-grouping}
 
 * The Legacy Gantt subtab in a list of Template Tasks on a Template, the Legacy Gantt view in the Subtasks tab of a Template Task, and in a Template Task report
 
-## Task List Gantt Feature Grouping
+## Task List Gantt Feature Grouping {#task-list-gantt-feature-grouping}
 
 * All Legacy Gantt views from project and task lists, as well as reports and reporting options
 
-## Resource Grid Feature Grouping
+## Resource Grid Feature Grouping {#resource-grid-feature-grouping}
 
 * Resource Grid in the Legacy Resource Planning tab in the People area&nbsp;
 * The Resource Grid subtab in the Staffing tab of a project
 * The Resource Grid option in a user report
 * The Resource Grid in a dashboard
 
-## Legacy Resource Planning Feature Grouping
+## Legacy Resource Planning Feature Grouping {#legacy-resource-planning-feature-grouping}
 
 * Capacity Planner in the Legacy Resource Planning tab in the People area&nbsp;
 * Resource Budget Manager in the Legacy Resource Planning tab in the People area
 * The Legacy Resource Estimates area in the Business Case of a project is displayed in view-only mode
 * The Resource Estimates report
 
-## Project List Gantt Feature Grouping
+## Project List Gantt Feature Grouping {#project-list-gantt-feature-grouping}
 
 * All Legacy Gantt views from project and task lists, as well as reports and reporting options
 * The Legacy Gantt subtabs in Portfolios and Programs
 
-## Miscellaneous Feature Grouping
+## Miscellaneous Feature Grouping {#miscellaneous-feature-grouping}
 
 * Team Builder
 * &nbsp;The Legacy Portfolio Optimizer

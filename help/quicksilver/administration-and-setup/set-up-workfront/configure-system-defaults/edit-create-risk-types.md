@@ -44,10 +44,10 @@ Risk types are labels you can use for your risks to categorize them for reportin
 
 Some risk types are already in Workfront, by default. To reflect the needs of your organization, you can either edit the existing risk types, or create new risk types.
 
-* [Edit existing risk types](#editing-existing-risk-types) 
-* [Create new risk types](#creating-new-risk-types)
+* [Edit existing risk types](#edit-existing-risk-types) 
+* [Create new risk types](#create-new-risk-types)
 
-### Edit existing risk types
+### Edit existing risk types {#edit-existing-risk-types}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -60,7 +60,7 @@ Some risk types are already in Workfront, by default. To reflect the needs of yo
 
 1. Click **Save Changes.**
 
-### Create new risk types
+### Create new risk types {#create-new-risk-types}
 
 ```<font size="2">You can create new risk types, in addition to the default ones, to reflect the needs of your organization.</font>```
 
@@ -78,7 +78,7 @@ To create a new risk type:
 
    >[!NOTE]
    >
-   >If you need to edit a custom risk type, see the section [Edit existing risk types](#editing-existing-risk-types) in this article.
+   >If you need to edit a custom risk type, see the section [Edit existing risk types](#edit-existing-risk-types) in this article.
 
 ## Attach risks with risk types on projects
 

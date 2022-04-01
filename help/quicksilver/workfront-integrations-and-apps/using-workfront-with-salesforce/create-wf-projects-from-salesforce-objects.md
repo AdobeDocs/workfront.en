@@ -67,11 +67,11 @@ To submit a Workfront request from a Salesforce Opportunity or Account ensure th
 
 ## Configuring the Creation of Workfront Projects from Salesforce
 
-* [Understanding the Automatic Creation of Projects](#understanding-creating-projects) 
-* [Configuring Triggers](#configure-triggers) 
-* [Understanding Project Names](#project-names)
+* [Understanding the Automatic Creation of Projects](#understanding-the-automatic-creation-of-projects) 
+* [Configuring Triggers](#configuring-triggers) 
+* [Understanding Project Names](#understanding-project-names)
 
-### Understanding the Automatic Creation of Projects
+### Understanding the Automatic Creation of Projects {#understanding-the-automatic-creation-of-projects}
 
 As the Salesforce system administrator, you can define triggers that can automatically create projects in Workfront when the following things happen in Salesforce:
 
@@ -94,7 +94,7 @@ Consider the following when configuring triggers to automatically create Workfro
 
 * One project in Workfront can be linked only to one opportunity or one account in Salesforce at any given time, but not to both at the same time.&nbsp;
 
-### Configuring Triggers
+### Configuring Triggers {#configuring-triggers}
 
 Once you configure the triggers, the process of creating Workfront projects is enabled for both Salesforce Classic or Lightning Experience frameworks.
 
@@ -180,7 +180,7 @@ To configure triggers in Salesforce:
 1. Click **Save**.  
    Workfront projects are now generated every time any of the triggers are met.
 
-### Understanding Project Names
+### Understanding Project Names {#understanding-project-names}
 
 Depending on which trigger generated the projects, the names of the projects in Workfront could follow either one of these patterns:
 

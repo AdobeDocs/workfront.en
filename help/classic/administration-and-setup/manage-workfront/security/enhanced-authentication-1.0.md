@@ -46,7 +46,7 @@ You should configure your email system to allow emails from no-reply@verificatio
 
 This is the email address Workfront uses to send emails to users for the following purposes:
 
-* The confirmation email when resetting the&nbsp;password for the Enhanced Authentication experience, as described in [Log in to Workfront with the Enhanced Authentication experience configured](#logging-in-to-workfront-with-new-authentication-configured).
+* The confirmation email when resetting the&nbsp;password for the Enhanced Authentication experience, as described in [Log in to Workfront with the Enhanced Authentication experience configured](#log-in-to-workfront-with-the-enhanced-authentication-experience-configured).
 * The welcome email that is sent after the user successfully configures the Enhanced Authentication experience.
 
 If you do not configure your email system to allow emails from this address, these important emails might go to the user's spam folder.
@@ -88,7 +88,7 @@ To send the Forgot Password email:
 
    This email might be in your spam folder.
 
-## Log in to Workfront with the Enhanced Authentication experience configured
+## Log in to Workfront with the Enhanced Authentication experience configured {#log-in-to-workfront-with-the-enhanced-authentication-experience-configured}
 
 >[!NOTE]
 >

@@ -28,7 +28,7 @@ The following sections outline all areas of the Resource Planner.
 Use the calendar at the top of the Resource Planner to navigate the timeline of the projects you are viewing. The timeline starts with today's month, by default.  
 For more information about changing the timeframe of the timeline you are displaying in the Resource Planner, see the section [Timeframe selection](#timeframe-selection) in this article.
 
-##  Timeframe selection
+##  Timeframe selection  {#timeframe-selection}
 
 ![time_frame_selection_in_the_resource_planner.png](assets/time-frame-selection-in-the-resource-planner-350x61.png)
 
@@ -88,11 +88,11 @@ In order to display accurate information in the Resource Planner, you must meet 
 
 1. In the**View by** drop-down menu, select one of the following views:
 
-   * [View by Project](#view-by-project-subsection)
-   * [View by Role](#view)
-   * [View by User](#view-by-user-subsection)
+   * [View by Project](#view-by-project)
+   * [View by Role](#view-by-role)
+   * [View by User](#view-by-user)
 
-### View by Project
+### View by Project {#view-by-project}
 
 Consider the following when selecting the Project View in the Resource Planner:
 
@@ -125,7 +125,7 @@ Consider the following when selecting the Project View in the Resource Planner:
 
 ###
 
-### View by Role
+### View by Role {#view-by-role}
 
 Consider the following when selecting the Role View in the Resource Planner:
 
@@ -148,7 +148,7 @@ Consider the following when selecting the Role View in the Resource Planner:
 
      For more information, see [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-### View by User
+### View by User {#view-by-user}
 
 You can display the Resource Planner in the User View to understand the difference between the Planned and the Available Hours or FTE for your users or to see the amount of Actual Hours they have logged.
 
@@ -223,7 +223,7 @@ You can see the following projects in the Resource Planner:
   >
   >We recommend using filters to reduce the number of projects you display in the Resource Planner.
 
-## Project Planning Priority
+## Project Planning Priority {#project-planning-priority}
 
 Projects are listed in order of priority in the Resource Planner with the most important project at the top. The priority is indicated by a number in front of the project name.
 
@@ -271,14 +271,14 @@ For more information about the **Percentage of FTE Availability** for a job role
 * ["No Role" section](#no-role-section) 
 * ["No User" section](#no-user-section)
 
-### "No Role" section
+### "No Role" section  {#no-role-section}
 
 When a user belongs to a resource pool associated with a project, but they do not have a job role associated with them, they appear in the **No Role** section, instead of under a specific job role.
 
 You cannot budget hours for a user in a **No Role** section. The user must have at least one job role associated with them to be budgeted for work.  
 ![no_role_with_user___res_planner.png](assets/no-role-with-user---res-planner-350x165.png)
 
-### "No User" section
+### "No User" section  {#no-user-section}
 
 When you assign a task to a team, or you leave it unassigned, the Planned Hours appear under the **No User** section which appears under the **No Role** section in the Resource Planner. These tasks do not appear in the Resource Planner when using the **View by User** view.
 
@@ -296,7 +296,7 @@ Using filters, you can limit the information that you display in the Resource Pl
 
 For more information about filtering in the Resource Planner, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
 
-## Settings
+## Settings {#settings}
 
 From the Settings area, you can enable or disable options to display or hide information in the Resource Planner.
 

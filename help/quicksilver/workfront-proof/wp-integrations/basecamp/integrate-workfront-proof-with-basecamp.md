@@ -45,7 +45,7 @@ You can integrate Workfront with either Basecamp or Basecamp Classic. Each versi
 
 For information on configuring Basecamp Classic, see [Integrating Workfront Proof with Basecamp Classic.](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
 
-## Enabling the Basecamp Integration with Workfront Proof
+## Enabling the Basecamp Integration with Workfront Proof {#enabling-the-basecamp-integration-with-workfront-proof}
 
 As a [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) or [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), you can set up the Basecamp integration for the whole account in your [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
@@ -76,7 +76,7 @@ As a [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp
 1. &nbsp;If you cannot enable Basecamp integration, your Workfront Proof account ID might not be the same as the account ID you use in Basecamp.
 1. Once you integrate Workfront Proof with Basecamp, your users can configure their personal settings. For information on setting up personal settings, see [Configuring Personal Settings](#configuring-personal-settings).
 
-## Configuring Personal Settings
+## Configuring Personal Settings {#configuring-personal-settings}
 
 After you set up [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) for your Organization, each one of your authors that creates/submits proofs should set their&nbsp; [personal settings.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 

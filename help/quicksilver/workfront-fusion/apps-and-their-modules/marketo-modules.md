@@ -61,7 +61,7 @@ You must have the following access to use the functionality in this article:
 
 To use Marketo modules, you must have a Marketo account.
 
-## Connect Marketo to Workfront Fusion
+## Connect Marketo to Workfront Fusion {#connect-marketo-to-workfront-fusion}
 
 You can create a connection to your Marketo account directly from inside Marketo module.
 
@@ -82,12 +82,12 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers
+### Triggers {#triggers}
 
-* [Watch records](#watch2) 
-* [Watch events (Instant)](#watch)
+* [Watch records](#watch-records) 
+* [Watch events (Instant)](#watch-events-instant)
 
-#### Watch records
+#### Watch records  {#watch-records}
 
 This trigger module starts a scenario when a record is created or updated.
 
@@ -97,7 +97,7 @@ This trigger module starts a scenario when a record is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -119,7 +119,7 @@ This trigger module starts a scenario when a record is created or updated.
  </tbody> 
 </table>
 
-#### Watch events (Instant)
+#### Watch events (Instant) {#watch-events-instant}
 
 This trigger module starts a scenario when a record is created or updated.
 
@@ -138,20 +138,20 @@ This trigger module starts a scenario when a record is created or updated.
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Custom API call](#custom) 
-* [Create a record](#create) 
-* [Update a record](#update) 
-* [Download a File](#download) 
-* [Upload a File](#upload) 
-* [Read a record](#read) 
-* [Add Leads to a List](#add) 
-* [Remove Leads from a List](#remove) 
-* [Schedule a Campaign](#schedule) 
-* [Copy a Program](#copy)
+* [Custom API call](#custom-api-call) 
+* [Create a record](#create-a-record) 
+* [Update a record](#update-a-record) 
+* [Download a File](#download-a-file) 
+* [Upload a File](#upload-a-file) 
+* [Read a record](#read-a-record) 
+* [Add Leads to a List](#add-leads-to-a-list) 
+* [Remove Leads from a List](#remove-leads-from-a-list) 
+* [Schedule a Campaign](#schedule-a-campaign) 
+* [Copy a Program](#copy-a-program)
 
-#### Custom API call
+#### Custom API call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Marketo API. This way, you can create a data flow automation that can't be accomplished by the other Marketo modules. 
 
@@ -161,7 +161,7 @@ This action module lets you make a custom authenticated call to the Marketo API.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -193,7 +193,7 @@ This action module lets you make a custom authenticated call to the Marketo API.
  </tbody> 
 </table>
 
-#### Create a record
+#### Create a record {#create-a-record}
 
 This action module creates a new record in Marketo
 
@@ -203,7 +203,7 @@ This action module creates a new record in Marketo
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -250,7 +250,7 @@ This action module creates a new record in Marketo
  </tbody> 
 </table>
 
-#### Update a record
+#### Update a record  {#update-a-record}
 
 This action module updates an existing record, using its ID.
 
@@ -260,7 +260,7 @@ This action module updates an existing record, using its ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -306,7 +306,7 @@ This action module updates an existing record, using its ID.
  </tbody> 
 </table>
 
-#### Download a File
+#### Download a File {#download-a-file}
 
 This action module downloads a file by using the file ID.
 
@@ -316,7 +316,7 @@ This action module downloads a file by using the file ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">File ID</td> 
@@ -325,7 +325,7 @@ This action module downloads a file by using the file ID.
  </tbody> 
 </table>
 
-#### Upload a File
+#### Upload a File {#upload-a-file}
 
 This action module uploads a new file to Marketo.
 
@@ -335,7 +335,7 @@ This action module uploads a new file to Marketo.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -352,7 +352,7 @@ This action module uploads a new file to Marketo.
  </tbody> 
 </table>
 
-#### Read a record
+#### Read a record {#read-a-record}
 
 This action module reads information about a record by using its ID.
 
@@ -362,7 +362,7 @@ This action module reads information about a record by using its ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -386,7 +386,7 @@ This action module reads information about a record by using its ID.
  </tbody> 
 </table>
 
-#### Add Leads to a List
+#### Add Leads to a List {#add-leads-to-a-list}
 
 This action module adds one or more leads to a list, by using the lead ID.
 
@@ -396,7 +396,7 @@ This action module adds one or more leads to a list, by using the lead ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List ID</td> 
@@ -409,7 +409,7 @@ This action module adds one or more leads to a list, by using the lead ID.
  </tbody> 
 </table>
 
-#### Remove Leads from a List
+#### Remove Leads from a List {#remove-leads-from-a-list}
 
 This action module removes one or more leads from a list, by using the lead ID.
 
@@ -419,7 +419,7 @@ This action module removes one or more leads from a list, by using the lead ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List ID</td> 
@@ -432,7 +432,7 @@ This action module removes one or more leads from a list, by using the lead ID.
  </tbody> 
 </table>
 
-#### Schedule a Campaign
+#### Schedule a Campaign {#schedule-a-campaign}
 
 This action module schedules an existing campaign for a certain date.
 
@@ -442,7 +442,7 @@ This action module schedules an existing campaign for a certain date.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Campaign ID</td> 
@@ -455,7 +455,7 @@ This action module schedules an existing campaign for a certain date.
  </tbody> 
 </table>
 
-#### Copy a Program
+#### Copy a Program {#copy-a-program}
 
 This action module makes a copy of a program using the existing program's ID. 
 
@@ -465,7 +465,7 @@ This action module makes a copy of a program using the existing program's ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Existing Program ID</td> 
@@ -482,12 +482,12 @@ This action module makes a copy of a program using the existing program's ID.
  </tbody> 
 </table>
 
-### Searches
+### Searches {#searches}
 
-* [List records](#list) 
-* [Search Records](#search)
+* [List records](#list-records) 
+* [Search Records](#search-records)
 
-#### List records
+#### List records {#list-records}
 
 This action module retrieves all records of a specific type.
 
@@ -497,7 +497,7 @@ This action module retrieves all records of a specific type.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -523,7 +523,7 @@ This action module retrieves all records of a specific type.
  </tbody> 
 </table>
 
-#### Search Records
+#### Search Records {#search-records}
 
 This search module retrieves a list of records that match specific search criteria.
 
@@ -533,7 +533,7 @@ This search module retrieves a list of records that match specific search criter
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 

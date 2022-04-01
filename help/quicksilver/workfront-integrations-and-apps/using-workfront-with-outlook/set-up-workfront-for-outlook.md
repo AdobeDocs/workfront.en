@@ -81,7 +81,7 @@ The Workfront add-in for Outlook is supported in environments that meet the foll
 * [Client requirements](#client-requirements) 
 * [Mail server requirements](#mail-server-requirements)
 
-### Client requirements
+### Client requirements {#client-requirements}
 
 We support the following versions of Outlook:&nbsp;
 
@@ -99,7 +99,7 @@ When configuring the client, the user must select one of the following account t
 * Office 365
 * Outlook.com****If the client is configured to connect with POP3 or IMAP, the Workfront add-in does not load.
 
-### Mail server requirements
+### Mail server requirements {#mail-server-requirements}
 
 The mail server requirements are met by default when you connect to Office 365 or Outlook.com. However, if you are connected to an on-premise installation of Exchange Server, the following requirements apply:
 
@@ -119,9 +119,9 @@ For more information about setting up the Workfront add-in for Outlook, see [Wor
 
 * [Workfront for Outlook 365](#workfront-for-outlook-365) 
 * [Workfront for Outlook on the Web](#workfront-for-outlook-on-the-web) 
-* [Workfront for Outlook on Windows or Mac](#workfront-for-windows-or-mac)
+* [Workfront for Outlook on Windows or Mac](#workfront-for-outlook-on-windows-or-mac)
 
-### Workfront for Outlook 365
+### Workfront for Outlook 365 {#workfront-for-outlook-365}
 
 1. In Outlook 365, click the **Browse Add-ins** icon ![](assets/outlook-add-in-26x26.png)at the top of the Office 365 interface, then click **Manage add-ins**.  
 
@@ -129,7 +129,7 @@ For more information about setting up the Workfront add-in for Outlook, see [Wor
 
 1. Click **Add**.
 
-### Workfront for Outlook on the Web
+### Workfront for Outlook on the Web {#workfront-for-outlook-on-the-web}
 
 1. Open Microsoft Outlook in a web browser.
 1. Click the **Browse add-ins** icon ![](assets/outlook-add-in-web-version-20x20.png).
@@ -142,7 +142,7 @@ For more information about setting up the Workfront add-in for Outlook, see [Wor
 
 1. When it appears on the list, click **Add**.
 
-### Workfront for Outlook on Windows or Mac
+### Workfront for Outlook on Windows or Mac {#workfront-for-outlook-on-windows-or-mac}
 
 1. Click **Home >****Store** on the ribbon.
 

@@ -60,38 +60,38 @@ To access restricted scopes, the connected service (Adobe Workfront Fusion or an
 
 There are a few exceptions that make it possible to send data to an unapproved third-party service that doesn’t have the Letter of Assessment without violating any of the new restrictions. They differ based on G Suite with the Workfront Fusion OAuth client, G Suite with another OAuth client, or @gmail.com and @google.mail.com.
 
-* [G suite with Workfront Fusion OAuth client](#g) 
-* [G suite with another OAuth client](#g2) 
-* [@gmail.com and @googlemail.com](#@gmail.c)
+* [G suite with Workfront Fusion OAuth client](#g-suite-with-workfront-fusion-oauth-client) 
+* [G suite with another OAuth client](#g-suite-with-another-oauth-client) 
+* [@gmail.com and @googlemail.com](#gmail-com-and-googlemail-com)
 
-### G suite with Workfront Fusion OAuth client
+### G suite with Workfront Fusion OAuth client {#g-suite-with-workfront-fusion-oauth-client}
 
 Workfront Fusion uses the Domain-wide Installation exception. Domain-wide Installation is suited for G Suite users, and allows users to integrate unapproved services without any limitations. If you are a G Suite user, you don't have to perform any additional steps and can directly connect to unapproved services.
 
-### G suite with another OAuth client
+### G suite with another OAuth client {#g-suite-with-another-oauth-client}
 
 G Suite users that prefer to use their own OAuth client instead of using the Workfront Fusion OAuth client can connect to Google Services through the Internal Use approach. This option is intended for advanced users. For instructions, see [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
-### @gmail.com and @googlemail.com
+### @gmail.com and @googlemail.com  {#gmail-com-and-googlemail-com}
 
 User that access Google Services through @gmail.com or @googlemail.com can connect to Google Services through the Personal Use approach. This option is intended for advanced users. For instructions, see [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
 ## FAQ
 
-* [What apps in Adobe Workfront Fusion are affected?](#what) 
-* [Do I have a G Suite account?](#do) 
-* [What should I do if I'm @gmail.com or @googlemail.com user?](#what2) 
-* [What should I do if I'm a G Suite user?](#what3)
+* [What apps in Adobe Workfront Fusion are affected?](#what-apps-in-adobe-workfront-fusion-are-affected) 
+* [Do I have a G Suite account?](#do-i-have-a-g-suite-account) 
+* [What should I do if I'm @gmail.com or @googlemail.com user?](#what-should-i-do-if-i-m-gmail-com-or-googlemail-com-user) 
+* [What should I do if I'm a G Suite user?](#what-should-i-do-if-i-m-a-g-suite-user)
 
-### What apps in Adobe Workfront Fusion are affected?
+### What apps in Adobe Workfront Fusion are affected? {#what-apps-in-adobe-workfront-fusion-are-affected}
 
 Google Drive, Gmail, and Email (connected to Gmail account).
 
-### Do I have a G Suite account?
+### Do I have a G Suite account? {#do-i-have-a-g-suite-account}
 
 If your email address ends with @gmail.com or @googlemail.com your account is not a G Suite account. If your Google account ends with custom domain such as @my-company.com then it is a G Suite account.
 
-### What should I do if I'm @gmail.com or @googlemail.com user?
+### What should I do if I'm @gmail.com or @googlemail.com user? {#what-should-i-do-if-i-m-gmail-com-or-googlemail-com-user}
 
 These new restrictions only apply if you are integrating Google Drive or Gmail. If you want to connect to Google Drive or Gmail, you can
 
@@ -107,6 +107,6 @@ If you want to integrate any other service than Google Drive or Gmail, these res
 
 For instructions about connecting other Google Services to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-### What should I do if I'm a G Suite user?
+### What should I do if I'm a G Suite user? {#what-should-i-do-if-i-m-a-g-suite-user}
 
 There is no required action.

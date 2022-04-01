@@ -48,7 +48,7 @@ By default, the projects are listed in the Project View of the Resource Planner 
 >Projects are listed according to the three criteria below only the first time you open the Resource Planner. However, this default priority automatically becomes your custom priority and cannot be reverted to the original priority any time you do one of the following:
 >
 >* When you click Save at any time.
->* When you manually change the project planning priority. For information about changing the project planning priority manually, see the section [Manually change the Project Planning Priority](#project-planning-priority-subsection) in this article.
+>* When you manually change the project planning priority. For information about changing the project planning priority manually, see the section [Manually change the Project Planning Priority](#manually-change-the-project-planning-priority) in this article.
 >
 >After the project priority becomes your custom priority, any changes in the project information no longer affect the ordering of the projects using these criteria. After this, you can prioritize projects only manually.
 
@@ -68,7 +68,7 @@ Consider the following when working with project priorities in the Resource Plan
 
 Projects associated with a portfolio might have a portfolio-level priority. You can enable viewing the portfolio priority of a project in the Resource Planner, in addition to the Resource Planner priority. You can also order the projects according to their portfolio priority. 
 
-## Manually change the Project Planning Priority
+## Manually change the Project Planning Priority {#manually-change-the-project-planning-priority}
 
 You must have Edit access to Resource Management and Manage permissions to projects, to reorder projects in the Resource Planner.
 

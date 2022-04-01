@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Prerequisites
+## Prerequisites {#prerequisites}
 
 Workfront uses a proprietary algorithm to determine assignment proposals. To facilitate the best results, ensure that the following information is accurate in Workfront:
 

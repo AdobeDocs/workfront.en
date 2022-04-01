@@ -69,7 +69,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Copy a subgroup to create a new top-level group</td> 
-      <td> <p>(Available only for Workfront administrators.) When you copy a subgroup, it becomes a parent group. All group members and subgroups are copied with it. The groups members retain any assignments they had in the original group.</p> <p>For more information about copying a subgroup, see <a href="#copying" class="MCXref xref">About copying a subgroup</a> in this article.</p> 
+      <td> <p>(Available only for Workfront administrators.) When you copy a subgroup, it becomes a parent group. All group members and subgroups are copied with it. The groups members retain any assignments they had in the original group.</p> <p>For more information about copying a subgroup, see <a href="#about-copying-a-subgroup" class="MCXref xref">About copying a subgroup</a> in this article.</p> 
        <ol> 
         <li value="1">Select a subgroup, then click <strong>More &gt; Copy</strong> to create a new top-level group based on the selected group.</li> 
         <li value="2"> <p>Configure the new group’s settings.</p> <p>For help with these settings, see the table in the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Create a top-level group by copying an existing group or subgroup</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Create a top-level group by copying an existing group or subgroup</a>.</p> </li> 
@@ -110,7 +110,7 @@ You can make a subgroup a top-level group by removing it from its parent group.
 1. In the **Edit Group** box that appears, under **Group Members and Group Administrators**, start typing the name of the subgroup that you want to make a top-level group, then click the X to the right of its name it when it appears.
 1. Click **Save**.
 
-## About copying a subgroup
+## About copying a subgroup {#about-copying-a-subgroup}
 
 Consider the following when you copy a subgroup.
 

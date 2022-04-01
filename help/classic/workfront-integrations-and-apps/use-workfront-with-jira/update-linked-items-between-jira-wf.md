@@ -157,11 +157,11 @@ The following list shows which Jira fields synchronize with Workfront fields on 
   </tr> 
   <tr> 
    <td> Log time in the Workfront right panel or from the More menu on the Jira issue<br></td> 
-   <td> <p>Hours<br>In addition to adding the hours logged in Jira to the linked Workfront item, a comment about logging time is added to the Updates tab of the Workfront item.</p> <p>For more information about logging time on linked Jira issues, including updating the Jira user who is logging the time in Workfront, see <a href="#logging-time-for-linked-jira-and-workfront-items" class="MCXref xref">Log time for Linked Jira and Workfront items</a>.</p> </td> 
+   <td> <p>Hours<br>In addition to adding the hours logged in Jira to the linked Workfront item, a comment about logging time is added to the Updates tab of the Workfront item.</p> <p>For more information about logging time on linked Jira issues, including updating the Jira user who is logging the time in Workfront, see <a href="#log-time-for-linked-jira-and-workfront-items" class="MCXref xref">Log time for Linked Jira and Workfront items</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Comments&nbsp;<br><br></td> 
-   <td> <p>Comments are added to the Updates tab of the Workfront issue or task if the <strong>Comments</strong> setting in the SYNCHRONIZE FROM JIRA TO WORKFRONT section of the Setup tab to <strong>Always</strong>.</p> <p>For information about configuring Workfront settings in Jira, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configuring Workfront for Jira</a>.</p> <p>For information about commenting on items from linked Jira issues, see <a href="#commenting-from-linked-jira-issues" class="MCXref xref">Comment from a linked Jira issue</a>.</p> </td> 
+   <td> <p>Comments are added to the Updates tab of the Workfront issue or task if the <strong>Comments</strong> setting in the SYNCHRONIZE FROM JIRA TO WORKFRONT section of the Setup tab to <strong>Always</strong>.</p> <p>For information about configuring Workfront settings in Jira, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configuring Workfront for Jira</a>.</p> <p>For information about commenting on items from linked Jira issues, see <a href="#comment-from-a-linked-jira-issue" class="MCXref xref">Comment from a linked Jira issue</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,10 +179,10 @@ The time you record in Workfront does not affect the time of the linked issue in
 A comment is added to the **Workfront** tab in Jira and to the **Updates** tab of the item in Workfront to record logging the time.  
 The time is also displayed in the **Hours** tab of the Workfront item.&nbsp;
 
-* [Log time for Linked Jira and Workfront items](#logging-time-for-linked-jira-and-workfront-items)&nbsp;
-* [Log time from Jira to a Workfront item](#logging-time-for-workfront-items-only)
+* [Log time for Linked Jira and Workfront items](#log-time-for-linked-jira-and-workfront-items)&nbsp;
+* [Log time from Jira to a Workfront item](#log-time-from-jira-to-a-workfront-item)
 
-### Log time for Linked Jira and Workfront items
+### Log time for Linked Jira and Workfront items {#log-time-for-linked-jira-and-workfront-items}
 
 You can log time from a Jira issue linked to a Workfront item, and the time is recorded both on the Jira issue as well as the Workfront item.&nbsp;
 
@@ -207,7 +207,7 @@ To log time for an item in Jira and have it recorded both in Jira and Workfront:
    The time is added to the **Work log** tab of the Jira item, as well as to the Workfront item linked to it.  
    The work description of the time entry is recorded as a note on the hour entry in Workfront.&nbsp;
 
-### Log time from Jira to a Workfront item
+### Log time from Jira to a Workfront item {#log-time-from-jira-to-a-workfront-item}
 
 You can log time just to the linked Workfront item from the Jira issue without recording this time to the Jira issue.&nbsp;
 
@@ -228,7 +228,7 @@ You can log time just to the linked Workfront item from the Jira issue without r
 
    This time is not added to the Work Log tab of the Jira issue.&nbsp;
 
-## Comment from a linked Jira issue
+## Comment from a linked Jira issue {#comment-from-a-linked-jira-issue}
 
 When you comment on a Jira item from the Workfront right panel in Jira, the comment is also added to the Updates tab of the linked item in Workfront.&nbsp;
 

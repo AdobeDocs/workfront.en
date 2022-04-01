@@ -37,7 +37,7 @@ The following are types of filters that you can use in&nbsp;Workfront:
   </tr> 
   <tr> 
    <td>Temporary or permanent filters for special areas</td> 
-   <td>Built by Workfront or customized by you or other users. You can save permanent filters and use more than one time, or you can apply them temporarily to serve your immediate needs, without saving them. Unsaved filters cannot be shared or deleted. They are available in special areas, as described in the section <a href="#filters" class="MCXref xref">Workfront filters for special areas</a> in this article. </td> 
+   <td>Built by Workfront or customized by you or other users. You can save permanent filters and use more than one time, or you can apply them temporarily to serve your immediate needs, without saving them. Unsaved filters cannot be shared or deleted. They are available in special areas, as described in the section <a href="#workfront-filters-for-special-areas" class="MCXref xref">Workfront filters for special areas</a> in this article. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ For more information about filters in lists and reports, see the following artic
 * [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) 
 * [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 
-## Workfront filters for special areas
+## Workfront filters for special areas {#workfront-filters-for-special-areas}
 
 You can use either built-in filters or build custom filters in the following areas of Workfront:
 
@@ -146,16 +146,16 @@ A filter contains the following elements:
   </tr> 
   <tr> 
    <td>Operator</td> 
-   <td>Connects multiple filter statements. For information, see the section <a href="#filter" class="MCXref xref">Filter operators</a> in this article. </td> 
+   <td>Connects multiple filter statements. For information, see the section <a href="#filter-operators" class="MCXref xref">Filter operators</a> in this article. </td> 
   </tr> 
   <tr> 
    <td>Modifier</td> 
-   <td>Indicates what kind of information you want your data to match. For information, see the section <a href="#filter2" class="MCXref xref">Filter modifiers</a> in this article. </td> 
+   <td>Indicates what kind of information you want your data to match. For information, see the section <a href="#filter-modifiers" class="MCXref xref">Filter modifiers</a> in this article. </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Filter operators
+## Filter operators {#filter-operators}
 
 Workfront has 2 filter operators that connect each filter statement:
 
@@ -169,7 +169,7 @@ Workfront has 2 filter operators that connect each filter statement:
   >
   >When changing your AND statements to OR statements, the number of the items in your report should increase.
 
-## Filter modifiers
+## Filter modifiers {#filter-modifiers}
 
 You can use filter modifiers to indicate what kind of information you want your data to match. 
 
@@ -199,10 +199,10 @@ For more information about creating a filter using the text mode interface, see 
 
 ## **Create filters for complex fields**
 
-* [Create filters for fields whose values contain commas](#filter-for-fields-with-commas) 
-* [Create filters for whose values are a multi-select custom field](#filter-for-multi-select)
+* [Create filters for fields whose values contain commas](#create-filters-for-fields-whose-values-contain-commas) 
+* [Create filters for whose values are a multi-select custom field](#create-filters-for-whose-values-are-a-multi-select-custom-field)
 
-### **Create filters for fields whose values contain commas**
+### **Create filters for fields whose values contain commas** {#create-filters-for-fields-whose-values-contain-commas}
 
 When building a filter in text mode and filtering for field values that contain commas, you must add a slash ("/") before the commas separating the&nbsp;values, to ensure that the value is read as one filter option. This only applies for the following field types:
 
@@ -221,7 +221,7 @@ If you want to build a filter that would find only projects where the third opti
 
 This syntax also applies when building prompts. For more information about using prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-### **Create filters for whose values are a multi-select custom field**
+### **Create filters for whose values are a multi-select custom field** {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 
 You can report on multi-select custom fields.&nbsp;For example, you can report on fields that are checkboxes.
 
@@ -389,8 +389,8 @@ When changing your AND statements to OR statements, the number of the items in y
 <p>For more information about creating a filter using the text mode interface, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>. </p>
 <h2><a name="complex-fields"></a>Create filters for complex fields</h2>
 <ul>
-<li><a href="#filter-for-fields-with-commas" class="MCXref xref">Create filters for fields whose values contain commas</a> </li>
-<li><a href="#filter-for-multi-select" class="MCXref xref">Create filters for whose values are a multi-select custom field</a> </li>
+<li><a href="#create-filters-for-fields-whose-values-contain-commas" class="MCXref xref">Create filters for fields whose values contain commas</a> </li>
+<li><a href="#create-filters-for-whose-values-are-a-multi-select-custom-field" class="MCXref xref">Create filters for whose values are a multi-select custom field</a> </li>
 </ul>
 <h4><a name="filter-for-fields-with-commas"></a><strong>Create a filter for fields that contain commas</strong> </h4>
 <p>When building a filter in text mode and filtering for field values that contain commas, you must add a slash ("/") before the commas separating the values, to ensure that the value is read as one filter option. This only applies for the following field types:</p>

@@ -72,11 +72,13 @@ You must have the following to perform the steps in this article:
 
 ## Start editing a custom form
 
-You can edit a custom form any time after it has been created. 
+You can edit a custom form any time after it has been created.
 
-``` ```**Warning: **`````` For information about removing fields from a custom form without losing data that users have entered in those fields, see the section [Remove fields without losing data](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md#remove) in the article [Delete a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
-
-In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
+>[!CAUTION]
+>
+>For information about removing fields from a custom form without losing data that users have entered in those fields, see the section [Remove fields without losing data](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md#remove) in the article [Delete a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+>
+>In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Custom Forms** in the left panel.

@@ -90,7 +90,7 @@ In addition to the considerations described below, we recommend that you revisit
 
 The following sections describe the different methods of associating an approval process to a project, task, or issue.
 
-## Associate a global approval process with a work item
+## Associate a global approval process with a work item {#associate-a-global-approval-process-with-a-work-item}
 
 You can associate a global approval process with a work item (project, task, issue, template, template task).
 
@@ -104,7 +104,7 @@ For information about how Workfront administrators can configure a global approv
 
 >[!NOTE]
 >
->You can also modify a global approval process to meet your specific needs. For more information, see the section [Modify a global approval process for use on a specific object](#modifying-a-global-approval-process) in this article.
+>You can also modify a global approval process to meet your specific needs. For more information, see the section [Modify a global approval process for use on a specific object](#modify-a-global-approval-process-for-use-on-a-specific-object) in this article.
 
 To associate an existing global approval process with a project, task, issue, template, or template task:
 
@@ -145,9 +145,9 @@ To associate an existing global approval process with a project, task, issue, te
    -->
 
 1. Click **Save**.
-1. (Optional) Click Edit Approval Process if you want to modify the existing approval you attached to the item. This changes the global approval process to a single-use approval process. For more information, see the section [Modify a global approval process for use on a specific object](#modifying-a-global-approval-process) in this article.
+1. (Optional) Click Edit Approval Process if you want to modify the existing approval you attached to the item. This changes the global approval process to a single-use approval process. For more information, see the section [Modify a global approval process for use on a specific object](#modify-a-global-approval-process-for-use-on-a-specific-object) in this article.
 
-## Modify a global approval process for use on a specific object
+## Modify a global approval process for use on a specific object {#modify-a-global-approval-process-for-use-on-a-specific-object}
 
 Your Workfront administrator or group administrator creates global approval processes for you to use, as described in [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). You can modify a global approval process to suit any specific needs of the project, task, or issue where you are associating it.
 
@@ -165,7 +165,7 @@ To modify an existing global approval process:
 
 1. Add a global approval process to the project, task, or issue.
 
-   For instructions, see the section [Associate a global approval process with a work item](#associating-an-existing-global-approval-process) in this article.
+   For instructions, see the section [Associate a global approval process with a work item](#associate-a-global-approval-process-with-a-work-item) in this article.
 
    >[!IMPORTANT]
    >
@@ -175,10 +175,10 @@ To modify an existing global approval process:
 
    ![](assets/edit-approval-process-button-on-task-highlighted-nwe-350x189.png)
 
-1. Make any changes to the existing approval process. For more information, see the section [Associate a single-use approval process with a project, task, issue, template, or template task](#creating-a-single-use-approval-process) in this article. 
+1. Make any changes to the existing approval process. For more information, see the section [Associate a single-use approval process with a project, task, issue, template, or template task](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task) in this article. 
 1. Click **Save**, then click**Save** again to confirm that you want to convert the global approval process to a single-use approval process that is available only on this object.
 
-## Associate a single-use approval process with a project, task, issue, template, or template task
+## Associate a single-use approval process with a project, task, issue, template, or template task {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
 
 You can create a single-use approval process for use only on a specific project, task, or issue.
 
@@ -190,7 +190,7 @@ You can also associate a single-use approval process with a template or template
 
 Creating an approval process in this way enables you to create a custom approval process to meet your needs. However, the approval process cannot be associated with other work items in the future.
 
-Alternatively, you can modify a global approval process for a specific item and that also becomes a single-use approval process. For information, see the section [Modify a global approval process for use on a specific object](#modifying-a-global-approval-process) in this article.
+Alternatively, you can modify a global approval process for a specific item and that also becomes a single-use approval process. For information, see the section [Modify a global approval process for use on a specific object](#modify-a-global-approval-process-for-use-on-a-specific-object) in this article.
 
 To create a single-use approval process:
 
@@ -234,7 +234,7 @@ To create a single-use approval process:
 
 You can associate an approval process automatically with work items using the following workflows:
 
-* For projects and tasks, you can associate an approval process using a template. You can attach an existing approval process to the Template Approvals tab or the Template Task Approvals tab. For information about associating an existing approval with a work item, see [Associate a global approval process with a work item](#associating-an-existing-global-approval-process) in this article.
+* For projects and tasks, you can associate an approval process using a template. You can attach an existing approval process to the Template Approvals tab or the Template Task Approvals tab. For information about associating an existing approval with a work item, see [Associate a global approval process with a work item](#associate-a-global-approval-process-with-a-work-item) in this article.
 * For new tasks on an existing project, you can associate a global approval process or a group-level global approval process in the Task Settings area of the Edit Project box. For information, see the section "Task Settings"&nbsp;in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 * For issues, you can associate an approval with every new issue that is added to a project by associating an existing approval process with a request queue. For information about configuring request queues, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 

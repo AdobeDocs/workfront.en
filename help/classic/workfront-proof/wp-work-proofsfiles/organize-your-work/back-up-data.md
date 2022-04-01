@@ -59,12 +59,12 @@ When your backup is ready, the following occurs:
 
 Your data will be ready to download as a zip file. You can download the backup .zip file either from the notification email or in the account settings, as described in the following sections:
 
-* [Downloading your backup .zip file from your email notification](#download-your-backup-zip-file-from-your-email-notification) 
-* [Downloading your backup .zip file from the account settings](#download-your-backup-zip-file-from-the-account-settings)
+* [Downloading your backup .zip file from your email notification](#downloading-your-backup-zip-file-from-your-email-notification) 
+* [Downloading your backup .zip file from the account settings](#downloading-your-backup-zip-file-from-the-account-settings)
 
 ![Request_Backup.png](assets/request-backup-350x167.png)
 
-## Downloading your backup .zip file from your email notification
+## Downloading your backup .zip file from your email notification {#downloading-your-backup-zip-file-from-your-email-notification}
 
 When your backup .zip file is ready to download, you receive an email from Workfront Proof with the subject line 'Your Workfront Proof backup is ready.'
 
@@ -74,7 +74,7 @@ To download the backup .zip file from the email:
    ![Backup_mail.png](assets/backup-mail-350x120.png)  
    If you are not currently logged in to Workfront Proof, a new browser window opens and displays the login page.
 
-## Downloading your backup .zip file from the account settings
+## Downloading your backup .zip file from the account settings {#downloading-your-backup-zip-file-from-the-account-settings}
 
 When your backup .zip file is ready to download, the Backup tab indicates this by displaying a download link. In addition, the Request new backup link appears again.
 

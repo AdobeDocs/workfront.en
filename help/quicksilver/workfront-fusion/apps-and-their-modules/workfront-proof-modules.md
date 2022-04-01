@@ -73,13 +73,13 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers
+### Triggers {#triggers}
 
-* [Watch Proofs](#watch) 
-* [Watch for PDF Summary](#watch2) 
-* [Watch for PDF Summary](#watch2)
+* [Watch Proofs](#watch-proofs) 
+* [Watch for PDF Summary](#watch-for-pdf-summary) 
+* [Watch for PDF Summary](#watch-for-pdf-summary)
 
-#### Watch Proofs
+#### Watch Proofs {#watch-proofs}
 
 This scheduled trigger module executes a scenario when someone creates or makes a decision on a proof.
 
@@ -114,7 +114,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Watch for PDF Summary
+#### Watch for PDF Summary {#watch-for-pdf-summary}
 
 This instant trigger module executes a scenario when someone creates a PDF summary for a proof.
 
@@ -170,18 +170,18 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Actions
+### Actions {#actions}
 
-* [Create Proof](#create) 
-* [Custom API Call](#custom) 
-* [Download Proof](#download) 
-* [Read a Record](#read) 
-* [Request PDF Summary](#request) 
-* [Possible error](#possible) 
-* [Update Proof](#update) 
-* [Upload File](#upload)
+* [Create Proof](#create-proof) 
+* [Custom API Call](#custom-api-call) 
+* [Download Proof](#download-proof) 
+* [Read a Record](#read-a-record) 
+* [Request PDF Summary](#request-pdf-summary) 
+* [Possible error](#possible-error) 
+* [Update Proof](#update-proof) 
+* [Upload File](#upload-file)
 
-#### Create Proof
+#### Create Proof {#create-proof}
 
 This action module creates a new proof or a new version of a proof in Workfront Proof.
 
@@ -338,7 +338,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Custom API Call
+#### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the Workfront Proof API. This way, you can create a data flow automation that can't be accomplished by the other Workfront Proof modules.
 
@@ -370,7 +370,7 @@ When you are configuring this module, the following fields display.
 
 ``` ```**Example: **``````  ![](assets/wfp-api-module-example-350x586.png)
 
-#### Download Proof
+#### Download Proof {#download-proof}
 
 This action module downloads the source file of a particular proof that you identify using its ID.
 
@@ -397,7 +397,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Read a Record
+#### Read a Record {#read-a-record}
 
 This action module reads data from a single proof in Workfront Proof.
 
@@ -437,7 +437,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Request PDF Summary
+#### Request PDF Summary {#request-pdf-summary}
 
 This action module requests the PDF summary for a particular proof in Workfront Proof.
 
@@ -482,12 +482,12 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-##### Possible error
+##### Possible error {#possible-error}
 
 * **Error**: “You do not have privilege to perform this request. The stage must contain at least one recipient.”
 * **Solution**: Make sure you are not the only one assigned to the stages of the workflow. There must be another user assigned to the stages of the workflow.
 
-#### Update Proof
+#### Update Proof {#update-proof}
 
 This action module updates an existing proof in Workfront Proof.
 
@@ -578,7 +578,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Upload File
+#### Upload File {#upload-file}
 
 This action module uploads a file for use with the Create Proof module in Workfront Proof.
 
@@ -615,12 +615,12 @@ When you are configuring this module, the following fields display.
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Are there more main fields for this module?</p>
 -->
 
-### Searches
+### Searches {#searches}
 
 * [Search](#search) 
-* [List Workflow Templates](#list)
+* [List Workflow Templates](#list-workflow-templates)
 
-#### Search
+#### Search {#search}
 
 This search module looks for records in an object in Workfront Proof that match the search query you specify.
 
@@ -661,7 +661,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### List Workflow Templates
+#### List Workflow Templates {#list-workflow-templates}
 
 This search module lists all available workflow templates.
 
@@ -686,7 +686,7 @@ This search module lists all available workflow templates.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3><a name="Build"></a>Build</h3> <!--
+<h3 id="build"><a name="Build"></a>Build</h3> <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I don't see this in Fusion 2</p>
 -->
 <p>This action module creates a new proof recipient or stage in an Automated Workflow.</p>

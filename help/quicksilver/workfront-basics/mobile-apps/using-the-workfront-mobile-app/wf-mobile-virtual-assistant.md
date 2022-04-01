@@ -15,13 +15,13 @@ Use the Adobe Workfront mobile app virtual assistant to locate, delete, and sear
 
 Use the following voice commands to manage work in the mobile app:
 
-* [Show me, Find, Search for](#show) 
+* [Show me, Find, Search for](#show-me-find-search-for) 
 * [Delete](#delete) 
-* [Help me with commands](#help)
+* [Help me with commands](#help-me-with-commands)
 
-### Show me, Find, Search for
+### Show me, Find, Search for {#show-me-find-search-for}
 
-* [Examples](#exampl)
+* [Examples](#examples)
 
 Use the show me command to see information about the following objects:
 
@@ -100,7 +100,7 @@ Use the show me command to see information about the following objects:
  </tbody> 
 </table>
 
-#### &nbsp; Examples
+#### &nbsp; Examples {#examples}
 
 For a full list of virtual assistant commands, see 
 
@@ -206,7 +206,7 @@ For a full list of virtual assistant commands, see
  </tbody> 
 </table>
 
-### Delete
+### Delete  {#delete}
 
 * [Examples](#examples)
 
@@ -217,7 +217,7 @@ Use the delete command to delete the following object types:
 * Document
 * Timesheet
 
-#### Examples
+#### Examples {#examples-1}
 
 For a full list of virtual assistant commands, see 
 
@@ -244,7 +244,7 @@ For a full list of virtual assistant commands, see
  </tbody> 
 </table>
 
-### Help me with commands
+### Help me with commands {#help-me-with-commands}
 
 Use the help command to view a list of available commands directly in the mobile app.
 
@@ -254,10 +254,10 @@ Use the help command to view a list of available commands directly in the mobile
 
 Use the pin feature to access saved virtual assistant commands as well as pins from your web browser. Once you pin a command, you can access it any time from the Pin area.
 
-* [Virtual assistant (VA)](#virtual) 
-* [Web browser](#web)
+* [Virtual assistant (VA)](#virtual-assistant-va) 
+* [Web browser](#web-browser)
 
-### Virtual assistant (VA)
+### Virtual assistant (VA) {#virtual-assistant-va}
 
 The VA section of the Pin page lets you save voice commands to access at a later time.
 
@@ -267,6 +267,6 @@ To pin a command:
 
 ![](assets/pin-and-save-query--350x285.png)
 
-### Web browser
+### Web browser {#web-browser}
 
 The Web section of the Pin page lets you access objects you've pinned in your web browser. If the pinned object is supported in the mobile app, it opens there first. If it is not supported, it launches a web browser.

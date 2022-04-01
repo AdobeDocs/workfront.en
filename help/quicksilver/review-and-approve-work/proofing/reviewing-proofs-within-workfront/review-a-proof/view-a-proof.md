@@ -72,10 +72,10 @@ You can view a static proof that contains multiple pages in a single view, in a 
 
 The thumbails panel displays on the left side of the proofing viewer. You can use the thumbnails area to navigate throughout the proof. Thumbnails are especially useful when a proof contains multiple pages.
 
-* [Hide and display the thumbnails panel](#hiding-and-displaying-the-thumbnails-panel) 
-* [Zoom and pan in the thumbnail view](#zooming-and-panning-in-the-thumbnails-panel)
+* [Hide and display the thumbnails panel](#hide-and-display-the-thumbnails-panel) 
+* [Zoom and pan in the thumbnail view](#zoom-and-pan-in-the-thumbnail-view)
 
-### Hide and display the thumbnails panel
+### Hide and display the thumbnails panel {#hide-and-display-the-thumbnails-panel}
 
 The thumbnails panel displays by default. You can hide or adjust the size of the panel.
 
@@ -91,7 +91,7 @@ The thumbnails panel displays by default. You can hide or adjust the size of the
    >
    >You can mouse over the right edge of the thumbnails panel to resize the panel.
 
-### Zoom and pan in the thumbnail view
+### Zoom and pan in the thumbnail view {#zoom-and-pan-in-the-thumbnail-view}
 
 The zoom area in the thumbnails panel displays the area of the proof you are currently viewing. You can adjust the zoom within the thumbnail area or you can pan the area to view a different part of the proof.
 

@@ -72,9 +72,9 @@ To move a task displayed in a task list:
 
    The Move Task box displays
 
-1. Continue with moving the task, as described in the section [Move a task at the task level](#moving-one-task) starting with Step 4.
+1. Continue with moving the task, as described in the section [Move a task at the task level](#move-a-task-at-the-task-level) starting with Step 4.
 
-## Move a task&nbsp;at the task level
+## Move a task&nbsp;at the task level {#move-a-task-at-the-task-level}
 
 In addition to moving tasks from a list of tasks, you can also move a task at the task level, after you have opened it.&nbsp;
 

@@ -21,9 +21,9 @@ This new functionality has not been generally&nbsp;released yet, but you can par
 >
 >This beta program has only been made available for the On-Demand version of Jira. The current beta integration is not supported for the On-Premise version of Jira.
 
-If you would like to be part of this beta program and have this functionality enabled in your Workfront app on your Jira environment, see [Uploading the Workfront Beta Add-On for Jira](#signing-up-for-the-android-requests-beta).
+If you would like to be part of this beta program and have this functionality enabled in your Workfront app on your Jira environment, see [Uploading the Workfront Beta Add-On for Jira](#uploading-the-workfront-beta-add-on-for-jira).
 
-## Uploading the Workfront Beta Add-On for Jira&nbsp;
+## Uploading the Workfront Beta Add-On for Jira&nbsp; {#uploading-the-workfront-beta-add-on-for-jira}
 
 To join our beta testing and experience the new features:&nbsp;
 

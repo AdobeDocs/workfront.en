@@ -84,16 +84,16 @@ Before you can manage your work and approvals from Slack, you must
 
 1. (Optional) Click **Tasks**&nbsp;to display all your tasks.
 
-   For more information about managing tasks in Slack, see [Managing Your Tasks from Slack](#managing-working-on-list).
+   For more information about managing tasks in Slack, see [Managing Your Tasks from Slack](#manage-your-tasks-from-slack).
 
 1. (Optional) Click **Issues** to display all your issues.
 
-   For more information about managing issues in Slack, see [Managing Your Issues from Slack](#manahing-work-requests).
+   For more information about managing issues in Slack, see [Managing Your Issues from Slack](#manage-your-issues-from-slack).
 
 1. (Optional) Click **Approvals** to display all the approvals waiting for your decision.  
-   For more information about managing your approvals in Slack, see [Manage your approvals from Slack](#managing-approvals).
+   For more information about managing your approvals in Slack, see [Manage your approvals from Slack](#manage-your-approvals-from-slack).
 
-## Manage your tasks from Slack
+## Manage your tasks from Slack {#manage-your-tasks-from-slack}
 
 1. Log in to your Slack instance and log in to Workfront from Slack.  
    For information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
@@ -154,7 +154,7 @@ Before you can manage your work and approvals from Slack, you must
 
 1. (Optional) Click **Work on it** to accept to work on a task. The Work on it button disappears.
 
-## Manage your issues from Slack
+## Manage your issues from Slack {#manage-your-issues-from-slack}
 
 1. Log in to your Slack instance and log in to Workfront from Slack.  
    For more information about logging in to Workfront from Slack, see the [Logging In to Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
@@ -205,7 +205,7 @@ Before you can manage your work and approvals from Slack, you must
 
    The Work on it button disappears.
 
-## Manage your approvals from Slack
+## Manage your approvals from Slack {#manage-your-approvals-from-slack}
 
 1. Log in to your Slack instance and log in to Workfront from Slack.  
    For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).

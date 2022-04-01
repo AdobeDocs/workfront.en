@@ -15,13 +15,13 @@ The Planned Hours associated with a task, issue, or project represent the amount
 
 You must define the value of Planned Hours for tasks and issues if you want to use the Resource Management tools in Adobe Workfront.
 
-You can modify the value of Planned Hours on tasks, depending on the Duration Type of the tasks. For more information about modifying Planned Hours on tasks in relation to the Duration Type of the tasks, see [Update task Planned Hours based on Duration Type](#planned-hours-and-duration-type).
+You can modify the value of Planned Hours on tasks, depending on the Duration Type of the tasks. For more information about modifying Planned Hours on tasks in relation to the Duration Type of the tasks, see [Update task Planned Hours based on Duration Type](#update-task-planned-hours-based-on-duration-type).
 
 You can modify the value of Planned Hours on issues at any time.
 
 You cannot modify the value of Planned Hours of projects, as they are a calculated sum of all Planned Hours of all the tasks on the project.
 
-## Update task Planned Hours based on Duration Type
+## Update task Planned Hours based on Duration Type {#update-task-planned-hours-based-on-duration-type}
 
 You can only update Planned Hours on tasks if the tasks have a certain Duration Types.
 
@@ -87,7 +87,7 @@ For example, if a task is set to start at 4 PM and the schedule has one hour lef
 * [Planned Hours on tasks](#planned-hours-on-tasks) 
 * [Planned Hours on projects](#planned-hours-on-projects)
 
-### Planned Hours on tasks
+### Planned Hours on tasks {#planned-hours-on-tasks}
 
 When a task contains subtasks, the Planned Hours of the parent task is the sum of all Planned Hours on any subtasks. You cannot update the Planned Hours of a parent task.
 
@@ -96,7 +96,7 @@ When a task contains subtasks, the Planned Hours of the parent task is the sum o
 >Unlike Planned Hours, Actual Hours on a parent task are hours logged directly on the parent task. They do not represent a sum of the Actual Hours of the children tasks.   
 >For more information about Actual Hours, see [View Actual Hours](../../../manage-work/tasks/task-information/actual-hours.md).
 
-### Planned Hours on projects
+### Planned Hours on projects {#planned-hours-on-projects}
 
 You cannot edit the amount of Planned Hours on a project. Planned Hours on a project are a calculated sum of all Planned Hours from all the tasks on the project.
 
@@ -111,10 +111,10 @@ Whether issues are included in the calculation for Planned Hours depends on the 
 
 You can find the Planned Hours information on tasks, issues, or projects in the following locations:
 
-* [Planned Hours in the Details section](#planned2) 
-* [Planned Hours when editing a task or issue](#plan-hours-on-edit-task-or-issue) 
-* [Planned Hours in reports](#reports) 
-* [Planned Hours in Resource Management tools](#resource-grid)
+* [Planned Hours in the Details section](#planned-hours-in-the-details-section) 
+* [Planned Hours when editing a task or issue](#planned-hours-when-editing-a-task-or-issue) 
+* [Planned Hours in reports](#planned-hours-in-reports) 
+* [Planned Hours in Resource Management tools](#planned-hours-in-resource-management-tools)
 
 ### Access requirements
 
@@ -145,7 +145,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-### Planned Hours in the Details section
+### Planned Hours in the Details section {#planned-hours-in-the-details-section}
 
 Finding the Planned Hours in the Details  section is identical for tasks, issues, and projects.
 
@@ -157,7 +157,7 @@ To locate the Planned Hours value on the Details  section  of a task:
 
    This value represents the time it would take the user assigned to the task to complete it.
 
-### Planned Hours when editing a task or issue
+### Planned Hours when editing a task or issue {#planned-hours-when-editing-a-task-or-issue}
 
 Finding the Planned Hours while editing a task or an issue is identical.
 
@@ -172,7 +172,7 @@ To locate the value of Planned Hours while editing a task:
 
    The Planned Hours are located in the **Overview** section.
 
-### Planned Hours in reports
+### Planned Hours in reports {#planned-hours-in-reports}
 
 The Planned Hours column is included in the Standard view of a task list, by default. For issues and projects, you can add it to the view, when you are editing the view or when you build a report.
 
@@ -189,7 +189,7 @@ To show Planned Hours in a project report:
 
    The Planned Hours column shows the total number of Planned Hours on each project.
 
-### Planned Hours in Resource Management tools
+### Planned Hours in Resource Management tools {#planned-hours-in-resource-management-tools}
 
 You can see the value of Planned Hours for your tasks, issues, or projects when using the following Resource Management tools:
 

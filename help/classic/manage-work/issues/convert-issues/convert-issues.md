@@ -24,7 +24,7 @@ For information about converting issues to projects, see [Convert an issue to a 
    * During conversion, you might be asked whether you want to keep the issue and its resolution tied to the project or task you are creating.
    * If you keep the issue, the status and percent complete of the project or task automatically update the status and the percent complete of the issue when any changes occur on the project, task, or the issue or when the Workfront recalculates the timeline.
 
-* When converting an issue to a project using a template, most information from the template transfers to the new project. However, some information from the issue can also transfer to the new project.&nbsp;For more information, see the [Overview of project fields when converting an issue to a project using a template](#overview) section in this article. 
+* When converting an issue to a project using a template, most information from the template transfers to the new project. However, some information from the issue can also transfer to the new project.&nbsp;For more information, see the [Overview of project fields when converting an issue to a project using a template](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) section in this article. 
 * While converting an issue, not all documents or their information are moved to the new object that the issue is converted to. The following items are included when you convert an issue that has documents or document links attached:
 
    * Document
@@ -39,7 +39,7 @@ For information about converting issues to projects, see [Convert an issue to a 
 * Issue comments are also copied to the task or project converted from the issue, but tagged users will not transfer.
 * If you want to transfer custom form information from the issue to the project or task you are converting it to, ensure you have a project or task custom form that include the same fields you want to transfer from the issue. For more information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
-## Overview of project fields when converting an issue to a project using a template
+## Overview of project fields when converting an issue to a project using a template {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
 When converting an issue to a project, you can either convert it to a blank project or use a template.
 
@@ -167,7 +167,7 @@ The following table lists project information and whether it transfers from the 
 </div>
 </note> </li>
 <li value="8">(Optional) In the <strong>Custom Forms</strong> section, attach any custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new project, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>.</li>
-<li value="9"> <p>Click <strong>Save Changes.</strong></p> <p> <img src="assets/ci4-350x206.png" alt="" style="width: 350;height: 206;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> <p>The issue is now a project, if you decided to delete the original issue.<br>Or<br>The issue is now linked to the new project and it will complete when the project completes, if you decided to keep the original issue. </p> <p>Some issue fields transfer to the project. For information, see the <a href="#viewing-original-issue-information" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. </p> </li>
+<li value="9"> <p>Click <strong>Save Changes.</strong></p> <p> <img src="assets/ci4-350x206.png" alt="" style="width: 350;height: 206;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> <p>The issue is now a project, if you decided to delete the original issue.<br>Or<br>The issue is now linked to the new project and it will complete when the project completes, if you decided to keep the original issue. </p> <p>Some issue fields transfer to the project. For information, see the <a href="#view-original-issue-information-on-projects-and-tasks" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. </p> </li>
 <li value="10"> <p>(Optional) Set any further project details ​(project owner, project dates) and tasks as necessary.</p> <p> <img src="assets/ci5-350x118.png" alt="" style="width: 350;height: 118;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 </ol>
 </div>
@@ -201,13 +201,13 @@ The following table lists project information and whether it transfers from the 
 </div>
 </note> </li>
 <li value="8">(Optional) Attach custom forms.<br>For more information about transferring information from the custom form of the issue to that of the new task, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>.<br><p><img src="assets/ci8-350x202.png" alt="" style="width: 350;height: 202;" data-mc-conditions="QuicksilverOrClassic.Classic"></p></li>
-<li value="9"> <p>Click <strong>Save Changes</strong> when all task settings are set.</p> <p>The issue is now a task on the designated project, if you decided to delete the original issue.</p> <p>Or</p> <p>The issue is now linked to the new task on the project you chose, and it will complete once the task completes, if you decided to keep the original issue.</p> <p>Some issue fields transfer to the task. For information, see the <a href="#viewing-original-issue-information" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. <br></p> </li>
+<li value="9"> <p>Click <strong>Save Changes</strong> when all task settings are set.</p> <p>The issue is now a task on the designated project, if you decided to delete the original issue.</p> <p>Or</p> <p>The issue is now linked to the new task on the project you chose, and it will complete once the task completes, if you decided to keep the original issue.</p> <p>Some issue fields transfer to the task. For information, see the <a href="#view-original-issue-information-on-projects-and-tasks" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. <br></p> </li>
 <li value="10"> <p>(Optional) Continue editing the task (assignments, dates) as necessary. </p> <p> <img src="assets/ci9-350x135.png" alt="" style="width: 350;height: 135;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 </ol>
 </div>
 -->
 
-## View original issue information on projects and tasks
+## View original issue information on projects and tasks {#view-original-issue-information-on-projects-and-tasks}
 
 You can view the original issue information in project and task lists and reports ```or in the Project Details area```. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -219,4 +219,7 @@ The following table illustrates which&nbsp;issue fields are visible from the con
 | Primary Contact | ```Converted Issue``` Originator Name |✔ | ```✔```  |✔ |&nbsp; |
 | Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
 
-``` ```**Warning: **``````If the Primary&nbsp;Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted. 
+>[!CAUTION]
+>
+>If the Primary&nbsp;Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted.
+
