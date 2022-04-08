@@ -85,19 +85,29 @@ You can edit or delete a comment that you entered in this area, or you can like 
 1. Click the **Updates** tab.
 1. Type your comment in the **Comment here** field, then click **Post**. 
 1. (Optional and conditional) Select the **Comments** option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. 
-1. (Optional) Click&nbsp;**Edit** to edit your comment, then click&nbsp;**Save** to save your changes, or **Cancel** to revert to the original update. 
+1. (Optional) Click&nbsp;**Edit** to edit your comment, then click&nbsp;**Save** to save your changes, or **Cancel** to revert to the original update.
 
-   ``` ```**Tip: **``````
+   >[!TIP]
+   >
+   >
+   >   
+   >   
+   >   * You can only edit comments you entered. 
+   >   * There is no time limit for how long after you enter a comment you are allowed to edit it.
+   >   
+   >
 
-   * You can only edit comments you entered. 
-   * There is no time limit for how long after you enter a comment you are allowed to edit it.
+1. (Optional)&nbsp;Click&nbsp;**Delete** to delete your comment, then click&nbsp;**Yes, Delete** to confirm.
 
-1. (Optional)&nbsp;Click&nbsp;**Delete** to delete your comment, then click&nbsp;**Yes, Delete** to confirm. 
-
-   ``` ```**Tip: **``````
-
-   * You can only delete comments you entered. 
-   * There is no time limit for how long after you enter a comment you are allowed to delete it.
+   >[!TIP]
+   >
+   >
+   >   
+   >   
+   >   * You can only delete comments you entered. 
+   >   * There is no time limit for how long after you enter a comment you are allowed to delete it.
+   >   
+   >
 
 1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
 

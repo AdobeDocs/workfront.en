@@ -109,30 +109,30 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-``` ```**Tip: **`````` When you are managing a group that contains subgroups, it’s helpful to be able to identify and filter data about the entire group and all of its subgroups. You can do this by using the Top Parent ID field in a report or list.
-
-For example, imagine that you manage a large Marketing department and you want a list of all of the projects that the entire department is working on.
-
-In Workfront, this Marketing department is represented by a group called Marketing, with 3 subgroups called Field Marketing, Product Marketing, and Digital Marketing. To list the projects that belong to the entire Marketing department (all 4 groups), you could create a Filter for the Projects area with the following Filter Rule:
-
-```
-Group: Top Parent ID > Equal > Marketing
-```
-
-You can also use the Top Parent Name field to identify data associated with a top-level group, but only in Views, not in Filters or Groupings.
+>[!TIP]
+>
+>When you are managing a group that contains subgroups, it’s helpful to be able to identify and filter data about the entire group and all of its subgroups. You can do this by using the Top Parent ID field in a report or list.
+>
+>For example, imagine that you manage a large Marketing department and you want a list of all of the projects that the entire department is working on.
+>
+>In Workfront, this Marketing department is represented by a group called Marketing, with 3 subgroups called Field Marketing, Product Marketing, and Digital Marketing. To list the projects that belong to the entire Marketing department (all 4 groups), you could create a Filter for the Projects area with the following Filter Rule:
+>
+>```>
+>Group: Top Parent ID > Equal > Marketing
+>```>
+>You can also use the Top Parent Name field to identify data associated with a top-level group, but only in Views, not in Filters or Groupings.
 
 ## Remove a subgroup from its parent group and make it a top-level group
 
 You can make a subgroup a top-level group by removing it from its parent group.
 
 <!--
-<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-<span class="autonumber"><span><b>Tip: </b></span></span>
+<note type="tip">
 <div class="preview">
 <p>When you deactivate a group that has subgroups below it, those subgroups also become inactive. If you want one of them to be active, you can use these instructions to remove it from its parent group, then reactivate it.</p>
 <p>For instructions on deactivating and reactivating groups, see the sections <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view" class="MCXref xref">View and manage a group’s details</a> and <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive" class="MCXref xref">Inactive groups</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md" class="MCXref xref">View and manage a group’s details</a>.</p>
 </div>
-</div>
+</note>
 -->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).

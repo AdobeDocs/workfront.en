@@ -129,17 +129,22 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    ![edit_task_overview.png](assets/edit-task-overview-350x438.png)
 
-1. Update any of the following fields in the table below. 
+1. Update any of the following fields in the table below.
 
-   ``` ```**Tip: **`````` The following fields are automatically populated based when the tasks are created. They are populated according to the Task & Issue preferences set by your Workfront administrator ```or by the group administrator of the group associated with the project:```
-
-   * Planned Start Date
-   * Duration Type
-   * Revenue Type
-   * Cost Type
-   * Actual&nbsp;Completion Date
-
-   For information about setting task preferences for new tasks at the system ```or group level```, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) . 
+   >[!TIP]
+   >
+   >The following fields are automatically populated based when the tasks are created. They are populated according to the Task & Issue preferences set by your Workfront administrator ```or by the group administrator of the group associated with the project:```
+   >
+   >   
+   >   
+   >   * Planned Start Date
+   >   * Duration Type
+   >   * Revenue Type
+   >   * Cost Type
+   >   * Actual&nbsp;Completion Date
+   >   
+   >   
+   >For information about setting task preferences for new tasks at the system ```or group level```, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) .
 
    <table cellspacing="0"> 
     <col> 
@@ -452,12 +457,19 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
 1. Click **Add Assignee** to add a new assignee to the task. You can assign users, roles, or teams to a task. You can have multiple users or job roles assigned to a task. You can only assign one team to a task.
 
-   ``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
-
-   ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
-
-   * ```Reassign the work item to active resources.``` 
-   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+   >[!TIP]
+   >
+   >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+   >
+   >
+   >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+   >
+   >   
+   >   
+   >   * ```Reassign the work item to active resources.``` 
+   >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+   >   
+   >
 
 1. (Optional) If you have multiple assignees, select the **Task Owner** radio button to indicate which user or role is considered the Task Owner or the Primary Assignee. Workfront marks the first user or job role that you assign to a task or issue as the Owner or Primary Assignee. 
 1. (Conditional and optional) If your **Task Constraint** is **Calculated Work** or **Effort Driven**, specify the **Allocation %** (allocation percentage)&nbsp;for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. When the **Task Constraint** is **Simple**, you can specify the following:

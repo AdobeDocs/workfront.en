@@ -110,15 +110,13 @@ You can manually recalculate the custom fields of several objects by editing the
    Workfront calculates all custom fields for all the selected objects.
 
 <!--
-<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-<span class="autonumber"><span><b>Tip: </b></span></span>
+<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <note type="tip">
 <p>To recalculate all calculated custom fields for several projects in a list or report, you can do the following:</p>
 <ol>
 <li value="1"> <p>Go to a project list or report and select one or several projects.</p> </li>
 <li value="2"> <p>Click the <strong>More</strong> menu <img src="assets/more-icon.png">, then click <strong>Recalculate Custom Expressions</strong>. </p> <p>Workfront calculates all custom fields for all the selected projects.</p> </li>
 </ol>
-</div>
+</note>
 </div>
 -->
 

@@ -126,7 +126,7 @@ Accessing the Details page for an object is similar to all objects where this fu
 
 1. (Conditional) If you have made edits, click **Save Changes**.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

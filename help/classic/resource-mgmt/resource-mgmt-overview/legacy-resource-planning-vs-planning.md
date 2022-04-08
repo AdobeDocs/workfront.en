@@ -13,7 +13,7 @@ hidefromtoc: true
 >[!IMPORTANT]
 >
 >You can access Legacy&nbsp;Resource Planning tools only when using Adobe Workfront Classic. This article refers to differences between Legacy Resource Planning and Planning tools when using Adobe Workfront Classic. &nbsp;The Legacy Resource Planning functionality is deprecated and it will be removed from Adobe Workfront.&nbsp;  
->For more information about Legacy Resource Planning, see the&nbsp; [Legacy Resource Planning](../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md)&nbsp;section.&nbsp;  
+>For more information about Legacy Resource Planning, see the&nbsp; [Legacy Resource Planning](../../resource-mgmt/legacy-res-planning/legacy-resource-planning-1.md)&nbsp;section.&nbsp;  
 >For information about planning resources in the new Adobe Workfront experience, see [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 ## Overview of resource planning in&nbsp;Adobe Workfront
@@ -87,7 +87,7 @@ You can manage your resources in the following ways by using the tools in the Le
 * If you assign users to work items, you can use&nbsp;the User Utilization report and the Resource Grid to manage the allocation and availability of your users.  
   For more information about user utilization and the User Resource Grid, see [Overview of the User Utilization report in the Legacy Resource Management area](../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md) and [Overview of the Resource Grid](../../resource-mgmt/legacy-res-planning/resource-grid-overview.md).
 
-For more information about using the Legacy Resource Planning tools, see the [Legacy Resource Planning](../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md) section.  
+For more information about using the Legacy Resource Planning tools, see the [Legacy Resource Planning](../../resource-mgmt/legacy-res-planning/legacy-resource-planning-1.md) section.  
 ![Legacy_resource_planning_tab.png](assets/legacy-resource-planning-tab-350x130.png)
 
 &nbsp;

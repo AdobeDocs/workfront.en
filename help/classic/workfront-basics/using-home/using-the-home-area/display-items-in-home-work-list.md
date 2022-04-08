@@ -127,7 +127,7 @@ You can filter items in the Work List to see only specific types of items. For e
 
    ![](assets/displaying-work-items-filter-350x348.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

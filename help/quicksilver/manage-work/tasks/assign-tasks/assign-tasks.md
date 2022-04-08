@@ -8,14 +8,17 @@ description: You can assign tasks to users, roles, or teams to indicate who is r
 
 # Assign tasks
 
-You can assign tasks to users, roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time. 
+You can assign tasks to users, roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
-``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
-
-```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
-
-* ```Reassign the work item to active resources.``` 
-* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+>[!TIP]
+>
+>You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+>
+>```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+>
+>* ```Reassign the work item to active resources.``` 
+>* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+>
 
 The number of users assigned to a task and the schedule of the task Owner can modify the planned dates of a task which results in changing the timeline of the project. For information about the impact of assigning multiple users to a task, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 

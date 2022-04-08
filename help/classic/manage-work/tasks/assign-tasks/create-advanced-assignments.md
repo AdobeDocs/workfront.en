@@ -90,18 +90,25 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click **Add Assignee** to assign multiple resources to the task or issue.
 
-   ``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
-
-   ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
-
-   * ```Reassign the work item to active resources.``` 
-   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+   >[!TIP]
+   >
+   >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+   >
+   >
+   >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+   >
+   >   
+   >   
+   >   * ```Reassign the work item to active resources.``` 
+   >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+   >   
+   >
 
 1. For each user in the **Assignee** column, specify the following information:
 
    * **Hours** or**Allocation %**: When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the bottom of the Hours column. In all other cases, specify the percentage of time (or allocation)&nbsp;that you want the assignee to spend solving the task or issue.
 
-     >[!NOTE]
+     >[!TIP]
      >
      >
      >   

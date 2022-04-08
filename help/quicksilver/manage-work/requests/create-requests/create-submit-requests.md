@@ -98,7 +98,7 @@ To create a request in the Workfront web app:&nbsp;
 
    Click  ```**Requests**, then click **New Request**``` in the upper-right corner of the page.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   
@@ -150,7 +150,7 @@ To create a request in the Workfront web app:&nbsp;
       </tbody> 
      </table>
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   
@@ -177,11 +177,15 @@ To create a request in the Workfront web app:&nbsp;
 
      A new draft automatically saves for you in the Drafts section after you start entering information for the new request and you give the request a name in the Subject field.
 
-1. (Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue&nbsp;Topic. 
+1. (Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue&nbsp;Topic.
 
-   ``` ```**Tip: **`````` When you hover over a Topic Group or a Queue&nbsp;Topic the Description field displays to the right. This contains additional information about the topic group or queue topic.
-
-   ![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
+   >[!TIP]
+   >
+   >When you hover over a Topic Group or a Queue&nbsp;Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. 
+   >
+   >
+   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   >
+   >
 
    You can have up to 10 tiers of Topic Groups built into&nbsp;your Request Queue.   
    For more information about how to create Topic Groups, see the article [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see the article [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -326,7 +330,7 @@ For information about submitting requests&nbsp;through the mobile app, see the [
 You can submit requests using any applications that have been integrated with Workfront:&nbsp;
 
 * You can build a custom integration between Workfront and another application that allows you to submit requests to Workfront from the other application.  
-  For more information about custom Workfront integrations, see the article [Adobe Workfront integrations](../../../administration-and-setup/configure-integrations/workfront-integrations.md).
+  For more information about custom Workfront integrations, see the article [Adobe Workfront integrations](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 * You can subscribe to Workfront Fusion and configure other applications on that platform to submit Workfront requests.  
   For information about the Workfront Fusion platform, see the article [Legacy Workfront Fusion](../../../administration-and-setup/configure-integrations/legacy-workfront-fusion.md).

@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
 1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
    <pre>displayname=Task Name<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
 
-   >[!NOTE]
+   >[!TIP]
    >
    >You can use similar code for other objects by doing adjusting the following:
    >

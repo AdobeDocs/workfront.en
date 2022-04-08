@@ -97,7 +97,7 @@ For more information about access to the Scenario Planner for various license ty
 
    If you selected several plans to share them in bulk, click the **Share** icon ![](assets/share-icon-26x26.png) at the top of the list of plans to open the Plan access box.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

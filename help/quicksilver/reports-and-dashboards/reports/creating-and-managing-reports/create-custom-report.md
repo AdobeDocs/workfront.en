@@ -196,7 +196,7 @@ To watch a video of how to create a report, see this [Video walk-through](#video
 
    This setting is disabled by default and the results of the grouping always display in an expanded list.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

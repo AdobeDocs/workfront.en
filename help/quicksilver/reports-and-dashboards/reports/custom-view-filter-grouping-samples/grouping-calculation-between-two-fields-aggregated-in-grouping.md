@@ -81,51 +81,55 @@ You must have the following access to perform the steps in this article:
    lines with the lines highlighted in the following text mode example: 
    <pre>valueformat=compound<br>aggregator.displayformat=minutesAsHoursString<br><span style="font-weight: normal;">aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2)</span><br>aggregator.function=SUM<br>aggregator.valueformat=val<br>aggregator.namekey=workrequired<br>linkedname=direct<br>textmode=true<br>valuefield=workRequired<br>namekey=workrequired<br>valueexpression=CONCAT(ROUND(({workRequired}-{actualWorkRequired})/60,2)," Hours")
 viewalias=workrequired<br>displayname=Work Balance<br><br></pre>
-   ``` ```**Tip: **`````` In order to get the aggregated value in the grouping to display the aggregated difference between the Planned Hours and Actual Hours fields, input the same equation into the 
 
-   ```
-   aggregator.valuefield
-   ```
-
-   line. The 
-
-   ```
-   aggregator.displayformat
-   ```
-
-   used for the Planned Hours column converts minutes to hours. Because the Planned Hours field was used as a placeholder, this line doesn’t need to be adjusted.
-
-   The 
-
-   ```
-   minutesAsHoursString
-   ```
-
-   definition of the 
-
-   ```
-   aggregator.displayformat
-   ```
-
-   line means there is no need to divide each field by 60 as done on the 
-
-   ```
-   valueexpression
-   ```
-
-   for the results. In this 
-
-   ```
-   aggregator.valuefield=workRequired
-   ```
-
-   becomes: 
-
-   ```
-   aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2
-   ```
-
-   . 
+   >[!TIP]
+   >
+   >In order to get the aggregated value in the grouping to display the aggregated difference between the Planned Hours and Actual Hours fields, input the same equation into the    >
+   >
+   >```   >
+   >aggregator.valuefield
+   >```   >
+   >
+   >line. The    >
+   >
+   >```   >
+   >aggregator.displayformat
+   >```   >
+   >
+   >used for the Planned Hours column converts minutes to hours. Because the Planned Hours field was used as a placeholder, this line doesn’t need to be adjusted.
+   >
+   >
+   >The    >
+   >
+   >```   >
+   >minutesAsHoursString
+   >```   >
+   >
+   >definition of the    >
+   >
+   >```   >
+   >aggregator.displayformat
+   >```   >
+   >
+   >line means there is no need to divide each field by 60 as done on the    >
+   >
+   >```   >
+   >valueexpression
+   >```   >
+   >
+   >for the results. In this    >
+   >
+   >```   >
+   >aggregator.valuefield=workRequired
+   >```   >
+   >
+   >becomes:    >
+   >
+   >```   >
+   >aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2
+   >```   >
+   >
+   >.
 
 1. Click **Save+Close**.
 

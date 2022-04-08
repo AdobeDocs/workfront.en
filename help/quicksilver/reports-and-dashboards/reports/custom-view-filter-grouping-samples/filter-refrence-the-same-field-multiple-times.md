@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 1. In the Set Filter Rules for your Report area, add the following code: 
    <pre>name=green<br>name_Mod=cicontains<br>AND:1:name=red<br>AND:1:name_Mod=cinotcontains</pre>
 
-   >[!NOTE]
+   >[!TIP]
    >
    >To build similar filters, build the first statement first.&nbsp;For example: 
    >

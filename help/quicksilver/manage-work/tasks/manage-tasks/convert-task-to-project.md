@@ -71,20 +71,28 @@ You must have the following access to perform the steps in this article:
    * (Optional and conditional) If you have selected to create a project from a template, update the available fields in the **Convert to Project** dialog box.
 
      For more information about editing fields on projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
-   
-     ``` ```**Tip: **`````` To update fields in the Finance section in the Convert to Project box you must have Edit access to Financial&nbsp;Data in your access level.&nbsp;If you have View access to Financial Data in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md). 
-   
+
+     >[!TIP]
+     >
+     >To update fields in the Finance section in the Convert to Project box you must have Edit access to Financial&nbsp;Data in your access level.&nbsp;If you have View access to Financial Data in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+
    * (Optional) Add **Custom Forms** to the new project.
-   
-     ``` ```**Tip: **`````` In the Production environment, you can transfer custom form information from the task to the project by adding a duplicate project-type custom form (with the same fields that are on the task-type custom form) to the new project. For more information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
 
-     <!--   
-     <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">In the Preview environment, if a multi-object custom form attached to the task is configured for use with both tasks and projects, all information saved in the form is retained when you make the conversion.</p>   
-     -->
-
-     <!--   
-     <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the task, the field value from the task is used for the new project. However, if the custom field is blank on the task, the value from the template is used.</p>   
-     -->
+     >[!TIP]
+     >
+     >In the Production environment, you can transfer custom form information from the task to the project by adding a duplicate project-type custom form (with the same fields that are on the task-type custom form) to the new project. For more information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+     >
+     >
+     ><!--     >
+     ><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">In the Preview environment, if a multi-object custom form attached to the task is configured for use with both tasks and projects, all information saved in the form is retained when you make the conversion.</p>     >
+     >-->     >
+     >
+     >
+     >
+     ><!--     >
+     ><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the task, the field value from the task is used for the new project. However, if the custom field is blank on the task, the value from the template is used.</p>     >
+     >-->     >
+     >
 
 1. Click **Save Changes**.
 

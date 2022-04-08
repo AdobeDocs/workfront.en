@@ -20,9 +20,11 @@ Subgroups inherit the membership of their parent group. So, users and groups in 
 
 Also, a subgroup automatically inherits the group administrators of its top-level group, but you can also assign members of a subgroup to act as its group administrators.
 
-``` ```**Tip: **`````` Sometimes, you might want to use subgroups to add multiple users to an existing group in order to give them access to an object they need.
-
-For example, suppose that you have a group of help desk technicians and a separate group of IT directors. The help desk group has permissions to a certain Request Queue. You want to add the IT directors to the help desk group so that they also have permissions to the Request Queue. Without the subgroup functionality, you would have to add the IT directors to the help desk group manually, which could be inefficient and hard to manage. If you add the IT directors group to the help desk group as a subgroup, you accomplish this task faster with just one change.
+>[!TIP]
+>
+>Sometimes, you might want to use subgroups to add multiple users to an existing group in order to give them access to an object they need.
+>
+>For example, suppose that you have a group of help desk technicians and a separate group of IT directors. The help desk group has permissions to a certain Request Queue. You want to add the IT directors to the help desk group so that they also have permissions to the Request Queue. Without the subgroup functionality, you would have to add the IT directors to the help desk group manually, which could be inefficient and hard to manage. If you add the IT directors group to the help desk group as a subgroup, you accomplish this task faster with just one change.
 
 >[!NOTE]
 >

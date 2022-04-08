@@ -121,10 +121,16 @@ To allow Workfront to automatically propose assignments for tasks and issues in 
 1. (Optional) Create a filter to customize what content is displayed in the Unassigned area on the scheduling timeline.  
    For more information about creating a filter, see [Create and modify filters on the Scheduling tab (for multiple projects)](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md#creating-and-modifying-filters-on-the-scheduling-tab-for-projects) in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md) [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
 
-   ``` ```**Tip: **`````` To ensure that Workfront assigns work to the most eligible users:
-
-   * Filter only information that affects which tasks are displayed in the Unassigned area (such as Portfolios, Programs, an Projects). 
-   * We recommend that you do not filter information that affects which users are available to assign on the scheduling timeline. Doing so limits Workfront from viewing all potential assignees, which can result in less satisfactory assignments.
+   >[!TIP]
+   >
+   >To ensure that Workfront assigns work to the most eligible users:
+   >
+   >   
+   >   
+   >   * Filter only information that affects which tasks are displayed in the Unassigned area (such as Portfolios, Programs, an Projects). 
+   >   * We recommend that you do not filter information that affects which users are available to assign on the scheduling timeline. Doing so limits Workfront from viewing all potential assignees, which can result in less satisfactory assignments.
+   >   
+   >
 
 1. (Optional) Modify the date range that is displayed on the scheduling timeline, as described in [Adjust the date range of the Scheduling areas](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#adjusting-the-date-range-for-which-data-is-displayed) in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Workfront makes assignments only for tasks and issues within the visible date range on the scheduling timeline.
 

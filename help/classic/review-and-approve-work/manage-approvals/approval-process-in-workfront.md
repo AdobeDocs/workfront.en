@@ -58,7 +58,7 @@ For information about creating a system-level approval process or a group-level 
 
    * Each approval process corresponds to a certain work item status in the Workfront system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.
 
-     >[!NOTE]
+     >[!TIP]
      >
      >
      >   

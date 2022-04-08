@@ -145,13 +145,16 @@ For information about how to update additional information about results and act
 
 ### Check in on goals in the Check-in section {#check-in-on-goals-in-the-check-in-section}
 
-You can use the Check-in section to check in on goals when you want to quickly provide updates for several goals at the same time. 
+You can use the Check-in section to check in on goals when you want to quickly provide updates for several goals at the same time.
 
-``` ```**Tip: **`````` You can access the&nbsp;Check-in section from any of the following sections:
-
-* Goal List 
-* Goal Alignment 
-* Pulse
+>[!TIP]
+>
+>You can access the&nbsp;Check-in section from any of the following sections:
+>
+>* Goal List 
+>* Goal Alignment 
+>* Pulse 
+>
 
 When you check in on a goal in the Check-in section, you can update the progress of the results and activities that are assigned only to you. You cannot update the progress of results and activities that are assigned to other users in this section.
 

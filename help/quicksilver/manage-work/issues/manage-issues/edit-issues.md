@@ -242,14 +242,21 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >
    >If the user's name contains a special character, you must include the special character in the search field.
 
-   You can assign multiple users or job roles to a task. You can assign only one team to a task. 
+   You can assign multiple users or job roles to a task. You can assign only one team to a task.
 
-   ``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
-
-   ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
-
-   * ```Reassign the work item to active resources.``` 
-   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+   >[!TIP]
+   >
+   >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+   >
+   >
+   >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+   >
+   >   
+   >   
+   >   * ```Reassign the work item to active resources.``` 
+   >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+   >   
+   >
 
 1. (Optional) Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue. 
 1. Update the following fields: 

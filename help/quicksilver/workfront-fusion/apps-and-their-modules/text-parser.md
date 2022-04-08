@@ -238,4 +238,4 @@ Data scraping, sometimes called web scraping, data extraction, or web harvesting
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="https://www.integromat.com/en/requests/feature-requests/p/email-text-parser-visual-tool">Email/Text Parser visual tool</a> (request)</p> </li>
   -->
 
-If the data scraping tool provides a REST API, you can connect to it via our universal [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md) and [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules. 
+If the data scraping tool provides a REST API, you can connect to it via our universal [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) and [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules. 

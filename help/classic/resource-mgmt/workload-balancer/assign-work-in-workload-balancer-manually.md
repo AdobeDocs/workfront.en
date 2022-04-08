@@ -69,10 +69,16 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    ![](assets/workload-balancer-assign-this-to-link-from-task-350x117.png)
 
-   ``` ```**Tip: **`````` ```You can also use the following shortcuts to assign tasks or issues:```
-
-   * ```In Windows: CTRL+click the task or issue bar.``` 
-   * ```In Mac: CMD+click the task or issue bar.```
+   >[!TIP]
+   >
+   >```You can also use the following shortcuts to assign tasks or issues:``` 
+   >
+   >   
+   >   
+   >   * ```In Windows: CTRL+click the task or issue bar.``` 
+   >   * ```In Mac: CMD+click the task or issue bar.``` 
+   >   
+   >
 
 1.
 
@@ -84,12 +90,19 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    If you assign an item to just a team or a job role, the item displays only in the Unassigned Work area. You must assign work items to users in order to display them in the Assigned Work area of the Workload Balancer.
 
-   ``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
-
-   ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
-
-   * ```Reassign the work item to active resources.``` 
-   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+   >[!TIP]
+   >
+   >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+   >
+   >
+   >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+   >
+   >   
+   >   
+   >   * ```Reassign the work item to active resources.``` 
+   >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+   >   
+   >
 
 1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**.
 

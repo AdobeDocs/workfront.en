@@ -226,12 +226,7 @@ To create or edit a plan:
        <ul> 
         <li> <p><strong>Available (max &lt;number of FTEs&gt;)</strong>:&nbsp;The number in parentheses displays the maximum number of roles available for any one of the months for the scenario. Review or update the number of FTEs for each month of the scenario. Changing the monthly allocation might update the number of FTEs in the parentheses. </p> </li> 
         <li> <p><span><strong>Available (total &lt;number of hours&gt;)</strong>:&nbsp;The number in parentheses displays the total number of hours available for all the months in the scenario. Review or update the number of hours for each month of the scenario. Changing the monthly allocation updates the number of hours in the parentheses. </span> </p> </li> 
-       </ul> <p>Manually updating the monthly job role allocations is another way of resolving job role conflicts between initiatives on the scenario. </p> 
-       <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-        <span class="autonumber"><span><b>Tip: </b></span></span> 
-        <p><span>To update the monthly role availability for several months, type the number of hours or FTEs in the Available field of any month, then drag the corner of the field over the adjacent months to copy the same value for each month. Drop it to update all months. </span> </p> 
-        <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> 
-       </div> </td> 
+       </ul> <p>Manually updating the monthly job role allocations is another way of resolving job role conflicts between initiatives on the scenario. </p> <p>Tip:  <p><span>To update the monthly role availability for several months, type the number of hours or FTEs in the Available field of any month, then drag the corner of the field over the adjacent months to copy the same value for each month. Drop it to update all months. </span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Required (max &lt;number&gt;)</p> 

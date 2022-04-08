@@ -140,12 +140,7 @@ You can create a filter from scratch or edit one of the built-in filters.
        </tr> 
        <tr> 
         <td role="rowheader">Company</td> 
-        <td> <p>The goals associated with your organization. </p> 
-         <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-          <span class="autonumber"><span><b>Tip: </b></span></span> 
-          <p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p> 
-          <p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p> 
-         </div> </td> 
+        <td> <p>The goals associated with your organization. </p> <p>Tip:  <p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p> <p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p> </p> </td> 
        </tr> 
       </tbody> 
      </table>

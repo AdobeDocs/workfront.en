@@ -145,9 +145,13 @@ You must have the following access to perform the steps in this article:
    <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png" style="width: 350;height: 120;"> </p>
    -->
 
-   ``` ```**Tip: **`````` The total number of hours for each timesheet displays in the **Total Time** column in the **My Timesheets** and **Timesheet I Approve** sections.
-
-   ![](assets/my-timesheets-list-total-hours-column-highlighted-nwe-350x100.png)
+   >[!TIP]
+   >
+   >The total number of hours for each timesheet displays in the **Total Time** column in the **My Timesheets** and **Timesheet I Approve** sections.
+   >
+   >
+   >![](assets/my-timesheets-list-total-hours-column-highlighted-nwe-350x100.png)   >
+   >
 
 &nbsp;
 

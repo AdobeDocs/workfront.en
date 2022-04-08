@@ -98,14 +98,21 @@ You must have the following access to perform the steps in this article:
 
    1. To add a new assignee:
 
-      1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues. 
-      
-         ``` ```**Tip: **``````You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+      1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues.
 
-         ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
-
-         * ```Reassign the work item to active resources.```
-         * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+         >[!TIP]
+         >
+         >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+         >
+         >
+         >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
+         >
+         >   
+         >   
+         >   * ```Reassign the work item to active resources.```
+         >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+         >   
+         >
 
          Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**&nbsp;column. If information is not common across the issues selected, no information displays.
 

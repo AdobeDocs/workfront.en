@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) To export only specific items in a list, select all items in the list that you want in the exported file.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >To locate all of the items that you want to include, you can:
    >

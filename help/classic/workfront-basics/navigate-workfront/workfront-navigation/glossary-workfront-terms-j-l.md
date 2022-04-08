@@ -66,7 +66,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td>Last Finance Update Date</td> 
-   <td>In a project report, this field captures the date and the time when the project finances were last calculated and updated. For information about project finances, see <a href="../../../manage-work/projects/project-finances/project-finances-overview.md" class="MCXref xref">Project finances overview</a>. </td> 
+   <td>In a project report, this field captures the date and the time when the project finances were last calculated and updated. For information about project finances, see <a href="../../../manage-work/projects/project-finances/project-finances-overview-1.md" class="MCXref xref">Project finances overview</a>. </td> 
   </tr> 
   <tr> 
    <td> <p>Last Note</p> </td> 

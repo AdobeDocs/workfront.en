@@ -138,13 +138,20 @@ To add a project field filter:
 
    As you add filters, data displays in the visualizations below for up to 50 projects.
 
-   ``` ```**Tip: **``````To see data for more than the 50 projects that display by default, you can:
-
-   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
-     ![](assets/pagination-350x118.png)  
-   
-   * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
-     ![](assets/sort-by-menu-350x247.png)
+   >[!TIP]
+   >
+   >To see data for more than the 50 projects that display by default, you can:   
+   >
+   >   
+   >   
+   >   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
+   >     ![](assets/pagination-350x118.png)  
+   >   
+   >   * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
+   >     ![](assets/sort-by-menu-350x247.png)  
+   >   
+   >   
+   >
 
    To adjust the date range, see [Change the date range filter](#change-the-date-range-filter).
 
@@ -186,13 +193,20 @@ To add a Custom Form filter:
 
    As you add filters, data displays in the visualizations below for up to 50 projects.
 
-   ``` ```**Tip: **``````To see data for more than the 50 projects that display by default, you can:
-
-   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
-     ![](assets/pagination-350x118.png)  
-   
-   * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
-     ![](assets/sort-by-menu-350x247.png)
+   >[!TIP]
+   >
+   >To see data for more than the 50 projects that display by default, you can:   
+   >
+   >   
+   >   
+   >   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
+   >     ![](assets/pagination-350x118.png)  
+   >   
+   >   * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
+   >     ![](assets/sort-by-menu-350x247.png)  
+   >   
+   >   
+   >
 
    To adjust the date range, see [Change the date range filter](#change-the-date-range-filter).
 

@@ -32,7 +32,7 @@ This article describes changes that were made to the Workfront documentation bet
    <td>March 22, 2018</td> 
   </tr> 
   <tr> 
-   <td><a href="../../administration-and-setup/configure-integrations/workfront-integrations.md" class="MCXref xref">Adobe Workfront integrations</a> </td> 
+   <td><a href="../../administration-and-setup/configure-integrations/workfront-integrations-1.md" class="MCXref xref">Adobe Workfront integrations</a> </td> 
    <td>Updated the section "Included Integrations (No Additional Cost)" to include the Workfront Adobe Connector.</td> 
    <td>Updated</td> 
    <td>March 16, 2018</td> 

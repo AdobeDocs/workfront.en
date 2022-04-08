@@ -128,11 +128,16 @@ To create a connection inside a Workfront Fusion module:
 
    These settings are different for every module. A bolded title indicates a required setting.
 
-   ``` ```**Tip: **`````` As you work on your scenario, you can click the module to display this box of settings at any time.
-
-   If you see a black circle on a module, you haven't finished configuring its settings. Click the module to open it and continue configuring.
-
-   ![](assets/black-error-circle-on-module.png)
+   >[!TIP]
+   >
+   >As you work on your scenario, you can click the module to display this box of settings at any time. 
+   >
+   >
+   >If you see a black circle on a module, you haven't finished configuring its settings. Click the module to open it and continue configuring. 
+   >
+   >
+   >![](assets/black-error-circle-on-module.png)   >
+   >
 
 1. If you are adding the first module in your scenario, select an option to indicate where you want the scenario to start each time it runs.
 

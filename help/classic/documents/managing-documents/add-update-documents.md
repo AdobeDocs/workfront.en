@@ -64,5 +64,5 @@ In the Updates area, when you reply to a comment someone made while proofing a d
 
 1. Click **Reply in proof**, type the comment in the proofing viewer that launches, then click **Reply**.
 
-   If you need information about typing comments and replies in the proofing viewer, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+   If you need information about typing comments and replies in the proofing viewer, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
 

@@ -76,7 +76,7 @@ Exporting information from the Details section of an object is identical for all
 
    ![](assets/export-custom-form-button-menu.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >The following scenarios may exist:
    >

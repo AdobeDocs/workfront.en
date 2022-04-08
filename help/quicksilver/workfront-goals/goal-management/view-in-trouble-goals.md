@@ -82,12 +82,15 @@ This article describes how to review goals in the Goal List.
 
 1. (Recommended) Adjust the following filters for the Goal List area to review at-risk goals:
 
-   * Click **Company**, then **My Teams**, then **My Groups**, then **Personal** goals in this order to view goals that belong to your organization, your teams, groups, and then your own goals. 
-   
-     ``` ```**Tip: **`````` In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner.
+   * Click **Company**, then **My Teams**, then **My Groups**, then **Personal** goals in this order to view goals that belong to your organization, your teams, groups, and then your own goals.
 
-     You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. 
-   
+     >[!TIP]
+     >
+     >In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. 
+     >
+     >
+     >You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default.
+
    * For each of the organizational units you select above, click **New Filter** > **Progress** > **In Trouble**>**Apply.**
    * (Optional) Select the time period for which you want to view goals.
 

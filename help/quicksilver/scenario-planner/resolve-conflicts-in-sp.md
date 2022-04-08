@@ -56,11 +56,13 @@ You must have the following:
    * The number of job roles required monthly for an initiative is larger than the number of roles budgeted for the plan after all previous initiatives have used the resources budgeted for the plan.
    * The monthly costs of the initiative are larger than the budget available for the plan after all previous initiatives have used the plan's budget to cover their costs.
 
-``` ```**Tip: **`````` By default, the Scenario Planner assumes that you have budgeted for 0 job roles and $0 or the equivalent of $0 in your system's currency for a scenario, unless you specified otherwise. The number of job roles indicates the number of FTEs (Full Time Equivalents) ```or hours``` budgeted for the job role .
-
-For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours.
-
-For information about updating the available roles for a plan and a budget see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md).
+>[!TIP]
+>
+>By default, the Scenario Planner assumes that you have budgeted for 0 job roles and $0 or the equivalent of $0 in your system's currency for a scenario, unless you specified otherwise. The number of job roles indicates the number of FTEs (Full Time Equivalents) ```or hours``` budgeted for the job role . 
+>
+>For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours. 
+>
+>For information about updating the available roles for a plan and a budget see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 
 * You can resolve a conflict by doing one of the following:
 

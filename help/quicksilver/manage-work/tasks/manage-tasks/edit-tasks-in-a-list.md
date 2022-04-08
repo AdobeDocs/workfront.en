@@ -182,7 +182,7 @@ To edit tasks in a list and save changes automatically:
 
 You can manually save changes you make to tasks in a list. When you save changes this way, you have the flexibility to reverse them before saving.
 
->[!NOTE]
+>[!TIP]
 >
 >* You cannot reverse changes you make to tasks in a list when you are editing them in the Subtasks  section  or in a task report.
 >* There are no limitations on how many changes you can reverse. You can reverse all of them one by one until you reach the original state of the tasks. 

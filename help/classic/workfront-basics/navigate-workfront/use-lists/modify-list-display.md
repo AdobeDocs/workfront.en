@@ -76,11 +76,16 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/list-number-page-350x119.png)
 
-   ``` ```**Tip: **`````` By default, 2,000 items display for updated lists and 100 items display for legacy lists. If the list contains more than 2,000 items, you cannot display all the items on one page.
+   >[!TIP]
+   >
+   >By default, 2,000 items display for updated lists and 100 items display for legacy lists. If the list contains more than 2,000 items, you cannot display all the items on one page.
+   >
+   >
+   >For the best performance in large lists where objects contain formatted text fields, we recommend limiting this number to 250.
+   >
+   >
+   >For more information on the 2 list types, see the section [The difference between the updated and the legacy lists](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-   For the best performance in large lists where objects contain formatted text fields, we recommend limiting this number to 250.
-
-   For more information on the 2 list types, see the section [The difference between the updated and the legacy lists](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
    The results of your list are paginated to show the selected number of items per page. You can access the results on other pages by clicking the backward and forward arrows or selecting a specific page.
 
 1. To resize a column's width, mouse over the line that separates 2 columns, then click to drag it to the desired width.

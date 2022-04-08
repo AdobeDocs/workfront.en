@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
 1. Upload an image to a web site or server external of Adobe Workfront. You must be able to access the image using your web browser.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

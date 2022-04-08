@@ -179,9 +179,11 @@ If any part of the data does not pass the validation, Workfront Fusion returns a
 <pre data-mc-conditions="QuicksilverOrClassic.Draft mode">{"name": "Integrobot", "job": "automate"}</pre>
 -->
 
-``` ```**Tip: **`````` If you want to access the original JSON, open the webhook's settings and enable the JSON pass-through option.
-
-![](assets/json--passthrough-350x471.png)
+>[!TIP]
+>
+>If you want to access the original JSON, open the webhook's settings and enable the JSON pass-through option.
+>
+>![](assets/json--passthrough-350x471.png)>
 
 ## Webhook headers
 

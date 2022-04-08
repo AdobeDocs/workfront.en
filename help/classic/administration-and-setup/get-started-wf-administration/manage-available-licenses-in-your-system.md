@@ -61,12 +61,13 @@ In the screen shot below, **5 of 10 Proof licenses** indicates that this organiz
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If an organization has other paid add-on products, their license information also displays here. If the organization doesn’t have any paid add-on products, nothing displays here.</p>
 -->
 
-``` ```**Tip: **`````` Users without administrative access can use a Group report to view license count. In the Report tab, create a new group report and add the following columns:
-
-* License Type Limit: Worker Limit
-* License Type Limit: Planner Limit&nbsp;
-
-To learn more about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>[!TIP]
+>
+>Users without administrative access can use a Group report to view license count. In the Report tab, create a new group report and add the following columns:>
+>* License Type Limit: Worker Limit
+>* License Type Limit: Planner Limit&nbsp;
+>
+>To learn more about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Add or remove a Home Group to the Licenses page {#add-or-remove-a-home-group-to-the-licenses-page}
 

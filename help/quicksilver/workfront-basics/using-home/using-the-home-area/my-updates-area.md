@@ -110,11 +110,15 @@ You must have the following before you begin:
       >
       >The Changes option displays only for document approvals.
 
-      Depending on which drop-down icon you selected, the item is approved, rejected, or, in the case of a document approval, approved with a request to make additional changes. 
-   
-      ``` ```**Tip: **`````` If you do not want to add a comment to your decision, you can click the **Approve**, **Reject**, or **Changes** button and the approval decision is granted immediately.
+      Depending on which drop-down icon you selected, the item is approved, rejected, or, in the case of a document approval, approved with a request to make additional changes.
 
-      ![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >[!TIP]
+      >
+      >If you do not want to add a comment to your decision, you can click the **Approve**, **Reject**, or **Changes** button and the approval decision is granted immediately. 
+      >
+      >
+      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
+      >
 
       For more information about approving work, see [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
 

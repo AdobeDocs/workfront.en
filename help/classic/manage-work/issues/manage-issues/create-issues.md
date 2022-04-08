@@ -126,7 +126,7 @@ To create issues inline:
 
 1. Start typing the name of the issue in the Name field, then continue adding more information about the issue inline.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

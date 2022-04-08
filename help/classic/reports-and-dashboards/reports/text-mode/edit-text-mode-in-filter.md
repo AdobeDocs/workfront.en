@@ -103,7 +103,7 @@ For information about creating a report, see [Create a custom report](../../../r
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Statement operator. By default, each filter statement is connected by the "AND" operator. This does not display in the text mode interface. You can also add an "OR" operator between two statements to indicate that you want to filter for objects that can fulfill one or the other of two conditions.</p> <p>Filter operators are required only for filters that have more than one statement.</p> <p>Tips:  
+      <td> <p>Statement operator. By default, each filter statement is connected by the "AND" operator. This does not display in the text mode interface. You can also add an "OR" operator between two statements to indicate that you want to filter for objects that can fulfill one or the other of two conditions.</p> <p>Filter operators are required only for filters that have more than one statement.</p> <p>Tip:  
         <ul> 
          <li> <p>"OR" is case sensitive and must always be capitalized.</p> </li> 
          <li> <p>When you change your operator from&nbsp;AND&nbsp;to OR, the number of list items may increase.</p> </li> 
@@ -119,7 +119,7 @@ For information about creating a report, see [Create a custom report](../../../r
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>A wildcard which allows you to generalize the information in a filter and reference the current time or the user who is logged in.</p> <p>Wildcards are optional.</p> <p>Tips:  <p>We recommend using wildcards whenever possible to make your filters more dynamic and not duplicate the same filters for each user or similar time frames.</p> <p>For information about filter wildcards, see <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a>.</p> </p> </td> 
+      <td> <p>A wildcard which allows you to generalize the information in a filter and reference the current time or the user who is logged in.</p> <p>Wildcards are optional.</p> <p>Tip:  <p>We recommend using wildcards whenever possible to make your filters more dynamic and not duplicate the same filters for each user or similar time frames.</p> <p>For information about filter wildcards, see <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>">
         <span class="autonumber"><span><b>Example: </b></span></span> 

@@ -59,10 +59,11 @@ You must have the following before you can start:
 
 ## Print the goal list
 
-``` ```**Tip: **``````
-
-* When printing a list of goals, the file produced contains only the information displayed on the screen. Items eliminated by filtering a list of goals do not display in the .pdf file.
-* When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.
+>[!TIP]
+>
+>* When printing a list of goals, the file produced contains only the information displayed on the screen. Items eliminated by filtering a list of goals do not display in the .pdf file.
+>* When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.
+>
 
 1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
 

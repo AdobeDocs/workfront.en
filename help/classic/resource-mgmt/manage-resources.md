@@ -18,6 +18,6 @@ This section contains the following subsections:
 * [The Workload Balancer](../resource-mgmt/workload-balancer/workload-balancer.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a href="../resource-mgmt/legacy-res-planning/legacy-resource-planning.md" class="MCXref xref" xrefformat="{para}">Legacy Resource Planning</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a href="../resource-mgmt/legacy-res-planning/legacy-resource-planning-1.md" class="MCXref xref" xrefformat="{para}">Legacy Resource Planning</a> </li>
   -->
 

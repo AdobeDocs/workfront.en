@@ -101,7 +101,7 @@ You can also designate template ownership before you install the blueprint. You 
 
    ![Issue routed to job role](assets/blueprints-projectshowsissueassignment-350x71.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

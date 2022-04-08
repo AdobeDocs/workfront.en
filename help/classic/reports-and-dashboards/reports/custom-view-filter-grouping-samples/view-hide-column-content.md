@@ -11,7 +11,7 @@ description: You might want to hide information in the column of a view. You can
 
 You might want to hide information in the column of a view. You can do this by modifying the text mode of the column.
 
->[!NOTE]
+>[!TIP]
 >
 >* You can use hidden columns to sort by a certain object that you do not want to display in the view.  
 >  For example, you can sort by Task Number in a task view and hide the Task Number information from the view. In this case, the object referenced in the column helps sorting the view, but the information of that object does not display in the view.

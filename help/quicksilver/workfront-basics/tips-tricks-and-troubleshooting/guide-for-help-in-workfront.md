@@ -133,7 +133,7 @@ To learn more, see the article [The Innovation Lab](../../workfront-basics/tips-
 
 The following resources can help you learn more about the Workfront API&nbsp;and other integrations:
 
-| [Adobe Workfront integrations](../../administration-and-setup/configure-integrations/workfront-integrations.md)  |You can integrate Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization. This Knowledge Base article covers your integration options and points you in the next direction. |
+| [Adobe Workfront integrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)  |You can integrate Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization. This Knowledge Base article covers your integration options and points you in the next direction. |
 |---|---|
 | [Workfront built-in integrations](https://www.workfront.com/integrations)  |Workfront's free built-in integrations allow you and your team to smoothly transition into the Workfront platform while maintaining the same workflows and processes. |
 | [Adobe Workfront Fusion](../../workfront-fusion/workfront-fusion-2.md)  |Connects Workfront to 100+ applications, making it easy to automate your business critical processes without code. |

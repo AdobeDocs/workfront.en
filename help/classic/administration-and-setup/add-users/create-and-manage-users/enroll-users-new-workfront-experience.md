@@ -18,12 +18,14 @@ By default, new users have Adobe Workfront Classic as their personal Workfront e
 
 For more information about the new experience, see [the new Workfront experience page](https://one.workfront.com/s/new-workfront-experience).
 
-``` ```**Tip: **`````` As an Adobe Workfront administrator or a group administrator, you can change your own Workfront environment by doing one of the following:
-
-* Selecting Switch to the new experience from the user menu in the Global Navigation Bar
-* Selecting Switch to Classic in the Main Menu.
-
-For more information, see [Switch your admin account to Adobe Workfront Classic](#switch-your-admin-account-to-adobe-workfront-classic) or [Switch your admin account to the new Adobe Workfront experience](#switch-your-admin-account-to-the-new-adobe-workfront-experience).
+>[!TIP]
+>
+>As an Adobe Workfront administrator or a group administrator, you can change your own Workfront environment by doing one of the following:
+>
+>* Selecting Switch to the new experience from the user menu in the Global Navigation Bar
+>* Selecting Switch to Classic in the Main Menu.
+>
+>For more information, see [Switch your admin account to Adobe Workfront Classic](#switch-your-admin-account-to-adobe-workfront-classic) or [Switch your admin account to the new Adobe Workfront experience](#switch-your-admin-account-to-the-new-adobe-workfront-experience).
 
 ## Access requirements
 

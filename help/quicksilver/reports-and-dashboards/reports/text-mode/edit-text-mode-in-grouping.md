@@ -134,9 +134,9 @@ For information about creating a report, see [Create a custom report](../../../r
    >The key lines in a text mode grouping are similar to the lines required to build text-mode views.
 
    <!--
-   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Tip: </b></span></span>
+   <note type="tip">  
    <p>The key lines in a text mode grouping are similar to the lines required to build text-mode views.</p>
-   </div>
+   </note>
    -->
 
    <table cellspacing="15"> 
@@ -209,7 +209,7 @@ For information about creating a report, see [Create a custom report](../../../r
    
      if you want the grouping to display with the results expanded
 
-     >[!NOTE]
+     >[!TIP]
      >
      >
      >   

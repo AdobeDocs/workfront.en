@@ -61,13 +61,15 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
    ![](assets/ci3-350x168.png)
 
-   ``` ```**Tip: **`````` If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the Convert to Project box to notify you that the approval will be removed or the resolving object will be overwritten during the conversion. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+   >[!TIP]
+   >
+   >If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the Convert to Project box to notify you that the approval will be removed or the resolving object will be overwritten during the conversion. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. In the submenu that displays, do one of the following:
 
    * Click **New Project** to covert the issue to a blank project.
 
-     >[!NOTE]
+     >[!TIP]
      >
      >
      >   

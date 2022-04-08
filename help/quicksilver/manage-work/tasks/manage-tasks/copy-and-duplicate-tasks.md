@@ -103,15 +103,19 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
    The Copy Task box displays. 
 
-1. (Optional) Update the **Task Name**. 
+1. (Optional) Update the **Task Name**.
 
-   ``` ```**Tip: **`````` This field is dimmed and not editable when selecting to copy multiple tasks in ```a``` ```list. You can hover over the Task Name field and a list of all selected tasks displays.```
-
-   ![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
+   >[!TIP]
+   >
+   >This field is dimmed and not editable when selecting to copy multiple tasks in ```a``` ```list. You can hover over the Task Name field and a list of all selected tasks displays.```
+   >
+   >
+   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)   >
+   >
 
 1. Type the name of the **Destination Project**&nbsp;where you want to copy the task in the **Select Destination Project** field.&nbsp;
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

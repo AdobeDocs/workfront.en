@@ -72,7 +72,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
      Continue with Step 3e below.
 
-     >[!NOTE]
+     >[!TIP]
      >
      >
      >   
@@ -98,7 +98,9 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
      ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
-     ``` ```**Tip: **`````` If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the Convert to Project box to notify you that the approval will be removed or the resolving object will be overwritten during the conversion. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+     >[!TIP]
+     >
+     >If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the Convert to Project box to notify you that the approval will be removed or the resolving object will be overwritten during the conversion. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. (Conditional)&nbsp;If you selected to convert the issue to a project using a template, continue with the following steps:
 
@@ -125,9 +127,11 @@ You can convert an issue to a blank project or convert an issue to a project usi
       ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
    1. If a field is already populated in the template, the field is pre-populated in the **Convert to project** box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
-   
-      ``` ```**Tip: **`````` To update fields in the Finance section in the Convert to Project box you must have Edit access to Financial&nbsp;Data in your access level.&nbsp;If you have View access to Financial Data in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md). 
-   
+
+      >[!TIP]
+      >
+      >To update fields in the Finance section in the Convert to Project box you must have Edit access to Financial&nbsp;Data in your access level.&nbsp;If you have View access to Financial Data in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+
    1. (Optional and conditional) Click **Options**, then select from the options that are available:
 
       * **Keep the original issue and tie its resolution to the this project**When deselected, the original issue is deleted.
@@ -162,15 +166,21 @@ You can convert an issue to a blank project or convert an issue to a project usi
       * Click the **x icon** to the right of any form that you do not want to transfer to the project. 
       * If necessary, transfer custom form information from the issue to the
 
-      ``` ```**Tip: **`````` In the Production environment, you can transfer custom form information from the issue to the project by adding a duplicate project-type custom form (with the same fields that are on the issue-type custom form) to the new project. For more information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-
-      <!--   
-      <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">In the Preview environment, if a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion.</p>   
-      -->
-
-      <!--   
-      <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the issue, the field value from the issue is used for the new project. However, if the custom field is blank on the issue, the value from the template is used.</p>   
-      -->
+      >[!TIP]
+      >
+      >In the Production environment, you can transfer custom form information from the issue to the project by adding a duplicate project-type custom form (with the same fields that are on the issue-type custom form) to the new project. For more information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+      >
+      >
+      ><!--      >
+      ><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">In the Preview environment, if a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion.</p>      >
+      >-->      >
+      >
+      >
+      >
+      ><!--      >
+      ><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the issue, the field value from the issue is used for the new project. However, if the custom field is blank on the issue, the value from the template is used.</p>      >
+      >-->      >
+      >
 
    1. Click **Convert to project**.
 

@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 1. Do any of the following:
 
-* Comment on the proof, as explained in [Comment on a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+* Comment on the proof, as explained in [Comment on a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
 * Use proofing viewer functionality described in the remaining sections below.
 
 For information about creating a video proof, see .

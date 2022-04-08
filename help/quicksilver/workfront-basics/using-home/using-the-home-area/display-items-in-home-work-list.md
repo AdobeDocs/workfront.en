@@ -132,7 +132,7 @@ You can filter items in the Work List to see only specific types of items. For e
 
    ![](assets/displaying-work-items-filter-350x348.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   
@@ -216,7 +216,7 @@ You can filter items in the Work List to see only specific types of items. For e
    </tr>
    </tbody>
    </table>
-   <p> <img src="assets/displaying-work-items-filters-nwe-350x401.png" style="width: 350;height: 401;"> </p> <note type="tips">
+   <p> <img src="assets/displaying-work-items-filters-nwe-350x401.png" style="width: 350;height: 401;"> </p> <note type="tip">
    <ul>
    <li> <p> Filter options are based on objects (Tasks, Issues, Approvals, Personal tasks). </p> </li>
    <li> <p>Tasks and issues are further filtered by their state in relationship with our readiness to work on them (Working On, Ready to Start, Not Ready for tasks, and Working On and Requested for issues). You can select to display tasks or issues in a specific state or click&nbsp;Tasks or Issues to select and display all states. </p> </li>

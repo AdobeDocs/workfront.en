@@ -10,12 +10,15 @@ description: You can assign issues to users, roles, and teams to indicate who is
 
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
-``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
-
-```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
-
-* ```Reassign the work item to active resources.``` 
-* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+>[!TIP]
+>
+>You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+>
+>```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+>
+>* ```Reassign the work item to active resources.``` 
+>* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+>
 
 In addition to this article, we recommend that you read the following articles for more information about assigning issues:
 

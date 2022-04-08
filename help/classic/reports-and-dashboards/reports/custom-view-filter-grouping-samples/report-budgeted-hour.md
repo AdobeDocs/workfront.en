@@ -106,12 +106,7 @@ The following information is available in the Budgeted Hour report by default:
   </tr> 
   <tr> 
    <td role="rowheader">Alloc. Date</td> 
-   <td> <p>This is the Allocation Date. It is the first day (a Sunday) of the week for which you budgeted the hours.</p> 
-    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-     <span class="autonumber"><span><b>Tip: </b></span></span> 
-     <p>If a week spans for two months, this generates two rows in the report: one corresponding to the first day of the week (the Sunday of the week which is during the first month), and a second one corresponding with the first day of the second month (and which could be any day of the week.)</p> 
-     <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1.</p> 
-    </div> </td> 
+   <td> <p>This is the Allocation Date. It is the first day (a Sunday) of the week for which you budgeted the hours.</p> <p>Tip:  <p>If a week spans for two months, this generates two rows in the report: one corresponding to the first day of the week (the Sunday of the week which is during the first month), and a second one corresponding with the first day of the second month (and which could be any day of the week.)</p> <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1.</p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bud. Hours</td> 

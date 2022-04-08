@@ -151,7 +151,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    ![](assets/calendar-date-picker-balancer-350x208.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   
@@ -188,14 +188,22 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    * 4 weeks.&nbsp;This is the default setting.
    * 6 weeks
    * 12 weeks
-   
-     ``` ```**Tip: **``````
 
-      * ```When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.```
+     >[!TIP]
+     >
+     >
+     >   
+     >   
+     >   * ```When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.``` 
+     >   
+     >   
+     >     ![](assets/3-months-12-weeks-drop-down-wb-350x140.png)     >   
+     >   
 
-        ![](assets/3-months-12-weeks-drop-down-wb-350x140.png)
-
-      * ```When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.```
+     >   
+     >   * ```When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.``` 
+     >   
+     >
 
 1. Click the **Change color theme icon** ![](assets/change-color-theme-icon.png), then select one of the options below. 
 
@@ -272,13 +280,18 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png) to view the daily or weekly Planned Hours for work items.
 
-   This replaces the name in the bars of the work items with the amount of daily or weekly Planned Hours in the Unassigned and Assigned Work areas. This setting is disabled by default. 
+   This replaces the name in the bars of the work items with the amount of daily or weekly Planned Hours in the Unassigned and Assigned Work areas. This setting is disabled by default.
 
-   ``` ```**Tip: **``````
-
-   * The Show allocations setting only affects what displays for projects, tasks, ```issues``` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
-   * You must enable the Group by Project setting to display daily Planned Hours for projects. 
-   * When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours.
+   >[!TIP]
+   >
+   >
+   >   
+   >   
+   >   * The Show allocations setting only affects what displays for projects, tasks, ```issues``` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
+   >   * You must enable the Group by Project setting to display daily Planned Hours for projects. 
+   >   * When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours. 
+   >   
+   >
 
    Days that show overallocations display in red. 
 
@@ -293,10 +306,16 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
      ![](assets/more-menu-right-of-task-350x104.png)
 
-     ``` ```**Tip: **`````````You can also use the following shortcuts to assign tasks or issues:```
-
-      * ```In Windows: CTRL+click the task or issue bar.```
-      * ```In Mac: CMD+click the task or issue bar.```
+     >[!TIP]
+     >
+     >```You can also use the following shortcuts to assign tasks or issues:```
+     >
+     >   
+     >   
+     >   * ```In Windows: CTRL+click the task or issue bar.```
+     >   * ```In Mac: CMD+click the task or issue bar.```
+     >   
+     >
 
      For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
    

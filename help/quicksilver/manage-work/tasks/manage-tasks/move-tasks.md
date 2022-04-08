@@ -91,15 +91,19 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
 1. (Optional) Update the **Task Name**. The task moves with the new name in the new location. Workfront does not record the original name of the task.
 
-   ``` ```**Tip: **`````` This field is dimmed and not editable when selecting to move multiple tasks in ```a``` ```list. You can hover over the Task Name field and a list of all selected tasks displays.```
-
-   ![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
+   >[!TIP]
+   >
+   >This field is dimmed and not editable when selecting to move multiple tasks in ```a``` ```list. You can hover over the Task Name field and a list of all selected tasks displays.```
+   >
+   >
+   >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)   >
+   >
 
 1. Type the name of the **Destination Project**&nbsp;where you want the task to move&nbsp;in the **Select Destination Project** field.&nbsp;
 
    If you want to move the task within the same project, type the name of the current project.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

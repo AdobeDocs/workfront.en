@@ -140,7 +140,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>For a Budgeted Hour report:</p> 
      <ul> 
       <li>Build this report when trying to understand the amount of Budgeted Hours that is allocated to your resources or to your projects in the Resource Planner.</li> 
-      <li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> <p>Tips:   <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p> </p> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> <p>For information about building a Budgeted Hour report, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>. </p> </li> 
+      <li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> <p>Tip:   <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p> </p> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> <p>For information about building a Budgeted Hour report, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>. </p> </li> 
      </ul> 
     </div> </td> 
    <td>&nbsp;</td> 
@@ -1384,7 +1384,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Last Finance Update Date</td> 
-   <td>In a project report, this field captures the date and the time when the project finances were last calculated and updated. For information about project finances, see <a href="../../../manage-work/projects/project-finances/project-finances-overview.md" class="MCXref xref">Project finances overview</a>. </td> 
+   <td>In a project report, this field captures the date and the time when the project finances were last calculated and updated. For information about project finances, see <a href="../../../manage-work/projects/project-finances/project-finances-overview-1.md" class="MCXref xref">Project finances overview</a>. </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 

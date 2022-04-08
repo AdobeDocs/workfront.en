@@ -119,6 +119,9 @@ In an access level, when you click the gear icon ![](assets/gear-icon-in-access-
 * Disabled if "View only companies, groups & teams they belong to" was enabled previously under "Set additional restrictions." 
 * Enabled if "View only companies, groups & teams they belong to" was *not* enabled previously under "Set additional restrictions."
 
-``` ```**Tip: **`````` To view the restriction "View only companies, groups & teams they belong to," click **Set additional restrictions** at the bottom of the Edit Access Level box.
+>[!TIP]
+>
+>To view the restriction "View only companies, groups & teams they belong to," click **Set additional restrictions** at the bottom of the Edit Access Level box.
+>
+>With the addition of the Teams feature in access levels, this restriction is renamed "View only companies & groups they belong to."
 
-With the addition of the Teams feature in access levels, this restriction is renamed "View only companies & groups they belong to."

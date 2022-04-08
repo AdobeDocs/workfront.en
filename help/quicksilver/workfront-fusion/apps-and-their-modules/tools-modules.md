@@ -244,16 +244,18 @@ This function can be useful, for example, if you want to lower the target servic
  </tbody> 
 </table>
 
-``` ```**Tip: **`````` If you want to pause the flow for longer periods of time, we suggest to split your scenario into two scenarios:
-
-* The first scenario would contain the part before the pause
-* The second scenario would contain the part after it.
-
-The first scenario would end up with storing all the necessary information in a data store together with the current timestamp. The second scenario would periodically check the data store for records with a timestamp older than the intended delay, retrieve the records, finalize the processing of the data and remove the records from the data store.
-
-For more information on data stores, see [Data Stores](../../workfront-fusion/modules/data-stores.md).
-
-For more information on specific data store modules, see [Data store modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+>[!TIP]
+>
+>If you want to pause the flow for longer periods of time, we suggest to split your scenario into two scenarios:
+>
+>* The first scenario would contain the part before the pause
+>* The second scenario would contain the part after it.
+>
+>The first scenario would end up with storing all the necessary information in a data store together with the current timestamp. The second scenario would periodically check the data store for records with a timestamp older than the intended delay, retrieve the records, finalize the processing of the data and remove the records from the data store.
+>
+>For more information on data stores, see [Data Stores](../../workfront-fusion/modules/data-stores.md).
+>
+>For more information on specific data store modules, see [Data store modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 ### Aggregators {#aggregators}
 

@@ -87,17 +87,18 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-``` ```**Tip: **`````` When you are managing a group that contains subgroups, it’s helpful to be able to identify and filter data about the entire group and all of its subgroups. You can do this by using the Top Parent ID field in a report or list.
-
-For example, imagine that you manage a large Marketing department and you want a list of all of the projects that the entire department is working on.
-
-In Workfront, this Marketing department is represented by a group called Marketing, with 3 subgroups called Field Marketing, Product Marketing, and Digital Marketing. To list the projects that belong to the entire Marketing department (all 4 groups), you could create a Filter for the Projects area with the following Filter Rule:
-
-```
-Group: Top Parent ID > Equal > Marketing
-```
-
-You can also use the Top Parent Name field to identify data associated with a top-level group, but only in Views, not in Filters or Groupings.
+>[!TIP]
+>
+>When you are managing a group that contains subgroups, it’s helpful to be able to identify and filter data about the entire group and all of its subgroups. You can do this by using the Top Parent ID field in a report or list.
+>
+>For example, imagine that you manage a large Marketing department and you want a list of all of the projects that the entire department is working on.
+>
+>In Workfront, this Marketing department is represented by a group called Marketing, with 3 subgroups called Field Marketing, Product Marketing, and Digital Marketing. To list the projects that belong to the entire Marketing department (all 4 groups), you could create a Filter for the Projects area with the following Filter Rule:
+>
+>```>
+>Group: Top Parent ID > Equal > Marketing
+>```>
+>You can also use the Top Parent Name field to identify data associated with a top-level group, but only in Views, not in Filters or Groupings.
 
 ## Remove a subgroup from its parent group and make it a top-level group
 

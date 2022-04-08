@@ -22,11 +22,15 @@ The following features can impact the Critical Path of a project:
 
   Consider the following:
 
-   * When a task on the Critical Path has a predecessor relationship, its predecessors and successors are also on the Critical Path if the changes on dates of the predecessors or the successors directly impact their dependents. 
-   
-     ``` ```**Tip: **`````` When the date of the successor of a task does not directly impact the date of their dependent tasks and it does not impact the dates of the project, the successor task is not on the Critical Path.
+   * When a task on the Critical Path has a predecessor relationship, its predecessors and successors are also on the Critical Path if the changes on dates of the predecessors or the successors directly impact their dependents.
 
-     ![](assets/successor-not-on-critical-path-350x150.png)
+     >[!TIP]
+     >
+     >When the date of the successor of a task does not directly impact the date of their dependent tasks and it does not impact the dates of the project, the successor task is not on the Critical Path. 
+     >
+     >
+     >![](assets/successor-not-on-critical-path-350x150.png)     >
+     >
 
    * When a subtask is identified as a Critical Path task, the parent task is also identified as a Critical Path task, if the Projected Start Date and time of the parent is the same as that of the subtask.
 

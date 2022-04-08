@@ -164,7 +164,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
    The filter displays in the **Unsaved** area of the filter builder as **New Filter**.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

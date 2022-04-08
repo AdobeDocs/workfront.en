@@ -96,7 +96,7 @@ To create a request in the Workfront web app:&nbsp;
 
    * Choose or search for a request queue for your request from the **New Request** tab, then click it when it displays in the list.
 
-     >[!NOTE]
+     >[!TIP]
      >
      >
      >   
@@ -273,7 +273,7 @@ For information about submitting requests&nbsp;through the mobile app, see the [
 You can submit requests using any applications that have been integrated with Workfront:&nbsp;
 
 * You can build a custom integration between Workfront and another application that allows you to submit requests to Workfront from the other application.  
-  For more information about custom Workfront integrations, see the article [Adobe Workfront integrations](../../../administration-and-setup/configure-integrations/workfront-integrations.md).
+  For more information about custom Workfront integrations, see the article [Adobe Workfront integrations](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
 
 * You can subscribe to Workfront Fusion and configure other applications on that platform to submit Workfront requests.  
   For information about the Workfront Fusion platform, see the article [Legacy Workfront Fusion](../../../administration-and-setup/configure-integrations/legacy-workfront-fusion.md).

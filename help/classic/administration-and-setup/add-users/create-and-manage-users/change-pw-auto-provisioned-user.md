@@ -72,13 +72,15 @@ You must have the following to perform the steps in this article:
 
    The user's user name is changed to their Workfront email address.
 
-``` ```**Tip: **`````` To find a user's ID:
-
-1. Go to the **People** area in the Global Navigation Bar.
-1. Select the **People** tab.
-1. Select the user.
-
-   The user's profile page opens and their user ID displays in the URL.
-
-   ![](assets/userid-350x75.png)
+>[!TIP]
+>
+>To find a user's ID:
+>
+>1. Go to the **People** area in the Global Navigation Bar.
+>1. Select the **People** tab.
+>1. Select the user.
+>
+>   The user's profile page opens and their user ID displays in the URL.
+>
+>   ![](assets/userid-350x75.png)>
 

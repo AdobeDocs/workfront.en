@@ -87,7 +87,7 @@ After you have defined the duration and constraints of each task, you can determ
 * Job Roles
 * Teams
 
-For information about assigning tasks, see the articles in the [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md) section.
+For information about assigning tasks, see the articles in the [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md) section.
 
 ## Manage resources
 

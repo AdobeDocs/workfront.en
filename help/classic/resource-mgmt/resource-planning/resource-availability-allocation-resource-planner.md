@@ -74,7 +74,7 @@ Consider the following when changing your view to the Resource Planner:
    * Hour or FTE Difference 
    * Planned Hours Allocation Percentage
 
->[!NOTE]
+>[!TIP]
 >
 >The information is not available as Cost when applying the **View by User** view to the Resource Planner.
 >

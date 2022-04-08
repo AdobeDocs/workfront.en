@@ -366,7 +366,7 @@ For examples of the most common reasons for using text mode in a grouping, see t
 <li value="1">When customizing a grouping, click <strong>Switch to Text Mode</strong>.</li>
 <li value="2"> <p>Add the code for your custom grouping, then add the following line for a first-level grouping:</p> <p><code>group.0.iscollapsed=true</code> to display the grouping collapsed</p> <p>Or</p> <p><code>group.0.iscollapsed=false</code> to display the grouping expanded.</p> </li>
 <li value="3"> <p>Click <strong>Done</strong>, then <strong>Save Grouping</strong> when you modify the grouping in a list.</p> <p>Or </p> <p>Click <strong>Done</strong>, then <strong>Save + Close</strong> when you modify the grouping in a report.</p> </li>
-</ol> <note type="tips">  
+</ol> <note type="tip">  
 <ul>
 <li>When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.</li>
 <li>The results of a grouping always display expanded after accessing them from a chart element.</li>

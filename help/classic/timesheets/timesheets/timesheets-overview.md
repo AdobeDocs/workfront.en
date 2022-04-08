@@ -55,11 +55,13 @@ You can track time in Workfront by accessing timesheets from the following locat
 
   ![](assets/4-350x127.png)
 
-``` ```**Tip: **`````` By default, timesheets in the **All Timesheets** tab are not displayed. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to display all timesheets associated with the teams that you are part of. Do one of the following to display timesheets:
-
-* Click **Filter**&nbsp;to display all timesheets assigned to people in your teams.
-* Modify any filter options, then click **Filter.**
-* Click **Reset Filter,**&nbsp;then manually specify any filter options, then click&nbsp;**Filter**.
-
-  ![](assets/5-350x159.png)
+>[!TIP]
+>
+>By default, timesheets in the **All Timesheets** tab are not displayed. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to display all timesheets associated with the teams that you are part of. Do one of the following to display timesheets:
+>
+>* Click **Filter**&nbsp;to display all timesheets assigned to people in your teams.
+>* Modify any filter options, then click **Filter.**
+>* Click **Reset Filter,**&nbsp;then manually specify any filter options, then click&nbsp;**Filter**.
+>
+>  ![](assets/5-350x159.png)>
 

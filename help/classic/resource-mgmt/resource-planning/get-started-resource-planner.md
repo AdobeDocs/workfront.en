@@ -18,7 +18,7 @@ For a general overview of resource planning in Adobe Workfront, see the article 
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> For more information about Legacy Resource Planning tools, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md" class="MCXref xref">Legacy Resource Planning</a>. </p>
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> For more information about Legacy Resource Planning tools, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning-1.md" class="MCXref xref">Legacy Resource Planning</a>. </p>
 -->
 
 <!--

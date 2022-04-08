@@ -60,25 +60,24 @@ You must have the following access to perform the steps in this article:
    | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
    |---|---|---|---|
    | Bold | ![mceclip10.png](assets/mceclip10.png)
-
    |⌘+b |Ctrl+B |
+
    | Italics | ![mceclip9.png](assets/mceclip9.png)
-
    |⌘+i |Ctrl+I |
+   
    | Underline | ![mceclip8.png](assets/mceclip8.png)
-
    |⌘+u |Ctrl+U |
+
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png)
-
    |⌘+K |Ctrl+K |
+
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)
-
    |⌘+Shift+8 |Ctrl+Shift+8 |
+
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)
-
    |⌘+Shift+7 |&nbsp;Ctrl+Shift+7 |
-   | Block Quote | ![](assets/block-quote-icon-large.png)
 
+   | Block Quote | ![](assets/block-quote-icon-large.png)
    |⌘+Shift+9 |Ctrl+Shift+9 |
 
    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.

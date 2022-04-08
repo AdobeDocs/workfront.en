@@ -176,7 +176,7 @@ You must have a request that you or someone in your organization previously subm
 
 1. (Optional) Update any information in the custom forms attached, if needed.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

@@ -67,14 +67,12 @@ For example, to subscribe to an issue:
 1. Go to the issue you want to subscribe to.
 
    <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span>
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <note type="tip">
    <p>To subscribe to projects, you can do one of the following:</p>
    <ol>
    <li value="1"> <p>Go to the project you want to subscribe to</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
    </ol>
-   </div>
+   </note>
    </div>
    -->
 
@@ -103,14 +101,12 @@ For example, to unsubscribe from&nbsp;an issue:
 1. Go to the issue you want to unsubscribe from.
 
    <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span>
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <note type="tip">
    <p>To unsubscribe to projects, you can do one of the following:</p>
    <ol>
    <li value="1"> <p>Go to the project you want to unsubscribe from</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
    </ol>
-   </div>
+   </note>
    </div>
    -->
 
@@ -138,14 +134,12 @@ All subscribers are given View permission to the subscribed item. If the new sub
 1. Go to the item to which you want to subscribe another user.
 
    <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span>
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <note type="tip">
    <p>To subscribe another user to projects, you can do one of the following:</p>
    <ol>
    <li value="1"> <p>Go to the project you want to subscribe others from</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
    </ol>
-   </div>
+   </note>
    </div>
    -->
 
@@ -165,14 +159,12 @@ When someone adds a comment to the Updates tab of the item, the subscriber recei
 1. Go to the item from which you want to unsubscribe another user.
 
    <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span>
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <note type="tip">
    <p>To unsubscribe another user to projects, you can do one of the following:</p>
    <ol>
    <li value="1"> <p>Go to the project you want to unsubscribe others from</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
    </ol>
-   </div>
+   </note>
    </div>
    -->
 

@@ -93,9 +93,13 @@ You must have the following to share objects:
 
    ![](assets/nwe-project-sharing-modal-350x456.png)
 
-   ``` ```**Tip: **`````` If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
-
-   ![](assets/sharing-entities-named-similarly-in-sharing-box-350x179.png)
+   >[!TIP]
+   >
+   >If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
+   >
+   >
+   >![](assets/sharing-entities-named-similarly-in-sharing-box-350x179.png)   >
+   >
 
 1. (Optional) Repeat step 3 for each user, team, role, or group to whom you want to grant access to the object.
 1. Specify the permissions for each user, team, role,&nbsp;group, or company that you added in Step 3 by clicking&nbsp;the drop-down menu, then selecting the permission level that you want to grant.
@@ -103,13 +107,19 @@ You must have the following to share objects:
    The following options are available:
 
    * **View:**&nbsp;Users can&nbsp;review and share&nbsp;the item.&nbsp;
-   * **Contribute****:**&nbsp;Users can&nbsp;make&nbsp;updates, log&nbsp;information, make minor edits, and share, plus all View permissions. 
-   
-     ``` ```**Tip: **``````You can grant Contribute permissions only to the following objects:&nbsp;
+   * **Contribute****:**&nbsp;Users can&nbsp;make&nbsp;updates, log&nbsp;information, make minor edits, and share, plus all View permissions.
 
-      * Projects
-      * Tasks
-      * Issues
+     >[!TIP]
+     >
+     >You can grant Contribute permissions only to the following objects:&nbsp;
+     >
+     >   
+     >   
+     >   * Projects
+     >   * Tasks
+     >   * Issues
+     >   
+     >
 
    * **Manage:**Users&nbsp;have full access to the object without administrative&nbsp;rights, which are granted at the access level, plus all View and Contribute permissions.
 

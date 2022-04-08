@@ -103,7 +103,7 @@ You can create a new goal in one of the following ways:
 
 1. (Conditional) Select a **Start date** and an **End date** for your goal, if you clicked **Define custom dates**.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

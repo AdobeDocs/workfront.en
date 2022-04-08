@@ -110,8 +110,10 @@ Removing filters, views, or groupings in Workfront is identical.
 1. Click the **x** icon next to any reporting element that you want to remove. 
 1. (Conditional) Click **Yes, Delete it** if you selected to delete a filter, view, or grouping that you created and later shared with others.&nbsp;This deletes the filter, view, or grouping from the Workfront system.
 
-   ``` ```**Tip: **`````` 
-   Removing a filter, view, or grouping that you created without sharing it with others removes it from the system without asking for a confirmation. 
+   >[!TIP]
+   >
+   >
+   >Removing a filter, view, or grouping that you created without sharing it with others removes it from the system without asking for a confirmation.
 
 1. Click **Done**.
 

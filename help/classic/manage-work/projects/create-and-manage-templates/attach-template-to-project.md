@@ -101,14 +101,11 @@ You must have the following to perform the steps described in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Custom&nbsp;Form</td> 
-      <td> <p>(Optional)&nbsp;Update information in the custom fields of the attached custom forms. </p> 
-       <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-        <span class="autonumber"><span><b>Tip: </b></span></span> 
+      <td> <p>(Optional)&nbsp;Update information in the custom fields of the attached custom forms. </p> <p>Tip:  
         <ul> 
          <li> <p>This step is mandatory when the custom forms on the template contain required fields that are empty. </p> </li> 
          <li> <p>If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li> 
-        </ul> 
-       </div> </td> 
+        </ul> </p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -67,16 +67,13 @@ You can view the following financial indicators about an initiative by accessing
    <td>People Costs</td> 
    <td> <p style="font-weight: normal;">This is a total calculation of the costs associated with the job roles of the initiative for the duration of the initiative. This number depends on how many FTEs <!--
       <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">or hours</span>
-     --> you estimate for a job role for each month of the initiative. </p> 
-    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-     <span class="autonumber"><span><b>Tip: </b></span></span> 
+     --> you estimate for a job role for each month of the initiative. </p> <p>Tip:  
      <ul> 
       <li> <p style="font-weight: normal;">The number of monthly FTEs <!--
          <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">or hours</span>
         --> for the same job role may be different from month to month. </p> </li> 
       <li> <p style="font-weight: normal;">Workfront considers that there are 160 working hours in one month. </p> </li> 
-     </ul> 
-    </div> <p style="font-weight: normal;">Workfront calculates the People Costs of an initiative using the following formula:</p> <p style="font-weight: normal;"><code>Initiative People Costs = SUM(Monthly people cost)</code> </p> 
+     </ul> </p> <p style="font-weight: normal;">Workfront calculates the People Costs of an initiative using the following formula:</p> <p style="font-weight: normal;"><code>Initiative People Costs = SUM(Monthly people cost)</code> </p> 
     <div> 
      <p style="font-weight: normal;"> Workfront calculates the Monthly People Costs for each month during the Initiative's duration using the following formula:&nbsp;</p> 
      <p style="font-weight: normal;"><code>Monthly People Costs = SUM(Job role hourly rate * 160 * Number of FTEs)</code> </p> <!--

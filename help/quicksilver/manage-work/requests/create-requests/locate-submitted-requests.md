@@ -126,7 +126,9 @@ To locate requests that you or other users have submitted:
 
 1. (Optional) Click the header of a column to sort by it.
 
-   ``` ```**Tip: **`````` ```When you navigate away from the Submitted requests list, the selected sorting option is preserved.``` 
+   >[!TIP]
+   >
+   >```When you navigate away from the Submitted requests list, the selected sorting option is preserved.```
 
 1. (Optional) ```Select``` a request in the list , then click the **Open Summary** icon ``` ![](assets/open-summary-with-text-nwe.png)
 

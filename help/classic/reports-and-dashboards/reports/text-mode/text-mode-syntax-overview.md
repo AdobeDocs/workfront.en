@@ -121,25 +121,24 @@ valueexpression
 * [Valuefield syntax overview for views and groupings](#valuefield-syntax-overview-for-views-and-groupings) 
 * [Valueexpression syntax overview for views and groupings](#valueexpression-syntax-overview-for-views-and-groupings)
 
-``` ```**Tip: **``````
-
-* Although the lines of code in the examples below are similar between views and groupings, always remember that every line of code for a grouping starts with the grouping number.
-
-  ``` ```**Example: **`````` To group by Project Name in a project list or report, use the following line for the first-tier grouping:
-
-  ```
-  group.0.valuefield=name
-  ```
-
-* If you edit multiple columns in a view in the same column (as it is the case of shared columns), remember that every line of code for each column starts with the column number. 
-
-  ``` ```**Example: **`````` Use the following format to identify the first column of a view:
-
-  ```
-  column.0.valuefield=name
-  ```
-
-  For information about sharing columns, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>[!TIP]
+>
+>* Although the lines of code in the examples below are similar between views and groupings, always remember that every line of code for a grouping starts with the grouping number.
+>
+>  To group by Project Name in a project list or report, use the following line for the first-tier grouping:
+>
+>  ```>
+>  group.0.valuefield=name
+>  ```>
+>* If you edit multiple columns in a view in the same column (as it is the case of shared columns), remember that every line of code for each column starts with the column number. 
+>
+>  Use the following format to identify the first column of a view: 
+>
+>  ```>
+>  column.0.valuefield=name
+>  ```>
+>  For information about sharing columns, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md). 
+>
 
 #### 
 
@@ -215,9 +214,12 @@ valueexpression=
 
 when building views and groupings in text mode when you want to reference a calculation between 2 or more fields.
 
-``` ```**Tip: **`````` Although you can build calculated fields which you can display in reports, calculated views and groupings are more dynamic. Calculated views and groupings refresh with new information every time you run the report or display a list.
+>[!TIP]
+>
+>Although you can build calculated fields which you can display in reports, calculated views and groupings are more dynamic. Calculated views and groupings refresh with new information every time you run the report or display a list.
+>
+>For information about creating calculated columns in a view, see [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
-For information about creating calculated columns in a view, see [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 Building a calculated grouping is similar to building a calculated column in a view.
 
 The following rules apply when referencing Workfront objects using a 

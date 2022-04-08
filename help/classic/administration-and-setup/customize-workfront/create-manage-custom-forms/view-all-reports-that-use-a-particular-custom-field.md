@@ -65,7 +65,7 @@ You must have the following to perform the steps in this article:
    >
    >The initial load time for this tool can take anywhere from 10 seconds to 2.5 minutes, depending on the amount of data in your system.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

@@ -180,15 +180,21 @@ To create a single-use approval process:
 
    ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
-1. Complete the steps beginning with step 6 in the section "Create a system-level or group-level global approval process for work items" in the article [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). 
+1. Complete the steps beginning with step 6 in the section "Create a system-level or group-level global approval process for work items" in the article [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-   ``` ```**Tip: **`````` After you attach the single-use approval process, it displays as "<Custom>" in the Approval Process field inside the Edit box of projects, tasks, issues, templates, and template tasks. For information about editing objects, see the following articles:
-
-   * [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md) 
-   * [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md) 
-   * [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md) 
-   * [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md) 
-   * [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md)
+   >[!TIP]
+   >
+   >After you attach the single-use approval process, it displays as "<Custom>" in the Approval Process field inside the Edit box of projects, tasks, issues, templates, and template tasks. For information about editing objects, see the following articles:
+   >
+   >   
+   >   
+   >   * [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md) 
+   >   * [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md) 
+   >   * [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md) 
+   >   * [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md) 
+   >   * [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) 
+   >   
+   >
 
 ## Automatically associate an approval process with work items
 

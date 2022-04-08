@@ -45,7 +45,7 @@ For example, if you have a Request Queue for Marketing Requests, you can have a 
 
 For more information about how to create Request Queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
->[!NOTE]
+>[!TIP]
 >
 >* You can create up to 10 tiers of Topic Groups within a Request Queue.
 >* There is no limit to the number of Queue Topics that can be associated with a topic group. 

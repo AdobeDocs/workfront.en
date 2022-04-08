@@ -100,7 +100,7 @@ For more information about activities, see [Get started with results and activit
 
          For more information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-         >[!NOTE]
+         >[!TIP]
          >
          >
          >   

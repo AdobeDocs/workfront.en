@@ -114,10 +114,16 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
     </tbody> 
    </table>
 
-   ``` ```**Tip: **`````` Planned Hours from the project do not display in the following scenarios:
-
-   * When tasks or issues are not assigned to job roles, or users with a job role associated with them.
-   * When tasks or issues have a Duration of zero.
+   >[!TIP]
+   >
+   >Planned Hours from the project do not display in the following scenarios: 
+   >
+   >   
+   >   
+   >   * When tasks or issues are not assigned to job roles, or users with a job role associated with them.
+   >   * When tasks or issues have a Duration of zero. 
+   >   
+   >
 
    &nbsp;
 

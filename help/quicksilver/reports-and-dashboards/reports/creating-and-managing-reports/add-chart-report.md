@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Groupings** tab and add a grouping.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

@@ -15,7 +15,7 @@ description: Adobe Workfront Fusion can connect to almost any web service. It is
 >
 >Adobe Workfront Fusion can connect to almost any web service. It is not limited to only the apps on this list. If the app you want to work with is not on this list, you can use the following modules to connect directly to the web service:
 >
->* [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md) 
+>* [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) 
 >* [SOAP module](../../workfront-fusion/apps-and-their-modules/soap-module.md) 
 >* [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md) 
 >
@@ -93,7 +93,7 @@ This section contains the following articles:
 * [Google Sheets modules](../../workfront-fusion/apps-and-their-modules/google-sheets-modules.md) 
 * [Google Slides modules](../../workfront-fusion/apps-and-their-modules/google-slides-modules.md) 
 * [Google Team Drive modules](../../workfront-fusion/apps-and-their-modules/google-team-drive-modules.md) 
-* [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md) 
+* [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) 
 * [HubSpot CRM modules](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md) 
 * [Image modules](../../workfront-fusion/apps-and-their-modules/image-module.md) 
 * [Intacct modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)

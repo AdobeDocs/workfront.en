@@ -96,11 +96,13 @@ You can track time in Workfront by accessing timesheets from the following locat
      <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>In the Preview environment, when selecting the My&nbsp;Timesheet Approvals filter: </p> <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p> </li>   
      -->
 
-``` ```**Tip: **`````` By default, timesheets in the **All Timesheets** tab are not displayed. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to display all timesheets associated with the teams that you are part of. Do one of the following to display timesheets:
-
-* Click **Filter**&nbsp;to display all timesheets assigned to people in your teams.
-* Modify any filter options, then click **Filter.**
-* Click **Reset Filter,**&nbsp;then manually specify any filter options, then click&nbsp;**Filter**.
-
-  ![](assets/all-timesheets-page-with-preselected-teams-default-old-nwe-350x255.png)
+>[!TIP]
+>
+>By default, timesheets in the **All Timesheets** tab are not displayed. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to display all timesheets associated with the teams that you are part of. Do one of the following to display timesheets:
+>
+>* Click **Filter**&nbsp;to display all timesheets assigned to people in your teams.
+>* Modify any filter options, then click **Filter.**
+>* Click **Reset Filter,**&nbsp;then manually specify any filter options, then click&nbsp;**Filter**.
+>
+>  ![](assets/all-timesheets-page-with-preselected-teams-default-old-nwe-350x255.png)>
 

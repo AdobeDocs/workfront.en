@@ -347,17 +347,16 @@ Depending on what modifier you selected, you can select multiple values.
 </note> </li>
 <li value="9"> <p>Click&nbsp;<strong>Add filter</strong> to select another field and add a new filtering criteria to the filter statement. </p> </li>
 <li value="10"> <p>(Optional)&nbsp;Click the <strong>Delete</strong> icon <img src="assets/delete.png"> to remove existing filter statements.</p> <p>Or</p> <p>Click <strong>Clear all</strong> to clear all filtering criteria. </p> </li>
-<li value="11"> <p>(Optional)&nbsp;Click <strong>Add filter group</strong> to add another set of filtering criteria.</p>
-<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>"> <span class="autonumber"><span><b>Tip: </b></span></span>
+<li value="11"> <p>(Optional)&nbsp;Click <strong>Add filter group</strong> to add another set of filtering criteria.</p> <note type="tip">  
 <p>You might want to user another filter group when you want the groups to be connected by a different operator than the operator in a filter statement. </p>
-<div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span>
+<div class="example" data-mc-autonum="<b>Example: </b>">  
 <p>When you filter for project that contain "marketing" in the name that are either not complete and are not On Hold, you can use the following multiple filter groups: </p>
 <p><code>(Project: Name Contains Marketing AND&nbsp;Project:&nbsp;Percent Complete Does not equal 100) </code> </p>
 <p><code>OR&nbsp;</code> </p>
 <p><code>(Project: Name Contains Marketing AND&nbsp;Project: Status Does not equal On&nbsp;Hold)</code> </p>
 <p>In this case, each filter statement is connected by an AND and the filter groups are connected by an OR. </p>
 </div>
-</div> </li>
+</note> </li>
 <li value="12"> <p>(Optional)&nbsp;Click <strong>Text mode</strong> to continue building the filter using text mode. </p> <p> <img src="assets/text-mode-option-create-filter-nwe-350x253.png" style="width: 350;height: 253;"> </p> <p>The text mode interface opens. </p> <p> <img src="assets/text-mode-interface-for-beta-filters-nwe-350x324.png" style="width: 350;height: 324;"> </p> <note type="tip">
 We recommend building as much of the filter as possible using the beta builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
 </note> <p>For more information about creating a filter using the text mode interface, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>. </p> </li>
@@ -373,7 +372,7 @@ Clicking
 <strong>Cancel</strong> at any time takes you back to the filter building area.
 </note> </li>
 <li value="19"> <p>Click&nbsp;<strong>Save</strong>. The filter is saved in the My filters list and is applied to the list of items.</p> </li>
-<li value="20"> <p> (Optional) Select another filter to apply it in addition to the new filter you just created. </p> <note type="tips">  
+<li value="20"> <p> (Optional) Select another filter to apply it in addition to the new filter you just created. </p> <note type="tip">  
 <ul>
 <li> <p>There is no limit to the number of filters you can select.</p> </li>
 <li> <p>When you select multiple filters all their conditions must be met simultaneously to display matching results.</p> </li>

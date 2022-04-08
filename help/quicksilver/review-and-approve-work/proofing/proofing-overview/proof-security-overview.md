@@ -23,10 +23,12 @@ Login required enhances the security of the proofs created in your account. You 
 
 When login required is enabled, reviewers are required to log in using their email and password before they can view proofs created in your organization's account. Users should use their Workfront or SSO credentials, depending on how your instance is set up.
 
-``` ```**Tip: **``````To streamline the login process, we recommend setting SSO up in Workfront and Workfront proof. For more information on enabling SSO, see
-
-* [Single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
-* [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>[!TIP]
+>
+>To streamline the login process, we recommend setting SSO up in Workfront and Workfront proof. For more information on enabling SSO, see >
+>* [Single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>
 
 ## Electronic signature
 

@@ -156,10 +156,16 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
       ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
-      ``` ```**Tip: **`````` You can select a field from the following sections:
-
-      * **Suggested fields**: the fields most commonly used.
-      * **Recent selections**: the fields you have recently filtered for.
+      >[!TIP]
+      >
+      >You can select a field from the following sections:
+      >
+      >   
+      >   
+      >   * **Suggested fields**: the fields most commonly used.
+      >   * **Recent selections**: the fields you have recently filtered for. 
+      >   
+      >
 
    1. Select a modifier from the second drop-down menu.
    1. Select or type a value for the field you are filtering for. 

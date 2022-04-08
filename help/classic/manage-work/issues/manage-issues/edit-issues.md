@@ -247,14 +247,21 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    ![assignments_ara_edit_issue.png](assets/assignments-ara-edit-issue-350x94.png)
 
-1. Click **Add Assignee** to add a new assignee to the issue. You can assign users, roles, or teams to an issue. You can have multiple assignees on an issue. 
+1. Click **Add Assignee** to add a new assignee to the issue. You can assign users, roles, or teams to an issue. You can have multiple assignees on an issue.
 
-   ``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
-
-   ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
-
-   * ```Reassign the work item to active resources.``` 
-   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
+   >[!TIP]
+   >
+   >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+   >
+   >
+   >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+   >
+   >   
+   >   
+   >   * ```Reassign the work item to active resources.``` 
+   >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+   >   
+   >
 
 1. (Optional) Indicate whether an assignee is the primary assignee on the issue, by selecting the **Issue Owner** radio button. 
 1. (Optional) Select a role from the **Assignee's Role** drop-down menu.  

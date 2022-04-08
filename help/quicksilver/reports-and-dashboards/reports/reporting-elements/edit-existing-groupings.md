@@ -64,7 +64,7 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 
    For information about updated and legacy lists, see the section "The difference between updated and legacy lists"&nbsp;in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-   >[!NOTE]
+   >[!TIP]
    >
    >
    >   

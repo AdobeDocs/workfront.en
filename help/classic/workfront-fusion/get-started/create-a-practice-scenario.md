@@ -277,22 +277,25 @@ We still need to configure the scenario to create projects for all the other row
 1. Click **Save** ![](assets/save-icon.png) near the lower-left corner.
 1. Go to Workfront to see the projects that the scenario created.
 
-``` ```**Tip: **`````` We recommend the optional but useful practice of adding notes about each module.
-
-1. Right-click the Workfront module, then click **Add a note**.
-1. In the note that displays, type an overview for the module.
-
-   This is helpful because you won't have to continually open the module to see what it does. You could type something like "Creates a project with Name, Planned Start Date, and Priority mapped from spreadsheet."
-
-   For the Google Sheets module, you could type something like "Watch Project List for new rows/projects added."
-
-   You can add multiple notes for a module.
-
-1. Close the **Notes** area.
-
-   After you add a note to a scenario, an orange dot displays on the **Notes** icon ![](assets/notes-icon-w-dot.png) at the bottom of the scenario editor.
-
-1. Click the **Notes** icon ![](assets/notes-icon-w-dot.png) to view your notes.
+>[!TIP]
+>
+>We recommend the optional but useful practice of adding notes about each module.
+>
+>1. Right-click the Workfront module, then click **Add a note**.
+>1. In the note that displays, type an overview for the module.
+>
+>   This is helpful because you won't have to continually open the module to see what it does. You could type something like "Creates a project with Name, Planned Start Date, and Priority mapped from spreadsheet."
+>
+>   For the Google Sheets module, you could type something like "Watch Project List for new rows/projects added."
+>
+>   You can add multiple notes for a module.
+>
+>1. Close the **Notes** area.
+>
+>   After you add a note to a scenario, an orange dot displays on the **Notes** icon ![](assets/notes-icon-w-dot.png) at the bottom of the scenario editor.
+>
+>1. Click the **Notes** icon ![](assets/notes-icon-w-dot.png) to view your notes.
+>
 
 ## Activate the scenario
 

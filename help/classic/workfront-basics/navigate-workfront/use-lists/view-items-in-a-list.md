@@ -262,11 +262,7 @@ The following table shows some of the differences between the legacy and updated
   </tr> 
   <tr> 
    <td> <p>Display <strong>100</strong> items by default</p> </td> 
-   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> 
-    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Classic"> <span class="autonumber"><span><b>Tip: </b></span></span> 
-     <p>For the best performance in large lists where objects contain formatted text fields, limit the number of shown objects to 250 in the lower right corner of the window.</p> 
-     <p> <img src="assets/limit-list-objects-250-350x154.png" style="width: 350;height: 154;"> </p> 
-    </div> </td> 
+   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> <p>Tip:   <p>For the best performance in large lists where objects contain formatted text fields, limit the number of shown objects to 250 in the lower right corner of the window.</p> <p> <img src="assets/limit-list-objects-250-350x154.png" style="width: 350;height: 154;"> </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Use CTRL+F to find items in a list</p> </td> 

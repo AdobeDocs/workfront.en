@@ -129,14 +129,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Group</td> 
-      <td> <p>Add the name of a single group if the group is associated with the program or has responsibility for completing it. </p> 
-       <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-        <span class="autonumber"><span><b>Tip: </b></span></span> 
-        <p>When accessing the Group field from the Program Details page, do the following: </p> 
-        <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> 
-        <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> 
-        <p>This option is not available in the Edit Program box. </p> 
-       </div> </td> 
+      <td> <p>Add the name of a single group if the group is associated with the program or has responsibility for completing it. </p> <p>Tip:  <p>When accessing the Group field from the Program Details page, do the following: </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>This option is not available in the Edit Program box. </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Is Active</td> 

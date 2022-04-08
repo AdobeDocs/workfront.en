@@ -505,10 +505,7 @@ See also [Notifications: Information about projects I'm on](../../../workfront-b
   <tr> 
    <td> <p>Project</p> </td> 
    <td> <p>Project Completion to Project Team</p> </td> 
-   <td> <p>A project I'm on is completed.</p> <p>Users on a project team receive an email notification when the project status is Complete.</p> 
-    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-     <span class="autonumber"><span><b>Tip: </b></span></span>If projects are completed regularly, enabling this option can create a lot of email for users who have a limited number of tasks on many projects. 
-    </div> </td> 
+   <td> <p>A project I'm on is completed.</p> <p>Users on a project team receive an email notification when the project status is Complete.</p> <p>Tip: If projects are completed regularly, enabling this option can create a lot of email for users who have a limited number of tasks on many projects. </p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 

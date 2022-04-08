@@ -56,7 +56,7 @@ You must have the following access to use the functionality in this article:
 
 >[!NOTE]
 >
->To call a third party webhook (an outgoing webhook) use one of the HTTP modules. For more information, see [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md).
+>To call a third party webhook (an outgoing webhook) use one of the HTTP modules. For more information, see [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
 To use a webhook to connect an app to Workfront Fusion:
 
@@ -231,11 +231,15 @@ For more information on MIME format, see [MIME modules](../../workfront-fusion/a
 ### JSON {#json}
 
 <pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: application/json</pre><pre>{"name": "Workfront Fusion", "job": "automate"}</pre>
-``` ```**Tip: **`````` If you want to access the original JSON, enable JSON pass-through when setting up the webhook.
 
-1. Click **Add**to add a new webhook.
-1. Click **Show advanced settings**.
-1. Click **JSON pass-through**.
+>[!TIP]
+>
+>If you want to access the original JSON, enable JSON pass-through when setting up the webhook.
+>
+>1. Click **Add**to add a new webhook.
+>1. Click **Show advanced settings**.
+>1. Click **JSON pass-through**.
+>
 
 ## Webhook headers
 

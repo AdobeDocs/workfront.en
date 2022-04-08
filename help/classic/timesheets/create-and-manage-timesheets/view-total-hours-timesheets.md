@@ -85,7 +85,9 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/total-hours-column-highlighted-all-timesheets-tab-classic-old-nwe-350x130.png)
 
-   ``` ```**Tip: **`````` The total number of hours for each timesheet displays in the **Total Time** column in the **My Timesheets** and **Timesheet I Approve** tabs .
+   >[!TIP]
+   >
+   >The total number of hours for each timesheet displays in the **Total Time** column in the **My Timesheets** and **Timesheet I Approve** tabs .
 
 &nbsp;
 

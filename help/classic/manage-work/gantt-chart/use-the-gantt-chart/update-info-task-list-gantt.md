@@ -61,12 +61,18 @@ You must have the following to follow the steps in this article:
 1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually.
 1. Hover over the timeline of a task and drag the time line indicator to a different date.
 1. Drop the indicator when you have reached the correct new Completion Date for the task. 
-1. (Optional and conditional) If you have selected to manually save your changes, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes. 
+1. (Optional and conditional) If you have selected to manually save your changes, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes.
 
-   ``` ```**Tip: **`````` You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
-
-   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   >[!TIP]
+   >
+   >You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
+   >
+   >   
+   >   
+   >   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   >   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   >   
+   >
 
 1. Click **Save** in the upper-right corner of the Gantt chart.
 
@@ -83,12 +89,18 @@ You must have the following to follow the steps in this article:
 1. To delete a predecessor relationship, c lick a predecessor line that connects two tasks to select it, then press **Delete** on your keyboard.  
    ![Delete_predecessor.png](assets/delete-predecessor-350x152.png)
 
-1. (Optional and conditional) If you selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes. 
+1. (Optional and conditional) If you selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes.
 
-   ``` ```**Tip: **`````` You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
-
-   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   >[!TIP]
+   >
+   >You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
+   >
+   >   
+   >   
+   >   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   >   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.  
+   >   
+   >
 
 1. Click **Save** .
 
@@ -121,12 +133,18 @@ You must have the following to follow the steps in this article:
    >   
    >In some cases, the predecessor relationships might prevent the tasks from starting earlier, and the task move is not allowed.
 
-1. (Optional and conditional) If you have selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes. 
+1. (Optional and conditional) If you have selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes.
 
-   ``` ```**Tip: **`````` You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
-
-   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   >[!TIP]
+   >
+   >You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
+   >
+   >   
+   >   
+   >   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   >   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.  
+   >   
+   >
 
 1. Click **Save**.
 
@@ -151,12 +169,18 @@ You must have the following to follow the steps in this article:
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
    >
 
-1. (Optional and conditional) If you selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes. 
+1. (Optional and conditional) If you selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes.
 
-   ``` ```**Tip: **`````` You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
-
-   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
+   >[!TIP]
+   >
+   >You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
+   >
+   >   
+   >   
+   >   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   >   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.  
+   >   
+   >
 
 1. Click **Save** in the upper-right corner of the Gantt chart.
 
@@ -290,19 +314,31 @@ When making changes affecting the timeline (such as dates and durations), the sy
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/undo-redo-com.png" alt="undo_redo_com.png"> <br> </p>
    -->
 
-   ``` ```**Tip: **`````` 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:</p>
-   -->
-
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Mac: Use Command + Z to undo and Command + Shift + Z to redo.</li>   
-     -->
-
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.<br></li>   
-     -->
+   >[!TIP]
+   >
+   >
+   >
+   ><!--   >
+   ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:</p>   >
+   >-->   >
+   >
+   >
+   >   
+   >   
+   >   
+   >   
+   >     <!--   >   
+   >     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Mac: Use Command + Z to undo and Command + Shift + Z to redo.</li>   >   
+   >     -->   >   
+   >   
+   >   
+   >   
+   >     <!--   >   
+   >     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.<br></li>   >   
+   >     -->   >   
+   >   
+   >   
+   >
 
    <!--
    <li value="7" data-mc-conditions="QuicksilverOrClassic.Draft mode">To commit the changes to the project, click <strong>Save</strong>.<br>Or<br>To discard the changes, click the <strong>Cancel</strong> icon. </li>
@@ -381,19 +417,31 @@ When making changes affecting the timeline (such as dates and durations), the sy
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/undo-redo-com--1-.png" alt="undo_redo_com__1_.png"> </p>
    -->
 
-   ``` ```**Tip: **`````` 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:</p>
-   -->
-
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Mac: Use Command + Z to undo and Command + Shift + Z to redo.</li>   
-     -->
-
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.<br></li>   
-     -->
+   >[!TIP]
+   >
+   >
+   >
+   ><!--   >
+   ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:</p>   >
+   >-->   >
+   >
+   >
+   >   
+   >   
+   >   
+   >   
+   >     <!--   >   
+   >     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Mac: Use Command + Z to undo and Command + Shift + Z to redo.</li>   >   
+   >     -->   >   
+   >   
+   >   
+   >   
+   >     <!--   >   
+   >     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.<br></li>   >   
+   >     -->   >   
+   >   
+   >   
+   >
 
    <!--
    <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode"> To officially commit the changes to the project, click <strong>Save</strong>.<br>Or<br>To discard the changes, click the <strong>Cancel</strong> icon. <br><img src="assets/save--1--350x89.png" alt="save__1_.png" style="width: 350;height: 89;"></li>

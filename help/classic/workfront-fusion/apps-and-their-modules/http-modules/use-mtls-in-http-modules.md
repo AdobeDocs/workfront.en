@@ -110,7 +110,7 @@ To enable Mutual TLS in an HTTP request module:
 1. Add an HTTP request module to your scenario.
 1. Begin configuring the module.
 
-   For instructions on configuring an HTTP request module, see the appropriate article under [HTTP modules](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md).
+   For instructions on configuring an HTTP request module, see the appropriate article under [HTTP modules](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
 1. Enable **Show advanced settings** near the bottom of the module.
 1. Enable **Use Mutual TLS**.

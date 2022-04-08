@@ -138,14 +138,14 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 -->
 <td> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This is the Allocation Date. It is the first day (a Sunday) of the week for which you budgeted the hours. </p>
--->
-<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-<span class="autonumber"><span><b>Tip: </b></span></span> <!--
+--> <note type="tip">
+<!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If a week spans for two months, this generates two rows in the report: one corresponding to the first day of the week (the Sunday of the week which is during the first month), and a second one corresponding with the first day of the second month (and which could be any day of the week.) </p>
---> <!--
+-->
+<!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p>
 -->
-</div> </td>
+</note> </td>
 </tr>
 <tr> <!--
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Bud. Hours</td>

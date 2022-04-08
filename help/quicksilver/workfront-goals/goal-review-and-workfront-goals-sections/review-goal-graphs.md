@@ -177,12 +177,10 @@ The following charts are available in the Graphs section or Workfront Goals:
 </tr>
 <tr>
 <td role="rowheader">Company</td>
-<td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your Workfront instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p>
-<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-<span class="autonumber"><span><b>Tip: </b></span></span>
+<td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your Workfront instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p> <note type="tip">
 <p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p>
 <p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p>
-</div> </td>
+</note> </td>
 </tr>
 <tr>
 <td role="rowheader">All</td>
