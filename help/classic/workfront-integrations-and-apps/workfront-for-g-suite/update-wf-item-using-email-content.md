@@ -3,11 +3,15 @@ filename: update-wf-item-using-email-content
 product-area: workfront-integrations;projects
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Update a Adobe Workfront item from G Suite using email content
+title: Update an Adobe Workfront item from G Suite using email content
 description: You can update an existing project, task, or issue with information from a non-Adobe Workfront email.
 ---
 
-# Update a Adobe Workfront item from G&nbsp;Suite using email content
+# Update an Adobe Workfront item from G&nbsp;Suite using email content
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can update an existing project, task, or issue with information from a non-Adobe Workfront email.
 
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
          Example: Edit access to Documents 
        </MadCap:conditionalText>
       --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
      --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
      --> </td> 
@@ -46,7 +50,7 @@ You must have the following access to perform the steps in this article:
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          Example: View access or higher on Documents 
        </MadCap:conditionalText>
-      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -101,7 +105,7 @@ Before you can update a Workfront item using email content from G Suite, you mus
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Include email attachments</td> 
-      <td><p>(Available only if the email contains at least one attachment.) Click this option to save attachments in the email to the Documents tab for the task or issue. </p><p>If you do not want to save an attachment, click the X to the right of its name. </p><p>If the email contains links to documents in Google Drive, the links are saved to the Overview tab of the task or issue you are creating. </p><p>Important: <span style="color: #ff1493;"><span style="color: #000000;">In order for this to work, your </span></span>Workfront administrator<span style="color: #ff1493;"><span style="color: #000000;"> must authorize Google Drive to work with Workfront</span></span><!--
+      <td><p>(Available only if the email contains at least one attachment.) Click this option to save attachments in the email to the Documents tab for the task or issue. </p><p>If you do not want to save an attachment, click the X to the right of its name. </p><p>If the email contains links to documents in Google Drive, the links are saved to the Overview tab of the task or issue you are creating. </p><p>Important: <span style="color: #ff1493;"><span style="color: #000000;">In order for this to work, your</span></span> Workfront administrator<span style="color: #ff1493;"><span style="color: #000000;"> must authorize Google Drive to work with Workfront</span></span><!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
           <span style="color: #ff1493;"><span style="color: #000000;">,</span></span> as described in 
           <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>. 
@@ -123,7 +127,7 @@ Before you can update a Workfront item using email content from G Suite, you mus
 
    You can click the link to go to the Updates tab in Workfront for the object you specified in step 4.
 
-   You can repeat these steps to convert the same email to updates, task, and issues (see [Create a Adobe Workfront issue in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the Workfront for G Suite panel.
+   You can repeat these steps to convert the same email to updates, task, and issues (see [Create an Adobe Workfront issue in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the Workfront for G Suite panel.
 
 1. (Optional) Continue to work with the update in the Workfront add-on panel by doing any of the following:
 

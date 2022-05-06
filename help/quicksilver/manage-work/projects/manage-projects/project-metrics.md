@@ -18,7 +18,7 @@ description: To access the Metrics area from the left panel of a project, you mu
 >  To learn how an Adobe Workfront administrator or group administrator can enroll you in the new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 >
 >* Have View access to a project.  
->  To learn how to request access to an object, see [Request access to objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+>  To learn how to request access to an object, see [Request access to objects](../../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 >
 >* Have the Left panel option Metrics enabled in the Projects area of your Layout template.  
 >  To learn how a Workfront administrator or group administrator can customize the left panel with a Layout Template, see [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).  

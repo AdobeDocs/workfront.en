@@ -2,13 +2,17 @@
 filename: create-resource-pools
 product-area: resource-management
 navigation-topic: resource-pools
-title: Create resource pools in Adobe Workfront
-description: Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see Resource pools overview in Adobe Workfront.
+title: Create resource pools
+description: Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see Resource pools overview .
 ---
 
-# Create resource pools in Adobe Workfront
+# Create resource pools
 
-Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see [Resource pools overview in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see [Resource pools overview](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Access requirements
 
@@ -28,13 +32,12 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-   </tr>
-  --> 
+   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Users, Projects, and Templates</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions for the projects and templates that you want to associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -86,7 +89,7 @@ You must have the following:
 
    ![Resource_pools_NEW___UNDO_button_for_teams_groups_etc.png](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
 
-1. (Optional)&nbsp;Click the X icon to the right of a user's name to remove a user.&nbsp;For more information about removing users from a resource pool, see [Remove users from resource pools in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
+1. (Optional)&nbsp;Click the X icon to the right of a user's name to remove a user.&nbsp;For more information about removing users from a resource pool, see [Remove users from resource pools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
 1. (Optional) Use the **Search** option to find a user in the Resource Pool.
 1. Click **Create**.
 

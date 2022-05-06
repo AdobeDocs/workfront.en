@@ -5,18 +5,16 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Delete users
-description: The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
+description: When a user leaves your organization, can remove that user from Adobe Workfront.
 ---
 
 # Delete users
-
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
 
 When a user leaves your organization, can remove that user from Adobe Workfront.
 
 >[!IMPORTANT]
 >
->* Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see [Deactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+>* Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 >* The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
 >  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
@@ -103,7 +101,7 @@ Deleting a user causes the following things to happen:
 * If the user uploaded any documents under the Documents area in the Global Navigation Bar, the documents are also deleted.
 * If the user has checked out documents that they own and the documents are uploaded in the main Documents area (accessed from the Main Menu), the documents are deleted with the user. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
-For more information about deactivating users, see [Deactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+For more information about deactivating users, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
 You can permanently delete users one at a time, or you can permanently delete multiple users simultaneously. When you delete individual users, you must wait for the deletion process to complete prior to&nbsp;moving on to other activities in Workfront. The process of deleting multiple users simultaneously runs as a background process, so you can continue using Workfront as the users are deleted.
 
@@ -112,30 +110,8 @@ You can permanently delete users one at a time, or you can permanently delete mu
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
 1. Click **Users**.
-1. 
-
-   <!--
-   <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   If you are using the Production environment, s
-   </MadCap:conditionalText>
-   -->
-
-   Select at least one user that you want to delete, then click **More** > **Delete**.
-
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <p>Or</p>
-   <p>If you are using the Preview environment, select at least one user that you want to delete, click the More menu <img src="assets/more-icon.png">, then click <b>Delete</b>.</p>
-   </div>
-   -->
-
-1. In the box that appears, click **Delete Anyway**
-
-   <!--
-   <b class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Delete</b>
-   -->
-
-   to confirm the deletion.
+1. Select at least one user that you want to delete, click the More menu ![](assets/more-icon.png), then click **Delete**.
+1. In the box that appears, click **Delete** to confirm the deletion.
 
    The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 

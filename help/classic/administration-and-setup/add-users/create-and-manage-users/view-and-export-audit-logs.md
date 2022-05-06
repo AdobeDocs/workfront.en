@@ -5,10 +5,18 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: View and export audit logs
-description: You can view all audit logs in the system, or those that meet certain filtering criteria. You can also export audit logs.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # View and export audit logs
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 You can view all audit logs in the system, or those that meet certain filtering criteria. You can also export audit logs.
 

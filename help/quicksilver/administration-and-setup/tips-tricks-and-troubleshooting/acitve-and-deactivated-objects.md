@@ -90,7 +90,7 @@ A user must be active in order to appear in any type-ahead fields of all other o
 
 You can deactivate users from the user page, or as you are editing a user.
 
-For information about deactivating users, see [Deactivate a user](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+For information about deactivating users, see [Deactivate or reactivate a user](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
 >[!IMPORTANT]
 >

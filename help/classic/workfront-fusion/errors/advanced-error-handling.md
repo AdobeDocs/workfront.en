@@ -4,11 +4,15 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Advanced error handling
+title: Advanced error handling in Adobe Workfront Fusion
 description: Advanced error handling techniques include filtering and nesting.
 ---
 
-# Advanced error handling
+# Advanced error handling in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Advanced error handling techniques include filtering and nesting.
 
@@ -71,7 +75,7 @@ You can use a filter to control which errors are handled by the error handler ro
 
 In this example, the error takes place at the Create a folder module (A), which has a regular route and an error handler route. The latter is followed by a router with one route that has a filter that defines a specific type of error (Data Error Takes Place), and the other which is the default route for all other errors. The first route ends with the Resume directive which contains substitute values for the scenario to resume from module A (Create a folder), while the second route ends with the Rollback directive which stops the scenario execution immediately.
 
-See [Error processing](../../workfront-fusion/errors/error-processing.md) for further information on various error types and on how Workfront Fusion processes and evaluates them.
+See [Error processing in Adobe Workfront Fusion](../../workfront-fusion/errors/error-processing.md) for further information on various error types and on how Workfront Fusion processes and evaluates them.
 
 ### The example scenario
 

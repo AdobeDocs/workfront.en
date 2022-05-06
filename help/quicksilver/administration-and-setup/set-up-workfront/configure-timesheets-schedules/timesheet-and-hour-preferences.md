@@ -4,10 +4,14 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Configure timesheet and hour preferences
-description: As an Adobe Workfront administrator, you can specify preferences for timesheets and hours in Workfront in order to define what items the timesheets can pre-populate with and what items users can log time to.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Configure timesheet and hour preferences
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 As an Adobe Workfront administrator, you can specify preferences for timesheets and hours in Workfront in order to define what items the timesheets can pre-populate with and what items users can log time to.
 
@@ -15,7 +19,7 @@ Any changes you make to timesheets impact all timesheets that are created in the
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -117,6 +121,10 @@ You must have the following to perform the steps in this article:
    </table>
 
 1. In the **Project, Task or Issue Deletion Preferences** section, specify the following:
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
+   -->
 
    <table cellspacing="0"> 
     <col> 

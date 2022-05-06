@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,5 +108,5 @@ To create an issue report that includes the Projected Completion Date:
 
    The **Projected Completion Date**&nbsp;column in the report is populated.&nbsp;
 
-   ![issue_projected_completion_date_in_view.png](assets/issue-projected-completion-date-in-view-350x40.png)
+   ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)
 

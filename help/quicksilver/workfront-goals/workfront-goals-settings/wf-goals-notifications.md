@@ -18,6 +18,7 @@ For information about managing notifications in&nbsp;Adobe Workfront, see [Activ
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Access requirements</h2>
+<p>(NOTE: drafted, no longer available from WF Goals proper. Documented at the links above.) </p>
 <p>You must have the following access to perform the actions described in this article:</p>
 <table cellspacing="0">
 <col>
@@ -33,7 +34,7 @@ For information about managing notifications in&nbsp;Adobe Workfront, see [Activ
 </tr>
 <tr>
 <td role="rowheader">Product</td>
-<td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td>
+<td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">Access level*</td>
@@ -50,7 +51,7 @@ For information about managing notifications in&nbsp;Adobe Workfront, see [Activ
 <td>
 <div>
 <p>View or higher permissions on goals</p>
-<p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p>
+<p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
 </div> </td>
 </tr>
 </tbody>
@@ -72,7 +73,7 @@ For information about managing notifications in&nbsp;Adobe Workfront, see [Activ
 </ul>
 <h2>Configure email notifications for Workfront Goals</h2>
 <ol>
-<li value="1"> <p>Log in to Workfront and ensure that your Workfront administrator gave you access to&nbsp;Workfront Goals.</p> <p>For information about access to&nbsp;Workfront Goals, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>.</p> </li>
+<li value="1"> <p>Log in to Workfront and ensure that your Workfront administrator gave you access to&nbsp;Workfront Goals.</p> <p>For information about access to&nbsp;Workfront Goals, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>.</p> </li>
 <li value="2"> <p> <p>Click the <strong>Main Menu icon</strong> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <strong>Goals</strong>.</p> <p>This opens the Workfront Goals area. </p> </p> </li>
 <li value="3"> <p>Click <strong>Goal Settings</strong> in the left panel.</p> <p> <img src="assets/notifications-settings-list-highlighted-350x124.png" style="width: 350;height: 124;"> </p> </li>
 <li value="4"> <p>Select any of the check boxes below to enable notifications for the following events:</p>

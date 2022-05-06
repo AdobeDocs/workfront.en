@@ -9,6 +9,10 @@ description: Before users can open a Workfront Library portal, they must be give
 
 # Give users access to a Workfront Library portal
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Before users can open a Workfront Library portal, they must be given access to the portal. As a user with Manage access or higher to a portal, you can grant users the following types of access to the portal.
 
 * **Individual**: Access that you grant to individual users

@@ -10,6 +10,10 @@ description: You must have the following access to use the functionality in this
 
 # Adobe Workfront Fusion overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -50,13 +54,13 @@ You must have the following access to use the functionality in this article:
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-The role of Adobe Workfront Fusion is to seamlessly connect your apps and web services and automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
+The role of Adobe Workfront Fusion is to automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
 
 A scenario is comprised of a series of modules that indicate how data should be transformed within an app or transferred between apps and web services.
 You put modules from various apps and web services into a scenario that executes a task. For example with a Workfront Fusion for Work Automation and Integration license, you can build a scenario that watches for new data in one app or web service, then uses that data in a subsequent module in the scenario to create a certain result, such as the creation of a new record. Once you set up a scenario, Workfront Fusion executes the task for you automatically.
 
 To learn more about available Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-To learn more about scenarios, see [Create a practice integration scenario](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+To learn more about scenarios, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
 To learn more about modules, see [Types of modules](../../workfront-fusion/modules/module-types.md).

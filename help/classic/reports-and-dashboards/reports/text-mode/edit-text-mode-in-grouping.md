@@ -3,10 +3,18 @@ filename: edit-text-mode-in-grouping
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit text mode in a grouping
-description: You can edit a grouping in a list or report using text mode to access fields that are not available in the standard interface and create more complex groupings.
+description: NOTE: make all FVG articles the same for editing in text mode)
 ---
 
 # Edit text mode in a grouping
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
+-->
 
 You can edit a grouping in a list or report using text mode to access fields that are not available in the standard interface and create more complex groupings.
 
@@ -36,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to edit groupings in a report</p> <p>Manage permissions to a grouping to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit groupings in a report</p> <p>Manage permissions to a grouping to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,6 +138,13 @@ For information about creating a report, see [Create a custom report](../../../r
    Each field in the grouping has several lines of code that refer to that field.
 
    The table below outlines the key lines in a text mode grouping.
+
+   <!--
+   <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <p>(NOTE: Should I add the group.1. information to this table and break the snippet? If yes, delete the snippet)</p>
+   <p>(NOTE: this is a snippet, same as view >> same fields >>> see the steps in creating a view and add the same steps here for making a grouping)</p>
+   </div>
+   -->
 
    >[!TIP]
    >

@@ -8,6 +8,10 @@ description: Some objects in Adobe Workfront allow for the storage of text with 
 
 # Rich text fields in the Adobe Workfront API
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Some objects in Adobe Workfront allow for the storage of text with rich-text formatting. In the Workfront API rich text is stored as JSON using the open source framework Draft.js.
 
 ## Overview Example

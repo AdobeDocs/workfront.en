@@ -11,6 +11,10 @@ description: This repeats information found in Configuring proofs in Workfront. 
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
@@ -27,7 +31,7 @@ You can add an automated workflow to a proof when uploading the document, or aft
 
 ## Create a proof with Automated Workflow
 
-1. Begin creating the proof as described in [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md).
+1. Begin creating the proof.
 1. In the **Share** section, click **Use Automated Workflow**.
 
    You can deselect this option to switch back to a standard workflow.
@@ -38,11 +42,11 @@ You can add an automated workflow to a proof when uploading the document, or aft
    >
    >Your ability to modify the template depends on the template settings configured by the Workfront administrator. If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.
 
-   If you are a Workfront administrator and you want to create a new Automated Workflow template, you can do so as described in [Create and manage Automated Workflow templates](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
+   If you are a Workfront administrator and you want to create a new Automated Workflow template, you can do so as described in 
 
 1. Specify the following information to configure&nbsp;the first stage of the Automated Workflow:
 
-   * **Name:**The stage name appears on the Workflow diagram and is included in the email notifications sent to reviewers.
+   * **Name:** The stage name appears on the Workflow diagram and is included in the email notifications sent to reviewers.
    * **Deadline:**The functionality of this field differs depending on what option you select in the **Deadline calculated from** drop-down list.
    
    * **From proof creation:**Select the deadline date for the proof.
@@ -77,10 +81,10 @@ You can add an automated workflow to a proof when uploading the document, or aft
    * A&nbsp;reviewer can be added to a proof only once. (You cannot add the same person to more than one stage on the proof.)
    * Reviewers who are added to a private stage can see only the stage they are added to on the proof and&nbsp;comments made in that stage.
    * By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.  
-     The system administrator can configure the proofing system to restrict users from accessing the proof until the workflow enters the stage where the user was added. For more information, see&nbsp; [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)
+     The system administrator can configure the proofing system to restrict users from accessing the proof until the workflow enters the stage where the user was added. For more information, see&nbsp;
 
 1. (Optional) Click **New stage**, then repeat Step 4 and Step 5 to add multiple stages to the automated workflow.
-1. Continue creating the proof by specifying the necessary information in the Organize and More settings sections on the New Proof page, as described in [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md)
+1. Continue creating the proof by specifying the necessary information in the Organize and More settings sections on the New Proof page, as described in
 
 ## Automated Workflow diagrams
 

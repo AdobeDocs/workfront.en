@@ -4,12 +4,18 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Create a schedule
-description: As an Adobe Workfront administrator, you can define your work week by using schedules. You can associate a schedule with a user or a project. This allows Workfront to calculate timelines and user availability.
+description: Alina: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ***** Linked to Editing Users, Editing Projects, Creating and managing groups
 ---
 
 # Create a schedule
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Alina: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ***** Linked to Editing Users, Editing Projects, Creating and managing groups</p>
+-->
+
 As an Adobe Workfront administrator, you can define your work week by using schedules. You can associate a schedule with a user or a project. This allows Workfront to calculate timelines and user availability.
+
+When you have users that work in different timezones, creating a schedule in each of the timezones and associating it with those users ensures that their work is recorded in Workfront in real time and that their availability is always accurate according to when they work.
 
 For information about associating schedules with users and projects, see the following articles:
 
@@ -18,9 +24,11 @@ For information about associating schedules with users and projects, see the fol
 
 Group administrators can also create schedules that are associated with the groups they manage. For more information, see [Create and modify a group’s schedules](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
+For information about using schedules to help users collaborate in Workfront across time zones, see [Working across time zones](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
+
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -98,10 +106,15 @@ You must have the following to perform the steps in this article:
      Specifying a **Group with Administration Access** for a schedule does not assign the schedule to the users in the group. Specifying a **Group with Administration Access** only allows the Group Administrators in the group to edit, delete, and copy the schedule.  
      Group Administrators cannot edit, delete, or copy system-level schedules. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
    
-   * Select the **Groups with View Access** to which this schedule is visible to.  
+   * Select the **Groups with View Access** to which this schedule is visible to.
+
      Only the users in the groups specified here can find the schedule in the drop-down menu when they are assigning it to users or projects. 
    
    * Select the **Time Zone** for your schedule.
+
+     >[!NOTE]
+     >
+     >If you associate the schedule with a user, we recommend that the Time Zone of the schedule matches that of the user.&nbsp;For information about user's time zones, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. On the **Exceptions** tab, specify the exceptions to the schedule.
 

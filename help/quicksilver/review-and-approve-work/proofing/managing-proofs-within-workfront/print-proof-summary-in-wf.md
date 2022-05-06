@@ -20,7 +20,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -104,19 +104,9 @@ You can print a proof summary directly from the document list.
 
    If you want to save the summary as a PDF file, click the **Destination** menu, click **Save as PDF**, then click **Save**.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about using and customizing decisions, see <a href="../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p>
--->
-
 ## Export a proof summary as an XLS or PDF
 
 You can export a proof summary for static content as an XLS file or as a PDF file. Proof exports include only the content of the proof.
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-You can't include a diagram showing the stages and decisions made on the proof.
-</MadCap:conditionalText>
--->
 
 1. From the document list that contains the proof, hover over the row containing the document, then click **Print Summary**.
 

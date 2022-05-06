@@ -9,6 +9,10 @@ description: A Resolvable Object is an issue whose resolution is tied to a Resol
 
 # Overview of Resolving and Resolvable Objects
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 A Resolvable Object is an issue whose resolution is tied to a Resolving Object. A Resolving Object is a project, task, or another issue.
 
 When you convert an issue to a task or a project, the issue becomes the Resolvable Object of the task or the project.   
@@ -28,11 +32,13 @@ You can select to keep the Resolvable Object as you are converting it to a task 
 For information about setting up preferences for handling Resolvable Objects, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above)&nbsp;</p>
+-->
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
 <ol>
 <li value="1">Log in to Workfront as a Workfront administrator <span>or group administrator.</span></li>
-<li value="2"> <p> Navigate to <strong>Setup</strong>. </p> </li>
+<li value="2"> <p>  Navigate to <strong>Setup</strong>.  </p> </li>
 <li value="3">Expand <strong>Project Preferences</strong>.</li>
 <li value="4">Click <strong>Tasks & Issues</strong>.</li>
 <li value="5">Go to the <strong>Issues</strong> area of the setup.<br><img src="assets/qs-setup-project-preferences-issues-area-350x214.png" style="width: 350;height: 214;"><br>Consider editing any of the following settings:
@@ -77,14 +83,16 @@ For more information about converting issues to tasks and projects, see [Overvie
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="tying-the-resolution-of-an-issue-to-task-project-issue"></a>Tie the resolution of an issue to a project, task or issue</h2>
+<h2><a name="tying-the-resolution-of-an-issue-to-task-project-issue"></a>Tie the resolution of an issue to a project, task or </h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: created new article for this section; draft when the article is live and see if you need to make a link from this one to the new article) </p>
+-->
 <div>
 <p>You can manually tie the resolution of an issue to the resolution of a project, task, or issue without converting the issue. The issue becomes one of the Resolvable Objects of the project, task, or issue you select. When you do this, a change in the status of the project, task, or issue triggers a change in the status of the original issue, so you cannot manually edit the status of the original issue. <br>For more information about how the status of the Resolving Object affects the Resolvable Object, see <a href="#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object" class="MCXref xref">Synchronize the Status of the Resolvable Object with that of the Resolving Object</a>.</p>
 <p>You must have Manage permissions on the original issue and View permissions on the project, task, or issue to do this. </p>
 <p>To tie the resolution of an issue to the resolution of a project, task, or issue:</p>
 <ol>
 <li value="1">Navigate to an issue whose resolution you want to tie to a task or a project.</li>
-<li value="2"> <p> Select the <strong>Issue Details</strong> tab. </p> </li>
+<li value="2"> <p>  Select the <strong>Issue Details</strong> tab.  </p> </li>
 <li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Edit Overview</strong>.</p> </li>
 <li value="4">At the bottom of the form, in the <strong>Resolved By</strong> field, select from the following types of resolving objects:
 <ul>
@@ -174,7 +182,7 @@ If and issue is resolved by another issue, the percent complete updates when eit
 Locating the resolving object is identical for tasks and projects.
 
 1. Navigate to a project or a task which you created by converting an issue to the project or the task.
-1. Select the **Project Details** or the **Task Details** tab. 
+1. Select the **Project Details** or the **Task Details** tab.  
 1. At the bottom of the tab, locate to **This Resolves** field: the issue which is the Resolvable Object of the project or the task is listed in this field.
 
    >[!NOTE]
@@ -213,7 +221,7 @@ The following table shows what fields you can display and in which views you can
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Original Issue Name, Original Issue Entry Date, Originator Name</strong>: Displays the name and entry date of the original issue, as well as the name of the user who created the issue in a text-mode customized view.<br>For more information about building a text mode custom view for a project or task report or list to display information about the original issue, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">View: display original issue information on task and project list</a>.<br></td> 
+   <td><strong>Original Issue Name, Original Issue Entry Date, Originator Name</strong>: Displays the name and entry date of the original issue, as well as the name of the user who created the issue in a text-mode customized view.<br>For more information about building a text mode custom view for a project or task report or list to display information about the original issue, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">View: display original issue information on task and project lists</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 

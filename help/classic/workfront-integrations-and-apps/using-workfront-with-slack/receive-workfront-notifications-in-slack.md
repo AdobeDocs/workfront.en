@@ -3,10 +3,18 @@ filename: receive-workfront-notifications-in-slack
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Receive Adobe Workfront notifications in Slack
-description: After you have installed Adobe Workfront for Slack, you can receive Workfront notifications in Slack. For information about installing Workfront for Slack, see Configure Adobe Workfront for Slack.
+description: (NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))
 ---
 
 # Receive Adobe Workfront notifications in Slack
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Linked to Accessing Workfront from Slack.***Some of this information is duplicating in Accessing Workfront from Slack (also screen shots))</p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 After you have installed Adobe Workfront for Slack, you can receive Workfront notifications in Slack.  
 For information about installing Workfront for Slack, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).

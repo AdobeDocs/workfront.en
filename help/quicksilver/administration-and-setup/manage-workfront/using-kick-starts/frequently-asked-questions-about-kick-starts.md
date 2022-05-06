@@ -26,7 +26,7 @@ One of the following three things might be missing from the Kick-Start file:
 
 When working with Kick-Starts, we recommend to first download the Kick-start Template, manually populate it with the correct data and then import it back into Adobe Workfront.
 
-For more information about correctly importing data in Workfront using Kick-Starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+For more information about correctly importing data in Workfront using Kick-Starts, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## Why am I receiving this error when trying to import hours into Workfront using a Kick-Start file: "User with primary key value(s) "null" not found?"
 
@@ -37,7 +37,7 @@ The error refers to the GUID of the user that is associated with the hours.&nbsp
 To address this:
 
 1. Export a blank Kick-Start template for the **Hours** object only.  
-   For more information about exporting a blank Kick-Start File, see "Exporting the Kick-Start Template" in&nbsp; [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+   For more information about exporting a blank Kick-Start File, see "Exporting the Kick-Start Template" in&nbsp; [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 1. Manually copy the data from the original Kick-Start and paste it into the empty file.  
    Do this for each column.

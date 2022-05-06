@@ -6,14 +6,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Azure DevOps modules
-description: In a Adobe Workfront Fusion scenario, you can connect your Azure DevOps account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Azure DevOps modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Azure DevOps account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -64,7 +64,7 @@ To use Azure DevOps modules, you must have an Azure DevOps account.
 ## Connect Azure DevOps to Workfront Fusion {#connect-azure-devops-to-workfront-fusion}
 
 1. Add an Azure DevOps module to your scenario.
-1. Click **Add**next to the Connection field.
+1. Click **Add** next to the Connection field.
 1. In the Connection Type field, select **Azure DevOps**.
 
    >[!IMPORTANT]
@@ -77,13 +77,13 @@ To use Azure DevOps modules, you must have an Azure DevOps account.
    |---|---|
    | Organization |Enter the name of the organization under which you created your Azure DevOps application. |
 
-1. Click **Continue**to finish setting up the connection and continue creating your scenario.
+1. Click **Continue** to finish setting up the connection and continue creating your scenario.
 
 ## Azure DevOps modules and their fields
 
 When you configure Azure DevOps modules, Workfront Fusion displays the fields listed below. Along with these, additional Azure DevOps fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -107,7 +107,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Webhook</td> 
-   <td> <p>Select or add a webhook for the module.</p> <p>For more information on webhooks in trigger modules, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks)</a>.</p> <p>For information on how to create a webhook, see <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a>.</p> </td> 
+   <td> <p>Select or add a webhook for the module.</p> <p>For more information on webhooks in trigger modules, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks) in Adobe Workfront Fusion</a>.</p> <p>For information on how to create a webhook, see <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -150,7 +150,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

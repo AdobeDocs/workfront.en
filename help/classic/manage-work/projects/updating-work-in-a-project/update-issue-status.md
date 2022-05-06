@@ -8,6 +8,10 @@ description: You can update the status of an issue to inform others about where 
 
 # Update issue status
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can update the status of an issue to inform others about where the issue is and how it is progressing.
 
 ## Access requirements
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +82,7 @@ When you are updating an issue status, you can also add an explanation about the
 
    * To add a note about the update, go to the **Updates** tab and click **Start a new update**, then type your note.
 
-     ![](assets/start-a-new-update-350x88.png)
+     ![](assets/start-a-new-update-350x124.png)
 
    * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update.
    * To update the condition of the issue, click **Condition**, then select the condition that best reflects the current condition of the issue. Select from the following options:

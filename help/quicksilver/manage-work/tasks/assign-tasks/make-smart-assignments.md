@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions with the ability to make assignments on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions with the ability to make assignments on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,16 +43,16 @@ You must have the following access to perform the steps in this article:
 
 Smart assignments are available in most locations where you can make assignments in Workfront.
 
-1. Go to an issue or a task and click one of the following fields to edit them: &nbsp;&nbsp;
+1. Go to an the following areas the click the **Assignments** or **Assign this to** field: &nbsp;&nbsp;
 
    * A task or issue list or report 
    * A task or issue header
    * The task or issue Summary panel
    * The Assignments field for an item listed in the Home area
-   * Resource Scheduling
-   * Workload Balancer
+   * A task or issue in the Scheduling or Schedule areas
+   * A task or issue in the Workload Balancer
 
-1. Place your cursor in the assignment field, and wait for two seconds. The ******Suggestions** or **Suggested Assignments** list displays.
+1. Place your cursor in the assignment field, and wait for two seconds. The ******Suggested Assignments** list displays.
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 

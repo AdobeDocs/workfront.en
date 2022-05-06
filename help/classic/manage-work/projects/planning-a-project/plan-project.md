@@ -3,10 +3,18 @@ filename: plan-project
 product-area: projects
 navigation-topic: plan-a-project
 title: Plan a project overview
-description: A project is a large work item in Adobe Workfront. You can break down a project into tasks which are smaller work items. Tasks can be assigned to users or teams who can be responsible for their completion. When all users complete their tasks, the project also becomes complete.
+description: (NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3)
 ---
 
 # Plan a project overview
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+-->
 
 A project is a large work item in Adobe Workfront. You can break down a project into tasks which are smaller work items. Tasks can be assigned to users or teams who can be responsible for their completion. When all users complete their tasks, the project also becomes complete.&nbsp;
 
@@ -28,7 +36,7 @@ Consider the following questions before you plan a project:&nbsp;
 
 Using the Business Case of a project you can define your objectives and ensure that your project aligns with the strategy of your organization.&nbsp;
 
-For more information about defining a Business Case for a project, see the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about defining a Business Case for a project, see the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 After you have defined the overall scope of the project, you may then determine whether you want to undertake the project at all and start planning it.&nbsp;
 

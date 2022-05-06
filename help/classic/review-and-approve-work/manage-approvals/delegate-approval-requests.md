@@ -8,9 +8,21 @@ description: Delegating approval requests allows you to assign another user to a
 
 # Delegate approval request
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Delegating approval requests allows you to assign another user to approve your requests for a period of time, for example, if you will be out of the office on vacation.
 
 The process for viewing approval delegations differs depending on whether you are using the Home or My Work area.
+
+>[!NOTE]
+>
+>To ensure that no inconsistencies occur with the dates that you schedule for your approvals to be delegated, we recommend that your user profile's time zone matches that of your schedule. For more information, see the following articles: 
+>
+>* [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 
+>* [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 
+>
 
 ## Access requirements
 
@@ -45,7 +57,7 @@ During the designated approval period, the user to whom you delegate an approval
 
   >[!NOTE]
   >
-  >&nbsp;The Adobe Workfront administrator can restrict users from accessing certain object types.&nbsp;When a user does not have access to an object type and an approval of that type is delegated to the user, the user does not have View access to the object. However, the user can still approve or reject approval requests from the **Home** page, as described in [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md).  
+  >&nbsp;The Adobe Workfront administrator can restrict users from accessing certain object types.&nbsp;When a user does not have access to an object type and an approval of that type is delegated to the user, the user does not have View access to the object. However, the user can still approve or reject approval requests from the **Home** page, as described in [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md).  
   >For example, User A belongs to Group A. The Workfront administrator has restricted the access rights of Group A so that users in this group cannot view tasks within Workfront. If a task approval request is delegated to User A, User A cannot view the task that the approval is associated with. However, User A can approve or reject the approval request from the Home  or My Work page.
 
   For information about how the Workfront administrator can restrict access to object types within Setup, see&nbsp; [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).&nbsp;
@@ -83,19 +95,25 @@ Consider the following when delegating approvals:
 To delegate approvals to another user:
 
 1. Go to&nbsp;**Home**&nbsp;in the Global Navigation Bar.
-1. Click the **Filter** drop-down menu, then click **Approvals**.
+
+   Or
+
+   Click your avatar in the upper-right corner of the screen, then **your name** > **Time Off** tab. You might need to click **More**, then&nbsp;**Time Off**. 
+
+1. (Optional and conditional) In the Home area, click the **Filter** drop-down menu, then click **Approvals**.
 
 1. Click **Delegate My Approvals**.  
    ![Delegate My Approvals dialog](assets/delegate-approvals-350x398.png)
 
-1. Specify the following information:  
-   **Delegate My Approvals To:** Begin typing the name of the user who you want to forward approvals to, then click the name when it appears in the drop-down menu.  
-   **Start Date:** Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.  
-   The Start Date must be the current date or a future date.  
-   **End:**Do one of the following:
+1. Specify the following information:
 
-   * Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.
-   * Select&nbsp;**No end date**&nbsp;to configure Workfront to forward approvals indefinitely.
+   * **Delegate My Approvals To:** Begin typing the name of the user who you want to forward approvals to, then click the name when it appears in the drop-down menu.
+   * **Start:** Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.  
+     The Start Date must be the current date or a future date.
+   * **End:**Do one of the following:
+
+      * Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.
+      * Select&nbsp;**No end date**&nbsp;to configure Workfront to forward approvals indefinitely.
 
 1. Click **Save**.
 
@@ -124,7 +142,8 @@ To view delegated approvals:
 
 1. Go to **Home** in the Global Navigation Bar.
 1. Click the&nbsp;**Filter**&nbsp;drop-down menu, then click&nbsp;**Approvals**.  
-   All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.  
+   All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.
+
    ![Approvals delegated to me](assets/delegated-to-me-350x246.png)
 
 ## Delegate approval requests in the My Work area

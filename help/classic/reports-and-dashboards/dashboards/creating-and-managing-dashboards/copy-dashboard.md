@@ -8,6 +8,10 @@ description: You can copy a dashboard and all of its contents (reports, calendar
 
 # Copy a dashboard
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can copy a dashboard and all of its contents (reports, calendars, and external pages). When you copy the contents of a dashboard, you can choose to keep them as they appear on the original dashboard, or create new items which are copies of those on the original dashboard. You can also choose to not transfer or copy items on the new dashboard.
 
 ## Access requirements
@@ -32,7 +36,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to a dashboard</p> <p>You will obtain Manage access to the copied dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access to a dashboard</p> <p>You will obtain Manage access to the copied dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

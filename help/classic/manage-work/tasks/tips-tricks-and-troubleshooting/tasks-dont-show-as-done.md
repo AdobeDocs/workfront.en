@@ -4,10 +4,15 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: Tasks not showing as Done with multiple user assignees
-description: When multiple users are assigned to an object and a product manager changes the object status to Complete, the assigned users do not show as Done.
+description: (drafted this article because the info was added to this one: /Content/Workfront basics/Using Home/Using the Home Area/mark-item-done-in-home.html)
+hidefromtoc: true
 ---
 
 # Tasks not showing as Done with multiple user assignees
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(drafted this article because the info was added to this one: /Content/Workfront basics/Using Home/Using the Home Area/mark-item-done-in-home.html)</p>
+-->
 
 ## Problem
 

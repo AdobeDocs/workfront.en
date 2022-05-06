@@ -9,6 +9,10 @@ description: Reports provide visibility into what is happening with users and wo
 
 # Get started with reports in Adobe Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Reports provide visibility into what is happening with users and work. Using reports, you can display information about objects in Adobe Workfront.
 
 For information about understanding objects and how they can be reported on in the Workfront application, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
@@ -58,7 +62,7 @@ To enhance your reports, you can add the following elements:
 When building a report, you can modify any of these elements individually in the report builder.
 
 Another way of enhancing the relevance of the information included in your reports is by applying conditional formatting to your views.  
-For information about using conditional formatting, see [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+For information about using conditional formatting, see [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## System reports
 

@@ -9,6 +9,10 @@ description: Proof roles allow you to grant permissions on individual proofs. Pr
 
 # Proof Roles overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Proof roles allow you to grant permissions on individual proofs. Proof roles are different from Proof permission profiles. For more information about Proof Permission Profiles, see [Proof Permission Profile overview](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
 
 ## Proof Roles
@@ -137,7 +141,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td>✓</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Moderator</strong> </p> </td> 

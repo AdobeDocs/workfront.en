@@ -4,10 +4,22 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Understand Budgeted Labor Cost and Budgeted Hours for projects
-description: As you budget your resources for work on projects, Adobe Workfront calculates the Budgeted Labor Cost for the roles, projects, and users based on cost per hour values.
+description: (NOTE: Update this for the Workload Balancer, if needed)
 ---
 
 # Understand Budgeted Labor Cost and Budgeted Hours for projects
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update this for the Workload Balancer, if needed) </p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)</p>
+-->
 
 As you budget your resources for work on projects, Adobe Workfront calculates the Budgeted Labor Cost for the roles, projects, and users based on cost per hour values.
 
@@ -40,7 +52,7 @@ The **Budgeted Hours** in the calculation above refers to the following:
   For more information about budgeting resources in the Resource Budgeting area of the Business Case, see [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <p>The hours budgeted for job roles in the Legacy Resource Estimates area of the project or the Capacity Planner. </p> <p>For more information about Resource Estimates, see the "Resource Estimates" section in the article <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.<br>For more information about budgeting hours in the Capacity Planner, see the "Estimating Resources in the Capacity Planner" section in the article <a href="../../../resource-mgmt/legacy-res-planning/plan-resources-in-capacity-planner.md" class="MCXref xref">Plan resources in the Capacity Planner</a>.</p> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <p>The hours budgeted for job roles in the Legacy Resource Estimates area of the project or the Capacity Planner. </p> <p>For more information about Resource Estimates, see the "Resource Estimates" section in the article <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project </a>.<br>For more information about budgeting hours in the Capacity Planner, see the "Estimating Resources in the Capacity Planner" section in the article <a href="../../../resource-mgmt/legacy-res-planning/plan-resources-in-capacity-planner.md" class="MCXref xref">Plan resources in the Capacity Planner</a>.</p> </li>
   -->
 
 <!--
@@ -59,6 +71,10 @@ When budgeting your resources, you must make a decision whether you are using th
 >For more information about changing the currency of a project, see the article [Change the project currency](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Overview of the Budgeted Labor Cost for Users
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update the following section in the Create a Business Case article, as well, when you update it here.)</p>
+-->
 
 >[!IMPORTANT]
 >
@@ -155,6 +171,10 @@ You can view the following Budgeted Labor Cost information in Workfront:
 -->
 
 ## Locate the Budgeted Hours of a project
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)</p>
+-->
 
 Budgeted Hours affect the value of the Budgeted Labor Cost of the project.
 

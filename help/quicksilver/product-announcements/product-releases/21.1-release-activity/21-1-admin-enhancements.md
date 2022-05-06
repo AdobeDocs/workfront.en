@@ -37,7 +37,7 @@ This feature is now included in the [Administrator Fundamentals in the new Workf
 
 On the Details page for an object, when you are filling in a multi-select drop-down field on a Custom Form, you can click Select All if you need to select all of the available options.
 
-For information about editing data on a Custom Form, see [Edit information in custom form fields in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+For information about editing data on a Custom Form, see [Edit information in custom form fields](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ```<iframe class="vimeo-player_0" src="assets/500509190?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -51,7 +51,7 @@ This is especially useful after someone edits data in another object that is ref
 
 Previously, users had to use workarounds to ensure that all data in calculated custom fields was current. For example, they edited the object along with other objects to use the recalculation option that is available for bulk editing.
 
-For more information, see [Edit information in custom form fields in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+For more information, see [Edit information in custom form fields](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ```<iframe class="vimeo-player_0" src="assets/486601498?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -99,7 +99,7 @@ On the Details page for an object, when you are filling in a Custom Form field c
 
 This option displays only if the field contains more than 2 checkboxes.
 
-For more information, see [Edit information in custom form fields in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+For more information, see [Edit information in custom form fields](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ```<iframe class="vimeo-player_0" src="assets/486602711?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -167,7 +167,7 @@ If you are a Group Administrator, itâ€™s easy to view and work with your groupâ€
 
 * Click Approvals in the left menu to see and manage all of the approval processes associated with the group.
 
-  For more information, see [View and create approval processes from the Groups area in the new Adobe Workfront experience](view-manage-approval-processes-groups-area.md).
+  For more information, see [Group-level approval processes](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 This functionality is also available for Workfront administrators.
 

@@ -1,0 +1,652 @@
+---
+filename: adobe-analytics-modules
+content-type: reference
+product: workfront-fusion
+product-area: workfront-integrations
+keywords: connector
+navigation-topic: apps-and-their-modules
+title: Adobe Analytics Modules
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Analytics, as well as connect it to to multiple third-party applications and services.
+hidefromtoc: true
+---
+
+# Adobe Analytics Modules
+
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Analytics, as well as connect it to to multiple third-party applications and services.
+
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+
+For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+
+## Access requirements
+
+You must have the following access to use the functionality in this article:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
+  --> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+
+## Prerequisites
+
+Before you can use the Adobe Analytics connector, you must ensure that the following prerequisites are met:
+
+* You must have an active Adobe Analytics account.
+
+## Create a connection to Adobe Analytics {#create-a-connection-to-adobe-analytics}
+
+To create a connection for your Adobe Analytics modules:
+
+1. Click **Add** next to the Connection box.
+1. Fill in the following fields:
+
+   <table cellspacing="0"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Connection name</td> 
+      <td> <p>Enter a name for this connection.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Client ID</td> 
+      <td>Enter your Adobe Client ID. This can be found in the Credentials details section of the Adobe Developer Console</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Client Secret</td> 
+      <td>Enter your Adobe Client Secret. This can be found in the Credentials details section of the Adobe Developer Console</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Organization ID</td> 
+      <td>Enter your Adobe Organization ID. This can be found in the Credentials details section of the Adobe Developer Console</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Technical account ID</td> 
+      <td>Enter your Adobe Technical account ID. This can be found in the Credentials details section of the Adobe Developer Console</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Metascopes (Scopes)</td> 
+      <td>The only metascope currently available is <code>ent_analytics_bulk_ingest_sdk</code>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Global company ID</td> 
+      <td>&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Private key</td> 
+      <td> <p>Enter the private key that was generated when your credentials were created in the Adobe Developer Console. </p> <p>To extract your private key or certificate:</p> 
+       <ol> 
+        <li value="1"> <p>Click <b>Extract</b>.</p> </li> 
+        <li value="2"> <p>Select the type of file you are extracting.</p> </li> 
+        <li value="3"> <p>Select the file that contains the private key or certificate.</p> </li> 
+        <li value="4"> <p>Enter the password for the file.</p> </li> 
+        <li value="5"> <p>Click <b>Save</b> to extract the file and return to the connection setup.</p> </li> 
+       </ol> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Continue** to save the connection and return to the module.
+
+## Adobe Analytics modules and their fields
+
+When you configure Adobe Analytics modules, Workfront Fusion displays the fields listed below. Along with these, additional Adobe Analytics fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+![](assets/map-toggle-350x74.png)
+
+### Components
+
+#### Delete a record
+
+This action module deletes a single record from your Adobe Analytics account.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select the type of record you want to delete.</p> 
+    <ul> 
+     <li> <p>Calculated Metric </p> <p>Enter or map the ID&nbsp;of the calculated metric you want to delete.</p> </li> 
+     <li> <p>Tag</p> <p>Enter or map the ID&nbsp;of the tag you want to delete.</p> </li> 
+     <li> <p>Segment</p> <p>Enter or map the ID&nbsp;of the segment you want to delete.</p> </li> 
+     <li> <p>All tags from a component</p> <p>Enter or map a comma-separated list of the IDs of the components you want to delete tags from, and select the type of component.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Locale</td> 
+   <td> <p>Enter the locale related to the record you want to delete.</p> 
+    <ul> 
+     <li> <p>en_US: English (United States)</p> </li> 
+     <li> <p>fr_FR: French (France)</p> </li> 
+     <li> <p>ja_JP: Japanese (Japan)</p> </li> 
+     <li> <p>de_DE: German (Germany)</p> </li> 
+     <li> <p>es_ES: Spanish (Spain)</p> </li> 
+     <li> <p>ko_KR: Korean (Korea)</p> </li> 
+     <li> <p>pt_BR: Portuguese (Brazil)</p> </li> 
+     <li> <p>zh_CN: Chinese (China)</p> </li> 
+     <li> <p>zh_TW: Chinese (Taiwan)</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### List records
+
+This module returns records based on the criteria you specify.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Headers</td> 
+   <td>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Global company ID</td> 
+   <td>Enter or map the Global company ID associated with the records you want to return.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select the type of record you want to retrieve results for.</p> 
+    <ul> 
+     <li> <p>Calculated metrics</p> </li> 
+     <li> <p>Calculated metric functions</p> </li> 
+     <li> <p>Component IDs for tag names</p> </li> 
+     <li> <p>Segments</p> </li> 
+     <li> <p>Tags</p> </li> 
+     <li> <p>Timezones</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Calculated metrics</td> 
+   <td> <p>Fill in the following optional fields to limit your results. You can filter by any or all of these attributes.</p> 
+    <ul> 
+     <li> <p><b>Report suite IDs</b> </p> <p>Enter a comma-separated list of report suite IDs (RSIDs) that you want to retrieve results for.</p> </li> 
+     <li> <p><b>Owner ID</b> </p> <p>Enter the ID of the Owner that you want to retrieve results for.</p> </li> 
+     <li> <p><b>Filter by IDs</b> </p> <p>Enter a comma-separated list of calculated metric IDs to return only calculated metrics from the list.</p> </li> 
+     <li> <p><b>To be used in RSID</b> </p> <p>Enter the ID of the report suite where the calculated metric intended to be used. This report suite will be used to determine things like compatibility and permissions. If it is not specified then the permissions will be calculated based on the union of all metrics authorized in all groups the user belongs to.</p> </li> 
+     <li> <p><b>Locale</b> </p> <p>Enter the locale related to the records you want to retrieve.</p> 
+      <ul> 
+       <li> <p>en_US: English (United States)</p> </li> 
+       <li> <p>fr_FR: French (France)</p> </li> 
+       <li> <p>ja_JP: Japanese (Japan)</p> </li> 
+       <li> <p>de_DE: German (Germany)</p> </li> 
+       <li> <p>es_ES: Spanish (Spain)</p> </li> 
+       <li> <p>ko_KR: Korean (Korea)</p> </li> 
+       <li> <p>pt_BR: Portuguese (Brazil)</p> </li> 
+       <li> <p>zh_CN: Chinese (China)</p> </li> 
+       <li> <p>zh_TW: Chinese (Taiwan)</p> </li> 
+      </ul> </li> 
+     <li> <p><b>Name</b> </p> <p>Enter a name to return only results that contain this name.</p> </li> 
+     <li> <p><b>Tag names</b> </p> <p>Enter a comma-separated list of tag names to return only results that contain one of the tags in the list.</p> </li> 
+     <li> <p><b>Favorite</b> </p> <p>Select whether to include only results that are favorites.</p> </li> 
+     <li> <p><b>Approved</b> </p> <p>Select whether to include only results that are approved.</p> </li> 
+     <li> <p><b>Limit</b> </p> <p>Enter the number of results you want returned per page. Combine this with the Page field to paginate results.</p> </li> 
+     <li> <p><b>Page</b> </p> <p>Enter the page number of results to return. The first page has a value of 0. Combine this with the Limit field to paginate results.</p> </li> 
+     <li> <p><b>Sort direction</b> </p> <p>Select whether to return results in ascending or descending order.</p> </li> 
+     <li> <p><b>Sort property</b> </p> <p>Select whether to sort results by ID, modified date, or name.</p> </li> 
+     <li> <p><b>Expansion</b> </p> <p>Select other metadata fields to return in the results.</p> </li> 
+     <li> <p><b>Include type</b> </p> <p>Select the type of additional metrics not owned by the user of the account used in the connection to return in the results.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Calculated metric functions</td> 
+   <td> <p>Fill in the following optional field to limit your results. </p> 
+    <ul> 
+     <li><b>Locale</b> <p>Enter the locale related to the records you want to retrieve.</p> 
+      <ul> 
+       <li> <p>en_US: English (United States)</p> </li> 
+       <li> <p>fr_FR: French (France)</p> </li> 
+       <li> <p>ja_JP: Japanese (Japan)</p> </li> 
+       <li> <p>de_DE: German (Germany)</p> </li> 
+       <li> <p>es_ES: Spanish (Spain)</p> </li> 
+       <li> <p>ko_KR: Korean (Korea)</p> </li> 
+       <li> <p>pt_BR: Portuguese (Brazil)</p> </li> 
+       <li> <p>zh_CN: Chinese (China)</p> </li> 
+       <li> <p>zh_TW: Chinese (Taiwan)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Component IDs for tag names</td> 
+   <td> <p>Fill in the following optional fields to limit your results. You can filter by one or both of these attributes.</p> 
+    <ul> 
+     <li> <p><b>Tag names</b> </p> <p>Enter a comma-separated list of tag names that you want to retrieve results for.</p> </li> 
+     <li> <p><b>Component type</b> </p> <p>Select the type of component that you want to retrieve results for.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Segment</td> 
+   <td> <p>Fill in the following optional fields to limit your results. You can filter by any or all of these attributes.</p> 
+    <ul> 
+     <li> <p><b>Report suite IDs</b> </p> <p>Enter a comma-separated list of report suite IDs (RSIDs) that you want to retrieve results for.</p> </li> 
+     <li> <p><b>Segment ID</b> </p> <p>Enter a comma-separated list of segment IDs to return only calculated segments from the list.</p> </li> 
+     <li> <p><b>Locale</b> </p> <p>Enter the locale related to the records you want to retrieve.</p> 
+      <ul> 
+       <li> <p>en_US: English (United States)</p> </li> 
+       <li> <p>fr_FR: French (France)</p> </li> 
+       <li> <p>ja_JP: Japanese (Japan)</p> </li> 
+       <li> <p>de_DE: German (Germany)</p> </li> 
+       <li> <p>es_ES: Spanish (Spain)</p> </li> 
+       <li> <p>ko_KR: Korean (Korea)</p> </li> 
+       <li> <p>pt_BR: Portuguese (Brazil)</p> </li> 
+       <li> <p>zh_CN: Chinese (China)</p> </li> 
+       <li> <p>zh_TW: Chinese (Taiwan)</p> </li> 
+      </ul> </li> 
+     <li> <p><b>Name</b> </p> <p>Enter a name to return only results that contain this name.</p> </li> 
+     <li> <p><b>Tag names</b> </p> <p>Enter a comma-separated list of tag names to return only results that contain one of the tags in the list.</p> </li> 
+     <li> <p><b>Favorite</b> </p> <p>Select whether to include only results that are favorites.</p> </li> 
+     <li> <p><b>Approved</b> </p> <p>Select whether to include only results that are approved.</p> </li> 
+     <li> <p><b>Limit</b> </p> <p>Enter the number of results you want returned per page. Combine this with the Page field to paginate results.</p> </li> 
+     <li> <p><b>Page</b> </p> <p>Enter the page number of results to return. The first page has a value of 0. Combine this with the Limit field to paginate results.</p> </li> 
+     <li> <p><b>Sort direction</b> </p> <p>Select whether to return results in ascending or descending order.</p> </li> 
+     <li> <p><b>Sort property</b> </p> <p>Select whether to sort results by ID, modified date, or name.</p> </li> 
+     <li> <p><b>Expansion</b> </p> <p>Select other metadata fields to return in the results.</p> </li> 
+     <li> <p><b>Include type</b> </p> <p>Select the type of additional metrics not owned by the user of the account used in the connection to return in the results.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tags</td> 
+   <td> 
+    <ul> 
+     <li><b>Limit</b> <p>Enter the number of results you want returned per page. Combine this with the Page field to paginate results.</p> </li> 
+     <li> <p><b>Page</b> </p> <p>Enter the page number of results to return. The first page has a value of 0. Combine this with the Limit field to paginate results.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Maximum number of returned results”</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Read a record
+
+This action module reads a single record from your Adobe Analytics account.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Enter the type of the record that you want to read.</p> 
+    <ul> 
+     <li> <p><b>Calculated Metric</b> </p> <p>Enter or map the ID of the calculated metric you want to read, and select any additional metadata you want to include in the output.</p> </li> 
+     <li> <p><b>Calculated metric function</b> </p> <p>Enter the ID of the function you want to read.</p> </li> 
+     <li> <p><b>Segment</b> </p> <p>Enter or map the ID of the segment you want to read, and select any additional metadata you want to include in the output.</p> </li> 
+     <li> <p><b>Tag (by ID)</b> </p> <p>Enter or map the ID of the tag you want to read.</p> </li> 
+     <li> <p><b>Tags for a component</b> </p> <p>Enter or map the ID and type of the component that has the tags you want to read.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Locale</td> 
+   <td> 
+    <ul> 
+     <li> <p>Enter the locale related to the records you want to retrieve.</p> 
+      <ul> 
+       <li> <p>en_US: English (United States)</p> </li> 
+       <li> <p>fr_FR: French (France)</p> </li> 
+       <li> <p>ja_JP: Japanese (Japan)</p> </li> 
+       <li> <p>de_DE: German (Germany)</p> </li> 
+       <li> <p>es_ES: Spanish (Spain)</p> </li> 
+       <li> <p>ko_KR: Korean (Korea)</p> </li> 
+       <li> <p>pt_BR: Portuguese (Brazil)</p> </li> 
+       <li> <p>zh_CN: Chinese (China)</p> </li> 
+       <li> <p>zh_TW: Chinese (Taiwan)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Read related records
+
+This action module reads records related to a specified record in your Adobe Analytics account.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Headers</td> 
+   <td>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Global company ID</td> 
+   <td>Enter or map the Global company ID associated with the records you want to return.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Enter the type of the record that you want to read related records for.</p> 
+    <ul> 
+     <li> <p><b>Date range</b> </p> <p>Enter or map the ID&nbsp;of the date range that you want to retrieve related records for.</p> <p>This module currently supports only the Date range record type.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Query params</td> 
+   <td> <p>Fill in the following fields:</p> 
+    <ul> 
+     <li> <p><b>Locale</b> </p> <p>Enter the locale related to the records you want to retrieve.</p> 
+      <ul> 
+       <li> <p>en_US: English (United States)</p> </li> 
+       <li> <p>fr_FR: French (France)</p> </li> 
+       <li> <p>ja_JP: Japanese (Japan)</p> </li> 
+       <li> <p>de_DE: German (Germany)</p> </li> 
+       <li> <p>es_ES: Spanish (Spain)</p> </li> 
+       <li> <p>ko_KR: Korean (Korea)</p> </li> 
+       <li> <p>pt_BR: Portuguese (Brazil)</p> </li> 
+       <li> <p>zh_CN: Chinese (China)</p> </li> 
+       <li> <p>zh_TW: Chinese (Taiwan)</p> </li> 
+      </ul> </li> 
+    </ul> 
+    <ul> 
+     <li> <p><b>Expansion</b> </p> <p>Select other metadata fields to return in the results.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Update a record
+
+This action module updates a single record in Adobe Analytics
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Enter the type of the record that you want to update.</p> 
+    <ul> 
+     <li> <p>Calculated metric </p> </li> 
+     <li> <p>Segment</p> </li> 
+     <li> <p>Add tags to a component</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Calculated metric / Segment ID</td> 
+   <td> <p>Enter or map the ID&nbsp;of the record you want to update</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Locale</td> 
+   <td> 
+    <ul> 
+     <li> <p>Enter the locale related to the records you want to retrieve.</p> 
+      <ul> 
+       <li> <p>en_US: English (United States)</p> </li> 
+       <li> <p>fr_FR: French (France)</p> </li> 
+       <li> <p>ja_JP: Japanese (Japan)</p> </li> 
+       <li> <p>de_DE: German (Germany)</p> </li> 
+       <li> <p>es_ES: Spanish (Spain)</p> </li> 
+       <li> <p>ko_KR: Korean (Korea)</p> </li> 
+       <li> <p>pt_BR: Portuguese (Brazil)</p> </li> 
+       <li> <p>zh_CN: Chinese (China)</p> </li> 
+       <li> <p>zh_TW: Chinese (Taiwan)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Expansion</td> 
+   <td>Select other metadata fields to return in the results.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Tags</td> 
+   <td>For each tag that you want to add to a component, click <b>Add</b> and enter the text of the tag.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Component type</td> 
+   <td>Enter the type of component that you want to add a tag for.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Validate -a record
+
+This action module validates a single record in Adobe Analytics
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Enter the type of the record that you want to update.</p> 
+    <ul> 
+     <li> <p>Calculated metric </p> </li> 
+     <li> <p>Segment</p> </li> 
+     <li> <p>Add tags to a component</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Calculated metric / Segment ID</td> 
+   <td> <p>Enter or map the ID&nbsp;of the record you want to update</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Locale</td> 
+   <td> <p>Enter the locale related to the records you want to retrieve.</p> 
+    <ul> 
+     <li> <p>en_US: English (United States)</p> </li> 
+     <li> <p>fr_FR: French (France)</p> </li> 
+     <li> <p>ja_JP: Japanese (Japan)</p> </li> 
+     <li> <p>de_DE: German (Germany)</p> </li> 
+     <li> <p>es_ES: Spanish (Spain)</p> </li> 
+     <li> <p>ko_KR: Korean (Korea)</p> </li> 
+     <li> <p>pt_BR: Portuguese (Brazil)</p> </li> 
+     <li> <p>zh_CN: Chinese (China)</p> </li> 
+     <li> <p>zh_TW: Chinese (Taiwan)</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Expansion</td> 
+   <td>Select other metadata fields to return in the results.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Reports
+
+#### Read a record
+
+This action module reads a single report from Adobe Analytics.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Headers</td> 
+   <td>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Global company ID</td> 
+   <td>Enter or map the Global company ID associated with the report you want to retrieve.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Enter the type of the record that you want to read related records for.</p> 
+    <ul> 
+     <li> <p><b>Report suite</b> </p> <p>Enter or map the ID of the report suite you want to read, and select any additional metadata you want to include in the output.</p> </li> 
+     <li> <p><b>Virtual report suite</b> </p> <p>Enter or map the ID of the virtual report suite you want to read, and select any additional metadata you want to include in the output.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Maximum number of returned reports</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Bulk Insertion
+
+#### Upload a batch file for processing
+
+This action module uploads a batch file for processing
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Headers</td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Visitor group ID</td> 
+   <td> <p>Enter or map the ID&nbsp;of the visitor group.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Source file</td> 
+   <td> <p>Select a source file from a previous module, or map the source file's file. File must be a G-zipped CSV file.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Debug mode</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Upload a batch file for validation
+
+This action module uploads a batch file for validation.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Headers</td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Source file</td> 
+   <td> <p>Select a source file from a previous module, or map the source file's file. File must be a G-zipped CSV file.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Other
+
+#### Make a custom API call
+
+This module makes a custom API call to the Adobe Analytics API
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#create-a-connection-to-adobe-analytics" class="MCXref xref">Create a connection to Adobe Analytics</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>URL</p> </td> 
+   <td> <p>Enter a path relative to https://analytics.adobe.io/&lt;YOUR URL HERE&gt;</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API version</td> 
+   <td>Select the version of the Adobe Analytics API that you want to connect to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Method</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Headers</td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Query String </td> 
+   <td> <p>Enter the request query string.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Body</td> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Upload a transient document</td> 
+   <td> <p>If you want to upload a transient document, enter the source file for the document you want to upload.</p> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&nbsp;
+
+&nbsp;

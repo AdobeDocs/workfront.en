@@ -3,12 +3,10 @@ filename: oauth-app-jwt-flow
 content-type: api
 navigation-topic: api-navigation-topic
 title: Configure and use your organization's custom OAuth 2 applications using JWT flow
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:
 ---
 
 # Configure and use your organization's custom OAuth 2 applications using JWT flow
-
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:
 
@@ -62,3 +60,18 @@ The following table contains information about fields that may be required when 
  </tbody> 
 </table>
 
+## Exchange the JWT to retrieve an access token
+
+1. Send a POST request to:
+
+   [Copy](javascript:void(0);) 
+   <pre><code>https://yourdomain.my.workfront.com/integrations/oauth2/api/v1/jwt/exchange</code></pre>
+
+1. The body of the request should contain URL-encoded parameters with your Client ID, Client Secret, and JWT:
+
+   &nbsp;
+
+   [Copy](javascript:void(0);) 
+   <pre><code>client_id={client_id_value}&client_secret={client_secret_value}&jwt_token={base64_encoded_JWT}</code></pre>
+
+&nbsp;

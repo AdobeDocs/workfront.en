@@ -6,12 +6,16 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Frame.io modules
-description: The Frame.io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your Frame.io account.
+description: The Adobe Workfront Fusion Frame.io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your Frame.io account.
 ---
 
 # Frame.io modules
 
-The Frame.io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your Frame.io account.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+The Adobe Workfront Fusion Frame.io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your Frame.io account.
 
 ## Access requirements
 
@@ -61,7 +65,15 @@ The module dialog fields that are displayed in bold (in the Workfront Fusion sce
 
 ## Connect Frame.io to Adobe Workfront Fusion {#connect-frame-io-to-adobe-workfront-fusion}
 
-To connect your Frame.io account to Workfront Fusionyou need to create an API token in your Frame.io account and insert it to the Workfront Fusion Frame.io Create a connection dialog.
+You can connect to Frame.io using an API token, or by using OAuth 2.0.
+
+[Connect to Frame.io using an API token](#connect-to-frame-io-using-an-api-token)
+
+[Connect to Frame.io using OAuth 2.0 PKCE](#connect-to-frame-io-using-oauth-2-0-pkce)
+
+### Connect to Frame.io using an API token {#connect-to-frame-io-using-an-api-token}
+
+To connect your Frame.io account to Workfront Fusion using an API token, you must create the API token in your Frame.io account and insert it to the Workfront Fusion Frame.io Create a connection dialog.
 
 1. Log in to your Frame.io account.
 1. Go to the **Tokens** page in the Frame.io Developer.
@@ -69,19 +81,95 @@ To connect your Frame.io account to Workfront Fusionyou need to create an API to
 1. Enter the name of the token, select the scopes you want to use, and click **Create**.
 1. Copy the provided token.
 1. Go to Workfront Fusion and open the Frame.io module's **Create a connection** dialog.
-1. Enter the token you have copied in step 5 to the Your Frame.io API Key field and click **Continue** to establish the connection.
+1. In the **Connection type** field, select **Frame.io**.
+1. Enter the token you have copied in step 5 to the **Your Frame.io API Key** field and click **Continue** to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.
+
+### Connect to Frame.io using OAuth 2.0 PKCE {#connect-to-frame-io-using-oauth-2-0-pkce}
+
+You can create an connection to Frame.io using OAuth 2.0 PKCE with an optional Client ID. If you want to include a Client ID&nbsp;in your connection, you must create an OAuth 2.0 app in your Frame.io account.
+
+* [Connect to Frame.io using using OAuth 2.0 PKCE (without Client ID)](#connect-to-frame-io-using-using-oauth-2-0-pkce-without-client-id) 
+* [Connect to Frame.io using using OAuth 2.0 PKCE (with Client ID)](#connect-to-frame-io-using-using-oauth-2-0-pkce-with-client-id)
+
+#### Connect to Frame.io using using OAuth 2.0 PKCE (without Client ID) {#connect-to-frame-io-using-using-oauth-2-0-pkce-without-client-id}
+
+1. Go to Workfront Fusion and open the Frame.io module's **Create a connection** dialog.
+1. In the **Connection type** field, select **Frame.io OAuth 2.0 PKCE**.
+1. Enter a name for the new connection in the **Connection name** field.
+1. Click **Continue** to establish the connection.
+
+The connection has been established. You can proceed with setting up the module.
+
+#### Connect to Frame.io using using OAuth 2.0 PKCE (with Client ID) {#connect-to-frame-io-using-using-oauth-2-0-pkce-with-client-id}
+
+1. Create an OAuth 2.0 app in Frame.io. For instructions, see the Frame.io documentation on OAuth 2.0 Code Authorization&nbsp;Flow.
+
+   >[!IMPORTANT]
+   >
+   >When creating the OAuth 2.0 app in Frame.io:
+   >
+   >   
+   >   
+   >   * Enter the following as the redirect URI:
+   >   
+   >   
+   >     | Americas / APAC |https://app.workfrontfusion.com/oauth/cb/frame-io5 |
+   >     |---|---|
+   >     | EMEA |https://app-eu.workfrontfusion.com/oauth/cb/frame-io5 |
+
+   >   
+   >   * Enable the PCKE option.
+   >   
+   >
+
+1. Copy the provided 
+
+   ```
+   client_id
+   ```
+
+   .
+1. Go to Workfront Fusion and open the Frame.io module's **Create a connection** dialog.
+1. In the **Connection type** field, select **Frame.io OAuth 2.0 PKCE**.
+1. Enter a name for the new connection in the **Connection name** field.
+1. Click **Show advanced settings**.
+1. Enter the 
+
+   ```
+   client_id
+   ```
+
+   you copied in step 2 to the **Client ID** field.
+1. Click **Continue** to establish the connection.
+
+The connection has been established. You can proceed with setting up the module.
+
+&nbsp;
 
 ## Frame.io modules and their fields
 
 When you configure [Fusion app] modules, Workfront Fusion displays the fields listed below. Along with these, additional [Fusion app] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-### Assets
+* [Assets](#assets) 
+* [Comments](#comments) 
+* [Projects](#projects) 
+* [Other](#other)
+
+### Assets {#assets}
+
+* [Delete an Asset](#delete-an-asset) 
+* [Get an Asset](#get-an-asset) 
+* [List Assets](#list-assets) 
+* [Update an Asset](#update-an-asset) 
+* [Watch Asset Deleted](#watch-asset-deleted) 
+* [Watch Asset Label Updated](#watch-asset-label-updated) 
+* [Watch New Asset](#watch-new-asset)
 
 Create an Asset
 
@@ -136,7 +224,7 @@ This action module creates a new asset.
  </tbody> 
 </table>
 
-#### Delete an Asset
+#### Delete an Asset {#delete-an-asset}
 
 This action module deletes a specified asset.
 
@@ -167,7 +255,7 @@ This action module deletes a specified asset.
  </tbody> 
 </table>
 
-#### Get an Asset
+#### Get an Asset {#get-an-asset}
 
 This action module retrieves asset details.
 
@@ -198,7 +286,7 @@ This action module retrieves asset details.
  </tbody> 
 </table>
 
-#### List Assets
+#### List Assets {#list-assets}
 
 This search module retrieves all assets in the specified project's folder.
 
@@ -231,7 +319,7 @@ This search module retrieves all assets in the specified project's folder.
  </tbody> 
 </table>
 
-#### Update an Asset
+#### Update an Asset {#update-an-asset}
 
 This action module allows you to update an existing asset's name, description, or custom fields.
 
@@ -266,7 +354,7 @@ This action module allows you to update an existing asset's name, description, o
  </tbody> 
 </table>
 
-#### Watch Asset Deleted
+#### Watch Asset Deleted  {#watch-asset-deleted}
 
 This trigger module starts a scenario when an asset is deleted.
 
@@ -289,7 +377,7 @@ This trigger module starts a scenario when an asset is deleted.
  </tbody> 
 </table>
 
-#### Watch Asset Label Updated
+#### Watch Asset Label Updated  {#watch-asset-label-updated}
 
 This trigger module starts a scenario when an asset's status is set, changed, or removed.
 
@@ -312,7 +400,7 @@ This trigger module starts a scenario when an asset's status is set, changed, or
  </tbody> 
 </table>
 
-#### Watch New Asset
+#### Watch New Asset {#watch-new-asset}
 
 This trigger module starts a scenario when a new asset is created.
 
@@ -335,9 +423,17 @@ This trigger module starts a scenario when a new asset is created.
  </tbody> 
 </table>
 
-### Comments
+### Comments {#comments}
 
-#### Create a Comment
+* [Create a Comment](#create-a-comment) 
+* [Delete a Comment](#delete-a-comment) 
+* [Get a Comment](#get-a-comment) 
+* [List Comments](#list-comments) 
+* [Update a Comment](#update-a-comment) 
+* [Watch Comment Updated](#watch-comment-updated) 
+* [Watch New Comment](#watch-new-comment)
+
+#### Create a Comment {#create-a-comment}
 
 This action module adds a new comment or reply to the asset.
 
@@ -384,7 +480,7 @@ This action module adds a new comment or reply to the asset.
  </tbody> 
 </table>
 
-#### Delete a Comment
+#### Delete a Comment {#delete-a-comment}
 
 This action module deletes an existing comment.
 
@@ -419,7 +515,7 @@ This action module deletes an existing comment.
  </tbody> 
 </table>
 
-#### Get a Comment
+#### Get a Comment {#get-a-comment}
 
 This action module retrieves details of the specified comment.
 
@@ -454,7 +550,7 @@ This action module retrieves details of the specified comment.
  </tbody> 
 </table>
 
-#### List Comments
+#### List Comments {#list-comments}
 
 This search module retrieves all comments of the specified asset.
 
@@ -489,7 +585,7 @@ This search module retrieves all comments of the specified asset.
  </tbody> 
 </table>
 
-#### Update a Comment
+#### Update a Comment {#update-a-comment}
 
 This action module edits an existing comment.
 
@@ -532,7 +628,7 @@ This action module edits an existing comment.
  </tbody> 
 </table>
 
-#### Watch Comment Updated
+#### Watch Comment Updated  {#watch-comment-updated}
 
 This trigger module starts a scenario when a comment is edited.
 
@@ -555,7 +651,7 @@ This trigger module starts a scenario when a comment is edited.
  </tbody> 
 </table>
 
-#### Watch New Comment
+#### Watch New Comment {#watch-new-comment}
 
 This trigger module starts a scenario when a new comment or reply is created.
 
@@ -578,7 +674,7 @@ This trigger module starts a scenario when a new comment or reply is created.
  </tbody> 
 </table>
 
-### Projects
+### Projects {#projects}
 
 #### List Projects
 
@@ -603,7 +699,7 @@ This search module retrieves all projects for the specified team.
  </tbody> 
 </table>
 
-### Other
+### Other {#other}
 
 #### Make an API Call
 
@@ -623,7 +719,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

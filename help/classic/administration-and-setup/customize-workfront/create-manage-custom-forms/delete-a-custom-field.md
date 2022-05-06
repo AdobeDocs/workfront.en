@@ -4,19 +4,25 @@ title: Manage Custom Forms
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Delete a custom field
-description: To improve system performance and to make forms easier to use for users, you might want to remove fields from a custom form when the fields are no longer being used.
+title: Delete a custom field or widget from the system
+description: To improve system performance and to make forms easier to use for users, you might want to remove custom fields and widgets from your system when they are no longer being used.
 ---
 
-# Delete a custom field
-
-To improve system performance and to make forms easier to use for users, you might want to remove fields from a custom form when the fields are no longer being used.
+# Delete a custom field or widget from the system
 
 >[!IMPORTANT]
 >
->Deleting a field also deletes all custom data on the objects associated with the field. The deleted data cannot be recovered.
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+To improve system performance and to make forms easier to use for users, you might want to remove custom fields and widgets from your system when they are no longer being used.
+
+>[!CAUTION]
 >
->You can view all custom forms and reports that use a custom field you want to delete in order to assess what the repercussions might be. For more information, see [View all custom forms that use a particular custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) and [View all reports that use a particular custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+>Deleting a custom field also deletes all custom data that users have entered in the field when filling out custom forms attached to objects. That deleted data cannot be recovered.
+>
+>You can view all custom forms and reports that use a custom field you want to delete in order to assess what the repercussions might be. For more information, see [View all custom forms that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) and [View all reports that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+>
+>Or, for a workaround you can use to avoid losing data in fields no longer used, see [Remove a custom field without losing data that users have entered](#remove-a-custom-field-without-losing-data-that-users-have-entered) in this article.
 
 ## Access requirements
 
@@ -43,39 +49,32 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Delete a custom field
+## Delete a custom field or widget from the system
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Custom Forms.**
 1. Click the **Fields** tab.
-1. Select the custom field, then click **Delete**.
-1. If you are sure you want to permanently delete the custom field and all associated data on objects where it was attached, click **Yes, Delete It**.
+1. Select the custom field or widget, then click **Delete**.
+1. If you are sure you want to permanently delete the item and (in the case of a custom field) all associated data on objects where it was attached, click **Yes, Delete It**.
 
-## Remove fields without losing data {#remove-fields-without-losing-data}
+## Remove a custom field without losing data that users have entered {#remove-a-custom-field-without-losing-data-that-users-have-entered}
 
 >[!CAUTION]
 >
->Removing fields from a form that has over 500 fields cannot be undone. Avoid this unless you are certain that you won't need to re-add fields to the custom form in the future. Each time you remove a field, another field cannot be added to the custom form until the custom form has fewer than 500 fields.
+>Removing a custom field from a custom form that has over 500 fields and widgets cannot be undone. If you remove the field, you can't re-add it until the form has fewer than 500 fields and widgets.
 
-1. Determine which fields you want to remove from the original custom form.
-
-   Do not remove any fields from the original custom form at this time.
-
+1. Determine which custom fields you want to remove from the original custom form, but do not remove them at this point.
 1. Create a new custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-   1. Add the fields to the new form that you want to remove from the original custom form.
-   1. Save the new custom form that includes all of the fields that you are going to remove from the original custom form.
+   1. Add the custom fields to the new form that you want to remove from the original custom form, as described in [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   1. Save the new custom form.
 
-1. Limit access to the custom form to only users with&nbsp;administrative access.&nbsp;
-1. Apply the new custom form to the object where the original custom form is already applied, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. Limit access to the custom form to only users with&nbsp;administrative access, as described in [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).&nbsp;
+1. Apply the new custom form to the objects where the original custom form is already applied, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-   Applying the new custom form to the object ensures that historical reporting data is not affected.
+   Applying the new custom form to these objects ensures that historical reporting data is not affected.
 
-1. Modify the original custom form and remove any fields.
-
-   Remove only the fields that you previously&nbsp;added to the new form (in Step 2).
-
-   For information about removing fields from a custom form without losing data that users have entered in those fields, see the section [Remove fields without losing data](#remove-fields-without-losing-data)a in the article [Delete a custom field](#).
+1. Modify the original custom form and remove the custom fields that you added to the new form (in Step 2).
 
    The fields that you removed from the original custom form are now available only on the new custom form that you created. Users are able to see the custom form on the object, but users without administrative access are not able to modify the custom form.
 

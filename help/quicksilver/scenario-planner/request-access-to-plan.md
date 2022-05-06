@@ -3,11 +3,11 @@ filename: request-access-to-plan
 product-area: enterprise-scenario-planner-product-area
 keywords: plan,permissions,share,initiatives,,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Request access to a plan in the Adobe Workfront Scenario Planner
+title: Request access to a plan in the Scenario Planner
 description: You can request access to a plan in the Adobe Workfront Scenario Planner when the link to the plan is shared with you.
 ---
 
-# Request access to a plan in the Adobe Workfront Scenario Planner
+# Request access to a plan in the Scenario Planner
 
 You can request access to a plan in the Adobe Workfront Scenario Planner when the link to the plan is shared with you.
 
@@ -29,7 +29,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td><strong>Product*</strong> </td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
@@ -71,7 +71,7 @@ To request permissions:
 
    You cannot request a permission that is higher than your access level to the Scenario Planner. For example, you cannot request Manage permissions if you have View access to the Scenario Planner.
 
-   For information about the different levels of permissions, see [Share a plan in the Adobe Workfront Scenario Planner](../scenario-planner/share-a-plan.md).
+   For information about the different levels of permissions, see [Share a plan in the Scenario Planner](../scenario-planner/share-a-plan.md).
 
    For information on a Workfront administrator can manage access to the Scenario Planner, see [Grant access to Scenario Planner](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md). 
 

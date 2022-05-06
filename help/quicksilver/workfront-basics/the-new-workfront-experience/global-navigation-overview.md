@@ -3,20 +3,14 @@ filename: global-navigation-overview
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Top navigation bar overview in the new Adobe Workfront experience
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: The top navigation bar—which appears at the top of your screen in the new Adobe Workfront experience—allows you to easily find and navigate to other areas of the platform.
 ---
 
 # Top navigation bar overview in the new Adobe Workfront experience
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
 The top navigation bar—which appears at the top of your screen in the new Adobe Workfront experience—allows you to easily find and navigate to other areas of the platform.
 
-![](assets/global-navigation-bar-350x13.png)
-
-<!--
-<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/global-navigation-bar-2022-noshell-350x15.png" alt="Navigation bar" style="width: 350;height: 15;"> </p>
--->
+![Top navigation bar](assets/global-navigation-bar-350x15.png)
 
 ## Home icon
 
@@ -34,69 +28,49 @@ The **Help** menu allows you to search for help with a specific task, find more 
 
 To learn more about the Help menu, see [Access Adobe Workfront help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
-## Favorites and Recents menu
-
-The **Favorites** icon ![](assets/favorites-icon-62x55.png) opens a list of pages in the system that you have favorited. You can add the page that you're currently on from within this menu. To see a list of places you have visited recently, you can click on the **Recents** tab.
-
-To learn more about favorites and recents, see [Recents and favorites in Adobe Workfront](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md).
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Favorites menu</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The <strong>Favorites</strong> icon <img src="assets/favorites-icon-62x55.png" style="width: 62;height: 55;" alt="Favorites"> opens a list of pages in the system that you have favorited. You can add the page that you're currently on from within this menu.</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more about favorites, see <a href="../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md" class="MCXref xref">View and manage favorites</a>.</p>
--->
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Recents menu</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The <strong>Recents</strong> icon <img src="assets/recents-icon2-40x43.png" alt="Recents" style="width: 40;height: 43;"> opens a list of pages you have visited recently.</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more about recents, see <a href="../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md" class="MCXref xref">View recent items</a>.</p>
--->
-
 ## Notifications menu
 
 The blue numbered box ![](assets/notifications-icon.png) in the top-right corner of the screen opens a list of notifications.
 
 To learn more about notifications, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
+## Favorites menu
+
+The **Favorites** icon ![Favorites](assets/favorites-icon-62x55.png) opens a list of pages in the system that you have favorited. You can add the page that you're currently on from within this menu.
+
+To learn more about favorites, see [View and manage favorites](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
+
+## Recents menu
+
+The **Recents** icon ![Recents](assets/recents-icon-40x43.png) opens a list of pages you have visited recently.
+
+To learn more about recents, see [View recent items](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
+
+## Search menu
+
+The **Search** icon ![](assets/search-icon.png) in the top-right corner of Workfront allows you to perform a basic search, restrict your search to a specific object, or use Advanced Search to search for a keyword for a specific object and use filters to limit your search to specific fields.
+
+To learn more about search, see [Search Adobe Workfront](../../workfront-basics/navigate-workfront/search/search-workfront.md).
+
 ## Main Menu
 
-The **Main Menu** icon ![](assets/main-menu-icon-16x12.png) 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span class="preview"><img src="assets/mainmenu-icon-2022-small.png" alt="Main Menu"> </span>
-</MadCap:conditionalText>
--->
-
-opens the Main Menu, which allows you to navigate to a different area of Workfront.
+The **Main Menu** icon ![Main Menu](assets/main-menu-icon.png) opens the Main Menu, which allows you to navigate to a different area of Workfront.
 
 The options that are available in the Main Menu are dependent on:
 
 * **Layout template configurations**: To learn how a Workfront administrator can modify the Main Menu from a layout template, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **License type**: To learn the default configurations for different license types, see [Understand a Reviewer's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand a Worker's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a Work-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-* **User customization**: To learn how to change your own Main menu configuration, see [Customize the Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
+* **User customization**: To learn how to change your own Main menu configuration, see [Customize the Adobe Workfront navigation](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
 
-![](assets/main-menu-options-350x568.png)
-
-<!--
-<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/main-menu-options-2022-350x481.png" alt="Main menu options" style="width: 350;height: 481;"> </p>
--->
+![Main menu options](assets/main-menu-options-350x481.png)
 
 Each icon takes you to a different area of the new Adobe Workfront experience. To learn more about each area, see:
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update screenshot and add icons for new products/features.)</p>
+-->
 
 <table> 
  <col> 
@@ -124,7 +98,7 @@ Each icon takes you to a different area of the new Adobe Workfront experience. T
      <li>Templates: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Create and manage project templates</a></li> 
      <li>Analytics: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Enhanced analytics overview</a></li> 
      <li>Goals: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a></li> 
-     <li>Scenarios: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a></li> 
+     <li>Scenarios: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a></li> 
      <li>Proofing: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">Workfront Proof</a></li> 
     </ul> </td> 
   </tr> 
@@ -146,7 +120,9 @@ Below these options in the Main Menu, you can access:
    <td> <p>Clicking <b>Help</b> takes you to Adobe Workfront One where you can access help articles, find training, submit a customer support ticket, and so on.</p> <p>For more information on Workfront One or other methods of getting help, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md" class="MCXref xref">Your quick guide to finding help in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p class="bold">Switch to Classic</p> </td> 
+   <td> <p class="bold">Switch to Classic</p> <!--
+     <p class="bold" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span style="font-weight: normal;">(NOTE: Move this and update name when Blueprints is in Prod.)</span> </p>
+    --> </td> 
    <td> <p>Clicking <b>Switch to Classic</b>—which is only available for&nbsp;Adobe Workfront administrators and group administrators—takes you to the Adobe Workfront Classic environment.</p> <p>For more information on switching to Adobe Workfront Classic, see the section "Switch your admin account to Adobe Workfront Classic" in <a href="../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md" class="MCXref xref">Enroll users in the new Adobe Workfront experience</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -156,8 +132,3 @@ Below these options in the Main Menu, you can access:
  </tbody> 
 </table>
 
-## Search menu
-
-The **Search** icon ![](assets/search-icon.png) in the top-right corner of Workfront allows you to perform a basic search, restrict your search to a specific object, or use Advanced Search to search for a keyword for a specific object and use filters to limit your search to specific fields.
-
-To learn more about search, see [Search Adobe Workfront](../../workfront-basics/navigate-workfront/search/search-workfront.md).

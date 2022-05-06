@@ -4,10 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create custom expense types
-description: You can keep track of expenses on projects and tasks. Expenses are non-labor costs and can be associated with tasks or projects.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Create custom expense types
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 You can keep track of expenses on projects and tasks. Expenses are non-labor costs and can be associated with tasks or projects.
 
@@ -17,7 +21,7 @@ You can edit or delete any expense types that you create. You cannot delete or e
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

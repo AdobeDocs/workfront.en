@@ -3,19 +3,17 @@ filename: export-project-to-ms-project
 product-area: projects
 navigation-topic: manage-projects
 title: Export a project to Microsoft Project
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can export Adobe Workfront projects to Microsoft Project.
 ---
 
 # Export a project to Microsoft Project
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can export Adobe Workfront projects to Microsoft Project.&nbsp;
 
 >[!IMPORTANT]
 >
 >* Not all Workfront fields are transferred in the Microsoft Project file.  
->  For more information about the compatibility of fields between Workfront and Microsoft Project, see the article [Map Microsoft Project fields to Adobe Workfront](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>  For more information about the compatibility of fields between Workfront and Microsoft Project, see the article [Map Microsoft Project fields to Adobe Workfront projects](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
 >* We recommend that you limit the number of times you transfer projects from one application to another.&nbsp;
 >
 
@@ -41,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p> View or higher permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p> View or higher permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,20 +48,19 @@ You must have the following access to perform the steps in this article:
 
 ## Export a project from Workfront to Microsoft Project
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can export a project from&nbsp;Workfront from the project page <span class="preview">or from a project list or report</span>.</p>
--->
+You can export a project from Workfront from the project page ```or from a project list or report```.
 
-1. Go to the project you want to export.
+1. Go to the project you want to export and click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name
 
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-   <p>Or</p>
-   <p>Go to a project list or report and select a project. </p>
-   </div>
-   -->
+   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
-1. Click the **More** icon ![](assets/qs-more-menu.png), then click&nbsp;**Export MS Project**.    
+   Or
+
+   ```Go to a project list or report and select a project, then click the More icon ![](assets/qs-more-menu.png) at the top of the list.```
+
+   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+
+1. Click&nbsp;**Export MS Project**.    
   
    The project is downloaded as an XML file to your computer and it is ready to be imported into Microsoft Project.&nbsp;
 

@@ -11,6 +11,10 @@ description: These articles explain how you, as an Adobe Workfront administrator
 
 # Configure access to Adobe Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 These articles explain how you, as an Adobe Workfront administrator, can grant users access to view or edit objects by assigning them an access level.
 
 * [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) 

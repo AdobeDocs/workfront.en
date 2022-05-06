@@ -7,6 +7,10 @@ description: You must have the following access to perform the steps in this art
 
 # Access the Recent Updates area
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

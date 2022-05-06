@@ -9,6 +9,10 @@ description: You can configure an Adobe Workfront IP allowlist that limits acces
 
 # Restrict access to Adobe Workfront by IP address
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can configure an Adobe Workfront IP allowlist that limits access to Workfront to 45 IP addresses or IP address ranges that you specify. This provides an additional layer of security for the Workfront application.
 
 These IP addresses or IP address ranges should be provided by your network administrator.

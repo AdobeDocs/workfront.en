@@ -9,6 +9,10 @@ description: You can sort the items that display in an area in Workfront Library
 
 # Sort content in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can sort the items that display in an area in Workfront Library. You can sort only similar types of items. For example, when you sort content, all the content in the active area is sorted together. Folders are sorted together, separately from content. In the Collections area, collections in the My Collections section are sorted together, separately from the collections in the Collections Shared with Me section.
 
 When you sort items in Workfront Library, you sort only your instance of Workfront Library.

@@ -3,10 +3,18 @@ filename: modify-multipl-assignments-scheduling-areas
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Modify multiple users assignments to tasks in the Scheduling areas
-description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+description: (NOTE: there is a similar article for doing the same function in a task list in: Manage Work> Tasks> Assign Tasks)
 ---
 
 # Modify multiple users assignments to tasks in the Scheduling areas
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article for doing the same function in a task list in: Manage Work> Tasks> Assign Tasks)</p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 >[!NOTE]
 >
@@ -49,7 +57,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues you update assignments for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues you update assignments for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,7 +140,7 @@ When you assign a user in this way, the user is not assigned to the following ty
 To assign a user to tasks throughout the selected projects or tasks:
 
 1. Select **Assign User** in the **Select Action** section.  
-   ![](assets/resource-scheduling-assign-350x393.png)
+   ![](assets/resource-scheduling-assign-350x678.png)
 
 1. In the **Select Role** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned to tasks within the specified projects are displayed.   
    When you assign a user, the user replaces the roles that you select here.
@@ -153,7 +161,7 @@ When you swap a user's task assignments as described in this section, any assign
 To swap a user's task assignments with the task assignments of another user:
 
 1. Select **Swap User** in the **Select Action** section.  
-   ![](assets/resource-scheduling-swap-350x393.png)
+   ![](assets/resource-scheduling-swap-350x674.png)
 
 1. In the **Select User** field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to swap, then click the name when it appears in the drop-down list).   
    Users are displayed only when they are assigned to one or more uncompleted tasks within the specified projects.
@@ -161,7 +169,7 @@ To swap a user's task assignments with the task assignments of another user:
 1. (Conditional) The **Select a Role** field is displayed only when the user you selected is assigned to multiple tasks with differing roles. (To view the job role set on the task for a user, see the **Assignee's Role** column in the Advanced Assignment dialog box on the task, as described in [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)).  
    In the **Select a Role** field, select the role to determine the type of tasks you want to swap. Only the tasks for which the user is assigned with this role will be assigned to the new user.  
    For example, Hanna Marin is assigned to 5 tasks on the project. On 2 of the tasks her job role is defined as an "Engineer." On the remaining 3 of her tasks her job role is defined as a "Designer." If you select Designer in the Select Role field, this means you want to change the assignments on all 3 of Hanna's tasks where her job role is defined as a "Designer." The 2 tasks where her job role is defined as an "Engineer" remain unchanged.   
-   ![](assets/resource-scheduling-swap-role-350x439.png)
+   ![](assets/resource-scheduling-swap-role.png)
 
 1. In the **Select User to Assign** field, click the drop-down arrow to choose from a list of users. Users are available to assign only if their roles (as defined in their user settings) match the roles of the work assigned to the user you are replacing.   
    If the **Limit Assignments to Users with a Matching Role** option is enabled in the Settings area, users are available to assign only if their roles (as defined in their user settings) match the roles of the work assigned to the user you are replacing. If this option is disabled, you can begin typing the name of another user you want to assign, even if that user does not have a matching role defined in the system. The option is enabled by default.  
@@ -184,13 +192,13 @@ Tasks marked Complete cannot be unassigned.
 To unassign a user from tasks throughout the selected projects or for the selected tasks:
 
 1. Select **Unassign User** in the **Select Action**section.  
-   ![](assets/resource-scheduling-unassign-350x335.png)
+   ![](assets/resource-scheduling-unassign-350x618.png)
 
 1. In the **Select User** field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to unassign, then click the name when it appears in the drop-down list). You can unassign only one user at a time.
 1. (Conditional) The **Select a Role** field is displayed only when the user you selected is assigned to multiple tasks with differing roles. (To view what job role is set on the task for a user, see the **Assignee's Role** column in the Advanced Assignment dialog box on the task, as described in [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)).  
    In the **Select a Role** field, select the role to determine the type of tasks you want to unassign. Only the tasks where the user is assigned with this role will be unassigned.  
    For example, Hanna Marin is assigned to 5 tasks on a project. On 2 tasks, her job role is defined as an Engineer. On the remaining 3 of her tasks her job role is defined as a Designer. If you select Designer in the Select Role field, this means that you want to unassign Hanna on all 3 of her tasks where her job role is defined as a Designer. The 2 tasks where her job role is defined as an Engineer will remain unchanged.  
-   ![](assets/resource-scheduling-unassign-role-350x400.png)
+   ![](assets/resource-scheduling-unassign-role.png)
 
 1. Click **Unassign**.  
    You can make a maximum of 1,000 assignments in a single action. If the selections you make will make more than 1,000 assignment changes, you must re-adjust your selections and try again.

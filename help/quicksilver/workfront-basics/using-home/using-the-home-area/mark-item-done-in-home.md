@@ -10,6 +10,10 @@ description: You can mark a task or issue as Done if you are the task or issue a
 
 You can mark a task or issue as Done if you are the task or issue assignee. When you mark a task or issue as Done, the status of the task or issue is changed to Complete.
 
+>[!NOTE]
+>
+>You do&nbsp;not see the Done&nbsp;button unless you are one of the resources assigned to the task or the issue.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +74,7 @@ Depending on how many statuses are associated with the Done button or how many r
 
 When the Done button is associated with one status and the work item is assigned to you only, the button reads,&nbsp;**Done**. When you click it,&nbsp;the status of the task or the issue is changed to the status associated with the Done button.
 
-![](assets/done-350x91.png)
+![](assets/done-350x127.png)
 
 To understand which status is associated with the Done button, check the Team Settings of your Home Team for the Done Button section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
@@ -83,7 +87,7 @@ When the Done button is associated with more than one status, the button shows t
 To understand how you can associate multiple&nbsp;statuses with the Done button, see&nbsp; [Configure the Done button for tasks](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) and [Configure the Done button for issues](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
 <!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x257.png" style="width: 350;height: 257;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 -->
 
 ### Done button for items&nbsp;assigned to multiple resources {#done-button-for-items-assigned-to-multiple-resources}
@@ -91,10 +95,9 @@ To understand how you can associate multiple&nbsp;statuses with the Done button,
 When the task or the issue is assigned to more than one resource,&nbsp;the button shows the word **Done** which is followed by a drop-down menu. In the drop-down menu, you have the option to chose between **Done with my part** (which lets team members know you are complete with your portion of the task), or the status associated with the Done button (which&nbsp;completes the item). After you select **Done with my part**, the work item is removed from your Work List, but remains in the Work List of those still assigned to the work item.  
 If the Done button is&nbsp;associated with multiple statuses, they are&nbsp;listed under **Done with my part**.
 
-<!--
-<img src="assets/marking-an-item-done-done-with-my-part-350x167.png" style="width: 350;height: 167;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
+>[!NOTE]
+>
+>On a task or issue with multiple assignees, each user is responsible for indicating that their own assignment on the task or issue has actually been completed. For this reason, each assignee must click Done to show they have completed the work assigned to them on the item.
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x113.png)
+![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
 
-Keep in mind that you do&nbsp;not see the Done&nbsp;button unless you are one of the resources assigned to the task or the issue.

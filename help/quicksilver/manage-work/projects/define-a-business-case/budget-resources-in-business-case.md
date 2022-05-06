@@ -2,12 +2,12 @@
 filename: budget-resources-in-business-case
 navigation-topic: business-case-and-scorecards
 title: Budget resources in the Business Case
-description: As part of resource planning, you can budget the job roles necessary for completing the work in a project when you build the business case. For more information about creating a Business Case, see Create a Business Case for a project in Adobe Workfront.
+description: As part of resource planning, you can budget the job roles necessary for completing the work in a project when you build the business case. For more information about creating a Business Case, see Create a Business Case for a project .
 ---
 
 # Budget resources in the Business Case
 
-As part of resource planning, you can budget the job roles necessary for completing the work in a project when you build the business case. For more information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+As part of resource planning, you can budget the job roles necessary for completing the work in a project when you build the business case. For more information about creating a Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!NOTE]
 >
@@ -17,24 +17,28 @@ You must associate job roles with the project before you can budget the resource
 
 * Use the Resource Planner to apply Resource Pools to the project and budget job roles.
 
-  For more information, see [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md). 
+  For more information, see [Budget resources in the Business Case using the Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md). 
 
-* Use the Scenario Planner to create initiatives with required job roles and link them to the project. For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Use the Scenario Planner to create initiatives with required job roles and link them to the project. For more information, see [Budget resources in the Business Case using the Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
 
   >[!NOTE]
   >
-  >This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+  >The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
 ##
 
 ##
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>
+-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can associate Resource Pools with a project as part of completing the Resource Budgeting section of the Business Case of the project. The information you update here is also reflected in the Resource Planner.</p>
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> For more information about creating a Business Case, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>. For more information about planning in the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> For more information about creating a Business Case, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project </a>. For more information about planning in the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p>
 -->
 
 <!--
@@ -60,13 +64,17 @@ You must associate job roles with the project before you can budget the resource
   -->
 
   <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the access needed to budget resources, see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources</a>.</p>
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the access needed to budget resources, see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p>
   -->
 
 * 
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have Resource Pools attached to the project.</p>
+  -->
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:you must have tasks assigned to job roles and users on the project - this is optional because the users and their roles come from the pools)</p>
   -->
 
   <!--

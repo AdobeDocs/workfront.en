@@ -4,10 +4,14 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Groupings overview in Adobe Workfront
-description: You can add groupings to manage the layout of the information in your reports and lists.
+description: (NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)
 ---
 
 # Groupings overview in Adobe Workfront
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
+-->
 
 You can add groupings to manage the layout of the information in your reports and lists.
 
@@ -37,7 +41,7 @@ Consider the following when working with groupings:
   For information about granting access to Filters, Views, and Groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Your level of permissions to a grouping dictates how a grouping is saved. If you created the grouping originally, you can save the changes, otherwise you are prompted to save a version of the grouping. If you make changes to a grouping you have shared with others it impacts them as well.
-* You can customize a grouping that was shared with you only if the user who shared it granted you Manage access.&nbsp;For information about sharing a grouping, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* You can customize a grouping that was shared with you only if the user who shared it granted you Manage access.&nbsp;For information about sharing a grouping, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * You cannot edit a grouping inline.
 * You cannot group by multi-select custom fields (for example, Checkboxes), or by fields that can have multiple values (for example, Resource Manager).
 
@@ -77,6 +81,10 @@ For information about removing a grouping, see the article [Remove filters, view
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Old content</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Content starting from here has been drafted - the new content is above this mark. Update only the above part)</p>
 -->
 
 <!--

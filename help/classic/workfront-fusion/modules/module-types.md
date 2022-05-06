@@ -10,6 +10,10 @@ description: Adobe Workfront Fusion distinguishes five types of modules: action 
 
 # Types of modules
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront Fusion distinguishes five types of modules: action modules, search modules, trigger modules, aggregators, and iterators. Aggregators and Iterators are for advanced scenarios.
 
 ## Access requirements
@@ -113,9 +117,9 @@ Workfront Fusion distinguishes between two types of triggers: Polling triggers a
 
 ### Polling triggers
 
-Polling triggers regularly poll a given service even if there has been no change since their previous run. We recommend that you schedule a scenario containing a polling trigger to run at regular intervals. If there is a *change*, the trigger returns bundles containing information about the change. If there is no *change*, the trigger does not output any bundles. For instructions on scheduling a scenario, see [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+Polling triggers regularly poll a given service even if there has been no change since their previous run. We recommend that you schedule a scenario containing a polling trigger to run at regular intervals. If there is a *change*, the trigger returns bundles containing information about the change. If there is no *change*, the trigger does not output any bundles. For instructions on scheduling a scenario, see [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
-Polling triggers allow you to select the first bundle that they should output via the epoch panel. The panel displays automatically after you save a trigger or change the trigger settings. For more information, see [Choose where a trigger module starts](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+Polling triggers allow you to select the first bundle that they should output via the epoch panel. The panel displays automatically after you save a trigger or change the trigger settings. For more information, see [Choose where a trigger module starts in Adobe Workfront Fusion](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
 
 >[!NOTE]
 >
@@ -131,7 +135,7 @@ Polling triggers allow you to select the first bundle that they should output vi
 
 ### Instant triggers
 
-Instant triggers enable the service to notify Workfront Fusion about a *change* immediately. We recommend that you schedule a scenario containing an instant trigger to run immediately. For instructions, see [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md). See also [Instant triggers (webhooks)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) for details on how the incoming data is handled.
+Instant triggers enable the service to notify Workfront Fusion about a *change* immediately. We recommend that you schedule a scenario containing an instant trigger to run immediately. For instructions, see [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). See also [Instant triggers (webhooks) in Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) for details on how the incoming data is handled.
 
 ``` ```**Examples: **``````
 
@@ -154,7 +158,7 @@ Scenarios can contain an unlimited number of aggregators.
 * **CSV > Aggregate to CSV** merges multiple strings from a CSV file into a single row
 * **Tools > Text aggregator** combines several strings together into one single string
 
-For more information, see [Aggregator module](../../workfront-fusion/modules/aggregator-module.md).
+For more information, see [Aggregator module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
 ## Iterators
 
@@ -168,4 +172,4 @@ Scenarios can contain an unlimited number of iterators.
 
 ``` ```**Example: **``````**Email > Retrieve attachments** breaks an array of attachments into separate bundles
 
-For more information, see [Iterator module](../../workfront-fusion/modules/iterator-module.md) and [Map an array](../../workfront-fusion/mapping/map-an-array.md).
+For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md) and [Map an array in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-an-array.md).

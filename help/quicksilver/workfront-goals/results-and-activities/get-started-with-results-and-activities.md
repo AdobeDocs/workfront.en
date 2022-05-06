@@ -18,7 +18,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 When you create a goal, the goal has a status of Draft. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 In order to start recording progress on a goal, you must activate it. To activate your goal and change its status to Active you must first add the following to it:
@@ -37,16 +37,32 @@ This article gives an overview of activities and results.&nbsp;For information a
 
 ## Results overview
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will have additional types in the future - add another section for types?)</p>
+-->
+
 Results measure the progress of your goal or how close to achieving it you are. As the goal owner, you can also own the result. A result to your goal might also be assigned to a different user.
 
 For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
-You can add results to your own goals or goals that belong to other entities in your organization.
+You can add results to your own goals or goals that belong to other entities in your organization. 
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE:&nbsp;this might change??)
+</MadCap:conditionalText>
+-->
 
 Consider the following when working with results:
 
 * They answer the question, “How will I know when my goal is complete?” 
-* They are metric indicators. You can select from the following options to indicate a progress for your result:
+* They are metric indicators. You can select from the following options to indicate a progress for your result: 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: this might change (jira, Salesforce, etc))
+  </MadCap:conditionalText>
+  -->
 
    * Currency
    * Number
@@ -55,6 +71,10 @@ Consider the following when working with results:
 For more information about results, see the list of similarities between results and activities in the [Similarities between results, activities, and projects](#similarities-between-results-activities-and-projects) section in this article.
 
 ## Activities overview
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will have additional types in the future - add another section for types?)</p>
+-->
 
 Activities, like results, are specific and measurable, and typically include a percent complete indicator. As the goal owner, you can also own the activities associated with the goal. An activity on your goal might also be assigned to a different user.
 

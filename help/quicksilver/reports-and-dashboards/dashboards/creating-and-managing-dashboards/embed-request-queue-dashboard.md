@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,8 +144,16 @@ You can embed a link to the requests queue or to a queue topic nested under a re
    * **Name**: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
 
    * **Description**: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;
-   * **URL**:```<MadCap:conditionalText data-mc-conditions="">  paste the URL you obtained using one of the methods described in Step 1.</MadCap:conditionalText>```
+   * **URL**:```<MadCap:conditionalText data-mc-conditions="">  paste the URL you obtained using one of the methods described in Step 1. </MadCap:conditionalText>```   
    
+     <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     <MadCap:conditionalText data-mc-conditions="">   
+     (NOTE: ensure this stays accurate)   
+     </MadCap:conditionalText>   
+     </MadCap:conditionalText>   
+     -->
+
    * **Height**: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.&nbsp;
 
 1. Click **Save**. 
@@ -161,6 +169,10 @@ You can embed a link to the requests queue or to a queue topic nested under a re
 &nbsp;
 
 &nbsp;
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
+-->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

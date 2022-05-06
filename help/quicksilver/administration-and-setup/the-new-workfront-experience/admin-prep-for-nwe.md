@@ -6,7 +6,7 @@ As of March 31, 2022, Workfront will no longer support Adobe Workfront Classic. 
 
 | Goal |Deadline |Details  |
 |---|---|---|
-| Test the new Adobe Workfront experiencein your own account |As soon as possible |See [Test the new Workfront experience in your own account](#test-the-new-workfront-experience-in-your-own-account). |
+| Test the new Adobe Workfront experience in your own account |As soon as possible |See [Test the new Workfront experience in your own account](#test-the-new-workfront-experience-in-your-own-account). |
 | 30% of your organization's users are using the the new Adobe Workfront experience |Mid-January 2022 |See [Aim for 30% adoption by mid-January 2022](#aim-for-30-adoption-by-mid-january-2022). |
 | 100% of your organization's users are using the new Adobe Workfront experience |March 31, 2022 |Workfront Classic will not be supported after this date. |
 
@@ -37,7 +37,7 @@ To identify possible configuration changes needed for your transition:
 
    For example, if your organization frequently uses projects with large numbers of tasks, you should explore some of those projects. You might try opening multiple projects at once, update user assignments, or create a project from a template. Anything your users do, do with your own account.
 
-   Consider the following areas when exploring Workfront :
+   Consider the following areas when exploring Workfront:
 
    * Home
    * The Workload Balancer

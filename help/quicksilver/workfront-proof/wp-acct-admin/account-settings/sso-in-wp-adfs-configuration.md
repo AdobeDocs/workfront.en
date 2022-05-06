@@ -77,7 +77,7 @@ If you are a Workfront Proof administrator, you can configure Single Sign-On on 
 
 Once configuration is complete, you need to work in the&nbsp;Relying Party Trusts section in your AD FS.
 
-1. Navigate to **Trust Relationships** > **Relying Party Trusts**&nbsp;folder, then click **Add a Relying Party Trust**to&nbsp;start the configuration wizard.
+1. Navigate to **Trust Relationships** > **Relying Party Trusts**&nbsp;folder, then click **Add a Relying Party Trust** to&nbsp;start the configuration wizard.
 
 1. Select your data source.  
    All metadata for your ProofHQ account is located under a link like this:  

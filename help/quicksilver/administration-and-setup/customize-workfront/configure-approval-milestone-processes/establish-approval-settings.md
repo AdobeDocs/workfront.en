@@ -5,55 +5,46 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Configure global approval settings
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: As an Adobe Workfront administrator, you can determine the global settings for approval processes in Workfront. These settings impact all work item approval processes in your system.
 ---
 
 # Configure global approval settings
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 As an Adobe Workfront administrator, you can determine the global settings for approval processes in Workfront. These settings impact all work item approval processes in your system.
 
 ## Access requirements
 
-You must have the following:
+You must have the following access to perform the steps in this article:
 
 <table cellspacing="0"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a> </td> 
-   <td> <p>Any plan</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>System administrator</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>You must be either a System Administrator or have a Plan license with administrative access to Approval processes</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Configure global approval settings
 
 1. Log in to Workfront as a Workfront administrator . 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click **Processes** > **Approvals** 
+1. Click **Processes** > **Approvals** .  
 
-   <!--
-   <span class="preview">and </span>
-   <strong>Reviews</strong>
-   -->
-
-   .  
-
-1. Click&nbsp;the **Settings** icon ![](assets/gear-icon-settings.png) next to the **Approvals** 
-
-   <!--
-   and Reviews
-   -->
-
-   area name.   
+1. Click&nbsp;the **Settings** icon ![](assets/gear-icon-settings.png) next to the **Approvals** area name.   
 
 1. In the **Approval Settings** box that appears, specify the following information:
 
@@ -87,7 +78,7 @@ You must have the following:
       <td> <p>Select this option to configure whether users can recall an issue or a request pending approval for their first status.&nbsp;You can associate the first status of an issue or a request with an approval process by configuring requests queues. <br></p> <p>For more information about request queues, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.</p> <p>Do one of the following:</p> 
        <ul> 
         <li>Select this option to allow users to recall an approval for the first status of an issue or a request. In this case, they can see a <strong>Recall</strong> button on a new issue or request which is pending approval status. When they select to recall the issue, they will receive a warning that the issue will also be deleted. The issue is deleted after they have confirmed their recalling it.&nbsp;</li> 
-        <li> <p>Deselect this option to prevent users from recalling an issue or a request whose first status is pending approval. They cannot see a <strong>Recall</strong> button on the new issue or request and the approval must be granted. This is the default option.</p> <p>For more information about reviewing items waiting for approval, see <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a>.</p> </li> 
+        <li> <p>Deselect this option to prevent users from recalling an issue or a request whose first status is pending approval. They cannot see a <strong>Recall</strong> button on the new issue or request and the approval must be granted. This is the default option.</p> <p>For more information about reviewing items waiting for approval, see <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals </a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

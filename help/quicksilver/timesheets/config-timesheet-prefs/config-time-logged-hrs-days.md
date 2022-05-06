@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 1. Do either of the following, depending on your objective and your access level in the system:
 
-   * **Planner user configuring time logging for yourself:** Click the Main Menu icon. Click your user avatar, then click the **More** icon next to your name and select **Edit**.
+   * **Planner user configuring time logging for yourself:** Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Then, click the **More** icon next to your name and select **Edit**. 
    
    * **System administrator configuring time logging for others:** Begin editing one or more user accounts, as described in [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

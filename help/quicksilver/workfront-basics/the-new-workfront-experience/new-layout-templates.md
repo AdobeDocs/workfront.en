@@ -4,12 +4,12 @@ content-type: overview
 product-area: templates
 navigation-topic: the-new-workfront-experience
 title: New Layout Templates area in the new Adobe Workfront experience
-description: As a user with administrative access, you can create and edit Layout Templates to customize what your users see in Adobe Workfront. This process was completely redesigned with the new Adobe Workfront experience. The following information explains the key differences and new customization options
+description: As a user with administrative access, you can create and edit Layout Templates to customize what your users see in Adobe Workfront. This process was completely redesigned with the new Adobe Workfront experience. The following information explains the key differences and new customization options.
 ---
 
 # New Layout Templates area in the new Adobe Workfront experience
 
-As a user with administrative access, you can create and edit Layout Templates to customize what your users see in Adobe Workfront. This process was completely redesigned with the new Adobe Workfront experience. The following information explains the key differences and new customization options
+As a user with administrative access, you can create and edit Layout Templates to customize what your users see in Adobe Workfront. This process was completely redesigned with the new Adobe Workfront experience. The following information explains the key differences and new customization options.
 
 For details and instructions on creating and managing Layout Templates in the new Adobe Workfront experience, see [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -27,15 +27,15 @@ Your older Layout Templates created in Adobe Workfront Classic have been automat
 
 * Everything you need is in one simple view. Customization options are not divided by tabs.
 
-  ![](assets/layout-templates-nwe-adobe-branding-350x222.png)
+  ![Layout template page](assets/layout-templates-nwe-adobe-branding-350x177.png)
 
 * All of the Workfront areas you can customize are available in a single drop-down list.
 
-  ![](assets/customize-what-users-see.png)
+  ![Drop-down list to customize tasks](assets/customize-what-users-see.png)
 
 * You can pin work items that your users need often, such as a project or report they view daily.
 
-  ![](assets/add-new-pin-adobe-branding-350x257.png)
+  ![Add pin to layout template](assets/add-new-pin-adobe-branding-350x257.png)
 
 * You can drag to rearrange items throughout Workfront:
 
@@ -44,7 +44,7 @@ Your older Layout Templates created in Adobe Workfront Classic have been automat
    * Fields in Home and Summary
    * Main Menu items
 
-     ![](assets/rearrange-main-menu-items-350x246.png)
+     ![Choose main menu items](assets/rearrange-main-menu-items-350x246.png)
 
 * With a click, you can hide or show items throughout Workfront:
 
@@ -53,9 +53,9 @@ Your older Layout Templates created in Adobe Workfront Classic have been automat
    * Controls in list filters, views, and groupings.
    * Fields in the Details view, including native fields that your users don't need.
 
-     ![](assets/hide-and-show-350x224.png)
+     ![Show or hide items](assets/hide-and-show-350x224.png)
 
 * You can easily access the general customization controls for Layout Templates, always available in the upper-right corner of the screen.
 
-  ![](assets/global-options-nwe-350x199.png)
+  ![General controls for layout templates](assets/global-options-nwe-350x143.png)
 

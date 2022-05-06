@@ -11,6 +11,10 @@ description: One of the benefits of organizing your projects and proofs into fol
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 One of the benefits of organizing your projects and proofs into folders is the ability to manage them on the Folder details page. This page is a control center for your project, from here you can conveniently manage individual proofs and files as well as perform bulk actions.
@@ -77,7 +81,7 @@ You can easily manage your files from the Folder details page.
    ![](assets/more-button-small.png)  
    The options that appear depend on whether the item is a proof or a file.
 
-   * **View proof details**or **View file details**: Opens the Proof details or File details page. For more information, see [Manage Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)&nbsp;or&nbsp; [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * **View proof details** or **View file details**: Opens the Proof details or File details page. For more information, see [Manage Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)&nbsp;or&nbsp; [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
    
    * **Share**: Lets you share the file with additional people. For more information, see [Share Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
    

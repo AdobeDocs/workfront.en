@@ -5,11 +5,15 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Allow Adobe Workfront to run flash on Google Chrome
-description: Chrome has recently changed the way Flash is set up. Unfortunately, this means that even if you allowed Flash to run in the past, your setting will have reverted back to default, which can cause issues within Adobe Workfront. If you have pages that do not load, allowing Flash to run will likely resolve your issue.
+description: This article is deprecated because Flash content no longer plays in any version of Chrome as of 2021
 hidefromtoc: true
 ---
 
 # Allow Adobe Workfront to run flash on Google Chrome
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This article is deprecated because Flash content no longer plays in any version of Chrome as of 2021</p>
+-->
 
 Chrome has recently changed the way Flash is set up. Unfortunately, this means that even if you allowed Flash to run in the past, your setting will have reverted back to default, which can cause issues within Adobe Workfront. If you have pages that do not load, allowing Flash to run will likely resolve your issue.
 

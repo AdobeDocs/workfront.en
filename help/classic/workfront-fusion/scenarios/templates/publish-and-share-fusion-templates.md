@@ -9,6 +9,10 @@ description: When you create a template, your template becomes available for all
 
 # Publish and share Adobe Workfront Fusion templates
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you create a template, your template becomes available for all your team members. If you want to share the template with someone outside of your team, you must publish it first.
 
 For information on creating a template, see [Create new templates in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).

@@ -9,6 +9,10 @@ description: To update the status and the progress of a project you must update 
 
 # Update work on a project
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 To update the status and the progress of a project you must update the status and progress on its tasks. That eventually rolls up to show the progress on the project.
 
 For information about updating work on a project, see the following articles:

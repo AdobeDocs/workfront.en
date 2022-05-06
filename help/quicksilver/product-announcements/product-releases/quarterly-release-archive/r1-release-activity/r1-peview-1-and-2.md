@@ -20,7 +20,7 @@ New options are also available for configuring what happens to hours that are lo
 
 For more information about restoring objects in Workfront, see [Restore deleted items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-For information about how to view projects, tasks, and issues that have been recently restored, see [View restored items](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+For information about how to view projects, tasks, and issues that have been recently restored, see [View restored item](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
 ```<iframe class="mt-media" src="assets/197926164?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 
@@ -32,7 +32,7 @@ Prior to this change, information about approval steps was available only on the
 
 On projects, the approval information is displayed in the header next to the project title. On tasks and issues, the approval information is displayed in the right panel.
 
-For more information, see [Approving work in Adobe Workfront](../../../../review-and-approve-work/manage-approvals/approving-work.md) in&nbsp; [Approving work in Adobe Workfront](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+For more information, see [Approving work](../../../../review-and-approve-work/manage-approvals/approving-work.md) in&nbsp; [Approving work](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ```<iframe class="mt-media" src="assets/197945794?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 

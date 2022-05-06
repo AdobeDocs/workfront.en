@@ -2,11 +2,15 @@
 filename: viewsubmitted-proof-approvals
 product-area: documents
 navigation-topic: approvals
-title: Viewing submitted proof approvals
+title: View submitted proof approvals
 description: Proofing approvals display in the Home area only if your Adobe Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator.
 ---
 
-# Viewing submitted proof approvals
+# View submitted proof approvals
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Proofing approvals display in the Home area&nbsp;only if your Adobe Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator.
 
@@ -32,19 +36,21 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Viewing submitted proof approvals
+## View submitted proof approvals
 
 1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
-1. Select a **Proof** approval.
+1. Click a **Proof** approval in the Work List.
+
+   This opens the proof approval to the right of the Work list.
 
    >[!NOTE]
    >

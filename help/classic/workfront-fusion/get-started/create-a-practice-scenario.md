@@ -3,17 +3,21 @@ filename: create-a-practice-scenario
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Create a practice integration scenario
+title: Create a practice integration scenario in Adobe Workfront Fusion
 description: This article describes how to create an integration scenario with Adobe Workfront Fusion. Integration scenarios connect separate apps together, allowing your data to flow through different applications.
 ---
 
-# Create a practice integration scenario
+# Create a practice integration scenario in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 This article describes how to create an integration scenario with Adobe Workfront Fusion. Integration scenarios connect separate apps together, allowing your data to flow through different applications.
 
 To create an integration scenario, your organization must have a Workfront Fusion for Work Automation and Integration license.
 
-For instructions on building a Workfront-only automation scenario, see [Create a practice automation scenario](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
+For instructions on building a Workfront-only automation scenario, see [Create a practice automation scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 
 For more information on Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -59,7 +63,7 @@ You must have the following access to use the functionality in this article:
 
 ## Create a practice scenario
 
-The role of Adobe Workfront Fusion is to seamlessly connect your apps and web services and automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
+The role of Adobe Workfront Fusion is to automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
 
 A scenario is comprised of a series of modules that indicate how data should be transformed within an app or transferred between apps and web services.
 To explain how to create a scenario and reinforce best practices as you learn to use Workfront Fusion, this article takes you through the process step-by-step. We will create a scenario that creates a new record in Workfront for every row in a Google Sheets spreadsheet.
@@ -248,8 +252,8 @@ We chose to have 1 row from the spreadsheet processed to create a project in Wor
 
    You can learn more about how to read scenario execution information in the following articles:
 
-   * For general information, see [Scenario execution flow](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-   * For information about processed bundles, see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * For general information, see [Scenario execution flow in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   * For information about processed bundles, see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 1. Go to Workfront and search for "soho downtown loft" to see the project that the scenario created. This was the last row in the spreadsheet.
 1. In Workfront Fusion, click **Save** ![](assets/save-icon.png) near the lower-left corner to save your progress on the scenario.
@@ -301,6 +305,6 @@ We still need to configure the scenario to create projects for all the other row
 
 If this were a scenario you would be using for real data, the last thing you would do is activate it. After you activate a scenario, by default, it runs every 15 minutes. You can change this by defining when and how often you want it to run.
 
-For more information about activating scenarios, see [Activate or deactivate a scenario](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+For more information about activating scenarios, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
-For information about schedules, see [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+For information about schedules, see [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md).

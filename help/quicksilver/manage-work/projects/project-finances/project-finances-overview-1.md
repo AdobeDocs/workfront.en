@@ -13,6 +13,18 @@ Keeping track of project finances is critical to managing your projects.
 
 As the project manager, you can manually update some financial fields. Other financial data is calculated automatically by Adobe Workfront.
 
+You can track your finances with a number of fields that capture budget, cost, and revenue in&nbsp;Workfront.
+
+For more information, also see the following articles:
+
+* [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) 
+* [Project finances](../../../manage-work/projects/project-finances/project-finances-overview.md) 
+* [Project finances overview](#) 
+* [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md) 
+* [Manage task finances in the Task Details section](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+
+## How Workfront calculates finances
+
 You can keep track of financial fields at the project and task level in Workfront. You can keep track of limited financial fields for issues.
 
 The following table shows some of the finances that you can keep track of in Workfront and for which object:

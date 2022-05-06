@@ -3,11 +3,15 @@ filename: view-display-original-issue-info-task-project-list
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: display original issue information on task and project list
+title: View: display original issue information on task and project lists
 description: You can display the following information from the original issue on a view of task and project lists, after the issue has been converted to the tasks and projects in the list:
 ---
 
-# View: display original issue information on task and project list
+# View: display original issue information on task and project lists
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can display the following information from the original issue on a view of task and project lists, after the issue has been converted to the tasks and projects in the list:
 
@@ -23,6 +27,7 @@ For more information about including additional issue information on projects an
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: no longer needed - all fields are now in the UI</p>
 <p>Applying this view is identical for tasks and projects.</p>
 <p>To apply this view to a task list:</p>
 <ol>

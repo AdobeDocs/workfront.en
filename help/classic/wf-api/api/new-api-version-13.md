@@ -8,6 +8,10 @@ description: Adobe Workfront released API version 13 on April 22, 2021. API vers
 
 # What's new in API version 13
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront released API version 13 on April 22, 2021. API version 13 features the following changes from version 12.
 
 ## Added resources

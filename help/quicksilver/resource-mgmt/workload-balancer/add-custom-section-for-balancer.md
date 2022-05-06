@@ -3,11 +3,15 @@ filename: add-custom-section-for-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Add a custom section to display the Workload Balancer
-description: The title might need to change to indicate what objects this is possible on?! - "Display the Workload Balancer in a custom section"??
+description: NOTE: finish writing this article and publish it - some of the steps are in this article: Share the Workload Balancer with a link - maybe move those here and link from here to the other article?!
 hidefromtoc: true
 ---
 
 # Add a custom section to display the Workload Balancer
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE:&nbsp;finish writing this article and publish it - some of the steps are in this article: <a href="../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md" class="MCXref xref" xrefformat="{para}">Share the Workload Balancer with a link</a> - maybe move those here and link from here to the other article?!&nbsp;</p>
+-->
 
 The title might need to change to indicate what objects this is possible on?!&nbsp;- "Display the Workload Balancer in a custom section"??
 

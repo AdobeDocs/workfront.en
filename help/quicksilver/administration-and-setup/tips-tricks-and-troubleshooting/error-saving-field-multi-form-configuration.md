@@ -2,6 +2,10 @@
 
 # Error saving custom field: "There is a slight problem. [That field] is used in a multi-form configuration ..."
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the content in this article replaces the content in this article: /Content/Administration and Setup/Tips, Tricks, and Troubleshooting/error-message-field-used-in-multi-form-config.html; keep this drafted and just add the content to the other article; This is not added to the TOC)</p>
+-->
+
 ## Problem
 
 When you change a calculation on a calculated custom field on a custom form, Adobe Workfront might display the following warning:
@@ -67,6 +71,12 @@ You must have the following to perform the steps in this article:
    Field 2 = Yes + Field 3 = Yes (no objects, for example)
 
 1. Open each of the objects found in Step 12 and remove one of the two forms, then save the object.
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: ensure this step number stays accurate)
+   </MadCap:conditionalText>
+   -->
 
    >[!NOTE]
    >

@@ -2,11 +2,15 @@
 filename: manage-allocation-hours-on-tasks
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Manage allocation hours on tasks
+title: Manage user and role allocation hours on tasks
 description: When assigning users or roles to a task, they are allocated to work a certain number of hours to complete the task. You can manually modify the amount of hours that each user or job role is allocated when they are assigned to a task, when the task Duration Type is Simple.
 ---
 
-# Manage allocation hours on tasks
+# Manage user and role allocation hours on tasks
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 When assigning users or roles to a task, they are allocated to work a certain number of hours to complete the task. You can manually modify the amount of hours that each user or job role is allocated when they are assigned to a task, when the task&nbsp;Duration&nbsp;Type is Simple.
 
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to the task</p> <p>Edit permissions to update allocation hours in the Edit Task box</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to the task</p> <p>Edit permissions to update allocation hours in the Edit Task box</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 >[!IMPORTANT]
 >
->After you manually modify assignment allocations on tasks, the Planned Hours of the tasks might update accordingly. For more information, see the section [Update task Planned Hours when managing user allocations](../../../manage-work/tasks/task-information/planned-hours.md#update) in the article [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
+>After you manually modify the allocations for each assignment on tasks, the Planned Hours of the tasks might update accordingly. For more information, see the section [Update task Planned Hours when managing user allocations](../../../manage-work/tasks/task-information/planned-hours.md#update) in the article [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * The total of hours allocated to individual resources assigned to the task represents the Planned Hours of the task. 
 * If there is one user or role assignment to a task, the amount of hours allocated to the user or role matches the Planned Hours of the task.
@@ -57,7 +61,7 @@ You must have the following access to perform the steps in this article:
 * You cannot manually modify the user or job role allocation for issues. 
 * You can also manage daily, weekly, or monthly allocations of users to tasks or issues by using the Workload Balancer. For more information, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-## Modify the allocation hours for a task
+## Modify the user or role allocation hours for a task
 
 1. Go to a task for whose assignments you want to change the allocation hours.
 1. Click **Edit Task**.

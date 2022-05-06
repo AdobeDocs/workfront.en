@@ -8,6 +8,10 @@ description: Returns the OAuth2 refresh token and access token for an authentica
 
 # Get OAuth2 Tokens
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Getting OAuth2 Tokens (needed OAuth2 authentication only)
 
 Returns the OAuth2 refresh token and access token for an authenticated user. This is invoked once when the the user provisions a Document Provider. Subsequent calls are made to get an updated access token.

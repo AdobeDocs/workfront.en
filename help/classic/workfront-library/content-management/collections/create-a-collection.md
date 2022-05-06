@@ -9,6 +9,10 @@ description: You can organize content by adding it to collections that you have 
 
 # Create a collection in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can organize content by adding it to collections that you have created or that have been shared with you. For information on sharing collections, see [Share a Workfront Library item with other users](../../../workfront-library/content-management/share-an-asset-with-users.md).
 
 When you create a collection, you have the option to select the image you want as the collection cover image. If you don't select a cover image, the collection thumbnail is gray as long as the collection remains empty. When you add content to the collection, Workfront Library randomly selects a cover image from the added content. If a collection contains only folders, the cover remains gray.

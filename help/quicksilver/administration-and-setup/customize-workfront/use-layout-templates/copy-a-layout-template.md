@@ -18,7 +18,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

@@ -1,5 +1,5 @@
 ---
-filename: wf-adobe-xd
+filename: _wf-adobe-xd
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic

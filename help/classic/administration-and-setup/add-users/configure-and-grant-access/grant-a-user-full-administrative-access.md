@@ -4,6 +4,10 @@
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
 >For instructions on granting full administrator access in the Adobe Admin Console:
@@ -40,7 +44,7 @@ As an Adobe Workfront administrator, you can create another Workfront administra
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

@@ -13,7 +13,7 @@ The information on this page refers to functionality that is available only in t
 You can set up Report Delivery options in any Adobe Workfront test environment.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Workfront test environments, see the "Workfront Testing Environments" section.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Workfront test environments, see the "Workfront Testing Environments" section. (NOTE:&nbsp;drafted - link this section)</p>
 -->
 
 While the test environments are meant to function as close as possible to your production environment, some functionality differs from your production environment.
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ When you schedule a report for delivery in the Preview environment, the followin
 
 Whether a delivered report is produced or not in the Custom Refresh Sandbox depends on whether the Receive emails from this test environment setting is enabled or not.
 
-For information about enabling emails from the Sandbox environment see the section [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#managing-emails-in-preview) in the article [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For information about enabling emails from the Preview environment see the section [View and modify your email notification settings](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) in the article [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/receive-emails-from-sandbox-setting-(1)-350x223.png)
 

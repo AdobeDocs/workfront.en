@@ -50,7 +50,7 @@ To transfer a single asset:
    >
    >You cannot transfer folders.
 
-1. Click the **Asset Actions**icon ![](assets/library-document-icon.png), then click **Transfer asset ownership**.
+1. Click the **Asset Actions** icon ![](assets/library-document-icon.png), then click **Transfer asset ownership**.
 
 1. In the Transfer asset ownership dialog box, begin typing the name of the user that you want to transfer assets to. Select the name when it appears in the drop-down list.
 1. Click **Transfer**.

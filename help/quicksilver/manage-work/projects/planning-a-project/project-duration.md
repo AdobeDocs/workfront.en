@@ -31,6 +31,10 @@ The duration of the project counts the number of days between the two task dates
 
 There are two types of Project Duration and the formulas by which&nbsp;Workfront calculates them:
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Check these formulas? Should they be divided by the hours per day?!) </p>
+-->
+
 * **Planned Duration**:&nbsp;
 
   ```

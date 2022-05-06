@@ -3,18 +3,22 @@ filename: task-information-in-overview
 product-area: projects
 navigation-topic: manage-tasks
 title: Manage task information in the Task Details Overview area
-description: You can view or edit the information of a task by accessing the Overview area of the Task Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a task see Edit tasks.
+description: (NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)
 ---
 
 # Manage task information in the Task Details Overview area
 
-You can view or edit the information of a task by accessing the Overview area of the Task&nbsp;Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
+-->
+
+You can view or edit the information of a task by accessing the Overview area of the Task&nbsp;Details  section . There is a limited number of fields that you can view or edit in this area. For information about editing all information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 This article describes how to view or edit information in the Overview area of Task Details. For information about updating other areas of Task Details , see the following articles:
 
 * [Manage task finances in the Task Details section](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md) 
 * [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md) 
-* [Manage custom forms attached to objects in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
+* [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
 ## Access requirements
 
@@ -22,7 +26,7 @@ You must have the following:
 
 <table cellspacing="15"> 
  <caption style="text-align: left;">
-  *To find out what plan, license type, or access you have, contact your Workfront administrator.
+   *To find out what plan, license type, or access you have, contact your Workfront administrator. 
  </caption> 
  <col> 
  <col> 
@@ -37,11 +41,11 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>View or higher access to Projects and Tasks</p> <p>Note: If you have the correct access level but still can't edit the Details section of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects and Tasks</p> <p>Note: If you have the correct access level but still can't edit the Details  section  of the task, ask your Adobe Workfront if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> <p>Manage permissions for the task to update information in the Details section.</p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information  in the Details section . </p> <p>Manage permissions for the task to update information  in the Details section .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +53,7 @@ You must have the following:
 ## Edit task information in the Task Details Overview section
 
 1. Go to a task that you want to view or edit.
-1. Click **Task Details** in the left panel.
+1. Click **Task Details** in the left panel .
 1. Go to the **Overview** area to view more information about the task.
 
    By default, Overview is the first area on the Task Details section and it is expanded.
@@ -180,7 +184,8 @@ You must have the following:
          <p>Note: Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> 
          <p> <!--
            <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-            You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. 
+             You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.)<![CDATA[
+    ]]> 
            </MadCap:conditionalText>
           --></p> 
         </div> 
@@ -208,7 +213,7 @@ You must have the following:
        <div> 
         <p>The amount of effort required to complete the task. Your project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:</p> 
         <ul> 
-         <li> <p>The task has a Simple Duration&nbsp;Type. </p> <p>Tip: If you update the task Duration&nbsp;Type, this field becomes dimmed. </p> </li> 
+         <li> <p>The task has a Simple Duration&nbsp;Type. </p> <p>Tip: If you change the task Duration&nbsp;Type, this field becomes dimmed. </p> </li> 
          <li>Your project manager has enabled the Use Work Effort to automatically calculate task Planned Hours field on the project. </li> 
         </ul> 
         <p>Select from the following options:</p> 
@@ -317,6 +322,10 @@ You must have the following:
 1. 
 
    <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted, to keep it focused JUST on the Overview section and not others.) </p>
+   -->
+
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Custom Forms</strong> to add or forms or edit information on the existing custom forms.&nbsp;</p>
    -->
 
@@ -333,7 +342,7 @@ You must have the following:
      -->
 
      <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md" class="MCXref xref">Manage custom forms attached to objects in Adobe Workfront</a> </li>   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md" class="MCXref xref">Manage custom forms attached to objects</a> </li>   
      -->
 
 1. 

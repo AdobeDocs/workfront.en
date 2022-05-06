@@ -23,12 +23,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Adobe Workfront license*</td> 
-    <td> <p>Work or Plan</p> </td> 
-   </tr>
-  --> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or Plan</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
@@ -39,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to the object you want to view. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access to the object you want to view. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +55,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/menu-350x627.png)
+   ![](assets/menu-350x440.png)
 
 1. Select the work item you want to view.
 
@@ -79,7 +78,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/menu-350x627.png)
+   ![](assets/menu-350x440.png)
 
 1. Select the work item you want to view.
 
@@ -100,7 +99,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/menu-350x627.png)
+   ![](assets/menu-350x440.png)
 
 1. Select the work item you want to view.
 

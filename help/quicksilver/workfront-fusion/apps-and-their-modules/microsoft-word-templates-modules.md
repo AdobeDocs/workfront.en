@@ -6,15 +6,15 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Word Template modules
-description: In a Adobe Workfront Fusion scenario, you can connect your MIcrosoft Word Templates account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use MIcrosoft Word Templates, as well as connect it to to multiple third-party applications and services.
 hidefromtoc: true
 ---
 
 # Microsoft Word Template modules
 
-In a Adobe Workfront Fusion scenario, you can connect your MIcrosoft Word Templates account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use MIcrosoft Word Templates, as well as connect it to to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 

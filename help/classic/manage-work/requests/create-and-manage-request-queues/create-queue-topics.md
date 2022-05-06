@@ -8,6 +8,10 @@ description: Queue Topics work in conjunction with Routing Rules to automaticall
 
 # Create Queue Topics
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
 
 There is no limit to the number of Queue Topics that can be assigned to a Topic Group or to a project. Queue Topics are a reportable object type.
@@ -34,7 +38,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +67,6 @@ You must have the following:
 1. Click the **Queue Topics** subtab. 
 1. Click **New Queue Topic**.
 1. On the **New Queue Topic** form, specify the following:
-1. 
 
    <table cellspacing="0"> 
     <col> 
@@ -118,8 +121,9 @@ You must have the following:
     </tbody> 
    </table>
 
-1. ![](assets/screen-shot-2016-09-07-at-10.20.51-am-350x258.png)
+   ![](assets/screen-shot-2016-09-07-at-10.20.51-am-350x258.png)
 
+1. &nbsp;
 1. Click**Save**.   
    The Queue Topic is now available to use and is visible in the Requests area of Workfront, after a Request Queue and a Topic Group are selected.
 

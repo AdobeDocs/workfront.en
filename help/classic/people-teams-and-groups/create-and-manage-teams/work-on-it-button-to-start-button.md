@@ -8,6 +8,10 @@ description: Adobe Workfront's default configuration includes a Work On It butto
 
 # Replace the Work On It button with a Start button
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront's default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to. When you click Work On It on items assigned to you, you signal to other users that you received the work and acknowledge that you'll work on it. However, the Work On It button doesn't update the task or issue status to signal that work has actually started.
 
 You can replace the Work On It button with a Start button for a team you belong to. In this case, you click the Start button instead of Work On It, which automatically updates the status and the Actual Start Date of the work item, signaling that you started work. For information about the setting of which team might affect your changes in the Work On It button, see the section [Configure the Start button](#configure-the-start-button) in this article.

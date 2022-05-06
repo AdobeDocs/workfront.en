@@ -2,10 +2,14 @@
 filename: export-billing-record-details
 navigation-topic: financials
 title: Export billing record details as a PDF file
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: (NOTE: we incorporated this info in the edit object articles; keeping it stand alone if more things get added to the export one day; only available in NWE)
 ---
 
 # Export billing record details as a PDF file
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: we incorporated this info in the edit object articles; keeping it stand alone if more things get added to the export one day; only available in NWE)</p>
+-->
 
 The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
@@ -35,7 +39,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

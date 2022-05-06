@@ -10,6 +10,10 @@ description: Video:
 
 # Custom forms overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 **Video**:
 
 See this video overview of custom forms.
@@ -22,44 +26,9 @@ For example, users can attach a custom form like the one pictured below to proje
 
 ![](assets/custom-form-350x269.png)
 
-The custom fields in a custom form are in addition to the built in fields that Workfront provides for each object type. You can customize them to fit your environment and work flow.
+## Custom fields and widgets
 
-For instructions on creating a custom form, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-## Adding custom forms to objects
-
-A custom form can be associated with any of the following object types:
-
-* Project (including Business Cases)
-* Task
-* Issue
-* Company
-* Document
-* User
-* Program
-* Portfolio
-* Expense
-* Group
-
-For information about associating a custom form with an 
-
-<!--
-<span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">one or more</span>
--->
-
-object type
-
-<!--
-<span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">s</span>
--->
-
-, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-For information about attaching a custom form to an object, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-
-## Fields in a custom form
-
-Custom fields are the building blocks of a custom form. You can use them to prompt collaborators working on a Workfront object for the information needed on that object.
+Workfront provides many built-in fields for each object type. In a custom form, you can create additional fields that prompt users for information that is unique to their workflows. These custom fields are the building blocks of a custom form.
 
 You can add the following types of custom fields to a custom form in Workfront:
 
@@ -72,16 +41,26 @@ You can add the following types of custom fields to a custom form in Workfront:
 * Checkboxes
 * Radio buttons
 * Descriptive text
-* Section break
 
 For more information, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
-<!--
-<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Image widgets in custom forms</h2>
-<p>You can add an image widget that displays in your custom form when users fill it out.</p>
-<p>For example, next to a custom field where users need to type a serial number found on a piece of equipment, you could include a diagram or photo showing where to find the number on the equipment.</p>
-<p>For more information, see Add an image or edit its properties in a custom form.</p>
-</div>
--->
+For instructions on creating a custom form, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
+## Objects where users can attach a custom form
+
+Users can attach custom forms to the following object types:
+
+* Project (including Business Cases)
+* Task
+* Issue
+* Company
+* Document
+* User
+* Program
+* Portfolio
+* Expense
+* Group
+
+For instructions, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+Users who create a custom form can configure it to work with more than one object type. For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).

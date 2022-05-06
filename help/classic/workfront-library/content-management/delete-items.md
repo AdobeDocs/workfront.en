@@ -9,6 +9,10 @@ description: As a Workfront Library administrator, you can delete assets, folder
 
 # Delete items from Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a Workfront Library administrator, you can delete assets, folders, and collections in Workfront Library.
 
 You can delete only the active (or current) version of an asset in Workfront Library. Older versions of a deleted asset remain in Workfront Library and cannot be deleted.

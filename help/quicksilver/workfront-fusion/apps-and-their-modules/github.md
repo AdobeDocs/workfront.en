@@ -6,12 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: GitHub modules
-description: In a Adobe Workfront Fusion scenario, you can connect your GitHub account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use GitHub, as well as connect it to to multiple third-party applications and services.
 ---
 
 # GitHub modules
 
-In a Adobe Workfront Fusion scenario, you can connect your GitHub account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use GitHub, as well as connect it to to multiple third-party applications and services.
 
 ## Access requirements
 
@@ -59,13 +59,13 @@ To use GitHub modules, you must hava a GitHub account.
 
 ## Connect GitHub to Workfront Fusion
 
-For instructions about connecting your GitHub account to Workfront Fusion, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+For instructions about connecting your GitHub account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## GitHub modules and their fields.
 
 When you configure GitHub modules, Workfront Fusion displays the fields listed below. Along with these, additional GitHub fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -90,7 +90,7 @@ This module triggers when a new issue is added or an existing issue is modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">I want to watch</td> 
@@ -140,7 +140,7 @@ This module triggers when a repository is created or modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned repositories</td> 
@@ -163,7 +163,7 @@ This module triggers when a new fork is created.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -186,7 +186,7 @@ This module triggers when a new comment is added or an existing comment is modif
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -217,7 +217,7 @@ This module triggers when a new pull request is added or an existing pull reques
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -261,7 +261,7 @@ This module searches for issues that match your search criteria.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned issues</td> 
@@ -279,7 +279,7 @@ This module searches for issues that match your search criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Sort direction</td> 
-   <td> <p>Select ascending or descending. </p> <p>For dates, selecting <strong>descending</strong>will return the most recent date first. </p> <p>For number of comments, selecting <strong>descending</strong>will return the issue with the highest number of comments first.</p> </td> 
+   <td> <p>Select ascending or descending. </p> <p>For dates, selecting <strong>descending</strong> will return the most recent date first. </p> <p>For number of comments, selecting <strong>descending</strong> will return the issue with the highest number of comments first.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query</td> 
@@ -298,7 +298,7 @@ This module creates a new issue in the selected repository.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -337,7 +337,7 @@ This module updates an existing GitHub issue.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -384,7 +384,7 @@ This module retrieves details about the specified issue
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -407,7 +407,7 @@ This module adds assignees to the specified issue
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -434,7 +434,7 @@ This module removes assignees from the specified issue.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -461,7 +461,7 @@ This module adds labels to an issue. Labels are defined on the repository level,
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -488,7 +488,7 @@ This module removes a single label from an issue.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -515,7 +515,7 @@ This module creates a comment on the specified issue.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -542,7 +542,7 @@ This module lists all comments on the specified issue.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your GitHub account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Repository</td> 
@@ -554,7 +554,7 @@ This module lists all comments on the specified issue.
   </tr> 
   <tr> 
    <td role="rowheader">Since</td> 
-   <td>The module will return comments created after this date. For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion</a>.</td> 
+   <td>The module will return comments created after this date. For a list of supported date formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned comments</td> 

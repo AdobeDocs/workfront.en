@@ -8,11 +8,15 @@ description: You can share a proof document with internal and external recipient
 
 # Share and download proofs in the Adobe Workfront mobile app
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can share a proof document with internal and external recipients directly from the mobile app. You can also download a proof document to your mobile device.
 
 >[!NOTE]
 >
->All recipients must have access in Workfront to review proofs. For information about licenses and access levels, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+>All recipients must have access in Workfront to review proofs. For information about licenses and access levels, see .
 
 ## Share the proof
 

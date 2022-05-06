@@ -9,6 +9,10 @@ description: Changes have been made to the way that Workfront stores status obje
 
 # Core API&nbsp;changes: Status search responses
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Changes have been made to the way that Workfront stores status objects. These changes do not affect how status search requests are made, but will affect the response returned by API requests that include a search for status objects by returning an incomplete list of group statuses.
 
 ## Best practices

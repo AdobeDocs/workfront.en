@@ -9,6 +9,10 @@ description: Groups and teams are collections of users in Adobe Workfront.
 
 # Groups vs. teams in Adobe Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Groups and teams are collections of users in Adobe Workfront.
 
 Although you can designate just one Home Group and one Home Team per user, each user can belong to an unlimited number of teams or groups. However, to avoid confusion, we recommend that each user belong to a limited number of teams and groups.

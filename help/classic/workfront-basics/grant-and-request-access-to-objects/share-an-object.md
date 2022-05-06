@@ -2,11 +2,15 @@
 filename: share-an-object
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Share an object in Adobe Workfront
+title: Share an object
 description: Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see Create or modify custom access levels.
 ---
 
-# Share an object in Adobe Workfront
+# Share an object
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -14,7 +18,7 @@ Along with the access level that users are granted, you can also grant them perm
 
 Permissions are specific to one item in Workfront and define what actions one can take on that item.
 
-For information about sharing permissions on objects, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+For information about sharing permissions on objects, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
@@ -33,12 +37,13 @@ For information about how to share all other objects in Workfront, also see the 
 * For reports, dashboards, and calendars, see the following articles:
 
    * [Share a report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+   * [Share a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-  Additionally, see [Share reports, dashboards, and calendars in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) for general information about sharing reports, dashboards, and calendars.&nbsp;
+  Additionally, see [Share reports, dashboards, and calendars](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) for general information about sharing reports, dashboards, and calendars.&nbsp;
 
-* For filters, views, and groupings, see [Share a filter, view, or grouping in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* For filters, views, and groupings, see [Share a filter, view, or grouping](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* For document folders, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
 ## Access requirements
 
@@ -62,7 +67,7 @@ You must have the following to share objects:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to the objects you want to share</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher to the objects you want to share</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,10 +78,10 @@ You must have the following to share objects:
 
 1. Go to the object you want to share.
 
-   For information about which objects can be shared, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 1. Do either&nbsp;of the following, depending on the type of object you are sharing:
 
-   * ```When sharing a project, task, issue, portfolio, or program,```click the **Actions** menu, then click&nbsp;**Sharing.** 
+   * ```When sharing a project, task, issue, portfolio, or program,``` click the **Actions** menu, then click&nbsp;**Sharing.** 
      For example, if you are sharing a project, click **Project Actions**, then**Sharing.** 
      ![](assets/screen-shot-2013-12-04-at-1.07.49-pm.png)
 
@@ -85,11 +90,20 @@ You must have the following to share objects:
      ![](assets/sharing-document-link-highlighted-classic-350x257.png)
 
      <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>When sharing a document that does not contain a proof,</span> select the document that you want to share, then click <strong>Share</strong>&nbsp;> <strong>Document</strong>.<br><note type="tip">   
+     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     <p>(NOTE: This annotation is for the image above (I can only add an annotation to text, not a blank line or image). I ran previews for both Classic and NWE, and the image does not appear in either version. Is it supposed to be Draft (vs NWE) conditioned?</p>   
+     <p>Lisa, yes, this is drafted - it's no longet valid because this comment is actually for bulk sharing and not for docs with no proofs; bulk sharing is documented below and so this paragraph is not needed. Left here just for reference and audit trail.)</p>   
+     </div>   
+     -->
+
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>(NOTE: drafted, this does not apply anymore - see bulk sharing also and added documents as a separate bullet above, if needed (classic)) When sharing a document that does not contain a proof,</span> select the document that you want to share, then click <strong>Share</strong>&nbsp;> <strong>Document</strong>.<br><note type="tip">   
      You can share multiple documents at the same time by holding the Shift key to select multiple documents, then clicking   
      <strong>Share</strong>.   
      </note><br><img src="assets/sharing-document-350x193.png" alt="" style="width: 350;height: 193;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>   
      -->
+
+   &nbsp;
 
 1. In the **Give <Object Name> access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
@@ -110,6 +124,13 @@ You must have the following to share objects:
    >
 
 1. (Optional) Repeat step 3 for each user, team, role, or group to whom you want to grant access to the object.
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: esnure this stays accurate; in the editor it looks like step 4 but one step is conditioned entirely for one version or another)
+   </MadCap:conditionalText>
+   -->
+
 1. Specify the permissions for each user, team, role,&nbsp;group, or company that you added in Step 3 by clicking&nbsp;the drop-down menu, then selecting the permission level that you want to grant.
 
    The following options are available:
@@ -142,7 +163,7 @@ You must have the following to share objects:
 1. (Optional) Click **Advanced Options**&nbsp;to configure specific permissions&nbsp;on the object.
 
    View, Manage and Contribute have different advanced options depending on the selected object.  
-   For more information about the permissions levels, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   For more information about the permissions levels, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
    ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
@@ -158,7 +179,14 @@ You must have the following to share objects:
    >[!NOTE]
    >
    >The project access template overrides the sharing defaults granted to you by the Workfront administrator in your Access Level.   
-   >For more information about specifying sharing defaults for projects in the Access Level, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)&nbsp;
+   >For more information about specifying sharing defaults for projects in the Access Level, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)&nbsp;.    >
+   >
+   ><!--   >
+   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
+   >(NOTE: (this note also appears in Understanding Project Permissions.))   >
+   ></MadCap:conditionalText>   >
+   >-->   >
+   >
 
    You can specify permissions on the projects that will be created from a template when you share the template.&nbsp;For more information, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
@@ -189,7 +217,7 @@ To share objects in bulk:
 
 1. Navigate to a list of objects.
 1. Select&nbsp;two or more objects in the list.
-1. Click&nbsp;**Share**.   
+1. Click&nbsp; **Share**.    
    Users who already have access to the object&nbsp;are not listed as available when bulk sharing.
 
    >[!NOTE]
@@ -202,6 +230,13 @@ To share objects in bulk:
 
    ![](assets/screen-shot-2014-05-29-at-2.54.51-pm-350x405.png)
 
-1. Continue sharing the selected objects as described in steps 4-9 in the section [Share a single object](#share-a-single-object) in this article. 
+1. Continue sharing the selected objects as described in steps 4-9 in the section [Share a single object](#share-a-single-object) in this article.
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: ensure these steps stay accurate; always look at them in the viewer; because of condiitoning, the steps numbers in the editor are different!!!!!!*****)
+   </MadCap:conditionalText>
+   -->
+
 1. Click **Save**.
 

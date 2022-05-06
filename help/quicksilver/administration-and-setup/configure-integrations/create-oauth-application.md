@@ -37,12 +37,12 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan or higher</p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. </p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. </p>
     --> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> </td> 
@@ -60,7 +60,64 @@ When you create an OAuth2 app for ClientApp, you are essentially telling Workfro
 
 ## Create an OAuth2 application
 
-### Create an OAuth2 application using server authentication (JWT flow)
+When creating an OAuth2 application, choose the type of application that best meets the needs of your integration.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Application type</th> 
+   <th>Best for</th> 
+   <th>Authentication method</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Machine to Machine Application</p> </td> 
+   <td> <p>Best for CLIs, daemons, or scripts running on your server</p> <p>Examples:</p> 
+    <ul> 
+     <li> <p>Shell </p> </li> 
+     <li> <p>Python</p> </li> 
+    </ul> </td> 
+   <td> <p>Authentication through JSON Web Token with public/private key-pair encoding.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Single Page Web Application</p> </td> 
+   <td> <p>Best for mobile or single-page web applications</p> <p>Examples:</p> 
+    <ul> 
+     <li> <p>Javascript</p> </li> 
+     <li> <p>Angular</p> </li> 
+     <li> <p> React</p> </li> 
+     <li> <p>Vue</p> </li> 
+    </ul> </td> 
+   <td> <p>Authentication through OAuth 2.0 Authorization Code flow with Proof Key for Code Exchange (PKCE).</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Web Application</p> </td> 
+   <td> <p>Best for server-side applications that handle credentials and tokens on the server</p> <p>Examples:</p> 
+    <ul> 
+     <li> <p>Go</p> </li> 
+     <li> <p>Java</p> </li> 
+     <li> <p>ASP.Net</p> </li> 
+     <li> <p>Node.js</p> </li> 
+     <li> <p>PHP</p> </li> 
+    </ul> </td> 
+   <td> <p>Authentication through OAuth 2.0 Authorization Code flow.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>You can have up to ten OAuth2 Applications total at a time.
+
+* [Create an OAuth2 application using server authentication (JWT flow)](#create-an-oauth2-application-using-server-authentication-jwt-flow) 
+* [Create an OAuth2 application using user credentials (Authorization code flow)](#create-an-oauth2-application-using-user-credentials-authorization-code-flow) 
+* [Create an OAuth2 single-page web application using PKCE](#create-an-oauth2-single-page-web-application-using-pkce)
+
+### Create an OAuth2 application using server authentication (JWT flow) {#create-an-oauth2-application-using-server-authentication-jwt-flow}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -108,7 +165,9 @@ When you create an OAuth2 app for ClientApp, you are essentially telling Workfro
 
 1. Click **Save**.
 
-### Create an OAuth2 application using user credentials (Authorization code flow)
+For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md).
+
+### Create an OAuth2 application using user credentials (Authorization code flow) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
@@ -143,6 +202,10 @@ When you create an OAuth2 app for ClientApp, you are essentially telling Workfro
        --></td> 
      </tr> 
      <tr data-mc-conditions=""> 
+      <td role="rowheader">Refresh token rotation</td> 
+      <td>Enable this option to issue a new refresh token whenever the refresh token is used. Your application must store the new refresh token after every refresh.</td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
       <td role="rowheader">Absolute refresh token expiration</td> 
       <td> <p>Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "No expiration" if you do not want the refresh token to expire.</p> </td> 
      </tr> 
@@ -172,6 +235,65 @@ When you create an OAuth2 app for ClientApp, you are essentially telling Workfro
 1. Click **Save**.
 
 For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
+
+### Create an OAuth2 single-page web application using PKCE {#create-an-oauth2-single-page-web-application-using-pkce}
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. In the left navigation panel, click **System**, then select **OAuth Applications**.
+1. Click **Create app integration**.
+1. In the window that apears, select **Single-page web application**.
+1. Enter a name for the new OAuth2 application, such as "Workfront for ClientApp."
+1. Click **Create**.
+1. Fill in the fields for the new app.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Client ID</td> 
+      <td> <p>This field is automatically generated.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Redirect URLs</td> 
+      <td>Users will be redirected to this path after they have authenticated with Workfront. <!--
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         The path will be appended with the authorization code for access, and must have a protocol.
+        </MadCap:conditionalText>
+       --></td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Refresh token rotation</td> 
+      <td>Enable this option to issue a new refresh token whenever the refresh token is used. Your application must store the new refresh token after every refresh.</td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Absolute refresh token expiration</td> 
+      <td> <p>Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "No expiration" if you do not want the refresh token to expire.</p> </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Inactivity refresh token expiration</td> 
+      <td> <p>Select the amount of time after which, if the user has not been active in your system, their refresh token expires. </p> <p>For example, if the inactivity refresh token expiration is 6 months, and the user does not log in for six months, the refresh token expires even though the absolute refresh token expiration may be set for longer.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Logo</td> 
+      <td>You can add a logo to make this app more identifiable. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td>This is the same name that you gave the app. This field cannot be empty.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Enter a description for the integration.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">App Description URL</td> 
+      <td>This can be a link to an "About us" page or a page with more information about the integration.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Save**.
 
 ## Configure and use the created OAuth2 application
 
@@ -230,6 +352,6 @@ The process for acquiring a refresh token is the same as the procedure discussed
 offline_access
 ```
 
-, which indicated that the request should return a request token along with the authorization code.
+, which indicates that the request should return a request token along with the authorization code.
 
 &nbsp;

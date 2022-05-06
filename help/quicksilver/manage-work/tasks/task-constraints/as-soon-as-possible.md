@@ -23,6 +23,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to As Soon As Possible: </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
@@ -35,6 +36,10 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 -->
 
 ## The difference between Earliest Available Time and As Soon As Possible
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
+-->
 
 The Earliest Available Time constraint differs from the As Soon As Possible constraint when all of the following criteria exist:
 

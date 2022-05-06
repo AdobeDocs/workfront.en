@@ -2,13 +2,13 @@
 filename: aem-asset-integrations
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Adobe Experience Manager asset integrations
-description: You can connect your work with the following AEM Asset Integrations:
+title: Adobe Experience Manager Assets integrations
+description: You can connect your work with the following Adobe Experience Manager Assets Integrations:
 ---
 
-# Adobe Experience Manager asset integrations
+# Adobe Experience Manager Assets integrations
 
-You can connect your work with the following AEM Asset Integrations:
+You can connect your work with the following Adobe Experience Manager Assets Integrations:
 
 * Experience Manager Assets Essentials
 

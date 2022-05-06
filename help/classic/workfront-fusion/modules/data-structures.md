@@ -4,11 +4,15 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Data structures
+title: Data structures in Adobe Workfront Fusion
 description: A data structure is a document that describes in detail the format of the data being transferred to Adobe Workfront Fusion. Based on this document, the scenario editor is able to figure out which module returns or receives which kind of data. The data structure documents are most commonly used for serializing/parsing data formats such as JSON, XML, CSV and others.
 ---
 
-# Data structures
+# Data structures in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 A data structure is a document that describes in detail the format of the data being transferred to Adobe Workfront Fusion. Based on this document, the scenario editor is able to figure out which module returns or receives which kind of data. The data structure documents are most commonly used for serializing/parsing data formats such as JSON, XML, CSV and others.
 

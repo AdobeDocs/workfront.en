@@ -4,10 +4,18 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Resource Scope overview
-description: Resource Scope is a task-level field that indicates whether you can assign other tasks to the user during the timeframe of a certain task. The default value of the Resource Scope field is None and in most cases you cannot edit it.
+description: (NOTE: For production 21.2, format this article for classic ONLY and remove the QS text; tweak TOC and articles attached to this)
 ---
 
 # Resource Scope overview
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: For production 21.2, format this article for classic ONLY and remove the QS text; tweak TOC and articles attached to this) </p>
+-->
 
 Resource Scope is a task-level field that indicates whether you can assign other tasks to the user during the timeframe of a certain task. The default value of the Resource Scope field is None and in most cases you cannot edit it.
 
@@ -37,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

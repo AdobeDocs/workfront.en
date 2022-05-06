@@ -9,6 +9,10 @@ description: This section contains the following subsections:
 
 # Manage work
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This section contains the following subsections:
 
 * [Projects](../manage-work/projects/projects-overview.md) 
@@ -19,6 +23,6 @@ This section contains the following subsections:
 * [Requests](../manage-work/requests/requests-overview.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../manage-work/delegate-work/delegate-work.md" class="MCXref xref" xrefformat="{para}">Delegate work</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Delegate work</li>
   -->
 

@@ -10,9 +10,13 @@ description: When someone shares a custom field with View or Manage access, they
 
 # Access for a shared custom field you want to use
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When someone shares a custom field with View or Manage access, they can configure several other settings to further define that access. If you are a recipient of the field, those settings impact what you can do with the field. You might see the following when you view the field.
 
-For more information about how users configure sharing settings when sharing a custom form, see [Configure sharing for a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+For more information about how users configure sharing settings when sharing a custom form, see [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 <table cellspacing="15"> 
  <col> 

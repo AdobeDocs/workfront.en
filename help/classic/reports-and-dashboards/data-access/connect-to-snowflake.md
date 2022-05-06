@@ -2,11 +2,23 @@
 
 # Connect to Snowflake
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;from&nbsp;Sarah: Work is paused on this product. Synapse now instead?)</p>
+-->
+
 [Intro]
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Snowflake requires 2-factor authentication. May or may not need to mention this.)</p>
+-->
 
 For more information on Data Access, see [Data Access overview](../../reports-and-dashboards/data-access/data-access-overview.md).
 
 ## Access requirements
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;Powerbi perspective; Add row for analytics role in Snowflake?)</p>
+-->
 
 You must have the following to perform the steps in this article:
 
@@ -21,7 +33,7 @@ You must have the following to perform the steps in this article:
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
    <td> <p>[Request, Review, Work, Plan] or higher</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
     --> </td> 
@@ -50,6 +62,10 @@ Before you begin, you must
 
 1. Go to the business intelligence tool you want to connect to Snowflake.
 1. Add the data source with the following information:
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: connect with JDBC instructions to verify what's needed in the table.)</p>
+   -->
 
    <table cellspacing="0"> 
     <col> 

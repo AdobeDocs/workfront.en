@@ -5,10 +5,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 title: Brand your Adobe Workfront instance
-description: As a Workfront administrator, you can brand Workfront with logos in the following places:
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Brand your Adobe Workfront instance
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 As a Workfront administrator, you can brand Workfront with logos in the following places:
 
@@ -22,7 +26,7 @@ As a Workfront administrator, you can brand Workfront with logos in the followin
 
   >[!NOTE]
   >
-  >This is not available if your organization’s Workfront instance uses a custom SSO portal  >
+  >This is not available if your organization’s Workfront instance uses a custom SSO portal.  >
   >
   ><!--  >
   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  >
@@ -30,15 +34,15 @@ As a Workfront administrator, you can brand Workfront with logos in the followin
   ></MadCap:conditionalText>  >
   >-->  >
   >
-  >. See your network or IT administrator if you need more information.
+  >See your network or IT administrator if you need more information.
 
 * Top navigation area
 
-  ![](assets/brand-top-nav-area-nwe-adobe-350x158.jpg)
+  ![](assets/brand-top-nav-area-nwe-adobe-350x221.jpg)
 
 * Main Menu
 
-  ![](assets/brand-main-menu-adobe-350x221.jpg)
+  ![](assets/brand-main-menu-adobe-350x219.jpg)
 
 >[!NOTE]
 >
@@ -46,7 +50,7 @@ As a Workfront administrator, you can brand Workfront with logos in the followin
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -66,6 +70,8 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
+## Brand the login screen
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -115,7 +121,7 @@ You must have the following to perform the steps in this article:
 
    >[!NOTE]
    >
-   >This is not available if your organization’s Workfront instance uses a custom SSO portal   >
+   >This is not available if your organization’s Workfront instance uses a custom SSO portal.   >
    >
    ><!--   >
    ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
@@ -123,7 +129,7 @@ You must have the following to perform the steps in this article:
    ></MadCap:conditionalText>   >
    >-->   >
    >
-   >. See your network or IT administrator if you need more information.
+   >See your network or IT administrator if you need more information.
 
 1. Click **Save**.
 

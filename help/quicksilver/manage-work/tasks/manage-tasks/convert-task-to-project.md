@@ -6,7 +6,7 @@ title: Convert a task to a project
 description: When a task in a project requires a larger amount of effort to complete than you originally planned, you can convert it to a project.
 ---
 
-#  Convert a task to a project
+# Convert a task to a project
 
 When a task in a project requires a larger amount of effort to complete than you originally planned, you can convert it to a project.
 
@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a task</p> <p>View permissions on a template, if converting to a project using a template</p> <p>After creating the project, you have Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a task</p> <p>View permissions on a template, if converting to a project using a template</p> <p>After creating the project, you have Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
 ## Convert a task to a project
 
 1. Go to the task that you want to convert to a project.
-1. Click the **More** icon, then **Convert to Project**. 
+1. Click the **More** icon ![](assets/more-icon.png), then **Convert to Project**. 
 1. Choose either the following options:
 
    * **New Project** 
@@ -80,19 +80,10 @@ You must have the following access to perform the steps in this article:
 
      >[!TIP]
      >
-     >In the Production environment, you can transfer custom form information from the task to the project by adding a duplicate project-type custom form (with the same fields that are on the task-type custom form) to the new project. For more information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+     >If a multi-object custom form attached to the task is configured for use with both tasks and projects, all information saved in the form is retained when you make the conversion.
      >
      >
-     ><!--     >
-     ><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">In the Preview environment, if a multi-object custom form attached to the task is configured for use with both tasks and projects, all information saved in the form is retained when you make the conversion.</p>     >
-     >-->     >
-     >
-     >
-     >
-     ><!--     >
-     ><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the task, the field value from the task is used for the new project. However, if the custom field is blank on the task, the value from the template is used.</p>     >
-     >-->     >
-     >
+     >If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the task, the field value from the task is used for the new project. However, if the custom field is blank on the task, the value from the template is used.
 
 1. Click **Save Changes**.
 

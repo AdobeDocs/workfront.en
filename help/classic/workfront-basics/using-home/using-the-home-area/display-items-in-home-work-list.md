@@ -8,6 +8,10 @@ description: The Work List in the Home area displays all work items that are ass
 
 # Display items in the Work List in the Home area
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Work List in the Home area displays all work items that are assigned to you. You can control which items display in the Work List as described below.
 
 ## Access requirements
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,19 +57,11 @@ You can filter items in the Work List to see only specific types of items. For e
 
    For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
-1. Click the **Filter** drop-down menu.
-1. Select from the various filter options to specify the types of items you want to display.
+1. Click the **Filter** drop-down menu. 
+1. Select from the following filter options to specify the types of items you want to display:
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   Filter options are different depending on which environment you use to access the Home Work List.
-   </MadCap:conditionalText>
-   -->
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   In the Production environment, select from the following filter options:
-   </MadCap:conditionalText>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this and the following step are also repeated in the following article: /Content/Workfront basics/Using Home/Using the Home Area/display-items-in-home-work-list.html) </p>
    -->
 
    <table cellspacing="0"> 
@@ -74,7 +70,7 @@ You can filter items in the Work List to see only specific types of items. For e
     <tbody> 
      <tr> 
       <td role="rowheader">All</td> 
-      <td>Displays and selects all items. This includes tasks, requests, issues, approvals, and personal tasks.</td> 
+      <td>Displays and selects all items. This includes tasks, requests, issues, approvals, and personal tasks. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tasks</td> 
@@ -88,7 +84,7 @@ You can filter items in the Work List to see only specific types of items. For e
       <td role="rowheader">Approvals</td> 
       <td> <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:<br></p> 
        <ul> 
-        <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a> </li> 
+        <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals </a> </li> 
         <li><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </li> 
        </ul> </td> 
      </tr> 
@@ -120,7 +116,7 @@ You can filter items in the Work List to see only specific types of items. For e
      </tr> 
      <tr> 
       <td role="rowheader">Completed</td> 
-      <td>Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks and it is grouped in the Work List according to the week in which they were completed. Approvals are not included.</td> 
+      <td> <p>Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks and it is grouped in the Work List according to the week in which they were completed. Approvals are not included.</p> <p>Completed work is hidden in the Work List unless you select this filter.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -139,7 +135,7 @@ You can filter items in the Work List to see only specific types of items. For e
    >   
    >
 
-1. (Optional) Further organize the Work List, as described in the section [Group and sort by Date, Project, and Priority](#group-and-sort-by-date-project-and-priority). in this article.
+1. (Optional) Further organize the Work List, as described in the section [Group and sort by Date, Project, and Priority](#group-and-sort-by-date-project-and-priority) in this article.
 
 ## Group and sort by Date, Project, and Priority {#group-and-sort-by-date-project-and-priority}
 
@@ -149,7 +145,7 @@ You can group and sort the Work List by Planned Completion Date, Commit Date, Pr
 
    For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
-1. Click the **Sort by** drop-down menu.  
+1. Click the **Sort by** drop-down menu.   
    ![](assets/displaying-work-items-sort-by-350x240.png)
 
 1. Select from the following options:
@@ -185,7 +181,7 @@ You can group and sort the Work List by Planned Completion Date, Commit Date, Pr
      </tr> 
      <tr> 
       <td role="rowheader">My Priority</td> 
-      <td>Items display&nbsp;in an order you choose. For more information, see <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md" class="MCXref xref">Prioritize work in the Home Area</a>.</td> 
+      <td>Items display&nbsp;in an order you choose. For more information, see <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md" class="MCXref xref">Prioritize work in the Home area</a>.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -220,7 +216,7 @@ To search the Work List:
 1. (Optional) Filter the Work List, as described in [Filter the Work List](#filter-the-work-list) and [Group and sort by Date, Project, and Priority](#group-and-sort-by-date-project-and-priority).
 
 1. (Optional) If you are searching for a work item that is already complete, you must configure the Work List to display completed items before searching.
-1. Click the **Search** icon at the top of the Work List.  
+1. Click the **Search** icon at the top of the Work List.   
    ![](assets/displaying-work-items-search-350x224.png)
 
 1. Begin typing the name of the item name you are searching for.   
@@ -248,6 +244,10 @@ By default, the This Week grouping is expanded and all other groupings are colla
    For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
 1. Click the **Expand** or **Collapse** arrow next to any grouping you want to expand or collapse.
+
+   <!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> </span>
+   -->
 
    ![](assets/displaying-work-items-grouping-350x349.png)
 

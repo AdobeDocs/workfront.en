@@ -9,6 +9,10 @@ description: This section documents information about functionality in the Legac
 
 # Legacy Resource Planning
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 This section documents information about functionality in the Legacy Resource Planning tab of the People area of Workfront. For information about the current Resource Planning functionality, see [Resource Planning Overview](../../resource-mgmt/resource-planning/resource-planning-overview.md) . The information in this section refers to functionality that is currently deprecated and will soon be removed from Workfront.
 
 This section contains the following articles:

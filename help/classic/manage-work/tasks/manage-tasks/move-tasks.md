@@ -8,6 +8,10 @@ description: You can move tasks in Adobe Workfront between the following objects
 
 # Move tasks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can move tasks in Adobe Workfront between the following objects:
 
 * An ad hoc task to a project.
@@ -39,7 +43,7 @@ You must have the following access to perform the actions in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks</p> <p>Contribute or higher permissions to the project with ability to Add Tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the tasks</p> <p>Contribute or higher permissions to the project with ability to Add Tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,13 +76,25 @@ To move a task displayed in a task list:
 
    The Move Task box displays
 
-1. Continue with moving the task, as described in the section [Move a task at the task level](#move-a-task-at-the-task-level) starting with Step 4.
+1. Continue with moving the task, as described in the section [Move a task at the task level](#move-a-task-at-the-task-level) starting with Step 4. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: is this still accurate?!)
+   </MadCap:conditionalText>
+   -->
 
 ## Move a task&nbsp;at the task level {#move-a-task-at-the-task-level}
 
 In addition to moving tasks from a list of tasks, you can also move a task at the task level, after you have opened it.&nbsp;
 
-This is helpful for ad hoc tasks, which are not located on a task list of a project. For more information on ad hoc tasks, see [Create ad hoc work items](../../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md).
+This is helpful for ad hoc tasks, which are not located on a task list of a project. For more information on ad hoc tasks, see [Create ad hoc work items](../../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md). 
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: This article is conditioned for classic.)
+</MadCap:conditionalText>
+-->
 
 1. Find a task in your Workfront system by searching for it.
 1. Click the name of the task to open it.&nbsp;

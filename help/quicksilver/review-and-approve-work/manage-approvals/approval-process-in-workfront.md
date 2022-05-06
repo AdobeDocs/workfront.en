@@ -23,7 +23,7 @@ This article contains general information about approval processes associated wi
 
 ## Types of approval processes
 
-If you are an Adobe Workfront administrator, or a user with administrative access to approval processes, you can associate the following approval processes with projects, tasks, and issues:
+If you are an Adobe Workfront administrator, or a user with administrative access to approval processes, you can create the following approval processes for projects, tasks, and issues:
 
 * **A system-level global approval process**: Users can attach these to any of the following:
 
@@ -72,7 +72,17 @@ For information about creating a system-level approval process or a group-level 
      >   
      >
 
-   * The entities associated with an approval process can be users, job roles, or teams. They are responsible for accepting and rejecting the approval.
+   * The entities associated with an approval process can be users, job roles, or teams. Users are ultimately responsible for accepting or rejecting the approval. You can assign approvals to users who fulfill a certain role on the project.&nbsp;For example, you can assign an approval to a Project Owner, or Sponsor.&nbsp;For more information, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+
+     The following scenarios exist:
+
+      * When you assign an approval to job roles, any user on the Project&nbsp;Team who is associated with the job role can make a decision on the approval. The role associated with the approval can be either their Primary&nbsp;Role or any Other Roles.
+
+        For information about the Project Team, see [Project Team overview](../../manage-work/projects/planning-a-project/project-team-overview.md). 
+      
+      * When you assign an approval to a team, any member of that team can make a decision on the approval. The team associated with the approval can be either their Home Team or any of their Other Teams.
+
+        For information about a user's roles and teams, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * When you create a work item, it does not automatically have an approval process attached. You must attach one manually if you want to use one. For information about attaching an approval process to an item, see [Associate a new or existing approval process with work](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md). 
 * The Workfront administrator or a user with administrative access to approval processes can create a system-level global approval processes for use throughout the system. A group administrator with administrative access to approval processes can create a group-level global approval process for use only by a certain group that they manage.
@@ -81,6 +91,8 @@ For information about creating a system-level approval process or a group-level 
   >[!NOTE]
   >
   >You can use a single-use approval process only once for the specific item for which it was created. You can associate global statuses as well as ```group-level statuses``` for single-use approval processes for projects, tasks, issues, ```templates, and template tasks```.
+
+* When attaching a group-level approval process to an item using group-level custom statuses, changing the Group of the project might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see [Group-level approval processes](../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md). For information about creating custom group statuses, see [Create or edit a group status](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md). For information about updating the Group of a project, see [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## The approval process workflow
 

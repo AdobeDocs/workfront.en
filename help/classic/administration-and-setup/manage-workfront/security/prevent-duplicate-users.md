@@ -9,11 +9,15 @@ description: When creating a new user in Adobe Workfront, you can no longer use 
 
 # Prevent duplicate users
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When creating a new user in Adobe Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a Workfront instance.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

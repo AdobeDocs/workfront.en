@@ -55,7 +55,7 @@ Scheduling a user to be deactivated can be useful in a variety of scenarios. For
 
 This feature is also available when bulk editing users.&nbsp;
 
-For more information about scheduling users for deactivation, see [Deactivate a user](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) and [Add users](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+For more information about scheduling users for deactivation, see [Deactivate or reactivate a user](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) and [Add users](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## New Email Digest Options for "Actions Needed"
 

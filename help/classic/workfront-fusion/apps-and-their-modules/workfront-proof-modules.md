@@ -6,18 +6,22 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Workfront Proof modules
-description: In a Adobe Workfront Fusion scenario, you can connect your Workfront Proof account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Workfront Proof, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Workfront Proof modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Workfront Proof account to multiple third-party applications and services.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Workfront Proof, as well as connect it to to multiple third-party applications and services.
 
 This is useful if you need to execute tasks currently not supported in proofing within Workfront or in Workfront Proof, such as updating proofs based on certain events and searching for a proof's recipients.
 
 The Workfront Proofconnector does not count against the number of active apps available to your organization. All scenarios, even if they use only the Workfront Proofapp, do count against your organization's total scenario count.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -65,7 +69,7 @@ You must have the following access to use the functionality in this article:
 
 When you configure Workfront Proof modules, Workfront Fusion displays the fields listed below. Along with these, additional Workfront Proof fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -97,7 +101,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -130,11 +134,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Webhook</td> 
-   <td>You can select an existing webhook or create a new one. For more information, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks)</a>. </td> 
+   <td>You can select an existing webhook or create a new one. For more information, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks) in Adobe Workfront Fusion</a>. </td> 
   </tr> 
   <tr> 
    <td>Limit</td> 
@@ -157,7 +161,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Activity type</td> 
@@ -197,7 +201,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Proof Type</td> 
@@ -352,7 +356,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Method</td> 
@@ -388,7 +392,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Proof ID</td> 
@@ -415,7 +419,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Record Type</td> 
@@ -455,7 +459,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Proof ID</td> 
@@ -505,7 +509,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Proof ID</td> 
@@ -592,7 +596,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Source file</td> 
@@ -636,7 +640,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Search for</td> 
@@ -671,7 +675,7 @@ This search module lists all available workflow templates.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Outputs</td> 
@@ -687,7 +691,7 @@ This search module lists all available workflow templates.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h3 id="build"><a name="Build"></a>Build</h3> <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I don't see this in Fusion 2</p>
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">From legacy Fusion doc. I don't see this in Fusion 2</p>
 -->
 <p>This action module creates a new proof recipient or stage in an Automated Workflow.</p>
 <p>The module returns reviewer or stage information (see the examples below the following table). You can map this information in subsequent modules in the scenario.</p>
@@ -698,7 +702,7 @@ This search module lists all available workflow templates.
 <tbody>
 <tr>
 <td>Connection</td>
-<td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td>
+<td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td>
 </tr> <!--
 <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <td> <!--

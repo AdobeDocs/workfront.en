@@ -62,7 +62,7 @@ description: Configure User Information using Workfront Proof
       * **Format of emails sent to this user:**Select&nbsp;**HTML**&nbsp;or&nbsp;**Plain text**&nbsp;as the default format for emails sent to the user.
 
    * In the&nbsp;**Custom message settings**&nbsp;section: Create settings for proof templates.  
-     For more information on templates, see&nbsp; [Create and manage Automated Workflow templates](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md).
+     For more information on templates, see&nbsp;.
 
       * **Proof subject template:**&nbsp;Create a template for a proof subject.
       * **Proof message template:**Create a template for a proof message and its format.

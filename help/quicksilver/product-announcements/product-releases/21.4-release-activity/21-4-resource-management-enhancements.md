@@ -12,7 +12,7 @@ You can now efficiently balance resources in the Workload Balancer with minimum 
 
 Prior to this enhancement, you could only assign items by clicking the More menu of a task or an issue, then using the Assign option. Now, the Planned Hours allocated to the user update in real-time while dragging the tasks.
 
-For information about assigning work items in the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For information about assigning work items in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ```<iframe class="vimeo-player_0" src="assets/601068019?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

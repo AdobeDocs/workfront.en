@@ -3,12 +3,12 @@ filename: grant-access-home
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 title: Grant access to objects in the Home area
-description: Users can request access to objects within Adobe Workfront. For more information about requesting access, see Request access to objects in Adobe Workfront.
+description: Users can request access to objects within Adobe Workfront. For more information about requesting access, see Request access to objects .
 ---
 
 # Grant access to objects in the Home area
 
-Users can request access to objects within Adobe Workfront. For more information about requesting access, see&nbsp; [Request access to objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+Users can request access to objects within Adobe Workfront. For more information about requesting access, see&nbsp; [Request access to objects](../../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 If you are the owner of an object, you can grant or deny access to items from your Home area.
 
@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to projects, tasks, issues, or documents</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher to projects, tasks, issues, or documents</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

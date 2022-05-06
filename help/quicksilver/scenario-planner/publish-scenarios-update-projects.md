@@ -3,16 +3,16 @@ filename: publish-scenarios-update-projects
 product-area: enterprise-scenario-planner-product-area
 keywords: publish,plans,projects,scenario,scenarios
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner
+title: Update or create projects by publishing initiatives in the Scenario Planner
 description: Publishing a scenario from the Adobe Workfront Scenario Planner accomplishes the following:
 ---
 
-# Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner
+# Update or create projects by publishing initiatives in the Scenario Planner
 
 Publishing a scenario from the Adobe Workfront Scenario Planner accomplishes the following:
 
 * Creates projects from the initiatives on the scenario and links them together.
-* Updates projects already linked to initiatives on the scenario with information from the linked initiative. Projects can also be linked to initiatives when you import them in to a plan. For information, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md)
+* Updates projects already linked to initiatives on the scenario with information from the linked initiative. Projects can also be linked to initiatives when you import them in to a plan. For information, see [Import projects to plans in the Scenario Planner](../scenario-planner/import-projects-to-plans.md)
 
 ## Access requirements
 
@@ -32,7 +32,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td><strong>Product</strong> </td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>&nbsp;</p> <p><strong>Access level*</strong> </p> </td> 
@@ -47,14 +47,14 @@ You must have the following:
     <ul> 
      <li>Manage permissions for the plan </li> 
      <li>Manage permissions for published projects</li> 
-    </ul> <p>For information on requesting additional access to projects, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+    </ul> <p>For information on requesting additional access to projects, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-For additional information about access to the Workfront Scenario Planner, see [Access needed to use the Adobe Workfront Scenario Planner](../scenario-planner/access-needed-to-use-sp.md).
+For additional information about access to the Workfront Scenario Planner, see [Access needed to use the Scenario Planner](../scenario-planner/access-needed-to-use-sp.md).
 
 ## Prerequisites
 
@@ -79,7 +79,7 @@ Before you begin:
   >
   >You can import the same project into multiple plans. Publishing might overwrite initiative information on a project that is linked to multiple initiatives.
 
-  For information about creating initiatives by importing projects, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md). 
+  For information about creating initiatives by importing projects, see [Import projects to plans in the Scenario Planner](../scenario-planner/import-projects-to-plans.md). 
 
 * Any changes made to the project do not transfer to the linked initiative.
 
@@ -89,7 +89,7 @@ Before you begin:
 
 >[!IMPORTANT]
 >
->If you make any changes to initiatives on the plan, including resolve conflicts, you must republish the initiative in order for the new information to be visible on the project. This information displays on the projects linked to initiatives only when you publish the corresponding the initiative. For information about resolving conflicts between initiatives, see [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](../scenario-planner/resolve-conflicts-in-sp.md)
+>If you make any changes to initiatives on the plan, including resolve conflicts, you must republish the initiative in order for the new information to be visible on the project. This information displays on the projects linked to initiatives only when you publish the corresponding the initiative. For information about resolving conflicts between initiatives, see [Resolve initiative conflicts in the Scenario Planner](../scenario-planner/resolve-conflicts-in-sp.md)
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Scenarios**
 1. (Optional and conditional) If you want to publish from an existing plan, click the **Filter** icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
@@ -118,15 +118,15 @@ Before you begin:
 1. (Optional)&nbsp;Click the **Search** icon ![](assets/search-icon.png) and start typing the name of a plan to quickly find it in the list.
 1. (Conditional)&nbsp;To publish from a new plan, create a plan.
 
-   For information about creating plans, see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md) . 
+   For information about creating plans, see [Create and edit plans in the Scenario Planner](../scenario-planner/create-and-edit-plans.md) . 
 
 1. (Optional) Click the name of an existing plan and create new scenarios for the plan.
 
-   For information about creating scenarios for a plan, see [Create and compare plan scenarios in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-compare-scenarios-for-a-plan.md). 
+   For information about creating scenarios for a plan, see [Create and compare plan scenarios in the Scenario Planner](../scenario-planner/create-and-compare-scenarios-for-a-plan.md). 
 
 1. (Optional) Update the initiatives of an existing or a new plan or create new ones.
 
-   For information about creating initiatives, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
+   For information about creating initiatives, see [Create and edit initiatives in the Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Click **Save plan**. 
 1. Select the scenario you want to publish from the **Initial scenario** drop-down menu, then click **Go to Publish** ![](assets/go-to-publish-button-icon.png) in the upper-right corner.
@@ -203,28 +203,28 @@ Before you begin:
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader"><span>Initiative Duration*</span> </td> 
+        <td role="rowheader"><span>Initiative Duration</span> </td> 
         <td><span>The duration of the corresponding initiative when the project is linked to an initiative. This field is not editable.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>Last Published Date*</span> </td> 
+        <td role="rowheader"><span>Last Published Date</span> </td> 
         <td><span>The date when the project was last published from a corresponding initiative.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>Initiative Start Date*</span> </td> 
+        <td role="rowheader"><span>Initiative Start Date</span> </td> 
         <td><span>The first day of the start month of the initiative, when the project is linked to an initiative.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>Initiative End Date*</span> </td> 
+        <td role="rowheader"><span>Initiative End Date</span> </td> 
         <td><span>The last day of the end month of the initiative, when the project is linked to an initiative.&nbsp;</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>Initiative Job&nbsp;Roles in FTEs and Hours*</span> </td> 
+        <td role="rowheader"><span>Initiative Job&nbsp;Roles in FTEs and Hours</span> </td> 
         <td> <p>Information about the associated job roles and their time allocations for the initiative.&nbsp;This includes:</p> 
          <ul> 
           <li>Job&nbsp;Role name</li> 
           <li>Number of FTEs</li> 
-          <li> <p>Number of Hours for all&nbsp;FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs.&nbsp;</p> <p>For more information, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> </li> 
+          <li> <p>Number of Hours for all&nbsp;FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs.&nbsp;</p> <p>For more information, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>. </p> </li> 
          </ul> <p>Tip: <span>If the number of job role is different for each month in the initiative, this field displays the maximum amount of roles needed for the initiative. For example, if you need 1 Consultant for January and 2 for February, the column displays 2FTE and the corresponding amount of hours for 2 FTEs for all months.</span> </p> </td> 
        </tr> 
       </tbody> 
@@ -251,7 +251,7 @@ Before you begin:
    
    * **The Resource Budgeting area of the Business Case of the project**: A new option for managing project resources using Scenario Planner information is added in the Resource Budgeting area of the Business Case of the project.
 
-     For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     For more information, see [Budget resources in the Business Case using the Scenario Planner](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
      ![](assets/sp-in-business-case-selected-350x110.png)
 
@@ -274,6 +274,6 @@ Before you begin:
 
 1. (Optional) Update information on the initiative and repeat the process described above to republish the initiative and update initiative information on the linked project.
 
-   For information about editing initiatives, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
+   For information about editing initiatives, see [Create and edit initiatives in the Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
 
 &nbsp;

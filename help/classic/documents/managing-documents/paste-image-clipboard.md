@@ -8,6 +8,10 @@ description: You can add an image file to Adobe Workfront by copying it and past
 
 # Paste images from the Clipboard
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add an image file to Adobe Workfront by copying it and pasting it from the system clipboard on your workstation.&nbsp;
 
 ## Browser requirements for pasting from the Clipboard
@@ -16,7 +20,7 @@ This feature is browser-specific,&nbsp;as follows:
 
 * **Chrome:** Supports image files, as well as renders the first page of PDFs.
 * **Firefox:** Supports only screenshots.
-* **Internet Explorer:** This functionality is not supported.
+* **Edge**: Supports image files.
 * **Safari:** This functionality is not supported.
 
 ## Access requirements
@@ -43,7 +47,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to the object you are associating with the document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access to the object you are associating with the document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +65,9 @@ To add an image or screenshot&nbsp;to Workfront via the clipboard:
 1. In Workfront, Go to the **Documents**&nbsp;area where you want to add the image.
 1. Click **Add Document**&nbsp;> **Paste from Clipboard**.
 
-   If you are using the Internet Explorer or Safari browser, Paste from Clipboard is not supported, and displays as dimmed in the Add Document drop-down menu.
+   >[!NOTE]
+   >
+   >If you are using the Internet Explorer or Safari browser, Paste from Clipboard is not supported, and displays as dimmed in the Add Document drop-down menu.
 
 1. In the **Paste from Clipboard** box that appears, do either of the following, depending on your operating system:
 

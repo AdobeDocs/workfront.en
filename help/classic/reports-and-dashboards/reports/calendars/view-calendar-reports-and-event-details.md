@@ -8,6 +8,10 @@ description: You can view calendar reports and event details that you created or
 
 # View calendar reports and event details
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can view calendar reports and event details that you created or were shared with you in Adobe Workfront.
 
 ## Access requirements
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +102,7 @@ You can see the details of an event in a calendar.
 
 1. (Optional) To view additional details on the object:
 
-   1. Hover over the project, task, or issue name.  
+   1. Mouse over the project, task, or issue name.  
       A details page opens for the object.  
       ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
 

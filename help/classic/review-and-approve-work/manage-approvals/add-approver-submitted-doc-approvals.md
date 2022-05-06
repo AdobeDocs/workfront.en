@@ -8,6 +8,10 @@ description: You can add additional approvers to a document approval directly fr
 
 # Add additional approvers to submitted document approvals
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add additional approvers to a document approval directly from the Home area.
 
 ## Access requirements
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,7 +49,7 @@ You must have the following access to perform the steps in this article:
 1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
 1. Select a **Document** approval.  
-   ![](assets/document-350x335.png)
+   ![](assets/document-350x232.png)
 
 1. Click **Manage Approvals**&nbsp;in the upper-right corner of the right panel.
 1. In the **Have someone approve this document** box, type the name of the approver.

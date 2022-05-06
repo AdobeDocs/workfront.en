@@ -8,6 +8,10 @@ description: With the release of Adobe Workfront 2017.3, the format for outbound
 
 # Outbound message format for event subscriptions
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ```With the release of Adobe Workfront 2017.3, the format for outbound messages for event subscriptions will change to allow for improved performance and better use of event subscriptions for your integrations.```
 
 ## Updates to the Outbound Message Format

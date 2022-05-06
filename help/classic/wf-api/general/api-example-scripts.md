@@ -8,6 +8,10 @@ description: Following are examples of different programming languages that are 
 
 # API example scripts
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Adobe Workfront API Examples
 
 Following are examples of different programming languages that are used to interact with the Workfront RESTful API. Each example performs the following operations:

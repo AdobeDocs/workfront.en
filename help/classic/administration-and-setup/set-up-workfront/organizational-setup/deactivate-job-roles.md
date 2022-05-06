@@ -9,6 +9,10 @@ description: As an Adobe Workfront administrator or a user with administrative a
 
 # Deactivate job roles
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an&nbsp;Adobe Workfront administrator or a user with administrative access to Job&nbsp;Roles, you can deactivate job roles that become obsolete in your system. When you deactivate a job role instead of deleting it, you can keep any historical information that is associated with it.
 
 You can also reactivate job roles that have previously been deactivated.
@@ -57,7 +61,7 @@ If you deactivate a job role, it no longer displays in the following areas:
 * The Add assignment to Kanban board dialog box in a project
 * The Job&nbsp;Role field of a plan or an initiative when someone is using the Adobe Workfront Scenario Planner.
 
-  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+  The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
@@ -102,6 +106,10 @@ We recommend that you do the following before deactivating an unused job role:
    The job role is deactivated and can no longer be assigned to work, associated with layout templates, and so on. For information about all uses of job roles in&nbsp;Workfront, see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
 ## Known limitations
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is only one limitation now for classic >> this is classic only; any limitations you see in NWE will be fixed by the end of 21.3 production)</p>
+-->
 
 Deactivated job roles still display in the following area of Workfront:
 

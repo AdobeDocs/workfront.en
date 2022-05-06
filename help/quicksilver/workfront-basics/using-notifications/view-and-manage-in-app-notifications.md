@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.file:///C:/Users/caotto/Flare/WFDocumentation/Content/Resources/Images/icons
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## View notifications
 
@@ -52,7 +52,7 @@ The numbered icon in the upper-right corner of Workfront displays the number of 
 
    Your most recent unread notifications appear below the numbered icon, with the most recent at the top.
 
-   ![](assets/qs-notifications-350x489.png)
+   ![Recent unread notifications](assets/qs-notifications-350x330.png)
 
    Up to 80 notifications display in a scrollable list. To see more, you can click **All notifications** at the bottom of the list to view up to 100 notifications. Notifications are automatically deleted after 30 days.
 
@@ -62,11 +62,11 @@ The numbered icon in the upper-right corner of Workfront displays the number of 
    
    * All other notifications are indicated by icons that suggest the type of work item they are associated with.
 
-     ![](assets/ntfcntype&icon-350x489.png)
+     ![Notification icons](assets/ntfcntype&icon-350x330.png)
 
    The icon to the right of the blue dot displays one of the following:
 
-   * The profile photo of the person who typed the information, usually an update about a Workfront object you're working on. 
+   * The profile photo of the person who typed the information, usually an update about a Workfront object you're working on.
    * The Workfront logo, if the notification is a system announcement.
 
 1. (Optional) If you want to view the date when you received a notification, hover the mouse over the day or time indicator in the upper-right corner of the notification.

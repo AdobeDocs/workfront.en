@@ -6,14 +6,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: NetSuite modules
-description: In a Adobe Workfront Fusion scenario, you can connect your NetSuite account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use NetSuite, as well as connect it to to multiple third-party applications and services.
 ---
 
 # NetSuite modules
 
-In a Adobe Workfront Fusion scenario, you can connect your NetSuite account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use NetSuite, as well as connect it to to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -152,7 +152,7 @@ To use NetSuite modules, you must have a NetSuite account.
 </tr>
 </tbody>
 </table> <p> <img src="assets/netsuite-setup-350x275.png" style="width: 350;height: 275;"> </p> </li>
-<li value="2"> <p><strong>Save</strong>the new integration.</p> <p>A page showing your client credentials appears.</p> </li>
+<li value="2"> <p><strong>Save</strong> the new integration.</p> <p>A page showing your client credentials appears.</p> </li>
 <li value="3"> <p>Copy and save the client credentials in a secure place. You will need them to create a connection in Workfront Fusion.</p> <note type="warning">
 You must copy and save the credentials before you close this window. You will not be able to access them again.
 </note> </li>
@@ -160,12 +160,12 @@ You must copy and save the credentials before you close this window. You will no
 <h3 id="create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module"><a name="Create3"></a>Create a connection to NetSuite in a Workfront Fusion NetSuite module</h3>
 <p>You can create a connection to your NetSuite account directly from inside a NetSuite module.</p>
 <ol>
-<li value="1"> <p>In any NetSuite module, click <strong>Add</strong>next to the Connection field.</p> </li>
+<li value="1"> <p>In any NetSuite module, click <strong>Add</strong> next to the Connection field.</p> </li>
 <li value="2"> <p>Enter the Account ID&nbsp;of the Netsuite account you want the module to access.</p> </li>
 <li value="3"> <p>Enter the Client ID and Client Secret that you saved in step 3 in <a href="#create-a-new-integration-record" class="MCXref xref">Create a new integration record</a> above.</p> <note type="note">
 For security reasons, the values for Client Credentials are only displayed on the initial setup page. They cannot be retrieved from the system. If you did not save this information, you must reset credentials to obtain new values for your Client Credentials.
 </note> </li>
-<li value="4"> <p>Click <strong>Continue</strong>to create the connection and go back to the module.</p> </li>
+<li value="4"> <p>Click <strong>Continue</strong> to create the connection and go back to the module.</p> </li>
 </ol>
 </div>
 -->
@@ -174,7 +174,7 @@ For security reasons, the values for Client Credentials are only displayed on th
 
 When you configure NetSuite modules, Workfront Fusion displays the fields listed below. Along with these, additional NetSuite fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -255,7 +255,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

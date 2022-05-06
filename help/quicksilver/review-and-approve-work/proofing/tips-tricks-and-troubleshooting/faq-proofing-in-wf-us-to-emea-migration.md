@@ -30,17 +30,9 @@ After the migration is complete, you and your users will be able to access files
 
 In order to make the migration possible, the URL you use to access the system must change from proofhq.com to proofhq.eu. Anyone who uses the old proofhq.com URL after the migration will receive a message providing the new login link:
 
-<!--
-<img src="assets/your-account-has-migrated-login-350x308.png" alt="your_account_has_migrated-login.png" style="width: 350;height: 308;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ## Can I still use my old proof links and bookmarks?
 
 Proof-specific bookmarks will no longer work after the migration. Anyone who uses one will receive a message providing access to the proof via a Go to Proof button:
-
-<!--
-<img src="assets/this-proof-has-been-migrated-350x361.png" alt="This_proof_has_been_migrated.png" style="width: 350;height: 361;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
 
 ## Will my username and password remain the same as before?
 

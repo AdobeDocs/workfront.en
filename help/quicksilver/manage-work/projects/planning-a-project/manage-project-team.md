@@ -3,10 +3,14 @@ filename: manage-project-team
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Manage the Project Team
-description: The Project Team consists of users who are associated with the project. They display in the People section of the project.
+description: (NOTE: remove the NWE way of doing this when the Scheduling tools will be removed from the app)
 ---
 
 # Manage the Project Team
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;remove the NWE way of doing this when the Scheduling tools will be removed from the app)</p>
+-->
 
 The Project&nbsp;Team consists of users who are associated with the project. They display  in the People section of the project.
 
@@ -36,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +77,12 @@ You can manually add users to a project team by using the Team Scheduling tab.
 >
 >You can add to the Project Team only users that belong to the Group associated with the project.
 
-1. Go to the project where you want to add users to the project team, then click **Scheduling** in the left panel. The Scheduling section might be located under **Show More**.
+1. Go to the project where you want to add users to the project team, then click **Scheduling** in the left panel.
+
+   >[!TIP]
+   >
+   >You might need to click **Show More** to find the Scheduling section, or click Workload Balancer first, and then select **Scheduling** in the upper-right corner of the Workload Balancer.
+
 1. Click **Add Users**.
 
    The Add Users to Project Team dialog box displays.

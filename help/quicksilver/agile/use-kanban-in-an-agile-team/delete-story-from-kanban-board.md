@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the task or issue</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage access to the task or issue</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
 1. Click the **More** icon on the story or issue, and select **Delete**.
 
-   ![Kanban_delete_story](assets/kanban-delete-story.png)
+   ![Delete kanban story](assets/kanban-delete-story.png)
 
 1. On the confirmation message, click **Yes, delete it**.
 

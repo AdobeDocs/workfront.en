@@ -85,7 +85,7 @@ We've made it easier for you to locate specific information from previous scenar
 
 Previously, finding specific execution information required viewing each execution individually.
 
-For more information, see [View a scenario's execution history](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+For more information, see [View a scenario's execution history in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ```<iframe class="vimeo-player_0" src="assets/499405293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -109,7 +109,7 @@ For more information on Data Stores, see [Data store modules](../../../workfront
 
 To increase flexibility in the ways you can access APIs, we've added a new module to the HTTP connector. Now, you can use the HTTP connector to make a request when the web service you are accessing requires the use of an API key.
 
-For more information, see [HTTP modules](http-modules.md).
+For more information, see [HTTP modules](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
 ## New functions available in mapping panel
 
@@ -137,6 +137,6 @@ To help you customize and simplify formulas in your modules, we've added some ne
 
   function is a string function that escapes all Markdown tags in a text.
 
-For more information on the omit and pick functions, see [General functions](../../../workfront-fusion/functions/general-functions.md).
+For more information on the omit and pick functions, see [General functions in Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
 
-For more information on the escapeMarkdown function, see [String functions](../../../workfront-fusion/functions/string-functions.md).
+For more information on the escapeMarkdown function, see [String functions in Adobe Workfront Fusion](../../../workfront-fusion/functions/string-functions.md).

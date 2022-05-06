@@ -10,6 +10,10 @@ description: "FTE" stands for Full Time Equivalent. It is a measure of time that
 
 >[!IMPORTANT]
 >
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
+>[!IMPORTANT]
+>
 >&nbsp;The information in this article refers to the functionality of Legacy Resource Planning. This functionality is currently deprecated and will be removed from Workfront.&nbsp;For information about the&nbsp;current&nbsp;functionality for managing resources in Workfront, see the&nbsp; [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)&nbsp;section.&nbsp;For information about FTE in the current resource management tools, see [Overview of calculating hours and FTE for users and roles in the Resource Planner](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 "FTE" stands for Full Time Equivalent. It is a measure of time that represents the amount of hours dedicated to&nbsp;real work during a day or&nbsp;week for a user.&nbsp;

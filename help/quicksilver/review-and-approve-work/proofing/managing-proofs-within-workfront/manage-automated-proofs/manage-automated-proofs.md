@@ -1,4 +1,11 @@
-
+---
+filename: _manage-automated-proofs
+content-type: reference
+product-area: documents
+navigation-topic: manage-proofs-within-workfront
+title: Manage automated proofs
+description: View Automated Workflow stages on a proof
+---
 
 # Manage automated proofs
 

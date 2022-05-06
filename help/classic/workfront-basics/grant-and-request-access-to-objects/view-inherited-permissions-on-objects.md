@@ -2,11 +2,15 @@
 filename: view-inherited-permissions-on-objects
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: View inherited permissions on objects in Adobe Workfront
+title: View inherited permissions on objects
 description: Your Adobe Workfront administrator can grant you access to view or edit objects when assigning your access level. For more information, see Grant access to projects.
 ---
 
-# View inherited permissions on objects in Adobe Workfront
+# View inherited permissions on objects
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Your Adobe Workfront administrator can grant you access to view or edit objects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -38,7 +42,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on the objects you want to view permissions for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions on the objects you want to view permissions for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +64,7 @@ To view inherited permissions for a project:
 
    ![](assets/screen-shot-2014-01-22-at-10.13.10-am-350x284.png)
 
-1. (Optional) To remove inherited permissions from an object, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+1. (Optional) To remove inherited permissions from an object, see [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    >[!NOTE]
    >

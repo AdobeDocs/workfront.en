@@ -2,11 +2,15 @@
 filename: assign-work-in-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Overview of assigning work in the Adobe Workfront Workload Balancer
+title: Overview of assigning work in the Workload Balancer
 description: As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
 ---
 
-# Overview of assigning work in the Adobe Workfront Workload Balancer
+# Overview of assigning work in the Workload Balancer
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
 
@@ -48,9 +52,9 @@ You can assign work in the Workload Balancer in the following ways:
 
 * One item at a time by manually assigning each item.
 
-  For more information, see [Assign work manually using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  For more information, see [Assign work manually using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
-For information about unassigning work, see [Unassign work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+For information about unassigning work, see [Unassign work in the Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 ## Assignment areas in the Workload Balancer
 
@@ -142,7 +146,9 @@ Consider the following when assigning multiple resources to a work item:
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Moved manual assignment and drag-and-drop to their own articles) </p>
+-->
 <h2 data-mc-conditions="QuicksilverOrClassic.Classic">Assign work in the Workload Balancer</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Classic">You can assign work items that have not yet been assigned to a user or reassign items that have been assigned to users in the Workload Balancer.</p>
 <ol>
@@ -174,6 +180,7 @@ Consider the following when assigning multiple resources to a work item:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Unassign work items in the Workload Balancer</h2>
+<p>(NOTE: moved this section to a new article. Draft here at release to preview) </p>
 <p>You can either unassign items from users and move them to the Unassigned Work area, or reassign them to other users. </p>
 <p>To unassign work items from users: </p>
 <ol>

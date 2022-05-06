@@ -62,8 +62,5 @@ You can use [this survey](http://survey.qualtrics.com/jfe/form/SV_1GOYsN7XJytpxT
 -->
 
 The Oracle Eloqua Workfront Proof&nbsp;Add-In does not currently support emails created within Eloqua with dynamic content.
-```
-
-## Known Issues
-
+```&nbsp;
 ```  

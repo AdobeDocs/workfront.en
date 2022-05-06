@@ -3,12 +3,43 @@ filename: copy-project
 product-area: projects
 navigation-topic: manage-projects
 title: Copy a project
-description: You can copy a project rather than create a new one from scratch.
+description: (NOTE: LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)
 ---
 
 # Copy a project
 
-You can copy a project rather than create a new one from scratch.
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+You can copy a project rather than create one from scratch. You can copy only one project. You cannot copy projects in bulk.
+
+>[!IMPORTANT]
+>
+>The following items are never copied from an existing project to a new one:   
+
+>
+>* Issues  
+>* Billing Rates
+>* Billing Records  
+>* Notes  
+>* Hours
+>* Cross-project predecessors
+>
+>The following items are always copied from an existing project to a new one:
+>
+>* Tasks
+>* Template
+>* Risks
+>* Queue Setup information
+>* Portfolio and Program
+>* Scorecard
+>* Task Default information (Task Default Approval Process, Task Default Custom Forms)
+>
 
 ## Access requirements
 
@@ -32,70 +63,34 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Copy a 
+## Copy a single project
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-single
-</MadCap:conditionalText>
--->
+Copying a project also copies some information from the original project to the new project. You can also specify which items should not be copied to the new project during the copying process.
 
-project
+To copy a project:
 
-1. Go to the project that you want to copy.
-1. Click **Project Actions**, then click **Copy**.
+1. Go to the project that you want to copy and click **Project Actions**, then click **Copy**.
 
    ![copy_project_NEW.png](assets/copy-project-new-350x280.png)
 
-1. Specify a name for the project.
+1. Update the name of the new project.
 
    By default, the new name is **Copy of <Original project name>.**
 
    ![Copy_project_from_storm.png](assets/copy-project-from-storm-350x337.png)
 
-1. Select the **Status** of your new project.
+1. Select the **Status** for the new project.
 
    By default, the **Status** matches that of the original project.
 
-1. (Optional) Select any of the following options to remove the items from the new project.
-
-   >[!IMPORTANT]
-   >
-   >The following items are never copied from an existing project to a new one:   
-
-   >
-   >   
-   >   
-   >   * Issues  
-   >   * Billing Rates
-   >   * Billing Records  
-   >   * Notes  
-   >   * Hours
-   >   * Cross-project predecessors
-   >   
-   >   
-   >The following items are always copied from an existing project to a new one:
-   >
-   >   
-   >   
-   >   * Tasks
-   >   * Template
-   >   * Risks
-   >   * Queue Setup information
-   >   * Portfolio and Program
-   >   * Scorecard
-   >   * Task Default information (Task Default Approval Process, Task Default Custom Forms)
-   >   
-   >
-
-   If you leave any of the following items unselected, they transfer to the copied project by default:
+1. (Optional) Select any of the following options to remove the items from the new project. If you leave any of the following items unselected, they transfer to the copied project by default:
 
    * **Clear Assignments**: Removes all the project and task assignments
    * **Clear Progress**: Removes the progress on all the tasks.
@@ -124,7 +119,7 @@ project
       * Financial information from all tasks
 
      For more information about the project Finance sub-tab, see [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
-
+   
    * **Clear Approval Process**: Removes all approvals associated with the tasks or the project. 
    * **Clear Reminder Notifications**: Removes the Reminder Notifications associated with the tasks or the project. 
    * **Clear Expenses**: Removes expenses associated with the tasks or the project. 
@@ -140,5 +135,5 @@ project
 
    This creates a new project which is similar to the project you copied.
 
-   You can start making changes to your new copied project, like review task assignments or adjust timelines.
+   You can start making changes to the new copied project, like review task assignments or adjust timelines.
 

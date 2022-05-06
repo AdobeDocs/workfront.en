@@ -2,11 +2,15 @@
 filename: remind-approvers-submitted-approvals
 product-area: documents
 navigation-topic: approvals
-title: Reminding Approvers about Submitted Approvals
+title: Remind approvers about submitted approvals
 description: You can remind approvers about pending approvals for the following objects:
 ---
 
-# Reminding Approvers about Submitted Approvals
+# Remind approvers about submitted approvals
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can remind approvers about pending approvals for the following objects:&nbsp;
 
@@ -35,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +66,10 @@ To remind another user to approve your access request for an object:
 1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
-1. Select an **Access Request** approval.  
+1. Select an **Access Request** approval in the Work List.
+
+   This opens the Access Request to the right of the Work List.
+
    ![](assets/access-request-350x335.png)
 
 1. Click **Remind** in the upper-right corner of the right panel to send a notification to the approver.
@@ -72,8 +79,10 @@ To remind another user to approve your access request for an object:
 1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
-1. Select a **Document** approval.  
-   ![](assets/document-350x335.png)
+1. Click a **Document** approval in the Work List.
+
+   This opens the document approval to the right of the Work&nbsp;List.   
+   ![](assets/document-350x232.png)
 
 1. Click **Manage Approvals** in the upper-right corner of the right panel.
 1. Click the **Remind** icon to send a notification to the approver.  

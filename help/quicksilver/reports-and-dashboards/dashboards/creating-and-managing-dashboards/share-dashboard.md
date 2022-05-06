@@ -2,11 +2,11 @@
 filename: share-dashboard
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Share a dashboard in Adobe Workfront
+title: Share a dashboard
 description: Your Adobe Workfront administrator grants users access to view or edit dashboards when they assign access levels. For more information about granting access to issues, see Grant access to reports, dashboards, and calendars.
 ---
 
-# Share a dashboard in Adobe Workfront
+# Share a dashboard
 
 Your Adobe Workfront administrator grants users access to view or edit dashboards when they assign access levels. For more information about granting access to issues, see [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -40,7 +40,7 @@ You must have the following to share objects:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 ## Considerations about sharing dashboards
 
-In addition to the considerations below, also see [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+In addition to the considerations below, also see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 * The creator of a dashboard has Manage permissions to it, by default.
 
@@ -66,7 +66,7 @@ In addition to the considerations below, also see [Share reports, dashboards, an
 
   For more information about the hierarchy of objects in Workfront, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-  For information about viewing inherited permissions, see [View inherited permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  For information about viewing inherited permissions, see [View inherited permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
 ## Share a dashboard
 

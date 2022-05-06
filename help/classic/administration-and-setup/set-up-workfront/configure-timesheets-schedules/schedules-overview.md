@@ -6,24 +6,30 @@ product-area: system-administration;timesheets
 keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
 title: Schedules overview
-description: You can define your work week by using schedules. You can associate a schedule with a user or a project. This allows Adobe Workfront to calculate timelines and user availability.
+description: You can define your work week by using schedules. You can associate a schedule with a user or a project. This allows Adobe Workfront to calculate timelines and user availability. For instructions, see Create a schedule.
 ---
 
 # Schedules overview
 
-You can define your work week by using schedules. You can associate a schedule with a user or a project. This allows Adobe Workfront to calculate timelines and user availability.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+You can define your work week by using schedules. You can associate a schedule with a user or a project. This allows Adobe Workfront to calculate timelines and user availability. For instructions, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Consider the following when working with schedules in Workfront:
 
 * The Workfront administrator identifies the hours of operation for the organization in a schedule.
 
-  Similarly, a group administrator can identify the hours of operation of a schedule administered by a group they manage.  
-  For more information about group administrators, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).  
+  Similarly, a group administrator can identify the hours of operation of a schedule administered by a group they manage.
+
+  For more information about group administrators, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+
   For example, a schedule can be defined as: Monday through Friday, 8 AM to 5 PM, with an hour break for lunch.
 
 * Workfront uses the schedule to determine when the work day starts and ends.
 
-  This does not prevent a user from working on or completing work outside normal business hours. Generally, it's not necessary to create a new schedule or a schedule exception to focus on work planned in the evening.
+  This does not prevent a user from working on or completing work in Workfront outside normal business hours. Generally, it's not necessary to create a new schedule or a schedule exception to focus on work planned in the evening.
 
   Likewise, your organization may have flexible arrival times for your work day. You may have a set of employees that arrives at 8 AM and another set that arrives at 9 AM. It is not necessary to create unique schedules for each group, if the groups have similar or identical schedules. But if the groups have drastically different schedules, their users should be associated with unique schedules. An employee understands if an assignment is due to complete at 5 PM it means the work must be done by the end of the business day, regardless of the time they come in to work.
 
@@ -39,7 +45,7 @@ Consider the following when working with schedules in Workfront:
 
   >[!IMPORTANT]
   >
-  >Workfront uses either the user or the project schedule to determine resource availability in the Resource Planner. Which schedule is used depends on what the Workfront Administrator selected for the Calculate Resource Availability Using setting. For information about Resource Management settings, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  >Workfront uses either the user or the project schedule to determine resource availability in the Resource Planner. Which schedule is used depends on what the Workfront administrator selected for the Calculate Resource Availability Using setting. For information about Resource Management settings, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ## Hierarchy of schedules
 
@@ -57,7 +63,7 @@ The order in which the schedules are used by the system when more than one exist
 
 * When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, Workfront uses either one of the following schedules, as defined in the Project Preferences area of Setup:&nbsp;
 
-   * &nbsp; The schedule of the user who is designated as the Primary Assignee 
+   * &nbsp;The schedule of the user who is designated as the Primary Assignee 
    * The schedule associated with the project.&nbsp;
 
      For more information about project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).&nbsp;&nbsp;
@@ -67,3 +73,6 @@ The order in which the schedules are used by the system when more than one exist
 
   ![default_schedule.png](assets/default-schedule-350x105.png)
 
+## Collaboration in Workfront across time zones
+
+For information about using schedules to help users collaborate in Workfront across time zones, see [Working across time zones](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).

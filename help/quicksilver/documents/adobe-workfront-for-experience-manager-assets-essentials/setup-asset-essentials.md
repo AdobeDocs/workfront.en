@@ -63,8 +63,8 @@ You must have the following:
       <td>The system automatically populates the Navigation URL. This URL is used to link to your organization's Assets Essentials instance from the Main Menu for quick access.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">IMS&nbsp;Org</td> 
-      <td> <p>The system automatically populates your IMS Org. You can modify this field if desired.</p> </td> 
+      <td role="rowheader"> <p role="rowheader">Experience Manager Assets repository</p> </td> 
+      <td> <p>The system automatically populates the Experience Manager repository associated with your Organization ID. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -84,7 +84,31 @@ You must have the following:
 1. Select **Save**.
 
 <!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Enabled linked folders</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Adobe Experience Manager Assets as a Cloud Service </h2>
+-->
+
+<!--
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Set up asset metadata </h2>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Map Workfront object data to asset media fields in Experience Manager Assets. Metadata maps when an asset is pushed from Workfront fo the first time.</p>
+-->
+
+<!--
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Set up folder metadata - CS only</h2>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">When you create a linked folder, the associated project, portfolio, and program data is mapped to folder metadata fields in Experience Manager Assets.</p>
+-->
+
+<!--
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Enable Project metadata sync - CS only</h2>
+-->
+
+<!--
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Enable linked folders - Cs only?</h2>
 -->
 
 <!--

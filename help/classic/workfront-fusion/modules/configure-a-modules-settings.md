@@ -3,11 +3,15 @@ filename: configure-a-modules-settings
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Configure a module's settings
+title: Configure a module's settings in Adobe Workfront Fusion
 description: You must configure settings for every module you create.
 ---
 
-# Configure a module's settings
+# Configure a module's settings in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You must configure settings for every module you create.
 
@@ -63,7 +67,7 @@ You must have the following access to use the functionality in this article:
 
    Or
 
-   Click the icon of the module in the scenario editor, as described in [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Click the icon of the module in the scenario editor, as described in [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. If required for the module, create a **Connection** to your registered user account for that given service, as described in [About connecting Adobe Workfront Fusion to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. In each field, type the appropriate text.
@@ -74,7 +78,7 @@ You must have the following access to use the functionality in this article:
 
    Bolded parameters are required.
 
-   For information about the different item data types Workfront Fusion can recognize (such as date, number, and text), see [Item data types](../../workfront-fusion/mapping/item-data-types.md).
+   For information about the different item data types Workfront Fusion can recognize (such as date, number, and text), see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
 1. (Conditional) If the module has advanced options you want to display and use, select **Show advanced settings**.
 

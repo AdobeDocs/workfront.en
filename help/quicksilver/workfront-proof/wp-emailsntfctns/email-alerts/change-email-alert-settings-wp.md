@@ -20,7 +20,7 @@ You can also change the Workfront Proof email alerts you receive for a proof on 
 1. From any list view, click the&nbsp;**More**&nbsp;menu to the right of the proof. ![](assets/more-button-small.png)  
 
 1. Click&nbsp;**View proof details**.
-1. On the **Proof details**page, open the email alert dropdown menu for a reviewer, and then select the new setting.
+1. On the **Proof details** page, open the email alert dropdown menu for a reviewer, and then select the new setting.
 1. (Optional) Repeat step 3 for any other reviewers.
 
 ## Change email alert settings for a proof you are reviewing

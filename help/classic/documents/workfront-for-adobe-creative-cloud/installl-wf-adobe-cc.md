@@ -2,13 +2,17 @@
 filename: installl-wf-adobe-cc
 product-area: documents;workfront-integrations
 navigation-topic: workfront-for-adobe-creative-cloud
-title: Install Adobe Workfront for Adobe Creative Cloud
-description: The following sections describe how to download and install Adobe Workfront for Adobe Creative Cloud. For information about how to use the extension, see Use Adobe Workfront for Adobe Creative Cloud.
+title: Install the Workfront Extension for Illustrator and InDesign
+description: The following sections describe how to download and install the Workfront Extension for Illustrator and InDesign. For information about how to use the extension, see Use the Workfront Extension for Illustrator and InDesign.
 ---
 
-# Install Adobe Workfront for Adobe Creative Cloud
+# Install the Workfront Extension for Illustrator and InDesign
 
-The following sections describe how to download and install Adobe Workfront for Adobe Creative Cloud. For information about how to use the extension, see [Use Adobe Workfront for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+The following sections describe how to download and install the Workfront Extension for Illustrator and InDesign. For information about how to use the extension, see [Use the Workfront Extension for Illustrator and InDesign](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
 
 ![Adobe__workfront_extension_panel_and_open_file.PNG](assets/adobe--workfront-extension-panel-and-open-file-350x215.png)
 
@@ -19,6 +23,10 @@ The Workfront extension is supported for the 2017 versions (and newer) of the fo
 * InDesign
 * Illustrator
 * Photoshop
+
+  >[!NOTE]
+  >
+  >We recommend using the new [Adobe Workfront for Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md) plugin.
 
 The extension is supported for both Adobe Cloud and desktop applications.
 
@@ -47,7 +55,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Install Workfront for Adobe Creative Cloud {#install-workfront-for-adobe-creative-cloud}
+## Install the WorkfrontExtension {#install-the-workfrontextension}
 
 1. Open your Adobe Creative Cloud application and make sure that your apps are up to date.
 1. In the preferences for your Adobe Creative Cloud application, make sure that syncing is enabled (this is the default).  
@@ -62,21 +70,20 @@ You must have the following access to perform the steps in this article:
 1. Click **Install**.
 1. When the installation completes, restart your computer and Workfront for Adobe Creative Cloud is added to your list of extensions for the supported applications.
 
-   For information about verifying that the extension is installed, see the [Ensure Workfront for Adobe Creative Cloud installed successfully](#ensure-workfront-for-adobe-creative-cloud-installed-successfully) section in this article.
+   For information about verifying that the extension is installed, see the [Ensure the Workfront Extension is installed successfully](#ensure-the-workfront-extension-is-installed-successfully) section in this article.
 
-## Ensure Workfront for Adobe Creative Cloud installed successfully {#ensure-workfront-for-adobe-creative-cloud-installed-successfully}
+## Ensure the Workfront Extension is installed successfully {#ensure-the-workfront-extension-is-installed-successfully}
 
 1. Open one of the following supported applications on your computer:
 
    * Adobe Illustrator
    * Adobe InDesign
-   * Adobe Photoshop
 
 1. Click **Window** > **Extensions** > Workfront.
 
    If you don't see the Workfront extension, make sure that syncing is enabled in Adobe Creative Cloud. See Adobe Help documentation if you need help
 
-## Troubleshooting Workfront for Adobe Creative Cloud installation
+## Troubleshooting the Workfront Extension
 
 ### Problem: Workfront extension shows "Not Compatible" message
 
@@ -84,4 +91,4 @@ You must have the following access to perform the steps in this article:
 
 #### Solution:
 
-You may have an existing, older version of the Workfront extension for Adobe Creative Cloud. Locate and uninstall the existing Workfront extension, then install the new Workfront extension as described in [Install Workfront for Adobe Creative Cloud](#install-workfront-for-adobe-creative-cloud) in this article.
+You may have an existing, older version of the Workfront Extension. Locate and uninstall the existing Workfront Extension, then install the new Workfront Extension as described in [Install the WorkfrontExtension](#install-the-workfrontextension) in this article.

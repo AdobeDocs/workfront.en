@@ -8,6 +8,10 @@ hidefromtoc: true
 
 # Opt out of email notifications
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 There are several options inside the email notifications to opt out of email notifications or to change the&nbsp;type of notifications you receive.&nbsp;
 
 Depending on the email you are receiving, you have the following options to change the frequency of your emails:&nbsp;

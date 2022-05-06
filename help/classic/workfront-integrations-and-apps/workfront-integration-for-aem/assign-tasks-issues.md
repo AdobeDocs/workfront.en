@@ -2,6 +2,10 @@
 
 # ```Workfront Tools for AEM User Guide : Assign Issues & Tasks```  {#title-heading}
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This workflow step will allow a user to assign objects in Adobe Workfront. This workflow step can be added to any workflow model. The Workfront artifact this step affects will be looked up using a relative path from the payload.
 
 Each workflow step can be added to any new or existing AEM Workflow Model. Workflow models can be conditionally triggered using AEM’s Workflow Launchers. See additional information on [Administering AEM Workflows](https://docs.adobe.com/help/en/experience-manager-65/administering/operations/workflows.html) and [AEM Launchers](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/workflows-starting.html).
@@ -33,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to the object, including the ability to make assignments</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to the object, including the ability to make assignments</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

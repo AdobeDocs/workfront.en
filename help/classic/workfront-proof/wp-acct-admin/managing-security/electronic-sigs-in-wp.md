@@ -12,13 +12,17 @@ description: Electronic signatures allow you to enhance security on your proofs 
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Electronic signatures allow you to enhance security on your proofs and comply with industry standards such as ISO.
 
 This setting can be made mandatory or non-mandatory at the account level. If it is mandatory by default, it is enabled on all proofs created in your account and cannot be disabled at proof level. If this setting is non-mandatory by default, you will be able to enable/disable it at a proof level.
 
-For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+For more information, see .
 
 When the electronic-signature setting is enabled on a proof, an electronic-signature box prompts any reviewer who makes a decision on the proof to provide their email and password.
 

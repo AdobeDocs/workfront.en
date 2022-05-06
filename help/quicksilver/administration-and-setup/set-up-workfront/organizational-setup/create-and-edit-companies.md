@@ -4,10 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: Create and edit companies
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Create and edit companies
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
@@ -40,8 +44,8 @@ You must have the following in order to manage companies in Workfront:
       <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
       <li> <p>In order to add to and remove users from the Workfront system, you must have one of the following:</p> 
        <ul> 
-        <li> <p>The System Administrator access level. For information about this access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-        <li> <p>In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png"> , the Create option and at least one of the two User Admin options must be enabled. </p> <p>If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> </li> 
+        <li> <p>The System Administrator access level. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+        <li> <p>In your access level, Edit must be selected for the Users setting. Also, for the Users setting, under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png"> , the Create option and at least one of the two User Admin options must be enabled. </p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member.</p> </li> 
        </ul> <p>For information about the Users setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -133,7 +137,7 @@ Certain permissions are available to users who are associated with a company, as
 
 Rather than sharing an object with one individual user at a time, you can share it with their entire company. Each user in the company has the same permissions on that object.
 
-For more information about sharing objects, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+For more information about sharing objects, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Group administrators and companies {#group-administrators-and-companies}
 

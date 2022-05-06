@@ -14,12 +14,12 @@ The articles in this section contain information about functionality in the Plan
 This section contains the following articles:
 
 * [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
-* [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md) 
+* [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md) 
 * [Resource Pools](../../resource-mgmt/resource-planning/resource-pools/resource-pools.md) 
 * [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 
-* [Locate the Resource Planner in Adobe Workfront](../../resource-mgmt/resource-planning/locate-resource-planner.md) 
+* [Locate the Resource Planner](../../resource-mgmt/resource-planning/locate-resource-planner.md) 
 * [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md) 
-* [Review resource availability and allocation using the Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md) 
+* [Review resource availability and allocation using the Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md) 
 * [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md) 
 * [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md) 
 * [Adjust budgeting dates in the Resource Planner](../../resource-mgmt/resource-planning/adjust-budgeting-dates.md) 
@@ -38,7 +38,7 @@ This section contains the following articles:
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Budget resources by project in the Resource Planner </a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Budget resources by project in the Resource Planner</a> </li>
   -->
 
   <!--
@@ -47,5 +47,13 @@ This section contains the following articles:
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/view-projects-roles-users-resource-planner.md" class="MCXref xref" xrefformat="{para}">View projects, roles, and users using the Resource Planner</a> </li>
+  -->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/manage-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Manage resources in the Resource Planner</a> </li>
+  -->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/resource-planner-overview-d.md" class="MCXref xref" xrefformat="{para}">Overview of the areas of the Resource Planner</a> </li>
   -->
 

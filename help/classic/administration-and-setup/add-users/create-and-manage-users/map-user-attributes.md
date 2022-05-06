@@ -10,6 +10,10 @@ description: Using single sign-on (SSO), you can pass attributes from your ident
 
 # Map user attributes and auto-provision new users
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Using single sign-on (SSO), you can pass attributes from your identity providerâ€™s Active Directory to your Adobe Workfront users. You can also add new users to Workfront using the Auto-Provision option (also called Just In Time Provisioning or JIT).
 
 >[!NOTE]
@@ -18,7 +22,7 @@ Using single sign-on (SSO), you can pass attributes from your identity providerâ
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

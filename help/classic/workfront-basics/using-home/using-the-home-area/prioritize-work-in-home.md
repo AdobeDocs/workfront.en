@@ -2,11 +2,15 @@
 filename: prioritize-work-in-home
 product-area: projects
 navigation-topic: use-the-home-area
-title: Prioritize work in the Home Area
+title: Prioritize work in the Home area
 description: You can prioritize items from your Work List in Home. Items you add to My Priority are priorities for you only. They are not prioritized for anyone else, and no one can prioritize them for you. You can add up to 20 items under the My Priority Sort By option.
 ---
 
-# Prioritize work in the Home Area
+# Prioritize work in the Home area
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can prioritize items from your Work List in Home.&nbsp;Items you add to My Priority are priorities for you only. They are not prioritized for anyone else, and no one can prioritize them for you. You can add up to 20 items under the My Priority Sort By option.
 
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you want to prioritize</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you want to prioritize</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,23 +53,26 @@ You can add any item assigned to you in your Work List to&nbsp;My Priority. New 
 
    For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
-1. In the left panel, ensure the **Sort by** drop-down menu is sorting by one of the following options:
+1. In the left panel, ensure the <![CDATA[  ]]>**Sort by** drop-down menu is sorting by one of the following options:
 
    * Planned Completion
    * Commit Date
    * Project
 
-1. Hover over a work item, and click on the **More** icon.
+1. Hover over a work item, and click on the **More** icon ![](assets/more-icon.png).
+
 1. Select**Add to My Priority**.  
    ![](assets/getting-started-my-priority-350x341.png)
 
    &nbsp;
 
-## Prioritize items in My Priority
+## Prioritize items using the My Priority grouping
 
-You can prioritize your&nbsp;work in My Priority, placing the most important items at the top of the list. Priorities you set are visible only to you. No one else can prioritize work for you.
+You can prioritize your&nbsp;work after you select My Priority in your sorting drop-down menu, placing the most important items at the top of the list. Priorities you set are visible only to you. No one else can prioritize work for you.
 
-You must add work items to My Priority before you can begin prioritizing. For more information, see [Add items to My Priority](#add-items-to-my-priority) in this article.
+You must add work items to My Priority before you can begin prioritizing.
+
+For more information, see the section [Add items to My Priority](#add-items-to-my-priority) in this article.
 
 1. Click **Home** in the Global Navigation Bar.
 

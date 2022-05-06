@@ -9,6 +9,10 @@ description: The purpose of a team in Adobe Workfront is to capture the real-lif
 
 # Teams overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The purpose of a team in Adobe Workfront is to capture the real-life dynamic of functional working groups in the workplace.
 
 For information about how when to use teams instead of groups, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).

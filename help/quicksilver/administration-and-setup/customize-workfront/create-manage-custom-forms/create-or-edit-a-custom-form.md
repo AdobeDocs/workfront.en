@@ -5,12 +5,12 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Create or edit a custom form
-description: You can create a new custom form or copy a custom form to create a new one that is based on the original. You can also edit an existing custom form. Both tasks are explained in this article.
+description: You can create or edit new custom form. Both tasks are explained in this article.
 ---
 
 # Create or edit a custom form
 
-You can create a new custom form or copy a custom form to create a new one that is based on the original. You can also edit an existing custom form. Both tasks are explained in this article.
+You can create or edit new custom form. Both tasks are explained in this article.
 
 For information about creating a new custom form from an existing one, see [Copy a custom form to create a new one](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
@@ -47,25 +47,18 @@ You must have the following to perform the steps in this article:
 
    In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it.
 
-1. Click **New Custom Form**, then click the object type in the drop-down list that you want to associate with the custom form.
+1. Click **New Custom Form.**
+1. Select at least one object type that you want to associate with the custom form, then click **Continue**.
 
-   The object type that you select is the only type that you can associate with the form.
+   ![](assets/choose-object-type-350x186.jpg)
 
-   <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <p>Click <b>New Custom Form</b>, then do one of the following:<!--
-   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [MAKE&nbsp;PREVIOUS STEP CLASSIC ONLY AND UNDRAFT THIS ONE AS NWE-ONLY WHEN THE STORY GOES TO PREVIEW. Later, on Prod release day, delete the first bullet.]</span>
-   --></p>
-   <ul>
-   <li> <p>If you are using the Production environment, click the object type in the drop-down list that you want to associate with the custom form.</p> <p>The object type that you select is the only type that you can associate with the form.</p> </li>
-   <li class="preview"> <p>If you are using the Preview environment, select at least one object type that you want to associate with the custom form, then click <b>Continue</b>.</p> <p> <img src="assets/choose-object-type-350x186.jpg" style="width: 350;height: 186;"> </p> </li>
-   </ul> </li>
-   -->
+1. On the **Form Settings** tab that opens, type a **Form Title** and an optional **Description** for the custom form.
 
-1. On the **Form Settings** tab that opens, type a **Form Title** and (optional) a **Description** for the custom form.
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the plus sign after Object Types, then select the object type you want in the menu that displays.
 
-   <!--
-   <li class="preview" value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <p>(Optional) If you want to associate more object types with the form, click the plus sign after <b>Object Types</b>, then select the object type you want in the menu that displays.</p> <p>You can also click the X on an object type to delete it from the form.</p> <p> <img src="assets/add-remove-object-types-350x186.jpg" style="width: 350;height: 186;"> </p> <p>For information about deleting object types from an existing (already saved) custom form, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md" class="MCXref xref">Delete object types on a custom form</a>.<br></p> </li>
-   -->
+   You can repeat this to add as many object types as you want.You can also click the X on an object type to delete it from the form.
+
+   For information about deleting object types from a custom form you have already saved, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 1. Click **Done**.
 
@@ -73,21 +66,18 @@ You must have the following to perform the steps in this article:
    >
    >You can click **Apply** at any point while you are creating a custom form to save your changes and keep the form open.
 
-1. If you want to add a new custom field to the form, continue on to [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or [Reuse an existing custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+1. If you want to add a new custom field to the form, continue on to [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    Or
 
    If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a> </li>   
-     -->   
-   
-   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) 
+   * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
    * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
 
 ## Start editing a custom form
 
@@ -95,7 +85,7 @@ You can edit a custom form any time after it has been created.
 
 >[!CAUTION]
 >
->For information about removing fields from a custom form without losing data that users have entered in those fields, see the section [Remove fields without losing data](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md#remove) in the article [Delete a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
+>For information about removing fields from a custom form without losing data that users have entered in those fields, see the section [Remove a custom field without losing data that users have entered](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md#remove) in the article [Delete a custom field or widget from the system](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md).
 >
 >In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
 
@@ -106,7 +96,13 @@ You can edit a custom form any time after it has been created.
    In the view that appears, you can review all custom forms that have been created for your organization. You can also see who created each form, which object type it works with, and whether it is active.
 
 1. Select the custom form you want to edit, then click **Edit**.
-1. (Optional) To change the title and description of the custom form, click the **Form Settings** tab, then type a **Form Title** and **Description**.  
+1. (Optional) To change the title and description of the custom form, click the **Form Settings** tab, then type a **Form Title** and **Description**.
+
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the plus sign after **Object Types**, then select the type you want in the menu that displays.
+
+   You can repeat this to add as many object types as you want.You can also click the X on an object type to delete it from the form.
+
+   For information about deleting object types from a custom form you have already saved, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 1. Click **Done**.
 
@@ -114,21 +110,18 @@ You can edit a custom form any time after it has been created.
    >
    >You can click **Apply** at any point while you are creating a custom form to save your changes and keep the form open.
 
-1. If you want to add a new custom field to the form, continue on to [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or [Reuse an existing custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+1. If you want to add a new custom field to the form, continue on to [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    Or
 
    If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a> </li>   
-     -->   
-   
-   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) 
+   * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
    * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+   * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
 
 ##  
 

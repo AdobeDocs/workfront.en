@@ -2,10 +2,17 @@
 filename: apply-legacy-pools-to-business-case
 navigation-topic: business-case-and-scorecards
 title: Estimate project resources by applying Legacy Resource Pools to the Business Case
-description: You can associate a Legacy Resource Pool with a project as part of completing the Legacy Resource Estimates section of the Business Case of the project.
+description: (NOTE:IMPORTANT: When they redesign this and you are able to attach new Res Pools to the business case - MAKE A NEW ARTICLE with NEW information (instead of Legacy)!!! Do not overwrite this one
 ---
 
 # Estimate project resources by applying Legacy Resource Pools to the Business Case
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE:IMPORTANT: When they redesign this and you are able to attach new Res Pools to the business case - MAKE A NEW ARTICLE with NEW information (instead of Legacy)!!! Do not overwrite this one</p>
+<p>This links to this article:&nbsp;https://workfront.zendesk.com/knowledge/articles/115004967388/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004967388 &nbsp;- if you delete this one, edit the link to the other article.)</p>
+</div>
+-->
 
 >[!IMPORTANT]
 >
@@ -13,7 +20,7 @@ description: You can associate a Legacy Resource Pool with a project as part of 
 
 You can&nbsp;associate a Legacy Resource Pool with a project as part of completing the Legacy Resource Estimates section of the Business Case of the project.
 
-For more information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about creating a Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Apply a Legacy Resource Pool to the Business Case
 

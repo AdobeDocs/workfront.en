@@ -60,7 +60,7 @@ You can also designate template ownership before you install the blueprint. You 
 
 ![Template Preferences section](assets/blueprints-templatepreferences-350x147.png)
 
-1. In the ```Install Preferences section```, specify a new template name.
+1. In the ```Template Preferences section```, specify a new template name.
 1. Specify the following:
 
    | ```Template owner```  |This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project. |

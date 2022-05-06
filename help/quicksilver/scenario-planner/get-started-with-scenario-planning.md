@@ -1,12 +1,16 @@
 
 
-# Get started with the Adobe Workfront Scenario Planner
+# Get started with the Scenario Planner
 
-This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../scenario-planner/scenario-planner-overview.md). 
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this artcle might be replaced altogether or at least most parts (the best practices parts) when Michael's pdf is available; see the SP overview article; the two will be combined)</p>
+-->
 
 You can use the Adobe Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.
 
-For a high-level overview of the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
+For a high-level overview of the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
 
 ## Approaches for using the Workfront Scenario Planner
 
@@ -47,7 +51,7 @@ The following are benefits of the Workfront Scenario Planner to help you achieve
 
    Click **New Plan** to add a new plan.
 
-   For information about creating plans, see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md).
+   For information about creating plans, see [Create and edit plans in the Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 
 ## Workfront Scenario Planner objects
 

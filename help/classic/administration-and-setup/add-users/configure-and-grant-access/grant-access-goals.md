@@ -10,6 +10,10 @@ description: As an Adobe Workfront administrator, you can use an access level to
 
 # Grant access to Adobe Workfront Goals
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an Adobe Workfront administrator, you can use an access level to define a user’s access to Adobe Workfront Goals, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Access requirements
@@ -60,27 +64,3 @@ For additional information about access to Workfront Goals, see [Access needed t
 ## Access to Workfront Goals by license type
 
 A Workfront administrator can allow to users with a Plan, Work, Request, or Review license fill Edit access to Workfront Goals in an access level.
-
-| Actions |Edit |View |No Access |
-|---|---|---|---|
-| View Goals in the Main menu |✓ |&nbsp; |&nbsp; |
-| View the Goals area from a shared link |✓ |&nbsp; |&nbsp; |
-| View all goals in the system |✓  |&nbsp; |&nbsp; |
-| Create goals |✓ |&nbsp; |&nbsp; |
-| Edit and delete all goals |✓ |&nbsp; |&nbsp; |
-| Activate/ deactivate/ close all goals |✓ |&nbsp; |&nbsp; |
-| Create, edit, and delete activities |✓ |&nbsp; |&nbsp; |
-| Create, edit, and delete results |✓ |&nbsp; |&nbsp; |
-| Add an aligned goal |✓ |&nbsp; |&nbsp; |
-| Update progress on a result or activity |✓ |&nbsp; |&nbsp; |
-| Own a goal, result, or activity |✓ |&nbsp; |&nbsp; |
-| Comment on a goal |✓ |&nbsp; |&nbsp; |
-| Copy goals |✓ |&nbsp; |&nbsp; |
-| View the Goal List section in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Graphs section in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Goal Alignment section in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Pulse section in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Check-in area in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Settings area in the left panel |✓  |&nbsp; |&nbsp; |
-| Print a list of goals |✓  |&nbsp; |&nbsp; |
-

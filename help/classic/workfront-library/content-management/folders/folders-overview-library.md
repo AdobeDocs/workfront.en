@@ -10,6 +10,10 @@ description: Folders enable you to logically organize items that you own or that
 
 # Overview of folders in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Folders enable you to logically organize items that you own or that you have Manage permissions to.&nbsp;You can create as many levels of folders and subfolders as you need based on how your organization manages digital content. For example, you could create a folder structure arranged by client, job, campaign, department, and so on.
 
 In order to create and maintain content folders, you must have Manager or higher access to Workfront Library. Additionally, to add content and subfolders to a folder, you must have Manage permissions to the folder. For information on access levels and permissions, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)

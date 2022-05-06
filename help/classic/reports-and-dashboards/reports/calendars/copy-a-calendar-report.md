@@ -8,6 +8,10 @@ description: If you created a calendar, you can copy the calendar and use it as 
 
 # Copy a calendar report
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If you created a calendar, you can copy the calendar and use it as a starting point for a new calendar.
 
 Additionally, if you have Manage access to a calendar to which you are not the owner, you can copy the calendar&nbsp;and become the owner of the copied calendar.
@@ -36,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage access to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,9 +51,12 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the calendar you want to copy.
 1. On the **Calendar** toolbar, click **Calendar Actions**, then select **Copy** from the drop-down list.  
-   A copy of the calendar opens.  
-   ![copying_calendar_report.png](assets/copying-calendar-report-350x102.png)  
-   All the projects and calendar groupings in the original calendar display in the copy of the calendar. Only objects placed by&nbsp;calendar filters export to the newly copied calendar. Any events manually added to the original calendar must be manually added to the copied calendar.  
+   A copy of the calendar opens.
+
+   ![copying_calendar_report.png](assets/copying-calendar-report-350x102.png)
+
+   All the projects and calendar groupings in the original calendar display in the copy of the calendar. Only objects placed by&nbsp;calendar filters export to the newly copied calendar. Any events manually added to the original calendar must be manually added to the copied calendar.
+
    Only you have access to the copied calendar. Users with access to the original calendar do not have access to the copied calendar. You can grant access to the newly-created calendar by sharing it with other users. To learn about sharing calendars, see [Share a calendar report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Optional) Rename the calendar.

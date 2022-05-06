@@ -17,7 +17,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 
   >[!NOTE]
   >
-  >When another user shares an object, the sharer can specify permissions that limit their ability to edit it. For more information, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >When another user shares an object, the sharer can specify permissions that limit their ability to edit it. For more information, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 | &nbsp; |Plan |Work |Review |Request |External |
 |---|---|---|---|---|---|

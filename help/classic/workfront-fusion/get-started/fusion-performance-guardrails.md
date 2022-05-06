@@ -10,6 +10,10 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Adobe Workfront Fusion performance guardrails
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 Work automation requires rapid processing, so Adobe Workfront Fusion is designed for high performance. Because long-running scenarios can slow down the pace of your work, we’ve designed Workfront Fusion with performance-preserving guardrails that limit execution time, data size, and other scenario parameters. Workfront Fusion designers should be aware of these guardrails and incorporate them into their design practices.
 

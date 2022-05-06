@@ -3,11 +3,11 @@ filename: delete-user-data
 product: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Delete user data
+title: Delete user data In Adobe Workfront Fusion
 description: You can store and delete user data in the following areas in your Adobe Workfront Fusion account:
 ---
 
-# Delete user data
+# Delete user data In Adobe Workfront Fusion
 
 You can store and delete user data in the following areas in your Adobe Workfront Fusion account:
 

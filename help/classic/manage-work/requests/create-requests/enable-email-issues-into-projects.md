@@ -3,10 +3,18 @@ filename: enable-email-issues-into-projects
 product-area: requests
 navigation-topic: create-requests
 title: Enable users to email an issue into a Request Queue project
-description: You can configure a project to allow users to add issues to the project via email. You can allow for issues to be emailed into a project only if the project is designated as a Request Queue. For more information about creating a Request Queue project, see Create a Request Queue.
+description: (NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )
 ---
 
 # Enable users to email an issue into a Request Queue project
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
+-->
 
 You can configure a project to allow users to add issues to the project via email. You can allow for issues to be emailed into a project only if the project is designated as a Request Queue. For more information about creating a Request Queue project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -34,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
-    <td> <p>To configure the request queue, you must have Manage permissions to the project.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.<br></p> </td> 
+    <td> <p>To configure the request queue, you must have Manage permissions to the project.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br></p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -57,9 +65,11 @@ These conditions must be met, before enabling this feature:
 
 ## Configure the project in Workfront
 
-Keep the following in mind when enabling email queue settings:
-
-* Workfront allows one unique email per request queue across all clusters. If you choose to disable your request queue, you'll retain the email address you created as long as it is still in the Intake Email Address box. If you choose to discontinue use of the intake email, you must delete it from the Intake Email Field so it can be available for future use.
+>[!NOTE]
+>
+>Keep the following in mind when enabling email queue settings:
+>
+>Workfront allows one unique email per request queue across all clusters. If you choose to disable your request queue, you'll retain the email address you created as long as it is still in the Intake Email Address box. If you choose to discontinue use of the intake email, you must delete it from the Intake Email Field so it can be available for future use.
 
 1. Go to the project that you want to enable to receive issues via email.
 1. Click the **More** drop-down list, then click **Queue Setup**.
@@ -71,7 +81,9 @@ Keep the following in mind when enabling email queue settings:
 
 1. Scroll down to the **Email Queue Settings** area, then select **Enable Request intake via email**.
 
-1. Enter the beginning of the email address in the **Intake Email Address** box. You must create a unique email address. We recommend using your company name as part of your intake email address.
+1. Enter the beginning of the email address in the **Intake Email Address** box.
+
+   You must create a unique email address. We recommend using your company name as part of your intake email address.
 
    >[!CAUTION]
    >
@@ -83,7 +95,10 @@ Keep the following in mind when enabling email queue settings:
    >
    >
 
-1. (Optional) Select the **Forward all issues that fail to submit via email**, then enter a forwarding email address in the box below. This email address receives information about emails that failed to submit to the project.
+1. (Optional) Select the **Forward all issues that fail to submit via email**, then enter a forwarding email address in the box below.
+
+   This email address receives information about emails that failed to submit to the project.
+
 1. Click **Save**. Now, when users with an active Workfront account send an email to this email address, an issue is created in the Workfront project.
 
    >[!NOTE]

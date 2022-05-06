@@ -15,7 +15,7 @@ Only a Workfront Library administrator can delete a taxonomy field. For more inf
 
 1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. In the left panel, click **Setup >****Taxonomy**.
+1. In the left panel, click **Setup >** **Taxonomy**.
 1. Hover over the field you want to delete, then click **Edit**.
 1. Click **Delete** in the lower-right corner, then click **Delete** again to confirm.
 

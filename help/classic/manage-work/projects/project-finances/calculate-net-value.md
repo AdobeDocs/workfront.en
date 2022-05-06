@@ -9,6 +9,10 @@ description: The Net Value of a project is the total expected value of the proje
 
 # Calculate Net Value
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Net Value of a project is the total expected value of the project after calculating its benefit and removing the costs.&nbsp;
 
 ## Overview of the project Net Value
@@ -53,7 +57,7 @@ and the Legacy Net Value
 for a project in the following areas in Workfront:
 
 * In Business Case Summary area of the Business Case&nbsp;  
-  For more information about the Business Case Summary area, see the "Understanding the Business Case Summary" section in&nbsp;the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  For more information about the Business Case Summary area, see the "Understanding the Business Case Summary" section in&nbsp;the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   <!--
   <img src="assets/net-value-and-legacy-net-value-in-business-case-summary-outline-287x463.png" alt="net_value_and_legacy_net_value_in_business_case_summary_outline.png" style="width: 287;height: 463;" data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
@@ -67,7 +71,8 @@ for a project in the following areas in Workfront:
   >
   >The total of all project Net Values is the Net Value of the portfolio.
 
-  For more information about the Portfolio Optimizer, see [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).  
+  For more information about the Portfolio Optimizer, see [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+
   ![](assets/new-optimizer---net-value-highlight-350x99.png)
 
 * In the Project Net&nbsp;Value field of the following lists and reports:

@@ -3,10 +3,16 @@ filename: activate-or-deactivate-your-own-event-notifications
 product-area: setup
 navigation-topic: notifications
 title: Activate or deactivate your own event notifications
-description: Your Adobe Workfront administrator configures which event notifications users receive when events occur in Workfront (as described in Configure event notifications for everyone in the system).
+description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
 # Activate or deactivate your own event notifications
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 Your Adobe Workfront administrator configures which event notifications users receive when events occur in Workfront (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
@@ -64,7 +70,7 @@ You must have the following access to perform the steps in this article:
    >
    >If you are a team member for a project, you continue to receive email notifications for it until you are removed from the team, even if you no longer have access to the project. For instructions on removing users from a team, see [Remove users from projects](../../manage-work/projects/manage-projects/remove-users-from-projects.md).
 
-   For the **Communication** category, you can select individual notifications for instant delivery only. You must select all of the notifications to be delivered in a daily digest.
+   For the **Communication** category, you can select individual notifications for instant delivery only. To have notifications delivered in a daily digest, you must select all of them.
 
    If all email notifications for a given category are activated, the box in the category title appears as selected. If all email notifications in a given category are deactivated, the box is unselected. If some notifications are activated and others are deactivated, the category checkbox appears as a straight line.  
    When you modify a notification setting, the label **Edited** appears for that notification setting, to let you know that that notification setting has been modified.
@@ -75,6 +81,10 @@ You must have the following access to perform the steps in this article:
 
    The daily digest includes events that meet the criteria of the notifications 24 hours prior to the selected time. You receive one daily digest email for each type of notification.  
    The daily digest may arrive after the time you select, depending on how many emails are queued for delivery in the system. The time listed is your local time as specified in your browser settings.
+
+1. (Conditional and optional) When modifying email notifications settings in the Preview environment, enable the **Receive emails from this test environment** setting to receive emails. Emails are not automatically generated from the Preview environment.
+
+   ![](assets/receive-emails-from-sandbox-setting-(1)-350x223.png)
 
 1. Click **Save Changes**.
 

@@ -10,6 +10,10 @@ description: There are 3 built-in system task statuses in Workfront. All 3 are r
 
 # System task statuses
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 There are 3 built-in system task statuses in Workfront. All 3 are required, which means that you can unlock, rename, and reorder them, but you cannot hide or delete them.
 
 You can also add new system task statuses to match the needs in your organization.

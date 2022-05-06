@@ -8,6 +8,10 @@ description: You can copy a task from a project to another project, or you can d
 
 # Copy and duplicate tasks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can copy a task from a project to another project, or you can duplicate a task within the same project.
 
 You can copy or duplicate one or several tasks or parent tasks at a time.
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a task </p> <p>Contribute or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a task </p> <p>Contribute or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,13 +84,25 @@ You can copy a task in the following areas of the Adobe Workfront web applicatio
    >You can copy tasks in a list only when automatically saving your changes. For information about saving options when editing tasks, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 1. Select the task or tasks that you want to copy and click **More** > **Copy To**. 
-1. Continue with copying the task, as described in the section [Copy a task at the task level](#copy-a-task-at-the-task-level) starting with Step 4.
+1. Continue with copying the task, as described in the section [Copy a task at the task level](#copy-a-task-at-the-task-level) starting with Step 4. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: is this still accurate?!)
+   </MadCap:conditionalText>
+   -->
 
 ## Copy a task&nbsp;at the task level {#copy-a-task-at-the-task-level}
 
 In addition to copying tasks in a list of tasks, you can also copy a task after you have opened it.&nbsp;
 
-This is helpful for ad hoc tasks, which are not located on a task list of a project. For more information on ad hoc tasks, see [Create ad hoc work items](../../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md).
+This is helpful for ad hoc tasks, which are not located on a task list of a project. For more information on ad hoc tasks, see [Create ad hoc work items](../../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md). 
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE:&nbsp;This article is conditioned for classic.)
+</MadCap:conditionalText>
+-->
 
 1. Find a task in your Workfront system by searching for it.
 1. Click the name of the task to open it.&nbsp;
@@ -181,7 +197,7 @@ You can quickly duplicate a task in a task list, if you need an identical task o
      ``` ```**Example: **``````For example, if you copy Task 2 and its predecessor, Task 1, at the same time, then you have a copy of Task 2 and a copy of Task 1. The copy of Task 1 will be the predecessor of the copy of Task 2. But if you copy just Task 2 without copying its predecessor, then its copy will have no predecessor.
 
 * When you duplicate a parent task, all children tasks are also duplicated, even when the children tasks are not selected. 
-* You can duplicate multiple tasks as the same time.
+* You can duplicate multiple tasks at the same time.
 
   However, you cannot duplicate multiple tasks that are not sequential at the same time. 
 

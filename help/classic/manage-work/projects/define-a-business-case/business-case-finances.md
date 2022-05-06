@@ -8,6 +8,10 @@ description: The Business Case sub-tab includes financial fields for the project
 
 # Overview of Business Case financial fields
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Business Case sub-tab includes financial fields for the project.&nbsp;In order for some of the financial fields to have values, corresponding areas of the Business Case must be completed.&nbsp;&nbsp;
 
 The following project financial fields display in the Business Case:

@@ -4,10 +4,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Project Team overview
-description: A project team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the project team.
+description: (NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://workfront.zendesk.com/hc/en-us/articles/217238917)
 ---
 
 # Project Team overview
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://workfront.zendesk.com/hc/en-us/articles/217238917) </p>
+-->
 
 A project team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the project team.
 
@@ -40,7 +44,7 @@ If a user is listed on the People area of a project, that project appears in a l
 
 You can see if the Projects I'm On filter is selected in the Projects area header. You can apply it from the Filters panel or from the header.
 
-![](assets/nwe-project-list-buttons-350x221.png)
+![](assets/nwe-project-list-buttons-350x187.png)
 
 >[!NOTE]
 >

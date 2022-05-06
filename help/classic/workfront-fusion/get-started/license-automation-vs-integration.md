@@ -10,6 +10,10 @@ description: Adobe Workfront Fusion offers two different licenses that determine
 
 # Adobe Workfront Fusion licenses
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront Fusion offers two different licenses that determine the functionality you are able to access. Your organization chose one of these licenses when it purchased Workfront Fusion.
 
 * [Workfront Fusion for Work Automation](#workfront-fusion-for-work-automation) 
@@ -38,6 +42,7 @@ A Workfront Fusion for Work Automation license allows you to automate your Workf
 With the Workfront Fusion for Automation license, you have access to the following:
 
 * Adobe Workfront 
+* Workfront Proof 
 * Webhooks
 * Tools and transformer modules such as:
 

@@ -3,10 +3,14 @@ filename: create-request-queue
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
-description: You can set up a Request Queue where users can enter occasional requests that are not planned work on a project. For example, a help desk request queue can be set up to capture all user requests that come to an IT department.
+description: (NOTE: THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL)
 ---
 
 # Create a Request Queue
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL)</p>
+-->
 
 You can set up a Request Queue where users can enter occasional requests that are not planned work on a project. For example, a help desk request queue can be set up to capture all user requests that come to an IT department.
 
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +82,9 @@ To create a Request Queue:
 1. (Optional)&nbsp;Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
 1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
 
-   This opens the Queue Details  section . 
+   This opens the Queue Details  section .
+
+   ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
 
 1. Specify the following information:
 
@@ -178,7 +184,7 @@ To create a Request Queue:
      **- Contribute** 
      **- Manage**
 
-     For information about the Workfront permissions model, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).   
+     For information about the Workfront permissions model, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).   
      Setting permissions here saves time, rather than having to grant permissions for each individual incoming request. Choosing this option impacts all future requests, but does not retroactively impact existing requests. 
    
    * **Default Approval**: Associate an approval process with this request queue. Only Issue Approval Processes are visible in this drop-down menu. All issues submitted to this queue will be associated with this approval process. Your Workfront administrator must define system-level approval processes before you can associate them with request queues. ```Users with administrative access to Approval processes can also create group-specific approval processes.```

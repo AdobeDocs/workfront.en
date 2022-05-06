@@ -14,7 +14,7 @@ Metadata is descriptive information associated with a document. You can set up A
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

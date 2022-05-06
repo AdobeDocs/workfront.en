@@ -3,15 +3,19 @@ filename: map-using-functions
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Map items using functions
+title: Map items using functions in Adobe Workfront Fusion
 description: When you map items, you can use functions to create simple or complex formulas.
 ---
 
-# Map items using functions
+# Map items using functions in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 When you map items, you can use functions to create simple or complex formulas.
 
-The functions available in Adobe Workfront Fusion are similar to functions in Excel and in some programming languages. They evaluate general logic, math, text, dates, and arrays. They let you perform conditional logic and transformations of item values, such as converting a text to uppercase, trimming text, converting a date into a different format, and more. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+The functions available in Adobe Workfront Fusion are similar to functions in Excel and in some programming languages. They evaluate general logic, math, text, dates, and arrays. They let you perform conditional logic and transformations of item values, such as converting a text to uppercase, trimming text, converting a date into a different format, and more. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ## Access requirements
 
@@ -63,18 +67,18 @@ The first tab ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) 
 
 The other tabs contain the following types of functions:
 
-* **General functions** ![](assets/toolbar-icon-general-function.png) - See [General functions](../../workfront-fusion/functions/general-functions.md) for more information.
+* **General functions** ![](assets/toolbar-icon-general-function.png) - See [General functions in Adobe Workfront Fusion](../../workfront-fusion/functions/general-functions.md) for more information.
 
-* **Math functions** ![](assets/toolbar-icon-math-functions.png) - See [Math functions](../../workfront-fusion/functions/math-functions.md) for more information.
+* **Math functions** ![](assets/toolbar-icon-math-functions.png) - See [Math functions in Adobe Workfront Fusion](../../workfront-fusion/functions/math-functions.md) for more information.
 
-* **Text and binary functions** ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions](../../workfront-fusion/functions/string-functions.md) for more information.
+* **Text and binary functions** ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions in Adobe Workfront Fusion](../../workfront-fusion/functions/string-functions.md) for more information.
 
-* **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
+* **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions in Adobe Workfront Fusion](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
 
-   * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-   * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+   * [Tokens for date and time formatting in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+   * [Tokens for date and time parsing in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
-* **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions](../../workfront-fusion/functions/array-functions.md) for more information.
+* **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions in Adobe Workfront Fusion](../../workfront-fusion/functions/array-functions.md) for more information.
 
 To insert a function into a field:
 
@@ -100,9 +104,9 @@ If Workfront Fusion does not feature a function you want to use, but it is featu
 
 1. In Google Sheets, create a new empty spreadsheet.
 1. In Workfront Fusion, open your scenario.
-1. Add the **Google Sheets**>**Update a cell** module to the scenario.
+1. Add the **Google Sheets** >**Update a cell** module to the scenario.
 
-   For instructions on adding a module, see [Add a module in a scenario](../../workfront-fusion/scenarios/create-a-scenario.md#add) in the article [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+   For instructions on adding a module, see [Add a module in a scenario](../../workfront-fusion/scenarios/create-a-scenario.md#add) in the article [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Configure the module:
 

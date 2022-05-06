@@ -11,7 +11,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 This section contains the following subsections:
 
 * [Adobe Workfront Goals overview](../workfront-goals/goal-management/wf-goals-overview.md) 

@@ -10,6 +10,10 @@ description: As an group administrator, you can view the event notifications tha
 
 # View and configure event notifications for a group
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an group administrator, you can view the event notifications that are activated for a group you manage.
 
 Also, if a Adobe Workfront administrator unlocks an event notification, you can configure it for a top-level group that you manage. Configuration of an event notification consists of activating or deactivating it.
@@ -72,7 +76,9 @@ You must have the following to perform the steps in this article:
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
             or edit its email subject line
           </MadCap:conditionalText>
-         --> for their groups.</li> 
+         --> for their groups.<!--
+          <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Edit feature coming</span>
+         --></li> 
         <li>If a button in the <strong>Active</strong> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <strong>deactivated for all users and</strong>, in the new Adobe Workfront experience, group administrators can activate it<!--
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
             or edit its email subject line
@@ -134,7 +140,9 @@ If you have System Administrator access, you can configure an unlocked event not
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
             or edit its email subject line
           </MadCap:conditionalText>
-         --> for their groups.</li> 
+         --> for their groups.<!--
+          <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Edit feature coming</span>
+         --></li> 
         <li>If a button in the <strong>Active</strong> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <strong>deactivated for all users and</strong>, in the new Adobe Workfront experience, group administrators can activate it<!--
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
             or edit its email subject line

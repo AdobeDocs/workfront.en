@@ -48,11 +48,11 @@ Follow these steps to configure the mappings:
 
    ![](assets/metadata-schema-350x242.png)
 
-1. Select the metadata schema form you wish to edit and click ```Edit```or create a new metadata schema from scratch.
+1. Select the metadata schema form you wish to edit and click ```Edit``` or create a new metadata schema from scratch.
 
    ![](assets/edit-schema-350x242.png)
 
-1. Select the metadata schema form field you wish to edit and select ```Settings```tab on the right panel.
+1. Select the metadata schema form field you wish to edit and select ```Settings``` tab on the right panel.
 1. In ```Workfront Custom Form Field``` select the name of the Workfront field that you wish to map to the selected AEM property. Available options are:
 
    1. Document custom form fields
@@ -79,7 +79,7 @@ Follow these steps to configure the mappings:
 
    ![](assets/edit-folder-schema-350x104.png)
 
-1. Select the folder metadata schema form field you wish to edit and select ```Settings```tab on the right panel.
+1. Select the folder metadata schema form field you wish to edit and select ```Settings``` tab on the right panel.
 1. In ```Mapped from Workfront Field``` select the name of the Workfront field that you wish to map to the selected AEM folder property. Available options are:
 
    1. Project custom form fields

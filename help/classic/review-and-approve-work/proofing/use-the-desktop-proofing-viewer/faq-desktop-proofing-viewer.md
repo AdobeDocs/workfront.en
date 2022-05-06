@@ -9,6 +9,10 @@ description: No. The Desktop Proofing Viewer is specifically designed for real-t
 
 # FAQ - Desktop Proofing Viewer
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## **My organization doesn’t proof interactive content. Do I still need to install the Desktop Proofing Viewer?**
 
 No. The Desktop Proofing Viewer is specifically designed for real-time website proofing and for proofing interactive web content such as banner advertisements.

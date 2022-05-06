@@ -90,7 +90,9 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>In conjunction with Custom Views, the Layout Type specifies the type of Custom View. Currently, only List is available. In the future, Detail (the Detail view of an object) may become available.</td> 
   </tr> 
   <tr> 
-   <td> <p>Legacy Resource Pool</p> </td> 
+   <td> <p>Legacy Resource Pool</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Leave this field in both classic and Qs because it exists in both)</p>
+    --> </td> 
    <td> <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p> </td> 
   </tr> 
   <tr> 

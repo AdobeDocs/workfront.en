@@ -10,6 +10,10 @@ description: You can modify an existing calendar by adding or deleting a link to
 
 You can modify an existing calendar by adding or deleting a link&nbsp;to a project. You can also modify calendar groupings associated with a calendar report.
 
+>[!NOTE]
+>
+>You are limited to 15 groupings in a calendar report.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage access to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -122,7 +122,19 @@ You must add a user to your Production instance of Workfront before you can make
 
 * The user **Home Group** is determined based on the user who created them. This is currently not customizable from within the Admin Console.
 * The Workfront System Administrator access level can only be edited from within the Adobe Admin Console.
-* Editing a user who is a system admin to any other access level must be done through the Admin Console first. 
+
+  <!--
+  <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  How is this done?
+  </MadCap:conditionalText>
+  -->
+
+* Editing a user who is a system admin to any other access level must be done through the Admin Console first.
+
+  <!--
+  <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> This is not clear</span>
+  -->
+
 * To remove System Administrator access from a user in Workfront, you need to use the Adobe Admin Console to remove the user as Product Profile Administrator. This changes the user's Workfront access level from System Administrator to Requestor.
 * 
 
@@ -137,7 +149,11 @@ You must add a user to your Production instance of Workfront before you can make
 <p>&nbsp;</p>
 <p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
-<h2>Create users</h2>
+<h2>Create users</h2> <!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
+--> <!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">May need to add something about oging throug WF -- check with Jonah</p>
+-->
 <p>To create users in Workfront with the Admin Console:</p>
 <ol>
 <li value="1"> <p>From the <a href="https://adminconsole.adobe.com/">Admin Console page</a>, select the <b>Products</b> tab and then select the <b>Workfront</b> product tile.</p> </li>
@@ -154,7 +170,7 @@ You must add a user to your Production instance of Workfront before you can make
 <li value="3"> <p>Select <b>Add Admin</b>.</p> </li>
 <li value="4"> <p>In the <b>Add product profile administrators</b> box, enter the email address or name of the administrator you want to add. Select <b>Save</b>. The user is created in Workfront with <b>Requestor</b> access level.</p> </li>
 </ol>
-<h2>Additional details for the Admin Console:</h2>
+<h2>Additional details for the Admin Console</h2>
 <ul>
 <li> <p>System Administrator access level is granted only on the Admin Console. You cannot grant or remove admin access from within Workfront.</p> </li>
 </ul>

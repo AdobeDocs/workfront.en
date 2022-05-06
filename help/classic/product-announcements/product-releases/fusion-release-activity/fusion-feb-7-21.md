@@ -36,4 +36,4 @@ To make the scenario creation process smoother, we've removed the app selection 
 
 Previously, you could select apps from the app selection page as well as the list.
 
-For more information on selecting apps for your scenario, see [Create a scenario](../../../workfront-fusion/scenarios/create-a-scenario.md).
+For more information on selecting apps for your scenario, see [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).

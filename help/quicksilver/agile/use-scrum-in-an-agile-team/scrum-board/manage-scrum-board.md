@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage access to the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 1. In the left panel, select **Iterations** to choose a specific iteration, or select **Current Iteration**.
 1. Click the **More** icon on the story or issue, and select **Move to**.
 
-   ![Scrum_delete_move_story.png](assets/scrum-delete-move-story.png)
+   ![Delete or move story from Scrum board](assets/scrum-delete-move-story.png)
 
 1. On the confirmation message, choose either:
 
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 1. In the left panel, select **Iterations** to choose a specific iteration, or select **Current Iteration**.
 1. Click the **More** icon on the story or issue, and select **Delete Story** or **Delete Issue**.
 
-   ![Scrum_delete_move_story.png](assets/scrum-delete-move-story.png)
+   ![Delete or move story from Scrum board](assets/scrum-delete-move-story.png)
 
 1. On the confirmation message, click **Yes, delete it**.
 

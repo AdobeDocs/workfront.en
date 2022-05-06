@@ -12,6 +12,10 @@ description: The Workfront Proof tablet app lets you conveniently review and app
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 The Workfront Proof tablet&nbsp;app lets you conveniently review and approve your proofs when you’re on the go. The app is available for download for everyone, you don’t have to be a Workfront Proof user to be able to review proofs on your tablet or your phone.

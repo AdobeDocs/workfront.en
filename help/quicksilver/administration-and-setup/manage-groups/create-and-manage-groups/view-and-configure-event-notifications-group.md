@@ -69,7 +69,9 @@ You must have the following to perform the steps in this article:
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
             or edit its email subject line
           </MadCap:conditionalText>
-         --> for their groups.</li> 
+         --> for their groups.<!--
+          <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Edit feature coming</span>
+         --></li> 
         <li>If a button in the <strong>Active</strong> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <strong>deactivated for all users and</strong> group administrators can activate it<!--
           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
             or edit its email subject line

@@ -8,6 +8,10 @@ description: When you create a project in Adobe Workfront, you are automatically
 
 # Update project owners and sponsors
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you create a project in Adobe Workfront, you are automatically set as the Project&nbsp;Owner of the project. You can update this field with another user. You can also update the Project Sponsor field of a project.
 
 For information about projects owners and sponsors, see [Overview of project owners and sponsors](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
@@ -38,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Edit permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +60,9 @@ You must have the following access to perform the steps in this article:
 
 1. Click&nbsp;**Save**.
 
-![](assets/project-owner-350x79.png)
+   The Project Owner updates in the project header.
+
+![](assets/project-owner-350x111.png)
 
 ## Update the Project Sponsor of a project
 
@@ -68,4 +74,6 @@ You must have the following access to perform the steps in this article:
    Only active users can be specified as Project Sponsors.
 
 1. Click&nbsp;**Save**.
+
+   The Project&nbsp;Sponsor updates in the Project&nbsp;Details area.
 

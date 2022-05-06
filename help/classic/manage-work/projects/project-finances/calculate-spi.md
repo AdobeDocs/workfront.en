@@ -4,10 +4,18 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Schedule Performance Index (SPI)
-description: The Schedule Performance Index (SPI) describes the relationship between the planned schedule and actual schedule. Adobe Workfront calculates SPI at the project and task levels. Project managers review this metric to identify whether tasks or projects are currently tracking ahead of or behind schedule.
+description: (NOTE: Linked to the product. Do not change link.)
 ---
 
 # Calculate Schedule Performance Index (SPI)
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
+-->
 
 The Schedule Performance Index (SPI) describes the relationship between the planned schedule and actual schedule.&nbsp;Adobe Workfront calculates SPI&nbsp;at the project and task levels. Project managers review this metric to identify whether tasks or projects are currently tracking ahead of or behind schedule. &nbsp;
 
@@ -33,7 +41,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the project with permissions to View Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the project with permissions to View Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,8 +81,9 @@ For example, if you have a project with 1 task and the task has 10 planned hours
 
 1. Go to the project or task where you want to view SPI.
 1. Click the&nbsp;**Project Details**&nbsp;tab or the&nbsp;**Task Details** tab, depending on whether you are viewing SPI for a project or task.
-1. Click **Finance**.   
-   ![](assets/spi-350x179.png)
+1. Click **Finance**.
+
+   ![](assets/spi-350x185.png)
 
 1. Find the **CPI/ SPI/ CSI** field.
 

@@ -12,7 +12,7 @@ When multiple project requests are submitted for review, the project management 
 
 * Change the project status to **Requested**.
 * Complete the Business Case of the project and submit it for approval.   
-  For more information about completing a Business Case for a project, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  For more information about completing a Business Case for a project, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 You can review requested projects in the following areas of Adobe Workfront:
 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher on the portfolio</p> <p>Manage permissions on the projects to update their status</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher on the portfolio</p> <p>Manage permissions on the projects to update their status</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,9 @@ For more information about approving project requests by building a project repo
 
    Only projects with a status of **Requested** display in the list.
 
-   &nbsp;In addition to having a Status of **Requested**, projects must be associated with the selected Portfolio to&nbsp;display in this list.
+   >[!TIP]
+   >
+   >&nbsp;In addition to having a Status of **Requested**, projects must be associated with the selected Portfolio to&nbsp;display in this list.
 
 1. Click the name of a project in the list to open it.
 1. Click **Project Details** in the left panel. 
@@ -83,6 +85,8 @@ For more information about approving project requests by building a project repo
      Or
    
    * Change the status of the project to any other status in the **Status** drop-down menu.
+
+     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
 
    &nbsp;
 

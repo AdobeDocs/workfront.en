@@ -10,13 +10,17 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # Adobe Workfront Fusion scenario overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
 >[!IMPORTANT]
 >
->Workfront Fusion scenarios should not be confused with Workfront Scenario Planner scenarios. For information about Workfront Scenario Planner scenarios, see [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+>Workfront Fusion scenarios should not be confused with Workfront Scenario Planner scenarios. For information about Workfront Scenario Planner scenarios, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
 
-The role of Adobe Workfront Fusion is to seamlessly connect your apps and web services and automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
+The role of Adobe Workfront Fusion is to automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
 
 A scenario is comprised of a series of modules that indicate how data should be transformed within an app or transferred between apps and web services.
 
@@ -57,7 +61,7 @@ For a list of dedicated connectors, see [Apps and their modules](../../workfront
 >
 >Adobe Workfront Fusion can connect to almost any web service. If the app you want to work with does not have a dedicated Workfront Fusion connector, you can use the following modules to connect directly to the web service:
 >
->* [HTTP modules](http-modules.md) 
+>* [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) 
 >* [SOAP module](../../workfront-fusion/apps-and-their-modules/soap-module.md) 
 >* [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md) 
 >

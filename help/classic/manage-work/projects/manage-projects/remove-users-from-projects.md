@@ -3,10 +3,18 @@ filename: remove-users-from-projects
 product-area: projects;user-management
 navigation-topic: manage-projects
 title: Remove users from projects
-description: You can remove users from a project when they are no longer involved in completing work on the project. Removing users from projects has implications on task and issue assignments, as well as on project roles.
+description: (NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://support.workfront.com/hc/en-us/articles/217301267-Understanding-the-Project-Team-and-Projects-I-m-On-)
 ---
 
 # Remove users from projects
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This also links here - some information is duplicated between these 2 articles, so update both:&nbsp;https://support.workfront.com/hc/en-us/articles/217301267-Understanding-the-Project-Team-and-Projects-I-m-On-) </p>
+-->
 
 You can remove users from a project when they are no longer involved in completing work on the project. Removing users from projects has implications on task and issue assignments, as well as on project roles.
 
@@ -40,7 +48,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,9 +84,9 @@ You can remove users from a project from the People subtabof the project.
    ![](assets/screen-shot-2014-03-24-at-12.42.33-pm.png)
 
 1. Click **People** ,&nbsp;then select the users you want to remove.   
-   ![](assets/staffing-select-user-350x102.png)
+   ![](assets/staffing-select-user-350x225.png)
 
-1. Click **Remove**.
+1. Click **Remove** at the top of the list of users.
 1. Click&nbsp;**Yes, Remove Selected Users** to confirm removal.
 
 <!--

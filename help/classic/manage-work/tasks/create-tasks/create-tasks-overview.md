@@ -8,6 +8,10 @@ description: You can create tasks in a project only after you created the projec
 
 # Create tasks overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can create tasks in a project only after you created the project.
 
 For example, after creating a project, you might want to add tasks and modify them to organize the project plan. For more information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md). For information about creating tasks, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).

@@ -30,7 +30,7 @@ Users with View permission to content can view only the active version.
 
    The active version of the content opens.
 
-1. Click the **Version**drop-down arrow following the content title, then select the version that you want to view.
+1. Click the **Version** drop-down arrow following the content title, then select the version that you want to view.
 
    For information on downloading older version of content, see [Download items from Workfront Library](../../../workfront-library/content-management/basics/download-content-from-library.md).
 

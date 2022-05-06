@@ -26,7 +26,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a task or a project</p> </td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues  section of a task or a project</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to an issue to edit it in the Issue Details area </p> <p>Manage permissions to an issue to edit it in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions to an issue to edit it in the Issue Details area </p> <p>Manage permissions to an issue to edit it in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-      For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    For information about the fields visible in the Issue Details section, continue with editing the issue in the Edit issue box as described below. 
 
@@ -168,10 +168,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
         <li> <p style="font-weight: bold;">Bug with workaround</p> </li> 
         <li> <p style="font-weight: bold;">Bug with no workaround</p> </li> 
         <li> <p style="font-weight: bold;">Fatal error</p> </li> 
-       </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of severities might be different for you. For more information about editing severities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Create and customize issue severities</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2">Issue path section</td> 
+       </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of severities might be different for you. For more information about editing severities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Create or customize issue severities</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -188,14 +185,8 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
        </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of the types of the issues might be different for you.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2">Issue stakeholders section</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Primary Contact</td> 
       <td>By default, the Primary Contact is the creator of the issue. To modify this, start typing the name of any active user in Workfront, then select it from the list. An issue can have only one Primary Contact.<br> If you change the Primary Contact, the user who was the primary contact still has Manage access to the issue. You must manually remove this access under <strong>Project Actions</strong> &gt; <strong>Sharing</strong>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2">Issue dates section</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commit Date and time</td> 
@@ -218,9 +209,6 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
       <td>The Actual Completion Date is automatically populated when you change the status of the issue to <strong>Closed</strong> or<strong>Resolved</strong>. You can update the <strong>Actual Completion Date</strong> for the issue. You can manually update the date, if needed.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2">Issue relationships section</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Resolved By</td> 
       <td> <p>This shows whether the issue is resolved by another object. You can select whether this issue is resolved by a task, a project, or another issue from the drop-down menu, then start typing the name of the task, project, or issue that will resolve the issue. Select it when it appears in the list.<br></p> <p>Note:  When you select an object to resolve an issue, the issue status is linked to the status of the resolving object and cannot be changed on the issue. For more information about resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </td> 
      </tr> 
@@ -237,6 +225,10 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. Click **Search people, role and teams** and start typing the name of a user, role, or team that you want to assign to the task, then click it or press Enter when it displays on the list.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this is still called this; asked Anna to change it to "roles" and add a comma)</p>
+   -->
 
    >[!NOTE]
    >
@@ -293,7 +285,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    >[!NOTE]
    >
-   >Depending on how your Workfront Administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the issue itself. For information about setting permissions on sections of a custom form, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). For information about setting issue permissions, see [Share an issue in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >Depending on how your Workfront Administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the issue itself. For information about setting permissions on sections of a custom form, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). For information about setting issue permissions, see [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. Click **Save** or continue editing the following section.
 
@@ -322,11 +314,11 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
          <li>Only active approval processes display in the list. </li> 
          <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>Important: If the group of the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
          <li> <p>You can define default approval processes to be automatically attached to issues when creating request queues or Queue Topics. For information about updating Queue Details, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. For information about creating Queue Topics, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>. </p> </li> 
-         <li>When bulk-editing issues, the following scenarios exist:
-          <ul>
-           <li><p>When you select multiple issues from the same group, both system-level and group-specific approval processes display in this field.</p></li>
-           <li><p>When you select multiple issues from different groups, only system-level approval processes display in this field.</p></li>
-           <li><p>When any of the issues have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p></li>
+         <li>When bulk-editing issues, the following scenarios exist: 
+          <ul> 
+           <li><p>When you select multiple issues from the same group, both system-level and group-specific approval processes display in this field.</p></li> 
+           <li><p>When you select multiple issues from different groups, only system-level approval processes display in this field.</p></li> 
+           <li><p>When any of the issues have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p></li> 
           </ul></li> 
         </ul> 
        </div> </td> 

@@ -34,7 +34,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -109,7 +109,7 @@ You must have the following to perform the steps in this article:
           <li>Scenario</li>
           <li>Plan </li>
          </ul></td>
-        <td><p>These objects require an additional license. For information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Get started with the Adobe Workfront Scenario Planner</a>.</p></td>
+        <td><p>These objects require an additional license. For information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Get started with the Scenario Planner</a>.</p></td>
        </tr>
       </tbody>
      </table>

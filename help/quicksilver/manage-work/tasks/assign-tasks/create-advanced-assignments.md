@@ -3,12 +3,10 @@ filename: create-advanced-assignments
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Create advanced assignments
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can manage task or issue assignments by using Advanced Assignments.
 ---
 
 # Create advanced assignments
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can manage task or issue assignments by using Advanced Assignments.
 
@@ -31,10 +29,8 @@ In addition, you can make advanced assignments in the following areas of Workfro
 
 * In lists and reports when the Assignments field displays in the view.
 * In the Assignments section when editing a task. For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <p>In the Workload Balancer. For more information, see <a href="../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md" class="MCXref xref">Assign work manually using the Adobe Workfront Workload Balancer</a>.</p> </li>
-  -->
+* In the task or issue header, in the Assignments area.
+* In the Workload Balancer. For more information, see [Assign work manually using the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Access requirements
 
@@ -58,7 +54,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to a the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to a the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,13 +106,21 @@ You must have the following access to perform the steps in this article:
 
 1. For each user in the **Assignee** column, specify the following information:
 
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: REVISE ALL THESE STEPS FOR QS; SOME WILL GO AWAY WITH THE NEW ADVANCED ASSIGNMENT WIDGET!!!)</p>
+   -->
+
    * **Owner**: Hover over the name of the assignee and click **Make Primary** in the Owner field if you want to mark the assignee as the Task Owner. A green checkbox indicates that the specified user is the Primary Contact of the task or issue. Adobe Workfront marks the first user or job role that you assign to a task or issue as the Owner or Primary Assignment. A team cannot be designated the Primary Owner of a task or issue.
 
      >[!IMPORTANT]
      >
      >Depending on how your Workfront administrator ```or group administrator``` set up your project preferences, Workfront might use the schedule of the task owner to calculate the timeline of the task when you have multiple users assigned to the task. For information about multiple task assignees, see the "Assign multiple users to a task" section in the article [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Allocations** : When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the bottom of the Allocations column. In all other cases, specify the percentage of time (or allocation)&nbsp;that you want the assignee to spend solving the task or issue.
+   * **Allocations** : When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the bottom of the  Allocations  column. In all other cases, specify the percentage of time (or allocation)&nbsp;that you want the assignee to spend solving the task or issue.
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
+     -->
 
      >[!TIP]
      >
@@ -129,7 +133,7 @@ You must have the following access to perform the steps in this article:
      >   
      >
 
-   * **Assignee's Role:** Select the role the user should use when fulfilling this assignment. The Primary Role of the user displays by default. Click in the Assignee's Role box to select another role.  When you assign the task or the issue to a role first, and then add a user who can fulfill that role as a second assignment, the list of suggested users is filtered for the users who can fulfill the roles already assigned to the task and issue.
+   * **Assignee's Role:** Select the role the user should use when fulfilling this assignment.  The Primary Role of the user displays by default. Click in the Assignee's Role box to select another role.  When you assign the task or the issue to a role first, and then add a user who can fulfill that role as a second assignment, the list of suggested users is filtered for the users who can fulfill the roles already assigned to the task and issue.
 
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 

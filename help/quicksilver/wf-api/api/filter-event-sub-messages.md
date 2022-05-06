@@ -178,7 +178,7 @@ return {
 
 ## Improving Message Delivery While Accommodating Timeouts {#improving-message-delivery-while-accommodating-timeouts}
 
-```The Event Subscription service has a strict timeout of```**five seconds** ```for all delivery requests.``` ```In the event that the delivery of a message exceeds the allowed time, the Event Subscription service begins a retry cycle for that message.```
+```The Event Subscription service has a strict timeout of``` **five seconds** ```for all delivery requests.``` ```In the event that the delivery of a message exceeds the allowed time, the Event Subscription service begins a retry cycle for that message.```
 
 ```For example, you build a project group ID filter similar to one of the examples found in [Filtering Event Messages](#filtering-event-messages) and you include a database lookup to determine whether the message is needed. It is possible that the database lookup along with the time needed for required processing and for the Lambda to cold-start could take more than five seconds, causing the Event Subscription service to retry delivering the message.```
 
@@ -233,8 +233,7 @@ You can avert a retry by&nbsp; ```separating the time-consuming parts of the pro
         logger.log("An IOException was thrown while executing a request to Workfront for projects matching the group ID " + DESIRED_GROUP_ID);
     }
     return projects;
-}
-</span></pre>```By querying for resources, you ensure that your integrating systems have the most current version of resources. `````````
+}</span></pre>```By querying for resources, you ensure that your integrating systems have the most current version of resources. `````````
 
 ####  
 

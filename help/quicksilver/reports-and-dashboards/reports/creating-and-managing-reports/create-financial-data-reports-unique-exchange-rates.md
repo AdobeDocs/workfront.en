@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,6 +70,10 @@ To convert financial values between currencies when working with reports:
    ![Change currency](assets/qs-change-currency-2022-350x257.png)
 
    <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: drafted this tip because I think this is confusing; this is in the step above.)</p>
+   -->
+
+   <!--
    <note type="tip">
    You can also select the Change Currency option to convert financial values in other lists.
    <br>
@@ -97,7 +101,7 @@ To display two projects with custom currencies in a report:
 
    For more information about logging time, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Reporting**. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Reporting**.  
 1. Click **New Report**, then **Project Report**.
 1. In the **Columns (View)** tab, add an **Actual Cost** column and summarize it by **Sum**.
 
@@ -132,7 +136,7 @@ If a grouping is applied on a task or hour list within a project, the sums in th
    >
    >The tasks should be assigned to users or job roles with Rate per Hour cost rates.
 
-1. Click **Tasks**. 
+1. Click **Tasks**.  
 1. Expand the **View** drop-down menu and select **New View**.
 1. Add **Actual Cost** in the new View as a new column, and summarize it by **Sum**.
 1. Click **Done**, then click **Save View**.

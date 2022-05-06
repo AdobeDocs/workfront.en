@@ -2,15 +2,15 @@
 filename: remove-permissions-from-objects
 product-area: user-management;portfolios
 navigation-topic: grant-and-request-access-to-objects
-title: Remove permissions from objects in Adobe Workfront
+title: Remove permissions from objects
 description: You can remove other users' permissions on objects that you have access to Share. Removing permissions from objects is identical for all objects that can be shared.
 ---
 
-# Remove permissions from objects in Adobe Workfront
+# Remove permissions from objects
 
 You can remove other users' permissions on objects that you have access to Share. Removing permissions from objects is identical for all objects that can be shared.&nbsp;
 
-Similar considerations as for sharing objects apply for removing permissions from objects.&nbsp;For more information, see the section [Considerations about sharing objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) in the article [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+Similar considerations as for sharing objects apply for removing permissions from objects.&nbsp;For more information, see the section [Considerations about sharing objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) in the article [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 ## Access requirements
 
@@ -34,7 +34,7 @@ You must have the following to share objects:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to the objects you want to share</p> <p>Manage permissions to remove inherited permissions on objects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher to the objects you want to share</p> <p>Manage permissions to remove inherited permissions on objects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,9 +47,9 @@ You can remove entities (users, job roles, teams, groups, companies) from the sh
 
 1. Go to the object you want to share.
 
-   For information about which objects can be shared, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. ```C```lick the **More** icon ![](assets/more-icon.png)next to the object name, then click&nbsp;**Sharing**or**Share.**
+1. ```C```lick the **More** icon ![](assets/more-icon.png)next to the object name, then click&nbsp;**Sharing** or**Share.**
 
    ![](assets/share-a-document-350x160.png)
 
@@ -75,7 +75,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 
 1. Go to the list of objects that you want to share.
 
-   For information about which objects can be shared, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. Select several objects in the list, then click the **Share** icon ![](assets/share-icon.png)at the top of the list. 
 1. Type the name of the user, role, team, group, or company for which you want to remove the access in the **Edit <Object Name> access to** field. 
@@ -127,7 +127,7 @@ To remove inherited permissions:
 
 If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.&nbsp;
 
-For more information about making an object available system-wide, or publicly, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+For more information about making an object available system-wide, or publicly, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 To make an object private:
 

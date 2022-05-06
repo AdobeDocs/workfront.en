@@ -6,14 +6,18 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Dynamics 365 modules
-description: In a Adobe Workfront Fusion scenario, you can connect your Microsoft Dynamics 365 account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Microsoft Dynamics 365 modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Microsoft Dynamics 365 account to multiple third-party applications and services.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to to multiple third-party applications and services.
+
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -65,16 +69,16 @@ To use Microsoft Dynamics 365, you must have a Microsoft Dynamics 365 account.
 
 You can create a connection to your Microsoft Dynamics 365 account directly from inside an Allocadia module.
 
-1. In any Microsoft Dynamics 365 module, click **Add**next to the Connection field.
+1. In any Microsoft Dynamics 365 module, click **Add** next to the Connection field.
 1. Enter a name for the connection.
-1. In the **Resource**field, enter the address of your Dynamics 365 account, without 
+1. In the **Resource** field, enter the address of your Dynamics 365 account, without 
 
    ```
    https://
    ```
 
    .
-1. Click **Continue**to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 >[!NOTE]
 >
@@ -91,7 +95,7 @@ You can create a connection to your Microsoft Dynamics 365 account directly from
 
 When you configure Microsoft Dynamics 365 modules, Workfront Fusion displays the fields listed below. Along with these, additional Microsoft Dynamics 365 fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -155,10 +159,10 @@ A webhook is required in this module.
    <td role="rowheader">Webhook</td> 
    <td> <p>Select the webhook that you want to use for this module. </p> <p>To add a new webhook:</p> 
     <ol> 
-     <li value="1"> <p>Click <strong>Add</strong>to the right of the Webhook field</p> </li> 
-     <li value="2"> <p>In the <strong>Webhook</strong>name field, type a descriptive name for the webhook.</p> </li> 
-     <li value="3"> <p>In the <strong>Connection</strong>field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
-     <li value="4"> <p>Click <strong>Save</strong>to save your webhook and return to the module.</p> </li> 
+     <li value="1"> <p>Click <strong>Add</strong> to the right of the Webhook field</p> </li> 
+     <li value="2"> <p>In the <strong>Webhook</strong> name field, type a descriptive name for the webhook.</p> </li> 
+     <li value="3"> <p>In the <strong>Connection</strong> field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
+     <li value="4"> <p>Click <strong>Save</strong> to save your webhook and return to the module.</p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -217,7 +221,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> <p>For more in</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> <p>For more in</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

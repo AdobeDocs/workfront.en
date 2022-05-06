@@ -2,6 +2,10 @@
 
 # ```Workfront Tools for AEM User Guide : Basic Operations```  {#title-heading}
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -42,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 ## Files Webhook
 
-1. Go to ```Documents```tab in the top main menu.
+1. Go to ```Documents``` tab in the top main menu.
 1. Click on ```Add New``` and select ```From <your AEM instance>```
 1. You should see ```Link External Files and Folders``` menu showing the content of an AEM folder in your AEM instance.
 1. Click on the first item in the breadcrumb of the menu. You should now see all files and folders in /content/dam folder.
@@ -89,10 +93,10 @@ NOT IMPLEMENTED.
 
 ## View Link
 
-1. Verify that ```Access DAM through API endpoints``` in ```Advanced```tab of the cloud services configuration is unchecked.
+1. Verify that ```Access DAM through API endpoints``` in ```Advanced``` tab of the cloud services configuration is unchecked.
 1. Upload an image into a linked folder and select the image. Click on ```Open```.
 1. The image should open in a new tab. Verify that the call to get the image was made directly to /content/dam… path.
-1. Update ```Access DAM through API endpoints``` in ```Advanced```tab of the cloud services configuration option to be checked.
+1. Update ```Access DAM through API endpoints``` in ```Advanced``` tab of the cloud services configuration option to be checked.
 1. Upload a new image into a linked folder and select the image. Click on ```Open```.
 1. The image should open in a new tab. Verify that the call to get the image was made to /bin/workfront-tools/view
 1. Delete the image in AEM. Click ```Open``` again in Workfront. /bin/workfront-tools/view call should now return 404.
@@ -101,14 +105,14 @@ NOT IMPLEMENTED.
 
 1. Send a document from the Documentsarea:
 
-   1. Upload an image to Workfront ```Documents```tab in the main navigation.
+   1. Upload an image to Workfront ```Documents``` tab in the main navigation.
    1. Attach ```Workfront Tools Document``` custom form and fill in all fields.
    1. Select the document and click on ```More → Send to → <your AEM instance>```. Select a folder that has ```Workfront Tools``` metadata schema applied and click ```Save```.
    1. Verify that the asset together with the document metadata have been sent correctly.
 
 1. Send a document from a Project:
 
-   1. Upload an image to the ```Documents```tab of a Workfront Project.
+   1. Upload an image to the ```Documents``` tab of a Workfront Project.
    1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
    1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
    1. Drag and drop the document into the Project’s linked folder.
@@ -116,7 +120,7 @@ NOT IMPLEMENTED.
 
 1. Send a document from a Task:
 
-   1. Upload an image to the ```Documents```tab of a Workfront Task.
+   1. Upload an image to the ```Documents``` tab of a Workfront Task.
    1. Attach ```Workfront Tools Document``` custom form to the document and fill in all fields.
    1. Attach ```Workfront Tools Task``` custom form to the document and fill in all fields.
    1. Attach ```Workfront Tools Project``` custom form to the project and fill in all fields.
@@ -138,7 +142,7 @@ NOT IMPLEMENTED.
 
 ## Create Folder Webhook
 
-1. Go to ```Documents```tab in the top main menu.
+1. Go to ```Documents``` tab in the top main menu.
 1. Click on ```Add New``` and select ```From <your AEM instance>```.
 1. Select a folder and click ```Link```.
 1. Open the linked folder and click ```Add New → Folder```. Type the new folder’s name.

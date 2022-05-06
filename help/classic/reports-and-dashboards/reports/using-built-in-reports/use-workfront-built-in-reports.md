@@ -8,6 +8,10 @@ description: Adobe Workfront has an extensive list of built-in reports that you 
 
 # Use Adobe Workfront built-in reports
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront has an extensive list of built-in reports that you can use.
 
 Workfront administrators can hide built-in reports so users do not have access to them.  
@@ -35,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to add or edit a filter to a report</p> <p>Manage permissions to a filter to edit it in a list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to add or edit a filter to a report</p> <p>Manage permissions to a filter to edit it in a list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +52,7 @@ You can customize a built-in report and save it as a new report. For more inform
 
 The following reports come with the Workfront package. The reports are available to all users who have at least View rights to built-in reports in their access level.
 
-<table cellspacing="15"> 
+<table cellspacing="3"> 
  <col> 
  <col> 
  <thead> 
@@ -343,6 +347,10 @@ The following reports come with the Workfront package. The reports are available
 </table>
 
 ## Access built-in reports
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Section directly linked to "Getting Started with Workfront Reporting." Do not change/ rename.) </p>
+-->
 
 1. Go to the **Reporting** area in your Global Navigation Bar.
 1. Select the **Reports** tab.

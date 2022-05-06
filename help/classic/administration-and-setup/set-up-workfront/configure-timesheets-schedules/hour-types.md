@@ -5,10 +5,18 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Manage hour types
-description: You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries.
+description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **Linked to Creating Billing Record
 ---
 
 # Manage hour types
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **Linked to Creating Billing Record</p>
+-->
 
 You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries. &nbsp;
 
@@ -34,7 +42,7 @@ There are two sets of hour types:
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

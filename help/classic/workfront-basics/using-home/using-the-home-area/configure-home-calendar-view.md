@@ -8,6 +8,10 @@ description: You can configure the Home Calendar settings to do the following:
 
 # Configure your Home Calendar view settings
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can configure the Home Calendar settings to do the following:
 
 * Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. You can display all events from your Outlook calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your Home Calendar.
@@ -98,4 +102,11 @@ Consider the following as you configure your Home Calendar with your Microsoft O
 
    Workfront saves your changes automatically.
 
-For information about using the Calendar view to manage your&nbsp;work assignments and integrated calendar events, see [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+For information about using the Calendar view to manage your&nbsp;work assignments and integrated calendar events, see [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md). 
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: from&nbsp;Courtney: [step #] Type your weekly work hours under How many hours a week do you work?This number affects the Allocation bar, which helps you track your workload against your available work hours.&nbsp;For more information, see "Allocation Bar" in the article&nbsp;"Understanding the Home Calendar View.")
+</MadCap:conditionalText>
+-->
+

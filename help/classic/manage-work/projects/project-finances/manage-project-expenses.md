@@ -3,12 +3,16 @@ filename: manage-project-expenses
 product-area: projects
 navigation-topic: financials
 title: Manage project expenses
-description: The process for creating and managing expenses is the same for both project and task-related expenses. Any expenses that are added to the project in the Business Case are added to the Expenses tab as planned expenses. For more information on the Business Case, see the article Create a Business Case for a project in Adobe Workfront.
+description: The process for creating and managing expenses is the same for both project and task-related expenses. Any expenses that are added to the project in the Business Case are added to the Expenses tab as planned expenses. For more information on the Business Case, see the article Create a Business Case for a project .
 ---
 
 # Manage project expenses
 
-The process for creating and managing expenses&nbsp;is the same for both project and task-related expenses. Any expenses that are added to the project in the Business Case are added to the Expenses tab as planned expenses. For more information on the Business Case, see the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+The process for creating and managing expenses&nbsp;is the same for both project and task-related expenses. Any expenses that are added to the project in the Business Case are added to the Expenses tab as planned expenses. For more information on the Business Case, see the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 The total amount of your expenses from all the tasks and the project contributes to the total cost of the project. The Planned Amount of the expenses contributes to the Planned Cost of the project, and the Actual Amount of the expenses contributes to the Actual Cost of the project.
 
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,14 +51,14 @@ You must have the following access to perform the steps in this article:
    If you want to add expenses to a task, navigate to a task instead.&nbsp;
 1. Click **Show**, then click **Expenses.**
 
-   ![](assets/me1-350x119.png)
+   ![](assets/me1-350x150.png)
 
 1. Click **Add an Expense.** 
    The **Add an Expense**&nbsp;dialog box is displayed.
 
    ![](assets/me2-350x181.png)
 
-1. Specify the following information:
+1. Update the following:
 
    * **Description:** Description of the expense.  
 
@@ -81,7 +85,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the&nbsp;project where you want to delete expenses.
 1. Click**More**, then click **Expenses.**
 
-   ![](assets/me3-350x119.png)
+   ![](assets/me3-350x149.png)
 
 1. Select the expenses that you want to delete, then click **Delete**.
 1. Click&nbsp;**Yes, Delete It** to confirm deletion.&nbsp;

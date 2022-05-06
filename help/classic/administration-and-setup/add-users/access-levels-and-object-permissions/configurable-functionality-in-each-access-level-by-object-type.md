@@ -2,6 +2,10 @@
 
 # Configurable access to functionality for each object type
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
 
 For information about all functionality available for an object type in each access level, see [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
@@ -349,7 +353,7 @@ In each access level, you can configure the following options for reports, dashb
        <li> <p>View Built-In Reports</p> </li> 
        <li> <p>Share</p> </li> 
       </ul> </li> 
-     <li> <p><b>Edit</b> (selected by default): Allows full editing access to reports, dashboards, and calendars.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default<span class="preview"> except for <b>View Built-in Reports</b>, <b>Share Reports Publicly</b>, and <b>Share system-wide</b></span>.</p> 
+     <li> <p><b>Edit</b> (selected by default): Allows full editing access to reports, dashboards, and calendars.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default except for <b>View Built-in Reports</b>, <b>Share Reports Publicly</b>, and <b>Share system-wide</b>.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
        <li> <p>Delete</p> </li> 
@@ -496,7 +500,7 @@ In each access level, you can configure the following options for documents:
     <ul> 
      <li> <p><b>No access</b>: Blocks all access to documents.</p> </li> 
      <li> <p><b>View</b>: Allows view-only access to documents.</p> <p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (selected by default): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default<span class="preview"> except for <b>Share Documents Publicly</b> and <b>Share system-wide</b></span>.</p> 
+     <li> <p><b>Edit</b> (selected by default): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default except for <b>Share Documents Publicly</b> and <b>Share system-wide</b>.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
        <li> <p>Delete</p> </li> 
@@ -512,7 +516,7 @@ In each access level, you can configure the following options for documents:
     <ul> 
      <li> <p><b>No access</b>: Blocks all access to documents.</p> </li> 
      <li> <p><b>View</b>: Allows view-only access to documents.</p> <p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (selected by default): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default<span class="preview"> except for <b>Share Documents Publicly</b> and <b>Share system-wide</b></span>.</p> 
+     <li> <p><b>Edit</b> (selected by default): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default except for <b>Share Documents Publicly</b> and <b>Share system-wide</b>.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
        <li> <p>Delete</p> </li> 
@@ -842,8 +846,8 @@ In each access level, you can configure the following options for Resource Manag
      <li> <p><b>Edit</b> (selected by default): Allows full editing access to Resource Management.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. Only the first option, <b>Edit priorities and budget hours in the Planner</b>, is enabled by default.</p> 
       <ul> 
        <li> <p> Edit priorities and budget hours in the Planner</p> </li> 
-       <li> <p>Manage Resource Pools</p> <p>Note: In order to manage resource pools, a user needs additional access to financial data and permissions to project finances. If you grant Resource Management access to a Planner user who doesn't have access to financial data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object in Adobe Workfront</a>.</p> </li> 
-       <li> <p>Update Planned Hours in the Workload Balancer</p> <p>Note: In order to update planned hours in the Workload Balancer, a user needs permission to contribute to the object, with Make Assignments enabled under Advanced Settings. For information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects in Adobe Workfront</a>.</p> </li> 
+       <li> <p>Manage Resource Pools</p> <p>Note: In order to manage resource pools, a user needs additional access to financial data and permissions to project finances. If you grant Resource Management access to a Planner user who doesn't have access to financial data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object</a>.</p> </li> 
+       <li> <p>Update Planned Hours in the Workload Balancer</p> <p>Note: In order to update planned hours in the Workload Balancer, a user needs permission to contribute to the object, with Make Assignments enabled under Advanced Settings. For information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects</a>.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -879,7 +883,13 @@ In each access level, you can configure the following options for Resource Manag
 
 ## Scenario Planner area
 
-The default setting for all access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level.
+The default setting for all access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level. 
+
+<!--
+<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+Alina says: This will change overtime for some of the access levels, but right now once they get Edit access, they can do everything
+</MadCap:conditionalText>
+-->
 
 >[!NOTE]
 >

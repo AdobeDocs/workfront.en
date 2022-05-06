@@ -3,15 +3,17 @@ filename: summary-overview
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Summary overview in the new Adobe Workfront experience
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: The Summary allows you to interact with important work item information from the following areas:
 ---
 
 # Summary overview in the new Adobe Workfront experience
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Summary allows you to interact with important work item information from the following areas:</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;from&nbsp;Courtney: May need to rethink this for beta doc depending when Summary will be in Home.)</p>
 -->
 
 <!--
@@ -71,7 +73,7 @@ The following table displays the areas where you can locate and use the Summary 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront administrators can customize the Summary in the Layout Template. For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p>
 -->
 
-This article describes how to access and use the Summary panel for tasks and issues.
+This article describes how to access and use the Summary panel for tasks and issues in lists.
 
 For information about accessing the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
@@ -99,7 +101,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a task, issue, or document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to a task, issue, or document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -109,7 +111,7 @@ You must have the following access to perform the steps in this article:
 ## View the Summary panel in a list of tasks or issues
 
 1. Go to a task or issue and select an item in the list. 
-1. Click the **Summary**icon ![](assets/qs-summary-in-new-toolbar-small.png)
+1. Click the **Summary** icon ![](assets/qs-summary-in-new-toolbar-small.png)
 
    ```or```
 

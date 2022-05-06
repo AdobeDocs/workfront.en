@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to the object that contains the document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access to the object that contains the document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,10 +50,13 @@ You must have the following access to perform the steps in this article:
 
 You can download multiple documents simultaneously.&nbsp;
 
-Documents linked to Workfront from Box, Dropbox, Google Drive, and so forth cannot be downloaded.
-
 1. Go to the Documents area containing the documents you want to download.
 1. (Optional) Select the individual documents that you want to download from the list of documents.
+
+   >[!NOTE]
+   >
+   >Documents linked to Workfront from Box, Dropbox, Google Drive, and so forth cannot be downloaded in bulk.
+
 1. (Optional) Select the folders that contain the documents you want to download from the list of folders.
 1. Click the Download Selected icon ![](assets/download-icon.png).
 

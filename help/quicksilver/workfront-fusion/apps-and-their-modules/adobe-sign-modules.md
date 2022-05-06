@@ -6,12 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Acrobat Sign modules
-description: With the Adobe Acrobat Sign modules, you can start a scenario based on events in your Adobe Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
+description: With the Adobe Acrobat Sign modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 ---
 
 # Adobe Acrobat Sign modules
 
-With the Adobe Acrobat Sign modules, you can start a scenario based on events in your Adobe Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
+With the Adobe Acrobat Sign modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 
 ## Access requirements
 
@@ -67,7 +67,7 @@ Adobe Sign agreements need a field to work with. There are some options for doin
 
 When you configure Adobe Acrobat Sign modules, Workfront Fusion displays the fields listed below. Along with these, additional Adobe Acrobat Sign fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -90,7 +90,7 @@ This trigger module starts a scenario when an agreement is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
@@ -129,7 +129,7 @@ This trigger module starts a scenario when an event that you select occurs.
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Scopes</td> 
@@ -197,7 +197,7 @@ This action module creates a new record of the selected type.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -236,7 +236,7 @@ This action module creates a new record of the selected type.
      <li> <p><b>Sharing mode</b> </p> <p>Specify who should have access to the library document.</p> </li> 
      <li> <p><b>Library document state</b> </p> <p>Select whether the document is in authoring state or active.</p> </li> 
      <li> <p><b>Library template type</b> </p> <p>For each library template type you want to use, click <b>Add item</b> and select the template type.</p> </li> 
-     <li> <p><b>Last event date</b> </p> <p>Enter the last date that an event occurred on the library document.</p> <p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion</a>.</p> </li> 
+     <li> <p><b>Last event date</b> </p> <p>Enter the last date that an event occurred on the library document.</p> <p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p> </li> 
      <li> <p><b>Library document status</b> </p> <p>Select the status of the library document.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -328,7 +328,7 @@ This action module creates an agreement, sends it out for signature, and returns
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -467,7 +467,7 @@ This action module creates records linked to a module you select.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -564,7 +564,7 @@ This action module creates records linked to a module you select.
         <ul> 
          <li> <p><b>Email</b> </p> <p>Enter the email address of the person who receives the newly created web form</p> </li> 
          <li> <p><b>Comment</b> </p> <p>Enter a comment describing how the API caller established the signer's identity. This information appears in the Adobe Acrobat Sign audit trail.</p> </li> 
-         <li> <p><b>Expiration</b> </p> <p>Enter an expiration date for the personalization of this web form. </p> <p>For a list of For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion</a>.</p> </li> 
+         <li> <p><b>Expiration</b> </p> <p>Enter an expiration date for the personalization of this web form. </p> <p>For a list of For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion in Adobe Workfront Fusion</a>.</p> </li> 
          <li> <p><b>Reusable</b> </p> <p>Select <b>Yes</b> if you want the intended signer to be able to sign the form more than once.</p> </li> 
         </ul> </li> 
       </ul> </li> 
@@ -584,7 +584,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -592,7 +592,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -626,7 +626,7 @@ This action module lists all records of the selected type that the account has a
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -677,7 +677,7 @@ This action module retrieves information from a single record.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -704,7 +704,7 @@ Read additional information related to a single record.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -741,7 +741,7 @@ This action module updates a single record in Adobe Acrobat Sign.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -798,7 +798,7 @@ This action module updates records related to a specific object.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -831,7 +831,7 @@ This action module updates records related to a specific object.
          <li> <p><b>ID</b> </p> <p>Enter the unique ID&nbsp;of the group</p> </li> 
          <li> <p><b>Is group admin</b> </p> <p>Select <b>Yes</b> to make this user a group administrator.</p> </li> 
          <li> <p><b>Is primary group</b> </p> <p>Select <b>Yes</b> to update this group to the user's primary group.</p> </li> 
-         <li> <p><b>Created date</b> </p> <p>Enter the date the group was created.</p> <p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion</a>.</p> </li> 
+         <li> <p><b>Created date</b> </p> <p>Enter the date the group was created.</p> <p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion in Adobe Workfront Fusion</a>.</p> </li> 
          <li> <p><b>Name</b> </p> <p>Enter or map the name of the group.</p> </li> 
          <li> <p><b>Library document creation visible</b> </p> <p>These settings determine whether the user can create library documents</p> 
           <ul> 
@@ -876,7 +876,7 @@ Upload a transient document. A transient document is available for 7 days after 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -913,7 +913,7 @@ This search module searches for agreements based on criteria you provide.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your Adobe Acrobat Sign account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

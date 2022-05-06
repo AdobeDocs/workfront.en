@@ -64,23 +64,23 @@ Use this option to create scenarios with email modules that require a connection
 
 You can create a connection to your Google account directly from inside an Allocadia module.
 
-1. In any Email module, click **Add**next to the Connection field.
-1. Select **Google**as the connection type.
+1. In any Email module, click **Add** next to the Connection field.
+1. Select **Google** as the connection type.
 1. Enter a name for the connection.
 1. (Optional) Enter your Google Client ID and Client Secret.
-1. Click **Continue**to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ### Connect to other email services (SMAP) {#connect-to-other-email-services-smap}
 
 SMAP connection allows you to access your mailbox remotely and read or manipulate messages in your mailbox. SMAP connection is used by most of the Email modules.
 
-1. In any Email module, click **Add**next to the Connection field.
+1. In any Email module, click **Add** next to the Connection field.
 1. Select **Others (SMTP)**as the connection type.
-1. Enter a **Name**for the connection.
+1. Enter a **Name** for the connection.
 1. Select your **Email provider** from the list. If your email provider is not on the list, select Other.
 1. Enter your **Email address**, **Your full name**, your **User name**, and your **Password**.
 1. (Conditional) If your provider is not on the list, enter your **SMTP server** and **Port**, and specify whether you want to **Use a secure connection (TLS)**. To find this information, check the Help section for your mailbox. If you don’t have this information available, contact your email service provider.
-1. Click **Continue**to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ## Email modules and their fields
 
@@ -88,7 +88,7 @@ When you configure email modules, Workfront Fusion displays the fields listed be
 
 Some of the email fields might already contain data because you used them in another module in the scenario. See the email help documentation if you need information about them.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -112,7 +112,7 @@ Triggers when a new email is received for processing according to specified crit
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder </td> 
@@ -585,4 +585,4 @@ The email iterator module lets you manage email attachments separately. For exam
  </tbody> 
 </table>
 
-For more information about iterators, see [Iterator module](../../workfront-fusion/modules/iterator-module.md).
+For more information about iterators, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md).

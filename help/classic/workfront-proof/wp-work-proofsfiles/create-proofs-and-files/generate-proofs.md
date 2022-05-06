@@ -11,6 +11,10 @@ description: Workfront Proof enables you to create proofs from documents or webs
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Workfront Proof enables you to create proofs from documents or websites, and share those proofs with others. The following steps describe the various configuration options that are available:
@@ -180,7 +184,7 @@ To generate a proof for a URL:
 
    By default, the proof name is the same as the site URL.
 
-1. Select **Handle site contents**options:
+1. Select **Handle site contents** options:
 
    <table cellspacing="0"> 
     <col> 
@@ -248,8 +252,7 @@ For more information about Interactive content, see [Interactive content proofs 
 1. (Optional) Configure any advanced proofing options, such as sharing the proof, adding an automated workflow, or setting up access and subscription settings. For more details about these options, see the following articles:
 
    * [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 
-   * [Create an Automated Workflow for the proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow)
-   
+   * in the article 
    * [Configure access and subscription settings for a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. Click&nbsp;**Create Proof**.

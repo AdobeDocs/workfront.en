@@ -8,6 +8,10 @@ description: Adobe Workfront Event Subscription messages automatically send from
 
 # Event subscription best practices
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront Event Subscription messages automatically send from Workfront after you have correctly configured your service and created an Event Subscription to trigger those message deliveries. To learn more about properly setting up Event Subscriptions, see [Event Subscription delivery requirements](../../wf-api/general/setup-event-sub-endpoint.md).
 
 Listed below are a few best practices to help you effectively create Event Subscriptions.

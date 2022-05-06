@@ -3,10 +3,18 @@ filename: filter-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
 title: Filter information in the Resource Planner
-description: Using filters, you can modify what information displays in the Resource Planner from all the information that is stored in the system.
+description: (AL:*Iterate on this article: filtering by custom data. Other enhancements? Special characters caveat might change - follow the story to know when. It originally came in Beta 3 17.3.)
 ---
 
 # Filter information in the Resource Planner
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(AL:*Iterate on this article: filtering by custom data. Other enhancements? Special characters caveat might change - follow the story to know when. It originally came in Beta 3 17.3.)</p>
+-->
 
 Using filters, you can modify what information displays in the Resource Planner from all the information that is stored in the system.
 
@@ -24,7 +32,11 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>Review or higher<!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
+      </MadCap:conditionalText>
+     --></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -32,7 +44,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher for projects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher for projects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,6 +95,10 @@ Consider the following when using the Default filter:
   ![RP_new_default_fitler_criteria__1_.PNG](assets/rp-new-default-fitler-criteria--1--301x547.png)
 
 ## Create Resource Planner filters {#create-resource-planner-filters}
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: **^ This section is somewhat duplicated (format more than content) from the "Filtering Utilization Information" section in "Viewing Utilization Information for Projects, Programs, and Portfolios.")</p>
+-->
 
 Creating a filter in the Resource Planner is identical for all the views.
 
@@ -298,7 +314,7 @@ For information about duplicating filters, see the [Duplicate a filter](#duplica
    * View 
    * Manage
 
-     For information about permissions in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+     For information about permissions in Workfront, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 1. (Optional) Click **Advanced Setting**s to add permissions for each level by selecting them or remove permissions for each level by deselecting them.
 

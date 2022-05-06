@@ -8,13 +8,17 @@ description: This section contains the following articles:
 
 # Use the Home area
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This section contains the following articles:
 
 * [Get started with Home](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md) 
 * [Understand the differences between My Work and Home](../../../workfront-basics/using-home/using-the-home-area/differences-between-my-work-home.md) 
 * [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md) 
 * [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) 
-* [Prioritize work in the Home Area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md) 
+* [Prioritize work in the Home area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md) 
 * [Manage work and team requests in the Home area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) 
 * [Update or edit a work item in the Home area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) 
 * [Create work items from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) 

@@ -60,7 +60,7 @@ If your organization uses outbound network filtering, add the following domain t
 
 Workfront Fusion interacts with connectors through the highest level of security offered by the connected solution. At a minimum, data is encrypted in transit over a TLS 1.2 connection. Mutual TLS is also available.
 
-For more information on Mutual TLS in Workfront Fusion, see [Use Mutual TLS in HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md).
+For more information on Mutual TLS in Workfront Fusion, see [Use Mutual TLS in HTTP modules in Adobe Workfront Fusion](../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md).
 
 ## Role-Based Access
 

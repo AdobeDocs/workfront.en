@@ -8,6 +8,10 @@ description: You can use Adobe Workfront for Jira to integrate your Jira and Wor
 
 # Configure Adobe Workfront for Jira
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use Adobe Workfront for Jira to integrate your Jira and Workfront systems.
 
 After installing the add-on, you can define workflows that create Jira issues automatically when Workfront work items are created. The items in both applications become linked, and some of their information automatically updates in both systems.
@@ -136,7 +140,7 @@ To configure triggers for automatically creating items in Jira:&nbsp;
 
    The&nbsp;**Triggers** tab is selected by default.
 
-   ![Triggers_tab_Jira_WF.png](assets/triggers-tab-jira-wf-350x220.png)
+   ![Triggers_tab_Jira_WF.png](assets/triggers-tab-jira-wf-350x265.png)
 
 1. Click **Add trigger** to add a new trigger.
 1. In the **Workfront team/user/role** field, specify the name of a Workfront team, user, or job role, then click to select it when it displays in the list.&nbsp;
@@ -174,7 +178,7 @@ To define what fields should automatically synchronize on items linked between t
 1. Log in to Workfront as a Workfront administrator.
 1. Click the **Setup** tab.
 
-   ![](assets/jira-newsetuptab-350x273.png)
+   ![](assets/jira-newsetuptab-350x341.png)
 
 1. In the **Synchronize from Jira to Workfront**&nbsp;section, select the fields that you want to update in Jira when they are updated in Workfront.&nbsp;
 
@@ -246,7 +250,9 @@ To define what fields should automatically synchronize on items linked between t
         </tr>
         <tr>
          <td role="rowheader">Assignee</td>
-         <td><p>The Assignee of an issue in Jira becomes the Assignee of the task or issue to which it is linked in Workfront.</p><p>Important: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new active user in Workfront only when the <strong>Automatically create a user in</strong>Workfront<strong>if the Jira user does not have a</strong>Workfront<strong>account</strong> is set to <strong>Always</strong>. This user does not occupy a Workfront license.&nbsp;Active users can be assigned to work items in Workfront, but cannot be included in updates. </p></td>
+         <td><p>The Assignee of an issue in Jira becomes the Assignee of the task or issue to which it is linked in Workfront.</p><!--
+           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the information in the Important below is also in the Updating Linked Items article.)</p>
+          --><p>Important: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new active user in Workfront only when the <strong>Automatically create a user in</strong> Workfront<strong>if the Jira user does not have a</strong> Workfront<strong>account</strong> is set to <strong>Always</strong>. This user does not occupy a Workfront license.&nbsp;Active users can be assigned to work items in Workfront, but cannot be included in updates. </p></td>
         </tr>
         <tr>
          <td role="rowheader">Attachments</td>

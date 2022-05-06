@@ -12,7 +12,7 @@ You can share a proof document with internal and external recipients directly fr
 
 >[!NOTE]
 >
->All recipients must have access in Workfront to review proofs. For information about licenses and access levels, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+>All recipients must have access in Workfront to review proofs. For information about licenses and access levels, see .
 
 ## Share the proof
 

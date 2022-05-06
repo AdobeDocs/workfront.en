@@ -2,13 +2,11 @@
 filename: assign-work-in-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Overview of assigning work in the Adobe Workfront Workload Balancer
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+title: Overview of assigning work in the Workload Balancer
+description: As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
 ---
 
-# Overview of assigning work in the Adobe Workfront Workload Balancer
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+# Overview of assigning work in the Workload Balancer
 
 As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
 
@@ -50,21 +48,19 @@ You can assign work in the Workload Balancer in the following ways:
 
 * One item at a time by manually assigning each item.
 
-  <!--
-  <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can make Advanced Assignments when assigning items manually, one at time. </p>
-  -->
+  You can make Advanced Assignments when assigning items manually, one at time.
 
-  For more information, see [Assign work manually using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  For more information, see [Assign work manually using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 * One item at a time, by dragging and dropping work items to the user who needs to be assigned.
 
-  For more information, see [Assign work in the Adobe Workfront Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  For more information, see [Assign work in the Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 * Multiple items at a time, by using the Bulk Assignments option to define rules by which items are assigned to multiple users at a time.
 
-  For more information, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  For more information, see [Assign work in bulk using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-For information about unassigning work, see [Unassign work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+For information about unassigning work, see [Unassign work in the Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 ## Assignment areas in the Workload Balancer
 
@@ -157,7 +153,9 @@ Consider the following when assigning multiple resources to a work item:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Manually assign one item at a time</h2>
+<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Manually assign one item at a time</h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Moved manual assignment and drag-and-drop to their own articles) </p>
+-->
 <ol>
 <li value="1">Go to the Workload Balancer.</li>
 <li value="2"> <p>Go to the <strong>Unassigned Work</strong> area and apply a filter to view work items</p> <p>Or</p> <p>Go to the <strong>Assigned Work</strong> area and expand the name of a user to view the work items assigned to them.</p> <note type="important">
@@ -182,7 +180,9 @@ Consider the following when assigning multiple resources to a work item:
 <li value="5"> <p>(Optional) Click the <strong>Show allocations icon</strong> <img src="assets/show-allocations-icon-small.png">, then click the <strong>More menu</strong> <img src="assets/qs-more-menu.png"> > <strong>Edit allocations</strong>.</p> <p>Or</p> <p>Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.</p> <p>For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li>
 </ol>
 <div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<h2>Assign an item by dragging and dropping</h2>
+<h2>Assign an item by dragging and dropping</h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider retitling this to "Assign one item at a time by dragging and dropping" when bulk assignments will come???)&nbsp;</p>
+-->
 <p>You can assign an item from the Unassigned Work area to a user, or you can reassign an already assigned item to another user in the Assigned Work area.</p>
 <ol>
 <li value="1">Go to the Workload Balancer.</li>
@@ -196,10 +196,11 @@ The Planned Hours for the user you're hovering over update in real time with the
 <p>If you enabled Group by Project in the Settings area, the assigned task displays under the corresponding project. If the setting is disabled, the assigned task displays in the user area. </p>
 <p>The item displays according to the Workload Balancer criteria for sorting work items.&nbsp;For more information, see <a href="../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a>.</p>
 </note> </li>
-<li value="5"> <p>(Optional) Click the <strong>Show allocations icon</strong> <img src="assets/show-allocations-icon-small.png">, then click the <strong>More menu</strong> <img src="assets/qs-more-menu.png"> > <strong>Edit allocations</strong>.</p> <p>Or</p> <p>Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.</p> <p>For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li>
+<li value="5"> <p>(Optional) Click the <strong>Show allocations icon</strong> <img src="assets/show-allocations-icon-small.png">, then click the <strong>More menu</strong> <img src="assets/qs-more-menu.png"> > <strong>Edit allocations</strong>. (NOTE: make sure these are still called this, and that the icon has not changed)</p> <p>Or</p> <p>Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.</p> <p>For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li>
 </ol> <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Assign items in bulk</h2>
+<p>(NOTE: This is also a separate article. Should we keep this section or the separate article?) </p>
 </div>
 -->
 <p>&nbsp;</p>
@@ -210,6 +211,7 @@ The Planned Hours for the user you're hovering over update in real time with the
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Unassign work items in the Workload Balancer</h2>
+<p>(NOTE: moved this section to a new article. Draft here at release to preview) </p>
 <p>You can either unassign items from users and move them to the Unassigned Work area, or reassign them to other users. </p>
 <p>To unassign work items from users: </p>
 <ol>

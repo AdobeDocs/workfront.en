@@ -9,6 +9,10 @@ description: You can adjust the Tracking Mode setting of a task when creating or
 
 # Task Tracking Mode overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can adjust the Tracking Mode setting of a task when creating or editing a task to control how and when the Progress Status indicators of a task display. Adobe Workfront displays Progress Status flags when you configure certain settings for tracking progress on tasks.
 
 For more information about Progress Status of tasks, see [Task Progress Status overview](../../../manage-work/tasks/task-information/task-progress-status.md).
@@ -16,6 +20,7 @@ For more information about Progress Status of tasks, see [Task Progress Status o
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="setting-tracking-mode"></a>Set Tracking Mode for tasks</h2>
+<p>(NOTE: drafted, because we created a new article and linked it below. Left this article as a "Overview" article only.) </p>
 <p>To set the tracking mode:</p>
 <ol>
 <li value="1">Go to the task you want to set the tracking mode for.</li>

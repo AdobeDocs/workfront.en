@@ -37,7 +37,7 @@ For more information about creating new users, see [Add users](../../../administ
 
 ## Granting a group access to objects
 
-When you share an object with a group, all members of that group (including members of any subgroups) have access to the object. For more information about sharing in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+When you share an object with a group, all members of that group (including members of any subgroups) have access to the object. For more information about sharing in Workfront, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Associating a group with an object
 

@@ -9,7 +9,11 @@ description: Agile is a work methodology that allows teams to complete small, ma
 
 # Agile overview
 
-Agile is a work methodology that allows teams to complete small, manageable amounts of work at a consistent cadence. In agile, teams manage stories on a backlog or story board and not tasks in a project. Adobe Workfront provides tools that help teams work in an agile way, using either Kanban or Scrum.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+Agile is a work methodology that allows teams to complete small, manageable amounts of work at a consistent cadence. In agile, teams manage stories on a backlog or story board and not tasks in a project.  Adobe Workfront provides tools that help teams work in an agile way, using either Kanban or Scrum.
 
 For information on the Kanban and Scrum methodologies, see the section [Decide on an agile methodology](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in the article [Create an agile team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 

@@ -14,6 +14,10 @@ Earliest Available Time is a Task Constraint that schedules a task to begin at t
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
+-->
+
+<!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To update the Task Constraint to Earliest Available Time:</p>
 -->
 
@@ -48,6 +52,10 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
    -->
 
 ## The difference between Earliest Available Time and As Soon As Possible
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])</p>
+-->
 
 The Earliest Available Time constraint differs from the As Soon As Possible constraint when all of the following criteria exist:
 

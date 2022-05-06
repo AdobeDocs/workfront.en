@@ -9,6 +9,10 @@ description: You can export Workfront Library asset metadata from the list view.
 
 # Export asset metadata from Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can export Workfront Library asset metadata from the list view. Consider the following when exporting metadata:
 
 * Exporting metadata from the Workfront Library list view creates a CSV showing all metadata fields for the assets listed in the list view. You can select which assets are included by using filters. You cannot select which metadata fields are included.

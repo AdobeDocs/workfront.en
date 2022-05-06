@@ -9,6 +9,10 @@ description: The purpose of a dashboard is to provide quick access to informatio
 
 # Get started with dashboards
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The purpose of a dashboard is to provide quick access to information. You can gather information in reports and you can then place them on dashboards to make the information easier to access.
 
 ## Access requirements
@@ -38,7 +42,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.<br>For more information on permissions for dashboards, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br>For more information on permissions for dashboards, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +67,7 @@ For more information about creating a dashboard, see [Create a dashboard](../../
 You can share a dashboard with users in the following ways:
 
 * Sharing on an individual basis.  
-  For more information about sharing dashboards, see [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) and [Share a dashboard in Adobe Workfront](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+  For more information about sharing dashboards, see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) and [Share a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Add a custom tab to any area or object in Workfront and add a dashboard to it.  
   For more information about creating custom tabs, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).

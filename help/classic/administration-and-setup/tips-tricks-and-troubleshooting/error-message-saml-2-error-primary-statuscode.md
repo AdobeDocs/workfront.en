@@ -10,6 +10,10 @@ description: You are unable to establish a successful connection to ADFS.
 
 # Error message: SAML 2.0 error: Primary StatusCode
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Problem
 
 You are unable to establish a successful connection to ADFS.
@@ -22,7 +26,7 @@ You are unable to establish a successful connection to ADFS.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -80,17 +84,4 @@ The Workfront SSO Setup Page lists the certificate expiration date. If the certi
 
 ## Cause 3: Certificate revocation check is failing
 
-### Solution
-
-Run the following PowerShell Commands replacing domain with their Domain:
-
-1. In Windows, click **Start** > **Administrative Tools** > **Windows Powershell Modules**.
-
-1. In the Powershell window, type:   
-   *Set-ADFSRelyingPartyTrust -TargetIdentifier "DOMAIN.my.workfront.com/SAML2" -SigningCertificateRevocationCheck None&nbsp;*
-
-   1. The "DOMAIN.my.workfront.com/SAML2" will be the identifier name of your relying party trust as displayed int he ADFS Management console.
-
-1. Then run  
-   *Set-ADFSRelyingPartyTrust -TargetIdentifier "DOMAIN.my.workfront.com/SAML2" -EncryptionCertificateRevocationCheck None&nbsp;*
-
+The solution for this depends on the version of Microsoft ADFS that you are using. Consult Microsoft's documentation to obtain the appropriate commands for your version.

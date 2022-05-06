@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the portfolio, the program, and the project</p> <p>You must have Delete permissions to the project to delete it. </p> <p>After you create a program, you have Manage permissions to it, by default.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the portfolio, the program, and the project</p> <p>You must have Delete permissions to the project to delete it. </p> <p>After you create a program, you have Manage permissions to it, by default.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

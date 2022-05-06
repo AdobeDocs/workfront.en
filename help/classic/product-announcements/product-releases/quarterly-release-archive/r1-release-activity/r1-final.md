@@ -16,7 +16,7 @@ Now when a user adds you to a proof and grants either the Approver role or the R
 
 For information about how to&nbsp;add users&nbsp;to a proof using Automated Workflow, see [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-For information about how to make approval decisions from the My Work area, see [Approving work in Adobe Workfront](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Approving work in Adobe Workfront](../../../../review-and-approve-work/manage-approvals/approving-work.md).&nbsp;
+For information about how to make approval decisions from the My Work area, see [Approving work](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Approving work](../../../../review-and-approve-work/manage-approvals/approving-work.md).&nbsp;
 
 ## Report on Proofing Approvals within the My Work Area (Workfront)
 

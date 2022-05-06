@@ -8,6 +8,10 @@ description: You can use Adobe Workfront for Jira to integrate your Jira and Wor
 
 # Install Adobe Workfront for Jira
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use Adobe Workfront for Jira to integrate your Jira and Workfront systems.
 
 After installing the add-on, you can define workflows that create Jira issues automatically when Workfront work items are created. The items in both applications become linked, and some of their information can be automatically updated in both systems.&nbsp;

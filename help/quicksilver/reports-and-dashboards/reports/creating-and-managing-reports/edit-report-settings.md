@@ -32,20 +32,12 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-
-## Walk-through
-
-View the following video to learn how to edit report settings.
-
-This video was recorded in Adobe WorkfrontClassic. However, the content also applies to the new Adobe Workfront experience.
-
-[ ![](assets/video-report-settings-350x197.png)](https://workfront-video.wistia.com/medias/8ie4xzc5id)
 
 ## How-to steps
 
@@ -86,7 +78,7 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
       <td role="rowheader">Show the Resource Grid view on the Details tab</td> 
       <td> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <p>Note:  When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there. <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          For more information about using the Resource Grid, see the article Overview of the Resource Grid .
+          For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
         --></p> </td> 
      </tr> 

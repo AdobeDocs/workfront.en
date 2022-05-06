@@ -2,11 +2,15 @@
 filename: map-ms-project-fields-to-workfront
 product-area: projects
 navigation-topic: manage-projects
-title: Map Microsoft Project fields to Adobe Workfront
+title: Map Microsoft Project fields to Adobe Workfront projects
 description: Projects in Adobe Workfront and Microsoft Project are mostly compatible. Using the two applications, you can do the following:
 ---
 
-# Map Microsoft Project fields to&nbsp;Adobe Workfront
+# Map Microsoft Project fields to&nbsp;Adobe Workfront projects
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Projects in Adobe Workfront and Microsoft Project are mostly compatible. Using the two applications, you can do the following:
 
@@ -28,13 +32,14 @@ When performing such imports of data, it is important to understand how informat
 | **Microsoft Project Field** |**Workfront Field** |
 |---|---|
 | Project Title |Project Name |
-| Project Start Date |Project Planned Start Date |
+| Start and Finish Dates |Planned Start and Completion Dates |
 | Task Name |Task Name |
 | Task Duration |Task Planned Duration |
 | Task Work | Task Planned Hours  |
-| Task %&nbsp;Complete |Task % Complete |
-| Start and Finish Dates |Planned Start and Completion Dates |
-| Scheduled Start Date |Actual Start Date |
+| Task %&nbsp;Complete |Task % Complete (based on the Duration of the task) |
+| Task&nbsp;Work %&nbsp;Complete |Task % Complete (based on the Planned Hours of the task) |
+| Scheduled Start and Finish  |Planned Start and Completion Dates |
+| Actual&nbsp;Start and Finish |Actual&nbsp;Start&nbsp;and Completion Dates |
 | Resource Name |Task Assignment |
 | Assignment Units |Assignment Allocation Percentage |
 | Task Note |Task Description |

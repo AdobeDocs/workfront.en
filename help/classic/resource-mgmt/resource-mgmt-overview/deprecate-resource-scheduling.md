@@ -10,6 +10,10 @@ description: We are currently in the process of deprecating all Scheduling tools
 
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
@@ -314,9 +318,16 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>✓</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td><span>Make advanced assignments</span> </td> 
+   <td>&nbsp;</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td>Suggest assignments based on the user's availability</td> 
+    <td> <p>Suggest assignments based on the user's availability</p> <p>(NOTE: this was de-prioritized. It was supposed to come out with the one above it but it never made it. According to Ani (Sept. 2021), this might be revisited based on need in about a year or so. I was not sure if this was ever available in the old Scheduling???)</p> </td> 
     <td>?</td> 
     <td>&nbsp;</td> 
     <td>&nbsp;</td> 

@@ -9,6 +9,10 @@ description: You can add a document that resides in your My Content area to a pr
 
 # Add a Workfront Library asset to Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add a document that resides in your My Content area to a project, task, or issue in Workfront. In order to add a document to Workfront from Workfront Library, you must have the following permissions:
 
 * Manage access to the document in Workfront Library

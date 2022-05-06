@@ -18,7 +18,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 Goal alignment is an important part of goal management. You can ensure everyone in your organization is on the same page about what must be achieved to drive strategy forward by aligning their goals to each other and to the organizational goals of teams, groups, and the company.
 
 After the top level goals are established and reviewed, direct reports and team members must then create more focused goals that cascade from the top level. The scope of these goals should be more narrow and should take into consideration the individual who is designated as responsible for the goal and their scope of influence. The goal should answer the question of what they and their team must achieve to fulfill the parent goal to which it is aligned.
@@ -27,7 +27,7 @@ For more information about best practices when aligning goals, see [Get started 
 
 ## Considerations for aligning goals
 
-* A goal cannot contribute to more than one other goal at the same time. Although you can have multiple children goals aligned to the same parent goal, a child goal you can only have one parent. For information about parent and children goals, see the [Understand parent and children goals](#understand-parent-and-children-goals) section in this article.
+* A goal cannot contribute to more than one other goal at the same time. Although you can have multiple children goals aligned to the same parent goal, a child goal can only have one parent. For information about parent and children goals, see the [Understand parent and children goals](#understand-parent-and-children-goals) section in this article.
 * A goal can have several aligned goals, as well as several activities and results. In addition, each child goal can have other activities and results that influence its progress as well as the progress of the parent goal.
 
   >[!TIP]
@@ -52,17 +52,6 @@ For information about parent and children goals, see the [Understand parent and 
 When you align goals to one another, one goal becomes the parent goal and the other the child goal. The progress of children goals influences the progress of the parent goals. This creates a goal hierarchy.
 
 Consider the following when working with children and parent goals:
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>In the Production environment, the following time period restrictions exist: &nbsp;&nbsp;</p>
-  <ul>
-  <li>You can align goals that only belong to the same or to a future time period.</li>
-  <li>The child goal must end earlier or on the same day as the parent goal. </li>
-  <li>You cannot align a goal to a past goal. </li>
-  <li>You can replace an existing parent goal with another goal, even if the child goal or the parent goals are in the past. </li>
-  <li>You can align a quarterly goal to an annual goal, but not a yearly goal to a quarterly goal. </li>
-  </ul> </li>
-  -->
 
 * You can align multiple children goals to the same parent goal. 
 * One child goal can only have one parent goal. 

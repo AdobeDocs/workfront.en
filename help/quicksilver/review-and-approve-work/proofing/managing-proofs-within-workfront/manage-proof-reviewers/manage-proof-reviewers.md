@@ -1,4 +1,11 @@
-
+---
+filename: _manage-proof-reviewers
+content-type: reference
+product-area: documents
+navigation-topic: manage-proofs-within-workfront
+title: Manage proof reviewers
+description: Configure access and subscription settings for a proof
+---
 
 # Manage proof reviewers
 

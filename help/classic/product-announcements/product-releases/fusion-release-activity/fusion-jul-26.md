@@ -26,7 +26,7 @@ For more information, see [Salesforce modules](../../../workfront-fusion/apps-an
 
 The consent screens for connections to Adobe Workfront Fusion are now updated. Now, you can see the specific actions and areas that the connections have access to, so that you can better understand what you are allowing the application to access.
 
-For more information, see the [Connect the module's app or web service to Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) section in [Create a scenario](../../../workfront-fusion/scenarios/create-a-scenario.md).
+For more information, see the [Connect the module's app or web service to Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) section in [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
 ```<iframe class="vimeo-player_0" src="assets/580421677?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

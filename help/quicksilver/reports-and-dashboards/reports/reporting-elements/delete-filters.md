@@ -3,10 +3,14 @@ filename: delete-filters
 product-area: reporting
 navigation-topic: reporting-elements
 title: Delete filters
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: (NOTE: Should this be renamed and updated for "Delete filters, views, and groupings" and be updated to illustrate this?! I think we should keep this separate from "Remove FVG" because there are two separate functions - ?!)
 ---
 
 # Delete filters
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Should this be renamed and updated for "Delete filters, views, and groupings" and be updated to illustrate this?! I think we should keep this separate from "Remove FVG" because there are two separate functions - ?!)</p>
+-->
 
 The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
@@ -40,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a filter</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a filter</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

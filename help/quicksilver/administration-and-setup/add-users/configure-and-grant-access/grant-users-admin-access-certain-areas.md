@@ -2,6 +2,10 @@
 
 # Grant users administrative access to certain areas
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">*** Linked in several places, do not rename or change URL.</p>
+-->
+
 As an Adobe Workfront administrator, you can use an access level to grant users with a Plan license administrative access to certain areas of the system.
 
 >[!NOTE]
@@ -10,7 +14,7 @@ As an Adobe Workfront administrator, you can use an access level to grant users 
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

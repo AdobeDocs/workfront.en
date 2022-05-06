@@ -4,11 +4,15 @@ content-type: overview;how-to-procedural
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Difference between Legacy Resource Planning and Planning
-description: Resource Planning in Workfront allows you to accurately allocate your resources based on their availability to projects in order of their priority. When planning your resources, you are performing a high-level allocation of resources, which distributes them to the projects you are currently working on. To specifically assign resources to work items (issues and tasks), use the Resource Scheduling tools. For more information about scheduling resources, see the Resource Scheduling section.
+description: (NOTE: Alina: *** Article should be removed when the Legacy Planning is removed from the system - mark this in the excel spreadsheet, when you add it there)
 hidefromtoc: true
 ---
 
 # Difference between Legacy Resource Planning and Planning
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** Article should be removed when the Legacy Planning is removed from the system - mark this in the excel spreadsheet, when you add it there) </p>
+-->
 
 >[!IMPORTANT]
 >
@@ -59,7 +63,7 @@ To use the tools available when planning your resources, you must add users to&n
 
 For more information about Resource Planning, refer to the following articles:
 
-* [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md) 
+* [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md) 
 * [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 
 The budgeting information defined in this area also reflects in the Resource Budgeting area of the Business Case, at the project level.  

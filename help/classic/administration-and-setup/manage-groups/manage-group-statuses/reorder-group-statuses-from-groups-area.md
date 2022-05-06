@@ -4,18 +4,26 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Reorder group statuses
-description: s mAs a group administrator, you can change the order of project, task, and issue statuses for a group you manage.
+description: As a group administrator, you can change the order of project, task, and issue statuses for a group you manage.
 ---
 
 # Reorder group statuses
 
-s mAs a ```group administrator```, you can change the order of project, task, and issue statuses for ```a group you manage```.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+As a ```group administrator```, you can change the order of project, task, and issue statuses for ```a group you manage```.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.</p>
+-->
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
 >[!NOTE]
 >
->* ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> A Workfront administrator can reorder</MadCap:conditionalText>``` the statuses at the system level```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> . This</MadCap:conditionalText>``` does not affect the order of statuses within groups. 
+>* A Workfront administrator can reorder the statuses at the system level. This does not affect the order of statuses within groups. 
 >
 >  However, the statuses within a newly created top-level group inherit the order of the system-level statuses. (A new subgroup inherits the order of the statuses in the group one level up.)
 >
@@ -31,11 +39,11 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>* </td> 
+   <td role="rowheader">Adobe Workfront plan* </td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.groups"> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront license</a>*</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 

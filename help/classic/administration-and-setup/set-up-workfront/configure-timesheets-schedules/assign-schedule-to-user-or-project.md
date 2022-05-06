@@ -5,11 +5,19 @@ product-area: system-administration;timesheets
 keywords: assign,schedule,user,project
 navigation-topic: configure-timesheets-and-schedules
 title: Assign a schedule to a user or project
-description: Assign a schedule to a user or project
+description: (NOTE: This article is drafted and should probably be deleted. Caroline and I spoke about this: this is not an admin function, so it should not be in this section. I have linked the individual articles that speak about how to assign schedules to users and projects in the steps of the article /Content/Administration and Setup/Set up Workfront/Configure Timesheets Schedules/create-schedules.html)
 hidefromtoc: true
 ---
 
 # Assign a schedule to a user or project
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article is drafted and should probably be deleted. Caroline and I spoke about this: this is not an admin function, so it should not be in this section. I have linked the individual articles that speak about how to assign schedules to users and projects in the steps of the article /Content/Administration and Setup/Set up Workfront/Configure Timesheets Schedules/create-schedules.html) </p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 ## Assign a schedule to users
 

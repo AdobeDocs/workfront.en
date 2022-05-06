@@ -2,6 +2,10 @@
 
 # ```Workfront Tools for AEM User Guide : Create Issues & Tasks```  {#title-heading}
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 There workflow steps that will allow a user to create an issue or task in a Adobe Workfront Project. The Workfront project both steps affect will be looked up using a relative path from the payload. The issue or task name is determined from the payload’s jcr:title property.
 
 Each workflow step can be added to any new or existing AEM Workflow Model. Workflow models can be conditionally triggered using AEM’s Workflow Launchers. See additional information on [Administering AEM Workflows](https://docs.adobe.com/help/en/experience-manager-65/administering/operations/workflows.html) and [AEM Launchers](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/workflows-starting.html).
@@ -35,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to a project to create an issue</p> <p>Contribute access to a project to create a task</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access to a project to create an issue</p> <p>Contribute access to a project to create a task</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

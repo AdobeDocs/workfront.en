@@ -5,10 +5,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 title: Brand your Adobe Workfront instance
-description: As an Adobe Workfront administrator, you can brand your Workfront instance with company-specific logos and images.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Brand your Adobe Workfront instance
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 As an Adobe Workfront administrator, you can brand your Workfront instance with company-specific logos and images.
 
@@ -16,7 +24,7 @@ Branding of the Workfront instance enables you to modify the logo images on the 
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

@@ -4,10 +4,18 @@ product-area: reporting
 keywords: user,delegation,report,delegate,approval
 navigation-topic: create-and-manage-reports
 title: Create a User Delegation report
-description: In Adobe Workfront, users can delegate project, task, and issue approvals to other users to make sure that their approvals are managed when they are out of office. Users with a Plan license can create a User Delegation report to see:
+description: (NOTE: consider moving this to the Custom View, Filter, Grouping Samples section as an example of a report)
 ---
 
 # Create a User Delegation report
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
+-->
 
 In Adobe Workfront, users can delegate project, task, and issue approvals to other users to make sure that their approvals are managed when they are out of office. Users with a Plan license can create a User Delegation report to see:
 
@@ -48,7 +56,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the items whose approvals are delegated and to the users involved in the delegation</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the items whose approvals are delegated and to the users involved in the delegation</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

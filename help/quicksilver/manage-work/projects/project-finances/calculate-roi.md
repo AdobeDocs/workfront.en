@@ -22,7 +22,7 @@ Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budge
 The following fields affect the ROI of a project:
 
 * **Project Planned Benefit**: This is a manual entry specified by the Project Owner when completing the Project Info area of the Business Case. This is an estimation of what you, as the Project Owner, think that the benefit of the project might be if you complete the project. This is a specific amount of currency and it must be a positive value.  
-  For more information about the Planned Benefit of a project, see the section "Project Info" in the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  For more information about the Planned Benefit of a project, see the section "Project Info" in the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 * **Project Budgeted Cost**:&nbsp;This is the total cost associated with the project as estimated when you first launch the project.
 

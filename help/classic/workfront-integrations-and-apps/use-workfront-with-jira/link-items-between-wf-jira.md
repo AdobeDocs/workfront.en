@@ -8,6 +8,10 @@ description: You can link Jira issues to Adobe Workfront tasks or issues either 
 
 # Link items between Adobe Workfront and Jira
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can link Jira issues to Adobe Workfront tasks or issues either automatically or manually.&nbsp;
 
 Only one item in Workfront can be linked to one item in Jira. You can never link one Workfront item to multiple Jira issues, nor one Jira issue to multiple Workfront items.

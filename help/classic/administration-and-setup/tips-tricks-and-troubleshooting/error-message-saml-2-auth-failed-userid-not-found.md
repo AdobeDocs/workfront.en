@@ -10,6 +10,10 @@ description: I am receiving this error when using SAML 2.0: "SAML 2.0 Authentica
 
 # Error message: SAML 2.0 Authentication Failed: User Identifier Not Found
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Problem
 
 I am receiving this error when using SAML 2.0: "SAML 2.0 Authentication Failed: User Identifier Not Found."
@@ -22,7 +26,7 @@ In ADFS the **Relying Party Trust** needs to have a **Claim rule** that passes e
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

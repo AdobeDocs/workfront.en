@@ -9,6 +9,10 @@ description: Proof stages are segments of time in which different users review a
 
 # Automated Workflow Stages overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Proof stages are segments of time in which different users review a proof. As the proof moves from one stage to the next, Adobe Workfront notifies the reviewers to tell them when it's time to work on it.
 
 ![stages_diagram.png](assets/stages-diagram-350x63.png)

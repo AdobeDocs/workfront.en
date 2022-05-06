@@ -9,6 +9,10 @@ description: You can use filters to reduce the amount of content that displays i
 
 # Filter content displayed in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use filters to reduce the amount of content that displays in the Library and My Content areas. You can also use filters to narrow Search results. For information on using Search, see [Search for items in Workfront Library](../../../workfront-library/content-management/basics/search-for-items-in-workfront-library.md).
 
 The available filters display in the Filter panel on the left side of the content area.

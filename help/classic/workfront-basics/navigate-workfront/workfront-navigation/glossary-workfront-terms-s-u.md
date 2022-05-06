@@ -47,7 +47,9 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Classic"> 
    <td>Scheduled Hours</td> 
-   <td> <p>This field displays in a Resource Estimate report which uses data from Legacy Resource Management Flash-based tools. These tools are currently deprecated and will soon be removed from Workfront. Workfront calculates Scheduled Hours by taking the Planned Hours from each task assigned to job roles in the Legacy Resource Pool, then divides those by the Duration of the task to get the hours per day. Then, it aggregates those from all tasks of the project specific to the timeframe to get the Scheduled Hours per project. The shortest timeframe is a week. </p> </td> 
+   <td> <p>This field displays in a Resource Estimate report which uses data from Legacy Resource Management Flash-based tools. These tools are currently deprecated and will soon be removed from Workfront. Workfront calculates Scheduled Hours by taking the Planned Hours from each task assigned to job roles in the Legacy Resource Pool, then divides those by the Duration of the task to get the hours per day. Then, it aggregates those from all tasks of the project specific to the timeframe to get the Scheduled Hours per project. The shortest timeframe is a week. </p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this should be removed at flash removal)</p>
+    --> </td> 
   </tr> 
   <tr> 
    <td> <p>Scheduled Report</p> </td> 
@@ -263,7 +265,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p> Do one of the following: </p> 
     <ul> 
      <li> Select <strong>Thumbnail</strong> &nbsp;to view a 33-66 pixel-wide thumbnail in the report. </li> 
-     <li>Select <strong>Large Thumbnail</strong>to view a 400 pixel-wide thumbnail in the report.</li> 
+     <li>Select <strong>Large Thumbnail</strong> to view a 400 pixel-wide thumbnail in the report.</li> 
     </ul> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> </td> 
   </tr> 
   <tr> 

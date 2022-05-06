@@ -3,12 +3,10 @@ filename: manage-work-and-team-requests-home
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
 title: Manage work and team requests in the Home area
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: When work tasks and issues are assigned to you, they are listed on the Work List in the Home area. You can view, reassign, reply to, work on, or remove a request. Work requests in the Home area are not limited to issues associated with request queues.
 ---
 
 # Manage work and team requests in the Home area
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 When work tasks and issues&nbsp;are assigned to you, they are listed on the Work List in the Home area. You can view, reassign, reply to, work on, or remove a request. Work requests in the Home area are not limited to issues associated with request queues.
 
@@ -36,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,27 +50,11 @@ You can select filters that display items that are ready for you to work on, or 
 This article describes how to use the filters in the Home area to view items that you are currently working on or might consider starting to work on.&nbsp;For information about all filters in the Home area, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. Click the **Filter** 
+1. Click the **Filter** drop-down menu.
 
-   <!--
-   <img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   -->
+   ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
-   drop-down menu.
-
-   ![](assets/displaying-work-items-filter-350x348.png)
-
-   <!--
-   <img src="assets/displaying-work-items-filters-nwe-350x401.png" style="width: 350;height: 401;" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   -->
-
-1. Click either or both of the following options 
-
-   <!--
-   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">for tasks</span>
-   -->
-
-   :
+1. Click either or both of the following options ```for tasks```:
 
    **Ready to Start:** Displays only tasks and issues that are ready to start. Both of the following statements must be true:
 
@@ -84,17 +66,8 @@ This article describes how to use the filters in the Home area to view items tha
    * The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.
    * The tasks or issues have a Planned Start Date that is more than two weeks in the future.
 
-1. Click **Working On** 
-
-   <!--
-   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">under Tasks or Issues</span>
-   -->
-
-   to display tasks and issues that you are currently working on.
-
-   <!--
-   <li class="preview" value="5" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>Click <strong>Requested</strong> under Issues to display issues that have been requested from you (you are assigned to them), but you have not accepted to work on yet. </p> </li>
-   -->
+1. Click **Working On** ```under Tasks or Issues``` to display tasks and issues that you are currently working on. 
+1. Click **Requested** under Issues to display issues that have been requested from you (you are assigned to them), but you have not accepted to work on yet.
 
 ## Access a team request
 
@@ -105,7 +78,7 @@ You can access a request assigned to your team directly from the Home area. For 
 
    If there are no requests assigned to your team, the grouping does not display.
 
-   ![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x540.png)
+   ![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
 
 1. Click the team name.  
    The **Team Requests** section displays and shows all requests assigned to your team. For more information about working with team requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
@@ -175,4 +148,3 @@ If you decide that you should not be working on the request, you can either conv
      You are unassigned from the&nbsp;request and the&nbsp;request is&nbsp;no longer associated with your name in Adobe Workfront.  
      If the request is not assigned to anyone else or to another team or job role, the request is&nbsp;left unassigned.
 
-&nbsp;

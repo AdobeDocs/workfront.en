@@ -9,6 +9,10 @@ description: If your Adobe Workfront administrator has enabled the Zoom integrat
 
 # Zoom integration overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If your Adobe Workfront administrator has enabled the Zoom integration, you can start a Zoom meeting with collaborators by inserting a Zoom link into an Update comment or a reply.
 
 ![](assets/zoom-updates-area-350x175.png)

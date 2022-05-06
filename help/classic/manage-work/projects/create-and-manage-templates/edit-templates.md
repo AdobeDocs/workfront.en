@@ -3,10 +3,18 @@ filename: edit-templates
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Edit project templates
-description: You can edit project templates to reflect changes in project processes and settings. After you update and save the changes on a template, the new changes are visible in new projects when the projects are created using the template. The changes you make on the template do not reflect on the project currently using that template.
+description: (NOTE: The Resource Pools part also duplicates in the "Working with Resource Pools" article)
 ---
 
 # Edit project templates
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;The Resource Pools part also duplicates in the "Working with Resource Pools" article)</p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can edit project templates to reflect changes in project processes and settings. After you update and save the changes on a template, the new changes are visible in new projects when the projects are created using the template. The changes you make on the template do not reflect on the project currently using that template.
 
@@ -36,7 +44,7 @@ You must have the following access to perform the steps in this article:
     <ul> 
      <li> <p>Contribute permissions to a template to edit it in the Template Details tab</p> </li> 
      <li> <p>Manage permissions to a template to edit it in the Edit Template box</p> </li> 
-    </ul> <p> For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Sharing a template</a>. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+    </ul> <p> For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Sharing a template</a>. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -217,7 +225,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td><p>Specify a Portfolio for the projects that are created from this template. You must create a Portfolio first, before it appears in the drop-down list. </p><p>Only active portfolios display in the list. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio</a>.</p></td> 
+      <td><p>Specify a Portfolio for the projects that are created from this template. You must create a Portfolio first, before it appears in the drop-down list. </p><p>Only active portfolios display in the list. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Program</strong></td> 
@@ -324,7 +332,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Resource Pools</strong> </td> 
-      <td> <p>Specify the resource pools associated with the template. Resource pools are collections of users that are needed at the same time for the completion of a project. For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.</p> <p> <p>Note: When you edit templates in bulk, only the resource pools that are common to all the templates selected appear in this field. If the templates selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the templates' individual resource pools.</p> </p> </td> 
+      <td> <p>Specify the resource pools associated with the template. Resource pools are collections of users that are needed at the same time for the completion of a project. For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</p> <p> <p>Note: When you edit templates in bulk, only the resource pools that are common to all the templates selected appear in this field. If the templates selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the templates' individual resource pools.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approval Process</strong> </td> 
@@ -332,7 +340,9 @@ You must have the following access to perform the steps in this article:
        <ul> 
         <li>Only active approval processes display in the list. </li> 
         <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the template does not display in the list.</p> <p>Important: If the group associated with the template changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-        <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> </li> 
+        <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> <!--
+          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>
+         --> </li> 
         <li> <p>When bulk-editing templates, the following scenarios exist:</p> 
          <ul> 
           <li> <p>When you select templates from the same group, both system-level and group-level approval processes display in this field.</p> </li> 
@@ -387,7 +397,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>When someone submits a request: Give them access</strong> </td> 
-      <td> <p> Select from <strong>View</strong>, <strong>Contribute</strong>, or <strong>Manage</strong> access to the request. When they submit a request to the project, they are granted this access to the request they submitted. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a>.</p> </td> 
+      <td> <p> Select from <strong>View</strong>, <strong>Contribute</strong>, or <strong>Manage</strong> access to the request. When they submit a request to the project, they are granted this access to the request they submitted. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>People from the same company will inherit the same permissions for all requests</strong> </td> 
@@ -533,34 +543,4 @@ You can add the following items to the tasks in the template:
 * Approvals
 
   For more information about associating approvals with work, see [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Edit"></a>Overview of Start and Completion Days in a template</h2>
-<ul>
-<li><a href="#Start%20Da" class="MCXref xref">Start Day</a> </li>
-<li><a href="#completion-day" class="MCXref xref">Completion Day</a> </li>
-</ul>
-<h3><a name="Start Da"></a>Start Day</h3>
-<p>Consider the following when working with templates and template tasks:</p>
-<ul>
-<li>By default, templates have a Start Day of 0 and the template tasks and the template show a Start Day of 0. The Start Day of the template tasks can change but this does not change the Start Day of the template.</li>
-<li>The start day of a template task represents the number of business days that Workfront adds to the task's Planned Start Date when a project is created from the template. For example, you can have a template with only one task and the Start Day of the template task is 4. The Start Day of the template is still 0. When you create a project from this template where the project's Schedule Mode is Start Date, and the Planned Start Date of the project is November 1, 2019, the newly-created task adds 4 days to this date and sets its Planned Start Date value to November 5, 2019. </li>
-</ul>
-<p>The following are some actions that might change the Start Day of the template tasks:</p>
-<ul>
-<li>Update the Duration of predecessor template tasks</li>
-<li> <p>Update the Task Constraints</p> <p>When using date-based Task Constraints, you can manually update the Start Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Start No Earlier Than, Start No Later Than, Must Start On. </p> </li>
-<li>Update the template task predecessors</li>
-</ul>
-<h3 id="completion-day"><a name="Completi"></a>Completion Day</h3>
-<p>The Completion Day of the template is the day when the last template task completes. By default, all template tasks and the template show a Completion Day of 1, because Workfront assumes that any template task has a Duration of 1 Day. The Completion Day of the template tasks can change and this also changes the Completion Day of the template. The Completion Day of the template becomes the Planned Completion Date of the future project and the Completion Days of the template tasks become the Planned Completion Dates of the future project tasks. </p>
-<p>The following are some actions that might change the Completion Day of the template tasks:</p>
-<ul>
-<li>Update the Duration of the template tasks</li>
-<li> <p>Update the Task Constraints</p> <p>When using date-based Task Constraints, you can manually update the Completion Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Finish No Earlier Than, Finish No Later Than, Must Finish On. </p> </li>
-<li>Update the template task predecessors</li>
-</ul>
-</div>
--->
 

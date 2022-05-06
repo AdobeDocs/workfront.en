@@ -11,6 +11,10 @@ description: A connection must adhere to the requirements set by the API of the 
 
 # Create connections in Adobe Workfront Fusion
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 A connection must adhere to the requirements set by the API of the app or web service it connects to.&nbsp;For this reason, instructions for setting up a connection vary based on the app or web service. This article can help you identify and locate the instructions for connecting Adobe Workfront Fusion to your chosen app or web service.
 
 ## Access requirements
@@ -63,7 +67,7 @@ For instructions, see [Connect Workfront to Workfront Fusion](../../workfront-fu
 
 In most cases, you can use the module to create a connection with little or no extra information. Workfront Fusion handles the authentication automatically.
 
-For instructions on creating a connection with no special considerations, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md).
+For instructions on creating a connection with no special considerations, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md).
 
 ## Connect to a Microsoft app or web service
 
@@ -77,7 +81,7 @@ The following circumstances do require extra steps in creating a connection:
 
 * Connecting to the Microsoft Graph API using an HTTP module
 
-  For instructions, see [Call the MS Graph REST API via the HTTP > Make an OAuth 2.0 request module](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  For instructions, see [Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
 
 ## Connect to a Google app or web service
 

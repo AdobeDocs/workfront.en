@@ -48,7 +48,7 @@ Consider the following when working with groupings:
   For information about granting access, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Your level of permissions to a grouping dictates how a grouping is saved. If you created the grouping originally, you can save the changes; otherwise you are prompted to save a version of the grouping. If you make changes to a grouping you have shared with others it impacts them as well.
-* You can customize a grouping that was shared with you only if the user who shared it granted you Manage access.&nbsp;For information about sharing a grouping, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* You can customize a grouping that was shared with you only if the user who shared it granted you Manage access.&nbsp;For information about sharing a grouping, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 * You cannot edit a grouping inline.
 * You cannot group by multi-select custom fields (for example, check boxes), or by fields that can have multiple values (for example, Resource Manager).
 

@@ -8,6 +8,10 @@ description: The My Work area displays items you have agreed to work on. You mus
 
 # Navigate My Work
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 The My Work area displays items you have agreed to work on. You must have a Planner or a Worker license to see the My Work area in your Global Navigation Bar.
 
 The My Work area has been renamed to My Updates for users with a Reviewer license. For information, see [My Updates area](../../../workfront-basics/using-home/my-work/my-updates-area-my-work.md).

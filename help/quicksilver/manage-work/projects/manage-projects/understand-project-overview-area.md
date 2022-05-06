@@ -4,10 +4,14 @@ content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 title: Manage information in the project Overview area
-description: You can view or edit the information of a project by accessing the Overview area of the Project Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project see Edit projects.
+description: (NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)
 ---
 
 # Manage information in the project Overview area
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
+-->
 
 You can view or edit the information of a project by accessing the Overview area of the Project Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -33,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the project or higher</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the project or higher</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -160,34 +164,34 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span>Initiative Duration*</span> </td> 
+      <td role="rowheader"><span>Initiative Duration</span> </td> 
       <td><span>The duration of the corresponding initiative when the project is linked to an initiative. This field is not editable.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Last Published Date*</span> </td> 
+      <td role="rowheader"><span>Last Published Date</span> </td> 
       <td><span>The date when the project was last published from a corresponding initiative.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Initiative Start Date*</span> </td> 
+      <td role="rowheader"><span>Initiative Start Date</span> </td> 
       <td><span>The first day of the start month of the initiative, when the project is linked to an initiative.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Initiative End Date*</span> </td> 
+      <td role="rowheader"><span>Initiative End Date</span> </td> 
       <td><span>The last day of the end month of the initiative, when the project is linked to an initiative.&nbsp;</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Initiative Job&nbsp;Roles in FTEs and Hours*</span> </td> 
+      <td role="rowheader"><span>Initiative Job&nbsp;Roles in FTEs and Hours</span> </td> 
       <td> <p>Information about the associated job roles and their time allocations for the initiative.&nbsp;This includes:</p> 
        <ul> 
         <li>Job&nbsp;Role name</li> 
         <li>Number of FTEs</li> 
-        <li> <p>Number of Hours for all&nbsp;FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs.&nbsp;</p> <p>For more information, see <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> </li> 
+        <li> <p>Number of Hours for all&nbsp;FTEs</p> <p>You can estimate the amount of job roles needed for your plan or initiative using hours or FTEs.&nbsp;</p> <p>For more information, see <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>. </p> </li> 
        </ul> <p>Tip: <span>If the number of job role is different for each month in the initiative, this field displays the maximum amount of roles needed for the initiative. For example, if you need 1 Consultant for January and 2 for February, the column displays 2FTE and the corresponding amount of hours for 2 FTEs for all months.</span> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   For information about linking projects with initiatives, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+   For information about linking projects with initiatives, see [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 1. Click **Save Changes**.
 

@@ -8,6 +8,10 @@ description: As an Adobe Workfront administrator or a user with a Plan or Work l
 
 # Edit team settings
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an Adobe Workfront administrator or a user with a Plan or Work license, you can edit Team Settings.
 
 You can add users to a team, set the team layout template, and set how status is recorded when work items are completed by a team.

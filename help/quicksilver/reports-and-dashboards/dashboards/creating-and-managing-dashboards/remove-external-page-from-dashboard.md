@@ -2,11 +2,11 @@
 filename: remove-external-page-from-dashboard
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Remove an External Page from a dashboard in Adobe Workfront
+title: Remove an External Page from a dashboard
 description: You can remove an External Page from a dashboard if it's no longer needed.
 ---
 
-# Remove an External Page from a dashboard in&nbsp;Adobe Workfront
+# Remove an External Page from a dashboard
 
 You can remove an External Page from a dashboard if it's no longer needed.
 
@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,10 +43,8 @@ You must have the following access to perform the steps in this article:
 
 ## Remove an external page from a dashboard
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Dashboards**.  
-1. Select the dashboard from which you want to remove the external page, then click **Edit** ![](assets/edit-icon.png)
-
-   .
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Dashboards**. 
+1. Select the dashboard from which you want to remove the external page, then click **Edit** ![](assets/edit-icon.png).
 
    ![Select the Edit icon.](assets/nwe-editdashboard2021-350x188.png)
 

@@ -8,7 +8,15 @@ description: You can modify an existing calendar by adding or deleting a link to
 
 # Edit an existing calendar report
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can modify an existing calendar by adding or deleting a link&nbsp;to a project. You can also modify calendar groupings associated with a calendar report.
+
+>[!NOTE]
+>
+>You are limited to 15 groupings in a calendar report.
 
 ## Access requirements
 
@@ -34,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage access to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,8 +52,9 @@ You must have the following access to perform the steps in this article:
 ## Edit an existing calendar report
 
 1. Go to the **Reporting** area.
-1. Click the **Calendars**&nbsp;tab, then select the calendar report you want to modify.  
-   ![](assets/calendar-tab-with-calendar-selected-350x72.png)  
+1. Click the **Calendars**&nbsp;tab, then select the calendar report you want to modify.
+
+   ![](assets/calendar-tab-with-calendar-selected-350x72.png)
 
 1. (Optional) To change the name of the calendar report, click the calendar name field, then make the desired changes.  
    ![TitleChange.png](assets/titlechange-250x230.png)  

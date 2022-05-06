@@ -26,7 +26,7 @@ Any changes you make to the taxonomy are applied to the metadata of all new asse
 
 1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. In the left panel, click **Setup >****Taxonomy**.
+1. In the left panel, click **Setup >** **Taxonomy**.
 1. Hover over the field you want to edit, then click **Edit**.
 1. Make the desired changes, then click **Save**.
 

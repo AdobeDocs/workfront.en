@@ -10,6 +10,10 @@ description: As an Adobe Workfront administrator, you need to enable the Zoom in
 
 # Install the Zoom integration
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an Adobe Workfront administrator, you need to enable the Zoom integration in Workfront before users can use it in the Updates area.
 
 For information how users can insert a Zoom link into a comment or a reply in the Updates area, see the section [Add an update to a work item](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). (Your Workfront users do not have the Zoom icon in the Updates area if you have not yet enabled the integration for your organization.)

@@ -9,6 +9,10 @@ description: As a Workfront Library administrator, you can transfer all of the a
 
 # Transfer ownership assets to another user
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a Workfront Library administrator, you can transfer all of the asset in a user's My Content area to a different user.
 
 ## Transfer all assets
@@ -50,7 +54,7 @@ To transfer a single asset:
    >
    >You cannot transfer folders.
 
-1. Click the **Asset Actions**icon ![](assets/library-document-icon.png), then click **Transfer asset ownership**.
+1. Click the **Asset Actions** icon ![](assets/library-document-icon.png), then click **Transfer asset ownership**.
 
 1. In the Transfer asset ownership dialog box, begin typing the name of the user that you want to transfer assets to. Select the name when it appears in the drop-down list.
 1. Click **Transfer**.

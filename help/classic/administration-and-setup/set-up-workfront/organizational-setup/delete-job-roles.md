@@ -9,6 +9,10 @@ description: You can delete job roles that your organization no longer uses. We 
 
 # Delete job roles
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can delete job roles that your organization no longer uses. We recommend that you do not delete job roles if they have been associated with work items in the past. ```To keep all your historical information about work assignments, we recommend that you deactivate roles, rather than delete them when they become obsolete. For information about deactivating roles, see [Deactivate job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).```
 
 ## Access requirements
@@ -37,6 +41,10 @@ You must have the following:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Delete a job role
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved from create and manage job roles)</p>
+-->
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click**Job Roles.**

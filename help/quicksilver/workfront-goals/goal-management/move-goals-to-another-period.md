@@ -28,7 +28,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -43,7 +43,7 @@ You must have the following:
    <td> 
     <div> 
      <p>Manage permissions to the goal</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -56,30 +56,6 @@ You must have the following:
 You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main&nbsp;Menu.
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="move"></a>Move goals to another time period in the Production environment</h2>
-<p>We recommend that you create goals for quarterly and yearly time periods. </p>
-<p>After you spend the quarter or the year tracking and updating progress on your goals across the organization, you may find that you cannot yet complete them. In this case, you can copy the unfinished goal and place it in a new time period. </p>
-<ol>
-<li value="1"> <p>Go to a goal with a past time period that you want to move to another period. </p> </li>
-<li value="2"> <p>Copy the goal. </p> <p>For information about copying a goal, see <a href="../../workfront-goals/goal-management/copy-goals.md" class="MCXref xref">Copy goals in Adobe Workfront Goals</a>.</p>
-<div>
-<p>Some of the goal information transfers to the copied goal, giving you a start for a new time period. For example, you can copy the following information from an existing goal to a copied goal:</p>
-<ul>
-<li>Name</li>
-<li>Description</li>
-<li>Owner</li>
-<li> <p>Results and their owner</p> </li>
-</ul> <note type="important">
-You cannot copy goal or result progress when copying goals.
-</note>
-</div> </li>
-<li value="3"> <p>Activate the goal. For information about creating and activating goals, see <a href="../../workfront-goals/goal-management/activate-goals.md" class="MCXref xref">Activate goals in Adobe Workfront Goals</a></p> </li>
-</ol>
-</div>
--->
 
 ## Move goals to another time period
 

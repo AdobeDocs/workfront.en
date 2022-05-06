@@ -8,6 +8,10 @@ description: Dates can be configured to display in a variety of formats in repor
 
 # Format dates in text mode reports
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Dates can be configured to display in a variety of formats in reports and lists in Adobe Workfront. To establish a date format, you must modify the 
 
 ```

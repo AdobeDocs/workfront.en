@@ -6,14 +6,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Marketo modules
-description: In a Adobe Workfront Fusion scenario, you can connect your Marketo account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Marketo modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Marketo account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -65,16 +65,16 @@ To use Marketo modules, you must have a Marketo account.
 
 You can create a connection to your Marketo account directly from inside Marketo module.
 
-1. In any Marketo module, click **Add**next to the Connection field.
+1. In any Marketo module, click **Add** next to the Connection field.
 1. Enter your Marketo account or Marketo Munchkin ID. This is the unique part of the Base URL or Endpoint assigned to your account, that you use to access Marketo via its REST API. For instructions on locating this, see [Base URL](https://developers.marketo.com/rest-api/base-url/) in the Marketo documentation.
 1. Enter your Client ID and Client secret. For instructions on locating these, see [Authentication](https://developers.marketo.com/rest-api/authentication/) in the Marketo documentation.
-1. Click **Continue**to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ## Marketo Modules and their fields
 
 When you configure Marketo modules, Workfront Fusion displays the fields listed below. Along with these, additional Marketo fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -129,7 +129,7 @@ This trigger module starts a scenario when a record is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Webhook</p> </td> 
-   <td> <p>Enter the webhook that you want the module to use.</p> <p>For more information on webhooks, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>Enter the webhook that you want the module to use.</p> <p>For more information on webhooks, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks) in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
@@ -169,7 +169,7 @@ This action module lets you make a custom authenticated call to the Marketo API.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

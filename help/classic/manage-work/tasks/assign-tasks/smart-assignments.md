@@ -9,6 +9,10 @@ description: When managing task and issues assignments, you can use smart assign
 
 # Smart assignments overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When managing task and issues assignments, you can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job.
 
 >[!NOTE]
@@ -71,6 +75,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
 <h3><a name="Smart"></a>Smart assignments criteria for the Production environment</h3>
+<p>(NOTE: drafted,this was the case BEFORE we updated the logic in the WB - with the 21.4 release)</p>
 </div>
 <p>Smart assignments display on tasks and issues when the following conditions are met:</p>
 <ul>
@@ -94,6 +99,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="assigning-smart-assigmments"></a>Make smart assignments</h2>
+<p>(NOTE:&nbsp;this was moved to its own article: make-smart-assignments.) </p>
 <p>Smart assignments are available in most locations where you can make assignments in Workfront.</p>
 <p>You can use smart assignments on tasks and issues that have previously been assigned to a job role or a team.</p> <note type="note">
 You must have a Plan or a Work license and have at least Contribute permissions to a task or an issue to be able to make assignments to the task or the issue. You must have the Make Assignments option enabled in your permission level to make assignments.

@@ -2,13 +2,19 @@
 filename: edit-timesheets
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Edit timesheets in Adobe Workfront
-description: As a user with administrative access to Timesheets, you can edit existing timesheets in Adobe Workfront . You can edit a single timesheet, or you can edit multiple timesheets in bulk.
+title: Edit timesheet information
+description: As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront . For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
 ---
 
-# Edit timesheets in Adobe Workfront
+# Edit timesheet information
 
-As a user with administrative access to Timesheets, you can edit existing timesheets in Adobe Workfront . You can edit a single timesheet, or you can edit multiple timesheets in bulk.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront . For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
+
+You can edit information on a single timesheet, or you can edit multiple timesheets in bulk.
 
 ## Access requirements
 
@@ -67,7 +73,7 @@ You must have the following to perform the steps in this article:
       >
       >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
 
-1. (Optional)&nbsp;Click **View** or **Grouping ** to apply a different view or grouping or to create a new one.
+1. (Optional)&nbsp;Click **View** or **Grouping** to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -75,7 +81,7 @@ You must have the following to perform the steps in this article:
    * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select one or several timesheets, then click **Edit** `````` at the top of the timesheet list. 
+1. Select one or several timesheets, then click **Edit** at the top of the timesheet list. 
 1. View or specify the following information:
 
    <table cellspacing="0"> 

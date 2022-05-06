@@ -7,6 +7,10 @@ description: Adobe Workfront sends notifications about items you are assigned to
 
 # Subscribe to items in Adobe Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
 
 You can also keep your manager and peers updated on your work by subscribing them to the Update Status of items to which you have Manage and Share permissions.
@@ -78,10 +82,6 @@ For example, to subscribe to an issue:
 
    To learn more about subscription email, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more about mobile app push notifications, see .</p>
--->
-
 ## Unsubscribe from an item
 
 You can easily&nbsp;unsubscribe from an item in Workfront. The process for unsubscribing&nbsp;from an item in Workfront is identical&nbsp;for all items.
@@ -128,7 +128,7 @@ When someone adds a comment to the Updates tab of the item, the subscriber recei
 ### Unsubscribe another person from&nbsp;an item {#unsubscribe-another-person-from-an-item}
 
 1. Go to the item from which you want to unsubscribe another user.
-1. Click the number bubble next to the&nbsp;**Subscribe**or**Subscribed** or link.
+1. Click the number bubble next to the&nbsp;**Subscribe** or**Subscribed** or link.
 1. On the **Subscribers** page that appears, click the "X" next to the name of the user you want to unsubscribe.
 
    Or
@@ -153,10 +153,6 @@ For more information, see [View and manage in-app notifications](../../workfront
 
 Depending on the features your Workfront administrator has enabled, you may receive subscription emails in addition to in-app notifications whenever someone comments on an item you subscribe to.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about the subscription email, see the "Receiving Subscription Emails" section in <a href="../../workfront-basics/using-notifications/wf-notifications.md" class="MCXref xref">Adobe Workfront notifications</a>.</p>
--->
-
 For more information about setting up or disabling email, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 >[!NOTE]
@@ -169,7 +165,7 @@ To see who is&nbsp;subscribing to an item:
 
 1. Navigate to an item for which you want to see the subscribers.
 
-   If there are any subscribers to the item, the number of subscribers displays next to the subscription link. You can mouse over the number to display a list of users who subscribe to the item.&nbsp;The first 25 subscribers display&nbsp;in alphabetical order.
+   If there are any subscribers to the item, the number of subscribers displays next to the subscription link. You can hover over the number to display a list of users who subscribe to the item.&nbsp;The first 25 subscribers display&nbsp;in alphabetical order.
 
    ![](assets/mceclip2-350x200.png)
 

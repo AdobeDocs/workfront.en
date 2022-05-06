@@ -8,6 +8,10 @@ description: You can easily communicate with the members of your project team th
 
 # Communicate with Project Team members
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can easily communicate with the members of your project team through Adobe Workfront.
 
 All the users associated with a project form the Project&nbsp;Team.&nbsp;For information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
@@ -36,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,13 +56,15 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   To update certain members of the project team, select one or several users in the list, then click **Update**.   
+   To update certain members of the project team, select one or several users in the list, then click ******Update**.   
    ![Commenting_1.png](assets/commenting-1-350x352.png)
 
 1. Type your update in the **Post an update to this project** field.
-1. (Optional) To make the update private, click the **Lock** icon.  
+1. (Optional) To make the update private, click the **Lock** icon.
+
    Users outside the company cannot view a private&nbsp;update.
 
+1. (Optional)&nbsp;Click the **People** icon to add more recipients that are not selected. 
 1. Click&nbsp;**Send**.
 
    The update and the names of the users included in it display in the Updates tab of the project.
@@ -78,10 +84,8 @@ You can send project updates to team members and to other users that might not b
 
    The update and the names of the users included in it display in the Updates tab of the project.
 
-&nbsp;
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>
 <ol>
 <li value="1"> <p>Go to a project whose members of the project team you want to send an email to. </p> </li>
 <li value="2" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>More</strong>, then click the <strong>Staffing</strong> tab.</li>

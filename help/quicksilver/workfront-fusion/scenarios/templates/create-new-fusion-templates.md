@@ -60,18 +60,18 @@ You must have the following access to use the functionality in this article:
 1. Click **Templates** ![](assets/fusion-template-icon.png) in the left navigation panel.
 1. Click **Create a new template** in the top-right corner.
 1. (Optional) Rename the template by replacing the default **New template name** in the top-left corner.
-1. (Optional) To change the language of your template, click Set up a template ![](assets/fusion-scenario-settings-icon.png) and select the language from the Language drop-down.
+1. (Optional) To change the language of your template, click **Set up a template** ![](assets/fusion-scenario-settings-icon.png) and select the language from the Language drop-down.
 
    >[!IMPORTANT]
    >
    >The Languages selection corresponds to the languages available in the system settings and concerns only the name of the public template and its description. You can't change a template language once the template has been saved.
 
-1. (Optional) To enter a description of the template, click Set up a template ![](assets/fusion-scenario-settings-icon.png) and enter the description.
+1. (Optional) To enter a description of the template, click **Set up a template** ![](assets/fusion-scenario-settings-icon.png) and enter the description.
 1. Add apps, modules, and tools in the same way as you would do when creating a standard scenario.
 
    To add contextual help to the modules, see [Set up Wizard functionality](#set-up-wizard-functionality) in this article.
 
-   For more information on building a scenario, see [Create a scenario](../../../workfront-fusion/scenarios/create-a-scenario.md).
+   For more information on building a scenario, see [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
    >[!NOTE]
    >

@@ -16,7 +16,7 @@ The Sharing window shows two different permissions for one user, which one is be
 
 ## Answer
 
-Users have the highest permission shown on the sharing screen. For more information about permissions, see the article [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Users have the highest permission shown on the sharing screen. For more information about permissions, see the article [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ![](assets/screen-shot-2014-03-19-at-3.36.28-pm-350x403.png)
 

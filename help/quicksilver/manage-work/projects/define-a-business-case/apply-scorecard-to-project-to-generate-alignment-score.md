@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>View or higher permissions to a portfolio </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a project</p> <p>View or higher permissions to a portfolio </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ For more information about project permissions, see [Share a project in Adobe Wo
 
 You can add scorecards to a project as part of building the business case for the project.
 
-For more information about building a business case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about building a business case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 Your Adobe Workfront administrator ```or group administrator``` must enable the Scorecard section in the Business Case area of your projects before you can access scorecards from the Business Case. For information about setting up project preferences and enabling areas of the Business Case, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -145,6 +145,8 @@ For more information about the information displayed in the Portfolio Optimizer,
 * [Locate the Alignment Score of the project in the Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer) 
 * [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
+  ![](assets/alignment-score-in-portfolio-optimizer-nwe-350x97.png)
+
 #### **Locate the Alignment Score of the project in the Portfolio Optimizer** {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then **Portfolios**. 
@@ -180,6 +182,6 @@ The alignment score of a project displays in the **Alignment** column of the Por
 
 The portfolio optimizer score is a ranking automatically calculated in the Portfolio Optimizer by which projects can be prioritized. The portfolio optimizer score is displayed as an indicator icon accompanied by a number and it displays in the **Score** column of the Portfolio Optimizer. A Portfolio Optimizer score is generated only when all the sections of the Business Case are completed, except for Goals.
 
-For more information about creating a Business Case for a project, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about creating a Business Case for a project, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 For more information about calculating the portfolio optimizer score of a project, see [Overview of the Portfolio Optimizer Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).

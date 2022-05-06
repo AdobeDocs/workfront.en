@@ -4,10 +4,14 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Resource Planner overview
-description: You can estimate and budget the allocation of your resources to the projects they are assigned to and forecast their availability for future work using the Resource Planner.
+description: (Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)
 ---
 
 # Resource Planner overview
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
+-->
 
 You can estimate and budget the allocation of your resources to the projects they are assigned to and forecast their availability for future work using the Resource Planner.
 
@@ -67,11 +71,15 @@ You can view information in the Resource Planner using three separate views. You
 
 ## Prerequisites for working in the Resource Planner {#prerequisites-for-working-in-the-resource-planner}
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(<b>THIS SECTION IS LINKED TO ALL RES PLANNING ARTICLES. DO NOT RENAME OF DELETE THIS!</b> - do NOT ADD the variable here, because it might break this link!)</p>
+-->
+
 To successfully use the Resource Planner for budgeting your resources, you must first ensure that you, your projects, and your tasks meet a set of prerequisites. These prerequisites are mandatory to display the correct information in the Resource Planner and to accurately manage your resources.
 
 >[!IMPORTANT]
 >
->If any of the following prerequisites are missing, you might find that some of the information about the allocation or the availability of the resources is missing or has a zero value.  
+>If any of the following prerequisites are missing, you might find that some of the information about the allocation or the availability of the resources is missing or has a zero value.   
 >For more information understanding why fields are missing data or have zero values, hover over the fields.
 
 ![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
@@ -94,11 +102,11 @@ Ensure the following user setup exists before starting using the Resource Planne
 
 * You have the correct access to budget resources.
 
-  For information about the access needed to budget resources, see the article [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  For information about the access needed to budget resources, see the article [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Users who are assigned to tasks are added to the resource pools associated with the project.
 
-  For information about adding users to resource pools, see [Associate resource pools with users in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  For information about adding users to resource pools, see [Associate resource pools with users](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
   >[!NOTE]
   >
@@ -138,7 +146,7 @@ Ensure the following user setup exists before starting using the Resource Planne
 Ensure the following project setup exists before starting using the Resource Planner:
 
 * Your projects are associated with resource pools.  
-  For more information about adding resource pools to projects, see [Associate resource pools with projects and templates in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+  For more information about adding resource pools to projects, see [Associate resource pools with projects and templates](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
 
   >[!IMPORTANT]
   >
@@ -179,25 +187,30 @@ For more information, see [Configure Resource Management preferences](../../admi
 
 ## Locate the Resource Planner
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This became another standalone article; drfat this section here when article is live.)</p>
+-->
+
 You can locate the Resource Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.
 
-For information about locating the Resource Planner, see [Locate the Resource Planner in Adobe Workfront](../../resource-mgmt/resource-planning/locate-resource-planner.md).
+For information about locating the Resource Planner, see [Locate the Resource Planner](../../resource-mgmt/resource-planning/locate-resource-planner.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(this is drafted and moved to its own article: locate-resource-planner) </p>
 <p>Ensure that all prerequisites are met before starting to use the Resource Planner. This way, you ensure that the Resource Planner displays the correct information before you start budgeting your resources.<br>For information about the prerequisites that must be met before you can start using the Resource Planner, see the <a href="#prerequisites-for-working-in-the-resource-planner" class="MCXref xref">Prerequisites for working in the Resource Planner</a> section in this article. </p>
-<p>You can locate the Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.</p>
+<p>You can locate the Resource Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.</p>
 <ul>
 <li><a href="#use-the-resource-planner-for-multiple-projects" class="MCXref xref">Use the Resource Planner for multiple projects</a> </li>
 <li> <p><a href="#use-the-resource-planner-for-one-project" class="MCXref xref">Use the Resource Planner for one project</a> </p> </li>
 </ul>
 <h3 id="use-the-resource-planner-for-multiple-projects"><a name="Access"></a>Use the Resource Planner for multiple projects</h3>
 <p>When using the Resource Planner for multiple projects, the allocation numbers for your resources represent numbers across multiple projects. </p>
-<p>To access the Planner section in the Resourcing area: </p>
+<p>To access the  Planner section  in the  Resourcing area: </p>
 <ol>
-<li value="1">  Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront. </li>
-<li value="2"> <p> Click <strong>Resourcing</strong>. The Planner displays by default.  For information about budgeting resources in the Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> <p> <img src="assets/qs-resource-management-area-with-planner-as-default-350x152.png" style="width: 350;height: 152;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
-<li value="3"> Hover over the left panel, and click <strong>Resource Pools</strong>. <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</li>
+<li value="1">  Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.  </li>
+<li value="2"> <p>  Click <strong>Resourcing</strong>. The Resource Planner displays by default.  For information about budgeting resources in the Resource Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> <p> <img src="assets/qs-resource-management-area-with-planner-as-default-350x152.png" style="width: 350;height: 152;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="3">  Hover over the left panel, and click <strong>Resource Pools</strong>. <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools</a>.</li>
 </ol>
 <h3 id="use-the-resource-planner-for-one-project"><a name="Access2"></a>Use the Resource Planner for one project</h3>
 <p>When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project. </p>
@@ -232,7 +245,7 @@ For more information about these limitations, see the article [Resource Planner 
 
 You can display availability, allocation, and planned values in the Resource Planner in Hours, FTE, or Cost.
 
-For more information about changing the information you display in the Resource Planner, see the section [View information by Hour, FTE, or Cost](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) in the article [Review resource availability and allocation using the Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+For more information about changing the information you display in the Resource Planner, see the section [View information by Hour, FTE, or Cost](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) in the article [Review resource availability and allocation using the Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 For more information about how the Hours and FTE for users and roles are calculated in Workfront, see the article [Overview of calculating hours and FTE for users and roles in the Resource Planner](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
@@ -260,6 +273,7 @@ For more information about how Costs are calculated in the Resource Planner for 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Using"></a>Use the User View to view Available, Planned, and Actual Hours or FTE </h2>
+<p>(this information is repeated from above where it exists in shorter form. Drafted to simplify the amount of info of this article.) </p>
 <p>You can use the User View of the Resource Planner to display information about the Planned, Available, and Actual Hours or FTE values for projects and resources. </p>
 <p>For information about using the Resource Planner to review the Available, Planned, and Actual Hours and FTE for resources, see the article <a href="../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md" class="MCXref xref">View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view</a>.</p>
 <h2 id="use-the-project-and-role-views-to-budget-resources"><a name="Using2"></a>Use the Project and Role Views to budget resources </h2>

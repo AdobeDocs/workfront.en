@@ -28,7 +28,7 @@ The settings that determine how you receive email alerts about proof comments an
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span class="wysiwyg-font-size-medium"><strong>New proof window, Proof details window</strong></span> </p> </td> 
-   <td> <p><span class="wysiwyg-font-size-medium">When someone adds you to a proof in the New proof window or in the Proof details window, they can determine how you receive email alerts about comments&nbsp;and decisions about the proof. This overrides the option your Workfront administrator has selected, but only for that particular proof. For more information, see </span> </p> 
+   <td> <p><span class="wysiwyg-font-size-medium">When someone adds you to a proof in the New proof window or in the Proof details window, they can determine how you receive email alerts about comments&nbsp;and decisions about the proof. This overrides the option your Workfront administrator has selected, but only for that particular proof. For more information, see</span> </p> 
     <ul> 
      <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Create an advanced proof with a Basic workflow</a> </p> </li> 
      <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Create an advanced proof with an Automated workflow</a> </p> </li> 
@@ -43,7 +43,7 @@ The settings that determine how you receive email alerts about proof comments an
 
 >[!NOTE]
 >
->These options affect only email alerts you can receive about proof comments and decisions. They do not affect the email alerts you can receive about the flow of a proof, such as the New Proof or Late Proof email. For more information about email alerts concerning the flow of a proof, see the following articles: 
+>These options affect only email alerts you can receive about proof comments and decisions. They do not affect the email alerts you can receive about the flow of a proof, such as the New Proof or Late Proof email. For more information about email alerts concerning the flow of a proof, see the following articles:
 >
 >* [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) 
 >* [The New Version email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md) 

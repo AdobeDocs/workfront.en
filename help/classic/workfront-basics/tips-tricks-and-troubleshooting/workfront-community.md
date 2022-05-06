@@ -8,6 +8,10 @@ description: TheAdobe Workfront Community is an online group of over 10,000 Work
 
 # The Adobe Workfront Community
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 TheAdobe Workfront Community is an online group of over 10,000 Workfront users. Through the community you can to stay up-to-date on product releases, learn about customer events, and talk to other users about Workfront products and services. You’ll find answers to questions and establish connections with other Workfront customers.
 
 <!--

@@ -36,7 +36,7 @@ The main difference between the Legacy Resource Estimates and the Resource Budge
 
 For more information about differences between the legacy and the new Resource Management tools, see [Difference between Legacy Resource Planning and Planning](../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md).
 
-For information about the new Resource Pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+For information about the new Resource Pools, see [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Migrate your existing information
 
@@ -52,7 +52,7 @@ When the two sections match, you can ensure that you are not missing any budgeti
 
 <!--
 <note type="note">
-We are working on automating the migration of your existing data, and we will keep you updated when that becomes available.
+We are working on automating the migration of your existing data, and we will keep you updated when that becomes available. (NOTE: this was done, according to Vazgen. Drafting it JUST in case we need to add it back BEFORE we completely sunset these tools.) <![CDATA[  ]]>
 </note>
 -->
 
@@ -72,18 +72,17 @@ When you complete this workflow, you should be ready to use the new Resource Man
 1. **Verify Users' Role Association.** Ensure that your users are associated with at least one Job Role. If a user is associated with more than one role, ensure that you have a valid percentage for the users’ FTE for each role.  
    For information about associating users with job roles and updating the percentage of FTE for each role, see " [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
-1. **Create New Resource Pools** . Ensure that your users are organized in Resource Pools. Ideally, after running the reports referenced in step #1, populate your new Resource Pools with the users who can fulfill the job roles that your Legacy Resource Pools contained. For more information about populating Resource Pools with Users, see&nbsp; " [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+1. **Create New Resource Pools** . Ensure that your users are organized in Resource Pools. Ideally, after running the reports referenced in step #1, populate your new Resource Pools with the users who can fulfill the job roles that your Legacy Resource Pools contained. For more information about populating Resource Pools with Users, see&nbsp; " [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
    >[!NOTE]
    >
    >You do not need to create one new pool for every old pool that existed. You only need to ensure that the new Resource Pools that you are creating and associating with your projects contain users who can fulfill the same roles that belonged to the Legacy Resource Pools. You can attach several Resource Pools to the same project when you use the new Resource Management tools.
 
 1. **Associate New Pools to Projects.** Ensure that your projects have Resource Pools assigned to them. Ideally, after learning the information you need from following step #1, you would associate each project with a new Resource Pool (or several) that have users who can fulfill the job roles associated with the Legacy Resource Pools of the project.  
-   For information about how to associate Resource Pools with projects, see&nbsp; " [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md) ."
+   For information about how to associate Resource Pools with projects, see&nbsp; " [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md) ."
 
    <!--
-   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Assign a Resource Manager.</strong><![CDATA[
-   ]]>Ensure that you are the Resource Manager of the projects you want to budget your resources for. <br>For information about designating Resource Managers, see " <a href="../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a></li>
+   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Assign a Resource Manager.</strong> Ensure that you are the Resource Manager of the projects you want to budget your resources for. <br>For information about designating Resource Managers, see " <a href="../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a></p> <p>(NOTE:&nbsp;Removing this based on feedback from Vazgen.)</p> </li>
    -->
 
 1. **Verify Cost per Hour for Roles.** If you are calculating Budgeted Cost, or Budgeted Labor Cost for your projects, ensure that the job roles associated with the users in your Resource Pools have Cost per Hour rates defined  
@@ -105,7 +104,13 @@ where you are a Resource Manager
 </MadCap:conditionalText>
 -->
 
-and that information is up to date.
+and that information is up to date. 
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: Alina- You can delete this drafted section)
+</MadCap:conditionalText>
+-->
 
 To budget your resources in the new Resource Management tools, do either of the following:
 
@@ -259,6 +264,6 @@ After building the two reports:
    Make a note of the&nbsp; **Resource Pool** in the second report.
 
 1. Navigate back to the first report, and assign this **Resource Pool** to the project.  
-   For more information about how to associate Resource Pools with projects, see &nbsp; [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md) .  
+   For more information about how to associate Resource Pools with projects, see &nbsp; [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md) .  
    Your Job Role resources in the Legacy Resource Estimates and Resource Budgeting section of each project should now match.
 

@@ -10,6 +10,10 @@ description: The Activity by team visualization shows activities that happen dur
 
 # View the Activity by team visualization in Enhanced analytics
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Activity by team visualization shows activities that happen during a specific time frame for a home team, allowing you to understand how different home teams spent their time in Adobe Workfront. Depending on how your home team is set up in Workfront, this visualization can give you different insights and answer different questions.
 
 >[!NOTE]
@@ -65,7 +69,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,13 +117,17 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
    The list expands to display the activities of each person assigned to the home team.
 
+   <!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Role not available</span>
+   -->
+
 1. Hover over a colored box to see the date when users completed an action, as well as the number of times the action was completed that day.
 
    Darker colors indicate higher activity.
 
    ![](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Optional) To export the visualization data, click the **Export** icon ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the Export icon ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
    * **Chart (PNG)** 
    * **Data Table (XSLX)**

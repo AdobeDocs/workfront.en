@@ -2,12 +2,10 @@
 filename: subscribe-to-items-in-workfront
 navigation-topic: notifications
 title: Subscribe to items in Adobe Workfront
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: Adobe Workfront sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
 ---
 
 # Subscribe to items in Adobe Workfront
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 Adobe Workfront sends notifications about items you are assigned to or that you own. If you want to follow the communication on items that are not assigned to you but might impact your work, you can subscribe to them.
 
@@ -66,15 +64,22 @@ For example, to subscribe to an issue:
 
 1. Go to the issue you want to subscribe to.
 
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <note type="tip">
-   <p>To subscribe to projects, you can do one of the following:</p>
-   <ol>
-   <li value="1"> <p>Go to the project you want to subscribe to</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
-   </ol>
-   </note>
-   </div>
-   -->
+   >[!TIP]
+   >
+   >
+   >
+   ><!--   >
+   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> this tip is for QS only </p>   >
+   >-->   >
+   >
+   >To subscribe to projects, you can do one of the following:
+   >
+   >   
+   >   
+   >   * Go to the project you want to subscribe to, click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name, then **Subscribe**.
+   >   * ```Go to a project list or report and select a project, click the **More** icon ![](assets/qs-more-menu.png) at the top of the list, then click **Subscribe**. This is available only in a list of projects.``` 
+   >   
+   >
 
 1. Click **More** ![](assets/more-icon.png), then click **Subscribe**.
 
@@ -88,10 +93,6 @@ For example, to subscribe to an issue:
 
    To learn more about subscription email, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more about mobile app push notifications, see .</p>
--->
-
 ## Unsubscribe from an item
 
 You can easily&nbsp;unsubscribe from an item in Workfront. The process for unsubscribing&nbsp;from an item in Workfront is identical&nbsp;for all items.
@@ -100,15 +101,22 @@ For example, to unsubscribe from&nbsp;an issue:
 
 1. Go to the issue you want to unsubscribe from.
 
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <note type="tip">
-   <p>To unsubscribe to projects, you can do one of the following:</p>
-   <ol>
-   <li value="1"> <p>Go to the project you want to unsubscribe from</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
-   </ol>
-   </note>
-   </div>
-   -->
+   >[!TIP]
+   >
+   >
+   >
+   ><!--   >
+   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">this top is for QS only</p>   >
+   >-->   >
+   >
+   >To unsubscribe to projects, you can do one of the following:
+   >
+   >   
+   >   
+   >   * Go to the project you want to unsubscribe from, click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name, then **Unsubscribe**.
+   >   * ```Go to a project list or report and select a project, click the **More** icon ![](assets/qs-more-menu.png) at the top of the list, then click **Unsubscribe**. This is available only in a list of projects.``` 
+   >   
+   >
 
 1. Click **More** ![](assets/more-icon.png), then click **Unsubscribe**.
 
@@ -133,15 +141,28 @@ All subscribers are given View permission to the subscribed item. If the new sub
 
 1. Go to the item to which you want to subscribe another user.
 
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <note type="tip">
-   <p>To subscribe another user to projects, you can do one of the following:</p>
-   <ol>
-   <li value="1"> <p>Go to the project you want to subscribe others from</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
-   </ol>
-   </note>
-   </div>
-   -->
+   >[!TIP]
+   >
+   >
+   >
+   ><!--   >
+   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">this tip is for QS only </p>   >
+   >-->   >
+   >
+   >To subscribe another user to projects, you can do one of the following:
+   >
+   >   
+   >   
+   >   1. Go to the project you want to subscribe others from
+   >   
+   >   
+   >      Or
+   >   
+   >   
+   >      Go to a project list or report and select a project.
+   >   
+   >   
+   >
 
 1. Click **More** ![](assets/more-icon.png).
 1. Click the number bubble next to the **Subscribe** link.
@@ -158,18 +179,31 @@ When someone adds a comment to the Updates tab of the item, the subscriber recei
 
 1. Go to the item from which you want to unsubscribe another user.
 
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <note type="tip">
-   <p>To unsubscribe another user to projects, you can do one of the following:</p>
-   <ol>
-   <li value="1"> <p>Go to the project you want to unsubscribe others from</p> <p>Or</p> <p>Go to a project list or report and select a project.</p> </li>
-   </ol>
-   </note>
-   </div>
-   -->
+   >[!TIP]
+   >
+   >
+   >
+   ><!--   >
+   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">this tip is for QS only</p>   >
+   >-->   >
+   >
+   >To unsubscribe another user to projects, you can do one of the following:
+   >
+   >   
+   >   
+   >   1. Go to the project you want to unsubscribe others from
+   >   
+   >   
+   >      Or
+   >   
+   >   
+   >      ```Go to a project list or report and select a project.``` 
+   >   
+   >   
+   >
 
 1. Click **More** ![](assets/more-icon.png).
-1. Click the number bubble next to the&nbsp;or **Subscribe**or**Unsubscribe** link.
+1. Click the number bubble next to the&nbsp; or **Subscribe** or**Unsubscribe** link.
 1. On the **Subscribers** page that appears, click the "X" next to the name of the user you want to unsubscribe.
 
    Or
@@ -184,17 +218,13 @@ When someone adds a comment to the Updates tab of the item, the subscriber recei
 
 Immediately after&nbsp;someone posts a comment on an item to which you are subscribed, you receive an in-app notification.
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x183.png)
+![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 For more information, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Receive the subscription email
 
 Depending on the features your Workfront administrator has enabled, you may receive subscription emails in addition to in-app notifications whenever someone comments on an item you subscribe to.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about the subscription email, see the "Receiving Subscription Emails" section in <a href="../../workfront-basics/using-notifications/wf-notifications.md" class="MCXref xref">Adobe Workfront notifications</a>.</p>
--->
 
 For more information about setting up or disabling email, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
@@ -208,11 +238,9 @@ To see who is&nbsp;subscribing to an item:
 
 1. Navigate to an item for which you want to see the subscribers.
 
-   If there are any subscribers to the item, the number of subscribers displays next to the bell. You can mouse over the number to display a list of users who subscribe to the item.&nbsp;The first 25 subscribers display&nbsp;in alphabetical order.
+   If there are any subscribers to the item, the number of subscribers displays next to the bell. You can hover over the number to display a list of users who subscribe to the item.&nbsp;The first 25 subscribers display&nbsp;in alphabetical order.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/bell-hover-for-list-qs.png">reshoot when header changes<br></p>
-   -->
+   ![View subscribers](assets/bell-hover-for-list-qs-350x90.png)
 
    You can also view a list of subscribers by adding a&nbsp;Subscriber field as a column on a&nbsp;report or view for the subscribed item. For more information, see [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

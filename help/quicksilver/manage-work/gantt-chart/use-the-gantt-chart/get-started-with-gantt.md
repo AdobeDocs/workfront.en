@@ -35,7 +35,7 @@ The task list Gantt Chart is accessible in the following areas:
 
 To access the task list Gantt Chart, navigate to any of the areas mentioned above and click the Gantt Chart icon.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
+![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
 
 ### Project list Gantt Chart {#project-list-gantt-chart}
 
@@ -56,7 +56,7 @@ The project list Gantt Chart is accessible in the following areas:
 
 To access the project list Gantt Chart, navigate to any of the areas mentioned above and click the Gantt Chart icon.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x228.png)
+![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
 
 ## Configure how information displays on the Gantt Chart
 

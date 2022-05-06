@@ -41,7 +41,7 @@ You must have the following to grant users access to Workfront Goals:
 
 &#42;To find out what plan, license type, or access level you have, contact your Workfront administrator.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 ## Grant user access to Workfront Goals using a custom access level
 
@@ -60,27 +60,3 @@ For additional information about access to Workfront Goals, see [Requirements to
 ## Access to Workfront Goals by license type
 
 A Workfront administrator can allow to users with a Plan, Work, Request, or Review license fill Edit access to Workfront Goals in an access level.
-
-| Actions |Edit |View |No Access |
-|---|---|---|---|
-| View Goals in the Main menu |✓ |&nbsp; |&nbsp; |
-| View the Goals area from a shared link |✓ |&nbsp; |&nbsp; |
-| View all goals in the system |✓  |&nbsp; |&nbsp; |
-| Create goals |✓ |&nbsp; |&nbsp; |
-| Edit and delete all goals |✓ |&nbsp; |&nbsp; |
-| Activate/ deactivate/ close all goals |✓ |&nbsp; |&nbsp; |
-| Create, edit, and delete activities |✓ |&nbsp; |&nbsp; |
-| Create, edit, and delete results |✓ |&nbsp; |&nbsp; |
-| Add an aligned goal |✓ |&nbsp; |&nbsp; |
-| Update progress on a result or activity |✓ |&nbsp; |&nbsp; |
-| Own a goal, result, or activity |✓ |&nbsp; |&nbsp; |
-| Comment on a goal |✓ |&nbsp; |&nbsp; |
-| Copy goals |✓ |&nbsp; |&nbsp; |
-| View the Goal List section in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Graphs section in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Goal Alignment section in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Pulse section in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Check-in area in the left panel |✓ |&nbsp; |&nbsp; |
-| View the Settings area in the left panel |✓  |&nbsp; |&nbsp; |
-| Print a list of goals |✓  |&nbsp; |&nbsp; |
-

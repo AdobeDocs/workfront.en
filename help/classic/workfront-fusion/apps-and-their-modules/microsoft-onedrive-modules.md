@@ -6,14 +6,18 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive modules
-description: In a Adobe Workfront Fusion scenario, you can connect your OneDrive account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use OneDrive, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Microsoft OneDrive modules
 
-In a Adobe Workfront Fusion scenario, you can connect your OneDrive account to multiple third-party applications and services.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+In an Adobe Workfront Fusion scenario, you can automate workflows that use OneDrive, as well as connect it to to multiple third-party applications and services.
+
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -63,13 +67,13 @@ To use OneDrive modules, you must have a Microsoft OneDrive account.
 
 ## Connecting the OneDrive service to Workfront Fusion
 
-For instructions about connecting your OneDrive account to Workfront Fusion, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+For instructions about connecting your OneDrive account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## Microsoft OneDrive modules and their fields
 
 When you configure OneDrive modules, Workfront Fusion displays the fields listed below. Along with these, additional OneDrive fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -101,7 +105,7 @@ This trigger module starts a scenario when a file or folder is created or update
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch Files/Folders</td> 
@@ -148,7 +152,7 @@ This search module returns files and folders based on criteria you set.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Choose your OneDrive location</td> 
@@ -185,7 +189,7 @@ This action module gets the metadata of a specified file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter (File ID &amp; File Path)</td> 
@@ -233,7 +237,7 @@ This action module downloads the specified file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter (File ID &amp; File Path)</td> 
@@ -321,7 +325,7 @@ This action module uploads a file to the specified folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter (Folder Location ID &amp; Path)</td> 
@@ -369,7 +373,7 @@ This action module creates a new folder in the specified drive.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Choose your OneDrive location</td> 
@@ -413,7 +417,7 @@ This action module returns a share link for the specified file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter (File ID &amp; File Path)</td> 
@@ -469,7 +473,7 @@ This action module moves a file or folder to a new folder location
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader" colspan="2">From</td> 
@@ -556,7 +560,7 @@ This action module copies a file into a new folder location
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader" colspan="2">From</td> 
@@ -643,7 +647,7 @@ This action module deletes the selected file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter (File/Folder ID &amp; Path)</td> 
@@ -697,7 +701,7 @@ This module performs a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></td> 
+   <td>For instructions about connecting your OneDrive account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -705,7 +709,7 @@ This module performs a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

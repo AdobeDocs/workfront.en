@@ -8,11 +8,19 @@ description: You can build templates based on the example templates described in
 
 # Create project templates from examples
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can build templates based on the example templates described in this article.
 
 This catalog contains a number of .xml project files that you can add to your Adobe Workfront instance by importing them as Microsoft projects. Once you import them, they become Workfront projects which you can save as your own project templates.
 
 If your organization uses the new Adobe Workfront experience, we recommend that you speak with your Workfront administrator and ask them to down templates using Blueprints. For more information, see [Configure a project template blueprint](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FBlueprints%2Fconfigure-template-package.htm&_LANG=en).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: link above is hardcoded)</p>
+-->
 
 ## Access requirements
 
@@ -36,7 +44,7 @@ You must have the following to perform the actions in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>You have Manage permissions to the templates you create, by default </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>You have Manage permissions to the templates you create, by default </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

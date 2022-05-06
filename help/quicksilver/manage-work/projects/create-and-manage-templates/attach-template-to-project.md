@@ -3,12 +3,10 @@ filename: attach-template-to-project
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Attach a template to a project
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can attach a template to a project either during the initial creation phase of the project or after it has been created.
 ---
 
 # Attach a template to a project
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can attach a template to a project either during the initial creation phase of the project or after it has been created.
 
@@ -36,7 +34,7 @@ You must have the following to perform the steps described in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>. </p> <p>View permissions or higher to the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>. </p> <p>View permissions or higher to the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,6 +44,7 @@ You must have the following to perform the steps described in this article:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="access-limitations"></a>Considerations when adding templates to projects</h2>
+<p>(NOTE: moved this to an Overview article of its own) </p>
 <p>Consider the following when adding templates to projects:</p>
 <ul>
 <li> <p>You can attach only active templates to projects. </p> </li>
@@ -69,22 +68,23 @@ You must have the following to perform the steps described in this article:
 
 ## Attach a template to an existing project {#attach-a-template-to-an-existing-project}
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can attach a template to a project in Workfront from the project page <span class="preview">or from a project list or report</span>.</p>
--->
+You can attach a template to a project in Workfront from the project page ```or from a project list or report```.
 
 ###
 
-1. Go to the project where you want to attach a template.
+1. Go to the project where you want to attach a template and click the **More** icon ![](assets/qs-more-icon-on-an-object.png) to the right of the project name
 
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-   <p>Or</p>
-   <p>Go to a project list or report and select a project. </p>
-   </div>
-   -->
+   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png), then click **Attach Template**.
+   Or
+
+   ```Go to a project list or report and select a project then click the **More** icon ![](assets/qs-more-icon-on-an-object.png) at the top of the list.```
+
+   ``` ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+
+   ``` 
+
+1. Click **Attach Template**.
 
    The Attach Template box displays.
 
@@ -102,7 +102,7 @@ You must have the following to perform the steps described in this article:
    * Total number of tasks 
    * Names of attached custom forms
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x281.png)
+   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
 1. (Optional) Click the **Favorites** icon ![](assets/favorites-icon-small.png) to the left of the template name to mark it as a favorite. This moves the template in the Favorites list.
 

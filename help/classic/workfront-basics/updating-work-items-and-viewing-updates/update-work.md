@@ -8,6 +8,10 @@ description: You can add an update on a Adobe Workfront object (project, task, o
 
 # Update work
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
 
 You&nbsp;can add updates to an object from the following areas of Workfront:
@@ -40,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,12 +53,11 @@ You must have the following access to perform the steps in this article:
 
 ## Add an update to a work item
 
-1. Go to the work item for which you want to provide an update (such as a project, ```task,``` or ```issue).```
-
+1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** tab .
 1. Click **Start a new update,** then type your update.  
 
-1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text**toolbar as you type.
+1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
 
    | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
    |---|---|---|---|
@@ -117,7 +120,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) To add a URL link to additional information sources:
 
    1. Click in your update where you want to insert a link.
-   1. On the **Rich Text** toolbar, click the **Hyperlink**icon. ![](assets/link-icon.png)  
+   1. On the **Rich Text** toolbar, click the **Hyperlink** icon. ![](assets/link-icon.png)  
 
    1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
    
@@ -165,7 +168,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Completion Bar</td> 
-      <td>Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
+      <td>(Only available on tasks) Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Private to my company</td> 
@@ -175,6 +178,11 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Update** to add the update to the Workfront object.
+
+   >[!NOTE]
+   >
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update will be posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page.
+
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ## Copy update information
@@ -208,7 +216,7 @@ This option copies the full thread link to the clipboard so you can share the th
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 
 1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link**. .
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 

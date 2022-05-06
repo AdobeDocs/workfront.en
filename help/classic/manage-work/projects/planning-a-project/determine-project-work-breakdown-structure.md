@@ -8,6 +8,10 @@ description: Defining a Work Breakdown Structure (WBS) for a project is a set of
 
 # Determine Work Breakdown Structure in a project
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Defining a Work Breakdown Structure (WBS) for a project is a set of activities that ultimately outlines the project plan. The WBS divides the outcome of the project into manageable work elements, which can be used to define milestones and organize work assignments.
 
 You must have a Plan license with Edit access to Projects to build the Work Breakdown Structure of a project. Additional access to other areas of Adobe Workfront might be needed, depending on how many activities you perform while building the WBS.
@@ -141,7 +145,7 @@ You can view the task list at the project level.
 
 1. From the **View** drop-down menu, and select the **Work Breakdown** view.
 
-1. The Work Breakdown structure displays in the second column of the selected view.
+   The Work Breakdown structure displays in the second column of the selected view.
 
    ![](assets/wbs-highlighted-(1)-350x79.png)
 
@@ -156,7 +160,7 @@ You can build a task report and display the WBS of the tasks by doing one of the
 >
 >We recommend adding a Project grouping, to add clarity to what projects the tasks belong to. The indentation of the tasks does not display in a task report.
 
-For information about building reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
+For information about building reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Save the WBS of a Project as a Template
 

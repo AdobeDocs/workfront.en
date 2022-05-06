@@ -47,7 +47,7 @@ For information on related topics, see the following articles:
   </tr> 
   <tr> 
    <td>Access levels and proofing</td> 
-   <td> <p>Your users' access levels can affect proofing for each permission profile. For more information, see the section <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#configur" class="MCXref xref">Configure a user's proof permission profile</a> in the article <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.</p> </td> 
+   <td> <p>Your users' access levels can affect proofing for each permission profile. For more information, see the section in the article .</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -35,6 +35,10 @@ The following are some of the benefits of using templates for creating your proj
 
 ## Best practices for creating templates
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is not an extensive list, but we are updating it as we go.)</p>
+-->
+
 Consider the following when creating templates:
 
 * Don't assign users to template tasks.&nbsp;Although you can leave the tasks unassigned, we recommend that you assign job roles to tasks. This will give you an idea what users might be able to be assigned to the tasks when you create the project using the template.

@@ -4,11 +4,11 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Math variables
+title: Math variables in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Math variables
+# Math variables in Adobe Workfront Fusion
 
 ## Access requirements
 

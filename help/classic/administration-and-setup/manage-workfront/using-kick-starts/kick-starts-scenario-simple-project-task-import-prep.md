@@ -10,6 +10,10 @@ description: Describes in detail the available settings and controls for a basic
 
 # Kick-Starts scenario: simple project and task import preparation
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Describes in detail the available settings and controls for a &nbsp;basic Project and Task Import using the Kick Start method.&nbsp;
 
 ## **Scenario**
@@ -365,5 +369,5 @@ Set the values for the following task fields:&nbsp;
 
 * **Import the Excel File**
 
-  Follow the directions provided in [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Follow the directions provided in [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 

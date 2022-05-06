@@ -10,6 +10,10 @@ description: As an Adobe Workfront administrator, you can use an access level to
 
 # Grant access to templates
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an Adobe Workfront administrator, you can use an access level to define a user’s access to templates, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
 Only users with a Plan license can have full access to templates.
@@ -18,7 +22,7 @@ For information about using custom access levels to manage users' access to othe
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -58,6 +62,15 @@ For information about what users in each access level can do with templates, see
 ## Access to shared templates
 
 As the owner or creator of an issue, you can share with other users by granting them permissions to it, as explained in [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+
+<!--
+<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p style="color: #ff1493;">If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
+<p style="color: #ff1493;">* reports, dashboards, and calendars</p>
+<p style="color: #ff1493;">* financial data</p>
+<p style="color: #ff1493;">* issue</p>
+</div>
+-->
 
 When you share any object with another user, the recipient’s rights on it are determined by a combination of two things:
 

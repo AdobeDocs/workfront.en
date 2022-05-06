@@ -8,6 +8,10 @@ description: By default, Adobe Workfront calculates the Duration of a task with 
 
 # Update the Planned Hours and Duration of a task with a Simple Duration Type
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 By default, Adobe Workfront calculates the&nbsp;Duration of a task with a Simple Duration Type based on the amount of Planned Hours. However, you can also manually edit the amount of Planned Hours and the Duration of a Simple Duration task in certain areas of Workfront.
 
 You can either edit Planned Hours and Duration of a task with a Simple Duration Type inline or at the task level in the Assignments area.
@@ -38,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,6 +8,10 @@ description: We recommend that you add projects to portfolios when you initiate 
 
 # Add projects to a portfolio
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 We recommend that you add projects&nbsp;to portfolios when you initiate them. However, you can add them to a portfolio at any time during their lifetime.
 
 Consider the following when adding projects to portfolios:&nbsp;
@@ -37,7 +41,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the portfolio</p> <p>Manage permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the portfolio</p> <p>Manage permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
 1. Go to a portfolio and select the **Projects**&nbsp;tab.<![CDATA[ ]]>
 
-   ![](assets/app1-350x140.png)
+   ![](assets/app1-350x130.png)
 
 1. Click**Add Projects**and select a method for adding a project.
 

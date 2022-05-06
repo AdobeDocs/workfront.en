@@ -3,12 +3,10 @@ filename: move-tasks
 product-area: projects
 navigation-topic: manage-tasks
 title: Move tasks
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can move tasks in Adobe Workfront between the following objects:
 ---
 
 # Move tasks
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can move tasks in Adobe Workfront between the following objects:
 
@@ -41,7 +39,7 @@ You must have the following access to perform the actions in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks</p> <p>Contribute or higher permissions to the project with ability to Add Tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the tasks</p> <p>Contribute or higher permissions to the project with ability to Add Tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,7 +75,13 @@ To move a task displayed in a task list:
 
    The Move Task box displays
 
-1. Continue with moving the task, as described in the section [Move a task at the task level](#move-a-task-at-the-task-level) in this article, starting with Step 4.
+1. Continue with moving the task, as described in the section [Move a task at the task level](#move-a-task-at-the-task-level) in this article, starting with Step 4. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: is this still accurate?!)
+   </MadCap:conditionalText>
+   -->
 
 ## Move a task&nbsp;at the task level {#move-a-task-at-the-task-level}
 

@@ -96,7 +96,7 @@ Future availability in the Production environment varies by feature. After a fea
  <col> 
  <tbody> 
   <tr> 
-   <td> <h3 id="resource-planner-custom-columns"><a name="Resource"></a>Resource Planner custom columns</h3> <p>Now, you can customize the columns that you display in the Resource Planner to include just the information that most interests you. This functionality is available for all views of the Resource Planner: Project, Role, and User views.</p> <p>For information about customizing your columns in the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref" xrefformat="{para}">Review resource availability and allocation using the Resource Planner</a>.</p> 
+   <td> <h3 id="resource-planner-custom-columns"><a name="Resource"></a>Resource Planner custom columns</h3> <p>Now, you can customize the columns that you display in the Resource Planner to include just the information that most interests you. This functionality is available for all views of the Resource Planner: Project, Role, and User views.</p> <p>For information about customizing your columns in the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref" xrefformat="{para}">Review resource availability and allocation using the Adobe Workfront Resource Planner</a>.</p> 
     <div class="workfront_plans"> 
      <p><strong>Available in these environments:</strong> </p> 
      <ul> 

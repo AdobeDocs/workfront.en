@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <title>Legacy Resource Planning</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Legacy Resource Planning</h1> <note aemmigrated="true">
+     Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+    </note> 
+    <p aemmigrated="true">This section documents information about functionality in the Legacy Resource Planning tab of the People area of Workfront. For information about the current Resource Planning functionality, see <a href="../../resource-mgmt/resource-planning/resource-planning-overview.md" aemmigrated="true">Resource Planning Overview</a> . The information in this section refers to functionality that is currently deprecated and will soon be removed from Workfront.</p> 
+    <p aemmigrated="true">This section contains the following articles:</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Overview of Legacy Resource Planning </a> </li> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/work-with-legacy-resource-pools.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Work with Legacy Resource Pools</a> </li> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/legacy-fte.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Overview of FTE in the Legacy&nbsp;Resource Management tools</a> </li> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/budget-legacy-pools-in-budget-manager.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Budget Legacy Resource Pools in the Resource Budget Manager </a> </li> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/plan-resources-in-capacity-planner.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Plan resources in the Capacity Planner</a>r</li> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/allocate-resources-in-capacity-planner.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Allocate resources in the Capacity Planner </a> </li> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Overview of the User Utilization report in the Legacy Resource Management area</a> </li> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/resource-grid-overview.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Overview of the Resource Grid </a> </li> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/task-progress-in-resource-grid.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Display task progress on the Resource Grid </a> </li> 
+     <li aemmigrated="true"><a href="../../resource-mgmt/legacy-res-planning/colors-of-resource-grid.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Overview of the colors in the Resource Grid</a> </li> 
+    </ul> 
+   </div> 
+  </div>
+ </body>
+</html>

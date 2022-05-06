@@ -3,12 +3,10 @@ filename: manage-user-allocations-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage user allocations in the Workload Balancer
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 ---
 
 # Manage user allocations in the Workload Balancer
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 As a Resource Manager, you can assign work to users and manage their daily, weekly, ```or monthly``` allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
@@ -40,7 +38,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher that include Make Assignments to the tasks <span>and issues</span> that you want to manage allocations for. </p> <p>Or </p> <p>Manage permissions to the tasks what you want to update the Planned Hours for, in addition to updating allocations. For information about updating Planned Hours in the Workload Balancer, see the <a href="#update-task-planned-hours-when-managing-user-allocations" class="MCXref xref">Update task Planned Hours when managing user allocations</a> section in this article. </p> <p>For information about tasks permissions, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task in&nbsp;Adobe Workfront</a><span> and for information about issue permissions, see</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></span>. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher that include Make Assignments to the tasks <span>and issues</span> that you want to manage allocations for. </p> <p>Or </p> <p>Manage permissions to the tasks what you want to update the Planned Hours for, in addition to updating allocations. For information about updating Planned Hours in the Workload Balancer, see the <a href="#update-task-planned-hours-when-managing-user-allocations" class="MCXref xref">Update task Planned Hours when managing user allocations</a> section in this article. </p> <p>For information about tasks permissions, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a><span> and for information about issue permissions, see</span> <span href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></span>. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +49,7 @@ You must have the following:
 
 User allocations are amounts of hours that indicate the time that a user should spend on one given day or week day, week, ```or month``` to complete the work item. They are included in the Planned Hours of the work item.
 
-This article describes how to update daily, weekly, or monthly hourly allocations for users assigned to tasks or issues. For information about managing overall allocations for users and job roles to tasks, see [Manage allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+This article describes how to update daily, weekly, or monthly hourly allocations for users assigned to tasks or issues. For information about managing overall allocations for users and job roles to tasks, see [Manage user and role allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
 
 * [User allocation overview](#user-allocation-overview) 
 * [Criteria that reset user allocations](#criteria-that-reset-user-allocations)
@@ -151,7 +149,7 @@ Consider the following when viewing Planned Hours in the Workload Balancer:
 
 As part of assigning work to users, you can modify user allocations in the Workload Balancer to ensure that they are never overallocated, or to ensure an accurate balance of hours between your resources. For information about identifying whether a user is overallocated, see the section [User allocation overview](#user-allocation-overview) in this article.
 
-1. Ensure you have tasks ```and issues``` assigned to users. For information about assigning work to users in the Workload Balancer see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+1. Ensure you have tasks ```and issues``` assigned to users. For information about assigning work to users in the Workload Balancer see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 1. Go to the Workload Balancer .
 1. (Optional) Click **Week** ```or **Month**``` to manage weekly ```or monthly``` allocations for users.
 
@@ -247,4 +245,8 @@ This is possible when the following conditions exist:
   For more information about the access needed to use the Workload Balancer, see the following section in this article: [Access requirements](#access-requirements) . 
 
 * The task has a Duration Type of Simple.
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
+  -->
 

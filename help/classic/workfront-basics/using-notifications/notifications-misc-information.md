@@ -8,6 +8,10 @@ description: The following notifications alert you about activities happening on
 
 # Notifications: Miscellaneous information
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The following notifications alert you about activities happening on a project you are sponsoring.
 
 For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
@@ -66,7 +70,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Someone shares an object with me</strong> </p> <p>You receive an email notification when someone adds you to the Sharing list of permissions on an object.</p> <p>The subject of the instant notification email is: <em>Access Granted: &lt;Object Name&gt;</em></p> </td> 
+   <td> <p><strong>Someone shares an object with me</strong> </p> <p>You receive an email notification when someone adds you to the Sharing list of permissions on an object.</p> <p>The subject of the instant notification email is: <em>Access Granted: &lt;Object Name&gt;</em></p> <p>A notification Is sent only if the project is in Current status.</p> </td> 
    <td> Object Name<br>Parent Object Name<br>Object Reference Number<br>Original Access to the object<br>New Access granted to the object<br>Date and Time when the access was granted <br>Name of the user who granted the access </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 

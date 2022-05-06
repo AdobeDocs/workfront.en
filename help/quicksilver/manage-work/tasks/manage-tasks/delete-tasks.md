@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task in&nbsp;Adobe Workfront</a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +52,11 @@ You must have the following access to perform the steps in this article:
 
 * When a project has a status of Complete you can delete tasks only if your Workfront administrator ```or a group administrator``` has allowed this in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* If the task has logged hours, the Workfront ``` ```or group administrator`````` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance. ```This also applies when you try to delete projects that have tasks with hours logged on them.```
+* If the task has logged hours, the Workfront ``` ```or group administrator`````` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance. ```This also applies when you try to delete projects that have tasks with hours logged on them.``` 
+
+  <!--
+  (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
+  -->
 
   For more information about enabling the deletion of tasks where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -78,6 +82,12 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 
   This also applies when you try to delete projects that have tasks with hours logged on them.
 
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: this stays NWE; not possible in classic;)
+  </MadCap:conditionalText>
+  -->
+
   For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 * Expenses on the task will move to the project.
@@ -95,9 +105,9 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click **Projects**.
+1. Click **Projects**. 
 1. Click the project name that contains the tasks you want to delete.
-1. Click **Tasks** in the left panel. 
+1. Click **Tasks** in the left panel.  
 1. Do one of the following:
 
    1. (Conditional) When the **Autosave** toggle is enabled:
@@ -127,7 +137,7 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 
 1. Click **Projects**.  
 1. Click the project name that contains the task you want to delete.
-1. Click **Tasks** in he left panel.
+1. Click **Tasks** in he left panel. 
 1. Click the name of the task you want to delete.
 1. Click the **More** icon ![](assets/qs-more-menu.png)in the upper-right corner.
 

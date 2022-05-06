@@ -60,7 +60,7 @@ You must have the following access to use the functionality in this article:
 
 To use a webhook to connect an app to Workfront Fusion:
 
-1. Add the **Webhooks**>**Custom Webhook** instant trigger module to your scenario.
+1. Add the **Webhooks** >**Custom Webhook** instant trigger module to your scenario.
 
 1. Click **Add** next to the Webhook field and enter a name for the new webhook.
 1. (Optional) Click **Advanced Settings**. 
@@ -236,7 +236,7 @@ For more information on MIME format, see [MIME modules](../../workfront-fusion/a
 >
 >If you want to access the original JSON, enable JSON pass-through when setting up the webhook.
 >
->1. Click **Add**to add a new webhook.
+>1. Click **Add** to add a new webhook.
 >1. Click **Show advanced settings**.
 >1. Click **JSON pass-through**.
 >
@@ -245,7 +245,7 @@ For more information on MIME format, see [MIME modules](../../workfront-fusion/a
 
 To access the webhook's headers, enable Get request headers when setting up the webhook.
 
-1. Click **Add**to add a new webhook.
+1. Click **Add** to add a new webhook.
 1. Click **Show advanced settings**.
 1. Click **Get request headers**.
 
@@ -279,7 +279,7 @@ array. The formula is used in a filter that compares the extracted value with th
 
 ![](assets/set-up-a-filter-350x169.png)
 
-For further information on obtaining an array's element with a given key, see [Map an array's element with a given key](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) in the article [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+For further information on obtaining an array's element with a given key, see [Map an array's element with a given key](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) in the article [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ## Responding to webhooks
 

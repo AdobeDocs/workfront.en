@@ -14,7 +14,7 @@ In a layout template, you can customize what users see in the left panel area th
 
 For example, you can determine which of the following items users see in the left panel when viewing a task:
 
-![](assets/left-panel-adobe-branding-350x233.png)
+![](assets/left-panel-adobe-branding-350x219.png)
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -210,5 +210,5 @@ You must have the following to perform the steps in this article:
 
    >[!TIP]
    >
-   >You can **Save** your progress at any time, then continue to modify the template later.
+   >You can click Save at any time to save your progress, then continue to modify the template later.
 

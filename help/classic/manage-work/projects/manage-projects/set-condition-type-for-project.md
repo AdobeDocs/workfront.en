@@ -8,6 +8,10 @@ description: As a project manager, you can determine how the Condition of a proj
 
 # Set the Condition Type of a project
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a project manager, you can determine how the&nbsp;Condition of a project is calculated by updating the Condition&nbsp;Type of the project. The project Condition is a visual representation of how the project is progressing.
 
 ## Access requirements
@@ -36,7 +40,7 @@ You must have the following access to perform the steps in this article:
     <ul> 
      <li> <p>Contribute permissions to a project to edit the Condition&nbsp;Type in the Project Details area </p> </li> 
      <li> <p>Manage permissions to a project to edit the Condition&nbsp;Type in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +52,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the project for which you want to update the Condition Type. 
 1. Click **Edit Project**.
 
-   ![](assets/screen-shot-2013-05-07-at-12.12.32-pm-350x239.png)
+   ![](assets/screen-shot-2013-05-07-at-12.12.32-pm-350x280.png)
 
 1. In the **Condition Type** field, choose one of the following:
 

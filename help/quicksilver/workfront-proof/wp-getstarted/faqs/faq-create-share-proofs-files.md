@@ -40,7 +40,7 @@ For a full list of supported file types, see [Supported proofing file types and 
 
 ### Answer
 
-You can create proofs from static files, audio files, video files, and URLs (see [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md)).
+You can create proofs from static files, audio files, video files, and URLs (see ).
 
 To create a proof in the account, you need to be a user with the right permission profile (see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)).&nbsp;
 

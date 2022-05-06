@@ -4,14 +4,12 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
 title: Browse the blueprints catalog and request installation of blueprints
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: Blueprints provide basic building blocks to help you create a work management system that grows with you. All Adobe Workfront users can browse the catalog of blueprints. You can additionally make a request to have your Workfront administrator install a specific blueprint for you, if your administrator has enabled blueprint requests.
 ---
 
 # Browse the blueprints catalog and request installation of blueprints
 
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
-Blueprints provide basic building blocks to help you create a work management system that grows with you. All Adobe Workfront users can browse the catalog of blueprints. You can additionally make a request to have your system administrator install a specific blueprint for you, if your administrator has enabled requests.
+Blueprints provide basic building blocks to help you create a work management system that grows with you. All Adobe Workfront users can browse the catalog of blueprints. You can additionally make a request to have your Workfront administrator install a specific blueprint for you, if your administrator has enabled blueprint requests.
 
 Only the system administrator can install blueprints. For information, see [Install a blueprint](../../administration-and-setup/blueprints/blueprints-install.md).
 
@@ -45,8 +43,12 @@ The catalog displays all of the blueprints that are available for your organizat
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Blueprints**.
 1. Browse the catalog of blueprints.
+1. Use the filter panel on the right to filter the catalog by the following options:
 
-   You can filter by use case, maturity level, installation status, and type on the right-hand side.
+   * Use case (such as Human Resources or Marketing)
+   * Maturity level (managed or integrated)
+   * Installation status (installed or not installed)
+   * Blueprint type (organizational structure or project template)
 
 1. (Optional) Click **Details** on a blueprint to learn how it works.
 
@@ -54,17 +56,15 @@ The catalog displays all of the blueprints that are available for your organizat
 
 ## Request installation of a blueprint
 
-Your system administrator can optionally allow you to request installation of a blueprint.
+You can request the installation of a blueprint if a system administrator configures blueprint requests.&nbsp;For more information, see [Configure access to blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
 When you request to have a blueprint installed, the request is sent to the system administrator. You are notified when the request is completed, according to your notification preferences.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click**Blueprints**.
-1. Find the blueprint you want to install. You can filter by use case, maturity level, installation status, and type on the right-hand side.
+1. Find the blueprint you want to install. You can filter by use case, maturity level, installation status, and type using the filters in the right panel.
 1. Click **Request** on the blueprint.
 
    If the **Request** button does not appear on the blueprint, your system administrator has not enabled requests.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">image</p>
-   -->
+   ![Request blueprint](assets/blueprints-non-admin-request-bp-350x283.png)
 

@@ -20,7 +20,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -122,5 +122,5 @@ You must have the following to perform the steps in this article:
 
    >[!TIP]
    >
-   >You can **Save** your progress at any time, then continue to modify the template later.
+   >You can click Save at any time to save your progress, then continue to modify the template later.
 

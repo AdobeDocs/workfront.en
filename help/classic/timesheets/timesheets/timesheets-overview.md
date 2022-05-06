@@ -4,14 +4,18 @@ content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheets overview
-description: You can use timesheets to track the time that you spend on work.
+description: You can use timesheets to track the time that you spend on work. For information about the timesheet layout in Adobe Workfront, see Understand the Timesheet layout.
 ---
 
 # Timesheets overview
 
-You can use timesheets to track the time that you spend on work.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-You can log&nbsp;time in Adobe Workfront in a variety of ways, usually at the level of the project, task, or issue where the work is performed. The time logged against tasks, issues, and projects also displays in your timesheet.
+You can use timesheets to track the time that you spend on work. For information about the timesheet layout in Adobe Workfront, see [Understand the Timesheet layout](../../timesheets/timesheets/timesheet-layout.md).
+
+You can log&nbsp;time in Workfront in a variety of ways, usually at the level of the project, task, or issue where the work is performed. The time logged against tasks, issues, and projects also displays in your timesheet.
 
 You can also log time for non-project work, under General Hours. General hour time can be recorded only in your timesheet.
 
@@ -45,8 +49,6 @@ You can track time in Workfront by accessing timesheets from the following locat
 
   ![](assets/2-350x74.png)
 
-  &nbsp;
-
 * The Timesheets I Approve tab in the Timesheets area
 
   ![](assets/3-350x65.png)
@@ -57,7 +59,7 @@ You can track time in Workfront by accessing timesheets from the following locat
 
 >[!TIP]
 >
->By default, timesheets in the **All Timesheets** tab are not displayed. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to display all timesheets associated with the teams that you are part of. Do one of the following to display timesheets:
+>By default, timesheets in the **All Timesheets** tab do not display. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to allow you to display all timesheets associated with the users that belong to the teams that you are part of after you apply it. Do one of the following to display timesheets:
 >
 >* Click **Filter**&nbsp;to display all timesheets assigned to people in your teams.
 >* Modify any filter options, then click **Filter.**

@@ -44,9 +44,9 @@ When you manually generate timesheets:
 * They are generated according to the timesheet profiles that are associated with your users. Users who do not have timesheet profiles associated with them do not receive timesheets.&nbsp;
 * Only the current timesheet and the one to follow are generated. Workfront does not generate two timesheets for the same period. If you already have a timesheet for a specific time frame, another one will not generate when you are using the manual process to generate timesheets.
 
-## Manually generate timesheets from the Timesheets area
+## Manually generate timesheets from the Timesheets &&nbsp;Hours area
 
-You can manually generate system-level or group-level timesheets from the Timesheets area in Setup.
+You can manually generate system-level or group-level timesheets from the Timesheets &&nbsp;Hours area in Setup.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

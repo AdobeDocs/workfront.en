@@ -9,6 +9,10 @@ hidefromtoc: true
 
 # Projects API
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use the Projects API to interact with projects within Adobe Workfront. The calls included with this API interact directly with the project itself.
 
 Following are some examples of how you can interact with projects through the API:

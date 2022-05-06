@@ -9,6 +9,10 @@ description: If an object such as a project, issue, or task contains rich text, 
 
 # Rich text field storage in the API
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If an object such as a project, issue, or task contains rich text, it is stored and accessible as a parameter value through the Workfront API.
 
 Requesting text information from a project object that contains rich text can be done using the field **parameterValues**.

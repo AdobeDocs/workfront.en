@@ -5,12 +5,12 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: JSON modules
-description: The JSON app provides modules to process data in JSON format so that Adobe Workfront Fusion can further work with the data content, or create new JSON content.
+description: The Adobe Workfront Fusion JSON app provides modules to process data in JSON format so that Adobe Workfront Fusion can further work with the data content, or create new JSON content.
 ---
 
 # JSON modules
 
-The JSON app provides modules to process data in JSON format so that Adobe Workfront Fusion can further work with the data content, or create new JSON content.
+The Adobe Workfront Fusion JSON app provides modules to process data in JSON format so that Adobe Workfront Fusion can further work with the data content, or create new JSON content.
 
 ## Access requirements
 
@@ -67,7 +67,7 @@ The Data structure describes how the JSON data is organized and enables the mapp
 1. Manually run the scenario. This allows the Parse JSON module to identify the JSON structure from the JSON you have provided.
 1. You can now connect following modules. The items from the Parse JSON module are now available for mapping.
 
-For more information, see [Data structures](../../workfront-fusion/modules/data-structures.md).
+For more information, see [Data structures in Adobe Workfront Fusion](../../workfront-fusion/modules/data-structures.md).
 
 ### Collection vs. Array {#collection-vs-array}
 
@@ -125,7 +125,7 @@ The output is a series of bundles. Each bundle contains one element of the array
 
 When you configure JSON modules, Workfront Fusion displays the fields listed below. Along with these, additional JSON fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -237,7 +237,7 @@ This action module transforms an object into a json string.
 1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the**Maximum number of returned rows** to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing "**Run this module only**." Verify the output of the module.
 
 1. Connect the Array Aggregator module after the Google Sheets module. In the module's setup choose the Google Sheets module in the **Source node** field. Leave the other fields as they are for the moment.
-1. Connect JSON > Create JSON module after the Array Aggregator module. The module's setup requires a Data structure that describes the JSON format. Click **Add**to open the Data structure setup. The easiest way to create this Data structure is to generate it automatically from a JSON sample. Click **Generator**and paste your JSON sample to the **Sample data** field:
+1. Connect JSON > Create JSON module after the Array Aggregator module. The module's setup requires a Data structure that describes the JSON format. Click **Add** to open the Data structure setup. The easiest way to create this Data structure is to generate it automatically from a JSON sample. Click **Generator** and paste your JSON sample to the **Sample data** field:
 
    ``` ```**Example: **`````` {
 

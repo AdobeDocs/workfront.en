@@ -2,16 +2,26 @@
 filename: view-items-in-a-list
 navigation-topic: use-lists
 title: Get started with lists in Adobe Workfront
-description: Objects can be displayed in lists in Adobe Workfront. A list is a grid that contains a number of objects, information about them, or other objects referenced from them.
+description: Objects can be displayed in lists in Adobe Workfront. A list is a grid that contains a number of objects, information about them, or other objects referenced from them. Suggested edit: You can view lists of objects in Adobe Workfront to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
 ---
 
 # Get started with lists in&nbsp;Adobe Workfront
 
-Objects can be displayed in lists in Adobe Workfront. A list is a grid that contains a number of objects, information about them, or other objects referenced from them.
+Objects can be displayed in lists in Adobe Workfront. A list is a grid that contains a number of objects, information about them, or other objects referenced from them. 
+
+<!--
+<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+Suggested edit: You can view lists of objects in Adobe Workfront to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
+</MadCap:conditionalText>
+-->
 
 The following are some characteristics of lists in Workfront:
 
-* Lists are object specific: one list can reference only one type of object. Other objects that are directly connected to the object of the list can also be referenced in the same list.
+* Lists are object specific: one list can reference only one type of object. Other objects that are directly connected to the object of the list can also be referenced in the same list. 
+
+  <!--
+  <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Suggested edit: I would remove this and the sentence below if you use the alternative first paragrap above.</span>
+  -->
 
   For example, a list of tasks includes task information like Assignments, Start and Due Date, but it can also include project information like Project Name or the name of the Project Owner.
 
@@ -30,6 +40,10 @@ Below are some types of object lists that you can find in Workfront and some of 
 >
 >This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard.  
 >For example, a Project report or a dashboard that contains a Project report also displays a list of projects.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Might be useful to add a Description column that explains the objects that appear in each list.</p>
+-->
 
 <table cellspacing="15"> 
  <col> 
@@ -175,6 +189,10 @@ Below are some types of object lists that you can find in Workfront and some of 
 
 ## List elements
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Consider adding Sort to this list.</p>
+-->
+
 A list contains certain elements that define its format and the information that displays. You can find several system list elements that are available by default. You can also create custom elements to meet your needs.
 
 >[!NOTE]
@@ -223,6 +241,14 @@ For more information about creating and customizing the building elements of lis
 
 ## The difference between the updated and the legacy lists
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider renaming to "The different types of lists"</p>
+-->
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maybe break this article up a bit? This section might be good to move out into its own article.</p>
+-->
+
 There are two types of lists in Workfront:
 
 * Legacy lists
@@ -242,6 +268,10 @@ All lists and reports in the new Adobe Workfront experience are updated lists, e
 * Documents lists
 
 The following table shows some of the differences between the legacy and updated lists in Workfront:
+
+<!--
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
+-->
 
 <table cellspacing="15"> 
  <col> 

@@ -25,7 +25,7 @@ To access the Workflow panel:
 
 1. Click the&nbsp;**Workflow** icon.****
 
-   ****The&nbsp;**Workflow**panel appears.
+   **** The&nbsp;**Workflow**panel appears.
 
    ![](assets/workflow-panel-350x115.png)
 

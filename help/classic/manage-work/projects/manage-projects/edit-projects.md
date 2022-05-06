@@ -3,10 +3,27 @@ filename: edit-projects
 product-area: projects
 navigation-topic: manage-projects
 title: Edit projects
-description: You can edit a project in Adobe Workfront as often as needed. We recommend that you edit projects minimally after they become Current, to avoid confusion by sending out notifications about the changes to the entire project team. You should ideally edit a project when the project is in Planning status. For information about the Project Team, see Project Team overview.
+description: (NOTE: ***Linked to many articles,
 ---
 
 # Edit projects
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: ***Linked to many articles,</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Update Type section is also documented in Selecting the Project Update Type article</p>
+<p>Keep the reference link to the other article that also documents the Update Type) </p>
+<p>(NOTE 2: information described here also exists in these articles:</p>
+<p>** Project Overview area</p>
+<p>**Manage project Finance area</p>
+<p>If you need to update just one field, check to see if that field is also listed there and update in both places.)</p>
+</div>
+-->
 
 You can edit a project in Adobe Workfront as often as needed. We recommend that you edit projects minimally after they become Current, to avoid confusion by sending out notifications about the changes to the entire project team. You should ideally edit a project when the project is in Planning status. For information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -36,7 +53,7 @@ You must have the following access to perform the steps in this article:
     <ul> 
      <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
      <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +95,7 @@ Some settings mentioned in this article might be modified from their default sta
          * Portfolio
          * Business Case
 
-           ![](assets/screen-shot-2013-09-24-at-3.13.42-pm-350x160.png)
+           ![](assets/screen-shot-2013-09-24-at-3.13.42-pm-350x237.png)
 
      >[!TIP]
      >
@@ -179,7 +196,7 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Group</strong> </td> 
-      <td> <p> <p>Specify a Group associated with the project. </p> <p>Note: This is a required field. You cannot have a project which is not associated with a group. By default, the Home Group of the creator of the project is the group associated with the project. If a group administrator creates a project from the Projects area of a group, the group becomes the group of the project by default. </p> </p> </td> 
+      <td> <p> <p>Specify a Group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>By default, the Home Group of the creator of the project is the group associated with the project. If a group administrator creates a project from the Projects area of a group, the group becomes the group of the project by default. </p> <p>Tip: If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see Group-level approval processes. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Company</strong> </td> 
@@ -269,7 +286,7 @@ Some settings mentioned in this article might be modified from their default sta
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Portfolio</strong> </td> 
-      <td> <p>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio</a>.</p> </td> 
+      <td> <p>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Program</strong> </td> 
@@ -364,16 +381,18 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Risk</strong> </td> 
-      <td> <p> <p>Define the level of risk of your project. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.</p> <p> <p>Consider selecting from the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate here cannot be customized.</p> <p>Note: These are not related to the potential Risks that could occur during the life of a project and which you should record in the Risks tab of the project, or in the Business Case. For information about potential project Risks, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types </a>. </p> </p> </p> </td> 
+      <td> <p> <p>Define the level of risk of your project. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.</p> <p> <p>Consider selecting from the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate here cannot be customized.</p> <p>Note: These are not related to the potential Risks that could occur during the life of a project and which you should record in the Risks tab of the project, or in the Business Case. For information about potential project Risks, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types</a>. </p> </p> </p> </td> 
      </tr> <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader"><strong>Legacy Resource Pool</strong> </td> 
-       <td> <p> <p>Specify the Legacy Resource Pool associated with the project. Legacy Resource Pools allow you to manage your job role allocations for the tasks in the project, according to the timeline of the project. You can also select a Legacy Resource Pool in the Resource Estimates section of the Business Case, as you are planning the project. For more information about Legacy Resource Pools on the Business case, see <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md">Applying Legacy Resource Pools to the Business Case.</a></p> </p> </td> 
+       <td> <p> <p>Specify the Legacy Resource Pool associated with the project. Legacy Resource Pools allow you to manage your job role allocations for the tasks in the project, according to the timeline of the project. You can also select a Legacy Resource Pool in the Resource Estimates section of the Business Case, as you are planning the project. For more information about Legacy Resource Pools on the Business case, see <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md">Applying Legacy Resource Pools to the Business Case.</a></p> <!--
+          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;removed feature)</p>
+         --> </p> </td> 
       </tr>
      --> 
      <tr> 
       <td role="rowheader"><strong>Resource Pools</strong> </td> 
-      <td> <p> <p>Specify the Resource Pools associated with the project. Resource Pools are collections of users that are needed at the same time for the completion of a project and allow for project budgeting in the Resource Planner. For more information about Resource Pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>. </p> <p>Note: When you edit projects in bulk, only the Resource Pools that are common to all the projects selected appear in this field. If the projects selected have no shared Resource Pools, this field will be empty. The Resource Pools you specify here will overwrite the projects' individual Resource Pools.</p> </p> </td> 
+      <td> <p> <p>Specify the Resource Pools associated with the project. Resource Pools are collections of users that are needed at the same time for the completion of a project and allow for project budgeting in the Resource Planner. For more information about Resource Pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>. </p> <p>Note: When you edit projects in bulk, only the Resource Pools that are common to all the projects selected appear in this field. If the projects selected have no shared Resource Pools, this field will be empty. The Resource Pools you specify here will overwrite the projects' individual Resource Pools.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approval Process</strong> </td> 
@@ -381,7 +400,9 @@ Some settings mentioned in this article might be modified from their default sta
        <ul> 
         <li>Only active approval processes display in the list. </li> 
         <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>Important: If the group associated with the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-        <li> <p data-mc-conditions="QuicksilverOrClassic.Classic">If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. </p> </li> 
+        <li> <p data-mc-conditions="QuicksilverOrClassic.Classic">If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. </p> <!--
+          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>
+         --> </li> 
         <li> <p>When bulk-editing projects, the following scenarios exist:</p> 
          <ul> 
           <li> <p>When you select projects from the same group, both system-level and group-level approval processes display in this field.</p> </li> 
@@ -436,7 +457,7 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>When someone is assigned to an issue</strong></td> 
-      <td><p>Select from <strong>View</strong>, <strong>Contribute,</strong> or <strong>Manage</strong> access to an issue. The user assigned to an issue is automatically granted this access to the issue. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a>.<br></p></td> 
+      <td><p>Select from <strong>View</strong>, <strong>Contribute,</strong> or <strong>Manage</strong> access to an issue. The user assigned to an issue is automatically granted this access to the issue. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a>.<br></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Also grant access to the project</td> 
@@ -544,6 +565,10 @@ For information about how these settings affect creating new tasks, see [Create 
 
 ## Edit projects in bulk
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: *******THIS WHOLE SECTION WILL NEED TO BE RE-WRITTEN FOR NWE BULK WHEN EDITING PROJECTS IN BULK IN NWE WILL BE UPDATED***** THE SECTION AS IS NOW WILL STAY FOR CLASSIC, BUT REMOVE ALL THE NWE CONDITIONING AND CROSS-REFERENCES*****)</p>
+-->
+
 You can edit projects in bulk and update all their information at the same time.
 
 To edit projects in bulk:
@@ -579,8 +604,12 @@ To edit projects in bulk:
    
    * Custom Forms
 
-     For information, continue with step 7 below. 
-   
+     For information, continue with step 7 below.
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;make sure this stays accurate)</p>   
+     -->
+
    * Tasks
 
      For information, see the [Tasks](#tasks) section in this article.
@@ -588,6 +617,10 @@ To edit projects in bulk:
    * Comment
 
      For information, continue with step 9 below.
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays accurate)</p>   
+     -->
 
    >[!NOTE]
    >

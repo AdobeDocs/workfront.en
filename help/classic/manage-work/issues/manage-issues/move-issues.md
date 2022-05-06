@@ -8,6 +8,10 @@ description: You can move issues between the following objects:
 
 # Move issues
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can move issues between the following objects:
 
 * From a project to another project
@@ -37,7 +41,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to&nbsp;Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to&nbsp;Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +74,7 @@ You can move one or multiple issues from a list of issues or from an issue repor
 
 1. Click the **More**&nbsp;drop-down menu at the top of the issue list, then click **Move** **to**.
 
-   ![](assets/mi2-350x175.png)
+   ![](assets/mi2-350x209.png)
 
 1. The **Move Issue** or **Move Issues** box displays. 
 
@@ -78,11 +82,24 @@ You can move one or multiple issues from a list of issues or from an issue repor
 
    >[!TIP]
    >
-   >Only 50 projects display in the list.
+   >Only 50 projects display in the list.    >
+   >
+   ><!--   >
+   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
+   >(NOTE: this is only true in classic -- the limit is 100 for NWE)   >
+   ></MadCap:conditionalText>   >
+   >-->   >
+   >
 
    ![](assets/ci3-350x203.png)
 
-1. Continue moving the issue as described in the section [Move a single issue](#move-a-single-issue) in this article, starting with Step 3.
+1. Continue moving the issue as described in the section [Move a single issue](#move-a-single-issue) in this article, starting with Step 2. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: ensure step stays accurate)
+   </MadCap:conditionalText>
+   -->
 
 ## Move a single issue {#move-a-single-issue}
 
@@ -96,7 +113,14 @@ You can move one issue when viewing it.
 
    >[!TIP]
    >
-   >Only 50 projects display in the list.
+   >Only 50 projects display in the list.    >
+   >
+   ><!--   >
+   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
+   >(NOTE: this is only true in classic, the limit is 100 for NWE)   >
+   ></MadCap:conditionalText>   >
+   >-->   >
+   >
 
 1. (Optional) Click **Next Step.**
 

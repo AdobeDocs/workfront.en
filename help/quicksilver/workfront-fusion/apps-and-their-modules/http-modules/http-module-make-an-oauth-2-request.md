@@ -12,7 +12,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 # HTTP > Make an OAuth 2.0 request module
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-In order to make an HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. Adobe Workfront Fusion ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
+In order to make an Adobe Workfront Fusion HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. Adobe Workfront Fusion ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
 
 Workfront Fusion supports the following OAuth 2.0 authentication flows:
 
@@ -65,6 +65,10 @@ You must have the following access to use the functionality in this article:
 
 ## Creating a connection for an OAuth request {#creating-a-connection-for-an-oauth-request}
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SB: It seems strange that there is only 1 H2 in this article, but it has 3 subsections. Personally, I'd eliminate this H2, then turn the 3 H3s into H2s. I'd also update the "General instructions" to say "Creating a connection to <the thing/a general module> in the..." and change the others to "Create a" and "Connect to" to match our style guide.</p>
+-->
+
 * [General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module](#general-instructions-for-creating-a-connection-in-the-http-make-an-oauth-2-0-request-module) 
 * [Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-2-0-request-module) 
 * [Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module](#instructions-for-connecting-to-microsoft-graph-api-via-the-http-make-an-oauth-2-0-request-module)
@@ -72,6 +76,10 @@ You must have the following access to use the functionality in this article:
 ### General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module {#general-instructions-for-creating-a-connection-in-the-http-make-an-oauth-2-0-request-module}
 
 1. Create an OAuth client in the target service with which you want Adobe Workfront Fusion to communicate. This option is most likely found in the Developer section of the given service.
+
+   <!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> SB: About "with which": I HATE writing around ending a sentence with a preposition. It always ends up sounding so unnatural. So, I'd change it to "that you...communicate with," but it's TOTALLY up to you. We have nothing in the style guide for or against this.</span>
+   -->
 
    1. When creating a client, enter the appropriate URL in the    
    
@@ -158,6 +166,11 @@ You must have the following access to use the functionality in this article:
 1. (Conditional) If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, Workfront Fusion fails to create the connection, and you receive an invalid scope error.
 1. After you complete the steps above, you can start to create the OAuth connection in Workfront Fusion. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario.
 1. In the module's Connection field, click **Add**.
+
+   <!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> SB:&nbsp;I think following our style, that should say "then click Add in the Connection section" but I really like given the user the section before the field. I think it makes it easier to orient them.</span>
+   -->
+
 1. Fill in the following fields to create a connection: 
 
    <table cellspacing="0"> 
@@ -269,7 +282,7 @@ You must have the following access to use the functionality in this article:
     </tbody> 
    </table>
 
-1. Click **Continue**to save connection settings. 
+1. Click **Continue** to save connection settings. 
 1. Continue to [OAuth 2.0 request module setup](#oauth-2-0-request-module-setup).
 
 ### Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module  {#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-2-0-request-module}
@@ -278,7 +291,7 @@ The following example shows how to use the HTTP > Make an OAuth 2.0 request modu
 
 1. Ensure that you have created a project, configured OAuth settings, and generated your credentials as described in [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 1. Open the HTTP > Make an OAuth 2.0 request module.
-1. Click **Add**next to the connection box.
+1. Click **Add** next to the connection box.
 1. Enter the following values:
 
    <table cellspacing="0"> 
@@ -324,12 +337,12 @@ The following example shows how to use the HTTP > Make an OAuth 2.0 request modu
     </tbody> 
    </table>
 
-1. Click **Continue**to save connection settings. 
+1. Click **Continue** to save connection settings. 
 1. Continue to [OAuth 2.0 request module setup](#oauth-2-0-request-module-setup).
 
 ### Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module {#instructions-for-connecting-to-microsoft-graph-api-via-the-http-make-an-oauth-2-0-request-module}
 
-For instructions regarding Microsoft Graph API, see [Call the MS Graph REST API via the HTTP > Make an OAuth 2.0 request module](../../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+For instructions regarding Microsoft Graph API, see [Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](../../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
 
 ## OAuth 2.0 request module setup {#oauth-2-0-request-module-setup}
 
@@ -337,7 +350,7 @@ When you have established an Oauth 2.0 connection as described in [Creating a co
 
 When you configure the HTTP > Make an OAuth 2.0 request module, Workfront Fusion displays the fields listed below. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
 <!--
 <img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -353,7 +366,7 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
   <tr> 
    <td role="rowheader">Evaluate all states as errors (except for 2xx and 3xx ) </td> 
-   <td> <p>Use this option to set up error handling.</p> <p>For more information, see <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Error handling</a>.</p> </td> 
+   <td> <p>Use this option to set up error handling.</p> <p>For more information, see <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Error handling in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL </td> 
@@ -361,7 +374,7 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers </td> 
@@ -427,7 +440,7 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
   <tr> 
    <td role="rowheader">Use Mutual TLS</td> 
-   <td> <p>Enable this option to use Mutual TLS in the HTTP request.</p> <p>For more information on Mutual TLS, see <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Use Mutual TLS in HTTP modules</a>.</p> </td> 
+   <td> <p>Enable this option to use Mutual TLS in the HTTP request.</p> <p>For more information on Mutual TLS, see <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Use Mutual TLS in HTTP modules in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,11 +2,15 @@
 filename: locate-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
-title: Locate the Resource Planner in Adobe Workfront
-description: You can use the Resource Planner to manage the allocation of your resources to projects. You can access the Resource Planner for multiple projects at the same time or for one project, from the project's Business Case area.
+title: Locate the Resource Planner
+description: (This came off this article: draft that content in the article when this comes live: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)
 ---
 
-# Locate the Resource Planner in Adobe Workfront
+# Locate the Resource Planner
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This came off this article: draft that content in the article when this comes live: /Content/Resource Mgmt/Resource Planning/get-started-resource-planner.html)</p>
+-->
 
 You can use the Resource Planner to manage the allocation of your resources to projects. You can access the Resource Planner for multiple projects at the same time or for one project, from the project's Business Case area.
 
@@ -24,7 +28,11 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> <p>Plan or higher to locate the Resource Planner in the global area</p> </td> 
+   <td> <p>Review or higher<!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
+      </MadCap:conditionalText>
+     --></p> <p>Plan or higher to locate the Resource Planner in the global area</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -32,7 +40,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to projects and users </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to projects and users </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +55,11 @@ For information about Resource Planner prerequisites, see [Get started with Reso
 
 ## Locate the Resource Planner
 
-You can locate the Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(this was moved from the get-started-resource-planner article)</p>
+-->
+
+You can locate the Resource Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.
 
 * [Use the Resource Planner for multiple projects](#use-the-resource-planner-for-multiple-projects) 
 * [Use the Resource Planner for one project](#use-the-resource-planner-for-one-project)
@@ -60,12 +72,12 @@ To access the Planner section in the Resourcing area:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
 
-1. Click **Resourcing**. The Planner displays by default.  For information about budgeting resources in the Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+1. Click **Resourcing**. The Planner displays by default.  For information about budgeting resources in the Resource Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
    ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Hover over the left panel, and click **Resource Pools**.   
-   For information about creating resource pools, see [Create resource pools in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+   For information about creating resource pools, see [Create resource pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Use the Resource Planner for one project {#use-the-resource-planner-for-one-project}
 

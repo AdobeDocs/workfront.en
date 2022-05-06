@@ -3,12 +3,10 @@ filename: navigate-the-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Navigate the Workload Balancer
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: Use the Workload Balancer to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the Workload Balancer.
 ---
 
 # Navigate the Workload Balancer
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 Use the Workload Balancer to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the Workload Balancer.
 
@@ -22,10 +20,10 @@ Use the Workload Balancer to understand the availability of your resources as we
 
 The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas.&nbsp;This article describes how to navigate the Workload Balancer for multiple projects in the Resourcing area.&nbsp;For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-Also consider reading the following articles:
+For information about managing resources using the Workload Balancer, also consider reading the following articles:
 
-* For information about assigning work using the Workload Balancer, see ``` [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)```. 
-* For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* ``` [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)``` 
+* [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 ## Access requirements
 
@@ -55,7 +53,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,6 +121,12 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    You might need to click **Scheduling**, then select Workload Balancer in the upper-left corner. 
 
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: take this out when Scheduling is removed)
+   </MadCap:conditionalText>
+   -->
+
    The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. ```By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.```
 
    >[!TIP]
@@ -135,28 +139,14 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    1. Planned Completion Date (oldest first)
    1. Alphabetical by project (only when the first two criteria are identical for multiple work items)
 
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><span class="preview">Click the right-pointing arrow to the left of the Unassigned or Assigned areas to expand all items under the project names (in the Unassigned area) and under the user names (in the Assigned area). </span> </p>
-   -->
-
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><span class="preview">Click the down-pointing arrow to the left of the Unassigned or Assigned areas to collapse all items under the project names (in the Unassigned area) and under the user names (in the Assigned area). </span> </p>
-   -->
-
+1. ```Click the right-pointing arrow to the left of the Unassigned or Assigned areas to expand all items under the project names (in the Unassigned area) and under the user names (in the Assigned area).``` 
+1. ```Click the down-pointing arrow to the left of the Unassigned or Assigned areas to collapse all items under the project names (in the Unassigned area) and under the user names (in the Assigned area).``` 
 1. Use the horizontal scroll to navigate the timelines of work items that extends beyond the limits of the screen. 
 1. Use the vertical scroll to display additional users and work items. 
 1. 
+   Drag and drop the separation line between the left panel and the timeline areas to adjust the size of the left panel.
 
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   <p>Drag and drop the separation line between the left panel and the timeline areas to adjust the size of the left panel. </p>
-   <p> <img src="assets/separation-line-between-left-panel-and-timeline-highlighted-nwe-350x174.png" style="width: 350;height: 174;"> </p>
-   </div>
-   -->
+   ![](assets/separation-line-between-left-panel-and-timeline-highlighted-nwe-350x174.png)
 
 1. Click the **Filter icon** ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or the **Assigned Work** areas to select the type of information to display in the Workload Balancer.
 
@@ -174,7 +164,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Click the back or forward icons ![](assets/back-and-forward-icons.png) to navigate the timeline, then click **Today** to return to the current week. 
 
-1. Click the **time frame drop-down menu** on the toolbar, then click the beginning date of the period selected in step 8 on the calendar that displays. By default, the first week selected on the calendar is the week you navigated to.
+1. Click the **time frame drop-down menu** on the toolbar, then click the beginning date of the period you want to display. By default, the first week selected on the calendar is the week you navigated to.
 
    ![](assets/calendar-date-picker-balancer-350x208.png)
 
@@ -333,11 +323,19 @@ After selecting the settings you want to apply to your view, the Workload Balanc
      >   
      >
 
-     For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
+     For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
    
    * **Edit allocations**, then edit the daily or weekly allocations for the user. For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-1. ```Click the **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel.```
+1. ```Click the bar of a task or issue to open the Summary panel on the right```
+
+   ```Or```
+
+   ```Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel```
+
+   Or
+
+   Click the **More** menu ![](assets/more-icon.png) to the right of a task or issue, then click&nbsp;Open&nbsp;Summary.
 
    For information about updating task information in the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
@@ -345,14 +343,13 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    >
    >This option is available for tasks in the Unassigned Work area and for tasks and ```issues``` in the Assigned Work area. This is not available for projects or users.
 
+   The Summary panel opens on the right. 
+
 1. Click **Bulk Assignments** to assign work items in bulk.
 
-   For more information, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+   For more information, see [Assign work in bulk using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md). 
 
-   <!--
-   <li value="24" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p><span class="preview">Click the <strong>Full screen</strong> icon <img src="assets/full-screen.png"> to display the Workload Balancer in full screen, then click the <strong>Exit full screen</strong> icon <img src="assets/exit-full-screen.png"> to return to the default screen.</span> </p> </li>
-   -->
-
+1. ```Click the **Full screen** icon ![](assets/full-screen.png) to display the Workload Balancer in full screen, then click the **Exit full screen** icon ![](assets/exit-full-screen.png) to return to the default screen.``` 
 1. (Optional) Double-click a daily or weekly allocation for a user inside the bar of a work item to edit the number of allocated hours, then click the **Save** icon ![](assets/save-allocations-wb.png)to save the allocations or the **Cancel** icon ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
 
    >[!TIP]
@@ -373,7 +370,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    >[!TIP]
    >
-   >You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see [Access needed to use the Adobe Workfront Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
+   >You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see [Access needed to use the Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. (Optional) Select **Scheduling** from the drop-down menu in the upper-left corner to access the scheduling area.
 

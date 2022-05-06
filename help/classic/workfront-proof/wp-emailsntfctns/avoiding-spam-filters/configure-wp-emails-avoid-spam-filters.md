@@ -11,6 +11,10 @@ description: Your email client's spam filter serves an important purpose: protec
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Your email client's spam filter serves an important purpose: protecting you from annoying and possibly malicious spam emails. But, if you don't have the correct settings in the spam filter, it can keep you from seeing the following important Workfront Proof emails: proof email notifications, newsletters, and special communications.

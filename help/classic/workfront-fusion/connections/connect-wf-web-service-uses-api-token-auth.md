@@ -9,6 +9,10 @@ description: Some services do not allow integration solutions such as Adobe Work
 
 # Connect Adobe Workfront Fusion to a web service that uses API token authorization
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Some services do not allow integration solutions such as Adobe Workfront Fusion to create an app that you can easily use in your scenario.
 
 There is a workaround to this situation. You can connect the desired service (app) to Workfront Fusion using Workfront Fusion's HTTP module.

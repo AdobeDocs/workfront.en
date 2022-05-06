@@ -4,10 +4,18 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Overview of the Workload Balancer
-description: After project managers plan the work on projects and create tasks, you can use the Workload Balancer to assign this work to users in your teams.
+description: (NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK)
 ---
 
 # Overview of the Workload Balancer
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 After project managers plan the work on projects and create tasks, you can use the Workload Balancer to assign this work to users in your teams.
 
@@ -28,6 +36,10 @@ This article describes the general purpose for the&nbsp;Workload Balancer and so
 >We recommend that you use the Workload Balancer for scheduling your resources.
 
 ## Resource scheduling areas and tools
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be taken out when all we will have is one tool - should be replaced by a blurb that says you can add this tool anywhere, in any custom tab, etc (long term dev promise)) </p>
+-->
 
 You can assign work items to users in the following areas of Adobe Workfront:
 
@@ -61,27 +73,22 @@ At the system level, you can access the Workload Balancer in addition to the exi
 
 Consider the following benefits when using the Workload Balancer:
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Add about the what-if scenarios as a benefit when they become available) </p>
+-->
+
 * Access a clear visual mapping of resource overallocation and underutilization which is transparent to all stakeholders. 
 * As a people manager, you can protect your people from burnout and empower them to do their best work with better focus, quality and engagement. You can ensure their full utilization, break silos, and enable alignment of work across teams. 
 * When you assign work at the task ```or issue``` level you don't have visibility into how busy a user might be. When you use the Workload Balancer, you can view which users have availability in their workload to complete the task ```or issue``` on time. This includes their time off and schedule exceptions details.
 
-  For more information, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  For more information, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * Executives can make timely staffing decisions through transparency into how people in their organization are utilized. 
 * Team members benefit from better collaboration, as they can all view what their coworkers are working on at any given time. For information about the access needed to view or manage resources in the Workload Balancer, see [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 * Share it with anyone that does not have access to the People area by embedding a link to it in a custom tab.&nbsp;For information, see [Share the Workload Balancer with a link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 * Visualize and manage people’s workloads and demand in one view at the global, project, or team level, depending on your role. ```When managing projects, this includes not only resource allocation for the project, but also visualizing the allocation of resources``` ```from``` ```the Adobe Workfront Scenario Planner. People managers use the Workfront Scenario Planner to manage job skills across the organization. The Scenario Planner is only available in the new Adobe Workfront experience.```
 
-  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>Watch the following video for an overview of the Workload Balancer. </p> <note type="note">
-The Workload Balancer is available in both Adobe Workfront Classic and the new Adobe Workfront experience. The video displays the Workload Balancer in the new Adobe Workfront experience.
-</note>
-<p><a href="https://one.workfront.com/s/managed-content-videos/workload-balancer-overview-20Y0z000000bmGLEAY" target="_blank"><img src="assets/workload-balancer-video-front-350x195.png" style="width: 350;height: 195;"></a> </p>
-</div>
--->
+  The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
 
 ## Best practices for using the Workload Balancer
 
@@ -114,6 +121,13 @@ For information about creating and using filters in the Workload Balancer, see [
    
    * Have their Time Off calendar updated in their profile.   
      For information about updating a user's Time Off calendar, see [Configure personal time off in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+     <!--   
+     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
+     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
+     </div>   
+     -->
 
 * The Workfront administrator must determine how Workfront calculates user availability.&nbsp;They can decide whether Workfront uses either the System Default Schedule, or the user's schedule to calculate the time that the user is available to work. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

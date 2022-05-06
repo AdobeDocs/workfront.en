@@ -28,7 +28,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -43,7 +43,7 @@ You must have the following:
    <td> 
     <div> 
      <p>Manage permissions to the goal</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -96,7 +96,7 @@ Remember the following when deactivating goals:
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the ```**More icon** ![](assets/more-icon.png) ,```then click **Deactivate**.
+1. Click the ```**More icon** ![](assets/more-icon.png) ,``` then click **Deactivate**.
 
    ![](assets/deactivate-goal-highlighted.png)
 
@@ -126,7 +126,7 @@ You can delete goals that are no longer or might never be relevant.
 
    The Goal Details panel opens on the right. 
 
-1. Click the ```**More icon** ![](assets/more-icon.png),```then click **Delete**.
+1. Click the ```**More icon** ![](assets/more-icon.png),``` then click **Delete**.
 
    ![](assets/delete-goal-highlighted.png)
 

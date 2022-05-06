@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Edit permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,6 +57,8 @@ You must have the following access to perform the steps in this article:
 
 1. Click&nbsp;**Save Changes**.
 
+   The Project Owner updates in the project header and in the Project&nbsp;Details area.
+
 ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Update the Project Sponsor of a project
@@ -70,6 +72,8 @@ You must have the following access to perform the steps in this article:
    Only active users can be specified as Project Sponsors.
 
 1. Click&nbsp;**Save Changes**.
+
+   The Project&nbsp;Sponsor updates in the Project&nbsp;Details area.
 
    ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
 

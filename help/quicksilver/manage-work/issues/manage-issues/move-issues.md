@@ -3,12 +3,10 @@ filename: move-issues
 product-area: projects
 navigation-topic: manage-issues
 title: Move issues
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can move issues between the following objects:
 ---
 
 # Move issues
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can move issues between the following objects:
 
@@ -39,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to&nbsp;Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to&nbsp;Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,41 +58,6 @@ Consider the following when moving&nbsp;issues that contain documents or are ass
 
 You can move one or multiple issues from a list of issues or from an issue report.
 
-Moving issues differs depending on what environment you use.
-
-* [Move issues in a list in the Production environment](#move-issues-in-a-list-in-the-production-environment) 
-* [Move issues in a list in the Preview environment](#move-issues-in-a-list-in-the-preview-environment)
-
-### Move issues in a list in the Production&nbsp;environment {#move-issues-in-a-list-in-the-production-environment}
-
-1. Go to a project whose issues you want to move.
-
-   Or
-
-   Go to an issue report.
-
-1. If you selected a project, click the **Issues** section, then select the issue or issues you want to move in the list of issues.
-
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
-1. Click the **More**&nbsp;drop-down menu ![](assets/more-icon.png) at the top of the issue list, then click **Move** **to**.
-
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
-
-1. The **Move Issue** or **Move Issues** box displays. 
-
-1. Specify&nbsp;the name of the project where you want to move the issues in the **Select Destination Project** section.
-
-   >[!TIP]
-   >
-   >Only 50 projects display in the list.
-
-   ![](assets/ci3-350x203.png)
-
-1. Continue moving the issue as described in the section [Move a single issue](#move-a-single-issue) in this article, starting with Step 3.
-
-### Move issues in a list in the Preview environment {#move-issues-in-a-list-in-the-preview-environment}
-
 1. Go to the project that contains the issue or issues that you want to move.
 
    Or
@@ -106,49 +69,19 @@ Moving issues differs depending on what environment you use.
 
    ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. Continue with moving the issue, as described in the section [Move a single issue in the Preview environment](#move-a-single-issue-in-the-preview-environment) starting with Step 2.
+1. Continue with moving the issue, as described in the section [Move a single issue](#move-a-single-issue) starting with Step 2. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: ensure step stays accurate)
+   </MadCap:conditionalText>
+   -->
 
 ## Move a single issue {#move-a-single-issue}
 
 You can move one issue when viewing it.
 
-Moving issues differs depending on what environment you use.
-
-* [Move a single issue in the Production environment](#move-a-single-issue-in-the-production-environment) 
-* [Move a single issue in the Preview environment](#move-a-single-issue-in-the-preview-environment)
-
-### Move a single issue in the Production&nbsp;environment {#move-a-single-issue-in-the-production-environment}
-
-1. Go to an issue that you want to move, then click the **More** menu ![](assets/more-icon.png) to the right of the issue name, then **Move** ```to```.
-
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
-
-   The **Move Issue** box displays. 
-
-1. Specify&nbsp;the name of the project where you want to move the issues in the **Select Destination Project** section. The name of the current project displays by default.
-
-   >[!TIP]
-   >
-   >Only 50 projects display in the list.
-
-1. (Optional) Click **Next Step.**
-
-   Or
-
-   Select **Task** to select a task to move the issue to.
-
-   ![move_issue_last_step.png](assets/move-issue-last-step-350x165.png)
-
-1. (Optional)&nbsp;Click **Go back a Step** to go back to the previous screen in the Move Issue box. 
-1. Click **Finish and Move Issue**.
-
-   Or
-
-   Click**Finish and Move Issues** when you copy multiple issues in a list.
-
-   The copied issue is added to the specified project.&nbsp;
-
-### Move a single issue in the Preview environment {#move-a-single-issue-in-the-preview-environment}
+### Move a single issue in the Preview environment
 
 1. Go to an issue that you want to copy, click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then select **Move** ```to```.
 
@@ -156,7 +89,7 @@ Moving issues differs depending on what environment you use.
 
    The **Move Issue** box displays.
 
-   ![](assets/move-issue-box-nwe-350x281.png)
+   ![](assets/move-issue-box-nwe-350x280.png)
 
 1. In the **Select Destination Project** section, specify&nbsp;the name of the project where you want to move the issues. The name of the current project displays by default.
 
@@ -210,7 +143,7 @@ Moving issues differs depending on what environment you use.
     </tbody> 
    </table>
 
-1. (Optional) In the **Select Parent** section, select the task where you want to move the issue. 
+1. (Optional) In the **Select Task** section, select the task where you want to move the issue. 
 1. Click **Move issue** or **Move issues**, if you selected multiple issues in a list.
 
    The moved issues are added to the specified project.&nbsp;

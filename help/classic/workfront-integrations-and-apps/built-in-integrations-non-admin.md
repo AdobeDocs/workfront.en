@@ -9,6 +9,10 @@ description: You can integrate Adobe Workfront with third-party applications. Th
 
 # Adobe Workfront built-in integrations overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the Adobe Creative Cloud add-in to export assets directly from Photoshop to Workfront.
 
 <!--

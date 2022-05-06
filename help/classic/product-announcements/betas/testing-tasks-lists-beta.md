@@ -3,11 +3,15 @@ filename: testing-tasks-lists-beta
 content-type: reference
 navigation-topic: betas
 title: Testing task list beta
-description: Some information on this page refers to functionality not yet generally available. It is available in the Preview Sandbox environment, only by request.
+description: (NOTE: Alina: Keep this in draft - Anna might use it again in the near future - May 11, 2017)
 hidefromtoc: true
 ---
 
 # Testing task list beta
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: Keep this in draft - Anna might use it again in the near future - May 11, 2017)</p>
+-->
 
 Some information on this page refers to functionality not yet generally available. It is available in the Preview Sandbox environment, only by request.&nbsp;
 

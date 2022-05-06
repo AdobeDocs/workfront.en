@@ -9,6 +9,10 @@ description: When you create a report about reports, you can identify specific r
 
 # Create a report on reporting activities
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you create a report about reports, you can identify specific report information, which can include if reports are assigned to deactivated users, if reports are set to run with access rights of a deactivated user, if users are accessing a report you plan to delete, and so forth.
 
 ## Access requirements
@@ -33,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +82,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Export this report to Excel and save it on your computer.  
    For information on exporting a report, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-## Update the reports
+## Update information about a report
 
 After creating your report, you can update your reports as needed.
 

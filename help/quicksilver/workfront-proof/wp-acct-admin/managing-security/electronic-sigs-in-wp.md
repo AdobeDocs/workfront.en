@@ -18,7 +18,7 @@ Electronic signatures allow you to enhance security on your proofs and comply wi
 
 This setting can be made mandatory or non-mandatory at the account level. If it is mandatory by default, it is enabled on all proofs created in your account and cannot be disabled at proof level. If this setting is non-mandatory by default, you will be able to enable/disable it at a proof level.
 
-For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+For more information, see .
 
 When the electronic-signature setting is enabled on a proof, an electronic-signature box prompts any reviewer who makes a decision on the proof to provide their email and password.
 

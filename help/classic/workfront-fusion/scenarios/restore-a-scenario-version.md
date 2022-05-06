@@ -3,11 +3,15 @@ filename: restore-a-scenario-version
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Restore a scenario version
+title: Restore a scenario version in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Restore a scenario version
+# Restore a scenario version in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 ## Access requirements
 

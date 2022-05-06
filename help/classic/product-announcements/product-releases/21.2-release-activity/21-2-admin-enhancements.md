@@ -177,7 +177,7 @@ You can add a custom view in the Custom Forms area with a new Reports column tha
 
 Previously, without this column, you had to manually create a report using text mode or use another workaround to find out which custom fields were being used in reports. This was difficult and tedious if your organization uses many custom fields.
 
-For more information, [View all reports that use a particular custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
+For more information, [View all reports that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 
 ```<iframe class="vimeo-player_0" src="assets/513506359?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

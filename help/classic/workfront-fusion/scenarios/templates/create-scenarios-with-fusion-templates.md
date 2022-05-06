@@ -9,6 +9,10 @@ description: Adobe Workfront FusionTemplates feature allow you to create and use
 
 # Create scenarios with Adobe Workfront Fusion templates
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront FusionTemplates feature allow you to create and use existing templates as a starting point for your Workfront Fusion scenarios.
 
 ## Access requirements
@@ -59,7 +63,7 @@ For instructions, see [Create scenarios with Adobe Workfront Fusion templates](#
 
 ## Create a scenario from a template
 
-1. Click the **Templates**icon ![](assets/fusion-template-icon.png) in the left navigation panel.
+1. Click the **Templates** icon ![](assets/fusion-template-icon.png) in the left navigation panel.
 1. Click on the tab that contains the template you want to use (**Public templates** or **Team templates**).
 1. Click the template you want to use to start creating a scenario. You can use the search feature to find the template by its name or the name of the app included in it.
 1. (Conditional) If you are a member of more than one organization or team, select which organization or team you want to create your scenario for and click **Continue**.
@@ -71,7 +75,7 @@ For instructions, see [Create scenarios with Adobe Workfront Fusion templates](#
 
 1. When you have configured all the settings required for the template, you receive a notification that your template is ready to go, and the standard scenario options appear at the bottom of the screen. You can now continue building your scenario.
 
-   For information on building a scenario, see [Create a scenario](../../../workfront-fusion/scenarios/create-a-scenario.md).
+   For information on building a scenario, see [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Click the **Save** icon ![](assets/save-icon.png) to save your scenario. The scenario saves to the Scenario area of Workfront Fusion.
 

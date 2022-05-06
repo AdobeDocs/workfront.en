@@ -6,18 +6,22 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront modules
-description: You can use the Adobe Workfront connector to automate your processes within Workfront. If you have a Workfront Fusion for Work Automation and Integration license, you can also use it to connect to third-party apps and services.
+description: You can use the Adobe Workfront Fusion Adobe Workfront connector to automate your processes within Workfront. If you have a Workfront Fusion for Work Automation and Integration license, you can also use it to connect to third-party apps and services.
 ---
 
 # Adobe Workfront modules
 
-You can use the Adobe Workfront connector to automate your processes within Workfront. If you have a Workfront Fusion for Work Automation and Integration license, you can also use it to connect to third-party apps and services.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+You can use the Adobe Workfront Fusion Adobe Workfront connector to automate your processes within Workfront. If you have a Workfront Fusion for Work Automation and Integration license, you can also use it to connect to third-party apps and services.
 
 The Workfront connector does not count against the number of active apps available to your organization. All scenarios, even if they use only the Workfront app, do count against your organization's total scenario count.
 
 For more information on your organization's available apps and scenarios, see [Organizations](../../workfront-fusion/organizations/organizations-and-teams.md#organiza2) in [Adobe Workfront Fusion organizations and teams](../../workfront-fusion/organizations/organizations-and-teams.md).
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -65,7 +69,7 @@ The Workfront connector uses OAuth 2.0 to connect to Workfront.
 
 You can create a connection to your Workfront account directly from inside a Workfront Fusion module.
 
-1. In any Workfront app module, click **Add**next to the Connection box.
+1. In any Workfront app module, click **Add** next to the Connection box.
 1. Enter the name of your instance into the URL. Example: 
 
    ```
@@ -98,7 +102,7 @@ You can create a connection to your Workfront account directly from inside a Wor
 
 When you configure Workfront modules, Workfront Fusion displays the fields listed below. Along with these, additional Workfront fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -393,12 +397,12 @@ This action module lets you make a custom authenticated call to the Workfront AP
 
 The module returns the following information:
 
-* **Status Code**(number): This indicates the success or failure of your HTTP request. These are standard codes that you can look up on the internet.
-* **Headers**(object): A more detailed context for the response/status code that doesn’t relate to the output body. Not all headers that appear in a response header are response headers, so some might not be useful to you.
+* **Status Code** (number): This indicates the success or failure of your HTTP request. These are standard codes that you can look up on the internet.
+* **Headers** (object): A more detailed context for the response/status code that doesn’t relate to the output body. Not all headers that appear in a response header are response headers, so some might not be useful to you.
 
   The response headers depend on the HTTP request you chose when configuring the module.
 
-* **Body**(object): Depending on the HTTP request you chose when configuring the module, you may receive some data back. That data, such as the data from a GET request, is contained in this object.
+* **Body** (object): Depending on the HTTP request you chose when configuring the module, you may receive some data back. That data, such as the data from a GET request, is contained in this object.
 
 You can map this information in subsequent modules in the scenario.
 
@@ -422,7 +426,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -527,20 +531,32 @@ When you are configuring this module, the following fields display.
    <td> <p>Select the type of Workfront record that you want the module to interact with.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
+   <td>Action</td> 
+   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the Record Type and Action you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>Record Type</strong> and Attach Template for the <strong>Action</strong>) require additional information (such as an Object ID and a Template ID).<!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       <span style="color: #ff1493;"> Is this paragraph correct? I got it from the</span> 
+       <a href="https://docs.google.com/document/d/1dWaLFHHq8D6iq2nbRd8k3cT2GyyPv_mI-sdWKoCe--o/edit" style="color: #ff1493;">requirements doc</a>
+       <span style="color: #ff1493;">, #2</span>
+      </MadCap:conditionalText>
+     --></p> <p>For details about individual fields, see the <a href="http://developer.workfront.com/">Workfront developer documentation</a>. </p> 
+    <ol> 
+     <li value="1"> <p>Select the record type from the left navigation on the Workfront deverloper documentation page. The following types have their own pages:</p> 
+      <ul> 
+       <li> <p>Projects</p> </li> 
+       <li> <p>Tasks</p> </li> 
+       <li> <p>Issues</p> </li> 
+       <li> <p>Users</p> </li> 
+       <li> <p>Documents</p> </li> 
+      </ul> <p>For all other record types, select <b>Other objects and endpoints</b>, and locate the record type on the alphabetically sorted pages.</p> </li> 
+     <li value="2"> <p>On the page of the appropriate record type, search (Ctrl-F or Cmd-F) for the action.</p> </li> 
+     <li value="3"> <p>View descriptions for available fields under the selected action.</p> </li> 
+    </ol> <p>Note:  <p>When creating a proof through the Workfront Misc Action module, best practice is to create a proof without any advanced options, then update the proof using the Workfront Proof SOAP&nbsp;API.</p> <p>For more information on creating a proof with the Workfront API (which this module uses), see <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">Add advanced proofing options when creating a proof through the Adobe Workfront API</a></p> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td>ID</td> 
    <td>Enter or map the unique Workfront ID of the record that you want the module to interact with.<!--
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
     --><p>To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td>Action</td> 
-   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the Record Type and Action you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>Record Type</strong> and Attach Template for the <strong>Action</strong>) require additional information (such as an Object ID and a Template ID).<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       <span style="color: #ff1493;"> Is this paragraph correct? I got it from the </span>
-       <a href="https://docs.google.com/document/d/1dWaLFHHq8D6iq2nbRd8k3cT2GyyPv_mI-sdWKoCe--o/edit" style="color: #ff1493;">requirements doc</a>
-       <span style="color: #ff1493;">, #2</span>
-      </MadCap:conditionalText>
-     --></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -671,7 +687,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Source file</td> 
-   <td> <p>Map the file you want to upload from the previous module (for example, the HTTP &gt; Get a File or Dropbox &gt; Get a file module). Or enter the file name and file data manually.</p> </td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -775,48 +791,264 @@ See a list of the Workfront objects types for which you can use this module in [
 
 ### Object types available for each Workfront trigger module {#object-types-available-for-each-workfront-trigger-module}
 
-| &nbsp; |Watch Record |Watch Field |Watch Events |
-|---|---|---|---|
-| Approval Process |&nbsp; |✓ |&nbsp; |
-| Assignment |&nbsp; |✓ |✓ |
-| Baseline |✓ |&nbsp; |&nbsp; |
-| Billing Record |✓ |&nbsp; |&nbsp; |
-| Billing Rate |&nbsp; |✓ |&nbsp; |
-| Company |✓ |✓ |✓ |
-| Dashboard |&nbsp; |&nbsp; |✓ |
-| Document |✓ |✓ |✓ |
-| Document Folder |✓ |✓ |&nbsp; |
-| Document Request |✓ |&nbsp; |&nbsp; |
-| Document Version |✓ |✓ |&nbsp; |
-| Expense |✓ |✓ |✓ |
-| Expense Type |&nbsp; |&nbsp; |&nbsp; |
-| Group |✓ |✓ |&nbsp; |
-| Hour |&nbsp; |✓ |✓ |
-| Hour Type |&nbsp; |✓ |&nbsp; |
-| Issue |✓ |✓ |✓ |
-| Iteration |✓ |✓ |&nbsp; |
-| Job Role |✓ |✓ |&nbsp; |
-| Journal Entry |✓ |&nbsp; |&nbsp; |
-| Milestone |&nbsp; |✓ |&nbsp; |
-| Milestone Path |✓ |✓ |&nbsp; |
-| Note |✓ |✓ |✓ |
-| Note Tag |&nbsp; |✓ |&nbsp; |
-| Portfolio |✓ |✓ |✓ |
-| Program |✓ |✓ |✓ |
-| Project |✓ |✓ |✓ |
-| Project User |&nbsp; |✓ |&nbsp; |
-| Reserved Time&#42;  |&nbsp; |✓ |&nbsp; |
-| Report |&nbsp; |&nbsp; |✓ |
-| Risk |&nbsp; |&nbsp; |&nbsp; |
-| Risk Type |&nbsp; |&nbsp; |&nbsp; |
-| Step Approver |&nbsp; |✓ |&nbsp; |
-| Task |✓ |✓ |✓ |
-| Team |&nbsp; |✓ |&nbsp; |
-| Template |✓ |✓ |✓ |
-| Template Task |✓ |✓ |&nbsp; |
-| Timesheet |✓ |✓ |✓ |
-| User |✓ |✓ |✓ |
-| Update |&nbsp; |&nbsp; |&nbsp; |
+<table> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>&nbsp;</th> 
+   <th>Watch Record</th> 
+   <th>Watch Field</th> 
+   <th>Watch Events</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Approval Process</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Assignment</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Baseline</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Billing Record</p> <!--
+     <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Draft for billing record story</p>
+    --> </td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Billing Rate</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Company</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Dashboard</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Document</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Document Folder</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Document Request</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Document Version</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Expense</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Expense Type</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Group</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Hour</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Hour Type</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Issue</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Iteration</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Job Role</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Journal Entry</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Milestone</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Milestone Path</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Note</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Note Tag</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Portfolio</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Program</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Project</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Project User</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Reserved Time* </td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Report</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Risk</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Risk Type</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Step Approver</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Task</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Team</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Template</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Template Task</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Timesheet</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>User</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Update</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Object types available for each Workfront action module {#object-types-available-for-each-workfront-action-module}
 
@@ -867,7 +1099,9 @@ See a list of the Workfront objects types for which you can use this module in [
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Billing Record</td> 
+   <td> <p>Billing Record</p> <!--
+     <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Draft for billing record story</p>
+    --> </td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1211,44 +1445,202 @@ See a list of the Workfront objects types for which you can use this module in [
 
 ### Object types available for each Workfront search module {#object-types-available-for-each-workfront-search-module}
 
-| &nbsp; |Search |Read Related Records |
-|---|---|---|
-| Approval Process |✓ |✓ |
-| Assignment |✓ |✓ |
-| Billing Record |✓ |&nbsp; |
-| Billing Rate |✓ |&nbsp; |
-| Company |✓ |✓ |
-| Document |✓ |✓ |
-| Document Folder |✓ |✓ |
-| Document Version |✓ |&nbsp; |
-| Expense |✓ |&nbsp; |
-| Expense Type |✓ |&nbsp; |
-| Group |✓ |✓ |
-| Hour |✓ |&nbsp; |
-| Hour Type |✓ |&nbsp; |
-| Issue |✓ |✓ |
-| Iteration |✓ |&nbsp; |
-| Job Role |✓ |&nbsp; |
-| Journal Entry |✓ |&nbsp; |
-| Milestone |✓ |&nbsp; |
-| Milestone Path |✓ |&nbsp; |
-| Note |✓ |&nbsp; |
-| Note Tag |✓ |&nbsp; |
-| Portfolio |✓ |✓ |
-| Program |✓ |&nbsp; |
-| Project |✓ |✓ |
-| Project User |✓ |&nbsp; |
-| Reserved Time&#42;  |✓ |&nbsp; |
-| Risk |✓ |&nbsp; |
-| Risk Type |✓ |&nbsp; |
-| Step Approver |✓ |&nbsp; |
-| Task |✓ |✓ |
-| Team |✓ |&nbsp; |
-| Template |✓ |&nbsp; |
-| Template Task |✓ |&nbsp; |
-| Timesheet |✓ |✓ |
-| User |✓ |✓ |
-| User Delegation |✓ |&nbsp; |
+<table> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>&nbsp;</th> 
+   <th>Search</th> 
+   <th>Read Related Records</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Approval Process</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Assignment</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Billing Record</p> <!--
+     <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Draft for billing record story</p>
+    --> </td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Billing Rate</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Company</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Document</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Document Folder</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Document Version</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Expense</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Expense Type</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Group</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Hour</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Hour Type</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Issue</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Iteration</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Job Role</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Journal Entry</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Milestone</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Milestone Path</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Note</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Note Tag</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Portfolio</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Program</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Project</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Project User</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Reserved Time* </td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Risk</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Risk Type</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Step Approver</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Task</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Team</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Template</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Template Task</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Timesheet</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>User</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>User Delegation</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 &#42; We recommend that you double check to ensure this works the way you would expect it to.
 
@@ -1287,6 +1679,6 @@ To filter events so that only issues assigned to Ana are processed, you could cr
 If 100 issues are created in a day, but only two of them are assigned to Ana, the scenario would execute 100 times. 98 of the executions would stop at the filter, but the trigger module is still consuming data and performing operations in all of the executions.
 For more information on event subscriptions, see [FAQs - Event Subscriptions](../../wf-api/general/event-subs-faq.md).
 
-For more information on webhooks, see [Instant triggers (webhooks)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+For more information on webhooks, see [Instant triggers (webhooks) in Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
-For more information on filters in scenarios, see [Add a filter to a scenario](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+For more information on filters in scenarios, see [Add a filter to a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).

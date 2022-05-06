@@ -29,7 +29,7 @@ This article explains how to do the following:
 
 First, you need to set up the Custom Field section to which you will add custom fields.&nbsp;
 
-1. Click **Settings**>**Account Settings**, then open the **Custom fields** tab.
+1. Click **Settings** >**Account Settings**, then open the **Custom fields** tab.
 
 1. Click **Add custom field section**&nbsp;in the relevant module (Proof, Users, or Contacts).
 1. Type a **Name** for custom field section, then click **Save**.
@@ -84,7 +84,7 @@ First, you need to set up the Custom Field section to which you will add custom 
 
 You can view and edit the details of your Custom field section or individual Custom fields.
 
-1. Click **Settings**>**Account Settings**, then open the **Custom fields** tab.
+1. Click **Settings** >**Account Settings**, then open the **Custom fields** tab.
 
 1. Click the name of the custom field section or individual custom field.&nbsp;
 1. (Conditional) If you are managing a custom field section, make any of the following changes in the **Custom field section** page:

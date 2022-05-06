@@ -8,6 +8,10 @@ description: You can configure a Work In Progress (WIP) limit for each column on
 
 # Manage the work in progress (WIP) limit on the Kanban board
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can configure a Work In Progress (WIP) limit for each column on the Kanban board, as described in the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 The WIP limit is simply a visual warning and does not restrict your team from having more items in each status column than the limit you set.

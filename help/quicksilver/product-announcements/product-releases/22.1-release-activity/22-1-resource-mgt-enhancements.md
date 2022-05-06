@@ -35,7 +35,7 @@ Prior to this enhancement, you could only assign one user to one work item eithe
 
 The new Bulk Assignments also include new filtering capabilities by Project and Task Status, in addition to Name.
 
-For more information, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For more information, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 For information about the deprecation of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 

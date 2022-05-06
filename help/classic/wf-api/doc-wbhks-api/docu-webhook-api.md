@@ -8,6 +8,10 @@ description: Adobe Workfront Document Webhooks defines a set of API endpoints th
 
 # Document Webhooks API
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront Document Webhooks defines a set of API endpoints through which Workfront makes authorized API calls to an External Document Provider. This allows anyone to create a middleware plugin for any document storage provider.
 
 The user experience for webhook-based integrations will be similar to that of existing document integrations, such as Google Drive, Box, and Dropbox. For example, a Workfront user will be able to perform the following actions:

@@ -4,11 +4,15 @@ content-type: reference
 product-area: reporting;user-management;resource-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: View: username
-description: As an administrator, people may ask you to remind them of their username and password. While the password cannot be displayed in any report, you may find it useful to create a view that displays the username for quick access to this information.
+description: Alina: Drafted because this view can be easily built in the report builder; no need for text mode anymore.
 hidefromtoc: true
 ---
 
 # View: username
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Alina:&nbsp;Drafted because this view can be easily built in the report builder; no need for text mode anymore.</p>
+-->
 
 As an administrator, people may ask you to remind them of their username and password. While the password cannot be displayed in any report, you may find it useful to create a view that displays the username for quick access to this information.
 
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

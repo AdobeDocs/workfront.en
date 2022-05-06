@@ -8,6 +8,10 @@ description: You can build intermediary processing components that can help you 
 
 # Filter event subscription messages
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can build intermediary processing components that can help you filter and process only the event subscription messages that your business needs.
 
 To learn about event subscriptions, see [Event Subscription API](../../wf-api/general/event-subs-api.md).
@@ -178,7 +182,7 @@ return {
 
 ## Improving Message Delivery While Accommodating Timeouts {#improving-message-delivery-while-accommodating-timeouts}
 
-```The Event Subscription service has a strict timeout of```**five seconds** ```for all delivery requests.``` ```In the event that the delivery of a message exceeds the allowed time, the Event Subscription service begins a retry cycle for that message.```
+```The Event Subscription service has a strict timeout of``` **five seconds** ```for all delivery requests.``` ```In the event that the delivery of a message exceeds the allowed time, the Event Subscription service begins a retry cycle for that message.```
 
 ```For example, you build a project group ID filter similar to one of the examples found in [Filtering Event Messages](#filtering-event-messages) and you include a database lookup to determine whether the message is needed. It is possible that the database lookup along with the time needed for required processing and for the Lambda to cold-start could take more than five seconds, causing the Event Subscription service to retry delivering the message.```
 
@@ -233,8 +237,7 @@ You can avert a retry by&nbsp; ```separating the time-consuming parts of the pro
         logger.log("An IOException was thrown while executing a request to Workfront for projects matching the group ID " + DESIRED_GROUP_ID);
     }
     return projects;
-}
-</span></pre>```By querying for resources, you ensure that your integrating systems have the most current version of resources. `````````
+}</span></pre>```By querying for resources, you ensure that your integrating systems have the most current version of resources. `````````
 
 ####  
 

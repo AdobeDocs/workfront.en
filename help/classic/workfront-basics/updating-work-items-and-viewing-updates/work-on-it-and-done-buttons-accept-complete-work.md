@@ -8,6 +8,10 @@ description: When you are assigned to a task or issue, you can use a contextual 
 
 # Work On It and Done button overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you are assigned to a task or issue, you can use a contextual button that changes names and function depending on your involvement with the work item.
 
 Using the contextual button to accept or complete work items, you can let Adobe Workfront update several fields on the items without having to manually update them yourself.

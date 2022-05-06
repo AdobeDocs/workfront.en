@@ -10,6 +10,10 @@ description: You can create up to 14 levels of subgroups under one group. On any
 
 # Subgroups overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can create up to 14 levels of subgroups under one group. On any one of these levels, you can create an unlimited number of parallel subgroups. For instructions, see [Create a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 
 For information about groups, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
@@ -41,6 +45,10 @@ If you create a subgroup under a group that is public, the subgroup is also publ
 Any group you add to an existing group automatically becomes a subgroup and is no longer a main group. However, the subgroup retains its existing users, as well as any associations with projects, issues, and tasks, in addition to all project, task, and issue statuses that belong to the new parent group.
 
 ## Group administrators for subgroups
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
+-->
 
 You can assign subgroup members as group administrators to the subgroup when you create it or edit it. For instructions, see [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 

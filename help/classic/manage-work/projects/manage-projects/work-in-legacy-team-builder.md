@@ -3,10 +3,14 @@ filename: work-in-legacy-team-builder
 product-area: projects;resource-management
 navigation-topic: manage-projects
 title: Work in the Legacy Team Builder
-description: Note: The information in this article refers to functionality that is currently deprecated and will be removed in the future.
+description: (NOTE: Article linked here (Approval Settings) - when you remove this article, edit that one as well)
 ---
 
 # Work in the Legacy Team Builder
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Article linked here (Approval Settings) - when you remove this article, edit that one as well)</p>
+-->
 
 >[!NOTE]
 >

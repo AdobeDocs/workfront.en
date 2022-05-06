@@ -68,7 +68,7 @@ You can manage your colleagues, members, and guests on the Contacts page.
 You can import contacts from a CSV file.
 
 1. Click **Contacts** in the left navigation sidebar.
-1. On the Contacts page, click **More**> **Import contacts** to add contacts to your list.
+1. On the Contacts page, click **More** > **Import contacts** to add contacts to your list.
 
 1. On the Import people page that appears, click **Choose File**.
 1. Select the field separation method in the file.

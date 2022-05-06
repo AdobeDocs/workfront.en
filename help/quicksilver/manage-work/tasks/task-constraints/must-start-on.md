@@ -13,6 +13,10 @@ Use the Must Start On (MSO) Task Constraint to schedule a task to start exactly 
 
 The Must Start On constraint schedules a task to start exactly at the time and date you specify in the **Planned Start Date** field.
 
+>[!TIP]
+>
+>Manually updating a task's Planned Start Date changes the constraint of the task to Must Start On.
+
 ## Overview of the Must Start On Task Constraint
 
 Consider the following when scheduling a task with a Must Start On constraint:
@@ -41,6 +45,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="using-MSO-constraint"></a>Use the Must Start On Task Constraint</h2>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Must Start On:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

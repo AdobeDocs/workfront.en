@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ You can configure whether the BCWS is calculated in hours or costs by configurin
 1. Go to a project and click **Project Details** in the left panel.
 1. In the **Finance** area, locate the **Performance Index Method** field and double click it to edit it.
 
-   ![](assets/pim-options-hour-cost-based-350x144.png)
+   ![](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Select from the following options:
 

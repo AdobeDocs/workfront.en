@@ -11,6 +11,10 @@ description: This section contains the following articles:
 
 # Create and manage users
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This section contains the following articles:
 
 * [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) 
@@ -24,7 +28,7 @@ This section contains the following articles:
 * [Change a username](../../../administration-and-setup/add-users/create-and-manage-users/change-a-username.md) 
 * [Change the password for an auto-provisioned user](../../../administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md) 
 * [Map user attributes and auto-provision new users](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md) 
-* [Deactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) 
+* [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) 
 * [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) 
 * [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) 
 * [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md) 

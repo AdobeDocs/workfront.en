@@ -2,11 +2,15 @@
 filename: remove-external-page-from-dashboard
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Remove an External Page from a dashboard in Adobe Workfront
+title: Remove an External Page from a dashboard
 description: You can remove an External Page from a dashboard if it's no longer needed.
 ---
 
-# Remove an External Page from a dashboard in&nbsp;Adobe Workfront
+# Remove an External Page from a dashboard
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can remove an External Page from a dashboard if it's no longer needed.
 
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,8 +47,8 @@ You must have the following access to perform the steps in this article:
 
 ## Remove an external page from a dashboard
 
-1. Go to **Reporting** in the Global Navigation Bar.  
-1. Click the **Dashboard** tab.  
+1. Go to **Reporting** in the Global Navigation Bar. 
+1. Click the **Dashboard** tab. 
 1. Select the dashboard from which you want to remove the external page, then click **Edit** .
 
    ![](assets/classic-select-external-page-dashboard-350x235.png)

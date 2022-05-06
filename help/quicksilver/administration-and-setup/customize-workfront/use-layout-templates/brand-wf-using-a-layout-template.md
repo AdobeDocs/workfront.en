@@ -16,11 +16,14 @@ For information about layout templates for groups, see [Create and modify a grou
 
 >[!NOTE]
 >
->A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
+>A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding. >
+><!-->
+><span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maybe add a section about deleting these 2 settings to revert to default branding?</span>>
+>-->
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -70,7 +73,7 @@ You must have the following to perform the steps in this article:
 
    >[!TIP]
    >
-   >You can **Save** your progress at any time, then continue to modify the template later.
+   >You can click Save at any time to save your progress, then continue to modify the template later.
 
 1. Click **Save**.
 

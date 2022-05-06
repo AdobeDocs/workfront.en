@@ -6,14 +6,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Gmail modules
-description: In a Adobe Workfront Fusion scenario, you can connect your Gmail account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Gmail, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Gmail modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Gmail account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Gmail, as well as connect it to to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -66,7 +66,7 @@ To use Gmail modules, you must have a Gmail account.
 
 ### Connect Gmail to Workfront Fusion using G Suite {#connect-gmail-to-workfront-fusion-using-g-suite}
 
-For instructions about connecting your G Suite account to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+For instructions about connecting your G Suite account to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 ### Connect Gmail to Workfront Fusion using gmail.com or googlemail.com {#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com}
 
@@ -78,7 +78,7 @@ For step-by-step instructions on how to create the OAuth client and obtain a Cli
 
 When you configure Gmail modules, Workfront Fusion displays the fields listed below. Along with these, additional Gmail fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -113,7 +113,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select the filter type you want to use to watch emails</p> 
     <ul> 
      <li> <p><strong>Simple filter</strong> </p> <p>Fill out the Criteria, Sender Email Address, Subject, and Search Phrase fields</p> </li> 
-     <li> <p> <strong>Gmail filter</strong></p> <p>In the Query field, enter the query that you want to use to filter emails.</p> <p>For more information on Gmail filters, see <a href="https://support.google.com/mail/answer/7190">Search operators</a> in the Gmail documentation.</p> </li> 
+     <li> <p> <strong>Gmail filter</strong> </p> <p>In the Query field, enter the query that you want to use to filter emails.</p> <p>For more information on Gmail filters, see <a href="https://support.google.com/mail/answer/7190">Search operators</a> in the Gmail documentation.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -190,7 +190,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Attachments </td> 
-   <td> <p>Click <strong>Add</strong>to add an attachment. You can map a file from the previous modules.</p> </td> 
+   <td> <p>Click <strong>Add</strong> to add an attachment. You can map a file from the previous modules.</p> </td> 
   </tr> 
   <tr> 
    <td>Copy recipients</td> 
@@ -239,7 +239,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Attachments </td> 
-   <td> <p>Click <strong>Add</strong>to add an attachment. You can map a file from the previous modules.</p> </td> 
+   <td> <p>Click <strong>Add</strong> to add an attachment. You can map a file from the previous modules.</p> </td> 
   </tr> 
   <tr> 
    <td>Copy recipients</td> 
@@ -434,7 +434,7 @@ When you are configuring this module, the following fields display.
 
 #### Iterate attachments
 
-You can iterate email attachments. Each attachment is a separate bundle in the module's output. For more information, see [Iterator module](../../workfront-fusion/modules/iterator-module.md).
+You can iterate email attachments. Each attachment is a separate bundle in the module's output. For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md).
 
 <table cellspacing="15"> 
  <col> 

@@ -11,7 +11,7 @@ description: As a group administrator, you can create custom statuses for a grou
 
 As a group administrator, you can create custom statuses for a group that you manage. This helps to eliminate the need for dozens of company-wide custom statuses and allows more autonomy in your group hierarchies.
 
-You can also edit a system-level status for a group you manage if a Workfront administrator has unlocked the status. For more information, see [Locking or unlocking a custom system-level status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
+You can also edit a system-level status for a group you manage if a Workfront administrator has unlocked the status. For more information, see [Locked and unlocked system-level statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md).
 
 If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).
 
@@ -138,7 +138,14 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Lock for all groups</td> 
-      <td> <p data-mc-conditions="SnippetConditions-wf-groups.groups">If you leave this option enabled, the users in your group and its subgroups can see and use the status and group administrators cannot customize it for lower subgroups.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">When this option is disabled, group administrators can customize the status for lower subgroups.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">For more information about locking statuses, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Locking or unlocking a custom group status</a>.</p> </td> 
+      <td> 
+       <div data-mc-conditions="SnippetConditions-wf-groups.groups"> 
+        <p>If you leave this option enabled, the users in your group and its subgroups can see and use the status and group administrators cannot customize it for lower subgroups.</p> 
+        <p>When this option is disabled, group administrators can customize the status for lower subgroups.</p> 
+        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Locked and unlocked group statuses</a>.</p> 
+       </div> <!--
+        <p>Note:  <p data-mc-conditions="SnippetConditions-wf-groups.groups">You can use both locked and unlocked statuses in a group approval process. If you create a group approval process with an unlocked group status, users can attach the approval process to any project, task, or issue that is associated with the group.</p> </p>
+       --> </td> 
      </tr> <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader"><span class="preview">Users can select this status only if required fields on the object are completed</span> </td> 

@@ -187,7 +187,7 @@ The following table shows each role and the rights associated with it:
    <td>✓</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Moderator</strong> </p> </td> 

@@ -9,11 +9,15 @@ description: When a task is ready to start, Adobe Workfront adds a Can Start ind
 
 # "Can Start" overview for tasks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When a task is ready to start, Adobe Workfront adds a Can Start indicator to the task to easily identify that it's safe for you to start working on the task. You can view this indicator in the view of a task list or report.
 
 When the task is ready to be worked on, the Can Start field on the task is set to True.
 
-## Task Can Start overview
+## How Workfront marks a task as "Can&nbsp;Start"
 
 Workfront checks for the following things before it marks a task as True for the Can Start field:
 

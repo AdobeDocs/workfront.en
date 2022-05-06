@@ -20,7 +20,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -43,7 +43,8 @@ You must have the following access to perform the steps in this article:
 
 To set up access and subscription settings for a proof while you are creating it:
 
-1. Begin the process for generating a proof on a document or website, as described in the [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md) articles.
+1. Go to the project, task, or issue where you want the proof, then click the **Documents** section.
+1. Click **Add New** on the upper-right area.
 1. Scroll to the **Proof settings** section in the lower-right corner of the **New proof** page.
 
 1. Configure the following settings:
@@ -76,7 +77,6 @@ To set up access and subscription settings for a proof while you are creating it
 
 To set up access and subscription settings&nbsp;for a proof&nbsp;that already exists in Workfront:
 
-1. Generate the proof (if you have not already done so) as described in the [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md) articles.
 1. In the Documents area, select the document that contains the proof you want to configure settings for,&nbsp;then click **Document Details**.
 1. In the left panel, click **Proofing Viewer Settings**.
 1. Configure the following settings:

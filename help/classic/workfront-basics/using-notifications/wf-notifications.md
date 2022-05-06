@@ -8,9 +8,11 @@ description: Adobe Workfront sends email notifications, in-app notifications, an
 
 # Adobe Workfront notifications
 
-Adobe Workfront sends email notifications, in-app notifications, and notifications on your mobile device.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+Adobe Workfront sends email notifications, in-app notifications, and notifications on your mobile device.
 
 ## Email notifications
 
@@ -18,7 +20,12 @@ Workfront sends out a number of email notifications to alert users about activit
 
 >[!NOTE]
 >
->If you want to receive email notifications from the Sandbox environment, you must enable emails from your user profile in that environment.
+>If you want to receive email notifications from the Sandbox environment, you must enable emails from your user profile in that environment. >
+><!-->
+><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+>Becky: Keep the note>
+></MadCap:conditionalText>>
+>-->
 
 You can receive the following email notifications from Workfront:
 
@@ -59,7 +66,7 @@ For a complete list of what email notifications have been enabled for a daily di
 There are several things to be aware of when receiving daily digest notifications:
 
 * Each notifications section in your **My Settings** panel generates its own daily digest email. You can have as many daily digest emails every day as notification settings that are enabled&nbsp;for daily digest emails.  
-  For example, if you selected to receive a daily digest email for several actions under the **Information about Projects I Own,**you receive one email notification listing all the events met for this area. 
+  For example, if you selected to receive a daily digest email for several actions under the **Information about Projects I Own,** you receive one email notification listing all the events met for this area. 
 
 * Notifications in a daily digest email are grouped by various criteria. For example, in the case of **Information about Projects I Own**, the events are grouped by the project name.
 
@@ -141,14 +148,16 @@ The following emails can only be configured at the user profile level. They cann
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="email-notifications-from-workfront-goals"><a name="workfront-align"></a>Email notifications from Workfront Goals</h3>
+<h3 id="email-notifications-from-workfront-goals"><a name="workfront-align"></a>Email notifications from Workfront Goals</h3> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted because the Goals emailed merged with the regular notifications in other articles. This is no longer possible from JUST WF goals.)</p>
+-->
 <div class="workfront_plans">
 <p>Your organization must have the following to use the functionality described in this article: </p>
 <ul>
 <li> <p>A Pro or higher <a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>. </p> </li>
 <li> <p>An Adobe Workfront Goals license in addition to a Workfront license.</p> <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience. </p> </li>
 </ul>
-<p>For additional information about access to Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content/Workfront_Align/Goal_management/access-needed-for-wf-align.htm" data-mc-conditions="QuicksilverOrClassic.Classic">Access needed to use Workfront Goals</a>.</p>
+<p>For additional information about access to Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content/Workfront_Align/Goal_management/access-needed-for-wf-align.htm" data-mc-conditions="QuicksilverOrClassic.Classic"> Access needed to use Workfront Goals</a>.</p>
 </div>
 <p>If you are a Workfront Goals user, you can configure notifications for yourself to receive communication about events happening in that area. For information, see Enable Adobe Workfront Goals notifications.</p>
 </div>

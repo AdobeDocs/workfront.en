@@ -22,7 +22,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -55,7 +55,7 @@ You must have the following to perform the steps in this article:
      >[!IMPORTANT]
      >
      >
-     >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en) or for information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en) or for information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
    * Click **Add a Dashboard**, then type a descriptive **Custom section title** and add the dashboard.
 
@@ -68,5 +68,5 @@ You must have the following to perform the steps in this article:
 
    >[!TIP]
    >
-   >You can **Save** your progress at any time, then continue to modify the template later.
+   >You can click Save at any time to save your progress, then continue to modify the template later.
 

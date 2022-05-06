@@ -11,7 +11,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 To guarantee that your organization moves forward fastest, you must ensure that work execution is aligned with company strategy. Workfront Goals provides the tools necessary to do this successfully.
 
@@ -19,7 +19,7 @@ This article offers a few guidelines and recommendations to successfully use Wor
 
 Goal best practice starts with top-level corporate objectives, and then cascades down to group, team, and individual levels. The resulting goals must be aligned with, contribute to, and support achieving corporate priorities. In&nbsp;Workfront Goals, goals are supported by results or activities that indicate how you achieve them.
 
-For information about getting your organization started with working in Workfront Goals, see [Get started with Workfront Goals](get-started-with-wf-align.md).
+For information about getting your organization started with working in Workfront Goals, see [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Benefits for using goals in your enterprise planning
 

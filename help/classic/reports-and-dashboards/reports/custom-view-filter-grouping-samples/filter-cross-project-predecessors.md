@@ -3,11 +3,15 @@ filename: filter-cross-project-predecessors
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Filter: cross-project predecessors
+title: Filter: display incomplete cross-project predecessors
 description: This task filter returns incomplete cross-project predecessors.
 ---
 
-# Filter: cross-project predecessors
+# Filter: display incomplete cross-project predecessors
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 This task filter returns incomplete cross-project predecessors.
 
@@ -33,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +52,7 @@ To apply this filter:
 1. From the **Filter**&nbsp;drop-down menu, select **New Filter**.
 
 1. Click**Switch to Text Mode**.
-1. In the Set Filter Rules for your Report area, paste the following code:  
+1. In the **Set Filter Rules for your Report** area, paste the following code:  
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
 1. Click **Save Filter**.

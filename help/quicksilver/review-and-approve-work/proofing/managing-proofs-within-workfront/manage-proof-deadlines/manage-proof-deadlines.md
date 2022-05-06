@@ -1,4 +1,11 @@
-
+---
+filename: _manage-proof-deadlines
+content-type: reference
+product-area: documents
+navigation-topic: manage-proofs-within-workfront
+title: Manage proof deadlines
+description: Add, edit, or delete a deadline for a stage
+---
 
 # Manage proof deadlines
 

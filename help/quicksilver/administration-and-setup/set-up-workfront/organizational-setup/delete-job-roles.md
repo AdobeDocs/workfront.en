@@ -38,6 +38,10 @@ You must have the following:
 
 ## Delete a job role
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved from create and manage job roles)</p>
+-->
+
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click**Job Roles.**

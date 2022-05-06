@@ -8,6 +8,10 @@ description: Interactive content provides multiple methods of engaging viewers. 
 
 # Interactive content proofs overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Interactive content provides multiple methods of engaging viewers. Agencies can measure the success of their campaigns using analytics gathered from responses to this content.
 
 Examples of interactive content include:

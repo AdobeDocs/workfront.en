@@ -13,10 +13,10 @@ hidefromtoc: true
 # Airtable modules
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-In a Adobe Workfront Fusion scenario, you can connect your Airtable account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Airtable, as well as connect it to to multiple third-party applications and services.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial <a href="../../workfront-fusion/tutorials/sync-airtable-google-contacts.md" class="MCXref xref">Sync Airtable and Google contacts</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
 -->
 
 ## Connect Airtable to Workfront Fusion {#connect-airtable-to-workfront-fusion}
@@ -57,7 +57,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p style="font-weight: bold;">Record</p> </td> 
@@ -109,7 +109,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -132,7 +132,7 @@ This action module retrieves record details.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -163,7 +163,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -260,7 +260,7 @@ This trigger module executes a scenario when a new record is added or updated in
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
@@ -294,7 +294,7 @@ The webhook URL needs to be generated in Workfront Fusion and then added to form
 1. Add the Watch New Responses module to your Workfront Fusion scenario.
 1. Generate and copy the webhook URL.
 
-   For instructions, see [Instant triggers (webhooks)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
+   For instructions, see [Instant triggers (webhooks) in Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md).
 
 1. Log in to your Airtable account.
 1. Open the Base and the table you want to use for the form and create a Form view.

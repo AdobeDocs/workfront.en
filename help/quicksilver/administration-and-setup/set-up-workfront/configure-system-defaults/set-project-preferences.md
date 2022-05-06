@@ -17,7 +17,7 @@ As an Adobe Workfront administrator, you can configure the default preferences f
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -84,7 +84,7 @@ Configure any of the following preferences for newly created projects throughout
   </tr> 
   <tr> 
    <td role="rowheader">Calculate Percent Complete based on</td> 
-   <td> <p>The percent complete of a project or parent task is based on the overall progress of the tasks. This information can be calculated based on either the Duration or the Planned Hours of the tasks on a project.</p> <p>If you select Duration, the Duration of each task in a project determines the overall percent complete for the project, and the Duration of each subtask determines the overall percent complete for its parent task.</p> <p>If you select Duration, make sure you specify the<strong>Typical hours per work day</strong> and <strong>Typical work days per week</strong> in the <strong>Timelines</strong> section. Workfront uses this information when calculating a task's percent complete based on Duration. </p> <p>If you select Planned Hours, ensure that all tasks on each project have the amount of Planned Hours defined, and that the amount is not zero.</p> </td> 
+   <td> <p>The percent complete of a project or parent task is based on the overall progress of the tasks. This information can be calculated based on either the Duration or the Planned Hours of the tasks on a project.</p> <p>If you select Duration, the Duration of each task in a project determines the overall percent complete for the project, and the Duration of each subtask determines the overall percent complete for its parent task.</p> <p>If you select Duration, make sure you specify the Typical hours per work day and Typical work days per week in the Timelines section. Workfront uses this information when calculating a task's percent complete based on Duration. </p> <p>If you select Planned Hours, ensure that all tasks on each project have the amount of Planned Hours defined, and that the amount is not zero.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Automatically set the project's Condition based on the Progress Status</td> 
@@ -175,7 +175,7 @@ Configure any of the following preferences for newly created projects throughout
     </ul> 
     <ul> 
      <li><strong>Typical work days per week</strong>: Set the standard workweek for the users who will be working on projects. The default is 5 days.</li> 
-    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days.</p> <p>From the <strong>Typical work days per week</strong> field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configure timesheet and hour preferences</a>.</p> <p>Note: Workfront administrators cannot unlock Timeline Calculations preferences.</p> </td> 
+    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days.</p> <p>From the Typical work days per week field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configure timesheet and hour preferences</a>.</p> <p>Note: Workfront administrators cannot unlock Timeline Calculations preferences.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
@@ -188,7 +188,7 @@ Configure any of the following preferences for newly created projects throughout
 
 You can create a Business Case for newly created projects throughout the system to submit project requests. You can define preferences to determine which areas are visible on the **Business Case** form. We recommend that you enable these options so that other tools, such as the Portfolio Optimizer, update properly. For more information about what each field displays, see [Define a Business Case](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
-After the Workfront administrator enables the sections on the Business Case, a Project Owner can then create a Business Case at the project level. For information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+After the Workfront administrator enables the sections on the Business Case, a Project Owner can then create a Business Case at the project level. For information about creating a Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Life After Death  {#life-after-death}
 

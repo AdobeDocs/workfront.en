@@ -24,7 +24,7 @@ For instructions on how to view and manage these notifications, see [View and ma
 
 In both cases, when the administrator or user clicks the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open their list of notifications, the subject line of the message displays with a megaphone icon ![](assets/announcement.png) and the word "Announcement."
 
-![](assets/notification-list-announcement-350x408.jpg)
+![Announcement notification](assets/notification-list-announcement-350x271.png)
 
 For information about the Announcements page, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
@@ -32,7 +32,7 @@ For information about the Announcements page, see [View and manage in-app notifi
 
 When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications, the subject line of the work item message displays with an icon and brief description to identify what it's about. The icon and description types are listed below.
 
-![](assets/notification-list-work-items-350x263.jpg)
+![Work item notifications](assets/notification-list-work-items-350x247.png)
 
 >[!NOTE]
 >

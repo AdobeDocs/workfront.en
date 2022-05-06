@@ -17,6 +17,13 @@ description: We are no longer developing the Resource Scheduling tools and they 
 >
 >For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: LINKED TO THE PRODUCT FROM: ALL SCHEDULING TOOLS: GLOBAL, TEAM, PROJECT STAFFING *** LINKED TO LOTS OF ARTICLES, AS WELL!) </p>
+<p>(NOTE: Alina: this article should be divided in multiple articles, but CAREFULLY because some sections are linked to the UI)</p>
+</div>
+-->
+
 When using the resource scheduling functionality in Adobe Workfront you can more easily assign tasks and issues to the appropriate users. You can determine which users are capable of completing the task or issue, taking into consideration both the job role and the availability of the user.
 
 The following sections provide more detail about using the Scheduling areas in Workfront.
@@ -75,6 +82,10 @@ The projects you are managing must be in one of the following statuses (or a sta
 
 For more information about project statuses, see the article [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! I assume this doesn't apply when using the Staffing tab on a single project? The project can be in whatever status?]) </p>
+-->
+
 ### Task and issue prerequisites {#task-and-issue-prerequisites}
 
 In order to be most effective when using the resource scheduling tools in Workfront, ensure that tasks and issues in your system have the following criteria defined:
@@ -131,15 +142,20 @@ You can view the current resourcing assignments and other details about individu
    * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
 1. (Optional) To customize what content dispalys on the scheduling timeline, create a filter, as described in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
-1. Expand a task or issue to view the following information:  
-   **Project:** The name and link to the project where the task resides.  
-   **Dates:** The Start on and Due On dates associated with the task.  
-   **Planned Hours:** The number of Planned Hours associated with the task.  
-   Planned Hours are displayed only if the task is assigned to a user or job role.  
-   **Predecessor icon:** Any predecessors associated with the task. The predecessor icon displays only if there are predecessors associated with the task. The predecessor icon is green when the predecessor is completed and the task is ready to be worked on.   
-   **Assignments:** Any user or job role assignments associated with the task. Job role assignments are displayed in parenthesis next to the user assignment.  
-   Team assignments are not displayed.  
-   If you have Contribute access to the task or issue, you can modify the hours for which users are allocated on each day within the task or issue duration. For more information about modifying user allocations, see the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+1. Expand a task or issue to view the following information:
+
+   * **Project:** The name and link to the project where the task resides.  
+
+   * **Dates:** The Start on and Due On dates associated with the task.  
+
+   * **Planned Hours:** The number of Planned Hours associated with the task.  
+     Planned Hours are displayed only if the task is assigned to a user or job role.  
+
+   * **Predecessor icon:** Any predecessors associated with the task. The predecessor icon displays only if there are predecessors associated with the task. The predecessor icon is green when the predecessor is completed and the task is ready to be worked on.   
+
+   * **Assignments:** Any user or job role assignments associated with the task. Job role assignments are displayed in parenthesis next to the user assignment.  
+     Team assignments are not displayed.  
+     If you have Contribute access to the task or issue, you can modify the hours for which users are allocated on each day within the task or issue duration. For more information about modifying user allocations, see the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
 ### Minimize tasks and issues on the Scheduling areas {#minimize-tasks-and-issues-on-the-scheduling-areas}
 
@@ -216,7 +232,12 @@ Use any of the following options to modify the date range for which data idispla
 * **Date Range Options:** Click the current date range, then select the number of weeks to display on the timeline. You can display Day (single day), 1 week (7 days), 2 weeks (14 days), 3 weeks (21 days), 4 weeks (28 days), or 6 weeks (42 days).  
   Consider the following when adjusting the date range of the scheduling timeline:
 
-   * The date range options you select are preserved the next time you visit the scheduling timeline. 
+   * The date range options you select are preserved the next time you visit the scheduling timeline.
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! Not sure if this is going to apply to all 3 scheduling areas...]) </p>   
+     -->
+
    * When viewing the scheduling timeline in the Day view, user allocations are not displayed.  
      ![resource_daterange_zoom.png](assets/resource-daterange-zoom-350x227.png)
 

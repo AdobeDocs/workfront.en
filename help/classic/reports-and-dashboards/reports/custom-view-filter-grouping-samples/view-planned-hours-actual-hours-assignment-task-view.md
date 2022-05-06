@@ -3,11 +3,15 @@ filename: view-planned-hours-actual-hours-assignment-task-view
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: Planned Hours vs. Actual Hours per assignment in task View
+title: View: Planned Hours vs. Actual Hours per assignment in a task view
 description: This task view displays the total Planned Hours of a task, the number of Planned Hours allocated to each assignee, the total Actual Hours, and the number of Actual Hours logged by each assignee.
 ---
 
-# View: Planned Hours vs. Actual Hours per assignment in task View
+# View: Planned Hours vs. Actual Hours per assignment in a task view
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 This task view displays the total Planned Hours of a task,&nbsp;the number of Planned Hours allocated to each assignee, the total Actual Hours, and the number of Actual Hours logged by each assignee.
 
@@ -35,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

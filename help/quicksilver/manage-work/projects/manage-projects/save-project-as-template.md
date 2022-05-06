@@ -3,10 +3,14 @@ filename: save-project-as-template
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Save a project as a template
-description: If you decide that a project is going to occur again sometime in the future, you can create a template from that existing project. Then, you can use the template again, to create future projects that might contain similar information or might share the same timeline or assignments with the existing project.
+description: (NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)
 ---
 
 # Save a project as a template
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
+-->
 
 If you decide that a project is going to occur again sometime in the future, you can create a template from that existing project. Then, you can use the template again, to create future projects that might contain similar information or might share the same timeline or assignments with the existing project.
 
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you save the project as a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,12 +78,12 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x167.png)
+   ![](assets/save-as-template-first-step-350x159.png)
 
 1. Click **Next Step.**
 1. In the**Options** section, select the checkbox beside any information you want to clear from the template.
 
-   ![](assets/save-as-template-options-step-350x147.png)
+   ![](assets/save-as-template-options-step-350x109.png)
 
 1. Click **Next Step.**
 1. In the **Exclude** section, select any tasks that you want to exclude from the project.

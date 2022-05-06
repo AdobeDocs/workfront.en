@@ -4,12 +4,23 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Filters overview in Adobe Workfront
-description: 
+description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
 # Filters overview in Adobe Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: CONTENT LAST COPIED FROM the filters-overview-draft.htm article on 9/23/21)</p>
+<p>(NOTE: This is the live version of the filters-overview-draft.htm article. If you make changes here, make the changes in the other one, OR ... delete the other one?!) </p>
+</div>
+-->
 
 You can use filters in&nbsp;Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.&nbsp;
 
@@ -58,7 +69,7 @@ For more information about filters in lists and reports, see the following artic
 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) 
-* [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 
 ## Workfront filters for special areas {#workfront-filters-for-special-areas}
 
@@ -120,7 +131,7 @@ Consider the following when working with filters in lists or reports:
   >
   >Keep in mind if you make changes to a filter you have shared with others the changes impact them as well.
 
-* You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Elements of a filter
 
@@ -233,6 +244,12 @@ For example, if you have a field with 3 options (A, B, and C), and select 2 of t
 
 You can reference only five objects, excluding the object of the report, when you build a filter in Workfront.&nbsp;
 
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: does this limitation still stand with beta filters??)
+</MadCap:conditionalText>
+-->
+
 When you reach this limit within the builder, you can select fields that belong only to these six objects. You receive a warning when you have reached this limit.&nbsp;
 
 You cannot overcome this limitation when you build your filter in text mode.&nbsp;
@@ -240,6 +257,7 @@ You cannot overcome this limitation when you build your filter in text mode.&nbs
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h1>Filters overview in Adobe Workfront </h1>
+<p>(NOTE: This was the original article before we overwrote it with the new content above - the new content always updates on filters-overview-draft.htm article - last overwriting was 9/23/21)</p>
 <p>You can use filters in&nbsp;Adobe Workfront to reduce the amount of information you display on the screen.&nbsp;</p> <note type="note">
 This article describes all areas where you can apply filters in&nbsp;Workfront, as well as general information about filters in lists and reports. Refer to the articles linked below to find out information about filters in specific areas other than lists and reports.
 </note>
@@ -287,7 +305,7 @@ This article describes all areas where you can apply filters in&nbsp;Workfront, 
 </div>
 <ul>
 <li>Your level of permissions to a filter determines how filters are saved. If you created the filter originally, you can save the changes, otherwise you are prompted to save a version of the filter that you are modifying. Keep in mind if you make changes to a filter you have shared with others the changes impact them as well.</li>
-<li>You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping in Adobe Workfront</a>.</li>
+<li>You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping </a>.</li>
 </ul> <note type="important">
 When creating or editing filters in reports, you must edit the report in order for the new filter to become the default filter for the report. When you edit just the filter, outside the report builder, the default filter of the report is not updated.
 <br>For information about editing a report, see the article
@@ -329,6 +347,7 @@ When changing your AND statements to OR statements, the number of the items in y
 <p>For information about creating or editing a filter using the standard interface, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/create-filters.md" class="MCXref xref">Create or edit filters in Adobe Workfront</a>.</p> <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h3><a name="Customizing_an_Existing_Filter"></a><strong>Customize an existing filter</strong> </h3>
+<p>(NOTE: points to the Create filters article above) </p>
 <ol>
 <li value="1">Go to the report or list that contains the Filter that you want to customize. </li>
 <li value="2">Click the <strong>Filter</strong> drop-down list.<br><img src="assets/screen-shot-2013-09-05-at-9.55.17-am-350x481.png" alt="" style="width: 350;height: 481;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
@@ -345,6 +364,8 @@ When changing your AND statements to OR statements, the number of the items in y
 </div>
 --> <!--
 <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating_a_New_Filter_Based_on_an_Existing_Filter."></a><strong>Create a Filter based on an existing Filter</strong> </h4>
+--> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;drafted section and replaced with the new video article reference link)</p>
 -->
 <ol> <!--
 <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to the report that contains the Filter that you want to use as the basis for your new Filter.</li>
@@ -419,7 +440,9 @@ When changing your AND statements to OR statements, the number of the items in y
 <p> When you reach this limit within the builder, you can select fields that belong only to these six objects. You receive a warning when you have reached this limit. </p>
 <p> You cannot overcome this limitation when you build your filter in text mode. </p>
 </div> <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="removing-a-filter"></a>Removing a Filter from a list<![CDATA[	]]></h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="removing-a-filter"></a>Removing a Filter from a list </h3>
+--> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This section is drafted and replaced by the standalone "Remove reporting elements" article - with video) </p>
 --> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can remove a filter from a list of filters that appears in the <strong>Filter</strong> drop-down menu in a list. Removing a filter from a list functions differently depending on whether you initially created the filter, or the filter was shared with you. You cannot remove a default filter.</p>
 -->

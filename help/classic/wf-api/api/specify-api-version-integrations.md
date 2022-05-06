@@ -8,6 +8,10 @@ description: All Adobe Workfront URIs are required to reference a specific versi
 
 # Specify an API Version in your integrations
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 All Adobe Workfront URIs are required to reference a specific version of the API after the “attask/api” portion of the URI. The following example calls Version 7.0:
 <pre>attask/api/v7.0/<objectName>/<objectId></pre>Please ensure all your integrations call currently-supported Workfront APIs.
 

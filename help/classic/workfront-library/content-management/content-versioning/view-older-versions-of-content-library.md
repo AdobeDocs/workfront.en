@@ -9,6 +9,10 @@ description: As a user with Manage permission to content, you can use Workfront 
 
 # Access older versions of content in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a user with Manage permission to content, you can use Workfront Library to view and download all iterations of content through the versioning feature.&nbsp;For more on managing versioning content, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
 
 In Workfront Library, the active (or current) version of content is packaged together with its older versions. In order to access an older version of content, you must first open the active version.
@@ -30,7 +34,7 @@ Users with View permission to content can view only the active version.
 
    The active version of the content opens.
 
-1. Click the **Version**drop-down arrow following the content title, then select the version that you want to view.
+1. Click the **Version** drop-down arrow following the content title, then select the version that you want to view.
 
    For information on downloading older version of content, see [Download items from Workfront Library](../../../workfront-library/content-management/basics/download-content-from-library.md).
 

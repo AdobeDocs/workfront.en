@@ -3,15 +3,19 @@ filename: edit-a-custom-field
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Edit a custom field in a custom form
-description: You can edit an existing custom field in a custom form.
+title: Edit properties of a custom field, section break, or widget in a custom form
+description: You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
 ---
 
-# Edit a custom field in a custom form
+# Edit properties of a custom field, section break, or widget in a custom form
 
-You can edit an existing custom field in a custom form.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-For more information about custom fields , see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
+
+For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and Add or edit an image or video in a custom form.
 
 ## Access requirements
 
@@ -38,24 +42,30 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Edit an existing field
+## Edit a custom field, section break, or widget used in a custom form
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Custom Forms.**
 1. Click the **Fields** tab.
 
    <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Or</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or<!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [future]</span>
+   --></p>
    -->
 
    <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the Widget Library tab? STOPPED&nbsp;HERE*****************</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you are editing the properties for an image or video<!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   widget
+   </MadCap:conditionalText>
+   -->, click the <b>Widget Library</b> tab.</p>
    -->
 
-1. Select the field, then click **Edit**.
-1. In the **Edit Custom Field** box that displays, change any of the options available for the type of field you are adding.
+1. Select the custom field, section break, or widget, then click **Edit**.
+1. In the box that displays, change any of the options available for the item you are editing.
 
-   For information about these options, see the section [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   For information about these options, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or Add or edit an image or video in a custom form.
 
 1. When you are finished, click **Save + Close**.
 

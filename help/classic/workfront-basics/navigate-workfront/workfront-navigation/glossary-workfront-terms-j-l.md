@@ -102,7 +102,9 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p>In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.&nbsp;</p> <p>The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p> <p>For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Legacy Resource Pool</p> </td> 
+   <td> <p>Legacy Resource Pool</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Leave this field in both classic and Qs because it exists in both)</p>
+    --> </td> 
    <td> <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p> </td> 
   </tr> 
   <tr> 

@@ -39,7 +39,7 @@ For information about profiles, see [Proof Permissions Profiles in Workfront Pro
 
 You can configure proof settings for proofs you create.&nbsp;
 
-For information about proof settings the Workfront administrator or Workfront Proof administrator can configure, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+For information about proof settings the Workfront administrator or Workfront Proof administrator can configure, see .
 
 1. Click **Settings** > **Personal settings**.
 
@@ -85,17 +85,7 @@ For information about proof settings the Workfront administrator or Workfront Pr
      <tr data-mc-conditions=""> 
       <td role="rowheader">No email</td> 
       <td>Workfront does not send any email alerts.<br>This is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.<p>The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.</p></td> 
-     </tr> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader">Set a deadline</td> 
-       <td>Select the day and time when users must take action on the proof.<p>If you are adding users to a proof for a document&nbsp;that already exists in Workfront, you should have already set a deadline.</p></td> 
-      </tr>
-     --> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader">Notify people by email</td> 
-       <td>Select this option to send an email to the users, notifying them of the proof.<p>Click <strong>Add a custom message</strong>&nbsp;to specify a message to include in the email notification.</p></td> 
-      </tr>
-     --> 
+     </tr> 
     </tbody> 
    </table>
 
@@ -187,17 +177,7 @@ If you are a Workfront Proof administrator, you can set proof defaults for users
      <tr data-mc-conditions="">
       <td role="rowheader">No email</td>
       <td>Workfront does not send any email alerts.<br>This is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.<p>The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.</p></td>
-     </tr><!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       <td role="rowheader">Set a deadline</td>
-       <td>Select the day and time when users must take action on the proof.<p>If you are adding users to a proof for a document&nbsp;that already exists in Workfront, you should have already set a deadline.</p></td>
-      </tr>
-     --><!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       <td role="rowheader">Notify people by email</td>
-       <td>Select this option to send an email to the users, notifying them of the proof.<p>Click <strong>Add a custom message</strong>&nbsp;to specify a message to include in the email notification.</p></td>
-      </tr>
-     -->
+     </tr>
     </tbody>
    </table>
 

@@ -8,6 +8,10 @@ description: As a user with a Planner license, you can configure whether you log
 
 # Configure whether time is logged in hours or days
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a user with a Planner license, you can configure&nbsp;whether you log time in Adobe Workfront in hours or days. System administrators can configure this setting for individual users or for multiple users in their organization. By default, users log time in hours. For information about how to&nbsp;log time in Workfront, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!NOTE]

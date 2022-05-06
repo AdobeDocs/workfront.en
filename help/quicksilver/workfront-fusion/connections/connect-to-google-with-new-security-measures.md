@@ -105,7 +105,7 @@ These new restrictions only apply if you are integrating Google Drive or Gmail. 
 
 If you want to integrate any other service than Google Drive or Gmail, these restrictions do not apply.
 
-For instructions about connecting other Google Services to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+For instructions about connecting other Google Services to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 ### What should I do if I'm a G Suite user? {#what-should-i-do-if-i-m-a-g-suite-user}
 

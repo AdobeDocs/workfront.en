@@ -8,6 +8,10 @@ description: You can display a Backlog column directly on your Kanban board. The
 
 # Add the backlog to the Kanban board
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can display a Backlog column directly on your Kanban board. The Backlog column on the Kanban board contains the first 20 items from your backlog on the Kanban board. Tasks and issues must belong to a project with a status that equates with Current to appear on the backlog.
 
 ## Access requirements

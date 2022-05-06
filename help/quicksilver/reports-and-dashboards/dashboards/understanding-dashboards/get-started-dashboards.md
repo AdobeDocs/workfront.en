@@ -38,7 +38,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.<br>For more information on permissions for dashboards, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br>For more information on permissions for dashboards, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ For more information about creating a dashboard, see [Create a dashboard](../../
 You can share a dashboard with users in the following ways:
 
 * Sharing on an individual basis.  
-  For more information about sharing dashboards, see [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) and [Share a dashboard in Adobe Workfront](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+  For more information about sharing dashboards, see [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) and [Share a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Add a custom section to any area or object in Workfront and add a dashboard to it.  
   For more information on creating custom sections, see [Simplified left navigation in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
@@ -112,7 +112,7 @@ You can display a dashboard in the following ways:
    The dashboard displays the information included in the reports, calendars, or external pages that populate it.
 1. (Optional and conditional) Click the **Reload** icon in the upper right of the dashboard to refresh the information on the dashboard.  
    The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.  
-   ![](assets/qs-reload-icon-350x150.png)
+   ![](assets/qs-reload-icon-350x112.png)
 
 ## Delete dashboards
 

@@ -3,10 +3,18 @@ filename: require-time-approval-for-projects
 product-area: projects
 navigation-topic: manage-projects
 title: Require time to be approved for a project
-description: You can configure the project to require that the hours logged against the project are approved by the Project Owner. When configured in this way, hours must be first approved by the Project Owner before they can be eligible to be used on a billing record. For more information about billing records, see the article Create billing records.
+description: (NOTE: THIS IS LINKED TO THE UI IN A TOOLTIP IN THE EDIT PROJECT MODAL)
 ---
 
 # Require time to be approved for a project
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN A TOOLTIP IN THE EDIT PROJECT MODAL) </p>
+-->
 
 You can configure the project to require that the hours logged against the project are approved by the Project Owner. When configured in this way, hours must be first approved by the Project Owner before they can be eligible to be used on a billing record.   
 For more information about billing records, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
@@ -37,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the project or higher</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the project or higher</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Additional access</td> 
@@ -69,7 +77,7 @@ To require project manager approval for hours on the project:
 
 1. In the **Finance** section, select **Require time to be approved for this project**.
 
-   ![](assets/project-require-approval-350x202.png)
+   ![](assets/project-require-approval-350x258.png)
 
 1. Click **Save****Changes**.  
    Now when&nbsp;time is logged and approved, those hours become locked and cannot be altered by the user who entered them on the project or the timesheet. Only a Workfront administrator can adjust the time recorded.

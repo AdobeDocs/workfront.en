@@ -10,6 +10,10 @@ description: Keywords are a type of metadata that uses specific terms to describ
 
 # Overview of keyword metadata in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Keywords are a type of metadata that uses specific terms to&nbsp;describe the content of an asset. Applying consistent keyword metadata to content allows users to quickly find and filter the assets they need for their work. For information about metadata and how it is used in Workfront Library, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
 Users apply keywords when they upload new assets to Workfront Library. Users can also add or edit keyword metadata on shared assets to which they have Manage permissions.

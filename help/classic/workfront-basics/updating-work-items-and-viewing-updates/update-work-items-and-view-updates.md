@@ -9,6 +9,10 @@ description: This section contains the following articles:
 
 # Update work items and view updates
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This section contains the following articles:
 
 * [Updates tab overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) 

@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,10 @@ You must have the following access to perform the steps in this article:
    >Ensure that the project does not already have any financial information. For example, ensure there are no Planned or Actual Costs associated with the project.
 
 1. Click **Project Details** in the left panel, then go to the **Finance** area. 
-1. Click **Add** in the **Currency** field and select the currency that you want to use as the default currency for the project. 
+1. Click **Add** in the **Currency** field and select the currency that you want to use as the default currency for the project. All the currencies that your Workfront administrator set for your Workfront instance display.
+
+   ![](assets/currency-on-project-expanded-nwe.png)
+
 1. (Conditional) If you select a currency other than the default currency that is set for your Workfront system, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
 1. Click **Save Changes**.
 

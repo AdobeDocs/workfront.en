@@ -13,11 +13,11 @@ Whether the status is locked or unlocked determines if the status is deleted for
 * When you delete a system status that is currently locked, the status is removed for all groups in the system, regardless of whether the group has&nbsp;renamed it.
 * When you delete a system status that is currently unlocked, the status remains for all groups in the system.
 
-For information about deleting a status only for a specific group, see [Create or edit a status for a group](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create) in [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+For instructions on deleting a group status, see [Delete a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

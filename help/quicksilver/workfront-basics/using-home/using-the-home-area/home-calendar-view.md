@@ -35,7 +35,7 @@ Work items (Tasks, Issues, Requests, and Approvals) assigned to you, your groups
 
 You can drag your work items from the work list to your Home Calendar to schedule when you want to work on them.&nbsp;To learn more about scheduling your work, see [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-You can click a work item in the list to view your progress on it.
+You can click a work item in the list to view and update your progress on it.
 
 ![](assets/work-item-cl-350x126.png)
 

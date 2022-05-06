@@ -8,6 +8,10 @@ description: As a Jira administrator, you can view the exceptions and errors tha
 
 # View the Jira Activity Log
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a Jira administrator, you can view the exceptions and errors that occur during the synchronization or creation of the tickets between Adobe Workfront and Jira in an Activity Log.&nbsp;
 
 You can see up to 500 items in the Activity Log, and they are listed starting with the most recent ones.

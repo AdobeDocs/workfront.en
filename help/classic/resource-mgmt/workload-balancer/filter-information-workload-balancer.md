@@ -3,10 +3,18 @@ filename: filter-information-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage filters in the Workload Balancer
-description: As a resource manager, you can use the Workload Balancer to view and manage the workload of your users. For more general information about the Workload Balancer, see the following articles:
+description: NOTE: when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)
 ---
 
 # Manage filters in the Workload Balancer
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER) </p>
+-->
 
 As a resource manager, you can use the Workload Balancer to view and manage the workload of your users. For more general information about the Workload Balancer, see the following articles:
 
@@ -47,7 +55,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects, tasks, issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +73,7 @@ Consider the following when working with filters in the Workload Balancer:
 * When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
 * When you create filters in the Workload Balancer in one area, they are not available in other areas. 
 
-  ``` ```**Example: **`````` Filters created in the People area are not available in the Workload Balancer of a project or a team.
+  ``` ```**Example: **`````` Filters created in the  People area are not available in the Workload Balancer of a project or a team.
 
   For information about where to locate the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -97,7 +105,7 @@ Depending on where you access the Workload Balancer from, the Unassigned and&nbs
    <td><b>Items that display in the Assigned Work area by default</b> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The People area</td> 
+   <td role="rowheader">The  People area</td> 
    <td>No items display here by default. You must customize filters to view work items in this area.</td> 
    <td>Users who are members of any of your teams and their work items.</td> 
   </tr> 
@@ -175,7 +183,13 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    >   
    >
 
-1. Click **Save** to save the filter to use it later, then add a name for the filter in the **Add filter name** field and click **Done**.
+1. Click **Save** to save the filter to use it later, then add a name for the filter in the **Add filter name** field and click **Done**. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: this is not the name of the field, it's the suggestive text; ensure they're not labeling the field in the future??)
+   </MadCap:conditionalText>
+   -->
 
    This saves the filter in the **Saved** section of the filter builder. You can use this filter in the future.
 

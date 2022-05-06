@@ -8,6 +8,10 @@ description: When Enhanced Authentication (eAuth) is enabled for your Workfront 
 
 # Reset a user's password with Enhanced Authentication
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When Enhanced Authentication (eAuth) is enabled for your Workfront Environment, a Workfront administrator can’t reset login credentials for another user. This differs from Workfront environments without eAuth or those environments for which Single Sign On (SSO) is enabled.
 
 ## Access requirements
@@ -38,6 +42,8 @@ You must have the following access to perform the steps in this article:
 1. Select the **People** heading from the **Global Navigation Bar**. 
 
 1. ![](assets/classicglobalnavpeople-adobe-350x30.png)
+
+1. ![](assets/main-menu-options-350x481.png)
 
 1. Click the **People tab** and select the **User** that requires a password reset. 
 

@@ -8,6 +8,10 @@ description: You can export a dashboard to a .pdf file using the print options a
 
 # Export a dashboard
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can export a dashboard to a .pdf file using the print options available in your web browser.
 
 >[!NOTE]
@@ -37,7 +41,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +65,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 1. Depending on your web browser, select the appropriate print options to complete the .pdf. file export:
 
-   <table cellspacing="15"> 
+   <table cellspacing="3"> 
     <col> 
     <col> 
     <thead> 

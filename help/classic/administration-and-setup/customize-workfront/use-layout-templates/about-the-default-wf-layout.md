@@ -11,6 +11,10 @@ description: The default layout is the arrangement of the Global Navigation area
 
 # About the default Adobe Workfront layout
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The default layout is the arrangement of the Global Navigation areas and of all the tabs, views, groupings, and filters before an Adobe Workfront administrator makes any changes using a layout template.
 
 For information about how a Workfront administrator can modify a user's default layout by assigning the user a layout template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

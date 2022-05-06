@@ -66,7 +66,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Someone shares an object with me</strong> </p> <p>You receive an email notification when someone adds you to the Sharing list of permissions on an object.</p> <p>The subject of the instant notification email is: <em>Access Granted: &lt;Object Name&gt;</em></p> </td> 
+   <td> <p><strong>Someone shares an object with me</strong> </p> <p>You receive an email notification when someone adds you to the Sharing list of permissions on an object.</p> <p>The subject of the instant notification email is: <em>Access Granted: &lt;Object Name&gt;</em></p> <p>A notification Is sent only if the project is in Current status.</p> </td> 
    <td> Object Name<br>Parent Object Name<br>Object Reference Number<br>Original Access to the object<br>New Access granted to the object<br>Date and Time when the access was granted <br>Name of the user who granted the access </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 

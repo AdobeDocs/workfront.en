@@ -9,6 +9,10 @@ description: You can add content and folders to a collection that you create or 
 
 # Add items to a collection in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add content and folders to a collection that you create or that has been shared with you. When you add content to a collection, the content remains in its original location, and you simply create a link to the content file.
 
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).

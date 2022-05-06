@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 To install the Workfront for Adobe XD plugin:
 
 1. Open the Adobe Creative Cloud app.
-1. Click the **Marketplace**tab near the top of the window.
+1. Click the **Marketplace** tab near the top of the window.
 1. In the **Search All Plugins** box, type *Workfront*, then press **Enter**.
 
    ![](assets/adobe-marketplace-350x218.png)

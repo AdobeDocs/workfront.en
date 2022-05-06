@@ -2,9 +2,23 @@
 
 # Data Access overview
 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Work is paused on this product.</p>
+<p>Resources: https://docs.google.com/presentation/d/1mbF1SUdfGGT57i-fh3IbtadsO1r2X5dN_2PpSf05_rM/edit#slide=id.p</p>
+<p>https://docs.google.com/document/d/1zsvcpuNoYiXmudNoiA0Q1K3nh_REpyjLY9Nzjmjbdw8/edit) </p>
+</div>
+-->
+
 Data Access gives you direct access to an analytics-optimized view of your Adobe Workfront data through Snowflake. Using the Snowflake connection, you can then put this data into the business intelligence (BI) tool of your choice to perform advanced reporting and visualizations without having to host, maintain, or transform the data.
 
-For information on tools that connect to Snowflake, see Snowflake's [Connecting to Snowflake](https://docs.snowflake.com/en/user-guide-connecting.html) documentation.
+For information on tools that connect to Snowflake, see Snowflake's [Connecting to Snowflake](https://docs.snowflake.com/en/user-guide-connecting.html) documentation. 
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: Synapse)
+</MadCap:conditionalText>
+-->
 
 With the curated Data Access view, you can:
 
@@ -14,7 +28,29 @@ With the curated Data Access view, you can:
 
 Star schemas (facts, dimensions, etc.)
 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: These dimensions are available for the following objects:</p>
+<p>Portfolios</p>
+<p>Programs</p>
+<p>Projects</p>
+<p>Tasks</p>
+<p>Custom values in tasks</p>
+<p>Facts:</p>
+<p>Custom_Values_Curr</p>
+<p>Custom_Values_Hist</p>
+<p>Task Activity Curr</p>
+<p>Task Activity Time Travel Daily)</p>
+<p>(NOTE: Google this and determine how much detail is needed here.</p>
+<p>https://docs.microsoft.com/en-us/power-bi/guidance/star-schema)</p>
+</div>
+-->
+
 ## Types of data
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: File for data catalog article (similar to API documentation with tables): https://adobe-my.sharepoint.com/:x:/p/kurtp/EULMCTvcoUBJtIKTPBUPrikB0TzvtWiXHeEDYmrUGCPHmg?e=4%3A9e2n3O&at=9)</p>
+-->
 
 You can currently access the following data types:
 

@@ -4,10 +4,14 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Overview of the task Planned Start Date
-description: The Planned Start Date of a task is the date when you, as the task creator, decide that the work on the task should start. Planned task dates influence the dates and the timeline on the project. For information about the project Planned Start Date, see Overview of the project Planned Start Date .
+description: The Planned Start Date of a task is the date when you, as the task creator, decide that the work on the task should start. Planned task dates influence the dates and the timeline on the project. For information about the project Planned Start Date, see Overview of the project Planned Start Date.
 ---
 
 # Overview of the task Planned Start Date
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The Planned Start Date of a task is the date when you, as the task creator, decide that the work on the task should start. Planned task dates influence the dates and the timeline on the project. For information about the project Planned Start Date, see [Overview of the project Planned Start Date](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 

@@ -26,10 +26,10 @@ The Accounts details section displays&nbsp;your&nbsp;organization's contact info
 
 1. To edit the information in the **Accounts details** section, click **Edit**&nbsp;to the right of any of the following:
 
-   * **Organization name:**The name of your company.&nbsp;
-   * **Contact information:**The default contact information for users in the Workfront Proof account.
+   * **Organization name:** The name of your company.&nbsp;
+   * **Contact information:** The default contact information for users in the Workfront Proof account.
    * **Default language:** The default language used in your Workfront Proof account.
-   * **Time zone default:**The default time zone for your organization.
+   * **Time zone default:** The default time zone for your organization.
 
 ## Usage statistics
 

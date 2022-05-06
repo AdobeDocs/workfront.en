@@ -31,7 +31,7 @@ You must have the following access to perform the steps in this article:
         Example: Edit access to Documents
        </MadCap:conditionalText>
       --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
      --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
      --> </td> 
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Example: View access or higher on Documents
        </MadCap:conditionalText>
-      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -72,11 +72,11 @@ For information about installing Workfront for Microsoft Teams and logging in to
 
 1. To open a **New task** card:
 
-   * If you are in the Workfront bot chat channel, type **New task**in the conversation field to create a new task.&nbsp;
+   * If you are in the Workfront bot chat channel, type **New task** in the conversation field to create a new task.&nbsp;
    * If you are in a chat channel other than the Workfront bot chat channel:
 
-      1. Start typing **@workfront**in the conversation field, then select the Workfront bot channel you want.
-      1. Continue typing&nbsp;**New task**in the conversation field to create a new task.
+      1. Start typing **@workfront** in the conversation field, then select the Workfront bot channel you want.
+      1. Continue typing&nbsp;**New task** in the conversation field to create a new task.
 
          The New task card displays in the Workfront bot channel.
 

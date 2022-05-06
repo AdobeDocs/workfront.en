@@ -3,11 +3,15 @@ filename: android-search-beta
 content-type: reference
 navigation-topic: betas
 title: Android Search Beta Program
-description: Search is coming to the Workfront mobile app! With this new feature, you’ll be able to use your Workfront app on your smartphone to search for Projects, Tasks, Issues, Documents or Contacts that you have access to in your Workfront web instance. You will be able to immediately access the same information that you have access to see in the web application.
+description: (NOTE: Alina: keep this as an example for a mobile beta; Use this page as an example for all the Mobile beta programs.This is currently in draft because the beta is closed.)
 hidefromtoc: true
 ---
 
 # Android Search Beta Program
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: keep this as an example for a mobile beta; Use this page as an example for all the Mobile beta programs.This is currently in draft because the beta is closed.)</p>
+-->
 
 Search is coming to the Workfront mobile app! With this new feature, you’ll be able to use your Workfront app on your smartphone to search for Projects, Tasks, Issues, Documents or Contacts that you have access to in your Workfront web instance. You will be able to immediately access the same information that you have access to see in the web application.
 

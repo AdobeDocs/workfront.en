@@ -5,16 +5,10 @@ product-area: system-administration
 keywords: create,custom,form,copy,base,another
 navigation-topic: create-and-manage-custom-forms
 title: Copy a custom form to create a new one
-description: Note: Currently, we are not supporting the ability to copy a custom form that has multiple object types. This note will be updated when more information is available.
+description: You can create a new custom form that is based on an existing one.
 ---
 
 # Copy a custom form to create a new one
-
-<!--
-<note type="note">
-<span class="preview">Currently, we are not supporting the ability to copy a custom form that has multiple object types. This note will be updated when more information is available.</span>
-</note>
--->
 
 You can create a new custom form that is based on an existing one.
 
@@ -57,32 +51,36 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Form Name</td> 
-      <td>Specify a new name for the custom form.</td> 
+      <td>Type a name for the copied form.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Form Type</td> 
-      <td> <p>Select which object type that you want to associate the custom form with. The object type that you select is the only object type to which the form can be applied.</p> <p>Note:  You can change the object of the form as you are copying a custom form. This is helpful when you want to create an identical form for two different objects. For example, you can copy an Issue custom form and create a Project custom form which has the same fields and the same logic as the original Issue form.</p> </td> 
+      <td role="rowheader"> <p role="rowheader">Form Types </p> </td> 
+      <td> 
+       <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+        <p>In the <b>Form Type</b> box, select the object types that you want the custom form to work with, and click the X next to any types that you want to remove. Types that are already associated with the form are disabled in the list.</p> 
+        <p> <img src="assets/copy-form-obj-types-350x582.png" style="width: 350;height: 582;"> </p> 
+        <p>The form must be associated with at least one object type.</p> 
+       </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Click **Copy Form**.
+
+   In the original form, if calculated fields reference fields that are incompatible with an object type you add to the new form, a message prompts you to change the calculations in those fields.
+
+   Similarly, if an access option for a section break on the original form isn't compatible with an object type you add to the new one, a message prompts you to adjust the option.
+
 1. Select the form that you just copied, then click **Edit**.
 1. Make any changes to the form, as explained in the following articles:
 
    * [Copy a custom form to create a new one](#Add2) 
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a> </li>   
-     -->   
-   
-   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) 
+   * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 1. (Optional) After you click **Save+Close**, attach the form to the object where you want to use it, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-
-   The custom form must be associated with the type of object you want to attach it to. For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

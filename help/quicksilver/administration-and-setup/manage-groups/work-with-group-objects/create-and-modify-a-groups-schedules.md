@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
 
 1. Click **Groups**.
 
-   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. Click the name of the group where you want to view schedules.
 1. In the left panel, click **Schedules**.

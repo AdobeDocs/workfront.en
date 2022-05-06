@@ -3,10 +3,14 @@ filename: manually-assign-items-scheduling-areas
 product-area: resource-management;user-management
 navigation-topic: resource-scheduling
 title: Manually assign unassigned tasks and issues in the Scheduling areas
-description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+description: NOTE: Alina: several sections ask for the screen shot to be updated - check into those notes; Alina: broken off article, needs formatting, restructuring, new linking)
 ---
 
 # Manually assign unassigned tasks and issues in the Scheduling areas
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: Alina: several sections ask for the screen shot to be updated - check into those notes; Alina: broken off article, needs formatting, restructuring, new linking) </p>
+-->
 
 >[!NOTE]
 >
@@ -44,7 +48,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to projects, tasks, and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions to projects, tasks, and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +76,7 @@ You can assign individual tasks and issues to users on the scheduling timeline f
 * The Scheduling section under a project (when scheduling resources for a single project).
 * The Schedule section under a team (when scheduling resources for a team).
 
-The information displayed in the Unassigned area at the top of the scheduling timeline differs depending on the area of Workfront where you are using resource scheduling (either from the Scheduling section (when scheduling resources for multiple projects), the Scheduling section (when scheduling resources for a single project), or the Schedule section (when scheduling resources for a team). For more information, see the section [Functionality available in the Scheduling area](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md#functionality-available-in-the-scheduling-area) in the article [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
+The information displayed in the Unassigned area at the top of the scheduling timeline differs depending on the area of Workfront where you are using resource scheduling (either from the Scheduling  section (when scheduling resources for multiple projects), the  Scheduling section  (when scheduling resources for a single project), or the  Schedule section  (when scheduling resources for a team). For more information, see the section [Functionality available in the Scheduling area](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md#functionality-available-in-the-scheduling-area) in the article [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
 
 Depending on the area of Workfront where you are viewing the scheduling timeline, only some users might be eligible to be assigned work. For more information, see [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
 
@@ -80,9 +84,9 @@ To assign unassigned tasks or issues to users on the scheduling timeline:
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-   * **For multiple projects**:&nbsp; Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+   * **For multiple projects**:&nbsp;  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
    * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
-   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click**Workload Balancer** in the left panel, then select**Scheduling** from the upper-left drop-down menu.
+   * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
    ![scheduling_contours.png](assets/scheduling-contours-350x139.png)
 
@@ -100,7 +104,7 @@ To assign unassigned tasks or issues to users on the scheduling timeline:
      For more information about overallocation indicators, see the section [Allocation indicators](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md#understanding-allocation-indicators) in the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
      If the **Limit Assignments to Users with a Matching Role** option is enabled in the Settings area, users who are not eligible to receive the assignment are dimmed. If this option is disabled, all users are available to receive the assignment. The option is enabled by default.  
-     For more information about this option, see [By default, assignments can be made only to users who have a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them.](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md#allowing-assignmennts-to-users-regardless-of-role) in [Allow user assignments regardless of role and group membership in the Scheduling areas](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
+     For more information about this option, see [](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md#allowing-assignmennts-to-users-regardless-of-role) in [Allow user assignments regardless of role and group membership in the Scheduling areas](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
 
      A drop indicator displays in the row of the user. This enables you to see where an item is being assigned prior to making the assignment.
 

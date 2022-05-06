@@ -4,10 +4,14 @@ product: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Remove results, activities, and projects from goals in Adobe Workfront Goals
-description: You can remove results, activities, and projects from goals if they are no longer relevant.
+description: (NOTE: the title might change to indicate more than just projects?? Other objects too?)
 ---
 
 # Remove results, activities, and projects from goals in Adobe Workfront Goals
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the title might change to indicate more than just projects?? Other objects too?)</p>
+-->
 
 You can remove results, activities, and projects from goals if they are no longer relevant.
 
@@ -36,7 +40,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -51,7 +55,7 @@ You must have the following:
    <td> 
     <div> 
      <p>Manage permissions to the goal</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -68,18 +72,15 @@ You must have the following before you can start:
 
 ## Considerations for removing results, activities, and disconnecting projects from goals
 
-```<li>  <ul>   <li> <p>You can remove results and activities only from active goals that are in a current or future time period. </p> </li>  </ul> </li>```
-
+* You can remove results and activities only from active goals that are in a current or future time period. 
 * You can remove results and activities from a goal by deleting them. Deleted results and activities cannot be recovered. 
+* When you remove the result or activity from a goal, the progress of the removed result or the activity affects the overall progress of the goal. 
 * You cannot delete a project from a goal, but you can disconnect it. By disconnecting the project from the goal the percent complete of the project no longer affects the progress of the goal.
 
   For information about how projects affect goal progress, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md). 
 
-* You cannot remove or disconnect a result or an activity from a goal if they are the last progress indicator for the goal.
-
-  >[!CAUTION]
-  >
-  >You can delete a project from a goal, even if it is the last progress indicator on the goal.&nbsp;The goal remains Active, but it shows no progress.
+* You cannot remove or disconnect a result or an activity from a goal if they are the last progress indicator for the goal. 
+* If a project is the last progress indicator of a goal and it is deleted, the goal becomes Inactive.
 
 ## Delete results and activities from goals
 

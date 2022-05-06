@@ -39,6 +39,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Use"></a>Use the Fixed Dates Task Constraint</h2>
+<p>(NOTE:&nbsp;replaced with new article linked above) </p>
 <p>To update the Task Constraint to Finish No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

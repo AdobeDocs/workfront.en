@@ -8,6 +8,10 @@ description: You can view and add updates to a work item within the Home area in
 
 # Update or edit a work item in the Home area
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can view and add updates to a work item within the Home area in Adobe Workfront. You can also edit other data related to the work item if you have access to edit it.
 
 ## Access requirements
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +56,7 @@ You can view updates on any work item in the Work List:
 1. In the **Work List** area, select the item where you want to view updates.  
    Updates are displayed in the right panel.
 
-1. (Optional) To filter system updates so only user updates are displayed, toggle&nbsp;**Show System Updates**to Off.  
+1. (Optional) To filter system updates so only user updates are displayed, toggle&nbsp;**Show System Updates** to Off.  
    ![](assets/updating-a-work-item-show-system-updates-350x164.png)
 
 ## Provide updates on a work item
@@ -76,6 +80,12 @@ You can provide updates on any work item in the Work List:
    **How's it going?:**&nbsp;Select a new condition for the task or issue. For more information about task and issue conditions, see [Update Condition for tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).  
    **Status:**&nbsp;Select a new status for the task or issue. For more information about task statuses, see [Update task status](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). For more information about issue statuses, see [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).  
    **Completion Bar:**Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: This text is duplicated in Updating Work.)
+   </MadCap:conditionalText>
+   -->
 
 1. Click **Update**.
 

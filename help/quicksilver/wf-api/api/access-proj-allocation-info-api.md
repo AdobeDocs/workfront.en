@@ -3,11 +3,18 @@ filename: access-proj-allocation-info-api
 content-type: api
 navigation-topic: api-navigation-topic
 title: Access Project Allocation Information via the API
-description: You can use a URL call to access the allocation information for a project that is available when scheduling resources in Adobe Workfront. (For more information about user allocations, see Manage user allocations in the Scheduling areas.)
+description: (NOTE: from Luke: This should not be published. It is internal only.)
 hidefromtoc: true
 ---
 
 # Access Project Allocation Information via the API
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE:&nbsp;from&nbsp;Luke: This should not be published. It is internal only.) </p>
+<p>(NOTE: Need to have a full license type (what does this mean? System admin?)&nbsp;If a task is built by User Hourly, and it only has a Role assignment, it will not pull in those hours.) </p>
+</div>
+-->
 
 You can use a URL call to access the&nbsp;allocation information for a project that is available when scheduling resources in Adobe Workfront. (For more information about user allocations, see [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).)
 

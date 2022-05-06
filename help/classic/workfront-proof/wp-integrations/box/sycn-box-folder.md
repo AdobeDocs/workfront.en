@@ -11,6 +11,10 @@ description: You can synchronize a Box folder with a folder in Workfront Proof. 
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can synchronize a Box folder with a folder in Workfront Proof. Every change you make to your files in the Box folder will be reflected in Workfront Proof (so uploading a new file, adding a new version, renaming of a file, etc).

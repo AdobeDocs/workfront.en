@@ -4,11 +4,11 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Array functions
+title: Array functions in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Array functions
+# Array functions in Adobe Workfront Fusion
 
 ## Access requirements
 
@@ -130,9 +130,9 @@ Returns a primitive array containing values of a complex array. This function al
 
   ```)```
 
-  Returns a primitive array with ```emails```having a label equal to work or home
+  Returns a primitive array with ```emails``` having a label equal to work or home
 
-For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md)
+For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

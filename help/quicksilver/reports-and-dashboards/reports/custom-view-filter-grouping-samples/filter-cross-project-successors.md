@@ -3,11 +3,11 @@ filename: filter-cross-project-successors
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Filter: cross-project successors
+title: Filter: display incomplete cross-project successors
 description: This task filter returns incomplete cross-project successors.
 ---
 
-# Filter: cross-project successors
+# Filter: display incomplete cross-project successors
 
 This task filter returns incomplete cross-project successors.
 
@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

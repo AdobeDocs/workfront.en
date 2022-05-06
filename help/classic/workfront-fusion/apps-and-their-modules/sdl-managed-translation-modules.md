@@ -6,10 +6,16 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: SDL Managed Translation modules
-description: You must have the following access to use the functionality in this article:
+description: In an Adobe Workfront Fusion scenario, you can connect your SDL Managed Translation account to multiple third-party applications and services.
 ---
 
 # SDL Managed Translation modules
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+In an Adobe Workfront Fusion scenario, you can connect your SDL Managed Translation account to multiple third-party applications and services.
 
 ## Access requirements
 

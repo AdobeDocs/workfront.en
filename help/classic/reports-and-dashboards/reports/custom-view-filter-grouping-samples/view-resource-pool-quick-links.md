@@ -4,11 +4,15 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: View: Resource Pool quick links
-description: This view contains all of the left-hand navigation options for a resource pool. The idea behind this view is to build a Resource Pool report that can be placed on a Portfolio Manager, Resource Manager, or Executive's Dashboard, reducing the number of clicks navigating to these Resource Management tools.
+description: Alina: Drafted because because this is no longer valid (the links to Edit and Plan are no longer supported).
 hidefromtoc: true
 ---
 
 # View: Resource Pool quick links
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Alina: Drafted because because this is no longer valid (the links to Edit and Plan are no longer supported).</p>
+-->
 
 ## Description
 

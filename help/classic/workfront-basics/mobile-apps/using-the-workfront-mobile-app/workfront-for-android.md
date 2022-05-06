@@ -9,6 +9,10 @@ description: The Adobe Workfront app allows you to access your work on any Andro
 
 # Adobe Workfront for Android
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Adobe Workfront app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
 
 For information about logging in to the mobile app, see the section [Log in to the Workfront mobile app](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in the article [Log in to Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).

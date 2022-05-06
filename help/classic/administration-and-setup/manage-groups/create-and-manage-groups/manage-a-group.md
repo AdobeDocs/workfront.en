@@ -5,10 +5,18 @@ product-area: system-administration;user-management
 keywords: manage,group,edit
 navigation-topic: create-and-manage-groups
 title: Manage a group
-description: As a group administrator, you can manage a group that you administer. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
+description: Even though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.
 ---
 
 # Manage a group
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Even though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.</p>
+-->
 
 As a group administrator, you can manage a group that you administer. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
@@ -33,7 +41,7 @@ For instructions, see [View and manage a group’s details](../../../administrat
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Groups**.
 
-   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. Select the group, then click **Edit**, **More > Copy**, or **More > Delete**.
 

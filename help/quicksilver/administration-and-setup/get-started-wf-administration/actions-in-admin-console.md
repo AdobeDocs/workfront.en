@@ -12,9 +12,9 @@ description: If your organization has been onboarded to the Adobe Business Platf
 If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that:
 
 * User management is largely done through the Adobe Admin Console
-* Single Sign-On (SSO) in handled through the Adobe Business Platform rather than through Workfront
+* Single Sign-On (SSO) is handled through the Adobe Business Platform rather than through Workfront
 
-As an Adobe Workfront administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This articles lists the procedures that must be handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
+As an Adobe Workfront administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that must be handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
 
 ## Users
 
@@ -73,7 +73,7 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
     <td role="rowheader">Add a user to Adobe Workfront Fusion</td> 
     <td> 
      <ul> 
-      <li> <p><a href="../../workfront-fusion/organizations/add-user-to-an-organization.md" class="MCXref xref">Add a user to an organization</a> </p> </li> 
+      <li> <p><a href="../../workfront-fusion/organizations/add-user-to-an-organization.md" class="MCXref xref">Add a user to an organization in Adobe Workfront Fusion</a> </p> </li> 
      </ul> </td> 
     <td> 
      <ul> 
@@ -86,7 +86,7 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
    <td role="rowheader">Deactivate a user</td> 
    <td> 
     <ul> 
-     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a> </p> </li> 
+     <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a> </p> </li> 
     </ul> </td> 
    <td> 
     <ul> 

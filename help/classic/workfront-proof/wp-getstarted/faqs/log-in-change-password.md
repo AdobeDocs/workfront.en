@@ -12,6 +12,10 @@ description: The Workfront Proof administrator can set up personalized branding 
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Logging In
@@ -52,7 +56,7 @@ If you forget your password, you can have Workfront Proof email you a reset emai
 
 ## About Advanced Password Settings
 
-If you use a Select or Premium plan, your Workfront Proof administrator can set specific password requirements to comply with IT and security policies in your organization and enhance the security of your data. For more information, see&nbsp;"Advanced Password Settings" in the article&nbsp; [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+If you use a Select or Premium plan, your Workfront Proof administrator can set specific password requirements to comply with IT and security policies in your organization and enhance the security of your data. For more information, see&nbsp;"Advanced Password Settings" in the article&nbsp;.
 
 ## Adding an Email Address to Your Account
 

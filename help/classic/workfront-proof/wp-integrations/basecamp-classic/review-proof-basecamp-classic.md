@@ -11,6 +11,10 @@ description: Basecamp is an online project management tool developed by 37signal
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Basecamp is an online project management tool developed by 37signals. If you use Basecamp for project management you can offer your project team richer review and approval tools using Workfront Proof.
@@ -44,7 +48,6 @@ If you link a proof to Basecamp, Workfront Proof sends a proof notification emai
 To open the proof from the email notification:
 
 1. To open the proof in Workfront Proof, click **Go To Proof**.  
-   For information on reviewing a proof in Workfront Proof, see [Reviewing a Proof in the Legacy Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proof-in-legacy-proofing-viewer.md).  
    Or  
    To open the proof in Basecamp, click the URL listed in the **Basecamp URL** field.  
    For information on reviewing a proof in Basecamp Classic, see [Reviewing a Proof in Basecamp](#reviewing-a-proof-in-basecamp) in this article.

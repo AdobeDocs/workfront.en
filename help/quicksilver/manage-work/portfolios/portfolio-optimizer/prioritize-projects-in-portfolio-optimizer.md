@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the portfolio</p> <p>Contribute or higher permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,6 +62,8 @@ You must have the following access to perform the steps in this article:
 1. Click the name of a portfolio to open it. 
 1. Click **Portfolio Optimization** in the left panel. 
 1. In the **Project Prioritization** section,&nbsp;alter the priority of your projects by clicking the gray area next to the number of the project and dragging it to the desired display position.
+
+   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Click the **Set Priority** button in the Optimizer tools area when you finish re-arranging your projects. The projects will receive a new number&nbsp;based on the new order.
 

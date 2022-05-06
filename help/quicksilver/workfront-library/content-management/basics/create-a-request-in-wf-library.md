@@ -15,7 +15,7 @@ Before users can create a request in Workfront Library, a Workfront system admin
 
 1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. In the left panel, click **Requests**>**Make a Request**.
+1. In the left panel, click **Requests** >**Make a Request**.
 1. Click in the **Select a Request Type** box, and in the drop-down list, select the request queue you want to send your request.
 
    The options that display on the request form depend on how the request queue is configured. For information on populating the fields on the request form, see [Creating and Submitting Workfront Requests.](create-submit-requests.md)

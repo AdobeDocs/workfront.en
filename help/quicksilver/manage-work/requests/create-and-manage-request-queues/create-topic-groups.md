@@ -32,7 +32,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,8 +62,9 @@ To create a Topic Group:
    For more information about publishing a project as a Help Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. Click **Topic Groups** in the left panel. You might need to click **Show More**, then **Topic Groups**. 
-1. Click **New Topic Group**.  
-   ![](assets/10-350x170.png)
+1. Click **New Topic Group**.
+
+   ![](assets/new-topic-group-box-nwe-350x306.png)
 
 1. Specify the following information:
 

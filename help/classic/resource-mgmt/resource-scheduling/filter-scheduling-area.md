@@ -3,10 +3,18 @@ filename: filter-scheduling-area
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Filter information in the Scheduling area
-description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+description: (NOTE: Cannot do QS because the Teams area is not done)
 ---
 
 # Filter information in the Scheduling area
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Cannot do QS because the Teams area is not done) </p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 >[!NOTE]
 >
@@ -15,6 +23,10 @@ description: We are no longer developing the Resource Scheduling tools and they 
 >For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
 >
 >For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: SEVERAL SECTIONS BELOW LINKED TO THE PRODUCT. SEE NOTES)&nbsp;</p>
+-->
 
 Using a filter in the Resource Scheduling area enables you to determine which work items are&nbsp;displayed on the scheduling timeline. This includes which tasks and issues are displayed in the Unassigned area, as well as which users are displayed.&nbsp;
 
@@ -46,12 +58,16 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to projects, tasks, and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher to projects, tasks, and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: sections below - LINKED TO THE ui. DO NOT RENAME/ DELETE)</p>
+-->
 
 ## Create a filter on the Working On tab (for Teams)
 
@@ -68,24 +84,42 @@ To create a filter for the scheduling timeline on the Working On tab for teams:
 
    ![](assets/scheduling-teams-filter-350x322.png)
 
-1. Determine which projects are represented in the Unassigned area by specifying the following information:  
-   **Project Priorities:**&nbsp;Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline. Tasks and issues from projects with the priorities you select are&nbsp;displayed on the scheduling timeline.  
-   Only priorities from projects that include tasks or issues that are assigned to the team are available to choose from this menu.  
-   **Project Statuses:**&nbsp;Select the status of the projects that you want to be represented on the scheduling timeline. Tasks and issues from projects with the statuses&nbsp;you select are displayed&nbsp;on the scheduling timeline.  
-   Only statuses&nbsp;from projects that include tasks or issues that are assigned to the team are available to choose from this menu.  
-   **Projects:** Select any projects that you want to be represented on the scheduling timeline. Tasks and issues from the projects you select are displayed on the scheduling timeline.  
-   Your selections in the previous fields determine the projects that are available to select.   
-   Only projects that include tasks or issues that are assigned to the team are available to choose from this menu.
+1. Determine which projects are represented in the Unassigned area by specifying the following information:
 
-1. Determine which users are displayed on the scheduling timeline by specifying the following information. By default, all team members are displayed.  
-   **Roles:**&nbsp;Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
-   Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.  
-   Users are displayed on the scheduling timeline, organized by job role.  
-   **Users:**&nbsp;Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
-   Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.  
-   This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.   
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: there was a note that [This step is linked to from the context-sensitive help] but I could not find from where in the UI it is linked.)&nbsp;</p>
+   -->
+
+   * **Project Priorities:**&nbsp;Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline. Tasks and issues from projects with the priorities you select are&nbsp;displayed on the scheduling timeline.  
+     Only priorities from projects that include tasks or issues that are assigned to the team are available to choose from this menu.
+   * **Project Statuses:**&nbsp;Select the status of the projects that you want to be represented on the scheduling timeline. Tasks and issues from projects with the statuses&nbsp;you select are displayed&nbsp;on the scheduling timeline.  
+     Only statuses&nbsp;from projects that include tasks or issues that are assigned to the team are available to choose from this menu.
+   * **Projects:** Select any projects that you want to be represented on the scheduling timeline. Tasks and issues from the projects you select are displayed on the scheduling timeline.  
+     Your selections in the previous fields determine the projects that are available to select.   
+     Only projects that include tasks or issues that are assigned to the team are available to choose from this menu.
+
+1. Determine which users are displayed on the scheduling timeline by specifying the following information. By default, all team members are displayed.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this step is linked in the UI.)</p>
+   -->
+
+   * **Roles:**&nbsp;Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+     Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.  
+     Users are displayed on the scheduling timeline, organized by job role.
+   * **Users:**&nbsp;Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+     Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.  
+     This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])</p>   
+     -->
 
 1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below - LINKED TO THE UI, DO NOT RENAME/ DELETE/ CHANGE)</p>
+-->
 
 ## Create and modify filters on the Scheduling tab (for multiple projects)
 
@@ -98,6 +132,10 @@ You can create a new filter, apply a filter that you previously created, modify 
 
 ### Create a filter on the Scheduling tab (for projects) {#create-a-filter-on-the-scheduling-tab-for-projects}
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: *****LINKED TO THE PRODUCT FROM THE GLOBAL SCHEDULER >> BOTH THE FIRST AND THE SECOND AREAS) </p>
+-->
+
 Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Scheduling tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
 
 To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for multiple projects:
@@ -107,34 +145,60 @@ To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for mu
    ![](assets/scheduling-filter-350x351.png)
 
 1. Leave the **Saved Filters** field blank.
-1. Determine which projects are represented in the Unassigned area by specifying the following information:  
-   **Portfolios:**&nbsp;Select any portfolios that include programs and projects that you want to be represented on the scheduling timeline.   
-   Only programs within the portfolios you select are available to select&nbsp;in the **Program** field.  
-   **Programs:**&nbsp;Select any programs that&nbsp;include projects that you want to be represented on the scheduling timeline.   
-   Your selections in the **Portfolio** field determine the programs that are available to select.   
-   Only projects within the programs you select are available to select&nbsp;in the **Projects** field.  
-   **Project Priorities:** Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline.   
-   Only projects with the priorities you select are represented.  
-   **Project Statuses:**&nbsp;Select the status of the projects that you want to be represented on the scheduling timeline.   
-   Only projects with the statuses&nbsp;you select are represented.  
-   **Project Companies:**&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a company you select.  
-   **Project Groups:**&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a group you select.  
-   **Projects:** Select any projects that you want to be represented on the scheduling timeline.&nbsp;Tasks and issues from the projects you select are displayed on the scheduling timeline.  
-   Your selections in the previous fields determine the projects that are available to select.   
-   Tasks and issues from the projects you select are displayed on the scheduling timeline. Only projects that include tasks or issues that are assigned to the team are available to choose from this menu.
+1. Determine which projects are represented in the Unassigned area by specifying the following information:
 
-1. Determine which users are displayed on the scheduling timeline by specifying the following information: (By default, only users who are eligible to be assigned a task or issue from the Unassigned area are displayed. When you select individual users, the users are displayed on the scheduling timeline regardless of whether they are eligible to be assigned a task or issue from the Unassigned area.)&nbsp;  
-   **User Companies:** This field enables you to restrict users from other companies from being displayed on the scheduling timeline.  
-   Leave this field blank if you want users from any company to be added. If you specify individual companies, only users from those companies can be added to the scheduling timeline. Specifying a company does not automatically add users from that company to the scheduling timeline. Instead, use the fields below to add specific users.  
-   This option does not affect which tasks and issues are displayed in the Unassigned area.**User Groups:** All users from any user group you specify are displayed on the scheduling timeline.  
-   **Teams:** All users from any team you specify are displayed on the scheduling timeline.  
-   This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.  
-   **Roles:** Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
-   Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.  
-   Users are displayed on the scheduling timeline, organized by job role.  
-   **Users:** Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
-   Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.  
-   This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.  
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: this step is linked in the UI.) </p>
+   -->
+
+   * **Portfolios:**&nbsp;Select any portfolios that include programs and projects that you want to be represented on the scheduling timeline.
+
+     Only programs within the portfolios you select are available to select&nbsp;in the **Program** field.
+
+   * **Programs:**&nbsp;Select any programs that&nbsp;include projects that you want to be represented on the scheduling timeline.   
+     Your selections in the **Portfolio** field determine the programs that are available to select.   
+     Only projects within the programs you select are available to select&nbsp;in the **Projects** field.
+
+   * **Project Priorities:** Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline.   
+     Only projects with the priorities you select are represented.
+
+   * **Project Statuses:**&nbsp;Select the status of the projects that you want to be represented on the scheduling timeline.   
+     Only projects with the statuses&nbsp;you select are represented.
+
+   * **Project Companies:**&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a company you select.
+
+   * **Project Groups:**&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a group you select.
+
+   * **Projects:** Select any projects that you want to be represented on the scheduling timeline.&nbsp;Tasks and issues from the projects you select are displayed on the scheduling timeline.  
+     Your selections in the previous fields determine the projects that are available to select.   
+     Tasks and issues from the projects you select are displayed on the scheduling timeline. Only projects that include tasks or issues that are assigned to the team are available to choose from this menu.
+
+1. Determine which users are displayed on the scheduling timeline by specifying the following information: (By default, only users who are eligible to be assigned a task or issue from the Unassigned area are displayed. When you select individual users, the users are displayed on the scheduling timeline regardless of whether they are eligible to be assigned a task or issue from the Unassigned area.)&nbsp;
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: this step had a note that it is linked in the UI but I could not find from where.) </p>
+   -->
+
+   * **User Companies:** This field enables you to restrict users from other companies from being displayed on the scheduling timeline.  
+     Leave this field blank if you want users from any company to be added. If you specify individual companies, only users from those companies can be added to the scheduling timeline. Specifying a company does not automatically add users from that company to the scheduling timeline. Instead, use the fields below to add specific users.  
+     This option does not affect which tasks and issues are displayed in the Unassigned area.****
+
+   * **User Groups:** All users from any user group you specify are displayed on the scheduling timeline.
+
+   * **Teams:** All users from any team you specify are displayed on the scheduling timeline.  
+     This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.
+
+   * **Roles:** Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+     Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.  
+     Users are displayed on the scheduling timeline, organized by job role.
+
+   * **Users:** Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+     Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.  
+     This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])<br></p>
+   -->
 
 1. Click **Save New Filter**.  
    Your data is displayed on the scheduling timeline.
@@ -191,6 +255,10 @@ You can delete a filter that you previously created.
 
 ## Create and modify filters on the Staffing&nbsp;tab (for a single&nbsp;project)
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: **** LINKED FROM THE PRODUCT FROM THE PROJECT> STAFFING> SCHEDULING AREA) </p>
+-->
+
 Tasks and issues from the users, teams, and roles you define in the filter are displayed on the scheduling timeline on the Staffing&nbsp;tab. Use the options in the filter to determine which users, teams, and roles are represented on the scheduling timeline.
 
 >[!NOTE]
@@ -203,16 +271,30 @@ To create a filter for the scheduling timeline on the Staffing&nbsp;tab for a si
 
    ![scheduling_project.png](assets/scheduling-project-350x256.png)
 
-1. Determine which users are displayed on the scheduling timeline by specifying the following information: (By default, only users who are eligible to be assigned a task or issue from the Unassigned area are displayed. When you select individual users, the users are displayed on the scheduling timeline regardless of whether they are eligible to be assigned a task or issue from the Unassigned area.)&nbsp;**User Companies:**&nbsp;This field enables you to restrict users from other companies from being displayed on the scheduling timeline.  
-   Leave this field blank if you want users from any company to be added. If you specify individual companies, only users from those companies can be added to the scheduling timeline. Specifying a company does not automatically add users from that company to the scheduling timeline. Instead, use the fields below to add specific users.  
-   This option does not affect which tasks and issues are displayed in the Unassigned area.  
-   **User Groups:** All users from any user group you specify are displayed on the scheduling timeline.  
-   **Teams:** All users from any team you specify are displayed on the scheduling timeline.  
-   This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.  
-   **Roles:** Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
-   Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.  
-   Users are displayed on the scheduling timeline, organized by job role.  
-   **Users:** Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
-   Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.  
-   This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.
+1. Determine which users are displayed on the scheduling timeline by specifying the following information: (By default, only users who are eligible to be assigned a task or issue from the Unassigned area are displayed. When you select individual users, the users are displayed on the scheduling timeline regardless of whether they are eligible to be assigned a task or issue from the Unassigned area.)&nbsp;
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>(NOTE: Alina: [This step is linked to from the context-sensitive help]) </span> </p>
+   -->
+
+   * **User Companies:**&nbsp;This field enables you to restrict users from other companies from being displayed on the scheduling timeline.  
+     Leave this field blank if you want users from any company to be added. If you specify individual companies, only users from those companies can be added to the scheduling timeline. Specifying a company does not automatically add users from that company to the scheduling timeline. Instead, use the fields below to add specific users.  
+     This option does not affect which tasks and issues are displayed in the Unassigned area.
+
+   * **User Groups:** All users from any user group you specify are displayed on the scheduling timeline.
+
+   * **Teams:** All users from any team you specify are displayed on the scheduling timeline.  
+     This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.
+
+   * **Roles:** Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+     Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.  
+     Users are displayed on the scheduling timeline, organized by job role.
+
+   * **Users:** Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+     Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.  
+     This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])<br></p>
+   -->
 

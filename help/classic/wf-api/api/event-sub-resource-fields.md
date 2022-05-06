@@ -8,6 +8,10 @@ description: Event subscription resource fields represent triggers for events th
 
 # Event subscription resource fields
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Event subscription resource fields represent triggers for events that result in an event subscription sending an outbound message to a configured endpoint. When a resource field is edited, an UPDATE event is triggered.
 
 The following table lists the fields available for event subscription resources:

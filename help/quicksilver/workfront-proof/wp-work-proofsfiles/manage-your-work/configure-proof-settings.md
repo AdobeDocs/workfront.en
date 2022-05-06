@@ -17,7 +17,7 @@ You can configure a proof you are creating or editing in any of the following wa
 
 >[!NOTE]
 >
->&nbsp;You can configure these settings for all new proofs you create. For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+>&nbsp;You can configure these settings for all new proofs you create. For more information, see .
 
 ## Lock the Proof When Last Decision Is Made
 

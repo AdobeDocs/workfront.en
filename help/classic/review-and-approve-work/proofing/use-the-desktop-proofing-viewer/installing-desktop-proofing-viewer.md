@@ -2,25 +2,17 @@
 filename: installing-desktop-proofing-viewer
 product-area: documents;setup
 navigation-topic: use-the-desktop-proofing-viewer
-title: Install the Desktop Proofing Viewer with Automatic Updates
+title: Install the Desktop Proofing Viewer
 description: The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on your local machine.
 ---
 
-# Install the Desktop Proofing Viewer 
+# Install the Desktop Proofing Viewer
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-with Automatic Updates
-</MadCap:conditionalText>
--->
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on your local machine.
-
-<!--
-<note type="important">
-There are two versions of the Desktop Proofing Viewer: one that updates automatically and one that you must update manually. This article contains information about the version that updates automatically.
-</note>
--->
 
 ## System Requirements
 
@@ -39,7 +31,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -50,15 +42,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
-## Install the Desktop Proofing Viewer 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-with automatic updates
-</MadCap:conditionalText>
--->
-
-on Mac
+## Install the Desktop Proofing Viewer on Mac
 
 If your Adobe Workfront administrator or Workfront Proof administrator has downloaded the app on your workstation and configured the Desktop Proofing Viewer as the default viewer for interactive proofs, you can finish the installation simply by opening an interactive prooffrom the Documents area.
 
@@ -78,17 +62,9 @@ If this is not the case, you can follow the steps below.
 
 >[!NOTE]
 >
->If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in&nbsp; [Install the Desktop Proofing Viewer for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md).
+>If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in&nbsp;.
 
-## Install the Desktop Proofing Viewer 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-with automatic updates
-</MadCap:conditionalText>
--->
-
-on Windows
+## Install the Desktop Proofing Viewer on Windows
 
 If your Workfront or Workfront Proof administrator has downloaded the app on your workstation and configured the Desktop Proofing Viewer as the default viewer for interactive proofs, you can finish the installation simply by opening an interactive proof from the Documents area.
 
@@ -106,4 +82,4 @@ If your Workfront or Workfront Proof administrator has downloaded the app on you
 1. (Conditional) If you install the application using Internet Explorer, refresh the launching page in the browser after the application installs.
 1. Open an interactive proof from the Documents area.
 
-After the Desktop Proofing Viewer is installed, all interactive proofs open in the Desktop Proofing Viewer. If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in&nbsp; [Install the Desktop Proofing Viewer for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md).
+After the Desktop Proofing Viewer is installed, all interactive proofs open in the Desktop Proofing Viewer. If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in&nbsp;.

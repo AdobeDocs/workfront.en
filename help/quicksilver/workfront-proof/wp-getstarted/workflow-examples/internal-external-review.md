@@ -50,7 +50,7 @@ This option illustrates a workflow where the proofing process is managed by the 
 
 1. **New version** - the Project Manager creates a new version (or a copy) of the proof and shares it with the client. See [Copying Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) and [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-1. **New proof email**- the client receives the New proof email with a Go to proof link.&nbsp;For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+1. **New proof email** - the client receives the New proof email with a Go to proof link.&nbsp;For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 1. **Review proof** - the client reviews the proof, adds comments and makes a decision.
 1. The client can see only the version of the proof that has been explicitly shared with them; they will not be able to see the internal version.

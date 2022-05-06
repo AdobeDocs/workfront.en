@@ -9,6 +9,10 @@ description: Tasks still show in My Work, after a project has been placed On Hol
 
 # Tasks still display in My Work list when project in On Hold
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 ## Problem
 
 Tasks still show in My Work, after a project has been placed On Hold.&nbsp;

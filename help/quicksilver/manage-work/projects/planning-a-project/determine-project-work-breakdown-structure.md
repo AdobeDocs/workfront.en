@@ -141,9 +141,9 @@ You can view the task list at the project level.
 
 1. From the **View** drop-down menu, and select the **Work Breakdown** view.
 
-1. The Work Breakdown structure displays in the second column of the selected view.
+   The Work Breakdown structure displays in the second column of the selected view.
 
-   ![](assets/wbs-highlighted-(1)-350x79.png)
+   ![](assets/wbs-view-on-task-list-nwe-350x87.png)
 
 ### View the WBS in a task report {#view-the-wbs-in-a-task-report}
 
@@ -156,7 +156,7 @@ You can build a task report and display the WBS of the tasks by doing one of the
 >
 >We recommend adding a Project grouping, to add clarity to what projects the tasks belong to. The indentation of the tasks does not display in a task report.
 
-For information about building reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
+For information about building reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Save the WBS of a Project as a Template
 

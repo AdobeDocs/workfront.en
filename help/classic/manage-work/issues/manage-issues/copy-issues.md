@@ -8,6 +8,10 @@ description: You can copy an issue or a request and save them on the same or ano
 
 # Copy issues
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can copy an issue or a request and save them on the same or another project. You can also copy an issue from a task to another project.
 
 You can copy issues from the following objects:
@@ -43,7 +47,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying&nbsp;the issue to with the ability to&nbsp;Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying&nbsp;the issue to with the ability to&nbsp;Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +90,13 @@ You can copy one or multiple issues from a list of issues or from an issue repor
 
    ![](assets/ci3-350x203.png)
 
-1. Continue copying the issue as described in the section [Copy a single issue](#copy-a-single-issue) in this article, starting with Step 3.
+1. Continue copying the issue as described in the section [Copy a single issue](#copy-a-single-issue) in this article, starting with Step 2. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE:&nbsp;is this step still accurate?)
+   </MadCap:conditionalText>
+   -->
 
 ## Copy a single issue {#copy-a-single-issue}
 

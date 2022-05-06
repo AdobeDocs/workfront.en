@@ -3,10 +3,14 @@ filename: customize-wf-goals-terminology
 product: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Customize Adobe Workfront Goals terminology
-description: Your organization must have the following to use the functionality described in this article:
+description: (NOTE: keep drafted and only leave the LT article as is)
 ---
 
 # Customize Adobe Workfront Goals terminology
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: keep drafted and only leave the LT article as is)</p>
+-->
 
 Your organization must have the following to use the functionality described in this article:
 
@@ -17,7 +21,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 The Workfront administrator can customize the names of objects in Workfront Goals to better match your organization's terminology. For example, your organization might not use the concept of "goals" but they do use the concept of "objectives". Your Workfront administrator can replace the name "goal" with "objective" everywhere in Workfront Goals.
 
 As a Workfront administrator, you can customize the following Workfront Goals object names using a layout template and assigning it to Workfront Goals users:

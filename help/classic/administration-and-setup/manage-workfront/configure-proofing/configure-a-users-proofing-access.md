@@ -4,18 +4,14 @@ user-type: administrator
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
 title: Configure a user's proofing access
-description: The sections in this article shouldn't be lumped together.
+description: As a Adobe Workfront administrator or Workfront Proof administrator, you can configure a user's access to create and view proofs in Workfront and Workfront Proof.
 ---
 
 # Configure a user's proofing access
 
-<!--
-<p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The sections in this article shouldn't be lumped together. </p>
--->
-
-<!--
-<p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> -------------Also, need to add a bit of info to the bottom section about how you can view interactive content in screen sizes but not emulated.</p>
--->
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 As a Adobe Workfront administrator or Workfront Proof administrator, you can configure a user's access to create and view proofs in Workfront and Workfront Proof.
 
@@ -121,32 +117,6 @@ You can grant all users access to the Workfront Proof button within the Workfron
 >[!IMPORTANT]
 >
 >&nbsp;If you plan to allow all Workfront users to access Workfront Proof directly from the Workfront Global Navigation Bar,&nbsp;ensure that the permission profile for each user does not provide more access than the user's access level within Workfront. This prevents users from accessing proofs within Workfront Proof that they cannot access within Workfront. For more information, see [Enable and disable proofing for a user (legacy plans only)](#enable-and-disable-proofing-for-a-user-legacy-plans-only).
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="configuring-whether-users-can-access-the-html5-proofing-viewer"></a>Configure user access to Web Proofing Viewer</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Web Proofing Viewer launches by default when users in your organization proof video and static content.</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">As the Workfront administrator, if your organization opted to use the Legacy proofing viewer as the default until it is removed, you can switch the default for your users to the Web Proofing Viewer.&nbsp;</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You might not have access to the Legacy proofing viewer because it is supported by Flash, which has been deprecated in most environments.</p>
--->
-
-<!--
-<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1"> <p>From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof.</p> <p> <img src="assets/proof-access-proofhq-350x39.png" alt="" style="width: 350;height: 39;"> </p> </li>
-<li value="2">Click <strong>Account settings</strong> near the upper-right corner of Workfront Proof, then click the <strong>Settings</strong> tab.</li>
-<li value="3">Under <strong>Proof Defaults</strong>, at the end of the <strong>New Proofing Viewer for video and static proofs</strong> row, click <strong>Setup</strong>.</li>
-<li value="4">Modify the Web Proofing Viewer settings, as explained under <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#web-proofing-viewer" class="MCXref xref">Web Proofing Viewer</a> in the article <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>.</li>
-<li value="5">Click <strong>Save</strong>.&nbsp;</li>
-</ol>
--->
 
 ## Configure user access to the Desktop Proofing Viewer
 

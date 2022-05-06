@@ -2,11 +2,11 @@
 filename: delete-plans
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Delete plans in the Adobe Workfront Scenario Planner
+title: Delete plans in the Scenario Planner
 description: You can delete plans that you created. You cannot delete plans that are shared with you.
 ---
 
-# Delete plans in the Adobe Workfront Scenario Planner
+# Delete plans in the Scenario Planner
 
 You can delete plans that you created. You cannot delete plans that are shared with you.
 
@@ -28,7 +28,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
@@ -36,7 +36,7 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +64,7 @@ You can delete a plan or you can delete one scenario in a plan.
 >* >
 >  If the plan contains a published scenario, the projects linked to the deleted initiatives are preserved and the Scenario Planner area remains in the Project&nbsp;Details section. 
 >
->  For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
+>  For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
 >
 
 To delete a plan:
@@ -90,7 +90,7 @@ To delete a plan:
 >* >
 >  If the published initiatives exist on another scenario, they remain on that scenario, including their link to the project. Publishing those initiatives from the other scenarios updates the linked projects with new information from those scenarios. 
 >
->  For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
+>  For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
 >
 
 To delete a scenario:
@@ -108,19 +108,20 @@ To delete a scenario:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Delete2"></a>Delete initiatives</h2> <note type="important">
+<h2><a name="Delete2"></a>Delete initiatives</h2>
+<p>(NOTE: moved this section to its own article about deleting initiatives)&nbsp;</p> <note type="important">
 <p>Consider the following when deleting initiatives:</p>
 <ul>
 <li>Deleting an initiative deletes the job roles and cost information from the initiative.</li>
 <li><span>When you delete an initiative that is published to a project, the initiative is removed from the scenario but the Scenario Planner area remains in the Project&nbsp;Details section.</span> </li>
-<li> <p>If the initiative you delete is the only published initiative on the scenario, the indicator that the plan has been published is also removed. </p> <p>For information about publishing initiatives to projects, see <a href="../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref">Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner</a>.</p> </li>
+<li> <p>If the initiative you delete is the only published initiative on the scenario, the indicator that the plan has been published is also removed. </p> <p>For information about publishing initiatives to projects, see <a href="../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref">Update or create projects by publishing initiatives in the Scenario Planner</a>.</p> </li>
 </ul>
 </note>
 <p>To delete an initiative:</p>
 <ol>
 <li value="1"> <p> <p>Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png">, then click&nbsp;Scenarios.</p> </p> <p>A list of plans displays. </p> </li>
 <li value="2">Click the name of a plan to open it, then locate the initiative you want to delete.</li>
-<li value="3"> <p>Click the <strong>More menu</strong><img src="assets/more-menu.png"> to the right of the initiative name, then click <strong>Delete</strong> > <strong>Yes, delete it</strong>. </p> <p>The initiative is deleted. </p> </li>
+<li value="3"> <p>Click the <strong>More menu</strong> <img src="assets/more-menu.png"> to the right of the initiative name, then click <strong>Delete</strong> > <strong>Yes, delete it</strong>. </p> <p>The initiative is deleted. </p> </li>
 <li value="4">Click <strong>Save Plan</strong> to save your changes. </li>
 </ol>
 </div>

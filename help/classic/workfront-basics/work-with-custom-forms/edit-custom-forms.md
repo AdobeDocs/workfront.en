@@ -3,11 +3,15 @@ filename: edit-custom-forms
 product-area: projects;user-management
 keywords: edit,forms,rich,text,special,format,fields,custom,information,customize,objects
 navigation-topic: work-with-custom-forms
-title: Edit information in custom form fields in Adobe Workfront
+title: Edit information in custom form fields
 description: You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see Add a custom form to an object.
 ---
 
-# Edit information in custom form fields in Adobe Workfront
+# Edit information in custom form fields
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -36,9 +40,9 @@ You must have the following:
    <td> 
     <ul> 
      <li> <p>Contribute or higher permissions on the object for which you want to edit the custom form</p> </li> 
-     <li>View permissions on the fields you want to edit.&nbsp;For information about sharing permissions for custom fields, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a>.</li> 
+     <li>View permissions on the fields you want to edit.&nbsp;For information about sharing permissions for custom fields, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</li> 
      <li> <p>Edit permissions for the sections on the form where the fields you want to edit are located</p> </li> 
-    </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+    </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,10 +51,10 @@ You must have the following:
 
 ## Prerequisites
 
-Before you begin, you must
+* Your Workfront administrator or a Plan user with administrative access to&nbsp;custom forms must create custom forms in your environment. For more information, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* You must have custom forms attached to an object.
 
-* Create a custom form. For instructions, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-* Attach a custom form to an object. For instructions, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+  For information about how to apply custom forms to an object, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Edit information on a custom form
 
@@ -84,9 +88,15 @@ Editing information on a custom form attached to an object is identical for all 
 
    For information about all of the field types, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Click **Save**.
+1. Click **Save** .
 
    >[!IMPORTANT]
+   >
+   >
+   >
+   ><!--   >
+   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This is true in "Edit custom forms" but not in "Add a custom form to an object." This snippet is used in both articles. The whole snippet is conditioned for classic only in "Add" but not in "Edit." Don't remove the NWE conditioning in the snippet because it is needed in "Edit."</p>   >
+   >-->   >
    >
    >You must complete all required fields on the form before you can save the form.&nbsp; The name of a required field displays in bold.
 
@@ -95,6 +105,10 @@ Editing information on a custom form attached to an object is identical for all 
    You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in this article.
 
 ## Recalculate all calculated custom fields for multiple objects in a list when editing the objects {#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects}
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
+-->
 
 You can manually recalculate the custom fields of several objects by editing them in bulk.
 
@@ -105,18 +119,7 @@ You can manually recalculate the custom fields of several objects by editing the
 
    ![](assets/recalculate-custom-expressions-350x259.png)
 
-1. Click **Save****Changes**.
+1. Click **Save** **Changes**.
 
    Workfront calculates all custom fields for all the selected objects.
-
-<!--
-<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <note type="tip">
-<p>To recalculate all calculated custom fields for several projects in a list or report, you can do the following:</p>
-<ol>
-<li value="1"> <p>Go to a project list or report and select one or several projects.</p> </li>
-<li value="2"> <p>Click the <strong>More</strong> menu <img src="assets/more-icon.png">, then click <strong>Recalculate Custom Expressions</strong>. </p> <p>Workfront calculates all custom fields for all the selected projects.</p> </li>
-</ol>
-</note>
-</div>
--->
 

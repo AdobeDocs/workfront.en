@@ -12,6 +12,10 @@ description: The Preview Sandbox is a testing environment that serves as a repli
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 The Preview Sandbox&nbsp;is a&nbsp;testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront Proof.&nbsp;
@@ -45,7 +49,7 @@ To access the Workfront Proof&nbsp;Preview Sandbox:
 
 1. Log in to your Workfront environment. 
 1. Click **Setup** in the Global Navigation bar. 
-1. Click**System**>**Preferences**.  
+1. Click**System** >**Preferences**.  
 
 1. In the **Test Environments** section, click **Sandbox Preview**.  
 

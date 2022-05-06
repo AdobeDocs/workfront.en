@@ -9,6 +9,10 @@ description: Task Constraints determine when a task should start and end on a pr
 
 # Task Constraints
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Task Constraints determine when a task should start and end on a project. You can use several Task Constraints to indicate when a task should start and end. For information about all Task Constraints in Workfront, see the following articles:
 
 This section contains the following articles:

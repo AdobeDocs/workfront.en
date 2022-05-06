@@ -11,6 +11,10 @@ description: As the Workfront Proof administrator, you can view the account sett
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 As the Workfront Proof administrator, you can view the account settings for your organization's Workfront Proof account.
@@ -26,10 +30,10 @@ The Accounts details section displays&nbsp;your&nbsp;organization's contact info
 
 1. To edit the information in the **Accounts details** section, click **Edit**&nbsp;to the right of any of the following:
 
-   * **Organization name:**The name of your company.&nbsp;
-   * **Contact information:**The default contact information for users in the Workfront Proof account.
+   * **Organization name:** The name of your company.&nbsp;
+   * **Contact information:** The default contact information for users in the Workfront Proof account.
    * **Default language:** The default language used in your Workfront Proof account.
-   * **Time zone default:**The default time zone for your organization.
+   * **Time zone default:** The default time zone for your organization.
 
 ## Usage statistics
 

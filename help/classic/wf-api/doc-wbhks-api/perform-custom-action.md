@@ -8,6 +8,10 @@ description: This endpoint allows an Adobe Workfront user (or an automated workf
 
 # Perform a custom action (not yet implemented)
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This endpoint allows an Adobe Workfront user (or an automated workflow event) to perform an action in the external system. The /customAction endpoint accepts a “name” parameter, which allows the webhook provider to implement multiple custom operations.
 
 The webhook provider registers custom actions with Workfront by including the actions in the /serviceInfo response under customActions. Workfront loads this list when setting up or refreshing the webhook provider under Setup > Documents > Custom Integrations.

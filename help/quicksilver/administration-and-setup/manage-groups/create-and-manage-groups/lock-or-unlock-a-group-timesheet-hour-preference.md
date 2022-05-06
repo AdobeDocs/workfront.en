@@ -21,6 +21,10 @@ For information about how a Workfront administrator can lock or unlock a timeshe
 
 For information about configuring a timesheet and hour preference for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
+-->
+
 >[!NOTE]
 >
 >* Configuring an unlocked preference for a group doesn’t affect that preference for any subgroups below the group.

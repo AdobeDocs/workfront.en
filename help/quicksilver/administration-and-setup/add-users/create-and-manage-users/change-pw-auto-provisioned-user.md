@@ -16,15 +16,26 @@ Often, when a new user attempts to change their temporary password, they enter t
 
 Because GUID user names can be difficult to use, we recommend you first change a user's user name to their Workfront mail address, then allow them to change their password.
 
->[!NOTE]
+>[!TIP]
 >
->The only way to find a user's GUID is through a query of the Workfront API.
+>You can find a user's GUID in the following ways: 
+>
+>* Go to the user's profile and copy the GUID from the URL in your browser. For example, in the URL *https://acme.workfront.com/user/61941ab1000af22d7104628efa1c738b/details*, you would copy the string of numbers and letters between the last two forward slashes: *61941ab1000af22d7104628efa1c738b*.
+>
+>  For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>
+>* Create a user report with a User > GUID column.
+>
+>  For more information, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+>
+>* Query the Workfront API.
+>
 
 ##  
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

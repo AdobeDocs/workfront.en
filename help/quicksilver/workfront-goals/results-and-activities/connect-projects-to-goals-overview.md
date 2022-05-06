@@ -5,10 +5,14 @@ product: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Overview of connecting projects to goals in Adobe Workfront Goals
-description: Your organization must have the following to use the functionality described in this article:
+description: (NOTE: THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO GOALS IN THE FUTURE)
 ---
 
 # Overview of connecting projects to goals in Adobe Workfront Goals
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO GOALS IN THE FUTURE) </p>
+-->
 
 Your organization must have the following to use the functionality described in this article:
 
@@ -19,7 +23,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 >[!IMPORTANT]
 >
@@ -50,7 +54,7 @@ To this purpose, you can connect projects as activities (outputs or executed wor
 
 * You can associate multiple projects with a goal.
 * You can associate the same project with multiple goals. 
-* Although the project is connected to the goal as a type of activity, you cannot manually update the progress of a project when you check in on your goal. Instead, Workfront calculates the percent complete of the project and Workfront Goals calculates the goal progress using this percent complete. ```This updates the goal in real time after the project percent updates.```
+* Although the project is connected to the goal as a type of activity, you cannot manually update the progress of a project when you check in on your goal. Instead, Workfront calculates the percent complete of the project and Workfront Goals calculates the goal progress using this percent complete. ```This updates the goal in real time after the project percent updates.``` 
 * The owner of the project becomes the owner of this activity.
 * The project duration can be outside the time period of a goal. If a project lasts longer than the goal’s deadline, you can still close your goal and consider it completed, but the goal percent complete will not be 100%. The percent complete of the project no longer updates on the goal. There is an indication on the goal list that the project no longer updates progress for the goal.
 
@@ -60,7 +64,7 @@ To this purpose, you can connect projects as activities (outputs or executed wor
 
   >[!CAUTION]
   >
-  >If the goal was active and there are no other progress indicators on the goal, the goal remains active but it does not show any progress.
+  >If the goal was active and there are no other progress indicators on the goal, the goal becomes Inactive.
 
 ## Locate project information on goals
 

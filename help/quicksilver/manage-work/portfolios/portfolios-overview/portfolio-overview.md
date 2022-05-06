@@ -17,7 +17,7 @@ You can use Portfolios and Programs to organize projects. Through organizing pro
 
 You must have Edit access to Portfolios in your access level to create and manage Portfolios, and you must have Manage permissions on a Portfolio to be able to edit it. You must have View permissions on a Portfolio to be able to see it.  
 For information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).  
-For information about permissions to Portfolios, see [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+For information about permissions to Portfolios, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 
 For information about using Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
@@ -43,7 +43,7 @@ The Business Case contains the following information:
 * An alignment score
 * A risk assessment
 
-For more information about the Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about the Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 These key elements are used in the portfolio optimizer and the capacity planner to assist management in project selection.
 

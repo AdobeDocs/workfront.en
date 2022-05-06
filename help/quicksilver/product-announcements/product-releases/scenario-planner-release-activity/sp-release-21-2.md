@@ -29,9 +29,9 @@ To enhance the value of the tools you use to manage your resources for strategic
 
 For more information, see the following articles:
 
-* [Create and edit plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-plans.md) 
+* [Create and edit plans in the Scenario Planner](../../../scenario-planner/create-and-edit-plans.md) 
 * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md) 
-* [Import projects to plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
+* [Import projects to plans in the Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
 
 ```<iframe class="vimeo-player_0" src="assets/539863715?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

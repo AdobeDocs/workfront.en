@@ -10,6 +10,10 @@ description: When I try to log into Adobe Workfront with my URL (https://custome
 
 # Login Error: The following fields are invalid: emailAddr cannot be null
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Problem&nbsp;
 
 When I try to log into Adobe Workfront with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to Workfront with the following error:

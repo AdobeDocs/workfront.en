@@ -10,6 +10,10 @@ description: Kick-Starts enable Adobe Workfront administrators to import data fr
 
 # Kick-Starts data importer
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Kick-Starts enable Adobe Workfront administrators to import data from external data sources into Workfront and to export existing data in Workfront to be used in other systems.
 
 Kick-Starts are highly formatted Excel spreadsheets that populate with existing data from Workfront (in the case of an export) or with data to be imported into Workfront (in the case of an import of data).
@@ -18,6 +22,6 @@ Kick-Starts are highly formatted Excel spreadsheets that populate with existing 
 
 The Kick-Start importer is designed for the creation of new records; it is not designed for updating existing records.
 
-For information about importing data into Workfront using Kick-Starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+For information about importing data into Workfront using Kick-Starts, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 For information about exporting data from Workfront using Kick-Starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).

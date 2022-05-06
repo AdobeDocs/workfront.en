@@ -9,6 +9,10 @@ description: If you have Manage permissions to a folder or a collection, you can
 
 # Change the cover image on an item in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If you have Manage permissions to a folder or a collection, you can change the image that displays on its cover with an image of an item to which you have access.
 
 When you change the cover image, it is changed for all users who have access to the folder or collection.

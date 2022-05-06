@@ -9,6 +9,10 @@ description: The Update Type of a project indicates how Adobe Workfront calculat
 
 # Project Update Type overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Update Type of a project indicates how Adobe Workfront calculates the timeline of a project. Changes in the project plan might trigger changes in the timeline of the project. The timeline of the project must be automatically or manually recalculated to ensure it is up to date with these changes.
 
 For information about recalculating the project timeline, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).

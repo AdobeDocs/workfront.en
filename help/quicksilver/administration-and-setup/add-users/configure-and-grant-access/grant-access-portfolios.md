@@ -14,7 +14,7 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -57,11 +57,20 @@ For information about what users in each access level can do with portfolios, se
 
 ## Access to shared portfolios
 
-As the owner or creator of an portfolio, you can share with other users by granting them permissions to it, as explained in [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+As the owner or creator of an portfolio, you can share with other users by granting them permissions to it, as explained in [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+
+<!--
+<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p style="color: #ff1493;">If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
+<p style="color: #ff1493;">* reports, dashboards, and calendars</p>
+<p style="color: #ff1493;">* financial data</p>
+<p style="color: #ff1493;">* issue</p>
+</div>
+-->
 
 When you share any object with another user, the recipient’s rights on it are determined by a combination of two things:
 
 * The permissions that you grant to your recipient for the object
 * The recipient’s access level settings for the object's type
 
-For information about permissions users can grant on a portfolio when sharing it, see [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+For information about permissions users can grant on a portfolio when sharing it, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).

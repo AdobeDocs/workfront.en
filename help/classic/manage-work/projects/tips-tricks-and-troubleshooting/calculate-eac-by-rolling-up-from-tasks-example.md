@@ -9,6 +9,10 @@ description: PIM = Hour-Based
 
 # Calculation example - Calculate EAC as a roll up from tasks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## EAC method: roll up from tasks or subtasks
 
 * [PIM= Hour-Based](#pim-hour-based) 
@@ -23,7 +27,7 @@ description: PIM = Hour-Based
 
 PIM = Hour-Based
 
-EAC Method = Roll up from tasks/subtasks
+EAC Method = Roll up from tasks/ subtasks
 
 1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
 1. Add planned/ actual hours to each task and % Complete according to the table below:
@@ -71,7 +75,7 @@ EAC Method = Roll up from tasks/subtasks
    **CPI for Task 1** = .04
 
 1. **EAC for Task 1** = 125 hrs calculated as follows:  
-   **EAC for Task 1** = *IF* CPI <> 0 *THEN* EAC = Planned Hours/CPI  
+   **EAC for Task 1** = *IF* CPI <> 0 *THEN* EAC = Planned Hours/ CPI  
    &nbsp; &nbsp;&nbsp;*ELSE* 
 
    ```
@@ -448,7 +452,7 @@ EAC Method = Roll up from tasks/ subtasks
    **EAC Labor****for Task 1** = *IF* CPI_Labor <> 0 *THEN* 
 
    ```
-   EAC Labor = Planned Labor Cost/CPI_Labor
+   EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    *&nbsp; &nbsp;ELSE* EAC &nbsp;Labor = Planned Labor Cost + Actual Labor Cost  

@@ -5,11 +5,11 @@ product: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
-title: Use Mutual TLS in HTTP modules
+title: Use Mutual TLS in HTTP modules in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-# Use Mutual TLS in HTTP modules
+# Use Mutual TLS in HTTP modules in Adobe Workfront Fusion
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
@@ -68,6 +68,10 @@ You must have the following access to use the functionality in this article:
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Providing your Workfront Fusion public certificate
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The Workfront Fusion 2.0 public certificate is like the certificates provided by certificate authorities such as DigiCert. When you connect to a web service with an HTTP request, the web service usually requires a Workfront Fusion 2.0 public certificate for verification.</p>
+-->
 
 When you connect to a web service with an HTTP request, the web service usually requires a Workfront Fusion public certificate for verification. This allows the web service to compare the certificate presented in the HTTP request to the one on file, as a way to ensure that the certificate is on the web service's allowlist.
 

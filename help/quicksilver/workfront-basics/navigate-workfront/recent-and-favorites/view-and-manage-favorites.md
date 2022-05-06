@@ -3,12 +3,10 @@ filename: view-and-manage-favorites
 product-area: projects
 navigation-topic: recent-and-favorites
 title: View and manage favorites
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: The Favorites menu allows you to access items quickly. Items remain on the Favorites menu until you remove them. You can have up to 40 items on the Favorites menu.
 ---
 
 # View and manage favorites
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 The Favorites menu allows you to access items quickly. Items remain on the Favorites menu until you remove them. You can have up to 40 items on the Favorites menu.
 
@@ -52,36 +50,23 @@ You can add recent items or the current page to the Favorites menu.
 
 ### Add recent items as a favorite {#add-recent-items-as-a-favorite}
 
-1. Click the **Favorites** icon in the upper-right corner of any Workfront page, then select **Recents**.
-
-1. In the **Recents** menu, hover over the recent item that you want to save as a favorite, then click the star.
+1. Click the **Recents** icon ![Recents](assets/recents-icon-40x43.png) in the upper-right corner of any page in the new Adobe Workfront experience. 
+1. Hover over the recent item that you want to save as a favorite, then click the star.
 
    The recent item displays in the Favorites menu.
 
-   ![](assets/favorite-recent-item-350x252.png)
+   Click the X on the top right to close the list.
 
-   <!--
-   <li class="preview" value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><span class="preview">Click the <strong>Recents</strong> icon <img src="assets/recents-icon2-40x43.png" alt="Recents" style="width: 40;height: 43;"> in the upper-right corner of any page in the new Adobe Workfront experience.</span> </p> </li>
-   -->
-
-   <!--
-   <li class="preview" value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Hover over the recent item that you want to save as a favorite, then click the star.</p> <p>The recent item displays in the Favorites menu.</p> <p>Click the X on the top right to close the list.</p> <p> <img src="assets/favorite-recent-item-2022-350x375.png" alt="Favorite a recent item" style="width: 350;height: 375;"> </p> </li>
-   -->
+   ![Favorite a recent item](assets/favorite-recent-item-2022-350x375.png)
 
 ### Add the current item as a favorite {#add-the-current-item-as-a-favorite}
 
 1. Go to the page that you want to add as a favorite.
 1. Click the **Favorites** icon ![](assets/favorites-icon.png) in the upper-right corner of any Workfront page, then click **Add Current Page**.
 
-   ![](assets/add-current-page-favorite-350x388.png)
+   ![Add current page to favorites](assets/add-current-page-favorite-2022-350x147.png)
 
-   <!--
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/add-current-page-favorite-2022-350x147.png" alt="Add current page to favorites" style="width: 350;height: 147;"> </p>
-   -->
-
-   <!--
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Click the X on the top right to close the list.</p>
-   -->
+   Click the X on the top right to close the list.
 
    Or
 
@@ -100,5 +85,5 @@ You can add recent items or the current page to the Favorites menu.
 
    Or
 
-   If you are on the page that you want to remove as a favorite, click  the **Favorites** icon ![](assets/favorites-icon.png) next to the object name to remove it from the Favorites menu.
+   If you are on the page that you want to remove as a favorite, click the **Favorites** icon ![](assets/favorites-icon.png) next to the object name to remove it from the Favorites menu.
 

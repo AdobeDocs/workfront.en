@@ -5,14 +5,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 title: Delete a custom condition
-description: You must have the following to perform the steps in this article:
+description: You must have the following access to perform the steps in this article:
 ---
 
 # Delete a custom condition
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -36,7 +40,11 @@ You must have the following to perform the steps in this article:
 ## Delete a custom condition
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click **Project Preferences** > **Conditions**.  
+1. Click **Project Preferences** > **Conditions**. 
+
+   <!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
+   -->
 
 1. Select the tab of the object type (**Project**, **Task**, or **Issue**) where the condition that you want to delete is located.
 

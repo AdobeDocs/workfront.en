@@ -10,6 +10,10 @@ description: As a user with Manage permission to content, you can use Workfront 
 
 # Overview of content versioning in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a user with Manage permission to content, you can use Workfront Library to view and download all iterations of content through the versioning feature. [Access older versions of content in Workfront Library](../../../workfront-library/content-management/content-versioning/view-older-versions-of-content-library.md)
 
 When you update active (or current) content with a new version, all the versions of the content are treated as a "package" and remain together.

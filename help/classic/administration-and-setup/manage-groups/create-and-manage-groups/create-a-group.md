@@ -5,10 +5,18 @@ product-area: system-administration;user-management
 keywords: create,group,subgroup,copy
 navigation-topic: create-and-manage-groups
 title: Create a group
-description: As an Adobe Workfront administrator, you can create groups to organize users and projects and to assign access rights within Workfront. For more information, see Groups overview.
+description: DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.
 ---
 
 # Create a group
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.</p>
+-->
 
 As an Adobe Workfront administrator, you can create groups to organize users and projects and to assign access rights within Workfront. For more information, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
@@ -88,7 +96,7 @@ You must be a Workfront administrator to create a top-level group.
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
+        <li> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -114,7 +122,7 @@ To create a new top-level group by copying a group or subgroup:
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
-   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. Select the group you want to copy, then click **More** > **Copy**.
 
@@ -155,9 +163,7 @@ To create a new top-level group by copying a group or subgroup:
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p>Group administrators:<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.copied groups">
-            Any group administrators of the original group are also designated as the group administrators in the copied group.
-          </MadCap:conditionalText> You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
+        <li> <p data-mc-conditions="SnippetConditions-wf-groups.copied groups">Group administrators: Any group administrators of the original group are also designated as the group administrators in the copied group. You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 

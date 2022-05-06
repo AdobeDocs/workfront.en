@@ -2,11 +2,11 @@
 filename: copy-initiatives
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Copy initiatives in the Adobe Workfront Scenario Planner
+title: Copy initiatives in the Scenario Planner
 description: You can create initiatives by copying existing ones. You can copy initiatives on a plan that you create or on a plan that someone shares with you.
 ---
 
-# Copy initiatives in the Adobe Workfront Scenario Planner
+# Copy initiatives in the Scenario Planner
 
 You can create initiatives by copying existing ones. You can copy initiatives on a plan that you create or on a plan that someone shares with you.
 
@@ -26,7 +26,7 @@ You can create initiatives by copying existing ones. You can copy initiatives on
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
@@ -34,7 +34,7 @@ You can create initiatives by copying existing ones. You can copy initiatives on
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,9 +65,9 @@ Consider the following when copying initiatives:
    * It does not connect the copied initiative to the project. 
    * It does not modify the Scenario Planner section on the project, for projects that have been published at least once.
 
-     For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
+     For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
 
-     For information about creating initiatives by importing projects, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md) .
+     For information about creating initiatives by importing projects, see [Import projects to plans in the Scenario Planner](../scenario-planner/import-projects-to-plans.md) .
 
 ## Copy initiatives
 
@@ -96,7 +96,7 @@ Consider the following when copying initiatives:
 
 1. (Optional) Update the priority of your newly created initiatives.
 
-   For information about prioritizing initiatives, see [Update initiative priorities in the Adobe Workfront Scenario Planner](../scenario-planner/prioritize-initiatives.md). 
+   For information about prioritizing initiatives, see [Update initiative priorities in the Scenario Planner](../scenario-planner/prioritize-initiatives.md). 
 
 1. Click **Save Plan** to save your changes.
 

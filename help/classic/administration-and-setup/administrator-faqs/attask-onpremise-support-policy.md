@@ -11,6 +11,10 @@ description: Adobe Workfront moved to a 100% Software-As-A-Service model and sto
 
 # AtTask OnPremise support policy
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront moved to a 100% Software-As-A-Service model and stopped selling on-premise software on December 31, 2011. As of 2014, AtTask OnPremise is no longer supported, with the exception of license key-related problems. The on-premise application is no longer available to download or install.
 
 If you already have the application and need to re-install OnPremise, download the installation guide .
@@ -27,7 +31,7 @@ Download instructions on SSL/TSL setup.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

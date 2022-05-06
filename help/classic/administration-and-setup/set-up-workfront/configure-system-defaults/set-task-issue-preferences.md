@@ -4,10 +4,18 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configure system-wide task and issue preferences
-description: As an Adobe Workfront administrator, you can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in Workfront.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ** ** This is linked to Converting Issues.
 ---
 
 # Configure system-wide task and issue preferences
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **&nbsp;** This is linked to Converting Issues.</p>
+-->
 
 As an Adobe Workfront administrator, you can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in Workfront.
 
@@ -19,7 +27,7 @@ By default, these preferences are locked and group administrators cannot modify 
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -106,7 +114,7 @@ You must have the following to perform the steps in this article:
      <li> <p><strong>Keep the original issue and tie its resolution to the task</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to Closed when the task completes. When this is deselected, the issue is deleted.</p> <p>Note:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a> </p> </li> 
+        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
      <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator)&nbsp;access to the task to review the task, make updates, and stay informed of its progress</li> 
      <li> <p><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
@@ -121,7 +129,7 @@ You must have the following to perform the steps in this article:
      <li> <p><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project&nbsp;completes. When this is deselected, the issue is deleted. </p> <p>Note:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a> </p> </li> 
+        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
      <li><strong>Allow Primary Contact to have access to the project</strong>: Gives the primary contact (issue creator)&nbsp;access to the project to review the project, make updates, and stay informed of its progress.</li> 
      <li><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change the listed options during the conversion of an issue to a project.</li> 
@@ -164,7 +172,13 @@ You must have the following to perform the steps in this article:
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="work-on-it"><a name="Work"></a>Work On It</h3>
+<h3 id="work-on-it"><a name="Work"></a>Work On It</h3> <!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This was a Ninja story in Summer/Fall 2020 that may never be implemented Leaving it here drafted in case Ninja decides to add it.</p>
+--> <!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Here's what Jeremy Flores says on 12/1/20:</p>
+--> <!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I have not had a chance to follow up with customers to verify if this is still a need. It has not come up organically. I can follow up with a few customers, but overall I would say that we're probably safe to move on and just mark what we've done to support this as complete. It could still come up but I don't want to push it unless customers really want it.</p>
+-->
 <p>You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.</p>
 <p>Workfront's default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.</p>
 <p>To switch to the Start button:</p>
@@ -214,7 +228,7 @@ You must have the following to perform the steps in this article:
    <td role="rowheader">When someone submits a request</td> 
    <td> 
     <ul> 
-     <li><strong>Give them ... access to the issue</strong>: Defines the default permission a user has on a request they submitted. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a>.</li> 
+     <li><strong>Give them ... access to the issue</strong>: Defines the default permission a user has on a request they submitted. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a>.</li> 
      <li> <p><strong>People from the same company will inherit the same permissions for all requests</strong>: Allows users to see requests submitted by other users from the same company as them. They have the same permissions on those requests as they have on their own submitted requests.</p> </li> 
     </ul> </td> 
   </tr> 

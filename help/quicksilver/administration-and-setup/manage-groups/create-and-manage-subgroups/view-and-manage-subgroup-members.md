@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 
 1. Click **Groups**.
 
-   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. Click the name of the group for which you want to view or manage subgroup members.
 1. In the left panel, click **Subgroup Members**.
@@ -63,7 +63,7 @@ You must have the following to perform the steps in this article:
    
    * Select any number of members in the list, then click Deactivate ![](assets/deactivate-user.png) or Activate ![](assets/activate-user.png).
 
-     For more information, see [Deactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+     For more information, see [Deactivate or reactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
    
    * Export ![](assets/export.png) the list of members.
 

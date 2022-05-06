@@ -9,6 +9,10 @@ description: If you are a group administrator and an Adobe Workfront administrat
 
 # Configure project preferences for a group
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If you are a group administrator and an Adobe Workfront administrator unlocks a project preference for all groups in the system, you can configure that preference for your group to affect all subsequent projects that your group creates.
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
@@ -55,8 +59,8 @@ You must have the following to perform the steps in this article:
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
-1. Select the group whose project preferences you want to configure.
-1. Click **More** >**Settings**. 
+1. Select  the group whose project preferences you want to configure.
+1. Click **More** > **Settings**.  
 
 1. On the page that appears, continue with one of the 4 sections listed below to configure preferences for Project Status, Timelines, Business Cases, and Life after Death.
 
@@ -79,7 +83,7 @@ Configure any of the following preferences for newly created projects associated
  <tbody> 
   <tr> 
    <td role="rowheader">Set new project's status to</td> 
-   <td> <p>Determine the status of new projects.</p> <p>Note:  
+   <td> <p>Determine the status of new projects.</p> <p>Note:   
      <ul> 
       <li>If you or another Workfront administrator hides the status selected here, the default status changes to the first status in the status list.</li> 
      </ul> 
@@ -94,7 +98,7 @@ Configure any of the following preferences for newly created projects associated
   </tr> 
   <tr> 
    <td role="rowheader">Calculate Percent Complete based on</td> 
-   <td> <p>The percent complete of a project or parent task is based on the overall progress of the tasks. This information can be calculated based on either the Duration or the Planned Hours of the tasks on a project.</p> <p>If you select Duration, the Duration of each task in a project determines the overall percent complete for the project, and the Duration of each subtask determines the overall percent complete for its parent task.</p> <p>If you select Duration, make sure you specify the<strong>Typical hours per work day</strong> and <strong>Typical work days per week</strong> in the <strong>Timelines</strong> section. Workfront uses this information when calculating a task's percent complete based on Duration. </p> <p>If you select Planned Hours, ensure that all tasks on each project have the amount of Planned Hours defined, and that the amount is not zero.</p> </td> 
+   <td> <p>The percent complete of a project or parent task is based on the overall progress of the tasks. This information can be calculated based on either the Duration or the Planned Hours of the tasks on a project.</p> <p>If you select Duration, the Duration of each task in a project determines the overall percent complete for the project, and the Duration of each subtask determines the overall percent complete for its parent task.</p> <p>If you select Duration, make sure you specify the Typical hours per work day and Typical work days per week in the Timelines section. Workfront uses this information when calculating a task's percent complete based on Duration. </p> <p>If you select Planned Hours, ensure that all tasks on each project have the amount of Planned Hours defined, and that the amount is not zero.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Automatically set the project's Condition based on the Progress Status</td> 
@@ -109,7 +113,7 @@ Configure any of the following preferences for newly created projects associated
    <td> <p>The Performance Index Method (PIM) for the project controls the method Workfront uses to calculate Earned Value metrics such as Cost Performance Index (CPI) and Estimate At Completion (EAC). For more information, see <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calculate Cost Performance Index (CPI)</a>and <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate Estimate At Completion (EAC)</a></p> 
     <ul> 
      <li><strong>Hour-based</strong>: Workfront uses Planned Hours to calculate performance metrics like EAC and CPI. When the PIM is calculated based on hours, the EAC displays as a number of hours. Ensure that you have a value for Planned Hours, other than zero.</li> 
-     <li> <p><strong>Cost-based</strong>: Workfront uses Planned Labor Cost to calculate performance metrics like EAC and CPI. Ensure that your job roles or users are associated with Cost per Hour rates. When the PIM is calculated based on Costs, the EAC displays as a currency value.</p> <p>The project manager can modify this setting at the project level, using the Finance sub-tab of the Project Details tab.For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project Finance area</a>.</p> </li> 
+     <li> <p><strong>Cost-based</strong>: Workfront uses Planned Labor Cost to calculate performance metrics like EAC and CPI. Ensure that your job roles or users are associated with Cost per Hour rates. When the PIM is calculated based on Costs, the EAC displays as a currency value.</p> <p>The project manager can modify this setting at the project level, using the  Finance sub-tab of the Project Details tab .For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project Finance area</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -117,7 +121,7 @@ Configure any of the following preferences for newly created projects associated
    <td> <p>Determine which data Workfront uses to calculate the Estimate at Completion (EAC) which represents the projected total cost of a project.</p> 
     <ul> 
      <li><strong>Calculate at project level</strong>:EAC for the parent task and project are determined by entering Actual Hours or Actual Labor Cost in the EAC Formulas. This calculation includes Actual Hours or Costs and Expenses added directly to the parent task or project.</li> 
-     <li> <p><strong>Roll up from tasks/subtasks</strong>: EAC for the parent task and project are determined by summing up the EAC for each child task. This calculation excludes Actual Hours or Actual Costs and Expenses added directly to the parent task or project.</p> <p>The project manager can modify this setting at the project level, using the Finance sub-tab of the Project Details tab.For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project Finance area</a>.</p> </li> 
+     <li> <p><strong>Roll up from tasks/subtasks</strong>: EAC for the parent task and project are determined by summing up the EAC for each child task. This calculation excludes Actual Hours or Actual Costs and Expenses added directly to the parent task or project.</p> <p>The project manager can modify this setting at the project level, using the  Finance sub-tab of the Project Details tab .For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project Finance area</a>.</p> </li> 
     </ul> <p>For more information on how the EAC calculates, see <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate Estimate At Completion (EAC)</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +189,7 @@ Configure any of the following preferences for newly created projects associated
     </ul> 
     <ul> 
      <li><strong>Typical work days per week</strong>: Set the standard workweek for the users who will be working on projects. The default is 5 days.</li> 
-    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days.</p> <p>From the <strong>Typical work days per week</strong> field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users.</p> <!--
+    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, Workfront converts those hours into days in order to show the Duration as days.</p> <p>From the Typical work days per week field, Workfront calculates the Full Time Equivalent (FTE) value for your system. This is what Workfront uses when calculating allocations for users.</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For more information about the FTE, see <a href="../../../resource-mgmt/legacy-res-planning/legacy-fte.md" class="MCXref xref" data-mc-variable-override="">Overview of FTE in the Legacy&nbsp;Resource Management tools</a>.</p>
     --> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Configure timesheet and hour preferences</a>.</p> <p>Note: Workfront administrators cannot unlock Timeline Calculations preferences.</p> </td> 
   </tr> 
@@ -200,7 +204,7 @@ Configure any of the following preferences for newly created projects associated
 
 You can create a Business Case for newly created projects associated with the group to submit project requests. You can define preferences to determine which areas are visible on the **Business Case** form. We recommend that you enable these options so that other tools, such as the Portfolio Optimizer, update properly. For more information about what each field displays, see [Define a Business Case](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
-After the Workfront administrator enables the sections on the Business Case, a Project Owner can then create a Business Case at the project level. For information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+After the Workfront administrator enables the sections on the Business Case, a Project Owner can then create a Business Case at the project level. For information about creating a Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Life After Death  {#life-after-death}
 
@@ -222,15 +226,15 @@ Configure any of the following preferences for newly created projects associated
    <td role="rowheader"> <p><strong>After a Project is marked Complete, Dead, or it is Pending Approval, people can still</strong> </p> </td> 
    <td> <p>Determine the rules for your organization (or group, if you are configuring project preferences for a group) regarding what happens to tasks, issues, documents, and other objects in a project after the project status has been marked <strong>Complete</strong>, <strong>Dead</strong>, or is <strong>Pending Approval</strong>.</p> 
     <ul> 
-     <li><strong>Add and edit tasks</strong> Allows users to:
-      <ul>
-       <li>Edit tasks within a project after the project has been marked Complete, Dead, or is Pending Approval. This includes adding hours and changing expense entries on a task.</li>
-       <li>Add tasks to a project.</li>
+     <li><strong>Add and edit tasks</strong> Allows users to: 
+      <ul> 
+       <li>Edit tasks within a project after the project has been marked Complete, Dead, or is Pending Approval. This includes adding hours and changing expense entries on a task.</li> 
+       <li>Add tasks to a project.</li> 
       </ul></li> 
-     <li><strong>Add and edit issues</strong>: Allows users to:
-      <ul>
-       <li>Edit issues within a project after the project has been marked Complete, Dead, or Pending Approval.</li>
-       <li>Add issues to a project after the project has been marked Complete or Dead. (You cannot add issues to a project that is Pending Approval.)</li>
+     <li><strong>Add and edit issues</strong>: Allows users to: 
+      <ul> 
+       <li>Edit issues within a project after the project has been marked Complete, Dead, or Pending Approval.</li> 
+       <li>Add issues to a project after the project has been marked Complete or Dead. (You cannot add issues to a project that is Pending Approval.)</li> 
       </ul></li> 
      <li> <p><strong>Add documents to the project and to its tasks and issues</strong>: Allows users to add documents to a project (or to add documents to tasks and issues within the project) after the project has been marked Complete or Dead.<br></p> <p>This option does not apply to projects that are pending approval.</p> </li> 
      <li> <p><strong>Attach templates</strong>: Allows users to attach templates to a project after the project has been marked Complete or Dead.<br></p> <p>This option does not apply to projects that are pending approval.</p> </li> 

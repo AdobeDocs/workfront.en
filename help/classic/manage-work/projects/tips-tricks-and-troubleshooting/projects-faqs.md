@@ -2,6 +2,10 @@
 
 # Projects FAQs
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The following are frequently asked questions about projects.
 
 ## Why is Insert Task Above/ Below missing when I right-click on a task in the task list?
@@ -81,3 +85,12 @@ The following are Budget Statuses:
 * Included but Not Calculated - The project is added to the Capacity Planner but is excluded from the budget calculation.
 * Included and Calculated - The project is added to the Capacity Planner and included in the budget calculation.
 
+## Why can I not share a project for which I am the Owner and where I have Manage permissions with a Team? I simply cannot find the team in the sharing dialog box of the project.
+
+### Answer
+
+The Adobe Workfront administrator restricted you to viewing only Companies, Groups & Teams that you belong to in your Access Level of the. The team that the you are looking for is not one of the teams that you belong to.
+
+![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+
+For information about enabling a user to view all teams in the system, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

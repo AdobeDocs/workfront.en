@@ -8,6 +8,10 @@ description: You can create dashboards to quickly access information in reports,
 
 # Create a dashboard
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can create dashboards to quickly access information in reports, calendars, and external pages.
 
 To learn more about dashboards, see [Get started with dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
@@ -39,7 +43,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>You will obtain Manage permissions to the new dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.<br>For more information on permissions for dashboards, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars in Adobe Workfront</a>.</p> </td> 
+   <td> <p>You will obtain Manage permissions to the new dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br>For more information on permissions for dashboards, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,6 +93,12 @@ You must create any of the following objects before you can add them to a dashbo
    The single-column layout is the default.
 
    For information about report layout on dashboards, see [Understand how reports display on a dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: Consider adding the information from this article here, at some point, instead of linking to it.)
+   </MadCap:conditionalText>
+   -->
 
 1. Add existing reports, calendars, or external pages by searching for them in the **Search by name or type ...** field, then dragging them to the layout pane, when they appear in the list.
 

@@ -24,7 +24,7 @@ You can import the exported data in the following ways:
 
 * Manually, if you are using exported reports 
 * In bulk, if you are using Kick-Starts  
-  For more information about importing data into Workfront using Kick-Starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  For more information about importing data into Workfront using Kick-Starts, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 The Preview Sandbox environment is refreshed during our maintenance windows over the weekend.
 

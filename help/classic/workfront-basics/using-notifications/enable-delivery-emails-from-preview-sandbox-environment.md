@@ -2,10 +2,18 @@
 filename: enable-delivery-emails-from-preview-sandbox-environment
 navigation-topic: notifications
 title: Enable delivery of emails from the Preview Sandbox environment
-description: Adobe Workfront disables all email communication from both the Preview and the Custom Refresh Sandbox environments. For information about the Preview Sandbox environment, see The Adobe Workfront Preview Sandbox Environment. For information about the Custom Refresh Sandbox environment, see The Adobe Workfront Custom Refresh Sandbox environment.
+description: Keep the text in this article highlighted in yellow always
 ---
 
 # Enable delivery of emails from the Preview Sandbox environment
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Keep the text in this article highlighted in yellow always</p>
+-->
 
 Adobe Workfront disables all email communication from both the Preview and the Custom Refresh Sandbox environments. For information about the Preview Sandbox environment, see [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md). For information about the Custom Refresh Sandbox environment, see [The Adobe Workfront Custom Refresh Sandbox environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 

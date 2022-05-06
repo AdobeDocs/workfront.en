@@ -4,7 +4,7 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Filters overview in Adobe Workfront (draft)
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: (NOTE: CONTENT LAST COPIED TO the filters-overview.htm article on 9/23/21)
 hidefromtoc: true
 ---
 
@@ -14,6 +14,13 @@ hidefromtoc: true
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (draft)
 </MadCap:conditionalText>
+-->
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: CONTENT LAST COPIED TO the filters-overview.htm article on 9/23/21)</p>
+<p>(NOTE: Keep this as a draft. The content here will replace the content in "Filters overview"; that article stays as the current (live) "Filters overview" article because it has all the links to the right articles make changes here when you make changes in the other article) </p>
+</div>
 -->
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
@@ -65,7 +72,7 @@ For more information about filters in lists and reports, see the following artic
 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) 
-* [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) 
+* [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) 
 * 
 
   <!--
@@ -110,19 +117,23 @@ You can use either built-in filters or build custom filters in the following are
 
 * Scenario Planner
 
-  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+  The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
   >[!TIP]
   >
   >You cannot customize filters in theScenario Planner.
 
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: tip above: this might change with the beta filters??)</p>
+  -->
+
   You can use built-in filters for plans, initiatives, or projects and you can customize project filters in the Scenario Planner.
 
   For information, see the following articles:
 
-   * [Create and edit plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-plans.md) 
-   * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md) 
-   * [Import projects to plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
+   * [Create and edit plans in the Scenario Planner](../../../scenario-planner/create-and-edit-plans.md) 
+   * [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md) 
+   * [Import projects to plans in the Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
 
 * Goals
 
@@ -164,7 +175,7 @@ Consider the following when working with filters in lists or reports:
   >
   >Keep in mind if you make changes to a filter you have shared with others the changes impact them as well.
 
-* You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Elements of a filter
 
@@ -278,6 +289,12 @@ For example, if you have a field with 3 options (A, B, and C), and select 2 of t
 ## **Limitations about joining multiple filter rules**
 
 You can reference only five objects, excluding the object of the report, when you build a filter in Workfront.&nbsp;
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: does this limitation still stand with beta filters??)&nbsp;
+</MadCap:conditionalText>
+-->
 
 When you reach this limit within the builder, you can select fields that belong only to these six objects. You receive a warning when you have reached this limit.&nbsp;
 

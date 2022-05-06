@@ -20,7 +20,7 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Create and use templates in your Workfront Fusion scenarios</h2>
 <p>To help you create scenarios with more speed and consistency, we've introduced Templates into Workfront Fusion. Now you can create templates for your common scenarios and share them with your team, or make them public for anyone in your organization to use. You can create these template from scratch, or you can create them from existing scenarios. You can even set up an in-template wizard that helps your users understand how to use the template.</p>
-<p>For more information, see <a href="../../../workfront-fusion/scenarios/templates/fusion-templates.md" class="MCXref xref" xrefformat="{para}">Scenario Templates</a>.</p>
+<p>For more information, see <a href="../../../workfront-fusion/scenarios/templates/fusion-templates.md" class="MCXref xref" xrefformat="{para}"> Scenario Templates</a>.</p>
 </div>
 -->
 

@@ -8,7 +8,7 @@ title: Scenario Templates
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-# Scenario Templates
+#  Scenario Templates
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 Workfront Fusion's Templates feature allows you to create and use existing templates as a starting point for your Workfront Fusion scenarios.

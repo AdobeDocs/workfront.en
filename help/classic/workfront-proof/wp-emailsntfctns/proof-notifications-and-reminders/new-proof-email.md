@@ -12,6 +12,10 @@ description: Make this article work better for PiW.
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
@@ -28,7 +32,7 @@ The email your recipients receive is called the New Proof email. Only the proof 
 The New proof email contains:
 
 * Your personal message (if you choose to include one)  
-* If you always send the same custom message to your reviewers, it might be a good idea to save it in your Personal settings under the Proofing defaults tab. For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+* If you always send the same custom message to your reviewers, it might be a good idea to save it in your Personal settings under the Proofing defaults tab. For more information, see .
 * Personal link to the proof
 * **View details** link that takes you to the associated Workfront object (such as a project, task, or issue)
 * Thumbnail of the proof image
@@ -58,8 +62,8 @@ Sending a New Proof email to a reviewer is logged in the Activity section of Pro
 
 >[!NOTE]
 >
->* If the Creator or Owner of the proof has Proof Made emails disabled by default (in their personal settings), they won't receive any Proof made or New proof emails even if the Notify people by email box is checked on the New proof page. For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
->* If the email notifications are disabled as a default in the Account settings&nbsp;the Creator / Owner of the proof won't receive any Proof made or New proof emails even if this is enabled in their personal settings and the Notify people by email box is checked on the New proof page.&nbsp;For more information, [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) and see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+>* If the Creator or Owner of the proof has Proof Made emails disabled by default (in their personal settings), they won't receive any Proof made or New proof emails even if the Notify people by email box is checked on the New proof page. For more information, see .
+>* If the email notifications are disabled as a default in the Account settings&nbsp;the Creator / Owner of the proof won't receive any Proof made or New proof emails even if this is enabled in their personal settings and the Notify people by email box is checked on the New proof page.&nbsp;For more information, [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) and see .
 >
 
 ## Enable the New Proof email and include a custom message
@@ -80,7 +84,7 @@ When you are creating a new proof in the New proof page, under the **Share** sec
 
   >[!NOTE]
   >
-  >If you always send the same custom message to your reviewers, it might be a good idea to save it in your Personal settings under the Proofing defaults tab. For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+  >If you always send the same custom message to your reviewers, it might be a good idea to save it in your Personal settings under the Proofing defaults tab. For more information, see .
 
 ![New_Proof_page_1.png](assets/new-proof-page-1-350x186.png)
 

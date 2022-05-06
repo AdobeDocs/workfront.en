@@ -259,7 +259,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p> Do one of the following: </p> 
     <ul> 
      <li> Select <strong>Thumbnail</strong> &nbsp;to view a 33-66 pixel-wide thumbnail in the report. </li> 
-     <li>Select <strong>Large Thumbnail</strong>to view a 400 pixel-wide thumbnail in the report.</li> 
+     <li>Select <strong>Large Thumbnail</strong> to view a 400 pixel-wide thumbnail in the report.</li> 
     </ul> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> </td> 
   </tr> 
   <tr> 

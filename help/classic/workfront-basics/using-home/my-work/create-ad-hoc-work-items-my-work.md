@@ -2,10 +2,18 @@
 filename: create-ad-hoc-work-items-my-work
 navigation-topic: my-work
 title: Create ad hoc work items
-description: An ad hoc work item is a task or issue created in My Work. You have the following options for creating ad hoc tasks or issues in Adobe Workfront:
+description: (NOTE: Don't delete this Don't delete this one, it points to :- the Slack article of creating tasks and issues from Slack.- the Creating Ad-Hoc tasks in the Creating Tasks section: https://workfront.zendesk.com/hc/en-us/articles/216743198)
 ---
 
 # Create ad hoc work items
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Don't delete this Don't delete this one, it points to :- the Slack article of creating tasks and issues from Slack.- the Creating Ad-Hoc tasks in the Creating Tasks section:&nbsp;https://workfront.zendesk.com/hc/en-us/articles/216743198)</p>
+-->
 
 An ad&nbsp;hoc work item is a task or issue created in My Work.&nbsp; You have the following options for creating ad hoc tasks or issues in Adobe Workfront:
 

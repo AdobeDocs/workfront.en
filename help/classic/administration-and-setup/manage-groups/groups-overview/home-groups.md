@@ -9,6 +9,10 @@ description: A Home Group is assigned in the user's profile. All users are requi
 
 # Home Groups overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 A Home Group is assigned in the user's profile. All users are required to have a Home Group. A user can belong to more than one group, but they can have only one Home Group. For more information about Groups, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 Although any existing group in the system can be assigned as a user's Home Group, we recommend creating and assigning new groups that represent larger organizational units.

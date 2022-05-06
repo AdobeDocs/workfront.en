@@ -3,10 +3,14 @@ filename: set-up-report-deliveries
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Report delivery overview
-description: You can schedule reports to be automatically delivered to users on a defined schedule, or you can send reports on one-time basis, manually. When you send a report from Adobe Workfront, the user receives an email with the Workfront report in a separate attachment.
+description: (NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link)
 ---
 
 # Report delivery overview
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link) </p>
+-->
 
 You can schedule&nbsp;reports to&nbsp;be automatically delivered to users on a defined schedule, or you can send reports on one-time basis, manually. When you send a report from Adobe Workfront, the user receives an email with the Workfront report in a separate attachment.
 
@@ -16,6 +20,10 @@ You cannot schedule reports for delivery, nor deliver them manually in the Previ
 For more information about delivering reports in the Preview Sandbox environment, see the article [Send a report in the Preview Sandbox environment](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
 
 ## Report delivery limits
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+-->
 
 Consider the following when scheduling reports for delivery:
 
@@ -69,6 +77,10 @@ Additionally, reports that take longer than 60 minutes to run will be halted.
 If you have concerns or issues regarding your limit, please contact Workfront Technical Support.
 
 ## Understand time stamps on delivered reports
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Note about if this is delivered at a time based on the user's time zone settings?)</p>
+-->
 
 When receiving a report in an email, the time stamp and time format on the report might not match those in Workfront, if you were to view the report in Workfront at the same time that it was delivered.&nbsp;
 

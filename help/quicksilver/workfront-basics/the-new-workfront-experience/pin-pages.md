@@ -2,12 +2,10 @@
 filename: pin-pages
 navigation-topic: the-new-workfront-experience
 title: Pin pages to customize your workspace in the new Adobe Workfront experience
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can pin your most important work in the new Adobe Workfront experience for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in the new Adobe Workfront experience.
 ---
 
 # Pin pages to customize your workspace in the new Adobe Workfront experience
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can pin your most important work in the new Adobe Workfront experience for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in the new Adobe Workfront experience.
 
@@ -56,15 +54,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   If you have many pages pinned, you might need to click the **More menu** ![](assets/more-icon.png) 
-
-   <!--
-   <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <img src="assets/more-icon-spectrum.png">
-   </MadCap:conditionalText>
-   -->
-
-   to view additional pinned pages.
+   If you have many pages pinned, you might need to click the **More menu** ![](assets/more-icon-spectrum.png) to view additional pinned pages.
 
    The pinned page displays.
 
@@ -72,23 +62,11 @@ You must have the following access to perform the steps in this article:
 
 You can rearrange the order that pinned pages appear.
 
-1. Click the pinned page in the top navigation, then drag it to the desired order.
-
-   <!--
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">Hover over the pinned page in the top navigation. When you see the hand cursor, then click and drag the pin to the desired order.</p>
-   -->
+1. Hover over the pinned page in the top navigation. When you see the hand cursor, then click and drag the pin to the desired order.
 
    >[!NOTE]
    >
-   >You can't reorder pinned pages that are in the **More menu** ![](assets/more-icon-40x30.png)   >
-   >
-   ><!--   >
-   ><MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
-   ><img src="assets/more-icon-spectrum.png">   >
-   ></MadCap:conditionalText>   >
-   >-->   >
-   >
-   >.
+   >You can't reorder pinned pages that are in the **More menu** ![](assets/more-icon-spectrum.png).
 
    Your changes automatically save and are remembered the next time you access the new Adobe Workfront experience.
 
@@ -97,17 +75,15 @@ You can rearrange the order that pinned pages appear.
 1. Click on the pinned page that you want to unpin.
 1. Click **Unpin current page** at the top of the screen.
 
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <p>Or</p>
-   <p>Hover over the pinned page that you want to unpin, and click the X next to the pin name.</p>
-   <p> <img src="assets/unpinpage-withx.png" alt="Unpin page"> </p>
-   </div>
-   -->
+   Or
+
+   Hover over the pinned page that you want to unpin, and click the X next to the pin name.
+
+   ![Unpin page](assets/unpinpage-withx.png)
 
    The page is no longer accessible from the top of any page in the new Adobe Workfront experience.
 
    <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p class="preview">Click the arrow next to the pin name and select <strong>Unpin</strong>.</p> <p class="preview"> <img src="assets/unpinpage.png" class="preview" alt="Unpin page"> </p> <p class="preview">The page is no longer accessible from the top of any page in the new Adobe Workfront experience.</p> </li>
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the arrow next to the pin name and select <strong>Unpin</strong>.</p> <p> <img src="assets/unpinpage.png" class="preview" alt="Unpin page"> </p> <p>The page is no longer accessible from the top of any page in the new Adobe Workfront experience.</p> </li>
    -->
 

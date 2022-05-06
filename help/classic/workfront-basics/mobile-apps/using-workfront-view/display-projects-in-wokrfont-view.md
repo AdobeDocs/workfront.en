@@ -9,6 +9,10 @@ description: By default, the list of projects displayed in Adobe Workfront View 
 
 # Display projects in Adobe Workfront View
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 By default, the list of projects displayed in Adobe Workfront View shows the most recent 100 active projects. The list of projects is not grouped by any criteria.
 
 ## Access requirements

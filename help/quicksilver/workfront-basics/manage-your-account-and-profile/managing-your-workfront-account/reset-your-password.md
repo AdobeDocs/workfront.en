@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.
 
-   ![](assets/nwe-open-profile-from-main-menu-350x564.png)
+   ![Open the main menu and select your user name.](assets/main-menu-options-350x481.png)
 
 1. Click the **More menu** ![](assets/more-icon.png), then click **Edit**.
 

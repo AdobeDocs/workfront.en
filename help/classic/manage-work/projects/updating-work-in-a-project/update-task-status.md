@@ -8,6 +8,10 @@ description: You can update a task's status to inform others about where the tas
 
 # Update task status
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can update a task's status to inform others about where the task is (and the overall project) and how it is progressing.
 
 The default statuses are New, In Progress, and Complete. Your Adobe Workfront administrator can add custom statuses for your organization. For more information, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
@@ -36,7 +40,7 @@ You must have the following access to manually update tasks:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,12 +62,12 @@ When you are updating a task status, you can also type an explanation about the 
 1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
 
    * To add a note about the update, go to the **Updates** tab and click **Start a new update**, then type your note.  
-     ![](assets/start-a-new-update-350x88.png)
+     ![](assets/start-a-new-update-350x124.png)
 
    * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update.
    * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
    
-   * To provide a visual indication of task completion, drag or double-click the bubble under Percent Complete.   
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
      ![](assets/drag-the-progress-bar-350x155.png)
 
 ## Automatically update task status

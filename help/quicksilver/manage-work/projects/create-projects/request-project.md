@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
    * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**.  
    * Go to a portfolio, then expand **New Project**. 
    * Go to a program, then expand **New Project**. 
-   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](view-manage-projects-groups-area.md).
+   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Click&nbsp;**Request Project**.
 
@@ -63,11 +63,11 @@ You must have the following access to perform the steps in this article:
 
    * Follow the same steps as for creating a project while defining a Business Case. (recommended)
 
-     For information about defining a Business Case and requesting a project, see [Creating a Business Case](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     For information about defining a Business Case and requesting a project, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
    * Create a project from scratch or using a template and change the status to&nbsp;**Requested**.
 
-     For information about creating a project, see [Creating a Project](../../../manage-work/projects/create-projects/create-project.md) or [Creating a Project Using a Template](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     For information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md) or [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
    The project you request has a status of&nbsp;**Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio. A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.
 

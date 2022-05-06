@@ -9,6 +9,10 @@ description: Use the Adobe Workfront mobile app virtual assistant to locate, del
 
 # Adobe Workfront mobile app virtual assistant
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Use the Adobe Workfront mobile app virtual assistant to locate, delete, and search for information inside of Workfront. In addition, you can pin virtual assistant commands and queries to access the results at any time.
 
 ## Available commands

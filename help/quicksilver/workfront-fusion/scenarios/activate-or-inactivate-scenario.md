@@ -3,15 +3,15 @@ filename: activate-or-inactivate-scenario
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Activate or deactivate a scenario
+title: Activate or deactivate a scenario in Adobe Workfront Fusion
 description: You can work with scenarios either in an active or an inactive state:
 ---
 
-# Activate or deactivate a scenario
+# Activate or deactivate a scenario in Adobe Workfront Fusion
 
 You can work with scenarios either in an active or an inactive state:
 
-* An active scenario executes periodically according to its defined schedule, as explained in [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+* An active scenario executes periodically according to its defined schedule, as explained in [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
   This is useful when you want to automate the function of a scenario.
 

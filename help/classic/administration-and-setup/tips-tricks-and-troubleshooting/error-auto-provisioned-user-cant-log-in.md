@@ -10,6 +10,10 @@ description: When an auto-provisioned user tries to log in for the first time, t
 
 # Error: Auto-provisioned user can't log in
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When an auto-provisioned user tries to log in for the first time, the receive the following error:
 
 ## Problem
@@ -20,7 +24,7 @@ By default,&nbsp;auto-provisioning uses the Request license type. When no access
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

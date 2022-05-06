@@ -4,10 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Restore deleted items
-description: If you are a Workfront administrator, you can restore projects, tasks, issues, documents, and templates in Adobe Workfront if they have been deleted in the past 30 days. After 30 days, these items are permanently deleted and cannot be restored.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Restore deleted items
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 If you are a Workfront administrator, you can restore projects, tasks, issues, documents, and templates in Adobe Workfront if they have been deleted in the past 30 days. After 30 days, these items are permanently deleted and cannot be restored.
 
@@ -131,7 +139,7 @@ When you restore a project, task, or issue, the following associated information
    If you delete a parent task, only the parent task shows in the list. But all child tasks are restored when you restore a parent task.
 
 1. Click **Restore** to restore the selected items to their original location.
-1. (Optional) To quickly view the restored item, follow the steps in [View restored items](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+1. (Optional) To quickly view the restored item, follow the steps in [View restored item](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
    For more information about what happens after you restore an item, see [What happens after you restore items](#what-happens-after-you-restore-items) in this article.
 
@@ -151,3 +159,6 @@ When you restore a project, task, or issue, the following associated information
 
      This does not happen when you restore a document.
 
+## Restored proofs
+
+At this time, when someone restores a document that has a proof, the Proofing Activities page for the proof might display the name of the first active Workfront administrator listed for your organization's instance (in order of profile ID) instead of actual person who restored the proof.

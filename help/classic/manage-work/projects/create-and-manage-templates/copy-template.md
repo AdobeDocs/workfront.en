@@ -8,6 +8,10 @@ description: Rather than creating a new project template from scratch, you can c
 
 # Copy a project template
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Rather than creating a new project template from scratch, you can copy an existing template and make changes to that, if needed.
 
 ## Access requirements
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,7 +49,7 @@ You must have the following access to perform the steps in this article:
 1. Click**Template Actions**, then click **Copy Template.** 
 1. Specify a name for the template in the **New Template Name** field.
 
-   By default, the new name is**Copy of Name of Template.**
+   By default, the new name is**Copy of <original template name>.**
 
    ![](assets/cat-350x230.png)
 

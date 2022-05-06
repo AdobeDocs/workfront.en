@@ -12,6 +12,10 @@ description: At the top of the screen in the Enhanced analytics area, 4 key perf
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >A Business plan or higher is required to use this feature.  
 >For more information about the various plans available, see [Adobe Workfront Plans](https://www.workfront.com/plans).
 

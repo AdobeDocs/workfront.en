@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the portfolio</p> <p>Manage permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the portfolio</p> <p>Manage permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 1. <![CDATA[ ]]>Go to a portfolio, then click **Projects** in the left panel.
 
-   ![](assets/qs-portfolio-with-projects-350x64.png)
+   ![](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Click **New Project** and select a method for adding a project.
 
@@ -85,7 +85,12 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **Add Projects** box, then click them when they appear in the list. You may add several projects at a time. 
+   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+
+1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **Add Projects** box, then click them when they appear in the list. You may add several projects at a time.
+
+   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+
 1. Click **Add Projects**.
 
    The project or projects you selected are now associated with the portfolio.&nbsp;

@@ -8,6 +8,10 @@ description: The following notifications let you know about requests you have ma
 
 # Notifications: Requests I have made
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The following notifications let you know about requests you have made in Adobe Workfront.
 
 For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
@@ -50,12 +54,12 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   <tr> 
    <td> <p><strong>I add an issue to a project</strong> </p> <p>The primary contact on an issue receives a notification when he or she adds an issue in a project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>The subject of the instant notification email is: <em>Issue submitted: &lt;Issue Name&gt; on &lt;Project Name&gt;</em></p> <p>The subject of the daily digest notification is:<em> Digest of your Requests &lt;Date of the daily digest&gt;</em></p> </td> 
    <td> Project Name<br>Portfolio Name<br>Issue Reference Number<br>Your Name<br>Issue Name<br>Date Entered<br>Issue Priority<br>Issue Status<br>Assigned To Name<br>Primary Contact<br>*Project Name<br>*Project Reference Number<br>*Total number of issues added<br>*Issue Name<br>*Date of daily digest </td> 
-   <td> <p><strong>Instant</strong> </p> <p><strong>and</strong><strong>Daily</strong> </p> </td> 
+   <td> <p><strong>Instant</strong> </p> <p><strong>and Daily</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>I submit a request (confirmation)</strong> </p> <p>The Primary Contact on the issue receives an email notification when he or she submits an issue.</p> <p>A notification is sent only if the project status is Current and if the project is set up as a Help Request Queue (as described in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>).</p> <p>The subject of the instant notification email is: <em>Request Submitted: &lt;Request Name&gt; on &lt;Project (Request Queue) Name&gt;</em></p> <p>The subject of the daily digest notification is:<em> Digest of your Requests &lt;Date of the daily digest&gt;</em></p> </td> 
    <td> <p>Project Name (Request Queue Name)<br>Portfolio Name<br>Issue Reference Number<br>Issue Name<br>Date Entered<br>Issue Priority<br>Issue Status<br>Assigned To Name<br>Primary Contact<br>*Project Reference Number<br>*Project Name<br>*Total number of requests submitted<br>*Request Name<br>*Request Priority<br>*Date of daily digest</p> </td> 
-   <td> <p><strong>Instant</strong> </p> <p><strong>and</strong><strong>Daily</strong> </p> </td> 
+   <td> <p><strong>Instant</strong> </p> <p><strong>and Daily</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>My request is closed (confirmation)</strong> </p> <p>The issue's primary contact receives an email notification when the request is closed.</p> <p>A notification is sent only if the project status is Current and if the project is set up as a Help Request Queue (as described in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>).</p> <p>The subject of the instant notification email is: <em>Your request has been closed:"&lt;Request Name&gt;"</em></p> <p>The subject of the daily digest notification is:<em> Digest of your Requests &lt;Date of the daily digest&gt;</em></p> </td> 

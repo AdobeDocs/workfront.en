@@ -309,7 +309,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   --> 
   <tr> 
    <td>Business Case</td> 
-   <td> <p>A tool used to evaluate whether a project should be moved forward from the Idea status to the Planning status. In other words, a business case helps the organization decide whether it is worthwhile to launch and complete the project or not, especially when comparing projects with others in a portfolio.</p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.</p> </td> 
+   <td> <p>A tool used to evaluate whether a project should be moved forward from the Idea status to the Planning status. In other words, a business case helps the organization decide whether it is worthwhile to launch and complete the project or not, especially when comparing projects with others in a portfolio.</p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

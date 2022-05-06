@@ -10,6 +10,10 @@ hidefromtoc: true
 
 # Configure the Done button for issues if no team is assigned
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Clicking the Done button on an issue updates the status for the issue. By default, the Done button marks an issue as Resolved. Users with certain permissions can configure the Done button to reflect certain statuses in the system. The primary way to configure statuses for the Done button is through the Home Team. For more information, see [Configure the Done button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
 If the user does not have a Home Team assigned, the Done button for issues is tied to a system-generated Resolved status that has the three-letter code RLV. System administrators can delete the Resolved (RLV) status if they wish, though this is not recommended.

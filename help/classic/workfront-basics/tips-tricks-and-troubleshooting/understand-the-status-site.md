@@ -4,6 +4,10 @@
 
 ## Overview of the Status site
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can view the health of the Workfront platform, including incidents, scheduled maintenance windows, and the current status of all Workfront clusters by accessing the Workfront Status site.&nbsp;
 
 You have access to the following information on the Status site:

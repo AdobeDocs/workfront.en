@@ -17,7 +17,7 @@ You can view role allocation for all job roles assigned to work items in a proje
 >* [Show role allocation for projects and initiatives in the task list](../../../scenario-planner/show-role-allocation-task-list-nwe.md) 
 >* [Show role allocation for projects and initiatives in the Workload Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md) 
 >
->  You must have a Scenario Planner license in order to see initiative hours in the Role Allocation panel.&nbsp;For information about the Scenario Planner, see [Get started with the Adobe Workfront Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md) . 
+>  You must have a Scenario Planner license in order to see initiative hours in the Role Allocation panel.&nbsp;For information about the Scenario Planner, see [Get started with the Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md) . 
 >
 
 ## Access requirements
@@ -42,7 +42,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

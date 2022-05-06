@@ -6,12 +6,16 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: SOAP module
-description: You can use the SOAP module to connect to SOAP APIs.
+description: You can use the SOAP module to connect to SOAP APIs in Adobe Workfront Fusion.
 ---
 
 # SOAP module
 
-You can use the SOAP module to connect to SOAP APIs.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+You can use the SOAP module to connect to SOAP APIs in Adobe Workfront Fusion.
 
 ## Access requirements
 

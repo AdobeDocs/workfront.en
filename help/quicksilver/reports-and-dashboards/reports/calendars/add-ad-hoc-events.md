@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage access to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 1. Within the calendar, go to the date to which you want to add an ad-hoc event, then click the starting date for your event.
 1. Enter the event name and, if desired, select a color for the event.
 1. (Conditional) If your ad-hoc event takes place over several days, check **This will span multiple days**, then select the ending date from the pop-up calendar.  
-   ![calendar_report_-_span_multiple_days.png](assets/calendar-report---span-multiple-days-350x247.png)
+   ![calendar_report_-_span_multiple_days.png](assets/calendar-report---span-multiple-days-350x266.png)
 
 1. Click **Save.**
 1. (Optional) To modify an ad-hoc event:

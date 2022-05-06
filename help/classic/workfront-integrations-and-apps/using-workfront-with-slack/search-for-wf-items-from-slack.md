@@ -8,6 +8,10 @@ description: You can search for Adobe Workfront items from Slack, if your instan
 
 # Search for Adobe Workfront items from Slack
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can search for Adobe Workfront items from Slack, if your instance of Slack has had the Workfront app installed.&nbsp;
 
 For more information about configuring Workfront with Slack, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).

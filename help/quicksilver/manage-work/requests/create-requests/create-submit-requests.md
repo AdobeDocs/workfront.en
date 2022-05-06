@@ -10,6 +10,16 @@ description: The highlighted information on this page refers to functionality no
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE:&nbsp;If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
+
+&nbsp;
+
 Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues.&nbsp;
 
 After you create a request in a Request Queue, you can either assign it to be completed or you can convert it to a task or a project.   
@@ -80,7 +90,7 @@ You can continue submitting the request, or you can complete as much information
 >
 >Consider the following when working with drafts:
 >
->* Workfront does not create draft requests when you submit them from a third-party application, like emailing them into Workfront, or creating them using any another application. When you submit a request from outside the Workfront web app the request is saved in  the Submitted section. 
+>* Workfront does not create draft requests when you submit them from a third-party application, like emailing them into Workfront, or creating them using any another application. When you submit a request from outside the Workfront web app the request is saved in  the Submitted section.  
 >* If the structure of a request queue changes, you can no longer access existing drafts.&nbsp;For example, if a queue topic is removed, or a topic group is added, the saved drafts are no longer accessible. 
 >
 
@@ -175,7 +185,7 @@ To create a request in the Workfront web app:&nbsp;
 
    * Start entering a new request in the selected queue.
 
-     A new draft automatically saves for you in the Drafts section after you start entering information for the new request and you give the request a name in the Subject field.
+     A new draft automatically saves for you in the Drafts  section  after you start entering information for the new request and you give the request a name in the Subject field.
 
 1. (Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue&nbsp;Topic.
 
@@ -243,7 +253,7 @@ To create a request in the Workfront web app:&nbsp;
       <td> <p><span>Specify the name of an active user, job role, or a team that the request should be assigned to.&nbsp;</span> </p> <p>Tip: <span>You can specify only one team.</span> </p> <p><span>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three.</span> </p> <p><span>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader" colspan="2"> <p>Note:  <p style="font-weight: normal;">* Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
+      <td role="rowheader" colspan="2"> <p>Note:   <p style="font-weight: normal;">* Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
         <ul> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a> </p> </li> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> <br> </p> </li> 
@@ -280,11 +290,11 @@ To create a request in the Workfront web app:&nbsp;
 
 1. Do one of the following:
 
-   * Click ```**Submit**``` if you are ready to submit the request. The request is saved in the Submitted section . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Click ```**Submit**``` if you are ready to submit the request. The request is saved in the  Submitted section  . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Or
 
-     ```C``` ```lick **Close** if you are not quite ready to submit it and you might come back and finish it later```. Your request is saved in the Drafts section and it will be available to you next time you submit a request for this request queue.
+     ```C``` ```lick **Close** if you are not quite ready to submit it and you might come back and finish it later```. Your request is saved in the Drafts  section and it will be available to you next time you submit a request for this request queue.
 
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 

@@ -18,18 +18,23 @@ For information about the latest enhancements with Workfront Fusion, see [Adobe 
 For reference information about various aspects and features found in Workfront Fusion, see any of the following Help sections:
 
 * [Get started with Adobe Workfront Fusion](../workfront-fusion/get-started/get-started.md) 
-* [Adobe Workfront Fusion basics](../workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md) 
+* [Adobe Workfront Fusion basics](../workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion in the Adobe Admin Console</a> </li>
+  -->
+
 * [Connections in Adobe Workfront Fusion](../workfront-fusion/connections/connections.md) 
-* [Scenarios](../workfront-fusion/scenarios/scenarios.md) 
+* [Scenarios in Adobe Workfront Fusion](../workfront-fusion/scenarios/scenarios.md) 
 * [Modules in Adobe Workfront Fusion](../workfront-fusion/modules/modules.md) 
 * [Mapping in Adobe Workfront Fusion](../workfront-fusion/mapping/mapping.md) 
 * [Functions in Adobe Workfront Fusion](../workfront-fusion/functions/functions.md) 
-* [Webhooks](../workfront-fusion/webhooks/webhooks.md) 
+* [Webhooks in Adobe Workfront Fusion](../workfront-fusion/webhooks/webhooks.md) 
 * [Errors in Adobe Workfront Fusion](../workfront-fusion/errors/errors.md) 
 * [Organizations in Adobe Workfront Fusion](../workfront-fusion/organizations/organizations.md) 
 * [Apps and their modules](../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../workfront-fusion/tutorials/tutorials.md" class="MCXref xref" xrefformat="{para}">Tutorials</a> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</li>
   -->
 

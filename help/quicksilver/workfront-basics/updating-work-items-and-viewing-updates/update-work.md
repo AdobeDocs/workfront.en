@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,34 +50,34 @@ You must have the following access to perform the steps in this article:
 
 ## Add an update to a work item
 
-1. Go to the work item for which you want to provide an update (such as a project, ```task,``` or ```issue).```
-
+1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** section .
 1. Click **Start a new update,** then type your update.  
 
-1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text**toolbar as you type.
+1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
 
    | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
    |---|---|---|---|
    | Bold | ![mceclip10.png](assets/mceclip10.png)
+
    |⌘+b |Ctrl+B |
-
    | Italics | ![mceclip9.png](assets/mceclip9.png)
+
    |⌘+i |Ctrl+I |
-   
    | Underline | ![mceclip8.png](assets/mceclip8.png)
+
    |⌘+u |Ctrl+U |
-
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png)
+
    |⌘+K |Ctrl+K |
-
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)
+
    |⌘+Shift+8 |Ctrl+Shift+8 |
-
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)
-   |⌘+Shift+7 |&nbsp;Ctrl+Shift+7 |
 
+   |⌘+Shift+7 |&nbsp;Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)
+
    |⌘+Shift+9 |Ctrl+Shift+9 |
 
    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
@@ -117,7 +117,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) To add a URL link to additional information sources:
 
    1. Click in your update where you want to insert a link.
-   1. On the **Rich Text** toolbar, click the **Hyperlink**icon. ![](assets/link-icon.png)  
+   1. On the **Rich Text** toolbar, click the **Hyperlink** icon. ![](assets/link-icon.png)  
 
    1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
    
@@ -179,7 +179,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Completion Bar</td> 
-      <td>Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
+      <td>(Only available on tasks) Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Private to my company</td> 
@@ -192,12 +192,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >
-   >
-   ><!--   >
-   ><span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">A small pop-up window will appear for seven seconds after clicking <strong>Update</strong>, allowing you to undo the update and return to the editing pane before the update is posted. The update will be posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page.</span>   >
-   >-->   >
-   >
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update will be posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page.
 
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
@@ -232,7 +227,7 @@ This option copies the full thread link to the clipboard so you can share the th
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 
 1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link**. .
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 

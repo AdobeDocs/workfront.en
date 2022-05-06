@@ -26,7 +26,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -115,17 +115,6 @@ You can add any Workfront user to the proof if you have Edit rights on the proof
 >* When Automated Workflow is enabled and you add a user to the proof who does not have proofing enabled in Workfront, a new stage is created within the Automated Workflow. The user who you are adding is automatically added to this new stage when they view the proof for the first time. (For more information, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
 >
 
-<!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Adding"></a>Add users to a new proof</h3>
--->
-
-<!--
-<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1">Begin the process for generating a proof on a document or website in Workfront, as described in the <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md" class="MCXref xref">Generate a proof</a> articles.</li>
-<li value="2">Configure the proof as described in the section <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#workflow" class="MCXref xref">Workflow</a> in the article <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md" class="MCXref xref">Configure a proof</a>.</li>
-</ol>
--->
-
 ### Add users to an existing proof from the Documents tab
 
 1. Select the document that contains the proof that you want to add users to.
@@ -167,4 +156,4 @@ For more information about the Proof Approvals object report, see the [Report on
 
 When a user adds you to a proof and grants either the Approver role or the Reviewer & Approver role using Automated Workflow, the approval request displays on the Approvals tab in your Home or My Work area. You can then view the proof and make an approval decision on the proof directly from Workfront.
 
-For information about how to make approval decisions from the My Work area, see [Approve work from the Home area](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) or [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
+For information about how to make approval decisions from the My Work area, see [Approve work from the Home area](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) or [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md).

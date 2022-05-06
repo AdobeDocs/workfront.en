@@ -8,6 +8,10 @@ description: To verify that your document webhook implementation works correctly
 
 # Test Webhook connections
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 To verify that your document webhook implementation works correctly, run the manual tests in this section. These steps go through the Adobe Workfront web interface and indirectly hit the endpoints for your webhook implementation.
 
 ## Prerequisites

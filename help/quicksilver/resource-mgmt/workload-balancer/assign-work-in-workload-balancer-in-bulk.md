@@ -2,15 +2,19 @@
 filename: assign-work-in-workload-balancer-in-bulk
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Assign work in bulk using the Adobe Workfront Workload Balancer
-description: You can manually assign work items to users using the Adobe Workfront Workload Balancer.
+title: Assign work in bulk using the Workload Balancer
+description: (NOTE: NWE only article)
 ---
 
-# Assign work in bulk using the Adobe Workfront<![CDATA[  ]]>Workload Balancer
+# Assign work in bulk using the<![CDATA[  ]]>Workload Balancer
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: NWE only article)</p>
+-->
 
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 
-For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
 
@@ -40,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,7 +137,13 @@ When you assign a user using Bulk Assignments in the Workload Balancer, the foll
 To assign a user to work items previously assigned to job roles:
 
 1. Start assigning work items using Bulk Assignments in the Workload Balancer as described above and select **Assign**. 
-1. In the **Task role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field.
+1. In the **Task role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: ensure this stays Task and not chages to "Work item"?? if it changes, change the screen shot below)
+   </MadCap:conditionalText>
+   -->
 
    ![](assets/bulk-assignments-workload-balancer-assign-selected-350x330.png)
 
@@ -190,7 +200,7 @@ When you unassign a user from all their assignments using Bulk Assignments in th
 
 * If the specified user is assigned to work items that are completed, the user remains assigned to those work items.
 
-For more information about user and job role assignments, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For more information about user and job role assignments, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 To unassign a user from work items in the selected projects or for the selected tasks or issues where they are assigned:
 

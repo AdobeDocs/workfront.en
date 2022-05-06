@@ -5,12 +5,10 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Install a blueprint
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can install a blueprint in your Production environment or a Sandbox environment.
 ---
 
 # Install a blueprint
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can install a blueprint in your Production environment or a Sandbox environment.
 
@@ -69,6 +67,6 @@ You can install your package in any of the following environments:
    * Configure the blueprint before installation. Make your configuration selections, and click **Install blueprint**.  
      For more information, see [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
 
-   ```When the installation is complete, a message displays a list of the specific objects (such as roles, teams, or groups) that were successfully installed with the blueprint and any objects that failed to install.```
+   When the installation is complete, a message displays a list of the specific objects (such as roles, teams, or groups) that were successfully installed with the blueprint and any objects that failed to install.
 
 After installing the blueprint, some additional actions are needed to fully deploy it. For information, see [Actions to take after installing a blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md).

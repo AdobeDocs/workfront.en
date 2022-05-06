@@ -4,10 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
 title: Manage API keys
-description: In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront on behalf of a user.
+description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Manage API keys
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 In order to&nbsp;minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront&nbsp;on behalf of a user.
 
@@ -24,7 +28,7 @@ Examples of applications that leverage the&nbsp;Workfront API are:
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

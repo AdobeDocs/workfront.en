@@ -9,6 +9,10 @@ description: If you have Manager or higher access to Workfront Library you can c
 
 # Create a folder in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If you have Manager or higher access to Workfront Library you can create folders to organize content. By nesting folders, you can create a folder structure that makes finding content quick and easy.
 
 When you create a folder, you have the option to select the image you want as the folder cover image. If you don't select a cover image, the folder thumbnail is gray as long as the folder remains empty. When you upload content to the folder, Workfront Library randomly selects a cover image from the files uploaded to the folder. If a folder contains only subfolders, the cover remains gray.

@@ -4,18 +4,16 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 title: View and manage custom OAuth2 applications
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: As an Adobe Workfront administrator, you can view and manage the OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront.
 ---
 
 # View and manage custom OAuth2 applications
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 As an Adobe Workfront administrator, you can view and manage the OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront.
 
 >[!NOTE]
 >
->In the context of OAuth2, "Oauth2 application: refers to the this sort of access link between an app and a server such as Workfront. 
+>In the context of OAuth2, "Oauth2 application" refers to this sort of access link between an app and a server such asWorkfront. 
 >
 >For more information, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
@@ -33,7 +31,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td> <p>Proor higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -42,7 +40,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. </p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be aWorkfront administrator. </p>
     --> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> </td> 
@@ -61,7 +59,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 ## Manage custom OAuth2 applications
 
 * [View and edit custom OAuth2 applications](#view-and-edit-custom-oauth2-applications) 
-* [Delete custom OAuth2 Applications](#delete-custom-oauth2-applications)
+* [Delete custom OAuth2 applications](#delete-custom-oauth2-applications)
 
 ### View and edit custom OAuth2 applications {#view-and-edit-custom-oauth2-applications}
 
@@ -69,18 +67,18 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
-1. Hover over the application and click the **Edit** icon when it appears on the far right.
+1. Hover over the application and click**Edit** ![](assets/edit-icon.png) when it appears on the far right.
 1. (Optional) Edit any details of the application.
 
-   For fields related to OAuth2 and JWT apps, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+   For fields related to OAuth2 and JWT apps, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
-### Delete custom OAuth2 Applications {#delete-custom-oauth2-applications}
+### Delete custom OAuth2 applications {#delete-custom-oauth2-applications}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
-1. Hover over the application and click the **Delete** icon when it appears on the far right.
+1. Hover over the application and click**Delete** ![](assets/delete.png) when it appears on the far right.
 
 ## Manage Client Secrets in OAuth2 applications
 
@@ -92,7 +90,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 >[!IMPORTANT]
 >
->You cannot view the Client Secret itself. If you have lost your client secret, you must delete it and create a new one.
+>You cannot view the Client Secret itself. If you have lost your Client Secret, you must delete it and create a new one.
 >
 >* To delete a Client Secret, see [Delete Client Secret](#delete-client-secret) in this article.
 >* To create a new Client Secret, see [Create an OAuth2 application](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md).
@@ -101,7 +99,6 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
-1. Click **Create app integration**.
 1. Hover over the application and click the **Edit** icon when it appears on the far right.
 1. View details in the Client Secret area:
 

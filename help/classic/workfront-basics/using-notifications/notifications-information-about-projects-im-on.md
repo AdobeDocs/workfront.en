@@ -8,6 +8,10 @@ description: The following notifications alert you about activities happening in
 
 # Notifications:&nbsp;Information about projects I'm on
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The following notifications alert you about activities happening in projects you're working on.
 
 For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
@@ -59,7 +63,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   <tr> 
    <td> <p><strong>An issue is added to a project I'm on</strong> </p> <p>Members of a project team receive an email notification when an issue is added to the project.</p> <p>A notification is sent only if the project status is Current.</p> <p>The subject of the instant notification email is <em>Issue added to &lt;Project Name&gt;</em></p> <p>&nbsp;</p> <p> The subject of the daily digest notification is <em> Digest of Projects You're On &lt;Date of daily digest&gt; </em></p> </td> 
    <td> Project Name<br>Portfolio Name<br>Issue Reference Number<br>Name of the user who added the issue<br>Issue Type<br>Issue Name<br>Date Entered<br>Issue Priority<br>Assigned To Name <br>Issue Status<br>Primary Contact<br>*Project Name<br>*Project Reference Number<br>*Total number of issues added to the project<br>*Issue Name<br>*Name of the user assigned to issue<br>*Date of daily digest </td> 
-   <td> <p><strong>Instant</strong> </p> <p><strong>and</strong><strong>Daily</strong> </p> </td> 
+   <td> <p><strong>Instant</strong> </p> <p><strong>and Daily</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>An issue is completed on a project I'm on</strong> </p> <p>Members of a project team receive an email notification when an issue is completed on their project.<br>For more information on the project team, see <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>The subject of the instant notification email is <em>Complete: &lt;Issue Name&gt; on &lt;Project name&gt;</em></p> <p> The subject of the daily digest notification is <em> Digest of Projects You're On &lt;Date of daily digest&gt; </em></p> </td> 
@@ -69,7 +73,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   <tr> 
    <td> <p><strong>An unassigned issue is added to a project I'm on</strong> </p> <p>Members of a project team receive an email notification when an unassigned issue is added to the project.</p> <p>A notification is sent only if the project status is Current.</p> <p>The subject of the instant notification email is <em>Who should be assigned to this new issue on &lt;Project Name&gt;?</em></p> <p> The subject of the daily digest notification is <em> Digest of Projects You're On &lt;Date of daily digest&gt; </em></p> </td> 
    <td> Project Name<br>Portfolio Name<br>Issue Reference Number<br>Name of the user who added the issue<br>Issue Name<br>Issue Type<br>Date Entered<br>Issue Priority<br>Assigned To Name (empty) <br>Issue Status<br>Primary Contact<br>*Project Name<br>*Project Reference Number<br>*Total number of issues added<br>*Issue Name<br>*Name of the user who added the issue<br>*Date of the daily digest<br></td> 
-   <td> <p><strong>Instant</strong> </p> <p><strong>and</strong><strong>Daily</strong> </p> </td> 
+   <td> <p><strong>Instant</strong> </p> <p><strong>and Daily</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>I'm added to a project</strong> </p> <p>The user who was added to the project receives an email notification when he or she is added unless the user added himself or herself to the project.</p> <p>A notification is sent only if the project status is Current.</p> <p>The subject of the instant notification email is <em>You've been added to the project &lt;Project Name&gt;</em></p> <p> The subject of the daily digest notification is <em> Digest of Projects You're On &lt;Date of daily digest&gt; </em></p> </td> 

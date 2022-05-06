@@ -4,12 +4,10 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: Supported proofing file types and size limits overview
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web captures, and interactive file types up to 4 GB in size.
 ---
 
 # Supported proofing file types and size limits overview
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web captures, and interactive file types up to 4 GB in size.
 
@@ -20,6 +18,7 @@ Workfront has the following limits:
 * Files must be less than 4 GB per file.
 * XLS and XLSX files must be less than 100 MB.
 * Files attached to comments on proofs must be less than 30 MB.
+* PNGs must have a height and width less than 65535px.
 * Static combined proofs can support up to 50 files.
 * Documents uploaded as proofs must be less than 2,000 pages.
 

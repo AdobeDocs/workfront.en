@@ -8,6 +8,10 @@ description: You can manually create a single-use timesheet if you want a timesh
 
 # Create a single-use timesheet
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can manually create a single-use&nbsp;timesheet if you want a timesheet that is not recurring.&nbsp;When the end date of the timesheet is reached and you need more timesheets are needed, you must create new ones.
 
 For information about creating a timesheet profile that generates recurring timesheets for your users without any further intervention from you (recommended), see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
@@ -80,7 +84,7 @@ You must have the following to perform the steps in this article:
       >
       >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
 
-1. (Optional)&nbsp;Click **View** or **Grouping ** to apply a different view or grouping or to create a new one.
+1. (Optional)&nbsp;Click **View** or **Grouping** to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -122,7 +126,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click **Create Timesheet** .
+1. Click **Create****Timesheet** .
 
 ## When tasks and issues appear on users' timesheets
 

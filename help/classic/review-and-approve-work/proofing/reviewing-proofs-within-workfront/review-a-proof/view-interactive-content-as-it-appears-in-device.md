@@ -8,6 +8,10 @@ description: You can preview how an interactive proof looks on various devices, 
 
 # Change interactive proof resolution in the proofing viewer
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can preview how an interactive proof looks on various devices, allowing you to see how content displays and responds based on different resolutions.
 
 ## Access requirements
@@ -20,7 +24,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +53,7 @@ Your Adobe Workfront administrator has configured your system so that you review
 
   >[!NOTE]
   >
-  >Your Workfront administrator can configure custom devices for users in your organization, as described in Configuring Custom Devices for Interactive Proofs in the article [Configure a user's proofing access](../../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+  >Your Workfront administrator can configure custom devices for users in your organization, as described in Configuring Custom Devices for Interactive Proofs in the article .
 
 ## View a proof with a preset device or resolution setting
 

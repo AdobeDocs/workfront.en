@@ -8,12 +8,16 @@ description: You can associate a severity with issues in Adobe Workfront. Tasks 
 
 #  Update issue severity
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can associate a severity with issues in Adobe Workfront. Tasks and projects do not have severities.
 
 Issues are unexpected events that can prevent your projects from finishing on time or within budget.&nbsp;You can use severities to indicate how serious an issue is.&nbsp;
 
 Your Workfront administrator defines the severities available in Workfront. After they establish them, they are available for you to associate with an issue.  
-For more information about creating severities in Workfront, see [Create and customize issue severities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+For more information about creating severities in Workfront, see [Create or customize issue severities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 You must have Contribute permissions on an issue to be able to update its severity.&nbsp;
 
@@ -45,7 +49,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

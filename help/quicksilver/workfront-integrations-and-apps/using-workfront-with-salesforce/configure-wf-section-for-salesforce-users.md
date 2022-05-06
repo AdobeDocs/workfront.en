@@ -39,7 +39,7 @@ You must have the following access to use the functionality described in this ar
         Example: Edit access to Documents
        </MadCap:conditionalText>
       --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
      --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
      --> </td> 
@@ -51,7 +51,7 @@ You must have the following access to use the functionality described in this ar
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Example: View access or higher on Documents
        </MadCap:conditionalText>
-      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -89,7 +89,7 @@ You must have the following access to use the functionality described in this ar
 
    We recommend that you name this section **Workfront**.
 
-1. (Optional) Specify the desired **Layout** and **Tab-key Order**for the new section.
+1. (Optional) Specify the desired **Layout** and **Tab-key Order** for the new section.
 
    We recommend that you select&nbsp;**1-Column** layout for the Workfront section.&nbsp;
 
@@ -135,11 +135,11 @@ You can add the Workfront section to the layout of a Salesforce Opportunity or A
 
 1. Expand **Object and Fields**, then click **Object Manager**. 
 
-1. Click **Opportunity**to customize the layout of an Opportunity.
+1. Click **Opportunity** to customize the layout of an Opportunity.
 
    Or
 
-   Click **Account**to customize the layout of an Account. 
+   Click **Account** to customize the layout of an Account. 
 
 1. Click **Page Layouts**. 
 1. Click the name of an existing page layout to edit it.

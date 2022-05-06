@@ -8,6 +8,10 @@ description: When you submit a document (DOCX, PDF, XLSX, AI) for proofing, Adob
 
 # Document reprocessing for proofing overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you submit a document (DOCX, PDF, XLSX, AI) for proofing, Adobe Workfront reprocesses it so that it can display in the proofing viewer without the software application you used to create it.&nbsp;
 
 Each page of your document appears in the proofing viewer as a thumbnail image. When you click a thumbnail, you can zoom into a bitmap version of that page at 100%, 200%, and 400%. For proofs exceeding 800mm in height or width, the maximum zoom level is 200%.

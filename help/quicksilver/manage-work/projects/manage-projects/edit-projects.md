@@ -3,10 +3,23 @@ filename: edit-projects
 product-area: projects
 navigation-topic: manage-projects
 title: Edit projects
-description: You can edit a project in Adobe Workfront as often as needed. We recommend that you edit projects minimally after they become Current, to avoid confusion by sending out notifications about the changes to the entire project team. You should ideally edit a project when the project is in Planning status. For information about the Project Team, see Project Team overview.
+description: (NOTE: ***Linked to many articles,
 ---
 
 # Edit projects
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: ***Linked to many articles,</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Update Type section is also documented in Selecting the Project Update Type article</p>
+<p>Keep the reference link to the other article that also documents the Update Type) </p>
+<p>(NOTE 2: information described here also exists in these articles:</p>
+<p>** Project Overview area</p>
+<p>**Manage project Finance area</p>
+<p>If you need to update just one field, check to see if that field is also listed there and update in both places.)</p>
+</div>
+-->
 
 You can edit a project in Adobe Workfront as often as needed. We recommend that you edit projects minimally after they become Current, to avoid confusion by sending out notifications about the changes to the entire project team. You should ideally edit a project when the project is in Planning status. For information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
@@ -36,7 +49,7 @@ You must have the following access to perform the steps in this article:
     <ul> 
      <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
      <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +115,7 @@ Some settings mentioned in this article might be modified from their default sta
 
       ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
-      For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    For information about the fields visible in the Project Details section, continue with editing the project in the Edit Project box as described below.
 1. To edit all information about the project, click the **More** menu ![](assets/qs-more-menu.png) next to the name of the project, then click **Edit**.
@@ -165,9 +178,6 @@ Some settings mentioned in this article might be modified from their default sta
       <td> <p>Add additional information about the project.</p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader">Basic information section</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
       <td> <p>Select the status of the project. You cannot mark a project Complete before all tasks and issues complete. For information about project statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Access the list of system project statuses</a></p> <p>Tip: You can update the Status in the project header. </p> </td> 
      </tr> 
@@ -180,9 +190,6 @@ Some settings mentioned in this article might be modified from their default sta
       <td> <p>Specify a web link that relates to information about this project.</p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader">Project condition section</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader"><strong>Condition Type</strong> </td> 
       <td> <p>Select between the following Condition Types: 
         <ul> 
@@ -193,9 +200,6 @@ Some settings mentioned in this article might be modified from their default sta
      <tr> 
       <td role="rowheader"><strong>Condition</strong> </td> 
       <td> <p> <p>(Appears only after you select <strong>Manual</strong> for the <strong>Condition Type</strong>): Select a Condition to indicate how the project is going. </p> <p>Tip: If the Condition Type is set to Manual, you can also update the Condition in the project header.</p> <p>For information how project Conditions can be set automatically or manually, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Project dates section</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Schedule Mode</strong> </td> 
@@ -214,11 +218,8 @@ Some settings mentioned in this article might be modified from their default sta
       <td> <p>Specify the date when you select <strong>Schedule from Completion Date</strong>. </p> <p>This is a read-only field when you select <strong>Schedule from Start Date</strong>.<br></p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader">Project association section</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Portfolio</td> 
-      <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio</a>.</td> 
+      <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Program</td> 
@@ -226,18 +227,15 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader">Group</td> 
-      <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Note:   <p>By default, one of the following groups is automatically associated <span data-mc-edit-date="2020-12-02T17:06:08.1586452-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted, only in QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-12-02T17:06:00.8315301-05:00">with</span> a project when it is created, unless you specify a different group:</p> 
+      <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p>Note:   <p>By default, one of the following groups is automatically associated <span data-mc-edit-date="2020-12-02T17:06:08.1586452-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted, only in QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-12-02T17:06:00.8315301-05:00">with</span> a project when it is created, unless you specify a different group:</p> 
         <ul> 
          <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
          <li> <p>When the project is created from a group’s main page in the Setup area, that group is associated with the project.</p> </li> 
-        </ul> </p> </td> 
+        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>Tip: If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Company</strong> </td> 
       <td> <p>Specify a company associated with the project. You must create a company before you can associate it with a project. Only active companies can be associated with a project. For information about creating companies, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Create and edit companies</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Project stakeholders section</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Project Owner</strong> </td> 
@@ -298,18 +296,12 @@ Some settings mentioned in this article might be modified from their default sta
     <col> 
     <tbody> 
      <tr data-mc-conditions=""> 
-      <td colspan="2" role="rowheader">Budget section</td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Project Currency</strong> </td> 
       <td> <p> <p>Specify the currency for the project, if it is different than the default currency of your system. You cannot change the currency of a project if there is already financial information on the project. This field is not visible if you have only the default currency in the system. </p> <p>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.<br></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 
       <td> <p>Specify a Budget for the project.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Performance metrics section</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Performance Index Method</strong> </td> 
@@ -320,18 +312,12 @@ Some settings mentioned in this article might be modified from their default sta
       <td> <p> <p>Specify how Estimate at Completion (EAC) calculates. </p> <p>For more information about how the Estimate at Completion calculates, see <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculate Estimate At Completion (EAC)</a>.</p> <p>Your Workfront administrator<span> or a group administrator</span> selects the default Estimate at Completion setting for your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader">Benefit section</td> 
-     </tr> 
-     <tr> 
       <td role="rowheader"><strong>Planned Benefit</strong> </td> 
       <td> <p>Estimate what the Planned Benefit of the project is. This is used in the Business Case of the project and the Portfolio Optimizer. For more information about the Planned Benefit of a project, see <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Overview of project Planned Benefit</a>. The Planned Benefit of a project is taken into account when the Net Value of a project is calculated. </p> <p>For more information, see <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Manage projects in the Portfolio Optimizer</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Actual Benefit</strong> </td> 
       <td> <p>Estimate the Actual Benefit of the project. This is a currency amount that represents the benefit that your company or department would gain after this project is complete. </p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">Revenue section</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Fixed Revenue</strong> </td> 
@@ -419,11 +405,11 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader">Risk </td> 
-      <td> <p> <p>Define the level of risk of your project. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.</p> <p> <p>Consider selecting from the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate here cannot be customized.</p> <p>Note: These are not related to the potential Risks that could occur during the life of a project and which you should record in the Risks tab of the project, or in the Business Case. For information about potential project Risks, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types </a>. </p> </p> </p> </td> 
+      <td> <p> <p>Define the level of risk of your project. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.</p> <p> <p>Consider selecting from the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>The levels of risks you indicate here cannot be customized.</p> <p>Note: These are not related to the potential Risks that could occur during the life of a project and which you should record in the Risks tab of the project, or in the Business Case. For information about potential project Risks, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Edit and create risk types</a>. </p> </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Resource Pools </td> 
-      <td> <p> <p>Specify the Resource Pools associated with the project. Resource Pools are collections of users that are needed at the same time for the completion of a project and allow for project budgeting in the Resource Planner. For more information about Resource Pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>. </p> <p>Note: When you edit projects in bulk, only the Resource Pools that are common to all the projects selected appear in this field. If the projects selected have no shared Resource Pools, this field will be empty. The Resource Pools you specify here will overwrite the projects' individual Resource Pools.</p> </p> </td> 
+      <td> <p> <p>Specify the Resource Pools associated with the project. Resource Pools are collections of users that are needed at the same time for the completion of a project and allow for project budgeting in the Resource Planner. For more information about Resource Pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>. </p> <p>Note: When you edit projects in bulk, only the Resource Pools that are common to all the projects selected appear in this field. If the projects selected have no shared Resource Pools, this field will be empty. The Resource Pools you specify here will overwrite the projects' individual Resource Pools.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> Allow company-level billing rates to override project-level billing rates</td> 
@@ -451,6 +437,9 @@ Some settings mentioned in this article might be modified from their default sta
        <ul> 
         <li>Only active approval processes display in the list. </li> 
         <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>Important: If the group associated with the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
+        <li> <!--
+          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>
+         --> </li> 
         <li> <p>When bulk-editing projects, the following scenarios exist:</p> 
          <ul> 
           <li> <p>When you select projects from the same group, both system-level and group-level approval processes display in this field.</p> </li> 
@@ -567,7 +556,7 @@ For information about how these settings affect creating new tasks, see the sect
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>When someone is assigned to an issue</strong></td> 
-      <td><p>Select from <strong>View</strong>, <strong>Contribute,</strong> or <strong>Manage</strong> access to an issue. The user assigned to an issue is automatically granted this access to the issue. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a>.<br></p></td> 
+      <td><p>Select from <strong>View</strong>, <strong>Contribute,</strong> or <strong>Manage</strong> access to an issue. The user assigned to an issue is automatically granted this access to the issue. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Also grant access to the project</td> 
@@ -619,6 +608,10 @@ You can edit the following fields in the project header:
 
 ## Edit projects in bulk
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: *******THIS WHOLE SECTION WILL NEED TO BE RE-WRITTEN FOR NWE BULK WHEN EDITING PROJECTS IN BULK IN NWE WILL BE UPDATED***** THE SECTION AS IS NOW WILL STAY FOR CLASSIC, BUT REMOVE ALL THE NWE CONDITIONING AND CROSS-REFERENCES*****)</p>
+-->
+
 You can edit projects in bulk and update all their information at the same time.
 
 To edit projects in bulk:
@@ -657,8 +650,12 @@ To edit projects in bulk:
    
    * Custom Forms
 
-     For information, continue with step 7 below. 
-   
+     For information, continue with step 7 below.
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;make sure this stays accurate)</p>   
+     -->
+
    * Tasks
 
      For information, see the [Task Settings](#task-settings) section in this article.
@@ -670,6 +667,10 @@ To edit projects in bulk:
    * Comment
 
      For information, continue with step 9 below.
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays accurate)</p>   
+     -->
 
    >[!NOTE]
    >

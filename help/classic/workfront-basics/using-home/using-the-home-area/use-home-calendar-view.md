@@ -8,13 +8,19 @@ description: You can use the Calendar view in the Home area to manage your work 
 
 # Use the Home Calendar view
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use the Calendar view in the Home area to manage your work day and work assignments. Only you can view and manage your Home Calendar.
 
 >[!NOTE]
 >
->* This is different from a Adobe Workfront Calendar report, which is a&nbsp;dynamic report that provides a visual representation of your work. For information about the Workfront Calendar report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
->* Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future.&nbsp;
+>The Calendar view in the Home area is different from a Adobe Workfront Calendar report, which is a&nbsp;dynamic report that provides a visual representation of your work. For information about the Workfront Calendar report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 >
+>  <!-->
+>  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future.&nbsp;(NOTE: From&nbsp;Alina: Spoke with Lisa and Court and they agreed to draft or delete this. Court could not remember what this was referring to and Lisa did not add this note. Lisa might update this if she hears from the team that this is still accurate.)</li>>
+>  -->
 
 ## Access requirements
 
@@ -40,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,7 +132,7 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
    * (Optional) To reply to an existing comment or update, click **Reply**, specify any recipients in the **Notify** box, type your reply, then click **Reply**.  
      If you need information about specifying recipients, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. (Optional) To close the **Details** panel, click anywhere outside it.ok
+1. (Optional) To close the **Details** panel, click anywhere outside it.
 
 ## Update events from integrated calendars
 
@@ -146,7 +152,11 @@ To update the integrated calendar events in your Home Calendar:
    >
    >Some filter options are based on objects (Tasks, Requests, Issues, Approvals, Proofs, and Personal), and others are based on state (Working On, Ready to Start, Not Ready, and Completed). If no state is selected, the Home Calendar displays all selected objects of any state. Similarly, if no object is selected, it displays all objects of any selected state.
 
-1. Select from the various filter options to specify the types of items you want to display. 
+1. Select from the following filter options to specify the types of items you want to display:
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this and the following step are also repeated in this article: /Content/Workfront basics/Using Home/Using the Home Area/display-items-in-home-work-list.html)</p>
+   -->
 
    <table cellspacing="0"> 
     <col> 
@@ -193,6 +203,8 @@ To update the integrated calendar events in your Home Calendar:
 
    ![](assets/calendar-filters-classic-and-nwe-350x350.png)
 
+   &nbsp;
+
 1. To group and sort your list of work, click the **Sort by** drop-down menu, then select the criteria you want to use.
 
    The items are listed on the left side of the calendar according to the criteria and in the order that you specify.   
@@ -204,7 +216,7 @@ To update the integrated calendar events in your Home Calendar:
    |---|---|
    | Commit Date |Tasks and issues sort in order of the Commit dates. To learn more about Commit dates, see [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md). |
    | Project |Work items sort by project. |
-   | My Priority |Items display&nbsp;in an order you choose. For more information, see [Prioritize work in the Home Area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md). |
+   | My Priority |Items display&nbsp;in an order you choose. For more information, see [Prioritize work in the Home area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md). |
 
 ## Navigate to a different week
 

@@ -3,10 +3,18 @@ filename: built-in-status-icons-views
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Built-in Status Icons in Views
-description: You can add the built-in Status Icons field as a column in your views to enhance visibility into key points about your objects. Using Status Icons, you can see at a glance when the following conditions exist:
+description: (NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)
 ---
 
 # Built-in Status Icons in Views
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.) </p>
+-->
 
 You can add the built-in Status Icons field as a column in your views to enhance visibility into key points about your objects. Using Status Icons, you can see at a glance when the following conditions exist:
 
@@ -51,7 +59,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to an existing view</p> <p>Manage permissions to a report to add columns to it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to an existing view</p> <p>Manage permissions to a report to add columns to it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -112,7 +120,7 @@ The following table lists all the Status Icons available in Workfront, the type 
 
 You must have permissions to at least View the objects in order to be able to click some of the following icons and access those objects. 
 
-<table cellspacing="15"> 
+<table cellspacing="3"> 
  <col> 
  <col> 
  <col> 

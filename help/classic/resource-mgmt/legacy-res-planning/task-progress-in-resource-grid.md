@@ -10,6 +10,10 @@ description: You can configure the Resource Grid to display the following visual
 
 >[!IMPORTANT]
 >
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
+>[!IMPORTANT]
+>
 >The information in this article refers to functionality that is currently deprecated and will soon be removed from Workfront. For information about the current functionality for managing resources in Workfront, see the [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md) section.
 
 ## Overview of task progress

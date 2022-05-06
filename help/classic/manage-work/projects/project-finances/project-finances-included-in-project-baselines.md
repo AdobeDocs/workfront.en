@@ -9,6 +9,10 @@ description: Baselines are snapshots of what the performance of a project looked
 
 # Project finances included in project baselines
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values.
 
 When you create a baseline, the task information is also captured on the baseline tasks of that baseline.

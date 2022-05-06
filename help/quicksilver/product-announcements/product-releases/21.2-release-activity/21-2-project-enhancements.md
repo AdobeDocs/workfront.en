@@ -103,7 +103,7 @@ For information about editing projects or tasks, see the following articles:
 
 For a better experience when you fill out a custom form, we have improved the way that long custom field labels display. When there is enough horizontal space to show them in their entirety, these labels are no longer truncated.
 
-For information about filling out custom forms, see [Edit information in custom form fields in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+For information about filling out custom forms, see [Edit information in custom form fields](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
 ```<iframe class="vimeo-player_0" src="assets/522396709?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

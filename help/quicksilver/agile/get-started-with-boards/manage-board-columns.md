@@ -3,12 +3,10 @@ filename: manage-board-columns
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage board columns
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: A new board contains the default columns New, In Progress, and Complete. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don’t need.
 ---
 
 # Manage board columns
-
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 A new board contains the default columns New, In Progress, and Complete. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don’t need.
 
@@ -63,5 +61,5 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >Columns that contain cards can't be deleted.
+   >Columns that contain cards, including archived cards, can't be deleted. If you try to delete a column that contains cards, you must choose another column for those cards.
 

@@ -59,16 +59,15 @@ The areas that you can access from the Main Menu in the new Adobe Workfront expe
 
 * **Layout template configurations**: To learn how a Workfront administrator can modify the main menu from a layout template, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* **License type**: To learn the default configurations for different license types, see [Understand a Reviewer's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand a Worker's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **License type**: To learn the default configurations for different license types, see [Understand the navigation for a Review-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand the navigation for a Work-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-* **User customization**: To learn how to change your own main menu configuration, see [Customize the Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
+* **User customization**: To learn how to change your own main menu configuration, see [Customize the Adobe Workfront navigation](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
 
 To learn more about an option in the Main Menu, see [Top navigation bar overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
 To access the new areas in the new Adobe Workfront experience:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon-16x12.png) in the upper-right corner of the new Adobe Workfront experience.
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Click an area to access a list of objects.
 
 ## Tabs and subtabs replaced by filters {#tabs-and-subtabs-replaced-by-filters}
@@ -87,7 +86,7 @@ The information in the following subtabs is now available through filters:
 
 When accessing the Projects area, you can use the filter to display only projects that you own or projects you are part of.
 
-1. Click the **Main menu** icon ![](assets/main-menu-icon-16x12.png), then click **Projects**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**.
 
    A list of projects displays.
 
@@ -114,14 +113,18 @@ When accessing the Projects area, you can use the filter to display only project
 
 >[!NOTE]
 >
->You can also quickly apply the filters Projects I'm On or Projects I Own by clicking the respective button in the Projects area header.  
->![](assets/nwe-project-list-buttons-350x221.png)>
+>You can also quickly apply the filters Projects I'm On or Projects I Own by clicking the respective button in the Projects area header.
+>
+>This functionality is also available for the Timesheets area.&nbsp;For more information, see [Edit timesheet information](../../timesheets/create-and-manage-timesheets/edit-timesheets.md).   
+>![](assets/nwe-project-list-buttons-350x187.png)>
+
+&nbsp;
 
 ### Portfolio lists under the Portfolio area {#portfolio-lists-under-the-portfolio-area}
 
 When accessing the Portfolio area, you can use the filter to display only portfolios that you own or all portfolios.
 
-1. Click the **Main menu** icon ![](assets/main-menu-icon-16x12.png), then click **Portfolios**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Portfolios**.
 
    A list of portfolios displays.
 
@@ -135,7 +138,7 @@ When accessing the Portfolio area, you can use the filter to display only portfo
 
 When accessing the Issues area at the project level, you can use the filter to display only issues that are open, or issues that are closed.
 
-1. Click the **Main menu** icon ![](assets/main-menu-icon-16x12.png), then click **Projects**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**.
 
    A list of projects displays.
 

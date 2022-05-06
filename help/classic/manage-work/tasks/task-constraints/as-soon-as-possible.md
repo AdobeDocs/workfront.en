@@ -9,6 +9,10 @@ description: As Soon As Possible is a task constraint that places the start time
 
 # Task Constraint overview: As Soon As Possible
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As Soon As Possible is a task constraint that places the start time of the task as close to the beginning of the project as possible.
 
 ## Considerations for using the As Soon As Possible constraint
@@ -23,6 +27,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to As Soon As Possible: </p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
@@ -35,6 +40,10 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 -->
 
 ## The difference between Earliest Available Time and As Soon As Possible
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
+-->
 
 The Earliest Available Time constraint differs from the As Soon As Possible constraint when all of the following criteria exist:
 

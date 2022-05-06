@@ -4,11 +4,15 @@ content-type: overview
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Scenario execution flow
+title: Scenario execution flow in Adobe Workfront Fusion
 description: This article explains how a scenario executes and how data flows through it. It also explains where you can find information about your processed data and how to read it.
 ---
 
-# Scenario execution flow
+# Scenario execution flow in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 This article explains how a scenario executes and how data flows through it. It also explains where you can find information about your processed data and how to read it.
 
@@ -58,11 +62,11 @@ After a scenario is set up correctly and activated, it executes according to its
 
 As the scenario begins, the first module responds to an event it has been set to watch for. If it returns any bundles (data), they pass on to the next module and the scenario continues, passing the bundles through each successive module, one by one.
 
-If the bundles process correctly throughout all of the modules, the scenario is marked as a success in the scenario detail area, as explained in [Scenario detail](../../workfront-fusion/scenarios/scenario-detail.md).
+If the bundles process correctly throughout all of the modules, the scenario is marked as a success in the scenario detail area, as explained in [Scenario details in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-detail.md).
 
-* For more information on setting up a scenario, see [Basic scenario settings](../../workfront-fusion/scenarios/basic-scenario-settings.md).
-* For more information on activating a scenario, see [Activate or deactivate a scenario](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
-* For more information on scheduling a scenario, see [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+* For more information on setting up a scenario, see [Basic scenario settings in Adobe Workfront Fusion](../../workfront-fusion/scenarios/basic-scenario-settings.md).
+* For more information on activating a scenario, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+* For more information on scheduling a scenario, see [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 * For more information on modules, see [Types of modules](../../workfront-fusion/modules/module-types.md).
 
 ### Example: Workfront Fusion for Work Automation
@@ -108,8 +112,8 @@ After processing, the module returned this output information:
 
 The above information is captured for each bundle separately, as marked by the drop down boxes Operation 1 and Operation 2 in the image.
 
-For more information on transaction processing see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+For more information on transaction processing see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Error occurred while executing a scenario
 
-An error might occur during the scenario run. For example, if you delete the Dropbox folder that you have set as the target folder in the module setting, the scenario terminates with an error message. For more information about how to handle errors, see [Error processing](../../workfront-fusion/errors/error-processing.md).
+An error might occur during the scenario run. For example, if you delete the Dropbox folder that you have set as the target folder in the module setting, the scenario terminates with an error message. For more information about how to handle errors, see [Error processing in Adobe Workfront Fusion](../../workfront-fusion/errors/error-processing.md).

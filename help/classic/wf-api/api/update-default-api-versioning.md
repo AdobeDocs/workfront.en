@@ -8,6 +8,10 @@ description: We release new versions of the Adobe Workfront API on a biannual ba
 
 # Update integrations that use default API versioning
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 We release new versions of the Adobe Workfront API on a biannual basis. Each version is supported for three years after its release, with an additional year in a deprecated state where the version is available but not supported.
 
 Integrations that do not specify a version of the API in the URI are automatically routed to Default, which has been deprecated. In order for your Workfront integrations to be valid, you must specify a supported API version in your Workfront API requests.

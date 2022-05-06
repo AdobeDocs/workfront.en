@@ -2,12 +2,16 @@
 filename: view-info-in-gantt
 navigation-topic: use-the-gantt-chart
 title: View information in the Gantt Chart
-description: The task list Gantt Chart and project list Gantt Chart display information about projects and tasks
+description: The task list Gantt Chart and project list Gantt Chart display information about projects and tasks.
 ---
 
 # View information in the Gantt Chart
 
-The task list Gantt Chart and project list Gantt Chart display information about projects and tasks
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+The task list Gantt Chart and project list Gantt Chart display information about projects and tasks.
 
 ## Access requirements
 
@@ -31,7 +35,7 @@ You must have the following to follow the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,7 +92,11 @@ To view tasks in a project from a list of projects:
 
    A list of projects displays. 
 
-1. Click the **Gantt chart** icon ![](assets/gantt-icon-classic.png) in the upper-right corner of the screen.  
+1. Click the **Gantt chart** icon ![](assets/gantt-icon-classic.png) in the upper-right corner of the screen.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
+   -->
 
 1. Click the **Show Task List** icon.  
    ![Show_task_list_not_enabled.png](assets/show-task-list-not-enabled-350x141.png)

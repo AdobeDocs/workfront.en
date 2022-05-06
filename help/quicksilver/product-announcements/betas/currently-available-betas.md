@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: betas
 title: Currently available beta programs
 description: To participate in any of our currently available betas, join a Beta Group on the Adobe Workfront Community site, select a currently available beta and start testing the new functionality! To join a Workfront Community group, see Community Groups.
+hidefromtoc: true
 ---
 
 # Currently available beta programs

@@ -8,6 +8,10 @@ description: The information you see in the Workfront web application is often d
 
 # Create custom tabs or sections
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Adobe Workfront tabs {#adobe-workfront-tabs}
 
 The information you see in the Workfront web application is often displayed in tabs  by default. Each tab contains different information about a Workfront area or object.  
@@ -87,7 +91,7 @@ To add a custom tab:
 
    This is visible only to you.&nbsp;
 
-1. In the **Add a Dashboard****or External Page** field, start typing the name of the dashboard or external page you want to add and click it when it appears in the list.&nbsp;
+1. In the **Add a Dashboard** **or External Page** field, start typing the name of the dashboard or external page you want to add and click it when it appears in the list.&nbsp;
 
 1. Click**Add Tab.**&nbsp;
 1. (Optional) Drag and drop the tabs in the order in which you would like to display them.

@@ -45,7 +45,7 @@ To access the Workfront Proof&nbsp;Preview Sandbox:
 
 1. Log in to your Workfront environment. 
 1. Click **Setup** in the Global Navigation bar. 
-1. Click**System**>**Preferences**.  
+1. Click**System** >**Preferences**.  
 
 1. In the **Test Environments** section, click **Sandbox Preview**.  
 

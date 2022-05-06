@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access or higher to the object where you want to upload a document.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access or higher to the object where you want to upload a document.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/menu-350x627.png)
+   ![](assets/menu-350x440.png)
 
 1. Go to the work item where you want to upload a document. 
 1. Click the **Document** icon ![](assets/documents.png) in the navigation bar. 
@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/menu-350x627.png)
+   ![](assets/menu-350x440.png)
 
 1. Go to the work item where you want to upload a document. 
 1. Click the **Document** icon ![](assets/documents.png)in the navigation bar. 

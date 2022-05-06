@@ -9,6 +9,10 @@ description: As an Adobe Workfront administrator, you can configure the default 
 
 # Configure default proofing roles
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an Adobe Workfront administrator, you can configure the default proofing roles for users and guest users who access proofs created in Workfront. Any person adding users to a proof can adjust these roles for them.
 
 ## Access requirements
@@ -182,7 +186,7 @@ The following table shows each role and the rights associated with it:
    <td>✓</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Moderator</strong> </p> </td> 

@@ -188,7 +188,7 @@ The following changes were added to support the future Resource Planning functio
   For more information about the new Resource Planning tab, see [Get started with Resource Planning](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md)&nbsp;
 
 * The current “Resource Pool” object has been renamed to “Legacy Resource Pool.”  
-  For more information about creating the new user-based Resource Pools, see [Resource pools overview in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+  For more information about creating the new user-based Resource Pools, see [Resource pools overview](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 * A new “Resource Pool” object has been created to support the new (user-based) Resource Pools.
 

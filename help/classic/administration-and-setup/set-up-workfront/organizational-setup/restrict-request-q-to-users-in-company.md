@@ -10,6 +10,10 @@ hidefromtoc: true
 
 # Restrict request queue to users in the associated company
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When using a project as a request queue, you can allow only users from the company associated with this project to see the request queue in their **Requests** area of Workfront.
 
 For more information about setting up a project as a request queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

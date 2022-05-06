@@ -3,11 +3,19 @@ filename: view-restored-items
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: View restored items
-description: As an Adobe Workfront administrator or a user with a Plan license, you can view which projects, tasks, issues, and documents have been restored in the past 7 days.
+title: View restored item
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
-# View restored items
+# View restored item
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 As an Adobe Workfront administrator or a user with a Plan license, you can view which projects, tasks, issues, and documents have been restored in the past 7 days.
 

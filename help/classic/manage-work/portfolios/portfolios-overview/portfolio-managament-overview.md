@@ -9,6 +9,10 @@ description: Portfolio or Project Portfolio Management (PPM) is the process of p
 
 # Portfolio Management overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Overview of Project Portfolio Management (PPM)
 
 Portfolio or Project Portfolio Management (PPM) is the process of prioritizing and managing a list of projects in order to achieve specific business objectives. Thus, a portfolio is a collection of projects with common business goals. The result of an effective PPM methodology allows executives to:
@@ -45,7 +49,7 @@ The following diagram illustrates the high-level overview of the PPM process in 
 
 Project Portfolio Management starts with a project request. In this phase, a project owner creates a project&nbsp; request and submits it for review to an executive committee or the Portfolio Manager. This is when they complete the Business Case of the project and then submit it for approval.&nbsp;
 
-For more information about creating a business case and a project request, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about creating a business case and a project request, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Project Review {#project-review}
 

@@ -9,6 +9,10 @@ description: The Planned Completion Date of a task is the date by which the task
 
 # Overview of the task Planned Completion Date
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Planned Completion Date of a task is the date by which the task is set to complete. 
 
 You can either specify the Planned Completion Date of a task, or you can leave it up to Adobe Workfront to calculate it depending on certain criteria.&nbsp;
@@ -96,10 +100,10 @@ When set automatically, the Planned Completion Date&nbsp;is determined based on 
 Planned Completion Date = Planned Start Date + Duration
 ```
 
-For example, if your task has a start date of September 16 and a duration of 10 days, the Planned Completion Date is September 26.
+For example, if your task has a start date of September 16 and a Duration of 10 days, the Planned Completion Date is September 26.
 
 >[!NOTE]
 >
->&nbsp;The Update Type for the project must also be&nbsp;set to Automatic and On Change or Automatically in order for the Planned Hours and Duration to be automatically&nbsp;adjusted.   
+>&nbsp;The Update Type for the project must be&nbsp;set to Automatic and On Change or Automatically in order for the Planned Hours and Duration to be automatically&nbsp;adjusted.   
 >For more information about the Update Type, see the article [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 

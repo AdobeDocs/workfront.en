@@ -8,6 +8,10 @@ description: Adobe Workfront enables you to quickly and easily send messages tha
 
 # Send direct messages to other users
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront enables you to quickly and easily send messages that are unrelated to any work item directly&nbsp;to other Workfront users. Messages sent as described in this section appear in the Updates tab on the user's home&nbsp;page and are visible to all users. For additional information on updates, see [Update work items and view updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 The user you are sending the message to receives the following types of notifications when you send a message as described in this section:

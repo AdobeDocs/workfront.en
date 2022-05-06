@@ -3,12 +3,10 @@ filename: add-members-to-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add or remove members from a board
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: People must be added to the board as members before they can view the board and be assigned to cards.
 ---
 
 # Add or remove members from a board
-
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 People must be added to the board as members before they can view the board and be assigned to cards.
 

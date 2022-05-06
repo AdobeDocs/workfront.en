@@ -3,12 +3,20 @@ filename: task-finances-in-details
 product-area: projects
 navigation-topic: manage-tasks
 title: Manage task finances in the Task Details tab
-description: You can view or edit the financial information of a task by accessing the Overview area of the Task Details tab . There is a limited number of fields that you can view or edit in this area. For information about editing all financial information for a task see Edit tasks.
+description: (NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)
 ---
 
-# Manage task finances in the Task Details tab
+# Manage task finances in the Task Details  tab
 
-You can view or edit the financial information of a task by accessing the Overview area of the Task&nbsp;Details tab . There is a limited number of fields that you can view or edit in this area. For information about editing all financial information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
+-->
+
+You can view or edit the financial information of a task by accessing the Overview area of the Task&nbsp;Details  tab . There is a limited number of fields that you can view or edit in this area. For information about editing all financial information for a task see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Access requirements
 
@@ -32,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the task that include View Finance or higher</p> <p>You must have Manage permissions on the task that include Edit Finance to edit financial information on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +60,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Task Details**.
 1. Click the **Finance** subtab to access the task financial information.
 1. Review or click&nbsp;**Edit Finance** to edit information in the Finance subtab. 
-1. Review or edit the following information in the **Finance** subtab : 
+1. Review or edit the following information  in the **Finance** subtab : 
 
    <table cellspacing="0"> 
     <col> 

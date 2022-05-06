@@ -9,6 +9,10 @@ description: Certain fields in Adobe Workfront limit the number of characters th
 
 # Character limits in fields
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Certain fields in Adobe Workfront limit the number of characters that can be included in the field. Workfront indexes content so that it can be searched at a later time. A character limit is enforced in order to ensure high-quality performance of the Workfront system.
 
 When you approach the limit, a counter appears. When you exceed the limit, excess characters are highlighted, and you are unable to post the text. Delete characters until you are within the allowed limit.

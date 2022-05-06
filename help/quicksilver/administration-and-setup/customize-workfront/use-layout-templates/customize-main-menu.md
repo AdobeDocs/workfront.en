@@ -12,7 +12,7 @@ description: As an Adobe Workfront administrator or a group administrator, you c
 
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront:
 
-![](assets/main-menu-adobe-branding-350x184.png)
+![](assets/main-menu-adobe-branding-350x219.png)
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -67,7 +67,7 @@ You must have the following to perform the steps in this article:
 
      >[!NOTE]
      >
-     >This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     >The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
    * Teams
    * Users
@@ -89,6 +89,7 @@ You must have the following to perform the steps in this article:
      >This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * My&nbsp;Updates
+   * Boards
 
 1. Do any of the following:
 
@@ -108,6 +109,6 @@ You must have the following to perform the steps in this article:
 
    >[!TIP]
    >
-   >You can **Save** your progress at any time, then continue to modify the template later.
+   >You can click Save at any time to save your progress, then continue to modify the template later.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

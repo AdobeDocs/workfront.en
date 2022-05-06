@@ -10,6 +10,10 @@ description: The Capacity Planner is a Workfront tool for planning resources for
 
 >[!IMPORTANT]
 >
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
+>[!IMPORTANT]
+>
 >The information in this article refers to functionality that is currently deprecated and will be removed from Workfront. For information about the current functionality for managing resources in Workfront, see the [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md) section.
 
 The Capacity Planner is a Workfront tool for planning resources for your projects inside a Legacy Resource Pool, according to their availability. You cannot use the Capacity Planner outside a Legacy Resource Pool.

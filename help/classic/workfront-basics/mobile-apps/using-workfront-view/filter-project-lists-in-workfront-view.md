@@ -9,6 +9,10 @@ description: By default, Adobe Workfront View displays the All Projects list in 
 
 # Filter project lists in Adobe Workfront View
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 By default, Adobe Workfront View displays the All Projects list in Workfront, so all the projects you have access to View are listed, regardless of their status.&nbsp;
 
 You can filter the list of projects in Workfront View to only display projects that are relevant to you.&nbsp;After applying the filters, the project list remains filtered until the next time you login or until&nbsp;they are changed.

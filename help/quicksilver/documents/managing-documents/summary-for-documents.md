@@ -35,7 +35,7 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to the object associated with the document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access to the object associated with the document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,7 +84,7 @@ Use the Approvals section to ask for a document approval. You can also remind so
 
 Proof approvals must be added in the Proof Workflow. For more information on approvals, see
 
-* [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md) 
+* [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md) 
 * [Request document approvals](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

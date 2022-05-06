@@ -9,6 +9,10 @@ description: Dependency Types refer to the predecessor relationships between tas
 
 # Overview of task dependency types
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Dependency Types refer to the predecessor relationships between tasks. They define when the dependent task can start or finish based on the start or finish of its predecessor.
 
 >[!IMPORTANT]

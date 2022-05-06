@@ -11,7 +11,7 @@ description: You can quickly access your Workfront Proof account directly from t
 
 You can quickly access your Workfront Proof&nbsp;account directly from the Adobe Workfront interface without&nbsp;needing log in to Workfront Proof&nbsp;when the following conditions are met:
 
-* Your Workfront environment is integrated with a Workfront Proof&nbsp;Premium account. For more information about what functionality is available only with a Workfront Proof&nbsp;Premium account, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Your Workfront environment is integrated with a Workfront Proof&nbsp;Premium account. For more information about what functionality is available only with a Workfront Proof&nbsp;Premium account, see .
 
   You have a Workfront Proof&nbsp;license. (It is not required that you are a Workfront Proof&nbsp;administrator.)
 

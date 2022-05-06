@@ -32,7 +32,7 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -47,7 +47,7 @@ You must have the following access to perform the actions described in this arti
    <td> 
     <div> 
      <p>View or higher permissions on goals</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -126,16 +126,16 @@ The following charts are available in the Graphs section or Workfront Goals:
 
    ![](assets/line-graph-wf-align-350x161.png)
 
-   <table cellspacing="0"> 
+   <table cellspacing="3"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Baseline progress</td> 
+      <td>Baseline progress</td> 
       <td>The green slope line indicates the expected overall percent complete average of active and closed goals for the selected time period. All goals within a period are expected to complete, so the baseline progress is always 100% at the end of the period. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Actual progress</td> 
+      <td>Actual progress</td> 
       <td> <p>The blue line indicates the actual overall percent complete average of active and closed goals for the selected time period in weekly increments. Each week during the duration of the goal is marked by a node in the line. </p> </td> 
      </tr> 
     </tbody> 
@@ -152,44 +152,5 @@ The following charts are available in the Graphs section or Workfront Goals:
    Or
 
    Click **Baseline** at the bottom of the progress chart to remove the expected progress from the chart.
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(Optional) Click one of the following tabs to view goals filtered by their owners: </p>
-<div>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Personal</td>
-<td>Goals where you are designated as the owner or that have a result or activity that you own.&nbsp;</td>
-</tr>
-<tr>
-<td role="rowheader">My Teams</td>
-<td> <p>Goals where any of your teams is designated as the Owner. </p> <note type="tip">
-<span>If you are not assigned to any teams, no results display when you select the My Teams filter. </span>
-</note> </td>
-</tr>
-<tr>
-<td role="rowheader">My Groups</td>
-<td>Goals where any of your groups is designated as the Owner. </td>
-</tr>
-<tr>
-<td role="rowheader">Company</td>
-<td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your Workfront instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p> <note type="tip">
-<p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p>
-<p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p>
-</note> </td>
-</tr>
-<tr>
-<td role="rowheader">All</td>
-<td>Goals owned by you, your teams, your groups, your company, or anyone in your organization.</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
--->
 
 &nbsp;

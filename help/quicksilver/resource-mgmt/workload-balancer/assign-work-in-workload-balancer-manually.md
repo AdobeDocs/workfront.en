@@ -2,17 +2,15 @@
 filename: assign-work-in-workload-balancer-manually
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Assign work manually using the Adobe Workfront Workload Balancer
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+title: Assign work manually using the Workload Balancer
+description: You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 ---
 
-# Assign work manually using the Adobe Workfront Workload Balancer
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+# Assign work manually using the Workload Balancer
 
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 
-For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
 
@@ -42,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +67,7 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
 1. Click the **More menu** ![](assets/qs-more-menu.png) to the left of a work item name, then click **Assign this to**.
 
-   ![](assets/workload-balancer-assign-this-to-link-from-task-350x117.png)
+   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -82,37 +80,33 @@ You can assign work items that have not yet been assigned to a user or reassign 
    >   
    >
 
-1. 
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Do one of the following:</p>
-   -->
+1. Do one of the following:
 
    * Start typing the name of a user, job role, or team that you want to assign to the item in the **Search people, role or teams** field, select it when it displays in the list, then click&nbsp;**Save**.
 
-   ![](assets/assignments-box-wb.png)
+     ![](assets/assignments-box-with-advanced-assignments-wb-nwe-350x373.png)
 
-   This assigns or reassigns the work item to the specified assignees.
+     This assigns or reassigns the work item to the specified assignees.
 
-   If you assign an item to just a team or a job role, the item displays only in the Unassigned Work area. You must assign work items to users in order to display them in the Assigned Work area of the Workload Balancer.
+     If you assign an item to just a team or a job role, the item displays only in the Unassigned Work area. You must assign work items to users in order to display them in the Assigned Work area of the Workload Balancer.
 
-   >[!TIP]
-   >
-   >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
-   >
-   >
-   >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
-   >
-   >   
-   >   
-   >   * ```Reassign the work item to active resources.``` 
-   >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
-   >   
-   >
+     >[!TIP]
+     >
+     >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+     >
+     >
+     >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+     >
+     >   
+     >   
+     >   * ```Reassign the work item to active resources.``` 
+     >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+     >   
+     >
 
-     <!--   
-     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <p>Click <strong>Advanced</strong> to access Advance Assignments. </p> <p>For more information about making Advanced Assignments, see <a href="../../manage-work/tasks/assign-tasks/create-advanced-assignments.md" class="MCXref xref">Create advanced assignments</a>. </p> </li>   
-     -->
+   * Click **Advanced** to access Advanced Assignments.
+
+     For more information about making Advanced Assignments, see [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**.
 
@@ -122,7 +116,7 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   For information about removing assignments from a work item using the Workload Balancer, see [Unassign work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   For information about removing assignments from a work item using the Workload Balancer, see [Unassign work in the Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
    &nbsp;
 

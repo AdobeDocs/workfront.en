@@ -10,6 +10,10 @@ description: Depending on the amount of content your organization stores in Work
 
 # Overview of collections in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Depending on the amount of content your organization stores in Workfront Library, you might have to search through hundreds of folders containing thousands of assets in order to find the items you need for your work.
 
 Collections allow you to gather and organize related content one place and, if desired, share the content with team members and other users.

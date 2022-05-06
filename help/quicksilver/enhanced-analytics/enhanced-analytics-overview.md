@@ -53,7 +53,7 @@ To see information for projects and tasks, you must:
 
 * Have View permission for specific tasks and/or projects.
 
-  For information on requesting additional access, see [Request access to objects in Adobe Workfront](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  For information on requesting additional access, see [Request access to objects](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Best practices for Enhanced analytics
 

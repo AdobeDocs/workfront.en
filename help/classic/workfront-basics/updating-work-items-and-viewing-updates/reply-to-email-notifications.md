@@ -8,6 +8,10 @@ description: Make comments on objects without logging in to Adobe Workfront. You
 
 # Reply to email notifications
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Make comments on objects without logging in to Adobe Workfront. You can respond to Workfront email that is generated from comments made to the following objects:
 
 * Project

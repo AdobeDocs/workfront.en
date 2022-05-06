@@ -3,11 +3,11 @@ filename: filter-parent-task-filter
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Filter: parent task filters
+title: Filter: display parent tasks
 description: You can apply the task filters below to display working tasks. Working tasks are tasks that can be worked independently and are not parent tasks to other tasks. In one example, a filter identifies children tasks that could be parents themselves. In this case, they are not working tasks.
 ---
 
-# Filter: parent task filters
+# Filter: display parent tasks
 
 You can apply the task filters below to display working tasks. Working tasks are tasks that can be worked independently and are not parent tasks to other tasks. In one example, a filter identifies children tasks that could be parents themselves. In this case, they are not working tasks.
 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,6 +97,11 @@ You can apply the following filter to a task report to display standalone workin
    Or
 
    Instead of steps 6-7, click&nbsp;**Switch to Text Mode** and in the&nbsp;text editing window, copy and paste the following text:&nbsp;
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure steps above stay accurate)</p>
+   -->
+
    <pre>numberOfChildren=0</pre><pre>numberOfChildren_Mod=eq</pre><pre>parentID_Mod=isblank</pre>
 
 1. Click **Save + Close**.

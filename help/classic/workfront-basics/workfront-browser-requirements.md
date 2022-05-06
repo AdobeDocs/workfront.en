@@ -8,6 +8,10 @@ description: Both Adobe Workfront and Workfront Proof require the use of an inte
 
 # Adobe Workfront browser requirements
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Both Adobe Workfront and Workfront Proof require the use of an internet browser. The supported browser versions are as follows:
 
 * **Web browser:**&nbsp;Workfront officially supports the current browser version and one previous version (and any previous version that constitutes at least five percent of total Workfront traffic) for the following browsers: &nbsp;&nbsp;

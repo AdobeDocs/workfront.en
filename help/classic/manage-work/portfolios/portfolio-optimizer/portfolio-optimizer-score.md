@@ -9,6 +9,10 @@ description: You can find the Portfolio Optimizer score in the Portfolio Optimiz
 
 # Overview of the Portfolio Optimizer Score
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can find the Portfolio Optimizer score in the ```Portfolio Optimizer. It displays in the **Score** column for every project```. This represents a score for every project in the portfolio.
 
 For information about locating the Portfolio Optimizer, see the article [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
@@ -32,7 +36,7 @@ The portfolio optimizer score is a ranking automatically calculated in the Portf
 
 >[!NOTE]
 >
->A project can be scored in the Portfolio Optimizer only if its Business Case has been completed. For more information about completing a Business Case, see the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+>A project can be scored in the Portfolio Optimizer only if its Business Case has been completed. For more information about completing a Business Case, see the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
@@ -45,6 +49,10 @@ The score for each project is calculated based on the importance of the followin
 * ROI
 
 ## Calculate the Portfolio Optimizer Score
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;This was edited based on this issue, per Anna: https://hub.workfront.com/issue/603d0c58000095ea0bc00ce5e2110693/overview)</p>
+-->
 
 Workfront produces a score using the Portfolio Optimizer which is a ranking to assist in the prioritization of projects. The values in the portfolio are based on values entered into the business cases of the projects and are used to calculate a score for the project. Projects with a higher score could be considered of greater importance and they could be prioritized to be completed first.
 

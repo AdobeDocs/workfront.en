@@ -9,6 +9,10 @@ description: If you are a group administrator, you can configure and then lock a
 
 # Lock or unlock a group timesheet and hour preference
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If you are a group administrator, you can configure and then lock a timesheet and hour preference for your group after a Workfront administrator unlocks it at the system level.
 
 Locking an Adobe Workfront preference```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  at the group level</MadCap:conditionalText>``` ensures that everyone```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  in your group and in its subgroups</MadCap:conditionalText>``` is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can’t do so for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> lower subgroups</MadCap:conditionalText>```.
@@ -20,6 +24,10 @@ This is parallel to the ability that a Workfront administrator has to lock or un
 For information about how a Workfront administrator can lock or unlock a timesheet and hour preference for all groups in the system, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 For information about configuring a timesheet and hour preference for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
+-->
 
 >[!NOTE]
 >

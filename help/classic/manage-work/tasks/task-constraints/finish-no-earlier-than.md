@@ -9,6 +9,10 @@ description: Finish No Earlier Than (FNET) is a Task Constraint that schedules a
 
 # Task Constraint overview: Finish No Earlier Than
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Finish No Earlier Than (FNET) is a Task Constraint that schedules a task to complete after the date you specify.
 
 ## Overview of the Finish No Earlier Than constraint
@@ -38,6 +42,7 @@ Consider the following when using the Finish No Earlier Than (FNET) constraint f
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="using-FNET"></a>Use the Finish No Earlier Than constraint</h2>
+<p>(NOTE: replaced with new article linked above)&nbsp;</p>
 <p>To update the Task Constraint to Finish No Earlier Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

@@ -3,10 +3,22 @@ filename: edit-tasks
 product-area: projects
 navigation-topic: manage-tasks
 title: Edit tasks
-description: You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
+description: (NOTE: some information in this area is repeated in the following articles. If you need to update a fied, update it in both:
 ---
 
 # Edit tasks
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: some information in this area is repeated in the following articles. If you need to update a fied, update it in both:</p>
+<p>** Task finances in details</p>
+<p>** Task information in overview)</p>
+</div>
+-->
 
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
@@ -39,7 +51,7 @@ You must have the following access to perform the steps in this article:
     </ul> 
     <ul> 
      <li> <p>Contribute or higher permissions to the project</p> </li> 
-    </ul> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+    </ul> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +109,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    * To edit all information about the task, either click the name of a task in the list, then click **Edit Task.**
 
-   ![](assets/et1-350x471.png)
+   ![](assets/et1-350x394.png)
 
    Or
 
@@ -246,7 +258,8 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
          <p>Note: Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> 
          <p> <!--
            <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-            You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. 
+            You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.)<![CDATA[
+    ]]>
            </MadCap:conditionalText>
           --></p> 
         </div> 
@@ -262,7 +275,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
        <div> 
         <p>The amount of effort required to complete the task. Your project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:</p> 
         <ul> 
-         <li> <p>The task has a Simple Duration&nbsp;Type. </p> <p>Tip: If you update the task Duration&nbsp;Type, this field becomes dimmed. </p> </li> 
+         <li> <p>The task has a Simple Duration&nbsp;Type. </p> </li> 
          <li>Your project manager has enabled the Use Work Effort to automatically calculate task Planned Hours field on the project. </li> 
         </ul> 
         <p>Select from the following options:</p> 
@@ -409,7 +422,9 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
        <ul> 
         <li> <p>Only active approval processes display in the list. </p> </li> 
         <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list. </p> <p>Important:  If the group of the project changes, the group-specific approval process previously attached becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-        <li> <p data-mc-conditions="QuicksilverOrClassic.Classic"> If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. </p> </li> 
+        <li> <p data-mc-conditions="QuicksilverOrClassic.Classic"> If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. </p> <!--
+          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>
+         --> </li> 
         <li> <p>You can define default approval processes to be automatically attached to tasks when the tasks are added to a project. For information about setting up the project to include default task approval processes, see the "Tasks" section in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. </p> </li> 
         <li> <p>When bulk-editing tasks, the following scenarios exist: </p> 
          <ul> 
@@ -425,7 +440,11 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
        <ul> 
         <li> <p><strong>None</strong> (this is the default):</p> </li> 
         <li> <p><strong>Global</strong> </p> </li> 
-       </ul> <p>If you want the task assignee to not be allocated to any other task during the duration of the task, select the <strong>Global</strong> Resource Scope.</p> <p>For more information about the Resource Scope of a task, see <a href="../../../manage-work/tasks/task-information/resource-scope.md" class="MCXref xref">Resource Scope overview</a>.</p> </td> 
+       </ul> <p>If you want the task assignee to not be allocated to any other task during the duration of the task, select the <strong>Global</strong> Resource Scope.</p> <p>For more information about the Resource Scope of a task, see <a href="../../../manage-work/tasks/task-information/resource-scope.md" class="MCXref xref">Resource Scope overview</a>. <!--
+         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+          (NOTE: this is a classic only article and snippet)
+         </MadCap:conditionalText>
+        --></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Resource Leveling</strong> </td> 
@@ -505,7 +524,7 @@ You can define default custom forms to be automatically attached to tasks when t
 
    >[!NOTE]
    >
-   >Depending on how your Workfront administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the task itself. For information about setting task permissions, see [Share a task in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+   >Depending on how your Workfront administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the task itself. For information about setting task permissions, see [Share a task](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
 1. (Optional) Continue editing the following section, depending on the information you want to modify.
 

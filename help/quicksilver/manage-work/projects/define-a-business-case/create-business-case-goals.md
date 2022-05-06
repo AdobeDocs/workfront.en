@@ -9,6 +9,10 @@ description: As part of creating a Business Case, you can create a set of goals 
 
 As part of creating a Business Case, you can create a set of goals to define the objectives of a project. Business Case goals are used to communicate to the Portfolio Manager or the Project Sponsor the purpose of completing a project.
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
+-->
+
 >[!TIP]
 >
 >You can create strategic goals for your organization that are not connected to a project's individual Business Case. You must have access to&nbsp;Adobe Workfront Goals to be able to create strategic goals. You can then connect them with projects outside of their Business Cases. For information about creating goals using Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
@@ -50,7 +54,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +66,9 @@ You must have the following access to perform the steps in this article:
 1. Go to a project for which you want to define Business Case goals.  
 1. Click **Business Case in the left panel.**
 
-   The Business Case is displayed.
+   The Business Case displays.
+
+   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. In the **Goals** section, click&nbsp;**Edit Goals**.
 

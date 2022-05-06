@@ -50,7 +50,7 @@ For more information, see [Adobe Workfront modules](../../../workfront-fusion/ap
 <li> <p>Number of operations</p> </li>
 <li> <p>Amount of data transferred</p> </li>
 </ul>
-<p>For more information on filtering and sorting execution history, see <a href="../../../workfront-fusion/scenarios/view-scenario-execution-history.md" class="MCXref xref" xrefformat="{para}">View a scenario's execution history</a>.</p>
+<p>For more information on filtering and sorting execution history, see <a href="../../../workfront-fusion/scenarios/view-scenario-execution-history.md" class="MCXref xref" xrefformat="{para}">View a scenario's execution history in Adobe Workfront Fusion</a>.</p>
 </div>
 -->
 

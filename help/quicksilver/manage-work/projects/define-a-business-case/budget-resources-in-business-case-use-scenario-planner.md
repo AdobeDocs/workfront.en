@@ -1,19 +1,19 @@
 ---
 filename: budget-resources-in-business-case-use-scenario-planner
 navigation-topic: business-case-and-scorecards
-title: Budget resources in the Business Case using the Adobe Workfront Scenario Planner
+title: Budget resources in the Business Case using the Scenario Planner
 description: As part of resource planning, you can use the Adobe Workfront Scenario Planner to budget the job roles necessary for completing the work in a project when you build the business case.
 ---
 
-# Budget resources in the Business Case using the Adobe Workfront Scenario Planner
+# Budget resources in the Business Case using the Scenario Planner
 
 As part of resource planning, you can use the Adobe Workfront Scenario Planner to budget the job roles necessary for completing the work in a project when you build the business case.
 
-For more information about creating a business case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about creating a business case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!TIP]
 >
->The job role information for the initiative linked to the project that you enter in the system-level Scenario Planner is visible in the Resource Budgeting area of the project's business case when you publish the initiative. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+>The job role information for the initiative linked to the project that you enter in the system-level Scenario Planner is visible in the Resource Budgeting area of the project's business case when you publish the initiative. The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
 You can also budget resources in the business case using the Resource Planner. For more information, see the following:
 
@@ -44,7 +44,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -53,11 +53,11 @@ You must have the following:
      <li> <p>Projects</p> </li> 
      <li> <p>Financial Data</p> </li> 
      <li> <p>Scenario Planner </p> </li> 
-    </ul> <p>For information about the access needed to budget resources, also see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources</a>.</p> <p>Note: If you still don't have access, ask your Adobe Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>For information about the access needed to budget resources, also see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p> <p>Note: If you still don't have access, ask your Adobe Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +70,7 @@ Before you begin, you must do the following:
 
 * Create a plan using the Scenario Planner.
 
-  For information, see [Create and edit plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-plans.md).
+  For information, see [Create and edit plans in the Scenario Planner](../../../scenario-planner/create-and-edit-plans.md).
 
 * Create an initiative on the plan and link it to a project.
 
@@ -78,9 +78,9 @@ Before you begin, you must do the following:
 
   For more information, see the following articles:
 
-   * [Create and edit initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md) 
-   * [Import projects to plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/import-projects-to-plans.md) 
-   * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+   * [Create and edit initiatives in the Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md) 
+   * [Import projects to plans in the Scenario Planner](../../../scenario-planner/import-projects-to-plans.md) 
+   * [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 * Although these are not prerequisites, we also recommend the following:
 
@@ -128,12 +128,12 @@ Before you begin, you must do the following:
      >   
      >   
      >   * Resource Budgeting area of the Business Case 
-     >   * The system-level Scenario Planner as the People Cost of the initiative linked to the project. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md). 
+     >   * The system-level Scenario Planner as the People Cost of the initiative linked to the project. For more information, see [Create and edit initiatives in the Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md). 
      >   
      >
 
 1. (Optional)&nbsp;Click&nbsp;**View in Scenario Planner** to open the plan that contains the initiative linked to the project. This opens the Scenario Planner in a new browser tab. 
-1. (Optional) Update information on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
+1. (Optional) Update information on the initiative. For more information, see [Create and edit initiatives in the Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
    >

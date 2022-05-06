@@ -54,7 +54,11 @@ Setting the Commit Date for a task or issue triggers the following changes:
 
 * The Project Owner is notified in the notifications area and in the Updates tab of the task whether this change will impact the project timeline.
 
-  ![](assets/in-product-notification-commit-date-changed-nwe-350x137.png)
+  ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip below is actually wrong and the updates feeds should not control this setting, but at this time it does, according to this issue in Hub: https://hub.workfront.com/issue/61e1aa5e0002a186fdd0a73a10db0fc3/updates?email-source=comm</p>
+  -->
 
   >[!TIP]
   >
@@ -79,6 +83,7 @@ For information about updating Commit Dates for tasks and issues, see [Update Co
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Updating"></a>Update Commit Dates on tasks and issues</h2>
+<p>(NOTE:&nbsp;moved to its own article) </p>
 <p>Updating the Commit Date is identical for tasks and issues.</p>
 <ol>
 <li value="1"> <p>Go to a task or issue that you are assigned to as the <strong>Task Owner</strong>.</p> <p>For more information about finding out who the Task Owner for an issue or task is, see the section <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments" class="MCXref xref">Edit tasks</a> in the article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref">Edit tasks</a>.</p> </li>

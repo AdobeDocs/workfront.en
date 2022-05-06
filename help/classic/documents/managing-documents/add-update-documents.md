@@ -3,14 +3,16 @@ filename: add-update-documents
 product-area: documents
 navigation-topic: manage-documents
 title: Add an update to a document
-description: You can add or reply to updates on a document to communicate with collaborators and create an audit trail.
+description: You can add or reply to updates on a document to communicate with collaborators and create an audit trail. For information about adding updates to work items, see Update work.
 ---
 
 # Add an update to a document
 
-You can add or reply to updates on a document to communicate with collaborators and create an audit trail.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-For information about adding updates to work items, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+You can add or reply to updates on a document to communicate with collaborators and create an audit trail. For information about adding updates to work items, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Access requirements
 

@@ -9,6 +9,10 @@ description: As a Workfront Library administrator you can remove keywords from t
 
 # Delete a keyword from the picklist in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a Workfront Library administrator you can remove keywords from the keyword picklist. For information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
 
 When you delete a keyword from the picklist, the keyword is also removed from all assets tagged with the keyword. A search using a deleted keyword returns no results.

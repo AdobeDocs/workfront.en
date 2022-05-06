@@ -8,6 +8,10 @@ description: The Innovation Lab enables authenticated users to submit, vote on, 
 
 # The Innovation Lab
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Innovation Lab enables&nbsp;authenticated users to submit, vote on, and discuss ideas with fellow&nbsp;customers.
 
 As an authenticated user, you can:

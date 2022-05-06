@@ -3,11 +3,11 @@ filename: deactivate-a-company
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Deactivate a company
+title: Deactivate or reactivate a company
 description: You can deactivate a company that you no longer use while retaining all of its associated historical data. If you deactivate a company already in use somewhere in the system, it continues to function just like it always has. It is not removed or blocked.
 ---
 
-# Deactivate a company
+# Deactivate or reactivate a company
 
 You can deactivate a company that you no longer use while retaining all of its associated historical data. If you deactivate a company already in use somewhere in the system, it continues to function just like it always has. It is not removed or blocked.
 
@@ -38,8 +38,8 @@ You must have the following in order to manage companies in Workfront:
       <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
       <li> <p>In order to add to and remove users from the Workfront system, you must have one of the following:</p> 
        <ul> 
-        <li> <p>The System Administrator access level. For information about this access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-        <li> <p>In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png"> , the Create option and at least one of the two User Admin options must be enabled. </p> <p>If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> </li> 
+        <li> <p>The System Administrator access level. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+        <li> <p>In your access level, Edit must be selected for the Users setting. Also, for the Users setting, under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png"> , the Create option and at least one of the two User Admin options must be enabled. </p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member.</p> </li> 
        </ul> <p>For information about the Users setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -48,17 +48,19 @@ You must have the following in order to manage companies in Workfront:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
+## Deactivate or reactivate a company
+
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **Companies** ![](assets/companies-icon-left-panel.png).
 
-1. Select one or more companies to deactivate.
+1. Select one or more companies to deactivate or reactivate.
 1. Click **Edit**.
-1. If editing a single company, disable the **Is Active** option.
+1. For a single company, disable the **Is Active** option to deactivate it, or enable the option to activate it.
 
    Or
 
-   If editing multiple companies, select **No** from the **Is Active** drop-down menu.
+   For multiple companies, select **No** from the **Is Active** drop-down menu to deactivate them, or **Yes** to activate them.
 
 1. Click **Save Changes**.
 

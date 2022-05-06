@@ -8,6 +8,10 @@ description: You can configure what information displays in both the Task List G
 
 # Configure how information displays on the Gantt Chart
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can configure what information displays&nbsp;in both the Task List Gantt Chart and the Project List Gantt Chart.
 
 ## Access requirements
@@ -32,7 +36,7 @@ You must have the following to follow the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,7 +117,7 @@ The following table details the display options for the Gantt chart:
 
 1. (Optional) Select the&nbsp;**Switch to Projected Dates**&nbsp;setting to display the tasks by their Projected Dates. By default, tasks are displayed by their Planned Dates in the Gantt chart.
 1. Click&nbsp;the options icon to display the&nbsp;**Options**&nbsp;dialog box.  
-   ![Options.png](assets/options-350x72.png)
+   ![Options.png](assets/options-350x129.png)
 
 1. Select the configuration options&nbsp;that you want to display in the Gantt chart.
 1. Not all of the configuration options are available in the Project List Gantt Chart.

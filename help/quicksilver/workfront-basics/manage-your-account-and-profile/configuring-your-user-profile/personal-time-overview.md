@@ -17,6 +17,14 @@ For example, if you are assigned to a task that is scheduled to take two weeks, 
 
 Resource Management tools also use your personal time off to indicate when you are available to be scheduled for work.
 
+>[!NOTE]
+>
+>To ensure that no inconsistencies occur with the dates that you schedule your time off for, we recommend that your user profile's time zone matches that of your schedule. For more information, see the following articles: 
+>
+>* [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) 
+>* [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) 
+>
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

@@ -34,7 +34,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions with access to share</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions with access to share</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,6 +48,10 @@ You must have the following:
 * Managing filters, views, and groupings has been standardized for all three elements to match one another. You can now remove or share a filter, view, or a grouping without first having to display it.
 
 ## Lists where the updated toolbar is available in the new Adobe Workfront experience
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This should be replaced at some point with something like "all lists have the new toolbar available" or a list of areas, instead of objects that support this???) </p>
+-->
 
 The updated toolbar is available in the following lists:
 
@@ -227,7 +231,7 @@ For example, to manage a filter:
 
    The **Filters** box displays.
 
-   ![](assets/qs-manage-filters-in-the-new-toolbar-350x306.png)
+   ![](assets/qs-manage-filters-in-the-new-toolbar-350x293.png)
 
    A check mark appears to the left of a filter that is currently applied to the list.
 

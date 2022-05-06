@@ -9,6 +9,10 @@ description: This section contains the following subsections:
 
 # Reports
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This section contains the following subsections:
 
 * [Reporting basics](../../reports-and-dashboards/reports/reporting/reporting-basics.md) 
@@ -22,4 +26,12 @@ This section contains the following subsections:
 * [Calendars](../../reports-and-dashboards/reports/calendars/calendars.md) 
 * [Tips, tricks, and troubleshooting for reports](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
 
-For in-depth training on reports, see [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+<!--
+<a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank" data-mc-conditions="QuicksilverOrClassic.Draft mode">Learning Path for reports and dashboards</a>
+-->
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  (link no longer working, drafted)
+</MadCap:conditionalText>
+-->
+

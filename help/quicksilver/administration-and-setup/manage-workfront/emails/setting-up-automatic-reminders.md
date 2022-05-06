@@ -4,10 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Set up automatic reminders
-description: As an Adobe Workfront administrator, you can set up automatic reminders to trigger email notifications when all tasks or issues are due, late, or near the planned completion date. After you configure these settings, users cannot disable automatic reminders.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Set up automatic reminders
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 As an Adobe Workfront administrator, you can set up automatic reminders to trigger email notifications when all tasks or issues are&nbsp;due, late, or near the planned completion date. After you configure these settings, users cannot disable automatic reminders.
 

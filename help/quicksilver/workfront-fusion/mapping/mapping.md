@@ -13,9 +13,9 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 This section contains the following articles:
 
-* [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md) 
-* [About mapping files](../../workfront-fusion/mapping/about-mapping-files.md) 
-* [Item data types](../../workfront-fusion/mapping/item-data-types.md) 
-* [Map an array](../../workfront-fusion/mapping/map-an-array.md) 
-* [Type coercion](../../workfront-fusion/mapping/type-coercion.md)
+* [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md) 
+* [About mapping files in Adobe Workfront Fusion](../../workfront-fusion/mapping/about-mapping-files.md) 
+* [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md) 
+* [Map an array in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-an-array.md) 
+* [Type coercion in Adobe Workfront Fusion](../../workfront-fusion/mapping/type-coercion.md)
 

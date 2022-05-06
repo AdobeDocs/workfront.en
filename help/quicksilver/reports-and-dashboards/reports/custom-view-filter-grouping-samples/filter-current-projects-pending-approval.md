@@ -3,11 +3,11 @@ filename: filter-current-projects-pending-approval
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Filter: current projects pending approval
+title: Filter: display your current projects pending approval
 description: The following project filter displays projects in the Current - Pending Approval status, where the logged-in user is either the Project Sponsor or the Portfolio Manager.
 ---
 
-# Filter: current projects pending approval
+# Filter: display your current projects pending approval
 
 The following project filter displays projects in the Current - Pending Approval status,&nbsp;where the logged-in user is either the Project Sponsor or the Portfolio Manager.
 
@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -11,6 +11,10 @@ description: Metadata is information that describes the attributes and content o
 
 # Overview of metadata in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Metadata is information that describes the attributes and content of an asset and enhances its searchability. Even though your organization might have thousands of assets in Workfront Library, you can quickly locate the content you want using accurate and detailed metadata.
 
 A Workfront Library administrator sets up the metadata to gather the types of information most useful for your organization. Workfront Library supports 2 types of metadata:

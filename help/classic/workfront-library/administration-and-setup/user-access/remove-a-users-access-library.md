@@ -9,6 +9,10 @@ description: As a Workfront Library administrator, you can remove a user's acces
 
 # Remove a user's access to Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a Workfront Library administrator, you can remove a user's access to Workfront Library. When you remove a user from Workfront Library, only their access to Workfront Library is removed. Their Workfront account remains active. Any content that they owned in Workfront Library remains in Workfront Library.
 
 If a Workfront system administrator deactivates a user in Workfront, they automatically lose access to Workfront Library.

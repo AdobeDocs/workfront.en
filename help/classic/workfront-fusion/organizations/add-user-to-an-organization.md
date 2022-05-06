@@ -3,11 +3,15 @@ filename: add-user-to-an-organization
 product: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Add a user to an organization
+title: Add a user to an organization in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Add a user to an organization
+# Add a user to an organization in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 ## Access requirements
 
@@ -73,7 +77,7 @@ You must have the following access to use the functionality in this article:
 </div>
 -->
 
-To add users to the organization, you must be an administrator at the organization you want to add users to. For information about roles, see [Organization roles](../../workfront-fusion/organizations/organization-roles.md).
+To add users to the organization, you must be an administrator at the organization you want to add users to. For information about roles, see [Organization roles in Adobe Workfront Fusion](../../workfront-fusion/organizations/organization-roles.md).
 
 To add a user to the organization:
 

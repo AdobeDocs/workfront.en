@@ -9,6 +9,10 @@ description: The Projected Start Date is a real-time date of when the project is
 
 # Overview of the project Projected Start Date
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Overview of the Projected Start Date for projects and tasks
 
 The Projected Start Date is a real-time date of when the project is going to start based on the Projected Start Date of the first task on the project.&nbsp;

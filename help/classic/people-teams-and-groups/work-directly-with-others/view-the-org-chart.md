@@ -8,6 +8,10 @@ description: The organizational chart feature allows you to to view the organiza
 
 # View the organizational chart
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The organizational chart feature allows you to to view the organizational chart associated with a particular Adobe Workfront user.&nbsp;Organizational charts are a great way to visualize the structure of a specific department.
 
 ## Access requirements

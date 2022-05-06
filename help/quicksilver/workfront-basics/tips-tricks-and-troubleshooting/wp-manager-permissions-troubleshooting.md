@@ -16,12 +16,15 @@ Following are the permission profiles available in Adobe Workfront for proofing 
 * Supervisor
 * Manager
 
-For detailed information about these options and how to configure them, see [Configure a user's proofing access](../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+For detailed information about these options and how to configure them, see .
 
 When granting a user Manager permissions, the following troubleshooting information is available:
 
-* **PROBLEM:** Users with Manager permissions cannot view proofs created by other users. Instead, they see the Access Denied screen.&nbsp; [ ![](assets/access-denied.png)  
-  ](../../Resources/Images/Getting Started/Tips, Tricks, and Troubleshooting/Access_Denied.png)**SOLUTION:**&nbsp;Users with Manager permissions must be explicitly added to the proofs. Proofs should always be created via the Advanced proofing options window and users should always be added via this option.
+* **PROBLEM:** Users with Manager permissions cannot view proofs created by other users. Instead, they see the Access Denied screen.&nbsp;
+
+  ![](assets/access-denied-350x161.png)
+
+  **SOLUTION:**&nbsp;Users with Manager permissions must be explicitly added to the proofs. Proofs should always be created via the Advanced proofing options window and users should always be added via this option.
 
 * **PROBLEM:** Users with Manager permissions cannot add proof versions to the proofs created by other users (they could potentially submit a proof in the documents set, but the versions would NOT be connected to the original set created by another user).  
   **SOLUTION:** Users with Manager permissions can submit the versions to another user's proof only if the user with Manager permissions when both of the following :

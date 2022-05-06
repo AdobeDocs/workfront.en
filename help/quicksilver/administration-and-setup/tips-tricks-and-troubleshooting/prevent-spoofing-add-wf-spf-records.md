@@ -16,7 +16,7 @@ If users are not receiving Adobe Workfront&nbsp;email notifications, you need to
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

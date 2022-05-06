@@ -2,6 +2,10 @@
 
 # View and manage a group’s details
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can view and manage the main details for a group you administer. These include the group’s name, description, Business Leader, and group administrators. You can also make the group and all of its subgroups public or private.
 
 For information about other ways you can manage a group, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
@@ -27,14 +31,15 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
-## View and manage a group’s details {#view-and-manage-a-group-s-details}
+## View and manage a group’s details
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Groups**.
 
-   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. Click the name of the top-level group that you want to edit.
+1. If you want to deactivate or reactivate the group, 
 1. In the box that displays, make any of the following changes:
 
    <table cellspacing="0"> 
@@ -70,7 +75,7 @@ You must have the following to perform the steps in this article:
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
+        <li> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -79,27 +84,4 @@ You must have the following to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
-
-<!--
-<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Inactive"></a>Inactive groups</h2>
-<p>Consider the following about a group that you deactivate by disabling the Is Active option explained in the section <a href="#view-and-manage-a-group-s-details" class="MCXref xref">View and manage a group’s details</a> in this article.</p>
-<ul>
-<li> <p>Deactivating a group also deactivates all subgroups below it.</p> <p>For information about re-activating a subgroup in this situation, see <a href="#about-reactivating-a-subgroup-below-an-inactive-parent-group" class="MCXref xref">About reactivating a subgroup below an inactive parent group</a> in this article.</p> </li>
-<li> <p>When you go to the Groups area in Setup, you can see only active groups in the list because Active is the default filter <img src="assets/filter-nwepng.png"> for it. If you want to see all of the groups you manage, including the inactive ones, you can use the All filter.</p> <p>For more information about filters in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li>
-<li> <p>Deactivating a group does not change the following:</p>
-<ul>
-<li> <p>The group's associations to objects. Associated objects continue to function as they did before, without any changes.</p> <p>For example, if a project is associated with a group you deactivate, the project continues to use the group's preferences and statuses without any changes.</p> </li>
-<li> <p>Your ability to create a new object, such as an approval, team, or company, from within the group's page in setup. By default, the new object is associated with the inactive group.</p> </li>
-<li> <p>Your ability, as an administrator, to find the group in filters and reporting.</p> <p>You can also find it in group type-ahead fields where you might want to manage the group's settings in the Setup area. This includes the Preferences, Event Notifications, and System Licenses areas.</p> <p>For example, if you go to Setup > Project Preference > Projects and clear the type-ahead field above the options there, you can still find an inactive group and configure its project preferences.</p> </li>
-</ul> </li>
-</ul>
-<h2 id="about-reactivating-a-subgroup-below-an-inactive-parent-group"><a name="Reactiva"></a>About reactivating a subgroup below an inactive parent group</h2>
-<p>Deactivating a group also deactivates all subgroups below it. If you need to reactivate one of the subgroups under an inactive group, you can do one of two things:</p>
-<ul>
-<li> <p>Move the subgroup under an active group. Then enable the Is Active option for the moved group, as explained in the section <a href="#view-and-manage-a-group-s-details" class="MCXref xref">View and manage a group’s details</a> in this article.</p> <p>For instructions on moving a group, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md" class="MCXref xref">Move a group</a>.</p> </li>
-<li> <p>Remove the subgroup from its parent group (which makes the subgroup a top-level group). Then enable the Is Active option for the moved group, as explained in the section <a href="#view-and-manage-a-group-s-details" class="MCXref xref">View and manage a group’s details</a> in this article.</p> <p>For instructions on removing a subgroup from its parent group, see the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make" class="MCXref xref">Remove a subgroup from its parent group and make it a top-level group</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md" class="MCXref xref">Manage a subgroup</a>.</p> </li>
-</ul>
-</div>
--->
 

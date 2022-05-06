@@ -2,19 +2,19 @@
 filename: prioritize-initiatives
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Update initiative priorities in the Adobe Workfront Scenario Planner
+title: Update initiative priorities in the Scenario Planner
 description: Prioritizing initiatives is important because initiatives receive job roles and budget resources from the plan in the order they are listed on the plan.
 ---
 
-# Update initiative priorities in the Adobe Workfront Scenario Planner
+# Update initiative priorities in the Scenario Planner
 
 Prioritizing initiatives is important because initiatives receive job roles and budget resources from the plan in the order they are listed on the plan.
 
 You can prioritize initiatives on a plan that you created or on a plan that someone shared with you.
 
-For information about creating plans, see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md).
+For information about creating plans, see [Create and edit plans in the Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 
-For information about creating initiatives, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
+For information about creating initiatives, see [Create and edit initiatives in the Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
 
 ##  Access requirements
 
@@ -32,7 +32,7 @@ For information about creating initiatives, see [Create and edit initiatives in 
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
@@ -40,7 +40,7 @@ For information about creating initiatives, see [Create and edit initiatives in 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

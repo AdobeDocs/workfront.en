@@ -33,42 +33,42 @@ Refer to the API Explorer to find the fields you want to reference in your calcu
 
 You can use the following condition modifiers in Workfront:
 
-<table cellspacing="15"> 
+<table cellspacing="3"> 
  <col> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>Condition modifier</th> 
-   <th>Condition modifier syntax</th> 
-   <th>Condition modifier definition</th> 
+   <th>Condition operator</th> 
+   <th>Condition operator syntax</th> 
+   <th>Condition operator definition</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Equal</td> 
    <td>= </td> 
-   <td> <p>Use this modifier to indicate that the condition is fulfilled when the first field of your statement is equal to the second field.</p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date=Planned Completion Date,"On Track","Off Track")</pre> </td> 
+   <td> <p>Use this operator to indicate that the condition is fulfilled when the first field of your statement is equal to the second field.</p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date=Planned Completion Date,"On Track","Off Track")</pre> </td> 
   </tr> 
   <tr> 
    <td>Greater than </td> 
    <td>&gt; </td> 
-   <td>Use this modifier to indicate that the condition is fulfilled when the first field of your statement is greater than the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date&gt;Planned Completion Date,"Late","")</pre></td> 
+   <td>Use this operator to indicate that the condition is fulfilled when the first field of your statement is greater than the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date&gt;Planned Completion Date,"Late","")</pre></td> 
   </tr> 
   <tr> 
    <td>Greater than or equal to </td> 
    <td>&gt;= </td> 
-   <td>Use this modifier to indicate that the condition is fulfilled when the first field of your statement is either greater than or equal to the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date&gt;=Planned Completion Date,"Late","Early")</pre></td> 
+   <td>Use this operator to indicate that the condition is fulfilled when the first field of your statement is either greater than or equal to the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date&gt;=Planned Completion Date,"Late","Early")</pre></td> 
   </tr> 
   <tr> 
    <td>Lesser than </td> 
    <td>&lt; </td> 
-   <td>Use this modifier to indicate that the condition is fulfilled when&nbsp; the first field of your statement is lesser than the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date&lt;Planned Completion Date,"Early","")</pre></td> 
+   <td>Use this operator to indicate that the condition is fulfilled when&nbsp; the first field of your statement is lesser than the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date&lt;Planned Completion Date,"Early","")</pre></td> 
   </tr> 
   <tr> 
    <td>Lesser than or equal to </td> 
    <td>&lt;= </td> 
-   <td>Use this modifier to indicate that the condition is fulfilled when&nbsp; the first field of your statement is lesser than or equal to the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date&lt;=Planned Completion Date,"Early","Late")</pre></td> 
+   <td>Use this operator to indicate that the condition is fulfilled when&nbsp; the first field of your statement is lesser than or equal to the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF(Projected Completion Date&lt;=Planned Completion Date,"Early","Late")</pre></td> 
   </tr> 
   <tr> 
    <td>Does not </td> 
@@ -88,12 +88,12 @@ You can use the following condition modifiers in Workfront:
   <tr> 
    <td>Or </td> 
    <td>|| </td> 
-   <td> <p>Use this modifier to indicate that the condition is fulfilled when the expression&nbsp; finds either the first or the second value of your statement. </p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that marks projects in either the Current or Planning statuses as "Active": </p><pre>IF(Status="PLN"||Status="CUR","Active","Not Active")</pre> </td> 
+   <td> <p>Use this operator to indicate that the condition is fulfilled when the expression&nbsp; finds either the first or the second value of your statement. </p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that marks projects in either the Current or Planning statuses as "Active": </p><pre>IF(Status="PLN"||Status="CUR","Active","Not Active")</pre> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;And </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Use this modifier to indicate that the condition is fulfilled when the expression&nbsp; finds an item that fulfills two conditions at the same time. </p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that finds projects that are in Current status and have a Condition of At Risk and marks them as "Mediation Needed." </p><pre>IF(Status="CUR"&amp;&amp;Condition="AR","Mediation Needed","")</pre> </td> 
+   <td> <p>Use this operator to indicate that the condition is fulfilled when the expression&nbsp; finds an item that fulfills two conditions at the same time. </p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that finds projects that are in Current status and have a Condition of At Risk and marks them as "Mediation Needed." </p><pre>IF(Status="CUR"&amp;&amp;Condition="AR","Mediation Needed","")</pre> </td> 
   </tr> 
  </tbody> 
 </table>

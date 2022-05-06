@@ -20,6 +20,6 @@ This section contains the following articles:
 * [Copy issues](../../../manage-work/issues/manage-issues/copy-issues.md) 
 * [Move issues](../../../manage-work/issues/manage-issues/move-issues.md) 
 * [Delete issues](../../../manage-work/issues/manage-issues/delete-issues.md) 
-* [Edit user assignments for multiple issues](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) 
+* [Modify user assignments for multiple issues in a list](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) 
 * [Automatically update issue statuses from Awaiting Feedback to In Progress](../../../manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
 

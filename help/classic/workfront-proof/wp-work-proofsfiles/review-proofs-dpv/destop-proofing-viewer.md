@@ -12,11 +12,15 @@ description: The Desktop Proofing Viewer is designed for proofing interactive co
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 The Desktop Proofing Viewer is designed for proofing interactive content, but you can also use it to proof static and video content.&nbsp;
 
-Unlike the Web Proofing Viewer, the Desktop Proofing Viewer is an application that runs on your workstation.&nbsp;However, you access it from Workfront or from Workfront Proof when you launch proofs, rather than running it as a standalone application (for more informationabout installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer with Automatic Updates](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).&nbsp;
+Unlike the Web Proofing Viewer, the Desktop Proofing Viewer is an application that runs on your workstation.&nbsp;However, you access it from Workfront or from Workfront Proof when you launch proofs, rather than running it as a standalone application (for more informationabout installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).&nbsp;
 
 ## Comparing the Desktop Proofing Viewer to Other Proofing Viewers
 

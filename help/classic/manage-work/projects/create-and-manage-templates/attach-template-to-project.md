@@ -8,6 +8,10 @@ description: You can attach a template to a project either during the initial cr
 
 # Attach a template to a project
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can attach a template to a project either during the initial creation phase of the project or after it has been created.
 
 For more information about creating a project using a template, see [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
@@ -34,7 +38,7 @@ You must have the following to perform the steps described in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>. </p> <p>View permissions or higher to the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>. </p> <p>View permissions or higher to the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,6 +48,7 @@ You must have the following to perform the steps described in this article:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="access-limitations"></a>Considerations when adding templates to projects</h2>
+<p>(NOTE: moved this to an Overview article of its own) </p>
 <p>Consider the following when adding templates to projects:</p>
 <ul>
 <li> <p>You can attach only active templates to projects. </p> </li>
@@ -71,7 +76,7 @@ You must have the following to perform the steps described in this article:
 1. Click **Project Actions,** then click**Attach Template.**
 
    The Attach Template box displays.   
-   ![](assets/atp1-350x128.png)
+   ![](assets/atp1-350x236.png)
 
 1. Begin typing the name of the template that you want to attach, then select it from the drop-down list when it displays.
 

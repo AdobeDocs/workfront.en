@@ -2,11 +2,15 @@
 filename: edit-assignments-for-multiple-issues
 product-area: projects
 navigation-topic: manage-issues
-title: Edit user assignments for multiple issues
-description: You can simultaneously modify user assignments to multiple issues. For information about editing issues or assigning them one at a time, also see the following articles:
+title: Modify user assignments for multiple issues in a list
+description: (NOTE: similar article exists for tasks)
 ---
 
-# Edit user assignments for multiple issues
+# Modify user assignments for multiple issues in a list
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
+-->
 
 You can simultaneously modify user assignments to multiple issues.&nbsp;For information about editing issues or assigning them one at a time, also see the following articles:
 
@@ -41,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,6 +55,7 @@ You must have the following access to perform the steps in this article:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="When"></a>When to modify user assignments on issues</h2>
+<p>(NOTE:&nbsp;drafted and moved to the overview article: Modify issue assignments overview)</p>
 <p>You might want to modify the user assignments for multiple issues for a variety of&nbsp;reasons, including the following:</p>
 <ul>
 <li>Users join or leave&nbsp;your team</li>

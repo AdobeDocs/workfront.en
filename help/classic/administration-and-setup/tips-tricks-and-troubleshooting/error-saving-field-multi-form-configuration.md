@@ -2,6 +2,14 @@
 
 # Error saving custom field: "There is a slight problem. [That field] is used in a multi-form configuration ..."
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the content in this article replaces the content in this article: /Content/Administration and Setup/Tips, Tricks, and Troubleshooting/error-message-field-used-in-multi-form-config.html; keep this drafted and just add the content to the other article; This is not added to the TOC)</p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Problem
 
 When you change a calculation on a calculated custom field on a custom form, Adobe Workfront might display the following warning:
@@ -39,7 +47,7 @@ You must have the following to perform the steps in this article:
 
 ## Solution
 
-1. Go to **Setup**, then **Custom Forms** >&nbsp;**Fields**> apply the **Field List** view to find the Calculated Field you are trying to modify and make note of every Custom Form on which it is used (e.g. Form 1, Form 2, Form 3) .  
+1. Go to **Setup**, then **Custom Forms** >&nbsp; **Fields**> apply the **Field List** view to find the Calculated Field you are trying to modify and make note of every Custom Form on which it is used (e.g. Form 1, Form 2, Form 3) .  
 1. Click&nbsp;**Forms**, then apply the **Form List** view. 
 1. Click the **Filter** drop-down list, then **New Filter**. 
 
@@ -67,6 +75,12 @@ You must have the following to perform the steps in this article:
    Field 2 = Yes + Field 3 = Yes (no objects, for example)
 
 1. Open each of the objects found in Step 12 and remove one of the two forms, then save the object.
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: ensure this step number stays accurate)
+   </MadCap:conditionalText>
+   -->
 
    >[!NOTE]
    >

@@ -9,6 +9,8 @@ description: Keyword metadata consists of terms that describe the attributes and
 
 # Add keywords to metadata in Workfront Library
 
+#  
+
 Keyword metadata consists of terms that describe the attributes and content of an asset. Users select keywords from the picklist when they upload content to Workfront Library. Only keywords in the keyword picklist can be added to content's metadata. For more information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
 
 As a Workfront Library administrator, you can keep your organization's keyword metadata consistent by configuring a keyword picklist.
@@ -16,7 +18,7 @@ As a Workfront Library administrator, you can keep your organization's keyword m
 1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. In the left panel, click **Setup**> **Keywords**.
-1. Click **Type to add main keyword,**type the term you want to add, then press **Enter**.
+1. Click **Type to add main keyword,** type the term you want to add, then press **Enter**.
 
    ![](assets/keyword-setup-new-350x219.png)
 

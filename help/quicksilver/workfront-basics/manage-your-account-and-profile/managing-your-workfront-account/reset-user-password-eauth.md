@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 
-1. ![](assets/main-menu-users-highlighted-nwe-350x456.png)
+1. ![](assets/main-menu-options-350x481.png)
 
 1. Select the **User** that requires a password reset.
 1. ![](assets/100520classicnweselectuser-350x105.png)

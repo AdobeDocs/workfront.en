@@ -35,7 +35,7 @@ All users also benefit from improved connectivity between Workfront and Proof. N
 For more information, see
 
 * [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md) 
-* [User synchronization between Adobe Workfront and Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
+* &nbsp;
 
 ## Electronic Signature Enhancements for proofs
 
@@ -55,6 +55,6 @@ We’ve upgraded the Desktop Proofing Viewer to support up to Chrome version 91 
 
 >[!IMPORTANT]
 >
->Windows users must manually reinstall the desktop viewer to upgrade to the latest version. After that, future updates to the Desktop Proofing Viewer will be automatic. For help reinstalling, see [Install the Desktop Proofing Viewer with Automatic Updates](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Windows users must manually reinstall the desktop viewer to upgrade to the latest version. After that, future updates to the Desktop Proofing Viewer will be automatic. For help reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 Mac users will be upgraded to the latest version automatically.

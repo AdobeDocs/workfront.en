@@ -10,6 +10,10 @@ description: The table below tells you the highest level of access (Edit or View
 
 # Access to objects and areas by license type
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
 * **View**: The user can review and share items.
@@ -17,7 +21,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 
   >[!NOTE]
   >
-  >When another user shares an object, the sharer can specify permissions that limit their ability to edit it. For more information, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >When another user shares an object, the sharer can specify permissions that limit their ability to edit it. For more information, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 | &nbsp; |Plan |Work |Review |Request |External |
 |---|---|---|---|---|---|

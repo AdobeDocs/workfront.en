@@ -3,10 +3,18 @@ filename: interactions-between-commit-and-planned-completion-dates
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Interactions between the Commit Date and the Planned Completion Date
-description: Both the Planned Completion and the Commit Dates indicate when the task should be completed. But they differ because of who sets each date.
+description: (NOTE: this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.)
 ---
 
 # Interactions between the Commit Date and the Planned Completion Date
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.) </p>
+-->
 
 Both the Planned Completion and the Commit Dates indicate when the task should be completed. But they differ because of who sets each date.
 

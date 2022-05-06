@@ -25,7 +25,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -59,7 +59,7 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Tasks</td> 
-      <td> <p>In Home, your configuration for this setting affects the area to the right of a task when a user clicks the task. And, in a list of tasks, it affects the Summary panel that displays on the right side of the page when a user selects a task, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p> <p>For example, you can determine which fields users see in the Details area when users select tasks in Home:</p> <p> <img src="assets/home-details-adobe-branding-350x192.jpg" style="width: 350;height: 192;"> </p> <p>And when they select tasks in the Summary:</p> <p> <img src="assets/summary-details-350x219.jpg" style="width: 350;height: 219;"> </p> </td> 
+      <td> <p>In Home, your configuration for this setting affects the area to the right of a task when a user clicks the task. And, in a list of tasks, it affects the Summary panel that displays on the right side of the page when a user selects a task, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p> <p>For example, you can determine which fields users see in the Details area when users select tasks in Home:</p> <p> <img src="assets/home-details-adobe-branding-350x176.jpg" style="width: 350;height: 176;"> </p> <p>And when they select a task in the Summary:</p> <p> <img src="assets/summary-details-350x255.jpg" style="width: 350;height: 255;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Issues</td> 
@@ -86,15 +86,15 @@ You must have the following to perform the steps in this article:
 
 1. (Conditional) If you clicked Tasks or Issues in the previous step, click the category of task or issue that you want to customize.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding-350x254.png)
+   ![](assets/choose-cat-cstmz-nwe-adobe-branding-350x226.png)
 
 1. (Conditional) If the **Set primary action button** drop-down menu appears (if you select **Tasks** or **Issues** in the list on the left), click the primary action (**Done** or **Status**) that you want available for users in the Home area and in the Summary panel when they view a task or an issue.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding-350x223.png)
+   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding-350x219.png)
 
 1. Add ![](assets/add-item-plus-in-circle-blue.png) or hide ![](assets/close-or-hide---x.png) fields for the selected object type.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding-350x302.png)
+   ![](assets/lt-home-add-hide-fields-adobe-branding-350x270.png)
 
 1. Repeat steps 3-6 to customize Home area and the Summary panel for any other object types.
 1. Click **Global settings**, near the lower left corner, then enable or disable any of the following options related to Adobe Workfront objects in Home and Summary:

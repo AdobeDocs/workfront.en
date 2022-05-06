@@ -20,15 +20,15 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a> </td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium or Select</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access configurations</td> 
+   <td role="rowheader">Access level configurations*</td> 
    <td> <p>You must have Administrator selected in your Proof Permission Profile. For more information, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -37,10 +37,6 @@ You must have the following:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Configure actions
-
-<!--
-<p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Workfront Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans</a>.</p>
--->
 
 For information about using actions in the proofing viewer, see [Use actions on proof comments](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
 
@@ -177,7 +173,7 @@ To modify the default settings for proofs:
    * [Right-to-left text support in comments](#right-to-left-text-support-in-comments) 
    * [Login required](#login-required) 
    * [Comment deletion](#comment-deletion) 
-   * [Web Proofing Viewer](#web-proofing-viewer) 
+   * [Configure proof settings for your organization](#web-proofing-viewer) 
    * [Desktop Proofing Viewer](#desktop-proofing-viewer)
 
 ### Deadline (+business days) {#deadline-business-days}
@@ -194,10 +190,6 @@ This setting applies both to creating new proofs and copying proofs.
 
 ### Electronic signatures {#electronic-signatures}
 
-<!--
-<p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans.</a></p>
--->
-
 This setting makes electronic signatures mandatory on all proofs created in your organization's account. When decision makers on the proof submit their decision, Workfront Proof prompts them to confirm the decision by entering their login credentials. This means that your users cannot share proofs with Guest reviewers who don't have Workfront Proof logins.
 
 The electronic signatures message displays when Workfront Proof prompts reviewers to electronically sign their decision on a proof.
@@ -205,10 +197,6 @@ The electronic signatures message displays when Workfront Proof prompts reviewer
 To learn more about&nbsp;electronic signatures, see [Understanding electronic signatures in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md).
 
 ### Proof counter {#proof-counter}
-
-<!--
-<p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans.</a></p>
--->
 
 The Proof counter assigns a number to the proofs created in your account. It is unique to your account.
 
@@ -238,42 +226,11 @@ If your reviewers use languages with right-to-left text direction&nbsp;in their 
 
 ### Login required {#login-required}
 
-<!--
-<p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans.</a></p>
--->
-
 Login required enhances the security of the proofs created in your account.&nbsp;If&nbsp;it&nbsp;is enabled, reviewers are required to log in using their email and password before they are allowed to view proofs created in your organization's account. This means that your users cannot share the proof with Guest reviewers.
 
 ### Comment deletion {#comment-deletion}
 
 If you don't want your reviewers to be able to delete their own comments, you can disable this option in your account.
-
-### Web Proofing Viewer  {#web-proofing-viewer}
-
-The Web Proofing Viewer is available to use for video and static proofs.&nbsp;
-
-You can choose whether the users in your organization use the Web Proofing Viewer or one of the other two available viewers. See [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md) for more information.
-
-To enable the Web Proofing Viewer for users in your system, select from the following options:
-
-<table cellspacing="0"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Enabled and default</td> 
-   <td>When this option is selected, the Web Proofing Viewer is the default viewer for all users in your system when reviewing video or static proofs. <p>Users can individually opt out of using the Web Proofing Viewer,&nbsp;as described in <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Enabled and not default</td> 
-   <td> <p>When this option is selected, all video proofs are opened in the Legacy proofing viewer by default. You might not have access to this option because the Legacy proofing viewer is supported by Flash, which has been deprecated in most environments.</p> <p>Users can individually opt out of using the Web Proofing Viewer,&nbsp;as described in <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Disable new viewer</td> 
-   <td>When this option is selected, users cannot use&nbsp;the Web Proofing viewer.</td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### Desktop Proofing Viewer {#desktop-proofing-viewer}
 
@@ -313,18 +270,6 @@ The settings below let you specify whether your users open interactive content i
 You can specify who your organization's proofs can be shared with, what versions are available for reviewers, and&nbsp;when proofs with an Automated Workflow are visible to users who are associated with a given stage.
 
 For more detailed information about sharing settings within Workfront Proof, see [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).&nbsp;
-
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Custom-sub-domain"></a>Configure a custom sub-domain for your organization</h2>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can create a customized sub-domain for your account. The sub-domain will replace the word "app" in your account URL with the sub-domain name.</p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more detailed information branded sub-domains, see <a href="../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md#branded-sub-domains" class="MCXref xref">Configuring a Branded Sub-Domain</a> in the article&nbsp;<a href="../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md" class="MCXref xref">Configure a branded domain in Workfront Proof</a>.</p>
--->
 
 ## Brand the Workfront Proof site
 

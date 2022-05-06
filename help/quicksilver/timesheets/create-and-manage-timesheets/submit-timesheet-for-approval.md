@@ -3,12 +3,10 @@ filename: submit-timesheet-for-approval
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Submit a timesheet for approval
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: Submitting your timesheet for approval provides your manager with visibility into your work hours. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the time period.
 ---
 
 # Submit a timesheet for approval
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 Submitting your timesheet for approval provides&nbsp;your manager with visibility into your work hours. Approvers can verify that&nbsp;all time recorded has been allocated in the correct areas and that&nbsp;a sufficient number of hours have been recorded for the time period.
 
@@ -34,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,18 +50,18 @@ After&nbsp;a timesheet approver is set&nbsp;(as described in the section [Design
 
 To submit a timesheet for approval:
 
-1. Go to a timesheet that has been configured to have an approver. 
+1. Go to a timesheet that has been configured to have an approver.
 1. Log time, as described in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 1. Click **Submit for Approval** to launch the timesheet approval process.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe-350x493.png)
 
-   The **Save for Later** and **Submit for Approval** buttons are replaced by the **Recall** button. The status of the timesheet changes to **Submitted**.
+   The **Save**and **Submit for Approval** buttons are replaced by the **Approve**,**Reject**,****and**Recall** buttons. The status of the timesheet changes to **Submitted**.
 
    When your timesheet is submitted for approval, the approver sees the timesheet listed in the **Approvals**&nbsp;area on the **Home** page. The following things might occur:
 
-   * If they approve it, the **Recall** button changes to **Re-Open** and the timesheet status updates to **Closed**. 
-   * If they reject it, **Save for Later** and **Submit for Approval** buttons replace the **Recall** button and the timesheet status updates to **Rejected**.
+   * If they approve it, the **Recall** button changes to **Re-Open** and the timesheet status updates to **Closed**.
+   * If they reject it, **Save** and **Submit for Approval** buttons replace the **Recall** button and the timesheet status updates to **Rejected**.
 
 1. (Optional)&nbsp;Click&nbsp;**Recall** if you need to reopen the timesheet and update your time. For information, see [Recall a timesheet](#recall-a-timesheet).
 
@@ -71,36 +69,45 @@ To submit a timesheet for approval:
 
 You can view the status of a timesheet after you submit it.
 
-If the Workfront administrator has&nbsp;enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers, you are notified after the timesheet is approved or rejected. For information about enabling event notifications, see [Event notifications available in Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+If the Workfront administrator has enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers, you are notified after the timesheet is approved or rejected. For information about enabling event notifications, see [Event notifications available in Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Without these notifications, you can learn about the status of your submitted timesheets in the Timesheet area of Workfront.
 
 To view the status of a timesheet:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Timesheets**.
-1.
+1. Click **Timesheets**. The **All** filter is selected by default.
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (Conditional) Depending on which environment you are creating the timesheet in, select from the following:&nbsp;In the Production environment,
-   </MadCap:conditionalText>
-   -->
+   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-   Click **My Timesheets**in the left panel.
+1. 
 
-   A list of all your timesheets displays. The status of the timesheet displays under the timesheet time frame.
+   (Optional) Do one of the following to update the filter in the list of timesheets:
 
-   ![](assets/my-timesheets-list-various-statuses-old-nwe-350x194.png)
+   * Select **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
 
-   <!--
-   <ul class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <li> <p>In the Preview environment, the <strong>All</strong> filter is selected by default. Do one of the following to view your timesheets</p>
-   <ul>
-   <li> <p>Click <strong>My Timesheets</strong> in the upper-right corner of the page</p> <p> <img src="assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png" style="width: 350;height: 58;"> </p> <p>Or</p> <p>Select the <strong>My Timesheets</strong>filter from the Filter icon <img src="assets/filter-nwepng.png"> drop-down menu. </p> <p>A list of all your timesheets displays. The status of each timesheet displays in the Status column. </p> <p> <img src="assets/my-timesheets-list-various-statuses-nwe-350x60.png" style="width: 350;height: 60;"> </p> </li>
-   </ul> </li>
-   </ul>
-   -->
+     Or
+
+     Select **My Timesheets** to view only your timesheets.
+
+     This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.
+
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+
+   * Click the Filter icon ![](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
+   >[!NOTE]
+   >
+   >The My Timesheet Approvals and My&nbsp;Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My&nbsp;Timesheet Approvals and the My&nbsp;Timesheets filters from either the List Controls in the Setup area or from your Layout Template.&nbsp;For more information see the following articles:
+   >
+   >   
+   >   
+   >   * [Edit list controls: filters, views, and groupings](../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md) 
+   >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
+   >   
+   >
+
+1. (Conditional)&nbsp;If you selected **My Timesheets**, ensure that the **Standard** view is applied and notice the **Status** column.
 
    Timesheets may have the following statuses:
 
@@ -114,7 +121,7 @@ To view the status of a timesheet:
      </tr> 
      <tr> 
       <td role="rowheader">Submitted</td> 
-      <td>You submitted your timesheet for approval but it has not been approved yet. You may recall a submitted timesheet to continue editing it.&nbsp;For information, see the <a href="#recall-a-timesheet" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Recall a timesheet</a> section in this article. </td> 
+      <td>You submitted your timesheet for approval but it has not been approved yet. You may recall a submitted timesheet to continue editing it.&nbsp;For information, see the <a href="#recall-a-timesheet" class="MCXref xref">Recall a timesheet</a> section in this article. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Closed</td> 
@@ -140,9 +147,9 @@ To recall a timesheet:
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
 1. Click **Timesheets**.
-1. In the left panel, click **My Timesheets**.
-1. Select a timesheet with a status of Submitted.
+1. Click **My Timesheets** in the upper-right corner of the screen or select **My Timesheets** from the **Filter** ![](assets/filter-nwepng.png) drop-down menu.
+1. Click the time frame for a timesheet with a status of **Submitted**.
 1. Click **Recall**.
 
-   The timesheet becomes editable again and its status changes to Open.
+   The timesheet becomes editable again and its status changes to **Open**.
 

@@ -4,12 +4,12 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Reporting elements overview
-description: All Adobe Workfront reports are a combination of 3 essential elements:
+description: All Adobe Workfront reports and lists are a combination of 3 essential elements:
 ---
 
 # Reporting elements overview
 
-All Adobe Workfront reports are a combination of 3 essential elements:
+All Adobe Workfront reports and lists are a combination of 3 essential elements:
 
 * A view
 * A filter
@@ -41,7 +41,7 @@ This section contains the following articles:
 
 * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
 * [Create or edit views in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
-* [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
+* [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview-draft.md" class="MCXref xref" xrefformat="{para}">Groupings overview in&nbsp;Adobe Workfront (draft)</a> </li>
@@ -58,11 +58,11 @@ This section contains the following articles:
 * [Create or edit views in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
 * [Use date-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) 
 * [Use user-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) 
-* [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) 
+* [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) 
 * [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
 
   <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref" xrefformat="{para}">Delete filters</a> </li>
+  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref" xrefformat="{para}">Delete filters</a> (NOTE: this is in draft until the article is turned live)</li>
   -->
 
 * [Use the Milestone view](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) 

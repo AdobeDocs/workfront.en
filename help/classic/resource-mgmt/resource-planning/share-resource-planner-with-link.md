@@ -3,12 +3,16 @@ filename: share-resource-planner-with-link
 product-area: resource-management
 navigation-topic: resource-planning
 title: Share the Resource Planner user view with a link
-description: Adobe Workfront can generate a unique URL for the User View of the Resource Planner which you can embed into a dashboard as an External Page, or open it separately in a new browser tab.
+description: Adobe Workfront can generate a unique URL for the User View of the Resource Planner which you can embed into a dashboard as an External Page, or open it separately in a new browser tab. This is helpful when sharing the Resource Planner information with users who might not have direct access to the Resourcing area.
 ---
 
 #  Share the Resource Planner user view with a link
 
-Adobe Workfront can generate a unique URL for the User View of the Resource Planner which you can embed into a dashboard as an External Page, or open it separately in a new browser tab.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+Adobe Workfront can generate a unique URL for the User View of the Resource Planner which you can embed into a dashboard as an External Page, or open it separately in a new browser tab. This is helpful when sharing the Resource Planner information with users who might not have direct access to the Resourcing area.
 
 ![](assets/rp-user-view-with-link-highlight-350x49.png)
 
@@ -34,7 +38,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects you want to display in the Resource Planner</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects you want to display in the Resource Planner</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,23 +78,28 @@ To obtain a unique URL in the User View of the Resource Planner and share it wit
 1. Click **Copy URL**.  
    This copies the unique URL of the Resource Planner in the User View to your clipboard. 
 
-1. (Optional) Do the following:
+1. (Optional) Do one of the following: &nbsp;
 
-   1. Go to **Reporting**>**Dashboards**>**New Dashboard**>**Add External Page.**
+   * Paste the URL into another application to send it to another user.  
+     The user must be logged in to Workfront to view the Resource Planner in the User view.
+   * Open a new browser tab or window and paste the link you copied, then click Enter on your keyboard to open the Resource Planner in a new tab or window. 
+   * Do the following:   
    
-   1. Paste the link you copied to your clipboard in the **URL** field.
-   1. Click **Save**, then **Save + Close**.  
-      This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
+     <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     (NOTE:&nbsp;turn this into a numbered list)   
+     </MadCap:conditionalText>   
+     -->
 
-   Or  
-   Paste the URL into another application to send it to another user.  
-   The user must be logged in to Workfront to view the Resource Planner in the User view.  
-   Or  
-   Open a new browser tab or window and paste the link you copied, then click Enter on your keyboard to open the Resource Planner in a new tab or window. 
+      1. Go to **Reporting**>**Dashboards**>**New Dashboard**>**Add External Page.**
+      
+      1. Paste the link you copied to your clipboard in the **URL** field.
+      1. Click **Save**, then **Save + Close**.  
+         This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
 
 1. (Optional) If you embedded the URL into a dashboard, consider adding it to a layout template or sharing it with other users who might not have access to the Resource Management area.  
    For information about adding dashboards to a layout template, see [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) .   
-   For information about sharing dashboards, see [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) .   
+   For information about sharing dashboards, see [Share a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) .   
    When viewing the shared URL, users can see the information with the settings that you originally applied to the Resource Planner. They must be logged in to Workfront to view the shared URL.  
    ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
 

@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a report or dashboard to export the report or the dashboard</p> <p>View or higher permissions to the objects you view in a list to export the list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to a report or dashboard to export the report or the dashboard</p> <p>View or higher permissions to the objects you view in a list to export the list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,6 +83,10 @@ Information can be exported in the following formats:
 >Dashboards can either be printed or exported only to a .pdf file.
 
 ### Export limits {#export-limits}
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+-->
 
 There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
 
@@ -282,7 +286,7 @@ If your report has special formatting in the web application, the report should 
 >
 >If the data you are exporting contains shared columns and you export to an Excel or Tab Delimited format, these columns are separated out in the exported file.
 
-For more information on how to customize formatting in a report, see [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+For more information on how to customize formatting in a report, see [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ### Links {#links}
 

@@ -72,7 +72,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
      <li>Views</li> 
      <li>Filters</li> 
      <li>Groupings</li> 
-    </ul> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/permissions-for-shared-objects.md" class="MCXref xref">Permissions for shared objects</a>.</p> </td> 
+    </ul> <p>For more information, see .</p> </td> 
   </tr> 
   <tr> 
    <td>Plan</td> 
@@ -81,7 +81,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td>Planned</td> 
    <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in&nbsp;Workfront, you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The timestamp used to baseline task KPIs</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The timestamp used to baseline task KPIs (NOTE: from&nbsp;Luke: From Taxonomy)</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -115,7 +115,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td> <p>Planned Hours</p> </td> 
    <td> <p>This field appears on projects, tasks, and issues.&nbsp;</p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. </p> <p>For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment. This field is calculated by Workfront when the Duration Type of the task is Calculated Work, Effort Driven, or Simple.<br>For information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.<br>Planned Hours are distributed equally to all the days within the duration of each task. They are stored in minutes in the Workfront database.<br></p> <p>Workfront calculates the Planned Hours of a Project by adding all Planned Hours from all the tasks on the project. </p> <p>You can manually update this field for Issues.&nbsp;Issue Planned Hours are not added to the Project Planned Hours.&nbsp;</p> <p>For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A baseline measurement for task KPI and a communication tool for the resource managers</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A baseline measurement for task KPI and a communication tool for the resource managers (NOTE: From Taxonomy) </p>
     --> </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,11 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   --> 
   <tr> 
    <td>Projected</td> 
-   <td> <p>An estimate of the timestamp of when the work will be completed based on the planned hours and percentage complete of a task.</p> <p>This refers to dates or Duration of tasks, issues, or projects. Usually, it designated dates and durations that are more true to the life of the work items, after some work has already been completed or some time has passed. </p> <p>For example, the Projected Completion Date of a task is the date when Workfront estimates that task will complete, based on how much work has been done on it so far, how many people are assigned to it, and how much time has passed since the start date.</p> </td> 
+   <td> <p>An estimate of the timestamp of when the work will be completed based on the planned hours and percentage complete of a task. <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       (NOTE: From Taxonomy)
+      </MadCap:conditionalText>
+     --></p> <p>This refers to dates or Duration of tasks, issues, or projects. Usually, it designated dates and durations that are more true to the life of the work items, after some work has already been completed or some time has passed. </p> <p>For example, the Projected Completion Date of a task is the date when Workfront estimates that task will complete, based on how much work has been done on it so far, how many people are assigned to it, and how much time has passed since the start date.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Proof Deadline</p> </td> 
@@ -379,7 +383,9 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>A visual table showing the allocation of resources.</td> 
   </tr> 
   <tr> 
-   <td> <p>Resource Manager IDs</p> </td> 
+   <td> <p>Resource Manager IDs</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: Same as "Resource Managers" (above), but this is for the filter.) </p>
+    --> </td> 
    <td> <p>Use this option&nbsp;when creating a filter to find a specific resource manager. Begin typing the name of the resource manager that you want to use in the filter, then click the name when it appears in the drop-down list.</p> <p>Resource Managers can perform resource scheduling actions on a project.</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
   </tr> 
   <tr> 
@@ -401,17 +407,17 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
   <tr> 
    <td> <p>Resource Pools</p> </td> 
-   <td> <p>Resource Pools are collections of users that can be associated with a project.&nbsp;The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user.</p> <p>For more information about the functionality of Resource Pools see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.&nbsp; </p> <p>In project reports, Resource Pools show all the pools associated with a project.&nbsp;This object cannot be used in a grouping. <br></p> <!--
+   <td> <p>Resource Pools are collections of users that can be associated with a project.&nbsp;The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user.</p> <p>For more information about the functionality of Resource Pools see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.&nbsp; </p> <p>In project reports, Resource Pools show all the pools associated with a project.&nbsp;This object cannot be used in a grouping. <br></p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A collection of resources available for assignment to project tasks. A resource pool can be assigned exclusively to a project or shared by several projects.</p>
     --> </td> 
   </tr> 
   <tr> 
    <td>Resource Scope</td> 
-   <td>A task-level field that is applicable only when using a Task Constraint of Fixed Dates. For more information about the Fixed Dates Task Constraint, see the article <a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Task Constraint overview: Fixed Dates</a>. The value of the Resource Scope on a task is intended to prevent other tasks from being assigned to the same user during the time frame of the task. For more information about Resource Scope, see the article Understanding Resource Scope in the new Adobe Workfront experience.</td> 
+   <td>A task-level field that is applicable only when using a Task Constraint of Fixed Dates. For more information about the Fixed Dates Task Constraint, see the article <a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Task Constraint overview: Fixed Dates</a>. The value of the Resource Scope on a task is intended to prevent other tasks from being assigned to the same user during the time frame of the task. For more information about Resource Scope, see the article Resource Scope overview.</td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Resource Management</td> 
-    <td> <p>Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;</p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in&nbsp;Workfront, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref">Get started with Resource Management </a>.</p> </td> 
+    <td> <p>Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;</p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in&nbsp;Workfront, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref">Get started with Resource Management</a>.</p> </td> 
    </tr>
   --> 
   <tr> 

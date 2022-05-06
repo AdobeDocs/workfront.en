@@ -8,6 +8,10 @@ description: In the Adobe Workfront for MobileIron app, we support default confi
 
 # Configure Adobe Workfront for MobileIron
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 In the Adobe Workfront for MobileIron app, we support default configurations provided by MobileIron for both Android and iOS.
 
 ## Android

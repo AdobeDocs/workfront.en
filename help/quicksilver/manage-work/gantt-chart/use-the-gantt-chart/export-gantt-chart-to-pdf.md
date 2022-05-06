@@ -2,12 +2,12 @@
 filename: export-gantt-chart-to-pdf
 navigation-topic: use-the-gantt-chart
 title: Export the Gantt Chart to PDF
-description: You can export the Gantt chart to PDF.
+description: You can export the Gantt chart to a PDF.
 ---
 
 # Export the Gantt Chart to PDF
 
-You can export the Gantt chart to PDF.
+You can export the Gantt chart to a PDF.
 
 After exporting the Gantt chart to PDF, you can print or attach it to an email, to share it with other users.&nbsp;
 
@@ -33,7 +33,7 @@ You must have the following to follow the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

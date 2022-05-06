@@ -4,17 +4,17 @@ title: Document permissions
 content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
-title: Share a document in Adobe Workfront
+title: Share a document
 description: Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in Grant access to documents.
 ---
 
-# Share a document in Adobe Workfront
+# Share a document
 
 Your Adobe Workfront administrator grants users access to view or edit documents when they assign access levels, as explained in [Grant access to documents](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
 The access level that the Workfront administrator grants to users allows them to either view or edit documents. In addition to this, other users can also grant others permissions to view or manage specific documents that they uploaded themselves or that they have access to share.
 
-Permissions are specific to one item in Workfront and define what actions one can take on that item. For information about object permissions, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Permissions are specific to one item in Workfront and define what actions one can take on that item. For information about object permissions, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 The user who uploads a document to Workfront has Manage permissions to it, by default.
 
@@ -22,13 +22,13 @@ For information about sharing an entire document folder, see [Share a document f
 
 ## Considerations about sharing documents
 
-In addition to the considerations below, also see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+In addition to the considerations below, also see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
 >A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
-* Sharing a document is similar to sharing any other object in Workfront. For information about how to share documents in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Sharing a document is similar to sharing any other object in Workfront. For information about how to share documents in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * You can grant the following permissions to documents:
 
    * View
@@ -48,7 +48,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-  You can manually remove inherited permissions on documents. For more information, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+  You can manually remove inherited permissions on documents. For more information, see [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * An attached document inherits permissions only from the object where it was attached. If you create a folder on the object and move the document into the folder, it inherits the folder's permissions. But, if you create a folder on a parent or grandparent object and move the document into that folder, it does not inherit that folder's permissions.
 

@@ -3,10 +3,14 @@ filename: use-optask-instead-of-issue
 product-area: projects
 navigation-topic: issue-information
 title: Use "opTask" and "issue" when referencing issues
-description: The name of an issue appears as opTask in the Adobe Workfront database. Although there are times when you need to use the issue field name for issues, most of the time you must use the opTask field name instead of issue when referencing issues.
+description: The name of an issue appears as opTask in the Adobe Workfront database. Although there are times when you need to use the issue field name to refer to issues, most of the time you must use the opTask field name instead of issue when referencing issues.
 ---
 
 # Use "opTask" and "issue" when referencing issues
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The name of an issue appears as 
 
@@ -20,7 +24,7 @@ in the Adobe Workfront database. Although there are times when you need to use t
 issue
 ```
 
-field name for issues, most of the time you must use the 
+field name to refer to issues, most of the time you must use the 
 
 ```
 opTask
@@ -57,7 +61,7 @@ reference to issues in the following contexts:&nbsp;
   For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)
 
 * When you update issue fields in a Kick-Start data importer sheet.  
-  For more information about importing data in Workfront using a Kick-Start, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  For more information about importing data in Workfront using a Kick-Start, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## Use 
 
@@ -82,6 +86,7 @@ For information about reporting on collections, see [Reference collections in a 
 <note type="tip">
 For information about how issues appear in a collection, see the
 <a href="https://one.workfront.com/s/api-explorer" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
+<br>(NOTE: Drafted because this might not be needed.)
 </note>
 -->
 

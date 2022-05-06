@@ -8,6 +8,10 @@ description: You can configure the following options for agile teams during or a
 
 # Configure Kanban
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can configure the following options for agile teams during or after the team is created. You create an agile&nbsp;team (Kanban or Scrum) in Adobe Workfront as described in&nbsp; [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Access requirements
@@ -107,7 +111,7 @@ To configure story cards that are assigned to the agile team to display addition
 1. Navigate to the&nbsp;**People**&nbsp;area, then click the&nbsp;**Teams**&nbsp;tab.
 
 1. Select the agile&nbsp;team that you want to manage.
-1. Click on the&nbsp;**Team Setting**s&nbsp;link in the top-right corner.
+1. Click on the&nbsp;**Team Settings**&nbsp;link in the top-right corner.
 
    ![](assets/team-settings-350x56.png)
 

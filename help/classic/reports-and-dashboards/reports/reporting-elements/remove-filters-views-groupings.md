@@ -3,13 +3,22 @@ filename: remove-filters-views-groupings
 product-area: reporting
 navigation-topic: reporting-elements
 title: Remove filters, views, and groupings
-description: You can remove a filter, view, or grouping from the drop-down menus of lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.
+description: (NOTE: when this goes live, eidt or remove the original aricle: Sharing a Filter, View, or Grouping - see if anything from this old article can remain as a reference; the remove and share a grouping, etc have been turned into how tos)
 ---
 
 # Remove filters, views, and groupings
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when this goes live, eidt or remove the original aricle: Sharing a Filter, View, or Grouping - see if anything from this old article can remain as a reference; the remove and share a grouping, etc have been turned into how tos) </p>
+-->
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: this is older content - has been drafted and replaced by the DIV below) </p>
 <p>You can remove a filter, view, or grouping from the drop-down menus of lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.</p>
 <h2><a name="Walk-thr"></a>Walk-through</h2>
 <p>View the following video to learn how to remove filters, views, and groupings in Adobe Workfront.</p> <note type="note">
@@ -70,7 +79,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions with access to share to the filter, view, or grouping you want to remove</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions with access to share to the filter, view, or grouping you want to remove</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,13 +104,17 @@ using the standard builder
 -->
 
 <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted ( as well as below) until the beta interface releases. Then, we can undraft this!)</p>
+-->
+
+<!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can remove a filter, view, or a grouping for all lists of objects using the standard builder interface. </p>
 -->
 
 Removing filters, views, or groupings in Workfront is identical.
 
 1. Go to a list of objects or a report.
-1. Click the **Grouping**,**Filter**, or**View** drop-down menu and select **Remove Grouping**,**Remove Filter**, or**Remove View**.
+1. C lick the **Grouping**,**Filter**, or**View** drop-down menu and select **Remove Grouping**,**Remove Filter**, or**Remove View**.
 
    The **My Groupings**,**My Filters,** or**My Views** dialog box displays.
 

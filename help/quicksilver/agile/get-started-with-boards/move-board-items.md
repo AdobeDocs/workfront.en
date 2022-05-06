@@ -2,15 +2,13 @@
 filename: move-board-items
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Move cards between columns
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+title: Manage cards
+description: You can move a card to any column on the board, or copy a card.
 ---
 
-# Move cards between columns
+# Manage cards
 
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
-You can move a card to any column on the board.
+You can move a card to any column on the board, or copy a card.
 
 >[!NOTE]
 >
@@ -43,11 +41,35 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Drag and drop the card into another column.
+1. Drag and drop the card into another column, in the position you want it to appear.
 
    Or
 
    Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Move**. Then, on the **Move Item** box, choose another column and select **Move**.
 
    ![Move card](assets/boards-move-card-350x217.png)
+
+   >[!NOTE]
+   >
+   >When you use the **Move Item** box, the card is always moved to the top of the column.
+
+## Move cards to the top or bottom of a column
+
+1. Access the board.
+1. Drag and drop the card into the position you want it to appear in the column.
+
+   Or
+
+   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Top of column** or **Bottom of column**.
+
+   ![More menu](assets/boards-moremenu-350x329.png)
+
+## Copy a card
+
+1. Access the board.
+1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Copy**.
+
+   ![More menu](assets/boards-moremenu-350x329.png)
+
+   A new card is added in the same column with the title "copy of - [original card name]."
 

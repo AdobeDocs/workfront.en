@@ -4,11 +4,11 @@ title: Deactivate a user
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Deactivate a user
+title: Deactivate or reactivate a user
 description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 ---
 
-# Deactivate a user
+# Deactivate or reactivate a user
 
 >[!IMPORTANT]
 >
@@ -18,7 +18,11 @@ description: The procedure described on this page applies only to organizations 
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Your users might leave the organization and you might need to remove them from Adobe Workfront. They should not remain active in the system because this would create confusion for other users when adding them to updates or assigning them work.
+Your users might leave the organization and you might need to remove them from Adobe Workfront. They should not remain active in the system because this would create confusion for other users when adding them to updates or assigning them work. When you deactivate a user, other users no longer see their name when they search for people in the system.
+
+Administrators can see inactive users in the Setup area.
+
+You can reactivate a user at any time.
 
 >[!IMPORTANT]
 >
@@ -55,7 +59,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-## Deactivate a user immediately
+## Deactivate a user
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 
@@ -79,8 +83,9 @@ To schedule a user for deactivation:
 
    (Optional) Select multiple users to schedule them for deactivation in bulk.
 
-1. Click **Edit**.
-1. In the **Resource Planning** area of the user profile box, click the **Schedule Deactivation** box to select it.  
+1. Click the Edit icon ![](assets/edit-icon.png).
+1. In the Edit User box that displays, click **Resource Planning** to go to that area.;
+1. Enable the **Schedule Deactivation** option.  
 
 1. In the calendar that displays, specify the date and the time for the **Scheduled Deactivation Date**.
 
@@ -99,6 +104,21 @@ To schedule a user for deactivation:
    The user is deactivated on the selected day sometimes after the selected time. If you selected multiple users to deactivate in bulk, all selected users are deactivated on the selected day sometimes after the selected time.
 
 We recommend that you build a report for users that you have scheduled for deactivation, to keep informed about what users are coming up to be deactivated. There is no confirmation that the deactivation happened once the users become deactivated.
+
+## Reactivate a user
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+
+1. Select a user, click the More icon ![](assets/more-icon.png), then click **Activate**.
+
+1. Assign a new **Access level**in the drop-down menu.
+
+### Proofing impact when you reactivate a user
+
+Deactivated users lose their assigned default proofing role and their proof license (if you are on a Workfront Premium Legacy Plan). If you choose to reactivate the user, you must
+
+* Reassign the license (if you are on a Workfront Premium Legacy Plan). For more information about Workfront proofing plans, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
+* Verify they have the correct proof role. Reactivated proof users are assigned whatever is specified as the default proof role for new users. See [Configure default proofing roles](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) for more information.
 
 ## About deactivating Workfront administrators and Plan license users
 

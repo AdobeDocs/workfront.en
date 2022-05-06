@@ -7,6 +7,10 @@ description: In addition to setting up revenue and tracking expenses, you can cr
 
 # Create billing records
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 In addition to setting up revenue and tracking expenses, you can create billing records on a project for information that needs to be billed.
 
 You cannot create billing records for tasks. You can only create billing records for projects.
@@ -33,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +65,7 @@ Consider the following when planning to use billing records:
 1. Go to **Billing Records** tab.
 
    Depending on how your Workfront administrator designed your layout, this tab might be located under the **More** tab.  
-   ![](assets/cbr2-350x94.png)
+   ![](assets/cbr2-350x165.png)
 
 1. With **Billing Record Details** selected in the left panel, click **New Billing Record**.
 1. In the **New Billing Record** box that displays, specify the following information:
@@ -228,9 +232,7 @@ After creating a billing record and including hours, expenses and revenues in th
    The **Billing Record Details** tab is open by default.
 
 1. Click **Edit Billing Record Details.**
-1. Edit information in any available fields.
-
-   These fields are available for editing:
+1. Update the following:
 
    * **Description** 
    * **Billing Status**
@@ -244,7 +246,7 @@ After creating a billing record and including hours, expenses and revenues in th
    * **Invoice ID** 
    * **Additional Amount**
 
-   These fields are not available for editing:
+   The following fields are not available for editing:
 
    * **Billable Hours:** The total of the Actual Revenue of the hours included in the billing record. For more information about including hours in a billing record, see the section [Include Billable Hours in a billing record](#include-billable-hours-in-a-billing-record) in this article.
    

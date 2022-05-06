@@ -3,12 +3,10 @@ filename: create-edit-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Create or edit a board
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: From the boards dashboard, you can create a new board or edit an existing board.
 ---
 
 # Create or edit a board
-
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 From the boards dashboard, you can create a new board or edit an existing board.
 

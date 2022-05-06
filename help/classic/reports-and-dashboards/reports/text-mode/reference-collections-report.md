@@ -3,10 +3,18 @@ filename: reference-collections-report
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Reference collections in a report
-description: Building a report in Adobe Workfront allows you to display a set of objects, their respective fields, or linked objects in a list, a grid, or a chart format.
+description: (NOTE: When the API Explorer will be updated, you can take the notes like these out of this article: NOTE Notice that you must use issues for the collection object name. The API Explorer does not offer a collection object name for issues at this time.)
 ---
 
 # Reference collections in a report
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When the API Explorer will be updated, you can take the notes like these out of this article: NOTE Notice that you must use issues for the collection object name. The API Explorer does not offer a collection object name for issues at this time.) </p>
+-->
 
 Building a report in Adobe Workfront allows you to display a set of objects, their respective fields, or linked objects in a list, a grid, or a chart format.
 
@@ -34,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>Manage permissions to a view, filter, or grouping </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>Manage permissions to a view, filter, or grouping </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -236,7 +244,9 @@ The lines in a text mode view for a collection are outlined in the following tab
         For more information about conditional formatting in a view, see 
        <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     --></p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I drafted this per the request of a customer - really, this article is wrong to be linked here. We do have articles about number and date formatting but we need articles with all other data types and their formatting.)</p>
+    --> </td> 
   </tr> 
   <tr> 
    <td><code>textmode=true</code> </td> 
@@ -305,18 +315,34 @@ To add a reference to a collection&nbsp;in a report filter:
 1. Replace&nbsp;**collection object field**&nbsp;with the name of the field of your collection object in, as it appears in the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 1. Replace **collection object value** with the value of the collection object as it appears in Workfront.
-1. Replace **value of the modifier** with a valid modifier.  
-   For a list of modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).  
-   For example, to build a project report that&nbsp;displays only projects with tasks that have "Marketing" in their name, use&nbsp;the following code:  
-   <pre>tasks:name=Marketing<br>tasks:name_Mod=cicontains</pre> This report only displays projects which have at least one&nbsp;task that has the word "marketing" in their name.  
-   ![marketing_only_tasks_in_project_report.png](assets/marketing-only-tasks-in-project-report-350x298.png)  
-   To filter for the name of an issue, use the following code:  
-   <pre>issues:name=Marketing
-issues:name_Mod=cicontains</pre>
+1. &nbsp;
+1. Replace **value of the modifier** with a valid modifier.
 
-   >[!IMPORTANT]
+   For a list of modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).  
+   For example, to build a project report that&nbsp;displays only projects with tasks that have "Marketing" in their name, use&nbsp;the following code:
+   <pre>tasks:name=Marketing<br>tasks:name_Mod=cicontains</pre>This report only displays projects which have at least one&nbsp;task that has the word "marketing" in their name.
+
+   ![marketing_only_tasks_in_project_report.png](assets/marketing-only-tasks-in-project-report-350x298.png)
+
+1. To filter for the name of an issue, use the following code:
+   <pre>issues:name=Marketing
+</pre><pre>issues:name_Mod=cicontains</pre>
+
+   >[!TIP]
    >
-   >Notice that you must use **issues** for the collection object name.
+   >Notice that you must use    >
+   >
+   >```   >
+   >issues
+   >```   >
+   >
+   >for the collection object name, instead of    >
+   >
+   >```   >
+   >optask
+   >```   >
+   >
+   >which is how issues appear in the API&nbsp;Explorer.
 
 1. Click&nbsp;**Done**.
 1. (Optional) Continue editing the report.  

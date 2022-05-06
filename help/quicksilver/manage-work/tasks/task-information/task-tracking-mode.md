@@ -16,6 +16,7 @@ For more information about Progress Status of tasks, see [Task Progress Status o
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="setting-tracking-mode"></a>Set Tracking Mode for tasks</h2>
+<p>(NOTE: drafted, because we created a new article and linked it below. Left this article as a "Overview" article only.) </p>
 <p>To set the tracking mode:</p>
 <ol>
 <li value="1">Go to the task you want to set the tracking mode for.</li>

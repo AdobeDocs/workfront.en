@@ -54,7 +54,7 @@ You must have the following access to use the functionality in this article:
 
 ## Using keys in Workfront Fusion
 
-If a module requires a public or private key, you can add it to the keychain in the [Configure a module's settings](../../workfront-fusion/modules/configure-a-modules-settings.md). 
+If a module requires a public or private key, you can add it to the keychain in the [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md). 
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -62,7 +62,7 @@ To administer all created keys, go to the profile and click the Keys link.
 </MadCap:conditionalText>
 -->
 
-For more information on public and private keys, see [Basic terms](../../workfront-fusion/get-started/basic-terms.md).
+For more information on public and private keys, see [Basic terms in Adobe Workfront Fusion](../../workfront-fusion/get-started/basic-terms.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Securing user data is a top priority for Workfront Fusion. For detailed information on how Workfront Fusion protects data, see our Privacy Policy.</p>

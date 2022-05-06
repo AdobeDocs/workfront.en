@@ -28,7 +28,11 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>Review or higher <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
+      </MadCap:conditionalText>
+     --></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -36,7 +40,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher for projects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher for projects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +53,7 @@ You must have the following:
 
 1. <![CDATA[			]]> Click **Resourcing**. The **Planner** displays by default.
 
-1. Select the view for the Planner. You can select one of the following options:
+1. Select the view for the  Planner. You can select one of the following options:
 
    * View by User 
    * View by Project 

@@ -9,6 +9,10 @@ description: The completion information described in this section is displayed a
 
 # Iteration completion status overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The completion information described in this section is&nbsp;displayed above the burndown&nbsp;chart.
 
 Completion percentage on&nbsp;an iteration:

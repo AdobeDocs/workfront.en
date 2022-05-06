@@ -9,6 +9,10 @@ description: Adobe Workfront calculates the Duration of a project by taking into
 
 # Overview of project Duration
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront calculates the Duration of a project by taking into account the Start Date of the earliest task and the Completion Date of the latest task and counts the number of days between the two dates.&nbsp;
 
 ## Project Duration
@@ -30,6 +34,10 @@ The duration of the project counts the number of days between the two task dates
 ## Types of project Duration
 
 There are two types of Project Duration and the formulas by which&nbsp;Workfront calculates them:
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Check these formulas? Should they be divided by the hours per day?!) </p>
+-->
 
 * **Planned Duration**:&nbsp;
 

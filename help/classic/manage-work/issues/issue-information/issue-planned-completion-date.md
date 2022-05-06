@@ -3,16 +3,20 @@ filename: issue-planned-completion-date
 product-area: projects
 navigation-topic: issue-information
 title: Overview of the issue Planned Completion Date
-description: The Planned Completion Date of an issue is the date by which the issue is set to complete.
+description: The Planned Completion Date of an issue is the date by which the issue is expected to complete.
 ---
 
 # Overview of the issue Planned Completion Date
 
-The Planned Completion Date of an issue is the date by which the issue is set to complete. 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+The Planned Completion Date of an issue is the date by which the issue is expected to complete. 
 
 You can either specify the Planned Completion Date of an issue, or you can leave it up to Adobe Workfront to calculate it depending on certain criteria.&nbsp;
 
-The Planned Completion Dates of issues do not affect the Planned Completion&nbsp;Date of the project. Only tasks Planned Completion Dates affect the Planned Completion Date of the project.&nbsp;For more information about the project Planned Completion Date, see [Set the project Planned Completion Date](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+The Planned Completion Dates of issues do not affect the Planned Completion&nbsp;Date of the project. Only tasks' Planned Completion Dates affect the Planned Completion Date of the project.&nbsp;For more information about the project Planned Completion Date, see [Set the project Planned Completion Date](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
 >[!NOTE]
 >

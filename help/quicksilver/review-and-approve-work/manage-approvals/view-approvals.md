@@ -2,13 +2,11 @@
 filename: view-approvals
 product-area: projects
 navigation-topic: approvals
-title: View approvals in Adobe Workfront
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+title: View approvals
+description: Approval processes provide the flexibility to create multistep approvals for projects, tasks, and issues. Adobe Workfront administrators define approval processes to provide consistency throughout the system.
 ---
 
-# View approvals in Adobe Workfront
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+# View approvals
 
 Approval processes provide the flexibility to create multistep approvals for projects, tasks, and issues. Adobe Workfront administrators define approval processes to provide consistency throughout the system.
 
@@ -38,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the objects associated with approvals</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the objects associated with approvals</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 ## Locate approvals in Adobe Workfront
 
-You can view or manage approvals from several areas of Workfront. For information about how to manage approvals in various areas, see [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md).
+You can view or manage approvals from several areas of Workfront. For information about how to manage approvals in various areas, see [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 You can view or manage approvals from the following areas:
 
@@ -87,20 +85,10 @@ You can view or manage approvals from the following areas:
    >   
    >
 
-1. Select **Work List**, then click the **Filter** drop-down menu 
-
-   <!--
-   <img src="assets/filter-nwepng.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-   -->
-
-   and select **Approvals**.
+1. Select **Work List**, then click the **Filter** drop-down menu and select **Approvals**.
 1. Expand the **Approvals I've Submitted** section and find the approvals you submitted.
 
-   ![](assets/approvals-i've-submitted-section-in-home-350x532.png)
-
-   <!--
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <img src="assets/approvals-i've-submitted-section-in-home-nwe-350x401.png" style="width: 350;height: 401;"> </p>
-   -->
+   ![](assets/approvals-i've-submitted-section-in-home-nwe-350x401.png)
 
 ##
 
@@ -154,7 +142,7 @@ To see the current state of where a task or issue is in the approval process:
 
    The Approvals tab displays&nbsp;the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user.
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x273.png)
+   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    For information about creating an Approval Process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

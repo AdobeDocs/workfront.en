@@ -10,6 +10,10 @@ description: Enhanced analytics is a powerful tool in Adobe Workfront with prebu
 
 # Enhanced analytics overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Enhanced analytics is a powerful tool in Adobe Workfront with prebuilt visualizations that allows you to look at project data and identify trends with planning and completion. This insight into your projects helps you manage your current work and enables you to plan more accurately for future work.
 
 Enhanced analytics can help you identify:
@@ -55,7 +59,7 @@ To see information for projects and tasks, you must:
 
 * Have View permission for specific tasks and/or projects.
 
-  For information on requesting additional access, see [Request access to objects in Adobe Workfront](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
+  For information on requesting additional access, see [Request access to objects](../workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
 ## Best practices for Enhanced analytics
 

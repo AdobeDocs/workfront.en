@@ -1,12 +1,4 @@
----
-filename: review-and-submit-a-decision
-product: workfront-proof
-product-area: documents;system-administration;user-management;setup
-navigation-topic: personal-settings
-title: Review and submit a decision in Workfront Proof - Reviewer's Guide
-description: In this short instruction we present our new ProofHQ Viewer which highlights the benefits and new functionalities. You may still come across the proofs created in our Classic ProofHQ Viewer. If the proofs shared with you open in a viewer that looks different to the one presented here, check out our Reviewer’s Guide for the Classic ProofHQ Viewer.
-hidefromtoc: true
----
+
 
 # Review and submit a decision in Workfront Proof - Reviewer's Guide
 

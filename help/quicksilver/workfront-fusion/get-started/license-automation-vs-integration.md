@@ -38,6 +38,7 @@ A Workfront Fusion for Work Automation license allows you to automate your Workf
 With the Workfront Fusion for Automation license, you have access to the following:
 
 * Adobe Workfront 
+* Workfront Proof 
 * Webhooks
 * Tools and transformer modules such as:
 

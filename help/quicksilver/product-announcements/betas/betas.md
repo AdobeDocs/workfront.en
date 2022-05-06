@@ -9,5 +9,10 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* [Currently available beta programs](../../product-announcements/betas/currently-available-betas.md)
+* [Reporting Canvas beta](../../product-announcements/betas/reporting-canvas-beta.md) 
+* [Reporting Canvas beta: known issues](../../product-announcements/betas/reporting-canvas-known-issues.md)
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><a href="../../product-announcements/betas/campaign-object-beta.md" class="MCXref xref" xrefformat="{para}">Campaigns beta</a> (this is drafted, not live yet)</li>
+  -->
 

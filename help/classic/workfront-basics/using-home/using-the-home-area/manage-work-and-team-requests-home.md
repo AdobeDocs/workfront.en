@@ -8,6 +8,10 @@ description: When work tasks and issues are assigned to you, they are listed on 
 
 # Manage work and team requests in the Home area
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When work tasks and issues&nbsp;are assigned to you, they are listed on the Work List in the Home area. You can view, reassign, reply to, work on, or remove a request. Work requests in the Home area are not limited to issues associated with request queues.
 
 ## Access requirements
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -154,4 +158,3 @@ If you decide that you should not be working on the request, you can either conv
      You are unassigned from the&nbsp;request and the&nbsp;request is&nbsp;no longer associated with your name in Adobe Workfront.  
      If the request is not assigned to anyone else or to another team or job role, the request is&nbsp;left unassigned.
 
-&nbsp;

@@ -9,9 +9,17 @@ description: Use the Must Start On (MSO) Task Constraint to schedule a task to s
 
 # Task Constraint overview: Must Start On
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Use the Must Start On (MSO) Task Constraint to schedule a task to start exactly on a specific date. 
 
 The Must Start On constraint schedules a task to start exactly at the time and date you specify in the **Planned Start Date** field.
+
+>[!TIP]
+>
+>Manually updating a task's Planned Start Date changes the constraint of the task to Must Start On.
 
 ## Overview of the Must Start On Task Constraint
 
@@ -43,6 +51,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="using-MSO-constraint"></a>Use the Must Start On Task Constraint</h2>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Must Start On:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

@@ -8,6 +8,10 @@ description: You can delete issues or requests in Adobe Workfront if you have th
 
 # Delete issues
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can delete issues or requests in&nbsp;Adobe Workfront if you have the correct access and permissions to do so.
 
 >[!TIP]
@@ -36,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the issue</p> <p>Contribute or higher permissions on the project or task</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions on the issue</p> <p>Contribute or higher permissions on the project or task</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +91,7 @@ Depending on how your Workfront or group administrator configures the Project, T
 1. Click the **Issues** tab. 
 1. Select the issues you want to delete, then click **More**.
 
-   ![delete_issues.png](assets/delete-issues-350x149.png)
+   ![delete_issues.png](assets/delete-issues-350x160.png)
 
 1. Click **Delete** in the drop-down menu.
 1. If the deletion is allowed, click **Yes, Delete it**.  
@@ -104,6 +108,8 @@ Depending on how your Workfront or group administrator configures the Project, T
 1. Click **Issue Actions**.
 
    ![delete_one_issue.png](assets/delete-one-issue-350x478.png)
+
+1. ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Click **Delete Issue**. 
 1. If the deletion is allowed, click **Yes, Delete it**.  

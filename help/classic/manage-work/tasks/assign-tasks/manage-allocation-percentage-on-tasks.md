@@ -2,11 +2,15 @@
 filename: manage-allocation-percentage-on-tasks
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Manage allocation percentage on tasks
+title: Manage user or role allocation percentage on tasks
 description: Allocation percentage represents the amount of time an assigned resource is planned to work on a task in a day. It is the percent of a work day (according to the user or project schedule) at which a resource is allocated throughout the duration of the task.
 ---
 
-# Manage allocation percentage on tasks
+# Manage user or role allocation percentage on tasks
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Allocation percentage represents the amount of time an assigned resource is planned to work on a task in a day. It is the percent of a work day (according to the user or project schedule) at which a resource is allocated throughout the duration of the task.
 
@@ -36,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to the task</p> <p>Edit permissions to update allocation percentage in the Edit Task box</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to the task</p> <p>Edit permissions to update allocation percentage in the Edit Task box</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +57,7 @@ You must have the following access to perform the steps in this article:
 * You cannot modify the percent allocation for teams assigned to tasks.
 * You cannot modify the percentage allocation for users and job roles assigned to issues.
 
-## Modify the percent allocation for a task
+## Modify the user or role percent allocation for a task
 
 1. Go to a task for whose resources you are changing the percent allocation.
 1. Click **Edit Task**.

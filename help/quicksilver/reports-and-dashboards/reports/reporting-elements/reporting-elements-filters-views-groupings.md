@@ -3,10 +3,20 @@ filename: reporting-elements-filters-views-groupings
 product-area: reporting
 navigation-topic: reporting-elements
 title: Reporting elements: filters, views, and groupings
-description: There are several elements that make a list or a report possible in Adobe Workfront. The main elements that every list and report must have are a filter, a view, and a grouping. Each element provides different information within any report.
+description: AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:
 ---
 
 # Reporting elements: filters, views, and groupings
+
+<!--
+<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<p>- overview for Filters</p>
+<p>- create a filter</p>
+<p>- share a filter</p>
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
+</div>
+-->
 
 There are several elements that make a list or a report possible in Adobe Workfront. The main elements that every list and report must have are a filter, a view, and a grouping. Each element provides different information within any report.
 

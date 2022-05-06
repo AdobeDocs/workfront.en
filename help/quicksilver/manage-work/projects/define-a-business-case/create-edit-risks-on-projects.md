@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create and edit risks in the Business Case
 
-You can create risks as part of planning the Business Case of a project. You can later edit them in the Business Case, when changes occur to their probability, mitigation plan, or cost, for example. For information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+You can create risks as part of planning the Business Case of a project. You can later edit them in the Business Case, when changes occur to their probability, mitigation plan, or cost, for example. For information about creating a Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 Your Workfront administrator ```or group administrator``` must enable the **Risks** section in your Business Case in the Project Preferences area before you can view it at the project level in the Business Case section. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -87,13 +87,14 @@ In addition to creating and editing risks in the Business Case, you can do so us
 
 1. Go to the project you want to create risks for.
 1. Click **Risks** in the left panel.
+
+   ![](assets/risks-section-on-project-nwe-350x76.png)
+
 1. Click **Start Adding Risks** and create risks by in-line editing their information.
 
    Or
 
    Click **New Risk**. The **New Risk** dialogue box opens.
-
-   ![](assets/crp3-350x181.png)
 
 1. Enter the following information:
 

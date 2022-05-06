@@ -77,7 +77,7 @@ You can easily manage your files from the Folder details page.
    ![](assets/more-button-small.png)  
    The options that appear depend on whether the item is a proof or a file.
 
-   * **View proof details**or **View file details**: Opens the Proof details or File details page. For more information, see [Manage Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)&nbsp;or&nbsp; [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * **View proof details** or **View file details**: Opens the Proof details or File details page. For more information, see [Manage Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)&nbsp;or&nbsp; [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
    
    * **Share**: Lets you share the file with additional people. For more information, see [Share Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
    

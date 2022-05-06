@@ -9,6 +9,10 @@ description: As a Workfront Library administrator, you can change a user's acces
 
 # Change a user's access to Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a Workfront Library administrator, you can change a user's access level in order to increase or decrease the permissions they have to content in Workfront Library. If a user has multiple access sources, their access level is determined by the highest access level they've been assigned. For information on the permissions allowed in each access level, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md). For information on user access, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
 
 ## Change individual access

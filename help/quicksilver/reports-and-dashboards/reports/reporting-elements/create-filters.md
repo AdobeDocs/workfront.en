@@ -3,14 +3,26 @@ filename: create-filters
 product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit filters in Adobe Workfront
-description: You can use filters to reduce the amount of information you display on the screen.
+description: (NOTE: ***IMPORTANT: this DIV will need to be drafted/ hidden when the following DIV (that includes new filters) will be live)
 ---
 
 # Create or edit filters in Adobe Workfront
 
-You can use filters to reduce the amount of information you display on the screen.
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***IMPORTANT: this DIV will need to be drafted/ hidden when the following DIV (that includes new filters) will be live)</p>
+-->
 
-You can apply the following types of filters in&nbsp;Adobe Workfront:
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: all screen shots and steps will have to be reviewed for the new filters because this was updates in 2021 and filters have had additional changes in functionality and UI since then)</p>
+-->
+
+You can use filters to reduce the amount of information you display on the screen. Filters display in various areas of Adobe Workfront. The information in this article refers to filters in lists of objects. For more information about filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add information here about modifying and copying existing filters as a way of creating new filters!) </p>
+-->
+
+You can apply the following types of filters in&nbsp;a list of objects:
 
 * A quick filter to a list of objects to find an item in a list using a keyword.
 
@@ -40,7 +52,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to create or edit a filter in a report</p> <p>Manage permissions to a filter to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to create or edit a filter in a report</p> <p>Manage permissions to a filter to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +131,9 @@ See also:
 &nbsp;
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters will be replaced, this will replace the content at the top; both the top content and everything starting here are in separate DIV sections to make it easier to condition and undrafte, etc.) </p>
+-->
 <p>You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display those objects that meet those criteria.</p>
 <p>You can apply the following types of filters in&nbsp;Adobe Workfront: </p>
 <ul>
@@ -150,7 +164,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 </tr>
 <tr>
 <td role="rowheader">Object permissions</td>
-<td> <p>Manage permissions to a filter</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td>
+<td> <p>Manage permissions to a filter</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
 </tr>
 </tbody>
 </table>
@@ -174,7 +188,9 @@ If you still don't have access, ask your Workfront administrator if they set add
 <td>Lists and reports</td>
 </tr>
 <tr data-mc-conditions="">
-<td><span class="preview" style="font-weight: bold;">Beta builder</span> </td>
+<td><span class="preview" style="font-weight: bold;">Beta builder</span> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the Beta builder text is also in yellow)</p>
+--> </td>
 <td>
 <div class="preview">
 <ul>
@@ -189,9 +205,9 @@ If you still don't have access, ask your Workfront administrator if they set add
 <li> <p>Lists </p> </li>
 </ul>
 <ul>
-<li> <p>The Projects list in the Scenario Planner</p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </li>
+<li> <p>The Projects list in the Scenario Planner</p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> </li>
 </ul> <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Requests area</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Requests area (NOTE: verify this with Vazgen - not sure if this will come out now???)</p>
 -->
 </div> </td>
 </tr>
@@ -204,9 +220,13 @@ If you still don't have access, ask your Workfront administrator if they set add
 </table>
 <p>For information about Workfront objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p>
 </div>
-<h2 id="create-or-edit-a-filter-in-the-standard-builder"><a name="Create"></a>Create or edit a filter  in the standard builder </h2>
+<h2 id="create-or-edit-a-filter-in-the-standard-builder"><a name="Create"></a>Create or edit a filter  in the standard builder </h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: second part of the title, NWE only)</p>
+-->
 <div>
-<p>You can create filters in lists and reports in the following ways:</p>
+<p>You can create filters in lists and reports in the following ways:</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: keep this?? this sort of applies to both this UI and the beta!)</p>
+-->
 <ul>
 <li> <p>From scratch</p> </li>
 <li> <p>Edit an existing filter and save it as a new filter</p> </li>
@@ -249,12 +269,14 @@ The report creator must allow for filters to be edited in order to view the&nbsp
 <li value="6"> <p>Click <strong>Save Filter</strong> to create a new filter or replace the selected one with your changes.</p> <p>Or</p> <p>Click <strong>Save as New Filter</strong> to create a new filter from the selected one. </p> <p>The new filter displays in the list of filters and it is automatically applied to the list or report you selected.</p> </li>
 <li value="7"> <p>(Optional) Do one of the following:</p>
 <ul>
-<li> <p>Share filters you create with other users, or make them available system-wide. For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping in Adobe Workfront</a>. </p> </li>
+<li> <p>Share filters you create with other users, or make them available system-wide. For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping </a>. </p> </li>
 <li> <p>Remove filters you no longer want to display in the list. For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md" class="MCXref xref">Remove filters, views, and groupings</a>. </p> </li>
 </ul> </li>
 </ol>
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<h2><a name="Create2"></a>Create or edit a filter in the beta builder</h2>
+<h2><a name="Create2"></a>Create or edit a filter in the beta builder</h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: yellow div and it stays NWE only)</p>
+-->
 <div>
 <p>Consider the following when creating filters using the different interfaces:</p>
 <ul>
@@ -281,7 +303,11 @@ The report creator must allow for filters to be edited in order to view the&nbsp
 <pre>B AND C</pre>
 </div> </li>
 <li value="3"> <p>Make a change to the filter in the standard interface. </p> </li>
-<li value="4"> <p>Switch back to the beta builder. The filter statement displays according to the logic supported in the standard builder, as described in Step b.</p> <p>The filter displays in the beta builder interface as follows: </p>
+<li value="4"> <p>Switch back to the beta builder. The filter statement displays according to the logic supported in the standard builder, as described in Step b. <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: ensures this stays correct over time)
+</MadCap:conditionalText>
+--></p> <p>The filter displays in the beta builder interface as follows: </p>
 <div>
 <pre>A AND C</pre>
 <pre>OR</pre>
@@ -357,7 +383,9 @@ Depending on what modifier you selected, you can select multiple values.
 <p>In this case, each filter statement is connected by an AND and the filter groups are connected by an OR. </p>
 </div>
 </note> </li>
-<li value="12"> <p>(Optional)&nbsp;Click <strong>Text mode</strong> to continue building the filter using text mode. </p> <p> <img src="assets/text-mode-option-create-filter-nwe-350x253.png" style="width: 350;height: 253;"> </p> <p>The text mode interface opens. </p> <p> <img src="assets/text-mode-interface-for-beta-filters-nwe-350x324.png" style="width: 350;height: 324;"> </p> <note type="tip">
+<li value="12"> <p>(Optional)&nbsp;Click <strong>Text mode</strong> to continue building the filter using text mode. </p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: update shot below!)</p>
+--> <p> <img src="assets/text-mode-option-create-filter-nwe-350x253.png" style="width: 350;height: 253;"> </p> <p>The text mode interface opens. </p> <p> <img src="assets/text-mode-interface-for-beta-filters-nwe-350x324.png" style="width: 350;height: 324;"> </p> <note type="tip">
 We recommend building as much of the filter as possible using the beta builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
 </note> <p>For more information about creating a filter using the text mode interface, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>. </p> </li>
 <li value="13"> <p>(Optional) Click <strong>Exit text mode</strong> to return to the beta builder interface. </p> <note type="warning">
@@ -380,7 +408,7 @@ Clicking
 </note> <p> <img src="assets/new-filters-apply-multiple-filters-350x335.png" style="width: 350;height: 335;"> </p> <p>The number of filters you selected displays next to the filter icon at the top of the list of items.</p> <p> <img src="assets/new-filters-number-of-filters-selected-wb-nwe.png"> </img> </p> </li>
 <li value="21"> <p>(Optional) Do one of the following:</p>
 <ul>
-<li> <p>Share the filter with others, or make it available system-wide. For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping in Adobe Workfront</a>.</p> </li>
+<li> <p>Share the filter with others, or make it available system-wide. For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping </a>.</p> </li>
 <li> <p>Delete the filter if it is no longer valid or a duplicate.&nbsp;For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref">Delete filters</a>. </p> </li>
 </ul> </li>
 </ol>

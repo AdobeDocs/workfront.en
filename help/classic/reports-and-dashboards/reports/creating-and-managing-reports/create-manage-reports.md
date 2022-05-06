@@ -9,6 +9,10 @@ description: This section contains the following articles:
 
 # Create and manage reports
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This section contains the following articles:
 
 * [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md) 
@@ -32,8 +36,4 @@ This section contains the following articles:
 * [Report on the Updates area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) 
 * [Create a User Delegation report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</li>
-  -->
-
-For in-depth training on reports, see [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+For in-depth training on reports, see .

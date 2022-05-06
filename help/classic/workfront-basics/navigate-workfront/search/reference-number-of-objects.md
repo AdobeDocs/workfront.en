@@ -8,6 +8,10 @@ description: In Adobe Workfront, items are identified as objects. Objects corres
 
 # Use the reference number of objects
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 In Adobe Workfront, items are identified as objects. Objects correspond with the database and are used to correlate data with an item.
 
 Workfront automatically assigns each of the following objects a unique reference number when the object is created:

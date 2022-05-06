@@ -16,6 +16,9 @@ description: The information described in this section is available in both the 
 The information&nbsp;described in this section is available in both the Web Proofing Viewer and the Desktop Proofing Viewer.&nbsp;
 
 <table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
  <tbody> 
   <tr> 
    <td><strong>Keyboard Shortcut</strong>&nbsp;</td> 

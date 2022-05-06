@@ -2,10 +2,14 @@
 filename: navigate-legacy-gantt
 navigation-topic: use-the-legacy-gantt-chart
 title: Navigate the Legacy Gantt Chart
-description: Note: The information in this article refers to functionality that is currently deprecated and will be removed in the future.
+description: (NOTE: classic only, drafted)
 ---
 
 # Navigate the Legacy Gantt Chart
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;classic only, drafted)</p>
+-->
 
 >[!NOTE]
 >

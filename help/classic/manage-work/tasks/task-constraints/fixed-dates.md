@@ -9,6 +9,10 @@ description: You can use the Fixed Dates task constraint when you want to be spe
 
 # Task Constraint overview: Fixed Dates
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use the Fixed Dates task constraint when you want to be specific about the exact start date and end date of your tasks. For more information about task constraints, see [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 ## Overview of the Fixed Dates constraint
@@ -42,6 +46,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Use"></a>Use the Fixed Dates Task Constraint</h2>
+<p>(NOTE:&nbsp;replaced with new article linked above) </p>
 <p>To update the Task Constraint to Finish No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

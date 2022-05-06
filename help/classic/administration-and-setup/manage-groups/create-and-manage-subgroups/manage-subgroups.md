@@ -9,6 +9,10 @@ description: As an group administrator of a subgroup, you can create, view, edit
 
 # Manage a subgroup
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an group administrator of a subgroup, you can create, view, edit, copy, rename, export, and delete the subgroup.
 
 You can also make a subgroup a top-level group by removing it from its parent group.
@@ -43,7 +47,7 @@ You must have the following to perform the steps in this article:
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
-   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. Do any of the following:
 

@@ -10,6 +10,10 @@ description: Taxonomy is a type of metadata used to describe and categorize the 
 
 # Overview of taxonomy metadata in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Taxonomy is a type of metadata used to describe and categorize the factual attributes of content uploaded to Workfront Library. For information about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
 Users apply taxonomy when they upload an asset to Workfront Library. Users can also add or edit taxonomy metadata to shared assets to which they have Manage permissions.

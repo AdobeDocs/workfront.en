@@ -8,6 +8,10 @@ description: The Document Details page lets you view, communicate about, and man
 
 # View Document Details
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Document Details page lets you view, communicate about, and manage the properties of a document attached to a Adobe Workfront object.
 
 For more information about documents in Workfront, see [The Documents area](../../documents/managing-documents/documents-area.md).
@@ -24,7 +28,7 @@ For more information about document approvals, see [Manage approvals](../../revi
 
 You can share document permissions and control access to your document in the Sharing section on the right panel.
 
-For information on how document permissions work, see [Share a document in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+For information on how document permissions work, see [Share a document](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
 
 ### Manage document versions and associated proofs
 
@@ -54,9 +58,9 @@ Your Workfront administrator creates and configures custom forms for your organi
 
 For more information, see [Delete Documents](../../documents/managing-documents/delete-documents.md).
 
-## Generate a proof for the document
+## Create a proof for the document
 
-For more information, see [Generate a proof](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md).
+For more information, see [Create proofs](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
 
 ## Add the document to your Workfront favorites
 

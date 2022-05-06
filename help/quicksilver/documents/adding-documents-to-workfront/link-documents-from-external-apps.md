@@ -192,7 +192,7 @@ For information about adding new version of a document you have uploaded to Work
 
 You can link proofs to Workfront that originally existed in Workfront Proof. When you link a proof from Workfront Proof, all comments and other metadata associated with the proof are available in Workfront.&nbsp;
 
-You can link only those proofs for which you have View access in Workfront Proof. (For more information about rights within Workfront Proof, see [Configure a user's proofing access](../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)).
+You can link only those proofs for which you have View access in Workfront Proof. (For more information about rights within Workfront Proof, see ).
 
 1. Go to the **Documents** area in Workfront where you want the document.
 1. Click **Add New**, then click **From Workfront Proof**.

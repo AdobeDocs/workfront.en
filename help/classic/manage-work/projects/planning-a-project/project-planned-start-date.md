@@ -4,10 +4,22 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Overview of the project Planned Start Date
-description: The Planned Start and the Planned Completion Dates of a project rely on the dates of the tasks on the project. This article describes the Planned Start Date of a project. For information about the task Planned Start Date, see Overview of the task Planned Start Date.
+description: 
 ---
 
 # Overview of the project Planned Start Date
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: ???</p>
+<p>This needs to be split in two articles, and add one to the Tasks area.</p>
+<p>Linked to&nbsp;Understanding the Projected Start Date for Projects, Tasks, and Issues; Project Condition article. Linked to Managing User Allocations.) </p>
+</div>
+-->
 
 The Planned Start and the Planned Completion Dates of a project rely on the dates of the tasks on the project.&nbsp;This article describes the Planned Start Date of a project. For information about the task Planned Start Date, see [Overview of the task Planned Start Date](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
@@ -20,10 +32,14 @@ You must manually set the Planned Start Date of a project when you schedule the 
 For information about setting the project's Planned Start Date, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted below, to keep this as an overview article)</p>
+-->
+
+<!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1"> Go to the <strong>Projects</strong> area in your Global Navigation Bar. </li>
-<li value="2"> <p> Select the <strong>Projects</strong> tab, then click <strong>New Project</strong>. </p> <p>For more information about creating projects, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li>
-<li value="3"> Click <strong>Edit Project</strong>. </li>
+<li value="1">  Go to the <strong>Projects</strong> area in your Global Navigation Bar.  </li>
+<li value="2"> <p>  Select the <strong>Projects</strong> tab, then click <strong>New Project</strong>.  </p> <p>For more information about creating projects, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li>
+<li value="3">  Click <strong>Edit Project</strong>.  </li>
 <li value="4">In the <strong>Schedule From</strong> field, select <strong>Start Date</strong>.</li>
 <li value="5">Specify the <strong>Planned Start Date</strong> of the project.</li>
 <li value="6"> <p>Click <strong>Save Changes</strong>.</p> <p>As you start adding tasks to your project, the <strong>Planned Completion Date</strong> of the project calculates based on the total Duration of all of the tasks.&nbsp;</p> </li>
@@ -50,17 +66,18 @@ The Planned Start Date of a project is automatically set when you create the pro
 
   The Planned Start&nbsp;Date always matches your computer's time and date, unless you specify otherwise in the setPlannedStartDate field on the Project sheet of the kick-start file.
 
-  For information about importing data using kick-starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  For information about importing data using kick-starts, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
   For information about importing projects using kick-starts, see [Kick-Starts scenario: simple project and task import preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE:drafted it, to keep this as an overview article)</p>
 <p>To schedule a project from Completion Date:</p>
 <ol>
-<li value="1"> Go to the <strong>Projects</strong> area in your Global Navigation Bar. </li>
-<li value="2"> <p> Select the <strong>Projects</strong> tab, then click <strong>New Project</strong>. </p> <p>For more information about creating projects, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li>
-<li value="3"> Click <strong>Edit Project</strong>. </li>
+<li value="1">  Go to the <strong>Projects</strong> area in your Global Navigation Bar.  </li>
+<li value="2"> <p>  Select the <strong>Projects</strong> tab, then click <strong>New Project</strong>.  </p> <p>For more information about creating projects, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li>
+<li value="3">  Click <strong>Edit Project</strong>.  </li>
 <li value="4">In the <strong>Schedule From</strong> field, select <strong>Completion Date</strong>.</li>
 <li value="5">Specify the <strong>Planned Completion Date</strong> of the project.</li>
 <li value="6"> <p>Click <strong>Save Changes</strong>.</p> <p>As you start adding tasks to your project, the <strong>Planned Start Date</strong> of the project calculates based on the total Duration of all of the tasks, counting backwards from the Planned Completion Date.&nbsp;</p> <p>For more information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <p>The Planned Start Date of the project coincides, in this case, with the Planned Start Date of the first task on the project.</p> </li>
@@ -76,7 +93,9 @@ For information about the Planned Start&nbsp;Date of a task, see [Overview of th
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="understanding-planned-completion-of-task"></a>The Planned Start Date of a task</h2>
+<h2><a name="understanding-planned-completion-of-task"></a> </h2>
+<p>(NOTE: drafted and this content was moved to the article linked in the above paragraph)</p>
+<p>The Planned Start Date of a task</p>
 <p>You can either specify the Planned Start Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.&nbsp;</p>
 <ul>
 <li><a href="#manually-set-the-planned-start-date-of-a-task" class="MCXref xref">Manually set the Planned Start Date of a task</a> </li>
@@ -117,8 +136,7 @@ For information about the Planned Start&nbsp;Date of a task, see [Overview of th
 </ul>
 <p>When set automatically, the Planned Start Date&nbsp;is determined based on the following calculation:&nbsp;</p>
 <p><code>Planned Start Date = Planned Completion Date - Task Duration</code> </p>
-<p>For example, if your task has a Completion Date of September 16 and a duration of 10 days, the Planned Start Date is September 6.</p> <note type="note">
-&nbsp;The Update Type for the project must also be&nbsp;set to 'Automatic and On Change' or 'Automatically' in order for the Planned Hours and Duration to be automatically&nbsp;adjusted.
+<p>For example, if your task has a Completion Date of September 16 and a duration of 10 days, the Planned Start Date is September 6.</p> <note type="note"> &nbsp;The Update Type for the project must also be&nbsp;set to 'Automatic and On Change' or 'Automatically' in order for the Planned Hours and Duration to be automatically&nbsp;adjusted.
 <br>For more information about the Update Type, see the article
 <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.
 </note>

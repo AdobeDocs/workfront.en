@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a template</p> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to a template</p> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create a project from a template in the Projects area
 
-You can create a project from the Projects area in theMain Menu, or from the Projects area of a portfolio or a program.
+You can create a project from the Projects area in the Main Menu , or from the Projects area of a portfolio or a program.
 
 1. Do one of the following:
 
@@ -74,19 +74,21 @@ You can create a project from the Projects area in theMain Menu, or from the Pro
      >
      >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
 
-   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](view-manage-projects-groups-area.md).
+   * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
      >[!TIP]
      >
      >When you create a project using a template from a group, the group you create the project from displays in the Group field of the new project only when the Group field of the template is not specified. If the template Group field is specified, the Group field of the new project is that of the template.
 
-   >[!NOTE]
-   >
-   >If you have the Milestone View applied to the list of projects, follow the steps in the following section: [Create a project from a template](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FManage_work%2FProjects%2FCreate_projects%2Fcreate-project-from-template.html#Create).
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this, above, is hyperlinked to the classic version of this article; the Milestone View steps are similar to creating a project in Classic than to the way you do it in NWE)</p>
+   -->
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Click the name of a template in the **Favorite templates** list
+
+   ![](assets/new-project-from-template-dropdown-with-template-favorites-nwe-350x235.png)
 
    Or
 
@@ -119,9 +121,17 @@ You can create a project from the Projects area in theMain Menu, or from the Pro
 
    ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
+   >[!NOTE]
+   >
+   >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**. 
+   >
+   >
+   >![](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)   >
+   >
+
 1. The **New Project** box opens.
 
-   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x285.png)
+   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x282.png)
 
 1. If a field is already populated in the template, the field is pre-populated in the **New Project** box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. Click **Create Project**.
@@ -145,7 +155,7 @@ Instead of starting in the Projects area, you can create a project from a templa
 
 1. Specify a name for the project, then review each section and make any necessary changes.
 
-   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x285.png)
+   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x282.png)
 
    If a field is already populated in the template, the field is pre-populated in the **New Project** box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 

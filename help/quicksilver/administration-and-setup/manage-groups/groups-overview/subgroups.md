@@ -42,6 +42,10 @@ Any group you add to an existing group automatically becomes a subgroup and is n
 
 ## Group administrators for subgroups
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
+-->
+
 You can assign subgroup members as group administrators to the subgroup when you create it or edit it. For instructions, see [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Alternately, you can leave administration of the subgroup to the group administrators who are assigned to the groups above it. When you create a subgroup, group administrators over the groups above it have automatic access to manage the subgroup.

@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a program</p> <p> For information about granting permissions to programs, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">Share a program in&nbsp;Adobe Workfront</a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a program</p> <p> For information about granting permissions to programs, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">Share a program </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,13 +56,24 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >If you want to edit all information about the program, go to step 4.
+   >If you want to edit all information about the program, go to step 4.   >
+   >
+   ><!--   >
+   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
+   >(NOTE: still accurate?)   >
+   ></MadCap:conditionalText>   >
+   >-->   >
+   >
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x151.png)
+   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
    >Depending on how your Workfront administrator or Group administrator modified your Layout Template, the fields in the Program Details area might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
+   -->
 
    To edit information in the Details section, do the following:
 
@@ -80,7 +91,7 @@ You must have the following access to perform the steps in this article:
 
       ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 1. To edit all information about one or more programs do one of the following:
 
@@ -89,7 +100,7 @@ You must have the following access to perform the steps in this article:
 
    The **Edit Program** dialog box displays.
 
-   ![](assets/edit-program-box-classic-350x354.png)
+   ![](assets/edit-program-box-nwe-350x236.png)
 
    All program fields are available in the Edit Program box and are grouped by the areas listed in the left panel. 
 
@@ -103,6 +114,10 @@ You must have the following access to perform the steps in this article:
 
 1. Begin editing a program as described above.
 1. Click **Overview** and specify the following fields:
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
+   -->
 
    <!--
    <note type="note">

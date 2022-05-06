@@ -178,6 +178,19 @@ Users with a Plan license can have full access to reports. All other Access Leve
 
 ## Filters, views, and groupings
 
+<!--
+<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p style="color: #ff1493;">Add rows for the following? Alina recommended the first four but Gevorg wants the info limited to what the Access Levels UI covers.</p>
+<p style="color: #ff1493;">View reports*</p>
+<p style="color: #ff1493;">Build reports*</p>
+<p style="color: #ff1493;">Edit reports*</p>
+<p style="color: #ff1493;">Share reports*</p>
+<p style="color: #ff1493;">Export lists</p>
+<p style="color: #ff1493;">Apply quick filters to lists</p>
+<p style="color: #ff1493;">* Requires access to reports</p>
+</div>
+-->
+
 <table border="2" cellspacing="15" cellpadding="1"> 
  <col> 
  </col> 
@@ -500,9 +513,9 @@ Only users with a Plan license can have full access to [select object or area]. 
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-&#42;&#42;Requires additional access to Financial Data and permissions to project finances. If you grant Resource Management access to a Planner user who doesn't have access to Financial Data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share financial permissions on an object in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Requires additional access to Financial Data and permissions to project finances. If you grant Resource Management access to a Planner user who doesn't have access to Financial Data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share financial permissions on an object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Requires permission to Contribute to the object, with Make Assignments enabled under Advanced Settings. For information, see the section [](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in the article [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Requires permission to Contribute to the object, with Make Assignments enabled under Advanced Settings. For information, see the section [Understand inherited permissions and the hierarchy of objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in the article [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Scenario Planner area
 
@@ -525,26 +538,26 @@ Only users with a Plan license can have full access to [select object or area]. 
 
 ## Workfront Goals area
 
-| Actions |No Access |View |Edit |
-|---|---|---|---|
-| Create |&nbsp; |&nbsp; |✓ |
-| Edit / delete all goals |&nbsp; |&nbsp; |✓ |
-| View Goals in the Main menu |&nbsp; |✓ |✓ |
-| View the Goals area from a shared link |&nbsp; |✓ |✓ |
-| View all goals in the system |&nbsp; |✓ |✓  |
-| Activate/ deactivate/ close all goals |&nbsp; |&nbsp; |✓ |
-| Create/ edit/ delete activities |&nbsp; |&nbsp; |✓ |
-| Create/ edit/ delete results |&nbsp; |&nbsp; |✓ |
-| Add an aligned goal |&nbsp; |&nbsp; |✓ |
-| Update progress on a result or activity |&nbsp; |&nbsp; |✓ |
-| Own a goal, result, or activity |&nbsp; |✓ |✓ |
-| Comment on a goal |&nbsp; |✓ |✓ |
-| Copy goals |&nbsp; |&nbsp; |✓ |
-| View the Goal List section in the left panel |&nbsp; |✓ |✓ |
-| View the Graphs section in the left panel |&nbsp; |✓ |✓ |
-| View the Goal Alignment section in the left panel |&nbsp; |✓ |✓ |
-| View the Pulse section in the left panel |&nbsp; |✓ |✓ |
-| View the Check-in area in the left panel |&nbsp; |&nbsp; |✓ |
-| View the Settings area in the left panel |&nbsp; |✓ |✓  |
-| Print a list of goals |&nbsp; |✓ |✓  |
+| Actions |View |Edit |
+|---|---|---|
+| Create |&nbsp; |✓ |
+| Edit / delete all goals |&nbsp; |✓ |
+| View Goals in the Main menu |✓ |✓ |
+| View the Goals area from a shared link |✓ |✓ |
+| View all goals in the system |✓ |✓  |
+| Activate/ deactivate/ close all goals |&nbsp; |✓ |
+| Create/ edit/ delete activities |&nbsp; |✓ |
+| Create/ edit/ delete results |&nbsp; |✓ |
+| Add an aligned goal |&nbsp; |✓ |
+| Update progress on a result or activity |&nbsp; |✓ |
+| Own a goal, result, or activity |✓ |✓ |
+| Comment on a goal |✓ |✓ |
+| Copy goals |&nbsp; |✓ |
+| View the Goal List section in the left panel |✓ |✓ |
+| View the Graphs section in the left panel |✓ |✓ |
+| View the Goal Alignment section in the left panel |✓ |✓ |
+| View the Pulse section in the left panel |✓ |✓ |
+| View the Check-in area in the left panel |&nbsp; |✓ |
+| View the Settings area in the left panel |✓ |✓  |
+| Print a list of goals |✓ |✓  |
 

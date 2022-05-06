@@ -3,11 +3,11 @@ filename: share-a-plan
 product-area: enterprise-scenario-planner-product-area
 keywords: plan,permissions,share,initiatives,scenarios,scenario
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Share a plan in the Adobe Workfront Scenario Planner
+title: Share a plan in the Scenario Planner
 description: You can share a plan that you created in the Adobe Workfront Scenario Planner with other users.
 ---
 
-# Share a plan in the Adobe Workfront Scenario Planner
+# Share a plan in the Scenario Planner
 
 ##  
 
@@ -35,7 +35,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
@@ -43,7 +43,15 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>You must be the creator of the plan. </p> <p>Plan creators have Manage permissions to the plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+   <td> <p>You must be the creator of the plan. <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
+      </MadCap:conditionalText>
+     --></p> <p>Plan creators have Manage permissions to the plan <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
+      </MadCap:conditionalText>
+     --></p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +63,13 @@ You must have the following:
 * You must be the creator of the plan to be able to share it with another user and grant permissions for what that user can do with the plan.
 * The users given the access to the plan must have access to the Scenario Planner area in their Access Levels, as granted by your Workfront administrator in order to receive permissions to a plan.
 
-  For example, Requestors cannot view, create, or edit plans. You should keep this in mind when sharing a plan with a user who has a Requestor license.
+  For example, Requestors cannot view, create, or edit plans. You should keep this in mind when sharing a plan with a user who has a Requestor license. 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
+  </MadCap:conditionalText>
+  -->
 
 For more information about access to the Scenario Planner for various license types, see [Grant access to Scenario Planner](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
@@ -67,14 +81,14 @@ For more information about access to the Scenario Planner for various license ty
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  or a plan must be shared with you
+  or a plan must be shared with you (NOTE: drafted because this is not available right now; will be in the future; when this comes, edit the next sentence as well.)
   </MadCap:conditionalText>
   -->
 
   to share it with other users. You cannot share plans that are shared with you. 
 * You can only share a plan with other users. You cannot share plans with groups, teams, or companies. 
 * You must first save a plan before you can share it. 
-* You can share a URL to a plan with another user. If the user does not have permissions to at least view the plan, they can request access to the plan from the plan creator when they receive the URL.&nbsp;For information about requesting access to a plan, see [Request access to a plan in the Adobe Workfront Scenario Planner](../scenario-planner/request-access-to-plan.md). 
+* You can share a URL to a plan with another user. If the user does not have permissions to at least view the plan, they can request access to the plan from the plan creator when they receive the URL.&nbsp;For information about requesting access to a plan, see [Request access to a plan in the Scenario Planner](../scenario-planner/request-access-to-plan.md). 
 * When sharing multiple plans in bulk, they must all be plans that you created. If you select a plan that you created and a plan shared with you, the Share icon does not display on the list of plans.
 * When sharing multiple plans that have already been shared with others, the users you share with do not replace but are added to the existing users on each plan you selected.
 
@@ -91,7 +105,7 @@ For more information about access to the Scenario Planner for various license ty
 
    Select several plans to share them in bulk. 
 
-1. (Conditional) If you opened a plan, click the **More** icon ![](assets/more-icon.png) to the right of the Plan name, then click Share
+1. (Conditional) If you opened a plan, click the **More** icon ![](assets/more-icon.png) to the right of the Plan name, then click **Share**
 
    Or
 

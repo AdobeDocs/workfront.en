@@ -2,12 +2,15 @@
 filename: anaplan-integration-faq
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Adobe Workfront with Anaplan Integration FAQ
+title: Adobe Workfront with Anaplan Integration FAQs
 description: Do I have to use Adobe Workfront Fusion?
-hidefromtoc: true
 ---
 
-# Adobe Workfront with Anaplan Integration FAQ
+# Adobe Workfront with Anaplan Integration FAQs
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 * [Do I have to use Adobe Workfront Fusion?](#do-i-have-to-use-adobe-workfront-fusion) 
 * [Can we do the same sort of integration with another finance tool other than Anaplan?](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan) 

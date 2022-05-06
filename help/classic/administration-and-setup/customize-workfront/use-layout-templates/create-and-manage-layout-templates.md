@@ -3,10 +3,22 @@ filename: create-and-manage-layout-templates
 product-area: system-administrtation;templates
 navigation-topic: layout-templates
 title: Create and manage layout templates
-description: The Adobe Workfront layout refers to the arrangement of Global Navigation bar areas and the tabs associated with them, as well as to the views, filters, and groupings that are visible in lists and reports.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 ---
 
 # Create and manage layout templates
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
+-->
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">NWE version of this content at the bottom</p>
+-->
 
 The Adobe Workfront layout refers to the arrangement of Global Navigation bar areas and the tabs associated with them, as well as to the views, filters, and groupings that are visible in lists and reports.
 
@@ -530,34 +542,6 @@ For example, to customize the name for **Projects** using the layout template:
 
      The following areas of Workfront do not show the updated name of the object:
 
-        <!--      
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Legacy Gantt</li>      
-        -->
-
-        <!--      
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>      
-        -->
-
-        <!--      
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Budget Manager</li>      
-        -->
-
-        <!--      
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Capacity Planner</li>      
-        -->
-
-        <!--      
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Grid</li>      
-        -->
-
-        <!--      
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Team Builder</li>      
-        -->
-
-        <!--      
-        <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Legacy Portfolio Optimizer </li>      
-        -->      
-      
       * Outlook Add-in
 
    For information about the implications of customizing object names, see the [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). 

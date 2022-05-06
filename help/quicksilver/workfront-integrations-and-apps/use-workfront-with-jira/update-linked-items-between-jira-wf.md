@@ -145,7 +145,7 @@ The following list shows which Jira fields synchronize with Workfront fields on 
   </tr> 
   <tr> 
    <td>Issue Assignee</td> 
-   <td> <p> Issue or Task Assignee</p> <p>Important: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new active user in Workfront only when the <strong>Automatically create a user in</strong>Workfront<strong>if the Jira user does not have a</strong>Workfront<strong>account</strong> is set to <strong>Always</strong>. This user does not occupy a Workfront license. Active users can be assigned to work items in Workfront, but cannot be included in updates. For more information about configuring the automatic creation of Workfront users from Jira, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configuring Workfront for Jira</a>.</p> </td> 
+   <td> <p> Issue or Task Assignee</p> <p>Important: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new active user in Workfront only when the option "Automatically create a user in Workfront if the Jira user does not have a Workfront account" is set to Always. This user does not occupy a Workfront license. Active users can be assigned to work items in Workfront, but cannot be included in updates. For more information about configuring the automatic creation of Workfront users from Jira, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configuring Workfront for Jira</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Issue Attachments</td> 
@@ -188,7 +188,7 @@ You can log time from a Jira issue linked to a Workfront item, and the time is r
 
 >[!IMPORTANT]
 >
->If the user logging the time in Jira does not exist in Workfront, the integration creates a new active user in Workfront if the **Automatically create a user in**Workfront**if the Jira user does not have a**Workfront**account** is set to **Always**. This user does not occupy a Workfront license. You can assign active users to work items in Workfront, but you cannot include them in updates. For information about configuring the automatic creation of Workfront users from Jira, see [Configuring Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>If the user logging the time in Jira does not exist in Workfront, the integration creates a new active user in Workfront if the **Automatically create a user in** Workfront**if the Jira user does not have a** Workfront**account** is set to **Always**. This user does not occupy a Workfront license. You can assign active users to work items in Workfront, but you cannot include them in updates. For information about configuring the automatic creation of Workfront users from Jira, see [Configuring Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 To log time for an item in Jira and have it recorded both in Jira and Workfront:
 

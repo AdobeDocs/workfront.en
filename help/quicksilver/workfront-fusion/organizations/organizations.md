@@ -14,6 +14,11 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
 This section contains the following articles:
 
 * [Adobe Workfront Fusion organizations and teams](../../workfront-fusion/organizations/organizations-and-teams.md) 
-* [Add a user to an organization](../../workfront-fusion/organizations/add-user-to-an-organization.md) 
-* [Organization roles](../../workfront-fusion/organizations/organization-roles.md)
+* [Add a user to an organization in Adobe Workfront Fusion](../../workfront-fusion/organizations/add-user-to-an-organization.md)
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/organizations/manage-fusion-users.md" class="MCXref xref" xrefformat="{para}">Manage Adobe Workfront Fusion users in your organization</a> </li>
+  -->
+
+* [Organization roles in Adobe Workfront Fusion](../../workfront-fusion/organizations/organization-roles.md)
 

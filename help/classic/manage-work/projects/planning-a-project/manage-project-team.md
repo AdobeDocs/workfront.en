@@ -3,10 +3,18 @@ filename: manage-project-team
 product-area: projects
 navigation-topic: plan-a-project
 title: Manage the Project Team
-description: The Project Team consists of users who are associated with the project. They display on the People subtab of the project.
+description: (NOTE: remove the NWE way of doing this when the Scheduling tools will be removed from the app)
 ---
 
 # Manage the Project Team
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;remove the NWE way of doing this when the Scheduling tools will be removed from the app)</p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The Project&nbsp;Team consists of users who are associated with the project. They display on the People subtab of the project.
 
@@ -36,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,6 +102,10 @@ You can manually add users to a project team by using the Team Scheduling tab.
 For more information about using the project scheduling area, see the article [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
 ##  Update the users' roles on the Project Team
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE" this is not possible in NWE - logged a bug but Matt Mitchell said we should not support this: https://hub.workfront.com/issue/6189a2a20009e5b1a7a6d51b2d0407e9/overview)</p>
+-->
 
 You can update the role that a user fulfills on the project as you view the Project&nbsp;Team.&nbsp;This is important when approvals on the project are assigned to job roles. Only the users who fulfill the roles specified in the approval process receive the approval notifications. For information about establishing approval settings, see [Configure global approval settings](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 

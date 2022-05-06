@@ -23,7 +23,7 @@ Permissions are specific to one item in Workfront and define what actions one ca
 
 ## Considerations when sharing a template
 
-* In addition to the considerations below, also see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+* In addition to the considerations below, also see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 * The creator of a template, as well as the Template Owner have Manage permissions to the template, by default. For information about designating a user as the Template Owner, see [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * You can share the following when sharing a template:
 
@@ -58,6 +58,7 @@ Permissions are specific to one item in Workfront and define what actions one ca
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Share"></a>Share a template</h2>
+<p>(NOTE: drafted because this is also linked above: Share project templates >> which is an article in the Manage Work section>> Templates)&nbsp;</p>
 <ol>
 <li value="1"> <p>Go to the template you want to share with other entities, click <strong>Template Actions</strong>, then <strong>Template Sharing</strong>.<br>Or</p> <p>Navigate to a list of templates, and select multiple templates from the list, then click <strong>Share Template</strong>.</p> <note type="note">
 If you select multiple templates, you cannot view who already has permissions to the individual templates.

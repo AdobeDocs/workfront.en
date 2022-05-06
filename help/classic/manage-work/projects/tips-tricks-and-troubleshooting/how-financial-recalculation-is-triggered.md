@@ -4,11 +4,15 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: How Financial Recalculation is Triggered
-description: The following actions trigger financial recalculation in Workfront:
+description: (NOTE: hiding this for now (drafted) and will need to be deleted after Zoomin; the content was added to the Recalculate Finances article)
 hidefromtoc: true
 ---
 
 # How Financial Recalculation is Triggered
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: hiding this for now (drafted) and will need to be deleted after Zoomin; the content was added to the Recalculate Finances article)</p>
+-->
 
 The following actions trigger financial recalculation in Workfront:
 

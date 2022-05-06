@@ -9,6 +9,10 @@ description: As an Adobe Workfront administrator, you can configure email templa
 
 # Configure email templates
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an Adobe Workfront administrator, you can configure email templates to support reminder notifications.
 
 Email templates contain the message sent to users when a reminder notification is initiated.  

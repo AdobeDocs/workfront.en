@@ -13,7 +13,7 @@ When a custom status is set as a default status, the new default status is used 
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

@@ -8,9 +8,16 @@ description: The keyboard shortcuts described in this article are available in b
 
 # Keyboard shortcuts in the proofing viewer
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The keyboard shortcuts described in this article are available in both the Web Proofing Viewer and the Desktop Proofing Viewer.&nbsp;
 
 <table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
  <tbody> 
   <tr> 
    <td><strong>Keyboard Shortcut</strong>&nbsp;</td> 

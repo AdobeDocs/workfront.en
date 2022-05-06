@@ -9,6 +9,10 @@ description: If your Workfront Library administrator set up content metadata, yo
 
 # Search for items in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If your Workfront Library administrator set up content metadata, you can quickly find the content you want by searching for names and metadata. For more information about metadata, see [Overview of metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/metadata-overview.md).
 
 ## Understand searching for content

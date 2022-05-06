@@ -9,6 +9,10 @@ description: This document describes how you can get help recovering individual 
 
 # Restoring individual child objects
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This document describes how you can get help recovering individual child objects that have been deleted from your Adobe Workfront Production or Preview environments fewer than 30 days previously.
 
 A Workfront administrator can restore projects, tasks, issues, and documents in each Workfront instance, as described in [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). But only the Workfront Database Team can restore a objects such as tasks, issues, documents, custom forms, hours, and notes independently of their parent object.
@@ -24,7 +28,7 @@ You can import the exported data in the following ways:
 
 * Manually, if you are using exported reports 
 * In bulk, if you are using Kick-Starts  
-  For more information about importing data into Workfront using Kick-Starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  For more information about importing data into Workfront using Kick-Starts, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 The Preview Sandbox environment is refreshed during our maintenance windows over the weekend.
 

@@ -8,6 +8,10 @@ description: By selecting an Update Type for a project, you can control how freq
 
 # Select the project Update Type
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 By selecting an Update Type for a project, you can control how frequently the changes you make to the timeline of the project are saved on the parent tasks or the project.
 
 When the project timeline is updated, it is recalculated based on changes made to the project, its tasks, or changes made to another project that the timeline is dependent on.
@@ -40,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +58,7 @@ When the tasks update, their parent objects (parent tasks or the project) update
 1. Go to the project whose Update Type you want to specify.
 1. Click **Edit Project** .
 1. Click **Settings**.  
-   ![](assets/screen-shot-2013-09-18-at-10.36.16-am.png)
+   ![](assets/screen-shot-2013-09-18-at-10.36.16-am-350x347.png)
 
 1. In the **Update Type** field, select whether you want Workfront to calculate the timeline of the project automatically daily, when there is a change, or if you want the project manager to calculate it manually.
 

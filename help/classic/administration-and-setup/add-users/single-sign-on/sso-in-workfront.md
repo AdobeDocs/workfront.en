@@ -12,13 +12,21 @@ description: The functionality described on this page applies only to organizati
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >The functionality described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform.
 >
 >If your organization has been onboarded to the Adobe Business Platform, Single Sign-On (SSO) is handled automatically as part of that integration. You do not need to configure or enable this functionality.
 >
 >For a list of procedures that differ based on whether your organization is migrated to Adobe IMS, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Workfront provides a centrally managed single sign-on (SSO) configuration that easily integrates Workfront with your existing corporate SSO solution. This configuration is easy to set up and manage, and is available for both OnDemand and OnPremise Enterprise customers.
+Workfront provides a centrally managed single sign-on (SSO) configuration that easily integrates Workfront with your existing corporate SSO solution. This configuration is easy to set up and manage, and is available for both OnDemand and OnPremise Enterprise customers. 
+
+<!--
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">What are OnDemand and OnPremise Enterprise customers?</span>
+-->
 
 In order to use the SSO functionality in Workfront, your organization needs to setup an SSO application, such as LDAP or Active Directory. You can then configure Workfront so that it can communicate with your SSO solution.
 

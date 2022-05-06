@@ -3,11 +3,15 @@ filename: map-an-array
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Map an array
+title: Map an array in Adobe Workfront Fusion
 description: An array is a special type of item that can contain the following:
 ---
 
-# Map an array
+# Map an array in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 An array is a special type of item that can contain the following:
 
@@ -16,7 +20,7 @@ An array is a special type of item that can contain the following:
 
 ``` ```**Example: **``````The Watch emails module returns an array of attachments for every email. Every attachment represents a collection that may contain a name, content, size, and so on.
 
-For more information, see [Item data types](../../workfront-fusion/mapping/item-data-types.md).
+For more information, see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
 ## Access requirements
 
@@ -78,4 +82,4 @@ You must have the following access to use the functionality in this article:
 
    You can add any number of items to an array.
 
-You can divide an array into individual bundles using an iterator. Fore more information, see [Iterator module](../../workfront-fusion/modules/iterator-module.md).
+You can divide an array into individual bundles using an iterator. Fore more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md).

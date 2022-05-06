@@ -3,18 +3,12 @@ filename: new-object-actions-area
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: New object actions area
-description: As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects. The actions area—located in the object header—contains links to edit, share, move, or delete an object.
+description: As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects. Most objects that you can access individually have an actions area.
 ---
 
 # New object actions area
 
-As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects.
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-The actions area—located in the object header—contains links to edit, share, move, or delete an object.
-</MadCap:conditionalText>
--->
+As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects. Most objects that you can access individually have an actions area.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Most objects that you can access individually in Adobe Workfront have an actions area, including the following:</p>
@@ -112,7 +106,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the object whose actions area you want to access</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the object whose actions area you want to access</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -147,11 +141,7 @@ To access the actions area:
 
 ## Actions areas for objects in the new Adobe Workfront experience {#actions-areas-for-objects-in-the-new-adobe-workfront-experience}
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-As part of the redesign in the new Adobe Workfront experience, we have added new actions areas for several objects. The actions area generally includes the Favorites icon and the More menu. The options available in the More menu vary depending on the object.
-</MadCap:conditionalText>
--->
+The actions area generally includes the Favorites icon and the More menu. The options available in the More menu vary depending on the object.
 
 The following are examples of redesigned actions areas in the new Adobe Workfront experience:
 
@@ -297,7 +287,16 @@ The following are examples of redesigned actions areas in the new Adobe Workfron
     <ul> 
      <li> <p>Share</p> </li> 
      <li> <p>Delete</p> </li> 
-    </ul> <p>To learn about the other actions available in the plan header, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-headers.md" class="MCXref xref">New object headers</a>.</p> <p>To learn more about plans in the Workfront Scenario Planner, see <a href="../../scenario-planner/plans-overview.md" class="MCXref xref">Plans overview in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+    </ul> <p>To learn about the other actions available in the plan header, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-headers.md" class="MCXref xref">New object headers</a>.</p> <p>To learn more about plans in the Workfront Scenario Planner, see <a href="../../scenario-planner/plans-overview.md" class="MCXref xref">Plans overview in the Scenario Planner</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Group</strong> </td> 
+   <td> <p>The actions area for a group includes the More menu. </p> <p> <img src="assets/group-actions-area-nwe-350x102.png" style="width: 350;height: 102;"> </p> <p>You can select the following options from the More menu:</p> 
+    <ul> 
+     <li> <p>Edit</p> </li> 
+     <li> <p>Copy</p> </li> 
+     <li> <p>Delete</p> </li> 
+    </ul> <p>To learn about the other actions available in the plan header, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-headers.md" class="MCXref xref">New object headers</a>.</p> <p>To learn more about groups, see <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

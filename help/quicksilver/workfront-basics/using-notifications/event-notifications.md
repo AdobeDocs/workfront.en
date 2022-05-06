@@ -22,7 +22,7 @@ Event notification emails can be configured at the following levels listed below
 
   All groups inherit system notifications by default, but group administrators might be able to change some configurations on the group level, if allowed by the Workfront administrator, as explained in the next bullet item below.
 
-* **Group level**: A group administrator can configure an event notification for groups they manage after a Workfront administrator unlocks this ability for groups. (missing or bad snippet) For more information, see [View and configure event notifications for a group](view-and-configure-event-notifications-group.md).
+* **Group level**: A group administrator can configure an event notification for groups they manage after a Workfront administrator unlocks this ability for groups. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group). For more information, see [View and configure event notifications for a group](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
   >[!NOTE]
   >
@@ -38,7 +38,7 @@ Event notification emails can be configured at the following levels listed below
   >
   >User-level notifications also include Workfront Goals notifications. However, the Workfront administrator or the group administrator cannot configure notifications for Workfront Goals. Each use must configure their own Workfront Goals notifications in their profile. If you have access to edit users you can also modify these notifications for others. For enabling Workfront Goals notifications for your profile or for other users that you have access to edit, see [Notifications: Goals](../../workfront-basics/using-notifications/notifications-goals.md).
 
-  For more information about what notifications the Workfront administratorcan configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Workfront Goalsare available only inThe new Adobe Workfront experience.
+  For more information about what notifications the Workfront administratorcan configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Workfront Goalsare available only in The new Adobe Workfront experience.
 
 ## Event notification content
 

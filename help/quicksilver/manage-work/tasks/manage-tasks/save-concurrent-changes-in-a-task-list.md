@@ -35,7 +35,7 @@ The following scenarios exist when multiple users are editing the same tasks:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
-<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</p>
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - when replaced with the above live section; does it need an edit??) </p>
 -->
 <div>
 <p>When editing tasks in a list, you can select whether you want each change to be saved automatically or if you want to manually save multiple changes at one time by clicking the Save button. This depends on whether you enable the Autosave setting in the task list or not. </p>

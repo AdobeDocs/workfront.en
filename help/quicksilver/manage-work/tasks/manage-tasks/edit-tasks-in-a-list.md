@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to the task and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -221,7 +221,7 @@ To edit tasks in a list when selecting the Manual save Standard option:
 
 1. Go to a project, then click the **Tasks** section .
 1. 
-   Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Standard** > **Apply**.
+   Click the **Plan Mode**menu**** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Standard** > **Apply**.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -302,7 +302,7 @@ To edit tasks in a list when using the Manual save Timeline Planning option:
 
 1. Go to a project, then click the **Tasks** section . 
 1. 
-   Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Timeline Planning**> **Apply**.
+   Click the **Plan Mode**menu**** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Timeline Planning**> **Apply**.
 
    This option is dimmed for projects with more than 2000 tasks.
 
@@ -457,4 +457,4 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
 
    All changes you made are now visible on all the selected tasks.
 
-For information about bulk editing custom forms, see the section "Edit multiple Custom Forms when bulk-editing objects" in [Manage custom forms attached to objects in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+For information about bulk editing custom forms, see the section "Edit multiple Custom Forms when bulk-editing objects" in [Manage custom forms attached to objects](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

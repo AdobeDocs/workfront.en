@@ -9,6 +9,10 @@ description: To aggregate several fields in Adobe Workfront and display that agg
 
 # Calculated custom fields vs. calculated columns
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can do the following:
 
 * A calculated custom field in a Custom Form  

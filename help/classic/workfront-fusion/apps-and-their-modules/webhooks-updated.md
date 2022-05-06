@@ -10,6 +10,10 @@ description: A webhook is an HTTP call that is triggered by an event. You can us
 
 # Webhooks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 A webhook is an HTTP call that is triggered by an event. You can use webhooks to activate instant trigger modules. Any application that is connected to the Internet and allows HTTP requests can send webhooks to Adobe Workfront Fusion.
 
 ## Access requirements
@@ -60,7 +64,7 @@ You must have the following access to use the functionality in this article:
 
 To use a webhook to connect an app to Workfront Fusion:
 
-1. Add the **Webhooks**>**Custom Webhook** instant trigger module to your scenario.
+1. Add the **Webhooks** >**Custom Webhook** instant trigger module to your scenario.
 
 1. Click **Add** next to the Webhook field and enter a name for the new webhook.
 1. (Optional) Click **Advanced Settings**. 
@@ -236,7 +240,7 @@ For more information on MIME format, see [MIME modules](../../workfront-fusion/a
 >
 >If you want to access the original JSON, enable JSON pass-through when setting up the webhook.
 >
->1. Click **Add**to add a new webhook.
+>1. Click **Add** to add a new webhook.
 >1. Click **Show advanced settings**.
 >1. Click **JSON pass-through**.
 >
@@ -245,7 +249,7 @@ For more information on MIME format, see [MIME modules](../../workfront-fusion/a
 
 To access the webhook's headers, enable Get request headers when setting up the webhook.
 
-1. Click **Add**to add a new webhook.
+1. Click **Add** to add a new webhook.
 1. Click **Show advanced settings**.
 1. Click **Get request headers**.
 
@@ -279,7 +283,7 @@ array. The formula is used in a filter that compares the extracted value with th
 
 ![](assets/set-up-a-filter-350x169.png)
 
-For further information on obtaining an array's element with a given key, see [Map an array's element with a given key](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) in the article [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+For further information on obtaining an array's element with a given key, see [Map an array's element with a given key](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) in the article [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ## Responding to webhooks
 

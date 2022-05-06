@@ -9,6 +9,10 @@ description: You can use "IF" statements in general programming languages. In Ad
 
 # "IF" statements overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use "IF" statements in general programming languages. In Adobe Workfront, "IF"&nbsp;statements allow you to compare, format, and string together fields of data for both reporting and custom data purposes. Also, thinking mathematically about "IF" statements leads to a better conceptual understanding since variables for expressions are commonly used.
 
 ## Recommendations for "IF" statements

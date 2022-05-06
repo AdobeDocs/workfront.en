@@ -5,10 +5,16 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Math
-description: You must have the following access to use the functionality in this article:
+description: In an Adobe Workfront Fusion scenario, you can use the math module to calculate math expressions.
 ---
 
 # Math
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+In an Adobe Workfront Fusion scenario, you can use the math module to calculate math expressions.
 
 ## Access requirements
 

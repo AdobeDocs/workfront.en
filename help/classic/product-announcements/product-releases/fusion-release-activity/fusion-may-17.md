@@ -20,7 +20,7 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 
 To make your Workfront Fusion Scenarios easier to work with, we've made it possible to copy and paste modules. Now, you can copy a module or group of modules and paste them into the same or a different scenario. Copying modules preserves the field values in that module.
 
-For more information, see [Copy modules or scenarios](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
+For more information, see Copy modules or scenarios.
 
 ```<iframe class="vimeo-player_0" src="assets/551492029?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -36,7 +36,7 @@ Now, when editing a scenario, you can select multiple modules at a time. You can
 
 Copying and moving modules preserve the module values and any lines connecting the modules.
 
-For more information on editing scenarios, see [Create a scenario](../../../workfront-fusion/scenarios/create-a-scenario.md).
+For more information on editing scenarios, see [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
 ## Modules now preserve unsaved information
 

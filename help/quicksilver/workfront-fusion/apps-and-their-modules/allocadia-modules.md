@@ -6,14 +6,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Allocadia modules
-description: In a Adobe Workfront Fusion scenario, you can connect your Allocadia account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Allocadia modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Allocadia account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -65,16 +65,16 @@ To use Allocadia modules, you must have an Allocadia account.
 
 You can create a connection to your Allocadia account directly from inside an Allocadia module.
 
-1. In any Allocadia module, click **Add**next to the Connection field.
+1. In any Allocadia module, click **Add** next to the Connection field.
 1. Select whether you want to use the North America server or the Europe server.
 1. Enter your Username and Password.
-1. Click **Continue**to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ## Allocadia modules and their fields
 
 When you configure Allocadia modules, Workfront Fusion displays the fields listed below. Along with these, additional Allocadia fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -147,7 +147,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

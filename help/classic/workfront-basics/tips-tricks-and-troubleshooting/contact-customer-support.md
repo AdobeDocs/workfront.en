@@ -3,10 +3,18 @@ filename: contact-customer-support
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contact Customer Support
-description: As a Adobe Workfront customer, you can contact the Workfront Customer Support team by phone or by submitting a ticket online.
+description: (NOTE: ** We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)
 ---
 
 # Contact Customer Support
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ** We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
+-->
 
 As a Adobe Workfront customer, you can contact the Workfront Customer Support team by phone or by submitting a ticket online.
 

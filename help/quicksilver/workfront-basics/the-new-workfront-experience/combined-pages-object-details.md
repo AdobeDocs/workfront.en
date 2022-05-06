@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to the object whose details you want to update</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to the object whose details you want to update</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Accessing the Details page for an object is similar to all objects where this fu
 1. Go to the object whose **Details** page you want to access.
 1. In the left panel, click **<Object> Details**.&nbsp;For example, for a project, click&nbsp;**Project Details**.
 
-   ![](assets/one-page-project-details-page-350x279.png)
+   ![](assets/one-page-project-details-page.png)
 
    Notice the following in the new Details page:
 
@@ -93,7 +93,12 @@ Accessing the Details page for an object is similar to all objects where this fu
       </tbody> 
      </table>
 
-1. (Optional) Click the **Collapse All** icon ![](assets/collapse-all-icon-for-custom-forms-on-details-page.png) in the upper-right corner to collapse all the areas. 
+1. (Optional) Click the **Collapse All** icon ![](assets/collapse-all-icon-for-custom-forms-on-details-page.png) in the upper-right corner to collapse all the areas.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted content in the snippet below) </p>
+   -->
+
 1. 
    To add or edit information for fields in the Details section,
 
@@ -122,7 +127,7 @@ Accessing the Details page for an object is similar to all objects where this fu
    * Portfolios
    * Programs
 
-   For more information, see [Export custom forms and object details in Adobe Workfront](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md). 
+   For more information, see [Export custom forms and object details](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md). 
 
 1. (Conditional) If you have made edits, click **Save Changes**.
 

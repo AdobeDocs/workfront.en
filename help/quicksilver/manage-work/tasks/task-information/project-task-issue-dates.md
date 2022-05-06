@@ -4,11 +4,20 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Overview of project, task, and issue dates
-description: Introduction about dates in WF
+description: (NOTE: NEW article to document ALL task dates and what affects/ calculates them.
 hidefromtoc: true
 ---
 
 # Overview of project, task, and issue dates
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE:&nbsp;NEW article to document ALL task dates and what affects/ calculates them.</p>
+<p>Report to use to see task dates:&nbsp;https://alinawilson.attask-ondemand.com/report/view?ID=5a54fa6e003c830af4e5bb3ad5a96c14</p>
+<p>This answers this hub request:&nbsp;https://hub.workfront.com/issue/view?ID=581a32ec00187441ee802959b2c8f547</p>
+<p>Fix excel sheet when this is public) </p>
+</div>
+-->
 
 Introduction about dates in WF
 
@@ -104,7 +113,9 @@ The following table contains information about dates associated with projects, t
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Completion Pending Date</td> 
+   <td> <p>Completion Pending Date</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what is this date??)</p>
+    --> </td> 
    <td><span class="wysiwyg-color-pink">&nbsp;</span> </td> 
    <td> <p>This date applies to&nbsp;</p> 
     <ul> 
@@ -128,7 +139,9 @@ The following table contains information about dates associated with projects, t
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Date 1</td> 
+   <td> <p>Date 1 </p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;What is this date?&nbsp;Was this a custom date in your environment?)</p>
+    --> </td> 
    <td>&nbsp;</td> 
    <td> <p>This date applies to</p> 
     <ul> 

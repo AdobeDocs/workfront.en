@@ -4,10 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Manage email invitations to new users
-description: As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
+description: *** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Manage email invitations to new users
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***&nbsp;DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
 

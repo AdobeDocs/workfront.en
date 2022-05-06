@@ -3,14 +3,20 @@ filename: my-updates-area
 product-area: projects
 navigation-topic: use-the-home-area
 title: Use the My Updates area
-description: You can use the My Updates area to quickly review the approvals waiting for your decision or the conversations you have been included in.
+description: (NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)
 ---
 
 # Use the My Updates area
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My&nbsp;Work" folder that is conditioned for Classic only)</p>
+-->
+
 You can use the My Updates area to quickly review the approvals waiting for your decision or the conversations you have been included in.<![CDATA[  ]]>
 
-As a user with a Review license, you can find the My Updates area in the Main Menu by default. The My Updates area replaces Home as the landing page for Review users, unless they are assigned to a layout template where another landing area is defined. For information about Adobe Workfront licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+As a user with a Review license, you can find the My Updates area in the Main Menu by default and the My Updates area is the default landing page for you.
+
+For information about Adobe Workfront licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 If you have a license type different than Review, the Workfront or Group administrator must add the My Updates area to your layout template to display it in the Main Menu. For information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -36,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to projects, tasks, issues, documents where you are tagged in a conversation or need to resolve an approval</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher to projects, tasks, issues, documents where you are tagged in a conversation or need to resolve an approval</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +61,7 @@ You must have the following before you begin:
 
 1. Click **My Updates** in the **Main Menu**.
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x298.png)
+   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    The My Updates area opens.
 
@@ -65,11 +71,11 @@ You must have the following before you begin:
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Optional)&nbsp;Scroll to the bottom of the My&nbsp;Updates area and click right to display more approvals that display on additional pages.
+1. (Optional)&nbsp;Scroll to the bottom of the My&nbsp;Updates area and click the right-pointing arrow to display more approvals that display on additional pages.
 
    >[!TIP]
    >
-   >The first five approvals or requests for access display by default. The remaining approvals display on additional pages.
+   >The first five approvals or requests for access display by default. The remaining approvals display on additional pages. You can display a maximum of 2000 approvals in the My Updates area.
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
@@ -91,7 +97,7 @@ You must have the following before you begin:
      </tr> 
      <tr> 
       <td role="rowheader">My Approvals</td> 
-      <td> <p>Approvals submitted to you. </p> <p>For more information about approving items, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work in Adobe Workfront</a>.</p> </td> 
+      <td> <p>Approvals submitted to you. </p> <p>For more information about approving items, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -120,7 +126,7 @@ You must have the following before you begin:
       >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
       >
 
-      For more information about approving work, see [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
+      For more information about approving work, see [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 1. Click **Grant access** to grant the access request submitted to you
 
@@ -136,6 +142,11 @@ You must have the following before you begin:
 
    ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
+   >[!TIP]
+   >
+   >The first 50 mentions display by default.
+
+1. (Optional)&nbsp;Click&nbsp;**Show More Updates** to view more mentions. 
 1. (Optional)&nbsp;Click&nbsp;**Reply** to respond to a comment, enter your response, then click&nbsp;**Reply** again.
 
    For more information about updating items, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

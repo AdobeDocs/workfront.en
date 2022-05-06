@@ -3,15 +3,23 @@ filename: use-conditional-formatting-text-mode
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Use conditional formatting in Text Mode
-description: The standard interface builder provides a great range of flexibility when creating reporting elements to meet the needs in your organization.
+description: (NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
 ---
 
 # Use conditional formatting in Text Mode
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))</p>
+-->
+
 The standard interface builder provides a great range of flexibility when creating reporting elements to meet the needs in your organization.
 
 You can apply conditional formatting in a view by using the standard interface.  
-For more information about applying conditional formatting to a view, see [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+For more information about applying conditional formatting to a view, see [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Access requirements
 
@@ -35,7 +43,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to edit views in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit views in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +66,7 @@ You can also use text mode to format views in reports and lists.&nbsp;Using cond
 
 ## Add conditional formatting to Views
 
-For more information about applying conditional formatting to a view in the standard builder interface, see [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+For more information about applying conditional formatting to a view in the standard builder interface, see [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 To add conditional formatting to a view in the text mode interface:
 
@@ -103,7 +111,9 @@ Dates can be configured to display in a variety of formats.
 For more information, see [Format dates in text mode reports](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above)</p>
+-->
 <p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
 <pre>valueformat=&nbsp;[new date format]</pre>
 <p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
@@ -166,7 +176,9 @@ For more information, see [Format numbers, currency and percentage values in tex
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To modify the format of a numeric value, you must edit the&nbsp;<strong>valueformat</strong>&nbsp;line of your column.</p>
+<p>To modify the format of a numeric value, you must edit the&nbsp;<strong>valueformat</strong>&nbsp;line of your column.</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above) </p>
+-->
 <p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
 <pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
 <p>You can format numbers&nbsp;using the following values for the&nbsp;<code>valueformat</code>&nbsp;line of your column:</p>

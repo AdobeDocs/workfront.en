@@ -27,7 +27,7 @@ Download instructions on SSL/TSL setup.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

@@ -56,7 +56,7 @@ To enhance your reports, you can add the following elements:
 When building a report, you can modify any of these elements individually in the report builder.
 
 Another way of enhancing the relevance of the information included in your reports is by applying conditional formatting to your views.  
-For information about using conditional formatting, see [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+For information about using conditional formatting, see [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## System reports
 

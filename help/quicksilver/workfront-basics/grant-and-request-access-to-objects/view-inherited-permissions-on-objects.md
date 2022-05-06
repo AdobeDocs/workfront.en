@@ -2,11 +2,11 @@
 filename: view-inherited-permissions-on-objects
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: View inherited permissions on objects in Adobe Workfront
+title: View inherited permissions on objects
 description: Your Adobe Workfront administrator can grant you access to view or edit objects when assigning your access level. For more information, see Grant access to projects.
 ---
 
-# View inherited permissions on objects in Adobe Workfront
+# View inherited permissions on objects
 
 Your Adobe Workfront administrator can grant you access to view or edit objects when assigning your access level. For more information, see [Grant access to projects](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
@@ -38,7 +38,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on the objects you want to view permissions for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions on the objects you want to view permissions for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ To view inherited permissions for a project:
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-1. (Optional) To remove inherited permissions from an object, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+1. (Optional) To remove inherited permissions from an object, see [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    >[!NOTE]
    >

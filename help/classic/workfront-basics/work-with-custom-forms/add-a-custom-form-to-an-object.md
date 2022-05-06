@@ -9,6 +9,10 @@ description: You can add an existing custom form to any of the objects listed be
 
 # Add a custom form to an object
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add an existing custom form to any of the objects listed below. A custom form contains custom fields where you can store information about the object.
 
 * Projects (including business cases)
@@ -47,7 +51,7 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to the objects for which you manage custom forms</p> <p>View or higher permissions to the custom form with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to the objects for which you manage custom forms</p> <p>View or higher permissions to the custom form with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,7 +79,10 @@ You can add a custom form to an object in two ways:
 1. Click **Custom Forms** > **Add Forms**, then select up to 10 forms from the drop-down menu.
 
 1. (Optional) Update the information in the editable fields on the custom form.
-1. Click **Save Changes**.
+
+   You must update all required fields on the forms you add. 
+
+1. Click **Save****Changes**.
 
 ### Add a custom form to an object from the Details area {#add-a-custom-form-to-an-object-from-the-details-area}
 
@@ -86,15 +93,25 @@ You can add a custom form to an object in two ways:
 
    >[!IMPORTANT]
    >
+   >
+   >
+   ><!--   >
+   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This is true in "Edit custom forms" but not in "Add a custom form to an object." This snippet is used in both articles. The whole snippet is conditioned for classic only in "Add" but not in "Edit." Don't remove the NWE conditioning in the snippet because it is needed in "Edit."</p>   >
+   >-->   >
+   >
    >You must complete all required fields on the form before you can save the form.&nbsp; The name of a required field displays in bold.
 
 ## Multiple custom forms on an object
 
 You can add up to 10 custom forms on a given object, allowing you to make fields available to some users and not to others, or allowing you to better meet the form requirements of multiple projects.
 
-For example, if an existing project has a custom form already, and more custom fields are needed which exist on another custom form, you can add a second form to the project with the additional fields, rather than add the fields to the existing custom form, if those fields are needed just for this one project.
+``` ```**Example: **`````` If an existing project has a custom form already, and more custom fields are needed which exist on another custom form, you can add a second form to the project with the additional fields, rather than add the fields to the existing custom form, if those fields are needed just for this one project.
 
-## Add a custom forms to multiple objects in bulk
+## Add a custom form to multiple objects in bulk
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit is released for NWE) </p>
+-->
 
 You can add custom forms to multiple objects by selecting them in a list.
 
@@ -114,6 +131,12 @@ You can add custom forms to multiple objects by selecting them in a list.
 1. Click **Save Changes**.
 
    >[!IMPORTANT]
+   >
+   >
+   >
+   ><!--   >
+   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This is true in "Edit custom forms" but not in "Add a custom form to an object." This snippet is used in both articles. The whole snippet is conditioned for classic only in "Add" but not in "Edit." Don't remove the NWE conditioning in the snippet because it is needed in "Edit."</p>   >
+   >-->   >
    >
    >You must complete all required fields on the form before you can save the form.&nbsp; The name of a required field displays in bold.
 

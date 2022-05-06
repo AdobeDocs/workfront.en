@@ -9,9 +9,13 @@ description: You can quickly access your Workfront Proof account directly from t
 
 # Access Workfront Proof from Adobe Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can quickly access your Workfront Proof&nbsp;account directly from the Adobe Workfront interface without&nbsp;needing log in to Workfront Proof&nbsp;when the following conditions are met:
 
-* Your Workfront environment is integrated with a Workfront Proof&nbsp;Premium account. For more information about what functionality is available only with a Workfront Proof&nbsp;Premium account, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Your Workfront environment is integrated with a Workfront Proof&nbsp;Premium account. For more information about what functionality is available only with a Workfront Proof&nbsp;Premium account, see .
 
   You have a Workfront Proof&nbsp;license. (It is not required that you are a Workfront Proof&nbsp;administrator.)
 
@@ -45,5 +49,5 @@ You can configure all users to have access to the Workfront Proof button within 
 
 >[!IMPORTANT]
 >
->If you plan to allow all Workfront users to access Workfront Proof directly from the Workfront Global Navigation Bar,&nbsp;ensure that the permission profile you grant to the user does not provide more access than the user's access level within Workfront. Doing so ensures that the user cannot&nbsp;access proofs within Workfront Proof that he or she does not have access to within Workfront. For information about how to configure proofing access within Workfront Proof and Workfront, see [Enable and disable proofing for a user (legacy plans only)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user).
+>If you plan to allow all Workfront users to access Workfront Proof directly from the Workfront Global Navigation Bar,&nbsp;ensure that the permission profile you grant to the user does not provide more access than the user's access level within Workfront. Doing so ensures that the user cannot&nbsp;access proofs within Workfront Proof that he or she does not have access to within Workfront. For information about how to configure proofing access within Workfront Proof and Workfront, see .
 

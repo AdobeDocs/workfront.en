@@ -11,11 +11,11 @@ description: While working on a project, you might discover that unexpected even
 
 While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or task. You can also submit requests, which are recorded as issues on a project that is designated as a Request Queue. Issues and requests are used considered to be interchangeable in Adobe Workfront.
 
-For information about creating issues in Workfront, see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). For information about creating requests in Workfront, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md). For information about associating Request&nbsp;Types with projects, see [Define Request Types for a project in Adobe Workfront](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+For information about creating issues in Workfront, see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). For information about creating requests in Workfront, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md). For information about associating Request&nbsp;Types with projects, see [Define Request Types for a project](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

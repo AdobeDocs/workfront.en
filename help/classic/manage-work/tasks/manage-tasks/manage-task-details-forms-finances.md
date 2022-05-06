@@ -3,11 +3,18 @@ filename: manage-task-details-forms-finances
 product-area: projects
 navigation-topic: manage-tasks
 title: Manage task details, custom forms, and finances
-description: You can manage the information about a task by referring to the Task Details tab.
+description: (NOTE: marked this article as draft; useful information here but was not public for a while
 hidefromtoc: true
 ---
 
 # Manage task details, custom forms, and finances
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: marked this article as draft; useful information here but was not public for a while</p>
+<p>** This information is in standalone articles about managing task details and sections)</p>
+</div>
+-->
 
 You can manage the information about a task by referring to the Task Details tab.
 
@@ -31,7 +38,7 @@ To access the Task Details tab:
 
 If you have manage permissions to the task, you can edit the information on the **Overview** sub-tab.&nbsp; If you have view or contribute permissions to a&nbsp;task, you can only view the&nbsp;information on the **Overview** sub-tab.
 
-For more information about task permissions, see [Share a task in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+For more information about task permissions, see [Share a task](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
 You can see the following information on the **Overview** sub-tab:
 
@@ -95,7 +102,7 @@ If you have manage permissions to the task, and you have finance access in your 
 
 For more information on financial access, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).&nbsp;
 
-For more information about task permissions, see [Share a task in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+For more information about task permissions, see [Share a task](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
 You can see the following information on the **Finance** sub-tab:
 

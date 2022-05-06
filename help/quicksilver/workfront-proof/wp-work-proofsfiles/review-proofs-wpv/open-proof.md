@@ -26,9 +26,5 @@ description: Opening a Proof in Workfront Proof
    * To proof in the Web Proofing Viewer, see [Reviewing Proofs in the Web Proofing Viewer.](https://support.workfront.com/hc/en-us/sections/115000275214)
    * To proof in the Desktop Proofing Viewer, see [Reviewing Proofs in the Desktop Proofing Viewer.](https://support.workfront.com/hc/en-us/search/click?data=BAh7CjoHaWRsKwjm7%2BTRUwA6CXR5cGVJIgxhcnRpY2xlBjoGRVQ6CHVybEkiVC9oYy9lbi11cy9hcnRpY2xlcy8zNjAwMDM3MjczMzQtUmV2aWV3aW5nLVByb29mcy1pbi10aGUtRGVza3RvcC1Qcm9vZmluZy1WaWV3ZXIGOwdUOg5zZWFyY2hfaWRJIik0NDIyMjdkZi0zYTA4LTQ2YjItYTdkMy1kYzM1YjhlN2U4MjUGOwdGOglyYW5raQc%3D--2056c434cf6f4f97ca87532493ebfeb67ca07b63)
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">To proof in the Legacy proofing viewer, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proof-in-legacy-proofing-viewer.md" class="MCXref xref">Reviewing a Proof in the Legacy Proofing Viewer</a>.&nbsp;You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments. &nbsp;</li>   
-     -->
-
    To learn more about the proofing viewers, see&nbsp; [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 

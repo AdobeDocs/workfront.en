@@ -1,11 +1,4 @@
----
-filename: sf-only-link-quip-documents
-product-area: documents
-navigation-topic: add-documents-to-workfront
-title: Link documents between Quip and Adobe Workfront
-description: ***** Keep this article drafted but don't delete it. It's for Salesforce customers only (delivered as a PDF). *****
-hidefromtoc: true
----
+
 
 # Link documents between Quip and Adobe Workfront
 

@@ -9,6 +9,10 @@ description: Duration is the amount of time between the Planned Start and Planne
 
 # Difference between Planned Duration and Duration for tasks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Duration is the amount of time between the Planned Start and Planned Completion Date of a work item. Tasks have a Duration and a Planned Duration in Adobe Workfront, depending on the Duration Type of the task.
 
 Issues and projects cannot be associated with a Duration Type and they have only a Duration.
@@ -28,5 +32,5 @@ For more information about the Effort Driven Duration Type, see [Duration Type o
 
 ## Issue and project duration
 
-Issues and Projects have only one Duration value, which is the difference between the Planned Start Date and Planned Completion Date of the issue and of the project, respectively.
+Issues and projects have only one Duration value, which is the difference between the Planned Start Date and Planned Completion Date of the issue and of the project, respectively.
 

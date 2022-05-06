@@ -36,4 +36,4 @@ With Scenario Planner, you can model scenarios by objective or initiative in Sce
 * To hit a growth optimization target, do we need additional resources within a specific skill set?
 * To hit a profitability target, do we need to push specific initiatives out to a later date
 
-For more information about Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+For more information about Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).

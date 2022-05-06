@@ -8,6 +8,10 @@ description: The order in which stories appear on the story board does not indic
 
 # Change the order of stories on the Scrum board
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The order in which stories appear on the story board does not indicate priority. However, it can affect the perceived priority by making stories more visible. By default, stories are displayed in alphabetical order within each status column on the story board. (Stories&nbsp;with swimlanes are displayed at the top of the story board, and stories without swimlanes are displayed separately below any swimlanes.)
 
 When you reorder columns on the story board, any changes you make are saved on the iteration or project, so changes are retained the next time you or another user views the story board. (Changes you make are not reverted&nbsp;when clearing the browser cache.)

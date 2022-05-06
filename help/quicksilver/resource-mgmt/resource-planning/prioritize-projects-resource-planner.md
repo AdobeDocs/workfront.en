@@ -32,7 +32,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the projects you want to budget information for with ability to Manage Finances</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the projects you want to budget information for with ability to Manage Finances</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,7 +105,11 @@ To edit the Project Planning Priority:
 1. Click the **Settings** icon.
 1. Enable the **Display Portfolio Priorities** setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.
 
-   ![](assets/rp-portfolio-priority-unordered-(1)-350x203.png)
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
+   -->
+
+   ![](assets/rp-portfolio-priority-unordered-(1)-350x180.png)
 
    The portfolio priorities of the projects display only in the Project view of the Resource Planner.
 
@@ -117,7 +121,7 @@ To edit the Project Planning Priority:
    1. Planned Start Date
    1. Project Name
 
-   ![](assets/rp-portfolio-priority-ordered-350x225.png)
+   ![](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. Click **Save**.
 

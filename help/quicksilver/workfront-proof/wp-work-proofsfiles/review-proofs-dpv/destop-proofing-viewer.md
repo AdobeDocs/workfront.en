@@ -16,7 +16,7 @@ description: The Desktop Proofing Viewer is designed for proofing interactive co
 
 The Desktop Proofing Viewer is designed for proofing interactive content, but you can also use it to proof static and video content.&nbsp;
 
-Unlike the Web Proofing Viewer, the Desktop Proofing Viewer is an application that runs on your workstation.&nbsp;However, you access it from Workfront or from Workfront Proof when you launch proofs, rather than running it as a standalone application (for more informationabout installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer with Automatic Updates](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).&nbsp;
+Unlike the Web Proofing Viewer, the Desktop Proofing Viewer is an application that runs on your workstation.&nbsp;However, you access it from Workfront or from Workfront Proof when you launch proofs, rather than running it as a standalone application (for more informationabout installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).&nbsp;
 
 ## Comparing the Desktop Proofing Viewer to Other Proofing Viewers
 

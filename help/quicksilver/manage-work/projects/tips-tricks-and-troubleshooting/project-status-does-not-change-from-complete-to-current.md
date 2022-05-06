@@ -4,10 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Project status will not change from Complete to Current
-description: The project Status does not change from Complete back to Current.
+description: (Although this can be added as an FAQ, I have left this as its own article for search-ability reasons)
 ---
 
 # Project status will not change from Complete to Current
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Although this can be added as an FAQ, I have left this as its own article for search-ability reasons)</p>
+-->
 
 ## Problem
 
@@ -22,7 +26,7 @@ If a project's Completion Mode is set to Manual, then the project status can be 
 To update a project's completion mode to Manual:
 
 1. Go to the project you want to update.
-1. Edit the project. 
+1. Click the **More** icon ![](assets/more-icon.png) to the right of the project name, then click **Edit**.
 1. Click **Project** **Settings**.
 
 1. Locate the **Completion Mode** drop-down menu, and select **Manual**.

@@ -4,16 +4,20 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Data Stores
+title: Data Stores in Adobe Workfront Fusion
 description: A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 ---
 
-# Data Stores
+# Data Stores in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information on scenarios, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a></p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information on scenarios, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a></p>
 -->
 
 The data store modules enable you to take the following actions on records in your Adobe Workfront Fusion data store:
@@ -133,8 +137,8 @@ Before you can use a data store in a module, you must create the data store in W
       <td> <p>Specification</p> </td> 
       <td> <p>Do one of the following to set up your data store's columns.</p> 
        <ul> 
-        <li> <p>Click <strong>Add item</strong> to specify the properties of one column manually.</p> <p>Enter the <strong>Name</strong>and <strong>Type</strong>for the data store column and define corresponding properties.</p> </li> 
-        <li> <p>Click <strong>Generator</strong>to determine the columns from the sample data you provide.</p> 
+        <li> <p>Click <strong>Add item</strong> to specify the properties of one column manually.</p> <p>Enter the <strong>Name</strong> and <strong>Type</strong> for the data store column and define corresponding properties.</p> </li> 
+        <li> <p>Click <strong>Generator</strong> to determine the columns from the sample data you provide.</p> 
          <div class="example" data-mc-autonum="<b>Example: </b>">
           <span class="autonumber"><span><b>Example: </b></span></span> 
           <p>For example, the following JSON sample data creates three columns: name, age, and phone number. Phone number is a collection of mobile and landline phone numbers.</p> 
@@ -204,7 +208,7 @@ There is currently no tool which can automate restoring lost data.
 
 1. Examine all execution logs of scenarios where items were inserted to the data store.
 
-   For more information on examining execution logs, see [View a scenario's execution history](../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+   For more information on examining execution logs, see [View a scenario's execution history in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 1. Copy the data.
 1. Insert the data into your data store again.

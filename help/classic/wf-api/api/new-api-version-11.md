@@ -8,6 +8,10 @@ description: ReportableBudgedHour has been added to the Adobe Workfront API as a
 
 # What's new in API version 11
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 * [Added Resources](#added-resources) 
 * [Removed Resources](#removed-resources) 
 * [Modified Resources](#modified-resources)

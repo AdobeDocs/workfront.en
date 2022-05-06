@@ -10,6 +10,10 @@ description: A Workfront administrator can create groups of users that coincide 
 
 # Groups overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 A Workfront administrator can create groups of users that coincide with your departmental structure. Groups are similar to but distinct from teams and companies.
 
 The Workfront administrator grants groups the access to the Workfront areas where they need to work and communicate. Each group can then keep their Workfront information such as users, templates, and custom forms, and projects separate from those of other departments.
@@ -36,7 +40,7 @@ For more information about creating new users, see [Add users](../../../administ
 
 ## Granting a group access to objects
 
-When you share an object with a group, all members of that group (including members of any subgroups) have access to the object. For more information about sharing in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+When you share an object with a group, all members of that group (including members of any subgroups) have access to the object. For more information about sharing in Workfront, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Associating a group with an object
 

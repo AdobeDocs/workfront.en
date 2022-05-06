@@ -12,7 +12,7 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 # HTTP > Make an API Key Authorization request
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-This action module sends an HTTPS request to a specified URL that requires an API&nbsp;Key Auth authorization, and processes the response.
+This Adobe Workfront Fusion action module sends an HTTPS request to a specified URL that requires an API&nbsp;Key Auth authorization, and processes the response.
 
 ## Access requirements
 
@@ -58,7 +58,7 @@ You must have the following access to use the functionality in this article:
 
 When you configure the HTTP > Make an API Key Authorization request module, Adobe Workfront Fusion displays the fields listed below. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
 <!--
 <img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -70,7 +70,7 @@ If you see the map button above a field or function, you can use it to set varia
  <tbody> 
   <tr> 
    <td role="rowheader">Credentials</td> 
-   <td> <p>Select the key that contains your API Key authentication credentials. To add a new key, click <strong>Add</strong>and configure the following information:</p> 
+   <td> <p>Select the key that contains your API Key authentication credentials. To add a new key, click <strong>Add</strong> and configure the following information:</p> 
     <ul> 
      <li> <p><![CDATA[
 ]]><strong>Key name</strong></p> <p>Enter a name for this set of API credentials.</p> </li> 
@@ -81,7 +81,7 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
   <tr> 
    <td role="rowheader">Evaluate all states as errors (except for 2xx and 3xx ) </td> 
-   <td> <p>Use this option to set up error handling.</p> <p>For more information, see <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Error handling</a>.</p> </td> 
+   <td> <p>Use this option to set up error handling.</p> <p>For more information, see <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Error handling in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL </td> 
@@ -89,7 +89,7 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers </td> 
@@ -155,7 +155,7 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
   <tr> 
    <td role="rowheader">Use Mutual TLS</td> 
-   <td> <p>Enable this option to use Mutual TLS in the HTTP request.</p> <p>For more information on Mutual TLS, see <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Use Mutual TLS in HTTP modules</a>.</p> </td> 
+   <td> <p>Enable this option to use Mutual TLS in the HTTP request.</p> <p>For more information on Mutual TLS, see <a href="../../../workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md" class="MCXref xref">Use Mutual TLS in HTTP modules in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

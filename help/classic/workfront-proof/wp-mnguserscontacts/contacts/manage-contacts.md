@@ -11,6 +11,10 @@ description: You can manage your colleagues, members, and guests on the Contacts
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can manage your colleagues, members, and guests on the Contacts page.
@@ -68,7 +72,7 @@ You can manage your colleagues, members, and guests on the Contacts page.
 You can import contacts from a CSV file.
 
 1. Click **Contacts** in the left navigation sidebar.
-1. On the Contacts page, click **More**> **Import contacts** to add contacts to your list.
+1. On the Contacts page, click **More** > **Import contacts** to add contacts to your list.
 
 1. On the Import people page that appears, click **Choose File**.
 1. Select the field separation method in the file.

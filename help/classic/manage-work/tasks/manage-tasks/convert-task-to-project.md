@@ -6,7 +6,11 @@ title: Convert a task to a project
 description: When a task in a project requires a larger amount of effort to complete than you originally planned, you can convert it to a project.
 ---
 
-#  Convert a task to a project
+# Convert a task to a project
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 When a task in a project requires a larger amount of effort to complete than you originally planned, you can convert it to a project.
 
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a task</p> <p>View permissions on a template, if converting to a project using a template</p> <p>After creating the project, you have Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a task</p> <p>View permissions on a template, if converting to a project using a template</p> <p>After creating the project, you have Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +65,7 @@ You must have the following access to perform the steps in this article:
    * **New Project** 
    * **New from Template**
 
-     ![](assets/cattap-350x291.png)
+     ![](assets/cattap-350x262.png)
 
 1. Click **Continue** on the notification that appears.
 1. In the **Convert to Project** box, specify the following:
@@ -80,7 +84,7 @@ You must have the following access to perform the steps in this article:
 
      >[!TIP]
      >
-     >In the Production environment, you can transfer custom form information from the task to the project by adding a duplicate project-type custom form (with the same fields that are on the task-type custom form) to the new project. For more information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+     >You can transfer custom form information from the task to the project by adding a duplicate project-type custom form (with the same fields that are on the task-type custom form) to the new project. For more information, see [Transfer custom form data when converting an object](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 1. Click **Save Changes**.
 

@@ -14,7 +14,7 @@ Up until now, when you created a custom field, it was editable by everyone in th
 
 Also, to make this experience familiar for you, we’ve designed the user interface for this capability to be similar to other object areas sharing throughout Workfront.
 
-For more information, see [Configure sharing for a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+For more information, see [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 ```<iframe class="vimeo-player_0" src="assets/468260023?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

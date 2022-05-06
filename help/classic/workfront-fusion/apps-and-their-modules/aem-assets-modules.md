@@ -12,6 +12,10 @@ hidefromtoc: true
 
 # Adobe Experience Manager Assets modules
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 With the Adobe Experience Manager Assets connector for Adobe Workfront Fusion, you can start a scenario based on events in your Adobe Experience Manager Assets account, create, upload, and update assets, and copy or move folders and assets.
 
 ## Access requirements
@@ -118,9 +122,52 @@ To create a connection for your Adobe Experience Manager Assets modules:
 
 When you configure Adobe Experience Manager Essentials modules, Workfront Fusion displays the fields listed below. Along with these, additional Adobe Experience Manager Essentials fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
+
+### Copy a folder or asset
+
+This action module copies a folder or asset to another location in your Adobe Experience Manager Assetsaccount.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select whether you want to copy a folder or an asset.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Folder / Asset selection</td> 
+   <td>Select or map the folder or asset that you want to copy.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Destination path</td> 
+   <td>Select or map the path to the location for the new folder or asset.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Name of copied folder / asset</td> 
+   <td>Enter a name for the new folder or asset. The folder name that displays in Adobe Experience Manager Assets is the same as the original name. The name entered here appears in the URL of the new folder or asset.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Copy children</td> 
+   <td>Enable this option to copy any subfolders or assets within the folder.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Overwrite</td> 
+   <td>Enable this option to overwrite any folder or asset in the destination location that has the same name as the folder or asset being copied.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Create a record
 
@@ -143,8 +190,44 @@ This action module creates a folder or an asset comment.
        <li> <p>Name</p> <p>Enter a name for the folder. This name will appear in the file path, so it must not include spaces or other characters. </p> </li> 
        <li> <p>Title</p> <p>Enter a title for the folder, which can be displayed instead of the name.</p> </li> 
       </ul> </li> 
-     <li> <p>Asset comment</p> <p>Select or map the ID of the asset you want to add a comment to, and enter the text of the comment.</p> </li> 
+     <li> <p>Asset comment</p> <p>Fill in the following fields:</p> 
+      <ul> 
+       <li> <p>Asset selection</p> <p>Select or map the ID of the asset you want to add a comment to.</p> </li> 
+       <li> <p>Comment</p> <p>Enter the text of the comment.</p> </li> 
+      </ul> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Delete a record
+
+This action module deletes a folder, asset, or rendition.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select whether you want to delete a folder, asset, or rendition.</p> 
+    <ul> 
+     <li> <p>Folder</p> <p>Select the folder to delete by selecting the folders in its path.</p> </li> 
+     <li> <p>Asset </p> <p>Select the asset by selecting the folders in its path, then the asset you want to delete.</p> </li> 
+     <li> <p>Rendition</p> <p>Select the rendition by selecting the folders in its path.</p> <p>Enter or map the name of the rendition.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -162,12 +245,12 @@ This action module retrieves a representation of an existing folder and of its c
    <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Folder</td> 
+   <td role="rowheader">Folder selection</td> 
    <td>Select or map the folder that you want to retrieve. To add subfolders to the path, click the plus icon and select the subfolder.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Maximum number of returned records</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p> </td> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -186,11 +269,11 @@ This action module makes a custom API call to the Adobe Experience Manager Asset
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
-   <td> <p>Enter a path relative to </p> </td> 
+   <td> <p>Enter a path relative to your Adobe Experience Manager base URL.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -198,7 +281,7 @@ This action module makes a custom API call to the Adobe Experience Manager Asset
   </tr> 
   <tr> 
    <td role="rowheader">Query String </td> 
-   <td> <p>Enter the request query string.</p> </td> 
+   <td> <p>Enter the request query string. For Each Key/Value pair, click <b>Add item</b> and enter the Key and Value.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
@@ -210,4 +293,104 @@ This action module makes a custom API call to the Adobe Experience Manager Asset
  </tbody> 
 </table>
 
-&nbsp;
+### Move a record
+
+This action module moves the asset or folder at the given path to a new location.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select whether you want to move a folder or an asset.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Folder / Asset selection</td> 
+   <td>Select or map the folder or asset that you want to move.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Destination path</td> 
+   <td>Select or map the path to the location that you want to move the folder or asset to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Name of moved folder / asset</td> 
+   <td>Enter a new name for the moved folder or asset. The folder name that displays in Adobe Experience Manager Assets is the same as the original name. The name entered here appears in the URL of the moved folder or asset.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Overwrite</td> 
+   <td>Enable this option to overwrite any folder or asset in the destination location that has the same name as the folder or asset being copied.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Update a record
+
+This action module updates an existing record.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record type</td> 
+   <td> <p>Select whether you want to delete asset metadata or an asset rendition.</p> 
+    <ul> 
+     <li> <p>Asset metadata</p> 
+      <ul> 
+       <li> <p>Select the asset that you want to update metadata for.</p> </li> 
+       <li> <p>Enter the new title of the asset.</p> </li> 
+      </ul> </li> 
+     <li> <p>Asset rendition</p> 
+      <ul> 
+       <li> <p>Select the asset that you want to update the rendition for.</p> </li> 
+       <li> <p>Select a source file from a previous module, or map the source file's name and data.</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Upload an asset
+
+This action module uploads an asset to your Adobe Experience Manager Assets account.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For instructions about connecting your Adobe Experience Manager Assets account to Workfront Fusion, see <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Connect Adobe Experience Manager Assets to Workfront Fusion</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Destination</td> 
+   <td> <p>Select the folder where you want to upload an asset.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Source file</td> 
+   <td>Enter or map the source file's name and data.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

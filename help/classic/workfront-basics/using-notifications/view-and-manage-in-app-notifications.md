@@ -7,6 +7,10 @@ description: In-app notifications keep you informed about two types of informati
 
 # View and manage in-app notifications
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 In-app notifications keep you informed about two types of information: announcement notifications and work item notifications. They are available from both the web application and the mobile application.
 
 For a list of the work item and announcement notifications you can receive, see [In-app notifications overview](../../workfront-basics/using-notifications/in-app-notifications-overview.md).
@@ -38,7 +42,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.file:///C:/Users/caotto/Flare/WFDocumentation/Content/Resources/Images/icons
+&#42;To find out what plan or license type you have, contact your Workfront administrator.
 
 ## View notifications
 

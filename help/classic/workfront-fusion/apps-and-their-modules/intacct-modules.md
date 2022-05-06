@@ -2,9 +2,13 @@
 
 # Intacct modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Intacct account to multiple third-party applications and services.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Intacct, as well as connect it to to multiple third-party applications and services.
+
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -58,10 +62,10 @@ To use Intacct modules, you must have an Intacct account.
 
 Before Workfront Fusion can connect to Intacct, you must authorize it.
 
-In your Intacct account, navigate to the **Company**tab.
+In your Intacct account, navigate to the **Company** tab.
 
 1. Click **Company Info**.
-1. Navigate to the **Security**tab.
+1. Navigate to the **Security** tab.
 1. Click Edit in the upper-right corner
 1. Select Web Services Authorizations.
 1. Click the plus icon
@@ -72,20 +76,20 @@ In your Intacct account, navigate to the **Company**tab.
 
 You can create a connection to your Intacct account directly from inside a Intacct module.
 
-1. In any Intacct module, click **Add**next to the Connection field.
+1. In any Intacct module, click **Add** next to the Connection field.
 1. Enter your Intacct credentials
 
    * Company ID
    * User ID
    * Password
 
-1. Click **Continue**to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ## Intacct modules and their fields
 
 When you configure Intacct modules, Workfront Fusion displays the fields listed below. Along with these, additional Intacct fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 

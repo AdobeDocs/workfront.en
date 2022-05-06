@@ -9,6 +9,10 @@ description: The Simple Duration Type is a Duration Type that you can set for a 
 
 # Duration Type overview: Simple
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Simple Duration Type is a Duration Type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overview of the Simple Duration Type
@@ -33,9 +37,13 @@ The following things occur when a task has a Duration Type of Simple:
 For information about changing the Duration Type of a task, see [Update the Duration Type of a task](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>
+-->
+
+<!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <li value="1">Go to a task for which you want to change the Duration Type.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">On the <strong>Task Details</strong> tab, click <strong>Overview</strong>><strong>Edit Overview</strong>> <strong>Duration Type</strong>.</p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Classic">On the <strong>Task Details</strong> tab, click <strong>Overview</strong>><strong>Edit Overview</strong> > <strong>Duration Type</strong>.</p> </li>
 <li value="3"> <p>Select <strong>Simple</strong> from the drop-down menu.</p> <p> <img src="assets/simple-duration-on-task-overview-350x461.png" alt="" style="width: 350;height: 461;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="4">Click <strong>Save</strong><strong>.</strong></li>
 </ol>

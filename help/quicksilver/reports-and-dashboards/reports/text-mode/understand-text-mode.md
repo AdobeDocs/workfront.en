@@ -3,10 +3,22 @@ filename: understand-text-mode
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Text Mode overview
-description: You can build a report or a list in Adobe Workfront by using either the standard or the text mode interface when creating the elements that make up the report or the list. The standard interface allows you to reference fields and their attributes that are readily available in the Workfront interface. Using text mode you can reference fields and attributes that might not be available in standard mode, but are available in the Workfront database.
+description: (NOTE: Linked to the UI (for the areas mentioned in the comments below and the new NWE filters as well))
 ---
 
 # Text Mode overview
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the UI (for the areas mentioned in the comments below and the new NWE filters as well))</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***Linked to other articles. Do not move, rename or change url.Linked to the product, in the report builder, when using a field that is not recognized in standard mode.)</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
+-->
 
 You can build a report or a list in Adobe Workfront by using either the standard or the text mode interface when creating the elements that make up the report or the list. The standard interface allows you to reference fields and their attributes that are readily available in the Workfront interface. Using text mode you can reference fields and attributes that might not be available in standard mode, but are available in the Workfront database.
 
@@ -41,6 +53,10 @@ For more information about the standard mode interface and to learn how to creat
 
 ## Text Mode interface
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add a section or note with a link to an another article about the syntax of text mode >> link to the Calc custom fields vc calc. columns)</p>
+-->
+
 Text mode enables you to create more complex views, filters, groupings, and prompts by allowing you to use fields that are not available in the standard mode interface. In&nbsp;Workfront text mode is a collection of coded statements that indicate what objects you want to display in a report or a list.
 
 For a complete list of all our reportable fields, see the [API Explorer](../../../wf-api/general/api-explorer.md).
@@ -58,6 +74,10 @@ Accessing the text mode interface is similar for views, groupings and filters wh
 
 For information about using text mode in views, filters, and groupings, see:
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see what articles these sections are linked to and edit those articles to link to the individual ones)</p>
+-->
+
 * [Edit a view using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md) 
 * [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md) 
 * [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
@@ -68,6 +88,10 @@ For information about accessing the text mode interface for custom prompts, see 
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
 -->
 
   <!--
@@ -619,7 +643,11 @@ We recommend that you build as much of the grouping as possible in standard mode
    * 
    
      <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>group.0.iscollapsed=false</code> if you want the grouping to display with the results expanded </p>   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>group.0.iscollapsed=false</code> if you want the grouping to display with the results expanded</p>   
+     -->
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Create a Custom Report)</p>   
      -->
 
      >[!TIP]

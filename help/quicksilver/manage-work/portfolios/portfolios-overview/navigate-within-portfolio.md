@@ -3,10 +3,14 @@ filename: navigate-within-portfolio
 product-area: portfolios
 navigation-topic: portfolios-overview
 title: Navigate within a portfolio
-description: In Adobe Workfront, a portfolio represents a collection of projects that compete for the same resources, budget, schedule, and priority. The primary purpose of the portfolio is to assist executives and project managers in selecting to work on projects that provide the most benefit to an organization.
+description: (NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)
 ---
 
 # Navigate within a portfolio
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)</p>
+-->
 
 In Adobe Workfront, a portfolio represents a collection of projects that compete for the same resources, budget, schedule, and priority. The primary purpose of the portfolio is to assist executives and project&nbsp;managers in selecting to work on projects that provide the most benefit to an organization.
 
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the portfolio</p> <p>View or higher permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the portfolio</p> <p>View or higher permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +55,7 @@ You must have the following access to perform the steps in this article:
    * **Portfolios I Own**: Includes a list of portfolios for which you are designated as the Portfolio Manager.
    * **All**: Includes all portfolios for which you have at least access to View.  
      For more information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).  
-     For more information about permissions to Portfolios, see&nbsp; [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).  
+     For more information about permissions to Portfolios, see&nbsp; [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).  
   
      To add new portfolios, see [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -88,6 +92,8 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Expand the **Portfolio Details** area in the left panel, then click **Overview** or **Custom Forms** to edit information about the portfolio. 
 
 1. (Optional) Click **Portfolio Optimization** in the left panel to optimize the performance of the portfolio.
+
+   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >

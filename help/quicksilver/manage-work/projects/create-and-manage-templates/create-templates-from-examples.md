@@ -3,15 +3,19 @@ filename: create-templates-from-examples
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Create project templates from examples
-description: As an Adobe Workfront administrator, you can download several preconfigured templates in your Workfront instance using Blueprints.
+description: (NOTE: this is for QS only. Rest of the article still OK for classic.)
 ---
 
 # Create project templates from examples
 
-As an Adobe Workfront administrator, you can download several preconfigured templates in your Workfront instance using Blueprints.
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is for QS only. Rest of the article still OK for classic.)</p>
+-->
+
+As an Adobe Workfront administrator, you can download several preconfigured templates in your Workfront instance using Blueprints. For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
+
+As a user with any Workfront license, you can request a blueprint template to be installed.&nbsp;For more information, see [Browse the blueprints catalog and request installation of blueprints](../../../administration-and-setup/blueprints/browse-catalog.md).
 
 Blueprints provides basic building blocks to help you create a work management system that grows with you. You can browse the blueprints catalog and install ready-to-use project templates.
 
-Each template is targeted to a department and specific maturity level to help you implement proven best practices in your system faster.
-
-For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md). 
+Each template is targeted to a department and specific maturity level to help you implement proven best practices in your system faster. 

@@ -4,10 +4,16 @@ content-type: reference
 product-area: projects
 navigation-topic: manage-projects
 title: Overview of the Portfolio subtab of a Project
-description: You can locate the Portfolio subtab on the Project Details tab of a project. The information on this tab comes from the Portfolio and the Business Case. With the exception of the Alignment Score, you can update all fields on the Portfolio and Business Case subtabs.
+description: 
 ---
 
 # Overview of the Portfolio subtab of a Project
+
+&nbsp;
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
 
 You can locate the Portfolio&nbsp;subtab on the Project Details tab of a project. The information on this tab comes from the Portfolio&nbsp;and the&nbsp;Business&nbsp;Case.&nbsp;With the exception of the Alignment Score, you can update all fields on the Portfolio&nbsp;and Business&nbsp;Case subtabs.
 

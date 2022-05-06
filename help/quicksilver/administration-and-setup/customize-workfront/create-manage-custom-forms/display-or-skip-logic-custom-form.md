@@ -4,11 +4,11 @@ title: Display or skip logic on a Custom Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Display logic and skip logic on a custom form
+title: Add display logic and skip logic to a custom form
 description: You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 ---
 
-# Display logic and skip logic on a custom form
+# Add display logic and skip logic to a custom form
 
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 
@@ -39,26 +39,32 @@ You must have the following to perform the steps in this article:
 
 ## Considerations for using display logic and skip logic
 
-* To add display logic on a custom field or a section break, you must have a multiple choice field (radio buttons, dropdown, or checkboxes) prior to the field you would like to display on the form.  
+* To add display logic on a custom field, widget, or section break, at least one multiple choice field (radio buttons, dropdown, or checkboxes) must be positioned prior to it on the form.
 
-* If you want to add skip logic on a custom field, the field must be a multiple choice field.
-* You cannot add skip logic to a section break.
-* You can add both display logic and skip logic to a field if the field is:
+  For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-   * A multiple choice field
-   * Preceded by a multiple choice field
-   * Followed by another field
+* You cannot add skip logic to a widget or section break. You can add it only to a multiple choice field (radio buttons, dropdown, or checkboxes).   
+
+* You can add both display logic and skip logic to a custom field all of the following is true about the custom field:
+
+   * It is a multiple choice field (radio buttons, dropdown, or checkboxes)
+   * It is preceded by a multiple choice field
+   * It is followed by another custom field
 
 * When copying forms with display logic or skip logic, the logic is copied to the new custom form.
-* Keep the following in mind when you create a display rule for a custom form
+* Keep the following in mind when you create a display logic rule for a custom form
 
-   * Fields not included in a display logic statement show on a custom form, by default. 
-   * Display logic can be applied to section breaks, as well as custom fields. 
-   * Skip logic can be applied only to custom fields. 
-   * You can create multi-field display logic statements. 
-   * You can apply display rules to existing custom forms.
+   * Custom fields not included in a display logic statement show on a custom form, by default. 
+   * You can create multi-field display logic statements.
 
-## Create a sample custom form that has display logic {#create-a-sample-custom-form-that-has-display-logic}
+## Create a sample custom form that has display and skip logic
+
+The best way to learn how to add display and skip logic to a custom form is through the practical example explained in the two following sections:
+
+* [Display logic](#display-logic) 
+* [Skip logic](#skip-logic)
+
+### Display logic {#display-logic}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
@@ -71,38 +77,43 @@ You must have the following to perform the steps in this article:
    1. In the **Form Title** box, type **Sample custom form - Learning display logic and skip logic**.
    
    1. Click **Add a Field** in the upper left corner.
-   1. Add a dropdown field called "Issue Field" by clicking **Dropdown**, then typing **Issue field** in the **Label** box.
+   1. Add a dropdown field called *Issue Field* by clicking **Dropdown**, then typing **Issue field** in the **Label** box. 
+   
+   1. Under **Choices**, add the following choices in the text boxes:
+
+      Research needed
+
+      No more research
    
    1. Click **Save + Close** in the lower left corner.
 
 1. Select the new **Sample custom form - Learning display logic and skip logic** custom form, then click **Edit**. 
 
-1. Add a new single line text field called "Other Research" by clicking **Single Line Text Field**, then typing&nbsp;**Other Research** in the **Label** box.
+1. Add a new single line text field called *Other Research* by clicking **Single Line Text Field**, then typing&nbsp;**Other Research** in the **Label** box.
 
 1. Click **Add Logic** near the lower-left side of the **Edit Custom Form** screen.  
 
-1. In the box that appears, with the **Display Logic** tab open, set up the logic for when the **Other Research** field will appear on the form by clicking **Issue field** in the first drop-down, **Research Needed** in the second drop-down, and **Selected** in the third drop-down.
+1. In the box that appears, with the **Display Logic** tab open, set up the logic for when the **Other Research** field will appear on the form by clicking **Issue field** in the first drop-down, **Research Needed** in the second drop-down, and **Selected** in the third drop-down. 
+1. Click **Save** to close the **Field Logic** window, then click **Done** in the **Field Settings** area.
 
    Now, when someone selects **Research Needed** in the **Issue field** drop-down, the **Other Research** field will display.
 
-1. Click **Save** to close the **Field Logic** window, then click **Done** in the **Field Settings** area. 
-
 1. Click **Preview** to make sure the logic appears the way you want it on the form.
 1. Click **End Preview** when you find that the logic works as expected.
-1. Click **Save + Close** on the **Edit Custom Form** window to save the form, then continue on to [Skip logic on a custom form](#skip-logic-on-a-custom-form)below.
+1. Click **Save + Close** on the **Edit Custom Form** window to save the form, then continue on to [Skip logic](#skip-logic) below.
 
-## Skip logic on a custom form {#skip-logic-on-a-custom-form}
+### Skip logic {#skip-logic}
 
-Skip logic allows you determine which fields should be skipped, based on selections in the custom form. It functions similarly to display logic, but acts as the inverse: instead of making specific fields appear based on specific selections, you determine which fields should be skipped, based on selections.
+Skip logic functions similarly to display logic, but acts as the inverse: instead of making specific custom multiple-choice fields appear based on specific selections, you determine which ones should be skipped, based on users' selections.
 
-To learn about skip logic on custom forms, continue working on the sample custom form you created in the section [Create a sample custom form that has display logic](#create-a-sample-custom-form-that-has-display-logic) above:
+To learn about this, continue working on the sample custom form you created in the section [Display logic](#display-logic) in this article:
 
 1. <![CDATA[          ]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
 1. Click **Custom Forms**. 
 1. Select the form **Sample custom form - Learning display logic and skip logic** that you created in the steps above, then click **Edit**. 
 
-1. Select the drop-down field you created named "Issue field." 
+1. Select the drop-down field you created named *Issue field*. 
 1. Click the **Add Logic** button in the **Field Settings** sidebar. 
 
 1. In the **Field Logic** box, make sure the **Skip Logic** tab is selected. 
@@ -115,6 +126,5 @@ To learn about skip logic on custom forms, continue working on the sample custom
 
 1. Click **Save**. 
 1. Click **Preview** &nbsp;to make sure the logic applies&nbsp;the way you want it. 
-1. Click **Done** in the lower left side of the form. 
-1. Click **Save + Close** at the bottom of the Custom Forms window to save the changes you made to the form.&nbsp;
+1. Click **Done** in the lower left side of the form.
 

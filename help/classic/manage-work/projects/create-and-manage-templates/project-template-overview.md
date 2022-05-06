@@ -9,6 +9,10 @@ description: You can use project templates to capture most of the repeatable pro
 
 # Project template overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use project templates to capture most of the repeatable processes, information, and settings associated with the projects in your organization.
 
 You can define tasks, queue topics, custom forms, attach documents in your template.
@@ -35,6 +39,10 @@ The following are some of the benefits of using templates for creating your proj
    * Company and Group information
 
 ## Best practices for creating templates
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is not an extensive list, but we are updating it as we go.)</p>
+-->
 
 Consider the following when creating templates:
 

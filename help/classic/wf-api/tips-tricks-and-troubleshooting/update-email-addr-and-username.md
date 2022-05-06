@@ -8,6 +8,10 @@ description: Normally, the emailAddr and username are the same attribute. Theref
 
 # Update to emailAddr does not update the username
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Problem
 
 Normally, the emailAddr and username are the same attribute. Therefore, if you change a user's emailAddr attribute, the username attribute is automatically updated to match.

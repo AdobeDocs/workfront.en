@@ -8,6 +8,10 @@ description: Returns metadata for the files and folders returned from a search. 
 
 # Search via Document Webhooks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Returns metadata for the files and folders returned from a search. This can be implemented as a full-text search or as a regular database query. Adobe Workfront calls the /search endpoint when the user performs a search from the external file browser.
 
 ## URL

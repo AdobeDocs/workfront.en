@@ -57,7 +57,7 @@ If you deactivate a job role, it no longer displays in the following areas:
 * The Add assignment to Kanban board dialog box in a project
 * The Job&nbsp;Role field of a plan or an initiative when someone is using the Adobe Workfront Scenario Planner.
 
-  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+  The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >

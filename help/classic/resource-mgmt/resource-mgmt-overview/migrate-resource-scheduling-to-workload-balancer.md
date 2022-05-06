@@ -10,6 +10,10 @@ description: We want you to experience as little work disruption as possible by 
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >The information in this article applies to you only if you have managed the scheduling of your resources in the Resource Scheduling areas of Adobe Workfront. Workfront started the deprecation of the Resource Scheduling tools in November 2020 and plans to replace them with the Workload Balancer.   
 >For information about the deprecation plan for the Resource Scheduling tools and the timeline for their replacement with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 

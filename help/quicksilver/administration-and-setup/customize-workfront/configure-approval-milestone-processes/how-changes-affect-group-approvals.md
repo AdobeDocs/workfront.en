@@ -18,7 +18,21 @@ This article explains what happens when an approval process is already associate
 * Changes the approval process from group-level to system-level
 * Changes the approval process from system-level to group-level
 
+The article also describes what happens when moving or copying tasks or issues associated with a group-level approval process between two projects from different groups.
+
 For information about the 3 types of approval processes you can use in Workfront, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+
+>[!NOTE]
+>
+>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. 
+>
+>For example, if an approval process contains two paths, one for a system-level status and a second one for a group-level status that equates to the same system-level status, changing the group of the original project will result in Workfront having trouble understanding the group-specific status that might not exist on the second group. In this case, you will encounter an error. 
+>
+>Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group of the project. 
+>
+>For information about creating group-level approval processes, see [Group-level approval processes](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md). 
+>
+>For information about creating a group-level custom status, see [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
 
 ## Changing a group-specific approval process from one group to another
 
@@ -230,53 +244,16 @@ When someone changes the availability of a system-wide approval process from "Al
 
 ##
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Move"></a>Moving a task or an issue to a project with a different group than that of the approval process</h2>
-<p style="color: #ff1493;">Drafted out until this postponed story is completed</p>
-<p>Moving a task or an issue from a project to another might affect existing approval processes on the task or the issue depending on the groups of the two projects. The following table illustrates the scenarios that might exist: </p>
-<table cellspacing="3">
-<col>
-<col>
-<col>
-<tbody>
-<tr>
-<td>Original task or issue approval process</td>
-<td>Groups of the two projects</td>
-<td>Changes in the approval process after the task or issue is moved to another project</td>
-</tr>
-<tr>
-<td><span style="font-weight: normal;">Single-use approval process associated with a system-wide status</span> </td>
-<td><span style="font-weight: normal;">Projects are in the same or different groups</span> </td>
-<td>No change</td>
-</tr>
-<tr>
-<td>Single-use approval process associated with a group-specific status</td>
-<td>Projects are in different groups</td>
-<td>The approval remains a single-use approval process and the status associated with the approval updates to match a similar status for the new group.</td>
-</tr>
-<tr>
-<td>System-wide approval process</td>
-<td>Projects are in the same or different groups</td>
-<td>No change</td>
-</tr>
-<tr>
-<td>Group-specific approval process</td>
-<td>Projects are in the same group</td>
-<td>No change</td>
-</tr>
-<tr>
-<td>Group-specific approval process</td>
-<td>Projects are in different groups and the groups have different group-specific statuses</td>
-<td>The approval becomes a single-use approval process and the status associated with the approval updates to match a similar status for the new group.</td>
-</tr>
-<tr>
-<td>Group-specific approval process</td>
-<td>Projects are in different groups and there is a status with the same key in the new group as the status associated with the approval process from the first group</td>
-<td>No change</td>
-</tr>
-</tbody>
-</table>
-</div>
--->
+## Moving or copying a task or an issue to a project with a different group than that of the approval process
+
+Moving or copying a task or an issue from a project to another might affect existing approval processes on the task or the issue depending on the groups of the two projects. The following table illustrates the scenarios that might exist: 
+
+| Original task or issue approval process |Groups of the two projects |Changes in the approval process after the task or issue is moved to another project |
+|---|---|---|
+| ```Single-use approval process associated with a system-wide status```  | ```Projects are in the same or different groups```  |No change |
+| Single-use approval process associated with a group-specific status |Projects are in different groups |The approval remains a single-use approval process and the status associated with the approval updates to match a similar status for the new group. |
+| System-wide approval process |Projects are in the same or different groups |No change |
+| Group-specific approval process |Projects are in the same group |No change |
+| Group-specific approval process |Projects are in different groups and the groups have different group-specific statuses |The approval becomes a single-use approval process and the status associated with the approval updates to match a similar status for the new group. |
+| Group-specific approval process |Projects are in different groups and there is a status with the same key in the new group as the status associated with the approval process from the first group |No change |
 

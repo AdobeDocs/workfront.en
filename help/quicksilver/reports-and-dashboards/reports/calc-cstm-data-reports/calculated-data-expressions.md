@@ -84,19 +84,19 @@ For more information about the syntax you must use in a calculated custom column
 
 The lists below define the available expressions you can use when you are building one of the 3 different types of calculated custom fields in Workfront:
 
-* [Date & time calculated custom field](#date-time-calculated-custom-field) 
-* [Mathematical calculated custom field](#mathematical-calculated-custom-field) 
-* [Text calculated custom field](#text-calculated-custom-field)
+* [Date & time calculated custom fields](#date-time-calculated-custom-fields) 
+* [Mathematical calculated custom fields](#mathematical-calculated-custom-fields) 
+* [Text calculated custom fields](#text-calculated-custom-fields)
 
-### Date & time calculated custom field {#date-time-calculated-custom-field}
+### Date & time calculated custom fields {#date-time-calculated-custom-fields}
 
-<table cellspacing="15"> 
+<table cellspacing="3"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
    <th>Expression</th> 
-   <th>Explanation</th> 
+   <th>Explanation and example</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -162,15 +162,15 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>MINUTE</strong> </td> 
-   <td> <p>This expression returns the minute of the given date as a number and is formatted as follows:</p><pre>MINUTE(date)</pre> </td> 
+   <td> <p>This expression returns the minute of the given date as a number between 0 and 60, formatted as follows:</p><pre>MINUTE(date)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>MONTH</strong> </td> 
-   <td> <p>This expression returns the month of the given date as a number and is formatted as follows:</p><pre>MONTH(date)</pre> </td> 
+   <td> <p>This expression returns the month of the given date as a number between 1 and 12, formatted as follows:</p><pre>MONTH(date)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>SECOND</strong> </td> 
-   <td> <p>This expression returns the second of the given date as a number and is formatted as follows:</p><pre>SECOND(date)</pre> </td> 
+   <td> <p>This expression returns the second of the given date as a number between 0 and 60, formatted as follows:</p><pre>SECOND(date)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>WEEKDAYDIFF</strong> </td> 
@@ -182,14 +182,14 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>YEAR</strong> </td> 
-   <td> <p>This expression returns the year of the given date as a number and is formatted as follows:</p><pre>YEAR(date)</pre> </td> 
+   <td> <p>This expression returns the year of the given date as a 4-digit number, formatted as follows:</p><pre>YEAR(date)</pre> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Mathematical calculated custom field {#mathematical-calculated-custom-field}
+### Mathematical calculated custom fields {#mathematical-calculated-custom-fields}
 
-<table cellspacing="15"> 
+<table cellspacing="3"> 
  <col> 
  <col> 
  <thead> 
@@ -274,9 +274,9 @@ The lists below define the available expressions you can use when you are buildi
  </tbody> 
 </table>
 
-### Text calculated custom field {#text-calculated-custom-field}
+### Text calculated custom fields {#text-calculated-custom-fields}
 
-<table cellspacing="15"> 
+<table cellspacing="3"> 
  <col> 
  <col> 
  <thead> 

@@ -40,8 +40,8 @@ You must have the following in order to manage companies in Workfront:
       <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
       <li> <p>In order to add to and remove users from the Workfront system, you must have one of the following:</p> 
        <ul> 
-        <li> <p>The System Administrator access level. For information about this access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
-        <li> <p>In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png"> , the Create option and at least one of the two User Admin options must be enabled. </p> <p>If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> </li> 
+        <li> <p>The System Administrator access level. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+        <li> <p>In your access level, Edit must be selected for the Users setting. Also, for the Users setting, under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png"> , the Create option and at least one of the two User Admin options must be enabled. </p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> <p>If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member.</p> </li> 
        </ul> <p>For information about the Users setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -80,13 +80,27 @@ You must have the following in order to manage companies in Workfront:
        </ol> </td> 
      </tr> 
      <tr> 
+      <td role="rowheader">Copy member</td> 
+      <td> <p>You can create a company member by copying an existing one. </p> <p>Note:  <p>When you create a user this way, all information is copied from the original user to the newly created user except for the following:</p> 
+        <ul> 
+         <li>The information in the Personal Info section.</li> 
+         <li>When I log in, show: The default landing tab for the access level is selected in this box.</li> 
+         <li>Direct Reports</li> 
+        </ul> </p> 
+       <ol> 
+        <li value="1"> <p>Select the user, then click the Copy icon <img src="assets/copy-icon.png">. </p> </li> 
+        <li value="2"> <p>In the <b>New User</b> box that displays, edit the fields available for the new user.<br></p> <p>For information about all fields associated with a user, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
+        <li value="3"> <p>Click <strong>Add This User</strong>.</p> <p>Or</p> <p>Click <strong>Add Person User &amp; Start Another</strong> to save the new user and add another one.</p> </li> 
+       </ol> <p>This creates a new account in Workfront for the user.</p> <p>If you selected the option to send an invite to the user, they should receive an email where they can follow a link to create their Workfront password.</p> </td> 
+     </tr> 
+     <tr> 
       <td role="rowheader">Remove users</td> 
       <td> 
        <div> 
         <p>Select at least one user, click <b>Remove users</b>, then select one of the following options in the drop-down menu that displays:</p> 
         <ul> 
          <li> <p><b>Remove from company</b>: Removes the user or users from the company.</p> </li> 
-         <li> <p><b>Delete</b>: Deletes the user or users from the Workfront system.</p> <p>Important: Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </li> 
+         <li> <p><b>Delete</b>: Deletes the user or users from the Workfront system.</p> <p>Important: Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a>.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -104,7 +118,7 @@ You must have the following in order to manage companies in Workfront:
      </tr> 
      <tr> 
       <td role="rowheader">Deactivate members in the system</td> 
-      <td> <p>Select at least one user, click the More icon <img src="assets/more-icon.png"> in the toolbar, then select <b>Deactivate</b>.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </td> 
+      <td> <p>Select at least one user, click the More icon <img src="assets/more-icon.png"> in the toolbar, then select <b>Deactivate</b>.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Remind a user to register in the system</td> 

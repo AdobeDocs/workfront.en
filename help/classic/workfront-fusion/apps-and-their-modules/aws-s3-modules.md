@@ -11,6 +11,10 @@ description: The Adobe Workfront Fusion AWS S3 modules let you perform operation
 
 # AWS S3 modules
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Adobe Workfront Fusion AWS S3 modules let you perform operations on your S3 buckets.
 
 ## Access requirements
@@ -72,7 +76,7 @@ To connect AWS S3 to Workfront Fusion you must connect your AWS account to Workf
 1. Copy the provided **Access key ID** and **Secret access key**.
 
 1. Go to Workfront Fusion and open the AWS S3 module's **Create a connection** dialog.
-1. Enter the Access key ID and Secret access key from step 7 to the respective fields and click **Continue**to establish the connection.
+1. Enter the Access key ID and Secret access key from step 7 to the respective fields and click **Continue** to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.
 
@@ -80,7 +84,7 @@ The connection has been established. You can proceed with setting up the module.
 
 When you configure AWS S3 modules, Workfront Fusion displays the fields listed below. Along with these, additional AWS S3 fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -193,7 +197,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
   </tr> 
   <tr> 
    <td>Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Headers</td> 

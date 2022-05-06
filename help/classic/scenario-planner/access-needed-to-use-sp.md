@@ -1,8 +1,17 @@
 
 
-# Access needed to use the Adobe Workfront Scenario Planner
+# Access needed to use the Scenario Planner
 
-This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../scenario-planner/scenario-planner-overview.md). 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: might need to add information about the permissions to plans/ initiatives if those will be coming later?) </p>
+-->
+
 Without correct access or ```permissions```, you may not be able to view the Scenarios area of Adobe Workfront nor manage plans or initiatives for your organization.&nbsp;Managing plans and initiatives includes creating, editing, and deleting them.
 
 >[!IMPORTANT]
@@ -12,7 +21,7 @@ Without correct access or ```permissions```, you may not be able to view the Sce
 >* Send a link to your plan to other users
 >* Share the plan with other users 
 >
->  For information about sharing a plan, see Share a plan in the Adobe Workfront Scenario Planner. 
+>  For information about sharing a plan, see Share a plan in the Scenario Planner. 
 >
 >When a user is deactivated, their plans have no owner and cannot be accessed unless previously shared with a link.
 
@@ -40,7 +49,7 @@ You must ensure that the following conditions are all met before you can access 
 * Your Workfront administrator must enroll you in the new Adobe Workfront experience.&nbsp;
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see Customize the Main Menu using a layout template. </p> <p>For information about assigning users to a Layout Template, see Assign users to a layout template.</p> </li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see Customize the Main Menu using a layout template. </p> <p>For information about assigning users to a Layout Template, see Assign users to a layout template.</p> </li>
   -->
 
 * If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it.&nbsp;For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissions-needed-to-access-plans-and-initiatives) section in this article.
@@ -89,8 +98,8 @@ Your Workfront administrator must assign you the following access so you can man
 
 Access Levels work together with permissions in&nbsp;Workfront to give you visibility into plans and initiatives that you did not create. In addition to having the correct access level to access the Scenario Planner, you must also have the correct permissions to the plan that you want to view or manage, if you are not the creator of those plans.
 
-By default, you have access only to plans that you created. To view plans that other users created they must share their plans with you. For information about sharing plans, see Share a plan in the Adobe Workfront Scenario Planner.
+By default, you have access only to plans that you created. To view plans that other users created they must share their plans with you. For information about sharing plans, see Share a plan in the Scenario Planner.
 
-If a user shares a link to a plan without also sharing the plan, you can request permissions to the plan. For information about requesting permissions to plans, see Request access to a plan in the Adobe Workfront Scenario Planner. 
+If a user shares a link to a plan without also sharing the plan, you can request permissions to the plan. For information about requesting permissions to plans, see Request access to a plan in the Scenario Planner. 
 &nbsp;
 

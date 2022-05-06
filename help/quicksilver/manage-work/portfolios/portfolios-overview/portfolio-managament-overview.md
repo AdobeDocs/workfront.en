@@ -45,7 +45,7 @@ The following diagram illustrates the high-level overview of the PPM process in 
 
 Project Portfolio Management starts with a project request. In this phase, a project owner creates a project&nbsp; request and submits it for review to an executive committee or the Portfolio Manager. This is when they complete the Business Case of the project and then submit it for approval.&nbsp;
 
-For more information about creating a business case and a project request, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about creating a business case and a project request, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Project Review {#project-review}
 

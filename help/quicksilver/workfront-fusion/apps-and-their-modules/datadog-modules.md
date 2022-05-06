@@ -6,14 +6,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Datadog modules
-description: In a Adobe Workfront Fusion scenario, you can connect your Datadog account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Datadog, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Datadog modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Datadog account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Datadog, as well as connect it to to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -80,7 +80,7 @@ To connect your Datadog account to Workfront Fusion you need to retrieve an API 
 
 You can create a connection to your Datadog account directly from inside a Datadog module.
 
-1. In any Datadog module, click **Add**next to the Connection field.
+1. In any Datadog module, click **Add** next to the Connection field.
 1. Fill the module's fields as follows:
 
    <table cellspacing="0"> 
@@ -116,7 +116,7 @@ You can create a connection to your Datadog account directly from inside a Datad
 
 When you configure Datadog modules, Workfront Fusion displays the fields listed below. Along with these, additional Datadog fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -171,7 +171,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

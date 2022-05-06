@@ -3,11 +3,15 @@ filename: workfront-add-on-for-jira-beta
 content-type: reference
 navigation-topic: betas
 title: Workfront Add-On for Jira Beta
-description: As a Jira system administrator, you will soon be able to download and configure the Workfront add-on for Jira. This will allow you to integrate the two applications.
+description: (NOTE: ALina: leave this article as a draft for an example for what we need for a Beta Program article)
 hidefromtoc: true
 ---
 
 # Workfront Add-On for Jira Beta
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ALina: leave this article as a draft for an example for what we need for a Beta Program article) </p>
+-->
 
 As a Jira system administrator, you will soon be able to download and configure the Workfront add-on for Jira. This will allow you to integrate the two applications.&nbsp;
 
@@ -104,7 +108,9 @@ For more information about configuring the Workfront add-on for Jira and updatin
 
 To see a demonstration of how to use the Workfront add-on for Jira, see the following video:
 
-```<iframe class="mt-media" src="assets/252893646?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: video missing)</p>
+-->
 
 ## Testing the Workfront Beta Add-On for Jira
 

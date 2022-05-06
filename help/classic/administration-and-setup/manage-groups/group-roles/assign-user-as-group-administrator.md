@@ -9,6 +9,10 @@ description: As a group administrator of a group, you can assign other users as 
 
 # Assign a user as a group administrator
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a group administrator of a group, you can assign other users as group administrators for that group. Adobe Workfront administrators can also do this.
 
 For more information about group administrators and what they can do, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md) and [Actions allowed for different types of administrators](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).

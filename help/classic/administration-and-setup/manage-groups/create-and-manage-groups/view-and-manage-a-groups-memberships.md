@@ -10,6 +10,10 @@ description: As an Adobe Workfront administrator, you can view, add, remove, exp
 
 # View and manage a group’s memberships
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an Adobe Workfront administrator, you can view, add, remove, export, activate, and deactivate members of any group that you manage. You can also edit their profiles, add Updates to their profiles, and assign them as additional group administrators for the group.
 
 If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).

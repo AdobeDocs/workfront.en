@@ -5,12 +5,16 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: SFTP modules
-description: The SFTP modules allow you to monitor file changes in a selected folder/subfolder, upload new files to the desired folder, modify, or delete existing files that are already in a folder, or change file permissions.
+description: The Adobe Workfront Fusion SFTP modules allow you to monitor file changes in a selected folder/subfolder, upload new files to the desired folder, modify, or delete existing files that are already in a folder, or change file permissions.
 ---
 
 # SFTP modules
 
-The SFTP modules allow you to monitor file changes in a selected folder/subfolder, upload new files to the desired folder, modify, or delete existing files that are already in a folder, or change file permissions.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+The Adobe Workfront Fusion SFTP modules allow you to monitor file changes in a selected folder/subfolder, upload new files to the desired folder, modify, or delete existing files that are already in a folder, or change file permissions.
 
 ## Access requirements
 
@@ -87,13 +91,13 @@ To connect your SFTP account to Workfront Fusion you need to enter the target Ho
  </tbody> 
 </table>
 
-After entering the connection information, click **Continue**to establish a connection.
+After entering the connection information, click **Continue** to establish a connection.
 
 ## SFTP modules and their fields
 
 When you configure SFTP modules, Workfront Fusion displays the fields listed below. Along with these, additional SFTP fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -375,7 +379,7 @@ Creates a new folder in the specified location.
 
 >[!NOTE]
 >
->If the folder already exists, the module will throw an error. To continue the flow uninterrupted, attach an error handler route to the module to catch the error and employ the Resume directive to continue the flow. For information about attaching an error handler route, see [Error handling](../../workfront-fusion/errors/error-handling.md). For information about the error handler route, see [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md).
+>If the folder already exists, the module will throw an error. To continue the flow uninterrupted, attach an error handler route to the module to catch the error and employ the Resume directive to continue the flow. For information about attaching an error handler route, see [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). For information about the error handler route, see [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 <table> 
  <col> 

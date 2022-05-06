@@ -8,6 +8,10 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 # Configure settings in the Scheduling areas
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 >[!NOTE]
 >
 >We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
@@ -40,7 +44,7 @@ You must have the following access to perform the steps in this article::
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to projects, tasks, and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to projects, tasks, and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,6 +52,10 @@ You must have the following access to perform the steps in this article::
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Configure issues to display on the scheduling timeline
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ALL THE SECTIONS BELOW ARE LINKED TO PRODUCT. DO NOT CHANGE TITLES) </p>
+-->
 
 You can configure issues to be displayed in addition to tasks on the scheduling timeline.   
 When scheduling resources  on the team Working On calendar  , issues are displayed by default in addition to tasks. When scheduling resources for projects, only tasks are displayed by default.
@@ -170,6 +178,10 @@ When scheduling resources for a team, you can configure users to be displayed on
 1. Click **Return to Scheduling**.
 
 ## Configure whether parent tasks are displayed on the scheduling timeline
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This section is linked to the UI in a tooltip inside the Settings of the scheduler. do not rename/ remove/ edit the tag!! - Resource Scheduling (People> Scheduling>Settings>Show Parent Tasks tooltip)</p>
+-->
 
 Parent Tasks display differently depending on which scheduling timeline you are accessing.&nbsp;
 

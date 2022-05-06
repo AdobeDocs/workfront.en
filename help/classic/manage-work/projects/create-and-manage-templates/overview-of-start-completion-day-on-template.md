@@ -8,6 +8,10 @@ description: You can use project templates to capture most of the repeatable pro
 
 # Overview of Start and Completion Days in a template
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use project templates to capture most of the repeatable processes, information, and settings associated with the projects in your organization. While projects have specific start and completion dates, templates have generic start and completion days as an indication for where these dates will fall on the project, based on the overall timeline of the project.
 
 ``` ```**Example: **``````If a project's Start&nbsp;Date is April 1 and you want a task to start on April 3rd (two days after the start of the project), the corresponding task on the template that creates the project should start on Day 2 of the template, where the first day of the template is considered Day 0.
@@ -40,4 +44,16 @@ The following are some actions that might change the Completion Day of the templ
   When using date-based Task Constraints, you can manually update the Completion Day of the template tasks. Some examples of date-based Task Constraints are Fixed Dates, Finish No Earlier Than, Finish No Later Than, Must Finish On. 
 
 * Update the template task predecessors
+
+## Work with templates scheduled from Completion
+
+You can schedule a template from Completion Day. For more information, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md). 
+
+Consider the following when working with templates scheduled from Completion Date:
+
+* Changing the Start Day sets the Task Constraint to Must Start On.
+* Changing the Completion Day sets the Task Constraint to Must Finish On.
+* When the template is scheduled from&nbsp;Completion Day, the Task Constraint Day is calculated from the Completion Day.
+
+  ``` ```**Example: **``````Your template's duration is 285 days, and you have a template task with duration 60 days. If you set the Task Constraint to Must Start On and Constraint Day to 120, you will have a Start Day of 165 (285 - 120) and Completion Day of 225 (165 + 60). So&nbsp;when you edit the Start Day, it is actually being interpreted as Constraint Day.
 

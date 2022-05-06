@@ -9,6 +9,10 @@ description: As Late As Possible (ALAP) is a Adobe Workfront Task Constraint whi
 
 # Task&nbsp;Constraint overview: As Late As Possible
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As Late As Possible (ALAP) is a Adobe Workfront Task Constraint which places the completion time of the task as close to the end of the project as possible.
 
 Using this constraint&nbsp;may cause predecessor or dependent Tasks to be rescheduled.
@@ -24,6 +28,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="as-late-as-possible"></a>Use the As Late As Possible Task Constraint</h2>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to As Late As Possible:&nbsp;</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>
@@ -37,19 +42,46 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 
 ## The difference between Latest&nbsp;Available Time and As Late&nbsp;As Possible
 
-The Latest&nbsp;Available Time constraint differs from the As Late&nbsp;As Possible constraint when the following criteria exist:
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
+-->
 
-* The project is scheduled From Completion 
+The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:
+
+* The project is scheduled From Start Date<![CDATA[			]]>
 * Tasks in the project have a predecessor relationship 
-* The predecessor task has a flexible task constraint
+* The successor task has a flexible task constraint
 
 In this situation:
 
-* **Latest Available Time:** Using the Latest&nbsp;Available Time constraint on the successor task gives priority to flexible constraint of the predecessor.
+* **Latest Available Time:** Using the Latest Available Time constraint on the predecessor task gives priority to flexible constraint of the successor.
 
-  For example, Task A is a predecessor to Task B. Task B has the Latest&nbsp;Available Time constraint and Task A has the As Soon&nbsp;As Possible constraint. In this situation, the task is scheduled as close&nbsp;to the start&nbsp;of the project as possible.
+  ``` ```**Example: **`````` For example, Task A is a predecessor to Task B. Task A has the Latest Available Time constraint and Task B has the As Soon As Possible constraint. In this situation, Task A is scheduled as close to the start of the project as possible.
 
-* **As Late As Possible:** In this scenario, using the As Late&nbsp;As Possible constraint on the successor task gives the priority to the successor task.
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-  For example, Task A is a predecessor to Task B. Task B has the As Late&nbsp;As Possible&nbsp;constraint and Task A has the As Soon&nbsp;As Possible constraint. In this situation, the task is scheduled as close to the end&nbsp;of the project as possible.
+* **As Late As Possible:** In this scenario, using the As Late As Possible constraint on the predecessor task gives the priority to the predecessor task.
+
+  ``` ```**Example: **`````` For example, Task A is a predecessor to Task B. Task A has the As Late As Possible constraint and Task B has the As Soon As Possible constraint. In this situation, Task A is scheduled as close to the end of the project as possible.
+
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+
+&nbsp;
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: this content was here before but it was wrong - according to this issue in Hub, per Dev, the correct functionality is in the snippet above: https://hub.workfront.com/task/6193c6910004bce9de07cda7757f3ce8/updates?email-source=subscribedCommunication) </p>
+<p>The Latest&nbsp;Available Time constraint differs from the As Late&nbsp;As Possible constraint when the following criteria exist:</p>
+<ul>
+<li> The project is scheduled From Completion </li>
+<li> Tasks in the project have a predecessor relationship </li>
+<li> The predecessor task has a flexible task constraint </li>
+</ul>
+<p> In this situation: </p>
+<ul>
+<li> <p><strong>Latest Available Time:</strong> Using the Latest&nbsp;Available Time constraint on the successor task gives priority to flexible constraint of the predecessor.</p> <p>For example, Task A is a predecessor to Task B. Task B has the Latest&nbsp;Available Time constraint and Task A has the As Soon&nbsp;As Possible constraint. In this situation, the task is scheduled as close&nbsp;to the start&nbsp;of the project as possible.</p> </li>
+<li> <p><strong>As Late As Possible:</strong> In this scenario, using the As Late&nbsp;As Possible constraint on the successor task gives the priority to the successor task.</p> <p>For example, Task A is a predecessor to Task B. Task B has the As Late&nbsp;As Possible&nbsp;constraint and Task A has the As Soon&nbsp;As Possible constraint. In this situation, the task is scheduled as close to the end&nbsp;of the project as possible.</p> </li>
+</ul>
+</div>
+-->
 

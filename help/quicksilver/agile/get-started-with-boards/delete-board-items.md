@@ -3,12 +3,10 @@ filename: delete-board-items
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Delete or archive a card from a board
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: When you delete a card from a board, it is permanently deleted and can’t be restored. Archiving a card sends it to the archive and you can restore it to the board later.
 ---
 
 # Delete or archive a card from a board
-
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 When you delete a card from a board, it is permanently deleted and can’t be restored. Archiving a card sends it to the archive and you can restore it to the board later.
 
@@ -47,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
    Archived cards are hidden from the board unless you apply a filter to display them. For more information, see [Filter a board to show archived cards](#filter-a-board-to-show-archived-cards) in this article.
 
-   An Archive icon ![Archive](assets/archive-icon-spectrum-25x20.png) appears on archived cards. You can't edit an archived card.
+   An Archive icon ![Archive](assets/archive-icon-spectrum-25x20.png) appears on archived cards. You can't edit an archived card, but you can delete it or move it to another column.
 
 1. To restore an archived card, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card and select **Restore**.
 

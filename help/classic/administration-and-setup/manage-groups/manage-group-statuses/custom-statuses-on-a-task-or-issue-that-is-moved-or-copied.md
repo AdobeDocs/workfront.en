@@ -9,6 +9,10 @@ description: When you move or copy a task or issue to a different project, some 
 
 # Custom statuses on a task or issue that is moved or copied
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you move or copy a task or issue to a different project, some statuses on the task or issue might update to match statuses used by the destination project's group. This depends on whether statuses with the same key exist in that group:
 
 * If a status on the task or issue has the same key as a status used by the destination project's group, the status on the task or issue remains the same.

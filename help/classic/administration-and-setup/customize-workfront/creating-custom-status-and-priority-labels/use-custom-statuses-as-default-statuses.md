@@ -9,11 +9,15 @@ description: When a custom status is set as a default status, the new default st
 
 # Use custom statuses as default statuses
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When a custom status is set as a default status, the new default status is used throughout the system in various ways. The ways in which it’s used depends on whether it is set as a default system-level status, or a default group-level status.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

@@ -8,6 +8,10 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 # Manage user allocations in the Scheduling areas
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 >[!NOTE]
 >
 >We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
@@ -18,7 +22,7 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 User allocations are amounts of hours that indicate the time that a user should spend on one given day to complete a work item. They are included in the Planned Hours of the work item.
 
-This article describes how to update daily hourly allocations for users assigned to tasks or issues. For information about managing overall allocations for users and job roles to tasks, see [Manage allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md). You cannot update overall allocations for users and job roles for issues.
+This article describes how to update daily hourly allocations for users assigned to tasks or issues. For information about managing overall allocations for users and job roles to tasks, see [Manage user and role allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md). You cannot update overall allocations for users and job roles for issues.
 
 You can display user allocations in the following areas of Adobe Workfront:
 
@@ -48,7 +52,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to projects, tasks, and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions to projects, tasks, and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +104,7 @@ You can modify the user allocations for a task or issue from the following locat
   ![scheduling_contours.png](assets/scheduling-contours-350x139.png)
 
 * The Edit Task or Edit Issue dialog box.   
-  When you modify user allocations from a Edit Task or Issue dialog box (as described in [Manage allocation percentage on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)), you can define allocations for the task or issue only as a whole for each user. If you want to manage those allocations on a per-day basis, you must modify the allocations in the Scheduling timeline, as described in the [Modify user allocations](#modify-user-allocations) section in this article.
+  When you modify user allocations from a Edit Task or Issue dialog box (as described in [Manage user or role allocation percentage on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)), you can define allocations for the task or issue only as a whole for each user. If you want to manage those allocations on a per-day basis, you must modify the allocations in the Scheduling timeline, as described in the [Modify user allocations](#modify-user-allocations) section in this article.
 
   >[!IMPORTANT]
   >
@@ -167,7 +171,13 @@ The following types of users can view or modify user allocations in Workfront:
   For information about how Resource Managers can make changes to tasks and issues across projects, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md). 
 
 * **Plan and Work Users:** You can view allocations for any tasks and issues you are assigned to by using either the new My Work Calendar or the Working On calendar on a team that you are a member of.   
-  In addition to viewing allocations, you can modify your allocations if you have Contribute access to the tasks and issues. For more information about how to use the calendar in the My Work area, see [View assigned work on the My Work calendar](../../workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md).
+  In addition to viewing allocations, you can modify your allocations if you have Contribute access to the tasks and issues. For more information about how to use the calendar in the My Work area, see [View assigned work on the My Work calendar](../../workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md). 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: Article is conditioned to classic.)
+  </MadCap:conditionalText>
+  -->
 
 ### Time zone considerations in the Scheduling areas  {#time-zone-considerations-in-the-scheduling-areas}
 

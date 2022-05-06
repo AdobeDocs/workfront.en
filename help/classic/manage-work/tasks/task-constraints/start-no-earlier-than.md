@@ -9,6 +9,10 @@ description: Use the Start No Earlier Than (SNET) Task Constraint to schedule a 
 
 # Task Constraint overview: Start No Earlier Than
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Use the Start No Earlier Than (SNET) Task Constraint to schedule a task to start after the date you specify.
 
 ## Overview of the Start No Earlier Than Task Constraint
@@ -41,6 +45,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="using-SNET"></a>Use the Start No Earlier Than Task Constraint</h2>
+<p>(NOTE:&nbsp;replaced with new article linked above)&nbsp;</p>
 <p>To update the Task Constraint to Start No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

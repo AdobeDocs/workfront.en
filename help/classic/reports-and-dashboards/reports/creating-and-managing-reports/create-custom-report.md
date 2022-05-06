@@ -8,6 +8,10 @@ description: Understanding how to create reports helps you provide access to the
 
 # Create a custom report
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Understanding how to create reports helps you provide access to the information your organization needs within Adobe Workfront. You can use any of the built-in reports available in Workfront, or you can build your own reports from scratch.
 
 For more information on built-in reports, see [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). For information on creating a report by copying it, see [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>You will obtain manage permissions to the report you create</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>You will obtain manage permissions to the report you create</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,6 +97,10 @@ To watch a video of how to create a report, see this [Video walk-through](#video
 1. After you are finished, click **Save + Close**.
 
 ### Add columns (view) to a report {#add-columns-view-to-a-report}
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I have left all these mini-how-tos in this article because this is how the video is conducted, too - it gives details about each tab; video kept just for Classic.) </p>
+-->
 
 1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Columns (View)** tab to identify the columns to appear in the report.
@@ -164,7 +172,7 @@ To watch a video of how to create a report, see this [Video walk-through](#video
      </tr> 
      <tr> 
       <td role="rowheader">Column Rules</td> 
-      <td> <p>Click <strong>Add a Rule for this Column</strong> to add conditional formatting to the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule. For more information about conditional formatting in a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in Views</a>.</p> </td> 
+      <td> <p>Click <strong>Add a Rule for this Column</strong> to add conditional formatting to the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule. For more information about conditional formatting in a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in views</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -222,6 +230,10 @@ To watch a video of how to create a report, see this [Video walk-through](#video
    Click **Save + Close** if the report and you want to save the report.
 
 ### Add a chart to a report {#add-a-chart-to-a-report}
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Consider taking this out and just keeping the separate article about charts??) </p>
+-->
 
 1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Chart** tab, then select the type of chart you want to add.

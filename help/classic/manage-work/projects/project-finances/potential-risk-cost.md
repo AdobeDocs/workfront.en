@@ -9,6 +9,10 @@ description: The Potential Risk Cost of a project takes into account the Potenti
 
 # Calculate Potential Risk Cost
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Potential Risk Cost of a project takes into account the Potential Costs of the project risks and their probability of occurring.
 
 ## Overview of Potential Risk&nbsp;Cost of a project
@@ -30,7 +34,7 @@ You can find the Risks for a project and their Potential Cost in the following a
 
 * In the Risks tab of the project.
 * In the Business Case Summary.  
-  For more information about the Business Case of a project, see the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  For more information about the Business Case of a project, see the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![](assets/prc-350x161.png)
 
@@ -43,4 +47,4 @@ You can find the Risks for a project and their Potential Cost in the following a
 
 For more information about creating Risks on a project, see the article [Create and edit risks on projects](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
 
-For more information about the Business Case of a project, see the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about the Business Case of a project, see the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).

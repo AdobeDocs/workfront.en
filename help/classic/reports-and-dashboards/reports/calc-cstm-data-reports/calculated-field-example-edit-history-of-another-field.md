@@ -10,6 +10,10 @@ description: If users update custom fields on a regular basis and you want to ca
 
 # Calculated custom field example: display a field's edit history
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If users update custom fields on a regular basis and you want to capture a log of all the changes made to a field as well as a date when the changes happen, you can capture this information in a calculated custom field.
 
 The following example shows you how to build the *Instructions Edit History* calculated field to capture all the change made to a single-line text field called *Instructions*.
@@ -85,6 +89,12 @@ To add a calculated field that displays a field's edit history to a custom form,
 1. Click **Calculated** to add a calculated custom field to the form.  
 
 1. Specify a **Label** for the calculated custom field, for example: *Instructions Edit History*. This is the field that will capture any changes made to the *Instructions* text field you created in Step 2. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: make sure the step stays accurate)
+   </MadCap:conditionalText>
+   -->
 
 1. (Optional) Click the **Name** field to update it. The Name of the field matches the Label you just entered by default. 
 1. In the **Calculation** field, specify the following calculation for your custom field:

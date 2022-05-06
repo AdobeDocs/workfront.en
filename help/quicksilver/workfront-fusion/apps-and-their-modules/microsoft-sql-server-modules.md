@@ -6,10 +6,12 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft SQL Server modules
-description: You must have the following access to use the functionality in this article:
+description: You can use Adobe Workfront Fusion to connect to Microsoft SQL Server.
 ---
 
 # Microsoft SQL Server modules
+
+You can use Adobe Workfront Fusion to connect to Microsoft SQL Server.
 
 ## Access requirements
 

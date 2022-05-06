@@ -9,6 +9,10 @@ description: As your organization's digital content collection grows in Workfron
 
 # Edit a taxonomy metadata field in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As your organization's digital content collection grows in Workfront Library, you might find that your taxonomy needs to be updated. Only a Workfront Library administrator can edit taxonomy. For more information about taxonomy, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
 You can make the following modifications to a taxonomy field:
@@ -26,7 +30,7 @@ Any changes you make to the taxonomy are applied to the metadata of all new asse
 
 1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. In the left panel, click **Setup >****Taxonomy**.
+1. In the left panel, click **Setup >** **Taxonomy**.
 1. Hover over the field you want to edit, then click **Edit**.
 1. Make the desired changes, then click **Save**.
 

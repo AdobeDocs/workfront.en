@@ -5,10 +5,22 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 title: Configure a custom help URL
-description: When users access Help in Adobe Workfront, they are automatically routed to the Workfront help site, one.workfront.com. As a Workfront administrator, you can configure an additional help URL so that they can also access a help site of your choice from Workfront.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Configure a custom help URL
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Conditioning most of the content only for classic until the Web Platform team adds a way to access a custom help URL from the Main Menu.</p>
+-->
 
 When users access Help in Adobe Workfront, they are automatically routed to the Workfront help site, [one.workfront.com](https://support.workfront.com). As a Workfront administrator, you can configure an additional help URL so that they can also access a help site of your choice from Workfront.
 
@@ -22,7 +34,7 @@ For information about how users access both regular Help and a custom help URL t
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

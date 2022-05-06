@@ -9,6 +9,10 @@ description: As a Workfront administrator, you can access and manage all of the 
 
 # Manage assets for other users
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a Workfront administrator, you can access and manage all of the assets in Workfront Library. You can perform basic actions, such as sharing, renaming, or deleting, for all user content. You can also transfer ownership of individual assets. For information on how to transfer individual assets, see the section [Transfer individual assets](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md#transfer) in [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
 
 ## View All Content by Owner

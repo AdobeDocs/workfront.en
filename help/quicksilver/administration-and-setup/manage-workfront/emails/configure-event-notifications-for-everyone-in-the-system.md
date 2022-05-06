@@ -2,7 +2,15 @@
 
 # Configure event notifications for everyone in the system
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS</p>
+-->
+
 Event notifications trigger emails to users when a certain event occurs. As an Adobe Workfront administrator or a user with a Planner access level, you can configure an event notification for all users in the system. Configuration of an event notification consists of activating or deactivating it.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only</p>
+-->
 
 Depending on the event you enable and the user keeps enabled on their own profile, users receive instant, daily, or both instant and daily email notifications when an event occurs.
 

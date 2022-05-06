@@ -2,6 +2,10 @@
 
 # Code Samples
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## PHP
 
 The attached&nbsp;file "PHP.proofhq.uploader.two.scripts.with.callbacks.zip" contains&nbsp;a number of pages that demonstrates how a proof or file can be uploaded into the Workfront Proof system using PHP code. Additionally, they perform Callback actions when creating the proof.

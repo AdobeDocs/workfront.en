@@ -4,10 +4,14 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Cost Schedule Performance Index (CSI)
-description: The Cost Schedule Performance Index (CSI) is an automatic calculation which combines the Cost Performance Index (CPI) and Schedule Performance Index (SPI) into one general metric that balances cost and schedule. By multiplying these values together, a single metric can account for a protracted schedule at a lower budget or vice versa. Project managers may use this to determine general project or task health when cost is sacrificed to drive schedule mid-project.
+description: (NOTE: Linked to the product. Do not change link.)
 ---
 
 # Calculate Cost Schedule Performance Index (CSI)
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
+-->
 
 ## Overview of the Cost Schedule Performance Index (CSI)
 

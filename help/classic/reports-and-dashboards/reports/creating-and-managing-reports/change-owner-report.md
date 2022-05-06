@@ -8,6 +8,10 @@ description: You cannot change the owner of a report. However, when you copy a r
 
 # Change the owner of a report
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You cannot change the owner of a report. However, when you copy a report, you automatically become the owner of the copied report.
 
 For more information that has moved to other articles, see:

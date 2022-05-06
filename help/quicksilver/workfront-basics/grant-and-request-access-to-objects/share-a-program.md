@@ -4,11 +4,11 @@ title: Share a project
 product-area: projects
 keywords: share,program,permissions
 navigation-topic: grant-and-request-access-to-objects
-title: Share a program in Adobe Workfront
+title: Share a program
 description: Your Adobe Workfront administrator can grant you access to view or edit programs when assigning your access level. You must have a Plan license to have access to edit a program. For more information, see Grant access to programs.
 ---
 
-# Share a program in&nbsp;Adobe Workfront
+# Share a program
 
 Your Adobe Workfront administrator can grant you access to view or edit programs when assigning your access level. You must have a Plan license to have access to edit a program. For more information, see [Grant access to programs](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -18,7 +18,7 @@ Permissions are specific to each item in Workfront and define which actions user
 
 ## Considerations about sharing a program
 
-In addition to the considerations below, also see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+In addition to the considerations below, also see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * You can share programs individually, or you can share several of them at a time.
 
-  For more information about sharing items in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+  For more information about sharing items in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * You can only grant View or Manage permissions on programs.
 
@@ -38,7 +38,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   For more information about the hierarchy of objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* You can remove inherited permissions from the program. For more information about removing permissions from objects, see&nbsp; [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* You can remove inherited permissions from the program. For more information about removing permissions from objects, see&nbsp; [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Program permissions
 

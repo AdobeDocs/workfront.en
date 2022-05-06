@@ -4,10 +4,19 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: How Adobe Workfront calculates finances
-description: You can track your finances with a number of fields that capture budget, cost, and revenue in Adobe Workfront.
+description: (NOTE: This should be moved to Project Finances when it's been improved)
+hidefromtoc: true
 ---
 
 # How Adobe Workfront calculates finances
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This should be moved to Project Finances when it's been improved)</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(drafted articles because info moved to the glossary and to the Project&nbsp;Finances Overview article)</p>
+-->
 
 You can track your finances with a number of fields that capture budget, cost, and revenue in&nbsp;Adobe Workfront.
 
@@ -30,43 +39,52 @@ For more information, also see the following articles:
    <th> <p><strong>Definition</strong> </p> </th> 
   </tr> 
  </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Actual Hours</p> </td> 
-   <td> <p>The hours recorded against the task (via Log Hours button).</p> <p><code>For parent tasks = children Actual Hours + Actual Hours on the parent task. For projects = Actual Hours logged on the project +Actual Hours logged on standalone or children tasks in the project</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the Updates tab for Task 1, you click ‘Log Time’ and enter 25 hours, the Actual Hours = 25. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Actual Labor Cost</p> </td> 
-   <td> <p>The result of multiplying the actual hours by the rate. </p> <br> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If the task is set up such that the Cost Type = ‘User Hourly’ (Task Details&gt;Finance) and the user’s cost/hr on their profile is $100.00/hr, then if you record 5 actual hours, the Actual Labor Cost = $500.00. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>(Incurred)&nbsp;Actual Expense Cost</p> </td> 
-   <td> <p>The sum of the Actual Amount field for all expenses where the Actual Amount field &gt; 0.</p> <br> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create an expense for Task 1 and enter $600.00 in the Actual Amount field, the Incurred Actual Expense Cost for this task is $600.00. </p> <br> <p>Important: If the value in the Actual Amount field for an expense is negative, the system will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>(Incurred) Planned Expense Cost </p> </td> 
-   <td> <p>The sum of the Planned Amount field for all expenses where the Actual Amount field &gt; 0.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create an expense for Task 1 and enter $500.00 in the Planned Amount field and an amount &gt; 0 in the Actual Amount field (i.e. $600.00), the Incurred Planned Expense Cost for this task is $500.00. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>(Not Incurred) Planned Expense</p> </td> 
-   <td> <p>The sum of the Planned Amount field for all expenses where the Actual Amount field = 0.</p> <br> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create two expenses for Task 1 where for the first expense the value in the Planned Amount field is $500.00 and the value in the Actual Amount is $600.00 and for the second expense, the value in the Planned Amount field is $300.00 and the value of the Actual Amount field is $0.00, the value of the Not Incurred Planned Expense for this task is $300.00. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Percent Complete</p> </td> 
-   <td> <p>The value entered into the Percent Complete field for a task.</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Planned Hours</p> </td> 
-   <td> <p>The value entered into the Planned Hours field on the task (i.e. 10 Hours)</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Planned Labor Cost</p> </td> 
-   <td> <p>The result of multiplying the planned hours by the rate. </p> <br> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If the task is set up such that the Cost Type = ‘User Hourly’ (Task Details&gt;Finance) and the user’s cost/hr on their profile is $100.00/hr, then if you record 10 planned hours, the Planned Labor Cost = $1,000.00. </p> </td> 
-  </tr> 
-  <tr> 
-   <td> Total Budgeted Cost Work Performed</td> 
-   <td> <p>The result of multiplying the budgeted cost of the work planned (Budgeted Cost) and the percent of the task that has been completed so far.</p> <p>For a non-parent task:<br><code>TotalBudgetedCostWorkPerformed = Planned Hours * (Percent Complete/100)</code><br>For a parent task:<br><code>TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all direct child tasks</code><br>For a project:<br><code>TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all top-level tasks (parents and standalone tasks)</code> </p> </td> 
-  </tr> 
+ <tbody> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>Actual Hours</p> </td> 
+    <td> <p>The hours recorded against the task (via Log Hours button).</p> <p><code>For parent tasks = children Actual Hours + Actual Hours on the parent task. For projects = Actual Hours logged on the project +Actual Hours logged on standalone or children tasks in the project</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the Updates tab for Task 1, you click ‘Log Time’ and enter 25 hours, the Actual Hours = 25. </p> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>Actual Labor Cost</p> </td> 
+    <td> <p>The result of multiplying the actual hours by the rate. </p> <br> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If the task is set up such that the Cost Type = ‘User Hourly’ (Task Details&gt;Finance) and the user’s cost/hr on their profile is $100.00/hr, then if you record 5 actual hours, the Actual Labor Cost = $500.00. </p> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>(Incurred)&nbsp;Actual Expense Cost</p> </td> 
+    <td> <p>The sum of the Actual Amount field for all expenses where the Actual Amount field &gt; 0.</p> <br> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create an expense for Task 1 and enter $600.00 in the Actual Amount field, the Incurred Actual Expense Cost for this task is $600.00. </p> <br> <p>Important: If the value in the Actual Amount field for an expense is negative, the system will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations. </p> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>(Incurred) Planned Expense Cost </p> </td> 
+    <td> <p>The sum of the Planned Amount field for all expenses where the Actual Amount field &gt; 0.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create an expense for Task 1 and enter $500.00 in the Planned Amount field and an amount &gt; 0 in the Actual Amount field (i.e. $600.00), the Incurred Planned Expense Cost for this task is $500.00. </p> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>(Not Incurred) Planned Expense</p> </td> 
+    <td> <p>The sum of the Planned Amount field for all expenses where the Actual Amount field = 0.</p> <br> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create two expenses for Task 1 where for the first expense the value in the Planned Amount field is $500.00 and the value in the Actual Amount is $600.00 and for the second expense, the value in the Planned Amount field is $300.00 and the value of the Actual Amount field is $0.00, the value of the Not Incurred Planned Expense for this task is $300.00. </p> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>Percent Complete</p> </td> 
+    <td> <p>The value entered into the Percent Complete field for a task.</p> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>Planned Hours</p> </td> 
+    <td> <p>The value entered into the Planned Hours field on the task (i.e. 10 Hours)</p> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>Planned Labor Cost</p> </td> 
+    <td> <p>The result of multiplying the planned hours by the rate. </p> <br> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If the task is set up such that the Cost Type = ‘User Hourly’ (Task Details&gt;Finance) and the user’s cost/hr on their profile is $100.00/hr, then if you record 10 planned hours, the Planned Labor Cost = $1,000.00. </p> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> Total Budgeted Cost Work Performed</td> 
+    <td> <p>The result of multiplying the budgeted cost of the work planned (Budgeted Cost) and the percent of the task that has been completed so far.</p> <p>For a non-parent task:<br><code>TotalBudgetedCostWorkPerformed = Planned Hours * (Percent Complete/100)</code><br>For a parent task:<br><code>TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all direct child tasks</code><br>For a project:<br><code>TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all top-level tasks (parents and standalone tasks)</code> </p> </td> 
+   </tr>
+  --> 
   <tr> 
    <td>EAC</td> 
    <td> <p>Estimate at Completion which represents the projected total cost of your project or task when it completes.</p> <p>For information, see <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculate Estimate At Completion (EAC)</a>.</p> </td> 
@@ -93,6 +111,7 @@ For more information, also see the following articles:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Differences between the two EAC methods</h2>
+<p>(NOTE: drafted and replaced this with links from the table and in the intro. Will replace the article with another table with ALL the financial field - work in progress - backlog!) </p>
 <p>There are two methods for calculating EAC:</p>
 <ul>
 <li><a href="#calculate-eac-at-project-level" class="MCXref xref">Calculate EAC at project level</a> </li>

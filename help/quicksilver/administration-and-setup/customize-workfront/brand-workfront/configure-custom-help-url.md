@@ -5,17 +5,25 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 title: Configure a custom help URL
-description: This functionality is not available in the new Adobe Workfront experience, but it's coming soon. For information about configuring a custom help URL in Adobe Workfront Classic, switch to the Adobe Workfront Classic version of this article using the drop-down menu directly under the article's title.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Configure a custom help URL
 
-This functionality is not available in the new Adobe Workfront experience
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Conditioning most of the content only for classic until the Web Platform team adds a way to access a custom help URL from the Main Menu.</p>
+-->
+
+This functionality is not available in the new Adobe Workfront experience.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-, but it's coming soon
+but it's coming soon
 </MadCap:conditionalText>
 -->
 
-. For information about configuring a custom help URL in Adobe Workfront Classic, switch to the Adobe Workfront Classic version of this article using the drop-down menu directly under the article's title.
+For information about configuring a custom help URL in Adobe Workfront Classic, switch to the Adobe Workfront Classic version of this article using the drop-down menu directly under the article's title.

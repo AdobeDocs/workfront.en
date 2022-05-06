@@ -8,11 +8,15 @@ description: You can share a template with users, or you can define how the proj
 
 # Share project templates
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can share a template with users, or you can define how the projects that are created from a template will be shared with users by using the following sharing options at the template level.
 
 When sharing an object in Adobe Workfront, you allow other users to view, contribute to, or edit that object.
 
-For information about Workfront permissions, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+For information about Workfront permissions, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 For information about the permissions you can give users when sharing a template, see [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
@@ -38,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +75,7 @@ To share a template:
 
 1. In the **Template Access** box, select the people, teams, roles, groups, or companies you want to share the template with.
 
-   ![](assets/srot1-350x221.png)
+   ![](assets/srot1-350x385.png)
 
    You can also click the **Options** icon to make the template available system-wide:
 
@@ -105,7 +109,7 @@ To share future projects created from a template with users:
 1. Do one of the following:  
    Click the name of a template, then click **Template Actions**, then **Project Sharing**.
 
-   ![](assets/project-sharing-on-template-classic-350x108.png)
+   ![](assets/project-sharing-on-template-classic-350x267.png)
 
    Or
 
@@ -157,7 +161,7 @@ You can share multiple templates as well as projects from multiple templates at 
 1. Go to a list of templates.
 1. Select multiple templates, then click **Share**.
 
-   ![](assets/share-templates-projects-in-bulk-link-in-toolbar-nwe.png)
+   ![](assets/share-templates-projects-in-bulk-link-in-toolbar-classic.png)
 
    >[!TIP]
    >

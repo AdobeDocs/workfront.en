@@ -19,7 +19,7 @@ You can customize the type of information you display in a list or report by man
   For information about granting edit access, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Your level of permissions to a view dictates how a view is saved. If you created the view originally, you can save the changes, otherwise you are prompted to save a version of the view. If you make changes to a view you have shared with others it impacts them as well.
-* You can customize a view that was shared with you only if the user who shared it granted you Manage access. For information about sharing a view, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* You can customize a view that was shared with you only if the user who shared it granted you Manage access. For information about sharing a view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 You can customize existing views, create new views based on existing views, or create new views from scratch.
 
@@ -35,6 +35,7 @@ The following are types of views that you can apply in lists or reports in&nbsp;
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Customizing_an_Existing_View"></a>Create or customize a view</h2>
+<p>(NOTE: drafted, because it has been moved to its own article: create-edit-views.htm) </p>
 <p>The process for creating or customizing a view differs depending on whether you are creating or customizing a standard view or an agile view.</p>
 <ul>
 <li><a href="#create-or-customize-a-standard-view" class="MCXref xref">Create or customize a standard view</a> </li>
@@ -113,6 +114,7 @@ The
 Agile views are available only when viewing a project.
 </note>
 <p>For more information about Agile views, see the article <a href="../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md" class="MCXref xref">Manage a project in the Agile View</a>.</p>
+<p>(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."]) </p>
 <p>To create or customize an Agile view:</p>
 <ol>
 <li value="1">Go to the list of tasks on a project.</li>
@@ -145,7 +147,9 @@ Agile views are available only when viewing a project.
 </tr>
 <tr>
 <td role="rowheader"><strong>Add status columns:</strong> </td>
-<td>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</td>
+<td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?])</p>
+--> </td>
 </tr>
 </tbody>
 </table> </p> <p> </p> <p> </p> </li>
@@ -199,7 +203,7 @@ Agile views are available only when viewing a project.
 
 ## Share a view
 
-For information about how to share a view, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+For information about how to share a view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Remove a view
 
@@ -208,7 +212,9 @@ The ability to remove a view functions differently depending on whether you init
 For more information, see [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted this content because it is repeating in the article linked above.)</p>
+-->
 <ul>
 <li><strong>If you created the view and you remove it</strong>, the view is removed from the Workfront system. The view is no longer available to any users who you previously shared it with.</li>
 <li><strong>If the view was shared with you and you remove it</strong>, the view is removed only for you. The user who originally created it and any other users it has been shared with still have access to the view.</li>

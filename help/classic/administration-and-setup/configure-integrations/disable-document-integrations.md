@@ -10,6 +10,10 @@ description: As anAdobe Workfront administrator, you can disable the connection 
 
 # Disable document integrations
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As anAdobe Workfront administrator, you can disable the connection between Workfront and any of the third-party document providers.&nbsp;
 
 When you disable the connection between Workfront and a document provider, the links to the documents disappear from Workfront. Users can no longer see the linked documents, they cannot make any changes to the documents through the Workfront links, and they cannot add more documents to that provider.&nbsp;

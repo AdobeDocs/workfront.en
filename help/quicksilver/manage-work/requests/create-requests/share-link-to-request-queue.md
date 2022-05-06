@@ -2,6 +2,10 @@
 
 # Share a link to a request queue
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: article conditioned for QS only - hard code when linking it from classic, if needed)</p>
+-->
+
 You can share a link to a request queue, a topic group, or a queue topic as you are submitting the request.
 
 ## Access requirements
@@ -41,6 +45,10 @@ You must have the following access to perform the steps in this article:
 1. Before you submit the request, click&nbsp;**Share Path** in the upper-right corner of the page.
 
    This copies a link to the request queue, topic group, or queue topic that you selected in the previous step to your clipboard.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: does this step stay accurate?) </p>
+   -->
 
 1. Do one of the following:
 

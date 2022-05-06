@@ -9,6 +9,10 @@ description: You can configure whether the system automatically generates proofs
 
 # Configure whether proofs are&nbsp;automatically generated
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can configure whether the system automatically generates proofs when users you specify add documents to Workfront. This setting is disabled by default.
 
 ## Access requirements
@@ -35,12 +39,6 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-
-<!--
-<note type="note">
-If your Workfront account is integrated with a Workfront Proof Premium account, the system automatically generates proofs only for new documents, not for new document versions.&nbsp;
-</note>
--->
 
 ## Configure whether proofs are&nbsp;automatically generated for a single user
 

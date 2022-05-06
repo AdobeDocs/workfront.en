@@ -3,14 +3,30 @@ filename: create-filters
 product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit filters in Adobe Workfront
-description: You can use filters to reduce the amount of information you display on the screen.
+description: (NOTE: ***IMPORTANT: this DIV will need to be drafted/ hidden when the following DIV (that includes new filters) will be live)
 ---
 
 # Create or edit filters in Adobe Workfront
 
-You can use filters to reduce the amount of information you display on the screen.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-You can apply the following types of filters in&nbsp;Adobe Workfront:
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***IMPORTANT: this DIV will need to be drafted/ hidden when the following DIV (that includes new filters) will be live)</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: all screen shots and steps will have to be reviewed for the new filters because this was updates in 2021 and filters have had additional changes in functionality and UI since then)</p>
+-->
+
+You can use filters to reduce the amount of information you display on the screen. Filters display in various areas of Adobe Workfront. The information in this article refers to filters in lists of objects. For more information about filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add information here about modifying and copying existing filters as a way of creating new filters!) </p>
+-->
+
+You can apply the following types of filters in&nbsp;a list of objects:
 
 * A quick filter to a list of objects to find an item in a list using a keyword.
 
@@ -40,7 +56,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to create or edit a filter in a report</p> <p>Manage permissions to a filter to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to create or edit a filter in a report</p> <p>Manage permissions to a filter to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +127,10 @@ View the following video to learn how to create a filter.
 
 See also:
 
-* [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ) 
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Learning Path for reports and dashboards</a> (link is not working anymore - drafted)</li>
+  -->
+
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
 * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
 * [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md) 
@@ -122,7 +141,9 @@ See also:
 &nbsp;
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters will be replaced, this will replace the content at the top; both the top content and everything starting here are in separate DIV sections to make it easier to condition and undrafte, etc.) </p>
+-->
 <p>You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display those objects that meet those criteria.</p>
 <p>You can apply the following types of filters in&nbsp;Adobe Workfront: </p>
 <ul>
@@ -153,14 +174,18 @@ If you still don't have access, ask your Workfront administrator if they set add
 </tr>
 <tr>
 <td role="rowheader">Object permissions</td>
-<td> <p>Manage permissions to a filter</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td>
+<td> <p>Manage permissions to a filter</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
 </tr>
 </tbody>
 </table>
 <p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p>
-<h2><a name="Create"></a>Create or edit a filter </h2>
+<h2><a name="Create"></a>Create or edit a filter </h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: second part of the title, NWE only)</p>
+-->
 <div>
-<p>You can create filters in lists and reports in the following ways:</p>
+<p>You can create filters in lists and reports in the following ways:</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: keep this?? this sort of applies to both this UI and the beta!)</p>
+-->
 <ul>
 <li> <p>From scratch</p> </li>
 <li> <p>Edit an existing filter and save it as a new filter</p> </li>
@@ -203,7 +228,7 @@ The report creator must allow for filters to be edited in order to view the&nbsp
 <li value="6"> <p>Click <strong>Save Filter</strong> to create a new filter or replace the selected one with your changes.</p> <p>Or</p> <p>Click <strong>Save as New Filter</strong> to create a new filter from the selected one. </p> <p>The new filter displays in the list of filters and it is automatically applied to the list or report you selected.</p> </li>
 <li value="7"> <p>(Optional) Do one of the following:</p>
 <ul>
-<li> <p>Share filters you create with other users, or make them available system-wide. For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping in Adobe Workfront</a>. </p> </li>
+<li> <p>Share filters you create with other users, or make them available system-wide. For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping </a>. </p> </li>
 <li> <p>Remove filters you no longer want to display in the list. For information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md" class="MCXref xref">Remove filters, views, and groupings</a>. </p> </li>
 </ul> </li>
 </ol>

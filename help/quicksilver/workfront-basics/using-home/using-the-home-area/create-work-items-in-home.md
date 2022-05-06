@@ -3,10 +3,14 @@ filename: create-work-items-in-home
 product-area: projects
 navigation-topic: use-the-home-area
 title: Create work items from the Home area
-description: You can create work items from the Home area. You can create personal tasks for yourself, request work from other users, or add tasks to specific projects.
+description: (NOTE: From Courtney: Need to rename)
 ---
 
 # Create work items from the Home area
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;From&nbsp;Courtney: Need to rename)</p>
+-->
 
 You can create work items from the Home area. You can create personal tasks for yourself, request work from other users, or add tasks to specific projects.
 
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access or higher on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Edit access or higher on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,9 +48,9 @@ You must have the following access to perform the steps in this article:
 You can create a personal task that is available only to you in the Home area:
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. Click **New Task** >&nbsp;**Personal**.  
-  
-   ![](assets/creating-work-items-new-task-personal-350x228.png)
+1. Click **New Task** >&nbsp;**Personal**.
+
+   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
 
 1. In the **Name** field, specify a name for the task.
 1. (Optional) Click&nbsp;**Select date**, then select the&nbsp;date when the task is due. This sets the Planned Completion Date for the task.  
@@ -67,8 +71,9 @@ You can request work from another user directly from the Home area. When you req
 To request work from another user from the Home area:
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. Click **New Task**, then select **Request**.  
-   ![](assets/creating-work-items-new-task-request-350x289.png)
+1. Click **New Task**, then select **Request**.
+
+   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
 1. In the **Name** field, specify a name for the task.&nbsp;
 1. In the **Assign to** field, begin typing the name of the user,&nbsp;team, or role who you want to assign, then click the name when it appears in the drop-down menu.
@@ -82,8 +87,9 @@ To request work from another user from the Home area:
 You can add a task or issue to an existing project directly from the Home area:
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. Click **New Task**, then select **Project Task**.  
-   ![](assets/creating-work-items-new-task-personal-350x228.png)
+1. Click **New Task**, then select **Project Task**.
+
+   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
 
 1. In the **Name** field, specify a name for the task or issue.
 1. In the **Assign to** field, begin typing the name of the user,&nbsp;team, or role who you want to assign, then click the name when it appears in the drop-down menu.

@@ -3,11 +3,11 @@ filename: filter-proof-approval-report
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: Filter Proof Approval report to omit previous proof versions
+title: Filter: Proof Approval report to omit previous proof versions
 description: On a Proof Approval report, you can use the Is Current Document Version filter to include only the current versions of proofs waiting for your approval.
 ---
 
-# Filter Proof Approval report to omit previous proof versions
+# Filter:&nbsp;Proof Approval report to omit previous proof versions
 
 On a Proof Approval report, you can use the&nbsp;**Is Current Document Version** filter to include only the current versions of proofs waiting for your approval.
 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,11 +49,17 @@ You must have the following access to perform the steps in this article:
    Or
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To create your own Proof Approval report, click the Main Menu <img src="assets/main-menu-icon.png">, then click <strong>Reports</strong> <img src="assets/reports-in-main-menu.png">. Click&nbsp;<strong>New Report</strong>. In the list that appears, scroll to and click <strong>Proof Approval</strong>. Click <strong>Save + Close</strong>, type a <strong>Report Name</strong> (optional), then click <strong>Save Report</strong>.</p>
+   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
+   To create your own Proof Approval report, click the Main Menu ![](assets/main-menu-icon.png), then click **Reports** ![](assets/reports-in-main-menu.png). Click&nbsp;**New Report**. In the list that appears, scroll to and click **Proof Approval**. Click **Save + Close**, type a **Report Name** (optional), then click **Save Report**.
+
 1. Click **Report Actions > Edit**.
-1. Click **Filters**, then click **Add a Filter Rule**. 
+1. Click **Filters**, then click **Add a Filter Rule**.
+
+   <!--
+   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Tell Proof Lehi this isn't visible unless you scroll to it over on the right, not at all obvious. When on a laptop.</p>
+   -->
 
 1. Click **Proof Approval**.
 1. In the list that appears, click **Is Current Document Version**.

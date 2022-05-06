@@ -24,11 +24,11 @@ In addition to this article, we recommend that you read the following articles f
 
 * [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md) 
 * [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md) 
-* [Edit user assignments for multiple issues](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) 
+* [Modify user assignments for multiple issues in a list](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) 
 * [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) 
 * [Make smart assignments](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md) 
 * [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md) 
-* [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 You can assign an issue to one or multiple resources at the individual issue level, or you can assign multiple resources to multiple issues at one time.
 
@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying&nbsp;the issue with the ability to&nbsp;Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are copying&nbsp;the issue with the ability to&nbsp;Add Issues.</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,9 +83,11 @@ Consider the following when assigning multiple resources to a work item:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Remove"></a> </h2>
-<h2>Considerations about removing assignments from issues</h2>
+<h2>Considerations about removing assignments from issues</h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and moved to Modify issue assignments overview article)</p>
+-->
 <p>You can remove assignments from one issue at a time, or you can remove assignments from multiple issues in bulk.</p>
-<p>For more information about removing assignments from issues in bulk, see <a href="../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md" class="MCXref xref">Edit user assignments for multiple issues</a>. </p>
+<p>For more information about removing assignments from issues in bulk, see <a href="../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md" class="MCXref xref">Modify user assignments for multiple issues in a list</a>. </p>
 <p>Consider the following when removing assignments from issues: </p>
 <ul>
 <li>When you unassign a user from an issue, the issue remains assigned to the job role that the user fulfilled on the issue.</li>
@@ -166,7 +168,10 @@ To assign issues in a list:
 
    >[!IMPORTANT]
    >
-   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues.
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
+   >
+   >
+   >You can only assign one team to an issue. If a team is already assigned to one of the selected issues and you assign another team to all issues, the existing team will be replaced.
 
 1. (Optional) Select the radio button in the **Issue Owner** column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. 
 1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary&nbsp;Role. 

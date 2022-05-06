@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,6 +70,14 @@ When you are updating an issue status, you can also add an explanation about the
 
    ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
 
+1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue.
+
+   Or
+
+   Click inside the bubble in the header of the issue to enter a percentage.
+
+   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
 1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the issue has a status that equates with Complete, click **Done:**
 
    * To add a note about the update, go to the **Updates** section and click **Start a new update**, then type your note.
@@ -84,13 +92,6 @@ When you are updating an issue status, you can also add an explanation about the
       * Major Roadblocks
 
    * To update the Commit Date of the issue, expand the **Commit Date** drop-down calendar, and select a new date.
-   * To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue
-
-     Or
-
-     Click inside the bubble to enter a percentage.
-
-     ![](assets/drag-the-progress-bar-350x155.png)
 
 ## Automatically update issue status
 

@@ -9,6 +9,10 @@ description: Adobe Workfront administrators in a large organization with many de
 
 # Group administrators
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront administrators in a large organization with many departments might not want to manage all the organization's departments and groups within those departments. Instead, they can create a group for each department and subgroups within that group, each managed by a group administrator.
 
 A group administrator can manage the needs of a group, such as user membership, layout templates, custom data, statuses, and preferences.

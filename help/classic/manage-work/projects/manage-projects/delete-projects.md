@@ -9,6 +9,10 @@ description: You can delete a project if the project and its data are no longer 
 
 # Delete projects
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You&nbsp;can delete a project if the project and its data are no longer needed.&nbsp;
 
 As an alternative to deleting a project, Adobe Workfront recommends&nbsp;editing the project and changing the status to Complete or Dead. This removes all current tasks related to the project from a user's task list, but saves all data associated with the project.
@@ -35,7 +39,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project, tasks and issues on the project with ability to Delete the project, tasks, and issues. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project, tasks and issues on the project with ability to Delete the project, tasks, and issues. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,9 +88,9 @@ You can delete a project in a project list or at the project level.
    * If the project you delete is linked to the only published initiative from a plan, the indication that the plan has been published is also removed. 
    * If you recover a deleted project, the project is recovered, but its link to the initiative is not restored and the Scenario Planner area no longer displays in Project&nbsp;Details.
 
-     This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
-     For information about projects linked to initiatives in the Scenario Planner, see Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner.
+     For information about projects linked to initiatives in the Scenario Planner, see Update or create projects by publishing initiatives in the Scenario Planner.
 
 * If the project is also an activity for a goal in Workfront Goals:
 
@@ -94,7 +98,7 @@ You can delete a project in a project list or at the project level.
 
    * If you recover the deleted project, the project is also restored as the goal's activity.
 
-     This requires an additional license. For information about Workfront Goals, see Workfront Goals overview.
+     This requires an additional license. For information about Workfront Goals, see Adobe Workfront Goals overview.
 
      For information about associating projects with goals, see Overview of connecting projects to goals in Adobe Workfront Goals.
 
@@ -118,7 +122,7 @@ You can delete projects from a list of projects.
 1. Click **Project Actions**.&nbsp;
 1. Click&nbsp;**Delete** **Project****.**
 
-   ![](assets/screen-shot-2013-09-10-at-9.27.56-am-350x290.png)
+   ![](assets/screen-shot-2013-09-10-at-9.27.56-am-350x356.png)
 
 1. Click **Yes,****Delete it**. &nbsp;
 

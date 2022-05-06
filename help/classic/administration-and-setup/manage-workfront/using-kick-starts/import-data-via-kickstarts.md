@@ -4,11 +4,15 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Import data into Adobe Workfront via a Kick-Start template
+title: Import data into Adobe Workfront using a Kick-Start template
 description: Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in Kick-Starts data importer.
 ---
 
-# Import data into Adobe Workfront via a Kick-Start template
+# Import data into Adobe Workfront using a Kick-Start template
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in [Kick-Starts data importer](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
@@ -26,11 +30,11 @@ Each of these procedures is outlined in the proper order in this article.
 >
 >For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide.
 >
->For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+>For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -67,7 +71,7 @@ To export a Kick-Start template:
 
 1. (Conditional) If you are using Workfront Fusion, turn off active FLOs or scenarios.
 
-   For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide. For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+   For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide. For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
@@ -336,7 +340,7 @@ Each row of the sheet corresponds to a unique object.
    * In the column **setCategoryID**, type the GUID of the existing custom form on which this custom field resides. This field is required when importing custom data.
    * If you need to add multiple data values in the custom field, (such as radio buttons, check boxes, or lists) use the vertical bar custom data delimiter "|" listed in the Preferences tab to separate the values.
 
-     ``` ```**Example: **``````Type A|D under the DE: Departments column to populate department A and department D in your custom form.
+     ``` ```**Example: **``````Type A|D under the DE:Departments column to populate department A and department D in your custom form.
 
 ### Include dates  {#include-dates}
 
@@ -347,13 +351,7 @@ Workfront can process most date formats. However, you must ensure that the date 
 >Most people find it easiest to use the MM/DD/YYYY format (for example: 07/10/2022).
 
 Workfront also accepts time values as part of the date (for example: 07/10/2022 01:30 or 07/10/2022 1:00 PM).
-
-If you omit a time in the date, Workfront does one of the following:
-
-* Assumes 12:00 AM
-* If it is on an object that is associated with a schedule, the time defers to the earliest time that the schedule allows:
-
-  ![](assets/dateformats.png)
+```<blockquote>  <p>If you omit a time in the date, Workfront does one of the following:</p>  <ul>   <li> <p>Assumes 12:00 AM.</p> <p>In order to see the date result you expect, the system timezone must match your time zone.</p> </li>   <li> <p>If it is on an object that is associated with a schedule, the time defers to the earliest time that the schedule allows.</p> </li>  </ul> </blockquote>``` 
 
 >[!NOTE]
 >
@@ -432,7 +430,7 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
 ## Import the spreadsheet data into Workfront
 
-After you populate the Excel template with your data (as described in [Import data into Adobe Workfront via a Kick-Start template](#)), you can upload it's data into Workfront.
+After you populate the Excel template with your data (as described in [Import data into Adobe Workfront using a Kick-Start template](#)), you can upload it's data into Workfront.
 
 The Kick-Start import supports the following file types:
 
@@ -450,7 +448,7 @@ To import the template spreadsheet data into Workfront:
 
    For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide.
 
-   For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+   For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 

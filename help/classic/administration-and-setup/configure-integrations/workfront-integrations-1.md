@@ -11,6 +11,10 @@ description: You can integrate Adobe Workfront with third-party applications. In
 
 # Adobe Workfront integrations
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
 
 The integrations for Workfront fall into the following categories:
@@ -81,7 +85,7 @@ Workfront provides the following built-in integrations at no additional cost:
     <ul> 
      <li>Integrate Workfront comments and approvals with InDesign, Illustrator, and Photoshop </li> 
      <li>Download/install from Adobe Exchange or manually</li> 
-    </ul> <p>For more information, see <a href="../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md" class="MCXref xref">Install Adobe Workfront for Adobe Creative Cloud</a>.</p> </td> 
+    </ul> <p>For more information, see <a href="../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md" class="MCXref xref">Install the Workfront Extension for Illustrator and InDesign</a>.</p> </td> 
    <td> 
     <ul> 
      <li> 2017 and newer versions of Adobe CC </li> 
@@ -305,7 +309,7 @@ Workfront enables you to leverage other built-in integrations and integrated pro
 
 * Adobe Experience Manager Assets
 
-  For more information, see [Configure Workfront with Adobe Experience Manager](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
+  For more information, see [Configure Workfront with Adobe Experience Manager legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
 
 ## Partner integrations
 

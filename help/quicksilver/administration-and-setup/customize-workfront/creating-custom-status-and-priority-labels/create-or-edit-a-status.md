@@ -5,10 +5,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: Create or edit a status
-description: As an Adobe Workfront administrator, you can create custom statuses for projects, tasks, and issues. These can be for users throughout the entire Workfront system or for specific groups or subgroups. For more information about statuses, see Statuses overview.
+description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Create or edit a status
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 As an Adobe Workfront administrator, you can create custom statuses for projects, tasks, and issues. These can be for users throughout the entire Workfront system or for specific groups or subgroups. For more information about statuses, see [Statuses overview](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
@@ -18,7 +22,7 @@ As an Adobe Workfront administrator, you can create custom statuses for projects
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -39,7 +43,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-## Create a custom status
+## Create or edit a custom status
 
 You can add a custom status for use by your entire organization or by a single group.
 
@@ -49,13 +53,13 @@ When you create a custom status for the entire organization, you can configure i
 
 1. In the left panel, click **Project Preferences** > **Statuses**.
 
-1. (Conditional) If you are creating a status for use system wide, ensure that**System Statuses** is selected in the box in the upper-right corner.
+1. (Conditional) If you are creating or editing a status for use system wide, ensure that**System Statuses** is selected in the box in the upper-right corner.
 
    ![](assets/system-statuses-in-upper-rt-corner-350x140.jpg)
 
    Or
 
-   If you are creating a status for a group or subgroup, start typing the name of the group in the box in the upper-right corner, then select it when it appears.
+   If you are creating or editing a status for a group or subgroup, start typing the name of the group in the box in the upper-right corner, then select it when it appears.
 
    ![](assets/system-statuses-in-upper-rt-corner-group-350x139.jpg)
 
@@ -103,7 +107,27 @@ When you create a custom status for the entire organization, you can configure i
      </tr> 
      <tr> 
       <td role="rowheader">Lock for all groups</td> 
-      <td> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">If you leave this enabled, users throughout the system can see and use the status and group administrators cannot customize it for their groups.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">When this option is disabled, group administrators can customize the status for their individual groups.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locking or unlocking a custom system-level status</a>.</p> </td> 
+      <td> 
+       <div data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
+        <p>If you leave this enabled, users throughout the system can see and use the status and group administrators cannot customize it for their groups.</p> 
+        <p>When this option is disabled, group administrators can customize the status for their individual groups.</p> 
+        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p> 
+       </div> <!--
+        <p>Note:  
+         <ul data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
+          <li>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system. </li> 
+          <li>Warning messages display in the following scenarios to help you and your users make sure you understand outcomes of the following scenarios:
+           <ul data-mc-conditions="SnippetConditions-wf-groups.system-level">
+            <li>An administrator unlocks a system-level status that is used in an approval process. A message warns that group administrators might delete the unlocked status for their groups, which would prevent group members from using that approval process properly for objects assigned to their group. </li>
+            <li>A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it. </li>
+            <li><p>A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.<!--
+               <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+                 Lilit says that this may become irrelevant as the team is trying to see if it’s possible to replace all approval processes on objects within the group, in which case we should not have any missing status cases.
+               </MadCap:conditionalText>
+              --></p></li>
+           </ul></li> 
+         </ul> </p>
+       --> </td> 
      </tr> <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader"><span class="preview">Users can select this status only if required fields on the object are completed</span> </td> 
@@ -117,4 +141,6 @@ When you create a custom status for the entire organization, you can configure i
 
 1. Click **Save**.
 
-```<li>For instructions on making this status a default status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md" class="MCXref xref">Use custom statuses as default statuses</a>.</li>```  
+   For instructions on making this status a default status, see [Use custom statuses as default statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+
+For information about reordering group statuses, see [Reorder system-level and group statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

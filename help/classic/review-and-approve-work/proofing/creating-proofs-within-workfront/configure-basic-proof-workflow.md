@@ -8,6 +8,10 @@ description: With a basic workflow, you can several reviewers to a proof, but th
 
 # Create an advanced proof with a Basic workflow
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 With a basic workflow, you can several reviewers to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it.
 
 ## Access requirements
@@ -20,7 +24,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Higher</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Higher</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -169,7 +173,7 @@ You must have the following access to perform the steps in this article:
       <td>✓</td> 
       <td>✓</td> 
       <td>&nbsp;</td> 
-      <td>&nbsp;</td> 
+      <td>✓</td> 
      </tr> 
      <tr> 
       <td> <p><strong>Moderator</strong> </p> </td> 
@@ -246,17 +250,7 @@ You must have the following access to perform the steps in this article:
      <tr data-mc-conditions=""> 
       <td role="rowheader">No email</td> 
       <td>Workfront does not send any email alerts.<br>This is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.<p>The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.</p></td> 
-     </tr> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader">Set a deadline</td> 
-       <td>Select the day and time when users must take action on the proof.<p>If you are adding users to a proof for a document&nbsp;that already exists in Workfront, you should have already set a deadline.</p></td> 
-      </tr>
-     --> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader">Notify people by email</td> 
-       <td>Select this option to send an email to the users, notifying them of the proof.<p>Click <strong>Add a custom message</strong>&nbsp;to specify a message to include in the email notification.</p></td> 
-      </tr>
-     --> 
+     </tr> 
     </tbody> 
    </table>
 

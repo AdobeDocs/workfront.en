@@ -10,6 +10,10 @@ description: In an effort to update our platform to match our new brand and stre
 
 # Changes to Adobe Workfront URLs
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 In an effort to update our platform to match our new brand and streamline the way our customers access their Adobe Workfront systems, we added simplified URLs for all customers to access their Workfront instances.
 
 AtTask became Workfront in 2015. All customers’ system access URLs (usually&nbsp;*domain*.attask-ondemand.com) must be updated to match our current name and brand. You should be accessing Workfront via the URL:&nbsp; *domain*.my.workfront.com .&nbsp;

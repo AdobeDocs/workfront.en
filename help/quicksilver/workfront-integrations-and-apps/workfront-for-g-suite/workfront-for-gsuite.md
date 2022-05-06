@@ -33,7 +33,7 @@ These explain how to view and respond to details about a work item when you rece
 These explain how you can create Workfront objects and updates using content from non-Workfront emails:
 
 * [Turn G Suite emails into Adobe Workfront objects and updates](../../workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md) 
-* [Create a Adobe Workfront task in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md) 
-* [Create a Adobe Workfront issue in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) 
-* [Update a Adobe Workfront item from G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+* [Create an Adobe Workfront task in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md) 
+* [Create an Adobe Workfront issue in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) 
+* [Update an Adobe Workfront item from G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
 

@@ -3,10 +3,14 @@ filename: edit-text-mode-in-view
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit a view using text mode
-description: You can edit a view in a list or report using text mode to access fields that are not available in the standard interface and create more complex views.
+description: NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article)
 ---
 
 # Edit a view using text mode
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
+-->
 
 You can edit a view in a list or report using text mode to access fields that are not available in the standard interface and create more complex views.
 
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to edit views in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit views in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -93,6 +97,10 @@ For information about creating a report, see [Create a custom report](../../../r
    ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    The following table outlines the key lines in a text mode view:
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make this a snippet and add it to the grouping article too)</p>
+   -->
 
    <table cellspacing="15"> 
     <col> 

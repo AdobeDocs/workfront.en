@@ -8,6 +8,10 @@ description: Use the Workload Balancer to understand the availability of your re
 
 # Navigate the Workload Balancer
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Use the Workload Balancer to understand the availability of your resources as well as to assign work to your users. This article walks you through using the icons and settings available to update the view for and navigate the Workload Balancer.
 
 >[!NOTE]
@@ -20,10 +24,10 @@ Use the Workload Balancer to understand the availability of your resources as we
 
 The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas.&nbsp;This article describes how to navigate the Workload Balancer for multiple projects in the People area.&nbsp;For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-Also consider reading the following articles:
+For information about managing resources using the Workload Balancer, also consider reading the following articles:
 
-* For information about assigning work using the Workload Balancer, see ``` [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)```. 
-* For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* ``` [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)``` 
+* [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 ## Access requirements
 
@@ -53,7 +57,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,6 +125,12 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    You might need to click **Scheduling**, then select Workload Balancer in the upper-left corner. 
 
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: take this out when Scheduling is removed)
+   </MadCap:conditionalText>
+   -->
+
    The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. ```By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.```
 
    The work items that display under the name of users in the Workload Balancer are sorted by the following criteria, in this order:
@@ -147,7 +157,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 1. Click the back or forward icons ![](assets/back-and-forward-icons.png) to navigate the timeline, then click **Today** to return to the current week. 
 
-1. Click the **time frame drop-down menu** on the toolbar, then click the beginning date of the period selected in step 8 on the calendar that displays. By default, the first week selected on the calendar is the week you navigated to.
+1. Click the **time frame drop-down menu** on the toolbar, then click the beginning date of the period you want to display. By default, the first week selected on the calendar is the week you navigated to.
 
    ![](assets/calendar-date-picker-balancer-350x208.png)
 
@@ -266,7 +276,11 @@ After selecting the settings you want to apply to your view, the Workload Balanc
      </tr> 
      <tr> 
       <td role="rowheader"><span>Percentage</span> </td> 
-      <td> <p><span>Displays allocated time as a percentage of the total available time.</span> </p> <p>Note: <span class="preview">When converting information from hours to percentages, Workfront rounds up the percentage value to a 2-digit precision and moves any remaining percentage to the last day in the duration of the task.</span> </p> </td> 
+      <td> <p><span>Displays allocated time as a percentage of the total available time. </span> <!--
+         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+          <span>(NOTE: below is drafted because this was not implemented yet, per Vazgen)</span> 
+         </MadCap:conditionalText>
+        --> </p> <p>Note: <span class="preview">When converting information from hours to percentages, Workfront rounds up the percentage value to a 2-digit precision and moves any remaining percentage to the last day in the duration of the task.</span> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -317,7 +331,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
      >   
      >
 
-     For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
+     For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
    
    * **Edit allocations**, then edit the daily or weekly allocations for the user. For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
@@ -341,7 +355,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    >[!TIP]
    >
-   >You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see [Access needed to use the Adobe Workfront Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
+   >You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see [Access needed to use the Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
 
 1. (Optional) Click **Switch back to Scheduling** to access the scheduling area.
 

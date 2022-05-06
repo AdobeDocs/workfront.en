@@ -8,6 +8,10 @@ description: Numeric values including currency can be configured to display in a
 
 # Format numbers, currency and percentage values in text mode reports
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Numeric values including currency can be configured to display in a variety of formats in reports and lists in&nbsp;Adobe Workfront.
 
 To modify the format of a numeric value, you must edit the&nbsp;**valueformat**&nbsp;line of your column.

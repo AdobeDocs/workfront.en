@@ -9,6 +9,10 @@ description: You can assign tasks to or unassign tasks from users, teams, or job
 
 # Overview of modifying task assignments
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can assign tasks to or unassign tasks from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one task at a time, or multiple tasks in bulk.
 
 >[!TIP]
@@ -26,7 +30,7 @@ This article contains general information about the impact of modifying task ass
 * For information about assigning tasks, see [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md) and [Modify multiple user assignments in a task list](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md). 
 
 * For information about modifying assignments on multiple tasks in the Scheduling area, see [Modify multiple users assignments to tasks in the Scheduling areas](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
-* For information about assigning tasks using the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* For information about assigning tasks using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Some information in this article also applies to assignments to issues. For more information about assigning issues, and additional considerations, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 

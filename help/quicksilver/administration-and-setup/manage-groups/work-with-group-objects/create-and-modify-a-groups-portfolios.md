@@ -31,7 +31,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>The project must be associated with the group or any of its subgroups.</p> <p>Also, you must have permissions to view the project, either because you created it or it was shared with you.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>The project must be associated with the group or any of its subgroups.</p> <p>Also, you must have permissions to view the project, either because you created it or it was shared with you.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

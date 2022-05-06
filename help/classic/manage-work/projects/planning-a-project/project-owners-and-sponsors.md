@@ -9,6 +9,10 @@ description: You can designate a Project Owner and a Project Sponsor for a proje
 
 # Overview of project owners and sponsors
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can designate a Project&nbsp;Owner and a Project Sponsor for a project.
 
 The Project Owner is the individual responsible for the completion of the project on time and on budget.
@@ -62,13 +66,14 @@ The following are possible using the Project Owner field:&nbsp;
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Update the Project Owner of a project</h2>
+<p>(NOTE:&nbsp;drafted and moved to its own article)</p>
 <ol>
 <li value="1">Go to the project you want to update.</li>
 <li value="2"> Click the&nbsp;<strong>Project Details</strong> tab, then click&nbsp;<strong>Edit Overview</strong>. </li>
 <li value="3"> <p>Specify the name of a user for the <strong>Project Owner</strong> field.</p> <p>Only active users can be specified as Project Owners.</p> </li>
 <li value="4"> Click&nbsp;<strong>Save</strong>. </li>
 </ol>
-<p> <img src="assets/project-owner-350x79.png" alt="" style="width: 350;height: 79;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
+<p> <img src="assets/project-owner-350x111.png" alt="" style="width: 350;height: 111;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
 </div>
 -->
 
@@ -104,6 +109,7 @@ Consider the following when assigning a Project Sponsor:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Update the Project Sponsor of a project </h2>
+<p>(NOTE: drafted and moved to its own article) </p>
 <ol>
 <li value="1">Go to the Project you want to update.</li>
 <li value="2"> Click the&nbsp;<strong>Project Details</strong> tab, then click&nbsp;<strong>Edit Overview</strong>. </li>

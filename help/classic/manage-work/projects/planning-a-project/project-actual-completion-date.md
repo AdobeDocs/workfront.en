@@ -9,6 +9,10 @@ description: Projects, tasks, and issues have an Actual Completion Date in Adobe
 
 # Overview of the project Actual Completion Date
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Projects, tasks, and issues have an&nbsp;Actual&nbsp;Completion&nbsp;Date in Adobe Workfront. This is the date when the project, task, or issue were marked as completed.
 
 ## Actual&nbsp;Completion&nbsp;Dates
@@ -32,7 +36,7 @@ The value for the Actual Completion Date is always what is considered the curren
 
 >[!NOTE]
 >
->&nbsp;The latest Actual Completion Date from a project's tasks will be used as the Actual Completion Date for the entire project.
+>&nbsp;Workfront uses the Actual Completion Date from the project's task that completed last as the Actual Completion Date for the entire project.
 
 ## Locate Actual&nbsp;Completion&nbsp;Dates
 

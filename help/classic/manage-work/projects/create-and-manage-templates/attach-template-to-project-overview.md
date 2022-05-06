@@ -10,6 +10,10 @@ description: When you attach a template to an existing project, you are modifyin
 
 # Overview of attaching a template to a project
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you attach a template to an existing project, you are modifying some of the information on the project according to that of the template. Some of the information on the project remains unchanged.
 
 For information about how to attach a template to a project, see [Attach a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -44,9 +48,6 @@ The following table describes the default for what happens to project fields whe
    <td>Field</td> 
    <td>What happens in the process of attaching a template, by default</td> 
    <td>Ability to manage the field updates in the attachment process </td> 
-  </tr> 
-  <tr> 
-   <td colspan="3">Overview fields</td> 
   </tr> 
   <tr> 
    <td>Description</td> 
@@ -129,15 +130,9 @@ The following table describes the default for what happens to project fields whe
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td colspan="3">Custom&nbsp;Forms section</td> 
-  </tr> 
-  <tr> 
    <td>Custom&nbsp;Forms</td> 
    <td>Added to the project, in addition to forms that are already on the project</td> 
    <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td colspan="3">Finance fields</td> 
   </tr> 
   <tr> 
    <td>Budget</td> 
@@ -168,9 +163,6 @@ The following table describes the default for what happens to project fields whe
    <td>Actual Benefit</td> 
    <td>Project information is preserved</td> 
    <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td colspan="3">Project Settings fields</td> 
   </tr> 
   <tr> 
    <td>Milestone Path</td> 
@@ -228,9 +220,6 @@ The following table describes the default for what happens to project fields whe
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td colspan="3">Task Settings fields</td> 
-  </tr> 
-  <tr> 
    <td>Task Default Approval Process</td> 
    <td>Project information is preserved</td> 
    <td>✓</td> 
@@ -246,15 +235,9 @@ The following table describes the default for what happens to project fields whe
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td colspan="3">Access section </td> 
-  </tr> 
-  <tr> 
    <td>All settings</td> 
    <td>Template settings overwrite those of the project</td> 
    <td>&nbsp;</td> 
-  </tr> 
-  <tr> 
-   <td colspan="3">Other objects and fields</td> 
   </tr> 
   <tr> 
    <td>Tasks</td> 
@@ -340,7 +323,9 @@ The following table describes the default for what happens to project fields whe
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
 <h2><a name="Understa"></a> </h2>
-<h2>Understand changes to project fields when attaching a template</h2>
+<h2>Understand changes to project fields when attaching a template</h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and replaced with the table above, per Anna)</p>
+-->
 <p>Some template settings automatically transfer to the project, unless you specifically mark them to be excluded during the template attachment process. When you mark them to be excluded, the project field values are preserved. </p> <note type="important">
 Not all project fields are available to manage in the process of attaching a template to a project. For information, see
 <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md" class="MCXref xref">Attach a template to a project</a>.

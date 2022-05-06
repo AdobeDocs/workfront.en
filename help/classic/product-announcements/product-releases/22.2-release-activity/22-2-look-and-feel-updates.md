@@ -6,13 +6,25 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the 22.2 release, see [22.2 Release overview](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
+## Updated Approvals page
+
+>[!NOTE]
+>
+>Preview release:&nbsp;March 10, 2022; Estimated Production release:&nbsp;With the 22.2 release.
+
+The Approval pages in the following areas now have a modern look and feel, in line with the design of the new Workfront experience:
+
+* Approvals page in the Setup area
+* Approvals page in the Group area
+* Approvals page for a project, task, or issue
+
 ## Improved experience in the Documents area
 
 >[!NOTE]
 >
 >Preview release:&nbsp;February 24, 2022; Estimated Production release:&nbsp;Phased rollout beginning on March 9, with availability for all customers by March 18, 2022.
 
-We've improved the performance of the documents area in Workfront. Documents now upload significantly faster.
+We've improved the performance of the documents area in Workfront. The Documents page now loads significantly faster.
 
 We've also updated the look and feel in several dialogs and have updated the list view to align with other list experiences in the new Workfront experience.
 
@@ -20,7 +32,7 @@ We've also updated the look and feel in several dialogs and have updated the lis
 
 The toolbars on the following lists and reports now have a modern look and feel, allowing you to quickly manage objects in Adobe Workfront.
 
-### Preview release:&nbsp;March 3, 2022; Estimated Production release: with 22.2 release
+### Preview release:&nbsp;March 3, 2022; Production release: with 22.2 release
 
 * Task: Expenses list
 * Template: Expenses list

@@ -8,6 +8,10 @@ description: You can use smart assignments to identify who the best user is to c
 
 # Make smart assignments
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions for users that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. For information about smart assignments, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Access requirements
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions with the ability to make assignments on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions with the ability to make assignments on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,13 +47,13 @@ You must have the following access to perform the steps in this article:
 
 Smart assignments are available in most locations where you can make assignments in Workfront.
 
-1. Go to an issue or a task and click one of the following fields to edit them: &nbsp;&nbsp;
+1. Go to an the following areas the click the **Assignments** or **Assign this to** field: &nbsp;&nbsp;
 
    * A task or issue list or report 
    * A task or issue page
    * The Advanced Assignments box when making advanced assignments. For information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md). 
-   * Resource Scheduling
-   * Workload Balancer
+   * A task or issue in the Scheduling or Schedule areas
+   * A task or issue in the Workload Balancer
 
 1. Place your cursor in the assignment field, and wait for two seconds. The **Here are a few recommendations****** list displays.
 

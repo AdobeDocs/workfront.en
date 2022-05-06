@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a portfolio</p> <p> For information about granting permissions to portfolios, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md" class="MCXref xref">Share a portfolio in Adobe Workfront</a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a portfolio</p> <p> For information about granting permissions to portfolios, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md" class="MCXref xref">Share a portfolio </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,9 +47,13 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the **Main Menu**.
 1. Click **Portfolios**, then click the name of a portfolio to open it. 
-1. (Optional) Edit limited information about the portfolio, click **Portfolio Details** in the left panel.
+1. (Optional) To edit limited information about the portfolio, click **Portfolio Details** in the left panel.
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
+   -->
 
    >[!NOTE]
    >
@@ -71,12 +75,25 @@ You must have the following access to perform the steps in this article:
 
       ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
-      For more information, see [Export custom forms and object details in Adobe Workfront](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+      For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 1. To edit all information about one or more portfolios do one of the following:
 
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
+   -->
+
    * Click the **More** menu next to the portfolio name, then **Edit.**
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
+     -->
+
    * Go to a list of portfolios and select one or more portfolio that you want to edit, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new Edit Portfolio UI)</p>   
+     -->
 
    The **Edit Portfolio** dialog box displays.
 
@@ -94,6 +111,10 @@ You must have the following access to perform the steps in this article:
 
 1. Begin editing a portfolio as described above.
 1. Click **Overview** and specify the following fields:
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below is drafted: drafted till they release new Edit Portfolio boxes)</p>
+   -->
 
    <!--
    <note type="note">

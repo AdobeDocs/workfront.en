@@ -22,7 +22,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -52,11 +52,11 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/proof-workflow-doc-list-350x92.png)
 
-1. To send a message to all users on the stage, click the **More**menu on the stage and choose **Message All**.
+1. To send a message to all users on the stage, click the **More** menu on the stage and choose **Message All**.
 
    ![](assets/message-stage-350x122.png)
 
-1. To send a message to an individual user, click the **More**menu next to the user and choose **Message**.
+1. To send a message to an individual user, click the **More** menu next to the user and choose **Message**.
 
    ![](assets/message-user-350x121.png)
 

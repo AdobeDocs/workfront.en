@@ -4,10 +4,18 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Project Team overview
-description: A project team is a group of users associated with a project. Users listed under the Staffing tabof a project are the users who make up the project team.
+description: (NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://workfront.zendesk.com/hc/en-us/articles/217238917)
 ---
 
 # Project Team overview
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://workfront.zendesk.com/hc/en-us/articles/217238917) </p>
+-->
 
 A project team is a group of users associated with a project. Users listed under the Staffing tabof a project are the users who make up the project team.
 

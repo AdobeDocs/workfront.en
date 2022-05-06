@@ -8,6 +8,10 @@ description: You can keep track of the progress on your projects when you are on
 
 # Get started with Adobe Workfront View
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can keep track of the progress on your projects when you are on the go by using the Adobe Workfront View mobile app.
 
 Workfront View is a reporting tool. You cannot make changes or complete work using the Workfront View app. You can only view the status of your projects. It is intended for Project or Portfolio Managers, and other project stakeholders to connect to a high level interface for monitoring their projects.

@@ -8,6 +8,10 @@ description: You can schedule resources for a single project to indicate what wo
 
 # Schedule resources for a project
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can schedule resources for a single project to indicate what work each resource is assigned to as well as how much time they should spend completing their work. You can schedule resources for a project and allocate hours to each resource using the Scheduling tool or the Workload Balancer at the project level.
 
 ## Access requirements
@@ -38,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,16 +54,19 @@ You must have the following access to perform the steps in this article:
 To access the Scheduling tool in a project:
 
 1. Go to the project for which you want to schedule resources.
-1. Click the&nbsp;**Staffing**&nbsp;tab, then click&nbsp;**Scheduling**. The Staffing tab might be located under the&nbsp;**More** menu.
+1. Click the&nbsp;**Staffing**&nbsp;tab, then click&nbsp;**Scheduling** or Workload Balancer. The Staffing tab might be located under the&nbsp;**More** menu.
 
    For information about scheduling resources using the Scheduling tool in a project, see the [Modify user assignments and allocations](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) section in the article [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
-1. (Optional and recommended) Click **Switch to Workload Balancer** to schedule resources using the Workload Balancer.
+1. (Conditional and recommended) If you clicked Scheduling, click **Switch to Workload Balancer** to schedule resources using the Workload Balancer.
 
    >[!TIP]
    >
    >If you have selected Workload Balancer before, the name of the tab changes to Workload Balancer.
 
-   For information about scheduling resources using the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+   For information about scheduling resources using the Workload Balancer, see the following articles:
+
+   * [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) 
+   * [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 &nbsp;

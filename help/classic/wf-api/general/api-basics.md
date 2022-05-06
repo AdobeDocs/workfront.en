@@ -8,6 +8,10 @@ description: The goal for the Adobe Workfront API is to simplify building integr
 
 # API basics
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The goal for the Adobe Workfront API is to simplify building integrations with Workfront by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Workfront API.
 
 A familiarity with the Workfront schema will assist you in understanding the database relationships that can be utilized to pull data out of Workfront for integration purposes.
@@ -103,7 +107,7 @@ The API uses the same cookie-based authentication that is used by the web UI to 
 >* Server authentication with JWT
 >* User authentication with OAuth2
 >
->For instructions on setting up these authentication methods, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>For instructions on setting up these authentication methods, see Create OAuth2 applications for Workfront integrations
 >
 >For instructions on using server authentication in Workfront, see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
 >

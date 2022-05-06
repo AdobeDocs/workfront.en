@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -147,10 +147,14 @@ You can create a new Agile view or customize an existing Agile view that you pre
 
 For more information about Agile views, see the article [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
+-->
+
 To create or customize an Agile view:
 
 1. Go to the list of tasks on a project.
-1. Click the **Agile** icon .  
+1. Click the **Agile Storyboard**icon ![](assets/agile-storyboard-nwe.png).  
 
 1. (Conditional) To customize an existing Agile view:
 
@@ -194,7 +198,9 @@ To create or customize an Agile view:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Add status columns:</strong> </td> 
-      <td>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</td> 
+      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p> <!--
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       --> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -253,5 +259,7 @@ To create or customize an Agile view:
 
 1. Click **Save**.  
    Your access dictates how the View is saved. If you created the View originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the View impact users with whom the View has been shared.
+
+1. (Optional)&nbsp;Click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) to return to the list of tasks.
 
 &nbsp;

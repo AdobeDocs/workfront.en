@@ -4,10 +4,15 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Work with templates scheduled from Completion
-description: Consider the following when working with templates scheduled from Completion Date:
+description: (drafted this article because I added this information in this article instead: /Content/Manage work/Projects/Create and Manage templates/overview-of-start-completion-day-on-template.htm)
+hidefromtoc: true
 ---
 
 # Work with templates scheduled from Completion
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(drafted this article because I added this information in this article instead: /Content/Manage work/Projects/Create and Manage templates/overview-of-start-completion-day-on-template.htm)</p>
+-->
 
 Consider the following when working with templates scheduled from Completion Date:
 

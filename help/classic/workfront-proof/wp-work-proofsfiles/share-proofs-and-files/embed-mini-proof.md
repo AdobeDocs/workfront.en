@@ -11,6 +11,10 @@ description: The Miniproof is a widget that lets you embed a proof in a web page
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 The Miniproof is a widget that lets you embed a proof in a web page, blog, or wiki. The Miniproof shows the proof and all existing comments and mark-ups. You can use it to&nbsp;work on the proof as if you were in Workfront Proof.

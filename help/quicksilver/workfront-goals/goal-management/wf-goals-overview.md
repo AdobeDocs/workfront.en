@@ -18,7 +18,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
 
@@ -81,20 +81,3 @@ The following functionality is currently included with Workfront Goals:
 &nbsp;
 
 &nbsp;
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="sandbox"></a>Preview and Custom Refresh Sandbox environments</h2>
-<p>When the data on your Preview Sandbox refreshes at the end of every week, Workfront Goals data is also refreshed. However, when you refresh your Custom Refresh Sandbox, Workfront Goals data does not transfer to this environment. The ability to sync this data from your production environment to the Custom Refresh Sandboxes will be available after September 2020. </p>
-<p>For information about the Workfront sandbox environments, see <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md" class="MCXref xref">Adobe Workfront testing environments</a>.</p>
-</div>
--->
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="video"></a>Workfront Goals video overview</h2>
-<p>For an overview of Workfront Goals, watch the following video:</p>
-<p><a href="https://workfront-video.wistia.com/medias/v4lzhz73g5" target="_blank"><img src="assets/align-video-overview-350x197.png" style="width: 350;height: 197;"></a> </p>
-</div>
--->
-

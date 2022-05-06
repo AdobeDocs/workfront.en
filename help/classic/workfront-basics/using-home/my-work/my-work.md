@@ -8,6 +8,10 @@ description: This section contains the following articles:
 
 # My Work
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 This section contains the following articles:
 
 * [View assigned work on the My Work calendar](../../../workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md) 

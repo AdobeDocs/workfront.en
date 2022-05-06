@@ -3,15 +3,19 @@ filename: scenario-detail
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Scenario detail
+title: Scenario details in Adobe Workfront Fusion
 description: 
 ---
 
-# Scenario detail
+# Scenario details in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The scenario detail page is the homepage of a specific scenario. It provides access to specific information for the scenario that is represented on the page.
 
-It also provides you access to the [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md), where you can edit the scenario.
+It also provides you access to the [The scenario editor in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-editor.md), where you can edit the scenario.
 
 ## Access requirements
 
@@ -59,7 +63,7 @@ You must have the following access to use the functionality in this article:
 
    Or
 
-   If you are working on the scenario in the [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
+   If you are working on the scenario in the [The scenario editor in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
 1. On the page that displays, you can review the elements listed in the table below.
 

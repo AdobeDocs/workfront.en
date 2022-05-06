@@ -10,6 +10,10 @@ description: Workfront has 9 built-in system project statuses.
 
 # System project statuses
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Workfront has 9 built-in system project statuses.
 
 The first 3 in the table below are required, which means that you can unlock, rename, and reorder them, but you cannot hide or delete them.

@@ -12,6 +12,10 @@ description: Folders are the best way to organize your work in your Workfront Pr
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Folders are the best way to organize your work in your Workfront Proof account. You can create a folder structure to mirror the way folders are organized on your computer, with separate folder structures for each client, job or campaign.

@@ -13,6 +13,10 @@ Calculated Assignment is a Duration Type that you can set for a task in Adobe Wo
 
 ## Overview of the Calculated Assignment Duration Type
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This Hub issue has a powerpoint that highlights information that is useful to users when using Calculated Assignment duration type. I don't think we can use the powerpoint, because it's old. I also don't know if the things they discuss are still relevant, since the PP is from 2015. I've closed the issue, but I'm putting a link here just in case the info is useful. https://hub.workfront.com/issue/5a9dd7d5007d02a8966014557c23cc89/updates)</p>
+-->
+
 * When you use a Calculated Assignment Duration Type, you must specify both a Duration and a number of Planned Hours for the task. Workfront then divides the amount of Planned Hours by the amount of hours in the Duration, then by the number of resources assigned to the task to calculate the allocation percentage (calculates the assignment) for each resource. Each resource will equally have the same value for their allocation percentage. In this case, you cannot modify the allocation values for each resource.
 * Your Workfront ```or a group administrator``` can set the default Duration&nbsp;Type of your system or group as Calculated Assignment.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -38,6 +42,10 @@ For example, in the scenario outlined below, each task has a Duration of 3 days.
 ## Change the Duration Type of a task to Calculated Assignment
 
 For information about changing the Duration Type of a task, see [Update the Duration Type of a task](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>
+-->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -3,10 +3,14 @@ filename: set-up-automatic-report-delivery
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Schedule an automatic report delivery
-description: You can schedule reports to automatically deliver to users on a defined schedule, or you can manually send reports on a one-time basis. When you send a report from Adobe Workfront, the user receives an email with the Workfront report in a separate attachment.
+description: (NOTE: If this stays, fix links which now go to the reference article)
 ---
 
 # Schedule an automatic report delivery
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
+-->
 
 You can schedule reports to automatically deliver to users on a defined schedule, or you can manually send reports on a one-time basis. When you send a report from Adobe Workfront, the user receives an email with the Workfront report in a separate attachment.
 
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

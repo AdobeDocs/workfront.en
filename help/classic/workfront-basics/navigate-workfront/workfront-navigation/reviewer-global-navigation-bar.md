@@ -2,11 +2,15 @@
 filename: reviewer-global-navigation-bar
 product-area: user-management
 navigation-topic: workfront-navigation
-title: Understand a Reviewer's Global Navigation Bar in Adobe Workfront
+title: Understand the navigation for a Review-license user
 description: The Global Navigation Bar changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see About the default Adobe Workfront layout.
 ---
 
-# Understand a Reviewer's Global Navigation Bar in Adobe Workfront
+# Understand the navigation for a Review-license user
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The Global Navigation Bar changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas that include functionality allowed by your access level. To understand the components of the default layout of each access level, see [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
@@ -28,6 +32,6 @@ The following areas are included in the default layout of a Reviewer:
 
 You can customize the areas that you see in your  Global Navigation Bar by removing or adding areas.
 
-For more information about customizing the  Global Navigation Bar, see [Customize the Global Navigation Bar in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
+For more information about customizing the  Global Navigation Bar, see [Customize the Adobe Workfront navigation](../../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
 
 Your Workfront administrator can also modify your Workfront default layout by assigning you a Layout Template. For more information about working with Layout Templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

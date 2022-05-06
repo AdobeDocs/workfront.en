@@ -127,6 +127,10 @@ The following table illustrates how the Planned Duration changes with adding res
 For information about changing the Duration Type of a task, see [Update the Duration Type of a task](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>
+-->
+
+<!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <li value="1">Go to a task for which you want to change the Duration Type.</li>
 <li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Task Details</strong> in the left panel, then in the Overview area click <strong>Duration Type</strong>. </p> </li>

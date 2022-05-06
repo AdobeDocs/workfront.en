@@ -1,7 +1,7 @@
 
 
-# Workfront and Experience Manager Integrations
+# Workfront and Experience Manager Assets Integrations
 
-* [Use the Workfront for Experience Manager enhanced connector](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) 
+* [Workfront for Experience Manager enhanced connector](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md) 
 * [Adobe Workfront for Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
 

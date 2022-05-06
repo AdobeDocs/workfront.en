@@ -8,6 +8,10 @@ description: You can embed a new request queue in a dashboard to provide direct 
 
 # Embed a request queue in a dashboard
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can embed a new request queue in a dashboard to provide direct access to the request queue to your users, without having to go to the Requests area.&nbsp;
 
 For example, if you have a request queue that is open to your entire organization, like a Help Desk Queue, or a PTO Request queue that everyone must access on a regular basis, it might be convenient to insert the request queue directly into one of their dashboards for quick and easy access. The process of setting this up is similar to that of creating an external page on a dashboard.
@@ -36,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,8 +148,16 @@ You can embed a link to the requests queue or to a queue topic nested under a re
    * **Name**: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
 
    * **Description**: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;
-   * **URL**:```<MadCap:conditionalText data-mc-conditions="">  paste the URL you obtained using one of the methods described in Step 1.</MadCap:conditionalText>```
+   * **URL**:```<MadCap:conditionalText data-mc-conditions="">  paste the URL you obtained using one of the methods described in Step 1. </MadCap:conditionalText>```   
    
+     <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     <MadCap:conditionalText data-mc-conditions="">   
+     (NOTE: ensure this stays accurate)   
+     </MadCap:conditionalText>   
+     </MadCap:conditionalText>   
+     -->
+
    * **Height**: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.&nbsp;
 
 1. Click **Save**. 
@@ -161,6 +173,10 @@ You can embed a link to the requests queue or to a queue topic nested under a re
 &nbsp;
 
 &nbsp;
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
+-->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

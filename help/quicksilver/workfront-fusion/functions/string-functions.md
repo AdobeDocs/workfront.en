@@ -4,11 +4,11 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: String functions
+title: String functions in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# String functions
+# String functions in Adobe Workfront Fusion
 
 ## Access requirements
 

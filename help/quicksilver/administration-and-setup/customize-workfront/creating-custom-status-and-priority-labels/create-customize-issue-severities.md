@@ -4,23 +4,27 @@ title: Create and customize issue severities
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Create and customize issue severities
-description: As an Adobe Workfront administrator, you can customize the default severities existing in Workfront or create new severities that users can associate with issues in Workfront.
+title: Create or customize issue severities
+description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **Linked to Understanding Issue Severity.
 ---
 
-# Create and customize issue severities
+# Create or customize issue severities
 
-As an Adobe Workfront administrator, you can customize the default severities existing in Workfront or create new severities that users can associate with issues in Workfront.
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **Linked to Understanding Issue Severity.</p>
+-->
 
-Issues are unexpected events that can prevent your projects from finishing on time or within budget. You can use severities to define how serious an issue is.
+Your users can use severities to define how serious an issue is. You can customize any of the five default severities existing in Adobe Workfront, or create a new severity for your users.
 
-Tasks and projects do not have severities.
+>[!NOTE]
+>
+>Tasks and projects do not have severities.
 
 ##  
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -41,9 +45,9 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-## Customizing issue severities
+## Built-in issue severities
 
-There are 5 default issue&nbsp;severities in Workfront:
+Workfront has five built-in issue&nbsp;severities:
 
 * Cosmetic
 * Causes Confusion
@@ -51,38 +55,36 @@ There are 5 default issue&nbsp;severities in Workfront:
 * Bug with no workaround
 * Fatal error
 
-Workfront administrators can customize the following information on&nbsp;the default severities provided in Workfront:
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>You can edit the following for these severities:</p>
+<ul>
+<li>Name</li>
+<li> <p>Color</p> <note type="note">
+The color of your severity is preserved in a chart report, if you group your results by
+<strong>Issue Severity</strong>. For more information on chart reports, see
+<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.
+</note> </li>
+<li> <p>Change the default severity <!--
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">STOPPED&nbsp;HERE</span>
+--></p> <p>For more information about default severities, see <a href="#create-or-edit-an-issue-severity" class="MCXref xref">Create or edit an issue severity</a> in this article.</p> </li>
+<li>Edit the description of the severities</li>
+<li> <p>Hide a severity</p> <p>For more information about&nbsp;hiding a severity, see <a href="#create-or-edit-an-issue-severity" class="MCXref xref">Create or edit an issue severity</a> in this article.</p> </li>
+<li> <p>Delete a severity</p> <p>When you delete an existing severity, you must select a replacement one.</p> </li>
+</ul>
+</div>
+-->
 
-* Edit the severity name
-* Change the color associated with the severity
+## Create or edit an issue severity {#create-or-edit-an-issue-severity}
 
-  >[!NOTE]
-  >
-  >The color of your severity is preserved in a chart report, if you group your results by **Issue Severity**. For more information on chart reports, see [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
-
-* Change the default severity
-
-  For more information about default severities, see [Create new issue severities](#create-new-issue-severities).
-
-* Edit the description of the severities
-* Hide a severity
-
-  For more information about&nbsp;hiding a severity, see [Create new issue severities](#create-new-issue-severities).
-
-* Delete a severity
-
-  When you delete an existing severity, you must select a replacement one.
-
-## Create new issue severities {#create-new-issue-severities}
-
-As a Workfront administrator, you can create new issue severities to reflect the needs in your organization.&nbsp;
+As a Workfront administrator, you can create and edit issue severities to suit the needs of your users.&nbsp;
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
 1. In the left panel, click **Project Preferences** > **Severities**.
 
-1. Click **Add a New Severity**.
-1. Fill in the following information for the new severity:
+1. If you are creating a new severity, click **Add a New Severity**.
+1. Configure the following options for the new severity or edit them for an existing one:
 
    <table cellspacing="0"> 
     <col> 
@@ -94,7 +96,7 @@ As a Workfront administrator, you can create new issue severities to reflect the
      </tr> 
      <tr> 
       <td role="rowheader">Importance</td> 
-      <td> <p>When adding a new severity, a number is assigned to it by default. Edit this number, if it does not match your needs. The <strong>Importance</strong> number for each severity&nbsp;must be unique. The number of the severity reflects the seriousness of the issue: the highest number corresponds to the highest severity.</p> <p>Note: You cannot edit the <strong>Importance</strong> number, after you save the severity.</p> </td> 
+      <td> <p>When you create a severity, Workfront assigns a number to it. Edit this number, if it does not match your needs. The <strong>Importance</strong> number for each severity&nbsp;must be unique. The number of the severity reflects the seriousness of the issue: the highest number corresponds to the highest severity.</p> <p>Note: You cannot edit the <strong>Importance</strong> number, after you save the severity.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 

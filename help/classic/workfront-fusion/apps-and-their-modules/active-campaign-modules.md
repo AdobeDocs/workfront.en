@@ -13,9 +13,9 @@ hidefromtoc: true
 # ActiveCampaign modules
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-In a Adobe Workfront Fusion scenario, you can connect your ActiveCampaign account to multiple third-party applications and services. You can create, update, list, and delete automations, campaigns, calendar feeds, contacts, deals, messages, notes, organizations, tags, and tasks in your ActiveCampaign account.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use ActiveCampaign, as well as connect it to to multiple third-party applications and services. You can create, update, list, and delete automations, campaigns, calendar feeds, contacts, deals, messages, notes, organizations, tags, and tasks in your ActiveCampaign account.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
 ## Connect Active Campaign to Workfront Fusion {#connect-active-campaign-to-workfront-fusion}
 
@@ -206,7 +206,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td><strong>Field ID</strong> </td> 
-   <td> <p><![CDATA[	]]>Enter the unique [Fusion app] ID of the record that you want the module to update.</p> </td> 
+   <td> <p> Enter the unique [Fusion app] ID of the record that you want the module to update.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Field Value</strong> </td> 
@@ -727,64 +727,64 @@ This action module retrieves a list of deals.
 
 When you are configuring this module, the following fields display.
 
-<table cellspacing="15"> 
+<table cellspacing="0"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Connection</strong> </td> 
+   <td role="rowheader">Connection</td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect-active-campaign-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Limit</strong> </td> 
+   <td role="rowheader">Limit </td> 
    <td> <p>The maximum number of deals should return during one scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Group</strong> </td> 
+   <td role="rowheader">Group </td> 
    <td> <p>Enter the group name of the deal you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Stage</strong> </td> 
+   <td role="rowheader">Stage</td> 
    <td> <p>Enter the stage name of the deals you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Owner</strong> </td> 
+   <td role="rowheader">Owner </td> 
    <td> <p>Enter the owner name of the deals you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Status</strong> </td> 
+   <td role="rowheader">Status </td> 
    <td> <p>Enter the status of the deals you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Due date</strong> </td> 
+   <td role="rowheader">Due date</td> 
    <td> <p> Enter the due date of the deal that you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Tag</strong> </td> 
+   <td role="rowheader">Tag </td> 
    <td> <p>Enter the tag names to filter the deals.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Task Type</strong> </td> 
+   <td role="rowheader">Task Type</td> 
    <td> <p> Select the task type of the deal that you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Created Before</strong> </td> 
+   <td role="rowheader">Created Before</td> 
    <td> <p> Enter the date from which the deals that you want to list were created.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Created After</strong> </td> 
+   <td role="rowheader">Created After</td> 
    <td> <p> Enter the date from which the deals that you want to list were created.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Updated Before</strong> </td> 
+   <td role="rowheader">Updated Before</td> 
    <td> <p> Enter the date before which the deals that you want to list were updated.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Updated After</strong> </td> 
+   <td role="rowheader">Updated After</td> 
    <td> <p> Enter the date from which the deals that you want to list were updated.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Organization</strong> </td> 
+   <td role="rowheader">Organization </td> 
    <td> <p>Select the organization whose deals you want to list.</p> </td> 
   </tr> 
  </tbody> 
@@ -1333,7 +1333,9 @@ When you are configuring this module, the following fields display.
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Name </td> 
-    <td> <p>Enter the name of the organization whose details you want to retrieve.</p> </td> 
+    <td> <p>Enter the name of the organization whose details you want to retrieve. </p> <!--
+      <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">CO:&nbsp;Isn't it a list of organizations?</p>
+     --> </td> 
    </tr>
   --> 
  </tbody> 

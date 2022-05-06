@@ -9,6 +9,10 @@ description: For information about project information, the Project Team, and ho
 
 # Plan a project
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 For information about project information, the Project&nbsp;Team, and how to plan a project, see the following articles:
 
 * [Plan a project overview](../../../manage-work/projects/planning-a-project/plan-project.md) 
@@ -21,10 +25,12 @@ For information about project information, the Project&nbsp;Team, and how to pla
 * [Update project owners and sponsors](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md) 
 * [Designate Resource Managers for a project or template](../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md) 
 * [Overview of the project Actual Completion Date](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md) 
+* [Overview of the project Planned Start Date](../../../manage-work/projects/planning-a-project/project-planned-start-date.md) 
 * [Overview of the project Actual Start Date](../../../manage-work/projects/planning-a-project/project-actual-start-date.md) 
 * [Overview of project Duration](../../../manage-work/projects/planning-a-project/project-duration.md) 
 * [Project Update Type overview](../../../manage-work/projects/planning-a-project/project-update-type-overview.md) 
 * [Understand and update project priorities](../../../manage-work/projects/planning-a-project/project-priority.md) 
+* [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md) 
 * [Set the project Planned Completion Date](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md) 
 * [Overview of the project Projected Start Date](../../../manage-work/projects/planning-a-project/project-projected-start-date.md) 
 * [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)

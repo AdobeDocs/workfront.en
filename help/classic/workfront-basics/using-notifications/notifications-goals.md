@@ -3,10 +3,18 @@ filename: notifications-goals
 content-type: reference
 navigation-topic: notifications
 title: Notifications: Goals
-description: You can enable your email notifications for events occurring in Adobe Workfront Goals in your profile. A user with a Plan license can also enable them for other users. For information, see Adobe Workfront notifications.
+description: (NOTE: although this is a NWE functionality only, the Goals area in Notifications in the user profile displays in NWE AND in Classic)
 ---
 
 # Notifications: Goals
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: although this is a NWE functionality only, the Goals area in Notifications in the user profile displays in NWE AND in Classic)</p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can enable your email notifications for events occurring in&nbsp;Adobe Workfront Goals in your profile. A user with a Plan license can also enable them for other users. For information, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
@@ -15,6 +23,10 @@ You can enable your email notifications for events occurring in&nbsp;Adobe Workf
 >Workfront Goals are available only in The new Adobe Workfront experience.
 
 ## Access requirements
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
+-->
 
 You must have the following:
 
@@ -32,7 +44,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Workfront Goals <p>For information about Workfront Goals, see Workfront Goals overview</p> </td> 
+   <td>Workfront Goals <p>For information about Workfront Goals, see Adobe Workfront Goals overview</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -40,7 +52,7 @@ You must have the following:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -53,7 +65,13 @@ You must have the following:
 The user whose Goals notifications are updated must have the following:
 
 * A Layout Template that includes the Goals area in the Main&nbsp;Menu.
-* Access to The new Adobe Workfront experience.
+* Access to The new Adobe Workfront experience. 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: we need this here because you can see these notifications from Classic)
+  </MadCap:conditionalText>
+  -->
 
 ## Goals notifications in the user profile area
 
@@ -76,24 +94,28 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td> <p>Fields included </p> <p>*Instant notifications only</p> </td> 
   </tr> 
   <tr> 
-   <td>Someone assigned a Result/an Activity to you</td> 
+   <td>Someone assigned a Result/ an Activity to me</td> 
    <td> <p>The name of the person who assigned the result or activity to you</p> <p>The Period of the goal for the result or activity</p> <p>The name of the result or activity</p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td>Someone created a new personal Goal for you</td> 
+   <td>Someone created a new personal Goal for me </td> 
    <td> <p>The name of the person who assigned the goal</p> <p>The Period of the goal</p> <p>The name of the goal</p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td>Someone left a comment on your Goal</td> 
+   <td>Someone left a comment on my Goal</td> 
    <td> <p>The name of the person who left the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment</p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td>Someone liked a comment you left on a Goal</td> 
+   <td>Someone liked my comment on a Goal</td> 
    <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td>Someone liked updates on your Goal</td> 
-   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
+   <td>Someone liked an update on my Goal</td> 
+   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        (NOTE: check this. Is this true? Didn't triggger when this was written; add anything else? Maybe the type of the update is mentioned?!) 
+      </MadCap:conditionalText>
+     --></p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
  </tbody> 
 </table>

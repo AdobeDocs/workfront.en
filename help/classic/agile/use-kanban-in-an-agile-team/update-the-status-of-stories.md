@@ -8,6 +8,10 @@ description: You can change the status of a story directly from the Kanban board
 
 # Update the status of stories on the Kanban board
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can change the status of a story directly from the Kanban&nbsp;board in order to reflect how the stories are progressing.
 
 >[!NOTE]

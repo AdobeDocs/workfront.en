@@ -4,11 +4,11 @@ content-type: overview
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: About mapping files
+title: About mapping files in Adobe Workfront Fusion
 description: Some modules have the capability to process files. These modules can either return an output file to be sent for further processing or require a file to be passed to them for processing. Before these modules can work together to process files, they have to be mapped to each other.
 ---
 
-# About mapping files
+# About mapping files in Adobe Workfront Fusion
 
 Some modules have the capability to process files. These modules can either return an output file to be sent for further processing or require a file to be passed to them for processing. Before these modules can work together to process files, they have to be mapped to each other.
 

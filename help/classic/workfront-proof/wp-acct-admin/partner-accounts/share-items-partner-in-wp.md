@@ -11,6 +11,10 @@ description: If you have a Workfront Proof partner relationship with another org
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 If you have a Workfront Proof partner relationship with another organization (such as a client or another department in your company), you can share proofs, files, folders, and contact details with the partner. For more information about partner relationships, see [Manage a partner relationship between Workfront Proof accounts](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md).

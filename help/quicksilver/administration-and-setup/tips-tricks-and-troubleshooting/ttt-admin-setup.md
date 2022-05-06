@@ -30,7 +30,7 @@ This section contains the following articles:
 * [Error message: SAML 2.0 Authentication Failed: User Identifier Not Found](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-auth-failed-userid-not-found.md) 
 * [Error message: SAML 2.0 error: Primary StatusCode](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-primary-statuscode.md) 
 * [Error Message: SAML 2.0 Error: User Identifier Not Found](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-saml-2-error-user-identifier-not-found.md) 
-* [Error saving custom field: "There is a slight problem. [That field] is used in a multi-form configuration ..."](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-field-used-in-multi-form-config.md) 
+* [Error message: There is a slight problem. That field is used in a multi-form configuration](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-field-used-in-multi-form-config.md) 
 * [Error: SSO Users are Unable to Log In to Adobe Workfront Due to Various Errors](../../administration-and-setup/tips-tricks-and-troubleshooting/error-sso-users-unable-log-in-various-errors.md) 
 * [External user license type missing from access levels](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
 

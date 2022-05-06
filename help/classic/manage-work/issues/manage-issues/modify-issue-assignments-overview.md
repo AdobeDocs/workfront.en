@@ -9,6 +9,10 @@ description: You can assign issues to or unassign issues from users, teams, or j
 
 # Modify issue assignments overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can assign issues to or unassign issues from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one issue at a time, or multiple issues in bulk.
 
 >[!TIP]
@@ -23,9 +27,9 @@ You can assign issues to or unassign issues from users, teams, or job roles. You
 
 This article contains general information about the impact of modifying issue assignments. For information about how to assign issues, see the following articles:
 
-* For information about assigning issues, see [Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md) and [Edit user assignments for multiple issues](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md). 
+* For information about assigning issues, see [Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md) and [Modify user assignments for multiple issues in a list](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md). 
 
-* For information about assigning issues using the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* For information about assigning issues using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Some information in this article also applies to assignments to tasks. For more information about assigning tasks, and additional considerations, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
@@ -41,7 +45,7 @@ You might want to modify the user assignments for multiple issues for a variety 
 
 You can remove assignments from one issue at a time, or you can remove assignments from multiple issues in bulk.
 
-For more information about removing assignments from issues in bulk, see [Edit user assignments for multiple issues](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+For more information about removing assignments from issues in bulk, see [Modify user assignments for multiple issues in a list](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
 Consider the following when removing assignments from issues:
 

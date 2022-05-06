@@ -8,6 +8,10 @@ description: The burndown chart is synchronized automatically with data in your 
 
 # Synchronize data in the burndown chart
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The&nbsp;burndown chart is synchronized automatically with data in your project or iteration. If the burndown chart ever becomes out of sync with data in the project or iteration, you can manually synchronize it.
 
 ## Access requirements

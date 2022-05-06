@@ -9,6 +9,10 @@ description: The task Duration is the difference between the Planned Completion 
 
 # Overview of Task Duration and Duration Type
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The task Duration is the difference between the Planned Completion Date and the Planned Start Date of the task. The Duration indicates the time frame that is available for the task to get completed.
 
 The Duration Type of a task identifies the relationship between the number of resources assigned to a task, the total effort, and the total Duration of the task.
@@ -43,7 +47,7 @@ The following are two scenarios that exist when calculating duration in&nbsp;Ado
 
 You can indicate task&nbsp;Duration in both the regular time and the elapsed time between the Planned Start and Planned Completion Dates.
 
-When updating the Duration of tasks in a list,Task&nbsp;Details tab, or in the Edit Task box, you can use the following abbreviations for indicating units of time in&nbsp;Workfront: 
+When updating the Duration of tasks in a list ,Task&nbsp;Details tab, or in the Edit Task box , you can use the following abbreviations for indicating units of time in&nbsp;Workfront: 
 
 | Unit of Time |Abbreviation |
 |---|---|
@@ -58,7 +62,11 @@ When updating the Duration of tasks in a list,Task&nbsp;Details tab, or in the E
 | Elapsed Weeks |EW |
 | Elapsed Months |ET |
 
-``` ```**Example: **`````` If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list , Task Details tab, or when editing durations in the Edit Task box. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+``` ```**Example: **`````` If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list  , Task Details tab, or when editing durations in the Edit Task box . For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
+-->
 
 ![](assets/duration-elapsed-days-tasks-classic-350x200.png)
 

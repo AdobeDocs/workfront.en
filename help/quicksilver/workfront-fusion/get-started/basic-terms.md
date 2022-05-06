@@ -4,11 +4,11 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Basic terms
+title: Basic terms in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-# Basic terms
+# Basic terms in Adobe Workfront Fusion
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
@@ -22,7 +22,7 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Aggregator</p> </td> 
-   <td> <p>A type of module that merges together multiple bundles (multiple arrays of data) into one single bundle. For more information, see <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">Aggregator module</a>.</p> </td> 
+   <td> <p>A type of module that merges together multiple bundles (multiple arrays of data) into one single bundle. For more information, see <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">Aggregator module in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API Key</td> 
@@ -46,19 +46,19 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cycle</p> </td> 
-   <td> <p>A cycle refers to two phases of the scenario run: operation and commit. The scenario may consists of one or more cycles. For more detailed information, see <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Scenario execution, cycles, and phases</a>.</p> </td> 
+   <td> <p>A cycle refers to two phases of the scenario run: operation and commit. The scenario may consists of one or more cycles. For more detailed information, see <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Scenario execution, cycles, and phases in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Data Store</p> </td> 
-   <td> <p>A tool that stores data from scenarios or allows you to transfer data between individual scenarios or scenario runs. For more information, see <a href="../../workfront-fusion/modules/data-stores.md" class="MCXref xref">Data Stores</a>.</p> </td> 
+   <td> <p>A tool that stores data from scenarios or allows you to transfer data between individual scenarios or scenario runs. For more information, see <a href="../../workfront-fusion/modules/data-stores.md" class="MCXref xref">Data Stores in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Data Transfer</p> </td> 
-   <td> <p>The amount of data transferred through your scenario. For more information, see <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Scenario detail</a>.</p> </td> 
+   <td> <p>The amount of data transferred through your scenario. For more information, see <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Scenario details in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Filter</p> </td> 
-   <td> <p>Additional features that can be applied between two modules. A filter allows you to then only work with bundles that fit certain criteria. There are a number of different filters you can apply. For more information, see <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Add a filter to a scenario</a>.</p> </td> 
+   <td> <p>Additional features that can be applied between two modules. A filter allows you to then only work with bundles that fit certain criteria. There are a number of different filters you can apply. For more information, see <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Add a filter to a scenario in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>ID</p> </td> 
@@ -70,7 +70,7 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Iterator</p> </td> 
-   <td> <p>A type of module that allows you to take one bundle of data (an array of data) and divide into separate bundles. For more information, see <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Iterator module</a>.</p> </td> 
+   <td> <p>A type of module that allows you to take one bundle of data (an array of data) and divide into separate bundles. For more information, see <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Iterator module in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Module</p> </td> 
@@ -86,11 +86,11 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Router</p> </td> 
-   <td>Allows you to duplicate data or add new routes to a scenario, so to re-route data and handle different groups of data separately. For more information, see <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">Router module</a>.</td> 
+   <td>Allows you to duplicate data or add new routes to a scenario, so to re-route data and handle different groups of data separately. For more information, see <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">Router module in Adobe Workfront Fusion</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Scenario</p> </td> 
-   <td> <p>A user-created series of automated steps, each represented and performed by a module. The purpose of a scenario is to move and manipulate data.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> For more information, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+   <td> <p>A user-created series of automated steps, each represented and performed by a module. The purpose of a scenario is to move and manipulate data.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> For more information, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transactions</p> </td> 
@@ -98,11 +98,11 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Trigger</p> </td> 
-   <td> <p>A module that allows you to grab bundles that were added or updated since the last run of a scenario. There are 2 types of triggers: polling and instant (webhooks). For more information, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>A module that allows you to grab bundles that were added or updated since the last run of a scenario. There are 2 types of triggers: polling and instant (webhooks). For more information, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks) in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Webhook</p> </td> 
-   <td> <p>A special type of trigger that allows you to run a scenario immediately after a new bundle is available. For more information, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks)</a>.</p> </td> 
+   <td> <p>A special type of trigger that allows you to run a scenario immediately after a new bundle is available. For more information, see <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Instant triggers (webhooks) in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

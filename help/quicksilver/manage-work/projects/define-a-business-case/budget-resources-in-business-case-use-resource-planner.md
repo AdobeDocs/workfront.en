@@ -1,23 +1,21 @@
 ---
 filename: budget-resources-in-business-case-use-resource-planner
 navigation-topic: business-case-and-scorecards
-title: Budget resources in the Business Case using the Adobe Workfront Resource Planner
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+title: Budget resources in the Business Case using the Resource Planner
+description: As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
 ---
 
-# Budget resources in the Business Case using the Adobe Workfront Resource Planner
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+# Budget resources in the Business Case using the Resource Planner
 
 As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
 
-For more information about creating a business case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about creating a business case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!TIP]
 >
 >The information you enter in the project-level&nbsp;Resource Planner is also visible in the system-level Resource Planner. The reverse is also true. For information about the Resource Planner, see [Resource Planner overview](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-You can also budget resources in the business case using the Adobe Workfront Scenario Planner. For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+You can also budget resources in the business case using the Adobe Workfront Scenario Planner. For more information, see [Budget resources in the Business Case using the Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Access requirements
 
@@ -42,11 +40,11 @@ You must have the following:
      <li> <p>Projects</p> </li> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Financial Data</p> </li> 
-    </ul> <p>For information about the access needed to budget resources, also see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources</a>.</p> <p>Note: If you still don't have access, ask your Adobe Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p>For information about the access needed to budget resources, also see <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p> <p>Note: If you still don't have access, ask your Adobe Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,6 +58,10 @@ Before you begin, you must do the following:
 * Meet all the prerequisites for resource planning in Adobe Workfront. For information, see [Resource Planner overview](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Associate Resource Pools with the project.
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:(you must have tasks assigned to job roles and users on the project - this is optional because the users and their roles come from the pools))</p>
+  -->
 
   >[!NOTE]
   >
@@ -77,7 +79,12 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
 1. Go to the project for which you want to budget resources. 
 1. Click **Business Case** in the left panel. 
-1. (Conditional) If your company does not have a license for the&nbsp;Workfront Scenario Planner, click **Edit Resource Budgeting** in the **Resource Budgeting** section, then continue with step 5. 
+1. (Conditional) If your company does not have a license for the&nbsp;Workfront Scenario Planner, click **Edit Resource Budgeting** in the **Resource Budgeting** section, then continue with step 5.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(NOTE: ensure it stays right - this is 5 instead of 6 because step 2 won't print for nwe)</p>
+   -->
+
 1. (Optional and conditional) If the project information has been published from an initiative on the Scenario Planner, do one of the following:
 
    * Select Resource Planner in the **Choose which hours to use to calculate the Budgeted Labor Cost of the project** field, then click&nbsp;**Choose > Edit Resource Budgeting**.
@@ -90,7 +97,7 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
    This uses the Budgeted Hours of the project to calculate the Budgeted Labor Cost for the project.
 
-   This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+   The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
    >[!NOTE]
    >

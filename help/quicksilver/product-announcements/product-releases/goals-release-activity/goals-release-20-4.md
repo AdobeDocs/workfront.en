@@ -38,14 +38,6 @@ You can now limit access to Workfront Goals in the access levels. You can give u
 
 For information about granting access to Workfront Goals, see [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><iframe class="vimeo-player_0" src="assets/466277536?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/466277536/82838520fe" target="_blank">View this video in full-screen mode.</a> </p>
--->
-
 >[!NOTE]
 >
 >**Preview availability:** October 9, 2020

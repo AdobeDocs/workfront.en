@@ -10,6 +10,10 @@ description: This section contains the following articles:
 
 # Configure proofing functionality
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This section contains the following articles:
 
 * [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) 
@@ -21,8 +25,4 @@ This section contains the following articles:
 * [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md) 
 * [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md) 
 * [Create and manage Automated Workflow templates](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../administration-and-setup/manage-workfront/configure-proofing/move-to-proofing-in-workfront.md" class="MCXref xref" xrefformat="{para}">Standalone Workfront Proof to Integrated Proofing in Workfront overview</a> </li>
-  -->
 

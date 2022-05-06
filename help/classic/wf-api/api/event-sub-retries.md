@@ -8,9 +8,13 @@ description: When implementing a message delivery system there are a few caveats
 
 # Event subscription retries
 
-```When implementing a message delivery system there are a few caveats that must be addressed in order to ensure stability, consistency, and good user experience.``` ```One of the shortcomings of a message delivery system is ensuring messages reach their destination successfully and knowing what to do when messages fail to arrive.```
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-```Some integrations can accept failure of delivery, and then drop the message and move to the next message.```  In other integrations, failure to deliver a message cannot be ignored.  ```For example, a financial integration might attempt to deliver a message, but instead receives an HTTP status code of 404, which indicates the server could not find the endpoint to which the message was to be delivered. In such cases, a``` ```missing message could mean someone not being paid for their time or an organization going over budget on contracted resources.```
+When implementing a message delivery system there are a few caveats that must be addressed in order to ensure stability, consistency, and good user experience. One of the shortcomings of a message delivery system is ensuring messages reach their destination successfully and knowing what to do when messages fail to arrive.&nbsp;
+
+Some integrations can accept failure of delivery, and then drop the message and move to the next message.  In other integrations, failure to deliver a message cannot be ignored. For example, a financial integration might attempt to deliver a message, but instead receives an HTTP status code of 404, which indicates the server could not find the endpoint to which the message was to be delivered. In such cases, a ```missing message could mean someone not being paid for their time or an organization going over budget on contracted resources.```
 
 ## Adobe Workfront Strategy for Event Subscription Retries
 

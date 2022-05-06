@@ -10,6 +10,10 @@ description: Replies made via a POP email account are not received by Adobe Work
 
 # POP accounts are being disabled
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 ## Problem
 
 Replies made via a POP email account are not received by Adobe Workfront or a user can no longer create issues using a POP email account address. The Workfront administrator looks at the request queue or setup area and finds that the POP email account is disabled.&nbsp;

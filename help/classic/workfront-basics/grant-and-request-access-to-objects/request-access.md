@@ -2,11 +2,15 @@
 filename: request-access
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Request access to objects in Adobe Workfront
+title: Request access to objects
 description: Your visibility to objects in Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
 ---
 
-# Request access to objects in Adobe Workfront
+# Request access to objects
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Your visibility to objects in&nbsp;Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
 
@@ -47,8 +51,7 @@ You must have the following to share objects:
 
 The following standard sharing rules take effect&nbsp;automatically, as they are set up as default options in your Workfront system.&nbsp;
 
-* Users assigned to a task have Contribute access on the task.&nbsp;
-* Users assigned to an issue have Contribute access on the issue.&nbsp;
+* Users assigned to a task or an issue have Contribute access on it.&nbsp;
 * Project, Portfolio, and Program managers have&nbsp;Manage&nbsp;access on the objects they own.
 * Users included in a&nbsp;conversation have&nbsp;View access on the object where the conversation happens.
 * Users assigned as approvers have View access on the object waiting to be approved.
@@ -81,20 +84,20 @@ To request initial access to an object:
 
 1. From the drop-down list, select the type of access that you are requesting.
 1. (Optional) In the **P.S.** field, specify a note to the user regarding why you need additional access.
-1. Click **Request Access**.  
-   ![](assets/request-access-dialog-350x340.png)
+
+   ![](assets/request-access-dialog-350x314.png)
 
 If you do not have access level rights to an object&nbsp;and you try to access that object from a link,&nbsp;a screen is displayed informing you&nbsp;to contact the Workfront administrator.&nbsp;
 
 For example,&nbsp;if you do not&nbsp;have portfolio&nbsp;access, but you were&nbsp;given a link to a portfolio, you&nbsp;would see the following&nbsp;message:  
-![](assets/permission-request-initial2-350x156.png)
+![](assets/permission-request-initial2-350x96.png)
 
 ### Request additional&nbsp;access {#request-additional-access}
 
 To request additional access to an object that you already have limited access to:
 
 1. Go to the object for which you want to request additional access.  
-   ![](assets/permission-request-additional1-350x100.png)  
+   ![](assets/permission-request-additional1-350x107.png)  
 
 1. Click **Request More Access** in the upper-right corner of the page.  
    The **Request Access** dialog box is displayed.  

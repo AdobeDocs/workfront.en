@@ -9,6 +9,10 @@ description: This section contains the following articles:
 
 # Burndown
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This section contains the following articles:
 
 * [Agile burndown chart overview](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md) 

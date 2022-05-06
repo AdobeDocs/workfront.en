@@ -10,6 +10,10 @@ description: Adobe Workfront DAM is a native Digital Asset Management (DAM) syst
 
 # Access Help for Adobe Workfront DAM
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront&nbsp;DAM is a native Digital Asset Management (DAM) system within Workfront that allows you&nbsp;to store, organize, find, retrieve, and share digital files.
 
 You can access support documentation for Workfront DAM&nbsp; in the following locations:

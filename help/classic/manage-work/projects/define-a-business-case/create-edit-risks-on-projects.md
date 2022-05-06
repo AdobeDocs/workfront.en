@@ -8,6 +8,10 @@ description: Risks are possible events or factors that prevent a project from fi
 
 # Create and edit risks on projects
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Risks are possible events or factors that prevent a project from finishing on time or within budget. Risks can be recorded as part of creating the Business Case of a project or by using the Risks tab. Risks are created only on a project. You cannot associate risks with tasks or issues.
 
 Risks can be associated with cost, but Actual Risk Cost does not impact the Actual Cost of the Project.
@@ -47,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create and edit risks in the Business Case
 
-You can create risks as part of planning the Business Case of a project. You can later edit them in the Business Case, when changes occur to their probability, mitigation plan, or cost, for example. For information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+You can create risks as part of planning the Business Case of a project. You can later edit them in the Business Case, when changes occur to their probability, mitigation plan, or cost, for example. For information about creating a Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 Your Workfront administrator ```or group administrator``` must enable the **Risks** section in your Business Case in the Project Preferences area before you can view it at the project level in the Business Case section. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -90,7 +94,7 @@ In addition to creating and editing risks in the Business Case, you can do so us
 1. Go to the project you want to create risks for.
 1. Select the **Risks** tab.
 
-   ![](assets/crp2-350x87.png)
+   ![](assets/crp2-350x81.png)
 
 1. Click **Start Adding Risks** and create risks by in-line editing their information.
 

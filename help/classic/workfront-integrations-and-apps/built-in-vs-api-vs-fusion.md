@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: native,ootb
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront integration methods
-description: 
+description: You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. You can use any or all of these integrations, depending on which is most useful for a given task.
 ---
 
 # Adobe Workfront integration methods
 
-&nbsp;
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. You can use any or all of these integrations, depending on which is most useful for a given task.
 
@@ -45,7 +45,7 @@ Advantages of creating an OAuth2 application may include the following:
 * Setting up or using an OAuth2 application does not require additional technical knowledge, such as familiarity with the Workfront API.
 * Your organization may use software that is not offered as a Workfront built-in application. You can still integrate this software with Workfront by using an OAuth2 application, even if the software is proprietary to your organization.
 
-For more information, see [Create OAuth2 applications for Workfront integrations](../administration-and-setup/configure-integrations/create-oauth-application.md).
+For more information, see Create OAuth2 applications for Workfront integrations.
 
 ## Workfront API
 
@@ -71,7 +71,7 @@ For more information on event subscriptions, see [Event Subscription API](../wf-
 
 ## Adobe Workfront Fusion
 
-Workfront Fusion allows you to automate workflows across multiple apps and web services, creating scenarios where the apps work together to execute a task. A scenario is a visual representation of the task or workflow that is built using modules, which are discrete tasks like “Download a document” or “Create a project.” You chain modules together to define the workflow, and then the workflow executes automatically when a trigger condition is met.
+Workfront Fusion allows you to automate workflows. With the Workfront Fusion for Work Automation and Integration license, you can create those automations across multiple apps and web services, creating scenarios where the apps work together to execute a task. A scenario is a visual representation of the task or workflow that is built using modules, which are discrete tasks like “Download a document” or “Create a project.” You chain modules together to define the workflow, and then the workflow executes automatically when a trigger condition is met.
 
 Advantages to Workfront Fusion may include the following:
 

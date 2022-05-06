@@ -3,11 +3,11 @@ filename: copy-modules-or-scenarios
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Copy modules or scenarios
+title: Copy modules or scenarios in Adobe Workfront Fusion
 description: 
 ---
 
-# Copy modules or scenarios
+# Copy modules or scenarios in Adobe Workfront Fusion
 
 You can copy modules, groups of modules, or entire scenarios in Adobe Workfront Fusion. This ability allows you to reuse scenarios or parts of scenarios without having to build them again
 
@@ -97,7 +97,7 @@ Cloning a scenario creates a copy of the scenario, which you can then edit.
 
       Or
 
-      If you are working on the scenario in the [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
+      If you are working on the scenario in the [The scenario editor in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
 1. Right click **Options** at the upper-right of the page.
 1. Select **Clone**.

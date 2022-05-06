@@ -9,6 +9,10 @@ description: When you no longer want an item in a folder or in your My Content a
 
 # Relocate assets in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you no longer want an item in a folder or in your My Content area, you can relocate it by first adding it to a new location and then removing it from its original location. You can relocate only items to which you have Manage access.
 
 1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.

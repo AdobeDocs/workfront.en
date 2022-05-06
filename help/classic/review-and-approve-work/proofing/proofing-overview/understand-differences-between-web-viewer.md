@@ -9,6 +9,10 @@ description: Adobe Workfront provides two different proofing viewers:
 
 # Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront provides two different proofing viewers:
 
 * **Web Proofing Viewer:**&nbsp;Designed primarily for proofing static and video files. Runs in Google Chrome, Firefox, or Safari. 
@@ -137,11 +141,7 @@ The following list can help you understand what Proofing Viewer you can use to p
   </tr> 
   <tr> 
    <td> <p>Undo and redo last operation</p> </td> 
-   <td>✓ <!--
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      ?check this
-     </MadCap:conditionalText>
-    --></td> 
+   <td>✓</td> 
    <td> ✓&nbsp;</td> 
   </tr> 
   <tr> 

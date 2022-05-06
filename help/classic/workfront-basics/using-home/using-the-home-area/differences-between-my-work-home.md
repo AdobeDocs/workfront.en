@@ -3,10 +3,18 @@ filename: differences-between-my-work-home
 content-type: overview
 navigation-topic: use-the-home-area
 title: Understand the differences between My Work and Home
-description: The Home area provides a new look and feel and improved functionality over the My Work area. Not all functionality is currently available in the Home area.
+description: (NOTE: Add video to this article)
 ---
 
 # Understand the differences between My Work and Home
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Add video to this article) </p>
+-->
 
 The Home area provides a new look and feel and improved functionality over the My Work area. Not all functionality is currently available in the Home area.
 

@@ -8,6 +8,10 @@ description: Adobe Workfront DAM is a native Digital Asset Management (DAM) syst
 
 # Managing Documents with Adobe Workfront DAM
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront DAM is a native Digital Asset Management (DAM) system within Adobe Workfront that provides users controlled access to digital assets.
 
 ## Understanding Workfront DAM
@@ -26,9 +30,7 @@ Before you can link your documents with Workfront DAM, you must integrate Workfr
 
 You can save documents from Workfront to Workfront&nbsp;DAM.
 
-1. Go to the&nbsp;**Documents**&nbsp;tab for any object within Workfront, select the file that you want to save to Workfront DAM, then click **More**.
-
-1. Go to the Document tab for any object within Workfront, and select the fire you want to save to Workfront DAM.
+1. Go to the Document tab for any object within Workfront, and select the file you want to save to Workfront DAM.
 1. From the drop-down list, click&nbsp;**Send** **To.** 
    ![DocMoreIcon.png](assets/docmoreicon-350x101.png)
 

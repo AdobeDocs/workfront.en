@@ -3,12 +3,26 @@ filename: view-utilization-information
 product-area: resource-management
 navigation-topic: resource-utilization
 title: View resource utilization information
-description: You can view the utilization of your resources using the Utilization report.
+description: (NOTE: this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)
 ---
 
 # View resource utilization information
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)</p>
+-->
+
 You can view the utilization of your resources using the Utilization report.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Vazgen's response about these hours ie below and he asked us to NOT document them:</p>
+<p>It queries Assignments first to get the tasks, issues, projects to display in the view. And then from those gets the hours.</p>
+<p>In some cases, like for Planned Hours, it takes them from Assignments</p>
+<p>But Budgeted Hours come from projects.</p>
+<p>And Actual Hours are their own object - Hour)</p>
+</div>
+-->
 
 <!--
 <p style="color: #dc143c;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This report displays information about the assignments on work items for projects in your environment, like Planned, Actual, and Budgeted Hours, FTE, or Cost.&nbsp;These are hours,&nbsp;FTE, or costs associated with the assignments and not with the tasks and issues themselves.(PRIVATE NOTE:&nbsp;Vazgen's response about these hours: It queries Assignments first to get the tasks, issues, projects to display in the view. And then from those gets the hours. In some cases, like for Planned Hours, it takes them from Assignments; But Budgeted Hours come from projects. And Actual Hours are their own object - Hour.)</p>
@@ -43,7 +57,7 @@ You must have the following to access the Utilization report:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to projects, portfolios, and programs to access the Utilization  section in the  Resourcing area</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Manage access to the project to access the Utilization  section of a project</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access to projects, portfolios, and programs to access the Utilization  section in the  Resourcing area</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Manage access to the project to access the Utilization  section of a project</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +65,7 @@ You must have the following to access the Utilization report:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator. (NOTE:&nbsp;replaced with above table)</p>
 -->
 
 The following sections describe how to view and use utilization information.
@@ -59,11 +73,14 @@ The following sections describe how to view and use utilization information.
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="prerequisites"></a>Prerequisites for accessing utilization information</h2>
+<p>(NOTE: drafted, replaced with above table)</p>
 <p>To access utilization information as described in this section, ensure that the following conditions are met:</p>
 <ul>
 <li>You have at least&nbsp;View access to the project, program, or portfolio for which you want to view the utilization information.</li>
 <li>Your Workfront administrator must grant you at least View access to&nbsp;Financial&nbsp;Data in your Access Level to be able to view cost and revenue information in the Utilization report. The Workfront administrator must enable both View Role Billing & Cost Rates as well as View User Billing &&nbsp;Cost Rates when they grant you the View access to Financial Data. For information about granting access to&nbsp;Financial&nbsp;Data, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>. </li>
 <li> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;drafted. No longer the case.) </p>
+--> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Utilization tab is included on any layout template that is assigned to you and that is applied to either the projects you view or to the Reporting area. </p>
 --> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Utilization section is included on any layout template that is assigned to you and that is applied to either the projects you view or to the Resourcing area. </p>
@@ -126,7 +143,7 @@ The following information is available in the Utilization report when tracking H
   </tr> 
   <tr> 
    <td scope="col"><strong>Planned Hours</strong> </td> 
-   <td scope="col"> <p>The planned hours on the included projects that are associated with the assignments on each task and issue. You can view the total planned hours of all assignments on the project for the overall life of the included projects, or you can view total planned hours only for the specified date range (you can specify an individual week or month). The planned hours of projects are a total of the Planned Hours allocated to assignments on tasks and issues on the project. </p> <p>Tip: The planned hours from items that have a Duration of 0 are not taken into account. </p> <p>Planned Hours in the Utilization report take into consideration whether the Planned Hours have been re-allocated across the duration of a task or issue. When the user allocation for hours has been modified using the Workload Balancer, the data in the Utilization report can be affected if the dates selected in the Utilization report contain only a portion of a task or issue. For information about modifying allocations for users, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a> . </p> <p>Planned Hours appear on the Utilization report in any of the following rows:</p> 
+   <td scope="col"> <p>The Planned Hours on the included projects that are associated with the assignments on each task and issue. You can view the total planned hours of all assignments on the project for the overall life of the included projects, or you can view total planned hours only for the specified date range (you can specify an individual week or month). </p> <p>Tip: The planned hours from items that have a Duration of 0 are not taken into account. </p> <p>Planned Hours in the Utilization report take into consideration whether the Planned Hours have been re-allocated across the duration of a task or issue. </p> <p>When the user daily allocation for hours has been modified using the Workload Balancer, the data in the Utilization report can be affected if the dates selected in the Utilization report contain only a portion of a task's or issue's Duration. For information about modifying allocations for users, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a> . </p> <p>Planned Hours appear on the Utilization report in any of the following rows:</p> 
     <ul> 
      <li> Planned Hours are summarized by job role and by individual user in the utilization report, as follows:<br><strong>Individual User:</strong> Planned Hours are summarized for each user in the utilization report. These Planned Hours are associated with the tasks and issues that the user is assigned to on the included projects. (You can expand the row of the corresponding job role to view a list of users with that job role.)<br><strong>Job Role:</strong> Planned Hours are summarized by job role in the utilization report of a single project.<br>Planned Hours appear in a particular job role as a result of any of the following scenarios: </li> 
     </ul> 
@@ -251,7 +268,12 @@ For information on the specific fields and how Workfront calculates them, also s
   </tr> 
   <tr> 
    <td scope="col"><strong>Planned Revenue</strong> </td> 
-   <td scope="col"> <p>Planned Revenue is the revenue associated with the Planned Hours of the tasks.</p> <p>Note: The overall Planned Revenue value of a project adds all the individual task Planned Revenues calculated depending on each task's Revenue Type. </p> <p>The way the Utilization report calculates and displays Planned Revenue for the included projects differs depending on the Revenue Type set on the task. </p> <p>For more information about which role or user is taking into account when calculating Planned Revenue, see <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> <p>Depending on the Revenue Type of each task in the project, the following scenarios exist: </p> <p><strong>Fixed Revenue:</strong> Regardless of the task assignments, the revenue on the task is always calculated using the Fixed Amount specified on the task.</p> <p>Important: Unlike in other areas of Workfront, the Utilization report calculates Planned Revenue for Fixed Revenue tasks by dividing Fixed Revenue evenly by the number of Planned Hours on the task. </p> <p>For example, a task has a revenue of $200. If there are 4 Planned Hours on the task, each hour would be $50. This is distributed on a user and role level. This distribution is unique to the Utilization report.</p> <p>Note:   If you have a Fixed Revenue task and there are no Planned Hours for the task, the Revenue does not display in the Utilization Report because there is no way to distribute it to the hours. If you have Planned Hours on tasks with Fixed Revenue and no assignments, the Revenue displays as Unallocated Revenue. </p> <p><strong>Role Hourly:</strong> The revenue on the task is calculated using t he billing rate set for a specific role, multiplied by the number of Planned Hours associated with that role. Workfront uses the following formula:</p> <p><code>Role Hourly Planned Revenue = SUM(Planned Hours from role on all tasks) * Role Billing Rate</code><![CDATA[             
+   <td scope="col"> <p>Planned Revenue in the Utilization report is the revenue associated with the Planned Hours allocated to the resources assigned to the tasks on the project.</p> <p>Workfront calculates the project Planned Revenue for the Utilization report using the following formula:</p> <p><code>Project Planned Revenue = SUM&nbsp;(All Tasks Planned Revenue)</code> </p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the note below is duplicated in this article: /Content/Manage work/Projects/Project Finances/billing-and-revenue-overview.html and in the glossary)</p>
+    --> <p>Note:   <p>The project Planned Revenue that displays in the Utilization report differs from the Planned Revenue that displays in the Project&nbsp;Details area and project reports. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue as well as the Fixed&nbsp;Revenue of the project. The Planned Revenue in the Utilization&nbsp;Report displays Planned Revenue associated only with the tasks in the project. </p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>">  
+      <p>If the project has 1 task with 10 hours, assigned to a Consultant with $20 hourly rate, and the project has $100 Fixed Revenue, the Utilization report displays $200 for Planned Revenue (the Planned Revenue associated with the hours on the task). The Project&nbsp;Details section displays $300 (the Planned Revenue from the task and the Fixed Revenue for the project.) </p> 
+     </div> <p>For more information about the task and project Planned Revenue outside of the Utilization report, see <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> </p> <p>The way the Utilization report calculates and displays Planned Revenue for the included projects takes into account the Revenue Type set on the task. </p> <p>Depending on the Revenue Type of each task in the project, the following scenarios exist: </p> <p><strong>Fixed Revenue:</strong> Regardless of the task assignments, the revenue on the task is always calculated using the Fixed Amount specified on the task.</p> <p>Important: Unlike in other areas of Workfront, the Utilization report calculates Planned Revenue for Fixed Revenue tasks by dividing Fixed Revenue evenly by the number of Planned Hours on the task. </p> <p>For example, a task has a revenue of $200. If there are 4 Planned Hours on the task, each hour would be $50. This is distributed on a user and role level. This distribution is unique to the Utilization report.</p> <p>Note:   If you have a Fixed Revenue task and there are no Planned Hours for the task, the Revenue does not display in the Utilization Report because there is no way to distribute it to the hours. If you have Planned Hours on tasks with Fixed Revenue and no assignments, the Revenue displays as Unallocated Revenue. </p> <p><strong>Role Hourly:</strong> The revenue on the task is calculated using t he billing rate set for a specific role, multiplied by the number of Planned Hours associated with that role. Workfront uses the following formula:</p> <p><code>Role Hourly Planned Revenue = SUM(Planned Hours from role on all tasks) * Role Billing Rate</code><![CDATA[             
 						]]></p> <p><strong>User Hourly:</strong> The revenue on the task is calculated using the billing rate set for a specific user, multiplied by the number of Planned Hours associated with that user. Workfront uses the following formula:</p> <p><code>User Hourly Planned Revenue = SUM(Planned Hours from users on all tasks) * User Billing Rate</code> </p> <p><b>Role Hourly or User Hourly Plus Fixed</b> </p> <p>Important: Unlike in other areas of Workfront, the Utilization report calculates Planned Revenue by dividing Fixed Revenue evenly by the number of Planned Hours on the task. </p> <p>The following cases exist: </p> 
     <ul> 
      <li> <p><strong>Role Hourly Plus Fixed:</strong> The revenue on the task is calculated using the billing rate set for a specific role, multiplied by the number of Planned Hours associated with the role. In addition, a fixed amount that is specified on the task is added to the role rate. Workfront uses the following formula:</p> <p><code>Role Hourly Plus Fixed Planned Revenue = [SUM(Planned Hours from role on all tasks) * Role Billing Rate] + SUM(Cap or Fixed Amount of the task / Planned Hours of the task)</code> </p> </li> 
@@ -264,7 +286,7 @@ For information on the specific fields and how Workfront calculates them, also s
     </ul> 
     <ul> 
      <li> <p><strong>User Hourly w/Cap:</strong> Tasks are billed hourly as in User Hourly, but they have a maximum Cap Amount that you can specify. Workfront uses the following formula: </p> <p><code>User Hourly w/ Cap Planned Revenue = [SUM(Planned Hours from user on all tasks) * User Billing Rate] + Cap Amount of the task + SUM(Amount over the Cap Amount / Planned Hours of the task)</code> </p> </li> 
-    </ul> </td> 
+    </ul> <p>For more information about which role or user is taken into account when calculating Planned Revenue, see <a href="../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Actual Revenue</strong> </td> 
@@ -329,7 +351,9 @@ The following information is available in the Utilization report when comparing 
    <td scope="col"> <p>The Margin percentage is calculated as follows:</p> <p>Planned Revenue - Planned Cost / Planned Revenue * 100. </p> <p>Note:   If Planned Revenue equals 0, Margin is displayed as 0. </p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"><strong>Column Title When Viewing Revenue vs Cost (Actual)</strong> </td> 
+   <td scope="col"> <p scope="col"><strong>Column Title When Viewing Revenue vs Cost (Actual)</strong> </p> <!--
+     <p scope="col" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This needs to be either split in two tables of formatted differently)</p>
+    --> </td> 
    <td scope="col"><strong>Function</strong> </td> 
   </tr> 
   <tr> 
@@ -601,7 +625,10 @@ You can visualize the data from the Utilization report in a chart view.
    The Utilization report is displayed in a chart view. 
 
 1. (Optional) Configure this to show Projects, Programs, or Portfolios by selecting the appropriate option from the **Show** drop-down menu.
-1. (Optional) Mouse over a specific point in time on the report to view data for that point in time. 
+1. (Optional) Mouse over a specific point in time on the report to view data for that point in time.
+
+   ![](assets/utilization-chart-hover-350x176.png)
+
 1. (Optional) Adjust the filters to decide what information is displayed in the chart. For information about adjusting the filters, see the section [Filter utilization information](#filter-utilization-information) in this article. 
-1. (Optional) Configure the timeframe of the chart report, as described in the section [Adjust the date range for which information is displayed](#adjust-the-date-range-for-which-information-is-displayed) in this article.
+1. (Optional) Configure the time frame of the chart report, as described in the section [Adjust the date range for which information is displayed](#adjust-the-date-range-for-which-information-is-displayed) in this article.
 

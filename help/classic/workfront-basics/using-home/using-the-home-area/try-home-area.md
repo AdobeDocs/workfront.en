@@ -8,6 +8,10 @@ description: The Home area is no longer in beta and is now the default in the Pr
 
 # Try the Home area
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 The Home area is no longer in beta and is now the default in the Production environment. However, you still have the option to switch back to My Work.
 
 Your Adobe Workfront administrator can enable a setting in the Layout Template to revert users back to My Work. For more information, see the section&nbsp; [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) in the article&nbsp; [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

@@ -2,11 +2,15 @@
 
 # Create and customize priorities
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
+
 You can control the priorities for&nbsp;projects, tasks, and issues in the Setup area of Workfront. Priorities give importance to your projects, tasks, or issues in Adobe Workfront.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

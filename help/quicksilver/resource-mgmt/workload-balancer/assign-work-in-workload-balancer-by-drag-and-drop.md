@@ -2,15 +2,19 @@
 filename: assign-work-in-workload-balancer-by-drag-and-drop
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Assign work in the Adobe Workfront Workload Balancer by dragging and dropping
-description: You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
+title: Assign work in the Workload Balancer by dragging and dropping
+description: (NOTE: this is just a NWE article)
 ---
 
-# Assign work in the Adobe Workfront Workload Balancer by dragging and dropping
+# Assign work in the Workload Balancer by dragging and dropping
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is just a NWE article)</p>
+-->
 
 You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
 
-For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
 
@@ -40,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +89,15 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
    >The item displays according to the Workload Balancer criteria for sorting work items.&nbsp;For more information, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (Optional) Click the bar of a work item under the name of a user in the Assigned Work area and drag it then drop it over the Unassigned area to unassign it. The item is unassigned from the user, but it might still be assigned to a job role in which case it displays in the Unassigned Work area. If the item is assigned to another user, it remains in the Assigned Work area under the name of the user who is still assigned. 
-1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**.
+1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: make sure these are still called this, and that the icon has not changed)
+   </MadCap:conditionalText>
+   -->
+
+   &nbsp;
 
    Or
 
@@ -93,6 +105,6 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
    For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   For information about removing assignments from a work item using the Workload Balancer, see [Unassign work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   For information about removing assignments from a work item using the Workload Balancer, see [Unassign work in the Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 &nbsp;

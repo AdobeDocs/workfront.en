@@ -10,6 +10,10 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 
 # IP Addresses for accessing Adobe Workfront Fusion
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist in order to allow open communication between your environment and Adobe Workfront Fusion.
 
@@ -23,18 +27,18 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
    <td role="rowheader">Adobe Workfront EU Datacenter</td> 
    <td> 
     <ul> 
-     <li> <p>52.30.133.50</p> </li> 
-     <li> <p>54.220.93.204</p> </li> 
-     <li> <p>34.254.76.122</p> </li> 
+     <li>52.30.133.50</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
    <td> 
     <ul> 
-     <li> <p>54.244.142.219</p> </li> 
-     <li> <p>52.39.217.230</p> </li> 
-     <li> <p>44.241.82.96</p> </li> 
+     <li>54.244.142.219</li> 
+     <li>52.39.217.230</li> 
+     <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -48,17 +52,11 @@ Also, if your organization uses outbound network filtering, add the following do
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront EU Datacenter</td> 
-   <td> 
-    <ul> 
-     <li> hook.app-eu.workfrontfusion.com </li> 
-    </ul> </td> 
+   <td> <p> hook.app-eu.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
-   <td> 
-    <ul> 
-     <li>hook.app.workfrontfusion.com </li> 
-    </ul> </td> 
+   <td> <p>hook.app.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>

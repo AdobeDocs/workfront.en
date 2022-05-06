@@ -30,7 +30,7 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -45,7 +45,7 @@ You must have the following access to perform the actions described in this arti
    <td> 
     <div> 
      <p>View or higher permissions on goals</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +71,13 @@ You must have the following before you can start:
 
    All goals display by default.
 
-1. Click Pulse in the left panel.
+1. Click Pulse in the left panel. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: see the numbering in the procedure)
+   </MadCap:conditionalText>
+   -->
 
    A list of goals displays. The list contains the following columns with information about each goal: 
 
@@ -137,67 +143,3 @@ You must have the following before you can start:
 &nbsp;
 
 &nbsp;
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p class="preview">Depending on what environment you access Workfront Goals from, do one of the following:</p>
-<ol>
-<li value="1"> <p class="preview">(Optional)&nbsp;Click one of the tabs in the table below to view the following types of goals: </p>
-<div>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Personal</td>
-<td>Goals where you are designated as the owner or that have a result or activity that you own.&nbsp;</td>
-</tr>
-<tr>
-<td role="rowheader">My Teams</td>
-<td> <p>Goals where any of your teams is designated as the Owner. </p> <note type="tip">
-<span>If you are not assigned to any teams, no results display when you select the My Teams filter. </span>
-</note> </td>
-</tr>
-<tr>
-<td role="rowheader">My Groups</td>
-<td>Goals where any of your groups is designated as the Owner. </td>
-</tr>
-<tr>
-<td role="rowheader">Company</td>
-<td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your Workfront instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p> <note type="tip">
-<p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p>
-<p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p>
-</note> </td>
-</tr>
-<tr>
-<td role="rowheader">All</td>
-<td>Goals owned by you, your teams, your groups, your company, or anyone in your organization.</td>
-</tr>
-</tbody>
-</table>
-</div> </li>
-</ol>
-<ol>
-<li value="1"> <p>(Optional and conditional) If in the Production environment, deselect any of the options in the following table if you want to not display them in the Updates tab.&nbsp;They are selected by default. <span class="preview">These options have been removed from the Preview environment and all updates display there by default. </span></p>
-<table cellspacing="0">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Progress Updates</td>
-<td>Displays information about the history of progress updates on results and activities. </td>
-</tr>
-<tr>
-<td role="rowheader">Comments</td>
-<td>Displays comments made by users on the goal. </td>
-</tr>
-<tr>
-<td role="rowheader">Editing History</td>
-<td>Displays information about creating and updating the goal, results, and activities. </td>
-</tr>
-</tbody>
-</table> </li>
-</ol>
-</div>
--->
-

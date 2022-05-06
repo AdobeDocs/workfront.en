@@ -4,12 +4,10 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Delete object types on a custom form
-description: The information on this page refers to functionality available only in the new Workfront experience beta.
+description: On an existing custom form, you can delete object types that are associated with the form. After you do this, users can no longer attach the form to objects of that type.
 ---
 
 # Delete object types on a custom form
-
-The information on this page refers to functionality available only in the new Workfront experience beta.
 
 On an existing custom form, you can delete object types that are associated with the form. After you do this, users can no longer attach the form to objects of that type.
 
@@ -42,9 +40,11 @@ You must have the following to perform the steps in this article:
 
 You can delete object types from an existing custom form.
 
+A custom form must have at least one object type.
+
 >[!CAUTION]
 >
->If people have already attached the custom form to objects of the type you want to delete and added data to it, that data is permanently deleted when you delete that object type on the form. The data might include historical information that users will need later.
+>If people have already attached the custom form to objects of the type you want to delete and added data to it, that data is permanently deleted when you delete that object type on the form. It might include historical information that users will need later.
 >
 >In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
 
@@ -54,7 +54,7 @@ You can delete object types from an existing custom form.
 1. Select the custom form you want to edit, then click **Edit**.
 1. Click the X on any of the **Object Types** that you want to delete from the form, then click **Delete** on the warning message that displays.
 
-   ![](assets/click-x-object-types-350x191.jpg)
+   ![](assets/click-x-object-types-350x196.jpg)
 
 1. (Optional) Repeat the previous step for any other object type you want to remove from the form.
 1. Click **Done**, then click **Close and Save**.

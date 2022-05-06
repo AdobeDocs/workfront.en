@@ -80,7 +80,7 @@ This article describes changes that were made to the Workfront documentation bet
    <td>March 2, 2018</td> 
   </tr> 
   <tr> 
-   <td><a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref">Use Adobe Workfront for Adobe Creative Cloud</a> </td> 
+   <td><a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref">Use the Workfront Extension for Illustrator and InDesign</a> </td> 
    <td>Updated the versions of Adobe Creative Cloud applications that are supported by the Workfront extension.</td> 
    <td>Updated</td> 
    <td>Feb 26, 2018</td> 

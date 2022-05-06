@@ -4,10 +4,21 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Get started with Resource Management
-description: Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.
+description: (NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.)
 ---
 
 # Get started with Resource Management
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
+<p>(NOTE: Alina: ***As functionality is removed from Legacy and added to Res Planning - this will be continually updated: remove the Legacy Res Planning when that functionality is removed from the system.) </p>
+</div>
+-->
 
 Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.
 
@@ -27,7 +38,7 @@ Workfront has several sets of tools used to manage resources. Although some of t
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><strong>Legacy Resource Planning</strong>: Refers to organizing your job roles in Legacy Resource Pools which can be managed in the Resource Budget Manager.<br><note type="important">
   The tools associated with Legacy Resource Planning are deprecated. We recommend that you use the tools associated with Resource Planning for your resource management needs.
-  </note>After you have added your job roles to your Legacy Resource Pools, you can then assign one Legacy Resource Pool to your projects and you can configure the availability of job roles per project in the Resource Estimates section of the Business Case. After you have defined the Resource Estimates of a project, you can manage them system-wide in the Capacity Planner of the Legacy Resource Pool.<br>For more information about Legacy Resource Planning, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning-1.md">Legacy Resource Planning</a>.<br>As a<strong></strong> subset of Legacy Resource Planning, you can manage your user allocations by using the <strong>User Utilization</strong> report and the <strong>Resource Grid</strong> within Legacy Resource Planning.<br>For more information about managing user resources, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}">Overview of the User Utilization report in the Legacy Resource Management area</a>. <br><note type="important">
+  </note>After you have added your job roles to your Legacy Resource Pools, you can then assign one Legacy Resource Pool to your projects and you can configure the availability of job roles per project in the Resource Estimates section of the Business Case. After you have defined the Resource Estimates of a project, you can manage them system-wide in the Capacity Planner of the Legacy Resource Pool.<br>For more information about Legacy Resource Planning, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning-1.md">Legacy Resource Planning</a>.<br>As a subset of Legacy Resource Planning, you can manage your user allocations by using the <strong>User Utilization</strong> report and the <strong>Resource Grid</strong> within Legacy Resource Planning.<br>For more information about managing user resources, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}">Overview of the User Utilization report in the Legacy Resource Management area</a>. <br><note type="important">
   Legacy Resource Planning and Resource Planning are two completely separate areas of functionality and must be configured separately. They do not communicate with one another. We recommend that you use the Resource Planning tools for your future resource management needs. The Legacy Resource Planning tools are currently deprecated.
   </note></p>
   -->
@@ -35,7 +46,7 @@ Workfront has several sets of tools used to manage resources. Although some of t
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><strong>Legacy Resource Planning</strong>: Refers to organizing your job roles in Legacy Resource Pools which can be managed in the Resource Budget Manager.<br><note type="important">
   The tools associated with Legacy Resource Planning are deprecated. We recommend that you use the tools associated with Resource Planning for your resource management needs.
-  </note>After you have added your job roles to your Legacy Resource Pools, you can then assign one Legacy Resource Pool to your projects and you can configure the availability of job roles per project in the Resource Estimates section of the Business Case. After you have defined the Resource Estimates of a project, you can manage them system-wide in the Capacity Planner of the Legacy Resource Pool.<br>For more information about Legacy Resource Planning, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning-1.md">Legacy Resource Planning</a>.<br>As a<strong></strong> subset of Legacy Resource Planning, you can manage your user allocations by using the <strong>User Utilization</strong> report and the <strong>Resource Grid</strong> within Legacy Resource Planning.<br>For more information about managing user resources, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}">Overview of the User Utilization report in the Legacy Resource Management area</a>. <br><note type="important">
+  </note>After you have added your job roles to your Legacy Resource Pools, you can then assign one Legacy Resource Pool to your projects and you can configure the availability of job roles per project in the Resource Estimates section of the Business Case. After you have defined the Resource Estimates of a project, you can manage them system-wide in the Capacity Planner of the Legacy Resource Pool.<br>For more information about Legacy Resource Planning, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning-1.md">Legacy Resource Planning</a>.<br>As a subset of Legacy Resource Planning, you can manage your user allocations by using the <strong>User Utilization</strong> report and the <strong>Resource Grid</strong> within Legacy Resource Planning.<br>For more information about managing user resources, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}">Overview of the User Utilization report in the Legacy Resource Management area</a>. <br><note type="important">
   Legacy Resource Planning and Resource Planning are two completely separate areas of functionality and must be configured separately. They do not communicate with one another. We recommend that you use the Resource Planning tools for your future resource management needs. The Legacy Resource Planning tools are currently deprecated.
   </note></li>
   -->
@@ -92,7 +103,13 @@ The process of managing resources in&nbsp;Workfront includes the following stage
      For more information about defining Project Preferences, see the article [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
    
    * Resource Pools  
-     For more information about creating resource pools, see [Create resource pools in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+     For more information about creating resource pools, see [Create resource pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+   
+   * Resource Management preferences
+
+     As a System Administrator, you must decide how Workfront calculates user availability at the system level, whether using the user's schedule or the Default Schedule of your system.&nbsp;
+
+     For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * **Resource allocation**: As a resource manager, or a Project Owner, you can define allocation of resources for your projects as well as assign work. For this step, you can manage the allocation of your resources at the project level using the Resource Planner. Then, you can assign work items (tasks and issues) to users based on their job roles using the resource scheduling tools.
 
@@ -115,7 +132,7 @@ You must be one of the following users and have the following access and permiss
   In&nbsp;addition to having a Plan license, you must have the following to use specific resource management tools:
 
    * Edit access to Resource Management to use the Scheduling tool
-   * Edit access to Financial Data to display Cost information in the Planner
+   * Edit access to Financial Data to display Cost information in the Resource Planner
    * View access to&nbsp;Financial&nbsp;Data to view Cost and&nbsp;Revenue information in the Utilization Report
 
 * Manage permissions on the projects you want to manage resources for.
@@ -138,11 +155,12 @@ For information about what the requirements are for each resource management too
 * The section "Prerequisites for working in the Resource Planner" in the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 * The section "Best practices for using the Workload Balancer" in the article [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
-* [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+* [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: drafted and replaced with the links to each prerequisites instead) </p>
 <p> We recommend that the following settings exist before starting to manage resources for your organization: </p>
 <ul>
 <li> You must have users in the system who have active accounts. </li>
@@ -159,9 +177,9 @@ Although you can assign work to a Reviewer or a Requestor, they cannot complete 
 <li>The Time Off calendar of the users must be up to date. </li>
 <li> <p>The following is recommended for the Resource Planner when applying the Project and Role views: </p>
 <ul>
-<li> <p>You must associate projects with Resource Pools.<br>For information about associating projects with Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref" xrefformat="{para}">Associate resource pools with projects and templates in Adobe Workfront</a>.</p> </li>
+<li> <p>You must associate projects with Resource Pools.<br>For information about associating projects with Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref" xrefformat="{para}">Associate resource pools with projects and templates</a>.</p> </li>
 </ul> </li>
-<li> <p>Your must designate a Resource Manager on your projects and they must have the correct access to budget resources when using the Scheduling tools. </p> <p>For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref" xrefformat="{para}">Access needed to budget resources</a>.</p> </li>
+<li> <p>Your must designate a Resource Manager on your projects and they must have the correct access to budget resources when using the Scheduling tools. </p> <p>For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref" xrefformat="{para}">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p> </li>
 <li> <p>You must assign the tasks and issues in your system to job roles, teams, or users.</p> </li>
 <li>You must specify a valid value for Planned Hours and Duration for all tasks in your system.<br>For information about Planned Hours, see the article <a href="../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref" xrefformat="{para}">Planned Hours overview</a>.<br>For information about Duration, see the article <a href="../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref" xrefformat="{para}">Overview of Task Duration and Duration Type</a>.</li> <!--
 <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">When using the Legacy Resource Planning tools, your projects must include Resource Estimates in the Business Case.<br>For information about using Resource Estimates in the Business Case, see the article <a href="../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref" xrefformat="{para}">Estimate project resources by applying Legacy Resource Pools to the Business Case </a></li>

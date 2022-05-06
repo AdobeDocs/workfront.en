@@ -29,6 +29,9 @@ This section contains the following articles:
 * [Update task Cost Type](../../../manage-work/tasks/task-information/update-task-cost-type.md) 
 * [Differentiate between Projected and Estimated Dates](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md) 
 * [Overview of task Original Duration and Original Planned Hours](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) 
-* [Difference between Planned Duration and Duration for tasks](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md) 
-* [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md)
+* [Difference between Planned Duration and Duration for tasks](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/tasks/task-information/project-task-issue-dates.md" class="MCXref xref" xrefformat="{para}">Overview of project, task, and issue dates</a> </li>
+  -->
 

@@ -365,5 +365,5 @@ Set the values for the following task fields:&nbsp;
 
 * **Import the Excel File**
 
-  Follow the directions provided in [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Follow the directions provided in [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 

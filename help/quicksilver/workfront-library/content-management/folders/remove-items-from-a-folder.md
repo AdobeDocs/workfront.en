@@ -1,12 +1,4 @@
----
-filename: remove-items-from-a-folder
-product: workfront-library
-product-area: documents
-navigation-topic: folders
-title: Remove items from a folder in Workfront Library
-description: You can remove content and folders from any folder to which you have Manage permissions. Users with View permissions to a folder cannot remove items from the folder.
-hidefromtoc: true
----
+
 
 # Remove items from a folder in Workfront Library
 

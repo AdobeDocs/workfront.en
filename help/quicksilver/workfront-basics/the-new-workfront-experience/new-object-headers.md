@@ -3,10 +3,14 @@ filename: new-object-headers
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: New object headers
-description: You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
+description: (NOTE: I think we should keep this article even after NWE will become standard but rename it to something like "Edit information in the object headers", or some other "overview"-type of article)
 ---
 
 # New object headers
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I think we should keep this article even after NWE will become standard but rename it to something like "Edit information in the object headers", or some other "overview"-type of article) </p>
+-->
 
 You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 
@@ -174,7 +178,7 @@ The task header includes the following information:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Work on It, Done, or Start Task button</p> </td> 
-   <td> <p>If the task is assigned to you, you can click the Work on It <span>or Start Task</span> button to indicate that you are now working on the task, or the Done button to indicate that you completed the task.</p> <p><span>For information about replacing the Work On It button with a Start Task button, see <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a> </span>. </p> </td> 
+   <td> <p>If the task is assigned to you, you can click the Work on It <span>or Start Task</span> button to indicate that you are now working on the task, or the Done button to indicate that you completed the task.</p> <p><span>For information about replacing the Work On It button with a Start Task button, see <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Planned Completion Date</td> 
@@ -237,7 +241,7 @@ The issue header includes the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Work on It, Done, <span>or Start Issue button</span></td> 
-   <td>If the issue is assigned to you, you can click the Work on It <span>or Start Issue</span> button to indicate that you are now working on the issue, or the Done button to indicate that you completed the issue.<span>For information about replacing the Work On It button with a Start Task button, see </span><span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span><span>.</span></td> 
+   <td>If the issue is assigned to you, you can click the Work on It <span>or Start Issue</span> button to indicate that you are now working on the issue, or the Done button to indicate that you completed the issue.<span>For information about replacing the Work On It button with a Start Task button, see</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span><span>.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Planned Completion Date</td> 
@@ -757,7 +761,7 @@ The document header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The approval Decision area</td> 
-   <td> <p>When the document is in an approval step, the Decisions area displays in the upper-right corner of the Document header.</p> <p>Use the following icons to manage the approvals for the document:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> Approve</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> Recall</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> Reject</p> <p>For more information on approval decisions, see <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work in Adobe Workfront</a>.</p> </td> 
+   <td> <p>When the document is in an approval step, the Decisions area displays in the upper-right corner of the Document header.</p> <p>Use the following icons to manage the approvals for the document:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> Approve</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> Recall</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> Reject</p> <p>For more information on approval decisions, see <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -805,7 +809,7 @@ The company header displays the following information:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
 
 The plan header displays the following information:
 

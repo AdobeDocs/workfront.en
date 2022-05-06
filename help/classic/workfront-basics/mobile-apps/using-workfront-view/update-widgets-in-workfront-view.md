@@ -8,6 +8,10 @@ description: You can view additional information about the project after you hav
 
 # Update widgets in the Project Details view
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can view additional information about the project after you have accessed it from the project list by adding widgets to your Project Details screen. Each user can customize their own widgets.
 
 ## Access requirements

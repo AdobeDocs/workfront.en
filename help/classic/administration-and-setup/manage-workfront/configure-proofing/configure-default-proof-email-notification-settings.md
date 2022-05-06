@@ -9,6 +9,10 @@ description: Proofing users in Adobe Workfront can receive email notifications f
 
 # Configure default proof email notification settings
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Proofing users in Adobe Workfront can receive email notifications from both Workfront and Workfront Proof when comments or decisions are made on a proof. If users are already receiving email notifications from Workfront Proof, we recommend that you disable notifications sent from Workfront to avoid duplicate notification emails.
 
 For information about configuring notification settings that are sent from Workfront Proof, see [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).

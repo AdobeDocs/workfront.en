@@ -10,6 +10,10 @@ description: You can create a new custom form that is based on an existing one.
 
 # Copy a custom form to create a new one
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can create a new custom form that is based on an existing one.
 
 ## Access requirements
@@ -50,11 +54,11 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Form Name</td> 
-      <td>Specify a new name for the custom form.</td> 
+      <td>Type a name for the copied form.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Form Type</td> 
-      <td> <p>Select which object type that you want to associate the custom form with. The object type that you select is the only object type to which the form can be applied.</p> <p>Note:  You can change the object of the form as you are copying a custom form. This is helpful when you want to create an identical form for two different objects. For example, you can copy an Issue custom form and create a Project custom form which has the same fields and the same logic as the original Issue form.</p> </td> 
+      <td role="rowheader"> <p role="rowheader">Form Types </p> </td> 
+      <td> <p data-mc-conditions="QuicksilverOrClassic.Classic">Select which object type you want to associate with the custom form. The one you select is the only object type to which the form can be applied.</p> <p>Note:  <p>Changing the object type is helpful when you want to create an identical form for two different objects. For example, you can copy an Issue custom form and create a Project custom form which has the same fields and the same logic as the original Issue form.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -65,12 +69,10 @@ You must have the following to perform the steps in this article:
 
    * [Copy a custom form to create a new one](#Add2) 
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-   * [Position fields in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
-   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 1. (Optional) After you click **Save+Close**, attach the form to the object where you want to use it, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-
-   The custom form must be associated with the type of object you want to attach it to. For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

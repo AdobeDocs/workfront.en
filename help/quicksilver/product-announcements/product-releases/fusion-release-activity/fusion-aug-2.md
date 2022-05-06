@@ -27,7 +27,7 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 <li> <p>Number of operations</p> </li>
 <li> <p>Amount of data transferred</p> </li>
 </ul>
-<p>For more information on filtering and sorting execution history, see <a href="../../../workfront-fusion/scenarios/view-scenario-execution-history.md" class="MCXref xref" xrefformat="{para}">View a scenario's execution history</a>.</p>
+<p>For more information on filtering and sorting execution history, see <a href="../../../workfront-fusion/scenarios/view-scenario-execution-history.md" class="MCXref xref" xrefformat="{para}">View a scenario's execution history in Adobe Workfront Fusion</a>.</p>
 </div>
 -->
 
@@ -41,7 +41,7 @@ Two new functions are now available in the mapping panel.
 
   Previously, date and time difference could be calculated only by a formula entered by the user.
 
-  For more information, see [Date and time functions](../../../workfront-fusion/functions/date-and-time-functions.md).
+  For more information, see [Date and time functions in Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
 
 * New array function: arrayDifference
 
@@ -50,7 +50,7 @@ Two new functions are now available in the mapping panel.
    * An array of elements of one array that aren't contained in the other
    * An array of elements that are contained in one array or the other, but not both.
 
-  For more information, see [Array functions](../../../workfront-fusion/functions/array-functions.md).
+  For more information, see [Array functions in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

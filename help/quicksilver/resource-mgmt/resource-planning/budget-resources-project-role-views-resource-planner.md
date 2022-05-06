@@ -3,10 +3,14 @@ filename: budget-resources-project-role-views-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
 title: Budget resources in the Resource Planner using the Project and Role views
-description: The main function of the Resource Planner is to budget your resources for the work that must be completed on projects.
+description: (NOTE: broken off of another larger article (Planning in the RP); reformat, restructure, relink)
 ---
 
 # Budget resources in the Resource Planner using the Project and Role views
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: broken off of another larger article (Planning in the RP); reformat, restructure, relink)</p>
+-->
 
 The main function of the Resource Planner is to budget your resources for the work that must be completed on projects.
 
@@ -19,7 +23,7 @@ The main function of the Resource Planner is to budget your resources for the wo
 Before starting to budget information in the Resource Planner, see the following articles:
 
 * [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 
-* [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md) 
+* [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md) 
 * [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 ## Access requirements
@@ -44,7 +48,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the projects you want to budget information for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the projects you want to budget information for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,12 +61,16 @@ You must have the following access to perform the steps in this article:
 * [Budget resources in the Role View](#budget-resources-in-the-role-view) 
 * [Budget resources in bulk](#budget-resources-in-bulk)
 
-### **Budget resources in the Project View**<![CDATA[   ]]> {#budget-resources-in-the-project-view}
+### **Budget resources in the Project View** {#budget-resources-in-the-project-view}
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)<![CDATA[  ]]></p>
+-->
 
 1. <![CDATA[				]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.<![CDATA[      ]]>
 
-1. <![CDATA[				]]><![CDATA[			]]>Click **Resourcing**. <![CDATA[    ]]>
-1. <![CDATA[			]]>The **Planner** displays by default.  
+1. <![CDATA[				]]><![CDATA[			]]> Click **Resourcing**. <![CDATA[    ]]>
+1. <![CDATA[			]]> The **Planner** displays by default.  
 1. (Conditional) Select the **View by Project** view. 
 1. Expand the projects and the job roles to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users do one of the following:
@@ -99,7 +107,7 @@ You must have the following access to perform the steps in this article:
      Role Budgeted Hours = Role Planned Hours
      ```   
    
-     * 
+   * 
    
      >[!NOTE]
      >
@@ -141,16 +149,23 @@ You must have the following access to perform the steps in this article:
 
 ### **Budget resources in the Role View** {#budget-resources-in-the-role-view}
 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: THIS IS WRONG - I LOGGED A BUG TO FIX THIS LINK - IT SHOULD GO TO"ACCESS NEEDED TO BUDGET IN THE RP":</p>
+<p>Planning in the resource planner has links to the UI - ensure Flare notes are there for this: https://workfront.zendesk.com/hc/en-us/articles/115006356928 - the "Budgeting resources in the role view" is linked to this tooltip: ***This is linked to the product in the RP when the user does not have Manage rights on one of the projects under the role. This tool tip is linked here: "You don't have Manage permissions for all projects. Budget hours by individual project instead. Learn more...")</p>
+</div>
+-->
+
 You must have Edit access to Resource Management and Financial Data and Manage Finance permissions on the projects in order to budget resources in the Resource Planner. If you only have View access to at least one project listed under a job role, you cannot budget allocations for the role in the Role view. You can still budget allocation for the projects where you have Manage permissions.
 
-For information about the access needed for budgeting resources, see the article [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+For information about the access needed for budgeting resources, see the article [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 To budget allocations in the Resource Planner in the**** Role view:
 
 1. <![CDATA[				]]><![CDATA[			]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.<![CDATA[      ]]>
 
-1. <![CDATA[				]]><![CDATA[			]]>Click **Resourcing**. <![CDATA[     ]]>
-1. <![CDATA[			]]>The **Planner** displays by default. 
+1. <![CDATA[				]]><![CDATA[			]]> Click **Resourcing**. <![CDATA[     ]]>
+1. <![CDATA[			]]> The **Planner** displays by default. 
 1. (Conditional) Select the **View by Role** view. 
 1. Expand the job roles and the projects to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users, do one of the following:
@@ -186,7 +201,7 @@ To budget allocations in the Resource Planner in the**** Role view:
 
    >[!NOTE]
    >
-   >Users can be budgeted for both Primary and Other (or secondary) Roles. The **Percentage of FTE Availability** for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% **Percentage of FTE Availability**, the Available Hours value is zero for that job role. In this case, the role might show a negative **Net Value**.  
+   >Users can be budgeted for both Primary and Other (or secondary) Roles. The **Percentage of FTE Availability** for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% **Percentage of FTE Availability**, the Available Hours value is zero for that job role. In this case, the role might show a negative **Net Value**.   
    >For more information about the **Percentage of FTE Availability** for job roles, see the article [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. To budget allocation for the project, do one of the following:

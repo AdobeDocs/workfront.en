@@ -8,6 +8,10 @@ description: Adobe Workfront administrators can add a custom webhook integration
 
 # Register a Webhook Integration
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Registering a Webhook Integration
 
 Adobe Workfront administrators can add a custom webhook integration for their company by navigating to Setup > Documents > Custom Integrations within Workfront. From the Custom Integration page within Setup,&nbsp;administrators can view a list of existing document Webhook integrations. From this page, integrations can be added, edited, enabled, and disabled.

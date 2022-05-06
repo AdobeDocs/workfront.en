@@ -11,6 +11,10 @@ description: Users can specify the status of a project so that other users can s
 
 # Access the list of system project statuses
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Users can specify the status of a project so that other users can see the project's current stage of development at a given time.
 
 Workfront comes with 9 system project statuses. You can change the name of these statuses, but you cannot delete them.
@@ -21,7 +25,7 @@ As a Workfront administrator, you configure the default status for all new proje
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

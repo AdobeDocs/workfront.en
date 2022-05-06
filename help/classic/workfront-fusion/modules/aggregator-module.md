@@ -4,11 +4,15 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Aggregator module
+title: Aggregator module in Adobe Workfront Fusion
 description: An aggregator module is a type of module designed to merge several bundles of data into a single bundle.
 ---
 
-# Aggregator module
+# Aggregator module in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 An aggregator module is a type of module designed to merge several bundles of data into a single bundle.
 
@@ -73,7 +77,7 @@ The following image shows a typical setup of the aggregator module :
    <td> <p>Source Module</p> </td> 
    <td> <p>The module from which the bundle aggregation will start. The source module is usually an iterator or a search module that outputs a series of bundles. When you setup the aggregator's source module (and close the aggregator's setup), the route between the source module and the aggregator module are wrapped in a grey area so that you can see clearly the start and the end of the aggregation. <!--
       <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SHOW&nbsp;THIS</span>
-     --></p> <p>For more information on iterators, see <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Iterator module</a></p> <p>For more information on search modules see search modules in <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Types of modules</a>.</p> </td> 
+     --></p> <p>For more information on iterators, see <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">Iterator module in Adobe Workfront Fusion</a></p> <p>For more information on search modules see search modules in <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Types of modules</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Target structure type</p> </td> 

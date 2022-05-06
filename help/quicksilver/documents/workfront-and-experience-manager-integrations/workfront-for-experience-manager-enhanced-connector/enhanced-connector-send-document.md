@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access or higher on Documents</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View access or higher on Documents</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,13 +51,7 @@ Before you begin, you must
 
 ## Send a Document to Experience Manager Assets
 
-When a user sends a document from Workfront to Experience Manager Assets, mapped metadata transfers along the document. If configured, the metadata syncs continuously each time a change is made. 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-For information on metadata syncing, see
-</MadCap:conditionalText>
--->
+When a user sends a document from Workfront to Experience Manager Assets, mapped metadata transfers along the document. If configured, the metadata syncs continuously each time a change is made.
 
 To send a document:
 

@@ -4,11 +4,15 @@ content-type: overview
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Overview of the Queue Details tab in a project
-description: You can set up a Request Queue where users can enter occasional requests that are not planned work on a project.
+description: (NOTE: Not sure if this needs to stay - lots of good information here; keeping it for now, but the whole article is drafted)
 hidefromtoc: true
 ---
 
 # Overview of the Queue Details tab in a project
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;Not sure if this needs to stay - lots of good information here; keeping it for now, but the whole article is drafted)</p>
+-->
 
 ## Overview of the Queue Setup section
 
@@ -16,7 +20,7 @@ You can set up a Request Queue where users can enter occasional&nbsp;requests th
 
 For more information about how to create a Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-You can customize the Request Queue by editing the Queue Setup section of a project.&nbsp;
+You can customize the Request Queue by editing the Queue Setup  section of a project.&nbsp;
 
 When adding or modifying features in the Queue Setup area, you&nbsp;impact all future issues and requests that are submitted to the project.&nbsp;
 
@@ -24,18 +28,22 @@ When adding or modifying features in the Queue Setup area, you&nbsp;impact all f
 >
 >The changes you make do&nbsp;not retroactively&nbsp;impact issues or requests&nbsp;already on the project.&nbsp;
 
-To customize the Queue Setup section of a project, you can edit the following sections:
+To customize the Queue Setup  section of a project, you can edit the following  sections :
 
-* Queue Details. For more information about understanding the information included in the Queue Details, see the section [Overview of the Queue Details section](#overview-of-the-queue-details-section) in this article.
+* Queue Details. For more information about understanding the information included in the Queue Details, see the section  [Overview of the Queue Details section](#overview-of-the-queue-details-section) in this article.
 * Routing Rules. For more information about setting up Routing Rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 * Queue Topics. For more information about setting up Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 * Topic Groups. For more information about setting up Topics Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 ## Overview of the Queue Details section {#overview-of-the-queue-details-section}
 
-You can use Queue Details to configure a project as a Request Queue. Use this&nbsp;section to manage what kind of information you collect from users on a request form and determine who can access that information.
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: revamp the entire article from here out - the layout is very old and not according to style; however, we cannot delete this article as it is linked in a lot of places)</p>
+-->
 
-When configuring the Queue Details &nbsp;section in a project, consider the following areas:
+You can use Queue Details to configure a project as a Request Queue. Use this&nbsp; section to manage what kind of information you collect from users on a request form and determine who can access that information.
+
+When configuring the Queue Details &nbsp; section  in a project, consider the following areas:
 
 * [Queue Type](#queue-type) 
 * [Queue Properties](#queue-properties) 
@@ -45,6 +53,10 @@ When configuring the Queue Details &nbsp;section in a project, consider the foll
 ### Queue Type {#queue-type}
 
 **Publish as Help Request Queue:**
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: this article needs to be rebuilt in new sections.)</p>
+-->
 
 Selecting this field identifies this project as a Request Queue and all incoming issues are considered Requests. When this field is not selected, the project behaves like a standard project in Adobe Workfront and all incoming issues are added on the Issues tab of the project.
 
@@ -120,7 +132,7 @@ The following&nbsp;are the four global issue types in Workfront:
 * Issue
 * Request
 
-These types can&nbsp;only be renamed by a system administrator when issue statuses are created at the system level. Each type&nbsp;selected here will be available on the New Issue form&nbsp;and you can select more than one type. Using more than one type can help organize multiple&nbsp;requests coming in.
+These types can&nbsp;only be renamed by a system administrator when issue statuses are created at the system level. Each type&nbsp;selected here will be available on the New Issue form&nbsp;and you can select more than one type. Using more than one type can help organize multiple&nbsp;requests coming in. For more information, see [Define Request Types for a project](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 **Default Duration**
 
@@ -130,7 +142,7 @@ The default for the issue Duration is 1 day or 8 hours. If your Workfront admini
 
 **People from the same company will inherit the same permissions for all requests.**
 
-When selected, all requests submitted to the queue show for users in the same company. Users can view these requests in the All Requests section located within&nbsp;the Requests area. &nbsp;Activating or deactivating this feature impacts all future requests. It does not retroactively impact existing issues.
+When selected, all requests submitted to the queue show for users in the same company. Users can view these requests in the All Requests  section located within&nbsp;the Requests area. &nbsp;Activating or deactivating this feature impacts all future requests. It does not retroactively impact existing issues.
 
 **When someone makes a request, automatically grant...**
 
@@ -176,7 +188,7 @@ You&nbsp;can allow issues to be added via email.&nbsp;This enables&nbsp;anyone w
 
 You can allow issues to be emailed into a Workfront project only if you designate the project as a Request Queue.
 
-For more information about setting up an email account to allow users to send issues to a project in Workfront, see [Enable users to email an issue into a Request Queue project](enable-email-issues-into-projects.md).
+For more information about setting up an email account to allow users to send issues to a project in Workfront, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 To set up the email account associated with a Request Queue, specify the following information in the **Email Settings** area:
 
@@ -205,4 +217,4 @@ To set up the email account associated with a Request Queue, specify the followi
 * Click **Test Configuration**&nbsp;and ensure that you get a message stating that the configuration was successful.  
   ![](assets/screen-shot-2013-08-22-at-9.56.10-am-350x408.png)
 
-For more information about setting up the POP account, including specific information to the POP configuration settings, see [Enable users to email an issue into a Request Queue project](enable-email-issues-into-projects.md).
+For more information about setting up the POP account, including specific information to the POP configuration settings, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).

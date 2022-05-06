@@ -64,7 +64,7 @@ To create, query, or delete an event subscription, your Workfront user needs the
 
   >[!NOTE]
   >
-  ><![CDATA[ ]]>If your user is already utilizing Workfront’s API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request:
+  >If your user is already utilizing Workfront’s API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request:
 
 **Request URL:** 
 

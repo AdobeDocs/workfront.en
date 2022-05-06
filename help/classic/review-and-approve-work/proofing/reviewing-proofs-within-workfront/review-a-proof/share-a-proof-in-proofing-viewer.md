@@ -8,6 +8,10 @@ description: You can share a proof from the proofing viewer if sharing is enable
 
 # Share a proof from the proofing viewer
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can share a proof from the proofing viewer if sharing is enabled by the proof owner or creator.
 
 >[!IMPORTANT]
@@ -24,7 +28,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -36,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +106,7 @@ You can share a proof via a URL if the owner has configured the proof for sharin
 
 You can share a proof via embed code if the proof owner has configured it for this.
 
-For information about configuring a prof with an embedded code, see [Configure a proof](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md) in [Configure a proof](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md).
+For information about configuring a prof with an embedded code, see in .
 
 To share a proof via the embed code:
 
@@ -114,7 +118,7 @@ To share a proof via the embed code:
 
 ## Share a proof by adding users to it
 
-You can add users to a proof while reviewing a proof if you have any of the following permissions:<![CDATA[    ]]>
+You can add users to a proof while reviewing a proof if you have any of the following permissions:
 
 * Supervisor or Administrator permissions
 * Manager permissions and you are the proof creator or owner
@@ -125,7 +129,7 @@ If the proof has an Automated Workflow, you can add the user to an individual st
 By default, users you add to the proof:
 
 * Receive an email notification with a link to the proof.
-* Can make approval decisions on the proof from the Home or My Work area, as described in [Approving work in Adobe Workfront](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+* Can make approval decisions on the proof from the Home or My Work area, as described in [Approving work](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 * Do not need to have proofing enabled in order to review the proof.
 
 When Automated Workflow is enabled and you add a user to the proof who does not have proofing enabled in Workfront, a new stage is created within the Automated Workflow. The user who you are adding is automatically added to this new stage when they view the proof for the first time. For more information, see [Automated Workflow overview](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
@@ -177,17 +181,7 @@ To share a proof with individual users:
        <tr data-mc-conditions=""> 
         <td role="rowheader">No email</td> 
         <td>Workfront does not send any email alerts.<br>This is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.<p>The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.</p></td> 
-       </tr> <!--
-        <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-         <td role="rowheader">Set a deadline</td> 
-         <td>Select the day and time when users must take action on the proof.<p>If you are adding users to a proof for a document&nbsp;that already exists in Workfront, you should have already set a deadline.</p></td> 
-        </tr>
-       --> <!--
-        <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-         <td role="rowheader">Notify people by email</td> 
-         <td>Select this option to send an email to the users, notifying them of the proof.<p>Click <strong>Add a custom message</strong>&nbsp;to specify a message to include in the email notification.</p></td> 
-        </tr>
-       --> 
+       </tr> 
       </tbody> 
      </table>
 

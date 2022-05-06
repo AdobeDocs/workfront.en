@@ -9,6 +9,10 @@ description: You can track costs for projects, tasks, and issues in Adobe Workfr
 
 # Track costs
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can track costs for projects, tasks, and issues in Adobe Workfront.
 
 ## How Workfront calculates costs
@@ -157,7 +161,7 @@ When the above conditions are met, Workfront calculates the Budgeted Cost of the
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For more information about Budgeted Cost and Legacy Budgeted Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a> .For more information about the Business Case of a project, see the article <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.<br>For more information about Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For more information about Budgeted Cost and Legacy Budgeted Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a> .For more information about the Business Case of a project, see the article <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project </a>.<br>For more information about Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p>
 -->
 
 #### Actual Cost {#actual-cost}
@@ -227,13 +231,14 @@ The following table describes the available task Cost Types in&nbsp;Workfront:
   </tr> 
   <tr> 
    <td> <p>No Cost</p> </td> 
-   <td> <p>This Cost Type does not affect Costs. If a parent task has this Cost Type, subtasks with another Cost Type calculate according to their individual Cost Types, and the Cost of the parent task is affected accordingly. </p> <p>When a user with No Access to Financial Data or a user with no financial permissions on a template creates a project from that template, this is the default Cost Type for the tasks on the project.</p> <p>For information about access to Financial Data, see the article <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> <p>For information about financial permissions on objects, see the article <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object in Adobe Workfront</a>.</p> <p>For information about creating projects from templates, see the article <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
+   <td> <p>This Cost Type does not affect Costs. If a parent task has this Cost Type, subtasks with another Cost Type calculate according to their individual Cost Types, and the Cost of the parent task is affected accordingly. </p> <p>When a user with No Access to Financial Data or a user with no financial permissions on a template creates a project from that template, this is the default Cost Type for the tasks on the project.</p> <p>For information about access to Financial Data, see the article <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> <p>For information about financial permissions on objects, see the article <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object</a>.</p> <p>For information about creating projects from templates, see the article <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: drafted because this was moved to its own how-to article linked above. Could be removed after some time.) </p>
 <p>To configure the Cost Type of an individual task:</p>
 <ol>
 <li value="1">Go to the task where you want to configure the Cost Type. </li>

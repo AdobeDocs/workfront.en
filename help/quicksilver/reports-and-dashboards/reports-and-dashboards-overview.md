@@ -13,9 +13,6 @@ This section contains the following subsections:
 
 * [Reports](../reports-and-dashboards/reports/reports-overview.md) 
 * [Dashboards](../reports-and-dashboards/dashboards/dashboards-overview.md) 
-* [Enhanced analytics](../enhanced-analytics/enhanced-analytics.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>[future Data Access link]</p> </li>
-  -->
+* [Enhanced analytics](../enhanced-analytics/enhanced-analytics.md) 
+* [Reporting Canvas](../reports-and-dashboards/reporting-canvas/reporting-canvas.md)
 

@@ -3,12 +3,12 @@ filename: delete-a-calendar-report
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Delete a calendar report
-description: You can delete a calendar that you own. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
+description: You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
 ---
 
 # Delete a calendar report
 
-You can delete a calendar that you own. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
+You can delete a calendar that you own or that others shared with you. Once deleted, the calendar becomes inaccessible to users with whom you have shared it.
 
 You can't delete your default calendar unless you have an existing alternative calendar. If you try to delete all of your calendars, the system automatically creates a default calendar for you.
 
@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the calendar report, with access to delete</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage access to the calendar report, with access to delete it. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

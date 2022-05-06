@@ -9,6 +9,10 @@ description: You can add this column to a task view to display the name of the p
 
 # View: show name of parent tasks as all caps
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add this column to a task view to display the name of the parent tasks in all capital letters.
 
 ![](assets/column-task-with-all-caps-parent-350x112.png)
@@ -35,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +58,7 @@ To build this column in a task view:
 1. In the**Column Preview** area, click the header of the column that shows the task name in the list.
 1. Click**Switch to Text Mode**.
 1. Mouse over the text mode area, and click **Click to edit text**.
-1. Remove the text you find in the **Text Mode** box, and replace it with the following code: <pre><br>descriptionkey=name<br>displayname=Task Name<br>textmode=true<br>valueexpression=IF({numberOfChildren}>"0",UPPER({name}),{name})<br>valueformat=HTML<br>width=150<br></pre>
+1. Remove the text you find in the **Text Mode** box, and replace it with the following code: <pre>descriptionkey=name<br>displayname=Task Name<br>textmode=true<br>valueexpression=IF({numberOfChildren}>"0",UPPER({name}),{name})<br>valueformat=HTML<br>width=150<br></pre>
 
 1. Click **Save View**.
 

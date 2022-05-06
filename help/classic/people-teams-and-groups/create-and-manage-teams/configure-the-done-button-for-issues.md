@@ -8,6 +8,10 @@ description: The Done button can automatically set the status of a task or an is
 
 # Configure the Done button for issues
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront&nbsp;marks an issue as Resolved when an assignee clicks Done on their work item.
 
 ## Overview
@@ -62,13 +66,18 @@ You can change which status is applied to the work item with the Done button. Yo
 
    >[!NOTE]
    >
-   >Consider the following when selecting statuses:  
+   >Consider the following when selecting statuses for tasks or issues:  
 
    >
    >   
    >   
    >   * When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their&nbsp;item.&nbsp;If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
    >   * You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
+   >   * When a user assigned to the item places the item in the status associated with the Done button, the item displays as Done for that user regardless of whether the status you select is a Completed or Closed status or a working status. 
+   >   
+   >   
+   >     For example, associating the Done button with In Progress causes the work item to display as Done for the user who changes the status from New to In progress. 
+   >   
    >   * Issue types are customizable and they might have different names than listed below in your environment.  
    >     Following&nbsp;are the default tasks and issue types:   >   
    >      

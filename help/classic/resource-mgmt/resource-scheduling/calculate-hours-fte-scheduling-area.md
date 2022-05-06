@@ -3,10 +3,22 @@ filename: calculate-hours-fte-scheduling-area
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Configure how Workfront calculates resource hour and FTE availability for the Scheduling area
-description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+description: NOTE: Alina: ***Note that the FTE for scheduling is not yet working the same way as the FTE for planning - confirmed with Vazgen and this parity is planned for the future, but not right now. This article has to remain live in addition to the Planning article that talks about the calculation of FTEs in the Planner.
 ---
 
 # Configure how Workfront calculates resource hour and FTE&nbsp;availability for the Scheduling area
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>NOTE: Alina: ***Note that the FTE for scheduling is not yet working the same way as the FTE for planning - confirmed with Vazgen and this parity is planned for the future, but not right now. This article has to remain live in addition to the Planning article that talks about the calculation of FTEs in the Planner.</p>
+<p>[The information in this article was taken from "Calculating Hours and FTE for Users and Roles in the Resource Planner". Specifically, from section "Calculating the Available Hours and FTE for a User in the Resource Planner". It was re-worded slightly.]</p>
+<p>Article linked to Managing User Allocations and Managing User Assignments (in the Scheduling section), so do not remove unless you resolve links.) </p>
+</div>
+-->
 
 >[!NOTE]
 >
@@ -27,13 +39,27 @@ For more information, see [Configure Resource Management preferences](../../admi
 
 This setting affects user availability in the following circumstances when scheduling resources:
 
-* When allowing Workfront to automatically assign resources, as described in [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
-* When displaying allocation indicators, as described in the section "Allocation indicators" in the article&nbsp; [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+* When allowing Workfront to automatically assign resources, as described in the following article:
+
+   * [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Assign work in bulk using the Adobe WorkfrontWorkload Balancer</p><p>(NOTE: this is not needed unless we make this article more broad and not refer just to Scheduling??) </p></li>   
+     -->
+
+* When displaying allocation indicators, as described in the following article:
+
+   * The section "Allocation indicators" in the article&nbsp; [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The section "User availability in the Workload Balancer" in the article <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Overview of assigning work in the Workload Balancer</a>. </li>   
+     -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
 <h2>Access requirements</h2>
+<p>(NOTE: the rest of this article is drafted because these steps are admin steps and live in the admin area) </p>
 <p>You must have the following:</p>
 <table cellspacing="0">
 <col>
@@ -56,7 +82,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 </tr> <!--
 <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <td role="rowheader">Object permissions</td>
-<td> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td>
+<td> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
 </tr>
 -->
 </tbody>

@@ -3,10 +3,22 @@ filename: create-complex-text-mode-filters-using-exists-statements
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Create complex Text Mode filters using EXISTS statements
-description: Important: This article requires a thorough understanding of the Adobe Workfront API and of the text mode reporting interface. For information about the Workfront API, see API basics. For information about using text mode, see Text Mode overview.
+description: (NOTE: do not EVER delete this article as long as Text Mode still exists in the system. Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)
 ---
 
 # Create complex Text Mode filters using EXISTS statements
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;Alina: **~ Replace screen shot of icons when list/ reporting UI changes)</p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 >[!IMPORTANT]
 >
@@ -94,7 +106,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to edit filters in a report</p> <p>Manage permissions to a filter to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit filters in a report</p> <p>Manage permissions to a filter to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,6 +114,10 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create complex text mode filters that span multiple levels in the object hierarchy
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***[This information is somewhat duplicated from the section below: Create Text-Mode Filters for Missing Objects])</p>
+-->
 
 You can build a filter that references objects across multiple levels of the object hierarchy in which the filter object exists. For example, you can build an issue filter for issues that are on projects that are not associated with a certain Portfolio Owner.
 
@@ -134,6 +150,10 @@ To create a filter that spans over multiple levels in the object hierarchy:
 1. Click **Save Filter**.
 
 ## Create complex text mode filters for missing objects
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: **^[This information is somewhat duplicated from the section above: Create Text-Mode Filters that Span Multiple Levels in the Object Hierarchy])</p>
+-->
 
 You can build a filter that references objects that are missing. For example, you can build a user filter that shows which users have not logged hours in Workfront.
 

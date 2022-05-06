@@ -4,11 +4,15 @@ content-type: reference
 product-area: reporting
 navigation-topic: reporting-elements
 title: Advanced Filter and condition qualifiers
-description: Provides an overview of filter and condition qualifiers used for text mode statements.
+description: (NOTE: Alina: Discontinuing this article because the information has been merged to this one: https://support.workfront.com/hc/en-us/articles/217196097 - Filter and Condition Modifiers)
 hidefromtoc: true
 ---
 
 # Advanced Filter and condition qualifiers
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: Discontinuing this article because the information has been merged to this one:&nbsp;https://support.workfront.com/hc/en-us/articles/217196097 - Filter and Condition Modifiers) </p>
+-->
 
 ## Overview
 

@@ -2,13 +2,17 @@
 filename: manage-custom-forms-attached-to-objects
 product-area: projects;user-management
 navigation-topic: work-with-custom-forms
-title: Manage custom forms attached to objects in Adobe Workfront
-description: You can reorder the display of the custom forms attached to an object, remove them, or bulk-edit the way custom forms display on multiple objects.
+title: Manage custom forms attached to objects
+description: You can update the order in which the custom forms attached to one object display, remove them, or bulk-edit the way custom forms display on multiple objects.
 ---
 
-# Manage custom forms attached to objects in Adobe Workfront
+# Manage custom forms attached to objects
 
-You can reorder the display of the custom forms attached to an object, remove them, or bulk-edit the way custom forms display on multiple objects.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+You can update the order in which the custom forms attached to one object display, remove them, or bulk-edit the way custom forms display on multiple objects.
 
 ## Access requirements
 
@@ -32,7 +36,7 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the objects for which you manage custom forms</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the objects for which you manage custom forms</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +54,7 @@ You must have the following access to perform the actions described in this arti
 
 1. Go to the object where you want to change the order of the added custom forms, ,then start to edit the object.
 
-   ``` ```**Example: **``````For example, to manage the custom forms of a project, go to the project, then click **Edit Project**.
+   ``` ```**Example: **``````For example, to manage the custom forms of a project, go to the project,  then click **Edit Project** .
 
 1. In the **Custom Forms** section of the box that appears, click **Manage Forms**.
 
@@ -68,7 +72,7 @@ You must have the following access to perform the actions described in this arti
 
 1. Go to the object where you want to remove&nbsp;the custom form and start editing the object.
 
-   For example, go to a project, then click **Edit Project**.
+   For example, go to a project,  then click **Edit Project** .
 
 1. Click **Custom Forms**.
 1. Click **Manage Forms**, then click the **X** icon to the right of a form to remove it from the object.
@@ -78,7 +82,7 @@ You must have the following access to perform the actions described in this arti
    The **Manage Forms** option displays only if at least one custom form is attached to the object.
 
 1. Click **I'm done managing.**
-1. Click **Save****Changes**.
+1. Click **Save** **Changes** .
 
 ## Manage multiple custom forms that contain the same custom fields
 
@@ -92,9 +96,13 @@ You might have the same field appear on multiple custom forms attached to the sa
 
 ## Edit multiple custom forms when bulk-editing objects
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section will need to be edited when the bulk Edit box is released to NWE; add some screen shots for NWE) </p>
+-->
+
 When you are bulk editing objects that have multiple custom forms applied, you can edit the way custom forms are displayed on those objects, as well as edit common fields among the custom forms.
 
-Only the custom forms that are attached to all objects can be edited in a bulk edit.
+Only the custom forms that are attached to all selected objects can be edited in a bulk edit.
 
 To edit multiple custom forms when editing objects in bulk:
 
@@ -103,11 +111,13 @@ To edit multiple custom forms when editing objects in bulk:
 
    You can edit only the custom forms attached to all of the selected objects.
 
+   Custom forms attached only to some of the objects do not display.
+
 1. Start editing fields on the custom forms.
 
    When fields are edited, a visual indicator is shown on the field, showing that the field has been edited.
 
-   If a field is included on more than one custom form, all values of those fields are updated on each form when you update the field.
+   If a field is included on more than one custom form, all values of those fields are updated on each form when you update the field on one of the forms.
 
 1. Click&nbsp;the **Make a selection** drop-down menu and select&nbsp;additional forms to add to all the selected objects.
 
@@ -141,7 +151,7 @@ To edit multiple custom forms when editing objects in bulk:
 
    Or
 
-   Click **Expand Forms**to expand all forms at the same time.&nbsp;
+   Click **Expand Forms** to expand all forms at the same time.&nbsp;
 
 1. Click **Save Changes**.
 

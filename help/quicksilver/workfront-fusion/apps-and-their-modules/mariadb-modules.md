@@ -2,9 +2,9 @@
 
 # MariaDB modules
 
-In a Adobe Workfront Fusion scenario, you can connect your MariaDB account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use MariaDB, as well as connect it to to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -56,7 +56,7 @@ To use MariaDB modules, you must have a MariaDB account.
 
 You can create a connection to your MariaDB account directly from inside a MariaDB module.
 
-1. In any MariaDB module, click **Add**next to the Connection field.
+1. In any MariaDB module, click **Add** next to the Connection field.
 1. Configure the following fields:
 
    <table cellspacing="0"> 
@@ -90,13 +90,13 @@ You can create a connection to your MariaDB account directly from inside a Maria
     </tbody> 
    </table>
 
-1. Click **Continue**to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ## MariaDB Modules and their fields
 
 When you configure MariaDB modules, Workfront Fusion displays the fields listed below. Along with these, additional MariaDB fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 

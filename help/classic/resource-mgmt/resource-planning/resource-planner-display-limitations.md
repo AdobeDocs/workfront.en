@@ -9,6 +9,10 @@ description: To improve performance, Adobe Workfront is limiting the amount of i
 
 # Resource Planner display limitations
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 To improve performance, Adobe Workfront is limiting the amount of information you can display as well as the amount of information you can export from the Resource Planner.
 
 When you approach this limit, Workfront displays a warning message to let you know you have reached that limit.

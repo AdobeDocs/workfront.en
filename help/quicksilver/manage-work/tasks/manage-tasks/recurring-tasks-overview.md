@@ -5,10 +5,18 @@ product-area: projects
 keywords: recurrent,reoccur,reoccurring
 navigation-topic: manage-tasks
 title: Recurring tasks overview
-description: You can create recurring tasks for activities that you have to repeat as part of a single project.
+description: (NOTE: DO NOT DO NOT EDIT OR CHANGE!!! linked to the NWE UI, this is not linked to classic - direct links:
 ---
 
 # Recurring tasks overview
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: DO NOT DO NOT EDIT OR CHANGE!!! linked to the NWE UI, this is not linked to classic - direct links:</p>
+<p>https://one.workfront.com/s/csh?context=2288&pubname=workfront-classic</p>
+<p>https://one.workfront.com/s/csh?context=2288&pubname=the-new-workfront-experience >> this)</p>
+</div>
+-->
 
 You can create recurring tasks for activities that you have to repeat as part of a single project.
 

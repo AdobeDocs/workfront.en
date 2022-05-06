@@ -5,16 +5,16 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Data store modules
-description: A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
+description: An Adobe Workfront Fusion data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 ---
 
 # Data store modules
 
-A data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
+An Adobe Workfront Fusion data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 
 The data store modules enable you to add, replace, update, retrieve, delete, search, or count records in your Adobe Workfront Fusion data store.
 
-For information on creating, editing, and troubleshooting data stores, see [Data Stores](../../workfront-fusion/modules/data-stores.md)
+For information on creating, editing, and troubleshooting data stores, see [Data Stores in Adobe Workfront Fusion](../../workfront-fusion/modules/data-stores.md)
 
 ## Access requirements
 
@@ -60,13 +60,13 @@ You must have the following access to use the functionality in this article:
 
 To use Data Store modules, you must first create a data store.
 
-For information on creating data stores, see [Data Stores](../../workfront-fusion/modules/data-stores.md)
+For information on creating data stores, see [Data Stores in Adobe Workfront Fusion](../../workfront-fusion/modules/data-stores.md)
 
 ## Data Store modules and their fields
 
 When you configure Data Store modules, Workfront Fusion displays the fields listed below. Along with these, additional Data Store fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 

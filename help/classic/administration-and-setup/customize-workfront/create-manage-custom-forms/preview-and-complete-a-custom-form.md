@@ -9,6 +9,10 @@ description: When you are finished building or editing a custom form, you can pr
 
 # Preview and complete a custom form
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you are finished building or editing a custom form, you can preview it to see how it will look to users, then save and close it.
 
 ## Access requirements
@@ -48,16 +52,13 @@ You must have the following to perform the steps in this article:
 
    If you don't want to keep your changes on the form, click **Cancel**, then click **Go Ahead and Close**.
 
-   <!--
-   <note type="note">
-   <span class="preview">If the form is already attached to a lot of objects, it might take a few minutes for your changes to apply to all of them. This happens in the background, so you can work on other tasks in Workfront while you wait.</span>
-   <br>
-   </note>
-   -->
+   >[!NOTE]
+   >
+   >If the form is already attached to a lot of objects, it might take a few minutes for your changes to apply to all of them. This happens in the background, so you can work on other tasks in Workfront while you wait.
 
 1. (Optional) Add the form to the Workfront object where you want to use it, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Regular users can also do this if they have manage rights to the object.
 
-   After you add the custom form to an object, users with permissions to manage the object and edit the custom form can edit the information in the custom fields.
+   After you add the custom form to an object, users with permissions to manage the object and edit the custom form can fill out and update the information in its custom fields.
 

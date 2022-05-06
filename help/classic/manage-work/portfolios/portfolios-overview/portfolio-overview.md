@@ -9,6 +9,10 @@ description: A Portfolio is a collection of projects that have unifying characte
 
 # Portfolio overview in Adobe Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 A Portfolio is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.
 
 You can use Portfolios and Programs to organize projects. Through organizing projects, you can compare similar projects and determine where resources will be best spent.
@@ -17,7 +21,7 @@ You can use Portfolios and Programs to organize projects. Through organizing pro
 
 You must have Edit access to Portfolios in your access level to create and manage Portfolios, and you must have Manage permissions on a Portfolio to be able to edit it. You must have View permissions on a Portfolio to be able to see it.  
 For information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).  
-For information about permissions to Portfolios, see [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+For information about permissions to Portfolios, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 
 For information about using Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
@@ -45,7 +49,7 @@ The Business Case contains the following information:
 * An alignment score
 * A risk assessment
 
-For more information about the Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about the Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 These key elements are used in the portfolio optimizer and the capacity planner to assist management in project selection.
 

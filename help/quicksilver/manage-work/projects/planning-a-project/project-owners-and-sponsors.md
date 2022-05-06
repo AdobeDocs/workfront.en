@@ -62,6 +62,7 @@ The following are possible using the Project Owner field:&nbsp;
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Update the Project Owner of a project</h2>
+<p>(NOTE:&nbsp;drafted and moved to its own article)</p>
 <ol>
 <li value="1">Go to the project you want to update.</li>
 <li value="2"> Click <strong>Project Details</strong> in the left panel. </li>
@@ -104,6 +105,7 @@ Consider the following when assigning a Project Sponsor:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Update the Project Sponsor of a project </h2>
+<p>(NOTE: drafted and moved to its own article) </p>
 <ol>
 <li value="1">Go to the Project you want to update.</li>
 <li value="2"> Click <strong>Project Details</strong> in the left panel. </li>

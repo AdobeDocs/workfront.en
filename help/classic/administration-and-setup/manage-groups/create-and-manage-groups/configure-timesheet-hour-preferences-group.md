@@ -10,6 +10,10 @@ description: An Adobe Workfront administrator can unlock the following sections 
 
 # Configure timesheet and hour preferences for a group
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 An Adobe Workfront administrator can unlock the following sections of timesheet and hour preferences at the system level so that group administrators can configure them independently for their own groups:
 
 * General Preferences
@@ -55,7 +59,12 @@ Consider the following information about configuring an unlocked timesheet or ho
 
 * If you are a group administrator and you configure a timesheet or hour preference for your group, it affects people who use the group as their Home Group.
 * Typically, an unlocked preference remains unlocked indefinitely. If the Workfront administrator re-locks it, the system setting takes effect again and settings for the preference made by the group administrators are lost.
-* A timesheet inherits the timesheet and hour preferences configured for the timesheet owner’s Home Group.
+* A timesheet inherits the timesheet and hour preferences configured for the timesheet owner’s Home Group. 
+
+  <!--
+  <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Add example here?</span>
+  -->
+
 * After a Workfront administrator unlocks a preference at the system level and you configure it for your group, you can then lock it to ensure that everyone in the groups below yours is using the same configuration. This is parallel to the ability that a Workfront administrator has to configure and lock a preference for everyone in the system. For more information, see [Lock or unlock a group timesheet and hour preference](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 ## Configure an unlocked timesheet or hour preference for a group

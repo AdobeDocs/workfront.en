@@ -14,7 +14,7 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -72,10 +72,19 @@ For information about what users in each access level can do with Resource Manag
 
 ## Access to shared issues
 
+<!--
+<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p style="color: #ff1493;">If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:</p>
+<p style="color: #ff1493;">* reports, dashboards, and calendars</p>
+<p style="color: #ff1493;">* financial data</p>
+<p style="color: #ff1493;">* issue</p>
+</div>
+-->
+
 When you share an object with another user, the recipient’s rights to budget or view resource allocation on it are determined by a combination of 3 things:
 
 * The recipient’s access level setting for Resource Management
 * The user’s access to financial data, as explained in [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * Any permissions to financial data that the sharer granted for the object
 
-For information about permissions users can grant to financial data on an object when sharing the object, see [Share financial permissions on an object in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+For information about permissions users can grant to financial data on an object when sharing the object, see [Share financial permissions on an object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).

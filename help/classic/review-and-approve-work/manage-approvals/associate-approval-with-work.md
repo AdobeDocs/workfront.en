@@ -8,6 +8,10 @@ description: This article describes how you can associate approval processes wit
 
 # Associate a new or existing approval process with work
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This article describes how you can associate approval processes with work items. For information about associating approvals with proofs or documents, see the following articles:
 
 * [Create an advanced proof with an Automated workflow](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) 
@@ -50,7 +54,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project, task, issue, or template</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project, task, issue, or template</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +70,7 @@ In addition to the considerations described below, we recommend that you revisit
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Each approval process corresponds with a status option in the Workfront system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.</li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Each approval process corresponds with a status option in the Workfront system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.</p> <p>(NOTE: the two drafted bullets have been moved to the approval-process-in-workfront article)</p> </li>
   -->
 
 * You must create the project, task, issue, template, or template task before the approval process can be associated with them.
@@ -76,7 +80,7 @@ In addition to the considerations described below, we recommend that you revisit
 
 * When you attach an approval process to the first status of an item (by using a template for tasks and projects, using the Queue Setup settings for issues, or defining the Task Settings of a project for new tasks), the approval processes are bypassed if the submitted approval is recalled. In this case, the approvers do not receive any notifications.
 
-  For more information about recalling approvals, see [View approvals in Adobe Workfront](../../review-and-approve-work/manage-approvals/view-approvals.md).
+  For more information about recalling approvals, see [View approvals](../../review-and-approve-work/manage-approvals/view-approvals.md).
 
   >[!TIP]
   >
@@ -113,7 +117,7 @@ To associate an existing global approval process with a project, task, issue, te
 
    ![](assets/approvals-associate-350x108.png)
 
-1. In the **Use an existing approval process** drop-down menu, select the global or group-level approval process you want to associate with the work item.
+1. In the **Use an existing approval process** drop-down menu, select the global or group-level approval process you want to associate with the work item
 
    ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
@@ -126,7 +130,11 @@ To associate an existing global approval process with a project, task, issue, te
 
 ## Modify a global approval process for use on a specific object {#modify-a-global-approval-process-for-use-on-a-specific-object}
 
-Your Workfront administrator or group administrator creates global approval processes for you to use, as described in [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). You can modify a global approval process to suit any specific needs of the project, task, or issue where you are associating it.
+Your Workfront administrator or group administrator creates global approval processes for you to use, as described in [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+
+Modifying a global approval process attached to an item is identical to modifying a single-use approval process.
+
+You can modify a global approval process to suit any specific needs of the project, task, or issue that you associate with it.
 
 >[!IMPORTANT]
 >
@@ -138,7 +146,7 @@ Your Workfront administrator or group administrator creates global approval proc
 >* Any future changes made by an administrator to the original global approval process do not reflect on the global approval process that you modified.
 >
 
-To modify an existing global approval process:
+To modify a approval process already attached to an item:
 
 1. Add a global approval process to the project, task, or issue.
 
@@ -176,11 +184,15 @@ To create a single-use approval process:
 
    ![](assets/approvals-associate-350x108.png)
 
-1. Click **Create a single-use approval process**.
+1. Click **Create single-use approval process**.
 
    ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
 1. Complete the steps beginning with step 6 in the section "Create a system-level or group-level global approval process for work items" in the article [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: overtime, ensure step 6 is still accurate here)&nbsp;</p>
+   -->
 
    >[!TIP]
    >
@@ -195,6 +207,33 @@ To create a single-use approval process:
    >   * [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) 
    >   
    >
+
+##
+
+## Remove or delete an approval process from a work item
+
+You can remove a global or group-level approval process or you can delete a single-use approval process from a project, task, or issue previously associated with it.
+
+The following scenarios exist:&nbsp;
+
+* Removing the global or group-level approval process does not delete the approval. The approval remains available for future use. 
+* Deleting a single-user approval process deletes it from Workfront and it cannot be recovered.
+
+To remove or delete an approval process from a work item:
+
+1. Go to the project, task, issue, template, or template task where you want to remove an approval process that you previously added. 
+1. Click the **Approvals** tab. You might need to click **More** > **Approvals**.
+
+   ![](assets/approvals-associate-350x108.png)
+
+1. Click one of the following, depending on what type of approval is associated with the item:
+
+   * **Remove approval process** for global or group-level approvals.
+   * **Delete approval process** for single-use approvals.
+
+1. Click **Remove** or **Delete** to confirm.
+
+   The approval process is removed from the work item.
 
 ## Automatically associate an approval process with work items
 

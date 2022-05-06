@@ -3,17 +3,21 @@ filename: modify-multiple-assignments-in-task-list
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Modify multiple user assignments in a task list
-description: When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks.
+description: (NOTE: There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3)
 ---
 
 # Modify multiple user assignments in a task list
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3)</p>
+-->
 
 When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks. 
 
 This article refers to modifying multiple user assignments for multiple tasks in a task list. Also see the following articles for modifying assignments on multiple tasks in other areas:
 
 * For information about modifying assignments on multiple tasks in the Scheduling area, see [Modify multiple users assignments to tasks in the Scheduling areas](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
-* For information about assigning tasks using the Workload Balancer, see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* For information about assigning tasks using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 For information about assigning a task to one resource in a list, see [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
@@ -39,7 +43,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,6 +55,7 @@ You must have the following access to perform the steps in this article:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>When to modify user assignments on tasks</h2>
+<p>(NOTE: moved to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm) </p>
 <p>You might want to modify the user assignments for multiple tasks for a variety of reasons, including the following:</p>
 <ul>
 <li>Users join or leave your team</li>
@@ -61,6 +66,7 @@ When assigning users to work, their availability according to their schedules af
 <li>A specific role or user is set as the assignee for multiple tasks and you want to quickly modify all items to be assigned to a different user or role</li>
 </ul>
 <h2 id="how-removing-assignees-affects-task-hours-and-allocation-percentages"><a name="removing-assignees-affects-task-hours-and-allocation-percentage"></a>How removing assignees affects task hours and allocation percentages</h2>
+<p>(NOTE: move to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm) </p>
 <p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration&nbsp;Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
 <p>When you delete a user from a task with the following Duration&nbsp;Types:</p>
 <ul>

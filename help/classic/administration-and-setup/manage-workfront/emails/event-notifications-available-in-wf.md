@@ -9,6 +9,10 @@ description: Event notifications are emails triggered by various types of events
 
 # Event notifications available in Adobe Workfront
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues, as explained in [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
 
 These notifications can be configured at the system and group level:
@@ -151,7 +155,7 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -243,7 +247,7 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -319,7 +323,7 @@ See also [Notifications: Approval information](../../../workfront-basics/using-n
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -376,10 +380,16 @@ See also [Notifications: Information about work assigned to me](../../../workfro
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
+  <tr data-mc-conditions=""> 
+   <td>Task</td> 
+   <td>All Predecessor Task Completion to Task Dependents on Assigned Team</td> 
+   <td> <p>All predecessors of the team's tasks are completed.</p> <p>The task assignees (all members of the team) receive an email notification.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td>Inactive</td> 
+  </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
    <td> <p>All Predecessor Task Completion to Task Dependents</p> </td> 
@@ -468,7 +478,7 @@ See also [Notifications: Information about projects I'm on](../../../workfront-b
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -549,7 +559,7 @@ See also [Notifications: Information about projects I own](../../../workfront-ba
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -636,7 +646,7 @@ See also [Notifications: Information about projects I sponsor](../../../workfron
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -713,7 +723,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 

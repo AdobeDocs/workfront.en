@@ -33,7 +33,7 @@ For information about moving a group, see [Move a group](../../../administration
     <ul> 
      <li>If the status in the new parent group is unlocked, the status in the moved group retains its attributes, unaffected by the move.</li> 
      <li>If the status in the new parent group is locked, the attributes of the status in the parent group override those of the status in the moved group.</li> 
-    </ul> </td> 
+    </ul> <p>For information about status keys, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">When a moved group has statuses inherited from its previous parent group </td> 
@@ -69,6 +69,6 @@ Later, Group A is deleted and all of its information is reassigned to Group B.
 * The name of Group B version of the status overrides the name of the Group A version.
 * If the status was applied to an object by someone in Group A before that group was deleted, the status name on the object updates to the name for the status used by Group B.
 
-For information about the key for a status, see the table in this article under [Create a custom status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Create or edit a status for a group](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
+For information about the key for a status, see the table in this article under [Create or edit a custom status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Create or edit a status for a group](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
 
 For information about deleting a group, see [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).

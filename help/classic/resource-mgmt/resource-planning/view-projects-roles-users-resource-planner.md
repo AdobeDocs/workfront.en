@@ -4,11 +4,19 @@ content-type: reference
 product-area: resource-management;projects
 navigation-topic: resource-planning
 title: View projects, roles, and users using the Resource Planner
-description: You can view or manage the allocation of your resources in the Resource Planner by viewing it at the project or role level. You can view the availability and planned work of your users by viewing it at the user level.
+description: (This used to be a standlone article (brand new article and name, split from the former Understanding the Areas in the Resource Planner (now: Resource Planner Navigation Overview)) >>> But it has been added back to the Get-Started-Resource-Planner article in March 2021. This is now a draft!)
 hidefromtoc: true
 ---
 
 # View projects, roles, and users using the Resource Planner
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This used to be a standlone article (brand new article and name, split from the former Understanding the Areas in the Resource Planner (now: Resource Planner Navigation Overview)) >>> But it has been added back to the Get-Started-Resource-Planner article in March 2021. This is now a draft!)</p>
+-->
 
 You can view or manage the allocation of your resources in the Resource Planner by viewing it at the project or role level. You can view the availability and planned work of your users by viewing it at the user level.
 
@@ -32,7 +40,7 @@ You can see the following projects in the Resource Planner:
 
   You must also have access to at least View Resource Management in your access level.
 
-  For information about the access needed to use the Resource Planner see [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md). 
+  For information about the access needed to use the Resource Planner see [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md). 
 
 * Projects limited by the filter applied to the Resource Planner.
 
@@ -67,7 +75,7 @@ The following categories of job roles are listed in the Resource Planner:
 ## User Name
 
 The users listed in the Project and Role views in the Resource Planner belong to the Resource Pools associated with the projects.   
-For more information about populating Resource Pools with users, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+For more information about populating Resource Pools with users, see [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 All users that you have access to View and who have logged in to Adobe Workfront at least once display in the User View.
 

@@ -3,11 +3,15 @@ filename: view-scenario-execution-history
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: View a scenario's execution history
+title: View a scenario's execution history in Adobe Workfront Fusion
 description: You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
 ---
 
-# View a scenario's execution history
+# View a scenario's execution history in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
 
@@ -93,7 +97,7 @@ The History tab shows more detail than is available on the Scenario detail page.
 1. Click the **History** tab near the upper-left corner of the page
 1. (Optional) For detailed information about a selected scenario run, including which bundles were processed, click the **Details** link.
 
-   For more information on processing bundles, see [Scenario execution flow](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   For more information on processing bundles, see [Scenario execution flow in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
    >[!NOTE]
    >
@@ -118,7 +122,7 @@ You can sort the scenario execution history.
 1. Click the Sort icon in the header of the column you want to filter by.
 1. Optional: To reverse the order of the sort, click the Sort icon again.
 
-## Search all executions of a scenario for specific data
+## Search all executions of a scenario
 
 1. Click the **Scenario** icon ![](assets/scenarios-icon.png) in the left panel, then click the scenario.
 
@@ -128,9 +132,38 @@ You can sort the scenario execution history.
 
 1. Click the **History** tab near the upper-left corner of the screen.
 1. Click **Fulltext search** in the upper-right corner of the screen.
-1. Enter the search term.
+
+   <!--
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click <strong>Fulltext search</strong> at the top of the list of executions.</p> <p>Or</p> <p>Type <b>Ctrl+Shift+F</b> (Windows) or <b>Cmd+Shift+F</b> (Mac)</p> <p>The Search in history window opens.</p> </li>
+   -->
+
+1. (Optional) To search for executions that contain specific text, enter the text in the search bar of the **Search in history** window.
 
    ``` ```**Example: **``````If you want to find the execution that created a specific project, enter the project ID into the Fulltext search bar.
 
-1. (Optional) Click on a result of the fulltext search to examine the scenario module output bundle that contains the information.
+   <!--
+   <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) To limit your search by date range, select the beginning and ending dates of your desired search in the <b>By date range</b> area. </p> <note type="note">
+   Executions are available only for the previous 30 days.
+   </note> </li>
+   -->
+
+   <!--
+   <li value="7" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) To limit your search by status, select the desired status in the <b>By status</b> dropdown.</p> <p>Available statuses are:</p>
+   <ul>
+   <li> <p>All</p> </li>
+   <li> <p>Error</p> </li>
+   <li> <p>Warning</p> </li>
+   <li> <p>Success</p> </li>
+   </ul> </li>
+   -->
+
+   <!--
+   <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) Change the order that results display in the <b>Sort by dates</b> dropdown.</p> </li>
+   -->
+
+   <!--
+   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) To copy a scenario execution ID, click the <b>Copy execution ID</b> icon <img src="assets/copy-fusion-execution-id-icon.png"> in the row of the desired execution. </p> </li>
+   -->
+
+1. (Optional) Click on a result of the Fulltext search to examine the scenario module output bundle that contains the information.
 

@@ -99,7 +99,7 @@ Discover the key features that are available only in the new Adobe Workfront exp
   </tr> 
   <tr> 
    <td>Scenario Planner </td> 
-   <td>The new Adobe Workfront experience <p>You can use the Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.</p> <p>For more information, see <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Adobe Workfront Scenario Planner overview</a>.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
+   <td>The new Adobe Workfront experience <p>You can use the Workfront Scenario Planner to build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.</p> <p>For more information, see <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">The Scenario Planner overview</a>.</p> <p><strong>Classic experience</strong> </p> <p>This functionality is not available.</p> </td> 
   </tr> 
   <tr> 
    <td>Workfront Goals </td> 
@@ -133,6 +133,10 @@ The Working On, Work Requests, Accomplishments, and Documents tabs are no longer
 ### My Updates for Reviewers
 
 Reviewers now have access to Home.
+
+>[!NOTE]
+>
+>With the 22.1 release, My Updates was re-introduced as the default landing page for Review license holders.
 
 ### The details card for tasks and issues has been removed
 

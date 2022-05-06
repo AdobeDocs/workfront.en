@@ -3,7 +3,7 @@
 # CloudConvert modules
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-In a Adobe Workfront Fusion scenario, you can connect your CloudConvert account to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use CloudConvert, as well as connect it to to multiple third-party applications and services. The CloudConvert modules allow you to monitor and manage jobs, tasks, and import and export files in your CloudConvert account.
 
 * [Connect CloudConvert to Workfront Fusion](#connect-cloudconvert-to-workfront-fusion) 
 * [CloudConvert modules and their fields](#cloudconvert-modules-and-their-fields) 
@@ -20,7 +20,7 @@ To connect your CloudConvert account to Workfront Fusion, you need to obtain the
 1. Copy the provided token and store it in a safe place.
 1. In Workfront Fusion, start creating a scenario open the CloudConvert module's **Create a connection** dialog.
 
-   For instructions, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+   For instructions, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Enter the token you saved in step 5, then click **Continue** to establish the connection.
 
@@ -28,7 +28,7 @@ To connect your CloudConvert account to Workfront Fusion, you need to obtain the
 
 When you configure CloudConvert modules, Workfront Fusion displays the fields listed below. Along with these, additional CloudConvert fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -648,7 +648,7 @@ Allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -656,7 +656,7 @@ Allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -730,7 +730,7 @@ If the CloudConvert > Convert a File throws one of the following errors:
 1. Click **Select File** and choose your sample MOV file.
 1. Click the dropdown, next to **Convert to** and choose **MP4**.
 
-1. Click the **wrench**icon.
+1. Click the **wrench** icon.
 1. Configure the MP4 compression settings as you see fit.
 1. Click **Convert**.
 1. Once the conversion is complete, click **Download**.
@@ -739,10 +739,10 @@ If the CloudConvert > Convert a File throws one of the following errors:
 1. Visit [https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
 1. Choose **mov** for the **input_format** field.
 
-1. Choose **mp4**for the **output_format** field.
+1. Choose **mp4** for the **output_format** field.
 
 1. A list of all possible parameters like video_codec, crf, etc. will appear.
-1. In Workfront Fusion 2.0, insert the **CloudConvert**> **Convert a File** module in your scenario.
+1. In Workfront Fusion 2.0, insert the **CloudConvert** > **Convert a File** module in your scenario.
 
 1. Open the module's settings.
 1. Configure the module as shown below:

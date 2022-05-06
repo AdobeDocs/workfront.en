@@ -9,6 +9,10 @@ description: Locking an Adobe Workfront preference that you have configured at t
 
 # Overview of locking system-level timesheet and hour preferences
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Locking an Adobe Workfront preference```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  that you have configured at the system level</MadCap:conditionalText>``` ensures that everyone```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  throughout the system</MadCap:conditionalText>``` is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can’t do so for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level"> their groups</MadCap:conditionalText>```.
 
 Conversely, unlocking a preference```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  that you have configured at the system level</MadCap:conditionalText>``` allows group administrators more flexibility to manage the way their groups work with those items. When a preference is unlocked, group administrators can reconfigure it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level"> their groups</MadCap:conditionalText>```.

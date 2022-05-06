@@ -12,7 +12,7 @@ Occasionally, new software updates containing improvements and bug fixes become 
 
 >[!IMPORTANT]
 >
->Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer with Automatic Updates](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Access requirements
 
@@ -24,7 +24,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -61,7 +61,7 @@ The Desktop Proofing Viewer can function without the non-critical updates. Howev
 
 1. Click&nbsp;**Relaunch.**
 
-   The**Desktop Proofing Viewer**relaunches and you can resume work on your proof.
+   The **Desktop Proofing Viewer** relaunches and you can resume work on your proof.
 
 ## Required updates
 

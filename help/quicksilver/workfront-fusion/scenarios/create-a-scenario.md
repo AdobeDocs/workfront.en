@@ -3,15 +3,15 @@ filename: create-a-scenario
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Create a scenario
+title: Create a scenario in Adobe Workfront Fusion
 description: The following tasks explain how to create a Adobe Workfront Fusion scenario.
 ---
 
-# Create a scenario
+# Create a scenario in Adobe Workfront Fusion
 
 The following tasks explain how to create a Adobe Workfront Fusion scenario.
 
-For a practice exercise that walks you through this process using data that we provide, see [Create a practice integration scenario](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+For a practice exercise that walks you through this process using data that we provide, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
 >[!NOTE]
 >
@@ -147,7 +147,7 @@ To create a connection inside a Workfront Fusion module:
 
 1. (Optional) Copy and paste a module or group of modules.
 
-   For more information, see [Copy modules or scenarios](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
+   For more information, see [Copy modules or scenarios in Adobe Workfront Fusion](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
 
 1. Continue on to [Configure and work with your scenario](#configure-and-work-with-your-scenario).
 
@@ -161,11 +161,11 @@ To create a connection inside a Workfront Fusion module:
     <tbody> 
      <tr> 
       <td role="rowheader">Specify when and how often the scenario will execute</td> 
-      <td> <p>Click the clock icon. </p> <p> <img src="assets/clock-icon.gif"> </p> <p>For more information, see <a href="../../workfront-fusion/scenarios/schedule-a-scenario.md" class="MCXref xref">Schedule a scenario</a>.</p> </td> 
+      <td> <p>Click the clock icon. </p> <p> <img src="assets/clock-icon.gif"> </p> <p>For more information, see <a href="../../workfront-fusion/scenarios/schedule-a-scenario.md" class="MCXref xref">Schedule a scenario in Adobe Workfront Fusion</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Set up a route</td> 
-      <td> <p>Click the wrench icon <img src="assets/wrench-icon.gif"> between the two modules and use any of the following options. For more information, see <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Add a filter to a scenario</a>.</p> 
+      <td> <p>Click the wrench icon <img src="assets/wrench-icon.gif"> between the two modules and use any of the following options. For more information, see <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Add a filter to a scenario in Adobe Workfront Fusion</a>.</p> 
        <ul> 
         <li><strong>Set up a filter</strong>: Control which bundles are used at certain points in the scenario.</li> 
         <li><strong>Unlink</strong>: Removes a route.</li> 
@@ -176,11 +176,11 @@ To create a connection inside a Workfront Fusion module:
      </tr> 
      <tr> 
       <td role="rowheader">Configure the scenario settings</td> 
-      <td>Click the Scenario settings icon. <img src="assets/gear-icon-settings.png"> These settings are intended primarily for advanced users. For more information, see <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Scenario settings panel</a>.</td> 
+      <td>Click the Scenario settings icon. <img src="assets/gear-icon-settings.png"> These settings are intended primarily for advanced users. For more information, see <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">The scenario settings panel in Adobe Workfront Fusion</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Configure Flow Control settings</td> 
-      <td> <p>Click the Flow Control icon. <img src="assets/flow-control-icon.gif"> You can set a task to repeat a given number of times, convert an array into a series of bundles, and merge several bundles into one single bundle. For more information, see <a href="../../workfront-fusion/apps-and-their-modules/flow-control.md" class="MCXref xref">Flow control</a>.</p> </td> 
+      <td> <p>Click the Flow Control icon. <img src="assets/flow-control-icon.gif"> You can set a task to repeat a given number of times, convert an array into a series of bundles, and merge several bundles into one single bundle. For more information, see <a href="../../workfront-fusion/apps-and-their-modules/flow-control.md" class="MCXref xref">Flow control in Adobe Workfront Fusion</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Enhance the scenario using advanced tools</td> 
@@ -201,7 +201,7 @@ To create a connection inside a Workfront Fusion module:
     <tbody> 
      <tr> 
       <td role="rowheader">View a log of the events that occur when the scenario runs</td> 
-      <td> <p>Click the Exit editing arrow <img src="assets/exit-editing-arrow.png"> in the scenario editor to view the Scenario detail page. The log displays at the bottom of the window, or in the lower-right corner. It contains information about the difficulty of each phase and any errors encountered during the execution of the scenario.</p> <p>To return to working with your scenario in the scenario editor, click anywhere on the Scenario detail page.</p> <p>For more information about the Scenario detail page, see <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Scenario detail</a>.</p> </td> 
+      <td> <p>Click the Exit editing arrow <img src="assets/exit-editing-arrow.png"> in the scenario editor to view the Scenario detail page. The log displays at the bottom of the window, or in the lower-right corner. It contains information about the difficulty of each phase and any errors encountered during the execution of the scenario.</p> <p>To return to working with your scenario in the scenario editor, click anywhere on the Scenario detail page.</p> <p>For more information about the Scenario detail page, see <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Scenario details in Adobe Workfront Fusion</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Access your most commonly used apps and services</td> 
@@ -228,11 +228,11 @@ To create a connection inside a Workfront Fusion module:
 
 1. To test-run the scenario, click **Run once**.
 
-   It's important to verify that the scenario runs as you expect before you activate it. Once activated, the scenario will execute according to its schedule. If everything does not run as expected, see [Error handling](../../workfront-fusion/errors/error-handling.md).
+   It's important to verify that the scenario runs as you expect before you activate it. Once activated, the scenario will execute according to its schedule. If everything does not run as expected, see [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
 
 1. When you finish editing the scenario (or at any time while you are editing), click the Save icon at the bottom of the window ![](assets/save-icon.gif).
 
-For information about activating a scenario, see [Activate or deactivate a scenario](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+For information about activating a scenario, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 ## Workfront Fusion scenario keyboard shortcuts
 

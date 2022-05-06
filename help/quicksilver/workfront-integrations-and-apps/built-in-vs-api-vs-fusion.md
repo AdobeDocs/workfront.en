@@ -5,14 +5,10 @@ product-area: workfront-integrations
 keywords: native,ootb
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront integration methods
-description: 
+description: You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. You can use any or all of these integrations, depending on which is most useful for a given task.
 ---
 
 # Adobe Workfront integration methods
-
-&nbsp;
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. You can use any or all of these integrations, depending on which is most useful for a given task.
 
@@ -71,7 +67,7 @@ For more information on event subscriptions, see [Event Subscription API](../wf-
 
 ## Adobe Workfront Fusion
 
-Workfront Fusion allows you to automate workflows across multiple apps and web services, creating scenarios where the apps work together to execute a task. A scenario is a visual representation of the task or workflow that is built using modules, which are discrete tasks like “Download a document” or “Create a project.” You chain modules together to define the workflow, and then the workflow executes automatically when a trigger condition is met.
+Workfront Fusion allows you to automate workflows. With the Workfront Fusion for Work Automation and Integration license, you can create those automations across multiple apps and web services, creating scenarios where the apps work together to execute a task. A scenario is a visual representation of the task or workflow that is built using modules, which are discrete tasks like “Download a document” or “Create a project.” You chain modules together to define the workflow, and then the workflow executes automatically when a trigger condition is met.
 
 Advantages to Workfront Fusion may include the following:
 

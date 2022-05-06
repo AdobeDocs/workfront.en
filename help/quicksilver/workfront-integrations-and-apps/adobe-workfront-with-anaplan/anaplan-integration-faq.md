@@ -1,6 +1,12 @@
+---
+filename: anaplan-integration-faq
+product-area: workfront-integrations;setup
+navigation-topic: adobe-workfront-with-anaplan
+title: Adobe Workfront with Anaplan Integration FAQs
+description: Do I have to use Adobe Workfront Fusion?
+---
 
-
-# Adobe Workfront with Anaplan Integration FAQ
+# Adobe Workfront with Anaplan Integration FAQs
 
 * [Do I have to use Adobe Workfront Fusion?](#do-i-have-to-use-adobe-workfront-fusion) 
 * [Can we do the same sort of integration with another finance tool other than Anaplan?](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan) 

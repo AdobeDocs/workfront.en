@@ -17,6 +17,10 @@ description: Proof progress indicates the work done on a proof from the time you
 
 Proof progress indicates the work done on a proof from the time you send the proof to reviewers to the time they make a decision on the proof.
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Information in this article is also&nbsp;in Viewing the Progress and Status of a Proof in Workfront.</p>
+-->
+
 * [Progress Icons](#progress-icons) 
 * [Levels of Proof Progress](#levels-of-proof-progress)
 

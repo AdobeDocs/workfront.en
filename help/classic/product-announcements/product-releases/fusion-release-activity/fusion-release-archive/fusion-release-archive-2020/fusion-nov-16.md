@@ -32,7 +32,7 @@ For more information, see [Jira Software modules](../../../../../workfront-fusio
 
 The Execution ID for a scenario is now available in the mapping panel. This ID represents a specific execution of the scenario, and can be used as metadata. For example, the execution ID can be saved with a record that Fusion creates, so that you can later determine which Fusion execution created the record. You can find the Execution ID in the mapping panel under General Functions.
 
-For more information on scenario executions, see [Scenario execution, cycles, and phases](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+For more information on scenario executions, see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Keyboard shortcuts for Workfront Fusion 2.0 scenarios
 
@@ -41,7 +41,7 @@ To make scenario building more convenient, we've added some keyboard shortcuts:
 * Ctrl/Cmd+Shift+Enter: Run a scenario once
 * Ctrl/Cmd + Shift + S: Save a scenario
 
-For more information on building Workfront Fusion 2.0 scenarios, see [Create a scenario](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
+For more information on building Workfront Fusion 2.0 scenarios, see [Create a scenario in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
 
 ## Updates to Office 365 Excel connector
 

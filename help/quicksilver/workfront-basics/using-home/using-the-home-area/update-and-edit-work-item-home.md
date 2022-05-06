@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ You can view updates on any work item in the Work List:
 1. In the **Work List** area, select the item where you want to view updates.  
    Updates are displayed in the right panel.
 
-1. (Optional) To filter system updates so only user updates are displayed, toggle&nbsp;**Show System Updates**to Off.  
+1. (Optional) To filter system updates so only user updates are displayed, toggle&nbsp;**Show System Updates** to Off.  
   
    ![](assets/show-system-updates-home-350x114.png)
 
@@ -74,6 +74,12 @@ You can provide updates on any work item in the Work List:
    **Status:**&nbsp;Select a new status for the task or issue. For more information about task statuses, see [Update task status](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). For more information about issue statuses, see [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).  
    **Completion Bar:**Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete. 
 
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: This text is duplicated in Updating Work.)
+   </MadCap:conditionalText>
+   -->
+
 1. Click **Update**.
 
 ## Edit a work item
@@ -87,7 +93,7 @@ You can edit any field on any work item that you have access to edit.
 1. In the right panel, hover over the field you want to edit.  
    If you have rights to edit the field, the field is highlighted as you hover over it.
 
-   ![](assets/home-350x90.png)
+   ![](assets/home-350x123.png)
 
 1. Click the field you want to edit, then make your desired update.  
 1. Click away from the field to save your changes.

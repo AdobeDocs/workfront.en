@@ -3,12 +3,12 @@ filename: associate-milestones-with-tasks
 product-area: projects
 navigation-topic: manage-tasks
 title: Associate milestones with tasks
-description: You can associate milestones with tasks to indicate when important steps in the lifetime of the project are reached.
+description: You can associate milestones with tasks to indicate when you reach important steps in the lifetime of the project.
 ---
 
 # Associate milestones with tasks
 
-You can associate milestones with tasks to indicate when important steps in the lifetime of the project are reached.
+You can associate milestones with tasks to indicate when you reach important steps in the lifetime of the project.
 
 ## Access requirements
 
@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,12 +55,15 @@ Before you can associate a milestone with a task, the following must exist:
 
 1. Go to a project, then click the **More** icon ![](assets/more-icon.png), then **Edit**. 
 1. Using the **Settings** section, set the milestone path to be used on the project. 
-1. Click **Save**. 
-1. Go to a task, then click the **More** icon ![](assets/more-icon.png), then **Edit**. 
-1. After a milestone path is associated with a project, tasks can be assigned a milestone.
+1. Click **Save**.
+
+   After a milestone path is associated with a project, tasks can be assigned a milestone.
+
+1. Go to a task, then click the **More** icon ![](assets/more-icon.png), then **Edit**.
 
    Tasks and Milestones have a 1:1 relationship. You cannot attach the same milestone to multiple tasks. Each task can be linked to a single milestone, or each milestone can be mapped to one task.
 
+1. Click&nbsp;**Settings**, then select a milestone in the **Milestone** field for the task. 
 1. Click&nbsp;**Save**.
 1. (Optional) In a list of tasks, add the **Status Icons** column to identify which tasks have milestones.
 

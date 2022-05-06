@@ -16,7 +16,7 @@ I can no longer see External User license type under Access Levels in Setup.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

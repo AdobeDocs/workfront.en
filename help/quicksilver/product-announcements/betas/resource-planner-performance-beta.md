@@ -3,11 +3,15 @@ filename: resource-planner-performance-beta
 content-type: reference
 navigation-topic: betas
 title: Resource Planner performance beta
-description: The new Workfront Resource Planner enables you to ensure that your people are working on the right work, at a right time, and helps to prevent burnout. You can manage demand by job role or user, providing visibility into the availability of the team members, as well as prioritizing strategic work to ensure the top priority work is assigned the resources it needs to be successful. Additionally, the Resource Planner can help you:
+description: (NOTE: Alina: save as a draft for an example of a RM beta)
 hidefromtoc: true
 ---
 
 # Resource Planner performance beta
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: save as a draft for an example of a RM beta)</p>
+-->
 
 The new Workfront Resource Planner enables you to ensure that your people are working on the right work, at a right time, and helps to prevent burnout. You can manage demand by job role or user, providing visibility into the availability of the team members, as well as prioritizing strategic work to ensure the top priority work is assigned the resources it needs to be successful. Additionally, the Resource Planner can help you:
 

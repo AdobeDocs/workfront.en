@@ -25,7 +25,7 @@ You can download the original files from active, locked, and archived proofs to 
 1. ![More_button_small.png](assets/more-button-small.png)
 
 1. If you need more information about these layouts, see [Page Layout on the Views Tab in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md).
-1. Click&nbsp;**Download original**in the menu that appears.  
+1. Click&nbsp;**Download original** in the menu that appears.  
    You can also select the proof in the list, click the **More** button above the list, then click **Download**.  
    You can also download files:
 

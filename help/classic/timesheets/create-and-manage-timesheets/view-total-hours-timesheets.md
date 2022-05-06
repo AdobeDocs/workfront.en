@@ -8,6 +8,10 @@ description: You can view the total number of hours on your timesheet. The total
 
 # View total hours on the timesheet
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can view&nbsp;the total number of hours on&nbsp;your timesheet. The total number of timesheet hours includes hours logged for projects, tasks, issues, and all general hours.
 
 The total hours reflect hours submitted through the timesheet, the Updates area, or in the Hours area for projects, tasks, or issues.
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +77,7 @@ You must have the following access to perform the steps in this article:
       >
       >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
 
-1. (Optional)&nbsp;Click **View** or **Grouping ** to apply a different view or grouping or to create a new one.
+1. (Optional)&nbsp;Click **View** or **Grouping** to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -87,16 +91,9 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >The total number of hours for each timesheet displays in the **Total Time** column in the **My Timesheets** and **Timesheet I Approve** tabs .
+   >The total number of hours for each timesheet displays under the **Total Time** field in the **My Timesheets** and **Timesheet I Approve** tabs. When the hours logged exceed the number of hours in the timesheet's time frame, the number of hours displays in red. 
+   >
+   >
+   >![](assets/my-timesheets-list-total-hours-column-highlighted-classic-350x160.png)   >
+   >
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;

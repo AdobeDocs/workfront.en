@@ -39,7 +39,7 @@ The following fields can affect the Net Value of a project:
 You can find the Net Value for a project in the following areas in Workfront:
 
 * In Business Case Summary area of the Business Case&nbsp;  
-  For more information about the Business Case Summary area, see the "Understanding the Business Case Summary" section in&nbsp;the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  For more information about the Business Case Summary area, see the "Understanding the Business Case Summary" section in&nbsp;the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 

@@ -4,7 +4,7 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Views overview in Adobe Workfront (draft)
-description: Your Adobe Workfront administrator must grant you access to Edit Filters, Views, and Groupings to be able to create views.
+description: (NOTE: this is a place holder article for now to pupulate with "overview"-type information for views. We did the Filters and Groupings before and we needed one for views. **** PLEASE DO NOT DELETE****)
 hidefromtoc: true
 ---
 
@@ -16,7 +16,19 @@ hidefromtoc: true
 </MadCap:conditionalText>
 -->
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is a place holder article for now to pupulate with "overview"-type information for views. We did the Filters and Groupings before and we needed one for views. **** PLEASE DO NOT DELETE****) </p>
+-->
+
 ## Considerations about views
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ****THE INFORMATION IN HERE IS ALSO IN THE ARTICLE CREATE-CUSTOMIZE-VIEWS. When this article is up to date we can sunset the other one) </p>
+-->
 
 * You can customize existing views. All users who can view the views can also see your changes.
 * Your Adobe Workfront administrator must grant you access to Edit Filters, Views, and Groupings to be able to create views.
@@ -24,7 +36,7 @@ hidefromtoc: true
   For information about granting access to Edit Filters, Views, and Groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Your level of permissions to a view dictates how a view is saved. If you created the view originally, you can save the changes, otherwise you are prompted to save a version of the view. If you make changes to a view you have shared with others it impacts them as well.
-* You can customize a view that was shared with you only if the user who shared it granted you Manage access. For information about sharing a view, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* You can customize a view that was shared with you only if the user who shared it granted you Manage access. For information about sharing a view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 You can customize existing views, create new views based on existing views, or create new Views from scratch.
 
@@ -135,6 +147,10 @@ You can create a new Agile view or customize an existing Agile view that you pre
 
 For more information about Agile views, see the article [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
+-->
+
 To create or customize an Agile view:
 
 1. Go to the list of tasks on a project.
@@ -183,7 +199,9 @@ To create or customize an Agile view:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Add status columns:</strong> </td> 
-      <td>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</td> 
+      <td> <p>Click the <strong>Plus</strong> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</p> <!--
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: research this and add: [! What if the status has been shared with me or a group I'm in (so I can see it here), but the status hasn't been shared with another user who also has access to a project where I later apply this view? Can that user still see this status on the project?]) </p>
+       --> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -245,7 +263,7 @@ To create or customize an Agile view:
 
 ## Share a view
 
-For information about how to share a view, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+For information about how to share a view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Remove a view
 

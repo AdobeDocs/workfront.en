@@ -8,9 +8,13 @@ description: This article describes the areas of the Business Case of a project.
 
 # Overview of the Areas of the Business Case
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This article describes the areas of the Business Case of a project.
 
-For information about creating a Business Case for a project, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For information about creating a Business Case for a project, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 Your Adobe Workfront administrator ```or group administrator``` must enable all the&nbsp;sections in the Business Case&nbsp;before they are visible on the project, except for the Project Info section.&nbsp;The Project Info section is enabled by default.
 
@@ -70,6 +74,10 @@ Consider editing the following fields:
 ## Goals
 
 Goals define the objectives for the&nbsp;project. This area&nbsp;is enabled by default in the Business Case, but the Workfront administrator might choose to not display it. This field displays the goals in order of priority.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
+-->
 
 Defining the goals is optional for the project to receive a Score&nbsp;in the Portfolio Optimizer. This section is the only optional section in the Business Case. All other sections of the Business Case must be completed before the project is scored in the Portfolio Optimizer.&nbsp;You can indicate a priority level for a goal as you create the goal.
 
@@ -164,9 +172,14 @@ Consider the following when viewing the Resource Budgeting section of the Busine
 
    * The Resource Planner
 
-     For information, see [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+     For information, see [Budget resources in the Business Case using the Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* The information displayed here also displays in the system-level Resource Planner .&nbsp;  
+* The information displayed here also displays in the system-level Resource Planner .&nbsp;
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
+  -->
+
 * After budgeting your resources, the Budgeted Labor Cost of the project displays in the Resource Budgeting area if the roles are associated with Cost per Hour rates.&nbsp;The Budgeted Labor&nbsp;Cost displays in the currency of the project.
 
   >[!IMPORTANT]
@@ -249,9 +262,13 @@ For more information about these fields, see [Overview of Business Case financia
 
 ### **Export the Business Case** {#export-the-business-case}
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: made this into a standalone article, linked in the first paragraph of this section)</p>
+-->
+
 You can export the Business Case to a PDF&nbsp;file, in case you need to print it or attach it to an email in a more condensed format.&nbsp;
 
-For information, see [Export the Business Case of a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/export-business-case.md).
+For information, see [Export the Business Case of a project](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -267,7 +284,9 @@ For information, see [Export the Business Case of a project in Adobe Workfront](
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.&nbsp; The file contains all areas of the Business Case in an easy to read format.</p>
-<p>For information about how to export the Business Case, see <a href="../../../manage-work/projects/define-a-business-case/export-business-case.md" class="MCXref xref">Export the Business Case of a project in Adobe Workfront</a></p>
+<p>For information about how to export the Business Case, see <a href="../../../manage-work/projects/define-a-business-case/export-business-case.md" class="MCXref xref">Export the Business Case of a project </a></p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and will replace the info above, when the standalone arrticle is live >> Becky!)</p>
+-->
 </div>
 -->
 

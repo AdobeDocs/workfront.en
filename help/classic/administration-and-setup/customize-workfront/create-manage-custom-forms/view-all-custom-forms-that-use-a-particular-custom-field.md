@@ -3,13 +3,19 @@ filename: view-all-custom-forms-that-use-a-particular-custom-field
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: View all custom forms that use a particular custom field
-description: You can find out which custom forms are using a custom field that you want to change. It’s important to assess whether those custom forms will need adjustments in order to keep working properly after you make any changes to the field or delete the field.
+title: View all custom forms that use a particular custom field or widget
+description: You can find out which custom forms are using a custom field or widget that you want to change or delete. It’s important to assess whether those custom forms will need adjustments to keep working properly or to continue to be useful after you change or delete the field or widget.
 ---
 
-# View all custom forms that use a particular custom field
+# View all custom forms that use a particular custom field or widget
 
-You can find out which custom forms are using a custom field that you want to change. It’s important to assess whether those custom forms will need adjustments in order to keep working properly after you make any changes to the field or delete the field.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+You can find out which custom forms are using a custom field or widget that you want to change or delete. It’s important to assess whether those custom forms will need adjustments to keep working properly or to continue to be useful after you change or delete the field or widget.
+
+For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and Add or edit an image or video in a custom form.
 
 ##  
 
@@ -38,15 +44,36 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Find out which custom forms use a particular custom field
+## Find out which custom forms use a particular custom field or widget
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left panel, click **Custom Forms**.
-1. Open the custom form containing the field you want to modify, then click the field on the right side of the screen.
+1. Open the **Fields** tab, look for the field or widget in the **Name** column, then view the **Forms** column to see which custom forms are using the field or widget.
 
-   A warning message displays if the field is used on another custom form.
+   <!--
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Open the custom form containing the field<!--
+   <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   , image widget, or
+   <span class="preview">video </span>widget
+   </MadCap:conditionalText>
+   --> that you want to change or delete, then select the custom field<!--
+   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> or widget</span>
+   --> on the right side of the screen. <!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">These 2 steps are drafted because it's a less straightforward way to do this. Check with Lilit before deleting this to make sure that the Field List view is always available. Can't remember why I documented this way in the first place.</span>
+   --></p> <p> <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   If you selected a custom field,
+   </MadCap:conditionalText>
+   -->A warning message displays if the field is used on another custom form.</p> <p> <img src="assets/warning-message-fields-used-elsewhere-350x221.png" style="width: 350;height: 221;"> </p> </li>
+   -->
 
-   ![](assets/warning-message-fields-used-elsewhere-350x242.png)
+   <!--
+   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the blue arrow in the warning message to see which custom forms are using the field<!--
+   <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   or widget
+   </MadCap:conditionalText>
+   -->.</p> </li>
+   -->
 
-1. Click the blue arrow in the warning message to see which custom forms are using the field.
+1. (Optional) Click the name of any of those custom forms to go to the form and consider what changes you might need to make there if you modify the field or widget.
 

@@ -7,6 +7,10 @@ description: You can navigate to your Working On and Work Request tabs from the 
 
 # Access the Working On and Work Request tabs
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 You can navigate to your Working On and Work Request tabs from the My Work area of Adobe Workfront.
 
 ## Access requirements

@@ -10,6 +10,10 @@ description: Adobe Workfront is removing support for various single sign-on (SSO
 
 # Removal of various single sign-on options
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront is removing support for various single sign-on (SSO) options. The end result will be a consistent and more secure sign-in experience across all Workfront products and services.
 
 The following SSO options are now supported only in a limited capacity; they will be removed from the product in 2020:

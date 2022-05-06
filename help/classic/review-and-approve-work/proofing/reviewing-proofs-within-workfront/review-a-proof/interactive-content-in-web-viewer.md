@@ -1,6 +1,16 @@
-
+---
+filename: interactive-content-in-web-viewer
+product-area: documents
+navigation-topic: review-a-proof
+title: Set up interactive content proofing in Web Proofing Viewer
+description: We recommend that you review all interactive content using the Desktop Proofing Viewer. However, if your organization's policies prevent this, your Workfront administrator can configure your system to use the Web Proofing Viewer for interactive proofing. For comparative information about these two viewers, see Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview.
+---
 
 # Set up interactive content proofing in Web Proofing Viewer
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 We recommend that you review all interactive content using the Desktop Proofing Viewer. However, if your organization's policies prevent this, your Workfront administrator can configure your system to use the Web Proofing Viewer for interactive proofing. For comparative information about these two viewers, see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 

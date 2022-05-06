@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,11 +61,11 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Work List** in the upper-left corner of Home, then click&nbsp;**Calendar** in the drop-down menu.
 
-   ![](assets/work-list-calendar-drop-down-expanded-home-nwe-350x264.png)
+   ![](assets/work-list-calendar-drop-down-expanded-home-nwe.png)
 
    The Home Calendar view displays.
 
-   ![](assets/calendar-group-by-drop-down-home-nwe-350x123.png)
+   ![](assets/calendar-group-by-drop-down-home-nwe-350x135.png)
 
    All the work items assigned to you or assigned to your groups, teams, or roles display in the left panel.
 

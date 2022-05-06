@@ -9,6 +9,10 @@ description: If you have Manage permission to a Workfront Library item, you can 
 
 # Share a Workfront Library item with other users
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Understand sharing items
 
 If you have Manage permission to a Workfront Library item, you can share it with other users and organizational units in Workfront Library and with external users.

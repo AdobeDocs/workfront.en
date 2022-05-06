@@ -8,6 +8,10 @@ description: Recalculating Timelines allows managers to see how different factor
 
 # Recalculate project timelines
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Recalculating Timelines allows managers to see how different factors related to the project are impacting the project's timeline. A project's timeline refers to planned and projected dates.
 
 Making changes to schedules, personnel time off, and other items outside the scope of a project do not impact the project timeline immediately. The project timeline is impacted when the timeline is recalculated. External influences do not take effect on your project until the recalculation occurs.
@@ -38,7 +42,7 @@ However, you must have the following access to manually recalculate the timeline
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,15 +84,20 @@ or changes made to another project that the timeline is dependent on
 
 .
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
+-->
+
 For information, see [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE:&nbsp;content moved to the article linked above)</p>
 <p>You can configure how the timeline for your project is updated:</p>
 <ol>
 <li value="1">Go to the project for which you want to configure how the timeline is updated.</li>
 <li value="2"> <p>  Click <strong>Edit Project.</strong>  </p> <p>The <strong>Edit Project</strong> dialog box is displayed.</p> </li>
-<li value="3"> <p>Click<strong>Settings.</strong><br><img src="assets/screen-shot-2013-09-18-at-10.36.16-am.png" alt=""></p> </li>
+<li value="3"> <p>Click<strong>Settings.</strong><br><img src="assets/screen-shot-2013-09-18-at-10.36.16-am-350x347.png" alt="" style="width: 350;height: 347;"></p> </li>
 <li value="4">In the <strong>Update Type</strong> drop-down list, select from the following options:<br><strong>- Automatic and On Change:</strong> (Default setting) The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on. The project timeline is also updated each night. <br>This is the recommended setting for this field because it ensures that the project timeline is always up to date.<br>When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed.
 <div>
 <p><img src="assets/dates-dimmed-when-insline-editing-350x146.png" style="width: 350;height: 146;"></p>
@@ -122,20 +131,28 @@ As a project owner, you can manually recalculate the timelines for individual pr
 * [Manually recalculate timelines in bulk in the Edit Projects box](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box) 
 * [Recalculate timelines for all projects in the system (Workfront administrators only)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
-### Recalculate timelines for individual projects {#recalculate-timelines-for-individual-projects}
+### Recalculate timelines for individual projects  {#recalculate-timelines-for-individual-projects}
 
-1. Go to the project for which you want to recalculate the timeline.
-1. Click **Project Actions**, then click **Recalculate Timeline**.    
-   ![](assets/screen-shot-2013-09-10-at-1.07.04-pm-350x270.png)  
+1. Go to the project for which you want to recalculate the timeline, click **Project Actions**, then click **Recalculate Timeline**.
+
+   ![](assets/screen-shot-2013-09-10-at-1.07.04-pm-350x389.png)   
   
-   After the timeline is recalculated, you see a message indicating that the recalculation was successful.  
-   Before the timeline recalculation is finished, some planned or projected dates might display as dimmed. This means that the recalculation is not yet finished, and the dates are subject to change.
+   After the timeline is recalculated, you see a message indicating that the recalculation was successful.
 
-   ![](assets/screen-shot-2013-09-10-at-1.07.10-pm-350x126.png)
+   >[!TIP]
+   >
+   >Before the timeline recalculation is finished, some planned or projected dates might display as dimmed. This means that the recalculation is not yet finished, and the dates are subject to change.
+   >
+   >
+   >![](assets/screen-shot-2013-09-10-at-1.07.10-pm-350x126.png)
 
 ### Manually recalculate timelines in bulk in the Edit Projects box {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
 
 You can manually recalculate the timelines of several projects by editing them in bulk.
+
+>[!TIP]
+>
+>Depending on the complexity of your projects, we recommend not to select a large number of projects when editing them in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
 
 1. Go to a list of projects.
 1. Select several projects in the list, then click **Edit**.
@@ -151,7 +168,9 @@ For more information about recalculating timelines for the entire Workfront site
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Project"></a>Project Update Types</h2>
+<h2><a name="Project"></a>Project Update Types</h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and moved to thisa rticle: /Content/Manage work/Projects/Planning a Project/project-update-type-overview.htm)</p>
+-->
 <p>For information about how to update the project's Update Type, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>. </p> <note type="important">
 If the timeline of a project is longer than 15 years, Workfront does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual.
 </note>

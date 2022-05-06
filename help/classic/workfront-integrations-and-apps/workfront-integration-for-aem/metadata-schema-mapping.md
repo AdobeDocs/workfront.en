@@ -2,6 +2,10 @@
 
 # ```Workfront Tools for AEM User Guide : Metadata Schema Mapping```  {#title-heading}
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Asset Metadata Mapping {#metadataschemamapping-assetmetadatamapping}
 
 Metadata mapping between Adobe Workfront Documents and AEM Assets is defined within AEM Metadata Schemas. Metadata Schemas should be created and configured as usual in AEM. Workfront Tools adds configuration options to the Settings configuration tab of each metadata schema form field. These options will allow you to specify to which Workfront field each AEM property should be mapped to.
@@ -48,11 +52,11 @@ Follow these steps to configure the mappings:
 
    ![](assets/metadata-schema-350x242.png)
 
-1. Select the metadata schema form you wish to edit and click ```Edit```or create a new metadata schema from scratch.
+1. Select the metadata schema form you wish to edit and click ```Edit``` or create a new metadata schema from scratch.
 
    ![](assets/edit-schema-350x242.png)
 
-1. Select the metadata schema form field you wish to edit and select ```Settings```tab on the right panel.
+1. Select the metadata schema form field you wish to edit and select ```Settings``` tab on the right panel.
 1. In ```Workfront Custom Form Field``` select the name of the Workfront field that you wish to map to the selected AEM property. Available options are:
 
    1. Document custom form fields
@@ -79,7 +83,7 @@ Follow these steps to configure the mappings:
 
    ![](assets/edit-folder-schema-350x104.png)
 
-1. Select the folder metadata schema form field you wish to edit and select ```Settings```tab on the right panel.
+1. Select the folder metadata schema form field you wish to edit and select ```Settings``` tab on the right panel.
 1. In ```Mapped from Workfront Field``` select the name of the Workfront field that you wish to map to the selected AEM folder property. Available options are:
 
    1. Project custom form fields

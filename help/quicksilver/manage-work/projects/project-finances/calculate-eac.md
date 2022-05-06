@@ -4,10 +4,14 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Estimate At Completion (EAC)
-description: As a performance metric, the Estimate at Completion (EAC) represents the projected total cost of your project or task when it completes.
+description: (NOTE: Linked to the product. Do not change link!)
 ---
 
 # Calculate Estimate At Completion (EAC)
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link!) </p>
+-->
 
 As a performance metric, the Estimate at Completion (EAC) represents the projected total cost of your project or task when it completes.
 
@@ -35,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the project with permissions to View Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the project with permissions to View Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,4 +125,6 @@ EAC = EAC Labor + EAC Expense
 1. Click **Finance**.&nbsp;
 
    The EAC value displays in the **Estimate at Completion** field.
+
+   ![](assets/eac-highlighted-on-project-350x112.png)
 

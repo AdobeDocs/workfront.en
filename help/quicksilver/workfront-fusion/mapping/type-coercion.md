@@ -4,11 +4,11 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Type coercion
+title: Type coercion in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Type coercion
+# Type coercion in Adobe Workfront Fusion
 
 ## Access requirements
 

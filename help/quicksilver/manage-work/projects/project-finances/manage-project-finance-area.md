@@ -3,10 +3,14 @@ filename: manage-project-finance-area
 product-area: projects
 navigation-topic: financials
 title: Manage information in the project Finance area
-description: You can view or edit the financial information of a project by accessing the Finance area of the Project Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project see Edit projects.
+description: (NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)
 ---
 
 # Manage information in the project Finance area
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
+-->
 
 You can view or edit the financial information of a project by accessing the Finance area of the Project Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a project or higher that include View Finance permissions</p> <p>Manage permissions to the project that include Manage Finance to edit financial information for the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to a project or higher that include View Finance permissions</p> <p>Manage permissions to the project that include Manage Finance to edit financial information for the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

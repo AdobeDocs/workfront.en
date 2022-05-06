@@ -2,6 +2,10 @@
 
 # Deactivate and delete results in the new Adobe Workfront experience
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I don't think deactivating is possible anymore)</p>
+-->
+
 Deleting and deactivating Key Results within Atiim have different meanings and will have two different results to be mindful of. Deactivating a Key Results suspends the user from updating information and recording progress on that Key Result, but can be reactivated if needed. Deleting the Key Result is a permanent removal from the system.
 
 Before a goal is Activated within the system, a user may go into their owned Goals and Key Results to edit, delete, and modify their Key Results. Managers may also go into their direct reports goals and key results to modify accordingly.

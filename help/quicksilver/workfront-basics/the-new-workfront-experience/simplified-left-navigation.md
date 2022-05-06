@@ -27,6 +27,8 @@ Consider the following benefits of the new left panel navigation:
 
   For more information, see the following section in this article: [Use the new left navigation panel](#use-the-new-left-navigation-panel).
 
+* You can customize the left panel by adding a custom section.
+
 ## Left navigation panel replaced most tabs
 
 Currently, the information about an object displays in tabs under the object name in Workfront.
@@ -64,7 +66,16 @@ You must have the following access to perform the steps in this article:
 
 You can access more information about objects or areas from the left panel for various objects or areas in the new Adobe Workfront experience.
 
+Depending on the object or the area you've navigated to, the sections that appear in the left panel are different.
+
 The left panel is available for the following objects:
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: See if there are others here - some things were missing from the Main menu when whis was written.</p>
+<p>MOVE THIS LIST TO THE OBJECTS SECTION)&nbsp;</p>
+</div>
+-->
 
 * Project
 * Task
@@ -72,61 +83,28 @@ The left panel is available for the following objects:
 * Portfolio
 * Program
 * Template
+* Template Task
+* Iteration
 * User
 * Team
+* Group
 
 >[!IMPORTANT]
 >
 >If the left panel displays only one section by default—such as **All Projects** in the **Projects** area—a Workfront administrator must add at least one custom section to this area when building a Layout Template and assign you to that template before the left panel displays in that area.  
 >For information about how a Workfront administrator customizes the left panel in a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
-Depending on the object or the area you've navigated to, the sections that appear in the left panel are different.
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#default-sections-for-objects" class="MCXref xref">Default sections for objects</a> </li>
-  -->
+The left panel is available for the following areas:
 
 * [Default sections in the Dashboards area](#default-sections-in-the-dashboards-area) 
 * [Default sections in the Requests area](#default-sections-in-the-requests-area) 
 * [Default sections in the Resourcing area](#default-sections-in-the-resourcing-area) 
 * [Default sections in the Projects area](#default-sections-in-the-projects-area) 
-* [Default sections in the Timesheets area](#default-sections-in-the-timesheets-area)
+* [Default sections in the Timesheets area](#default-sections-in-the-timesheets-area) 
+* Default sections in the Goals area
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="default-sections-for-objects"><a name="Default2"></a>Default sections for objects</h3>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">There may be additional sections that display The following sections display for most objects:</p>
--->
-
-<!--
-<table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<col>
-<col>
-<tbody>
-<tr>
-<td role="rowheader">Updates</td>
-<td>Displays . Use this area to . For more information, see .</td>
-</tr>
-<tr>
-<td role="rowheader">Details</td>
-<td>Displays . Use this area to . For more information, see .</td>
-</tr>
-<tr>
-<td role="rowheader">Documents</td>
-<td>Displays . Use this area to . For more information, see .</td>
-</tr>
-<tr>
-<td role="rowheader">&nbsp;</td>
-<td>Displays . Use this area to . For more information, see .</td>
-</tr>
-</tbody>
-</table>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn how to use the left panel for an object, see <a href="#use-the-new-left-navigation-panel" class="MCXref xref">Use the new left navigation panel</a>.</p>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Default2"></a> </h3>
 -->
 
 ### Default sections in the Dashboards area {#default-sections-in-the-dashboards-area}
@@ -138,16 +116,16 @@ The following sections display in the left panel for the **Dashboards** area:
 | Shared Dashboards |Displays the dashboards that have been created by other users and shared with you. |
 | All Dashboards |Displays the dashboards that you or other users have created, and which you have permissions to at least View. |
 
-To learn how to use the left panel in the Dashboards area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
+To learn how to use the left panel in the Dashboards area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
 ### Default sections in the Requests area {#default-sections-in-the-requests-area}
 
-| New |Displays the new request queue area where you can submit new requests. |
+| New |Displays the new request queue area where you can submit new requests. (NOTE: this was removed) |
 |---|---|
 | Submitted |Displays requests that you or other users have submitted, and which you have permissions to at least View. Use the filters in the upper-right corner of the request list to view your requests or requests others have submitted and you have access to view.  |
 | Drafts |Displays requests that you have started but you have not submitted them yet. Workfront automatically saves any new request in the Drafts folder, after you have selected your queue topic.  |
 
-To learn how to use the left panel in the Requests area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
+To learn how to use the left panel in the Requests area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
 ### Default sections in the Resourcing area {#default-sections-in-the-resourcing-area}
 
@@ -159,7 +137,7 @@ The following sections display in the left panel for the **Resourcing** area:
  <tbody> 
   <tr> 
    <td role="rowheader">Planner</td> 
-   <td>Displays the Resource Planner. Use this area to plan your resources across multiple projects. For information about using the Resource Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning </a>.</td> 
+   <td>Displays the Resource Planner. Use this area to plan your resources across multiple projects. For information about using the Resource Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Scheduling</td> 
@@ -171,12 +149,12 @@ The following sections display in the left panel for the **Resourcing** area:
   </tr> 
   <tr> 
    <td role="rowheader">Resource Pools</td> 
-   <td>Displays all Resource Pools in Workfront. For information about Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.</td> 
+   <td>Displays all Resource Pools in Workfront. For information about Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</td> 
   </tr> 
  </tbody> 
 </table>
 
-To learn how to use the left panel in the Resourcing area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
+To learn how to use the left panel in the Resourcing area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
 ### Default sections in the Projects area {#default-sections-in-the-projects-area}
 
@@ -186,7 +164,7 @@ The following sections display in the left panel for the **Projects** area:
 |---|---|
 | Custom sections |You can view all the custom sections that your Workfront administrator has added to the left panel for the Projects area in your Layout Template. Custom sections have names that have been customized for your environment. |
 
-To learn how to use the left panel in the Projects area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
+To learn how to use the left panel in the Projects area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
 ### Default sections in the Timesheets area {#default-sections-in-the-timesheets-area}
 
@@ -197,7 +175,24 @@ The following sections display in the left panel for the **Timesheets** area:
 | Timesheets I Approve |Displays timesheets that have been submitted for your approval, by default. To display active or all timesheets where you are the approver, select Active or App from the Filter drop-down menu. |
 | All Timesheets |Displays all timesheets that you have access to view, based on the filters selected in the left Filter area. |
 
-To learn how to use the left panel in the Timesheets area, see [Use the new left navigation panel](#use-the-new-left-navigation-panel).
+To learn how to use the left panel in the Timesheets area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
+
+### Default sections in the Goals area
+
+>[!NOTE]
+>
+>This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md).
+
+The following sections display in the left panel for the **Goals** area:
+
+| Goal List |Displays all the goals that you have access to view. For more information, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).  |
+|---|---|
+| Graphs |Displays the performance of your goals in charts. For more information, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).  |
+| Goal Alignment |Displays the alignment of goals with each other in a hierarchy. For more information, see [Goal alignment overview in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).  |
+| Pulse |Displays a quick overview of all active goals and their progress. For more information, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).  |
+| Check-in |Displays a quick overview of your active goals and their progress. For more information, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) |
+
+To learn how to use the left panel in the Goals area, see the section [Use the new left navigation panel](#use-the-new-left-navigation-panel) in this article.
 
 ## Use the new left navigation panel {#use-the-new-left-navigation-panel}
 

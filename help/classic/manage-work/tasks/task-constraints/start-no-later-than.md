@@ -9,6 +9,10 @@ description: Start No Later Than (SNLT) is a Task Constraint that schedules a ta
 
 # Task Constraint overview: Start No Later Than
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Start No Later Than (SNLT) is a Task Constraint that schedules a task to start prior to the date you specify.
 
 Consider the following when working with the SNLT constraint:
@@ -39,6 +43,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="using-SNLT"></a>Use the Start No Later Than Task Constraint</h2>
+<p>(NOTE: replaced with new article linked above) </p>
 <p>To update the Task Constraint to Start No Later Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

@@ -10,5 +10,6 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* [Currently available beta programs](../../product-announcements/betas/currently-available-betas.md)
+* [Reporting Canvas beta](../../product-announcements/betas/reporting-canvas-beta.md) 
+* [Reporting Canvas beta: known issues](../../product-announcements/betas/reporting-canvas-known-issues.md)
 

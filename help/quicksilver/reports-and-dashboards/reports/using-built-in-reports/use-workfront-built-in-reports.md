@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to add or edit a filter to a report</p> <p>Manage permissions to a filter to edit it in a list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to add or edit a filter to a report</p> <p>Manage permissions to a filter to edit it in a list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +48,7 @@ You can customize a built-in report and save it as a new report. For more inform
 
 The following reports come with the Workfront package. The reports are available to all users who have at least View rights to built-in reports in their access level.
 
-<table cellspacing="15"> 
+<table cellspacing="3"> 
  <col> 
  <col> 
  <thead> 
@@ -343,6 +343,10 @@ The following reports come with the Workfront package. The reports are available
 </table>
 
 ## Access built-in reports
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Section directly linked to "Getting Started with Workfront Reporting." Do not change/ rename.) </p>
+-->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Click **Reports**.

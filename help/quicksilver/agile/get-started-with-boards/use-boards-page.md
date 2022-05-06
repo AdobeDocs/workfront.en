@@ -3,16 +3,18 @@ filename: use-boards-page
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Use the boards dashboard
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: The boards dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
 ---
 
 # Use the boards dashboard
 
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
-
 The boards dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
 
 On the boards dashboard you can archive a board, filter the list of boards, and delete a board. For information about creating a new board or editing an existing board, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+
+>[!IMPORTANT]
+>
+>Boards does not appear in the Main Menu by default. Your Workfront administrator must add Boards to your layout template to make it available in the Main Menu. For information, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Access requirements
 

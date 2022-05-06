@@ -8,6 +8,10 @@ description: When the Primary Contact of an issue makes an update to the issue b
 
 # Automatically update issue statuses from Awaiting Feedback to In Progress
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When the Primary Contact of an issue makes an update to the issue by either updating a field (including a custom field) or adding a comment, the issue status updates to In Progress automatically.
 
 In order for this automatic status change to occur, the following is required:

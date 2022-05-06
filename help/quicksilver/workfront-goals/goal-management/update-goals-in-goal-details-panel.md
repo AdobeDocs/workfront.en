@@ -28,7 +28,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -43,7 +43,7 @@ You must have the following:
    <td> 
     <div> 
      <p>Manage permissions to the goal</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,13 @@ You must have the following before you can start:
 
 ## Update goals in the Goal&nbsp;Details panel
 
-You can access an individual goal which opens the Goal Details panel of the goal from the following sections of Workfront Goals:
+You can access an individual goal which opens the Goal Details panel of the goal from the following sections of Workfront Goals: 
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: change this when you can also access it from Projects?)
+</MadCap:conditionalText>
+-->
 
 * Goal List 
 * Goal Alignment 
@@ -106,7 +112,13 @@ You can access an individual goal which opens the Goal Details panel of the goal
 
       For information about reopening goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md). 
    
-   1. (Conditional) If you clicked any of the options between steps a-i above except Delete or Reopen, click **Save**.
+   1. (Conditional) If you clicked any of the options between steps a-i above except Delete or Reopen, click **Save**.    
+   
+      <!--   
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+      (NOTE:&nbsp;ensure this is accurate)   
+      </MadCap:conditionalText>   
+      -->
 
 1. Click&nbsp;**Align to another goal** in the upper-right of the Summary tab, then specify the name of a goal in the **Align to** **another goal** field that you want to align the current goal to. The current goal becomes the child of the goal you align it to. For information about child and parent goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md). 
 1. Click&nbsp;**Add results**. Results drive the progress of your goal. For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).

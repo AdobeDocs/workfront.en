@@ -4,10 +4,21 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Calculate Budgeted Cost
-description: The Budgeted Cost of a project is the total cost associated with the project as estimated when you plan the project.
+description: (NOTE: This article is linked from "Tracking Project Progress with a Utilization Report"
 ---
 
 # Calculate Budgeted Cost
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: This article is linked from "Tracking Project Progress with a Utilization Report"</p>
+<p>Keep the structure of this article similar to Calculating Budgeted Labor Cost)</p>
+</div>
+-->
 
 The Budgeted Cost of a project is the total cost associated with the project as estimated when you plan the project.
 
@@ -82,7 +93,7 @@ You can view the following Budgeted Cost information in Workfront:
     <tr> 
      <td>Project Budgeted Cost</td> 
      <td> <!--
-       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report</p>
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
       --> <p>Project report</p> <p>Project (Financial Data) report</p> <p>Task report</p> <p>Issue report</p> <p>Budgeted Hour report</p> <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td> 
     </tr> 
    </tbody> 

@@ -3,18 +3,42 @@ filename: lock-or-unlock-a-custom-system-level-status
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Locking or unlocking a custom system-level status
-description: Locking custom statuses is a way to ensure that people are using the same processes in their flow of work. When a status is locked, it’s available to all users in the system . Though you can still edit or delete a status that you lock, group administrators can’t do so for their groups; they can change only its display order in the Status list.
+title: Locked and unlocked system-level statuses
+description: Locking custom statuses is a way to ensure that people throughout your organization are using the same processes in their flow of work. When a status is locked, it’s available to all users in the system. Though you can edit or delete a status that you lock, group administrators can’t do so for their groups; they can change only its display order in the Status list.
 ---
 
-# Locking or unlocking a custom system-level status
-
-Locking custom statuses is a way to ensure that people are using the same processes in their flow of work. When a status is locked, it’s available to all users ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  in the system </MadCap:conditionalText>```. Though you can still edit or delete a status that you lock, group administrators can’t do so for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  their </MadCap:conditionalText>``` groups; they can change only its display order in the Status list.
-
-Conversely, unlocking custom statuses allows group administrators more flexibility to manage the unique workflows used in their groups. When a status is unlocked, group administrators can change its attributes or delete it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  their groups </MadCap:conditionalText>```.
+# Locked and unlocked system-level statuses
 
 >[!IMPORTANT]
 >
->If you lock a custom status after it has been unlocked for any period of time, your ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  system-wide </MadCap:conditionalText>```settings for the status replace those made by group administrators. While the status is locked, group administrators cannot modify or delete the status for their groups.
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+Locking custom statuses is a way to ensure that people throughout your organization are using the same processes in their flow of work. When a status is locked, it’s available to all users in the system. Though you can edit or delete a status that you lock, group administrators can’t do so for their groups; they can change only its display order in the Status list.
+
+Conversely, unlocking custom statuses allows group administrators more flexibility to manage the unique workflows used in their groups. When a status is unlocked, group administrators can change its attributes or delete it for their groups.
+
+>[!IMPORTANT]
+>
+>If you lock a custom status after it has been unlocked for any period of time, your system-wide settings for the status replace those made by group administrators. While the status is locked, group administrators cannot modify or delete the status for their groups.
 
 For instructions on locking or unlocking a system-level status, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+
+<!--
+<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Unlocked statuses in approval processes</h2>
+<ul data-mc-conditions="SnippetConditions-wf-groups.system-level">
+<li>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system. </li>
+<li>Warning messages display in the following scenarios to help you and your users make sure you understand outcomes of the following scenarios:
+<ul data-mc-conditions="SnippetConditions-wf-groups.system-level">
+<li>An administrator unlocks a system-level status that is used in an approval process. A message warns that group administrators might delete the unlocked status for their groups, which would prevent group members from using that approval process properly for objects assigned to their group. </li>
+<li>A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it. </li>
+<li><p>A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.<!--
+<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+Lilit says that this may become irrelevant as the team is trying to see if it’s possible to replace all approval processes on objects within the group, in which case we should not have any missing status cases.
+</MadCap:conditionalText>
+--></p></li>
+</ul></li>
+</ul>
+</div>
+-->
+

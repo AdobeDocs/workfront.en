@@ -28,19 +28,17 @@ The following resources are available for you to learn how to use the Resource S
    * [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)&nbsp;(Available in Early Access)
    * View Assigned Work on the My Work Calendar&nbsp;(Available in Early Access)
 
-* Watch the following videos:
+* Watch the following videos: 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: iframes missing below)
+  </MadCap:conditionalText>
+  -->
+
+* 
 
   ### Scheduling Tool and Filter
-
-  &nbsp;
-
-  ### Manage user allocations (Video)
-
-  &nbsp;
-
-  ### Updated Calendar in the My Work Area (Video)
-
-  &nbsp;
 
 ## Test the Resource Scheduling tools
 

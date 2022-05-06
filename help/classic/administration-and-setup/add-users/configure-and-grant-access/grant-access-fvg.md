@@ -10,13 +10,21 @@ description: As an Adobe Workfront administrator, you can use an access level to
 
 # Grant access to filters, views, and groupings
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an Adobe Workfront administrator, you can use an access level to define a user's access to the filter, view, and grouping controls for lists and reports, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 For information about the filter, view, and grouping controls, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maybe we need an article explaining how there are List Controls as a whole admin set of settings, list controls in Layout Templates, and list elements that users can work with?</p>
+-->
+
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -124,7 +132,18 @@ You must have the following to perform the steps in this article:
 <td>✓</td>
 </tr>
 </tbody>
-</table>
+</table> <!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p style="color: #ff1493;">Add rows for the following? Alina recommended the first four but Gevorg wants the info limited to what the Access Levels UI covers.</p>
+<p style="color: #ff1493;">View reports*</p>
+<p style="color: #ff1493;">Build reports*</p>
+<p style="color: #ff1493;">Edit reports*</p>
+<p style="color: #ff1493;">Share reports*</p>
+<p style="color: #ff1493;">Export lists</p>
+<p style="color: #ff1493;">Apply quick filters to lists</p>
+<p style="color: #ff1493;">* Requires access to reports</p>
+</div>
+-->
 </div>
 -->
 

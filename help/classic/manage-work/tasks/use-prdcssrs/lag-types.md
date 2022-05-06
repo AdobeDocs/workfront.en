@@ -9,6 +9,10 @@ description: Lag is the amount of time that must pass after the completion of an
 
 # Overview of Lag Types
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Lag is the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin (Positive Lag), or the amount of time that a dependent task could start before the predecessor starts (Negative Lag).
 
 The Planned, Projected and Estimated dates of the successor tasks are calculated taking into account the lag and Planned, Projected and Estimated Start (Completion) dates of the predecessor tasks.
@@ -35,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +102,13 @@ You can indicate lag types on tasks when you define their predecessor relationsh
 
      For more information about the abbreviations for Lag Types, see the section [Lag Types overview](#lag-types-overview) in this article.
 
-   For example, to indicate that a task has a predecessor and a positive lag of 2 days, you would enter "1fs+2d" in the Predecessors column. 
+   For example, to indicate that a task has a predecessor and a positive lag of 2 days, you would enter 
+
+   ```
+   1fs+2d
+   ```
+
+   in the Predecessors column. 
 
 1. Click Enter on your keyboard to save the changes to your task.
 
@@ -141,7 +151,7 @@ The following table illustrates the Lag Types and how to indicate the amount of 
      <li>Thursday=5</li> 
      <li>Friday=6</li> 
      <li>Saturday=7</li> 
-    </ul> <p>If you want to indicate that the Planned Start Date of the successor should fall on a Tuesday of the current week, and the Tuesday is prior to the Planned Completion Date of the predecessor, you would code your successor with the following formula: </p> <p><em>4fs-3w</em> </p> <p>Note:  If the Tuesday passed for the week of the Planned Completion Date of the predecessor, then the Planned Start Date of the successor task is the first available working day of that week. </p> <p>If you want to indicate that the lag should fall on a Saturday of the current week, and the Saturday is after the Planned Completion Date of the predecessor, you would code your successor with the following formula:</p> <p><em>4fs+7w</em> </p> <p>If Saturday is a non-working day, the next available day after Saturday (to indicate positive lag) is selected as the Planned Start Date of the successor. </p> <p>To indicate past or future weeks, you can add a number in front of the day number for the lag type. </p> <p>For example, to indicate the Monday of 10 weeks ago, you can use this code to indicate the predecessor of your successor:</p> <p><code>4fs-102w</code> </p> <p>10 indicates 10 weeks ago, and 2 is the number assigned to Monday. </p> </td> 
+    </ul> <p>If you want to indicate that the Planned Start Date of the successor should fall on a Tuesday of the current week, and the Tuesday is prior to the Planned Completion Date of the predecessor, you would code your successor with the following formula: </p> <p><code style="font-style: normal;">4fs-3w</code> </p> <p>Note:  If the Tuesday passed for the week of the Planned Completion Date of the predecessor, then the Planned Start Date of the successor task is the first available working day of that week. </p> <p>If you want to indicate that the lag should fall on a Saturday of the current week, and the Saturday is after the Planned Completion Date of the predecessor, you would code your successor with the following formula:</p> <p><code style="font-style: normal;">4fs+7w</code> </p> <p>If Saturday is a non-working day, the next available day after Saturday (to indicate positive lag) is selected as the Planned Start Date of the successor. </p> <p>To indicate past or future weeks, you can add a number in front of the day number for the lag type. </p> <p>For example, to indicate the Monday of 10 weeks ago, you can use this code to indicate the predecessor of your successor:</p> <p><code>4fs-102w</code> </p> <p>10 indicates 10 weeks ago, and 2 is the number assigned to Monday. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Day of Week Non Zero (k)</p> </td> 

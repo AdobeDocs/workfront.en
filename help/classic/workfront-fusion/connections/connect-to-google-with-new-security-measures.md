@@ -10,6 +10,10 @@ description: You must have the following access to use the functionality in this
 
 # Connect Adobe Workfront Fusion to Google Services with updated security measures
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -105,7 +109,7 @@ These new restrictions only apply if you are integrating Google Drive or Gmail. 
 
 If you want to integrate any other service than Google Drive or Gmail, these restrictions do not apply.
 
-For instructions about connecting other Google Services to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+For instructions about connecting other Google Services to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 ### What should I do if I'm a G Suite user? {#what-should-i-do-if-i-m-a-g-suite-user}
 

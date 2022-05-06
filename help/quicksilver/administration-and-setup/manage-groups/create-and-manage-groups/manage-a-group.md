@@ -5,12 +5,14 @@ product-area: system-administration;user-management
 keywords: manage,group,edit,
 navigation-topic: create-and-manage-groups
 title: Manage a group
-description: The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
+description: Even though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.
 ---
 
 # Manage a group
 
-The highlighted information on this page refers to functionality available only in the new Workfront experience beta.
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Even though this might not seem that helpful because it is more of a catalog/TOC, it's the only article to link to for editing a group. Don't remove it.</p>
+-->
 
 As a group administrator, you can manage a group that you administer from the Groups area in Setup. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
@@ -47,19 +49,49 @@ For instructions, see [View and manage a group’s memberships](../../../adminis
 
 ## Manage a group’s details
 
-You can view and edit the Group Details page for a group or subgroup that you manage. This page includes a description of the group, the names of the Business Leader and group administrators, and an option that allows you to make the group and all of its subgroups public or private. And, if your access level allows you to manage custom forms, you can attach a custom form to a group.
+You can view and edit the Group Details page for a group or subgroup that you manage. This page includes a description of the group, the names of the Business Leader and group administrators, and an option that allows you to make the group and all of its subgroups public or private
+
+<!--
+<span data-mc-conditions="QuicksilverOrClassic.Draft mode">, and an option that allows you to deactivate or reactivate the group</span>
+-->
+
+. And, if your access level allows you to manage custom forms, you can attach a custom form to a group. 
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<span style="color: #ff1493;">Make this change when they add the </span>
+<b style="color: #ff1493;">Is active</b>
+<span style="color: #ff1493;"> option to the Details page!</span>
+</MadCap:conditionalText>
+-->
 
 For instructions, see [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
 ## Edit, copy, or delete a group
 
-Without leaving the main page of a group you are viewing, you can quickly edit, copy, or delete the group.
+Without leaving the main page of a group you are viewing, you can quickly edit, copy, or delete
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+or deactivate
+</MadCap:conditionalText>
+-->
+
+the group. 
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<span style="color: #ff1493;">Make this change when they add the </span>
+<b style="color: #ff1493;">Is active</b>
+<span style="color: #ff1493;"> option to the Details page!</span>
+</MadCap:conditionalText>
+-->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **Groups**.
 
-   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. Select the group, then click the Edit ![](assets/edit-icon.png), Copy ![](assets/copy-icon.png), or Delete ![](assets/delete.png) icon.
 
@@ -149,12 +181,18 @@ When you are viewing a group that you manage in the Groups area, you can view an
 
 For instructions, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) and [Create, modify, and view a group’s programs](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md).
 
+## Deactivate or reactivate a group
+
 <!--
-<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Make a group active or inactive</h2>
-<p>You can keep a group in its default active state or make it inactive.</p>
-<p>Deactivating a group can be useful when it is not currently in use because users no longer see it in type-ahead fields when they are searching for a group that they want to associate with another object.</p>
-<p>For instructions on making a group inactive or active, see the sections <a href="#View" class="MCXref xref">Manage a group</a> and <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive" class="MCXref xref">Inactive groups</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md" class="MCXref xref">View and manage a group’s details</a>. </p>
-</div>
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<span style="color: #ff1493;">Delete this section when they add the </span>
+<b style="color: #ff1493;">Is active</b>
+<span style="color: #ff1493;"> option to the Details page!</span>
+</MadCap:conditionalText>
 -->
 
+You can keep a group in its default active state or deactivate it.
+
+Deactivating a group can be useful when it is not currently in use because users no longer see it in type-ahead fields when they are searching for a group that they want to associate with another object.
+
+For instructions on making a group inactive or active, see [Deactivate or reactivate a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).

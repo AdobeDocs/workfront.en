@@ -4,17 +4,25 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Overview of the areas of the Resource Planner
-description: By using the Resource Planner, you can easily understand the availability of your resources, as well as the planned time necessary to complete the work on your projects. You can then manage the allocation of your users and their job roles on the projects they are assigned to. You cannot manage the allocation of teams on the tasks they are assigned to in the Resource Planner.
+description: (NOTE: whole article is DRAFTED. original doc with all information; this has been split in multiple articles)
 hidefromtoc: true
 ---
 
 # Overview of the areas of the Resource Planner
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: whole article is DRAFTED. original doc with all information; this has been split in multiple articles)</p>
+-->
 
 By using the Resource Planner,&nbsp;you can&nbsp;easily understand the&nbsp;availability of your resources, as well as the planned time necessary to complete the work on your projects. You can then manage the allocation of your&nbsp;users and their job roles&nbsp;on&nbsp;the projects they are assigned to. You cannot manage the allocation of teams on&nbsp;the tasks they are assigned to in the Resource Planner.&nbsp;
 
 For more information about how to budget your resources using the Resource Planner, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 You can find the following areas in the Resource Planner:
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: remove mini-TOC if making this live) </p>
+-->
 
 * [Timeline of Projects](#timeline-of-projects) 
 * [Timeframe Selection](#timeframe-selection) 
@@ -65,8 +73,8 @@ When you change the view, the following information also changes:
 * The object hierarchy (information in the rows of the Resource Planner). 
 * The hour allocation information (information in the columns of the Resource Planner).&nbsp;
 
-For more information about what columns you see in the Resource Planner depending on which view you select, see [Availability and Allocation of Resources](#availability-and-allocation-of-resources). 
-In order to display accurate information in the Resource Planner, you must meet the prerequisites for working with the Resource Planning tools. For more information about the prerequisites that must be met, see the "Understanding Prerequisites for Resource Planning" section in [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).  To change the view in the Resource Planner:
+For more information about what columns you see in the Resource Planner depending on which view you select, see [Availability and Allocation of Resources](#availability-and-allocation-of-resources).  
+In order to display accurate information in the Resource Planner, you must meet the prerequisites for working with the Resource Planning tools. For more information about the prerequisites that must be met, see the "Understanding Prerequisites for Resource Planning" section in [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).   To change the view in the Resource Planner:
 
 1. Go to the **Resource Planner**.  
    For more information about accessing the Resource Planner, see the "Accessing the Resource Planner" section in [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).  
@@ -143,7 +151,7 @@ Consider the following when selecting the User view in the Resource Planner:&nbs
    
    * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
    * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the **Inaccessible Items** section.  
-     For more information about permissions in Adobe Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+     For more information about permissions in Adobe Workfront, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Unique URL for the User View {#unique-url-for-the-user-view}
 
@@ -197,7 +205,7 @@ To obtain a unique URL in the User view of the Resource Planner and share it wit
 
 1. (Optional) If you embedded the URL into a dashboard, consider adding it to a layout template or share the dashboard with other users.  
    For information about adding dashboards to a layout template, see [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).  
-   For information about sharing dashboards, see [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).  
+   For information about sharing dashboards, see [Share a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).  
    When viewing the shared URL, users can see the information with the settings that you originally applied to the Resource Planner.  
    ![](assets/user-view-dashoard-from-unique-url-350x85.png)
 
@@ -362,7 +370,7 @@ The following information displays in the **Options** menus of projects and role
 ## User Name {#user-name}
 
 The users listed in the Resource Planner belong to&nbsp;the Resource Pools associated with the projects.   
-For more information about populating Resource Pools with users, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+For more information about populating Resource Pools with users, see [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 All users that you have access to View and have logged in at least once display in the User view.&nbsp;
 

@@ -2,11 +2,15 @@
 filename: resource-availability-allocation-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
-title: Review resource availability and allocation using the Resource Planner
+title: Review resource availability and allocation using the Adobe Workfront Resource Planner
 description: You can view the availability of your resources and the amount of planned or budgeted work for your projects in the Resource Planner. These values are displayed in Hours, FTE (Full Time Equivalent), or Cost amounts and are organized in columns.
 ---
 
-# Review resource availability and allocation using the Resource Planner
+# Review resource availability and allocation using the Adobe Workfront Resource Planner
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can view the availability of your resources and the amount of planned or budgeted work for your projects in the Resource Planner. These values are displayed in Hours, FTE (Full&nbsp;Time Equivalent), or Cost amounts and are organized in columns.
 
@@ -24,7 +28,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>Review or higher <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       (waiting on Vazgen to confirm - working differenly in classic)
+      </MadCap:conditionalText>
+     --></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -38,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects you want to view in the Resource Planner</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects you want to view in the Resource Planner</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +67,15 @@ The columns that display the availability and allocation of your resources chang
 
 Consider the following when changing your view to the Resource Planner:
 
-* When you apply the **View by Project** or**View by Role** views, you can see the following columns:
+* When you apply the **View by Project** or**View by Role** views, you can see the following columns: 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: Alina: (some of the information in this area is also covered in Calculating Costs in the RP - https://workfront.zendesk.com/hc/en-us/articles/115004186433 - update this article also, when changes here occur)
+  </MadCap:conditionalText>
+  -->
+
+  <![CDATA[ ]]>
 
    * Available Hours, FTE, or Cost
    * Planned Hours, FTE, or Cost
@@ -90,7 +106,7 @@ Consider the following when changing your view to the Resource Planner:
 
 ## View information by Hour, FTE, or Cost
 
-1. Go to the **Resource** **Planner**.
+1. Go to the Resource Planner.
 
    By default, information displays by Hours in the Resource Planner.
 
@@ -109,7 +125,7 @@ Consider the following when changing your view to the Resource Planner:
      </tr> 
      <tr> 
       <td role="rowheader">FTE</td> 
-      <td> <p>Displays availability and allocation information in FTE.</p> <p>For more information about how the FTE is calculated in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md">Calculating Hours and FTE in the Resource Planner</a>.</p> </td> 
+      <td> <p>Displays availability and allocation information in FTE.</p> <p>For more information about how the FTE is calculated in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Cost</td> 
@@ -134,9 +150,8 @@ Consider the following when changing your view to the Resource Planner:
 
 1. In the **Display selected items** section, select the type of information you want to display in the columns of the selected view.&nbsp;The following table shows what options are available in each view:
 
-   | **Option** |**View** |
-   |---|---|
-   | User |Project  |Role  |
+   | **Option** |User View |Project View |Role View |
+   |---|---|---|---|
    | Available |✔ |✔ |✔ |
    | Planned  |✔ |✔ |✔ |
    | Budgeted |&nbsp; |✔ |✔ |
@@ -176,7 +191,7 @@ You can display the Planned Allocation of users against their availability in a 
 
 To display the allocation of users in a chart:
 
-1. Go to the **Resource** **Planner**.
+1. Go to the Resource Planner.
 
    For more information about accessing the Resource Planner, see the [Locate the Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) section in the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 

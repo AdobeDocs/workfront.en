@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Export this report to Excel and save it on your computer.  
    For information on exporting a report, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-## Update the reports
+## Update information about a report
 
 After creating your report, you can update your reports as needed.
 

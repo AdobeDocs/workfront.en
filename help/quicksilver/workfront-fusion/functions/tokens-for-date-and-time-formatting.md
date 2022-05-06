@@ -4,11 +4,11 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Tokens for date and time formatting
+title: Tokens for date and time formatting in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Tokens for date and time formatting
+# Tokens for date and time formatting in Adobe Workfront Fusion
 
 ## Access requirements
 

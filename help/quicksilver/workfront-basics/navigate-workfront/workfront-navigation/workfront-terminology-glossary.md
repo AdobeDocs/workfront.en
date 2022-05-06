@@ -18,104 +18,76 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 <table cellspacing="15"> 
  <col> 
- <col> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Name</th> 
    <th>Description</th> 
-   <th>Maturity level</th> 
-   <th>New</th> 
   </tr> 
  </thead> 
  <tbody> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>Access Level</td> 
    <td>A user profile that determines how a user can interact with different objects and tools within Workfront.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Active Task</td> 
    <td>An incomplete task in a current project that is not prevented from being worked on by a predecessor task and does not have a task constraint with a future planned start date. In other words, it can be worked on today.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Activity</td> 
    <td>In Workfront Goals, an activity is a progress indicator for a goal. It can be a progress bar that you update manually, or a project that is associated with the goal. You cannot display activities in a report and you cannot access them through the Workfront API. For information about activities, see <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Get started with results and activities in Adobe Workfront Goals</a>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Actual&nbsp;Cost</td> 
-   <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all Actual&nbsp;Costs from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a></p> <p>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all Actual&nbsp;Costs from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Actual&nbsp;Expense Cost</td> 
-   <td>Total&nbsp;of the Actual Amounts&nbsp;of all the expenses on a project or a task.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>The sum of the Actual Amounts for all expenses logged for a project or a task.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create an expense for Task 1 and enter $600.00 in the Actual Amount field, the Actual Expense Cost for this task is $600.00. </p> <p>For a project, Workfront uses the following formula to calculate Actual&nbsp;Expense Cost:</p> <p><code>Project&nbsp;Actual&nbsp;Expense Cost = SUM (All Project&nbsp;Actual Expense Costs) + SUM (All&nbsp;Tasks Actual Expense Costs)</code> <br> </p> <!--
+     <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
+    --> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>Actual Hours</td> 
-   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.&nbsp;</p> </td> 
-   <td> <p>Managed</p> </td> 
-   <td>&nbsp;</td> 
+   <td> <p>In a project, task, or issue report, Actual Hours are the sum of all hours logged on the project, task, or issue.&nbsp;</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If from the Updates tab for Task 1, you click ‘Log Time’ and enter 25 hours, the Actual Hours of Task 1 = 25 hours. </p> <p>Workfront calculates Actual Hours for parent tasks or projects using the following formulas:</p> 
+    <ul> 
+     <li> <p><code>For parent tasks = children Actual Hours + Actual Hours on the parent task. </code> </p> </li> 
+     <li> <p><code>For projects = Actual Hours logged on the project + Actual Hours logged on standalone or children tasks in the project</code> </p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td>Actual Labor Cost</td> 
-   <td> <p>For a task, the number of hours logged by a user multiplied by their hourly rate or the rate of their Primary Job&nbsp;Role.&nbsp;</p> <p>For a project, it is a total of all Actual Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>The Actual Cost associated with the labor invested in a task or a project. </p> <p>For a task, Workfront calculates the Actual Labor Cost using the following formula:</p> <p><code>Task Actual Labor Cost = Number of Actual Hours on the task * User or Job Role Hourly Cost Rate</code> </p> <p>Note: If the task has a Cost Type of User Hourly, Workfront uses the user rate. If the task has a Cost Type of Role Hourly, Workfront uses the job role rate to calculate Actual Labor Cost. </p> <p>For a project, Workfront uses the following formula to calculate the Actual&nbsp;Labor Cost:</p> <p><code>Project Actual Labor&nbsp;Cost = SUM(All Tasks Actual Labor Cost) </code> </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>For example, if a user logs 5 hours for a task with a User Hourly&nbsp;Cost Type and their hourly rate is $100, the Actual Labor&nbsp;Cost is $500.</p> <p> <br> </p> </td> 
   </tr> 
   <tr> 
    <td>Actual&nbsp;Revenue </td> 
    <td> <p>The Actual Revenue of a project or a task is the amount of money associated with the Actual Hours of the project or the task. </p> <p>For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>Actual Start</td> 
    <td>The timestamp when a user changes an object in in-progress on work assigned to them.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  <tr data-mc-conditions=""> 
    <td>Ad hoc</td> 
    <td>A type of work process that is unplanned.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Additional Schedules</td> 
     <td>An additional preset to be used for a new user group.</td> 
-    <td>Integrated</td> 
-    <td>&nbsp;</td> 
    </tr>
   --> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr data-mc-conditions=""> 
    <td>Agile Methodology</td> 
    <td>A type of methodology based on the collaborative evolution of needs and solutions with cross-functional teams. It encourages flexibility and change based on a fixed timeline.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr data-mc-conditions=""> 
    <td>Agile Team</td> 
    <td>Differ from traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an Iteration.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>All My Teams</td> 
    <td> <p>When this is referenced in filters, this field displays either users that belong to the any of the teams that the logged-in user belongs to, or work items assigned to any of the teams that the logged-in user belongs to. </p> <p>We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Allocation Date</td> 
@@ -149,97 +121,67 @@ The following table is a list of commonly used terms in Adobe Workfront:
       <li> <p>The Allocation Date is the first day (a Sunday) of the week for which you budgeted the hours in the Resource Planner. </p> <p>Tip:   <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p> </p> <p>For information about budgeting resources in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</p> <p>For information about building a Budgeted Hour report, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>. </p> </li> 
      </ul> 
     </div> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Announcements</td> 
    <td> <p>A way to communicate to users information within the system. This information is often coming from Workfront to the Administrator or from the Administrator to the user. </p> <p>For more information, see <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Send announcements</a></p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>App Integration</td> 
    <td>An app most commonly represents a connector to a software application, but can also represent special functions that manipulate data.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Approver Decision</td> 
    <td> <p>In the Proof Approval report, this field displays&nbsp;proof approval decisions for proofs that are no longer active.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Approver stage</td> 
    <td>In the Proof Approval report, this field displays&nbsp;information about a proofs current stage.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Approval</td> 
    <td> <p>A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. This process of signing off is called approval. </p> <p>For more information, see <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Approval date</td> 
    <td>In the Proof Approval report, this field displays the date a proof was approved.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Approver</td> 
    <td>A user or job role that must sign off on a given work item, or the user that approves hour entries on timesheets.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Assigned To</td> 
    <td> <p>In a Task or Issue report, this field displays the Owner of the task or the issue, or the Primary Assignee. You can filter or group by this field, as well.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Assignment</td> 
    <td>A user, job role, or team assigned to an issue or a task . Projects, portfolios, or programs cannot have assignments.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Assignments</td> 
    <td> <p>In a Task or Issue report, this field displays a list of all entities (users, job roles, teams) that are assigned to the task or issue. You can filter by this field using the fields Assignment Users and&nbsp;Assignment Roles. You can filter by the team assigned to the task or issue using the Team field. You cannot group a report by this field.</p> <p>Note: Work items that have been placed in the Recycle Bin will continue to display in some reports that refer to the Assignment object where an OR filter modifier is used.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Assignment Roles</td> 
    <td>In a Task or Issue report, this field displays information about the job roles assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other job roles assigned to tasks or issues. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Assignment Status</td> 
-   <td> <p>In an assignment, task, or issue report, the Assignment Status displays whether the users assigned to a work item have clicked the Work On It and Done button to accept or complet the work. The following Assignment Statuses exist:</p> 
+   <td> <p>In an assignment, task, or issue report, the Assignment Status displays whether the users assigned to a work item have clicked the Work On It or the Done button to accept or complete the work. The following Assignment Statuses exist:</p> 
     <ul> 
-     <li>Requested: the user has been assigned to the task or issue, but they have not clicked the Work On It button to start working on it yet.</li> 
-     <li>Working: the user has clicked the Work On&nbsp;It button and is currently working on the item. </li> 
-     <li>Done: the user has clicked the Done button and has completed their work on the item. </li> 
-    </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+     <li><b>Requested</b>: the user has been assigned to the task or issue, but they have not clicked the Work On It button to start working on it yet.</li> 
+     <li><b>Working</b>: the user has clicked the Work On&nbsp;It button and is currently working on the item. </li> 
+     <li><b>Done</b>: the user has clicked the Done button and has completed their work on the item. </li> 
+    </ul> <p>For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md" class="MCXref xref">Work On It and Done button overview</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Assignment Users</td> 
    <td>In a Task or Issue report, this field displays information about the users assigned to the tasks or issues.&nbsp;This field displays Primary&nbsp;Owners, as well as other users assigned to tasks or issues. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Attribute</td> 
    <td>An attribute is a trait of a Workfront object.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Audit Area</td> 
@@ -255,62 +197,44 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Status Change</li> 
      <li>Subscription Change</li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Audit Trail</td> 
    <td>The collection of notes automatically generated by events that are tracked through the Recorded Changes (Audit Areas). Each note records who did the action, what they did, and when they did it.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Automatic And On Change</td> 
    <td> <p>One of the Project Update types. This will recalculate the Project's Projected and Planned timelines when the nightly recalculation process runs and when any update is made to the Project or Tasks within the Project. </p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Automatic Only</td> 
    <td> <p>One of the Project Update types. This will recalculate Projected and Planned timelines when the nightly recalculation process runs.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>BAU</td> 
    <td>"Business as usual" work that contributes to running the everday primary business goals.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr data-mc-conditions=""> 
    <td>Backlog</td> 
    <td>The area in an agile environment where new issues are kept until they are ready to be worked on.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>Baseline</td> 
    <td>A source of data to measure iterations against in an agile environment.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
+  <tr data-mc-conditions=""> 
    <td>Billing Record</td> 
-   <td> <p>Records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Create billing records</a>.</p> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
+   <td> <p>Records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Create billing records</a>. </p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Combined from Taxonomy: take hours and expenses recorded in Workfront and create invoices in an external financial system.)</p>
+    --> </td> 
   </tr> 
   <tr> 
    <td>Branding</td> 
    <td>The process of customizing&nbsp;Workfront to give the interface an appearance that mirrors your company by using your colors and logos.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Breadcrumbs</td> 
    <td> <p>The area at the top of the page that shows the hierarchical location of where the user is in the application.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Budget Status</td> 
@@ -323,16 +247,12 @@ The following table is a list of commonly used terms in Adobe Workfront:
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Budgeted Completion Date</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This is a deprecated field that shows the date when the budgeting of resources ends, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. The field is available in project and task reports.&nbsp;</p>
     --> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Budgeted Cost</td> 
@@ -392,10 +312,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issue report</li>
      --> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
+  <tr data-mc-conditions=""> 
    <td>Budgeted Hours</td> 
    <td> <p>These are the hours budgeted for resources for the work they need to complete on projects. This field refers to the Hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner) for the project or for the project resources.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>. </p> 
     <ul> 
@@ -470,15 +388,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Issue report (in the Project: Budgeted Hours field)</li>
      --> 
     </ul> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Budgeted Labor Cost</td> 
    <td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field  may refer to the following:</p> 
     <ul> 
      <li> <p>Labor costs displayed in the Resource Budgeting area of the Business Case or in the Resource Planner that are associated with the cost of job roles on a project. For information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;.&nbsp;</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Labor costs displayed in the Resource Budgeted area of the Business Case that reflect the People Costs estimated in an initiative linked to the project from the Scenario Planner when you use the Scenario Planner to budget your project resources. For information about initiatives, see <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>. </p> <p>Note:  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Labor costs displayed in the Resource Budgeted area of the Business Case that reflect the People Costs estimated in an initiative linked to the project from the Scenario Planner when you use the Scenario Planner to budget your project resources. For information about initiatives, see <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Scenario Planner</a>. </p> <p>Note: The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> </li> 
      <li> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
       --> <!--
@@ -523,54 +439,40 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about calculating the Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;.&nbsp;</p>
     --> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Budgeted Start Date</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;</p> <p>Important: These areas have been removed from&nbsp;Workfront. </p> <p>The field is still visible in project and task reports.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr data-mc-conditions=""> 
    <td>Burndown Chart</td> 
    <td>A line chart that provides a visual representation of completed and remaining work.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
+  <tr data-mc-conditions=""> 
    <td>Business Case</td> 
-   <td> <p>A tool used to evaluate whether a project should be moved forward from the Idea status to the Planning status. In other words, a business case helps the organization decide whether it is worthwhile to launch and complete the project or not, especially when comparing projects with others in a portfolio.</p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.</p> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
+   <td> <p>A tool used to evaluate whether a project should be moved forward from the Idea status to the Planning status. In other words, a business case helps the organization decide whether it is worthwhile to launch and complete the project or not, especially when comparing projects with others in a portfolio.</p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Calculated Assignment</td> 
    <td> <p>One of the task Duration Types. This will calculate the percentage of an 8-hour work day that the user assigned to the task will be allocated to the task, based on the Duration of the task and the Work Required.</p> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Calculated Work</td> 
    <td> <p>One of the task Duration Types. This will calculate the WOrk Required on a task, given the Duration and the user Assignment percentages (which are based on an 8-hour work day).</p> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Calendar</td> 
    <td> <p>There are two types of calendars in Workfront: the Home Calendar and calendar reports.</p> <p>The Home Calendar is a personal calendar that allows a user to manage their workload against their available hours in Workfront. The user can also integrate their Home Calendar with Outlook (Google and Microsoft integration to come). </p> <p>For more information about the Home Calendar, see <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">Home Calendar view</a>.</p> <p>A calendar report is a dynamic report in which users can view the date and other important details of an event, including the due date, status of work, and the user to whom the event is assigned.</p> <p> For more information about calendar reports, see <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Calendar reports overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>Calendar Report</td> 
-   <td>&nbsp;</td> 
-   <td>Managed</td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Can Start</td> 
    <td> <p>This field indicates whether a task is ready to start to be worked on. If the start is ready to be worked on the Can Start field on the task is set to True. </p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">"Can Start" overview for tasks</a>.</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below is drafted because I created a new article linked above with all this information - it was getting kind of too big for just a table cell)</p>
+    --> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront checks for the following things before it marks a task as True for the Can Start field:<br></p>
     --> <!--
      <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -582,14 +484,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
     --> <!--
      <p>Tip: If the Dependency Type between a task and its predecessors is Start-Start, the predecessor must start before the predecessor relationship is considered resolved and the successor tasks can start. For information about dependency types, see <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a>. </p>
     --> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Capacity</td> 
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
-    <td>Integrated</td> 
-    <td>&nbsp;</td> 
    </tr>
   --> 
   <tr> 
@@ -606,8 +504,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>User</li> 
      <li>Company</li> 
     </ul> <p>Iteration</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Category&nbsp;Name</td> 
@@ -624,76 +520,52 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Company</li> 
      <li>Iteration</li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>Change Management</td> 
    <td>A practice area focused on defining, understanding, and adapting planned work to changes in scope, schedule, cost, and resource factors.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
+  <tr data-mc-conditions=""> 
    <td>Change Order</td> 
    <td>A type of issue raised against a project that outlines a requested change to the agreed scope.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Change Only</td> 
    <td>One of the Project Update Types. It only updates Project Projected and Planned timelines when Updates are made to Tasks or edits are performed on the Project or Tasks.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Change Order</td> 
    <td> <p>One of the Issue types, usually indicating that an unplanned amount of work must be done before the project can be completed.</p> <p>For more information on Issue types, see the section "Default issue types" in the article <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md" class="MCXref xref">Customize default issue types</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Child Task</td> 
    <td>A task that is a Subtask of a Parent Task (Summary Task).</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Children</td> 
    <td>The collection of Subtasks to a Parent Task (Summary Task).</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>Coaching and Training</td> 
    <td>Learning modules, certifications, standards, or a community of practice.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Commit</td> 
    <td>A communication tool for users to set expectations regarding task deliverables.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>Commit Date</td> 
    <td>A communication tool for user's to set expectations around task deliverables.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  <tr data-mc-conditions=""> 
    <td>Communication and Reporting</td> 
    <td>Standards to review the exceptions and health of a project, program, or portfolio</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  <tr data-mc-conditions=""> 
    <td>Company</td> 
    <td> <p>A Company is an organizational unit in Workfront. </p> <p> You can associate a user or a project with one company. For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Create and edit companies</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">An organizational unit in Workfront that can define a user's financials, permissions, access and organizational hierarchy.</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">An organizational unit in Workfront that can define a user's financials, permissions, access and organizational hierarchy. (NOTE: From Taxonomy) </p>
     --> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Completion date</td> 
@@ -703,14 +575,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Planned Completion Date. For more information, see <a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a> and <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task Planned Completion Date</a>.</li> 
      <li>Projected Completion Date. For more information, see <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Overview of the Projected Completion Date for projects, tasks, and issues</a>.</li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Completion Day</td> 
    <td>The day, relative to the start of the Template, that a Template Task or a Template is supposed to be complete.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Completion Mode</td> 
@@ -719,8 +587,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Manual: A user must change the project status to Complete.</li> 
      <li>Automatic: The project status will automatically change to Complete when all of the tasks in the project are 100% Complete and all of the issues are closed.</li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Condition</td> 
@@ -740,14 +606,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Some Concerns<br></li> 
      <li>Major Roadblocks</li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Condition Update</td> 
    <td> <p>This field shows the current condition of tasks, projects or issues. This option&nbsp;shows the most recent&nbsp;updates&nbsp;that the owners of tasks, projects or issues&nbsp;have provided in the Update Status field, along with the new condition.&nbsp;</p> <p>Comments made on condition updates are not displayed in the Condition Update column; only the main update is displayed.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Constraint Date</td> 
@@ -757,9 +619,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Must Finish On</li> 
      <li>Start No Later Than</li> 
      <li>Start No Earlier Than</li> 
-    </ul> <p>Note:   Constraint Date is only viewable in a report or customized view. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+    </ul> <p>Tip:   
+     <ul> 
+      <li> <p>A task with a Constraint of Fixed Dates has no&nbsp;Constraint Date. </p> </li> 
+      <li> <p> Constraint Date is only viewable in a report or customized view.</p> </li> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td>Constraint Day</td> 
@@ -769,49 +633,35 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Must Finish On</li> 
      <li>Start No Later Than</li> 
      <li>Start No Earlier Than</li> 
-    </ul> <p>Note:   Constraint Day is only viewable in a report or customized view. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+    </ul> <p>Tip:   Constraint Day is only viewable in a report or customized view. </p> </td> 
   </tr> 
   <tr> 
    <td>Constraint Type</td> 
    <td> <p>The scheduling tendency of a Task. For example, As Soon as Possible will schedule a Task to begin as soon as possible, and Finish No Later Than will schedule a Task to finish by the Constraint Date and no later.</p> <p>For more information, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Contextual Menu</td> 
    <td>A menu, located on the left side of the screen, on which the items change to correlate with the active content. For example, when a user is viewing a Project, the Contextual Menu will display links to Project-related information and tools.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Converted Issue Originator</td> 
    <td>A field in a project or task report that displays information about the user who is the Primary Contact of an issue when the issue is converted into a project or task. The field also displays in the Project Details  section  where it displays the name of the Primary Contact of the converted issue. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+  <tr data-mc-conditions=""> 
    <td>Cost</td> 
    <td> <p>The monetary amount that you must spend when completing a project, task, or issue. </p> <p>You can track various types of costs for labor, expenses, risks that relate to the project.&nbsp;For information about tracking costs in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A measurement of the amount of time and effort for work</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A measurement of the amount of time and effort for work (NOTE: From Taxonomy) </p>
     --> </td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Cost Type</td> 
    <td>For a task, the Cost Type determines how the task will accrue costs. Some examples include Fixed Hourly, User Hourly, and User Hourly plus Fixed. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Cross-Project Dependencies</td> 
    <td> <p>A task of one project is dependent on a task from a different project.</p> <p>For more information, see <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Create cross-project predecessors</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+  <tr data-mc-conditions=""> 
    <td>Custom Data</td> 
    <td> <p>Data that is unique to an organization. Organizations can customize the Workfront application by creating custom forms and custom fields. This custom information can drive reporting for KPIs, auditing, and demand mix. </p> <p>Custom Data can be linked to:</p> 
     <ul> 
@@ -826,50 +676,34 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Programs</li> 
      <li>Iterations</li> 
     </ul> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Custom Data Type</td> 
    <td>The option to specify if a Custom Data Field is stored in the database as Text, a Date, a Number, or Currency.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Custom Display Type</td> 
    <td>The field display type of a custom field. Examples include Drop-Down, Text Field, Text Area, Radio Buttons, etc.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Custom Field</td> 
    <td>For Custom data that allow the user to select from several options, these are the values from which a User can select. Custom Options are only valid on Drop-Down, Multi-Select Drop-Down, Radio Buttons, and Checkboxes.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Custom Form Label</td> 
    <td>When using a Custom Display Type with Custom Options, this is the User Interface text that will display in the Drop-Down menu, the Checkboxes, or the Radio Buttons for that Custom Option.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Custom Value</td> 
    <td>When using a Custom field with Custom Options, this is the value that will be store in the database for a particular Option.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Custom View</td> 
    <td>A definition of the data fields, or columns, that are displayed for each object in a list.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Customer</td> 
    <td>An organization that uses an instance of Workfront.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
@@ -878,108 +712,78 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 <table cellspacing="15"> 
  <col> 
- <col> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Name</th> 
    <th>Description</th> 
-   <th>Maturity Level</th> 
-   <th>New</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Dashboards</td> 
    <td> <p> You can add this field in a report or a list of the report object, to display the dashboards on which the report is listed in a list. </p> <p> You can use this field to filter for reports that are listed on a specific dashboard, as well. </p> <p> For more information about including dashboard information on report object reports, see the “Understanding What Reports Are Listed on Dashboards” section in the article <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">Access and organize reports</a></p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Data Type</td> 
    <td>See <i>Custom Data Type</i>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Days Late</td> 
    <td> <p>This field shows a date difference between Planned Start and Today if the Actual Completion Date is missing.</p> <p>Also&nbsp;shows a date difference between Actual Completion and Planned Completion, when an Actual Completion Date is present.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Default Schedule</td> 
    <td> <p>Customizable default working hours to be assigned to users and projects within an organization. </p> <p>Schedules are used to calculate the planned, start, and completion dates of tasks that are assigned to users.</p> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Deliverable</td> 
    <td>Quantifiable goods or services that must be provided upon the completion of a project.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Demand Management</td> 
    <td>Scoring and prioritization of the intake processes.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Department Goals</td> 
    <td>Goals unique to a specific department that focus on improving operational metrics within the department.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Dependency</td> 
    <td>The link between two tasks that require one task to change status before the other task can also change status.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Dependency Type</td> 
    <td> <p>The type of scheduling relationship between a task and its predecessor(s). One example is Finish-Start, which requires that the fist task must Finish before the second task can Start.</p> <p>For more information, see <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Document</td> 
    <td>Any file that is attached to an object within Workfront.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Document Version</td> 
    <td> <p>Each time the same document is uploaded to the same object, it is assigned a version number. Users can view and change several options for a previous version of a document.</p> <p>For more information, see <a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">Manage document versions</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Duration</td> 
-   <td> <p>The window of time allocated for completion of a task issue, or project (as determined by the number of days between the Planned Start and the Planned Completion). </p> 
+   <td> <p>The window of time allocated for completion of a task issue, or project (as determined by the number of days between the Planned Start and the Planned Completion). <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        (NOTE: From Taxonomy) 
+      </MadCap:conditionalText>
+     --></p> 
     <ul> 
      <li>For tasks, the Duration is an editable field if the Duration Type of the task is not Simple. If the Duration Type of the task is Simple, or if the Task Constraint is Fixed Dates, the Duration is a calculation performed by Workfront.&nbsp;</li> 
      <li>For issues, the Duration is always an editable field and it should represent an estimate of a number of days that would require the issue to be resolved.&nbsp;</li> 
      <li>For projects, the Duration is a calculation performed by Workfront and it represents the difference in days between the Planned Start of the earliest task and the Planned Completion of the latest task on the project.&nbsp;</li> 
     </ul> <p>For more information about the difference between Duration and Planned Duration for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between Planned Duration and Duration for tasks</a>.</p> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Duration in Minutes</td> 
    <td>This field displays the same information as the Duration field in minutes instead of days. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc,QuicksilverOrClassic.Quicksilver"> 
    <td>Duration per Occurrence</td> 
-   <td> <p>This displays in the Task&nbsp;Details and the Edit Task boxes of a parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p>Note: <span>Durations modified in individual recurring tasks do not display the value indicated in this field. </span> </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>This displays in the Task&nbsp;Details and the Edit Task boxes of a parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p>Note: <span>Durations modified in individual recurring tasks do not display the value indicated in this field.</span> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Duration Type</td> 
@@ -992,20 +796,14 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
     --> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Duration Unit</td> 
    <td>The unit that is used to measure time in a power search.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Effort Driven</td> 
    <td>The relationship between the number of users and the amount of time the task will take to complete. As you add more users, the total time scheduled for the task to complete decreases, but the duration of the task stays the same. For example if a task is shelling a barrel of peanuts, adding more people will decrease the time scheduled, but the duration in person-days will remain the same.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Elapsed Time</td> 
@@ -1017,86 +815,58 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li> <p>Elapsed Weeks</p> </li> 
      <li> <p>Elapsed Months</p> </li> 
     </ul> <p>For more information about task duration, including elapsed time, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>End Date</td> 
    <td> <p> In a Rate report, this is the date when a new billing rate for a job role at the project level ends. The hours associated with the project that are before this date are multiplied by this billing rate to calculate the revenue on the project. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Engagement</td> 
    <td>The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, “Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?”</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Enterprise Goals</td> 
    <td>Cross-functional goals that contribute to the metrics of the company goals.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Event</td> 
    <td>Any change in a project or task.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Event Handler</td> 
    <td>Automated tasks that occur when Events take place. A common example is an automated email notification.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Event notification</td> 
    <td>Email that is generated from an event handler.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Expenses</td> 
    <td>A non-labor cost on tasks or projects.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>External</td> 
    <td> <p>Typically, a license type, or a user with such a license, which only has the ability to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>External System</td> 
    <td>Any services or software that is stored and governed outside the designated system of record.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Filter</td> 
    <td> <p>One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> <p>The Filter determines the results that display in a report or on an Workfront panel listing, like projects, tasks, or issues.</p> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Financial Work Management</td> 
    <td>Process to manage labor costs, expenses, and revenue data in Workfront.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Fixed Cost</td> 
    <td>You can define a fixed amount of cost for a project. This is part of the Planned Cost of the project which represents the amount of money that you need to complete the project. For information about costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Fixed&nbsp;Revenue</td> 
    <td>You can define a fixed amount of revenue for a project. This is part of the Planned Revenue of the project which represents the amount of money that you might obtain if you complete the project. For information about revenue, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Flags</td> 
@@ -1105,27 +875,14 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li> Templates </li> 
      <li> Expenses </li> 
     </ul> <p> For more information, see the article <a href="../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md" class="MCXref xref">Built-in Status Icons in Views</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Folder</td> 
    <td>Folders are used to organize documents or reports associated with an object.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> 
-    <td>Form Types</td> 
-    <td>If you create a report or list containing all of your custom forms, you can use this field as a view or filter to see which object types are associated with each form. </td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
-   </tr>
-  --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
     <td>FTE</td> 
     <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
-    <td>Integrated</td> 
-    <td>&nbsp;</td> 
    </tr>
   --> 
  </tbody> 
@@ -1135,191 +892,147 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 <table cellspacing="15"> 
  <col> 
- <col> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Name</th> 
    <th>Description</th> 
-   <th>Maturity level</th> 
-   <th>New</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Gantt Chart</td> 
    <td> <p>A visual timeline of the project dates in a calendar view based on the planned or projected dates as the tasks of the project are currently scheduled.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Goal</td> 
-   <td> <p>There are two concepts of goals in Workfront: </p> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this stays in both NWE and Classic &gt;&gt; because goals information is visible in reports in classic too!)</p>
+    --> <p>There are two concepts of goals in Workfront: </p> 
     <ul> 
      <li> <p>A set of business objectives agreed to by the relevant stakeholders. Project goals are part of the Business Case of a project. </p> <p>You cannot display project goals in lists or reports but you can access them through the API. </p> <p>For information about Business Case project goals, see <a href="../../../manage-work/projects/define-a-business-case/create-business-case-goals.md" class="MCXref xref">Create Business Case goals </a>. </p> </li> 
-     <li> <p>A strategic goal is an objective that you create to plan your work strategy for a specific time-period. You can create these types of goals using Workfront Goals. Your organization must purchase an additional license and you must have access to&nbsp;this feature to be able to create strategic goals. Workfront Goals are available only in the new Adobe Workfront experience. </p> <p>For more information, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> <p><span>You can display strategic goals in a goal or a <span data-mc-edit-date="2021-03-30T16:48:49.6542009-04:00" data-mc-editor="alinawilson" data-mc-comment="drafted and keep yellow for 21.2 preview; link is hard coded" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-03-30T16:48:36.1773431-04:00">project</span> report and access them through the API</span>. </p> </li> 
+     <li> <p>A strategic goal is an objective that you create to plan your work strategy for a specific time-period. You can create these types of goals using Workfront Goals. Your organization must purchase an additional license and you must have access to&nbsp;this feature to be able to create strategic goals. Workfront Goals are available only in the new Adobe Workfront experience.<!--
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+          (NOTE: stays in both QS and classic) 
+        </MadCap:conditionalText>
+       --></p> <p>For more information, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> <p><span>You can display strategic goals in a goal or a <span data-mc-edit-date="2021-03-30T16:48:49.6542009-04:00" data-mc-editor="alinawilson" data-mc-comment="drafted and keep yellow for 21.2 preview; link is hard coded" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-03-30T16:48:36.1773431-04:00">project</span> report and access them through the API</span>. </p> </li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Goal Hierarchy</span> </td> 
-   <td> <p>In Goal and Project reports, this is a collection field that displays the goals in the hierarchy that a strategic goal belongs to when it aligns to other goals. The goals are separated by a ▸ delimiter. </p> <p>Only the parents of the goal and the goal display in this field. Children goals do not display. </p> <p>For information about aligning goals in Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_alignment%2Fgoal-alignment-overview.htm&amp;_LANG=en" target="_blank">Goal alignment overview in Workfront Goals</a>. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays in both QS and classic)</p>
+    --> <p>In Goal and Project reports, this is a collection field that displays the goals in the hierarchy that a strategic goal belongs to when it aligns to other goals. The goals are separated by a ▸ delimiter. </p> <p>Only the parents of the goal and the goal display in this field. Children goals do not display. </p> <p>For information about aligning goals in Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_alignment%2Fgoal-alignment-overview.htm&amp;_LANG=en" target="_blank">Goal alignment overview in Workfront Goals</a>. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Goal Success Score</td> 
    <td> In a Project report this field used to refer to project-level goals associated with the Business Case. Currently, this is a deprecated field and is not associated with any functionality.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Goals</span> </td> 
-   <td> <p><span>In a Project report, this is a collection field that displays all the goals that are associated with a project. The goals are separated by commas.</span> </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays in both QS and classic)</p>
+    --> <p><span>In a Project report, this is a collection field that displays all the goals that are associated with a project. The goals are separated by commas.</span> </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
   </tr> 
   <tr> 
    <td>Global Interface Preferences</td> 
    <td>Interface settings that affect all users. Global Interface Preferences can be overwritten by the User Interface Preferences.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Group</td> 
    <td> <p>A collection of users (possibly from the same department or business unit) that have access to the same objects. In addition to users, groups can be associated with portfolios, programs, projects,<span> project templates,</span> companies, teams, schedules, layout templates, and timesheet profiles.</p> <p>You can also grant permissions to objects by group. For more information, see <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Groups overview</a>.</p> <p>In a list or report of objects of one of the following types, you can use the Group field to list which objects of that type are associated with a particular group: user, portfolio, program, project, <span>project template</span>, company, team, schedule, layout template or timesheet profile.</p> </td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Group Administrator</td> 
    <td> <p>Users who manage the objects, access, and users of designated user groups.</p> <p> In a Group report, this field displays the names of the users designated as Group Administrators in the Group. For more information about Group Administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Group with Administration Access</td> 
    <td> <p> In a Layout Template, Timesheet Profile, or Schedule report, this field displays the Groups whose Group Administrators have access to modify the template. You can also filter this report by this field. </p> <p> For more information, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Grouping</td> 
    <td> <p>A reporting element used to categorize information in a list by a common criterion.</p> <p>For more information, see the "Groupings" section in the article <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Handoff Date</td> 
    <td> <p>The date when a task becomes available for work. The Handoff Date is a calculation and cannot be set manually. <br>For more information about the Handoff Date, see the article <a href="../../../manage-work/tasks/task-information/handoff-task-date.md" class="MCXref xref">Task Handoff Date overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Help Desk</td> 
    <td>The portion of Workfront that holds all issue queues. The Help Desk can be used to process customer support tickets, project requests, help desk tickets, etc. This is the same as the Requests area.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Owner</td> 
    <td>In an Hour report, the&nbsp;Owner is the user to whom the hours are attributed. This is different than the user who is actually logging the time. These two entities can sometimes be two different users. <br>For more information about logging time for another user, see the article <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Hour Type</td> 
    <td> <p>An attribute that can be set for Actual Hours that users log for tasks, issues, or projects. This is also an attribute for the hours logged that are not directly linked to work, such as Vacation and Time Off.</p> <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md" class="MCXref xref">Manage hour types</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>ID</td> 
+   <td> <p>The ID is an alphanumeric indicator associated with every object in&nbsp;Workfront. It uniquely identifies each object in the Workfront database. You can view the ID of any object in a report or a list for each object. </p> <p>Tip:   <p>You can also view the ID in the URL of the object's page. For example, the ID of a project might look something like the number outlined in the following URL, when you access the Project&nbsp;Details page:</p> <p><code>https://&lt;your domain&gt;.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Individual Goals</td> 
    <td>Individual goals which contribute to the metrics of the team goals, but not related to personal or career development.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Inherited Access</td> 
    <td>Sharing function that allows access to propagate from object to another. For example, project user's inherit access defined in program and portfolio records.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Initiative</td> 
-   <td> <p>In&nbsp;the Workfront Scenario Planner, you can divide a plan into several initiatives to make it easier to manage the plan. <span>You can build an Initiative report and you can access Initiative information in a Project report.</span> </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <p>The Initiative report is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. You cannot access Initiatives through the API. For information about initiatives in the Scenario Planner, see <a href="https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience">Initiatives overview in the Workfront Scenario Planner</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>In&nbsp;the Workfront Scenario Planner, you can divide a plan into several initiatives to make it easier to manage the plan. <span>You can build an Initiative report and you can access Initiative information in a Project report.</span></p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p>The Initiative report is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. You cannot access Initiatives through the API. For information about initiatives in the Scenario Planner, see <a href="https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience">Initiatives overview in the Workfront Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Initiative Job&nbsp;Role</span> </td> 
-   <td> <p><span>The Initiative Job&nbsp;Role report type displays information about the job roles associated with a plan initiative in the Workfront Scenario Planner. </span> </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <p><span>This report type is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. For information about initiatives in the Scenario Planner, see</span> <a href="https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience">Initiatives overview in the Workfront Scenario Planner</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p><span>The Initiative Job&nbsp;Role report type displays information about the job roles associated with a plan initiative in the Workfront Scenario Planner.</span> </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p><span>This report type is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. For information about initiatives in the Scenario Planner, see</span><a href="https://one.workfront.com/s/csh?context=2066&amp;pubname=the-new-workfront-experience">Initiatives overview in the Workfront Scenario Planner</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Initiative Job&nbsp;Role Hours</span> </td> 
-   <td> <p><span> In an Initiative Job&nbsp;Role report, this displays the number of hours associated with a job role in an initiative. </span> </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <p><span>This field and the Initiative Job&nbsp;Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. </span><span>For information about initiatives in the Scenario Planner and associating them with job roles, see <a href="https://one.workfront.com/s/csh?context=2061&amp;pubname=the-new-workfront-experience">Create and edit initiatives in the Workfront Scenario Planner.</a> </span> </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p><span> In an Initiative Job&nbsp;Role report, this displays the number of hours associated with a job role in an initiative.</span> </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p><span>This field and the Initiative Job&nbsp;Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.</span><span>For information about initiatives in the Scenario Planner and associating them with job roles, see <a href="https://one.workfront.com/s/csh?context=2061&amp;pubname=the-new-workfront-experience">Create and edit initiatives in the Workfront Scenario Planner.</a></span> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Initiative Job&nbsp;Role Count</span> </td> 
-   <td> <p><span>In an Initiative Job&nbsp;Role report, this displays the number of a specific job role associated with an initiative. </span> </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <p><span>This field and the Initiative Job&nbsp;Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. For information about initiatives in the Scenario Planner and associating them with job roles, see</span> <a href="../../../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Adobe Workfront Scenario Planner</a></p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p><span>In an Initiative Job&nbsp;Role report, this displays the number of a specific job role associated with an initiative.</span> </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p><span>This field and the Initiative Job&nbsp;Role report type are not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license. For information about initiatives in the Scenario Planner and associating them with job roles, see</span><a href="../../../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Scenario Planner</a> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Initiative Last Published Date</span> </td> 
-   <td> <p><span>A field in an Initiative, Initiative Job Role, and Project reports that displays the date that a plan initiative was last published to a project. You can publish initiatives to create projects or to update projects linked to the initiatives. </span> </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <p><span>For information about publishing initiatives, see </span><a href="https://one.workfront.com/s/csh?context=2153&amp;pubname=the-new-workfront-experience">Publish scenarios to create and update projects in the Workfront Scenario Planner</a><span>. This field is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.</span> </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p><span>A field in an Initiative, Initiative Job Role, and Project reports that displays the date that a plan initiative was last published to a project. You can publish initiatives to create projects or to update projects linked to the initiatives.</span> </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p><span>For information about publishing initiatives, see</span><a href="https://one.workfront.com/s/csh?context=2153&amp;pubname=the-new-workfront-experience">Publish scenarios to create and update projects in the Workfront Scenario Planner</a><span>. This field is not visible in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.</span> </p> </td> 
   </tr> 
   <tr> 
    <td>Inline Search</td> 
    <td>A search performed, in the process of completing a form, to find possible entries for one specific field.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Interface Setup</td> 
    <td>The area of the application that allows defining Custom Views, Filters, Groupings, List Controls, etc.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Is Company Goal</span> </td> 
-   <td> <p>In goal reports, this displays a "True/ False"&nbsp;value for each strategic goal to indicate whether your organization is assigned to the goal as its owner. </p> <p>This requires an additional license. For information about Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p><span>Is Company</span> </p> <p><span>Goal</span> </p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;it stays in both QS and classic)</p>
+    --> </td> 
+   <td> <p>In goal reports, this displays a "True/ False"&nbsp;value for each strategic goal to indicate whether your organization is assigned to the goal as its owner. </p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;link in the second snippet below is hard-coded for Goals)</p>
+    --> <p>This requires an additional license. For information about Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Issue</td> 
    <td> <p>An unplanned work item that usually indicates that there is a problem preventing the completion of a task or project. It is triaged and evaluated for further work effort consideration</p> <p>An Issue can also be a Help&nbsp;Desk request. Change Orders, Requests, and Bugs are also Issues.</p> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Issue Management</td> 
    <td> <p>The process and rules governing the definition of issue types and the routing, triage, or traffic process associated with each type.</p> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Issue Owner</td> 
    <td>The team or users responsible for triaging and completing an issue.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Iteration</td> 
    <td>A period of time in which a team produces a pre-defined set of deliverables.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1328,49 +1041,33 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 <table cellspacing="15"> 
  <col> 
- <col> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Name</th> 
    <th>Description</th> 
-   <th>Maturity level</th> 
-   <th>New</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Job Role</td> 
    <td> <p>Used to identify a user's day-to-day job functions and responsibilities. Job roles can be assigned to work items to identify the required skill needed to complete a work process without assigning it to a specific user. </p> <p>A user can have more than one role. Examples include Graphic Designer or Consultant.</p> <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> </td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Journal Entry</p> </td> 
    <td> <p>A reportable object that tells you information about system updates for tracked fields that appear in the Updates area of projects, tasks, issues, and other objects.</p> <p>To learn more, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Report on the Updates area</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Kanban Flag</td> 
    <td> <p>In a Task Report or Issue Report,&nbsp;the Kanban Flag field displays the flag status that is set on the story on the Kanban board. Possible values are On Track, Ready to Pull, and Is Blocked.</p> <p>For more information about setting flag status on stories on the Kanban story board, see&nbsp; the article <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">Use flags on stories on the Kanban board</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>KPIs</td> 
    <td>A measurable value that demonstrates how effectively a company is achieving key business objectives.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Lag</td> 
    <td>Amount of time that must pass after the predecessor task's Planned Completion Date has passed until the dependent task can begin.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Lag Types</td> 
@@ -1381,68 +1078,48 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Percent</li> 
      <li>Day of Week</li> 
     </ul> <p>For more information, see the section "Lag Types overview" in <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Overview of Lag Types</a></p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Large Thumbnail</td> 
-   <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p>Select <strong>Large Thumbnail</strong>to view a 400 pixel-wide thumbnail in the report.</p> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> <p>See also "Thumbnail" in this document.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p>Select <strong>Large Thumbnail</strong> to view a 400 pixel-wide thumbnail in the report.</p> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> <p>See also "Thumbnail" in this document.</p> </td> 
   </tr> 
   <tr> 
    <td>Last 10 Viewers</td> 
    <td> <p>In a report list, this field displays the names of up to 10 users who have viewed the report most recently.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Last Condition Note</td> 
    <td> <p>This field displays the update last entered on an object by the&nbsp;owner of the object, This is the owner's most recent activity or interaction on an object.</p> <p>The Last Condition Note column is&nbsp;empty if the note text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Last Finance Update Date</td> 
    <td>In a project report, this field captures the date and the time when the project finances were last calculated and updated. For information about project finances, see <a href="../../../manage-work/projects/project-finances/project-finances-overview-1.md" class="MCXref xref">Project finances overview</a>. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Last Note</td> 
-   <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.</p> <p>Note: When this field is added to a Task report, any updates left on child objects—such as issues, subtasks, documents, etc.—of the task do not display in this column.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>This field displays the update last entered on an object by any user. This is the most recent activity or interaction on an object.</p> <p>The Last Note column is empty if the text of the last note of an object has been deleted. When a new note is entered on the object, it becomes the last note and it displays again in the column.</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Follow up and see if this is fixed after New Reporting releases.) </p>
+    --> <p>Note: When this field is added to a Task report, any updates left on child objects—such as issues, subtasks, documents, etc.—of the task do not display in this column.</p> </td> 
   </tr> 
   <tr> 
    <td>Last Viewed By</td> 
    <td> <p>In a report list, this field displays information about the user who viewed the report last.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.<br></p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Last Viewed Date</td> 
    <td> <p>In a report list, this field displays the date on which the report was displayed last.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Layout Template</td> 
    <td>Defined by the System Administrator or Group Administrator to identify the tabs and reports that display in a given user's workspace.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Layout Type</td> 
    <td>In conjunction with Custom Views, the Layout Type specifies the type of Custom View. Currently, only List is available. In the future, Detail (the Detail view of an object) may become available.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Legacy Budgeted Cost</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </p> <p>See <i>Budgeted Cost</i>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Legacy Budgeted Hours</td> 
@@ -1453,8 +1130,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
        <br>If there&nbsp;are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.&nbsp; 
       </MadCap:conditionalText>
      --></p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Legacy Budgeted Labor Cost</td> 
@@ -1467,52 +1142,36 @@ The following table is a list of commonly used terms in Adobe Workfront:
     --> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;&nbsp;</p>
     --> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Legacy Resource Pool</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>Although not recommended, you may update the information in this report using the API.</p> <p>See <i>Resource Pools</i>. </p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Library Task</td> 
    <td>A template for a single task that is used to provide consistent naming of Tasks and Template Tasks across the application.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>License Type</td> 
    <td>The type of license allocated to an Access Level. It is either Full User, Limited User, or Requester.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>License Limit Plan</td> 
    <td> <p>In a Group view or report, this field shows the maximum number of Plan licenses that can be assigned to users who have the respective group designated as their Home Group.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>License Limit Work</td> 
    <td> <p>In a Group view or report, this field shows the maximum number of Work licenses that can be assigned to users who have the respective group designated as their Home Group.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Limited User</td> 
    <td>A License Type that allows creation of an Access Level that contains view-only privileges, with the ability to submit issues, enter notes, and upload documents.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>List Controls</td> 
    <td> <p>A part of Interface Setup that allows linking custom Filters, Views, and Groupings to individual Users or globally to all Users.</p> <p>For more information, see <a href="../../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md" class="MCXref xref">Edit list controls: filters, views, and groupings</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1521,117 +1180,81 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 <table cellspacing="15"> 
  <col> 
- <col> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Name</th> 
    <th>Description</th> 
-   <th>Maturity level</th> 
-   <th>New</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Manual Only</td> 
    <td> <p>One of a Project's Update Types. This setting allows Project Projected and Planned timelines to be updated only when "Recalculated Timelines" is clicked. Projects set up this way will be ignored during the lightly recalculation process and when the Project or Task in the Project are updated.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Me</td> 
    <td> <p>This refers to the currently logged-in user. </p> <p>We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Max Users</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p> <p>In previous releases of Workfront, you could update this field when creating or editing a job role. It displayed the total number of users that can be associated with a role on each project. A value of zero allowed for an unlimited number of users that can be assigned on a project. </p>The field is still visible in some reports and lists, but the information displayed cannot be updated. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Milestone</td> 
    <td> <p>A marker that you can associate with a task to indicate that a key point in the Project has been achieved when the task is completed. You generally can use milestones to show a significant event such as the completion of a phase of the project or a set of critical activities. Milestones are typically associated with parent tasks. You must create the milestones before you can attach them to tasks. For information about milestones, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Create a milestone path</a> and <a href="../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md" class="MCXref xref">Associate milestones with tasks</a>. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A way to observe, measure, and monitor the progress or performance of a project, often tied to approvals.</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A way to observe, measure, and monitor the progress or performance of a project, often tied to approvals. (NOTE: From Taxonomy) </p>
     --> </td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Milestone Path</td> 
    <td>A collection of milestones. Milestone Paths are used on Projects to distinguish Projects with certain types of Milestones from Projects with a different set of Milestones.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Milestone Task</td> 
    <td>A task flagged to indicate a reportable event to measure.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Module</td> 
    <td>A single step within a scenario that performs some function based upon the associated app.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>My Primary Role</td> 
    <td> <p>When this is referenced in filters, this displays either users that have the same Primary Role as the logged-in user, or work items assigned to the Primary Role of the logged-in user.</p> <p>We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>My&nbsp;Home Team</td> 
    <td> <p>When this is referenced in filters, this field displays either users that belong to the Home Team of the logged-in user, or work items assigned to the Home Team of the logged-in user. </p> <p>We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Naming convention</td> 
    <td>An organization-wide set of rules that uses data to create names of projects, tasks, and deliverables.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Native Integration</td> 
    <td>An integration that requires no manual coding or API configuration. Also referred to as an "out-of-the-box" integration.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Navigation Menu</td> 
    <td>The top-center panel of the application that has links to main areas of Workfront.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Non Work Day</td> 
    <td>A day that is not allocation to the completion of any assignments. This is usually a vacation day, holiday, or weekend.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Note</td> 
    <td>A comment or update made on a Workfront object.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Note Text</td> 
    <td> <p>This displays the text of an update entered by an user on any object.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Number of Linked Goals</span> </td> 
-   <td> <p><span>In a Project report, this is the number of strategic goals that are associated with the project. For information about associating projects with strategic goals, see </span><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en" target="_blank"><span>Overview of connecting projects to goals in Workfront Goals</span></a><span>.</span> </p> <p>For information about strategic goals, also see "Goal" in this table. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;stays in both NWE and classic - visible in both) </p>
+    --> <p><span>In a Project report, this is the number of strategic goals that are associated with the project. For information about associating projects with strategic goals, see</span><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&amp;_LANG=en" target="_blank"><span>Overview of connecting projects to goals in Workfront Goals</span></a><span>.</span> </p> <p>For information about strategic goals, also see "Goal" in this table. </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
   </tr> 
   <tr> 
    <td>Object</td> 
@@ -1650,44 +1273,34 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Users</li> 
      <li>Companies</li> 
     </ul> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+  </tr> 
+  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td>Object Types</td> 
+   <td>If you create a report or list containing all of your custom forms, you can use this field as a view or filter to see which object types are associated with each form. </td> 
   </tr> 
   <tr> 
    <td>On Change Only</td> 
    <td> <p>One of the Project Update Types. When this is selected, the Project Projected and Planned timelines update only when an update or change is made to the Project or to a Task within the Project. It does not update the project every night.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Op Task</td> 
    <td> <p>The name for Issue in the Workfront database, used in text mode reports or calculated custom data.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Open</td> 
    <td>An Issue or Task that is not complete, but being worked on.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Org Chart</td> 
    <td>Short for Organizational Chart. This is a chart showing the hierarchy of an organization. It is also on the Tab on the User detail screen that displays and allows setting the User's Company and Reporting relationships.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Organizational Setup</td> 
    <td>This defines Companies, Groups, and Security Profiles for your organization.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Other Groups</td> 
    <td> <p>In a report or view that lists users, this field displays all the groups where each user is a member. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Override Currency</span> </td> 
@@ -1696,8 +1309,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>In a Job&nbsp;Role report, this is the currency associated with a job role. It is an override of the Base Currency as established in the Setup area by the Workfront administrator. </p> 
      <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> 
     </div> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Override Currency Billing/ Hour</span> </td> 
@@ -1706,8 +1317,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>In a Job&nbsp;Role report, this is the billing per hour rate of the job role using the selected Override Currency of the job role.</p> 
      <p> For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> 
     </div> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Override Currency Cost/ Hour</span> </td> 
@@ -1716,14 +1325,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>In a Job&nbsp;Role report, this is the cost per hour rate of the job role using the selected Override Currency of the job role. </p> 
      <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> 
     </div> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Owner</td> 
    <td>The user responsible for the completion of the designated object.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Owner Type</span> </td> 
@@ -1738,8 +1343,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>No value displays in this field when the goal owner is your organization. </p> 
      <p>This requires an additional license. For information about Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> 
     </div> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1748,55 +1351,37 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 <table cellspacing="15"> 
  <col> 
- <col> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Name</th> 
    <th>Description</th> 
-   <th>Maturity level</th> 
-   <th>New</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Parameter</td> 
    <td> <p>A parameter is a custom field. You can build a report for all parameters, or custom fields in your system.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Parent</td> 
    <td>In a report, this field shows information about the parent of the object. For example, in an issue report, it might show information about the task or project that the issue is logged under; in a task report, it might show information about the direct parent task or about the project. For more information about what objects might have parents in Workfront, see the "Interdependency and hierarchy of objects" section in the article <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Parent Lag</td> 
    <td>The amount of time that must pass between the Parent Task start and the Subtask Start.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Parent Task</td> 
    <td>Also known as a Summary Task. This is a task that has Subtasks (also called Children Tasks). The Duration, Work Required, and Percent Complete of the Parent Task is calculated from the Subtasks.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Part-Time Resources</td> 
    <td>A licensed user who has less capacity than the default schedule defined in the system.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Percent Complete</td> 
    <td> <p>A project, task, or issue field that shows what percentage of the work associated with the task, project, or issue is completed.</p> <p>You can update this field manually for issues and working tasks. </p> <p>For projects and parent tasks, this field is a roll-up from all the working tasks and you cannot update it manually. </p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Project Percent Complete overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Permission</td> 
@@ -1814,41 +1399,29 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Views</li> 
      <li>Filters</li> 
      <li>Groupings</li> 
-    </ul> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/permissions-for-shared-objects.md" class="MCXref xref">Permissions for shared objects</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+    </ul> <p>For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Plan</td> 
    <td> <p>This is a full license type in the Workfront system. Users must have this to access all of the features in Workfront.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Plan (in the Scenario Planner)</td> 
-   <td> <p>A plan is the main object when working with the Workfront Scenario Planner. You can outline the strategy for your company's near and long-term future and identify each high-level outcome and add it as a plan to the Workfront Scenario Planner. </p> <p>You cannot display Scenario Planner plans in a report and you cannot access them through the Workfront API. </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>A plan is the main object when working with the Workfront Scenario Planner. You can outline the strategy for your company's near and long-term future and identify each high-level outcome and add it as a plan to the Workfront Scenario Planner. </p> <p>You cannot display Scenario Planner plans in a report and you cannot access them through the Workfront API. </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Planned</td> 
    <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in&nbsp;Workfront, you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The timestamp used to baseline task KPIs</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The timestamp used to baseline task KPIs (NOTE: From Taxonomy) </p>
     --> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Planned Benefit</td> 
    <td>This is a manual entry for the Project Manager to estimate whether completing a project would bring any monetary benefit to the organization. Specifying this value can be part of putting together a Business Case for the project. You must have Manage permissions to the project to update this value.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Planned Budgeted Hours</td> 
    <td> <p>In a Budgeted Hour report, this displays the amount of hours budgeted for Projects or Job Roles in the Resource Planner. </p> <p>For information about budgeting Projects or Roles in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. For information about the Budgeted Hours report, see the article <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>.</p> </td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Planned Completion Date</td> 
@@ -1857,171 +1430,132 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task Planned Completion Date</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a> </p> </li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Planned Cost</td> 
    <td> <p>A total of the Planned Labor Cost&nbsp;and the Planned Expense Cost of the project. This does not include the Planned Risk Cost on the project.&nbsp;&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Planned Duration</td> 
    <td> <p>A task's Planned Duration is usually the same as the task's Duration. It represents the difference in days between the Planned Start and the Planned Completion Dates of the task.&nbsp;</p> <p>When the task has a Duration Type of Effort Driven, the Planned Duration can differ from the Duration of the task, based on how many resources you assign to the task.&nbsp;</p> <p>For example, if a task with a Duration Type of Effort Driven has a Duration of 3 days and you assign one resource with a full time schedule to the task, the Planned Duration is 3 days, as well. If you assign three resources with a full time schedule to the same task, the Duration stays 3 days, but the Planned Duration becomes 1 day. The Planned Duration also changes the Planned Start and Planned Completion dates of the task, to reflect the new Planned Duration. As a result, the timeline of the project is affected as well.&nbsp;</p> <p>For more information about the difference between Duration and Planned Duration for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between Planned Duration and Duration for tasks</a>.</p> <p>Projects and issues don't have a Planned Duration.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Planned Duration Minutes</td> 
    <td> <p>The Planned Duration Minutes of a project or an issue is the Duration of the project or issue in minutes.&nbsp;</p> <p>Tasks don't have a Planned Duration Minutes field.&nbsp;</p> <p>Template Tasks have a Planned Duration Minutes field which displays the Planned Duration of the task in minutes.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Planned Expense Cost</td> 
-   <td> <p>Total&nbsp;of the Planned Amounts&nbsp;of all the expenses on a project or a task.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>The sum of the Planned Amounts for all expenses logged for a project or a task.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span> If you create an expense for Task 1 and enter $600.00 in the Planned Amount field, the Planned Expense Cost for this task is $600.00. </p> <p>For a project, Workfront uses the following formula to calculate Planned Expense Cost:</p> <p><code>Project&nbsp;Planned Expense Cost = SUM (All Project&nbsp;Planned Expense Costs) + SUM (All&nbsp;Tasks Planned Expense Costs)</code> </p> <!--
+     <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (Drafting this because not sure if this is correct anymore)</p>
+    --> </td> 
   </tr> 
   <tr> 
    <td>Planned Hours</td> 
-   <td> <p>This field appears on projects, tasks, and issues and the respective reports for projects, tasks, or issues.&nbsp;</p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. </p> <p>For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <p>Note:  Planned Hours are stored in minutes in the Workfront database. When writing calculations using this field, ensure you account for the fact that the hours display as minutes.<br></p> <p>Updating this field differs for projects, tasks, and issues: </p> 
+   <td> <p>This field appears in the projects, tasks, and issues areas, reports for projects, tasks, or issues, and resource management tools like the Resource Planner, Workload Balancer and the Utilization report. </p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. For projects, it is generally a roll-up of the Planned Hours from the tasks on the project. </p> <p>The Planned Hours field might display different information depending on where you view it from. For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <p>Note:  Planned Hours are stored in minutes in the Workfront database. When writing calculations using this field, ensure you account for the fact that the hours display as minutes.<br></p> <p>By default, Planned Hours are distributed equally to all the days within the duration of a work item and also equally for all resources assigned to the task. Users can update the daily amount of Planned Hours for a work item or the individual Planned Hours for each assignee.</p> <p>Updating this field differs for projects, tasks, and issues: </p> 
     <ul> 
-     <li> <p>You can manually update this field for Issues.&nbsp;Issue Planned Hours are not added to the Project Planned Hours.&nbsp;</p> <p>Tip: In an issue report, one of the Planned Hours fields is replaced by the Work field.&nbsp;The field displays the number of Planned Hours on the issue. For more information, see the "work" or "Work" fields in this table. </p> </li> 
+     <li> <p>For issues, you can manually update this field.&nbsp;Issue Planned Hours are not added to the Project Planned Hours.&nbsp;</p> <p>Tip: In an issue report, one of the Planned Hours fields is replaced by the Work field.&nbsp;The field displays the number of Planned Hours on the issue. For more information, see the "work" or "Work" fields in this table. </p> </li> 
     </ul> 
     <ul> 
-     <li> <p>For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment. This field is calculated by Workfront when the Duration Type of the task is Calculated Work, Effort Driven, or Simple.<br>For information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.<br>Planned Hours are distributed equally to all the days within the duration of each task.</p> </li> 
+     <li> <p>For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment or Simple. This field is calculated by Workfront when the Duration Type of the task is Calculated Work or Effort Driven.<br>For information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Workfront calculates the Planned Hours of a Project by adding all Planned Hours from all the tasks on the project. </p> </li> 
+     <li> <p>For projects, Workfront calculates the Planned Hours by adding all Planned Hours from all the tasks on the project. </p> </li> 
     </ul> <p>Tip: You can display Planned Hours in project, task, or issues reports also by using text mode and reference additional fields. For more information, see the "<code>work</code>", "Work", and "<code>workRequiredExpression</code>" fields in this table. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A baseline measurement for task KPI and a communication tool for the resource managers</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A baseline measurement for task KPI and a communication tool for the resource managers </p>
+    --> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, From Taxonomy)</p>
     --> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td><a name="Planned-Labor-Cost"></a>Planned Labor Cost</td> 
-   <td> <p>For a task, the hourly rate of the user or role multiplied by the number of hours assigned to the user or role.&nbsp;</p> <p>For a project, it is a total of all Planned Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task. </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is linked elsewhere)</p>
+    --> <p>For a task, the hourly rate of the user or role multiplied by the number of hours assigned to the user or role.&nbsp;</p> <p>For a project, it is a total of all Planned Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task. </p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Planned Revenue</td> 
-   <td> <p>The Planned Revenue of a project or a task is the amount of money associated with the Planned Hours of the project or the task. </p> <p>For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>Tasks and projects can display a value for Planned Revenue in&nbsp;Workfront. Planned Revenue represents the amount of money associated with the Planned Hours of the tasks on the project. For projects, it can also include the Fixed Revenue of the project. </p> <p>For tasks, this is the revenue associated with the Planned Hours of tasks. The Planned Hours from all tasks roll up to the Planned Hours of the project to contribute to the calculation of the project Planned Hours. </p> <p>Workfront calculates Planned Revenue for tasks and projects using the following formulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
+    --> <p>Note:   <p>The project Planned Revenue that displays in the Project&nbsp;Details area and in project reports differs from the Planned Revenue that displays in the Utilization&nbsp;report. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue as well as the Fixed&nbsp;Revenue of the project. The Planned Revenue in the Utilization&nbsp;Report displays Planned Revenue associated only with the tasks in the project. </p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>">  
+      <p>If the project has 1 task with 10 hours, assigned to a Consultant with $20 hourly rate, and the project has $100 Fixed Revenue, the Utilization report displays $200 for Planned Revenue (the Planned Revenue associated with the hours on the task). The Project&nbsp;Details section displays $300 (the Planned Revenue from the task and the Fixed Revenue for the project.) </p> 
+     </div> </p> <p>For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>. </p> <p>For information about Planned Revenue calculations in the Utilization report, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">View resource utilization information </a>. </p> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Planned Risk Cost</td> 
    <td> <p>The total of the Potential Cost of all the risks on the project factoring in their Probability of occurring. This amount is not included in the Planned Cost of the project.</p> <p>The Planned Risk&nbsp;Cost of a project is calculated by the following formula:</p> <p><code>Planned Risk&nbsp;Cost = SUM(Potential&nbsp;Risk Cost * Probability / 100)</code> </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Portal Profile</td> 
    <td>An administrator-defined collection of Tabs and Portal Sections that appears on the Workfront Application Home and other Dashboards.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Portal Section</td> 
    <td>One component of a Tab on a Dashboard or Portal Page. Usually a single Report, Chart, Calendar, or list of key information.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Portal Tab</td> 
    <td>A Tab on a Portal or Dashboard that contains up to three Portal Sections.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Portfolio</td> 
    <td> <p>A collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.</p> <p>For more information about portfolios, see <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md" class="MCXref xref">Portfolio overview in Adobe Workfront</a>.</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A collection of projects and programs grouped by common data points and sharing similar resource pools and budgets to achieve a strategic objective.</p>
     --> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Portfolio Management</td> 
    <td>A practice area focused on managing a collection or related programs and project efforts.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Portfolio Optimizer</td> 
    <td>A Workfront tool to assist in assessing and prioritizing projects within a portfolio.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Portfolio Owner</td> 
    <td>The stakeholder responsible for the prioritization and budget for a portfolio.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Potential&nbsp;Risk&nbsp;Cost</td> 
    <td>This is a project field that you can locate in lists and reports. It shows the potential cost for the risks associated with the project, should they occur. For more information see <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calculate Potential Risk Cost </a>. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Predecessor</td> 
    <td> <p>A Task that must be complete prior to the completion of a Dependent Task. Also a Task that is marked as a Dependency for another Task. Predecessors allow the planner to set sequence-dependency logic, such as to start a task after another task finishes.</p> <p>For More information, see <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Primary Company</td> 
    <td>The Company that the user belongs to as designated in their user settings. Companies can also be associated with Projects.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Priority</td> 
    <td>A value that can be assigned to a Task, Issue or Project to designate how important it is. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Private</td> 
    <td>On a Note or Document, this option makes that object hidden to most viewers. For a Private Help Desk Queue, only Users on the Queue Team can submit issues to that Queue through the Help Desk Area.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Profile</td> 
    <td>All information about a user account.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Program</td> 
    <td> <p>A subset within a portfolio, where similar projects can be grouped together in order to achieve a well-defined benefit.</p> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Program Management</td> 
    <td>Management of cross-project dependencies, risks, issues, requirements, and solutions to keep the program healthy and achieve the defined program benefit.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Program Owner</td> 
    <td>The stakeholder responsible for supervising and organizing activities to ensure that project goals align with the company objectives.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Progress</span> </td> 
-   <td> <p><span>In a Goal report, this displays the percent of how close the strategic goal is to completing. The percent of progress displays as a number. For information about strategic goals, also see "Goal" in this table. </span> </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays in both QS and classic) </p>
+    --> <p><span>In a Goal report, this displays the percent of how close a strategic goal is to completing. The percent of progress displays as a number. For information about strategic goals, also see "Goal" in this table.</span> </p> <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Progress Status</td> 
@@ -2029,144 +1563,106 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <ul> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-progress-status.md" class="MCXref xref">Project Progress Status overview</a> </p> </li> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a> </p> </li> 
-     <li> <p><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fcalculate-goal-progress.htm&amp;_LANG=en" target="_blank">Calculate Goal Progress in Workfront Goals</a> </p> <p>The Goal report and the Progress Status for goals field are visible only if your organization has purchased Workfront Goals. For information about strategic goals in&nbsp;Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> </li> 
+     <li> <p><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fcalculate-goal-progress.htm&amp;_LANG=en" target="_blank">Calculate Goal Progress in Workfront Goals</a> <!--
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+          (NOTE: hard-coded link) 
+        </MadCap:conditionalText>
+       --> </p> <p> </p> <p>The Goal report and the Progress Status for goals field are visible only if your organization has purchased Workfront Goals. For information about strategic goals in&nbsp;Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> </li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Project</td> 
    <td> <p>A large amount of work that must be completed within a specific timeframe and must use a specific budget and number of resources. To make it manageable, you divide the project into a series of tasks that need to be completed first in order to deliver the common outcome defined by the project. For information about planning a project, see <a href="../../../manage-work/projects/planning-a-project/plan-project.md" class="MCXref xref">Plan a project overview</a>.</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A collection of tasks with a well-defined scope, beginning, and end to produce a specific deliverables, service, or benefit.</p>
     --> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Project&nbsp;Assignment Planned Hours</span> </td> 
-   <td><span>In an Initiative Job&nbsp;Role report, this displays the number of Planned Hours associated with a job role assigned to tasks or issues in the project. This field and the Initiative Job&nbsp;Role report type do not display in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.&nbsp;For information about the Workfront Scenario Planner, see </span><a href="https://one.workfront.com/s/csh?context=2069&amp;pubname=the-new-workfront-experience">The Workfront Scenario Planner overview</a>. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays in both QS and classic after production - available in both)</p>
+    --> <p><span>In an Initiative Job&nbsp;Role report, this displays the number of Planned Hours associated with a job role assigned to tasks or issues in the project. This field and the Initiative Job&nbsp;Role report type do not display in your Workfront instance unless your company has purchased a Workfront Scenario Planner license.&nbsp;For information about the Workfront Scenario Planner, see</span><a href="https://one.workfront.com/s/csh?context=2069&amp;pubname=the-new-workfront-experience">The Workfront Scenario Planner overview</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Project Details</td> 
    <td>The details of the current status of a Project</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Project Budgeted Cost</td> 
    <td>See <i>Budgeted&nbsp;Cost</i></td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Project Management</td> 
    <td>A set of policies that governs the thresholds for project creation, categorization, and naming of the projects.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Project Overhead</td> 
    <td>In an Hour report, this field is reserved for financial information tied to the hours logged with the hour type of Project Time. Projects can have their own Billing Rates and if an hour is logged directly on a project, then those rates will be used in calculations. Based on the project settings, projects can also have different currencies and there can be a currency conversion for those hours. The Project Overhead object allows Workfront to get that information.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Project Owner</td> 
    <td>The user responsible for managing the scope, timeline, and assignments of a project. The default approver for change orders, financial changes, and deliverables.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Project Planning</td> 
    <td>Processes to develop and maintain the project schedule.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Project Sponsor</td> 
    <td>A designated stakeholder profile that each of your user's should relate to. In Workfront, these are designated as Access Levels</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Project Teams</td> 
    <td> <p>The collection of Users or Roles assigned to a Project</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Project tracking</td> 
    <td>The data used to measure the health and scope of a project</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Projected</td> 
-   <td> <p>An estimate of the timestamp of when the work will be completed based on the planned hours and percentage complete of a task.</p> <p>This refers to dates or Duration of tasks, issues, or projects. Usually, it designated dates and durations that are more true to the life of the work items, after some work has already been completed or some time has passed. </p> <p>For example, the Projected Completion Date of a task is the date when Workfront estimates that task will complete, based on how much work has been done on it so far, how many people are assigned to it, and how much time has passed since the start date.</p> </td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Taxonomy)</p>
+    --> <p>An estimate of the timestamp of when the work will be completed based on the planned hours and percentage complete of a task.</p> <p>This refers to dates or Duration of tasks, issues, or projects. Usually, it designated dates and durations that are more true to the life of the work items, after some work has already been completed or some time has passed. </p> <p>For example, the Projected Completion Date of a task is the date when Workfront estimates that task will complete, based on how much work has been done on it so far, how many people are assigned to it, and how much time has passed since the start date.</p> </td> 
   </tr> 
   <tr> 
    <td>Proof Deadline</td> 
    <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), This field displays the day of the week, date, time of day, and year of the proof deadline.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Proof Decision</td> 
    <td> <p>In reports that contain the Document Version object (such as a Document Version report&nbsp; and Proof Approval report), this field displays the decision status of the proof (pending, changes required, or approved)</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Proof Name</td> 
    <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), this field displays the proof name.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Proof Pages</td> 
    <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), this field displays the number of pages included in the proof.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Proof Progress</td> 
    <td> <p>In reports that contain the Document Version object (such as a Document Version report and Proof Approval report), displays the progress status of the proof (Sent, Opened, Commented, Decision Made).</p> <p>For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md#understanding-progress-and-status" class="MCXref xref">Proof progress overview</a> in <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md" class="MCXref xref">Proof progress and status overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Proofing</td> 
    <td>A review process where one or more users mark and comment on content that should be changed in an image, a text document, a video, or interactive web content.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Public</td> 
    <td>On a Note or Document, this option makes that object accessible to other users, or even people from outside Workfront. For a Help Desk Queue, Public means that all users that can submit Issues can submit Issues through the Help Desk Area.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Quality</td> 
    <td>The perception of work quality within the organization.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Queue</td> 
    <td>Also called Help Desk Queue. This is a Project that has been published to the Help Desk area to allow users to submit Issues to it. Usually Queues are created for particular topics, such as Bugs, Project Requests, etc.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Queue Properties</td> 
    <td>These settings define Issue submission rules for a Project that is being published to the Help Desk.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Queue Topic</td> 
@@ -2176,191 +1672,131 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Assign the Issue automatically to a User, Role, or Team through the Routing Rule set on the selected Topic.</li> 
      <li>Move the issue to a different Project or Queue through the routing rule set on the selected topic.</li> 
     </ul> <p>For more information, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Rank</td> 
    <td> <p>In an Access Level report, you can manually indicate a Rank of the Access Level. This helps you, as the Workfront administrator, to visually identify the level of complexity associated with each Access Level. For example, you can give lower numbers for more complex (Plan-level) Access Levels, and higher numbers for less complex (Requester-level) Access Levels. You cannot rank the standard Access Levels.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Ready</td> 
    <td> <p>This field on a task report indicates whether&nbsp;an Agile task has been marked as Ready on the backlog. This flag only applies to Agile tasks, which are tasks assigned to an Agile team.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Recurrence Frequency</td> 
    <td> <p>A field that displays in the Task Details or the Edit Task box of a parent of recurring tasks. It is the frequency with which the tasks in the recurrence occur. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Reference Number</td> 
    <td> <p>Projects, tasks, and issues are automatically associated with a unique reference number as they are created. You can view the Reference Number in the Details page of projects, tasks, or issues, or in a list or report. </p> <p>Tip: You can defer to reference numbers when two items have the same name, as reference numbers are always unique. </p> <p>Workfront automatically generates sequential reference number at the system level. Each project, task, or issue gets the next available number in the sequence. <br></p> <p>For example, if User A creates a task, Workfront might automatically assign the task the Reference Number of 100. If User B creates an issue right after this, Workfront assigns the issue the Reference Number of 101. You cannot manually edit Reference Numbers. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Rejection&nbsp;Issue</td> 
    <td>In a project or a task report, this is the issue that is created when the approval for the project or the task is rejected. For information about rejection issues, see the article <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Remaining Risk&nbsp;Cost</td> 
    <td> <p>A project field that shows the difference between the Planned Risk&nbsp;Cost of a project and the total of all&nbsp;Actual&nbsp;Costs of all risks on the project. </p> <p>The Remaining Risk&nbsp;Cost for a project is calculated using on the following formula:</p> <p><code>Remaining Risk&nbsp;Cost = Project Planned Risk Cost - SUM(Actual Cost for all risks)</code> </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Replanning</td> 
    <td>Changing the dates of a Project to repair or overcome problems. For example, a project that has been on hold for several months would need to be replanned to reflect accurate dates.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Report</td> 
    <td>A chart or table containing information about one given Workfront object and its related attributes.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Request</td> 
    <td> <p>A type of issue that is triaged in a single centralized queue and is unrelated to an ongoing work effort.</p> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Request Queue</td> 
    <td>The backlog of issues that is managed by a traffic and triage process.</td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Request velocity</td> 
    <td>Total work cycle time to intake and complete a request.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Requester</td> 
    <td>Typically a license type. A user with a Requester license can submit requests for new work to occur in the system.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Reserved Time</td> 
    <td>Days specified on a User's Personal Time, indicating that the User will not be available for work. See <i>Non Work Days</i>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Resolve Issue</td> 
    <td> <p>In an issue report, use this field in views or filters to refer to the issue that resolves the issue. </p> <p>For information about displaying resolving objects in reports, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">View Resolvable and Resolving Object information in a report</a> in <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Resolve Project</td> 
    <td> <p>In an issue report, use this field in views or filters to refer to the project that resolves the issue. </p> <p>For information about displaying resolving objects in reports, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">View Resolvable and Resolving Object information in a report</a> in <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Resolve Task</td> 
    <td> <p>In an issue report, use this field in views or filters to refer to the task that resolves the issue. </p> <p>For information about displaying resolving objects in reports, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">View Resolvable and Resolving Object information in a report</a> in <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Resource</td> 
    <td>User(s) and/or Role(s) existing in the system and assigned to Project Teams and Tasks.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Resource Estimates</td> 
     <td>This report captures information about an area in&nbsp;Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about how you estimate resources for projects, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>. </td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
    </tr>
   --> 
   <tr> 
    <td>Resource Grid</td> 
    <td>A visual table showing the allocation of resources.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Resource Management</td> 
-   <td> <p>Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;</p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in&nbsp;Workfront, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref">Get started with Resource Management </a>.</p> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
+   <td> <p>Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;</p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in&nbsp;Workfront, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref">Get started with Resource Management</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Resource Manager IDs</td> 
-   <td> <p>In a project report, you can use this option &nbsp;when creating a filter to find a specific resource manager. </p> <p>Resource Managers can perform resource scheduling actions on a project.</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Same as "Resource Managers" (above), but this is for the filter.)</p>
+    --> <p>In a project report, you can use this option &nbsp;when creating a filter to find a specific resource manager. </p> <p>Resource Managers can perform resource scheduling actions on a project.</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Resource Managers</td> 
    <td> <p>In a project report or list view, this is a field that displays the active users who can perform resource scheduling actions for the project.&nbsp;They utilize the enterprise resource management tools in Workfront to review capacity, monitor utilization, and assign project tasks. The field also displays in the Edit Project box or the Project&nbsp;Details area. </p> <p>Being designated as a Resource Manager on a project is a prerequisite to using the scheduling tools in&nbsp;Workfront. For information about resource scheduling, see <a href="../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>. </p> <p>When you use "Resource&nbsp;Managers"&nbsp;in a report, a list of resource managers is displayed, with each resource manager on the project separated by a comma (there can be up to 10 resource managers on a given project).</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Resource Planner </td> 
    <td>An advanced Workfront tool that lets you view and manage resources across projects, job roles, or users. For information, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Resource Planner Budgeted Labor&nbsp;Cost</td> 
    <td> <p>These are the hours budgeted for project resources using the Resource Planner. </p> <p>See <i>Budgeted Labor&nbsp;Cost</i>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Resource Pools</td> 
-   <td> <p>Resource Pools are collections of users that can be associated with a project.&nbsp;The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user.</p> <p>For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.</p> <p>In project reports, Resource Pools show all the pools associated with a project.&nbsp;This object cannot be used in a grouping. <br></p> <!--
+   <td> <p>Resource Pools are collections of users that can be associated with a project.&nbsp;The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user.</p> <p>For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</p> <p>In project reports, Resource Pools show all the pools associated with a project.&nbsp;This object cannot be used in a grouping. <br></p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A collection of resources available for assignment to project tasks. A resource pool can be assigned exclusively to a project or shared by several projects.</p>
     --> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Resource Utilization</td> 
    <td>A Report displaying the number of hours available during a certain time period and the number of hours scheduled for each user in the report. This is also calculated into Average Hours Per Day and an allocation percentage.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Result</td> 
    <td>In Workfront Goals, a result is a progress indicator for a goal. It can be a number, a percentage value, or a currency amount that you update manually. You cannot display results in a report and you cannot access them through the Workfront API. For information about activities, see <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Get started with results and activities in Adobe Workfront Goals</a>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Revenue</td> 
    <td>A billable amount for the task or project. The amount can be hourly, fixed, or a combination of both.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Revenue Type</td> 
    <td>Revenue type determines how the task will accrue revenue. Some examples include Fixed Hourly, Role Hourly, and Role Hourly w/Cap. For information about tracking revenue in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Reviewer</td> 
    <td>Typically a license type. A User with a Reviewer license has the ability to review and approve work items in the system.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Risk</td> 
@@ -2369,8 +1805,6 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li> <p>A field on a project that indicates how risky a project can be. You can prioritize the execution of your projects based on the level of risk. Projects can have the following levels of risk:</p> <p>- Very Low</p> <p>- Low</p> <p>- Medium</p> <p>- High</p> <p>- Very High</p> <p>Note: The levels of risks you indicate for a project cannot be customized. </p> <p> For information about updating the Risk of a project, see the " Project  Settings" section of the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>. You can display the risk field of a project in reports. </p> </li> 
      <li> <p>An event that might occur during the life of a project that identifies a potential impact to the cost, scope, or schedule of the project. You define potential risks to a project and associate a probability of them occurring or a cost as you build the project's Business Case. For information about adding risks to the Business Case of the project, see <a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Create and edit risks on projects</a>. </p> <p>Tip: You cannot display risks defined in the Business Case in reports. You can only display several types of Risk&nbsp;Costs in reports and lists. </p> </li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Risk&nbsp;Cost</td> 
@@ -2380,32 +1814,22 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li> <p>Planned Risk&nbsp;Cost: a field on the project that shows a total of all Potential&nbsp;Risk Costs for the project. See also "Planned Risk Cost" in this article. </p> <p>For information about Potential Risk Cost, see <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calculate Potential Risk Cost </a>. </p> </li> 
      <li> <p>Remaining Risk Cost: a field on the project that displays the difference between the total of the Actual Costs of all risks and the Planned Risk Cost. See also "Remaining Risk&nbsp;Cost" in this article. See also "Remaining Risk Cost" in this article. </p> </li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Risk Management</td> 
    <td>Processes to identify, mitigate, and monitor risk.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Role</td> 
    <td>See <i>Job Role</i>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Routing</td> 
    <td>Automatically assigning or moving an Issue, usually due to a Queue Topic or by way of being the Default Route (Routing RUle) for the Queue.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Routing Rule</td> 
    <td>A setting on Projects and Queues that automatically assigns an Issue to a User, Role, or Team, or moved the Issue to another Project or Queue. Routing Rules are generally used with Help Desk Queues to automatically assign incoming Issues.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
@@ -2414,121 +1838,81 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 <table cellspacing="15"> 
  <col> 
- <col> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
-  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Name</th> 
    <th>Description</th> 
-   <th>Maturity level</th> 
-   <th>New</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Saved Search</td> 
    <td>A search for which the search criteria have been saved. Saved Searches make it easy to run the same each again without having to enter the search criteria again.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Scenario (in&nbsp;Workfront Fusion) </td> 
    <td> <p>A scenario is comprised of a series of steps (modules) that indicate how data should be transferred and transformed between apps/ services.</p> <p>For information about scenarios in Workfront Fusion, see <a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">Adobe Workfront Fusion scenario overview</a>.</p> </td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Scenario (in the Workfront Scenario Planner) </td> 
-   <td> <p>In the Scenario Planner, a scenario is a copy of a plan. </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <p>For information, see <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md" class="MCXref xref">Create and compare plan scenarios in the Adobe Workfront Scenario Planner</a>. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>In the Scenario Planner, a scenario is a copy of a plan. </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <p>For information, see <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md" class="MCXref xref">Create and compare plan scenarios in the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Schedule</td> 
    <td>The weekly work schedule, including working times, combined with Days off (such as Holidays) and exception days (such as a Saturday work day). Schedules can be applied to Projects and Users.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Schedule Exemption</td> 
    <td>Also knows as a Modified Shift. Days scheduled in contrast to the regular weekly work times as defined by the schedule. For example, a Saturday scheduled to work, when the Schedule is set up to only Work Monday Through Friday, would be a Schedule Exemption.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Scheduled Report</td> 
    <td> <p>When you build a report of reports, you can display&nbsp;information about the schedules of the report, if the report is scheduled for delivery using the Scheduled Report field. This field shows multiple values, one for each schedule of each report, in a bulleted list. For more information about scheduling reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Report delivery overview</a>.</p> <p>Because this field shows multiple values, it cannot be used in a grouping. You can access it only in a filter or a view.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Scope Change</td> 
    <td>An Audit Trail that, if active, generates a note any time a change is made to the Scope of a Project or Task, such as if a Task Duration or Predecessors are changed.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Section</td> 
    <td>An area on the screen, with its own header, created to organize the Custom Data for display purposes.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Section Break</td> 
    <td>A gap or border between sections.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Security</td> 
    <td>The settings that allow a User to interact with certain objects in the system and not others. See <i>Access Levels</i>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Setup</td> 
    <td>The area where administrators can set up system configurations and preferences.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Severity</td> 
    <td> <p>Severity is an indication of how likely an item is to impact the completion of the work. For example, an Issue with high Severity may completely block a Task's completion, but an Issue with low Severity may be merely cosmetic.</p> <p>For more information, see <a href="../../../manage-work/issues/issue-information/update-issue-severity.md" class="MCXref xref"> Update issue severity</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Severities</td> 
    <td>See <i>Severity</i>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Sharing</td> 
    <td>The action of allowing other Users to view or edit a specific item in Workfront.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Slack&nbsp;Date</td> 
    <td>In a task view or report, the Slack Date displays the exact date when a task could definitely impact the Completion Date of the project. For information about the Slack Date of a task, see <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Task Slack Date overview</a>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Smart Assignments</td> 
    <td> <p>When assigning Tasks or Issues to Users, Workfront makes recommendations (Smart Assignments) about who the best users are to complete the work, based on the time they have available to complete it and their relationship to the project.</p> <p>For more information , see <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Smart assignments overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Source</td> 
    <td> <p>Indicates the parent object of another object. For example, a document attached to a task has the name of the task in the Source field of a Document report or view; an issue logged under a project has the name of the project in the Source field of an Issue report or view.&nbsp;</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Start Date</td> 
@@ -2538,12 +1922,12 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Actual</li> 
      <li>Projected </li> 
     </ul> <p>In a Rate report, this is the date when a new billing rate for a job role at the project level starts. The hours associated with the project that are after this date are multiplied by this billing rate to calculate the revenue on the project. </p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Status</td> 
-   <td> <p>An indicator used to signal a workflow position of a work item <span data-mc-edit-date="2021-03-30T16:51:25.7903689-04:00" data-mc-editor="alinawilson" data-mc-comment="drafted for goal reporting" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-03-30T16:51:20.5020900-04:00">or</span><span> for a strategic goal</span>.</p> <p>For Projects, the Status is a setting on the Project that indicates whether the Project is:</p> 
+   <td> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Taxonomy) </p>
+    --> <p>An indicator used to signal a workflow position of a work item <span data-mc-edit-date="2021-03-30T16:51:25.7903689-04:00" data-mc-editor="alinawilson" data-mc-comment="drafted for goal reporting" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-03-30T16:51:20.5020900-04:00">or</span><span> for a strategic goal</span>.</p> <p>For Projects, the Status is a setting on the Project that indicates whether the Project is:</p> 
     <ul> 
      <li>Current</li> 
      <li>On Hold </li> 
@@ -2574,17 +1958,15 @@ The following table is a list of commonly used terms in Adobe Workfront:
       <li>Inactive</li> 
       <li>Closed</li> 
      </ul> 
-     <p>For more information about strategic goals, also see "Goal" or "Goals" in this table. </p> 
-     <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. </p> 
+     <p>For more information about strategic goals, also see "Goal" or "Goals" in this table. </p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Link below is hard coded. Leave in both classic and NWE, as this is abailable in both)</p>
+     --> 
+     <p>This field is visible only if your organization has purchased Workfront Goals. For information about managing strategic goals using Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&amp;_LANG=en" target="_blank">Workfront Goals overview</a>. (NOTE: Link is hard coded to work both in QS and classic)</p> 
     </div> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Status Change</td> 
    <td>An Audit Trail. A note is generated when a User changes the Status of the Project, Task, or Issue.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Status Icons</td> 
@@ -2607,122 +1989,82 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Documents</li> 
      <li>Users</li> 
     </ul> <p>For more information, see <a href="../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md" class="MCXref xref">Built-in Status Icons in Views</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Status Update</td> 
    <td> <p>This field shows the most recent status update&nbsp;that users have provided in the 'Update Status' field.&nbsp;Comments made on&nbsp;status&nbsp;updates are not displayed in the Status Update column.</p> <p>To show the 'New,' 'In Process,' and 'Complete' statuses, use the Status column.</p> <p>Comments made on&nbsp;status&nbsp;updates are not displayed in the Status Update column.</p> <p>For more information on statuses, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Statuses</td> 
    <td>See <i>Status</i>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Storyboard</td> 
    <td>A chart that represents the status of stories (tasks in the agile methodology) and how they are progressing toward completion.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Story Hours</td> 
    <td>A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Story Points</td> 
    <td>A metric used to measure the difficulty or complexity of a Story. Agile teams can choose whether to use Hours or Points.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Strategic</td> 
    <td>Long-term work that changes the organization or how the organization works.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Strategic Alignment</td> 
    <td>Measuring and aligning company goals across portfolios and programs.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Subscribers</td> 
    <td> <p>Users that subscribe to Projects, Tasks, or Issues.</p> <p>When you use this field in a report, a list of subscribers displays, with each subscriber separated by a comma.</p> <p>For more information, see the article <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Subscribe to items in Adobe Workfront</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Summary Task</td> 
    <td>See <i>Parent Task</i>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Subtask</td> 
    <td>A child task, which is located under a parent task.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>System Governance</td> 
    <td>A set of policies that governs changes and maintenance of a system.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>System Integration</td> 
    <td>The process of linking together different computing systems and software applications physically or functionally in order to act as a coordinated whole.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Task</td> 
    <td> <p>An activity that must be performed as a step toward achieving a final goal (completing the Project).</p> <p>For more information, see <a href="../../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a>.</p> </td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Task Attribute</td> 
    <td>Other fields or objects that are associated with a Task and indicate certain details about the Task. Some examples are Planned Completion Date and Status.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Task Constraint</td> 
    <td>See <i>Constraint Type</i> and <i>Constraint Date</i>.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Task Management</td> 
    <td>A set of policies that governs the thresholds for task creation, assignment, closure, and visibility.</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>Task Owner</td> 
    <td>The team or user responsible for the estimation of effort and completion of the task</td> 
-   <td>Managed</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Team</td> 
    <td> <p>A collection of users working toward similar goals or business objectives. These users can be collectively assigned to a work item by assigning the team to the work item. You cannot assign more than one team to a work item.</p> <p>For more information on Teams, see <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overview</a>.</p> <p>Projects can have a Project Team, which contains all the users or roles associated with the work on the project.</p> <p>For more information about Project Teams, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a></p> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Ad hoc"> 
     <td>Team Goals</td> 
     <td>Team goals which contribute to the metrics of enterprise or department goals.</td> 
-    <td>Ad hoc</td> 
-    <td>&nbsp;</td> 
    </tr>
   --> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
@@ -2730,64 +2072,44 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td> <p>Project templates are generic outlines of your most repeatable projects. You can define tasks, queue topics, custom forms, attach documents or approvals when you create a project template to save you time when you must create a new project. </p> <p>You can attach templates to existing projects, or you can use them to build new projects. All the information specified on the template transfers to the projects that are created using it. </p> <p>For more information about templates, see <a href="../../../manage-work/projects/create-and-manage-templates/project-template-overview.md" class="MCXref xref">Project template overview</a>.</p> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The steps, instructions, and custom data required for deliverable completion.</p>
     --> </td> 
-   <td>Ad hoc</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Template Task</td> 
    <td>A Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is located,</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Thread</td> 
    <td>A Note and its collection of replies that relate to a particular topic.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Thumbnail&nbsp;</td> 
    <td> <p> In a Document list or report, it displays a preview of the document in a thumbnail. </p> <p> Select <strong>Thumbnail</strong> &nbsp;to view a 33-66 pixel-wide thumbnail in the report. </p> <p>The size of the thumbnail adjusts when you modify the width of the column in a list or report.</p> <p>See also "Large Thumbnail" in this document.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td><span>Time Off</span> </td> 
    <td>You can build a Time Off report to view when users have indicated time off in their profile. </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Timesheet</td> 
    <td> <p>A virtual timecard that allows users to enter actual hours that they spent working on projects, tasks, or issues, or hours they spent for other activities not related to work, like meetings or training. In addition to entering the amount of time you spent working, you can also indicate whether the time is work-related or it amounts to overhead time by using Hour Types for your time entries. For information about timesheets, see <a href="../../../timesheets/timesheets/timesheets-overview.md" class="MCXref xref">Timesheets overview</a>. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Periodic summary list view of active assignments by project that have been planned to have or have had time logged.</p>
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Periodic summary list view of active assignments by project that have been planned to have or have had time logged. (NOTE:&nbsp;From Taxonomy, but too obscure and not helpful)</p>
     --> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Timesheet Profile</td> 
    <td> <p>A Timesheet Profile is a template that Workfront uses to automatically create timesheets for the users associated with them. </p> <p>You can configure a number of settings that will apply to each timesheet as it is created. Some of these settings are: how often the timesheet should be created (weekly, every other week, twice a month, or monthly), the start day of the timesheet, the timesheet approvers, the available Hour Types that users can associate with recorded hours.</p> </td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Top Parent ID </td> 
    <td> <p>This field allows you to identify and filter data about a top-level group and its subgroups in a list or report.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Top Parent Name </td> 
    <td> <p>This field allows you to identify data about a top-level group and its subgroups in a View for a list or report.</p> <p>You can also do this using the Top Parent ID field.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Total Hours</td> 
-   <td> <p>In a project report, this field displays the rounded sum of all hours on the project, the last time the project finances were calculated. Actual Hours reflect the exact hours logged on the project. Typically, the Actual Hours should match the Total Hours. If the Total Hours appears significantly different than the Actual Hours field, you must Recalculate Finances on the project.</p> <p>For more information about recalculating project finances, see the article <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Recalculate project finances</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> <p>In a project report, this field displays the rounded sum of all hours on the project, the last time the project finances were calculated. Actual Hours reflect the exact hours logged on the project. Typically, the Actual Hours should match the Total Hours. If the Total Hours appears significantly different than the Actual Hours field, you must Recalculate Finances on the project.</p> <p>For more information about recalculating project finances, see the article <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Recalculate project finances</a>.</p> <p>In a timesheet Standard view, this field refers to the total hours logged for items for the dates displayed on a timesheet. The Total Hours field for timesheets in this built-in view references the "hoursDuration" field which dynamically calculates the difference in hours between the timesheet Start and End dates. This is used to display the Total Hours column in red if the user logs more time than the available hours in the timesheet's time frame. For more information, see <a href="../../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md" class="MCXref xref">View total hours on the timesheet</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Tracking Mode</td> 
@@ -2796,26 +2118,18 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>User Must Update requires that a Task be updated manually. Otherwise, it will become Behind Schedule, then Late.</li> 
      <li>Auto Complete will automatically complete a Task when the Due Date, or Planned Completion Date, has passed.</li> 
     </ul> <p>For more information, see <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Task Tracking Mode overview</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>Trigger</td> 
    <td>An event that starts a scenario.</td> 
-   <td>Optimized</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Trouble Task</td> 
    <td>An incomplete Task with a condition of Late, Behind Schedule, or At Risk.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Unassigned Task</td> 
    <td>A Task that is not assigned to any User, Role, or Team.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Update Type</td> 
@@ -2825,14 +2139,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Automatic Only</li> 
      <li>Manual Only </li> 
     </ul> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>User</td> 
    <td>An account created in Workfront to allow a person to log in and interact with the system.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>User Delegation</p> </td> 
@@ -2842,32 +2152,22 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>Which users have had task, issue, and project approvals delegated to them</li> 
      <li>When these delegations start and end</li> 
     </ul> <p>To learn more, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md" class="MCXref xref">Create a User Delegation report</a>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>User Interface</td> 
    <td>All visual and interactive aspects of the Workfront application.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>User Interface Preferences</td> 
    <td>User Interface Setup. Workfront administrators can change these settings to customize aspects of the user interface.</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>Utilization</td> 
    <td>The availability for a user or role based on the assigned schedule, PTO, and current workload.</td> 
-   <td>Integrated</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>User Utilization</td> 
    <td> <p>A search combined with a report that shows how Users (Resources) are allocated or over-allocated. See <i>Resource Utilization</i>.</p> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
@@ -2977,6 +2277,12 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>For information about using Work Effort instead of Planned Hours to estimate task effort, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>. </p> 
      <p>You can display this field in task reports and lists.</p> 
     </div> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
+   <td>Work Item</td> 
+   <td> <p>This field refers to either tasks or issues in Workfront. </p> <p>The Work Item report displays information for both tasks and issues. </p> </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 

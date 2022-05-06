@@ -3,10 +3,14 @@ filename: update-items-in-summary-panel-in-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Update work items in the Workload Balancer using the Summary
-description: The information on this page refers to functionality available only in the new Adobe Workfront experience and after your Adobe Workfront administrator has enabled this experience for you.
+description: (NOTE: this is NWE only -- leave NWE in the title for NWE only articles to make it clear)
 ---
 
 # Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is NWE&nbsp;only -- leave NWE in the title for NWE only articles to make it clear)</p>
+-->
 
 The information on this page refers to functionality available only in the new Adobe Workfront experience and after your Adobe Workfront administrator has enabled this experience for you.
 
@@ -44,7 +48,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,13 +67,21 @@ You must have the following:
 
    Go to the **Assigned Work** area, expand a user, and find a work item.
 
-1. ```Click the **Summary** icon, then click the bar of a task or issue.```
+1. ```Click the bar of a task or issue to open the Summary panel on the right```
+
+   ```Or```
+
+   ```Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel```
+
+   Or
+
+   Click the **More** menu ![](assets/more-icon.png) to the right of a task or issue, then click&nbsp;Open&nbsp;Summary.
 
    >[!TIP]
    >
-   >You cannot access the Summary of a project.
+   >This option is available for tasks in the Unassigned Work area and for tasks and ```issues``` in the Assigned Work area. This is not available for projects or users.
 
-   The Summary opens on the right.
+   The Summary panel opens on the right.
 
    ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 

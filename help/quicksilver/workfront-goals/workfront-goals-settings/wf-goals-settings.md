@@ -18,9 +18,9 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 This section contains the following articles:
 
 * [Enable Adobe Workfront Goals notifications](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) 
-* [Share a goal in Adobe Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+* [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
 

@@ -9,6 +9,10 @@ description: Tasks can sometimes start and complete late without impacting the C
 
 # Task Slack Date overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Tasks can sometimes start and complete late without impacting the Completion Date of the project.
 
 The Slack Date displays the exact date when a task could definitely impact the Completion Date of the project.

@@ -9,9 +9,17 @@ description: When you are working on a custom form, you can create a new custom 
 
 # Add a custom field to a custom form
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you are working on a custom form, you can create a new custom field and add it to a custom form.
 
-You can also add a custom form that is already created in your system. For instructions, see [Reuse an existing custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+You can also add a custom field that was already added to another custom form. For instructions, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+
+>[!NOTE]
+>
+>In a custom form containing a lot of custom fields or a lot of multi-select options in custom fields, users might experience a slower performance when adding or changing values in those fields. For example, a form containing 100 custom fields, or multi-select custom fields with more than 200 options, might be slower when users interact with it.
 
 ## Access requirements
 
@@ -43,9 +51,9 @@ You must have the following to perform the steps in this article:
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Open the **Add a field** tab.
 
-   ![](assets/add-a-field-350x175.jpg)
+   ![](assets/add-a-field-350x189.jpg)
 
-1. With **New Field** selected, select one of the field types listed below:
+1. With **New Field** ![](assets/new-field.jpg) selected, select one of the field types listed below:
 
    <table cellspacing="0"> 
     <col> 
@@ -95,12 +103,12 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Section Break</td> 
-      <td> <p>You can use a section break to organize your fields into sections and, if necessary, configure different viewing and editing permissions for each section. For information about adding and configuring section breaks, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">Add a section break to a custom form</a>.</p> </td> 
+      <td> <p>A section break is actually not a field. You can use a section break to organize your custom fields and widgets into sections and, if necessary, configure different viewing and editing permissions for each section. For information about adding and configuring section breaks, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md" class="MCXref xref">Add a section break to a custom form</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. On the **Field Settings** tab, configure the options that are available for the type of field you are adding:
+1. On the **Field Settings** tab, configure the options that are available for the type of custom field you are adding:
 
    <table cellspacing="0"> 
     <col> 
@@ -110,14 +118,15 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label for the custom field. It displays above the custom field when users view the field on a custom form added to an object.</p> <p>You can change the label at any time.</p> <p>Important: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p>Important: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
       <td> <p>(Required) This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p>Important:   
         <ul> 
-         <li> <p><span>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.</span> </p> <p><span>For example, if you add the custom field to a report and later change the custom field's name, Workfront doesn't recognize the custom field in the report and the custom field will stop functioning correctly there unless you re-add it to the report using the new name.</span> </p> </li>  
-        </ul> </p> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse a custom field already created for another custom form. </p> </td> 
+         <li> <p><span>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.</span> </p> <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li> 
+         <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li> 
+        </ul> </p> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
@@ -125,11 +134,15 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Select the type of data that will be captured in the field</p> <p>Note:   
+      <td> <p>Select the type of data that will be captured in the custom field.</p> <p>Note:   
         <ul> 
          <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
          <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
         </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Display Type</td> 
+      <td>(Dropdown, checkboxes, and radio buttons only) Switch the type of option selection you want for the field.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Size</td> 
@@ -173,55 +186,45 @@ You must have the following to perform the steps in this article:
       <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Display field changes in update feeds</td> 
-      <td> <p>Select this option if you want the Updates area for objects where this custom form is attached to record changes that users make to information (values) in the field.</p> <p>Note:   <p>This option is not available for the following:</p> 
+      <td role="rowheader">Track field changes in update feeds</td> 
+      <td> <p>Note:   <p>This option is not available for the following:</p> 
         <ul> 
          <li>Custom forms associated with the following object types: Expense, Company, Iteration, Billing Record, and Group.</li> 
          <li>The following field types: Calculated , Descriptive Text , and Section Break</li> 
-        </ul> </p> <!--
-        <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-         <p>If this option is already enabled for at least one object type, and the custom form you're working on is associated with multiple object types, you can indicate other object types where you want to automatically track the field's value changes.</p> <!--
-          <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">SCREENSHOT</p>
-         --> 
-         <p>Selecting or deselecting an object type here affects all custom forms that are associated with the selected object type and that contain this field.</p> 
-         <p>For example, if you deselect an object type here and save the custom form, the field's value changes are no longer tracked for that object type in both of the following places:</p> 
-         <ul> 
-          <li> <p> The custom form you're working on</p> </li> 
-          <li>All other custom forms that are associated with the deselected object type and that contain this field</li> 
-         </ul> 
-         <p>Note:   
-          <div class="preview">
-            After you select an object type here and save the custom form, the field that you're working on displays on the Custom Fields tab in the Update Feeds area in Setup. 
-          </div> 
-          <div class="preview">
-            Conversely, if this field is deleted on that page, the object type is deselected for this setting on all custom forms that are associated with the object type and that contain this field. 
-          </div> 
-          <div class="preview">
-            For more information, see the section <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Add fields you want Workfront to track</a> in the article <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Configure system updates</a>. 
-          </div> </p> 
-        </div>
-       --> </td> 
+        </ul> </p> <p data-mc-conditions="QuicksilverOrClassic.Classic">Select this option if you want the Updates area for all objects where the form is attached to record value changes that users make in the field.</p> <p>For more information, see the section <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Add fields you want Workfront to track</a> in the article <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Configure system updates</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Add Logic</td> 
-      <td>Specify which fields should appear on the form, based on selections users make in existing fields. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Display logic and skip logic on a custom form</a>.</td> 
+      <td>Specify which fields should appear on the form, based on selections users make in existing fields. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Options</td> 
-      <td> <p>(Dropdown, Checkboxes, or Radio Buttons only; optional) Select any option to do the following:</p> 
-       <ul> 
-        <li><strong>Sort Choices A-Z</strong>: Sort the choices you add alphabetically in the field.</li> 
-        <li>Click <strong>Show Values</strong>: Show the values of each choice in the field. The label of each choice shows by default.</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Choices <img src="assets/gear-icon-blue.png"></td> 
-      <td>(Dropdown, Checkboxes, or Radio Buttons only; optional) For each choice you add for the user, select one of the following options: 
-       <ul> 
-        <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
-        <li><p><strong>Hide Choice</strong>: Hide the choice in the field.</p><p> Hidden choices remain accessible in reports.</p></li> 
-        <li><p><strong>Remove Choice</strong>: Remove the choice from the field.</p><p>Warning:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p></li> 
-       </ul></td> 
+      <td role="rowheader">Choices </td> 
+      <td> <p>(Dropdown, Checkboxes, or Radio Buttons only; optional)</p> 
+       <ol> 
+        <li value="1"> <p> <!--
+           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+             In Production, 
+           </MadCap:conditionalText>
+          -->Click <b>Options</b>, then select any of the following:</p> 
+         <ul> 
+          <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li> 
+          <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li> 
+         </ul> <!--
+          <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+           <p>Or, in Preview, enable any of the following:</p> 
+           <ul> 
+            <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li> 
+            <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li> 
+           </ul> 
+          </div>
+         --> </li> 
+        <li value="2"> <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
+         <ul> 
+          <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
+          <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
+          <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p>Warning:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
+         </ul> </li> 
+       </ol> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -250,18 +253,22 @@ You must have the following to perform the steps in this article:
 
    Or
 
-   Add fields that have already been created for your organization, as explained in [Add a custom field to a custom form](#Add).
+   Add fields that have already been created for your organization, as explained in [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
 
    >[!NOTE]
    >
-   >You can add up to 500 fields on a single custom form. However, performance degradation can occur when more than 100 fields exist on a form, depending on the complexity of the form. Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
+   >You can add up to 500 fields and widgets on a single custom form. However, performance degradation can occur when more than 100 exist on a form, depending on its complexity. 
+   >
+   >
+   >Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
 
+1. Click **Apply**.
 1. If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-   * [Position fields in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
-   * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
+   * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
+   * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 

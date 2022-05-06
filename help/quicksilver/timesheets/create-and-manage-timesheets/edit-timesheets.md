@@ -2,15 +2,15 @@
 filename: edit-timesheets
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Edit timesheets in Adobe Workfront
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+title: Edit timesheet information
+description: As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront . For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
 ---
 
-# Edit timesheets in Adobe Workfront
+# Edit timesheet information
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+As a user with administrative access to Timesheets, you can edit information on existing timesheets in Adobe Workfront . For example, you can edit the Owner, the Approvers, or the time frame of the timesheet.
 
-As a user with administrative access to Timesheets, you can edit existing timesheets in Adobe Workfront . You can edit a single timesheet, or you can edit multiple timesheets in bulk.
+You can edit information on a single timesheet, or you can edit multiple timesheets in bulk.
 
 ## Access requirements
 
@@ -41,89 +41,37 @@ You must have the following to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Timesheets**.
 
-1. 
+   The **All** filter is selected by default which displays all the timesheets that you have access to view.
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (Conditional) Depending on which environment you are editing the timesheet in, select from the following:&nbsp;In the Production environment,
-   </MadCap:conditionalText>
-   -->
-
-   Click **All Timesheets** in the left panel.
-
-   The timesheet filter is prepopulated with the teams you belong to.
-
-   ![](assets/all-timesheets-page-with-preselected-teams-default-old-nwe-350x255.png)
-
-   * 
-   
-     <!--   
-     <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the Preview environment, the <strong>All</strong> filter is selected by default. </p>   
-     -->
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/timesheet-list-one-timesheet-selected-nwe-350x70.png" style="width: 350;height: 70;"> </img> </p>
-   -->
+   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. 
+   (Optional) Do one of the following to update the filter in the list of timesheets:
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(Conditional and optional) In the Production environment, do the following to modify the filter in the list of timesheets:</p>
-   -->
+   * Select **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
 
-   (Optional) To modify the filter in the list of timesheets, do the following:
+     Or
 
-   1. Click **Filter** to apply the default filter and display timesheets for people in your teams.
+     Select **My Timesheets** to view only your timesheets.
 
-      Or
+     This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.
 
-      Click **Reset Filter** to clear the filter selection and add new filtering criteria. 
-   
-   1. Select from the following filtering options:
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-      | Belonging to |Displays timesheets associated with the users you specify or the users associated with the roles or teams that you specify. |
-      |---|---|
-      | Approver |Displays timesheets associated with the approvers that you specify. |
-      | Status |Displays timesheets associated with the status that you specify. |
-      | Time Period |Displays timesheets that include the time period you select. |
+   * Click the Filter icon ![](assets/filter-nwepng.png) to apply a different filter, or create a new one. For information about creating or updating filters, see [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-   1. Click&nbsp;**Filter** after defining your filter criteria.
+   >[!NOTE]
+   >
+   >The My Timesheet Approvals and My&nbsp;Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My&nbsp;Timesheet Approvals and the My&nbsp;Timesheets filters from either the List Controls in the Setup area or from your Layout Template.&nbsp;For more information see the following articles:
+   >
+   >   
+   >   
+   >   * [Edit list controls: filters, views, and groupings](../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md) 
+   >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
+   >   
+   >
 
-      >[!TIP]
-      >
-      >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
-
-   <!--
-   <li class="preview" value="4" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>(Conditional and optional) In the Preview environment, do one of the following to update the filter in the list of timesheets:</p>
-   <ul>
-   <li> <p>Select <strong>My Timesheet Approvals</strong> in the upper-right corner of the page to view only timesheets that you approve</p> <p>Or</p> <p>Select <strong>My Timesheets</strong> to view only your timesheets. </p> <p>This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.</p> <p> <img src="assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png" style="width: 350;height: 58;"> </img> </p> </li>
-   <li> <p>Click the Filter icon <img src="assets/filter-nwepng.png"> to apply a different filter, or create a new one.</p> </li>
-   </ul> </li>
-   -->
-
-1. (Optional)&nbsp;Click 
-
-   <!--
-   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">the </span>
-   -->
-
-   **View**
-
-   <!--
-   <img src="assets/view-icon.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   -->
-
-   or **Grouping **
-
-   <!--
-   <img src="assets/grouping.png" class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-   -->
-
-   <!--
-   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">icons</span>
-   -->
-
-   to apply a different view or grouping or to create a new one.
+1. (Optional) Click ```the```**View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) ```icons``` to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -131,19 +79,7 @@ You must have the following to perform the steps in this article:
    * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select one or several timesheets, then click 
-
-   <!--
-   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">the</span>
-   -->
-
-   **Edit** ``````
-
-   <!--
-   <span class="preview">icon <img src="assets/edit-icon.png">QS</img></span>
-   -->
-
-   at the top of the timesheet list. 
+1. Select one or several timesheets, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the timesheet list. 
 1. View or specify the following information:
 
    <table cellspacing="0"> 
@@ -177,11 +113,5 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click **Save Changes** 
-
-   <!--
-   <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Save</span>
-   -->
-
-   .
+1. Click ```Save```.
 

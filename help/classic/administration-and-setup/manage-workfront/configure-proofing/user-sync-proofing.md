@@ -10,6 +10,10 @@ description: User information is synchronized from Adobe Workfront to Workfront 
 
 # User synchronization between Adobe Workfront and Workfront Proof
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 User information is&nbsp;synchronized from Adobe Workfront to Workfront Proof; it is not synchronized from Workfront Proof to Workfront. Because of this, any time you create or modify users, you must make those changes within Workfront. You cannot make changes to users within Workfront Proof.
 
 The following sections provide information about user synchronization from Workfront to Workfront Proof:

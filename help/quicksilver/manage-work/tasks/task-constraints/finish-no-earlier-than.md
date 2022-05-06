@@ -38,6 +38,7 @@ Consider the following when using the Finish No Earlier Than (FNET) constraint f
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="using-FNET"></a>Use the Finish No Earlier Than constraint</h2>
+<p>(NOTE: replaced with new article linked above)&nbsp;</p>
 <p>To update the Task Constraint to Finish No Earlier Than:</p>
 <ol>
 <li value="1">Go to a task whose Task Constraint you want to update.</li>

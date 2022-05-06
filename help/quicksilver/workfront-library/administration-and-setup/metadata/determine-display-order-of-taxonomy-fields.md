@@ -17,7 +17,7 @@ For more information about taxonomy, see [Overview of taxonomy metadata in Workf
 
 1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. In the left panel, click **Setup >****Taxonomy**.
+1. In the left panel, click **Setup >** **Taxonomy**.
 1. Locate the field you want to move, then drag the field to the desired order.
 
    We recommend you place taxonomy fields in a hierarchical order, with the most important fields placed at the top of the list and the fields of least importance placed at the end.

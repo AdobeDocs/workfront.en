@@ -11,6 +11,10 @@ description: You can create and edit tags and apply them to your proofs and file
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can create and edit tags and apply them to your proofs and files. This is great for when you have lots of different Workfront Proof items, such as projects, divisions, and clients, and you want to identify and find them easily.&nbsp;

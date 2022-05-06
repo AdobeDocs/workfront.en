@@ -8,6 +8,10 @@ description: You can manage approvals assigned or delegated to you from the Appr
 
 # Approvals in the Adobe Workfront mobile app
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app. From the approvals area, you can approve:
 
 <table> 

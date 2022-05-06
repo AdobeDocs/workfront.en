@@ -13,8 +13,12 @@ This section contains the following articles:
 
 * [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md) 
 * [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) 
-* [Overview of saving concurrent changes within a task list](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md) 
-* [Manage task details, custom forms, and finances](../../../manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md) 
+* [Overview of saving concurrent changes within a task list](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md" class="MCXref xref" xrefformat="{para}">Manage task details, custom forms, and finances</a> (drafted not to lose the TOC spot, but the article is in draft)</li>
+  -->
+
 * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md) 
 * [Manage task finances in the Task Details section](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md) 
 * [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) 

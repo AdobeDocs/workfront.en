@@ -9,6 +9,10 @@ description: Workfront Library is designed to be your organization's digital con
 
 # Get started with Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Workfront Library is designed to be your organization's digital content hub, allowing you to manage the full lifecycle of your organization's digital content.
 
 You can use Workfront Library in conjunction with the workflows you have in Workfront to seamlessly manage all your assignments and to get your work done.

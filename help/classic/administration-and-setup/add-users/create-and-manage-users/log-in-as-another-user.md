@@ -5,10 +5,22 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Log in as another user
-description: The procedure described on this page applies only to organizations that have not yet been onboarded to the Adobe Admin Console. If your organization has been onboarded to the Adobe Admin Console, this action is not available.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Log in as another user
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Linked to other articles: Creating and Managing Groups, etc</p>
+-->
 
 >[!IMPORTANT]
 >
@@ -99,9 +111,15 @@ You must have the following to perform the steps in this article:
 1. Click **Log in.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or <!--
-   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[specify somewhere here that this is only for the Enterprise package if they decide on that]</span>
-   --></p>
+   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   -->
+
+   <!--
+   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">click an Access period and then click Request to ask the user for access to log as him or her for the specified period of time. Continue these steps after the user grants access. Specify somewhere here that this is only for the Enterprise package if they decide on that</p>
+   -->
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or </p>
    -->
 
    <!--

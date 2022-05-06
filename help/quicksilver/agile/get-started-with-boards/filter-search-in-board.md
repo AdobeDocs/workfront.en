@@ -2,19 +2,15 @@
 filename: filter-search-in-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Filter in a board
-description: The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+title: Filter and search in a board
+description: You can filter a board to only display cards assigned to certain people. You can also choose to display archived or tagged cards in the filter. When filters are applied on the board, an indicator is displayed on the filter icon .
 ---
 
-# Filter in a board
+# Filter and search in a board
 
-The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+You can filter a board to only display cards assigned to certain people. You can also choose to display archived or tagged cards in the filter. When filters are applied on the board, an indicator is displayed on the filter icon ![Filter applied to board](assets/boards-filterapplied-30x30.png).
 
-You can filter a board to only display cards assigned to certain people. You can also choose to display archived cards in the filter.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Searching also helps you locate a specific card on the board.</p>
--->
+Searching also helps you locate a specific card on the board.
 
 ## Access requirements
 
@@ -43,9 +39,13 @@ You must have the following access to perform the steps in this article:
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png) and select the person or people whose cards you want to see. You can also display unassigned cards.
 
-   Only the cards for those assignees are displayed.
+## Filter a board by tags
 
-   ![](assets/boards-filter-by-card-assignee.png)
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png) and select the tags you want to see.
+
+   ![](assets/boards-filterbytag-346x502.png)
 
 ## Filter a board to show archived cards
 
@@ -60,29 +60,14 @@ By default, only active cards are displayed on a board. You can filter the board
 
 1. Select **Archived cards** again to clear the option and display only active cards.
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Search in a board</h2>
--->
+## Search in a board
 
-   <!--
-   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Access the board.</li>
-   -->
+1. Access the board.
+1. Click the search icon ![](assets/search-icon.png) and type a search term. Then, press Enter.
 
-1. 
+   The search locates all cards that contain the search term.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the search icon <img src="assets/search-icon.png"> and type a search term. Then, press Enter.</p>
-   -->
+   Click the X to clear the search.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The search locates all cards that contain the search term.</p>
-   -->
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the X to clear the search.</p>
-   -->
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/boards-searchbox.png" alt="Search for cards in a board"> </p>
-   -->
+   ![Search for cards in a board](assets/boards-searchbox.png)
 

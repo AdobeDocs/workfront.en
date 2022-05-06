@@ -34,7 +34,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,6 @@ You must have the following:
 1. Click **Queue Topics** in the left panel. You might need to click **Show More**, then **Queue Topics**. 
 1. Click **New Queue Topic**.
 1. On the **New Queue Topic** form, specify the following:
-1. 
 
    <table cellspacing="0"> 
     <col> 
@@ -117,8 +116,9 @@ You must have the following:
     </tbody> 
    </table>
 
-1. ![](assets/screen-shot-2016-09-07-at-10.20.51-am-350x258.png)
+   ![](assets/new-queue-topic-box-nwe-350x375.png)
 
+1. &nbsp;
 1. Click**Save**.   
    The Queue Topic is now available to use and is visible in the Requests area of Workfront, after a Request Queue and a Topic Group are selected.
 

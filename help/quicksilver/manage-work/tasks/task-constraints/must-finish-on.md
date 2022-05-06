@@ -13,6 +13,10 @@ You can use the Must Finish On (MFO) Task Constraint to schedule a task to end o
 
 The Must Finish On constraint schedules a task to finish exactly at the time and date you specify in the **Planned Completion Date** field.
 
+>[!TIP]
+>
+>Manually updating a task's Planned Completion Date changes the constraint of the task to Must Finish On.
+
 ## Overview of the Must Finish On Task Constraint
 
 Consider the following when scheduling a task with a Must Finish On constraint:

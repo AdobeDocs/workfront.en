@@ -11,7 +11,6 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
-* [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md) 
 * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) 
 * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) 
 * [Configure personal proofing defaults](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md) 

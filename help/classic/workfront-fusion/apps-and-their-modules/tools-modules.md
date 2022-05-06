@@ -10,6 +10,10 @@ description: The Adobe Workfront Fusion Tools section includes several useful mo
 
 # Tools
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Adobe Workfront Fusion Tools section includes several useful modules that can enhance your scenario.
 
 Tools modules are available from the list of apps, or from the Tools icon ![](assets/tools-icon-small.png) at the bottom of the screen.
@@ -85,7 +89,7 @@ You can use this module, for example, for contacts or any other list that is sch
 
 This module retrieves values that were previously created by the Set Variable or Set Multiple Variables module.
 
-This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module](../../workfront-fusion/modules/router-module.md).
+This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module in Adobe Workfront Fusion](../../workfront-fusion/modules/router-module.md).
 
 | Variables |Add the variables that you want the module to get. |
 |---|---|
@@ -104,7 +108,7 @@ This module can read variables that were set anywhere in the scenario, even if t
 
 This module retrieves a value that was previously created by the Set Variable or Set Multiple Variables module.
 
-This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module](../../workfront-fusion/modules/router-module.md).
+This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module in Adobe Workfront Fusion](../../workfront-fusion/modules/router-module.md).
 
 <table cellspacing="0"> 
  <col> 
@@ -253,7 +257,7 @@ This function can be useful, for example, if you want to lower the target servic
 >
 >The first scenario would end up with storing all the necessary information in a data store together with the current timestamp. The second scenario would periodically check the data store for records with a timestamp older than the intended delay, retrieve the records, finalize the processing of the data and remove the records from the data store.
 >
->For more information on data stores, see [Data Stores](../../workfront-fusion/modules/data-stores.md).
+>For more information on data stores, see [Data Stores in Adobe Workfront Fusion](../../workfront-fusion/modules/data-stores.md).
 >
 >For more information on specific data store modules, see [Data store modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
@@ -463,7 +467,7 @@ Checks the input value for a match with the provided list of values. Returns out
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Employ the <a href="http-modules.md" class="MCXref xref">HTTP modules</a> >&nbsp;Make a request module in the main scenario to call the other scenario. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Custom webhook module in the other scenario to receive the call. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Webhook response module in the other scenario to return the response.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Employ the HTTP modules >&nbsp;Make a request module in the main scenario to call the other scenario. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Custom webhook module in the other scenario to receive the call. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Webhook response module in the other scenario to return the response.</p>
 -->
 
 <!--

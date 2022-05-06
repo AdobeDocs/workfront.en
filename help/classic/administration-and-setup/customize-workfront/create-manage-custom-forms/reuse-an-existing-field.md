@@ -1,8 +1,23 @@
+---
+filename: reuse-an-existing-field
+user-type: administrator
+product-area: system-administration
+navigation-topic: create-and-manage-custom-forms
+title: Reuse a custom field or widget in a custom form
+description: When you are creating or editing a custom form, you can add a custom field or widget that has already been added to another custom form.
+---
 
+# Reuse a custom field or widget in a custom form
 
-# Reuse an existing custom field
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-When you are creating or editing a custom form, you can add a custom field that already exists in the system.
+When you are creating or editing a custom form, you can add a custom field or widget that has already been added to another custom form.
+
+For information about adding an existing calculated custom field, see [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md).
+
+For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and Add or edit an image or video in a custom form.
 
 ## Access requirements
 
@@ -29,52 +44,27 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Reuse an existing custom field
+## Reuse a custom field or widget already used in another custom form
 
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Click **Field Library**, then select the field in the list that appears.
+1. With **Add a field** selected, click **Field Library**.
 
-   You cannot use an existing field more than once on a form.
-
-   >[!IMPORTANT]
-   >
-   >When you modify an existing field, any changes you make impact that field on all forms where it is used.
-
-1. Click **Apply**.
-1. (Optional) Repeat the two previous steps to add any other existing fields .
+1. Drag the field or widget here you want it in the custom form.
+1. (Optional) Repeat the two previous steps to add any other fields or widgets.
 
    >[!NOTE]
    >
-   >You can add up to 500 fields on a single custom form. However, performance degradation can occur when more than 100 fields exist on a form, depending on the complexity of the form. 
+   >You can add up to 500 fields and widgets on a single custom form. However, performance degradation can occur when more than 100 exist on a form, depending on its complexity. 
    >
    >
    >Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
 
-1. (Optional) Create and add any new fields you need that have not yet been created for your organization, as explained in [Reuse an existing custom field](#Create) in this article.
-1. (Optional) To position fields on the same row, drag them next to each other until a line appears between them.
+1. If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-   When you drop the field where you want it, a gray outline box appears around the two fields, indicating that they share a row. If you drag a field until the blue line appears above or below another field, the fields do not share a row.
-
-   >[!NOTE]
-   >
-   >
-   >   
-   >   
-   >   * You can use the **Preview** button in the lower-right corner to get an idea of how the fields will display in the form.
-   >   * Fields may not display exactly the same way in the form, depending on how much screen space is available when a user is viewing it. For example, the third field in a row of fields may wrap to the next row of fields if horizontal space is limited.
-   >   
-   >
-
-1. If you want to add a new custom field to the form, continue on to [Reuse an existing custom field](#Create) in this article.
-
-   Or
-
-   If you want to continue building your custom form in other ways, continue on to one of the following articles:
-
-   * [Position fields in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2) 
    * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 

@@ -81,7 +81,7 @@ Workfront provides the following built-in integrations at no additional cost:
     <ul> 
      <li>Integrate Workfront comments and approvals with InDesign, Illustrator, and Photoshop </li> 
      <li>Download/install from Adobe Exchange or manually</li> 
-    </ul> <p>For more information, see <a href="../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md" class="MCXref xref">Install Adobe Workfront for Adobe Creative Cloud</a>.</p> </td> 
+    </ul> <p>For more information, see <a href="../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md" class="MCXref xref">Install the Workfront Extension for Illustrator and InDesign</a>.</p> </td> 
    <td> 
     <ul> 
      <li> 2017 and newer versions of Adobe CC </li> 
@@ -305,7 +305,7 @@ Workfront enables you to leverage other built-in integrations and integrated pro
 
 * Adobe Experience Manager Assets
 
-  For more information, see [Configure Workfront with Adobe Experience Manager](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
+  For more information, see [Configure Workfront with Adobe Experience Manager legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
 
 ## Partner integrations
 

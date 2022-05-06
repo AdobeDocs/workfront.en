@@ -4,11 +4,15 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: View: report delivery details
-description: This view shows specific details about the reports in your system that are scheduled for automatic delivery via email. You can see the last sent date along with the details about the format of the report and the delivery options you have set.
+description: This code is no longer supported. Most fields are available through the UI.
 hidefromtoc: true
 ---
 
 # View: report delivery details
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This code is no longer supported. Most fields are available through the UI.</p>
+-->
 
 ## Overview
 

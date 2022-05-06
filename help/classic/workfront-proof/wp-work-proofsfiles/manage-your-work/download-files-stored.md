@@ -11,6 +11,10 @@ description: You can download the original files from active, locked, and archiv
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can download the original files from active, locked, and archived proofs to your local machine. You can then print and open them in the software application used to create them (if you have the application). You can download original files from a single proof or from multiple proofs.
@@ -25,7 +29,7 @@ You can download the original files from active, locked, and archived proofs to 
 1. ![More_button_small.png](assets/more-button-small.png)
 
 1. If you need more information about these layouts, see [Page Layout on the Views Tab in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md).
-1. Click&nbsp;**Download original**in the menu that appears.  
+1. Click&nbsp;**Download original** in the menu that appears.  
    You can also select the proof in the list, click the **More** button above the list, then click **Download**.  
    You can also download files:
 

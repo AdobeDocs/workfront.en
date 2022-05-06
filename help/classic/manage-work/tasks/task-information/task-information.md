@@ -9,6 +9,10 @@ description: This section contains the following articles:
 
 # Task information
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This section contains the following articles:
 
 * [Tasks overview](../../../manage-work/tasks/task-information/tasks-overview.md) 
@@ -30,6 +34,9 @@ This section contains the following articles:
 * [Differentiate between Projected and Estimated Dates](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md) 
 * [Resource Scope overview](../../../manage-work/tasks/task-information/resource-scope.md) 
 * [Overview of task Original Duration and Original Planned Hours](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) 
-* [Difference between Planned Duration and Duration for tasks](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md) 
-* [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md)
+* [Difference between Planned Duration and Duration for tasks](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/tasks/task-information/project-task-issue-dates.md" class="MCXref xref" xrefformat="{para}">Overview of project, task, and issue dates</a> </li>
+  -->
 

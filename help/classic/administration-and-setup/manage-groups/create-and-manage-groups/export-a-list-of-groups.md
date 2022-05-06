@@ -9,6 +9,10 @@ description: When you are viewing groups that you manage, you can export a list 
 
 # Export a list of groups
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you are viewing groups that you manage, you can export a list of those groups.
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
@@ -36,7 +40,7 @@ You must have the following to perform the steps in this article:
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
-   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. If you want to export the entire group of groups that you manage, click **Export**.
 

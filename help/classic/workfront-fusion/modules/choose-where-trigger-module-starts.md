@@ -3,11 +3,15 @@ filename: choose-where-trigger-module-starts
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Choose where a trigger module starts
+title: Choose where a trigger module starts in Adobe Workfront Fusion
 description: Some trigger modules allow you to select the first bundle from which you want the retrieving of bundles to start.
 ---
 
-# Choose where a trigger module starts
+# Choose where a trigger module starts in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Some trigger modules allow you to select the first bundle from which you want the retrieving of bundles to start.
 
@@ -61,11 +65,11 @@ You must have the following access to use the functionality in this article:
 
    Or
 
-   Change the trigger module's settings as described in [Configure a module's settings](../../workfront-fusion/modules/configure-a-modules-settings.md).
+   Change the trigger module's settings as described in [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
    Or
 
-   Right-click the icon for the trigger module in the Scenario editor, as described in [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Right-click the icon for the trigger module in the Scenario editor, as described in [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Select an option in the **Choose where to start** box that appears.
 

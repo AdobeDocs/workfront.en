@@ -8,6 +8,10 @@ description: In Workfront, tasks can have parent-child relationships. Child task
 
 # Create subtasks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 In Workfront, tasks can have&nbsp;parent-child relationships. Child tasks are called subtasks. You can create subtasks&nbsp;on the tasks list by making a main task a subtask.&nbsp;You can also make a subtask a main task.
 
 ## Access requirements
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project and the parent task with ability to Add Tasks or higher</p> <p>You automatically receive Manage permissions to the task after you create it</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task in&nbsp;Adobe Workfront</a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions to the project and the parent task with ability to Add Tasks or higher</p> <p>You automatically receive Manage permissions to the task after you create it</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,7 +75,7 @@ You must have the following access to perform the steps in this article:
 1. Click the name of the task where you want to create a subtask.
 1. Click the **Subtasks**&nbsp;tab.
 
-   ![](assets/cs2-350x100.png)
+   ![](assets/cs2-350x76.png)
 
 1. Click **New Task.**
 
@@ -84,9 +88,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the&nbsp;project where you want to make a subtask a main task.
 1. Click the **Tasks** tab.
 1. Select the subtask that you want to make a main task.
-1. Click the **Outdent** icon to make the subtask a main task.
-
-   ![](assets/cs4.png)
+1. Click the **Outdent** icon ![](assets/cs4-34x29.png) to make the subtask a main task.
 
    Or
 

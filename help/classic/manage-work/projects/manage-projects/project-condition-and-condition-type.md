@@ -10,11 +10,15 @@ description: The project Condition is a visual representation of how the project
 
 # Overview of Project Condition and Condition Type
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ##  
 
 The project Condition is a visual representation of how the project is progressing. It is a reportable variable determined by the relationship between the planned, projected, and estimated dates of the project.
 
-![](assets/project-header-with-new-condition-icon-350x37.png)
+![](assets/project-header-with-new-condition-icon-350x38.png)
 
 ## Project Condition overview
 
@@ -46,10 +50,12 @@ Consider the following in understanding the Condition of a project:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Set"></a>Set the Condition Type for a project</h2>
+<h2><a name="Set"></a>Set the Condition Type for a project</h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted here and moved it to a separate article: /Content/Manage work/Projects/Manage projects/set-condition-type-for-project.htm)</p>
+-->
 <ol>
 <li value="1">Go to the project for which you want to update the Condition Type. </li>
-<li value="2"> <p>  Click <strong>Edit Project</strong>.  <br> <img src="assets/screen-shot-2013-05-07-at-12.12.32-pm-350x239.png" alt="" style="width: 350;height: 239;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
+<li value="2"> <p>  Click <strong>Edit Project</strong>.  <br> <img src="assets/screen-shot-2013-05-07-at-12.12.32-pm-350x280.png" alt="" style="width: 350;height: 280;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="3">In the <strong>Condition Type</strong> field, choose one of the following:
 <ul>
 <li><p><strong>Manual:</strong> The project owner sets the Condition on the project manually.</p><p data-mc-conditions="QuicksilverOrClassic.Classic">In this case, the project owner can update the&nbsp;Condition of the project in the Project Details tab.</p></li>

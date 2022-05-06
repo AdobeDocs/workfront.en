@@ -3,10 +3,15 @@ filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Change the date format in Adobe Workfront when using Chrome
-description: To change the date format for the dates in Adobe Workfront, such as Planned Completion Date, Actual Completion Date, or Project Completion date, from DD/MM/YYYY to MM/DD/YYYY or vice versa, you must change the language settings in your browser.
+description: (Drafted this article, per consensus from the team)
+hidefromtoc: true
 ---
 
 # Change the date format in Adobe Workfront when using Chrome
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Drafted this article, per consensus from the team)</p>
+-->
 
 To change the date format for the dates in Adobe Workfront, such as Planned Completion Date, Actual Completion Date, or Project Completion date, from DD/MM/YYYY to MM/DD/YYYY or vice versa, you must change the language settings in your browser.
 

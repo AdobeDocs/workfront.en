@@ -3,16 +3,15 @@ filename: create-new-proof-version
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Create a new version of a proof
-description: Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront Proof simplifies this process by letting you create and compare multiple versions of a proof.
+description: Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront simplifies this process by letting you create and compare multiple versions of a proof.
 ---
 
 # Create a new version of a proof
 
-Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront Proof simplifies this process by letting you create and compare multiple versions of a proof.
+Managing feedback across multiple versions or revisions of a piece of work can be a huge challenge. Workfront simplifies this process by letting you create and compare multiple versions of a proof.
 
 Consider the following information when you are creating a new version of a proof:
 
-* There is no limit to the number of versions of a proof you can create. 
 * You can give a user permission to see one version but not another. Conversely, if you share a later version with a user, that user cannot see earlier versions unless you go back and explicitly grant the user access to those previous versions. 
 * To create a new version of a proof you must have Edit rights on the proof.
 
@@ -34,7 +33,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -46,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,7 +128,7 @@ To create a new version of a proof in Workfront Proof:
    
    * Add the version to a folder. See [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) for more information.****The folder&nbsp;will be copied from the previous version of the proof. If you select a different folder, the whole proof (all versions) will be moved.
    
-   * Billing administrators and Administrators can make the folder field mandatory across the whole account on the Settings tab. See [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) for more information.
+   * Billing administrators and Administrators can make the folder field mandatory across the whole account on the Settings tab. See for more information.
 
 1. Under Proof settings, make any of the changes below:
 

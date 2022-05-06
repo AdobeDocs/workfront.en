@@ -3,10 +3,14 @@ filename: view-in-trouble-goals
 product: workfront-goals
 navigation-topic: goal-management
 title: Review in-trouble goals in Adobe Workfront Goals
-description: Goals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging. For information about goal progress, see Calculate goal progress in Adobe Workfront Goals.
+description: (NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble")
 ---
 
 # Review in-trouble goals in&nbsp;Adobe Workfront Goals
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
+-->
 
 Goals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging. For information about goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
@@ -28,7 +32,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -43,7 +47,7 @@ You must have the following:
    <td> 
     <div> 
      <p>Manage permissions to the goal</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -91,7 +95,7 @@ This article describes how to review goals in the Goal List.
      >
      >You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default.
 
-   * For each of the organizational units you select above, click **New Filter** > **Progress** > **In Trouble**>**Apply.**
+   * For each of the organizational units you select above, click **New Filter** > **Progress** > **In Trouble** >**Apply.**
    * (Optional) Select the time period for which you want to view goals.
 
      The progress bar indicator displays in red for each goal in the goal list.
@@ -106,7 +110,7 @@ This article describes how to review goals in the Goal List.
 
    In-trouble goals for the selected users display in the goal list. 
 
-1. Click ```Expand``` ```goals```to view additional information about the goals and their contributing items. 
+1. Click ```Expand``` ```goals``` to view additional information about the goals and their contributing items. 
 1. A list of results, activities, and aligned goals displays under each goal. Now, you can view which contributing item delays the progress of your goal.
 
    ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)

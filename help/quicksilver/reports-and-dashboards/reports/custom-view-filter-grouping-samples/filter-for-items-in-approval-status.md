@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,13 @@ You must have the following access to perform the steps in this article:
    For example, in a project report, add **Status Equal Planning**, if you want to display only projects which are in a status of **Planning - Pending Approval**.
 
 1. Click **Switch to Text Mode**.
-1. Modify the *status* line by adding **:A** to the 3-letter key of the status:  
+1. Modify the 
+
+   ```
+   status
+   ```
+
+   line by adding **:A** to the 3-letter key of the status:  
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
 1. Click **Done**, then **Save Filter**.

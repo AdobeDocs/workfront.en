@@ -30,6 +30,10 @@ This section contains the following articles:
 * [Adobe Acrobat Sign modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
 
   <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/adobe-analytics-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Analytics Modules</a> </li>
+  -->
+
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager Assets modules</a> </li>
   -->
 
@@ -73,7 +77,7 @@ This section contains the following articles:
 
 * [Email modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) 
 * [Encryptor](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md) 
-* [Flow control](../../workfront-fusion/apps-and-their-modules/flow-control.md)
+* [Flow control in Adobe Workfront Fusion](../../workfront-fusion/apps-and-their-modules/flow-control.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/ftp-modules.md" class="MCXref xref" xrefformat="{para}">FTP modules</a> </li>
@@ -103,7 +107,12 @@ This section contains the following articles:
   -->
 
 * [Jira Software modules](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md) 
-* [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md) 
+* [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/mailchimp-modules.md" class="MCXref xref" xrefformat="{para}">MailChimp modules</a> </li>
+  -->
+
 * [MariaDB modules](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md) 
 * [Markdown modules](../../workfront-fusion/apps-and-their-modules/markdown-modules.md) 
 * [Marketo modules](../../workfront-fusion/apps-and-their-modules/marketo-modules.md) 

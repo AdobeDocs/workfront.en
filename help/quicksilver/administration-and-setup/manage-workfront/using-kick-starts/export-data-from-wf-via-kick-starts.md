@@ -5,10 +5,14 @@ product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Export data from Adobe Workfront via Kick-Starts
-description: As an Adobe Workfront administrator, you can use the Kick-Starts data exporter to export data from Workfront. You can use it in other applications after you export it.
+description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Export data from Adobe Workfront via Kick-Starts
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 As an Adobe Workfront administrator, you can use the Kick-Starts data exporter to export data from Workfront. You can use it in other applications after you export it.
 
@@ -16,7 +20,7 @@ Exporting data through Kick-Starts is also helpful in understanding what fields 
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -94,7 +98,7 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
 
    The only exception is the **Access Levels** object. The Access Levels data sheet that is included in an export is provided for reference purposes only. It allows you to assign an access level to a new user account by ID.
 
-   For more information about importing data into Workfront via kick-starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)The following is a list of all objects that can be exported through kick-starts:
+   For more information about importing data into Workfront via kick-starts, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)The following is a list of all objects that can be exported through kick-starts:
 
    <table cellspacing="15"> 
     <col> 

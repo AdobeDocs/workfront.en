@@ -36,7 +36,7 @@ For information about configuring your organization's firewall to open communica
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

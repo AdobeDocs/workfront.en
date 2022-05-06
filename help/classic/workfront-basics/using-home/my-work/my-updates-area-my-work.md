@@ -7,11 +7,15 @@ description: Only for users with a Review license, the My Updates area takes the
 
 # My Updates area
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 Only for users with a Review license, the My Updates area takes the place of the My Work or Home page available to users with other license types (see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).)
 
 The My Updates area displays the following information:
 
-* **Any items awaiting approval**. These display at the top of the screen so review users can easily see which items they need to approve or reject. For more information about approving items, see [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
+* **Any items awaiting approval**. These display at the top of the screen so review users can easily see which items they need to approve or reject. For more information about approving items, see [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
   You can view the following types of approvals by applying the following filters to this area:
 

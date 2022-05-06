@@ -4,37 +4,18 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile overview
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: Agile is a work methodology that allows teams to complete small, manageable amounts of work at a consistent cadence. In agile, teams manage stories on a backlog or story board and not tasks in a project. Adobe Workfront provides tools that help teams work in an agile way.
 ---
 
 # Agile overview
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+Agile is a work methodology that allows teams to complete small, manageable amounts of work at a consistent cadence. In agile, teams manage stories on a backlog or story board and not tasks in a project. Adobe Workfront provides tools that help teams work in an agile way.
 
-Agile is a work methodology that allows teams to complete small, manageable amounts of work at a consistent cadence. In agile, teams manage stories on a backlog or story board and not tasks in a project. Adobe Workfront provides tools that help teams work in an agile way, using either Kanban or Scrum.
+Workfront boards are simple yet flexible tools for team collaboration. For information on boards, see [Boards overview](../agile/boards-overview.md).
 
-<!--
-Adobe Workfront provides tools that help teams work in an agile way.
--->
+Additional advanced agile team tools use either Kanban or Scrum. For information on the Kanban and Scrum methodologies, see the section [Decide on an agile methodology](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in the article [Create an agile team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-<!--
-Workfront boards are simple yet flexible tools for team collaboration. For information on boards, see
-<a href="../agile/boards-overview.md" class="MCXref xref" xrefformat="{para}">Boards overview</a>.
--->
-
-<!--
-Additional advanced agile team tools use either Kanban or Scrum.
--->
-
-For information on the Kanban and Scrum methodologies, see the section [Decide on an agile methodology](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) in the article [Create an agile team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
-
-To begin using 
-
-<!--
-advanced
--->
-
-agile in Workfront:
+To begin using advanced agile in Workfront:
 
 1. Create an agile team.
 

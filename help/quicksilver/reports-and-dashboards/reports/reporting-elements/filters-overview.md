@@ -4,12 +4,19 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Filters overview in Adobe Workfront
-description: 
+description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 ---
 
 # Filters overview in Adobe Workfront
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: CONTENT LAST COPIED FROM the filters-overview-draft.htm article on 9/23/21)</p>
+<p>(NOTE: This is the live version of the filters-overview-draft.htm article. If you make changes here, make the changes in the other one, OR ... delete the other one?!) </p>
+</div>
+-->
 
 You can use filters in&nbsp;Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.&nbsp;
 
@@ -58,7 +65,7 @@ For more information about filters in lists and reports, see the following artic
 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) 
-* [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) 
+* [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) 
 * 
 
   <!--
@@ -74,10 +81,6 @@ You can use either built-in filters or build custom filters in the following are
 * Requests area. You cannot customize filters in the Requests area.
 
   For information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md). 
-
-* Timesheets. You can use built-in filtering criteria but you cannot build custom filters to reuse for the Timesheets area.
-
-  For information, see [Timesheets overview](../../../timesheets/timesheets/timesheets-overview.md). 
 
 * Resource Planner  
   For information, see the article [Filter information in the Resource Planner](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
@@ -97,33 +100,49 @@ You can use either built-in filters or build custom filters in the following are
 
   For information, see [Apply filters in Enhanced analytics](../../../enhanced-analytics/use-enhanced-analytics-filters.md). 
 
-* Blueprints area.&nbsp;This area is only available for Workfront administrators.
+* Blueprints area
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  .&nbsp;This area is only available for Workfront administrators.(NOTE: drafted this because I don't think this is valid any longer)
+  </MadCap:conditionalText>
+  -->
 
   For information, see [Install a blueprint](../../../administration-and-setup/blueprints/blueprints-install.md). 
 
 * Scenario Planner
 
-  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+  The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
   >[!TIP]
   >
   >You cannot customize filters in theScenario Planner.
 
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??)</p>
+  -->
+
   You can use built-in filters for plans, initiatives, or projects and you can customize project filters in the Scenario Planner.
 
   For information, see the following articles:
 
-   * [Create and edit plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-plans.md) 
-   * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md) 
-   * [Import projects to plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
+   * [Create and edit plans in the Scenario Planner](../../../scenario-planner/create-and-edit-plans.md) 
+   * [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md) 
+   * [Import projects to plans in the Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
 
 * Goals
 
-  This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  Goals require an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
   You can use built-in filtering criteria but you cannot build custom filters to reuse for the Goals area.
 
-  For information, see [Filter information in Adobe Workfront Goals](../../../workfront-goals/goal-management/filter-information-wf-goals.md).
+  For information, see [Filter information in Adobe Workfront Goals](../../../workfront-goals/goal-management/filter-information-wf-goals.md). 
+
+* Boards
+
+  You can apply built-in filters but you cannot build custom filters to reuse in the Boards area.
+
+  For information, see [Filter and search in a board](../../../agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Overview of filters in lists and reports
 
@@ -157,7 +176,7 @@ Consider the following when working with filters in lists or reports:
   >
   >Keep in mind if you make changes to a filter you have shared with others the changes impact them as well.
 
-* You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Elements of a filter
 
@@ -272,6 +291,12 @@ For example, if you have a field with 3 options (A, B, and C), and select 2 of t
 
 You can reference only five objects, excluding the object of the report, when you build a filter in Workfront.&nbsp;
 
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: does this limitation still stand with beta filters??)
+</MadCap:conditionalText>
+-->
+
 When you reach this limit within the builder, you can select fields that belong only to these six objects. You receive a warning when you have reached this limit.&nbsp;
 
 You cannot overcome this limitation when you build your filter in text mode.&nbsp;
@@ -279,6 +304,7 @@ You cannot overcome this limitation when you build your filter in text mode.&nbs
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h1>Filters overview in Adobe Workfront </h1>
+<p>(NOTE: This was the original article before we overwrote it with the new content above - the new content always updates on filters-overview-draft.htm article - last overwriting was 9/23/21)</p>
 <p>You can use filters in&nbsp;Adobe Workfront to reduce the amount of information you display on the screen.&nbsp;</p> <note type="note">
 This article describes all areas where you can apply filters in&nbsp;Workfront, as well as general information about filters in lists and reports. Refer to the articles linked below to find out information about filters in specific areas other than lists and reports.
 </note>
@@ -308,13 +334,15 @@ This article describes all areas where you can apply filters in&nbsp;Workfront, 
 <li>Resource Planner<br>For information about filtering in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a>.</li>
 <li>Resource Scheduling areas<br>For information about filtering in the scheduling areas, see the article <a href="../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref">Filter information in the Scheduling area</a>.</li>
 <li>Home <br>For information about filtering items in the Home area, see the <a href="../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type" class="MCXref xref">Filter the Work List</a> section in the article <a href="../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md" class="MCXref xref">Display items in the Work List in the Home area</a>.</li>
-<li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Scenario Planner </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> <note type="tip">
+<li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Scenario Planner </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <note type="tip">
 You cannot customize filters in theScenario Planner.
-</note> <p>You can apply filters to a list of plans, initiatives, or projects in the Scenario Planner. For information, see the following articles:</p>
+</note> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??) </p>
+--> <p>You can apply filters to a list of plans, initiatives, or projects in the Scenario Planner. For information, see the following articles:</p>
 <ul>
-<li> <p><a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a> </p> </li>
-<li> <p><a href="../../../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref">Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner</a> </p> </li>
-<li> <p><a href="../../../scenario-planner/import-projects-to-plans.md" class="MCXref xref">Import projects to plans in the Adobe Workfront Scenario Planner</a> </p> </li>
+<li> <p><a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a> </p> </li>
+<li> <p><a href="../../../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref">Update or create projects by publishing initiatives in the Scenario Planner</a> </p> </li>
+<li> <p><a href="../../../scenario-planner/import-projects-to-plans.md" class="MCXref xref">Import projects to plans in the Scenario Planner</a> </p> </li>
 </ul> </li>
 <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Goals </p> <p>This requires an additional license. For information about Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> <p>For information, see <a href="../../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> </li>
 </ul>
@@ -335,7 +363,7 @@ You cannot customize filters in theScenario Planner.
 </div>
 <ul>
 <li>Your level of permissions to a filter determines how filters are saved. If you created the filter originally, you can save the changes, otherwise you are prompted to save a version of the filter that you are modifying. Keep in mind if you make changes to a filter you have shared with others the changes impact them as well.</li>
-<li>You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping in Adobe Workfront</a>.</li>
+<li>You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping </a>.</li>
 </ul> <note type="important">
 When creating or editing filters in reports, you must edit the report in order for the new filter to become the default filter for the report. When you edit just the filter, outside the report builder, the default filter of the report is not updated.
 <br>For information about editing a report, see the article
@@ -377,6 +405,7 @@ When changing your AND statements to OR statements, the number of the items in y
 <p>For information about creating or editing a filter using the standard interface, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/create-filters.md" class="MCXref xref">Create or edit filters in Adobe Workfront</a>.</p> <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h3><a name="Customizing_an_Existing_Filter"></a><strong>Customize an existing filter</strong> </h3>
+<p>(NOTE: points to the Create filters article above) </p>
 <ol>
 <li value="1">Go to the report or list that contains the Filter that you want to customize. </li>
 <li value="2">Click the <strong>Filter</strong> drop-down list.<br></li>
@@ -393,6 +422,8 @@ When changing your AND statements to OR statements, the number of the items in y
 </div>
 --> <!--
 <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating_a_New_Filter_Based_on_an_Existing_Filter."></a><strong>Create a Filter based on an existing Filter</strong> </h4>
+--> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;drafted section and replaced with the new video article reference link)</p>
 -->
 <ol> <!--
 <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to the report that contains the Filter that you want to use as the basis for your new Filter.</li>
@@ -467,7 +498,9 @@ When changing your AND statements to OR statements, the number of the items in y
 <p> When you reach this limit within the builder, you can select fields that belong only to these six objects. You receive a warning when you have reached this limit. </p>
 <p> You cannot overcome this limitation when you build your filter in text mode. </p>
 </div> <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="removing-a-filter"></a>Removing a Filter from a list<![CDATA[	]]></h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="removing-a-filter"></a>Removing a Filter from a list </h3>
+--> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This section is drafted and replaced by the standalone "Remove reporting elements" article - with video) </p>
 --> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can remove a filter from a list of filters that appears in the <strong>Filter</strong> drop-down menu in a list. Removing a filter from a list functions differently depending on whether you initially created the filter, or the filter was shared with you. You cannot remove a default filter.</p>
 -->

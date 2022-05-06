@@ -4,10 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with Active Directory
-description: Since this is no longer supported, I am not going to update the article for NWE/phase 2
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Configure Adobe Workfront with Active Directory
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
+-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Since this is no longer supported, I am not going to update the article for NWE/phase 2</p>

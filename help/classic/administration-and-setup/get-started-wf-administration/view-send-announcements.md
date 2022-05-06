@@ -9,6 +9,10 @@ description: As a Adobe Workfront administrator, you can use the Announcements p
 
 # Send announcements
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a Adobe Workfront administrator, you can use the Announcements page to send announcements to users.
 
 Announcement messages from Workfront typically include information regarding new features and releases, process changes, and so on.
@@ -17,7 +21,7 @@ For information about viewing announcements, see [View and manage in-app notific
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

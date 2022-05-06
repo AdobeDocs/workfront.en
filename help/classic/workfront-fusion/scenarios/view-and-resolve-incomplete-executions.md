@@ -3,11 +3,15 @@ filename: view-and-resolve-incomplete-executions
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: View and resolve incomplete executions
+title: View and resolve incomplete executions in Adobe Workfront Fusion
 description: The Incomplete executions folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
 ---
 
-# View and resolve incomplete executions
+# View and resolve incomplete executions in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The Incomplete executions folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
 
@@ -15,7 +19,7 @@ The Incomplete executions folder stores scenario executions that were not succes
 >
 >By default the storing of incomplete executions is disabled. To enable it, enable the Allow storing incomplete executions option in the scenario advanced settings.
 >
->For more information about scenario settings, see [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+>For more information about scenario settings, see [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 ## Access requirements
 
@@ -71,7 +75,7 @@ For more information, see [Errors resulting into incomplete executions](#errors-
 >
 >"There is NOT ENOUGH SPACE to add a bundle to the IEQ. The reason is: Too many incomplete executions."
 >
->For more information, see [Enable data loss](../../workfront-fusion/scenarios/scenario-settings-panel.md#enable) in [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+>For more information, see [Enable data loss](../../workfront-fusion/scenarios/scenario-settings-panel.md#enable) in [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 ## Access requirements
 
@@ -141,7 +145,7 @@ The following options in the Scenario settings panel determine if and how the in
 * Sequential processing
 * Enable data loss
 
-For more information about these options, see [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+For more information about these options, see [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 ## Errors resulting into incomplete executions {#errors-resulting-into-incomplete-executions}
 

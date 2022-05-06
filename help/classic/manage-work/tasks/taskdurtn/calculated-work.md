@@ -9,6 +9,10 @@ description: Calculated Work is a Duration Type that you can set for a task in A
 
 # Duration Type overview: Calculated Work
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Calculated Work is a Duration Type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overview of the Calculated Work Duration Type
@@ -78,6 +82,10 @@ In this case, each assignee is 100% allocated to the Calculated Work task.
 ## Change the Duration Type of a task to Calculated Work
 
 For information about changing the Duration Type of a task, see [Update the Duration Type of a task](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>
+-->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

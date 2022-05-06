@@ -10,6 +10,10 @@ description: Email in Adobe Workfront consists of notifications, reminders, and 
 
 # Emails
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Email in Adobe Workfront consists of notifications, reminders, and user invitations. System Administrators are responsible for establishing many of the email settings; however, other users (depending on access level) can benefit from using email features to manage their own communication surrounding work.
 
 Email in Workfront (both internal and external) is diverse and dynamic. Automatic communications can be sent to users notifying them when tasks are late. Notifications can be set for a specific work item to remind a user when a task is approaching a due date. Invitations can be set up to allow users to establish their own passwords, rather than having the System Administrator manage passwords.

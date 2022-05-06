@@ -9,11 +9,15 @@ description: You can add extra security measures to proofs. We recommend switchi
 
 # Proof security overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add extra security measures to proofs. We recommend switching to the new Workfront experience for the most optimized experience with electronic signatures and login required settings.
 
 ## Login required
 
-Login required enhances the security of the proofs created in your account. You can enable login required for all proofs at the account level or you can enable it for individual proofs as needed. For more information about enabling for your account, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+Login required enhances the security of the proofs created in your account. You can enable login required for all proofs at the account level or you can enable it for individual proofs as needed. For more information about enabling for your account, see .
 
 >[!NOTE]
 >
@@ -32,7 +36,7 @@ When login required is enabled, reviewers are required to log in using their ema
 
 ## Electronic signature
 
-Electronic signatures allow you to enhance security on your proofs and comply with industry security standards, such as ISO. You can enable electronic signatures for all proofs at the account level, or you can enable it for individual proofs as needed. For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+Electronic signatures allow you to enhance security on your proofs and comply with industry security standards, such as ISO. You can enable electronic signatures for all proofs at the account level, or you can enable it for individual proofs as needed. For more information, see .
 
 ## Sign a proof electronically
 

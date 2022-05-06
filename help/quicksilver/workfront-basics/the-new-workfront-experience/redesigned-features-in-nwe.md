@@ -3,10 +3,14 @@ filename: _redesigned-features-in-nwe
 content-type: overview;reference
 navigation-topic: get-started-with-workfront
 title: Redesigned functionality in the new Adobe Workfront experience
-description: The look and feel of Adobe Workfront has been redesigned to the new Adobe Workfront experience. To learn how Workfront administrators and group administrators can enroll users in The new Adobe Workfront experience, see Enroll users in the new Adobe Workfront experience. For information about the current releases for the new Adobe Workfront experience, see Discover the new features available only with the new Workfront experience.
+description: (NOTE: this is the TOC article for all articles inside the 'The New Workfront Experience' folder in Flare; any time you add a new article in this section, it needs to have a link added here.)
 ---
 
 # Redesigned functionality in the new Adobe Workfront experience
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is the TOC article for all articles inside the 'The New Workfront Experience' folder in Flare; any time you add a new article in this section, it needs to have a link added here.) </p>
+-->
 
 The look and feel of Adobe Workfront has been redesigned to the new Adobe Workfront experience. To learn how Workfront administrators and group administrators can enroll users in The new Adobe Workfront experience, see [Enroll users in the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).  
 For information about the current releases for the new Adobe Workfront experience, see [Discover the new features available only with the new Workfront experience](https://one.workfront.com/s/article/Discover-the-new-features-available-only-with-the-new-Workfront-experience-224802325).

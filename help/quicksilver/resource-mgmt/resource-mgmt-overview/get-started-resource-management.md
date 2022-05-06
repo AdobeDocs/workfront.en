@@ -4,10 +4,17 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Get started with Resource Management
-description: Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.
+description: (NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.)
 ---
 
 # Get started with Resource Management
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
+<p>(NOTE: Alina: ***As functionality is removed from Legacy and added to Res Planning - this will be continually updated: remove the Legacy Res Planning when that functionality is removed from the system.) </p>
+</div>
+-->
 
 Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.
 
@@ -23,7 +30,11 @@ Workfront has several sets of tools used to manage resources. Although some of t
      *For more information about Resource Planning, see the section [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
    * ```**The Scenario Planner**: This is a higher-level planning of resources that allows you to manage them across multiple initiatives and to use the best scenario for making the most out of their availability and your budget.```
 
-     ```T``` ```his is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see``` [The Adobe Workfront Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+     ```T``` ```his is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see``` [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
+     -->
 
 * To schedule or assign resources to actual work (tasks and issues), use the following tools:
 
@@ -77,7 +88,13 @@ The process of managing resources in&nbsp;Workfront includes the following stage
      For more information about defining Project Preferences, see the article [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
    
    * Resource Pools  
-     For more information about creating resource pools, see [Create resource pools in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+     For more information about creating resource pools, see [Create resource pools](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+   
+   * Resource Management preferences
+
+     As a System Administrator, you must decide how Workfront calculates user availability at the system level, whether using the user's schedule or the Default Schedule of your system.&nbsp;
+
+     For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * **Resource allocation**: As a resource manager, or a Project Owner, you can define allocation of resources for your projects as well as assign work. For this step, you can manage the allocation of your resources at the project level using the Resource Planner. Then, you can assign work items (tasks and issues) to users based on their job roles using the resource scheduling tools.
 
@@ -101,7 +118,7 @@ You must be one of the following users and have the following access and permiss
   In&nbsp;addition to having a Plan license, you must have the following to use specific resource management tools:
 
    * Edit access to Resource Management to use the Scheduling tool
-   * Edit access to Financial Data to display Cost information in the Planner
+   * Edit access to Financial Data to display Cost information in the Resource Planner
    * View access to&nbsp;Financial&nbsp;Data to view Cost and&nbsp;Revenue information in the Utilization Report
 
 * Manage permissions on the projects you want to manage resources for.
@@ -124,11 +141,12 @@ For information about what the requirements are for each resource management too
 * The section "Prerequisites for working in the Resource Planner" in the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 * The section "Best practices for using the Workload Balancer" in the article [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
-* [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+* [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: drafted and replaced with the links to each prerequisites instead) </p>
 <p> We recommend that the following settings exist before starting to manage resources for your organization: </p>
 <ul>
 <li> You must have users in the system who have active accounts. </li>
@@ -145,9 +163,9 @@ Although you can assign work to a Reviewer or a Requestor, they cannot complete 
 <li>The Time Off calendar of the users must be up to date. </li>
 <li> <p>The following is recommended for the Resource Planner when applying the Project and Role views: </p>
 <ul>
-<li> <p>You must associate projects with Resource Pools.<br>For information about associating projects with Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref" xrefformat="{para}">Associate resource pools with projects and templates in Adobe Workfront</a>.</p> </li>
+<li> <p>You must associate projects with Resource Pools.<br>For information about associating projects with Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref" xrefformat="{para}">Associate resource pools with projects and templates</a>.</p> </li>
 </ul> </li>
-<li> <p>Your must designate a Resource Manager on your projects and they must have the correct access to budget resources when using the Scheduling tools. </p> <p>For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref" xrefformat="{para}">Access needed to budget resources</a>.</p> </li>
+<li> <p>Your must designate a Resource Manager on your projects and they must have the correct access to budget resources when using the Scheduling tools. </p> <p>For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref" xrefformat="{para}">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p> </li>
 <li> <p>You must assign the tasks and issues in your system to job roles, teams, or users.</p> </li>
 <li>You must specify a valid value for Planned Hours and Duration for all tasks in your system.<br>For information about Planned Hours, see the article <a href="../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref" xrefformat="{para}">Planned Hours overview</a>.<br>For information about Duration, see the article <a href="../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref" xrefformat="{para}">Overview of Task Duration and Duration Type</a>.</li>
 </ul>

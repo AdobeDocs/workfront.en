@@ -4,12 +4,12 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Resource Planner navigation overview
-description: By using the Resource Planner, you can easily understand the availability of your resources, as well as the planned time necessary to complete the work on your projects. You can then manage the allocation of your users and their job roles on the projects they are assigned to.
+description: By using the Adobe Workfront Resource Planner, you can easily understand the availability of your resources, as well as the planned time necessary to complete the work on your projects. You can then manage the allocation of your users and their job roles on the projects they are assigned to.
 ---
 
 # Resource Planner navigation overview
 
-By using the Resource Planner, you can easily understand the availability of your resources, as well as the planned time necessary to complete the work on your projects. You can then manage the allocation of your users and their job roles on the projects they are assigned to.
+By using the Adobe Workfront Resource Planner, you can easily understand the availability of your resources, as well as the planned time necessary to complete the work on your projects. You can then manage the allocation of your users and their job roles on the projects they are assigned to.
 
 >[!TIP]
 >
@@ -21,9 +21,11 @@ You must meet the prerequisites needed to fully use the Resource Planner. For mo
 
 The following sections outline all areas of the Resource Planner.
 
-## Timeline of projects<![CDATA[]]>
+## Timeline of projects
 
-![](assets/nwe-timeline-calendar-resource-planner-350x23.png)<![CDATA[		]]>
+![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+
+<![CDATA[ ]]>
 
 Use the calendar at the top of the Resource Planner to navigate the timeline of the projects you are viewing. The timeline starts with today's month, by default.  
 For more information about changing the timeframe of the timeline you are displaying in the Resource Planner, see the section [Timeframe selection](#timeframe-selection) in this article.
@@ -79,7 +81,7 @@ When you change the view, the following information also changes:
 * The object hierarchy (information in the rows of the Resource Planner). 
 * The hour allocation information (information in the columns of the Resource Planner).
 
-  For more information about what the columns show in the Resource Planner depending on which view you select, see [Review resource availability and allocation using the Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  For more information about what the columns show in the Resource Planner depending on which view you select, see [Review resource availability and allocation using the Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 In order to display accurate information in the Resource Planner, you must meet a set of prerequisites. For more information about the prerequisites, see the "Prerequisites for working in the Resource Planner" section in the [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) article.  To change the view in the Resource Planner:
 
@@ -185,7 +187,7 @@ Consider the following when selecting the User View in the Resource Planner:
    
    * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
    * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the **Inaccessible Items** section.  
-     For more information about permissions in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+     For more information about permissions in Workfront, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
      ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
@@ -213,7 +215,7 @@ You can see the following projects in the Resource Planner:
 
   You must also have access to at least View Resource Management in your access level.
 
-  For information about the access needed to use the Resource Planner see [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md). 
+  For information about the access needed to use the Resource Planner see [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md). 
 
 * Projects limited by the filter applied to the Resource Planner.
 
@@ -252,7 +254,7 @@ The following categories of job roles are listed in the Resource Planner:
 ![](assets/user-highlighted-resource-planner-350x272.png)
 
 The users listed in the Project and Role views in the Resource Planner belong to the resource pools associated with the projects.   
-For more information about populating resource pools with users, see [Associate resource pools with users in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+For more information about populating resource pools with users, see [Associate resource pools with users](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
 All users that you have access to View and who have logged in to Workfront at least once display in the User View.
 

@@ -2,13 +2,21 @@
 filename: create-and-edit-plans
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Create and edit plans in the Adobe Workfront Scenario Planner
-description: You can create plans as part of using the Workfront Scenario Planner, when prioritizing your company's higher-level strategy. For more information about plans, see Plans overview in the Adobe Workfront Scenario Planner.
+title: Create and edit plans in the Scenario Planner
+description: You can create plans as part of using the Workfront Scenario Planner, when prioritizing your company's higher-level strategy. For more information about plans, see Plans overview in the Scenario Planner.
 ---
 
-# Create and edit plans in the Adobe Workfront Scenario Planner
+# Create and edit plans in the Scenario Planner
 
-You can create plans as part of using the Workfront Scenario Planner, when prioritizing your company's higher-level strategy. For more information about plans, see [Plans overview in the Adobe Workfront Scenario Planner](../scenario-planner/plans-overview.md).
+You can create plans as part of using the Workfront Scenario Planner, when prioritizing your company's higher-level strategy. For more information about plans, see [Plans overview in the Scenario Planner](../scenario-planner/plans-overview.md).
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: talk about:</p>
+<p>- Show people conflicts >> this impacts the conflicts calculation for initiatives>> link to the conflicts article</p>
+<p>- explain what hovering over the green upward-pointing arrow does, with screen shot)</p>
+</div>
+-->
 
 ## Access requirements
 
@@ -28,7 +36,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td>Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
@@ -36,7 +44,7 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,9 +61,9 @@ You can create a plan from scratch or you can edit an existing one that was shar
 
 This article describes how you can create a plan from scratch or you can edit an existing plan.
 
-For all considerations about plans including the information available for a plan, see [Plans overview in the Adobe Workfront Scenario Planner](../scenario-planner/plans-overview.md).
+For all considerations about plans including the information available for a plan, see [Plans overview in the Scenario Planner](../scenario-planner/plans-overview.md).
 
-For information about deleting plans, see [Delete plans in the Adobe Workfront Scenario Planner](../scenario-planner/delete-plans.md).
+For information about deleting plans, see [Delete plans in the Scenario Planner](../scenario-planner/delete-plans.md).
 
 To create or edit a plan:
 
@@ -63,7 +71,7 @@ To create or edit a plan:
 
    A list of existing plans that you created displays in the Workfront Scenario Planner. 
 
-1. ```(Optional)``` `````` ```Click the **Filter** icon ![](assets/filter-icon-34x37.png)in the upper-right corner of the plan list, and select from the following:``` 
+1. ```(Optional)``` ```Click the **Filter** icon ![](assets/filter-icon-34x37.png)in the upper-right corner of the plan list, and select from the following:```
 
    | All |Displays all plans that you created or that have been shared with you.  |
    |---|---|
@@ -76,9 +84,17 @@ To create or edit a plan:
 
 1. Click the name of an existing plan to edit it and continue with step 7.
 
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
+   -->
+
    Or
 
    Click **New Plan** in the upper-left corner to create a plan and continue with step 5.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
+   -->
 
    ![](assets/new-plan-button.png)
 
@@ -100,12 +116,14 @@ To create or edit a plan:
       <td role="rowheader" colspan="2"> <p>Important: <span style="font-weight: normal;">You cannot modify the following selections after you create and save the plan.</span> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>FTE (Full Time Equivalent) or Hours </span> </td> 
+      <td role="rowheader"><span>FTE (Full Time Equivalent) or Hours</span> </td> 
       <td> <p><span>Select one of the following options to indicate how you want to estimate job role information for this plan:</span> </p> 
        <ul> 
-        <li> <p><span><strong>FTE</strong>.&nbsp;This is the default</span> </p> <p>For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours. </p> </li> 
+        <li> <p><span><strong>FTE</strong>.&nbsp;This is the default </span> </p> <!--
+          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>
+         --> <p>For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours. </p> </li> 
         <li> <p><strong>Hours</strong> </p> </li> 
-       </ul> <p>Important: <span>The option you select here determines how job role information displays for the plan, the plan's scenarios, and initiatives. </span> </p> </td> 
+       </ul> <p>Important: <span>The option you select here determines how job role information displays for the plan, the plan's scenarios, and initiatives.</span> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Start date</td> 
@@ -127,7 +145,7 @@ To create or edit a plan:
 
    The timeline of the plan displays as the **Initial scenario**.
 
-   For information about creating additional scenarios, see [Create and compare plan scenarios in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+   For information about creating additional scenarios, see [Create and compare plan scenarios in the Scenario Planner](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
 1. (Optional) From the timeline drop-down menu select one of the options in the following table to change the way you view the timeline of the plan.
 
@@ -166,29 +184,28 @@ To create or edit a plan:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">Max available (for FTE) </p> <p role="rowheader">or </p> <p role="rowheader"><span>Total available (for hours) </span> </p> </td> 
-      <td> <p><span>Depending on whether you selected to use hours or FTE for your plan, type </span>the number of job role FTEs <span>or hours</span> that are available to execute work on the plan in the following fields: </p> 
+      <td role="rowheader"> <p role="rowheader">Max available (for FTE) </p> <p role="rowheader">or </p> <p role="rowheader"><span>Total available (for hours)</span> </p> </td> 
+      <td> <p><span>Depending on whether you selected to use hours or FTE for your plan, type</span> the number of job role FTEs <span>or hours</span> that are available to execute work on the plan in the following fields: </p> 
        <ul> 
-        <li> <p style="font-weight: normal;"><strong>Total available</strong>(for hours)<strong>:</strong>Indicate the total number of hours for all months during the duration of the scenario.<strong></strong>By default, Workfront divides the Total available number equally across all months in the duration of the scenario. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you enter 1200 hours for a Designer, this means the Designer is available for 100 hours for each month during the duration of the plan, when the plan Duration is 1 year. </p> </li> 
-        <li> <p><strong>Max available</strong>(for FTE)<strong>:</strong>Indicate the number of FTEs that the job role is available for each month during the duration of the plan. By default, <strong>Workfront</strong> assigns the Max available number to each month in the duration of the scenario.<strong></strong></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you enter 1 FTE for a Consultant, this means the Consultant is available for 1 FTE for each month during the duration of the plan. </p> <p>You can enter a number lower than 1 FTE. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>A 0.5 Consultant job role would mean that a consultant would dedicate half of their FTE (typically, 4 hours, where 8 hours is 1 FTE) to working on this plan. For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours. </p> </li> 
+        <li> <p style="font-weight: normal;"><strong>Total available</strong> (for hours): Indicate the total number of hours for all months during the duration of the scenario. By default, Workfront divides the Total available number equally across all months in the duration of the scenario. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you enter 1200 hours for a Designer, this means the Designer is available for 100 hours for each month during the duration of the plan, when the plan Duration is 1 year. </p> </li> 
+        <li> <p><b>Max available</b> (for FTE): Indicate the number of FTEs that the job role is available for each month during the duration of the plan. By default, <strong>Workfront</strong> assigns the Max available number to each month in the duration of the scenario.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you enter 1 FTE for a Consultant, this means the Consultant is available for 1 FTE for each month during the duration of the plan. </p> <p>You can enter a number lower than 1 FTE. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>A 0.5 Consultant job role would mean that a consultant would dedicate half of their FTE (typically, 4 hours, where 8 hours is 1 FTE) to working on this plan. For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours. </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Max required (for FTE)</p> <p role="rowheader">or </p> <p role="rowheader"><span>Total required (for hours)</span> </p> </td> 
-      <td> <p><span>Depending on whether you selected to use hours or FTE for your plan, review </span>the number of job role FTEs <span>or hours</span> that are required to complete the initiatives in the scenario. Review the following fields:</p> 
+      <td> <p><span>Depending on whether you selected to use hours or FTE for your plan, review</span> the number of job role FTEs <span>or hours</span> that are required to complete the initiatives in the scenario. Review the following fields:</p> 
        <ul> 
         <li> <p><strong>Total required</strong> (for hours): The total number of hours required for all months during the duration of the plan.</p> </li> 
         <li> <p><strong>Max required</strong> (for FTE): The maximum number of FTEs required for any of the months during the duration of the plan. </p> </li> 
-       </ul> <p>Tip: The <span>maximum</span> number of FTEs <span>or the total number of hours</span> required for that job role displays after you start adding initiatives.&nbsp;For information about adding initiatives to a plan, see <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+       </ul> <p>Tip: The <span>maximum</span> number of FTEs <span>or the total number of hours</span> required for that job role displays after you start adding initiatives.&nbsp;For information about adding initiatives to a plan, see <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Scenario Planner</a>.</p> </td> 
      </tr> <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Avg utilization</td> 
-       <td> <p>Workfront calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> Workfront calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 
-        <div class="example" data-mc-autonum="<b>Example: </b>">
-         <span class="autonumber"><span><b>Example: </b></span></span> 
+       <td> <p>(NOTE: this field was removed in 21.2 - May 2021) </p> <p>Workfront calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> Workfront calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 
+        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span> 
          <p>For example, if you have a plan with a duration of 12 months and an initiative with the duration of 2 months, where you use 1 Designer for your initiative (required job role) and there are 2 Designers available on the plan (available), the Utilization percentage for the Designer job role is calculated as follows:</p> 
          <p><code>Designer utilization percentage = [(1/2 + 1/2) * 100] / 12 = 100 / 12 = 8.3%</code> </p> 
-        </div> <p>As you add job roles to the plan and indicate the Available amount for each one, the Utilization value for each role also updates and Workfront calculates a utilization percentage for the plan. For information about how Workfront calculates the Job Role Utilization for a plan, see <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Plans overview in the Adobe Workfront Scenario Planner</a>. </p> <p>Tip: The Utilization percentage is rounded and has one decimal. </p> </td> 
+        </div> <p>As you add job roles to the plan and indicate the Available amount for each one, the Utilization value for each role also updates and Workfront calculates a utilization percentage for the plan. For information about how Workfront calculates the Job Role Utilization for a plan, see <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Plans overview in the Scenario Planner</a>. </p> <p>Tip: The Utilization percentage is rounded and has one decimal. </p> </td> 
       </tr>
      --> 
      <tr> 
@@ -222,11 +239,11 @@ To create or edit a plan:
         <p>or</p> 
         <p>Available (total &lt;number of hours&gt;) </p> 
        </div> </td> 
-      <td> <p><span>Depending on whether you selected to use hours or FTE for your plan, review or update </span>the monthly number of job role FTEs <span>or hours</span> available for the scenario in the following fields:</p> 
+      <td> <p><span>Depending on whether you selected to use hours or FTE for your plan, review or update</span> the monthly number of job role FTEs <span>or hours</span> available for the scenario in the following fields:</p> 
        <ul> 
         <li> <p><strong>Available (max &lt;number of FTEs&gt;)</strong>:&nbsp;The number in parentheses displays the maximum number of roles available for any one of the months for the scenario. Review or update the number of FTEs for each month of the scenario. Changing the monthly allocation might update the number of FTEs in the parentheses. </p> </li> 
-        <li> <p><span><strong>Available (total &lt;number of hours&gt;)</strong>:&nbsp;The number in parentheses displays the total number of hours available for all the months in the scenario. Review or update the number of hours for each month of the scenario. Changing the monthly allocation updates the number of hours in the parentheses. </span> </p> </li> 
-       </ul> <p>Manually updating the monthly job role allocations is another way of resolving job role conflicts between initiatives on the scenario. </p> <p>Tip:  <p><span>To update the monthly role availability for several months, type the number of hours or FTEs in the Available field of any month, then drag the corner of the field over the adjacent months to copy the same value for each month. Drop it to update all months. </span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
+        <li> <p><span><strong>Available (total &lt;number of hours&gt;)</strong>:&nbsp;The number in parentheses displays the total number of hours available for all the months in the scenario. Review or update the number of hours for each month of the scenario. Changing the monthly allocation updates the number of hours in the parentheses.</span> </p> </li> 
+       </ul> <p>Manually updating the monthly job role allocations is another way of resolving job role conflicts between initiatives on the scenario. </p> <p>Tip:   <p><span>To update the monthly role availability for several months, type the number of hours or FTEs in the Available field of any month, then drag the corner of the field over the adjacent months to copy the same value for each month. Drop it to update all months.</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Required (max &lt;number&gt;)</p> 
@@ -234,11 +251,11 @@ To create or edit a plan:
         <p role="rowheader">or</p> 
         <p role="rowheader">Required (total &lt;number&gt;)</p> 
        </div> </td> 
-      <td> <p><span>Depending on whether you selected to use hours or FTE for your plan, review </span>the monthly number of job role FTEs or hours required for the scenario in the following fields:&nbsp;</p> 
+      <td> <p><span>Depending on whether you selected to use hours or FTE for your plan, review</span> the monthly number of job role FTEs or hours required for the scenario in the following fields:&nbsp;</p> 
        <ul> 
         <li> <p><strong>Required (max &lt;number of FTEs&gt;)</strong>:&nbsp;The number in parentheses displays the maximum number of roles required for any one of the months for the scenario. </p> </li> 
-        <li> <p><span><strong>Required (total &lt;number of hours&gt;)</strong>:&nbsp;The number in parentheses displays the total number of hours required for all the months in the scenario. </span> </p> </li> 
-       </ul> <p>Tip: You cannot modify the Required number of FTEs <span>or hours </span>for the job role. This number populates for the scenario after you start adding initiatives and their job role requirements. </p> </td> 
+        <li> <p><span><strong>Required (total &lt;number of hours&gt;)</strong>:&nbsp;The number in parentheses displays the total number of hours required for all the months in the scenario.</span> </p> </li> 
+       </ul> <p>Tip: You cannot modify the Required number of FTEs <span>or hours</span> for the job role. This number populates for the scenario after you start adding initiatives and their job role requirements. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Difference</td> 
@@ -308,14 +325,18 @@ To create or edit a plan:
 
 1. (Recommended) Click **New initiative** to add a new initiative.
 
-   For information about adding initiatives, see the article [Create and edit initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Should this include information on how to create scenarios - see also information about scenarios in Manage Plans?)</p>
+   -->
 
-1. (Optional) Make a copy of the existing scenario to create a new scenario of the same plan. For more information about creating and working with multiple scenarios, see [Create and compare plan scenarios in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-compare-scenarios-for-a-plan.md). 
+   For information about adding initiatives, see the article [Create and edit initiatives in the Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
+
+1. (Optional) Make a copy of the existing scenario to create a new scenario of the same plan. For more information about creating and working with multiple scenarios, see [Create and compare plan scenarios in the Scenario Planner](../scenario-planner/create-and-compare-scenarios-for-a-plan.md). 
 1. Click **Save Plan**.
 
    Your plan is created or updated.
 
 1. (Optional) Click the **Favorites icon** ![](assets/favorites-icon-small.png) to the right of the plan name to add the plan to your list of Favorites. 
 
-1. (Optional) Copy the URL of the plan and send it to any other user that might need to review or update it. They must have at least View access in their access level to be able to view the plan. They must have Edit access to edit it. If they must review financial information on the plan, like budgets, costs, and job role rates information, they must also have access to Financial Data in their Access level. For information about the access needed for the Scenario Planner, see [Access needed to use the Adobe Workfront Scenario Planner](../scenario-planner/access-needed-to-use-sp.md).
+1. (Optional) Copy the URL of the plan and send it to any other user that might need to review or update it. They must have at least View access in their access level to be able to view the plan. They must have Edit access to edit it. If they must review financial information on the plan, like budgets, costs, and job role rates information, they must also have access to Financial Data in their Access level. For information about the access needed for the Scenario Planner, see [Access needed to use the Scenario Planner](../scenario-planner/access-needed-to-use-sp.md).
 

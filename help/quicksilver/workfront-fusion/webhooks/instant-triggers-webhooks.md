@@ -3,11 +3,11 @@ filename: instant-triggers-webhooks
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: Instant triggers (webhooks)
+title: Instant triggers (webhooks) in Adobe Workfront Fusion
 description: Many services provide webhooks to deliver instant notifications whenever a certain change occurs in the service. To process these notifications, we recommend that you use instant triggers. You can recognize these easily in Adobe Workfront Fusion because of their tag:
 ---
 
-# Instant triggers (webhooks)
+# Instant triggers (webhooks) in Adobe Workfront Fusion
 
 Many services provide webhooks to deliver instant notifications whenever a certain change occurs in the service. To process these notifications, we recommend that you use instant triggers. You can recognize these easily in Adobe Workfront Fusion because of their tag:
 
@@ -67,7 +67,7 @@ All messages from incoming webhooks are stored in the webhook's queue.
 
    >[!NOTE]
    >
-   >Incoming webhook data is always stored in the queue regardless of how you have set the option Data is confidential (described in [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md)). As soon as the data is processed in a scenario, it is permanently deleted from the system.
+   >Incoming webhook data is always stored in the queue regardless of how you have set the option Data is confidential (described in [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md)). As soon as the data is processed in a scenario, it is permanently deleted from the system.
 
 ## Schedule instant triggers
 
@@ -75,7 +75,7 @@ If your scenario contains an instant trigger, you can schedule the scenario to r
 
 ![](assets/schedule-setting-350x185.png)
 
-In this case your scenario will run immediately whenWorkfront Fusion receives new data from the service. After the scenario executes, the total amount of pending webhooks waiting in the queue is counted and the scenario performs as many cycles as there are pending webhooks, processing one webhook per cycle. For more information, see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+In this case your scenario will run immediately whenWorkfront Fusion receives new data from the service. After the scenario executes, the total amount of pending webhooks waiting in the queue is counted and the scenario performs as many cycles as there are pending webhooks, processing one webhook per cycle. For more information, see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ When there is an error in your scenario with an instant trigger, the scenario:
 * Stops immediately - when the scenario is set to run Immediately.
 * Stops after 3 unsuccessful attempts (3 errors) - when the scenario is set to run as scheduled.
 
-If an error occurs during the scenario execution, the webhook is placed back into the queue during the instant trigger's rollback phase. In such a situation, you have the possibility to fix the scenario and rerun it again. For more information, see [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) in the article [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+If an error occurs during the scenario execution, the webhook is placed back into the queue during the instant trigger's rollback phase. In such a situation, you have the possibility to fix the scenario and rerun it again. For more information, see [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) in the article [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 If there is a Webhook response module in your scenario, the error is sent to the Webhook response. The Webhook response module is always executed last (in the case where the Auto commit option in the Scenario settings is not enabled). For more information, see [Responding to webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) in the article [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
 

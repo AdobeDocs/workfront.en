@@ -9,6 +9,10 @@ description: Workfront for Experience Manager enhanced connector can capture the
 
 # Workfront for Experience Manager enhanced connector metadata overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Workfront for Experience Manager enhanced connector can capture the metadata from ideation to delivery automatically. Increase your content velocity by improving searchability within your asset repository. Users can easily find all assets associated with a particular Workfront project by searching the project title, reference number, date, or any other associated metadata properties.
 
 ## Metadata best practices

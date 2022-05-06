@@ -20,4 +20,4 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 
 The Schedule setting icon now shows your scenario's current schedule setting. Now, when you're in the scenario editor, you can see at a glance when your scenario is set to run. The functionality of the Schedule setting icon has not changed.
 
-For more information on scheduling scenarios, see [Schedule a scenario](../../../workfront-fusion/scenarios/schedule-a-scenario.md).
+For more information on scheduling scenarios, see [Schedule a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/schedule-a-scenario.md).

@@ -10,7 +10,11 @@ description: A Legacy Resource Pool is a group or collection of job roles that a
 
 >[!IMPORTANT]
 >
->The information in this article refers to functionality that is currently deprecated and will be removed from Workfront. For information about the current functionality for managing resources in Workfront, see the [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md) section. For information about working with resource pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
+>[!IMPORTANT]
+>
+>The information in this article refers to functionality that is currently deprecated and will be removed from Workfront. For information about the current functionality for managing resources in Workfront, see the [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md) section. For information about working with resource pools, see [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Overview of Legacy Resource Pools
 

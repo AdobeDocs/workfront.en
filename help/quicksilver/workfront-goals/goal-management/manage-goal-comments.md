@@ -10,6 +10,10 @@ description: You can add comments to all goals you can view in Adobe Workfront G
 
 You can add comments to all goals you can view in&nbsp;Adobe Workfront Goals.
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change slightly with access levels?!)</p>
+-->
+
 ## Access requirements
 
 You must have the following access to perform the actions described in this article:
@@ -28,7 +32,7 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -43,7 +47,7 @@ You must have the following access to perform the actions described in this arti
    <td> 
     <div> 
      <p>View or higher permissions on goals</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -113,6 +117,10 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 1. (Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
 
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this functionality might change)</p>
+   -->
+
    ![](assets/list-of-likes-users-350x121.png)
 
 1. (Conditional)&nbsp;Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
@@ -165,7 +173,7 @@ You can also like goal comments that other users have added to mark your approva
 
    ![](assets/pulse-icon-left.png)
 
-   All current goals display in this section., regardless of their status.
+   All current goals display in this section, regardless of their status.
 
 1. Click&nbsp;**Add a comment**, then type your comment in the **Add a comment to this goal (optional)** field.
 1. Click&nbsp;**Post**.

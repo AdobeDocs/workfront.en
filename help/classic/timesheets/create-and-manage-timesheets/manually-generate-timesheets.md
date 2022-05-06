@@ -8,6 +8,10 @@ description: To enable changes that you made to the timesheet profiles to reflec
 
 # Manually generate timesheets
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 To enable changes that you made to the timesheet profiles to reflect&nbsp;in current timesheets, you have to first delete the existing timesheets and then manually generate new ones. You can manually generate timesheets from the Timesheets area or the Diagnostics area in Setup, as explained in this article.
 
 For instructions on deleting timesheets, see [Delete timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
@@ -44,9 +48,9 @@ When you manually generate timesheets:
 * They are generated according to the timesheet profiles that are associated with your users. Users who do not have timesheet profiles associated with them do not receive timesheets.&nbsp;
 * Only the current timesheet and the one to follow are generated. Workfront does not generate two timesheets for the same period. If you already have a timesheet for a specific time frame, another one will not generate when you are using the manual process to generate timesheets.
 
-## Manually generate timesheets from the Timesheets area
+## Manually generate timesheets from the Timesheets &&nbsp;Hours area
 
-You can manually generate system-level or group-level timesheets from the Timesheets area in Setup.
+You can manually generate system-level or group-level timesheets from the Timesheets &&nbsp;Hours area in Setup.
 
 1. As a Workfront administrator or group administrator, click **Setup** in the Global Navigation Bar.
 1. If you are generating timesheets in use throughout the system, click **Timesheets & Hours.**

@@ -11,7 +11,7 @@ description: For most apps, it is necessary to create a connection, through whic
 
 For most apps, it is necessary to create a connection, through which Adobe Workfront Fusion can communicate with the given third-party service according to the settings of the specific scenario.
 
-For example, if you want to create a scenario that retrieves information from Google Sheets, you must grant access permission for Workfront Fusion to access your Google account.
+For example, if you want to create a scenario that retrieves information from Workfront, you must grant access permission for Workfront Fusion to access your Workfront account.
 
 ## Access requirements
 
@@ -60,7 +60,11 @@ For every connection, Workfront Fusion requires only those access rights that ar
 Unfortunately, not all services allow you to limit access to specific tasks. Therefore, Workfront Fusion must require full access rights. For more information on how to restrict Workfront Fusion access to your account registered to those services, see the application-specific documentation.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Organizational data security is Workfront Fusion's top priority. For detailed information on how data is secured and protected in Workfront Fusion, click here.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Organizational data security is Workfront Fusion's top priority. For detailed information on how data is secured and protected in Workfront Fusion, click here. <!--
+<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+Sam: Exclude until after GA release
+</MadCap:conditionalText>
+--></p>
 -->
 
 ## About administering connections

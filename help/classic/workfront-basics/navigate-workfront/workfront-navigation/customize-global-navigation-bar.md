@@ -2,11 +2,15 @@
 filename: customize-global-navigation-bar
 product-area: user-management
 navigation-topic: workfront-navigation
-title: Customize the Global Navigation Bar in Adobe Workfront
+title: Customize the Adobe Workfront navigation
 description: The Global Navigation Bar changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas of the Global Navigation Bar that include functionality allowed by your access level. To understand the components of the default layout of each access level, see About the default Adobe Workfront layout.
 ---
 
-# Customize the Global Navigation Bar in Adobe Workfront
+# Customize the Adobe Workfront navigation
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The Global Navigation Bar changes with the access level you have been assigned by your Adobe Workfront administrator. By default, you are given access only to the areas of the Global Navigation Bar that include functionality allowed by your access level. To understand the components of the default layout of each access level, see [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 

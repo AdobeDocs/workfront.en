@@ -10,6 +10,10 @@ description: Before users can begin using Adobe Workfront for Outlook, you first
 
 # Enable Adobe Workfront for Outlook
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Before users can begin using Adobe Workfront for Outlook, you first need to enable it for your system.
 
 For information about how to use Workfront for Outlook after it has been enabled, see [Adobe Workfront for Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

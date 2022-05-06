@@ -9,6 +9,10 @@ description: When a Workfront Library administrator adds you to a portal, Workfr
 
 # Open a Workfront Library portal
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When a Workfront Library administrator adds you to a portal, Workfront sends you an email invitation with a link that opens the portal.
 
 Before you can open a portal, you must be given access to it by your Workfront Library administrator or a user with Manager access to the portal. For information on inviting users to a portal, see [Give users access to a Workfront Library portal](../../../workfront-library/administration-and-setup/user-access/give-users-access-portal.md).

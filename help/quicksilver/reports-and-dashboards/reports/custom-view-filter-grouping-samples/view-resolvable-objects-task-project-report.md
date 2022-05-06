@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,10 +56,7 @@ You must have the following access to perform the steps in this article:
 1. Click the header of the new column, then click **Switch to Text Mode**.
 1. Mouse over the text mode area, and click&nbsp;**Click to edit text**.
 1. Remove the text you find in the&nbsp;**Text Mode**&nbsp;box, and replace it with the following code:
-
-   ```
-   displayname=Resolvables<br>listdelimiter=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML
-   ```
+   <pre>displayname=Resolvables<br>listdelimiter=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML<br></pre>
 
 1. Click **Save View**.  
    A list of all Resolvable Objects displays in the new column. The names of the objects in the list cannot be linked directly to the objects.

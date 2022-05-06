@@ -18,7 +18,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 After your Workfront administrator has granted you access to Workfront Goals, you can view goals that you or anyone else in your organization created in the Workfront Goals area.
 
 You can access lists of goals or individual goals and manage them from several sections of Workfront Goals. Which section you use depends on the purpose you want to achieve as you are working with goals.
@@ -158,16 +158,4 @@ Use the Check-in section to do the following:
 * Add a comment to a goal, then click&nbsp;Post to make or ask for updates to a goal. 
 * Access the Goal&nbsp;Details panel and edit and update the goal, its results, or activities.
 * Add new goals.
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="settings"></a>Settings</h2> <note type="note">
-<span>This section has been removed from the Preview environment. For information about setting up notifications for goals, see</span>
-<a href="../../workfront-basics/using-notifications/notifications-goals.md" class="MCXref xref">Notifications: Goals</a>.
-</note>
-<p>You can select what kind of email notifications you should receive from&nbsp;Workfront Goals in the Settings section. You can receive email notifications about goal, result, or activity assignments, as well as when someone comments on or likes one of your actions. </p>
-<p>For information about email notifications from Workfront Goals, see <a href="../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md" class="MCXref xref">Enable Adobe Workfront Goals notifications</a>. </p>
-<p> <img src="assets/settings-section-350x143.png" style="width: 350;height: 143;"> </p>
-</div>
--->
 

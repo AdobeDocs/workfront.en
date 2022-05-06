@@ -184,7 +184,7 @@ To change the behavior of how colors are assigned to stories for an agile team:
 By default, when you add a work item to a Scrum iteration, the Planned Start Date and Planned Completion Date on the work item are modified to match the iteration start and end dates. You can choose to keep the original dates on all work items for the team.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
-1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a Scrum team from the drop-down menu or search for a team in the search bar.
+1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 1. Click the **More** menu, then select **Edit**.  
    Only team members with either a Plan or Work license see this option.
 1. In the Agile section, in the When a Work Item is Added to an Iteration area, select from the following options:

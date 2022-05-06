@@ -17,9 +17,17 @@ Timesheet and Hour Preferences control what appears on a timesheet. This provide
 
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
+<!--
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> ***first shot - make it classic only at release and draft it; the changes of the new UI affect both classic and NWE; delete the first shot after a while ****the second shot stays yellow for now and always NWE</span>
+-->
+
 ![Timesheet layout for the new Workfront experience](assets/timesheet-layout-nwe-350x146.png)
 
 ## Title
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Above - make the second shot NWE only and keep yellow; make the first one classic only</p>
+-->
 
 ![](assets/timesheet-title-nwe-350x137.png)
 

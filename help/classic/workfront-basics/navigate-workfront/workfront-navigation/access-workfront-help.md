@@ -7,6 +7,10 @@ description: Workfront offers a wide variety of content to help you find answers
 
 # Access Adobe Workfront help
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Workfront offers a wide variety of content to help you find answers to questions you might have concerning functionality within the various products offered by Workfront.
 
 ## Access requirements
@@ -59,7 +63,7 @@ In addition to searching for help documentation, you can also access the followi
 
    ![](assets/help-icon-in-the-global-nav-350x98.png)
 
-1. Click **All Help Articles**to search through all the articles on [Adobe Workfront One](https://one.workfront.com/).
+1. Click **All Help Articles** to search through all the articles on [Adobe Workfront One](https://one.workfront.com/).
 
    Or
 

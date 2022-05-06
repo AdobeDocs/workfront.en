@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,7 +45,11 @@ To view issues on a project, task, or iteration:&nbsp;
 
 1. Open a project, task, or iteration that contains issues, then click **Issues** in the left panel.   
 
-1. &nbsp;From the **Filter** drop-down menu, click any of the filters listed below:
+1. &nbsp;To display all, open, or closed issues, click any of the filters listed below from the **Filter** drop-down menu.
+
+   >[!TIP]
+   >
+   >The list of filters varies depending on what your system or group administrator selected to display in it.
 
    * **Open:** Displays issues that are open.
 
@@ -139,5 +143,5 @@ To add icons that display whether a project has issues in a project report:
 
    The issue icons display on the projects that have issues in the **Status Icons** column.
 
-   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x42.png)
+   ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x132.png)
 

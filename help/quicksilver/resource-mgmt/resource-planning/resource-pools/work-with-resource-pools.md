@@ -2,11 +2,15 @@
 filename: work-with-resource-pools
 product-area: resource-management
 navigation-topic: resource-planning
-title: Resource pools overview in Adobe Workfront
-description: As a resource manager, you can manage your resources by adding users to resource pools.
+title: Resource pools overview
+description: (NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.)
 ---
 
-#  Resource pools overview in Adobe Workfront
+#  Resource pools overview
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.) </p>
+-->
 
 As a resource manager, you can manage your resources by adding users to resource pools.
 
@@ -16,14 +20,15 @@ For more information about the prerequisites needed before you can start using R
 
 For information about creating and managing resource pools, see the following articles:
 
-* [Create resource pools in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) 
-* [Associate resource pools with projects and templates in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md) 
-* [Associate resource pools with users in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md) 
-* [Remove users from resource pools in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+* [Create resource pools](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) 
+* [Associate resource pools with projects and templates](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md) 
+* [Associate resource pools with users](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md) 
+* [Remove users from resource pools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Access requirements</h2>
+<p>(NOTE: moved to the separate articles below) </p>
 <p>You must have the following:</p>
 <table cellspacing="0">
 <col>
@@ -46,7 +51,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 </tr>
 <tr data-mc-conditions="">
 <td role="rowheader">Object permissions</td>
-<td> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td>
+<td> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
 </tr>
 </tbody>
 </table>
@@ -82,6 +87,8 @@ We recommend the following approaches:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2 id="create-a-resource-pool"><a name="access-to-edit-resource-pools"></a><a name="creating-a-resource-pool"></a>Create a Resource Pool</h2>
+<p>(NOTE: Alina: **^^ Linked to messaging from emails/ AC/ Pendo, possibly. Do not rename or change the anchor. << this comment is old.</p>
+<p>***Feb 2022: moved this section to its own article and drafted it here. Consider undrafting the section with a short intro to point to the new article IF there are any complaints.) </p>
 <ol>
 <li value="1">Log in as a user who has access to edit Resource Pools.<br>For more information, see <a href="#create-a-resource-pool" class="MCXref xref">Create a Resource Pool</a>.</li>
 <li value="2">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li>
@@ -132,6 +139,7 @@ There is no limit to how many users you can have in a Resource Pool. However, we
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="removing-users-from-resource-pools"></a>Remove users from a Resource Pool</h2>
+<p>(NOTE: moved to its own article. Drafted here.) </p>
 <p>You can remove users from a Resource Pool when those users are no longer needed in that pool. </p>
 <p>To remove a user from a Resource Pool:</p>
 <ol>
@@ -140,7 +148,7 @@ There is no limit to how many users you can have in a Resource Pool. However, we
 <li value="3"> Click <strong>Resourcing</strong>.  </li>
 <li value="4"> Click <strong>Resource Pools</strong> in the left panel.  </li>
 <li value="5">Select a Resource Pool and click <strong>Edit.</strong>Or<br>Click the name of a Resource Pool. </li>
-<li value="6">Start typing the name of a user that you want to remove in the <strong>Search in this Resource Pool</strong> field.<br>Or<br>Start typing the name of a company, job role, team, or group, if you want to remove all the users associated with those entities.<br><img src="assets/search-inside-new-resource-pool-350x321.png" alt="search_inside_NEW_resource_pool.png" style="width: 350;height: 321;"></li>
+<li value="6">Start typing the name of a user that you want to remove in the <strong>Search in this Resource Pool</strong> field.<br>Or<br>Start typing the name of a company, job role, team, or group, if you want to remove all the users associated with those entities.<br><img src="assets/search-inside-new-resource-pool-350x314.png" alt="search_inside_NEW_resource_pool.png" style="width: 350;height: 314;"></li>
 <li value="7">Click the 'x' icon at the user level to remove a user from the Resource Pool. They are removed from all the lists they appear in.<br>Or<br>To remove all users associated with a job role, group, team, or company, click <strong>Remove</strong> at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool. </li>
 <li value="8">Click <strong>Save</strong>. </li>
 </ol>
@@ -190,6 +198,7 @@ Only the Resource Pools that are common to all the users selected appear in this
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="pools-and-projects"></a>Associate resource pools with projects and templates</h2>
+<p>(NOTE: moved to its own article) </p>
 <p> After you create Resource Pools, you can associate them with projects or templates so you can later budget your resources on the projects. </p>
 <p>You must have the following rights to associate Resource Pools with Projects and Templates: </p>
 <ul>
@@ -209,7 +218,7 @@ Only the Resource Pools that are common to all the users selected appear in this
 ]]><![CDATA[
 ]]>Go to a project and click the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png">in the upper-right corner.</li>
 <li value="2"> Click <strong>Settings</strong>. </li>
-<li value="3">Start typing the name of a Resource Pool in the <strong>Resource Pools</strong> field, then select it from the list when it appears.<br>You can associate multiple Resource Pools with one project or template.<br><img src="assets/resource-pool-to-project-350x316.png" alt="resource_pool_to_project.png" style="width: 350;height: 316;"><br><br></li>
+<li value="3">Start typing the name of a Resource Pool in the <strong>Resource Pools</strong> field, then select it from the list when it appears.<br>You can associate multiple Resource Pools with one project or template.<br><img src="assets/resource-pool-to-project-350x254.png" alt="resource_pool_to_project.png" style="width: 350;height: 254;"><br><br></li>
 <li value="4">Click <strong>Save Changes</strong>.</li>
 </ol>
 <p> For more information about how to edit a project and associate it with Resource Pools, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p>

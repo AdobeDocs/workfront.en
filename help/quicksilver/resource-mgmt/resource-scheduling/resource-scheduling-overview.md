@@ -4,10 +4,14 @@ content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Scheduling
-description: We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources.
+description: (NOTE: ****LINKED TO THE PRODUCT FOR RESOURCE SCHEDULING AREAS)
 ---
 
 # Resource Scheduling
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ****LINKED TO THE PRODUCT FOR RESOURCE SCHEDULING AREAS) </p>
+-->
 
 >[!NOTE]
 >

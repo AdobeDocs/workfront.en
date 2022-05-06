@@ -9,6 +9,10 @@ description: When adding predecessor relationships to tasks you might encounter 
 
 # Task&nbsp;dependency loop overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When adding predecessor relationships to tasks you might encounter dependency loops. For information about predecessors, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Dependency loop overview

@@ -45,7 +45,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>You have Manage permissions to the templates you create, by default</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>You have Manage permissions to the templates you create, by default</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ You must have the following:
 
    The template is untitled.
 
-   ![New template](assets/create-template-nwe-2022-350x186.png)
+   ![New template](assets/create-template-nwe-2022-350x102.png)
 
 1. Specify a name for the new template in the template header, then press **Enter.**
 1. Click the **Template Tasks** section in the left panel. 

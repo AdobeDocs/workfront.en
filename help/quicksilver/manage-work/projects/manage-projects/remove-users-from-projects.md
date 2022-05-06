@@ -3,10 +3,14 @@ filename: remove-users-from-projects
 product-area: projects;user-management
 navigation-topic: manage-projects
 title: Remove users from projects
-description: You can remove users from a project when they are no longer involved in completing work on the project. Removing users from projects has implications on task and issue assignments, as well as on project roles.
+description: (NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://support.workfront.com/hc/en-us/articles/217301267-Understanding-the-Project-Team-and-Projects-I-m-On-)
 ---
 
 # Remove users from projects
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This also links here - some information is duplicated between these 2 articles, so update both:&nbsp;https://support.workfront.com/hc/en-us/articles/217301267-Understanding-the-Project-Team-and-Projects-I-m-On-) </p>
+-->
 
 You can remove users from a project when they are no longer involved in completing work on the project. Removing users from projects has implications on task and issue assignments, as well as on project roles.
 
@@ -36,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,7 +68,7 @@ You can remove users from a project from the People sectionof the project.
 1. Go to the project where you want to remove the users.
 1. Click **People** in the left panel,&nbsp;then select the users you want to remove. This might be located under the **Show More** area.   
 
-1. Click **Remove** ![Remove item](assets/remove-icon---x-in-circle.png).
+1. Click the **Remove** icon  ![Remove item](assets/remove-icon---x-in-circle.png) at the top of the list of users.
 
 1. Click&nbsp;**Yes, Remove Selected Users** to confirm removal.
 

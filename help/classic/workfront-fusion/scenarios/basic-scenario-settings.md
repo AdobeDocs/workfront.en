@@ -4,11 +4,15 @@ content-type: overview
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Basic scenario settings
+title: Basic scenario settings in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Basic scenario settings
+# Basic scenario settings in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 ## Access requirements
 
@@ -54,13 +58,13 @@ You must have the following access to use the functionality in this article:
 
 Scenarios can be active or inactive. You can change the scenario status by clicking the On/Off button in the scenario detail.
 
-For more information, see [Activate or deactivate a scenario](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md) and [Scenario detail](../../workfront-fusion/scenarios/scenario-detail.md).
+For more information, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md) and [Scenario details in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-detail.md).
 
 ## Scenario schedule
 
 Active scenarios are executed according to a schedule.
 
-For more information see [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+For more information see [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
 ## Scenario name
 
@@ -70,7 +74,7 @@ To rename a scenario, open the scenario, click on the scenario's name in the top
 
 Triggers allow you to select the first bundle that you want to process in the scenario.
 
-For more information, see [Choose where a trigger module starts](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+For more information, see [Choose where a trigger module starts in Adobe Workfront Fusion](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
 
 ## Number of returned bundles
 
@@ -78,4 +82,4 @@ Modules, by default, always return two bundles only. This can be changed in the 
 
 ## Advanced scenario settings
 
-Adobe Workfront Fusion gives you the possibility to configure a number of other advanced settings. For more information, see [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Adobe Workfront Fusion gives you the possibility to configure a number of other advanced settings. For more information, see [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).

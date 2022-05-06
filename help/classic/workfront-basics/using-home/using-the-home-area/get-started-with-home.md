@@ -8,6 +8,10 @@ description: There are two ways to view your work in the Home area, either from 
 
 # Get started with Home
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 There are two ways to view your work in the Home area, either from the Work List or the Calendar.
 
 ## Work List
@@ -63,9 +67,9 @@ For more information on how to use groupings, see [Display items in the Work Lis
 
 ### Narrow your focus with filters
 
-The Work List Filter allows you to narrow your focus to specific work items.
+The Work List Filter allows you to narrow your focus to specific work items. 
 
-The following are examples of how you can filter items you see in Home :&nbsp;
+The following are examples of how you can filter items you view in Home:&nbsp;
 
 * Filter based solely on work item type or state:
 
@@ -103,6 +107,8 @@ Keep track of work that you submitted for approval directly from Work List. You 
 For more information on how to keep track of work you've submitted, see [Managing Approvals.](https://support.workfront.com/hc/en-us/sections/203948437-Managing-Approvals)  
 ![](assets/approvals-i-ve-submited-350x339.png)
 
+&nbsp;
+
 ## Prioritize what's important to you
 
 The Work List allows you to surface and prioritize work that is important to you with the My Priority Sort by option. You can add up to 20 items to your My Priority list. Use the More menu to add work items to your priority list.&nbsp;
@@ -111,7 +117,7 @@ The Work List allows you to surface and prioritize work that is important to you
 >
 >Any work items added to My Priority are visible only to you, and no one can prioritize work for you.
 
-For more information on how to use My Priority, see [Prioritize work in the Home Area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+For more information on how to use My Priority, see [Prioritize work in the Home area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
 
 ![](assets/more-menu-home-350x272.png)
 

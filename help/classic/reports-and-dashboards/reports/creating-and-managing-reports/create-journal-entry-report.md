@@ -9,6 +9,10 @@ description: The Journal Entry report surfaces system updates from the Updates a
 
 # Report on the Updates area
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Journal Entry report surfaces system updates from the Updates area of projects, tasks, issues, and other objects that were previously only available through the Adobe Workfront API. While this is an advanced report intended for specific use cases, the more digestible format makes it easier for you to report on project activity and system updates within Workfront.
 
 >[!TIP]
@@ -46,7 +50,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the objects that contain the journal entries you display in the report</p> <p>You will obtain Manage permissions to the report after you create it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the objects that contain the journal entries you display in the report</p> <p>You will obtain Manage permissions to the report after you create it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +59,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-Before you begin, you must make sure:
+Before you can perform the actions described in this article, you must make sure of the following:
 
 * Any fields that you want to report on are tracked in Workfront. You can only report on data from the Updates area that is tracked.
 
@@ -126,6 +130,13 @@ To organize the information in this report, you can use the built-in grouping Pr
 
 To learn how to set up the views, filters, and groupings you want for your report, see the relevant section:
 
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: from&nbsp;Luke: Take this for what it's worth, but part of me wonders if all of these subsections should be separate articles.</p>
+<p>The biggest reason for breaking these up would be searchability, in my mind. For example, as a user, I might want to know how to see if the owner of a project changed. If I search the help site for that, I would be a lot more likely to find a separate article called "See if the owner of a project changed" vs an article titled "Create a Journal Entry report" because "Journal Entry" might mean nothing to me.) </p>
+</div>
+-->
+
 * [See what status changes occurred](#see-what-status-changes-occurred) 
 * [See when a task or issue was deleted](#see-when-a-task-or-issue-was-deleted) 
 * [See how custom fields changed over the course of a project's life cycle](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle) 
@@ -145,6 +156,10 @@ You can set up the Journal Entry report to show:
 If you want to see the health of a project, you could also set up the report to show this same information using the project **Condition** field.
 
 This information can be used to help with auditing and to illustrate how well you and your organization are planning.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;for tip below: When analytics adds the status option, update this note to say "these entries (status or condition changes)")</p>
+-->
 
 >[!TIP]
 >

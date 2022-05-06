@@ -4,11 +4,19 @@ content-type: reference
 product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Fields in lists and reports
-description: Workfront fields are available to be configured in the following reporting elements:
+description: (NOTE: Alina: ********ALWAYS READ THIS BEFORE YOU CREATE A NEW DRAFT: ALL WRITERS ARE WORKING ON THIS ARTICLE. IF YOU WANT TO UPDATE THIS, DO A SEARCH AND MAKE SURE THAT THERE ARE NO OTHER DRAFTS THAT WILL OVERWRITE YOURS, OR THAT YOU WON'T OVERWRITE SOMEONE ELSE'S!****
 hidefromtoc: true
 ---
 
 # Fields in lists and reports
+
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Alina: ********ALWAYS READ THIS BEFORE YOU CREATE A NEW DRAFT: ALL WRITERS ARE WORKING ON THIS ARTICLE. IF YOU WANT TO UPDATE THIS, DO A SEARCH AND MAKE SURE THAT THERE ARE NO OTHER DRAFTS THAT WILL OVERWRITE YOURS, OR THAT YOU WON'T OVERWRITE SOMEONE ELSE'S!****</p>
+<p>After 18.2, when the Resource Budgeted Hours might come back, this needs to be added back in:</p>
+<p>Planned Budgeted Hours =&nbsp;In a Resource Budgeted Hour report, the Planned Budgeted Hours are the hours budgeted for a project, job role, or user in the Resource Planner.&nbsp;For more information about budgeting hours in the Resource Planner, see the "Budgeting Allocations in the Resource Planner" section in "Planning in the Resource Planner.") </p>
+</div>
+-->
 
 >[!NOTE]
 >
@@ -100,13 +108,17 @@ The following table is a list of commonly used objects and fields that you can d
 </tr>
 <tr>
 <td> <p>Budgeted Completion Date</p> </td>
-<td> <p>This is a deprecated field that shows the date when the budgeting of resources ends, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. The field is available in project and task reports.&nbsp;</p> </td>
+<td> <p>This is a deprecated field that shows the date when the budgeting of resources ends, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner. The field is available in project and task reports.&nbsp;</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I am leaving this in for quicksilver, too, because the field does exist in QS as well - Pandora won't hide it going forward so we need to document it because it still pulls in reports)&nbsp;</p>
+--> </td>
 </tr>
 <tr>
 <td> <p>Budgeted Cost or Project Budgeted Cost</p> </td>
 <td> <p>The Budgeted Cost for the project is calculated using the following formula:<br></p> <p><code>Budgeted Cost =&nbsp;Budgeted Expense Cost + Budgeted Labor Cost + Fixed Cost of the project</code> </p> <p>The Budgeted Labor Cost in the calculation above refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <note type="important">
 The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from&nbsp;Workfront.
-</note> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p>
+</note> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: remove this info from the whole article when this is removed)</p>
+--> <p>You can locate the Budgeted Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p>
 <ul>
 <li>Business Case Summary</li>
 <li>Portfolio Optimizer (in the Cost field)</li>
@@ -153,7 +165,9 @@ The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently depr
 <td> <p>Budgeted Labor Cost or Resource Planner Budgeted Cost </p> </td>
 <td> <p>This is the cost associated with the hours that you, as the Resource Manager, budget for your resources for the work they need to complete on projects. </p> <p>The Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Budgeted Labor Cost = SUM(Job Role Cost per Hour * Budgeted Hours per Job Role)</code> </p> <p>This field refers to both labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner), and hours budgeted in the Resource Budgeting area of the Business Case (or in the Resource Planner). </p> <note type="important">
 The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently deprecated and will be removed from&nbsp;Workfront.
-</note> <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p>
+</note> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: remove this info from the whole article when this is removed) </p>
+--> <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in&nbsp;Workfront: </p>
 <ul>
 <li>Resource Planner Cost view (in the BDG column)</li>
 <li>Utilization report Cost view (in the Budgeted Cost column)</li>
@@ -181,7 +195,9 @@ The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently depr
 </tr>
 <tr>
 <td> <p>Budgeted Start Date</p> </td>
-<td> <p>This is a deprecated field that shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;The field is available in project and task reports.&nbsp;</p> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I am leaving this in for quicksilver, too, because the field does exist in QS as well - Pandora won't hide it going forward so we need to document it because it still pulls in reports)</p>
+--> <p>This is a deprecated field that shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;The field is available in project and task reports.&nbsp;</p> </td>
 </tr>
 <tr>
 <td>Completion Day</td>
@@ -295,7 +311,9 @@ The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently depr
 </tr>
 <tr>
 <td> <p>Legacy Resource Pool</p> </td>
-<td>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. For more information about Legacy Resource Planning, see the article <a href="../../../resource-mgmt/resource-planning/resource-planning-overview.md">Resource Planning</a>. This is a deprecated field. </td>
+<td> <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. For more information about Legacy Resource Planning, see the article <a href="../../../resource-mgmt/resource-planning/resource-planning-overview.md">Resource Planning</a>. This is a deprecated field. </p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Leave this field in both classic and Qs because it exists in both) </p>
+--> </td>
 </tr>
 <tr>
 <td> <p>License Type Limit: Planner Limit</p> </td>
@@ -347,7 +365,9 @@ The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently depr
 </tr>
 <tr>
 <td> <p><a name="Planned-Labor-Cost"></a>Planned Labor Cost</p> </td>
-<td> <p>For a task, the hourly rate of the user or role, multiplied by the number of hours assigned to the user or role.&nbsp;</p> <p>For a project, it is a total of all Planned Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task, as described in the section <a href="../../../manage-work/projects/project-finances/track-costs.md#modifying-cost-types-for-individual-tasks">Modifying Cost Types for Individual Tasks</a> in&nbsp; the article <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td>
+<td> <p>For a task, the hourly rate of the user or role, multiplied by the number of hours assigned to the user or role.&nbsp;</p> <p>For a project, it is a total of all Planned Labor Costs of all the tasks.&nbsp;&nbsp;</p> <p>Whether the rate of the user or role is used depends on the Cost Type that is selected for the given task, as described in the section <a href="../../../manage-work/projects/project-finances/track-costs.md#modifying-cost-types-for-individual-tasks">Modifying Cost Types for Individual Tasks</a> in&nbsp; the article <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: this is linked elsewhere)</p>
+--> </td>
 </tr>
 <tr>
 <td> <p>Planned Risk Cost</p> </td>
@@ -399,7 +419,9 @@ The Capacity Planner and Legacy&nbsp;Resource Estimates areas are currently depr
 </tr>
 <tr>
 <td> <p>Resource Manager IDs</p> </td>
-<td> <p>Use this option &nbsp;when creating a filter to find a specific resource manager.</p> <p>Begin typing the name of the resource manager that you want to use in the filter, then click the name when it appears in the drop-down list.</p> <p>Resource Managers can perform resource scheduling actions on a project.</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td>
+<td> <p>Use this option &nbsp;when creating a filter to find a specific resource manager.</p> <p>Begin typing the name of the resource manager that you want to use in the filter, then click the name when it appears in the drop-down list.</p> <p>Resource Managers can perform resource scheduling actions on a project.</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: Same as "Resource Managers" (above), but this is for the filter.)</p>
+--> </td>
 </tr>
 <tr>
 <td>Resource Planner Budgeted Labor&nbsp;Cost</td>

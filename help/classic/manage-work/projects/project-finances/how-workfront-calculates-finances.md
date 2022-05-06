@@ -4,15 +4,19 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: How Adobe Workfront calculates finances
-description: This article will replace the Support article here: https://support.workfront.com/hc/en-us/articles/217612358-How-Workfront-Calculates-Finances
+description: (NOTE: Alina: Keep this draft for a revamp of all definitions for financial fields in Workfront
 hidefromtoc: true
 ---
 
 # How Adobe Workfront calculates finances
 
-```This article will replace the Support article here: https://support.workfront.com/hc/en-us/articles/217612358-How-Workfront-Calculates-Finances```
-
-```This should be placed at the top of the Project Finances section.```
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE:&nbsp;Alina: Keep this draft for a revamp of all definitions for financial fields in Workfront</p>
+<p>-- <span class="wysiwyg-font-size-medium wysiwyg-color-pink">This article will replace the Support article here: https://support.workfront.com/hc/en-us/articles/217612358-How-Workfront-Calculates-Finances</span></p>
+<p><span class="wysiwyg-font-size-medium wysiwyg-color-pink">-- This should be placed at the top of the Project Finances section.)</span> </p>
+</div>
+-->
 
 ## Understanding the Calculations of Adobe Workfront Project Finances
 

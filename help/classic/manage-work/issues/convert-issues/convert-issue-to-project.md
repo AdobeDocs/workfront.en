@@ -3,14 +3,18 @@ filename: convert-issue-to-project
 product-area: projects
 navigation-topic: convert-issues
 title: Convert an issue to a project in Adobe Workfront
-description: Note: The ability to convert an issue to a project using a template from a list, report, or a dashboard was temporarily removed from the Production environment. In addition, the updated experience when converting an issue to a project using a template at the issue level was also reverted to the former experience. These changes were made on March 4, 2022. They will be re-added by mid-March.
+description: (NOTE: below, is no longer the case - drafted)
 ---
 
 # Convert an issue to a project in Adobe Workfront
 
->[!NOTE]
+>[!IMPORTANT]
 >
->The ability to convert an issue to a project using a template from a list, report, or a dashboard was temporarily removed from the Production environment. In addition, the updated experience when converting an issue to a project using a template at the issue level was also reverted to the former experience. These changes were made on March 4, 2022. They will be re-added by mid-March.
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below, is no longer the case - drafted)</p>
+-->
 
 If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project.
 
@@ -40,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the issue</p> <p>You obtain&nbsp;Manage permissions to the project after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain&nbsp;Manage permissions to the project after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,7 +105,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
      >   
      >   
      >   * [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
-     >   * [Share an issue in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
+     >   * [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
      >   
      >
 
@@ -113,12 +117,12 @@ You can convert an issue to a blank project or convert an issue to a project usi
    >The options that are available here depend on how the Workfront administrator has configured them for everyone in the system or for your group. For more information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
    >
    >
-   >Or, if the top-level groups in your organization configured them separately, the options available here depend on which group you selected for the new project in step 6. For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) ```.```
+   >Or, if the top-level groups in your organization configured them separately, the options available here depend on which group you selected for the new project in step 6. For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 1. (Optional) In the **Custom Forms** section, do one of the following:
 
    * If you convert the issue to a blank project, expand the **Add Forms** drop-down menu to attach custom forms  
-     For more information about transferring information from the custom form of the issue to that of the new project, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+     For more information about transferring information from the custom form of the issue to that of the new project, see [Transfer custom form data when converting an object](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
    * If you convert the issue to a project using a template, do any of the following:
 
       * Review the custom forms attached to the template.&nbsp;They will transfer to the new project.
@@ -127,7 +131,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
       * Click the **x icon** to the right of any form that you do not want to transfer to the project to remove it. 
       * Expand the **Add Custom Forms** menu to add more forms to the project.
 
-   * (Optional and conditional) If you want to transfer custom form information from the issue you are converting to the project, add the project custom form that contains the same fields whose information you want to transfer from the issue. For information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+   * (Optional and conditional) If you want to transfer custom form information from the issue you are converting to the project, add the project custom form that contains the same fields whose information you want to transfer from the issue. For information, see [Transfer custom form data when converting an object](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 1. Click **Save Changes.**
 

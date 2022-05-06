@@ -4,19 +4,23 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Error handling
+title: Error handling in Adobe Workfront Fusion
 description: When errors occur during the execution of a scenario, it's usually because a service is unavailable due to a failure, a service responds with unexpected data, or the validation of input data fails.
 ---
 
-# Error handling
+# Error handling in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 When errors occur during the execution of a scenario, it's usually because a service is unavailable due to a failure, a service responds with unexpected data, or the validation of input data fails.
 
 >[!NOTE]
 >
->If a module throws an error during the scenario execution and there is no error handling route attached to the module, a default error handling logic is executed as described in [Error processing](../../workfront-fusion/errors/error-processing.md).
+>If a module throws an error during the scenario execution and there is no error handling route attached to the module, a default error handling logic is executed as described in [Error processing in Adobe Workfront Fusion](../../workfront-fusion/errors/error-processing.md).
 
-By adding an error handler route to a module, you can replace the default error handling logic with your own. Adobe Workfront Fusion offers 5 different directives, any of which can be inserted at the end of your error handler routes. For more information, see [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md).
+By adding an error handler route to a module, you can replace the default error handling logic with your own. Adobe Workfront Fusion offers 5 different directives, any of which can be inserted at the end of your error handler routes. For more information, see [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 ## Access requirements
 
@@ -78,7 +82,7 @@ Also, to differentiate an error handler route from a regular route, the former i
 
 ## Error handling directives
 
-The directives are briefly explained below. For more information, see [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md).
+The directives are briefly explained below. For more information, see [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 There are a total of five directives which can be grouped into the following categories based on whether a scenario execution should continue or not:
 
@@ -86,7 +90,7 @@ The following directives ensure that a scenario execution continues:
 
 * Resume allows you to specify a substitute output for the module with the error and the scenario execution status is marked as success
 * Ignore simply ignores the error and the scenario execution status is marked as success
-* Break stores the input to the queue of incomplete executions and the scenario execution status is marked as warning. For more information, see [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+* Break stores the input to the queue of incomplete executions and the scenario execution status is marked as warning. For more information, see [View and resolve incomplete executions in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 On the other hand, if a scenario execution should be stopped, you must use one of the following directives:
 
@@ -95,6 +99,6 @@ On the other hand, if a scenario execution should be stopped, you must use one o
 
 ## Additional Resources
 
-* [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md) 
-* [Advanced error handling](../../workfront-fusion/errors/advanced-error-handling.md) (includes the set up of the Dropbox Scenario referenced above)
+* [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md) 
+* [Advanced error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md) (includes the set up of the Dropbox Scenario referenced above)
 

@@ -11,6 +11,10 @@ description: The following sections describe how to configure and manage the Enh
 
 >[!IMPORTANT]
 >
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
+>[!IMPORTANT]
+>
 >```This article is for organizations that migrated from Legacy Authentication to Enhanced Authentication 1.0. Most customers are currently using Legacy Authentication and will not migrate to Enhanced Authentication 1.0. Instead, they will migrate to Enhanced Authentication 2.0 in 2021. 
   
 >If your organization is currently using Legacy Authentication, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md) for more information about Enhanced Authentication 2.0.```
@@ -19,7 +23,7 @@ The following sections describe how to configure and manage the Enhanced Authent
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

@@ -186,7 +186,7 @@ Now you can integrate Workfront with other applications that Workfront doesn't o
 
 Previously, you could only integrate with other applications through built-in integrations, Workfront Fusion, or the Workfront API.
 
-For more information, see [Create OAuth2 applications for Workfront integrations](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+For more information, see Create OAuth2 applications for Workfront integrations.
 
 ## Interface text improvements in Companies area
 

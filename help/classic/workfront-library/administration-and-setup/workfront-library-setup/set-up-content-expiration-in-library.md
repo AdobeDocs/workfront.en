@@ -9,6 +9,10 @@ description: As a Workfront Library administrator, you can set up content expira
 
 # Set up content expiration in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a Workfront Library administrator, you can set up content expiration to either restrict or eliminate users' access to expired content.
 
 Content expiration can be useful when you want to prevent users from accessing out-of-date content or when you have content that should be used only for a specific period of time, such as time-sensitive advertising or licensing materials.

@@ -1,5 +1,5 @@
 ---
-filename: wf-adobe-xd
+filename: _wf-adobe-xd
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
@@ -8,6 +8,10 @@ description: The Adobe Workfront plugin for XD allows you to:
 ---
 
 # Adobe Workfront for XD
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The Adobe Workfront plugin for XD allows you to:
 

@@ -29,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the object the note is attached to</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the object the note is attached to</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/wf-tools-350x286.png)
 
-1. Select the ```Event Subscriptions``` tab. Under the ```Create a new event subscription``` menu, select ```create```from the Event dropdown and under the Object dropdown select ```note```. This we create a workflow step that listens for comments added to Workfront linked documents and add the comment in AEM.
+1. Select the ```Event Subscriptions``` tab. Under the ```Create a new event subscription``` menu, select ```create``` from the Event dropdown and under the Object dropdown select ```note```. This we create a workflow step that listens for comments added to Workfront linked documents and add the comment in AEM.
 
    ![](assets/event-subs-350x238.png)
 

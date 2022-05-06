@@ -2,13 +2,18 @@
 filename: share-filter-view-grouping
 product-area: reporting
 navigation-topic: reporting-elements
-title: Share a filter, view, or grouping in Adobe Workfront
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+title: Share a filter, view, or grouping
+description: (NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
 ---
 
-# Share a filter, view, or grouping in Adobe Workfront
+# Share a filter, view, or grouping
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)</p>
+<p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
+</div>
+-->
 
 Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -46,7 +51,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions with access to share to a view, filter, or grouping</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions with access to share to a view, filter, or grouping</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +60,15 @@ You must have the following:
 
 ## Share a filter, view, or grouping
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
+-->
+
 Sharing filters, views, or groupings in Workfront is identical.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE)condition this for classic when the paragraph with the bullets below comes to NWE preview)</p>
+-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
@@ -75,6 +88,8 @@ Sharing filters, views, or groupings in Workfront is identical.
 --> </li>
 </ul> <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode" id="sharing-filters-views-and-groupings-using-the-standard-interface"><a name="Sharing"></a>Sharing filters, views, and groupings using the standard interface</h3>
+--> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: drafted, keep NWE)&nbsp;</p>
 --> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">Sharing filters, views, and groupings in the standard interface is identical.</p>
 -->
@@ -97,7 +112,7 @@ Sharing filters, views, or groupings in Workfront is identical.
    Repeat this process to share access with multiple users, teams, roles, groups, or companies.
 
    **To share with all users in the system:** Click the **Settings** icon, then click **Make this visible system-wide**.  
-   Your administrator must select the Share System-wide option for this option to be available. For more information, see the articles [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) and [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Your administrator must select the Share System-wide option for this option to be available. For more information, see the articles [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) and [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.
 
@@ -128,9 +143,17 @@ Sharing filters, views, or groupings in Workfront is identical.
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-<h3 id="sharing-filters-and-groupings-using-the-beta-builder-interface"><a name="Sharing2"></a>Sharing filters and groupings using the beta builder interface</h3>
-<p>When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.</p>
-<p>The beta builder interface is not available for any other objects in&nbsp;Workfront.</p>
+<h3 id="sharing-filters-and-groupings-using-the-beta-builder-interface"><a name="Sharing2"></a>Sharing filters and groupings using the beta builder interface</h3> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted, yellow, and will stay in NWE)</p>
+-->
+<p>When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.</p> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: update the list of which objects have this filter when the new filter are available for other objects) </p>
+-->
+<p>The beta builder interface is not available for any other objects in&nbsp;Workfront. <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: this will change)
+</MadCap:conditionalText>
+--></p>
 <p>You cannot build filters or groupings in the beta builder interface when building reports.</p>
 <p>Share a filter or grouping using the beta builder interface:</p>
 <ol>
@@ -174,6 +197,10 @@ Users cannot receive a higher permission than their access level. If they don't 
 
 ## Video walk-through
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: maybe hide this section when the FVGs are too removed from this UI - especially in the lists and reporting 2.0)</p>
+-->
+
 View the following video to learn how to share filters, views, and groupings in Adobe Workfront.
 
 >[!NOTE]
@@ -186,6 +213,10 @@ This video was recorded in Workfront Classic. However, the content also applies 
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted because this was part of an old article structure we moved away from) </p>
 -->
 
 <!--
@@ -221,7 +252,7 @@ This video was recorded in Workfront Classic. However, the content also applies 
   -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Old content</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Old content (NOTE: This is the content from the old article, before the video article was creted (above))</p>
 -->
 
 <!--
@@ -252,6 +283,10 @@ This video was recorded in Workfront Classic. However, the content also applies 
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="sharing-a-filter-view-or-grouping"><a name="sharing-a-filter-view-or-grouping"></a>Sharing a Filter, View, or Grouping</h2>
 -->
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this can be removed when launching the video how to training project)</p>
+-->
+
    <!--
    <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu, then select the Filter, View, or Grouping you want to share.</li>
    -->
@@ -271,7 +306,7 @@ This video was recorded in Workfront Classic. However, the content also applies 
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>To share with all users in the system:</strong> Click the <strong>Settings</strong> icon, then click <strong>Make this visible system-wide</strong>.<br>Your administrator must select the Share System-wide option for this option to be available. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars in Adobe Workfront</a>.</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>To share with all users in the system:</strong> Click the <strong>Settings</strong> icon, then click <strong>Make this visible system-wide</strong>.<br>Your administrator must select the Share System-wide option for this option to be available. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars </a>.</p>
    -->
 
 1. 

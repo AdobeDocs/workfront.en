@@ -8,6 +8,10 @@ description: You can upload files using WorkFront APIs with API tools, such as P
 
 # Uploading files via the API
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can upload files using WorkFront APIs with API tools, such as Postman, or with simple cURL commands.
 
 To upload documents, see the instructions for **Uploading Documents** in WorkFront [Post Behavior](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). You can also use these same instructions for cURL requests.
@@ -19,14 +23,13 @@ To upload documents, see the instructions for **Uploading Documents** in WorkFro
 * Your request should result in a response that includes a value for its handle. 
 * Use the handle value, the object type, and the GUID value for the objID in a JSON payload to make a subsequent call. This is for creating the object for your file, as in the following example:
 
-<pre><span class="wysiwyg-font-size-small">
+<pre>
         }
 		"name": "TestPDF",
         "handle": "7af257e64aba4a22c33ccdfc40bbb87",
         "docObjCode": "PROJ",
         "objID": "0398450f8345980843445534354",
         "currentVersion": {"version": "v1.0", "fileName" : "TestPDF"},
-        }
-		</span></pre>You should receive an ID for the object in the response.
+        }</pre>You should receive an ID for the object in the response.
 
 Refer to the help of the specific API tool you are using for more information. 

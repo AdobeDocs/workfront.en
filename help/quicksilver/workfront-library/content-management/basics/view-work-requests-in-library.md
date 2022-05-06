@@ -15,7 +15,7 @@ Users with Manager or higher access to Workfront Library can view requests other
 
 1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. In the left panel, click **Requests**>**Requests I've Submitted**.
+1. In the left panel, click **Requests** >**Requests I've Submitted**.
 
    The Requests area in Workfront opens in a separate browser window.
 

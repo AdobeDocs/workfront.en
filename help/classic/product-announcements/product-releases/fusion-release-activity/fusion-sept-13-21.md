@@ -27,7 +27,7 @@ We've also made it possible to sort the scenario execution history. You can sort
 * Number of operations
 * Amount of data transferred
 
-For more information on filtering and sorting execution history, see [View a scenario's execution history](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+For more information on filtering and sorting execution history, see [View a scenario's execution history in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ```<iframe class="vimeo-player_0" src="assets/606779136?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
@@ -47,7 +47,7 @@ To create more clarity in the scenario execution table, we've made the Details b
 
 Previously, all executions had a Details button, and occasionally users would click into the details only to find that there were no details available.
 
-For more information, see [View a scenario's execution history](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+For more information, see [View a scenario's execution history in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## SDL Managed Translation connector timeout increased to 120 seconds
 

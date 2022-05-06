@@ -4,12 +4,18 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Delete a group status
-description: As a group administrator, you can delete a status for a group that you manage if it is not configured as a required or locked status on the system level or for a higher group in the hierarchy.
+description: As a group administrator, you can delete a status for a group that you manage if it is not configured as a required or locked status on the system level, or for a higher group in the hierarchy.
 ---
 
 # Delete a group status
 
-As a group administrator, you can delete a status for a group that you manage if it is not configured as a required or locked status on the system level or for a higher group in the hierarchy.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+As a group administrator, you can delete a status for a group that you manage if it is not configured as a required or locked status on the system level, or for a higher group in the hierarchy.
+
+If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
 ## Access requirements
 
@@ -61,8 +67,9 @@ You must have the following to perform the steps in this article:
 
 1. Click **Delete Status**.
 
-   * If the deleted status was the default status for that type in the group, the replacement status takes its place.
-   * If the deleted status was set as the default project status in project preferences, the preference is now set to the replacement status.
+   If the deleted status was the default status for that type in the group, the replacement status takes its place.
+
+   If the deleted status was set as the default project status in project preferences, the preference is now set to the replacement status.
 
 ## When a group is deleted
 

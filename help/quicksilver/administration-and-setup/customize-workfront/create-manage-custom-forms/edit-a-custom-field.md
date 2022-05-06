@@ -3,33 +3,15 @@ filename: edit-a-custom-field
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Edit a custom field or image widget in a custom form
-description: You can edit an existing custom field or image widget in a custom form.
+title: Edit properties of a custom field, section break, or widget in a custom form
+description: You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
 ---
 
-# Edit a custom field
+# Edit properties of a custom field, section break, or widget in a custom form
 
-<!--
-or image widget
--->
+You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
 
-in a custom form
-
-You can edit an existing custom field 
-
-<!--
-or image widget
--->
-
-in a custom form.
-
-For more information about custom fields 
-
-<!--
-and image widgets
--->
-
-, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Access requirements
 
@@ -56,7 +38,7 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Edit an existing field
+## Edit a custom field, section break, or widget used in a custom form
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
@@ -64,17 +46,23 @@ You must have the following to perform the steps in this article:
 1. Click the **Fields** tab.
 
    <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Or</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or<!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [future]</span>
+   --></p>
    -->
 
    <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the Widget Library tab? STOPPED&nbsp;HERE*****************</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you are editing the properties for an image or video<!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   widget
+   </MadCap:conditionalText>
+   -->, click the <b>Widget Library</b> tab.</p>
    -->
 
-1. Select the field, then click **Edit**.
-1. In the **Edit Custom Field** box that displays, change any of the options available for the type of field you are adding.
+1. Select the custom field, section break, or widget, then click **Edit**.
+1. In the box that displays, change any of the options available for the item you are editing.
 
-   For information about these options, see the section [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   For information about these options, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 1. When you are finished, click **Save + Close**.
 

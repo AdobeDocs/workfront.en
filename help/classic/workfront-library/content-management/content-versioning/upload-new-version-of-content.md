@@ -9,6 +9,10 @@ description: If you have Manage permissions to content, you can upload new versi
 
 # Upload a new version of content in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If you have Manage permissions to content, you can upload new versions. For information on managing multiple versions of content, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md) .
 
 You cannot upload new versions of content in bulk. Each version must be uploaded individually.

@@ -10,6 +10,10 @@ description: You can designate users as direct reports to another user. This all
 
 # Create direct reports
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can designate users as direct reports to another user. This allows you to create an organization chart that displays the management structure of your organization. For more information, see [View the organizational chart](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Access requirements

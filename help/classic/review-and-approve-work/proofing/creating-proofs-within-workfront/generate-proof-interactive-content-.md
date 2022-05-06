@@ -8,6 +8,10 @@ description: You can generate a proof for non-website interactive content stored
 
 # Create a proof for interactive content in a ZIP file
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can generate a proof for non-website interactive content stored in a ZIP file. Examples of this type of web content include ads with streaming video or audio, HTML animations, Interactive banners.
 
 ## Access requirements
@@ -20,7 +24,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -58,7 +62,7 @@ Once you add interactive content in a ZIP file to a proof, Adobe Workfront&nbsp;
 1. Go to the project, task, or issue where you want to upload the ZIP file.
 1. Click the **Documents**&nbsp; tab.
 1. Click **Add New**, then click**Proof** in the menu that appears.
-1. In the **Add Files**section, drag and drop or browse for the ZIP&nbsp;file you need.
+1. In the **Add Files** section, drag and drop or browse for the ZIP&nbsp;file you need.
 1. Click **Create proof** to create a simple proof with no review process.  
    or  
    Continue by configuring an advanced proof:

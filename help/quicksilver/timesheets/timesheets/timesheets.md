@@ -3,11 +3,11 @@ filename: _timesheets
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Timesheets
+title: Timesheet details in Adobe Workfront
 description: This section contains the following articles:
 ---
 
-# Timesheets
+# Timesheet details in Adobe Workfront
 
 This section contains the following articles:
 

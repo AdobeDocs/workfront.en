@@ -14,13 +14,9 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
 This section contains the following articles:
 
 * [Adobe Workfront Fusion overview](../../workfront-fusion/get-started/workfront-fusion-overview.md) 
-* [Basic terms](../../workfront-fusion/get-started/basic-terms.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/get-started/create-a-practice-automation-scenario.md" class="MCXref xref" xrefformat="{para}">Create a practice automation scenario</a> </li>
-  -->
-
-* [Create a practice integration scenario](../../workfront-fusion/get-started/create-a-practice-scenario.md) 
+* [Basic terms in Adobe Workfront Fusion](../../workfront-fusion/get-started/basic-terms.md) 
+* [Create a practice automation scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md) 
+* [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md) 
 * [Adobe Workfront Fusion performance guardrails](../../workfront-fusion/get-started/fusion-performance-guardrails.md) 
 * [IP Addresses for accessing Adobe Workfront Fusion](../../workfront-fusion/get-started/ip-addresses-for-fusion.md) 
 * [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)

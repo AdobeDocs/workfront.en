@@ -40,7 +40,7 @@ You must have the following access to use the functionality described in this ar
         Example: Edit access to Documents
        </MadCap:conditionalText>
       --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
      --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
      --> </td> 
@@ -52,7 +52,7 @@ You must have the following access to use the functionality described in this ar
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Example: View access or higher on Documents
        </MadCap:conditionalText>
-      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -127,12 +127,12 @@ To install the app before it's available:
 
 1. Log in to Salesforce as a system administrator.
 1. Go to **Setup.**
-1. In the**Build**section, click **AppExchange Marketplace**.
+1. In the**Build** section, click **AppExchange Marketplace**.
 
 1. In the **Search AppExchange Apps** box, type **Workfront**. 
 
 1. Click the app when you find it, then click **Get It Now**. 
-1. Click **Install in Production**to install the Workfront app in your Salesforce Production environment.&nbsp;(recommended) 
+1. Click **Install in Production** to install the Workfront app in your Salesforce Production environment.&nbsp;(recommended) 
 1. Select the **I have read and agree to the terms and conditions** field after you have read and agreed with the terms and conditions. 
 1. Click **Confirm and Install**. 
 1. Select **Install for All Users** (recommended), then click **Install**.&nbsp;
@@ -165,7 +165,7 @@ To install the app before it's available:
 1. Log in to Salesforce as a system administrator.
 1. Click the&nbsp;**Setup icon**, then click **Setup**.
 
-1. In the**PLATFORM TOOLS**section, expand **Apps.**
+1. In the**PLATFORM TOOLS** section, expand **Apps.**
 
 1. Click **AppExchange Marketplace**.
 1. In the **Search AppExchange Apps** box, type **Workfront**. 

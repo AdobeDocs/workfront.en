@@ -19,7 +19,7 @@ This article offers a few guidelines and recommendations to successfully use Wor
 
 Goal best practice starts with top-level corporate objectives, and then cascades down to group, team, and individual levels. The resulting goals must be aligned with, contribute to, and support achieving corporate priorities. In&nbsp;Workfront Goals, goals are supported by results or activities that indicate how you achieve them.
 
-For information about getting your organization started with working in Workfront Goals, see [Get started with Workfront Goals](get-started-with-wf-align.md).
+For information about getting your organization started with working in Workfront Goals, see Adobe Workfront Goals overview.
 
 ## Benefits for using goals in your enterprise planning
 

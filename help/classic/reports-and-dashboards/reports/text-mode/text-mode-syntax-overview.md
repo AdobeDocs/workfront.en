@@ -8,6 +8,10 @@ description: You can use the text mode interface to create more complex views, f
 
 # Text mode syntax overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use the text mode interface to create more complex views, filters, groupings, and customized prompts in lists and reports. By using text mode, you can access fields and their attributes that are not available in the standard mode interface.
 
 For information and considerations about text mode before you begin, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).

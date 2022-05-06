@@ -9,6 +9,10 @@ description: You can add folders and content to any folder that you create or to
 
 # Add items to a folder in Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add folders and content to any folder that you create or to a folder that has been shared with you. When you use the Add To feature to add items to a folder, you don't actually add the item to the folder. Instead, you add a link to the item. The item remains in its original location.
 
 1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.

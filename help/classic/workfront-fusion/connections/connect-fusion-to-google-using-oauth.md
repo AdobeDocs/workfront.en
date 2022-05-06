@@ -9,6 +9,10 @@ description: You must have the following access to use the functionality in this
 
 # Connect Adobe Workfront Fusion to Google Services using a custom OAuth client
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -55,13 +59,12 @@ You need an existing Google account to make this connection.
 
 ## Create a project on Google Cloud Platform {#create-a-project-on-google-cloud-platform}
 
->[!NOTE]
->
->The following procedure is intended for:
->
->* Personal use (@gmail.com and @googlemail.com users)
->* Internal use (G Suite users that prefer to use a custom OAuth client)
->
+The following procedure is intended for:
+
+* Personal use (@gmail.com and @googlemail.com users)
+* Internal use (G Suite users that prefer to use a custom OAuth client)
+
+To create a project on Google Cloud Platform:
 
 1. Sign in to [Google Cloud Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) using your Google credentials.
 1. In the left panel, click **Dashboard**. 
@@ -71,7 +74,7 @@ You need an existing Google account to make this connection.
 1. Click the **Enable APIs and services** tab near the top of the screen.
 1. In the **Search for APIs and Services** field at the top of the screen, type the name of the service you want to use (such as Gmail API or Google Drive API).
 1. When it displays, click the API or service you want to connect to Workfront Fusion.
-1. Click **Enable**to enable the selected API.
+1. Click **Enable** to enable the selected API.
 1. Repeat steps 6-8 for each API you want to enable.
 
    >[!NOTE]
@@ -164,7 +167,13 @@ You need an existing Google account to make this connection.
 
    >[!NOTE]
    >
-   >If this is not the first API or service (Gmail or Google Drive) you have enabled, you don't have to create new credentials.
+   >If this is not the first API or service (Gmail or Google Drive) you have enabled   >
+   >
+   ><!--   >
+   ><span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> for Fusion?</span>   >
+   >-->   >
+   >
+   >, you don't have to create new credentials.
 
 1. Click **Create credentials** near the top of the screen, then select **OAuth client ID** from the drop-down menu.
 
@@ -226,8 +235,8 @@ The process of creating a connection to Google differs depending on whether you 
 
 1. Click **Advanced**, then click **Go to Workfront Fusion (unsafe)** to allow access using your custom OAuth client.
 
-1. Click **Allow**to grant Workfront Fusion permission.
-1. In the window that appears, click **Allow**again to confirm your choices.
+1. Click **Allow** to grant Workfront Fusion permission.
+1. In the window that appears, click **Allow** again to confirm your choices.
 
    The connection to the desired Google service using a custom OAuth client is established.
 

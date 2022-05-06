@@ -20,7 +20,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
@@ -58,7 +58,7 @@ Once you add interactive content in a ZIP file to a proof, Adobe Workfront&nbsp;
 1. Go to the project, task, or issue where you want to upload the ZIP file.
 1. Click **Documents**&nbsp;in the left panel .
 1. Click **Add New**, then click**Proof** in the menu that appears.
-1. In the **Add Files**section, drag and drop or browse for the ZIP&nbsp;file you need.
+1. In the **Add Files** section, drag and drop or browse for the ZIP&nbsp;file you need.
 1. Click **Create proof** to create a simple proof with no review process.  
    or  
    Continue by configuring an advanced proof:

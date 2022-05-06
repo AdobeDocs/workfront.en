@@ -2,11 +2,15 @@
 filename: associate-resource-pools-with-users
 product-area: resource-management
 navigation-topic: resource-pools
-title: Associate resource pools with users in Adobe Workfront
-description: Resource pools are collections of users what help you manage resources in Adobe Workfront.
+title: Associate resource pools with users
+description: (NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)
 ---
 
-# Associate resource pools with users in Adobe Workfront
+# Associate resource pools with users
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)</p>
+-->
 
 Resource pools are collections of users what help you manage resources in Adobe Workfront.
 
@@ -16,9 +20,9 @@ You can associate users with resource pools when you are creating your resource 
 
 If you create resource pools without populating them with users, you can later associate them with users as you are editing or creating new users.
 
-For information about resource pools, see [Resource pools overview in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+For information about resource pools, see [Resource pools overview](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
-For information about creating resource pools, see [Create resource pools in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+For information about creating resource pools, see [Create resource pools](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ## Access requirements
 
@@ -42,7 +46,7 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions for the projects, templates, and users you associate the resource pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions for the projects, templates, and users you associate the resource pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

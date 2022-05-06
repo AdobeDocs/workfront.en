@@ -33,7 +33,7 @@ The following table illustrates the removal timeline of the Legacy proofing view
    <td> 
     <ul> 
      <li>Web Proofing Viewer is the default for static and video proofs.</li> 
-     <li>Desktop Proofing Viewer is the default for interactive proofs. Though we do not recommend it, the system administrator can configure the Legacy proofing viewer as the default viewer for interactive proofs (until it is removed). See <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.</li> 
+     <li>Desktop Proofing Viewer is the default for interactive proofs. Though we do not recommend it, the system administrator can configure the Legacy proofing viewer as the default viewer for interactive proofs (until it is removed). See .</li> 
     </ul> </td> 
    <td> 
     <ul> 

@@ -4,15 +4,15 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Iterator module
+title: Iterator module in Adobe Workfront Fusion
 description: An iterator module is a special type of module that converts an array into a series of bundles. Each array item is outputted as a separate bundle.
 ---
 
-# Iterator module
+# Iterator module in Adobe Workfront Fusion
 
 An iterator module is a special type of module that converts an array into a series of bundles. Each array item is outputted as a separate bundle.
 
-For more information, see [Types of modules](../../workfront-fusion/modules/module-types.md) and [Map an array](../../workfront-fusion/mapping/map-an-array.md).
+For more information, see [Types of modules](../../workfront-fusion/modules/module-types.md) and [Map an array in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-an-array.md).
 
 ## Access requirements
 
@@ -60,7 +60,7 @@ You set up an iterator module the same you set up any other module. The Array fi
 
 ![](assets/set-up-iterator-350x190.jpg)
 
-For more information, see [Configure a module's settings](../../workfront-fusion/modules/configure-a-modules-settings.md).
+For more information, see [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
 ``` ```**Examples: **``````
 

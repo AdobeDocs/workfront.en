@@ -16,7 +16,7 @@ For additional information about access to Workfront Goals, see [Access needed t
 To guarantee that your organization moves forward fastest, you must ensure that work execution is aligned with company strategy.
 
 Workfront Goals connects strategy, goals, and work to drive execution of organizational outputs and deliver measurable business outcomes. 
-This article offers an overview of how your organization can start using Workfront Goals to create goals that drive the execution of your strategy. For information about best practices for formulating goals, see Workfront Goals overview. For information about locating Workfront Goals and accessing individual goals, see Access and open goals in Workfront Goals .
+This article offers an overview of how your organization can start using Workfront Goals to create goals that drive the execution of your strategy. For information about best practices for formulating goals, see Adobe Workfront Goals overview. For information about locating Workfront Goals and accessing individual goals, see Access and open goals in Adobe Workfront Goals .
 
 ## Before you start with Workfront Goals
 
@@ -37,7 +37,7 @@ Consider the following before you start using Workfront Goals:
 
 Use the following guidelines when creating goals:
 
-* Establish what your outcomes (your goals and results) are and what your outputs (the work that needs to be done) are. For information about outcomes and outputs, see the "Identify your outcomes and outputs" section in&nbsp;Workfront Goals overview.
+* Establish what your outcomes (your goals and results) are and what your outputs (the work that needs to be done) are. For information about outcomes and outputs, see the "Identify your outcomes and outputs" section in&nbsp;Adobe Workfront Goals overview.
 * Avoid vague wording, such as “keep doing,”, “continue,”, and “maintain.". Make your goals aspirational, but still tangible and unambiguous. For example, "Grow our EMEA business", "Ship the new product feature", or "Increase customer support effectiveness" are clear, tangible goals. 
 * Make your goals aspirational, but still tangible and unambiguous. For example, "Grow our EMEA business," "Ship the new product feature," and "Increase customer support effectiveness" are clear, tangible goals. 
 * View your goals in the context of your organization’s overall alignment. We recommend that your goals connect to each other—, to deliver a cohesive view of your organization's strategy— and they connect to your work.
@@ -70,11 +70,11 @@ Use the following checklist when creating goals:
 
         Ideally, the progress of the personal goals of your individual contributors will ultimately achieve the organizational goals. In this case, your team, group, and company goals might not have their own activities or results. 
       
-      * Activate the goals you want to pursue for your organization. Decide what results or activities you need to measure the progress on the goals you are planning for the next quarter. For information about activating goals, see Activate goals in Workfront Goals.
+      * Activate the goals you want to pursue for your organization. Decide what results or activities you need to measure the progress on the goals you are planning for the next quarter. For information about activating goals, see Activate goals in Adobe Workfront Goals.
 
    1. Always keep the progress of your results and activities current. Review At Risk goals frequently and decide what adjustments you can make to deliver the goals on time.
 
-      You can view At Risk goals in the Goal List. For information about filtering for At Risk goals, see View at-risk goals in&nbsp;Workfront Goals.
+      You can view At Risk goals in the Goal List. For information about filtering for At Risk goals, see Review in-trouble goals in&nbsp;Adobe Workfront Goals .
 
 ## Recommendations for managing goals based on your role
 
@@ -90,11 +90,11 @@ If you are a manager, or a CEO, we recommend the following:
 * Communicate with teams or groups to identify efficiencies and find out where they might be struggling.
 * Collaborate with individual contributors to see if they are overwhelmed or have too many competing priorities.
 
-  For information about finding goals assigned to a specific owner, see Filter information in Workfront Goals.
+  For information about finding goals assigned to a specific owner, see Filter information in Adobe Workfront Goals.
 
 * Use the Pulse section to both review goal progress and ask for updates on current goals.
 
-  For information about managing goals in the Pulse section, see Review goals in the Workfront Goals Pulse section.
+  For information about managing goals in the Pulse section, see Review goals in the Adobe Workfront Goals Pulse section.
 
 ### Individual contributor {#individual-contributor}
 
@@ -105,5 +105,5 @@ If you are an individual contributor, we recommend the following:
 * Check the upstream implications of your personal lagging goals and ask for help to remove the roadblocks from your goal that could prevent you from achieving your goals. 
 * Use the Check-in section to report progress on your goals.
 
-  For information about updating goals in the Check-in section, see Check in on goals in Workfront Goals.
+  For information about updating goals in the Check-in section, see Check in on goals in Adobe Workfront Goals.
 

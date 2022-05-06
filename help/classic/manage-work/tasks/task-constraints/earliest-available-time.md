@@ -9,9 +9,17 @@ description: Earliest Available Time is a Task Constraint that schedules a task 
 
 # Task Constraint overview: Earliest Available Time
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Earliest Available Time is a Task Constraint that schedules a task to begin at the earliest available time after considering any predecessor relationships.
 
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
+-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To update the Task Constraint to Earliest Available Time:</p>
@@ -52,6 +60,10 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
    -->
 
 ## The difference between Earliest Available Time and As Soon As Possible
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])</p>
+-->
 
 The Earliest Available Time constraint differs from the As Soon As Possible constraint when all of the following criteria exist:
 

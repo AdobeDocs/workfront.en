@@ -10,6 +10,10 @@ description: You can see how often users log in to Adobe Workfront, as well as t
 
 # View user login information
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can see how often users log in to Adobe Workfront, as well as the last time they logged in, by indicating that you want to include this information in the view of a list of users, or in a report for users.
 
 ## Access requirements

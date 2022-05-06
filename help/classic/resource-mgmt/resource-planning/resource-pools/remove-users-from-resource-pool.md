@@ -2,17 +2,21 @@
 filename: remove-users-from-resource-pool
 product-area: resource-management
 navigation-topic: resource-pools
-title: Remove users from resource pools in Adobe Workfront
+title: Remove users from resource pools
 description: Although there is no limit to how many users you can have in a resource pool, the list of users only displays the first 2000 users, listed alphabetically.
 ---
 
-# Remove users from resource pools in&nbsp;Adobe Workfront
+# Remove users from resource pools
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Although there is no limit to how many users you can have in a&nbsp;resource pool, the list of users only displays the first 2000 users, listed alphabetically.
 
 We recommend that you remove users that have been deactivated or have moved roles or departments, to ensure you always have an accurate list of users in all resource pools.
 
-For more information about resource pools, see [Resource pools overview in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+For more information about resource pools, see [Resource pools overview](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Access requirements
 
@@ -32,11 +36,11 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>View or higher access to Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
-    <td> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+    <td> <p>(NOTE:&nbsp;I don't think this is needed for removing users from the pool)</p> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -50,8 +54,8 @@ You can remove users from a Resource Pool when those users are no longer needed 
 
 To remove a user from a Resource Pool:
 
-1. Go to the **People** area in the Global Navigation Bar.  
-1. Select the **Planning** tab.  
+1. Go to the **People** area in the Global Navigation Bar. 
+1. Select the**Planning** tab.  
 1. Select the **Resource Pools** sub-tab.  
 1. Select a Resource Pool and click **Edit.**Or  
    Click the name of a Resource Pool. 
@@ -59,7 +63,7 @@ To remove a user from a Resource Pool:
 1. Start typing the name of a user that you want to remove in the **Search in this Resource Pool** field.  
    Or  
    Start typing the name of a company, job role, team, or group, if you want to remove all the users associated with those entities.  
-   ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x321.png)
+   ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x314.png)
 
 1. Click the 'x' icon at the user level to remove a user from the Resource Pool. They are removed from all the lists they appear in.  
    Or  

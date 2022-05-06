@@ -2,6 +2,10 @@
 
 # ```Workfront Tools for AEM User Guide : Content Fragments```  {#title-heading}
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This workflow step will allow a user to map Adobe Workfront metadata fields to an AEM Content Fragment Model.
 
 ## Access requirements
@@ -46,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/wf-tools-350x286.png)
 
-1. Select the ```Event Subscriptions``` tab. Under the ```Create a new event subscription``` menu, select ```update```from the Event dropdown and under the Object dropdown select ```task```if you want to create content fragments from a task custom form or select ```issue```if you want to create content fragments from an issue custom form.
+1. Select the **Event Subscriptions** tab. Under the **Create a new event subscription** menu, select **update** from the Event dropdown and under the Object dropdown select **task** if you want to create content fragments from a task custom form or select **issue** if you want to create content fragments from an issue custom form.
 
    ![](assets/event-sub--objects-350x254.png)
 

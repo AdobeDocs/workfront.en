@@ -9,6 +9,10 @@ description: As a group administrator, you can configure and then lock a project
 
 # Lock or unlock a project, task, or issue preference for subgroups
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a group administrator, you can configure and then lock a project, task, or issue preference if a Workfront administrator has unlocked it at the system level.
 
 Locking a project, task, or issue preference that you have configured at the```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  group</MadCap:conditionalText>``` level ensures that everyone```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  in your group and in its subgroups</MadCap:conditionalText>``` is using the same setting for that preference. Though you can still reconfigure a preference that you lock```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  for your group</MadCap:conditionalText>```, group administrators can’t reconfigure it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> sub</MadCap:conditionalText>```groups```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  on lower levels</MadCap:conditionalText>```.
@@ -18,6 +22,10 @@ Conversely, unlocking a ```<MadCap:conditionalText data-mc-conditions="SnippetCo
 This is parallel to the ability that a Workfront administrator has to lock or unlock a preference for everyone in the system.
 
 For information about how a Workfront administrator can lock or unlock a preference for all groups in the system, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
+-->
 
 >[!NOTE]
 >

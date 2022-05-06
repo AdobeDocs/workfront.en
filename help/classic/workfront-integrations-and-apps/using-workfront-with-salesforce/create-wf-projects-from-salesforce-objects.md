@@ -8,6 +8,10 @@ description: After installing Adobe Workfront for Salesforce, you can define tri
 
 # Create Adobe Workfront projects from Salesforce objects
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 After installing Adobe Workfront for Salesforce, you can define triggers that create Workfront projects when certain criteria are met on Salesforce Opportunities and Accounts.
 
 ## Access requirements
@@ -33,7 +37,7 @@ You must have the following access to use the functionality described in this ar
         Example: Edit access to Documents
        </MadCap:conditionalText>
       --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
      --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
      --> </td> 
@@ -45,7 +49,7 @@ You must have the following access to use the functionality described in this ar
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Example: View access or higher on Documents
        </MadCap:conditionalText>
-      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -120,7 +124,7 @@ To configure triggers in Salesforce:
    ![salesforce_triggers_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
 
 1. Click **New Trigger**.&nbsp;
-1. From the **Salesforce Object**drop-down menu, select **Opportunity**.****This is a required field.
+1. From the **Salesforce Object** drop-down menu, select **Opportunity**.****This is a required field.
 
 1. (Conditional) Specify the following:
 
@@ -132,6 +136,10 @@ To configure triggers in Salesforce:
    
    1. Start typing the name of a Template that you want to associate with the new Workfront project, then select it when it appears in the list.  
       This is a required field.&nbsp;
+
+      <!--   
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: (information in note duplicated below)</p>   
+      -->
 
       >[!NOTE]
       >
@@ -153,7 +161,7 @@ To configure triggers in Salesforce:
       >The project is created only when the Stage is updated on the Opportunity. A unique project is created for each product specified when the Stage field is updated, and not as the products are added to Opportunities.
 
 1. (Optional) Click **New Trigger**.&nbsp;
-1. (Optional)&nbsp;From the **Salesforce Object**drop-down menu, select **Account**.
+1. (Optional)&nbsp;From the **Salesforce Object** drop-down menu, select **Account**.
 
 1. This is a required field.&nbsp;
 1. (Conditional) Specify the following:&nbsp;
@@ -170,6 +178,10 @@ To configure triggers in Salesforce:
    1. Start typing the name of a **Template** that you want to associate with the new Workfront project, then select it when it appears in the list.
 
       This is a required field.&nbsp;
+
+      <!--   
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: (information in note below is duplicated above))</p>   
+      -->
 
       >[!NOTE]
       >

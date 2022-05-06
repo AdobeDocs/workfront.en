@@ -28,5 +28,5 @@ For more information about the Effort Driven Duration Type, see [Duration Type o
 
 ## Issue and project duration
 
-Issues and Projects have only one Duration value, which is the difference between the Planned Start Date and Planned Completion Date of the issue and of the project, respectively.
+Issues and projects have only one Duration value, which is the difference between the Planned Start Date and Planned Completion Date of the issue and of the project, respectively.
 

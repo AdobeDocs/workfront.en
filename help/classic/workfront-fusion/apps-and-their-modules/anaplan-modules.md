@@ -6,14 +6,18 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Anaplan Modules
-description: In a Adobe Workfront Fusion scenario, you can connect your Anaplan account to multiple third-party applications and services.
+description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Anaplan, as well as connect it to to multiple third-party applications and services.
 ---
 
 # Anaplan Modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Anaplan account to multiple third-party applications and services.
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Anaplan, as well as connect it to to multiple third-party applications and services.
+
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -92,7 +96,7 @@ To create a connection for your Anaplan modules:
 
 When you configure Anaplan modules, Workfront Fusion displays the fields listed below. Along with these, additional Anaplan fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -172,7 +176,7 @@ This module allows you to perform a custom API call to the Anaplan API.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
@@ -217,7 +221,9 @@ This action module deletes an existing record.
    <td> <p>Select the type of object to delete.</p> 
     <ul> 
      <li> <p><b>Action</b> </p> <p>Select or map the action to delete.</p> </li> 
-     <li> <p><b>List item</b> </p> <p>Select the list that you want to delete an item from, then enter or map the ID or the code of the item that you want to delete</p> </li> 
+     <li> <p><b>List item</b> </p> <p>Select the list that you want to delete an item from, then enter or map the ID or the code of the item that you want to delete</p> <!--
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter or map the ID of the list that you want to delete an item from, then enter or map the ID or the code of the item that you want to delete</p>
+      --> </li> 
      <li> <p><b>File</b> </p> <p>Select or map the file to delete.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -305,7 +311,7 @@ This action module reads a single record.
      <li> <p><b>Model</b> </p> <p>Select or map the ID&nbsp;of the Model you want to read</p> </li> 
      <li> <p><b>Model list</b> </p> <p>Select or map the IDs of the Workspace and Model that contain the List you want to read, then select the List. In the Data type field, select whether you want to read data or metadata.</p> </li> 
      <li> <p><b>Model version</b> </p> <p>Select or map the ID of the Model you want to read.</p> </li> 
-     <li> <p><b>User </b> </p> <p>Select whether you want to return data about the owner of the account being used, or another user. If you select another user, select the name of the user.</p> </li> 
+     <li> <p><b>User</b> </p> <p>Select whether you want to return data about the owner of the account being used, or another user. If you select another user, select the name of the user.</p> </li> 
      <li> <p><b>Workspace</b> </p> <p>Select or map the ID of the Workspace you want to read.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -328,7 +334,8 @@ This action module updates a single record in Anaplan.
    <td role="rowheader">Record type</td> 
    <td> <p>Select the type of record you want to update.</p> 
     <ul> 
-     <li> <p><b>Module cell data </b> </p> <p>When you update cell data, all downstream calculations that use that data are also updated.</p> <p>Fill in the following fields:</p> 
+     <li> <p><b>List item</b> </p> <p>For fields, see <a href="#create-a-list-item" class="MCXref xref">Create a list item</a> in this article.</p> </li> 
+     <li> <p><b>Module cell data</b> </p> <p>When you update cell data, all downstream calculations that use that data are also updated.</p> <p>Fill in the following fields:</p> 
       <ul> 
        <li> <p><b>Model ID</b> </p> <p>Select or map the Model that contains the cell you want to update.</p> </li> 
        <li> <p><b>Module ID</b> </p> <p>Select or map the Module that contains the cell you want to update</p> </li> 
@@ -336,7 +343,6 @@ This action module updates a single record in Anaplan.
        <li> <p style="font-weight: bold;">Dimension ID</p> <p>Select or map the dimension that is on the line item.</p> <p>For information on dimensions, search for Dimensions in the Anaplan Anapedia.</p> </li> 
        <li> <p><b>Value</b> </p> <p>Enter or map the new value for the cell.</p> </li> 
       </ul> </li> 
-     <li> <p><b>List item</b> </p> <p>For fields, see <a href="#create-a-list-item" class="MCXref xref">Create a list item</a> in this article.</p> </li> 
      <li> <p><b>Model current fiscal year</b> </p> <p>Enter the Workspace ID and Model ID of the Model for which you want to update the fiscal year, then enter or map the new year for the model.</p> </li> 
     </ul> </td> 
   </tr> 

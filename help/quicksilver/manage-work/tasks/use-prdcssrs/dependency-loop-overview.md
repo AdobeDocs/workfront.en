@@ -4,12 +4,10 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Task dependency loop overview
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: When adding predecessor relationships to tasks you might encounter dependency loops. For information about predecessors, see Overview of task predecessors.
 ---
 
 # Task&nbsp;dependency loop overview
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 When adding predecessor relationships to tasks you might encounter dependency loops. For information about predecessors, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

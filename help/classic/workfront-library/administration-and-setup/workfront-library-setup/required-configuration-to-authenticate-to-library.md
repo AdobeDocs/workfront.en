@@ -9,6 +9,10 @@ description: In order to access Workfront Library, your users must login using t
 
 # Required configuration to authenticate to Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 In order to access Workfront Library, your users must login using the enhanced Workfront authentication experience. For more information on the enhanced authentication experience, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
 
 If your organization has not yet migrated to the enhanced experience, you can still set up authentication to Workfront Library if your system meets the following configuration requirements.

@@ -3,11 +3,11 @@ filename: view-actual-hours-planned-hours-task-view
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: Actual Hours over Planned Hours in task View
+title: View: Actual Hours over Planned Hours in the same column of a task View
 description: In this task view, the actual amount of hours recorded on a task are displayed over the hours planned for each task.
 ---
 
-# View: Actual Hours over Planned Hours in task View
+# View: Actual Hours over Planned Hours in the same column of a task View
 
 In this task view,&nbsp;the actual amount of hours recorded on a task are displayed over the hours planned for each task.
 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

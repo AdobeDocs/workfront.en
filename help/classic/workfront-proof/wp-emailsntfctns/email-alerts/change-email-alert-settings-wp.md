@@ -11,6 +11,10 @@ description: You can also change the Workfront Proof email alerts you receive fo
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can also change the Workfront Proof email alerts you receive for a proof on which you are a reviewer.
@@ -20,7 +24,7 @@ You can also change the Workfront Proof email alerts you receive for a proof on 
 1. From any list view, click the&nbsp;**More**&nbsp;menu to the right of the proof. ![](assets/more-button-small.png)  
 
 1. Click&nbsp;**View proof details**.
-1. On the **Proof details**page, open the email alert dropdown menu for a reviewer, and then select the new setting.
+1. On the **Proof details** page, open the email alert dropdown menu for a reviewer, and then select the new setting.
 1. (Optional) Repeat step 3 for any other reviewers.
 
 ## Change email alert settings for a proof you are reviewing

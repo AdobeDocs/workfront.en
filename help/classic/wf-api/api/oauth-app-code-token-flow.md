@@ -8,6 +8,10 @@ description: In order to integrate with Workfront and allow your client app to c
 
 # Configure and use your organization's custom OAuth 2 applications using authorization code flow
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:
 
 * Create an OAuth2 application
@@ -18,7 +22,7 @@ In order to integrate with Workfront and allow your client app to communicate wi
 
 ## Create an OAuth2 Application
 
-For instructions on creating the OAuth2 application, see [Create an OAuth2 application using user credentials (Authorization code flow)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+For instructions on creating the OAuth2 application, see Create an OAuth2 application using user credentials (Authorization code flow) in Create OAuth2 applications for Workfront integrations
 
 ## Link to the Authorize page for your users
 

@@ -3,11 +3,19 @@ filename: anaplan-integration-using-fusion
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Integrate with Anaplan using Adobe Workfront Fusion
-description: Adobe Workfront Fusion allows you to integrate Workfront with your Anaplan account. For example, you can create campaigns in Anaplan, then create a Workfront project or program linked to the campaign. Any costs tracked in Workfront can then be uploaded back to Anaplan to review campaign performance.
+description: Do not undraft
 hidefromtoc: true
 ---
 
 # Integrate with Anaplan using Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Do not undraft</p>
+-->
 
 Adobe Workfront Fusion allows you to integrate Workfront with your Anaplan account. For example, you can create campaigns in Anaplan, then create a Workfront project or program linked to the campaign. Any costs tracked in Workfront can then be uploaded back to Anaplan to review campaign performance.
 
@@ -56,6 +64,8 @@ You must have the following access to use the functionality in this article:
 ## Prerequisites
 
 You must have an Anaplan account in addition to your Workfront Fusion account.
+
+The user must be have Anaplan administrator permissions
 
 ## Example: Configure Anaplan for integration with Workfront Fusion
 

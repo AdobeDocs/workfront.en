@@ -9,6 +9,10 @@ description: You receive the following error message: "The Projected Duration of
 
 # Projected Duration does not match Planned Duration
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Problem
 
 You receive the following error message: "The Projected Duration of a Task/ Issue has gone to 0 and does not match the Planned Duration."

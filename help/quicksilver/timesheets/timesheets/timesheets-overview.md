@@ -4,16 +4,14 @@ content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheets overview
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can use timesheets to track the time that you spend on work. For information about the timesheet layout in Adobe Workfront, see Understand the Timesheet layout.
 ---
 
 # Timesheets overview
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+You can use timesheets to track the time that you spend on work. For information about the timesheet layout in Adobe Workfront, see [Understand the Timesheet layout](../../timesheets/timesheets/timesheet-layout.md).
 
-You can use timesheets to track the time that you spend on work.
-
-You can log&nbsp;time in Adobe Workfront in a variety of ways, usually at the level of the project, task, or issue where the work is performed. The time logged against tasks, issues, and projects also displays in your timesheet.
+You can log&nbsp;time in Workfront in a variety of ways, usually at the level of the project, task, or issue where the work is performed. The time logged against tasks, issues, and projects also displays in your timesheet.
 
 You can also log time for non-project work, under General Hours. General hour time can be recorded only in your timesheet.
 
@@ -41,68 +39,17 @@ Timesheets provide users with a simple way to track time for both project and no
 
 The Timesheets area provides access to three different timesheet management&nbsp;areas. Each timesheet&nbsp;displays all tasks,&nbsp;issues, and projects that you have logged time for. A timesheet also displays&nbsp;up to 45 tasks, issues, or projects that are assigned to you with dates within the timesheet's time frame, but for which you might not have logged time yet.
 
-You can track time in Workfront by accessing timesheets from the following locations:
+You can track time in&nbsp;Workfront by accessing timesheets in the Timesheets area. You can update the view, filter, and grouping in the Timesheets area. The following are examples of built-in filters that you can select, depending on what type of timesheets you want to view.&nbsp;You can also build custom filters:
 
-* The My Timesheets section in the Timesheets area
+* All filter.&nbsp;This is selected by default.
 
-  &nbsp;
+  ![](assets/all-timesheets-list-nwe-350x68.png)
 
-  ![](assets/my-timesheets-list-various-statuses-old-nwe-350x194.png)
+* The My Timesheets filter which displays timesheets that belong to you.
 
-  <!--
-  <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-  <p>Depending on where you access timesheets from:</p>
-  <ul>
-  <li> <p>In the Production environment, in the My Timesheets section: </p> <p> <img src="assets/my-timesheets-list-various-statuses-old-nwe-350x194.png" style="width: 350;height: 194;"> </p> </li>
-  </ul>
-  </div>
-  -->
+  ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
-     <!--   
-     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>In the Preview environment, when selecting the My&nbsp;Timesheets filter: </p> <p> <img src="assets/my-timesheets-list-various-statuses-nwe-350x60.png" style="width: 350;height: 60;"> </p> </li>   
-     -->
+* The My Timesheet Approvals filter which displays timesheets where you are set as the approver.
 
-* The Timesheets I Approve section in the Timesheets area
-
-  ![](assets/timesheets-i-approve-section-old-nwe-350x80.png)
-
-  <!--
-  <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-  <p>Depending on where you access timesheets from:</p>
-  <ul>
-  <li> <p>In the Production environment, in the Timesheets I Approve section: </p> <p> <img src="assets/timesheets-i-approve-section-old-nwe-350x80.png" style="width: 350;height: 80;"> </p> </li>
-  </ul>
-  </div>
-  -->
-
-     <!--   
-     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>In the Preview environment, when selecting the My&nbsp;Timesheet Approvals filter: </p> <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p> </li>   
-     -->
-
-* The All&nbsp;Timesheets section in the Timesheets area
-
-  ![](assets/all-timesheets-list-old-nwe-350x134.png)
-
-  <!--
-  <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
-  <p>Depending on where you access timesheets from:</p>
-  <ul>
-  <li> <p>In the Production environment, in the Timesheets I Approve section: </p> <p> <img src="assets/all-timesheets-list-old-nwe-350x134.png" style="width: 350;height: 134;"> </p> </li>
-  </ul>
-  </div>
-  -->
-
-     <!--   
-     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"> <p>In the Preview environment, when selecting the My&nbsp;Timesheet Approvals filter: </p> <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p> </li>   
-     -->
-
->[!TIP]
->
->By default, timesheets in the **All Timesheets** tab are not displayed. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to display all timesheets associated with the teams that you are part of. Do one of the following to display timesheets:
->
->* Click **Filter**&nbsp;to display all timesheets assigned to people in your teams.
->* Modify any filter options, then click **Filter.**
->* Click **Reset Filter,**&nbsp;then manually specify any filter options, then click&nbsp;**Filter**.
->
->  ![](assets/all-timesheets-page-with-preselected-teams-default-old-nwe-350x255.png)>
+  ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 

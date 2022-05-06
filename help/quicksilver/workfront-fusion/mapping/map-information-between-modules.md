@@ -3,11 +3,11 @@ filename: map-information-between-modules
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Map information from one module to another
+title: Map information from one module to another in Adobe Workfront Fusion
 description: Mapping is the process of assigning a module's outputs, structured into items, to another module's input fields.
 ---
 
-# Map information from one module to another
+# Map information from one module to another in Adobe Workfront Fusion
 
 Mapping is the process of assigning a module's outputs, structured into items, to another module's input fields.
 
@@ -110,7 +110,7 @@ To assign the items to a module's input fields:
 
    Search results contain the search term and are not case sensitive.
 
-For more information, see [Configure a module's settings](../../workfront-fusion/modules/configure-a-modules-settings.md).
+For more information, see [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
 ## Formulas
 
@@ -126,24 +126,24 @@ The first tab ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) 
 
 The other tabs contain the following types of functions:
 
-* **General functions** ![](assets/toolbar-icon-general-function.png) - See [General functions](../../workfront-fusion/functions/general-functions.md) for more information.
+* **General functions** ![](assets/toolbar-icon-general-function.png) - See [General functions in Adobe Workfront Fusion](../../workfront-fusion/functions/general-functions.md) for more information.
 
-* **Math functions** ![](assets/toolbar-icon-math-functions.png) - See [Math functions](../../workfront-fusion/functions/math-functions.md) for more information.
+* **Math functions** ![](assets/toolbar-icon-math-functions.png) - See [Math functions in Adobe Workfront Fusion](../../workfront-fusion/functions/math-functions.md) for more information.
 
-* **Text and binary functions** ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions](../../workfront-fusion/functions/string-functions.md) for more information.
+* **Text and binary functions** ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions in Adobe Workfront Fusion](../../workfront-fusion/functions/string-functions.md) for more information.
 
-* **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
+* **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions in Adobe Workfront Fusion](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
 
-   * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-   * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+   * [Tokens for date and time formatting in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+   * [Tokens for date and time parsing in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
-* **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions](../../workfront-fusion/functions/array-functions.md) for more information.
+* **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions in Adobe Workfront Fusion](../../workfront-fusion/functions/array-functions.md) for more information.
 
 >[!TIP]
 >
 >When you create a complex formula that you want to reuse it in another field, you can click the field that contains the combination, use Command-A or Ctrl-A to select it, then copy and paste it into the other field.
 
-For more information on mapping items using functions, see [Map items using functions](../../workfront-fusion/functions/map-using-functions.md).
+For more information on mapping items using functions, see [Map items using functions in Adobe Workfront Fusion](../../workfront-fusion/functions/map-using-functions.md).
 
 <!--
 <div class="examples" data-mc-autonum="<b>Examples: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -167,7 +167,7 @@ You can identify a collection type item by the small black rectangle displayed t
 >
 >In most cases, you map the collection's sub-items rather than the item representing the whole collection.
 
-For more information about collections, see [Item data types](../../workfront-fusion/mapping/item-data-types.md)
+For more information about collections, see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md)
 
 ## Arrays
 
@@ -177,7 +177,7 @@ You can identify an array type item by the square brackets at the end of the ite
 
 ![](assets/array.png)
 
-For more information about arrays, see [Item data types](../../workfront-fusion/mapping/item-data-types.md)
+For more information about arrays, see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md)
 
 ### Map an array's first element
 
@@ -286,17 +286,17 @@ For more information about the
 map()
 ```
 
-function, see [Array functions](../../workfront-fusion/functions/array-functions.md). For more information about the 
+function, see [Array functions in Adobe Workfront Fusion](../../workfront-fusion/functions/array-functions.md). For more information about the 
 
 ```
 get()
 ```
 
-function, see [General functions](../../workfront-fusion/functions/general-functions.md).
+function, see [General functions in Adobe Workfront Fusion](../../workfront-fusion/functions/general-functions.md).
 
 ## Converting elements to a series of bundles
 
-Arrays can be converted to a series of bundles using the Iterator module. For more information, see [Iterator module](../../workfront-fusion/modules/iterator-module.md).
+Arrays can be converted to a series of bundles using the Iterator module. For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md).
 
 ![](assets/series-of-bundles-350x169.png)
 

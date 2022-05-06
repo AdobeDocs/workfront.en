@@ -9,13 +9,17 @@ description: You can view all the work requests you've submitted. For informatio
 
 # View Workfront Library work requests
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can view all the work requests you've submitted. For information on submitting a work request from Workfront Library, see [Create a request in Workfront Library](../../../workfront-library/content-management/basics/create-a-request-in-wf-library.md).
 
 Users with Manager or higher access to Workfront Library can view requests other users have submitted.
 
 1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
-1. In the left panel, click **Requests**>**Requests I've Submitted**.
+1. In the left panel, click **Requests** >**Requests I've Submitted**.
 
    The Requests area in Workfront opens in a separate browser window.
 

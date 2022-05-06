@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the issue</p> <p>Contribute or higher permissions on the project or task</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions on the issue</p> <p>Contribute or higher permissions on the project or task</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,6 +48,12 @@ You must have the following access to perform the steps in this article:
 * Your Workfront administrator or a group administrator must enable deleting issues in a project that has a status of Complete in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).   
 
 * If the issue has logged hours, the Workfront administrator or a group administrator must allow the deletion of these issues by configuring the Task & Issue Preferences in your Workfront instance. ```This also applies when you try to delete projects that have issues with hours logged on them.```
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
+  </MadCap:conditionalText>
+  -->
 
   For more information about enabling the deletion of issues where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -70,6 +76,12 @@ Depending on how your Workfront or group administrator configures the Project, T
 * Be deleted and will be restored on the issue, if the issue is later restored.
 
   This also applies when you try to delete projects that have tasks with hours logged on them.
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
+  </MadCap:conditionalText>
+  -->
 
   For more information about configuring the deletion preferences for hours logged on issues, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -98,14 +110,14 @@ Depending on how your Workfront or group administrator configures the Project, T
 1. Click the **Main** menu. 
 1. Click **Projects**.  
 1. Click the project name that contains the issue you want to delete.
-1. Click the **Issues** icon.
+1. Click **Issues** in the left panel.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Click the name of the issue you want to delete.
 1. Click the **More** menu.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x225.png)
+   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Click **Delete**. 
 1. If the deletion is allowed, click **Yes, Delete it**.  

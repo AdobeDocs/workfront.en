@@ -3,11 +3,11 @@ filename: add-a-filter-to-a-scenario
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Add a filter to a scenario
+title: Add a filter to a scenario in Adobe Workfront Fusion
 description: In some scenarios, you need to work only with bundles that meet specific criteria. Filters can help you select those bundles easily.
 ---
 
-# Add a filter to a scenario
+# Add a filter to a scenario in Adobe Workfront Fusion
 
 In some scenarios, you need to work only with bundles that meet specific criteria. Filters can help you select those bundles easily.
 
@@ -74,7 +74,7 @@ You must add both modules to a scenario before you can add a filter between them
 
    >[!TIP]
    >
-   >In the operand fields, you can enter values in the same way as you would map them, as described in [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+   >In the operand fields, you can enter values in the same way as you would map them, as described in [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
    For example, if you wanted the filter to find files in Adobe Workfrontending with XML and pass them on to Dropbox, you would type **File name** in the first box and .**xml** in the second box. In the drop-down menu between them, you would select **Ends with (case insensitive)**. This filter would apply to incoming bundles from the first module (Workfront). Only bundles containing XML files would pass on to the next module (Dropbox).
 
@@ -90,7 +90,7 @@ Currently, the scenario editor doesn't include a feature for copying a filter.
 >
 >If you copy the modules on either side of the filter, the filter is also copied. 
 >
->For more information on copying modules, see [Copy modules or scenarios](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+>For more information on copying modules, see [Copy modules or scenarios in Adobe Workfront Fusion](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 
 To copy a filter without copying modules, you can use Google Chrome for the following workaround:
 

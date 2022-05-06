@@ -4,12 +4,10 @@ title: Recalculate project finances
 product-area: projects
 navigation-topic: financials
 title: Recalculate project finances
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: Finances are calculated on a project as changes occur in the hours logged for the project or in the rates used to calculate costs and revenue.
 ---
 
 # Recalculate project finances
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 Finances are calculated on a project as changes occur in the hours logged for the project or in the rates used to calculate costs and revenue.
 
@@ -35,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,24 +130,25 @@ If your rates change during the life of a project and you want your cost and rev
 >
 >You can prevent revenue values from updating to reflect the new rates when you manually recalculate finance by following the steps in the section [Preserve financial data for tasks with existing hours](#preserve-financial-data-for-tasks-with-existing-hours) of this article. Cost values are always updated to reflect the new rates when you manually recalculate the finances on a project.
 
-<!--
-<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can recalculate the finances of projects in Workfront from&nbsp;the project page <span class="preview">or from a project list or report</span>.</p>
--->
+You can recalculate the finances of projects in Workfront from the project page ```or from a project list or report```.
 
-<!--
-<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">You can recalculate the finances while editing them in bulk. For information, see the <a href="#manually-recalculate-finances-in-bulk-in-the-edit-projects-box" class="MCXref xref">Manually recalculate finances in bulk in the Edit Projects box</a> section in this article.</p>
--->
+You can recalculate the finances while editing them in bulk. For information, see the [Manually recalculate finances in bulk in the Edit Projects box](#manually-recalculate-finances-in-bulk-in-the-edit-projects-box) section in this article.
 
-1. Go to the project where you want to recalculate finances.
+1. Go to the project where you want to recalculate finances and click the **More** icon ![](assets/qs-more-icon-on-an-object.png) to the right of the project name
 
-   <!--
-   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-   <p>Or</p>
-   <p>Go to a project list or report and select one or several projects. </p>
-   </div>
-   -->
+   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
-1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the project, then click **Recalculate Finance**.
+   Or
+
+   Go to a project list or report and select one or several projects, then click the **More** icon ![](assets/qs-more-icon-on-an-object.png) at the top of the list.
+
+   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+
+   >[!TIP]
+   >
+   >Depending on the complexity of your projects, we recommend not to select a large number of projects when recalculating their finances in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
+
+1. Click&nbsp;**Recalculate Finance**.
 
    All planned costs and revenue on the project are recalculated with any new information.  
   
@@ -168,6 +167,11 @@ To manually recalculate the finances of several projects:
 
 1. Go to a list of projects.
 1. Select several projects in the list, then click **Edit**.
+
+   >[!TIP]
+   >
+   >Depending on the complexity of your projects, we recommend not to select a large number of projects when editing them in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
+
 1. Click **Settings**, then select **Recalculate Costs And Revenues**.
 
 1. Click **Save Changes**.

@@ -11,6 +11,10 @@ description: In Workfront Proof, you can use folders to group proofs that you wa
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 In Workfront Proof, you can use folders to group proofs that you want to work on together or that you want reviewers to work on together. When you or another reviewer opens one of the proofs, launching the proofing viewer, all of the proofs in the folder are also available there. Without leaving the proofing viewer, you can view the other proofs, sort and search for them, and compare them to each other.

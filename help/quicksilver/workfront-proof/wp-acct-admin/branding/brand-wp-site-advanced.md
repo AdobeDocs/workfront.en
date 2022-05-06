@@ -32,7 +32,7 @@ The following sections describe advanced branding in more detail:
 
 ## Advanced Branding Overview
 
-You'll find the Branding configuration section&nbsp;in the [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) tab of your [Account Settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) page. To apply the changes to your account make sure that Branding option is set to Enabled (1).  
+You'll find the Branding configuration section&nbsp;in the tab of your [Account Settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) page. To apply the changes to your account make sure that Branding option is set to Enabled (1).  
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 Please see the section below for more detailed information on how to configure the Advanced branding options (2-14).

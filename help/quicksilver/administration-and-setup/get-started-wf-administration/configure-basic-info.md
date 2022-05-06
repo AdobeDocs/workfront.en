@@ -4,16 +4,20 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Configure basic information for your system
-description: As part of configuring your Adobe Workfront system, you can manage details about your organization in the Basic Info section of your Customer Info page.
+description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Configure basic information for your system
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **&nbsp;</p>
+-->
 
 As part of configuring your Adobe Workfront system, you can manage details about your organization in the Basic Info section of your Customer Info page.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -98,11 +102,11 @@ To&nbsp;configure your Basic Info section in your Customer Info area:
      </tr> 
      <tr> 
       <td role="rowheader">Time Zone</td> 
-      <td> <p>This is the default time zone of your Workfront instance. You can edit this field to match the time zone of your primary Workfront location. The time zone you select affects the following: </p> 
+      <td> <p>This is the default time zone of your Workfront instance. You can edit this field to match the time zone of your primary Workfront location. The time zone you select determines the following: </p> 
        <ul> 
-        <li>Controls the date and time displayed in outgoing emails. </li> 
-        <li>It is selected as the default time zone for new users when they are created.</li> 
-       </ul> <p>Users can modify the time zone for their Workfront&nbsp;instance under their profile. When&nbsp;users modify their time zone, the date and time in their emails from Workfront match their profile preferences. For more information about modifying user profile&nbsp;preferences, see <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configure My Settings</a>. It is selected as&nbsp;the default time zone when you create a new schedule. For more information about creating schedules, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</p> </td> 
+        <li>The date and time displayed in outgoing emails</li> 
+        <li>The default time zone for new users when they are created</li> 
+       </ul> <p>Users can modify the time zone for their Workfront&nbsp;instance under their profile. When&nbsp;users modify their time zone, the date and time in their emails from Workfront match their profile preferences. For more information about modifying user profile&nbsp;preferences, see <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configure My Settings</a>. It is selected as&nbsp;the default time zone when you create a new schedule. For more information about creating schedules, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</p> <p>For information about using schedules to help users collaborate in Workfront across time zones, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Locale</td> 

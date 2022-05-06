@@ -2,6 +2,10 @@
 
 # Proofing collaboration limitations with people outside of your organization
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 There are some limitations to be aware of when communicating with people outside of your organization when they are added to a proof, specifically if the person outside of your organization has proofing access in a separate environment.
 
 ## Contacts with the distinction of Member

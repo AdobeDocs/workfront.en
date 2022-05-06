@@ -3,11 +3,15 @@ filename: scenario-settings-panel
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Scenario settings panel
+title: The scenario settings panel in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Scenario settings panel
+# The scenario settings panel in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 ## Access requirements
 
@@ -51,7 +55,7 @@ You must have the following access to use the functionality in this article:
 
 ## Open the scenario settings
 
-1. Open the scenario editor, as explained in [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md).
+1. Open the scenario editor, as explained in [The scenario editor in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-editor.md).
 1. Click the gear icon near the lower-left corner of the page.
 
    ![](assets/scenario-settings-350x221.png)
@@ -60,19 +64,19 @@ You must have the following access to use the functionality in this article:
 
 ## Allow storing incomplete executions
 
-This option determines how Adobe Workfront Fusion proceeds if an error occurs during the execution of a scenario. With this option enabled, the scenario is paused and moved to [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). This gives you the possibility to fix the issue and continue executing from where the scenario was stopped. If this option is disabled, the scenario run stops and a rollback phase is started.
+This option determines how Adobe Workfront Fusion proceeds if an error occurs during the execution of a scenario. With this option enabled, the scenario is paused and moved to [View and resolve incomplete executions in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). This gives you the possibility to fix the issue and continue executing from where the scenario was stopped. If this option is disabled, the scenario run stops and a rollback phase is started.
 
 ## Sequential processing
 
-This option determines how Workfront Fusion proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the Sequential processing option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the Sequential processing option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.
+This option determines how Workfront Fusion proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the Sequential processing option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the Sequential processing option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.
 
-For more information on scheduling, see [Schedule a scenario](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+For more information on scheduling, see [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
 ## Data is confidential
 
 Once a scenario has been executed, you can by default display information about which data was processed by modules in the scenario. If you do not want this information to be stored, enable the Data is confidential option.
 
-For more information about displaying information, see [Scenario execution flow](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+For more information about displaying information, see [Scenario execution flow in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
 >[!IMPORTANT]
 >
@@ -80,19 +84,19 @@ For more information about displaying information, see [Scenario execution flow]
 
 ## Enable data loss
 
-This option has to do with enabling data loss if Workfront Fusion fails to save a bundle to the queue of [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) (for example, due to a lack of free space). With this option enabled, the data is lost in order to prevent interruptions in the overall scenario execution. This is useful for scenarios where the highest priority is continuous execution and the incoming erroneous data is not that important.
+This option has to do with enabling data loss if Workfront Fusion fails to save a bundle to the queue of [View and resolve incomplete executions in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) (for example, due to a lack of free space). With this option enabled, the data is lost in order to prevent interruptions in the overall scenario execution. This is useful for scenarios where the highest priority is continuous execution and the incoming erroneous data is not that important.
 
 Beyond that, when executing a scenario, a module can sometimes encounter a file that is larger than the maximum allowed size. In this case, Workfront Fusion proceeds in accordance with the setting of the Enable data loss option and a warning message is shown.
 
-For more information about maximum file size, see [About mapping files](../../workfront-fusion/mapping/about-mapping-files.md).
+For more information about maximum file size, see [About mapping files in Adobe Workfront Fusion](../../workfront-fusion/mapping/about-mapping-files.md).
 
-For more information on warnings, see [Error processing](../../workfront-fusion/errors/error-processing.md).
+For more information on warnings, see [Error processing in Adobe Workfront Fusion](../../workfront-fusion/errors/error-processing.md).
 
 ## Auto commit
 
 The Auto commit settings applies to transactions and defines the way to process a scenario. If the Auto commit option is on, the commit phase on each module starts immediately after completing the operation phase. With the Auto commit option disabled, no commit occurs until operations are executed for all modules (this is the default mode).
 
-For more information on transactions, see [Scenario execution, cycles, and phases](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+For more information on transactions, see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Maximum number of cycles
 
@@ -150,13 +154,13 @@ You can see the already-run cycles in the Scenario details:
 
 ![](assets/scenario-detail-350x207.png)
 
-For more information about this page, see [Scenario detail](../../workfront-fusion/scenarios/scenario-detail.md).
+For more information about this page, see [Scenario details in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-detail.md).
 
 ## Number of consecutive errors
 
 Defines the maximum number of consecutive execution attempts before the execution of a scenario is deactivated (excluding DataError, DuplicateDataError and ConnectionError).
 
-For more information on errors, see [Error processing](../../workfront-fusion/errors/error-processing.md).
+For more information on errors, see [Error processing in Adobe Workfront Fusion](../../workfront-fusion/errors/error-processing.md).
 
 >[!NOTE]
 >

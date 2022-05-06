@@ -52,7 +52,7 @@ For information about reviewing goals in the Goal List, see [Manage goals in the
 
 You can now share a goal you create or which was shared with you and control who has access to manage the goal. Prior to this enhancement, all users had access to view and manage all goals in the system. Now, they can view all goals in the system by default, but they can only manage goals they have been given permissions to or goals they created.
 
-For information about sharing goals, see [Share a goal in Adobe Workfront Goals](../../../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+For information about sharing goals, see [Share a goal in Workfront Goals](../../../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
 ```<iframe class="vimeo-player_0" src="assets/539894647?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 

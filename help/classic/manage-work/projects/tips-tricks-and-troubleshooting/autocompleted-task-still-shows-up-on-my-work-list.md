@@ -9,6 +9,10 @@ description: I have a task set to autocomplete, but when the due date arrives an
 
 # Autocomplete tasks still show up on My Work screen
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 ## Problem
 
 I have a task set to autocomplete, but when the due date arrives and the task autocompletes, the task is not removed from the Working On list in My Work.

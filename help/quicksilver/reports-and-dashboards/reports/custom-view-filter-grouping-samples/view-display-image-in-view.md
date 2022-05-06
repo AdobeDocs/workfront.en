@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,6 +63,10 @@ You must have the following access to perform the steps in this article:
 
 1. Using your web browser, go to the image that you saved.
 1. Obtain the image's URL by doing the following:
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I used this blog post to document what kind of image we need for this: https://www.canto.com/blog/image-url/ (consulting uses this)) </p>
+   -->
 
    1. Right-click and select **Copy image location**, or **Get link**, depending on your browser. You now have the URL for that specific image and can paste it from your clipboard.
    1. Ensure that everyone with that link has permissions to view the image by just going to the link and they don't need a login to access it.

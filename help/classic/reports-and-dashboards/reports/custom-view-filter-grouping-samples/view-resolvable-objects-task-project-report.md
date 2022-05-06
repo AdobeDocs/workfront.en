@@ -9,6 +9,10 @@ description: You can display a list of all Resolvable Objects in a project or ta
 
 # View: Resolvable Objects in a task or project report
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can display a list of all Resolvable Objects in a project or task view or report.
 
 For more information about Resolvable Objects, see the article [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
@@ -39,7 +43,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,10 +60,7 @@ You must have the following access to perform the steps in this article:
 1. Click the header of the new column, then click **Switch to Text Mode**.
 1. Mouse over the text mode area, and click&nbsp;**Click to edit text**.
 1. Remove the text you find in the&nbsp;**Text Mode**&nbsp;box, and replace it with the following code:
-
-   ```
-   displayname=Resolvables<br>listdelimiter=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML
-   ```
+   <pre>displayname=Resolvables<br>listdelimiter=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML<br></pre>
 
 1. Click **Save View**.  
    A list of all Resolvable Objects displays in the new column. The names of the objects in the list cannot be linked directly to the objects.

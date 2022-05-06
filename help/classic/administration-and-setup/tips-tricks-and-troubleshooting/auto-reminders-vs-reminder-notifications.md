@@ -10,6 +10,10 @@ description: This article describes the differences between automatic reminders 
 
 # Automatic reminders vs. reminder notifications
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This article describes the differences between automatic reminders and reminder notifications and provides scenarios for each. For more information on all Adobe Workfront notifications, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Automatic reminders

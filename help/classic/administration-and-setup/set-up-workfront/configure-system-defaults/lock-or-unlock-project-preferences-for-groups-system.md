@@ -9,13 +9,17 @@ description: Groups in your organization might need a project preference configu
 
 # Lock or unlock project preferences for all groups in the system
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Groups in your organization might need a project preference configured differently for their unique workf lows. You can unlock the preference for all groups throughout the organization so that they can configure it on their own.
 
 When a preference is unlocked and the group administrator modifies it, the projects associated with the group acquire the configuration for that preference from the group-level setting instead of from the system-level setting.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

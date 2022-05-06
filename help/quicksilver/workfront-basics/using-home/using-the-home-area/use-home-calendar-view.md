@@ -3,20 +3,20 @@ filename: use-home-calendar-view
 product-area: calendars
 navigation-topic: use-the-home-area
 title: Use the Home Calendar view
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can use the Calendar view in the Home area to manage your work day and work assignments. Only you can view and manage your Home Calendar.
 ---
 
 # Use the Home Calendar view
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can use the Calendar view in the Home area to manage your work day and work assignments. Only you can view and manage your Home Calendar.
 
 >[!NOTE]
 >
->* This is different from a Adobe Workfront Calendar report, which is a&nbsp;dynamic report that provides a visual representation of your work. For information about the Workfront Calendar report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
->* Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future.&nbsp;
+>The Calendar view in the Home area is different from a Adobe Workfront Calendar report, which is a&nbsp;dynamic report that provides a visual representation of your work. For information about the Workfront Calendar report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 >
+>  <!-->
+>  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future.&nbsp;(NOTE: From&nbsp;Alina: Spoke with Lisa and Court and they agreed to draft or delete this. Court could not remember what this was referring to and Lisa did not add this note. Lisa might update this if she hears from the team that this is still accurate.)</li>>
+>  -->
 
 ## Access requirements
 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you want to add to the calendar</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +128,7 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
    * (Optional) To reply to an existing comment or update, click **Reply**, specify any recipients in the **Notify** box, type your reply, then click **Reply**.  
      If you need information about specifying recipients, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. (Optional) To close the **Details** panel, click anywhere outside it.ok
+1. (Optional) To close the **Details** panel, click anywhere outside it.
 
 ## Update events from integrated calendars
 
@@ -137,7 +137,7 @@ To update the integrated calendar events in your Home Calendar:
 1. Go to the Home Calendar view, as explained in [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 1. Click **Refresh calendars** in the upper right corner of the Home Calendar.
 
-   ![](assets/refresh-qs-350x403.png)
+   ![](assets/refresh-qs-350x360.png)
 
    Integrated calendar events update automatically when you open your Home Calendar view or when you refresh your Home Calendar.
 
@@ -156,15 +156,8 @@ To update the integrated calendar events in your Home Calendar:
    >
    >Some filter options are based on objects (Tasks, Requests, Issues, Approvals, Proofs, and Personal), and others are based on state (Working On, Ready to Start, Not Ready, and Completed). If no state is selected, the Home Calendar displays all selected objects of any state. Similarly, if no object is selected, it displays all objects of any selected state.
 
-1. Select from the various filter options to specify the types of items you want to display. 
-
-   <!--
-   Filter options are different depending on which environment you use to access the Home Calendar.
-   -->
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the Production environment, select from the following filter options: </p>
-   -->
+1. 
+   Select from the following filter options to specify the types of items you want to display:: 
 
    <table cellspacing="0"> 
     <col> 
@@ -172,130 +165,76 @@ To update the integrated calendar events in your Home Calendar:
     <tbody> 
      <tr> 
       <td role="rowheader">All</td> 
-      <td>All item types (Tasks, Requests, Issues, Approvals, and Personal tasks).</td> 
+      <td><span>Displays and selects all items. This includes tasks,</span> <span data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span>, approvals, personal tasks and completed tasks and issues.</span></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tasks</td> 
-      <td>Tasks you are assigned to.</td> 
+      <td role="rowheader">Tasks Working On</td> 
+      <td> <p><span>Displays only tasks that you are actively working on.&nbsp;These are tasks assigned to you for which you have clicked the Work On&nbsp;It button.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Issues</td> 
-      <td>Issues you are currently working on.&nbsp;The <strong>Issue</strong> icon appears next to each issue in the Work List. <img src="assets/home-issue-icon.png"></td> 
+      <td role="rowheader">Tasks&nbsp;Ready to Start</td> 
+      <td> 
+       <div> 
+        <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
+        <ul style="list-style-type: square;"> 
+         <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
+        </ul> 
+        <ul> 
+         <li> <p>The Planned Start Date of the tasks is in the past or up to two weeks in the future.</p> </li> 
+        </ul> 
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Tasks Not Ready</td> 
+      <td> 
+       <div> 
+        <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p> 
+        <ul> 
+         <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
+         <li> <p>The tasks have a Planned Start Date that is more than two weeks in the future.</p> </li> 
+        </ul> 
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Issues Working On</td> 
+      <td> <p>Displays only issues that you are actively working on.&nbsp;These are issues assigned to you for which you have clicked the Work On&nbsp;It button.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Issues&nbsp;Requested</td> 
+      <td><span>Displays only issues that you are assigned to but for which you have not clicked the Work On It button.</span> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Personal&nbsp;</td> 
+      <td><span>Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section</span> <span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">Create a personal task</span><span> in the article</span> <span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Create work items from the Home area</span><span class="preview">.</span></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Approvals</td> 
-      <td> <p>Work items that require your approval.</p> <p>For more detailed information about managing approvals in Workfront, see <a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a><br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Personal</td> 
-      <td>Tasks that you create as a To Do task, as described in <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task" class="MCXref xref">Create a personal task</a> in <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Create work items from the Home area</a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Working On</td> 
-      <td>Tasks and issues you are currently working on.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Ready to Start</td> 
-      <td>Items marked as ready to start. These have no predecessors or task constraints preventing them from being worked on. The Start Date is in the past or is the current date.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Not Ready</td> 
-      <td>Requests that are not yet ready to start. These might have predecessors or task constraints that prevent them from being worked on, or the Start Date might be in the future.</td> 
+      <td> 
+       <div> 
+        <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p> 
+        <ul> 
+         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals </a> </li> 
+        </ul> 
+        <ul> 
+         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li> 
+        </ul> 
+        <p>Note: Approvals that you submitted and where you are also one of the approvers are counted twice. </p> 
+       </div> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Completed</td> 
-      <td>Work you have completed.</td> 
+      <td><span>Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.</span> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   ![](assets/calendar-filters-classic-and-nwe-350x350.png)
-
-   <!--
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">In the Preview environment, select from the following filter options: </p>
-   -->
-
-   <!--
-   <table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-   <col>
-   <col>
-   <tbody>
-   <tr>
-   <td role="rowheader">All</td>
-   <td><span class="preview">Displays and selects all items. This includes tasks, </span><span class="preview" data-mc-edit-date="2022-02-16T13:45:46.9712518-05:00" data-mc-editor="alinaw" data-mc-comment="this might need indenting when it goes to Preview" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2022-02-16T13:45:23.7889689-05:00">issues</span><span class="preview">, approvals, personal tasks and completed tasks and issues.</span> </td>
-   </tr>
-   <tr>
-   <td role="rowheader">Tasks Working On</td>
-   <td> <p><span class="preview">Displays only tasks that you are actively working on.&nbsp;These are tasks assigned to you for which you have clicked the Work On&nbsp;It button. </span> </p> </td>
-   </tr>
-   <tr>
-   <td role="rowheader">Tasks&nbsp;Ready to Start</td>
-   <td>
-   <div class="preview">
-   <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p>
-   <ul style="list-style-type: square;">
-   <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li>
-   </ul>
-   <ul>
-   <li> <p>The Planned Start Date of the tasks is in the past or up to two weeks in the future.</p> </li>
-   </ul>
-   </div> </td>
-   </tr>
-   <tr>
-   <td role="rowheader">Tasks Not Ready</td>
-   <td>
-   <div class="preview">
-   <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p>
-   <ul>
-   <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li>
-   <li> <p>The tasks have a Planned Start Date that is more than two weeks in the future.</p> </li>
-   </ul>
-   </div> </td>
-   </tr>
-   <tr>
-   <td role="rowheader">Issues Working On</td>
-   <td> <p class="preview">Displays only issues that you are actively working on.&nbsp;These are issues assigned to you for which you have clicked the Work On&nbsp;It button.</p> </td>
-   </tr>
-   <tr>
-   <td role="rowheader">Issues&nbsp;Requested</td>
-   <td><span class="preview">Displays only issues that you are assigned to but for which you have not clicked the Work On It button.</span> </td>
-   </tr>
-   <tr>
-   <td role="rowheader">Personal&nbsp;</td>
-   <td><span class="preview">Displays only personal tasks. These are tasks that you create as a To Do task, as described in the section </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task" class="preview">Create a personal task</span><span class="preview"> in the article </span><span href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="preview">Create work items from the Home area</span><span class="preview">.</span> </td>
-   </tr>
-   <tr>
-   <td role="rowheader">Approvals</td>
-   <td>
-   <div class="preview">
-   <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p>
-   <ul>
-   <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a> </li>
-   </ul>
-   <ul>
-   <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li>
-   </ul> <note type="note">
-   Approvals that you submitted and where you are also one of the approvers are counted twice.
-   </note>
-   </div> </td>
-   </tr>
-   <tr>
-   <td role="rowheader">Completed</td>
-   <td><span class="preview">Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks, and is grouped in the Work List according to week. Approvals are not included.</span> </td>
-   </tr>
-   </tbody>
-   </table>
-   -->
-
-   <!--
-   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/calendar-filters-nwe-350x392.png" style="width: 350;height: 392;"> </p>
-   -->
+   ![](assets/calendar-filters-nwe-350x392.png)
 
 1. To group and sort your list of work, click the Group by drop-down menu, then select the criteria you want to use.
 
    The items are listed on the left side of the calendar according to the criteria and in the order that you specify.
 
-   ![](assets/home-calendar-sort-group-nwe-350x286.png)
+   ![](assets/home-calendar-sort-group-nwe-350x288.png)
 
    Choose from the following options:
 
@@ -304,7 +243,7 @@ To update the integrated calendar events in your Home Calendar:
    | Planned Start |Tasks and issues sort in order of the Planned Start dates. For more information about task Planned Start&nbsp;Dates, see [Overview of the task Planned Start Date](../../../manage-work/tasks/task-information/task-planned-start-date.md).  |
    | Commit Date |Tasks and issues sort in order of the Commit dates. To learn more about Commit dates, see [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md). |
    | Project |Work items sort by project. |
-   | My Priority |Items display&nbsp;in an order you choose. For more information, see [Prioritize work in the Home Area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md). |
+   | My Priority |Items display&nbsp;in an order you choose. For more information, see [Prioritize work in the Home area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md). |
 
 ## Navigate to a different week
 

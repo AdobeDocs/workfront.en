@@ -8,6 +8,10 @@ description: You can add any task or issue to a Kanban board if you have Manage 
 
 # Add existing tasks or issues to the Kanban board
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add any task or issue to a Kanban board if you have Manage access to the project. Keep the following in mind when moving a task or issue to a Kanban board:
 
 * If the task or issue is assigned to an agile team and moved to another team's Kanban board, the team assignment does not change.

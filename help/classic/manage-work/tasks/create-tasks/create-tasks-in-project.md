@@ -8,6 +8,10 @@ description: You can create tasks in a project only after you created the projec
 
 # Create tasks in a project
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can create tasks in a project only after you created the project.
 
 For example, after creating a project, you might want to add tasks and modify them to organize the project plan. For more information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
@@ -41,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task in&nbsp;Adobe Workfront</a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,6 +72,10 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional)&nbsp;If you clicked **New Task** in step 5, do the following:
 
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">(NOTE: ensure this stays accurate)</p>
+   -->
+
    1. Specify the fields in the New Task dialog box.
 
       For more information about editing a task including how to assign it, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -79,7 +87,13 @@ You must have the following access to perform the steps in this article:
    1. (Optional) Click **Attach Document** in the left panel to attach a document to the new task. 
    1. (Conditional)&nbsp;If you selected to attach a document, click the **Add Documents** drop-down menu and select a service where the document resides, or paste an image you previously copied to your clipboard.
 
-1. (Conditional) If you clicked **Add More Tasks** in step 5, start entering the task information using in-line editing.
+1. (Conditional) If you clicked **Add More Tasks** in step 5, start entering the task information using in-line editing. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: ensure this stays accurate)
+   </MadCap:conditionalText>
+   -->
 
    This option provides the greatest convenience, especially when adding multiple tasks to the list.
 
@@ -87,9 +101,23 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional) Do one of the following:
 
-   * If you clicked **New Task** in step 5, click **Save Task** to save your changes.
+   * If you clicked **New Task** in step 5, click **Save Task** to save your changes.   
+   
+     <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     (NOTE: is this step still right?)   
+     </MadCap:conditionalText>   
+     -->
 
    * If you clicked **Add More Tasks** in step 5, do the following:
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     (NOTE: is this step still right?)   
+     </MadCap:conditionalText>   
+     --> </p>   
+     -->
 
       1. Click anywhere in the browser to submit your changes, or press Enter.
       1. (Optional) In a task list, select the newly created task, then click **Indent**.

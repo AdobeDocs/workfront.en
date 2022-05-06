@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/wf-tools-350x286.png)
 
-1. Select the ```Event Subscriptions``` tab. Under the ```Create a new event subscription``` menu, select ```update```from the Event dropdown and under the Object dropdown select ```task```if you want to create content fragments from a task custom form or select ```issue```if you want to create content fragments from an issue custom form.
+1. Select the **Event Subscriptions** tab. Under the **Create a new event subscription** menu, select **update** from the Event dropdown and under the Object dropdown select **task** if you want to create content fragments from a task custom form or select **issue** if you want to create content fragments from an issue custom form.
 
    ![](assets/event-sub--objects-350x254.png)
 

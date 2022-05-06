@@ -9,6 +9,10 @@ description: Adobe Workfront is directly contacting all organizations affected b
 
 # FAQ: proofing within Adobe Workfront - US to EMEA migration
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## How do I know if this change affects my organization?&nbsp;
 
 Adobe Workfront is directly contacting all organizations affected by the Workfront Proof US to EMEA migration.
@@ -30,17 +34,9 @@ After the migration is complete, you and your users will be able to access files
 
 In order to make the migration possible, the URL you use to access the system must change from proofhq.com to proofhq.eu. Anyone who uses the old proofhq.com URL after the migration will receive a message providing the new login link:
 
-<!--
-<img src="assets/your-account-has-migrated-login-350x308.png" alt="your_account_has_migrated-login.png" style="width: 350;height: 308;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ## Can I still use my old proof links and bookmarks?
 
 Proof-specific bookmarks will no longer work after the migration. Anyone who uses one will receive a message providing access to the proof via a Go to Proof button:
-
-<!--
-<img src="assets/this-proof-has-been-migrated-350x361.png" alt="This_proof_has_been_migrated.png" style="width: 350;height: 361;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
 
 ## Will my username and password remain the same as before?
 

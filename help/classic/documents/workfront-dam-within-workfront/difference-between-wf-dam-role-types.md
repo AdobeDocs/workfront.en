@@ -9,6 +9,10 @@ description: Adobe Workfront administrators use access levels to determine what 
 
 # Adobe Workfront licensing role types vs. Adobe Workfront DAM role types
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront administrators use access levels to determine what users&nbsp;can do in an application.
 
 * In Workfront, licensing determines a user's access level.

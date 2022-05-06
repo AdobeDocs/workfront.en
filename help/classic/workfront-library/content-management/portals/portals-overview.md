@@ -10,6 +10,10 @@ description: Your organization can portals to gather, share, and manage related 
 
 # Overview of Workfront Library portals
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Your organization can portals to gather, share, and manage related content while providing a branding experience for internal and external users. One of the advantages of using a portal is that you can distribute specific assets to users without giving them access to Workfront Library.
 
 As a Workfront Library administrator or a user with Manager access to the portal, you can give someone access to a portal and assign them one of the following portal access levels:

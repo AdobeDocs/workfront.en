@@ -3,16 +3,20 @@ filename: convert-issue-to-project
 product-area: projects
 navigation-topic: convert-issues
 title: Convert an issue to a project in Adobe Workfront
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: (NOTE: below, is no longer the case - drafted)
 ---
 
 # Convert an issue to a project in Adobe Workfront
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below, is no longer the case - drafted)</p>
+-->
 
->[!NOTE]
->
->The ability to convert an issue to a project using a template from a list, report, or a dashboard was temporarily removed from the Production environment. In addition, the updated experience when converting an issue to a project using a template at the issue level was also reverted to the former experience. These changes were made on March 4, 2022. They will be re-added by mid-March.
+<!--
+<note type="note">
+The ability to convert an issue to a project using a template as described in this article was temporarily removed from the Production environment on March 4 and it was reverted to the previous experience. Converting issues to a project using a template as described in this article is currently being re-released to Production in a phased roll-out that started on April 28, 2022. Some customers might not see this functionality in their Production environment until the roll-out is completed. The functionality described in this article is available to all customers in the Preview environment.
+</note>
+-->
 
 If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project.
 
@@ -42,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the issue</p> <p>You obtain&nbsp;Manage permissions to the project after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the issue</p> <p>You obtain&nbsp;Manage permissions to the project after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,25 +57,22 @@ You must have the following access to perform the steps in this article:
 
 You can convert an issue to a blank project or convert an issue to a project using a template.
 
-1. Go to a project and click&nbsp;Issues in the left panel.
+1. Go to a project and click&nbsp;**Issues** in the left panel. 
+1. In the list of issues that displays, do one of the following:
 
-   The list of issues displays. 
-
-1. Do one of the following:
-
-   * To convert an issue to a blank project, click the name of an issue, click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then click **Convert to a blank project**.
+   * To convert an issue to a blank project, click the name of the issue, click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then click **Convert to a blank project**.
 
      <!--   
      <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>Or</p>   
+     <p>Or</p> <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and in yellow - this is NOT possible yet in a list (in 22.1), but will be released later!) </p>   
+     -->   
      <p>Select the issue in the list of issue, click the <strong>More</strong> menu <img src="assets/more-icon.png"> at the top of the list, then click <strong>Convert to a blank project</strong>. </p>   
      </div>   
      -->   
    
-     You must manually add tasks to the project or attach a template to the project after you convert the issue.
-
-     Continue with Step 3e below.
-
+     ```<blockquote>  <p>You must manually add tasks to the project or attach a template to the project after you convert the issue. </p>  <p>Continue with Step 3e below. <!--   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">    (is this accurate?)   </MadCap:conditionalText>  --></p> </blockquote>```    
+   
      >[!TIP]
      >
      >
@@ -86,9 +87,17 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
       * Click the name of an issue, then click the **More** menu ![](assets/more-icon.png) to the right of the issue name
 
+        ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
+
         Or
       
-      * Select the issue in the list of issues, in a report, or dashboard, click the **More** menu ![](assets/more-icon.png) at the top of the list, then click **Convert to project from Template** and start typing the name of a template in the **Search Template** box, then click the name of the template when it displays in the list. Continue with Step 3.
+      * Select the issue in the list of issues, in a report, or dashboard, click the **More** menu ![](assets/more-icon.png) at the top of the list, then click **Convert to project from Template** and start typing the name of a template in the **Search Template** box, then click the name of the template when it displays in the list. Continue with Step 3.       
+      
+        <!--      
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
+        (is this accurate?)      
+        </MadCap:conditionalText>      
+        -->
 
      >[!TIP]
      >
@@ -134,7 +143,9 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
    1. (Optional and conditional) Click **Options**, then select from the options that are available:
 
-      * **Keep the original issue and tie its resolution to the this project**When deselected, the original issue is deleted.
+      * **Keep the original issue and tie its resolution to the this project**
+
+        When deselected, the original issue is deleted.
 
         >[!NOTE]
         >
@@ -143,7 +154,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
         >   
         >   
         >   * [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
-        >   * [Share an issue in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
+        >   * [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
         >   
         >
 
@@ -164,38 +175,30 @@ You can convert an issue to a blank project or convert an issue to a project usi
       * Ensure all required fields have valid information. 
       * Rearrange the custom forms by dragging them ![](assets/drag-object-icon.png) where you want them. 
       * Click the **x icon** to the right of any form that you do not want to transfer to the project. 
-      * If necessary, transfer custom form information from the issue to the
+      * If necessary, transfer custom form information from the issue to the project.
 
-      >[!TIP]
-      >
-      >In the Production environment, you can transfer custom form information from the issue to the project by adding a duplicate project-type custom form (with the same fields that are on the issue-type custom form) to the new project. For more information, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-      >
-      >
-      ><!--      >
-      ><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">In the Preview environment, if a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion.</p>      >
-      >-->      >
-      >
-      >
-      >
-      ><!--      >
-      ><p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the issue, the field value from the issue is used for the new project. However, if the custom field is blank on the issue, the value from the template is used.</p>      >
-      >-->      >
-      >
+        >[!TIP]
+        >
+        >If a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion.
+        >
+        >
+        >If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the issue, the field value from the issue is used for the new project. However, if the custom field is blank on the issue, the value from the template is used.
 
    1. Click **Convert to project**.
 
-      If you decided to delete the original issue, the issue is now a project.   
-      Or  
-      If you decided to keep the original issue, the issue is now linked to the new project and it will complete when the project completes.
-
-      Some issue fields transfer to the project. Most fields defined in the template automatically transfer to the newly created project if you didn't change them in previous steps. For information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+      >[!TIP]
+      >
+      >If you decided to delete the original issue, the issue is now a project.   
+      >Or  
+      >If you decided to keep the original issue, the issue is now linked to the new project and it will complete when the project completes. 
+      >
+      >
+      >Some issue fields transfer to the project. Most fields defined in the template automatically transfer to the newly created project if you didn't change them in previous steps. For information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 1. (Optional) Set any further project details ​(project owner, project dates) and tasks as necessary.
 1. Click&nbsp;**Convert to project**.
 
-   The issue is now converted to a project.
+   The issue is now converted to a project. 
 
-   In the Production environment, if you selected to convert the issue from a list, report, or dashboard, you are directed to the project's page.
-
-1. (Conditional and optional)&nbsp;In the Preview environment, click **Go to project** inside the Success notification in the upper-right corner of the page. This opens the project page.
+1. Click **Go to project** inside the Success notification in the upper-right corner of the page. This opens the project page.
 

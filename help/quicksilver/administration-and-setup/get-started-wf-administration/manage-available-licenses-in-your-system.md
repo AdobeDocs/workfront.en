@@ -13,7 +13,7 @@ As an Adobe Workfront administrator, you can access information about your Workf
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -70,7 +70,7 @@ For information about Workfront Goals, see [Adobe Workfront Goals overview](../.
 >```Workfront allows you to assign more Workfront Goals licenses that you have purchased. However, when you assign more licenses than what your Workfront Goals contract allows, a Workfront account manager will contact you to let you know that you have exceeded your contractual number.```
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">If an organization has other paid add-on products, their license information also displays here. If the organization doesn’t have any paid add-on products, nothing displays here.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">If an organization has other paid add-on products, their license information also displays here. If the organization doesn’t have any paid add-on products, nothing displays here. (NOTE: drafted this because not sure this is accurate: Scenario Planner is an add-on product and its licenses are not displayed there.)</p>
 -->
 
 >[!TIP]

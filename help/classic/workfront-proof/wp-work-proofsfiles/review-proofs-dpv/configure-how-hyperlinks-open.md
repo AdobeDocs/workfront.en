@@ -11,6 +11,10 @@ description: Some links in interactive web content are set to open in a new brow
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Some links in interactive web content are set to open in a new browser tab or window. You can&nbsp;configure Workfront to open all such links within the Desktop Proofing Viewer, allowing reviewers to proof the newly opened content.&nbsp;For more information, see&nbsp; [Configure proofing viewer settings](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).

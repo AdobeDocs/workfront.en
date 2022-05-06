@@ -137,11 +137,7 @@ The following list can help you understand what Proofing Viewer you can use to p
   </tr> 
   <tr> 
    <td> <p>Undo and redo last operation</p> </td> 
-   <td>✓ <!--
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-      ?check this
-     </MadCap:conditionalText>
-    --></td> 
+   <td>✓</td> 
    <td> ✓&nbsp;</td> 
   </tr> 
   <tr> 

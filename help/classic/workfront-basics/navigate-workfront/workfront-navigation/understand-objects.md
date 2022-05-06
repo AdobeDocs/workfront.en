@@ -3,10 +3,18 @@ filename: understand-objects
 content-type: overview;reference
 navigation-topic: workfront-navigation
 title: Understand objects in Adobe Workfront
-description: The information you display in Adobe Workfront is represented by objects which are stored in the Workfront database. The objects are what drives the information in Workfront.
+description: ***Linked to several articles, do not remove/ change.
 ---
 
 # Understand objects in Adobe Workfront
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***Linked to several articles, do not remove/ change.</p>
+-->
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 The information you display in Adobe Workfront is represented by objects which are stored in the Workfront database. The objects are what drives the information in Workfront.
 
@@ -83,8 +91,8 @@ When you customize the name of an object, the new name for that object appears i
 
 The following areas show the updated name of the objects:
 
-* Global Navigation Bar 
-* All tabs
+* Global Navigation Bar  
+* All  tabs 
 * All menus
 * In-app notifications
 * Report builder and reporting elements (views, filters and groupings)
@@ -98,34 +106,9 @@ The following areas show the updated name of the objects:
 The following areas do not show the updated name of the objects:
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Legacy Gantt</li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
   -->
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Budget Manager</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Capacity Planner</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Grid</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Team Builder</li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolio Optimizer</li>
-  -->
-
-* Referenced Object Type selection for a Typeahead field in a Custom Form
 * Outlook Add-in
 
 ## Implications of customizing object names
@@ -151,7 +134,7 @@ For more information about which objects can have customized names in Workfront,
 
 The following is a list of objects and their corresponding icons in Workfront.
 
-| **Object** |**Icon** |**Customizable object ame** |
+| **Object** |**Icon** |**Customizable object name** |
 |---|---|---|
 | Company | ![company_icon.png](assets/company-icon-63x53.png)
 
@@ -208,7 +191,7 @@ Not all objects are searchable in Workfront. You can run basic and advanced sear
 | Tasks |✓ | ✓ |
 | Issues |✓ | ✓ |
 | Reports |✓ | ✓ |
-|  People  |✓ | ✓ |
+|   People   |✓ | ✓ |
 | Templates |✓ | ✓ |
 | Documents |✓ | ✓ |
 | Portfolios |✓ | ✓ |
@@ -276,7 +259,13 @@ You can report on the following objects when using the report builder in the Wor
 * Filter
 * Goal
 
-  You can build a report for strategic goals or you can display goal-related information in a project report when projects are associated with goals as goal activities. You can create strategic goals and connect projects them only if your organization has purchased a Workfront Goals license. For information about Workfront Goals, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en). For information about connecting projects to strategic goals, see [Overview of connecting projects to goals](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&_LANG=en).
+  You can build a report for strategic goals or you can display goal-related information in a project report when projects are associated with goals as goal activities. You can create strategic goals and connect projects them only if your organization has purchased a Workfront Goals license. For information about Workfront Goals, see [Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en). For information about connecting projects to strategic goals, see [Overview of connecting projects to goals](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&_LANG=en). 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE:&nbsp;hardcoded links in this paragraph)
+  </MadCap:conditionalText>
+  -->
 
   >[!TIP]
   >
@@ -287,11 +276,23 @@ You can report on the following objects when using the report builder in the Wor
 * Hour Type
 * ```Initiative```
 
-  ```You can build a report for initiatives which are the children objects of a plan only if your company has purchased a Workfront Scenario Planner license. For information about initiatives, see``` [Initiatives overview in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience).
+  ```You can build a report for initiatives which are the children objects of a plan only if your company has purchased a Workfront Scenario Planner license. For information about initiatives, see``` [Initiatives overview in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience). 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: this link is hardcoded)
+  </MadCap:conditionalText>
+  -->
 
 * ```Initiative Job Role```
 
-  ```You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a Workfront Scenario Planner license. For information about creating initiatives and associating them with job roles, see``` [Create and edit initiatives in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience).
+  ```You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a Workfront Scenario Planner license. For information about creating initiatives and associating them with job roles, see``` [Create and edit initiatives in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience). 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: this link is hardcoded)
+  </MadCap:conditionalText>
+  -->
 
 * Iteration
 * Job Role
@@ -302,9 +303,9 @@ You can report on the following objects when using the report builder in the Wor
 * Layout Template
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Legacy Resource Pool</p> <note type="note">
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Legacy Resource Pool (NOTE: drafted; removed at 20.4)</p> <note type="note">
   This report captures information about an area in&nbsp;Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about the current resource pools, see
-  <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.
+  <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.
   </note> </li>
   -->
 
@@ -318,7 +319,7 @@ You can report on the following objects when using the report builder in the Wor
 
 * Parameter (or Custom Field)
 * Parameter Group (or Section Break)
-* Portal Profile
+* Portal Profile (this displays information that has been deprecated)
 * Portfolio
 * Program
 * Project (Financial Data)
@@ -334,12 +335,12 @@ You can report on the following objects when using the report builder in the Wor
 
 * Queue
 * Queue Topic
-* Rate
+* Rate (this displays job role Billing Rate information)
 * Reminder Notification
 * Report
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Resource Estimate</p> <note type="note">
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Resource Estimate (NOTE: drafted; removed with 20.4 - flash)</p> <note type="note">
   This report captures information about an area in&nbsp;Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about how you estimate resources for projects, see
   <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.
   </note> </li>
@@ -363,5 +364,5 @@ You can report on the following objects when using the report builder in the Wor
 * User Delegation  
   You can report on users who have been delegated to perform others' tasks and issues while they are out of the office. This report displays the user who is out of the office as well as the user who fulfills their duties while they are out. 
 * View
-* Work Item
+* Work Item (this refers to tasks and issues)
 

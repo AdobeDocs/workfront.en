@@ -8,6 +8,10 @@ description: When you edit tasks in a list, you can use separate saving settings
 
 # Overview of saving concurrent changes within a task list
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you edit tasks in a list, you can use separate saving settings for indicating whether you want your changes saved automatically on manually when editing tasks in a list.
 
 For information about editing tasks in a task list, see the article [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
@@ -35,7 +39,7 @@ The following scenarios exist when multiple users are editing the same tasks:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
-<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</p>
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - when replaced with the above live section; does it need an edit??) </p>
 -->
 <div>
 <p>When editing tasks in a list, you can select whether you want each change to be saved automatically or if you want to manually save multiple changes at one time by clicking the Save button. This depends on whether you enable the Autosave setting in the task list or not. </p>

@@ -106,7 +106,7 @@ For more information, see [Move tasks](../../../manage-work/tasks/manage-tasks/m
 
 >[!NOTE]
 >
->This feature was temporarily removed from the Production environment on March 4, 2022. It will be re-added by mid-March.
+>This feature was temporarily removed from the Production environment on March 4, 2022. It was later released in a phased roll-out beginning April 28, 2022. The roll-out was completed on May 5, 2022. This is now available in Preview and Production for all customers. (For the latest updates on the status of this feature releasing to Production, see [22.3 Release overview](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 To make your use of Workfront consistent with the new Workfront experience, we have redesigned the interface for converting an issue to a project when using a template when you convert it from the issue page.
 
@@ -124,7 +124,7 @@ For more information, see [Convert an issue to a project in Adobe Workfront](../
 
 >[!NOTE]
 >
->This feature was temporarily removed from the Production environment on March 4, 2022. It will be re-added by mid-March.
+>This feature was temporarily removed from the Production environment on March 4, 2022. It was later released in a phased roll-out beginning April 28, 2022. The roll-out was completed on May 5, 2022. This is now available in Preview and Production for all customers. (For the latest updates on the status of this feature releasing to Production, see [22.3 Release overview](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 To increase the efficiency of your work and make it easier for you to convert issues in a fast-paced environment, we have added the ability to convert an issue to a project using a template from a list, report, or a dashboard.
 

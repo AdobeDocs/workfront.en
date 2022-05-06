@@ -11,6 +11,10 @@ description: The Proof details page lets you manage an existing proof. For examp
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 The Proof details page lets you manage an existing proof. For example, you can add new reviewers, amend the deadline, change the settings you originally set for the proof, and check what activity has occurred on that proof.

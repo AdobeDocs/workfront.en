@@ -9,6 +9,10 @@ description: The Commit Date is the date by which an user assigned to task or an
 
 # Commit Date overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Commit Date is the date by which an user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date, as it is a more realistic estimate of the completion date given only by the user in charge of the work. For information about the Planned Completion Date, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Commit Date overview
@@ -60,6 +64,10 @@ Setting the Commit Date for a task or issue triggers the following changes:
 
   ![](assets/commit-date-change-notification-350x211.png)
 
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip below is actually wrong and the updates feeds should not control this setting, but at this time it does, according to this issue in Hub: https://hub.workfront.com/issue/61e1aa5e0002a186fdd0a73a10db0fc3/updates?email-source=comm</p>
+  -->
+
   >[!TIP]
   >
   >The notification that the Commit Date has changed is sent to the Project&nbsp;Owner only when the Workfront administrator enables displaying the Commit Date in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
@@ -83,6 +91,7 @@ For information about updating Commit Dates for tasks and issues, see [Update Co
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Updating"></a>Update Commit Dates on tasks and issues</h2>
+<p>(NOTE:&nbsp;moved to its own article) </p>
 <p>Updating the Commit Date is identical for tasks and issues.</p>
 <ol>
 <li value="1"> <p>Go to a task or issue that you are assigned to as the <strong>Task Owner</strong>.</p> <p>For more information about finding out who the Task Owner for an issue or task is, see the section <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments" class="MCXref xref">Assignments</a> in the article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref">Edit tasks</a>.</p> </li>

@@ -39,7 +39,7 @@ You must have the following access to use the functionality described in this ar
         Example: Edit access to Documents
        </MadCap:conditionalText>
       --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
      --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
      --> </td> 
@@ -51,7 +51,7 @@ You must have the following access to use the functionality described in this ar
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Example: View access or higher on Documents
        </MadCap:conditionalText>
-      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -85,9 +85,9 @@ Before you can access your favorites and recent items from Slack, you must
 
    * **Status:** For more information about project status, see [Access the list of system project statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
    
-   * **Planned Completion**Date: For more information about the Planned Completion Date, see [Set the project Planned Completion Date](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+   * **Planned Completion** Date: For more information about the Planned Completion Date, see [Set the project Planned Completion Date](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
    
-   * **Portfolio**Name: For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+   * **Portfolio** Name: For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
    
    * **Condition**: For more information about Project Condition, see [Overview of Project Condition and Condition Type](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
    
@@ -119,9 +119,9 @@ Before you can access your favorites and recent items from Slack, you must
      For more information about task statuses, see [Access the list of system task statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md).
    
    * **Percent Complete**
-   * **Assigned To**Name 
-   * **Planned Completion**Date 
-   * **Project**Name or **Parent Task** Name 
+   * **Assigned To** Name 
+   * **Planned Completion** Date 
+   * **Project** Name or **Parent Task** Name 
    
    * **Reference Number**
 
@@ -153,9 +153,9 @@ Before you can access your favorites and recent items from Slack, you must
 
    * **Status**: For more information about task statuses, see [Access the list of system issue statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
    
-   * **Assigned To**Name 
-   * **Planned Completion**Date 
-   * **Project**Name 
+   * **Assigned To** Name 
+   * **Planned Completion** Date 
+   * **Project** Name 
    * **Reference Number**: For more information about object reference numbers, see [Use the reference number of objects](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
 
 1. (Optional) Click **Subscribe** to subscribe to the issue.
@@ -186,7 +186,7 @@ Before you can access your favorites and recent items from Slack, you must
 1. (Optional) Click the name of the portfolio to open it in Workfront in a new browser tab.&nbsp;
 1. Consider reviewing the&nbsp;following additional information about the portfolio:
 
-   * Portfolio**Manager**Name
+   * Portfolio**Manager** Name
    * **On Time**
    * **ROI**
    * **Net Value**
@@ -216,8 +216,8 @@ Before you can access your favorites and recent items from Slack, you must
 1. Consider reviewing the&nbsp;following additional information about the program:
 
    * **Description**
-   * **Portfolio**Name
-   * Program**Manager**Name
+   * **Portfolio** Name
+   * Program**Manager** Name
 
      For more information about programs, see [Create and manage Programs.](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
 

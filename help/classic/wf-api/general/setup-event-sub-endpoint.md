@@ -8,6 +8,10 @@ description: Event subscription messages are notifications that can be setup to 
 
 # Event Subscription delivery requirements
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Event subscription messages are notifications that can be setup to notify users when certain events occur. To learn more about what Event Subscriptions are see [FAQs - Event Subscriptions](../../wf-api/general/event-subs-faq.md).
 
 ## Standards for Event Subscription message delivery

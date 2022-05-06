@@ -8,6 +8,10 @@ description: If your Adobe Workfront system is integrated with SAML 2.0, you mus
 
 # Enable Outlook for Office for use with Adobe Workfront and SAML 2.0
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If your Adobe Workfront system is integrated with SAML 2.0, you must enable SAML 2.0 authentication for Office add-ins in order for users to be able to authenticate using their SAML 2.0 credentials.&nbsp;
 
 If you experience issues when logging in to Workfront with SAML, contact your Workfront administrator to ensure that SAML is configured correctly.

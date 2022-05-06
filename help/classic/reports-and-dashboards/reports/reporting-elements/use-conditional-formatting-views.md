@@ -2,11 +2,15 @@
 filename: use-conditional-formatting-views
 product-area: reporting
 navigation-topic: reporting-elements
-title: Use conditional formatting in Views
+title: Use conditional formatting in views
 description: As you share your reports with other users in Adobe Workfront, consider customizing the View of the reports, to make certain information easier to read, or just stand out.
 ---
 
-# Use conditional formatting in Views
+# Use conditional formatting in views
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 As you share your reports with other users in&nbsp;Adobe Workfront, consider customizing the View of the reports, to make certain information easier to read, or just stand out.
 
@@ -50,7 +54,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a report to create or edit a view in a report</p> <p>Manage permissions to a view</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,9 +106,11 @@ For information on creating a report, see [Create a report](../../../reports-and
 
 1. Click **Add a Rule for this Column**.
 
-   >[!NOTE]
-   >
-   >You cannot apply conditional formatting to a User Team ID field.
+   <!--
+   <note type="note">
+   You cannot apply conditional formatting to a User Team ID field. (NOTE: drafted this. Not sure why we have to single out just this one field?)
+   </note>
+   -->
 
    ![](assets/column-rules-ui-on-report-view-350x172.png)
 

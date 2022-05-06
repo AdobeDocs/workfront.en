@@ -2,6 +2,10 @@
 
 # ```Workfront Tools for AEM User Guide : Configure Event Subscriptions```  {#title-heading}
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Event subscriptions are used to notify AEM of events that take place in Adobe Workfront. There are three Workfront Tools features that need event subscriptions in order to work, these are:
 
 * Automatic creation of project linked folders.
@@ -47,7 +51,7 @@ You must have the following access to perform the steps in this article:
 ## Configure event subscriptions
 
 1. Edit ```Workfront Tools``` Cloud Services configuration you created in step 5 and click on ```Event Subscriptions``` tab.
-1. Select the ```Workfront Custom Integration```you created in section 6.
+1. Select the ```Workfront Custom Integration``` you created in section 6.
 1. Click on ```Enable Workfront Event Subscriptions```.
 
    ![](assets/enable-event-subs-350x252.png)

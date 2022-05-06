@@ -3,16 +3,29 @@ filename: guide-for-help-in-workfront
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Your quick guide to finding help in Adobe Workfront
-description: Welcome to Adobe Workfront! We know you have questions and are not always sure where to start for help. This quick guide gives you answers to common questions and highlights the resources available to support your success.
+description: (NOTE: There are several hard-coded links in this article.)
 ---
 
 # Your quick guide to finding help in Adobe Workfront
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: There are several hard-coded links in this article.)</p>
+-->
 
 Welcome to Adobe Workfront! We know you have questions and are not always sure where to start for help. This quick guide gives you answers to common questions and highlights the resources available to support your success.
 
 >[!TIP]
 >
->We encourage you to bookmark this page. We’ll be updating it with added resources as they become available.
+>We encourage you to bookmark this page. We’ll be updating it with added resources as they become available. >
+><!-->
+><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+>(NOTE: from Luke: I wonder who added this. This article does containa lot of good information. I wonder if we should update the TOC so that it appears in a more prominent section?)>
+></MadCap:conditionalText>>
+>-->
 
 ## How can I get questions answered and learn about Workfront?
 
@@ -46,7 +59,7 @@ To learn more about Workfront, you can:
    <td>Workfront Community offers a network of professionals mastering modern work who actively share their insights and expertise. For more information, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">The Adobe Workfront Community</a>.</td> 
   </tr> 
   <tr> 
-   <td><strong>See what's new in any of the</strong>Workfront<strong>products</strong> </td> 
+   <td><strong>See what's new in any of the</strong> Workfront<strong>products</strong></td> 
    <td>Visit <a href="https://workfront.com/release" target="_blank">workfront.com/release</a> for the latest information about what's new.</td> 
   </tr> 
   <tr> 

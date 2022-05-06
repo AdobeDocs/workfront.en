@@ -10,6 +10,10 @@ description: As an Adobe Workfront administrator, you can activate or deactivate
 
 # Active and deactivated objects
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As an Adobe Workfront administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
 
 For example, in order to see a certain Hour Type, the Hour Type must be active. An inactive or disabled Hour Type does not appear in the Hour Type drop-down menu, but remains in the system to keep the historical record intact of where this Hour Type might have been used in the past.
@@ -90,7 +94,7 @@ A user must be active in order to appear in any type-ahead fields of all other o
 
 You can deactivate users from the user page, or as you are editing a user.
 
-For information about deactivating users, see [Deactivate a user](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+For information about deactivating users, see [Deactivate or reactivate a user](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
 >[!IMPORTANT]
 >

@@ -4,11 +4,15 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: HTTP request methods
+title: HTTP request methods in Adobe Workfront Fusion
 description: When you are configuring an API call in a module, you need to fill in the field for the HTTP request method.
 ---
 
-# HTTP request methods
+# HTTP request methods in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 When you are configuring an API call in a module, you need to fill in the field for the HTTP request method.
 

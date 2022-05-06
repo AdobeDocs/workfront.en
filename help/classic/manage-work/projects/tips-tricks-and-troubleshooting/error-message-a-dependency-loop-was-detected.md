@@ -4,11 +4,15 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Error Message: A Dependency Loop Was Detected
-description: You cannot create a predecessor relationship between two tasks because you get a dependency loop error.
+description: (Note: **replaced this with this arrticle: /Content/Manage work/Tasks/Use Prdcssrs/dependency-loop-overview.htm)
 hidefromtoc: true
 ---
 
 # Error Message: A Dependency Loop Was Detected
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: **replaced this with this arrticle: /Content/Manage work/Tasks/Use Prdcssrs/dependency-loop-overview.htm) </p>
+-->
 
 ## Problem
 

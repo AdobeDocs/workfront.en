@@ -4,10 +4,18 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
 title: Overview of calculating hours and FTE for users and roles in the Resource Planner
-description: You can display the allocation and availability of your resources in the Resource Planner by Hours, FTE, or Cost. For more information about calculating Costs in the Resource Planner, see Calculate costs in the Resource Planner .
+description: (NOTE: Alina:KEEP THIS:***Linked to: Configuring My Settings, Editing User Accounts, Planning in the Resource Planner -- *** Some of this documentation is also duplicated in this article (Scheduling): https://support.workfront.com/hc/en-us/articles/360000557174)
 ---
 
 # Overview of calculating hours and FTE for users and roles in the Resource Planner
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina:KEEP THIS:***Linked to: Configuring My Settings, Editing User Accounts, Planning in the Resource Planner -- *** Some of this documentation is also duplicated in this article (Scheduling): https://support.workfront.com/hc/en-us/articles/360000557174)</p>
+-->
 
 You can display the allocation and availability of your resources in the Resource Planner by Hours, FTE, or Cost.  
 For more information about calculating Costs in the Resource Planner, see [Calculate costs in the Resource Planner](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
@@ -21,7 +29,7 @@ The following sets of resource information are calculated differently in the Res
   For more information about defining the Resource Management preferences for the Adobe Workfront system, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).  
 
 * All other FTE values are calculated based on the System Default schedule.  
-  For more information about how the all other values display in the Resource Planner when using FTE, see [Calculate all other hour and FTE values for users and job roles in the Resource Planner](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner).
+  For more information about how the all other values display in the Resource Planner when using FTE, see the section [Calculate all other hour and FTE values for users and job roles in the Resource Planner](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner) in this article.
 
 It is important to understand what the FTE is for each of your users and their job roles to accurately manage your resources as you are assigning them to work.
 
@@ -45,11 +53,13 @@ For more information, see [Configure Resource Management preferences](../../admi
 <p><![CDATA[
 ]]><br></p>
 <p> <img src="assets/res-management-user-s-schedule--1--350x129.png" alt="Res_management_user_s_schedule__1_.png" style="width: 350;height: 129;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
-<p> Based on how this setting is configured, the availability of the users in the Resource Planner (hours as well as FTE availability) is calculated by using the following methods: </p>
+<p>(NOTE: The determines how to calculate resource availability at the system level.For more information about defining the Resource Management preferences for the system, see Configure Resource Management preferences.)<![CDATA[
+]]></p>
+<p>Based on how this setting is configured, the availability of the users in the Resource Planner (hours as well as FTE availability) is calculated by using the following methods: </p>
 <ul>
 <li><strong>The Default Schedule</strong>: The Default Schedule of the system and the user FTE are used to determine the Available Hours and FTE value for the user in the Resource Planner. The Schedule of the user is ignored. In this case:
 <ul>
-<li> The <strong>Available Hours</strong> in the<strong>Resource Planner</strong> are calculated using the following formula:<br><code>User Available Hours = Default Schedule Hours * User FTE value</code><br>For example, if the Default Schedule has 40 hours a week available for work, and the user FTE is 0.5, the user is available to work for 20 hours a week in the Resource Planner.<br>For more information about schedules, including the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a></li>
+<li> The <strong>Available Hours</strong> in the<strong>Resource Planner</strong> are calculated using the following formula:<br><code>User Available Hours = Default Schedule Hours * User FTE value</code> <span style="color: #dc143c;">( NOTE: this is the correct value. If this shows as a division in other articles, that is wrong. It's a multiplication between these 2 values).</span><br>For example, if the Default Schedule has 40 hours a week available for work, and the user FTE is 0.5, the user is available to work for 20 hours a week in the Resource Planner.<br>For more information about schedules, including the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a></li>
 <li style="font-weight: normal;"> The <strong>Available FTE</strong> for the user in the<strong>Resource Planner</strong> is the same as the user FTE specified in the user settings. <br>For example, if the user FTE is 0.5 in the user settings, the available FTE of the user is 0.5 in the Resource Planner. For more information about the value of the user FTE as it displays in the user settings, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br></li>
 </ul></li>
 <li><strong>The User's Schedule</strong>: The Schedule of the user is used to determine the availability of the user in the Resource Planner. The value of the user FTE is ignored. In this case:
@@ -95,6 +105,10 @@ For this example, we are using the following numbers:
 |---|---|---|---|---|---|
 | **The Default Schedule** |Ignored |40 |0.75 |**30** (calculated) |**0.75** |
 | **The User's Schedule** |20 |40 |Ignored |**20** |**0.5** (calculated) |
+
+##  
+
+Schedule exceptions and time off might affect the amount of Planned Hours or FTE. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ## Calculate all other hour and FTE values for users and job roles in the Resource Planner {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}
 

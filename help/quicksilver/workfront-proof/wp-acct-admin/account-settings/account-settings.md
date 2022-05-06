@@ -19,7 +19,7 @@ This section contains the following articles:
 * [Manage Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md) 
 * [Configure a user's Proof Permission Profile in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md) 
 * [Configure custom profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md) 
-* [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md) 
+* &nbsp;
 * [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) 
 * [Single Sign-On in Workfront Proof: AD FS configuration](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md) 
 * [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) 

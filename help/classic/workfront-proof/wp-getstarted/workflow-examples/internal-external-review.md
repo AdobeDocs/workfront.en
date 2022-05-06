@@ -12,6 +12,10 @@ description: If your organization completes internal reviews before sharing proo
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 If your organization completes internal reviews before sharing proofs with clients, we suggest two ways you can use Workfront Proof to enhance your workflow:
@@ -50,7 +54,7 @@ This option illustrates a workflow where the proofing process is managed by the 
 
 1. **New version** - the Project Manager creates a new version (or a copy) of the proof and shares it with the client. See [Copying Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) and [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-1. **New proof email**- the client receives the New proof email with a Go to proof link.&nbsp;For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+1. **New proof email** - the client receives the New proof email with a Go to proof link.&nbsp;For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 1. **Review proof** - the client reviews the proof, adds comments and makes a decision.
 1. The client can see only the version of the proof that has been explicitly shared with them; they will not be able to see the internal version.

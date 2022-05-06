@@ -6,10 +6,18 @@ content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 title: Create and manage layout templates
-description: As a Workfront administrator or a group administrator, you can create and modify layout templates to customize the following layout elements in Workfront for your users:
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 ---
 
 # Create and manage layout templates
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
+-->
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">NWE version of this content at the bottom</p>
+-->
 
 As a Workfront administrator or a group administrator, you can create and modify layout templates to customize the following layout elements in Workfront for your users:
 
@@ -26,7 +34,7 @@ Every user's default Workfront layout depends on their access level and license 
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

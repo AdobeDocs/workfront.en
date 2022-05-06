@@ -9,9 +9,17 @@ description: You can use the Must Finish On (MFO) Task Constraint to schedule a 
 
 # Task Constraint overview: Must Finish On
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use the Must Finish On (MFO) Task Constraint to schedule a task to end on a specific date. 
 
 The Must Finish On constraint schedules a task to finish exactly at the time and date you specify in the **Planned Completion Date** field.
+
+>[!TIP]
+>
+>Manually updating a task's Planned Completion Date changes the constraint of the task to Must Finish On.
 
 ## Overview of the Must Finish On Task Constraint
 

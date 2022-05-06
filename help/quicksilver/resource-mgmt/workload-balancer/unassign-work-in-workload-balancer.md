@@ -2,19 +2,19 @@
 filename: unassign-work-in-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Unassign work in the Adobe Workfront Workload Balancer
+title: Unassign work in the Workload Balancer
 description: You can unassign users from work items in the Assigned Work area of the Adobe Workfront Workload Balancer, or reassign them to other users, roles, or teams.
 ---
 
-# Unassign work in the Adobe Workfront Workload Balancer
+# Unassign work in the Workload Balancer
 
 You can unassign users from work items in the Assigned Work area of the Adobe Workfront Workload Balancer, or reassign them to other users, roles, or teams.
 
 You can unassign users from work items manually, by dragging and dropping, or in bulk. This article describes how to unassign users manually.
 
-For information about unassigning users by dragging and dropping, see [Assign work in the Adobe Workfront Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
+For information about unassigning users by dragging and dropping, see [Assign work in the Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
 
-For information about unassigning users in bulk, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+For information about unassigning users in bulk, see [Assign work in bulk using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 ## Access requirements
 
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

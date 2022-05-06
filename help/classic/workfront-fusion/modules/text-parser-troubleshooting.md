@@ -4,11 +4,15 @@ content-type: tips-tricks-troubleshooting
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Text parser troubleshooting
+title: Text parser troubleshooting in Adobe Workfront Fusion
 description: Use this information if you can not get text parser to produce any output.
 ---
 
-# Text parser troubleshooting
+# Text parser troubleshooting in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Use this information if you can not get text parser to produce any output.
 

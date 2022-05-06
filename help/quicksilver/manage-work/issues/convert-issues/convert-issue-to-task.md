@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain&nbsp;Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain&nbsp;Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 1. Click the issue you want to convert to go to the issue's landing page. 
 1. Click the **More** menu on the issue, then **Convert to Task**.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x430.png)
+   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -77,7 +77,7 @@ You must have the following access to perform the steps in this article:
      >   
      >   
      >   * [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
-     >   * [Share an issue in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
+     >   * [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
      >   
      >
 
@@ -101,9 +101,19 @@ You must have the following access to perform the steps in this article:
 
    If you want to transfer custom form information from the issue you are converting to the project, add the project custom form that contains the same fields whose information you want to transfer from the issue.
 
-   For more information about transferring information from the custom form of the issue to that of the new task, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+   For more information about transferring information from the custom form of the issue to that of the new task, see [Transfer custom form data when converting an object](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
-1. ![](assets/qs-issue-convert-to-task-before-saving-ui-350x206.png)
+   ![](assets/qs-issue-convert-to-task-before-saving-ui-350x367.png)
+
+   >[!TIP]
+   >
+   >
+   >
+   ><!--   >
+   ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can transfer custom form information from the issue to the task by adding a duplicate project-type custom form (with the same fields that are on the issue-type custom form) to the new project. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data when converting an object</a>. (NOTE:&nbsp;drafted, no longer the case for NWE)</p>   >
+   >-->   >
+   >
+   >If a multi-object custom form attached to the issue is configured for use with both issues and tasks, all information saved in the form is retained when you make the conversion.
 
 1. Click **Save Changes** when all task settings are set.
 

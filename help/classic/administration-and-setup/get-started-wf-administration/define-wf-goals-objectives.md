@@ -10,6 +10,10 @@ description: When implementing Adobe Workfront, it is important to identify the 
 
 # Defining objectives for your Adobe Workfront implementation
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When implementing Adobe Workfront, it is important to identify the principles of your success criteria. You may want to ask yourself the following questions:
 
 * What is it that you are trying to solve?

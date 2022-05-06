@@ -36,12 +36,6 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-<!--
-<note type="note">
-If your Workfront account is integrated with a Workfront Proof Premium account, the system automatically generates proofs only for new documents, not for new document versions.&nbsp;
-</note>
--->
-
 ## Configure whether proofs are&nbsp;automatically generated for a single user
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 

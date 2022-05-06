@@ -11,7 +11,7 @@ hidefromtoc: true
 # Get started with Resource Management
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> This replaces this:&nbsp;<a href="../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref" xrefformat="{para}">Get started with Resource Management </a>&nbsp; </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> This replaces this:&nbsp;<a href="../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref" xrefformat="{para}">Get started with Resource Management</a>&nbsp; </p>
 -->
 
 <!--
@@ -19,7 +19,7 @@ hidefromtoc: true
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">***</span> </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">***Keep this DRAFT for the reorg of RM</span> </p>
 -->
 
 Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;
@@ -66,7 +66,7 @@ To schedule resources to actual work (tasks and issues), use the following area:
      For more information about defining Project Preferences, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).``` 
    
    * ```Resource Pools```   
-     ```For more information about creating Resource Pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).```
+     ```For more information about creating Resource Pools, see [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).```
 
 * ```**Resource Allocation**: As a Resource Manager, or a Project Owner, you can assign work and define allocation of resources to work tasks and issues. For this step, a Resource Manager manages the allocation of their resources at the project level using the Resource Planner. Then, they assign work items (tasks and issues) to users based on their job roles using the Resource Scheduling tools. ```   
   ```For more information about Resource Planning, see the [Resource Planning](../../resource-mgmt/resource-planning/resource-planning-overview.md) section.```   
@@ -118,7 +118,7 @@ All of the following conditions must be met before you can start managing your r
   For more information about creating and editing schedules, see [Creating Schedules.](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
 * You must associate projects with Resource Managers and Resource Pools.  
-  For more information about associating projects with Resource Managers, see [Designate Resource Managers for a project or template](../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md).For more information about associating projects with Resource Pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+  For more information about associating projects with Resource Managers, see [Designate Resource Managers for a project or template](../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md).For more information about associating projects with Resource Pools, see [Resource pools overview](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 * You must assign the tasks and issues in your system to job roles (recommended) or users.
 * You must specify a valid value for Planned Hours and Duration for all tasks in your system.  

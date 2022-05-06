@@ -4,10 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Edit and create risk types
-description: Risks are possible events that prevent your project from finishing on time or within budget.
+description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ****Linked here: https://workfront.zendesk.com/hc/en-us/articles/216673908
 ---
 
 # Edit and create risk types
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ****Linked here: https://workfront.zendesk.com/hc/en-us/articles/216673908</p>
+-->
 
 Risks are possible events that prevent your project from finishing on time or within budget.
 
@@ -15,7 +19,7 @@ You can add risks to your projects in the planning phase to identify potential o
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

@@ -10,6 +10,10 @@ description: Adobe Workfront for G Suite connects you to your most important wor
 
 # Adobe Workfront for G Suite
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront for G Suite connects you to your most important work and allows you to collaborate with others while staying within Gmail, Google Calendar, and Google Drive. Without leaving these applications, you can capture emailed requests or work updates and add them to Workfront. You can check what’s happening in Workfront, including due dates, priority, documents, updates and additional context, without leaving your in box. You can make approval decisions, reply to comments, or accept new work requests. And you can convert your emails to either personal project tasks or assign work and priority to others.
 
 These Help articles can help you get started using Workfront for G Suite:
@@ -33,7 +37,7 @@ These explain how to view and respond to details about a work item when you rece
 These explain how you can create Workfront objects and updates using content from non-Workfront emails:
 
 * [Turn G Suite emails into Adobe Workfront objects and updates](../../workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md) 
-* [Create a Adobe Workfront task in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md) 
-* [Create a Adobe Workfront issue in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) 
-* [Update a Adobe Workfront item from G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+* [Create an Adobe Workfront task in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md) 
+* [Create an Adobe Workfront issue in G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) 
+* [Update an Adobe Workfront item from G Suite using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
 

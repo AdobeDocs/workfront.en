@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the story</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage access to the story</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,6 +60,10 @@ You must have the following access to perform the steps in this article:
 ## Move a story to a different iteration
 
 You can move a story to a different iteration for your Scrum team.
+
+>[!NOTE]
+>
+>The **Move to** option is not available for parent stories on an iteration. You can only move subtasks to another iteration.
 
 1. Go to the iteration that contains the story that you want to move.
 1. Click the iteration heading at the top of the page.

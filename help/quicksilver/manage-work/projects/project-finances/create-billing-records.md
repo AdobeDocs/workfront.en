@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -223,19 +223,13 @@ To add fixed revenues to a billing record:
 After creating a billing record and including hours, expenses and revenues in the billing record, you can edit some information on the existing record, before it is marked as Billed.
 
 1. Go to the billing record.
-1. With **Billing Record Details** selected in the left panel
-
-   <!--
-   <span data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="preview">and the <strong>Overview</strong> section expanded</span></span>
-   -->
-
-   , edit information in any available fields.
+1. With **Billing Record Details** selected in the left panel , edit information in any available fields
 
    Or
 
    Click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then edit information in any available fields.
 
-   These fields are available for editing:
+   Update the following:
 
    * **Description** 
    * **Billing Status**
@@ -249,7 +243,7 @@ After creating a billing record and including hours, expenses and revenues in th
    * **Invoice ID** 
    * **Additional Amount**
 
-   These fields are not available for editing:
+   The following fields are not available for editing:
 
    * **Billable Hours:** The total of the Actual Revenue of the hours included in the billing record. For more information about including hours in a billing record, see the section [Include Billable Hours in a billing record](#include-billable-hours-in-a-billing-record) in this article.
    

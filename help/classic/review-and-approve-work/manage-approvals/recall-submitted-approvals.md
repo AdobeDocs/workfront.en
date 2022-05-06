@@ -2,11 +2,15 @@
 filename: recall-submitted-approvals
 product-area: projects
 navigation-topic: approvals
-title: Recalling Submitted Approvals
+title: Recall submitted approvals
 description: You can recall any of the following objects submitted for approval:
 ---
 
-# Recalling Submitted Approvals
+# Recall submitted approvals
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can recall any of the following objects submitted for approval:
 
@@ -39,7 +43,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher access to the object associated with the approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher access to the object associated with the approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +65,9 @@ To recall a project approval you submitted:
 1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
-1. Select a **Project** approval.
+1. Click a **Project** approval in the Work List.
+
+   This opens the project on the right of the Work List.
 
    ![Project.png](assets/project-350x331.png)
 
@@ -82,7 +88,9 @@ To recall a task approval you submitted:
 1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
-1. Select a **Task** approval.
+1. Click a **Task** approval in the Work List.
+
+   This opens the task to the right of the Work List.
 
    ![Task.png](assets/task-350x400.png)
 
@@ -101,7 +109,9 @@ If you recall an approval that is associated with the beginning status of the is
 1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
-1. Select an **Issue** approval.  
+1. Click an **Issue** approval in the Work List.
+
+   This opens the issue to the right of the Work List.   
    ![Issue.png](assets/issue-350x330.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
@@ -113,7 +123,9 @@ When you recall a timesheet approval, the timesheet returns to the status it was
 1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
-1. Select a **Timesheet** approval.  
+1. Click a **Timesheet** approval in the Work List.
+
+   This opens the timesheet to the right of the Work List.   
    ![Timesheet.png](assets/timesheet-350x329.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.
@@ -125,12 +137,14 @@ To recall a document approval, you must manually remove one or all users from th
 1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
-1. Select a **Document** approval.
+1. Click a **Document** approval in the Work List.
 
-   ![Document.png](assets/document-350x335.png)
+   This opens the document to the right of the Work List.
 
-1. Click **Manage Approvals** in the upper-right corner of the right panel.
-1. Click the **Remove** icon inline with the name of a user. Remove all users to completely recall the document&nbsp;approval.
+   ![Document.png](assets/document-350x232.png)
+
+1. Click **Manage Approvals** in the upper-right corner of the right panel. This opens the Manage Approvals box. 
+1. Click the **Remove** icon inline with the name of a user inside the Manage Approvals box. Remove all users to completely recall the document&nbsp;approval.
 
    ![Remove_User.png](assets/remove-user-350x41.png)
 
@@ -139,7 +153,10 @@ To recall a document approval, you must manually remove one or all users from th
 1. Go to **Home** in the Global Navigation Bar.
 1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
 
-1. Select an **Access Request** approval.  
+1. Click an **Access Request** approval in the Work List.
+
+   This opens the access request to the right of the Work&nbsp;List.
+
    ![Access_Request.png](assets/access-request-350x335.png)
 
 1. Click **Recall** in the upper-right corner of the right panel.

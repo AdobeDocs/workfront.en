@@ -1,14 +1,10 @@
----
-filename: review-and-submit-a-decision
-product: workfront-proof
-product-area: documents;system-administration;user-management;setup
-navigation-topic: personal-settings
-title: Review and submit a decision in Workfront Proof - Reviewer's Guide
-description: In this short instruction we present our new ProofHQ Viewer which highlights the benefits and new functionalities. You may still come across the proofs created in our Classic ProofHQ Viewer. If the proofs shared with you open in a viewer that looks different to the one presented here, check out our Reviewer’s Guide for the Classic ProofHQ Viewer.
-hidefromtoc: true
----
+
 
 # Review and submit a decision in Workfront Proof - Reviewer's Guide
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 >[!IMPORTANT]
 >

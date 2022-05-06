@@ -9,6 +9,10 @@ description: Adobe Workfront has partnered with a few Mobile Device Management (
 
 # Adobe Workfront for Mobile Device Management (MDM)
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront has partnered with a few Mobile Device Management (MDM) platforms to provide organizations a more secure and controlled mobile experience. The Workfront mobile app is available on the following mobile device management platforms:
 
 ## MobileIron

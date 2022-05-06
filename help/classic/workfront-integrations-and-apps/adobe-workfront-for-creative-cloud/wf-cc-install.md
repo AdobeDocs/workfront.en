@@ -8,6 +8,10 @@ description: You can install the Workfront for Adobe Photoshop plugin from the A
 
 # Install Workfront for Adobe Photoshop
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can install the Workfront for Adobe Photoshop plugin from the Adobe Marketplace.
 
 ## Access requirements
@@ -55,28 +59,9 @@ You must have the following access to perform the steps in this article:
 
 1. Continue to the following section for information on how to log in to the plugin.
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Find and install the plugin</h2>
--->
+## Log In to Workfront for Adobe Photoshop
 
-<!--
-<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li value="1"> <p>Download the file provided in <a href="https://drive.google.com/drive/folders/1EehEGJEQESlwP0uXepF3-0GFZGl2psJN?usp=sharing">Adobe Plugin Beta folder</a>.</p>
-<ol>
-<li value="1"> <p>Right click on the Workfront Plugin .ccx file, then click <strong>Download</strong>. You can check the .ccx file download progress in the bottom tray of the browser.</p> </li>
-<li value="2"> <p>Once the download is complete, double-click on the file in your tray. The Creative Cloud console automatically opens.</p> </li>
-</ol> </li>
-<li value="2"> <p>In the <strong>Couldn't verify plugin</strong> pop-up window, click<strong>Install locally</strong>.</p> <note type="note">
-Because this an early access plugin and not yet officially supported on the Marketplace, you must opt to install locally.
-</note> </li>
-<li value="3"> <p>Read the information in the dialog box, then click <strong>OK</strong>.</p> </li>
-<li value="4"> <p>Open Photoshop, and continue to the <a href="#log-in-to-workfront-for-adobe-photoshop" class="MCXref xref">Log In to Workfront for Adobe Photoshop</a> section below.</p> </li>
-</ol>
--->
-
-## Log In to Workfront for Adobe Photoshop {#log-in-to-workfront-for-adobe-photoshop}
-
-1. From the **Plugins**menu at the top of the screen, select **Plugin Panel**.
+1. From the **Plugins** menu at the top of the screen, select **Plugin Panel**.
 1. Select ```Workfront for Adobe Photoshop```.
 1. Enter your domain, then click **Log in**. A browser page opens.
 

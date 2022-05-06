@@ -4,15 +4,15 @@ title: Permissions on reports, dashboards, and calendars
 content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
-title: Share reports, dashboards, and calendars in Adobe Workfront
+title: Share reports, dashboards, and calendars
 description: Your Adobe Workfront administrator grants users access to view or edit reports, dashboards, and calendars when they assign access levels. For more information about granting access to reports, dashboards, and calendars, see Grant access to reports, dashboards, and calendars.
 ---
 
-# Share reports, dashboards, and calendars in Adobe Workfront
+# Share reports, dashboards, and calendars
 
 Your Adobe Workfront administrator grants users access to view or edit reports, dashboards, and calendars when they assign access levels. For more information about granting access to reports, dashboards, and calendars, see [Grant access to reports, dashboards, and calendars](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-Along with the access level that users are granted, you can also grant them permissions to View or Manage specific reports, dashboards, or calendars that you have access to Share. For information about granting users sharing permissions on objects, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Along with the access level that users are granted, you can also grant them permissions to View or Manage specific reports, dashboards, or calendars that you have access to Share. For information about granting users sharing permissions on objects, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 Permissions are specific to one item in Workfront and define what actions one can take on that item.
 
@@ -20,7 +20,7 @@ For information about what users in each access level can do with issues, see th
 
 ## Considerations about sharing a report, dashboard, or calendar
 
-In addition to the considerations below, also see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+In addition to the considerations below, also see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
@@ -29,12 +29,12 @@ In addition to the considerations below, also see [Overview of sharing permissio
 * The creator of a report, dashboard, or calendar has Manage permissions to them, by default.
 * Sharing reports, dashboards, and calendars is similar to sharing any other object in Workfront.
 
-  For more information about how to share objects in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+  For more information about how to share objects in Workfront, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
   Also see the following articles to learn how to share reports, dashboards, and calendars:
 
    * [Share a report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) 
-   * [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) 
+   * [Share a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) 
    * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * You can share reports and dashboards individually, or you can share them in bulk.
@@ -62,7 +62,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * You can remove inherited permissions from a report or calendar.
 
-  For more information about removing inherited permissions from objects, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md). 
+  For more information about removing inherited permissions from objects, see [Remove permissions from objects](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md). 
 
 * You can also share a report or a calendar publicly or system-wide.
 

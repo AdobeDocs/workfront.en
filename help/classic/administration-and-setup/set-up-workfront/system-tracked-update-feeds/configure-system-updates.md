@@ -9,6 +9,10 @@ description: Adobe Workfront generates automatic system updates in an object's U
 
 # Configure system updates
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Adobe Workfront generates automatic system updates in an object's Updates area to record the following events:
 
 * Changes users make in an object field
@@ -22,7 +26,7 @@ For example, you could have Workfront track all changes users make to the names 
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

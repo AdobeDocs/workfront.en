@@ -3,10 +3,14 @@ filename: override-project-level-with-company-level-billing-rates
 product-area: projects
 navigation-topic: financials
 title: Override Project-Level Billing Rates with Company-Level Billing Rates
-description: You can configure a project to use company-level billing rates instead of project-level billing rates.
+description: (NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)
 ---
 
 # Override Project-Level Billing Rates with Company-Level Billing Rates
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
+-->
 
 You can configure a project to use company-level billing rates instead of project-level billing rates.
 
@@ -32,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

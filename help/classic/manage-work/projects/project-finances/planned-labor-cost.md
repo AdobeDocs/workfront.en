@@ -9,6 +9,10 @@ description: As you plan the work on your projects, Adobe Workfront calculates t
 
 # Calculate Planned Labor Cost
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As you plan the work on your projects, Adobe Workfront calculates the Planned Labor Cost for the roles and users assigned to this work based on their Cost Per Hour values.
 
 The Planned Labor Cost of a project is a calculation between the cost associated with the job roles or the users assigned to complete the work on the project and the amount of hours planned (Planned Hours) that might take each role or user to complete that work.

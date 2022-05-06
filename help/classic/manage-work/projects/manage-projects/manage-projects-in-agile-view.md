@@ -3,10 +3,14 @@ filename: manage-projects-in-agile-view
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Manage a project in the Agile View
-description: Required plans, license types, and access Adobe Workfront Plan Team, Pro, Business, or Enterprise Workfront License Type Review, Work, or Plan Permissions for shared objects Edit access and ability to create reports, dashboards, and calendars
+description: Required plans, license types, and access Adobe Workfront Plan Team, Pro, Business, or Enterprise Workfront License Type Review, Work, or Plan Permissions in the access model Edit access and ability to create reports, dashboards, and calendars
 ---
 
 # Manage a project in the Agile View
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Required plans, license types, and access
 
@@ -23,7 +27,7 @@ Required plans, license types, and access
    <td> <p>Review, Work, or Plan </p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/permissions-for-shared-objects.md" class="MCXref xref" data-mc-variable-override="">Permissions for shared objects</a> </p> </td> 
+    <td> <p>Permissions in the access model</p> </td> 
     <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
    </tr>
   --> 
@@ -38,9 +42,9 @@ You can leverage agile functionality for your project
 </MadCap:conditionalText>
 -->
 
-&nbsp;without the administrative challenges&nbsp;that typically accompany agile practices (such as managing a team backlog, creating iterations, and so forth).
+&nbsp;without the administrative challenges&nbsp;that typically accompany agile practices (such as managing a team backlog or creating iterations).
 
-If you want to work in a more pure agile environment that uses&nbsp;a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+If you want to work in an agile environment that uses&nbsp;a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Access requirements
 
@@ -69,7 +73,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,13 +110,13 @@ There are some differences when using agile views on a project versus working in
 
 * Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board.   
   For example, these tasks appear as follows in the project list view:   
-  ![Agile project list - tasks with no parent or subtasks](assets/agile-project-single-list-350x103.png)  
+  ![Agile project list - tasks with no parent or subtasks](assets/agile-project-single-list-350x98.png)  
   These tasks appear as follows in the project agile view:   
   ![Project agile view - tasks with no parent or subtasks](assets/agile-project-singlecard-350x95.png)  
 
 * Parent tasks that have subtasks are always displayed in the **Stories** column of the story board. Subtasks are displayed in the swimlane of the parent task.   
   For example, these tasks appear as follows in the project list view:   
-  ![Agile project list - tasks with parents and subtasks](assets/agile-project-parent-list-350x103.png)  
+  ![Agile project list - tasks with parents and subtasks](assets/agile-project-parent-list-350x97.png)  
   
   These tasks appear as follows in the project agile view:   
   ![Agile project view - tasks with parents and subtasks](assets/agile-project-parent-350x95.png)  
@@ -164,7 +168,7 @@ For information about how to customize an agile view, see&nbsp; [Create or custo
 
 1. (Optional) If you have&nbsp;created a custom&nbsp;agile view, or if another user has created a custom&nbsp;agile view and shared it with you, you can view&nbsp;it instead of the default agile view.   
    Click the **View** drop-down menu, then click&nbsp;the custom agile view you want to view.  
-   ![](assets/agile-custom.png)  
+   ![](assets/agile-custom-350x299.png)  
    The custom agile view is used the next time you click the **Agile** icon.  
    For information about how to create a new agile view, see [Create and customize Agile views](#create-and-customize-agile-views).  
    The project is displayed in the custom&nbsp;agile view.
@@ -184,7 +188,7 @@ For more information about creating and customizing agile views, see &nbsp;the "
 
 ## Share an existing Agile view
 
-For information about how to share an agile view, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+For information about how to share an agile view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Remove an existing Agile view
 

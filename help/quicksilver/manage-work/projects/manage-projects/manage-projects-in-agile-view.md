@@ -3,7 +3,7 @@ filename: manage-projects-in-agile-view
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Manage a project in the Agile View
-description: Required plans, license types, and access Adobe Workfront Plan Team, Pro, Business, or Enterprise Workfront License Type Review, Work, or Plan Permissions for shared objects Edit access and ability to create reports, dashboards, and calendars
+description: Required plans, license types, and access Adobe Workfront Plan Team, Pro, Business, or Enterprise Workfront License Type Review, Work, or Plan Permissions in the access model Edit access and ability to create reports, dashboards, and calendars
 ---
 
 # Manage a project in the Agile View
@@ -23,7 +23,7 @@ Required plans, license types, and access
    <td> <p>Review, Work, or Plan </p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/permissions-for-shared-objects.md" class="MCXref xref" data-mc-variable-override="">Permissions for shared objects</a> </p> </td> 
+    <td> <p>Permissions in the access model</p> </td> 
     <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
    </tr>
   --> 
@@ -38,9 +38,9 @@ You can leverage agile functionality for your project
 </MadCap:conditionalText>
 -->
 
-&nbsp;without the administrative challenges&nbsp;that typically accompany agile practices (such as managing a team backlog, creating iterations, and so forth).
+&nbsp;without the administrative challenges&nbsp;that typically accompany agile practices (such as managing a team backlog or creating iterations).
 
-If you want to work in a more pure agile environment that uses&nbsp;a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+If you want to work in an agile environment that uses&nbsp;a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Access requirements
 
@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -185,7 +185,7 @@ For more information about creating and customizing agile views, see &nbsp;the "
 
 ## Share an existing Agile view
 
-For information about how to share an agile view, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+For information about how to share an agile view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Remove an existing Agile view
 

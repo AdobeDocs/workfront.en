@@ -3,12 +3,10 @@ filename: timesheet-approvals
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Approve a timesheet
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: The process of approving timesheets provides managers with visibility into the work hours of their direct reports. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the period.
 ---
 
 # Approve a timesheet
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 The process of approving timesheets provides&nbsp;managers with visibility into the work hours of their direct reports. Approvers can verify that&nbsp;all time recorded has been allocated in the correct areas and that&nbsp;a sufficient number of hours have been recorded for the period.
 
@@ -32,7 +30,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan or higher</p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +47,7 @@ For more information about designating timesheet approvers, see the section [Cre
 
 ## Approve a timesheet
 
-You can approve any timesheets that have been submitted where you have been designated as an approver. When a timesheet is submitted for approval, the timesheet is listed in the **Approvals**&nbsp;area on your **Home**&nbsp;page. For more information, see [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md).
+You can approve any timesheets that have been submitted where you have been designated as an approver. When a timesheet is submitted for approval, the timesheet is listed in the **Approvals**&nbsp;area on your **Home** &nbsp;page. For more information, see [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 If the Workfront administrator has&nbsp;enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers, you are notified after the timesheet is approved or rejected. For information about enabling event notifications, see [Event notifications available in Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
@@ -57,37 +55,35 @@ To approve a timesheet:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Click **Timesheets**.
-1.
+1. 
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (Conditional) Depending on which environment you are creating the timesheet in, select from the following:&nbsp;In the Production environment,
-   </MadCap:conditionalText>
-   -->
+   Select the **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
 
-   Click **Timesheets I Approve**in the left panel.
+   Or
 
-   A list of the timesheets waiting your approval displays. The status of the timesheets is Submitted.
+   Select the **My Timesheet Approvals** filter at the top of the timesheet list.
 
-   ![](assets/timesheets-i-approve-section-old-nwe-350x80.png)
+   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   <!--
-   <ul class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <li> <p>In the Preview environment, the <strong>All</strong> filter is selected by default. Do one of the following to view your timesheets</p>
-   <ul>
-   <li> <p>Click <strong>My Timesheet Approvals</strong> in the upper-right corner of the page</p> <p> <img src="assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png" style="width: 350;height: 58;"> </p> <p>Or</p> <p>Select the <strong>My Timesheet Approvals</strong>filter from the Filter icon <img src="assets/filter-nwepng.png"> drop-down menu. </p> <p>A list of all the timesheets waiting your approval displays. </p> <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p> </li>
-   </ul> </li>
-   </ul>
-   -->
+   >[!NOTE]
+   >
+   >The My Timesheet Approvals option does not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My&nbsp;Timesheet Approvals filter from either the List Controls in the Setup area or from your Layout Template.&nbsp;For more information see the following articles:
+   >
+   >   
+   >   
+   >   * [Edit list controls: filters, views, and groupings](../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md) 
+   >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
+   >   
+   >
 
-1. Click the timesheet you want to approve.
-1. Click **Approve**.
+1. Click the time frame for the timesheet you want to approve. The timesheet opens. 
+1. Click **Approve**
 
    Or
 
    If you want to reject the timesheet, click **Reject** in the lower-left corner of the timesheet.
 
-   If approved, the timesheet status changes to&nbsp;Closed.
+   If approved, the timesheet status changes to&nbsp;**Closed**.
 
-   If rejected, the timesheet status changes to Rejected.
+   If rejected, the timesheet status changes to **Rejected**.
 

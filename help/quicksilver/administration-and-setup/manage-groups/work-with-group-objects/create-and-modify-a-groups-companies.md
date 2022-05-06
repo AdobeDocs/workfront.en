@@ -86,7 +86,7 @@ You must have the following to perform the steps in this article:
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <strong></strong>
+   the Export icon
    <img src="assets/export.png">
    </MadCap:conditionalText>
    -->

@@ -4,10 +4,17 @@ content-type: tips-tricks-troubleshooting
 product-area: projects;user-management
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: Project Owner cannot share a project or any of its tasks with a team
-description: A user who is designated as the Project Owner of a project and has Manage permissions on the project is unable to share their project or any of its tasks with a Team. When they are sharing the project, a certain Team is not available to share and cannot be found in the Give project access to or the Give task access to fields.
+description: (Drafted article because I added it in a Project FAQ note)
+hidefromtoc: true
 ---
 
 # Project Owner cannot share a project or any of its tasks with a team
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Drafted article because I added it in a Project&nbsp;FAQ note)</p>
+-->
+
+##
 
 ## Problem
 

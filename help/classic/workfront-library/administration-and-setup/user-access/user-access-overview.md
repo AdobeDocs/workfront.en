@@ -10,6 +10,10 @@ description: By default, when a system administrator integratesWorkfront with Wo
 
 # Overview of user access to Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 By default, when a system administrator integratesWorkfront with Workfront Library, only users with administrative rights within Workfront can access Workfront Library. For information on setting up Workfront to integrate with Workfront Library, see [Configure document integrations](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 As a Workfront Library administrator, you can give Workfront users access to Workfront Library by adding them as users in Workfront Library. For more information on giving users access, see [Give users access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/give-users-access-to-library.md).

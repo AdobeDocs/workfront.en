@@ -9,6 +9,10 @@ description: The highlighted information on this page refers to functionality no
 
 # Understand the Timesheet layout
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.&nbsp;
@@ -18,10 +22,18 @@ Timesheet and Hour Preferences control what appears on a timesheet. This provide
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 <!--
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> ***first shot - make it classic only at release and draft it; the changes of the new UI affect both classic and NWE; delete the first shot after a while ****the second shot stays yellow for now and always NWE</span>
+-->
+
+<!--
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <img src="assets/timesheets-overview-adobe-350x269.png" alt="timesheets_overview_Adobe.png" style="width: 350;height: 269;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p>
 -->
 
 ## Title
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Above - make the second shot NWE only and keep yellow; make the first one classic only</p>
+-->
 
 ![](assets/timsheet-title-classic-350x132.png)
 

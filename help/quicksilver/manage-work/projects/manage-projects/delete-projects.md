@@ -35,7 +35,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project, tasks and issues on the project with ability to Delete the project, tasks, and issues. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project, tasks and issues on the project with ability to Delete the project, tasks, and issues. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,6 +57,10 @@ You can delete a project in a project list or at the project level.
 * ```If the project has tasks or issues with logged hours, the Workfront ```or group administrator``` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance for you to be able to delete the project that contains the tasks.```
 
   ```For more information about enabling the deletion of tasks, issues``` ```, or projects``` ```where hours are logged, see the "Deletion" section in``` [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
+  -->
 
 ### The impact of deleting projects {#the-impact-of-deleting-projects}
 
@@ -88,9 +92,9 @@ You can delete a project in a project list or at the project level.
    * If the project you delete is linked to the only published initiative from a plan, the indication that the plan has been published is also removed. 
    * If you recover a deleted project, the project is recovered, but its link to the initiative is not restored and the Scenario Planner area no longer displays in Project&nbsp;Details.
 
-     This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
-     For information about projects linked to initiatives in the Scenario Planner, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+     For information about projects linked to initiatives in the Scenario Planner, see [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 * If the project is also an activity for a goal in Workfront Goals:
 

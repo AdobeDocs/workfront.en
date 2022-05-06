@@ -19,6 +19,10 @@ This is parallel to the ability that a Workfront administrator has to lock or un
 
 For information about how a Workfront administrator can lock or unlock a preference for all groups in the system, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
+-->
+
 >[!NOTE]
 >
 >* Configuring an unlocked preference for a group doesn’t affect that preference for any subgroups below the group.

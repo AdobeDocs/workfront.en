@@ -9,6 +9,10 @@ description: Effort Driven is a duration type that you can set for a task in Ado
 
 # Duration Type overview: Effort Driven
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Effort Driven is a duration type that you can set for a task in Adobe Workfront. For general information about Duration Types in Workfront, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Overview of the Effort Driven Duration Type
@@ -129,6 +133,10 @@ In the following example, 3 assignees are 100% allocated to the Effort Driven ta
 ## Change the Duration Type of a task to Effort Driven
 
 For information about changing the Duration Type of a task, see [Update the Duration Type of a task](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>
+-->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

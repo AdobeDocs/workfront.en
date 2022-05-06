@@ -8,6 +8,10 @@ description: This is a list of resources that are new to API Version 9, to see a
 
 # What's New in API Version 9
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## New Resources
 
 This is a list of resources that are new to API&nbsp;Version 9, to see a list of updates that have been made to the resources of version 9, please visit [Updates to API Version 9](../../wf-api/api/new-api-version-9-updates.md)

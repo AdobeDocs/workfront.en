@@ -52,7 +52,7 @@ You can delete timesheet profiles in use by a group you manage. For instructions
 
 ## Manually generate group timesheets
 
-To enable changes that you made to group timesheet profiles to reflect&nbsp;in current group timesheets, you have to first delete the existing timesheets and then manually generate new ones. For instructions, see [Manually generate timesheets from the Timesheets area](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) in [Manually generate timesheets](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+To enable changes that you made to group timesheet profiles to reflect&nbsp;in current group timesheets, you have to first delete the existing timesheets and then manually generate new ones. For instructions, see [Manually generate timesheets from the Timesheets & Hours area](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) in [Manually generate timesheets](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 For information about on deleting group timesheets, see [Delete timesheets in Adobe Workfront](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
@@ -61,7 +61,7 @@ For information about on deleting group timesheets, see [Delete timesheets in Ad
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. Click **Groups**.
 
-   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+   In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.
 
 1. Click the name of the group with the timesheet profiles you want to export.
 1. Click **Timesheet Profiles**.

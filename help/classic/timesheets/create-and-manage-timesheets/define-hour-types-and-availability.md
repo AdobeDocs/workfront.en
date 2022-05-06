@@ -8,6 +8,10 @@ description: There are two sets of hour types in Adobe Workfront:
 
 # Define hour types and availability for timesheets
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 There are two sets of hour types in Adobe Workfront:
 
 * **General hours:** Hours that are not associated with a project, such as sick time or administration. You can log general hours only on the timesheet.

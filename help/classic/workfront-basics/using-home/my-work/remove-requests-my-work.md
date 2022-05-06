@@ -7,6 +7,10 @@ description: When work tasks and issues are assigned to you, they are listed on 
 
 # Remove requests from the Working On list
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the new Workfront experience as soon as possible.
+
 When work tasks and issues&nbsp;are assigned to you, they are listed on the Work Requests list under the My Work area.
 
 After you click the Work On It button, requests&nbsp;move to your Working On list, as described in the [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md) section of [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).

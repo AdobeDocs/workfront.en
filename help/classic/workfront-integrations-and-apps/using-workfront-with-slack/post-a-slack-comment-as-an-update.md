@@ -8,6 +8,10 @@ description: You can add a Slack comment as an update to a specific project, tas
 
 # Post a Slack comment as an update
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can add a Slack comment as an update to a specific project, task, or issue in Adobe Workfront.
 
 ## Access requirements

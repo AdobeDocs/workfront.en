@@ -3,14 +3,18 @@ filename: overview-reconcile-allocations-between-projects-initiatives
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Overview of reconciling resource allocations between projects and initiatives
-description: You can connect projects with initiatives to ensure your strategic plans and the actual work are in sync. As you outline your strategic plans and initiatives in the Scenario Planner and you plan the actual work in a project, you can ensure your resources on both the project and the initiatives match, so you won't either overallocate or underutilize them.
+description: (NOTE: two more articles were added to split content from here according to where the reconciling can happen)
 ---
 
 # Overview of reconciling resource allocations between projects and initiatives
 
 >[!IMPORTANT]
 >
->Your organization must purchase an additional license for the Adobe Workfront Scenario Planner so that you can view initiative information on a project. For information about obtaining the Workfront Scenario Planner, see [Access needed to use the Adobe Workfront Scenario Planner](../scenario-planner/access-needed-to-use-sp.md) .
+>Your organization must purchase an additional license for the Adobe Workfront Scenario Planner so that you can view initiative information on a project. For information about obtaining the Workfront Scenario Planner, see [Access needed to use the Scenario Planner](../scenario-planner/access-needed-to-use-sp.md) .
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>
+-->
 
 You can connect projects with initiatives to ensure your strategic plans and the actual work are in sync. As you outline your strategic plans and initiatives in the Scenario Planner and you plan the actual work in a project, you can ensure your resources on both the project and the initiatives match, so you won't either overallocate or underutilize them.
 
@@ -35,11 +39,11 @@ You can connect projects with initiatives by doing one of the following:
 
 * Import projects into a plan, as new initiatives
 
-  For more information, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md).
+  For more information, see [Import projects to plans in the Scenario Planner](../scenario-planner/import-projects-to-plans.md).
 
 * Publish initiatives to projects
 
-  For more information, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md) .
+  For more information, see [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md) .
 
 Both processes create a connection between the projects and their corresponding initiatives. After connecting them, you can manage their resource allocations by comparing them and ensuring that they match.
 
@@ -59,7 +63,7 @@ Both processes create a connection between the projects and their corresponding 
 
    * Scenario Planner section of the Project&nbsp;Details area on a project. For more information, see the following articles:
 
-      * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md) 
+      * [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md) 
       * [Manage information in the project Overview area](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
      >[!TIP]
@@ -80,7 +84,13 @@ Both processes create a connection between the projects and their corresponding 
      >
      >You can see job role information from the project and the initiative side-by-side in Role Allocation panel.
 
-* You cannot view job role allocation for a project on a linked initiative. For more information, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md).
+* You cannot view job role allocation for a project on a linked initiative. For more information, see [Import projects to plans in the Scenario Planner](../scenario-planner/import-projects-to-plans.md). 
+
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: this might change - project job role visibility into initiative)
+  </MadCap:conditionalText>
+  -->
 
 ##  
 

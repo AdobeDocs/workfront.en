@@ -10,6 +10,10 @@ description: You must have the following access to use the functionality in this
 
 # Adobe Workfront Fusion FAQ
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -56,7 +60,7 @@ You must have the following access to use the functionality in this article:
 
 A scenario defines a sequence of steps to be executed by Adobe Workfront Fusion. For each scenario, you specify the data source, how the data is to be processed, and what data is to be used and what is to be ignored. Workfront Fusion lets you create as complex of scenarios as you need; even the most sophisticated scenarios are possible.
 
-For more information, see [Create a practice integration scenario](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+For more information, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
 ## Can I use more than one module in a scenario? Or just a trigger and action?
 
@@ -70,7 +74,7 @@ You can use as many modules as you want in a scenario. You can create independen
 
 Yes. Using Workfront Fusion, files can be received, saved, transformed, converted, encrypted, and so on. Moreover, Workfront Fusion provides a wide range of built-in features designed to enable users to work effectively and creatively with the data contained in the files.
 
-For more information, see [About mapping files](../../workfront-fusion/mapping/about-mapping-files.md).
+For more information, see [About mapping files in Adobe Workfront Fusion](../../workfront-fusion/mapping/about-mapping-files.md).
 
 ## What happens if I let Workfront Fusion process an email containing more than one attachment?
 
@@ -92,7 +96,7 @@ Common scenarios are run at intervals according to the schedule you specify (for
 
 An Aggregator merges data into one single collection. An example of this is files being compressed into a zip archive and sent as an email attachment.
 
-For more information, see [Aggregator module](../../workfront-fusion/modules/aggregator-module.md).
+For more information, see [Aggregator module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
 ## What is an operation?
 

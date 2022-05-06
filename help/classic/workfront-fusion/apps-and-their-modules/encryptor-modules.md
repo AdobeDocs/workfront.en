@@ -2,7 +2,11 @@
 
 # Encryptor
 
-Encryptor modules allow you to encrypt any text data. They currently support message encryption via AES256 and PGP (OpenPGP).
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+Adobe Workfront Fusion Encryptor modules allow you to encrypt any text data. They currently support message encryption via AES256 and PGP (OpenPGP).
 
 ## Access requirements
 
@@ -48,7 +52,7 @@ You must have the following access to use the functionality in this article:
 
 When encrypting and decrypting via PGP, it is necessary to use a keychain and to create a private or public key (or both).
 
-For more information on public and private keys, see [Basic terms](../../workfront-fusion/get-started/basic-terms.md). For more information on keychains, see [Keys in Adobe Workfront Fusion](../../workfront-fusion/connections/keys.md).
+For more information on public and private keys, see [Basic terms in Adobe Workfront Fusion](../../workfront-fusion/get-started/basic-terms.md). For more information on keychains, see [Keys in Adobe Workfront Fusion](../../workfront-fusion/connections/keys.md).
 
 ## Encryptor modules and their fields
 

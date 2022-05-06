@@ -8,6 +8,10 @@ description: Smart folders are used to manage documents outside of a project, ta
 
 # Create and Manage Smart Folders
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Smart folders are used to manage documents outside of a project, task, or issue, and&nbsp;are found in the main Documents&nbsp;area in the Global Navigation Bar. You can set up a smart folder to filter assets and display only those important to you, rather than searching through all of your assets.
 
 Two smart folders are available to you by default the first time you access the Documents&nbsp;area: All Documents, and Recent. You can edit, rename, or copy default smart folders, but you cannot delete them. You can&nbsp;create additional smart folders to meet other asset management needs.
@@ -31,12 +35,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>View access to an object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -57,11 +56,6 @@ You can display folders in thumbnail, standard, or list view. To change the view
 1. Click **Add a Filter Rule**.
 1. Identify the information to be populated in the report by selecting the appropriate data type.
 1. Select the desired filter qualifier.&nbsp;
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about each qualifier, see <a href="../../reports-and-dashboards/reports/reporting-elements/advanced-filter-condition-qualifiers.md" class="MCXref xref">Advanced Filter and condition qualifiers </a>.</p>
-   -->
-
 1. Complete the filter rule, then click **Save Folder**.
 
 ## Edit a Smart Folder&nbsp;

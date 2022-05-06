@@ -8,6 +8,10 @@ description: As a project manager, you can specify what the billing rate is for 
 
 # Override Job Role Billing Rates at the project level
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As a project manager, you can specify what the billing rate is for a job role on a specific project. This project-level billing rate overrides the billing rate at the system level for this job role. Workfront uses the project-level billing rate of the job role to calculate revenue, instead of using the system-level billing rate.
 
 This article describes how you can override the system job role billing rates for a project.
@@ -42,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project that includes Edit Financial&nbsp;Data </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the project that includes Edit Financial&nbsp;Data </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,29 +71,40 @@ To override a billing rate for a project:
 
 1. Go to the project you want to override billing rates for.
 1. Click the **Billing Rates** tab. This tab might be located under **More**.
-1. Click **Add Billing Rate**.
-1. Click **New Billing Rate**.
-1. In the **Job Role** field, select the job role you want to change the billing rate for.  
-   ![new_billing_rate.png](assets/new-billing-rate-350x267.png)  
+1. Click **Add Billing Rate** > **New Billing Rate**.
+
+   The New Billing Rate box opens. 
+
+1. In the **Job Role** field, select the job role you want to change the billing rate for.
+
+   ![](assets/override-billing-rate-on-project-nwe-350x310.png)
+
    The **Default Billing Rate** field displays the system-level rate for this job role.
 
-1. In the **Billing Rates 1** field, enter the one time billing rate override, then click **Save** to override the billing rate one time,   
-   Or Click **Add Rate** to add more billing rate overrides.
+1. In the **Billing Rates 1** field, enter the one time billing rate override, then click **Save** to override the billing rate one time
 
-1. (Conditional) If you are adding more than one billing rate override, specify the following information:  
-   - **Billing Rates 1**: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the **Default Rate**.  
-   - **Start Date**: this is the date when the Default Rate ends.  
-   - **End Date**: the date when the new billing rate override ends.   
-   ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)  
-   Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.  
-   There should be no gaps between the time frames of two override rates. The **Start Date** of an override rate should be the day immediately following the **End Date** of the previous override date.
+   Or
 
-   >[!NOTE]
-   >
-   >You cannot specify a **Start Date** for the first override rate, nor an **End Date** for the last override rate. We recommend that you use the Default Rate for the first override rate.  
-   >Workfront assumes that the first override rate is applied for all hours with a date older than the**End Date** of the first override, and that the last override rate is applied for all hours with a date newer than the **Start Date** of the last override.  
-   >If an hour is logged before the Planned Start Date of the project the very first billing rate is used.  
-   >If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
+   Click **Add Rate** to add more billing rate overrides.
 
+1. (Conditional) If you are adding more than one billing rate override, specify the following information:
+
+   * **Billing Rates 1**: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the **Default Rate**.
+   * **Start Date**: this is the date when the Default Rate ends.
+   * **End Date**: the date when the new billing rate override ends.
+
+   ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+
+1. The timezone for the dates you select displays at the bottom of the New Billing Rate box. This is the timezone associated with your Workfront&nbsp;instance, as shown in the Customer Info area of Setup. For information, see [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+1. Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.
+1. There should be no gaps between the time frames of two override rates. The **Start Date** of an override rate should be the day immediately following the **End Date** of the previous override date.
+
+1. You cannot specify a Start Date for the first override rate, nor an End Date for the last override rate.   
+   We recommend that you use the Default Rate for the first override rate.   
+   Workfront assumes that the first override rate is applied for all hours with a date older than the End Date of the first override, and that the last override rate is applied for all hours with a date newer than the Start Date of the last override.   
+   If an hour is logged before the Planned Start Date of the project the very first billing rate is used.   
+   If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
+
+1. 
 1. Click **Save**.
 

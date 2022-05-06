@@ -3,12 +3,12 @@ filename: print-dashboard
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Print a dashboard
-description: You can print or export a dashboard as a PDF file. To print a dashboard, you must have permission to View it.
+description: You can print or export a dashboard to a .PDF file. To print a dashboard, you must have permission to View it.
 ---
 
 # Print a dashboard
 
-You can print or export a dashboard as a PDF file. To print a dashboard, you must have permission to View it.
+You can print or export a dashboard to a .PDF file. To print a dashboard, you must have permission to View it.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +51,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 ## Understand what information is printed when printing a dashboard
 
-When printing a dashboard or saving it as a PDF file, some information from the dashboard, as it appears in the Adobe Workfront web application, may not appear on the printed or exported file.
+When printing a dashboard or saving it as a .PDF file, some information from the dashboard, as it appears in the Adobe Workfront web application, may not appear on the printed or exported file.
 
 * [What is displayed?](#what-is-displayed) 
 * [What is not displayed?](#what-is-not-displayed)
@@ -81,14 +81,23 @@ The following information is not included in the printed or exported dashboard f
 
    * Click **Dashboard Actions** > **Print**
    
-   * Press **Ctrl+P** (on Windows) or **Command+P** (on Mac)  
-     The keyboard shortcut option is not available when using the Internet Explorer browser.
+   * Press **Ctrl+P** (on Windows) or **Command+P** (on Mac)
+
+     >[!TIP]
+     >
+     >
+     >   
+     >   
+     >   * The Dashboard Actions link is not available when the dashboard is embedded in a custom tab. For information about creating custom tabs, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md). 
+     >   * The keyboard shortcut option is not available when using the Internet Explorer browser.
+     >   
+     >
 
 1. In the **Destination** field, select from the various printing options available.  
    The printing options vary depending on the browser and browser version you use.
 
-1. (Optional) Save the dashboard as a PDF file, then click **Save** to save the PDF.  
-   To learn how to save the dashboard as a PDF file, see [Export a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+1. (Optional) Save the dashboard as a .PDF file, then click **Save** to save the .PDF.  
+   To learn how to save the dashboard as a .PDF file, see [Export a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 1. Click **Print**.
 

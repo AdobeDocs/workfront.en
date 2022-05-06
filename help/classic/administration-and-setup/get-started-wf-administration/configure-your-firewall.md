@@ -9,6 +9,10 @@ description: If your firewall or mail server is configured to allow access to on
 
 # Configure your firewall's allowlist
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
 
 * Sending messages from the Workfront application
@@ -45,7 +49,7 @@ The IP addresses that you must add to your allowlist on your firewall depend on 
 >* Workfront for Salesforce 
 >
 
-* [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)<![CDATA[                ]]>
+* [IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9) 
 * [IP addresses to allow for Cluster 4](#ip-addresses-to-allow-for-cluster-4) 
 * [IP addresses to allow for Cluster 6](#ip-addresses-to-allow-for-cluster-6) 
 * [IP addresses to allow for a Test Drive](#IP%20Addre2) 
@@ -71,13 +75,13 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
      <li>35.160.0.242</li> 
      <li>34.213.36.118</li> 
      <li>3.209.27.146</li> 
-     <li> <p>18.205.251.4</p> </li> 
-     <li> <p>34.211.224.9</p> </li> 
-     <li> <p>54.218.48.56</p> </li> 
-     <li> <p>52.36.154.34</p> </li> 
-     <li> <p>54.244.142.219</p> </li> 
-     <li> <p>52.39.217.230</p> </li> 
-     <li> <p>44.241.82.96</p> </li> 
+     <li>18.205.251.4</li> 
+     <li>34.211.224.9</li> 
+     <li>54.218.48.56</li> 
+     <li>52.36.154.34</li> 
+     <li>54.244.142.219</li> 
+     <li>52.39.217.230</li> 
+     <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -94,10 +98,10 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
      <li>54.71.252.65</li> 
     </ul> <p>For information about the following IP addresses, see <a href="../../product-announcements/announcements/new-email-ip-21.1.md" class="MCXref xref">New IP addresses for Adobe Workfront email with the 21.1 release</a></p> 
     <ul> 
-     <li> <p>23.251.237.107</p> </li> 
-     <li> <p>23.251.237.108</p> </li> 
-     <li> <p>23.251.237.109</p> </li> 
-     <li> <p>23.251.237.106</p> </li> 
+     <li>23.251.237.107</li> 
+     <li>23.251.237.108</li> 
+     <li>23.251.237.109</li> 
+     <li>23.251.237.106</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -189,7 +193,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
    <td role="rowheader">For SSO and document webhook integrations when using a Test Drive</td> 
    <td> 
     <ul> 
-     <li>69.42.126.188 (this address must also be added to your allowlist in order for your users to receive emails from Workfront)</li> 
+     <li> <p>69.42.126.188:</p> <p>This address must also be added to your allowlist in order for your users to receive emails from Workfront.</p> </li> 
      <li>66.119.37.186</li> 
      <li>66.119.37.167</li> 
      <li>54.244.142.219</li> 
@@ -212,24 +216,24 @@ For all environments, add the following IP addresses to receive payloads from Wo
    <td role="rowheader"> For customers in Europe</td> 
    <td> 
     <ul> 
-     <li> <p>52.30.133.50</p> </li> 
-     <li> <p>52.208.159.124</p> </li> 
-     <li> <p>54.220.93.204</p> </li> 
-     <li> <p>52.17.130.201</p> </li> 
-     <li> <p>34.254.76.122</p> </li> 
-     <li> <p>34.252.250.191</p> </li> 
+     <li>52.30.133.50</li> 
+     <li>52.208.159.124</li> 
+     <li>54.220.93.204</li> 
+     <li>52.17.130.201</li> 
+     <li>34.254.76.122</li> 
+     <li>34.252.250.191</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">For customers in locations other than Europe</td> 
    <td> 
     <ul> 
-     <li> <p>54.244.142.219</p> </li> 
-     <li> <p>44.241.82.96</p> </li> 
-     <li> <p>52.36.154.34</p> </li> 
-     <li> <p>34.211.224.9</p> </li> 
-     <li> <p>54.218.48.56</p> </li> 
-     <li> <p>52.39.217.230</p> </li> 
+     <li>54.244.142.219</li> 
+     <li>44.241.82.96</li> 
+     <li>52.36.154.34</li> 
+     <li>34.211.224.9</li> 
+     <li>54.218.48.56</li> 
+     <li>52.39.217.230</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -311,18 +315,18 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
    <td role="rowheader">Adobe Workfront EU Datacenter</td> 
    <td> 
     <ul> 
-     <li> <p>52.30.133.50</p> </li> 
-     <li> <p>54.220.93.204</p> </li> 
-     <li> <p>34.254.76.122</p> </li> 
+     <li>52.30.133.50</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
    <td> 
     <ul> 
-     <li> <p>54.244.142.219</p> </li> 
-     <li> <p>52.39.217.230</p> </li> 
-     <li> <p>44.241.82.96</p> </li> 
+     <li>54.244.142.219</li> 
+     <li>52.39.217.230</li> 
+     <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -336,17 +340,11 @@ Also, if your organization uses outbound network filtering, add the following do
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront EU Datacenter</td> 
-   <td> 
-    <ul> 
-     <li> hook.app-eu.workfrontfusion.com </li> 
-    </ul> </td> 
+   <td> <p> hook.app-eu.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
-   <td> 
-    <ul> 
-     <li>hook.app.workfrontfusion.com </li> 
-    </ul> </td> 
+   <td> <p>hook.app.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -369,16 +367,16 @@ The jira.workfront.com domain must also be accessible from your corporate server
    <td role="rowheader"> For customers in Europe</td> 
    <td> 
     <ul> 
-     <li> <p>52.30.133.50</p> </li> 
-     <li> <p>52.208.159.124</p> </li> 
-     <li> <p>54.220.93.204</p> </li> 
-     <li> <p>52.17.130.201</p> </li> 
-     <li> <p>34.254.76.122</p> </li> 
-     <li> <p>34.252.250.191</p> </li> 
-     <li> <p>35.162.128.73</p> </li> 
-     <li> <p>52.42.25.64</p> </li> 
-     <li> <p>34.213.36.118</p> </li> 
-     <li> <p>35.160.0.242 </p> </li> 
+     <li>52.30.133.50</li> 
+     <li>52.208.159.124</li> 
+     <li>54.220.93.204</li> 
+     <li>52.17.130.201</li> 
+     <li>34.254.76.122</li> 
+     <li>34.252.250.191</li> 
+     <li>35.162.128.73</li> 
+     <li>52.42.25.64</li> 
+     <li>34.213.36.118</li> 
+     <li>35.160.0.242 </li> 
      <li> <p>3.209.27.146</p> </li> 
      <li> <p>18.205.251.4</p> </li> 
     </ul> </td> 
@@ -387,18 +385,18 @@ The jira.workfront.com domain must also be accessible from your corporate server
    <td role="rowheader">For customers in locations other than Europe</td> 
    <td> 
     <ul> 
-     <li> <p>54.244.142.219</p> </li> 
-     <li> <p>44.241.82.96</p> </li> 
-     <li> <p>52.36.154.34</p> </li> 
-     <li> <p>34.211.224.9</p> </li> 
-     <li> <p>54.218.48.56</p> </li> 
-     <li> <p>52.39.217.230</p> </li> 
-     <li> <p>35.162.128.73</p> </li> 
-     <li> <p>52.42.25.64</p> </li> 
-     <li> <p>34.213.36.118</p> </li> 
-     <li> <p>35.160.0.242 </p> </li> 
-     <li> <p>3.209.27.146</p> </li> 
-     <li> <p>18.205.251.4</p> </li> 
+     <li>54.244.142.219</li> 
+     <li>44.241.82.96</li> 
+     <li>52.36.154.34</li> 
+     <li>34.211.224.9</li> 
+     <li>54.218.48.56</li> 
+     <li>52.39.217.230</li> 
+     <li>35.162.128.73</li> 
+     <li>52.42.25.64</li> 
+     <li>34.213.36.118</li> 
+     <li>35.160.0.242 </li> 
+     <li>3.209.27.146</li> 
+     <li>18.205.251.4</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -423,14 +421,14 @@ The jira.workfront.com domain must also be accessible from your corporate server
    <td role="rowheader">To receive email notifications from Workfront Ascent</td> 
    <td> 
     <ul> 
-     <li> <p>23.251.227.75</p> </li> 
-     <li> <p>23.251.227.76</p> </li> 
-     <li> <p>23.251.227.77</p> </li> 
-     <li> <p>23.251.227.78</p> </li> 
-     <li> <p>23.251.227.79</p> </li> 
-     <li> <p>23.251.227.80</p> </li> 
-     <li> <p>23.251.227.81</p> </li> 
-     <li> <p>23.251.227.82</p> </li> 
+     <li>23.251.227.75</li> 
+     <li>23.251.227.76</li> 
+     <li>23.251.227.77</li> 
+     <li>23.251.227.78</li> 
+     <li>23.251.227.79</li> 
+     <li>23.251.227.80</li> 
+     <li>23.251.227.81</li> 
+     <li>23.251.227.82</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -501,44 +499,44 @@ You must add the following IP addresses to your allowlist in order to use variou
    <td role="rowheader">Prod-US (Clusters 1, 2, 3, 5, and 7)</td> 
    <td> 
     <ul> 
-     <li> <p>34.213.36.118</p> </li> 
-     <li> <p>35.160.0.242</p> </li> 
-     <li> <p>3.209.27.146</p> </li> 
-     <li> <p>18.205.251.4</p> </li> 
-     <li> <p>35.165.152.202</p> </li> 
-     <li> <p>54.184.151.122</p> </li> 
-     <li> <p>35.84.40.190</p> </li> 
-     <li> <p>54.218.48.56</p> </li> 
-     <li> <p>34.211.224.9</p> </li> 
-     <li> <p>52.36.154.34</p> </li> 
-     <li> <p>34.232.138.38</p> </li> 
-     <li> <p>54.237.6.156</p> </li> 
-     <li> <p>54.237.12.32</p> </li> 
-     <li> <p>44.241.82.96</p> </li> 
-     <li> <p>54.244.142.219</p> </li> 
-     <li> <p>52.39.217.230</p> </li> 
-     <li> <p>52.207.47.153</p> </li> 
-     <li> <p>50.16.118.214</p> </li> 
-     <li> <p>52.54.180.191</p> </li> 
+     <li>34.213.36.118</li> 
+     <li>35.160.0.242</li> 
+     <li>3.209.27.146</li> 
+     <li>18.205.251.4</li> 
+     <li>35.165.152.202</li> 
+     <li>54.184.151.122</li> 
+     <li>35.84.40.190</li> 
+     <li>54.218.48.56</li> 
+     <li>34.211.224.9</li> 
+     <li>52.36.154.34</li> 
+     <li>34.232.138.38</li> 
+     <li>54.237.6.156</li> 
+     <li>54.237.12.32</li> 
+     <li>44.241.82.96</li> 
+     <li>54.244.142.219</li> 
+     <li>52.39.217.230</li> 
+     <li>52.207.47.153</li> 
+     <li>50.16.118.214</li> 
+     <li>52.54.180.191</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prod-EU (Cluster 4)</td> 
    <td> 
     <ul> 
-     <li> <p>34.246.27.40</p> </li> 
-     <li> <p>52.208.123.166</p> </li> 
-     <li> <p>3.121.91.129</p> </li> 
-     <li> <p>3.122.11.35</p> </li> 
-     <li> <p>34.241.103.51</p> </li> 
-     <li> <p>46.51.203.201</p> </li> 
-     <li> <p>54.247.174.227</p> </li> 
-     <li> <p>52.208.159.124</p> </li> 
-     <li> <p>52.17.130.201</p> </li> 
-     <li> <p>34.252.250.191</p> </li> 
-     <li> <p>52.30.133.50</p> </li> 
-     <li> <p>54.220.93.204</p> </li> 
-     <li> <p>34.254.76.122</p> </li> 
+     <li>34.246.27.40</li> 
+     <li>52.208.123.166</li> 
+     <li>3.121.91.129</li> 
+     <li>3.122.11.35</li> 
+     <li>34.241.103.51</li> 
+     <li>46.51.203.201</li> 
+     <li>54.247.174.227</li> 
+     <li>52.208.159.124</li> 
+     <li>52.17.130.201</li> 
+     <li>34.252.250.191</li> 
+     <li>52.30.133.50</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> <p>Note: DNS server options are no longer supported.</p> </td> 
   </tr> 
  </tbody> 
@@ -554,20 +552,20 @@ You must add the following IP addresses to your allowlist in order to use variou
    <td role="rowheader"> <p>Prod-US (Clusters 1, 2, 3, 5, and 7)</p> </td> 
    <td> 
     <ul> 
-     <li> <p> 23.251.237.106</p> </li> 
-     <li> <p>23.251.237.107</p> </li> 
-     <li> <p>23.251.237.108</p> </li> 
-     <li> <p>54.240.60.174</p> </li> 
-     <li> <p>54.240.60.175</p> </li> 
+     <li> 23.251.237.106</li> 
+     <li>23.251.237.107</li> 
+     <li>23.251.237.108</li> 
+     <li>54.240.60.174</li> 
+     <li>54.240.60.175</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prod-EU (Cluster 4)</td> 
    <td> 
     <ul> 
-     <li> <p>23.251.239.98</p> </li> 
-     <li> <p>69.169.230.231</p> </li> 
-     <li> <p>69.169.230.232</p> </li> 
+     <li>23.251.239.98</li> 
+     <li>69.169.230.231</li> 
+     <li>69.169.230.232</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

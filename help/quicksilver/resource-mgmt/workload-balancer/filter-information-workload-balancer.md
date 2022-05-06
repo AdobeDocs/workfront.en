@@ -3,10 +3,14 @@ filename: filter-information-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Manage filters in the Workload Balancer
-description: As a resource manager, you can use the Workload Balancer to view and manage the workload of your users. For more general information about the Workload Balancer, see the following articles:
+description: NOTE: when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)
 ---
 
 # Manage filters in the Workload Balancer
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER) </p>
+-->
 
 As a resource manager, you can use the Workload Balancer to view and manage the workload of your users. For more general information about the Workload Balancer, see the following articles:
 
@@ -43,12 +47,16 @@ You must have the following:
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-     <li xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filters, Views, and Groupings</p> </li> 
-    </ul> <p xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Edit access to Filters, Views, and Groupings when building or editing filters</span> </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filters, Views, and Groupings</p> </li> 
+    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Edit access to Filters, Views, and Groupings when building or editing filters</span> </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, issues<span xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">,<span data-mc-edit-date="2021-08-31T17:08:19.1487558-04:00" data-mc-editor="alinaw" data-mc-comment="drafted, yellow" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2021-08-31T17:08:16.2246621-04:00">filters</span></span></p> <p xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Manage permissions to the filters you want to edit or delete</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects, tasks, issues<span data-mc-conditions="QuicksilverOrClassic.Quicksilver">,<span data-mc-edit-date="2021-08-31T17:08:19.1487558-04:00" data-mc-editor="alinaw" data-mc-comment="drafted, yellow" data-mc-initials="AL" data-mc-creator="alinaw" data-mc-create-date="2021-08-31T17:08:16.2246621-04:00">filters</span></span></p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Manage permissions to the filters you want to edit or delete <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       (NOTE: stays NWE)
+      </MadCap:conditionalText>
+     --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,10 +140,6 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
    The filter builder box displays on the right. The name of the area you create the filter for displays in the header of the box.
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/new-filters-empty-panel-workload-balancer-350x371.png" style="width: 350;height: 371;"> </p>
-   -->
-
    ![](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
 
 1. (Optional and conditional) If you access the Workload Balancer in the Resourcing area, the predefined Default filter might already be applied to the Assigned Work area. You can edit and save a copy of the Default filter.
@@ -144,7 +148,11 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    >
    >The Default filter displays users that belong to any of your teams and their work items. You can edit a copy of this filter.
 
-1. Click **New filter**, then do the following:
+1. Click **New filter.**
+
+   ![](assets/new-filters-empty-panel-workload-balancer-350x460.png)
+
+1. To create a filter, do the following:
 
    1. Select a field name in the first drop-down menu or click **Search All Fields** to start typing the name of a field that does not display by default and select it.
 
@@ -177,6 +185,13 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    1. (Optional)&nbsp;Click the **Delete** icon ![](assets/delete.png) to remove a filter criteria.
 
 1. (Optional) Click **Add filter** to add another filter criteria, then repeat the actions from step 4. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: ensure this stays correct)
+   </MadCap:conditionalText>
+   -->
+
 1. Click&nbsp;**Apply** to apply the results of the filter to the selected Workload Balancer area without saving it.
 
    The list of work items updates on the left.

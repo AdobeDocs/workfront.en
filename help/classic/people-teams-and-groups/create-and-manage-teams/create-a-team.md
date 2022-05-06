@@ -8,6 +8,10 @@ description: When you create a team you become the Team Owner, by default.
 
 # Create a team
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When you create a team you become the Team Owner, by default.
 
 You can view Team Owners for all the teams when you create a report for Teams and include the Owner Name field in your report. (For more information about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)

@@ -11,6 +11,10 @@ description: Advanced branding is available on Select and Premium plans and is i
 
 >[!IMPORTANT]
 >
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+>[!IMPORTANT]
+>
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Advanced branding is available on Select and Premium plans and is included in the cost of the plan.
@@ -32,7 +36,7 @@ The following sections describe advanced branding in more detail:
 
 ## Advanced Branding Overview
 
-You'll find the Branding configuration section&nbsp;in the [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) tab of your [Account Settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) page. To apply the changes to your account make sure that Branding option is set to Enabled (1).  
+You'll find the Branding configuration section&nbsp;in the tab of your [Account Settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) page. To apply the changes to your account make sure that Branding option is set to Enabled (1).  
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 Please see the section below for more detailed information on how to configure the Advanced branding options (2-14).

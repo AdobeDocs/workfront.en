@@ -1,6 +1,15 @@
+---
+filename: how-to-delegate-work
+navigation-topic: delegate-work
+title: Delegate tasks and issues
+description: (NOTE: you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work")
+---
 
+# Delegate tasks and issues
 
-# Delegate work
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work")</p>
+-->
 
 You can temporarily delegate the work you are assigned to while you are out of the office.
 
@@ -20,15 +29,23 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>Work or higher</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Although you can be assigned to work when you have a Review or Request license, you cannot delegate your work to others. Workfront does not recommend assigning work to Review or&nbsp;Request users (NOTE:&nbsp;is this still true??)</p>
+    --> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects,&nbsp;Tasks, or Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Issues <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       (NOTE:&nbsp;add Projects here when you can delegate them?)
+      </MadCap:conditionalText>
+     --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to the tasks or issues that you are assigned to</p> <p>Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to the tasks or issues that you are assigned to</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
+    --> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,19 +54,62 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-Before you begin, you must
+Before you can perform the activities described in this article, you must ensure the following:
 
-<!--
-<p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong> <br>Use a bullet list to describe the prerequisites needed to complete the task or tasks below. If there are no prerequisites, delete the entire section. </p>
--->
+* Your Workfront administrator enabled the Delegation preferences in your Workfront instance.&nbsp;For more information, see [Configure Delegation preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-delegation-preferences.md). 
 
-* [List out prerequisites]
+  <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  (NOTE: can the group admin do this too?&nbsp;Add??)
+  </MadCap:conditionalText>
+  -->
 
-## [Task title]
+## Delegate work
 
-<!--
-<p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong> <br>Repeat the title of the article if you have only one section. Enter a small intro paragraph if needed; otherwise, proceed with steps. If you have multiple tasks, create a new section for each task. </p>
--->
+Before delegating work to others, we recommend that you reach out to them and inform them that they will be designated as delegates on your work items. Ask their verbal approval before delegating work to ensure they have the time necessary to complete the work while you are out of the office.
 
-1. &nbsp;
+To delegate your tasks and issues to others:
+
+1. Go to the **Home** area, then click&nbsp;the **Delegate** button at the top of the **Work List**.
+
+   ![](assets/delegate-button-in-home-350x155.png)
+
+1. In the **Delegate tasks and issues** tab, update the following: 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: are these fields named correctly in the UI?&nbsp;Did these using mocks)
+   </MadCap:conditionalText>
+   -->
+
+   * **Delegate your tasks and issues to**: Start typing the name of a user that you want your tasks and issues to be delegated to, then select it when it displays in the list. You can only select one user. 
+   * **Delegation start date**: Select a date from the calendar when the delegation of your work items should start.
+   * **No end date**:&nbsp;Select this option if you do not want to specify the end-date for your delegation. 
+   * **Delegation end date**:&nbsp;Select a date from the calendar when the delegation should stop.   
+   
+     <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     (NOTE:&nbsp;below is a mock.&nbsp;Replace?)   
+     </MadCap:conditionalText>   
+     -->
+
+   ![](assets/delegate-box-expanded-in-home-350x526.png)
+
+1. Click **Delegate tasks and issues**.
+
+   Your tasks and issues are now delegated to the user that you specified.
+
+   You receive a message in the upper-right corner of the screen to confirm that you have enabled the delegation of your work to another user.&nbsp;The name of the delegate user displays in the confirmation message.
+
+   The **Delegate** button in the Home area changes to **Work delegated** to indicate that your tasks and issues are currently delegated to another user. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+   </MadCap:conditionalText>
+   -->
+
+   ![](assets/work-delegated-button-in-home-350x158.png)
+
+   The user you selected as your delegate receives an email and an in-product notification that alerts them that you selected them as the delegate for your work.
 

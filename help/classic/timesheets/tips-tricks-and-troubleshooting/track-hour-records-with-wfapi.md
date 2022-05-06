@@ -9,6 +9,10 @@ description: If your organization uses Adobe Workfront to enter hours worked, bu
 
 # Track Hour Records with the Adobe Workfront API
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If your organization uses Adobe Workfront to enter hours worked,&nbsp;but uses another tool as the system of record for that data, you can use the Workfront API to synchronize data between the two systems.
 
 Simply tracking the hour record is not feasible because, if the hour entry is removed, the entire record is deleted, requiring you to pull the entire dataset and compare it to the old dataset. Fortunately, all hour transactions are recorded in Workfront Journal Entries.

@@ -105,7 +105,7 @@ Before you add a user, gather the information about the user listed below and de
    * Leave **Send an invite email to this person** enabled. If you do this, the user receives an email where they can follow a link to create their own password for Workfront. Users who do not accept the email invitation and create a Workfront password are listed as Unregistered in Workfront.
    * Disable **Send an invite email to this person**, then type a **Password** for the person and confirm it in the **Confirm Password** box. You will need to share this password with the user outside of Workfront.
 
-1. y Click **Add This User**.
+1. Click **Add This User**.
 
    Or
 
@@ -132,7 +132,7 @@ To create new user by copying an existing one:
 
    For information about all fields associated with a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. y Click **Add This User**.
+1. Click **Add This User**.
 
    Or
 

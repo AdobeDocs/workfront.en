@@ -3,10 +3,18 @@ filename: configure-my-settings
 product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configure My Settings
-description: Your Adobe Workfront profile contains information about yourself (for example, your name, email address, address, phone number, title, etc). It also contains information about your interactions with Workfront and other users in your company (for example, your notifications settings, the tabs you want to display in Workfront, or your job role, manager and group and team memberships).
+description: Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.
 ---
 
 # Configure My Settings
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
+-->
 
 Your Adobe Workfront profile contains information about yourself (for example, your name, email address, address, phone number, title, etc). It also contains information about your interactions with Workfront and other users in your company (for example, your notifications settings, the tabs you want to display in Workfront, or your job role, manager and group and team memberships).&nbsp;
 
@@ -344,12 +352,16 @@ You can change any of the following in this sub-section:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
-    <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you. <span class="PinkDraftNote">[Add a note about this being only for the Enterprise package if they decide to do it that way]</span><br></p> </td> 
+    <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.<!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+        <span class="PinkDraftNote">Add a note about this being only for the Enterprise package if they decide to do it that way. Functionality that may come in a later sprint: If you want to be notified when the administrator logs in as you, select Receive an email when this user logs in.</span> 
+       </MadCap:conditionalText>
+      --></p> </td> 
    </tr>
   --> 
   <tr> 
    <td role="rowheader">(Conditional) <strong>User can generate proofs (... out of ... proof licenses left)</strong></td> 
-   <td>This field is available only if your company uses a legacy Workfront plan and has purchased the Workfront Proof component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable&nbsp;only to users who are also Workfront administrators. For more information about the plan options for proofing in Workfront, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</td> 
+   <td>This field is available only if your company uses a legacy Workfront plan and has purchased the Workfront Proof component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable&nbsp;only to users who are also Workfront administrators. For more information about the plan options for proofing in Workfront, see .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">(Conditional) <strong>Permission Profile</strong></td> 
@@ -415,7 +427,7 @@ Use any of the following in this section:
  <tbody> 
   <tr> 
    <td role="rowheader">Schedule Deactivation</td> 
-   <td>Check this box if you want to schedule that your account should&nbsp;be deactivated after a period of time. In the <p><strong>Scheduled Deactivation Date</strong> that appears, specify the date after which your account&nbsp;becomes deactivated. For information about deactivating users, see&nbsp;<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schedule users for deactivation</a>&nbsp;in&nbsp;<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.&nbsp;</p><p>You can edit the deactivation fields of your account if you have a Plan license or you are the Workfront administrator.&nbsp;</p></td> 
+   <td>Check this box if you want to schedule that your account should&nbsp;be deactivated after a period of time. In the <p><strong>Scheduled Deactivation Date</strong> that appears, specify the date after which your account&nbsp;becomes deactivated. For information about deactivating users, see&nbsp;<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schedule users for deactivation</a>&nbsp;in&nbsp;<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a>.&nbsp;</p><p>You can edit the deactivation fields of your account if you have a Plan license or you are the Workfront administrator.&nbsp;</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Primary Role</td> 

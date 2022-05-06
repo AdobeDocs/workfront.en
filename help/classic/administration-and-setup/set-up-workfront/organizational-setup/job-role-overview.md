@@ -9,6 +9,10 @@ description: A job role represents a functional capacity or a skill set a user m
 
 # Job role overview
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 A job role represents a functional capacity or a skill set a user might fill.&nbsp;This article describes the various uses of job roles in&nbsp;Adobe Workfront. 
 
 For more information about managing job roles, see the following articles:
@@ -21,7 +25,7 @@ You can use job roles for the following purposes:
 
 * You can associate a user with job roles to indicate the skills they are able to perform. You can associate a user with multiple job roles. For information, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
 * You must associate users with job roles when using the Workfront resource management tools.&nbsp;In some cases, this is a prerequisite to managing your resources in Workfront. For information, see [Get started with Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md). 
-* You can add job roles to Resource Pools. All users associated with the roles added become part of the resource pool. For information, see [Create resource pools in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* You can add job roles to Resource Pools. All users associated with the roles added become part of the resource pool. For information, see [Create resource pools](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
 * You can use job roles as place-holders for assigning them to work items when you don't know yet who might be able to complete the work.
 
   For example, we recommend that you associate tasks with job roles when creating templates, when it's not yet clear which user might be later assigned to the actual work. For information, see the following articles:
@@ -43,7 +47,7 @@ You can use job roles for the following purposes:
    * Reports
    * Dashboards
 
-     For information about sharing objects, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+     For information about sharing objects, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 * You can associate job roles with routing rules when building request queues.&nbsp;For information, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md). 
 * You can assign layout templates to job roles. Anyone that has the assigned job role as their Primary Role can view Workfront according to the assigned layout template.

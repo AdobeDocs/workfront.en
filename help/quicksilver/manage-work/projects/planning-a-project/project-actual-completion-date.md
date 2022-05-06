@@ -30,7 +30,7 @@ The value for the Actual Completion Date is always what is considered the curren
 
 >[!NOTE]
 >
->&nbsp;The latest Actual Completion Date from a project's tasks will be used as the Actual Completion Date for the entire project.
+>&nbsp;Workfront uses the Actual Completion Date from the project's task that completed last as the Actual Completion Date for the entire project.
 
 ## Locate Actual&nbsp;Completion&nbsp;Dates
 

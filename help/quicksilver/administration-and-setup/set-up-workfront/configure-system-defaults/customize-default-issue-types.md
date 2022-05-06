@@ -18,7 +18,7 @@ You can customize the labels for each default issue type to better match the ter
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

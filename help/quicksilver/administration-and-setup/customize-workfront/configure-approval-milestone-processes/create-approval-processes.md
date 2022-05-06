@@ -5,12 +5,10 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Create an approval process for work items
-description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+description: You can create an approval process that users can attach to a work item (project, task, issue, template, or template task), a document, or a proof. An approval process ensures that designated assignees on the object review certain changes before the object progresses in the system.
 ---
 
 # Create an approval process for work items
-
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 You can create an approval process that users can attach to a work item (project, task, issue, template, or template task), a document, or a proof. An approval process ensures that designated assignees on the object review certain changes before the object progresses in the system.
 
@@ -23,7 +21,9 @@ For information about approvals associated with documents or proofs, see the fol
 
 >[!NOTE]
 >
->Users can also create single-use approval process for a project, task, issue, ```template, or template task``` where they have Manage permissions. This article uses the term "global approval process" to differentiate from single-use approval process. A global approval process can be used repeatedly. 
+>Users can also create single-use approval process for a project, task, issue, template, or template task where they have Manage permissions. 
+>
+>This article uses the term "global approval process" to differentiate from single-use approval process. A global approval process can be used repeatedly. 
 >
 >At the group level, a global approval process is restricted to work items and statuses that belong to the group.
 >
@@ -58,22 +58,11 @@ You must have the following:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. (Conditional) If you are creating a system-level approval process, click **Processes** > **Approvals** 
-
-   <!--
-   <span class="preview" style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">and Reviews</span>
-   -->
-
-   in the left panel.
+1. (Conditional) If you are creating a system-level approval process, click **Processes** > **Approvals** in the left panel.
 
    Or
 
-   If you are creating a group-level approval process, do the following:
-
-   1. In the left panel, click **Groups** ![](assets/groups-icon.png).
-   
-   1. Click the name of the group for which you want to list or manage group approval processes.
-   1. In the left panel, click **Approvals**. You might need to click&nbsp;**Show More** first.
+   If you are creating a group-level approval process, click **Groups** ![](assets/groups-icon.png), click the name of the group, then click **Approvals**.
 
 1. Click the **Project Approvals**, **Task Approvals**, or **Issue Approvals** tab, depending on the type of approval process you want to create.
 
@@ -93,16 +82,16 @@ You must have the following:
       <td>Type a description of the approval process. This displays in the <strong>Approvals</strong> section in the <strong>Setup</strong> area next to the name of the approval process.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Is Active</strong> </td> 
-      <td> <p>Select this check box if you want other users to be able to attach the approval process to projects, tasks, and issues that they create. </p> <p>This option is enabled by default.</p> <p>Tip: Marking an approval process as inactive is useful when your organization no longer needs to use it, but you want to preserve historical information about its use.</p> </td> 
+      <td role="rowheader">Is Active</td> 
+      <td> <p>Keep this option enabled if you want other users to be able to attach the approval process to projects, tasks, and issues that they create. </p> <p>This option is enabled by default.</p> <p>Tip: Marking an approval process as inactive is useful when your organization no longer needs to use it, but you want to preserve historical information about its use.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">This approval process can be used by </td> 
       <td> <p>If you want the approval process available for projects, tasks, issues, and templates belonging only to a particular group, start typing the name of the group, then select the name when it appears:</p> 
        <ul> 
         <li>If you are a system administrator or you have administrative access to approval processes, you can see any group in the system when you type its name. <strong>All groups</strong> is selected by default. </li> 
-        <li>If you are a group administrator, you can see any group you manage when you type its name. The <strong>All Groups</strong> option is not available.</li> 
-       </ul> <p>This option is not available for single-use approval processes.</p> <p>Warning: When you make changes to the group-specific approval process, the existing approval processes that have already been associated with work items might change. For information about these changes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>.</p> <p>For information about listing and managing your group’s approval processes from your group’s page, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. </p> </td> 
+        <li>If you are a group administrator without administrative access to approval processes, you can assign the approval process to any group you manage when you type its name. The <strong>All Groups</strong> option is not available.</li> 
+       </ul> <p>This option is not available for single-use approval processes.</p> <p>Warning: When you make changes to the group-specific approval process, the existing approval processes that have already been associated with work items might change. For information about these changes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>.</p> <p>For information about listing and managing your group’s approval processes from your group’s page, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. </p> <p>For information about administrative access to approval processes, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -116,10 +105,12 @@ You must have the following:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Start Approval Process when the status is set to</td> 
+      <td role="rowheader"> <p role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Start approval process when the status is set to</p> </td> 
       <td> <p>Select the status that will trigger the approval process on work items. When someone updates a work item to this status, its approval process begins. </p> <p>The same status cannot be selected for multiple approval process paths.<br></p> <p>The statuses available are based on what is selected under the option <strong>This approval can be used by</strong> (explained in the table above):</p> 
        <ul> 
-        <li> If All groups is selected, only system-wide locked statuses are available</li> 
+        <li> If <b>All groups</b> is selected, only system-wide locked statuses are available<!--
+          <span class="preview" style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> - remove "locked" when story about using an unlocked status in approval processes goes to preview</span>
+         --></li> 
         <li> <p>If a specific group is selected, only the statuses available for that group are available</p> </li> 
        </ul> <p>For information about how approval process work with statuses, see the section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">How approval processes rely on statuses</a> in the article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
      </tr> 
@@ -138,36 +129,34 @@ You must have the following:
         </ul> 
         <ul> 
          <li> <p>When you assign an approval to the Project Owner and no one is designated as the owner of a project, the approval is reassigned to the main Workfront administrator as indicated in the Customer Info section in the Setup area. For information, see <a href="../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>.&nbsp;&nbsp;<br></p> </li> 
-        </ul> <p> <img src="assets/approval-create-addusers.png" alt="approval_create_addusers.png"> </p> </p> <p>You can repeat this process to add multiple approvers to the stage. A single stage can include a combination of users, teams, and job roles as approvers. There is no limit to the number of approvers you can add to a stage.</p> <p>Important:  <p>When you assign job roles as approvers, all users associated with that job role that are also on the project team can see the pending approval process in their Approvals area. As soon as one of the users approves or rejects the item, the approval process is no longer listed on their Approvals area.<br></p> <p>When you assign a team as an approver, all users in that team can see the pending approval process in their Approvals area. As soon as one of the users on the team approves or rejects the item, the approval process is no longer listed on the Approvals area.<br></p> <p>For more information about the project team, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>.</p> </p> </td> 
+        </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>You can repeat this process to add multiple approvers to the stage. A single stage can include a combination of users, teams, and job roles as approvers. There is no limit to the number of approvers you can add to a stage.</p> <p>Important:  <p>When you assign job roles as approvers, all users associated with that job role that are also on the project team can make a decision on the approval. <br></p> <p>When you assign a team as an approver, any user in that team can make a decision on the approval. <br></p> <p>For more information about the project team, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>. For more information about approving work, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Only one decision required</td> 
+      <td role="rowheader">Only one decision is required</td> 
       <td> <p>(Displays only if you add multiple approvers to the stage) Select this option if any one of the approvers on the stage can approve or reject the work item during this stage. This action allows the work item to leave the stage. </p> <p>When this option is not selected, all of the identified approvers must approve or reject the stage (in any order) before the item leaves the stage. If any one of the approvers rejects the stage, the process interrupts and starts over so that the required changes can be made. Then the approvers can approve or reject the stage once again.</p> <p>When a team is designated as an approver, any member of the team can grant or reject a stage.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Add Stage</td> 
+      <td role="rowheader"> <p role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Add stage</p> </td> 
       <td>(Optional) Add another a stage to the path, using the options explained in the three rows above. You can add as many stages to the path as you need.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader"><strong>If Rejected</strong><!--
-         <span style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(in the Production environment)</span>
-        --> </p> <!--
-        <p role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"><span style="font-weight: normal;"><span class="preview">or <strong>Choose what happens when the approval is rejected</strong> (in the Preview environment)</span></span> </p>
-       --> </td> 
+      <td role="rowheader"> <p role="rowheader" data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span style="font-weight: normal;"><strong>Choose what happens when the approval is rejected</strong></span> </p> </td> 
       <td> <p>Select the action you want to take if the work item is rejected at any stage of the path:</p> 
        <ul> 
         <li><strong>Create an Issue</strong>: (Available only for project and task approval processes) An issue is created in the project or task where the approval process is running. The default assigned resource on the task, or the owner of the project is assigned to the issue. By default, the name of the issue created is <strong>Approval Rejected (&lt;Project or Task Name&gt;)</strong>. This is a Rejection Issue, entered under the task or the project, depending on the approval process where the rejection happened.</li> 
         <li> <p><strong>Set Status to</strong>: Choose one of the following:</p> 
          <ul> 
           <li><strong>Previous Status</strong>: The rejected project, task, or issue reverts to the status prior to the status that activates the approval process.</li> 
-          <li> <p>Any other status in the list: The rejected object moves to the status you choose, such as On Hold. You can choose one of the default statuses or a custom statuses you added to your Workfront system.</p> <p>Tip:  <p>If you select a status associated with an approval process as the rejection status, the rejected object moves to the selected status bypassing the approval process for the rejection status.</p> <p> For example, if you select On Hold for the rejection status and the On&nbsp;Hold status is associated with an approval process, the rejected object is placed in the On&nbsp;Hold status without requiring the approval. </p> </p> <p>For a system-wide approval process, only system-wide locked statuses are available.</p> <p>For a group-specific approval process, all group statuses are available. This includes any custom statuses that the group administrator created specifically for the group, as well as any system-wide statuses. </p> <p>For information about how approval process work with statuses, see the section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">How approval processes rely on statuses</a> in the article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </li> 
+          <li> <p>Any other status in the list: The rejected object moves to the status you choose, such as On Hold. You can choose one of the default statuses or a custom statuses you added to your Workfront system.</p> <p>Tip:  <p>If you select a status associated with an approval process as the rejection status, the rejected object moves to the selected status bypassing the approval process for the rejection status.</p> <p> For example, if you select On Hold for the rejection status and the On&nbsp;Hold status is associated with an approval process, the rejected object is placed in the On&nbsp;Hold status without requiring the approval. </p> </p> <!--
+            <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the caveat about the rejection status in an approval below might change &gt;&gt; this is on the Product roadmap and might be fixed. Right now, this is a bug but we had to document it due to a request from customers - September 2021) </p>
+           --> <p>For a system-wide approval process, only system-wide statuses are available.</p> <p>For a group-specific approval process, all group statuses are available. This includes any custom statuses that the group administrator created specifically for the group, as well as any system-wide statuses. </p> <p>For information about how approval process work with statuses, see the section <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">How approval processes rely on statuses</a> in the article <a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </li> 
          </ul> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Click **Add Path** to add another path to the approval process, referring to the list of options in the previous step.
+1. (Optional) Click **Add path** to add another path to the approval process, referring to the list of options in the previous step.
 
    The new path must be associated with another status. The path triggers when the item is updated to show this status. You cannot have two paths for the same status.
 
@@ -192,7 +181,8 @@ For instructions on associating an approval process with a work item, see [Assoc
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="configuring-approval-settings"></a>Configuring settings for all approval processes in the system</h2>
+<h2><a name="configuring-approval-settings"></a>Configuring settings for all approval processes in the system </h2>
+<p>(NOTE: this moved to the general Approval overview article)</p>
 <p>You can configure global settings for all of the approval processes in your system. For more information about approval process settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>.</p>
 </div>
 -->

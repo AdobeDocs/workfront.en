@@ -8,6 +8,10 @@ description: You can manage task or issue assignments by using Advanced Assignme
 
 # Create advanced assignments
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can manage task or issue assignments by using Advanced Assignments.
 
 You can adjust the following assignment information when making advanced assignments:
@@ -29,6 +33,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
 
 * In lists and reports when the Assignments field displays in the view.
 * In the Assignments section when editing a task. For more information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* On the task or issue page when assigning the task or issue.
 
 ## Access requirements
 
@@ -52,7 +57,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to a the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to a the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +111,15 @@ You must have the following access to perform the steps in this article:
 
 1. For each user in the **Assignee** column, specify the following information:
 
-   * **Hours** or**Allocation %**: When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the bottom of the Hours column. In all other cases, specify the percentage of time (or allocation)&nbsp;that you want the assignee to spend solving the task or issue.
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: REVISE ALL THESE STEPS FOR QS; SOME WILL GO AWAY WITH THE NEW ADVANCED ASSIGNMENT WIDGET!!!)</p>
+   -->
+
+   * **Hours** or **Allocation %** : When the Duration Type of a task is Simple, specify the number of hours each user or job role should be assigned to the task. The sum of all assigned hours for each user is equal to the number in the **Planned Hours** field at the bottom of the  Hours  column. In all other cases, specify the percentage of time (or allocation)&nbsp;that you want the assignee to spend solving the task or issue.
+
+     <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
+     -->
 
      >[!TIP]
      >
@@ -125,7 +138,7 @@ You must have the following access to perform the steps in this article:
      >
      >Depending on how your Workfront administrator ```or group administrator``` set up your project preferences, Workfront might use the schedule of the task owner to calculate the timeline of the task when you have multiple users assigned to the task. For information about multiple task assignees, see the "Assign multiple users to a task" section in the article [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Assignee's Role:** Select the role the user should use when fulfilling this assignment. Each role that is defined for the user in the user profile is displayed in the **Pick a role** drop-down menu.
+   * **Assignee's Role:** Select the role the user should use when fulfilling this assignment.  Each role that is defined for the user in the user profile is displayed in the **Pick a role** drop-down menu.
 
      ![](assets/caa2-350x302.png)
 

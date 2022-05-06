@@ -2,11 +2,11 @@
 filename: share-a-goal
 product: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Share a goal in Adobe Workfront Goals
+title: Share a goal in Workfront Goals
 description: When you share a goal you give Manage permissions to a goal to someone who did not create it.
 ---
 
-# Share a goal in Adobe Workfront Goals
+# Share a goal in Workfront Goals
 
 When you share a goal you give Manage permissions to a goal to someone who did not create it.
 
@@ -28,7 +28,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -43,7 +43,7 @@ You must have the following:
    <td> 
     <div> 
      <p>Manage permissions to the goal</p> 
-     <p>For information about sharing goals, see <a href="#" class="MCXref xref selected">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="#" class="MCXref xref selected">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 

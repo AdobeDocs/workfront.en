@@ -3,10 +3,14 @@ filename: designate-resource-managers-for-projects-and-templates
 product-area: projects;templates
 navigation-topic: plan-a-project
 title: Designate Resource Managers for a project or template
-description: You can designate up to 30 users as Resource Managers for an individual project or template. Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront.
+description: (NOTE: This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler)
 ---
 
 # Designate Resource Managers for a project or template
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler)</p>
+-->
 
 You can designate up to 30 users as Resource Managers for an individual project or template. Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in&nbsp;Adobe Workfront.
 
@@ -40,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the project or template</p> <p>Users who are added as Resource&nbsp;Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions on the project or template</p> <p>Users who are added as Resource&nbsp;Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

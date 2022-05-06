@@ -8,6 +8,10 @@ description: You can embed an external web page in a dashboard to provide access
 
 # Embed an external web page in a dashboard
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can embed an external web page in a dashboard to provide access to related information from other systems within Adobe Workfront or to other Workfront pages.
 
 For example, if your organization has a web-based document repository, wiki, or other content management system that contains project information that is regularly accessed through a URL, you can display that information into Workfront by creating an external page on a dashboard.
@@ -40,7 +44,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +61,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 >[!IMPORTANT]
 >
->You can remove an External Page from a dashboard if it's no longer needed. However, you cannot delete an external page after it is created in Workfront. You can delete an external page only using the API. For more information, see [Remove an External Page from a dashboard in Adobe Workfront](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+>You can remove an External Page from a dashboard if it's no longer needed. However, you cannot delete an external page after it is created in Workfront. You can delete an external page only using the API. For more information, see [Remove an External Page from a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 
 1. Locate the URL of the page to display in Workfront and copy the URL located in the address bar.
 
@@ -96,6 +100,12 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 1. Click **Save**.  
    The page is automatically added to the dashboard. If future dashboards are created, the external page can be added. The external page will be found among the Available Reports.
 
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: Alina: *** This is linked to: Creating Dashboards, and Editing Dashboards.)
+   </MadCap:conditionalText>
+   -->
+
 ## Update an external page in a dashboard
 
 To update the information for an external page used in a dashboard:
@@ -109,7 +119,7 @@ To update the information for an external page used in a dashboard:
 1. On the right side of the screen, locate the external page you want to update and click the **Edit** icon.  
 
 1. In the **Edit External Page** dialog, update the fields you want to change, then click **Save**.
-1. (Optional)&nbsp;Click the **Delete** icon ![](assets/delete.png) to remove the external page from the dashboard. For more information, see [Remove an External Page from a dashboard in Adobe Workfront](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md). 
+1. (Optional)&nbsp;Click the **Delete** icon ![](assets/delete.png) to remove the external page from the dashboard. For more information, see [Remove an External Page from a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md). 
 1. In the bottom-left corner, click **Save + Close**.
 
 ## View external pages in a report

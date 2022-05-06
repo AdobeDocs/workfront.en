@@ -6,11 +6,16 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 
 >[!NOTE]
 >
->This functionality, releasing with 2022.1, does not change your users' existing access to teams. For more information, see [How users' existing access to teams remains unchanged in the 2022.1 Teams access level setting](#how-users-existing-access-to-teams-remains-unchanged-in-the-2022-1-teams-access-level-setting) in this article.
+>This functionality, releasing with 2022.1, does not change your users' existing access to teams. For more information, see [How users' existing access to teams remains unchanged in the 2022.1 Teams access level setting](#how-users-existing-access-to-teams-remains-unchanged-in-the-2022-1-teams-access-level-setting) in this article. >
+><!-->
+><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+>Remove this note and the referenced section below a few months after the functionality releases>
+></MadCap:conditionalText>>
+>-->
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -113,6 +118,10 @@ You must have the following to perform the steps in this article:
 For information about what users in each access level can do with issues, see the section [Teams](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## How users' existing access to teams remains unchanged in the 2022.1 Teams access level setting {#how-users-existing-access-to-teams-remains-unchanged-in-the-2022-1-teams-access-level-setting}
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Remove this section a few months after the functionality releases</p>
+-->
 
 In an access level, when you click the gear icon ![](assets/gear-icon-in-access-levels.png) on the View or Edit button for the new Teams setting, the options "View all teams" and "View teams associated with my groups," are:
 

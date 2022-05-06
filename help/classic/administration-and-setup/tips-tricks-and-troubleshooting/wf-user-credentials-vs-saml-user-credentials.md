@@ -10,6 +10,10 @@ description: This article focuses specifically on Adobe Workfront and SAML and d
 
 # Adobe Workfront user credentials vs. SAML user credentials
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 This article focuses specifically on Adobe Workfront and SAML and does not cover other SSO authentication methods such as AD and LDAP.
 
 Workfront credentials are stored in the Workfront database, where the user's email address is their Workfront username. Their Workfront password is also stored. These credentials are replicated in&nbsp;the Preview and Custom Refresh Sandboxes.

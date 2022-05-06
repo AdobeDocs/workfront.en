@@ -8,6 +8,10 @@ description: You can edit information on portfolios that you have created, or th
 
 # Edit portfolios
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can edit information on portfolios that you have created, or that other users have created if they shared them with you.
 
 You can edit a portfolio in the portfolio page or you can edit portfolios in a list.
@@ -34,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a portfolio</p> <p> For information about granting permissions to portfolios, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md" class="MCXref xref">Share a portfolio in Adobe Workfront</a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions to a portfolio</p> <p> For information about granting permissions to portfolios, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md" class="MCXref xref">Share a portfolio </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,7 +131,9 @@ You must have the following access to perform the steps in this article:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
-<h2>Edit portfolios in a list</h2>
+<h2>Edit portfolios in a list</h2> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is drafted for right now, but it might change (especially for NWE) - keeping it to easily copy it to NWE if needed.)</p>
+-->
 <ol>
 <li value="1"> <p>Go to a list of portfolios and select one or more portfolios that you want to edit, then click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> at the top of the list. </p> <p>The <strong>Edit Portfolio</strong> dialog box displays.</p> <p> <img src="assets/edit-portfolio-box-classic-350x224.png" style="width: 350;height: 224;"> </p> <p>All portfolio fields are available in the Edit Portfolio box and are grouped by the areas listed in the left panel. </p> </li>
 <li value="2">Consider specifying information in any of the following sections:

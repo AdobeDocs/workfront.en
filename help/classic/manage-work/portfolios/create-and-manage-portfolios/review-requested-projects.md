@@ -8,11 +8,15 @@ description: When multiple project requests are submitted for review, the projec
 
 # Review Requested Projects
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 When multiple project requests are submitted for review, the project management office or portfolio committee can meet to review submitted requests and determine project request approvals. To submit a project request for review, do one of the following:
 
 * Change the project status to **Requested**.
 * Complete the Business Case of the project and submit it for approval.   
-  For more information about completing a Business Case for a project, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  For more information about completing a Business Case for a project, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 You can review requested projects in the following areas of Adobe Workfront:
 
@@ -41,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher on the portfolio</p> <p>Manage permissions on the projects to update their status</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View permissions or higher on the portfolio</p> <p>Manage permissions on the projects to update their status</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,9 +64,11 @@ For more information about approving project requests by building a project repo
 1. Click the **Projects** tab. 
 1. Click the **Requested Projects** sub-tab.
 
-   &nbsp;In addition to having a Status of **Requested**, projects must be associated with the selected Portfolio to&nbsp;display in this list.
+   >[!TIP]
+   >
+   >&nbsp;In addition to having a Status of **Requested**, projects must be associated with the selected Portfolio to&nbsp;display in this list.
 
-   ![](assets/rp1-350x142.png)
+   ![](assets/rp1-350x203.png)
 
 1. Click the name of a project in the list to open it.
 1. Select the **Project Details** tab. 

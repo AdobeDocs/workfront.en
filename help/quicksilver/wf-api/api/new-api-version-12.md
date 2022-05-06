@@ -169,7 +169,7 @@ An AccessLevelPermissions object represents a specific permission to access, cre
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
@@ -240,7 +240,7 @@ If a User does not have access to an object in Workfront that they need, they ca
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -263,7 +263,7 @@ An AccessRule object represents a rule set in custom access levels that determin
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
@@ -718,7 +718,7 @@ For more information on Request Queues, see [Create a Request Queue](../../manag
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a></p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for custom fields and widgets</a></p> </li> 
       </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>Added the following possibleValues:</p> 
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
@@ -899,7 +899,7 @@ For more information on Timesheets, see [Timesheets overview](../../timesheets/t
       <ul> 
        <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
        <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
-      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information on initiatives, see <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Adobe Workfront Scenario Planner</a>.</p> </li> 
+      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">For more information on initiatives, see <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiatives overview in the Scenario Planner</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -917,7 +917,7 @@ A User object represents a person with an account in Workfront that can log in a
    <td role="rowheader">Direct Fields</td> 
    <td> <p>The following fields were added to the User resource:</p> 
     <ul> 
-     <li> <p><strong>actualDeactivationDate</strong> </p> <p>This represents the date and time that a user was deactivated.</p> <p>For more information on deactivated Users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </li> 
+     <li> <p><strong>actualDeactivationDate</strong> </p> <p>This represents the date and time that a user was deactivated.</p> <p>For more information on deactivated Users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a>.</p> </li> 
      <li> <p><strong>alignAccessType</strong> </p> <p>This field shows the user's access to Workfront Goals. Possible values are:</p> 
       <ul> 
        <li> <p>No access</p> </li> 

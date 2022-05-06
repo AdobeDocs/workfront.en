@@ -8,6 +8,10 @@ description: You can assign tasks to users, roles, or teams to indicate who is r
 
 # Assign tasks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can assign tasks to users, roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
 >[!TIP]
@@ -34,7 +38,7 @@ In addition to this article, we recommend that you read the following articles f
 * [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md) 
 * [Set the project Planned Completion Date](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md) 
 * [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) 
-* [Overview of assigning work in the Adobe Workfront Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Access requirements
 
@@ -58,7 +62,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,6 +87,7 @@ Consider the following when assigning multiple resources to a work item:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="assign-multiple-users"></a>Considerations for multiple user assignments and using schedules</h2>
+<p>(NOTE: moved to the Modify task assignments overview standalone article)</p>
 <p>You can assign multiple resources to a task. When you assign a user to a task, Workfront uses the user's schedule to calculate the planned dates for the task which ultimately determine the timeline of the project. Using the schedule of the user takes into account their time off, holidays, and weekend days which are considered non-working days when task activity cannot occur. </p>
 <p>When you assign multiple users to a task, your Workfront administrator <span>or a group administrator</span> determines which one of the following schedules Workfront uses to determine the planned dates of the tasks, based on schedules: </p>
 <ul>
@@ -146,7 +151,11 @@ To assign tasks in a list:
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the task, then click it when it displays in the list.
    * Click inside the **Assignments** field and start typing the name of an active user, ```job role```, or team that you want to assign to the task, then click it when it displays in the list.
 
-1. (Conditional) When visible in the **Assignments** field, click the **People** icon in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
+1. (Conditional) When visible in the **Assignments** field, click the **People** icon `````` in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;there is a People icon in NWE&nbsp;but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up)</p>
+   -->
 
    For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
@@ -174,7 +183,10 @@ To assign tasks in a list:
 
    >[!IMPORTANT]
    >
-   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks.
+   >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks. 
+   >
+   >
+   >You can only assign one team to a task. If a team is already assigned to one of the selected tasks and you assign another team to all tasks, the existing team will be replaced.
 
 1. (Optional) Select the radio button in the **Task Owner** column to indicate which resource is the primary assignee or the Owner of the task, when you assign more than one resource to the task. This is not available for teams. 
 1. (Conditional) Specify the **Allocation %** for each resource assigned to the task if all the tasks you selected have a Duration Type of Effort Driven or Calculated Assignment. This indicates how much of their time these resources should spend on completing the task. This is only available for users and job roles.
@@ -202,6 +214,7 @@ To assign tasks in a list:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Remove"></a>Considerations about unassigning tasks</h2>
+<p>(NOTE:&nbsp;moved this to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm)</p>
 <p>You can remove assignments from one task at a time, or you can remove assignments from multiple tasks in bulk.</p>
 <p>For more information about removing assignments from tasks in bulk, see <a href="../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md" class="MCXref xref">Modify multiple user assignments in a task list</a>. </p>
 <p>Consider the following when removing assignments from tasks: </p>

@@ -17,7 +17,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 Adobe Workfront calculates goal progress automatically, based on the progress of its progress indicators.
 
 ## Prerequisites
@@ -118,7 +118,7 @@ The table below lists the goal progress labels and the goal progress percentages
    <td>No bar</td> 
   </tr> 
   <tr> 
-   <td> <p><span>On&nbsp;Target </span> </p> </td> 
+   <td> <p><span>On&nbsp;Target</span> </p> </td> 
    <td>The goal is performing as expected and there is a great likelihood that it will complete on time. </td> 
    <td>90-100%</td> 
    <td>Green</td> 
@@ -130,7 +130,7 @@ The table below lists the goal progress labels and the goal progress percentages
    <td>Yellow</td> 
   </tr> 
   <tr> 
-   <td> <p><span>In&nbsp;Trouble </span> </p> </td> 
+   <td> <p><span>In&nbsp;Trouble</span> </p> </td> 
    <td> <p>It is very likely that the goal will not complete on time. </p> </td> 
    <td>0-69.99%</td> 
    <td>Red</td> 

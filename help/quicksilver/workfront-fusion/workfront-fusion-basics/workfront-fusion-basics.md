@@ -13,9 +13,13 @@ description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license i
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 This section contains the following articles:
 
-* [Change profile settings](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md) 
-* [Change your email address in Adobe Workfront Fusion](../../workfront-fusion/workfront-fusion-basics/change-your-email-address.md) 
-* [Delete user data](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
+* [Change profile settings in Adobe Workfront Fusion](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/workfront-fusion-basics/change-your-email-address.md" class="MCXref xref">Change your email address in Adobe Workfront Fusion</a> </li>
+  -->
+
+* [Delete user data In Adobe Workfront Fusion](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/workfront-fusion-basics/delete-an-account.md" class="MCXref xref">Delete an account</a> </li>

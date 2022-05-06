@@ -137,7 +137,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td>✓</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td> <p><strong>Moderator</strong> </p> </td> 

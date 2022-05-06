@@ -15,7 +15,7 @@ You can use the status of an issue to show users in the system in what stage of 
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

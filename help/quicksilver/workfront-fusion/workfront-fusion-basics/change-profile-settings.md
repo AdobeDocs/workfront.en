@@ -3,11 +3,11 @@ filename: change-profile-settings
 product: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Change profile settings
+title: Change profile settings in Adobe Workfront Fusion
 description: You can change information in your Adobe Workfront Fusion account profile.
 ---
 
-# Change profile settings
+# Change profile settings in Adobe Workfront Fusion
 
 You can change information in your Adobe Workfront Fusion account profile.
 
@@ -65,16 +65,6 @@ To change information in your account profile:
      <tr> 
       <td role="rowheader">Organizations</td> 
       <td> <p>Select the organization you want to work in.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Email Notification Options</td> 
-      <td> 
-       <ul> 
-        <li><strong>Warning in scenario run</strong>: Receive an email when there is a warning in a scenario run.</li> 
-        <li><strong>Errors in scenario run</strong>: Receive an email when there is a warning in a scenario run.</li> 
-        <li><strong>Scenario deactivation</strong>: Receive an email when a scenario deactivates.</li> 
-        <li><strong>New module in</strong>Workfront Fusion: Receive an email when we add a new module to Adobe Workfront Fusion.</li> 
-       </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Time Zone Options</td> 

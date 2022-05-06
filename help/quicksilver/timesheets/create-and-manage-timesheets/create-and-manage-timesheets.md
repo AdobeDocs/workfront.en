@@ -13,7 +13,7 @@ This section contains the following articles:
 * [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) 
 * [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) 
 * [Create a single-use timesheet](../../timesheets/create-and-manage-timesheets/create-tmshts.md) 
-* [Edit timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/edit-timesheets.md) 
+* [Edit timesheet information](../../timesheets/create-and-manage-timesheets/edit-timesheets.md) 
 * [Log time](../../timesheets/create-and-manage-timesheets/log-time.md) 
 * [Submit a timesheet for approval](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md) 
 * [Approve a timesheet](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) 

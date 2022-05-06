@@ -5,10 +5,14 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Work with a group’s objects
-description: This section contains the following articles:
+description: When new objects are added to the Groups page, don't forget to update the article Manage groups/Groups overview/groups.html
 ---
 
 # Work with a group’s objects
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">When new objects are added to the Groups page, don't forget to update the article Manage groups/Groups overview/groups.html</p>
+-->
 
 This section contains the following articles:
 

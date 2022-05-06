@@ -4,9 +4,9 @@
 
 ## Problem
 
-After you delete an object that has assigned to another object, both the object and the assignment to the other object are deleted. But the assignment might still show up in some reports.
+After you delete an object that has an assignment, both the object and the assignment are deleted. But the assignment might still show up in some reports.
 
-For example, if you delete a task that was assigned to a user, the assignment to the user is also deleted. However, if you later run a task report that is filtered by assignee, with that user specified, the report still lists the deleted task.
+For example, if you delete a task that was assigned to a user, the assignment to the user is also deleted. However, if you later run a task report that is filtered by assignee, with that user specified, the report still lists the deleted task if the task is still in the Recycle Bin.
 
 ## Cause
 

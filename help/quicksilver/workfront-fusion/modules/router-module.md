@@ -4,11 +4,11 @@ content-type: reference
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Router module
+title: Router module in Adobe Workfront Fusion
 description: The Router module allows you to branch your flow into several routes and process the data within each route differently. Once a Router module receives a bundle, it forwards it to each connected route in the order the routes were attached to the Router module.
 ---
 
-# Router module
+# Router module in Adobe Workfront Fusion
 
 The Router module allows you to branch your flow into several routes and process the data within each route differently. Once a Router module receives a bundle, it forwards it to each connected route in the order the routes were attached to the Router module.
 
@@ -89,7 +89,7 @@ To place a filter on a route after the Router module to filter bundles as on any
 
 ![](assets/set-up-a-filter-2-350x242.png)
 
-For more information, see [Add a filter to a scenario](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+For more information, see [Add a filter to a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
 
 ## The fallback route
 

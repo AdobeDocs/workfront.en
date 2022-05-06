@@ -3,11 +3,11 @@ filename: restore-a-scenario-version
 product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Restore a scenario version
+title: Restore a scenario version in Adobe Workfront Fusion
 description: You must have the following access to use the functionality in this article:
 ---
 
-# Restore a scenario version
+# Restore a scenario version in Adobe Workfront Fusion
 
 ## Access requirements
 

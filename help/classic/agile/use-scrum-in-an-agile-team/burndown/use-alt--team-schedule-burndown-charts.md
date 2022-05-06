@@ -8,6 +8,10 @@ description: Schedules that are defined in Adobe Workfront affect the burndown c
 
 # Use an alternate team schedule for burndown charts
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 Schedules that are defined in Adobe Workfront affect the burndown&nbsp;chart&nbsp;by excluding days off (weekends and holidays) from the burndown.
 
 By default, the burndown chart&nbsp;uses the default schedule.&nbsp;In addition to the default schedule, agile teams can choose to also use an alternate schedule in order to incorporate team-specific non-working days. This alternate schedule is then&nbsp;reflected in the burndown&nbsp;chart of any iteration that is assigned to the team. The alternate schedule affects only the burndown&nbsp;chart.&nbsp;(For more information about the default schedule, as well as how the Workfront administrator can create a team-specific schedule, see&nbsp; [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)

@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>You will obtain manage permissions to the report you create</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>You will obtain manage permissions to the report you create</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create a report {#create-a-report}
 
-To watch a video of how to create a report, see this [Video walk-through](#video-walk-through) below.
+To watch a video of how to create a report, see this [Create a custom report](#Walk-thr) below.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Reports**.
 1. Click **New Report**, then select the object type that you want for the report.
@@ -93,6 +93,10 @@ To watch a video of how to create a report, see this [Video walk-through](#video
 1. After you are finished, click **Save + Close**.
 
 ### Add columns (view) to a report {#add-columns-view-to-a-report}
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I have left all these mini-how-tos in this article because this is how the video is conducted, too - it gives details about each tab; video kept just for Classic.) </p>
+-->
 
 1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Columns (View)** tab to identify the columns to appear in the report.
@@ -166,7 +170,7 @@ To watch a video of how to create a report, see this [Video walk-through](#video
      </tr> 
      <tr> 
       <td role="rowheader">Column Rules</td> 
-      <td> <p>Click <strong>Add a Rule for this Column</strong> to add conditional formatting to the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule. For more information about conditional formatting in a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in Views</a>.</p> </td> 
+      <td> <p>Click <strong>Add a Rule for this Column</strong> to add conditional formatting to the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule. For more information about conditional formatting in a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in views</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -195,6 +199,10 @@ To watch a video of how to create a report, see this [Video walk-through](#video
 1. (Optional) Select **Collapse this grouping by default** if you want the results in this grouping to display collapsed rather than expanded.
 
    This setting is disabled by default and the results of the grouping always display in an expanded list.
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Understanding Text Mode) </p>
+   -->
 
    >[!TIP]
    >
@@ -239,6 +247,10 @@ To watch a video of how to create a report, see this [Video walk-through](#video
 
 ### Add a chart to a report {#add-a-chart-to-a-report}
 
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Consider taking this out and just keeping the separate article about charts??) </p>
+-->
+
 1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Chart** tab, then select the type of chart you want to add.
 
@@ -249,12 +261,6 @@ To watch a video of how to create a report, see this [Video walk-through](#video
 1. Click **Apply** to apply your changes so far and continue editing the report with the following options.
 
    Click **Save + Close** if you are finished editing the report and you want to save the report.
-
-## Video walk-through {#video-walk-through}
-
-View the following video to learn how to create a report. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>

@@ -8,6 +8,10 @@ description: We are no longer developing the Resource Scheduling tools and they 
 
 # Automatically assign unassigned tasks and issues in the Scheduling areas
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 >[!NOTE]
 >
 >We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
@@ -44,7 +48,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues you update assignments for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues you update assignments for</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,7 +163,14 @@ To allow Workfront to automatically propose assignments for tasks and issues in 
 
    * To assign an item to a different user:
 
-      * Drag the task or issue from the proposed user to the row of a different user you want to assign.  
+      * Drag the task or issue from the proposed user to the row of a different user you want to assign.       
+      
+        <!--      
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
+        (NOTE: lists in this article need to be reformatted and maybe split - too many levels in)      
+        </MadCap:conditionalText>      
+        -->
+
         A maximum of 10 tasks per day are displayed for a given user. You can expand the list to view all tasks currently assigned to that user. (After making assignments on the scheduling timeline, more than 10 tasks might be temporarily displayed.)  
         As you drag an item, the following information is displayed prior to releasing the task or issue and completing the assignment:
 

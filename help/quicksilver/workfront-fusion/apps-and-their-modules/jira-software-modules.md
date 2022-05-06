@@ -2,9 +2,9 @@
 
 # Jira Software modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Jira Software account to multiple third-party applications and services.
+In an Adobe Workfront Fusion scenario, you can automate workflows that use Jira Software, as well as connect it to to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -84,13 +84,26 @@ To connect Jira Software to Workfront Fusion, you must create an API token and i
 1. In Workfront Fusion, add a Jira module to a scenario to open the **Create a connection** box.
 1. Specify the following information:
 
-   * **Service URL:**
-   * **Username:**
+   * **Service URL** 
+   
+     <!--   
+     <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Provide a brief description of what this is.</span>   
+     -->
+
+   * **Username: Provide a brief description of what this is.**
    * **API token:**&nbsp;This is the API token you created in the [Create an API token in Jira](#create-an-api-token-in-jira) section of this article.
 
 1. Click Continue to create the connection and return to the module.
 
+   <!--
+   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">LP: Do you have to hit Save or anything?</p>
+   -->
+
 ### Connect Jira Server to Workfront Fusion {#connect-jira-server-to-workfront-fusion}
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Becky: Find out and document how to find these things</p>
+-->
 
 To authorize a connection between Workfront Fusion and Jira Server, you need your Consumer Key, Private Key, And Service URL. You might need to contact your Jira administrator for this information.
 
@@ -174,7 +187,7 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 
 #### Configure the client app as a consumer in Jira {#configure-the-client-app-as-a-consumer-in-jira}
 
-1. Log into your Jira instance.
+1. Log in to your Jira instance.
 1. In the left navigation panel, click **Jira Settings** ![](assets/jira-settings-icon.png) > **Applications**> **Application links**.
 1. In the **Enter the URL of the application you want to link** field, enter 
 
@@ -183,8 +196,18 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
    ```
 
 1. Click **Create new link**. Ignore the "No response was received from the URL you entered" error message.
-1. In the **Link applications** window, enter values into the **Consumer key** and **Shared secret** fields. You can choose the values for these fields. 
-1. Copy the values of the **Consumer key** and **Shared secret** fields to a secure location. You will require these values later in the configuration process.
+1. In the **Link applications** window, enter values into the **Consumer key** and **Shared secret** fields.
+
+   You can choose the values for these fields.
+
+   <!--
+   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">LP: Would it be helpful to provide examples here?</p>
+   -->
+
+1. Copy the values of the **Consumer key** and **Shared secret** fields to a secure location.
+
+   You will require these values later in the configuration process.
+
 1. Fill in the URL fields as follows:
 
    | Request Token URL |
@@ -212,7 +235,7 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 
 1. Select the **Create incoming link** checkbox.
 1. Click **Continue**.
-1. the **Link applications** window, fill in the following fields:
+1. In the **Link applications** window, fill in the following fields:
 
    <table cellspacing="0"> 
     <col data-mc-conditions=""> 
@@ -233,7 +256,7 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
     </tbody> 
    </table>
 
-1. Click **Continue**
+1. Click **Continue**.
 1. Continue to [Create a connection to Jira Server or Jira Data Center in Workfront Fusion](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
 
 #### Create a connection to Jira Server or Jira Data Center in Workfront Fusion {#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion}
@@ -274,7 +297,7 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 
 When you configure Jira Software modules, Workfront Fusion displays the fields listed below. Along with these, additional Jira Software fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -397,7 +420,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 

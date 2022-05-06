@@ -7,7 +7,15 @@ description: As part of creating a Business Case, you can create a set of goals 
 
 # Create Business Case goals
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 As part of creating a Business Case, you can create a set of goals to define the objectives of a project. Business Case goals are used to communicate to the Portfolio Manager or the Project Sponsor the purpose of completing a project.
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
+-->
 
 Consider the following when creating Business Case goals for your projects:
 
@@ -46,7 +54,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Manage permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +67,9 @@ You must have the following access to perform the steps in this article:
 1. Click the project you want to view and click the&nbsp;**Project Details** tab.  
 1. Click the&nbsp;**Business Case** sub-tab.
 
-   The Business Case is displayed.
+   The Business Case displays.
 
-   ![](assets/g-350x153.png)
+   ![](assets/g-350x126.png)
 
 1. In the **Goals** section, click&nbsp;**Edit Goals**.
 

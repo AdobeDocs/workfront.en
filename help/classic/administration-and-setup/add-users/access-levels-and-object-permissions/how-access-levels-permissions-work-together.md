@@ -12,6 +12,10 @@ description: The Adobe Workfront administrator determines what access level each
 
 # How access levels and permissions work together
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
 
 Also, users gain access to individual objects when other users share and grant certain permissions on those objects.

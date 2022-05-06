@@ -9,6 +9,10 @@ description: If you have Manager or higher access to Workfront Library, you can 
 
 # Upload content to Workfront Library
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 If you have Manager or higher access to Workfront Library, you can upload new content.
 
 ## Understand uploading content to Workfront Library

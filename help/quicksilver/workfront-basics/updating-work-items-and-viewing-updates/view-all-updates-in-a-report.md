@@ -3,10 +3,14 @@ filename: view-all-updates-in-a-report
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: View all updates in a Note report
-description: The Updates area of an object displays a maximum number of 200 updates by default. To see all the updates that any of the users have entered for an object, you can create a Note report that displays all the updates.
+description: (NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 )
 ---
 
 # View all updates in a Note report
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
+-->
 
 The Updates area of an object displays a maximum number of 200 updates by default.&nbsp;To see all the updates that any of the users have entered for an object, you can create a Note report that displays all the updates.
 
@@ -42,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View</p> <p>Note: If you do not have View permission or higher to an object, information for that object does not display in the report.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View</p> <p>Note: If you do not have View permission or higher to an object, information for that object does not display in the report.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +69,7 @@ For example, to create a Note report for all the notes on a project:
 1. (Optional) Click **Groupings**, then **Add Grouping** to group by the **Project Name**, if you are reporting on multiple projects at the same time.  
    This ensures that the notes are grouped by their respective projects, making the report easier to read.&nbsp;
 
-1. (Optional) Click **Filters,**then&nbsp;**Add a Filter Rule**to filter for just one project, or specific projects.
+1. (Optional) Click **Filters,** then&nbsp;**Add a Filter Rule** to filter for just one project, or specific projects.
 
 1. (Conditional and optional) Set the **Project Name** as&nbsp;**Equal** to the project name of the project you want to view updates for.&nbsp;&nbsp;  
 

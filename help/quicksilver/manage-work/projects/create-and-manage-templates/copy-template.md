@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   <td> <p>View or higher permissions to a template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png), then click **Copy**.
 1. Specify a name for the template in the **New Template Name** field.
 
-   By default, the new name is**Copy of Name of Template.**
+   By default, the new name is**Copy of <original template name>.**
 
 1. Select whether you want to **Retain user assignments on tasks and template**: select this option to carry all task and template assignments from the original template to the new template.
 1. Click **Save** to create a copy of the template.

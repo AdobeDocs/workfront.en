@@ -86,6 +86,12 @@ To add a calculated field that displays a field's edit history to a custom form,
 
 1. Specify a **Label** for the calculated custom field, for example: *Instructions Edit History*. This is the field that will capture any changes made to the *Instructions* text field you created in Step 2. 
 
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (NOTE: make sure the step stays accurate)
+   </MadCap:conditionalText>
+   -->
+
 1. (Optional) Click the **Name** field to update it. The Name of the field matches the Label you just entered by default. 
 1. In the **Calculation** field, specify the following calculation for your custom field:
 

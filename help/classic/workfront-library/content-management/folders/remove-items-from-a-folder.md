@@ -1,14 +1,10 @@
----
-filename: remove-items-from-a-folder
-product: workfront-library
-product-area: documents
-navigation-topic: folders
-title: Remove items from a folder in Workfront Library
-description: You can remove content and folders from any folder to which you have Manage permissions. Users with View permissions to a folder cannot remove items from the folder.
-hidefromtoc: true
----
+
 
 # Remove items from a folder in Workfront Library
+
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 You can remove content and folders from any folder to which you have Manage permissions. Users with View permissions to a folder cannot remove items from the folder.
 

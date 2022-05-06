@@ -111,7 +111,7 @@ To log in to Workfront using your SSO&nbsp;username and password:
    Your Workfront administrator must enable SAML 2.0 authentication with the Workfront web application in order to log in with your SAML credentials. For information about how to enable SAML 2.0, see the section [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#saml-with-workfront-web-app) in the article [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md). If you cannot log in as described in this section, contact your Workfront administrator.
 
 1. Tap **Continue in browser**.
-1. Specify the **Username**of your Workfront account or SAML user.
+1. Specify the **Username** of your Workfront account or SAML user.
 1. Specify the **Password** for your Workfront account or SAML user.
 1. (Optional) Tap the eye icon to display or hide your password.
 1. Tap **SIGN IN**.

@@ -8,6 +8,10 @@ description: You can configure which layout template is used in any of the follo
 
 # Change the My Work and Work Requests areas with Layout Templates
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can configure which layout template&nbsp;is&nbsp;used in any of the following locations:
 
 * The Working On tab&nbsp;in your My Work area
@@ -68,7 +72,7 @@ To apply a custom layout template:
 
 1. ```If you are a Workfront administrator:```
 
-   1. Go to the&nbsp;**People**area&nbsp;on the Global Navigation Bar.&nbsp;
+   1. Go to the&nbsp;**People** area&nbsp;on the Global Navigation Bar.&nbsp;
    1. Click the&nbsp;**People** tab.
    1. Find the name of the user you want to assign a layout template to.
    1. Click their name to edit their profile.

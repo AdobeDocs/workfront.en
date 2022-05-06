@@ -28,11 +28,11 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Adobe Workfront Goals</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -43,7 +43,7 @@ You must have the following access to perform the actions described in this arti
    <td> 
     <div> 
      <p>View or higher permissions on goals</p> 
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -61,7 +61,12 @@ You must have the following before you can start:
 
 >[!NOTE]
 >
->To efficiently find and focus on the right goals, we recommend that you use filters in Workfront Goals. This allows you to display the correct information before you start managing goals that are important to you. By default, Workfront Goals displays all goals in the system.
+>To efficiently find and focus on the right goals, we recommend that you use filters in Workfront Goals. This allows you to display the correct information before you start managing goals that are important to you. By default, Workfront Goals displays all goals in the system. >
+><!-->
+><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+>(NOTE: this might change with sharing; sharing allows everyone to VIEW everything but not manage everything.)>
+></MadCap:conditionalText>>
+>-->
 
 You can locate and filter for goals in several sections of the&nbsp;Goals area in&nbsp;Workfront:
 
@@ -104,7 +109,7 @@ You can create a filter from scratch or edit one of the built-in filters.
 
    By default, the Goal List section displays. 
 
-1. Click **Filter**in the upper-right corner of the list.
+1. Click **Filter** in the upper-right corner of the list.
 
    ![](assets/filter-icon-and-label.png)
 
@@ -118,29 +123,31 @@ You can create a filter from scratch or edit one of the built-in filters.
 
    * Click any of the following predefined filters to display goals only for the following owners:
 
-     <table cellspacing="0"> 
+     <table cellspacing="3"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader">All</td> 
-        <td>All goals in your system, regardless of who created them, what the time period for them is, or who the owner is. This is the default filter and you cannot edit it. </td> 
+        <td>All</td> 
+        <td> <p>All goals in your system, regardless of who created them, what the time period for them is, or who the owner is. This is the default filter and you cannot edit it. </p> <!--
+          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
+         --> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Personal</td> 
+        <td>Personal</td> 
         <td>The goals for which you are the owner.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">My teams</td> 
+        <td>My teams</td> 
         <td> <p>The goals for which any of your teams is selected as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">My groups</td> 
+        <td>My groups</td> 
         <td>The goals for which any of your groups is selected as the owner. </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Company</td> 
-        <td> <p>The goals associated with your organization. </p> <p>Tip:  <p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p> <p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p> </p> </td> 
+        <td>Company</td> 
+        <td> <p>The goals associated with your organization. </p> <p>Tip:   <p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p> <p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p> </p> </td> 
        </tr> 
       </tbody> 
      </table>
@@ -201,7 +208,7 @@ You can create a filter from scratch or edit one of the built-in filters.
    >
    >You can have only one unsaved New Filter at one time.
 
-1. Click **Save** to save the filter to use it later, then add a name for the filter in the **Add filter name**field and click **Done**.
+1. Click **Save** to save the filter to use it later, then add a name for the filter in the **Add filter name** field and click **Done**.
 
    This saves the filter in the **Saved** section of the filter builder. You can use this filter in the future.
 

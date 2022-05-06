@@ -14,7 +14,7 @@ description: This is a transformer, not an app
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This is a transformer, not an app</p>
 -->
 
-The CSV modules let you create CSV files and parse CSV text from a received text value or a file.
+The Adobe Workfront Fusion CSV modules let you create CSV files and parse CSV text from a received text value or a file.
 
 ## Access requirements
 
@@ -60,7 +60,7 @@ You must have the following access to use the functionality in this article:
 
 The Create CSV Aggregator lets you create a csv text from received text values.
 
-For more information on aggregators, see [Aggregator module](../../workfront-fusion/modules/aggregator-module.md).
+For more information on aggregators, see [Aggregator module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
 | Source Module |Select the module you are using to aggregate the fields you need. |
 |---|---|
@@ -73,7 +73,7 @@ For more information on aggregators, see [Aggregator module](../../workfront-fus
 
 The Create CSV (advanced) Aggregator lets you create a CSV text from received text values. It employs a data structure that defines the CSV columns in the resulting CSV file. Once defined, the columns appear as fields in the CSV module setup, and can be mapped to later module in the scenario.
 
-For more information on aggregators, see [Aggregator module](../../workfront-fusion/modules/aggregator-module.md).
+For more information on aggregators, see [Aggregator module in Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
 <table cellspacing="0"> 
  <col> 
@@ -85,7 +85,7 @@ For more information on aggregators, see [Aggregator module](../../workfront-fus
   </tr> 
   <tr> 
    <td role="rowheader">Data Structure</td> 
-   <td> <p>Select the data structure to aggregate the fields in the way you want. After defining the data structure, you can map the items to the corresponding fields.</p> <p>For more information, see <a href="../../workfront-fusion/modules/data-structures.md" class="MCXref xref">Data structures</a>.</p> </td> 
+   <td> <p>Select the data structure to aggregate the fields in the way you want. After defining the data structure, you can map the items to the corresponding fields.</p> <p>For more information, see <a href="../../workfront-fusion/modules/data-structures.md" class="MCXref xref">Data structures in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Include headers in the first row </td> 
@@ -104,7 +104,9 @@ For more information on aggregators, see [Aggregator module](../../workfront-fus
 
 <!--
 <div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span class="autonumber"><span><b>Example: </b></span></span>
+<span class="autonumber"><span><b>Example: </b></span></span> <!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Not available yet, on maybe list</p>
+-->
 <p>Let us assume you would like to export your Google contacts to a CSV file with two columns "Full Name" and "Email". The output bundle from the Google Contacts > Get contacts from a group module has the following structure. The email addresses are stored inside the <code>Emails[]</code> item, which is an array of collections, each collection containing two items: <code>Label</code> and <code>Email</code>.</p>
 <p> <img src="assets/transforming-350x546.png" style="width: 350;height: 546;"> </p>
 <p>If you employ the simple Create CSV module, you are offered a list of checkboxes corresponding to a bundle's top-level items. If you attempt to tick <code>Full name</code> and <code>Emails</code> items, the Create CSV module produces the following output, which is probably not what you want:</p>
@@ -113,7 +115,7 @@ For more information on aggregators, see [Aggregator module](../../workfront-fus
 <p>"[object Object]","Lizeth Fulmore"</p>
 <p>"[object Object]","Hilario Gullatt"</p>
 <p>"[object Object]","Abby Eisenbarth"</p>
-<p>Since the item <code>Full Name</code> is of simple type Text, it is exported just fine. But the item <code>Emails</code>, which is of a complex type Array of Collections, is exported as [object Object], which is how Collections and Arrays are transformed to text by default. For more information, see <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Item data types</a>.</p>
+<p>Since the item <code>Full Name</code> is of simple type Text, it is exported just fine. But the item <code>Emails</code>, which is of a complex type Array of Collections, is exported as [object Object], which is how Collections and Arrays are transformed to text by default. For more information, see <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Item data types in Adobe Workfront Fusion</a>.</p>
 <p>To export content of the <code>Email </code>item of the first collection of the <code>Emails[]</code> array instead, it is necessary to employ the Create CSV (advanced) module. The module enables you to define individual columns of your CSV file and map items to them, including the nested ones.</p>
 <ol>
 <li value="1">Insert the module Create CSV (advanced) in a scenario and open its configuration.</li>

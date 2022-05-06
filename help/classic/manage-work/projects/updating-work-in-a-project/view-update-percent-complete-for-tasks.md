@@ -8,6 +8,10 @@ description: You can update the percent complete for a task in any of the follow
 
 # View and update Percent Complete for tasks
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can update the percent complete for a task&nbsp;in any of the following ways:
 
 * **In a task list:** You can update the percent complete of a task when the Percent Complete column is displayed.  

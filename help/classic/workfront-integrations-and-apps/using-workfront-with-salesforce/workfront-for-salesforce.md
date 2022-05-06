@@ -2,6 +2,10 @@
 
 # Adobe Workfront for Salesforce
 
+>[!IMPORTANT]
+>
+>You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
+
 You can use Adobe Workfront for Salesforce to integrate your Salesforce and Workfront systems. The articles in this section describe how to install, configure, and use Workfront for Salesforce.
 
 * [Adobe Workfront for Salesforce overview](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md) 

@@ -22,7 +22,3 @@ This section contains the following articles:
 * [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md) 
 * [Create and manage Automated Workflow templates](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../administration-and-setup/manage-workfront/configure-proofing/move-to-proofing-in-workfront.md" class="MCXref xref" xrefformat="{para}">Standalone Workfront Proof to Integrated Proofing in Workfront overview</a> </li>
-  -->
-

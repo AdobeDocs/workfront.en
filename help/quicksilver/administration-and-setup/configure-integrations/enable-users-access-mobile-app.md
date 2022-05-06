@@ -15,7 +15,7 @@ You can enable or disable access to the Adobe Workfront mobile app.
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 

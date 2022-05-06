@@ -4,10 +4,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with SAML 2.0
-description: The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 ---
 
 # Configure Adobe Workfront with SAML 2.0
+
+<!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ** </p>
+-->
 
 >[!IMPORTANT]
 >
@@ -21,7 +25,7 @@ After you have configure SAML 2.0 in Workfront, as described in the following se
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article: 
 
 <table cellspacing="0"> 
  <col> 
@@ -50,7 +54,7 @@ You must have the following to perform the steps in this article:
 
 1. In the **Type** drop-down list, click **SAML 2.0.**
 
-1. Near the top of the options that appear, click **Download SAML 2.0 Metadata**, then save the file to a temporary location on your computer.
+1. Near the top of the options that appear, click **Download SAML 2.0 Metadata** to download the file on your computer.
 
    Your SAML 2.0 Identity Provider requires an XML file with information generated in your Workfront instance. After the file is downloaded, you need to go to your SAML 2.0 Identity Provider server and upload the Workfront SAML 2.0 Metadata XML file there.
 

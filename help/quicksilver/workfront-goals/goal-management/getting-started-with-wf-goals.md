@@ -11,7 +11,7 @@ Your organization must have the following to use the functionality described in 
 
   Workfront Goals is available only in the new Adobe Workfront experience.
 
-For additional information about access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 Every organization needs to set and communicate clear goals to keep their teams productive, focused, and engaged. Truly knowing how work is aligned to strategy is key to success. Yet, without a system of record that connects your strategy and goals with the work in the organization, attaining alignment can be really difficult.
 
 Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone’s efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
@@ -121,7 +121,7 @@ Follow these guidelines to ensure that you are properly configured to get starte
 >
 >When identifying the primary owners, take into consideration that you are setting strategic goals for enterprise outcomes and not personal development goals.
 
-For information about configuring access to Workfront Goals, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+For information about configuring access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 ## Workfront Goals objects
 
@@ -132,7 +132,15 @@ Workfront Goals uses the following main objects:
 | Goal |The overall outcome you wish to achieve. You can create multiple goals for a defined period of time. Each goal has an owner, typically an individual or team (although you can also assign a goal to a group.) |
 |---|---|
 | Result |A metric indicator of goal success. Each goal can have one or more results and their progress indicate the progress of the goal. |
-| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align work objects (i.e. projects) from Workfront to goals |
+| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align work objects (i.e. projects) from Workfront to goals.
+
+<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(NOTE: edit when more objects will come)
+</MadCap:conditionalText>
+-->
+
+|
 
 For information about goals, results, and activities, see:
 

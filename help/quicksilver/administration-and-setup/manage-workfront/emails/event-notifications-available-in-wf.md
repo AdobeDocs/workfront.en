@@ -151,7 +151,7 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -243,7 +243,7 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -319,7 +319,7 @@ See also [Notifications: Approval information](../../../workfront-basics/using-n
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -376,10 +376,16 @@ See also [Notifications: Information about work assigned to me](../../../workfro
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
+  <tr data-mc-conditions=""> 
+   <td>Task</td> 
+   <td>All Predecessor Task Completion to Task Dependents on Assigned Team</td> 
+   <td> <p>All predecessors of the team's tasks are completed.</p> <p>The task assignees (all members of the team) receive an email notification.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td>Inactive</td> 
+  </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
    <td> <p>All Predecessor Task Completion to Task Dependents</p> </td> 
@@ -468,7 +474,7 @@ See also [Notifications: Information about projects I'm on](../../../workfront-b
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -549,7 +555,7 @@ See also [Notifications: Information about projects I own](../../../workfront-ba
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -636,7 +642,7 @@ See also [Notifications: Information about projects I sponsor](../../../workfron
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -713,7 +719,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
    <th><strong>Object Type</strong> </th> 
    <th><strong>Event</strong> </th> 
    <th><strong>Description</strong> </th> 
-   <th> </th> 
+   <th> Default state</th> 
   </tr> 
  </thead> 
  <tbody> 
