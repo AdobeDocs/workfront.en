@@ -1,14 +1,15 @@
 ---
-cloud: ad-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+user-guide-title: Workfront
+user-guide-description: Workfront
 ---
-# Table of Contents {#table-of-contents}
+# Workfront {#using}
+
 * [Product announcements](product-announcements/product-announcements.md)
-  * [Product releases](product-announcements/product-releases/product-releases.md)
+  * Product releases {#product-releases}
+    * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
-    * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
+    * 22.3 Release {#release-22-3}
+      * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
       * [22.3 release activity: Week of May 2, 2022](product-announcements/product-releases/22.3-release-activity/22-3-may-2.md)
       * [22.3 release activity: Week of April 18, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-18.md)
       * [22.3 release activity: Week of April 11, 2022](product-announcements/product-releases/22.3-release-activity/22-3-apr-11.md)
@@ -1222,8 +1223,10 @@ user-guide: null
     * [Configure the Done button for issues if no team is assigned](people-teams-and-groups/tips-tricks-and-troubleshooting/issue-status.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
-  * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-    * [Manage Reports](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
+  * Reporting Canvas {#reporting-canvas}
+    * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
+    * Manage reports {#manage-reports}
+      * [Manage Reports overview](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
       * [Get started with Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/get-started-reports.md)
       * [Build a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
       * [List your reports in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/list-your-reports.md)
