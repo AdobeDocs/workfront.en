@@ -15,9 +15,9 @@ description: The following sections describe how to configure and manage the Enh
 
 >[!IMPORTANT]
 >
->```This article is for organizations that migrated from Legacy Authentication to Enhanced Authentication 1.0. Most customers are currently using Legacy Authentication and will not migrate to Enhanced Authentication 1.0. Instead, they will migrate to Enhanced Authentication 2.0 in 2021. 
-  
->If your organization is currently using Legacy Authentication, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md) for more information about Enhanced Authentication 2.0.```
+>This article is for organizations that migrated from Legacy Authentication to Enhanced Authentication 1.0. Most customers are currently using Legacy Authentication and will not migrate to Enhanced Authentication 1.0. Instead, they will migrate to Enhanced Authentication 2.0 in 2021. 
+>
+>If your organization is currently using Legacy Authentication, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md) for more information about Enhanced Authentication 2.0.
 
 The following sections describe how to configure and manage the Enhanced Authentication 1.0 experience for your organization as the Adobe Workfront administrator.
 

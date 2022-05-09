@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: run-diagnostics
 title: Use Diagnostics to trigger automated processes
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Use Diagnostics to trigger automated processes
 ---
 
 # Use Diagnostics to trigger automated processes

@@ -18,8 +18,6 @@ As an Adobe Workfront administrator, you can create a team from the Setup area. 
 >* A user with a Plan license can also create a team from the People area. For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 >
 
-##  
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 

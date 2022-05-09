@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configure system-wide task and issue preferences
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ** ** This is linked to Converting Issues.
+description: Configure system-wide task and issue preferences
 ---
 
 # Configure system-wide task and issue preferences

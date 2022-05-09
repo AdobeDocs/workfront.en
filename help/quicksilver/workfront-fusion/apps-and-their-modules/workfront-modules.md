@@ -1656,7 +1656,7 @@ This is different from setting up a filter in the Workfront Fusion scenario. Wit
 >
 >You cannot edit filters in existing Workfront webhooks. To set up different filters for Workfront event subscriptions, remove the current webhook and create a new one.
 
-``` ```**Example: **`````` Consider a scenario that processes new issues that are assigned to a specific user, Ana.
+**Example:** Consider a scenario that processes new issues that are assigned to a specific user, Ana.
 
 ### Filter events by using an event subscription filter (recommended)
 

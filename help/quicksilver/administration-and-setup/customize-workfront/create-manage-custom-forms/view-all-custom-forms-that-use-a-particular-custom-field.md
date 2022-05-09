@@ -13,8 +13,6 @@ You can find out which custom forms are using a custom field or widget that you 
 
 For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-##  
-
 ## Access requirements
 
 You must have the following to perform the steps in this article:

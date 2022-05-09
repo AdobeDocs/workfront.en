@@ -54,7 +54,7 @@ You must have the following access to perform the actions described in this arti
 
 1. Go to the object where you want to change the order of the added custom forms, ,then start to edit the object.
 
-   ``` ```**Example: **``````For example, to manage the custom forms of a project, go to the project,  then click **Edit Project** .
+   **Example:** For example, to manage the custom forms of a project, go to the project,  then click **Edit Project** .
 
 1. In the **Custom Forms** section of the box that appears, click **Manage Forms**.
 

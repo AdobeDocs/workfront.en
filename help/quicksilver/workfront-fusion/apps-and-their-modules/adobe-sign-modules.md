@@ -893,7 +893,7 @@ Upload a transient document. A transient document is available for 7 days after 
  </tbody> 
 </table>
 
-``` ```**Example: **`````` In this workflow, the document to sign (previously downloaded from Workfront) is uploaded as a transient document.
+**Example:** In this workflow, the document to sign (previously downloaded from Workfront) is uploaded as a transient document.
 
 ![](assets/sign-example-1-350x308.png)
 

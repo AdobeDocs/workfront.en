@@ -27,8 +27,6 @@ Project Duration = Completion Date of the latest task - Start Date of the earlie
 >
 >The Duration of issues on the project does not affect the Duration of the Project.
 
-##  
-
 The duration of the project counts the number of days between the two task dates based on the Schedule associated with the project or the users assigned to the tasks. For information about which schedule Workfront uses to calculate duration, see [Schedules overview](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
 
 ## Types of project Duration

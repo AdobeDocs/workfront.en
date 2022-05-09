@@ -14,8 +14,6 @@ hidefromtoc: true
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Drafted article because I added it in a Project&nbsp;FAQ note)</p>
 -->
 
-##
-
 ## Problem
 
 A user who is designated as the **Project Owner** of a project and has **Manage** permissions on the project is unable to share their project or any of its tasks with a Team. When they are sharing the project, a certain **Team** is not available to share and cannot be found in the **Give project access to** or the **Give task access to** fields.

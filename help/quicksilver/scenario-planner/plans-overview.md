@@ -11,8 +11,6 @@ description: The Scenario Planner is available only in the new Adobe Workfront e
 
 The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md).
 
-##  
-
 As a business manager, you can use the Adobe Workfront Scenario Planner to outline the strategy for your organization's near and long-term future by outlining its one-, three-, or five-year plans.
 
 ## Access requirements
@@ -98,8 +96,6 @@ You can view the following in the job role box:
 |---|---|
 | Available |The number of job role FTEs or hours that are available for the current scenario.  |
 | Required |The number of job role FTEs or hours that are required by all the initiatives in the current scenario so that they can be completed.  |
-
-##  
 
 For information about accessing a plan and viewing detailed information about job roles, see [Create and edit plans in the Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 

@@ -756,7 +756,7 @@ Allows you to perform a custom API call.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` The following API call returns all contacts in your HubSpot account:
+**Example:** The following API call returns all contacts in your HubSpot account:
 
 **URL**:
 

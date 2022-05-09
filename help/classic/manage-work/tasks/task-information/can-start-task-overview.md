@@ -3,7 +3,7 @@ filename: can-start-task-overview
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: "Can Start" overview for tasks
+title: "'Can Start' overview for tasks"
 description: When a task is ready to start, Adobe Workfront adds a Can Start indicator to the task to easily identify that it's safe for you to start working on the task. You can view this indicator in the view of a task list or report.
 ---
 

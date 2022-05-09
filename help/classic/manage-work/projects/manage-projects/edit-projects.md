@@ -561,8 +561,6 @@ For information about how these settings affect creating new tasks, see [Create 
 
    Your changes will be submitted for this project. Any notifications that are triggered by making edits to the project and meet the conditions to be sent at this time, will now be sent to the users who subscribe to them.
 
-##
-
 ## Edit projects in bulk
 
 <!--

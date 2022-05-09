@@ -19,7 +19,7 @@ The status you configure can be any custom status created for the group, inherit
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
-``` ```**Example: **`````` You could create a custom status called Finished and set it as a default status equated with the Workfront status Complete.
+**Example:** You could create a custom status called Finished and set it as a default status equated with the Workfront status Complete.
 
 Then, for tasks set to change to the status Complete when they reach 100%, the status displays as Finished instead of Complete.
 

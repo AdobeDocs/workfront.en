@@ -485,5 +485,3 @@ When the Hours, FTE, or Cost Variance displays in red, you have estimated less B
 
 <![CDATA[ ]]>
 
-##  
-

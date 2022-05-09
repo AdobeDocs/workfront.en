@@ -75,7 +75,7 @@ Consider the following when working with filters in the Workload Balancer:
 * When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
 * When you create filters in the Workload Balancer in one area, they are not available in other areas. 
 
-  ``` ```**Example: **`````` Filters created in the Resourcing area are not available in the Workload Balancer of a project or a team.
+  **Example:** Filters created in the Resourcing area are not available in the Workload Balancer of a project or a team.
 
   For information about where to locate the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -178,7 +178,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
    1. Select a modifier from the second drop-down menu.
    1. Select or type a value for the field you are filtering for. 
    
-      ``` ```**Example: **`````` When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio:&nbsp;name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
+      **Example:** When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio:&nbsp;name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
 
       ![](assets/portfolio-name-filter-statement-wb-350x262.png)
 
@@ -259,8 +259,6 @@ You can duplicate and edit a filter to create a new one.
 
    The original filter remains unchanged and the duplicated filter is saved as a new filter.
 
-##
-
 ## Edit an existing filter in the Workload Balancer {#edit-an-existing-filter-in-the-workload-balancer}
 
 You can edit a saved filter in the Workload Balancer.
@@ -293,8 +291,6 @@ You can edit a saved filter in the Workload Balancer.
 1. Click&nbsp;**Save.**
 
    The results update in the Workload Balancer on the left and the filter is updated with the new information you selected.
-
-##
 
 ## Delete a saved filter in the Workload Balancer {#delete-a-saved-filter-in-the-workload-balancer}
 

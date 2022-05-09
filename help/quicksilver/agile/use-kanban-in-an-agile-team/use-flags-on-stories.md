@@ -10,7 +10,7 @@ description: On the Kanban board, flags provide a visual indication of when a st
 
 On the Kanban board, flags provide a visual indication of when a story is ready to move to the next status. This enables Kanban teams to use a "pull" approach rather than a "push" approach when moving stories across statuses.
 
-``` ```**Example: **``````Consider the following example of a team using a "pull" approach: Olivia, the graphic designer on the team, finishes her work and then sets the story flag as "Ready to Pull." This flag provides a visual indication to Tony, the copywriter on the team, that the story is ready for him to move to the next status. Tony then moves the story to the next status when he is ready to begin working on it.&nbsp; Consider the following when using flags on stories:
+**Example:** Consider the following example of a team using a "pull" approach: Olivia, the graphic designer on the team, finishes her work and then sets the story flag as "Ready to Pull." This flag provides a visual indication to Tony, the copywriter on the team, that the story is ready for him to move to the next status. Tony then moves the story to the next status when he is ready to begin working on it.&nbsp; Consider the following when using flags on stories:
 
 * Flags are not a status, but rather a visual indication that the story is ready to be moved to the next status by another member of the team.&nbsp;
 * Flags do not appear on any story cards that are in the Backlog column or in the Complete column (or in any column where the status of the column equates with Complete).

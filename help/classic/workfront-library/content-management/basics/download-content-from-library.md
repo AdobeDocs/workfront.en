@@ -134,8 +134,6 @@ Depending on the size of the folder or collection you want to download, its migh
 
    The folder or collection is either downloaded or placed in a .zip file and emailed to you.
 
-##
-
 ## Download multiple items
 
 You can download multiple types of files in the same batch. For example, you can down folders, collections, and content files at the same time. Depending on the size of the download, the items might be placed in a .zip file and emailed to you.

@@ -83,7 +83,7 @@ The XML > Parse XML module parses an XML formatted text and outputs a single bun
  </tbody> 
 </table>
 
-``` ```**Example: **`````` To download an XML file from a URL and parse its content:
+**Example:** To download an XML file from a URL and parse its content:
 
 1. Create a new scenario.
 1. Insert HTTP > Get a file module
@@ -151,7 +151,7 @@ _value
 
 for the text content of the node.
 
-``` ```**Example: **`````` This XML:
+**Example:** This XML:
 <pre><root attr="1"></pre><pre><node attr="ABC">Hello, World</node></pre><pre></root></pre>is converted into this bundle:
 
 ![](assets/xml-converted-to-bundle.png)
@@ -195,7 +195,7 @@ The XML > Create XML module converts a bundle to an XML formatted text.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` A typical use case is to transform data from a Google spreadsheet into XML.
+**Example:** A typical use case is to transform data from a Google spreadsheet into XML.
 
 1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the**Maximum number of returned rows** to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing "**Run this module only**." Verify the output of the module.
 
@@ -257,7 +257,7 @@ _value
 
 for the node value for this node in your custom data structure.
 
-``` ```**Example: **``````<pre>{</pre> ```<blockquote> <pre>"name": "node",</pre> <pre>"type": "collection",</pre> <pre>"spec": [</pre>  <blockquote>  <pre>{</pre>   <blockquote>   <pre>"name": "_attributes",</pre>   <pre>"type": "collection"</pre>   <pre>"spec": [</pre>    <blockquote>    <pre>{</pre>     <blockquote>     <pre>"name": "attr1",</pre>     <pre>"type": "text"</pre>     </blockquote>    <pre>}</pre>    </blockquote>   <pre>]</pre>   </blockquote>  <pre>},</pre>  <pre>{</pre>   <blockquote>   <pre>"name": "_value",</pre>   <pre>"type": "text"</pre>   </blockquote>  <pre>}</pre>  </blockquote> <pre>]</pre> </blockquote>```<pre>}</pre>
+**Example:**<pre>{</pre> ```<blockquote> <pre>"name": "node",</pre> <pre>"type": "collection",</pre> <pre>"spec": [</pre>  <blockquote>  <pre>{</pre>   <blockquote>   <pre>"name": "_attributes",</pre>   <pre>"type": "collection"</pre>   <pre>"spec": [</pre>    <blockquote>    <pre>{</pre>     <blockquote>     <pre>"name": "attr1",</pre>     <pre>"type": "text"</pre>     </blockquote>    <pre>}</pre>    </blockquote>   <pre>]</pre>   </blockquote>  <pre>},</pre>  <pre>{</pre>   <blockquote>   <pre>"name": "_value",</pre>   <pre>"type": "text"</pre>   </blockquote>  <pre>}</pre>  </blockquote> <pre>]</pre> </blockquote>```<pre>}</pre>
 
 ## Troubleshooting: Cannot map data from the Parse XML module
 

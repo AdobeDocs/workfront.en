@@ -6,7 +6,7 @@ content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 title: Create and manage layout templates
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+description: Create and manage layout templates
 ---
 
 # Create and manage layout templates

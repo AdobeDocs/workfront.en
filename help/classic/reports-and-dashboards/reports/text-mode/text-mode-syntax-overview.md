@@ -34,7 +34,7 @@ The following are common guidelines when building any reporting or list element 
    * You can display an object that is three objects away from the report or list object in a view.
    * You cannot reference objects that are more than 2 objects away from the main object in a grouping, filter, or custom prompt.
 
-  ``` ```**Example: **`````` You can display the name or GUID of the Portfolio Owner in a task view:
+  **Example:** You can display the name or GUID of the Portfolio Owner in a task view:
 
   ```
   valuefield=project:portfolio:ownerID
@@ -73,7 +73,7 @@ The characteristics of camel case are:
 * The following words always start with an uppercase letter.
 * There are no spaces between the words.
 
-``` ```**Example: **`````` To reference the Actual Completion Date of a project, the name of the field that you would use when building text mode reporting elements is 
+**Example:** To reference the Actual Completion Date of a project, the name of the field that you would use when building text mode reporting elements is 
 
 ```
 actualCompletionDate
@@ -170,7 +170,7 @@ line:
 
 * Use camel case to reference fields directly.
 
-  ``` ```**Example: **`````` To reference the Task&nbsp;Actual Completion Date in a task view, use the following line:
+  **Example:** To reference the Task&nbsp;Actual Completion Date in a task view, use the following line:
 
   ```
   valuefield=actualCompletionDate
@@ -178,7 +178,7 @@ line:
 
 * Use camel case and colons to separate fields related to one another for the same object.
 
-  ``` ```**Example: **`````` To reference the Project&nbsp;Planned Completion Date in a task view, use the following line:
+  **Example:** To reference the Project&nbsp;Planned Completion Date in a task view, use the following line:
 
   ```
   valuefield=project:plannedCompletionDate
@@ -188,7 +188,7 @@ line:
 
 * When referencing a custom field, use the name of the field exactly as it appears in the interface.
 
-  ``` ```**Example: **`````` To reference a project custom field labeled Additional Details in a task view, use the following line:
+  **Example:** To reference a project custom field labeled Additional Details in a task view, use the following line:
 
   ```
   valuefield=project:Additional Details
@@ -236,7 +236,7 @@ line:
 
 * Use camel case to reference fields directly and enclose each field in curly brackets.
 
-  ``` ```**Example: **`````` To display the Task Name field in a task column using 
+  **Example:** To display the Task Name field in a task column using 
 
   ```
   valueexpression
@@ -250,7 +250,7 @@ line:
 
 * Use camel case and periods to separate fields related to one another.
 
-  ``` ```**Example: **`````` To display the name of a project concatenated with the name of the task in a task report, use the following lines:
+  **Example:** To display the name of a project concatenated with the name of the task in a task report, use the following lines:
 
    * In a view:    
    
@@ -273,7 +273,7 @@ line:
    * Enclose the field in curly brackets.
    * Separate the fields related to the object by periods.
 
-  ``` ```**Example: **`````` To display the Additional&nbsp;Details project custom field in a task view in a valueexpression line, use the following line:
+  **Example:** To display the Additional&nbsp;Details project custom field in a task view in a valueexpression line, use the following line:
 
   ```
   valueexpression={project}.{DE:Additional Details}

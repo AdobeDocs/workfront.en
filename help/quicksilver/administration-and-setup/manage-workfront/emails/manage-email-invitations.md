@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Manage email invitations to new users
-description: *** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Manage email invitations to new users
 ---
 
 # Manage email invitations to new users

@@ -66,7 +66,7 @@ Verifies if an array contains the value.
 
 Removes duplicates inside an array. Use the "key" argument to access properties inside complex objects. To access nested properties, use dot notation. The first item in an array is index 1.
 
-``` ```**Example: **`````` ```distinct(``` ```Contacts[]``` ```;```
+**Example:** ```distinct(``` ```Contacts[]``` ```;```
 
 ```
 name

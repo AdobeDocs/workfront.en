@@ -102,8 +102,6 @@ For this example, we are using the following numbers:
 | **The Default Schedule** |Ignored |40 |0.75 |**30** (calculated) |**0.75** |
 | **The User's Schedule** |20 |40 |Ignored |**20** |**0.5** (calculated) |
 
-##  
-
 Schedule exceptions and time off might affect the amount of Planned Hours or FTE. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ## Calculate all other hour and FTE values for users and job roles in the Resource Planner {#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner}

@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create, edit, and share default filters, views, and groupings
-description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: You can create default filters, views, and groupings, then make them available to users in your organization.
 ---
 
 # Create, edit, and share default filters, views, and groupings

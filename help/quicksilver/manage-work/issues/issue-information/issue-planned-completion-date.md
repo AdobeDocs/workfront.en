@@ -59,7 +59,7 @@ When set automatically, the Planned Completion Date&nbsp;is determined based on 
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
 ```
 
-``` ```**Example: **`````` For example, if your task has a start date of Friday, January 14 and the Default Duration is 5 Days, the Planned Completion Date is Friday, January 21, if the Project&nbsp;Schedule is Monday-Friday for 8 hours a day.
+**Example:** For example, if your task has a start date of Friday, January 14 and the Default Duration is 5 Days, the Planned Completion Date is Friday, January 21, if the Project&nbsp;Schedule is Monday-Friday for 8 hours a day.
 
 The following situations exist:
 

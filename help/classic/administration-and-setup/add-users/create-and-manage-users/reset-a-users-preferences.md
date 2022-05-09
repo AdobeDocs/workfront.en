@@ -112,11 +112,8 @@ When you reset user preferences, some preferences are reverted to the system def
    >
    >This is case sensitive. The U must be capitalized, and the remaining characters must be lowercase. For example:    >
    >
-   >```   >
    >https://company_domain.my.workfront.com/resetUser
-   >```   >
-   >
-
+ 
 1. Press **Enter**.
 1. To reset all user preferences, click **Reset**.
 

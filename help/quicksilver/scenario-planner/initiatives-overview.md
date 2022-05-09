@@ -9,8 +9,6 @@ description: The Scenario Planner is available only in the new Adobe Workfront e
 
 # Initiatives overview in the Scenario Planner
 
-##
-
 The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../scenario-planner/scenario-planner-overview.md). 
 As a business manager, you can create initiatives for plans in the Adobe Workfront Scenario Planner. For information about creating plans, see the article [Create and edit plans in the Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 

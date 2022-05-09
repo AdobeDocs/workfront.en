@@ -83,7 +83,7 @@ If the JSON string field contains a collection
 
 :
 
-``` ```**Example: **`````` {
+**Example:** {
 
 "name" : "Peter",
 
@@ -102,7 +102,7 @@ If the JSON string field contains an array
 
 :
 
-``` ```**Example: **`````` [
+**Example:** [
 
 {
 
@@ -236,14 +236,14 @@ This action module transforms an object into a json string.
 
 ## Transforming data records to JSON {#transforming-data-records-to-json}
 
-``` ```**Example: **`````` The following example shows how to transform data records from Google Sheets to JSON format:
+**Example:** The following example shows how to transform data records from Google Sheets to JSON format:
 
 1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the**Maximum number of returned rows** to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing "**Run this module only**." Verify the output of the module.
 
 1. Connect the Array Aggregator module after the Google Sheets module. In the module's setup choose the Google Sheets module in the **Source node** field. Leave the other fields as they are for the moment.
 1. Connect JSON > Create JSON module after the Array Aggregator module. The module's setup requires a Data structure that describes the JSON format. Click **Add** to open the Data structure setup. The easiest way to create this Data structure is to generate it automatically from a JSON sample. Click **Generator** and paste your JSON sample to the **Sample data** field:
 
-   ``` ```**Example: **`````` {
+   **Example:** {
 
    "books": [
 
@@ -296,5 +296,5 @@ if
 
 in your JSON, put the quotation marks outside of the conditional statement.
 
-``` ```**Example: **``````  ![](assets/quotes-in-json-350x120.png)
+**Example:**  ![](assets/quotes-in-json-350x120.png)
 

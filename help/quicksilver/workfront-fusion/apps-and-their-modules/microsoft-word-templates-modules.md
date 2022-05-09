@@ -92,7 +92,7 @@ A simple value tag is simply replaced with a corresponding value. The tag's name
 
 .
 
-``` ```**Example: **`````` To create a document that says "Hi, Peter!", you could use a Microsoft WordTemplate module to create the following template:
+**Example:** To create a document that says "Hi, Peter!", you could use a Microsoft WordTemplate module to create the following template:
 
 ```
 > Hi {{name}}!
@@ -106,7 +106,7 @@ To do this, you would set up the module as follows:
 
 You can use a condition tag to wrap text that should be rendered only when certain conditions are met. To wrap the text, place it between opening and closing condition tags, such as "hasPhone" if the condition is whether or not the data includes a phone number. The name of an opening tag is prepended with a hash sign #, the name of a closing tag is prepended with a slash /, as shown in the example below.
 
-``` ```**Example: **`````` To produce a document that includes a customer's phone number if the input data includes a phone number, but no email address, you could use a Microsoft Word Template module and create the following template:
+**Example:** To produce a document that includes a customer's phone number if the input data includes a phone number, but no email address, you could use a Microsoft Word Template module and create the following template:
 <pre>> {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}</pre><pre>> {{#hasEmail}}Email: {{email}} {{/hasEmail}}</pre>To do this, you would set up the module as follows:
 
 ![](assets/word-template-conditional-350x501.png)
@@ -123,7 +123,7 @@ You can use a loop tag, also known as a section tag, to repeat a section of text
 
 #### Loop tag with Fill out a document module {#loop-tag-with-fill-out-a-document-module}
 
-``` ```**Example: **`````` To produce a document that lists the name and phone number of each contact in a customer list, you could use a Microsoft Word Template module and create the following template:
+**Example:** To produce a document that lists the name and phone number of each contact in a customer list, you could use a Microsoft Word Template module and create the following template:
 <pre>> {{#contact}}</pre><pre>>     {{name}}, {{phone}}</pre><pre>> {{/contact}}</pre>To do this, you would set up the module as follows:
 
 ![](assets/word-template-fill-out-a-document-350x732.png)
@@ -133,7 +133,7 @@ The module would create the following document:
 
 #### Loop tag with Fill a document with a batch of data module {#loop-tag-with-fill-a-document-with-a-batch-of-data-module}
 
-``` ```**Example: **`````` You can export Google contacts into a table that you create using loop tags.
+**Example:** You can export Google contacts into a table that you create using loop tags.
 
 The first module loads the template. The next module retrieves all contacts from the group you specify in Google Contacts. The aggregator module aggregates all values retrieved from Google Contacts and merges them into the template. And the last module saves the filled template to the desired location.
 

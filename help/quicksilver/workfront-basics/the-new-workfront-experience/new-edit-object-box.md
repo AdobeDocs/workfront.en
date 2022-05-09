@@ -19,8 +19,6 @@ We have introduced a new design for the Edit Object box to match the new Adobe W
 >* ```Issues``` 
 >
 
-##
-
 ## Benefits of the new Edit Object box
 
 ![](assets/edit-project-box-nwe-350x208.png)
@@ -74,7 +72,7 @@ Accessing the Edit Object box is similar for all objects where this functionalit
 
    The **Edit Object** box opens. 
 
-   ``` ```**Example: **`````` For example, the Edit Project box opens.
+   **Example:** For example, the Edit Project box opens.
 
    ![](assets/edit-project-box-nwe-350x208.png)
 

@@ -211,7 +211,7 @@ To create a Request Queue:
 
      ```W``` ``` ```hen``` ```you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.``````
 
-     ``` ```**Example: **`````` ```If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team.``` 
+     **Example:** ```If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team.``` 
    
    * ```**Documents**: If you select to display the Documents section in the new request form, select where the document uploading section should be positioned. Select from the following:```
 

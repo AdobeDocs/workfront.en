@@ -320,7 +320,7 @@ Evaluates one value (called the expression) against a list of values; returns th
 
 Omits the given keys of the object and returns the rest.
 
-``` ```**Example: **`````` ```omit(``` ```User``` ```;```password ```)```
+**Example:** ```omit(``` ```User``` ```;```password ```)```
 
 Returns a collection of the user's information, excluding the password.
 
@@ -328,7 +328,7 @@ Returns a collection of the user's information, excluding the password.
 
 Picks only the given keys from the object.
 
-``` ```**Example: **`````` ```pick(``` ```User``` ```;```password ```;```email ```)```
+**Example:** ```pick(``` ```User``` ```;```password ```;```email ```)```
 
 Returns a collection of only the user's password and email address.
 &nbsp;

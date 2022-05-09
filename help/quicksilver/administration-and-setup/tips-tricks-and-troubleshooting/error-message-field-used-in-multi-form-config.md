@@ -22,7 +22,7 @@ There's a slight problem
 
 At least two custom forms containing the calculated custom field you're trying to change are attached to a single object in your Workfront instance.
 
-``` ```**Example: **`````` Custom forms A and B are both attached to the same task. Both forms contain a calculated custom field called Profit. You encounter the error when you try to edit the calculation in the Profit field on custom form A.&nbsp;
+**Example:** Custom forms A and B are both attached to the same task. Both forms contain a calculated custom field called Profit. You encounter the error when you try to edit the calculation in the Profit field on custom form A.&nbsp;
 
 You can't change the calculation for the custom field in&nbsp;one of the forms because that would conflict with the formula in the same field in the other form. 
 To resolve this conflict, you must find the object where the multiple forms with the same calculated custom field are attached, then do one of the following:
@@ -45,26 +45,26 @@ This article explains how to find the object and then resolve the problem in one
 1. Click&nbsp;**Add a Filter Rule**, then start typing "custom&nbsp;form name" and select this value when it displays in the list. 
 1. Select **Equal** for the filter modifier, start typing the name of each form you made a note of in Step 1, then select it when it displays.
 
-   ``` ```**Example: **``````Custom Form Name Equals Form 1,&nbsp;Form 2,&nbsp;Form 3. 
+   **Example:** Custom Form Name Equals Form 1,&nbsp;Form 2,&nbsp;Form 3. 
 
 1. Click&nbsp;**Save Filter**, then name the new filter, and click&nbsp;**Save Filter**. 
 
 1. In the list of forms, make note of the object type of the filter, such as Task or Issue, that displays in the **Type** column.
 1. On each custom form you found in Step 1, create a new Checkbox custom field with a single default value of Yes.
 
-   ``` ```**Example: **``````Field 1 on Form 1 = Yes, Field 2 on Form 2 = Yes, Field 3 on Form 3 = Yes. This means "The Calculated Custom&nbsp;Field exists on Form 1," or "The Calculated Custom Field exists on Form 2," and so on. 
+   **Example:** Field 1 on Form 1 = Yes, Field 2 on Form 2 = Yes, Field 3 on Form 3 = Yes. This means "The Calculated Custom&nbsp;Field exists on Form 1," or "The Calculated Custom Field exists on Form 2," and so on. 
 
 1. In the **Search icon** ![](assets/search-icon.png) in the upper-right corner of the screen, click&nbsp;**Advanced Search**. 
 1. Click the object of your custom form (such as Issue), click&nbsp;**Filter your results**, then click **Add a filter**. 
 1. Start typing the name of a Checkbox field in the **Start typing field name** field and select it when it displays in the list, then select **Equal** and type **Yes** (without quotation marks) in the following box.
 
-   ``` ```**Example: **``````Field 1 Equal (Case Sensitive)&nbsp;Yes. 
+   **Example:** Field 1 Equal (Case Sensitive)&nbsp;Yes. 
 
 1. Click **Add a Filter** and add all Checkbox fields to your Advanced&nbsp;Search.
 
    Look for every possible combination. 
 
-   ``` ```**Example: **`````` Build several filters with the combinations you find, as listed below. You should find objects with multiple attached custom forms that contain the same calculated fields.&nbsp;You might find the following scenarios:
+   **Example:** Build several filters with the combinations you find, as listed below. You should find objects with multiple attached custom forms that contain the same calculated fields.&nbsp;You might find the following scenarios:
 
    * Field 1= Yes + Field 2 = Yes + Field 3 = Yes (no objects, for example)
    * Field 1= Yes + Field 2 = Yes (no objects, for example) 

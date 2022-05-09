@@ -251,7 +251,7 @@ The following scenarios exist when manually updating user or job role allocation
 * When you have not manually updated the allocations to trigger a change to the task Planned Hours and you remove all the assignments to the task, the Planned Hours remain unchanged. 
 * When you have manually updated the allocations to trigger a change to the task Planned Hours and you remove all the assignments to the task, the Planned Hours are also removed and the Planned Hours of the task become 0.
 
-``` ```**Example: **`````` For example, if a task has 10 Planned Hours and you have two assignees, they are each allocated 5 hours each, by default.
+**Example:** For example, if a task has 10 Planned Hours and you have two assignees, they are each allocated 5 hours each, by default.
 
 * If you don't update the individual user allocation or the daily allocations using the Workload Balancer and you remove any or all of the assignees from the task, the task Planned Hours remain 10 hours. 
 * If you manually change the assignments' allocations to 4 and 6 hours, respectively, and you remove the user allocated to 6 hours as well as their job role, the task Planned Hours updates to 4 hours. If you also remove the user that is allocated to 4 hours but keep the job role associated with the removed user, the Planned Hours of the task remain 4 hours. If you remove the last user who is allocated to 4 hours as well as their job role and the task remains unassigned, the task Planned Hours of the task become 0.
@@ -406,8 +406,6 @@ You cannot edit the Planned Hours of projects manually, as they are a calculatio
 </ol>
 </div>
 -->
-
-###
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

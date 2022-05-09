@@ -25,15 +25,13 @@ There are 3 components in a filter rule:
  </tbody> 
 </table>
 
-``` ```**Example: **`````` If you wanted to limit results in your report to only display projects that are owned by Jane Doe, you could create a filter rule with the field "Project Owner," the operator "Equal To," and the value "Jane Doe."
+**Example:** If you wanted to limit results in your report to only display projects that are owned by Jane Doe, you could create a filter rule with the field "Project Owner," the operator "Equal To," and the value "Jane Doe."
 
 Or you could display only projects that have an assigned project owner, which would have the field "Project Owner" and the operator "Is Not Blank."
 
 ## Prerequisites
 
 Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](../../../product-announcements/betas/reporting-canvas-beta.md).
-
-##  
 
 ## Access requirements
 

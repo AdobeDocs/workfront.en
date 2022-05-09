@@ -83,5 +83,3 @@ Both processes create a connection between the projects and their corresponding 
   </MadCap:conditionalText>
   -->
 
-##  
-

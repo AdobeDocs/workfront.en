@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Create and manage job roles
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Create and manage job roles
 ---
 
 # Create and manage job roles
@@ -140,6 +140,4 @@ Deleting a job role deletes all current and past resource allocation related to 
 </ol>
 </div>
 -->
-
-##  
 

@@ -194,7 +194,7 @@ You can quickly duplicate a task in a task list, if you need an identical task o
    * Issues
    * Only the predecessors which are in the same group of copied tasks are also copied with their successor tasks.
 
-     ``` ```**Example: **``````For example, if you copy Task 2 and its predecessor, Task 1, at the same time, then you have a copy of Task 2 and a copy of Task 1. The copy of Task 1 will be the predecessor of the copy of Task 2. But if you copy just Task 2 without copying its predecessor, then its copy will have no predecessor.
+     **Example:** For example, if you copy Task 2 and its predecessor, Task 1, at the same time, then you have a copy of Task 2 and a copy of Task 1. The copy of Task 1 will be the predecessor of the copy of Task 2. But if you copy just Task 2 without copying its predecessor, then its copy will have no predecessor.
 
 * When you duplicate a parent task, all children tasks are also duplicated, even when the children tasks are not selected. 
 * You can duplicate multiple tasks at the same time.

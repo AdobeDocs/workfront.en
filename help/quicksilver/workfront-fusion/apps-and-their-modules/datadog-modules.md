@@ -191,7 +191,7 @@ This action module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` The following API call returns the all dashboards in your Datadog account:
+**Example:** The following API call returns the all dashboards in your Datadog account:
 
 URL:
 

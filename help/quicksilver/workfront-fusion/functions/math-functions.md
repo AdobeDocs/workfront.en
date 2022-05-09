@@ -120,7 +120,7 @@ Returns the largest integer less than or equal to a specified number.
 
 Returns a number in requested format. By default, the decimal point is a comma (,) and the thousands separator is a period (.).
 
-``` ```**Example: **`````` ```formatNumber(```
+**Example:** ```formatNumber(```
 
 ```
 123456789<span class="function">;</span>3<span class="function">;</span>,<span class="function">;</span>.

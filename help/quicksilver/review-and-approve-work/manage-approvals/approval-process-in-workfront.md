@@ -105,7 +105,7 @@ This section explains the following about approving work items:
 
 Attaching a status to an approval process ensures that the item moves through departments in the right order.
 
-``` ```**Example: **``````You could attach an approval process to the Marketing Department status that requires approval by the Finance department. Then, when someone changes the status for a work item to “Marketing Department,” the item can't move to that department until the Finance department signs off on it.
+**Example:** You could attach an approval process to the Marketing Department status that requires approval by the Finance department. Then, when someone changes the status for a work item to “Marketing Department,” the item can't move to that department until the Finance department signs off on it.
 
 For more information about statuses for work items, see the following articles:
 
@@ -128,7 +128,7 @@ The following scenario illustrates how an approval process helps users approve w
 1. The designated approvers receive a notification about the pending approval process and they review the work item.
 1. The approval process ends after the designated approvers approve all steps of the process. Or, if they reject a step, the status is either reset to a predefined status, or an issue is created. (The person who created the approval process defined which of these automated steps happens after a rejection.)
 
-``` ```**Example: **`````` An advertising team has created a status called Ready for Printing and an approval process called Designer/ Copywriter Signoff that they associated with this status. This approval process is configured to:
+**Example:** An advertising team has created a status called Ready for Printing and an approval process called Designer/ Copywriter Signoff that they associated with this status. This approval process is configured to:
 
 * Require approval by the team's designer and copywriter
 * Initiate whenever someone changes a work item's status to Ready for Printing

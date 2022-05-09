@@ -55,7 +55,7 @@ The difference between Projected and Estimated Dates is:
 
 * Estimated Dates only take into account the real progress on a task in a given point in time.
 
-``` ```**Example: **`````` If we have a task that has a Planned Start Date of September 20 and a Planned Completion Date of September 24, and it has Must Finish On Constraint, the Projected Completion Date September 24. This task has a Duration of 4 days.
+**Example:** If we have a task that has a Planned Start Date of September 20 and a Planned Completion Date of September 24, and it has Must Finish On Constraint, the Projected Completion Date September 24. This task has a Duration of 4 days.
 
 The Estimated Completion Date is calculated based on the current progress of the work on the task. So, if today is September 23 and the task has not started yet, the Estimated Completion Date is September 27 (it should be completed after 4 days, assuming that the work is started today).
 

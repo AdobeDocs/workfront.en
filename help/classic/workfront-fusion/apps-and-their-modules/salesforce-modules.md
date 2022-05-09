@@ -424,7 +424,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` The following API call returns the list of all users in your Salesforce account:
+**Example:** The following API call returns the list of all users in your Salesforce account:
 
 * **URL**: 
 

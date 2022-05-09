@@ -25,8 +25,6 @@ You can add the following types of visualizations to a report:
 
 Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](../../../product-announcements/betas/reporting-canvas-beta.md).
 
-##  
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -123,6 +121,4 @@ You must have the following access to perform the steps in this article:
      -->   
    
    * **KPI** visualization: For instructions, see [Configure a KPI visualization in Reporting Canvas](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
-
-###  
 

@@ -72,7 +72,7 @@ In addition to the considerations described below, we recommend that you revisit
 * You must create the project, task, issue, template, or template task before the approval process can be associated with them.
 * When you attach an approval process to an item for a status that has passed and in which the item currently is, the approval process will not be triggered and no notifications are sent to the approvers.
 
-  ``` ```**Example: **``````If a task is in the status of&nbsp;Complete and you attach an approval process associated with the&nbsp;Complete status, the approval does not trigger. 
+  **Example:** If a task is in the status of&nbsp;Complete and you attach an approval process associated with the&nbsp;Complete status, the approval does not trigger. 
 
 * When you attach an approval process to the first status of an item (by using a template for tasks and projects, using the Queue Setup settings for issues, or defining the Task Settings of a project for new tasks), the approval processes are bypassed if the submitted approval is recalled. In this case, the approvers do not receive any notifications.
 
@@ -210,8 +210,6 @@ To create a single-use approval process:
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be removed when they bring the new Edit Template/ Template Task boxes to NWE) </p>   >
    >-->   >
    >
-
-##
 
 ## Remove or delete an approval process from a work item
 

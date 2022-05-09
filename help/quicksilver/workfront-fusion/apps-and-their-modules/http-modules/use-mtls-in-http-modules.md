@@ -19,7 +19,7 @@ When you send data over the internet, it's important to ensure that it goes to o
 
 Mutual TLS allows this identity confirmation to go both ways. When the server sends its certificate to verify its identity to the client, it also requests the client's certificate. This ensures that the server does not send information to a site or user that would misuse it.
 
-``` ```**Example: **``````
+**Example:**
 
 * **TLS**: When a person types "MyGreatBank.com" into a browser, they want to be sure that they are going to My Great Bank, not a website that might misuse or sell their banking information. They also want to be sure their bank account information is encrypted.
 

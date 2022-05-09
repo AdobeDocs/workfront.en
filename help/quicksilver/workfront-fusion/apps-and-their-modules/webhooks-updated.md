@@ -263,7 +263,7 @@ get()
 
 functions. 
 
-``` ```**Example: **`````` The example below shows a formula that extracts the value of the 
+**Example:** The example below shows a formula that extracts the value of the 
 
 ```
 authorization
@@ -366,7 +366,7 @@ Timeout for sending a response is 40 seconds. If the response is not available w
 
 ### HTML Response example {#html-response-example}
 
-``` ```**Example: **`````` Configure the Webhook Response module as follows:
+**Example:** Configure the Webhook Response module as follows:
 
 <table cellspacing="0"> 
  <col> 
@@ -399,7 +399,7 @@ This will produce an HTML response that displays like this in a web browser:
 
 ### Redirect example {#redirect-example}
 
-``` ```**Example: **`````` Configure the Webhook Response module as follows:
+**Example:** Configure the Webhook Response module as follows:
 
 <table cellspacing="0"> 
  <col> 

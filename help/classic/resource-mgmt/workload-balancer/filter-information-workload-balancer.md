@@ -73,7 +73,7 @@ Consider the following when working with filters in the Workload Balancer:
 * When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
 * When you create filters in the Workload Balancer in one area, they are not available in other areas. 
 
-  ``` ```**Example: **`````` Filters created in the  People area are not available in the Workload Balancer of a project or a team.
+  **Example:** Filters created in the  People area are not available in the Workload Balancer of a project or a team.
 
   For information about where to locate the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
@@ -165,7 +165,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
    When you select more than one field, the filter assumes that all conditions must apply simultaneously.
 
-   ``` ```**Example: **``````If you want to filter for items that belong to the Marketing portfolio and are assigned to the Job Role of Designer, the work items must be on projects associated with the Marketing portfolio as well as be assigned to Designers at the same time to display in the Workload Balancer.
+   **Example:** If you want to filter for items that belong to the Marketing portfolio and are assigned to the Job Role of Designer, the work items must be on projects associated with the Marketing portfolio as well as be assigned to Designers at the same time to display in the Workload Balancer.
 
 1. (Optional) Click **Reset** to clear all the fields you have selected and start building the filter from scratch. 
 1. (Optional) Click **Apply** to apply the filter without saving.
@@ -205,8 +205,6 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
    ![](assets/wb-filter-with-blue-dot-and-filter-name-350x57.png)
 
-##
-
 ## Edit an existing filter in the Workload Balancer {#edit-an-existing-filter-in-the-workload-balancer}
 
 You can edit a saved filter in the Workload Balancer.
@@ -242,8 +240,6 @@ You can edit a saved filter in the Workload Balancer.
 1. Click **Save** to save the changes you made to the existing filter. 
 1. (Optional) Click the **left-pointing arrow** next to the name of the filter to exit the filter builder and return to the list of filters. 
 1. Click the **X icon** in the upper-right corner of the filter builder to close the filter builder.
-
-##
 
 ## Delete a saved filter in the Workload Balancer
 

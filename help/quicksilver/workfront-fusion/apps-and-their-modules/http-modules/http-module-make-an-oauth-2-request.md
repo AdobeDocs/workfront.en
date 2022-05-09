@@ -149,7 +149,7 @@ You must have the following access to use the functionality in this article:
    >
    >.
 
-   ``` ```**Example: **`````` Yahoo addresses:
+   **Example:** Yahoo addresses:
 
    * Authorize URI:    
    

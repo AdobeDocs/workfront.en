@@ -22,19 +22,17 @@ This is useful if your organization’s security policy restricts users from sen
 
 >[!IMPORTANT]
 >
->*Your IT team* should ensure that incoming email from >
->```>
+>*Your IT team* should ensure that incoming email from 
+>
 >notifications@my.workfront.com
->```>
+>
 >is not blocked in your organization’s system.
 >
 >All email from Workfront is sent from that address to increase successful email delivery and to eliminate spoofing of emails. This includes both automated alerts and user-to-user communication.
 >
 >For example, the From line in a Workfront email you receive from a user named Joan Harris would look like this:
 >
->```>
 >Joan Harris <notifications@my.workfront.com>
->```>
 
 For information about configuring your organization's firewall to open communication between your environment and the Adobe Workfront servers, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

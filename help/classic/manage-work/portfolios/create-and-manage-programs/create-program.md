@@ -152,8 +152,6 @@ The following information displays in the header of a program:
  </tbody> 
 </table>
 
-##
-
 ## Move a program
 
 You can add existing programs to a portfolio. Because programs cannot exist in two different portfolios, adding an existing program permanently moves it from one portfolio to another.

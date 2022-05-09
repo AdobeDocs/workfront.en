@@ -108,8 +108,6 @@ You can create personal tasks in Adobe Workfront from Microsoft Teams if the fol
 
 1. Open a team channel and type *@Workfront**, *then select **Workfront.**
 
-   **** 
-
 1. Click **Search** to search for a project, task, or issue.
 
    For information about searching for items, see the [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) article.

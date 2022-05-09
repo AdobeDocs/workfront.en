@@ -798,7 +798,7 @@ Specify a number from 1 to 12. If the number is outside of this range, the funct
 
 Returns a new date with the year specified in parameters.
 
-``` ```**Example: **`````` ```setMonth(```
+**Example:** ```setMonth(```
 
 ```
 2015-08-07T11:36:39.138Z

@@ -54,7 +54,7 @@ With the Workfront Fusion for Automation license, you have access to the followi
 
 ### Example of Workfront Fusion for Work Automation {#example-of-workfront-fusion-for-work-automation}
 
-``` ```**Example: **`````` The following example shows a workflow that:
+**Example:** The following example shows a workflow that:
 
 1. Watches for a field change
 1. Gets information about the object the field is attached to, including who the object is assigned to
@@ -88,7 +88,7 @@ For a list of available dedicated connectors, see [Apps and their modules](../..
 
 ### Example of Workfront Fusion for Work Automation and Integration {#example-of-workfront-fusion-for-work-automation-and-integration}
 
-``` ```**Example: **`````` The following example shows a workflow that:
+**Example:** The following example shows a workflow that:
 
 1. Watches a spreadsheet for new users
 1. Checks to see if the user exists in Workfront 

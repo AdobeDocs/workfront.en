@@ -501,8 +501,6 @@ For information about how these settings affect creating new tasks, see the sect
 
    Click **Save**.
 
-###
-
 ### Issue Settings {#issue-settings}
 
 1. Begin editing your project as described above.
@@ -603,8 +601,6 @@ You can edit the following fields in the project header:
 
 * Status
 * Make approval decisions if you are set as the approver in a current approval process
-
-##
 
 ## Edit projects in bulk
 

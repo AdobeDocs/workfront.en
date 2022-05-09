@@ -68,7 +68,7 @@ The SOAP module is currently in beta and does not support:
 * Multiple parts in input and output messages. Only single part messages are supported
 * Custom XML Schema elements defined with the help of SOAP Encoding (http://schemas.xmlsoap.org) schemas and elements.
 
-  ``` ```**Example: **`````` The following would not be recognized correctly by Workfront Fusion:
+  **Example:** The following would not be recognized correctly by Workfront Fusion:
   <pre><complexType name="ArrayOfFloat"></pre> ```<blockquote> <pre><complexContent></pre> </blockquote>``` ```<blockquote>  <blockquote>  <pre><restriction base="soapenc:Array"></pre>  </blockquote> </blockquote>``` ```<blockquote>  <blockquote>   <blockquote>   <pre><attribute ref="soapenc:arrayType"</pre>   </blockquote>  </blockquote> </blockquote>``` ```<blockquote>  <blockquote>   <blockquote>    <blockquote>     <blockquote>     <pre>wsdl:arrayType="xsd:integer[]"/></pre>     </blockquote>    </blockquote>   </blockquote>  </blockquote> </blockquote>``` ```<blockquote>  <blockquote>  <pre></restriction></pre>  </blockquote> </blockquote>``` ```<blockquote> <pre></complexContent></pre> </blockquote>```<pre></complexType></pre>It includes the 
 
   ```

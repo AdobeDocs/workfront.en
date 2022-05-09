@@ -13,7 +13,7 @@ description: As a Workfront administrator, you can change the order of project, 
 >
 >You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-As a Workfront administrator, you can change the order of project, task, and issue statuses for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level"> everyone in the system or for a single group</MadCap:conditionalText>```.
+As a Workfront administrator, you can change the order of project, task, and issue statuses for <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level"> everyone in the system or for a single group</MadCap:conditionalText>.
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.</p>
@@ -102,7 +102,11 @@ By default, statuses display in the following order:
  </tbody> 
 </table>
 
-## Reorder statuses for tasks and projects```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  system wide or for a group</MadCap:conditionalText>```
+## Reorder statuses for tasks and projects
+
+<!--
+<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  system wide or for a group</MadCap:conditionalText>
+-->
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left panel, click **Project Preferences > Statuses**.

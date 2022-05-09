@@ -89,7 +89,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
    * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
    * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
-   ``` ```**Example: **``````Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
+   **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
 
    ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 

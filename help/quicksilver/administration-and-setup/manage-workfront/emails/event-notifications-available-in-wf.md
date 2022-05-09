@@ -703,8 +703,6 @@ See also [Notifications: Information about projects I sponsor](../../../workfron
  </tbody> 
 </table>
 
-##
-
 ## Miscellaneous information
 
 See also [Notifications: Miscellaneous information](../../../workfront-basics/using-notifications/notifications-misc-information.md).

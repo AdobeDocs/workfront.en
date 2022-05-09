@@ -5,7 +5,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 title: Configure a custom help URL
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Configure a custom help URL
 ---
 
 # Configure a custom help URL

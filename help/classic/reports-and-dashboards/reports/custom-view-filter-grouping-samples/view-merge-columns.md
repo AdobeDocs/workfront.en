@@ -106,7 +106,7 @@ To do this:
 
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information for each column. 
 
-   ``` ```**Example: **`````` The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name and there is no break between the three values:
+   **Example:** The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name and there is no break between the three values:
 
    ```
    column.1.valuefield=name
@@ -212,7 +212,7 @@ Do the following to merge the data from multiple columns to display it in one co
 
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information. 
 
-   ``` ```**Example: **`````` The following is the text mode code for a shared column that contains Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name with a line break. The shared column is the second column of a project view.
+   **Example:** The following is the text mode code for a shared column that contains Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name with a line break. The shared column is the second column of a project view.
 
    ```
    column.1.displayname=Project_StartDate_Owner

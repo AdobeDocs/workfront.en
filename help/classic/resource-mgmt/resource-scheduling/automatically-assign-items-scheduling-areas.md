@@ -153,8 +153,6 @@ To allow Workfront to automatically propose assignments for tasks and issues in 
 
    **Existing task assignment:**
 
-   **** 
-
 1. (Optional) You can modify any proposed or existing assignments prior to finalizing the assignments:
 
    >[!NOTE]

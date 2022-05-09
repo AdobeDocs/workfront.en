@@ -803,7 +803,7 @@ To determine the correct format:
 
 1. To compose the correct format that should be passed to the formatDate() function, refer to the list of [Tokens for date and time formatting in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
 
-``` ```**Example: **`````` The use of 
+**Example:** The use of 
 
 ```
 M/D/YYYY HH:mm:ss

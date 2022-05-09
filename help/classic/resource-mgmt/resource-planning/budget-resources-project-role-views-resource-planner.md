@@ -22,8 +22,6 @@ The main function of the Resource Planner is to budget your resources for the wo
 >
 >You can budget your resources only if you apply the **View by Project** or **View by Role** views to the Resource Planner.
 
-##  
-
 Before starting to budget information in the Resource Planner, see the following articles:
 
 * [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 
@@ -314,6 +312,4 @@ To budget your resources in bulk:
    >   * When Resource Pools that are associated with projects contain users with no job role associated with them.
    >   
    >
-
-##  
 

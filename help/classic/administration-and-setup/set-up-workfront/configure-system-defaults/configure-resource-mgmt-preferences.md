@@ -71,7 +71,7 @@ You must have the following to perform the steps in this article:
      User Available Hours = (Default Schedule Hours - Exceptions) * FTE - Time off hours
      ```
 
-     ``` ```**Example: **``````   
+     **Example:**   
      For example, if the Default Schedule is 40 hours a week and the FTE in the profile of the user is 0.5, the user is available to work for 20 hours a week.
 
      If the user has 1 hour of Time off one day, their Available Hours will be calculated as follows:
@@ -104,7 +104,7 @@ You must have the following to perform the steps in this article:
      User Available FTE = (Hours from the Schedule of the User - Time off hours) / Default Schedule Hours
      ```
 
-     ``` ```**Example: **``````For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week,&nbsp;the FTE of the user is 0.75.&nbsp;
+     **Example:** For example, if the Default Schedule is 40 hours a week and the schedule of the user is 30 hours a week,&nbsp;the FTE of the user is 0.75.&nbsp;
 
      If the user has 2 hours of Time off one day, their Weekly Available FTE will be calculated as follows:
 

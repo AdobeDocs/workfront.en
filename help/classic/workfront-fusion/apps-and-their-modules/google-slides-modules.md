@@ -445,7 +445,7 @@ Performs an arbitrary authorized API call.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` Using an API call you can get the presentation details for the presentation ID you have entered. You can find the presentation ID in the URL when you the open the presentation in Google Slides.
+**Example:** Using an API call you can get the presentation details for the presentation ID you have entered. You can find the presentation ID in the URL when you the open the presentation in Google Slides.
 
 ![](assets/api-call-350x13.png)
 

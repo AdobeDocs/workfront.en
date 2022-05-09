@@ -84,7 +84,7 @@ To insert a function into a field:
 
    Drag the function into the field.
 
-``` ```**Example: **`````` Some data types prevent users from entering more than a certain number of characters. You can use the substring function to limit a value to a certain number of characters.
+**Example:** Some data types prevent users from entering more than a certain number of characters. You can use the substring function to limit a value to a certain number of characters.
 
 In this example, the substring function limits project name to 50 characters.
 

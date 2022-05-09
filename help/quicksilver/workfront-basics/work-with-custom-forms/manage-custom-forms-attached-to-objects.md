@@ -50,7 +50,7 @@ You must have the following access to perform the actions described in this arti
 
 1. Go to the object where you want to change the order of the added custom forms, ,then start to edit the object.
 
-   ``` ```**Example: **``````For example, to manage the custom forms of a project, go to the project,  click the **More** menu ![](assets/more-icon.png), then click **Edit** .
+   **Example:** For example, to manage the custom forms of a project, go to the project,  click the **More** menu ![](assets/more-icon.png), then click **Edit** .
 
 1. In the **Custom Forms** section for projects, ```tasks, and issues```, click the ![](assets/move-icon---dots.png) icon next to the name of a custom form. For all other objects, click **Manage Forms**. This option displays only if at least one custom form is attached to the object.
 1. Drag a form ![](assets/move-icon---dots.png) to a new location in the list.

@@ -243,5 +243,3 @@ You can create a filter from scratch or edit one of the built-in filters.
 
 &nbsp;
 
-###  
-

@@ -9,8 +9,6 @@ description: The Portfolio Optimizer is the tool used for project evaluation and
 
 # Portfolio Optimizer overview
 
-##  
-
 The Portfolio Optimizer is the tool used for project evaluation and comparison. The process of reviewing and comparing Business Case values for projects assigned to a portfolio is how a portfolio manager can prioritize projects and generate the most value for an organization.
 
 The purpose of the portfolio optimizer is to provide an interface through which a portfolio manager, steering committee, or product management office can view summary information about the business case of each project. Projects can then be prioritized according to strategic values and goals, or according to their overall score.

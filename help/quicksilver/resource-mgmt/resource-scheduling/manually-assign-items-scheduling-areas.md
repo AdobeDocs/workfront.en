@@ -55,8 +55,6 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-##
-
 ## Prerequisites before assigning tasks and issues in the Scheduling timeline
 
 Before you begin managing user assignments as described in this section, become familiar with how resource scheduling works in Workfront, as described in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).

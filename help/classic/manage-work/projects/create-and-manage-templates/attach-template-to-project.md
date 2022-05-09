@@ -140,5 +140,3 @@ To understand what template is applied to a project:
 
 &nbsp;
 
-##  
-

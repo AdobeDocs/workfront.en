@@ -6,8 +6,6 @@ A bubble visualization can help you quickly tell a story about your data by high
 
 You can display up to 3 fields of one object in a bubble chart. This means you can display up to 4 data points in a bubble chart. Each entity with 3 associated fields is displayed as a circle that expresses two of the fields within its location within the X and Y axes. The third field is represented by the size of the circle.
 
-##  
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

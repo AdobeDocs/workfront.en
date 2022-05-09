@@ -81,7 +81,7 @@ When sharing an object with someone in the system, a user can grant the recipien
 
 When someone shares an object, the recipient’s rights to the object are determined by a combination of the recipient’s access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
 
-``` ```**Example: **`````` If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
+**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
 
 Or, if the recipient’s access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
 The following table compares a user's general access to objects (defined by the user’s access level) to permissions for a specific shared object:

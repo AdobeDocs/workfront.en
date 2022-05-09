@@ -208,7 +208,7 @@ The Limited Edit permission for custom form section breaks is available for only
 
 In a custom form with a section break configured with the Limited Edit permission, if you add one of the other object types to the form (Portfolio, Program, Document, Company, Billing Record, Iteration, Expense, or Group), you will be prompted to switch to the Edit permission, which is compatible with both that object type and the existing object types on the form. 
 
-``` ```**Example: **`````` In a custom form associated with the Project object type, a section break is configured with the Limited Edit permission.
+**Example:** In a custom form associated with the Project object type, a section break is configured with the Limited Edit permission.
 
 You add the Portfolio object type to the form, which means that the Limited Edit permission option is no longer available for the section break in the form.
 

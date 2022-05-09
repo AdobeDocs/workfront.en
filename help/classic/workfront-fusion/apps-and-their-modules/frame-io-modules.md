@@ -739,7 +739,7 @@ This module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` The following API call returns all teams and its details in your Frame.io account:
+**Example:** The following API call returns all teams and its details in your Frame.io account:
 
 URL: 
 

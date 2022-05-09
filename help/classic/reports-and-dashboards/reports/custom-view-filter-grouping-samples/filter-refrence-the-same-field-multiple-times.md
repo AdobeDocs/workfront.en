@@ -3,7 +3,7 @@ filename: filter-refrence-the-same-field-multiple-times
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: create multiple filter rules that reference the same field ("AND" statements)"
+title: "Filter: create multiple filter rules that reference the same field ('AND' statements)"
 description: In the standard mode interface, when attempting to create multiple filters that reference the same field (using the AND qualifier), one of the filters is deleted when you save the report and exit the report builder.
 ---
 
@@ -15,7 +15,7 @@ description: In the standard mode interface, when attempting to create multiple 
 
 In the standard mode interface, when attempting to create multiple filters that reference the same field (using the AND qualifier), one of the filters is deleted when you save the report and exit the report builder.
 
-``` ```**Example: **`````` You might want to view only tasks that contain the word "green" but do not contain the word "red" in the name. Adobe Workfront does not allow you to save the following filter rules using the standard mode interface because it references the same field (Task&nbsp;Name) but uses different modifiers and refers to different values:
+**Example:** You might want to view only tasks that contain the word "green" but do not contain the word "red" in the name. Adobe Workfront does not allow you to save the following filter rules using the standard mode interface because it references the same field (Task Name) but uses different modifiers and refers to different values:
 
 * Task Name > Contains > Green
 * Task Name > Does Not Contain > Red

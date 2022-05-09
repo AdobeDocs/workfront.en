@@ -83,8 +83,6 @@ The following scenarios occur when a group-specific approval process is already 
  </tbody> 
 </table>
 
-##
-
 ## Changing the group associated with a project
 
 When someone changes the group associated with a project to different group, the following occurs:
@@ -241,8 +239,6 @@ When someone changes the availability of a system-wide approval process from "Al
   </tr> 
  </tbody> 
 </table>
-
-##
 
 ## Moving or copying a task or an issue to a project with a different group than that of the approval process
 

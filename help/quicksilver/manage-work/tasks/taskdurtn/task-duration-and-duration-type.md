@@ -21,7 +21,7 @@ The Duration Type of a task identifies the relationship between the number of re
 
 If the Actual Start and&nbsp;Actual Completion Dates of the task fall outside of the schedule of the project, primary assignee, or the Default Schedule, the task&nbsp;Duration is zero.
 
-``` ```**Example: **``````If you have a schedule that starts at 9:00&nbsp;AM and ends at 12:00&nbsp;PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
+**Example:** If you have a schedule that starts at 9:00&nbsp;AM and ends at 12:00&nbsp;PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
 
 The following are two scenarios that exist when calculating duration in&nbsp;Adobe Workfront.
 
@@ -58,7 +58,7 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 | Elapsed Weeks |EW |
 | Elapsed Months |ET |
 
-``` ```**Example: **`````` If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task&nbsp;Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+**Example:** If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list .  You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task&nbsp;Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>

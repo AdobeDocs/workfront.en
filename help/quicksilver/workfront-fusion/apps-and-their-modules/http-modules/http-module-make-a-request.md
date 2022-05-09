@@ -155,7 +155,7 @@ If you see the map button above a field or function, you can use it to set varia
  </tbody> 
 </table>
 
-``` ```**Example: **`````` This example shows how to set up the module to submit a POST request with JSON payload:
+**Example:** This example shows how to set up the module to submit a POST request with JSON payload:
 
 ![](assets/make-a-request-example-350x522.png)
 

@@ -16,8 +16,6 @@ You can delete a timesheet profile.
 
 For information about timesheet profiles, see [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-##  
-
 ## Access requirements
 
 You must have the following to perform the steps in this article:

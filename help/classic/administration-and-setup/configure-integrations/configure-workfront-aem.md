@@ -84,14 +84,10 @@ To install the Workfront for AEM Assets connector, you must import the connector
 
 1. Click **Upload Package.**
 
-   **** 
-
 1. In the Upload Package dialog box, browse for and select the Workfront Connector package, then click **OK**.  
    The package displays in the CRX Package Manager.
 
 1. Click **Install.**
-
-   **** 
 
 1. On the Package dialog box, ignore the advanced settings and click **Install**.
 1. (Optional) To confirm the connector successfully installed, ensure the following statement displays in the Activity Log:  

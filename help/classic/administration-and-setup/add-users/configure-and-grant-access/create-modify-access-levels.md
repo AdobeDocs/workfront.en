@@ -5,7 +5,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 title: Create or modify custom access levels
-description: ** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.
+description: As an Adobe Workfront administrator, you can create custom access levels and apply them to users.
 ---
 
 # Create or modify custom access levels
@@ -208,6 +208,4 @@ You must have the following access to perform the steps in this article:
    For information about how an Adobe administrator assigns a System Administrator access level to a users, see __________________.
    </MadCap:conditionalText>
    -->
-
-##  
 

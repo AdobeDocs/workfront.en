@@ -65,7 +65,7 @@ To find out the ranking of a project, do the following:
 
 The algorithm for calculating the scores takes in to consideration the values outlined in the Business Cases of the projects and the weights they carry. It gives every project in the optimizer a score and normalizes that score so there is always a project with a score of 100. This gives a high score to the best project.
 
-``` ```**Example: **``````For example, if you make higher alignment the only factor to consider, the project with the highest alignment gets the score of 100. 
+**Example:** For example, if you make higher alignment the only factor to consider, the project with the highest alignment gets the score of 100. 
 
 The following are criteria that you can score a project by:
 
@@ -87,7 +87,7 @@ For each project with a complete business case a score per criteria is generated
 Score Per Criteria = (Project Value For The Criteria - AVG(all the project values for this criteria)) / Standard Deviation of that value for that project
 ```
 
-``` ```**Example: **``````For the Alignment Score for the Project A, you will have the following:
+**Example:** For the Alignment Score for the Project A, you will have the following:
 
 ```
 Alignment Score = (Project A Alignment Score - AVG (of all the project Alignments)) / Standard Deviation of alignment score for that project

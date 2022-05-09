@@ -25,7 +25,7 @@ Proof roles are granted to users for an individual proof at the time the user is
 
 The proof role defines what actions a reviewer can take in relation to that specific proof.
 
-``` ```**Example: **``````If you are assigned the Reviewer role, you are being asked to review the proof by adding markups and comments, but you do not have the option to approve or deny the proof.
+**Example:** If you are assigned the Reviewer role, you are being asked to review the proof by adding markups and comments, but you do not have the option to approve or deny the proof.
 
 Certain proof roles give a reviewer edit rights on the proof (even if their account profile doesn't) and lets them use some additional features like adding actions on comments, creating new versions, and adding more reviewers to the proof.
 

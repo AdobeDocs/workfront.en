@@ -62,7 +62,7 @@ When you delete a group or subgroup, you reassign the information associated wit
 
 If one of the deleted group’s statuses was also being used by the destination group (the status in both groups has the same key), and the destination group customized the status in different ways, the settings of the destination group’s version override the settings of the moved group’s version.
 
-``` ```**Example: **`````` The group administrator of Group A renames an unlocked system-level status for her group. The group administrator of a Group B also renames that status for his group. Though the status has different names in the two groups, it has the same key.
+**Example:** The group administrator of Group A renames an unlocked system-level status for her group. The group administrator of a Group B also renames that status for his group. Though the status has different names in the two groups, it has the same key.
 
 Later, Group A is deleted and all of its information is reassigned to Group B.
 

@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: Create and edit companies
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Create and edit companies
 ---
 
 # Create and edit companies
@@ -124,8 +124,6 @@ To add or edit a company:
    Or
 
    If you are editing an existing company, click **Save Changes**.
-
-##
 
 ## Manage company memberships
 

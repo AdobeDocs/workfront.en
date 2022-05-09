@@ -93,7 +93,7 @@ You can also designate template ownership before you install the blueprint. You 
     </tbody> 
    </table>
 
-   ``` ```**Example: **`````` The new issue preferences in this blueprint provide four queue topics. The user selects one of these topics when creating an issue. (Because only one topic group exists, it is automatically applied and the user does not have to select it.) When the user completes and submits the issue, routing rules determine which job role or team it is assigned to.
+   **Example:** The new issue preferences in this blueprint provide four queue topics. The user selects one of these topics when creating an issue. (Because only one topic group exists, it is automatically applied and the user does not have to select it.) When the user completes and submits the issue, routing rules determine which job role or team it is assigned to.
 
    ![Sample new issue preferences](assets/blueprints-issueprefsdetails-350x202.png)
 
