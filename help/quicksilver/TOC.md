@@ -1615,7 +1615,6 @@ user-guide-description: Workfront
       * [Interactive content proofs overview](review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
       * [Document reprocessing for proofing overview](review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
       * [Supported proofing file types and size limits overview](review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
-      * [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * [Proof security overview](review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
       * [Proof progress and status overview](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
       * [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
