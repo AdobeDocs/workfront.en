@@ -3,7 +3,7 @@ filename: enable-email-issues-into-projects
 product-area: requests
 navigation-topic: create-requests
 title: Enable users to email an issue into a Request Queue project
-description: (NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )
+description: "(NOTE: When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )"
 ---
 
 # Enable users to email an issue into a Request Queue project

@@ -3,7 +3,7 @@ filename: delegate-work-overview
 content-type: overview
 navigation-topic: delegate-work
 title: Delegate work overview
-description: (NOTE: TOC and Becky - not submitted to Becky yet because not sure if this will be the final place or title for this??)
+description: "(NOTE: TOC and Becky - not submitted to Becky yet because not sure if this will be the final place or title for this??)"
 ---
 
 # Delegate work overview

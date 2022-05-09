@@ -3,7 +3,7 @@ filename: designate-resource-managers-for-projects-and-templates
 product-area: projects;templates
 navigation-topic: plan-a-project
 title: Designate Resource Managers for a project or template
-description: (NOTE: This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler)
+description: "(NOTE: This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler)"
 ---
 
 # Designate Resource Managers for a project or template

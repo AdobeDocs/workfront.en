@@ -3,7 +3,7 @@ filename: access-proj-allocation-info-api
 content-type: api
 navigation-topic: api-navigation-topic
 title: Access Project Allocation Information via the API
-description: (NOTE: from Luke: This should not be published. It is internal only.)
+description: "(NOTE: from Luke: This should not be published. It is internal only.)"
 hidefromtoc: true
 ---
 

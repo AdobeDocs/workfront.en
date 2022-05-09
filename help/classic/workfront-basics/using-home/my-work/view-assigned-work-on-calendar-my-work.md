@@ -2,7 +2,7 @@
 filename: view-assigned-work-on-calendar-my-work
 navigation-topic: my-work
 title: View assigned work on the My Work calendar
-description: Note: The information on this page refers to the new My Work calendar. Your Adobe Workfront administrator determines whether you have access to the new My Work calendar or the legacy calendar. If you cannot use the My Work calendar as described in this section, contact your Workfront administrator. For information about how the Workfront administrator determines which calendar is displayed, see Create and manage layout templates in Create and manage layout templates.
+description: "Note: The information on this page refers to the new My Work calendar. Your Adobe Workfront administrator determines whether you have access to the new My Work calendar or the legacy calendar. If you cannot use the My Work calendar as described in this section, contact your Workfront administrator. For information about how the Workfront administrator determines which calendar is displayed, see Create and manage layout templates in Create and manage layout templates."
 ---
 
 # View assigned work on the My Work calendar

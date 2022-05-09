@@ -2,7 +2,7 @@
 filename: home-for-reviewers
 navigation-topic: use-the-home-area
 title: Home area for Reviewers
-description: (NOTE: from Alina: not sure if we should still keep this one or not. In the past, Reviewers had a limited "Home" area which was their default page. Since now they created a "My Updates" area which is their new default, not sure if this makes much sense to still keep. The "My Updates" article is linked from this one, right at the top.)
+description: "(NOTE: from Alina: not sure if we should still keep this one or not. In the past, Reviewers had a limited "Home" area which was their default page. Since now they created a "My Updates" area which is their new default, not sure if this makes much sense to still keep. The "My Updates" article is linked from this one, right at the top.)"
 ---
 
 # Home area for Reviewers

@@ -4,7 +4,7 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Resource Scope overview
-description: (NOTE: For production 21.2, format this article for classic ONLY and remove the QS text; tweak TOC and articles attached to this)
+description: "(NOTE: For production 21.2, format this article for classic ONLY and remove the QS text; tweak TOC and articles attached to this)"
 ---
 
 # Resource Scope overview

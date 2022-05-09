@@ -4,7 +4,7 @@ content-type: overview
 product-area: requests
 navigation-topic: create-requests
 title: Overview of Requests in Adobe Workfront
-description: (NOTE: : this article is in draft mode, but consider making it public?! Could be the landing spot for a general Requests area?!
+description: "(NOTE: : this article is in draft mode, but consider making it public?! Could be the landing spot for a general Requests area?!"
 hidefromtoc: true
 ---
 

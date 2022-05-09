@@ -3,7 +3,7 @@ filename: create-request-queue
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
-description: (NOTE: THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL)
+description: "(NOTE: THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL)"
 ---
 
 # Create a Request Queue

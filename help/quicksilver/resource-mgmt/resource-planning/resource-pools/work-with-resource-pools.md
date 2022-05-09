@@ -3,7 +3,7 @@ filename: work-with-resource-pools
 product-area: resource-management
 navigation-topic: resource-planning
 title: Resource pools overview
-description: (NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.)
+description: "(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.)"
 ---
 
 #  Resource pools overview

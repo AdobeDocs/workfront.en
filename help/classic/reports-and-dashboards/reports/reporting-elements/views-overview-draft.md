@@ -4,7 +4,7 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Views overview in Adobe Workfront (draft)
-description: (NOTE: this is a place holder article for now to pupulate with "overview"-type information for views. We did the Filters and Groupings before and we needed one for views. **** PLEASE DO NOT DELETE****)
+description: "(NOTE: this is a place holder article for now to pupulate with "overview"-type information for views. We did the Filters and Groupings before and we needed one for views. **** PLEASE DO NOT DELETE****)"
 hidefromtoc: true
 ---
 

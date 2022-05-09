@@ -3,7 +3,7 @@ filename: edit-text-mode-in-filter
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit a filter using text mode
-description: NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)
+description: "NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)"
 ---
 
 # Edit a filter using text mode

@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reporting-elements
 title: Advanced Filter and condition qualifiers
-description: (NOTE: Alina: Discontinuing this article because the information has been merged to this one: https://support.workfront.com/hc/en-us/articles/217196097 - Filter and Condition Modifiers)
+description: "(NOTE: Alina: Discontinuing this article because the information has been merged to this one: https://support.workfront.com/hc/en-us/articles/217196097 - Filter and Condition Modifiers)"
 hidefromtoc: true
 ---
 

@@ -3,7 +3,7 @@ filename: my-updates-area
 product-area: projects
 navigation-topic: use-the-home-area
 title: Use the My Updates area
-description: (NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)
+description: "(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)"
 ---
 
 # Use the My Updates area

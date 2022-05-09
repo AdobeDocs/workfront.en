@@ -3,7 +3,7 @@ filename: set-up-report-deliveries
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Report delivery overview
-description: (NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link)
+description: "(NOTE: This is linked to the UI in the Send Report box inside the Preview sandbox. If you change title, log bug for Dev to fix the link)"
 ---
 
 # Report delivery overview

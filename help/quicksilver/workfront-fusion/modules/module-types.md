@@ -5,7 +5,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Types of modules
-description: Adobe Workfront Fusion distinguishes five types of modules: action modules, search modules, trigger modules, aggregators, and iterators. Aggregators and Iterators are for advanced scenarios.
+description: "Adobe Workfront Fusion distinguishes five types of modules: action modules, search modules, trigger modules, aggregators, and iterators. Aggregators and Iterators are for advanced scenarios."
 ---
 
 # Types of modules

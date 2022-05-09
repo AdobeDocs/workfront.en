@@ -3,7 +3,7 @@ filename: set-up-automatic-report-delivery
 product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: Schedule an automatic report delivery
-description: (NOTE: If this stays, fix links which now go to the reference article)
+description: "(NOTE: If this stays, fix links which now go to the reference article)"
 ---
 
 # Schedule an automatic report delivery

@@ -4,7 +4,7 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Work Effort overview
-description: (NOTE: Linked to the UI >> in the Project/ Template edit box > Tasks area> Learn more)
+description: "(NOTE: Linked to the UI >> in the Project/ Template edit box > Tasks area> Learn more)"
 ---
 
 # Work Effort overview

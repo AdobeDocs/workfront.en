@@ -3,7 +3,7 @@ filename: budget-by-role-resource-planner-d
 product-area: resource-management
 navigation-topic: resource-planning
 title: Budget resources by role in the Resource Planner
-description: (new article. drafted. publish when ready -- will this be broken of this article: /Content/Resource Mgmt/Resource Planning/budget-resources-project-role-views-resource-planner.htm ??)
+description: "(new article. drafted. publish when ready -- will this be broken of this article: /Content/Resource Mgmt/Resource Planning/budget-resources-project-role-views-resource-planner.htm ??)"
 hidefromtoc: true
 ---
 

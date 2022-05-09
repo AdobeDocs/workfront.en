@@ -3,7 +3,7 @@ filename: remove-users-from-projects
 product-area: projects;user-management
 navigation-topic: manage-projects
 title: Remove users from projects
-description: (NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://support.workfront.com/hc/en-us/articles/217301267-Understanding-the-Project-Team-and-Projects-I-m-On-)
+description: "(NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://support.workfront.com/hc/en-us/articles/217301267-Understanding-the-Project-Team-and-Projects-I-m-On-)"
 ---
 
 # Remove users from projects

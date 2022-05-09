@@ -3,7 +3,7 @@ filename: contact-customer-support
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contact Customer Support
-description: (NOTE: ** We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)
+description: "(NOTE: ** We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)"
 ---
 
 # Contact Customer Support

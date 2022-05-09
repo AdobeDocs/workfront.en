@@ -4,7 +4,7 @@ content-type: overview
 product-area: projects
 navigation-topic: manage-projects
 title: Manage information in the project Overview area
-description: (NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)
+description: "(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)"
 ---
 
 # Manage information in the project Overview area

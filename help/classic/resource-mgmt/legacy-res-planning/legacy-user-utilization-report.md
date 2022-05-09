@@ -3,7 +3,7 @@ filename: legacy-user-utilization-report
 product-area: resource-management
 navigation-topic: legacy-resource-planning
 title: Overview of the User Utilization report in the Legacy Resource Management area
-description: Important: The information in this article refers to functionality that is currently deprecated and will be removed from Workfront. For information about the current functionality for managing resources in Workfront, see the Resource Planning in Adobe Workfront section. For information about viewing user utilization in the current resource management tools, see View resource utilization information .
+description: "Important: The information in this article refers to functionality that is currently deprecated and will be removed from Workfront. For information about the current functionality for managing resources in Workfront, see the Resource Planning in Adobe Workfront section. For information about viewing user utilization in the current resource management tools, see View resource utilization information ."
 ---
 
 # Overview of the User Utilization report in the Legacy Resource Management area

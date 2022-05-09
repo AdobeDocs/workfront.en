@@ -4,7 +4,7 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Groupings overview in Adobe Workfront
-description: (NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)
+description: "(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)"
 ---
 
 # Groupings overview in Adobe Workfront

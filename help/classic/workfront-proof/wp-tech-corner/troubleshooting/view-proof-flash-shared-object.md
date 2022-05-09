@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Problems With Viewing Proofs - Flash Shared Objects Explained
-description: Note: The information in this article refers to functionality that is currently deprecated and will be removed from Workfront in 2018. We recommend that you use the new Web Proofing Viewer (as described in Reviewing Proofs in the Web Proofing Viewer) or the Desktop Proofing Viewer (as described in Reviewing Proofs in the Desktop Proofing Viewer).
+description: "Note: The information in this article refers to functionality that is currently deprecated and will be removed from Workfront in 2018. We recommend that you use the new Web Proofing Viewer (as described in Reviewing Proofs in the Web Proofing Viewer) or the Desktop Proofing Viewer (as described in Reviewing Proofs in the Desktop Proofing Viewer)."
 ---
 
 # Problems With Viewing Proofs - Flash Shared Objects Explained

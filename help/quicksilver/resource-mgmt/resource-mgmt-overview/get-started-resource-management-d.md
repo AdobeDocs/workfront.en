@@ -4,7 +4,7 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Get started with Resource Management
-description: This replaces this: Get started with Resource Management
+description: "This replaces this: Get started with Resource Management"
 hidefromtoc: true
 ---
 

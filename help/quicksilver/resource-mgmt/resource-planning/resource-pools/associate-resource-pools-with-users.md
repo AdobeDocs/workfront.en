@@ -3,7 +3,7 @@ filename: associate-resource-pools-with-users
 product-area: resource-management
 navigation-topic: resource-pools
 title: Associate resource pools with users
-description: (NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)
+description: "(NOTE: The info about how to add resource pools to users, are duplicated from the articles listed in those sections (Creating Users, etc). I decided to keep the steps here because those articles are too long to rummage through for updating just this one field.)"
 ---
 
 # Associate resource pools with users

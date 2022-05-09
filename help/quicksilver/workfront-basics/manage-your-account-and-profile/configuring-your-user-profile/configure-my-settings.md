@@ -3,7 +3,7 @@ filename: configure-my-settings
 product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configure My Settings
-description: Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.
+description: "Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule."
 ---
 
 # Configure My Settings

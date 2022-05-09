@@ -5,7 +5,7 @@ product: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Overview of connecting projects to goals in Adobe Workfront Goals
-description: (NOTE: THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO GOALS IN THE FUTURE)
+description: "(NOTE: THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO GOALS IN THE FUTURE)"
 ---
 
 # Overview of connecting projects to goals in Adobe Workfront Goals

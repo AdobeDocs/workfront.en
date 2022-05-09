@@ -3,7 +3,7 @@ filename: edit-text-mode-in-grouping
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Edit text mode in a grouping
-description: NOTE: make all FVG articles the same for editing in text mode)
+description: "NOTE: make all FVG articles the same for editing in text mode)"
 ---
 
 # Edit text mode in a grouping

@@ -3,7 +3,7 @@ filename: workfront-add-on-for-jira-beta
 content-type: reference
 navigation-topic: betas
 title: Workfront Add-On for Jira Beta
-description: (NOTE: ALina: leave this article as a draft for an example for what we need for a Beta Program article)
+description: "(NOTE: ALina: leave this article as a draft for an example for what we need for a Beta Program article)"
 hidefromtoc: true
 ---
 

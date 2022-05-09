@@ -4,7 +4,7 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Overview of the areas of the Resource Planner
-description: (NOTE: whole article is DRAFTED. original doc with all information; this has been split in multiple articles)
+description: "(NOTE: whole article is DRAFTED. original doc with all information; this has been split in multiple articles)"
 hidefromtoc: true
 ---
 

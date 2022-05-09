@@ -3,7 +3,7 @@ filename: share-filter-view-grouping
 product-area: reporting
 navigation-topic: reporting-elements
 title: Share a filter, view, or grouping
-description: (NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
+description: "(NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)"
 ---
 
 # Share a filter, view, or grouping

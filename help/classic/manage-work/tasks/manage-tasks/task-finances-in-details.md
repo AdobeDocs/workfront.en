@@ -3,7 +3,7 @@ filename: task-finances-in-details
 product-area: projects
 navigation-topic: manage-tasks
 title: Manage task finances in the Task Details tab
-description: (NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)
+description: "(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)"
 ---
 
 # Manage task finances in the Task Details  tab

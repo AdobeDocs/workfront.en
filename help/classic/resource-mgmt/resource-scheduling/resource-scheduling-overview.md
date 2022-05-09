@@ -4,7 +4,7 @@ content-type: overview;reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Scheduling
-description: (NOTE: ****LINKED TO THE PRODUCT FOR RESOURCE SCHEDULING AREAS)
+description: "(NOTE: ****LINKED TO THE PRODUCT FOR RESOURCE SCHEDULING AREAS)"
 ---
 
 # Resource Scheduling

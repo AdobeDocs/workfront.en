@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Create a schedule
-description: Alina: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ***** Linked to Editing Users, Editing Projects, Creating and managing groups
+description: "Alina: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. ***** Linked to Editing Users, Editing Projects, Creating and managing groups"
 ---
 
 # Create a schedule

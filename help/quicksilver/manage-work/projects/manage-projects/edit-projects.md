@@ -3,7 +3,7 @@ filename: edit-projects
 product-area: projects
 navigation-topic: manage-projects
 title: Edit projects
-description: (NOTE: ***Linked to many articles,
+description: "(NOTE: ***Linked to many articles,"
 ---
 
 # Edit projects

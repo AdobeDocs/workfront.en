@@ -3,7 +3,7 @@ filename: budget-and-schedule-project-resources
 product-area: projects;resource-management
 navigation-topic: plan-a-project
 title: Budget and schedule project resources
-description: (NOTE: this article is only valuable for searching. All the information resides in other articles.)
+description: "(NOTE: this article is only valuable for searching. All the information resides in other articles.)"
 ---
 
 # Budget and schedule project resources

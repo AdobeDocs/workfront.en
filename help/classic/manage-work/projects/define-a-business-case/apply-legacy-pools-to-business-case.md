@@ -2,7 +2,7 @@
 filename: apply-legacy-pools-to-business-case
 navigation-topic: business-case-and-scorecards
 title: Estimate project resources by applying Legacy Resource Pools to the Business Case
-description: (NOTE:IMPORTANT: When they redesign this and you are able to attach new Res Pools to the business case - MAKE A NEW ARTICLE with NEW information (instead of Legacy)!!! Do not overwrite this one
+description: "(NOTE:IMPORTANT: When they redesign this and you are able to attach new Res Pools to the business case - MAKE A NEW ARTICLE with NEW information (instead of Legacy)!!! Do not overwrite this one"
 ---
 
 # Estimate project resources by applying Legacy Resource Pools to the Business Case

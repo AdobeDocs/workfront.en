@@ -2,7 +2,7 @@
 filename: print-from-legacy-gantt
 navigation-topic: use-the-legacy-gantt-chart
 title: Print from the Legacy Gantt Chart
-description: (NOTE: classic only, drafted)
+description: "(NOTE: classic only, drafted)"
 ---
 
 # Print from the Legacy Gantt Chart

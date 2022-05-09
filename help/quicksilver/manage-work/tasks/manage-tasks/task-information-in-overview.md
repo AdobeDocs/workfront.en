@@ -3,7 +3,7 @@ filename: task-information-in-overview
 product-area: projects
 navigation-topic: manage-tasks
 title: Manage task information in the Task Details Overview area
-description: (NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)
+description: "(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)"
 ---
 
 # Manage task information in the Task Details Overview area

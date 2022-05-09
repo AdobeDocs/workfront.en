@@ -3,7 +3,7 @@ filename: _workfront-navigation
 content-type: reference
 navigation-topic: navigate-workfront
 title: Adobe Workfront navigation
-description: (NOTE: this is drafted because all these links are added to the "Navigate Workfront" TOC article. Having this as another link in that one looked very confusing.
+description: "(NOTE: this is drafted because all these links are added to the "Navigate Workfront" TOC article. Having this as another link in that one looked very confusing."
 hidefromtoc: true
 ---
 

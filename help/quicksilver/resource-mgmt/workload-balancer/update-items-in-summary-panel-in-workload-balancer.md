@@ -3,7 +3,7 @@ filename: update-items-in-summary-panel-in-workload-balancer
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Update work items in the Workload Balancer using the Summary
-description: (NOTE: this is NWE only -- leave NWE in the title for NWE only articles to make it clear)
+description: "(NOTE: this is NWE only -- leave NWE in the title for NWE only articles to make it clear)"
 ---
 
 # Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience

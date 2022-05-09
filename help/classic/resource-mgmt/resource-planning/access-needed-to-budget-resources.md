@@ -4,7 +4,7 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
 title: Access needed to budget resources in Adobe Workfront
-description: (LINKED TO PRODUCT: This is also linked to the product, in two different tooltips in the RP - EDIT ME.
+description: "(LINKED TO PRODUCT: This is also linked to the product, in two different tooltips in the RP - EDIT ME."
 ---
 
 # Access needed to budget resources in&nbsp;Adobe Workfront

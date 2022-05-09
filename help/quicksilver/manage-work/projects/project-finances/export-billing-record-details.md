@@ -2,7 +2,7 @@
 filename: export-billing-record-details
 navigation-topic: financials
 title: Export billing record details as a PDF file
-description: (NOTE: we incorporated this info in the edit object articles; keeping it stand alone if more things get added to the export one day; only available in NWE)
+description: "(NOTE: we incorporated this info in the edit object articles; keeping it stand alone if more things get added to the export one day; only available in NWE)"
 ---
 
 # Export billing record details as a PDF file

@@ -4,7 +4,7 @@ product: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
 title: Remove results, activities, and projects from goals in Adobe Workfront Goals
-description: (NOTE: the title might change to indicate more than just projects?? Other objects too?)
+description: "(NOTE: the title might change to indicate more than just projects?? Other objects too?)"
 ---
 
 # Remove results, activities, and projects from goals in Adobe Workfront Goals

@@ -3,7 +3,7 @@ filename: manage-task-details-forms-finances
 product-area: projects
 navigation-topic: manage-tasks
 title: Manage task details, custom forms, and finances
-description: (NOTE: marked this article as draft; useful information here but was not public for a while
+description: "(NOTE: marked this article as draft; useful information here but was not public for a while"
 hidefromtoc: true
 ---
 

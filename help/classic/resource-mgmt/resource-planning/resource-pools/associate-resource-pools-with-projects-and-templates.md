@@ -3,7 +3,7 @@ filename: associate-resource-pools-with-projects-and-templates
 product-area: resource-management
 navigation-topic: resource-pools
 title: Associate resource pools with projects and templates
-description: (NOTE: The sections about how to add resource pools to templates, projects are duplicated from the articles listed in those sections (Editing Projects, Creating a Template, etc).
+description: "(NOTE: The sections about how to add resource pools to templates, projects are duplicated from the articles listed in those sections (Editing Projects, Creating a Template, etc)."
 ---
 
 # Associate resource pools with projects and templates

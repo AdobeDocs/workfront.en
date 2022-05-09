@@ -4,7 +4,7 @@ content-type: overview
 product: workfront-goals
 navigation-topic: old-workfront-goals-articles
 title: Key results overview
-description: Refer to this article for what they are: https://atiim.zendesk.com/hc/en-us/articles/360020347772-Understanding-Key-Results-and-Contributing-Objectives
+description: "Refer to this article for what they are: https://atiim.zendesk.com/hc/en-us/articles/360020347772-Understanding-Key-Results-and-Contributing-Objectives"
 hidefromtoc: true
 ---
 

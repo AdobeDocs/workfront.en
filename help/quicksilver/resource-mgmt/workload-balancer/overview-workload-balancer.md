@@ -4,7 +4,7 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Overview of the Workload Balancer
-description: (NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK)
+description: "(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK)"
 ---
 
 # Overview of the Workload Balancer

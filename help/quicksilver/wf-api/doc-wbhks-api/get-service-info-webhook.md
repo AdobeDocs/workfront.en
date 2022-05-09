@@ -4,7 +4,7 @@ content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get information about the service (not yet implemented)
-description: Note: The release date for this feature is yet to be determined.
+description: "Note: The release date for this feature is yet to be determined."
 ---
 
 # Get information about the service (not yet implemented)

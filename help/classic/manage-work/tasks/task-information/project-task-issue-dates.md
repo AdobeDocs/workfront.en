@@ -4,7 +4,7 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Overview of project, task, and issue dates
-description: (NOTE: NEW article to document ALL task dates and what affects/ calculates them.
+description: "(NOTE: NEW article to document ALL task dates and what affects/ calculates them."
 hidefromtoc: true
 ---
 

@@ -3,7 +3,7 @@ filename: remove-filters-views-groupings
 product-area: reporting
 navigation-topic: reporting-elements
 title: Remove filters, views, and groupings
-description: (NOTE: when this goes live, eidt or remove the original aricle: Sharing a Filter, View, or Grouping - see if anything from this old article can remain as a reference; the remove and share a grouping, etc have been turned into how tos)
+description: "(NOTE: when this goes live, eidt or remove the original aricle: Sharing a Filter, View, or Grouping - see if anything from this old article can remain as a reference; the remove and share a grouping, etc have been turned into how tos)"
 ---
 
 # Remove filters, views, and groupings

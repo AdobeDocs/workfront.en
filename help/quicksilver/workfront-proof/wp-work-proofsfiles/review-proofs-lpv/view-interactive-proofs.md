@@ -4,7 +4,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-legacy-proofing-viewer
 title: View Interactive Proofs in Alternate Resolutions in the Legacy proofing viewer
-description: Note: The information in this article refers to functionality that is currently deprecated and will be removed from Adobe Workfront in 2018.
+description: "Note: The information in this article refers to functionality that is currently deprecated and will be removed from Adobe Workfront in 2018."
 ---
 
 # View Interactive Proofs in Alternate Resolutions in the Legacy proofing viewer

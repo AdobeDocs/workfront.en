@@ -3,7 +3,7 @@ filename: understand-common-uses-text-mode
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Overview of common uses for Text Mode
-description: (NOTE: Alina: ***This is linked to Understanding Text Mode (article), and the TOC article for examples of various reporting elements)
+description: "(NOTE: Alina: ***This is linked to Understanding Text Mode (article), and the TOC article for examples of various reporting elements)"
 ---
 
 # Overview of common uses for Text Mode

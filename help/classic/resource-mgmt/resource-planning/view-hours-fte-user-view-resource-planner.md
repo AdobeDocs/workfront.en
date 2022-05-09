@@ -4,7 +4,7 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view
-description: (NOTE: Consider renaming this article (probably split already) to something other than "Planning" in the RP" - maybe "budgeting resources in the RP" or "Managing Resources in the RP." etc... - or might need to be repurposed from another POV?!)
+description: "(NOTE: Consider renaming this article (probably split already) to something other than "Planning" in the RP" - maybe "budgeting resources in the RP" or "Managing Resources in the RP." etc... - or might need to be repurposed from another POV?!)"
 ---
 
 # View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view

@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configure Delegation preferences
-description: (NOTE: keep this here, for 22.3 release)
+description: "(NOTE: keep this here, for 22.3 release)"
 hidefromtoc: true
 ---
 

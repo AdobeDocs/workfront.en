@@ -3,7 +3,7 @@ filename: override-project-level-with-company-level-billing-rates
 product-area: projects
 navigation-topic: financials
 title: Override Project-Level Billing Rates with Company-Level Billing Rates
-description: (NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)
+description: "(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)"
 ---
 
 # Override Project-Level Billing Rates with Company-Level Billing Rates

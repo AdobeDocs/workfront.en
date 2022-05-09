@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Allow connections from Adobe Workfront Fusion
-description: Sam: Exclude until after GA release.
+description: "Sam: Exclude until after GA release."
 hidefromtoc: true
 ---
 

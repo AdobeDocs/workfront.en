@@ -3,7 +3,7 @@ filename: create-groupings
 product-area: reporting
 navigation-topic: reporting-elements
 title: Create groupings in Adobe Workfront
-description: (NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)
+description: "(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)"
 ---
 
 # Create groupings in Adobe Workfront

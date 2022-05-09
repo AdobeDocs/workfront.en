@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting;user-management;resource-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: username"
-description: Alina: Drafted because this view can be easily built in the report builder; no need for text mode anymore.
+description: "Alina: Drafted because this view can be easily built in the report builder; no need for text mode anymore."
 hidefromtoc: true
 ---
 

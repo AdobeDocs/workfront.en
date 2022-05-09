@@ -4,7 +4,7 @@ product: workfront-library
 product-area: documents
 navigation-topic: metadata
 title: Use Workfront Library's import tool to add metadata to content
-description: Note: The information on this page refers to functionality not yet generally available. It is available only to a limited number of environments.
+description: "Note: The information on this page refers to functionality not yet generally available. It is available only to a limited number of environments."
 ---
 
 # Use Workfront Library's import tool to add metadata to content

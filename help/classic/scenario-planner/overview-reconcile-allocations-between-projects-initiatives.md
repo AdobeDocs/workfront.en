@@ -3,7 +3,7 @@ filename: overview-reconcile-allocations-between-projects-initiatives
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Overview of reconciling resource allocations between projects and initiatives
-description: (NOTE: two more articles were added to split content from here according to where the reconciling can happen)
+description: "(NOTE: two more articles were added to split content from here according to where the reconciling can happen)"
 ---
 
 # Overview of reconciling resource allocations between projects and initiatives

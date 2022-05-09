@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Attach a reminder notification to an object
-description: Reminder notifications can be associated with several different object types: Projects, Tasks, Issues, Timesheets, Templates, Template Tasks, and Recurring Timesheet Profiles.
+description: "Reminder notifications can be associated with several different object types: Projects, Tasks, Issues, Timesheets, Templates, Template Tasks, and Recurring Timesheet Profiles."
 ---
 
 # Attach a reminder notification to an object

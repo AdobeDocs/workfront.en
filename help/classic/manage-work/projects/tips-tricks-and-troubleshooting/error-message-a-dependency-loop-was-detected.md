@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: "Error Message: A Dependency Loop Was Detected"
-description: (Note: **replaced this with this arrticle: /Content/Manage work/Tasks/Use Prdcssrs/dependency-loop-overview.htm)
+description: "(Note: **replaced this with this arrticle: /Content/Manage work/Tasks/Use Prdcssrs/dependency-loop-overview.htm)"
 hidefromtoc: true
 ---
 

@@ -4,7 +4,7 @@ content-type: overview
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Overview of the Queue Details tab in a project
-description: (NOTE: Not sure if this needs to stay - lots of good information here; keeping it for now, but the whole article is drafted)
+description: "(NOTE: Not sure if this needs to stay - lots of good information here; keeping it for now, but the whole article is drafted)"
 hidefromtoc: true
 ---
 

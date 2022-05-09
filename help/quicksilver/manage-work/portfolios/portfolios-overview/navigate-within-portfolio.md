@@ -3,7 +3,7 @@ filename: navigate-within-portfolio
 product-area: portfolios
 navigation-topic: portfolios-overview
 title: Navigate within a portfolio
-description: (NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)
+description: "(NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)"
 ---
 
 # Navigate within a portfolio

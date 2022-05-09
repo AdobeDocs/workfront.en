@@ -3,7 +3,7 @@ filename: new-object-headers
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: New object headers
-description: (NOTE: I think we should keep this article even after NWE will become standard but rename it to something like "Edit information in the object headers", or some other "overview"-type of article)
+description: "(NOTE: I think we should keep this article even after NWE will become standard but rename it to something like "Edit information in the object headers", or some other "overview"-type of article)"
 ---
 
 # New object headers

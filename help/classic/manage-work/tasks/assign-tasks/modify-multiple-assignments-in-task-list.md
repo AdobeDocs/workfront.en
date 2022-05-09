@@ -3,7 +3,7 @@ filename: modify-multiple-assignments-in-task-list
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Modify multiple user assignments in a task list
-description: (NOTE: There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3)
+description: "(NOTE: There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3)"
 ---
 
 # Modify multiple user assignments in a task list

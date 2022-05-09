@@ -3,7 +3,7 @@ filename: manually-assign-items-scheduling-areas
 product-area: resource-management;user-management
 navigation-topic: resource-scheduling
 title: Manually assign unassigned tasks and issues in the Scheduling areas
-description: NOTE: Alina: several sections ask for the screen shot to be updated - check into those notes; Alina: broken off article, needs formatting, restructuring, new linking)
+description: "NOTE: Alina: several sections ask for the screen shot to be updated - check into those notes; Alina: broken off article, needs formatting, restructuring, new linking)"
 ---
 
 # Manually assign unassigned tasks and issues in the Scheduling areas

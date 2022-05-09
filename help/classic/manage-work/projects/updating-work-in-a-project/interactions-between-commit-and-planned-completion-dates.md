@@ -3,7 +3,7 @@ filename: interactions-between-commit-and-planned-completion-dates
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Interactions between the Commit Date and the Planned Completion Date
-description: (NOTE: this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.)
+description: "(NOTE: this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.)"
 ---
 
 # Interactions between the Commit Date and the Planned Completion Date

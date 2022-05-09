@@ -3,7 +3,7 @@ filename: convert-issue-to-project
 product-area: projects
 navigation-topic: convert-issues
 title: Convert an issue to a project in Adobe Workfront
-description: (NOTE: below, is no longer the case - drafted)
+description: "(NOTE: below, is no longer the case - drafted)"
 ---
 
 # Convert an issue to a project in Adobe Workfront

@@ -3,7 +3,7 @@ filename: work-with-legacy-resource-pools
 product-area: resource-management
 navigation-topic: legacy-resource-planning
 title: Work with Legacy Resource Pools
-description: A Legacy Resource Pool is a group or collection of job roles that are needed at the same time for the completion of a project. For example, you might need the following job roles to complete a project: a Designer, a Copy Writer, an Editor, a Project Manager, a System Administrator, and a Graphics Artist. You can create these skills as individual job roles in Workfront, and then place them inside the same Legacy Resource Pool. For more information about creating job roles, see Create and manage job roles. After you create the Legacy Resource Pool, you can associate it with the project so you can assess the resource budget on the project.
+description: "A Legacy Resource Pool is a group or collection of job roles that are needed at the same time for the completion of a project. For example, you might need the following job roles to complete a project: a Designer, a Copy Writer, an Editor, a Project Manager, a System Administrator, and a Graphics Artist. You can create these skills as individual job roles in Workfront, and then place them inside the same Legacy Resource Pool. For more information about creating job roles, see Create and manage job roles. After you create the Legacy Resource Pool, you can associate it with the project so you can assess the resource budget on the project."
 ---
 
 # Work with Legacy Resource Pools

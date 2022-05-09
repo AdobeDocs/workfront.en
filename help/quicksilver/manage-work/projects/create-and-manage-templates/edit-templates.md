@@ -3,7 +3,7 @@ filename: edit-templates
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Edit project templates
-description: (NOTE: The Resource Pools part also duplicates in the "Working with Resource Pools" article)
+description: "(NOTE: The Resource Pools part also duplicates in the "Working with Resource Pools" article)"
 ---
 
 # Edit project templates

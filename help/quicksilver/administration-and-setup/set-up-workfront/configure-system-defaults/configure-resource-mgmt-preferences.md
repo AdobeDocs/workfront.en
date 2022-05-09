@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Configure Resource Management preferences
-description: (CO: Linked to lots of articles for resource planning.
+description: "(CO: Linked to lots of articles for resource planning."
 ---
 
 # Configure Resource Management preferences

@@ -3,7 +3,7 @@ filename: copy-project
 product-area: projects
 navigation-topic: manage-projects
 title: Copy a project
-description: (NOTE: LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)
+description: "(NOTE: LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)"
 ---
 
 # Copy a project

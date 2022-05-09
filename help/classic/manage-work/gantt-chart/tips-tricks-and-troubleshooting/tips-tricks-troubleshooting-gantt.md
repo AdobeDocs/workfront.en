@@ -3,7 +3,7 @@ filename: _tips-tricks-troubleshooting-Gantt
 content-type: tips-tricks-troubleshooting;reference
 navigation-topic: gantt-chart
 title: Tips, tricks, and troubleshooting for the Gantt Chart
-description: (NOTE: conditioned only for CLASSIC. If you add links to QS articles, remove the conditioning
+description: "(NOTE: conditioned only for CLASSIC. If you add links to QS articles, remove the conditioning"
 ---
 
 # Tips, tricks, and troubleshooting for the Gantt Chart

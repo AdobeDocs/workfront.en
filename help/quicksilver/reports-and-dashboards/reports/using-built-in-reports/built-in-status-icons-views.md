@@ -3,7 +3,7 @@ filename: built-in-status-icons-views
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Built-in Status Icons in Views
-description: (NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)
+description: "(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)"
 ---
 
 # Built-in Status Icons in Views

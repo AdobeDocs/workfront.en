@@ -3,7 +3,7 @@ filename: edit-assignments-for-multiple-issues
 product-area: projects
 navigation-topic: manage-issues
 title: Modify user assignments for multiple issues in a list
-description: (NOTE: similar article exists for tasks)
+description: "(NOTE: similar article exists for tasks)"
 ---
 
 # Modify user assignments for multiple issues in a list

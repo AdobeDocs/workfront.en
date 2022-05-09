@@ -2,7 +2,7 @@
 filename: view-items-in-a-list
 navigation-topic: use-lists
 title: Get started with lists in Adobe Workfront
-description: Objects can be displayed in lists in Adobe Workfront. A list is a grid that contains a number of objects, information about them, or other objects referenced from them. Suggested edit: You can view lists of objects in Adobe Workfront to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
+description: "Objects can be displayed in lists in Adobe Workfront. A list is a grid that contains a number of objects, information about them, or other objects referenced from them. Suggested edit: You can view lists of objects in Adobe Workfront to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them."
 ---
 
 # Get started with lists in&nbsp;Adobe Workfront

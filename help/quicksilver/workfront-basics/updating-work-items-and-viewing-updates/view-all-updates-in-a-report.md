@@ -3,7 +3,7 @@ filename: view-all-updates-in-a-report
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: View all updates in a Note report
-description: (NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 )
+description: "(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 )"
 ---
 
 # View all updates in a Note report

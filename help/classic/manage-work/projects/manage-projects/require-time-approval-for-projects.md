@@ -3,7 +3,7 @@ filename: require-time-approval-for-projects
 product-area: projects
 navigation-topic: manage-projects
 title: Require time to be approved for a project
-description: (NOTE: THIS IS LINKED TO THE UI IN A TOOLTIP IN THE EDIT PROJECT MODAL)
+description: "(NOTE: THIS IS LINKED TO THE UI IN A TOOLTIP IN THE EDIT PROJECT MODAL)"
 ---
 
 # Require time to be approved for a project

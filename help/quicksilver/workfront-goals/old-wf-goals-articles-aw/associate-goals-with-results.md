@@ -4,7 +4,7 @@ product: workfront-goals
 product-area: projects
 navigation-topic: old-workfront-goals-articles
 title: Associate goals with results in the new Adobe Workfront experience
-description: Should this be titled: Associate goals with results?
+description: "Should this be titled: Associate goals with results?"
 hidefromtoc: true
 ---
 

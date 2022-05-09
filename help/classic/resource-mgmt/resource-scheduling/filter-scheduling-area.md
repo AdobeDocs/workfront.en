@@ -3,7 +3,7 @@ filename: filter-scheduling-area
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Filter information in the Scheduling area
-description: (NOTE: Cannot do QS because the Teams area is not done)
+description: "(NOTE: Cannot do QS because the Teams area is not done)"
 ---
 
 # Filter information in the Scheduling area

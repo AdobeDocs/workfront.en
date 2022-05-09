@@ -3,7 +3,7 @@ filename: work-in-legacy-team-builder
 product-area: projects;resource-management
 navigation-topic: manage-projects
 title: Work in the Legacy Team Builder
-description: (NOTE: Article linked here (Approval Settings) - when you remove this article, edit that one as well)
+description: "(NOTE: Article linked here (Approval Settings) - when you remove this article, edit that one as well)"
 ---
 
 # Work in the Legacy Team Builder

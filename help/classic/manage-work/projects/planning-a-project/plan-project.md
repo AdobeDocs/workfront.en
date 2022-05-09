@@ -3,7 +3,7 @@ filename: plan-project
 product-area: projects
 navigation-topic: plan-a-project
 title: Plan a project overview
-description: (NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3)
+description: "(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3)"
 ---
 
 # Plan a project overview

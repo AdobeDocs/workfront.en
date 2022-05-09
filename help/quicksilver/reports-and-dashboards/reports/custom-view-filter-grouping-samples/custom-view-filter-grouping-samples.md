@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Custom View, Filter, and Grouping samples
-description: (NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.)
+description: "(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.)"
 ---
 
 # Custom View, Filter, and Grouping samples

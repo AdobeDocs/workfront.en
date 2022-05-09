@@ -4,7 +4,7 @@ content-type: reference
 product-area: resource-management;projects
 navigation-topic: resource-planning
 title: View projects, roles, and users using the Resource Planner
-description: (This used to be a standlone article (brand new article and name, split from the former Understanding the Areas in the Resource Planner (now: Resource Planner Navigation Overview)) >>> But it has been added back to the Get-Started-Resource-Planner article in March 2021. This is now a draft!)
+description: "(This used to be a standlone article (brand new article and name, split from the former Understanding the Areas in the Resource Planner (now: Resource Planner Navigation Overview)) >>> But it has been added back to the Get-Started-Resource-Planner article in March 2021. This is now a draft!)"
 hidefromtoc: true
 ---
 

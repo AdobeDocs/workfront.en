@@ -2,7 +2,7 @@
 filename: navigate-legacy-gantt
 navigation-topic: use-the-legacy-gantt-chart
 title: Navigate the Legacy Gantt Chart
-description: (NOTE: classic only, drafted)
+description: "(NOTE: classic only, drafted)"
 ---
 
 # Navigate the Legacy Gantt Chart

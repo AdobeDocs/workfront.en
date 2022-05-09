@@ -3,7 +3,7 @@ filename: create-templates-from-examples
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Create project templates from examples
-description: (NOTE: this is for QS only. Rest of the article still OK for classic.)
+description: "(NOTE: this is for QS only. Rest of the article still OK for classic.)"
 ---
 
 # Create project templates from examples

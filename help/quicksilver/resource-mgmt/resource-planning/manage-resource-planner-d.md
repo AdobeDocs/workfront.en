@@ -3,7 +3,7 @@ filename: manage-resource-planner-d
 product-area: resource-management
 navigation-topic: resource-planning
 title: Manage resources in the Resource Planner
-description: This replaces this: Resource Planner overview
+description: "This replaces this: Resource Planner overview"
 hidefromtoc: true
 ---
 

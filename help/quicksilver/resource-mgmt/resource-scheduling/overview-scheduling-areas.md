@@ -4,7 +4,7 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Overview of the Scheduling areas
-description: (NOTE: broken off the main article, retitle, relink, reformat)
+description: "(NOTE: broken off the main article, retitle, relink, reformat)"
 ---
 
 # Overview of the Scheduling areas

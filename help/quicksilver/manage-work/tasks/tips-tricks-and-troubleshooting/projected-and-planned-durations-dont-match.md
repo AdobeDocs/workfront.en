@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
 title: Projected Duration does not match Planned Duration
-description: You receive the following error message: "The Projected Duration of a Task/ Issue has gone to 0 and does not match the Planned Duration."
+description: "You receive the following error message: "The Projected Duration of a Task/ Issue has gone to 0 and does not match the Planned Duration.""
 ---
 
 # Projected Duration does not match Planned Duration
