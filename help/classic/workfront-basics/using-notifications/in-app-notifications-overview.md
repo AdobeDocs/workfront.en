@@ -90,8 +90,6 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 * You are assigned to an issue
 * A team to which you are assigned receives a work request
 * Team to which you are assign needs to work on a task  
-*
-
    * Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).
    * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
    * If you assign work to yourself or a team you belong to, you will not receive a notification.

@@ -119,5 +119,3 @@ The Actions menu (1) for each stage has the following options:
 * Message all (2) - you can send a reminder email to all reviewers on the stage
 * Share (3) - you can add new reviewers to the stage
 * Delete stage (4) - if the proof owner is on that stage, you will be asked to pick a new stage for them  
-*
-

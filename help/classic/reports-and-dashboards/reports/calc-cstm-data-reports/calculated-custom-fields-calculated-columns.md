@@ -45,8 +45,6 @@ For example:
   valuefield=project:name
   ```
 
-*
-
   Or
 
   ```

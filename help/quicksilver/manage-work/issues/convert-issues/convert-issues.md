@@ -136,11 +136,12 @@ The following table lists project information and whether it transfers from the 
  </tbody> 
 </table>
 
-<!--
+<!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="convert-to-project"></a>Convert an issue to a project</h2> <!--
+<h2><a name="convert-to-project"></a>Convert an issue to a project</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
 -->
+<!--
 <ol>
 <li value="1"> Click the <strong>Issues</strong> icon on a project. <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-issues-icon-highlighted-on-project.png"> </p> </li>
 <li value="2"> <p>Click the issue to be converted to access the issue.</p> </li>
@@ -177,9 +178,9 @@ The following table lists project information and whether it transfers from the 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="convert-to-task"></a>Convert an issue to a task</h2> <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
+<h2><a name="convert-to-task"></a>Convert an issue to a task</h2> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
+<!--
 <ol>
 <li value="1"> Click the Issues icon on a project.  </li>
 <li value="2"> <p>Click the issue you want to convert to go to the issue's landing page. </p> </li>
@@ -220,7 +221,7 @@ The following table illustrates which&nbsp;issue fields are visible from the con
 | Issue fields |Project or task field |Project list or report |Project Details area |Task list or report |Task Details area |
 |---|---|---|---|---|---|
 | Issue Name |Converted Issue Name |✔ |✔ |✔ |✔ |
-| Primary Contact | ```Converted Issue``` Originator Name |✔ | ```✔```  |✔ |&nbsp; |
+| Primary Contact | `Converted Issue` Originator Name |✔ | `✔`  |✔ |&nbsp; |
 | Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
 
 >[!CAUTION]

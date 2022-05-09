@@ -109,8 +109,7 @@ This URL is no longer supported and it has not been redirected to our new URL fo
 
 To log into the Preview Sandbox using a URL:
 
-1. Navigate to this URL: ``` [https://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)  
-   ```
+1. Navigate to this URL: [https://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/) 
 
    If you are an EMEA customer and your account is on Cluster 4, see the section [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) in this article.
 
@@ -122,7 +121,7 @@ To log into the Preview Sandbox using a URL:
 
 To log into the Preview Sandbox using a URL:
 
-1. Navigate to this URL: ```https://companyname.preview.workfront.com/```.
+1. Navigate to this URL: `https://companyname.preview.workfront.com/`.
 
    You may also access the Preview Sandbox by going to [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
 

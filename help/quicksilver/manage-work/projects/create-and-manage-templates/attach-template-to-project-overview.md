@@ -320,13 +320,14 @@ The following table describes the default for what happens to project fields whe
 
 &nbsp; 
 
-<!--
+<!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
 <h2><a name="Understa"></a> </h2>
-<h2>Understand changes to project fields when attaching a template</h2> <!--
+<h2>Understand changes to project fields when attaching a template</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and replaced with the table above, per Anna)</p>
 -->
+<!--
 <p>Some template settings automatically transfer to the project, unless you specifically mark them to be excluded during the template attachment process. When you mark them to be excluded, the project field values are preserved. </p> <note type="important">
 Not all project fields are available to manage in the process of attaching a template to a project. For information, see
 <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md" class="MCXref xref">Attach a template to a project</a>.

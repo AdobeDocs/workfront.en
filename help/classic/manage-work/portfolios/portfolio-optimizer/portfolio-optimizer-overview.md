@@ -55,8 +55,7 @@ You can view financial information in the following areas of the Portfolio Optim
 The following financial fields display in the Portfolio Optimizer:
 
 * [Portfolio header](#portfolio-header) 
-* [Portfolio finances for selected projects](#portfolio-finances-for-selected-projects)<![CDATA[   ]]>
-*
+* [Portfolio finances for selected projects](#portfolio-finances-for-selected-projects)
 
 #### **Portfolio header** {#portfolio-header}
 
