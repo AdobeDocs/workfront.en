@@ -193,8 +193,6 @@ You can avert a retry by&nbsp; ```separating the time-consuming parts of the pro
 
 ```To learn more about the retry mechanism, see [Event subscription retries](../../wf-api/api/event-sub-retries.md).```
 
-###  
-
 ## Implementing Hosted Filters in Cloudless Architecture
 
 ```If you are unable to leverage a cloud architecture for event subscription filtering, you can still use the examples in [Filtering Event Messages](#filtering-event-messages) as roadmaps of how to implement your own hosted filters or processing components.```

@@ -62,8 +62,6 @@ The following list can help you understand what Proofing Viewer you can use to p
 
 &#42; This functionality works only if the Desktop Proofing Viewer is configured as the default viewer for all proofs.
 
-##
-
 ## Interactive proofs
 
 | **Feature**&nbsp; |**Web Proofing Viewer** |**Desktop Proofing Viewer** |

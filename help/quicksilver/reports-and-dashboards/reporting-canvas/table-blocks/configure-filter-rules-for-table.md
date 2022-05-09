@@ -33,8 +33,6 @@ Or you could display only projects that have an assigned project owner, which wo
 
 Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](../../../product-announcements/betas/reporting-canvas-beta.md).
 
-##  
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

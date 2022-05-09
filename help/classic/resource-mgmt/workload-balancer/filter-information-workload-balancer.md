@@ -205,8 +205,6 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
    ![](assets/wb-filter-with-blue-dot-and-filter-name-350x57.png)
 
-##
-
 ## Edit an existing filter in the Workload Balancer {#edit-an-existing-filter-in-the-workload-balancer}
 
 You can edit a saved filter in the Workload Balancer.
@@ -242,8 +240,6 @@ You can edit a saved filter in the Workload Balancer.
 1. Click **Save** to save the changes you made to the existing filter. 
 1. (Optional) Click the **left-pointing arrow** next to the name of the filter to exit the filter builder and return to the list of filters. 
 1. Click the **X icon** in the upper-right corner of the filter builder to close the filter builder.
-
-##
 
 ## Delete a saved filter in the Workload Balancer
 

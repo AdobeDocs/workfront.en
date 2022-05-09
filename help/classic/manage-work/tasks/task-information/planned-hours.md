@@ -407,8 +407,6 @@ You cannot edit the Planned Hours of projects manually, as they are a calculatio
 </div>
 -->
 
-###
-
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>Planned Hours in Resource Management tools</p> <note type="important">

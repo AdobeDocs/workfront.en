@@ -61,8 +61,6 @@ You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main&nbsp;Menu.
 
-##
-
 ## Recommendations for preventing goals to reach a progress of In&nbsp;Trouble
 
 Before goals reach a progress of In&nbsp;Trouble, you can monitor them often and adjust their progress when they reach a progress of At Risk. Goals that are at risk are in danger of becoming in trouble.&nbsp;For more information about goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)

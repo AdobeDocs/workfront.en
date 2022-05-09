@@ -9,8 +9,6 @@ description: You can share a plan that you created in the Adobe Workfront Scenar
 
 # Share a plan in the Scenario Planner
 
-##  
-
 You can share a plan that you created in the Adobe Workfront Scenario Planner with other users.
 
 >[!TIP]

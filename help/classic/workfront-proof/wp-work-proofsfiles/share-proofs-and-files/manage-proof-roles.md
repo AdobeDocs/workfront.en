@@ -46,8 +46,6 @@ For more information, see the following articles:
 * &nbsp;
 * [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
 
-##  
-
 ### Read Only
 
 {#read-only}

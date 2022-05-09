@@ -105,8 +105,6 @@ Consider the following when locating daily, weekly ```or monthly``` allocations 
 
   ![](assets/user-allocation-chart-350x237.png)
 
-###
-
 ### Criteria that reset user allocations {#criteria-that-reset-user-allocations}
 
 Not all task changes trigger the modified allocations to redistribute. However, there are certain actions that could reset the already adjusted allocations on your resources and redistribute them evenly to all the days during the duration of the work item for each of the assignees.

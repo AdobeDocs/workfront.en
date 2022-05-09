@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Manage hour types
-description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **Linked to Creating Billing Record
+description: You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries.
 ---
 
 # Manage hour types

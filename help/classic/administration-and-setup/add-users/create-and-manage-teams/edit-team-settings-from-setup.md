@@ -14,8 +14,6 @@ For information about teams, see [Teams overview](../../../people-teams-and-grou
 >* A user with a Plan license can edit a team’s settings from the People area. For more information, see [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 >
 
-##  
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 

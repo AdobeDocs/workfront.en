@@ -27,8 +27,6 @@ Adobe Workfront single sign-on (SSO) supports the integration with Azure Active 
 >-->
 >See your network or IT administrator if you need more information.
 
-##
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 

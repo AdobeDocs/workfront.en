@@ -56,8 +56,6 @@ Consider the following when moving&nbsp;issues that contain documents or are ass
 * **When a document is attached to the issue:**&nbsp;When you move&nbsp;an issue to another object&nbsp;and the issue has a document attached to it, the document, its versions and proofs also move to the new&nbsp;issue. Any approvals associated with the document do&nbsp;not move.
 * **When an issue is linked to a document or a folder:**&nbsp;When you move&nbsp;an issue which has documents or folders linked to a a third party service like Google Drive, the&nbsp;links to the documents move with the issue.&nbsp;
 
-##
-
 ## Move issues in a list
 
 You can move one or multiple issues from a list of issues or from an issue report.

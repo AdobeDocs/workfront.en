@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
 title: Manage API keys
-description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront&nbsp;on behalf of a user.
 ---
 
 # Manage API keys
@@ -17,7 +17,7 @@ description: ***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PR
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-In order to&nbsp;minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront&nbsp;on behalf of a user.
+In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront&nbsp;on behalf of a user.
 
 You can reset or remove your current administrator API Key,&nbsp;configure API Keys to expire, and remove the API Keys for all users.
 

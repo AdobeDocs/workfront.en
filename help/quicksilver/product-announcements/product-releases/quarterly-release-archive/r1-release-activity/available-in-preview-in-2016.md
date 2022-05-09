@@ -38,8 +38,6 @@ Previously, allocation shading was displayed by default and could not be disable
 
 For more information about how to enable user allocation options, see [Manage user allocations in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in&nbsp; [Manage user allocations in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
 
-###  
-
 ## Layout Template Determines Whether the New or&nbsp;Legacy Calendar Displays in the My Work Area
 
 ```Preview Sandbox: Dec 7, 2016; Early Access: Dec 14, 2016```&nbsp;

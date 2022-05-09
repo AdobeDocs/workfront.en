@@ -146,5 +146,3 @@ You must have the following access to perform the steps in this article:
 
    For information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-##  
-

@@ -104,8 +104,6 @@ For more information, also see the following articles:
  </tbody> 
 </table>
 
-##  
-
 &nbsp;
 
 <!--

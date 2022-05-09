@@ -18,8 +18,6 @@ We recommend that you deactivate templates that you are no longer using, instead
 >
 >When you delete a template, the projects that are using that template are not modified in any way. However, you can no longer see the name of the original template in the Template field on the project. Additionally, you can no longer view the names of the template tasks for the tasks on the project in a task view. The Template field on the project and the Template Task field on the tasks remain blank after the template originally associated with the project is deleted.
 
-##
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

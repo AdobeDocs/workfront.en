@@ -198,5 +198,3 @@ If you are a Workfront Proof administrator, you can set proof defaults for users
     </tbody> 
    </table>
 
-##  
-

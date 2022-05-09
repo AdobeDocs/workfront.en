@@ -8,8 +8,6 @@ description: You can delete tasks that might be duplicates, or have been created
 
 # Delete tasks
 
-##  
-
 You can delete tasks that might be duplicates, or have been created in error.
 
 For tasks that have historical information (updates, changes of schedule, status, or other fields), we recommend that you close them or mark them Dead, instead of deleting them.&nbsp;This helps you keep the historical information for your projects.

@@ -98,8 +98,6 @@ Consider the following when assigning multiple resources to a work item:
 </div>
 -->
 
-##
-
 ## Assign a single task
 
 1. Go to a task that you want to assign.

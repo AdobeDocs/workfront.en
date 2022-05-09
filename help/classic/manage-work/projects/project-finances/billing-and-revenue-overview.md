@@ -340,8 +340,6 @@ If the user logging time has no billing rate associated with them, and they do n
 </div>
 -->
 
-###
-
 ### Revenue calculations for projects
 
 You can track the following revenue types for projects:

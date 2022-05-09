@@ -52,8 +52,6 @@ There are some limitations that might prevent you from editing issues.
 
 You can edit an issue using the Edit Issue or Issue Details areas. The following steps describe editing an issue in the Edit issue box.
 
-###
-
 1. Go to the **Main Menu**.
 1. Click **Projects**, then click the name of a project to open the project.
 1. (Optional)&nbsp;Click **Tasks** , then click the name of a task to open the task. 

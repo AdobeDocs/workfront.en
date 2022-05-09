@@ -125,8 +125,6 @@ Consider the following when selecting the Project View in the Resource Planner:
 
      For more information, see [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-###
-
 ### View by Role {#view-by-role}
 
 Consider the following when selecting the Role View in the Resource Planner:
@@ -202,8 +200,6 @@ Consider the following when selecting the User View in the Resource Planner:
    * Percentage of Planned allocation
 
      For more information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
-
-##
 
 ## Project Name
 

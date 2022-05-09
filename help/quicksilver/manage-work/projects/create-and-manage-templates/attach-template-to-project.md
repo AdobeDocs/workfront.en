@@ -70,8 +70,6 @@ You must have the following to perform the steps described in this article:
 
 You can attach a template to a project in Workfront from the project page ```or from a project list or report```.
 
-###
-
 1. Go to the project where you want to attach a template and click the **More** icon ![](assets/qs-more-icon-on-an-object.png) to the right of the project name
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
@@ -199,6 +197,4 @@ To understand what template is applied to a project:
 &nbsp;
 
 &nbsp;
-
-##  
 

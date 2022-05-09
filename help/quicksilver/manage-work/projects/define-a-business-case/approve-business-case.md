@@ -123,8 +123,6 @@ To build a report for projects which are pending approval of their Business Case
    >
    >There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.
 
-##
-
 ##  Approve the Business Case by accessing Requested projects in a portfolio
 
 For more information about reviewing Requested projects, see the article [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
