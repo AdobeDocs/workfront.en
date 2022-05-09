@@ -6,7 +6,7 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Groups overview
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Groups overview

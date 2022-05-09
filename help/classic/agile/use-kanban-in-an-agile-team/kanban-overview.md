@@ -4,7 +4,7 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
 title: Kanban overview
-description: The following sections enable you to better understand how the Kanban board functions:
+description: The following sections enable you to better understand how the Kanban board functions - EDIT ME.
 ---
 
 # Kanban overview

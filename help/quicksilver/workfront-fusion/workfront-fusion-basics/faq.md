@@ -5,7 +5,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Adobe Workfront Fusion FAQ
-description: You must have the following access to use the functionality in this article:
+description: You must have the following access to use the functionality in this article - EDIT ME.
 ---
 
 # Adobe Workfront Fusion FAQ

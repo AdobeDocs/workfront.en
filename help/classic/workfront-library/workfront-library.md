@@ -5,7 +5,7 @@ product: workfront-library
 product-area: documents
 navigation-topic: workfront-library-navigation-topic
 title: Workfront Library
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Workfront Library

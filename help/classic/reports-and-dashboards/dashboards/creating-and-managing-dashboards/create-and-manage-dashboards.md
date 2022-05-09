@@ -4,7 +4,7 @@ content-type: reference
 product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Create and manage dashboards
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Create and manage dashboards

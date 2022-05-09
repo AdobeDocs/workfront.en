@@ -4,7 +4,7 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Create and manage teams
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Create and manage teams

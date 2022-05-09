@@ -3,7 +3,7 @@ filename: search-in-a-proof
 product-area: documents
 navigation-topic: review-a-proof
 title: Search content within a proof
-description: You can quickly locate text in a proof created for the following types of documents:
+description: You can quickly locate text in a proof created for the following types of documents - EDIT ME.
 ---
 
 # Search content within a proof

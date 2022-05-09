@@ -3,7 +3,7 @@ filename: _use-legacy-gantt
 content-type: reference
 navigation-topic: gantt-chart
 title: Use the Legacy Gantt Chart
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Use the Legacy Gantt Chart

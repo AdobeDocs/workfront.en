@@ -5,7 +5,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Date and time functions in Adobe Workfront Fusion
-description: You must have the following access to use the functionality in this article:
+description: You must have the following access to use the functionality in this article - EDIT ME.
 ---
 
 # Date and time functions in Adobe Workfront Fusion

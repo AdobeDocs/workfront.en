@@ -3,7 +3,7 @@ filename: _my-work
 content-type: reference
 navigation-topic: home-navigation-topic
 title: My Work
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # My Work

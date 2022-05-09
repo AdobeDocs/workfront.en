@@ -4,7 +4,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: people-teams-and-groups
 title: Work directly with others
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Work directly with others

@@ -3,7 +3,7 @@ filename: migrate-resource-estimates-to-budgeting
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Migrate from Legacy Resource Estimates to Resource Budgeting
-description: Currently, you can manage the allocation of your resources on a project in two separate sections of the Business Case. The sections are independent from one another:
+description: Currently, you can manage the allocation of your resources on a project in two separate sections of the Business Case. The sections are independent from one another - EDIT ME.
 hidefromtoc: true
 ---
 

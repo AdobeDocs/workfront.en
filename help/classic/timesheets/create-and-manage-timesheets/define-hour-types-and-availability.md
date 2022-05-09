@@ -3,7 +3,7 @@ filename: define-hour-types-and-availability
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Define hour types and availability for timesheets
-description: There are two sets of hour types in Adobe Workfront:
+description: There are two sets of hour types in Adobe Workfront - EDIT ME.
 ---
 
 # Define hour types and availability for timesheets

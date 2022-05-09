@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: The scenario settings panel in Adobe Workfront Fusion
-description: You must have the following access to use the functionality in this article:
+description: You must have the following access to use the functionality in this article - EDIT ME.
 ---
 
 # The scenario settings panel in Adobe Workfront Fusion

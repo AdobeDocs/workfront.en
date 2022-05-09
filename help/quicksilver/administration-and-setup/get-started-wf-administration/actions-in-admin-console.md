@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Platform-based administration differences (Adobe Workfront/Adobe Business Platform)
-description: If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that:
+description: If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that - EDIT ME.
 ---
 
 # Platform-based administration differences (Adobe Workfront/Adobe Business Platform)

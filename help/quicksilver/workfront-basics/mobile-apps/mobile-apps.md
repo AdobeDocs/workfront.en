@@ -4,7 +4,7 @@ content-type: reference
 product: mobile
 navigation-topic: get-started-with-workfront
 title: Mobile Apps
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Mobile Apps

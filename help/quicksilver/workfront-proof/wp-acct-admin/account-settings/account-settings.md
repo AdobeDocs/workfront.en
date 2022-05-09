@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Account settings in Workfront Proof
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Account settings in Workfront Proof

@@ -3,7 +3,7 @@ filename: _product-announcements
 content-type: release-notes
 navigation-topic: product-announcements
 title: Product announcements
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Product announcements

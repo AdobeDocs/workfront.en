@@ -4,7 +4,7 @@ content-type: overview
 product-area: projects
 navigation-topic: issues
 title: Convert issues
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Convert issues

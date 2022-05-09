@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Reporting elements overview
-description: All Adobe Workfront reports and lists are a combination of 3 essential elements:
+description: All Adobe Workfront reports and lists are a combination of 3 essential elements - EDIT ME.
 ---
 
 # Reporting elements overview

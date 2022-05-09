@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Custom statuses on a task or issue that is moved or copied
-description: When you move or copy a task or issue to a different project, some statuses on the task or issue might update to match statuses used by the destination project's group. This depends on whether statuses with the same key exist in that group:
+description: When you move or copy a task or issue to a different project, some statuses on the task or issue might update to match statuses used by the destination project's group. This depends on whether statuses with the same key exist in that group - EDIT ME.
 ---
 
 # Custom statuses on a task or issue that is moved or copied

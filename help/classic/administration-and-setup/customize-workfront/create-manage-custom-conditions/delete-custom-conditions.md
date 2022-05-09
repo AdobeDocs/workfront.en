@@ -5,7 +5,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 title: Delete a custom condition
-description: You must have the following access to perform the steps in this article:
+description: You must have the following access to perform the steps in this article - EDIT ME.
 ---
 
 # Delete a custom condition

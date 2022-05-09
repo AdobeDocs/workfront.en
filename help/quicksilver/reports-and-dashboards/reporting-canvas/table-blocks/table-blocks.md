@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reporting-canvas
 title: Table Blocks
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Table Blocks

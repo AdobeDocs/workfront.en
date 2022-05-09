@@ -3,7 +3,7 @@ filename: _tips-tricks-troubleshooting-basics
 content-type: tips-tricks-troubleshooting
 navigation-topic: get-started-with-workfront
 title: Tips, Tricks, and Troubleshooting for Adobe Workfront Basics
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, Tricks, and Troubleshooting for Adobe Workfront Basics

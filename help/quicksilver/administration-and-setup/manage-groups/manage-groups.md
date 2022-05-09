@@ -6,7 +6,7 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
 title: Manage groups
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Manage groups

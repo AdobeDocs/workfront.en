@@ -4,7 +4,7 @@ content-type: reference
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Adobe Workfront Scenario Planner
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Adobe Workfront Scenario Planner

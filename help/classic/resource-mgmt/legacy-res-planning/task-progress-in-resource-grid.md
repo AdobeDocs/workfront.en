@@ -3,7 +3,7 @@ filename: task-progress-in-resource-grid
 product-area: resource-management
 navigation-topic: legacy-resource-planning
 title: Display task progress on the Resource Grid
-description: You can configure the Resource Grid to display the following visual indicators related to task progress:
+description: You can configure the Resource Grid to display the following visual indicators related to task progress - EDIT ME.
 ---
 
 # Display task progress on the Resource Grid

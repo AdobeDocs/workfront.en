@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof Billing Settings
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Workfront Proof Billing Settings

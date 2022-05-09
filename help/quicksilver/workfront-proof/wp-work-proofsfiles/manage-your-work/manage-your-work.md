@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Manage your work
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Manage your work

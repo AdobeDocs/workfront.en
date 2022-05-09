@@ -4,7 +4,7 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
 title: Tips, tricks, and troubleshooting for agile
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, tricks, and troubleshooting for agile

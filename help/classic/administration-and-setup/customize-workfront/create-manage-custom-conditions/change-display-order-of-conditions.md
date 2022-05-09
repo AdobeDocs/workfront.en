@@ -5,7 +5,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 title: Change the display order of conditions
-description: You can change the order in which Conditions display in projects, tasks and issues:
+description: You can change the order in which Conditions display in projects, tasks and issues - EDIT ME.
 ---
 
 # Change the display order of conditions

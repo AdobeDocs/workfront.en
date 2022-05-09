@@ -3,7 +3,7 @@ filename: _use-the-home-area
 content-type: reference
 navigation-topic: home-navigation-topic
 title: Use the Home area
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Use the Home area

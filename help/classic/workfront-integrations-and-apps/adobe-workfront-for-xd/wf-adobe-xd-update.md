@@ -3,7 +3,7 @@ filename: wf-adobe-xd-update
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
 title: Update your work in Adobe XD
-description: You can update your work in the following areas:
+description: You can update your work in the following areas - EDIT ME.
 ---
 
 # Update your work in Adobe XD

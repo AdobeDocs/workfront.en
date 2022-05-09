@@ -6,7 +6,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
 title: Customize Adobe Workfront
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Customize Adobe Workfront

@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Opt in to the new Adobe Workfront experience
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Opt in to the new Adobe Workfront experience

@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Manage security
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Manage security

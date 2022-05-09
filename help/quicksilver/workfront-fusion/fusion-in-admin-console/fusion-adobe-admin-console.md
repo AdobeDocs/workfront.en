@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: fusion-in-admin-console
 title: Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)
-description: If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront Fusion. This means that:
+description: If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront Fusion. This means that - EDIT ME.
 hidefromtoc: true
 ---
 

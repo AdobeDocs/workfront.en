@@ -5,7 +5,7 @@ product: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Collections in Workfront Library
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Collections in Workfront Library

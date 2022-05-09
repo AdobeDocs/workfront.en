@@ -4,7 +4,7 @@ content-type: overview
 product-area: portfolios;projects
 navigation-topic: portfolios-navigation-topic
 title: Portfolios
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Portfolios

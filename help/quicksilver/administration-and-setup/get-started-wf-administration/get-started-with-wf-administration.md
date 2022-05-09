@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Get started with Adobe Workfront administration
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Get started with Adobe Workfront administration

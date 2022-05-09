@@ -4,7 +4,7 @@ content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: Proofing
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Proofing

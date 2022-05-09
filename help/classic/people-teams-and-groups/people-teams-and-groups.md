@@ -3,7 +3,7 @@ filename: _people-teams-and-groups
 content-type: reference
 navigation-topic: people-teams-and-groups
 title: People, teams, and groups
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # People, teams, and groups

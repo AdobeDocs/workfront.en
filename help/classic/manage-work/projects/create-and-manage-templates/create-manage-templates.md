@@ -4,7 +4,7 @@ content-type: reference
 product-area: templates
 navigation-topic: create-and-manage-projects
 title: Create and manage project templates
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Create and manage project templates

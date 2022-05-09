@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Map an array in Adobe Workfront Fusion
-description: An array is a special type of item that can contain the following:
+description: An array is a special type of item that can contain the following - EDIT ME.
 ---
 
 # Map an array in Adobe Workfront Fusion

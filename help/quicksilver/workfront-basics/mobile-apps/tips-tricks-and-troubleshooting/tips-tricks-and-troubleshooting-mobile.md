@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting;reference
 product: mobile
 navigation-topic: mobile-apps
 title: Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps

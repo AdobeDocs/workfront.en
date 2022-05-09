@@ -4,7 +4,7 @@ content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheets
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Timesheets

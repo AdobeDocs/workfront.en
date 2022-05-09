@@ -4,7 +4,7 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Choosing Your Payment Method in Workfront Proof
-description: The following payment options are available:
+description: The following payment options are available - EDIT ME.
 ---
 
 # Choosing Your Payment Method in Workfront Proof

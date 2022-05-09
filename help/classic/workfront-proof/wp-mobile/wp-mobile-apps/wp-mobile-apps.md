@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: mobile-workfront-proof
 title: Workfront Proof mobile apps
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Workfront Proof mobile apps

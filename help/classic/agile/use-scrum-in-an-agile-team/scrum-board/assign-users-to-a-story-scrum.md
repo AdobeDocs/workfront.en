@@ -3,7 +3,7 @@ filename: assign-users-to-a-story-scrum
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
 title: Assign users to a story on the Scrum board
-description: You must have the following access to perform the steps in this article:
+description: You must have the following access to perform the steps in this article - EDIT ME.
 ---
 
 # Assign users to a story on the Scrum board

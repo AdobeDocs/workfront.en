@@ -4,7 +4,7 @@ content-type: reference
 product: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Goal review and the Adobe Workfront Goals sections
-description: Your organization must have the following to use the functionality described in this article:
+description: Your organization must have the following to use the functionality described in this article - EDIT ME.
 ---
 
 # Goal review and the Adobe Workfront Goals sections

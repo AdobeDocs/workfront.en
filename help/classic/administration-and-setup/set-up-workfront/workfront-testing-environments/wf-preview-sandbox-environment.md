@@ -5,7 +5,7 @@ content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: The Adobe Workfront Preview Sandbox Environment
-description: There are two testing environments for Workfront that are replicas of your Workfront production environment:
+description: There are two testing environments for Workfront that are replicas of your Workfront production environment - EDIT ME.
 ---
 
 # The Adobe Workfront Preview Sandbox Environment

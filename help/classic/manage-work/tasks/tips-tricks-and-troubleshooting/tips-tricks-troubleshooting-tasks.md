@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-area: projects
 navigation-topic: tasks
 title: Tips, tricks, and troubleshooting for tasks
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, tricks, and troubleshooting for tasks

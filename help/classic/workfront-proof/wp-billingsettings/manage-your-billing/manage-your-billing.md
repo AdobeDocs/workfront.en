@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: billing-settings
 title: Manage your billing
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Manage your billing

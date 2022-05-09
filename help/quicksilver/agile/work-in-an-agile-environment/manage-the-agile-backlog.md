@@ -3,7 +3,7 @@ filename: manage-the-agile-backlog
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
 title: Manage the agile backlog
-description: The following work items can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using:
+description: The following work items can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using - EDIT ME.
 ---
 
 # Manage the agile backlog

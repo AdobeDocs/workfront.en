@@ -5,7 +5,7 @@ product: workfront-library
 product-area: documents;system-administration;setup
 navigation-topic: workfront-library-navigation-topic
 title: Administration and setup of Workfront Library
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Administration and setup of Workfront Library

@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
 title: Tips, tricks, and troubleshooting for projects
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, tricks, and troubleshooting for projects

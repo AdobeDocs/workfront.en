@@ -3,7 +3,7 @@ filename: assign-users-to-a-story
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
 title: Assign users to a story on the Kanban board
-description: You must have the following access to perform the steps in this article:
+description: You must have the following access to perform the steps in this article - EDIT ME.
 ---
 
 # Assign users to a story on the Kanban board

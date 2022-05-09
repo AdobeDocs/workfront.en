@@ -3,7 +3,7 @@ filename: add-stories-to-existing-iteration
 product-area: agile-and-teams;projects
 navigation-topic: iterations
 title: Add stories to an existing iteration
-description: You can add stories to an iteration in any of the following ways:
+description: You can add stories to an iteration in any of the following ways - EDIT ME.
 ---
 
 # Add stories to an existing iteration

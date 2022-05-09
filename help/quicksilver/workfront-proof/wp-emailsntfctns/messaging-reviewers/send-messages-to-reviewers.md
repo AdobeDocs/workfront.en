@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: Send messages to reviewers
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Send messages to reviewers

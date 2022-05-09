@@ -3,7 +3,7 @@ filename: _announcements
 content-type: reference
 navigation-topic: product-announcements
 title: Announcements
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Announcements

@@ -6,7 +6,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 title: Custom branding in Adobe Workfront
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Custom branding in Adobe Workfront

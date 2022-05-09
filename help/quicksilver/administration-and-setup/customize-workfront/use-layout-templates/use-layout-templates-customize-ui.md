@@ -6,7 +6,7 @@ content-type: reference
 product-area: system-administration;templates
 navigation-topic: customize-workfront
 title: Layout templates
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Layout templates

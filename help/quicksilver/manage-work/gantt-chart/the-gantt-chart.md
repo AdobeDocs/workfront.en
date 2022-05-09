@@ -3,7 +3,7 @@ filename: _the-gantt-chart
 content-type: reference
 navigation-topic: projects-navigation-topic
 title: The Gantt Chart
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # The Gantt Chart

@@ -4,7 +4,7 @@ content-type: reference
 product: mobile
 navigation-topic: mobile-apps
 title: Use Adobe Workfront View
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Use Adobe Workfront View

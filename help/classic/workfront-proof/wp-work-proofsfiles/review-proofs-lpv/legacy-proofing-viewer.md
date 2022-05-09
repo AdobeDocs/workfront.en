@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-legacy-proofing-viewer
 title: Legacy proofing viewer Overview
-description: The Workfront Proof Viewer contains:
+description: The Workfront Proof Viewer contains - EDIT ME.
 ---
 
 # Legacy proofing viewer Overview

@@ -3,7 +3,7 @@ filename: approvals-in-mobile-app
 product: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Approvals in the Adobe Workfront mobile app
-description: You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app. From the approvals area, you can approve:
+description: You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app. From the approvals area, you can approve - EDIT ME.
 ---
 
 # Approvals in the Adobe Workfront mobile app

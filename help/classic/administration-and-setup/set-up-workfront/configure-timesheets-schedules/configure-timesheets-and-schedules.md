@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: Configure timesheets and schedules
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Configure timesheets and schedules

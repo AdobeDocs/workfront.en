@@ -3,7 +3,7 @@ filename: reporting-elements-filters-views-groupings
 product-area: reporting
 navigation-topic: reporting-elements
 title: Reporting elements: filters, views, and groupings
-description: AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:
+description: AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have - EDIT ME.
 ---
 
 # Reporting elements: filters, views, and groupings

@@ -5,7 +5,7 @@ product: workfront-library
 product-area: documents;user-management;system-administration
 navigation-topic: administration-and-setup-for-workfront-library
 title: User access in Workfront Library
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # User access in Workfront Library

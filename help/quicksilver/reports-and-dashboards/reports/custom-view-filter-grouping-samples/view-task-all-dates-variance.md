@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: View: task with All Dates variance
-description: This task view is similar to the "All Dates" view provided with your Adobe Workfront account. This particular view includes Variance columns, which calculate the difference in days between the following dates:
+description: This task view is similar to the "All Dates" view provided with your Adobe Workfront account. This particular view includes Variance columns, which calculate the difference in days between the following dates - EDIT ME.
 ---
 
 # View: task with All Dates variance

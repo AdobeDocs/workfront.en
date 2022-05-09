@@ -4,7 +4,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: Manage your account and profile
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Manage your account and profile

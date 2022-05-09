@@ -4,7 +4,7 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Review proofs within Adobe Workfront
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Review proofs within Adobe Workfront

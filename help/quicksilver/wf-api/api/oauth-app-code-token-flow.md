@@ -3,7 +3,7 @@ filename: oauth-app-code-token-flow
 content-type: api
 navigation-topic: api-navigation-topic
 title: Configure and use your organization's custom OAuth 2 applications using authorization code flow
-description: In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must:
+description: In order to integrate with Workfront and allow your client app to communicate with Workfront on behalf of the user, you must - EDIT ME.
 ---
 
 # Configure and use your organization's custom OAuth 2 applications using authorization code flow

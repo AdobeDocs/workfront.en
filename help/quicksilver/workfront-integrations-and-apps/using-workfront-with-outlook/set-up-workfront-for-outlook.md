@@ -3,7 +3,7 @@ filename: set-up-workfront-for-outlook
 product-area: workfront-integrations
 navigation-topic: workfront-for-outlook
 title: Set up Adobe Workfront for Outlook
-description: The Adobe Workfront Outlook add-in lets you do the following key Workfront tasks directly from Outlook:
+description: The Adobe Workfront Outlook add-in lets you do the following key Workfront tasks directly from Outlook - EDIT ME.
 ---
 
 # Set up Adobe Workfront for Outlook

@@ -3,7 +3,7 @@ filename: close-and-reopen-goals
 product: workfront-goals
 navigation-topic: goal-management
 title: Close and reopen goals in Adobe Workfront Goals
-description: You can close a goal when you want to indicate the following:
+description: You can close a goal when you want to indicate the following - EDIT ME.
 ---
 
 # Close and reopen goals in Adobe Workfront Goals

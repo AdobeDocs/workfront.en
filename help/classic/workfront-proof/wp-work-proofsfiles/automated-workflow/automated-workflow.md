@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Automated Workflow in Workfront Proof
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Automated Workflow in Workfront Proof

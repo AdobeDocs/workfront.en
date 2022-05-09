@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Troubleshooting - corrupted interface font in proofing viewer on Mac
-description: If you notice that the proofing viewer does not display interface font properly, this could be due to some issues with the fonts on your Mac machine. To resolve the problem, try the following solutions:
+description: If you notice that the proofing viewer does not display interface font properly, this could be due to some issues with the fonts on your Mac machine. To resolve the problem, try the following solutions - EDIT ME.
 ---
 
 # Troubleshooting - corrupted interface font in proofing viewer on Mac

@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
 title: Configure your firewall's allowlist
-description: If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
+description: If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes - EDIT ME.
 ---
 
 # Configure your firewall's allowlist

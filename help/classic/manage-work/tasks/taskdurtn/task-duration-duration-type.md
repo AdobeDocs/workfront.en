@@ -4,7 +4,7 @@ content-type: reference
 product-area: projects
 navigation-topic: tasks
 title: Task Duration and Duration Types
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Task Duration and Duration Types

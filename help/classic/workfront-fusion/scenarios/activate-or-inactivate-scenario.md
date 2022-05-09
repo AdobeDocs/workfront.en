@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Activate or deactivate a scenario in Adobe Workfront Fusion
-description: You can work with scenarios either in an active or an inactive state:
+description: You can work with scenarios either in an active or an inactive state - EDIT ME.
 ---
 
 # Activate or deactivate a scenario in Adobe Workfront Fusion

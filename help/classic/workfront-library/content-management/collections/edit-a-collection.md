@@ -4,7 +4,7 @@ product: workfront-library
 product-area: documents
 navigation-topic: collections
 title: Edit a Workfront Library collection
-description: You can make the following changes to a collection that you have Manage access to:
+description: You can make the following changes to a collection that you have Manage access to - EDIT ME.
 ---
 
 # Edit a Workfront Library collection

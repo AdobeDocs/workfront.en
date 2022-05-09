@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Exchange rates
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Exchange rates

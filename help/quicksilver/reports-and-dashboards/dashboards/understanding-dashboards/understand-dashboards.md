@@ -4,7 +4,7 @@ content-type: reference
 product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Understand dashboards
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Understand dashboards

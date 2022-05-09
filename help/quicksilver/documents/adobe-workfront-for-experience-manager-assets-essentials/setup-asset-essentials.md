@@ -3,7 +3,7 @@ filename: setup-asset-essentials
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configure the Experience Manager Assets Essentials integration
-description: Connect your work with your content in Experience Manager Assets Essentials:
+description: Connect your work with your content in Experience Manager Assets Essentials - EDIT ME.
 ---
 
 # Configure the Experience Manager Assets Essentials integration

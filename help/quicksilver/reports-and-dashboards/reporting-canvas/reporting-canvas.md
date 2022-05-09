@@ -4,7 +4,7 @@ content-type: overview;reference
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Reporting Canvas
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Reporting Canvas

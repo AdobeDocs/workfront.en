@@ -4,7 +4,7 @@ content-type: overview;reference
 product-area: dashboards
 navigation-topic: reports-and-dashboards
 title: Dashboards
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Dashboards

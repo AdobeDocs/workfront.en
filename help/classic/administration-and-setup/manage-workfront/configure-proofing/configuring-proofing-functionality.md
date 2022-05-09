@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration;documents;setup
 navigation-topic: manage-workfront
 title: Configure proofing functionality
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Configure proofing functionality

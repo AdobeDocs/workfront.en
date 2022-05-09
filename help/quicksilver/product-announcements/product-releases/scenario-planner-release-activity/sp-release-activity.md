@@ -5,7 +5,7 @@ content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: product-releases
 title: Adobe Workfront Scenario Planner release activity
-description: The following releases were made available for Workfront Scenario Planner:
+description: The following releases were made available for Workfront Scenario Planner - EDIT ME.
 ---
 
 # Adobe Workfront Scenario Planner release activity

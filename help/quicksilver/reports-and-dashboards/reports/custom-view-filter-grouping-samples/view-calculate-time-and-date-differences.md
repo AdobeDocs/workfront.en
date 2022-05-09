@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: View: calculate time and date differences
-description: You can calculate the difference between the following:
+description: You can calculate the difference between the following - EDIT ME.
 ---
 
 # View: calculate time and date differences

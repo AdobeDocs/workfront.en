@@ -3,7 +3,7 @@ filename: configure-workfront-for-slack
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-slack
 title: Configure Adobe Workfront for Slack
-description: Integrating Adobe Workfront with Slack allows you to do the following:
+description: Integrating Adobe Workfront with Slack allows you to do the following - EDIT ME.
 ---
 
 # Configure Adobe Workfront for Slack

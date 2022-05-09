@@ -2,7 +2,7 @@
 filename: _betas
 navigation-topic: betas
 title: Beta programs
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Beta programs

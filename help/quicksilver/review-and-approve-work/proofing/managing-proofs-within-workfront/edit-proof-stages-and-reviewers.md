@@ -3,7 +3,7 @@ filename: edit-proof-stages-and-reviewers
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Edit proof stages and reviewers
-description: You must have the following access to perform the steps in this article:
+description: You must have the following access to perform the steps in this article - EDIT ME.
 ---
 
 # Edit proof stages and reviewers

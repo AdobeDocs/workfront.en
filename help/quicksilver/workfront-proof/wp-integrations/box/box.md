@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Box
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Box

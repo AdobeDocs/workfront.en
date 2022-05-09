@@ -4,7 +4,7 @@ content-type: overview
 product: workfront-goals
 navigation-topic: goal-management
 title: Adobe Workfront Goals overview
-description: Your organization must have the following to use the functionality described in this article:
+description: Your organization must have the following to use the functionality described in this article - EDIT ME.
 ---
 
 # Adobe Workfront Goals overview

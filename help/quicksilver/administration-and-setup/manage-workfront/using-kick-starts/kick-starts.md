@@ -6,7 +6,7 @@ product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: manage-workfront
 title: Kick-Starts
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Kick-Starts

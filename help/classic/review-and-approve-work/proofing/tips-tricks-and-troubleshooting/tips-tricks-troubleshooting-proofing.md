@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, tricks, and troubleshooting for Proofing within Adobe Workfront

@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: Username Already in Use
-description: You must have the following access to perform the steps in this article:
+description: You must have the following access to perform the steps in this article - EDIT ME.
 ---
 
 # Username Already in Use

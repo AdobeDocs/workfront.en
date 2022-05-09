@@ -5,7 +5,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion overview
-description: You must have the following access to use the functionality in this article:
+description: You must have the following access to use the functionality in this article - EDIT ME.
 ---
 
 # Adobe Workfront Fusion overview

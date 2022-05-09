@@ -5,7 +5,7 @@ product: workfront-library
 product-area: documents
 navigation-topic: administration-and-setup-for-workfront-library
 title: Manage assets
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Manage assets

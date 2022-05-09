@@ -4,7 +4,7 @@ content-type: overview
 product: workfront-goals
 navigation-topic: goal-alignment
 title: Goal alignment overview in Adobe Workfront Goals
-description: Your organization must have the following to use the functionality described in this article:
+description: Your organization must have the following to use the functionality described in this article - EDIT ME.
 ---
 
 # Goal alignment overview in Adobe Workfront Goals

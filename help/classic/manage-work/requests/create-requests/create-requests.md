@@ -4,7 +4,7 @@ content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
 title: Create requests
-description: Requests and issues are interchangeable in Adobe Workfront. You can create requests by doing one of the following:
+description: Requests and issues are interchangeable in Adobe Workfront. You can create requests by doing one of the following - EDIT ME.
 ---
 
 # Create requests

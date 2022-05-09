@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: View: baseline variance for Duration and Planned Work in a task View
-description: This view displays the following in a task view:
+description: This view displays the following in a task view - EDIT ME.
 ---
 
 # View: baseline variance for Duration and Planned Work in a task View

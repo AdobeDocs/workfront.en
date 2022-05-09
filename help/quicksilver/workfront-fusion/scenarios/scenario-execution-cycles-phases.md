@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario execution, cycles, and phases in Adobe Workfront Fusion
-description: Adobe Workfront Fusion is a transactional system, similar to relational databases. Each scenario execution starts with the initialization phase, continues with at least one cycle composed of the operation and commit/rollback phases, and ends with the finalization phase:
+description: Adobe Workfront Fusion is a transactional system, similar to relational databases. Each scenario execution starts with the initialization phase, continues with at least one cycle composed of the operation and commit/rollback phases, and ends with the finalization phase - EDIT ME.
 ---
 
 # Scenario execution, cycles, and phases in Adobe Workfront Fusion

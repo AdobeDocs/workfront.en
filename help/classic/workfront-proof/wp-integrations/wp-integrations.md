@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof integrations
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Workfront Proof integrations

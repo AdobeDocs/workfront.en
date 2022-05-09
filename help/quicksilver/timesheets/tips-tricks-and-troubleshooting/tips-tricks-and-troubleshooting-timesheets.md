@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Tips, Tricks, and Troubleshooting
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, Tricks, and Troubleshooting

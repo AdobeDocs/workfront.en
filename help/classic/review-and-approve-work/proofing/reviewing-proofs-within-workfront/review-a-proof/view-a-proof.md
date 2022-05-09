@@ -3,7 +3,7 @@ filename: view-a-proof
 product-area: documents
 navigation-topic: review-a-proof
 title: View content in a proof
-description: You must have the following access to perform the steps in this article:
+description: You must have the following access to perform the steps in this article - EDIT ME.
 ---
 
 # View content in a proof

@@ -3,7 +3,7 @@ filename: change-my-work-layout-templates
 product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Change the My Work and Work Requests areas with Layout Templates
-description: You can configure which layout template is used in any of the following locations:
+description: You can configure which layout template is used in any of the following locations - EDIT ME.
 ---
 
 # Change the My Work and Work Requests areas with Layout Templates

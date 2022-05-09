@@ -4,7 +4,7 @@ content-type: reference
 product-area: projects
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Review and approve work
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Review and approve work

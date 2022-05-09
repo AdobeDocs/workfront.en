@@ -4,7 +4,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Print and Export Comments in Workfront Proof
-description: The Comments summary can be accessed directly from the following areas:
+description: The Comments summary can be accessed directly from the following areas - EDIT ME.
 ---
 
 # Print and Export Comments in Workfront Proof

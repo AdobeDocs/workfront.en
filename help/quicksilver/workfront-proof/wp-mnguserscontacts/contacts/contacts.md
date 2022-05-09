@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Contacts
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Contacts

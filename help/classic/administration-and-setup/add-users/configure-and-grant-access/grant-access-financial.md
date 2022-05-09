@@ -5,7 +5,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 title: Grant access to financial data
-description: As an Adobe Workfront administrator, you can define a user’s access to the following through the user's access level, as explained in Access levels overview:
+description: As an Adobe Workfront administrator, you can define a user’s access to the following through the user's access level, as explained in Access levels overview - EDIT ME.
 ---
 
 # Grant access to financial data

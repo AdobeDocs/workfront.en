@@ -5,7 +5,7 @@ content-type: reference
 product-area: enhanced-analytics
 navigation-topic: reports-and-dashboards
 title: Enhanced analytics
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Enhanced analytics

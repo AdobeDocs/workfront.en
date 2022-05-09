@@ -4,7 +4,7 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Accounts merge process
-description: This document outlines the tasks involved in processing merge and split requests for the following data migrations:
+description: This document outlines the tasks involved in processing merge and split requests for the following data migrations - EDIT ME.
 hidefromtoc: true
 ---
 

@@ -7,7 +7,7 @@ product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
 navigation-topic: access-levels
 title: Access levels overview
-description: As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes:
+description: As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes - EDIT ME.
 ---
 
 # Access levels overview

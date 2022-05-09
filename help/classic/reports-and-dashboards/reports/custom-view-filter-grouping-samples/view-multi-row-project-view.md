@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: View: multi-row project View
-description: In this project view you can:
+description: In this project view you can - EDIT ME.
 ---
 
 # View: multi-row project View

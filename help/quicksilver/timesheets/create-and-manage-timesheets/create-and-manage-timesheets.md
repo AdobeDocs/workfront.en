@@ -3,7 +3,7 @@ filename: _create-and-manage-timesheets
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
 title: Create and manage timesheets in Adobe Workfront
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Create and manage timesheets in&nbsp;Adobe Workfront

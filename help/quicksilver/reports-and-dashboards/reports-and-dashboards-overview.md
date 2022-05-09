@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: reporting;dashboards
 navigation-topic: reports-and-dashboards
 title: Reporting
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Reporting

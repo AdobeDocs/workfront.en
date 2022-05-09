@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
 title: Single sign-on in Adobe Workfront
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Single sign-on in Adobe Workfront

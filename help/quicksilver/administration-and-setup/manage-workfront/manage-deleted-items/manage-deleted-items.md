@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Manage deleted items
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Manage deleted items

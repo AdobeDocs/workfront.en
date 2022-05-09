@@ -4,7 +4,7 @@ content-type: overview
 product: workfront-goals
 navigation-topic: old-workfront-goals-articles
 title: Overview of goal statuses in the new Adobe Workfront experience
-description: From Alla's document:
+description: From Alla's document - EDIT ME.
 hidefromtoc: true
 ---
 

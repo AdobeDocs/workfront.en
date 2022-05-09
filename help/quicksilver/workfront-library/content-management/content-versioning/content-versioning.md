@@ -5,7 +5,7 @@ product: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Content Versioning in Workfront Library
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Content Versioning in Workfront Library

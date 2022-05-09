@@ -4,7 +4,7 @@ product: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Add a Workfront Library asset to Workfront
-description: You can add a document that resides in your My Content area to a project, task, or issue in Workfront. In order to add a document to Workfront from Workfront Library, you must have the following permissions:
+description: You can add a document that resides in your My Content area to a project, task, or issue in Workfront. In order to add a document to Workfront from Workfront Library, you must have the following permissions - EDIT ME.
 ---
 
 # Add a Workfront Library asset to Workfront

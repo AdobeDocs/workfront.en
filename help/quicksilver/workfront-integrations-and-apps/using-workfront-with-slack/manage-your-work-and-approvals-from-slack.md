@@ -3,7 +3,7 @@ filename: manage-your-work-and-approvals-from-slack
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Manage your work and approvals from Slack
-description: After you have installed Adobe Workfront for Slack, you can do the following:
+description: After you have installed Adobe Workfront for Slack, you can do the following - EDIT ME.
 ---
 
 # Manage your work and approvals from Slack

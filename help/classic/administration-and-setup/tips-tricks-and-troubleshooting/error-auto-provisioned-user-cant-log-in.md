@@ -5,7 +5,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Error: Auto-provisioned user can't log in
-description: When an auto-provisioned user tries to log in for the first time, the receive the following error:
+description: When an auto-provisioned user tries to log in for the first time, the receive the following error - EDIT ME.
 ---
 
 # Error: Auto-provisioned user can't log in

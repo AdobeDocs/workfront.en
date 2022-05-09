@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Modules in Adobe Workfront Fusion
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Modules in Adobe Workfront Fusion

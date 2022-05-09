@@ -2,7 +2,7 @@
 filename: access-recent-updates-area-my-work
 navigation-topic: my-work
 title: Access the Recent Updates area
-description: You must have the following access to perform the steps in this article:
+description: You must have the following access to perform the steps in this article - EDIT ME.
 ---
 
 # Access the Recent Updates area

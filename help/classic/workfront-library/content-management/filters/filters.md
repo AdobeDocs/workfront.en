@@ -5,7 +5,7 @@ product: workfront-library
 product-area: documents
 navigation-topic: content-management
 title: Filters in Workfront Library
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Filters in Workfront Library

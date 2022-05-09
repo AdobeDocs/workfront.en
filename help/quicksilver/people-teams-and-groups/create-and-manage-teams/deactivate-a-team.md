@@ -3,7 +3,7 @@ filename: deactivate-a-team
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
 title: Deactivate a team
-description: You can deactivate teams you no longer use while retaining the associated historical data. Adobe Workfront administrators can reactivate a team at any time from the Teams area in Setup. If you deactivate a team, the team no longer displays in the following areas:
+description: You can deactivate teams you no longer use while retaining the associated historical data. Adobe Workfront administrators can reactivate a team at any time from the Teams area in Setup. If you deactivate a team, the team no longer displays in the following areas - EDIT ME.
 ---
 
 # Deactivate a team

@@ -4,7 +4,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Configure Proof Settings in Workfront Proof
-description: You can configure a proof you are creating or editing in any of the following ways:
+description: You can configure a proof you are creating or editing in any of the following ways - EDIT ME.
 ---
 
 # Configure Proof Settings in Workfront Proof

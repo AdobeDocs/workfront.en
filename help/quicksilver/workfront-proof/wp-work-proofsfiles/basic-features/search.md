@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Searching Workfront Proof
-description: You can search for the following types of content across the Workfront Proof site:
+description: You can search for the following types of content across the Workfront Proof site - EDIT ME.
 ---
 
 # Searching Workfront Proof

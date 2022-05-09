@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Customize default issue types
-description: Issue types are useful in the following circumstances:
+description: Issue types are useful in the following circumstances - EDIT ME.
 ---
 
 # Customize default issue types

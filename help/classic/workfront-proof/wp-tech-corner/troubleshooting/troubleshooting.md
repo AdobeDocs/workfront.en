@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: Troubleshooting in Workfront Proof
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Troubleshooting in Workfront Proof

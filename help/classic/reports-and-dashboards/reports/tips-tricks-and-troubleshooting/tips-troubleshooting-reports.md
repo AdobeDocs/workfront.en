@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: reports
 title: Tips, tricks, and troubleshooting for reports
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, tricks, and troubleshooting for reports

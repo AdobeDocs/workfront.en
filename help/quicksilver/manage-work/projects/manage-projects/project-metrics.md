@@ -5,7 +5,7 @@ product-area: projects
 keywords: analytics,metrics,project,enhanced,tasks,assignee,complete,status,overdue,upcoming
 navigation-topic: manage-projects
 title: Overview of project metrics
-description: To access the Metrics area from the left panel of a project, you must:
+description: To access the Metrics area from the left panel of a project, you must - EDIT ME.
 ---
 
 # Overview of project metrics

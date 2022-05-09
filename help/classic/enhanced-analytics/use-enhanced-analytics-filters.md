@@ -4,7 +4,7 @@ title: Use Analytics filters
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 title: Apply filters in Enhanced analytics
-description: The filters in the Enhanced analytics area help you focus on specific projects or specific types of data. The types of filters that you use can give you insight on:
+description: The filters in the Enhanced analytics area help you focus on specific projects or specific types of data. The types of filters that you use can give you insight on - EDIT ME.
 ---
 
 # Apply filters in Enhanced analytics

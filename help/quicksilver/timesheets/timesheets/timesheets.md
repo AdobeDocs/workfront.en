@@ -4,7 +4,7 @@ content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheet details in Adobe Workfront
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Timesheet details in Adobe Workfront

@@ -3,7 +3,7 @@ filename: edit-dashboard
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
 title: Edit a dashboard
-description: The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with the following items in Adobe Workfront:
+description: The purpose of the dashboard is to provide quick access to information. You can populate a dashboard with the following items in Adobe Workfront - EDIT ME.
 ---
 
 # Edit a dashboard

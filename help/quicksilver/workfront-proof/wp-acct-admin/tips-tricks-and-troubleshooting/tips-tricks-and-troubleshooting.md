@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Tips, tricks, and troubleshooting for Workfront Proof account administration
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, tricks, and troubleshooting for Workfront Proof account administration

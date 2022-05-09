@@ -3,7 +3,7 @@ filename: working-across-timezones
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Working across time zones
-description: It can be helpful to understand how Adobe Workfront uses time zones to calculate the following:
+description: It can be helpful to understand how Adobe Workfront uses time zones to calculate the following - EDIT ME.
 ---
 
 # Working across time zones

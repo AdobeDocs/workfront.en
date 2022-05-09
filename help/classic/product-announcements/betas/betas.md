@@ -3,7 +3,7 @@ filename: _betas
 content-type: reference
 navigation-topic: product-announcements
 title: Beta programs
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Beta programs

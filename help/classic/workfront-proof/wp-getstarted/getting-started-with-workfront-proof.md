@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
 title: Getting started with Workfront Proof
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Getting started with Workfront Proof

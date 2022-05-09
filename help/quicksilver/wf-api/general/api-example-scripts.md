@@ -3,7 +3,7 @@ filename: api-example-scripts
 content-type: api
 navigation-topic: general-api
 title: API example scripts
-description: Following are examples of different programming languages that are used to interact with the Workfront RESTful API. Each example performs the following operations:
+description: Following are examples of different programming languages that are used to interact with the Workfront RESTful API. Each example performs the following operations - EDIT ME.
 ---
 
 # API example scripts

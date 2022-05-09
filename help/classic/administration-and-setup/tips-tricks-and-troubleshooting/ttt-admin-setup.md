@@ -5,7 +5,7 @@ content-type: tips-tricks-troubleshooting;reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Tips, tricks, and troubleshooting for administration and setup
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Tips, tricks, and troubleshooting for administration and setup

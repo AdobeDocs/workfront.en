@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof tech corner
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Workfront Proof tech corner

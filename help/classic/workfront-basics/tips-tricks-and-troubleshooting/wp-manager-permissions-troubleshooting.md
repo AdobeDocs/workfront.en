@@ -5,7 +5,7 @@ product: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Workfront Proof Manager permissions troubleshooting
-description: Following are the permission profiles available in Adobe Workfront for proofing users:
+description: Following are the permission profiles available in Adobe Workfront for proofing users - EDIT ME.
 ---
 
 # Workfront Proof Manager permissions troubleshooting

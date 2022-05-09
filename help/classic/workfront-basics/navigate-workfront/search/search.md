@@ -3,7 +3,7 @@ filename: _search
 content-type: reference
 navigation-topic: navigate-workfront
 title: Adobe Workfront Search
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Adobe Workfront Search

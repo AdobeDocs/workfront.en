@@ -4,7 +4,7 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Configure integrations
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Configure integrations

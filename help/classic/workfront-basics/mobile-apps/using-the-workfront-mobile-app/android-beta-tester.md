@@ -3,7 +3,7 @@ filename: android-beta-tester
 product: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Be an Android beta tester
-description: There are a couple of ways to become a beta tester for the Adobe Workfront app:
+description: There are a couple of ways to become a beta tester for the Adobe Workfront app - EDIT ME.
 ---
 
 # Be an Android beta tester

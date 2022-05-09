@@ -4,7 +4,7 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Scrum board
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Scrum board

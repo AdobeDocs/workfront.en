@@ -4,7 +4,7 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Create proofs
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Create proofs

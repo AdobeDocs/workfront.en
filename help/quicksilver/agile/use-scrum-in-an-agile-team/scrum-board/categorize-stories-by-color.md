@@ -3,7 +3,7 @@ filename: categorize-stories-by-color
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
 title: Categorize stories by color on the Scrum board
-description: The default color association of stories differs depending on whether the story board is located on an iteration or on a project:
+description: The default color association of stories differs depending on whether the story board is located on an iteration or on a project - EDIT ME.
 ---
 
 # Categorize stories by color on the Scrum board

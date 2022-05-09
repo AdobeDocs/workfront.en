@@ -4,7 +4,7 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Calculated custom fields vs. calculated columns
-description: To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can do the following:
+description: To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can do the following - EDIT ME.
 ---
 
 # Calculated custom fields vs. calculated columns

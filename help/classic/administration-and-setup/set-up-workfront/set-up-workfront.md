@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Set up Adobe Workfront
-description: This section contains the following subsections:
+description: This section contains the following subsections - EDIT ME.
 ---
 
 # Set up Adobe Workfront

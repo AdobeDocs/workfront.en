@@ -4,7 +4,7 @@ content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
 title: Create projects
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Create projects

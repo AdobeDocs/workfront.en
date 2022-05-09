@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration;reporting;setup
 navigation-topic: manage-workfront
 title: Configure reports
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Configure reports

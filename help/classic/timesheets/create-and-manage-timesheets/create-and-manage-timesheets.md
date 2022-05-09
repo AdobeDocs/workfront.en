@@ -4,7 +4,7 @@ content-type: reference
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Create and manage timesheets in Adobe Workfront
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Create and manage timesheets in&nbsp;Adobe Workfront

@@ -3,7 +3,7 @@ filename: _define-business-case
 content-type: reference
 navigation-topic: create-and-manage-projects
 title: Define a Business Case
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Define a Business Case

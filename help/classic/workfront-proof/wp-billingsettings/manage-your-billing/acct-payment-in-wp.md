@@ -5,7 +5,7 @@ product: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Account Payment in Workfront Proof
-description: We have the following payment options available:
+description: We have the following payment options available - EDIT ME.
 hidefromtoc: true
 ---
 

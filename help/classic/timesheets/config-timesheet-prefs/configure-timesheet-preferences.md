@@ -4,7 +4,7 @@ content-type: reference
 product-area: timesheets;setup
 navigation-topic: timesheets-navigation-topic
 title: Configure timesheet preferences
-description: This section contains the following articles:
+description: This section contains the following articles - EDIT ME.
 ---
 
 # Configure timesheet preferences

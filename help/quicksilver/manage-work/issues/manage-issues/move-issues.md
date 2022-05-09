@@ -3,7 +3,7 @@ filename: move-issues
 product-area: projects
 navigation-topic: manage-issues
 title: Move issues
-description: You can move issues between the following objects:
+description: You can move issues between the following objects - EDIT ME.
 ---
 
 # Move issues
