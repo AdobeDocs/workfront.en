@@ -3,7 +3,7 @@ filename: grouping-by-calculated-common-values
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Grouping: organize list results by a calculated value common to all objects in the grouping
+title: "Grouping: organize list results by a calculated value common to all objects in the grouping"
 description: You might want to view your tasks grouped by Percent Complete in ranges of 0-25, 26-50, 51-75, 75-99, and 100. You can create a grouping using text mode to do this.
 ---
 

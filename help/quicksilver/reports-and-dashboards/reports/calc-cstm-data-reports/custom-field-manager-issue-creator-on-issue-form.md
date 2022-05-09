@@ -3,7 +3,7 @@ filename: custom-field-manager-issue-creator-on-issue-form
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: Calculated custom field example: display the manager of an issue's creator on the issue custom form
+title: "Calculated custom field example: display the manager of an issue's creator on the issue custom form"
 description: Using a calculated custom field, you can display the name of the manager of an issue's creator on a custom form attached to the issue. Using the same statement, you can build similar calculated fields for projects, issues, and other objects.
 ---
 

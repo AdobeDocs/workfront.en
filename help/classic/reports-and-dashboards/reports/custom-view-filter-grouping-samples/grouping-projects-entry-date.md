@@ -3,7 +3,7 @@ filename: grouping-projects-entry-date
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Grouping: projects by Entry Date
+title: "Grouping: projects by Entry Date"
 description: In this custom project grouping, you can display projects grouped by their Entry Date values.
 ---
 

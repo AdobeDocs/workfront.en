@@ -3,7 +3,7 @@ filename: edit-list-controls-filters-views-groupings
 user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
-title: Edit list controls: filters, views, and groupings
+title: "Edit list controls: filters, views, and groupings"
 description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **This is also linked to this article: https://workfront.zendesk.com/hc/en-us/articles/222450207
 ---
 

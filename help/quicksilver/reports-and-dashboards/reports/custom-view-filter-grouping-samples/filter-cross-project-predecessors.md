@@ -3,7 +3,7 @@ filename: filter-cross-project-predecessors
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Filter: display incomplete cross-project predecessors
+title: "Filter: display incomplete cross-project predecessors"
 description: This task filter returns incomplete cross-project predecessors.
 ---
 

@@ -3,7 +3,7 @@ filename: view-parent-child-relationship-by-indenting-tasks-with-custom-view
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: display the parent-child relationship in a task by indenting the tasks
+title: "View: display the parent-child relationship in a task by indenting the tasks"
 description: You can maintain the distinction of parent - child relationships in an exported task list by adding a custom view to the task list and ensuring this view is selected before you export the list.
 ---
 

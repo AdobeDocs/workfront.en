@@ -3,7 +3,7 @@ filename: view-hours-parent-task-information
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: hours with parent task information
+title: "View: hours with parent task information"
 description: This hour view displays the name of the task where the hours were logged as well as the name of the parent task.
 ---
 

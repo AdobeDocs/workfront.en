@@ -3,7 +3,7 @@ filename: filter-proof-approval-report
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: Filter: Proof Approval report to omit previous proof versions
+title: "Filter: Proof Approval report to omit previous proof versions"
 description: On a Proof Approval report, you can use the Is Current Document Version filter to include only the current versions of proofs waiting for your approval.
 ---
 

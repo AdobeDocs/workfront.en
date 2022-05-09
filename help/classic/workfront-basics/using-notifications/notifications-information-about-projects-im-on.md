@@ -2,7 +2,7 @@
 filename: notifications-information-about-projects-im-on
 content-type: reference
 navigation-topic: notifications
-title: Notifications: Information about projects I'm on
+title: "Notifications: Information about projects I'm on"
 description: The following notifications alert you about activities happening in projects you're working on.
 ---
 

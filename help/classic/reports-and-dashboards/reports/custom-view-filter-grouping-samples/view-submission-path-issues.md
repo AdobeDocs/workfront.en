@@ -3,7 +3,7 @@ filename: view-submission-path-issues
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: submission path for issues
+title: "View: submission path for issues"
 description: You can display the path through which an issue has been submitted in the view of an issue report. The path indicates the Queue, Topic Group, and Queue Topic where the issue was submitted originally.
 ---
 

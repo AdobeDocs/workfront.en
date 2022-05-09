@@ -2,7 +2,7 @@
 filename: notifications-information-about-projects-i-sponsor
 content-type: reference
 navigation-topic: notifications
-title: Notifications: Information about projects I sponsor
+title: "Notifications: Information about projects I sponsor"
 description: The following notifications alert you about activities happening on a project you are sponsoring.
 ---
 

@@ -4,7 +4,7 @@ product: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: Workfront Fusion release activity: Week of January 11, 2021
+title: "Workfront Fusion release activity: Week of January 11, 2021"
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of January 11, 2021.
 ---
 

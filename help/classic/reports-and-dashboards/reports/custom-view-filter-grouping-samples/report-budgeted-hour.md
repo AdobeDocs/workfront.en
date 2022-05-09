@@ -3,7 +3,7 @@ filename: report-budgeted-hour
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Report: Budgeted Hour
+title: "Report: Budgeted Hour"
 description: (NOTE: From Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.)
 ---
 

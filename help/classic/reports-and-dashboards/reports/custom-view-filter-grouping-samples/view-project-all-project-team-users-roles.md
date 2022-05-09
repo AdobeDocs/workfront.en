@@ -3,7 +3,7 @@ filename: view-project-all-project-team-users-roles
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: project with all project team users and roles
+title: "View: project with all project team users and roles"
 description: This project view shows a list of users and job roles assigned to the project team.
 ---
 

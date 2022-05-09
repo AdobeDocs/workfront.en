@@ -3,7 +3,7 @@ filename: view-reporting-elements-used-reports
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: reporting elements used in reports
+title: "View: reporting elements used in reports"
 description: This view displays the View, Filter, and Grouping used to build each report in Adobe Workfront when you use it in a list of reports.
 ---
 

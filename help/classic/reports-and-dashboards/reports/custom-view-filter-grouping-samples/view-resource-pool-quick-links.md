@@ -3,7 +3,7 @@ filename: view-resource-pool-quick-links
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: Resource Pool quick links
+title: "View: Resource Pool quick links"
 description: Alina: Drafted because because this is no longer valid (the links to Edit and Plan are no longer supported).
 hidefromtoc: true
 ---

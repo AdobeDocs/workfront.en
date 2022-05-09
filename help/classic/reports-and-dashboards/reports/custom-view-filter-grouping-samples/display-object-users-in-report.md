@@ -3,7 +3,7 @@ filename: display-object-users-in-report
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Reports or lists: display users associated with an object
+title: "Reports or lists: display users associated with an object"
 description: You can display users, job roles, and teams associated with objects in reports or lists as well as reference them in filters. You cannot group by users, job roles, or teams associated with objects.
 ---
 

@@ -3,7 +3,7 @@ filename: view-display-image-in-view
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: display an image instead of a string in a column
+title: "View: display an image instead of a string in a column"
 description: You can replace the name of an object in a view with an image using text mode. You can also add a link to the image that can open the object it replaces.
 ---
 

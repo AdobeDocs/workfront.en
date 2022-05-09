@@ -2,7 +2,7 @@
 filename: notifications-requests-i-have-made
 content-type: reference
 navigation-topic: notifications
-title: Notifications: Requests I have made
+title: "Notifications: Requests I have made"
 description: The following notifications let you know about requests you have made in Adobe Workfront.
 ---
 

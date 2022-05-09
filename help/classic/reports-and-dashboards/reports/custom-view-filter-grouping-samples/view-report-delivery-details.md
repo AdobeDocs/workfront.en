@@ -3,7 +3,7 @@ filename: view-report-delivery-details
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: report delivery details
+title: "View: report delivery details"
 description: This code is no longer supported. Most fields are available through the UI.
 hidefromtoc: true
 ---

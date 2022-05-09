@@ -3,7 +3,7 @@ filename: view-user-personal-time-off
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: user personal time off
+title: "View: user personal time off"
 description: (NOTE: consider hiding this article because this is not a custom view anymore.)
 ---
 

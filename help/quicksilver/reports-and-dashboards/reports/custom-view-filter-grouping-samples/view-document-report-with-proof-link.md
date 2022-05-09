@@ -3,7 +3,7 @@ filename: view-document-report-with-proof-link
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: View: document report with link to a proof
+title: "View: document report with link to a proof"
 description: (NOTE: this is tagged for QS only >> not possible in classic)
 ---
 

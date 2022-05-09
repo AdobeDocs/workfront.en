@@ -3,7 +3,7 @@ filename: filter-refrence-the-same-field-multiple-times
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Filter: create multiple filter rules that reference the same field ("AND" statements)
+title: "Filter: create multiple filter rules that reference the same field ("AND" statements)"
 description: In the standard mode interface, when attempting to create multiple filters that reference the same field (using the AND qualifier), one of the filters is deleted when you save the report and exit the report builder.
 ---
 

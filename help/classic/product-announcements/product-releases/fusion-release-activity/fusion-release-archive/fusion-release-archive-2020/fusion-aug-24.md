@@ -4,7 +4,7 @@ product: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: Workfront Fusion release activity: Week of August 24, 2020
+title: "Workfront Fusion release activity: Week of August 24, 2020"
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of August 17, 2020.
 ---
 
