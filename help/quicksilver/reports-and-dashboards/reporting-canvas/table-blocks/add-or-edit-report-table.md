@@ -8,8 +8,6 @@ A table displays field information in columns that can be filtered, grouped, and
 
 Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas Beta](../../../product-announcements/betas/reporting-canvas-beta.md).
 
-##  
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

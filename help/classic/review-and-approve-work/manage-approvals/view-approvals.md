@@ -101,8 +101,6 @@ You can view or manage approvals from the following areas:
 
    ![](assets/approvals-i've-submitted-section-in-home-350x532.png)
 
-##
-
 ## Review work you submit for approval&nbsp;in the My&nbsp;Work area
 
 <!--

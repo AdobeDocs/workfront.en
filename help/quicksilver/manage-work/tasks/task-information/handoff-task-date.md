@@ -9,8 +9,6 @@ description: The Handoff Date is the date a task becomes available for work. Thi
 
 # Task Handoff Date overview
 
-##  
-
 The Handoff Date is the date a task becomes available for work. This typically means that its predecessors have resolved and the assignee of the task can start working on it.
 
 >[!TIP]

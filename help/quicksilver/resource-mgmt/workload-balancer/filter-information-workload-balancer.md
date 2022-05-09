@@ -259,8 +259,6 @@ You can duplicate and edit a filter to create a new one.
 
    The original filter remains unchanged and the duplicated filter is saved as a new filter.
 
-##
-
 ## Edit an existing filter in the Workload Balancer {#edit-an-existing-filter-in-the-workload-balancer}
 
 You can edit a saved filter in the Workload Balancer.
@@ -293,8 +291,6 @@ You can edit a saved filter in the Workload Balancer.
 1. Click&nbsp;**Save.**
 
    The results update in the Workload Balancer on the left and the filter is updated with the new information you selected.
-
-##
 
 ## Delete a saved filter in the Workload Balancer {#delete-a-saved-filter-in-the-workload-balancer}
 

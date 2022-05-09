@@ -40,8 +40,6 @@ As an Adobe Workfront administrator, you can create another Workfront administra
 >* [Access of a Workfront administrator vs. access of a Plan user with administrative rights](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights)in this article
 >
 
-##
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 

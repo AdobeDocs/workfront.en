@@ -123,8 +123,6 @@ You can find limited information about the program in its header.
 
 The following information displays in the header of a program:
 
-##
-
 <table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
  <col> 
  <col> 

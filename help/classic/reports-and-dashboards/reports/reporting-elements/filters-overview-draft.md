@@ -261,8 +261,6 @@ When you reach this limit within the builder, you can select fields that belong 
 
 You cannot overcome this limitation when you build your filter in text mode.&nbsp;
 
-###  
-
 &nbsp;
 
 <![CDATA[ ]]>

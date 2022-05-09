@@ -132,6 +132,4 @@ To build a report for projects which are pending approval of their Business Case
 
 ##  Approve the Business Case by accessing the Requested Projects subtab in a portfolio
 
-##  
-
 For more information about reviewing projects in the Requested Projects subtab, see the article [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

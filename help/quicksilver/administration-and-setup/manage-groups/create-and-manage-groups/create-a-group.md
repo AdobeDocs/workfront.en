@@ -190,5 +190,3 @@ To create a new top-level group by copying a group or subgroup:
 
 1. Click **Create Group**.
 
-##  
-

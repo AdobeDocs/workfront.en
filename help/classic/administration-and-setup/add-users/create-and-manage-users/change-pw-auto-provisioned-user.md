@@ -35,8 +35,6 @@ Because GUID user names can be difficult to use, we recommend you first change a
 >* Query the Workfront API.
 >
 
-##  
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 

@@ -90,8 +90,6 @@ You can view or manage approvals from the following areas:
 
    ![](assets/approvals-i've-submitted-section-in-home-nwe-350x401.png)
 
-##
-
 ## View the approval status of an object
 
 You can view the approval status of an object in the following sections of the object:

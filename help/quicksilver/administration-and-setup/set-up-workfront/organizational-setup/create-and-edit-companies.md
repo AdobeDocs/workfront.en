@@ -125,8 +125,6 @@ To add or edit a company:
 
    If you are editing an existing company, click **Save Changes**.
 
-##
-
 ## Manage company memberships
 
 For information about managing memberships for an existing company, see [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).

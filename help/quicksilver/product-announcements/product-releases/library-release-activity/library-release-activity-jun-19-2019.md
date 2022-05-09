@@ -24,5 +24,3 @@ Now you can add a cover image to a collection to make it easier to identify its 
 
 If you don't select a cover image for a collection, Workfront Library selects a cover image based on the items contained in the collection. You can change the cover image for collections to which you have Manage permissions. For more information, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
 
-##  
-

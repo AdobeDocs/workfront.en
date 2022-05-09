@@ -25,8 +25,6 @@ For more information about integrating Workfront with an SSO system, see [Overvi
 >
 >This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-##  
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 

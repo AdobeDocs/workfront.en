@@ -104,5 +104,3 @@ When you share any object with another user, the recipient’s rights on it are 
 * The permissions that you grant to your recipient for the object
 * The recipient’s access level settings for the object's type
 
-##  
-

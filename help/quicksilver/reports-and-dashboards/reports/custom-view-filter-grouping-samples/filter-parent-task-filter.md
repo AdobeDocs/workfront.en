@@ -46,8 +46,6 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-##
-
 ## Display tasks with no children (they could have a parent)
 
 You can apply the following filter to a task report to display tasks with no children.&nbsp;They could have parents of their own and be children of other tasks.

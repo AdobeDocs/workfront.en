@@ -17,8 +17,6 @@ When you are viewing a group that you manage in the Groups area, you can view an
 
 If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).
 
-##  
-
 ## Access requirements
 
 You must have the following to perform the steps in this article:

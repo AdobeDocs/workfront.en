@@ -19,8 +19,6 @@ We have introduced a new design for the Edit Object box to match the new Adobe W
 >* ```Issues``` 
 >
 
-##
-
 ## Benefits of the new Edit Object box
 
 ![](assets/edit-project-box-nwe-350x208.png)

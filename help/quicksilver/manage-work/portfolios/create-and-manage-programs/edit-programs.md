@@ -41,8 +41,6 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-###
-
 ## Edit programs
 
 1. Go to the **Main Menu**.

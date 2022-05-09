@@ -211,8 +211,6 @@ To create a single-use approval process:
    >-->   >
    >
 
-##
-
 ## Remove or delete an approval process from a work item
 
 You can remove a global or group-level approval process or you can delete a single-use approval process from a project, task, or issue previously associated with it.

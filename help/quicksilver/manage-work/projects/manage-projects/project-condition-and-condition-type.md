@@ -10,8 +10,6 @@ description: The project Condition is a visual representation of how the project
 
 # Overview of Project Condition and Condition Type
 
-##  
-
 The project Condition is a visual representation of how the project is progressing. It is a reportable variable determined by the relationship between the planned, projected, and estimated dates of the project.
 
 ## Project Condition overview

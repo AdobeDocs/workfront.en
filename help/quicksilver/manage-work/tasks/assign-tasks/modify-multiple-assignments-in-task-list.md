@@ -50,8 +50,6 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-##
-
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>When to modify user assignments on tasks</h2>

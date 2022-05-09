@@ -20,8 +20,6 @@ You can create, edit, and assign timesheet profiles that generate recurring time
 
 For more information about creating a timesheet manually, see [Create a single-use timesheet](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
-##  
-
 ## Access requirements
 
 You must have the following to perform the steps in this article:

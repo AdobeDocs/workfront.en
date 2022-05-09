@@ -4,8 +4,6 @@
 
 A line visualization can help you quickly tell a story about your data by enhancing the narrative and highlighting important information using a series of data horizontal points with a continuous line.
 
-##  
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

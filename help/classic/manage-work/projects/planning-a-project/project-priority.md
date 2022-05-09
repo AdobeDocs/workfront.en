@@ -60,8 +60,6 @@ The following are types of priorities you can use to rank projects in Adobe Work
 
   For more information about prioritizing projects in the Resource Planner, see the "Project Planning Priority" section in the article [Resource Planner navigation overview](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-##
-
 ## Considerations about project Priority {#considerations-about-project-priority}
 
 You can associate a Priority with projects in Workfront. Tasks and issues also have Priorities.&nbsp;Indicating a priority for the project communicates to everyone in the system how important that project is.
