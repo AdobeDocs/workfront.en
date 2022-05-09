@@ -368,7 +368,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-``` ```**Example: **``````  ![](assets/wfp-api-module-example-350x586.png)
+**Example:**  ![](assets/wfp-api-module-example-350x586.png)
 
 #### Download Proof {#download-proof}
 

@@ -95,8 +95,8 @@ To configure the integration of Workfront SSO with Azure Active Directory, you n
    ![](assets/ad-enable-sso-350x44.png)
 
 1. In the **Workfront Domain and URLs** section, specify the following information:  
-   -**Sign-on URL**: your Workfront URL using the following pattern: https://<companyname>.my.workfront.com  
-   - **Identifier**: your Workfront SAML 2.0 URL using the following pattern: https://<companyname>.my.workfront.com/SAML2
+   -**Sign-on URL**: your Workfront URL using the following pattern: https://`<companyname>`.my.workfront.com  
+   - **Identifier**: your Workfront SAML 2.0 URL using the following pattern: https://`<companyname>`.my.workfront.com/SAML2
 
    ![](assets/tutorial-workfront-url-350x47.png)
 
@@ -121,7 +121,7 @@ To configure the integration of Workfront SSO with Azure Active Directory, you n
 
 1. Select the check box next to **Service Provider ID**, then specify that ID using the following format:
 
-   https://<companyname>.my.workfront.com/SAML2
+   https://`<companyname>`.my.workfront.com/SAML2
 
 1. Paste the **SAML Single Sign-On Service URL** into the **Login Portal URL** field.
 

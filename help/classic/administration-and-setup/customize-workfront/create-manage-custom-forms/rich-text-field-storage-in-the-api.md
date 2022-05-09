@@ -17,7 +17,7 @@ If an object such as a project, issue, or task contains rich text, it is stored 
 
 Requesting text information from a project object that contains rich text can be done using the field **parameterValues**.
 
-``` ```**Example: **`````` A simple HTTP request could resemble the following:
+**Example:** A simple HTTP request could resemble the following:
 <pre>https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*</pre>If this example project contained a custom form with 3 custom fields: calc field, paragraph text, and rich 1. Then the above request would return a response that resembles the following, where the field "rich 1" is a rich text parameter field and the text value is “**Hello** *World!*”:
 <pre>{
 	Data: {

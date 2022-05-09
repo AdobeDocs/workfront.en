@@ -27,7 +27,9 @@ The implementation team would rather import project and task information for act
 
 The following table displays four Projects and their basic details that need to be mapped into the Kick Start file formats.
 
+<!--WRITER
 ```<font color="#666666">This scenario assumes users are already imported into </font>```Adobe Workfront```<font color="#666666">. If users are not already in </font>```Workfront```<font color="#666666">, subsitute different names or complete the Kick Start Scenario with users prior to this scenario.&nbsp;</font>```
+-->
 
 1. Implement Workfront.
 

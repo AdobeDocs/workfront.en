@@ -55,7 +55,7 @@ GET /customAction
 
 A JSON string indicating success or failure, as specified in the Error Handling section below. On failure (i.e. status = “failure”), Workfront will display the provided error message to the user.
 
-``` ```**Example: **``````https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Example:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 response
 <pre>{</pre><pre>status: “success”</pre><pre>}</pre>

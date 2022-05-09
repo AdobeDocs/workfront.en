@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Restore deleted items
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Restore deleted items
 ---
 
 # Restore deleted items

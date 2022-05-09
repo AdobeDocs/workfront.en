@@ -325,7 +325,7 @@ Each row of the sheet corresponds to a unique object.
    
    * If the object you are importing already exists in the Workfront system (and you typed**FALSE** in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
    
-     ``` ```**Example: **`````` For a project, the value displayed in the **setGroupID** column must one of the following:
+     **Example:** For a project, the value displayed in the **setGroupID** column must one of the following:
 
       * The GUID for an existing Group in your Workfront instance
       * The value (number) in the ID column on the **GROUP Group** sheet if you are creating a new Group during the import
@@ -340,7 +340,7 @@ Each row of the sheet corresponds to a unique object.
    * In the column **setCategoryID**, type the GUID of the existing custom form on which this custom field resides. This field is required when importing custom data.
    * If you need to add multiple data values in the custom field, (such as radio buttons, check boxes, or lists) use the vertical bar custom data delimiter "|" listed in the Preferences tab to separate the values.
 
-     ``` ```**Example: **``````Type A|D under the DE:Departments column to populate department A and department D in your custom form.
+     **Example:** Type A|D under the DE:Departments column to populate department A and department D in your custom form.
 
 ### Include dates  {#include-dates}
 

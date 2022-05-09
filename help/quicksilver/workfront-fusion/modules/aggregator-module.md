@@ -112,7 +112,7 @@ The following image shows a typical setup of the aggregator module :
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The video below is module 2 of the 3 part lesson titled Iterator and Array Aggregator. It is a continuation of module 1 (video link) and using a sample scenario, explains when to use an Array aggregator and what to do with the output.</p>
 -->
 
-``` ```**Example: **`````` Use Case: Zipping all email attachments and uploading the ZIP to Dropbox
+**Example:** Use Case: Zipping all email attachments and uploading the ZIP to Dropbox
 
 The scenario below shows how to:
 

@@ -61,7 +61,7 @@ First you need to make sure that you retain any custom form data on a task or is
 
 1. From the **Form Type** drop-down menu, select the type of object you want to create the new custom form for
 
-   ``` ```**Example: **``````If you want to transfer the custom form data to a project, select Project.
+   **Example:** If you want to transfer the custom form data to a project, select Project.
 
 1. Click **Copy Form**.
 

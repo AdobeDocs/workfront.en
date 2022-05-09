@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with Active Directory
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Configure Adobe Workfront with Active Directory
 ---
 
 # Configure Adobe Workfront with Active Directory

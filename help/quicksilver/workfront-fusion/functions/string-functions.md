@@ -80,13 +80,13 @@ Removes all non-ascii characters from a text string.
 
 Transforms text to base64.
 
-``` ```**Example: **`````` <pre><span class="function">base64(</span>workfront<span class="function">)</span></pre>Returns: d29ya2Zyb250==  
+**Example:** <pre><span class="function">base64(</span>workfront<span class="function">)</span></pre>Returns: d29ya2Zyb250==  
 
 ## capitalize (text)
 
 Converts the first character in a text string to uppercase.
 
-``` ```**Example: **`````` <pre><span class="function">capitalize(</span>workfront<span class="function">)</span></pre>Returns: Workfront  
+**Example:** <pre><span class="function">capitalize(</span>workfront<span class="function">)</span></pre>Returns: Workfront  
 
 ## contains (text; search string)
 
@@ -118,7 +118,7 @@ Verifies whether text contains the search string.
 
 Decodes special characters in a URL to text.
 
-``` ```**Example: **`````` <pre><span class="function">decodeURL(</span>Automate%20your%20workflow<span class="function">)</span></pre>Returns: Automate your workflow  
+**Example:** <pre><span class="function">decodeURL(</span>Automate%20your%20workflow<span class="function">)</span></pre>Returns: Automate your workflow  
 
 ## encodeURL (text)
 
@@ -128,13 +128,13 @@ Encodes special characters in some text to a valid URL address.
 
 Escapes all HTML tags in text.
 
-``` ```**Example: **`````` <pre><span class="function">escapeHTML(</span><b>Hello</b><span class="function">)</span></pre>Returns: &lt;b&gt;Hello&lt;/b&gt;  
+**Example:** <pre><span class="function">escapeHTML(</span><b>Hello</b><span class="function">)</span></pre>Returns: &lt;b&gt;Hello&lt;/b&gt;  
 
 ## escapeMarkdown(text)
 
 Escapes all Markdown tags in text.
 
-``` ```**Example: **`````` ```escapeMarkdown(```
+**Example:** ```escapeMarkdown(```
 
 ```
 # Header
@@ -208,13 +208,13 @@ Returns the position of the first occurrence of a specified value in a string. T
 
 Returns the length of text string (number of characters) or binary buffer (buffer size in bytes).
 
-``` ```**Example: **`````` <pre><span class="function">length(</span>hello<span class="function">)</span></pre>Returns: 5  
+**Example:** <pre><span class="function">length(</span>hello<span class="function">)</span></pre>Returns: 5  
 
 ## lower (text)
 
 Converts all alphabetical characters in a text string to lowercase.
 
-``` ```**Example: **`````` ```lower(```Hello ```)```
+**Example:** ```lower(```Hello ```)```
 
 Returns: hello
 
@@ -222,7 +222,7 @@ Returns: hello
 
 Calculates the md5 hash of a string.
 
-``` ```**Example: **`````` ```md5(```Workfront ```)```
+**Example:** ```md5(```Workfront ```)```
 
 Returns: 1448bbbeaa7a9b8091d426999f1f666b
 
@@ -230,7 +230,7 @@ Returns: 1448bbbeaa7a9b8091d426999f1f666b
 
 Replaces the search string with the new string.
 
-``` ```**Example: **`````` <pre><span class="function">replace(</span>Hello World<span class="function">;</span>Hello<span class="function">;</span>Hi<span class="function">)</span></pre>Returns: Hi World  Regular expressions (enclosed in
+**Example:** <pre><span class="function">replace(</span>Hello World<span class="function">;</span>Hello<span class="function">;</span>Hi<span class="function">)</span></pre>Returns: Hi World  Regular expressions (enclosed in
 
 ```
 /.../
@@ -256,7 +256,7 @@ m
 
 ) appended:
 
-``` ```**Example: **``````  ![](assets/replace---1-350x31.png)
+**Example:**  ![](assets/replace---1-350x31.png)
 
 All of these numbers X X X X are replaced with X  The replacement string can include the following special replacement patterns:
 
@@ -299,13 +299,13 @@ For more information on regular expressions, see [Text parser](../../workfront-f
 
 Calculates the sha1 hash of a string. If the key argument is specified, sha1 HMAC hash is returned instead. Supported encodings: "hex" (default), "base64" or "latin1."
 
-``` ```**Example: **`````` <pre><span class="function">sha1(</span>workfront<span class="function">)</span></pre>Returns: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f  
+**Example:** <pre><span class="function">sha1(</span>workfront<span class="function">)</span></pre>Returns: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f  
 
 ## sha256 (text; [encoding]; [key])
 
 Calculates the sha256 hash of a string. If the key argument is specified, sha256 HMAC hash is returned instead. Supported encodings: "hex" (default), "base64" or "latin1".
 
-``` ```**Example: **`````` <pre><span class="function">sha256(</span>workfront<span class="function">)</span></pre>Returns: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc  
+**Example:** <pre><span class="function">sha256(</span>workfront<span class="function">)</span></pre>Returns: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc  
 
 ## sha512 (text; [output encoding]; [key]; [key encoding])
 
@@ -325,19 +325,19 @@ Supported key encodings:
 
 When using "binary" key encoding, a key must be a buffer, not a string.
 
-``` ```**Example: **`````` <pre><span class="function">sha512(</span>workfront<span class="function">)</span></pre>Returns: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19  
+**Example:** <pre><span class="function">sha512(</span>workfront<span class="function">)</span></pre>Returns: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19  
 
 ## split (text; separator)
 
 Splits a string into an array of strings by separating the string into substrings.
 
-``` ```**Example: **`````` <pre><span class="function">split(</span>John, George, Paul<span class="function">;</span>,<span class="function">)</span></pre>
+**Example:** <pre><span class="function">split(</span>John, George, Paul<span class="function">;</span>,<span class="function">)</span></pre>
 
 ## startcase (text)
 
 Capitalizes the first letter of every word and lower cases all other letters.
 
-``` ```**Example: **`````` ```startcase(```
+**Example:** ```startcase(```
 
 ```
 hello WORLD
@@ -351,7 +351,7 @@ Returns: Hello World
 
 Removes all HTML tags from text.
 
-``` ```**Example: **`````` ```stripHTML(```
+**Example:** ```stripHTML(```
 
 ```
 <b>Hello</b>
@@ -431,7 +431,7 @@ Removes space characters at the start or end of the text.
 
 Converts all alphabetical characters in a text string to uppercase.
 
-``` ```**Example: **`````` ```upper(```
+**Example:** ```upper(```
 
 ```
 Hello

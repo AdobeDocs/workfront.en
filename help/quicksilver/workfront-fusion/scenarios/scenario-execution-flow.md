@@ -67,7 +67,7 @@ If the bundles process correctly throughout all of the modules, the scenario is 
 
 ### Example: Workfront Fusion for Work Automation
 
-``` ```**Example: **`````` In a scenario that watches for incoming requests in Workfront and then converts them to Workfront projects, data would flow as follows.
+**Example:** In a scenario that watches for incoming requests in Workfront and then converts them to Workfront projects, data would flow as follows.
 
 The scenario's first step, performed by the first module, is to watch for requests. Each request that comes in is considered one bundle. If the module runs without finding any bundles, the scenario ends after the first module.
 
@@ -77,7 +77,7 @@ If the first module returns a bundle, the bundle passes through the rest of the 
 
 ### Example: Workfront Fusion for Work Automation and Integration
 
-``` ```**Example: **`````` In a scenario that downloads documents from Adobe Workfront and sends them to a folder in Dropbox, data would flow as follows.
+**Example:** In a scenario that downloads documents from Adobe Workfront and sends them to a folder in Dropbox, data would flow as follows.
 
 The scenario's first step, performed by the first module, is to watch for bundles (documents). In this example, the module watches for bundles in Workfront. If it does not return a bundle, the scenario ends after the first module.
 

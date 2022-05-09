@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create custom expense types
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Create custom expense types
 ---
 
 # Create custom expense types

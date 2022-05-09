@@ -97,7 +97,7 @@ You can place Searches at the beginning, middle, or end of a scenario.
 
 Scenarios can contain an unlimited number of Searches.
 
-``` ```**Example: **``````**Monday > List pulses in all boards** returns all of an account's pulses
+**Example:****Monday > List pulses in all boards** returns all of an account's pulses
 
 ## Trigger modules
 
@@ -166,6 +166,6 @@ You can place Iterators only in the middle of a scenario.
 
 Scenarios can contain an unlimited number of iterators.
 
-``` ```**Example: **``````**Email > Retrieve attachments** breaks an array of attachments into separate bundles
+**Example:****Email > Retrieve attachments** breaks an array of attachments into separate bundles
 
 For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md) and [Map an array in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-an-array.md).

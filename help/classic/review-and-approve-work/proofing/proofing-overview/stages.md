@@ -44,7 +44,7 @@ For instructions on creating stages for a proof with an automated workflow, see 
 
 When you assign different proofing deadlines to reviewers on a proof, the system creates a stage for each deadline and groups&nbsp;the reviewers for each deadline in the corresponding stage.&nbsp;
 
-``` ```**Example: **``````For example, if you create a proof with four reviewers:
+**Example:** For example, if you create a proof with four reviewers:
 
 * For reviewers Olivia and Tony, you specify a deadline for 14:00 a few days from now.
 * For Aaron and Amy, you specify a deadline for 17:00 a few days later.

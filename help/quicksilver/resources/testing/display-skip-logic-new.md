@@ -8,7 +8,7 @@ The multiple-choice field types are Dropdown, Checkboxes, and Radio Buttons.
 
 * **Display logic**: You configure a display logic rule on the field, widget, or section that you want the user to see only after they select a specific choice in a preceding multiple-choice field. 
 
-  ``` ```**Example: **`````` You are creating a Marketing Content Request form where people in your organization can request a new logo, website update, brochure, or other kinds of marketing content. Based on type of content that the user wants, you need to prompt them for different kinds of details, such as colors and design ideas if they need a logo, or a list of product features if they need a brochure.
+  **Example:** You are creating a Marketing Content Request form where people in your organization can request a new logo, website update, brochure, or other kinds of marketing content. Based on type of content that the user wants, you need to prompt them for different kinds of details, such as colors and design ideas if they need a logo, or a list of product features if they need a brochure.
 
   On the field asking about colors and details for a new logo, you can add a display logic rule that displays that field only after the user selects the Logo radio button in the first field.
 
@@ -20,7 +20,7 @@ The multiple-choice field types are Dropdown, Checkboxes, and Radio Buttons.
 
 * **Skip logic rule**: You configure this rule to hide parts of a form that the user doesn't need. When the user selects a specific item in a preceding multiple-choice field, the skip logic rule skips them to the end of the form or to a custom field, widget, or section that you want them to see. 
 
-  ``` ```**Example: **`````` Someone uses the Marketing Content Request form above to ask for a white paper, which are provided by Sales, not Marketing. For this user, a skip logic rule can hide the question prompting for details and skip to a line of text referring them to the department they need.
+  **Example:** Someone uses the Marketing Content Request form above to ask for a white paper, which are provided by Sales, not Marketing. For this user, a skip logic rule can hide the question prompting for details and skip to a line of text referring them to the department they need.
 
   ![](assets/skip-logic-white-paper-request-350x221.png)
 

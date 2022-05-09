@@ -12,7 +12,7 @@ A Cross-Project Predecessor is a task that another task (called a successor task
 
 Like predecessors within a single project, Adobe Workfront allows for tasks to be dependent on tasks in other projects.
 
-``` ```**Example: **``````If an excavating company has only one backhoe, and two concurrent projects have tasks that require the use of the backhoe, the project manager can make the task in the first project dependent on the task in the second project to illustrate that the excavating can start when the previous project will relinquish the backhoe. 
+**Example:** If an excavating company has only one backhoe, and two concurrent projects have tasks that require the use of the backhoe, the project manager can make the task in the first project dependent on the task in the second project to illustrate that the excavating can start when the previous project will relinquish the backhoe. 
 When linking projects through cross-project predecessors, the dates of the primary project (the one that has the predecessor task) will impact the secondary project (the one that has the successor task).
 
 >[!TIP]

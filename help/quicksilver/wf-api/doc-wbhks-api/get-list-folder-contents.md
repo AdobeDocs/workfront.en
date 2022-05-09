@@ -27,7 +27,7 @@ GET /files
 
 JSON containing a list of files and folders. The metadata for each item is the same that returned by the /metadata endpoint.
 
-``` ```**Example: **``````https://www.acme.com/api/files?parentId=123456
+**Example:** https://www.acme.com/api/files?parentId=123456
 <pre>[ 
 {
 title:"Folder A",< br />

@@ -18,7 +18,7 @@ There are three types of contacts that exist in a proofing environment:
 
 Because Members can't be converted to users, their ability to tag people in proof comments is limited to users from *their original organization*.
 
-``` ```**Example: **``````Company A invites an outside user to review a proof. This user already exists in separate proof environment, Company B.
+**Example:** Company A invites an outside user to review a proof. This user already exists in separate proof environment, Company B.
 
 &nbsp;
 

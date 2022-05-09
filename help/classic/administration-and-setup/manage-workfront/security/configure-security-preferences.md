@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Configure system security preferences
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Configure system security preferences
 ---
 
 # Configure system security preferences

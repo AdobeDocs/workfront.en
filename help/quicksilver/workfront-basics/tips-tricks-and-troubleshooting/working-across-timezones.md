@@ -40,11 +40,11 @@ The time zone in your user profile should be configured for the location where y
 
   If users in multiple time zones are assigned to an object, Workfront converts the object times for everyone involved, using the time zone configured in each user profile.
 
-  ``` ```**Example: **``````In the Eastern Standard Time (EST) zone where you work, you set a task to start at 4:00 PM and assign it to users working in the Pacific Standard Time (PST) zone. For those users, the start time displays as 1:00 PM. If it were to display it as 4:00 PM, they would start working on it three hours late.
+  **Example:** In the Eastern Standard Time (EST) zone where you work, you set a task to start at 4:00 PM and assign it to users working in the Pacific Standard Time (PST) zone. For those users, the start time displays as 1:00 PM. If it were to display it as 4:00 PM, they would start working on it three hours late.
 
   If the object creator doesn't note the difference between the assignees' time zones and make the necessary adjustments when setting object times, or the assignees don't note that difference, it can be hard to get the timing right while everyone collaborates on the object.
 
-  ``` ```**Example: **``````You configure a one-day task to start at 9:00 AM EST, forgetting that some users on the task work in the PST zone. For them, the start time 6:00 AM. Because they won't start working on it until 9:00 their time (noon your time), the task begins and finishes three hours late.
+  **Example:** You configure a one-day task to start at 9:00 AM EST, forgetting that some users on the task work in the PST zone. For them, the start time 6:00 AM. Because they won't start working on it until 9:00 their time (noon your time), the task begins and finishes three hours late.
 
 For information configuring your time zone in your user profile, see [Configure My Settings](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
@@ -80,7 +80,7 @@ After schedules are created for your organization, you can associate them with p
 
   This can cause tasks dates to change.
 
-  ``` ```**Example: **``````An EST user is assigned to a one-day task scheduled to start at 9:00 AM PST, which is noon EST. Because the EST user has only 2 working hours remaining for the day, the task completion date extends by about 6 hours into the next working day.
+  **Example:** An EST user is assigned to a one-day task scheduled to start at 9:00 AM PST, which is noon EST. Because the EST user has only 2 working hours remaining for the day, the task completion date extends by about 6 hours into the next working day.
 
   For information about the Project&nbsp;Preferences area of Setup, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 

@@ -677,7 +677,7 @@ Allows you to perform a custom API call.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` List Tasks
+**Example:** List Tasks
 
 The following API call returns all tasks from your CloudFront account:
 
@@ -728,7 +728,7 @@ If the CloudConvert > Convert a File throws one of the following errors:
  </tbody> 
 </table>
 
-``` ```**Example: **`````` Converting a video from MOV to MP4 format
+**Example:** Converting a video from MOV to MP4 format
 
 1. Visit [https://cloudconvert.com/video-converter](https://cloudconvert.com/video-converter)
 1. Click **Select File** and choose your sample MOV file.

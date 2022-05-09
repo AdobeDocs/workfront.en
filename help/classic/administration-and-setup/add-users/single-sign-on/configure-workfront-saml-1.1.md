@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
 title: Configure Adobe Workfront with SAML 1.1
-description: *** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Configure Adobe Workfront with SAML 1.1
 ---
 
 # Configure Adobe Workfront with SAML 1.1

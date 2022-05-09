@@ -386,7 +386,7 @@ To add a reference to a collection&nbsp;in the&nbsp;custom prompt of a report:
 
    For a list of modifiers, see&nbsp; [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   ``` ```**Example: **`````` For example, to build a project report with a custom prompt where you want to display only projects that have at least one task assigned to a specific user, use the code below:
+   **Example:** For example, to build a project report with a custom prompt where you want to display only projects that have at least one task assigned to a specific user, use the code below:
 
    ```
    tasks:assignedToID=57cf1b7a000077c9f02f66cb09c8f86c&tasks:assignedToID_Mod=in

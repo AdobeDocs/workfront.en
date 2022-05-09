@@ -72,7 +72,7 @@ Accessing the Edit Object box is similar for all objects where this functionalit
 
    The **Edit Object** box opens. 
 
-   ``` ```**Example: **`````` For example, the Edit Project box opens.
+   **Example:** For example, the Edit Project box opens.
 
    ![](assets/edit-project-box-nwe-350x208.png)
 

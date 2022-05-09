@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: View restored item
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: View restored item
 ---
 
 # View restored item

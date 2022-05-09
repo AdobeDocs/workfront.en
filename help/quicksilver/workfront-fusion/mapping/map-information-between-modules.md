@@ -68,7 +68,7 @@ To explore the output of a module:
 
    A log containing all of the module's phases displays. You can find the bundle or bundles outputted by a module's operation phase under the **Output** heading. Each bundle contains its items and each item's values.
 
-``` ```**Example: **`````` This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as 
+**Example:** This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as 
 
 ```
 Date

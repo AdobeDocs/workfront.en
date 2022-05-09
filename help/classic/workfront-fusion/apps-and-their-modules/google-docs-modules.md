@@ -579,7 +579,7 @@ This action module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` The following API call retrieves the details for the specified document in your Google Docs:
+**Example:** The following API call retrieves the details for the specified document in your Google Docs:
 
 **URL:**
 

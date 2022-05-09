@@ -13,7 +13,7 @@ Uploading a file to a document storage provider is a two-step process that requi
 
 Added to version 1.1 of this spec, the document ID and document version ID can be used to retrieve extra information from Workfront.
 
-``` ```**Example: **``````If the document management system wants extra information about the document, the webhook implementation code could use the document ID to retrieve that information using Workfront’s RESTful API. As a good practice, this information could come from custom data fields on the document and it’s containing task, issue, or project.
+**Example:** If the document management system wants extra information about the document, the webhook implementation code could use the document ID to retrieve that information using Workfront’s RESTful API. As a good practice, this information could come from custom data fields on the document and it’s containing task, issue, or project.
 
 ## Part 1
 
@@ -56,7 +56,7 @@ POST /uploadInit
 
 The metadata for the file, as defined by the /metadata endpoint.
 
-``` ```**Example: **``````https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
+**Example:** https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
 
 response
 

@@ -612,7 +612,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` The following API call returns the first 10 files from the /Text files folder in your Dropbox account:
+**Example:** The following API call returns the first 10 files from the /Text files folder in your Dropbox account:
 
 URL:
 <pre>/2/files/list_folder</pre>Body:

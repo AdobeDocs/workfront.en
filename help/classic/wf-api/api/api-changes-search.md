@@ -25,21 +25,21 @@ In order to reliably fetch the full list of statuses available for a group, the 
 
 For Project Group Status:
 
-``` ```**Example: **``````<pre>/attask/api/<VERSION>/CSTEM/projectGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d</pre>
+**Example:**<pre>/attask/api/<VERSION>/CSTEM/projectGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d</pre>
 
 For Task Group Status:
 
-``` ```**Example: **``````<pre>/attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d</pre>
+**Example:**<pre>/attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d</pre>
 
 For Issue Group Status:
 
-``` ```**Example: **``````<pre>/attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d</pre>
+**Example:**<pre>/attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d</pre>
 
 All three of these endpoints accept the **includeHidden=true** parameter in order to fetch the hidden project/task/issue statuses of a given group. Modeling your status search queries after these best practice examples will ensure that all group-status information is included with each response.
 
 Here is an example of a status search query being made to a task group that includes a system-level locked status **Custom_1** and an unlocked status **Custom_2**:
 
-``` ```**Example: **``````/attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d286d000004fc8f53942de697a868
+**Example:**/attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d286d000004fc8f53942de697a868
 
 Using this format ensures that your response will include all of the following:
 
@@ -53,7 +53,7 @@ Under the legacy system a status search query would copy all of the system statu
 
 For example, this query (which does not follow the current recommended best practices):
 
-``` ```**Example: **``````<pre>/attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK</pre>
+**Example:**<pre>/attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK</pre>
 
 Would have the following response under the legacy system, which includes all object statuses:
 
@@ -64,7 +64,7 @@ Failing to use the updated best practice methods to make status search queries a
 
 Here is an example of what this outdated request structure returns after the legacy system has been updated:
 
-``` ```**Example: **``````<pre>/attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK</pre>
+**Example:**<pre>/attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK</pre>
 
 Notice that this response includes only group-specific statuses and leaves out those statuses which were declared at system-level:
 

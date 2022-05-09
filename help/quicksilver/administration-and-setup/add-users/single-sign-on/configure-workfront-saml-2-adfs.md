@@ -113,7 +113,7 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
 ### Upload the metadata file and test the connection {#upload-the-metadata-file-and-test-the-connection}
 
-1. Open a browser and navigate to https://*<yourserver>*/FederationMetadata/2007-06/FederationMetadata.xml.
+1. Open a browser and navigate to https://`<yourserver>`/FederationMetadata/2007-06/FederationMetadata.xml.
 
    This should download a Metadata file FederationMetadata.xml file.
 

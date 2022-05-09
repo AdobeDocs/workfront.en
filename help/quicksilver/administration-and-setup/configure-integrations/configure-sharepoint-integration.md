@@ -5,7 +5,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
 title: Configure the SharePoint integration
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Configure the SharePoint integration
 ---
 
 # Configure the SharePoint integration
@@ -130,7 +130,7 @@ This site app must have Write permission to any site collections that users need
 
 1. Add '/_layouts/15/appinv.aspx' to the URL in Sharepoint.
 
-   ``` ```**Example: **``````
+   **Example:**
 
    ```
    https://mycompany.sharepoint.com/sites/mysite/_layouts/15/appinv.aspx

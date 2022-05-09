@@ -63,7 +63,7 @@ There are two kinds of filtering that can take place on an error handler route.
 
 You can use a filter to control which errors are handled by the error handler route. This allows you to process only specific types of errors. If an error does not pass through the filter, it will be treated as if there is no error handler route defined for the given module.
 
-``` ```**Example: **``````  ![](assets/filter-error-handling-350x238.png)
+**Example:**  ![](assets/filter-error-handling-350x238.png)
 
 ### Adding a Router followed by filters to the error handler route {#adding-a-router-followed-by-filters-to-the-error-handler-route}
 

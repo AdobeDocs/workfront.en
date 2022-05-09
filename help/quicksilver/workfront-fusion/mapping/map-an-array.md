@@ -14,7 +14,7 @@ An array is a special type of item that can contain the following:
 * One or more text values (simple array)
 * One or more collections of the same type (complex array)
 
-``` ```**Example: **``````The Watch emails module returns an array of attachments for every email. Every attachment represents a collection that may contain a name, content, size, and so on.
+**Example:** The Watch emails module returns an array of attachments for every email. Every attachment represents a collection that may contain a name, content, size, and so on.
 
 For more information, see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
@@ -68,7 +68,7 @@ You must have the following access to use the functionality in this article:
    </MadCap:conditionalText>
    -->
 
-   ``` ```**Example: **`````` For the example above, you would click the Add an attachment button for an email.
+   **Example:** For the example above, you would click the Add an attachment button for an email.
 
    ![](assets/add-an-attachment-button-350x152.jpg)
 

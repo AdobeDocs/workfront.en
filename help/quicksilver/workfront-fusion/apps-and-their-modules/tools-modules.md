@@ -137,7 +137,7 @@ This module returns a value incremented by 1 after each module's operation.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` One of the module's uses is to implement a "round robin" assignment of tasks, leads, emails, and so on, to users in a group. The algorithm chooses the assignees from a group in some rational order, usually going from the top to the bottom of a list. When the algorithm reaches the end of the list, it would then give the next assignment to the user at the top of the list and continue to make assignments down the list.
+**Example:** One of the module's uses is to implement a "round robin" assignment of tasks, leads, emails, and so on, to users in a group. The algorithm chooses the assignees from a group in some rational order, usually going from the top to the bottom of a list. When the algorithm reaches the end of the list, it would then give the next assignment to the user at the top of the list and continue to make assignments down the list.
 
 The following scenario sends an email to the first recipient after every odd-numbered scenario run, and to the second recipient after every even-numbered scenario run.
 
@@ -294,7 +294,7 @@ This module allows you to retrieve numerical values, then apply one of the selec
  </tbody> 
 </table>
 
-``` ```**Example: **`````` The module sums up values under the number parameter.
+**Example:** The module sums up values under the number parameter.
 
 ![](assets/module-sums-up-values-350x186.gif)
 
@@ -364,7 +364,7 @@ This module merges values from the selected fields of received bundles into a si
  </tbody> 
 </table>
 
-``` ```**Example: **``````You can use the text aggregator to insert more values (for example, customer names or notes)into a single bundle and send an email containing all the values in the email body or the email subject.
+**Example:** You can use the text aggregator to insert more values (for example, customer names or notes)into a single bundle and send an email containing all the values in the email body or the email subject.
 
 ### Transformers {#transformers}
 

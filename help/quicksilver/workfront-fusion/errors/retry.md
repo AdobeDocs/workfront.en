@@ -112,7 +112,7 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
    variable does not exist.
 
-``` ```**Example: **`````` Here is a sample scenario where the HTTP > Make a request module represents the potentially failing module:
+**Example:** Here is a sample scenario where the HTTP > Make a request module represents the potentially failing module:
 
 ![](assets/http-make-request-350x116.png)
 

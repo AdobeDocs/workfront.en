@@ -333,7 +333,7 @@ GET /metadata?id=[document or folder ID]
  </tbody> 
 </table>
 
-``` ```**Example: **``````https://www.acme.com/api/metadata?id=12345
+**Example:** https://www.acme.com/api/metadata?id=12345
 
 **Response** 
 <pre>{</pre><pre>"title":"My Document", </pre><pre>"kind":"file" </pre><pre>"id":"12345", </pre><pre>"viewLink":"https://www.acme.com/viewDocument?id=12345”, </pre><pre>"downloadLink":"https://www.acme.com/downloadDocument?id=12345", </pre><pre>"mimeType":"image/png", </pre><pre>"dateModified":"2014­06­05T17:39:45.251Z",</pre><pre>"size": "32554694" </pre><pre>}</pre>
@@ -362,7 +362,7 @@ GET /files
 
 JSON containing a list of files and folders. The metadata for each item is the same that returned by the /metadata endpoint.
 
-``` ```**Example: **``````https://www.acme.com/api/files?parentId=123456
+**Example:** https://www.acme.com/api/files?parentId=123456
 
 **Response** 
 <pre>[</pre><pre>{</pre><pre>"title":"Folder A", </pre><pre>"kind":"folder",</pre><pre>"id":"2lj23lkj", </pre><pre>"viewLink":"https://www.acme.com/viewDocument?id=2lj23lkj”, </pre><pre>"downloadLink":"https://www.acme.com/downloadDocument?id=2lj23lkj", </pre><pre>"mimeType":"", </pre><pre>"dateModified":"2014­06­05T17:39:45.251Z",</pre><pre>"size":"" </pre><pre>}, </pre><pre>{</pre><pre>"title":"My Document", </pre><pre>"kind":"file",</pre><pre>"id":"da8cj234", </pre><pre>"viewLink":"https://www.acme.com/viewDocument?id=da8cj234”, </pre><pre>"downloadLink":"https://www.acme.com/downloadDocument?id=da8cj234",</pre><pre>"mimeType":"image/png", </pre><pre>"dateModified":"2014­06­05T17:39:45.251Z",</pre><pre>"size":"32554694" </pre><pre>}, </pre><pre>]</pre>
@@ -412,7 +412,7 @@ GET /search
 
 JSON containing a list of metadata for files and folders matching the query. What constitutes a “match” is determined by the webhook provider. Ideally, it should do a full-text search. Doing a filename-based search also works.
 
-``` ```**Example: **``````https://www.acme.com/api/search?query=test-query
+**Example:** https://www.acme.com/api/search?query=test-query
 
 Response
 <pre>[</pre><pre>{ File/Folder Metadata }, </pre><pre>{ File/Folder Metadata } </pre><pre>]</pre>
@@ -450,7 +450,7 @@ GET /download
 
 The raw bytes of the document.
 
-``` ```**Example: **`````` ```https://www.acme.com/api/download?id=123456```
+**Example:** ```https://www.acme.com/api/download?id=123456```
 
 ### Get a thumbnail for a document
 
@@ -473,7 +473,7 @@ GET /thumbnail
 
 The raw thumbnail bytes.
 
-``` ```**Example: **``````https://www.acme.com/api/thumbnail?id=123456
+**Example:** https://www.acme.com/api/thumbnail?id=123456
 
 ### Upload a file - Part 1 of 2
 
@@ -522,7 +522,7 @@ POST /uploadInit
 
 The metadata for the file, as defined by the /metadata endpoint.
 
-``` ```**Example: **``````https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
+**Example:** https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
 
 **Response**
 
@@ -550,7 +550,7 @@ The raw content bytes for the document.
 
 **Response** 
 <pre>{</pre><pre>"result": “success” </pre><pre>}</pre>or
-<pre>{</pre><pre>"result": “fail” </pre><pre>}</pre>``` ```**Example: **``````https://www.acme.com/api/upload?id=1234 [document bytes included in update stream]
+<pre>{</pre><pre>"result": “fail” </pre><pre>}</pre>**Example:** https://www.acme.com/api/upload?id=1234 [document bytes included in update stream]
 
 Response
 <pre>{</pre><pre>"result":"success"</pre><pre>}</pre>
@@ -611,7 +611,7 @@ JSON containing information about this service
  </tbody> 
 </table>
 
-``` ```**Example: **`````` ```https://www.acme.com/api/serviceInfo```
+**Example:** ```https://www.acme.com/api/serviceInfo```
 
 returns
 <pre>{</pre><pre>"webhook version": “1.2”, "version": “1.0”, "publisher": “Acme, LLC”, "availableEndpoints": [“files”, “metadata”, “search”, “download”</pre><pre>“thumbnail”, “uploadInit”, “upload” ], "customActions" [</pre><pre>{</pre><pre>"name": “archive”, "displayName": “Archive” }, {</pre><pre>"name": “doSomethingElse”, "displayName": “Do Something” }, ] }</pre>
@@ -636,7 +636,7 @@ POST /createFolder
 
 The metadata for the newly created folder, as defined by the /metadata endpoint.
 
-``` ```**Example: **`````` ```POST https://www.acme.com/api/createFolder```
+**Example:** ```POST https://www.acme.com/api/createFolder```
 
 -------------------------------
 
@@ -666,7 +666,7 @@ PUT /delete
 
 Response A JSON string indicating success or failure, as specified in the Error Handling section below.
 
-``` ```**Example: **``````PUT https://www.acme.com/api/delete ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ id=1234 ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+**Example:** PUT https://www.acme.com/api/delete ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ id=1234 ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 returns
 <pre>{</pre><pre>"status": “success” </pre><pre>}</pre><pre>returns</pre><pre>{</pre><pre>"status": “failure”, "error": “File not found” </pre><pre>}</pre>
@@ -692,7 +692,7 @@ Response
 
 A JSON string indicating success or failure, as specified in the Error Handling section below.
 
-``` ```**Example: **``````PUT&nbsp;https://www.acme.com/api/rename
+**Example:** PUT&nbsp;https://www.acme.com/api/rename
 
 -------------------------------
 
@@ -753,7 +753,7 @@ GET /customAction
 
 A JSON string indicating success or failure, as specified in the Error Handling section below. On failure (i.e. status = “failure”), Workfront will display the provided error message to the user.
 
-``` ```**Example: **``````https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Example:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 response
 <pre>{</pre><pre>"status": “success” </pre><pre>}</pre>

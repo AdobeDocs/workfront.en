@@ -923,7 +923,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` The following API call returns the list of all Link IDs in your Egnyte account:
+**Example:** The following API call returns the list of all Link IDs in your Egnyte account:
 
 2019-08-15_18_51_16-Integration_Meetup___Integromat.png
 

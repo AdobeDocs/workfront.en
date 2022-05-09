@@ -189,7 +189,7 @@ This action module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-``` ```**Example: **`````` List Envelopes
+**Example:** List Envelopes
 
 The following API call returns envelopes from the specified date in your DocuSign account:
 

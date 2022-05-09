@@ -104,7 +104,7 @@ For information about creating a report, see [Create a custom report](../../../r
 
    line of code to the grouping. This indicates that the grouping is modified in text mode.
 
-   ``` ```**Example: **`````` To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode.
+   **Example:** To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode.
 
    ```
    textmode=true<br>group.0.linkedname=project<br>group.0.namekey=view.relatedcolumn<br><strong>group.0.valuefield=project:name</strong><br>group.0.namekeyargkey.0=project<br>group.0.namekeyargkey.1=name<br><strong>group.0.valueformat=string</strong><br>group.1.linkedname=assignedTo<br>group.1.namekey=view.relatedcolumn<br><strong>group.1.valuefield=assignedTo:name</strong><br>group.1.namekeyargkey.0=assignedTo<br>group.1.namekeyargkey.1=name<br><strong>group.1.valueformat=string</strong>

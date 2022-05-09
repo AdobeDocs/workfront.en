@@ -26,7 +26,7 @@ To change your language settings in Chrome:
 
 1. In the **Language** list, locate the language and region that use your preferred date format.
 
-   ``` ```**Example: **``````If you speak English and you want the date format to be MM/DD/YYYY, you would select **English (United States)**. If you speak English and you want the date format to be DD/MM/YYY, you would select **English (United Kingdom)**.
+   **Example:** If you speak English and you want the date format to be MM/DD/YYYY, you would select **English (United States)**. If you speak English and you want the date format to be DD/MM/YYY, you would select **English (United Kingdom)**.
 
 1. (Conditional) If the language and region you want to use are not visible in the list, click **Add languages** to add it to the list.
 1. Click the 3-dot menu next to the language and region you want to use, then click **Move to the top**.

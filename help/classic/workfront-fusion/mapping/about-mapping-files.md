@@ -65,7 +65,7 @@ Modules that have the ability to work with files require two pieces of informati
 
 When you map a file, you choose the modules in your scenario from which you want to obtain the data. The file name and file content are then automatically mapped as they are.
 
-``` ```**Example: **`````` This example shows how to download documents from Adobe Workfront to Google Drive. The Workfront trigger Watch Record returns detailed information about each document, including its name and ID.
+**Example:** This example shows how to download documents from Adobe Workfront to Google Drive. The Workfront trigger Watch Record returns detailed information about each document, including its name and ID.
 
 The next module, Download Document, downloads the actual data so that it can be uploaded to Google Drive.
 

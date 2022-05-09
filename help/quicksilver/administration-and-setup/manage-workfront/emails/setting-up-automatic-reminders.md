@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Set up automatic reminders
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Set up automatic reminders
 ---
 
 # Set up automatic reminders

@@ -5,7 +5,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 title: Brand your Adobe Workfront instance
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
+description: Brand your Adobe Workfront instance
 ---
 
 # Brand your Adobe Workfront instance

@@ -139,7 +139,7 @@ You can sort the scenario execution history.
 
 1. (Optional) To search for executions that contain specific text, enter the text in the search bar of the **Search in history** window.
 
-   ``` ```**Example: **``````If you want to find the execution that created a specific project, enter the project ID into the Fulltext search bar.
+   **Example:** If you want to find the execution that created a specific project, enter the project ID into the Fulltext search bar.
 
    <!--
    <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) To limit your search by date range, select the beginning and ending dates of your desired search in the <b>By date range</b> area. </p> <note type="note">

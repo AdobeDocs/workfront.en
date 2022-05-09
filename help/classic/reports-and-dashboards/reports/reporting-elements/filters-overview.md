@@ -184,7 +184,7 @@ Workfront has 2 filter operators that connect each filter statement:
 
 You can use filter modifiers to indicate what kind of information you want your data to match. 
 
-``` ```**Example: **`````` You can filter for projects that have a Percent Complete of 100%. In this case, you can use the "equal" modifier in the following filter statement:
+**Example:** You can filter for projects that have a Percent Complete of 100%. In this case, you can use the "equal" modifier in the following filter statement:
 
 ```
 Project: Percent Complete Equal(Case Sensitive) 100

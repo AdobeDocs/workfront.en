@@ -80,7 +80,7 @@ The algorithm of multiplicatively increasing time intervals between attempts whe
 
 The main reason for employing the increasing time intervals in Workfront Fusion is to prevent frequently executed scenarios from consuming operations on repeatedly failing attempts.
 
-``` ```**Example: **`````` 
+**Example:** 
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -142,7 +142,7 @@ An incomplete data error occurs only with triggers. This error is generated if a
 
 If a scenario terminates with the IncompleteDataError, its further behavior will depend on its setting of Max number of consecutive errors. For more information, see [Number of consecutive errors](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) in the article [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
-``` ```**Example: **``````A scenario has the Workfront trigger Watch Record set to watch for documents. The scenario executes while you are uploading a large document, such as a long video. Because Workfront Fusion tries to download the video while it is still uploading to Workfront, the scenario terminates with the IncompleteDataError.
+**Example:** A scenario has the Workfront trigger Watch Record set to watch for documents. The scenario executes while you are uploading a large document, such as a long video. Because Workfront Fusion tries to download the video while it is still uploading to Workfront, the scenario terminates with the IncompleteDataError.
 
 ## Run time error
 

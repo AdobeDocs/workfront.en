@@ -3,7 +3,7 @@ filename: create-and-manage-layout-templates
 product-area: system-administrtation;templates
 navigation-topic: layout-templates
 title: Create and manage layout templates
-description: **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+description: Create and manage layout templates
 ---
 
 # Create and manage layout templates
@@ -408,7 +408,10 @@ To customize the layout template for the Home area:
       | Log time against work |The Log Time option is displayed when the task or issue is selected, allowing users to log time on work items directly from the Home area. |
       | Show updates for work |Any updates made on the task or issue are displayed when the task or issue is selected. This includes both system updates and updates made by a user. When this option is enabled, users can still filter out system updates, as described in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). |
 
-   ```<li>Click the <strong>Assign People</strong> tab and assign users, teams, groups, or job roles to the layout template, as described in <a href="#assign-people" class="MCXref xref">Assign people</a>.</li>``` ```<li>Click <strong>Save Layout Template</strong>.</li>```
+
+<!--WRITER - Please redo these steps
+   <li>Click the <strong>Assign People</strong> tab and assign users, teams, groups, or job roles to the layout template, as described in <a href="#assign-people" class="MCXref xref">Assign people</a>.</li><li>Click <strong>Save Layout Template</strong>.</li>
+-->
 
 ## Test your layout template
 
