@@ -643,7 +643,8 @@ user-guide-description: Workfront
   * [Glossary of Adobe Workfront terminology](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
   * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
   * [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
-  * [Navigate Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+  * Navigate Workfront {#navigate}
+    * [Navigate Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
     * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
       * [Search Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
       * [Use the reference number of objects](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
