@@ -3,7 +3,7 @@ filename: edit-tasks
 product-area: projects
 navigation-topic: manage-tasks
 title: Edit tasks
-description: "(NOTE: some information in this area is repeated in the following articles. If you need to update a fied, update it in both - EDIT ME."
+description: Edit tasks
 ---
 
 # Edit tasks

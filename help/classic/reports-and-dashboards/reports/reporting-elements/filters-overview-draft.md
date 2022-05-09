@@ -4,7 +4,7 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Filters overview in Adobe Workfront (draft)
-description: "(NOTE: CONTENT LAST COPIED TO the filters-overview.htm article on 9/23/21)"
+description: Filters overview in Adobe Workfront (draft)
 hidefromtoc: true
 ---
 

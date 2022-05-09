@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode"
-description: "(NOTE: this article: NWE only; not possible in classic)"
+description: "Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode"
 ---
 
 # Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode

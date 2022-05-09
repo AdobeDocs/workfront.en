@@ -3,7 +3,7 @@ filename: assign-work-in-workload-balancer-in-bulk
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in bulk using the Workload Balancer
-description: "(NOTE: NWE only article)"
+description: Assign work in bulk using the Workload Balancer
 ---
 
 # Assign work in bulk using the<![CDATA[  ]]>Workload Balancer

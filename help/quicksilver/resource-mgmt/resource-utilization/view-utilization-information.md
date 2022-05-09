@@ -3,7 +3,7 @@ filename: view-utilization-information
 product-area: resource-management
 navigation-topic: resource-utilization
 title: View resource utilization information
-description: "(NOTE: this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)"
+description: View resource utilization information
 ---
 
 # View resource utilization information

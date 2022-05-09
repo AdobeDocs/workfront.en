@@ -4,7 +4,7 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Estimate At Completion (EAC)
-description: "(NOTE: Linked to the product. Do not change link!)"
+description: Calculate Estimate At Completion (EAC)
 ---
 
 # Calculate Estimate At Completion (EAC)

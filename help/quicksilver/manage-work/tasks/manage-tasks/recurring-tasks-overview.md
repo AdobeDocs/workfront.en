@@ -5,7 +5,7 @@ product-area: projects
 keywords: recurrent,reoccur,reoccurring
 navigation-topic: manage-tasks
 title: Recurring tasks overview
-description: "(NOTE: DO NOT DO NOT EDIT OR CHANGE!!! linked to the NWE UI, this is not linked to classic - direct links - EDIT ME."
+description: Recurring tasks overview
 ---
 
 # Recurring tasks overview

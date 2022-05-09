@@ -3,7 +3,7 @@ filename: track-user-utilization
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Track User Utilization information
-description: "(NOTE: not linked to the UI, not other articles; drafted.)"
+description: Track User Utilization information
 hidefromtoc: true
 ---
 

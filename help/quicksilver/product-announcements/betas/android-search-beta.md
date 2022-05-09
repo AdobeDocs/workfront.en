@@ -3,7 +3,7 @@ filename: android-search-beta
 content-type: reference
 navigation-topic: betas
 title: Android Search Beta Program
-description: "(NOTE: Alina: keep this as an example for a mobile beta; Use this page as an example for all the Mobile beta programs.This is currently in draft because the beta is closed.)"
+description: Android Search Beta Program
 hidefromtoc: true
 ---
 

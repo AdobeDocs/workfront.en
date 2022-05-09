@@ -3,7 +3,7 @@ filename: notifications-goals
 content-type: reference
 navigation-topic: notifications
 title: "Notifications: Goals"
-description: "(NOTE: although this is a NWE functionality only, the Goals area in Notifications in the user profile displays in NWE AND in Classic)"
+description: "Notifications: Goals"
 ---
 
 # Notifications: Goals

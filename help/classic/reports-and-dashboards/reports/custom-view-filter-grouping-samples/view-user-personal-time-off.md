@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "View: user personal time off"
-description: "(NOTE: consider hiding this article because this is not a custom view anymore.)"
+description: "View: user personal time off"
 ---
 
 # View: user personal time off

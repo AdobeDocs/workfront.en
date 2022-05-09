@@ -2,7 +2,7 @@
 filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delegate tasks and issues
-description: "(NOTE: you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work")"
+description: Delegate tasks and issuesDelegate work")"
 ---
 
 # Delegate tasks and issues

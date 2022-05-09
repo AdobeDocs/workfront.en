@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reporting-navigation-topic
 title: Fields in lists and reports
-description: "(NOTE: Alina: ********ALWAYS READ THIS BEFORE YOU CREATE A NEW DRAFT: ALL WRITERS ARE WORKING ON THIS ARTICLE. IF YOU WANT TO UPDATE THIS, DO A SEARCH AND MAKE SURE THAT THERE ARE NO OTHER DRAFTS THAT WILL OVERWRITE YOURS, OR THAT YOU WON'T OVERWRITE SOMEONE ELSE'S!****"
+description: Fields in lists and reports
 hidefromtoc: true
 ---
 

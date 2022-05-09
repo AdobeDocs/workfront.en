@@ -3,7 +3,7 @@ filename: create-complex-text-mode-filters-using-exists-statements
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Create complex Text Mode filters using EXISTS statements
-description: "(NOTE: do not EVER delete this article as long as Text Mode still exists in the system. Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)"
+description: Create complex Text Mode filters using EXISTS statements
 ---
 
 # Create complex Text Mode filters using EXISTS statements

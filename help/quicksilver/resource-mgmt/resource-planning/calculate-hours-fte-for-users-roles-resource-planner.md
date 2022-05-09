@@ -4,7 +4,7 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
 title: Overview of calculating hours and FTE for users and roles in the Resource Planner
-description: "(NOTE: Alina:KEEP THIS:***Linked to: Configuring My Settings, Editing User Accounts, Planning in the Resource Planner -- *** Some of this documentation is also duplicated in this article (Scheduling): https://support.workfront.com/hc/en-us/articles/360000557174)"
+description: Overview of calculating hours and FTE for users and roles in the Resource Planner
 ---
 
 # Overview of calculating hours and FTE for users and roles in the Resource Planner

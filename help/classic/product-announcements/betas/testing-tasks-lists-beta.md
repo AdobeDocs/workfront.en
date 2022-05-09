@@ -3,7 +3,7 @@ filename: testing-tasks-lists-beta
 content-type: reference
 navigation-topic: betas
 title: Testing task list beta
-description: "(NOTE: Alina: Keep this in draft - Anna might use it again in the near future - May 11, 2017)"
+description: Testing task list beta
 hidefromtoc: true
 ---
 

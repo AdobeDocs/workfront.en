@@ -3,7 +3,7 @@ filename: differences-between-my-work-home
 content-type: overview
 navigation-topic: use-the-home-area
 title: Understand the differences between My Work and Home
-description: "(NOTE: Add video to this article)"
+description: Understand the differences between My Work and Home
 ---
 
 # Understand the differences between My Work and Home

@@ -3,7 +3,7 @@ filename: create-filters
 product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit filters in Adobe Workfront
-description: "(NOTE: ***IMPORTANT: this DIV will need to be drafted/ hidden when the following DIV (that includes new filters) will be live)"
+description: Create or edit filters in Adobe Workfront
 ---
 
 # Create or edit filters in Adobe Workfront

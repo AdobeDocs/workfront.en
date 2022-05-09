@@ -6,7 +6,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: HTTP > Other modules
-description: "(NOTE: from Alina: Just a suggestion: I think when an article is not a "how to", it is an overview; and according to the style guide the overview articles are titled "HTTP modules overview". Would this fit the bill for that title?)"
+description: HTTP > Other moduleshow to", it is an overview; and according to the style guide the overview articles are titled "HTTP modules overview". Would this fit the bill for that title?)"
 ---
 
 # HTTP > Other modules

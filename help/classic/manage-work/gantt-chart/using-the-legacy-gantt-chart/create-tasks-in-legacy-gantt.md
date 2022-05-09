@@ -2,7 +2,7 @@
 filename: create-tasks-in-legacy-gantt
 navigation-topic: use-the-legacy-gantt-chart
 title: Create tasks in the Legacy Gantt Chart
-description: "(NOTE: classic only, drafted)"
+description: Create tasks in the Legacy Gantt Chart
 ---
 
 # Create tasks in the Legacy Gantt Chart

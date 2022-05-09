@@ -3,7 +3,7 @@ filename: create-submit-requests
 product-area: requests
 navigation-topic: create-requests
 title: Create and submit Adobe Workfront requests
-description: "(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)"
+description: Create and submit Adobe Workfront requests
 ---
 
 # Create and submit Adobe Workfront requests

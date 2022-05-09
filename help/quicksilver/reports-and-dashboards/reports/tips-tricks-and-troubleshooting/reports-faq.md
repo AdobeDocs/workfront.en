@@ -4,7 +4,7 @@ content-type: faq
 product-area: reporting
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: Reports FAQs
-description: "(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)"
+description: Reports FAQs
 ---
 
 # Reports FAQs

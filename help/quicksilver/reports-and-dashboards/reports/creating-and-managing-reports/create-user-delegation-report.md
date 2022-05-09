@@ -4,7 +4,7 @@ product-area: reporting
 keywords: user,delegation,report,delegate,approval
 navigation-topic: create-and-manage-reports
 title: Create a User Delegation report
-description: "(NOTE: consider moving this to the Custom View, Filter, Grouping Samples section as an example of a report)"
+description: Create a User Delegation report
 ---
 
 # Create a User Delegation report

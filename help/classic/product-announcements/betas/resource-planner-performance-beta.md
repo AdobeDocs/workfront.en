@@ -3,7 +3,7 @@ filename: resource-planner-performance-beta
 content-type: reference
 navigation-topic: betas
 title: Resource Planner performance beta
-description: "(NOTE: Alina: save as a draft for an example of a RM beta)"
+description: Resource Planner performance beta
 hidefromtoc: true
 ---
 

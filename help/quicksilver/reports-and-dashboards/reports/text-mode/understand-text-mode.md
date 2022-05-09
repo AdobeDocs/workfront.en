@@ -3,7 +3,7 @@ filename: understand-text-mode
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Text Mode overview
-description: "(NOTE: Linked to the UI (for the areas mentioned in the comments below and the new NWE filters as well))"
+description: Text Mode overview
 ---
 
 # Text Mode overview

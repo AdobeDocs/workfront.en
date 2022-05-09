@@ -3,7 +3,7 @@ filename: create-template-from-project
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Create template from project
-description: "(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))"
+description: Create template from project
 ---
 
 # Create template from project

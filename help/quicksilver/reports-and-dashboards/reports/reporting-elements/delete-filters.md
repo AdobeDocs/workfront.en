@@ -3,7 +3,7 @@ filename: delete-filters
 product-area: reporting
 navigation-topic: reporting-elements
 title: Delete filters
-description: "(NOTE: Should this be renamed and updated for "Delete filters, views, and groupings" and be updated to illustrate this?! I think we should keep this separate from "Remove FVG" because there are two separate functions - ?!)"
+description: Delete filtersDelete filters, views, and groupings" and be updated to illustrate this?! I think we should keep this separate from "Remove FVG" because there are two separate functions - ?!)"
 ---
 
 # Delete filters

@@ -4,7 +4,7 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Calculate Budgeted Cost
-description: "(NOTE: This article is linked from "Tracking Project Progress with a Utilization Report""
+description: Calculate Budgeted CostTracking Project Progress with a Utilization Report""
 ---
 
 # Calculate Budgeted Cost

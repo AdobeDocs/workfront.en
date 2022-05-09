@@ -4,7 +4,7 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Cost Schedule Performance Index (CSI)
-description: "(NOTE: Linked to the product. Do not change link.)"
+description: Calculate Cost Schedule Performance Index (CSI)
 ---
 
 # Calculate Cost Schedule Performance Index (CSI)

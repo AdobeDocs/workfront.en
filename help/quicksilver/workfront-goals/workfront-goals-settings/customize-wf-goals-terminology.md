@@ -3,7 +3,7 @@ filename: customize-wf-goals-terminology
 product: workfront-goals
 navigation-topic: workfront-goals-settings
 title: Customize Adobe Workfront Goals terminology
-description: "(NOTE: keep drafted and only leave the LT article as is)"
+description: Customize Adobe Workfront Goals terminology
 ---
 
 # Customize Adobe Workfront Goals terminology

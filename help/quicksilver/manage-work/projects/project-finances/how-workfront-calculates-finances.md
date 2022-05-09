@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: How Adobe Workfront calculates finances
-description: "(NOTE: Alina: Keep this draft for a revamp of all definitions for financial fields in Workfront"
+description: How Adobe Workfront calculates finances
 hidefromtoc: true
 ---
 

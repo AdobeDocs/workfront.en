@@ -3,7 +3,7 @@ filename: filter-condition-modifiers
 product-area: reporting
 navigation-topic: reporting-elements
 title: Filter and condition modifiers
-description: "(NOTE: Alina: This is temporary - Lilit is fixing this in a future story: NOTE If the field you are filtering for has multiple options, this filters out the results that contain only the choice you specify. If the field contains additional options including the one specified, those results are not filtered from the report. See this document and search for "not equal" for the link to the req doc: https://docs.google.com/document/d/1WA0zZ_wws-2qb908i53BFQ8zDwL3nPJHyIybtJvvnqU/edit)"
+description: Filter and condition modifiersnot equal" for the link to the req doc: https://docs.google.com/document/d/1WA0zZ_wws-2qb908i53BFQ8zDwL3nPJHyIybtJvvnqU/edit)"
 ---
 
 # Filter and condition modifiers

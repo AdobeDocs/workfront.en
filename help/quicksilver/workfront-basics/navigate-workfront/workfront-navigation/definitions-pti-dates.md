@@ -3,7 +3,7 @@ filename: definitions-pti-dates
 content-type: reference
 navigation-topic: workfront-navigation
 title: Overview of the Project, Task, and Issue dates in Adobe Workfront
-description: "(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc)"
+description: Overview of the Project, Task, and Issue dates in Adobe Workfront
 ---
 
 # Overview of the Project, Task, and Issue dates in Adobe Workfront

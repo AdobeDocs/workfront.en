@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: How Financial Recalculation is Triggered
-description: "(NOTE: hiding this for now (drafted) and will need to be deleted after Zoomin; the content was added to the Recalculate Finances article)"
+description: How Financial Recalculation is Triggered
 hidefromtoc: true
 ---
 

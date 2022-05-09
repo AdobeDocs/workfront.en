@@ -4,7 +4,7 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Schedule Performance Index (SPI)
-description: "(NOTE: Linked to the product. Do not change link.)"
+description: Calculate Schedule Performance Index (SPI)
 ---
 
 # Calculate Schedule Performance Index (SPI)

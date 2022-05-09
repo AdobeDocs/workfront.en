@@ -3,7 +3,7 @@ filename: save-project-as-template
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Save a project as a template
-description: "(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)"
+description: Save a project as a templateSave as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)"
 ---
 
 # Save a project as a template

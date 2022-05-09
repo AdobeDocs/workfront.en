@@ -4,7 +4,7 @@ content-type: reference
 product-area: projects
 navigation-topic: financials
 title: Understand Budgeted Labor Cost and Budgeted Hours for projects
-description: "(NOTE: Update this for the Workload Balancer, if needed)"
+description: Understand Budgeted Labor Cost and Budgeted Hours for projects
 ---
 
 # Understand Budgeted Labor Cost and Budgeted Hours for projects

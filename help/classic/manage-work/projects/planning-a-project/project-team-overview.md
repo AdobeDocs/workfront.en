@@ -4,7 +4,7 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Project Team overview
-description: "(NOTE: This also links here - some information is duplicated between these 2 articles, so update both: https://workfront.zendesk.com/hc/en-us/articles/217238917)"
+description: Project Team overview
 ---
 
 # Project Team overview

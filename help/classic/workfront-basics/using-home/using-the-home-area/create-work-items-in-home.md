@@ -3,7 +3,7 @@ filename: create-work-items-in-home
 product-area: projects
 navigation-topic: use-the-home-area
 title: Create work items from the Home area
-description: "(NOTE: From Courtney: Need to rename)"
+description: Create work items from the Home area
 ---
 
 # Create work items from the Home area

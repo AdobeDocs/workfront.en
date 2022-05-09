@@ -3,7 +3,7 @@ filename: approving-work
 product-area: projects
 navigation-topic: approvals
 title: Approving work
-description: "(NOTE: From Courtney: Linked to Training sites/ articles , don't change title and link)"
+description: Approving work
 ---
 
 # Approving work

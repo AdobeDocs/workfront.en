@@ -4,7 +4,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Text Mode resources
-description: "(NOTE: Alina: This is the section article with links to all other articles in this section)"
+description: Text Mode resources
 ---
 
 # Text Mode resources

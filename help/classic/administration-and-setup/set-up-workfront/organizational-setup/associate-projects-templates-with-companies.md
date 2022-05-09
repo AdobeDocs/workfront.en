@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: Associate projects and templates with companies
-description: "(NOTE: this article is drafted and should not exist in the Admin area. Associating a template/ project with companies is not an Admin function. This functionality is covered in the articles Edit Templates and Edit Projects. I removed the link from the TOC article for this section.)"
+description: Associate projects and templates with companies
 hidefromtoc: true
 ---
 

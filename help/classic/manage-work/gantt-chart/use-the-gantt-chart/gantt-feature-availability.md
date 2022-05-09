@@ -3,7 +3,7 @@ filename: gantt-feature-availability
 content-type: reference
 navigation-topic: use-the-gantt-chart
 title: Gantt Chart feature availability
-description: "(NOTE: might need to be removed - flash tools have been removed)"
+description: Gantt Chart feature availability
 ---
 
 # Gantt Chart feature availability

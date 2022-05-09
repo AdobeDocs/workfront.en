@@ -3,7 +3,7 @@ filename: use-conditional-formatting-text-mode
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Use conditional formatting in Text Mode
-description: "(NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))"
+description: Use conditional formatting in Text Mode
 ---
 
 # Use conditional formatting in Text Mode

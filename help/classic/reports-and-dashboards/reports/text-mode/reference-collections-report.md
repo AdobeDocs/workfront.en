@@ -3,7 +3,7 @@ filename: reference-collections-report
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Reference collections in a report
-description: "(NOTE: When the API Explorer will be updated, you can take the notes like these out of this article: NOTE Notice that you must use issues for the collection object name. The API Explorer does not offer a collection object name for issues at this time.)"
+description: Reference collections in a report
 ---
 
 # Reference collections in a report

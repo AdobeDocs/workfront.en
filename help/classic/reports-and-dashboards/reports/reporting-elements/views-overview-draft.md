@@ -4,11 +4,11 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Views overview in Adobe Workfront (draft)
-description: "(NOTE: this is a place holder article for now to pupulate with "overview"-type information for views. We did the Filters and Groupings before and we needed one for views. **** PLEASE DO NOT DELETE****)"
+description: You can customize existing views. All users who can view the views can also see your changes.
 hidefromtoc: true
 ---
 
-# Views overview in&nbsp;Adobe Workfront 
+# Views overview in Adobe Workfront 
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

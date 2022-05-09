@@ -2,7 +2,7 @@
 filename: create-ad-hoc-work-items-my-work
 navigation-topic: my-work
 title: Create ad hoc work items
-description: "(NOTE: Don't delete this Don't delete this one, it points to :- the Slack article of creating tasks and issues from Slack.- the Creating Ad-Hoc tasks in the Creating Tasks section: https://workfront.zendesk.com/hc/en-us/articles/216743198)"
+description: Create ad hoc work items
 ---
 
 # Create ad hoc work items

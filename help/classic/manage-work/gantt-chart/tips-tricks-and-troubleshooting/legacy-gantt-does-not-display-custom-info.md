@@ -3,7 +3,7 @@ filename: legacy-gantt-does-not-display-custom-info
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-gantt-chart
 title: Legacy Gantt chart does not display Custom Field data
-description: "(NOTE: **Delete this article when the Legacy Gantt Chart is removed.)"
+description: Legacy Gantt chart does not display Custom Field data
 ---
 
 # Legacy Gantt chart does not display Custom Field data

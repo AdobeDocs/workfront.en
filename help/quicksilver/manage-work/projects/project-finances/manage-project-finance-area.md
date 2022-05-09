@@ -3,7 +3,7 @@ filename: manage-project-finance-area
 product-area: projects
 navigation-topic: financials
 title: Manage information in the project Finance area
-description: "(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)"
+description: Manage information in the project Finance area
 ---
 
 # Manage information in the project Finance area

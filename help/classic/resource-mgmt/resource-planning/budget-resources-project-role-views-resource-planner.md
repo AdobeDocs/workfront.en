@@ -3,7 +3,7 @@ filename: budget-resources-project-role-views-resource-planner
 product-area: resource-management
 navigation-topic: resource-planning
 title: Budget resources in the Resource Planner using the Project and Role views
-description: "(NOTE: broken off of another larger article (Planning in the RP); reformat, restructure, relink)"
+description: Budget resources in the Resource Planner using the Project and Role views
 ---
 
 # Budget resources in the Resource Planner using the Project and Role views

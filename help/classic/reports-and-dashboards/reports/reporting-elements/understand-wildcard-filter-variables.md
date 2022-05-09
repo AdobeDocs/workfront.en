@@ -4,7 +4,7 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Wildcard filter variables
-description: "(NOTE: This article is linked to the training self-serve promted articles for user-based and date-based widlcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)"
+description: Wildcard filter variablesoverview/ reference" article for those articles. Consider renaming this when that is allowed.)"
 ---
 
 # Wildcard filter variables

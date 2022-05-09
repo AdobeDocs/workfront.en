@@ -3,7 +3,7 @@ filename: modify-multipl-assignments-scheduling-areas
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Modify multiple users assignments to tasks in the Scheduling areas
-description: "(NOTE: there is a similar article for doing the same function in a task list in: Manage Work> Tasks> Assign Tasks)"
+description: Modify multiple users assignments to tasks in the Scheduling areas
 ---
 
 # Modify multiple users assignments to tasks in the Scheduling areas

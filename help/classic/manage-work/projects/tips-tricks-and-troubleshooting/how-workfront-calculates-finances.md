@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: How Adobe Workfront calculates finances
-description: "(NOTE: This should be moved to Project Finances when it's been improved)"
+description: How Adobe Workfront calculates finances
 hidefromtoc: true
 ---
 

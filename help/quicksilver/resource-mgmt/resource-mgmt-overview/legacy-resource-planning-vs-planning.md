@@ -4,7 +4,7 @@ content-type: overview;how-to-procedural
 product-area: resource-management
 navigation-topic: resource-management-overview
 title: Difference between Legacy Resource Planning and Planning
-description: "(NOTE: Alina: *** Article should be removed when the Legacy Planning is removed from the system - mark this in the excel spreadsheet, when you add it there)"
+description: Difference between Legacy Resource Planning and Planning
 hidefromtoc: true
 ---
 

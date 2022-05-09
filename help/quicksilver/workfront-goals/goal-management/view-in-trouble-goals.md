@@ -3,7 +3,7 @@ filename: view-in-trouble-goals
 product: workfront-goals
 navigation-topic: goal-management
 title: Review in-trouble goals in Adobe Workfront Goals
-description: "(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble")"
+description: Review in-trouble goals in Adobe Workfront Goalsred" used to be called At Risk. Now, it is "in trouble")"
 ---
 
 # Review in-trouble goals in&nbsp;Adobe Workfront Goals

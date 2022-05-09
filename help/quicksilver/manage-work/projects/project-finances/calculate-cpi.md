@@ -4,7 +4,7 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Cost Performance Index (CPI)
-description: "(NOTE: Linked to the product. Do not change link.)"
+description: Calculate Cost Performance Index (CPI)
 ---
 
 # Calculate Cost Performance Index (CPI)

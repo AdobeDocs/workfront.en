@@ -3,7 +3,7 @@ filename: _redesigned-features-in-nwe
 content-type: overview;reference
 navigation-topic: get-started-with-workfront
 title: Redesigned functionality in the new Adobe Workfront experience
-description: "(NOTE: this is the TOC article for all articles inside the 'The New Workfront Experience' folder in Flare; any time you add a new article in this section, it needs to have a link added here.)"
+description: Redesigned functionality in the new Adobe Workfront experience
 ---
 
 # Redesigned functionality in the new Adobe Workfront experience

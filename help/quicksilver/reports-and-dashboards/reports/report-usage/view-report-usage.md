@@ -3,7 +3,7 @@ filename: view-report-usage
 product-area: reporting
 navigation-topic: report-usage
 title: View report usage
-description: "(NOTE: : *** DO NOT CHANGE, REMOVE, CHANGE LINK, RENAME THIS ARTICLE- IT IS LINKED TO THE PENDO GUIDE FOR THE MAIN REPORTS AREA***)"
+description: View report usage
 ---
 
 # View report usage

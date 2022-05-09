@@ -3,7 +3,7 @@ filename: manage-project-team
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Manage the Project Team
-description: "(NOTE: remove the NWE way of doing this when the Scheduling tools will be removed from the app)"
+description: Manage the Project Team
 ---
 
 # Manage the Project Team
