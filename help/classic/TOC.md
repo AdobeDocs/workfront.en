@@ -269,8 +269,10 @@ user-guide: null
     * [Workfront Add-On for Jira Beta](product-announcements/betas/workfront-add-on-for-jira-beta.md)
     * [Reporting Canvas beta](product-announcements/betas/reporting-canvas-beta.md)
     * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-known-issues.md)
-* [Administration and setup](administration-and-setup/administration-and-setup.md)
-  * [Get started with Adobe Workfront administration](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
+* Adminstration and setup {#administration-and-setup}
+  * [Administration and setup - Contents](administration-and-setup/administration-and-setup.md)
+  * Get started with Adobe Workfront administration {#get-started-with-wf-administration}
+    * [Get started with Adobe Workfront administration - Contents](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
     * [Defining objectives for your Adobe Workfront implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
     * [Manage available licenses in your system](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
     * [Configure basic information for your system](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
@@ -280,8 +282,10 @@ user-guide: null
     * [Send announcements](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
     * [Browser requirements for Workfront](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
     * [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-  * [Set up Adobe Workfront](administration-and-setup/set-up-workfront/set-up-workfront.md)
-    * [Configure system defaults](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+  * Set up Adobe Workfront {#set-up-workfront}
+    * [Set up Adobe Workfront - Contents](administration-and-setup/set-up-workfront/set-up-workfront.md)
+    * Configure system defaults {#configure-system-defaults}
+      * [Configure system defaults - Contents](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
       * [Configure system-wide project preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
       * [Configure system-wide task and issue preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
       * [Lock or unlock project preferences for all groups in the system](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -295,7 +299,8 @@ user-guide: null
       * [Create a scorecard](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Configure timeline recalculations for projects](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Enable custom quarters for projects](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
-    * [Configure timesheets and schedules](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
+    * Configure timesheets and schedules {#configure-timesheets-and-schedules}
+      * [Configure timesheets and schedules - Contents](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [Schedules overview](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
       * [Assign a schedule to a user or project](administration-and-setup/set-up-workfront/configure-timesheets-schedules/assign-schedule-to-user-or-project.md)
       * [Configure users to log time in hours or days](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-users-log-time-in-hrs-or-days.md)
@@ -304,7 +309,8 @@ user-guide: null
       * [Manage timesheets for all users](administration-and-setup/set-up-workfront/configure-timesheets-schedules/manage-timesheets-for-all-users.md)
       * [Create a schedule](administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
       * [Overview of locking system-level timesheet and hour preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/lock-or-unlock-timesheet-hour-preference.md)
-    * [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
+    * Organizational setup #{organizational-setup}
+      * [Organizational setup](administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
       * [Create and edit companies](administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)
       * [Associate projects and templates with companies](administration-and-setup/set-up-workfront/organizational-setup/associate-projects-templates-with-companies.md)
       * [Deactivate or reactivate a company](administration-and-setup/set-up-workfront/organizational-setup/deactivate-a-company.md)
@@ -314,10 +320,12 @@ user-guide: null
       * [Delete job roles](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
       * [Deactivate job roles](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
       * [Override job role billing rates at the company level](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
-    * [System-tracked updates feeds](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+    * System-tracked updates feeds {#system-tracked-updates-feeds}
+      * [System-tracked updates feeds - Content](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
       * [System-tracked updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
       * [Configure system updates](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
-    * [Adobe Workfront testing environments](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
+    * Adobe Workfront testing environments {#wf-testing-environments}
+      * [Adobe Workfront testing environments](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
       * [The Adobe Workfront Preview Sandbox Environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
       * [The Adobe Workfront Custom Refresh Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
   * [Add users](administration-and-setup/add-users/add-users.md)
