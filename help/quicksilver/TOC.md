@@ -1838,7 +1838,7 @@ user-guide-description: Workfront
     * [Retry error handling in Adobe Workfront Fusion](workfront-fusion/errors/retry.md)
     * [Throw error handling in Adobe Workfront Fusion](workfront-fusion/errors/throw.md)
     * [Advanced error handling in Adobe Workfront Fusion](workfront-fusion/errors/advanced-error-handling.md)
-  Functions in Adobe Workfront Fusion {#functions-in-fusion}
+  * Functions in Adobe Workfront Fusion {#functions-in-fusion}
     * [Functions in Adobe Workfront Fusion](workfront-fusion/functions/functions.md)
     * [General functions in Adobe Workfront Fusion](workfront-fusion/functions/general-functions.md)
     * [Map items using functions in Adobe Workfront Fusion](workfront-fusion/functions/map-using-functions.md)
@@ -1903,7 +1903,7 @@ user-guide-description: Workfront
     * [Restore a scenario version in Adobe Workfront Fusion](workfront-fusion/scenarios/restore-a-scenario-version.md)
     * [Copy modules or scenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/copy-modules-or-scenarios.md)
   * Workfront Fusion Apps and their modules {#fusion-apps-and-modules}
-  * [Apps and their modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
+    * [Apps and their modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
     * [Adobe Workfront modules](workfront-fusion/apps-and-their-modules/workfront-modules.md)
     * [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
     * [Adobe PDF Services](workfront-fusion/apps-and-their-modules/pdf-modules.md)
@@ -1995,14 +1995,17 @@ user-guide-description: Workfront
     * [Workday modules](workfront-fusion/apps-and-their-modules/workday-modules.md)
     * [XML](workfront-fusion/apps-and-their-modules/xml-modules.md)
   * Webhooks in Adobe Workfront Fusion {#webhooks-in-fusion}
-  * [Webhooks in Adobe Workfront Fusion](workfront-fusion/webhooks/webhooks.md)
+    * [Webhooks in Adobe Workfront Fusion](workfront-fusion/webhooks/webhooks.md)
     * [Instant triggers (webhooks) in Adobe Workfront Fusion](workfront-fusion/webhooks/instant-triggers-webhooks.md)
     * [Create a custom mailhook](workfront-fusion/webhooks/custom-mailhook.md)
-* [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
+* Adobe Workfront Integrations {#adobe-workfront-integrations}
+  * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md)
   * [Adobe Workfront built-in integrations overview](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
   * [Adobe Workfront integration methods](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-  * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-    * [Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md)
+  * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
+    * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
+    * Adobe Workfront for Photoshop {#workfront-for-photoshop}
+      * [Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md)
       * [Install Workfront for Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
       * [Find your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
       * [View work item information in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
@@ -2011,6 +2014,7 @@ user-guide-description: Workfront
       * [Upload documents from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs.md)
       * [Mark work items complete in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
       * [Log time in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+    * Adobe Workfront for XD {#workfront-for-xd}
     * [Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md)
       * [Install Workfront for Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md)
       * [Find your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-find-work.md)
