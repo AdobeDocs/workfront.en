@@ -2098,7 +2098,7 @@ user-guide-description: Workfront
     * [Create an Anaplan list item from an Adobe Workfront campaign request](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
     * [Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
   * Workfront Zoom integration {#workfront-zoom-integration}
-  * [Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration.md)
+    * [Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration.md)
     * [Zoom integration overview](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md)
     * [Authorize the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/authorize-zoom-integration.md)
     * [Uninstall the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/uninstall-zoom-integration.md)
