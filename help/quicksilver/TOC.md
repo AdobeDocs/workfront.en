@@ -263,8 +263,10 @@ user-guide-description: Workfront
     * [Reporting Canvas beta](product-announcements/betas/reporting-canvas-beta.md)
     * [Reporting Canvas beta: known issues](product-announcements/betas/reporting-canvas-known-issues.md)
     * [Campaigns beta](product-announcements/betas/campaign-object-beta.md)
-* [Administration and setup](administration-and-setup/administration-and-setup.md)
-  * [Get started with Adobe Workfront administration](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
+* Administration and setup {#administration-and-setup}
+  * [Administration and setup](administration-and-setup/administration-and-setup.md)
+  * Get started with administration {#get-started-with-wf-administration}
+    * [Get started with administration](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
     * [Defining objectives for your Adobe Workfront implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
     * [Manage available licenses in your system](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
     * [Configure basic information for your system](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
@@ -274,7 +276,8 @@ user-guide-description: Workfront
     * [Send announcements](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
     * [Browser requirements for Workfront](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
     * [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-  * [Set up Adobe Workfront](administration-and-setup/set-up-workfront/set-up-workfront.md)
+  * Set up Workfront {#set-up}
+    * [Set up Workfront](administration-and-setup/set-up-workfront/set-up-workfront.md)
     * [Configure system defaults](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
       * [Configure system-wide project preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
       * [Configure system-wide task and issue preferences](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
