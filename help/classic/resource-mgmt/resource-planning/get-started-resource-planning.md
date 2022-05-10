@@ -113,7 +113,6 @@ The following prerequisites are required only when viewing the Resource Planner 
 
 ```<li>  <ul>   <li> <!--    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have the correct access to budget resources.</p>   --> <!--    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p>   --> </li>  </ul> </li>```
 
-* 
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users who are assigned to tasks are added to the Resource Pools associated with the project.</p>
@@ -155,7 +154,6 @@ The following prerequisites are required only when viewing the Resource Planner 
   >   
   >
 
-* 
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users who are assigned to work and Resource Pools must have Schedules and Job Roles associated with their profile.</p>
@@ -170,7 +168,6 @@ The following prerequisites are required only when viewing the Resource Planner 
   </note>
   -->
 
-* 
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For accurate Available Hours information, ensure that the schedules associated with your users have the schedule exceptions and time off updated.</p>
@@ -201,10 +198,8 @@ The following prerequisites are required only when viewing the Resource Planner 
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> Your projects are associated with Resource Pools.<br>For more information about adding Resource Pools to projects, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref">Associate resource pools with projects and templates</a>.<br> <!--
   <note type="important">  Projects without Resource Pools do not display Planned Hour or assignments information in the Resource Planner.
   </note>
-  --></li>
   -->
 
-* 
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have the correct access to budget resources.</p>
@@ -235,11 +230,8 @@ The following prerequisites are required only when viewing the Resource Planner 
   <note type="note">
   Teams assigned to tasks or issues do not display in the Resource Planner. The Planned Hours of tasks and issues assigned to job roles display in the Resource Planner, but these hours cannot be budgeted unless a user who is associated with the job role is listed in a Resource Pool associated with the project.
   </note>
-  --></li>
   -->
-
-* 
-
+  
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Parent tasks should not be assigned to users or roles. </p>
   -->

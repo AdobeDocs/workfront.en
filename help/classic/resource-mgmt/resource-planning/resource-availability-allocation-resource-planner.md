@@ -96,7 +96,6 @@ Consider the following when changing your view to the Resource Planner:
 >
 >For more information about what each column displays, mouse over the name of the column in which the number is displayed.  
 >![Net_hours_res_planner_mouse_over.png](assets/net-hours-res-planner-mouse-over-350x95.png)  
-
 >
 >For more information about the data displayed in each column, see the following articles:
 >

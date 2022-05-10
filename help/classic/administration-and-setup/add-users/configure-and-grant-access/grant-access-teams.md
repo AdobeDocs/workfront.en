@@ -10,12 +10,13 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 
 >[!NOTE]
 >
->This functionality, releasing with 2022.1, does not change your users' existing access to teams. For more information, see [How users' existing access to teams remains unchanged in the 2022.1 Teams access level setting](#how-users-existing-access-to-teams-remains-unchanged-in-the-2022-1-teams-access-level-setting) in this article. >
-><!-->
+>This functionality, releasing with 2022.1, does not change your users' existing access to teams. For more information, see [How users' existing access to teams remains unchanged in the 2022.1 Teams access level setting](#how-users-existing-access-to-teams-remains-unchanged-in-the-2022-1-teams-access-level-setting) in this article.
+
+<!--
 ><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >Remove this note and the referenced section below a few months after the functionality releases>
 ></MadCap:conditionalText>>
->-->
+-->
 
 ## Access requirements
 

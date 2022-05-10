@@ -83,13 +83,11 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
 
 Workfront calculates the Budgeted Cost of Work Performed (BCWP) for a task or project using the following formulas:
 
-* 
 
   ```
   Task BCWP = Actual Percent Complete x Task Budget
   ```
 
-* 
 
   ```
   Project BCWP = SUM(BCWP values of all parent and individual tasks)

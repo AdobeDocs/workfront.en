@@ -131,7 +131,7 @@ When you import a project into a plan some project information is also imported 
 >
 >* Changes to the project never affect the initiative after you import the project into the plan.These changes include changes to the job role allocations. 
 >
->  <!-->
+>  <!--
 >  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
 >  -->
 >* Changes to the initiative affect the information in the Scenario Planner area on the project only when you publish the initiative to the corresponding project. Otherwise, they do not affect the Planned Hours information for the tasks and issues of the project. 

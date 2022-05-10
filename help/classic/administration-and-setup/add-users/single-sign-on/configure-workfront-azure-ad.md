@@ -23,8 +23,9 @@ Adobe Workfront single sign-on (SSO) supports the integration with Azure Active 
 
 >[!NOTE]
 >
->This is not available if your organization’s Workfront instance uses a custom SSO portal.>
-><!-->
+>This is not available if your organization’s Workfront instance uses a custom SSO portal.
+
+<!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >or is enabled with Adobe IMS>
 ></MadCap:conditionalText>>

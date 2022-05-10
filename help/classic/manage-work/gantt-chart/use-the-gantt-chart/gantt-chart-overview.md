@@ -14,8 +14,7 @@ description: This section contains the following articles - EDIT ME.
 
 This section contains the following articles:
 
-* [Get started with the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md) 
-* 
+* [Get started with the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/gantt-chart/use-the-gantt-chart/gantt-feature-availability.md" class="MCXref xref" xrefformat="{para}">Gantt Chart feature availability </a> </p>

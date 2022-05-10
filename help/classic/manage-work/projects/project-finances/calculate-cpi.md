@@ -138,7 +138,6 @@ The fields in this calculation are described below:
   ```
 
   <![CDATA[ ]]>
-* 
 
   ```
   Incurred Actual Expense Cost = Actual Cost

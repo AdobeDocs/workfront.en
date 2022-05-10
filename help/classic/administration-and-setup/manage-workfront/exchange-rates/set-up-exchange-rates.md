@@ -28,8 +28,7 @@ Exchange rates impact all financial elements in Workfront. The Base Currency is 
 For more information about overriding the Base Currency in Workfront for projects ```and job roles```, see the following articles:
 
 * [Change the project currency](../../../manage-work/projects/project-finances/change-project-currency.md) 
-* 
-  [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
+* [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
 
 The way that you set up exchange rates affects whether users can modify exchange rates for a given project.
 

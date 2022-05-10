@@ -22,10 +22,10 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 
 >[!IMPORTANT]
 >
-><!-->
+><!--
 ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Budgeted Hours are updated every hour in the Adobe Workfront database. Refreshing the report does not necessarily refresh the hour information in it. You can view the time lapsed since the last update in the upper-right corner of every Budgeted Hour report. Refreshing the report refreshes the information in it only when there has been more than one hour since the last update. </p>>
 >-->
-><!-->
+><!--
 ><p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/budgeted-hour-report-time-sync-warning-350x74.png" style="width: 350;height: 74;"> </p>>
 >-->
 

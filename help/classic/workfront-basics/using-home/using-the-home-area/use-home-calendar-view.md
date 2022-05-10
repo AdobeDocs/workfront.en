@@ -18,7 +18,7 @@ You can use the Calendar view in the Home area to manage your work day and work 
 >
 >The Calendar view in the Home area is different from a Adobe Workfront Calendar report, which is a&nbsp;dynamic report that provides a visual representation of your work. For information about the Workfront Calendar report, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 >
->  <!-->
+>  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future.&nbsp;(NOTE: From&nbsp;Alina: Spoke with Lisa and Court and they agreed to draft or delete this. Court could not remember what this was referring to and Lisa did not add this note. Lisa might update this if she hears from the team that this is still accurate.)</li>>
 >  -->
 

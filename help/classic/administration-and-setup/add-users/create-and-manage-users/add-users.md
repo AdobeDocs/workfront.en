@@ -119,12 +119,10 @@ You can create a user by copying an existing user.
 >* The information in the Personal Info section.
 >* When I log in, show: The default landing tab for the access level is selected in this box.
 >* In the Global Nav bar show: The default tabs for the access level are selected in this box.  
-
 >
 >  For more information about how the default landing tab is based on the access level of the user, see the [Default layouts for each access level](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md#default-layouts-for-access-levels) section in&nbsp; [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 >
 >* Direct Reports
->
 
 To create new user by copying an existing one:
 

@@ -16,12 +16,13 @@ For security reasons, it is important to log out of Adobe Workfront regularly. B
 
 >[!NOTE]
 >
->Normally a Workfront administrator can change this amount of time to anywhere between 15 minutes and 7 days of inactivity, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), but this functionality is currently unavailable. We are working on authentication enhancements that will allow automatic log out after a specified period of inactivity. >
-><!-->
+>Normally a Workfront administrator can change this amount of time to anywhere between 15 minutes and 7 days of inactivity, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), but this functionality is currently unavailable. We are working on authentication enhancements that will allow automatic log out after a specified period of inactivity. 
+
+<!--
 ><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>>
->-->
+-->
 
 ## Access requirements
 

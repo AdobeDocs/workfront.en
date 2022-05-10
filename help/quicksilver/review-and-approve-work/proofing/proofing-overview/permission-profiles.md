@@ -249,13 +249,13 @@ Managers have the following permissions:
 
 >[!NOTE]
 >
-><!-->
+><!--
 ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited.&nbsp;</p>>
 >-->
->  <!-->
+>  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
 >  -->
->  <!-->
+>  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing </li>>
 >  -->
 

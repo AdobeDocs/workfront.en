@@ -62,7 +62,7 @@ You must have the following before you can start:
 >[!NOTE]
 >
 >To efficiently find and focus on the right goals, we recommend that you use filters in Workfront Goals. This allows you to display the correct information before you start managing goals that are important to you. By default, Workfront Goals displays all goals in the system. >
-><!-->
+><!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(NOTE: this might change with sharing; sharing allows everyone to VIEW everything but not manage everything.)>
 ></MadCap:conditionalText>>

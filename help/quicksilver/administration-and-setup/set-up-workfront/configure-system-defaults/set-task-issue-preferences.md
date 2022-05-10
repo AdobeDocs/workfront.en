@@ -141,7 +141,7 @@ You must have the following access to perform the steps in this article:
 >[!TIP]
 >
 >```This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.``` >
-><!-->
+><!--
 ><span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">NWE only</span>>
 >-->
 
