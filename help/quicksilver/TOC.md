@@ -2010,7 +2010,6 @@ user-guide-description: Workfront
     * [Zoom integration overview](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md)
     * [Authorize the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/authorize-zoom-integration.md)
     * [Uninstall the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/uninstall-zoom-integration.md)
-  * Set up the AEM cloud connector {#set-up-aem-cloud-connector}
 * [Workfront Library](workfront-library/workfront-library.md)
   * [Administration and setup of Workfront Library](workfront-library/administration-and-setup/administration-and-setup-library.md)
     * [Workfront Library Setup](workfront-library/administration-and-setup/workfront-library-setup/workfront-library-setup.md)
