@@ -63,7 +63,7 @@ After your Workfront administrator grants you one of these license types, they m
 >
 >```Workfront allows you to assign more Workfront Goals licenses that you have purchased. However, when you assign more licenses than what your Workfront Goals contract allows, a Workfront account manager will contact you to let you know that you have exceeded your contractual number.```
 
-##  Add Workfront Goals to a layout template {#add-workfront-goals-to-a-layout-template}
+## Add Workfront Goals to a layout template {#add-workfront-goals-to-a-layout-template}
 
 Your Workfront or Group administrator must assign you a Layout Template that includes the Goals area in the Main Menu so you can access Workfront Goals.
 

@@ -254,7 +254,7 @@ You can build filters using the text mode interface. We recommend to build most 
 
 For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-##  Create filters for complex fields
+## Create filters for complex fields
 
 * [Create filters for fields whose values contain commas](#create-filters-for-fields-whose-values-contain-commas) 
 * [Create filters for whose values are a multi-select custom field](#create-filters-for-whose-values-are-a-multi-select-custom-field)

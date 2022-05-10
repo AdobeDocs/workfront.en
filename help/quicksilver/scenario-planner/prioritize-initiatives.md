@@ -16,7 +16,7 @@ For information about creating plans, see [Create and edit plans in the Scenario
 
 For information about creating initiatives, see [Create and edit initiatives in the Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
 
-##  Access requirements
+## Access requirements
 
 <table cellspacing="15"> 
  <col> 

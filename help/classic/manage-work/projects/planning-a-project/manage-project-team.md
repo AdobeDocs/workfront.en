@@ -101,7 +101,7 @@ You can manually add users to a project team by using the Team Scheduling tab.
 
 For more information about using the project scheduling area, see the article [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
-##  Update the users' roles on the Project Team
+## Update the users' roles on the Project Team
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE" this is not possible in NWE - logged a bug but Matt Mitchell said we should not support this: https://hub.workfront.com/issue/6189a2a20009e5b1a7a6d51b2d0407e9/overview)</p>

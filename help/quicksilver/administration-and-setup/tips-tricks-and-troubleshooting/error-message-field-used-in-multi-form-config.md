@@ -10,7 +10,7 @@ description: When you change a calculation on a calculated custom field on a cus
 
 # Error message: There is a slight problem. That field is used in a multi-form configuration
 
-##  Problem
+## Problem
 
 When you change a calculation on a calculated custom field on a custom form, Adobe Workfront might display the following warning:
 

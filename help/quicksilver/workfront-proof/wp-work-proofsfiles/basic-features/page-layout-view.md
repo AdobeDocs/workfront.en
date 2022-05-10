@@ -23,7 +23,7 @@ You can adjust the page layout on the Views tab. The following layout options ar
 
   ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
 
-##  Thumbnail List
+## Thumbnail List
 
 * Shows proof image/file icon, proof or file name plus standard view columns
 * The proof actions menu is located at the right-hand side of the line (1)
@@ -38,7 +38,7 @@ You can adjust the page layout on the Views tab. The following layout options ar
 
   ![Page_views_-_thumbnails_view.png](assets/page-views---thumbnails-view-350x156.png)
 
-##  Changing Your Page Layout
+## Changing Your Page Layout
 
 To change the page layout on your dashboard or trash page, choose your preferred view by clicking one of the view buttons at the top of the page:
 

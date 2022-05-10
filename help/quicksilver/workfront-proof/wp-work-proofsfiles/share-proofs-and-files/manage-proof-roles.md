@@ -201,7 +201,7 @@ You can check the role of a reviewer directly from the Proof Viewer (1) and edit
 
 ![Proof_roles_-_Proof_Viewer.png](assets/proof-roles---proof-viewer-350x300.png)
 
-##  Default Proof Roles
+## Default Proof Roles
 
 You can set your default proof role on the Proofing Defaults page in your Personal settings. This means that when you are added to a proof, your default proof role will be populated automatically. Please note that this role can be changed at the proof level by a user with edit rights on a proof.
 

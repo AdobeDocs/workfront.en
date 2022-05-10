@@ -98,7 +98,7 @@ When you complete this workflow, you should be ready to use the new Resource Man
 
 1. **Review Prerequisites.** For a full list of prerequisites that must be met before starting planning your resources in the Resource Budgeting section of the project, or in the Resource Planner, see " [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md)
 
-###  Budget resources in the new resource management tools  {#budget-resources-in-the-new-resource-management-tools}
+### Budget resources in the new resource management tools  {#budget-resources-in-the-new-resource-management-tools}
 
 We are going to assume that your resources have been previously budgeted in the Legacy Resource Estimates section of the projects
 

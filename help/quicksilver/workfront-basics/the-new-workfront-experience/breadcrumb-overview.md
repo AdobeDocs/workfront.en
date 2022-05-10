@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
-##  Access a parent object in the breadcrumbs
+## Access a parent object in the breadcrumbs
 
 For information about parent objects in&nbsp;Adobe Workfront administrator, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 

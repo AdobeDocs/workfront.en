@@ -64,7 +64,7 @@ Here (3) you can access your:
 >
 >The visibility of the above menus depends on your profile. Please see User profiles and permissions for more information.
 
-###  Help
+### Help
 
 Here (4) you can access:
 
@@ -75,11 +75,11 @@ Here (4) you can access:
 >
 >With our Select and Premium plans you can configure the Help options to point your users to your own content. Please see our Advanced branding options for more details.
 
-###  Logout
+### Logout
 
 Click here to log out of your account.
 
-##  The new menu
+## The new menu
 
 To open the New menu,
 
@@ -169,7 +169,7 @@ The sidebar has links to the following pages:
 
 The Sidebar is described in more detail on the Sidebar help page.
 
-###  Welcome section
+### Welcome section
 
 The Welcome section has the following useful links:
 

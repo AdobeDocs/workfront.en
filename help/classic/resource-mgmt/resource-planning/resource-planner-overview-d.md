@@ -48,12 +48,12 @@ You can find the following areas in the Resource Planner:
 
 ![](assets/rp-areas-of-the-planner-outlines-350x230.png)
 
-##  Timeline of Projects  {#timeline-of-projects}
+## Timeline of Projects  {#timeline-of-projects}
 
 Use the calendar at the top of the Resource Planner to navigate the&nbsp;timeline of the projects you are viewing. The timeline starts with today's month, by default.  
 For more information about&nbsp;changing the timeframe of the timeline you are displaying in the Resource Planner, see [Timeframe Selection](#timeframe-selection).
 
-##  Timeframe Selection  {#timeframe-selection}
+## Timeframe Selection  {#timeframe-selection}
 
 By default, the Resource Planner shows resource information for three or four months at a time, starting with the current month. The number of time periods displayed depends on the width of your screen.&nbsp;You cannot display more than four time periods in the Resource Planner.
 
@@ -108,7 +108,7 @@ Consider the following when selecting the Project view in the Resource Planner:&
 * When this view is applied, the Role Hours, FTE or Cost add up to the Project&nbsp;Hours, FTE or Cost.  
   ![resource_planner_view_by_project.png](assets/resource-planner-view-by-project-350x228.png)
 
-###  View by Role  {#view-by-role}
+### View by Role  {#view-by-role}
 
 Consider the following when selecting the Role view in the Resource Planner:&nbsp;
 
@@ -121,7 +121,7 @@ Consider the following when selecting the Role view in the Resource Planner:&nbs
 * When this view is applied, the Project&nbsp;Hours, FTE or Cost add up to the Role&nbsp;Hours, FTE or Cost.  
   ![resource_planner_view_by_role.png](assets/resource-planner-view-by-role-350x222.png)
 
-###  View by User  {#view-by-user}
+### View by User  {#view-by-user}
 
 You can display the Resource Planner in the User view to understand the difference between the Planned and the Available Hours or FTE for your users.&nbsp;
 
@@ -388,7 +388,7 @@ In the Project and Role views, users could appear listed under the following typ
 
 For more information about the&nbsp;**Percentage of FTE Availability**&nbsp;for a job role, see&nbsp; [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-##  "No Role" and "No User" Sections  {#no-role-and-no-user-sections}
+## "No Role" and "No User" Sections  {#no-role-and-no-user-sections}
 
 * ["No Role" Section](#no-role-section) 
 * ["No User" Section](#no-user-section)
@@ -474,7 +474,7 @@ Consider the following when you enable this setting:
 * &nbsp;W **hen the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.* 
   ![RP_settings_expanded.png](assets/rp-settings-expanded-350x215.png)
 
-##  Full Screen Option  {#full-screen-option}
+## Full Screen Option  {#full-screen-option}
 
 You can display the Resource Planner in full screen, to enlarge the amount of information you can view on the screen.&nbsp;
 
@@ -489,7 +489,7 @@ To display the Resource Planner in full screen:
 
 1. (Optional) Click the **Close Full Screen icon** to revert to the previous display.&nbsp;
 
-##  Hours/ FTE/ Cost View Selection  {#hours-fte-cost-view-selection}
+## Hours/ FTE/ Cost View Selection  {#hours-fte-cost-view-selection}
 
 The type of information displayed is different depending on which view you apply to the Resource Planner.&nbsp;
 

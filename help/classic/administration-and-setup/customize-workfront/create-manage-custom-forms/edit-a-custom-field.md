@@ -51,7 +51,7 @@ You must have the following to perform the steps in this article:
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or<!--
    <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [future]</span>
-   --></p>
+   </p>
    -->
 
    <!--
@@ -59,7 +59,7 @@ You must have the following to perform the steps in this article:
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
    </MadCap:conditionalText>
-   -->, click the <b>Widget Library</b> tab.</p>
+   , click the <b>Widget Library</b> tab.</p>
    -->
 
 1. Select the custom field, section break, or widget, then click **Edit**.

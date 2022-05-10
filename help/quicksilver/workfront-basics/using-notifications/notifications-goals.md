@@ -56,7 +56,7 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-##  Prerequisites
+## Prerequisites
 
 The user whose Goals notifications are updated must have the following:
 

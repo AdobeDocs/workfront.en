@@ -16,7 +16,7 @@ You can build intermediary processing components that can help you filter and pr
 
 To learn about event subscriptions, see [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-##  Filtering Event Messages {#filtering-event-messages}
+## Filtering Event Messages {#filtering-event-messages}
 
 This section contains code snippets of filtering that you can implement to lessen the load of event subscription messages.  ```To help show the differences in various languages' syntax, these snippets illustrate the same set of filters written in the following languages:```
 
@@ -24,7 +24,7 @@ You can view examples of filtering at [https://github.com/workfront/workfront-ev
 
 The following code snippets are near deployment-ready and can be used as a starting point for helping you write your own, more complex, filters and processing components.
 
-###  Java {#java}
+### Java {#java}
 
 The following example in Java shows how to filter project payloads based on the Group ID of the project, as done in&nbsp; [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
 
@@ -237,7 +237,7 @@ You can avert a retry by&nbsp; ```separating the time-consuming parts of the pro
     return projects;
 }</span></pre>```By querying for resources, you ensure that your integrating systems have the most current version of resources. `````````
 
-####  
+#### 
 
 ### Implementing Asynchronous Processing in Delivering Messages
 

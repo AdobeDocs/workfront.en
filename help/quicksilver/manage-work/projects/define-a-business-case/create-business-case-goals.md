@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-##  Add a goal to the Business Case of a project
+## Add a goal to the Business Case of a project
 
 1. Go to a project for which you want to define Business Case goals.  
 1. Click **Business Case in the left panel.**

@@ -21,7 +21,7 @@ There are two types of Documents areas. Features and functionality are the same 
 
 For information about uploading documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-##  Summary panel
+## Summary panel
 
 When you select a document in the documents area, you can use the Summary on the right to view document Details, manage document updates and approvals, view versions of the document, and add and edit Custom Forms for the document.
 

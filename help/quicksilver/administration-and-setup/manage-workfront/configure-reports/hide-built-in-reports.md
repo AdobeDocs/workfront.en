@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-##  Hide built-in reports
+## Hide built-in reports
 
 1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Setup**. 
 1. Click **Access Levels**.

@@ -43,7 +43,7 @@ Depending on the number of files and proofs moving process&nbsp;may take anythin
 
 ## Items That Can't be Moved
 
-###  Folders Created or Owned by the Moved User
+### Folders Created or Owned by the Moved User
 
 Due to the nature of various permissions applied&nbsp;to folders and its contents (e.g., they may be shared with other users and accounts) we are unable to move folder structures with the user.
 

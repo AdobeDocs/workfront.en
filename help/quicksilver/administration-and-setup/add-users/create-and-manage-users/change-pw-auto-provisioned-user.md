@@ -57,7 +57,8 @@ You must have the following access to perform the steps in this article:
 ## Change the password for an auto-provisioned user
 
 1. Determine a user's GUID user name by passing an API request, as shown in the following example:
-   <pre><a href="https://domain.my.workfront.com/attask/api/v10/USER/search?fields=Username&ID=">https://<domain>.my.workfront.com/attask/api/v14.0/USER/search?fields=username&ID=<ID of User></a></pre>Where *<domain>* is your company's domain and *<ID of User>* is the user's Workfront ID.
+
+   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&ID=`<ID of User>` Where *`<domain>`* is your company's domain and *`<ID of User>`* is the user's Workfront ID.
 
    You receive a response similar to the following:
 

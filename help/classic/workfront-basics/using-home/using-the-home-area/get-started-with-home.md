@@ -52,7 +52,7 @@ The Home area is your one-stop shop to find tasks, issues, and approvals assigne
 >
 >The filter and sort options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the filters and sorting will not change, but if you switch browsers or computers then the filters and sorting will be different.<![CDATA[   ]]>
 
-###  Group similar work items together with the Sort By option
+### Group similar work items together with the Sort By option
 
 The Sort by option allows you to group like items in the Work List. You can sort by:
 

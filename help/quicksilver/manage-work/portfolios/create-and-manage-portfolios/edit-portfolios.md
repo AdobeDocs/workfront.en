@@ -179,5 +179,5 @@ You must have the following access to perform the steps in this article:
 1. (Optional)&nbsp;Click the **Lock** icon to lock the comment and make it private to only users in your company. 
 1. Click&nbsp;**Save Changes**.
 
-####  
+#### 
 

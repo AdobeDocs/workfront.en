@@ -132,7 +132,7 @@ The Maximum number of returned files in the Dropbox > Watch files module is set 
 
 If 100 requests are submitted to Workfront, and the Limit field is set to 10, then 90 files are left unprocessed after one scenario run. The next 10 files are processed in the next scheduled scenario execution.
 
-###  Max number of cycles is set to 10
+### Max number of cycles is set to 10
 
 The Maximum number of returned files in the Dropbox > Watch files module is set to 
 

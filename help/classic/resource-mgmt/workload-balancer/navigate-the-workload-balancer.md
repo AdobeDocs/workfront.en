@@ -83,7 +83,7 @@ Consider the following when viewing the Workload Balancer:
 
   The Planned Hours information for the project is a total of Planned Hours from all items listed in the Workload Balancer, and not a total of Planned Hours on the project.
 
-##  Overview of the Unassigned Work and Assigned Work areas
+## Overview of the Unassigned Work and Assigned Work areas
 
 The Workload Balancer displays work items in two separate areas, depending on their assignments.
 

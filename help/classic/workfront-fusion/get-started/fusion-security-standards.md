@@ -29,7 +29,7 @@ Connected applications that support OAuth2 can revoke Workfront Fusion’s acces
 
 Administrators using Workfront Fusion can never retrieve any information related to credentials (such as usernames or the target URL of other systems).
 
-##  Connector Authorization
+## Connector Authorization
 
 Workfront Fusion uses the connected application's own authorization mechanisms to ensure that users have access only to the information and actions for which they are authorized. If a user’s credentials do not allow them to access information in the connecting application, they cannot access that information within Workfront Fusion.
 

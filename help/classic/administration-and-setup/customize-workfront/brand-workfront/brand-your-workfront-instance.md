@@ -60,7 +60,7 @@ If you log in to Workfront using SSO and you use a custom SSO portal instead of 
 * [Add or change your logo on the login screen](#add-or-change-your-logo-on-the-login-screen) 
 * [Add a background color and image to the login screen](#add-a-background-color-and-image-to-the-login-screen)
 
-###  Add or change your logo on the login screen {#add-or-change-your-logo-on-the-login-screen}
+### Add or change your logo on the login screen {#add-or-change-your-logo-on-the-login-screen}
 
 For the best results, we recommend that the dimensions of the image you upload is larger than 20 x 20 pixels and smaller than 300 x 120 pixels. You can upload images with any of the following formats: PNG, JPG, GIF, and SVG.
 

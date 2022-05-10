@@ -40,7 +40,7 @@ For information about building up a plan to migrate to the Workload Balancer, se
 >
 >Please note that the changes described in this article do not affect any other resource management tools.&nbsp;For example, they do not affect the Resource Planner or the Utilization&nbsp;report.
 
-##  Deprecation timeline highlights
+## Deprecation timeline highlights
 
 >[!IMPORTANT]
 >

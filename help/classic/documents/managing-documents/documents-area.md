@@ -25,7 +25,7 @@ There are two types of Documents areas. Features and functionality are the same 
 
 For information about uploading documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-##  Right panel
+## Right panel
 
 While you select a document in the documents area, you can use the right panel to view document **Details**, manage document **Updates** and approvals, and add and edit **Custom Forms**. You can click the double arrow ![](assets/double-arrow-icon-collaps-rt-panel.png) at the top left of this panel to collapse it when you don't need it.
 

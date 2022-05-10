@@ -123,7 +123,7 @@ Duration Type helps to answer the following questions:
  </tbody> 
 </table>
 
-##  The Duration&nbsp;Type of new tasks
+## The Duration&nbsp;Type of new tasks
 
 The Duration Type of a new task matches the Duration Type set up in your system. The default Duration Type is Calculated Assignment. Your Workfront administrator ```or a group administrator``` can update the default Duration Type for your system ```or for the group associated with the project```.&nbsp;For information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

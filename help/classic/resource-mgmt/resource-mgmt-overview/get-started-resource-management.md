@@ -146,7 +146,7 @@ For information about the access needed to budget resources, see the article [Ac
 
 For information about the access needed to manage resources in the Workload Balancer, see [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
-##  Prerequisites for accurate resource management  {#prerequisites-for-accurate-resource-management}
+## Prerequisites for accurate resource management  {#prerequisites-for-accurate-resource-management}
 
 You must meet a set of requirements before you can efficiently use the resource management tools in Workfront.
 

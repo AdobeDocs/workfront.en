@@ -80,7 +80,7 @@ You must have the following to perform the steps in this article:
    
    * [Access](#access)
 
-   ### New Task Defaults {#new-task-defaults}
+### New Task Defaults {#new-task-defaults}
 
    <table cellspacing="0"> 
     <col> 
@@ -105,7 +105,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-   ### Issues {#issues}
+### Issues {#issues}
 
    <table cellspacing="0"> 
     <col> 
@@ -142,7 +142,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-   ### Deletion {#deletion}
+### Deletion {#deletion}
 
    <table cellspacing="0"> 
     <col> 
@@ -163,7 +163,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-   ### Actual Dates {#actual-dates}
+### Actual Dates {#actual-dates}
 
    <table cellspacing="0"> 
     <col> 
@@ -220,7 +220,7 @@ You must have the following to perform the steps in this article:
    </div>
    -->
 
-   ### Access {#access}
+### Access {#access}
 
    <table cellspacing="0"> 
     <col> 

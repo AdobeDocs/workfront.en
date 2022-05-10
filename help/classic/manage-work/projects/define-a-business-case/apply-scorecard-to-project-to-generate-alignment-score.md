@@ -168,7 +168,7 @@ For more information about the information displayed in the Portfolio Optimizer,
 
    This is the alignment score of the project based on the scorecard associated with the project.
 
-####  Locate the Alignment Score of the portfolio in the Portfolio Optimizer  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
+#### Locate the Alignment Score of the portfolio in the Portfolio Optimizer  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
 1. Go to the **Projects** area in the Global Navigation bar.
 1. Select the **Portfolios** tab.

@@ -104,9 +104,9 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 1. In the address bar of a browser, enter the following API call:
 
-   **<domain>**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+   **`<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
 
-   Replace <domain> with your Workfront domain name, and username and password with the user's Workfront credentials.
+   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
 
 1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 

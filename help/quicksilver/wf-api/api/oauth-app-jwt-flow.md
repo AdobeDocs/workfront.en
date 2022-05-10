@@ -18,7 +18,7 @@ In order to integrate with Workfront and allow your client app to communicate wi
 
 For instructions on creating the OAuth2 application, see [Create an OAuth2 application using server authentication (JWT flow)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
-##  Create a Public Key Certificate
+## Create a Public Key Certificate
 
 The JWT must be signed and base-64 encoded for inclusion in the access request. The JWT libraries provide functions to perform these tasks.
 

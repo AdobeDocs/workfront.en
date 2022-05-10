@@ -82,7 +82,7 @@ You must have the following to perform the steps in this article:
    
    * [Access](#access)
 
-   ### New Task Defaults {#new-task-defaults}
+### New Task Defaults {#new-task-defaults}
 
    <table cellspacing="0"> 
     <col> 
@@ -107,7 +107,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-   ### Issues {#issues}
+### Issues {#issues}
 
    <table cellspacing="0"> 
     <col> 
@@ -144,7 +144,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-   ### Deletion {#deletion}
+### Deletion {#deletion}
 
    <table cellspacing="0"> 
     <col> 
@@ -164,7 +164,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-   ### Actual Dates {#actual-dates}
+### Actual Dates {#actual-dates}
 
    <table cellspacing="0"> 
     <col> 
@@ -204,9 +204,9 @@ You must have the following to perform the steps in this article:
    <ol>
    <li value="1"> <p>Select <strong>Change the Work On It button to a Start button to automatically update the status of an item</strong>.</p> </li>
    <li value="2"> <p>In the lists of check boxes that display below this option, select one or more statuses for each work item type.</p> <p>With multiple statuses selected here, when a user clicks Start on a work item, a drop-down menu lets the user choose a status for the item.</p> </li>
-   </ol> <note type="note">
+   </ol>
    <ul class="preview">
-   <li>Making this change does not affect tasks and issues where the Actual Start Date was already updated. For these, the button displays as Work On It even if it is replaced with the Start button.</li>
+   <li>NOTE: Making this change does not affect tasks and issues where the Actual Start Date was already updated. For these, the button displays as Work On It even if it is replaced with the Start button.</li>
    <li>If you select New as a status for a work item type (in step 2 above), the Actual Start Date does not update when a user clicks the Start button and then chooses New. This is because a Workfront item is not yet in progress (therefore not yet started) when New is its current status.</li>
    <li>This setting is not currently available in
    <ul>
@@ -221,7 +221,7 @@ You must have the following to perform the steps in this article:
    </div>
    -->
 
-   ### Access {#access}
+### Access {#access}
 
    <table cellspacing="0"> 
     <col> 

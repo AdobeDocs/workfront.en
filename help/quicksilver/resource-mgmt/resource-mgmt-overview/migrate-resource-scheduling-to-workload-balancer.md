@@ -15,7 +15,7 @@ description: We want you to experience as little work disruption as possible by 
 
 We want you to experience as little work disruption as possible by helping you design a migration plan. The steps below will help you get your team trained and determine the best time for you to switch to the Workload Balancer.
 
-##  Locate the Resource Scheduling tools
+## Locate the Resource Scheduling tools
 
 You and your teams may be using some of the Resource Scheduling tools in the following areas of Adobe Workfront:
 
@@ -25,7 +25,7 @@ You and your teams may be using some of the Resource Scheduling tools in the fol
 
 With this deprecation, these Resource Scheduling will eventually be replaced by the Workload Balancer.
 
-##  Step 1: Get your teams trained
+## Step 1: Get your teams trained
 
 If you use the new Adobe Workfront experience, take the training [Resource Management Program for the new Adobe Workfront experience](https://one.workfront.com/s/resource-management-program-nwe) (75 minutes) on Workfront One.
 
@@ -33,7 +33,7 @@ If you use Adobe Workfront Classic, take the training [Resource Manager Training
 
 If you experience difficulty logging in or accessing the courses, contact our Customer Support.&nbsp;For information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-##  Step 2: Determine the best time to migrate {#step-2-determine-the-best-time-to-migrate}
+## Step 2: Determine the best time to migrate {#step-2-determine-the-best-time-to-migrate}
 
 Follow the steps below to determine when the best time to migrate is for you:
 
@@ -44,7 +44,7 @@ Follow the steps below to determine when the best time to migrate is for you:
 1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item. For information about managing allocations in the Resource Scheduler, see the “Modify user allocations” section of the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 1. Using the information gathered from Steps 1 and Step 2, decide which version of Step 3 you should continue with based on the needs of your organization.
 
-##  Step 3: Migrate to the Workload Balancer {#step-3-migrate-to-the-workload-balancer}
+## Step 3: Migrate to the Workload Balancer {#step-3-migrate-to-the-workload-balancer}
 
 We have identified the following versions for this step, depending on your findings in Step 2:
 

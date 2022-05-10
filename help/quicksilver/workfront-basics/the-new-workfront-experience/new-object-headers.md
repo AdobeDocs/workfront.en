@@ -380,7 +380,7 @@ The portfolio header includes the following information:
  </tbody> 
 </table>
 
-##  Template header overview {#template-header-overview}
+## Template header overview {#template-header-overview}
 
 ![](assets/template-header-350x18.png)
 

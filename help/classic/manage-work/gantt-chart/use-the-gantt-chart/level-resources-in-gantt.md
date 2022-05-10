@@ -109,16 +109,15 @@ You can use the Task List Gantt Chart to level your resources. For information o
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic">
-<h2 data-mc-conditions="QuicksilverOrClassic.Classic"><a name="resource-leveling-in-gantt"></a>Apply Resource Leveling in the Legacy Gantt Chart</h2> <!--
+<h2 data-mc-conditions="QuicksilverOrClassic.Classic"><a name="resource-leveling-in-gantt"></a>Apply Resource Leveling in the Legacy Gantt Chart</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;drafted, because it's removed from the system)</p>
--->
 <ol>
 <li value="1" data-mc-conditions="QuicksilverOrClassic.Classic">Navigate to a project.</li>
 <li value="2" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>More</strong>, then click <strong>Legacy Gantt</strong>. <p data-mc-conditions="QuicksilverOrClassic.Classic"><img src="assets/1-350x173.png" alt="" style="width: 350;height: 173;"></p></li>
 <li value="3" data-mc-conditions="QuicksilverOrClassic.Classic">Click&nbsp;the <strong>Resource Leveling</strong> drop-down menu. <p data-mc-conditions="QuicksilverOrClassic.Classic"><img src="assets/2-350x89.png" alt="" style="width: 350;height: 89;"></p></li>
 <li value="4" data-mc-conditions="QuicksilverOrClassic.Classic">Select <strong>Level Now</strong>.<br>Workfront automatically finds the next available time from the schedule of the over-allocated users, and moves over-allocated tasks to another time. By default, Workfront will look at the task ID number to prioritize this adjustment. In general, tasks with lower ID numbers take precedence over tasks with higher ID numbers.</li>
-<li value="5" data-mc-conditions="QuicksilverOrClassic.Classic">(Optional) Select <strong>Clear Leveling</strong>, to remove all resource leveling from the project.<br><note type="note">
-Your resources might be overallocated if they are assigned to multiple tasks which occur during the same time frame.
+<li value="5" data-mc-conditions="QuicksilverOrClassic.Classic">(Optional) Select <strong>Clear Leveling</strong>, to remove all resource leveling from the project.<br>
+NOTE: Your resources might be overallocated if they are assigned to multiple tasks which occur during the same time frame.
 </note></li>
 <li value="6" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Save</strong>.&nbsp;</li>
 </ol>
@@ -127,7 +126,7 @@ Your resources might be overallocated if they are assigned to multiple tasks whi
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="leveling-delay"></a>Overview of Leveling Delay</h2> <!--
+<h2><a name="leveling-delay"></a>Overview of Leveling Delay</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article: /Content/Manage work/Tasks/Task information/task-leveling-delay.htm) </p>
 -->
 <p>At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic&nbsp;schedule. </p>

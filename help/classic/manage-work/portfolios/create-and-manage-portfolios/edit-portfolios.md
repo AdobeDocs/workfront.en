@@ -131,9 +131,10 @@ You must have the following access to perform the steps in this article:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
-<h2>Edit portfolios in a list</h2> <!--
+<h2>Edit portfolios in a list</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is drafted for right now, but it might change (especially for NWE) - keeping it to easily copy it to NWE if needed.)</p>
 -->
+<!--
 <ol>
 <li value="1"> <p>Go to a list of portfolios and select one or more portfolios that you want to edit, then click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> at the top of the list. </p> <p>The <strong>Edit Portfolio</strong> dialog box displays.</p> <p> <img src="assets/edit-portfolio-box-classic-350x224.png" style="width: 350;height: 224;"> </p> <p>All portfolio fields are available in the Edit Portfolio box and are grouped by the areas listed in the left panel. </p> </li>
 <li value="2">Consider specifying information in any of the following sections:

@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 The Work List allows you to view all of the tasks and issues assigned to you in one place. You can use the Sort by option to group items together and then use the Filter to focus in on work that needs to be completed.
 
-###  Group similar work items together with the Sort By option
+### Group similar work items together with the Sort By option
 
 Use the Sort by option to group similar items in the Work List. You can sort by:
 

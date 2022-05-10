@@ -62,7 +62,7 @@ You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main&nbsp;Menu.
 
-##  Considerations about removing goal alignment
+## Considerations about removing goal alignment
 
 Consider the following when removing alignment between two goals:
 

@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-##  Hide built-in reports
+## Hide built-in reports
 
 1. Click **Setup** in the Global Navigation Bar. 
 1. Click **Access Levels**.
