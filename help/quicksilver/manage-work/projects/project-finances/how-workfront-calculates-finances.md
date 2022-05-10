@@ -185,15 +185,11 @@ TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed f
 
 * ELSE * CPI = 1
 
-****
-
 ### **EAC**
 
 * IF * CPI <> 0 * THEN * EAC = Planned Hours / CPI
 
 * ELSE * EAC = Planned Hours + Actual Hours
-
-****
 
 ## **PIM =Cost-Based**
 
@@ -238,8 +234,6 @@ ELSE CPI_Labor = 1
 **EAC Labor** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
 * ELSE * EAC Labor = Planned Labor Cost + Actual Labor Cost
-
-****
 
 **EAC Expense** = IncurredActualExpenseCost + NotIncurredPlannedExpense
 
@@ -347,8 +341,6 @@ Task 3 = .24 / 62.5 hrs
 **EAC for Project** = 30 / .13333
 
 **EAC for Project** = 225 hrs
-
-****
 
 ### **Complicated Example: Project has child tasks**
 
@@ -528,8 +520,6 @@ Task 6: 1.2 / 16.67 hrs
 
 **CPI for Project** = .22
 
-****
-
 1. **EAC for Project** = 224.49 hrs calculated as follows:
 
 **EAC for Project** = * IF * CPI <> 0 * THEN * EAC = Planned Hours / CPI
@@ -539,8 +529,6 @@ Task 6: 1.2 / 16.67 hrs
 **EAC for Project** = 50 / .22272
 
 **EAC for Project** = 224.49 hrs
-
-****
 
 ## **PIM = Cost-Based**
 
@@ -820,8 +808,6 @@ ELSE CPI_Labor = 1
 
 **EAC****Project** = $28,200.00
 
-****
-
 ### **Complicated Example: Project has child tasks**
 
 PIM = Cost-Based
@@ -1064,8 +1050,6 @@ Task 6
  </tbody> 
 </table>
 
-****
-
 1. Add two expenses to the project (i.e. not tied to a task) as follows:
 
 &nbsp;
@@ -1245,8 +1229,6 @@ ELSE CPI_Labor = 1
 **CPI Labor****Task 3** = .383333
 
 **CPI Labor****Task 3** = .38
-
-****
 
 **EAC Labor****Task 3** = * IF * CPI_Labor <> 0 * THEN * EAC Labor = Planned Labor Cost / CPI_Labor
 
@@ -1487,8 +1469,6 @@ Task 3 = .24 / 62.5 hrs
 
 **EAC for Project** = 270.83 hrs
 
-****
-
 ### **Complicated Example: Project has child tasks**
 
 PIM = Hour-Based
@@ -1670,8 +1650,6 @@ Task 6 = 1.2 / 16.67 hrs
 **EAC for project** = 95 + 16.67
 
 **EAC for project** = 111.67 hrs
-
-****
 
 &nbsp;
 
@@ -1889,8 +1867,6 @@ ELSE CPI_Labor = 1
 **EAC****for Task 1** = $12,500.00 + $900.00
 
 **EAC****for Task 1** = $13,400.00
-
-****
 
 1. Here are the CPI / EAC values for Task 2 and Task 3:
 
@@ -2167,8 +2143,6 @@ Task 6
   </tr> 
  </tbody> 
 </table>
-
-****
 
 1. Add two expenses to the project (i.e. not tied to a task) as follows:
 

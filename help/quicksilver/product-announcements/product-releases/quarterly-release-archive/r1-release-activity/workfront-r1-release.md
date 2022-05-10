@@ -38,8 +38,6 @@ Make Workfront more relevant to your team by leveraging the custom terminology f
 
 For more information see:&nbsp; [R1 Preview 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
-****
-
 **Milestone View** 
 New progress status icons let you get more out of your milestone reports. Also, you may now edit percent complete directly from the milestone view.
 

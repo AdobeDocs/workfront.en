@@ -3,7 +3,7 @@ filename: legacy-fte
 product-area: resource-management
 navigation-topic: legacy-resource-planning
 title: Overview of FTE in the Legacy Resource Management tools
-description: "FTE" stands for Full Time Equivalent. It is a measure of time that represents the amount of hours dedicated to real work during a day or week for a user.
+description: "'FTE' stands for Full Time Equivalent. It is a measure of time that represents the amount of hours dedicated to real work during a day or week for a user."
 ---
 
 # Overview of FTE in the Legacy&nbsp;Resource Management tools

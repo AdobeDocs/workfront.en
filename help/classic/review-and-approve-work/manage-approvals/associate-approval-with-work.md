@@ -196,7 +196,7 @@ To create a single-use approval process:
 
    >[!TIP]
    >
-   >After you attach the single-use approval process, it displays as "<Custom>" in the Approval Process field inside the Edit box of projects, tasks, issues, templates, and template tasks. For information about editing objects, see the following articles:
+   >After you attach the single-use approval process, it displays as "`<Custom>`" in the Approval Process field inside the Edit box of projects, tasks, issues, templates, and template tasks. For information about editing objects, see the following articles:
    >
    >   
    >   

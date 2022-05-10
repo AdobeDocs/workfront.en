@@ -316,7 +316,7 @@ To see when a task or issue was deleted:
 1. In the **Filters** tab, click **Add filter rule**, then add the following:
 
    * **Change Type** > **Equal** > **Delete**
-   * **Project ID** > **Equal** > **<project>**
+   * **Project ID** > **Equal** > **`<project>`**
 
      [ ![](assets/qs-task-or-issue-deleted-350x94.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
 
@@ -424,7 +424,7 @@ To see how custom fields changed over the course of a project's life cycle:
      >
      >To limit this report to specific custom fields, add the filter rule **Journal Entry Field Name** > **Equal** > **<custom field>**.
 
-   * **Project ID** > **Equal** > **<project>**
+   * **Project ID** > **Equal** > **`<project>`**
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -525,7 +525,7 @@ You can set up the Journal Entry report to show how often the Planned Completion
 1. In the **Filters** tab, click **Add filter rule**, then add the following:
 
    * **Field Name** > **Equal** > **Date**
-   * **Project ID** > **Equal** > **<project>**
+   * **Project ID** > **Equal** > **`<project>`**
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 

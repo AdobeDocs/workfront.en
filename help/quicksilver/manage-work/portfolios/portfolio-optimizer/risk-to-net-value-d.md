@@ -34,21 +34,25 @@ In the Preview environment, depending on which Portfolio Optimizer you are using
 
 * ```Portfolio Optimizer```
 
-   * ```The Risk indicator is calculated by the following formula:  
-     *Risk value indicator = Risk / (Risk + Net Value)*``` 
-   * ```The Net Value indicator is calculated by the following formulas:   
+  * The Risk indicator is calculated by the following formula:  
+     *Risk value indicator = Risk / (Risk + Net Value)* 
+  * The Net Value indicator is calculated by the following formulas:
+
      Net Value indicator = 1 - Risk / (Risk + Net Value)   
      Or  
-     Net Value indicator = Net Value / (Risk + Net Value)```
+     Net Value indicator = Net Value / (Risk + Net Value)
 
 * ```Legacy Portfolio Optimizer```
 
-   * ```The Risk indicator is calculated by the following formula:  
-     *Risk value indicator = Risk / (Risk + Legacy Net Value)*``` 
-   * ```The Net Value indicator is calculated by the following formulas:  
+  * The Risk indicator is calculated by the following formula:
+
+    *Risk value indicator = Risk / (Risk + Legacy Net Value)*
+
+  * The Net Value indicator is calculated by the following formulas:
+
      Net Value indicator = 1 - Risk / (Risk + Legacy Net Value)  
      Or  
-     Net Value indicator = Net Value / (Risk + Legacy Net Value)```
+     Net Value indicator = Net Value / (Risk + Legacy Net Value)
 
 >[!NOTE]
 >

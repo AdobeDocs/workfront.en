@@ -113,8 +113,6 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 * ![](assets/issue.png) Issue assigned to you - [assigner's name]
 * ![](assets/issue.png) Issue assigned to [team name] - [assigner's name]
 * ![](assets/icon-taskassngdtoyou.png) Task assigned to [team name] - [assigner's name]
-*
-
    * Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).
    * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
    * If you assign work to yourself or a team you belong to, you will not receive a notification.

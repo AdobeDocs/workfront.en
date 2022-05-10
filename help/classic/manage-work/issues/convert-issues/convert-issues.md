@@ -140,11 +140,13 @@ The following table lists project information and whether it transfers from the 
  </tbody> 
 </table>
 
-<!--
+<!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="convert-to-project"></a>Convert an issue to a project</h2> <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<h2><a name="convert-to-project"></a>Convert an issue to a project</h2> 
 -->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
 <ol>
 <li value="1"> Go to the <strong>Issues</strong> tab on a project. <p> <img src="assets/ci1-350x135.png" alt="" style="width: 350;height: 135;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
 <li value="2"> <p>Click the issue to be converted to access the issue.</p> <p> <img src="assets/ci2-350x173.png" alt="" style="width: 350;height: 173;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
@@ -183,7 +185,6 @@ The following table lists project information and whether it transfers from the 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="convert-to-task"></a>Convert an issue to a task</h2> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
--->
 <ol>
 <li value="1"> Go to the <strong>Issues</strong> tab on a project. </li>
 <li value="2"> <p>Click the issue you want to convert to go to the issue's landing page. </p> <p> <img src="assets/ci6-350x61.png" alt="" style="width: 350;height: 61;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>
@@ -217,17 +218,17 @@ The following table lists project information and whether it transfers from the 
 
 ## View original issue information on projects and tasks {#view-original-issue-information-on-projects-and-tasks}
 
-You can view the original issue information in project and task lists and reports ```or in the Project Details area```. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+You can view the original issue information in project and task lists and reports `or in the Project Details area`. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 The following table illustrates which&nbsp;issue fields are visible from the converted projects and tasks. 
 
 | Issue fields |Project or task field |Project list or report |Project Details area |Task list or report |Task Details area |
 |---|---|---|---|---|---|
 | Issue Name |Converted Issue Name |✔ |✔ |✔ |✔ |
-| Primary Contact | ```Converted Issue``` Originator Name |✔ | ```✔```  |✔ |&nbsp; |
+| Primary Contact | `Converted Issue` Originator Name |✔ | `✔`  |✔ |&nbsp; |
 | Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
 
 >[!CAUTION]
 >
->If the Primary&nbsp;Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted.
+>If the Primary Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted.
 
