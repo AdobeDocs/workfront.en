@@ -640,8 +640,6 @@ We recommend that you build as much of the grouping as possible in standard mode
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>group.0.iscollapsed=true </code>if you want the grouping to display with the results collapsed</li>   
      -->   
    
-   * 
-   
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>group.0.iscollapsed=false</code> if you want the grouping to display with the results expanded</p>   
      -->

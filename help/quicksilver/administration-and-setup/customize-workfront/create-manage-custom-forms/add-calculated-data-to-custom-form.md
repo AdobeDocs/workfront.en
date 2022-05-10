@@ -116,8 +116,6 @@ You must have the following to perform the steps in this article:
    A calculation starts with an expression, followed by parentheses containing the fields you want to reference. For information about the expressions that are available, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Each field must be surrounded by curly brackets and use the following syntax. As you type, the system makes suggestions and prompts you to enter the information with the correct syntax.
-
-   * 
    
      ```   
      {fieldName}
@@ -130,8 +128,6 @@ You must have the following to perform the steps in this article:
      ```   
      {actualRevenue}
      ```
-
-   * 
    
      ```   
      {DE:custom field name}
@@ -144,8 +140,6 @@ You must have the following to perform the steps in this article:
      ```   
      {DE:profit}
      ```
-
-   * 
    
      ```   
      {parent object}.{fieldName}
@@ -158,8 +152,6 @@ You must have the following to perform the steps in this article:
      ```   
      {project}.{actualRevenue}
      ```
-
-   * 
    
      ```   
      {parent object}.{DE:custom field name}
