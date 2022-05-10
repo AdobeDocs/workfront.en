@@ -571,7 +571,8 @@ user-guide: null
       * [Delete a group status](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
       * [Custom statuses in a group that is moved or deleted](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
       * [Custom statuses on a task or issue that is moved or copied](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
-  * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
+  * Configure integrations {#workfront-integrations}
+    * [Configure integrations - Contents](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
     * [Slack app for Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-fusion-slack-app.md)
     * [Configure Workfront with Adobe Experience Manager legacy connector](administration-and-setup/configure-integrations/configure-workfront-aem.md)
