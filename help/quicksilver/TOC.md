@@ -353,7 +353,7 @@ user-guide-description: Workfront
       * [Configurable access to functionality for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
       * [Built-in access levels in Adobe Workfront](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
       * [List your users’ access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-    *Configure access to Adobe Workfront {#configure-access}
+    * Configure access to Adobe Workfront {#configure-access}
       * [Configure access to Adobe Workfront](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
       * [Create or modify custom access levels](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
       * [Grant a user full administrative access](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
@@ -517,28 +517,34 @@ user-guide-description: Workfront
       * [Manage API keys](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [Set up Azure Active Directory with Enhanced Authentication](administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md)
       * [Adobe Workfront Privacy Policy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
-    * [Exchange rates](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
+    * Exchange rates {#exchange-rates}
+      * [Exchange rates](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [Set up exchange rates](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
-    * [Manage deleted items](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
+    * Manage deleted items {#manage-deleted-items}
+      * [Manage deleted items](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
       * [Restore deleted items](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
       * [View restored item](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
       * [Configure affect on hours when an object is deleted and restored](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
       * [Restoring individual child objects](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
-    * [Diagnostics](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
+    * Diagnostics {#diagnostics}
+      * [Diagnostics](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
       * [Use Diagnostics to trigger automated processes](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
-    * [Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
+    * Kick-Starts {#kick-starts}
+      * [Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)
       * [Export data from Adobe Workfront via Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
       * [Import data into Adobe Workfront using a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
       * [Kick-Starts data importer](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
       * [Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
       * [Kick-Starts scenario: simple project and task import preparation](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
       * [Frequently asked questions about Kick-Starts](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
-  * [Manage groups](administration-and-setup/manage-groups/manage-groups.md)
+  * Manage groups {#manage-groups}
+    * [Manage groups](administration-and-setup/manage-groups/manage-groups.md)
     * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
       * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups.md)
       * [Subgroups overview](administration-and-setup/manage-groups/groups-overview/subgroups.md)
       * [Home Groups overview](administration-and-setup/manage-groups/groups-overview/home-groups.md)
-    * [Create and manage groups](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
+    * Create and manage groups {#create-manage-groups}
+      * [Create and manage groups](administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md)
       * [Create a group](administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
       * [Manage a group](administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md)
       * [Actions allowed for different types of administrators](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
@@ -557,15 +563,18 @@ user-guide-description: Workfront
       * [Delete a group](administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
       * [Export a list of groups](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
       * [Actions allowed for different types of administrators](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
-    * [Create and manage subgroups](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
+    * Create and manage subgroups {#create-manage-subgroups}
+      * [Create and manage subgroups](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
       * [Create a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
       * [Manage a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
       * [View and manage subgroup members](administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
-    * [Group roles](administration-and-setup/manage-groups/group-roles/group-roles.md)
+    * Group roles {#group-roles}
+      * [Group roles](administration-and-setup/manage-groups/group-roles/group-roles.md)
       * [Group administrators](administration-and-setup/manage-groups/group-roles/group-administrators.md)
       * [Assign a user as a group administrator](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
       * [Business Leader overview](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
-    * [Manage group statuses](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
+    * Manage group statuses {#group-statuses}
+      * [Manage group statuses](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
       * [Create or edit a group status](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
       * [Reorder group statuses](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
       * [Use a custom status as a default status for a group](administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
@@ -574,7 +583,8 @@ user-guide-description: Workfront
       * [Delete a group status](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
       * [Custom statuses in a group that is moved or deleted](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
       * [Custom statuses on a task or issue that is moved or copied](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
-    * [Work with a group’s objects](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
+    * Work with a group's objects {#group-objects}
+      * [Work with a group’s objects](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
       * [Create and modify a group’s companies](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
       * [Create and modify a group’s layout templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
       * [Create and modify a group’s projects](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
@@ -587,7 +597,8 @@ user-guide-description: Workfront
       * [Create and modify a group’s project templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
       * [View and manage a group's recently deleted items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
       * [View and manage a group's recently restored items](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
-  * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
+  * Configure integrations {#configure-integrations}
+    * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
     * [Slack app for Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-fusion-slack-app.md)
     * [Configure Workfront with Adobe Experience Manager legacy connector](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -603,15 +614,18 @@ user-guide-description: Workfront
     * [Access Help for Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
     * [Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-workfront-fusion.md)
     * [Legacy Workfront Fusion service outages](administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
-  * [Blueprints](administration-and-setup/blueprints/blueprints.md)
+  * Blueprints {#blueprints}
+    * [Blueprints](administration-and-setup/blueprints/blueprints.md)
     * [Blueprints overview](administration-and-setup/blueprints/blueprints-overview.md)
     * [Configure access to blueprints](administration-and-setup/blueprints/configure-access-to-blueprints.md)
     * [Install a blueprint](administration-and-setup/blueprints/blueprints-install.md)
     * [Configure a blueprint](administration-and-setup/blueprints/configure-template-package.md)
     * [Actions to take after installing a blueprint](administration-and-setup/blueprints/best-next-actions-after-install.md)
-  * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
+  * Administrator FAQs {#admin-faq}
+    * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
     * [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
-  * [Tips, tricks, and troubleshooting for administration and setup](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
+  * Tips, tricks, and troubleshooting for administration and setup {#ttt-admin-setup}
+    * [Tips, tricks, and troubleshooting for administration and setup](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Active and deactivated objects](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
     * [ADFS logout URL doesn't work](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
     * [Administration and setup FAQs](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
@@ -636,7 +650,8 @@ user-guide-description: Workfront
     * [Sharing shows more than one permission](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
     * [Unauthenticated email is not accepted due to domain's DMARC policy](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
     * [Adobe Workfront user credentials vs. SAML user credentials](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-* [Adobe Workfront basics](workfront-basics/workfront-basics.md)
+* Adobe Workfront basics {#basics}
+  * [Adobe Workfront basics](workfront-basics/workfront-basics.md)
   * [Glossary of Adobe Workfront terminology](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
   * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
   * [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
