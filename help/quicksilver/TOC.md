@@ -2031,20 +2031,25 @@ user-guide-description: Workfront
     * [Zoom integration overview](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md)
     * [Authorize the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/authorize-zoom-integration.md)
     * [Uninstall the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/uninstall-zoom-integration.md)
-* [Workfront Library](workfront-library/workfront-library.md)
-  * [Administration and setup of Workfront Library](workfront-library/administration-and-setup/administration-and-setup-library.md)
-    * [Workfront Library Setup](workfront-library/administration-and-setup/workfront-library-setup/workfront-library-setup.md)
+* Workfront Library {#workfront-library}
+  * [Workfront Library](workfront-library/workfront-library.md)
+  * Administration and setup of Workfront Library {#admin-setup-wf-library}
+    * [Administration and setup of Workfront Library](workfront-library/administration-and-setup/administration-and-setup-library.md)
+    * Workfront Library Setup {#wf-library-setup}
+      * [Workfront Library Setup](workfront-library/administration-and-setup/workfront-library-setup/workfront-library-setup.md)
       * [Required configuration to authenticate to Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/required-configuration-to-authenticate-to-library.md)
       * [Set up a portal in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-a-portal-in-library.md)
       * [Set up content expiration in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md)
-    * [User access in Workfront Library](workfront-library/administration-and-setup/user-access/user-access.md)
+    * User access in Workfront Library {#user-access-wf-library}
+      * [User access in Workfront Library](workfront-library/administration-and-setup/user-access/user-access.md)
       * [Overview of user access to Workfront Library](workfront-library/administration-and-setup/user-access/user-access-overview.md)
       * [Give users access to Workfront Library](workfront-library/administration-and-setup/user-access/give-users-access-to-library.md)
       * [Change a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/change-user-access.md)
       * [Remove a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/remove-a-users-access-library.md)
       * [Give users access to a Workfront Library portal](workfront-library/administration-and-setup/user-access/give-users-access-portal.md)
       * [Permissions in Workfront Library](workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md)
-    * [Metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata.md)
+    * Metadata in Workfront Library {#metadata-wf-library}
+      * [Metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata.md)
       * [Overview of metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata-overview.md)
       * [Overview of taxonomy metadata in Workfront Library](workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md)
       * [Overview of taxonomy field types](workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md)
@@ -2061,8 +2066,10 @@ user-guide-description: Workfront
     * [Manage assets](workfront-library/administration-and-setup/manage-assets/manage-assets.md)
       * [Manage assets for other users](workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md)
       * [Transfer ownership assets to another user](workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md)
-  * [Content management in Workfront Library](workfront-library/content-management/content-management.md)
-    * [Workfront Library Basics](workfront-library/content-management/basics/basics.md)
+  * Content management in Workfront Library {#content-management-wf-library}
+    * [Content management in Workfront Library](workfront-library/content-management/content-management.md)
+    * Workfront Library Basics {#wf-library-basics}
+      * [Workfront Library Basics](workfront-library/content-management/basics/basics.md)
       * [Get started with Workfront Library](workfront-library/content-management/basics/get-started-with-library.md)
       * [Access content in Workfront Library](workfront-library/content-management/basics/access-content.md)
       * [Open items in Workfront Library](workfront-library/content-management/basics/open-items-in-library.md)
@@ -2073,14 +2080,16 @@ user-guide-description: Workfront
       * [Create a request in Workfront Library](workfront-library/content-management/basics/create-a-request-in-wf-library.md)
       * [View Workfront Library work requests](workfront-library/content-management/basics/view-work-requests-in-library.md)
       * [Open a Workfront Library portal](workfront-library/content-management/basics/open-a-portal.md)
-    * [Collections in Workfront Library](workfront-library/content-management/collections/collections.md)
+    * Collections in Workfront Library {#collections-in-wf-library}
+      * [Collections in Workfront Library](workfront-library/content-management/collections/collections.md)
       * [Overview of collections in Workfront Library](workfront-library/content-management/collections/collections-overview.md)
       * [Create a collection in Workfront Library](workfront-library/content-management/collections/create-a-collection.md)
       * [Add items to a collection in Workfront Library](workfront-library/content-management/collections/add-items-to-a-collection.md)
       * [Edit a Workfront Library collection](workfront-library/content-management/collections/edit-a-collection.md)
       * [Open a collection in Workfront Library](workfront-library/content-management/collections/open-a-collection.md)
       * [Remove items from a collection in Workfront Library](workfront-library/content-management/collections/remove-items-from-a-collection.md)
-    * [Folders in Workfront Library](workfront-library/content-management/folders/folders.md)
+    * Folders in Workfront Library {#folders-in-wf-library}
+      * [Folders in Workfront Library](workfront-library/content-management/folders/folders.md)
       * [Overview of folders in Workfront Library](workfront-library/content-management/folders/folders-overview-library.md)
       * [Create a folder in Workfront Library](workfront-library/content-management/folders/create-a-folder-library.md)
       * [Add items to a folder in Workfront Library](workfront-library/content-management/folders/add-items-to-a-folder-library.md)
@@ -2095,14 +2104,17 @@ user-guide-description: Workfront
     * [Hide and unhide content in Workfront Library](workfront-library/content-management/hide-and-unhide-content.md)
     * [Delete items from Workfront Library](workfront-library/content-management/delete-items.md)
     * [Relocate assets in Workfront Library](workfront-library/content-management/relocate-assets.md)
-    * [Content Versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning.md)
+    * Content Versioning in Workfront Library {#content-versioning-in-wf-library}
+      * [Content Versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning.md)
       * [Overview of content versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning-overview.md)
       * [Upload a new version of content in Workfront Library](workfront-library/content-management/content-versioning/upload-new-version-of-content.md)
       * [Access older versions of content in Workfront Library](workfront-library/content-management/content-versioning/view-older-versions-of-content-library.md)
-    * [Filters in Workfront Library](workfront-library/content-management/filters/filters.md)
+    * Filters in Workfront Library {#filters-in-wf-library}
+      * [Filters in Workfront Library](workfront-library/content-management/filters/filters.md)
       * [Filter for expired content in Workfront Library](workfront-library/content-management/filters/filter-for-expired-content.md)
       * [Filter for hidden content in Workfront Library](workfront-library/content-management/filters/filter-hidden-content.md)
-    * [Manage portals](workfront-library/content-management/portals/portals.md)
+    * Manage portals {#manage-portals-wf-library}
+      * [Manage portals](workfront-library/content-management/portals/portals.md)
       * [Overview of Workfront Library portals](workfront-library/content-management/portals/portals-overview.md)
     * [Export asset metadata from Workfront Library](workfront-library/content-management/export-asset-metadata.md)
 * [Workfront Proof](workfront-proof/workfront-proof.md)
