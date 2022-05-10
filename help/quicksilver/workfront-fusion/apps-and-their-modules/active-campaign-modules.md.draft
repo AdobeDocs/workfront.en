@@ -305,7 +305,7 @@ When you are configuring this module, the following fields display.
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect-active-campaign-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Contact's Tag ID</strong><![CDATA[	]]></td> 
+   <td><strong>Contact's Tag ID</strong></td> 
    <td> <p>Enter the Tag ID to remove from the contact.</p> </td> 
   </tr> 
  </tbody> 
@@ -371,7 +371,7 @@ When you are configuring this module, the following fields display.
    <td> <p> Select the Segment ID whose contacts you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Status</strong><![CDATA[	]]></td> 
+   <td><strong>Status</strong></td> 
    <td> <p>Select the status of the contacts you want to list:</p> 
     <ul> 
      <li>Any</li> 
@@ -599,7 +599,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Enter the name for the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Description</strong><![CDATA[	]]></td> 
+   <td><strong>Description</strong></td> 
    <td> <p>Enter the details for the deal.</p> </td> 
   </tr> 
   <tr> 

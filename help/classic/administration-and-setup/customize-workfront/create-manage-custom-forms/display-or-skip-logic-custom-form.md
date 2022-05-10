@@ -112,7 +112,7 @@ Skip logic functions similarly to display logic, but acts as the inverse: instea
 
 To learn about this, continue working on the sample custom form you created in the section [Display logic](#display-logic) in this article:
 
-1. <![CDATA[          ]]>Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
 1. Click **Custom Forms**. 
 1. Select the form **Sample custom form - Learning display logic and skip logic** that you created in the steps above, then click **Edit**. 

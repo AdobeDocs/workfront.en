@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 You can add any item assigned to you in your Work List to&nbsp;My Priority. New items are added at the bottom of the list.
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. In the left panel, ensure the **Group by**<![CDATA[  ]]> drop-down menu is sorting by one of the following options:
+1. In the left panel, ensure the **Group by**drop-down menu is sorting by one of the following options:
 
    * Planned Completion
    * Planned Start

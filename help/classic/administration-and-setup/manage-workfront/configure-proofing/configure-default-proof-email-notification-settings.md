@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 To configure proof email notification settings that are sent from Workfront:
 
-1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.<![CDATA[]]>  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
 1. Expand **Email**, then click&nbsp;**Review and Approval**.  
 

@@ -46,11 +46,11 @@ For more information on how to use the Home Calendar, see [Use the Home Calendar
 
 ## Find your work
 
-The Home area is your one-stop shop to find tasks, issues, and approvals assigned to you. The filter and sort options built into the Home area work together to support you in working the way you want.&nbsp;You can use the Sort by option to group items together and then use the Filter to focus in on work that needs to be completed.
+The Home area is your one-stop shop to find tasks, issues, and approvals assigned to you. The filter and sort options built into the Home area work together to support you in working the way you want. You can use the Sort by option to group items together and then use the Filter to focus in on work that needs to be completed.
 
 >[!NOTE]
 >
->The filter and sort options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the filters and sorting will not change, but if you switch browsers or computers then the filters and sorting will be different.<![CDATA[   ]]>
+>The filter and sort options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the filters and sorting will not change, but if you switch browsers or computers then the filters and sorting will be different.
 
 ### Group similar work items together with the Sort By option
 

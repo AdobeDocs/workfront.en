@@ -75,7 +75,7 @@ In order for the Workfront Connector to connect to a Workfront environment, it m
 1. The following describes each attribute and how to configure them:
 
    1. **workfront.folder.path**: The assets path where Workfront files are stored. This path must be within /content/dam. If changed, the new path must already exist..
-   1. <![CDATA[  ]]>**workfront.api.key**: Retrieved from Customer Info section of the Workfront setup screen. This must be a Workfront admin user's API Key.
+   1. **workfront.api.key**: Retrieved from Customer Info section of the Workfront setup screen. This must be a Workfront admin user's API Key.
    1. **workfront.url workfront.url**: The URL of the Workfront instance being linked to. Example: https://[account].my.workfront.com
    1. The following keys and tokens can be created using the following URL to generate a unique guid for each: [UUID Generator](https://www.uuidgenerator.net/).&nbsp;
 

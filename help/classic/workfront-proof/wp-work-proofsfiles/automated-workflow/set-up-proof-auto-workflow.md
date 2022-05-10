@@ -188,5 +188,5 @@ After a basic proof is converted to Automated Workflow, you can add additional t
    * If Add a stage option is disabled&nbsp;in the given&nbsp;template, after adding it the Add template button are not visible. 
    * When a person is added to a stage in an Automated Workflow template, but also already present on the proof then if this template is applied, the system will remove this person from the stage automatically. If there is no one else added to this particular stage, the following error will be shown, as the system will not allow to add an empty stage to the workflow.
 
-     ![error_when_adding_template.png](assets/error-when-adding-template-350x66.png)<![CDATA[                    ]]>
+     ![error_when_adding_template.png](assets/error-when-adding-template-350x66.png)
 

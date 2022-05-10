@@ -154,7 +154,7 @@ See also:
 </tr>
 <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver">
 <td colspan="2"> <note type="note">
-<span class="preview">Beta builders for groupings are not available in reports.</span><![CDATA[                        ]]>
+<span class="preview">Beta builders for groupings are not available in reports.</span>
 </note> </td>
 </tr>
 </tbody>

@@ -25,7 +25,7 @@ This is caused when the Projected Start Date matches the Projected Completion Da
 
 There are many factors that can cause the Projected Start and Completion dates to match. This problem is largely tied to the allocation of time on the task or issue in question.
 
-In most cases, depending on the Duration Type and Task Constraint on the task, the allocation should extend the Projected Completion Date out much further than expected. However, in some cases based on the way Duration Type and Task Constraint are configured, it is possible that this will instead be zero. <![CDATA[    ]]>
+In most cases, depending on the Duration Type and Task Constraint on the task, the allocation should extend the Projected Completion Date out much further than expected. However, in some cases based on the way Duration Type and Task Constraint are configured, it is possible that this will instead be zero.
 
 Here are the best things to check in those cases with links to their supporting articles:
 

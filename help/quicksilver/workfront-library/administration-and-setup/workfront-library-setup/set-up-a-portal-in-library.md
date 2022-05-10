@@ -87,8 +87,5 @@ You can allow keyword metadata to display for content in the portal. This enable
 
 1. Complete the steps 1-5 in [Set up a portal](#set-up-a-portal)
 1. In the **Setup** panel, click **Keywords**.
-
 1. Enable **Display all keywords in the portal**.  
    ![](assets/portals-keywords-350x194.png)
-
-<![CDATA[]]> 

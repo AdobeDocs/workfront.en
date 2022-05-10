@@ -412,7 +412,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
-   <td> <p><![CDATA[	]]>Add the query for the API call in the form of a standard JSON object.For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 

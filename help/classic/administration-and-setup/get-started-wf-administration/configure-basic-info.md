@@ -48,7 +48,7 @@ The customer represents the Workfront instance for your organization. The option
 
 To access the Customer Info page:
 
-1. <![CDATA[]]>Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
 1. In the left panel, click **System** > **Customer Info**.
 

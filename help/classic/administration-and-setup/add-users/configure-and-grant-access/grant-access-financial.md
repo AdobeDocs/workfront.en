@@ -56,7 +56,7 @@ Consider the following when granting users access to financial data in Workfront
 
    ![](assets/financial-data-fine-tune-classic-350x120.png)
 
-1. (Optional) In the **Allow administrative access for** area, select the following options:<![CDATA[]]>
+1. (Optional) In the **Allow administrative access for** area, select the following options:
 
    <table cellspacing="0"> 
     <col> 

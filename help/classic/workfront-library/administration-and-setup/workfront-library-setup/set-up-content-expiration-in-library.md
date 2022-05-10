@@ -29,7 +29,7 @@ Expired content remains in Workfront Library and displays an Expired banner.
 
 ![](assets/expired-asset.png)
 
-When an asset shared with a portal or collection expires, the link to the asset becomes disabled. Additionally, if an asset that is shared via a public link expires, the public link becomes inactive. <![CDATA[  ]]>
+When an asset shared with a portal or collection expires, the link to the asset becomes disabled. Additionally, if an asset that is shared via a public link expires, the public link becomes inactive. 
 
 You can configure Workfront Library to send an email to the content owner to alert them of the impending expiration of the content.
 

@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
 1. Click **Add Column** to the right of the existing columns.
 1. In the new column, type a name and click **Add Column**.
 
-   ![Add new column](assets/boards-add-column.png)<![CDATA[                ]]>
+   ![Add new column](assets/boards-add-column.png)
 
 ## Reorder columns on a board
 

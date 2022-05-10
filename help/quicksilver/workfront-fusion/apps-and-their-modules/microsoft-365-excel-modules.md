@@ -217,7 +217,7 @@ This action module retrieves a list of worksheets in the specified workbook.
   <tr> <!--
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
    --> 
-   <td> <p><![CDATA[	]]>Enter or map the maximum number of worksheets you want the module to return during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of worksheets you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -436,7 +436,7 @@ This trigger starts a scenario when a new row is added to a table.
   <tr> <!--
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
    --> 
-   <td> <p><![CDATA[	]]>Enter or map the maximum number of rows you want the module to return during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of rows you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

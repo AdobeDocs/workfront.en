@@ -90,12 +90,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td><code>Qo</code> </td> 
-   <td><![CDATA[	]]><code>1st 2nd 3rd 4th </code></td> 
+   <td><code>1st 2nd 3rd 4th </code></td> 
    <td> <p>Quarter of year with ordinal</p> </td> 
   </tr> 
   <tr> 
    <td><code>M</code> </td> 
-   <td><![CDATA[	]]><code>1 2 ... 11 12</code><![CDATA[	]]></td> 
+   <td><code>1 2 ... 11 12</code></td> 
    <td> <p>Month number</p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td><code>MMM</code> </td> 
-   <td><![CDATA[	]]><code>Jan Feb ... Nov Dec</code></td> 
+   <td><code>Jan Feb ... Nov Dec</code></td> 
    <td> <p> Month abbreviation</p> </td> 
   </tr> 
   <tr> 
@@ -120,22 +120,22 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td><code>D</code> </td> 
-   <td><![CDATA[	]]><code>1 2 ... 30 31 </code></td> 
+   <td><code>1 2 ... 30 31 </code></td> 
    <td> <p>Day of month</p> </td> 
   </tr> 
   <tr> 
    <td><code>Do</code> </td> 
-   <td><![CDATA[	]]><code>1st 2nd ... 30th 31st</code></td> 
+   <td><code>1st 2nd ... 30th 31st</code></td> 
    <td> <p> Day of month with ordinal</p> </td> 
   </tr> 
   <tr> 
    <td><code>DD</code> </td> 
-   <td><![CDATA[	]]><code>01 02 ... 30 31</code></td> 
+   <td><code>01 02 ... 30 31</code></td> 
    <td> <p> Day of month with leading zero</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDD</code> </td> 
-   <td><![CDATA[	]]><code>1 2 ... 364 365 </code></td> 
+   <td><code>1 2 ... 364 365 </code></td> 
    <td> <p>Day of year</p> </td> 
   </tr> 
   <tr> 
@@ -211,7 +211,7 @@ You must have the following access to use the functionality in this article:
    <td> <p>Week of year with leading zero</p> </td> 
   </tr> 
   <tr> 
-   <td><code>W</code><![CDATA[	]]></td> 
+   <td><code>W</code></td> 
    <td><code>1 2 ... 52 53 </code> </td> 
    <td> <p>Week of year (ISO)</p> </td> 
   </tr> 
@@ -226,7 +226,7 @@ You must have the following access to use the functionality in this article:
    <td> <p> Week of year with leading zero (ISO)</p> </td> 
   </tr> 
   <tr> 
-   <td><code>gg</code><![CDATA[	]]></td> 
+   <td><code>gg</code></td> 
    <td><code>70 71 ... 29 30 </code> </td> 
    <td> <p>Week year</p> </td> 
   </tr> 
@@ -264,17 +264,17 @@ You must have the following access to use the functionality in this article:
  <tbody> 
   <tr> 
    <td><code>H</code> </td> 
-   <td><![CDATA[	]]><code>0 1 ... 22 23</code><![CDATA[	]]></td> 
+   <td><code>0 1 ... 22 23</code></td> 
    <td> <p>24 hour time</p> </td> 
   </tr> 
   <tr> 
    <td><code>HH</code> </td> 
-   <td><![CDATA[	]]><code>00 01 ... 22 23</code></td> 
+   <td><code>00 01 ... 22 23</code></td> 
    <td> <p> 24 hour time with leading zero</p> </td> 
   </tr> 
   <tr> 
    <td><code>h</code> </td> 
-   <td><![CDATA[	]]><code>1 2 ... 11 12</code></td> 
+   <td><code>1 2 ... 11 12</code></td> 
    <td> <p> 12 hour time</p> </td> 
   </tr> 
   <tr> 
@@ -284,16 +284,16 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td><code>k</code> </td> 
-   <td><![CDATA[	]]><code>1 2 ... 23 24</code></td> 
+   <td><code>1 2 ... 23 24</code></td> 
    <td> <p> 24 hour time</p> </td> 
   </tr> 
   <tr> 
-   <td><code>kk</code><![CDATA[	]]></td> 
+   <td><code>kk</code></td> 
    <td><code>01 02 ... 23 24</code> </td> 
    <td> <p> 24 hour time with leading zero</p> </td> 
   </tr> 
   <tr> 
-   <td><code>A</code><![CDATA[	]]></td> 
+   <td><code>A</code></td> 
    <td><code>AM PM </code> </td> 
    <td> <p>Post or ante meridiem (upper case)</p> </td> 
   </tr> 
@@ -319,7 +319,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td><code>ss</code> </td> 
-   <td><![CDATA[	]]><code>00 01 ... 58 59</code><![CDATA[	]]></td> 
+   <td><code>00 01 ... 58 59</code></td> 
    <td> <p>Seconds with leading zero</p> </td> 
   </tr> 
   <tr> 
@@ -344,12 +344,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td><code>Z</code> </td> 
-   <td><![CDATA[	]]><code>-07:00 -06:00 ... +06:00 +07:00 </code></td> 
+   <td><code>-07:00 -06:00 ... +06:00 +07:00 </code></td> 
    <td> <p>Time zone</p> </td> 
   </tr> 
   <tr> 
    <td><code>ZZ</code> </td> 
-   <td><![CDATA[	]]><code>-0700 -0600 ... +0600 +0700 </code></td> 
+   <td><code>-0700 -0600 ... +0600 +0700 </code></td> 
    <td> <p>Time zone</p> </td> 
   </tr> 
   <tr> 
@@ -359,7 +359,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td><code>x</code> </td> 
-   <td><![CDATA[	]]><code>1360013296123</code></td> 
+   <td><code>1360013296123</code></td> 
    <td> <p> Unix Millisecond Timestamp</p> </td> 
   </tr> 
  </tbody> 

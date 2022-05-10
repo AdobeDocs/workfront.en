@@ -93,12 +93,12 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">No email</td> 
       <td>No email alerts are sent.<br><p>This setting is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.</p><p>Note: <p>This option turns off only email alerts you can receive about proof comments and decisions. It does not turn off the email alerts you can receive about the flow of a proof, such as the New Proof or Late Proof email. For more information about email alerts concerning the flow of a proof, see the following articles: </p>
-        <ul>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md" class="MCXref xref">New proof email</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md" class="MCXref xref">The New Version email</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md" class="MCXref xref">Late proof email</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">The Proof Made email</a><![CDATA[    ]]></li>
-        </ul></p></td> 
+      <ul>
+       <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md" class="MCXref xref">New proof email</a></li>
+       <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md" class="MCXref xref">The New Version email</a></li>
+       <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md" class="MCXref xref">Late proof email</a></li>
+       <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">The Proof Made email</a></li>
+      </ul></p></td> 
      </tr> 
     </tbody> 
    </table>

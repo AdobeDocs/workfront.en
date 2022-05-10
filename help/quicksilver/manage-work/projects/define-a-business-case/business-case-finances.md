@@ -32,11 +32,11 @@ The following project financial fields display in the Business Case:
   </tr> 
   <tr> 
    <td>Budgeted Expense Cost</td> 
-   <td> <p>The budgeted cost of all the expenses on the project.&nbsp;</p> <p>This is calculated by the following formula:</p> <p><code>Budgeted Expense Cost = SUM(Planned Amount of Expenses on the project) </code><![CDATA[                        ]]></p> <p>For more information about calculating expenses, see <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Manage project expenses </a>.</p> <p>This field displays in the Expenses&nbsp;area.</p> </td> 
+   <td> <p>The budgeted cost of all the expenses on the project.&nbsp;</p> <p>This is calculated by the following formula:</p> <p><code>Budgeted Expense Cost = SUM(Planned Amount of Expenses on the project) </code></p> <p>For more information about calculating expenses, see <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Manage project expenses </a>.</p> <p>This field displays in the Expenses&nbsp;area.</p> </td> 
   </tr> 
   <tr> 
    <td>Budgeted Labor Cost</td> 
-   <td> <p>The cost associated with the resources assigned to complete the work on the project.</p> <p>The Budgeted Labor Cost for the project is calculated by the following formula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><![CDATA[                            ]]><br></p> <p>Workfront uses the Budgeted Hours from the&nbsp;Resource Planner to calculate the Budgeted Labor Cost.<br>For more information about calculating Budgeted Labor Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> <p>This field displays in the Resource Budgeting area of the Business Case.&nbsp;</p> </td> 
+   <td> <p>The cost associated with the resources assigned to complete the work on the project.</p> <p>The Budgeted Labor Cost for the project is calculated by the following formula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront uses the Budgeted Hours from the&nbsp;Resource Planner to calculate the Budgeted Labor Cost.<br>For more information about calculating Budgeted Labor Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> <p>This field displays in the Resource Budgeting area of the Business Case.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Expenses Planned Cost</td> 
@@ -52,7 +52,7 @@ The following project financial fields display in the Business Case:
   </tr> 
   <tr> 
    <td>Potential&nbsp;Cost of Risks</td> 
-   <td> <p>This is the Potential Cost of all the risks on the project. </p> <p>This is calculated using the following formula:</p> <p><code>Potential Risk = SUM(Potential Cost * Probability of Risk) </code><![CDATA[                        ]]></p> <p>For more information about risks on the project, see&nbsp;<a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Create and edit risks on projects</a>.</p> <p>This field displays in the Business Case Summary area.</p> </td> 
+   <td> <p>This is the Potential Cost of all the risks on the project. </p> <p>This is calculated using the following formula:</p> <p><code>Potential Risk = SUM(Potential Cost * Probability of Risk) </code></p> <p>For more information about risks on the project, see&nbsp;<a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Create and edit risks on projects</a>.</p> <p>This field displays in the Business Case Summary area.</p> </td> 
   </tr> 
   <tr> 
    <td>Potential Risk</td> 
@@ -68,7 +68,7 @@ The following project financial fields display in the Business Case:
   </tr> 
   <tr> 
    <td>Risks Total Potential Cost</td> 
-   <td> <p>This is the total estimated financial cost of all the risks defined on the project when they actually have occurred.&nbsp;</p> <p>This is calculated by the following formula:</p> <p><code>Risks Total Potential Cost = SUM(Potential Cost of all risks on the project) </code><![CDATA[                        ]]></p> <p>It displays as a currency number next to the title of the Risks area of the Business Case.</p> </td> 
+   <td> <p>This is the total estimated financial cost of all the risks defined on the project when they actually have occurred.&nbsp;</p> <p>This is calculated by the following formula:</p> <p><code>Risks Total Potential Cost = SUM(Potential Cost of all risks on the project) </code></p> <p>It displays as a currency number next to the title of the Risks area of the Business Case.</p> </td> 
   </tr> 
  </tbody> 
 </table>

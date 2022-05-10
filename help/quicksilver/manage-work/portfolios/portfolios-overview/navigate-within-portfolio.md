@@ -103,7 +103,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click&nbsp;**Documents** in the left panel to attach documents to the portfolio.
 1. (Optional) &nbsp;Click **Updates** in the left panel to add comments to the update stream of the portfolio. 
-1. (Optional) <![CDATA[]]>Click the **More menu** ![](assets/qs-more-icon-on-an-object.png) to do one of the following:
+1. (Optional) Click the **More menu** ![](assets/qs-more-icon-on-an-object.png) to do one of the following:
 
    * Deactivate the portfolio. When a portfolio is deactivated, you can no longer associate it with projects at the project level. 
    * Delete the portfolio.

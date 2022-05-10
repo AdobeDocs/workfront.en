@@ -21,9 +21,8 @@ For information about Proof Permission Profiles, see [Proof Permissions Profiles
 >
 >You can also do the following: 
 >
->* Grant users specific role on individual proofs. For more information about proof roles, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)<![CDATA[]]>
+>* Grant users specific role on individual proofs. For more information about proof roles, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
 >* Create custom profiles for users in your organization. For more information, see [Configure custom profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md). 
->
 
 To edit a user's Proof Permission Profile:
 

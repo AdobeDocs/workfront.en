@@ -120,7 +120,7 @@ For more information about exporting data from lists and reports, see the articl
 
 1. Go to the list that you want to modify.
 1. Drag the border of a column until the column reaches the desired size.  
-   ![](assets/column-resize-350x124.png)<![CDATA[      ]]>
+   ![](assets/column-resize-350x124.png)
 
 #### Reorder columns temporarily {#reorder-columns-temporarily}
 

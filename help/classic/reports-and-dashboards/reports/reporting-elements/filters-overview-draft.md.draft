@@ -260,7 +260,3 @@ You can reference only five objects, excluding the object of the report, when yo
 When you reach this limit within the builder, you can select fields that belong only to these six objects. You receive a warning when you have reached this limit.&nbsp;
 
 You cannot overcome this limitation when you build your filter in text mode.&nbsp;
-
-&nbsp;
-
-<![CDATA[ ]]>

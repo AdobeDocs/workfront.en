@@ -70,8 +70,8 @@ You must have the following access to use the functionality in this article:
    <td> <p>4 or 2 digit year</p> </td> 
   </tr> 
   <tr> 
-   <td><code>YY</code><![CDATA[	]]></td> 
-   <td><code>14</code><![CDATA[	]]></td> 
+   <td><code>YY</code></td> 
+   <td><code>14</code></td> 
    <td> <p>2 digit year</p> </td> 
   </tr> 
   <tr> 
@@ -106,7 +106,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td><code>DDD DDDD</code> </td> 
-   <td><![CDATA[	]]><code>1..365</code></td> 
+   <td><code>1..365</code></td> 
    <td> <p> Day of year</p> </td> 
   </tr> 
   <tr> 
@@ -153,7 +153,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td><code>W WW</code> </td> 
-   <td><![CDATA[	]]><code>1..53</code></td> 
+   <td><code>1..53</code></td> 
    <td> <p> ISO week of year</p> </td> 
   </tr> 
   <tr> 
@@ -180,7 +180,7 @@ You must have the following access to use the functionality in this article:
  <tbody> 
   <tr> 
    <td><code>H HH</code> </td> 
-   <td><![CDATA[	]]><code>0..23</code></td> 
+   <td><code>0..23</code></td> 
    <td> <p> Hours (24 hour time)</p> </td> 
   </tr> 
   <tr> 

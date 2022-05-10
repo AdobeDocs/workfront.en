@@ -48,7 +48,7 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
 
 The Latest Available Time constraint differs from the As Late As Possible constraint when the following criteria exist:
 
-* The project is scheduled From Start Date<![CDATA[			]]>
+* The project is scheduled From Start Date
 * Tasks in the project have a predecessor relationship 
 * The successor task has a flexible task constraint
 

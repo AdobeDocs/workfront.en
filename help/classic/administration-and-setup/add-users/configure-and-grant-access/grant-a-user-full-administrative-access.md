@@ -103,8 +103,8 @@ Users with a Plan license who can edit functionality in one area have full acces
 >
 >Users with a Plan license who are designated as group administrators can perform some of the actions allowed for Workfront administrators. They are allowed to perform these actions only for the groups they administer, their subgroups, and the users in these groups and subgroups. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
-* [Access to the Setup area](#access-to-the-setup-area)<![CDATA[]]>
-* [Access to objects](#access-to-objects)<![CDATA[     ]]>
+* [Access to the Setup area](#access-to-the-setup-area)
+* [Access to objects](#access-to-objects)
 
 ### Access to the Setup area {#access-to-the-setup-area}
 

@@ -16,7 +16,7 @@ The Business Case sub-tab includes financial fields for the project.&nbsp;In ord
 
 The following project financial fields display in the Business Case:
 
-<table border="1" cellspacing="15" cellpadding="1"> 
+<table> 
  <col> 
  <col> 
  <thead> 
@@ -36,11 +36,11 @@ The following project financial fields display in the Business Case:
   </tr> 
   <tr> 
    <td>Budgeted Expense Cost</td> 
-   <td> <p>The budgeted cost of all the expenses on the project.&nbsp;</p> <p>This is calculated by the following formula:</p> <p><code>Budgeted Expense Cost = SUM(Planned Amount of Expenses on the project) </code><![CDATA[                        ]]></p> <p>For more information about calculating expenses, see <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Manage project expenses </a>.</p> <p>This field displays in the Expenses&nbsp;area.</p> </td> 
+   <td> <p>The budgeted cost of all the expenses on the project.&nbsp;</p> <p>This is calculated by the following formula:</p> <p><code>Budgeted Expense Cost = SUM(Planned Amount of Expenses on the project) </code></p> <p>For more information about calculating expenses, see <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Manage project expenses </a>.</p> <p>This field displays in the Expenses&nbsp;area.</p> </td> 
   </tr> 
   <tr> 
    <td>Budgeted Labor Cost</td> 
-   <td> <p>The cost associated with the resources assigned to complete the work on the project.</p> <p>The Budgeted Labor Cost for the project is calculated by the following formula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><![CDATA[                            ]]><br></p> <p>Workfront uses the Budgeted Hours from the&nbsp;Resource Planner to calculate the Budgeted Labor Cost.<br>For more information about calculating Budgeted Labor Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> <p>This field displays in the Resource Budgeting area of the Business Case.&nbsp;</p> </td> 
+   <td> <p>The cost associated with the resources assigned to complete the work on the project.</p> <p>The Budgeted Labor Cost for the project is calculated by the following formula:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront uses the Budgeted Hours from the&nbsp;Resource Planner to calculate the Budgeted Labor Cost.<br>For more information about calculating Budgeted Labor Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.</p> <p>This field displays in the Resource Budgeting area of the Business Case.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Expenses Planned Cost</td> 
@@ -48,22 +48,20 @@ The following project financial fields display in the Business Case:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
     <td>Legacy Budgeted Cost</td> 
-    <td> <p>Note: This field might have been removed in your environment.</p> <p>This is calculated using the following formula:</p> <p><code>Legacy Budgeted Cost = Budgeted Expense Cost + Legacy Budgeted Labor Cost </code><![CDATA[                        ]]></p> <p>This value is an estimated&nbsp;Total Cost for the project when using the Labor Cost of the Legacy Resource Estimates.<br>For more information about calculating Budgeted Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>.</p> <p>This field displays in the Business Case Summary area.</p> </td> 
+    <td> <p>Note: This field might have been removed in your environment.</p> <p>This is calculated using the following formula:</p> <p><code>Legacy Budgeted Cost = Budgeted Expense Cost + Legacy Budgeted Labor Cost </code></p> <p>This value is an estimated&nbsp;Total Cost for the project when using the Labor Cost of the Legacy Resource Estimates.<br>For more information about calculating Budgeted Cost, see <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>.</p> <p>This field displays in the Business Case Summary area.</p> </td> 
    </tr>
-  --> <!--
+   --> 
+   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
     <td>Legacy Budgeted Labor Cost</td> 
-    <td> <p>Note: This field might have been removed in your environment.</p> <p>The Budgeted Cost of all the labor estimated for the project as specified in the Legacy Resource Estimates area of the Business Case. </p> <p>The Legacy Budgeted Labor Cost comes from&nbsp;estimating your resources on the project, in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. </p> <p>The Legacy Budgeted Labor Cost is calculated by the following formula:</p> <p><code>Legacy Budgeted Labor Cost = SUM(Role Cost per Hour Rate * Budgeted Hours per Role)</code><![CDATA[
-                        ]]></p> <!--
+    <td> <p>Note: This field might have been removed in your environment.</p> <p>The Budgeted Cost of all the labor estimated for the project as specified in the Legacy Resource Estimates area of the Business Case. </p> <p>The Legacy Budgeted Labor Cost comes from&nbsp;estimating your resources on the project, in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. </p> <p>The Legacy Budgeted Labor Cost is calculated by the following formula:</p> <p><code>Legacy Budgeted Labor Cost = SUM(Role Cost per Hour Rate * Budgeted Hours per Role)</code></p> 
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about estimating resources on a project, see <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref">Estimate project resources by applying Legacy Resource Pools to the Business Case </a>.</p>
-     --> <p>This field displays in the Legacy Resource Estimates&nbsp;area.</p> <p>The Legacy Budgeted Labor Cost for each job role is displayed in the Legacy Resource Estimates column in the Legacy Resource Estimates area.&nbsp;</p> </td> 
+     <p>This field displays in the Legacy Resource Estimates&nbsp;area.</p> <p>The Legacy Budgeted Labor Cost for each job role is displayed in the Legacy Resource Estimates column in the Legacy Resource Estimates area.&nbsp;</p> </td> 
    </tr>
-  --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
     <td>Legacy Net Value</td> 
     <td> <p>Note: This field might have been removed in your environment.</p> <p>This is the total expected value of the project after calculating its benefit and removing the costs. To calculate the Legacy Net Value, The Budgeted Labor Cost used to calculate the Budgeted Cost is associated with the budgeting of the resources in the Legacy Resource Estimates area of the project or in the Capacity Planner.&nbsp;</p> <p>The Legacy Net Value is calculated using the following formula:</p> <p><code>Legacy Net Value = Planned Benefit - Legacy Budgeted Cost - Potential Risk</code>. </p> <p>For more information about calculating Net Value, see <a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">Calculate Net Value</a>.</p> <p>This field displays in the Business Case Summary area.&nbsp;</p> </td> 
    </tr>
-  --> 
   <tr> 
    <td>Net Value</td> 
    <td> <p>This is the total expected value of the project after calculating its benefit and removing the costs.</p> <p>The Net Value for the project is calculated by the following formula:<br></p> <p><code>Net Value = Planned Benefit - Budgeted Cost - Potential Risk</code>. <br></p> <p>For more information about calculating Net Value, see <a href="../../../manage-work/projects/project-finances/calculate-net-value.md" class="MCXref xref">Calculate Net Value</a>.<br></p> <p>This field displays in the Business Case Summary area.</p> </td> 
@@ -74,7 +72,7 @@ The following project financial fields display in the Business Case:
   </tr> 
   <tr> 
    <td>Potential&nbsp;Cost of Risks</td> 
-   <td> <p>This is the Potential Cost of all the risks on the project. </p> <p>This is calculated using the following formula:</p> <p><code>Potential Risk = SUM(Potential Cost * Probability of Risk) </code><![CDATA[                        ]]></p> <p>For more information about risks on the project, see&nbsp;<a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Create and edit risks on projects</a>.</p> <p>This field displays in the Business Case Summary area.</p> </td> 
+   <td> <p>This is the Potential Cost of all the risks on the project. </p> <p>This is calculated using the following formula:</p> <p><code>Potential Risk = SUM(Potential Cost * Probability of Risk) </code></p> <p>For more information about risks on the project, see&nbsp;<a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Create and edit risks on projects</a>.</p> <p>This field displays in the Business Case Summary area.</p> </td> 
   </tr> 
   <tr> 
    <td>Potential Risk</td> 
@@ -90,8 +88,8 @@ The following project financial fields display in the Business Case:
   </tr> 
   <tr> 
    <td>Risks Total Potential Cost</td> 
-   <td> <p>This is the total estimated financial cost of all the risks defined on the project when they actually have occurred.&nbsp;</p> <p>This is calculated by the following formula:</p> <p><code>Risks Total Potential Cost = SUM(Potential Cost of all risks on the project) </code><![CDATA[                        ]]></p> <p>It displays as a currency number next to the title of the Risks area of the Business Case.</p> </td> 
+   <td> <p>This is the total estimated financial cost of all the risks defined on the project when they actually have occurred.&nbsp;</p> <p>This is calculated by the following formula:</p> <p><code>Risks Total Potential Cost = SUM(Potential Cost of all risks on the project) </code></p> <p>It displays as a currency number next to the title of the Risks area of the Business Case.</p> </td> 
   </tr> 
+  --> 
  </tbody> 
 </table>
-

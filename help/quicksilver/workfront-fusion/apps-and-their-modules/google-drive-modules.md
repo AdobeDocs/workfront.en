@@ -1518,7 +1518,7 @@ not
  </thead> 
  <tbody> 
   <tr> 
-   <td><code>title</code><![CDATA[	]]></td> 
+   <td><code>title</code></td> 
    <td>string</td> 
    <td><code>contains</code><sup>1</sup>, <code>=</code>, <code>!=</code></td> 
    <td> <p> Name of the file.</p> </td> 
@@ -1532,7 +1532,7 @@ not
   <tr> 
    <td><code>mimeType</code> </td> 
    <td> string</td> 
-   <td><![CDATA[	]]><code>contains</code>, <code>=</code>, <code>!=</code></td> 
+   <td><code>contains</code>, <code>=</code>, <code>!=</code></td> 
    <td> <p> MIME type of the file.</p> </td> 
   </tr> 
   <tr> 
@@ -1548,31 +1548,31 @@ not
    <td> <p> Date that the user last viewed a file.</p> </td> 
   </tr> 
   <tr> 
-   <td><code>trashed</code><![CDATA[	]]></td> 
+   <td><code>trashed</code></td> 
    <td>boolean </td> 
    <td><code>=</code>, <code>!=</code></td> 
    <td> <p> Whether the file is in the trash or not.</p> </td> 
   </tr> 
   <tr> 
-   <td><code>starred</code><![CDATA[	]]></td> 
+   <td><code>starred</code></td> 
    <td>boolean </td> 
-   <td><code>=</code>, <code>!=</code><![CDATA[	]]></td> 
+   <td><code>=</code>, <code>!=</code></td> 
    <td> <p>Whether the file is starred or not.</p> </td> 
   </tr> 
   <tr> 
-   <td><code>parents</code><![CDATA[	]]></td> 
+   <td><code>parents</code></td> 
    <td>collection </td> 
    <td><code>in </code> </td> 
    <td> <p>Whether the parents collection contains the specified ID.</p> </td> 
   </tr> 
   <tr> 
-   <td><code>owners</code><![CDATA[	]]></td> 
+   <td><code>owners</code></td> 
    <td>collection </td> 
    <td><code>in </code> </td> 
    <td> <p>Users who own the file.</p> </td> 
   </tr> 
   <tr> 
-   <td><code>writers</code><![CDATA[	]]></td> 
+   <td><code>writers</code></td> 
    <td>collection </td> 
    <td><code>in </code> </td> 
    <td> <p>Users who have permission to modify the file.</p> </td> 
@@ -1586,7 +1586,7 @@ not
   <tr> 
    <td><code>sharedWithMe</code> </td> 
    <td>boolean </td> 
-   <td><![CDATA[	]]><code>=</code>, <code>!=</code></td> 
+   <td><code>=</code>, <code>!=</code></td> 
    <td> <p> Files that are in the user's "Shared with me" collection.</p> </td> 
   </tr> 
   <tr> 
@@ -1740,7 +1740,7 @@ Consider the following about operators in these fields:
  </thead> 
  <tbody> 
   <tr> 
-   <td><code>contains</code><![CDATA[	]]></td> 
+   <td><code>contains</code></td> 
    <td> <p>The content of one string is present in the other.</p> </td> 
   </tr> 
   <tr> 

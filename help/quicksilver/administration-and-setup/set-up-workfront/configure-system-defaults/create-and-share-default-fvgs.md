@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create default filters, views, or groupings
 
-1. <![CDATA[	]]>Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Setup**. 
+1. Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Setup**. 
 
 1. Do any of the following, depending on whether you are creating or editing a filter, view, or grouping:
 
@@ -74,7 +74,7 @@ You can make the filter, view, or grouping available to users in your system. Fo
 
 These steps explain how to make filters, views, and groupings available from the Interface area in Setup. You can also do this in the List Controls area in Setup. For more information, see [Edit list controls: filters, views, and groupings](../../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md).
 
-1. <![CDATA[	]]>Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Setup**.
+1. Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Setup**.
 
 1. Click **Interface**, then click one of the following: **Filters**,**Views**, or**Groupings**.
 
@@ -97,7 +97,7 @@ These steps explain how to make filters, views, and groupings available from the
 >
 >You can hide the options All, Standard, and Nothing after selecting different defaults (see Step 5), but they can’t be deleted.You can delete any other option being used as a default, but you have to select a different default first.
 
-1. <![CDATA[	]]>Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Setup**.
+1. Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Setup**.
 
 1. Do any of the following, depending on whether you are deleting a filter, view, or grouping:
 

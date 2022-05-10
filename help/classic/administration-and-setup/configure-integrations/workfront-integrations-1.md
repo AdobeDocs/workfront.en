@@ -235,8 +235,7 @@ Workfront provides the following built-in integrations at no additional cost:
    <td> 
     <ul> 
      <li>Salesforce administrator</li> 
-     <li>Workfront administrator<![CDATA[
-]]></li> 
+     <li>Workfront administrator</li> 
     </ul> </td> 
   </tr> 
   <tr> 

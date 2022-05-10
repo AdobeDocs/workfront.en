@@ -44,7 +44,6 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-<![CDATA[ ]]>
 
 Consider the following when generating the unique URL for the User View of the Resource Planner:
 

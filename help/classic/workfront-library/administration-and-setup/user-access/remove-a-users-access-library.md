@@ -27,7 +27,7 @@ A user might have multiple access levels assigned to them. For example, a user c
 >[!NOTE]
 >
 >To determine how a user has access to Workfront Library, you can open the Library menu and go to **Setup** > **Access** > **Users**. In the Users area, you see a list of users and the type of access they have is listed in the Access Sources column.  
->![](assets/access-sources-column-350x274.png)<![CDATA[		]]>
+>![](assets/access-sources-column-350x274.png)
 
 * [Remove a user's individual access](#remove-a-user-s-individual-access) 
 * [Remove access for a user grouping](#remove-access-for-a-user-grouping)

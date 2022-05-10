@@ -58,7 +58,7 @@ You must have the following:
 
 You can associate resource pools with a template in the same manner you associate resource pools with a project. This article describes how you can associate resource pools with projects.
 
-1. <![CDATA[				]]><![CDATA[			]]>Go to a project and click the **More** icon ![](assets/more-icon.png)next to the project name, then click&nbsp;**Edit**.
+1. Go to a project and click the **More** icon ![](assets/more-icon.png)next to the project name, then click&nbsp;**Edit**.
 
 1. Click **Project****Settings**. 
 

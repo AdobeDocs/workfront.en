@@ -218,7 +218,7 @@ If you see the map button above a field or function, you can use it to set varia
    <td>Value input option</td> 
    <td> 
     <ul> 
-     <li> <p><strong>User entered</strong><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
      <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -226,7 +226,7 @@ If you see the map button above a field or function, you can use it to set varia
    <td>Insert data option</td> 
    <td> <p>Specify how existing data is changed when new data is input. </p> 
     <ul> 
-     <li> <p><strong>Insert rows</strong><![CDATA[	]]></p> <p>Rows are inserted for the new data.</p> </li> 
+     <li> <p><strong>Insert rows</strong></p> <p>Rows are inserted for the new data.</p> </li> 
      <li> <p><strong>Overwrite</strong> </p> <p>The new data overwrites existing data in the areas where it is written. Adding data to the end of the sheet inserts new rows or columns so the data can be written.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -277,7 +277,7 @@ This module allows you to change the cell content in a selected row.
    <td>Value input option</td> 
    <td> 
     <ul> 
-     <li> <p><strong>User entered</strong><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
      <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -399,7 +399,7 @@ Retrieves a value from a selected cell.
    <td>Value input option</td> 
    <td> 
     <ul> 
-     <li> <p><strong>User entered</strong><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
      <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
     </ul> </td> 
   </tr> 

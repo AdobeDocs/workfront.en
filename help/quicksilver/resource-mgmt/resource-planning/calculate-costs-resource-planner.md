@@ -147,7 +147,7 @@ The following scenarios exist when calculating the Planned Cost for users, roles
 
      The User Planned Cost is calculated using the following formula:
 
-     <![CDATA[ ]]>   
+       
    
      ```   
      User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate

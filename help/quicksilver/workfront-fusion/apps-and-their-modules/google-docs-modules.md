@@ -258,7 +258,7 @@ This action module creates a copy of an existing template document and replaces 
    <td> <p>Enter the values that will be entered instead of the variables to the new document.</p> 
     <ul> 
      <li><strong>Tags</strong> <br>Enter the tags that are contained in the document template. Do not use <code>{{}}</code>. Example: use <code>name </code>instead of <code>{{name}}</code>.</li> 
-     <li><strong>Replaced Value</strong><![CDATA[	]]><br>Enter the value of the tag.</li> 
+     <li><strong>Replaced Value</strong><br>Enter the value of the tag.</li> 
     </ul> <p>For example the<code> {{name}}</code> variable in the source document will be displayed as the name field here, where the value can be inserted, such as <code>John</code>.</p> </td> 
   </tr> 
   <tr> 

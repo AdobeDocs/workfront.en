@@ -40,7 +40,7 @@ Workfront fields are available to be configured in the following reporting eleme
 
 For more information about reporting elements, see the article [Reporting elements overview](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 
-For more information about building reports, see<![CDATA[  ]]> [Create and manage reports](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md).
+For more information about building reports, see[Create and manage reports](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md).
 
 When creating a report, you can select what objects or fields associated with those objects you want to show in your report. Those will become your report columns, groupings, filters, or prompts. You can build standalone views, filters, and groupings for lists of objects, as well, in the same manner you would build them inside the report builder.&nbsp;
 

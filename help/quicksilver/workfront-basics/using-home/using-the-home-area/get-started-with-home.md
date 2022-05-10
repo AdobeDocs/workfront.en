@@ -43,13 +43,13 @@ For more information on how to use the Home Calendar, see [Use the Home Calendar
 
 ## Find your work
 
-The Home area is your one-stop shop to find tasks, issues, and approvals assigned to you. The filter and sort options built into the Home area work together to support you in working the way you want.&nbsp;You can use the Sort by option to group items together and then use the Filter to focus in on work that needs to be completed.
+The Home area is your one-stop shop to find tasks, issues, and approvals assigned to you. The filter and sort options built into the Home area work together to support you in working the way you want. You can use the Sort by option to group items together and then use the Filter to focus in on work that needs to be completed.
 
 >[!NOTE]
 >
->The filter and sort options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the filters and sorting will not change, but if you switch browsers or computers then the filters and sorting will be different.<![CDATA[   ]]>
+>The filter and sort options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the filters and sorting will not change, but if you switch browsers or computers then the filters and sorting will be different.
 
-### Group similar work items together with the ```Group by``` option
+### Group similar work items together with the 'Group by' option
 
 The Sort by option allows you to group like items in the Work List. You can sort by:
 
@@ -81,7 +81,7 @@ The following are examples of how you can filter items you view in Home:&nbsp;
 
   For example, you can select the Completed filter to display tasks and issues that have been completed. This includes Personal tasks but it does not include approvals.
 
-For more information on how to use filters, see&nbsp; [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+For more information on how to use filters, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ![](assets/displaying-work-items-filters-nwe-350x401.png)
 

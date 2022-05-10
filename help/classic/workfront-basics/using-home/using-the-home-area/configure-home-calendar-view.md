@@ -50,7 +50,7 @@ Consider the following as you configure your Home Calendar with your Microsoft O
 
   On-premises Outlook and Outlook on a cloud-based enterprise Exchange server are not supported.
 
-  If your organization uses single sign-on, you need Microsoft 365 E3 or E5.<![CDATA[    ]]>
+  If your organization uses single sign-on, you need Microsoft 365 E3 or E5.
 
 * Attachments associated with your Outlook events are not attached to the Outlook events in your Home Calendar. 
 * Integration with an Outlook calendar must be completed for each user individually. 

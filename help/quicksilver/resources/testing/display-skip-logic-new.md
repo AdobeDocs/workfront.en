@@ -121,7 +121,7 @@ Skip logic functions similarly to display logic, but acts as the inverse: instea
 
 To learn about this, continue working on the sample custom form you created in the section [Display logic - practical example](#display-logic-practical-example) in this article.
 
-1. <![CDATA[          ]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
 1. Click **Custom Forms**. 
 1. Click the name of the form **Sample custom form - Learning display logic and skip logic** that you created in the steps above, to open it for editing. 

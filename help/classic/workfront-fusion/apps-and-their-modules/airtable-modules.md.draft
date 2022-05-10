@@ -88,7 +88,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Smart links</td> 
-   <td> <p><![CDATA[	]]>Enter names instead of record IDs to fields that link to another table. The record is automatically created in the linked table if there is no match.</p> </td> 
+   <td> <p>Enter names instead of record IDs to fields that link to another table. The record is automatically created in the linked table if there is no match.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,7 +117,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Record ID</td> 
-   <td> <p><![CDATA[	]]>Enter or map the unique Airtable ID of the record that you want the module to delete. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
+   <td> <p>Enter or map the unique Airtable ID of the record that you want the module to delete. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -183,7 +183,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Max Records</td> 
-   <td> <p><![CDATA[	]]>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -241,7 +241,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Smart links</td> 
-   <td> <p><![CDATA[	]]>Enter names instead of record IDs to fields that link to another table. The record is automatically created in the linked table if there is no match.</p> </td> 
+   <td> <p>Enter names instead of record IDs to fields that link to another table. The record is automatically created in the linked table if there is no match.</p> </td> 
   </tr> 
  </tbody> 
 </table>

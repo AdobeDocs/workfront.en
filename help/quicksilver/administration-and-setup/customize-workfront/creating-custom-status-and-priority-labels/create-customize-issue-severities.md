@@ -63,9 +63,12 @@ The color of your severity is preserved in a chart report, if you group your res
 <strong>Issue Severity</strong>. For more information on chart reports, see
 <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.
 </note> </li>
-<li> <p>Change the default severity <!--
+<li> <p>Change the default severity
+-->
+
+<!--
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">STOPPED&nbsp;HERE</span>
---></p> <p>For more information about default severities, see <a href="#create-or-edit-an-issue-severity" class="MCXref xref">Create or edit an issue severity</a> in this article.</p> </li>
+</p> <p>For more information about default severities, see <a href="#create-or-edit-an-issue-severity" class="MCXref xref">Create or edit an issue severity</a> in this article.</p> </li>
 <li>Edit the description of the severities</li>
 <li> <p>Hide a severity</p> <p>For more information about&nbsp;hiding a severity, see <a href="#create-or-edit-an-issue-severity" class="MCXref xref">Create or edit an issue severity</a> in this article.</p> </li>
 <li> <p>Delete a severity</p> <p>When you delete an existing severity, you must select a replacement one.</p> </li>

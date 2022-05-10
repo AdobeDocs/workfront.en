@@ -219,7 +219,7 @@ As a Workfront administrator, you must enable Workfront DAM in Workfront before 
 
 To configure Workfront to send metadata to Workfront DAM:
 
-1. <![CDATA[        ]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
 1. Click **Documents** > **Metadata Mapping**.   
 

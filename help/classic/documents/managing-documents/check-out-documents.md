@@ -72,8 +72,6 @@ If you have manage permissions to a document, you can check it out to forbid&nbs
 
 1. Click **More** > **Check Out**.
 
-   <![CDATA[ ]]>
-
    ``` ![document_checkout.png](assets/document-checkout-350x187.png)
 
    ``` 

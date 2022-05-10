@@ -116,8 +116,6 @@ If
 Actual Labor Cost + Incurred Actual Expense Cost <> 0 THEN CPI = (Total Budgeted Cost Work Performed + Incurred Planned Expense Cost) / (Actual Labor Cost + Incurred Actual Expense Cost)
 ```
 
-<![CDATA[ ]]>
-
 Otherwise 
 
 ```
@@ -125,33 +123,24 @@ CPI = 1
 ```
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>(NOTE: above: this used to say: CPI = CPI Labor, but Anna had me fix it on July 21, 2021)<![CDATA[
-]]></code> </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>(NOTE: above: this used to say: CPI = CPI Labor, but Anna had me fix it on July 21, 2021)</code> </p>
 -->
 
 The fields in this calculation are described below:
-
-* <![CDATA[				]]>
 
   ```
   Total Actual Cost = Actual (logged) Hours * Hourly Rate of assignees
   ```
 
-  <![CDATA[ ]]>
-
   ```
   Incurred Actual Expense Cost = Actual Cost
   ```
 
-  Incurred Expense is the expense on which Actual Cost > 0<![CDATA[			]]>
-
-* <![CDATA[ ]]>
+  Incurred Expense is the expense on which Actual Cost > 0
 
   ```
   Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expenses
   ```
-
-  <![CDATA[ ]]>
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Old calculation - taken out by Lilit and replaced below: Planned Cost of Work Performed= (planned labor cost) * (percent complete) / 100 where planned labor cost is the planned hours allocated to assignees * their rates.)</p>
@@ -160,13 +149,12 @@ The fields in this calculation are described below:
 * Planned Cost of Work Performed is calculated by the following formula:
 
   ```
-  Planned Cost of Work Performed = Planned cost * Percent Complete / 100<![CDATA[
-					]]>
+  Planned Cost of Work Performed = Planned cost * Percent Complete / 100
   ```
 
-The Total Budgeted Cost Work Performed is calculated for the following:<![CDATA[		]]>
+The Total Budgeted Cost Work Performed is calculated for the following:
 
-* <![CDATA[			]]>**For a non-parent task:**
+* **For a non-parent task:**
 
   ```
   Total Budgeted Cost Work Performed = Planned Labor Cost * Percent Complete / 100
@@ -183,8 +171,6 @@ The Total Budgeted Cost Work Performed is calculated for the following:<![CDATA[
   ```
   Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
   ```
-
-  <![CDATA[ ]]>
 
 ## Locate CPI in a project or task
 

@@ -55,9 +55,9 @@ Consider the following when requesting a project through a Business Case:
 
   For information about working with Scorecards and with the Portfolio Optimizer, see the article [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-## Create a Business Case<![CDATA[   ]]>
+## Create a Business Case
 
-1. <![CDATA[        ]]>Click **Projects** in the Global Navigation Bar.<![CDATA[]]>
+1. Click **Projects** in the Global Navigation Bar.
 1. Click&nbsp;**New Project** and select&nbsp;**Request Project**.  
    By default, the project is placed in the **Idea** status.
 
@@ -68,14 +68,14 @@ Consider the following when requesting a project through a Business Case:
    ![idea_project.png](assets/idea-project-350x168.png)
 
 1. Specify a name for your project, then press Enter. 
-1. (Optional) Click **Project Actions**, then **Attach Template**, to create the Work Breakdown Structure of your project.<![CDATA[ ]]>
+1. (Optional) Click **Project Actions**, then **Attach Template**, to create the Work Breakdown Structure of your project.
 
    Or
 
    Start adding tasks to the project manually. 
 
 1. (Conditional) If you selected to attach a template, continue attaching the template to the project
-1. Select the **Project Details** tab, then select the **Business Case** subtab.<![CDATA[]]>
+1. Select the **Project Details** tab, then select the **Business Case** subtab.
 
 1. (Optional) Click **Edit Project Info**.&nbsp;
 
@@ -119,4 +119,3 @@ Consider the following when requesting a project through a Business Case:
    For more information about approving a Business Case, see the article [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 1. (Optional) After completing the Business Case, you can export a copy of it to a .pdf file.&nbsp;For more information about exporting the Business Case to a .pdf file, see the section "Export the Business Case" in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-

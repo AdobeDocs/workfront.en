@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Select the **Documents**&nbsp;tab to attach documents to the portfolio. 
 1. (Optional) Select the **Updates** sub-tab to add comments to the update stream of the portfolio.&nbsp;
-1. (Optional) Click **Portfolio Actions** to do one of the following:<![CDATA[]]>
+1. (Optional) Click **Portfolio Actions** to do one of the following:
 
    * Delete the portfolio.
 
