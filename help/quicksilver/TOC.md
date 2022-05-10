@@ -2066,7 +2066,8 @@ user-guide-description: Workfront
       * [Delete a keyword from the picklist in Workfront Library](workfront-library/administration-and-setup/metadata/delete-keyword-from-metadata.md)
       * [Format your CSV file for metadata import in Workfront Library](workfront-library/administration-and-setup/metadata/format-your-csv-file-for-metadata-import.md)
       * [Use Workfront Library's import tool to add metadata to content](workfront-library/administration-and-setup/metadata/import-metadata-for-content.md)
-    * [Manage assets](workfront-library/administration-and-setup/manage-assets/manage-assets.md)
+    * Manage assets {#manage-assets}
+      * [Manage assets](workfront-library/administration-and-setup/manage-assets/manage-assets.md)
       * [Manage assets for other users](workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md)
       * [Transfer ownership assets to another user](workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md)
   * Content management in Workfront Library {#content-management-wf-library}
