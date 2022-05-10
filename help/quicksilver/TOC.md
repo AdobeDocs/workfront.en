@@ -2120,28 +2120,35 @@ user-guide-description: Workfront
       * [Manage portals](workfront-library/content-management/portals/portals.md)
       * [Overview of Workfront Library portals](workfront-library/content-management/portals/portals-overview.md)
     * [Export asset metadata from Workfront Library](workfront-library/content-management/export-asset-metadata.md)
-* [Workfront Proof](workfront-proof/workfront-proof.md)
-  * [Getting started with Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
-    * [Workflow examples](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
+* Workfront Proof {#workfront-proof}
+  * [Workfront Proof](workfront-proof/workfront-proof.md)
+  * Get started with Workfront Proof {#get-started-wf-proof}
+    * [Getting started with Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+    * Workflow examples {#workflow-examples}
+      * [Workflow examples](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
       * [Basic Proofing Process in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
       * [Internal Then External Review in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
       * [Working with Designers and Project Managers in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
       * [Working with Freelancers in Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
-    * [Personal settings in Workfront Proof](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
+    * Personal settings in Workfront Proof {#personal-settings-in-wf-proof}
+      * [Personal settings in Workfront Proof](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
       * [Designating Temporary Proof Owners in Workfront Proof](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
       * [Integrations - User Setup](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
-    * [System information in Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
+    * System information in Workfront Proof {#system-info-wf-proof}
+      * [System information in Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
       * [Preview Sandbox Testing Environment- Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
       * [Language Settings in Workfront Proof](workfront-proof/wp-getstarted/system-information/language-settings.md)
       * [Codecs in Workfront Proof](workfront-proof/wp-getstarted/system-information/codecs.md)
       * [System information in Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
-    * [Workfront Proof - frequently asked questions](workfront-proof/wp-getstarted/faqs/faqs.md)
+    * Workfront Proof FAQ {#wf-proof-faq}
+      * [Workfront Proof - frequently asked questions](workfront-proof/wp-getstarted/faqs/faqs.md)
       * [FAQ - Create and share proofs and files](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
       * [FAQ - Review proofs](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
       * [FAQ - Workfront Proof account](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
       * [Logging in and changing your password and email for Workfront Proof](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
       * [Setting time zones in Workfront Proof](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
-  * [Work with proofs and files in Workfront Proof](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
+  * Work with proofs and files in Workfront Proof {#work-with-proofs-in-wf-proof}
+    * [Work with proofs and files in Workfront Proof](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
     * [Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
       * [Set up a proof with an Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
       * [Manage a proof configured with an Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
@@ -2204,8 +2211,10 @@ user-guide-description: Workfront
       * [Create a Mini proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
       * [Embed a Mini proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
       * [Manage Proof Roles in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
-  * [Workfront Proof account administration](workfront-proof/wp-acct-admin/wp-account-admin.md)
-    * [Account settings in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
+  * Workfront Proof account administration {#wf-proof-account-admin}
+    * [Workfront Proof account administration](workfront-proof/wp-acct-admin/wp-account-admin.md)
+    * Account settings in Workfront Proof {#account-settings-in-wf-proof}
+      * [Account settings in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
       * [Manage Workfront Proof users](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
       * [Configure a user's Proof Permission Profile in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
       * [Configure custom profiles in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
@@ -2221,90 +2230,117 @@ user-guide-description: Workfront
       * [View your organization's Workfront Proof administrator account history](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
       * [Check your Workfront Proof storage](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
       * [Request a new data backup in Workfront Proof](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
-    * [Branding Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
+    * Branding Workfront Proof {#branding-wf-proof}
+      * [Branding Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
       * [Brand the Workfront Proof site](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
       * [Brand the Workfront Proof site - advanced](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-    * [Manage security](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
+    * Manage security {#manage-security}
+      * [Manage security](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
       * [Proof security in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
       * [Single Sign-On in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
       * [Understanding electronic signatures in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
-    * [Partner accounts in Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
+    * Partner accounts in Workfront Proof {#partner-accounts-in-wf-proof}
+      * [Partner accounts in Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
       * [Manage a partner relationship between Workfront Proof accounts](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
       * [Share items with a partner in Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
-    * [Satellite accounts in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
+    * Satellite accounts in Workfront Proof {#satellite-accounts-in-wf-proof}
+      * [Satellite accounts in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
       * [Satellite accounts in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
       * [Configure a satellite account in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
       * [Manage a satellite account in Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-    * [Tips, tricks, and troubleshooting for Workfront Proof account administration](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+    * Tips, tricks, and troubleshooting for Workfront Proof account administration {#ttt-wf-proof-account-admin}
+      * [Tips, tricks, and troubleshooting for Workfront Proof account administration](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
       * [FAQ: Workfront Proof - US to EMEA migration](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-  * [Workfront Proof Billing Settings](workfront-proof/wp-billingsettings/wp-billing-settings.md)
+  * Workfront Proof Billing Settings {#wf-proof-billing-settings}
+    * [Workfront Proof Billing Settings](workfront-proof/wp-billingsettings/wp-billing-settings.md)
     * [Manage your billing](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
       * [The Workfront Proof Billing Page](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
       * [Choosing Your Payment Method in Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
       * [Downloading Your Workfront Proof Invoice](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
       * [Close your Workfront Proof account](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
-  * [Proof notifications and reminders](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
-    * [Avoid spam filters](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
+  * Proof notifications and reminders {#proof-notifications-and-reminders}
+    * [Proof notifications and reminders](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
+    * Avoid spam filters {#avoid-spam-filters}
+      * [Avoid spam filters](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
       * [Configure spam settings for common email clients](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
       * [Configure Workfront Proof emails to avoid spam filters](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
       * [Workfront Proof SPF records](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
-    * [Send messages to reviewers](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
+    * Send messages to reviewers {#send-messages-to-reviewers}
+      * [Send messages to reviewers](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
       * [Remind a reviewer about assignments in Workfront Proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
       * [Send a reminder message to the reviewers on a proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
-    * [Proof notifications and reminders](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
+    * Proof notifications and reminders {proof-notifications-and-reminders}
+      * [Proof notifications and reminders](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
       * [Late proof email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
       * [New proof email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
       * [The New Version email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
       * [The Proof Made email](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
-  * [Email alerts](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
+  * Email alerts {#email-alerts}
+    * [Email alerts](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
     * [Configure email notification settings in Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
     * [Change email alert settings for a proof in Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
-  * [Managing users and contacts in Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
-    * [Users](workfront-proof/wp-mnguserscontacts/users/users.md)
+  * Managing users and contacts in Workfront Proof {#managing-users-in-wf-proof}
+    * [Managing users and contacts in Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
+    * Users {#users}
+      * [Users](workfront-proof/wp-mnguserscontacts/users/users.md)
       * [Create Users using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-users.md)
       * [Configure User Information using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
       * [Create and Manage Custom Profiles using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
       * [Move Users Between Accounts using Workfront Proof](workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
-    * [Groups](workfront-proof/wp-mnguserscontacts/groups/groups.md)
+    * Groups {#groups}
+      * [Groups](workfront-proof/wp-mnguserscontacts/groups/groups.md)
       * [Add Groups to a Proof](workfront-proof/wp-mnguserscontacts/groups/add-groups.md)
       * [Create Proofing Groups using Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
       * [Make Groups Private using Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
       * [Manage Groups using Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
-    * [Contacts](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
+    * Contacts {#contacts}
+      * [Contacts](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
       * [Add a Guest to Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
       * [Manage Your Contacts in Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
       * [Understand Users, Members, and Guests in Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
-    * [Tips, tricks, and troubleshooting for Workfront Proof users and contacts](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
+    * Tips, tricks, and troubleshooting for Workfront Proof users and contacts {#ttt-wf-proof-users-and-contacts}
+      * [Tips, tricks, and troubleshooting for Workfront Proof users and contacts](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
       * [Bulk edit user's Other Groups](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
-  * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
-    * [Workfront Proof mobile apps](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+  * Workfront Proof mobile {#wf-proof-mobile}
+    * [Workfront Proof mobile](workfront-proof/wp-mobile/wp-mobile.md)
+    * Workfront Proof mobile apps {#wf-proof-mobile-apps}
+      * [Workfront Proof mobile apps](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
       * [Workfront Proof mobile app](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
       * [Workfront Proof mobile app for tablets](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
-    * [Tips, tricks, and troubleshooting for the Workfront Proof mobile app](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
+    * Tips, tricks, and troubleshooting for the Workfront Proof mobile app {#ttt-wf-proof-mobile-apps}
+      * [Tips, tricks, and troubleshooting for the Workfront Proof mobile app](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
       * [Unable to Log In to the Workfront Proof Mobile App](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
-  * [Workfront Proof tech corner](workfront-proof/wp-tech-corner/tech-corner.md)
-    * [Proof types](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
+  * Workfront Proof tech corner {#wf-proof-tech-corner}
+    * [Workfront Proof tech corner](workfront-proof/wp-tech-corner/tech-corner.md)
+    * Proof types {#proof-types}
+      * [Proof types](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
       * [Create a Static Website Proof using Workfront Proof](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
-    * [Troubleshooting in Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
+    * Troubleshooting in Workfront Proof {#troubleshooting-wf-proof}
+      * [Troubleshooting in Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/troubleshooting.md)
       * [Troubleshooting - corrupted interface font in proofing viewer on Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
       * [Understand How Cache and Cookies Affect Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
       * [Speed issues in Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
       * [Problems With Viewing Proofs - Flash Shared Objects Explained](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
       * [Troubleshooting - Workfront Proof proofing viewer](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
-  * [Workfront Proof integrations](workfront-proof/wp-integrations/wp-integrations.md)
-    * [Workfront Proof API](workfront-proof/wp-integrations/api/wp-api.md)
+  * Workfront Proof integrations {#wf-proof-integrations}
+    * [Workfront Proof integrations](workfront-proof/wp-integrations/wp-integrations.md)
+    * Workfront Proof API {#wf-proof-api}
+      * [Workfront Proof API](workfront-proof/wp-integrations/api/wp-api.md)
       * [The Workfront Proof API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-    * [Box](workfront-proof/wp-integrations/box/box.md)
+    * Box {#box}
+      * [Box](workfront-proof/wp-integrations/box/box.md)
       * [Introduction to the Workfront Proof and Box integration](workfront-proof/wp-integrations/box/introduction-to-box.md)
       * [Create a Proof via Your Box Account](workfront-proof/wp-integrations/box/create-proof-box-account.md)
       * [Sync Box Folders With Workfront Proof](workfront-proof/wp-integrations/box/sycn-box-folder.md)
       * [View a Proof's Original File in Box](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
-    * [Basecamp](workfront-proof/wp-integrations/basecamp/basecamp.md)
+    * Basecamp {#basecamp}
+      * [Basecamp](workfront-proof/wp-integrations/basecamp/basecamp.md)
       * [Add a Proof to a Basecamp Project](workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
       * [Integrate Workfront Proof with Basecamp](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
       * [Review a Proof in Basecamp](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
       * [Understand the Basecamp Integration with Workfront Proof](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
-    * [Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
+    * Basecamp Classic {#basecamp-classic}
+      * [Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
       * [Add a Proof to a Basecamp Classic Project](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
       * [Integrate Workfront Proof with Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
       * [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
@@ -2379,8 +2415,10 @@ user-guide-description: Workfront
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
     * [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
     * [Add advanced proofing options when creating a proof through the Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
+* ProofHQ API {#proofhqpapi}
 * [ProofHQ API](proofhq-api/proofhq-api.md)
-  * [General](proofhq-api/general/general.md)
+  * General {#general}
+    * [General](proofhq-api/general/general.md)
     * [Overview](proofhq-api/general/overview.md)
     * [Code Samples](proofhq-api/general/code-samples.md)
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
