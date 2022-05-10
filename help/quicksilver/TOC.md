@@ -2146,21 +2146,25 @@ user-guide-description: Workfront
       * [Setting time zones in Workfront Proof](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
   * Work with proofs and files in Workfront Proof {#work-with-proofs-in-wf-proof}
     * [Work with proofs and files in Workfront Proof](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
-    * [Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+    * Automated Workflow in Workfront Proof {#automated-workflow-in-wf-proof}
+      * [Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
       * [Set up a proof with an Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
       * [Manage a proof configured with an Automated Workflow in Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
-    * [Basic features in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+    * Basic features in Workfront Proof {#basic-features-in-wf-proof}
+      * [Basic features in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
       * [The Dashboard in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
       * [Page Layout on the Views Tab in Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
       * [Searching Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
       * [Understanding the Workfront Proof Activity Audit Trail](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
-    * [Create proofs and files](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
+    * Create proofs and files {#create-proofs-and-files}
+      * [Create proofs and files](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
       * [Upload Files and Web Content to Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
       * [Generate Proofs in Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
       * [Copying Proofs in Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
       * [The Dropzone](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
       * [Create a multi-page proof](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
-    * [Manage your work](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
+    * Manage your work {#manage-your-work}
+      * [Manage your work](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
       * [Manage Files in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
       * [Manage Items on the Views Page in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
       * [Managing Proof Versions in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
@@ -2173,7 +2177,8 @@ user-guide-description: Workfront
       * [Delete a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
       * [Restore and Empty the Trash in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
       * [Run Reports in Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
-    * [Organize your work](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
+    * Organize your work {#organize-your-work}
+      * [Organize your work](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
       * [Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md)
       * [Create Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md)
       * [Manage Folders in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md)
@@ -2184,10 +2189,12 @@ user-guide-description: Workfront
       * [Archive in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
       * [Back Up Your Workfront Proof Data](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
       * [Print and Export Comments in Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-    * [Review proofs in the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+    * Review proofs in the Desktop Proofing Viewer
+      * [Review proofs in the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
       * [Understand the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
       * [Configure how hyperlinks open in the Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
-    * [Review proofs in the Web Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+    * Review proofs in the Web Proofing Viewer {#review-proofs-web-proofing-viewer}
+      * [Review proofs in the Web Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
       * [Opening a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
       * [Review a Workflow in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
       * [Review a proof simultaneously with multiple reviewers](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
@@ -2198,7 +2205,8 @@ user-guide-description: Workfront
       * [Downloading a Proof in the proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
       * [Keyboard shortcuts in the Workfront Proof proofing viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
       * [Legacy proofing viewer Removed](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
-    * [Share proofs and files](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
+    * Share proofs and files {#share-proofs-and-files}
+      * [Share proofs and files](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
       * [Share a Proof in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
       * [Share proof links in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
       * [Share the Public URL in Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
