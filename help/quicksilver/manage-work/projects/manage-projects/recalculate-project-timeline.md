@@ -145,17 +145,13 @@ You can recalculate the timeline of a project in Workfront from the project page
    >
    >Depending on the complexity of your projects, we recommend not to select a large number of projects when recalculating their timelines in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments, or a large number of custom fields.
 
-1.
-
-   Click&nbsp;**Recalculate Timeline**.
+1. Click&nbsp;**Recalculate Timeline**.
 
    After the timeline is recalculated, you see a message indicating that the recalculation was successful.
 
    >[!TIP]
    >
    >Before the timeline recalculation is finished, some planned or projected dates might display as dimmed. This means that the recalculation is not yet finished, and the dates are subject to change.
-   >
-   >
 
 ### Manually recalculate timelines in bulk in the Edit Projects box {#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box}
 

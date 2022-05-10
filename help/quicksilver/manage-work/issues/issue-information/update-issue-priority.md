@@ -96,9 +96,7 @@ Refer to the following table to understand each&nbsp;default priority label and 
 
    The **Overview** section should display by default.  
 
-1.
-
-   Click the **Priority** field in the **Basic information** area.
+1. Click the **Priority** field in the **Basic information** area.
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 

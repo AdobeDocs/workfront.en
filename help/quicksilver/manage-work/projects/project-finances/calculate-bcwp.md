@@ -60,10 +60,7 @@ You must have the following access to perform the steps in this article:
 
 You can configure whether the BCWP is calculated in hours or costs by configuring how the Performance Index Method (PIM) of the project is calculated.
 
-1.
-
-   Go to a project and expand **Project Details** in the left panel. 
-
+1. Go to a project and expand **Project Details** in the left panel. 
 1. In the **Finance** area, locate the **Performance Index Method** field and double click to edit it.
 
    ![](assets/pim-options-hour-cost-based-nwe.png)

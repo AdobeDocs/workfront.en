@@ -87,8 +87,7 @@ To create a custom view:
 
 1. Use the **Filters** section to define one or more criteria for selecting items to include in your Custom view. Filters are especially helpful if you want to use your custom view as a report.
 1. To include all&nbsp;items in your custom view, skip the **Filters** section.
-1. Available filters
-1.
+1. Available filters:
 
    * **Field:**&nbsp;Select the Field for this filter (Comments is the default field.) The Field list contains all the Standard fields (as in the Columns tab). The list is not limited to the columns you selected for display.
    * **Operator:**&nbsp;The Operators available for the filter depend on the type of Field you selected. Select an Operator that shows the relationship between the Field and the value field. You will fill in this information later.

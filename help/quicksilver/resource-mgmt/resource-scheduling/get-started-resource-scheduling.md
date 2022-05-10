@@ -197,8 +197,6 @@ On the scheduling timeline, you can minimize tasks and issues that are displayed
       * Only Planned Hours for the user display
       * Tasks and issues are hidden
 
-1.
-
    * If you enable the **Show Totals for Daily Planned Hours** tasks and issues for the user are minimized.  
      ![RS_user_collapsed__1_.png](assets/rs-user-collapsed--1--350x152.png)
 

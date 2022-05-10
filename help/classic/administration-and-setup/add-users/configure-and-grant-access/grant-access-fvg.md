@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="access-to-issues"></a>Access to filters, views, and groupings by license type</h2>
 <p>
-<!--
+
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
 --> 
 
