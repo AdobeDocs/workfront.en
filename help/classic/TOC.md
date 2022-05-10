@@ -553,16 +553,16 @@ user-guide: null
       * [Export a list of groups](administration-and-setup/manage-groups/create-and-manage-groups/export-a-list-of-groups.md)
       * [Actions allowed for different types of administrators](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
     * Create and manage subgroups {#create-and-manage-subgroups}
-      * [Create and manage subgroups - Contacts](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
+      * [Create and manage subgroups - Contents](administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md)
       * [Create a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
       * [Manage a subgroup](administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
     * Group roles {#group-roles}
-      * [Group roles - Contacts](administration-and-setup/manage-groups/group-roles/group-roles.md)
+      * [Group roles - Contents](administration-and-setup/manage-groups/group-roles/group-roles.md)
       * [Group administrators](administration-and-setup/manage-groups/group-roles/group-administrators.md)
       * [Assign a user as a group administrator](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
       * [Business Leader overview](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
     * Manage group statuses {#manage-group-statuses}
-      * [Manage group statuses](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
+      * [Manage group statuses - Contents](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
       * [Create or edit a group status](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
       * [Reorder group statuses](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
       * [Use a custom status as a default status for a group](administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md)
