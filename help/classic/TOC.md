@@ -511,7 +511,7 @@ user-guide: null
       * [Exchange rates - Contents](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [Set up exchange rates](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
     * Manage delete items {#deleted-items}
-      * [Manage deleted items](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
+      * [Manage deleted items - Contents](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
       * [Restore deleted items](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
       * [View restored item](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
       * [Configure affect on hours when an object is deleted and restored](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
@@ -530,7 +530,7 @@ user-guide: null
   * Manage groups {#manage-groups}
     * [Manage groups - Contents](administration-and-setup/manage-groups/manage-groups.md)
     * Groups overview {#manage-groups}
-      * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+      * [Groups overview - Contents](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
       * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups.md)
       * [Subgroups overview](administration-and-setup/manage-groups/groups-overview/subgroups.md)
       * [Home Groups overview](administration-and-setup/manage-groups/groups-overview/home-groups.md)
@@ -586,12 +586,15 @@ user-guide: null
     * [Access Help for Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
     * [Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-workfront-fusion.md)
     * [Legacy Workfront Fusion service outages](administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
-  * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
+  * Administrator FAQs {#adminstrator-faqs}
+    * [Administrator FAQs - Contents](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
     * [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
     * [Migrating to another cluster](administration-and-setup/administrator-faqs/migrate-to-another-cluster.md)
-  * [Workfront administration in the Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
+  * Workfront administration in the Adobe Admin Console {#wf-admin-in-admin-console}
+    * [Workfront administration in the Adobe Admin Console - Contents](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
     * [Prepare to onboard your organization to the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-  * [Tips, tricks, and troubleshooting for administration and setup](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
+  * Tips, tricks, and troubleshooting for administration and setup {#ttt-admin-setup}
+    * [Tips, tricks, and troubleshooting for administration and setup - Contents](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Active and deactivated objects](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
     * [ADFS logout URL doesn't work](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
     * [Administration and setup FAQs](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
