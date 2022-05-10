@@ -47,11 +47,11 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Export information from the Resource Planner<![CDATA[		]]>
+## Export information from the Resource Planner
 
-1. <![CDATA[				]]><![CDATA[			]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
 
-1. <![CDATA[			]]> Click **Resourcing**. The **Planner** displays by default.
+1. Click **Resourcing**. The **Planner** displays by default.
 
 1. Select the view for the  Planner. You can select one of the following options:
 

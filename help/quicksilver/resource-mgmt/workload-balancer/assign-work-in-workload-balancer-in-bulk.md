@@ -6,7 +6,7 @@ title: Assign work in bulk using the Workload Balancer
 description: Assign work in bulk using the Workload Balancer
 ---
 
-# Assign work in bulk using the<![CDATA[  ]]>Workload Balancer
+# Assign work in bulk using theWorkload Balancer
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: NWE only article)</p>

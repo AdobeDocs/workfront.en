@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 Consider the following when using task priorities:
 
-* <![CDATA[			]]>Adobe Workfront administrators can modify priority labels within Workfront or they can create new priorities. As a result, the options you might have for the Priority field in your Workfront instance might differ from those listed below. For information about customizing the names of priorities in your instance, see [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md). 
+* Adobe Workfront administrators can modify priority labels within Workfront or they can create new priorities. As a result, the options you might have for the Priority field in your Workfront instance might differ from those listed below. For information about customizing the names of priorities in your instance, see [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities-.md). 
 * Each priority label has a number associated with it that can not be modified.
 
   You should become familiar with the numbering sequence for priorities used in your organization.
@@ -63,7 +63,7 @@ Consider the following when using task priorities:
   |  High  | 3  |
   |  Urgent  | 4  |
 
-<![CDATA[ ]]>
+
 
 ## Modify the Priority of a task
 

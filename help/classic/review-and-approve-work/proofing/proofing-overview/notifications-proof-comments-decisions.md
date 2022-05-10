@@ -52,5 +52,4 @@ The settings that determine how you receive email alerts about proof comments an
 >* [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) 
 >* [The New Version email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md) 
 >* [Late proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md) 
->* [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)<![CDATA[    ]]>
-
+>* [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)

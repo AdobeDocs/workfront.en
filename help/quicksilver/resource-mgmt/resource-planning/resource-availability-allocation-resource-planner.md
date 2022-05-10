@@ -71,7 +71,7 @@ Consider the following when changing your view to the Resource Planner:
   </MadCap:conditionalText>
   -->
 
-  <![CDATA[ ]]>
+  
 
    * Available Hours, FTE, or Cost
    * Planned Hours, FTE, or Cost

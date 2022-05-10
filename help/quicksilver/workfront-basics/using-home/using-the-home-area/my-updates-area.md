@@ -12,7 +12,7 @@ description: Use the My Updates areaMy Work" folder that is conditioned for Clas
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My&nbsp;Work" folder that is conditioned for Classic only)</p>
 -->
 
-You can use the My Updates area to quickly review the approvals waiting for your decision or the conversations you have been included in.<![CDATA[  ]]>
+You can use the My Updates area to quickly review the approvals waiting for your decision or the conversations you have been included in.
 
 As a user with a Review license, you can find the My Updates area in the Main Menu by default and the My Updates area is the default landing page for you.
 

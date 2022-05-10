@@ -67,7 +67,7 @@ If you have manage permissions to a document, you can check it out to forbid&nbs
    For information about adding documents, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 1. Click the **Check Out** icon ![](assets/check-out-25x23.png).    
-   <![CDATA[ ]]>
+   
 1. A lock icon ![](assets/lock-icon-locked-qs.png) displays to the right of the document name. The document stays checked out after you log out of Workfront.
 1. Only the user who checked out&nbsp;the document or the Workfront administrator can check&nbsp;the document in.
 

@@ -181,8 +181,7 @@ You must have the following:
          <p>Note: Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. Regular time takes into account holidays, weekends, and time off and excludes them from the Duration of the task. For more information about task duration, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> 
          <p> <!--
            <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-             You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.)<![CDATA[
-    ]]> 
+             You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.) 
            </MadCap:conditionalText>
           --></p> 
         </div> 
@@ -232,18 +231,10 @@ You must have the following:
         <li> <p><span>Must Finish On</span> </p> <p>Specify a <strong>Planned Completion Date</strong>. </p> </li> 
        </ul> 
        <ul> 
-        <li> <p><![CDATA[
-   ]]><span>As Soon as Possible</span><![CDATA[
-   ]]></p> </li> 
-        <li> <p><span>As Late as Possible</span><![CDATA[
-   
-   ]]></p> </li> 
-        <li> <p><span>Earliest Available Time</span><![CDATA[
-   
-   ]]></p> </li> 
-        <li> <p> <span>Latest Available Time</span><![CDATA[
-   
-   ]]></p> </li> 
+        <li> <p><span>As Soon as Possible</span></p> </li> 
+        <li> <p><span>As Late as Possible</span></p> </li> 
+        <li> <p><span>Earliest Available Time</span></p> </li> 
+        <li> <p> <span>Latest Available Time</span></p> </li> 
         <li> <p><span>Start No Later Than</span> </p> </li> 
         <li> <p>Specify a Planned Start Date</p> </li> 
         <li> <p><span>Start No Earlier Than</span> </p> <p>Specify a <strong>Planned Start Date</strong>. </p> </li> 
@@ -295,8 +286,6 @@ You must have the following:
      </tr> 
     </tbody> 
    </table>
-
-1. 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted, to keep it focused JUST on the Overview section and not others.) </p>

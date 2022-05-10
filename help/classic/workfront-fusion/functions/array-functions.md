@@ -258,7 +258,7 @@ The first item in an array is index 1.
   name
   ```
 
-  <![CDATA[ ]]>
+  
 
   Sorts an array of contacts by the "name" property in case-insensitive ascending order
 

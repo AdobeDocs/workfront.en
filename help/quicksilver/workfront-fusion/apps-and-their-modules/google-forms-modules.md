@@ -174,7 +174,7 @@ When you are configuring this module, the following fields display.
    <td> 
     <ul> 
      <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
-     <li> <p><strong>User entered</strong><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -182,7 +182,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Specify how existing data is changed when new data is input. </p> 
     <ul> 
      <li> <p><strong>Overwrite</strong> </p> <p>The new data overwrites existing data in the areas where it is written. Adding data to the end of the sheet inserts new rows or columns so the data can be written.</p> </li> 
-     <li> <p><strong>Insert rows</strong><![CDATA[	]]></p> <p>Rows are inserted for the new data.</p> </li> 
+     <li> <p><strong>Insert rows</strong></p> <p>Rows are inserted for the new data.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -223,7 +223,7 @@ When you are configuring this module, the following fields display.
    <td> 
     <ul> 
      <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
-     <li> <p><strong>User entered</strong><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -359,7 +359,7 @@ This module returns responses matching the given criteria.
    <td role="rowheader">Value Render Option</td> 
    <td> <p>Specify how you want the values to be rendered in the output.</p> 
     <ul> 
-     <li> <p><strong>Formatted value</strong><![CDATA[	]]></p> <p>Values are calculated and formatted in the reply according to the cell's formatting. Formatting is based on the spreadsheet's locale, not the requesting user's locale. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>$1. 23</code> .</p> </li> 
+     <li> <p><strong>Formatted value</strong></p> <p>Values are calculated and formatted in the reply according to the cell's formatting. Formatting is based on the spreadsheet's locale, not the requesting user's locale. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>$1. 23</code> .</p> </li> 
      <li> <p><strong>Unformatted value</strong> </p> <p>Values are calculated, but not formatted in the reply. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns the number <code>1. 23</code> .</p> </li> 
      <li> <p><strong>Formula</strong> </p> <p>Values are not calculated. The reply includes the formulas. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>=A1</code>.</p> </li> 
     </ul> </td> 

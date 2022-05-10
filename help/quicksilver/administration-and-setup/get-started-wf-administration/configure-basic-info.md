@@ -44,7 +44,7 @@ The customer represents the Workfront instance for your organization. The option
 
 To access the Customer Info page:
 
-1. <![CDATA[]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
 1. In the left panel, click **System** > **Customer Info**.
 

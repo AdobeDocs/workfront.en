@@ -95,4 +95,4 @@ You can allow keyword metadata to display for content in the portal. This enable
 1. Enable **Display all keywords in the portal**.  
    ![](assets/portals-keywords-350x194.png)
 
-<![CDATA[]]> 
+ 

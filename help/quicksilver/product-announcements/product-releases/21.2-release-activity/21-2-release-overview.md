@@ -34,7 +34,7 @@ in the first quarter of 2021
 </MadCap:conditionalText>
 -->
 
-<![CDATA[ ]]>
+
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

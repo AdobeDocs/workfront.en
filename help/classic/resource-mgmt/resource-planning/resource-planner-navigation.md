@@ -29,8 +29,6 @@ The following sections outline all areas of the Resource Planner.
 
 ![](assets/timeline-calendar-resource-planner-classic-350x23.png)
 
-<![CDATA[ ]]>
-
 Use the calendar at the top of the Resource Planner to navigate the timeline of the projects you are viewing. The timeline starts with today's month, by default.  
 For more information about changing the timeframe of the timeline you are displaying in the Resource Planner, see the section [Timeframe selection](#timeframe-selection) in this article.
 

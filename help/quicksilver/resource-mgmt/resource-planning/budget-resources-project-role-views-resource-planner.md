@@ -62,13 +62,13 @@ You must have the following access to perform the steps in this article:
 ### **Budget resources in the Project View** {#budget-resources-in-the-project-view}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)<![CDATA[  ]]></p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. <![CDATA[				]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.<![CDATA[      ]]>
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. <![CDATA[				]]><![CDATA[			]]> Click **Resourcing**. <![CDATA[    ]]>
-1. <![CDATA[			]]> The **Planner** displays by default.  
+1. Click **Resourcing**. 
+1. The **Planner** displays by default.  
 1. (Conditional) Select the **View by Project** view. 
 1. Expand the projects and the job roles to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users do one of the following:
@@ -152,10 +152,10 @@ For information about the access needed for budgeting resources, see the article
 
 To budget allocations in the Resource Planner in the**** Role view:
 
-1. <![CDATA[				]]><![CDATA[			]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.<![CDATA[      ]]>
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. <![CDATA[				]]><![CDATA[			]]> Click **Resourcing**. <![CDATA[     ]]>
-1. <![CDATA[			]]> The **Planner** displays by default. 
+1. Click **Resourcing**. 
+1. The **Planner** displays by default. 
 1. (Conditional) Select the **View by Role** view. 
 1. Expand the job roles and the projects to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users, do one of the following:

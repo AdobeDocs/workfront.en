@@ -197,7 +197,7 @@ The pathID can sometimes have no value. Copy the entire rest of the URL, startin
 <div data-mc-conditions="QuicksilverOrClassic.Classic">
 <p><em>https://<strong>yourcompany</strong>.my.workfront.com/requests/newRequestEmbedded?</em>projectID=5c53339f0017e56de1b41278355f9fa8&path=</p>
 <ul>
-<li> <p><em>https://<strong>yourcompany</strong>.my.workfront.com/requests/newRequestEmbedded?</em><i>projectID=555f815500fe2d8bdb898dd975d70c53&path=565e01c8027d2749044c9aef223999c3</i><![CDATA[			]]></p> </li>
+<li> <p><em>https://<strong>yourcompany</strong>.my.workfront.com/requests/newRequestEmbedded?</em><i>projectID=555f815500fe2d8bdb898dd975d70c53&path=565e01c8027d2749044c9aef223999c3</i></p> </li>
 </ul>
 </div> </li>
 </ol>

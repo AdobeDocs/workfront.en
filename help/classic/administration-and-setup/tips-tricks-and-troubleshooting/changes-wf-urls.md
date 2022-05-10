@@ -24,7 +24,7 @@ AtTask became Workfront in 2015. All customers’ system access URLs (usually&nb
 
 If you&nbsp;use a SAML SSO solution to help your&nbsp;users access Workfront, you should have completed additional steps to ensure your&nbsp;custom metadata is retained during the transition. If you use&nbsp;the Workfront APIs, you should have updated them with the new access URLs to avoid service interruptions when the final transition was made in May 2019. For more information about updating SAML 2.0 metadata, see [Update SAML 2.0 metadata in your identity provider](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
-You and your teams should be using the new URLs to access Workfront.<![CDATA[    ]]>
+You and your teams should be using the new URLs to access Workfront.
 
 >[!NOTE]
 >

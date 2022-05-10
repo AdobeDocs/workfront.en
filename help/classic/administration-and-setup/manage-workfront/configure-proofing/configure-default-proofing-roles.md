@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
 ## Configure default proofing roles
 
-1. <![CDATA[]]>Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Review and Approval** near the bottom of the list that appears on the left. 
 1. In the **Roles for designated recipients of a document proof** section, select the default role for users and guest users who are added to a proof's workflow.
 

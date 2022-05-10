@@ -27,12 +27,12 @@ Consider the following when viewing the Hours or FTE information in the Resource
 
 * You can display the difference between the User Available and the amount of Planned Hours or FTE either as a number or as a percentage value in the User view. 
 * You cannot display the information in the User view by Cost. 
-* <![CDATA[			]]>Adobe Workfront populates Available Hours or FTE according to the working time associated with the users in their schedules.  
+* Adobe Workfront populates Available Hours or FTE according to the working time associated with the users in their schedules.  
   Users not associated with a schedule show availability according to the Default Schedule.  
   For information about the Default Schedule, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-* <![CDATA[				]]>Workfront populates Planned Hours or FTE from the Planned Hours information on the tasks and issues on the projects. 
-* <![CDATA[				]]>Workfront populates Actual Hours with the actual time logged to tasks and issues by the users who are assigned to them. This includes time logged on a project. 
+* Workfront populates Planned Hours or FTE from the Planned Hours information on the tasks and issues on the projects. 
+* Workfront populates Actual Hours with the actual time logged to tasks and issues by the users who are assigned to them. This includes time logged on a project. 
 * When in the User view, you can do the following:
 
    * Expand each user to display a list of projects where that user is assigned.

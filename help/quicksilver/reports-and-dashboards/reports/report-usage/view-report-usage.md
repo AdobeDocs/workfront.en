@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
 
-1. <![CDATA[     ]]>
+1. 
 1. On the list of reports, click the **Filter** drop-down menu.
 1. Click **New Filter**, then click **Add a Filter Rule**.
 

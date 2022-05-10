@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
 ## Add a project to a portfolio
 
-1. Go to a portfolio and select the **Projects**&nbsp;tab.<![CDATA[ ]]>
+1. Go to a portfolio and select the **Projects**&nbsp;tab.
 
    ![](assets/app1-350x130.png)
 

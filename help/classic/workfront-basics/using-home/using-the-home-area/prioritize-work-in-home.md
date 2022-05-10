@@ -53,7 +53,7 @@ You can add any item assigned to you in your Work List to&nbsp;My Priority. New 
 
    For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md).
 
-1. In the left panel, ensure the <![CDATA[  ]]>**Sort by** drop-down menu is sorting by one of the following options:
+1. In the left panel, ensure the **Sort by** drop-down menu is sorting by one of the following options:
 
    * Planned Completion
    * Commit Date

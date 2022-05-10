@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
 ## Filter a report list by usage information {#filter-a-report-list-by-usage-information}
 
 1. Go to the **Reporting** area in the Global Navigation Bar. 
-1. Select the **Reports** tab.<![CDATA[     ]]>
+1. Select the **Reports** tab.
 1. On the list of reports, click the **Filter** drop-down menu.
 1. Click **New Filter**, then click **Add a Filter Rule**.
 

@@ -99,7 +99,7 @@ To log in to Workfront using your SSO&nbsp;username and password:
 
 1. Specify the Workfront URL for your company or the link to your SAML authentication portal.
 
-   The Workfront URL should display in the following format*:*<![CDATA[                               ]]>  
+   The Workfront URL should display in the following format*:* 
    **yourDomain.my.workfront.com**
 
    For example:

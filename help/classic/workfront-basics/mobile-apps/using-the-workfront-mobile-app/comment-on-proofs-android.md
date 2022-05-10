@@ -86,7 +86,7 @@ You can associate your proof comments to a specific area on the document. Use th
 
 1. Select **Settings** next to the tool name to define the color, opacity, and thickness. Select the star icon to make these choices the default settings for the tool.
 
-   ![Drawing tool settings](assets/android-drawingtoolsettings-350x328.png)<![CDATA[                ]]>
+   ![Drawing tool settings](assets/android-drawingtoolsettings-350x328.png)
 
 1. Draw the shape on the proof document. Select the **Undo** icon ![Undo](assets/android-undo-icon-30x31.png) to undo the drawing.
 1. (Conditional)&nbsp;Select the shape and choose **Settings** to edit the shape settings, or **Remove** to delete the shape.

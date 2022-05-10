@@ -141,7 +141,7 @@ This includes only first level parents, not secondary level parents, etc.
 </ul>
 <h4><strong>CPI</strong> </h4>
 <p><em> IF </em> Actual Hours > 0 <em> THEN </em><![CDATA[
-]]><code>CPI = TotalBudgetedCostWorkPerformed / Actual Hours </code><![CDATA[    ]]></p>
+]]><code>CPI = TotalBudgetedCostWorkPerformed / Actual Hours </code></p>
 <p><em> ELSE </em> CPI = 1 </p>
 <p><strong>EAC</strong> </p>
 <p><em> IF </em> CPI <> 0 <em> THEN </em> EAC = Planned Hours / CPI </p>

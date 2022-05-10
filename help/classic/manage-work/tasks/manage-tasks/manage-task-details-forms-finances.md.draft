@@ -92,7 +92,7 @@ You can see the following information on the **Overview** sub-tab:
 
 If your Workfront administrator created custom forms for tasks, you can attach a custom form to a task in this tab.
 
-You can attach up to 10 forms to the same task. Only active custom forms can be associated with tasks. <![CDATA[    ]]>
+You can attach up to 10 forms to the same task. Only active custom forms can be associated with tasks.
 
 For more information about creating custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). For more information about applying custom form to objects, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

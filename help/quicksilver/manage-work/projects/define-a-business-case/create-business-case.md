@@ -51,10 +51,9 @@ Consider the following when requesting a project through a Business Case:
 
   For information about working with Scorecards and with the Portfolio Optimizer, see the article [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-## Create a Business Case<![CDATA[   ]]>
+## Create a Business Case
 
-1. <![CDATA[        ]]><![CDATA[]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;**Projects**. 
-
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;**Projects**. 
 1. Click&nbsp;**New Project** and select&nbsp;**Request Project**.  
    By default, the project is placed in the **Idea** status.
 
@@ -63,14 +62,14 @@ Consider the following when requesting a project through a Business Case:
    >If the Idea status has been deleted in your Workfront instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. Specify a name for your project, then press Enter. 
-1. (Optional) <![CDATA[ ]]>Click the **More** icon ![](assets/qs-more-icon-on-an-object.png), then **Attach Template**, to create the Work Breakdown Structure of your project.
+1. (Optional) Click the **More** icon ![](assets/qs-more-icon-on-an-object.png), then **Attach Template**, to create the Work Breakdown Structure of your project.
 
    Or
 
    Start adding tasks to the project manually. 
 
 1. (Conditional) If you selected to attach a template, continue attaching the template to the project
-1. <![CDATA[]]>Click **Business Case** in the left panel. 
+1. Click **Business Case** in the left panel. 
 1. (Optional) Click **Edit Project Info**.&nbsp;
 
    For more information about editing the fields in the Project Info section of the Business Case, see the section [Project Info](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).

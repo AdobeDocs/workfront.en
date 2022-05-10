@@ -33,15 +33,12 @@ The Handoff Date is the date a task becomes available for work. This typically m
 
 Workfront uses the following rules for calculating the Handoff Date of a task:
 
-<!--WRITER - check cdata formatting below
--->
+* **When the task has an incomplete predecessor**: The Handoff Date for the task is null. 
+* **When the task has a complete predecessor**: The Handoff Date is the same as the Actual Completion Date of the predecessor task. 
+* **When the task has no predecessor and**:
 
-* `<![CDATA[ ]]>`**When the task has an incomplete predecessor**: The Handoff Date for the task is null. 
-* `<![CDATA[ ]]>`**When the task has a complete predecessor**: The Handoff Date is the same as the Actual Completion Date of the predecessor task. 
-* `<![CDATA[ ]]>`**When the task has no predecessor and**:
-
-   * `<![CDATA[ ]]>`**The Planned Start Date is in the past**: The Handoff Date is the same as the Planned Start Date of the project. 
-   * `<![CDATA[ ]]>`**The Planned Start Date is in the future (any date after the current date)**: The Handoff Date is the same as the Planned Start Date of the project.
+   * **The Planned Start Date is in the past**: The Handoff Date is the same as the Planned Start Date of the project. 
+   * **The Planned Start Date is in the future (any date after the current date)**: The Handoff Date is the same as the Planned Start Date of the project.
 
 >[!NOTE]
 >

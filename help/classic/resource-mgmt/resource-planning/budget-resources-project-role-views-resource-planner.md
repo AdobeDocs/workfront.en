@@ -66,12 +66,12 @@ You must have the following access to perform the steps in this article:
 ### **Budget resources in the Project View** {#budget-resources-in-the-project-view}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)<![CDATA[  ]]></p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. <![CDATA[				]]> Go to the **People** area in the Global Navigation Bar. <![CDATA[      ]]>
-1. <![CDATA[				]]> Select the **Planning** tab. <![CDATA[			]]><![CDATA[    ]]>
-1. Select the **Resource Planner** sub-tab. <![CDATA[			]]> 
+1. Go to the **People** area in the Global Navigation Bar.
+1. Select the **Planning** tab.
+1. Select the **Resource Planner** sub-tab. 
 1. (Conditional) Select the **View by Project** view. 
 1. Expand the projects and the job roles to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users do one of the following:
@@ -155,9 +155,9 @@ For information about the access needed for budgeting resources, see the article
 
 To budget allocations in the Resource Planner in the**** Role view:
 
-1. <![CDATA[				]]> Go to the **People** area in the Global Navigation Bar. <![CDATA[			]]><![CDATA[      ]]>
-1. <![CDATA[				]]> Select the **Planning** tab. <![CDATA[			]]><![CDATA[     ]]>
-1. Select the **Resource Planner** sub-tab. <![CDATA[			]]>
+1. Go to the **People** area in the Global Navigation Bar.
+1. Select the **Planning** tab.
+1. Select the **Resource Planner** sub-tab. 
 1. (Conditional) Select the **View by Role** view. 
 1. Expand the job roles and the projects to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users, do one of the following:

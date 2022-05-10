@@ -56,8 +56,7 @@ The following project statuses are provided with your Workfront instance:
     <ul> 
      <li>If the Completion Mode of the project is set to Automatic, Workfront automatically marks a project as Complete when all the tasks and issues in the project are marked as Complete. </li> 
     </ul> <p>Important: You can mark a project as Complete only when all the tasks, issues, and approvals on the project are resolved.</p> </td> 
-   <td><![CDATA[
-           ]]>
+   <td>
     <ul>
      <li>Users on the project team cannot see the project on their Projects lists by default, in the Projects area of Workfront. The tasks and issues that are assigned to them on the project do not populate their Work Requests or Working On lists.</li>
      <li>All the notifications related to the project, except for a status change notification, stop being sent to the users on the project team. </li>

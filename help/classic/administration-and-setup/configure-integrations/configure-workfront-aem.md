@@ -313,7 +313,7 @@ For more information about Workfront permissions, see [Create or modify custom a
 
 1. Click the **Groups** tab.
 
-   ![](assets/groupstab.png)<![CDATA[      ]]>
+   ![](assets/groupstab.png)
 
 1. Ensure the user belongs to at least one Workfront group that has Access levels that include the Create and Delete permissions.
 

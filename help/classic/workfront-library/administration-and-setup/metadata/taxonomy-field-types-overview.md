@@ -366,7 +366,7 @@ Additional EXIF metadata supported:
  </tbody> 
 </table>
 
-<![CDATA[ ]]>
+
 
 ## XMP metadata fields
 

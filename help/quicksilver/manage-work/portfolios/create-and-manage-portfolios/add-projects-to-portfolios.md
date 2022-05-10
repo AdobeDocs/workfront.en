@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 ## Add a project to a portfolio
 
-1. <![CDATA[ ]]>Go to a portfolio, then click **Projects** in the left panel.
+1. Go to a portfolio, then click **Projects** in the left panel.
 
    ![](assets/qs-portfolio-with-projects-350x90.png)
 
