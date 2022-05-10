@@ -125,5 +125,3 @@ You can manage the sub-folders from the Folders detail page.&nbsp;For more infor
    * **Share:** Lets you share the sub-folder with other users.
    * **Excel summary**: Lets you request an Excel summary of the sub-folder.
    * **Delete:** Lets you delete the sub-folder.
-
-For more information, see [Manage Folders and their Contents in Workfront Proof](#).

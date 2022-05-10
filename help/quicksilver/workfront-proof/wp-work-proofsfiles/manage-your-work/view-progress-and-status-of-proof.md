@@ -197,6 +197,6 @@ Each proof also has a menu (1) that allows you to perform the below actions:
 >
 >The availability of these options depends on your rights on the proof (see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-For information about viewing proof progress and status within Workfront, see [Viewing Progress and Status](#viewing-progress-and-status) in [View the Progress and Status of a Proof in Workfront Proof](#).
+For information about viewing proof progress and status within Workfront, see [Viewing Progress and Status](#viewing-progress-and-status).
 
 For information about viewing progress and status in the Desktop Proofing Viewer, see [Review a Workflow in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).

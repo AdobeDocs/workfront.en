@@ -50,14 +50,10 @@ Alina: will use this draft to start the restructure of the RM files
   --> <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">go to scheduling to assign tasks and see who is overallocated - link to scheduling here.&nbsp;</span> </li>
   -->
-  </ul> </li>
-  -->
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">etc ...</span> </li>
   -->
-
-* 
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">***&nbsp;</span> </p>
@@ -67,15 +63,16 @@ Alina: will use this draft to start the restructure of the RM files
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can manage the allocation of your resources to the projects they are assigned to and forecast their availability for future work at the system level using Resource Planning tools.<br>For an overview of the Resource Planning functionality available in Workfront, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning</a>.</p>
   -->
 
-  ## Understanding the Resource Planner
+## Understanding the Resource Planner
 
-  As a Resource Manager, you can prioritize the projects you are working on, and budget your resource allocation for them to ensure that you have the best resources do the work.&nbsp;
+As a Resource Manager, you can prioritize the projects you are working on, and budget your resource allocation for them to ensure that you have the best resources do the work.&nbsp;
 
-  By using the Resource Planner,&nbsp;you can&nbsp;easily understand the&nbsp;availability of your resources, and budget their allocations for future work at the system level, across all projects.
+By using the Resource Planner,&nbsp;you can&nbsp;easily understand the&nbsp;availability of your resources, and budget their allocations for future work at the system level, across all projects.
 
-  The Resource Planner has two purposes:&nbsp;
+The Resource Planner has two purposes:&nbsp;
 
-   * To help Resource Managers budget the allocation of their job roles for the work that needs to be accomplished. You can use the Project and Role&nbsp;views to accomplish this.  
+* To help Resource Managers budget the allocation of their job roles for the work that needs to be accomplished. You can use the Project and Role&nbsp;views to accomplish this.  
+
      For more information about budgeting in the Resource Planner, see the&nbsp; [Budgeting Resources in the Resource Planner](#budgeting-resources-in-the-resource-planner)&nbsp;section in this article. 
    
    * To help Resource Managers and team managers view their users' availability and planned allocation to projects in the system.  

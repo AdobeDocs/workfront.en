@@ -69,11 +69,13 @@ You must have the following access to perform the steps in this article:
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="access-to-issues"></a>Access to filters, views, and groupings by license type</h2>
 <p>
-<!--
+
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
---> </p>
-<p>This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Adobe Workfront licenses overview</a>.</p>
-<table border="2" cellspacing="15" cellpadding="1">
+--> 
+
+This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+<table>
 <col>
 <col>
 <col>

@@ -251,17 +251,20 @@ Managers have the following permissions:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no2.png">Cannot delete contacts.&nbsp;</p>
 -->
 
+<!--
 >[!NOTE]
 >
-><!-->
+>
 ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Menus and functions available to Observers are limited.&nbsp;</p>>
->-->
->  <!-->
+>
+>
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the Header menu or the green New menu in their Dashboard</li>>
->  -->
->  <!-->
+
+-->
+
+<!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Observers do not see the following links in their Settings:&nbsp;Account settings,&nbsp;Billing </li>>
->  -->
+-->
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Guest"></a>Guest</h3>
@@ -296,4 +299,3 @@ Managers have the following permissions:
 &nbsp;Guests are not Workfront Proof users, so they cannot see all the proofs shared with them in their own Dashboard.
 </note>
 -->
-

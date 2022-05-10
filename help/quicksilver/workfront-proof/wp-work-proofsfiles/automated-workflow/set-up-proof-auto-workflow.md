@@ -179,7 +179,6 @@ You can convert a basic proof to Automated Workflow.
 After a basic proof is converted to Automated Workflow, you can add additional template to it.
 
 1. On the Proof details page, in the Workflow section, click **Add template.**
-1.
 
    * Template settings determine&nbsp;what can be done with a proof to which this template was added. For example, if the template has the Add a stage and Add people to stages options disabled, buttons to add stage and share proof will not be visible. 
    * If Add a stage option is disabled&nbsp;in the given&nbsp;template, after adding it the Add template button are not visible. 

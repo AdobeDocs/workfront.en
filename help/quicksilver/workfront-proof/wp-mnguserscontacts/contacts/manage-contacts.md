@@ -73,7 +73,6 @@ You can import contacts from a CSV file.
 1. On the Import people page that appears, click **Choose File**.
 1. Select the field separation method in the file.
 1. Click **Save**.
-1.
 
    * The CSV file must have at least one column called "Email" (containing the email addresses).
    * You can also include additional columns for "Name," "Company," "Telephone" and "Mobile."

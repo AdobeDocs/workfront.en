@@ -120,13 +120,7 @@ Setting more cycles can be useful when you want to prevent connection interrupti
 
 ![](assets/max-number-cycles-1-350x201.png)
 
-The Maximum number of returned files in the Dropbox > Watch files module is set to 
-
-```
-10
-```
-
-.
+The Maximum number of returned files in the Dropbox > Watch files module is set to `10`.
 
 ![](assets/max-number-cycles-10-350x175.png)
 
@@ -134,13 +128,7 @@ If 100 requests are submitted to Workfront, and the Limit field is set to 10, th
 
 ### Max number of cycles is set to 10
 
-The Maximum number of returned files in the Dropbox > Watch files module is set to 
-
-```
-10
-```
-
-.
+The Maximum number of returned files in the Dropbox > Watch files module is set to `10`.
 
 If 100 files are added to the Dropbox folder and the Maximum number of returned files option is set to 10, then 10 files are processed during the first cycle, the next 10 files in the second cycle, the next 10 files in the third cycle and so on, until all files are processed.
 

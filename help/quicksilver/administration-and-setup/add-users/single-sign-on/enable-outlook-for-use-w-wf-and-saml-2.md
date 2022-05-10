@@ -14,7 +14,7 @@ If you enable SAML 2.0 authentication and you want your users to be able to log 
 >[!NOTE]
 >
 >This is not available if your organization’s Workfront instance uses a custom SSO portal.>
-><!-->
+><!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >or is enabled with Adobe IMS>
 ></MadCap:conditionalText>>

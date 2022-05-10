@@ -16,12 +16,13 @@ Workfront sends out a number of email notifications to alert users about activit
 
 >[!NOTE]
 >
->If you want to receive email notifications from the Sandbox environment, you must enable emails from your user profile in that environment. >
-><!-->
-><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+>If you want to receive email notifications from the Sandbox environment, you must enable emails from your user profile in that environment.
+
+<!--
+><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 >Becky: Keep the note>
-></MadCap:conditionalText>>
->-->
+></MadCap:conditionalText>
+-->
 
 You can receive the following email notifications from Workfront:
 

@@ -289,22 +289,18 @@ For information about removing a grouping, see the article [Remove filters, view
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You can aggregate the data displayed in your report in your grouping line by summarizing the values in each column of the report. For more information about summarizing column data in a grouping, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p>
--->
 
 >[!NOTE]
 >
-><!-->
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:</p>>
->-->
->  <!-->
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. </li>>
->  -->
->  <!-->
->  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. </li>>
->  -->
->  <!-->
+><p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:</p>
+>
+>  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. </li>
+>
+>  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. </li>
+>
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. </li>>
->  -->
+> 
+-->
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="sorting-by-a-grouping"></a>Sorting by a Grouping</h2>
@@ -341,4 +337,3 @@ For information about removing a grouping, see the article [Remove filters, view
    <!--
    <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the (<strong>x</strong>) next to any groupings you want to remove, then click <strong>Done</strong>.</li>
    -->
-

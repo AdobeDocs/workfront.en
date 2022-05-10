@@ -53,7 +53,6 @@ You can correct a text or make some comment markup:
 1. Select one of the annotation options (9)
 1. Add your own comment text inside the box
 1. Save your comment.
-1.
 
 >[!NOTE]
 >

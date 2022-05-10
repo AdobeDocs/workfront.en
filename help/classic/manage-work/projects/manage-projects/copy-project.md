@@ -21,7 +21,6 @@ You can copy a project rather than create one from scratch. You can copy only on
 >[!IMPORTANT]
 >
 >The following items are never copied from an existing project to a new one:   
-
 >
 >* Issues  
 >* Billing Rates

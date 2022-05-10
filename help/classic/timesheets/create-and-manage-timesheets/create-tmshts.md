@@ -19,7 +19,7 @@ For information about creating a timesheet profile that generates recurring time
 >[!NOTE]
 >
 >* Single-use timesheets cannot be created for groups. >
->  <!-->
+>  <!--
 >  <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Making sure with Lilit that this is correct</span>>
 >  -->
 >* When creating a single-use timesheet, you cannot specify&nbsp;specific general hour types to include in your timesheet. All general hour types that are activated in your system display in timesheets created manually. 

@@ -122,7 +122,7 @@ If this error occurs, the execution of a scenario is stopped immediately. The re
 RateLimitError
 ```
 
-If a limit set by a given service is exceeded, a rate limit error is generated. If this error happens, Workfront Fusion proceeds in the same way as it does for the Connection Error. For more information, see [Connection Error](#connection-error) in the article [Error processing in Adobe Workfront Fusion](#).
+If a limit set by a given service is exceeded, a rate limit error is generated. If this error happens, Workfront Fusion proceeds in the same way as it does for the Connection Error. For more information, see [Connection Error](#connection-error).
 
 <!--
 <p class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="autonumber"><span><b>Example: </b></span></span>You will encounter this error if you try to send more than 1000 tweets within 24 hours. If this happens, wait until the limitation resets within the time frame.</p>

@@ -36,7 +36,6 @@ The following resources are available for you to learn how to use the Resource S
   </MadCap:conditionalText>
   -->
 
-* 
 
   ### Scheduling Tool and Filter
 

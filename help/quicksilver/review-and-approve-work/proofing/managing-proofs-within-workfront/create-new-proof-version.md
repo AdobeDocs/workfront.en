@@ -21,7 +21,7 @@ Consider the following information when you are creating a new version of a proo
 
 >[!IMPORTANT]
 >
->If a proof is created within Adobe Workfront, any new versions created for that proof must also be created within Workfront. You cannot create a new version of a proof within Workfront Proof if that proof was created within Workfront. For information about how to create proof versions within Workfront, see [Create a new version of a proof](#).
+>If a proof is created within Adobe Workfront, any new versions created for that proof must also be created within Workfront. You cannot create a new version of a proof within Workfront Proof if that proof was created within Workfront. <!--WRITER For information about how to create proof versions within Workfront, see [Create a new version of a proof](#).-->
 
 ## Access requirements
 

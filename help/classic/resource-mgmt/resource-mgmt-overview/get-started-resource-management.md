@@ -33,15 +33,14 @@ Workfront has several sets of tools used to manage resources. Although some of t
    * **The Resource Planner**: You can use the Resource Planner in the first stage of resource management to budget project time for your resources according to their scheduled availability. During the planning of resources phase, you can organize users in&nbsp;resource pools and assign multiple resource pools to a project. * 
      *For more information about Resource Planning, see the section [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
-* 
 
-  <!--
+<!--
   <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><strong>Legacy Resource Planning</strong>: Refers to organizing your job roles in Legacy Resource Pools which can be managed in the Resource Budget Manager.<br><note type="important">
   The tools associated with Legacy Resource Planning are deprecated. We recommend that you use the tools associated with Resource Planning for your resource management needs.
   </note>After you have added your job roles to your Legacy Resource Pools, you can then assign one Legacy Resource Pool to your projects and you can configure the availability of job roles per project in the Resource Estimates section of the Business Case. After you have defined the Resource Estimates of a project, you can manage them system-wide in the Capacity Planner of the Legacy Resource Pool.<br>For more information about Legacy Resource Planning, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning-1.md">Legacy Resource Planning</a>.<br>As a subset of Legacy Resource Planning, you can manage your user allocations by using the <strong>User Utilization</strong> report and the <strong>Resource Grid</strong> within Legacy Resource Planning.<br>For more information about managing user resources, see the section <a href="../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md" class="MCXref xref" xrefformat="{para}">Overview of the User Utilization report in the Legacy Resource Management area</a>. <br><note type="important">
   Legacy Resource Planning and Resource Planning are two completely separate areas of functionality and must be configured separately. They do not communicate with one another. We recommend that you use the Resource Planning tools for your future resource management needs. The Legacy Resource Planning tools are currently deprecated.
   </note></p>
-  -->
+-->
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><strong>Legacy Resource Planning</strong>: Refers to organizing your job roles in Legacy Resource Pools which can be managed in the Resource Budget Manager.<br><note type="important">

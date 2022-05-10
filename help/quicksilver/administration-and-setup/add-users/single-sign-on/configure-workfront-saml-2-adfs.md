@@ -131,7 +131,7 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
 1. Select **Admin Exemption** to allow Workfront administrators to log in using Workfront credentials with the bypass url.
 
-   Bookmarks pointing to *<yourdomain>*.my.workfront.com/login bypass the redirect.
+   Bookmarks pointing to `<yourdomain>`.my.workfront.com/login bypass the redirect.
 
 1. Select the **Enable** box to enable the configuration.
 1. Click **Save**.
@@ -146,5 +146,5 @@ As a Workfront administrator, you can also manually assign a Federation ID editi
 
 >[!NOTE]
 >
->When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (*<yourdomain>*.my.workfront.com/login).
+>When editing users' profiles to include a Federation ID, selecting **Only Allow SAML 2.0 Authentication** removes the ability to log in to Workfront using the bypass url (`<yourdomain>`.my.workfront.com/login).
 

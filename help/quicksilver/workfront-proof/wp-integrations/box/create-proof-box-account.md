@@ -25,9 +25,8 @@ It's easy to create proofs and new proof versions via your Box account.
    You can also choose to make this proof a new version of an existing proof
 
 1. Click **Save**&nbsp;to create the proof and send it to your reviewers.  
-   A comment is added to the file in Box with a personal link to the proof in Workfront Proof.
 
-1.
+   A comment is added to the file in Box with a personal link to the proof in Workfront Proof.
 
    * If you have your own branded Workfront Proof login page you will be taken to that page instead of the standard Workfront Proof login page. See [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) for more information. 
    * If you have enabled the Single Sign-On functionality in your Workfront Proof account you will be taken to the SSO login page and asked to enter your Single Sign-On login credentials, but only if you're are using the same email address for your Box account and Workfront Proof. See [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) for more information. 

@@ -9,7 +9,7 @@ description: The Scenario Planner is available only in the new Adobe Workfront e
 
 # The Scenario Planner overview
 
-The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](#).
+The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license.
 
 ## Scenario Planner overview
 

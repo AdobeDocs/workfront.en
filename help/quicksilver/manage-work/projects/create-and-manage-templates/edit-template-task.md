@@ -62,9 +62,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. Click the name of a template task in the list to open the template task.
 1. (Conditional) To edit limited information about the template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
 1. (Optional)&nbsp;Click the **Collapse all** icon ![](assets/collapse-all-icon.png) to collapse all areas. 
-1.
-
-   To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), ```then select from any of the areas below, or click **Edit all** to edit information in all areas```:
+1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), ```then select from any of the areas below, or click **Edit all** to edit information in all areas```:
 
    * Overview
    * Custom&nbsp;Forms

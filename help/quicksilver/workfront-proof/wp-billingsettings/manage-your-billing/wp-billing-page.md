@@ -56,7 +56,7 @@ The Billing contact can be selected only from the users set up as the Billing Ad
 
 >[!NOTE]
 >
->&nbsp;You can have multiple Billing Administrators on your account, but only one of them, selected in the Billing contact field, will be receiving all the billing notifications and account usage alerts. For more information, see [The Workfront Proof Billing Page](#).
+>&nbsp;You can have multiple Billing Administrators on your account, but only one of them, selected in the Billing contact field, will be receiving all the billing notifications and account usage alerts.
 
 This includes the following notification emails:
 
