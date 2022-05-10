@@ -3,7 +3,8 @@ filename: filter-condition-modifiers
 product-area: reporting
 navigation-topic: reporting-elements
 title: Filter and condition modifiers
-description: Filter and condition modifiersnot equal" for the link to the req doc: https://docs.google.com/document/d/1WA0zZ_wws-2qb908i53BFQ8zDwL3nPJHyIybtJvvnqU/edit)"
+description: The filter and condition modifiers allow you to build filters and establish conditions for formatting your report results.
+req doc: "https://docs.google.com/document/d/1WA0zZ_wws-2qb908i53BFQ8zDwL3nPJHyIybtJvvnqU/edit)"
 ---
 
 # Filter and condition modifiers

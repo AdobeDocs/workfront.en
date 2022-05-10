@@ -19,7 +19,6 @@ For more information, also see the following articles:
 
 * [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) 
 * [Project finances](../../../manage-work/projects/project-finances/project-finances-overview.md) 
-* [Project finances overview](#) 
 * [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md) 
 * [Manage task finances in the Task Details section](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 

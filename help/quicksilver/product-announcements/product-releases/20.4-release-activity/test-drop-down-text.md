@@ -11,7 +11,9 @@ hidefromtoc: true
 
 The following content should be collapsible:
 
-``` [ ![Closed](assets/transparent.gif)This is the title and should be the hotspot in a drop-down effect (only this text should show by default)](#)``` 
+<!-- WRITER [ ![Closed](assets/transparent.gif)This is the title and should be the hotspot in a drop-down effect (only this text should show by default)](#)
+-->
+
 This is content that should be hidden unless the user expands the title above.
 
 This is more content that should be hidden:
