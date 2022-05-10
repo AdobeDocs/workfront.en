@@ -63,14 +63,10 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Add info and steps here about how to use the 2 levels of tags:</p>
    -->
-
-   * 
    
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Personal tags that are visible only to an individual users </p>   
      -->   
-   
-   * 
    
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Admin tags that everyone can see and use</p>   

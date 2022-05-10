@@ -107,21 +107,13 @@ You must have the following access to perform the steps in this article:
      ```   
      Role Budgeted Hours = Role Planned Hours
      ```   
-   
-   * 
-   
+
      >[!NOTE]
-     >
-     >
      >   
-     >   
-     >   * The Role Budgeted Hours are added to the Project Budgeted Hours.
-     >   * Users can be budgeted for both Primary and Other (or secondary) Roles. 
-     >   * The **Percentage of FTE Availability** for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% **Percentage of FTE Availability**, the Available Hours value is zero for that job role. In this case, the role might show a negative **Net Value**.  
-     >     For more information about the **Percentage of FTE Availability** for job roles, see the article [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
-     >   
-     >   
-     >
+     >* The Role Budgeted Hours are added to the Project Budgeted Hours.
+     >* Users can be budgeted for both Primary and Other (or secondary) Roles. 
+     >* The **Percentage of FTE Availability** for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% **Percentage of FTE Availability**, the Available Hours value is zero for that job role. In this case, the role might show a negative **Net Value**.  
+     >For more information about the **Percentage of FTE Availability** for job roles, see the article [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
 
    * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the project. This distributes the number of Project Budgeted Hours to each role under the project. The following scenarios exist:
 

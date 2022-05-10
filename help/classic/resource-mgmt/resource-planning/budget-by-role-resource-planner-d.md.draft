@@ -88,10 +88,7 @@ Consider the following when selecting the Role view in the Resource Planner:&nbs
      ```
 
    * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects listed under the job role.  
-     This adds the number of Project Budgeted Hours to the role.&nbsp;* 
-     *
-   
-   * 
+     This adds the number of Project Budgeted Hours to the role.
    
      >[!TIP]
      >
