@@ -53,12 +53,10 @@ You must have the following access to perform the steps in this article:
    >
    >   
    >   
-   >   * Users with a Work license have limited project rights. They can contribute to a project, but not manage one.
-   >   * Users with a Review license have View rights on projects from converted issues, but their View rights are limited.
-   >   * For information about permissions users can grant when sharing projects with others, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-   >   * When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting projects in their access level, but this does not restrict them from deleting tasks, which are lower-ranking than projects.For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in&nbsp;the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-   >   
-   >
+   >* Users with a Work license have limited project rights. They can contribute to a project, but not manage one.
+   >* Users with a Review license have View rights on projects from converted issues, but their View rights are limited.
+   >* For information about permissions users can grant when sharing projects with others, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >* When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting projects in their access level, but this does not restrict them from deleting tasks, which are lower-ranking than projects.For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in&nbsp;the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Optional) Click **set sharing defaults** to the right of the Create option, then **Add Rule** to add a sharing rule for new projects.
 

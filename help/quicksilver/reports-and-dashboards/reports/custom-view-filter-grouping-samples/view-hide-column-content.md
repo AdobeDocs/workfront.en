@@ -57,24 +57,20 @@ You must have the following access to perform the steps in this article:
 1. Click **Switch to Text Mode**.
 1. Hover over the text mode area, and click **Click to edit text**.
 1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
-   <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueformat=int<br><strong>width=0</strong></pre>The important changes in this code which make the column hidden are:
 
-   * 
+   <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueformat=int<br><strong>width=0</strong></pre>The important changes in this code which make the column hidden are:
    
      ```   
      displayname
      ```   
    
-     : This line must be blank.
-   * 
+     this line must be blank.
    
      ```   
      valuefield
      ```   
    
-     : This has been replaced by *value*, and must be blank.
-   
-   * 
+     This has been replaced by *value*, and must be blank.
    
      ```   
      width

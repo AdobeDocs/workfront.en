@@ -573,7 +573,6 @@ user-guide-description: Workfront
     * [Set up metadata mapping](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
     * [Create OAuth2 applications for Workfront integrations](administration-and-setup/configure-integrations/create-oauth-application.md)
     * [View and manage custom OAuth2 applications](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
-    * [Configure the JumpSeat integration](administration-and-setup/configure-integrations/configure-jumpseat.md)
     * [Access Help for Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
     * [Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-workfront-fusion.md)
     * [Legacy Workfront Fusion service outages](administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
@@ -1729,7 +1728,7 @@ user-guide-description: Workfront
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
     * [Frequently asked questions about Workfront Goals](workfront-goals/tips-tricks-and-troubleshooting-workfront-align/frequently-asked-questions-about-goals.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
-  * [Adobe Workfront Fusion contents](workfront-fusion/workfront-fusion-2.md)
+  * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
   * Get started with Adobe Workfront Fusion {#get-started-with-workfront-fusion}
     * [Get started with Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
     * [Adobe Workfront Fusion overview](workfront-fusion/get-started/workfront-fusion-overview.md)
@@ -1744,7 +1743,6 @@ user-guide-description: Workfront
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
     * [Delete user data In Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/delete-user-data.md)
     * [Adobe Workfront Fusion FAQ](workfront-fusion/workfront-fusion-basics/faq.md)
-  * Adobe Workfront Fusion in the Adobe Admin Console {#workfront-fusion-in-admin-console}
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
@@ -1842,7 +1840,6 @@ user-guide-description: Workfront
     * [Box modules](workfront-fusion/apps-and-their-modules/box-modules.md)
     * [Bynder modules](workfront-fusion/apps-and-their-modules/bynder-modules.md)
     * [CloudConvert modules](workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
-    * [Converter](workfront-fusion/apps-and-their-modules/converter-modules.md)
     * [CSV](workfront-fusion/apps-and-their-modules/csv.md)
     * [Cvent modules](workfront-fusion/apps-and-their-modules/cvent-modules.md)
     * [Datadog modules](workfront-fusion/apps-and-their-modules/datadog-modules.md)
@@ -1874,10 +1871,8 @@ user-guide-description: Workfront
     * [HubSpot CRM modules](workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
     * [Image modules](workfront-fusion/apps-and-their-modules/image-module.md)
     * [Intacct modules](workfront-fusion/apps-and-their-modules/intacct-modules.md)
-    * [ISO modules](workfront-fusion/apps-and-their-modules/iso-modules.md)
     * [Jira Software modules](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
     * [JSON modules](workfront-fusion/apps-and-their-modules/json-modules.md)
-    * [MailChimp modules](workfront-fusion/apps-and-their-modules/mailchimp-modules.md)
     * [MariaDB modules](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
     * [Markdown modules](workfront-fusion/apps-and-their-modules/markdown-modules.md)
     * [Marketo modules](workfront-fusion/apps-and-their-modules/marketo-modules.md)
