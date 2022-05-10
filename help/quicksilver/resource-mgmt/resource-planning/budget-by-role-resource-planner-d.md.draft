@@ -84,17 +84,14 @@ Consider the following when selecting the Role view in the Resource Planner:&nbs
      ```
 
    * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects listed under the job role.  
-     This adds the number of Project Budgeted Hours to the role.&nbsp;* 
-     *
-   
-   * 
+     This adds the number of Project Budgeted Hours to the role.
    
      >[!TIP]
      >
      >Users can be budgeted for both Primary and Other (or secondary) Roles. The **Percentage of FTE Availability** for the&nbsp;roles of the user must be a number different than 0% for&nbsp;the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% **Percentage of FTE Availability**, the Available Hours value is zero for that job role. In this case, the role might show a negative **Net Value**.
 
      For more information about the Percentage of FTE&nbsp;Availability for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). * 
-     *
+     
 
 1. To budget allocation for the project, do one of the following:
 

@@ -82,22 +82,18 @@ To build a report for projects which are pending approval of their Business Case
    You can add additional filters, to show only projects where you are the Project Owner, or the Project Sponsor, or the Portfolio Owner.
 
    For example, you can use the following filter statements:&nbsp;
-
-   * 
    
      ```   
      Project Sponsor ID Equals $$USER.ID
      ```   
    
      to display projects where you are designated as the Project Sponsor
-   * 
    
      ```   
      Project Owner ID Equals $$USER.ID
      ```   
    
      to display projects where you are designated as the Project owner
-   * 
    
      ```   
      Project Portfolio Owner ID Equals $$USER. ID

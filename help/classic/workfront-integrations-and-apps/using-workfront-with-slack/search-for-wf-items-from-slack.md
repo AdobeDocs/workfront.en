@@ -58,8 +58,7 @@ Before you can search for Workfront items from Slack, you must
    /workfront search <keyword>
    ```
 
-   * 
-   *Or
+   Or
 
    ```
    /wf search <keyword>

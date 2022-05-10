@@ -86,32 +86,24 @@ Although installing the Workfront add-on in the two Jira environments is similar
 * You must ensure that the jira.workfront.com domain is accessible from your corporate servers. It serves as a middleware environment between Workfront and Jira and is required for the add-on to operate.
 
   You must also add the following static IP addresses to the allowlist on your firewall for outbound and inbound connections.
-
-   * 
    
      ```   
      35.162.128.73
      ```
-
-   * 
    
      ```   
      34.213.36.118
      ```
 
-   * <![CDATA[ ]]>   
    
      ```   
      35.160.0.242
      ```
 
-   * 
    
      ```   
      3.209.27.146
      ```
-
-   * 
    
      ```   
      18.205.251.4

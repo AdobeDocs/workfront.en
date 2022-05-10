@@ -205,14 +205,12 @@ For information about creating a report, see [Create a custom report](../../../r
 1. 
    (Optional) Add one of the following lines of code to any grouping to indicate whether the results in the grouping should display in an expanded or collapsed list. By default, groupings display expanded:
 
-   * 
    
      ```   
      group.0.iscollapsed=true
      ```   
    
      if you want the grouping to display with the results collapsed
-   * 
    
      ```   
      group.0.iscollapsed=false
@@ -225,14 +223,9 @@ For information about creating a report, see [Create a custom report](../../../r
      -->
 
      >[!TIP]
-     >
-     >
      >   
-     >   
-     >   * When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
-     >   * The results of a grouping always display expanded after accessing them from a chart element.
-     >   
-     >
+     >* When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+     >* The results of a grouping always display expanded after accessing them from a chart element.
 
 1. Click **Done** if you want to save your changes and continue editing the grouping or report.
 1. Click **Save Grouping** in a list or **Save + Close** to save your report.
