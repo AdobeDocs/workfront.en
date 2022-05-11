@@ -442,10 +442,10 @@ If your organization uses outbound network filtering, add the following domains 
 >
 >Outbound network filtering is uncommon. Check with your network administrator to see if you need to update your allowlist to accommodate for it.
 
-* <your domain>.my.workfront.com
-* <your domain>.preview.workfront.com
-* <your domain>.sb01.workfront.com
-* <your domain>.sb02.workfront.com
+* `<your domain>`.my.workfront.com
+* `<your domain>`.preview.workfront.com
+* `<your domain>`.sb01.workfront.com
+* `<your domain>`.sb02.workfront.com
 * events.split.io
 * sdk.split.io
 * auth.split.io

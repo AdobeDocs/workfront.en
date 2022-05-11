@@ -54,24 +54,29 @@ You must have the following to perform the steps in this article:
    , image widget, or
    <span class="preview">video </span>widget
    </MadCap:conditionalText>
-   --> that you want to change or delete, then select the custom field<!--
+   --> that you want to change or delete, then select the custom field
+   <!--
    <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> or widget</span>
-   --> on the right side of the screen. <!--
+   --> on the right side of the screen. 
+   <!--
    <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">These 2 steps are drafted because it's a less straightforward way to do this. Check with Lilit before deleting this to make sure that the Field List view is always available. Can't remember why I documented this way in the first place.</span>
-   --></p> <p> <!--
+   -->
+   <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    If you selected a custom field,
    </MadCap:conditionalText>
-   -->A warning message displays if the field is used on another custom form.</p> <p> <img src="assets/warning-message-fields-used-elsewhere-350x221.png" style="width: 350;height: 221;"> </p> </li>
    -->
+
+   A warning message displays if the field is used on another custom form.
+   
+   <img src="assets/warning-message-fields-used-elsewhere-350x221.png" style="width: 350;height: 221;">
 
    <!--
    <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the blue arrow in the warning message to see which custom forms are using the field<!--
    <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    or widget
    </MadCap:conditionalText>
-   -->.</p> </li>
-   -->
+   -->.
 
 1. (Optional) Click the name of any of those custom forms to go to the form and consider what changes you might need to make there if you modify the field or widget.
 

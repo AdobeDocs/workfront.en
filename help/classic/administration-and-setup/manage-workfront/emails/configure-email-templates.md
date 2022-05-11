@@ -97,11 +97,13 @@ Begin creating the email template as described in [Create a new email template](
 ```You can include links to Workfront fields by using the``` **$$** wildcard to tell the email generator to look for values from the database associated with a specific object.
 
 For example, the body of the email for a notification alerting the assignee of the task that the task is about to start can follow this structure:
-<pre>
-      <html>
-</pre><pre><p>$$assignedTo:firstName$$</p><br><p>You are assigned to work on <b><a href="https://<your domain>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which is due to start on $$plannedStartDate$$.</p><br><table width="350" style="font-size:12px;"><br><tr><br><td><b><strong>HEADING</strong></b></td><br><td>$$<strong>WILDCARD</strong>$$</td><br></tr><br><tr><br><td><b><strong>HEADING</strong></b></td><br><td>$$<strong>WILDCARD</strong>$$</td><br></tr><br><tr><br><td><b><strong>HEADING</strong></b></td><br><td>$$<strong>WILDCARD</strong>$$</td><br></tr><br></table></pre><pre>
-      </html>
-</pre> To get the "wildcard" value for an object, do one of the following:
+
+<!--WRITER 
+
+<pre><p>$$assignedTo:firstName$$</p><br><p>You are assigned to work on <b><a href="https://<your domain>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which is due to start on $$plannedStartDate$$.</p><br><table width="350" style="font-size:12px;"><br><tr><br><td><b><strong>HEADING</strong></b></td><br><td>$$<strong>WILDCARD</strong>$$</td><br></tr><br><tr><br><td><b><strong>HEADING</strong></b></td><br><td>$$<strong>WILDCARD</strong>$$</td><br></tr><br><tr><br><td><b><strong>HEADING</strong></b></td><br><td>$$<strong>WILDCARD</strong>$$</td><br></tr><br></table></pre><pre>
+-->
+
+To get the "wildcard" value for an object, do one of the following:
 
 * Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).
 * Use the "valuefield" value you find inside of a text mode view of a report. For more information about text mode values, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
@@ -118,8 +120,12 @@ To add custom fields using the same formatting, you can add this in your email n
 
 For example, this is an email template which includes a reference to a custom field named Delivery Date, and it's assuming that the field Delivery Date belongs to a task.
 
-Replace *<your domain>* with your company's Workfront domain, without the brackets:
+Replace *`<your domain>`* with your company's Workfront domain, without the brackets:
+
+<!--WRITER
+
 <pre><html><br><p>$$assignedTo:firstName$$</p><br><p>You are assigned to work on <b><a href="https://<em><your domain></em>.my.workfront.com/task/view?ID=$$ID$$">$$name$$</a></b>, which has a Delivery Date of <strong>$$DE:Task:Delivery Date$$</strong>.</p><br><table width="350" style="font-size:12px;"><br><tr><br><td><b>Project Name:</b></td><br><td>$$project:name$$</td><br></tr><br><tr><br><td><b>Description:</b></td><br><td>$$description$$</td><br><tr><br><td><b>Estimated Effort:</b></td><br><td>$$work$$ hours</td><br></tr><br><tr><br><td><b>Planned Completion Date:</b></td><br><td>$$plannedCompletionDate$$</td><br><strong><td><b>Delivery Date:</b></td></strong><br><strong><td>$$DE:Task:Delivery Date$$</td></strong><br></tr><br></table><br></html></pre>
+-->
 
 >[!NOTE]
 >
@@ -134,7 +140,7 @@ Replace *<your domain>* with your company's Workfront domain, without the bracke
 
 To edit an email template for a late project reminder, consider this information for the Subject and Content fields.
 
-Replace *<your domain>* with your company's Workfront domain, without the brackets.&nbsp;
+Replace `<your domain>` with your company's Workfront domain, without the brackets.&nbsp;
 
 **Subject:**
 
@@ -150,7 +156,7 @@ A Project You Manage Has Become Late
 You might&nbsp;also want to create a reminder notification for an upcoming task or issue.
 
 The following code can be included in an email template to be used for task and issue reminder notifications that are sent any number of days before the planned start date of the task or issue.  
-Replace *<your domain>* with your company's Workfront domain, without the brackets.  
+Replace `<your domain>` with your company's Workfront domain, without the brackets.  
 To use this for an Issue email, change the **/task/view.**value in the link to the work item to**/issue/view**.
 
 **Subject:**
