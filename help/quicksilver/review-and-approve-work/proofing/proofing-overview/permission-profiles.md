@@ -33,57 +33,17 @@ Proof Permission Profiles determine what overall permissions users have over all
 
 The following table displays the permissions available with each Proof Permission Profile.
 
-| **Own Items** |**Other Users' Items** |**Admin** |**Billing** |
-|---|---|---|---|
+| **Own Items** | | | | | **Other Users' Items** | | | **Admin** | **Billing** |
+|---|---|---|---|---|---|---|---|---|---|
 | &nbsp; |**Add** |**View** |**Edit** |**Delete** |**View** |**Edit** |**Delete** |**Edit and Delete** |**Edit** |
-| Admin | ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-|&nbsp; |
-| Supervisor | ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |
-| Manager | ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| Observer |&nbsp; | ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Admin | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| |
+| Supervisor | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |&nbsp; |
+| Manager | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Observer |&nbsp; | ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### Administrator
 
-Administrators have access to&nbsp; [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)and have the following permissions:
+Administrators have access to [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) and have the following permissions:
 
 <table> 
  <col> 

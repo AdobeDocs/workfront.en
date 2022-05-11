@@ -413,54 +413,22 @@ To use the images available, apply the following code and values:
 
 | **Icon** |**Line: image.case.0.comparison.truetext=** |
 |---|---|
-| Frown Face&nbsp; ![](assets/face-sad.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif</pre> |
-| Happy Face&nbsp; ![](assets/face-happy.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif&nbsp;</pre> |
-| Blue Flag&nbsp; ![](assets/flag-blue-large.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/flag_blue.gif&nbsp;</pre> |
-| Green Flag&nbsp; ![](assets/flag-green-large.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/flag_green.gif</pre> |
-| Red Flag&nbsp; ![](assets/flag-red-style2.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/flag_red.gif</pre> |
-| Yellow Flag&nbsp; ![](assets/flag-yellow-style2.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif</pre> |
-| Black Circle&nbsp; ![](assets/dot-black.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_black.gif&nbsp;</pre> |
-| Blue Circle&nbsp; ![](assets/dot-blue.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_blue.gif&nbsp;</pre> |
-| Grey Circle&nbsp; ![](assets/dot-gray.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_grey.gif&nbsp;</pre> |
-| Green Circle&nbsp; ![](assets/dot-green.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_green.gif&nbsp;</pre> |
-| Orange Circle&nbsp; ![](assets/dot-orange.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_orange.gif&nbsp;</pre> |
-| Pink Circle&nbsp; ![](assets/dot-pink.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_pink.gif&nbsp;</pre> |
-| Purple Circle&nbsp; ![](assets/dot-purple.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_purple.gif&nbsp;</pre> |
-| Red Circle&nbsp; ![](assets/dot-red.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_red.gif</pre> |
-| White Circle&nbsp; ![](assets/dot-white.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_white.gif&nbsp;</pre> |
-| Yellow Circle&nbsp; ![](assets/dot-yellow.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_yellow.gif</pre> |
+| Frown Face&nbsp; ![](assets/face-sad.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Happy Face&nbsp; ![](assets/face-happy.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif&nbsp;` |
+| Blue Flag&nbsp; ![](assets/flag-blue-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif&nbsp;` |
+| Green Flag&nbsp; ![](assets/flag-green-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Red Flag&nbsp; ![](assets/flag-red-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Yellow Flag&nbsp; ![](assets/flag-yellow-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Black Circle&nbsp; ![](assets/dot-black.png)|=`/interface/images/v4_redux/icons/casebuilder/light_black.gif&nbsp;` |
+| Blue Circle&nbsp; ![](assets/dot-blue.png)|=`/interface/images/v4_redux/icons/casebuilder/light_blue.gif&nbsp;` |
+| Grey Circle&nbsp; ![](assets/dot-gray.png)|=`/interface/images/v4_redux/icons/casebuilder/light_grey.gif&nbsp;` |
+| Green Circle&nbsp; ![](assets/dot-green.png)|=`/interface/images/v4_redux/icons/casebuilder/light_green.gif&nbsp;` |
+| Orange Circle&nbsp; ![](assets/dot-orange.png)|=`/interface/images/v4_redux/icons/casebuilder/light_orange.gif&nbsp;` |
+| Pink Circle&nbsp; ![](assets/dot-pink.png)|=`/interface/images/v4_redux/icons/casebuilder/light_pink.gif&nbsp;` |
+| Purple Circle&nbsp; ![](assets/dot-purple.png)|=`/interface/images/v4_redux/icons/casebuilder/light_purple.gif&nbsp;` |
+| Red Circle&nbsp; ![](assets/dot-red.png)|=`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| White Circle&nbsp; ![](assets/dot-white.png)|=`/interface/images/v4_redux/icons/casebuilder/light_white.gif&nbsp;` |
+| Yellow Circle&nbsp; ![](assets/dot-yellow.png)|=`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 ### Conditionally format a 
 
