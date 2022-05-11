@@ -110,13 +110,8 @@ To create a request in the Workfront web app:&nbsp;
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * ```You can access the New Request option from any section in the Requests area.``` 
-   >   * The New Request option is dimmed when you do not have access to create issues. 
-   >   
-   >
+   >* You can access the New Request option from any section in the Requests area.
+   >* The New Request option is dimmed when you do not have access to create issues. 
 
 1. 
 
@@ -162,17 +157,12 @@ To create a request in the Workfront web app:&nbsp;
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * The first 200 requests queues display by default, in alphabetical order. 
-   >   * The name of the request queue is the name of the project which has been published as a Help Request Queue. 
-   >   * The description of the project configured as the selected request queue displays to the right of the request queue name. 
-   >   
+   >* The first 200 requests queues display by default, in alphabetical order. 
+   >* The name of the request queue is the name of the project which has been published as a Help Request Queue. 
+   >* The description of the project configured as the selected request queue displays to the right of the request queue name. 
    >   
    >For more information about how to publish a project as a Help&nbsp;Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   &nbsp;
 1. In the **New request** form, do one of the following:
 
    * (Conditional) Select an available draft from the notification message displayed under the&nbsp;Request&nbsp;Type field.

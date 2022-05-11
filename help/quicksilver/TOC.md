@@ -1228,7 +1228,6 @@ user-guide-description: Workfront
       * [Share a link to a request queue](manage-work/requests/create-requests/share-link-to-request-queue.md)
       * [Delete a request draft](manage-work/requests/create-requests/delete-request-draft.md)
       * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
-
 * [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md)
   * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
     * [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
@@ -1765,7 +1764,8 @@ user-guide-description: Workfront
     * [Prevent the Recalculate Finances action from affecting historic hours when rates change](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
     * [Track Hour Records with the Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
     * [Unable to Log Time for Future Dates](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
-* [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
+* Adobe Workfront Scenario Planner {#scenario-planner}
+  * [Adobe Workfront Scenario Planner](scenario-planner/scenario-planning.md)
   * [Get started with the Scenario Planner](scenario-planner/get-started-with-scenario-planning.md)
   * [The Scenario Planner overview](scenario-planner/scenario-planner-overview.md)
   * [Access needed to use the Scenario Planner](scenario-planner/access-needed-to-use-sp.md)
@@ -1786,9 +1786,11 @@ user-guide-description: Workfront
   * [Share a plan in the Scenario Planner](scenario-planner/share-a-plan.md)
   * [Show role allocation for projects and initiatives in the task list](scenario-planner/show-role-allocation-task-list-nwe.md)
   * [Show role allocation for projects and initiatives in the Workload Balancer](scenario-planner/show-role-allocation-workload-balancer.md)
-* [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
+* Adobe Workfront Goals {#adobe-workfront-goals}
+  * [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
   * [Adobe Workfront Goals overview](workfront-goals/goal-management/wf-goals-overview.md)
-  * [Goal management in Adobe Workfront Goals](workfront-goals/goal-management/goal-management.md)
+  * Goal management in Adobe Workfront Goals {#goal-management}
+    * [Goal management in Adobe Workfront Goals](workfront-goals/goal-management/goal-management.md)
     * [Access and open goals in Adobe Workfront Goals](workfront-goals/goal-management/access-goals-in-wf-goals.md)
     * [Requirements to use Workfront Goals](workfront-goals/goal-management/access-needed-for-wf-goals.md)
     * [Activate goals in Adobe Workfront Goals](workfront-goals/goal-management/activate-goals.md)
@@ -1805,26 +1807,30 @@ user-guide-description: Workfront
     * [Print the Goal List in Adobe Workfront Goals](workfront-goals/goal-management/print-the-goal-list.md)
     * [Update goals in the Goal Details panel in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
     * [Review in-trouble goals in Adobe Workfront Goals](workfront-goals/goal-management/view-in-trouble-goals.md)
-  * [Goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment.md)
+  * Goal alignment in Adobe Workfront Goals {#goal-alignment}
+    * [Goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment.md)
     * [Align goals by connecting them in Adobe Workfront Goals](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
     * [Align goals by converting results and activities to goals](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
     * [Goal alignment overview in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment-overview.md)
     * [Navigate the Goal Alignment section in Adobe Workfront Goals](workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
     * [Remove goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/remove-goal-alignment.md)
-  * [Goal review and the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+  * Goal review and the Adobe Workfront Goals sections {#goal-review-and-adobe-workfront-goals-sections}
+    * [Goal review and the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
     * [Overview of the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
     * [Check in on goals in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
     * [Manage goals in the Goal List of Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
     * [Review graphs to understand goal progress trends in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
     * [Review goals in the Adobe Workfront Goals Pulse section](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
-  * [Results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/results-and-activities.md)
+  * Results and activities in Adobe Workfront Goals {#results-activities-adobe-workfront-goals}
+    * [Results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/results-and-activities.md)
     * [Add activities to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/add-activities-to-goals.md)
     * [Add results to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/add-results-to-goals.md)
     * [Overview of connecting projects to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
     * [Edit results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/edit-results-and-activities.md)
     * [Get started with results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
     * [Remove results, activities, and projects from goals in Adobe Workfront Goals](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
-  * [Adobe Workfront Goals settings](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
+  * Adobe Workfront Goals settings {#adobe-workfront-goal-settings}
+    * [Adobe Workfront Goals settings](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
     * [Customize Adobe Workfront Goals terminology](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
     * [Share a goal in Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
@@ -2428,8 +2434,8 @@ user-guide-description: Workfront
       * [Add a Proof to a Basecamp Classic Project](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
       * [Integrate Workfront Proof with Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
       * [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
-* [Adobe Workfront API](wf-api/workfront-api.md)
-  * [API](wf-api/api/api.md)
+* Adobe Workfront API {#adobe-workfront-api}
+  * API Notes {#api-notes}
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
     * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
@@ -2454,7 +2460,7 @@ user-guide-description: Workfront
     * [Updates to API Version 8](wf-api/api/new-api-version-8-updates.md)
     * [What's New in API Version 7](wf-api/api/new-api-version-7.md)
     * [What's New in API Version 6](wf-api/api/new-api-version-6.md)
-  * [API General](wf-api/general/api-general.md)
+  * API General Information {#api-general-information}
     * [API basics](wf-api/general/api-basics.md)
     * [API Explorer](wf-api/general/api-explorer.md)
     * [Using the API Explorer](wf-api/general/using-api-explorer.md)
@@ -2463,7 +2469,7 @@ user-guide-description: Workfront
     * [API example scripts](wf-api/general/api-example-scripts.md)
     * [Using the API to sync data for programs and services](wf-api/general/api-sync-data.md)
     * [Deactivate a User via the API](wf-api/general/deactivate-user-api.md)
-  * [Event Subscriptions](wf-api/api/event-subscriptions.md)
+  * Event Subscriptions {#event-subscriptions}
     * [Event Subscription API](wf-api/general/event-subs-api.md)
     * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
     * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
@@ -2472,7 +2478,7 @@ user-guide-description: Workfront
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
-  * [Document Webhooks API](wf-api/doc-wbhks-api/document-webhooks-api.md)
+  * Document Webhooks API {#document-webhooks-api}
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2491,9 +2497,9 @@ user-guide-description: Workfront
     * [Document Webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
     * [Test Webhook connections](wf-api/doc-wbhks-api/test-webhook-connections.md)
     * [Document Webhooks Error Handling](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
-  * [Adobe Workfront Objects](wf-api/wf-objects/workfront-objects.md)
+  * Workfront Object Descriptions {#workfrtont-object-descriptions}
     * [Category](wf-api/wf-objects/category.md)
-  * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+  * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-and-troubleshooting-for-APIs}
     * [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

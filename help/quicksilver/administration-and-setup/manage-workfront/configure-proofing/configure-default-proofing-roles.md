@@ -51,14 +51,8 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * This setting applies only to users who are created in the Workfront system after the role is set; not to existing users.
-   >   * The person adding users to the proof can adjust this role, as described in [Add users to a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-   >   
-   >   
-   >
+   >* This setting applies only to users who are created in the Workfront system after the role is set; not to existing users.
+   >* The person adding users to the proof can adjust this role, as described in [Add users to a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 1. In the **Roles for non-recipients that open a document proof** section, select the default role for users and guest users who can access a proof, but are not added to the proof's workflow.
 

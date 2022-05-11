@@ -153,13 +153,8 @@ You can attach a template to a project in Workfront from the project page ```or 
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * This step is mandatory when the custom forms on the template contain required fields that are empty. 
-   >   * If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. 
-   >   
-   >
+   >* This step is mandatory when the custom forms on the template contain required fields that are empty. 
+   >* If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. 
 
 1. Click **Attach Template.**
 1. Click&nbsp;**Cancel attachment** to stop attaching the template.

@@ -50,9 +50,6 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
    >* Users with a Work license have limited project rights. They can contribute to a project, but not manage one.
    >* Users with a Review license have View rights on projects from converted issues, but their View rights are limited.
    >* For information about permissions users can grant when sharing projects with others, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

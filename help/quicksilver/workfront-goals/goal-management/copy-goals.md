@@ -104,13 +104,8 @@ Consider the following when copying goals:
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * The progress of the original result does not transfer to the copied goal. 
-   >   * If the original owner was deleted or deactivated from&nbsp;Workfront, the new result is assigned to the logged in user.
-   >   
-   >
+   >* The progress of the original result does not transfer to the copied goal. 
+   >* If the original owner was deleted or deactivated from&nbsp;Workfront, the new result is assigned to the logged in user.
 
 1. Click **Save**.
 
@@ -120,28 +115,19 @@ Consider the following when copying goals:
    >
    >If you have not copied the results from the original goal, you must first associate the new goal with a progress indicator before you can activate it and start working towards achieving it. 
    >
-   >
    >Do at least one of the following to be able to activate a goal: 
-   >
    >   
+   >* Add a Result
    >   
-   >   * Add a Result
+   >  For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
    >   
+   >* Add an Activity
    >   
-   >     For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   >  For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 
    >   
-   >   * Add an Activity
+   >* Align another goal to it
    >   
-   >   
-   >     For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 
-   >   
-   >   * Align another goal to it
-   >   
-   >   
-   >     For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
-   >   
-   >   
-   >
+   >  For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 1. Click&nbsp;**Activate**. The goal status updates to Active. 
 1. Click the **X** icon in the upper-right of the Goal Details panel to close it.

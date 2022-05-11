@@ -153,13 +153,8 @@ You can add an additional stage to a workflow you are creating or modifying.
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * A reviewer can be added to a proof only once. You cannot add the same person to more than one stage on the proof.
-   >   * Reviewers who are not added to a private stage cannot see the stage on the proof or comments made in that stage.
-   >   
-   >
+   >* A reviewer can be added to a proof only once. You cannot add the same person to more than one stage on the proof.
+   >* Reviewers who are not added to a private stage cannot see the stage on the proof or comments made in that stage.
 
 ## Convert a proofto an Automated Workflow
 

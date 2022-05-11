@@ -130,7 +130,7 @@ To create issues inline:
 
    >[!TIP]
    >
-   >```This option is dimmed if the Allow users to add issues inline setting is deselected in the Edit Project box. For information, see``` [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+   >This option is dimmed if the Allow users to add issues inline setting is deselected in the Edit Project box. For information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
@@ -138,22 +138,11 @@ To create issues inline:
 
    >[!TIP]
    >
-   >
+   >The fields that are available to edit inline are made available by the view you apply to your issue list. You might not be able to inline edit the following type of fields: 
    >   
-   >   
-   >   * The fields that are available to edit inline are made available by the view you apply to your issue list. 
-   >   * You might not be able to inline edit the following type of fields: 
-   >   
-   >      
-   >      
-   >      * Fields that belong to another object
-   >      * Fields that you don't have access to edit 
-   >      * Fields that are calculations and which are automatically updated by Workfront
-   >      
-   >      
-   >   
-   >   
-   >
+   >* Fields that belong to another object
+   >* Fields that you don't have access to edit 
+   >* Fields that are calculations and which are automatically updated by Workfront
 
 1. Click Enter to finish inline editing, and add the issue to the project or task.
 

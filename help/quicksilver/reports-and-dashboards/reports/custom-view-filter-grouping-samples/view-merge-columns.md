@@ -148,13 +148,8 @@ Do the following to merge the data from multiple columns to display it in one co
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * The columns you want to merge must be adjacent to each other.
-   >   * You must click the first column that you want to merge.
-   >   
-   >
+   >* The columns you want to merge must be adjacent to each other.
+   >* You must click the first column that you want to merge.
 
 1. Click **Switch to Text Mode** and add the following code in the middle column that you added in step 1:
 
