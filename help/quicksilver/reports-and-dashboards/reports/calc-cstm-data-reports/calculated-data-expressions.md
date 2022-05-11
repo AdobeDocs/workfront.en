@@ -215,11 +215,11 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>FLOOR</strong> </td> 
-   <td>This expression rounds a number down to the nearest integer and is formatted as follows:<pre>FLOOR(number)</pre></td> 
+   <td>This expression rounds a number down to the nearest integer and is formatted as follows. This example uses the  number of objects below the object where the custom form is attached.<pre>FLOOR({numberOfChildren})</pre></td> 
   </tr> 
   <tr> 
    <td><strong>LN</strong> </td> 
-   <td>This expression returns the natural logarithm value of the number and is formatted as follows:<pre>LN(number)</pre></td> 
+   <td>This expression returns the natural logarithm value of the number and is formatted as follows:<pre>LN({numberOfChildren})</pre></td> 
   </tr> 
   <tr> 
    <td><strong>LOG</strong> </td> 
@@ -259,7 +259,7 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>SQRT</strong> </td> 
-   <td> <p>This expression returns a square root of a number and is formatted as follows:</p><pre>SQRT(number)</pre> </td> 
+   <td> <p>This expression returns a square root of a number and is formatted as follows. This example uses the  number of objects below the object where the custom form is attached.</p><pre>SQRT({numberOfChildren})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>SUB</strong> </td> 
