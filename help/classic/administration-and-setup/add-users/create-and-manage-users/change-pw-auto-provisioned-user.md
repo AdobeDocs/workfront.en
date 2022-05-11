@@ -78,7 +78,7 @@ You must have the following access to perform the steps in this article:
 
 1. With the user logged in to Workfront, navigate to:
 
-   https://<your domain>.my.workfront.com/login/convertUsername
+   https://`<your domain>`.my.workfront.com/login/convertUsername
 
 1. In the **Your login email address** box, verify that user's email address is correct, then click **Update Account**.
 
