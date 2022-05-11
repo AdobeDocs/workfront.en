@@ -107,9 +107,8 @@ Dates can be configured to display in a variety of formats.
 For more information, see [Format dates in text mode reports](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above)</p>
--->
 <p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
 <pre>valueformat=&nbsp;[new date format]</pre>
 <p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
@@ -172,9 +171,8 @@ For more information, see [Format numbers, currency and percentage values in tex
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>To modify the format of a numeric value, you must edit the&nbsp;<strong>valueformat</strong>&nbsp;line of your column.</p> <!--
+<p>To modify the format of a numeric value, you must edit the&nbsp;<strong>valueformat</strong>&nbsp;line of your column.</p> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted and replaced by the article linked above) </p>
--->
 <p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
 <pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
 <p>You can format numbers&nbsp;using the following values for the&nbsp;<code>valueformat</code>&nbsp;line of your column:</p>
@@ -253,11 +251,7 @@ Insert the following code in any column where you want to add conditional format
 
 >[!NOTE]
 >
->The >
->```>
->styledef.case.0.comparison.icon
->```>
->line is always false unless working with icons.
+>The `styledef.case.0.comparison.icon` line is always false unless working with icons.
 >
 >The >
 >```>
@@ -409,54 +403,22 @@ To use the images available, apply the following code and values:
 
 | **Icon** |**Line: image.case.0.comparison.truetext=** |
 |---|---|
-| Frown Face&nbsp; ![](assets/face-sad.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif</pre> |
-| Happy Face&nbsp; ![](assets/face-happy.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif&nbsp;</pre> |
-| Blue Flag&nbsp; ![](assets/flag-blue-large.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/flag_blue.gif&nbsp;</pre> |
-| Green Flag&nbsp; ![](assets/flag-green-large.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/flag_green.gif</pre> |
-| Red Flag&nbsp; ![](assets/flag-red-style2.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/flag_red.gif</pre> |
-| Yellow Flag&nbsp; ![](assets/flag-yellow-style2.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif</pre> |
-| Black Circle&nbsp; ![](assets/dot-black.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_black.gif&nbsp;</pre> |
-| Blue Circle&nbsp; ![](assets/dot-blue.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_blue.gif&nbsp;</pre> |
-| Grey Circle&nbsp; ![](assets/dot-gray.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_grey.gif&nbsp;</pre> |
-| Green Circle&nbsp; ![](assets/dot-green.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_green.gif&nbsp;</pre> |
-| Orange Circle&nbsp; ![](assets/dot-orange.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_orange.gif&nbsp;</pre> |
-| Pink Circle&nbsp; ![](assets/dot-pink.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_pink.gif&nbsp;</pre> |
-| Purple Circle&nbsp; ![](assets/dot-purple.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_purple.gif&nbsp;</pre> |
-| Red Circle&nbsp; ![](assets/dot-red.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_red.gif</pre> |
-| White Circle&nbsp; ![](assets/dot-white.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_white.gif&nbsp;</pre> |
-| Yellow Circle&nbsp; ![](assets/dot-yellow.png)
-
-|<pre>=/interface/images/v4_redux/icons/casebuilder/light_yellow.gif</pre> |
+| Frown Face&nbsp; ![](assets/face-sad.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Happy Face&nbsp; ![](assets/face-happy.png)|=`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif&nbsp;` |
+| Blue Flag&nbsp; ![](assets/flag-blue-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif&nbsp;` |
+| Green Flag&nbsp; ![](assets/flag-green-large.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Red Flag&nbsp; ![](assets/flag-red-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Yellow Flag&nbsp; ![](assets/flag-yellow-style2.png)|=`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Black Circle&nbsp; ![](assets/dot-black.png)|=`/interface/images/v4_redux/icons/casebuilder/light_black.gif&nbsp;` |
+| Blue Circle&nbsp; ![](assets/dot-blue.png)|=`/interface/images/v4_redux/icons/casebuilder/light_blue.gif&nbsp;` |
+| Grey Circle&nbsp; ![](assets/dot-gray.png)|=`/interface/images/v4_redux/icons/casebuilder/light_grey.gif&nbsp;` |
+| Green Circle&nbsp; ![](assets/dot-green.png)|=`/interface/images/v4_redux/icons/casebuilder/light_green.gif&nbsp;` |
+| Orange Circle&nbsp; ![](assets/dot-orange.png)|=`/interface/images/v4_redux/icons/casebuilder/light_orange.gif&nbsp;` |
+| Pink Circle&nbsp; ![](assets/dot-pink.png)|=`/interface/images/v4_redux/icons/casebuilder/light_pink.gif&nbsp;` |
+| Purple Circle&nbsp; ![](assets/dot-purple.png)|=`/interface/images/v4_redux/icons/casebuilder/light_purple.gif&nbsp;` |
+| Red Circle&nbsp; ![](assets/dot-red.png)|=`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| White Circle&nbsp; ![](assets/dot-white.png)|=`/interface/images/v4_redux/icons/casebuilder/light_white.gif&nbsp;` |
+| Yellow Circle&nbsp; ![](assets/dot-yellow.png)|=`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 ### Conditionally format a 
 

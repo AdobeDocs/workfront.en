@@ -120,8 +120,7 @@ To successfully use the Resource Planner for budgeting your resources, you must 
 
 >[!NOTE]
 >
->The following prerequisites are required only when viewing the Resource Planner by project or by job role or when budgeting resources in the Business Case of a project.  
->For more information about the views in the Resource Planner, see the "Project/ Role/ User view" selection section in the article [Resource Planner overview](#).
+>The following prerequisites are required only when viewing the Resource Planner by project or by job role or when budgeting resources in the Business Case of a project. 
 
 The following types of prerequisites are required for the correct functionality of the Resource Planner when viewing it by project or by role:
 

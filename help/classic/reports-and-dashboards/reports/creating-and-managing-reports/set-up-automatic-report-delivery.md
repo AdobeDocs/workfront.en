@@ -159,7 +159,7 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
 
    The report displays in the **Repeating Deliveries** section (in the **Send Report** dialog box) and it will send at the scheduled time.
 
-   For information about size limitations that can affect the delivery of your reports, see the sections [Report delivery limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) and [Export limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export) in the article [Schedule an automatic report delivery](#).
+   For information about size limitations that can affect the delivery of your reports, see the sections [Report delivery limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) and [Export limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
 1. (Optional) To manually send the report now, click **Send Now**.
 

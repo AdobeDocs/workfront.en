@@ -130,7 +130,7 @@ To add or edit a company:
 
 ## About sharing objects with companies
 
-Certain permissions are available to users who are associated with a company, as explained in the section [Benefits of adding users to a company](#benefits-of-adding-users-to-a-company) in the article [Create and edit companies](#). In addition to these permissions, you can allow users permissions to view, contribute, or edit objects in Workfront by sharing the object with their company.
+Certain permissions are available to users who are associated with a company, as explained in the section [Benefits of adding users to a company](#benefits-of-adding-users-to-a-company). In addition to these permissions, you can allow users permissions to view, contribute, or edit objects in Workfront by sharing the object with their company.
 
 Rather than sharing an object with one individual user at a time, you can share it with their entire company. Each user in the company has the same permissions on that object.
 
