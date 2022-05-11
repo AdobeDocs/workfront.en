@@ -100,19 +100,19 @@ The lists below define the available expressions you can use when you are buildi
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>This expression adds the number of days to date and is formatted as follows:</p><pre>ADDDAYS(date, number)</pre> </td> 
+   <td> <p>This expression adds the number of days to the date and is formatted as follows:</p><pre>ADDDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>This expression adds the number of weekdays to date and is formatted as follows:</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
+   <td> <p>This expression adds the number of weekdays to the date and is formatted as follows:</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
-   <td> <p>This expression adds the number of months to date and is formatted as follows:</p><pre>ADDMONTHS(date, number)</pre> </td> 
+   <td> <p>This expression adds the number of months to the date and is formatted as follows:</p><pre>ADDMONTHS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDYEARS</strong> </td> 
-   <td> <p>This expression adds the number of years to date and is formatted as follows:</p><pre>ADDYEARS(date, number)</pre> </td> 
+   <td> <p>This expression adds the number of years to the date and is formatted as follows:</p><pre>ADDYEARS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -128,23 +128,23 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>DAYOFMONTH</strong> </td> 
-   <td> <p>This expression returns the day of month for the given entry date as a number, between 1 and 31.</p> <p>The expression is formatted as follows. In this example, the date is the entry date for a work object.</p><pre>DAYOFMONTH({entryDate})</pre> </td> 
+   <td> <p>This expression returns the day of month for the date as a number, between 1 and 31.</p> <p>The expression is formatted as follows. In this example, the date is the entry date for a work object.</p><pre>DAYOFMONTH({entryDate})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>DAYOFWEEK</strong> </td> 
-   <td> <p>This expression returns the day of week for the given entry date as a number, between 1 (Sunday) and 7 (Saturday).</p> <p>The expression is formatted as follows:</p><pre>DAYOFWEEK({entryDate})</pre> </td> 
+   <td> <p>This expression returns the day of week for the date as a number, between 1 (Sunday) and 7 (Saturday).</p> <p>The expression is formatted as follows. In this example, the date is the entry date for a work object.</p><pre>DAYOFWEEK({entryDate})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>DAYSINMONTH</strong> </td> 
-   <td> <p>This expression returns the total days in the month of the given entry date as a number and is formatted as follows:</p><pre>DAYSINMONTH({entryDate})</pre> </td> 
+   <td> <p>This expression returns the total days in the month of the date as a number and is formatted as follows. In this example, the date is the entry date for a work object.</p><pre>DAYSINMONTH({entryDate})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>DAYSINSPLITWEEK</strong> </td> 
-   <td> <p>This expression returns the total weekdays between the entry date and the end of the week, or the end of the month, whichever comes first.</p> <p>The expression is formatted as follows:</p><pre>DAYSINSPLITWEEK({entryDate})</pre> </td> 
+   <td> <p>This expression returns the total weekdays between the date and the end of the week, or the end of the month, whichever comes first. In this example, the date is the entry date for a work object.</p> <p>The expression is formatted as follows:</p><pre>DAYSINSPLITWEEK({entryDate})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>DAYSINYEAR</strong> </td> 
-   <td> <p>This expression returns the total days in the year of the given entry date as a number and is formatted as follows:</p><pre>DAYSINYEAR({entryDate})</pre> </td> 
+   <td> <p>This expression returns the total days in the year of the date as a number and is formatted as follows. In this example, the date is the entry date for a work object.</p><pre>DAYSINYEAR({entryDate})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>DMAX</strong> </td> 
@@ -156,19 +156,19 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>HOUR</strong> </td> 
-   <td> <p>This expression returns the hour of the given entry date as a number between 0 and 23</p> <p>The expression is formatted as follows:</p><pre>HOUR({entryDate})</pre> </td> 
+   <td> <p>This expression returns the hour of the date as a number between 0 and 23.</p> <p>The expression is formatted as follows. In this example, the date is the entry date for a work object.</p><pre>HOUR({entryDate})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>MINUTE</strong> </td> 
-   <td> <p>This expression returns the minute of the given entry date as a number between 0 and 60, formatted as follows:</p><pre>MINUTE({entryDate})</pre> </td> 
+   <td> <p>This expression returns the minute of the date as a number between 0 and 60, formatted as follows. In this example, the date is the entry date for a work object.</p><pre>MINUTE({entryDate})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>MONTH</strong> </td> 
-   <td> <p>This expression returns the month of the given entry date as a number between 1 and 12, formatted as follows:</p><pre>MONTH({entryDate})</pre> </td> 
+   <td> <p>This expression returns the month of the date as a number between 1 and 12, formatted as follows. In this example, the date is the entry date for a work object.</p><pre>MONTH({entryDate})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>SECOND</strong> </td> 
-   <td> <p>This expression returns the second of the given entry date as a number between 0 and 60, formatted as follows:</p><pre>SECOND({entryDate})</pre> </td> 
+   <td> <p>This expression returns the second of the date as a number between 0 and 60, formatted as follows. In this example, the date is the entry date for a work object.</p><pre>SECOND({entryDate})</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>WEEKDAYDIFF</strong> </td> 
@@ -180,7 +180,7 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>YEAR</strong> </td> 
-   <td> <p>This expression returns the year of the given entry date as a 4-digit number, formatted as follows:</p><pre>YEAR({entryDate})</pre> </td> 
+   <td> <p>This expression returns the year of the date as a 4-digit number, formatted as follows. In this example, the date is the entry date for a work object.</p><pre>YEAR({entryDate})</pre> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -199,7 +199,7 @@ The lists below define the available expressions you can use when you are buildi
  <tbody> 
   <tr> 
    <td><strong>ABS</strong> </td> 
-   <td>This expression returns the absolute value of the number and is formatted as follows:<pre>ABS(number)</pre></td> 
+   <td>This expression returns the absolute value of the number and is formatted as follows. This example uses the  number of objects below the object where the custom form is attached.<pre>ABS({numberOfChildren})</pre></td> 
   </tr> 
   <tr> 
    <td><strong>AVERAGE</strong> </td> 
