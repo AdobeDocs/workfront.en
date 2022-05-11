@@ -233,7 +233,7 @@ The basic configuration is almost complete.
 
 1. In Workfront, Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Documents** ![](assets/document-icon.png).
 1. Click**Add new**.
-1. Click**From <title of your SharePoint site>** in the dropdown.
+1. Click**From `<title of your SharePoint site>`** in the dropdown.
 
    A dialog that invites you to Trust this site appears.
 

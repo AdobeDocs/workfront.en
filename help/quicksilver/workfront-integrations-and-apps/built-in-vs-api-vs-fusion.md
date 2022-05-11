@@ -58,7 +58,7 @@ Advantages to using the Workfront API may include the following:
 **Example:** The following API call puts a comment into the update stream of the task with the specified ID.
 
 ```
-https://<your domain>.workfront.com/attask/api-internal/note?noteText=<text of comment>&noteObjCode=TASK&objID=<task ID>&apiKey=<your API key>
+https://`<your domain>`.workfront.com/attask/api-internal/note?noteText=<text of comment>&noteObjCode=TASK&objID=<task ID>&apiKey=<your API key>
 ```
 
 For more information about the Workfront API, see [API basics](../wf-api/general/api-basics.md).
