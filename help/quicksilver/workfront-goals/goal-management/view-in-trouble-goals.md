@@ -108,7 +108,7 @@ This article describes how to review goals in the Goal List.
 
    In-trouble goals for the selected users display in the goal list. 
 
-1. Click ```Expand``` ```goals``` to view additional information about the goals and their contributing items. 
+1. Click Expand goals to view additional information about the goals and their contributing items. 
 1. A list of results, activities, and aligned goals displays under each goal. Now, you can view which contributing item delays the progress of your goal.
 
    ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)

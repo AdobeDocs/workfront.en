@@ -88,4 +88,6 @@ Before you can view or manage Workfront documents in G Suite, you must
 1. Click **View in Workfront**&nbsp;to go to the Document Details page for the document in Workfront.
 
 You can also view and manage documents (and other details) associated with a Workfront object in G Suite when you receive a Workfront notification email about the object. For more information, see [Manage Adobe Workfront notification details from G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md).
-```<li>For information about using the Details tab in Workfront for G Suite, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md" class="MCXref xref">View and manage Adobe Workfront object details from G Suite</a>.</li>``` ```<li>For information about using the Updates tab in Workfront for G Suite, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md" class="MCXref xref">Update a Adobe Workfront object from G Suite</a>.</li>``` &nbsp;
+
+* For information about using the Details tab in Workfront for G Suite, see [View and manage Adobe Workfront object details from G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
+* For information about using the Updates tab in Workfront for G Suite, see [Update a Adobe Workfront object from G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).

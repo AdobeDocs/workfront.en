@@ -132,7 +132,7 @@ This section provides examples of custom views, filters, and groupings that you 
 <p>This Hour grouping organizes hours by the sponsor of the project where the hours reside. The standard interface for Hour groupings does not provide a mapping to the project sponsor; it must be done through the Text Mode interface.</p>
 <h2><a name="Issue"></a>Issue</h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md" class="MCXref xref" xrefformat="{para}">View: issues with approval information</a> </p>
-<p>This Issue view shows the approval process, step, names of the approvers, and the status of the Issue before the approval was granted. Some of these fields are not accessible through the standard interface builder.</p> <!--
+<p>This Issue view shows the approval process, step, names of the approvers, and the status of the Issue before the approval was granted. Some of these fields are not accessible through the standard interface builder.</p> 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: Luke: View: Entry Information (Edit)&nbsp;-</p>
 <p>Hiding this article as everything in this view except for the Edit icons can be achieved in the UI. The icon is no longer supported.</p>
@@ -142,34 +142,29 @@ This section provides examples of custom views, filters, and groupings that you 
 <p>View: Issue URL as External Link&nbsp;-&nbsp;Hiding this as this can be done from the UI and the URL column is no longer supported the way it is coded here.</p>
 <p>This issue view displays the URL field for the issue as a _blank target.) </p>
 </div>
--->
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md" class="MCXref xref" xrefformat="{para}">View: issues with the company name of the originator</a> </p>
 <p>This Issue view displays the company name associated with the user who submitted the issue.</p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md" class="MCXref xref" xrefformat="{para}">View: issues with resolving object details</a> </p>
-<p>This Issue view displays the name and percentage complete of the resolving object of the Issue, allowing the issue originator to have insight into the progress of the issue even without access to the resolving task or project.</p> <!--
+<p>This Issue view displays the name and percentage complete of the resolving object of the Issue, allowing the issue originator to have insight into the progress of the issue even without access to the resolving task or project.</p> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;Luke: Program - hidden because the view is not supported in the new UI anymore)</p>
--->
 <h2><a name="Project"></a>Project</h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md" class="MCXref xref" xrefformat="{para}">View: project with all project team users and roles</a> </p>
-<p>This Project view shows a list of users and roles assigned to the project team.</p> <!--
+<p>This Project view shows a list of users and roles assigned to the project team.</p> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;View: Business Case Export&nbsp;- hidden, because this view is not supported anymore.This was originally created to provide an option to export the business case directly from an emailed report -- the recipient will receive a report of new business cases created in the previous week each Monday morning and be able to export the business case PDF without having to navigate through the Workfront interface.) </p>
--->
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md" class="MCXref xref" xrefformat="{para}">Filter: display your current projects pending approval</a> </p>
-<p>This Project filter displays projects in the Current - Pending Approval status, where the logged in user is either the project sponsor or the portfolio manager.</p> <!--
+<p>This Project filter displays projects in the Current - Pending Approval status, where the logged in user is either the project sponsor or the portfolio manager.</p> 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: Grouping: Custom Fiscal Quarter&nbsp;- hiding this, because we now have custom quarters</p>
 <p>This grouping organizes projects by a custom fiscal quarter the project starts in. This is done by changing the valuefield line to valueexpression and inputting an expression to the right of the equal (=) sign.</p>
 <p>View: Help Desk Queues&nbsp;- hidden, because this view is not supported anymore.</p>
 <p>This view, like the standard 'Help Desk' view, will create an issue by clicking on the project name.) </p>
 </div>
--->
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md" class="MCXref xref" xrefformat="{para}">View: multi-row project View</a> </p>
-<p>This Project view displays project information in a two row format. It employs the use of the <code>sharecol=true</code> line to combine multiple fields under the same column header. Additionally, it utilizes place holder columns that hold an HTML line break tag (<br/>) that forces the description to reside below the project name, for example.</p> <!--
+<p>This Project view displays project information in a two row format. It employs the use of the <code>sharecol=true</code> line to combine multiple fields under the same column header. Additionally, it utilizes place holder columns that hold an HTML line break tag (<br/>) that forces the description to reside below the project name, for example.</p> 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: Filter: Owned By Me Project Ideas and Requests&nbsp;- hidden because this is available from the UI</p>
 <p>The following filter displays projects in the Idea and Requested states where the logged in user is project owner (Project Manager).This is an important filter to have in your list of available filters because often project managers are not the people creating the projects they will be assigned to work on.) </p>
 </div>
--->
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md" class="MCXref xref" xrefformat="{para}">Grouping: project percent breakdown 1</a> </p>
 <p>In this custom project grouping, you can display projects grouped by a range of their percent complete values. The breakdowns show percent complete value of 25 percent point increments: 0-25%, 25-50%, etc.</p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md" class="MCXref xref" xrefformat="{para}">Grouping: project percent breakdown 2</a> </p>
@@ -180,12 +175,11 @@ This section provides examples of custom views, filters, and groupings that you 
 <h2><a name="proof"></a>Proof </h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md" class="MCXref xref" xrefformat="{para}">Filter:&nbsp;Proof Approval report to omit previous proof versions</a> </p>
 <p>On a Proof Approval report, you can use the&nbsp;<strong>Is Current Document Version</strong> filter to include only the current versions of proofs waiting for your approval. </p>
-<h2><a name="Report"></a>Report</h2> <!--
+<h2><a name="Report"></a>Report</h2>
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE:&nbsp;View: Report Delivery Details&nbsp;-This code is no longer supported. Most fields are available through the UI.</p>
 <p>This view shows specific details about the reports in your system that are scheduled for automatic delivery via email. You can see the last sent date along with the details about the format of the report and the delivery options you have set.)</p>
 </div>
--->
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md" class="MCXref xref" xrefformat="{para}">Filter: display reports scheduled for delivery</a> </p>
 <p>This Report filter will show you all reports scheduled to be delivered automatically through the Workfront report delivery feature. It is best used with the standard Report List View.</p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-reporting-elements-used-reports.md" class="MCXref xref" xrefformat="{para}">View: reporting elements used in reports</a> </p>
@@ -242,7 +236,7 @@ This section provides examples of custom views, filters, and groupings that you 
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md" class="MCXref xref" xrefformat="{para}">View: user personal time off</a> </p>
 <p>This User view shows a list of future days which have been marked for Time-Off by users. The view includes lists of the users' job roles, teams, and groups, in addition to their name, access level, and Company.</p>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md" class="MCXref xref" xrefformat="{para}">View: user Job Role percentage of FTE availability</a> </p>
-<p>This User column displays a list of the Job Roles the user is associated with as well as the percentage of FTE availability for each job role, as defined in the user </p> <!--
+<p>This User column displays a list of the Job Roles the user is associated with as well as the percentage of FTE availability for each job role, as defined in the user </p> 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: <p>You can share Filters, Views, and Groupings with other users.</p></p>
 <p><p>When a Filter, View, or Grouping is shared with you, you can apply that Filter, View, or Grouping to your lists. Depending on the access granted to you, you might be able to modify it and share it with other users.</p></p>
@@ -278,7 +272,6 @@ This section provides examples of custom views, filters, and groupings that you 
 <p><li>"Removing a Grouping" in <a href="/hc/en-us/articles/217202717" target="_blank" rel="noopener">"Creating and Customizing Groupings"</a></li></p>
 <p></ul> )</p>
 </div>
--->
 <h2><a name="Work"></a>Work Item</h2>
 <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md" class="MCXref xref" xrefformat="{para}">Report: combined task and issue View and Grouping</a> </p>
 <p>This Work Item report shows both tasks and issues which users have accepted to work on in one report. It is best when combined with a custom grouping.</p>

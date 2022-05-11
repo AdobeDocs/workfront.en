@@ -259,11 +259,11 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 1. 
    Do one of the following:
 
-   * ```(Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autosave**, select the tasks you want to duplicate, then click the **More menu** ![](assets/qs-more-menu-29x11.png) > **Duplicate**.```
+   * (Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autosave**, select the tasks you want to duplicate, then click the **More menu** ![](assets/qs-more-menu-29x11.png) > **Duplicate**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * ``` ```(Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:``````
+   * (Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:
 
       1. Select the task or tasks you want to duplicate, and click **Duplicate**. 
       1. (Optional) Click **Undo** to reverse your changes and not duplicate the tasks.

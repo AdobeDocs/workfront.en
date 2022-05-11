@@ -197,7 +197,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <td>Lists and reports</td>
 </tr>
 <tr data-mc-conditions="">
-<td><span class="preview" style="font-weight: bold;">Beta builder</span> <!--
+<td><span class="preview" style="font-weight: bold;">Beta builder</span> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the Beta builder text is also in yellow)</p>
 </td>
 <td>
@@ -420,7 +420,3 @@ Clicking
 </div>
 </div>
 -->
-
-&nbsp;
-
-&nbsp;

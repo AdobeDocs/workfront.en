@@ -147,64 +147,25 @@ For information about creating a report, see [Create a custom report](../../../r
 
       For information about creating "OR" statements in a filter, see [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
+<!--WRITER - reformat note below -->
+
    >[!NOTE]
    >
    >You can have multiple "OR" statements in the same filter.&nbsp;Every time you have a new "OR"&nbsp;statement the number after "OR:" increases.
    >
    >To filter for tasks that are in a status of In Progress or are assigned to the logged-in user or they have the Planned Completion Date today, use the following:
    >
+   >`status=INP`
    >
+   >`status_Mod=in`
    >
+   >`OR:1:assignedToID=$$USER.ID`
    >
-   >```   >
-   >status=INP
-   >```   >
+   >`OR:1:assignedToID_Mod=in`
    >
-
+   >`OR:2:plannedCompletionDate=$$TODAY`
    >
-   >
-   >
-   >
-   >```   >
-   >status_Mod=in
-   >```   >
-   >
-
-   >
-   >
-   >
-   >
-   >```   >
-   >OR:1:assignedToID=$$USER.ID
-   >```   >
-   >
-
-   >
-   >
-   >
-   >
-   >```   >
-   >OR:1:assignedToID_Mod=in
-   >```   >
-   >
-
-   >
-   >
-   >
-   >
-   >```   >
-   >OR:2:plannedCompletionDate=$$TODAY
-   >```   >
-   >
-
-   >
-   >
-   >
-   >
-   >```   >
-   >OR:2:plannedCompletionDate_Mod=eq
-   >```   >
-   >
+   >`OR:2:plannedCompletionDate_Mod=eq`
 
 1. Click **Done** if you want to save your changes and continue editing the report or the filter.
 1. 

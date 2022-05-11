@@ -27,7 +27,7 @@ You can apply filters to display only the goals that are important to you in eac
 
 >[!TIP]
 >
->Filters updated in one section are automatically applied to the Goal List, Graphs ```, Goal Alignment```, and Pulse sections. This way, you can update them only once. For more information, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>Filters updated in one section are automatically applied to the Goal List, Graphs , Goal Alignment, and Pulse sections. This way, you can update them only once. For more information, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 Following is a brief overview of the sections of Workfront Goals and the options available for managing goals. For more information about additional actions that you can perform within each section of Workfront Goals, we also recommend the following articles:
 
@@ -132,7 +132,7 @@ Use the Pulse section to do the following:
 
 ## Check-in
 
-```You must have access to Edit Goals in your access level before you can access the Check- in section. For information about granting access to Goals, see``` ``` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)```.
+You must have access to Edit Goals in your access level before you can access the Check- in section. For information about granting access to Goals, see  [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 You can use the Check-in section to update active goals and any results and activities that you are the owner of. You can primarily view only goals in an Active status in this section. Children goals aligned to active parents also display in the Check-in section, regardless of their status.
 
