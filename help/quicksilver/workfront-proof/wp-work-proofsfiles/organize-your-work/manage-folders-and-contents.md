@@ -109,7 +109,7 @@ You can easily manage your files from the Folder details page.
 
 ## Managing Sub-Folders
 
-You can manage the sub-folders from the Folders detail page.&nbsp;For more information, see [Manage Folders and their Contents in Workfront Proof](#).
+You can manage the sub-folders from the Folders detail page.
 
 1. On the **Folders** tab in the left navigation menu, click the name of the parent folder that contains the sub-folder to open the **Folder details** page.
 
