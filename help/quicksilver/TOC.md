@@ -390,7 +390,7 @@ user-guide-description: Workfront
       * [Create and manage teams](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Create a team from the Setup area](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
       * [Edit a team’s settings from the Setup area](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
- * Opt in to the new Adobe Workfront experience {#opt-in-nwe}
+  * Opt in to the new Adobe Workfront experience {#opt-in-nwe}
     * [Opt in to the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
     * [Discover the features available only with the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md)
     * [Prepare to move your organization to the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/admin-prep-for-nwe.md)

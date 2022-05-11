@@ -39,8 +39,6 @@ The story board consists of the following elements:
 
 * **Task Statuses:** Indicate how a story is progressing through the iteration or project based on which status column the story is in.
 
-  For more information, see [Scrum board overview](#).
-
   Task statuses can be customized for the project by modifying the agile view, as described in [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * **Swim Lane:**&nbsp;When a parent story and its subtasks appear on the story board, a swim lane is created specifically for the story and its subtasks. This provides a visual distinction to better view how a story's&nbsp;subtasks are progressing across the story board.&nbsp;

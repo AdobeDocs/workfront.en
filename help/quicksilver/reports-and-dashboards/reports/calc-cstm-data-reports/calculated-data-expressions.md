@@ -207,7 +207,7 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>CEIL</strong> </td> 
-   <td>This expression rounds a number up to the nearest integer and is formatted as follows:<pre>CEIL(number)</pre></td> 
+   <td>This expression rounds a number up to the nearest integer and is formatted as follows. This example uses the  number of  objects below the object where the custom form is attached.<pre>CEIL({numberOfChildren})</pre></td> 
   </tr> 
   <tr> 
    <td><strong>DIV</strong> </td> 
