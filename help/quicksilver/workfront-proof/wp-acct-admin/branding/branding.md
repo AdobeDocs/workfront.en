@@ -16,8 +16,6 @@ description: This section contains the following articles - EDIT ME.
 
 This section contains the following articles:
 
-[Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+* [Brand the Workfront Proof site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+* [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
 
-[Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
-
-[Configure a branded domain in Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md) 

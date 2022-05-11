@@ -797,16 +797,20 @@ user-guide-description: Workfront
     * [Workfront Proof Manager permissions troubleshooting](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
     * [Duplicate approval processes showing in the Home Work List](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
     * [Filter buttons do not display in page headers](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
-* [Agile](agile/agile.md)
+* Agile {#agile}
+  * [Agile](agile/agile.md)
   * [Agile overview](agile/agile-overview.md)
   * [Boards overview](agile/boards-overview.md)
-  * [Agile in projects](agile/agile-in-projects/agile-in-projects.md)
+  * Agile in projects {#agile-in-projects}
+    * [Agile in projects](agile/agile-in-projects/agile-in-projects.md)
     * [Agile Project](agile/agile-in-projects/use-agile-on-a-project.md)
-  * [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+  * Get started with agile in Adobe Workfront {#agile-in-workfront}  
+    * [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
     * [Create an agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
     * [Configure Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
     * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-  * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+  * Get started with boards in Adobe Workfront {#boards-in-workfront}
+    * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
     * [Add or remove members from a board](agile/get-started-with-boards/add-members-to-board.md)
@@ -816,7 +820,8 @@ user-guide-description: Workfront
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
-  * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
+  * Kanban in an agile team {#kanban}
+    * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
     * [Add a subtask to an existing story on the Kanban board](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
     * [Add existing tasks or issues to the Kanban board](agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)
@@ -830,21 +835,25 @@ user-guide-description: Workfront
     * [Use flags on stories on the Kanban board](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
     * [Add the backlog to the Kanban board](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
     * [Delete story from Kanban board](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-  * [Scrum in an agile team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-    * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
+  * Scrum in an agile team {#scrum}
+    * [Scrum in an agile team](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
+    * Burndown {#burndown}
+      * [Burndown](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
       * [Agile burndown chart overview](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
       * [Iteration completion status overview](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
       * [Resize and collapse the burndown chart](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
       * [Synchronize data in the burndown chart](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
       * [Use an alternate team schedule for burndown charts](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
-    * [Iterations](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
+    * Iterations {#iterations}
+      * [Iterations](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
       * [Iterations overview](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
       * [Create an iteration](agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
       * [Create an agile story in an iteration](agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
       * [Add stories to an existing iteration](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
       * [View an iteration](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
       * [Delete an iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-    * [Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
+    * Scrum board {#scrum-board}
+      * [Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
       * [Scrum board overview](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
       * [Add a subtask to an existing story on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
       * [Assign users to a story on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
@@ -855,11 +864,13 @@ user-guide-description: Workfront
       * [Manage stories and issues on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
       * [Update the status of stories and subtasks on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
       * [View and edit story information on the Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
-  * [Work in an agile environment](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
+  * Work in an agile environment {#work-in-agile-environment}
+    * [Work in an agile environment](agile/work-in-an-agile-environment/work-in-an-agile-environment.md)
     * [Create an agile story](agile/work-in-an-agile-environment/create-an-agile-story.md)
     * [Manage the agile backlog](agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
     * [Move an agile story](agile/work-in-an-agile-environment/move-an-agile-story.md)
-  * [Tips, tricks, and troubleshooting for agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
+  * Tips, tricks, and troubleshooting for agile {#tips-tricks-agile}
+    * [Tips, tricks, and troubleshooting for agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
     * [Custom statuses not showing up on the agile story board](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documents {#documents}
   * [Documents](documents/documents-overview.md)
@@ -1226,8 +1237,10 @@ user-guide-description: Workfront
       * [Share a link to a request queue](manage-work/requests/create-requests/share-link-to-request-queue.md)
       * [Delete a request draft](manage-work/requests/create-requests/delete-request-draft.md)
       * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
-* [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md)
-  * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
+* People, teams, and groups {#people-teams-groups}
+  * [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md)
+  * Create and manage teams {#create-manage-teams}
+    * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
     * [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
     * [Create a team](people-teams-and-groups/create-and-manage-teams/create-a-team.md)
     * [Create and manage Agile teams](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
@@ -1237,15 +1250,19 @@ user-guide-description: Workfront
     * [Configure the Done button for tasks](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
     * [Configure the Done button for issues](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
     * [Replace the Work On It button with a Start button](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
-  * [Work directly with others](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
+  * Work directly with others {#work-with-others}
+    * [Work directly with others](people-teams-and-groups/work-directly-with-others/work-directly-with-others.md)
     * [Send direct messages to other users](people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
     * [View the organizational chart](people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
-  * [Work with groups and teams](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
+  * Work with groups and teams {#work-with-groups-teams}
+    * [Work with groups and teams](people-teams-and-groups/work-with-groups-and-teams/work-with-groups-and-teams.md)
     * [Groups vs. teams in Adobe Workfront](people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
-  * [Work with team requests](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
+  * Work with team requests {#work-with-team-requests}
+    * [Work with team requests](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
     * [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
     * [Manage work and team requests](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
-  * [Tips, Tricks, and Troubleshooting for People, Teams, and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
+  * Tips, tricks, and troubleshooting for people, teams, and groups {#tips-tricks-people-teams-groups}
+    * [Tips, Tricks, and Troubleshooting for People, Teams, and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Reporting Canvas {#reporting-canvas}
@@ -1732,7 +1749,6 @@ user-guide-description: Workfront
       * [Edit the Proof Permission Profile field in Bulk](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
       * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
-      * [List users with a proofing license in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
 * Timesheets {#timesheets}
   * [Timesheets](timesheets/timesheets-all.md)
   * [Timesheet details in Adobe Workfront](timesheets/timesheets/timesheets.md)
@@ -2219,7 +2235,6 @@ user-guide-description: Workfront
       * [Preview Sandbox Testing Environment- Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
       * [Language Settings in Workfront Proof](workfront-proof/wp-getstarted/system-information/language-settings.md)
       * [Codecs in Workfront Proof](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * [System information in Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
     * Workfront Proof FAQ {#wf-proof-faq}
       * [Workfront Proof - frequently asked questions](workfront-proof/wp-getstarted/faqs/faqs.md)
       * [FAQ - Create and share proofs and files](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
