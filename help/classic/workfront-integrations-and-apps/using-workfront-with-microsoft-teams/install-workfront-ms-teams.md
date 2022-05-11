@@ -172,13 +172,8 @@ To log in to Workfront from Microsoft Teams:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >   * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
-   >   
-   >
+   >* When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >* Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
 
 1. Close the browser tab you used to log in and return to Microsoft Teams.
 

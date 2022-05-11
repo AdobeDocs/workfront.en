@@ -124,14 +124,10 @@ You must have the following to perform the steps in this article:
 
    >[!NOTE]
    >
-   >
    >   
-   >   
-   >   * You can also associate a user with a timesheet profile by editing the user profile. For more information, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-   >   * When you add a group, only the group name appears on the Assign People tab, not the list of group members. If you want to see the group members listed here, click Save Changes, then click the name of the timesheet profile you just created.
-   >   * When you finish these steps, the timesheet profile generates timesheets only for the assigned users or group members who don’t have existing timesheets for the current period.
-   >   
-   >
+   >* You can also associate a user with a timesheet profile by editing the user profile. For more information, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   >* When you add a group, only the group name appears on the Assign People tab, not the list of group members. If you want to see the group members listed here, click Save Changes, then click the name of the timesheet profile you just created.
+   >* When you finish these steps, the timesheet profile generates timesheets only for the assigned users or group members who don’t have existing timesheets for the current period.
 
 1. Click **Create Profile** .
 

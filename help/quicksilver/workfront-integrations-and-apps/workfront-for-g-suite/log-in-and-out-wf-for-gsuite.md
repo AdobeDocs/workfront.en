@@ -71,13 +71,8 @@ Before you can log in or out of Workfront for G Suite, you must
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
-   >   * When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >   
-   >
+   >* Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
+   >* When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
 
 ## Log out of Workfront for G Suite
 

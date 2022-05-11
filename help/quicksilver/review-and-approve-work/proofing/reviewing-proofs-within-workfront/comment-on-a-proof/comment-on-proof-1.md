@@ -58,16 +58,10 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   1. For ease of use, pause the video, click in the time line where you want the comment.
-   >   1. For better precision, you can click the values above the playheads and type new values.  
-
-   >   1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
-   >   1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
-   >   
-   >
+   >1. For ease of use, pause the video, click in the time line where you want the comment.
+   >1. For better precision, you can click the values above the playheads and type new values.  
+   >1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
+   >1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
 
 1. To draw attention to a specific location on the proof, click the markup tool you want in the toolbar, then mark the area of the proof that you want to comment on:
 

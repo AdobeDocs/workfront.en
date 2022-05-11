@@ -182,13 +182,8 @@ You must have a request that you or someone in your organization previously subm
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * All custom forms attached to the original request and the values included in the custom fields transfer to the copied request. This includes fields that contain logic.
-   >   * You cannot remove custom forms from the copied request.
-   >   
-   >
+   >* All custom forms attached to the original request and the values included in the custom fields transfer to the copied request. This includes fields that contain logic.
+   >* You cannot remove custom forms from the copied request.
 
 1. Click&nbsp;**Submit**.
 

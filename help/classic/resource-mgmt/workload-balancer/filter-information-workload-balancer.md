@@ -174,14 +174,9 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * You cannot rename an unsaved filter. 
-   >   * Unsaved filters are removed from the Workload Balancer next time you log out of Workfront and log back in.
-   >   * You can have only one unsaved filter at one time. 
-   >   
-   >
+   >* You cannot rename an unsaved filter. 
+   >* Unsaved filters are removed from the Workload Balancer next time you log out of Workfront and log back in.
+   >* You can have only one unsaved filter at one time. 
 
 1. Click **Save** to save the filter to use it later, then add a name for the filter in the **Add filter name** field and click **Done**. 
 

@@ -140,13 +140,9 @@ To watch a video of how to create a report, see this [Create a custom report](#W
    >
    >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
    >
-   >   
-   >   
-   >   * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
-   >   * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
-   >   * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. 
-   >   
-   >
+   >* All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
+   >* Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
+   >* Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. 
 
    For more information about using groupings in a report, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -206,13 +202,8 @@ To watch a video of how to create a report, see this [Create a custom report](#W
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
-   >   * The results of a grouping always display expanded after accessing them from a chart element.
-   >   
-   >
+   >* When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >* The results of a grouping always display expanded after accessing them from a chart element.
 
 1. (Optional) You can choose to build a matrix grouping, to show your results in a grid format.
 

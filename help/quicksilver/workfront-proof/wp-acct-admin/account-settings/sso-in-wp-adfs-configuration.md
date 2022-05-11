@@ -81,18 +81,13 @@ Once configuration is complete, you need to work in the&nbsp;Relying Party Trust
 
 1. Select your data source.  
    All metadata for your ProofHQ account is located under a link like this:  
-   https://*<yoursubdomain*>.proofhq.com/saml/module.php/saml/sp/metadata.php/phq  
+   https://`<yoursubdomain*>`.proofhq.com/saml/module.php/saml/sp/metadata.php/phq  
    This will configures most of the Relying Party Trust.
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * If you're having any troubles with establishing the connection from the URL, save the metadata as a file and choose to import data from a file.
-   >   * When you have a full Custom domain (e.g., www.your-proofing.com) configured on your ProofHQ account replace the whole "{yoursubdomain}.proofhq.com" part with your own domain to create your ProofHQ metadata link.
-   >   
-   >
+   >* If you're having any troubles with establishing the connection from the URL, save the metadata as a file and choose to import data from a file.
+   >* When you have a full Custom domain (e.g., www.your-proofing.com) configured on your ProofHQ account replace the whole "{yoursubdomain}.proofhq.com" part with your own domain to create your ProofHQ metadata link.
 
 ## Configuring Claim Rules
 

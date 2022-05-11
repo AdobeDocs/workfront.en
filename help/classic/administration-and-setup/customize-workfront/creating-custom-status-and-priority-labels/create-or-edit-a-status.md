@@ -102,35 +102,31 @@ When you create a custom status for the entire organization, you can configure i
      </tr> 
      <tr> 
       <td role="rowheader">Lock for all groups</td> 
-      <td> 
-       <div data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-        <p>If you leave this enabled, users throughout the system can see and use the status and group administrators cannot customize it for their groups.</p> 
-        <p>When this option is disabled, group administrators can customize the status for their individual groups.</p> 
-        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p> 
-       </div> <!--
-        <p>Note:  
-         <ul data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
-          <li>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system. </li> 
-          <li>Warning messages display in the following scenarios to help you and your users make sure you understand outcomes of the following scenarios:
-           <ul data-mc-conditions="SnippetConditions-wf-groups.system-level">
-            <li>An administrator unlocks a system-level status that is used in an approval process. A message warns that group administrators might delete the unlocked status for their groups, which would prevent group members from using that approval process properly for objects assigned to their group. </li>
-            <li>A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it. </li>
-            <li><p>A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.<!--
-               <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      <td><!--<div data-mc-conditions="SnippetConditions-wf-groups.system-level">--> 
+       <p>If you leave this enabled, users throughout the system can see and use the status and group administrators cannot customize it for their groups.</p> 
+       <p>When this option is disabled, group administrators can customize the status for their individual groups.</p> 
+       <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p> 
+       <!--</div>--> 
+       <p>Note:  
+       <ul data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
+       <li>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system. </li> 
+       <li>Warning messages display in the following scenarios to help you and your users make sure you understand outcomes of the following scenarios:
+       <ul data-mc-conditions="SnippetConditions-wf-groups.system-level">
+       <li>An administrator unlocks a system-level status that is used in an approval process. A message warns that group administrators might delete the unlocked status for their groups, which would prevent group members from using that approval process properly for objects assigned to their group. </li>
+       <li>A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it. </li>
+       <li><p>A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.
+       <!--<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
                  Lilit says that this may become irrelevant as the team is trying to see if it’s possible to replace all approval processes on objects within the group, in which case we should not have any missing status cases.
-               </MadCap:conditionalText>
-              --></p></li>
-           </ul></li> 
-         </ul> </p>
-       --> </td> 
-     </tr> <!--
-      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+               </MadCap:conditionalText>-->
+      </p></li>
+      </ul></li> 
+      </ul> </p>
+      </td> 
+     </tr> 
+      <!--<tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader"><span class="preview">Users can select this status only if required fields on the object are completed</span> </td> 
-       <td> <p><span class="preview">(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.</span> </p> <!--
-         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This story is on the back burner</p>
-        --> </td> 
-      </tr>
-     --> 
+       <td> <p><span class="preview">(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.</span> </p>
+         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This story is on the back burner</p>--> 
     </tbody> 
    </table>
 

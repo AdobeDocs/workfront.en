@@ -51,14 +51,9 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >
+   >* When a group administrator creates a layout template, assigning administrative access is mandatory. The layout template is designated for and visible to only the specified group. For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). For information about group administrators, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
    >   
-   >   
-   >   * When a group administrator creates a layout template, assigning administrative access is mandatory. The layout template is designated for and visible to only the specified group. For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). For information about group administrators, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
-   >   
-   >   * If you don't grant administrative access to the group administrators in a particular group, all users who can edit user accounts have administrative access to the layout template. Some Workfront administrators purposefully choose not to grant administrative access for a layout template in order to make it a system-level layout template. 
-   >   
-   >
+   >* If you don't grant administrative access to the group administrators in a particular group, all users who can edit user accounts have administrative access to the layout template. Some Workfront administrators purposefully choose not to grant administrative access for a layout template in order to make it a system-level layout template. 
 
 1. You can click Save at any time to save your progress, then continue to modify the template later.
 

@@ -87,6 +87,8 @@ You can make general comments about the timesheet.
 
    Your comment is displayed in the **Recent Updates** area.
 
+   System-generated updates also display in this area when you enable them in the update stream of other objects. For more information, see the "Enable or disable system updates" section in the article [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
 ### Comment on an individual hour entry in a timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.

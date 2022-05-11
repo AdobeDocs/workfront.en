@@ -109,14 +109,9 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * The name of the project is case sensitive. 
-   >   * You can also start typing the Reference Number or enter the ID of the project. This might help you distinguish between projects with identical names. 
-   >   * Only 100 projects display in the list.
-   >   
-   >
+   >* The name of the project is case sensitive. 
+   >* You can also start typing the Reference Number or enter the ID of the project. This might help you distinguish between projects with identical names. 
+   >* Only 100 projects display in the list.
 
 1. (Conditional)&nbsp;Click&nbsp;**request access** to request access to the project, if you don't have access to the selected project. 
 1. 

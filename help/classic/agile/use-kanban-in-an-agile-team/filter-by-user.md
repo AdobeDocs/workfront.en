@@ -49,13 +49,8 @@ To filter a Kanban board:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * The column totals do not change based on the filtered results. Column totals display the totals for all work items on the board. A maximum of fifty cards is displayed by default, but you can click **Show More** to display additional cards.
-   >   * Filters are not applied to the Backlog column.
-   >   
-   >
+   >* The column totals do not change based on the filtered results. Column totals display the totals for all work items on the board. A maximum of fifty cards is displayed by default, but you can click **Show More** to display additional cards.
+   >* Filters are not applied to the Backlog column.
 
    ![](assets/filters-with-totals---kanban-350x212.png)
 

@@ -22,7 +22,7 @@ The Workload Balancer is available in multiple areas of Adobe Workfront. Navigat
 
 For information about managing resources using the Workload Balancer, also consider reading the following articles:
 
-* ``` [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)``` 
+* [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 * [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 ## Access requirements
@@ -139,12 +139,11 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    1. Planned Completion Date (oldest first)
    1. Alphabetical by project (only when the first two criteria are identical for multiple work items)
 
-1. ```Click the right-pointing arrow to the left of the Unassigned or Assigned areas to expand all items under the project names (in the Unassigned area) and under the user names (in the Assigned area).``` 
-1. ```Click the down-pointing arrow to the left of the Unassigned or Assigned areas to collapse all items under the project names (in the Unassigned area) and under the user names (in the Assigned area).``` 
+1. Click the right-pointing arrow to the left of the Unassigned or Assigned areas to expand all items under the project names (in the Unassigned area) and under the user names (in the Assigned area).
+1. Click the down-pointing arrow to the left of the Unassigned or Assigned areas to collapse all items under the project names (in the Unassigned area) and under the user names (in the Assigned area).
 1. Use the horizontal scroll to navigate the timelines of work items that extends beyond the limits of the screen. 
 1. Use the vertical scroll to display additional users and work items. 
-1. 
-   Drag and drop the separation line between the left panel and the timeline areas to adjust the size of the left panel.
+1. Drag and drop the separation line between the left panel and the timeline areas to adjust the size of the left panel.
 
    ![](assets/separation-line-between-left-panel-and-timeline-highlighted-nwe-350x174.png)
 
@@ -170,13 +169,8 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
-   >   * A dual calendar displays only when you select to view 12 weeks at a time. 
-   >   
-   >
+   >* When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
+   >* A dual calendar displays only when you select to view 12 weeks at a time. 
 
 1. Click one of the following options in the toolbar to display information by different time frames:
 
@@ -208,22 +202,13 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
      >[!TIP]
      >
-     >
+     >* When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.
      >   
+     >![](assets/3-months-12-weeks-drop-down-wb-350x140.png)
      >   
-     >   * ```When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.``` 
-     >   
-     >   
-     >     ![](assets/3-months-12-weeks-drop-down-wb-350x140.png)     >   
-     >   
+     >* When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.
 
-     >   
-     >   * ```When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.``` 
-     >   
-     >
-
-1. 
-   Click the **Settings** icon ![](assets/settings-gear-icon.png).
+1. Click the **Settings** icon ![](assets/settings-gear-icon.png).
 
    The Settings panel displays.
 
@@ -290,14 +275,9 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * The Show allocations setting only affects what displays for projects, tasks, ```issues``` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
-   >   * You must enable the Group by Project setting to display daily Planned Hours for projects. 
-   >   * When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours. 
-   >   
-   >
+   >* The Show allocations setting only affects what displays for projects, tasks, `issues` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
+   >* You must enable the Group by Project setting to display daily Planned Hours for projects. 
+   >* When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours. 
 
    Days that show overallocations display in red. 
 
@@ -306,7 +286,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Optional)&nbsp;Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks in the bars of the work items. 
-1. ```Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name,``` then click one of the following:
+1. Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name, then click one of the following:
 
    * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to.
 
@@ -314,14 +294,10 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
      >[!TIP]
      >
-     >```You can also use the following shortcuts to assign tasks or issues:```
+     >You can also use the following shortcuts to assign tasks or issues:
      >
-     >   
-     >   
-     >   * ```In Windows: CTRL+click the task or issue bar.```
-     >   * ```In Mac: CMD+click the task or issue bar.```
-     >   
-     >
+     >* In Windows: CTRL+click the task or issue bar.
+     >* In Mac: CMD+click the task or issue bar.
 
      For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
    

@@ -68,14 +68,8 @@ When you log in to Workfront from one of the supported Adobe applications, you a
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
-   >   * When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.  
-
-   >   
-   >
+   >* Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
+   >* When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.  
 
    A&nbsp;list of work items assigned to you displays if the project a current status. If a list does not display, log in to Workfront.
 

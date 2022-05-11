@@ -26,7 +26,7 @@ The Workload Balancer is available in multiple areas of Adobe Workfront. Navigat
 
 For information about managing resources using the Workload Balancer, also consider reading the following articles:
 
-* ``` [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)``` 
+* [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 * [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 ## Access requirements
@@ -121,7 +121,7 @@ You can update the view in the Workload Balancer to display exactly the informat
 After selecting the settings you want to apply to your view, the Workload Balancer remembers these settings every time you access it from any browser or device.
 
 1. Click **People** in the Global Navigation Bar.
-1. ```Click the Workload Balancer tab.```
+1. Click the Workload Balancer tab.
 
    You might need to click **Scheduling**, then select Workload Balancer in the upper-left corner. 
 
@@ -131,7 +131,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    </MadCap:conditionalText>
    -->
 
-   The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. ```By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.```
+   The Workload Balancer displays work assignment information starting with the current week. The names of work items are listed on the left side as well as represented by bars on the right side of the of the Workload Balancer within their respective timelines. By default, blue bars represent the timelines of projects and tasks and maroon bars represent issues.
 
    The work items that display under the name of users in the Workload Balancer are sorted by the following criteria, in this order:
 
@@ -163,13 +163,8 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
-   >   * A dual calendar displays only when you select to view 12 weeks at a time. 
-   >   
-   >
+   >* When you view the Workload Balancer on smaller screens the time frame drop-down menu is replaced by the calendar icon ![](assets/calendar-icon-wb.png). 
+   >* A dual calendar displays only when you select to view 12 weeks at a time. 
 
 1. Click one of the following options in the toolbar to display information by different time frames:
 
@@ -199,21 +194,13 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    * 6 weeks
    * 12 weeks
 
-     >[!TIP]
-     >
-     >
-     >   
-     >   
-     >   * ```When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months.``` 
-     >   
-     >   
-     >     ![](assets/3-months-12-weeks-drop-down-wb-350x140.png)     >   
-     >   
-
-     >   
-     >   * ```When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.``` 
-     >   
-     >
+   >[!TIP]
+   >
+   >When you display the Workload Balancer by month, the option for 12 weeks becomes 3 months. 
+   >   
+   >![](assets/3-months-12-weeks-drop-down-wb-350x140.png)
+   >   
+   >When you display the Workload Balancer by a time frame shorter than 3 months or 12 weeks, the time frame switches automatically from Month to Week.
 
 1. Click the **Change color theme icon** ![](assets/change-color-theme-icon.png), then select one of the options below. 
 
@@ -276,11 +263,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
      </tr> 
      <tr> 
       <td role="rowheader"><span>Percentage</span> </td> 
-      <td> <p><span>Displays allocated time as a percentage of the total available time. </span> <!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-          <span>(NOTE: below is drafted because this was not implemented yet, per Vazgen)</span> 
-         </MadCap:conditionalText>
-        --> </p> <p>Note: <span class="preview">When converting information from hours to percentages, Workfront rounds up the percentage value to a 2-digit precision and moves any remaining percentage to the last day in the duration of the task.</span> </p> </td> 
+      <td> <p><span>Displays allocated time as a percentage of the total available time. </span> <!--<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>(NOTE: below is drafted because this was not implemented yet, per Vazgen)</span></MadCap:conditionalText> </p> <p>Note: <span class="preview">When converting information from hours to percentages, Workfront rounds up the percentage value to a 2-digit precision and moves any remaining percentage to the last day in the duration of the task.</span> </p> </td>-->
      </tr> 
     </tbody> 
    </table>
@@ -298,14 +281,9 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * The Show allocations setting only affects what displays for projects, tasks, ```issues``` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
-   >   * You must enable the Group by Project setting to display daily Planned Hours for projects. 
-   >   * When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours. 
-   >   
-   >
+   >* The Show allocations setting only affects what displays for projects, tasks, ```issues``` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
+   >* You must enable the Group by Project setting to display daily Planned Hours for projects. 
+   >* When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours. 
 
    Days that show overallocations display in red. 
 
@@ -322,14 +300,10 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
      >[!TIP]
      >
-     >```You can also use the following shortcuts to assign tasks or issues:```
+     >You can also use the following shortcuts to assign tasks or issues:
      >
-     >   
-     >   
-     >   * ```In Windows: CTRL+click the task or issue bar.```
-     >   * ```In Mac: CMD+click the task or issue bar.```
-     >   
-     >
+     >* In Windows: CTRL+click the task or issue bar.
+     >* In Mac: CMD+click the task or issue bar.
 
      For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
    
