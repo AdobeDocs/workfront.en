@@ -17,7 +17,7 @@ For instructions on how to view and manage these notifications, see [View and ma
 
 ## Announcement notifications {#announcement-notifications}
 
-```<li>Announcements come in one of two ways:</li>```
+Announcements come in one of two ways:
 
 * Workfront sends a message to the Announcement page of your organization's Workfront administrators  
 * A Workfront administrator sends a message to users from the Announcement page
