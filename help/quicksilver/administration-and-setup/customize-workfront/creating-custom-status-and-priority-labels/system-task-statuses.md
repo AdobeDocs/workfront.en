@@ -25,8 +25,8 @@ The following task statuses are provided with your Workfront instance:
  <thead> 
   <tr> 
    <th>System Task Status</th> 
-   <th>When this Task Status`Actions that Happen when the Task Is in This Status Occurs</th> 
-   <th>Actions that Happen when the Task&nbsp;Is in This Status</th> 
+   <th>When this Task Status Actions that Happen when the Task Is in This Status Occurs</th> 
+   <th>Actions that Happen when the Task Is in This Status</th> 
   </tr> 
  </thead> 
  <tbody> 

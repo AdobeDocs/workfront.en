@@ -144,7 +144,7 @@ To customize tabs:
 
    * Updates
    * Documents
-   * <Object Name> Details
+   * `<Object Name>` Details
    * Subtasks (for Tasks only)
    * Issues (for Tasks and Projects only)
    * Hours (for Projects, Tasks, and Issues)

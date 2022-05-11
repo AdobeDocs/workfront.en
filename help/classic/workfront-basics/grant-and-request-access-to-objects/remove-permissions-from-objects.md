@@ -87,7 +87,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
    For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. Select several objects in the list, then click **Share** at the top of the list. 
-1. Type the name of the user, role, team, group, or company for which you want to remove the access in the **Edit <Object Name> access to** field. 
+1. Type the name of the user, role, team, group, or company for which you want to remove the access in the **Edit `<Object Name>` access to** field. 
 1. From the access drop-down menu, select **No Access**.
 
    ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)

@@ -80,7 +80,7 @@ You can add a custom form to an object in two ways:
 ### Add a custom form to an object from the Details area {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. Go to the object where you want to add the custom form.
-1. Click the **<Object type> Details** section in the left panel. For example, click **Project Details** to add custom forms to a project or **Issue Details** to add custom forms to an issue. 
+1. Click the **`<Object type>` Details** section in the left panel. For example, click **Project Details** to add custom forms to a project or **Issue Details** to add custom forms to an issue. 
 1. Click the **Add custom form** field in the upper-right corner, then select up to 10 custom forms from the list that displays.
 
    If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time.

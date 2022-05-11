@@ -61,7 +61,7 @@ You must have the following:
 Editing information on a custom form attached to an object is identical for all objects. For information about what objects can have a custom form, see [Custom forms overview](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Go to an object for which you want to edit information on the custom form.
-1. Click **<Object type> Details**, then **Custom Forms**.
+1. Click **`<Object type>` Details**, then **Custom Forms**.
 
    For example, when editing information on a project custom form, click **Project Details** > **Custom Forms**.  
 

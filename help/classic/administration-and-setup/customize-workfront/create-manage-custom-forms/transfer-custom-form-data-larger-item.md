@@ -78,7 +78,7 @@ First you need to make sure that you retain any custom form data on a task or is
    * [Convert an issue to a task in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Convert a task to a project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. In the **Convert to <Object type>** dialog box that displays,&nbsp;click the **Add Forms**&nbsp;drop-down menu and select the form you copied in the previous section.
+1. In the **Convert to `<Object type>`** dialog box that displays,&nbsp;click the **Add Forms**&nbsp;drop-down menu and select the form you copied in the previous section.
 
    The information captured in the custom fields of the issue is now transferred to the custom form on the task.
 

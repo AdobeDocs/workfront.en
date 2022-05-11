@@ -105,7 +105,7 @@ You must have the following to share objects:
 
    &nbsp;
 
-1. In the **Give <Object Name> access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
+1. In the **Give `<Object Name>` access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
    For example, if you are sharing a project, use the **Give project access to** field.
 
@@ -224,7 +224,7 @@ To share objects in bulk:
    >
    >If you do not have permissions to share an object that you selected, the **Share** button is not visible.
 
-1. In the **Edit <Object Name> access for** field, start typing the name of a user, team, group, job role, or company to which you want to grant permissions.
+1. In the **Edit `<Object Name>` access for** field, start typing the name of a user, team, group, job role, or company to which you want to grant permissions.
 
    For example, if you are sharing a project, use the **Give project access for**&nbsp;field.
 
