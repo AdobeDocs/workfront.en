@@ -1028,7 +1028,6 @@ user-guide-description: Workfront
       * [Calculate Budgeted Cost](manage-work/projects/project-finances/budgeted-cost.md)
       * [Calculate Budgeted Cost of Work Performed (BCWP)](manage-work/projects/project-finances/calculate-bcwp.md)
       * [Calculate Budgeted Cost of Work Scheduled (BCWS)](manage-work/projects/project-finances/calculate-bcws.md)
-      * [Export billing record details as a PDF file](manage-work/projects/project-finances/export-billing-record-details.md)
       * [Understand Budgeted Labor Cost and Budgeted Hours for projects](manage-work/projects/project-finances/budgeted-labor-cost.md)
       * [Calculate Planned Labor Cost](manage-work/projects/project-finances/planned-labor-cost.md)
     * [Tips, tricks, and troubleshooting for projects](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
