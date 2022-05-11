@@ -1146,13 +1146,10 @@ user-guide-description: Workfront
       * [Modify issue assignments overview](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
       * [Modify user assignments for multiple issues in a list](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
       * [Automatically update issue statuses from Awaiting Feedback to In Progress](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
-  * [Campaigns](manage-work/campaigns/campaigns-section-toc.md)
-    * [Create campaigns](manage-work/campaigns/create-campaigns.md)
-    * [Delete campaigns](manage-work/campaigns/delete-campaigns.md)
-    * [Manage campaign finances](manage-work/campaigns/manage-campaign-finances.md)
-    * [Share a campaign](manage-work/campaigns/share-a-campaign.md)
-  * [The Gantt Chart](manage-work/gantt-chart/the-gantt-chart.md)
-    * [Gantt Chart overview](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
+  * The Gantt Chart {#the-gantt-chart}
+    * [The Gantt Chart](manage-work/gantt-chart/the-gantt-chart.md)
+    * Gantt Chart overview {#gantt-chart-overview}
+      * [Gantt Chart overview](manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
       * [Get started with the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md)
       * [Configure how information displays on the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)
       * [View information in the Gantt Chart](manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)
