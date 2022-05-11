@@ -253,7 +253,7 @@ When you reference another custom field in a calculated custom field, you need t
 
 ## Considerations for building calculated custom fields
 
-Consider the following when building a calculated custom field in a custom form, particularly if you are typing information instead of selecting it:
+Consider the following when building a calculated custom field in a custom form:
 
 * You can use both built-in Workfront fields and custom fields that you already created.
 * You can refer to objects that are related to other objects in a calculation. For information about how objects connect to one another, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). 
