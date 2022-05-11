@@ -390,7 +390,7 @@ user-guide-description: Workfront
       * [Create and manage teams](administration-and-setup/add-users/create-and-manage-teams/create-and-manage-teams.md)
       * [Create a team from the Setup area](administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
       * [Edit a team’s settings from the Setup area](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
- * Opt in to the new Adobe Workfront experience {#opt-in-nwe}
+  * Opt in to the new Adobe Workfront experience {#opt-in-nwe}
     * [Opt in to the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/opt-in-to-the-new-workfront-experience.md)
     * [Discover the features available only with the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/feature-list-and-release-timing-for-the-new-workfront-experience.md)
     * [Prepare to move your organization to the new Adobe Workfront experience](administration-and-setup/the-new-workfront-experience/admin-prep-for-nwe.md)
@@ -2434,8 +2434,8 @@ user-guide-description: Workfront
       * [Add a Proof to a Basecamp Classic Project](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
       * [Integrate Workfront Proof with Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
       * [Review a Proof in Basecamp Classic](workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
-* [Adobe Workfront API](wf-api/workfront-api.md)
-  * [API](wf-api/api/api.md)
+* Adobe Workfront API {#adobe-workfront-api}
+  * API Notes {#api-notes}
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
     * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
@@ -2460,7 +2460,7 @@ user-guide-description: Workfront
     * [Updates to API Version 8](wf-api/api/new-api-version-8-updates.md)
     * [What's New in API Version 7](wf-api/api/new-api-version-7.md)
     * [What's New in API Version 6](wf-api/api/new-api-version-6.md)
-  * [API General](wf-api/general/api-general.md)
+  * API General Information {#api-general-information}
     * [API basics](wf-api/general/api-basics.md)
     * [API Explorer](wf-api/general/api-explorer.md)
     * [Using the API Explorer](wf-api/general/using-api-explorer.md)
@@ -2469,7 +2469,7 @@ user-guide-description: Workfront
     * [API example scripts](wf-api/general/api-example-scripts.md)
     * [Using the API to sync data for programs and services](wf-api/general/api-sync-data.md)
     * [Deactivate a User via the API](wf-api/general/deactivate-user-api.md)
-  * [Event Subscriptions](wf-api/api/event-subscriptions.md)
+  * Event Subscriptions {#event-subscriptions}
     * [Event Subscription API](wf-api/general/event-subs-api.md)
     * [Event subscription best practices](wf-api/general/event-sub-best-practice.md)
     * [Event Subscription delivery requirements](wf-api/general/setup-event-sub-endpoint.md)
@@ -2478,7 +2478,7 @@ user-guide-description: Workfront
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
     * [Outbound message format for event subscriptions](wf-api/api/message-format-event-subs.md)
     * [FAQs - Event Subscriptions](wf-api/general/event-subs-faq.md)
-  * [Document Webhooks API](wf-api/doc-wbhks-api/document-webhooks-api.md)
+  * Document Webhooks API {#document-webhooks-api}
     * [Webhooks Overview](wf-api/doc-wbhks-api/webhooks-overview.md)
     * [Register a Webhook Integration](wf-api/doc-wbhks-api/register-webhook-integration.md)
     * [Authentication for Document Webhooks](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2497,9 +2497,9 @@ user-guide-description: Workfront
     * [Document Webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
     * [Test Webhook connections](wf-api/doc-wbhks-api/test-webhook-connections.md)
     * [Document Webhooks Error Handling](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
-  * [Adobe Workfront Objects](wf-api/wf-objects/workfront-objects.md)
+  * Workfront Object Descriptions {#workfrtont-object-descriptions}
     * [Category](wf-api/wf-objects/category.md)
-  * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+  * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-and-troubleshooting-for-APIs}
     * [API Error: “The remote server returned an error: (400) Bad Request”](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
