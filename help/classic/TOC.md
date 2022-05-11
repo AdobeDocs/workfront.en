@@ -1064,8 +1064,7 @@ user-guide: null
       * [Create tasks in the Legacy Gantt Chart](manage-work/gantt-chart/using-the-legacy-gantt-chart/create-tasks-in-legacy-gantt.md)
       * [Navigate the Legacy Gantt Chart](manage-work/gantt-chart/using-the-legacy-gantt-chart/navigate-legacy-gantt.md)
       * [Print from the Legacy Gantt Chart](manage-work/gantt-chart/using-the-legacy-gantt-chart/print-from-legacy-gantt.md)
-    * [Tips, tricks, and troubleshooting for the Gantt Chart](manage-work/gantt-chart/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-gantt.md)
-      * [Legacy Gantt chart does not display Custom Field data](manage-work/gantt-chart/tips-tricks-and-troubleshooting/legacy-gantt-does-not-display-custom-info.md)
+      
   * [Portfolio Management](manage-work/portfolios/portfolio-management-overview.md)
     * [Portfolio overview in Adobe Workfront](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
       * [Navigate within a portfolio](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)

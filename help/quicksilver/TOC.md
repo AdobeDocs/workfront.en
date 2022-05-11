@@ -1197,9 +1197,7 @@ user-guide-description: Workfront
       * [Share a link to a request queue](manage-work/requests/create-requests/share-link-to-request-queue.md)
       * [Delete a request draft](manage-work/requests/create-requests/delete-request-draft.md)
       * [Copy and submit requests](manage-work/requests/create-requests/copy-and-submit-requests.md)
-  * [Delegate work](manage-work/delegate-work/delegate-work.md)
-    * [Delegate work overview](manage-work/delegate-work/delegate-work-overview.md)
-    * [Delegate tasks and issues](manage-work/delegate-work/how-to-delegate-work.md)
+
 * [People, teams, and groups](people-teams-and-groups/people-teams-and-groups.md)
   * [Create and manage teams](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
     * [Teams overview](people-teams-and-groups/create-and-manage-teams/teams-overview.md)
