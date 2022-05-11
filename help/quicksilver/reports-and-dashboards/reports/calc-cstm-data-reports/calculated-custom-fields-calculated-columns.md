@@ -30,7 +30,7 @@ For example:
 * To add a calculated data expression to a custom field on a task form for the Project Name, you use the following text:
 
   ```
-  Project.Name
+  {project}.{name}
   ```
 
 * To add a calculated data expression to a custom column on a task report for the Project Name, you use the following text:
