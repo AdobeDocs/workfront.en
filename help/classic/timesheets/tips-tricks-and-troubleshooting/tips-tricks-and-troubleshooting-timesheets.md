@@ -1,6 +1,6 @@
 
 
-# Tips, Tricks, and Troubleshooting
+# Tips, tricks, and troubleshooting for timesheets
 
 >[!IMPORTANT]
 >

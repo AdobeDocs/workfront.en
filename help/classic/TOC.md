@@ -1417,13 +1417,17 @@ user-guide: null
     * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
     * [View the Resource capacity visualization in Enhanced analytics](enhanced-analytics/resource-capacity-overview.md)
     * [View the Team capacity visualization in Enhanced analytics](enhanced-analytics/team-capacity-overview.md)
-* [Manage resources](resource-mgmt/manage-resources.md)
-  * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+* Manage resources {#manage-resources}
+  * [Manage resources](resource-mgmt/manage-resources.md)
+  * Resource Management {#resource-management}
+    * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
     * [Deprecation of Resource Scheduling tools in Adobe Workfront](resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
     * [Migrate from Resource Scheduling to the Workload Balancer](resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
-  * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
-    * [Resource Pools](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
+  * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
+    * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
+    * Resource Pools {#resource-pools} 
+      * [Resource Pools](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
       * [Resource pools overview](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
       * [Create resource pools](resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
       * [Associate resource pools with projects and templates](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
@@ -1447,7 +1451,8 @@ user-guide: null
     * [Export information from the Resource Planner](resource-mgmt/resource-planning/export-resource-planner.md)
     * [Report on Resource Planner Budgeted Hours](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
     * [Resource Planner display limitations](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-  * [Resource Scheduling](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
+  * Resource Scheduling {#resource-scheduling}
+    * [Resource Scheduling](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
     * [Get started with Resource Scheduling](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
     * [Overview of the Scheduling areas](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
     * [Configure settings in the Scheduling areas](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
@@ -1458,9 +1463,11 @@ user-guide: null
     * [Manage user allocations in the Scheduling areas](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
     * [Manually assign unassigned tasks and issues in the Scheduling areas](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
     * [Modify multiple users assignments to tasks in the Scheduling areas](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
-  * [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
+  * Resource Utilization {#resource-utilization}
+    * [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
-  * [The Workload Balancer](resource-mgmt/workload-balancer/workload-balancer.md)
+  * The Workload Balancer {#workload-balancer}
+    * [The Workload Balancer](resource-mgmt/workload-balancer/workload-balancer.md)
     * [Overview of the Workload Balancer](resource-mgmt/workload-balancer/overview-workload-balancer.md)
     * [Access needed to manage resources in the Workload Balancer](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
     * [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)
@@ -1471,7 +1478,7 @@ user-guide: null
     * [Manage user allocations in the Workload Balancer](resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
     * [Navigate the Workload Balancer](resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
     * [Share the Workload Balancer with a link](resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
- * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
+* [Review and approve work](review-and-approve-work/review-and-approve-work.md)
   * [Manage approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
     * [Request document approvals](review-and-approve-work/manage-approvals/request-document-approvals.md)
@@ -1580,11 +1587,14 @@ user-guide: null
       * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
       * [List users with a proofing license in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
-* [Timesheets](timesheets/timesheets-all.md)
-  * [Timesheet details in Adobe Workfront](timesheets/timesheets/timesheets.md)
+* Timesheets {#timesheets}
+  * [Timesheets](timesheets/timesheets-all.md)
+  * Timesheet details in Adobe Workfront {#timesheet-details-in-adobe-workfront}
+    * [Timesheet details in Adobe Workfront](timesheets/timesheets/timesheets.md)
     * [Timesheets overview](timesheets/timesheets/timesheets-overview.md)
     * [Understand the Timesheet layout](timesheets/timesheets/timesheet-layout.md)
-  * [Create and manage timesheets in Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+  * Create and manage timesheets in Adobe Workfront {#create-and-manage-timesheets-in-adobe-workfront}
+    * [Create and manage timesheets in Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
     * [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
     * [Define hour types and availability for timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
     * [Create a single-use timesheet](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1598,9 +1608,11 @@ user-guide: null
     * [Delete timesheets in Adobe Workfront](timesheets/create-and-manage-timesheets/delete-timesheets.md)
     * [Manually generate timesheets](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
     * [Export a list of timesheets](timesheets/create-and-manage-timesheets/export-timesheets.md)
-  * [Configure timesheet preferences](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+  * Configure timesheet preferences {#configure-timsheet-preferences}
+    * [Configure timesheet preferences](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
     * [Configure whether time is logged in hours or days](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
-  * [Tips, Tricks, and Troubleshooting](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+  * Tips, tricks, and troubleshooting for timesheets {tips-tricks-troubleshooting-for-timesheets}
+    * [Tips, tricks, and troubleshooting](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
     * [Correct the start day of the work week for Timesheets](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
     * [Prevent the Recalculate Finances action from affecting historic hours when rates change](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
     * [Track Hour Records with the Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
