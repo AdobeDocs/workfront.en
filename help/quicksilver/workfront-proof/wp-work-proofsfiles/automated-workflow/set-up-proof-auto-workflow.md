@@ -38,8 +38,6 @@ You can add an automated workflow to a proof when uploading the document, or aft
    >
    >Your ability to modify the template depends on the template settings configured by the Workfront administrator. If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.
 
-   If you are a Workfront administrator and you want to create a new Automated Workflow template, you can do so as described in 
-
 1. Specify the following information to configure&nbsp;the first stage of the Automated Workflow:
 
    * **Name:** The stage name appears on the Workflow diagram and is included in the email notifications sent to reviewers.

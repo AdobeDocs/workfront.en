@@ -16,7 +16,6 @@ description: This section contains the following subsections - EDIT ME.
 
 This section contains the following subsections:
 
-* [Review and submit a decision in Workfront Proof - Reviewer's Guide](../../workfront-proof/wp-getstarted/reviewer's-guide/review-and-submit-a-decision.md) 
 * [Workflow examples](../../workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md) 
 * [Personal settings in Workfront Proof](../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md) 
 * [System information in Workfront Proof](../../workfront-proof/wp-getstarted/system-information/system-information.md) 

@@ -1732,7 +1732,6 @@ user-guide-description: Workfront
       * [Edit the Proof Permission Profile field in Bulk](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
       * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
-      * [List users with a proofing license in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
 * Timesheets {#timesheets}
   * [Timesheets](timesheets/timesheets-all.md)
   * [Timesheet details in Adobe Workfront](timesheets/timesheets/timesheets.md)
@@ -2219,7 +2218,6 @@ user-guide-description: Workfront
       * [Preview Sandbox Testing Environment- Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
       * [Language Settings in Workfront Proof](workfront-proof/wp-getstarted/system-information/language-settings.md)
       * [Codecs in Workfront Proof](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * [System information in Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
     * Workfront Proof FAQ {#wf-proof-faq}
       * [Workfront Proof - frequently asked questions](workfront-proof/wp-getstarted/faqs/faqs.md)
       * [FAQ - Create and share proofs and files](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
