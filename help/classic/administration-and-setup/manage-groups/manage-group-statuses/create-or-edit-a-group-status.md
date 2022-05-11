@@ -158,13 +158,6 @@ If you are a Workfront administrator, you can create a custom status for multipl
 If you are a group administrator (or a Workfront administrator), you can create a custom status for multiple subgroups within a group hierarchy you manage by creating a status for a higher level group, then hiding that status from any lower subgroups that don’t need it.
 
 1. If you are a Workfront administrator, create a system-wide unlocked status as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-
-<!--WRITER - no link available
-   Or
-
-   If you are a group administrator (or Workfront administrator), create an unlocked group status as described in [Create or edit a group status](#).
--->
-
 1. In the box in the upper-right corner, delete **System Statuses**, begin typing the name of a group where you want to hide the status, then click the name when it appears.
 1. Hover over the status you want to hide from the group, then click **Edit** when it appears.
 

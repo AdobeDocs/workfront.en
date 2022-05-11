@@ -243,7 +243,7 @@ The following categories of job roles are listed in the Resource Planner:
 
 >[!NOTE]
 >
->Job roles assigned to issues are also listed when the **Include hours from Issue** setting is enabled. For more information about enabling issue hours in the Resource Planner, see the [Settings](#settings) section in the [Resource Planner navigation overview](#) article.
+>Job roles assigned to issues are also listed when the **Include hours from Issue** setting is enabled. For more information about enabling issue hours in the Resource Planner, see the [Settings](#settings) section.
 
 ## User Name
 

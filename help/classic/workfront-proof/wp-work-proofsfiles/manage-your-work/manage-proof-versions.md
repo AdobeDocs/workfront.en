@@ -25,7 +25,7 @@ Permissions are specific to a version, so you can give a person permission to se
 
 To create a new version of a proof you must have edit rights on the proof.
 
-Please see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) and [Managing Proof Versions in Workfront Proof](#) to get more information on who has edit rights on a proof. See&nbsp; to find out more about creating versions.
+Please see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) to get more information on who has edit rights on a proof. See&nbsp; to find out more about creating versions.
 
 ## Viewing Proof Versions in the proofing viewer
 

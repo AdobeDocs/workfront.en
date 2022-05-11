@@ -430,7 +430,7 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
 ## Import the spreadsheet data into Workfront
 
-After you populate the Excel template with your data (as described in [Import data into Adobe Workfront using a Kick-Start template](#)), you can upload it's data into Workfront.
+After you populate the Excel template with your data, you can upload its data into Workfront.
 
 The Kick-Start import supports the following file types:
 

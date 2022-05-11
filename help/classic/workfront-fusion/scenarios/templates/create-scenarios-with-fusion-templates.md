@@ -59,8 +59,6 @@ You must have the following access to use the functionality in this article:
 
 You must create a template before you can use it.
 
-For instructions, see [Create scenarios with Adobe Workfront Fusion templates](#).
-
 ## Create a scenario from a template
 
 1. Click the **Templates** icon ![](assets/fusion-template-icon.png) in the left navigation panel.
