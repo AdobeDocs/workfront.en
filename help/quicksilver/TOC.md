@@ -1785,7 +1785,6 @@ user-guide-description: Workfront
     * [Customize Adobe Workfront Goals terminology](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
     * [Share a goal in Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-    * [Frequently asked questions about Workfront Goals](workfront-goals/tips-tricks-and-troubleshooting-workfront-align/frequently-asked-questions-about-goals.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
   * Get started with Adobe Workfront Fusion {#get-started-with-workfront-fusion}
