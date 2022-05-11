@@ -238,9 +238,9 @@ Before you can access your favorites and recent items from Slack, you must
    >The user who is sharing the link must have at least View permissions to the report in order for you to see additional information about it.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">
    <img src="assets/slack-report-details.png" alt="slack_report_details.png" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   --> <br> </p>
+   <br> </p>
    -->
 
 1. (Optional) Click the name of the report to open it in Workfront in a new browser tab.&nbsp;

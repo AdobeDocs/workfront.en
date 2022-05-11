@@ -163,13 +163,13 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">These are the Budgeted Hours allocated to the Job Role or the Project in the Resource Planner. </td>
 -->
-</tr>
-<tr> 
+
 <!--
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> </td>
---> <!--
+
+<!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> </td>
--->
 </tr>
 </tbody>
 </table>
+-->

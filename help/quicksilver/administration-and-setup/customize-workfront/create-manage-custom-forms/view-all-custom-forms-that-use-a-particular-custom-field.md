@@ -48,15 +48,14 @@ You must have the following to perform the steps in this article:
 <!-- WRITER -->
 
    <!--
-   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Open the custom form containing the field<!--
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Open the custom form containing the field
    <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    , image widget, or
    <span class="preview">video </span>widget
    </MadCap:conditionalText>
    that you want to change or delete, then select the custom field
    <span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> or widget</span>
-   --> on the right side of the screen. 
-   <!--
+   on the right side of the screen. 
    <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">These 2 steps are drafted because it's a less straightforward way to do this. Check with Lilit before deleting this to make sure that the Field List view is always available. Can't remember why I documented this way in the first place.</span>
    -->
    <!--

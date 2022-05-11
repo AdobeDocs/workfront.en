@@ -101,9 +101,7 @@ When you create a custom status for the entire organization, you can configure i
      </tr> 
      <tr> 
       <td role="rowheader">Hide Status</td> 
-      <td> <p>(Project and Task statuses only)</p> <p>Enable this option if you want the status hidden from users. When it is disabled (the default setting), all <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">
-         users in the system
-        </MadCap:conditionalText> can use the status.</p> <p>Tip: You can hide an Issue status by disabling all 4 issue types (Bug Report, Change Order, Issue, Request).</p> </td> 
+      <td> <p>(Project and Task statuses only)</p> <p>Enable this option if you want the status hidden from users. When it is disabled (the default setting), all <!--<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">-->users in the system <!--</MadCap:conditionalText>--> can use the status.</p> <p>Tip: You can hide an Issue status by disabling all 4 issue types (Bug Report, Change Order, Issue, Request).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lock for all groups</td> 

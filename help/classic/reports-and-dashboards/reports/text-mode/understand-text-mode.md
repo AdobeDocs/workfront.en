@@ -128,8 +128,6 @@ We recommend that you build as much of the view as possible in standard mode, th
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
 -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
    -->
@@ -150,19 +148,13 @@ We recommend that you build as much of the view as possible in standard mode, th
    <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">On the <strong>Columns (View)</strong> tab of the report builder, select a column in the report.</li>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</p>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save + Close</strong> to save your report.</p>
    -->
-
-1. 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Switch to Text Mode</strong> in the upper-right corner of the report builder.</p>
@@ -188,24 +180,24 @@ We recommend that you build as much of the view as possible in standard mode, th
    <col>
    <col>
    <thead>
-   <tr> <!--
+   <tr>
    <th data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Sample Line</strong> </th>
-   --> <!--
    <th data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Description</strong> </th>
-   -->
    </tr>
    </thead>
    <tbody>
    <tr>
-   <td> <!--
+   <td> 
+   -->
+   
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>valuefield</strong>=</p>
-   --> </td>
-   <td> <!--
+   -->
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p>
-   --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following scenarios exist:</p>
    -->
-   <ol> <!--
+   <!--
    <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: <code>valuefield=plannedStartDate</code></li>
    -->
    <li value="2"> <!--
@@ -221,55 +213,54 @@ We recommend that you build as much of the view as possible in standard mode, th
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>valuefield=project:portfolio:owner:name</code> </p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This indicates that from the object of the report (task), you can access the next related object (project), from there, you can access the following related object from project (portfolio), then the portfolio owner (owner) and then their name (name). </p>
-   --> </li>
-   </ol> <!--
+   -->
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about how objects connect to one another, see the section <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependency and hierarchy of objects</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p>
-   --> <!--
+   --> 
+   <!--
    <note type="note">
    If you choose a field in text mode that is not valid in the standard interface, you are not able to switch back to the standard interface within the column.
    </note>
-   --> </td>
-   </tr>
-   <tr> <!--
+   --> 
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>valueformat=</strong> </td>
    -->
-   <td> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This line represents the format used to display the <code>valuefield</code>. The <code>valueformat</code> identifies whether an object or field displays as text, number, percentage, or date.</p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">We recommend using <code>HTML</code> for your <code>valueformat</code>, especially when using <code>valueexpression</code>, to ensure the most accurate display of your information. </p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about additional values for this line, see <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>.</p>
-   --> </td>
-   </tr>
-   <tr>
-   <td> <!--
+   -->
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>valueexpression=</strong> </p>
-   --> </td>
-   <td> <!--
+   --> 
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can add this line to replace <code>valuefield</code>, if you want to display a calculated field in the column.</p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must enclose the <code>valuefield</code> of the objects in curly brackets every time you use it in a <code>valueexpression</code>.</p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following scenarios exist: </p>
    -->
-   <ol>
-   <li value="1"> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to display a field in a column in upper case, you would use:</p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>valueexpression=UPPER({valuefield})</code> </p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The <code>valuefield</code> of the object is spelled as it appears in the API Explorer. </p>
-   --> </li> <!--
+   --> 
+   <!--
    <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to add multiple <code>valuefields</code> by stringing them together, you must separate them by a period.</li>
    -->
-   <li value="3"> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, if you want to display the name of the Primary Assignee of a task using <code>valueexpression</code>, you would use:</p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>valueexpreesion={assignedTo}.{name}</code> </p>
-   --> </li>
-   <li value="4"> <!--
+   --> 
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to use a custom field in a <code>valueexpression</code> line you must precede the name of the field by <code>DE:</code> to indicate that it is a custom field. The name of the field is spelled as it appears in the interface. </p>
-   --> <!--
+   --> 
+   <!--
    <note type="important">
    <span>When you use a custom field that is placed in a custom form section that has restricted permissions for some users, the calculation of the valueexpression is blank when those users view this calculation in a report. For information about adjusting permissions on custom form sections, see</span>
    <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>.
@@ -282,20 +273,17 @@ We recommend that you build as much of the view as possible in standard mode, th
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">When referencing a Typeahead type custom field, use the following expression to reference the name of the object selected in a field labeled "Developer Name":</p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p>
-   --> </li>
-   </ol> </td>
-   </tr>
-   <tr>
-   <td> <!--
+   --> 
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>descriptionkey= / description=</strong> </p>
-   --> </td> <!--
+   --> 
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">This line defines the text of a tool tip as you mouse over the name of the column. In this case it is using a key to translate the name value in the description text. If you want to modify the description, change this line to read: <code>description=Your Value</code>.</td>
    -->
-   </tr>
-   <tr> <!--
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>namekey= / name=</strong> </td>
    -->
-   <td> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This line defines the column label. In this case it is using the abbreviated value based on the key.</p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to modify the column name you can change this value to: <code>name=Your Value</code></p>
@@ -303,67 +291,62 @@ We recommend that you build as much of the view as possible in standard mode, th
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>Name</code> allows you to enter any text for the column name, while<code>namekey</code> requires you enter a key that is used to translate the name of a column.</p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To change the column name you can also add the <code>displayname </code>line, if one is not present.</p>
-   --> </td>
-   </tr>
-   <tr> <!--
+   --> 
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>displayname =</strong> </td>
    -->
-   <td> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can add the following line to change the name of a column, which suspends the <code>namekey/name</code> value:</p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>displayname=Your Value</code> </p>
-   --> </td>
-   </tr>
-   <tr> <!--
+   --> 
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>querysort=</strong> </td>
-   --> <!--
+   --> 
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">This line defines how the results are sorted when the column header is clicked. If it is not present then the column cannot be sorted after the report is run.</td>
    -->
-   </tr>
-   <tr> <!--
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>width=</strong> </td>
    -->
-   <td> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This line represents the number of pixels that are used for the column. If the line is omitted or set to 0 (zero) then the column does not appear in the view.</p>
-   --> <!--
+   --> 
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">When you modify this field manually in text mode, you must also add the <code>usewidths=true</code> value to your column.</p>
-   --> </td>
-   </tr>
-   <tr> <!--
+   --> 
+    <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>usewidths=true</strong> </td>
    -->
-   <td> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must use this line in addition to the <code>width=</code> line when customizing the width of a column. </p>
-   --> </td>
-   </tr>
-   <tr> <!--
+   --> 
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>makeFieldEditable=</strong> </td>
    -->
-   <td> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This line defines whether the value displayed in a column is inline editable or not. If this line equals <strong>true,</strong> the value in the column is inline editable. If this line equals <code>false</code>, the value in the column is not inline editable.</p>
-   --> </td>
-   </tr>
-   <tr> <!--
+   --> 
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>link.valuefield=</strong> </td>
    -->
-   <td> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Insert this line only when you want the value displayed in a column to link to the object associated with it. The link opens the details page of the object. This value should match the <code>valuefield=</code> line. When you insert this, you must also add the <code>link.valueformat=</code> line. </p>
    --> <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> For example, you can insert link.valuefield=priority in an issue view, and the Priority of the issue displays as a link. Clicking this link opens the Issue page.</p>
-   --> </td>
-   </tr>
-   <tr> <!--
+   --> 
+   <!--
    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>link.valueformat=</strong> </td>
    -->
-   <td> <!--
+   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Insert this line only when you have inserted the <code>link.valuefield</code> line to add a link to the value in a column. The link opens the details page of the object. This value should match the <code>valueformat=</code> line and indicates the format used to display the <code>valuefield</code>. </p>
-   --> <!--
+   --> 
+   <!--
    <note type="important">
    When viewing the text mode in a built-in column that also includes a link, you notice a number of lines referring to the link. Some of those lines might no longer be supported or are unnecessary when you create your own custom column in text mode and add the link statements to it. The lines that are mandatory when adding a linked value are
    <code> link.valuefield</code> and
    <code>link.valueformat</code>.
-   </note>
-   --> </td>
+   </note></td>
    </tr>
    </tbody>
    </table>
@@ -395,8 +378,6 @@ We recommend that you build as much of the filter of the report as possible in s
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a filter:</p>
 -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
    -->
@@ -427,8 +408,6 @@ We recommend that you build as much of the filter of the report as possible in s
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Use the filter modifiers to define the condition of your filter. For more information about filter modifiers, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</p>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Switch to Text Mode</strong> in the upper-right corner of the report builder.</p>
    -->
@@ -445,25 +424,17 @@ We recommend that you build as much of the filter of the report as possible in s
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, if you want to filter for users who are in the same Home Group but not in the same Home Team as the logged in user, your filter should look like the following, in text mode:</li>
    -->
 
-1. 
-
    <!--
    <pre data-mc-conditions="QuicksilverOrClassic.Draft mode">homeGroupID=$$USER.homeGroupID</pre>
    -->
-
-1. 
 
    <!--
    <pre data-mc-conditions="QuicksilverOrClassic.Draft mode">homeGroupID_Mod=in</pre>
    -->
 
-1. 
-
    <!--
    <pre data-mc-conditions="QuicksilverOrClassic.Draft mode">homeTeamID=$$USER.homeTeamID</pre>
    -->
-
-1. 
 
    <!--
    <pre data-mc-conditions="QuicksilverOrClassic.Draft mode">homeTeamID_Mod=notin</pre>
@@ -495,8 +466,6 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a grouping:</p>
 -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
    -->
@@ -517,8 +486,6 @@ We recommend that you build as much of the grouping as possible in standard mode
    <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">On the <strong>Groupings</strong> tab of the report builder, choose either <strong>Apply Existing Grouping</strong>, or <strong>Add Grouping.</strong></li>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Start typing the name of a field that you want to group by.</p>
    -->
@@ -526,8 +493,6 @@ We recommend that you build as much of the grouping as possible in standard mode
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the name of the field when you see it in the list.</p>
    -->
-
-1. 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Click <strong>Switch to Text Mode</strong> in the upper-right corner of the report builder.</p>
@@ -612,21 +577,21 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p>
    -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
-     -->
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
+   -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
-     -->
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
+   -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
-     -->
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
+   -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
-     -->
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
+   -->
 
    <!--
    <note type="note">

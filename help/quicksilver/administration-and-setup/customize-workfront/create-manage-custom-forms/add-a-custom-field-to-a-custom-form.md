@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Add a custom field to a custom form {#add-a-custom-field-to-a-custom-form}
+## Add a custom field to a custom form
 
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Open the **Add a field** tab.
@@ -254,12 +254,8 @@ You must have the following to perform the steps in this article:
    >
    >Consider the following when you want to change a field's display type from a checkbox field or a multi-select dropdown field (a dropdown allowing more than one option to be selected) to a single-select field type:
    >
-   >   
-   >   
-   >   * If you change to Radio Buttons, Workfront retains any multi-select values that a user may have entered in the field until the user changes and saves data in any part of the form. At this point, any values that were selected using the multi-select-type field are replaced by the selected Radio Button value.
-   >   * If you change to a single-select Dropdown, Workfront retains any multi-select values that a user may have entered in the field until the user changes and saves the values in the field. At this point, any values that were selected using the multi-select-type field are replaced by the selected Dropdown value.
-   >   
-   >
+   >* If you change to Radio Buttons, Workfront retains any multi-select values that a user may have entered in the field until the user changes and saves data in any part of the form. At this point, any values that were selected using the multi-select-type field are replaced by the selected Radio Button value.
+   >* If you change to a single-select Dropdown, Workfront retains any multi-select values that a user may have entered in the field until the user changes and saves the values in the field. At this point, any values that were selected using the multi-select-type field are replaced by the selected Dropdown value.
 
 1. (Optional) Repeat steps 2-6 to add other custom fields.
 
@@ -269,8 +265,7 @@ You must have the following to perform the steps in this article:
 
    >[!NOTE]
    >
-   >You can add up to 500 fields and widgets on a single custom form. However, performance degradation can occur when more than 100 exist on a form, depending on its complexity. 
-   >
+   >You can add up to 500 fields and widgets on a single custom form. However, performance degradation can occur when more than 100 exist on a form, depending on its complexity.
    >
    >Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
 

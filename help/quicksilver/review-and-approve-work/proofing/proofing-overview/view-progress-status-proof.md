@@ -140,16 +140,15 @@ If custom decisions are configured in your account, the status options reflect y
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
    <img src="assets/click-proofing-workflow-qs-350x149.png" style="width: 350;height: 149;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   --> <!--
+   --> 
+   <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    These screenshots will need to change with new terminology ("Review Workflow" for this one?)
    </MadCap:conditionalText>
-   --> <br> </p>
+   <br> </p>
    -->
-
-1. 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the Workflow information that appears, scroll down to see the proof's progress for each stage:</p>

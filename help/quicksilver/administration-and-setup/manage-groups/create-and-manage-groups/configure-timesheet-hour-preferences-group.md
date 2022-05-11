@@ -94,10 +94,7 @@ Consider the following information about configuring an unlocked timesheet or ho
      </tr> 
      <tr> 
       <td role="rowheader">Add expenses from a timesheet</td> 
-      <td> <p>Enables users to record both time and expenses in the timesheet.</p> 
-       <div data-mc-conditions="SnippetConditions-wf-groups.groups"> 
-        <p>When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task.</p> 
-       </div> </td> 
+      <td> <p>Enables users to record both time and expenses in the timesheet.</p> <!--<div data-mc-conditions="SnippetConditions-wf-groups.groups">--><p>When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task.</p><!--</div>--></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assign Job Roles to hour entries manually</td> 
@@ -109,9 +106,7 @@ Consider the following information about configuring an unlocked timesheet or ho
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
-      <td> <p>Restrict editing to timesheet owners<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-         , the group's administrators,
-        </MadCap:conditionalText> and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
+      <td> <p>Restrict editing to timesheet owners<!--<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">-->, regardless of project’s group<!--</MadCap:conditionalText>--> and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
        <ul> 
         <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
         <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 

@@ -61,11 +61,11 @@ You must have the following access to perform the steps in this article:
 1. Go to the list in Workfront that you want to modify.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    By default, groupings are collapsed.
    </MadCap:conditionalText>
-   --> <br> </p>
+   <br> </p>
    -->
 
 1. (Optional and conditional) If the groupings in the list are collapsed and you want to view more information, click the desired grouping to expand the list and display the information listed in it.

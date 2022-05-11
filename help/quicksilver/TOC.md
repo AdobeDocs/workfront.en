@@ -2500,7 +2500,7 @@ user-guide-description: Workfront
     * [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
     * [Add advanced proofing options when creating a proof through the Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
 * ProofHQ API {#proofhqpapi}
-* [ProofHQ API](proofhq-api/proofhq-api.md)
+  * [ProofHQ API](proofhq-api/proofhq-api.md)
   * General {#general}
     * [General](proofhq-api/general/general.md)
     * [Overview](proofhq-api/general/overview.md)

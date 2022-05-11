@@ -56,7 +56,7 @@ To grant financial permissions to an object:
 1. Go to a task, project, or issue that you want to share with others.
 1. Near the name of the object, click the More menu ![](assets/more-icon.png), then click **Sharing**. 
 
-1. In the **Give <Object name> access to** field start typing the name of a user, team, role, group or a company that you want to share the object with.
+1. In the **Give `<Object name>` access to** field start typing the name of a user, team, role, group or a company that you want to share the object with.
 
    >[!TIP]
    >

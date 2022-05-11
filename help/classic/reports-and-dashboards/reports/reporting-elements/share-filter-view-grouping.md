@@ -216,8 +216,6 @@ View the following video to learn how to share filters, views, and groupings in 
    <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu again, then click <strong>Share Filter</strong>, <strong>Share View</strong>, or <strong>Share Grouping</strong>.<br>The Filter Access, View Access, or Grouping Access dialog box is displayed.<br><img src="assets/share-filterviewgrouping-350x382.png" alt="" style="width: 350;height: 382;"></li>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Complete either of the following, depending on who you want to share with:</p>
    -->
@@ -230,8 +228,6 @@ View the following video to learn how to share filters, views, and groupings in 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>To share with all users in the system:</strong> Click the <strong>Settings</strong> icon, then click <strong>Make this visible system-wide</strong>.<br>Your administrator must select the Share System-wide option for this option to be available. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars </a>.</p>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.<br><img src="assets/share-filterviewgrouping-dropdown-350x380.png" alt="" style="width: 350;height: 380;"></p>
    -->
@@ -240,19 +236,17 @@ View the following video to learn how to share filters, views, and groupings in 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can select from the following options:</p>
    -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</li>   
-     -->
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</li>   
+   -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</li>   
-     -->
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</li>   
+   -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li>   
-     -->
-
-1. 
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li>   
+   -->
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save</strong></p>

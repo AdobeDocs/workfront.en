@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Add a custom field to a custom form {#add-a-custom-field-to-a-custom-form}
+## Add a custom field to a custom form
 
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. Open the **Add a field** tab.

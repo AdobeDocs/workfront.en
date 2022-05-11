@@ -49,13 +49,13 @@ You must have the following to perform the steps in this article:
 1. Click the **Fields** tab.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or<!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or
    <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [future]</span>
    </p>
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you are editing the properties for an image or video<!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you are editing the properties for an image or video
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
    </MadCap:conditionalText>
