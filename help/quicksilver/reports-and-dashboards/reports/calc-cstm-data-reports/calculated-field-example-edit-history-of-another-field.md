@@ -69,46 +69,34 @@ To add a calculated field that displays a field's edit history to a custom form,
 
 1. Go to a custom form where you want to add the calculated field.
 
-   >[!IMPORTANT]
-   >
-   >You must add the field whose history you want to capture on the form first and save the form at least once before you can add the calculated field.
-
 1. To create the single-line text custom field, for example, do the following:
 
    1. Click&nbsp;**Single Line Text Field**.
-   1. Specify a **Label** for the custom field, for example: *Instructions*.
-   1. (Optional) Click the **Name** field to update it. The Name of the field matches the Label you just entered by default. 
-   1. For this example, select&nbsp;**Text** in the **Format** field to format the custom field as text. This is the default. 
-   1. Click&nbsp;**Done**, then **Save + Close**.
+   1. Specify a **Label** for the custom field, such as *Instructions*.
+   1. Click&nbsp;**Applye**.
 
-1. Click the name of the form you added the *Instructions* field to. 
-1. Click **Calculated** to add a calculated custom field to the form.  
+1. Select **Calculated** to add a calculated custom field to the form.
+1. Specify a **Label** for the calculated custom field, such as *Instructions Edit History*.
 
-1. Specify a **Label** for the calculated custom field, for example: *Instructions Edit History*. This is the field that will capture any changes made to the *Instructions* text field you created in Step 2. 
+   This is the field that will capture any changes made to the first field you created (*Instructions*).
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: make sure the step stays accurate)
-   </MadCap:conditionalText>
-   -->
-
-1. (Optional) Click the **Name** field to update it. The Name of the field matches the Label you just entered by default. 
+1. Click **Save + Close**.
+1. Click the name of the form where you have now added two fields to re-open it.
+1. Click the calculated custom field *Instructions Edit History,* then copy and paste the following in the Calculation box:
 1. In the **Calculation** field, specify the following calculation for your custom field:
 
    ```
-   LEFT(IF(LEFT(Instructions Edit History,LEN(IF(ISBLANK(Instructions),"-",Instructions)))=Instructions ,Instructions Edit History,CONCAT(IF(ISBLANK(Instructions),"-",Instructions)," (",$$NOW,") | ",Instructions Edit History)),2000)
+   LEFT(IF(LEFT({DE:Instructions Edit History},LEN(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})))={DE:Instructions},{DE:Instructions Edit History},CONCAT(IF(ISBLANK({DE:Instructions}),"-",{DE:Instructions})," (",$$NOW,") | ",{DE:Instructions Edit History})),2000)
    ```
 
-   >[!TIP]
-   >
-   >In the above code, replace *Instructions* with the exact name of your single-line text field whose history you are tracking and *Instructions Edit History* with the exact name of your calculated field.
+1. (Recommended) Paste the same calculation in the **Instructions** field on the calculated field on the form. 
+1. Make sure that &nbsp;**Text** is selected in the **Format** field to format the calculated custom field as text.
+   
+   This is the default. 
 
-1. (Recommended) Type the same code in the **Instructions** field on the calculated field on the form. 
-1. Always select&nbsp;**Text** in the **Format** field to format the calculated custom field as text. This is the default. 
-1. Click&nbsp;**Done**, then **Save+Close**.
+1. Click **Save+Close**.
 
-1. (Optional)&nbsp;Attach the custom form to an object.
+   Now, when you attach the custom form to an object and then someone changes the information in the *Instructions* field, the *Instructions Edit History" field displays the latest value, followed by the current date in parentheses, and a vertical bar. If further changes are made, they are added to this information in the same way.
 
-   When someone changes the information in the Instructions field
+   In the above calculation, you can replace *Instructions* with the exact name of your single-line text field whose history you want to track, and *Instructions Edit History* with the exact name of your calculated field.
 
-&nbsp;
