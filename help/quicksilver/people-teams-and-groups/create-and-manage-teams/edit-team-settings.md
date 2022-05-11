@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **More** menu ![](assets/more-icon.png), then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.  
-   If you should have the Edit option but you do not see it, ask your Workfront administratorto verify that Team Settings is visible in the layout template for Scrum Team, Kanban Team, or Waterfall Team.
+   If you should have the Edit option but you do not see it, ask your Workfront administrator to verify that Team Settings is visible in the layout template for Scrum Team, Kanban Team, or Waterfall Team.
 
    ![](assets/edit-team-settings-adobe-350x154.png)
 

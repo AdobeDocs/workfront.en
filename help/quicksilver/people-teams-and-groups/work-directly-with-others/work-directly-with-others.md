@@ -11,5 +11,5 @@ description: This section contains the following articles - EDIT ME.
 
 This section contains the following articles:
 
+* [Send direct messages to other users](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
 * [View the organizational chart](../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
-

@@ -104,6 +104,10 @@ Before you add a user, gather the information about the user listed below and de
 
    * Leave **Send an invite email to this person** enabled. If you do this, the user receives an email where they can follow a link to create their own password for Workfront. Users who do not accept the email invitation and create a Workfront password are listed as Unregistered in Workfront.
    * Disable **Send an invite email to this person**, then type a **Password** for the person and confirm it in the **Confirm Password** box. You will need to share this password with the user outside of Workfront.
+ 
+>[!NOTE]
+>
+>**Note:** If your Workfront administrator enabled an SSO integration with Workfront, then the **Only Allow &lt;SSO Configuration&gt; Authentication** field is hidden if you disable the email invitation. The **Federation ID** or **&lt;SSO Configuration&gt; Username** field remains visible.
 
 1. Click **Add This User**.
 
