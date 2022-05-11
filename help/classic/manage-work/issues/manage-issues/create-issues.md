@@ -126,28 +126,17 @@ To create issues inline:
 1. Click the **Issues** tab. 
 1. Click **Add More Issues**.
 
-   A new line is created in the list of issues on the Issues tab . 
+   A new line is created in the list of issues on the Issues tab. 
 
 1. Start typing the name of the issue in the Name field, then continue adding more information about the issue inline.
 
    >[!TIP]
    >
-   >
+   >The fields that are available to edit inline are made available by the view you apply to your issue list. You might not be able to inline edit the following type of fields: 
    >   
-   >   
-   >   * The fields that are available to edit inline are made available by the view you apply to your issue list. 
-   >   * You might not be able to inline edit the following type of fields: 
-   >   
-   >      
-   >      
-   >      * Fields that belong to another object
-   >      * Fields that you don't have access to edit 
-   >      * Fields that are calculations and which are automatically updated by Workfront
-   >      
-   >      
-   >   
-   >   
-   >
+   >* Fields that belong to another object
+   >* Fields that you don't have access to edit 
+   >* Fields that are calculations and which are automatically updated by Workfront
 
 1. Click Enter to finish inline editing, and add the issue to the project or task.
 

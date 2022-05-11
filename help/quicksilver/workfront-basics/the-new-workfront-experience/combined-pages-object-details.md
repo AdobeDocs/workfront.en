@@ -133,11 +133,6 @@ Accessing the Details page for an object is similar to all objects where this fu
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * You can click the Edit icon again if you made no changes and want to close the edit-mode Details page. &nbsp;
-   >   * ```When the Details page is editable, you cannot edit information in the header of the object at the same time. You can only subscribe to the object or add it to your list of favorites before you save your changes.``` 
-   >   
-   >
+   >* You can click the Edit icon again if you made no changes and want to close the edit-mode Details page. &nbsp;
+   >* When the Details page is editable, you cannot edit information in the header of the object at the same time. You can only subscribe to the object or add it to your list of favorites before you save your changes.
 

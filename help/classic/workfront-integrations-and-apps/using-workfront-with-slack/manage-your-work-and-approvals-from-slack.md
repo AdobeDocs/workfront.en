@@ -40,7 +40,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.\
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -56,32 +56,12 @@ Before you can manage your work and approvals from Slack, you must
 
 1. From any channel, start typing the following command in the message field:&nbsp;
 
-   ```
-   /workfront home
-   ```
+   `/workfront home`
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * Commands are case sensitive. 
-   >   * You can start your command with /   >   
-   >   
-   >     ```   >   
-   >     wf
-   >     ```   >   
-   >   
-   >     instead of    >   
-   >   
-   >     ```   >   
-   >     /workfront
-   >     ```   >   
-   >   
-   >     .
-   >   
-   >   
-   >
+   >* Commands are case sensitive. 
+   >* You can start your command with `/wf` instead of `/workfront`.
 
    The buttons from which you can access lists of your tasks, issues, and approvals display. Clicking one of the buttons displays the first 20 items of each list in Slack.  
    ![](assets/slack-home-buttons-350x80.png)&nbsp;
@@ -102,40 +82,27 @@ Before you can manage your work and approvals from Slack, you must
 1. Log in to your Slack instance and log in to Workfront from Slack.  
    For information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. From any channel, start typing either of the following commands in the message field:&nbsp;  
-   *
+1. From any channel, start typing either of the following commands in the message field:
 
-   ```
-   /workfront home
-   ```
-
-   ,&nbsp;*then click **Tasks**
+   `/workfront home`, then click **Tasks**
 
    Or
 
-   ```
-   /workfront tasks
-   ```
+   `/workfront tasks`
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * Commands are case sensitive.
-   >   * You can start your command with '/wf' instead of '/workfront.'
-   >   
-   >
+   >* Commands are case sensitive. 
+   >* You can start your command with `/wf` instead of `/workfront`.
 
    The first 20 tasks on your list display.  
    ![](assets/slack-two-tasks-350x286.png)
 
-1. Click **+<remaining number> more**&nbsp;to display additional tasks.
+1. Click **+`<remaining number>` more**&nbsp;to display additional tasks.
 1. Consider reviewing the following information about your work items:
 
    * **Name** 
    * **Project Name** or **Parent Object Name**
-   
    * **Planned Completion Date** of the work item.
    * **Assigned By Name**: this is the name of the user who assigned the task to you.
    * **Status**
@@ -146,13 +113,8 @@ Before you can manage your work and approvals from Slack, you must
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * You can only log hours in increments of a full or half hour, up to 12 hours and 30 minutes.
-   >   * The hours you log have an Entry Date of today. You cannot log time for a passed or future date from Slack.
-   >   
-   >
+   >* You can only log hours in increments of a full or half hour, up to 12 hours and 30 minutes.
+   >* The hours you log have an Entry Date of today. You cannot log time for a passed or future date from Slack.
 
    You receive a confirmation that the time has been logged.
 
@@ -163,40 +125,23 @@ Before you can manage your work and approvals from Slack, you must
 1. Log in to your Slack instance and log in to Workfront from Slack.  
    For more information about logging in to Workfront from Slack, see the [Logging In to Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. From any channel, start typing either of the following commands in the message field:&nbsp;  
-   *
+1. From any channel, start typing either of the following commands in the message field:
 
-   ```
-   /workfront home
-   ```
+   `/workfront home`, then click **Issues** 
 
-   ,&nbsp;*then click **Issues** 
    Or
 
-   ```
-   /workfront issues
-   ```
+   `/workfront issues`
 
    >[!NOTE]
    >
-   >Commands are case sensitive. You can start your command with    >
-   >
-   >```   >
-   >/wf
-   >```   >
-   >
-   >instead of    >
-   >
-   >```   >
-   >/workfront
-   >```   >
-   >
-   >.
+   >* Commands are case sensitive. 
+   >* You can start your command with `/wf` instead of `/workfront`.
 
    The first 20 issues in your list display.  
    ![](assets/slack-two-issues-350x323.png)  
 
-1. Click **+ remaining <number> more** to display additional items.
+1. Click **+ remaining `<number>` more** to display additional items.
 1. Consider reviewing the following information about your work items:
 
    * **Name**
@@ -214,42 +159,18 @@ Before you can manage your work and approvals from Slack, you must
 1. Log in to your Slack instance and log in to Workfront from Slack.  
    For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. From any channel, start typing either of the following commands in the message field:&nbsp;  
-   *
+1. From any channel, start typing either of the following commands in the message field:
 
-   ```
-   /workfront home
-   ```
+   `/workfront home`, then click **Approvals**
 
-   ,&nbsp;*then click **Approvals**&nbsp;  
    Or
 
-   ```
-   /workfront approvals
-   ```
+   `/workfront approvals`
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * Commands are case sensitive. 
-   >   * You can start your command with    >   
-   >   
-   >     ```   >   
-   >     /wf
-   >     ```   >   
-   >   
-   >     instead of    >   
-   >   
-   >     ```   >   
-   >     /workfront
-   >     ```   >   
-   >   
-   >     . 
-   >   
-   >   
-   >
+   >* Commands are case sensitive. 
+   >* You can start your command with `/wf` instead of `/workfront`.
 
    The first 20 items on your **Approvals** list display. Additional information about the items also displays, like the name of the user who requested it or the name of the project the item belongs to.&nbsp;
 
@@ -259,8 +180,11 @@ Before you can manage your work and approvals from Slack, you must
    <img src="assets/slack-project-approvals-list-350x106.png" alt="slack_project_approvals_list.png" style="width: 350;height: 106;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    -->
 
-   ![slack_access_approvals_list.png](assets/slack-access-approvals-list-350x213.png)  
-   ![](assets/slack-approve-a-document-350x362.png) ![](assets/slack-approve-task-notification-350x105.png)
+   ![slack_access_approvals_list.png](assets/slack-access-approvals-list-350x213.png)
+
+   ![](assets/slack-approve-a-document-350x362.png) 
+   
+   ![](assets/slack-approve-task-notification-350x105.png)
 
 1. Consider managing approvals for the following objects:&nbsp;
 

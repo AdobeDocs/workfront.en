@@ -58,41 +58,22 @@ You must have the following access to perform the steps in this article:
 
    | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
    |---|---|---|---|
-   | Bold | ![mceclip10.png](assets/mceclip10.png)
-
-   |⌘+b |Ctrl+B |
-   | Italics | ![mceclip9.png](assets/mceclip9.png)
-
-   |⌘+i |Ctrl+I |
-   | Underline | ![mceclip8.png](assets/mceclip8.png)
-
-   |⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)
-
-   |⌘+K |Ctrl+K |
-   | Bulleted List | ![mceclip6.png](assets/mceclip6.png)
-
-   |⌘+Shift+8 |Ctrl+Shift+8 |
-   | Numbered List | ![mceclip5.png](assets/mceclip5.png)
-
-   |⌘+Shift+7 |&nbsp;Ctrl+Shift+7 |
-   | Block Quote | ![](assets/block-quote-icon-large.png)
-
-   |⌘+Shift+9 |Ctrl+Shift+9 |
+   | Bold | ![mceclip10.png](assets/mceclip10.png)|⌘+b |Ctrl+B |
+   | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
+   | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)|⌘+K |Ctrl+K |
+   | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
+   | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |&nbsp;Ctrl+Shift+7 |
+   | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
 
    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * Formatting also displays in any email notification users receive containing your update.
-   >   * Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.  
-   >     If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
-   >   * Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >   
-   >
+   >* Formatting also displays in any email notification users receive containing your update.
+   >* Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.  
+   >* If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
+   >* Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
 
 1. (Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-(small).png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting.
 
@@ -102,17 +83,12 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * Workfront does not replace punctuation emoticons such as :) with emojis.
-   >   * Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >   * The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
-   >   * An unsupported emoji is represented by a black or white box.
-   >   * Windows 7 supports only black and white emojis.  
-   >   * Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
-   >   
-   >
+   >* Workfront does not replace punctuation emoticons such as :) with emojis.
+   >* Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
+   >* The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
+   >* An unsupported emoji is represented by a black or white box.
+   >* Windows 7 supports only black and white emojis.  
+   >* Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
 
 1. (Optional) To add a URL link to additional information sources:
 
@@ -130,14 +106,9 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * The Zoom integration is available only if your Workfront administrator enabled it, as explained in [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).
-   >   * The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to Workfront. You need to do this only once.
-   >   * Although the integration uses your Zoom account, the Zoom meeting ID that you add to your update is a unique meeting URL, not your personal Zoom meeting room URL.
-   >   
-   >
+   >* The Zoom integration is available only if your Workfront administrator enabled it, as explained in [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).
+   >* The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to Workfront. You need to do this only once.
+   >* Although the integration uses your Zoom account, the Zoom meeting ID that you add to your update is a unique meeting URL, not your personal Zoom meeting room URL.
 
 1. (Optional) To attach an image to your update, click the **Image** icon ![](assets/addimageicon-35x32.png)&nbsp;and browse to the image on your computer.  
    Or  
@@ -145,15 +116,10 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * Your Workfront administrator must enable adding images before you can see the Image icon.
-   >   * The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
-   >   * Images are accessible only from the Updates tab on an object, and they are not available on the Documents tab.
-   >   * You can send an update with an image and no text.
-   >   
-   >
+   >* Your Workfront administrator must enable adding images before you can see the Image icon.
+   >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
+   >* Images are accessible only from the Updates tab on an object, and they are not available on the Documents tab.
+   >* You can send an update with an image and no text.
 
 1. (Optional) Specify any of the following items:
 

@@ -85,13 +85,8 @@ To configure Workfront for Jira:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >   * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
-   >   
-   >
+   >* When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >* Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
 
 1. Select the **Triggers** tab to configure the automatic creation of Jira items as new Workfront items are created.
 

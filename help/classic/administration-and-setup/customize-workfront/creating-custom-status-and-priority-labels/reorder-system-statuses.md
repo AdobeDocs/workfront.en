@@ -132,13 +132,8 @@ By default, statuses display in the following order:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * You cannot customize the order of statuses for the Master List.
-   >   * We recommend that you order of statuses for each issue type the same way. For more information about issue types, see [Configure request types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
-   >   
-   >
+   >* You cannot customize the order of statuses for the Master List.
+   >* We recommend that you order of statuses for each issue type the same way. For more information about issue types, see [Configure request types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
 1. Drag and drop the statuses in the order you want.
 

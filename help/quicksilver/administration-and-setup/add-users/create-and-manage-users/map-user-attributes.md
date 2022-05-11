@@ -71,20 +71,13 @@ Keep the following in mind when mapping attributes:
 
    >[!IMPORTANT]
    >
-   >
-   >   
-   >   
-   >   * The following attributes are required for each user:    >   
+   >The following attributes are required for each user:
    >      
+   >* First Name
+   >* Last Name
+   >* Email Address
    >      
-   >      * First Name
-   >      * Last Name
-   >      * Email Address
-   >      
-   >      
-   >   * We do not recommend mapping Access Levels in the Attribute Mappings. If you do, be careful when you are setting the default value to make sure that you don't remove Admin Access inadvertently.
-   >   
-   >
+   >We do not recommend mapping Access Levels in the Attribute Mappings. If you do, be careful when you are setting the default value to make sure that you don't remove Admin Access inadvertently.
 
    The following table explains the fields you can use to map attributes:
 

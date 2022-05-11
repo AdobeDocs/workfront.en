@@ -155,14 +155,8 @@ You can&nbsp;add a markup (such as a box highlighting an area on the proof) and 
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * If an on decision pop-up message is set on the account in which the proof was created, it will also appear in the iOS app when a decision is made on a proof.*&nbsp;*
-   >   * If you set up decision reasons, they will display on the Submit your decision screen for you to choose.* 
-   >     *
-   >   
-   >
+   >* If an on decision pop-up message is set on the account in which the proof was created, it will also appear in the iOS app when a decision is made on a proof.*&nbsp;*
+   >* If you set up decision reasons, they will display on the Submit your decision screen for you to choose.
 
    If you have already submitted a decision and you want to change it or remove it, you can easily do so. After sumitting a decision, a new option,&nbsp;**Remove my decision** (6), appears on the Submit your decision screen.
 

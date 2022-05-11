@@ -127,21 +127,11 @@ You can filter items in the Work List to see only specific types of items. For e
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * Filter options are based on objects (Tasks, Issues, Approvals, Personal tasks). 
-   >   * Tasks and issues are further filtered by their state in relationship with our readiness to work on them (Working On, Ready to Start, Not Ready for tasks, and Working On and Requested for issues). You can select to display tasks or issues in a specific state or click&nbsp;Tasks or Issues to select and display all states. 
-   >   * There is a separate filter for completed items and it includes both tasks and issues.&nbsp;This does not include approvals. The Completed filter includes Personal tasks. 
-   >   * You can select only one state at a time.
-   >   
-   >   
-   >     For example, you can display only Working On tasks and only Requested issues.   
-
-   >   
-   >   * You cannot apply filters for items assigned to one of your teams and they are not included in the items that are assigned directly to you. 
-   >   
-   >
+   >* Filter options are based on objects (Tasks, Issues, Approvals, Personal tasks). 
+   >* Tasks and issues are further filtered by their state in relationship with our readiness to work on them (Working On, Ready to Start, Not Ready for tasks, and Working On and Requested for issues). You can select to display tasks or issues in a specific state or click&nbsp;Tasks or Issues to select and display all states. 
+   >* There is a separate filter for completed items and it includes both tasks and issues.&nbsp;This does not include approvals. The Completed filter includes Personal tasks. 
+   >* You can select only one state at a time. For example, you can display only Working On tasks and only Requested issues.   
+   >* You cannot apply filters for items assigned to one of your teams and they are not included in the items that are assigned directly to you. 
 
 1. (Optional) Further organize the Work List, as described in the section [Group and sort by Date, Project, and Priority](#group-and-sort-by-date-project-and-priority) in this article.
 

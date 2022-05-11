@@ -121,14 +121,9 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * The name of the project is case sensitive. 
-   >   * You can also start typing the Reference Number or enter the ID of the project. This might help you distinguish between projects with identical names. 
-   >   * Only 100 projects display in the list.
-   >   
-   >
+   >* The name of the project is case sensitive. 
+   >* You can also start typing the Reference Number or enter the ID of the project. This might help you distinguish between projects with identical names. 
+   >* Only 100 projects display in the list.
 
    The current project name displays by default. If you want to copy the task within the same project, leave this field unchanged. 
 

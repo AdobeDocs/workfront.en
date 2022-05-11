@@ -47,13 +47,8 @@ To log in to Workfront from Slack:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * When you are prompted to enter the host of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >   * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
-   >   
-   >
+   >* When you are prompted to enter the host of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >* Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
 
    The configuration page for Workfront notifications in Slack opens.
 

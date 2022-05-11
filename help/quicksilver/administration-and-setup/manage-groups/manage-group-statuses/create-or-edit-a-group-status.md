@@ -80,27 +80,18 @@ You must have the following to perform the steps in this article:
    ![](assets/group-statuses-edit-350x201.jpg)
 
    >[!NOTE]
+   >You can edit a status for your group only if:
+   >      
+   >* You manage the group that the status was created for
+   >* A Workfront administrator unlocked the status at the system level
+   >* A group administrator of a group above your group unlocked the status
+   >      
+   >      
+   >When you are editing an existing status, you can change only its name, description, and color.
    >
-   >
+   >When you edit a locked status, your changes affect all subgroups that inherited the status from your group.
    >   
-   >   
-   >   * You can edit a status for your group only if:   >   
-   >      
-   >      
-   >      * You manage the group that the status was created for
-   >      * A Workfront administrator unlocked the status at the system level
-   >      * A group administrator of a group above your group unlocked the status
-   >      
-   >      
-   >   * When you are editing an existing status, you can change only its name, description, and color.
-   >   * When you edit a locked status, your changes affect all subgroups that inherited the status from your group.
-   >   
-   >   
-   >     Conversely, editing an unlocked status does not affect the subgroups that inherited the status from your group.  
-
-   >   
-   >   
-   >
+   >Conversely, editing an unlocked status does not affect the subgroups that inherited the status from your group.  
 
 1. Specify the following information.
 
