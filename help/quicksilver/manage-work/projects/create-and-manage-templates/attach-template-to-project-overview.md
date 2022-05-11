@@ -340,9 +340,9 @@ Not all project fields are available to manage in the process of attaching a tem
 </ul> <note type="important">
 Attaching a template to a project is not the same as creating a project from a template. When you create a project from a template all template fields transfer to the new project. Attaching a template leaves some of the existing project's fields unchanged.
 </note>
-<h3 id="project-fields-that-are-empty-and-the-template-information-updates-them"><a name="Project"></a>Project fields that are empty and the template information updates them</h3>
+<p><strong>Project fields that are empty and the template information updates them</strong></p>
 <p>Most project fields that are empty are populated with template information when attaching the template to an existing project. </p>
-<h3 id="project-fields-that-are-populated-and-the-template-information-overwrites-them"><a name="Project2"></a>Project fields that are populated and the template information overwrites them</h3>
+<p><strong>Project fields that are populated and the template information overwrites them</strong></p>
 <p>The following fields always overwrite or update existing project information with template information when you attach a template to the project and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p><b>Resource manager</b>: The template Resource Managers are added to the list of existing resource managers on the project.</p> </li>
@@ -366,7 +366,7 @@ Attaching a template to a project is not the same as creating a project from a t
 <ul>
 <li> <p><b>Start&nbsp;From</b> </p> </li>
 </ul>
-<h3 id="project-fields-that-are-populated-and-they-remain-unchanged-after-attaching-the-template"><a name="Project3"></a>Project fields that are populated and they remain unchanged after attaching the template</h3>
+<p><strong>Project fields that are populated and they remain unchanged after attaching the template</strong></p>
 <p>The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: </p>
 <ul>
 <li> <p style="font-weight: bold;">URL</p> </li>

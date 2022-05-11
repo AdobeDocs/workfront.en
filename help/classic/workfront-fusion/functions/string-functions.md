@@ -58,7 +58,7 @@ You must have the following access to use the functionality in this article:
 
 Removes all non-ascii characters from a text string.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```ascii(```
 
@@ -96,7 +96,7 @@ Converts the first character in a text string to uppercase.
 
 Verifies whether text contains the search string.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```contains(```
 
@@ -152,7 +152,7 @@ Returns: &#35; Header
 
 Returns the position of the first occurrence of a specified value in a string. This method returns '-1' if the value that is searched for is not there. The start value indicates where in the string the search should begin.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```indexOf(```
 
@@ -264,14 +264,11 @@ m
 
 All of these numbers X X X X are replaced with X  The replacement string can include the following special replacement patterns:
 
-* 
-
   ```
   $&
   ```
 
   Inserts the matched substring.
-* 
 
   ```
   $n
@@ -279,7 +276,9 @@ All of these numbers X X X X are replaced with X  The replacement string can inc
 
   Where n is a positive integer less than 100, inserts the nth parenthesized submatch string. This is 1-indexed.
 
-``` ```**Examples: **``````  ![](assets/variable-value-350x63.png)
+**Examples:**  
+
+![](assets/variable-value-350x63.png)
 
 Returns: Phone number +420777111222
 
@@ -289,6 +288,8 @@ Returns: Phone number +420777111222
 
 Returns: Phone number: +420777111222
 
+<!-- WRITER - Please reformat this caution note.
+
 >[!CAUTION]
 >
 >Do not use named capture groups such as >
@@ -296,6 +297,7 @@ Returns: Phone number: +420777111222
 >/ is (?<number>\d+)/
 >```>
 >in the replacement string argument. Doing so results in an error.
+-->
 
 For more information on regular expressions, see [Text parser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
@@ -369,7 +371,7 @@ Returns: Hello
 
 Returns a portion of a text string between the "start" position and "end" position.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```substring(```
 
@@ -397,7 +399,7 @@ Converts any value to binary data.
 
 You can also specify encoding as a second argument to apply binary conversions from hex or base64 to binary data.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```toBinary(```
 

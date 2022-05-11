@@ -86,7 +86,7 @@ We recommend the following approaches:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2 id="create-a-resource-pool"><a name="access-to-edit-resource-pools"></a><a name="creating-a-resource-pool"></a>Create a Resource Pool</h2>
+<p><strong><a name="creating-a-resource-pool"></a>Create a Resource Pool</strong></p>
 <p>(NOTE: Alina: **^^ Linked to messaging from emails/ AC/ Pendo, possibly. Do not rename or change the anchor. << this comment is old.</p>
 <p>***Feb 2022: moved this section to its own article and drafted it here. Consider undrafting the section with a short intro to point to the new article IF there are any complaints.) </p>
 <ol>
@@ -163,7 +163,7 @@ There is no limit to how many users you can have in a Resource Pool. However, we
 <li><a href="#associate-resource-pools-with-one-user" class="MCXref xref">Associate Resource Pools with one user</a> </li>
 <li><a href="#associate-resource-pools-with-users-in-bulk" class="MCXref xref">Associate Resource Pools with users in bulk</a><a name="structuring-resource-pools"></a> </li>
 </ul>
-<h3 id="associate-resource-pools-with-one-user"><a name="associate-pools-with-users-subsections"></a>Associate Resource Pools with one user</h3>
+<p><strong>Associate Resource Pools with one user</strong></p>
 <p>You can associate users with Resource Pools when you are creating your Resource Pools. <br>For more information about creating a Resource Pool, see the section <a href="#create-a-resource-pool" target="_blank" rel="noopener noreferrer" class="MCXref xref">Create a Resource Pool</a> in this article.</p>
 <p>If you create Resource Pools without populating them with users, you can later associate them with users as you are editing or creating new users. </p>
 <p>The Resource Pools must be created before you can associate them with a user. </p>
@@ -178,7 +178,7 @@ There is no limit to how many users you can have in a Resource Pool. However, we
 </ol>
 <p>For more information about editing users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p>
 <p>For more information about creating new users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.</p>
-<h3 id="associate-resource-pools-with-users-in-bulk"><a name="resource-pools-with-users-in-bulk"></a>Associate Resource Pools with users in bulk</h3>
+<p><strong>Associate Resource Pools with users in bulk</strong></p>
 <p>You can edit multiple users in bulk and associate the same Resource Pools with all of them at the same time. </p>
 <p>To associate Resource Pools with several users in bulk:</p>
 <ol>
@@ -210,7 +210,7 @@ Only the Resource Pools that are common to all the users selected appear in this
 <li><a href="#associate-resource-pools-with-one-project-or-template" class="MCXref xref">Associate Resource Pools with one project or template</a> </li>
 <li><a href="#associate-resource-pools-with-several-projects-or-templates-in-bulk" class="MCXref xref">Associate Resource Pools with several projects or templates in bulk</a> </li>
 </ul>
-<h3 id="associate-resource-pools-with-one-project-or-template"><a name="associate-pools-with-one-project"></a>Associate Resource Pools with one project or template</h3>
+<p><strong>Associate Resource Pools with one project or template</strong></p>
 <p> You can associate Resource Pools with a template in the same manner you associate Resource Pools with a project. </p>
 <p> To associate Resource Pools with a project: </p>
 <ol>
@@ -223,7 +223,7 @@ Only the Resource Pools that are common to all the users selected appear in this
 </ol>
 <p> For more information about how to edit a project and associate it with Resource Pools, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p>
 <p> For more information about how to edit a template and associate it with Resource Pools, see <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Edit project templates</a>.</p>
-<h3 id="associate-resource-pools-with-several-projects-or-templates-in-bulk"><a name="associate-pools-with-many-projects-and-templates"></a>Associate Resource Pools with several projects or templates in bulk</h3>
+<p><strong>Associate Resource Pools with several projects or templates in bulk</strong></p>
 <p> You can edit multiple projects or templates in bulk and associate the same Resource Pools with all of them at the same time. </p>
 <p>You can associate Resource Pools with templates in the same manner you associate Resource Pools with projects. </p>
 <p>To associate Resource Pools with several projects in bulk:</p>

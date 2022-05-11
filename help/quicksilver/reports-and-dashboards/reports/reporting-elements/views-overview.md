@@ -41,7 +41,7 @@ The following are types of views that you can apply in lists or reports in&nbsp;
 <li><a href="#create-or-customize-a-standard-view" class="MCXref xref">Create or customize a standard view</a> </li>
 <li><a href="#create-or-customize-an-agile-view" class="MCXref xref">Create or customize an Agile view</a> </li>
 </ul>
-<h3 id="create-or-customize-a-standard-view"><a name="customizing-a-standard-view"></a>Create or customize a standard view</h3>
+<p><strong>Create or customize a standard view</strong></p>
 <p>You can create a new standard view, or you can customize an existing standard view that you previously created.</p>
 <ol>
 <li value="1">Click the<strong>View</strong> drop-down menu on any list where you want to create or customize a view.</li>
@@ -109,7 +109,7 @@ The
 <strong>Save as New View</strong> is the only option available when you customize a built-in Workfront view.
 </note> <p>Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.</p> </li>
 </ol>
-<h3 id="create-or-customize-an-agile-view"><a name="customizing-an-agile-view"></a>Create or customize an Agile view</h3>
+<p><strong>Create or customize an Agile view</strong></p>
 <p>You can create a new Agile view or customize an existing Agile view that you previously created.</p> <note type="important">
 Agile views are available only when viewing a project.
 </note>

@@ -143,7 +143,7 @@ Sharing filters, views, or groupings in Workfront is identical.
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-<h3 id="sharing-filters-and-groupings-using-the-beta-builder-interface"><a name="Sharing2"></a>Sharing filters and groupings using the beta builder interface</h3> <!--
+<p><strong>Sharing filters and groupings using the beta builder interface</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted, yellow, and will stay in NWE)</p>
 -->
 <p>When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.</p> <!--

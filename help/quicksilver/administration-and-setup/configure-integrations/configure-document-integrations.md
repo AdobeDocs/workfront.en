@@ -54,7 +54,6 @@ You must have the following to perform the steps in this article:
 You can configure the following integrations for managing documents:
 
 * Workfront Library
-* 
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">Experience Manager Assets Essentials </p>

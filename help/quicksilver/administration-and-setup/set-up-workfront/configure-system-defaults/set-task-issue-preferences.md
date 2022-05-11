@@ -180,7 +180,7 @@ You must have the following access to perform the steps in this article:
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="work-on-it"><a name="Work"></a>Work On It</h3> <!--
+<p><strong>Work On It</strong></p> <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This was a Ninja story in Summer/Fall 2020 that may never be implemented Leaving it here drafted in case Ninja decides to add it.</p>
 --> <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Here's what Jeremy Flores says on 12/1/20:</p>

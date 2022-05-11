@@ -78,23 +78,13 @@ You must have the following to perform the steps in this article:
 
    >[!NOTE]
    >
-   >
+   >* If you are a group administrator, you can log in only as users in the groups you manage. Also, the User Admin (Group Users) permission must be enabled in your access level:
    >   
+   >![](assets/group-admin-user-350x165.png)
    >   
-   >   * If you are a group administrator, you can log in only as users in the groups you manage. Also, the User Admin (Group Users) permission must be enabled in your access level:
+   >This setting is disabled by default. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
-   >   
-   >     ![](assets/group-admin-user-350x165.png)   >   
-   >   
-
-   >   
-   >   
-   >     This setting is disabled by default. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-   >   
-   >   * You cannot reset the password of a Workfront administrator.  
-
-   >   
-   >
+   >* You cannot reset the password of a Workfront administrator.  
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 

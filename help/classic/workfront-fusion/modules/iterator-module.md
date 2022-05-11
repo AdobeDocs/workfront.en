@@ -66,7 +66,7 @@ You set up an iterator module the same you set up any other module. The Array fi
 
 For more information, see [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * The below scenario shows how to retrieve emails with attachments and save the attachments as single files in a selected Dropbox folder.
 

@@ -84,7 +84,7 @@ To group by a multi-select custom field in a report:
 <li><a href="#build-a-calculated-custom-field-that-references-a-multi-select-custom-field" class="MCXref xref">Build a calculated custom field that references a multi-select custom field</a> </li>
 <li><a href="#build-a-chart-that-references-a-calculated-custom-field" class="MCXref xref">Build a chart that references a calculated custom field</a> </li>
 </ul>
-<h3 id="build-a-calculated-custom-field-that-references-a-multi-select-custom-field"><a name="building-calculated-field"></a>Build a calculated custom field that references a multi-select custom field</h3>
+<p><strong>Build a calculated custom field that references a multi-select custom field</strong></p>
 <p>To be able to build a calculated field that references a multi-select custom field, you must have the following prerequisites:</p>
 <ul>
 <li>Build the multi-select custom field in a custom form.<br>For information about building custom forms and adding custom fields to them, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li>
@@ -102,7 +102,7 @@ To group by a multi-select custom field in a report:
 <li value="7">Click <strong>Done</strong>.</li>
 <li value="8">Click <strong>Save +Close</strong>.</li>
 </ol>
-<h3 id="build-a-chart-that-references-a-calculated-custom-field"><a name="building-a-chart"></a>Build a chart that references a calculated custom field</h3>
+<p><strong>Build a chart that references a calculated custom field</strong></p>
 <ol>
 <li value="1"> Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. </li>
 <li value="2"> (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, select all the objects in your report, then click <strong>Edit</strong>. </li>

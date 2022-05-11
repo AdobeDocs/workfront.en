@@ -116,7 +116,7 @@ To use NetSuite modules, you must have a NetSuite account.
 <li> <p>Log in using Access Tokens</p> </li>
 <li> <p>Suite Analytics Workbook</p> </li>
 </ul>
-<h3 id="create-a-new-integration-record"><a name="Create2"></a>Create a new integration record</h3>
+<p><strong>Create a new integration record</strong></p>
 <p>To set up a connection between NetSuite and Workfront Fusion, you need to create a new integration record in Netsuite.</p> <note type="note">
 <p>For instructions on creating a new integration record.</p>
 <ul>
@@ -157,7 +157,7 @@ To use NetSuite modules, you must have a NetSuite account.
 You must copy and save the credentials before you close this window. You will not be able to access them again.
 </note> </li>
 </ol>
-<h3 id="create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module"><a name="Create3"></a>Create a connection to NetSuite in a Workfront Fusion NetSuite module</h3>
+<p><strong>Create a connection to NetSuite in a Workfront Fusion NetSuite module</strong></p>
 <p>You can create a connection to your NetSuite account directly from inside a NetSuite module.</p>
 <ol>
 <li value="1"> <p>In any NetSuite module, click <strong>Add</strong> next to the Connection field.</p> </li>
@@ -185,7 +185,7 @@ If you see the map button above a field or function, you can use it to set varia
 <li><a href="#actions" class="MCXref xref">Actions</a> </li>
 <li><a href="#searches" class="MCXref xref">Searches</a> </li>
 </ul>
-<h3 id="triggers"><a name="Triggers"></a>Triggers</h3>
+<p><strong>Triggers</strong></p>
 <h4>Watch records</h4>
 <p>This trigger module activates a scenario when a record is created or updated.</p>
 <table cellspacing="0">
@@ -222,7 +222,7 @@ If you see the map button above a field or function, you can use it to set varia
 </tr>
 </tbody>
 </table>
-<h3 id="actions"><a name="Actions"></a>Actions</h3>
+<p><strong>Actions</strong></p>
 <ul>
 <li> <p><a href="#custom-api-call" class="MCXref xref">Custom API Call</a> </p> </li>
 <li> <p><a href="#create-a-record" class="MCXref xref">Create a record</a> </p> </li>
@@ -389,7 +389,7 @@ When you are configuring this module, the following fields display.
 </tr>
 </tbody>
 </table>
-<h3 id="searches"><a name="Searches"></a>Searches</h3>
+<p><strong>Searches</strong></p>
 <h4>Search for records</h4>
 <p>This search module searches for records based on custom criteria.</p>
 <table cellspacing="0">

@@ -686,7 +686,7 @@ This search module lists all available workflow templates.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="build"><a name="Build"></a>Build</h3> <!--
+<p><strong>Build</strong></p> <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">From legacy Fusion doc. I don't see this in Fusion 2</p>
 -->
 <p>This action module creates a new proof recipient or stage in an Automated Workflow.</p>

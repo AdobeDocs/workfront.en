@@ -67,7 +67,7 @@ When assigning users to work, their availability according to their schedules af
 </note> </li>
 <li>A specific role or user is set as the assignee for multiple tasks and you want to quickly modify all items to be assigned to a different user or role</li>
 </ul>
-<h2 id="how-removing-assignees-affects-task-hours-and-allocation-percentages"><a name="removing-assignees-affects-task-hours-and-allocation-percentage"></a>How removing assignees affects task hours and allocation percentages</h2>
+<p><strong>How removing assignees affects task hours and allocation percentages</strong></p>
 <p>(NOTE: move to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm) </p>
 <p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration&nbsp;Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
 <p>When you delete a user from a task with the following Duration&nbsp;Types:</p>

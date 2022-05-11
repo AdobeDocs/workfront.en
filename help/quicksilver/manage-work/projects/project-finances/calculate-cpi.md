@@ -127,22 +127,15 @@ CPI = 1
 
 The fields in this calculation are described below:
 
-* 
-
   ```
   Total Actual Cost = Actual (logged) Hours * Hourly Rate of assignees
   ```
-
-  
-* 
 
   ```
   Incurred Actual Expense Cost = Actual Cost
   ```
 
   Incurred Expense is the expense on which Actual Cost > 0
-
-* 
 
   ```
   Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expenses
@@ -157,8 +150,7 @@ The fields in this calculation are described below:
 * Planned Cost of Work Performed is calculated by the following formula:
 
   ```
-  Planned Cost of Work Performed = Planned cost * Percent Complete / 100<![CDATA[
-					]]>
+  Planned Cost of Work Performed = Planned cost * Percent Complete / 100
   ```
 
 The Total Budgeted Cost Work Performed is calculated for the following:

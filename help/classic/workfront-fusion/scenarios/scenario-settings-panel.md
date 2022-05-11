@@ -112,7 +112,7 @@ Setting more cycles can be useful when you want to prevent connection interrupti
 
 * If the scenario does not start with a trigger (instant/polling), the specified maximum number of cycles is always performed.
 
-``` ```**Examples: **`````` Workfront > Watch record watches for new issues that come in, and Workfront > Convert object converts the new request into a project and assigns it the appropriate template.
+**Examples:**  Workfront > Watch record watches for new issues that come in, and Workfront > Convert object converts the new request into a project and assigns it the appropriate template.
 
 ![](assets/scenario-settings-ex-1-350x157.png)
 

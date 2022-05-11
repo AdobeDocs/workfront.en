@@ -55,7 +55,7 @@ For ProofHQ&nbsp;API documentation, see [ProofHQ](https://api.proofhq.com/home.h
 
 This section shows some sample updates that you can make with the ProofHQ API.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * [Proof can be downloaded, has a message, and is shared publicly](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly) 
 * [Update a stage so that it is not private, not mandatory, and requires only one approval](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval) 

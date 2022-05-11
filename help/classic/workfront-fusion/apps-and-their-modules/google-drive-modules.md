@@ -88,7 +88,7 @@ If you see the map button above a field or function, you can use it to set varia
 <li> <p><a href="#google-shared-drive" class="MCXref xref">Google Shared Drive</a> </p> </li>
 <li> <p><a href="#other" class="MCXref xref">Other</a> </p> </li>
 </ul>
-<h3 id="files-folders"><a name="Files/Fo"></a>Files/Folders</h3>
+<p><strong>Files/Folders</strong></p>
 <ul>
 <li> <p><a href="#watch-files-in-folder" class="MCXref xref">Watch Files In Folder</a> </p> </li>
 <li> <p><a href="#watch-all-files" class="MCXref xref">Watch All Files</a> </p> </li>
@@ -645,7 +645,7 @@ The permissions granted to the Default, or the public, scope apply to any user, 
 </tr>
 </tbody>
 </table>
-<h3 id="google-shared-drive"><a name="Google2"></a>Google Shared Drive</h3> <note type="note">
+<p><strong>Google Shared Drive</strong></p> <note type="note">
 Google Shared Drive modules are for G Suite users only.
 </note>
 <ul>
@@ -802,7 +802,7 @@ The G Suite administrator privilege is required in order to use this module.
 </tr>
 </tbody>
 </table>
-<h3 id="other"><a name="Other"></a>Other</h3>
+<p><strong>Other</strong></p>
 <ul>
 <li> <p><a href="#watch-comments" class="MCXref xref">Watch Comments</a> </p> </li>
 <li> <p><a href="#get-a-folder-id-for-a-path" class="MCXref xref">Get a Folder ID for a Path</a> </p> </li>

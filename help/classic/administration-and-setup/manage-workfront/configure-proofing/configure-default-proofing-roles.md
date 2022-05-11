@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
 
    This situation occurs when users and guests have access to a document for which a proof has been created: even if they have not been added to the proof's workflow, they can open the proof.
 
-   ``` ```**Examples: **``````Here are examples of how you could use this setting:
+   **Examples:** Here are examples of how you could use this setting:
 
    * You select **Read only** to limit all proof activity such as adding comments and making decisions to those who have been asked to do it.
    * You select **Reviewer** because you want any member of the team to be able to add markups and comments on a proof.

@@ -62,7 +62,7 @@ Action modules are the most common type of module. A typical action module retur
 
 Unlike trigger modules, action modules can be placed at the beginning, middle or end of a scenario. Scenarios can contain an unlimited number of action modules.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * **Dropbox > Upload a file** sends a file to a selected Dropbox folder and returns its identifier.
 * **Image > Resize** receives an image, resizes it to specified dimensions, and passes the resized image on to the next action.
@@ -125,7 +125,7 @@ Polling triggers allow you to select the first bundle that they should output vi
 >
 >Settings made in the epoch panel affect only the first execution of the module. Once the module is executed, it remembers the last outputted bundle and voids the settings made via the epoch panel.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * **Dropbox > Watch files** returns files that were newly added since the last time the scenario was run
 
@@ -137,7 +137,7 @@ Polling triggers allow you to select the first bundle that they should output vi
 
 Instant triggers enable the service to notify Workfront Fusion about a *change* immediately. We recommend that you schedule a scenario containing an instant trigger to run immediately. For instructions, see [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md). See also [Instant triggers (webhooks) in Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md) for details on how the incoming data is handled.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * **Workfront>Watch Events** returns information when a certain type of event occurs in Workfront, such as the creation of a task.
 * **Google Sheets>Watch Changes** returns information whenever a cell is updated.
@@ -152,7 +152,7 @@ You can place Aggregators only in the middle of a scenario.
 
 Scenarios can contain an unlimited number of aggregators.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * **Archive > Create an archive** compresses received files into a zip archive
 * **CSV > Aggregate to CSV** merges multiple strings from a CSV file into a single row

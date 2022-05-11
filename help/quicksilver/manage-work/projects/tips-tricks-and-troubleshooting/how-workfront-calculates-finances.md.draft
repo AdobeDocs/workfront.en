@@ -115,12 +115,12 @@ For more information, also see the following articles:
 <li><a href="#calculate-eac-at-project-level" class="MCXref xref">Calculate EAC at project level</a> </li>
 <li><a href="#caculate-eac-as-a-roll-up-from-tasks" class="MCXref xref">Caculate EAC as a roll up from tasks</a> </li>
 </ul>
-<h3 id="calculate-eac-at-project-level"><a name="Calculat"></a>Calculate EAC at project level</h3>
+<p><strong>Calculate EAC at project level</strong></p>
 <ul>
 <li> EAC for the parent task and project are determined by entering the actual hours/actual labor cost into the EAC Formulas </li>
 <li><em> Includes </em> Actual Hours/ Costs and expenses added directly to the parent task or project </li>
 </ul>
-<h3 id="caculate-eac-as-a-roll-up-from-tasks"><a name="Caculate"></a>Caculate EAC as a roll up from tasks</h3>
+<p><strong>Caculate EAC as a roll up from tasks</strong></p>
 <ul>
 <li> EAC for the parent task and project are determined by summing up the EAC for each <em> direct </em> child task </li>
 <li><em> Excludes </em> Actual Hours and expenses added directly to the parent task or project </li>

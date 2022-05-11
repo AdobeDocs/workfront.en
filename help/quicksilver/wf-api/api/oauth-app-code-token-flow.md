@@ -30,21 +30,17 @@ Your users need to log in to authorize this integration in their own account. Th
   https://myorganization.my.workfront.com
   ```
 
-* 
-
   ```
   client_id
   ```
 
-  : This is the client ID&nbsp;generated when you created the OAuth2 app in Workfront.
-* 
+  This is the client ID&nbsp;generated when you created the OAuth2 app in Workfront.
 
   ```
   redirect_uri
   ```
 
-  : This is the redirect URL that you entered when creating the app. Your users will be directed to this page after they authorize the app for their account.
-* 
+  This is the redirect URL that you entered when creating the app. Your users will be directed to this page after they authorize the app for their account.
 
   ```
   response_type
@@ -174,7 +170,7 @@ To log your users in with OAuth2, use the following process:
 
    [Copy](javascript:void(0);) 
    <pre><code>https://<span style="color: #63a35c; "><URL of your organization's domain></span>/integrations/oauth2/api/v1/token</code></pre>
-   ``` ```**Examples: **`````` Example of CURL call to token endpoint:
+   **Examples:**  Example of CURL call to token endpoint:
 
    Example 1
 

@@ -58,7 +58,7 @@ You must have the following access to use the functionality in this article:
 
 Returns the value path of an object or array. To access nested objects, use dot notation. The first item in an array is index 1.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * ```get(``` ```array``` ```;```
 
@@ -102,7 +102,7 @@ Returns the value path of an object or array. To access nested objects, use dot 
 
 Returns the value 1 if the expression is evaluated to true; otherwise it returns the value 2.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * ```if(```
 
@@ -158,7 +158,7 @@ Returns the value 1 if the expression is evaluated to true; otherwise it returns
 
 Returns the value 1 if this value is not empty; otherwise it returns the value 2.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * ```ifempty(```
 
@@ -212,7 +212,7 @@ Returns the value 1 if this value is not empty; otherwise it returns the value 2
 
 Evaluates one value (called the expression) against a list of values; returns the result corresponding to the first matching value.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * ```switch(```
 

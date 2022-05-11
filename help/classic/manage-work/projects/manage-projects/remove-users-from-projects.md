@@ -91,7 +91,7 @@ You can remove users from a project from the People subtabof the project.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
-<h3 id="remove-users-from-a-project-from-the-team-scheduling-subtab"><a name="removing-users-in-the-scheduling-tab"></a>Remove users from a project from the Team Scheduling subtab</h3>
+<p><strong>Remove users from a project from the Team Scheduling subtab</strong></p>
 <p>Users can be removed from the project team in the Scheduling tab only when no tasks or issues are assigned to the user.</p>
 <p>To remove users from a project in the Scheduling subtab:</p>
 <ol>

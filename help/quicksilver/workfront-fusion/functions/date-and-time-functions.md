@@ -36,13 +36,13 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>--> 
+    <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
      --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
      --> </td> 
    </tr>
-  --> 
  </tbody> 
 </table>
 
@@ -52,25 +52,15 @@ You must have the following access to use the functionality in this article:
 
 ## formatDate (date; format; [timezone])
 
-Use this function when you have a Date value, such as 
-
-```
-12-10-2021 20:30
-```
-
-, that you want to format as a Text value, such as 
-
-```
-Dec 10, 2021 8:30 PM
-```
-
-.
+Use this function when you have a Date value, such as `12-10-2021 20:30`, that you want to format as a Text value, such as `Dec 10, 2021 8:30 PM`.
 
 This is useful, for example, when you need to change the date format of one app or webservice to that of a connected app or web service in the same scenario.
 
 For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
 ### Parameters
+
+<!-- WRITER Check for wonky stuff in this article -->
 
 <table cellspacing="15"> 
  <col> 
@@ -108,13 +98,7 @@ For more information, see [Date](../../workfront-fusion/mapping/item-data-types.
 
 The formatDate function returns a text representation of the given Date value according to the specified format and timezone. The data type is Text.
 
-``` ```**Examples: **`````` The Scenario and Web timezone were both set to 
-
-```
-Europe/Prague
-```
-
-in these examples.
+**Examples:** The Scenario and Web timezone were both set to `Europe/Prague` in these examples.
 
 ![](assets/date&time-functions-examples-350x61.png)
 
@@ -166,19 +150,7 @@ in these examples.
 
 ## parseDate (text; format; [timezone])
 
-Use this function when you have a Text value representing a date (such as 
-
-```
-12-10-2019 20:30
-```
-
-or 
-
-```
-Aug 18, 2019 10:00 AM
-```
-
-) and you want to convert (parse) it to a Date value (a binary machine readable representation). For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
+Use this function when you have a Text value representing a date (such as `12-10-2019 20:30` or `Aug 18, 2019 10:00 AM`) and you want to convert (parse) it to a Date value (a binary machine readable representation). For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
 ### Parameters
 
@@ -220,7 +192,7 @@ The second column indicates the expected type. If different type is provided, [T
 
 This function converts a text string to a date, according to the format and timezone that you specify. The data type of the value is Date.
 
-``` ```**Examples: **``````&nbsp;In the following examples, the returned Date value is expressed according to ISO 8601, but the data type of the result is Date.
+**Examples:** In the following examples, the returned Date value is expressed according to ISO 8601, but the data type of the result is Date.
 
 * ```parseDate(```
 
@@ -290,9 +262,7 @@ This function converts a text string to a date, according to the format and time
 
 Returns a new date as a result of adding a given number of days to a date. To subtract days, enter a negative number.
 
-``` ```**Examples: **``````
-
-* 
+**Examples:**
 
   ```
   <span class="function">addDays(</span>2016-12-08T15:55:57.536Z
@@ -328,7 +298,7 @@ Returns a new date as a result of adding a given number of days to a date. To su
 
 Returns a new date as a result of adding a given number of hours to a date. To subtract hours, enter a negative number.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```addHours(```
 
@@ -366,7 +336,7 @@ Returns a new date as a result of adding a given number of hours to a date. To s
 
 Returns a new date as a result of adding a given number of minutes to a date. To subtract minutes, enter a negative number.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```addMinutes(```
 
@@ -404,7 +374,7 @@ Returns a new date as a result of adding a given number of minutes to a date. To
 
 Returns a new date as a result of adding a given number of months to a date. To subtract months, enter a negative number.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```addMonths(```
 
@@ -442,7 +412,7 @@ Returns a new date as a result of adding a given number of months to a date. To 
 
 Returns a new date as a result of adding a given number of seconds to a date. To subtract seconds, enter a negative number.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```addSeconds(```
 
@@ -480,7 +450,7 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 
 Returns a new date as a result of adding a given number of years to a date. To subtract years, enter a negative number.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```addYears(```
 
@@ -522,7 +492,7 @@ Specify a number from 0 to 59. If the number is outside of that range, the funct
 
 If you need to specify a number outside the range, we recommend that you use addSeconds, as described above in the section [addSeconds (date; number)](#addseconds-date-number).
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```setSecond(```
 
@@ -564,7 +534,7 @@ Specify a number from 0 to 59. If the number is outside of that range, the funct
 
 If you need to specify a number outside the range, we recommend that you use addMinutes, as described above in [addMinutes (date; number)](#addminutes-date-number). 
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```setMinute(```
 
@@ -606,7 +576,7 @@ Specify a number from 0 to 23. If the number is outside this range, the function
 
 If you need to specify a number outside the range, we recommend that you use addHours, as described above in [addHours (date; number)](#addhours-date-number). 
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```setHour(```
 
@@ -648,7 +618,7 @@ You can use this function to set the day of the week, with Sunday as 1 and Satur
 
 If you need to specify a number outside the range, we recommend that you use addDays, as described above in [addDays (date; number)](#adddays-date-number).
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```setDay(```
 
@@ -704,7 +674,7 @@ This function returns a new date with the day of the month specified in paramete
 
 Specify a number from 1 to 31. If the number is outside of this range, the function returns a day from the previous month (for a negative number) or subsequent month (for a positive number).
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```setDate(```
 
@@ -744,7 +714,7 @@ This function returns a new date with the month specified in parameters.
 
 Specify a number from 1 to 12. If the number is outside of this range, the function returns the month in the previous year (for a negative number) or subsequent year (for a positive number).
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```setMonth(```
 
@@ -838,9 +808,7 @@ parameter:
 
 If no unit is specified, the function returns the difference in milliseconds.
 
-``` ```**Examples: **``````
-
-* 
+**Examples:**
 
   ```
   dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)
@@ -852,8 +820,6 @@ If no unit is specified, the function returns the difference in milliseconds.
   600,000
   ```
 
-* 
-
   ```
   dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)
   ```
@@ -863,8 +829,6 @@ If no unit is specified, the function returns the difference in milliseconds.
   ```
   4
   ```
-
-* 
 
   ```
   dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)
@@ -878,7 +842,7 @@ If no unit is specified, the function returns the difference in milliseconds.
 
 ## Additional examples
 
-#### How to calculate n-th day of week in month
+### How to calculate n-th day of week in month
 
 This section is adapted for Workfront Fusion from the Exceljet web page that explains how to get the nth day of week in a month.
 
@@ -887,7 +851,10 @@ If you need to calculate a date corresponding to n-th day of week in month (for 
 ![](assets/date&time-functions-calc-nth-day-350x31.png)
 
 You can copy and paste the formula's code into a field:
-<pre>{{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}</pre>The formula contains the following items:
+
+`{{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}` 
+
+The formula contains the following items:
 
 <table cellspacing="15"> 
  <col> 
@@ -936,8 +903,6 @@ and
 
 in the formula with corresponding numbers. For the second Wednesday in the current month, you would use the following values:
 
-* 
-
   ```
   1.n
   ```
@@ -948,8 +913,6 @@ in the formula with corresponding numbers. For the second Wednesday in the curre
   2
   ```
 
-* 
-
   ```
   1.dow
   ```
@@ -959,8 +922,6 @@ in the formula with corresponding numbers. For the second Wednesday in the curre
   ```
   3
   ```
-
-* 
 
   ```
   1.date
@@ -974,16 +935,13 @@ in the formula with corresponding numbers. For the second Wednesday in the curre
 
 ![](assets/nth-day-variable-value-350x33.png)
 
-#### Explanation:
-
-* 
+### Explanation:
 
   ```
   setDate(now;1)
   ```
 
   returns first of current month
-* 
 
   ```
   formatDate(....;E)
@@ -991,37 +949,20 @@ in the formula with corresponding numbers. For the second Wednesday in the curre
 
   returns day of week (1, 2, ... 6)
 
-### How to calculate days between dates
+## How to calculate days between dates
 
 One possibility is to employ the following expression:
 
 ![](assets/calculate-days-between-dates-350x68.png)
 
 You can copy and paste the following code:
-<pre>{{round((2.value - 1.value) / 1000 / 60 / 60 / 24)}}</pre>
+`{{round((2.value - 1.value) / 1000 / 60 / 60 / 24)}}`
 
 >[!NOTE]
 >
->* Values of >
->  ```>
->  D1
->  ```>
->  and >
->  ```>
->  D2
->  ```>
->  have be Date type values. If they are String type values (for example, 20.10.2018), use the >
->  ```>
->  parseDate()
->  ```>
->  function to convert them to Date type values. 
+>* Values of `D1`and `D2` have be Date type values. If they are String type values (for example, 20.10.2018), use the `parseDate()` function to convert them to Date type values. 
 >
->* The >
->  ```>
->  round()
->  ```>
->  function is used for cases when one of the dates falls within the daylight savings time period and the other does not. In these cases, the difference in hours is one hour less or more. You can divide it by 24 for a non-integer result. You lose an hour-Daylight Savings. Round flattens it so you don't have a percentage
->
+>* The `round()` function is used for cases when one of the dates falls within the daylight savings time period and the other does not. In these cases, the difference in hours is one hour less or more. You can divide it by 24 for a non-integer result. You lose an hour-Daylight Savings. Round flattens it so you don't have a percentage
 
 ### How to calculate last day/millisecond of month
 
@@ -1034,7 +975,10 @@ The formula below shows one way how to calculate last day of the previous month:
 ![](assets/last-day-prev-month.png)
 
 You can copy & paste the following code:
-<pre>{{addDays(setDate(now; 1); -1)}}</pre>In some cases, you need to calculate not only the last day of month, but literally its last millisecond:
+
+`{{addDays(setDate(now; 1); -1)}}` 
+
+In some cases, you need to calculate not only the last day of month, but literally its last millisecond:
 
 2019-09-01T00:00:00.000Z ≤ D ≤ 2019-09-30T23:59:59.999Z
 
@@ -1043,11 +987,16 @@ This formula shows one way how to calculate last millisecond of the previous mon
 ![](assets/last-millisecond-prev-month-350x45.png)
 
 You can copy and paste the following code:
-<pre>{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD"; "UTC") - 1; "x")}}</pre>If you need the result to use your timezone setting, omit the UTC argument:
+
+`{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD"; "UTC") - 1; "x")}}`
+
+If you need the result to use your timezone setting, omit the UTC argument:
 
 ![](assets/omit-utc-argument-350x45.png)
 
-<pre>{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD") - 1; "x")}}</pre>However, it is preferable to use half-open interval instead (the interval that excludes one of its limit points), specifying the first day of the following month instead and replacing the "less or equal than" operator with "less than" as follows:
+`{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD") - 1; "x")}}`
+
+However, it is preferable to use half-open interval instead (the interval that excludes one of its limit points), specifying the first day of the following month instead and replacing the "less or equal than" operator with "less than" as follows:
 
 2019-09-01 ≤ D < 2019-10-01
 

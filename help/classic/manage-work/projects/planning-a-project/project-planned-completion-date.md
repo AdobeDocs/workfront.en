@@ -99,7 +99,7 @@ To schedule a project from Start Date:
 <li><a href="#manually-set-the-planned-completion-date-of-a-task" class="MCXref xref">Manually set the Planned Completion Date of a task</a> </li>
 <li><a href="#how-the-planned-completion-date-is-calculated-for-a-task" class="MCXref xref">How the Planned Completion Date is calculated for a task</a> </li>
 </ul>
-<h3 id="manually-set-the-planned-completion-date-of-a-task"><a name="Manually_Setting_the_Planned_Completion_Date"></a>Manually set the Planned Completion Date of a task</h3>
+<p><strong>Manually set the Planned Completion Date of a task</strong></p>
 <p>Setting the Planned Completion Date of a task depends on the type of Task Constraint you assign to the task.&nbsp;</p>
 <p>You can manually set the Planned Completion Date&nbsp;when creating a task, as described in&nbsp;the article <a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref">Create tasks in a project</a>.</p>
 <p>You can manually specify the Planned Completion Date when you select any of the following Task Constraints:&nbsp;</p>
@@ -123,7 +123,7 @@ To schedule a project from Start Date:
 </tr>
 </tbody>
 </table>
-<h3 id="how-the-planned-completion-date-is-calculated-for-a-task"><a name="Understanding_How_the_Planned_Completion_Date_Is_Calculated"></a>How the Planned Completion Date is calculated for a task</h3>
+<p><strong>How the Planned Completion Date is calculated for a task</strong></p>
 <p>When it is calculated automatically by the system, the following can influence the Planned Completion Date of a Task:</p>
 <ul>
 <li> <p>Task Constraint</p> <p>For more information about Task Constraints, see the article <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</p> </li>

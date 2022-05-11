@@ -162,7 +162,7 @@ If you want to grant lower permissions to a user who is already part of an organ
 <li><a href="#remove-inherited-permissions" class="MCXref xref">Remove inherited permissions</a> </li>
 <li><a href="#make-an-object-private" class="MCXref xref">Make an object private</a> </li>
 </ul>
-<h3 id="remove-entities-from-the-sharing-list-of-an-object"><a name="removing-entities-from-objects"></a>Remove entities from the sharing list of an object</h3>
+<p><strong>Remove entities from the sharing list of an object</strong></p>
 <p>You can remove entities from the sharing list of an object to remove their permissions from the object.</p>
 <p>To remove permissions from objects:&nbsp;</p>
 <ol>
@@ -176,7 +176,7 @@ If you want to grant lower permissions to a user who is already part of an organ
 </ul></li>
 <li value="5">Click <strong>Save</strong>.</li>
 </ol>
-<p> <h3 id="remove-inherited-permissions"><a name="remove-inherited-permissions"></a>Remove inherited permissions</h3> </p>
+<p> <p><strong>Remove inherited permissions</strong></p> </p>
 <p>Inherited permissions can be removed from objects allowing for owners to specifically&nbsp;identify who will get access to children objects regardless of the access of a user to a parent object. Only users with Manage permission are able to remove inherited permissions.</p>
 <p>To remove inherited permissions:</p>
 <ol>
@@ -187,7 +187,7 @@ You cannot remove individual entities from the Inherited Permissions list. You c
 </note></li>
 <li value="4">Click <strong>Save</strong>.&nbsp;</li>
 </ol>
-<h3 id="make-an-object-private"><a name="making-an-object-private"></a>Make an object private</h3>
+<p><strong>Make an object private</strong></p>
 <p>If you have shared an object system-wide, or you have shared it with external uses by making it public, you can make it private again by removing the system-wide or public permissions.&nbsp;</p>
 <p>For more information about making an object available system-wide, or publicly, see the section <a href="#Share" class="MCXref xref">Overview of sharing permissions on objects</a> in this article.</p>
 <p>To make an object private:</p>

@@ -149,7 +149,7 @@ The following emails can only be configured at the user profile level. They cann
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="email-notifications-from-workfront-goals"><a name="workfront-align"></a>Email notifications from Workfront Goals</h3> <!--
+<p><strong>Email notifications from Workfront Goals</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is drafted because the Goals emailed merged with the regular notifications in other articles. This is no longer possible from JUST WF goals.)</p>
 -->
 <div class="workfront_plans">

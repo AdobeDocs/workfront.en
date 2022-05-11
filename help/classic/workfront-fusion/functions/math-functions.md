@@ -62,7 +62,7 @@ Returns the average value of the numeric values in a specific array, or the aver
 
 Returns the smallest integer greater than or equal to a specified number.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * ```ceil(```
 
@@ -88,7 +88,7 @@ Returns the smallest integer greater than or equal to a specified number.
 
 Returns the largest integer less than or equal to a specified number.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * ```floor(```
 
@@ -150,7 +150,7 @@ Parses a string with a number and returns the number. For example, parseNumber(1
 
 Rounds a numeric value to the nearest integer.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * ```round(```
 

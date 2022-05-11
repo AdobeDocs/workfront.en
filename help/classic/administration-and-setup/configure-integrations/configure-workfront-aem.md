@@ -131,8 +131,6 @@ Before you begin, you must enable permissions for workfront-service:
    1. Click&nbsp;&nbsp;**Create** in the upper-right corner of the Global-Workfront page.
    1. In the **Workfront URL** box, specify the URL for your Workfront instance.
 
-      ****
-
       For example, https://*<account>*.my.workfront.com,&nbsp;where *<account>* is the account you use for integrations with AEM.&nbsp;
    
    1. In the**Base Folder** field, select the checkbox icon, then in the drop-down menu select the path where documents that are linked to Workfront objects are stored.

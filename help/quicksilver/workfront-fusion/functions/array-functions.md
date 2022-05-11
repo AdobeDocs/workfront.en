@@ -92,7 +92,7 @@ Returns the number of items in an array.
 
 Returns a primitive array containing values of a complex array. This function allows filtering values. Use raw variable names for keys.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```map(``` ```Emails[]``` ```;```
 
@@ -168,15 +168,11 @@ order
 
 parameter are:
 
-* 
-
   ```
   asc
   ```
 
   (default) - ascending order: 1, 2, 3, ... for type Number. A, B, C, a, b, c, ... for type Text
-
-* 
 
   ```
   desc
@@ -184,15 +180,11 @@ parameter are:
 
   descending order: ..., 3, 2, 1 for type Number. ..., c, b, a, C, B, A for type Text.
 
-* 
-
   ```
   asc ci
   ```
 
   case insensitive ascending order: A, a, B, b, C, c, ... for type Text.
-
-* 
 
   ```
   desc ci
@@ -214,7 +206,7 @@ To access nested properties, use dot notation.
 
 The first item in an array is index 1.
 
-``` ```**Examples: **``````
+**Examples:**
 
 * ```sort(``` ```Contacts[]``` ```;```
 
@@ -272,6 +264,8 @@ The first item in an array is index 1.
 
 Returns the difference between two arrays.
 
+<!-- WRITER - I think you need to reformat below content-->
+
 Enter one of the following values for the 
 
 ```
@@ -279,8 +273,6 @@ mode
 ```
 
 parameter.
-
-* 
 
   ```
   classic
@@ -299,13 +291,12 @@ parameter.
   ```
 
   .
-* 
 
   ```
   symmetric
   ```
 
-  : Returns an array of elements that are not common to both arrays.
+  Returns an array of elements that are not common to both arrays.
 
   In other words, the function returns an array that contains all of the elements of 
 
@@ -333,7 +324,9 @@ parameter.
 
   .
 
-``` ```**Examples: **`````` Given the following arrays:
+**Examples:** 
+
+Given the following arrays:
 
 ```
 myArray = [1,2,3,4,5]
@@ -342,8 +335,6 @@ myArray = [1,2,3,4,5]
 ```
 yourArray = [3,4,5,6,7]
 ```
-
-* 
 
   ```
   arrayDifference [myArray, yourArray, classic]
@@ -355,8 +346,6 @@ yourArray = [3,4,5,6,7]
   [1,2]
   ```
 
-* 
-
   ```
   arrayDifference [yourArray, myArray, classic]
   ```
@@ -366,8 +355,6 @@ yourArray = [3,4,5,6,7]
   ```
   [6,7]
   ```
-
-* 
 
   ```
   arrayDifference [myArray, yourArray, symmetric]

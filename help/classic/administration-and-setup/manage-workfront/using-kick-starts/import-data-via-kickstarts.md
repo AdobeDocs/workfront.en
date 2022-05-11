@@ -396,7 +396,7 @@ You can use the following wildcards when populating your Kick-Start template spr
 
 Though it is a best practice to use IDs whenever possible, sometimes it's inconvenient to cross-reference IDs from one sheet to another when setting a **setAttributeID** value. You can reference values by name simply by changing the column header.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * **(project import)**
 

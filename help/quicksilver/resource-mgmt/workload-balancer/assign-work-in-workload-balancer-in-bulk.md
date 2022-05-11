@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
    * Replace user assignments between users.
    * Unassign a user from all their work items.
 
-``` ```**Examples: **``````
+**Examples:** 
 
 * You are responsible for making user assignments on several new projects. The projects were originally created from templates and job roles are already assigned to the various tasks within the projects. You want to assign a specific user, Jackie Simms, to all tasks that are currently assigned to a job role. You can use the Assign function to assign these tasks to Jackie Simms.
 * 45 tasks across 3 different projects are assigned to Jackie Simms. Jackie leaves the organization, and now you need to reassign her tasks to another user. You can use the Replace function to assign these tasks to the new person. 

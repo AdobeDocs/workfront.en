@@ -59,7 +59,7 @@ For information, see [Calculated custom field example: display a Status timestam
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="display-a-status-timestamp-in-a-custom-form"><a name="display-status-time-stamp-in-custom-form"></a>Display a Status timestamp in a Custom Form</h3> <!--
+<p><strong>Display a Status timestamp in a Custom Form</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This section used to be undrafted but replaced it with a standlone article. See new article: /Content/Reports and Dashboards/Reports/Calc Cstm Data-Reports/example-status-timestamp-in-calculated-field.htm)</p>
 -->
 <p>The following calculated field displays the date when the specified object status was modified. </p>
@@ -152,7 +152,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="display-objects-that-are-not-included-in-the-standard-interface"><a name="displaying-objects-not-included-in-interface"></a>Display objects that are not included in the standard interface</h3> <!--
+<p><strong>Display objects that are not included in the standard interface</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/view-display-objects-not-in-standard-interface.htm)</p>
 -->
 <p>You can display objects in a view that are not included in the standard mode interface. Some objects can be included in a view only by referencing them via text mode.<br>You can know which fields can be included in a view in either of the following ways:</p>
@@ -160,19 +160,19 @@ If you still don't have access, ask your Workfront administrator if they set add
 <li>Use the <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a> to discover other objects that can be referenced via text mode.<br>Not all the fields documented in the API Explorer are valid fields for text mode. Some fields are only reportable through the API.</li>
 <li>A column or field name is not available in the standard mode interface, but the column or field ID is. Most objects that have a column or field ID also have a corresponding column or field name. However, in some cases, only the ID is displayed in the standard mode Interface. You can use text mode to include the column or field name in a view by replacing the <strong>fieldnameID</strong> with the <strong>fieldname:name</strong>.<br>For example, in the standard mode interface, the <strong>Sponsor ID</strong> field is available for a project, but the <strong>Sponsor Name</strong> field is not. You can use text mode to display the <strong>Sponsor Name</strong>, if you switch the <strong>Sponsor ID</strong> column to text mode and replace the text in the column with:<br><pre>valuefield=project:sponsor:name<br>querysort=project:sponsor:name<br>valueformat=HTML<br>displayname=Project Sponsor Name<br>linkedname=project<br>namekey=view.relatedcolumn<br>namekeyargkey.0=project<br>namekeyargkey.1=sponsorID</pre></li>
 </ul>
-<h3 id="make-a-calculation-between-two-fields-in-a-column"><a name="make-calculation-between-two-fields-in-a-column"></a>Make a calculation between two fields in a column</h3> <!--
+<p><strong>Make a calculation between two fields in a column</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/column-calculation-between-two-fields.htm)</p>
 -->
 <p>For example, if you want to find out the number of week days that elapsed between two dates, you can use text mode syntax and data expressions to calculate this difference.<br>For example, we want to calculate the week day difference between the Planned Completion Date and the Actual Completion Date of a task.<br>To do this, you can add a new column to a task view, and <strong>Switch to Text Mode</strong>. In the <strong>Click to edit text</strong> dialog box, paste the following text: </p>
 <pre>displayname=Week Day Difference<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueformat=HTML</pre>
 <p>You can use any other two dates in this calculation (Actual Start, Actual Completion, Projected Start, Projected Completion, etc).<br>For more information about calculated data expressions, see <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Calculated data expressions</a>.</p>
-<h3 id="edit-the-width-of-a-column-permanently"><a name="editing-width-of-column-permanently"></a>Edit the width of a column permanently</h3> <!--
+<p><strong>Edit the width of a column permanently</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/column-edit-column-width-permanently.htm) </p>
 -->
 <p>You can permanently change the width of a column by using these lines in the text mode of the column:</p>
 <pre>width=200<br>usewidths=true</pre>
 <p>For the <strong>width</strong> line, specify any number (in pixels), according to how wide you want the column to display in the report.</p>
-<h3 id="merge-multiple-columns-into-a-single-column"><a name="merging-multiple-columns-into-a-single-column"></a>Merge multiple columns into a single column</h3> <!--
+<p><strong>Merge multiple columns into a single column</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/view--merge-columns.htm)</p>
 -->
 <ul>
@@ -203,7 +203,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <li>Columns with the <strong>viewalias</strong> attribute can limit the amount of columns that you can merge. To avoid these limits, avoid using the <strong>viewalias</strong> attribute. If you must include the <strong>viewalias</strong> attribute in a column, make sure that they are the last item listed in the column.</li>
 </ul>
 </note>
-<h3 id="remove-a-link-to-an-object-from-the-view"><a name="remove-a-link"></a>Remove a link to an object from the view</h3> <!--
+<p><strong>Remove a link to an object from the view</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see this new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/column-remove-link-to-object.htm)</p>
 -->
 <p>Some objects that you display in a view are links to the Details page of the object, by default. For example, the column that displays the Name of a project is a link to the project; the column that displays the Name of a user is a link to the user profile page.</p>
@@ -212,11 +212,11 @@ If you still don't have access, ask your Workfront administrator if they set add
 <strong>valuefield</strong> line of the code with
 <strong>valueexpression</strong>. This removes the link from the view.
 </note>
-<h3 id="display-a-collection-in-a-view"><a name="display-a-collection-in-view"></a>Display a collection in a view</h3> <!--
+<p><strong>Display a collection in a view</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this already has its own article, maybe just list the other article in the TOC of the example) </p>
 -->
 <p>Display a collection in a report view. A collection is a list of objects that are linked to one other object.<br>For information about displaying a collection in a report view, see the "Reference collections in a View of a report" section in the article <a href="../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md" class="MCXref xref">Reference collections in a report</a>.</p>
-<h3 id="hide-the-content-of-a-column-in-a-view"><a name="hide-a-column-in-view"></a>Hide the content of a column in a view</h3> <!--
+<p><strong>Hide the content of a column in a view</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/column-hide-column-content.htm) </p>
 -->
 <p>You can build a column in a view for purposes of sorting the view by a certain field, but you can use text mode to hide the information inside the column from displaying in the view. In this case, the object in the column helps sort the view, but the information of that object does not display in the view.</p>
@@ -238,7 +238,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="display-an-image-in-a-view"><a name="display-an-image"></a>Display an image in a view</h3> <!--
+<p><strong>Display an image in a view</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/column-display-image-in-view.htm) </p>
 -->
 <p>You can replace the name of an object in a view with an image.</p> <note type="note">  Images appear in their actual resolution so try to use small images. This example is for projects, but it applies to any object with a
@@ -261,13 +261,13 @@ Avoid using images that are uploaded to Workfront. Because images stored in Work
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="display-task-indentations-in-a-view"><a name="display-task-indentations"></a>Display task indentations in a view</h3> <!--
+<p><strong>Display task indentations in a view</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:new article to replace this: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/view-display-task-identations.htm) </p>
 -->
 <p>Add this code to the Task Name column in a task view, to display the tasks indented according to the Work Breakdown Structure of the project:</p>
 <pre>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name}))))) </pre>
 <p>This adds up to four dashes before the task name to indicate the position of the child task. </p>
-<h3 id="calculate-time-and-date-differences"><a name="calculate-time-and-date-differences"></a>Calculate time and date differences</h3> <!--
+<p><strong>Calculate time and date differences</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replace with this article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/view-calculate-time-and-date-differences.htm ----- add to the toc article--- hide this content in this article) </p>
 --> <note type="important">  You cannot calculate the time and date difference in Workfront between two different objects of the same kind. For example, you cannot calculate the time and date difference between two dates on two different projects, tasks, or issues.
 </note>
@@ -319,12 +319,12 @@ For examples of the most common reasons for using text mode in a filter, see the
 <li> <p><a href="#create-complex-text-mode-filters-that-span-multiple-levels-in-the-object-hierarchy">Creating Complex Text-Mode Filters that Span Multiple Levels in the Object Hierarchy</a> </p> </li>
 <li> <p><a href="#create-complex-text-mode-filters-for-missing-objects">Creating Complex Text-Mode Filters for Missing Objects</a> </p> </li>
 </ul>
-<h3 id="create-multiple-filter-rules-that-reference-the-same-field"><a name="create-multiple-filter-rules-for-the-same-field"></a>Create multiple Filter Rules that reference the same field</h3> <!--
+<p><strong>Create multiple Filter Rules that reference the same field</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replace content with a link to here: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/filter-refrence-the-same-field-multiple-times.htm) </p>
 -->
 <p>In the standard mode interface, when attempting to create multiple filters that reference the same field (using the AND qualifier), one of the filters is deleted when you save the report and exit the report builder.<br>For example, Workfront does not allow you to save the following filter rules using the standard mode interface:<br>Task Name > Contains > Green<br>Task Name > Does Not Contain > Red<br>However, you can create these filters using text mode:</p>
 <pre>name=green<br>name_Mod=cicontains<br>AND:1:name=red<br>AND:1:name_Mod=cinotcontains</pre>
-<h3 id="filter-for-items-in-an-approval-status"><a name="filter-for-approval-status"></a>Filter for items in an approval status</h3> <!--
+<p><strong>Filter for items in an approval status</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replace this with a link to this: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/filter-for-items-in-approval-status.htm--- hide the content from here) </p>
 -->
 <p>To display only items in a certain status which is currently in Pending Approval:</p>
@@ -335,7 +335,7 @@ For examples of the most common reasons for using text mode in a filter, see the
 <li value="4">Modify the <em>status</em> line by adding a <strong>:A</strong> to the three letter key of the status:<br><pre>status=PLN:A<br>status_Mod=in</pre></li>
 <li value="5">Click <strong>Save Filter</strong>.<br>You can use the same steps to filter for all statuses of all objects that could be associated with an approval process.</li>
 </ol>
-<h3 id="filter-for-items-by-same-name-statuses-when-the-statuses-are-associated-with-different-groups"><a name="filter-for-same-name-group-statuses"></a>Filter for items by same-name statuses when the statuses are associated with different groups</h3> <!--
+<p><strong>Filter for items by same-name statuses when the statuses are associated with different groups</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: link to this article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/filter-same-name-statuses-from-different-groups.htm) </p>
 -->
 <p>You can have a task status assigned to Group A named <em>New Status</em> with the three-letter key <em>NST</em>. You may have another task status assigned to Group B also named <em>New Status</em> with the three-letter key <em>NES.</em> Although the names for the two statuses can be identical, the three letter code is always unique.<br>For more information about group statuses, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a>.<br>To distinguish between the two statuses in our example you can modify the text mode of the filter applied to a task list to ensure items in both statuses are identified:</p>
@@ -348,7 +348,7 @@ Only one status displays here. The status line displays one of the three-letter 
 <li value="4">Add the following two lines of code to add the status that is missing from the filter:<br><pre>status=NST<br>status_Mod=in<br>OR:1:status=NES<br>OR:1:status_Mod=in</pre></li>
 <li value="5">Click <strong>Save Filter</strong>.</li>
 </ol>
-<h3 id="filter-items-by-comparing-two-fields"><a name="filtering-by-comparing-two-fields"></a>Filter items by comparing two fields</h3> <!--
+<p><strong>Filter items by comparing two fields</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replace this and hide, the new article is: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/filter-items-by-comparing-two-fields.htm)</p>
 -->
 <p>For example, you can display only tasks where the Actual Completion Date of the task is greater than the Planned Completion Date:</p>
@@ -359,12 +359,12 @@ Only one status displays here. The status line displays one of the three-letter 
 <li value="4">Replace the text with the following code:<br><pre>actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt</pre></li>
 <li value="5">Click <strong>Save Filter</strong>.</li>
 </ol>
-<h3 id="create-complex-text-mode-filters-that-span-multiple-levels-in-the-object-hierarchy"><a name="Creating"></a>Create complex Text Mode filters that span multiple levels in the object hierarchy</h3> <!--
+<p><strong>Create complex Text Mode filters that span multiple levels in the object hierarchy</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina - links in this section and the following one are correct.)&nbsp;</p>
 -->
 <p>Using EXISTS statements in the text mode interface, you can filter for objects that are removed from the filter object by more than two levels of hierarchy.</p>
 <p>For information about filtering across multiple levels of object hierarchy, see the section <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples" class="MCXref xref">Examples of text mode filters that span multiple levels in the object hierarchy</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md" class="MCXref xref">Create complex Text Mode filters using EXISTS statements</a>.</p>
-<h3 id="create-complex-text-mode-filters-for-missing-objects"><a name="Creating2"></a>Create complex Text Mode filters for missing objects</h3>
+<p><strong>Create complex Text Mode filters for missing objects</strong></p>
 <p>Using EXISTS statements in the text mode interface, you can filter for objects that are missing. For example, you can display a list of users who did not log time in Workfront within a certain period of time or a list of custom fields that are not associated with any custom forms.</p>
 <p>For information about filtering for missing objects, see the section <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters" class="MCXref xref">Create complex text mode filters for missing objects</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md" class="MCXref xref">Create complex Text Mode filters using EXISTS statements</a>.</p>
 </div>
@@ -396,19 +396,19 @@ For examples of the most common reasons for using text mode in a grouping, see t
 <li><a href="#rename-a-grouping" class="MCXref xref">Rename a Grouping</a> </li>
 <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"><a href="#indicate-whether-the-results-in-a-grouping-should-be-collapsed-or-expanded" class="MCXref xref">Indicate whether the results in a Grouping should be collapsed or expanded</a> </li>
 </ul>
-<h3 id="group-results-by-a-calculated-value-common-to-all-objects-in-the-grouping"><a name="grouping-by-calculated-value"></a>Group results by a calculated value common to all objects in the grouping</h3> <!--
+<p><strong>Group results by a calculated value common to all objects in the grouping</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: hide this and see this article instead: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/grouping-by-calculated-common-values.htm) </p>
 -->
 <p>For example, you might want to view your tasks grouped by Percent Complete in ranges of 0-25, 26-50, 51-75, 75-99, and 100. Doing so would require using text mode for your grouping.<br>The grouping that you want to use for this example is:</p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;Alina: this should wrap within the page margins)</p>
 -->
 <pre>textmode=true<br>group.0.valueexpression=IF({percentComplete}>=0&&{percentComplete}<=25,'0-25%',IF({percentComplete}>25&&{percentComplete}<=50,'26-50%',IF({percentComplete}>50&&{percentComplete}<=75,'51-75%',IF({percentComplete}>75&&{percentComplete}<=100,'76-100%',''))))<br>group.0.linkedname=direct<br>group.0.valueformat=doubleAsString<br>group.0.namekey=percentComplete</pre>
-<h3 id="add-a-fourth-grouping-in-a-standard-report"><a name="add-fourth-grouping"></a>Add a fourth grouping in a standard report</h3> <!--
+<p><strong>Add a fourth grouping in a standard report</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: hide and replace this with: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/grouping-add-fourth-grouping.htm)&nbsp;</p>
 -->
 <p>You can have four groupings in a matrix report. For more information about matrix reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.<br>You can only have three groupings in a standard report through the standard interface. To add a fourth grouping in a standard report, you must use text mode.<br><img src="assets/four-groupings-in-a-standard-report-350x59.png" alt="Four_groupings_in_a_standard_report.png" style="width: 350;height: 59;"><br>For example, you have a task report which is grouped by Project Name, Progress Status and Planned Completion Date. You want to add a fourth grouping, for Assigned To Name. You can do that, with the following code inside your grouping builder:</p>
 <pre>group.0.linkedname=project<br>group.0.namekey=view.relatedcolumn<br>group.0.namekeyargkey.0=project<br>group.0.namekeyargkey.1=name<br>group.0.valuefield=project:name<br>group.0.valueformat=string<br>group.1.enumclass=com.attask.common.constants.ProgressStatusEnum<br>group.1.enumtype=TASK<br>group.1.linkedname=direct<br>group.1.namekey=progressStatus<br>group.1.type=enum<br>group.1.valuefield=progressStatus<br>group.1.valueformat=val<br>group.2.groupdatesby=WY<br>group.2.linkedname=direct<br>group.2.namekey=plannedCompletionDate<br>group.2.notime=false<br>group.2.valuefield=plannedCompletionDate<br>group.2.valueformat=atDateAsWeekString<br>group.3.valuefield=assignedTo:name<br>group.3.valueformat=HTML<br>textmode=true</pre>
-<h3 id="rename-a-grouping"><a name="rename-grouping"></a>Rename a Grouping</h3> <!--
+<p><strong>Rename a Grouping</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: hide here and this is the new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/grouping-rename-grouping.htm) </p>
 -->
 <p>You can rename groupings to something more familiar to your users. To do that, you can do one of the following in a grouping:</p>
@@ -420,7 +420,7 @@ For examples of the most common reasons for using text mode in a grouping, see t
 --></li>
 </ol>
 <div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<h3 id="indicate-whether-the-results-in-a-grouping-should-be-collapsed-or-expanded"><a name="Indicate"></a>Indicate whether the results in a Grouping should be collapsed or expanded</h3> <!--
+<p><strong>Indicate whether the results in a Grouping should be collapsed or expanded</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: hide this and its own article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/grouping-collapsed-or-expanded-results.htm) </p>
 -->
 <p>You can indicate whether the results in a grouping should display collapsed or expanded in a list or report. The results in a grouping display expanded, by default. For information about creating a grouping, see <a href="../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md" class="MCXref xref">Create groupings in Adobe Workfront</a>.</p>

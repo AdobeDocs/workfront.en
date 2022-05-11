@@ -314,7 +314,7 @@ A Template object represents a pattern for a project. Projects can be created fr
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h3 id="timesheet-tshet"><a name="Timeshee"></a>Timesheet (TSHET)</h3>
+<p><strong>Timesheet (TSHET)</strong></p>
 <p>A&nbsp;Timesheet object represents a virtual timecard that allows users to enter actual hours worked for tasks, projects, and overhead hour types.</p>
 <p>For more information, see <a href="../../timesheets/timesheets/timesheets-overview.md" class="MCXref xref">Timesheets overview</a>.</p>
 <table cellspacing="0">

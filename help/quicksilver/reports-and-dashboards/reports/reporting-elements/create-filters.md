@@ -220,7 +220,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 </table>
 <p>For information about Workfront objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p>
 </div>
-<h2 id="create-or-edit-a-filter-in-the-standard-builder"><a name="Create"></a>Create or edit a filter  in the standard builder </h2> <!--
+<p><strong>Create or edit a filter  in the standard builder </strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: second part of the title, NWE only)</p>
 -->
 <div>

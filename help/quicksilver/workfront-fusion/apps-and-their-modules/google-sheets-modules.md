@@ -74,7 +74,7 @@ To use Google Sheets modules, you must have a Google account.
 <li><a href="#workfront-fusion-add-on-installation" class="MCXref xref">Workfront Fusion Add-on Installation</a> </li>
 <li><a href="#connecting-the-instant-trigger-module-to-a-google-sheets-spreadsheet" class="MCXref xref">Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</a> </li>
 </ul>
-<h3 id="workfront-fusion-add-on-installation"><a name="Add-on"></a>Workfront Fusion Add-on Installation</h3> <!--
+<p><strong>Workfront Fusion Add-on Installation</strong></p> <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">There doesn't actually seem to be a Fusion add-on</p>
 -->
 <ol>
@@ -85,7 +85,7 @@ To use Google Sheets modules, you must have a Google account.
 <li value="5">Click the <strong>Allow</strong> button to grant access rights.</li>
 </ol>
 <p>The Workfront Fusion add-on is now installed.</p>
-<h3 id="connecting-the-instant-trigger-module-to-a-google-sheets-spreadsheet"><a name="Connecti3"></a>Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</h3>
+<p><strong>Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</strong></p>
 <p>In Workfront Fusion, open the Google Sheets Watch Changes Module. Make sure that you have webhook established.</p>
 <p>Copy the provided webhook address to the clipboard and click <strong>OK</strong>.</p>
 <p>Open your spreadsheet.</p>

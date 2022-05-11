@@ -12,13 +12,12 @@ You can assign issues to users, roles, and teams to indicate who is responsible 
 
 >[!TIP]
 >
->You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+>You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
 >
->```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+>If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
 >
->* ```Reassign the work item to active resources.``` 
->* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
->
+>* Reassign the work item to active resources.
+>* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
 
 In addition to this article, we recommend that you read the following articles for more information about assigning issues:
 
@@ -83,9 +82,8 @@ Consider the following when assigning multiple resources to a work item:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Remove"></a> </h2>
-<h2>Considerations about removing assignments from issues</h2> <!--
+<h2>Considerations about removing assignments from issues</h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and moved to Modify issue assignments overview article)</p>
--->
 <p>You can remove assignments from one issue at a time, or you can remove assignments from multiple issues in bulk.</p>
 <p>For more information about removing assignments from issues in bulk, see <a href="../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md" class="MCXref xref">Modify user assignments for multiple issues in a list</a>. </p>
 <p>Consider the following when removing assignments from issues: </p>
@@ -146,9 +144,7 @@ To assign issues in a list:
 
      ![](assets/assignments-field-task-list-nwe.png)
 
-1. (Conditional) When visible in the Assignments field, click the **People icon** ``` ![](assets/teams.png)
-
-   ``` in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Conditional) When visible in the Assignments field, click the **People icon** ![](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -183,4 +179,3 @@ To assign issues in a list:
 
 1. Click&nbsp;**Save Changes**.
 1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the **X icon** next to the name of an assignee to remove it from the issue.
-

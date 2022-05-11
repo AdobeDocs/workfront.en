@@ -10,8 +10,6 @@ Replacement tools that are based on current standards are available now in Workf
 
 The following dates are important for the removal process of all Flash-based tools in Workfront:
 
-* 
-
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>July 1, 2020</strong>: All Flash-based tools will be removed from all Workfront products for those customers who are not using them currently. </p>
   -->

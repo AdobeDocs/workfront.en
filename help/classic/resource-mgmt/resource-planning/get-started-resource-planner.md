@@ -238,7 +238,7 @@ For information about locating the Resource Planner, see [Locate the Resource Pl
 <li><a href="#use-the-resource-planner-for-multiple-projects" class="MCXref xref">Use the Resource Planner for multiple projects</a> </li>
 <li> <p><a href="#use-the-resource-planner-for-one-project" class="MCXref xref">Use the Resource Planner for one project</a> </p> </li>
 </ul>
-<h3 id="use-the-resource-planner-for-multiple-projects"><a name="Access"></a>Use the Resource Planner for multiple projects</h3>
+<p><strong>Use the Resource Planner for multiple projects</strong></p>
 <p>When using the Resource Planner for multiple projects, the allocation numbers for your resources represent numbers across multiple projects. </p>
 <p>To access the  Resource Planner subtab  in the  People area: </p>
 <ol>
@@ -247,7 +247,7 @@ For information about locating the Resource Planner, see [Locate the Resource Pl
 <li value="3">  Click <strong>Resource Pools</strong> to review existing resource pools and create new ones.  <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools</a>.</li>
 <li value="4" data-mc-conditions="QuicksilverOrClassic.Classic">Click <strong>Resource Planner</strong> to open the Resource Planner and review the budgeting of your resources.<br>For information about budgeting in the Resource Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>.</li>
 </ol>
-<h3 id="use-the-resource-planner-for-one-project"><a name="Access2"></a>Use the Resource Planner for one project</h3>
+<p><strong>Use the Resource Planner for one project</strong></p>
 <p>When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project. </p>
 <ol>
 <li value="1"> <p>Go to a project you want to budget resources for.</p> </li>
@@ -311,7 +311,7 @@ For more information about how Costs are calculated in the Resource Planner for 
 <p>(this information is repeated from above where it exists in shorter form. Drafted to simplify the amount of info of this article.) </p>
 <p>You can use the User View of the Resource Planner to display information about the Planned, Available, and Actual Hours or FTE values for projects and resources. </p>
 <p>For information about using the Resource Planner to review the Available, Planned, and Actual Hours and FTE for resources, see the article <a href="../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md" class="MCXref xref">View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view</a>.</p>
-<h2 id="use-the-project-and-role-views-to-budget-resources"><a name="Using2"></a>Use the Project and Role Views to budget resources </h2>
+<p><strong>Use the Project and Role Views to budget resources </strong></p>
 <p> The main function of the Resource Planner is to budget your resources for the work that needs to be completed on the projects that you can manage. </p>
 <p> You can budget your resources only if you apply the <strong>View by Project</strong> or <strong>View by Role</strong> views to the Resource Planner.</p>
 <p>For information about budgeting resources using the Project and Role views in the Resource Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md"><a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a></a>.</p>

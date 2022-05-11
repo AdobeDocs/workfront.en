@@ -536,7 +536,7 @@ This module allows you to perform a custom API call.
 <li><a href="#upload-a-file" class="MCXref xref">Upload a file</a> </li>
 <li><a href="#search-documents" class="MCXref xref">Search Documents</a> </li>
 </ul>
-<h3 id="watch-records"><a name="Watch"></a>Watch Records</h3>
+<p><strong>Watch Records</strong></p>
 <p>This trigger module executes a scenario when the scheduled poll shows that an object has been added or updated in SharePoint. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses.You can map this information in subsequent modules in the scenario.This trigger module executes a scenario when an object is added or updated. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. This is a scheduled trigger module.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -565,7 +565,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3 id="create-a-folder"><a name="Create"></a>Create a folder</h3>
+<p><strong>Create a folder</strong></p>
 <p>This action module creates a new folder.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -594,7 +594,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3 id="create-an-item"><a name="Create2"></a>Create an item</h3>
+<p><strong>Create an item</strong></p>
 <p>This action module creates a new item in a SharePoint list.</p>
 <p>The module returns the ID of the new item and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
 <p>When you are configuring this module, the following fields display.</p>
@@ -620,7 +620,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3 id="delete-an-item"><a name="Delete"></a>Delete an item</h3>
+<p><strong>Delete an item</strong></p>
 <p>This action module deletes an item that you identify.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -645,7 +645,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3 id="download-a-file"><a name="Download"></a>Download a file</h3>
+<p><strong>Download a file</strong></p>
 <p>This action module downloads a file from a SharePoint drive.</p>
 <p>You specify the ID of the file.</p>
 <p>The module returns the file's content, filename, file extension, and file size. You can map this information in subsequent modules in the scenario.</p>
@@ -672,7 +672,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3 id="read-a-document"><a name="Read"></a>Read a document</h3>
+<p><strong>Read a document</strong></p>
 <p>This action module reads a single document and returns a bundle of the document's fields.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -697,7 +697,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3 id="read-an-item"><a name="Read2"></a>Read an item</h3>
+<p><strong>Read an item</strong></p>
 <p>This action module reads a single item and returns a bundle of the item's fields.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -722,7 +722,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3 id="update-an-item"><a name="Update"></a>Update an item</h3>
+<p><strong>Update an item</strong></p>
 <p>This action module updates an existing item in a SharePoint list.</p>
 <p>When you are configuring this module, the following fields display.</p>
 <table cellspacing="0">
@@ -747,7 +747,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3 id="upload-a-file"><a name="Upload"></a>Upload a file</h3>
+<p><strong>Upload a file</strong></p>
 <p>This action module uploads a file to SharePoint</p>
 <p>You specify the location for the file, the file you want to upload, and an optional new name for the file.</p>
 <p>The module returns the ID of the  file and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
@@ -778,7 +778,7 @@ This module allows you to perform a custom API call.
 </tr>
 </tbody>
 </table>
-<h3 id="search-documents"><a name="Search"></a>Search Documents</h3>
+<p><strong>Search Documents</strong></p>
 <p>This search module searches for a file or folder inside a SharePoint drive.</p>
 <table cellspacing="0">
 <col>

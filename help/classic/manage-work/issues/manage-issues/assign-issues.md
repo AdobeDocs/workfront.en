@@ -87,9 +87,11 @@ Consider the following when assigning multiple resources to a work item:
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2><a name="Remove"></a> </h2>
-<h2>Considerations about removing assignments from issues</h2> <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and moved to Modify issue assignments overview article)</p>
+<h2>Considerations about removing assignments from issues</h2> 
 -->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and moved to Modify issue assignments overview article)</p>
 <p>You can remove assignments from one issue at a time, or you can remove assignments from multiple issues in bulk.</p>
 <p>For more information about removing assignments from issues in bulk, see <a href="../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md" class="MCXref xref">Modify user assignments for multiple issues in a list</a>. </p>
 <p>Consider the following when removing assignments from issues: </p>

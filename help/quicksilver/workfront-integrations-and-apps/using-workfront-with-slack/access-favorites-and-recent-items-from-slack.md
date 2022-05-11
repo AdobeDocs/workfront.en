@@ -72,8 +72,6 @@ Before you can access your favorites and recent items from Slack, you must
 
 * ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
 
-* 
-
 1. (Optional) Click **Show more** to list more Favorites.
 1. Click the name of a favorite to open it in Workfront in a new browser tab.
 

@@ -79,13 +79,9 @@ You can configure whether the BCWS is calculated in hours or costs by configurin
 
 Workfront calculates the Budgeted Cost of Work Scheduled (BCWS) for tasks or projects by using the following formulas:
 
-* 
-
   ```
   Task BCWS = Planned Percent Complete x Task Budget
   ```
-
-* 
 
   ```
   Project BCWS = SUM(BCWS values of all parent and individual tasks)

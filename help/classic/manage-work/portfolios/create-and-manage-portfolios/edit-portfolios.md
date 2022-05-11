@@ -144,7 +144,7 @@ You must have the following access to perform the steps in this article:
 <li><a href="#comment" class="MCXref xref">Comment</a></li>
 </ul></li>
 </ol>
-<h3 id="overview"><a name="Issue"></a>Overview</h3>
+<p><strong>Overview</strong></p>
 <ol>
 <li value="1">Begin editing a portfolio as described above.</li>
 <li value="2"> <p>Click <strong>Overview</strong> and specify the following fields: </p>
@@ -193,7 +193,7 @@ Depending on how your Workfront administrator set the permissions for the sectio
 </note> </li>
 <li value="3"> <p>Update any fields in the custom forms, then click <strong>Save Changes</strong> or continue with the following section. </p> </li>
 </ol>
-<h3 id="comment"><a name="Comment"></a>Comment</h3>
+<p><strong>Comment</strong></p>
 <ol>
 <li value="1"> <p>Begin editing a portfolio as described above.</p> </li>
 <li value="2"> <p>Click&nbsp;<strong>Comment</strong>. </p> <p> <img src="assets/comment-box-edit-portfolio-classic-350x227.png" style="width: 350;height: 227;"> </p> </li>

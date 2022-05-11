@@ -99,7 +99,7 @@ This module can read variables that were set anywhere in the scenario, even if t
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/get-variable-350x240.png" style="width: 350;height: 240;"> </p>
 -->
 
-``` ```**Examples: **`````` The following are possible uses of the Set/Get (multiple) variable(s) modules:
+**Examples:**  The following are possible uses of the Set/Get (multiple) variable(s) modules:
 
 * To store a calculated value for later use, even in a different route. This is useful in cases when the value is used in multiple modules and the formula to calculate the value is overly complex.
 * To debug a formula. If a formula used in a module does not seemingly provide a correct result, copy the formula and paste it into a Set Variable module that you insert before the relevant module. Disconnect the module(s) after the Set Variable module and execute the scenario. Verify the Set Variable module's output, adjust or simplify the formula, execute the scenario again, and continue to do so until the issue has been resolved.
