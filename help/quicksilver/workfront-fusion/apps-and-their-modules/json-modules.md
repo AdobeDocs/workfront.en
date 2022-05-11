@@ -38,11 +38,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td> 
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+     </td> 
    </tr>
   --> 
  </tbody> 
@@ -85,7 +84,7 @@ If the JSON string field contains a collection
 
 "ID" : 1
 
-}
+`}`
 The output is a single bundle containing the items of the collection:
 
 ![](assets/json-collection.png)
@@ -106,17 +105,17 @@ If the JSON string field contains an array
 
 "ID" : 1
 
-},
+`},`
 
-{
+`{`
 
 "name" : "Mike",
 
 "ID" : 2
 
-}
+`}`
 
-]
+`]`
 The output is a series of bundles. Each bundle contains one element of the array:
 
 ![](assets/json-array.png)

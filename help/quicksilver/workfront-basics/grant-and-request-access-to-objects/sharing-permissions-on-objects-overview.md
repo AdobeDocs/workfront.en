@@ -54,9 +54,9 @@ You can share the following objects in&nbsp;Workfront with other users:
 
 * **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
 
-* ```**Plans**: For information, see [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md).```
+* **Plans**: For information, see [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md).
 
-  ```This requires an additional license.``` 
+  This requires an additional license.
 
 * **Goals**: For information, see [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
@@ -74,17 +74,13 @@ You can share the following objects in&nbsp;Workfront with other users:
 
   >[!NOTE]
   >
-  >```You can share a plan or a goal only with other active users``` ```.``` ```This requires additional licenses.```
+  >You can share a plan or a goal only with other active users. This requires additional licenses.
   >
   >
-  >```For more information see:``` 
+  >For more information see:
   >
-  >   
-  >   
-  >   * [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md) 
-  >   * [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md) 
-  >   
-  >
+  >* [Share a plan in the Scenario Planner](../../scenario-planner/share-a-plan.md) 
+  >* [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md) 
 
 ## Share limitations
 
@@ -170,9 +166,8 @@ If you want to grant lower permissions to a user who is already part of an organ
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Removing"></a>Remove permissions from objects</h2> <!--
+<h2><a name="Removing"></a>Remove permissions from objects</h2>
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">AL: draft/ hide this div when Becky makes Remove permissions from objects live and replace with the drafted content with the link at the top of this section</p>
--->
 <p>You can remove permissions from objects you have access to Share. Removing permissions from objects is identical for all objects that can be shared.&nbsp;</p> <note type="note">
 &nbsp;You cannot remove permissions when you share items in bulk. You can remove permissions only when selecting individual items.&nbsp;
 </note>

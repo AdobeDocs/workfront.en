@@ -26,13 +26,13 @@ Depending what area of Workfront you access your task or issue from, the Work On
 
   >[!TIP]
   >
-  >```You can replace the Work On It button with a Start button. For information about replacing the Work On It button with a Start button, see``` ``` [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)``` ```.```
+  >You can replace the Work On It button with a Start button. For information about replacing the Work On It button with a Start button, see  [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
 * After you have clicked Work On It accept, the button changes to I'm Done or Done, depending on where in&nbsp;Workfront you access the task or the issue from. For information about where you can access the Work On It button, see the section [Locate the Work On It and Done button](#locate-the-work-on-it-and-done-button) in this article.
 
   ![](assets/classic-done-button.png)
 
-* ```If you are not the only one assigned to the task or issue and you are accessing your work item from the Work List in the Home area, the button changes to Done with my part.```
+* If you are not the only one assigned to the task or issue and you are accessing your work item from the Work List in the Home area, the button changes to Done with my part.
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)
 
@@ -85,7 +85,7 @@ In addition to the fields that update when you click the Work On&nbsp;It button,
 
 >[!NOTE]
 >
->```Clicking the Actually, I'm not ready to start button returns the work item to the original status and deletes the Actual Start Date.``` 
+>Clicking the Actually, I'm not ready to start button returns the work item to the original status and deletes the Actual Start Date. 
 >
 >The Actually I'm not ready to start button is not available in the following areas:
 >

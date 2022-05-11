@@ -143,7 +143,7 @@ You must have the following access to perform the steps in this article:
 **Allow users to delete tasks & issues with logged hours**: Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.
 
 * When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet & Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet & Hours Preferences, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). 
-* ```When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours``` ```.``` The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted.  The tasks and issues cannot be deleted.
+* When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted.  The tasks and issues cannot be deleted.
 
 ### Actual Dates {#actual-dates}
 
