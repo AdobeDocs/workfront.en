@@ -3,11 +3,11 @@ filename: _tips-tricks-and-troubleshooting-timesheets
 content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Tips, Tricks, and Troubleshooting
+title: Tips, tricks, and troubleshooting for timesheets
 description: This section contains the following articles - EDIT ME.
 ---
 
-# Tips, Tricks, and Troubleshooting
+# Tips, tricks, and troubleshooting for timesheets
 
 This section contains the following articles:
 
