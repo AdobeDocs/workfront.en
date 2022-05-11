@@ -233,8 +233,6 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
 
-   For information about the additional functionality available when adding an update, see [Update work](#).
-
 ## Enable or disable system updates
 
 The Updates tab for a Workfront object displays two types of information:

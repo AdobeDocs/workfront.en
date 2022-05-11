@@ -42,7 +42,7 @@ Locking a project, task, or issue preference that you have configured at the```<
 
 Conversely, unlocking a project, task, or issue preference allows group administrators more flexibility to manage the way their groups work with those items. When a preference is unlocked, group administrators can reconfigure it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level"> their groups</MadCap:conditionalText>```.
 
-For instructions on locking or unlocking a system-level project, task, or issue preference, see [Lock or unlock project preferences for all groups in the system](#) or this one needs to be broken out on it's own also: [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+For instructions on locking or unlocking a system-level project, task, or issue preference, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 >[!NOTE]
 >

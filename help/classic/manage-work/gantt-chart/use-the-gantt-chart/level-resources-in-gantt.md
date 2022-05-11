@@ -65,7 +65,7 @@ Consider the following when leveling resources on a project:
 
 ## Apply Resource Leveling in the Gantt Chart
 
-You can use the Task List Gantt Chart to level your resources. For information on about leveling resources in the Gantt chart, see [Level Resources in the Gantt Chart](#).
+You can use the Task List Gantt Chart to level your resources.
 
 1. Go to the project you want to level.
 1. On the **Tasks** tab, click the **Gantt chart** icon.

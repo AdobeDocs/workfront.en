@@ -109,5 +109,3 @@ The first time you log in to Workfront after your organization is upgraded to th
 ## Use Legacy Authentication (for organizations not yet migrated to the Enhanced Authentication experience)
 
 If your organization has not yet been migrated to the Enhanced Authentication experience, you must continue to use the legacy form of authentication until your organization is migrated to the new form of authentication.
-
-For information about how to view or modify Legacy Authentication settings, see the article [Enhanced Authentication 1.0](#).

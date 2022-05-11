@@ -19,8 +19,6 @@ description: As a Workfront Proof administrator, you can manage your public and 
 
 As a Workfront Proof administrator, you can manage your public and private Groups on the Groups page.
 
-For more information about Groups, see [Manage Groups using Workfront Proof](#).
-
 ## Opening the Groups Page
 
 1. Click **Groups** in the left navigation sidebar.  
