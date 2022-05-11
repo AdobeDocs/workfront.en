@@ -93,25 +93,15 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * You can only edit comments you entered. 
-   >   * There is no time limit for how long after you enter a comment you are allowed to edit it.
-   >   
-   >
+   >* You can only edit comments you entered. 
+   >* There is no time limit for how long after you enter a comment you are allowed to edit it.
 
 1. (Optional)&nbsp;Click&nbsp;**Delete** to delete your comment, then click&nbsp;**Yes, Delete** to confirm.
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * You can only delete comments you entered. 
-   >   * There is no time limit for how long after you enter a comment you are allowed to delete it.
-   >   
-   >
+   >* You can only delete comments you entered. 
+   >* There is no time limit for how long after you enter a comment you are allowed to delete it.
 
 1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
 

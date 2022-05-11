@@ -74,13 +74,8 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
-   >   * The results of a grouping always display expanded after accessing them from a chart element or in a legacy list. In these cases, this setting is ignored.
-   >   
-   >
+   >* When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >* The results of a grouping always display expanded after accessing them from a chart element or in a legacy list. In these cases, this setting is ignored.
 
 1. Repeat Steps 4, 5, and 6 to define additional groupings.  
    You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).

@@ -69,34 +69,8 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * For the Calculated Assignment Duration Type, Workfront uses the following formula to calculate the allocation percentage of each assignee: 
-   >   
-   >   
-   >   
-   >   
-   >     ```   >   
-   >     Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day
-   >     ```   >   
-   >   
-   >     /    >   
-   >   
-   >     ```   >   
-   >     Number of assignees
-   >     ```   >   
-   >   
-   >     .
-   >   
-   >   
-   >   
-   >
-   >   
-   >   
-   >   * For the Simple Duration Type, you can estimate the hours assigned to each resource, not the allocation percentage. 
-   >   
-   >
+   >* For the Calculated Assignment Duration Type, Workfront uses the following formula to calculate the allocation percentage of each assignee: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
+   >* For the Simple Duration Type, you can estimate the hours assigned to each resource, not the allocation percentage. 
 
 1. Click **Assignments**, then modify the **Allocations** for each task assignee.
 

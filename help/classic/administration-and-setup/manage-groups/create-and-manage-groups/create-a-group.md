@@ -175,13 +175,8 @@ To create a new top-level group by copying a group or subgroup:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)".
-   >   * You can eliminate any user or subgroup from the original group by clicking the X to the right of the user’s or subgroup’s name.
-   >   
-   >
+   >* If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)".
+   >* You can eliminate any user or subgroup from the original group by clicking the X to the right of the user’s or subgroup’s name.
 
 1. Click **Create Group**.
 

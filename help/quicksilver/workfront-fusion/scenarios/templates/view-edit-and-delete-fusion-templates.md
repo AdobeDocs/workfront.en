@@ -75,13 +75,8 @@ You must have the following access to use the functionality in this article:
 
    >[!NOTE]
    >
-   >
-   >   
-   >   
-   >   * If the template you want to access was not created by a you or member of your team, and is not public yet, you can ask the person who created and published it to share the template link with you.
-   >   * If you cannot find the public template that has been created by you, contact the administrator. It is possible that before approving your template, the administrator had renamed it.
-   >   
-   >
+   >* If the template you want to access was not created by a you or member of your team, and is not public yet, you can ask the person who created and published it to share the template link with you.
+   >* If you cannot find the public template that has been created by you, contact the administrator. It is possible that before approving your template, the administrator had renamed it.
 
 1. Click the template that you want to view.
 

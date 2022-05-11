@@ -112,13 +112,11 @@ Consider the following information about configuring an unlocked timesheet or ho
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
-      <td> <p>Restrict editing to timesheet owners<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-         , the group's administrators,
-        </MadCap:conditionalText> and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
+      <td> <p>Restrict editing to timesheet owners<!--<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">-->, the group's administrators,<!--</MadCap:conditionalText>--> and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
        <ul> 
-        <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
-        <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
-        <li> <p>The manager of the timesheet owner</p> </li> 
+       <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
+       <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
+       <li> <p>The manager of the timesheet owner</p> </li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

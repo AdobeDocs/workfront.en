@@ -58,14 +58,9 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * You can only add a chart to a report when the report results are grouped. 
-   >   * Text-mode groupings are not supported in charts. For more information about text-mode groupings, see [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md). 
-   >   * If you add a single grouping that represents one metric, all charts but a pie chart display each result in the grouping as the same color. 
-   >   
-   >
+   >* You can only add a chart to a report when the report results are grouped. 
+   >* Text-mode groupings are not supported in charts. For more information about text-mode groupings, see [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md). 
+   >* If you add a single grouping that represents one metric, all charts but a pie chart display each result in the grouping as the same color. 
 
    For more information about groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 

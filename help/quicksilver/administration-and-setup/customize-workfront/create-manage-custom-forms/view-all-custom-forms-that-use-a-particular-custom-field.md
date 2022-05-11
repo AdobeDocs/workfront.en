@@ -69,7 +69,7 @@ You must have the following to perform the steps in this article:
    <img src="assets/warning-message-fields-used-elsewhere-350x221.png" style="width: 350;height: 221;"> 
 
    <!--
-   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the blue arrow in the warning message to see which custom forms are using the field<!--
+   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the blue arrow in the warning message to see which custom forms are using the field
    <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    or widget
    </MadCap:conditionalText>

@@ -160,13 +160,8 @@ To review goals in the Goal List:
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * When printing a list of goals, the file produced contains only the information displayed on the screen. Items eliminated by filtering a list of goals do not display in the .pdf file.
-   >   * When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.
-   >   
-   >
+   >* When printing a list of goals, the file produced contains only the information displayed on the screen. Items eliminated by filtering a list of goals do not display in the .pdf file.
+   >* When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 

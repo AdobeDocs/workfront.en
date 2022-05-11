@@ -103,14 +103,9 @@ You can also designate template ownership before you install the blueprint. You 
 
    >[!TIP]
    >
-   >
-   >   
-   >   
-   >   * Using the issue preferences helps create consistency in the way that new issues or requests are captured on your projects.
-   >   * Setting these preferences does not automatically make the projects created from the template into request queues. For information about setting up a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-   >   * Not all blueprints contain new issue preferences.
-   >   
-   >
+   >* Using the issue preferences helps create consistency in the way that new issues or requests are captured on your projects.
+   >* Setting these preferences does not automatically make the projects created from the template into request queues. For information about setting up a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >* Not all blueprints contain new issue preferences.
 
 ## Role mapping {#role-mapping}
 
