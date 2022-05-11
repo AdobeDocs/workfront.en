@@ -916,9 +916,12 @@ user-guide-description: Workfront
       * [View or download a linked asset from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
       * [Send a Document to Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
       * [Proof a linked asset for Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-* [Manage work](manage-work/manage-work.md)
-  * [Projects](manage-work/projects/projects-overview.md)
-    * [Plan a project](manage-work/projects/planning-a-project/plan-project-overview.md)
+* Manage Work {#manage-work}
+  * [Manage work](manage-work/manage-work.md)
+  * Projects {#projects}
+    * [Projects](manage-work/projects/projects-overview.md)
+    * Plan a project {#plan-a-project}
+      * [Plan a project](manage-work/projects/planning-a-project/plan-project-overview.md)
       * [Plan a project overview](manage-work/projects/planning-a-project/plan-project.md)
       * [Determine Work Breakdown Structure in a project](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
       * [Project Team overview](manage-work/projects/planning-a-project/project-team-overview.md)
@@ -938,13 +941,15 @@ user-guide-description: Workfront
       * [Overview of the Projected Completion Date for projects, tasks, and issues](manage-work/projects/planning-a-project/project-projected-completion-date.md)
       * [Project Progress Status overview](manage-work/projects/planning-a-project/project-progress-status.md)
       * [Overview of the project Projected Start Date](manage-work/projects/planning-a-project/project-projected-start-date.md)
-    * [Create projects](manage-work/projects/create-projects/create-projects-overview.md)
+    * Create projects {#create-projects}
+      * [Create projects](manage-work/projects/create-projects/create-projects-overview.md)
       * [Create a project](manage-work/projects/create-projects/create-project.md)
       * [Request a project](manage-work/projects/create-projects/request-project.md)
       * [Create a project using a template](manage-work/projects/create-projects/create-project-from-template.md)
       * [Import a project from Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
       * [Create project baselines](manage-work/projects/create-projects/create-baselines.md)
-    * [Update work on a project](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+    * Update work on a project {#update-work-on-a-project}
+      * [Update work on a project](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
       * [Apply statuses to work that is associated with a group](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
       * [Update task status](manage-work/projects/updating-work-in-a-project/update-task-status.md)
       * [Update issue status](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -954,7 +959,8 @@ user-guide-description: Workfront
       * [Interactions between the Commit Date and the Planned Completion Date](manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)
       * [Update Condition for tasks and issues](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
       * [Update Condition for a project](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
-    * [Manage projects](manage-work/projects/manage-projects/manage-projects-overview.md)
+    * Manage projects {#manage-projects} 
+      * [Manage projects](manage-work/projects/manage-projects/manage-projects-overview.md)
       * [Edit projects](manage-work/projects/manage-projects/edit-projects.md)
       * [Copy a project](manage-work/projects/manage-projects/copy-project.md)
       * [Save a project as a template](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -975,7 +981,8 @@ user-guide-description: Workfront
       * [Manage a project in the Agile View](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
       * [Overview of project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
-    * [Create and manage project templates](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+    * Create and manage project templates {#create-and-manage-project-templates}
+      * [Create and manage project templates](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
       * [Project template overview](manage-work/projects/create-and-manage-templates/project-template-overview.md)
       * [Create a project template](manage-work/projects/create-and-manage-templates/create-template.md)
       * [Create project templates from examples](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
@@ -990,7 +997,8 @@ user-guide-description: Workfront
       * [Remove template information from a project](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
       * [Overview of Start and Completion Days in a template](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
-    * [Define a Business Case](manage-work/projects/define-a-business-case/define-business-case.md)
+    * Define a Business Case {#define-business-case}
+      * [Define a Business Case](manage-work/projects/define-a-business-case/define-business-case.md)
       * [Overview of the Areas of the Business Case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
       * [Create a Business Case for a project](manage-work/projects/define-a-business-case/create-business-case.md)
       * [Approve a Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1003,8 +1011,9 @@ user-guide-description: Workfront
       * [Attach a Custom Form to a Business Case](manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
       * [Create and edit risks on projects](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
       * [Export the Business Case of a project](manage-work/projects/define-a-business-case/export-business-case.md)
-    * [Project finances](manage-work/projects/project-finances/project-finances-overview.md)
-      * [Project finances](manage-work/projects/project-finances/project-finances-overview-1.md)
+    * Project finances {#project-finances}
+      * [Project finances](manage-work/projects/project-finances/project-finances-overview.md)
+      * [Project finances fields](manage-work/projects/project-finances/project-finances-overview-1.md)
       * [Recalculate project finances](manage-work/projects/project-finances/recalculate-project-finances.md)
       * [Project finances included in project baselines](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
       * [Manage information in the project Finance area](manage-work/projects/project-finances/manage-project-finance-area.md)
@@ -1030,7 +1039,8 @@ user-guide-description: Workfront
       * [Calculate Budgeted Cost of Work Scheduled (BCWS)](manage-work/projects/project-finances/calculate-bcws.md)
       * [Understand Budgeted Labor Cost and Budgeted Hours for projects](manage-work/projects/project-finances/budgeted-labor-cost.md)
       * [Calculate Planned Labor Cost](manage-work/projects/project-finances/planned-labor-cost.md)
-    * [Tips, tricks, and troubleshooting for projects](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+    * Tips, tricks, and troubleshooting for projects {#tips-tricks-troubleshooting-for-projects}
+      * [Tips, tricks, and troubleshooting for projects](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
       * [Projects FAQs](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
       * [Project status will not change from Complete to Current](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
       * [Calculation example - Calculate EAC as a roll up from tasks](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
