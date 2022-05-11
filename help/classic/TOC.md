@@ -948,8 +948,10 @@ user-guide: null
       * [Autocomplete tasks still show up on My Work screen](manage-work/projects/tips-tricks-and-troubleshooting/autocompleted-task-still-shows-up-on-my-work-list.md)
       * [Calculation example - Calculate EAC as a roll up from tasks](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
       * [Calculation example - calculate EAC at the Project Level](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
-  * [Tasks](manage-work/tasks/tasks-overview.md)
-    * [Task information](manage-work/tasks/task-information/task-information.md)
+  * Tasks {#tasks}
+    * [Tasks](manage-work/tasks/tasks-overview.md)
+    * Tasks information {#tasks-information}
+      * [Task information](manage-work/tasks/task-information/task-information.md)
       * [Tasks overview](manage-work/tasks/task-information/tasks-overview.md)
       * [View Actual Hours](manage-work/tasks/task-information/actual-hours.md)
       * [Task Tracking Mode overview](manage-work/tasks/task-information/task-tracking-mode.md)
@@ -970,12 +972,14 @@ user-guide: null
       * [Resource Scope overview](manage-work/tasks/task-information/resource-scope.md)
       * [Overview of task Original Duration and Original Planned Hours](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
       * [Difference between Planned Duration and Duration for tasks](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
-    * [Create tasks overview](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+    * Create tasks {#create-tasks}
+      * [Create tasks](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
       * [Create tasks overview](manage-work/tasks/create-tasks/create-tasks-overview.md)
       * [Create tasks in a project](manage-work/tasks/create-tasks/create-tasks-in-project.md)
       * [Create subtasks](manage-work/tasks/create-tasks/create-subtasks.md)
       * [Create recurring tasks](manage-work/tasks/create-tasks/create-recurring-tasks.md)
-    * [Assign tasks](manage-work/tasks/assign-tasks/assign-tasks-1.md)
+    * Assign tasks {#assign-tasks}
+      * [Assign tasks overview](manage-work/tasks/assign-tasks/assign-tasks-1.md)
       * [Assign tasks](manage-work/tasks/assign-tasks/assign-tasks.md)
       * [Create advanced assignments](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
       * [Smart assignments overview](manage-work/tasks/assign-tasks/smart-assignments.md)
@@ -984,7 +988,8 @@ user-guide: null
       * [Manage user or role allocation percentage on tasks](manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)
       * [Manage user and role allocation hours on tasks](manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
       * [Make smart assignments](manage-work/tasks/assign-tasks/make-smart-assignments.md)
-    * [Manage tasks](manage-work/tasks/manage-tasks/manage-tasks.md)
+    * Manage tasks {#manage-tasks}
+      * [Manage tasks](manage-work/tasks/manage-tasks/manage-tasks.md)
       * [Edit tasks](manage-work/tasks/manage-tasks/edit-tasks.md)
       * [Edit tasks in a list](manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
       * [Overview of saving concurrent changes within a task list](manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
@@ -997,7 +1002,8 @@ user-guide: null
       * [Overview of the project Critical Path](manage-work/tasks/manage-tasks/critical-path.md)
       * [Associate milestones with tasks](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
       * [Convert a task to a project](manage-work/tasks/manage-tasks/convert-task-to-project.md)
-    * [Task Constraints](manage-work/tasks/task-constraints/task-constraints.md)
+    * Task Constraints {#task-constraints}
+      * [Task Constraints](manage-work/tasks/task-constraints/task-constraints.md)
       * [Task Constraint overview](manage-work/tasks/task-constraints/task-constraint-overview.md)
       * [Task Constraint overview: Start No Later Than](manage-work/tasks/task-constraints/start-no-later-than.md)
       * [Task Constraint overview: Start No Earlier Than](manage-work/tasks/task-constraints/start-no-earlier-than.md)
@@ -1011,7 +1017,8 @@ user-guide: null
       * [Task Constraint overview: As Soon As Possible](manage-work/tasks/task-constraints/as-soon-as-possible.md)
       * [Task Constraint overview: As Late As Possible](manage-work/tasks/task-constraints/as-late-as-possible.md)
       * [Update the Task Constraint of a task](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
-    * [Task Duration and Duration Types](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+    * Task Duration and Duration Type {#task-duration-and-duration-type}
+      * [Task Duration and Duration Types](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
       * [Overview of Task Duration and Duration Type](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
       * [Duration Type overview: Calculated Assignment](manage-work/tasks/taskdurtn/calculated-assignment.md)
       * [Duration Type overview: Effort Driven](manage-work/tasks/taskdurtn/effort-driven.md)
@@ -1020,7 +1027,8 @@ user-guide: null
       * [Update the Duration Type of a task](manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
       * [Update the Planned Hours and Duration of a task with a Simple Duration Type](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
       * [Duration Types in Adobe Workfront and Microsoft Project](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
-    * [Use task predecessors](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
+    * Use task predecessors {#use-task-predecessors}
+      * [Use task predecessors](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
       * [Overview of task predecessors](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
       * [Create a predecessor relationship on the task list](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
       * [Create a predecessor relationship using the Predecessors area](manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md)
@@ -1030,7 +1038,8 @@ user-guide: null
       * [Enforce predecessors](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
       * [Overview of Lag Types](manage-work/tasks/use-prdcssrs/lag-types.md)
       * [Task dependency loop overview](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
-    * [Tips, tricks, and troubleshooting for tasks](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
+    * Tips, tricks, and troubleshooting for tasks {#tips-tricks-troubleshooting-for-tasks}
+      * [Tips, tricks, and troubleshooting for tasks](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
       * [Tasks FAQs](manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
       * [Projected Duration does not match Planned Duration](manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
   * [Issues](manage-work/issues/issues-overview.md)
