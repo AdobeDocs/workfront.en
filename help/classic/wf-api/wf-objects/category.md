@@ -155,32 +155,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"
 
 | Label |Name |Arguments |
 |---|---|---|
-| Assign Categories |assignCategories |
-
-```
-[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]
-```
-
-|
-| Assign Category |assignCategory |[
-
-```
-{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]
-```
-
-|
-| Unassign Categories |unassignCategories |
-
-```
-[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]
-```
-
-|
-| Unassign Category |unassignCategory |
-
-```
-[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]
-```
-
-|
-
+| Assign Categories |assignCategories |`[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]`|
+| Assign Category |assignCategory |`[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]`|
+| Unassign Categories |unassignCategories |`[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]`|
+| Unassign Category |unassignCategory |`[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]`|

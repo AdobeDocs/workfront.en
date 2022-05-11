@@ -114,7 +114,7 @@ To create a filter in the Resource Planner:
 
    The **Planner** displays by default.
 
-   ```<font size="2" data-mc-conditions="QuicksilverOrClassic.Quicksilver">By default, the first time you access the Resource Planner, the <strong>Default Filter</strong> is applied.<br>For more information about the Default filter, see the <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Overview of the Default Filter in the Resource Planner</a> section in this article. </font>``` 
+   By default, the first time you access the Resource Planner, the <strong>Default Filter</strong> is applied.<br>For more information about the Default filter, see the <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Overview of the Default Filter in the Resource Planner</a> section in this article.  
 
 1. In the upper-left corner of the , click the **Filter** icon.  
    ![filter_icon.png](assets/filter-icon.png)  

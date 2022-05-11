@@ -43,7 +43,7 @@ description: Updated Resources
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<font size="2">COUNT</font>```  |
+| ID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |COUNT  |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |GET&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |REPORT&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH&nbsp; |
@@ -65,7 +65,7 @@ description: Updated Resources
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | customerID |customer |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```<font size="2">groupID</font>```  |group |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| groupID  |group |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | planLimit |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | usedLicenses |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | worklimit |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
@@ -116,11 +116,11 @@ The following existing resources have been updated with this release of the Work
 
 ```¹```added validator LESS_THAN_EQUAL
 
-### ```<font size="4">BudgetedHour</font>```
+### BudgetedHour
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<font size="1">ID</font>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ID  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;
 
@@ -132,25 +132,25 @@ The following existing resources have been updated with this release of the Work
 
 ¹ Changes to possibleValues
 
-### ```<font size="4">DocMetadataLinkGroup</font>```
+### DocMetadataLinkGroup
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |getMetadataForDocument |&nbsp; |&nbsp; |
 
-### ```<font size="4">Document</font>```
+### Document
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | ```<del>masterTaskID</del>```  |  | ``````  | ``````  | ``````  | ``````  | ``````  |
 
-### ```<font size="4">DocumentRequest</font>```
+### DocumentRequest
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | ```<del>masterTaskID</del>```  | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
 
-```<font size="4">DocumentVersion</font>``` 
+DocumentVersion 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -161,20 +161,20 @@ The following existing resources have been updated with this release of the Work
 
 ¹ Changes to possibleValues
 
-```<font size="4">Expense</font>``` 
+Expense 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | ```<del>masterTaskID</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-### ```<font size="4">Group</font>```
+### Group
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | &nbsp; |licenseTypeLimit |&nbsp; |&nbsp; |addRemoveLicenseTypeLimits&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |setLicenseTypeLimit |&nbsp; |&nbsp; |
 
-### ```<font size="4">LinkedFolder</font>```
+### LinkedFolder
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -182,7 +182,7 @@ The following existing resources have been updated with this release of the Work
 
 ¹ Changes to possibleValues
 
-### ```<font size="4">OpTask</font>```
+### OpTask
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -190,20 +190,20 @@ The following existing resources have been updated with this release of the Work
 
 ```¹ Type changed from null to boolean```
 
-### ```<font size="4">PortalSection</font>```
+### PortalSection
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 |   |  | ``````  |```<del>``````<del>groupIDs</del>```  | ``````  | ``````  | ``````  |
 
-### ```<font size="4">Portfolio</font>```
+### Portfolio
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | portfolioNetValue  | ``````  | ``````  | ``````  |  |  | ``````  |
 | portfolioRoi |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-### ```<font size="4">Project</font>```
+### Project
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -212,13 +212,13 @@ The following existing resources have been updated with this release of the Work
 | projectRoi |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | resourcePlannerBudgetedLaborCost |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-### ```<font size="4">ProofApproval</font>```
+### ProofApproval
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | approverDecision | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
 
-### ```<font size="4">Rate</font>```
+### Rate
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|

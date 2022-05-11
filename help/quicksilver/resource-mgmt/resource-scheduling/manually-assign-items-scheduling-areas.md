@@ -63,7 +63,7 @@ To successfully manage user assignments as described in this section, you must f
 
 The following sections describe how to modify user assignments manually, automatically, or by swapping assignments by user or role.
 
-## ```<font size="5"><span style="line-height: 36px;">Manually assign unassigned tasks or issues to users</span></font>```
+## <span style="line-height: 36px;">Manually assign unassigned tasks or issues to users</span>
 
 The scheduling timeline provides the needed visibility into which users are capable of completing the task or issue.   
 For more information about the scheduling timeline, see [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).

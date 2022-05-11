@@ -80,11 +80,11 @@ This list is the second half of a larger list. The first half can be located at 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<font size="1">creationDate</font>```  | ```customer```  |  |  |  |  | ```COUNT```  |
+| creationDate  | ```customer```  |  |  |  |  | ```COUNT```  |
 | ```customerID```  | ```report```  |  |  |  |  | ```GET```  |
 | ```ID```  | ```viewer```  |  |  |  |  | ```REPORT```  |
 | ```reportID```  |  |  |  |  |  | ```SEARCH```  |
-| ```<font size="1">viewerID</font>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| viewerID  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### PortalSectionStatisticInfo
 
@@ -131,7 +131,7 @@ This list is the second half of a larger list. The first half can be located at 
 | ```customerID```  | ```externalSection```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ```displayOrder```  | ```internalSection```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ```externalSectionID```  | ```portalTab```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```<font size="1">ID</font>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ID  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ```internalSectionID```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ```portalSectionObjCode```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ```portalSectionObjID```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
@@ -141,9 +141,9 @@ This list is the second half of a larger list. The first half can be located at 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<font size="1">customerID</font>```  | ```customer```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| customerID  | ```customer```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ```ID```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```<font size="1">name</font>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| name  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### ScheduleReport
 

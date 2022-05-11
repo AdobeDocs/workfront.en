@@ -66,7 +66,7 @@ Some risk types are already in Workfront, by default. To reflect the needs of yo
 
 ### Create new risk types {#create-new-risk-types}
 
-```<font size="2">You can create new risk types, in addition to the default ones, to reflect the needs of your organization.</font>```
+You can create new risk types, in addition to the default ones, to reflect the needs of your organization.
 
 To create a new risk type:
 

@@ -14,8 +14,8 @@ You can do the following in Workfront from Microsoft Teams:
 
 * Search for projects, tasks, or issues
 * Create personal tasks
-* ```<font size="2">Respond to notifications</font>``` 
-* ```<font size="2">Manage document approvals</font>```
+* Respond to notifications 
+* Manage document approvals
 
 The commands you use from Microsoft teams to perform these actions are different depending on which channel you want to access Workfront from.
 

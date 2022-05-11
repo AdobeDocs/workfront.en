@@ -65,14 +65,13 @@ View the following video to learn how to create a filter.
 
 This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[ ![](assets/video-create-filters-350x198.png)](https://workfront-video.wistia.com/medias/5iz0l6s4o0)
+[![](assets/video-create-filters-350x198.png)](https://workfront-video.wistia.com/medias/5iz0l6s4o0)
 
 ## How-to steps
 
 1. Go to a list or a report that contains the filter that you want to customize.
 1. Click the **Filter** icon ![](assets/filter-nwepng.png). 
-1. 
-   Click **New Filter** at the top of the list of filters
+1. Click **New Filter** at the top of the list of filters
 
    Or
 
@@ -94,9 +93,7 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
      >When you connect a group of AND&nbsp;statements by multiple OR statements, you must repeat the fields that are not changing between the OR statements for each group of statements. 
      >
      >
-     >![](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-350x163.png)     >
-     >
-
+     >![](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-350x163.png)
      >
      >When you build a filter for tasks that contain the word "marketing" and are in projects with a status of Current or Planning, you must have the following filter rules:
      ><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project: Status Equals Current</pre><pre>OR</pre><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project:&nbsp;Status Equal Planning</pre>Although Task: Name Contains "marketing" does not change between the two AND filter groups, it must be repeated in the second group.
@@ -131,9 +128,8 @@ See also:
 &nbsp;
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters will be replaced, this will replace the content at the top; both the top content and everything starting here are in separate DIV sections to make it easier to condition and undrafte, etc.) </p>
--->
 <p>You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display those objects that meet those criteria.</p>
 <p>You can apply the following types of filters in&nbsp;Adobe Workfront: </p>
 <ul>
@@ -190,7 +186,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <tr data-mc-conditions="">
 <td><span class="preview" style="font-weight: bold;">Beta builder</span> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the Beta builder text is also in yellow)</p>
---> </td>
+</td>
 <td>
 <div class="preview">
 <ul>
@@ -206,9 +202,8 @@ If you still don't have access, ask your Workfront administrator if they set add
 </ul>
 <ul>
 <li> <p>The Projects list in the Scenario Planner</p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> </li>
-</ul> <!--
+</ul> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Requests area (NOTE: verify this with Vazgen - not sure if this will come out now???)</p>
--->
 </div> </td>
 </tr>
 <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver">
@@ -220,13 +215,11 @@ If you still don't have access, ask your Workfront administrator if they set add
 </table>
 <p>For information about Workfront objects, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p>
 </div>
-<p><strong>Create or edit a filter  in the standard builder </strong></p> <!--
+<p><strong>Create or edit a filter  in the standard builder </strong></p>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: second part of the title, NWE only)</p>
--->
 <div>
-<p>You can create filters in lists and reports in the following ways:</p> <!--
+<p>You can create filters in lists and reports in the following ways:</p>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: keep this?? this sort of applies to both this UI and the beta!)</p>
--->
 <ul>
 <li> <p>From scratch</p> </li>
 <li> <p>Edit an existing filter and save it as a new filter</p> </li>
@@ -274,9 +267,8 @@ The report creator must allow for filters to be edited in order to view the&nbsp
 </ul> </li>
 </ol>
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<h2><a name="Create2"></a>Create or edit a filter in the beta builder</h2> <!--
+<h2><a name="Create2"></a>Create or edit a filter in the beta builder</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: yellow div and it stays NWE only)</p>
--->
 <div>
 <p>Consider the following when creating filters using the different interfaces:</p>
 <ul>
@@ -303,11 +295,11 @@ The report creator must allow for filters to be edited in order to view the&nbsp
 <pre>B AND C</pre>
 </div> </li>
 <li value="3"> <p>Make a change to the filter in the standard interface. </p> </li>
-<li value="4"> <p>Switch back to the beta builder. The filter statement displays according to the logic supported in the standard builder, as described in Step b. <!--
+<li value="4"> <p>Switch back to the beta builder. The filter statement displays according to the logic supported in the standard builder, as described in Step b.
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (NOTE: ensures this stays correct over time)
 </MadCap:conditionalText>
---></p> <p>The filter displays in the beta builder interface as follows: </p>
+</p> <p>The filter displays in the beta builder interface as follows: </p>
 <div>
 <pre>A AND C</pre>
 <pre>OR</pre>
@@ -383,9 +375,9 @@ Depending on what modifier you selected, you can select multiple values.
 <p>In this case, each filter statement is connected by an AND and the filter groups are connected by an OR. </p>
 </div>
 </note> </li>
-<li value="12"> <p>(Optional)&nbsp;Click <strong>Text mode</strong> to continue building the filter using text mode. </p> <!--
+<li value="12"> <p>(Optional)&nbsp;Click <strong>Text mode</strong> to continue building the filter using text mode. </p>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: update shot below!)</p>
---> <p> <img src="assets/text-mode-option-create-filter-nwe-350x253.png" style="width: 350;height: 253;"> </p> <p>The text mode interface opens. </p> <p> <img src="assets/text-mode-interface-for-beta-filters-nwe-350x324.png" style="width: 350;height: 324;"> </p> <note type="tip">
+<p> <img src="assets/text-mode-option-create-filter-nwe-350x253.png" style="width: 350;height: 253;"> </p> <p>The text mode interface opens. </p> <p> <img src="assets/text-mode-interface-for-beta-filters-nwe-350x324.png" style="width: 350;height: 324;"> </p> <note type="tip">
 We recommend building as much of the filter as possible using the beta builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
 </note> <p>For more information about creating a filter using the text mode interface, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>. </p> </li>
 <li value="13"> <p>(Optional) Click <strong>Exit text mode</strong> to return to the beta builder interface. </p> <note type="warning">

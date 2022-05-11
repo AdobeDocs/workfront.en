@@ -101,9 +101,9 @@ To build the calculated custom field that references the multi-select custom fie
 1. Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. 
 1. Click **Report Actions**, then **Edit**. 
 
-1. ```<font size="2">Select the <strong>Groupings</strong> tab, then click <strong>Add Grouping</strong>.</font>``` 
-1. ```<font size="2">Add the<strong>Calculated Multi-select Field</strong> you created as your grouping.</font>``` 
-1. ```<font size="2">Select the <strong>Chart</strong> tab, and add a chart to your report.<br>For information about adding a chart to a report, see the section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Add a chart to a report</a> in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</font>``` 
-1. ```<font size="2">Select the <strong>Calculated Multi-select Field</strong> as one of the fields to display in the chart.</font>``` 
-1. ```<font size="2">Click <strong>Save + Close</strong>.<br>The report displays the results grouped by the Calculated Multi-select Field in a chart.</font>```
+1. Select the <strong>Groupings</strong> tab, then click <strong>Add Grouping</strong>. 
+1. Add the<strong>Calculated Multi-select Field</strong> you created as your grouping. 
+1. Select the <strong>Chart</strong> tab, and add a chart to your report.<br>For information about adding a chart to a report, see the section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Add a chart to a report</a> in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>. 
+1. Select the <strong>Calculated Multi-select Field</strong> as one of the fields to display in the chart. 
+1. Click <strong>Save + Close</strong>.<br>The report displays the results grouped by the Calculated Multi-select Field in a chart.
 
