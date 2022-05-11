@@ -9,10 +9,6 @@ You can add or edit the properties of any of the following asset widgets in a cu
 * Image
 * Video
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Adobe XD file</p> </li>
-  -->
-
 This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.
 
 >[!NOTE]
@@ -49,19 +45,10 @@ You must have the following to perform the steps in this article:
 1. Begin working on a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. With the **Add a field** tab open, do one of the following:
 
-   * If you are adding a new widget, select **Image** or **Video** 
-   
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     , or   
-     <b class="preview">XD File</b>   
-     </MadCap:conditionalText>   
-     -->   
-   
-     to add it at the bottom of the form, or drag it where you want it on the form.
+   * If you are adding a new widget, select **Image** or **Video** to add it at the bottom of the form, or drag it where you want it on the form.
 
-     <!--   
-     <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/add-widget-350x289.png" style="width: 350;height: 289;"> </p>   
+     <!--
+     This shows the Video widget but not PDF <img src="assets/add-widget-350x289.png" style="width: 350;height: 289;"> </p>   
      -->
 
    * If you want to add a widget that has already been added to another custom form, click **Field library**, then click the name of the widget in the list that displays. For more information, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
