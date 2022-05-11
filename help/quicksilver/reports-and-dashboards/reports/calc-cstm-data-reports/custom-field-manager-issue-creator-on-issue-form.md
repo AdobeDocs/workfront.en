@@ -55,7 +55,7 @@ The following steps show how you can create a calculated field for an issue cust
    * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 
    * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
 
-1. Copy the following text mode code and paste it in the **Calculation** field of the custom form:
+1. Copy and paste the following text mode code into the **Calculation** field of the custom form:
 
    ```
    Owner.Manager.Name
