@@ -47,6 +47,8 @@ You must have the following access to perform the steps in this article:
 
 ## Update the Project Owner of a project
 
+When you add a user as the Project Owner of a project, Workfront automatically gives them permissions to view the project. 
+
 1. Go to the project you want to update.
 1. Click **Project Details** in the left panel. 
 1. Click&nbsp;the **Edit** icon ![](assets/qs-edit-icon.png) in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;**Overview**.  
@@ -62,6 +64,12 @@ You must have the following access to perform the steps in this article:
 ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Update the Project Sponsor of a project
+
+When you add a user as the Project Sponsor of a project, Workfront automatically gives them permissions to view the project. 
+
+ >[!TIP]
+   >
+   >If the user you add is a System Administrator, they are not added to the Sharing list on the project. 
 
 1. Go to the Project you want to update.
 1. Click **Project Details** in the left panel. 
