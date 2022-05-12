@@ -22,7 +22,9 @@ Prior to these enhancements, you could group your items only by Planned Completi
 
 For more information, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-```<iframe class="vimeo-player_0" src="assets/652578109?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652578109?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652578109/1397c75bf3)
 
@@ -41,11 +43,15 @@ When you open the My Updates area, you can now quickly find the following inform
 
 For more information, see [Use the My Updates area](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
-```<iframe class="vimeo-player_0" src="assets/652562003?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652562003?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652562003/e10dfffff3)
 
-```<iframe class="vimeo-player_0" src="assets/652564287?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652564287?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652564287/a303bc84d7)
 
@@ -65,7 +71,9 @@ For more information, see the following articles:
 * [Understand the Timesheet layout](../../../timesheets/timesheets/timesheet-layout.md) 
 * [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md)
 
-```<iframe class="vimeo-player_0" src="assets/652558251?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652558251?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652558251/3c194ca33a)
 

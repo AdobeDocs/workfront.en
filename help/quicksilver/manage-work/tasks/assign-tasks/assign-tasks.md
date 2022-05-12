@@ -12,12 +12,12 @@ You can assign tasks to users, roles, or teams to indicate who is responsible fo
 
 >[!TIP]
 >
->You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+>You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
 >
->```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+>If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
 >
->* ```Reassign the work item to active resources.``` 
->* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+>* Reassign the work item to active resources. 
+>* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 >
 
 The number of users assigned to a task and the schedule of the task Owner can modify the planned dates of a task which results in changing the timeline of the project. For information about the impact of assigning multiple users to a task, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
@@ -97,29 +97,25 @@ Consider the following when assigning multiple resources to a work item:
 ## Assign a single task
 
 1. Go to a task that you want to assign.
-1. Click **Assign to** in the upper-right corner of the task header, in the **Assignments** area
+1. Click **Assign this to ...** in the right panel
 
    Or
 
-   Click the name of the current assignments, if the task is already assigned.
+   Click **Edit assignment** if the task is already assigned.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![](assets/classic-assign-this-to-button-on-task-card-350x405.png)
 
 1. Do one of the following:
 
    * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
-
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-   * (Conditional) Click one of the names in the **Suggested Assignments** list, if this list displays. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
+   * (Conditional) Click one of the names in the **Here are a few recommendations** list, if this list displays. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
    
-   * Click **Assign to me** to assign it to yourself
-   * Click **Advanced**.
+   * Click **make Advanced Assignments**
 
      For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. Click **Save**. 
-1. (Optional) Click the **X icon** next to the name of the assignments in the Assignments area in the header of the task to remove an assignment.
+1. Click **Assign** or click **Save Changes**, if you clicked **make Advanced Assignments**.
+1. (Optional) Click the **X icon** next to the name of the assignment in the right panel of the task to remove an assignment.
 
 ## Assign a task in a list
 
@@ -135,27 +131,21 @@ Depending on which field is visible in the view, you can assign the following en
 To assign tasks in a list:
 
 1. Go to a list of tasks that has the Assigned To, Assigned, or Assignments fields in the view.
-1. (Optional) Click the **Plan Mode** icon ![](assets/nwe-plan-mode-icon-task-list.png) and select one of the following options:
+1. (Optional)&nbsp;Click the **Autosave** drop-down menu and select from the following options: 
 
    | Autosave |Changes you make to the tasks are automatically saved and you cannot revert them |
    |---|---|
-   | Manual save |You must manually save your changes. You can revert your changes before you save them. You have the option of selecting **Standard Manual save** or **Timeline Planning**.  |
+   | Manual save |You must manually save your changes. You can revert your changes before you save them.  |
+   | Timeline Planning |You must manually save your changes.&nbsp;You can revert your changes before you save them.&nbsp;Saving your changes and all the project dependencies is faster than when selecting Manual save.  |
 
    For more information about saving tasks as you edit them in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 1. To assign tasks do one of the following:
 
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the task, then click it when it displays in the list.
+   * Click inside the **Assignments** field and start typing the name of an active user, `job role`, or team that you want to assign to the task, then click it when it displays in the list.
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
-
-   * Click inside the **Assignments** field and start typing the name of an active user, ```job role```, or team that you want to assign to the task, then click it when it displays in the list.
-
-     ![](assets/assignments-field-task-list-nwe.png)
-
-1. (Conditional) When visible in the **Assignments** field, click the **People** icon ``` ![](assets/teams.png)
-
-   ``` in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
+1. (Conditional) When visible in the **Assignments** field, click the **People** icon  in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;there is a People icon in NWE&nbsp;but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up)</p>
@@ -179,7 +169,7 @@ To assign tasks in a list:
    >You cannot edit tasks in bulk when saving tasks manually on a project.
 
 1. Select several tasks in the tasks list. 
-1. Click the **Edit icon** ![](assets/qs-edit-icon.png).
+1. Click **Edit**.
 
    The **Edit Tasks** dialog box opens.
 

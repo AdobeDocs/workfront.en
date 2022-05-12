@@ -18,7 +18,9 @@ The Workfront Library release on June 19 contains the following enhancements:
 
 Now you can add a cover image to a collection to make it easier to identify its contents. When you create a collection, you can select the cover image using the thumbnail of any asset in Workfront Library . For more information, see [Create a collection in Workfront Library](../../../workfront-library/content-management/collections/create-a-collection.md).
 
-```<iframe class="vimeo-player_0" src="assets/343321838?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/343321838?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/343321838/791937546c)
 
