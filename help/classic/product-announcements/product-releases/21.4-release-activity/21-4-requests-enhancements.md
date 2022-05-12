@@ -16,7 +16,9 @@ All special characters are supported.
 
 For information about submitting requests, see [Create and submit Adobe Workfront requests](create-submit-requests.md).
 
-```<iframe class="vimeo-player_0" src="assets/601077860?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/601077860?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/601077860/d8c1f869c4)
 
@@ -30,6 +32,8 @@ To keep the look and feel for submitting requests the same everywhere in the new
 
 For information, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
-```<iframe class="vimeo-player_0" src="assets/592770628?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/592770628?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/592770628/30397bbb82) 

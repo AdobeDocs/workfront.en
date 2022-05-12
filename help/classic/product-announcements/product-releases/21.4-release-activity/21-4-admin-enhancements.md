@@ -28,7 +28,9 @@ For information about how a Workfront administrator unlocks a timesheet and hour
 
 For information about how a group administrator configures unlocked task and issue preferences for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-```<iframe class="vimeo-player_0" src="assets/600488692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/600488692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/600488692/f2722950ee)
 
@@ -44,7 +46,9 @@ Now it’s easy to find out which groups your users belong to. In a report or vi
 
 For information about using reports and views, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) and [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-```<iframe class="vimeo-player_0" src="assets/600493894?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/600493894?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/600493894/16b96b33a5)
 
@@ -66,7 +70,9 @@ Note that using these preferences does not make the projects created from the te
 
 For more information, see Configure a project template blueprint.
 
-```<iframe class="vimeo-player_0" src="assets/601113312?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/601113312?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/601113312/f4561ecf28)
 
@@ -80,7 +86,9 @@ We are continuing to make it easier to manage your groups and their associated o
 
 For more information, see View and manage a group's recently deleted items and View and manage a group's recently restored items.
 
-```<iframe class="vimeo-player_0" src="assets/592790676?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/592790676?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/592790676/ec5e69f70e)
 
@@ -107,7 +115,9 @@ If you create a template or template task without a group—for example, from th
 
 For more information, see the section How preferences apply to templates and template tasks in the article Create and modify a group’s project templates.
 
-```<iframe class="vimeo-player_0" src="assets/592786526?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/592786526?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/592786526/d1d6ded612)
 
@@ -117,7 +127,9 @@ Now it’s easier to change a custom field in a custom form. With a single click
 
 For more information, see [View all custom forms that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
 
-```<iframe class="vimeo-player_0" src="assets/588949432?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/588949432?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/588949432/c527dc4072)
 
@@ -135,7 +147,9 @@ Now you can ensure that everyone in the subgroups below your group is using the 
 
   For more information, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-```<iframe class="vimeo-player_0" src="assets/586020054?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/586020054?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/586020054/00090701bf)
 
@@ -149,7 +163,9 @@ We’re continuing to make it easier to manage your groups and their associated 
 
 For more information, see Create and modify a group’s project templates in the new Adobe Workfront experience.
 
-```<iframe class="vimeo-player_0" src="assets/586023814?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/586023814?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/586023814/1f7230e263)
 
@@ -167,7 +183,9 @@ If you do want to edit all custom forms and expandable areas in the Details sect
 
 For more information, see Edit object details in the new Adobe Workfront experience.
 
-```<iframe class="vimeo-player_0" src="assets/577660078?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/577660078?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/577660078/70db05b492)
 
@@ -191,7 +209,9 @@ Previously, this functionality was available only for top-level groups.
 
 For more information, see [Manage group statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-```<iframe class="vimeo-player_0" src="assets/558294261?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/558294261?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/558294261/ed2ee01b99)
 
@@ -207,7 +227,9 @@ Previously, only Workfront Customer Support could migrate your layout templates 
 
 For more information, see [Migrate your layout templates to the new Adobe Workfront experience](../../../administration-and-setup/customize-workfront/use-layout-templates/migrate-layout-templates-to-nwe.md).
 
-```<iframe class="vimeo-player_0" src="assets/574937296?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/574937296?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/574937296/eb4fa79f0c)
 

@@ -52,12 +52,12 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| updateType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> sinceDate</strike>```  |&nbsp; |
+| updateType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`sinceDate`  |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectUpdatesByCommentID² |&nbsp; |
 
-```¹ Changes to possible values```
+¹ Changes to possible values
 
-```² hasFilters attribute changed to true```
+² hasFilters attribute changed to true
 
 &nbsp;
 
@@ -71,9 +71,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | syncBurndownDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workRequired² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Date validation added```
+¹ Date validation added
 
-```² NOT_FILTERABLE flag added```
+² NOT_FILTERABLE flag added
 
 &nbsp;
 
@@ -81,7 +81,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | &nbsp; |Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|---|
-|   |  | ```attachedApprovalPaths```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+|   |  | `attachedApprovalPaths`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;
 
@@ -93,7 +93,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | approvalType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Changes to possible Values```
+¹ Changes to possible Values
 
 &nbsp;
 
@@ -112,9 +112,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | lastUpdateByID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | name² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Changed to Reportable```
+¹ Changed to Reportable
 
-```² Added Max Length Validator```
+² Added Max Length Validator
 
 &nbsp;
 
@@ -125,9 +125,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | constraintDate¹ |&nbsp; |&nbsp; |&nbsp; |getMyWorkCountFiltered |&nbsp; |&nbsp; |
 | workRequired² |&nbsp; |&nbsp; |&nbsp; |workItemStatusLabels&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Date Validation Added```
+¹ Date Validation Added
 
-```² Not_Filterable Flag Added```
+² Not_Filterable Flag Added
 
 &nbsp;
 
@@ -147,7 +147,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Not_Filterable Flag Added```
+¹ Not_Filterable Flag Added
 
 &nbsp;
 
@@ -157,7 +157,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Not_Filterable Flag Added```
+¹ Not_Filterable Flag Added
 
 &nbsp;
 
@@ -167,14 +167,14 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | billingDate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ added NO_TIME field flag```
+¹ added NO_TIME field flag
 
 ### Burndown Event&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| eventInitiator |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> ADD</strike>```  |
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> DELETE</strike>```  |
+| eventInitiator |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`ADD`  |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`DELETE`  |
 
 &nbsp;
 
@@ -201,8 +201,8 @@ Document&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<strike> checkedOutByID</strike>```  |```<strike> checkedOutBy</strike>```&nbsp; |&nbsp; |&nbsp;isDir |&nbsp; |&nbsp; |&nbsp; |
-| ```<strike> isDir</strike>```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `checkedOutByID`  |`checkedOutBy`&nbsp; |&nbsp; |&nbsp;isDir |&nbsp; |&nbsp; |&nbsp; |
+| `isDir`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;
 
@@ -212,7 +212,7 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | rate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Changed PRECISION validator for 8 to 9```
+¹ Changed PRECISION validator for 8 to 9
 
 &nbsp;
 
@@ -230,7 +230,7 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | changeType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Changes to possible Values```
+¹ Changes to possible Values
 
 &nbsp;
 
@@ -240,9 +240,9 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | workRequired² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Flagged as RESTORABLE```
+¹ Flagged as RESTORABLE
 
-```² Not_Filterable Flag Added```
+² Not_Filterable Flag Added
 
 &nbsp;
 
@@ -250,16 +250,16 @@ Exchange Rate&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| completedHours |&nbsp; |```<strike> openOpTasks</strike>```  |&nbsp;openOpTasks |&nbsp; |&nbsp; |&nbsp; |
+| completedHours |&nbsp; |`openOpTasks`  |&nbsp;openOpTasks |&nbsp; |&nbsp; |&nbsp; |
 | isOriginalPlannedHoursSet |&nbsp; |resourceManagers |resourceManagerIDs&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| originalWorkRequired |&nbsp; |&nbsp; |```<strike> work</strike>```  |&nbsp; |&nbsp; |&nbsp; |
+| originalWorkRequired |&nbsp; |&nbsp; |`work`  |&nbsp; |&nbsp; |&nbsp; |
 | syncBurndownDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | work |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workRequired |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Flagged as RESTORABLE and RESOURCE_MANAGEABLE```
+¹ Flagged as RESTORABLE and RESOURCE_MANAGEABLE
 
-```² Not_Filterable Flag Added```
+² Not_Filterable Flag Added
 
 &nbsp;
 
@@ -270,11 +270,11 @@ Exchange Rate&nbsp;
 | constraintDate² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workRequired³ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Flagged as RESTORABLE```
+¹ Flagged as RESTORABLE
 
-```² AT_DATE_YEAR_BEFORE validator added```
+² AT_DATE_YEAR_BEFORE validator added
 
-```³ Not_Filterable Flag Added```
+³ Not_Filterable Flag Added
 
 &nbsp;
 
@@ -282,8 +282,8 @@ Exchange Rate&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<strike> myWorkViewID</strike>```  |&nbsp;```<strike> myWorkView</strike>``` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```<strike> requestsViewID</strike>```&nbsp; |```<strike> myRequestsView</strike>```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `myWorkViewID`  |&nbsp;`myWorkView` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `requestsViewID`&nbsp; |`myRequestsView`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;
 
@@ -293,9 +293,7 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | &nbsp; |&nbsp; |resourceManagers |resourceManagerIDs |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Flagged as RESTORABLE and RESOURCE_MANAGEABLE```
-
-``````
+¹ Flagged as RESTORABLE and RESOURCE_MANAGEABLE
 
 ### Template Task¹&nbsp;
 
@@ -303,9 +301,9 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | workRequired² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Flagged as RESTORABLE```
+¹ Flagged as RESTORABLE
 
-```² Not_Filterable Flag Added```
+² Not_Filterable Flag Added
 
 &nbsp;
 
@@ -315,7 +313,7 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | myInfo¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ MAX_LENGTH violators```
+¹ MAX_LENGTH violators
 
 &nbsp;
 
@@ -325,9 +323,9 @@ Exchange Rate&nbsp;
 |---|---|---|---|---|---|---|
 | eventType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |myNotifications² |&nbsp; |
 
-```¹ Possible Values Changed```
+¹ Possible Values Changed
 
-```² has filters Changed to [true]```
+² has filters Changed to `[true]`
 
 &nbsp;
 
@@ -335,6 +333,6 @@ Exchange Rate&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> fileHandle</strike>```  |&nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> zipAnnouncementAttachments</strike>```&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |`fileHandle`  |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |`zipAnnouncementAttachments`&nbsp; |&nbsp; |&nbsp; |
 

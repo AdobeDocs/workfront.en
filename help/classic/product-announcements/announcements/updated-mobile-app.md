@@ -24,7 +24,9 @@ For more information about submitting requests on the mobile app, see the "Submi
 For a demonstration of how to use this feature, watch the following video:
 
 <!--WRITER
-```<iframe class="mt-media" src="assets/226008768?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/226008768?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;
 -->
 
 ## Add New Entries to Timesheets
@@ -35,7 +37,9 @@ Prior to this update, you were able to only log General Hours to the timesheet, 
 
 For more information about adding new entries to timesheets on the mobile app, see the "Working with Timesheets" section in&nbsp;.
 
-```<iframe class="mt-media" src="assets/229038077?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/229038077?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;
 
 ## Edit Custom Forms
 
@@ -50,7 +54,9 @@ Prior to this update, you were able to only view information on custom forms on 
 
 For more information about editing custom forms on the mobile app, see the "Editing Custom Forms" section in&nbsp;.
 
-```<iframe class="mt-media" src="assets/229038756?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/229038756?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;
 
 ## Proof Approvals Visibility in the Mobile App
 
@@ -62,4 +68,6 @@ For more information about proofing within Workfront, see the [Proofing](../../r
 
 For more information about approving a proof on the mobile app, see the "Managing Approvals" section in&nbsp;.
 
-```<iframe class="mt-media" src="assets/229038773?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/229038773?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;

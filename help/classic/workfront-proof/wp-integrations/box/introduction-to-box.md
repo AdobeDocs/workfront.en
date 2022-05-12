@@ -41,7 +41,9 @@ Our&nbsp;folder syncing functionality lets you&nbsp;synchronize a Box folder wit
 
 ## >Box Workfront Proof Sync - Overview Video
 
-```<iframe class="vimeo-player_0" src="assets/61894774?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/61894774?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 ## Adding the Workfront Proof Sync App to Your Box Account
 
@@ -55,4 +57,6 @@ Please follow the few simple steps below to add our app to your Box account:
 
 ## Configuring the Integration - Video Tutorial
 
-```<iframe class="vimeo-player_0" src="assets/60652062?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>``` 
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/60652062?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+--> 

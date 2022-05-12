@@ -24,7 +24,9 @@ Note that this functionality is available only in the updated lists. For more in
 
 For information about how a Workfront administrator creates text fields with formatting, see [Create a Custom Form](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
-```<iframe class="vimeo-player_0" src="assets/434818101?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/434818101?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/434818101/35b3eba8f7)
 
@@ -38,7 +40,9 @@ The global areas of Projects, Portfolios, Programs and Templates now have an upd
 
 The Templates link from the Projects area has been removed. You can still access the Templates area from the Main Menu.
 
-```<iframe class="vimeo-player_0" src="assets/430816911?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/430816911?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/430816911/6a80ede459)
 
@@ -62,7 +66,9 @@ In addition to an updated look and feel, the following improvements are availabl
 
 For information about the new Edit Project box, see [Edit projects](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FProjects%2FManage_projects%2Fedit-projects.html).
 
-```<iframe class="vimeo-player_0" src="assets/430814318?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/430814318?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/430814318/4b5e8e2bbf)
 
@@ -78,7 +84,9 @@ Some actions are currently unavailable but will be added in a future release. Th
 
 For more information, see [Summary for documents overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FManaging_Documents%2Fsummary-for-documents.htm).
 
-```<iframe class="vimeo-player_0" src="assets/434793918?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/434793918?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/434793918/1fe4743845)
 
@@ -97,7 +105,9 @@ Look for the following improvements in the Document Details page:
 
 For more information, see [Document Details overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FDocuments%2FManaging_Documents%2Fdocument-details-overview.htm).
 
-```<iframe class="vimeo-player_0" src="assets/434794293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/434794293?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/434794293/30304e155f)
 
@@ -113,7 +123,9 @@ All project preferences are customizable at the group level, except for Timeline
 
 For more information about Group Project Preferences, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-```<iframe class="vimeo-player_0" src="assets/437230282?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/437230282?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/437230282/35f0020656)
 
@@ -123,7 +135,9 @@ In a Custom Form, you can now create fields that include text formatting buttons
 
 For more information, see Create a Custom Form in the new Workfront experience.
 
-```<iframe class="vimeo-player_0" src="assets/430167004?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/430167004?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/430167004/473e27bf55)
 
@@ -135,6 +149,8 @@ In the past, the label was both displayed above the field for users and used by 
 
 For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-```<iframe class="vimeo-player_0" src="assets/434803095?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/434803095?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/434803095/b6a32d6812) 

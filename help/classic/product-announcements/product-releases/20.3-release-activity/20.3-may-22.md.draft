@@ -38,7 +38,9 @@ The left sidebar in Setup is now faster and easier to use and leverages the basi
 
 For information about how to use the Setup area, see [Administration and setup](../../../administration-and-setup/administration-and-setup.md).
 
-```<iframe class="vimeo-player_0" src="assets/421243507?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>``` 
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/421243507?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+--> 
 [View this video in full-screen mode.](https://vimeo.com/421243507/26ad60f0ef)
 
 ## Removed ability to create duplicate Event Subscriptions

@@ -73,7 +73,7 @@ In this example, you will create a custom form with a multiple-choice radio butt
 
 1. Click **New Custom Form**, select **Project** in the box that displays, then select **Continue**.
 
-1. In the **Form Title** text box, type **Sample custom form - Learning display logic and skip logic** ``````to name the form ```.```
+1. In the **Form Title** text box, type **Sample custom form - Learning display logic and skip logic** to name the form.
 
    ![](assets/form-title-box-350x247.png)
 
