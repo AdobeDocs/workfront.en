@@ -130,7 +130,7 @@ You must have the following to perform the steps in this article:
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 <!--
-<div style="text-decoration: none;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div style= data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Configure access for fields without section breaks</h2> <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">************This section might get added later. Team decided not to implement.</p>
 -->
@@ -202,14 +202,16 @@ You can click
 </div>
 -->
 
-## How multiple object types can affect section break permissions in a custom form {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
+## How multiple object types can affect section break permissions {#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form}
 
 The Limited Edit permission for custom form section breaks is available for only the Project, Task, Issue, and User object types.
 
 In a custom form with a section break configured with the Limited Edit permission, if you add one of the other object types to the form (Portfolio, Program, Document, Company, Billing Record, Iteration, Expense, or Group), you will be prompted to switch to the Edit permission, which is compatible with both that object type and the existing object types on the form. 
 
-**Example:** In a custom form associated with the Project object type, a section break is configured with the Limited Edit permission.
-
-You add the Portfolio object type to the form, which means that the Limited Edit permission option is no longer available for the section break in the form.
-
-An on-screen message prompts you to switch to the Edit permission, which is the most similar option to Limited Edit, and compatible with both the Project object type and the Portfolio object type. 
+>[!INFO]
+>
+>**Example:** In a custom form associated with the Project object type, a section break is configured with the Limited Edit permission.
+>
+>You add the Portfolio object type to the form, which means that the Limited Edit permission option is no longer available for the section break in the form.
+>
+>An on-screen message prompts you to switch to the Edit permission, which is the most similar option to Limited Edit, and compatible with both the Project object type and the Portfolio object type. 
