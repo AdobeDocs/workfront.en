@@ -16,12 +16,12 @@ You can assign tasks to users, roles, or teams to indicate who is responsible fo
 
 >[!TIP]
 >
->You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+>You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
 >
->```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+>If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
 >
->* ```Reassign the work item to active resources.``` 
->* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
+>* Reassign the work item to active resources. 
+>* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 >
 
 The number of users assigned to a task and the schedule of the task Owner can modify the planned dates of a task which results in changing the timeline of the project. For information about the impact of assigning multiple users to a task, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
@@ -147,9 +147,9 @@ To assign tasks in a list:
 1. To assign tasks do one of the following:
 
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the task, then click it when it displays in the list.
-   * Click inside the **Assignments** field and start typing the name of an active user, ```job role```, or team that you want to assign to the task, then click it when it displays in the list.
+   * Click inside the **Assignments** field and start typing the name of an active user, `job role`, or team that you want to assign to the task, then click it when it displays in the list.
 
-1. (Conditional) When visible in the **Assignments** field, click the **People** icon `````` in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
+1. (Conditional) When visible in the **Assignments** field, click the **People** icon  in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;there is a People icon in NWE&nbsp;but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up)</p>

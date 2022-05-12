@@ -13,7 +13,7 @@ description: Add a group to a proof to automatically send the content to all gro
 >
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Add a group to a proof to automatically send the content to all group members. ``````
+Add a group to a proof to automatically send the content to all group members. 
 
 For information about how to create a group, see [Create Proofing Groups using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
 

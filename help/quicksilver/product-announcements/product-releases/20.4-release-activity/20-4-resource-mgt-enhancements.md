@@ -19,7 +19,9 @@ The following improvements are now available with this new feature:
 
 For information about Work Effort, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
 
-```<iframe class="vimeo-player_0" src="assets/466596422?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/466596422?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/466596422/ec0cbb4207)
 
@@ -31,7 +33,9 @@ For better visibility and increased customization of your experience in the Work
 
 For information about customizing the view in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/466356013?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/466356013?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/466356013/bc6ca45519)
 
@@ -41,7 +45,9 @@ You can now manage your users' allocations in the Workload Balancer using percen
 
 For information about managing allocations in the Workload Balancer, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/466356815?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/466356815?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/466356815/e98e15f5e6)
 
@@ -53,7 +59,9 @@ Prior to this enhancement, completed work items always displayed in the Workload
 
 For more information about adjusting settings in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/449692906?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/449692906?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/449692906/46bd75178c)
 
@@ -73,7 +81,9 @@ To ensure a streamlined and user-friendly experience when you manage your resour
 
 For more information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/449724331?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/449724331?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/449724331/dcf4496745)
 
@@ -83,7 +93,9 @@ To allow you to have a high-level visual representation of users’ allocation w
 
 For more information about configuring settings in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/453396263?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/453396263?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/453396263/be1033c77e)
 
@@ -93,7 +105,9 @@ To allow you to easily identify work that has already been completed so you can 
 
 For information about viewing information in the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/456734180?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/456734180?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/456734180/9cbac45fa3)
 
@@ -105,7 +119,9 @@ Before this enhancement, all users that you had access to view displayed in this
 
 For information about using filters in the Workload Balancer, see [Manage filters in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/456735424?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/456735424?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/456735424/b331b63886)
 
@@ -117,7 +133,9 @@ This improvement eliminates clicks and makes navigating the Workload Balancer ea
 
 For information about managing settings for the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/461463204?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/461463204?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/461463204/4daec9d3dd)
 
@@ -127,6 +145,8 @@ To make your filtering experience in the Workload Balancer more efficient, we ha
 
 For information about using filters in the Workload Balancer, see [Filter information in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/461465895?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/461465895?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/461465895/0e567c9080) 

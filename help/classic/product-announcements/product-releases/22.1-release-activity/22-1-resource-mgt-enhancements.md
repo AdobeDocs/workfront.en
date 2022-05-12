@@ -23,7 +23,9 @@ To improve your experience when using the Workload Balancer, we have introduced 
 
 For more information, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/652568021?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652568021?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652568021/b50f671736)
 
@@ -39,7 +41,9 @@ For more information, see [Overview of assigning work in the Workload Balancer](
 
 For information about the deprecation of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-```<iframe class="vimeo-player_0" src="assets/652571877?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652571877?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652571877/b334c56172)
 
@@ -49,6 +53,8 @@ To help you easily manage cost and billing rates across global organizations, we
 
 For information, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-```<iframe class="vimeo-player_0" src="assets/652599823?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652599823?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652599823/847eb1bc31) 

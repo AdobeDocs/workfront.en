@@ -16,105 +16,105 @@ This is a list of resources that are new to API&nbsp;Version 9, to see a list of
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```accessRestrictions```  | ```customer```  | ```accessLevelPermissions```  | ``````  |  | ``````  | ```ADD```  |
-| ```customerID```  | ```lastUpdatedBy```  | ```accessRulePreferences```  | ``````  | ``````  | ``````  | ```COPY```  |
-| ```description```  | ``````  | ``````  | ``````  | ``````  | ``````  | ```COUNT```  |
-| ```descriptionKey```  |  |  | ``````  | ``````  | ``````  | ```DELETE```  |
-| ```entryDate```  | ``````  | ``````  | ``````  | ``````  | ``````  | ```EDIT```  |
-| ```extRefID```  | ``````  | ``````  | ``````  | ``````  | ``````  | ```GET```  |
-| ```fieldAccessPrivileges```  | ``````  | ``````  | ``````  | ``````  | ``````  | ```REPLACE```  |
-| ```ID```  | ``````  | ``````  | ``````  | ``````  | ``````  | ```REPORT```  |
-| ```isAdmin```  | ``````  | ``````  | ``````  | ``````  | ``````  | ```SEARCH```  |
-| ```isUnsupportedWorkerLicense```  | ``````  | ``````  | ``````  | ``````  | ``````  |&nbsp; |
-| ```lastUpdatedByID```  | ``````  | ``````  | ``````  | ``````  | ``````  |&nbsp; |
-| ```lastUpdatedDate```  | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
-| ```licenseType```  | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
-| ```name```  | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
-| ```nameKey```  | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
-| ```securityModelType```  | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
+| `accessRestrictions`  | `customer`  | `accessLevelPermissions`  |  |  |  | `ADD`  |
+| `customerID`  | `lastUpdatedBy`  | `accessRulePreferences`  |  |  |  | `COPY`  |
+| `description`  |  |  |  |  |  | `COUNT`  |
+| `descriptionKey`  |  |  |  |  |  | `DELETE`  |
+| `entryDate`  |  |  |  |  |  | `EDIT`  |
+| `extRefID`  |  |  |  |  |  | `GET`  |
+| `fieldAccessPrivileges`  |  |  |  |  |  | `REPLACE`  |
+| `ID`  |  |  |  |  |  | `REPORT`  |
+| `isAdmin`  |  |  |  |  |  | `SEARCH`  |
+| `isUnsupportedWorkerLicense`  |  |  |  |  |  |&nbsp; |
+| `lastUpdatedByID`  |  |  |  |  |  |&nbsp; |
+| `lastUpdatedDate`  |  |  |  |  |  |  |
+| `licenseType`  |  |  |  |  |  |  |
+| `name`  |  |  |  |  |  |  |
+| `nameKey`  |  |  |  |  |  |  |
+| `securityModelType`  |  |  |  |  |  |  |
 
 ### AccessLevelPermissions
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```coreAction```  | ``````  | ``````  | ``````  | ``````  | ``````  |&nbsp; |
-| ```forbiddenActions```  | ``````  | ``````  | ``````  | ``````  | ``````  |&nbsp; |
-| ```ID```  | ``````  | ``````  | ``````  | ``````  | ``````  |&nbsp; |
-| ```isAdmin```  | ``````  | ``````  | ``````  | ``````  | ``````  |&nbsp; |
-| ```objObjCode```  | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
-| ```secondaryActions```  | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
+| `coreAction`  |  |  |  |  |  |&nbsp; |
+| `forbiddenActions`  |  |  |  |  |  |&nbsp; |
+| `ID`  |  |  |  |  |  |&nbsp; |
+| `isAdmin`  |  |  |  |  |  |&nbsp; |
+| `objObjCode`  |  |  |  |  |  |  |
+| `secondaryActions`  |  |  |  |  |  |  |
 
 ### AccessRulePreference
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```ID```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `ID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### BudgetedHour
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```allocationDate```  |  |  |  |  |  | ```ADD```  |
-| ```budgetedHours```  |  |  |  |  |  | ```DELETE```  |
-| ```GUID```  |  |  |  |  |  | ```GET```  |
-| ```plannedBudgetedHours```  |  |  |  |  |  | ```SEARCH```  |
-| ```projectID```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```roleID```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```userID```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `allocationDate`  |  |  |  |  |  | `ADD`  |
+| `budgetedHours`  |  |  |  |  |  | `DELETE`  |
+| `GUID`  |  |  |  |  |  | `GET`  |
+| `plannedBudgetedHours`  |  |  |  |  |  | `SEARCH`  |
+| `projectID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `roleID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `userID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### CalendarPortalSection
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```calendarInfoID```  | ```customer```  |  | ```displayDescription```  |  |  | ```ADD```  |
-| ```customerID```  | ```enteredBy```  |  | ```displayName```  |  |  | ```COPY```  |
-| ```enteredByID```  |  |  |  |  |  | ```COUNT```  |
-| ```entryDate```  |  |  |  |  |  | ```GET```  |
-| ```ID```  |  |  |  |  |  | ```REPORT```  |
-| ```name```  |  |  |  |  |  | ```SEARCH```  |
-| ```objID```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```objObjCode```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `calendarInfoID`  | `customer`  |  | `displayDescription`  |  |  | `ADD`  |
+| `customerID`  | `enteredBy`  |  | `displayName`  |  |  | `COPY`  |
+| `enteredByID`  |  |  |  |  |  | `COUNT`  |
+| `entryDate`  |  |  |  |  |  | `GET`  |
+| `ID`  |  |  |  |  |  | `REPORT`  |
+| `name`  |  |  |  |  |  | `SEARCH`  |
+| `objID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `objObjCode`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### CalendarSection
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```calendarID```  | ```customer```  | ```filters```  |  | ```getConcatenatedExpressionForm```  |  | ```ADD```  |
-| ```calEvents```  |  |  |  | ```getPrettyExpressionForm```  |  | ```COUNT```  |
-| ```color```  |  |  |  |  |  | ```DELETE```  |
-| ```customerID```  |  |  |  |  |  | ```EDIT```  |
-| ```duration```  |  |  |  |  |  | ```GET```  |
-| ```ID```  |  |  |  |  |  | ```REPORT```  |
-| ```milestone```  |  |  |  |  |  | ```SEARCH```  |
-| ```name```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```plannedDate```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```startDate```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `calendarID`  | `customer`  | `filters`  |  | `getConcatenatedExpressionForm`  |  | `ADD`  |
+| `calEvents`  |  |  |  | `getPrettyExpressionForm`  |  | `COUNT`  |
+| `color`  |  |  |  |  |  | `DELETE`  |
+| `customerID`  |  |  |  |  |  | `EDIT`  |
+| `duration`  |  |  |  |  |  | `GET`  |
+| `ID`  |  |  |  |  |  | `REPORT`  |
+| `milestone`  |  |  |  |  |  | `SEARCH`  |
+| `name`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `plannedDate`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `startDate`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### ExternalSection
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```appGlobalID```  | ```customer```  |  | ```displayDescription```  | ```calculateURL``` ``````  |  | ```ADD```  |
-| ```calculatedURL```  | ```enteredBy```  |  | ```displayName```  | ```calculateURLS```  |  | ```COPY```  |
-| ```customerID```  | ```view```  |  | ```linkedCustomersMM```  |  |  | ```COUNT```  |
-| ```description```  |  |  | ```linkedUsersMM```  |  |  | ```DELETE```  |
-| ```descriptionKey```  |  |  |  |  |  | ```EDIT```  |
-| ```enteredByID```  |  |  |  |  |  | ```GET```  |
-| ```entryDate```  |  |  |  |  |  | ```REPORT```  |
-| ```extRefID```  |  |  |  |  |  | ```SEARCH```  |
-| ```frame```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```friendlyURL```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```globalUIKey```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```height```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```ID```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```name```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```nameKey```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```objID```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```objInterface```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```objObjCode```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```scrolling```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```url```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```viewID```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `appGlobalID`  | `customer`  |  | `displayDescription`  | `calculateURL`  |  | `ADD`  |
+| `calculatedURL`  | `enteredBy`  |  | `displayName`  | `calculateURLS`  |  | `COPY`  |
+| `customerID`  | `view`  |  | `linkedCustomersMM`  |  |  | `COUNT`  |
+| `description`  |  |  | `linkedUsersMM`  |  |  | `DELETE`  |
+| `descriptionKey`  |  |  |  |  |  | `EDIT`  |
+| `enteredByID`  |  |  |  |  |  | `GET`  |
+| `entryDate`  |  |  |  |  |  | `REPORT`  |
+| `extRefID`  |  |  |  |  |  | `SEARCH`  |
+| `frame`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `friendlyURL`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `globalUIKey`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `height`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `ID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `name`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `nameKey`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `objID`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `objInterface`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `objObjCode`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `scrolling`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `url`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `viewID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;
 

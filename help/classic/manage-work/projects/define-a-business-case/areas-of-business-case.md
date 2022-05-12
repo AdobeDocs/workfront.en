@@ -16,7 +16,7 @@ This article describes the areas of the Business Case of a project.
 
 For information about creating a Business Case for a project, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Your Adobe Workfront administrator ```or group administrator``` must enable all the&nbsp;sections in the Business Case&nbsp;before they are visible on the project, except for the Project Info section.&nbsp;The Project Info section is enabled by default.
+Your Adobe Workfront administrator or group administrator must enable all the&nbsp;sections in the Business Case&nbsp;before they are visible on the project, except for the Project Info section.&nbsp;The Project Info section is enabled by default.
 
 For more information about enabling the areas of the Business Case, see the "Business Cases" section in&nbsp; [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -226,7 +226,7 @@ For more information about&nbsp;creating a custom form, see [Create or edit a cu
 
 You can use custom forms to collect additional information that is not displayed in the other fields of the Business Case.
 
-For more information about applying a custom form, see [Attach a Custom Form to a Business Case](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md). ``````
+For more information about applying a custom form, see [Attach a Custom Form to a Business Case](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md). 
 
 ## Business Case Summary
 

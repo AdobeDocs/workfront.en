@@ -16,7 +16,9 @@ Also, to make this experience familiar for you, we’ve designed the user interf
 
 For more information, see [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
-```<iframe class="vimeo-player_0" src="assets/468260023?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/468260023?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/468260023/5aa0e72e0f)
 
@@ -26,7 +28,9 @@ We have standardized sharing for Custom Forms so you can use the same Workfront 
 
 For more information, see [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 
-```<iframe class="vimeo-player_0" src="assets/468263599?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/468263599?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/468263599/76731363ab)
 
@@ -38,7 +42,9 @@ In addition to exporting the custom forms of projects, tasks, and issues, you ca
 
 For information about exporting custom forms from an object, see [Export custom forms](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FWork_with_Custom_Forms%2Fexport-custom-forms-details.htm).
 
-```<iframe class="vimeo-player_0" src="assets/475140925?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/475140925?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/475140925/d8b4af7df2)
 
@@ -54,7 +60,9 @@ You can still create an iteration on the backlog tag as before.
 
 For more information, see [Create an iteration](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAgile%2FUse_Scrum_in_an_Agile_Team%2FIterations%2Fcreate-an-iteration.html).
 
-```<iframe class="vimeo-player_0" src="assets/468254955?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/468254955?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/468254955/4793074696)
 
@@ -68,7 +76,9 @@ To save time and increase understanding of the overall health of a project, ther
 
 You can make selections on the charts to see different aspects of the tasks and issues in a project and click certain elements to display task information.
 
-```<iframe class="vimeo-player_0" src="assets/466352367?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/466352367?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/466352367/4d21ec5ee2)
 
@@ -82,7 +92,9 @@ The new Business Leader field can be used in report filters, views, and grouping
 
 For more information, see [Business Leader overview](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-```<iframe class="vimeo-player_0" src="assets/448953715?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/448953715?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/448953715/bcf80b1904)
 
@@ -96,7 +108,9 @@ For example, you can list all of your organization’s portfolios in a report an
 
 For more information, see the section “About associating a group with an object” in the article [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-```<iframe class="vimeo-player_0" src="assets/461460332?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/461460332?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/461460332/1b2d6b6d40)
 
@@ -110,7 +124,9 @@ For more information, see [Create and edit companies](../../../administration-an
 
 For information about administrative access to companies, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-```<iframe class="vimeo-player_0" src="assets/466659070?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/466659070?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/466659070/870bf7b974)
 
@@ -124,7 +140,9 @@ Updated on September 24th: After clicking Start task or Start issue, you now hav
 
 For more information on configuring this option, see [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-```<iframe class="vimeo-player_0" src="assets/449328676?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/449328676?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/449328676/39af5acaac)
 
@@ -138,7 +156,9 @@ Prior to this enhancement, Workfront saved only one draft for each queue topic i
 
 For information about submitting requests, see “ [Create and submit Workfront requests](create-submit-requests.md).
 
-```<iframe class="vimeo-player_0" src="assets/449464937?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/449464937?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/449464937/4ad38b67f1)
 
@@ -150,7 +170,9 @@ When you assign a team to a group, its Group Administrators can manage the team 
 
 For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-```<iframe class="vimeo-player_0" src="assets/452281329?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/452281329?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/452281329/7429cf3393)
 
@@ -167,7 +189,9 @@ For example, imagine that you manage a group called Marketing that has the subgr
 
 For information about using fields in lists and reports, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-```<iframe class="vimeo-player_0" src="assets/452280180?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/452280180?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/452280180/6599785cdd)
 
@@ -177,6 +201,8 @@ When discarding a saved draft, you can now click Cancel on the confirmation mess
 
 This feature is available only in the new Workfront experience. For information, see [Create and Submit Workfront requests](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
 
-```<iframe class="vimeo-player_0" src="assets/461469587?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/461469587?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/461469587/4c6a154ac4) 

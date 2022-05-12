@@ -187,7 +187,7 @@ To create a Request Queue:
      For information about the Workfront permissions model, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).   
      Setting permissions here saves time, rather than having to grant permissions for each individual incoming request. Choosing this option impacts all future requests, but does not retroactively impact existing requests. 
    
-   * **Default Approval**: Associate an approval process with this request queue. Only Issue Approval Processes are visible in this drop-down menu. All issues submitted to this queue will be associated with this approval process. Your Workfront administrator must define system-level approval processes before you can associate them with request queues. ```Users with administrative access to Approval processes can also create group-specific approval processes.```
+   * **Default Approval**: Associate an approval process with this request queue. Only Issue Approval Processes are visible in this drop-down menu. All issues submitted to this queue will be associated with this approval process. Your Workfront administrator must define system-level approval processes before you can associate them with request queues. Users with administrative access to Approval processes can also create group-specific approval processes.
 
      >[!IMPORTANT]
      >
@@ -207,13 +207,13 @@ To create a Request Queue:
 
      >[!TIP]
      >
-     >New Issue Fields selected in the Queue&nbsp;Details section are also associated with any new issue added to the project or to the tasks in the Issues  section .
+     >New Issue Fields selected in the Queue&nbsp;Details section are also associated with any new issue added to the project or to the tasks in the Issues section.
 
-     ```W``` ``` ```hen``` ```you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.``````
+     When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.
 
-     **Example:** ```If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team.``` 
+     **Example:** If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team. 
    
-   * ```**Documents**: If you select to display the Documents section in the new request form, select where the document uploading section should be positioned. Select from the following:```
+   * **Documents**: If you select to display the Documents section in the new request form, select where the document uploading section should be positioned. Select from the following:
 
      <table cellspacing="0"> 
       <col> 

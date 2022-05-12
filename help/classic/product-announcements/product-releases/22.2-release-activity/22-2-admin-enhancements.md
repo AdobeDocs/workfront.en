@@ -29,7 +29,9 @@ For more information, see the section [Start creating a custom form](../../../ad
 >* For section breaks in custom forms, we’ve created a set of common viewing and editing permissions that work for all object types that you can configure for a form. In one scenario, we found that one of these permissions, Limited Edit, might cause errors on a form. This was fixed on March 24. For more information about section breaks, see [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
 
-```<iframe class="vimeo-player_0" src="assets/686898305?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686898305?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686898305/86fc383bc3)
 
@@ -39,7 +41,9 @@ All Adobe Workfront users can now browse the catalog of available blueprints. Fo
 
 Additionally, the system administrator can enable access for users to request installation of blueprints. Assigning a request queue to store the requests allows users to make requests from the blueprints catalog. For more information, see Configure access to blueprints.
 
-```<iframe class="vimeo-player_0" src="assets/686442426?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686442426?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686442426/10adf97900)
 
@@ -57,7 +61,9 @@ Previously, custom forms were completely text based.
 
 For more information, see Add or edit an image widget in a custom form.
 
-```<iframe class="vimeo-player_0" src="assets/687162516?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/687162516?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/687162516/4f765595de)
 
@@ -86,7 +92,9 @@ All of these changes disable an option that was previously enabled by default. I
 
    * Share System-wide is now disabled for filters.
 
-```<iframe class="vimeo-player_0" src="assets/670799553?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/670799553?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/670799553/3446ee44df)
 
@@ -100,7 +108,9 @@ Previously, it wasn’t possible to deactivate a group.
 
 For more information, see Deactivate or reactivate a group.
 
-```<iframe class="vimeo-player_0" src="assets/686912349?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686912349?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686912349/0333c2a15a)
 

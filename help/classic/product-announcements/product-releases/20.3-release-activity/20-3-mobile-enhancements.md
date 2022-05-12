@@ -26,7 +26,9 @@ Make your video meetings a part of what you do in Workfront by starting Zoom mee
 
 For more information, see [Zoom integration overview](../../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md).
 
-```<iframe class="vimeo-player_0" src="assets/445059697?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/445059697?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/445059697/9a35e135a8)
 
@@ -56,6 +58,8 @@ You can use the pin feature to access saved virtual assistant commands as well a
 
 For more information about both of these features, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
 
-```<iframe class="vimeo-player_0" src="assets/448649564?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/448649564?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/448649564/f04d00ea6d) 

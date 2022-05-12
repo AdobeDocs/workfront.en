@@ -21,6 +21,8 @@ A path includes the request queue and all the topic groups and queue topics that
 
 For more information, see [Create and submit Adobe Workfront requests](create-submit-requests.md).
 
-```<iframe class="vimeo-player_0" src="assets/558570896?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/558570896?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/558570896/d931cdef2c) 

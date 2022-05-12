@@ -22,7 +22,9 @@ For more information about restoring objects in Workfront, see [Restore deleted 
 
 For information about how to view projects, tasks, and issues that have been recently restored, see [View restored item](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-```<iframe class="mt-media" src="assets/197926164?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/197926164?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Approval Diagram Shows Visual Representation of Previous, Current, and Future Approval Steps
 
@@ -34,7 +36,9 @@ On projects, the approval information is displayed in the header next to the pro
 
 For more information, see [Approving work](../../../../review-and-approve-work/manage-approvals/approving-work.md) in&nbsp; [Approving work](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-```<iframe class="mt-media" src="assets/197945794?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/197945794?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Configure Objects to Be Updated That Are Pending Approval
 
@@ -51,7 +55,9 @@ When a project, task, or issue is pending approval, you can now configure whethe
 
 Prior to this change, projects, tasks, and issues&nbsp;that were pending approval could not be edited; also, issues could not be added to projects that were pending approval, and tasks and issues could not be edited within projects that were pending approval.
 
-```<iframe class="mt-media" src="assets/200189960?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/200189960?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Assign Layout Templates to Groups
 
@@ -61,7 +67,9 @@ Prior to this change, you could assign layout templates to users, teams and job 
 
 For more information, see "Creating and Managing Layout Templates."
 
-```<iframe class="mt-media" src="assets/199878572?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/199878572?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Changes to Bulk Editing User Notifications
 
@@ -71,7 +79,9 @@ Prior to this change, the email notification settings you selected were saved, a
 
 For more information, see the "Modifying User Notification Settings in Bulk" in [Activate or deactivate your own event notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-```<iframe class="mt-media" src="assets/200095138?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/200095138?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Updated&nbsp;Look and Feel of Several Email Notifications
 
@@ -99,7 +109,9 @@ The following notifications areas have had the "Daily Digest" option added:
 
 For more information, see [Adobe Workfront notifications](../../../../workfront-basics/using-notifications/wf-notifications.md).&nbsp; Remember&nbsp;to update the email address associated with your account to be able to test this functionality, as the Preview Sandbox clears the email addresses on all users.&nbsp;
 
-```<iframe class="mt-media" src="assets/200094754?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/200094754?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Make a Group Public
 
@@ -107,7 +119,9 @@ When you make a group public, you can now add that group to users without being 
 
 For more information about making a group public, see the [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public)&nbsp;section in [Create a group](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-```<iframe class="mt-media" src="assets/197949010?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/197949010?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Share the&nbsp;URL of an Object in the Mobile App&nbsp;
 
@@ -129,13 +143,17 @@ You can share a&nbsp;URL of an&nbsp;object in the following applications:
 
 For more information, see the "Sharing a URL in the Mobile App" section on .
 
-```<iframe class="mt-media" src="assets/200086398?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/200086398?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Context-Sensitive Help in Setup
 
 All the areas under the Setup menu have been updated with a Help icon in the top upper-right corner of the area. This icon provides a link to a Help Site article about that area. Some sections inside the Setup areas have also been updated with the Help icon.&nbsp;
 
-```<iframe class="mt-media" src="assets/197949016?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/197949016?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Add More Precise Expense Rates
 
@@ -163,5 +181,7 @@ This Webinar was&nbsp;presented by the Workfront Release Readiness team on Janua
 
 The webinar recording is available below.
 
-```<iframe class="mt-media" src="assets/200216498?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/200216498?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;
 &nbsp;  

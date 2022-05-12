@@ -34,7 +34,9 @@ With this change, users who can view requests that others submitted can also cop
 
 For more information, see [Copy and submit requests](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-```<iframe class="vimeo-player_0" src="assets/647433535?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/647433535?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/647433535/32c681ac04)
 

@@ -22,7 +22,9 @@ Prior to these changes, the option to link&nbsp;files from an external source wa
 
 For more information, see&nbsp; [Link documents from external applications](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-```<iframe class="mt-media" src="assets/202056256?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```
+<!--WRITER
+<iframe class="mt-media" src="assets/202056256?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->
 
 ## Updated&nbsp;Team Working On Calendar
 
@@ -51,7 +53,9 @@ For more information about using the updated team Working On calendar, see [Reso
 
 You can still access the legacy Working On Calendar, as described in .
 
-```<iframe class="mt-media" src="assets/200066372?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/200066372?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Resource Scheduling Enhancements
 
@@ -76,7 +80,9 @@ Prior to this change, users would disappear from the scheduling timeline immedia
 
 For more information, see&nbsp; [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
-```<iframe class="mt-media" src="assets/201889347?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```
+<!--WRITER
+<iframe class="mt-media" src="assets/201889347?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->
 
 ## Customize Workfront Terminology by Changing Object Names
 
@@ -112,7 +118,9 @@ The following areas do not show the updated name of the objects:
 * Mobile Apps
 * Outlook Add-in
 
-For more information about how to customize the Workfront terminology using a Layout Template, see the "Customizing Terminology" section in "Creating and Managing Layout Templates" and the "Understanding the Implications of Customizing Object Names" section in [Understand objects in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).&nbsp;```<iframe class="mt-media" src="assets/201701616?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+For more information about how to customize the Workfront terminology using a Layout Template, see the "Customizing Terminology" section in "Creating and Managing Layout Templates" and the "Understanding the Implications of Customizing Object Names" section in [Understand objects in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).&nbsp;<!--WRITER
+<iframe class="mt-media" src="assets/201701616?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Include Approval Start and End Dates in Reports
 
@@ -133,7 +141,9 @@ The following fields were removed from Workfront and can no longer be included i
 * Approval Projected Start Date
 * Approval Estimated Start Date
 
-```<iframe class="mt-media" src="assets/199878644?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/199878644?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## New Email Digest Options for "Requests I Have Made"
 
@@ -143,7 +153,9 @@ For more information, see [Activate or deactivate your own event notifications](
 
 Remember to update the email address associated with your account to be able to test this functionality. This is required because the Preview Sandbox clears the email addresses on all users.
 
-```<iframe class="mt-media" src="assets/200094754?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```
+<!--WRITER
+<iframe class="mt-media" src="assets/200094754?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->
 
 ## Updated Look and Feel of Document Approval Email Notifications
 
@@ -164,4 +176,6 @@ Prior to this change, in order to edit the dates or view percent complete, you h
 
 For more information, see [Use the Milestone view](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-```<iframe class="mt-media" src="assets/201707205?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>``` 
+<!--WRITER
+<iframe class="mt-media" src="assets/201707205?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+--> 

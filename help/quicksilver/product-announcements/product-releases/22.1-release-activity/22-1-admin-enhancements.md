@@ -32,7 +32,9 @@ This does not change your users' existing access to teams.
 
 For more information, see [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md).
 
-```<iframe class="vimeo-player_0" src="assets/652603175?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652603175?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652603175/5693e7dafa)
 
@@ -42,7 +44,9 @@ Some blueprints now include groups, which you can customize before installing th
 
 For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-```<iframe class="vimeo-player_0" src="assets/652608333?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652608333?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652608333/804c3ab1f6)
 
@@ -66,7 +70,9 @@ Also, in the customizable “Instructions” hover text for a calculated custom 
 
 For more information about creating a calculated custom field, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-```<iframe class="vimeo-player_0" src="assets/652968756?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/652968756?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/652968756/9f99cf0faf)
 
@@ -91,7 +97,9 @@ The following Blueprints enhancements are now available:
 
 For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-```<iframe class="vimeo-player_0" src="assets/642333705?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/642333705?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/642333705/76d3ed60db)
 
@@ -105,7 +113,9 @@ The updated toolbar also contains all of the actions that were available in the 
 
 For more information, see [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
-```<iframe class="vimeo-player_0" src="assets/642385873?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/642385873?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/642385873/bda6bec5ce)
 
@@ -129,7 +139,9 @@ For information about how a Workfront administrator unlocks a timesheet and hour
 
 For information about how a group administrator configures unlocked task and issue preferences for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-```<iframe class="vimeo-player_0" src="assets/600488692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/600488692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/600488692/f2722950ee)
 
@@ -141,7 +153,9 @@ Previously, you had to unlock and re-lock notifications one at a time. Workfront
 
 For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-```<iframe class="vimeo-player_0" src="assets/631397855?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/631397855?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/631397855/4f9152ba44)
 
@@ -154,7 +168,9 @@ When you are deleting a group, two improvements in the Delete Group box make it 
 
 For more information, see [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
 
-```<iframe class="vimeo-player_0" src="assets/631401157?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/631401157?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/631401157/fc78779cfc)
 
@@ -176,7 +192,9 @@ Custom forms are now supported for the Group object. This makes it easier for gr
 
 For information about custom forms, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-```<iframe class="vimeo-player_0" src="assets/655513230?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/655513230?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/655513230/51811d7775)
 

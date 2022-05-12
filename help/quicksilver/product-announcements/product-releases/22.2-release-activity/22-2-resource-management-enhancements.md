@@ -26,7 +26,9 @@ To improve your experience when using the Workload Balancer, we have introduced 
 
 For more information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-```<iframe class="vimeo-player_0" src="assets/686852400?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686852400?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686852400/cea0d90d46)
 
@@ -36,7 +38,9 @@ To make assigning work items easier and more accurate, you can now make advanced
 
 For more information, see [Assign work manually using the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
-```<iframe class="vimeo-player_0" src="assets/686857137?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686857137?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686857137/4c645c5354)
 
@@ -52,6 +56,8 @@ User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off
 
 For more information, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-```<iframe class="vimeo-player_0" src="assets/686855756?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686855756?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686855756/688f5494a6) 
