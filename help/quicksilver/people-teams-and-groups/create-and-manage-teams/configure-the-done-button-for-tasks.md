@@ -54,32 +54,23 @@ You can change which status is applied to the work item with the Done button. Yo
 
    >[!NOTE]
    >
-   >Consider the following when selecting statuses for tasks or issues:  
-
+   >Consider the following when selecting statuses for tasks or issues:
    >
+   >* When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their&nbsp;item.&nbsp;If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
+   >* You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
+   >* When a user assigned to the item places the item in the status associated with the Done button, the item displays as Done for that user regardless of whether the status you select is a Completed or Closed status or a working status. 
    >   
    >   
-   >   * When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their&nbsp;item.&nbsp;If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
-   >   * You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
-   >   * When a user assigned to the item places the item in the status associated with the Done button, the item displays as Done for that user regardless of whether the status you select is a Completed or Closed status or a working status. 
+   >  For example, associating the Done button with In Progress causes the work item to display as Done for the user who changes the status from New to In progress. 
    >   
-   >   
-   >     For example, associating the Done button with In Progress causes the work item to display as Done for the user who changes the status from New to In progress. 
-   >   
-   >   * Issue types are customizable and they might have different names than listed below in your environment.  
-   >     Following&nbsp;are the default tasks and issue types:   >   
-   >      
-   >      
-   >      * Tasks
-   >      * Issue
-   >      * Request
-   >      * Change Order
-   >      * Bug Report
-   >      
-   >      
-   >   
-   >   
-   >
+   >* Issue types are customizable and they might have different names than listed below in your environment.  
+   >  Following&nbsp;are the default tasks and issue types:
+   >     
+   >  * Tasks
+   >  * Issue
+   >  * Request
+   >  * Change Order
+   >  * Bug Report
 
    If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
 

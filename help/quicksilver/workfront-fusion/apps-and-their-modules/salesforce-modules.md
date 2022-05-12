@@ -49,11 +49,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -157,7 +156,7 @@ This module requires some extra setup:
 
    in Workfront Fusion.
 
-1. Configure a scenario beginning with the Outbound Message event 
+1. Configure a scenario beginning with the Outbound Message event. 
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -165,7 +164,6 @@ This module requires some extra setup:
    </MadCap:conditionalText>
    -->
 
-   .
 1. Click the **</>** icon in the bottom right and copy the provided URL.
 1. Return to the **Workflow Rules** page, locate the newly created rule, then click **Activate**.
 

@@ -49,8 +49,8 @@ For information about the release time frame and all functionality available wit
        <li>August 9, 2019</li> 
       </ul> 
      </div> 
-     <p><iframe class="vimeo-player_0" src="assets/352814469?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/352814469/e267c80c31" target="_blank">View this video in full-screen mode.</a> </p> 
+     <!--<p><iframe class="vimeo-player_0" src="assets/352814469?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/352814469/e267c80c31" target="_blank">View this video in full-screen mode.</a> </p>--> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -69,8 +69,8 @@ For information about the release time frame and all functionality available wit
        <li>August 9, 2019</li> 
       </ul> 
      </div> 
-     <p><iframe class="vimeo-player_0" src="assets/352816307?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/352816307/c9988ec54c" target="_blank">View this video in full-screen mode.</a> </p> 
+     <!--<p><iframe class="vimeo-player_0" src="assets/352816307?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/352816307/c9988ec54c" target="_blank">View this video in full-screen mode.</a> </p>--> 
     </div> </td> 
   </tr> 
  </tbody> 

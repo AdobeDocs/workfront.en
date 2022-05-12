@@ -5,7 +5,8 @@ user-guide-description: Workfront
 # Workfront {#using}
 
 * [Workfront documentation](home.md)
-* [Product announcements](product-announcements/product-announcements.md)
+* Product announcements {#product-announcements}
+  * [Product announcements](product-announcements/product-announcements.md)
   * Product releases {#product-releases}
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)

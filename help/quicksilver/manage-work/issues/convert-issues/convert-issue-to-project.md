@@ -66,22 +66,18 @@ You can convert an issue to a blank project or convert an issue to a project usi
      <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
      <p>Or</p> <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and in yellow - this is NOT possible yet in a list (in 22.1), but will be released later!) </p>   
-     -->   
      <p>Select the issue in the list of issue, click the <strong>More</strong> menu <img src="assets/more-icon.png"> at the top of the list, then click <strong>Convert to a blank project</strong>. </p>   
      </div>   
      -->   
    
-     ```<blockquote>  <p>You must manually add tasks to the project or attach a template to the project after you convert the issue. </p>  <p>Continue with Step 3e below. <!--   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">    (is this accurate?)   </MadCap:conditionalText>  --></p> </blockquote>```    
+     <blockquote>  <p>You must manually add tasks to the project or attach a template to the project after you convert the issue. </p>  <p>Continue with Step 3e below. <!--   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">    (is this accurate?)   </MadCap:conditionalText>  --></p> </blockquote>    
    
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * If the issue was created using a request queue, the new project inherits the request queue's Group. 
      >   * If the issue was created by adding it to the Issues section of the project, the new project inherits the Group if the issue's project. 
-     >   
      >
+
 
    * To convert an issue to a project using a template, do one of the following:
 

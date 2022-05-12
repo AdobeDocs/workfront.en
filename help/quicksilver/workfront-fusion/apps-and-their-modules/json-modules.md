@@ -70,52 +70,42 @@ For more information, see [Data structures in Adobe Workfront Fusion](../../work
 
 ### Collection vs. Array {#collection-vs-array}
 
-If the JSON string field contains a collection 
+If the JSON string field contains a collection `{ ... }`
+
+**Example:**
 
 ```
-{ ... }
+{
+    "name" : "Peter",
+
+    "ID" : 1
+}
 ```
 
-:
-
-**Example:** {
-
-"name" : "Peter",
-
-"ID" : 1
-
-`}`
 The output is a single bundle containing the items of the collection:
 
 ![](assets/json-collection.png)
 
-If the JSON string field contains an array 
-
-```
-[ ... ]
-```
+If the JSON string field contains an array `[ ... ]`
 
 :
 
-**Example:** [
+**Example:** 
 
-{
+```
+[
+  {
+    "name" : "Peter",
+    "ID" : 1
+  },
 
-"name" : "Peter",
+  {
+    "name" : "Mike",
+    "ID" : 2
+  }
+]
+```
 
-"ID" : 1
-
-`},`
-
-`{`
-
-"name" : "Mike",
-
-"ID" : 2
-
-`}`
-
-`]`
 The output is a series of bundles. Each bundle contains one element of the array:
 
 ![](assets/json-array.png)
@@ -180,7 +170,7 @@ This action module converts a JSON string to XML.
  </tbody> 
 </table>
 
-### Parse JSON {#parse-json}
+### Parse JSON
 
 This action module parses a JSON string into a data structure, which allows you to access the data inside the JSON&nbsp;string.
 
@@ -238,7 +228,10 @@ This action module transforms an object into a json string.
 1. Connect the Array Aggregator module after the Google Sheets module. In the module's setup choose the Google Sheets module in the **Source node** field. Leave the other fields as they are for the moment.
 1. Connect JSON > Create JSON module after the Array Aggregator module. The module's setup requires a Data structure that describes the JSON format. Click **Add** to open the Data structure setup. The easiest way to create this Data structure is to generate it automatically from a JSON sample. Click **Generator** and paste your JSON sample to the **Sample data** field:
 
-   **Example:** {
+   **Example:** 
+   
+   ```
+   {
 
    "books": [
 
@@ -255,6 +248,7 @@ This action module transforms an object into a json string.
    ]
 
    }
+   ```
 
 1. Click **Save**. The Specification field in the Data structure now contains the generated structure.
 1. Change the name of your Data structure to something more specific and click **Save**. A field corresponding to the root array attribute appears as a mappable field in the JSON module's setup.
@@ -283,13 +277,6 @@ Make sure that the JSON content is properly mapped into the Parse JSON module an
 
 ### Module fails when using conditional statements in JSON
 
-When using conditional statements such as 
-
-```
-if
-```
-
-in your JSON, put the quotation marks outside of the conditional statement.
+When using conditional statements such as `if` in your JSON, put the quotation marks outside of the conditional statement.
 
 **Example:**  ![](assets/quotes-in-json-350x120.png)
-

@@ -21,12 +21,12 @@ For instructions on how to view and manage these notifications, see [View and ma
 
 ## Announcement notifications {#announcement-notifications}
 
-```<li>Announcements come in one of two ways:</li>```
+Announcements come in one of two ways:
 
 * Workfront sends a message to the Announcement page of your organization's Workfront administrators  
 * A Workfront administrator sends a message to users from the Announcement page
 
-In both cases, when the administrator or user clicks the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open their list of notifications, the subject line of the message displays with a megaphone icon and the word "Announcement."
+In both cases, when the administrator or user clicks the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open their list of notifications, the subject line of the message displays with a megaphone icon ![](assets/announcement.png) and the word "Announcement."
 
 ![Announcement notification](assets/notification-list-announcement-350x271.png)
 
@@ -51,86 +51,119 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 * [Share](#share) 
 * [Other](#other)
 
-### **Approvals** {#approvals}
+### Approvals
 
-* You need to approve a project
-* You need to approve a task
-* You need to approve a issue
-* You need to approve a document
-* [name] wants you to approve this proof.
+* ![](assets/prjneedsapprvl.png)
 
-  If the user information is not available, the notification changes to “This proof requires your approval.
+  Project needs your approval - [sender's name] 
+* ![](assets/icon-taskassngdtoyou.png) Task needs your approval - [sender's name]
+* ![](assets/issue.png) Issue needs your approval - [sender's name]
+* ![](assets/document.png)
 
-* You need to approve a timesheet
-* You need to approve access to an object
+  Document needs your approval - [sender's name]
+* ![](assets/proof.png)
 
-  The object could be a project, task, issue, document, report, dashboard, portfolio, program, or calendar.
+  Proof needs your approval - [sender's name]
+* ![](assets/timesheet.png) Timesheet needs your approval - [sender's name]
 
-* Your timesheet is approved  
-* Your timesheet is rejected  
-* Your timesheet is re-opened  
-* An approver comments on your timesheet  
-* A document approval request that you requested is completed  
-* A document approval request that you requested is approved
-* A document approval request that you requested is rejected  
-* After receiving a document approval request, the request is canceled
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/portfolio.png"> You need to approve a portfolio</li>
+  -->
 
-### **Requests** 
-{#requests}
+* [Object name] needs your access approval - [sender's name]
 
-* You are requested&nbsp;to upload a document  
-* A document upload request that you requested is fulfilled  
-* A comment is posted on your&nbsp;request  
-* After receiving a&nbsp;document upload request, the request&nbsp;is canceled
-* Someone requests permission from you to access an object (such as a project, task, report, template, and so forth)
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
 
-### **Assignments** {#assignments}
+* ![](assets/timesheet.png) Timesheet approved - [approver's name]
+* ![](assets/timesheet.png) Timesheet rejected - [approver's name]
+* ![](assets/timesheet.png) Timesheet reopened - [opener's name]
+* ![](assets/timesheet.png) Timesheet comment - [commenter's name]
+* ![](assets/document.png)
 
-* You are assigned to a task 
-* You are assigned to an issue
-* A team to which you are assigned receives a work request
-* Team to which you are assign needs to work on a task  
+  Document approval completed - [sender's name]
+* ![](assets/document.png)
+
+  Document approved - [sender's name]
+* ![](assets/document.png)
+
+  Document approved with changes - [sender's name]
+* ![](assets/document.png)
+
+  Document rejected - [sender's name]
+* ![](assets/document.png)
+
+  Document approval request cancelled - [sender's name]
+
+### Requests
+
+* ![](assets/document.png)
+
+  [user icon] Asked you to upload a document - [requester's name]
+* ![](assets/document.png)
+
+  Document upload request fulfilled - [fulfiller's name]
+* ![](assets/user.png) Request comment - Sender name
+* ![](assets/document.png)
+
+  Document upload request canceled - [sender's name]
+* [Object name] access requested - [sender's name]
+
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
+
+### Assignments
+
+* ![](assets/icon-taskassngdtoyou.png) Task assigned to you - [assigner's name]
+* ![](assets/issue.png) Issue assigned to you - [assigner's name]
+* ![](assets/issue.png) Issue assigned to [team name] - [assigner's name]
+* ![](assets/icon-taskassngdtoyou.png) Task assigned to [team name] - [assigner's name]
    * Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).
    * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
    * If you assign work to yourself or a team you belong to, you will not receive a notification.
 
-### **Comments** 
-{#comments}
+### Comments
 
-* Someone comments on a thread you are in&nbsp;
-* An update is made to a task, issue or project you are subscribed to
-* Someone comments on one of your work items
-* Someone 'Likes' your&nbsp;comment
-* Someone comments on your timesheet
-* A comment is added on your user profile page or by bulk editing multiple users&nbsp;
-* A comment is added on one of your updates
-* A comment is added on your timesheet
+* ![](assets/user.png) [Object name] comment - [commenter's name]
 
-### **Updates** 
-{#updates}
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
 
-* Someone includes you on a directed update&nbsp;
-* Someone includes your team on a directed update
-* Someone 'Likes' your update
+* [Object name] update - [updater's name]
 
-### **Date changes** 
-{#date-changes}
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
 
-* The due date changes on an issue you are assigned to&nbsp;
-* The due date changes on a task you are&nbsp;assigned to&nbsp;
-* The commit date changes for an issue on one of your projects&nbsp;
-* The commit date changes for a task on one of your projects&nbsp;
+* [Object name] update - [updater's name]
 
-### **Share** 
-{#share}
+  The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
 
-* A document is shared with you
-* A document is shared with your&nbsp;team
-* A document proof is shared with you
+* ![](assets/user.png) Liked your comment - [liker's name]
+* ![](assets/timesheet.png) Timesheet comment - [commenter's name]
+* Comment - [commenter's name]
+* ![](assets/user.png) Comment - Commenter name
+* ![](assets/timesheet.png) Timesheet comment - Commenter name
 
-### **Other** 
-{#other}
+### Updates
 
-* An error was found that needs your attention 
-* A message is sent to the Announcement Center (Message is sent from Workfront to the Workfront administrator)
+* ![](assets/user.png) Tagged you in a comment - [tagger's name]
+* ![](assets/user.png) Tagged your team in a comment - [tagger's name]
+* ![](assets/user.png) Tagged your team in a comment - [tagger's name]
 
+### Date changes
+
+* ![](assets/issue.png) Issue due date changed - [changer's name]
+* ![](assets/icon-taskassngdtoyou.png) Task due date changed - [changer's name]
+* ![](assets/issue.png) Issue commit date changed - [changer's name]
+* ![](assets/icon-taskassngdtoyou.png) Task commit date changed - [changer's name]
+
+### Share
+
+* ![](assets/document.png)
+
+  Document shared with you - [sharer's name]
+* ![](assets/document.png)
+
+  Document shared with [team name] - [sharer's name]
+* ![](assets/proof.png) Proof shared with you - [sharer's name]
+
+### Other
+
+* ![](assets/error.png) An error needs your attention
+* ![](assets/announcement.png) Announcement - [Workfront administrator's name]

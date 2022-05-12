@@ -40,6 +40,7 @@ access to act on their behalf. This handshaking process only happens once for ea
 
 Making authorized API calls to a webhook provider using an ApiKey is much simpler than OAuth2. When making an API call, Workfront will simply pass the ApiKey and Workfront username in the HTTP request header:&nbsp;
 
+```
 -------------------------------
 
 apiKey: 12345
@@ -47,6 +48,7 @@ apiKey: 12345
 username: johndoe@foo.com
 
 -------------------------------&nbsp;
+```
 
 The Webhook provider can use the username to apply user-specific permissions. This works best when both systems connect to LDAP using Single Sign On (SSO).
 

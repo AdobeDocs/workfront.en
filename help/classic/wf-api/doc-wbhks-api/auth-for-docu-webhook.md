@@ -32,9 +32,7 @@ access to act on their behalf. This handshaking process only happens once for ea
 1. From this point forward, Workfront will be able to make authorized API calls to the webhook provider.&nbsp;When making these calls, Workfront will send the the access token in the HTTP request header as shown below:  
 
    ```
-   -------------------------------  
    Authorization: Bearer [access_token] ­­­­­­­­­­­­­­­­­­­­­­­­­­  
-   -------------------------------
    ```
 
 1. If the access token has expired, Workfront will make a call to the Token Endpoint URL to retrieve a&nbsp;new access token then attempt the authorized API call again with the new access token.
@@ -43,13 +41,11 @@ access to act on their behalf. This handshaking process only happens once for ea
 
 Making authorized API calls to a webhook provider using an ApiKey is much simpler than OAuth2. When making an API call, Workfront will simply pass the ApiKey and Workfront username in the HTTP request header:&nbsp;
 
--------------------------------
-
+```
 apiKey: 12345
 
 username: johndoe@foo.com
-
--------------------------------&nbsp;
+```
 
 The Webhook provider can use the username to apply user-specific permissions. This works best when both systems connect to LDAP using Single Sign On (SSO).
 

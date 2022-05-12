@@ -81,7 +81,7 @@ description: Updated Resources
 | userID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH |
 | workDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```Updated Resources```
+**Updated Resources**
 
 The following existing resources have been updated with this release of the Workfront API. Changes made to a resource are indicated as follows:
 
@@ -93,24 +93,24 @@ The following existing resources have been updated with this release of the Work
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  |pendingApproval ```¹```&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```<del>masterTaskID</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| kanbanFlag |  |  |pendingApproval `¹` &nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | priorityColor&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | projectBudgetedCost&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | projectNetValue&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | projectRoi&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | resourcePlannerBudgetedLaborCost&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Type changed from null to boolean```
+`¹ Type changed from null to boolean`
 
 ### Assignment
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| assignmentPercent ```¹``` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| assignmentPercent `¹` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | viewedByAssignedToUser |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹```added validator LESS_THAN_EQUAL
+`¹`added validator LESS_THAN_EQUAL
 
 ### BudgetedHour
 
@@ -124,7 +124,7 @@ The following existing resources have been updated with this release of the Work
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| name ```¹``` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| name `¹` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ¹ Changes to possibleValues
 
@@ -138,19 +138,19 @@ The following existing resources have been updated with this release of the Work
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<del>masterTaskID</del>```  |  | ``````  | ``````  | ``````  | ``````  | ``````  |
+| `masterTaskID`  |  |   |   |   |   |   |
 
 ### DocumentRequest
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<del>masterTaskID</del>```  | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
+| `masterTaskID`  |   |   |   |   |   |   |
 
 DocumentVersion 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ```¹``` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| externalIntegrationType ¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
@@ -161,7 +161,7 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<del>masterTaskID</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### Group
 
@@ -174,7 +174,7 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-|  externalIntegrationType¹ `````` |  |  |  |  | ``````  | ``````  |
+|  externalIntegrationType¹  |  |  |  |  |   |   |
 
 ¹ Changes to possibleValues
 
@@ -182,21 +182,21 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| priorityColor | ``````  |  | pendingApproval¹   | ``````  | ``````  | ``````  |
+| priorityColor |   |  | pendingApproval¹   |   |   |   |
 
-```¹ Type changed from null to boolean```
+¹ Type changed from null to boolean
 
 ### PortalSection
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-|   |  | ``````  |```<del>``````<del>groupIDs</del>```  | ``````  | ``````  | ``````  |
+|   |  |   |groupIDs  |   |   |   |
 
 ### Portfolio
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| portfolioNetValue  | ``````  | ``````  | ``````  |  |  | ``````  |
+| portfolioNetValue  |   |   |   |  |  |   |
 | portfolioRoi |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### Project
@@ -212,22 +212,22 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| approverDecision | ``````  | ``````  | ``````  | ``````  | ``````  | ``````  |
+| approverDecision |   |   |   |   |   |   |
 
 ### Rate
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| rateValue ```¹``` |  |  |  |  |  | ``````  |
+| rateValue ¹ |  |  |  |  |  |   |
 
-```¹```added validator CURRENCY
+¹added validator CURRENCY
 
 ### Task
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | kanbanFlag |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```<del>masterTaskID</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | priorityColor&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;
@@ -236,21 +236,21 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ```¹``` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| hoursPerPoint ¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ added validator LESS_THAN```
+¹ added validator LESS_THAN
 
 ### TeamAssignment
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<del>masterTaskID</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### TeamTask
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<del>masterTaskID</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### Timesheet
 
@@ -262,9 +262,9 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| updateType ```¹``` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectUpdatesWithNoteAndJournalEntryIndex&nbsp; |
+| updateType `¹` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectUpdatesWithNoteAndJournalEntryIndex&nbsp; |
 
-```¹ changes to possibleValues```
+¹ changes to possibleValues
 
 ### User
 
@@ -276,19 +276,19 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| eventType ```¹``` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| eventType ¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ changes to possibleValues```
+¹ changes to possibleValues
 
 ### Work
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  |pendingApproval ```¹```&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ```<del>masterTaskID</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| kanbanFlag |  |  |pendingApproval ¹&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | priorityColor&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-```¹ Type changed from null to boolean```
+¹ Type changed from null to boolean
 
 ## Removed Resources {#removed-resources}
 

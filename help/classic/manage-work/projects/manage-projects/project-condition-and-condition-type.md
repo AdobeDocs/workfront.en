@@ -35,16 +35,11 @@ Consider the following in understanding the Condition of a project:
   >[!NOTE]
   >
   >Projects that are in any of the following statuses are always marked as On Target, no matter what the dates of the tasks and their progress are:  
-
   >
-  >   
-  >   
-  >   * Idea
-  >   * Requested
-  >   * Approved
-  >   * Rejected 
-  >   
-  >
+  >* Idea
+  >* Requested
+  >* Approved
+  >* Rejected 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

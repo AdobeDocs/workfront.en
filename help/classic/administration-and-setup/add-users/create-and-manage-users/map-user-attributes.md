@@ -102,9 +102,10 @@ Keep the following in mind when mapping attributes:
      </tr> 
      <tr> 
       <td role="rowheader">Default Value</td> 
-      <td> <p>After you choose a Workfront User Attribute, if the value is NULL during the connection, this field fills in with the corresponding default value in the system. Type a value here only if you plan to apply attribute mapping rules (see step 7). The default value acts as an exception to those rules. <!--
+      <td> <p>After you choose a Workfront User Attribute, if the value is NULL during the connection, this field fills in with the corresponding default value in the system. Type a value here only if you plan to apply attribute mapping rules (see step 7). The default value acts as an exception to those rules. </p> </td>
+      <!--
          <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this right?</span>
-        --></p> </td> 
+      --> 
      </tr> 
     </tbody> 
    </table>
