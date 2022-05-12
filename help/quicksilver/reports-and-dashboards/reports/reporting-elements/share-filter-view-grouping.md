@@ -68,9 +68,6 @@ Sharing filters, views, or groupings in Workfront is identical.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE)condition this for classic when the paragraph with the bullets below comes to NWE preview)</p>
--->
-
-<!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">
 <p>You can share filters in select lists using the following interfaces:</p>
 <ul>
@@ -80,19 +77,16 @@ Sharing filters, views, or groupings in Workfront is identical.
 <p>Sharing filters in select lists is different depending on which interface you use to share the filter from. For information about the types of filter-building interfaces, see <a href="../../../reports-and-dashboards/reports/reporting-elements/create-filters.md" class="MCXref xref">Create or edit filters in Adobe Workfront</a>.</p>
 <p>You can share views and groupings only in the standard interface.</p>
 <ul>
-<li> <!--
+<li>
 <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="#sharing-filters-views-and-groupings-using-the-standard-interface" class="MCXref xref">Sharing filters, views, and groupings using the standard interface</a> </p>
---> </li>
-<li> <!--
+</li>
+<li>
 <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="#sharing-filters-and-groupings-using-the-beta-builder-interface" class="MCXref xref">Sharing filters and groupings using the beta builder interface</a> </p>
---> </li>
-</ul> <!--
+</li>
+</ul>
 <h3 data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode" id="sharing-filters-views-and-groupings-using-the-standard-interface"><a name="Sharing"></a>Sharing filters, views, and groupings using the standard interface</h3>
---> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: drafted, keep NWE)&nbsp;</p>
---> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">Sharing filters, views, and groupings in the standard interface is identical.</p>
--->
 </div>
 -->
 
@@ -145,15 +139,13 @@ Sharing filters, views, or groupings in Workfront is identical.
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
 <p><strong>Sharing filters and groupings using the beta builder interface</strong></p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted, yellow, and will stay in NWE)</p>
--->
 <p>When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.</p> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: update the list of which objects have this filter when the new filter are available for other objects) </p>
--->
 <p>The beta builder interface is not available for any other objects in&nbsp;Workfront. <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (NOTE: this will change)
 </MadCap:conditionalText>
---></p>
+</p>
 <p>You cannot build filters or groupings in the beta builder interface when building reports.</p>
 <p>Share a filter or grouping using the beta builder interface:</p>
 <ol>
@@ -295,8 +287,6 @@ This video was recorded in Workfront Classic. However, the content also applies 
    <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu again, then click <strong>Share Filter</strong>, <strong>Share View</strong>, or <strong>Share Grouping</strong>.<br>The Filter Access, View Access, or Grouping Access dialog box is displayed.<br><img src="assets/share-filterviewgrouping-350x382.png" alt="" style="width: 350;height: 382;"></li>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Complete either of the following, depending on who you want to share with:</p>
    -->
@@ -309,8 +299,6 @@ This video was recorded in Workfront Classic. However, the content also applies 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>To share with all users in the system:</strong> Click the <strong>Settings</strong> icon, then click <strong>Make this visible system-wide</strong>.<br>Your administrator must select the Share System-wide option for this option to be available. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars </a>.</p>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.<br><img src="assets/share-filterviewgrouping-dropdown-350x380.png" alt="" style="width: 350;height: 380;"></p>
    -->
@@ -319,19 +307,17 @@ This video was recorded in Workfront Classic. However, the content also applies 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can select from the following options:</p>
    -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</li>   
-     -->
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</li>   
+   -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</li>   
-     -->
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</li>   
+   -->
 
-     <!--   
-     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li>   
-     -->
-
-1. 
+   <!--   
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li>   
+   -->
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save</strong></p>
@@ -344,4 +330,3 @@ This video was recorded in Workfront Classic. However, the content also applies 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users who you share the Filter, View, or Grouping with can access the shared Filter, View, or Grouping by clicking the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu and scrolling down to the <strong>Shared with me</strong> section.</p>
    -->
-

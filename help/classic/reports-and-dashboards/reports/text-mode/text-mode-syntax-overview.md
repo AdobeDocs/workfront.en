@@ -144,8 +144,6 @@ valueexpression
 >  For information about sharing columns, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md). 
 >
 
-#### 
-
 ```
 Valuefield
 ```
@@ -195,8 +193,6 @@ line:
   ```
 
 &nbsp;
-
-#### 
 
 ```
 Valueexpression
@@ -294,8 +290,6 @@ line:
   line.
 
   For information about wildcards, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-#### 
 
 ```
 Valueformat

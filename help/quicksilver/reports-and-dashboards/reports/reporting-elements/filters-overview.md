@@ -333,17 +333,6 @@ This article describes all areas where you can apply filters in&nbsp;Workfront, 
 <li>Resource Planner<br>For information about filtering in the Resource Planner, see the article <a href="../../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a>.</li>
 <li>Resource Scheduling areas<br>For information about filtering in the scheduling areas, see the article <a href="../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref">Filter information in the Scheduling area</a>.</li>
 <li>Home <br>For information about filtering items in the Home area, see the <a href="../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type" class="MCXref xref">Filter the Work List</a> section in the article <a href="../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md" class="MCXref xref">Display items in the Work List in the Home area</a>.</li>
-<li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Scenario Planner </p> <p>The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a>. </p> <note type="tip">
-You cannot customize filters in theScenario Planner.
-</note> <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tip above: this might change with the beta filters??) </p>
---> <p>You can apply filters to a list of plans, initiatives, or projects in the Scenario Planner. For information, see the following articles:</p>
-<ul>
-<li> <p><a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a> </p> </li>
-<li> <p><a href="../../../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref">Update or create projects by publishing initiatives in the Scenario Planner</a> </p> </li>
-<li> <p><a href="../../../scenario-planner/import-projects-to-plans.md" class="MCXref xref">Import projects to plans in the Scenario Planner</a> </p> </li>
-</ul> </li>
-<li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Goals </p> <p>This requires an additional license. For information about Workfront Goals, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> <p>For information, see <a href="../../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> </li>
 </ul>
 <p>For information about removing a permanent filter, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md" class="MCXref xref">Remove filters, views, and groupings</a>. </p>
 <h2><a name="temporary-filters"></a>Temporary filters</h2>
@@ -401,13 +390,13 @@ When changing your AND statements to OR statements, the number of the items in y
 <li>Modifying an existing filter</li>
 <li>Copying an existing filter</li>
 </ul>
-<p>For information about creating or editing a filter using the standard interface, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/create-filters.md" class="MCXref xref">Create or edit filters in Adobe Workfront</a>.</p> <!--
+<p>For information about creating or editing a filter using the standard interface, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/create-filters.md" class="MCXref xref">Create or edit filters in Adobe Workfront</a>.</p> 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h3><a name="Customizing_an_Existing_Filter"></a><strong>Customize an existing filter</strong> </h3>
 <p>(NOTE: points to the Create filters article above) </p>
 <ol>
 <li value="1">Go to the report or list that contains the Filter that you want to customize. </li>
-<li value="2">Click the <strong>Filter</strong> drop-down list.<br></li>
+<li value="2">Click the <strong>Filter</strong> drop-down list.<br><img src="assets/screen-shot-2013-09-05-at-9.55.17-am-350x481.png" alt="" style="width: 350;height: 481;" data-mc-conditions="QuicksilverOrClassic.Classic"></li>
 <li value="3">Select the <strong>Filter</strong> that you want to customize, then click <strong>Customize Filter</strong>.</li>
 <li value="4">The interface builder for customizing the Filter is launched.</li>
 <li value="5">Do any of the following:<br>
@@ -419,36 +408,22 @@ When changing your AND statements to OR statements, the number of the items in y
 <li value="6">Click <strong>Save Filter</strong> to replace the current Filter with your changes.</li>
 </ol>
 </div>
---> <!--
 <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating_a_New_Filter_Based_on_an_Existing_Filter."></a><strong>Create a Filter based on an existing Filter</strong> </h4>
---> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;drafted section and replaced with the new video article reference link)</p>
--->
-<ol> <!--
+<ol>
 <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to the report that contains the Filter that you want to use as the basis for your new Filter.</li>
---> <!--
 <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Filter</strong> drop-down list.<br><img src="assets/screen-shot-2013-09-05-at-9.55.17-am-1.png" alt=""></li>
---> <!--
 <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the Filter that you want to use as the basis for your new Filter.</li>
---> <!--
 <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the<strong>Filter</strong> drop-down list, then click <strong>Customize Filter</strong>.<br>The interface builder for customizing the Filter is launched.</li>
---> <!--
 <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Do any of the following:<br>
 <ul>
-<!--
 <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Modify existing filter rules by clicking the existing rule and selecting a new option.</li>
---><!--
 <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Add a filter rule by clicking <strong>Add another Filter Rule</strong>, begin typing the name of the option for which you want to add a rule, then click it when it appears in the drop-down list.<br>Click <strong>AND</strong> or <strong>OR</strong> when adding a new filter rule.</li>
---><!--
 <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Delete an existing filter rule by clicking the <strong>X</strong> icon.</li>
--->
 </ul></li>
---> <!--
 <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save as New Filter</strong> to save your changes as a new Filter.</li>
--->
-</ol> <!--
+</ol>
 <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating_a_new_Filter_from_Scratch"></a>Create a Filter from scratch</h4>
---> <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <li value="1">Go to the report where you want to create your new report.</li>
 <li value="2">Click the <strong>Filter</strong> drop-down list.<br><img src="assets/screen-shot-2013-09-05-at-9.55.17-am-2.png" alt=""></li>
@@ -461,7 +436,6 @@ When changing your AND statements to OR statements, the number of the items in y
 </ul></li>
 <li value="5">Click <strong>Save Filter</strong>.</li>
 </ol>
--->
 <h2><a name="creating-filter-in-text-mode"></a>Create filters using the Text Mode interface</h2>
 <p>You can build filters using the text mode interface. We recommend to build most of the filter statements using the standard interface, and to edit the code of the filter only as a final step. Building a filter from scratch using the text mode interface alone is not recommended. </p>
 <p>For more information about creating a filter using the text mode interface, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>. </p>
@@ -496,27 +470,18 @@ When changing your AND statements to OR statements, the number of the items in y
 <p>You can reference only five objects, excluding the object of the report, when you build a filter in Workfront. </p>
 <p> When you reach this limit within the builder, you can select fields that belong only to these six objects. You receive a warning when you have reached this limit. </p>
 <p> You cannot overcome this limitation when you build your filter in text mode. </p>
-</div> <!--
+</div> 
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="removing-a-filter"></a>Removing a Filter from a list </h3>
---> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This section is drafted and replaced by the standalone "Remove reporting elements" article - with video) </p>
---> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can remove a filter from a list of filters that appears in the <strong>Filter</strong> drop-down menu in a list. Removing a filter from a list functions differently depending on whether you initially created the filter, or the filter was shared with you. You cannot remove a default filter.</p>
--->
-<ul> <!--
+<ul>
 <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>If you created the filter and you remove it</strong>, the filter is removed from the Workfront system. The filter is no longer available to any users who you previously shared it with.</li>
---> <!--
 <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>If the filter was shared with you and you remove it</strong>, the filter is removed only for you. The user who originally created it and any other users it has been shared with still have access to the filter.</li>
--->
-</ul> <!--
+</ul>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To remove a filter:</p>
--->
-<ol> <!--
+<ol>
 <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Filter</strong> drop-down menu, click <strong>Remove Filter</strong>.<br>The My Filters dialog box is displayed.<br><img src="assets/filter-remove.png" alt=""><br>All filters that you have rights to remove are available to remove. Other filters are displayed as dimmed.</li>
---> <!--
 <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the (<strong>x</strong>) next to any filters you want to remove, then click <strong>Done</strong>.</li>
--->
 </ol>
 </div>
 -->
-

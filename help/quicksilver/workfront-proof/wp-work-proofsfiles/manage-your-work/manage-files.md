@@ -47,4 +47,19 @@ You can manage, share, and view information about the files (not proofs) uploade
 
   You can click also click&nbsp;**Download** to download the original file to your computer.
 
-```<li>(Optional) Open the <strong>Shared with</strong> section to list the users the file has been shared with. <br>You can <strong>Message</strong> or <strong>Remove</strong> a user using the <strong>More</strong> icon on the right.<br><img src="assets/message-and-remove.png"><br>If you choose to Message one of these users, the <strong>Message all</strong> page appears, where you can send multiple messages at once.</li>``` ```<li>Open the <strong>Activity</strong> section to list all activity on the file, including the time, date and person who performed the action. Activity includes:  <ul>  <li>File uploaded</li>  <li>New people added</li>  <li>People removed</li>  <li>File downloaded</li> </ul></li>``` ```<li>Open the <strong>Messages</strong> section to trace messages users have sent in association with the file. You can view the content of a message by clicking the "i" icon to the right.</li>```  
+1. (Optional) Open the **Shared with** section to list the users the file has been shared with.  
+   
+   You can **Message** or **Remove** a user using the **More** icon on the right.  
+   
+   ![](assets/message-and-remove.png)  
+   
+   If you choose to Message one of these users, the **Message all** page appears, where you can send multiple messages at once.
+
+1. Open the **Activity** section to list all activity on the file, including the time, date and person who performed the action. Activity includes:
+
+   *   File uploaded
+   *   New people added
+   *   People removed
+   *   File downloaded
+
+1. Open the **Messages** section to trace messages users have sent in association with the file. You can view the content of a message by clicking the "i" icon to the right.

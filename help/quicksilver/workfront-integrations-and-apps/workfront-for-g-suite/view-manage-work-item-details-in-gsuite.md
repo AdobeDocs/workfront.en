@@ -98,4 +98,5 @@ Before you can view and manage work item details in G Suite, you must
 
 1. (Optional) Click **View in Workfront** to go to the current work item in Workfront.
 
-```<li>For information about using the Updates tab in Workfront for G Suite, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md" class="MCXref xref">Update a Adobe Workfront object from G Suite</a>.</li>``` ```<li>For information about using the Documents tab in Workfront for G Suite, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md" class="MCXref xref">View and manage documents from G&nbsp;Suite</a>.</li>```  
+* For information about using the Updates tab in Workfront for G Suite, see [Update a Adobe Workfront object from G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+* For information about using the Documents tab in Workfront for G Suite, see [View and manage documents from G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).
