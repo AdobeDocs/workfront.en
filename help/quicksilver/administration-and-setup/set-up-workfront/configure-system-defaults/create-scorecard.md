@@ -38,7 +38,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-## Create a scorecard {#create-a-scorecard}
+## Create a scorecard
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

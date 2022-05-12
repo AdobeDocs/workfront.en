@@ -42,7 +42,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-## Create a scorecard {#create-a-scorecard}
+## Create a scorecard
 
 1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Scorecards**, then click **New Scorecard** to create a new scorecard and launch the scorecard builder.

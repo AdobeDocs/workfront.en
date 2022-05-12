@@ -173,13 +173,8 @@ You must have the following access to perform the steps in this article:
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p><strong>Work On It</strong></p> <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This was a Ninja story in Summer/Fall 2020 that may never be implemented Leaving it here drafted in case Ninja decides to add it.</p>
---> 
-<!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Here's what Jeremy Flores says on 12/1/20:</p>
---> 
-<!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I have not had a chance to follow up with customers to verify if this is still a need. It has not come up organically. I can follow up with a few customers, but overall I would say that we're probably safe to move on and just mark what we've done to support this as complete. It could still come up but I don't want to push it unless customers really want it.</p>
--->
 <p>You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.</p>
 <p>Workfront's default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.</p>
 <p>To switch to the Start button:</p>
