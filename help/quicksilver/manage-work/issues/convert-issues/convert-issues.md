@@ -214,14 +214,14 @@ The following table lists project information and whether it transfers from the 
 
 ## View original issue information on projects and tasks {#view-original-issue-information-on-projects-and-tasks}
 
-You can view the original issue information in project and task lists and reports ```or in the Project Details area```. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+You can view the original issue information in project and task lists and reports or in the Project Details area. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 The following table illustrates which&nbsp;issue fields are visible from the converted projects and tasks. 
 
 | Issue fields |Project or task field |Project list or report |Project Details area |Task list or report |Task Details area |
 |---|---|---|---|---|---|
 | Issue Name |Converted Issue Name |✔ |✔ |✔ |✔ |
-| Primary Contact | `Converted Issue` Originator Name |✔ | `✔`  |✔ |&nbsp; |
+| Primary Contact | Converted Issue Originator Name |✔ | `✔`  |✔ |&nbsp; |
 | Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
 
 >[!CAUTION]
