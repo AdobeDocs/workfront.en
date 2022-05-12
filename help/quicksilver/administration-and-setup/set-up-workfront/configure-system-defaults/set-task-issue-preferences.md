@@ -140,8 +140,9 @@ You must have the following access to perform the steps in this article:
 
 >[!TIP]
 >
->```This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.``` >
-><!--
+>This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.
+
+<!--
 ><span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">NWE only</span>>
 >-->
 
@@ -149,9 +150,9 @@ You must have the following access to perform the steps in this article:
 
   >[!TIP]
   >
-  >```When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet & Hours Preferences area of Setup. The warning message does not display when deleting a project```.
+  >When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet & Hours Preferences area of Setup. The warning message does not display when deleting a project.
 
-* ```When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours``` ``` ```, or when you delete a project with hours logged for its tasks or``` ```issues`````` ```.``` The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues ```, or projects that have hours logged for tasks and issues``` cannot be deleted.
+* When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours, or when you delete a project with hours logged for its tasks or issues. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues , or projects that have hours logged for tasks and issues cannot be deleted.
 
 ### Actual Dates {#actual-dates}
 
@@ -180,13 +181,10 @@ You must have the following access to perform the steps in this article:
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p><strong>Work On It</strong></p> <!--
+<p><strong>Work On It</strong></p>
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This was a Ninja story in Summer/Fall 2020 that may never be implemented Leaving it here drafted in case Ninja decides to add it.</p>
---> <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Here's what Jeremy Flores says on 12/1/20:</p>
---> <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I have not had a chance to follow up with customers to verify if this is still a need. It has not come up organically. I can follow up with a few customers, but overall I would say that we're probably safe to move on and just mark what we've done to support this as complete. It could still come up but I don't want to push it unless customers really want it.</p>
--->
 <p>You can replace the Work On It button with a Start button. When a user assigned to a task or issue clicks Start, the status and Actual Start Date of the work item update automatically, letting others know that the user started work.</p>
 <p>Workfront's default Work On It button also signals that a user started work on a task or issue, but it doesn't update the status and Actual Start Date.</p>
 <p>To switch to the Start button:</p>

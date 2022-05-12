@@ -38,9 +38,8 @@ The following scenarios exist when multiple users are editing the same tasks:
 >When you select to keep your changes over all other changes, all your changes are saved, unless the tasks you made changes to were deleted by another user. In this case, the warning message informs you that the changes you made to the deleted tasks are lost.
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - when replaced with the above live section; does it need an edit??) </p>
--->
 <div>
 <p>When editing tasks in a list, you can select whether you want each change to be saved automatically or if you want to manually save multiple changes at one time by clicking the Save button. This depends on whether you enable the Autosave setting in the task list or not. </p>
 <p>For information about editing tasks in a task list, see the article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref" xrefformat="{para}">Edit tasks</a>. </p>

@@ -269,8 +269,6 @@ When synchronizing folder content from an external document application, Workfro
 >* If the user who originally linked the folder is removed from the Workfront system, users are no longer able to access content on the linked folder&nbsp;via Workfront. In this case, the folder must be relinked by an active Workfront user who has rights to the folder in the external&nbsp;application. 
 >* If the user who linked a folder no longer has access to the external application, Workfront can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
 
->
-
 ### Link one or more external folders {#link-one-or-more-external-folders}
 
 1. Go to the area in Workfront where you want the folder, then click  the **Documents** tab .
@@ -316,13 +314,9 @@ You can create a new folder inside an existing linked folder. You can also drag 
    >[!NOTE]
    >
    >The following limitations apply when dragging an existing Workfront&nbsp;folder into a linked&nbsp;folder:
-   >
    >   
-   >   
-   >   * The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.
-   >   * The folder (including its contents)&nbsp;that you are dragging can't exceed 50 MB.
-   >   
-   >
+   >* The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.
+   >* The folder (including its contents)&nbsp;that you are dragging can't exceed 50 MB.
 
 ## Add a document to a linked folder
 

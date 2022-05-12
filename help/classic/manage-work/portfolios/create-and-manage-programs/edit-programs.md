@@ -128,9 +128,8 @@ You must have the following access to perform the steps in this article:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">
-<h2>Edit programs in a list</h2> <!--
+<h2>Edit programs in a list</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is drafted for right now, but it might change (especially for NWE) - keeping it to easily copy it to NWE if needed.) </p>
--->
 <ol>
 <li value="1"> <p>Go to a list of programs and select one or more programs that you want to edit, then click the <strong>Edit</strong> icon <img src="assets/edit-icon.png"> at the top of the list. </p> <p>The <strong>Edit Program</strong> dialog box displays.</p> <p>All program fields are available in the Edit Program box and are grouped by the areas listed in the left panel. </p> </li>
 <li value="2">Consider specifying information in any of the following sections:

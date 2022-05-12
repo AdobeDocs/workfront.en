@@ -20,17 +20,17 @@ The right panel provides a visual reference of the selected document. You can se
 
 The content in the panel can vary depending on the information found in the document. For example, if you are a proofing user, you can access your document proof from the right panel. You can also see if a workflow has been added, as well as any proofing details associated with the document.
 
-### Request a document approval
+## Request a document approval
 
 For more information about document approvals, see [Manage approvals](../../review-and-approve-work/manage-approvals/manage-approvals.md).
 
-### Share a document
+## Share a document
 
 You can share document permissions and control access to your document in the Sharing section on the right panel.
 
 For information on how document permissions work, see [Share a document](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
 
-### Manage document versions and associated proofs
+## Manage document versions and associated proofs
 
 See also [View Document Details](#Manage) in this article.
 

@@ -271,11 +271,9 @@ For information about using Work Effort to estimate task effort, see [Work Effor
 <!--
 <note type="tip">
 The Legacy Gantt chart of a project is a deprecated feature and we have removed it from most environments.
-<!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (NOTE:&nbsp;this is drafted because Legacy Gantt is removed 100%)
 </MadCap:conditionalText>
--->
 </note>
 -->
 
@@ -414,24 +412,21 @@ When viewing Planned Hours in the Resource Management tools by a specific time f
 </note>
 <p>You can see the value of Planned Hours for your tasks, issues, or projects when using the following Resource Management tools:</p>
 <ul>
-<li> <!--
+<li>
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Capacity Planner. </p>
---> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For information about the Capacity Planner, see <a href="../../../resource-mgmt/legacy-res-planning/plan-resources-in-capacity-planner.md" class="MCXref xref">Plan resources in the Capacity Planner</a>.</p>
---> </li>
-<li> <!--
+</li>
+<li>
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Resource Estimates on the Business Case of a project.</p>
---> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For information about Resource Estimates on the Business Case of a project, see <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref">Estimate project resources by applying Legacy Resource Pools to the Business Case </a>.</p>
---> </li>
-<li> <!--
+</li>
+<li>
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">User Resource Grid.</p>
---> <!--
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">For information about the Resource Grid, see <a href="../../../resource-mgmt/legacy-res-planning/resource-grid-overview.md" class="MCXref xref">Overview of the Resource Grid </a>. </p>
---> </li>
-<li> <!--
+</li>
+<li>
 <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Team Builder.<br>For information about using the Team Builder, see <a href="../../../manage-work/projects/manage-projects/work-in-legacy-team-builder.md" class="MCXref xref">Work in the Legacy Team Builder</a>.</p>
---> </li>
+</li>
 <li> <p>Resource Planner</p> <p>For information about using the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p> </li>
 <li> <p>Utilization Report.</p> <p>For information about the utilization report, see <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Overview of the Resource Utilization report</a>.</p> </li>
 <li>
@@ -447,4 +442,3 @@ When viewing Planned Hours in the Resource Management tools by a specific time f
 </ul>
 </div>
 -->
-

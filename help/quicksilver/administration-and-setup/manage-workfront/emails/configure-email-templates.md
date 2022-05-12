@@ -80,10 +80,10 @@ You must have the following access to perform the steps in this article:
 
 ## Add HTML formatting to an email template {#add-html-formatting-to-an-email-template}
 
-You can add HTML tags to email templates to produce custom ```notifications.   
-Begin creating the email template as described in [Create a new email template](#create-a-new-email-template).```
+You can add HTML tags to email templates to produce custom notifications.   
+Begin creating the email template as described in [Create a new email template](#create-a-new-email-template).
 
-```HTML formatting can enrich your email templates, as shown in the following sections.```
+HTML formatting can enrich your email templates, as shown in the following sections.
 
 * [Link to Workfront objects](#link-to-workfront-objects) 
 * [Link to custom fields with HTML](#link-to-custom-fields-with-html) 
@@ -91,7 +91,7 @@ Begin creating the email template as described in [Create a new email template](
 
 ### Link to Workfront objects {#link-to-workfront-objects}
 
-```You can include links to Workfront fields by using the``` **$$** wildcard to tell the email generator to look for values from the database associated with a specific object.
+You can include links to Workfront fields by using the `$$` wildcard to tell the email generator to look for values from the database associated with a specific object.
 
 For example, the body of the email for a notification alerting the assignee of the task that the task is about to start can follow this structure:
 

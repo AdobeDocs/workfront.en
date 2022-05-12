@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 ## Solution
 
-1. In your ADFS manager server, go to **Trust Relationships** > **Relying Party Trusts** > <your party trust> properties.
+1. In your ADFS manager server, go to **Trust Relationships** > **Relying Party Trusts** > `<your party trust>` properties.
 
 1. Under the **Endpoints** tab, click **Add**.
 

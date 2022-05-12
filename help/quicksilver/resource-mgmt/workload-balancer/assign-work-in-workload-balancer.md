@@ -153,9 +153,8 @@ Consider the following when assigning multiple resources to a work item:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Manually assign one item at a time</h2> <!--
+<h2 data-mc-conditions="QuicksilverOrClassic.Quicksilver"> Manually assign one item at a time</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Moved manual assignment and drag-and-drop to their own articles) </p>
--->
 <ol>
 <li value="1">Go to the Workload Balancer.</li>
 <li value="2"> <p>Go to the <strong>Unassigned Work</strong> area and apply a filter to view work items</p> <p>Or</p> <p>Go to the <strong>Assigned Work</strong> area and expand the name of a user to view the work items assigned to them.</p> <note type="important">
@@ -180,9 +179,8 @@ Consider the following when assigning multiple resources to a work item:
 <li value="5"> <p>(Optional) Click the <strong>Show allocations icon</strong> <img src="assets/show-allocations-icon-small.png">, then click the <strong>More menu</strong> <img src="assets/qs-more-menu.png"> > <strong>Edit allocations</strong>.</p> <p>Or</p> <p>Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.</p> <p>For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li>
 </ol>
 <div data-mc-conditions="QuicksilverOrClassic.Quicksilver">
-<h2>Assign an item by dragging and dropping</h2> <!--
+<h2>Assign an item by dragging and dropping</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider retitling this to "Assign one item at a time by dragging and dropping" when bulk assignments will come???)&nbsp;</p>
--->
 <p>You can assign an item from the Unassigned Work area to a user, or you can reassign an already assigned item to another user in the Assigned Work area.</p>
 <ol>
 <li value="1">Go to the Workload Balancer.</li>
@@ -197,12 +195,11 @@ The Planned Hours for the user you're hovering over update in real time with the
 <p>The item displays according to the Workload Balancer criteria for sorting work items.&nbsp;For more information, see <a href="../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a>.</p>
 </note> </li>
 <li value="5"> <p>(Optional) Click the <strong>Show allocations icon</strong> <img src="assets/show-allocations-icon-small.png">, then click the <strong>More menu</strong> <img src="assets/qs-more-menu.png"> > <strong>Edit allocations</strong>. (NOTE: make sure these are still called this, and that the icon has not changed)</p> <p>Or</p> <p>Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.</p> <p>For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li>
-</ol> <!--
+</ol> 
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Assign items in bulk</h2>
 <p>(NOTE: This is also a separate article. Should we keep this section or the separate article?) </p>
 </div>
--->
 <p>&nbsp;</p>
 </div>
 </div>
@@ -216,15 +213,13 @@ The Planned Hours for the user you're hovering over update in real time with the
 <p>To unassign work items from users: </p>
 <ol>
 <li value="1">In the Workload Balancer, go to the <strong>Assigned Work</strong> area and expand a user.</li>
-<li value="2">Do <!--
+<li value="2">Do 
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 one of
 </MadCap:conditionalText>
---> the following:
+the following:
 <ul>
-<!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Find the item you want to unassign in a user's area, click it, drag and drop it in the Unassigned area or in another user's area. </p></li>
--->
 <li><p>Click the <strong>More</strong> icon <img src="assets/more-icon-task-list.png"> to the right of the name of a work item, click&nbsp;<strong>Assign this to</strong> , then remove the name of the entities assigned to the work item or enter another name and click&nbsp;<strong>Save</strong>.</p><p><img src="assets/workload-balancer-assign-this-to-link-from-task-350x117.png" style="width: 350;height: 117;"></p></li>
 </ul><p>The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any users or it displays in the user area if it is assigned to that user. </p><note type="tip">
 Unassigned issues do not display in the Unassigned area.

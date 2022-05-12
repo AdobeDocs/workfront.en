@@ -25,9 +25,7 @@ In 2021, our SAML 2.0 metadata certiﬁcate expired on October 27. The next date
 <!--
 <note type="important">
 You must take action to update the metadata in your identity provider with the information from the renewed certiﬁcate before the speciﬁed date. Mismatched certiﬁcates can keep your users from logging in to Workfront after November 22, 20221.
-<!--
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Use this message in the last few weeks before the update.</span>
--->
 </note>
 -->
 
