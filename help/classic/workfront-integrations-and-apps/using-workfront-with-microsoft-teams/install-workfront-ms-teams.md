@@ -33,7 +33,8 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
-  </tr> <!--
+  </tr> 
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
     <td> <p>[Insert any access level configurations needed]
@@ -53,6 +54,7 @@ You must have the following access to perform the steps in this article:
        </MadCap:conditionalText>
       </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
+   -->
  </tbody> 
 </table>
 
