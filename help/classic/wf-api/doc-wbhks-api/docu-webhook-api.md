@@ -120,6 +120,7 @@ access to act on their behalf. This handshaking process only happens once for ea
 
 Making authorized API calls to a webhook provider using an ApiKey is much simpler than OAuth2. When making an API call, Workfront will simply pass the ApiKey and Workfront username in the HTTP request header:
 
+```
 -------------------------------
 
 apiKey: 12345
@@ -127,6 +128,7 @@ apiKey: 12345
 username: johndoe@foo.com
 
 -------------------------------
+```
 
 The Webhook provider can use the username to apply user-specific permissions. This works best when both systems connect to LDAP using Single Sign On (SSO).
 
@@ -140,6 +142,7 @@ For example, this can be used for Basic Authentication. To do this, the Workfron
 
 where QWxhZGRpbjpvcGVuIHNlc2FtZQ== is a base-64 encoded string of “username:password”. See Basic Authentication . Provided that this added, Workfront will pass this in the HTTP request header, in addition to other request headers:
 
+```
 ­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
 
 apiKey: 12345
@@ -149,6 +152,7 @@ username: johndoe@foo.com
 Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== ­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 -------------------------------
+```
 
 ## API Specification
 
@@ -638,8 +642,9 @@ POST /createFolder
 
 The metadata for the newly created folder, as defined by the /metadata endpoint.
 
-**Example:** ```POST https://www.acme.com/api/createFolder```
+**Example:** `POST https://www.acme.com/api/createFolder`
 
+```
 -------------------------------
 
 parentId=1234
@@ -647,9 +652,20 @@ parentId=1234
 name=New Folder ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 -------------------------------
+```
 
 returns
-<pre>{</pre><pre>"title":"New Folder", </pre><pre>"kind":"folder"</pre><pre> "id":"5678",</pre><pre> "viewLink":"”, </pre><pre>"downloadLink":"", </pre><pre>"mimeType":"", </pre><pre>"dateModified":"2014­06­05T17:39:45.251Z" </pre><pre>"size": "" </pre><pre>}</pre>
+
+```
+{"title":"New Folder", 
+ "kind":"folder""id":"5678",
+ "viewLink":"”,
+ "downloadLink":"",
+ "mimeType":"",
+ "dateModified":"2014­06­05T17:39:45.251Z" 
+ "size": "" 
+ }
+```
 
 ### Delete a Document or Folder
 
@@ -696,6 +712,7 @@ A JSON string indicating success or failure, as specified in the Error Handling 
 
 **Example:** PUT&nbsp;https://www.acme.com/api/rename
 
+```
 -------------------------------
 
 id=1234
@@ -703,10 +720,18 @@ id=1234
 name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 -------------------------------
+```
 
 returns
-<pre>{</pre><pre>"status": “success” </pre><pre>}</pre>returns
-<pre>{</pre><pre>"status": “failure”, error: “Folder cannot be renamed because a folder with that name already exists.” </pre><pre>}</pre>
+
+```
+{
+"status": “success” 
+}returns
+{
+"status": “failure”, error: “Folder cannot be renamed because a folder with that name already exists.” 
+}
+```
 
 ### Perform a Custom Action
 

@@ -130,48 +130,26 @@ You should be aware of the following when customizing object names in Workfront:
 
 The Workfront documentation always refers to the default names of objects. If your objects have had their names customized, you can rely on the icon associated with them to understand which customized object corresponds to which Workfront default object.
 
-For more information about which objects can have customized names in Workfront, see * [Object names that can be customized using a Layout Template](#object-names-that-can-be-customized-using-a-layout-template).*
+For more information about which objects can have customized names in Workfront, see [Object names that can be customized using a Layout Template](#object-names-that-can-be-customized-using-a-layout-template).
 
 The following is a list of objects and their corresponding icons in Workfront.
 
 | **Object** |**Icon** |**Customizable object name** |
 |---|---|---|
-| Company | ![company_icon.png](assets/company-icon-63x53.png)
-
-|  |
-| Dashboard | ![dashboard_icon.png](assets/dashboard-icon.png)
-
-|  |
-| Group | ![group_icon.png](assets/group-icon-53x39.png)
-
-|  |
-| Issue | ![issue_icon.png](assets/issue-icon-43x49.png)
-
-|✔ |
-| Job Role | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png)
-
-|  |
-| Portfolio | ![portfolio_icon.png](assets/portfolio-icon-50x50.png)
-
-|✔ |
-| Program | ![program_icon.png](assets/program-icon-51x50.png)
-
-|✔ |
-| Project | ![project_icon.png](assets/project-icon-49x46.png)
-
-|✔ |
-| Report | ![report_icon.png](assets/report-icon-51x47.png)
-
-|  |
-| Task | ![task_icon.png](assets/task-icon-57x59.png)
-
-|✔ |
-| Team | ![team_icon_old.png](assets/team-icon-old-49x46.png), ![](assets/team-icon-nwe-color.png)
-
-|  |
-| Template | ![Screen_Shot_2017-01-27_at_3.00.12_PM.png](assets/screen-shot-2017-01-27-at-3.00.12-pm-47x42.png)
-
-|  |
+| Company | ![](assets/company-icon-nwe.png)  , ![](assets/nwe-company-icon-54x54.png)|  |
+| Dashboard | ![](assets/dashboard-icon-nwe.png)  , ![](assets/nwe-dashboards-icon.png)|  |
+| Goal | ![](assets/nwe-goal-icon.png)|✔ |
+| Group | ![](assets/groups-icon-nwe.png)  , ![](assets/nwe-group-icon.png)|  |
+| Issue | ![](assets/issue-icon-nwe.png)  , ![](assets/nwe-issues-icon.png)|✔ |
+| Job Role | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png)|  |
+| Plan | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png)|&nbsp; |
+| Portfolio | ![](assets/portfolio-icon-nwe.png)  , ![](assets/nwe-portfolios-icon.png)|✔ |
+| Program | ![](assets/program-icon-nwe.png)  , ![](assets/nwe-programs-icon.png)|✔ |
+| Project | ![](assets/project-icon-nwe.png)  , ![](assets/nwe-projects-icon.png)|✔ |
+| Report | ![](assets/report-icon-nwe.png) , ![](assets/nwe-reports-icon.png)  |  |
+| Task | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png)|✔ |
+| Team | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png)|  |
+| Template | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png)|  |
 
 ## Reference Numbers of objects
 

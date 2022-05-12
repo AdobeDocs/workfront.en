@@ -30,5 +30,23 @@ The metadata for the newly created folder, as defined by the /metadata endpoint.
 
 ## Example
 
-<pre>POST https://www.acme.com/api/createFolder ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­<br>-------------------------------<br>parentId=1234<br>name=New Folder ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­<br>-------------------------------</pre>returns
-<pre>{title:"New Folder",br /> kind:"folder"<br> id":"5678",<br> viewLink:"”,<br> downloadLink:"",<br> mimeType:"",<br> dateModified:"2014­06­05T17:39:45.251Z"<br> size: ""<br> }</pre>
+```
+POST https://www.acme.com/api/createFolder
+­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
+parentId=1234
+name=New Folder 
+-------------------------------
+```
+
+returns
+
+```
+{title:"New Folder",br /> kind:"folder"
+ id":"5678",
+ viewLink:"”,
+ downloadLink:"",
+ mimeType:"",
+ dateModified:"2014­06­05T17:39:45.251Z"
+ size: ""
+ }
+```

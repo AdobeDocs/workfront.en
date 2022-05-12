@@ -17,25 +17,24 @@ to help you unlock productivity and collaboration.
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements are currently available in the Preview environment. As the 22.2 release nears its planned Production release later this year<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements are currently available in the Preview environment. As the 22.2 release nears its planned Production release later this year
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 the week of January 17, 2022
 </MadCap:conditionalText>
---><!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 in October 2021
 </MadCap:conditionalText>
--->, this page will be updated with all functionality included with 22.2. </p>
+, this page will be updated with all functionality included with 22.2. </p>
 -->
 
 These enhancements were made available in the Production environment the week of April 4, 2022.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements are currently available in the Preview environment and will be made available in the Production environment<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements are currently available in the Preview environment and will be made available in the Production environment
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later this year
 </MadCap:conditionalText>
---> the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
+the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
 -->
 
 ## Adobe Workfront enhancements

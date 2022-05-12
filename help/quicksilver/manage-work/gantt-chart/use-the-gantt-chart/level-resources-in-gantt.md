@@ -95,12 +95,8 @@ You can use the Task List Gantt Chart to level your resources.
    >
    >You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
    >
-   >   
-   >   
-   >   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-   >   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
-   >   
-   >
+   >* Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   >* Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
 
 1. Click **Save** in the upper-right corner of the Gantt chart.
 
