@@ -47,11 +47,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td> 
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+     </td> 
    </tr>
   --> 
  </tbody> 
@@ -363,19 +362,19 @@ This action module updates a single record in Anaplan.
 </tr>
 <tr>
 <td role="rowheader">Workspace ID</td>
-<td>Select or map the ID of the Anaplan Workspace<!--
+<td>Select or map the ID of the Anaplan Workspace
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 where you want to upload a file
 </MadCap:conditionalText>
--->.</td>
+.</td>
 </tr>
 <tr>
 <td role="rowheader">Model ID</td>
-<td>Select or map the ID of the Model<!--
+<td>Select or map the ID of the Model
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 where you want to upload a file
 </MadCap:conditionalText>
--->.</td>
+.</td>
 </tr>
 <tr>
 <td role="rowheader">File ID</td>

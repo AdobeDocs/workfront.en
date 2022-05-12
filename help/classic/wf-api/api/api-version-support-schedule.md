@@ -78,7 +78,7 @@ description:
   <tr> 
    <td>6</td> 
    <td>November 2015</td> 
-   <td><font size="2">**November 2019</font> <p>(with the 2019.4 release)</p> </td> 
+   <td><strong>**November 2019</strong> <p>(with the 2019.4 release)</p> </td> 
   </tr> 
   <tr> 
    <td>5</td> 

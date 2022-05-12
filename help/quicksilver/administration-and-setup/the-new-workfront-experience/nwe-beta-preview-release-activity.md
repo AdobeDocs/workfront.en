@@ -427,8 +427,8 @@ For a list of new features that were made available in Workfront Classic, see [W
      <p><strong>Include and identify quoted text in an update comment or reply</strong></p> 
      <p>As you type a comment, you can call mark part of your comment as quoted text in order to distinguish it from your own comment. Use the Block Quote button in the HTML&nbsp;editor.</p> 
      <p>For more information, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Update work</a>.</p> 
-     <p><iframe class="vimeo-player_0" src="assets/395756266?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/395756266/cd7759b040" target="_blank">View this video in full-screen mode.</a> </p> 
+     <!--<p><iframe class="vimeo-player_0" src="assets/395756266?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/395756266/cd7759b040" target="_blank">View this video in full-screen mode.</a> </p>--> 
     </div> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -441,9 +441,9 @@ For a list of new features that were made available in Workfront Classic, see [W
      <p>It’s now easier to see which users are tagged in an update. Tagged users name’s display in blue and link to the user profile.</p> 
      <p>Before this enhancement, the users previously tagged did not show up in the Notify box.</p> 
      <p>For more information, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref" xrefformat="{para}">Tag others on updates</a>.</p> 
-     <p><iframe class="vimeo-player_0" src="assets/396545752?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/396545752/a53c708821" target="_blank">View this video in full-screen mode.</a> </p> 
-     <p><iframe class="vimeo-player_0" src="assets/396546571?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <!--<p><iframe class="vimeo-player_0" src="assets/396545752?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/396545752/a53c708821" target="_blank">View this video in full-screen mode.</a> </p>--> <!--<p><iframe class="vimeo-player_0" src="assets/396545752?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/396545752/a53c708821" target="_blank">View this video in full-screen mode.</a> </p>-->t="315px"></iframe> </p> 
      <p><a href="https://vimeo.com/396546571/1c5e0e7bf5" target="_blank">View this video in full-screen mode.</a> </p> 
     </div> </td> 
   </tr> 

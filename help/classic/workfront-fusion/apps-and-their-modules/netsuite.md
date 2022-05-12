@@ -47,11 +47,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td> 
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -196,33 +195,25 @@ If you see the map button above a field or function, you can use it to set varia
 <col>
 <col>
 <tbody>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
--->
 <td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Record type</td>
--->
 <td> <p style="color: #000000;">Select the type of record you want to watch.</p> </td>
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Outputs</td>
---> <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the fields that you want to include in the module output. The available fields depend on the type of record you want to watch.</td>
--->
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Event type</td>
---> <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select whether you want to watch for new records or updated records.</td>
--->
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
---> <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Set the highest number of records you want the module to return during each scenario execution cycle.</td>
--->
 </tr>
 </tbody>
 </table>
@@ -237,7 +228,7 @@ If you see the map button above a field or function, you can use it to set varia
 </div>
 -->
 
-#### Custom API Call {#custom-api-call}
+### Custom API Call {#custom-api-call}
 
 This action module lets you make a custom authenticated call to the NetSuite API. This way, you can create a data flow automation that can't be accomplished by the other NetSuite modules.
 
@@ -290,23 +281,19 @@ When you are configuring this module, the following fields display.
 <col>
 <col>
 <tbody>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
--->
 <td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Record type</td>
--->
-<td> <!--
+<td>
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the type of record you want to create.</p>
---> </td>
+</td>
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Properties</td>
---> <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Fill in any properties that you want to set for the record. The available fields depend on the type of record you want to create.</td>
--->
 </tr>
 </tbody>
 </table>
@@ -317,29 +304,21 @@ When you are configuring this module, the following fields display.
 <col>
 <col>
 <tbody>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
---> <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
--->
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Record type</td>
---> <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the type of record you want to update.</td>
--->
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Internal ID</td>
---> <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter the unique NetSuite ID of the record that you want the module to update</td>
--->
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Properties</td>
---> <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Fill in any properties that you want to set for the record. The available fields depend on the type of record you want to create.</td>
--->
 </tr>
 </tbody>
 </table>
@@ -416,12 +395,11 @@ When you are configuring this module, the following fields display.
 <li> <p><strong>Logical operator</strong> </p> <p>Select the operator. This will vary based on the type of field.</p> </li>
 <li> <p><strong>Value</strong> </p> <p>Enter or map the value you want to search for </p> </li>
 </ul> </td>
-</tr> <!--
+</tr>
 <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <td role="rowheader">Records to return</td>
 <td>Select whether you want to return the first matching record, or all matching records.</td>
 </tr>
--->
 <tr>
 <td role="rowheader">Outputs</td>
 <td>Select the fields that you want the module to output. The output for these fields can be mapped in later modules.</td>
@@ -434,4 +412,3 @@ When you are configuring this module, the following fields display.
 </table>
 </div>
 -->
-

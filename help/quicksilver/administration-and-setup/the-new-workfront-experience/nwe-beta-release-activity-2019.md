@@ -274,8 +274,8 @@ For the most recent enhancements in the new Workfront experience, see [The new A
      <p>You can pin your most important work in Workfront for increased visibility, better organization, and quicker access. </p> 
      <p>Previously in Beta Preview, you could organize your Workspace by using tabs. Pinned pages replace tab functionality.</p> 
      <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/pin-pages.md" class="MCXref xref" xrefformat="{para}">Pin pages to customize your workspace in the new Adobe Workfront experience</a>.</p> 
-     <p><iframe class="vimeo-player_0" src="assets/359353966?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/359353966/322c524363" target="_blank">View this video in full-screen mode.</a> </p> 
+     <!--<p><iframe class="vimeo-player_0" src="assets/359353966?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/359353966/322c524363" target="_blank">View this video in full-screen mode.</a> </p>--> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -291,8 +291,8 @@ For the most recent enhancements in the new Workfront experience, see [The new A
       <li> Projects</li> 
      </ul> 
      <p>For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md" class="MCXref xref" xrefformat="{para}">Customize the left panel using a layout template</a>.</p> 
-     <p><iframe class="vimeo-player_0" src="assets/359851692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/359851692/72de9d758b" target="_blank">View this video in full-screen mode.</a> </p> 
+     <!--<p><iframe class="vimeo-player_0" src="assets/359851692?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/359851692/72de9d758b" target="_blank">View this video in full-screen mode.</a> </p>--> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -305,8 +305,8 @@ For the most recent enhancements in the new Workfront experience, see [The new A
       <li>Change the order of the sections that appear in the Details view.</li> 
      </ul> 
      <p>For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref" xrefformat="{para}">Customize the Details view using a layout template</a>.</p> 
-     <p><iframe class="vimeo-player_0" src="assets/359851567?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/359851567/6d7a8feb70" target="_blank">View this video in full-screen mode.</a> </p> 
+     <!--<p><iframe class="vimeo-player_0" src="assets/359851567?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/359851567/6d7a8feb70" target="_blank">View this video in full-screen mode.</a> </p>--> 
     </div> </td> 
   </tr> 
   <tr> 
