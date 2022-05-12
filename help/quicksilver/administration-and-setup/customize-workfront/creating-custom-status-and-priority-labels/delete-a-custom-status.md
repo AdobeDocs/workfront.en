@@ -4,14 +4,18 @@
 
 You can delete a custom system status if it is no longer useful to your organization.
 
->[!NOTE]
->
->You cannot delete the following built-in statuses: Planning, Current, and Complete. You can update the names, edit the colors, and lock or unlock these built-in statuses, but you cannot delete them.
-
 Whether the status is locked or unlocked determines if the status is deleted for all groups in the system:
 
 * When you delete a system status that is currently locked, the status is removed for all groups in the system, regardless of whether the group has&nbsp;renamed it.
 * When you delete a system status that is currently unlocked, the status remains for all groups in the system.
+
+
+>[!NOTE]
+>
+>You cannot delete the following:
+>
+>* The built-in statuses Planning, Current, and Complete. You can update their names, edit their colors, and lock or unlock them, but they can't be deleted.
+>* Statuses that are in a pending state of approval for at least one object in your system.
 
 For instructions on deleting a group status, see [Delete a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
 
