@@ -99,23 +99,20 @@ For information about creating requests from existing drafts, see [Create reques
 To create a request in the Workfront web app:&nbsp;
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. 
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    </MadCap:conditionalText>
    -->
 
-   Click  ```**Requests**, then click **New Request**``` in the upper-right corner of the page.
+1. Click  **Requests**, then click **New Request** in the upper-right corner of the page.
 
    >[!TIP]
    >
    >* You can access the New Request option from any section in the Requests area.
    >* The New Request option is dimmed when you do not have access to create issues. 
 
-1. 
-
-   (Conditional) Click inside the **Request Type** field and do one of the following:
+1. (Conditional) Click inside the **Request Type** field and do one of the following:
 
    * From the **Recent Paths** section, select a path you used recently to open a request queue. A path includes the request queue, the topic groups, and the queue topic that you submitted to recently. The last three paths display by default.
 

@@ -67,13 +67,11 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
 
    The Role&nbsp;Allocation panel displays.
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>
    -->
 
-   Review the following information in the **Project Totals** area of the Role Allocation panel: 
+1. Review the following information in the **Project Totals** area of the Role Allocation panel: 
 
    <table cellspacing="0"> 
     <col> 

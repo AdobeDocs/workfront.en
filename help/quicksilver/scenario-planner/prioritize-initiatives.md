@@ -64,8 +64,7 @@ To update initiative priority:
    A list of plans displays.
 
 1. Click the name of a plan to open it, then locate the initiatives you want to prioritize.
-1. 
-   Click the box to the left of one or more of the initiatives' name and do one of the following:
+1. Click the box to the left of one or more of the initiatives' name and do one of the following:
 
    * Click the handle to the left of one of the selected initiatives' names, then drag it up or down in the list to change the initiative's priority.
 

@@ -51,8 +51,7 @@ You can filter items in the Work List to see only specific types of items. For e
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
 1. Click the **Filter** ![](assets/filter-nwepng.png) drop-down menu. 
-1. 
-   Select from the following filter options to specify the type of items you want to display:
+1. Select from the following filter options to specify the type of items you want to display:
 
    <table cellspacing="0"> 
     <col> 

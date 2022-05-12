@@ -92,8 +92,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 1. Click **Projects**, then click the name of a project to open it.
 1. Click **Tasks** in the left panel. 
 1. Click the task you want to edit.
-1. 
-   (Optional) To edit limited information about a task, click **Task Details** in the left panel.
+1. (Optional) To edit limited information about a task, click **Task Details** in the left panel.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 

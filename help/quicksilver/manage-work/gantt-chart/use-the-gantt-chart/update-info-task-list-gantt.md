@@ -98,7 +98,6 @@ You must have the following to follow the steps in this article:
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. 
 1. To create a predecessor relationship, click the start point of a task and drag it to the end point of task. 
 1. To delete a predecessor relationship, c lick a predecessor line that connects two tasks to select it, then press **Delete** on your keyboard.  
    ![Delete_predecessor.png](assets/delete-predecessor-350x152.png)

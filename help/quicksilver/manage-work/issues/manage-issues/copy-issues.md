@@ -100,8 +100,7 @@ You can copy one issue when viewing it.
    >Only 100 projects display in the list.
 
 1. (Conditional) Click&nbsp;**request access** if you do not have access to copy issues to the project. 
-1. 
-   (Conditional)&nbsp;Continue to copy the issue to the selected destination project without requesting access if you have access to add issues to one of the tasks on the destination project.
+1. (Conditional)&nbsp;Continue to copy the issue to the selected destination project without requesting access if you have access to add issues to one of the tasks on the destination project.
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 

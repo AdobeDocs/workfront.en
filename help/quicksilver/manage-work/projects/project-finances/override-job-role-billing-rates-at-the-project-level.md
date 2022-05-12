@@ -101,6 +101,5 @@ To override a billing rate for a project:
    If an hour is logged before the Planned Start Date of the project the very first billing rate is used.   
    If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
 
-1. 
 1. Click **Save**.
 

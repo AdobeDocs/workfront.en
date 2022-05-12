@@ -88,7 +88,6 @@ You must have the following to follow the steps in this article:
    The **Autosave** option is selected by default, in which case all changes are saved automatically. 
 
 1. (Optional) In the **Autosave** drop-down menu select **Manual save** or **Timeline Planning** to save your changes manually.
-1. 
 1. To create a predecessor relationship, click the start point of a task and drag it to the end point of task. 
 1. To delete a predecessor relationship, c lick a predecessor line that connects two tasks to select it, then press **Delete** on your keyboard.  
    ![Delete_predecessor.png](assets/delete-predecessor-350x152.png)

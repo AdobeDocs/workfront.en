@@ -99,8 +99,7 @@ Accessing the Details page for an object is similar to all objects where this fu
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted content in the snippet below) </p>
    -->
 
-1. 
-   To add or edit information for fields in the Details section,
+1. To add or edit information for fields in the Details section,
 
    1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then do one of the following:
 

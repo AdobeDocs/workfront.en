@@ -22,20 +22,15 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">When you want to share Budgeted Hour information with other users who do not have access to the Resource Planner, you can do so by building a Budgeted Hour report. You can then share the report with them.</p>
--->
 
-<!--
 >[!IMPORTANT]
 >
-><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Budgeted Hours are updated every hour in the Adobe Workfront database. Refreshing the report does not necessarily refresh the hour information in it. You can view the time lapsed since the last update in the upper-right corner of every Budgeted Hour report. Refreshing the report refreshes the information in it only when there has been more than one hour since the last update. </p>
+><p data-mc-conditions="QuicksilverOrClassic.Draft mode">Budgeted Hours are updated every hour in the Adobe Workfront database. Refreshing the report does not necessarily refresh the hour information in it. You can view the time lapsed since the last update in the upper-right corner of every Budgeted Hour report. Refreshing the report refreshes the information in it only when there has been more than one hour since the last update. </p>>
 >
 ><p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/budgeted-hour-report-time-sync-warning-350x74.png" style="width: 350;height: 74;"> </p>>
->
--->
 
-  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#build-a-budgeted-hour-report" class="MCXref xref"> Build a Budgeted Hour report</a> </li>
-  -->
+-->
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#review-the-budgeted-hour-report" class="MCXref xref">Review the Budgeted Hour report</a> </li>
@@ -46,11 +41,11 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 -->
 
    <!--
-   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Go to the <strong>Reporting</strong> area in your Global Navigation Bar. </li>
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Click the <strong>Main Menu</strong><img src="assets/main-menu-icon.png"> in the upper-right corner, then click <strong>Reports</strong>.  </li>
    -->
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <b>Reports</b> > <strong>New Report> Budgeted Hour</strong>.</p>
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>New Report> Budgeted Hour</strong>.</p>
    -->
 
    <!--
@@ -78,15 +73,15 @@ Budgeting resources means that you define (or budget) a certain number of hours 
    -->
 
    <!--   
-      <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing "Project Name", then select it when it appears in the list.</li>   
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing "Project Name", then select it when it appears in the list.</li>   
    -->
 
    <!--   
-      <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing "Job Role Name", then select it when it appears in the list.</li>   
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing "Job Role Name", then select it when it appears in the list.</li>   
    -->   
 
    <!--   
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing <strong>Allocation Date</strong>, select it when it appears in the list, and then select the timeframe you want to group by from the <strong>Group Dates by</strong> field. </p>   
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Grouping</strong> and start typing <strong>Allocation Date</strong>, select it when it appears in the list, and then select the timeframe you want to group by from the <strong>Group Dates by</strong> field. </p>   
    -->
 
    <!--
@@ -114,62 +109,42 @@ Budgeting resources means that you define (or budget) a certain number of hours 
 <col>
 <col>
 <tbody>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Project </td>
---> 
-
-<!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">This is the name of the project associated with the Budgeted Hour. </td>
 </tr>
 <tr>
-<td role="rowheader"> 
-<!--
+<td role="rowheader">
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Job Role</p>
--->
-
-<!--
+</td>
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">This is the name of the job role associated with the Budgeted Hour. </td>
--->
-
-
-<!--
+</tr>
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">User</td>
---> 
-
-<!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">This is the name of the user associated with the Budgeted Hour. </td>
--->
-
-<!--
+</tr>
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Alloc. Date</td>
--->
-
-<!--
+<td>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This is the Allocation Date. It is the first day (a Sunday) of the week for which you budgeted the hours. </p>
+<note type="tip">
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If a week spans for two months, this generates two rows in the report: one corresponding to the first day of the week (the Sunday of the week which is during the first month), and a second one corresponding with the first day of the second month (and which could be any day of the week.) </p>
-
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an Allocation Date of June 30, and July 1. </p>
+</note> </td>
+</tr>
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Bud. Hours</td>
---> 
-
-<!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">These are the Budgeted Hours allocated to the User in the Resource Planner. </td>
--->
-
-<!--
+</tr>
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Pln. Bud. Hours</td>
---> 
-
-<!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">These are the Budgeted Hours allocated to the Job Role or the Project in the Resource Planner. </td>
--->
-
-<!--
+</tr>
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> </td>
-
-<!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> </td>
 </tr>
 </tbody>
 </table>
 -->
+

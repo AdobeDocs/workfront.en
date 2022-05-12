@@ -168,6 +168,5 @@ For information about creating a report, see [Create a custom report](../../../r
    >`OR:2:plannedCompletionDate_Mod=eq`
 
 1. Click **Done** if you want to save your changes and continue editing the report or the filter.
-1. 
-   Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
+1. Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
 

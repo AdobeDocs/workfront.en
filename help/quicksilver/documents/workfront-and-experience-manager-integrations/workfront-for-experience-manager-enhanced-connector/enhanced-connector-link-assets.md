@@ -54,7 +54,6 @@ To link an asset to Experience Manager Assets:
 
 1. Go to the **Documents** area in Workfront where you want to add the document.
 1. Click **Add new**, then choose the Experience Manager Assets integration your administrator set up.
-1. 
 
    >[!NOTE]
    >
@@ -74,7 +73,6 @@ To link a folder to Experience Manager Assets:
 
 1. Go to the **Documents** area in Workfront where you want to add the document.
 1. Click **Add new**, then choose the Experience Manager Assets integration your administrator set up.
-1. 
 
    >[!NOTE]
    >

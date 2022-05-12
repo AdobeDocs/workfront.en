@@ -125,8 +125,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
 
-1. 
-   (Optional)&nbsp;To close the Summary panel, do one of the following:
+1. (Optional)&nbsp;To close the Summary panel, do one of the following:
 
    * In a task or issue list, click the **Open Summary** icon ![](assets/summary-panel-icon.png)
 

@@ -207,14 +207,13 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 
 1. Go to the project that contains the task or tasks that you want to duplicate.
 1. Select the **Tasks** tab.
-1. 
-   Do one of the following:
+1. Do one of the following:
 
-   * ```(Conditional) Select **Autosave** in the upper-right corner of the list, select the tasks you want to duplicate, then click **More** > **Duplicate**.``` 
+   * (Conditional) Select **Autosave** in the upper-right corner of the list, select the tasks you want to duplicate, then click **More** > **Duplicate**.
    
      ![duplicate_from_the_More_menu.png](assets/duplicate-from-the-more-menu-350x179.png)
 
-   * ```Select either the **Manual save** or **Timeline planning** options from the upper-right corner of the list of tasks, then do the following:```
+   * Select either the **Manual save** or **Timeline planning** options from the upper-right corner of the list of tasks, then do the following:
 
       1. Select the task or tasks you want to duplicate, and click **Duplicate**. 
       1. (Optional) Click **Undo** to reverse your changes and not duplicate the tasks.

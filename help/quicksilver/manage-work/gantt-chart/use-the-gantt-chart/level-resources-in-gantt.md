@@ -68,8 +68,7 @@ You can use the Task List Gantt Chart to level your resources.
 
    All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
 
-1. 
-   (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.
+1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.
 
    >[!TIP]
    >

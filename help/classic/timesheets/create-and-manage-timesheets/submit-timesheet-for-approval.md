@@ -81,8 +81,7 @@ To view the status of a timesheet:
 
 1. Go to the **Timesheet** area in your Global Navigation Bar.&nbsp;
 1. Click **Back to Timesheets.**
-1. 
-   Click the **My Timesheets** tab.
+1. Click the **My Timesheets** tab.
 
    A list of all your timesheets displays. The status of the timesheet displays under the timesheet time frame.
 

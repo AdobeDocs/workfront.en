@@ -117,8 +117,7 @@ To associate an existing global approval process with a project, task, issue, te
 
    The approval process selected displays.
 
-1. 
-   Expand the **Use existing** drop-down menu and select an existing approval process.
+1. Expand the **Use existing** drop-down menu and select an existing approval process.
 
    ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 

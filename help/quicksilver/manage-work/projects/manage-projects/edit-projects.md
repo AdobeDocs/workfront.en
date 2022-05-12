@@ -86,8 +86,7 @@ Some settings mentioned in this article might be modified from their default sta
    >
    >If you are a group administrator, you can see and edit your group’s projects in the Groups area as well as in the Projects area. For more information, see [Create and modify a group’s projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. 
-   (Optional) To edit limited information about a project, click **Project Details** in the left panel.
+1. (Optional) To edit limited information about a project, click **Project Details** in the left panel.
 
    ![](assets/nwe-project-details-expanded-350x298.png)
 

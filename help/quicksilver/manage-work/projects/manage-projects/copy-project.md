@@ -93,8 +93,7 @@ To copy a project:
 
    By default, the **Status** matches that of the original project.
 
-1. 
-   (Optional) Deselect the items that you don't want to copy to the new project.&nbsp;The following table describes what happens when you deselect the items:
+1. (Optional) Deselect the items that you don't want to copy to the new project.&nbsp;The following table describes what happens when you deselect the items:
 
    <table cellspacing="0"> 
     <col> 

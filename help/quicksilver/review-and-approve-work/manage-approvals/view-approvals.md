@@ -71,19 +71,14 @@ You can view or manage approvals from the following areas:
 
 ## Review work you submit for approval in the Home area {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. 
-   Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
-   >   
-   >   
-   >   * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >   * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-   >   
-   >
+   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. Select **Work List**, then click the **Filter** drop-down menu and select **Approvals**.
 1. Expand the **Approvals I've Submitted** section and find the approvals you submitted.
@@ -135,8 +130,7 @@ You can gain visibility into where a task or issue that you are working on curre
 To see the current state of where a task or issue is in the approval process:
 
 1. Go to the project, task, or issue that the approval is associated with.
-1. 
-   In the left panel, click **Approvals**. You might need to first click **Show More**.
+1. In the left panel, click **Approvals**. You might need to first click **Show More**.
 
    The Approvals tab displays&nbsp;the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user.
 

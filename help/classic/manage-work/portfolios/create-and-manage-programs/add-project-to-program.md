@@ -90,7 +90,6 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. 
 1. (Conditional) If you selected **Existing Project**, do the following:
 
    1. In the **Add Projects** dialog box, type the name of the project in the field provided, then select it when it appears in the list. You may add several projects at a time.

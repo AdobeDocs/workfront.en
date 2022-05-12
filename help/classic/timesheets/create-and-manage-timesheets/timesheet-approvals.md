@@ -59,14 +59,12 @@ To approve a timesheet:
 
 1. Go to the **Timesheet** area in your Global Navigation Bar.&nbsp;
 1. Click **Back to Timesheets.**
-1. 
-   Click the **Timesheets** **I Approve** tab.
+1. Click the **Timesheets** **I Approve** tab.
 
    A list of all the timesheets waiting your approval displays.
 
    ![](assets/timesheet-approve-adobe-350x99.png)
 
-   &nbsp;
 1. Click the time frame for the timesheet you want to approve. The timesheet opens. 
 1. Click **Approve**
 

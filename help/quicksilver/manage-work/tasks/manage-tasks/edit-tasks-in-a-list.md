@@ -109,9 +109,8 @@ Consider the following when saving your task list changes automatically:
 
 To edit tasks in a list and save changes automatically:
 
-1. Go to the project, then click the **Tasks** section .
-1. 
-   Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and make sure that the **Autosave** option is selected.
+1. Go to the project, then click the **Tasks** section.
+1. Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and make sure that the **Autosave** option is selected.
 
    ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -220,8 +219,7 @@ Consider the following when updating tasks in a list after selecting the Manual 
 To edit tasks in a list when selecting the Manual save Standard option:
 
 1. Go to a project, then click the **Tasks** section .
-1. 
-   Click the **Plan Mode**menu**** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Standard** > **Apply**.
+1. Click the **Plan Mode** menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Standard** > **Apply**.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -300,9 +298,8 @@ Consider the following when using the Manual save Timeline Planning option in a 
 
 To edit tasks in a list when using the Manual save Timeline Planning option:
 
-1. Go to a project, then click the **Tasks** section . 
-1. 
-   Click the **Plan Mode**menu**** ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Timeline Planning**> **Apply**.
+1. Go to a project, then click the **Tasks** section. 
+1. Click the **Plan Mode** menu ![](assets/qs-list-mode-or-save-mode-icon-small.png) at the top of the list and select **Manual save**, then click **Timeline Planning**> **Apply**.
 
    This option is dimmed for projects with more than 2000 tasks.
 

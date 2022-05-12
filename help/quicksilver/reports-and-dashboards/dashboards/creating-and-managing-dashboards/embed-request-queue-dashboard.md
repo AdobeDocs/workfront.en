@@ -71,8 +71,7 @@ Users can change the request type or choose another topic if they need to. The n
    >
    >Selecting topic groups and queue topics is optional.
 
-1. 
-   Click&nbsp;**Share path** in the upper-right corner of the New Request area.
+1. Click&nbsp;**Share path** in the upper-right corner of the New Request area.
 
    This copies the link to the request queue or the queue topic as you display it on the screen. Users can update the Request Type or any of the topic groups and queue topics available.
 
