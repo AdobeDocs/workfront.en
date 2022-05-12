@@ -310,35 +310,30 @@ The module returns the ID of the record and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
+<!--
 <table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
-  <tr> <!--
+  <tr>
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-   --> 
    <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
-  <tr> <!--
+  <tr>
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Type</td>
-   --> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the type of Salesforce record that you want the module to [action].read.</td>
-   --> 
   </tr> 
-  <tr> <!--
+  <tr>
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Fields</td>
-   --> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the fields that you want the module to read. You must select at least one field.</td>
-   --> 
   </tr> 
-  <tr> <!--
+  <tr>
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">ID</td>
-   --> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Enter or map the unique Salesforce ID of the record that you want the module to read.</p> <p>To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
-   --> 
   </tr> 
  </tbody> 
 </table>
+-->
 
 #### Delete a Record {#delete-a-record}
 
@@ -384,6 +379,8 @@ The module returns the following:
 
 When you are configuring this module, the following fields display.
 
+<!--WRITER - check to see if this renders-->
+
 <table cellspacing="0"> 
  <col> 
  <col> 
@@ -420,25 +417,11 @@ When you are configuring this module, the following fields display.
 
 **Example:** The following API call returns the list of all users in your Salesforce account:
 
-* **URL**: 
-
-  ```
-  query
-  ```
-
+* **URL**: `query`
 * **Method**: GET
 * **Query String**:
-* **Key**: 
-
-  ```
-  q
-  ```
-
-* **Value**: 
-
-  ```
-  SELECT Id, Name, CreatedDate, LastModifiedDate FROM User LIMIT 10
-  ```
+* **Key**: `q`
+* **Value**: `SELECT Id, Name, CreatedDate, LastModifiedDate FROM User LIMIT 10`
 
 Matches of the search can be found in the module's Output under **Bundle > Body > records**.
 
@@ -491,42 +474,39 @@ The module returns the ID of the  attachment or document and any associated fiel
 
 When you are configuring this module, the following fields display.
 
+<!--
 <table> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
-  <tr> <!--
+  <tr>
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
-   --> 
    <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
-  <tr> <!--
+  <tr>
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Type of Download</td>
-   --> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Specify the type of file that you want to download from Salesforce.</p> 
      <ul> 
       <li>Attachment</li> 
       <li>Document</li> 
       <li>ContentDocument (This is a document that has been uploaded to a library in Saleforce CRM Content or Salesforce Files.)</li> 
      </ul> </td>
-   --> 
   </tr> 
-  <tr> <!--
+  <tr>
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>ID / </p> <p>Attachment ID / </p> <p>ContentDocument ID</p> </td>
-   --> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Enter or map the unique Salesforce ID of the record that you want the module to download.</p> <p>To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
-   --> 
   </tr> 
  </tbody> 
 </table>
+-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h4 id="update-a-record-static-fields"><a name="Update3"></a>Update a Record <!--
+<h4 id="update-a-record-static-fields"><a name="Update3"></a>Update a Record
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (Static Fields)
 </MadCap:conditionalText>
---></h4>
+</h4>
 <p>This action module edits a record in an object.</p>
 <p>You specify the ID of the record.</p>
 <p>The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
