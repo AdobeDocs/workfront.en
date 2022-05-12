@@ -17,11 +17,11 @@ to help you unlock productivity and collaboration.
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements are currently available in the Preview environment. As the 22.1 release nears its planned Production release the week of January 17, 2022<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements are currently available in the Preview environment. As the 22.1 release nears its planned Production release the week of January 17, 2022
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 in October 2021
 </MadCap:conditionalText>
--->, this page will be updated with all functionality included with 22.1. </p>
+, this page will be updated with all functionality included with 22.1. </p>
 -->
 
 These enhancements have been made available in the Production environment the week of January 17, 2022.
@@ -31,8 +31,6 @@ These enhancements have been made available in the Production environment the we
 These enhancements are currently available in the Preview environment and will be made available in the Production environment the week of January 17, 2022, unless otherwise specifiedthe week of May 10, 2021
 </MadCap:conditionalText>
 -->
-
-.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

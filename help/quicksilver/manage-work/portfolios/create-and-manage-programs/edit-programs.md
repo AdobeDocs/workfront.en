@@ -55,13 +55,6 @@ You must have the following access to perform the steps in this article:
    >[!TIP]
    >
    >If you want to edit all information about the program, go to step 4.   >
-   >
-   ><!--   >
-   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
-   >(NOTE: still accurate?)   >
-   ></MadCap:conditionalText>   >
-   >-->   >
-   >
 
    ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 

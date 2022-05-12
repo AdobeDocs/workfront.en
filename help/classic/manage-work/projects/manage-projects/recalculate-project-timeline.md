@@ -74,15 +74,13 @@ Adobe Workfront recalculates timelines daily only for projects where all of the 
 
 * Last calculation date of the project timeline is not within the current calendar day. This means that the last calculation date of the project timeline is before 00:00 of the current day.
 
-You can configure how frequently the timeline for your project is updated. When the project timeline is updated, it is recalculated based on changes made to the project 
+You can configure how frequently the timeline for your project is updated. When the project timeline is updated, it is recalculated based on changes made to the project.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 or changes made to another project that the timeline is dependent on
 </MadCap:conditionalText>
 -->
-
-.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: above, the last part is drafted because of this: I don't think this is right because we told people that in the case of cross-project predecessors, the timeline must be calculated manually for the successor to see the updates in the predecessor's project. Drafting for now.)</p>
@@ -168,9 +166,8 @@ For more information about recalculating timelines for the entire Workfront site
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Project"></a>Project Update Types</h2> <!--
+<h2><a name="Project"></a>Project Update Types</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and moved to thisa rticle: /Content/Manage work/Projects/Planning a Project/project-update-type-overview.htm)</p>
--->
 <p>For information about how to update the project's Update Type, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>. </p> <note type="important">
 If the timeline of a project is longer than 15 years, Workfront does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual.
 </note>
@@ -187,4 +184,3 @@ A project does not automatically recalculate each night if it is in Planning sta
 </ul>
 </div>
 -->
-

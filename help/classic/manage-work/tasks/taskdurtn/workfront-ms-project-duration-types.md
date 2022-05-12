@@ -48,11 +48,8 @@ When importing projects from Microsoft Project in to Workfront, Fixed Units beco
 <!--
 <note type="warning">
 When a task has Calculated Work as the Duration Type and the default Duration Type in Setup is set as Calculated Assignment, then MS Project assignment allocations will be lost during the import.
-<!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (drafting this because it is misleading)
 </MadCap:conditionalText>
--->
 </note>
 -->
-

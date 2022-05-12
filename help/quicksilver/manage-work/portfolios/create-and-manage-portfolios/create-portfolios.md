@@ -96,9 +96,8 @@ You must have the following access to perform the steps in this article:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Deactivate a portfolio</h2> <!--
+<h2>Deactivate a portfolio</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted this and moved it to their own article: delete-deactivate-portfolios)</p>
--->
 <p>When you deactivate a portfolio, you can still access it from the Portfolios area, but it no longer displays in the list of portfolios when users try to add it to a project.</p>
 <ol>
 <li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li>
