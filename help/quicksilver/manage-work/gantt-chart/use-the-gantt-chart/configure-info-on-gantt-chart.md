@@ -117,6 +117,10 @@ The following table details the display options for the Gantt chart:
    ![Options.png](assets/options-350x129.png)
 
 1. Select the configuration options&nbsp;that you want to display in the Gantt chart.
-1. Not all of the configuration options are available in the Project List Gantt Chart.
+
+   >[!NOTE]
+   > Not all of the configuration options are available in the Project List Gantt Chart.
+   >
+
 1. Click anywhere in the Gantt chart to close the&nbsp;**Options**&nbsp;dialog box.&nbsp;
 

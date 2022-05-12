@@ -111,7 +111,7 @@ You must have the following access to perform the steps in this article:
    >
    ><!--   >
    ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can transfer custom form information from the issue to the task by adding a duplicate project-type custom form (with the same fields that are on the issue-type custom form) to the new project. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data when converting an object</a>. (NOTE:&nbsp;drafted, no longer the case for NWE)</p>   >
-   >-->   >
+   >-->   
    >
    >If a multi-object custom form attached to the issue is configured for use with both issues and tasks, all information saved in the form is retained when you make the conversion.
 
@@ -129,7 +129,7 @@ You must have the following access to perform the steps in this article:
 
 ## View original issue information on projects and tasks {#view-original-issue-information-on-projects-and-tasks}
 
-You can view the original issue information in project and task lists and reports ```or in the Project Details area```. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+You can view the original issue information in project and task lists and reports or in the Project Details area. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 The following table illustrates which&nbsp;issue fields are visible from the converted projects and tasks. 
 
