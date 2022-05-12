@@ -6,7 +6,7 @@ title: Update issue severity
 description: You can associate a severity with issues in Adobe Workfront. Tasks and projects do not have severities.
 ---
 
-#  Update issue severity
+# Update issue severity
 
 >[!IMPORTANT]
 >

@@ -39,9 +39,8 @@ Adobe Workfront calculates the Risk and Net Value indicators using the following
   ```
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Legacy Portfolio Optimizer <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">Legacy Portfolio Optimizer
   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[NOTE:&nbsp;should be removed when flash is removed from prod</span>
-  -->]
   <ul>
   <li>The Risk indicator is calculated by the following formula:<br><code>Risk indicator = Risk / (Risk + Legacy Net Value)</code></li>
   <li>The Net Value indicator is calculated by the following formulas:<br><code>Net Value indicator = 1 - Risk / (Risk + Legacy Net Value)</code><br>Or<br><code>Net Value indicator = Legacy Net Value / (Risk + Legacy Net Value)</code><br><note type="important">

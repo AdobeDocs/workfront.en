@@ -109,7 +109,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
      >   
      >
 
-   * **Allow <User Name> to have access to this project**If unselected, the issue's Primary Contact has no access to the new task.
+   * **Allow `<User Name>` to have access to this project**If unselected, the issue's Primary Contact has no access to the new task.
 
    >[!NOTE]
    >

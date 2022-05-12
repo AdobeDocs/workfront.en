@@ -66,7 +66,7 @@ You can remove entities (users, job roles, teams, groups, companies) from the sh
 1. Click the **x** next to the name of a user, team, group, company, job role to remove them in the object access box.  
    ![](assets/screen-shot-2014-05-29-at-3.52.44-pm-350x370.png)
 
-1. In the **<User Name>'s Workfront access will be removed from this** drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.  
+1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.  
    The following scenarios exist:
 
    * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
@@ -92,7 +92,7 @@ You can remove entities (users, job roles, teams, groups, companies) from severa
 
    ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. In the **<User Name>'s Workfront access will be removed from this** drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
+1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
    The following scenarios exist:
 
    * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;

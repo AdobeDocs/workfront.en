@@ -6,7 +6,7 @@ title: Resource pools overview
 description: Resource pools overview
 ---
 
-#  Resource pools overview
+# Resource pools overview
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: *** The sections about how to add resource pools to users, templates, projects are duplicated from the articles listed in those sections (Creating Users, Editing Projects, Creating a Template, etc). These sections might be eliminated when the Resource Pools are not something new, and just a routine field to edit on these main objects.) </p>

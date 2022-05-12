@@ -7,7 +7,7 @@ title: Permissions in Workfront Library
 description: Before you can access Workfront Library, your Workfront Library administrator must assign you an access level. There are 3 access levels in Workfront Library - EDIT ME.
 ---
 
-#  Permissions in Workfront Library
+# Permissions in Workfront Library
 
 Before you can access Workfront Library, your Workfront Library administrator must assign you an access level. There are 3 access levels in Workfront Library:
 

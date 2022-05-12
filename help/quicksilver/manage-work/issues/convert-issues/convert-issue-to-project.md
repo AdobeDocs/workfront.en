@@ -68,14 +68,13 @@ You can convert an issue to a blank project or convert an issue to a project usi
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and in yellow - this is NOT possible yet in a list (in 22.1), but will be released later!) </p>   
      <p>Select the issue in the list of issue, click the <strong>More</strong> menu <img src="assets/more-icon.png"> at the top of the list, then click <strong>Convert to a blank project</strong>. </p>   
      </div>   
+     <blockquote>  <p>You must manually add tasks to the project or attach a template to the project after you convert the issue. </p>  <p>Continue with Step 3e below. <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">    (is this accurate?)   </MadCap:conditionalText></p> </blockquote>    
      -->   
-   
-     <blockquote>  <p>You must manually add tasks to the project or attach a template to the project after you convert the issue. </p>  <p>Continue with Step 3e below. <!--   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">    (is this accurate?)   </MadCap:conditionalText>  --></p> </blockquote>    
    
      >[!TIP]
      >   
-     >   * If the issue was created using a request queue, the new project inherits the request queue's Group. 
-     >   * If the issue was created by adding it to the Issues section of the project, the new project inherits the Group if the issue's project. 
+     >* If the issue was created using a request queue, the new project inherits the request queue's Group. 
+     >* If the issue was created by adding it to the Issues section of the project, the new project inherits the Group if the issue's project. 
      >
 
 
@@ -147,14 +146,10 @@ You can convert an issue to a blank project or convert an issue to a project usi
         >
         >Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:
         >
-        >   
-        >   
-        >   * [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
-        >   * [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
-        >   
-        >
+        >* [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
+        >* [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
 
-      * **Allow <User Name> to have access to this project**
+      * **Allow `<User Name>` to have access to this project**
 
         If unselected, the issue's Primary Contact has no access to the new task.
 

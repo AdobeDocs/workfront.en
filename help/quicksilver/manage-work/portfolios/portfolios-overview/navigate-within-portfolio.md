@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. ```Click``` Portfolios. 
+1. Click Portfolios. 
 1. From the **Filter** drop-down menu, select the following:
 
    * **Portfolios I Own**: Includes a list of portfolios for which you are designated as the Portfolio Manager.
@@ -70,10 +70,11 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) &nbsp; Click **Projects** in the left panel to view projects associated with the selected portfolio, then select any of the following filters from the **Filter** drop-down menu:&nbsp;
 
-   * **Active**: Includes all projects associated with the selected portfolio which are in the following statuses:  
-     - Planning  
-     - Approved  
-     - Current
+   * **Active**: Includes all projects associated with the selected portfolio which are in the following statuses:
+  
+     * Planning  
+     * Approved  
+     * Current
    
    * **Requested**: Includes projects associated with the selected portfolio with a status of **Requested**.  
      For information about reviewing Requested projects, see [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

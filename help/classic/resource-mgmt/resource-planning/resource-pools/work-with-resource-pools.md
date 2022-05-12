@@ -6,7 +6,7 @@ title: Resource pools overview
 description: Resource pools overview
 ---
 
-#  Resource pools overview
+# Resource pools overview
 
 >[!IMPORTANT]
 >

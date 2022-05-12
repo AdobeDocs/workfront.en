@@ -6,7 +6,7 @@ title: Share the Resource Planner user view with a link
 description: Adobe Workfront can generate a unique URL for the User View of the Resource Planner which you can embed into a dashboard as an External Page, or open it separately in a new browser tab. This is helpful when sharing the Resource Planner information with users who might not have direct access to the Resourcing area.
 ---
 
-#  Share the Resource Planner user view with a link
+# Share the Resource Planner user view with a link
 
 >[!IMPORTANT]
 >
