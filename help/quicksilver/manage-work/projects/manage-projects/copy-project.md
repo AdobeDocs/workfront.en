@@ -85,7 +85,7 @@ To copy a project:
 
 1. Update the name of the new project.
 
-   By default, the new name is **Copy of <Original project name>.**
+   By default, the new name is **Copy of `<Original project name>`.**
 
    ![](assets/copy-project-box-nwe-350x276.png)
 
@@ -93,8 +93,7 @@ To copy a project:
 
    By default, the **Status** matches that of the original project.
 
-1. 
-   (Optional) Deselect the items that you don't want to copy to the new project.&nbsp;The following table describes what happens when you deselect the items:
+1. (Optional) Deselect the items that you don't want to copy to the new project.&nbsp;The following table describes what happens when you deselect the items:
 
    <table cellspacing="0"> 
     <col> 

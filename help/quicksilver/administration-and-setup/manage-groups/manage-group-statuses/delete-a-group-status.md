@@ -13,6 +13,13 @@ As a group administrator, you can delete a status for a group that you manage if
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
+>[!NOTE]
+>
+>You cannot delete the following:
+>
+>* The built-in statuses Planning, Current, and Complete. You can update their names, edit their colors, and lock or unlock them, but they can't be deleted.
+>* Statuses that are in a pending state of approval for at least one object associated with the group or one of its subgroups.
+
 ## Access requirements
 
 You must have the following to perform the steps in this article:

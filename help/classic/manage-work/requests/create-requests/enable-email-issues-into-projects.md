@@ -87,13 +87,11 @@ These conditions must be met, before enabling this feature:
 
    >[!CAUTION]
    >
+   >This email address cannot be recovered from the recycle bin if the project containing the request queue is deleted.
    >
+   >Because this email address must be unique, it may not be available in the future if deleted.
    >
-   >>[!CAUTION]
-   >>
-   >>```<li>This email address cannot be recovered from the recycle bin if the project containing the request queue is deleted.</li>``` ```<li>Because this email address must be unique, it may not be available in the future if deleted.</li>``` ```<li>Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.</li>``` 
-   >
-   >
+   >Emails forwarded to this email address are not added as issues to the project inWorkfront. Only emails created from this email address are added as issues.
 
 1. (Optional) Select the **Forward all issues that fail to submit via email**, then enter a forwarding email address in the box below.
 
@@ -104,7 +102,7 @@ These conditions must be met, before enabling this feature:
    >[!NOTE]
    >
    >Users must have access to create issues in the project in order to submit via email. You can grant this access in the Sharing dialog box under Advanced Settings.  
-  
+   >
    >External Users cannot email issues to a request queue because they do not have access to create issues.
 
 ## Receive the issue in Workfront

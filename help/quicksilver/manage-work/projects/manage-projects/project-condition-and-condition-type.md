@@ -29,22 +29,16 @@ Consider the following in understanding the Condition of a project:
   >[!NOTE]
   >
   >Projects that are in any of the following statuses are always marked as On Target, no matter what the dates of the tasks and their progress are:  
-
   >
-  >   
-  >   
-  >   * Idea
-  >   * Requested
-  >   * Approved
-  >   * Rejected 
-  >   
-  >
+  >* Idea
+  >* Requested
+  >* Approved
+  >* Rejected 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Set"></a>Set the Condition Type for a project</h2> <!--
+<h2><a name="Set"></a>Set the Condition Type for a project</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted here and moved it to a separate article: /Content/Manage work/Projects/Manage projects/set-condition-type-for-project.htm)</p>
--->
 <ol>
 <li value="1">Go to the project for which you want to update the Condition Type. </li>
 <li value="2"> <p>  Click the <strong>More</strong> menu <img src="assets/qs-more-menu.png"> to the right of the project name, then click <strong>Edit</strong>.  <br> </p> </li>

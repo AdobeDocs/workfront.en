@@ -48,9 +48,9 @@ You must have the following access to perform the steps in this article:
 
 ### Limitations for deleting tasks  {#limitations-for-deleting-tasks}
 
-* When a project has a status of Complete you can delete tasks only if your Workfront administrator ```or a group administrator``` has allowed this in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* When a project has a status of Complete you can delete tasks only if your Workfront administrator or a group administrator has allowed this in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* If the task has logged hours, the Workfront ``` ```or group administrator`````` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance. ```This also applies when you try to delete projects that have tasks with hours logged on them.``` 
+* If the task has logged hours, the Workfront  or group administrator must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance. This also applies when you try to delete projects that have tasks with hours logged on them. 
 
   <!--
   (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
@@ -144,7 +144,7 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 1. Click **Delete Task**.
 1. If the deletion is allowed, click **Yes, Delete it**.
 
-   Your Workfront administrator ```or group administrator``` might not allow the deletion of tasks where hours are logged.
+   Your Workfront administrator or group administrator might not allow the deletion of tasks where hours are logged.
 
    For more information about the access and permissions needed to delete a task, see the section [Limitations for deleting tasks](#limitations-for-deleting-tasks) in this article.
 

@@ -59,7 +59,7 @@ You must have the following before you can start:
 
 ## Considerations for copying goals
 
-```You must have access to Edit Goals in your access level before you can copy goals. For information about granting access to Goals, see``` ``` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)```.
+You must have access to Edit Goals in your access level before you can copy goals. For information about granting access to Goals, see [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Some of the reasons you might want to copy an existing goal are:
 
@@ -90,7 +90,7 @@ Consider the following when copying goals:
 
    This opens the Goal Details panel.
 
-1. Click the ```**More icon** ![](assets/more-icon.png),``` then click **Copy**. 
+1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -143,5 +143,5 @@ Consider the following when copying goals:
 
    1. Go to the original goal in the Goal List, Check-in page, or Pulse section and comment on the goal, to indicate that this goal was copied to another, more current goal. For information about commenting on a goal, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
    1. Close the original goal, to preserve the progress in its original time period. For information about closing goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md). 
-   1. Update the ```the **Initial** value``` of the new Result to match the **End At** value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.
+   1. Update the the **Initial** value of the new Result to match the **End At** value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.
 

@@ -75,12 +75,11 @@ This setting affects user availability in the following circumstances when sched
 If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see
 <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.
 </note> </td>
-</tr> <!--
+</tr>
 <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <td role="rowheader">Object permissions</td>
 <td> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
 </tr>
--->
 </tbody>
 </table>
 <p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p>

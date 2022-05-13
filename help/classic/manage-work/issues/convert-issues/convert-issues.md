@@ -183,7 +183,7 @@ The following table lists project information and whether it transfers from the 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="convert-to-task"></a>Convert an issue to a task</h2> <!--
+<h2><a name="convert-to-task"></a>Convert an issue to a task</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 <ol>
 <li value="1"> Go to the <strong>Issues</strong> tab on a project. </li>

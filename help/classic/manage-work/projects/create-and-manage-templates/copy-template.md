@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 1. Click**Template Actions**, then click **Copy Template.** 
 1. Specify a name for the template in the **New Template Name** field.
 
-   By default, the new name is**Copy of <original template name>.**
+   By default, the new name is **Copy of `<original template name>`.**
 
    ![](assets/cat-350x230.png)
 

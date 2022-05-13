@@ -21,7 +21,7 @@ The Workfront Library Setup area now has an updated look and feel. This user scr
 * Name
 * Access level
 * Access sources
-* # of assets
+* `#` of assets
 
 ## Updates to editing access levels of users and user groupings
 
@@ -33,7 +33,9 @@ For more information, see
 
 * [Change a user's access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/change-user-access.md)
 
-```<iframe class="vimeo-player_0" src="assets/391362256?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/391362256?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/391362256/8c89677e28)
 
@@ -55,6 +57,8 @@ Previously, when users with assets were removed from Workfront Library, these as
 
 For more information, see [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
 
-```<iframe class="vimeo-player_0" src="assets/391362243?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/391362243?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/391362243/6581c1ef43) 

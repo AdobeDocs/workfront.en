@@ -113,9 +113,7 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
    >
    >This field is dimmed and not editable when selecting to copy multiple tasks in ```a``` ```list. You can hover over the Task Name field and a list of all selected tasks displays.```
    >
-   >
-   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)   >
-   >
+   >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
 1. Type the name of the **Destination Project**&nbsp;where you want to copy the task in the **Select Destination Project** field.&nbsp;
 
@@ -128,8 +126,7 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
    The current project name displays by default. If you want to copy the task within the same project, leave this field unchanged. 
 
 1. (Conditional)&nbsp;Click&nbsp;**request access** to request access to the project, if you don't have access to the selected project.
-1. 
-   (Conditional) Continue to copy the task to the selected destination project without requesting access if you have access to add tasks to one of the tasks on the destination project.
+1. (Conditional) Continue to copy the task to the selected destination project without requesting access if you have access to add tasks to one of the tasks on the destination project.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
@@ -215,8 +212,7 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
    If you do not select a parent task, the tasks are copied as main tasks rather than subtasks and they&nbsp;will be placed at the end of the task list on the destination project.&nbsp;
 
-1. 
-   Click **Copy task**
+1. Click **Copy task**
 
    Or
 
@@ -252,18 +248,17 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 
 * Milestones are moved to the new task and removed from the original task.
 
-### Duplicate tasks {#duplicate-tasks}
+### Duplicate tasks
 
 1. Go to the project that contains the task or tasks that you want to duplicate.
 1. Click **Tasks** in the left panel.
-1. 
-   Do one of the following:
+1. Do one of the following:
 
-   * ```(Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autosave**, select the tasks you want to duplicate, then click the **More menu** ![](assets/qs-more-menu-29x11.png) > **Duplicate**.```
+   * (Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autosave**, select the tasks you want to duplicate, then click the **More menu** ![](assets/qs-more-menu-29x11.png) > **Duplicate**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * ``` ```(Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:``````
+   * (Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:
 
       1. Select the task or tasks you want to duplicate, and click **Duplicate**. 
       1. (Optional) Click **Undo** to reverse your changes and not duplicate the tasks.
@@ -272,4 +267,3 @@ You can quickly duplicate a task in a task list, if you need an identical task o
       1. Click **Save** to save your changes.
 
    1. Edit tasks in a list
-

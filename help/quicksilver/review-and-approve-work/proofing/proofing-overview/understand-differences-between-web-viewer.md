@@ -321,8 +321,8 @@ The following list can help you understand what Proofing Viewer you can use to p
   </tr> 
   <tr> 
    <td>Manage proofs from the same folder</td> 
-   <td><font size="2">Available only in Workfront Proof</font> </td> 
-   <td><font size="2">Available only in Workfront Proof</font> </td> 
+   <td><strong>Available only in Workfront Proof</strong> </td> 
+   <td><strong>Available only in Workfront Proof</strong> </td> 
   </tr> 
   <tr> 
    <td>Branding (custom logos)</td> 

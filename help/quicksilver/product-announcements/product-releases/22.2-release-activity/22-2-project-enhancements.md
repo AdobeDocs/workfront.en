@@ -29,7 +29,9 @@ A system administrator must enable Boards in layout templates to make the option
 
 For more information, see [Boards overview](../../../agile/boards-overview.md).
 
-```<iframe class="vimeo-player_0" src="assets/686493020?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686493020?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686493020/d8a5d11f0d)
 
@@ -72,7 +74,9 @@ It is now easier to catch mistakes when posting an update. Finalizing a comment 
 
 For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-```<iframe class="vimeo-player_0" src="assets/686915058?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686915058?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686915058/eedb0e5a27)
 
@@ -93,7 +97,9 @@ For more information about moving or copying issues, see the following articles:
 * [Copy issues](../../../manage-work/issues/manage-issues/copy-issues.md) 
 * [Move issues](../../../manage-work/issues/manage-issues/move-issues.md)
 
-```<iframe class="vimeo-player_0" src="assets/678338567?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/678338567?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/678338567/3b91b6d37e)
 
@@ -125,7 +131,9 @@ For more information, see the following articles:
 * [Export a project to Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md) 
 * [Subscribe to items in Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 
-```<iframe class="vimeo-player_0" src="assets/686876682?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686876682?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686876682/06ec05cd2b)
 
@@ -137,7 +145,9 @@ Users remain on the list, report or a dashboard after converting an issue to a p
 
 For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-```<iframe class="vimeo-player_0" src="assets/675972622?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/675972622?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/675972622/f1fa3093f5)
 
@@ -157,7 +167,9 @@ The following changes have been made to tasks with a Simple Duration Type:
 
 For more information about Planned Hours, see [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
 
-```<iframe class="vimeo-player_0" src="assets/701739033?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/701739033?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/701739033/f3e79c6e4e)
 
@@ -173,6 +185,8 @@ Each folder at the sixth level or below inherits its sharing configurations from
 
 For more information about sharing folders, see [Share a document folder](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-```<iframe class="vimeo-player_0" src="assets/675978565?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/675978565?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/675978565/1901e4a8a1) 

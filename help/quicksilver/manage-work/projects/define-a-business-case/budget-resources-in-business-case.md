@@ -132,8 +132,6 @@ You can budget your resources for a period of 15 years. If you budget resources 
    <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the <strong>Project Details</strong> tab. </li>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the <strong>Business Case</strong> sub-tab. </p>
    -->
@@ -142,13 +140,9 @@ You can budget your resources for a period of 15 years. If you budget resources 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Business Case</strong> in the left panel. </p>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Resource Budgeting</strong> section, click <strong>Edit Resource Budgeting</strong>. </p>
    -->
-
-1. 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Select Resource Pool</strong> field, specify one or several <strong>Resource Pools</strong>.</p>
@@ -166,8 +160,6 @@ You can budget your resources for a period of 15 years. If you budget resources 
    </note>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong>.</p>
    -->
@@ -184,8 +176,6 @@ You can budget your resources for a period of 15 years. If you budget resources 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/bc-resource-budgeting-area-350x276.png" alt="BC_resource_budgeting_area.png" style="width: 350;height: 276;"> </p>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Click <strong>Week</strong>, <strong>Month</strong> or <strong>Quarter</strong> to display information for the project in different time frames.</p>
    -->
@@ -199,11 +189,11 @@ You can budget your resources for a period of 15 years. If you budget resources 
    -->
 
    <!--
-   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Click <strong>Export</strong> to export the Resource Planner to an Excel file.<br><!--
+   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Click <strong>Export</strong> to export the Resource Planner to an Excel file.<br>
    <note type="note">
    You can export data for up to 12 time periods at a time.
    </note>
-   --></li>
+   </li>
    -->
 
    <!--
@@ -214,23 +204,17 @@ You can budget your resources for a period of 15 years. If you budget resources 
    <li value="11" data-mc-conditions="QuicksilverOrClassic.Draft mode">Update the <strong>BDG</strong> (Budgeted Hours) field with Hour, FTE, or Cost values for the the users, roles, or the project by doing one of the following: <p>
    <ul>
    <li>
-   <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Manually estimate the amount of Hours, FTE, or Cost values for roles, users, or the project.</p>
-   --><!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or</p>
-   --></li><!--
+   </li>
    <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Options</strong> icon for the project or the job roles and select an option to automatically budget the hours for roles, users, or the project.</li>
-   -->
-   </ul><!--
+   </ul>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about budgeting in the Project View of the Resource Planner, see the <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md">Using the Project and Role Views to Budget Resources</a>.</p>
-   --><!--
    <note type="note">
    You can budget hours, FTEs, or costs for your resources for any time frame displayed in the Resource Budgeting area, independent of the timeline of the project. For example, if you want to indicate that your resources might not be available during the timeline of the project (where they are associated with Planned Hours), but they might be available during another time, you can do so by budgeting them for time frames where the Planned Hours are zero, if that is when they become available to work.
    </note>
-   --></p></li>
+   </p></li>
    -->
-
-1. 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) To understand whether you can move the budgeted Hours, FTEs, or Costs to another time frame, click the <strong>Options</strong> icon, then <strong>Adjust Budgeting Dates</strong>.</p>
@@ -239,8 +223,6 @@ You can budget your resources for a period of 15 years. If you budget resources 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about adjusting budgeted dates, see <a href="../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md" class="MCXref xref">Adjust budgeting dates in the Resource Planner</a>.</p>
    -->
-
-1. 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save</strong>.</p>

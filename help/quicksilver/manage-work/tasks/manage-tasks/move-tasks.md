@@ -52,8 +52,7 @@ To move a task displayed in a task list:
 
 1. Go to the project that contains the task or tasks that you want to move.
 1. Click **Tasks** in the left panel to display the task list. 
-1. 
-   Ensure that the **Autosave** toggle is enabled, then select the task or tasks that you want to move.
+1. Ensure that the **Autosave** toggle is enabled, then select the task or tasks that you want to move.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -114,8 +113,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
    >* Only 100 projects display in the list.
 
 1. (Conditional)&nbsp;Click&nbsp;**request access** to request access to the project, if you don't have access to the selected project. 
-1. 
-   (Conditional) Continue to move the task to the selected destination project without requesting access if you have access to add tasks to one of the tasks on the destination project.
+1. (Conditional) Continue to move the task to the selected destination project without requesting access if you have access to add tasks to one of the tasks on the destination project.
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
 
@@ -208,8 +206,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    If you do not select a parent task, the tasks are moved&nbsp;as main tasks rather than subtasks and they&nbsp;will be placed at the end of the task list on the destination project.&nbsp;
 
-1. 
-   Click **Move task**
+1. Click **Move task**
 
    Or
 

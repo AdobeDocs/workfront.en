@@ -52,12 +52,12 @@ You must have the following access to perform the steps in this article:
 ## Navigate within a portfolio
 
 1. Go to the **Projects** area in your Global Navigation Bar. 
-1. ```Select the``` **Portfolios** ```tab.``` 
+1. Select the **Portfolios** tab.
 
 1. Select any of the following sub-tabs:
 
    * **Portfolios I Own**: Includes a list of portfolios for which you are designated as the Portfolio Manager.
-   * **All** **Portfolios** : Includes all portfolios for which you have at least access to View.  
+   * **All** **Portfolios**: Includes all portfolios for which you have at least access to View.  
      For more information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).  
      For more information about permissions to Portfolios, see&nbsp; [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).  
      ![portfolio_list.png](assets/portfolio-list-350x193.png)  
@@ -76,9 +76,10 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Select the **Projects** tab to view projects associated with the selected portfolio, then select any of the following sub-tabs:&nbsp;
 
    * **Active****Projects**: Includes all projects associated with the selected portfolio which are in the following statuses:  
-     - Planning  
-     - Approved  
-     - Current
+  
+     * Planning  
+     * Approved  
+     * Current
    
    * **Requested** **Projects**: Includes projects associated with the selected portfolio with a status of **Requested**.  
      For information about reviewing Requested projects, see [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

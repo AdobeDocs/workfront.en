@@ -290,12 +290,11 @@ The 22.3 release webinar is not yet scheduled. This page will be updated when mo
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 This area will be updated as more information becomes available.
 </MadCap:conditionalText>
---><!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 was presented on January 12, 2022. You can view the webinar recording on the
 <a href="https://one.workfront.com/s/event">Events page on Workfront One</a>.
 </MadCap:conditionalText>
---></p>
+</p>
 -->
 
 <!--

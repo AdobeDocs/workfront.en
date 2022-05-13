@@ -63,15 +63,17 @@ You must have the following:
    * View by Role
 
 1. Click **Export**. 
-   The Export Options dialog box displays. ```  
+
+   The Export Options dialog box displays.
+
    ![](assets/rp-export-options-box-350x421.png)
 
-   ```  
-
 1. Specify the following information:  
+
    **Start Date**: The start date of your export. The exported file contains allocation and availability information starting with the first day of the week which contains the day you specify here.   
    **Number of Periods**: The number of time periods you want to include in your file. The default is 4 periods.  
    **Type**: The type of time periods by which you want to display the information in the exported file (weeks, months, or quarters.)   
+
    The following are the maximum time periods that you can export:
 
    * 52 weeks 
@@ -110,13 +112,14 @@ You must have the following:
    Only the information that you saved is exported.  
 
 1. (Conditional) If you have unsaved Budgeted Hours in the Role or Project views, click **Save and Continue.** 
+
    An Excel (.xlsx) file is downloaded to your computer.  
    Exporting from the Resource Planner is unavailable while the file is prepared for downloading.  
    (Conditional) If you export a large amount of data, you receive an email with a link where you can download the file.  
    ![RP_eamil_with_exported_planner_attached.png](assets/rp-eamil-with-exported-planner-attached-350x116.png)
 
 1. (Conditional) When you receive the email with the exported file, click **Download** to download the file.  
+
    This takes you back to Workfront where you can download the file.   
    You must be logged into Workfront for the download to complete.  
    If you do not download the file when it is delivered, the Download link remains active for 7 days after you initiate the export.
-

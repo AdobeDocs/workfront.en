@@ -143,9 +143,11 @@ For information about creating a report, see [Create a custom report](../../../r
       OR:1:status_Mod=notin
       ```
 
-      Each line of the new statement must be preceded by "OR:<number>:".
+      Each line of the new statement must be preceded by "OR:`<number>`:".
 
       For information about creating "OR" statements in a filter, see [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+
+<!--WRITER - reformat note below -->
 
    >[!NOTE]
    >
@@ -153,60 +155,18 @@ For information about creating a report, see [Create a custom report](../../../r
    >
    >To filter for tasks that are in a status of In Progress or are assigned to the logged-in user or they have the Planned Completion Date today, use the following:
    >
+   >`status=INP`
    >
+   >`status_Mod=in`
    >
+   >`OR:1:assignedToID=$$USER.ID`
    >
-   >```   >
-   >status=INP
-   >```   >
+   >`OR:1:assignedToID_Mod=in`
    >
-
+   >`OR:2:plannedCompletionDate=$$TODAY`
    >
-   >
-   >
-   >
-   >```   >
-   >status_Mod=in
-   >```   >
-   >
-
-   >
-   >
-   >
-   >
-   >```   >
-   >OR:1:assignedToID=$$USER.ID
-   >```   >
-   >
-
-   >
-   >
-   >
-   >
-   >```   >
-   >OR:1:assignedToID_Mod=in
-   >```   >
-   >
-
-   >
-   >
-   >
-   >
-   >```   >
-   >OR:2:plannedCompletionDate=$$TODAY
-   >```   >
-   >
-
-   >
-   >
-   >
-   >
-   >```   >
-   >OR:2:plannedCompletionDate_Mod=eq
-   >```   >
-   >
+   >`OR:2:plannedCompletionDate_Mod=eq`
 
 1. Click **Done** if you want to save your changes and continue editing the report or the filter.
-1. 
-   Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
+1. Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
 

@@ -611,7 +611,7 @@ The Resource Planner has two purposes:&nbsp;
 
   For more information about how Costs are calculated in the Resource Planner for users and roles, see [Calculate costs in the Resource Planner](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
-  ##  Filtering in the Resource Planner  {#filtering-in-the-resource-planner}
+  ## Filtering in the Resource Planner  {#filtering-in-the-resource-planner}
 
   You can reduce the number of projects, roles, or users that display in the Resource Planner by creating a filter.   
   For more information, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md)

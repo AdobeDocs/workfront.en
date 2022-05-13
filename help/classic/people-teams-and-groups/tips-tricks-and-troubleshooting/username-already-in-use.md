@@ -47,7 +47,7 @@ This can occur either because the username or email address is not unique in the
 >[!NOTE]
 >
 >The primary Workfront administrator can't have the same username or email address if they are in separate Workfront instances on the same cluster.   
-  
+>
 >If the instances are on different clusters, the primary admin can have the same username or email address. You can view the cluster your instance is on under Setup > System > Customer Info.
 
 ### Check if your username is unique in your instance

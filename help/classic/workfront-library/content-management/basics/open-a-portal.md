@@ -27,7 +27,9 @@ When you are first given access to a portal, Workfront sends you an email invita
 
 ## Open a portal from within Workfront Library
 
-1. ```<li> <p data-mc-conditions="QuicksilverOrClassic.Classic">In Workfront, click the <strong>Workfront Library</strong> icon on the Global Navigation Bar to open Workfront Library in a new browser tab.</p> </li>``` If the Workfront Library icon does not display on your Global Navigation Bar, then you don't have access to Workfront Library. Talk with your Workfront Library administrator for access.
+<!--WRITER check below step -->
+
+1. <!--<li> <p data-mc-conditions="QuicksilverOrClassic.Classic">In Workfront, click the <strong>Workfront Library</strong> icon on the Global Navigation Bar to open Workfront Library in a new browser tab.</p> </li>--> If the Workfront Library icon does not display on your Global Navigation Bar, then you don't have access to Workfront Library. Talk with your Workfront Library administrator for access.
 
 1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 

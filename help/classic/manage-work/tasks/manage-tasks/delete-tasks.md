@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
 
 * When a project has a status of Complete you can delete tasks only if your Workfront administrator ```or a group administrator``` has allowed this in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* If the task has logged hours, the Workfront ``` ```or group administrator`````` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance.
+* If the task has logged hours, the Workfront or group administrator must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance.
 
   For more information about enabling the deletion of tasks where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

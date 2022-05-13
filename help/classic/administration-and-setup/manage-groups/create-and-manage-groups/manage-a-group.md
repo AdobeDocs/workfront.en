@@ -57,7 +57,7 @@ For instructions, see [View and manage a group’s details](../../../administrat
 
 If you are a group administrator and your group needs different project, task, and issue preference settings from those that are set on the system level, you can ask the Workfront administrator to unlock a preference for all groups throughout the organization. After it is unlocked, you (and group administrators for all other groups) can configure it for the groups you manage.
 
-For instructions, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and ``` [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)``` ```.```
+For instructions, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## List, add, and configure subgroups
 

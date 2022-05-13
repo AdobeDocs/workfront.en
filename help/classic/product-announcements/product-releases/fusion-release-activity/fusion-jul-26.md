@@ -18,7 +18,9 @@ Functionality of existing scenarios using the previously available modules will 
 
 For more information, see [Salesforce modules](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
-```<iframe class="vimeo-player_0" src="assets/580433094?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/580433094?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/580433094/fe81c38dc6)
 
@@ -28,6 +30,8 @@ The consent screens for connections to Adobe Workfront Fusion are now updated. N
 
 For more information, see the [Connect the module's app or web service to Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) section in [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
-```<iframe class="vimeo-player_0" src="assets/580421677?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/580421677?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/580421677/ed98219259) 

@@ -83,31 +83,19 @@ You must have the following access to perform the steps in this article:
 
      >[!IMPORTANT]
      >
+     >* If you are a group administrator creating a schedule, this field is mandatory.
+     >  A group administrator can create a schedule only if it is designated for a group or subgroup for which they are designated as the administrator.
+     >   
+     >  If you manage only one group, that group is selected in this field, by default. 
+     >   
+     >  If you manage several groups, you must select a group in this field before you can save the schedule.
      >
+     >* If you are a Workfront administrator creating a schedule, this field is optional. When you create a schedule without associating it with a group, it is saved as a system-level schedule and cannot be managed by a group administrator of any group.
      >   
-     >   
-     >   * If you are a group administrator creating a schedule, this field is mandatory.
-     >   
-     >   
-     >     A group administrator can create a schedule only if it is designated for a group or subgroup for which they are designated as the administrator.
-     >   
-     >   
-     >     If you manage only one group, that group is selected in this field, by default. 
-     >   
-     >   
-     >     If you manage several groups, you must select a group in this field before you can save the schedule.  
+     >  Schedules assigned to accounts or projects are visible to all users who can edit these objects. This is true for both system-level and group-level schedules.  
 
-     >   
-     >   * If you are a Workfront administrator creating a schedule, this field is optional. When you create a schedule without associating it with a group, it is saved as a system-level schedule and cannot be managed by a group administrator of any group.
-     >   
-     >   
-     >     Schedules assigned to accounts or projects are visible to all users who can edit these objects. This is true for both system-level and group-level schedules.  
-
-     >   
-     >   
-     >
-
-     Specifying a **Group with Administration Access** for a schedule does not assign the schedule to the users in the group. Specifying a **Group with Administration Access** only allows the Group Administrators in the group to edit, delete, and copy the schedule.  
+     Specifying a **Group with Administration Access** for a schedule does not assign the schedule to the users in the group. Specifying a **Group with Administration Access** only allows the Group Administrators in the group to edit, delete, and copy the schedule.
+     
      Group Administrators cannot edit, delete, or copy system-level schedules. For more information, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
    
    * Select the **Groups with View Access** to which this schedule is visible to.

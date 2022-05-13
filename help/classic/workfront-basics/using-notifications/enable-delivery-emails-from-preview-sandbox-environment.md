@@ -70,7 +70,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Search for a user in Workfront and click their name. Then, click **Edit <User Name>'s Info**, in the upper-right corner of their profile page.
+   Search for a user in Workfront and click their name. Then, click **Edit `<User Name>`'s Info**, in the upper-right corner of their profile page.
 
    Or
 

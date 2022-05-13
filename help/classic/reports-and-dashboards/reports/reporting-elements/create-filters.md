@@ -76,8 +76,7 @@ View the following video to learn how to create a filter.
 
    ![](assets/screen-shot-2013-09-05-at-9.55.17-am-350x481.png)
 
-1. 
-   Click **New Filter** at the bottom of the list of filters
+1. Click **New Filter** at the bottom of the list of filters
 
    Or
 
@@ -197,7 +196,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <td>Lists and reports</td>
 </tr>
 <tr data-mc-conditions="">
-<td><span class="preview" style="font-weight: bold;">Beta builder</span> <!--
+<td><span class="preview" style="font-weight: bold;">Beta builder</span> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the Beta builder text is also in yellow)</p>
 </td>
 <td>
@@ -420,7 +419,3 @@ Clicking
 </div>
 </div>
 -->
-
-&nbsp;
-
-&nbsp;

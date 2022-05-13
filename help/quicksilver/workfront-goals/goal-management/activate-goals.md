@@ -79,7 +79,7 @@ Do at least one of the following to be able to activate a goal:
 
 ## Activate goals
 
-```You must have access to Edit Goals in your access level before you can activate goals. For information about granting access to Goals, see``` ``` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)```.
+You must have access to Edit Goals in your access level before you can activate goals. For information about granting access to Goals, see [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 You can activate goals you created or a goal that you have Manage permissions to.
 

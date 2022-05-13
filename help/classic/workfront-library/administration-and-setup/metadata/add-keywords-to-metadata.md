@@ -13,8 +13,6 @@ description: Keyword metadata consists of terms that describe the attributes and
 >
 >You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
-#  
-
 Keyword metadata consists of terms that describe the attributes and content of an asset. Users select keywords from the picklist when they upload content to Workfront Library. Only keywords in the keyword picklist can be added to content's metadata. For more information about keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
 
 As a Workfront Library administrator, you can keep your organization's keyword metadata consistent by configuring a keyword picklist.

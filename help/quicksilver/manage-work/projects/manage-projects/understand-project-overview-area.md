@@ -48,8 +48,7 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the project whose Overview section you want to view.
 1. Click **Project Details** in the left panel. 
-1. 
-   The **Overview** section should display first as part of the Project&nbsp;Details and should be expanded by default
+1. The **Overview** section should display first as part of the Project&nbsp;Details and should be expanded by default
 
    Or
 

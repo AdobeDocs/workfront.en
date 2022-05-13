@@ -114,8 +114,7 @@ Consider the following when saving your task list changes automatically:
 To edit tasks in a list and save changes automatically:
 
 1. Go to the project, then click the **Tasks** tab .
-1. 
-   Ensure that **Autosave** is selected in the upper-right corner of the task list. This is the default.
+1. Ensure that **Autosave** is selected in the upper-right corner of the task list. This is the default.
 
    ![](assets/autosave-setting-enabled-classic-task-list-350x196.png)
 
@@ -218,8 +217,7 @@ Consider the following when updating tasks in a list after selecting the Manual 
 To edit tasks in a list when selecting the Manual save option:
 
 1. Go to a project, then click the **Tasks** tab .
-1. 
-   Select **Manual save** in the upper-right corner of the task list.
+1. Select **Manual save** in the upper-right corner of the task list.
 
    >[!NOTE]
    >
@@ -303,8 +301,7 @@ Consider the following when using the Timeline Planning option in a task list:
 To edit tasks in a list when using the Timeline Planning option:
 
 1. Go to a project, then click the **Tasks** tab . 
-1. 
-   Select **Timeline Planning** in the upper-right corner of the task list.
+1. Select **Timeline Planning** in the upper-right corner of the task list.
 
    This option is dimmed for projects with more than 2000 tasks.
 

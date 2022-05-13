@@ -13,25 +13,19 @@ Numeric values including currency can be configured to display in a variety of f
 To modify the format of a numeric value, you must edit the&nbsp;**valueformat**&nbsp;line of your column.
 
 For example, if you wanted to display the Budget column as $1000, the value format line would look like:
-<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>For more information about applying conditional formatting in Workfront reports and lists using text mode, see [Use conditional formatting in Text Mode](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
-
-You can format numbers&nbsp;using the following values for the&nbsp;
 
 ```
-valueformat
+valueformat=currencyStringCurrencyRounded
+valuefield=budget
 ```
 
-&nbsp;line of your column:
+For more information about applying conditional formatting in Workfront reports and lists using text mode, see [Use conditional formatting in Text Mode](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-| **Example** |*
+You can format numbers&nbsp;using the following values for the `valueformat` line of your column:
 
-```
-valueformat=
-```
-
-* |
+| Example | `valueformat=` |
 |---|---|
-| 1234 |<pre>doubleAsString</pre> or <pre>int</pre> |
+| 1234 |<pre>doubleAsString</pre> <br>or <br><pre>int</pre> |
 | 1,234 |<pre>doubleAsInt</pre> |
 | $1,234 |<pre>currencyStringCurrencyRounded</pre> |
 | 1234.56 |<pre>doubleAsDouble</pre> |
@@ -40,4 +34,3 @@ valueformat=
 | 12.34% |<pre>doubleAsPercent</pre> |
 | (1,234.56) |<pre>doubleAsFinancial</pre> |
 | (1,234) |<pre>doubleAsFiancialRounded</pre> |
-

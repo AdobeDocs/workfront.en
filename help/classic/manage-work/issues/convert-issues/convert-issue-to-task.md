@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
      >   
      >
 
-   * **Allow <User Name> to have access to this task**
+   * **Allow `<User Name>` to have access to this task**
 
      If unselected, the issue's Primary Contact has no access to the new task.
    

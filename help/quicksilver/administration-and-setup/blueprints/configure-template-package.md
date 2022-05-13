@@ -37,12 +37,12 @@ You must have the following access to perform the steps in this article:
 ## Configure a project template blueprint
 
 1. Find the blueprint you want to use.
-1. Click ```Install```, then choose an environment:
+1. Click Install, then choose an environment:
 
-   | ```Production```  |Production is your live environment.  |
+   | Production  |Production is your live environment.  |
    |---|---|
-   | ```Sandbox Preview```  |The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront.  |
-   | ```Sandbox 1 & 2```  |The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain a Custom Refresh Sandbox. |
+   | Sandbox Preview  |The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront.  |
+   | Sandbox 1 & 2  |The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain a Custom Refresh Sandbox. |
 
 1. Continue with the following sections:
 
@@ -60,14 +60,14 @@ You can also designate template ownership before you install the blueprint. You 
 
 ![Template Preferences section](assets/blueprints-templatepreferences-350x147.png)
 
-1. In the ```Template Preferences section```, specify a new template name.
+1. In the Template Preferences section, specify a new template name.
 1. Specify the following:
 
-   | ```Template owner```  |This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project. |
+   | Template owner  |This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project. |
    |---|---|
-   | ```Template sponsor```  |This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project. |
-   | ```Portfolio```  |This is the portfolio the project will belong to when it's created. |
-   | ```Program```  |This is the program the project will belong to when it's created. |
+   | Template sponsor  |This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project. |
+   | Portfolio  |This is the portfolio the project will belong to when it's created. |
+   | Program  |This is the program the project will belong to when it's created. |
 
 1. Select whether the template is installed as active or inactive.
 1. Select whether you want to use defined new issue preferences, if preferences are available.
@@ -121,16 +121,16 @@ The blueprint searches by the role name to see if any existing roles match. The 
 
 1. If a role exists, you can choose one of the following options:
 
-   1. ```Create a new role with a different name```, then type the name in the text box.
-   1. ```Use existing role```, then select a role in the selection box.
-   1. ```Do not use mapped role```. This option is not recommended because some tasks will not have roles assigned.
+   1. Create a new role with a different name, then type the name in the text box.
+   1. Use existing role, then select a role in the selection box.
+   1. Do not use mapped role. This option is not recommended because some tasks will not have roles assigned.
 
 1. If a role does not exist, you can choose one of the following options:
 
-   1. ```Create a new role```. This option creates the role the blueprint recommends.
-   1. ```Create a new role with a different name```, then type the name in the text box.
-   1. ```Use existing role```, then select a role in the selection box.
-   1. ```Do not use mapped role```. This option is not recommended because some tasks will not have roles assigned.
+   1. Create a new role. This option creates the role the blueprint recommends.
+   1. Create a new role with a different name, then type the name in the text box.
+   1. Use existing role, then select a role in the selection box.
+   1. Do not use mapped role. This option is not recommended because some tasks will not have roles assigned.
 
 >[!NOTE]
 >
@@ -152,16 +152,16 @@ The blueprint searches by the team name to see if any existing teams match. The 
 
 1. If a team exists, you can choose one of the following options:
 
-   1. ```Create a new team with a different name```, then type the name in the text box.
-   1. ```Use existing team```, then select a team in the selection box.
-   1. ```Do not use mapped team```. This option is not recommended because some tasks will not have teams assigned.
+   1. Create a new team with a different name, then type the name in the text box.
+   1. Use existing team, then select a team in the selection box.
+   1. Do not use mapped team. This option is not recommended because some tasks will not have teams assigned.
 
 1. If a team does not exist, you can choose one of the following options:
 
-   1. ```Create a new team```. This option creates the team the blueprint recommends.
-   1. ```Create a new team with a different name```, then type the name in the text box.
-   1. ```Use existing team```, then select a team in the selection box.
-   1. ```Do not use mapped team```. This option is not recommended because some tasks will not have teams assigned.
+   1. Create a new team. This option creates the team the blueprint recommends.
+   1. Create a new team with a different name, then type the name in the text box.
+   1. Use existing team, then select a team in the selection box.
+   1. Do not use mapped team. This option is not recommended because some tasks will not have teams assigned.
 
 >[!NOTE]
 >
@@ -183,17 +183,17 @@ The blueprint searches by the company name to see if any existing companies matc
 
 1. If a company exists, you can choose one of the following options:
 
-   1. ```Create a new company with a different name```, then type the name in the text box.
-   1. ```Use existing company```, then select a company in the selection box.  
+   1. Create a new company with a different name, then type the name in the text box.
+   1. Use existing company, then select a company in the selection box.  
       The primary company in the blueprint is mapped to the primary company in your environment, even if they do not have the same name.
-   1. ```Do not use mapped company```. This option is not recommended, because the company references in other objects will be empty.
+   1. Do not use mapped company. This option is not recommended, because the company references in other objects will be empty.
 
 1. If a company does not exist, you can choose one of the following options:
 
-   1. ```Create a new company```. This option creates the company the blueprint recommends.
-   1. ```Create a new company with a different name```, then type the name in the text box.
-   1. ```Use existing company```, then select a company in the selection box.
-   1. ```Do not use mapped company```. This option is not recommended, because the company references in other objects will be empty.
+   1. Create a new company. This option creates the company the blueprint recommends.
+   1. Create a new company with a different name, then type the name in the text box.
+   1. Use existing company, then select a company in the selection box.
+   1. Do not use mapped company. This option is not recommended, because the company references in other objects will be empty.
 
 >[!NOTE]
 >
@@ -227,7 +227,7 @@ The blueprint searches by the group name to see if any existing groups match. Th
 1. If a group does not exist, you can:
 
    1. Change the suggested group name by typing it in the text box.
-   1. Select **Remap Group** and choose ```Replace with an existing group```, then search for and select a group in the selection box.
+   1. Select **Remap Group** and choose Replace with an existing group, then search for and select a group in the selection box.
    1. Select **Remap Group** and choose **Insert under an existing group**, then search for and select a group in the selection box. This option creates a new subgroup under the existing group.
 
 >[!NOTE]

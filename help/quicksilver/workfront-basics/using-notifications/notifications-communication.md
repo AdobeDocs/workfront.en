@@ -38,7 +38,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
     <ul> 
      <li> <p>The user who replies is the same user who made the request</p> </li> 
      <li> <p>The user does not have access to see the note</p> </li> 
-    </ul><font size="2">The subject of the instant notification email is: <em>Comment on &lt;Request Name&gt; on &lt;Project Name&gt; (ref# &lt;Request Reference Number&gt;)</em></font> The subject of the daily digest notification is:<em> Digest of Communication &lt;Date of daily digest&gt;</em></td> 
+    </ul><strong>The subject of the instant notification email is: <em>Comment on &lt;Request Name&gt; on &lt;Project Name&gt; (ref# &lt;Request Reference Number&gt;)</em></strong> The subject of the daily digest notification is:<em> Digest of Communication &lt;Date of daily digest&gt;</em></td> 
    <td> Request Name<br>Project name<br>Reference Number<br>Name of the user who replied to your Request<br>Date and Time when the comment was made<br>Text of comment made on your Request<br>*Total number of comments received<br>*Number of comments received for each request<br>*<strong>See All Notifications</strong> button<br>*Date of the daily digest<br></td> 
    <td><strong>Daily</strong> </td> 
   </tr> 
@@ -58,7 +58,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
      <li>Teams that are included in a direct message</li> 
      <li>The owner of the Note</li> 
      <li>The Primary Contact</li> 
-    </ul> <p><font size="2">The subject of the instant notification email is: <em>RE: Comment on &lt;Object Name&gt;&lt;Object Type&gt; on &lt;Project Name&gt;(ref# &lt;Object Reference Number&gt;</em>)</font> </p> <p><font size="2"> The subject of the daily digest notification is:<em> Digest of Communication &lt;Date of daily digest&gt;</em></font> </p> </td> 
+    </ul> <p><strong>The subject of the instant notification email is: <em>RE: Comment on &lt;Object Name&gt;&lt;Object Type&gt; on &lt;Project Name&gt;(ref# &lt;Object Reference Number&gt;</em>)</strong> </p> <p><strong> The subject of the daily digest notification is:<em> Digest of Communication &lt;Date of daily digest&gt;</em></strong> </p> </td> 
    <td> Object Name<br>Parent Object Name<br>Name of the user who commented on the thread<br>Text of comment made on the thread<br>Date and Time when the comment was made<br>*Total number of comments received<br>*Number of comments received for each object<br>*Project Name<br>*<strong>See All Notifications</strong> button<br>*Date of daily digest </td> 
    <td><strong>Daily</strong> </td> 
   </tr> 

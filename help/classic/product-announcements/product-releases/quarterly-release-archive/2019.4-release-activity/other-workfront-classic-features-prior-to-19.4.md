@@ -16,7 +16,7 @@ For information about the release time frame and all functionality available wit
  <col> 
  <tbody> 
   <tr> 
-   <td> <h3><a name="Add2"></a>Add a filter to a Typeahead field in a custom form</h3> <p>Now, when you add a Typeahead field to a custom form, you can add a filter to limit the objects that are available when someone uses the field. For example, you could limit the field so that the user can select only members of the Marketing and Sales teams in your organization.</p> <p>For more information, see the section Create and add a new field in the article Creating Custom Forms.</p> 
+   <td> <strong>Add a filter to a Typeahead field in a custom form</strong> <p>Now, when you add a Typeahead field to a custom form, you can add a filter to limit the objects that are available when someone uses the field. For example, you could limit the field so that the user can select only members of the Marketing and Sales teams in your organization.</p> <p>For more information, see the section Create and add a new field in the article Creating Custom Forms.</p> 
     <div class="workfront_plans"> 
      <p><strong>Available in these environments:</strong> </p> 
      <ul> 
@@ -32,7 +32,7 @@ For information about the release time frame and all functionality available wit
   <tr> 
    <td> 
     <div> 
-     <h3><a name="Change"></a>Change the display type of a field in a custom form</h3> 
+     <strong>Change the display type of a field in a custom form</strong> 
      <p>Now you can change the display type of a field in a custom form.</p> 
      <p>For example, if you have created a Checkboxes field, you can change it to a Dropdown field or a Radio Buttons field. These three field display types are interchangeable.</p> 
      <p>Or, if you have created a Single Line Text Field, you can change it to a Paragraph Text field. These two field display types are interchangeable.</p> 
@@ -49,14 +49,14 @@ For information about the release time frame and all functionality available wit
        <li>August 9, 2019</li> 
       </ul> 
      </div> 
-     <p><iframe class="vimeo-player_0" src="assets/352814469?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/352814469/e267c80c31" target="_blank">View this video in full-screen mode.</a> </p> 
+     <!--<p><iframe class="vimeo-player_0" src="assets/352814469?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/352814469/e267c80c31" target="_blank">View this video in full-screen mode.</a> </p>--> 
     </div> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <h3><a name="Create"></a>Create time off calendars and reports</h3> 
+     <strong>Create time off calendars and reports</strong> 
      <p>You can now see user’s time off for better planning and execution. You can also add new time off reports and calendars to your dashboards for a real-time view of user availability.</p> 
      <div class="workfront_plans"> 
       <p><strong>Available in these environments:</strong> </p> 
@@ -69,8 +69,8 @@ For information about the release time frame and all functionality available wit
        <li>August 9, 2019</li> 
       </ul> 
      </div> 
-     <p><iframe class="vimeo-player_0" src="assets/352816307?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/352816307/c9988ec54c" target="_blank">View this video in full-screen mode.</a> </p> 
+     <!--<p><iframe class="vimeo-player_0" src="assets/352816307?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/352816307/c9988ec54c" target="_blank">View this video in full-screen mode.</a> </p>--> 
     </div> </td> 
   </tr> 
  </tbody> 

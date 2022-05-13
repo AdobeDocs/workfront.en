@@ -129,12 +129,8 @@ To allow Workfront to automatically propose assignments for tasks and issues in 
    >
    >To ensure that Workfront assigns work to the most eligible users:
    >
-   >   
-   >   
-   >   * Filter only information that affects which tasks are displayed in the Unassigned area (such as Portfolios, Programs, an Projects). 
-   >   * We recommend that you do not filter information that affects which users are available to assign on the scheduling timeline. Doing so limits Workfront from viewing all potential assignees, which can result in less satisfactory assignments.
-   >   
-   >
+   >* Filter only information that affects which tasks are displayed in the Unassigned area (such as Portfolios, Programs, an Projects). 
+   >* We recommend that you do not filter information that affects which users are available to assign on the scheduling timeline. Doing so limits Workfront from viewing all potential assignees, which can result in less satisfactory assignments.
 
 1. (Optional) Modify the date range that is displayed on the scheduling timeline, as described in [Adjust the date range of the Scheduling areas](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#adjusting-the-date-range-for-which-data-is-displayed) in [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Workfront makes assignments only for tasks and issues within the visible date range on the scheduling timeline.
 
@@ -147,9 +143,8 @@ To allow Workfront to automatically propose assignments for tasks and issues in 
    >Tasks and issues must already be assigned to a role in order for an assignment to be proposed. To ensure the best results, tasks and issues should contain the information described in [Prerequisites](#prerequisites).
 
    Proposed assignments are differentiated with a dotted outline around each task or issue, as follows:  
-   **Proposed task assignment:**
 
-   ****
+   **Proposed task assignment:**
 
    **Existing task assignment:**
 
@@ -178,12 +173,10 @@ To allow Workfront to automatically propose assignments for tasks and issues in 
          
          * Users who are not eligible to receive the assignment are dimmed.
 
-      * ```Expand the task or issue you want to assign, click the drop-down arrow in the **Assignments** field, begin typing the name of the user you want to assign, then click the user's name in the drop-down list.  
+      * Expand the task or issue you want to assign, click the drop-down arrow in the **Assignments** field, begin typing the name of the user you want to assign, then click the user's name in the drop-down list.  
         ![schedule_task_expanded.png](assets/schedule-task-expanded-350x170.png)      
-      
-        ```
 
-   * ```To postpone making an assignment, drag any task or issue that you are not yet ready to assign back to the **Unassigned** area.```
+   * To postpone making an assignment, drag any task or issue that you are not yet ready to assign back to the **Unassigned** area.
 
 1. Click the **Make Assignments** button at the top of the scheduling timeline to finalize any proposed assignments.  
    Or  

@@ -25,8 +25,6 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
    <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to a task whose constraint you want to modify. </li>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Edit Task</strong>.</p>
    -->
@@ -35,13 +33,9 @@ For information about how to update the Task&nbsp;Constraint on a task, see [Upd
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p>
    -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</p>
    -->
-
-1. 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select <strong>Earliest Available Time</strong>.</p>

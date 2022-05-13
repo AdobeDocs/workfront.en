@@ -103,8 +103,6 @@ You must have the following access to perform the steps in this article:
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="make-a-workfront-approval-decision-in-a-proof"><a name="making-a-workfront-approval-decision-in-a-proof"></a>Make a Workfront approval decision in a proof</h3>
 -->
 
-1. 
-
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Open the proof of the document that you want to make a decision on.</p>
    -->

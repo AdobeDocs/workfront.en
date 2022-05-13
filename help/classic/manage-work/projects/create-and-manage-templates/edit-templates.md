@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/edit-template-overview-tab-under-template-details-350x253.png)
 
-1. Click **Edit <the name of the subtab>** to edit information in each subtab. For example, click **Edit Overview** to edit information in the Overview subtab. Click any of the following subtabs to edit it:
+1. Click **Edit `<the name of the subtab>`** to edit information in each subtab. For example, click **Edit Overview** to edit information in the Overview subtab. Click any of the following subtabs to edit it:
 
    * Overview
    * Custom Forms

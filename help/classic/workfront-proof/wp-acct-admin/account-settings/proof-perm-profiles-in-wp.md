@@ -30,75 +30,15 @@ As a Workfront administrator or Workfront Proof administrator, you can assign a 
 
 The following table displays the permissions available with each Proof Permissions Profile.
 
-| **Own Items** |**Other Users' Items** |**Admin** |**Billing** |
-|---|---|---|---|
+| **Own Items** |||||**Other Users' Items** |||**Admin** |**Billing** |
+|---|---|---|---|---|---|---|---|---|---|
 | &nbsp; |**Add** |**View** |**Edit** |**Delete** |**View** |**Edit** |**Delete** |**Edit and Delete** |**Edit** |
-| Billing Admin | ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-|
-| Admin | ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-|&nbsp; |
-| Supervisor | ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |
-| Manager | ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-| ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| Observer |&nbsp; | ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| Visitor |&nbsp; | ![](assets/cleaner2.png)
-
-|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Billing Admin | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|
+| Admin | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |
+| Supervisor | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |&nbsp; |
+| Manager | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Observer |&nbsp; | ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Visitor |&nbsp; | ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 Consider the following about roles and permissions:
 
@@ -117,7 +57,7 @@ The following sections describe each profile and the permissions associated with
 * [Visitor](#visitor) 
 * [Guest](#guest)
 
-### Billing Administrator {#billing-administrator}
+## Billing Administrator {#billing-administrator}
 
 Billing Administrators have access to&nbsp; [Account settings in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)&nbsp;and [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md), and have the following permissions:
 

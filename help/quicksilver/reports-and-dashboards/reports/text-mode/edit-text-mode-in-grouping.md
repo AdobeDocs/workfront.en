@@ -202,8 +202,7 @@ For information about creating a report, see [Create a custom report](../../../r
     </tbody> 
    </table>
 
-1. 
-   (Optional) Add one of the following lines of code to any grouping to indicate whether the results in the grouping should display in an expanded or collapsed list. By default, groupings display expanded:
+1. (Optional) Add one of the following lines of code to any grouping to indicate whether the results in the grouping should display in an expanded or collapsed list. By default, groupings display expanded:
 
    
      ```   

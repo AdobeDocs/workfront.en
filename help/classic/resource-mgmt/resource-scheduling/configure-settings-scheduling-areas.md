@@ -287,8 +287,7 @@ To configure the scheduling timeline to display the daily totals for the Planned
 To configure whether all tasks assigned to each user (not just the tasks associated with the project you are viewing) are displayed on the scheduling timeline:
 
 1. Go to the project where you want to configure the scheduling timeline to display all tasks assigned to each user.
-1. 
-   Click the&nbsp; **Staffing** tab&nbsp;(the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected, then click **Switch back to Scheduling**.  
+1. Click the&nbsp; **Staffing** tab&nbsp;(the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected, then click **Switch back to Scheduling**.  
 1. Click the **Settings** icon on the scheduling timeline.  
    ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)
 

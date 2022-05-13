@@ -41,7 +41,9 @@ The calendar in the My Work area has been updated with the following changes:
 
 For more information, see [View assigned work on the My Work calendar](../../../../workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md)
 
-```<iframe class="mt-media" src="assets/187845073?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/187845073?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Resource Scheduling Improvements
 
@@ -53,7 +55,9 @@ To adjust the information that is displayed on the scheduling timeline, create a
 
 In addition to viewing tasks on the projects you are responsible for, you can use the scheduling timeline to make changes to resourcing assignments. For information about how to manage user assignments on the scheduling timeline, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
 
-```<iframe class="mt-media" src="assets/194383424?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/194383424?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+--> 
 
 ## Manage User Allocations on the Scheduling Timeline
 
@@ -61,7 +65,9 @@ Now when scheduling resources with the new resource scheduling tools, you can de
 
 For more information, see [Manage user allocations in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
 
-```<iframe class="mt-media" src="assets/187845071?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/187845071?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+--> 
 
 ## User Allocations Are Disabled by Default
 
@@ -96,7 +102,9 @@ You can use Workfront from Outlook for Office 365, as described in the following
 * [Set up Adobe Workfront for Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md) 
 * "Updating an Existing Item from an Email with Outlook 365"
 
-```<iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+--> 
 
 ## Reorder Columns in Any List with Drag-and-Drop
 
@@ -124,7 +132,9 @@ Prior to this change,&nbsp;you could grant access only to groups.
 
 For more information, see [Create or edit a custom form](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
-```<iframe class="mt-media" src="assets/152626892?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
+<!--WRITER
+<iframe class="mt-media" src="assets/152626892?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
+-->&nbsp;&nbsp;
 
 ## Integration with Adobe Creative Cloud
 

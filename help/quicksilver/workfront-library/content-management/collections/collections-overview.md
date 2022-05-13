@@ -37,34 +37,34 @@ Depending on your access level to Workfront Library, you can manage a collection
 * [Download a collection](#download-a-collection) 
 * [Delete a collection](#delete-a-collection)
 
-### Add items to a collection {#add-items-to-a-collection}
+## Add items to a collection {#add-items-to-a-collection}
 
 If you have Manager or higher access to Workfront Library, you can add content and folders to any collection to which you have access. Users with Viewer access can add items only to collections they create. Viewers cannot add items to a collection shared with them. For more information, see [Add items to a folder in Workfront Library](../../../workfront-library/content-management/folders/add-items-to-a-folder-library.md).
 
-### Remove items from a collection {#remove-items-from-a-collection}
+## Remove items from a collection {#remove-items-from-a-collection}
 
 If you have Manager access or higher to Workfront Library, you can remove content and folders from all instances of a collection. Users with Viewer access cannot remove items from a collection. For more information, see [Remove items from a collection in Workfront Library](../../../workfront-library/content-management/collections/remove-items-from-a-collection.md)
 
-### Share a collection {#share-a-collection}
+## Share a collection {#share-a-collection}
 
 If you have Manager access or higher, you can share a collection and all its contents with other users. Users with Viewer access cannot share collections. For information on sharing a collection, see [Share a Workfront Library item with other users](../../../workfront-library/content-management/share-an-asset-with-users.md).
 
-### Add a collection to a portal {#add-a-collection-to-a-portal}
+## Add a collection to a portal {#add-a-collection-to-a-portal}
 
 If you have Manager access or higher to Workfront Library, you can add collections that you create to portals that you have access to. You can also add collections shared with you and to which you have Manage permissions. However, you cannot add collections to which you have View permissions. For more information, see .
 
-### Edit a collection {#edit-a-collection}
+## Edit a collection {#edit-a-collection}
 
 You can edit the name and description of a collection that you created. If you have Manager access or higher, you can edit any collection shared with you to which you have Manage permissions. For more information, see [Edit a Workfront Library collection](../../../workfront-library/content-management/collections/edit-a-collection.md)
 
-### Edit the cover image on a collection {#edit-the-cover-image-on-a-collection}
+## Edit the cover image on a collection {#edit-the-cover-image-on-a-collection}
 
 You can change the cover image of a collection that you created. You can also change the cover image for any collection shared with you to which you have Manage permissions. For more information, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
 
-### Download a collection {#download-a-collection}
+## Download a collection {#download-a-collection}
 
 You can download any collection to which you have access. When downloading a collection, Workfront Library places the collection's contents in a .zip file and emails the file to you. For information on downloading a collection, see [Download items from Workfront Library](../../../workfront-library/content-management/basics/download-content-from-library.md).
 
-### Delete a collection {#delete-a-collection}
+## Delete a collection {#delete-a-collection}
 
 You can delete any collection that you create. Additionally, you can delete any collection shared with you to which you have Manage permissions. Users with Viewer access to Workfront Library can delete only the collections they create. Viewers cannot delete a collection shared with them. For information on deleting a collection, see [Delete items from Workfront Library](../../../workfront-library/content-management/delete-items.md).

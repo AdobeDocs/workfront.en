@@ -99,15 +99,17 @@ access to act on their behalf. This handshaking process only happens once for ea
 1. The user begins connecting the webhook integration to their account. Currently, this is done by&nbsp;clicking the “Add Document” dropdown > “Add Service” > Custom integration name. 
 1. Workfront navigates the user the Authentication URL, which may prompt the user to login to the&nbsp;external document provider. This page is hosted by the webhook provider or the external document management system. When doing so Workfront adds a “state” parameter to the Authentication URL. This value must be passed back to Workfront by appending the same value to the Workfront Return URI in the step below. 
 1. After logging to the external system (or if the user is already logged in), the user is taken to an&nbsp;“Authentication” page, which explains that Workfront is requesting access to perform a set of actions on the user’s behalf. 
-1. If the user clicks the “Allow” button, the browser will redirect to the Workfront Redirect URI , adding “code=<code>” to the querystring. Per the OAuth2 spec, this token is short lived. The querystring must also have the following, “state=<sent_by_workfront>”. 
+1. If the user clicks the “Allow” button, the browser will redirect to the Workfront Redirect URI , adding “code=`<code>`” to the querystring. Per the OAuth2 spec, this token is short lived. The querystring must also have the following, “state=`<sent_by_workfront>`”. 
 1. Workfront processes this request and makes an API call to the Token Endpoint URL with the&nbsp;authorization code. 
 1. The Token Endpoint URL returns a refresh token and access token. 
 1. Workfront stores a these tokens and fully provisions the webhook integration for this user. 
 1. From this point forward, Workfront will be able to make authorized API calls to the webhook provider.&nbsp;When making these calls, Workfront will send the the access token in the HTTP request header as shown below:  
-  
+
+   ```
    -------------------------------  
    Authorization: Bearer [access_token] ­­­­­­­­­­­­­­­­­­­­­­­­­­  
    -------------------------------
+   ```
 
 1. If the access token has expired, Workfront will make a call to the Token Endpoint URL to retrieve a&nbsp;new access token then attempt the authorized API call again with the new access token.
 
@@ -115,6 +117,7 @@ access to act on their behalf. This handshaking process only happens once for ea
 
 Making authorized API calls to a webhook provider using an ApiKey is much simpler than OAuth2. When making an API call, Workfront will simply pass the ApiKey and Workfront username in the HTTP request header:
 
+```
 -------------------------------
 
 apiKey: 12345
@@ -122,6 +125,7 @@ apiKey: 12345
 username: johndoe@foo.com
 
 -------------------------------
+```
 
 The Webhook provider can use the username to apply user-specific permissions. This works best when both systems connect to LDAP using Single Sign On (SSO).
 
@@ -135,6 +139,7 @@ For example, this can be used for Basic Authentication. To do this, the Workfron
 
 where QWxhZGRpbjpvcGVuIHNlc2FtZQ== is a base-64 encoded string of “username:password”. See Basic Authentication . Provided that this added, Workfront will pass this in the HTTP request header, in addition to other request headers:
 
+```
 ­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
 
 apiKey: 12345
@@ -144,6 +149,7 @@ username: johndoe@foo.com
 Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== ­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 -------------------------------
+```
 
 ## API Specification
 
@@ -236,6 +242,9 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 &nbsp;
 
 **Example** 
+
+<!--WRITER this needs to be converted to a fenced code block-->
+
 <pre>POST /oauth2/token </pre><pre>grant_type=authorization_code </pre><pre>code=d9ac7asdf6asdf579d7a8 </pre><pre>client_id=123456 </pre><pre>client_secret=6asdf7a7a9a4af</pre>**Response** 
 <pre>{</pre><pre>"access_token":"ad8af5ad5ads759", </pre><pre>"refresh_token":"9a0h5d87d808ads", </pre><pre>"expires_id":"3600" </pre><pre>}</pre>
 
@@ -633,8 +642,9 @@ POST /createFolder
 
 The metadata for the newly created folder, as defined by the /metadata endpoint.
 
-**Example:** ```POST https://www.acme.com/api/createFolder```
+**Example:** `POST https://www.acme.com/api/createFolder`
 
+```
 -------------------------------
 
 parentId=1234
@@ -642,9 +652,20 @@ parentId=1234
 name=New Folder ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 -------------------------------
+```
 
 returns
-<pre>{</pre><pre>"title":"New Folder", </pre><pre>"kind":"folder"</pre><pre> "id":"5678",</pre><pre> "viewLink":"”, </pre><pre>"downloadLink":"", </pre><pre>"mimeType":"", </pre><pre>"dateModified":"2014­06­05T17:39:45.251Z" </pre><pre>"size": "" </pre><pre>}</pre>
+
+```
+{"title":"New Folder", 
+ "kind":"folder""id":"5678",
+ "viewLink":"”,
+ "downloadLink":"",
+ "mimeType":"",
+ "dateModified":"2014­06­05T17:39:45.251Z" 
+ "size": "" 
+ }
+```
 
 ### Delete a Document or Folder
 
@@ -896,4 +917,3 @@ Tests the following endpoints: Token Endpoint URL
    * Added /serviceInfo
    * Added /customAction
    * Add pagination and parentId to /search
-

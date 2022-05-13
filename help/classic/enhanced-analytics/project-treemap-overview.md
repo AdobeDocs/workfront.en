@@ -124,16 +124,10 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >
    >If you selected the **duration** view, you'll see the following duration details:
    >
+   >* **Planned Timeframe**: The number of days planned to complete the project.
+   >* **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
    >   
-   >   
-   >   * **Planned Timeframe**: The number of days planned to complete the project.
-   >   * **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
-   >   
-   >   
-   >![](assets/duration-treemap-350x159.png)   >
-   >
-
-   >
+   >![](assets/duration-treemap-350x159.png)
    >
    >For more information on duration, see the section "Duration view" in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 

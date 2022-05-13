@@ -16,13 +16,17 @@ Previously, the only way to share an image in Workfront was to attach it to an o
 
 For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-```<iframe class="vimeo-player_0" src="assets/601084561?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/601084561?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/601084561/921f0410de)
 
 Before Workfront users can include images in updates, this feature must first be enabled by the Adobe Workfront administrator, as described in Configure preferences for user updates.
 
-```<iframe class="vimeo-player_0" src="assets/601089736?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/601089736?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/601089736/a96fc17e6d)
 
@@ -45,7 +49,9 @@ We have updated the interface for creating the project both when you create it f
 
 For information, [Create a project using a template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-```<iframe class="vimeo-player_0" src="assets/601071667?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/601071667?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode](https://vimeo.com/601071667/5bca354ad1).
 
@@ -63,7 +69,9 @@ To make your use of Workfront consistent with the new Workfront experience, we h
 
 For information, see [Attach a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-```<iframe class="vimeo-player_0" src="assets/592767793?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/592767793?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/592767793/3f536585d5)
 
@@ -92,7 +100,9 @@ To ensure that users provide accurate information when adding issues to projects
 
 For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-```<iframe class="vimeo-player_0" src="assets/583120723?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/583120723?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/583120723/711fa5b4b4)
 
@@ -106,6 +116,8 @@ For information about filling out a custom form, see [Edit information in custom
 
 For information about creating a checkbox or radio button field in a custom form, see the sections [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) and [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-```<iframe class="vimeo-player_0" src="assets/580326409?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/580326409?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode](https://vimeo.com/580326409/faccb1e558).

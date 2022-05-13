@@ -32,7 +32,7 @@ You can select to keep the Resolvable Object as you are converting it to a task 
 For information about setting up preferences for handling Resolvable Objects, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above)&nbsp;</p>
 
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
@@ -83,7 +83,7 @@ For more information about converting issues to tasks and projects, see [Overvie
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="tying-the-resolution-of-an-issue-to-task-project-issue"></a>Tie the resolution of an issue to a project, task or </h2> <!--
+<h2><a name="tying-the-resolution-of-an-issue-to-task-project-issue"></a>Tie the resolution of an issue to a project, task or </h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: created new article for this section; draft when the article is live and see if you need to make a link from this one to the new article) </p>
 <div>
 <p>You can manually tie the resolution of an issue to the resolution of a project, task, or issue without converting the issue. The issue becomes one of the Resolvable Objects of the project, task, or issue you select. When you do this, a change in the status of the project, task, or issue triggers a change in the status of the original issue, so you cannot manually edit the status of the original issue. <br>For more information about how the status of the Resolving Object affects the Resolvable Object, see <a href="#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object" class="MCXref xref">Synchronize the Status of the Resolvable Object with that of the Resolving Object</a>.</p>

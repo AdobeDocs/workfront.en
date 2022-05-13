@@ -67,8 +67,7 @@ Updating the Commit Date is identical for tasks and issues.
    >
    >The option to undo your selection to start your work is not available when you click ```Work on it```.
 
-1. 
-   Click **Updates** in the left panel, then click the **Start a new update** >**Commit Date**
+1. Click **Updates** in the left panel, then click the **Start a new update** >**Commit Date**
 
    Or
 

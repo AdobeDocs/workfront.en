@@ -29,24 +29,22 @@ You must have the following access to perform the steps in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <p>[Insert any access level configurations needed] <!--
+    <td> <p>[Insert any access level configurations needed]
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          Example: Edit access to Documents 
        </MadCap:conditionalText>
-      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
-     --> </td> 
+     </td> 
    </tr>
-  --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed and specify the object] <!--
+    <td> <p>[Insert permissions needed and specify the object]
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          Example: View access or higher on Documents 
        </MadCap:conditionalText>
-      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+      </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -74,20 +72,18 @@ Before you can update a Workfront item using email content from G Suite, you mus
 
    >[!NOTE]
    >
-   >When you are typing the name of a task, ad hoc personal tasks are excluded from the list of name that appears below.   >
-   >
-   ><!--   >
+   >When you are typing the name of a task, ad hoc personal tasks are excluded from the list of name that appears below.
+
+
+   <!--
    ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
    >For information about ad hoc personal tasks, see   >
    ><a href="https://experience.workfront.com/s/article/Creating-Ad-Hoc-Work-Items-in-the-new-Workfront-experience-254064726">Creating Ad Hoc Work Items in the new Workfront experience</a>   >
-   ><!--   >
    ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
    >Creating Ad Hoc Work Items in the new Adobe Workfront experience   >
    ></MadCap:conditionalText>   >
-   >-->.&nbsp;   >
    ></MadCap:conditionalText>   >
-   >-->   >
-   >
+   -->
 
 1. Make any of these optional changes: 
 
@@ -101,12 +97,14 @@ Before you can update a Workfront item using email content from G Suite, you mus
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Include email attachments</td> 
-      <td><p>(Available only if the email contains at least one attachment.) Click this option to save attachments in the email to the Documents tab for the task or issue. </p><p>If you do not want to save an attachment, click the X to the right of its name. </p><p>If the email contains links to documents in Google Drive, the links are saved to the Overview tab of the task or issue you are creating. </p><p>Important: <span style="color: #ff1493;"><span style="color: #000000;">In order for this to work, your</span></span> Workfront administrator<span style="color: #ff1493;"><span style="color: #000000;"> must authorize Google Drive to work with Workfront</span></span><!--
+      <td><p>(Available only if the email contains at least one attachment.) Click this option to save attachments in the email to the Documents tab for the task or issue. </p><p>If you do not want to save an attachment, click the X to the right of its name. </p><p>If the email contains links to documents in Google Drive, the links are saved to the Overview tab of the task or issue you are creating. </p><p>Important: <span style="color: #ff1493;"><span style="color: #000000;">In order for this to work, your</span></span> Workfront administrator<span style="color: #ff1493;"><span style="color: #000000;"> must authorize Google Drive to work with Workfront</span></span></p>
+      <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
           <span style="color: #ff1493;"><span style="color: #000000;">,</span></span> as described in 
           <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>. 
          </MadCap:conditionalText>
-        --></p><p>If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates.</p></td> 
+        -->
+      <p>If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Notify</td> 

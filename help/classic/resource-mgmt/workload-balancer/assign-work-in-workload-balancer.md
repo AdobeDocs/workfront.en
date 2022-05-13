@@ -146,9 +146,8 @@ Consider the following when assigning multiple resources to a work item:
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Moved manual assignment and drag-and-drop to their own articles) </p>
--->
 <h2 data-mc-conditions="QuicksilverOrClassic.Classic">Assign work in the Workload Balancer</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Classic">You can assign work items that have not yet been assigned to a user or reassign items that have been assigned to users in the Workload Balancer.</p>
 <ol>
@@ -185,15 +184,13 @@ Consider the following when assigning multiple resources to a work item:
 <p>To unassign work items from users: </p>
 <ol>
 <li value="1">In the Workload Balancer, go to the <strong>Assigned Work</strong> area and expand a user.</li>
-<li value="2">Do <!--
+<li value="2">Do
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 one of
 </MadCap:conditionalText>
---> the following:
+the following:
 <ul>
-<!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Find the item you want to unassign in a user's area, click it, drag and drop it in the Unassigned area or in another user's area. </p></li>
--->
 <li><p>Click the <strong>More</strong> icon <img src="assets/more-icon-task-list.png"> to the right of the name of a work item, click&nbsp;<strong>Assign this to</strong> , then remove the name of the entities assigned to the work item or enter another name and click&nbsp;<strong>Save</strong>.</p><p><img src="assets/workload-balancer-assign-this-to-link-from-task-350x117.png" style="width: 350;height: 117;"></p></li>
 </ul><p>The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any users or it displays in the user area if it is assigned to that user. </p><note type="tip">
 Unassigned issues do not display in the Unassigned area.

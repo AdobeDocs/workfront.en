@@ -7,7 +7,7 @@ title: "Calculated custom field example: display a Status timestamp in a Custom 
 description: The following calculated field displays the date when the object status is marked as In Progress (INP.) You can use the same information for calculated custom fields for issues, tasks, or projects.
 ---
 
-# Calculated custom field example: display a Status timestamp in a Custom Form
+# Calculated custom field example: display a Status timestamp in a custom form
 
 The following calculated field displays the date when the object status is marked as In Progress (INP.) You can use the same information for calculated custom fields for issues, tasks, or projects.
 
@@ -57,11 +57,14 @@ To add a calculated field that displays a field's edit history to a custom form,
 
 1. Go to a custom form where you want to add the field.
 1. Click **Calculated** to add a calculated custom field to the form.  
-1. Specify a **Label** for the Custom Field, for example: *Status Timestamp Custom Field*.
-1. Click&nbsp;**Done**, then click **Save+Close**.
-1. Re-open the Custom Form, and click the new Status Timestamp Custom Field on the form.
+1. Specify a **Label** for the custom field, such as *Status Timestamp Custom Field*.
+1. Click **Done**, then click **Save+Close**.
+1. Re-open the custom form, then select the new Status Timestamp Custom Field.
 1. In the **Calculation** box, copy and paste the following calculation for your custom field:  
-   <pre>IF(Status='INP',IF(ISBLANK({DE:Status Timestamp Custom Field}),$$NOW,{DE:Status Timestamp Custom Field}),{DE:Status Timestamp Custom Field})</pre>
+   
+   ```
+   IF(Status='INP',IF(ISBLANK({DE:Status Timestamp Custom Field}),$$NOW,{DE:Status Timestamp Custom Field}),{DE:Status Timestamp Custom Field})
+   ```
 
    >[!NOTE]
    >
@@ -70,5 +73,6 @@ To add a calculated field that displays a field's edit history to a custom form,
    >For more information about the keys for Statuses, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 1. Click **Save+Close**.  
+   
    You can now report on the Status Timestamp Custom Field or use it in other calculations, in reports, or in custom fields.
 

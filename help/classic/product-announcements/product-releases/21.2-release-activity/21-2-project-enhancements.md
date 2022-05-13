@@ -21,7 +21,9 @@ As part of the redesign of the New and Edit Task boxes, we have added the abilit
 
 For more information, see [Create recurring tasks](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FTasks%2FCreate_tasks%2Fcreate-recurring-tasks.html).
 
-```<iframe class="vimeo-player_0" src="assets/539887494?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/539887494?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/539887494/5d6eb5bc04)
 
@@ -37,7 +39,9 @@ To allow you to quickly filter the list of projects on the Projects page, there 
 
 For more information on these filters, see [Subtabs replaced by new main areas or filters in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FThe_new_Workfront_Experience%2Fsubtabs-removed.htm).
 
-```<iframe class="vimeo-player_0" src="assets/539899695?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/539899695?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/539899695/71295bba4f)
 
@@ -55,7 +59,9 @@ You also have the option to delete a story or issue directly from your Scrum boa
 
 For more information, see [Manage stories and issues on the Scrum board](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAgile%2FUse_Scrum_in_an_Agile_Team%2FScrum_board%2Fmanage-scrum-board.htm&_LANG=en).
 
-```<iframe class="vimeo-player_0" src="assets/540320334?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/540320334?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/540320334/bfa90eda56)
 
@@ -74,7 +80,9 @@ In addition to an updated look and feel, the following changes are also availabl
 * We have added the Planned Hours field to the Assignments section to make it easier to update the time it might take resources to complete the issue.
 * We have removed the commenting functionality from the Edit Issue screen to eliminate redundancy with the Updates section.
 
-```<iframe class="vimeo-player_0" src="assets/539897635?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/539897635?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/539897635/47d032e7ec)
 
@@ -105,7 +113,9 @@ For a better experience when you fill out a custom form, we have improved the wa
 
 For information about filling out custom forms, see [Edit information on Custom Forms](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_basics%2FWork_with_Custom_Forms%2Fedit-custom-forms.htm).
 
-```<iframe class="vimeo-player_0" src="assets/522396709?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/522396709?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/522396709/91d3105bd5)
 
@@ -121,7 +131,9 @@ You must enable this field in your Layout Template to be able to view it in the 
 
 For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-```<iframe class="vimeo-player_0" src="assets/516275975?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/516275975?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/516275975/f775e74810)
 
@@ -155,7 +167,9 @@ For information about formatting text in a custom field, see [Create or edit a c
 
 For information about displaying information in lists, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-```<iframe class="vimeo-player_0" src="assets/516458707?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/516458707?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/516458707/519f4f9295)
 
@@ -180,7 +194,9 @@ In addition to an updated look and feel, the following changes are also availabl
 
 For information about the new Edit Task box, see [Edit tasks](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FTasks%2FManage_tasks%2Fedit-tasks.html).
 
-```<iframe class="vimeo-player_0" src="assets/532016466?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/532016466?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/532016466/43c460aa79)
 
@@ -204,7 +220,9 @@ In addition to an updated look and feel, the following changes are also availabl
 
 For information about the new New Task box, see [Create tasks in a project](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FManage_work%2FTasks%2FCreate_tasks%2Fcreate-tasks-in-project.html).
 
-```<iframe class="vimeo-player_0" src="assets/532017842?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/532017842?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/532017842/ce691dffdd)
 
@@ -218,7 +236,9 @@ You can now deactivate teams you no longer use. When you deactivate a team, it n
 
 For more information, see [Deactivate a team](../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md).
 
-```<iframe class="vimeo-player_0" src="assets/531482223?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/531482223?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/531482223/e4dacfe1b6)
 
@@ -234,6 +254,8 @@ Prior to this change, disabling the setting prevented users just from deleting t
 
 For more information, see [Configure system-wide task and issue preferences](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FSet_up_Workfront%2FConfigure_system_defaults%2Fset-task-issue-preferences.html).
 
-```<iframe class="vimeo-player_0" src="assets/532018749?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/532018749?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/532018749/1926533b87) 

@@ -47,7 +47,7 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 * [Share](#share) 
 * [Other](#other)
 
-### **Approvals** {#approvals}
+### Approvals
 
 * ![](assets/prjneedsapprvl.png)
 
@@ -90,8 +90,7 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 
   Document approval request cancelled - [sender's name]
 
-### **Requests** 
-{#requests}
+### Requests
 
 * ![](assets/document.png)
 
@@ -107,7 +106,7 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 
   The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
 
-### **Assignments** {#assignments}
+### Assignments
 
 * ![](assets/icon-taskassngdtoyou.png) Task assigned to you - [assigner's name]
 * ![](assets/issue.png) Issue assigned to you - [assigner's name]
@@ -117,8 +116,7 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
    * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
    * If you assign work to yourself or a team you belong to, you will not receive a notification.
 
-### **Comments** 
-{#comments}
+### Comments
 
 * ![](assets/user.png) [Object name] comment - [commenter's name]
 
@@ -138,23 +136,20 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 * ![](assets/user.png) Comment - Commenter name
 * ![](assets/timesheet.png) Timesheet comment - Commenter name
 
-### **Updates** 
-{#updates}
+### Updates
 
 * ![](assets/user.png) Tagged you in a comment - [tagger's name]
 * ![](assets/user.png) Tagged your team in a comment - [tagger's name]
 * ![](assets/user.png) Tagged your team in a comment - [tagger's name]
 
-### **Date changes** 
-{#date-changes}
+### Date changes
 
 * ![](assets/issue.png) Issue due date changed - [changer's name]
 * ![](assets/icon-taskassngdtoyou.png) Task due date changed - [changer's name]
 * ![](assets/issue.png) Issue commit date changed - [changer's name]
 * ![](assets/icon-taskassngdtoyou.png) Task commit date changed - [changer's name]
 
-### **Share** 
-{#share}
+### Share
 
 * ![](assets/document.png)
 
@@ -164,9 +159,7 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
   Document shared with [team name] - [sharer's name]
 * ![](assets/proof.png) Proof shared with you - [sharer's name]
 
-### **Other** 
-{#other}
+### Other
 
 * ![](assets/error.png) An error needs your attention
 * ![](assets/announcement.png) Announcement - [Workfront administrator's name]
-

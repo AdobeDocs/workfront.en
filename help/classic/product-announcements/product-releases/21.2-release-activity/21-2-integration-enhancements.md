@@ -17,7 +17,9 @@ We're excited to announce the launch of our new plugin: Workfront for Adobe XD. 
 
 To learn more about what you can do with Workfront for Adobe XD, see [Adobe Workfront for XD](../../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md).
 
-```<iframe class="vimeo-player_0" src="assets/542233908?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/542233908?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/542233908/c5a5ab87a7)
 
@@ -37,6 +39,8 @@ When linking to, uploading, or creating files on Google Drive from the Documents
 
 Previously, files were accessed through a file dialog based in Workfront.
 
-```<iframe class="vimeo-player_0" src="assets/521967892?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/521967892?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/521967892/ab11b067b4) 

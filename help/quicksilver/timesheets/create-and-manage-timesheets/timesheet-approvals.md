@@ -55,9 +55,7 @@ To approve a timesheet:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 1. Click **Timesheets**.
-1. 
-
-   Select the **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
+1. Select the **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
 
    Or
 

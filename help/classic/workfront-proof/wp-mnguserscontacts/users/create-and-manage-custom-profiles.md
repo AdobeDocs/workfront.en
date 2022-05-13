@@ -162,13 +162,16 @@ You can grant the following permissions:
 
 Create copies of an existing profile to set up multiple profiles with similar permissions.&nbsp;
 
-1. Navigate to **Account Settings**, then&nbsp;click the **Profiles** tab.
+1. Navigate to **Account Settings**, then click the **Profiles** tab.
 
-1. ``` Click the name of the profile and click the&nbsp;**Copy profile**button.  
+1. Click the name of the profile and click the **Copy profile** button.
+
    ![Screenshot_2018-04-06_12-33-40.png](assets/screenshot-2018-04-06-12-33-40.png)  
+
    The copied profile now appears on the profiles list. It has the original profiles name with the word "Copy" before it.  
+   
    ![Screenshot_2018-04-06_12-34-41.png](assets/screenshot-2018-04-06-12-34-41.png)  
-   ``` 
+ 
 1. (Optional) To enable the copied profile, see [Enabling and Disabling a Profile](#enabling-and-disabling-a-profile).
 1. (Optional) To make edits to the copied profile, see [Editing a Profile](#editing-a-profile).
 
@@ -184,7 +187,7 @@ If you edit a profile, updates are applied to all users who this profile is curr
 
 >[!NOTE]
 >
->&nbsp;Default Workfront Proof profiles are visible in the list of profiles but cannot be modified.
+>Default Workfront Proof profiles are visible in the list of profiles but cannot be modified.
 
 ## Deleting a Profile
 

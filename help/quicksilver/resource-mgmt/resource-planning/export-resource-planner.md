@@ -60,10 +60,10 @@ You must have the following:
    * View by Role
 
 1. Click **Export**. 
-   The Export Options dialog box displays. ```  
-   ![](assets/rp-export-options-box-350x421.png)
 
-   ```  
+   The Export Options dialog box displays.
+
+   ![](assets/rp-export-options-box-350x421.png)
 
 1. Specify the following information:  
    **Start Date**: The start date of your export. The exported file contains allocation and availability information starting with the first day of the week which contains the day you specify here.   

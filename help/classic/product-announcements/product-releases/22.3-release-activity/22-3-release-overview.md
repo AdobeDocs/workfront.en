@@ -28,11 +28,7 @@ the week of January 17, 2022
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 in October 2021
 </MadCap:conditionalText>
--->
-
 , this page will be updated with all functionality included with 22.3.
-
-<!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements were made available in the Production environment the week of April 4, 2022. </p>
 -->
 
@@ -41,7 +37,7 @@ in October 2021
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later this year
 </MadCap:conditionalText>
---> the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
+the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
 -->
 
 ## Adobe Workfront enhancements
@@ -287,16 +283,15 @@ For information about the maintenance updates made during the 22.3 release, see 
 The 22.3 release webinar is not yet scheduled. This page will be updated when more information is available.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Workfront 22.2 Release Webinar will be presented on March 24, 2022 at 8:00 a.m. MST. You can register for the event on the <a href="https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne" target="_blank">Events page on Workfront One</a>. <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Workfront 22.2 Release Webinar will be presented on March 24, 2022 at 8:00 a.m. MST. You can register for the event on the <a href="https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne" target="_blank">Events page on Workfront One</a>.
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 This area will be updated as more information becomes available.
 </MadCap:conditionalText>
---><!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 was presented on January 12, 2022. You can view the webinar recording on the
 <a href="https://one.workfront.com/s/event">Events page on Workfront One</a>.
 </MadCap:conditionalText>
---></p>
+</p>
 -->
 
 <!--

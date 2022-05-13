@@ -156,8 +156,7 @@ To update the integrated calendar events in your Home Calendar:
    >
    >Some filter options are based on objects (Tasks, Requests, Issues, Approvals, Proofs, and Personal), and others are based on state (Working On, Ready to Start, Not Ready, and Completed). If no state is selected, the Home Calendar displays all selected objects of any state. Similarly, if no object is selected, it displays all objects of any selected state.
 
-1. 
-   Select from the following filter options to specify the types of items you want to display:: 
+1. Select from the following filter options to specify the types of items you want to display:: 
 
    <table cellspacing="0"> 
     <col> 

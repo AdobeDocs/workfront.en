@@ -8,7 +8,7 @@ title: Errors in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 ---
 
-#  Errors in Adobe Workfront Fusion
+# Errors in Adobe Workfront Fusion
 
 >[!IMPORTANT]
 >

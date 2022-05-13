@@ -31,7 +31,9 @@ To learn how to add filters, see [Apply filters in Enhanced analytics](../enhanc
 
 View the following video to learn more about the KPIs in the Enhanced analytics area:
 
-```<iframe class="vimeo-player_0" src="assets/441154701?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/441154701?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/441154701/35a21d794f)
 

@@ -88,19 +88,14 @@ Consider the following when delegating approvals:
 
 To delegate approvals to another user:
 
-1. 
-   Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
-   >   
-   >   
-   >   * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >   * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-   >   
-   >
+   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
    Or
 
@@ -126,19 +121,14 @@ To delegate approvals to another user:
 
 ### Update or stop an approval delegation {#update-or-stop-an-approval-delegation}
 
-1. 
-   Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
-   >   
-   >   
-   >   * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >   * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-   >   
-   >
+   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. Click the **Filter** drop-down menu, then click **Approvals**.
 
@@ -161,19 +151,14 @@ You can view only the following types of approval delegations in the Work List:
 
 To view delegated approvals:
 
-1. 
-   Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
    >Your Workfront administrator might make the following changes to the Home icon in your environment:
    >
-   >   
-   >   
-   >   * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >   * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-   >   
-   >
+   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. Click the&nbsp;**Filter**&nbsp;drop-down menu, then click&nbsp;**Approvals**.  
    All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.

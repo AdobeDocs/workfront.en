@@ -132,7 +132,6 @@ For example, we want to build a task report with a direct link to the **Hours** 
 1. Click **Add Rule**, then **Done**.
 1. Select the newly added column, then click **Switch to Text Mode**.
 1. Click anywhere inside the text editor to edit the text mode, then add the following line of code to the text mode interface for the column.
-1. 
 
    ```
    link.url=customDataLabelsAsString(fieldname)
@@ -142,7 +141,7 @@ For example, we want to build a task report with a direct link to the **Hours** 
 
    For example:
 
-   <pre>link.url=customDataLabelsAsString(<strong>Task Hours Tab</strong>)</pre>
+   `link.url=customDataLabelsAsString(Task Hours Tab)`
 
 1. Click **Save + Close**.
 

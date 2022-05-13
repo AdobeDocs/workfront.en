@@ -3,7 +3,7 @@ filename: filter-search-in-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Filter and search in a board
-description: You can filter a board to only display cards assigned to certain people. You can also choose to display archived or tagged cards in the filter. When filters are applied on the board, an indicator is displayed on the filter icon .
+description: You can filter a board to only display only certain cards.
 ---
 
 # Filter and search in a board

@@ -80,9 +80,7 @@ To view the status of a timesheet:
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. 
-
-   (Optional) Do one of the following to update the filter in the list of timesheets:
+1. (Optional) Do one of the following to update the filter in the list of timesheets:
 
    * Select **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
 

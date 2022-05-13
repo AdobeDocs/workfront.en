@@ -59,6 +59,8 @@ You must have the following to perform the steps in this article:
 
 ## Add a calculated field to a custom form {#add-a-calculated-field-to-a-custom-form}
 
+You can use both built-in Workfront fields and custom fields that you already created.
+
 >[!IMPORTANT]
 >
 >Before you create a new calculated custom field, identify the existing fields that you want to include so that you are sure that the data necessary for the calculation is present in Workfront.
@@ -250,13 +252,6 @@ When you reference another custom field in a calculated custom field, you need t
   >```
   >{DE:Executive sponsor}
   >```
-
-## Considerations for building calculated custom fields
-
-Consider the following when building a calculated custom field in a custom form:
-
-* You can use both built-in Workfront fields and custom fields that you already created.
-* You can refer to objects that are related to other objects in a calculation. For information about how objects connect to one another, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). 
 
 ## Calculated custom fields in multi-object custom forms {#calculated-custom-fields-in-multi-object-custom-forms}
 

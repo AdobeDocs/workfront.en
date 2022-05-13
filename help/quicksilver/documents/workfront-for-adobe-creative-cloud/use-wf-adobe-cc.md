@@ -141,8 +141,6 @@ You can upload your files to a project, task, or issue without leaving your Adob
 
    You can search for this by typing the name in the **Search** box and selecting **Project**, **Task**, or **Issue** from the drop-down menu to the right of the **Search** box. If the name of the work item doesn't appear in the list, press **Enter** to search all Workfront items that you have access to view.
 
-1. 
-
 1. In the **Click to select format** drop-down menu, click the format in which you want to save the file in Workfront.
 
    For a list of supported formats for each supported application, see [Supported exported file formats](#supported-exported-file-formats) in this article.

@@ -57,8 +57,7 @@ To move a task displayed in a task list:
 1. Go to the project that contains the task or tasks that you want to move.
 1. On the**Tasks** tab, click the **Task List** sub-tab. 
 
-1. 
-   Ensure that the **Autosave** toggle is enabled, then select the task or tasks that you want to move.
+1. Ensure that the **Autosave** toggle is enabled, then select the task or tasks that you want to move.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 

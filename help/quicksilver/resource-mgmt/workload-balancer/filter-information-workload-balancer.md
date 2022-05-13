@@ -158,7 +158,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
       >[!IMPORTANT]
       >
-      >When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see ``` [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)``` ```.```
+      >When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
    1. (Conditional) If you clicked **Search All Fields**, type the name of a field in the **Search** field and select it when it displays in the list.
 
@@ -168,12 +168,8 @@ You can create a filter from scratch or edit one of the predefined filters. For 
       >
       >You can select a field from the following sections:
       >
-      >   
-      >   
-      >   * **Suggested fields**: the fields most commonly used.
-      >   * **Recent selections**: the fields you have recently filtered for. 
-      >   
-      >
+      >* **Suggested fields**: the fields most commonly used.
+      >* **Recent selections**: the fields you have recently filtered for. 
 
    1. Select a modifier from the second drop-down menu.
    1. Select or type a value for the field you are filtering for. 
@@ -315,7 +311,7 @@ Consider the following before deleting a filter:
    ![](assets/new-filters-delete-option-highlighted-wb-350x116.png)
 
 1. (Optional)&nbsp;Click&nbsp;**Cancel** to avoid the deletion and return to the list of filters. 
-1. ```Click **Delete** to confirm the deletion.```
+1. Click **Delete** to confirm the deletion.
 
    The filter is deleted for you and all users who had permissions to it.
 
@@ -325,7 +321,7 @@ You can share a filter that you created or that was shared with you by other use
 
 Consider the following when sharing filters in the Workload Balancer:
 
-* ```You can share filters with active users, teams, roles, and companies or you can make them visible for everyone in your Workfront instance.``` 
+* You can share filters with active users, teams, roles, and companies or you can make them visible for everyone in your Workfront instance. 
 * Filters you share in the Resourcing area are not visible in the Workload Balancer of a project or a team. 
 * Workload Balancer filters that you share with others are not visible in other areas of Workfront.
 

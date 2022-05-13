@@ -21,7 +21,11 @@ For example, users creating a new proof may want to include an additional sectio
 
 >[!NOTE]
 >
->```<li>Capturing this type of information on the New proof page via Custom fields will also let you reduce the length of your proof name, as these details will not&nbsp;have to be included in the name. For information about the New proof page, see <em>"Creating Proofs in Workfront Proof."</em></li>``` ```<li>Once a Custom field has been used on a proof, user, or contact, you will not be able to delete it or edit the field type. However, you will be able to hide it (via the Custom field Settings page) so that it is not used for new items.<em>&nbsp;</em></li>``` ```<li><em style="font-style: normal;">If you make a Custom field Section hidden, all the fields within the section will also be hidden even if the individual fields are set as visible.</em> </li>```
+>* Capturing this type of information on the New proof page via Custom fields will also let you reduce the length of your proof name, as these details will not have to be included in the name. For information about the New proof page, see "Creating Proofs in Workfront Proof."
+>
+>Once a Custom field has been used on a proof, user, or contact, you will not be able to delete it or edit the field type. However, you will be able to hide it (via the Custom field Settings page) so that it is not used for new items.
+>
+>If you make a Custom field Section hidden, all the fields within the section will also be hidden even if the individual fields are set as visible.
 
 This article explains how to do the following:
 

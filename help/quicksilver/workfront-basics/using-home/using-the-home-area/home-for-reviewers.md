@@ -48,8 +48,7 @@ You must have the following access to perform the steps in this article:
 
 ## Approve work
 
-1. 
-   (Conditional)&nbsp;If your Workfront administrator added the Home area to your layout template, click the **Workfront avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront
+1. (Conditional)&nbsp;If your Workfront administrator added the Home area to your layout template, click the **Workfront avatar** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront
 
    Or
 

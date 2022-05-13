@@ -18,7 +18,9 @@ This is available only in the new Adobe Workfront experience for customers who h
 
 For more information, see [Budget resources in the Business Case using the Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-```<iframe class="vimeo-player_0" src="assets/558562079?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/558562079?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/558562079/fd23697805)
 
@@ -37,6 +39,8 @@ For information, see the following articles:
 * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
 * [Customize pinned pages using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 
-```<iframe class="vimeo-player_0" src="assets/559082874?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/559082874?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/559082874/197496a122) 

@@ -68,8 +68,7 @@ You can use the Task List Gantt Chart to level your resources.
 
    All changes are saved automatically when the **Autosave** option is enabled. It is enabled by default. 
 
-1. 
-   (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.
+1. (Optional) Click the **Plan mode** icon and select **Manual save Standard** or **Timeline Planning** to save your changes manually.
 
    >[!TIP]
    >
@@ -96,20 +95,15 @@ You can use the Task List Gantt Chart to level your resources.
    >
    >You can use the following keyboard shortcuts to undo or redo changes on the Gantt chart:
    >
-   >   
-   >   
-   >   * Mac: Use Command + Z to undo and Command + Shift + Z to redo.
-   >   * Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
-   >   
-   >
+   >* Mac: Use Command + Z to undo and Command + Shift + Z to redo.
+   >* Windows: Use Ctrl + Z to undo and Ctrl + Y to redo.
 
 1. Click **Save** in the upper-right corner of the Gantt chart.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="leveling-delay"></a>Overview of Leveling Delay</h2> <!--
+<h2><a name="leveling-delay"></a>Overview of Leveling Delay</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article: /Content/Manage work/Tasks/Task information/task-leveling-delay.htm) </p>
--->
 <p>At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic&nbsp;schedule. </p>
 <p>As the project manager, or the task assignee, you can also add a Leveling Delay on individual tasks to account for any resource or scheduling conflicts. In other words, a task might be scheduled with a delay to ensure that when Adobe Workfront levels&nbsp;the tasks a more realistic schedule overcomes resource conflicts.</p>
 <p>To manually add a Leveling Delay to a task:</p>

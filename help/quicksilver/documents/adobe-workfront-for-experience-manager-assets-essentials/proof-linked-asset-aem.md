@@ -57,7 +57,6 @@ To create a proof:
    >If you have **Automatically generate proofs when uploading documents** enabled in your user profile, the system automatically creates a simple proof.
 
 1. Choose one of the following:  
-1. 
 
    <table cellspacing="0"> 
     <col> 

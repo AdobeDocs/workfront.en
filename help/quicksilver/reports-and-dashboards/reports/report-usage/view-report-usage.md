@@ -91,11 +91,8 @@ You must have the following access to perform the steps in this article:
 ## Filter a report list by usage information {#filter-a-report-list-by-usage-information}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
-
-1. 
 1. On the list of reports, click the **Filter** drop-down menu.
 1. Click **New Filter**, then click **Add a Filter Rule**.
-
 1. Start typing any of the following fields, and select them when they appear in the list under the **Report** object to add them as a new filter rule:
 
    * **Views**: Displays the number of views within any of the following time frames:

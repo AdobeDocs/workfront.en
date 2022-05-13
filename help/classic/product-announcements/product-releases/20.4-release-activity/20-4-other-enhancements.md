@@ -16,7 +16,9 @@ In Workfront Classic, the option Switch to the new experience appears in the men
 
 For more information, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 
-```<iframe class="vimeo-player_0" src="assets/466353836?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/466353836?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/466353836/c1f3faa632)
 
@@ -38,7 +40,9 @@ To improve the readability and overall experience, the following email templates
 
 To enable email for testing purposes in your Preview environment, see the Managing emails in preview section in [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-```<iframe class="vimeo-player_0" src="assets/468333260?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/468333260?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/468333260/3d58c57706)
 
@@ -59,7 +63,9 @@ Also, notice our modern styling now improving the experience of configuring even
 
 For information about configuring email notifications, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-```<iframe class="vimeo-player_0" src="assets/466660243?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/466660243?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/466660243/af773312e4)
 

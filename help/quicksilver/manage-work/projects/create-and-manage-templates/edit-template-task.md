@@ -62,10 +62,10 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. Click the name of a template task in the list to open the template task.
 1. (Conditional) To edit limited information about the template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
 1. (Optional)&nbsp;Click the **Collapse all** icon ![](assets/collapse-all-icon.png) to collapse all areas. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), ```then select from any of the areas below, or click **Edit all** to edit information in all areas```:
+1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
-   * Custom&nbsp;Forms
+   * Custom Forms
 
      Names of customs forms display only if there are custom forms attached to the object.
    
@@ -285,17 +285,15 @@ You can edit a template task using the Edit Template Task or Template Task Detai
       <td role="rowheader"><strong>Approval Process</strong> </td> 
       <td> <p>Select the approval process you want to associate with the template task. Your Workfront administrator must define system-level task Approval Processes before you can associate them with template tasks. <span>A user with administrative access to Approval processes can also create group-specific approval processes.</span> For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
        <ul> 
-        <li>Only active approval processes display in the list. </li> 
-        <li> <p>System-wide and group-specific approval processes display in the list. Approval processes associated with a group other than that of the template do not display in the list.</p> <p>Important: If the group associated with the template changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-        <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>
-         --> </li> 
-        <li> <p>When bulk-editing template tasks, the following scenarios exist:</p> 
-         <ul> 
-          <li> <p>When you select template tasks from the same template group, both system-level and group-level approval processes display in this field.</p> </li> 
-          <li> <p>When you select template tasks from different template groups, only system-level approval processes display in this field.</p> </li> 
-          <li> <p>When any of the template tasks has a single-use approval process attached, it is replaced by the system-level <span>or group-level approval process</span> you select. </p> </li> 
-         </ul> </li> 
+       <li>Only active approval processes display in the list. </li> 
+       <li> <p>System-wide and group-specific approval processes display in the list. Approval processes associated with a group other than that of the template do not display in the list.</p> <p>Important: If the group associated with the template changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
+       <li> <p>If you added a single-use approval process, it displays as "&lt;Custom&gt;" in this field. For information, see <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>. </p> <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>--> </li> 
+       <li> <p>When bulk-editing template tasks, the following scenarios exist:</p> 
+       <ul> 
+       <li> <p>When you select template tasks from the same template group, both system-level and group-level approval processes display in this field.</p> </li> 
+       <li> <p>When you select template tasks from different template groups, only system-level approval processes display in this field.</p> </li> 
+       <li> <p>When any of the template tasks has a single-use approval process attached, it is replaced by the system-level <span>or group-level approval process</span> you select. </p> </li> 
+       </ul> </li> 
        </ul> </td> 
      </tr> 
      <tr> 

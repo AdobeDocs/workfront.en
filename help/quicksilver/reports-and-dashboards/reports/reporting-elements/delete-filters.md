@@ -84,6 +84,6 @@ Deleting filters is possible only when the following conditions are met:
    ![](assets/new-filters-delete-option-highlighted-wb-350x116.png)
 
 1. (Optional)&nbsp;Click&nbsp;**Cancel** to avoid the deletion and return to the list of filters. 
-1. ```Click **Delete** to confirm the deletion.``` 
+1. Click **Delete** to confirm the deletion. 
 1. The filter is deleted for you and all users who had permissions to it.
 

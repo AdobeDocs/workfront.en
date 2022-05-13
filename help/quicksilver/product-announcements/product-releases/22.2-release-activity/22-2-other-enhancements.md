@@ -24,7 +24,9 @@ We have made several enhancements to the Adobe Workfront top navigation bar.
 
 For more information, see [Top navigation bar overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
-```<iframe class="vimeo-player_0" src="assets/686846367?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686846367?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686846367/1a3a08cc4e)
 
@@ -39,6 +41,8 @@ Some of the highlights of this redesign are:
 
 For more information about creating timesheets using the new lists, see [Create a single-use timesheet](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
-```<iframe class="vimeo-player_0" src="assets/686854773?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
+<!--WRITER
+<iframe class="vimeo-player_0" src="assets/686854773?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+-->
 
 [View this video in full-screen mode.](https://vimeo.com/686854773/ad09d5d435) 
