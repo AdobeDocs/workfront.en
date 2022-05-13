@@ -15,7 +15,7 @@ description: You can rename groupings to something more familiar to your users.
 
 You can rename groupings to something more familiar to your users.
 
-For example, when you apply the standard Portfolio Name grouping to a list of projects, the name of the grouping appears as *Portfolio: Name: <name of portfolio>*.
+For example, when you apply the standard Portfolio Name grouping to a list of projects, the name of the grouping appears as *Portfolio: Name: `<name of portfolio>`*.
 
 ![](assets/grouping-unedited-name-350x167.png)
 

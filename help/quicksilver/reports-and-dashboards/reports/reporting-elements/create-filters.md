@@ -92,11 +92,13 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
      >
      >When you connect a group of AND&nbsp;statements by multiple OR statements, you must repeat the fields that are not changing between the OR statements for each group of statements. 
      >
-     >
      >![](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-350x163.png)
      >
      >When you build a filter for tasks that contain the word "marketing" and are in projects with a status of Current or Planning, you must have the following filter rules:
-     ><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project: Status Equals Current</pre><pre>OR</pre><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project:&nbsp;Status Equal Planning</pre>Although Task: Name Contains "marketing" does not change between the two AND filter groups, it must be repeated in the second group.
+     >
+     >`Task: Name Contains Marketing` AND `Project: Status Equals Current` OR `Task: Name Contains Marketing` AND `Project:&nbsp;Status Equal Planning` 
+     >
+     >Although Task: Name Contains "marketing" does not change between the two AND filter groups, it must be repeated in the second group.
 
    * Delete an existing filter rule by clicking the 'X' icon.
 

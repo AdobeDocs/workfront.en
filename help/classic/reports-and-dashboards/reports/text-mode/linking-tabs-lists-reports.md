@@ -123,7 +123,7 @@ For example, we want to build a task report with a direct link to the **Hours** 
    For example, the field we created is named "Task Hours Tab."
 
 1. Click **Advanced Options**, then **Add a Rule for this Column**.
-1. Add the following rule for the column: if the **Custom Field** is not blank, **Show Text** <my desired link name>.
+1. Add the following rule for the column: if the **Custom Field** is not blank, **Show Text** `<my desired link name>`.
 
    For example, show "Task Hours Tab".
 

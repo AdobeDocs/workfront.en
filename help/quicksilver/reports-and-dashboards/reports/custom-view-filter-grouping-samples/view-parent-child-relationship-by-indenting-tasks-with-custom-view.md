@@ -22,12 +22,9 @@ You can maintain the distinction of parent - child relationships in an exported 
 1. Select&nbsp;**Switch to Text Mode** in the top-right corner.
 1. Click anywhere in the textbox to edit text, and remove all existing text.
 1. Paste the following text:  
-   ```
 
    ```
    displayname=<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))<br>valueformat=HTML
-   ```
-
    ```
 
 1. Click **Save**.
