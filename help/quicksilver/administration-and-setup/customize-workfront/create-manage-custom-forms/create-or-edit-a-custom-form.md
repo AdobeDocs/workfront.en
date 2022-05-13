@@ -98,11 +98,13 @@ You can edit a custom form any time after it has been created.
 1. Select the custom form you want to edit, then click **Edit**.
 1. (Optional) To change the title and description of the custom form, click the **Form Settings** tab, then type a **Form Title** and **Description**.
 
-1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the plus sign after **Object Types**, then select the type you want in the menu that displays.
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the plus sign + after **Object Types**, then select the type you want in the menu that displays.
 
-   You can repeat this to add as many object types as you want.You can also click the X on an object type to delete it from the form.
+   ![](assets/add-object-type-existing-form.png)
 
-   For information about deleting object types from a custom form you have already saved, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   You can repeat this to add as many object types as you want. 
+   
+   You can also click the X on an object type to delete it from the form. This should be done with caution when you want to delete an object type from a custom form you have already saved. For more information, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 1. Click **Done**.
 
