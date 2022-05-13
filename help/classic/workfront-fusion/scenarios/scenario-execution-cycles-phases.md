@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario execution, cycles, and phases in Adobe Workfront Fusion
-description: Adobe Workfront Fusion is a transactional system, similar to relational databases. Each scenario execution starts with the initialization phase, continues with at least one cycle composed of the operation and commit/rollback phases, and ends with the finalization phase - EDIT ME.
+description: This article describes events that occur while an Adobe Workfront Fusion scenario is running, such as initialization, operations, commits, and rollbacks.
 ---
 
 # Scenario execution, cycles, and phases in Adobe Workfront Fusion
@@ -14,7 +14,7 @@ description: Adobe Workfront Fusion is a transactional system, similar to relati
 >You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 Adobe Workfront Fusion is a transactional system, similar to relational databases. Each scenario execution starts with the initialization phase, continues with at least one cycle composed of the operation and commit/rollback phases, and ends with the finalization phase:
-```<blockquote>  <p>initialization</p>  <p>cycle #1<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>cycle #2<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>...</p>  <p>cycle #N<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>finalization</p> </blockquote>``` 
+<p>initialization</p>  <p>cycle #1<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>cycle #2<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>...</p>  <p>cycle #N<p>operation (reading or writing)</p><p>commit or rollback</p></p>  <p>finalization</p>
 
 ## Access requirements
 
