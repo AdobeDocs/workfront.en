@@ -64,24 +64,21 @@ You must have the following before you can start:
 
   You can edit the following information for a past goal:&nbsp;
 
-   * Name
-   * Time period
-   * Status
+  * Name
+  * Time period
+  * Status
 
-     >[!TIP]
-     >
-     >If the goal is Closed, reopening it recalculates the Progress percent complete
+    >[!TIP]
+    >
+    >If the goal is Closed, reopening it recalculates the Progress percent complete
 
-   * Owner
-   * Description
-   * Results and activities
+  * Description
+  * Results and activities
 
 ## Edit goals
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the ```**More icon** ![](assets/more-icon.png)
-
-   ``` , then click **Edit**.
+1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
 
    ![](assets/edit-goal-highlighted.png)
 
@@ -118,4 +115,3 @@ You must have the following before you can start:
 1. Click the **Owner** field and select a new owner for the goal, if you want to indicate someone else as the owner of the goal. 
 1. (Conditional)&nbsp;Start typing the name of a user, team, group, or the name of your organization in the **Owner** field, then select it when it displays in the list. You can have only one owner for a goal. 
 1. Update the **Description** of the goal, then click **Save**.
-

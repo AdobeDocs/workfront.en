@@ -23,7 +23,7 @@ As a Workfront Library administrator, you can set up your organization's taxonom
    * EXIF
    * XMP
 
-### Custom
+## Custom
 
 Use custom taxonomy to gather information tailored to your organization, such as campaign, department, or location.
 
@@ -35,7 +35,8 @@ Use custom taxonomy to gather information tailored to your organization, such as
    |---|---|
    | Multi-select |Lists multiple options in a picklist from which users can choose several options |
    | Single-select |Lists multiple options in a picklist from which users can choose one option |
-   | Text field |Allows users to freely enter
+   | Text field |Allows users to freely enter text |
+
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,15 +44,13 @@ Use custom taxonomy to gather information tailored to your organization, such as
    </MadCap:conditionalText>
    -->
 
-   text |
-
 1. (Conditional) If you are configuring a multi- or single-select custom field, enter the **Value** and press **Enter**. You can list up to 100 different values in the picklist with names. These names can be up to 50 characters.
 1. (Optional) To require users to complete this field when entering metadata, enable&nbsp;**Required Field**.
 1. Click **Save**.
 
    The custom field is added to the taxonomy.
 
-### Attribute
+## Attribute
 
 The metadata for attribute fields is derived from the device or application used to create the content.
 

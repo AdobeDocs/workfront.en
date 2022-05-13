@@ -64,7 +64,7 @@ You can deactivate a goal that is no longer relevant and that you might want to 
 * [Considerations when deactivating goals](#considerations-when-deactivating-goals) 
 * [Deactivate goals](#deactivate-goals)
 
-### Considerations when deactivating goals {#considerations-when-deactivating-goals}
+### Considerations when deactivating goals
 
 Remember the following when deactivating goals:
 
@@ -84,7 +84,7 @@ Remember the following when deactivating goals:
 * You can edit information about the goal and its alignment. 
 * You can reactivate a previously deactivated goal.
 
-### Deactivate goals {#deactivate-goals}
+### Deactivate goals
 
 1. Go to the goal that you want to deactivate.
 
@@ -96,7 +96,7 @@ Remember the following when deactivating goals:
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the ```**More icon** ![](assets/more-icon.png) ,``` then click **Deactivate**.
+1. Click the **More icon** ![](assets/more-icon.png), then click **Deactivate**.
 
    ![](assets/deactivate-goal-highlighted.png)
 
@@ -126,11 +126,10 @@ You can delete goals that are no longer or might never be relevant.
 
    The Goal Details panel opens on the right. 
 
-1. Click the ```**More icon** ![](assets/more-icon.png),``` then click **Delete**.
+1. Click the **More icon** ![](assets/more-icon.png), then click **Delete**.
 
    ![](assets/delete-goal-highlighted.png)
 
 1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
-

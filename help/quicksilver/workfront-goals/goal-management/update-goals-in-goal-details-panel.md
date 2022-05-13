@@ -82,9 +82,7 @@ You can access an individual goal which opens the Goal Details panel of the goal
 
    ![](assets/goal-details-summary-tab-350x294.png)
 
-1. On the Summary tab, click ```the **More icon** ![](assets/more-icon.png)
-
-   ```, then click&nbsp;any of the following options:
+1. On the Summary tab, click the **More icon** ![](assets/more-icon.png), then click&nbsp;any of the following options:
 
    1. **Edit**. For information about editing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
    1. **Copy**. For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).

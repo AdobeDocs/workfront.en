@@ -94,9 +94,7 @@ You must have the following before you can start:
 
 1. (Optional and recommended) Click the **Updates** tab and add an update in the **Comment here** field about the reason you are closing the goal, then click **Post**. 
 
-1. Click the ```**More icon** ![](assets/more-icon.png)
-
-   ``` to the right of the goal name, then click **Close** > **Close Goal**.
+1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Close** > **Close Goal**.
 
    This closes the goal and saves the current progress on the goal and its results and activities.
 
@@ -116,7 +114,7 @@ You can reopen closed goals if you decided that they have become relevant again 
 
 >[!TIP]
 >
->```You can reopen closed goals from a past period.```
+>You can reopen closed goals from a past period.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of Workfront.
 
@@ -132,9 +130,7 @@ You can reopen closed goals if you decided that they have become relevant again 
 
    This opens the Goal Details panel. 
 
-1. Click the ```**More icon** ![](assets/more-icon.png)
-
-   ``` to the right of the goal name, then click **Reopen**>**Reopen**.
+1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 
    This reopens the goal in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
