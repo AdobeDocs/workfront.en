@@ -4,8 +4,12 @@ product: adobe
 archtype: end-user
 user-guide: null
 ---
-# Table of Contents {#table-of-contents}
+
+# Workfront Classic {#classic}
+
 * [Product announcements](product-announcements/product-announcements.md)
+
+<!--
   * [Product releases](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [22.3 Release overview](product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md)
@@ -2366,3 +2370,4 @@ user-guide: null
     * [Overview](proofhq-api/general/overview.md)
     * [Code Samples](proofhq-api/general/code-samples.md)
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
+-->
