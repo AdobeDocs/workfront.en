@@ -188,46 +188,50 @@ You can use both built-in Workfront fields and custom fields that you already cr
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
   ## Syntax required in calculated custom fields
+  
   Each field must use the syntax explained below, with curly brackets around each field name. When you start typing the name of a field, the system makes suggestions and you can select one  to insert it into your calculation. If you enter data in a calculation incorrectly, a warning messages alerts you. You cannot save the form unless you edit your calculation to contain valid fields and a valid calculated expression.
 
   >[!NOTE]
 >
 >Currently, the system makes suggestions only when you starting typing the name of a field you want to reference  on an object that the custom form will be attached to, not on the object's parent.
 
-### Surround field names with curly brackets  
+### Surround field names with curly brackets
+
 * If you want the calculation to reference a built-in field, the name of the field must be surrounded by curly brackets.
 
-      >[!INFO]
-      >
-      >**Example:** `{actualRevenue}`
+  >[!INFO]
+  >
+  >**Example:** `{actualRevenue}`
 
 * If you want the calculation to reference a custom field, the name of the field must be surrounded by curly brackets, and preceded by `DE:` within the brackets.
 
   >[!INFO]
   >
   >**Example:**
-  >```
-  >{DE:profit}
+  >
+  >`{DE:profit}`
 
-    The system lists all of the custom fields you can choose from when you type when you type `DE:`.
+
+  The system lists all of the custom fields you can choose from when you type when you type `DE:`.
 
 * If you want the calculation to reference a field that will pull data from  the parent object when the custom form is attached to an object, you must precede the field name with the object type of the parent object, also in curly brackets.
 
   For instance, if the custom form is configured to work with tasks, and you want the field to calculate the actual revenue of the parent object when the form is attached to a task, you need to indicate Project as the object type of the field, as in the first example shown below.
 
-    >[!INFO]
-    >
-    >**Example:**
-    >
-    >```{project}.{actualRevenue}```
-    >
-    >Or, if it's a custom field:
-    >
-    >```{project}.{DE:profit}```
+  >[!INFO]
+  >
+  >**Example:**
+  >
+  >`{project}.{actualRevenue}`
+  >
+  >Or, if it's a custom field:
+  >
+  >`{project}.{DE:profit}`
 
-    If you're not sure what the object type of the parent object will be because the custom for is configured for multiple object types, you can use the wildcard filter variable `$$OBJCODE` to allow the calculation to work for each of the possible types. For more information, see [Calculated custom fields in multi-object custom forms](#calculated-custom-fields-in-multi-object-custom-forms) in this article.
+  If you're not sure what the object type of the parent object will be because the custom for is configured for multiple object types, you can use the wildcard filter variable `$$OBJCODE` to allow the calculation to work for each of the possible types. For more information, see [Calculated custom fields in multi-object custom forms](#calculated-custom-fields-in-multi-object-custom-forms) in this article.
 
 ### Separate items with periods
+
 When you reference a related object in a calculated custom field, you must separate object names and attributes with periods.
 
   >[!INFO]
@@ -235,12 +239,13 @@ When you reference a related object in a calculated custom field, you must separ
   >**Example:**
   >
   >In a task-type custom form, to display the name of the Portfolio Owner in a calculated custom field, you would type the following:
-  >```
-  >{project}.{porfolio}.{owner}
-  >```
+  >
+  >`{project}.{porfolio}.{owner}`
+  >
   >This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then the next related object to the portfolio (the owner).
 
 ### Name syntax for referencing a custom field
+
 When you reference another custom field in a calculated custom field, you need to enter the name of the field appears as it displays in the Workfront user interface.
 
   >[!INFO]
@@ -262,9 +267,9 @@ In a multi-object custom form, the selected object types must be compatible with
   >**Example:**
   >
   >In a custom form configured to work with the Task object type, you create a calculated custom field named In Charge. You configure it to reference the built-in field so that it can show the name of the primary assignee in charge whenever the form is attached to a task:
-  >```
-  >Assigned To: Name{assignedTo}.{name}
-  >```
+  >
+  >`Assigned To: Name{assignedTo}.{name}`
+  >
   >Later, you add the Project object type to the custom form. A warning message tells you that the Project object type is incompatible with the calculated custom field. 
 
 When this occurs, you can do one of the following:
@@ -277,9 +282,8 @@ When this occurs, you can do one of the following:
   >**Example:** Though there is no Assigned To: Name field in projects, there is a built-in Owner field (which fills in automatically with the name of the person who created the project, unless someone manually changes this).
   >
   >So, in your custom In Charge field, you could use `$$OBJCODE`as shown below to reference the Owner field when the custom form is attached to a project, and the Assigned To: Name field when the form is attached to a task:
-  >```
-  >IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
-  >```
+  >
+  >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
   For more information about variables like `$$OBJCODE,` see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

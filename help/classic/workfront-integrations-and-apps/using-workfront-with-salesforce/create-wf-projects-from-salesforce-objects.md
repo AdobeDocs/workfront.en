@@ -193,8 +193,8 @@ To configure triggers in Salesforce:
 
 Depending on which trigger generated the projects, the names of the projects in Workfront could follow either one of these patterns:
 
-* If the project is created based on an opportunity or account trigger, the name of the project is: < * Salesforce object name>: <Project template name> (via Salesforce).*
-* If the project is created based on an opportunity trigger that also includes the addition of a new Product, the name of the project is: < * Salesforce object name>: <Salesforce product name> (via Salesforce).*
+* If the project is created based on an opportunity or account trigger, the name of the project is: *`<Salesforce object name>`: `<Project template name>` (via Salesforce)*.
+* If the project is created based on an opportunity trigger that also includes the addition of a new Product, the name of the project is: *`<Salesforce object name>`: `<Salesforce product name>` (via Salesforce)*.
 
 ## View Workfront projects
 

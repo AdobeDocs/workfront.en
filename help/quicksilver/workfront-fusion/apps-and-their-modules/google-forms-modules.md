@@ -45,11 +45,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+     </td> 
    </tr>
   --> 
  </tbody> 
@@ -237,19 +236,16 @@ When you are configuring this module, the following fields display.
 <col data-mc-conditions="">
 <col data-mc-conditions="">
 <tbody>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
--->
 <td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td>
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">File</td>
--->
 <td> <p>Select the spreadsheet that contains the sheet where you want to update a response.</p> </td>
 </tr>
-<tr> <!--
+<tr>
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Worksheet</td>
--->
 <td> <p> Select the sheet that contains the form responses.</p> </td>
 </tr>
 <tr>
@@ -260,20 +256,16 @@ When you are configuring this module, the following fields display.
 <td role="rowheader"> <p>Values</p> </td>
 <td> <p>Enter the new values to the desired columns.</p> </td>
 </tr>
-<tr data-mc-conditions=""> <!--
+<tr data-mc-conditions="">
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Continue the execution of the route even if the module returns no results</td>
--->
 <td> <p>Enable this option to ensure that the scenario is not stopped by this module.</p> </td>
 </tr>
-<tr data-mc-conditions=""> <!--
+<tr data-mc-conditions="">
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Filtering</td>
---> <!--
 <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter or map the filter by which you want to select responses.</td>
--->
 </tr>
-<tr data-mc-conditions=""> <!--
+<tr data-mc-conditions="">
 <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned rows</td>
--->
 <td> <p> Set the maximum number of responses that Workfront Fusion returns during one cycle.</p> </td>
 </tr>
 </tbody>
@@ -366,13 +358,11 @@ This module returns responses matching the given criteria.
   </tr> 
   <tr data-mc-conditions=""> <!--
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Date and time render option</td>
-   --> <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select how you want dates, times, and duration to be represented in the output. This field is ignored if Value Render Option is set to Formatted Value. </td>
-   --> 
+  -->
   </tr> 
-  <tr> <!--
+  <tr>
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned responses</td>
-   --> 
    <td> <p> Set the maximum number of responses that Workfront Fusion returns during one cycle.</p> </td> 
   </tr> 
  </tbody> 

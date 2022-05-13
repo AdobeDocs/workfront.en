@@ -100,25 +100,7 @@ You must have the following to perform the steps in this article:
    SUB(Actual Revenue),(Actual Cost)
    ```
 
-   In this example, 
-
-   ```
-   SUB
-   ```
-
-   is the expression, and the referenced fields are 
-
-   ```
-   Actual Revenue
-   ```
-
-   and 
-
-   ```
-   Actual Cost
-   ```
-
-   .
+   In this example, `SUB` is the expression, and the referenced fields are `Actual Revenue` and `Actual Cost`.
 
 1. (Optional) Use any of the following options to further configure your calculated custom field:
 
@@ -161,15 +143,7 @@ Consider the following when building a calculated custom field in a custom form,
 * You can refer to objects that are related to other objects in a calculation. For information about how objects connect to one another, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 * When you reference a related object in a calculated custom field, you must separate the object names and attributes with periodsyou must type each object name and attribute in curly brackets and separate them with periods.
 
-  For example, in a task-type custom form, to display the name of the Portfolio Owner in a calculated custom field, you would type 
-
-  ```
-  Project.Portfolio.Owner
-  ```
-
-  ```
-  {project}.{porfolio}.{owner}
-  ```
+  For example, in a task-type custom form, to display the name of the Portfolio Owner in a calculated custom field, you would type `Project.Portfolio.Owner` `{project}.{porfolio}.{owner}`
 
   This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then the next related object to the portfolio (the owner). 
 

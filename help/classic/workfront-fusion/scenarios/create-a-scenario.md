@@ -47,11 +47,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -75,8 +74,7 @@ You must have the following access to use the functionality in this article:
 1. In the screen that appears (the scenario editor), if you are creating a new scenario, click **New scenario** in the upper-left corner and type a name for the scenario.
 1. Continue on to [Add a module in a scenario](#add-a-module-in-a-scenario).
 
-## Add a module in a scenario  
-{#add-a-module-in-a-scenario}
+## Add a module in a scenario
 
 1. To add the first module to the scenario, click the question mark icon. ![](assets/question-mark-icon.gif)
 
@@ -140,7 +138,7 @@ To create a connection inside a Workfront Fusion module:
    >If you see a black circle on a module, you haven't finished configuring its settings. Click the module to open it and continue configuring. 
    >
    >
-   >![](assets/black-error-circle-on-module.png)   >
+   >![](assets/black-error-circle-on-module.png)
    >
 
 1. If you are adding the first module in your scenario, select an option to indicate where you want the scenario to start each time it runs.

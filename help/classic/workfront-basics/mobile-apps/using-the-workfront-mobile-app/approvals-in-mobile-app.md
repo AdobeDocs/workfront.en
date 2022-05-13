@@ -57,16 +57,11 @@ Proofs follow a separate approval process. You cannot approve a proof from a wor
 1. Open the approval.
 1. Select a decision. The list of decision options depends on the type of approval you are viewing.
 
-   |  ![Approve proof from task](assets/mobile-approveprooffromtask.png)
-
-   |Approve |
+   |Icon|Decision|
    |---|---|
-   |  ![Approve proof with changes from task](assets/mobile-approveproofwithcommentsfromtask.png)
-
-   |Approve with changes (only available for documents) |
-   |  ![Reject proof from task](assets/mobile-rejectprooffromtask.png)
-
-   |Reject |
+   |  ![Approve proof from task](assets/mobile-approveprooffromtask.png) |Approve |
+   |  ![Approve proof with changes from task](assets/mobile-approveproofwithcommentsfromtask.png)|Approve with changes (only available for documents) |
+   |  ![Reject proof from task](assets/mobile-rejectprooffromtask.png)|Reject |
 
 1. (Optional) Select **Add comment** on the confirmation message at the bottom of the screen to add comments to the decision. These comments appear in the updates for the approval.  
    ![Add comment](assets/mobile-addcommenttoapproval-350x123.png)  

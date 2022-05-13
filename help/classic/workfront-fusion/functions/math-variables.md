@@ -40,11 +40,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -56,59 +55,14 @@ You must have the following access to use the functionality in this article:
 
 ## random
 
-Returns a floating-point pseudo-random number in the range [
+Returns a floating-point pseudo-random number in the range [`0`,`1`] (inclusive of `0`, but not `1`).
 
-```
-0
-```
-
-, 
-
-```
-1
-```
-
-] (inclusive of 
-
-```
-0
-```
-
-, but not 
-
-```
-1
-```
-
-).
-
-Use the following formula to generate an integer pseudo-random number in the range [
-
-```
-min
-```
-
-, 
-
-```
-max
-```
-
-] (inclusive of both 
-
-```
-min
-```
-
-and 
-
-```
-max
-```
-
-):
+Use the following formula to generate an integer pseudo-random number in the range [`min`,`max`] (inclusive of both `min` and `max`):
 
 ![](assets/math-variable-random-350x61.png)
 
 You can copy and paste the formula's code into a field:
-<pre>{{floor(random * (1.max - 1.min + 1)) + 1.min}}</pre>
+
+```
+{{floor(random * (1.max - 1.min + 1)) + 1.min}}
+```

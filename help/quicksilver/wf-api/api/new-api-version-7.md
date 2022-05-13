@@ -224,7 +224,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| &nbsp; |&nbsp; |```<strike> AttachedApprovalPaths</strike>```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |`AttachedApprovalPaths`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;&nbsp;
 
@@ -232,9 +232,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> Add</strike>```  |
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> Delete</strike>```  |
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> Edit</strike>```  |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`Add`  |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`Delete`  |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`Edit`  |
 
 ```¹ Reportable Flag Removed```
 
@@ -423,14 +423,10 @@ Changes to existing objects: additions are simply listed, removals have striketh
  <tbody> 
   <tr> 
    <td>
-    <strike>
-     lastWhatsNew
-    </strike> </td> 
+    <code>lastWhatsNew</code> </td> 
    <td>&nbsp;</td> 
    <td>
-    <strike>
-     roles
-    </strike>&nbsp;</td> 
+    <code>roles</code>&nbsp;</td> 
    <td>&nbsp;roles</td> 
    <td>addMobileDevice</td> 
    <td>&nbsp;</td> 
@@ -489,7 +485,7 @@ User Note
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ```<strike> acknowledgedmentIDs</strike>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp;unackknowledgeMany |&nbsp; |&nbsp; |
+| `acknowledgedmentIDs`  |&nbsp; |&nbsp; |&nbsp; |&nbsp;unackknowledgeMany |&nbsp; |&nbsp; |
 | ackDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ackType |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 

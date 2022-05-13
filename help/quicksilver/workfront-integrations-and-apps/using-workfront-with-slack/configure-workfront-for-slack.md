@@ -91,8 +91,9 @@ You can install the Workfront app directly from the Slack application:
 
 1. Navigate to your Slack URL.
 
-   For example: *<YourTeamName>.slack.com/apps*. [  
-   ](http://slack.com/apps)Or
+   For example: *`<YourTeamName>`.slack.com/apps*.
+   
+   Or
 
    Click the **Add Apps** icon in your Slack instance.
 

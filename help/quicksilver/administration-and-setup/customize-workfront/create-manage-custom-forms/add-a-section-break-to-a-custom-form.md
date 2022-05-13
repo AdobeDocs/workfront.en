@@ -131,25 +131,22 @@ You must have the following to perform the steps in this article:
 
 <!--
 <div style= data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2>Configure access for fields without section breaks</h2> <!--
+<h2>Configure access for fields without section breaks</h2>
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">************This section might get added later. Team decided not to implement.</p>
--->
-<p>In a custom form, you can also control users' access to custom fields<!--
-and image widgets
---> that are not placed inside a defined section.</p>
+<p>In a custom form, you can also control users' access to custom fields
+and image widgets that are not placed inside a defined section.</p>
 <ol>
 <li value="1">Begin creating or editing a custom form, as described in <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li>
-<li value="2">Add custom fields<!--
+<li value="2">Add custom fields
 <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 and widgets
 </MadCap:conditionalText>
---> to the form, as described in <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md" class="MCXref xref">Add a custom field to a custom form</a>.</li>
+to the form, as described in <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md" class="MCXref xref">Add a custom field to a custom form</a>.</li>
 <li value="3"> <p>While still creating or editing the custom form, open the <b>Form settings</b> tab.</p> <p>SHOW THIS </p> </li>
 <li value="4"> <p>Under <b>Grant access</b>, configure the permissions that users need on an object where the custom form is attached, in order to view and edit values in fields not placed under a section break. </p> <p>If you need information about permissions on objects, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects</a>.</p> <note type="note">
 <ul>
-<li> <p>Users without the permissions you specify here can't see the values of the fields<!--
-and image widgets
---> that are not placed in a defined section in the custom form. This is also true if you display the values in reports or use them in calculated fields in text mode reporting.</p> </li>
+<li> <p>Users without the permissions you specify here can't see the values of the fields
+and image widgets that are not placed in a defined section in the custom form. This is also true if you display the values in reports or use them in calculated fields in text mode reporting.</p> </li>
 <li> <p class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Associating multiple object types with your form can change the viewing and editing permissions that are available in these steps. For more information, see <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">How multiple object types can affect section break permissions in a custom form</a> in this article.</p> </li>
 </ul>
 </note>

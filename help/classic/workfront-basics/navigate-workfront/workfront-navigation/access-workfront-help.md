@@ -67,7 +67,7 @@ In addition to searching for help documentation, you can also access the followi
 
    Or
 
-   Click **Help on <area>** to access specific documentation regarding the area.
+   Click **Help on `<area>`** to access specific documentation regarding the area.
 
    For example, if you want to get help for the People area, you select People in the Global Navigation Bar, click the Help icon in the People area, then select Help on People. A Help article for the People area opens.
 
