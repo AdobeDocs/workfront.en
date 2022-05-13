@@ -35,11 +35,14 @@ The Reporting Canvas allows you more control over what displays when you view a 
    in the table header to expand all groups.:
 
    <!--
-   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Do any of the following: <!--
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Do any of the following:
    <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    Sarah: Filter report, drill into visualization or table, share, duplicate, export, archive,...favorite?
    </MadCap:conditionalText>
-   --></p>
+   </p>
+   -->
+
+   <!--
    <table>
    <col>
    <col>

@@ -59,6 +59,8 @@ You must have the following access to perform the steps in this article:
    >
    >At any time, click **Preview** in the upper-right corner to see what your report looks like outside of editing mode.
 
+   <!-- WRITER: Please check table for conditional/draft text. -->
+
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -70,27 +72,19 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">Visualization <img src="assets/visualization-icon.png"></td> 
       <td> <p>Add a data visualization based on the data in a table block.</p> <p>For more information, see <a href="../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md" class="MCXref xref">Add or edit a visualization block in Reporting Canvas</a>.</p> </td> 
-     </tr> <!--
+     </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader">Story<!--
-         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-          <b>[block icon]</b>
-         </MadCap:conditionalText>
-        --></td> 
+       <td role="rowheader">Story</td> 
        <td> <p>Add text that gives context to the information in the report.</p> <p>For more information, see [eventual link].</p> </td> 
       </tr>
-     --> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Web content</td> 
       <td> <p>Add an external source—such as a web page—in the report.</p> <p>For more information, see <a href="../../../reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md" class="MCXref xref">Add or edit a web content block in Reporting Canvas</a>.</p> </td> 
-     </tr> <!--
+     </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-       <td role="rowheader">Canvas filter <!--
-         <b data-mc-conditions="QuicksilverOrClassic.Draft mode">[block icon]</b>
-        --></td> 
+       <td role="rowheader">Canvas filter</td> 
        <td> <p>Add a filter that allows users to look at different aspects of a report. This filter applies to all data in the report.</p> <p>For more information, see [eventual link].</p> </td> 
       </tr>
-     --> 
     </tbody> 
    </table>
 

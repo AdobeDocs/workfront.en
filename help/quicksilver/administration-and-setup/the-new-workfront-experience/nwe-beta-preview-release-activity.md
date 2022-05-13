@@ -442,9 +442,9 @@ For a list of new features that were made available in Workfront Classic, see [W
      <p>Before this enhancement, the users previously tagged did not show up in the Notify box.</p> 
      <p>For more information, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref" xrefformat="{para}">Tag others on updates</a>.</p> 
      <!--<p><iframe class="vimeo-player_0" src="assets/396545752?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/396545752/a53c708821" target="_blank">View this video in full-screen mode.</a> </p>--> <!--<p><iframe class="vimeo-player_0" src="assets/396545752?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/396545752/a53c708821" target="_blank">View this video in full-screen mode.</a> </p>-->t="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/396546571/1c5e0e7bf5" target="_blank">View this video in full-screen mode.</a> </p> 
+     <p><a href="https://vimeo.com/396545752/a53c708821" target="_blank">View this video in full-screen mode.</a> </p><p><iframe class="vimeo-player_0" src="assets/396545752?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/396545752/a53c708821" target="_blank">View this video in full-screen mode.</a> </p>t="315px"></iframe> </p> 
+     <p><a href="https://vimeo.com/396546571/1c5e0e7bf5" target="_blank">View this video in full-screen mode.</a> </p>--> 
     </div> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

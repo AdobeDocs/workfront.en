@@ -50,7 +50,7 @@ Archiving a board sends it to the archive and you can restore it later.
 
    An Archive icon ![Archive](assets/archive-icon-spectrum-25x20.png) appears on the board. You can't edit an archived board.
 
-   Archived boards remain on the boards dashboard unless you apply a filter to not display them. For more information, see the [Filter boards](#filter-boards) section in this article.
+   Archived boards are hidden on the boards dashboard unless you apply a filter to display them. For more information, see the [Filter boards](#filter-boards) section in this article.
 
 1. To restore an archived board, click the **More** menu ![More menu icon](assets/more-icon-spectrum.png) on the board and select **Restore**.
 

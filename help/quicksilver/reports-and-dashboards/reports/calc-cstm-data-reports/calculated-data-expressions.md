@@ -35,8 +35,6 @@ For example:
 
 * To add a calculated data expression to a custom column on a task report for the Project Name, you use the following text:
 
-  *
-
   ```
   valuefield=project:name
   ```

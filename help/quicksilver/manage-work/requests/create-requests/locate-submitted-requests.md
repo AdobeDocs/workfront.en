@@ -98,19 +98,15 @@ To locate requests that you or other users have submitted:
 
    >[!TIP]
    >
-   >```When you navigate away from the Submitted requests list, the selected sorting option is preserved.```
+   >When you navigate away from the Submitted requests list, the selected sorting option is preserved.
 
-1. (Optional) ```Select``` a request in the list , then click the **Open Summary** icon ``` ![](assets/open-summary-with-text-nwe.png)
-
-   ``` to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Optional) Select a request in the list, then click the **Open Summary** icon ![](assets/open-summary-with-text-nwe.png) to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
-   >```If the Summary panel is already opened, the Open Summary icon changes to Close Summary.```
+   >If the Summary panel is already opened, the Open Summary icon changes to Close Summary.
 
-1. (Optional and conditional) Click the **X** icon in the upper-right corner ```or the ```Close Summary``` icon ![](assets/close-summary-with-text-nwe.png)
-
-   ``` to close the Summary Panel.
+1. (Optional and conditional) Click the **X** icon in the upper-right corner or the **Close Summary** icon ![](assets/close-summary-with-text-nwe.png) to close the Summary Panel.
 
    If an issue was converted to a task or project and the issue was deleted in the conversion process, the Summary panel is blank. For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md). 
 
