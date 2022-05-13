@@ -30,9 +30,8 @@ Workfront has several sets of tools used to manage resources. Although some of t
 
 * To plan how resources are allocated at a higher level, before the actual work on projects begins, use the following tool:
 
-   * **The Resource Planner**: You can use the Resource Planner in the first stage of resource management to budget project time for your resources according to their scheduled availability. During the planning of resources phase, you can organize users in&nbsp;resource pools and assign multiple resource pools to a project. * 
-     *For more information about Resource Planning, see the section [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
-
+   * **The Resource Planner**: You can use the Resource Planner in the first stage of resource management to budget project time for your resources according to their scheduled availability. During the planning of resources phase, you can organize users in&nbsp;resource pools and assign multiple resource pools to a project.
+   * For more information about Resource Planning, see the section [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 <!--
   <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"><strong>Legacy Resource Planning</strong>: Refers to organizing your job roles in Legacy Resource Pools which can be managed in the Resource Budget Manager.<br><note type="important">
@@ -180,9 +179,8 @@ Although you can assign work to a Reviewer or a Requestor, they cannot complete 
 </ul> </li>
 <li> <p>Your must designate a Resource Manager on your projects and they must have the correct access to budget resources when using the Scheduling tools. </p> <p>For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref" xrefformat="{para}">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p> </li>
 <li> <p>You must assign the tasks and issues in your system to job roles, teams, or users.</p> </li>
-<li>You must specify a valid value for Planned Hours and Duration for all tasks in your system.<br>For information about Planned Hours, see the article <a href="../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref" xrefformat="{para}">Planned Hours overview</a>.<br>For information about Duration, see the article <a href="../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref" xrefformat="{para}">Overview of Task Duration and Duration Type</a>.</li> <!--
+<li>You must specify a valid value for Planned Hours and Duration for all tasks in your system.<br>For information about Planned Hours, see the article <a href="../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref" xrefformat="{para}">Planned Hours overview</a>.<br>For information about Duration, see the article <a href="../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref" xrefformat="{para}">Overview of Task Duration and Duration Type</a>.</li> 
 <li data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode">When using the Legacy Resource Planning tools, your projects must include Resource Estimates in the Business Case.<br>For information about using Resource Estimates in the Business Case, see the article <a href="../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref" xrefformat="{para}">Estimate project resources by applying Legacy Resource Pools to the Business Case </a></li>
--->
 </ul>
 </div>
 -->

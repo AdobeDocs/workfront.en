@@ -41,11 +41,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -97,13 +96,13 @@ When you are configuring this module, the following fields display.
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Filter</td> 
-    <td> <p>Specify whether you want to include<!--
+    <td> <p>Specify whether you want to include
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          New Records Only, Updated Records Only, or both
        </MadCap:conditionalText>
-      --> New and Updated Records. <!--
+       New and Updated Records.
        <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Only "New or updated records" is visible.</span>
-      --></p> </td> 
+      </p> </td> 
    </tr>
   --> 
   <tr> 
