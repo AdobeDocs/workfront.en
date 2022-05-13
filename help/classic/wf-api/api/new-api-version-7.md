@@ -484,8 +484,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
  </tbody> 
 </table>
 
-###  
-User Note
+### User Note
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|

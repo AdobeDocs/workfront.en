@@ -62,8 +62,12 @@ Your users need to log in to authorize this integration in their own account. Th
 
 The URL for the authorization page is therefore: 
 
+<!--WRITER check code -->
+
+```
 [Copy](javascript:void(0);) 
 <pre><code>https://<span style="color: #63a35c; "><URL of your organization's domain></span>/integrations/oauth2/authorize?client_id=<span style="color: #63a35c; "><Your ClientID></span>&redirect_uri=<span style="color: #63a35c; "><Your redirect URL></span>&response_type=code<br></code></pre>
+```
 
 >[!NOTE]
 >

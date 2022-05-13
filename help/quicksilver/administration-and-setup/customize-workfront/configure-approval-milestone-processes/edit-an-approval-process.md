@@ -22,9 +22,8 @@ For information about creating approval processes, see [Create an approval proce
 >
 >  However, if you make the following changes in an approval process that has already started on an object, that process continues without interruption:
 >
->   * Add a stage beyond the current stage
->   * Add an additional approver before the current stage
->
+>* Add a stage beyond the current stage
+>* Add an additional approver before the current stage
 
 ## Access requirements
 
@@ -54,7 +53,6 @@ You must have the following:
 ## Edit an existing approval process
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
-
 1. (Conditional) If you are editing a system-level approval process, click **Processes** > **Approvals** in the left panel.
 
    Or
@@ -62,7 +60,6 @@ You must have the following:
    If you are editing a group-level approval process, do the following:
 
    1. In the left panel, click **Groups** ![](assets/groups-icon.png).
-   
    1. Click the name of the group for which you want to list or manage group approval processes.
    1. In the left panel, click **Approvals**. You might need to click&nbsp;**Show More** first.
 
@@ -171,4 +168,3 @@ You must have the following:
    * Associate the approval process with specific projects, tasks, or issues throughout your system, as described in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
    * Outside of Workfront, notify users that the approval process is available for them to associate with their projects, tasks, or issues, as described in [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
    * Create another approval process that is triggered if this approval process is rejected and the item takes on another status. This gives you a way to link approval processes together.
-

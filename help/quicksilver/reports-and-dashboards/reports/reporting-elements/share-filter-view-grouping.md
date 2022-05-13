@@ -137,12 +137,10 @@ Sharing filters, views, or groupings in Workfront is identical.
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-<p><strong>Sharing filters and groupings using the beta builder interface</strong></p> <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted, yellow, and will stay in NWE)</p>
-<p>When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.</p> <!--
+<p><strong>Sharing filters and groupings using the beta builder interface</strong></p> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted, yellow, and will stay in NWE)</p>
+<p>When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.</p>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: update the list of which objects have this filter when the new filter are available for other objects) </p>
-<p>The beta builder interface is not available for any other objects in&nbsp;Workfront. <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>The beta builder interface is not available for any other objects in&nbsp;Workfront. <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (NOTE: this will change)
 </MadCap:conditionalText>
 </p>
@@ -201,7 +199,7 @@ View the following video to learn how to share filters, views, and groupings in 
 
 This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 
-[ ![](assets/video-share-reporting-elements-350x198.png)](https://workfront-video.wistia.com/medias/wj9snapqio)
+[![](assets/video-share-reporting-elements-350x198.png)](https://workfront-video.wistia.com/medias/wj9snapqio)
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>

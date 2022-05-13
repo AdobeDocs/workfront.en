@@ -140,7 +140,14 @@ To create a filter that spans over multiple levels in the object hierarchy:
 
 1. Click **Switch to Text Mode**.
 1. Paste the following formula example to the text mode interface of the new filter and replace the suggested text with the correct objects and fields:  
-   <pre>EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field></pre>For an example using the fields we have identified above, see the [Example 1: Filter for issues by Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) section in this article.
+
+   ```
+   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
+   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
+   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
+   ```
+
+   For an example using the fields we have identified above, see the [Example 1: Filter for issues by Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) section in this article.
 
 1. Click **Save Filter**.
 

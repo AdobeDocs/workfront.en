@@ -80,11 +80,13 @@ To build a calculated custom field for the direct link to an Active Tab:
 
    This is the name of your **Calculated Custom Field**. For example, name it "Task Hours Tab."
 
-1. In the **Calculation** box, copy and paste the calculation below. If you are building a **Calculated Custom Field** for another object or another tab, replace the code in bold with the respective object name and **Active Tab** name, respectively:
+1. In the **Calculation** box, copy and paste the calculation below. If you are building a **Calculated Custom Field** for another object or another tab, replace the code in brackets with the respective object name and **Active Tab** name, respectively:
 
-<!--WRITER: adjust text for variable. not bold-->
+<!--WRITER: adjust text for variable, such as brackets not bold-->
 
-   <pre>CONCAT("https://<your domain>.my.workfront.com","/","<strong>task</strong>/view?ID=",ID,"&activeTab=<strong>list-task-hours</strong>")</pre>
+   ```
+   CONCAT("https://<your domain>.my.workfront.com","/","<task>/view?ID=",ID,"&activeTab=<list-task-hours>")
+   ```
 
    For information about finding the Active Tab on an object tab, see [Find the name of the Active Tab for an object](#find-the-name-of-the-active-tab-for-an-object).
 
@@ -92,7 +94,9 @@ To build a calculated custom field for the direct link to an Active Tab:
 
 1. (Optional) In the **Instructions** box, copy and paste the same calculation:
 
-   <pre>CONCAT("https://<your domain>.my.workfront.com","/","task/view?ID=",ID,"&activeTab=list-task-hours")</pre>
+   ```
+   CONCAT("https://<your domain>.my.workfront.com","/","task/view?ID=",ID,"&activeTab=list-task-hours")
+   ```
 
    The **Instruction** field shows the calculation when the field is viewed on the**Custom Form** of the task.
 

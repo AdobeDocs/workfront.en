@@ -56,7 +56,7 @@ To budget time for your resources for the projects you plan to assign them to, y
 
   For information about working in the Resource Planner, see the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* ```Using the Scenario Planner, you can build enterprise-level plans across multiple initiatives that outline your company's overall strategic outcomes. For more information,``` see [Get started with the Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
+* Using the Scenario Planner, you can build enterprise-level plans across multiple initiatives that outline your company's overall strategic outcomes. For more information, see [Get started with the Scenario Planner](../../scenario-planner/get-started-with-scenario-planning.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="understanding-prerequisites"></a>Prerequisites for resource planning</h2>
@@ -111,9 +111,8 @@ The following prerequisites are required only when viewing the Resource Planner 
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Ensure the following user setup exists before starting using the Resource Planner:</p>
+<li>  <ul>   <li> <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have the correct access to budget resources.</p><p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p>   </li>  </ul> </li>
 -->
-
-```<li>  <ul>   <li> <!--    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have the correct access to budget resources.</p>   --> <!--    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources in&nbsp;Adobe Workfront</a>.</p>   --> </li>  </ul> </li>```
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users who are assigned to tasks are added to the Resource Pools associated with the project.</p>
@@ -123,7 +122,7 @@ The following prerequisites are required only when viewing the Resource Planner 
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about adding users to Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">Associate resource pools with users </a> and <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools</a>.</p>
   -->
 
-<!-->
+<!--
   >[!NOTE]
   >
   >
@@ -178,7 +177,7 @@ The following prerequisites are required only when viewing the Resource Planner 
 -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> Your projects are associated with Resource Pools.<br>For more information about adding Resource Pools to projects, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref">Associate resource pools with projects and templates</a>.<br> <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> Your projects are associated with Resource Pools.<br>For more information about adding Resource Pools to projects, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref">Associate resource pools with projects and templates</a>.<br>
   <note type="important">  Projects without Resource Pools do not display Planned Hour or assignments information in the Resource Planner.
   </note>
   -->
@@ -201,14 +200,12 @@ The following prerequisites are required only when viewing the Resource Planner 
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> The tasks or issues on the projects for which you are budgeting resources are assigned to one of these entities:<br>
-  <ul>  <!--
+  <ul>
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Users in the Resource Pools of the project who are also associated with Job Roles</li>
-  -->
   <li>
-  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Job Roles</p>
-  --></li>  
-  </ul><!--
+  </li>  
+  </ul>
   <note type="note">
   Teams assigned to tasks or issues do not display in the Resource Planner. The Planned Hours of tasks and issues assigned to job roles display in the Resource Planner, but these hours cannot be budgeted unless a user who is associated with the job role is listed in a Resource Pool associated with the project.
   </note>

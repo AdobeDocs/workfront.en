@@ -26,9 +26,8 @@ For information about creating approval processes, see [Create an approval proce
 >
 >  However, if you make the following changes in an approval process that has already started on an object, that process continues without interruption:
 >
->   * Add a stage beyond the current stage
->   * Add an additional approver before the current stage
->
+>* Add a stage beyond the current stage
+>* Add an additional approver before the current stage
 
 ## Access requirements
 

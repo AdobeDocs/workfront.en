@@ -152,7 +152,7 @@ To review goals in the Goal List:
 1. Click the name of a goal to open the **Goal Details** panel on the right and review more information about the goal as well as manage it. For information about reviewing individual goals, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
 1. (Optional) Expand the **Goals per page** drop-down menu and select from the following options to display additional goals:
 
-   * 20. This is the default selection. 
+   * `20.` This is the default selection. 
    * 50
    * 100
 
@@ -166,5 +166,3 @@ To review goals in the Goal List:
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
 1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
-
-&nbsp;

@@ -16,10 +16,10 @@ description: In order to use Google Sheets with Adobe Workfront Fusion,you need 
 >You're currently viewing the Adobe Workfront Classic version of this document. Adobe Workfront Classic is no longer supported. All Adobe Workfront Classic functionality, along with this documentation, will be removed in July 2022. Please transition to the the new Adobe Workfront experienceas soon as possible, and switch to the new Adobe Workfront experience version of this document.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In order to use Google Sheets with Adobe Workfront Fusion,you need the Workfront Fusion Google Sheets extension (optional, but required for instant triggers).<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In order to use Google Sheets with Adobe Workfront Fusion,you need the Workfront Fusion Google Sheets extension (optional, but required for instant triggers).
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 </MadCap:conditionalText>
---></p>
+</p>
 -->
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use Google, as well as connect it to to multiple third-party applications and services.
@@ -52,11 +52,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -78,9 +77,8 @@ To use Google Sheets modules, you must have a Google account.
 <li><a href="#workfront-fusion-add-on-installation" class="MCXref xref">Workfront Fusion Add-on Installation</a> </li>
 <li><a href="#connecting-the-instant-trigger-module-to-a-google-sheets-spreadsheet" class="MCXref xref">Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</a> </li>
 </ul>
-<p><strong>Workfront Fusion Add-on Installation</strong></p> <!--
+<p><strong>Workfront Fusion Add-on Installation</strong></p>
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">There doesn't actually seem to be a Fusion add-on</p>
--->
 <ol>
 <li value="1">Open the spreadsheet you want to install the extension to.</li>
 <li value="2">Click the <strong>Add-ons</strong> tab near the top of the screen and select <strong>Get add-ons</strong> from the dropdown menu.</li>

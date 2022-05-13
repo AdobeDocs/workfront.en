@@ -712,6 +712,7 @@ A JSON string indicating success or failure, as specified in the Error Handling 
 
 **Example:** PUT&nbsp;https://www.acme.com/api/rename
 
+```
 -------------------------------
 
 id=1234
@@ -719,10 +720,16 @@ id=1234
 name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 -------------------------------
+```
 
-returns
-<pre>{</pre><pre>"status": “success” </pre><pre>}</pre>returns
-<pre>{</pre><pre>"status": “failure”, error: “Folder cannot be renamed because a folder with that name already exists.” </pre><pre>}</pre>
+```
+{
+"status": “success” 
+}returns
+{
+"status": “failure”, error: “Folder cannot be renamed because a folder with that name already exists.” 
+}
+```
 
 ### Perform a Custom Action
 

@@ -43,7 +43,7 @@ To enable branding on your account:
 
    >[!NOTE]
    >
-   >The branding image does not appear on your login page if you access via the main Workfront Proof login URL. For example, https://www.proofhq.com/login. It shows only if you access the login page via your custom sub-domain or your fully branded domain.&nbsp;To access your custom login page, just type your account URL into your browser. For example, http://<yoursubdomain>.proofhq.com. For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).
+   >The branding image does not appear on your login page if you access via the main Workfront Proof login URL. For example, https://www.proofhq.com/login. It shows only if you access the login page via your custom sub-domain or your fully branded domain.&nbsp;To access your custom login page, just type your account URL into your browser. For example, http://`<yoursubdomain>`.proofhq.com. For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).
 
    ![Branding_-_Login_page.png](assets/branding---login-page-350x198.png)
 

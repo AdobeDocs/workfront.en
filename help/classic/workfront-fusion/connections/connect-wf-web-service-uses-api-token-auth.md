@@ -135,13 +135,17 @@ To connect a web service to your Workfront Fusion scenario, you need to use the 
 
 Specify parameters and values in the JSON format.
 
-**Example:** {"user":"12345c2ecu1hq42ypqzhswbyam34",
+**Example:** 
+
+```
+{"user":"12345c2ecu1hq42ypqzhswbyam34",
 
 "token":"123459evz8aepwtxydndydgyumbfx",
 
 "message":"Hello World!",
 
 "title":"The Push Notification"}
+```
 
 <table cellspacing="0"> 
  <col> 

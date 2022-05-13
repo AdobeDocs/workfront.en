@@ -118,7 +118,7 @@ You can delete goals that are no longer or might never be relevant.
 * Results and Manual progress bar activities attached to the goal are also deleted. 
 * Projects associated with goals are not deleted, but their association with the goal is removed.
 
-### Delete goals  {#delete-goals}
+### Delete goals
 
 1. Go to the goal that you want to delete.
 
