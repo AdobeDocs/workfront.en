@@ -74,7 +74,7 @@ For more information, see the following information:
 
 <!--WRITER
 <iframe class="mt-media" src="assets/214584374?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;
+--> 
 
 ## Outlook for Office 365 (Workfront)
 
@@ -84,7 +84,7 @@ For more information about using&nbsp;the add-in, see [Using the Workfront Add-I
 
 <!--WRITER
 <iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;
+--> 
 
 ## Search in the Mobile App (Workfront)
 

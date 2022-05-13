@@ -21,7 +21,7 @@ The Workfront Library Setup area now has an updated look and feel. This user scr
 * Name
 * Access level
 * Access sources
-* # of assets
+* `#` of assets
 
 ## Updates to editing access levels of users and user groupings
 

@@ -71,7 +71,7 @@ For information about the release time frame and all functionality available wit
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <h2><a name="Workfron"></a>Workfront comments sync to Jira</h2> <p>The Workfront for Jira integration now syncs your Workfront comments to Jira's native comment stream.</p> <p>Previously, you could sync comments from Jira to Workfront, but not from Workfront to Jira. </p> <p>For more information, see <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Configure Adobe Workfront for Jira</a>.</p> 
+   <td> <strong>Workfront comments sync to Jira</strong> <p>The Workfront for Jira integration now syncs your Workfront comments to Jira's native comment stream.</p> <p>Previously, you could sync comments from Jira to Workfront, but not from Workfront to Jira. </p> <p>For more information, see <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Configure Adobe Workfront for Jira</a>.</p> 
     <div class="workfront_plans"> 
      <p><strong>Available in these environments:</strong> </p> 
      <ul> 

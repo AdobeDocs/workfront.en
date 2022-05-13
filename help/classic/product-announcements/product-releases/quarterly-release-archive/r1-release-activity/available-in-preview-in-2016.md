@@ -57,7 +57,7 @@ In addition to viewing tasks on the projects you are responsible for, you can us
 
 <!--WRITER
 <iframe class="mt-media" src="assets/194383424?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;
+--> 
 
 ## Manage User Allocations on the Scheduling Timeline
 
@@ -67,7 +67,7 @@ For more information, see [Manage user allocations in the Scheduling areas](../.
 
 <!--WRITER
 <iframe class="mt-media" src="assets/187845071?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;
+--> 
 
 ## User Allocations Are Disabled by Default
 
@@ -104,7 +104,7 @@ You can use Workfront from Outlook for Office 365, as described in the following
 
 <!--WRITER
 <iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;
+--> 
 
 ## Reorder Columns in Any List with Drag-and-Drop
 

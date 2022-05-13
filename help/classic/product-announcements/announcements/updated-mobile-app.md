@@ -37,7 +37,7 @@ For more information about adding new entries to timesheets on the mobile app, s
 
 <!--WRITER
 <iframe class="mt-media" src="assets/229038077?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;
+--> 
 
 ## Edit Custom Forms
 
@@ -54,7 +54,7 @@ For more information about editing custom forms on the mobile app, see the "Edit
 
 <!--WRITER
 <iframe class="mt-media" src="assets/229038756?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;
+--> 
 
 ## Proof Approvals Visibility in the Mobile App
 
@@ -68,4 +68,4 @@ For more information about approving a proof on the mobile app, see the "Managin
 
 <!--WRITER
 <iframe class="mt-media" src="assets/229038773?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;
+--> 
