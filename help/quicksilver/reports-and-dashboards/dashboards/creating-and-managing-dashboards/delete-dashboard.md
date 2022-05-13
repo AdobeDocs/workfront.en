@@ -62,12 +62,9 @@ If you are deleting multiple dashboards, you can delete the dashboards from the 
 To delete multiple dashboards:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Dashboards**.
-1. Select each dashboard in the list that you want to delete, then click **Delete** ``` ![](assets/delete.png)
-
-   ```.
+1. Select each dashboard in the list that you want to delete, then click **Delete** ![](assets/delete.png).
 
    ![](assets/nwe-deletedashboard2021-350x182.png)
 
 1. To confirm that you want to delete the dashboard, click **Yes, Delete it.** 
    The dashboard is removed from Workfront.
-

@@ -106,8 +106,7 @@ You can create a project from the Projects area in the Main Menu , or from the P
       * The number of all tasks in the template
       * The names of the template custom forms
 
-   1. 
-      (Optional)&nbsp;Hover over the name of a template name and click the **Favorites** **icon** ![](assets/favorites-icon-small.png) to mark it as a favorite for future use.
+   1. (Optional)&nbsp;Hover over the name of a template name and click the **Favorites** **icon** ![](assets/favorites-icon-small.png) to mark it as a favorite for future use.
 
       Or
 

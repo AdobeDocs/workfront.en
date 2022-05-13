@@ -198,7 +198,6 @@ The following table provides details about current and future functionality:
     <td> ✓&nbsp;</td> 
     <td> <p class="preview">✓</p> </td> 
    </tr>
-  --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> Available for Preview and Sandbox environments&nbsp;</td> 
     <td> ✓&nbsp;</td> 

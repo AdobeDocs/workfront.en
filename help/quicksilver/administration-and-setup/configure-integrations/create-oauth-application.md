@@ -310,30 +310,12 @@ Further configuration and use of the created OAuth2 application requires some te
 >
 >For specific instructions on using the OAuth2 application, including specific API calls, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
 
-#### Authorizing with an authorization code and access token {#authorizing-with-an-authorization-code-and-access-token}
+### Authorizing with an authorization code and access token {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp needs some information from Workfront, so it sends a request to the Workfront API 
-
-   ```
-   /authorize
-   ```
-
-   endpoint. The request includes the response_type 
-
-   ```
-   code
-   ```
-
-   , which indicates that the request should return an authorization code.
+1. ClientApp needs some information from Workfront, so it sends a request to the Workfront API `/authorize` endpoint. The request includes the response_type `code`, which indicates that the request should return an authorization code.
 1. This triggers Workfront to send an authentication prompt to the user. The user can enter their credentials into the prompt, which gives Workfront permission to communicate with ClientApp. If the user is already logged into Workfront, this step may be skipped.
 1. The Workfront API sends an authorization code to ClientApp.
-1. ClientApp sends the following information in a request to the Workfront API 
-
-   ```
-   /token
-   ```
-
-   endpoint:
+1. ClientApp sends the following information in a request to the Workfront API `/token`   endpoint:
 
    * The authorization code sent to ClientApp in step 3. This identifies the specific instance of user permission.
    * The Client Secret that was generated when you set up the ClientApp OAuth2 app in Workfront. This allows Workfront to know that the request is coming from ClientApp.
