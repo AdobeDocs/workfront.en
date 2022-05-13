@@ -89,9 +89,3 @@ To locate requests that you or other users have submitted:
    * **Status**: Requests are sorted alphabetically by their status.&nbsp;
 
 1. Click **Drafts** to view all drafted requests. Workfront saves an unlimited number of drafts for each request queue in this folder. When you enter a new request for a queue topic that already has a draft, you will be prompted to use an existing draft. For more information about drafted requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;

@@ -60,13 +60,7 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >
-   >
-   >>[!TIP]
-   >>
-   >>You can change the size of the block after it is placed by dragging its corner handles.
-   >
-   >
+   >You can change the size of the block after it is placed by dragging its corner handles.
 
 1. Click **Untitled table** in the table header, then type a title for the table.
 

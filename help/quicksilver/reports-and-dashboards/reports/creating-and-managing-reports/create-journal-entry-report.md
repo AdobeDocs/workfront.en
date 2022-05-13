@@ -614,7 +614,7 @@ You can set up the Journal Entry report to show how many times the project owner
 1. In the **Filters** tab, click **Add filter rule**, then add the following:
 
    * **Field Name** > **Equal** > **ownerID**
-   * **Project ID** > **Equal** > **<project name>**
+   * **Project ID** > **Equal** > **`<project name>`**
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 

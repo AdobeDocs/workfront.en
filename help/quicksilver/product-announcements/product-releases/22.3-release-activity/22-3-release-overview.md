@@ -286,7 +286,7 @@ For information about the maintenance updates made during the 22.3 release, see 
 The 22.3 release webinar is not yet scheduled. This page will be updated when more information is available.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Workfront 22.2 Release Webinar will be presented on March 24, 2022 at 8:00 a.m. MST. You can register for the event on the <a href="https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne" target="_blank">Events page on Workfront One</a>. <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Workfront 22.2 Release Webinar will be presented on March 24, 2022 at 8:00 a.m. MST. You can register for the event on the <a href="https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne" target="_blank">Events page on Workfront One</a>.
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 This area will be updated as more information becomes available.
 </MadCap:conditionalText>

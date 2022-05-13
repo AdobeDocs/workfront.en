@@ -35,7 +35,7 @@ The following table provides details about current and future functionality:
 > 
 >If you are redirected to https://login-a-xx.workfront.com/, where 'xx' could be US (United States), EU (Europe), or GCP (Google Cloud Platform) depending on your location/platform, then you are using Enhanced Authentication 2.0.  
 >
->All customers will be moving to Enhanced Authentication 2.0 by the end of 2021.```
+>All customers will be moving to Enhanced Authentication 2.0 by the end of 2021.
 
 <table cellspacing="15"> 
  <col> 

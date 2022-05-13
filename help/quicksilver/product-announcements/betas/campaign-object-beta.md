@@ -30,9 +30,9 @@ Campaigns are a new object type in&nbsp;Adobe Workfront that you can use to capt
 
   >[!NOTE]
   >
-  >The beta is being launched in phases, beginning in <Date> and targeted for completion by <Date>.
+  >The beta is being launched in phases, beginning in `<Date>` and targeted for completion by `<Date>`.
 
-* Official release:&nbsp;Late 2022 <or replace with the actual date for Campaigns>
+* Official release:&nbsp;Late 2022 `<or replace with the actual date for Campaigns>`
 
 ## Features
 
