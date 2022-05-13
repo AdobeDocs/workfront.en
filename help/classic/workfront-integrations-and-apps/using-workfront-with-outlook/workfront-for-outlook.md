@@ -4,7 +4,7 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront for Outlook
-description: This section contains the following articles - EDIT ME.
+description: Adobe Workfront Fusion offers an integration with Outlook. This article links to instructions for installing and configuring this integrations, as well as how to use it in your day-to-day work.
 ---
 
 # Adobe Workfront for Outlook
