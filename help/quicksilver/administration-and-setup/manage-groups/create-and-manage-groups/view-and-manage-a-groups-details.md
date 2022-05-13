@@ -9,13 +9,13 @@ You can view and edit the Group Details page for a group or subgroup that you ma
 * An option that allows you to make the group and its subgroups public or private
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">An option that allows you to deactivate or reactivate a group and its subgroups.<span style="color: #ff1493;"> </span><!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">An option that allows you to deactivate or reactivate a group and its subgroups.<span style="color: #ff1493;"> </span>
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   <span style="color: #ff1493;">Make this change when Callisto adds the </span>
   <b style="color: #ff1493;">Is active</b>
   <span style="color: #ff1493;"> option to the Details page</span>
   </MadCap:conditionalText>
-  --></li>
+  </li>
   -->
 
 For information about other ways you can manage a group, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).

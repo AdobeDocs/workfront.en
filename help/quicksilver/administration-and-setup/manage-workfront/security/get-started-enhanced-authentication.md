@@ -29,12 +29,12 @@ The following table provides details about current and future functionality:
 
 >[!IMPORTANT]
 >
->```Most customers are currently using Legacy Authentication and some are using Enhanced Authentication 1.0.  
-  
+>Most customers are currently using Legacy Authentication and some are using Enhanced Authentication 1.0.  
+> 
 >To verify which type of authentication you are currently using, go to *your_domain*.my.workfront.com/login. If you are redirected to /auth/login, then you are using Enhanced Authentication 1.0.  
-  
+> 
 >If you are redirected to https://login-a-xx.workfront.com/, where 'xx' could be US (United States), EU (Europe), or GCP (Google Cloud Platform) depending on your location/platform, then you are using Enhanced Authentication 2.0.  
-  
+>
 >All customers will be moving to Enhanced Authentication 2.0 by the end of 2021.```
 
 <table cellspacing="15"> 
@@ -194,7 +194,6 @@ The following table provides details about current and future functionality:
     <td> ✓&nbsp;</td> 
     <td> <p class="preview">✓</p> </td> 
    </tr>
-  --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> Available for Preview and Sandbox environments&nbsp;</td> 
     <td> ✓&nbsp;</td> 

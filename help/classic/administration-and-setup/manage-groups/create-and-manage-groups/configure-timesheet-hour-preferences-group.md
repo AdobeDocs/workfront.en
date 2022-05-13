@@ -94,13 +94,12 @@ Consider the following information about configuring an unlocked timesheet or ho
       <td role="rowheader">Log time for future dates</td> 
       <td> <p>Allows users to log time for future dates throughout the system in:</p> 
        <ul> 
-       <li>Any projects, tasks, and issues where they have access to log time<!--<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">-->, regardless of project’s group<!--</MadCap:conditionalText>--></li> 
-       <li>Their timesheets as General Time</li> 
+       <li>Any projects, tasks, and issues where they have access to log time, regardless of project’s group.
        </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p>Note: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Add expenses from a timesheet</td> 
-      <td> <p>Enables users to record both time and expenses in the timesheet.</p><!--<div data-mc-conditions="SnippetConditions-wf-groups.groups">--><p>When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task.</p><!--</div>--> </td> 
+      <td> <p>Enables users to record both time and expenses in the timesheet.</p><p>When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assign Job Roles to hour entries manually</td> 
@@ -112,7 +111,7 @@ Consider the following information about configuring an unlocked timesheet or ho
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
-      <td> <p>Restrict editing to timesheet owners<!--<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">-->, the group's administrators,<!--</MadCap:conditionalText>--> and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
+      <td> <p>Restrict editing to timesheet owners, the group's administrators, and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
        <ul> 
        <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
        <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 

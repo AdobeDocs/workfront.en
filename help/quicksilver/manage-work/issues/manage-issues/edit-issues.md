@@ -112,7 +112,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >
    >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Edit Issue box might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-#### Issue Name {#issue-name}
+### Issue Name {#issue-name}
 
 1. Begin editing an issue as described above.
 1. Click **Issue Name**.
@@ -122,7 +122,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 1. Update the **Issue Name** field. 
 1. Click **Save** or continue editing the following sections.
 
-#### Overview {#overview}
+### Overview {#overview}
 
 1. Begin editing an issue as described above.
 1. Click **Overview**.
@@ -270,7 +270,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Click **Save** or continue editing the following sections.
 
-#### Custom&nbsp;Forms
+### Custom&nbsp;Forms
 
 1. Begin editing an issue as described above.
 1. Click **Custom Forms**.
@@ -287,7 +287,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. Click **Save** or continue editing the following section.
 
-#### Settings {#settings}
+### Settings {#settings}
 
 1. Begin editing an issue as described above.
 1. Click **Settings**.
@@ -306,19 +306,19 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
       <td role="rowheader">Approval Process</td> 
       <td> 
        <div> 
-        <p>Select an approval process that you want to associate with the issue. Your Workfront administrator must define system-level Approval Processes before you can associate them with issues. Users with administrative access to Approval processes <span> can also create group-specific approval processes.</span>For more information about creating Approval Processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>. </p> 
-        <p>Consider the following when adding approval processes: </p> 
-        <ul> 
-         <li>Only active approval processes display in the list. </li> 
-         <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>Important: If the group of the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-         <li> <p>You can define default approval processes to be automatically attached to issues when creating request queues or Queue Topics. For information about updating Queue Details, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. For information about creating Queue Topics, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>. </p> </li> 
-         <li>When bulk-editing issues, the following scenarios exist: 
-          <ul> 
-           <li><p>When you select multiple issues from the same group, both system-level and group-specific approval processes display in this field.</p></li> 
-           <li><p>When you select multiple issues from different groups, only system-level approval processes display in this field.</p></li> 
-           <li><p>When any of the issues have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p></li> 
-          </ul></li> 
-        </ul> 
+       <p>Select an approval process that you want to associate with the issue. Your Workfront administrator must define system-level Approval Processes before you can associate them with issues. Users with administrative access to Approval processes <span> can also create group-specific approval processes.</span>For more information about creating Approval Processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>. </p> 
+       <p>Consider the following when adding approval processes: </p> 
+       <ul> 
+       <li>Only active approval processes display in the list. </li> 
+       <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>Important: If the group of the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
+       <li> <p>You can define default approval processes to be automatically attached to issues when creating request queues or Queue Topics. For information about updating Queue Details, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. For information about creating Queue Topics, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>. </p> </li> 
+       <li>When bulk-editing issues, the following scenarios exist: 
+       <ul> 
+       <li><p>When you select multiple issues from the same group, both system-level and group-specific approval processes display in this field.</p></li> 
+       <li><p>When you select multiple issues from different groups, only system-level approval processes display in this field.</p></li> 
+       <li><p>When any of the issues have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p></li> 
+       </ul></li> 
+       </ul> 
        </div> </td> 
      </tr> 
      <tr> 

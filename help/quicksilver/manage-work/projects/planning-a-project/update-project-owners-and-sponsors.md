@@ -67,9 +67,9 @@ When you add a user as the Project Owner of a project, Workfront automatically g
 
 When you add a user as the Project Sponsor of a project, Workfront automatically gives them permissions to view the project. 
 
- >[!TIP]
-   >
-   >If the user you add as a Project Sponsor is a System Administrator, they are not added to the Sharing list of the project. 
+>[!TIP]
+>
+>If the user you add as a Project Sponsor is a System Administrator, they are not added to the Sharing list of the project. 
 
 1. Go to the Project you want to update.
 1. Click **Project Details** in the left panel. 

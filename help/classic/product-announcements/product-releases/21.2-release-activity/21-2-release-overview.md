@@ -31,9 +31,6 @@ in the first quarter of 2021
 </MadCap:conditionalText>
 the week of May 10, 2021.
 </MadCap:conditionalText>
--->
-
-<!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For specific release dates and times for each cluster, see the
 <a href="https://status.workfront.com/" target="_blank">Workfront Status Site</a>.

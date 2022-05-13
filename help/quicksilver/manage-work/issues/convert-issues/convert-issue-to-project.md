@@ -64,7 +64,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
      <!--   
      <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>Or</p> <!--   
+     <p>Or</p>   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and in yellow - this is NOT possible yet in a list (in 22.1), but will be released later!) </p>   
      <p>Select the issue in the list of issue, click the <strong>More</strong> menu <img src="assets/more-icon.png"> at the top of the list, then click <strong>Convert to a blank project</strong>. </p>   
      </div>   
