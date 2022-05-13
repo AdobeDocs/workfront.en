@@ -6,7 +6,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: workfront-fusion-2-0
 title: Apps and their modules
-description: Adobe Workfront Fusion can connect to almost any web service. It is not limited to only the apps on this list. If the app you want to work with is not on this list, you can use the following modules to connect directly to the web service - EDIT ME.
+description: Adobe Workfront Fusion currently offers dedicated connectors for the apps on this list. If the app you want to work with is not on this list, you can connect to it using the HTTP, SOAP, or JSON modules.
 ---
 
 # Apps and their modules
