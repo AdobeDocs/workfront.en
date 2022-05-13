@@ -5,7 +5,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: General functions in Adobe Workfront Fusion
-description: You must have the following access to use the functionality in this article - EDIT ME.
+description: The following general functions are available in the Adobe Workfront Fusion mapping panel.
 ---
 
 # General functions in Adobe Workfront Fusion

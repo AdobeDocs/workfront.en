@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Map an array in Adobe Workfront Fusion
-description: An array is a special type of item that can contain the following - EDIT ME.
+description: You can map an array to a module field in Adobe Workfront Fusion.
 ---
 
 # Map an array in Adobe Workfront Fusion
