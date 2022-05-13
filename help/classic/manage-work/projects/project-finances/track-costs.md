@@ -282,7 +282,7 @@ The following table explains how Actual Cost is calculated for issues, depending
    <td> <p>No Assignment</p> <p> </p> </td> 
    <td colspan="3"> <p><strong>Actual Cost</strong> is calculated by the following formula:</p> <p><code>Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>If the user who logs the time does not have a Cost per Hour rate associated with their profile, the Cost per Hour rate of their Primary Job Role calculates the Actual Cost of the issue. </p> <p>If the user who is logging the time has no job role associated with their profile or their Primary Job Role does not have a Cost per Hour rate defined, the Actual Cost of the issue is zero. </p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+  <!--<tr data-mc-conditions=""> 
    <td colspan="4"> 
     <div> <MadCap:conditionalText data-mc-conditions="">
        If your Workfront administrator enabled the 
@@ -291,6 +291,6 @@ The following table explains how Actual Cost is calculated for issues, depending
      </MadCap:conditionalText> 
     </div> </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
-

@@ -112,17 +112,13 @@ To create a request in the Workfront web app:&nbsp;
 
      >[!TIP]
      >
-     >
-     >   
-     >   
-     >   * The first 200 requests queues display by default, in alphabetical order. 
-     >   * The name of the request queue is the name of the project which has been published as a Help Request Queue. 
-     >   * Hovering over the information icon ![](assets/information-icon-classic.png) next to the name of the selected request queue displays the description of the project configured as a request queue. 
-     >   
+     >* The first 200 requests queues display by default, in alphabetical order. 
+     >* The name of the request queue is the name of the project which has been published as a Help Request Queue. 
+     >* Hovering over the information icon ![](assets/information-icon-classic.png) next to the name of the selected request queue displays the description of the project configured as a request queue. 
      >   
      >For more information about how to publish a project as a Help&nbsp;Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-     If you have started a request for this request type before and you did not submit it when you first created it, a notification displays under the request type you selected to let you know that a draft of your request is saved in the Drafts area. The first two drafts are listed by default.&nbsp;Click **See all <number> drafts** to see a list of all available drafts for the request type you selected, then click the one you want to continue editing when you see it in the list.
+     If you have started a request for this request type before and you did not submit it when you first created it, a notification displays under the request type you selected to let you know that a draft of your request is saved in the Drafts area. The first two drafts are listed by default.&nbsp;Click **See all `<number>` drafts** to see a list of all available drafts for the request type you selected, then click the one you want to continue editing when you see it in the list.
 
      ![](assets/multiple-drafts-warning-350x199.png)
 

@@ -174,7 +174,7 @@ Before you can manage your work and approvals from Slack, you must
 
    The first 20 items on your **Approvals** list display. Additional information about the items also displays, like the name of the user who requested it or the name of the project the item belongs to.&nbsp;
 
-1. Click **+ remaining <number> more** to display additional items.
+1. Click **+ remaining `<number>` more** to display additional items.
 
    <!--
    <img src="assets/slack-project-approvals-list-350x106.png" alt="slack_project_approvals_list.png" style="width: 350;height: 106;" data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 ## Make a subtask a main task
 
 1. Go to the&nbsp;project where you want to make a subtask a main task.
-1. ```Click the **Tasks** section in the left panel.``` 
+1. Click the **Tasks** section in the left panel. 
 1. Select the subtask that you want to make a main task.
 1. Click the **Outdent** icon ![](assets/outdent-icon-nwe-31x29.png) to make the subtask a main task.
 

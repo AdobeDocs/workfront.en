@@ -72,7 +72,7 @@ This article describes how to create a request queue from an existing project. H
  </tbody> 
 </table>
 
-## Create a Request Queue {#create-a-request-queue}
+## Create a Request Queue
 
 When you set up a project as a Request Queue, the project status must be Current in order to display in the Requests area of Workfront.
 

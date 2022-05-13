@@ -29,7 +29,7 @@ You can create a request in the following ways:
 
 * From scratch as described in this article. 
 * From drafts. For information, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
-* ```From an existing request, by copying and submitting a copy. For information, see [Copy and submit requests](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).```
+* From an existing request, by copying and submitting a copy. For information, see [Copy and submit requests](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Access requirements
 

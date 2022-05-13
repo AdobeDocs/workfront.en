@@ -251,7 +251,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
      A green checkmark icon ![](assets/green-checkmark-icon.png) displays to the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed.
 
-1. ```Click the **Hours** or**Percentage icon** then select from the following```:
+1. Click the **Hours** or**Percentage icon** then select from the following:
 
    <table cellspacing="0"> 
     <col> 
@@ -281,7 +281,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
    >[!TIP]
    >
-   >* The Show allocations setting only affects what displays for projects, tasks, ```issues``` and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
+   >* The Show allocations setting only affects what displays for projects, tasks, issues and inaccessible items. Daily Planned Hours for users display by default and cannot be hidden.
    >* You must enable the Group by Project setting to display daily Planned Hours for projects. 
    >* When you view the Workload Balancer by week, the hours displayed are the weekly Planned Hours. 
 
@@ -292,7 +292,7 @@ After selecting the settings you want to apply to your view, the Workload Balanc
    ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Optional)&nbsp;Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks in the bars of the work items. 
-1. ```Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name,``` then click one of the following:
+1. Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name, then click one of the following:
 
    * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to.
 

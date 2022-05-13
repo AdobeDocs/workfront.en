@@ -43,10 +43,8 @@ You must have the following to perform the steps in this article:
 ## Set a custom status as a default status for a group
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
-
 1. In the left panel, click **Groups** ![](assets/groups-icon.png), then click the name of the group where you want to create or customize statuses.
-
-1. ```In the left panel, click **Statuses** ![](assets/gear-icon-settings.png).``` 
+1. In the left panel, click **Statuses** ![](assets/gear-icon-settings.png). 
 1. Click **Set Default Statuses** near the upper-right corner.
 1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want to set.
 1. Click **Save**.

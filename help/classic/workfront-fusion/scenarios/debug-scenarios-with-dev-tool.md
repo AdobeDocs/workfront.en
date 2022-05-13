@@ -174,8 +174,8 @@ The Scenario Debugger is useful for more complex scenarios. It displays the hist
 
 The Workfront Fusion DevTool features tools that make setting up your scenario easier.
 
-1. ```<li> <li> <p>Click the <strong>Tools</strong> icon <img src="assets/console-tools-icon.png"> to open the Tools.</p> </li> </li>``` 
-1. Select the tool you want to use
+1. Click the **Tools** icon ![icon](assets/console-tools-icon.png) to open the Tools. 
+1. Select the tool you want to use.
 1. Configure the fields as detailed below.
 1. Click **Run**.
 

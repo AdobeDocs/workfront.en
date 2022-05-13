@@ -85,7 +85,7 @@ To copy a project:
 
 1. Update the name of the new project.
 
-   By default, the new name is **Copy of <Original project name>.**
+   By default, the new name is **Copy of `<Original project name>`.**
 
    ![](assets/copy-project-box-nwe-350x276.png)
 

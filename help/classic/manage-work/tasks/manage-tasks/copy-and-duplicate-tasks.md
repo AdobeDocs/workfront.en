@@ -203,7 +203,7 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 
 * Milestones are moved to the new task and removed from the original task.
 
-### Duplicate tasks {#duplicate-tasks}
+### Duplicate tasks
 
 1. Go to the project that contains the task or tasks that you want to duplicate.
 1. Select the **Tasks** tab.

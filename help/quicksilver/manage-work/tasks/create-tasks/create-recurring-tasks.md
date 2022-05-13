@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Select **after <number> occurrences** to indicate how many times the recurring task should occur. Workfront creates the same number of recurrences for the tasks as the number you indicate in this field. 
+   Select **after `<number>` occurrences** to indicate how many times the recurring task should occur. Workfront creates the same number of recurrences for the tasks as the number you indicate in this field. 
 
 1. Click **Create Task.**
 

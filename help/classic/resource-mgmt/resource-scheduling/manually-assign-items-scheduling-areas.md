@@ -67,7 +67,7 @@ To successfully manage user assignments as described in this section, you must f
 
 The following sections describe how to modify user assignments manually, automatically, or by swapping assignments by user or role.
 
-## <span style="line-height: 36px;">Manually assign unassigned tasks or issues to users</span>
+## Manually assign unassigned tasks or issues to users
 
 The scheduling timeline provides the needed visibility into which users are capable of completing the task or issue.   
 For more information about the scheduling timeline, see [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
@@ -117,5 +117,5 @@ To assign unassigned tasks or issues to users on the scheduling timeline:
 
 1. (Conditional) After assigning an unassigned task or issue to a user, you might want to adjust the existing assignments for tasks and issues among the users on the scheduling timeline. When scheduling resources for projects (either on the Scheduling tab or the Staffing tab), only users that have the same job role can receive the assignment.   
    To re-assign a task or issue to another user, drag the task from the row of one user to the row of another user.
-1. ```(Optional) Configure the number of hours each assigned user is allocated to the task or issue, as described in [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)``` .
+1. (Optional) Configure the number of hours each assigned user is allocated to the task or issue, as described in [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 

@@ -112,11 +112,11 @@ You must have the following access to perform the steps in this article:
    * If you clicked **Add More Tasks** in step 5, do the following:
 
      <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> <!--   
+     <p data-mc-conditions="QuicksilverOrClassic.Classic,QuicksilverOrClassic.Draft mode"> 
      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
      (NOTE: is this step still right?)   
      </MadCap:conditionalText>   
-     --> </p>   
+     </p>   
      -->
 
       1. Click anywhere in the browser to submit your changes, or press Enter.
@@ -126,7 +126,7 @@ You must have the following access to perform the steps in this article:
 
          For more information about children tasks, see [Tasks overview](../../../manage-work/tasks/task-information/tasks-overview.md).
       
-      1. ```(Conditional) If you disabled the **Autosave** option, do the following:```
+      1. (Conditional) If you disabled the **Autosave** option, do the following:
 
          * Click **Undo** at any time to reverse your last change, or **Cancel** to reverse all the changes you made to the task list. 
          

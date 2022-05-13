@@ -24,9 +24,7 @@ For more information about submitting requests on the mobile app, see the "Submi
 For a demonstration of how to use this feature, watch the following video:
 
 <!--WRITER
-<!--WRITER
 <iframe class="mt-media" src="assets/226008768?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;
 -->
 
 ## Add New Entries to Timesheets

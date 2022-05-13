@@ -96,7 +96,7 @@ These conditions must be met, before enabling this feature:
    >[!NOTE]
    >
    >Users must have access to create issues in the project in order to submit via email. You can grant this access in the Sharing dialog box under Advanced Settings.  
-  
+   >
    >External Users cannot email issues to a request queue because they do not have access to create issues.
 
 ## Receive the issue in Workfront

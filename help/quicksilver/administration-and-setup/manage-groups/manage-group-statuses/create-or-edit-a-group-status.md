@@ -49,7 +49,7 @@ You must have the following to perform the steps in this article:
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
 1. Click the name of the group where you want to create or customize statuses.
-1. ```In the left panel, click **Statuses**.``` 
+1. In the left panel, click **Statuses**. 
 
    If the group you are viewing is a top-level group, the list that displays includes the following:
 

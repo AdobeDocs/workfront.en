@@ -70,7 +70,7 @@ By applying a layout template, you can configure what fields you can see in the&
 
 To apply a custom layout template:
 
-1. ```If you are a Workfront administrator:```
+1. If you are a Workfront administrator:
 
    1. Go to the&nbsp;**People** area&nbsp;on the Global Navigation Bar.&nbsp;
    1. Click the&nbsp;**People** tab.
@@ -80,7 +80,7 @@ To apply a custom layout template:
 
 1. If you are a Plan license user and you want&nbsp;to change the layout template for yourself:
 
-   1. ```Click your avatar in the upper-right corner of any Workfront page.```   
+   1. Click your avatar in the upper-right corner of any Workfront page.   
       ![](assets/setup-search-nav-350x47.png)
 
    1. Click **My Settings**.

@@ -43,9 +43,8 @@ Consider the following in understanding the Condition of a project:
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<h2><a name="Set"></a>Set the Condition Type for a project</h2> <!--
+<h2><a name="Set"></a>Set the Condition Type for a project</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted here and moved it to a separate article: /Content/Manage work/Projects/Manage projects/set-condition-type-for-project.htm)</p>
--->
 <ol>
 <li value="1">Go to the project for which you want to update the Condition Type. </li>
 <li value="2"> <p>  Click <strong>Edit Project</strong>.  <br> <img src="assets/screen-shot-2013-05-07-at-12.12.32-pm-350x280.png" alt="" style="width: 350;height: 280;" data-mc-conditions="QuicksilverOrClassic.Classic"> </p> </li>

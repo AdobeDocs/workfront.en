@@ -26,7 +26,5 @@ You can update the percent complete for a task&nbsp;in any of the following ways
   >This option displays only after you enable the Show Percent Complete option.&nbsp;  
   >To enable the percent complete update bar for tasks, do the following:   
   >1. Go to&nbsp;**Your name in the Global Navigation Bar> My Settings** >&nbsp;**Preferences** and&nbsp;select&nbsp;**Show percent complete on update status**.  
-  
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
   >
-
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >

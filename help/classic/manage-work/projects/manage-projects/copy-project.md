@@ -81,7 +81,7 @@ To copy a project:
 
 1. Update the name of the new project.
 
-   By default, the new name is **Copy of <Original project name>.**
+   By default, the new name is **Copy of `<Original project name>`.**
 
    ![Copy_project_from_storm.png](assets/copy-project-from-storm-350x337.png)
 

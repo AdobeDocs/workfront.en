@@ -150,7 +150,7 @@ For information about creating a report, see [Create a custom report](../../../r
       OR:1:status_Mod=notin
       ```
 
-      Each line of the new statement must be preceded by "OR:<number>:".
+      Each line of the new statement must be preceded by "OR:`<number>`:".
 
       For information about creating "OR" statements in a filter, see [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 1. Click **Done** if you want to save your changes and continue editing the report or the filter.
