@@ -8,17 +8,17 @@ description: KEEP EVERYONE ENGAGED AND EFFICIENT Workfront releases new product 
 
 # The Workfront R1 release
 
-### KEEP EVERYONE ENGAGED AND EFFICIENT
+## KEEP EVERYONE ENGAGED AND EFFICIENT
 
 Workfront releases new product functionality to all product lines three times a year (Release 1, Release 2, and Release 3.) In the first release of the 2017 year (R1,) several enhancements to core functionality in Workfront, ProofHQ and Workfront DAM allow knowledge workers to be more productive, engaged and spend less time managing work, and more getting things done.
 
-### WHAT’S NEW IN THE LATEST RELEASE?
+## WHAT’S NEW IN THE LATEST RELEASE?
 
 * [WORKFRONT ENHANCEMENTS](#workfront-enhancements) 
 * [PROOFHQ ENHANCEMENTS](#proofhq-enhancements) 
 * [WORKFRONT DAM ENHANCEMENTS](#workfront-dam-enhancements)
 
-### WORKFRONT ENHANCEMENTS {#workfront-enhancements}
+## WORKFRONT ENHANCEMENTS {#workfront-enhancements}
 
 ![Outlook_365_Integration_1.png](assets/outlook-365-integration-1-350x212.png)   
 **Manage work right from your email** 
@@ -27,13 +27,17 @@ Direct integration into Outlook 365 will allow you to eliminate duplicate work a
 For more information see:&nbsp; [Functionality made available in Preview in 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![](assets/mceclip0-350x218.png)   
+
 **Keep projects on track and budget** 
+
 Manage your resources and their utilization, keeping projects on track and on budget using the new Utilization Report. View planned vs. actual hours per project and role, and compare resources and departments on a regular basis.
 
 For more information see:&nbsp; [R1 Preview 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
 ![](assets/mceclip1-350x169.png)   
+
 **Terminology and Notification Customization** 
+
 Make Workfront more relevant to your team by leveraging the custom terminology feature to change terms like “Portfolio” or “Project” to fit your preferred lingo regardless of industry. Additionally, each user can now customize the types of notifications they receive by regulating their digest frequency.
 
 For more information see:&nbsp; [R1 Preview 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
@@ -46,6 +50,7 @@ For more information see:&nbsp; [R1 Preview 5](../../../../product-announcements
 ![](assets/mceclip3-350x122.png)
 
 **Workfront Recycle Bin** 
+
 The new Workfront Recycle Bin helps you restore projects, tasks, issues, and all related documents, forms, and updates within 30 days of deletion.
 
 For more information see:&nbsp; [R1 Preview 1 and 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
@@ -54,39 +59,50 @@ For more information see:&nbsp; [R1 Preview 1 and 2](../../../../product-announc
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/kb6wclis7l8?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 -->
 
-### PROOFHQ ENHANCEMENTS {#proofhq-enhancements}
+## PROOFHQ ENHANCEMENTS {#proofhq-enhancements}
 
-![](assets/mceclip4-350x201.png)   
+![](assets/mceclip4-350x201.png) 
+
 **Proof Search and Find** 
+
 New search functionality in ProofHQ allows you to quickly and easily search and find all instances of a word or phrase directly in the proofs as you review. This applies to all text-based documents, including PDFs and Microsoft Word files.
 
 For more information see:&nbsp; [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
 ![](assets/mceclip5-350x226.png)   
+
 **Visual Reporting and Enhanced Custom Views** 
+
 New reporting metrics in ProofHQ allow you to track turnaround time, late percentages, number of comments, and time to first activity. New custom views create advanced filter logic so you get the exact data, right when you need it.
 
 For more information see:&nbsp; [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
 **ProofHQ Preview** 
+
 ProofHQ now allows you to test new features in a Preview environment before releasing to all your users.
 
 <!--WRITER
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/2ul48s6oqoa?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 -->
 
-### WORKFRONT DAM ENHANCEMENTS {#workfront-dam-enhancements}
+## WORKFRONT DAM ENHANCEMENTS {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)   
+
 **DAM Embedded Links** 
+
 For marketing teams who need a better way to manage, publish, and track the usage of digital assets to external platforms, the embedded links feature provides the control you need to manage the process of sharing the right content at the right time.
 
 **DAM Required Metadata Fields** 
+
 Improve digital asset categorization with required metadata fields which allow for increased control of asset sharing.
 
 <!--WRITER
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/1fryq71wcym?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
--->  **Keep everyone engaged and efficient with Workfront.** 
+-->  
+
+**Keep everyone engaged and efficient with Workfront.** 
+
 Workfront is an Enterprise Work Management solution that allows modern knowledge workers and executives to:
 
 * Tailor work to fit individual and organizational preferences and increase adoption

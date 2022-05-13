@@ -8,17 +8,17 @@ description: KEEP EVERYONE ENGAGED AND EFFICIENT Workfront releases new product 
 
 # The Workfront R1 release
 
-### KEEP EVERYONE ENGAGED AND EFFICIENT
+## KEEP EVERYONE ENGAGED AND EFFICIENT
 
 Workfront releases new product functionality to all product lines three times a year (Release 1, Release 2, and Release 3.) In the first release of the 2017 year (R1,) several enhancements to core functionality in Workfront, ProofHQ and Workfront DAM allow knowledge workers to be more productive, engaged and spend less time managing work, and more getting things done.
 
-### WHAT’S NEW IN THE LATEST RELEASE?
+## WHAT’S NEW IN THE LATEST RELEASE?
 
 * [WORKFRONT ENHANCEMENTS](#workfront-enhancements) 
 * [PROOFHQ ENHANCEMENTS](#proofhq-enhancements) 
 * [WORKFRONT DAM ENHANCEMENTS](#workfront-dam-enhancements)
 
-### WORKFRONT ENHANCEMENTS {#workfront-enhancements}
+## WORKFRONT ENHANCEMENTS {#workfront-enhancements}
 
 ![Outlook_365_Integration_1.png](assets/outlook-365-integration-1-350x212.png)   
 **Manage work right from your email** 
@@ -75,7 +75,7 @@ ProofHQ now allows you to test new features in a Preview environment before rele
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/2ul48s6oqoa?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 -->
 
-### WORKFRONT DAM ENHANCEMENTS {#workfront-dam-enhancements}
+## WORKFRONT DAM ENHANCEMENTS {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)   
 **DAM Embedded Links** 
@@ -86,7 +86,9 @@ Improve digital asset categorization with required metadata fields which allow f
 
 <!--WRITER
 <iframe style="position: absolute; width: 100%; height: 100%; left: 0;" src="assets/1fryq71wcym?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
--->  **Keep everyone engaged and efficient with Workfront.** 
+-->  
+
+**Keep everyone engaged and efficient with Workfront.** 
 Workfront is an Enterprise Work Management solution that allows modern knowledge workers and executives to:
 
 * Tailor work to fit individual and organizational preferences and increase adoption
