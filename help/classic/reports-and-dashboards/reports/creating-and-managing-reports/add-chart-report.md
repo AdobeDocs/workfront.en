@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Add a chart to a report {#add-a-chart-to-a-report}
+## Add a chart to a report
 
 1. Go to an existing report or create a new report. For more information about creating a new report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Conditional) If you went to an existing report, click **Report Actions** > **Edit**.

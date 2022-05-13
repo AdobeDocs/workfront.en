@@ -135,12 +135,17 @@ You can use both built-in Workfront fields and custom fields that you already cr
    > 
    >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green:
+   >
    >![](assets/colors-fields-expressions-350x209.jpg)
-   ><!--
-   >* data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Find out immediately what is causing errors in your calculations. Errors are highlighted in red. Hovering over an error displays a brief description of its cause.--> 
+   >
    >* Reference expressions in a long calculation using the line numbers that display on the left.
-   >* In the area below your calculation, preview the results on an existing Workfront object
+   >* In the area below your calculation, preview the results on an existing Workfront object.
+   >
    >![](assets/preview-calc-350x168.jpg)
+
+   <!--
+   * data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Find out immediately what is causing errors in your calculations. Errors are highlighted in red. Hovering over an error displays a brief description of its cause.
+   --> 
 
 1. Click **Minimize** when you are finished creating the calculation for the calculated custom field.
 
@@ -187,11 +192,11 @@ You can use both built-in Workfront fields and custom fields that you already cr
    * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
    * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
-  ## Syntax required in calculated custom fields
+## Syntax required in calculated custom fields
   
-  Each field must use the syntax explained below, with curly brackets around each field name. When you start typing the name of a field, the system makes suggestions and you can select one  to insert it into your calculation. If you enter data in a calculation incorrectly, a warning messages alerts you. You cannot save the form unless you edit your calculation to contain valid fields and a valid calculated expression.
+Each field must use the syntax explained below, with curly brackets around each field name. When you start typing the name of a field, the system makes suggestions and you can select one  to insert it into your calculation. If you enter data in a calculation incorrectly, a warning messages alerts you. You cannot save the form unless you edit your calculation to contain valid fields and a valid calculated expression.
 
-  >[!NOTE]
+>[!NOTE]
 >
 >Currently, the system makes suggestions only when you starting typing the name of a field you want to reference  on an object that the custom form will be attached to, not on the object's parent.
 
@@ -248,44 +253,44 @@ When you reference a related object in a calculated custom field, you must separ
 
 When you reference another custom field in a calculated custom field, you need to enter the name of the field appears as it displays in the Workfront user interface.
 
-  >[!INFO]
-  >
-  >**Example:**
-  >
-  >To reference the selected option in a custom field labeled Executive sponsor, you would enter the following
-  >
-  >```
-  >{DE:Executive sponsor}
-  >```
+>[!INFO]
+>
+>**Example:**
+>
+>To reference the selected option in a custom field labeled Executive sponsor, you would enter the following
+>
+>```
+>{DE:Executive sponsor}
+>```
 
 ## Calculated custom fields in multi-object custom forms {#calculated-custom-fields-in-multi-object-custom-forms}
 
 In a multi-object custom form, the selected object types must be compatible with all fields referenced in the form's calculated custom fields. If there is an incompatibility, a message alerts you to make adjustments.
 
- >[!INFO]
-  >
-  >**Example:**
-  >
-  >In a custom form configured to work with the Task object type, you create a calculated custom field named In Charge. You configure it to reference the built-in field so that it can show the name of the primary assignee in charge whenever the form is attached to a task:
-  >
-  >`Assigned To: Name{assignedTo}.{name}`
-  >
-  >Later, you add the Project object type to the custom form. A warning message tells you that the Project object type is incompatible with the calculated custom field. 
+>[!INFO]
+>
+>**Example:**
+>
+>In a custom form configured to work with the Task object type, you create a calculated custom field named In Charge. You configure it to reference the built-in field so that it can show the name of the primary assignee in charge whenever the form is attached to a task:
+>
+>`Assigned To: Name{assignedTo}.{name}`
+>
+>Later, you add the Project object type to the custom form. A warning message tells you that the Project object type is incompatible with the calculated custom field. 
 
 When this occurs, you can do one of the following:
 
 * Remove one of the two incompatible items from the custom form—either the object type or the referenced field.
 * Keep both items and use the wildcard filter variable `$$OBJCODE` as a condition in an IF expression to create two different versions of the In Charge field. This allows the field to function successfully, no matter which type of object the form is attached to. 
 
-  >[!INFO]
-  >
-  >**Example:** Though there is no Assigned To: Name field in projects, there is a built-in Owner field (which fills in automatically with the name of the person who created the project, unless someone manually changes this).
-  >
-  >So, in your custom In Charge field, you could use `$$OBJCODE`as shown below to reference the Owner field when the custom form is attached to a project, and the Assigned To: Name field when the form is attached to a task:
-  >
-  >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
+>[!INFO]
+>
+>**Example:** Though there is no Assigned To: Name field in projects, there is a built-in Owner field (which fills in automatically with the name of the person who created the project, unless someone manually changes this).
+>
+>So, in your custom In Charge field, you could use `$$OBJCODE`as shown below to reference the Owner field when the custom form is attached to a project, and the Assigned To: Name field when the form is attached to a task:
+>
+>`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-  For more information about variables like `$$OBJCODE,` see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+For more information about variables like `$$OBJCODE,` see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Automatic updates of calculated custom fields
 
