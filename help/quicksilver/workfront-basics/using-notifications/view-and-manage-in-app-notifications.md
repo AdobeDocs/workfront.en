@@ -96,7 +96,7 @@ On the Notifications page, you can&nbsp;view current and cleared notifications. 
 * [Acknowledge notifications](#acknowledge-notifications) 
 * [View acknowledged notifications](#view-acknowledged-notifications)
 
-### Acknowledge notifications  {#acknowledge-notifications}
+### Acknowledge notifications
 
 Clicking the numbered icon to open the Notifications list does not automatically acknowledge that you have read all notifications.
 

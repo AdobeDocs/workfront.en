@@ -61,7 +61,7 @@ You can assign work items to users in the following areas of Adobe Workfront:
 * At the team level, in the following areas of Workfront:
 
    * The Workload Balancer in the Working On tab of a team. 
-   * The existing resource scheduler in the Working On tab ```<MadCap:conditionalText data-mc-conditions="">  of a team. </MadCap:conditionalText>```
+   * The existing resource scheduler in the Working On tab of a team.
 
 For information about scheduling resources at the project, team level, or at the system level when using the existing resource scheduling tools see the articles in the section [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
 
@@ -79,7 +79,7 @@ Consider the following benefits when using the Workload Balancer:
 
 * Access a clear visual mapping of resource overallocation and underutilization which is transparent to all stakeholders. 
 * As a people manager, you can protect your people from burnout and empower them to do their best work with better focus, quality and engagement. You can ensure their full utilization, break silos, and enable alignment of work across teams. 
-* When you assign work at the task ```or issue``` level you don't have visibility into how busy a user might be. When you use the Workload Balancer, you can view which users have availability in their workload to complete the task ```or issue``` on time. This includes their time off and schedule exceptions details.
+* When you assign work at the task or issue level you don't have visibility into how busy a user might be. When you use the Workload Balancer, you can view which users have availability in their workload to complete the task or issue on time. This includes their time off and schedule exceptions details.
 
   For more information, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
@@ -92,7 +92,7 @@ Consider the following benefits when using the Workload Balancer:
 
 ## Best practices for using the Workload Balancer
 
-We recommend the following best practices for planning projects, configuring users, ```and using filters``` before starting scheduling your resources using the Workload Balancer.
+We recommend the following best practices for planning projects, configuring users, and using filters before starting scheduling your resources using the Workload Balancer.
 
 * [Best practices for displaying information in the Workload Balancer](#best-practices-for-displaying-information-in-the-workload-balancer) 
 * [Best practices for setting up users](#best-practices-for-setting-up-users) 
@@ -100,7 +100,7 @@ We recommend the following best practices for planning projects, configuring use
 
 ### Best practices for displaying information in the Workload Balancer {#best-practices-for-displaying-information-in-the-workload-balancer}
 
-```We recommend that you use filters so you can display only the information that is pertinent to you for both unassigned and assigned work items.```
+We recommend that you use filters so you can display only the information that is pertinent to you for both unassigned and assigned work items.
 
 For information about creating and using filters in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 

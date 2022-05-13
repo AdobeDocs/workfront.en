@@ -9,8 +9,6 @@ description: Returns metadata for the specified file or folder.
 
 # Get metadata for a file or folder
 
-### Get metadata for file or folder
-
 Returns metadata for the specified file or folder.
 
 ## URL

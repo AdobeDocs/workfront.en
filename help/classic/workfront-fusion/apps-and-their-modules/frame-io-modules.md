@@ -110,38 +110,20 @@ The connection has been established. You can proceed with setting up the module.
    >
    >When creating the OAuth 2.0 app in Frame.io:
    >
+   >* Enter the following as the redirect URI:
    >   
-   >   
-   >   * Enter the following as the redirect URI:
-   >   
-   >   
-   >     | Americas / APAC |https://app.workfrontfusion.com/oauth/cb/frame-io5 |
-   >     |---|---|
-   >     | EMEA |https://app-eu.workfrontfusion.com/oauth/cb/frame-io5 |
-
-   >   
-   >   * Enable the PCKE option.
-   >   
+   >  Americas / APAC `https://app.workfrontfusion.com/oauth/cb/frame-io5`
    >
+   >  EMEA `https://app-eu.workfrontfusion.com/oauth/cb/frame-io5`
+   >
+   >* Enable the PCKE option.
 
-1. Copy the provided 
-
-   ```
-   client_id
-   ```
-
-   .
+1. Copy the provided `client_id`.
 1. Go to Workfront Fusion and open the Frame.io module's **Create a connection** dialog.
 1. In the **Connection type** field, select **Frame.io OAuth 2.0 PKCE**.
 1. Enter a name for the new connection in the **Connection name** field.
 1. Click **Show advanced settings**.
-1. Enter the 
-
-   ```
-   client_id
-   ```
-
-   you copied in step 2 to the **Client ID** field.
+1. Enter the `client_id` you copied in step 2 to the **Client ID** field.
 1. Click **Continue** to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.

@@ -132,46 +132,41 @@ Removing filters, views, or groupings in Workfront is identical.
 
 <!--
 <div class="preview" data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">
-<h2>Remove a filter<!--
+<h2>Remove a filter
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 , view,
 </MadCap:conditionalText>
---> or grouping using the beta builder</h2> <!--
+or grouping using the beta builder</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Drafted "view" because it will not be there for a bit) </p>
--->
 <p>You cannot remove a filter or grouping using the beta builder interface. You can only delete them in a list of projects, tasks, or issues.&nbsp;The beta builder is not available for any other object lists or for views.</p>
-<p>For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref">Delete filters</a>.</p> <!--
+<p>For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref">Delete filters</a>.</p> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;I drafted this DIV because I am not sure if we should refer to these steps as "removing a filter". This is very clearly a deletion and the name of the UI element is "Delete". I would keep this section, but just point it to the "Delete" file (right now, we only have "delete-filters.htm" but it could become "delete-filters-views-groupings.htm"?!)</p>
---> <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>You can remove a filter or a grouping for lists of projects, tasks, or issues using the beta builder interface. The beta builder interface is not available for any other objects or for views. </p> <!--
+<p>You can remove a filter or a grouping for lists of projects, tasks, or issues using the beta builder interface. The beta builder interface is not available for any other objects or for views. </p>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this list of objects above will change over time. Update!)</p>
--->
 <ol>
 <li value="1"> <p>Go to a list of projects, tasks, or issues.</p> </li>
-<li value="2"> <p>Click the <strong>Filter</strong><!--
+<li value="2"> <p>Click the <strong>Filter</strong>
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 ,
 <strong>View</strong>,
 </MadCap:conditionalText>
--->or <strong>Grouping</strong> icon.<!--
+or <strong>Grouping</strong> icon.
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (NOTE: drafted "view")
 </MadCap:conditionalText>
---></p> </li>
-<li value="3"> <p>Enable the beta builder, then locate the item under <strong>My filters</strong>, <!--
+</p> </li>
+<li value="3"> <p>Enable the beta builder, then locate the item under <strong>My filters</strong>,
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <strong>My views</strong>,
 </MadCap:conditionalText>
---> or <strong>My groups</strong>, select the <strong>More</strong> icon <img src="assets/more-icon.png"> next to the item, then select <strong>Delete</strong>. <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+or <strong>My groups</strong>, select the <strong>More</strong> icon <img src="assets/more-icon.png"> next to the item, then select <strong>Delete</strong>. <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (NOTE: drafted "My views")
 </MadCap:conditionalText>
---></p> </li>
+</p> </li>
 <li value="4"> <p>Select <strong>Delete</strong> on the confirmation message to permanently remove the filter, view, or grouping.</p> </li>
 </ol>
 </div>
--->
 </div>
 -->
 

@@ -39,11 +39,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -60,11 +59,11 @@ For every connection, Workfront Fusion requires only those access rights that ar
 Unfortunately, not all services allow you to limit access to specific tasks. Therefore, Workfront Fusion must require full access rights. For more information on how to restrict Workfront Fusion access to your account registered to those services, see the application-specific documentation.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Organizational data security is Workfront Fusion's top priority. For detailed information on how data is secured and protected in Workfront Fusion, click here. <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Organizational data security is Workfront Fusion's top priority. For detailed information on how data is secured and protected in Workfront Fusion, click here.
 <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 Sam: Exclude until after GA release
 </MadCap:conditionalText>
---></p>
+</p>
 -->
 
 ## About administering connections

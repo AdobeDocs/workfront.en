@@ -246,4 +246,4 @@ For instructions on connecting to Google in the HTTP > Make an OAuth2.0 request 
 
 ## Possible error message:[403] Access Not Configured
 
-If the [403} Access Not Configured error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [Create a project on Google Cloud Platform](#create-a-project-on-google-cloud-platform) in this article.
+If the [403] Access Not Configured error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [Create a project on Google Cloud Platform](#create-a-project-on-google-cloud-platform) in this article.

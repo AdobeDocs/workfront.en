@@ -82,11 +82,11 @@ Consider the following when copying initiatives:
 
    Workfront copies the initiatives immediately and places them underneath the last selected initiative.
 
-   The name of the copied initiative is *Copy of <Name of original initiative>*.
+   The name of the copied initiative is *Copy of `<Name of original initiative>`*.
 
    >[!NOTE]
    >
-   >```Depending on where you insert the new initiatives, the numbers of existing initiatives may change.```
+   >Depending on where you insert the new initiatives, the numbers of existing initiatives may change.
 
 1. Update the name of the copied initiative.
 

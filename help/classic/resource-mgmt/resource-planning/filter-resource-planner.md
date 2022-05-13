@@ -254,7 +254,7 @@ You can duplicate an existing filter. The original filtering criteria remain the
    The Duplicate Filter box is displayed.
 
 1. In the **Filter Name** field, specify a new name for the duplicated filter.  
-   The default name for the new filter is *<Original Filter Name>(copy)*.
+   The default name for the new filter is *`<Original Filter Name>`(copy)*.
 
 1. Click **Save.**A new filter is created with the same criteria as the original filter and with a new name.
 

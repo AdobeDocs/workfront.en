@@ -55,14 +55,11 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >Consider the following when you use an Automated Workflow template: &nbsp;    >
+   >Consider the following when you use an Automated Workflow template:
    >   
-   >   
-   >   * An Automated Workflow template's settings determine&nbsp;what you can do with the Automated Workflow for a proof. For example, if the Add a stage button disabled in the template, it is not visible as you work with the Automated Workflow settings for the proof. 
-   >   * When a person is added to a sage in an Automated Workflow template, but also already present as a reviewer on the proof, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. 
-   >   * Your ability to modify an Automated Workflow template depends on the template settings configured by the Workfront administrator, as described in . If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.
-   >   
-   >
+   >* An Automated Workflow template's settings determine&nbsp;what you can do with the Automated Workflow for a proof. For example, if the Add a stage button disabled in the template, it is not visible as you work with the Automated Workflow settings for the proof. 
+   >* When a person is added to a sage in an Automated Workflow template, but also already present as a reviewer on the proof, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. 
+   >* Your ability to modify an Automated Workflow template depends on the template settings configured by the Workfront administrator, as described in . If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.
 
 1. Configure the first stage of the Automated Workflow:
 
@@ -71,22 +68,15 @@ You must have the following access to perform the steps in this article:
 
       >[!NOTE]
       >
-      >Consider the following when&nbsp;adding reviewers to a stage:      >
+      >Consider the following when&nbsp;adding reviewers to a stage:
       >   
-      >   
-      >   * You can add external users to a stage with an email address.
-      >   * After you add a user to a stage, you can configure settings for that user on the proof.
-      >   * You can drag users directly to another stage, or you can drag users to a stage on the **Stages** diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
-      >   * You&nbsp;can add a reviewer to a proof only once, which means that you cannot add the same person to more than one stage on the proof.
-      >   * Reviewers who are not added to a private stage cannot see that stage on the proof or comments made in that stage.
-      >   * By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.  
-
-      >   
-      >   
-      >     Your Workfront administrator can restrict users from accessing the proof until the workflow enters the stage where the user was added. For more information, see&nbsp;&nbsp;in&nbsp;.
-      >   
-      >   
-      >
+      >* You can add external users to a stage with an email address.
+      >* After you add a user to a stage, you can configure settings for that user on the proof.
+      >* You can drag users directly to another stage, or you can drag users to a stage on the **Stages** diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
+      >* You&nbsp;can add a reviewer to a proof only once, which means that you cannot add the same person to more than one stage on the proof.
+      >* Reviewers who are not added to a private stage cannot see that stage on the proof or comments made in that stage.
+      >* By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.  
+      >   Your Workfront administrator can restrict users from accessing the proof until the workflow enters the stage where the user was added.
 
    1. Click **Stage settings**.
    1. Click an **Activate stage** option to indicate how you want the stage to activate.

@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Submit a timesheet for approval {#submit-a-timesheet-for-approval}
+## Submit a timesheet for approval
 
 * [Submit a timesheet for approval](#submit-a-timesheet-for-approval) 
 * [View the status of a submitted timesheet](#view-the-status-of-a-submitted-timesheet)

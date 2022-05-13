@@ -244,7 +244,7 @@ You can duplicate and edit a filter to create a new one.
 
    * Name
 
-     By default, the new filter name is "<Original filter name> Copy."
+     By default, the new filter name is "`<Original filter name>` Copy."
    
    * Icon
    * Description

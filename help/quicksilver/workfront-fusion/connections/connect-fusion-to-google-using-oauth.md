@@ -163,13 +163,7 @@ To create a project on Google Cloud Platform:
 
    >[!NOTE]
    >
-   >If this is not the first API or service (Gmail or Google Drive) you have enabled   >
-   >
-   ><!--   >
-   ><span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> for Fusion?</span>   >
-   >-->   >
-   >
-   >, you don't have to create new credentials.
+   >If this is not the first API or service (Gmail or Google Drive) you have enabled, you don't have to create new credentials.
 
 1. Click **Create credentials** near the top of the screen, then select **OAuth client ID** from the drop-down menu.
 
@@ -242,4 +236,4 @@ For instructions on connecting to Google in the HTTP > Make an OAuth2.0 request 
 
 ## Possible error message:[403] Access Not Configured
 
-If the [403} Access Not Configured error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [Create a project on Google Cloud Platform](#create-a-project-on-google-cloud-platform) in this article.
+If the [403] Access Not Configured error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [Create a project on Google Cloud Platform](#create-a-project-on-google-cloud-platform) in this article.

@@ -42,11 +42,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -79,48 +78,19 @@ To use a Repeater module:
 1. Click the app or service module connected to the Repeater module.
 1. In the box that appears, type the information that you want to repeat.
 
-   In our email example, you would type Hello in the Subject box, then map 
-
-   ```
-   i
-   ```
-
-   from the repeater module.
+   In our email example, you would type Hello in the Subject box, then map `i` from the repeater module.
 
    ![](assets/repeater-3-350x207.png)
 
-| Initial value |Enter or map the number that you want the module to set as 
-
-```
-i
-```
-
-in the first iteration. The default value is 1. |
+|Item|Description|
 |---|---|
+| Initial value |Enter or map the number that you want the module to set as `i` in the first iteration. The default value is 1. |
 | Repeats |Enter or map the number of times that you want the module to repeat. This number must be greater than or equal to 0, and less than or equal to 10,000. |
-| Step |This is the number by which the module increases the value of 
-
-```
-i
-```
-
-. The default value is 1. |
+| Step |This is the number by which the module increases the value of `i`. The default value is 1. |
 
 >[!NOTE]
 >
->The number of repeats is not determined by the value of >
->```>
->i
->```>
->, as it would be in a loop in programming. The module will repeat the number of times indicated in the Repeats field. The value >
->```>
->i
->```>
->changes with each iteration of the repeater module, and can be mapped to later modules. The example above maps the value of >
->```>
->i
->```>
->into the Hello message, resulting in messages that read "Hello 1," Hello 2," and so on.
+>The number of repeats is not determined by the value of `i`, as it would be in a loop in programming. The module will repeat the number of times indicated in the Repeats field. The value `i` changes with each iteration of the repeater module, and can be mapped to later modules. The example above maps the value of `i` into the Hello message, resulting in messages that read "Hello 1," Hello 2," and so on.
 
 ## Iterator
 

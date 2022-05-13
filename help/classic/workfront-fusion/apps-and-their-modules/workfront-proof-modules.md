@@ -51,11 +51,10 @@ You must have the following access to use the functionality in this article:
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Access level configurations*</td> 
-    <td> <!--
+    <td>
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -471,16 +470,15 @@ When you are configuring this module, the following fields display.
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Proof versions</td> 
-    <td>Specify whether you want to include all versions of the proof or a specific one.<!--
+    <td>Specify whether you want to include all versions of the proof or a specific one.
       <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> I'm guessing on this</span>
-     --></td> 
+    </td> 
    </tr>
-  --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Webhook URL</td> 
-    <td> <p>You can create a separate scenario that uses the Watch for PDF Summary trigger module with a new webhook to retrieve the URL.<!--
+    <td> <p>You can create a separate scenario that uses the Watch for PDF Summary trigger module with a new webhook to retrieve the URL.
        <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Is this right?</span>
-      --></p> </td> 
+      </p> </td> 
    </tr>
   --> 
  </tbody> 
@@ -604,12 +602,11 @@ When you are configuring this module, the following fields display.
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Name</td> 
-    <td>(Optional) Type a new file name for the uploaded file if you don't want to use the existing one. <!--
+    <td>(Optional) Type a new file name for the uploaded file if you don't want to use the existing one.
       <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       <!--
         <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
-       --></span>
-     --></td> 
+      </span>
+    </td> 
    </tr>
   --> 
  </tbody> 
@@ -690,9 +687,8 @@ This search module lists all available workflow templates.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p><strong>Build</strong></p> <!--
+<p><strong>Build</strong></p> 
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">From legacy Fusion doc. I don't see this in Fusion 2</p>
--->
 <p>This action module creates a new proof recipient or stage in an Automated Workflow.</p>
 <p>The module returns reviewer or stage information (see the examples below the following table). You can map this information in subsequent modules in the scenario.</p>
 <p>When you are configuring this module, the following fields display.</p>
@@ -703,30 +699,27 @@ This search module lists all available workflow templates.
 <tr>
 <td>Connection</td>
 <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td>
-</tr> <!--
+</tr>
 <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<td> <!--
+<td> 
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 ________
 </MadCap:conditionalText>
---> </td>
+</td>
 <td>Select an option to specify whether you are adding a reviewer or a stage in an Automated Workflow.</td>
 </tr>
---> <!--
 <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <td>Reviewer</td>
-<td>If you are adding a reviewer, select <!--
+<td>If you are adding a reviewer, select
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(or is it fill out?)</span>
---> the fields containing the reviewer information you want to use.</td>
+the fields containing the reviewer information you want to use.</td>
 </tr>
---> <!--
 <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <td>Stage</td>
-<td>If you are adding a stage, select <!--
+<td>If you are adding a stage, select
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(or is it fill out?)</span>
---> the fields containing the stage information you want to use.</td>
+the fields containing the stage information you want to use.</td>
 </tr>
--->
 </tbody>
 </table>
 <div class="examples" data-mc-autonum="<b>Examples: </b>">
@@ -738,4 +731,3 @@ ________
 </div>
 </div>
 -->
-

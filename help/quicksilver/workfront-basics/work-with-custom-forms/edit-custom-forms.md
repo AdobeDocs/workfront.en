@@ -132,17 +132,16 @@ You can manually recalculate the custom fields of several objects by editing the
 >[!NOTE]
 >
 >You can recalculate all calculated custom fields for several projects in a list or report in bulk.
+
+>[!TIP]
 >
->>[!TIP]
->>
->>```Depending on the complexity of your projects, we recommend not to select a large number of projects when recalculating calculated custom fields in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.``` 
+>Depending on the complexity of your projects, we recommend not to select a large number of projects when recalculating calculated custom fields in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
 >
 >To recalculate custom expressions in bulk from a list of projects:
 >
 >1. Go to a project list or report and select one or several projects.
 >1. Click the **More** menu ![](assets/more-icon.png), then click **Recalculate Custom Expressions**. 
 >
->   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)>
->   Workfront calculates all custom fields for all the selected projects.
+>![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 >
-
+>Workfront calculates all custom fields for all the selected projects.

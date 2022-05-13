@@ -32,15 +32,12 @@ The following areas are included in the default layout of a Worker:
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   This area is named "
-  <!--
   Users
-  -->" for users with a Plan license. As a Worker, you cannot edit users, so the
-  <!--
+  " for users with a Plan license. As a Worker, you cannot edit users, so the
   Users
-  --> area is not available to you. You can see the work assigned to your Teams, however, and this is why this
-  <!--
+  area is not available to you. You can see the work assigned to your Teams, however, and this is why this
   area
-  --> is more accurately renamed to "Teams."
+  is more accurately renamed to "Teams."
   </MadCap:conditionalText>
   -->
 

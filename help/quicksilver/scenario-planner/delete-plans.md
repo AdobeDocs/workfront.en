@@ -54,18 +54,16 @@ You can delete a plan or you can delete one scenario in a plan.
 * [Delete plans](#delete-plans) 
 * [Delete scenarios](#delete-scenarios)
 
-### Delete plans {#delete-plans}
+### Delete plans
 
 >[!IMPORTANT]
 >
 >Consider the following when deleting plans:
 >
 >* All information related to the plan is also deleted. This includes all the scenarios and initiatives associated with the plan including information about job roles and costs. This information cannot be recovered.
->* >
->  If the plan contains a published scenario, the projects linked to the deleted initiatives are preserved and the Scenario Planner area remains in the Project&nbsp;Details section. 
+>* If the plan contains a published scenario, the projects linked to the deleted initiatives are preserved and the Scenario Planner area remains in the Project&nbsp;Details section. 
 >
 >  For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
->
 
 To delete a plan:
 
@@ -86,12 +84,10 @@ To delete a plan:
 >
 >* Deleting a scenario deletes all initiatives and their information from the scenario. If they are copied to other scenarios, the initiatives remain on the other scenarios. 
 >* When deleting a scenario, the subsequent scenario takes on the number of the deleted scenario and the counting order is preserved.&nbsp;For example, if you delete Scenario 4, Scenario 5 becomes Scenario 4. 
->* ```If some initiatives on the scenario are published, the project linked to the initiative is preserved and the Scenario Planner area remains on the linked projects.``` 
->* >
->  If the published initiatives exist on another scenario, they remain on that scenario, including their link to the project. Publishing those initiatives from the other scenarios updates the linked projects with new information from those scenarios. 
+>* If some initiatives on the scenario are published, the project linked to the initiative is preserved and the Scenario Planner area remains on the linked projects 
+>* If the published initiatives exist on another scenario, they remain on that scenario, including their link to the project. Publishing those initiatives from the other scenarios updates the linked projects with new information from those scenarios. 
 >
 >  For information about publishing initiatives to projects, see [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md).
->
 
 To delete a scenario:
 

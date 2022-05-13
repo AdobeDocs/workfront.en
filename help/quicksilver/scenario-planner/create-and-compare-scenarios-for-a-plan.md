@@ -155,10 +155,7 @@ After creating your scenarios, you can compare them to find the best one for you
    >When information differs between the initial scenario and additional scenarios, an up or down arrow displays next to the value that changed to indicate an increase or decrease in that value, compared to the initial scenario. 
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)   >
-   >
-
-   >
+   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >For example, the budget, the number of job roles, the number of initiatives might change from one scenario to another.
 
@@ -176,7 +173,7 @@ After creating your scenarios, you can compare them to find the best one for you
 
    ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
-   When you copy a scenario, it automatically appears on the card page and is renamed according to this pattern: "Scenario <next number in order>." 
+   When you copy a scenario, it automatically appears on the card page and is renamed according to this pattern: "Scenario `<next number in order>`." 
 
 1. (Conditional) If you clicked **Delete**, click **Yes, delete it** to confirm.
 

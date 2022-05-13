@@ -58,7 +58,7 @@ Accessing the Details page for an object is similar to all objects where this fu
 >Currently, you can access the combined Details page on projects, tasks, issues, programs, portfolios, templates, and template tasks.
 
 1. Go to the object whose **Details** page you want to access.
-1. In the left panel, click **<Object> Details**.&nbsp;For example, for a project, click&nbsp;**Project Details**.
+1. In the left panel, click **`<Object>` Details**.&nbsp;For example, for a project, click&nbsp;**Project Details**.
 
    ![](assets/one-page-project-details-page.png)
 

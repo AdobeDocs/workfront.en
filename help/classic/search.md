@@ -1,5 +1,9 @@
 
 
-# Your search for `````` returned `````` result(s). {#results-heading}
+# Your search 
+
+<!--
+for `````` returned `````` result(s). {#results-heading}
 
 [Previous](#) [Next](#) 
+-->
