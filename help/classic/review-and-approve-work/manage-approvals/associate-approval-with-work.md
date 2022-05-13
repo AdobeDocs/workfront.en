@@ -198,15 +198,11 @@ To create a single-use approval process:
    >
    >After you attach the single-use approval process, it displays as "`<Custom>`" in the Approval Process field inside the Edit box of projects, tasks, issues, templates, and template tasks. For information about editing objects, see the following articles:
    >
-   >   
-   >   
-   >   * [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md) 
-   >   * [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md) 
-   >   * [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md) 
-   >   * [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md) 
-   >   * [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) 
-   >   
-   >
+   >* [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md) 
+   >* [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md) 
+   >* [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md) 
+   >* [Edit project templates](../../manage-work/projects/create-and-manage-templates/edit-templates.md) 
+   >* [Edit a template task](../../manage-work/projects/create-and-manage-templates/edit-template-task.md) 
 
 ## Remove or delete an approval process from a work item
 

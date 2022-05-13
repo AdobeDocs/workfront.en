@@ -21,17 +21,12 @@ In order to preserve compatibility with existing client&nbsp;integration's&nbsp;
 ## Getting started with the API
 
 The API entry point:
-<pre><code>https://soap.proofhq.com/soap</code></pre> (please note the use of HTTPS)
+
+`https://soap.proofhq.com/soap` (please note the use of HTTPS)
 
 The&nbsp;WSDL can be found here:
 
-[
-
-```
-https://soap.proofhq.com/soap?wsdl
-```
-
-](https://soap.proofhq.com/soap?wsdl)
+`https://soap.proofhq.com/soap?wsdl`
 
 >[!NOTE]
 >
@@ -40,7 +35,17 @@ https://soap.proofhq.com/soap?wsdl
 Every API request requires a session key. This session key identifies the Workfront Proof user performing the action(s) and is obtained by calling the doLogin() method and passing in the user's email address and password. The doLogin() method only needs to be called once before a sequence of API requests. The session key remains active for a short period of time and is renewed on every method call.&nbsp;*We will be adding support for token based authentication very soon.*
 
 All requests use the following envelope, header and body format:
-<pre><code><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:proofhqapi"></code><br><code>&nbsp;&nbsp; &nbsp;<soapenv:Header/></code><br><code>&nbsp;&nbsp; &nbsp;<soapenv:Body></code><br><code>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;... API function and data inserted here ...</code><br><code>&nbsp;&nbsp; &nbsp;</soapenv:Body></code><br><code></soapenv:Envelope></code></pre>
+
+<!--WRITER - check code -->
+
+```
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:proofhqapi">`
+   <soapenv:Header/>
+   <soapenv:Body>
+	   ... API function and data inserted here ...
+	</soapenv:Body>
+	</soapenv:Envelope>
+```
 
 ## FAQ's
 

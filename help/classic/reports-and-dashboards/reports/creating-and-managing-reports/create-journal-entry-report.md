@@ -433,7 +433,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
      >[!TIP]
      >
-     >To limit this report to specific custom fields, add the filter rule **Journal Entry Field Name** > **Equal** > **<custom field>**.
+     >To limit this report to specific custom fields, add the filter rule **Journal Entry Field Name** > **Equal** > **`<custom field>`**.
 
    * **Project ID** > **Equal** > **`<project>`**
 

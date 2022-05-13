@@ -98,13 +98,11 @@ For more information about the mobile app, see the "Searching in Mobile" section
 
 <!--WRITER
 <iframe class="mt-media" src="assets/204243449?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>
--->&nbsp;&nbsp;
+-->
 
 ## Improved Help in the Mobile App: Tutorials (Workfront)
 
->Starting with the mobile release in April, you will see new tutorial screens to guide you through your mobile experience. When you log into the mobile app for the first time, and you are using a feature for the first time, you will see a brief tutorial that explains how the feature works. The tutorial displays only once, the first time you are using a specific feature.
-
-For more information about the mobile app, see .
+Starting with the mobile release in April, you will see new tutorial screens to guide you through your mobile experience. When you log into the mobile app for the first time, and you are using a feature for the first time, you will see a brief tutorial that explains how the feature works. The tutorial displays only once, the first time you are using a specific feature.
 
 ## Search in PDF Documents (ProofHQ)
 
@@ -123,21 +121,20 @@ ProofHQ Premium accounts that are integrated with Workfront now see the followin
 
 You can now include the following additional information&nbsp;in custom views:
 
-* Recipient-Level Data  
+* **Recipient-Level Data**  
   You can configure custom views to include the following columns related to recipient-level data: Role, Position, Email Alerts, My Deadline, Date Added to Proof, and Recipient Search.  
   For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-
-* ```Proofing Data  
+* **Proofing Data**  
   You can configure custom views to include the following columns related to proofing data: Comment Count (All Versions), Size on Disk, Proof Type, Number of Files per Version, Comment Attachment Data (size on disk, filename), and Filtering by Subfolder.  
-  For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).``` 
-* Stage-Level Data Related to&nbsp;Automated Workflows  
-  You can configure custom views to include the following columns related to individual stages of&nbsp;automated workflows: SOCD Status, Stage Deadlines, Active Stage Name, Next Stage Name, Stage name, and Template.  
-  For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).  
-  For more information about automated workflows, see
+  For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md). 
+* **Stage-Level Data Related to&nbsp;Automated Workflows**  
+  You can configure custom views to include the following columns related to individual stages of&nbsp;automated workflows: SOCD Status, Stage Deadlines, Active Stage Name, Next Stage Name, Stage name, and Template.
+  
+  For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Improvements to Proofing Reports (Formerly Analytics) (ProofHQ)
 
-```The reporting feature (formerly known as Analytics) contains the following improvements:```
+The reporting feature (formerly known as Analytics) contains the following improvements:
 
 * New default report types:
 
