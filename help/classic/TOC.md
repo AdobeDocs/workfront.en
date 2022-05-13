@@ -588,18 +588,23 @@ user-guide: null
     * [Sharing shows more than one permission](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
     * [Unauthenticated email is not accepted due to domain's DMARC policy](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
     * [Adobe Workfront user credentials vs. SAML user credentials](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-* [Adobe Workfront basics](workfront-basics/workfront-basics.md)
+* Adobe Workfront basics {#basics}
+  * [Adobe Workfront basics](workfront-basics/workfront-basics.md)
   * [Glossary of Adobe Workfront terminology](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
   * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
   * [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
-  * [Navigate Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
-    * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
+  * Navigate Adobe Workfront {#navigate}
+    * [Navigate Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+    * Adobe Workfront Search {#search}
+      * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
       * [Search Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
       * [Use the reference number of objects](workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
-    * [Recents and favorites in Adobe Workfront](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
+    *Recents and favorites in Adobe Workfront {#recents-and-favorites}
+      * [Recents and favorites in Adobe Workfront](workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
       * [View and manage favorites](workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
       * [View recent items](workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
-    * [Lists in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/lists.md)
+    * Lists in Adobe Workfront {lists-in-adobe-workfront}
+      * [Lists in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/lists.md)
       * [Get started with lists in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
       * [Apply the quick filter to a list](workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
       * [Export a list](workfront-basics/navigate-workfront/use-lists/export-lists.md)
@@ -611,8 +616,10 @@ user-guide: null
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
     * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
     * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
-  * [Home](workfront-basics/using-home/home.md)
-    * [My Work](workfront-basics/using-home/my-work/my-work.md)
+  * Home {#home}
+    * [Home](workfront-basics/using-home/home.md)
+    * My Work {#my-work}
+      * [My Work](workfront-basics/using-home/my-work/my-work.md)
       * [View assigned work on the My Work calendar](workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md)
       * [Navigate My Work](workfront-basics/using-home/my-work/navigate-my-work.md)
       * [Organize work on the My Work page](workfront-basics/using-home/my-work/organize-work-my-work.md)
@@ -622,7 +629,8 @@ user-guide: null
       * [My Updates area](workfront-basics/using-home/my-work/my-updates-area-my-work.md)
       * [Access the Recent Updates area](workfront-basics/using-home/my-work/access-recent-updates-area-my-work.md)
       * [Create ad hoc work items](workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md)
-    * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+    * Use the Home area {#use-home-area}
+      * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Understand the differences between My Work and Home](workfront-basics/using-home/using-the-home-area/differences-between-my-work-home.md)
       * [Try the Home area](workfront-basics/using-home/using-the-home-area/try-home-area.md)
@@ -637,7 +645,8 @@ user-guide: null
       * [Configure your Home Calendar view settings](workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)
       * [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
       * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
-  * [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+  * Update work items and view updates {#update-work-items-view-updates}
+    * [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates tab overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
     * [Update work](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
     * [Character limits in fields](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
@@ -646,11 +655,13 @@ user-guide: null
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
     * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
     * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-  * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
+  * Work with custom forms {#work-with-custom-forms}
+    * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
     * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
     * [Edit information in custom form fields](workfront-basics/work-with-custom-forms/edit-custom-forms.md)
     * [Manage custom forms attached to objects](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
-  * [Use notifications](workfront-basics/using-notifications/use-notifications.md)
+  * Use notifications {#use-notifications}
+    * [Use notifications](workfront-basics/using-notifications/use-notifications.md)
     * [Adobe Workfront notifications](workfront-basics/using-notifications/wf-notifications.md)
     * [Activate or deactivate your own event notifications](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
     * [Subscribe to items in Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -669,7 +680,8 @@ user-guide: null
     * [Notifications: Information about work assigned to me](workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md)
     * [Notifications: Miscellaneous information](workfront-basics/using-notifications/notifications-misc-information.md)
     * [Notifications: Requests I have made](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
-  * [Grant and request permissions to objects](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+  * Grant and request permissions to objects {#grant-request-object-permissions}
+    * [Grant and request permissions to objects](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
     * [Overview of sharing permissions on objects](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
     * [Grant access to objects in the Home area](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
     * [Request access to objects](workfront-basics/grant-and-request-access-to-objects/request-access.md)
@@ -687,20 +699,25 @@ user-guide: null
     * [Share reports, dashboards, and calendars](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
     * [Grant object access in the My Work area](workfront-basics/grant-and-request-access-to-objects/grant-access-my-work.md)
     * [Remove permissions from objects](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-  * [Manage your account and profile](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-    * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
+  * Manage your account and profile {#manage-account-profile}
+    * [Manage your account and profile](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
+    * Configure your User Profile {configure-user-profile}
+      * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
       * [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
       * [Configure personal time off in Adobe Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
       * [Change the My Work and Work Requests areas with Layout Templates](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md)
       * [Create custom tabs or sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
-    * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+    * Manage your Adobe Workfront account {manage-workfront-account}
+      * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
       * [Log out of Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
       * [Receive email invitations and create a password for Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
       * [Reset a user's password with Enhanced Authentication](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
       * [Reset your password](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
-  * [Mobile Apps](workfront-basics/mobile-apps/mobile-apps.md)
-    * [Use the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
+  * Mobile Apps {mobile-apps}
+    * [Mobile Apps](workfront-basics/mobile-apps/mobile-apps.md)
+    * Use the Adobe Workfront mobile apps {use-workfront-mobile-app}
+      * [Use the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
       * [Adobe Workfront for Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
       * [Be an Android beta tester](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
       * [Adobe Workfront for iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
@@ -715,15 +732,18 @@ user-guide: null
       * [Configure Adobe Workfront for MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
       * [Adobe Workfront mobile app virtual assistant](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
       * [Approvals in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
-    * [Use Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
+    * Use Adobe Workfront View {use-workfront-view}
+      * [Use Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
       * [Get started with Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/get-started-with-workfront-view.md)
       * [Display projects in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/display-projects-in-wokrfont-view.md)
       * [Filter project lists in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/filter-project-lists-in-workfront-view.md)
       * [Update widgets in the Project Details view](workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md)
       * [Add updates in Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/add-updates-in-workfront-view.md)
-    * [Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
+    * Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps {tips-tricks-for-mobile-apps}
+      * [Tips, Tricks, and Troubleshooting for Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
       * [Error Message on the Adobe Workfront Mobile App: "Your account is not API enabled."](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-  * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+  * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {tips-tricks-for-basics}
+    * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
     * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
     * [Contact Customer Support](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
     * [The Adobe Workfront Community](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
