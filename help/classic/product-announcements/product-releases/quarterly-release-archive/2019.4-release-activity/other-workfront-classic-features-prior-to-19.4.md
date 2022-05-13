@@ -27,7 +27,7 @@ For information about the release time frame and all functionality available wit
      <ul> 
       <li> October 18, 2019</li> 
      </ul> 
-    </div> <p><iframe class="vimeo-player_0" src="assets/364110112?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/364110112/4972767789" target="_blank">View this video in full-screen mode.</a> </p> </td> 
+    </div> <!--<p><iframe class="vimeo-player_0" src="assets/364110112?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/364110112/4972767789" target="_blank">View this video in full-screen mode.</a> </p>--> </td> 
   </tr> 
   <tr> 
    <td> 
