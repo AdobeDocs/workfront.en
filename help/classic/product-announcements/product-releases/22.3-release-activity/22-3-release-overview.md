@@ -33,7 +33,7 @@ in October 2021
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements are currently available in the Preview environment and will be made available in the Production environment<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These enhancements are currently available in the Preview environment and will be made available in the Production environment
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later this year
 </MadCap:conditionalText>
