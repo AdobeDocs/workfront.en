@@ -120,7 +120,7 @@ The process of updating users for SSO either adds the SSO Username field to your
 
    This enables all users to log in to Workfront using their SSO credentials.
 
-   The **Only Allow <SSO Configuration> Authentication** setting is enabled for all users included in the CSV.
+   The **Only Allow `<SSO Configuration>` Authentication** setting is enabled for all users included in the CSV.
 
 ## Verify SSO your users' Workfront usernames
 

@@ -67,7 +67,7 @@ If you are deleting multiple dashboards, you can delete the dashboards from the 
 To delete multiple dashboards:
 
 1. In the Global Navigation Bar, click **Reporting**, then **Dashboards**.
-1. Select each dashboard in the list that you want to delete, then click **Delete** .
+1. Select each dashboard in the list that you want to delete, then click **Delete**.
 
    ![](assets/classic-delete-dashboard-350x226.png)
 

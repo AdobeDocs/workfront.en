@@ -75,13 +75,8 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
      >[!TIP]
      >
-     >
-     >   
-     >   
-     >   * If the issue was created using a request queue, the new project inherits the request queue's Group. 
-     >   * If the issue was created by adding it to the Issues section of the project, the new project inherits the Group if the issue's project. 
-     >   
-     >
+     >* If the issue was created using a request queue, the new project inherits the request queue's Group. 
+     >* If the issue was created by adding it to the Issues section of the project, the new project inherits the Group if the issue's project. 
 
    * Click the name of a template listed in the **New from Template** section to convert the issue to a project using the template.
 

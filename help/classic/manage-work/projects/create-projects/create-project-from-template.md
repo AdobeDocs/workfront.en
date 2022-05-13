@@ -99,7 +99,6 @@ You can create a project from the Projects area in the Global Navigation Bar, or
 Instead of starting in the Projects subtab of the Projects area, you can create a project from a template by starting with the template.
 
 1. Go to the **Projects** area in the Global Navigation Bar and select the **Projects** subtab. 
-
 1. Click **Templates.** 
 1. Click the name of a template you want to use.
 1. Click **Template Actions**, then **Create Project**.

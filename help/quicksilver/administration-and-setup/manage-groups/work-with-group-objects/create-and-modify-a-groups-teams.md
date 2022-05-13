@@ -51,41 +51,39 @@ You must have the following to perform the steps in this article:
 
    * **Add a team**: Click **New Team**, then use the following options to configure it:
 
+   <!-- WRITER please check table below. I stripped out wonky conditions-->
+
      <table cellspacing="0"> 
       <col> 
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader">Team Name</td> 
-        <td>Type a name for the team.</td> 
+       <td role="rowheader">Team Name</td> 
+       <td>Type a name for the team.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Group</td> 
-        <td> <p> <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-           The system fills in the Group field for the new portfolio with the group you are viewing. 
-          </MadCap:conditionalText>If you want to associate the team with a <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
-           different 
-          </MadCap:conditionalText>group, start typing the name of the group, then select the name when it appears.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+       <td role="rowheader">Group</td> 
+       <td> <p> The system fills in the Group field for the new portfolio with the group you are viewing. If you want to associate the team with a different group, start typing the name of the group, then select the name when it appears.</p> <p>You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Team Members</td> 
-        <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
+       <td role="rowheader">Team Members</td> 
+       <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Description</td> 
-        <td>Type a description for the team.</td> 
+       <td role="rowheader">Description</td> 
+       <td>Type a description for the team.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Calendar</td> 
-        <td>Choose which calendar tab will appear for this team.</td> 
+       <td role="rowheader">Calendar</td> 
+       <td>Choose which calendar tab will appear for this team.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Work On It</td> 
-        <td>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 
+       <td role="rowheader">Work On It</td> 
+       <td>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Done Button</td> 
-        <td>Select the status that you want set for&nbsp;items when the Done button is clicked.</td> 
+       <td role="rowheader">Done Button</td> 
+       <td>Select the status that you want set for&nbsp;items when the Done button is clicked.</td> 
        </tr> 
       </tbody> 
      </table>
@@ -97,44 +95,44 @@ You must have the following to perform the steps in this article:
       <col> 
       <tbody> 
        <tr> 
-        <td role="rowheader">Team Name</td> 
-        <td>Type a name for the team.</td> 
+       <td role="rowheader">Team Name</td> 
+       <td>Type a name for the team.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Group</td> 
-        <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+       <td role="rowheader">Group</td> 
+       <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Owner</td> 
-        <td>Select an owner for the team.</td> 
+       <td role="rowheader">Owner</td> 
+       <td>Select an owner for the team.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Team Members</td> 
-        <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
+       <td role="rowheader">Team Members</td> 
+       <td> <p>Add and team members. Start typing the name of a user, then select the name when it appears. Repeat this process to add multiple users to the team.</p> <p>Tip: There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Description</td> 
-        <td>Type a description for the team.</td> 
+       <td role="rowheader">Description</td> 
+       <td>Type a description for the team.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Layout Template</td> 
-        <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> <p>When you designate the team with this layout template as the Home Team of users, all users in this team will see the customizations in this layout template.<br>Their individual layout template settings will override the settings of the home team layout template.&nbsp;</p> </td> 
+       <td role="rowheader">Layout Template</td> 
+       <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> <p>When you designate the team with this layout template as the Home Team of users, all users in this team will see the customizations in this layout template.<br>Their individual layout template settings will override the settings of the home team layout template.&nbsp;</p> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Agile</td> 
-        <td>Specify whether this is an agile team. For information on agile teams and how to manage their work, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
+       <td role="rowheader">Agile</td> 
+       <td>Specify whether this is an agile team. For information on agile teams and how to manage their work, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Work On It</td> 
-        <td> <p>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</p> <p>For more information on how to configure the Start button, see <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a>.</p> </td> 
+       <td role="rowheader">Work On It</td> 
+       <td> <p>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</p> <p>For more information on how to configure the Start button, see <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a>.</p> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader">Done Button</td> 
-        <td> <p>Customize the Done button. For more information, see:</p> 
-         <ul> 
-          <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">Configure the Done button for tasks</a> </li> 
-          <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">Configure the Done button for issues</a> </li> 
-         </ul> </td> 
+       <td role="rowheader">Done Button</td> 
+       <td> <p>Customize the Done button. For more information, see:</p> 
+       <ul> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">Configure the Done button for tasks</a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">Configure the Done button for issues</a> </li> 
+       </ul> </td> 
        </tr> 
       </tbody> 
      </table>

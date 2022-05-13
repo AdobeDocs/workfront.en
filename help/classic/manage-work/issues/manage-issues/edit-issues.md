@@ -259,17 +259,13 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    >[!TIP]
    >
-   >You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
+   >You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
    >
    >
-   >```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:``` 
+   >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >
-   >   
-   >   
-   >   * ```Reassign the work item to active resources.``` 
-   >   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.``` 
-   >   
-   >
+   >* Reassign the work item to active resources. 
+   >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
 
 1. (Optional) Indicate whether an assignee is the primary assignee on the issue, by selecting the **Issue Owner** radio button. 
 1. (Optional) Select a role from the **Assignee's Role** drop-down menu.  
