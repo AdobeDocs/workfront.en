@@ -261,8 +261,7 @@ View the following video to learn how to create a report. This video was recorde
 <li data-mc-conditions="QuicksilverOrClassic.Classic"><a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Learning Path for reports and dashboards</a> </li>
 <li><a href="../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Get started with reports in Adobe Workfront</a> </li>
 <li><a href="../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md" class="MCXref xref">Use Adobe Workfront built-in reports</a> </li>
-<li><![CDATA[
-]]><a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a></li>
+<li><a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a></li>
 <li><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md" class="MCXref xref">Edit report settings</a> </li>
 <li><a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a> </li>
 <li><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a> </li>

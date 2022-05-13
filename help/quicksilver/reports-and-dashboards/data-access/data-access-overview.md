@@ -82,8 +82,7 @@ Within the data types, there are 4 different dimensions:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">%_curr&nbsp;dimensions ​</p> <p role="rowheader">​</p> <p role="rowheader"><![CDATA[
- ]]></p> </td> 
+   <td role="rowheader"> <p role="rowheader">%_curr&nbsp;dimensions ​</p> <p role="rowheader">​</p> <p role="rowheader"></p> </td> 
    <td> <p>represent the current data as of&nbsp;the&nbsp;last load date. Will change over time to stay current.</p> </td> 
   </tr> 
   <tr> 

@@ -26,9 +26,7 @@ The Alpha version of the new Adobe Workfront experience is currently available f
   <tr> 
    <td> <p><strong>Global navigation</strong> </p> </td> 
    <td> <p>The Global Navigation Bar displays the same links for all users, regardless of their common workflows and preferences. These links are Home, Projects, Reporting, People, Requests, and Documents. System administrators could change this experience only through the Layout Template.</p> </td> 
-   <td> <p>The Global Navigation Bar comprises a new tabbed experience and a Main Menu icon. Only the areas that are important to you are displayed.<![CDATA[
-]]></p> <p>You can personalize your workspace based on your role, and more easily keep track of and prioritize what you're working on by organizing your Workfront tabs. <![CDATA[
-]]></p> </td> 
+   <td> <p>The Global Navigation Bar comprises a new tabbed experience and a Main Menu icon. Only the areas that are important to you are displayed.</p> <p>You can personalize your workspace based on your role, and more easily keep track of and prioritize what you're working on by organizing your Workfront tabs. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Search</strong> </td> 

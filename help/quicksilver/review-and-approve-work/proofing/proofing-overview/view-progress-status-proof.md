@@ -105,8 +105,7 @@ If custom decisions are configured in your account, the status options reflect y
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You can view the progress and status of proofs for individual documents. <![CDATA[
-]]></p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You can view the progress and status of proofs for individual documents. </p>
 -->
 
   <!--

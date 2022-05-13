@@ -75,8 +75,7 @@ The module returns the ID of the file and any associated fields, along with any 
   </tr> 
   <tr> 
    <td role="rowheader">File Name </td> 
-   <td><![CDATA[
-]]>Enter a file name (including extension) for the target output file.</td> 
+   <td>Enter a file name (including extension) for the target output file.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers </td> 
@@ -118,9 +117,7 @@ Converts a file into a selected output format.
    <td> 
     <ul> 
      <li> <p><strong>URL</strong> </p> <p>Enter the URL of the file you want to convert.</p> </li> 
-     <li> <p><![CDATA[
-
-]]><strong>Headers</strong></p> <p>Define request headers (optional). This is useful, for example, when the specified URL requires the authorization.</p> </li> 
+     <li> <p><strong>Headers</strong></p> <p>Define request headers (optional). This is useful, for example, when the specified URL requires the authorization.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

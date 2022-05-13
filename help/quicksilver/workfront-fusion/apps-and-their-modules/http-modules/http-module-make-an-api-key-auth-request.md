@@ -72,8 +72,7 @@ If you see the map button above a field or function, you can use it to set varia
    <td role="rowheader">Credentials</td> 
    <td> <p>Select the key that contains your API Key authentication credentials. To add a new key, click <strong>Add</strong> and configure the following information:</p> 
     <ul> 
-     <li> <p><![CDATA[
-]]><strong>Key name</strong></p> <p>Enter a name for this set of API credentials.</p> </li> 
+     <li> <p><strong>Key name</strong></p> <p>Enter a name for this set of API credentials.</p> </li> 
      <li> <p><strong>Key</strong> </p> <p>Enter the API Key.</p> </li> 
      <li> <p><strong>API Key placement</strong> </p> <p>Select whether to place the API Key in the header or in the query of the API call.</p> </li> 
      <li> <p><strong>API Key parameter name</strong> </p> <p>Enter the name by which the API call identifies the API Key, such as "apiKey" or "X-API-Key." You can find this information in the documentation of the web service the module is connecting to.</p> </li> 

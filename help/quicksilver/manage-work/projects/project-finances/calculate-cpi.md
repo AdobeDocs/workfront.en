@@ -121,8 +121,7 @@ CPI = 1
 ```
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>(NOTE: above: this used to say: CPI = CPI Labor, but Anna had me fix it on July 21, 2021)<![CDATA[
-]]></code> </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>(NOTE: above: this used to say: CPI = CPI Labor, but Anna had me fix it on July 21, 2021)</code> </p>
 -->
 
 The fields in this calculation are described below:

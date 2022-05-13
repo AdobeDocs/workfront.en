@@ -214,9 +214,7 @@ Only the Resource Pools that are common to all the users selected appear in this
 <p> You can associate Resource Pools with a template in the same manner you associate Resource Pools with a project. </p>
 <p> To associate Resource Pools with a project: </p>
 <ol>
-<li value="1"><![CDATA[
-]]><![CDATA[
-]]>Go to a project and click the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png">in the upper-right corner.</li>
+<li value="1">Go to a project and click the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png">in the upper-right corner.</li>
 <li value="2"> Click <strong>Settings</strong>. </li>
 <li value="3">Start typing the name of a Resource Pool in the <strong>Resource Pools</strong> field, then select it from the list when it appears.<br>You can associate multiple Resource Pools with one project or template.<br><img src="assets/resource-pool-to-project-350x254.png" alt="resource_pool_to_project.png" style="width: 350;height: 254;"><br><br></li>
 <li value="4">Click <strong>Save Changes</strong>.</li>

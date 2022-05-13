@@ -109,8 +109,7 @@ If custom decisions are configured in your account, the status options reflect y
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You can view the progress and status of proofs for individual documents. Or, you can see proof approval information for all documents that you submit for approval.<![CDATA[
-]]></p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You can view the progress and status of proofs for individual documents. Or, you can see proof approval information for all documents that you submit for approval.</p>
 -->
 
   <!--

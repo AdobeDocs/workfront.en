@@ -87,8 +87,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <h2>Configure how Workfront calculates resource availability when scheduling resources</h2>
 <ol>
 <li value="1">Log in to Workfront as an administrator. </li>
-<li value="2"><![CDATA[
-]]> Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront. <br></li>
+<li value="2">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront. <br></li>
 <li value="3">  Click&nbsp; <strong>Setup</strong>.  </li>
 <li value="4"> <p> Click&nbsp;<strong>Resource Management</strong>.<br></p> <p> <img src="assets/nwe-resource-management-system-setting-user's-schedule-350x157.png" style="width: 350;height: 157;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <br> </p> </li>
 <li value="5"> Select to calculate the availability of users in Workfront using&nbsp;one of the following methods:
