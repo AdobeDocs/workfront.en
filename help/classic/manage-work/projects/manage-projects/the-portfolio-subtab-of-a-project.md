@@ -4,7 +4,7 @@ content-type: reference
 product-area: projects
 navigation-topic: manage-projects
 title: Overview of the Portfolio subtab of a Project
-description: 
+description: Overview of the Portfolio subtab of a Project
 ---
 
 # Overview of the Portfolio subtab of a Project

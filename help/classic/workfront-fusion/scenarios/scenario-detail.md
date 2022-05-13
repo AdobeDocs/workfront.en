@@ -4,7 +4,7 @@ product: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Scenario details in Adobe Workfront Fusion
-description: 
+description: Scenario details in Adobe Workfront Fusion
 ---
 
 # Scenario details in Adobe Workfront Fusion

@@ -4,7 +4,7 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Overview of the project Planned Start Date
-description: 
+description: Overview of the project Planned Start Date
 ---
 
 # Overview of the project Planned Start Date
