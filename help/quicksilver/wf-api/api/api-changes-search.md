@@ -35,7 +35,7 @@ All three of these endpoints accept the **includeHidden=true** parameter in orde
 
 Here is an example of a status search query being made to a task group that includes a system-level locked status **Custom_1** and an unlocked status **Custom_2**:
 
-**Example:**/attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d286d000004fc8f53942de697a868
+**Example:** `/attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d286d000004fc8f53942de697a868`
 
 Using this format ensures that your response will include all of the following:
 

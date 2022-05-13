@@ -71,7 +71,7 @@ You can compare two proofs within any single document list, such as within the D
 
    For information about the tools you can use to compare the two proofs, see&nbsp; [Use the compare tools](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [Compare proofs in the proofing viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 
-   ## Compare two versions of the same proof
+## Compare two versions of the same proof
 
-   For information about comparing two versions of the same proof, see [Compare proof versions](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [Compare proofs in the proofing viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+For information about comparing two versions of the same proof, see [Compare proof versions](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [Compare proofs in the proofing viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 

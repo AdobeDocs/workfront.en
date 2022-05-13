@@ -126,8 +126,7 @@ You can filter items in the Work List to see only specific types of items. For e
    >[!TIP]
    >
    >* Some options are based on objects (Tasks, Issues, Approvals, and Personal tasks), and others are based on the state of the work items (Working On, Ready to Start, Not Ready, and Completed). If no state is selected, all selected objects of any state display. 
-   >* Similarly, if no object is selected, all objects of any selected states display. If you select an object that is not in the selected state (for example, Approvals cannot be in a Ready to Start or Working On state), then nothing displays.  
-
+   >* Similarly, if no object is selected, all objects of any selected states display. If you select an object that is not in the selected state (for example, Approvals cannot be in a Ready to Start or Working On state), then nothing displays.
    >* Note that open items in Team Requests and Approvals I've Submitted always display.
 
 1. (Optional) Further organize the Work List, as described in the section [Group and sort by Date, Project, and Priority](#group-and-sort-by-date-project-and-priority) in this article.
