@@ -117,7 +117,10 @@ To create, query, or delete an event subscription, your Workfront user needs the
 >&nbsp;If this is your first time using the Workfront API, then you need to generate an apiKey which you can do via this link:
 
 <!-- [Copy](javascript:void(0);) --> 
+
+```
 <pre><code>[PUT]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://<HOSTNAME>/attask/api/v7.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD></code></pre>
+```
 
 ## Forming the Subscription&nbsp;Resource
 
@@ -234,7 +237,10 @@ Use the following syntax to construct the URL.
 **Request URL:** 
 
 <!-- [Copy](javascript:void(0);) --> 
+
+```
 <pre><code>[POST] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions</code></pre>**Request Headers:** 
+```
 
 <table> 
  <col> 
