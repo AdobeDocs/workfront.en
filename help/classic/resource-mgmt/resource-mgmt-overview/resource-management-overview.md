@@ -31,7 +31,9 @@ This section contains the following articles:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-mgmt-overview/migrate-resource-estimates-to-budgeting.md" class="MCXref xref" xrefformat="{para}">Migrate from Legacy Resource Estimates to Resource Budgeting </a> </li>
   -->
 
+<!--
 * [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+-->
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Classic"><a href="../../resource-mgmt/resource-mgmt-overview/current-resource-management-features.md" class="MCXref xref" xrefformat="{para}">Currently Released Resource Management Functionality</a> </li>

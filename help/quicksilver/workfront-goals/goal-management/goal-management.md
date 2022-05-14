@@ -22,7 +22,7 @@ For additional information about access to Workfront Goals, see [Requirements to
 Review the following articles to learn where you start with Workfront Goals, the importance of using goals, how to create, edit, comment, and manage goals, as well as how to filter and print goal information:
 
 * [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md) 
-* [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) 
+<!--* [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) -->
 * [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md) 
 * [Access and open goals in Adobe Workfront Goals](../../workfront-goals/goal-management/access-goals-in-wf-goals.md) 
 * [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md) 

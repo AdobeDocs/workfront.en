@@ -76,7 +76,7 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 
 * [Workfront Fusion release activity: Week of April 26, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md) 
 * [Workfront Fusion release activity: Week of April 19, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md) 
-* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)
+<!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
 
 ### March 2021
 

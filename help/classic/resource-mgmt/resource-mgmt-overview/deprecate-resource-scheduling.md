@@ -34,7 +34,7 @@ Over time, you can continue using the Workload Balancer for all your scheduling 
 
 This article describes the deprecation timeline and it outlines the functionality you are now using in the Scheduling tools in comparison to what is currently available in the Workload Balancer and what will become available soon. A more exact timeline will be announced through the Announcement Center and this article will be updated as this process continues during the following months.
 
-For information about building up a plan to migrate to the Workload Balancer, see [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md).
+<!--For information about building up a plan to migrate to the Workload Balancer, see [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md).-->
 
 >[!NOTE]
 >

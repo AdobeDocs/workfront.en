@@ -46,7 +46,8 @@ For information about granting and revoking a user's access to create and view p
 
   ![](assets/proof-access-proofhq-350x39.png)
 
+<!--
 >[!NOTE]
 >
 >There are some capabilities included in Workfront Proof standalone that are not included in Proofing in Workfront. To learn more, see [Standalone Workfront Proof to Integrated Proofing in Workfront overview](../../../administration-and-setup/manage-workfront/configure-proofing/move-to-proofing-in-workfront.md)
-
+-->

@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
 1. Click the name of the event notification you want to customize to open the **Event Notification** box.
 1. In the **Email Subject Line** box, change the text and fields, including custom fields, in the email subject.
 
-   The names of the fields added must match the camel case syntax of our database structure. For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).
+   The names of the fields added must match the camel case syntax of our database structure. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
 1. Click **Update** to save the new subject lines for your emails.
 

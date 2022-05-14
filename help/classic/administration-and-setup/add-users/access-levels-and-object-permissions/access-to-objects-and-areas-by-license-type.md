@@ -60,7 +60,7 @@ You can find detailed information about what the access levels allow for each ob
 * [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md) 
 * [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md) 
 * [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md) 
-* [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md) 
+<!--* [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md) -->
 * [Grant access to templates](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md) 
 * [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) 
 * [Grant access to Resource Management](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md) 

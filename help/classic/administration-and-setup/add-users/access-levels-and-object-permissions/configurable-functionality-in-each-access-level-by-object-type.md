@@ -702,7 +702,9 @@ In each access level, you can configure the following options for teams:
  </tbody> 
 </table>
 
+<!--
 &#42; For information about these options, see [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md).
+-->
 
 ## Templates
 

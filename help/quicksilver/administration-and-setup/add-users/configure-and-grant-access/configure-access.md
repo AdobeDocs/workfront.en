@@ -21,7 +21,7 @@ These articles explain how you, as an Adobe Workfront administrator, can grant u
 * [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
 * [Grant access to documents](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md) 
 * [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md) 
-* [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md) 
+<!--* [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md) -->
 * [Grant access to templates](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md) 
 * [Grant access to reports, dashboards, and calendars](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md) 
 * [Grant access to portfolios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md) 

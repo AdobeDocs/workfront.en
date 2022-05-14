@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
    ![edit_email_subject_line_for_event_notification_Approval_pending_on_issues.png](assets/edit-email-subject-line-350x176.png)
 
-   The names of the fields added must match the camel case syntax of our database structure. For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).
+   The names of the fields added must match the camel case syntax of our database structure. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
 1. Click **Update** to save the new subject lines for your emails.
 

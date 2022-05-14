@@ -23,9 +23,11 @@ For information about permissions on objects, see [Overview of sharing permissio
 
 For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and Add or edit an image or video in a custom form.
 
+<!--
 >[!TIP]
 >
 >Section breaks that you add to custom forms are saved in your system for re-use. For information about listing them, see [List and edit custom forms and widgets added to custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md).
+-->
 
 ## Access requirements
 

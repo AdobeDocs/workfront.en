@@ -12,7 +12,7 @@ description: The following releases were made available for Workfront Scenario P
 
 The following releases were made available for Workfront Scenario Planner:
 
-* [Adobe Workfront Scenario Planner with the 21.4 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-4.md) 
+<!--* [Adobe Workfront Scenario Planner with the 21.4 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-4.md) -->
 * [Adobe Workfront Scenario Planner with the 21.3 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md) 
 * [Adobe Workfront Scenario Planner with the 21.2 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md) 
 * [Adobe Workfront Scenario Planner with the 21.1 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md) 

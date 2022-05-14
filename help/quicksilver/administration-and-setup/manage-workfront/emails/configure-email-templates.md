@@ -103,7 +103,7 @@ For example, the body of the email for a notification alerting the assignee of t
 </pre> To get the "wildcard" value for an object, do one of the following:
 -->
 
-* Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).
+<!--* Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 * Use the "valuefield" value you find inside of a text mode view of a report. For more information about text mode values, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
   The "heading" value can be the name of the object, as you want it to appear in the email body.

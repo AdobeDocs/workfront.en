@@ -33,7 +33,9 @@ A new section in the Access Levels area gives you more granular controls for man
 
 This does not change your users' existing access to teams.
 
+<!--
 For more information, see [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md).
+-->
 
 <!--WRITER
 <iframe class="vimeo-player_0" src="assets/652603175?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>

@@ -57,8 +57,8 @@ reference to issues in the following contexts:&nbsp;
 * When you create a text mode custom report for issues, and you want to reference issues in views, filters, groupings, or prompts.  
   For more information about using text mode in a report, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-* When you pull information about issues using our API.  
-  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)
+<!--* When you pull information about issues using our API.  
+  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
 
 * When you update issue fields in a Kick-Start data importer sheet.  
   For more information about importing data in Workfront using a Kick-Start, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
